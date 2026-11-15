@@ -3,3 +3,15 @@ build/
 runs/
 .cache/
 .DS_Store
+# pnpm workspace / new app
+.env
+.env.*
+!.env.example
+.env*.local
+.env.convex-*
+**/playwright/.auth/
+.convex/
+apps/web/static/assets/
+.svelte-kit/
+test-results/
+playwright-report/

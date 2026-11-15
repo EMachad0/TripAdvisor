@@ -1,0 +1,19 @@
+[
+  {
+    "id": "boots",
+    "category": "Clothes",
+    "item": "Winter boots",
+    "note": "For Harbin.",
+    "qty": 1,
+    "packed": false,
+    "order": 1
+  },
+  {
+    "id": "adapter",
+    "category": "Tech",
+    "item": "Plug adapter",
+    "qty": 2,
+    "packed": true,
+    "order": 2
+  }
+]

@@ -5,7 +5,7 @@ import path from 'node:path';
 import http from 'node:http';
 import { c, formatResults, table } from './ui.js';
 import { searchHint, titleCity } from './atr-hint.js';
-import { ROOT, dataRoots, isFixtureMode, localDate } from '../lib/paths.js';
+import { PLATFORM, dataRoots, isFixtureMode, liveDirs, localDate, readOnlyFeedbackDir } from '../lib/paths.js';
 import { validateAll } from '../lib/validate.js';
 import { findPlaceFiles, resolvePlace, resolveArea, loadPlaces, loadAreas } from '../lib/load.js';
 import { BLOCKS, BLOCK_TYPES } from '../lib/schema/blocks.js';
@@ -46,6 +46,25 @@ const out = (opts, data, text) => console.log(opts.json ? JSON.stringify(data, n
 const fail = (msg, code = 1) => { console.error(c.red('✖ ') + msg); process.exitCode = code; };
 const today = () => localDate();
 const nameOf = (f) => path.relative(process.cwd(), f) || '.';
+
+/** The feedback dir for read-only commands (paths.js readOnlyFeedbackDir), warning on stderr when the pull is old. */
+async function readFeedbackDir(o) {
+  const dir = readOnlyFeedbackDir(o);
+  if (dir === liveDirs().feedback) {
+    const { pullInfo } = await import('../lib/feedback/pull.js');
+    const p = pullInfo(dir);
+    if (p?.stale) console.error(c.yellow(`▲ ${nameOf(dir)} was pulled ${Math.round(p.ageHours)} h ago (${p.pulledAt}); run ./atr feedback pull`));
+  }
+  return dir;
+}
+
+/** ./atr feedback pull, ./atr trip pull: the export bundle from the site into .cache/<kind>-live/ (lib/feedback/pull.js). */
+async function pullCmd(kind, o) {
+  const { pull } = await import('../lib/feedback/pull.js');
+  const r = await pull({ kind, url: o.url, cacheDir: dataRoots().cache });
+  out(o, r, `${c.green('✔')} pulled ${r.files.length} file(s) into ${nameOf(r.dir)} (export of ${r.generatedAt ?? 'unknown time'}): ${r.files.map((f) => `${f.name} ${f.count}`).join(', ') || 'none'}`);
+}
+const PULL_OPTION = { url: { type: 'string', desc: 'pull: the site that serves /ops/export (default ATR_EXPORT_URL); token from ATR_EXPORT_TOKEN or the keychain' } };
 
 // ───────────────────────── new ─────────────────────────
 cmd('new', {
@@ -481,9 +500,9 @@ cmd('gaps', {
 // ───────────────────────── taste ─────────────────────────
 cmd('taste', {
   summary: 'what the traveler said they want: goal, interests, must-do list with status; plus what the game logged',
-  usage: './atr taste [--json]',
-  details: 'Reads config/taste.yaml (stated taste, owned by the orchestrator) and the feedback logs. A place or area claims a must-do item with `must_do: <key>`.',
-  options: {},
+  usage: './atr taste [--dir <feedback-dir>] [--json]',
+  details: 'Reads config/taste.yaml (stated taste, owned by the orchestrator) and the feedback logs (--dir, else ATR_FEEDBACK_DIR, else .cache/feedback-live/ after ./atr feedback pull, else feedback/). A place or area claims a must-do item with `must_do: <key>`.',
+  options: { dir: { type: 'string', desc: 'feedback directory' } },
   async run(o) {
     const { readTaste, mustDoStatus, tasteDisagreements, formatStatedTaste } = await import('../lib/taste.js');
     const { readFeedback, tasteSummary } = await import('../lib/feedback/index.js');
@@ -498,7 +517,7 @@ cmd('taste', {
       return;
     }
     const places = loadPlaces(o), areas = loadAreas(o);
-    const summary = tasteSummary(readFeedback(dataRoots(o).feedback), { places, areas, cfg: loadTripConfig(o) });
+    const summary = tasteSummary(readFeedback(await readFeedbackDir(o)), { places, areas, cfg: loadTripConfig(o) });
     const data = { taste: rt.taste, mustDo: mustDoStatus(rt.taste, places, areas), summary: { totals: summary.totals, categories: summary.categories }, disagreements: tasteDisagreements(rt.taste, summary) };
     out(o, data, formatStatedTaste(data, c) + (rt.issues.length ? `\n\n${rt.issues.map(formatIssue).join('\n')}` : ''));
   },
@@ -507,16 +526,16 @@ cmd('taste', {
 // ───────────────────────── next ─────────────────────────
 cmd('next', {
   summary: 'what to do now: a ranked list of concrete one-line tasks (from gaps + taste), ready for ./atr run',
-  usage: './atr next [--count 5] [--country <id>] [--json]',
+  usage: './atr next [--count 5] [--country <id>] [--dir <feedback-dir>] [--json]',
   details: 'Order: open must-do items (earliest country first) with area cards mixed in, empty fixed cities, stay cards, category deficits by interest, page repairs, new feedback. Each task fits one headless session.',
-  options: { count: { type: 'string', desc: 'how many tasks (default 5)' }, country: { type: 'string', desc: 'only this country (plus must-do items without a country)' } },
+  options: { count: { type: 'string', desc: 'how many tasks (default 5)' }, country: { type: 'string', desc: 'only this country (plus must-do items without a country)' }, dir: { type: 'string', desc: 'feedback directory (default: as ./atr feedback)' } },
   examples: ['./atr next', './atr next --count 10 --country china', './atr run --auto 3'],
   async run(o) {
     const { nextTasks, formatNext } = await import('../lib/next.js');
     if (o.country && !COUNTRY_IDS.includes(o.country)) return fail(`--country must be one of: ${COUNTRY_IDS.join(', ')}${nearest(o.country, COUNTRY_IDS) ? ` (did you mean ${nearest(o.country, COUNTRY_IDS)}?)` : ''}`);
     const count = o.count === undefined ? 5 : Number(o.count);
     if (!Number.isInteger(count) || count < 1) return fail('--count must be a whole number ≥ 1');
-    const r = nextTasks({ ...o, count });
+    const r = nextTasks({ ...o, count, feedbackDir: await readFeedbackDir(o) });
     out(o, r, formatNext(r, c));
   },
 });
@@ -524,14 +543,15 @@ cmd('next', {
 // ───────────────────────── feedback ─────────────────────────
 cmd('feedback', {
   summary: "summarise the traveler's taste from the game's feedback logs",
-  usage: './atr feedback [--since YYYY-MM-DD] [--dir <feedback-dir>] [--json]\n       ./atr feedback --new                 (only what arrived since you last marked it seen, grouped for action)\n       ./atr feedback --place <id>          (every verdict, duel and question for one place or area)\n       ./atr feedback --mark-seen [--upto <ts>]   (after processing: move the cursor)\n       ./atr feedback --mark-seen --place <id>    (only that page\'s feedback is done; the rest stays new)',
+  usage: './atr feedback [--since YYYY-MM-DD] [--dir <feedback-dir>] [--json]\n       ./atr feedback pull [--url <site>]       (the live logs into .cache/feedback-live/, which the read-only commands then use)\n       ./atr feedback --new                 (only what arrived since you last marked it seen, grouped for action)\n       ./atr feedback --place <id>          (every verdict, duel and question for one place or area)\n       ./atr feedback --mark-seen [--upto <ts>]   (after processing: move the cursor)\n       ./atr feedback --mark-seen --place <id>    (only that page\'s feedback is done; the rest stays new)',
   details: 'Reads feedback/swipes.jsonl, duels.jsonl, questions.jsonl, notes.jsonl (the traveler\'s own notes on cards) and route.jsonl (the order of cities and nights per country from the game\'s Route tab; shown under "Route", seeded from `route:` in config/trip.yaml); format: docs/FEEDBACK-FORMAT.md. Bad lines are skipped with a warning. The "seen" cursor is places/_feedback-seen.json; --mark-seen sets it to the newest event (or to --upto, the timestamp --new printed, so events that arrived while you worked stay new).',
-  options: { since: { type: 'string', desc: 'only events on/after this date' }, dir: { type: 'string', desc: 'feedback directory' }, new: { type: 'boolean', desc: 'only events after the cursor: questions per place, new musts/skips, area musts' }, place: { type: 'string', desc: 'everything about one place or area id; with --mark-seen: mark only that page\'s feedback as seen' }, 'mark-seen': { type: 'boolean', desc: 'move the cursor (run it after you processed --new)' }, upto: { type: 'string', desc: '--mark-seen: mark seen up to this ISO timestamp' } },
-  examples: ['./atr feedback', './atr feedback --new', './atr feedback --place yu-garden', './atr feedback --mark-seen --upto 2026-11-21T11:10:00Z'],
-  async run(o) {
+  options: { ...PULL_OPTION, since: { type: 'string', desc: 'only events on/after this date' }, dir: { type: 'string', desc: 'feedback directory (default ATR_FEEDBACK_DIR, else .cache/feedback-live/ after a pull, else feedback/)' }, new: { type: 'boolean', desc: 'only events after the cursor: questions per place, new musts/skips, area musts' }, place: { type: 'string', desc: 'everything about one place or area id; with --mark-seen: mark only that page\'s feedback as seen' }, 'mark-seen': { type: 'boolean', desc: 'move the cursor (run it after you processed --new)' }, upto: { type: 'string', desc: '--mark-seen: mark seen up to this ISO timestamp' } },
+  examples: ['./atr feedback pull', './atr feedback', './atr feedback --new', './atr feedback --place yu-garden', './atr feedback --mark-seen --upto 2026-11-21T11:10:00Z'],
+  async run(o, pos = []) {
+    if (pos[0] === 'pull') return pullCmd('feedback', o);
     const { readFeedback, tasteSummary, formatTaste, newFeedback, formatNewFeedback, placeFeedback, formatPlaceFeedback, markSeen } = await import('../lib/feedback/index.js');
     const { loadTripConfig } = await import('../lib/config.js');
-    const dir = o.dir ? path.resolve(o.dir) : dataRoots(o).feedback;
+    const dir = await readFeedbackDir(o);
     if (o['mark-seen']) {
       if (o.upto && isNaN(Date.parse(o.upto))) return fail(`--upto must be an ISO timestamp like 2026-11-21T11:10:00Z (./atr feedback --new prints it)`);
       const r = markSeen(readFeedback(dir), { ...o, ts: o.upto, place: o.place });
@@ -569,7 +589,9 @@ cmd('run', {
     if (o.auto) {
       const count = pos.length ? Number(pos[0]) : 1;
       if (pos.length > 1 || !Number.isInteger(count) || count < 1) return fail('--auto takes an optional count: ./atr run --auto 3   (for a task of your own, drop --auto)');
-      const a = await runAuto({ ...common, count, country: o.country });
+      const { nextTasks } = await import('../lib/next.js');
+      const feedbackDir = await readFeedbackDir(o);
+      const a = await runAuto({ ...common, count, country: o.country, next: (no) => nextTasks({ ...no, feedbackDir }) });
       if (o.json) return console.log(JSON.stringify(a, null, 2));
       if (a.dryRun) return;
       for (const r of a.runs) report(r);
@@ -586,6 +608,19 @@ cmd('run', {
     const last = r.rounds.at(-1);
     if (last?.result) console.log(`\n${c.dim('curator report:')}\n${last.result}`);
     if (!r.clean) process.exitCode = 1;
+  },
+});
+
+// ───────────────────────── trip ─────────────────────────
+cmd('trip', {
+  summary: 'trip planner data: pull the live collections (legs, tasks, bag, …) for reading',
+  usage: './atr trip pull [--url <site>]',
+  details: 'Writes trip/*.json from the site export into .cache/trip-live/ (gitignored). Same rules as ./atr feedback pull: the token comes from ATR_EXPORT_TOKEN or the macOS keychain (service atr-export-token), checksums are verified, and a target with files newer than the last pull is never replaced.',
+  options: { ...PULL_OPTION },
+  examples: ['./atr trip pull', 'ATR_EXPORT_URL=https://cvx.example ./atr trip pull'],
+  async run(o, pos = []) {
+    if (pos[0] !== 'pull') return fail('say what to do: ./atr trip pull');
+    return pullCmd('trip', o);
   },
 });
 
@@ -882,7 +917,7 @@ cmd('schema', {
     const { FEEDBACK_SPECS } = await import('../lib/feedback/index.js');
     const { tasteSpec } = await import('../lib/taste.js');
     const { reviewSpec } = await import('../lib/review.js');
-    const dir = path.join(ROOT, 'platform', 'schema');
+    const dir = path.join(PLATFORM, 'schema');
     const files = {
       'place.schema.json': { title: 'Place', ...toJsonSchema(placeSpec) },
       'area.schema.json': { title: 'Area card', ...toJsonSchema(areaSpec) },

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "2026-12-24",
+    "status": "vacation",
+    "holiday": "Christmas Eve",
+    "note": "Harbin."
+  },
+  {
+    "id": "2026-12-25",
+    "status": "off",
+    "holiday": "Christmas"
+  },
+  {
+    "id": "2027-01-05",
+    "status": "work"
+  }
+]

@@ -1,0 +1,45 @@
+# Self-hosted Convex for local development and CI (the same image the VPS runs, plan section 12).
+# Start, key and deploy through scripts/convex-local.sh; never run it on the VPS.
+# The image tag is the 40-char commit sha of release precompiled-2026-11-13-e8a049c (never :latest).
+name: atr-convex-local
+
+services:
+  backend:
+    image: ghcr.io/convex/convex-backend:e8a049cdc83158304d4b7914858433bc45a32c5d
+    stop_grace_period: 10s
+    stop_signal: SIGINT
+    ports:
+      - '127.0.0.1:${CONVEX_PORT:-3210}:3210'
+      - '127.0.0.1:${CONVEX_SITE_PORT:-3211}:3211'
+    volumes:
+      - data:/convex/data
+    environment:
+      INSTANCE_NAME: ${INSTANCE_NAME:-atr-local}
+      INSTANCE_SECRET: ${INSTANCE_SECRET:?run scripts/convex-local.sh up, which generates it}
+      CONVEX_CLOUD_ORIGIN: http://127.0.0.1:${CONVEX_PORT:-3210}
+      CONVEX_SITE_ORIGIN: http://127.0.0.1:${CONVEX_SITE_PORT:-3211}
+      DISABLE_BEACON: 'true'
+      DISABLE_METRICS_ENDPOINT: 'true'
+      REDACT_LOGS_TO_CLIENT: 'true'
+      DO_NOT_REQUIRE_SSL: 'true'
+      RUST_LOG: ${RUST_LOG:-info}
+    healthcheck:
+      test: curl -f http://localhost:3210/version
+      interval: 2s
+      start_period: 10s
+
+  dashboard:
+    profiles: [dashboard]
+    image: ghcr.io/convex/convex-dashboard:e8a049cdc83158304d4b7914858433bc45a32c5d
+    stop_grace_period: 10s
+    stop_signal: SIGINT
+    ports:
+      - '127.0.0.1:6791:6791'
+    environment:
+      NEXT_PUBLIC_DEPLOYMENT_URL: http://127.0.0.1:${CONVEX_PORT:-3210}
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  data:

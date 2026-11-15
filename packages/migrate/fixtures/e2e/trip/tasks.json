@@ -1,0 +1,24 @@
+[
+  {
+    "id": "visa-check",
+    "title": "Check China visa-free entry",
+    "status": "done",
+    "note": "Transit rule covers 30 days.",
+    "order": 1,
+    "done": true
+  },
+  {
+    "id": "esim",
+    "title": "Buy an eSIM",
+    "suggested": true,
+    "status": "todo",
+    "note": "",
+    "order": 2
+  },
+  {
+    "id": "jr-pass",
+    "title": "Decide on the JR pass",
+    "status": "doing",
+    "order": 3
+  }
+]

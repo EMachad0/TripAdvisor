@@ -1,0 +1,12 @@
+[
+  {
+    "id": "china",
+    "country": "china",
+    "currency": "CNY",
+    "bed": 120,
+    "food": 90,
+    "other": 60,
+    "pay": "Alipay with a foreign card.",
+    "order": 1
+  }
+]

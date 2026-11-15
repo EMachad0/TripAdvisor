@@ -1,0 +1,16 @@
+{
+  "v": 1,
+  "firstRun": "2026-11-01T00:00:00Z",
+  "firstSeen": {
+    "hongyadong-night": "2026-11-09T00:00:00Z",
+    "khao-san-road": "2026-11-09T00:00:00Z",
+    "dotonbori-kani-doraku": "2026-11-09T00:00:00Z"
+  },
+  "days": {
+    "china": 25,
+    "japan": 11
+  },
+  "locks": {
+    "nye": "harbin-ice-world"
+  }
+}

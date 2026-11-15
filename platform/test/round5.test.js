@@ -493,7 +493,8 @@ test('cli: atr next prints a numbered list with the why underneath; --json has r
 // ───────────────────────── runner ─────────────────────────
 test('runner: the allow-list matches what sessions use; protected paths stay denied', () => {
   for (const t of ['Read', 'Write', 'Edit', 'Bash', 'WebSearch', 'WebFetch', 'Agent', 'ToolSearch']) assert.ok(ALLOWED_TOOLS.includes(t), t);
-  for (const p of ['platform', 'docs', 'config', 'feedback', 'game']) for (const t of ['Edit', 'Write']) assert.ok(DISALLOWED_TOOLS.includes(`${t}(./${p}/**)`), `${t} ${p}`);
+  for (const p of ['platform', 'docs', 'config', 'feedback', 'game', 'apps', 'packages', 'tooling', 'deploy', 'scripts']) for (const t of ['Edit', 'Write']) assert.ok(DISALLOWED_TOOLS.includes(`${t}(./${p}/**)`), `${t} ${p}`);
+  for (const f of ['pnpm-lock.yaml', 'pnpm-workspace.yaml', 'package.json', 'package-lock.json']) assert.ok(DISALLOWED_TOOLS.includes(`Write(./${f})`), f);
   assert.ok(!DISALLOWED_TOOLS.some((d) => /places|areas/.test(d)));
 });
 

@@ -1,0 +1,17 @@
+{"v":1,"ts":"2026-11-10T09:00:00Z","session":"s-shots","round":"area","id":"harbin","verdict":"must","country":"china"}
+{"v":1,"ts":"2026-11-10T09:01:00Z","session":"s-shots","round":"place","id":"harbin-ice-world","verdict":"must","country":"china"}
+{"v":1,"ts":"2026-11-10T09:02:00Z","session":"s-shots","round":"place","id":"bund-countdown","verdict":"must","country":"china"}
+{"v":1,"ts":"2026-11-10T09:03:00Z","session":"s-shots","round":"place","id":"great-wall-mutianyu","verdict":"must","country":"china"}
+{"v":1,"ts":"2026-11-10T09:04:00Z","session":"s-shots","round":"place","id":"xintiandi-christmas-market","verdict":"maybe","country":"china"}
+{"v":1,"ts":"2026-11-10T09:05:00Z","session":"s-shots","round":"place","id":"bund-techno-club","verdict":"maybe","country":"china"}
+{"v":1,"ts":"2026-11-10T09:06:00Z","session":"s-shots","round":"place","id":"nanxiang-dumplings","verdict":"must","country":"china"}
+{"v":1,"ts":"2026-11-10T09:07:00Z","session":"s-shots","round":"place","id":"hongyadong-night","verdict":"must","country":"china"}
+{"v":1,"ts":"2026-11-10T09:08:00Z","session":"s-shots","round":"place","id":"lol-park-t1","verdict":"must","country":"korea"}
+{"v":1,"ts":"2026-11-10T09:09:00Z","session":"s-shots","round":"place","id":"gwangjang-food-alley","verdict":"maybe","country":"korea"}
+{"v":1,"ts":"2026-11-10T09:10:00Z","session":"s-shots","round":"place","id":"bukhansan-snow-hike","verdict":"maybe","country":"korea"}
+{"v":1,"ts":"2026-11-10T09:11:00Z","session":"s-shots","round":"place","id":"shibuya-sky","verdict":"must","country":"japan"}
+{"v":1,"ts":"2026-11-10T09:12:00Z","session":"s-shots","round":"place","id":"suga-shrine-stairs","verdict":"maybe","country":"japan"}
+{"v":1,"ts":"2026-11-10T09:13:00Z","session":"s-shots","round":"place","id":"victoria-peak-tram","verdict":"must","country":"hong-kong"}
+{"v":1,"ts":"2026-11-10T09:14:00Z","session":"s-shots","round":"place","id":"chatuchak-weekend-market","verdict":"skip","country":"thailand"}
+{"v":1,"ts":"2026-11-10T09:29:00Z","session":"s-e2e","round":"place","id":"shibuya-sky","verdict":"must","country":"japan","ms":5400}
+{"v":1,"ts":"2026-11-10T09:30:00Z","session":"s-e2e","round":"area","id":"kyoto","verdict":"maybe","country":"japan","x_source":"e2e-fixture"}
