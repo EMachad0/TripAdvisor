@@ -1,6 +1,7 @@
 ---
 question: Do I need the yellow fever certificate for Thailand, and how do I get the vaccine and the certificate in Brazil?
 asked: 2026-11-15
+updated: 2026-11-15
 about: thailand
 tldr: "Probably not required (you arrive from China, not Brazil), but Brazil is on Thailand's list and you live there, so carry the free CIVP. Europe never asks for it (as of Nov 2026)."
 sources:
@@ -30,4 +31,4 @@ sources:
 
 **Getting the certificate (CIVP):**
 1. Log in to the Meu SUS Digital app or meususdigital.saude.gov.br with gov.br and look for the yellow fever CIVP. Download the PDF.
-2. If the dose doesn't show (common for shots before 2023), use the gov.br form (in the sources) and attach a PDF scan of the paper card page. Allow about 10 days.
+2. If the dose doesn't show (common for shots before 2023), use the gov.br form (in the sources) and attach a photo or PDF scan of the paper card page. gov.br says the answer takes from minutes up to 5 business days (as of Nov 2026).
