@@ -299,12 +299,11 @@ export function viewToday(v, arg) {
     ? `<div class="t-list">${m.tasks.slice(0, 5).map((x) => taskRow(x, { compact: true })).join('')}</div>${m.tasks.length > 5 ? `<a class="t-cardlink" href="#/todo"><span><b>${m.tasks.length - 5} more</b> to do</span>${ico(I.arrow, 18)}</a>` : ''}`
     : '<p class="t-quiet">Everything is ticked.</p>'}</section>`);
 
-  // ask
-  side.push(`<section class="t-block t-ask" id="tripask"><h2>Ask about the trip</h2>
-    <p class="t-quiet">Claude reads the itinerary, your calls and the place cards, then answers here. It needs this computer to be running the site.</p>
-    <form class="t-ask__form" autocomplete="off"><textarea name="q" rows="2" maxlength="2000" placeholder="e.g. Where was that ramen shop in Osaka?" required></textarea><button type="submit" class="g-btn">Ask</button></form>
-    <div class="t-ask__chips">${['When is my next flight?', 'What can only be done today?', 'What is the next event I could go to?', 'What are my Must cards here?'].map((s) => `<button type="button" class="t-fchip" data-ask="${esc(s)}">${esc(s)}</button>`).join('')}</div>
-    <div class="t-ask__out" aria-live="polite"></div></section>`);
+  // the latest answer cards (answers/*.md); the full list is Places › Answers
+  const latest = (G.S.answers || []).slice(0, 3);
+  if (latest.length) side.push(`<section class="t-block t-qa"><h2>Latest answers <small>${plural(G.S.answers.length, 'answer')}</small></h2>
+    <ul class="t-qa__list">${latest.map(answerRow).join('')}</ul>
+    <a class="t-cardlink" href="#/answers"><span><b>All answers</b>, by country</span>${ico(I.arrow, 18)}</a></section>`);
 
   v.innerHTML = `<section class="wrap t-page t-today">
     ${head(`${fmtDay(k)} ${k.slice(0, 4)}${k !== real ? ' · not today' : ''}`, title, sub, `<label class="t-daypick"><span>${k !== real ? 'Looking at' : 'Look at another day'}</span><input type="date" id="t-day" value="${esc(k)}"></label>${k !== real ? '<button class="g-btn g-btn--ghost t-btn" data-act="today-reset">Back to today</button>' : ''}`)}
@@ -312,7 +311,20 @@ export function viewToday(v, arg) {
     <div class="t-grid"><div class="t-col">${cards.join('')}</div><div class="t-col">${side.join('')}</div></div>
   </section>`;
   $('#t-day', v).addEventListener('change', (e) => { T.day = e.target.value && e.target.value !== localKey() ? e.target.value : null; G.rerender(); });
-  bindAsk(v);
+  G.bindAnswerLinks?.(v);
+}
+
+/** Markdown in a tldr as plain text (the compact card shows no links or emphasis). */
+const plainMd = (s) => String(s || '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[*_`]/g, '');
+/** One compact answer card on Today: the question (opens it on the Answers page), the tldr, the date and what it is about. */
+function answerRow(a) {
+  const about = a.about.kind === 'trip' ? 'Whole trip' : a.about.kind === 'country' ? esc(a.about.name)
+    : `<a href="/${a.about.kind}/${enc(a.about.id)}" data-open-kind="${esc(a.about.kind)}" data-open-id="${esc(a.about.id)}">${esc(a.about.name)}</a>`;
+  return `<li class="t-qa__item" data-answer="${esc(a.id)}"${tzAttr(countryOff(a.country))}>
+    <a class="t-qa__q" href="#/answers/${enc(a.id)}">${esc(a.question)}</a>
+    <p class="t-qa__tldr">${esc(plainMd(a.tldr))}</p>
+    <small>${esc(fmtShort(a.asked))} ${esc(a.asked.slice(0, 4))} · ${about}</small>
+  </li>`;
 }
 
 function countdown(fl, k) {
@@ -325,50 +337,6 @@ function countdown(fl, k) {
   const at = instantOf(fl.start, legOff(fl).start); // the real instant, so it is right whatever zone this device is in
   const mins = Number.isFinite(at) ? Math.round((at - Date.now()) / 6e4) : (+t.slice(0, 2)) * 60 + (+t.slice(3)) - (new Date().getHours() * 60 + new Date().getMinutes());
   return mins > 0 ? `in ${Math.floor(mins / 60)} h ${String(mins % 60).padStart(2, '0')} min` : 'today';
-}
-
-function bindAsk(v) {
-  const form = $('.t-ask__form', v), out = $('.t-ask__out', v), ta = $('textarea', form);
-  let busy = false;
-  const ask = async (question) => {
-    question = String(question || '').trim();
-    if (!question || busy) return;
-    busy = true; form.classList.add('is-busy');
-    const card = document.createElement('div');
-    card.className = 't-answer is-live';
-    card.innerHTML = `<p class="t-answer__q">${esc(question)}</p><p class="t-answer__status">Thinking…</p><div class="t-answer__body"></div>`;
-    out.prepend(card);
-    const status = $('.t-answer__status', card), body = $('.t-answer__body', card);
-    let text = '';
-    try {
-      const res = await fetch('/api/trip-ask', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question, today: today() }) });
-      if (!res.ok || !res.body) { const j = await res.json().catch(() => ({})); throw new Error(j.error || `HTTP ${res.status}`); }
-      const reader = res.body.getReader(), dec = new TextDecoder();
-      let buf = '', finished = false;
-      for (;;) {
-        const { value, done } = await reader.read();
-        if (done) break;
-        buf += dec.decode(value, { stream: true });
-        let i;
-        while ((i = buf.indexOf('\n')) >= 0) {
-          const line = buf.slice(0, i); buf = buf.slice(i + 1);
-          let ev; try { ev = JSON.parse(line); } catch { continue; }
-          if (ev.type === 'status') status.textContent = ev.text;
-          else if (ev.type === 'reset') { text = ''; body.textContent = ''; }
-          else if (ev.type === 'delta') { text += ev.text; body.textContent = text.replace(/\n?\s*\**TL;?DR[\s\S]*$/i, ''); status.textContent = 'Writing…'; }
-          else if (ev.type === 'done') { finished = true; body.innerHTML = `<div class="rich">${ev.html}</div>${ev.tldr ? `<p class="t-answer__tldr"><b>In short</b> ${esc(ev.tldr)}</p>` : ''}`; status.remove(); }
-          else if (ev.type === 'error') { finished = true; throw new Error(ev.message); }
-        }
-      }
-      if (!finished) throw new Error('the answer stopped early');
-    } catch (e) {
-      status?.remove();
-      body.innerHTML = `${text ? `<p>${esc(text)}</p>` : ''}<p class="t-answer__warn">Couldn’t get an answer: ${esc(e.message)}.</p>`;
-    } finally { card.classList.remove('is-live'); busy = false; form.classList.remove('is-busy'); }
-  };
-  form.addEventListener('submit', (e) => { e.preventDefault(); const q = ta.value; ta.value = ''; ask(q); });
-  ta.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); form.requestSubmit(); } });
-  $$('[data-ask]', v).forEach((b) => b.addEventListener('click', () => ask(b.dataset.ask)));
 }
 
 // ---------------------------------------------------------------- itinerary

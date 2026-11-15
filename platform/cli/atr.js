@@ -388,7 +388,7 @@ cmd('preview', {
 
 // ───────────────────────── game ─────────────────────────
 cmd('game', {
-  summary: 'play the ranking game in your browser (local server; swipes, duels, board, holidays, Ask)',
+  summary: 'run the trip site locally (today, itinerary, places, answers, the ranking game, money, prep)',
   usage: './atr game [--port 4400] [--open] [--fixtures] [--root <data dir>] [--feedback <dir>]',
   details: 'Starts a local server on a free port and prints the URL. Re-reads places/ and areas/ on every request, so new curator content appears on refresh (marked "New"). Writes feedback/*.jsonl (docs/FEEDBACK-FORMAT.md) and feedback/game-state.json.',
   options: { port: { type: 'string', desc: 'preferred port (default 4400, else any free port)' }, open: { type: 'boolean', desc: 'open the browser' }, root: { type: 'string', desc: 'another data root (places/ areas/ feedback/), e.g. game/test/fixtures' }, feedback: { type: 'string', desc: 'feedback directory (default <data root>/feedback)' } },
@@ -822,6 +822,54 @@ cmd('qr', {
     for (const t of r.codes) console.log(t);
     if (!r.codes.length) fail('no standard QR code could be decoded.');
     console.log(c.yellow(`▲ ${r.codes.length} QR code(s) decoded. If the image shows MORE codes than listed here, the others are probably WeChat mini-program "sun codes" (round, with a logo in the middle) or other non-QR codes — those can't be decoded. Use the official website or the Trip.com/Klook page instead, and note it in confidence_note.`));
+  },
+});
+
+// ───────────────────────── answers ─────────────────────────
+cmd('answers', {
+  summary: 'answer cards (answers/*.md): list, check, find ids, publish to the hosted site',
+  usage: './atr answers [--country <c>] [--about <id>]          (list, newest first)\n       ./atr answers --check                              (validate every answer; exit 1 on errors)\n       ./atr answers --ids [--country <c>]                (the ids you can put in about:)\n       ./atr answers publish <file...> [--remove <file>]... [--no-merge] [--dry-run]',
+  details: `One Markdown file per answer: answers/<asked>-<short-slug>.md with front matter question, asked (YYYY-MM-DD), about (a place id, an area id, a country id or "trip"), tldr, optional sources [{ title, url }] and updated; the body is the full answer (may be empty). Workflow: .claude/skills/trip-answers/SKILL.md.
+
+publish validates the files, makes a temporary git worktree from a fresh origin/main (your working tree is never touched), copies only those files in (--remove deletes one), commits, pushes a branch, opens a pull request with gh, merges it (merge commit), removes the worktree and the branch, then follows the deploy over SSH (read-only) and checks /healthz. --no-merge stops after opening the PR; --dry-run only validates and prints the plan.`,
+  options: { check: { type: 'boolean', desc: 'validate every answer file; exit 1 on errors' }, ids: { type: 'boolean', desc: 'list place, area and country ids for about:' }, country: { type: 'string', desc: 'only this country' }, about: { type: 'string', desc: 'list: only answers about this id' }, remove: { type: 'string', multiple: true, desc: 'publish: delete this answer from the site (repeatable)' }, 'no-merge': { type: 'boolean', desc: 'publish: stop after opening the pull request' }, 'dry-run': { type: 'boolean', desc: 'publish: validate and show the plan; nothing fetched, written or pushed' } },
+  examples: ['./atr answers', './atr answers --check', './atr answers --ids --country japan', './atr answers publish answers/2026-11-21-yu-garden-passport.md', './atr answers publish --remove answers/2026-11-21-yu-garden-passport.md', './atr answers publish answers/2026-11-21-yu-garden-passport.md --dry-run'],
+  async run(o, pos) {
+    const { checkAnswers, byNewest } = await import('../lib/answers.js');
+    if (pos[0] === 'publish') {
+      const { publishAnswers, PublishError } = await import('../lib/publish.js');
+      try {
+        const r = await publishAnswers({ files: pos.slice(1), remove: o.remove || [], merge: !o['no-merge'], dryRun: !!o['dry-run'], log: o.json ? () => {} : (l) => console.log(l) });
+        if (o.json) console.log(JSON.stringify(r, null, 2));
+        if (!r.ok) process.exitCode = 1;
+      } catch (e) {
+        if (e instanceof PublishError) return fail(e.message);
+        throw e;
+      }
+      return;
+    }
+    if (pos.length) return fail(`unknown argument "${pos[0]}" (did you mean \`./atr answers publish ${pos.join(' ')}\`?)`);
+    if (o.ids) {
+      if (o.country && !COUNTRY_IDS.includes(o.country)) return fail(`--country must be one of: ${COUNTRY_IDS.join(', ')}`);
+      const inC = (x) => !o.country || x.country === o.country;
+      const places = loadPlaces(o).filter((p) => p?.id && inC(p)).sort((a, b) => a.country.localeCompare(b.country) || String(a.city).localeCompare(String(b.city)) || a.id.localeCompare(b.id));
+      const areas = loadAreas(o).filter((a) => a?.id && inC(a)).sort((a, b) => a.country.localeCompare(b.country) || a.id.localeCompare(b.id));
+      const countries = COUNTRY_IDS.filter((x) => !o.country || x === o.country);
+      const data = { trip: 'trip', countries, areas: areas.map((a) => ({ id: a.id, name: a.name, country: a.country })), places: places.map((p) => ({ id: p.id, name: p.name, country: p.country, city: p.city })) };
+      return out(o, data, [`${c.bold('about:')} the most specific thing that exists; "trip" for the whole trip`, '', c.bold('countries'), '  ' + countries.join(', '), '', c.bold(`areas (${areas.length})`), ...areas.map((a) => `  ${a.id.padEnd(28)} ${c.dim(`${a.country} · ${a.name}`)}`), '', c.bold(`places (${places.length})`), ...places.map((p) => `  ${p.id.padEnd(44)} ${c.dim(`${p.country}/${p.city} · ${p.name}`)}`)].join('\n'));
+    }
+    const r = checkAnswers({ ...o, today: today() });
+    if (o.check) {
+      const lines = [...r.errors.map((e) => `  ${c.red('error  ')} ${c.bold(nameOf(e.file))}\n          ${e.message}`), ...r.warnings.map((w) => `  ${c.yellow('warning')} ${c.bold(nameOf(w.file))}\n          ${w.message}`)];
+      out(o, { ok: !r.errors.length, answers: r.answers.length, errors: r.errors, warnings: r.warnings }, `${lines.join('\n')}${lines.length ? '\n' : ''}${r.errors.length ? c.red('✖') : c.green('✔')} ${r.answers.length} answer${r.answers.length === 1 ? '' : 's'} · ${r.errors.length} error${r.errors.length === 1 ? '' : 's'} · ${r.warnings.length} warning${r.warnings.length === 1 ? '' : 's'}${r.answers.length ? '' : ` (none in ${nameOf(dataRoots(o).answers)})`}`);
+      if (r.errors.length) process.exitCode = 1;
+      return;
+    }
+    const list = r.answers.filter((a) => (!o.country || a.target?.country === o.country) && (!o.about || a.target?.id === o.about || a.about === o.about)).sort(byNewest);
+    const bad = new Set(r.errors.map((e) => e.file));
+    out(o, list.map(({ errors, ...a }) => ({ ...a, file: nameOf(a.file), valid: !bad.has(a.file) })), list.length
+      ? list.map((a) => `${a.asked}  ${c.dim((a.target ? `${a.target.kind} ${a.target.id}` : `? ${a.about}`).padEnd(40))} ${a.question}${bad.has(a.file) ? c.red('  ✖ invalid (./atr answers --check)') : ''}\n            ${c.dim(nameOf(a.file))}`).join('\n') + `\n${c.dim(`${list.length} answer${list.length === 1 ? '' : 's'}`)}`
+      : 'no answers yet (answers/*.md). Write one with the trip-answers skill.');
   },
 });
 

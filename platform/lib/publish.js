@@ -1,0 +1,230 @@
+// `./atr answers publish`: ship answer files to the hosted site without touching the working tree.
+// validate → temp worktree from fresh origin/main → copy (or remove) only those files → commit → push a branch →
+// PR with gh → merge (merge commit) → clean up → wait for the deploy (read-only over SSH) → check /healthz.
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+import { ROOT } from './paths.js';
+import { parseAnswer, checkAnswers, resolveAbout, FILE_RE } from './answers.js';
+import { loadPlaces, loadAreas } from './load.js';
+import { SITE, answerLink, answerPageLink } from './site.js';
+
+export const COMMIT_TRAILER = 'Co-Authored-By: Claude <noreply@anthropic.com>';
+export const PR_FOOTER = '🤖 Generated with [Claude Code](https://claude.com/claude-code)';
+
+/** Run a command; never throws. → { code, stdout, stderr } */
+export function sh(cmd, args, { cwd, input } = {}) {
+  const r = spawnSync(cmd, args, { cwd, input, encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 });
+  if (r.error) return { code: 127, stdout: '', stderr: r.error.code === 'ENOENT' ? `${cmd}: command not found` : r.error.message };
+  return { code: r.status ?? 1, stdout: (r.stdout || '').trim(), stderr: (r.stderr || '').trim() };
+}
+
+export class PublishError extends Error {}
+const clip = (s, n) => (s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : s);
+
+/** The name an answer has in the repo (answers/<name>.md) from a path, a file name or an id. */
+export const answerName = (ref) => { const b = path.basename(String(ref)); return b.endsWith('.md') ? b : `${b}.md`; };
+
+/** Commit title, body and PR title for a set of changes [{ status: added|updated|removed, name, question }]. */
+export function describeChanges(changes) {
+  const n = (s) => changes.filter((c) => c.status === s).length;
+  const title = changes.length === 1
+    ? `${{ added: 'Add', updated: 'Update', removed: 'Remove' }[changes[0].status]} answer card: ${clip(changes[0].question || changes[0].name.replace(/\.md$/, ''), 60)}`
+    : `Answer cards: ${[['added', 'add'], ['updated', 'update'], ['removed', 'remove']].filter(([s]) => n(s)).map(([s, w]) => `${w} ${n(s)}`).join(', ')}`;
+  const lines = changes.map((c) => `- ${c.status}: answers/${c.name}${c.question ? ` (${clip(c.question, 80)})` : ''}`);
+  return {
+    title,
+    commit: `${title}\n\n${lines.join('\n')}\n\nPublished with ./atr answers publish.\n\n${COMMIT_TRAILER}\n`,
+    prBody: `Answer cards for the trip site, published with \`./atr answers publish\` (only files under \`answers/\`).\n\n${lines.join('\n')}\n\nMerging deploys them: they show on the place/area pages, on Places › Answers and on Today.\n\n${PR_FOOTER}\n`,
+  };
+}
+
+/** Errors in the given answer files on their own and against a data root (places, areas, the other answers). */
+function precheck(files, dataOpts) {
+  const places = loadPlaces(dataOpts).filter((p) => p?.id), areas = loadAreas(dataOpts).filter((a) => a?.id);
+  const errs = [], parsed = [];
+  for (const f of files) {
+    const a = parseAnswer(fs.readFileSync(f, 'utf8'), f);
+    for (const e of a.errors) errs.push(`${path.basename(f)}: ${e}`);
+    if (a.about) {
+      const t = resolveAbout(a.about, { places, areas });
+      if (!t || t.ambiguous) errs.push(`${path.basename(f)}: about "${a.about}" ${t?.ambiguous ? 'is ambiguous (write place:<id> or area:<id>)' : 'is not a place, area or country id, nor "trip"'}`);
+      else a.target = t;
+    }
+    parsed.push(a);
+  }
+  return { errs, parsed };
+}
+
+/**
+ * Publish answer files. opts: { files, remove, merge = true, dryRun, root = ROOT, run = sh, log, fetchImpl, sleep,
+ * remote = 'origin', base = SITE.branch, followDeploy = true, deployTimeoutMs, dataOpts } → result object.
+ * Throws PublishError with a clear message when something is wrong (nothing half-done is left behind locally).
+ */
+export async function publishAnswers(opts = {}) {
+  const { files = [], remove = [], merge = true, dryRun = false, root = ROOT, run = sh, log = console.log, remote = 'origin', base = SITE.branch } = opts;
+  const fetchImpl = opts.fetchImpl || fetch;
+  const sleep = opts.sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
+  const dataOpts = opts.dataOpts || {};
+  const git = (args, cwd = root) => run('git', ['-C', cwd, ...args]);
+  const must = (r, what) => { if (r.code !== 0) throw new PublishError(`${what} failed: ${(r.stderr || r.stdout || `exit ${r.code}`).split('\n').slice(0, 4).join(' | ')}`); return r; };
+
+  if (!files.length && !remove.length) throw new PublishError('nothing to publish: give answer files (answers/<date>-<slug>.md) and/or --remove <file>');
+  const abs = files.map((f) => path.resolve(f));
+  for (const f of abs) {
+    if (!fs.existsSync(f) || !fs.statSync(f).isFile()) throw new PublishError(`${f} does not exist`);
+    if (!FILE_RE.test(path.basename(f))) throw new PublishError(`${path.basename(f)}: answer files are named <asked>-<short-slug>.md, e.g. 2026-11-21-yu-garden-passport.md`);
+  }
+  const removeNames = remove.map(answerName);
+  for (const n of removeNames) if (!FILE_RE.test(n)) throw new PublishError(`--remove ${n}: not an answer file name (<asked>-<short-slug>.md)`);
+  const dup = [...abs.map((f) => path.basename(f)), ...removeNames].find((n, i, xs) => xs.indexOf(n) !== i);
+  if (dup) throw new PublishError(`${dup} is given twice`);
+
+  // 1. the files on their own, against this checkout's places and areas
+  const pre = precheck(abs, { ...dataOpts, root });
+  if (pre.errs.length) throw new PublishError(`invalid answer file${pre.errs.length === 1 ? '' : 's'}:\n  ${pre.errs.join('\n  ')}\nFix them and run ./atr answers --check.`);
+
+  const slug = (abs[0] ? path.basename(abs[0]) : removeNames[0]).replace(/\.md$/, '');
+  const branch = `answers/${slug}${abs.length + removeNames.length > 1 ? `-and-${abs.length + removeNames.length - 1}-more` : ''}-${Date.now().toString(36).slice(-5)}`;
+
+  // gh must be there and logged in (checked in a dry run too, as a warning)
+  const gh = run('gh', ['auth', 'status']);
+  const ghProblem = gh.code === 127 ? 'the GitHub CLI (gh) is not installed' : gh.code !== 0 ? 'gh is not logged in (run `gh auth login`)' : null;
+
+  if (dryRun) {
+    const onMain = (n) => git(['cat-file', '-e', `${remote}/${base}:answers/${n}`]).code === 0;
+    const changes = [...pre.parsed.map((a) => ({ status: onMain(path.basename(a.file)) ? 'updated' : 'added', name: path.basename(a.file), question: a.question })), ...removeNames.map((n) => ({ status: onMain(n) ? 'removed' : 'missing', name: n }))];
+    const d = describeChanges(changes.filter((c) => c.status !== 'missing'));
+    const plan = [
+      `dry run: nothing fetched, written or pushed. Compared with the local ${remote}/${base} (as of your last fetch).`,
+      ...changes.map((c) => `  ${c.status.padEnd(8)} answers/${c.name}${c.status === 'missing' ? `  ← not on ${remote}/${base}: --remove would fail` : ''}`),
+      `would: fetch ${remote}/${base}, make a temp worktree, branch ${branch}, commit "${d.title}", push, open a PR to ${base}${merge ? ', merge it (merge commit), wait for the deploy and check /healthz' : ' and stop (--no-merge)'}.`,
+      ...(ghProblem ? [`warning: ${ghProblem}; a real publish would stop there.`] : []),
+      ...pre.parsed.map((a) => `card: ${answerLink(a.id)}`),
+    ];
+    for (const l of plan) log(l);
+    return { ok: !changes.some((c) => c.status === 'missing'), dryRun: true, branch, changes, title: d.title, ghProblem };
+  }
+  if (ghProblem) throw new PublishError(`${ghProblem}. Nothing was changed.`);
+
+  // 2. a temp worktree from fresh origin/main
+  must(git(['fetch', '-q', remote, base]), `git fetch ${remote} ${base}`);
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'atr-answers-'));
+  const result = { ok: false, branch, pr: null, merged: false, sha: null, deploy: null, links: [] };
+  let worktree = false;
+  try {
+    must(git(['worktree', 'add', '-q', '-b', branch, tmp, `${remote}/${base}`]), 'git worktree add');
+    worktree = true;
+    fs.mkdirSync(path.join(tmp, 'answers'), { recursive: true });
+    for (const f of abs) fs.copyFileSync(f, path.join(tmp, 'answers', path.basename(f)));
+    for (const n of removeNames) {
+      if (!fs.existsSync(path.join(tmp, 'answers', n))) throw new PublishError(`--remove ${n}: there is no answers/${n} on ${remote}/${base}`);
+      must(git(['rm', '-q', '--', `answers/${n}`], tmp), `git rm answers/${n}`);
+    }
+    // 3. the whole set as it will be on main: ids exist there, slugs are unique
+    const chk = checkAnswers({ ...dataOpts, root: tmp });
+    if (chk.errors.length) throw new PublishError(`the answers would not be valid on ${base}:\n  ${chk.errors.map((e) => `${path.basename(e.file)}: ${e.message}`).join('\n  ')}${chk.errors.some((e) => /is not a place/.test(e.message)) ? `\n(an id that exists here but not on ${base} means its place or area is not merged yet)` : ''}`);
+    must(git(['add', '-A', '--', 'answers'], tmp), 'git add');
+    const st = must(git(['status', '--porcelain', '--', 'answers'], tmp), 'git status').stdout;
+    if (!st) {
+      log(`nothing to publish: ${remote}/${base} already has these exact files.`);
+      for (const a of pre.parsed) result.links.push(answerLink(a.id));
+      return Object.assign(result, { ok: true, unchanged: true });
+    }
+    const byName = new Map(pre.parsed.map((a) => [path.basename(a.file), a]));
+    const changes = st.split('\n').map((l) => ({ code: l.slice(0, 2).trim(), name: path.basename(l.slice(3).trim()) })).map(({ code, name }) => ({ status: code.startsWith('D') ? 'removed' : code.startsWith('A') ? 'added' : 'updated', name, question: byName.get(name)?.question }));
+    const d = describeChanges(changes);
+    result.changes = changes;
+    // 4. commit, push, PR
+    must(run('git', ['-C', tmp, 'commit', '-q', '-F', '-'], { input: d.commit }), 'git commit');
+    log(`committed: ${d.title}`);
+    must(git(['push', '-q', '-u', remote, branch], tmp), `git push ${branch}`);
+    const pr = must(run('gh', ['pr', 'create', '--base', base, '--head', branch, '--title', d.title, '--body', d.prBody], { cwd: tmp }), 'gh pr create');
+    result.pr = pr.stdout.split('\n').filter((l) => /^https?:\/\//.test(l)).pop() || pr.stdout;
+    log(`pull request: ${result.pr}`);
+    for (const a of pre.parsed) result.links.push(answerLink(a.id), ...(answerPageLink(a.target, a.id) ? [answerPageLink(a.target, a.id)] : []));
+    if (!merge) {
+      log('stopped before merging (--no-merge): merge the pull request to put the card live.');
+      for (const l of result.links) log(`card (after the merge and deploy): ${l}`);
+      return Object.assign(result, { ok: true });
+    }
+    // 5. merge (a merge commit), then drop the remote branch
+    must(run('gh', ['pr', 'merge', result.pr, '--merge'], { cwd: tmp }), `gh pr merge (the pull request stays open: ${result.pr})`);
+    const view = run('gh', ['pr', 'view', result.pr, '--json', 'state,mergeCommit'], { cwd: tmp });
+    let info = {};
+    try { info = JSON.parse(view.stdout); } catch {}
+    if (info.state !== 'MERGED') throw new PublishError(`the pull request is not merged (state ${info.state || 'unknown'}): ${result.pr}`);
+    result.merged = true;
+    result.sha = info.mergeCommit?.oid || null;
+    log(`merged into ${base}${result.sha ? ` as ${result.sha.slice(0, 7)}` : ''}`);
+    git(['push', '-q', remote, '--delete', branch], tmp);
+  } finally {
+    if (worktree) git(['worktree', 'remove', '--force', tmp]);
+    else fs.rmSync(tmp, { recursive: true, force: true });
+    git(['branch', '-q', '-D', branch]);
+    git(['worktree', 'prune']);
+  }
+
+  // 6. wait for the deploy of that merge commit, then check the site answers
+  result.deploy = opts.followDeploy === false ? { status: 'skipped' } : await followDeploy(result.sha, { run, log, sleep, timeoutMs: opts.deployTimeoutMs ?? 15 * 60e3 });
+  const health = await healthz({ fetchImpl, sleep, tries: result.deploy.status === 'finished' ? 3 : 10 });
+  result.health = health;
+  if (result.deploy.status === 'finished' && health.ok) log(`deploy finished and the site is up (/healthz ${health.status}): the card is live.`);
+  else if (result.deploy.status === 'failed') log(`the deploy FAILED (Coolify status ${result.deploy.detail}). The card is merged but not live; look at the Coolify dashboard.`);
+  else log(`deploy started, not confirmed: ${result.deploy.detail || 'could not follow it'}. /healthz ${health.ok ? `answers ${health.status}` : `did not answer (${health.error || health.status})`}. Check again in a few minutes.`);
+  // Your copy of a published file is now also on main: a later `git pull` refuses to overwrite a local copy, so say how to drop it.
+  result.tidy = [];
+  for (const f of abs) {
+    const rel = path.relative(root, f);
+    if (rel.startsWith('..') || path.isAbsolute(rel)) continue;
+    const tracked = git(['ls-files', '--error-unmatch', '--', rel]).code === 0;
+    result.tidy.push(tracked ? `git restore -- ${rel}` : `rm ${rel}`);
+  }
+  if (result.tidy.length) log(`your local copy is on ${base} now; drop it so the next pull brings the merged one: ${result.tidy.join(' && ')}`);
+  for (const l of result.links) log(`card: ${l}`);
+  result.ok = result.deploy.status !== 'failed';
+  return result;
+}
+
+/** Remote (read-only) command: the latest Coolify deployments of the app as [{ commit, status }]. The token stays on the server. */
+export const deploymentsCommand = (app = SITE.coolifyApp) => `AUTH="Authorization: Bearer $(cat /root/.coolify-token)"; curl -fsS -H "$AUTH" "http://localhost:8000/api/v1/deployments/applications/${app}?take=10" | jq -c '[(.deployments // .)[] | {commit, status}]'`;
+
+/**
+ * Follow the Coolify deployment of `sha` over SSH (read-only: it lists deployments, it never starts one).
+ * → { status: finished | failed | unconfirmed, detail }
+ */
+export async function followDeploy(sha, { run = sh, log = console.log, sleep, timeoutMs = 15 * 60e3, every = 15e3 } = {}) {
+  if (!sha) return { status: 'unconfirmed', detail: 'no merge commit id to look for' };
+  const t0 = Date.now();
+  let last = null, seen = false;
+  while (Date.now() - t0 < timeoutMs) {
+    const r = run('ssh', ['-o', 'BatchMode=yes', '-o', 'ConnectTimeout=10', SITE.ssh, deploymentsCommand()]);
+    if (r.code !== 0) return { status: 'unconfirmed', detail: `could not reach the server over SSH (${(r.stderr || `exit ${r.code}`).split('\n')[0]})` };
+    let list = [];
+    try { list = JSON.parse(r.stdout); } catch { return { status: 'unconfirmed', detail: 'the server answered something that is not a deployment list' }; }
+    const dep = list.find((d) => d.commit === sha);
+    if (dep) {
+      if (!seen) { log(`deploy of ${sha.slice(0, 7)} found (${dep.status}); waiting for it to finish…`); seen = true; }
+      if (dep.status === 'finished') return { status: 'finished', detail: 'finished' };
+      if (!['queued', 'in_progress'].includes(dep.status)) return { status: 'failed', detail: dep.status };
+    } else if (!last) log('waiting for Coolify to start the deploy…');
+    last = dep?.status || 'not started';
+    await sleep(every);
+  }
+  return { status: 'unconfirmed', detail: `still ${last} after ${Math.round(timeoutMs / 60e3)} min` };
+}
+
+/** GET <site>/healthz until it answers 200 (a few tries). */
+export async function healthz({ fetchImpl = fetch, sleep, tries = 3, every = 10e3 } = {}) {
+  let last = {};
+  for (let i = 0; i < tries; i++) {
+    try {
+      const r = await fetchImpl(`${SITE.url}/healthz`, { signal: AbortSignal.timeout(10e3) });
+      last = { ok: r.ok, status: r.status };
+      if (r.ok) return last;
+    } catch (e) { last = { ok: false, error: e.cause?.code || e.message }; }
+    if (i < tries - 1) await sleep(every);
+  }
+  return last;
+}

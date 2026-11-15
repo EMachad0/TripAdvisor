@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Screenshot every game mode (desktop + phone, light + dark) into build/game-shots/.
-// Uses the game fixtures (game/test/fixtures) with seeded feedback in a temp dir, and a stubbed Ask.
+// Uses the game fixtures (game/test/fixtures, answer cards included) with seeded feedback in a temp dir.
 // Usage: node game/tools/shots.js [--real] [--only home,swipe,...] [--device phone|desktop|phone360] [--theme light|dark]
 // Route scenes (route, route-china, route-japan, route-pop) always use the real places/areas (the fixtures have no
 // coordinates) with a temp COPY of feedback/: the real feedback files are never written.
@@ -46,24 +46,16 @@ function seed(dir) {
   fs.writeFileSync(path.join(dir, 'game-state.json'), JSON.stringify({ v: 1, firstRun: '2026-11-01T00:00:00Z', firstSeen: Object.fromEntries(['hongyadong-night', 'khao-san-road', 'dotonbori-kani-doraku'].map((id) => [id, '2026-11-09T00:00:00Z'])), days: { china: 25, japan: 11 }, locks: { nye: 'harbin-ice-world' } }, null, 2));
 }
 
-// Stubbed Ask: streams a canned answer so the screenshot shows the full flow without calling claude.
-const stubAsk = async (prompt, emit) => {
-  const answer = 'Yes. **Ice and Snow World** usually opens around Dec 18–20 and runs daily through the holidays, including **Dec 25**.\n\n- Evening is the point: the ice lights come on at dusk (~16:00).\n- Tickets about ¥330 (≈ R$ 273); buy on Trip.com 2–3 days ahead.\n- Wear real winter boots: it is −20 °C after dark.\n\nTL;DR: Open on Christmas Day; go at dusk and book a few days ahead.';
-  emit({ type: 'status', text: 'Searching the web…' });
-  for (const w of answer.split(/(?<= )/)) emit({ type: 'delta', text: w });
-  return { text: answer, error: null };
-};
-
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'atr-game-shots-'));
 if (o.real) { const src = path.join(ROOT, 'feedback'); if (fs.existsSync(src)) fs.cpSync(src, tmp, { recursive: true }); } else seed(tmp);
 const tmpTrip = fs.mkdtempSync(path.join(os.tmpdir(), 'atr-game-shots-trip-'));
 { const src = path.join(ROOT, 'trip'); if (fs.existsSync(src)) fs.cpSync(src, tmpTrip, { recursive: true }); }
-const srv = await startServer({ port: 0, ...(o.real ? {} : { root: FIX }), feedbackDir: tmp, tripDir: path.join(tmp, 'trip'), ask: stubAsk, assetsDir: path.join(tmp, 'assets') });
+const srv = await startServer({ port: 0, ...(o.real ? {} : { root: FIX }), feedbackDir: tmp, tripDir: path.join(tmp, 'trip'), assetsDir: path.join(tmp, 'assets') });
 const base = srv.url.replace(/\/$/, '');
 // Route scenes: real places/areas, feedback copied to a temp dir.
 const tmpReal = fs.mkdtempSync(path.join(os.tmpdir(), 'atr-game-shots-route-'));
 { const src = path.join(ROOT, 'feedback'); if (fs.existsSync(src)) fs.cpSync(src, tmpReal, { recursive: true }); }
-const srvReal = await startServer({ port: 0, feedbackDir: tmpReal, tripDir: tmpTrip, ask: stubAsk, assetsDir: path.join(tmpReal, 'assets') });
+const srvReal = await startServer({ port: 0, feedbackDir: tmpReal, tripDir: tmpTrip, assetsDir: path.join(tmpReal, 'assets') });
 const baseReal = srvReal.url.replace(/\/$/, '');
 const waitMap = async (page) => { await page.waitForSelector('#rmap', { timeout: 10000 }); await page.waitForFunction(() => !document.querySelector('#rmap.is-loading'), null, { timeout: 60000 }).catch(() => {}); await page.waitForTimeout(700); };
 const browser = await launch();
@@ -118,18 +110,12 @@ const SCENES = [
     await page.evaluate(() => document.querySelector('.g-card[data-depth="0"]') && document.querySelector('[data-act="open"]')?.click());
     await page.waitForTimeout(900);
   } },
-  { name: 'ask', hash: '#/holidays', act: async (page) => {
-    const hc = page.locator('.g-hc [data-open]');
-    if (await hc.count()) await hc.first().click();
-    else { await page.evaluate(() => { location.hash = '#/swipe'; }); await page.waitForTimeout(400); await page.locator('[data-act="open"]').click(); }
-    const frame = page.frameLocator('.g-sheet__frame');
-    await page.waitForTimeout(700);
-    await page.evaluate(() => document.querySelector('.g-sheet__frame').contentWindow.postMessage({ atr: 'ask' }, location.origin));
-    await page.waitForTimeout(500);
-    await frame.locator('.g-ask textarea').fill('Is it open on Christmas Day?');
-    await frame.locator('.g-ask__go').click();
-    await page.waitForTimeout(1200);
-    await page.evaluate(() => { const d = document.querySelector('.g-sheet__frame').contentDocument; d.querySelector('.g-ask').scrollIntoView({ block: 'start' }); });
+  { name: 'answers', hash: '#/answers', full: true },
+  { name: 'answers-open', hash: '#/answers/2026-11-20-ice-world-christmas', act: async (page) => { await page.waitForTimeout(600); } },
+  { name: 'answers-place', hash: '#/answers', act: async (page) => {
+    await page.locator('[data-open-id="harbin-ice-world"]').first().click();
+    await page.waitForTimeout(900);
+    await page.evaluate(() => document.querySelector('.g-sheet__frame').contentDocument.getElementById('answers')?.scrollIntoView({ block: 'start' }));
     await page.waitForTimeout(400);
   } },
 ];
@@ -143,7 +129,7 @@ for (const device of devices) for (const theme of themes) {
     const errors = [];
     page.on('pageerror', (e) => errors.push(e.message));
     page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
-    // Fresh feedback per scene would change state; scenes that write (duels-pick, ask) run last per device/theme.
+    // Fresh feedback per scene would change state; scenes that write (duels-pick) run last per device/theme.
     await page.goto(`${sc.real ? baseReal : base}/${sc.hash}`, { waitUntil: 'networkidle' });
     await page.waitForSelector('#view > :not(.g-loading)', { timeout: 10000 });
     await page.evaluate(async () => { await document.fonts.ready; document.querySelectorAll('[loading="lazy"]').forEach((i) => { i.loading = 'eager'; }); await Promise.all([...document.images].map((i) => (i.complete ? null : new Promise((r) => { i.onload = i.onerror = r; setTimeout(r, 4000); })))); });

@@ -16,11 +16,11 @@ Rank attractions per country so the traveler can see what's worth a day. The out
    - **Balance meter**: category mix of above-the-line picks (culture, food, nightlife, nature, odd local, views, shopping, shows, day trips…), with a nudge when one category dominates or one is missing.
    - **Budget check** against the R$/day budget for that country.
    - **Book-ahead list** sorted by deadline (timed tickets, reservations, passport-registered tickets, tours).
-5. **Growing list.** Swipes, duel results and questions are logged to files. The curator reads them and adds recommendations that match the traveler's taste. New cards are marked "new".
+5. **Growing list.** Swipes, duel results and notes are logged to files. The curator reads them and adds recommendations that match the traveler's taste. New cards are marked "new".
 
 ## Notes on cards
 
-Added 2026-11-10 at the traveler's request ("Skip vs maybe vs must does not help much"). Any card, swiped or not, can carry one note in the traveler's own words: in the place/area sheet (under the verdict bar), in the swipe deck (Note button or `N`), and in **My calls**, a tab listing every swiped card with its verdict and note editable inline. Board rows and duel sides show a one-line snippet. Notes autosave to `feedback/notes.jsonl`, the curator sees them in `./atr feedback`, and Ask gets the note as context.
+Added 2026-11-10 at the traveler's request ("Skip vs maybe vs must does not help much"). Any card, swiped or not, can carry one note in the traveler's own words: in the place/area sheet (under the verdict bar), in the swipe deck (Note button or `N`), and in **My calls**, a tab listing every swiped card with its verdict and note editable inline. Board rows and duel sides show a one-line snippet. Notes autosave to `feedback/notes.jsonl` and the curator sees them in `./atr feedback`.
 
 ## Route map
 
@@ -32,13 +32,14 @@ Added 2026-11-12 at the traveler's request ("a map where I can see the route"). 
 - **Base map:** cached OpenStreetMap tiles stitched by the server (the same code as the area overview maps), with the route drawn on top in the browser. The browser loads no third-party script or tiles.
 - It still is not a day-by-day schedule: it only orders cities and counts nights.
 
-## Asking questions about a place
+## Answer cards (questions about the trip)
 
-- Every card / place page has an **Ask** box.
-- A small local Node server runs `claude -p` (headless Claude Code, already installed and logged in, no API key) with web search, and the place's data as context. The answer shows in the app.
-- Every Q&A is appended to a log the curator reads, so questions also teach it what the traveler likes.
-- Answers are **read-only**: they never edit place data. Only the curator does.
-- Fallback: ask in the main Claude Code thread.
+Changed 2026-11-15: the site's Ask boxes are gone. The traveler asks Claude Code agents working in this repo on the laptop; each reusable answer is written to `answers/<asked>-<slug>.md` and published with `./atr answers publish` (skill: `.claude/skills/trip-answers/SKILL.md`).
+
+- Place and area pages end with **Questions and answers**: one card per answer about that place or area (question, the short answer, the date; the full answer and sources fold out).
+- **Places › Answers** (`#/answers`) lists every answer, newest first, with a country filter and a link to what each is about. Whole-trip and country answers live here. `#/answers/<id>` opens one card.
+- **Today** shows the three newest answers as compact cards.
+- Answers never edit place data; only the curator does. The 34 answers the old Ask boxes logged in `feedback/questions.jsonl` were migrated (`game/tools/migrate-questions.js`); that log stays as curator history and nothing on the site writes to it any more.
 
 ## Ending
 

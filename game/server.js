@@ -10,16 +10,16 @@ import { parseArgs } from 'node:util';
 import {
   loadPlaces, loadAreas, loadTripConfig, dataRoots, ROOT, renderPlaceCard, renderPlacePage, renderAreaCard, renderAreaPage, loadTaste, mustDoStatus,
   copyAssets, countsAgainstBudget, bookingLevel, bookingLinks, bookBadgeText, COUNTRIES, CATEGORIES,
-  themeBoot, themeToggle, md, esc, staticMap, fmtBRL, titleCase, latestNotes, currentRoute, stopsErrors, eventDays, whenLabel,
+  themeBoot, themeToggle, staticMap, fmtBRL, titleCase, latestNotes, currentRoute, stopsErrors, eventDays, whenLabel,
+  siteAnswers, renderAnswerCard, renderAnswersSection,
 } from '../platform/lib/index.js';
 import { clean as cleanStop } from '../platform/lib/route.js';
 import { imageFrame } from './lib/routemap.js';
 import { appendEvent, readAll, latestVerdicts, sortedDuels, readState, writeState, trackSeen, newSessionId } from './lib/store.js';
 import { computeRatings, START } from './lib/elo.js';
 import { HOLIDAYS, picksMany } from './lib/board.js';
-import { buildPrompt, buildTripPrompt, runAsk, summarize, splitTldr } from './lib/ask.js';
 import { readTrip, writeDoc } from './lib/tripstore.js';
-import { todayModel, localKey, localStamp, stayName, TZ_OFFSET } from './lib/trip.js';
+import { TZ_OFFSET } from './lib/trip.js';
 import { createAuth, accountsFromEnv, loginPage } from './lib/auth.js';
 
 /** Marks a card's root element with its country's UTC offset, so the page can label the times in its text. */
@@ -68,16 +68,11 @@ export function createApp(opts = {}) {
   const tripDir = opts.tripDir ? path.resolve(opts.tripDir) : path.join(path.dirname(roots.places), 'trip');
   const stateFile = opts.stateFile ? path.resolve(opts.stateFile) : path.join(feedbackDir, 'game-state.json');
   const session = opts.session || newSessionId();
-  const ask = opts.ask || runAsk;
-  // Hosted site: an owner + read-only guest login (ATR_OWNER_PASSWORD, ATR_GUEST_PASSWORD, see lib/auth.js)
-  // and no Ask box (ATR_ASK=off), since asking runs the claude CLI on the laptop.
+  // Hosted site: an owner + read-only guest login (ATR_OWNER_PASSWORD, ATR_GUEST_PASSWORD, see lib/auth.js).
   const auth = createAuth(opts.accounts !== undefined ? opts.accounts : accountsFromEnv());
   const GUEST_NO = 'Guests can look but not change anything.';
-  const askOn = opts.askEnabled !== undefined ? !!opts.askEnabled : !/^(off|0|false)$/i.test(process.env.ATR_ASK || '');
-  const ASK_OFF = 'Asking is turned off on the hosted site. Ask from the laptop.';
   const assetsDir = opts.assetsDir || path.join(ROOT, '.cache', 'game-assets');
   copyAssets(assetsDir);
-  let asking = 0;
 
   const load = () => {
     const places = loadPlaces(dataOpts).filter((p) => p && p.id && p.name && p.country);
@@ -133,7 +128,7 @@ export function createApp(opts = {}) {
       dominantShare: d.cfg.gaps?.dominant_category_share ?? 0.4,
       places, areas,
       duels: duels.map((x) => ({ winner: x.winner, loser: x.loser })),
-      questions: fb.questions.length, warnings: fb.warnings.length,
+      warnings: fb.warnings.length,
       local: { days: st.days || {}, locks: st.locks || {} },
       route: routeSummary(d, fb, verdicts),
     };
@@ -241,35 +236,30 @@ export function createApp(opts = {}) {
     return gameChrome(html, a, 'area', embed);
   }
 
-  /** Add the game's back link, Ask box and embed glue to a rendered place or area page. */
+  // ---------- answer cards (answers/*.md) ----------
+  const answerHref = (t) => `/${t.kind}/${encodeURIComponent(t.id)}`;
+  /** The answer card HTML, marked with its country's UTC offset so the page labels the times in it. */
+  const answerCard = (a, o = {}) => withTz(renderAnswerCard(a, { hrefOf: answerHref, ...o }), a.target?.country);
+  /** Every valid answer, newest first, as the Answers page and Today use it. */
+  function answersModel(d = load()) {
+    return siteAnswers({ ...dataOpts, places: d.places, areas: d.areas }).map((a) => ({
+      id: a.id, question: a.question, asked: a.asked, updated: a.updated, tldr: a.tldr,
+      about: { kind: a.target.kind, id: a.target.id, name: a.target.name }, country: a.target.country,
+      card: answerCard(a),
+    }));
+  }
+
+  /** Add the game's back link, the "Questions and answers" cards and the embed glue to a rendered place or area page. */
   function gameChrome(html, item, kind, embed) {
-    const past = readAll(feedbackDir).questions.filter((q) => q.id === item.id).slice(-6).reverse();
-    const askHtml = askOn ? askSection(item, past, kind) : '';
+    const d = load();
+    const mine = siteAnswers({ ...dataOpts, places: d.places, areas: d.areas }).filter((a) => a.target.kind === kind && a.target.id === item.id);
+    const qa = renderAnswersSection(mine, item, { card: (a) => answerCard(a, { showAbout: false }) });
     html = html.replace(/<span class="lbl">All (places|areas)<\/span>/, '<span class="lbl">Back to the game</span>');
-    html = html.includes('<p class="site-foot">') ? html.replace('<p class="site-foot">', () => `${askHtml}\n<p class="site-foot">`) : html.replace('</main>', () => `${askHtml}</main>`);
+    html = html.includes('<p class="site-foot">') ? html.replace('<p class="site-foot">', () => `${qa}\n<p class="site-foot">`) : html.replace('</main>', () => `${qa}</main>`);
     html = html.replace('</head>', `<link rel="stylesheet" href="/game/place.css">\n</head>`);
     html = html.replace('</body>', `<script type="module" src="/game/place.js"></script></body>`);
     if (embed) html = html.replace('<html lang="en"', '<html lang="en" data-embed="1"');
     return html;
-  }
-
-  function askSection(p, past, kind = 'place') {
-    const sugg = kind === 'area'
-      ? ['Is it worth the days in winter?', 'How many days do I really need?', 'What does a day cost here?', 'How do I get there cheaply?']
-      : ['Is it worth it in winter?', 'Do I need to book, and how?', 'How do I get there cheaply?', 'What should I combine it with nearby?'];
-    return `<section class="block wrap g-ask" id="ask" data-block="ask" data-id="${esc(p.id)}" data-kind="${kind}"><div class="col">
-  <p class="eyebrow">Ask about this ${kind}</p>
-  <h2 class="h2">Got a question?</h2>
-  <p class="g-ask__sub">Claude checks the page data and the web, then answers here. Answers never change the page, and every question helps the curator learn your taste.</p>
-  <form class="g-ask__form" autocomplete="off">
-    <textarea name="q" rows="2" maxlength="2000" placeholder="e.g. Is it open on Christmas Day?" required></textarea>
-    <button type="submit" class="g-ask__go"><span>Ask</span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-  </form>
-  <div class="g-ask__chips">${sugg.map((s) => `<button type="button" class="chip">${esc(s)}</button>`).join('')}</div>
-  <div class="g-ask__out" aria-live="polite"></div>
-  ${past.length ? `<div class="g-ask__past"><h3>Asked before</h3><ul>${past.map((q) => `<li><b>${esc(q.question)}</b>${q.answer_summary ? `<span>${esc(q.answer_summary)}</span>` : ''}</li>`).join('')}</ul></div>` : ''}
-</div></section>
-<a class="g-ask__fab" href="#ask">Ask</a>`;
   }
 
   function shell(who) {
@@ -365,6 +355,7 @@ ${themeBoot}
       if (p === '/api/state') return send(res, 200, { ...state({ write: !guest }), role: who?.role ?? null, user: who?.user ?? null });
       if (p === '/api/route') return send(res, 200, publicRoute(routeModel()));
       if (p === '/api/trip') return send(res, 200, { trip: readTrip(tripDir) });
+      if (p === '/api/answers') return send(res, 200, { answers: answersModel() });
       if (p.startsWith('/assets/')) return sendFile(res, inside(assetsDir, p.slice(8)), 'max-age=3600');
       if (p.startsWith('/game/')) return sendFile(res, inside(PUBLIC, p.slice(6)));
       if (p.startsWith('/lib/') && SHARED_LIB.has(p.slice(5))) return sendFile(res, path.join(LIB, p.slice(5)));
@@ -484,78 +475,9 @@ ${themeBoot}
         const { doc } = writeDoc(tripDir, body);
         return send(res, 200, { ok: true, doc });
       }
-      if ((p === '/api/trip-ask' || p === '/api/ask') && !askOn) return send(res, 503, { error: ASK_OFF });
-      if (p === '/api/trip-ask') return tripAskHandler(req, res, body);
-      if (p === '/api/ask') return askHandler(req, res, body);
       return send(res, 404, { error: 'not found' });
     }
     send(res, 405, { error: 'method not allowed' });
-  }
-
-  async function askHandler(req, res, body) {
-    const d = load();
-    const place = body.kind === 'area' ? d.areas.find((a) => a.id === body.id) : d.byId.get(body.id);
-    const question = String(body.question || '').trim().slice(0, 2000);
-    if (!place || !question) return send(res, 400, { error: 'need an existing place id and a question' });
-    if (asking >= 2) return send(res, 429, { error: 'Two questions are already running. Give them a moment.' });
-    asking++;
-    res.writeHead(200, { 'Content-Type': 'application/x-ndjson; charset=utf-8', 'Cache-Control': 'no-store', 'X-Accel-Buffering': 'no' });
-    const emit = (o) => { if (!res.writableEnded) res.write(JSON.stringify(o) + '\n'); };
-    const ac = new AbortController();
-    res.on('close', () => { if (!res.writableFinished) ac.abort(); });
-    emit({ type: 'status', text: 'Thinking…' });
-    try {
-      const kind = body.kind === 'area' ? 'area' : 'place';
-      const fb = readAll(feedbackDir);
-      const note = latestNotes(fb.notes).get(`${kind}:${place.id}`)?.text.trim() || null;
-      const verdict = latestVerdicts(fb.swipes)[kind][place.id] || null;
-      const prompt = buildPrompt({ place, question, cfg: d.cfg, note, verdict, kind });
-      const r = await ask(prompt, emit, { signal: ac.signal });
-      if (r.error === 'cancelled') return;
-      const answer = r.text || '';
-      const summary = r.error && !answer ? `(no answer: ${r.error})`.slice(0, 2000) : summarize(answer);
-      try { appendEvent(feedbackDir, 'questions', { session, id: place.id, question, answer_summary: summary || undefined }); } catch (e) { emit({ type: 'status', text: `Could not log the question: ${e.message}` }); }
-      if (r.error && !answer) emit({ type: 'error', message: r.error });
-      else { const { body: b, tldr } = splitTldr(answer); emit({ type: 'done', html: md(b), tldr, summary, warning: r.error || undefined }); }
-    } catch (e) {
-      emit({ type: 'error', message: e.message });
-    } finally {
-      asking--;
-      res.end();
-    }
-  }
-
-  /** Ask about the whole trip (Today view): the itinerary, where you are and the place cards. Not logged for the curator. */
-  async function tripAskHandler(req, res, body) {
-    const question = String(body.question || '').trim().slice(0, 2000);
-    if (!question) return send(res, 400, { error: 'need a question' });
-    if (asking >= 2) return send(res, 429, { error: 'Two questions are already running. Give them a moment.' });
-    asking++;
-    res.writeHead(200, { 'Content-Type': 'application/x-ndjson; charset=utf-8', 'Cache-Control': 'no-store', 'X-Accel-Buffering': 'no' });
-    const emit = (o) => { if (!res.writableEnded) res.write(JSON.stringify(o) + '\n'); };
-    const ac = new AbortController();
-    res.on('close', () => { if (!res.writableFinished) ac.abort(); });
-    emit({ type: 'status', text: 'Thinking…' });
-    try {
-      const d = load();
-      const trip = readTrip(tripDir);
-      const verdicts = latestVerdicts(readAll(feedbackDir).swipes);
-      const today = /^\d{4}-\d{2}-\d{2}$/.test(body.today || '') ? body.today : localKey();
-      const now = today === localKey() ? localStamp() : `${today}T09:00`;
-      const places = d.places.map((p) => ({ id: p.id, name: p.name, country: p.country, city: p.city, category: p.category, verdict: verdicts.place[p.id] || null, days: eventDays(p), when: whenLabel(p) }));
-      const model = todayModel({ legs: trip.legs, places, tasks: trip.tasks, days: trip.days, visited: trip.visited, today, now });
-      const prompt = buildTripPrompt({ question, today, model, trip, places, tripDir: path.relative(ROOT, tripDir) || 'trip', stayName });
-      const r = await ask(prompt, emit, { signal: ac.signal });
-      if (r.error === 'cancelled') return;
-      const answer = r.text || '';
-      if (r.error && !answer) emit({ type: 'error', message: r.error });
-      else { const { body: b, tldr } = splitTldr(answer); emit({ type: 'done', html: md(b), tldr, warning: r.error || undefined }); }
-    } catch (e) {
-      emit({ type: 'error', message: e.message });
-    } finally {
-      asking--;
-      res.end();
-    }
   }
 
   const server = http.createServer((req, res) => {
@@ -565,7 +487,7 @@ ${themeBoot}
       if (!e.status) console.error(e);
     });
   });
-  return { server, state, feedbackDir, tripDir, stateFile, session, placePage, areaPage };
+  return { server, state, feedbackDir, tripDir, stateFile, session, placePage, areaPage, answersModel };
 }
 
 /** Start listening. Tries the preferred port, then any free port. Resolves { url, server }. */
@@ -605,7 +527,6 @@ environment (the hosted site, see docs/DEPLOY.md):
   ATR_OWNER_USER      the owner's username (default eliton)
   ATR_GUEST_PASSWORD  optional: turns on a read-only guest account with this password
   ATR_GUEST_USER      the guest's username (default guest)
-  ATR_ASK=off         turn the Ask boxes off (they run the claude CLI, which the server does not have)
 
 The game re-reads places/ and areas/ on every request: new curator content appears on refresh, marked "New".`);
     return;

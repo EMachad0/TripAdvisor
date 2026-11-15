@@ -84,7 +84,7 @@ button { font-family: inherit; }
 .g-hero__sub { color: var(--ink-3); margin: 0; font-size: 15.5px; }
 .g-newpill { display: inline-flex; margin-top: 18px; padding: 10px 16px; border-radius: 999px; background: #ffd66b; color: #2b1d00; font: 700 14px/1 var(--sans); text-decoration: none; box-shadow: 0 8px 22px -10px rgba(255, 190, 40, .8); animation: g-pulse 2.4s ease-in-out infinite; }
 @keyframes g-pulse { 50% { transform: scale(1.03); } }
-.g-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 8px 0 28px; }
+.g-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 8px 0 28px; }
 .g-stat { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 16px 18px; display: grid; gap: 4px; }
 .g-stat b { font: 600 2rem/1 var(--serif); }
 .g-stat span { font: 700 11px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
@@ -401,7 +401,6 @@ button { font-family: inherit; }
 .g-seg__b--must.is-on { background: var(--must); } .g-seg__b--maybe.is-on { background: var(--maybe); } .g-seg__b--skip.is-on { background: var(--skip); }
 :root[data-theme="dark"] .g-seg__b.is-on { color: #15110c; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .g-seg__b.is-on { color: #15110c; } }
-.g-sheet__ask { flex: none; border: 0; border-radius: 12px; padding: 11px 14px; background: var(--ink); color: var(--bg); font: 600 13.5px/1 var(--sans); cursor: pointer; }
 .g-sheet__frame { flex: 1; width: 100%; border: 0; background: var(--bg); }
 /* ---------- toasts + confetti ---------- */
 .g-toasts { position: fixed; left: 50%; bottom: calc(24px + var(--tabs-h)); transform: translateX(-50%); z-index: 60; display: grid; gap: 8px; justify-items: center; pointer-events: none; }
@@ -700,7 +699,6 @@ button { font-family: inherit; }
 @media (pointer: coarse) {
   .g-seg__b { min-height: 44px; }
   .g-sheet__close { width: 44px; height: 44px; }
-  .g-sheet__ask { min-height: 44px; }
   .g-filter { min-height: 44px; }
 }
 
@@ -726,7 +724,7 @@ button { font-family: inherit; }
   .g-tab svg { width: 22px; height: 22px; }
   .g-tab__n { position: absolute; top: 0; right: 6px; }
   .g-bar__end { margin-left: auto; gap: 8px; }
-  .g-stats { grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .g-stats { grid-template-columns: repeat(3, 1fr); gap: 8px; }
   .g-stat { padding: 12px 10px; border-radius: 14px; }
   .g-stat b { font-size: 1.5rem; }
   .g-stat span { font-size: 9.5px; letter-spacing: .1em; }
@@ -830,5 +828,4 @@ button { font-family: inherit; }
 .g-stop__nights { grid-area: move; color: var(--ink-2); font: 600 13px/1 var(--sans); white-space: nowrap; padding-right: 6px; font-variant-numeric: tabular-nums; }
 
 /* the timezone beside a time ("17:10 UTC−3"): small and quiet, never wrapped away from its time */
-.tz { font: 500 .72em/1 var(--sans); letter-spacing: .01em; color: var(--ink-3); white-space: nowrap; font-style: normal; text-transform: none; vertical-align: baseline; }
 @media (max-width: 420px) { .g-who__more { display: none; } }

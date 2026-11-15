@@ -46,11 +46,13 @@ When the same `(round, id)` is swiped twice, the **latest** verdict counts.
 
 ## `feedback/questions.jsonl`
 
+History only since 2026-11-15: the site's Ask boxes were removed and nothing writes this file any more. Its answers were migrated to answer cards (`answers/*.md`, see `.claude/skills/trip-answers/SKILL.md`). The readers below still accept it, so curators keep the history in `./atr feedback`.
+
 | field | type | required | notes |
 |---|---|---|---|
 | `v`, `ts` | | yes | |
 | `session` | string | no | |
-| `id` | place id | yes | the place the Ask box was on |
+| `id` | place or area id | yes | the page the Ask box was on |
 | `question` | string ≤ 2000 | yes | what the traveler asked |
 | `answer_summary` | string ≤ 2000 | no | a short summary of the answer (not the full text) |
 

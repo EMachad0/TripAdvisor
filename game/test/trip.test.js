@@ -8,7 +8,6 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { addDays, diffDays, tripSpan, stayOn, hereOn, eventsOn, nextFlight, inDays, onDay, upcomingEvents, todayModel, searchPlaces, periods, moneyTotals, priceCheck, reachOf, cityCenters, COLLECTIONS } from '../lib/trip.js';
 import { readTrip, writeDoc } from '../lib/tripstore.js';
-import { buildTripPrompt } from '../lib/ask.js';
 import { startServer } from '../server.js';
 
 const FIX = path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures');
@@ -190,30 +189,6 @@ test('server: /api/trip reads and writes the trip dir; the page shell has the tw
   } finally { srv.server.close(); }
 });
 
-test('trip ask: the prompt carries today, where you are and the itinerary; the answer streams back', async () => {
-  const model = todayModel({ legs: LEGS, places: PLACES, today: '2026-12-07', now: '2026-12-07T09:00' });
-  const prompt = buildTripPrompt({ question: 'When is my next flight?', today: '2026-12-07', model, trip: { legs: LEGS }, places: PLACES.map((p) => ({ ...p, when: null })), stayName: (s) => s.title });
-  assert.match(prompt, /Today is 2026-12-07/);
-  assert.match(prompt, /Shanghai · hostel \(china\)/);
-  assert.match(prompt, /flight 2026-12-12 10:00 UTC\+8 → 2026-12-12 14:00 UTC\+9 PEK→KIX/);
-  assert.match(prompt, /Dated today: bund-show \(only\)/);
-  assert.match(prompt, /Question: When is my next flight\?$/);
-
-  const dir = tmp();
-  let seen = '';
-  const ask = async (p, emit) => { seen = p; emit({ type: 'delta', text: 'Sat 12 Dec.' }); return { text: 'Sat 12 Dec, 10:00.\n\nTL;DR: Dec 12.', error: null }; };
-  const srv = await startServer({ port: 0, root: FIX, feedbackDir: path.join(dir, 'fb'), tripDir: path.join(dir, 'trip'), assetsDir: path.join(dir, 'assets'), ask });
-  try {
-    const r = await fetch(srv.url + 'api/trip-ask', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question: 'When is my next flight?', today: '2026-12-07' }) });
-    const events = (await r.text()).trim().split('\n').map((l) => JSON.parse(l));
-    assert.equal(events.at(-1).type, 'done');
-    assert.equal(events.at(-1).tldr, 'Dec 12.');
-    assert.match(seen, /Today is 2026-12-07/);
-    assert.ok(!fs.existsSync(path.join(dir, 'fb', 'questions.jsonl')), 'trip questions are not logged for the curator');
-    assert.equal((await fetch(srv.url + 'api/trip-ask', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' })).status, 400);
-  } finally { srv.server.close(); }
-});
-
 test('timezones: labels, leg offsets and the times found in free text', async () => {
   const { tzLabel, tzText, tzSpots, legOffsets, offsetOn, instantOf } = await import('../lib/trip.js');
   assert.equal(tzLabel(-3), 'UTC−3');
@@ -245,14 +220,14 @@ const OWNER = { user: 'eliton', password: 'dummy-owner-pw' };
 const GUEST = { user: 'guest', password: 'dummy-guest-pw' };
 const hosted = async (accounts) => {
   const dir = tmp();
-  const srv = await startServer({ port: 0, root: FIX, feedbackDir: path.join(dir, 'fb'), tripDir: path.join(dir, 'trip'), assetsDir: path.join(dir, 'assets'), accounts, askEnabled: false });
+  const srv = await startServer({ port: 0, root: FIX, feedbackDir: path.join(dir, 'fb'), tripDir: path.join(dir, 'trip'), assetsDir: path.join(dir, 'assets'), accounts });
   const req = (u, o = {}) => fetch(srv.url + u, { redirect: 'manual', ...o });
   const json = (body, cookie) => ({ method: 'POST', headers: { 'Content-Type': 'application/json', ...(cookie ? { cookie } : {}) }, body: JSON.stringify(body) });
   const login = async (username, password) => { const r = await req('login', json({ username, password })); return { status: r.status, set: r.headers.get('set-cookie'), body: await r.json() }; };
   return { dir, srv, req, json, login };
 };
 
-test('hosted mode: owner and guest logins gate every page and API call; Ask is off', async () => {
+test('hosted mode: owner and guest logins gate every page and API call', async () => {
   const { dir, srv, req, json, login } = await hosted({ owner: OWNER, guest: GUEST });
   try {
     assert.equal((await req('healthz')).status, 200, 'the health check needs no login');
@@ -296,7 +271,7 @@ test('hosted mode: owner and guest logins gate every page and API call; Ask is o
     const writes = {
       'api/swipe': { round: 'place', id: gs.places[0].id, verdict: 'must' }, 'api/note': { round: 'place', id: gs.places[0].id, text: 'x' },
       'api/route': { country: 'japan', reset: true }, 'api/duel': { winner: gs.places[0].id, loser: gs.places[1]?.id }, 'api/local': { resetDays: true },
-      'api/trip': { col: 'tasks', op: 'set', id: 'g', data: { title: 'x' } }, 'api/trip-ask': { question: 'hi' }, 'api/ask': { id: gs.places[0].id, question: 'hi' }, 'api/nope': {},
+      'api/trip': { col: 'tasks', op: 'set', id: 'g', data: { title: 'x' } }, 'api/nope': {},
     };
     for (const [u, body] of Object.entries(writes)) {
       const r = await req(u, json(body, guest));
@@ -319,8 +294,6 @@ test('hosted mode: owner and guest logins gate every page and API call; Ask is o
     assert.equal((await req('api/trip', json({ col: 'tasks', op: 'set', id: 'a', data: { title: 'x' } }, owner))).status, 200);
     assert.equal(fs.existsSync(path.join(dir, 'trip', 'tasks.json')), true);
     assert.equal((await req('api/swipe', json({ round: 'place', id: gs.places[0].id, verdict: 'must' }, owner))).status, 200);
-    const off = await req('api/trip-ask', json({ question: 'hi' }, owner));
-    assert.equal(off.status, 503); assert.match((await off.json()).error, /laptop/);
 
     // remember me: an authenticated page load re-issues the cookie (sliding), Secure behind HTTPS
     const slide = await req('', { headers: { cookie: owner, 'x-forwarded-proto': 'https' } });
