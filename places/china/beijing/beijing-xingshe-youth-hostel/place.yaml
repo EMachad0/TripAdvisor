@@ -1,0 +1,135 @@
+id: beijing-xingshe-youth-hostel
+name: "Beijing Xingshe Youth Hostel"
+short_name: Xingshe Hostel
+country: china
+city: beijing
+area: Xicheng · Xinjiekou
+category: stay
+tags: [hostel, rooftop, free-laundry, solo-friendly, quiet]
+kind: Stay
+why: "Spotless, friendly Xicheng hostel with a rooftop and free laundry; ¥85 dorm bed. Sociable, not a party place: atmosphere 8.7 on Hostelworld."
+
+cost:
+  local: 85
+  currency: CNY
+  brl: 70.27
+  note: "6-bed male or female dorm, nights of Dec 12 and Dec 15, 2026 (Hostelworld, searched Nov 10)"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Check-in 14:00–23:00 · check-out by 12:00 · no curfew (Hostelworld); Booking.com lists a 24-hour front desk"
+  winter: "No Christmas rules or minimum stay shown for mid-December. On Nov 10 the Dec 12 search showed only 2 male and 4 female 6-bed dorm beds left, so book once the Beijing dates are fixed. Hostelworld lists air-conditioning among the facilities."
+
+location:
+  address: "139 Xinjiekou South Street, Xicheng District, Beijing"
+  address_local: 北京市西城区新街口南大街139号
+  lat: 39.9353
+  lng: 116.36667
+  nearest_transit: "Beihai North metro, about 950 m; Ping'anli about 1.1 km"
+  approximate: true
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Beijing-Xingshe-Youth-Hostel/Beijing/338101?from=2026-12-12&to=2026-12-13&guests=1&currency=CNY"
+    title: "Beijing Xingshe Youth Hostel — Hostelworld (Dec 12–13, 2026 search: prices, 9.2/78 reviews, house rules, Oct 2026 reviews)"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Beijing-Xingshe-Youth-Hostel/Beijing/338101?from=2026-12-15&to=2026-12-16&guests=1&currency=CNY"
+    title: "Beijing Xingshe Youth Hostel — Hostelworld (Dec 15–16, 2026 search: same ¥85 / ¥100 prices)"
+    checked: 2026-11-10
+  - url: "https://www.booking.com/hotel/cn/bei-jing-qing-nian-jiu-dian-ping-an-li-dian.en-gb.html?checkin=2026-12-12&checkout=2026-12-13&group_adults=1&selected_currency=CNY"
+    title: "Beijing Xingshe Youth Hostel — Booking.com (Dec 12–13, 2026: prices, 8.8/583 reviews, address, nearby stations)"
+    checked: 2026-11-10
+  - url: https://www.openstreetmap.org/?mlat=39.9353&mlon=116.36667#map=17/39.9353/116.36667
+    title: "Xinjiekou South Street — OpenStreetMap (street pin; the building itself is not mapped)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Beijing — Wikipedia (climate normals 1991–2020)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Verified: it exists, has dated Dec 2026 prices, and Oct 2026 reviews by guests from India and Canada. No source says outright that it registers foreign passports; inferred from those reviews. Booking.com shows two reviews naming \"HIPPO Hostel\", so the listing may mix in another property or an old name. Hostelworld says cards accepted, Booking.com cash. The map pin is the street, not the door."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: xinjiekou-street
+    hook: "A clean bed on a local Xicheng street of music shops, with a rooftop tea room upstairs."
+    caption: "Xinjiekou South Street, the hostel's street, in summer. No free photo of the hostel itself"
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–23:00", detail: "No curfew; check-out by 12:00" }
+      - { label: Vibe, value: "Sociable, calm", detail: "Atmosphere 8.7 on Hostelworld, against 9.6 for staff" }
+      - { label: Laundry, value: Free, detail: "Washing machine; towels included" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 6-bed male or female dorm
+        local: 85
+        brl: 70.27
+        note: "Nights of Dec 12 and Dec 15, 2026, Hostelworld; free cancellation"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Beijing-Xingshe-Youth-Hostel/Beijing/338101?from=2026-12-12&to=2026-12-13&guests=1&currency=CNY"
+      - label: Dorm bed (Booking.com)
+        local: 86
+        brl: 71.1
+        note: "Night of Dec 12, 2026; pay at the property, free cancellation until Dec 11"
+        url: "https://www.booking.com/hotel/cn/bei-jing-qing-nian-jiu-dian-ping-an-li-dian.en-gb.html?checkin=2026-12-12&checkout=2026-12-13&group_adults=1&selected_currency=CNY"
+      - label: Bed in 2-bed male or female room
+        local: 100
+        brl: 82.67
+        note: "Nights of Dec 12 and Dec 15, 2026, Hostelworld; shared bathroom on the floor"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Beijing-Xingshe-Youth-Hostel/Beijing/338101?from=2026-12-15&to=2026-12-16&guests=1&currency=CNY"
+      - label: Single room (Booking.com)
+        local: 139
+        brl: 114.91
+        note: "Night of Dec 12, 2026"
+        url: "https://www.booking.com/hotel/cn/bei-jing-qing-nian-jiu-dian-ping-an-li-dian.en-gb.html?checkin=2026-12-12&checkout=2026-12-13&group_adults=1&selected_currency=CNY"
+    rating:
+      score: 9.2
+      out_of: 10
+      source: Hostelworld
+      reviews: 78
+      atmosphere: 8.7
+      checked: 2026-11-10
+    social:
+      - "The hostel bills itself as a hub for social travellers, with common areas to meet people"
+      - "**Rooftop tea room**, the feature reviewers mention most after the staff"
+      - "A Booking.com reviewer from Switzerland mentions **activities to meet fellow international travellers**"
+      - "Hostelworld's review summary calls it well suited to solo travellers; no bar, pub crawl or regular events are listed"
+    good_to_know:
+      - "Dorms are single-sex (male or female); 2-bed rooms share the floor's bathrooms"
+      - "Free Wi-Fi, luggage storage, key-card access, reading lights, air-conditioning"
+      - "Staff speak English and help with bookings, reviewers say (one front-desk staffer is named in several reviews)"
+      - "No children, no smoking, no pets"
+      - "Booking.com: 8.8 from 583 reviews (checked Nov 10, 2026), location 9.3"
+  - type: highlights
+    items:
+      - title: Clean and calm
+        text: "Hostelworld scores of **9.7 for security** and 9.1 for cleanliness; reviewers keep using the words \"super clean\" and \"hotel-like\"."
+      - title: Local Xicheng
+        text: "A Booking.com reviewer says the area feels local, with lots of music shops. Prince Gong's Mansion is 1.4 km away and the Drum Tower 2.5 km."
+      - title: Cheap for the centre
+        text: "¥85 (R$70) for a dorm bed on mid-December nights, with free cancellation on Hostelworld."
+  - type: map
+    note: "The pin marks Xinjiekou South Street, not the door: show the driver the Chinese address."
+  - type: tips
+    variant: insider
+    items:
+      - "For a night out with people, ask at the desk what's on: the hostel itself is the calm type, and reviews do not describe a bar."
+      - "Hostelworld and Booking.com were within ¥1 of each other for Dec 12; Booking.com lets you pay at the property."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Beds were down to the last few on Nov 10 for Dec 12. Don't wait until you arrive in Beijing."
+      - "The sites disagree on payment (cards vs cash). Have Alipay or WeChat Pay and some cash for the desk."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: "Dry, sunny and below freezing"
+    note: "Air-conditioning is listed on Hostelworld and Booking.com. No source says whether the rooftop tea room is heated."
+    wear: "Down jacket for the walk to the metro"
+  - type: pairs_well
+    items:
+      - { id: forbidden-city-jingshan, note: "About 4 km to the palace; Jingshan 2.8 km" }
+      - { id: niujie-muslim-food-street, note: "Also in Xicheng, south of the centre" }
+      - { id: mutianyu-great-wall, note: "Early start for the 09:10 coach from Dongzhimen" }

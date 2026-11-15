@@ -1,0 +1,202 @@
+id: nine-hours-shinjuku-north
+name: "Nine Hours Shinjuku-North"
+short_name: Nine Hours
+name_local: ナインアワーズ北新宿
+name_romanized: Nain Awāzu Kita-Shinjuku
+country: japan
+city: tokyo
+area: Shinjuku · Shin-Okubo
+category: stay
+must_do: capsule-hotel
+tags: [capsule, pod, shinjuku, sleep-analysis]
+kind: Stay
+why: "Your pod night: a 2-metre sleeping capsule 2 minutes from Shin-Okubo station, ¥5,555 on Mon–Tue or Sun 17 Jan. Not social, and that is the point."
+
+cost:
+  local: 5555
+  currency: JPY
+  brl: 194.98
+  note: "Booking.com from-price, 1 adult, seen 11 Nov: Mon 4, Tue 5, Mon 11, Tue 12 or Sun 17 Jan 2027. Wed–Thu ¥6,349, Fri–Sat and Sun 10 more"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book 2+ weeks ahead; free to cancel until the day before (official site only)"
+  method: website
+  links:
+    - label: Nine Hours official site
+      url: "https://ninehours.co.jp/en/shinjuku-north"
+      note: "Best-price promise; free cancellation until the day before. Search 1 man or 1 woman"
+    - label: Rakuten Travel (from ¥4,320)
+      url: "https://travel.rakuten.co.jp/HOTEL/199052/199052.html"
+      note: "Sleep-analysis plans; check whether your plan is 返金不可 (non-refundable)"
+  notes: "Recommended because the price triples on weekend and holiday-eve nights and some January nights show as unavailable on Booking.com. Bookings on Rakuten or Booking.com follow that site's cancellation terms; Rakuten's 返金不可 plans are non-refundable."
+
+hours:
+  summary: "Check-in 15:00–05:00 · check-out by 11:00 · cleaning 11:00–15:00 (10:00–14:00 for multi-night guests)"
+  winter: "Japan dates are now 4–22 Jan 2027 (Tokyo likely 11–22). No seasonal closures on the official site. Booking.com one-night from-prices seen 11 Nov: ¥5,555 Mon 4, Tue 5, Mon 11, Tue 12, Sun 17; ¥6,349 Wed 13, Thu 14; ¥10,317 Fri 8, Fri 15; ¥15,873 Sat 9, Sun 10 (eve of Coming-of-Age Day), Sat 16."
+
+location:
+  address: 1-4-15 Hyakunincho, Shinjuku-ku, Tokyo 169-0073
+  address_local: 〒169-0073 東京都新宿区百人町1-4-15
+  lat: 35.7012
+  lng: 139.7017
+  nearest_transit: "Shin-Okubo (JR Yamanote Line), 2 min walk"
+
+sources:
+  - url: https://ninehours.co.jp/en/shinjuku-north
+    title: "9h nine hours Shinjuku-North, official page: hours, address, access, lockers, payment, cancellation by booking channel, price guarantee"
+    checked: 2026-11-11
+  - url: https://ninehours.co.jp/en/faq
+    title: "9h nine hours FAQ: check-in, cleaning hours, luggage, what is free, cancellation, age rules"
+    checked: 2026-11-10
+  - url: https://ninehours.co.jp/en/location/sleep-analysis
+    title: "9h sleep checkup: what the capsule measures and the PDF report"
+    checked: 2026-11-10
+  - url: https://travel.rakuten.co.jp/HOTEL/199052/199052.html
+    title: "ナインアワーズ北新宿 on Rakuten Travel: address, access, check-in times, score 3.83/5, sleep-analysis plans from ¥4,320"
+    checked: 2026-11-10
+  - url: "https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-05&checkout=2027-01-06&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us"
+    title: "Booking.com search, 5–6 Jan 2027: flexible-dates list, one night ¥5,555 for 3, 4 and 5 Jan"
+    checked: 2026-11-11
+  - url: "https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-10&checkout=2027-01-11&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us"
+    title: "Booking.com search, 10–11 Jan 2027: flexible-dates list, ¥10,317 Fri 8, ¥15,873 Sat 9 and Sun 10"
+    checked: 2026-11-11
+  - url: "https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-13&checkout=2027-01-14&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us"
+    title: "Booking.com search, 13–14 Jan 2027: flexible-dates list, ¥5,555 Mon 11 and Tue 12, ¥6,349 Wed 13"
+    checked: 2026-11-11
+  - url: "https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-16&checkout=2027-01-17&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us"
+    title: "Booking.com search, 16–17 Jan 2027: flexible-dates list, ¥6,349 Thu 14, ¥10,317 Fri 15, ¥15,873 Sat 16"
+    checked: 2026-11-11
+  - url: "https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-17&checkout=2027-01-18&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us"
+    title: "Booking.com search, 17–18 Jan 2027: flexible-dates list, ¥5,555 Sun 17"
+    checked: 2026-11-11
+  - url: "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/199052?f_nen1=2027&f_tuki1=1&f_hi1=13&f_nen2=2027&f_tuki2=1&f_hi2=14&f_heya_su=1&f_otona_su=1"
+    title: "Rakuten Travel plan list for 13–14 Jan 2027: 返金不可 (non-refundable) plans; prices did not load in the render"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Nui-Hostel-Bar-Lounge/Tokyo/67481?from=2027-01-13&to=2027-01-14&guests=1&currency=JPY"
+    title: "Nui. Hostel & Bar Lounge on Hostelworld, Wed 13 Jan 2027: 8-bed dorm ¥4,750 (Sat 16: ¥7,410)"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Nui-Hostel-Bar-Lounge/Tokyo/67481?from=2027-01-16&to=2027-01-17&guests=1&currency=JPY"
+    title: "Nui. Hostel & Bar Lounge on Hostelworld, Sat 16 Jan 2027: 8-bed dorm ¥7,410"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924?from=2027-01-13&to=2027-01-14&guests=1&currency=JPY"
+    title: "Wise Owl Hostels Shibuya on Hostelworld, Wed 13 Jan 2027: 28-bed dorm ¥6,500 refundable (Sat 16: ¥9,250)"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924?from=2027-01-16&to=2027-01-17&guests=1&currency=JPY"
+    title: "Wise Owl Hostels Shibuya on Hostelworld, Sat 16 Jan 2027: 28-bed dorm ¥9,250 refundable"
+    checked: 2026-11-11
+  - url: https://hotel.travel.rakuten.co.jp/hotelinfo/dayuse/199052
+    title: "ナインアワーズ北新宿 day-use plans on Rakuten Travel: separate floors and bookings for men and women"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Seibu-Shinjuku_Station
+    title: "Seibu-Shinjuku Station (Wikipedia): next to the Kabukicho entertainment district"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals 1991–2020 (Kitanomaru Park)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Japan dates are now 4–22 Jan 2027. Prices are Booking.com 'from' prices in the linked searches' flexible-dates lists (seen 11 Nov); the searched night itself showed unavailable. The official site promises its best price, but its prices and Rakuten's did not load for me, so the markup is unknown. Rakuten's ¥4,320 is a from-price with no date (seen 10 Nov). Pin from the official Google Maps link."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: shin-okubo-station
+    caption: "Shin-Okubo station, 2 minutes from the door. No free photo of this branch exists"
+    hook: "Lock your bag away, change into the loungewear, slide into a pod and pull the blind."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "15:00–05:00", detail: "Tell them in advance if after midnight" }
+      - { label: Vibe, value: Silent pod floors, detail: "A lounge with 46 seats is the only place to talk" }
+      - { label: Payment, value: Cashless only, detail: "Cards, Suica/Pasmo, Alipay, WeChat Pay" }
+  - type: stay
+    style: capsule
+    beds:
+      - label: "Capsule · Sun 17 Jan (also Mon 11, Tue 12)"
+        local: 5555
+        brl: 194.98
+        url: "https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-17&checkout=2027-01-18&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us"
+        note: "Booking.com from-price, 1 adult; also Mon 4 and Tue 5 Jan"
+      - label: "Capsule · Wed 13 or Thu 14 Jan"
+        local: 6349
+        brl: 222.85
+        url: "https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-13&checkout=2027-01-14&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us"
+      - label: "Capsule · Fri 8 or Fri 15 Jan"
+        local: 10317
+        brl: 362.13
+        url: "https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-16&checkout=2027-01-17&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us"
+      - label: "Capsule · Sat 9, Sun 10 or Sat 16 Jan"
+        local: 15873
+        brl: 557.14
+        url: "https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-10&checkout=2027-01-11&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us"
+        note: "Sun 10 is the eve of the Coming-of-Age Day holiday (Mon 11)"
+    rating:
+      score: 3.83
+      out_of: 5
+      source: Rakuten Travel
+      checked: 2026-11-11
+    social:
+      - "**Not a place to meet people.** Men and women sleep on separate floors and the capsule floors are for sleeping only."
+      - "The lounge (46 seats, desks, power, Wi-Fi) is where eating, drinking and talking are allowed."
+    good_to_know:
+      - "Multi-night guests: out by **10:00** for cleaning. **Lockers can't be opened then**, so take what you need; the lounge stays open."
+      - "Locker is 33 × 58 × 158 cm. A bigger backpack goes in the luggage room: ask at check-in."
+      - "Free: loungewear, bath and face towel, slippers, earplugs. A toothbrush costs ¥100, so bring yours."
+      - "**No cash.** Pay by card, transport IC card (Suica/Pasmo) or QR (Alipay, WeChat Pay, PayPay)."
+      - "Arriving after midnight? Tell them in advance or the booking can be cancelled for the day."
+      - "No eating or drinking inside the capsule. Soiled bedding costs a ¥5,000 cleaning fee."
+      - "Official-site bookings: free to cancel until the day before. Rakuten, Booking.com and others: their own terms apply (Rakuten's 返金不可 plans are non-refundable)."
+  - type: faq
+    items:
+      - q: "Why is this so expensive? Is it cheap on Japan prices? It's literally a pod, why the high price?"
+        asked: 2026-11-11
+        correction: true
+        a: "It depends on the night. Booking.com (seen 11 Nov) had the pod at **¥5,555** on Mon 11, Tue 12 and Sun 17 Jan, ¥6,349 Wed–Thu, ¥10,317 Fri and **¥15,873** on Sat 9, Sat 16 and **Sun 10**, the eve of the Coming-of-Age Day holiday. A social-hostel dorm bed the same week on Hostelworld: Nui. ¥4,750 Wed 13 / ¥7,410 Sat 16, Wise Owl Shibuya ¥6,500 / ¥9,250. So midweek a pod costs about a dorm bed; on weekends up to twice as much. Book Sun 17 or Mon–Thu, not \"any Sunday\"."
+  - type: highlights
+    items:
+      - title: The pod itself
+        text: "Inside it is **215 cm deep, 105 cm wide and 102 cm high**, with a mattress, pillow, duvet, a power outlet, a light dimmer and a roll-down blind instead of a door."
+      - title: Your sleep, measured
+        text: "Book a **sleep-analysis plan** and sensors in the capsule log sleep time, movement, snoring, breathing and heart rate, and a PDF report arrives by email about five business days later."
+      - title: Two minutes from the Yamanote Line
+        text: "Shin-Okubo station is a 2-minute walk. Seibu-Shinjuku station, which sits next to the **Kabukicho** entertainment district, is 7 minutes on foot."
+      - title: Open until 05:00
+        text: "Check-in runs from 15:00 to 05:00, so a late night out in Shinjuku still ends in your own pod."
+  - type: prose
+    title: How a capsule night works
+    text: |-
+      You check in at reception and get a locker. Everything you carry goes in there: the capsule holds you and your phone, nothing else. Change into the loungewear, shower in a private booth (shampoo, conditioner and body soap provided), then find your numbered pod.
+
+      In the morning you check out by 11:00. If you booked several nights you keep the same capsule and locker, but the capsule floors are off-limits during the daily cleaning (from 10:00 to be safe) and lockers stay shut then, so take what you need and plan to be out or in the lounge.
+
+      One night is enough to tick this off. You get more privacy than in a dorm and less company, so sleep here on Sun 17 Jan or a Mon–Tue night (¥5,555 on Booking.com) and keep a social hostel for the weekend.
+  - type: gallery
+    images:
+      - file: pods-narita
+        caption: "Nine Hours pods at the chain's Narita Airport branch, not this building"
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Check your night on the **official site** (best-price promise), Rakuten and Booking.com. Before paying elsewhere, read that rate's cancellation terms. Men and women book separate floors." }
+      - { days_before: 1, text: "Official-site bookings: last day to cancel for free." }
+      - { days_before: 0, text: "Check-in from 15:00. Have a card or a charged Suica/Pasmo ready: cash is not accepted." }
+  - type: map
+    note: "A 2-minute walk from JR Shin-Okubo station, or 7 minutes from Seibu-Shinjuku station."
+  - type: tips
+    variant: insider
+    items:
+      - "Pick **Sun 17 Jan or a Mon–Tue night** (¥5,555 on Booking.com), or Wed–Thu (¥6,349). Not Sun 10 Jan: as the holiday eve it costs ¥15,873, like a Saturday."
+      - "Every capsule here has the sleep sensors. Rakuten's **sleep-analysis plans** start at ¥4,320 and add a report on how you slept in a pod."
+      - "Earplugs are free if you ask. The capsule closes with a roll-down blind, not a door."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Sat 9, Sun 10 and Sat 16 Jan at ¥15,873 (R$557)** cost almost three times a Monday for the same capsule. Don't."
+      - "This is not where you meet people to go out with. Book it for one or two nights between hostels."
+      - "No napping in your capsule during the daily cleaning, even with a multi-night booking, and your locker is shut too."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "January in central Tokyo averages 1.2 °C at night and 9.8 °C by day, with about five wet days and 193 hours of sun. The stay is indoors and the station is 2 minutes away."
+    wear: Warm coat for the street; loungewear is provided inside

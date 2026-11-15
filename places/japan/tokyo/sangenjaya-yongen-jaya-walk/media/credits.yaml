@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: suzuran-dori
+  title: File:Sangenjaya -02.jpg
+  author: Aimaimyi
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Sangenjaya_-02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b8/Sangenjaya_-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Suzuran street at Sangen-jaya. This location is in Setagaya , Tokyo , Japan .
+  width: 2309
+  height: 1733
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: backstreet-night
+  title: File:2 Chome Sangenjaya, Setagaya-ku, Tōkyō-to 154-0024, Japan - panoramio.jpg
+  author: Hiroyuki Sato
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:2_Chome_Sangenjaya,_Setagaya-ku,_T%C5%8Dky%C5%8D-to_154-0024,_Japan_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3c/2_Chome_Sangenjaya%2C_Setagaya-ku%2C_T%C5%8Dky%C5%8D-to_154-0024%2C_Japan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 2 Chome Sangenjaya, Setagaya-ku, Tōkyō-to 154-0024, Japan
+  width: 2592
+  height: 1936
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: carrot-tower-alley
+  title: File:Carrot Tower and an alley in Sangenjaya, Setagaya, Tokyo.jpg
+  author: Doricono
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Carrot_Tower_and_an_alley_in_Sangenjaya,_Setagaya,_Tokyo.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/03/Carrot_Tower_and_an_alley_in_Sangenjaya%2C_Setagaya%2C_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Skyscraper " Carrot Tower " and an alley in Sangenjaya , Setagaya , Tokyo , Japan
+  width: 2272
+  height: 4032
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: sangenjaya-crossing
+  title: File:Road in front of Sangenjaya stn - June 2 2018.jpg
+  author: nesnad
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Road_in_front_of_Sangenjaya_stn_-_June_2_2018.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5f/Road_in_front_of_Sangenjaya_stn_-_June_2_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sangenjaya Intersection
+  width: 2202
+  height: 1652
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

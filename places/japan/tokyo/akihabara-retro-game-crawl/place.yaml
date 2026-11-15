@@ -1,0 +1,143 @@
+id: akihabara-retro-game-crawl
+name: "Akihabara Retro Crawl: Super Potato & HEY"
+short_name: Akihabara retro crawl
+name_local: スーパーポテト秋葉原店・Hey
+country: japan
+city: tokyo
+area: Akihabara · Sotokanda
+category: shopping
+fame: popular
+tags: [gaming, retro, arcade, shmup, famicom, akihabara]
+kind: Shop
+why: "Super Potato's retro floor of Famicom carts and Game & Watch, its soundtrack floor and 5F retro arcade, then Taito's four-floor HEY across the street."
+
+cost:
+  local: 0
+  currency: JPY
+  brl: 0
+  note: "Free to browse. Arcade credits and games you buy are extra; a 2022 guide gives ¥1,000 for 1 h of 5F free play"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–4 h
+best_time: "Weekday afternoon; HEY stays open until 23:30"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Super Potato daily 11:00–20:00, open all year. HEY daily 10:00–23:30, open all year"
+  winter: "Both list themselves as open every day of the year (年中無休), and neither shows special winter or New Year hours on its official page. Your Japan dates (20 Jan – 4 Feb 2027) are after the New Year holidays, so normal hours should apply."
+
+location:
+  address: "Super Potato: Kitabayashi Bldg 3F–5F, 1-11-2 Sotokanda, Chiyoda-ku, Tokyo. HEY: 1-10-5 Sotokanda, 1F–4F"
+  address_local: 東京都千代田区外神田1-11-2 北林ビル3F〜5F（スーパーポテト秋葉原店）
+  lat: 35.6993952
+  lng: 139.7707154
+  nearest_transit: "Akihabara (JR, Electric Town exit); HEY is a 2 min walk"
+
+sources:
+  - url: https://www.superpotato.com/shop/akihabara/
+    title: "Super Potato official: Akihabara store hours 11:00–20:00 every day, 3F/4F/5F, 5F retro game center"
+    checked: 2026-11-12
+  - url: https://www.taito.co.jp/store/00001703
+    title: "Taito official: HEY store page, 1-10-5 Sotokanda 1F–4F, 10:00–23:30, open all year; video, rhythm and crane game updates (Oct 2026)"
+    checked: 2026-11-12
+  - url: https://en.akihabara-bc.jp/akihabara-superpotato/
+    title: "Akihabara BC (Apr 2022): Super Potato floor by floor; 5F free play ¥1,000 per hour with free candy"
+    checked: 2026-11-12
+  - url: https://tokyocheapo.com/place/hey-hirose-entertainment-yard/
+    title: "Tokyo Cheapo: HEY, 300+ video games, free entry, avoid the basement (not HEY)"
+    checked: 2026-11-12
+  - url: https://commons.wikimedia.org/wiki/File:Japanese_shmup_arcade.jpg
+    title: "Wikimedia Commons (2017): players at HEY's shoot 'em up area"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours and addresses are from both official pages (Nov 2026). Super Potato's page mentions the 5F arcade but no price; ¥1,000/h is from a 2022 guide (bot-blocked; read via atr render); nothing newer found Nov 2026, so the visit is counted as free. HEY's shmup corner is only shown in a 2017 photo; its page lists video and rhythm games but no machine list I could read."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: cartridge-wall
+    caption: "A wall of boxed Famicom cartridges at Super Potato"
+    hook: "Famicom carts stacked to the ceiling, chiptune in the stairwell and a small retro arcade on the top floor."
+  - type: quick_facts
+    time_needed: 2–4 h
+    best_time: Weekday afternoon
+    extra:
+      - label: Entry
+        value: Free to browse
+        detail: Both shops; you pay only for games and credits
+      - label: Walk between
+        value: Across the street
+        detail: "1-11-2 and 1-10-5 Sotokanda"
+      - label: Good in cold
+        value: Yes, all indoors
+  - type: highlights
+    items:
+      - title: The retro floor
+        text: "Super Potato's **3rd floor** is old games and consoles, mainly Nintendo; the official page lists everything from Famicom and Mega Drive to oddities like the Pyuta."
+      - title: Free play with candy
+        text: "The **5th floor** is a small retro game center. A 2022 guide describes a timed free-play system (about ¥1,000 an hour) where players eat as much candy as they like."
+      - title: Soundtracks and strategy guides
+        text: "The **4th floor** is the merch floor: soundtrack CDs, strategy guides, art books. Good for souvenirs that fit in a backpack."
+      - title: HEY across the street
+        text: "Taito's **HEY** has four floors and, per Tokyo Cheapo, more than 300 video games. In 2017 it had a whole shoot 'em up corner (photo below); check what runs now on its official page."
+  - type: prose
+    title: Why this pair
+    dropcap: true
+    text: |-
+      Akihabara has dozens of game shops. **Super Potato** is the one that treats retro games like a museum you can buy from: it calls itself Japan's No. 1 for retro game stock, and the shelves go from boxed Famicom carts to Game & Watch handhelds in glass cases.
+
+      Across the street, **HEY** (Hirose Entertainment Yard, in the Hirose head-office building) is Taito's arcade under a huge orange sign. Mikado in Takadanobaba is the place to *watch* old fighting games played seriously; HEY is where you drop in for a credit or two on the way past.
+  - type: gallery
+    images:
+      - { file: hey-shmup, caption: "HEY's shoot 'em up corner (2017)" }
+      - { file: handhelds, caption: "Game & Watch and handhelds behind glass at Super Potato" }
+      - { file: aisles, caption: "Aisles of second-hand games" }
+  - type: quote
+    variant: vibe
+    text: Chiptune leaking down the stairwell, a cabinet dinging on the 5th floor, someone agonising over a boxed Mega Drive.
+  - type: cost_breakdown
+    items:
+      - label: Browsing both shops
+        local: 0
+        brl: 0
+      - label: "Super Potato 5F, 1 h free play (2022 price)"
+        local: 1000
+        brl: 35.17
+        estimate: true
+        optional: true
+      - label: "A few credits at HEY"
+        local: 500
+        brl: 17.59
+        estimate: true
+        optional: true
+    note: "Browsing is free. A boxed retro game is where the money really goes: set yourself a limit before the 3rd floor."
+  - type: map
+    zoom: 17
+    note: "The pin is Super Potato (Kitabayashi Bldg, 3F–5F). **HEY** is at 1-10-5 Sotokanda under the orange sign, two minutes from the Electric Town exit."
+  - type: tips
+    variant: insider
+    items:
+      - "Start at Super Potato before 20:00, when it closes, then finish at HEY, which runs until **23:30**."
+      - "HEY posts its current machines on its official page and **@Taito_Hey** on X; check there if you're after one game."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Tokyo Cheapo warns that the **basement** of HEY's building is not part of HEY."
+      - "Retro carts are region-locked to Japanese consoles: check that what you buy will run on what you own back home."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold and dry
+    note: "Tokyo's January averages about 1 °C at night and 10 °C by day. Everything here is indoors, so it's a good cold or rainy-day plan."
+    wear: Layers you can take off inside
+  - type: pairs_well
+    items:
+      - id: mikado-game-center-takadanobaba
+        note: "The serious retro arcade: fighting-game regulars and tournaments"
+      - id: kyushu-jangara-akihabara
+        note: "Ramen in Akihabara after the crawl"

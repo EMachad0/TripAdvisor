@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: pagoda-march
+  title: File:Chureito Pagoda and Mount Fuji 2023-03-07.jpg
+  author: Stjepko Krehula
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/53/Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chureito Pagoda and Mount Fuji
+  width: 4251
+  height: 2394
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: pagoda-autumn
+  title: File:Chureito Pagoda and Mount Fuji 20241022.jpg
+  author: This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images, but please mention me as the author…
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji_20241022.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3b/Chureito_Pagoda_and_Mount_Fuji_20241022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The early autumn view of Chūrei-tō pagoda and Mount Fuji in the Arakurayama Sengen Park, Fujiyoshida, Yamanashi, central Japan.
+  width: 6199
+  height: 4133
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: honcho-street
+  title: File:Honcho Street with Mount Fuji in the daytime, Fujiyoshida, 2016.jpg
+  author: DimiTalen
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Honcho_Street_with_Mount_Fuji_in_the_daytime,_Fujiyoshida,_2016.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ea/Honcho_Street_with_Mount_Fuji_in_the_daytime%2C_Fujiyoshida%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Honcho Street with Mount Fuji in the daytime, Fujiyoshida, 2016
+  width: 4000
+  height: 6016
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

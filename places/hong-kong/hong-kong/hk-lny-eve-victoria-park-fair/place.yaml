@@ -1,0 +1,173 @@
+id: hk-lny-eve-victoria-park-fair
+name: "Victoria Park Lunar New Year Fair, on the Eve"
+short_name: Victoria Park New Year Fair
+name_local: 維園年宵市場
+country: hong-kong
+city: hong-kong
+area: Causeway Bay · Victoria Park
+category: odd-local
+fame: popular
+tags: [lunar-new-year, lunar-new-year-option, flower-market, night, free, crowds, temple, outdoor]
+kind: Do
+why: "Hong Kong's biggest New Year fair stays open all night on the eve, Fri Feb 5: 400 stalls of flowers and toys, with prices falling as the night goes on."
+
+when:
+  dates:
+    - { from: 2027-01-31, to: 2027-02-06 }
+  kind: season
+  label: "Fair Jan 31 – Feb 6; eve Fri 5 Feb"
+  confirmed: true
+
+cost:
+  local: 0
+  currency: HKD
+  brl: 0
+  note: "Free to walk in. Flowers and snacks are extra; late on the 2026 eve, two orchid pots went for HK$100"
+fx: { rate: 0.7219, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–3 h (all night with Wong Tai Sin)"
+best_time: "Fri Feb 5 (the eve), after dinner"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "2027 fair: Jan 31 – Feb 6 (FEHD). Daily hours not out yet; in 2026 it ran 08:00 to midnight or 01:00, and all night on the eve"
+  winter: "New Year's Eve is **Fri Feb 5, 2027** (HKO calendar). In 2026 all 14 fairs stayed open overnight on the eve until **07:00** on New Year's Day, and the MTR ran all night on every local line. Many restaurants close or cut hours over the holiday. Road closures around the park are normal on fair nights."
+
+location:
+  address: Victoria Park, Causeway Bay, Hong Kong Island (fair on the central pitches)
+  address_local: 香港銅鑼灣維多利亞公園
+  lat: 22.2813
+  lng: 114.1892
+  nearest_transit: "Causeway Bay Exit E, or Tin Hau Exit A2 (3–5 min walk)"
+
+sources:
+  - url: https://www.hk01.com/社會新聞/60392725/年宵2027-1564個攤位10-7起競投-維園熟食檔底價12萬與去年相若
+    title: "年宵2027 (HK01, 2026-09-22): 2027 fairs Jan 31 – Feb 6 at 14 sites, 400 stalls in Victoria Park (FEHD)"
+    checked: 2026-11-14
+  - url: https://global.hk01.com/社会新闻/60398099/维园年宵2027-一连3日公开竞投结束-总收入达865万-同比跌37万
+    title: "维园年宵2027 竞投结束 (HK01, 2026-10-09): all 400 Victoria Park stalls leased"
+    checked: 2026-11-14
+  - url: https://www.thestandard.com.hk/news/article/344990/Victoria-Park-LNY-Fair-dry-goods-stall-auction-tops-out-at-50000
+    title: "Victoria Park LNY Fair stall auction (The Standard, 2026-10-08): fair Jan 31 – Feb 6 next year"
+    checked: 2026-11-14
+  - url: https://www.thestandard.com.hk/news/article/324086/Hong-Kongs-Lunar-New-Year-flower-markets-are-back-a-complete-2026-guide
+    title: "Hong Kong's Lunar New Year flower markets: a complete 2026 guide (The Standard, 2026-02-10): hours, stalls, MTR exits"
+    checked: 2026-11-14
+  - url: https://news.tvb.com/en/1151431-BriskbusinessandvibrantvibesonLunarNewYear'sEveatflowermarketswetmarketsandteaho
+    title: "Brisk business on Lunar New Year's Eve at flower markets (TVB News, 2026-02-16): open until 7 a.m., late discounts"
+    checked: 2026-11-14
+  - url: https://news.tvb.com/tc/1151475-CrowdsflocktoflowermarketsandWongTaiSinTempleonLunarNewYear'sEve
+    title: "Crowds flock to flower markets and Wong Tai Sin Temple on Lunar New Year's Eve (TVB News, 2026-02-16)"
+    checked: 2026-11-14
+  - url: https://www.thestandard.com.hk/news/article/323078/Wong-Tai-Sin-Temple-opens-for-first-incense-ritual-from-9pm-on-Lunar-New-Years-Eve
+    title: "Wong Tai Sin Temple opens for first incense from 9pm on Lunar New Year's Eve (The Standard, 2026-01-29)"
+    checked: 2026-11-14
+  - url: https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2027e.txt
+    title: "Gregorian–Lunar calendar 2027 (Hong Kong Observatory): Feb 5 = last day of the 12th month, Feb 6 = New Year"
+    checked: 2026-11-14
+  - url: https://www.thestandard.com.hk/news/article/324436/Lunar-New-Year-transport-boost-overnight-MTR-border-bus-upgrades-lucky-draw-prizes
+    title: "Lunar New Year transport boost: overnight MTR on the eve (The Standard, 2026-02-13)"
+    checked: 2026-11-14
+  - url: https://www.info.gov.hk/gia/general/202602/10/P2026021000584.htm
+    title: "Special traffic arrangements for the Victoria Park Lunar New Year Fair (HK Police, 2026-02-10)"
+    checked: 2026-11-14
+  - url: https://hongkongcheapo.com/things-to-do/hong-kong-chinese-new-year/
+    title: "Lunar New Year in Hong Kong (HK Cheapo, 2025-01-22): many restaurants closed or on modified hours"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Wong_Tai_Sin_station
+    title: "Wong Tai Sin station (Wikipedia): Exit B3 for the temple"
+    checked: 2026-11-14
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Yesinn-YMT/Hong-Kong/265385?from=2027-02-05&to=2027-02-06&guests=1&currency=HKD"
+    title: "Yesinn @YMT on Hostelworld, night of Feb 5, 2027: not on sale yet (checked 2026-11-14)"
+    checked: 2026-11-14
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Climatological normals 1991–2020 (Hong Kong Observatory): February"
+    checked: 2026-11-14
+confidence: medium
+confidence_note: "Confirmed for 2027: the eve date (HKO) and the fair's dates, sites and stall count (FEHD auction, reported Sept–Oct 2026). Daily hours, the all-night eve opening, Wong Tai Sin's eve times and the overnight MTR are the 2026 pattern; none is announced for 2027 yet. No 2027 hostel prices: the Hostelworld beds checked weren't on sale yet."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: fair-stalls
+    caption: The Victoria Park fair by day in 2019; on the eve it's packed after dark
+    hook: Floodlit stalls of orchids and plush toys, and half the city out shopping until dawn.
+  - type: quick_facts
+    time_needed: "2–3 h (all night with Wong Tai Sin)"
+    best_time: "Fri Feb 5 (the eve), after dinner"
+    extra:
+      - label: 2027 fair
+        value: Jan 31 – Feb 6
+        detail: Announced by FEHD in September 2026
+      - label: Stalls here
+        value: "400"
+        detail: The biggest of 14 fairs (about 1,500 stalls citywide)
+      - label: Eve hours (2026)
+        value: All night
+        detail: Open until 07:00 on New Year's Day
+  - type: highlights
+    items:
+      - title: The all-nighter
+        text: "On New Year's Eve 2026 all 14 fairs stayed open **until 7 a.m.**, and big crowds headed to Victoria Park after dinner. In 2027 the eve is **Friday Feb 5**, your second night in town."
+      - title: Flowers and junk toys
+        text: "In 2026 Victoria Park had about 180 stalls of flowers and plants, 216 of dry goods (toys, decorations, gadgets) and 4 selling fast food."
+      - title: Prices fall at night
+        text: "On the last night stalls cut prices: in 2026, HK$150 items went three for HK$100 and two orchid pots for HK$100. One plush-toy seller let shoppers stuff a paper cup for 15 minutes."
+      - title: First incense at Wong Tai Sin
+        text: "Wong Tai Sin Temple reopened at **21:00** on the 2026 eve for the first-incense queue, with incense from **23:00**. It expected 20,000–40,000 people. Earlier means luckier, people say."
+  - type: prose
+    title: What's confirmed for 2027, and what's last year's pattern
+    dropcap: true
+    text: |-
+      **Confirmed**: Lunar New Year's Eve is Friday Feb 5, 2027 and New Year's Day is Saturday Feb 6 (Hong Kong Observatory). The Food and Environmental Hygiene Department will run the 2027 fairs from **Jan 31 to Feb 6** at 14 sites. All 400 Victoria Park stalls were auctioned in October 2026.
+
+      **2026 pattern, not yet announced for 2027**: daily hours (08:00 to midnight, then to 01:00 on the last weekend), the all-night eve until 07:00, the overnight MTR on the eve, and Wong Tai Sin's eve schedule (closed 16:30, reopened 21:00, incense from 23:00, open through the night).
+
+      **A two-stop eve**: the fair after dinner, then the MTR to Wong Tai Sin to join the queue for the 23:00 first incense, then home on the all-night trains (if they run again). Or stay at the fair past midnight for the deepest discounts. Either way, this is the night Hong Kong is out on the streets.
+  - type: gallery
+    images:
+      - file: evening-crowd
+        caption: Evening crowd at the Tin Hau end of the fair, January 2012
+      - file: wong-tai-sin-incense
+        caption: Incense at Wong Tai Sin Temple on an ordinary day
+  - type: quote
+    variant: vibe
+    text: Football pitches turned into a flower market, with haggling until dawn.
+  - type: cost_breakdown
+    items:
+      - label: Entry to the fair
+        local: 0
+        brl: 0
+      - label: Two orchid pots at the late-night price (2026)
+        local: 100
+        brl: 72.19
+        optional: true
+    note: "Only if you want flowers for the hostel; plants are a hassle to fly home with."
+  - type: map
+    note: "In 2026 Causeway Bay **Exit E** led straight to the fair with one-way crowd control. Tin Hau **Exit A2** is a 3–5 min walk. Lockhart Road and East Point Road were pedestrianised on fair evenings."
+  - type: tips
+    variant: insider
+    items:
+      - "Go **after dinner** on Fri Feb 5. That's when the 2026 crowds arrived, and prices kept dropping as the night went on."
+      - "For first incense: Wong Tai Sin MTR **Exit B3** for the temple. In 2026 the temple closed at 16:30 on the eve and let the queue in from 21:00."
+      - "At Wong Tai Sin, leave paper offerings, candles, oil and large incense sticks at home. In 2026 there was a one-way route and no space for fortune sticks on the night."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Many restaurants close or change hours** over the holiday. Eat before you go, or at the fair's few fast-food stalls."
+      - "**Beds**: New Year nights fill up. Hostelworld wasn't selling Feb 2027 beds yet on Nov 14 (Yesinn @YMT, for one). Book the day your hostel opens those dates."
+      - "Causeway Bay traffic is heavy on the eve. Take the MTR, not a taxi."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: "Mild and humid; about 8 days with some rain in an average February"
+    note: "February averages 15.3–19.4 °C in Hong Kong. Fine for a night on your feet outdoors; after Japan it will feel warm."
+    wear: Light jacket or hoodie, comfortable shoes, small bag
+  - type: pairs_well
+    items:
+      - id: hk-lny-night-parade
+        note: "Next night, Sat Feb 6: the New Year parade in Tsim Sha Tsui"
+      - id: hk-lny-harbour-fireworks
+        note: "Sun Feb 7 (expected): the harbour fireworks"

@@ -1,0 +1,102 @@
+id: jeju
+country: korea
+name: "Jeju"
+name_local: 제주도
+region: Jeju Island
+scope: region
+cities: [jeju]
+why: "A volcanic island an hour's flight from Gimpo: snow on Hallasan, tangerines still on the trees until mid-January, crater peaks and lava tubes. Beautiful, but it needs 2+ free days and a car or patience with buses."
+best_for: [nature, views, food]
+highlights: ["Hallasan in snow", "Seongsan Ilchulbong (Sunrise Peak)", "Lava tubes (UNESCO)", "Jeju Olle coastal trails", "Tangerine and hallabong farms", "Haenyeo women divers"]
+days_suggested: { min: 2, max: 4 }
+cost_level: medium
+fame: popular
+lat: 33.5131
+lng: 126.5231
+getting_there: "Fly Gimpo → Jeju, about 1 h 15. Kayak's cheapest recent one-way was US$25 (R$140.43); typical one-way US$37–83. Ferries from Busan, Incheon and Mokpo stopped in 2024."
+getting_around: "Island-wide buses ₩1,000–3,000 a ride, with routes in Naver Map, Kakao Map and Google Maps; timetables thin out away from the cities. Many visitors rent a car (International Driving Permit needed)."
+winter_note: "The mildest place in Korea in January: Jeju City averages 3.7 °C at night and 8.6 °C by day. It is also windy, rains or snows on about 12 days that month, and Hallasan above is snow-covered. Hikers need strap-on crampons, and the last buses from the trailheads can leave around 17:00."
+image: seongsan-aerial
+sources:
+  - url: https://en.wikivoyage.org/wiki/Jeju
+    title: "Jeju (Wikivoyage): flights from Gimpo, ferries, buses, car hire, Olle trails, lava tubes, citrus, wind"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Jeju_City
+    title: "Jeju City (Wikipedia): coordinates, January climate normals 1991–2020 (KMA), winter snow showers with strong wind"
+    checked: 2026-11-12
+  - url: https://www.kayak.com/flight-routes/Seoul-Gimpo-Intl-GMP/Jeju-City-CJU
+    title: "Kayak, Gimpo → Jeju route page: cheapest and typical one-way fares, flight time 1 h 15"
+    checked: 2026-11-12
+  - url: https://en.wikivoyage.org/wiki/Hallasan_National_Park
+    title: "Hallasan National Park (Wikivoyage): free summit permit, winter trails, crampons, early last buses"
+    checked: 2026-11-12
+  - url: https://visithalla.jeju.go.kr/main/main.do
+    title: "Hallasan Visit Reservation System (official): Seongpanak and Gwaneumsa summit trails"
+    checked: 2026-11-12
+  - url: https://www.koreaherald.com/article/10011029
+    title: "Korea Herald (17 Nov 2024): summit trail caps (1,000 / 500 a day), winter opening 06:00 and 11:30 entry cut-off"
+    checked: 2026-11-12
+  - url: https://www.wikitree.co.kr/articles/1162513
+    title: "Wikitree (28 Sep 2026): Hallasan park office's winter hours 1 Oct 2026 – 31 Mar 2027, entry cut-offs 11:30 / 12:00"
+    checked: 2026-11-12
+  - url: https://www.jeju.com/blog/winter-hallasan-hiking-guide
+    title: "Jeju.com (30 Oct 2026): winter Hallasan guide, cut-offs per trail; booking only for the Seongpanak and Gwaneumsa summit sections"
+    checked: 2026-11-12
+  - url: https://whc.unesco.org/en/list/1264
+    title: "UNESCO World Heritage List: Jeju Volcanic Island and Lava Tubes (Geomunoreum, Seongsan Ilchulbong, Mount Halla)"
+    checked: 2026-11-12
+  - url: https://www.flightsfrom.com/CJU
+    title: "Flightsfrom.com, Jeju (CJU) routes: non-stop to Fukuoka, Osaka–Kansai and Tokyo–Narita"
+    checked: 2026-11-12
+  - url: https://www.trazy.com/experience/detail/tangerine-picking-experience-in-jeju
+    title: "Trazy: tangerine picking at a Seogwipo farm, season until about 20 Jan"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Fares are Kayak's on 12 Nov 2026, not for your dates. Winter 2026–27 cut-offs are the park office's, via a news report; its notice board and trail-booking guide could not be read, so the no-booking trails rest on a 2026 travel guide. Japan routes are from a route database, not a schedule for 20 Jan. Tangerine season end is from one farm listing."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Black lava rock, a snowy volcano in the middle and tangerines on the trees in January."
+    caption: "Seongsan Ilchulbong, the tuff cone on Jeju's east tip, from the air"
+  - type: highlights
+    items:
+      - title: Hallasan in snow
+        text: "South Korea's highest mountain is snow-covered in winter. The two summit trails need a **free online permit**; the gentler Yeongsil and Eorimok trails need no booking (per 2026 guides; the official reservation guide could not be read from here)."
+      - title: Volcanic sights
+        text: "**Seongsan Ilchulbong**, a tuff cone rising from the sea, the lava tubes of **Geomunoreum** and Hallasan itself are the three parts of the UNESCO World Heritage site *Jeju Volcanic Island and Lava Tubes*."
+      - title: Tangerine season
+        text: "Mandarins and **hallabong** are Jeju's specialities. Farm picking runs into January; one Seogwipo farm lists it until about 20 Jan, if the fruit lasts."
+      - title: The island of wind, rocks and women
+        text: "Jeju calls itself *samdado*: wind, black basalt walls everywhere, and the **haenyeo**, women who still dive for seafood all year."
+  - type: prose
+    title: Does Jeju earn the days?
+    text: |-
+      **Probably not on this trip.** Jeju is lovely, but it is spread out: the sights are around the coast and on the mountain, the buses get sparse outside Jeju City and Seogwipo, and in winter the light goes early. To see it properly you need two or three **daytime** days in a row, and your only free days in Korea are Sun 10 (arrival), Sat–Sun 16–17 (already wanted for the Hwacheon ice festival) and Wed 20 (flight out).
+
+      It could work as a **workcation**: fly down on a weekend, work your night shifts from Jeju, and see one area each afternoon before the light goes. That trades Seoul afternoons (T1 Base Camp, Gyeongbokgung, markets) for island ones, and adds about R$415–930 for a return flight at Kayak's typical one-way fares (US$37–83 each way).
+
+      If you'd rather keep more days for Japan, skip it. If you do go, stay in **Jeju City** for the airport and the bus hub, or **Seogwipo** on the south coast, close to Jungmun and many of the Olle trails.
+  - type: gallery
+    images:
+      - { file: hallasan-summit-snow, caption: "Rime ice near Hallasan's summit in winter" }
+      - { file: hallasan-winter-trail, caption: "Snow and bare trees on Hallasan in winter" }
+      - { file: seongsan-blue-hour, caption: "Seongsan-ri at blue hour, seen from Seongsan Ilchulbong" }
+  - type: tips
+    variant: insider
+    items:
+      - "Book the free Hallasan summit permit on visithalla.jeju.go.kr and bring the **passport** you registered with. You get a time slot; a no-show without cancelling blocks you from booking for three months."
+      - "For winter 2026–27 (1 Oct – 31 Mar) the park office set entry from 05:00, closing at **11:30** on the summit trails and at noon on Eorimok and Yeongsil. Check the current notice on [visithalla.jeju.go.kr](https://visithalla.jeju.go.kr/main/main.do) and start on the first bus."
+      - "No crampons? Wikivoyage says the shop at the start of the Yeongsil trail sells them for about **₩20,000**."
+      - "Flightsfrom.com lists non-stop flights from Jeju to **Fukuoka, Osaka–Kansai and Tokyo–Narita**, some only a few times a week. Check whether one fits 20 Jan before you book a return to Seoul."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Winter buses back from the trailheads can leave around 17:00.** Miss it and you need a taxi."
+      - "Trails sometimes close around midday in winter, and wind or snow can shut the summit. Have a plan B day."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 9
+    conditions: Mild but windy and often grey; snow showers with strong wind; snow on Hallasan
+    note: "Several degrees warmer than Seoul at sea level, but the wind makes it feel colder, and on the mountain it is full winter."
+    wear: Windproof shell, warm layers; hiking boots and crampons for Hallasan

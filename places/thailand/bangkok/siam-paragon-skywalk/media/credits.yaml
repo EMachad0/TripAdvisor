@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: paragon-facade
+  title: File:Siam Paragon 06.23.jpg
+  author: This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images, but please mention me as the author…
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Siam_Paragon_06.23.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4d/Siam_Paragon_06.23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Siam Paragon is a shopping mall in Bangkok, Thailand.
+  width: 6360
+  height: 5088
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: main-hall
+  title: File:The main hall of Siam Paragon Center, Bangkok, Thailand.jpg
+  author: Vyacheslav Argenberg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:The_main_hall_of_Siam_Paragon_Center,_Bangkok,_Thailand.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/53/The_main_hall_of_Siam_Paragon_Center%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Siam Paragon is an upscale shopping mall in Bangkok, Thailand. It is one of the biggest shopping centers in Asia. Bangkok, Thailand.
+  width: 3072
+  height: 2048
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: lamborghini-2009
+  title: File:Lamborghini Murcielago in Siam Paragon, Bangkok (3742927535).jpg
+  author: Dennis G. Jarvis
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Lamborghini_Murcielago_in_Siam_Paragon,_Bangkok_(3742927535).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/56/Lamborghini_Murcielago_in_Siam_Paragon%2C_Bangkok_%283742927535%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: What a surprise to see car dealerships in the mall, this is the one for Lamorghini but there was also Ferrari, BMW, Porch as well as others. When I asked if I could take a picture the woman said no outside. I responded with, "I am not going to buy your car then." LOL
+  width: 4288
+  height: 2848
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: onesiam-skywalk
+  title: File:APEC2022Flags OneSiam Skywalk.jpg
+  author: OraMAAG
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:APEC2022Flags_OneSiam_Skywalk.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/70/APEC2022Flags_OneSiam_Skywalk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: การประดับธงตราสัญลักษณ์การประชุม APEC 2022 บน ลานเชื่อมแยกปทุมวัน
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

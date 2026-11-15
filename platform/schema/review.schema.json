@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Independent review (reviews/<id>.yaml)",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "examples": [
+        "liziba-station"
+      ],
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "type": {
+      "enum": [
+        "place",
+        "area"
+      ],
+      "description": "What was reviewed. Missing = place (files written before areas could be reviewed).",
+      "examples": [
+        "place"
+      ]
+    },
+    "reviewed": {
+      "type": "string",
+      "examples": [
+        "2026-11-10"
+      ],
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "verdict": {
+      "enum": [
+        "pass",
+        "fix"
+      ],
+      "description": "fix when there is any blocker or should.",
+      "examples": [
+        "fix"
+      ]
+    },
+    "content_hash": {
+      "type": "string",
+      "description": "sha256 of place.yaml at review time.",
+      "maxLength": 80
+    },
+    "facts": {
+      "type": "object",
+      "description": "How many hard facts were checked, by result.",
+      "properties": {
+        "supported": {
+          "type": "integer",
+          "examples": [
+            9
+          ],
+          "minimum": 0
+        },
+        "unsupported": {
+          "type": "integer",
+          "examples": [
+            2
+          ],
+          "minimum": 0
+        },
+        "contradicted": {
+          "type": "integer",
+          "examples": [
+            1
+          ],
+          "minimum": 0
+        }
+      },
+      "required": [
+        "supported",
+        "unsupported",
+        "contradicted"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "severity": {
+            "enum": [
+              "blocker",
+              "should",
+              "nit"
+            ],
+            "description": "blocker = wrong or unverifiable fact the traveler would act on, or a broken page; should = worth fixing before the traveler sees it; nit = polish.",
+            "examples": [
+              "blocker"
+            ]
+          },
+          "field": {
+            "type": "string",
+            "description": "The YAML path the problem is in.",
+            "examples": [
+              "hours.summary"
+            ],
+            "maxLength": 120
+          },
+          "problem": {
+            "type": "string",
+            "examples": [
+              "Page says trains run until 23:00; the operator's page says last train 22:30."
+            ],
+            "maxLength": 600
+          },
+          "evidence": {
+            "type": "string",
+            "description": "URL (and a short quote) that shows it.",
+            "examples": [
+              "https://example.org/timetable"
+            ],
+            "maxLength": 600
+          },
+          "fix": {
+            "type": "string",
+            "examples": [
+              "Change to 06:30–22:30 and cite the operator page."
+            ],
+            "maxLength": 600
+          }
+        },
+        "required": [
+          "severity",
+          "field",
+          "problem",
+          "fix"
+        ],
+        "patternProperties": {
+          "^x_": {}
+        },
+        "additionalProperties": false
+      },
+      "maxItems": 40
+    },
+    "resolved": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "field": {
+            "type": "string",
+            "maxLength": 120
+          },
+          "problem": {
+            "type": "string",
+            "maxLength": 600
+          },
+          "evidence": {
+            "type": "string",
+            "maxLength": 600
+          }
+        },
+        "required": [
+          "field",
+          "problem"
+        ],
+        "patternProperties": {
+          "^x_": {}
+        },
+        "additionalProperties": false
+      },
+      "description": "Re-reviews: findings of the earlier review that are now resolved.",
+      "maxItems": 40
+    },
+    "rereview_of": {
+      "type": "string",
+      "description": "Re-reviews: content_hash of the earlier review this one followed up on.",
+      "maxLength": 80
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 600
+    },
+    "model": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "cost_usd": {
+      "type": "number",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "id",
+    "reviewed",
+    "verdict",
+    "content_hash",
+    "facts",
+    "issues",
+    "summary"
+  ],
+  "patternProperties": {
+    "^x_": {}
+  },
+  "additionalProperties": false
+}

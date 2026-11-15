@@ -1,0 +1,154 @@
+id: skyline-jungle-luge
+name: "Skyline Jungle Luge"
+name_local: สกายไลน์ จังเกิล ลูจ
+country: thailand
+city: chiang-mai
+area: "Pa Pan · Doi Saket"
+category: odd-local
+fame: popular
+must_do: downhill-carts
+tags: [luge, gravity-kart, zipline, jungle, weekend-trip]
+kind: Do
+why: "A 2.1 km jungle descent in a little gravity kart you steer and brake yourself, at the end of a morning of ziplines in the hills east of Chiang Mai."
+
+cost:
+  local: 3992
+  currency: THB
+  brl: 666.67
+  note: "Extreme package (฿2,450, 11:00/12:00 pickups fit the train) + sleeper both ways from Bangkok. Return fare estimated"
+fx: { rate: 0.167, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Up to 5 h incl. transfers"
+best_time: "Sun Jan 3, 11:00 or 12:00 pickup (Extreme)"
+
+book_ahead:
+  required: recommended
+  lead_days: 3
+  lead_time: "A few days ahead; January dates aren't on sale yet (Nov 2026)"
+  method: website
+  links:
+    - { label: "Extreme package", url: "https://fareharbor.com/embeds/book/skylinejungleluge/items/686303/calendar/", note: "Official: 38 platforms + luge + swing, ฿2,450; pickups 07:00–13:00" }
+    - { label: "Exciting package (cheapest with luge)", url: "https://fareharbor.com/embeds/book/skylinejungleluge/items/686305/calendar/", note: "Official: 19 platforms + luge + swing, ฿2,250; one pickup only, 10:00" }
+    - { label: "Luge kart only (reseller)", url: "https://ticket2attraction.com/discount-tickets/skyline-jungle-luge-zipline-chiang-mai", note: "One 2.1 km run, ฿370, no transfer listed; not offered on the official site" }
+  notes: "Packages include pickup from Chiang Mai city hotels (free within the city and up to 5 km out). The luge-only ticket is sold by one reseller only and has no transfer; the park is about an hour out on narrow, steep roads."
+
+hours:
+  summary: "Daily 08:00–17:00. Pickups: Extreme 07:00–13:00, Exciting 10:00 only (official calendar)"
+  winter: "January is Chiang Mai's cool, dry season, the most comfortable time for an outdoor jungle park. No holiday closures are listed on the official site. On 13 Nov 2026 the booking calendar had no January 2027 dates open yet: check again in December."
+
+location:
+  address: "44/4 Moo 7, Thep Sadet, Doi Saket, Chiang Mai 50220 (Ban Pa Pan)"
+  address_local: "44/4 หมู่ 7 ตำบลเทพเสด็จ อำเภอดอยสะเก็ด จังหวัดเชียงใหม่ 50220"
+  lat: 18.95316
+  lng: 99.33422
+  nearest_transit: "No public transport: package van from your Chiang Mai hotel"
+
+sources:
+  - url: https://skylinejungleluge.com/
+    title: "Skyline Jungle Luge (official): packages, address, contact"
+    checked: 2026-11-13
+  - url: https://skylinejungleluge.com/packages/extreme/
+    title: "Extreme package ฿2,450: 38 platforms, 21 ziplines, Jungle Luge Kart 2,100 m, giant swing (official)"
+    checked: 2026-11-13
+  - url: https://skylinejungleluge.com/packages/exciting/
+    title: "Exciting package ฿2,250: 19 platforms, 9 ziplines, luge kart 2,100 m, giant swing (official)"
+    checked: 2026-11-13
+  - url: https://fareharbor.com/embeds/book/skylinejungleluge/items/
+    title: "Official booking (FareHarbor): Extreme ฿2,450, Express ฿2,250 (no luge), Exciting ฿2,250"
+    checked: 2026-11-13
+  - url: https://fareharbor.com/embeds/book/skylinejungleluge/items/686305/calendar/
+    title: "FareHarbor calendar: Exciting has one daily pickup, 10:00; Extreme 07:00–13:00; no Jan 2027 dates yet"
+    checked: 2026-11-13
+  - url: https://ticket2attraction.com/discount-tickets/skyline-jungle-luge-zipline-chiang-mai
+    title: "Ticket2Attraction: luge kart 1 round ฿370 (2.1 km, ~15 min), open daily 08:00–17:00, free pickup within 5 km"
+    checked: 2026-11-13
+  - url: https://www.thaiholidayguide.com/tour/zipline-adventure-at-skyline-jungle-luge-chiang-mai/
+    title: "Thai Holiday Guide (reviewed Jun 2026): 45 min–1 h from Chiang Mai, you control the braking, pickup surcharge outside 5 km"
+    checked: 2026-11-13
+  - url: https://yeschiangmai.com/skyline-jungle-luge-park/
+    title: "Yes, Chiang Mai: pickup times, ages 4–65, max 110 kg, narrow steep roads (2025)"
+    checked: 2026-11-13
+  - url: https://www.tripadvisor.com/Attraction_Review-g293917-d6199566-Reviews-Skyline_Jungle_Luge_Zipline_Luge_Kart-Chiang_Mai.html
+    title: "Tripadvisor: hours daily 08:00–17:00; reviews of the luge kart (May 2025: 'super fun kart ride to close the adventure')"
+    checked: 2026-11-13
+  - url: https://www.visitthailandtoday.com/guides/bangkok-to-chiang-mai
+    title: "Bangkok to Chiang Mai (2026): sleeper No. 13 20:05 → ~08:45, ฿771 upper; flights ฿700–1,500, New Year weeks triple"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Children%27s_Day_(Thailand)
+    title: "Children's Day in Thailand: second Saturday of January (Wikipedia), so Sat 9 Jan 2027"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Chiang_Mai
+    title: "Chiang Mai: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Packages, prices, luge length and address from the official site and its FareHarbor page (13 Nov 2026). The ฿370 luge-only ticket is from one reseller; the official site doesn't sell it. Hours from two listings, pickup times from a 2025 guide. Return train fare assumed equal to the outbound; not checked. Tripadvisor opened by web fetch (blocks link checks)."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: pa-miang-hills
+    focus: center
+    hook: "Two kilometres of hairpins through the jungle, no motor, your hand on the brake."
+    caption: "Ban Pa Miang in the same Doi Saket hills. No free photo of the luge track exists"
+  - type: quick_facts
+    time_needed: "Up to 5 h incl. transfers"
+    best_time: "Sun Jan 3, from a morning pickup"
+    extra:
+      - { label: Slot, value: "Weekend + trip north", detail: "Jan 2–3 works; Jan 9 only as a no-sleep dash after your shift" }
+      - { label: Track, value: "2,100 m downhill", detail: "About 15 min; the operator calls it Thailand's only luge kart" }
+      - { label: Limits, value: "Ages 4+, max 110 kg", detail: "Official limit; a 2025 guide also gives an upper age of 65" }
+  - type: highlights
+    items:
+      - title: The thing you asked for
+        text: "A small kart with no motor that rolls **2,100 m** down a jungle hill on gravity alone. You steer it and you work the brake, so the speed is yours."
+      - title: Ziplines on the way down
+        text: "The luge comes at the end of a zipline course. The Extreme package has **21 ziplines** on 38 platforms (the longest is **900 m**), two abseils and a giant swing; the cheaper Exciting one has 9."
+      - title: Picked up, fed, dropped off
+        text: "Every package includes the **van from your Chiang Mai hotel** and back, plus a Thai buffet with tea and coffee. No need to find your own way up into the hills."
+      - title: Cool, dry January
+        text: "The north's cool season: Chiang Mai averages about **16 °C** at dawn and **30 °C** in the afternoon in January, with almost no rain."
+  - type: prose
+    title: Will it fit your week?
+    dropcap: true
+    text: |-
+      **Sat 2–Sun 3 Jan (the one that works).** Take sleeper **No. 13** from Krung Thep Aphiwat on Saturday at **20:05**. It reaches Chiang Mai around **08:45** on Sunday, but trains run 30–60 min late, so book the **Extreme** package with an **11:00 or 12:00 pickup**. The cheaper Exciting package has only a 10:00 van, which a late train can make you miss. You're back in town by mid-afternoon. Get the night train back, or a 1h10 flight on Sunday evening, and you're in Bangkok long before Monday's 19:00 shift. This only works if your flight from China lands in Bangkok by Saturday evening. Otherwise fly from China straight to Chiang Mai and do the luge on Sunday.
+
+      **Sat 9 Jan (possible, but brutal).** Your shift ends at 04:00. You'd catch an early flight north, take a late-morning pickup, fly back that evening and fly to Seoul on Sunday. That's a 1h10 flight each way, a luge run and no sleep. Children's Day is that Saturday too.
+
+      **Is it worth about R$670, nearly seven days' budget?** It's the exact ride you named, and nothing like it exists near Bangkok except a much shorter run at Thongsomboon Club near Khao Yai (see its page). But the luge itself is about 15 minutes. You're really paying for a zipline morning with a gravity kart at the end. The reseller's ฿370 luge-only ticket looks cheap, but it has no transfer, so a round trip into the hills could cost you more than you save. Flights are an alternative to the train (฿700–1,500 each way when booked 2–4 weeks out), but the New Year weeks can triple fares, so book early either way.
+  - type: book_ahead
+    steps:
+      - { days_before: 30, text: "Book the train early: **sleeper No. 13** on Sat Jan 2 (2nd-class upper ฿771) on SRT D-Ticket, or a flight." }
+      - { days_before: 3, text: "Book the **Extreme** package (฿2,450) on the official FareHarbor page with the **11:00 or 12:00** pickup, and give your Chiang Mai hostel. January dates open later, so check again in December." }
+      - { days_before: 0, text: "Wear closed shoes and clothes you can move in; helmets are provided on the course." }
+  - type: cost_breakdown
+    items:
+      - { label: "Extreme package (luge, 21 ziplines, swing, lunch, van)", local: 2450, brl: 409.15 }
+      - { label: "Sleeper No. 13, Bangkok → Chiang Mai (upper berth)", local: 771, brl: 128.76 }
+      - { label: "Night train back to Bangkok (assumed same fare)", local: 771, brl: 128.76, estimate: true }
+      - { label: "Exciting instead (fewer ziplines, 10:00 pickup only)", local: 2250, brl: 375.75, optional: true }
+      - { label: "Luge-only ticket instead (reseller, no transfer)", local: 370, brl: 61.79, optional: true }
+    note: "Flights instead of the train run ฿700–1,500 each way booked 2–4 weeks out (before bags), and can triple in New Year weeks. Sleeping on the train both ways saves a hostel night."
+  - type: map
+    note: "The park is in **Ban Pa Pan**, about an hour east of Chiang Mai. The package van picks you up; driving yourself means narrow, steep roads."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: weekend + trip north.** Sun Jan 3 is the realistic day."
+      - "Only want the luge? Ask the park on **WhatsApp (+66 98 748 3778)** whether they sell a luge-only run with the van before you buy the reseller's ฿370 ticket."
+      - "The **Express** package (also ฿2,250) has **no luge**: pick **Exciting** or **Extreme**."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Free pickup only covers Chiang Mai city and up to 5 km out. Further out, it costs **฿500–1,800 each way**, so stay in town."
+      - "Overnight trains often run 30–60 minutes late. Off the train, don't book Exciting's **only pickup at 10:00**: take Extreme at 11:00 or 12:00."
+  - type: weather
+    temp_low_c: 16
+    temp_high_c: 30
+    conditions: "Cool, dry season"
+    note: "Ideal weather for a jungle park. These are Chiang Mai city's January normals; the park is up in the hills."
+    wear: "Closed shoes, long shorts or light trousers, a layer for the early van"
+  - type: pairs_well
+    items:
+      - { id: mad-monkey-chiang-mai, note: "Social hostel in town, inside the free-pickup zone" }
+      - { id: formula-hmong-cart-racing, note: "Hmong wooden-cart races, if one falls on your weekend" }

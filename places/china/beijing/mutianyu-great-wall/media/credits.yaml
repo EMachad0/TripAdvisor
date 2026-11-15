@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: wall-bare-hills
+  title: File:The Mutianyu section of the Great Wall of China.jpg
+  author: Lloyd Tudor
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:The_Mutianyu_section_of_the_Great_Wall_of_China.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/64/The_Mutianyu_section_of_the_Great_Wall_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Mutianyu section of the Great Wall of China
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: toboggan
+  title: File:Toboggan ride at Mutianyu section of Great Wall of China.jpg
+  author: David Berkowitz
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Toboggan_ride_at_Mutianyu_section_of_Great_Wall_of_China.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/72/Toboggan_ride_at_Mutianyu_section_of_Great_Wall_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Beijing, China - September 2011 (cc) David Berkowitz - <a href=" http://www.marketersstudio.com " rel="nofollow">www.marketersstudio.com</a> / <a href=" https://twitter.com/dberkowitz " rel="nofollow">www.twitter.com/dberkowitz</a>
+  width: 4320
+  height: 3240
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: cable-car
+  title: File:Mutianyu Cable Car (20190915122641).jpg
+  author: N509FZ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Mutianyu_Cable_Car_(20190915122641).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/73/Mutianyu_Cable_Car_%2820190915122641%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Before the weather changed...
+  width: 4608
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: towers-spring
+  title: File:67058-The-Great-Wall, Mutianyu.jpg
+  author: xiquinhosilva
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:67058-The-Great-Wall,_Mutianyu.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6b/67058-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Mutianyu Great Wall, Beijing, China
+  width: 3000
+  height: 2003
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

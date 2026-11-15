@@ -1,0 +1,171 @@
+id: gwangjang-market
+name: Gwangjang Market
+name_local: 광장시장
+name_romanized: Gwangjang Sijang
+country: korea
+city: seoul
+area: Jongno-gu · Jongno 5-ga
+category: food
+fame: iconic
+tags: [market, street-food, bindaetteok, mayak-gimbap, makgeolli, cheap-eats, history]
+kind: Eat
+why: "Mung-bean pancakes fried in sizzling oil and ₩3,000 'addictive' gimbap at Korea's first all-week market, open since 1905."
+cost:
+  local: 9000
+  currency: KRW
+  brl: 36.86
+  note: "One bindaetteok plus a portion of mayak gimbap. Add yukhoe (₩12,000–20,000) for a real feast"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: Weekday 11:30–14:00 or early evening
+book_ahead:
+  required: false
+
+hours:
+  summary: "Food street 09:00–23:00 daily; goods shops 09:00–18:00 (VisitKorea). Single stalls vary"
+  closed: "Goods shops close Sundays; the food street is listed as open all year"
+  winter: "No seasonal hours published. The food alley is under a roof but not enclosed, so it's cold. The hot griddles and steaming broth pots help. Expect closed stalls around Seollal, which falls after this trip."
+
+location:
+  address: 88 Changgyeonggung-ro, Jongno-gu, Seoul
+  address_local: 서울특별시 종로구 창경궁로 88 (광장시장)
+  lat: 37.5702
+  lng: 126.9995
+  nearest_transit: Jongno 5-ga (Line 1), Exit 8
+
+sources:
+  - url: https://en.wikipedia.org/wiki/Gwangjang_Market
+    title: Gwangjang Market (Wikipedia)
+    checked: 2026-11-09
+  - url: https://blog.namanecard.com/en/seoul-street-food-guide-2026-gwangjang-myeongdong/
+    title: Seoul Street Food Markets 2026, Gwangjang prices and hours (Namane Card blog, May 2026)
+    checked: 2026-11-09
+  - url: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=106345
+    title: Gwangjang Market (VisitKorea, Korea Tourism Organization; hours and closed days)
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-12
+  - url: https://www.koreatimes.co.kr/lifestyle/travel-food/20251112/gwangjang-market-stall-suspended-after-overcharging-dispute-goes-viral
+    title: Gwangjang Market stall suspended after overcharging dispute goes viral (Korea Times, Nov 2025)
+    checked: 2026-11-09
+confidence: medium
+confidence_note: "Prices from a May 2026 guide and vary by stall. Hours and the Sunday rule follow VisitKorea's English page; the official site (kwangjangmarket.co.kr) would not open (self-signed certificate), and the Namane blog gives 09:00–22:30. Address per VisitKorea and Wikipedia."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: food-alley
+    hook: Under a roof of flags, vendors grind mung beans and fry pancakes the size of a plate.
+    focus: center
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: Weekday 11:30–14:00 or early evening
+    extra:
+      - label: Payment
+        value: Bring cash
+        detail: Many stalls don't take cards
+      - label: Seating
+        value: Benches at the stalls
+        detail: Often shared with strangers
+      - label: Good in cold
+        value: Covered, but not heated
+  - type: highlights
+    items:
+      - title: Bindaetteok, fresh from the grinder
+        text: "Soaked mung beans are ground at the stalls and fried into thick, crisp pancakes, about **₩4,000–8,000**. Eat it hot."
+      - title: Mayak gimbap
+        text: "Finger-sized rice rolls with mustard dip, nicknamed *mayak* (\"narcotic\") because one plate is never enough. About **₩3,000** for ten."
+      - title: Korea's first daily market
+        text: "Founded in **1905** by Korean merchants answering a Japanese-controlled market. It was the first market open every day of the week."
+      - title: Netflix-famous alley
+        text: "The food alley was featured in the Seoul episode of Netflix's *Street Food*. Expect queues at the best-known stalls."
+  - type: prose
+    title: How to eat here
+    dropcap: true
+    text: |-
+      Walk the whole roofed food corridor once before sitting down. Stalls cluster by dish: bindaetteok griddles, gimbap counters, sundae and offal, and raw-beef **yukhoe**. Pick a stall with a posted price board, take a stool and point.
+
+      The classic pairing is a hot bindaetteok with a bowl of **makgeolli**, Korea's milky rice wine, poured from a kettle. Share a yukhoe if you're braver. It's raw beef with pear and egg yolk, and the market's most famous splurge.
+
+      The market has had an honest problem. In late 2025, viral videos showed some stalls charging more than their boards and serving small portions. The district suspended offending vendors and announced plans for a real-name system for about 250 street stalls. Go anyway, and stay alert.
+  - type: gallery
+    images:
+      - file: jeon-stall
+        caption: A jeon stall. Point at what you want and it's reheated on the griddle
+      - file: bindaetteok-makgeolli
+        caption: Bindaetteok with makgeolli, the market's classic order
+      - file: yukhoe
+        caption: Yukhoe (raw beef tartare), the Gwangjang splurge
+  - type: quote
+    variant: vibe
+    text: Hissing oil, shouted orders in Korean, and a plastic stool by a steaming griddle on a freezing January noon.
+  - type: menu
+    title: The Gwangjang order
+    items:
+      - name: Mung-bean pancake
+        name_local: 빈대떡
+        price_local: 6000
+        price_brl: 24.58
+        note: ₩4,000–8,000 depending on stall and filling. Ask for it fresh off the griddle.
+        tag: must-try
+      - name: Mini "addictive" gimbap
+        name_local: 마약김밥
+        price_local: 3000
+        price_brl: 12.29
+        note: About 10 small rolls, with a mustard-soy dip.
+        tag: cheap
+      - name: Raw beef tartare
+        name_local: 육회
+        price_local: 15000
+        price_brl: 61.44
+        note: ₩12,000–20,000. Pear, sesame, egg yolk. Share it.
+        tag: signature
+      - name: Korean blood sausage
+        name_local: 순대
+        price_local: 8000
+        price_brl: 32.77
+        note: ₩5,000–9,000. Check the board before they add extras.
+      - name: Rice wine
+        name_local: 막걸리
+        note: Sold at the bindaetteok stalls. Price wasn't listed in our sources, so ask.
+        tag: drink
+    note: "Prices from a May 2026 guide. **Confirm the total before eating**: point at the board and ask *eolmayeyo?* (얼마예요?)."
+  - type: cost_breakdown
+    items:
+      - label: Bindaetteok
+        local: 6000
+        brl: 24.58
+      - label: Mayak gimbap
+        local: 3000
+        brl: 12.29
+      - label: Yukhoe to share
+        local: 15000
+        brl: 61.44
+        optional: true
+    note: "Adding the shared yukhoe takes the meal to about ₩24,000 (≈R$98)."
+  - type: map
+    zoom: 17
+    note: "From **Jongno 5-ga Exit 8**, the market is a short walk. The food alley is the roofed crossroads in the middle of the building."
+  - type: tips
+    variant: insider
+    items:
+      - "The stalls near the **entrances** are the most tourist-facing. The central corridor is where prices tend to match the boards."
+      - "Carry **cash** (₩10,000 notes) and withdraw it before you go."
+      - "Arrive just before noon, before the lunch crowd fills the benches."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Ask the price first** and confirm the total before eating. In Nov 2025 a stall listing sundae at ₩8,000 charged ₩10,000 and was suspended for 10 days."
+      - "Say no to add-ons you didn't order (extra meat, a side plate). Unrequested extras were the core of the 2025 complaints."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry, sharp cold, occasional snow
+    note: "Seoul's January normals are about 2 °C by day and −5.5 °C at night. The roof keeps snow off but not the cold, and you'll sit on a stool in an open corridor. Upside: hot pancakes and steaming broth taste their best at −5 °C."
+    wear: Padded jacket you can eat in, gloves you can take off quickly
+  - type: pairs_well
+    items:
+      - id: euljiro-nogari-alley
+        note: About 15 min walk west. Beer and nogari after your pancakes

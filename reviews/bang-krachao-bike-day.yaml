@@ -1,0 +1,22 @@
+# Independent review of bang-krachao-bike-day. Written by `./atr review`; do not edit by hand.
+id: bang-krachao-bike-day
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: d4446918b50feae068ddaef80945d20730f7a480f2d13d8f94e36a41575db365
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: The park hours of 05:00–19:00 come from one blog only, and another listing gives different hours. The trip falls right after New Year, and the page also says no holiday closures were found, which no source supports. Visit Thailand Today says the park's hours can change on Thai public holidays.
+    evidence: Visit Thailand Today is now cited. Its page says "Daily 05:00–19:00" and "hours can change on Thai public holidays, so check ahead for holiday visits" (https://www.visitthailandtoday.com/activities-tours/bangkok/sri-nakhon-khuean-khan-park-and-botanical-garden). hours.winter dropped 'No holiday closures were found' and now says Jan 2–3 holiday hours can differ.
+  - field: blocks[2].items[3]
+    problem: The plan for the day depends on the floating market being open only on Saturdays and Sundays. One blog is the only source for those days, and no source gives the market's opening hours. THéo COurant mentions a 'floating market' but gives no days.
+    evidence: 'There are now two more sources for the market. Thai Holiday Guide (updated Jul 2026): "Saturday-Sunday only, 08:00-16:00" (https://www.thaiholidayguide.com/attraction/bang-namphueng-floating-market/). Visit Thailand Today (updated Oct 2026): "Saturday and Sunday only, 08:00 to 16:00" (https://www.visitthailandtoday.com/markets-shopping/bangkok/bang-nam-phueng-floating-market). The hours are now on the page in blocks[2].items[3] and hours.winter.'
+rereview_of: c9ae487824056e522021f67ca8ea7fc7dc092075756a8e470f3377d684665439
+summary: "Both earlier findings are resolved. Visit Thailand Today supports the park hours (05:00–19:00), the holiday caveat and the new address. Two dated guides support the market's Sat–Sun 08:00–16:00. The slot dates match the 2027 calendar and config/trip.yaml, and the diff adds no unsupported facts. The page was not looked at: `./atr shot` failed with ERR_FILE_NOT_FOUND because no build exists, and a read-only review can't build it. `./atr validate` passed."
+model: claude-opus-5-5
+cost_usd: 0.42

@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: sushi-queue
+  title: File:Rear Palace Sushi - 2017-02-25 (001).jpg
+  author: Iudexvivorum
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Rear_Palace_Sushi_-_2017-02-25_(001).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7c/Rear_Palace_Sushi_-_2017-02-25_%28001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A popular sushi shop at Wang Lang (วังหลัง; "Rear Palace"), Bangkok , Thailand .
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: street-stalls
+  title: File:Street food at Wang Lung.jpg
+  author: Sry85
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Street_food_at_Wang_Lung.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/25/Street_food_at_Wang_Lung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Street food at Wang Lung
+  width: 2976
+  height: 3968
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: tub-tim-krob
+  title: File:Rear Palace Thapthim Krop - 2017-02-25 (001).jpg
+  author: Iudexvivorum
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Rear_Palace_Thapthim_Krop_-_2017-02-25_(001).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/bb/Rear_Palace_Thapthim_Krop_-_2017-02-25_%28001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Thapthim Krop (ทับทิมกรอบ; "Crispy Rubies") as sold at Wang Lang (วังหลัง; "Rear Palace"), Bangkok , Thailand .
+  width: 3024
+  height: 4032
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: pier
+  title: File:Wang Lang Pier Bangkok.jpg
+  author: David McKelvey from Brisbane, Australia
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wang_Lang_Pier_Bangkok.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/49/Wang_Lang_Pier_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wang Lang ferry pier on Chao Phraya River, Bangkok Noi district, Bangkok.
+  width: 2592
+  height: 1458
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: sarim
+  title: File:Rear Palace Sarim - 2017-02-25 (001).jpg
+  author: Iudexvivorum
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Rear_Palace_Sarim_-_2017-02-25_(001).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/28/Rear_Palace_Sarim_-_2017-02-25_%28001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sarim (ซ่าหริ่ม) as sold at Wang Lang (วังหลัง; "Rear Palace"), Bangkok , Thailand .
+  width: 3024
+  height: 4032
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons

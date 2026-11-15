@@ -1,0 +1,138 @@
+id: huxi-laolongtang-scallion-noodles
+name: "Huxi Laolongtang: ¥7 scallion noodles"
+short_name: Huxi Laolongtang
+name_local: 沪西老弄堂面馆（定西路店）
+name_romanized: Hùxī Lǎo Lòngtáng Miànguǎn
+country: china
+city: shanghai
+area: Changning · Dingxi Road
+category: food
+fame: hidden
+tags: [noodles, scallion-oil-noodles, cheap-eats, lunch, queue, shanghainese]
+kind: Eat
+why: "Shanghai's own noodle, ¥7 a bowl: scallion oil fried golden, soy and dried shrimp, at a 40-year-old lane shop the city government itself recommends."
+cost:
+  local: 7
+  currency: CNY
+  brl: 5.79
+  note: "Plain scallion-oil noodles, from the Shanghai government's 2026 guide. Toppings cost extra; prices not found"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min
+best_time: "Just after 10:00, or 15:30, before the meal rush"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 10:00–14:30 and 15:30–20:30 (closed in between)"
+  winter: "No winter hours or New Year closures listed on the Shanghai government page or Trip.com."
+
+location:
+  address: "Room 101, 685 Dingxi Road, Changning District, Shanghai"
+  address_local: 上海市长宁区定西路685号101室 沪西老弄堂面馆
+  lat: 31.21419
+  lng: 121.41856
+  approximate: true
+  nearest_transit: "West Yan'an Road (Lines 3, 4), then a short walk"
+
+sources:
+  - url: "https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260424/5996b2b3de77425f9166f59f2f30833c.html"
+    title: "Scallion oil noodles (Shanghai gov., Global Taste in Shanghai 2026, 2026-04-24): history, how to eat, Huxi Laolongtang ¥7, hours, address"
+    checked: 2026-11-12
+  - url: https://uk.trip.com/restaurant/china/shanghai/detail/restaurant-36963998
+    title: "沪西老弄堂面馆(定西路店), Trip.com: 685 Dingxi Rd Room 101, 10:00–14:30 / 15:30–20:30, popular dishes, 2025 Asia 100 Light Bites"
+    checked: 2026-11-12
+  - url: https://www.thatsmags.com/shanghai/post/36323/shanghai-s-most-slurpable-scallion-oil-noodles
+    title: "Shanghai's most slurpable scallion oil noodles (That's Shanghai, Sept 2023): Huxi Lao Longtang queue, ¥7, pork-intestine and liver toppings"
+    checked: 2026-11-12
+  - url: https://gs.ctrip.com/html5/you/foods/2/136424662.html
+    title: "沪西老弄堂面馆(静安寺店), Ctrip: 1738 Beijing West Rd, 10:00–15:00 / 16:00–20:30"
+    checked: 2026-11-12
+  - url: https://www.smartshanghai.com/venue/19046/mazilu_beef_noodle_wujiang_lu
+    title: "Mazilu Beef Noodle, 277 Wujiang Lu (SmartShanghai, last updated Jan 2020)"
+    checked: 2026-11-12
+  - url: https://www.chinahighlights.com/shanghai/weather/december.htm
+    title: "Shanghai weather in December (China Highlights): 4–11 °C, driest month"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Price, hours, address from the Shanghai gov. April 2026 guide; Trip.com agrees. Both and That's opened via atr render today; the link checker times out or is blocked on them. Topping prices not found. Pin is Dingxi Rd, nearest metro is my map reading. That's reviewed another branch (2023). Mazilu listing is from 2020, no current price."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: Spring onions fried slow until they turn to dark gold, then tossed through noodles with two kinds of soy.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: "10:00 or 15:30"
+    extra:
+      - { label: Say, value: 葱油拌面, detail: "Cong you ban mian: scallion-oil noodles" }
+      - { label: Add, value: A topping (浇头), detail: "Pork intestine, liver, spicy pork; priced extra" }
+  - type: highlights
+    items:
+      - title: Shanghai's home noodle
+        text: "The modern dish was created in **1889** by Chen Youzhi, a snack master at the City God Temple, says the Shanghai government's 2026 food guide."
+      - title: Seven yuan
+        text: "**¥7 a bowl** (about R$6) at a shop that has been serving the dish for over 40 years, with a generous pile of dried shrimp."
+      - title: The toppings are the secret
+        text: "That's Shanghai found the plain bowl modest and the **braised pork intestine** and **fried pig liver** toppings the real draw. Trip.com's popular dishes include spicy pork with pickled greens and edamame."
+      - title: A queue that moves
+        text: "Expect a line at meal times. That's Shanghai saw one 50 people deep at another branch and still ate in under ten minutes."
+  - type: prose
+    title: Five ingredients and a lot of patience
+    dropcap: true
+    text: |-
+      Scallion-oil noodles go back to the cold noodle dishes of the Tang and Song dynasties, but the Shanghai bowl dates from 1889. The trick is the oil: small spring onions fried slowly in hot oil until they are dry, golden and fragrant. Then the sauce: **light soy** for salt and **dark soy** for colour, often with *kaiyang*, dried shrimp.
+
+      The government guide tells you how to eat it: before the first bite, lift the noodles from the centre with your chopsticks a few times until every strand is coated. At Huxi Laolongtang, add a topping (浇头) and you have a full Shanghainese lunch for very little.
+  - type: quote
+    variant: vibe
+    text: A dark, glossy tangle of noodles, crisp burnt scallions on top, and a lane-house queue outside.
+  - type: cost_breakdown
+    items:
+      - { label: "Scallion-oil noodles", local: 7, brl: 5.79 }
+  - type: menu
+    items:
+      - name: Scallion-oil noodles
+        name_local: 葱油拌面
+        price_local: 7
+        price_brl: 5.79
+        note: "With dried shrimp; mix from the centre before eating"
+        tag: must-try
+      - name: Spicy pork with pickled greens and edamame
+        name_local: 辣肉面加雪菜和毛豆
+        note: "On Trip.com's popular-dishes list; price not found"
+        tag: spicy
+      - name: Clam and pork-liver noodles
+        name_local: 蛤蜊猪肝面
+        note: "On Trip.com's popular-dishes list; price not found"
+        tag: signature
+      - name: Braised large pork intestine (topping)
+        name_local: 红烧大肠
+        note: "A specialty of the chain, per That's Shanghai; price not found"
+    note: "Only the ¥7 bowl has a published price. Pay with Alipay or WeChat Pay."
+  - type: map
+    note: "Show 定西路685号 沪西老弄堂面馆. The pin marks Dingxi Road; the door is at Room 101."
+  - type: tips
+    variant: insider
+    items:
+      - "Staying in Jing'an? Ctrip lists a **Jing'an Temple branch** at 1738 Beijing West Road (10:00–15:00, 16:00–20:30)."
+      - "Other bowls from the same government guide: **Longtang Wonton House**, 729 Weihai Rd, ¥8, from 06:30; **Cang Lang Ting**, 8 Sinan Rd, ¥25, the refined version with dried shrimp."
+      - "Want to watch noodles being pulled? **Mazilu** (马子禄), the Lanzhou beef-noodle brand, has a shop at 277 Wujiang Rd off West Nanjing Rd, per a SmartShanghai listing last updated in 2020. Check it's still open on Amap; I found no current price."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Mind the **14:30–15:30** break; don't arrive at three."
+      - "Plain is plain: That's Shanghai called this shop's bare bowl 'unapologetically plain'. Add a topping."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: Cool, dry, mostly grey
+    note: "December is Shanghai's driest month. A queue outside is no hardship; a bowl of hot noodles is a good warm-up."
+    wear: Jacket and layers
+  - type: pairs_well
+    items:
+      - { id: desti-youth-hostel-jing-an, note: "Your Jing'an base; the Jing'an Temple branch is closer" }
+      - { id: dayin-hostel-east-nanjing-road, note: "Your other Shanghai base" }
+      - { id: da-hu-chun-shengjian, note: "Shanghai's other cheap classic: pan-fried buns" }
+      - { id: yang-space-bathhouse-lujiazui, note: "Noodles, then a night at the bathhouse" }

@@ -1,0 +1,183 @@
+id: euljiro-nogari-alley
+name: Euljiro Nogari Alley
+name_local: 을지로 노가리골목
+name_romanized: Euljiro Nogari Golmok
+country: korea
+city: seoul
+area: Euljiro 3-ga (Hipjiro)
+category: nightlife
+fame: hidden
+tags: [hof, draft-beer, bar-crawl, hidden-bars, cheap-drinks, retro, locals]
+kind: Do
+why: "₩5,000 draft beer and grilled dried pollack in a 1980s office-worker pub alley, then hidden 2nd-floor bars above tool shops."
+cost:
+  local: 29000
+  currency: KRW
+  brl: 118.78
+  note: "Estimate: 2 draft beers, nogari and one cocktail upstairs, at one guide's prices. Beer and nogari alone: about ₩14,000"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h (an evening)
+best_time: "Sat 16 Jan for a full crawl; 18:30–20:30 on work nights"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Varies by pub; busiest 20:00–23:00. Manseon Hof: daily 12:00–24:00 (Time Out, 10mag); one guide says to 05:00"
+  closed: Varies by pub. Sunday is quiet, with many bars shut
+  winter: "The plastic tables on the street are the whole show from spring to autumn. **In January most drinking moves indoors**, so the alley looks emptier. The big hofs and upstairs bars run as normal."
+
+location:
+  address: 19 Eulji-ro 13-gil, Jung-gu, Seoul (Manseon Hof, the alley's anchor)
+  address_local: 서울특별시 중구 을지로13길 19 (만선호프, 을지로 노가리골목)
+  lat: 37.5667
+  lng: 126.9906
+  nearest_transit: Euljiro 3-ga (Line 2 / 3), Exit 3
+
+sources:
+  - url: https://ktriptips.com/eng/tourspot/3013976
+    title: Euljiro Nogari Alley (Korea Trip Tips, Korea Tourism Organization data)
+    checked: 2026-11-09
+  - url: https://www.seoultourism.org/?p=1558
+    title: Euljiro guide, prices and Manseon Hof hours (Seoul Tourism, checked Sept 2026)
+    checked: 2026-11-09
+  - url: https://www.timeout.com/seoul/bars/manseon-hof
+    title: Manseon Hof (Time Out Seoul, 2016; address and history only)
+    checked: 2026-11-09
+  - url: https://10mag.com/manseon-hof-euljiros-hidden-pocha-street/
+    title: "Manseon Hof & Euljiro's Hidden Pocha Street (10 Magazine, undated; hours 12:00–24:00)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-12
+  - url: https://weekly.khan.co.kr/article/202207151430551
+    title: 힙지로 골목은 '만선 특혜 골목'인가 (Weekly Kyunghyang, 2022, on the alley's outdoor-drinking permit)
+    checked: 2026-11-09
+confidence: medium
+confidence_note: "All current prices come from one unofficial guide (seoultourism.org, Sept 2026) that gets Manseon Hof's founding year wrong, so treat them as estimates; 10mag lists ₩1,000 nogari. No Naver or Kakao listing could be read for prices. Hours: Time Out and 10mag say 12:00–24:00, that guide says 05:00. Last-train time and taxi fare not checked. Winter atmosphere from one guide."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: led-tool-street
+    caption: "Euljiro's LED and tool street by day. No free photo of the pub alley at night exists"
+    hook: By day, drill bits and LED strips. By night, beer foam and pollack smoke.
+    focus: center
+  - type: quick_facts
+    time_needed: 3–4 h (an evening)
+    best_time: "Sat 16 Jan for a full crawl; 18:30–20:30 on work nights"
+    extra:
+      - label: Tables
+        value: No reservations
+        detail: Grab any free table and order
+      - label: Payment
+        value: Card OK
+        detail: Settle the bill when you leave
+      - label: Last train
+        value: Check Naver Map
+        detail: Not verified; plan a taxi if you stay late
+  - type: highlights
+    items:
+      - title: The cheapest round in central Seoul
+        text: "Draft beer (*saeng-maekju*) at about **₩4,000–5,000** and nogari at a couple of thousand won a stick. It's a standard after-work round for Seoul office workers."
+      - title: Born in 1980
+        text: "**Eulji OB Bear** opened here in 1980 among the tool and printing shops. Copycat hofs followed, and the street got its name from the snack. The original OB Bear was evicted from the alley in 2022."
+      - title: Hipjiro upstairs
+        text: "Unmarked cocktail and wine bars sit on 2nd to 4th floors above hardware stores. It's the reason locals now call Euljiro **Hipjiro**."
+      - title: Manseon Hof, the beer hall
+        text: "Spread across several buildings with a rooftop. Sometimes called Korea's Oktoberfest, it is listed as open until midnight."
+  - type: prose
+    title: How an evening goes
+    dropcap: true
+    text: |-
+      On a work night, keep it to a hof stop from about 18:30 to 20:30. For the full crawl, pick Saturday 16 January (if you are not away in Hwacheon), since Sunday 10 January is the alley's quiet night. Start at one of the big hofs. Order a couple of **saeng-maekju** and a plate of **nogari**: young pollack, dried, grilled, then torn and dipped in a sweet-spicy gochujang-mayo sauce. It's chewy, salty and made for beer.
+
+      After a round or two, move upstairs. Euljiro's hidden bars hide behind tiny lifts with handwritten floor numbers or dark stairwells next to closed metal shutters. Pick two or three on **Naver Map** beforehand, because walking around looking for them doesn't work.
+
+      In January, be honest with yourself. The famous sea of street tables shrinks, and it's below freezing. You come for warm, packed indoor halls and the upstairs bars, not the summer street party.
+  - type: gallery
+    images:
+      - file: printing-alley
+        caption: Euljiro by day. The printing and paper trade still fills the ground floors
+      - file: euljiro-3ga-street
+        caption: Euljiro 3-ga crossroads. The pub alley starts just off this street
+      - file: station-sign
+        caption: Line 2's Euljiro 3-ga stop. Use Exit 3 for the alley
+  - type: quote
+    variant: vibe
+    text: Clinking 500 ml mugs and shouted orders, with the shop shutters still down from the day.
+  - type: cost_breakdown
+    items:
+      - label: 2 draft beers at a hof
+        local: 10000
+        brl: 40.96
+        estimate: true
+      - label: Nogari (2 sticks) with sauce
+        local: 4000
+        brl: 16.38
+        estimate: true
+      - label: One cocktail at an upstairs bar
+        local: 15000
+        brl: 61.44
+        estimate: true
+      - label: Taxi home after the last train
+        local: 10000
+        brl: 40.96
+        optional: true
+        note: Rough guess for nearby districts; depends on distance
+    note: "Fits Korea's R$140/day budget. Skip the cocktail and it's a R$57 night out."
+  - type: menu
+    title: What to order
+    items:
+      - name: Draft beer (500 ml)
+        name_local: 생맥주
+        price_local: 5000
+        price_brl: 20.48
+        note: "₩4,000–5,000 in the alley; ₩7,000–9,000 in the upstairs bars."
+        tag: drink
+      - name: Grilled dried pollack
+        name_local: 노가리
+        price_local: 2000
+        price_brl: 8.19
+        note: About ₩2,000 a stick. Dip in the gochujang-mayo. Order several.
+        tag: must-try
+      - name: Spicy sea-snail salad
+        name_local: 골뱅이무침
+        note: Classic hof side dish with noodles. Price changes, so ask.
+        tag: spicy
+      - name: Garlic fried chicken
+        name_local: 마늘치킨
+        note: A common hof dish. Price varies; good to share.
+        tag: signature
+      - name: Cocktail upstairs
+        name_local: 칵테일
+        price_local: 15000
+        price_brl: 61.44
+        note: ₩12,000–18,000 in the hidden bars.
+        tag: drink
+    note: "Estimates from one unofficial Sept 2026 guide. Other listings say ₩3,000 beer and ₩1,000 nogari, which may be out of date. Check the board."
+  - type: map
+    zoom: 17
+    note: "From **Euljiro 3-ga Exit 3**, walk toward Manseon Hof (만선호프). Search the Korean name in Naver Map, since Google Maps walking directions don't work in Korea."
+  - type: tips
+    variant: insider
+    items:
+      - "Your free evening here is **Sat 16 Jan** (packed after 20:00, so arrive early). **Sun 10 Jan** is a Sunday, when many bars shut. Mon–Fri you work from 21:00, so only a short early hof stop fits."
+      - "Save upstairs bars on **Naver Map** before you go. Look for a small lift with handwritten floor numbers."
+      - "Keep going east to **Dongdaemun** if you want a late night. It stays open long after the alley quiets down."
+  - type: tips
+    variant: locals
+    items:
+      - "Locals pour for each other: fill your neighbour's glass, and hold yours with two hands when someone older pours."
+      - "Keep it down on the street **after midnight** and don't sit on loading bays. Shopkeepers have complained about noise, and the district has cracked down before."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry, sharp cold, occasional snow
+    note: "Seoul's January normals are about 2 °C by day and −5.5 °C at night. Too cold for street tables most January nights, so the alley shrinks and the scene moves indoors. **Still worth it** for the cheap hofs and the hidden bars, but don't expect the summer photos."
+    wear: Padded jacket, hat and gloves for walking between bars
+  - type: pairs_well
+    items:
+      - id: gwangjang-market
+        note: About 15 min walk east. Start with bindaetteok and makgeolli, then come here for beer

@@ -1,0 +1,44 @@
+# Independent review of jewel-rain-vortex. Written by `./atr review`; do not edit by hand.
+id: jewel-rain-vortex
+type: place
+reviewed: 2026-11-13
+verdict: fix
+content_hash: d5d50ff330eb90c291515db024012157690121316c3ae43cdfbca15acdc2b3ec
+facts:
+  supported: 5
+  unsupported: 4
+  contradicted: 0
+issues:
+  - severity: should
+    field: cost.currency
+    problem: The page still fails validation because SGD is not in the schema's currency enum, so it cannot pass as written.
+    evidence: './atr validate jewel-rain-vortex: "SGD" is not an allowed value (allowed: CNY | KRW | JPY | HKD | THB | USD | BRL)'
+    fix: Have the orchestrator add SGD to the schema's currency enum, and keep SGD on the page.
+  - severity: should
+    field: blocks[3].text (Canopy Park prices and last entry)
+    problem: "The new 'bridge, nets and mazes S$13.90–24.90, last entry 20:30' is right, but no source on this page states it: the listed canopy-park.html shows only the S$8 park ticket, the 10:00–22:00 Fri–Sun hours and 'Last admission is 30 mins prior to closing time' (21:30 on Sunday). As written, a reader can take 20:30 as the park's own last entry."
+    evidence: https://www.jewelchangiairport.com/en/attractions/Mastercard-canopy-bridge.html — "10:00am - 9:00pm … Last admission is 30 mins prior to closing time … Adult - SGD 13.90"; https://www.jewelchangiairport.com/en/attractions/bouncing-net.html — "Adult - SGD 24.90"
+    fix: Add the Canopy Bridge and Bouncing Net pages to sources, and write it as 'bridge, nets and mazes S$13.90–24.90, close 21:00, last entry 20:30; the park itself takes last entry at 21:30'.
+  - severity: should
+    field: blocks[5].items[0].a (cinema Thursday closure)
+    problem: The new '11:00–16:00 on Thursdays' is more precise than the official page, which gives no hours for the closure.
+    evidence: https://www.changiairport.com/en/at-changi/facilities-and-services-directory/movie-theatres.html — "Open 24 Hours … Movie Theatre is closed for weekly maintenance every Thursday"
+    fix: Change to 'closed for maintenance on Thursdays' unless a listed source gives the 11:00–16:00 hours.
+  - severity: nit
+    field: sources[3].title / confidence_note
+    problem: The title now says the Changi baggage page has 'rates', but its text today lists only the locations and 'Open 24 Hours'. I could not confirm the S$11 there, so the confidence note's claim that the reviewer read it on that page could not be checked.
+    evidence: 'https://www.changiairport.com/en/at-changi/facilities-and-services-directory/baggage-storage.html (rendered: "Jewel Level 1 (near the Early Check-In Lounge) … Open 24 Hours", no prices)'
+    fix: Drop 'and rates' from the title and credit S$11 only to the May 2024 Now Boarding guide.
+  - severity: nit
+    field: sources[10]
+    problem: The new sunrise-sunset.org search URL redirects to the current-month page (November 2026) and does not show 10 Jan 2027, so it does not back the 19:13.
+    evidence: https://sunrise-sunset.org/search?location=Singapore → redirected to https://sunrise-sunset.org/sg/singapore, 'calendar for November 2026'
+    fix: Link the January 2027 calendar page instead, or leave 19:13 credited to ./atr sun only.
+resolved:
+  - field: prose (Your Sunday, airport-only) / tips[pitfalls]
+    problem: The plan says to collect the bag and check in after the 22:00 show. But config/trip.yaml has the red-eye leaving at about 22:30–03:00, and Scoot's counters close 60 min before departure. If the flight leaves before about 23:30–00:00, the 22:00 show (and possibly the 21:00 one) cannot fit, and the page never says so.
+    evidence: Prose block 'Your Sunday, airport-only' now says the 22:00 show fits a departure at 00:00 or later and the 21:00 show one at 23:00 or later, and that earlier flights should use Jewel Early Check-in or online check-in before the shows. This matches Scoot's 60 min counter close and 15 min boarding close (https://www.flyscoot.com/en/manage/get-ready-to-fly/check-in-guide, read in the first review) and the Early Check-in window on the page's own Changi source. The pitfall line still says 'After the 22:00 show', but the new paragraph puts it in context.
+rereview_of: 672ff7d0a1034f906d7089a33ef34f24f5dbbb4297e00f8a891d7b9a5f1a4b55
+summary: "Finding 1 is resolved: the departure-time rule for which show fits matches Scoot's check-in cutoffs. Finding 2 is still open because validation fails on SGD. The new Canopy Park prices and last-entry time are correct but have no listed source here and read as the park's own last entry. The new Thursday 11:00–16:00 cinema hours are more precise than the official page supports."
+model: claude-opus-5-5
+cost_usd: 0.649

@@ -1,0 +1,22 @@
+# Independent review of iconsiam. Written by `./atr review`; do not edit by hand.
+id: iconsiam
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: c3fab11344979e6d4835a107683c39519ebd0e66a1c27751be25d2ecc081e972
+facts:
+  supported: 8
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: The page says shuttle boats run from both Sathorn and Si Phraya piers 09:00–23:00, and it plans a free evening that ends after the fountain show. The listed source gives earlier last boats for both piers. The official page shows only the heading 'Shuttle (Fare Applies)' and lists no hours, even when rendered.
+    evidence: "The official Getting Here page has the shuttle hours inside its collapsed 'Shuttle (Fare Applies)' section. They appear in the page's embedded content: Sathorn Pier \"Available time: Everyday 09:00 AM - 11.00 PM\" and Si Phraya Pier \"Available time: Everyday 09:00 AM - 11:00 PM\" (https://www.iconsiam.com/en/getting-here). Travjoy still gives 09:00–22:50 for Sathorn and 09:30–22:30 for Si Phraya. hours.summary now says 'last boats 22:30–23:00 depending on pier and source', and a new tip gives both sources' times with a Gold Line fallback. Both sources support this."
+  - field: hours.winter
+    problem: No listed source supports 'Orange Flag boat stop runs Mon–Fri only (weekend service suspended)'. The operator's site lists the Orange line as 'Monday-Friday' but does not show that it stops at ICONSIAM. Travjoy says Yellow Flag boats have replaced the Orange line on weekday daytimes and all weekend, and that the Orange stop at ICONSIAM is 'occasionally suspended'.
+    evidence: "The unsupported Orange Flag sentence is gone from hours.winter. The remaining 'shuttle boats run every day' matches the official 'Available time: Everyday' for both piers."
+rereview_of: 0cf49da6bc75ced6f4bf3e5f5b11c2b56bb40dc679d627c65a13b92d0de45ca5
+summary: "Both earlier findings are fixed. Shuttle hours now match the official page (09:00–23:00, in its expandable section) and Travjoy's earlier last boats, with a last-boat tip, and the unsupported Orange Flag claim is gone. The new text checks out: the Illumination show ends 24 Dec per the official events list, Travjoy places SookSiam on the ground floor, and the hero photo shows the lantern-lit hall its caption describes. Nothing left to fix."
+model: claude-opus-5-5
+cost_usd: 0.455

@@ -1,0 +1,68 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: bukhansan-snow-hike
+name: Bukhansan Snow Hike
+name_local: 북한산
+country: korea
+city: seoul
+area: Bukhansan National Park
+category: nature
+tags:
+  - hike
+  - snow
+  - cold
+  - free
+kind: Do
+why: Granite peaks with the whole city below, reachable by subway; crampons recommended in January.
+cost:
+  local: 0
+  currency: KRW
+  brl: 0
+fx:
+  rate: 0.0039
+  date: 2026-11-09
+  source: fixture rate
+time_needed: 2–3 h
+best_time: Weekday morning
+book_ahead:
+  required: false
+  method: walk-in
+hours:
+  summary: Daily 10:00–22:00
+location:
+  address: Fixture address, seoul
+  lat: 37.57
+  lng: 126.99
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture source
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture source 2
+    checked: 2026-11-09
+confidence: low
+confidence_note: Game test fixture, not researched.
+last_updated: 2026-11-09
+blocks:
+  - type: hero
+    hook: Granite and snow, with Seoul at your feet.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Weekday morning
+  - type: highlights
+    items:
+      - title: Fixture highlight
+        text: Test text for **Bukhansan Snow Hike**. Not researched.
+      - title: Second highlight
+        text: Game fixture content, ignored by the real build.
+  - type: weather
+    temp_low_c: -10
+    temp_high_c: 0
+    conditions: Icy trails, clear
+    note: Fixture weather note.
+    wear: Warm layers
+  - type: tips
+    variant: insider
+    items:
+      - "Fixture tip: go early."

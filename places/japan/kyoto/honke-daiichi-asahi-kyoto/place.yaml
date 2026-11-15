@@ -1,0 +1,121 @@
+id: honke-daiichi-asahi-kyoto
+name: "Honke Daiichi Asahi Takabashi"
+short_name: Honke Daiichi Asahi
+name_local: 本家第一旭 たかばし本店
+name_romanized: Honke Daiichi Asahi Takabashi Honten
+country: japan
+city: kyoto
+area: Shimogyo · Kyoto Station
+category: food
+fame: popular
+tags: [ramen, kyoto-shoyu, cheap-eats, breakfast]
+kind: Eat
+why: Kyoto's 1947 shoyu ramen, ¥980 a bowl with free extra Kujo green onion, open from 06:00 — a ramen breakfast before the first train out.
+cost:
+  local: 980
+  currency: JPY
+  brl: 34.47
+  note: "Basic ramen (about 150 g noodles); the ¥1,230 tokusei is the regulars' pick"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–60 min incl. queue
+best_time: "09:00–10:00, or weekdays 14:00–16:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 06:00–01:00 (next day), except Thursdays"
+  closed: Thursdays (Jan 21, Jan 28 and Feb 4 in your Japan window)
+  winter: "No winter hours or holiday closures found for late Jan. Kujo green onion, the shop's signature topping, is in season Nov–Feb, so you visit at its best (official site)."
+
+location:
+  address: 845 Higashishiokoji-Mukaihatacho, Shimogyo-ku, Kyoto
+  address_local: 京都府京都市下京区東塩小路向畑町845
+  lat: 34.98669
+  lng: 135.76249
+  nearest_transit: Kyoto Station, Karasuma (central) exit, 4–5 min walk east
+
+sources:
+  - url: https://www.honke-daiichiasahi.com/shop.html
+    title: Honke Daiichi Asahi official site — main shop (menu prices, hours, closing day, address)
+    checked: 2026-11-13
+  - url: https://www.honke-daiichiasahi.com/kodawari.html
+    title: Honke Daiichi Asahi official site — kodawari (Kujo green onion season)
+    checked: 2026-11-13
+  - url: https://iekei.shop/daiichi-asahi
+    title: "第一旭 完全ガイド【2026年最新】 — menu, hours, history (iekei.shop)"
+    checked: 2026-11-12
+  - url: https://kyotopi.jp/articles/B6R3F
+    title: "本家第一旭 三条河原町店 opening report, Feb 2026 — current prices (Kyotopi)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Kyoto
+    title: Kyoto — Wikipedia (climate table)
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices (¥980 ramen, ¥1,230 tokusei, ¥350 gyoza, +¥250 extra meat), hours 06:00–25:00, Thursday closing and address are from the official main-shop page (read Nov 2026). History, the free-customisation list and queue timings come from the 2026 iekei.shop guide. Official pages give HTTP 403 to the link checker but open in a browser. No late-Jan holiday closures found."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: takabashi-storefronts
+    focus: "45% 60%"
+    caption: The yellow Daiichi Asahi awning, next door to rival Shinpuku Saikan
+    hook: Two rival ramen shops side by side at the foot of the Takabashi bridge, each with its own queue.
+  - type: quick_facts
+    time_needed: 30–60 min incl. queue
+    best_time: 09:00–10:00 (quietest)
+    extra:
+      - { label: Style, value: Kyoto shoyu, detail: "Clear pork broth, Fushimi soy sauce, thin noodles" }
+      - { label: Ordering, value: Ticket machine, detail: "Cash, cards, e-money and QR payments accepted" }
+  - type: highlights
+    items:
+      - title: A 1947 Kyoto classic
+        text: "Open since **1947** next to Kyoto Station (rival Shinpuku Saikan next door is older, from 1938). It started at dawn to feed railway workers, and still opens at **06:00**."
+      - title: Free green onion
+        text: "Ask for **ネギ大盛** (extra green onion) or extra bean sprouts at no charge. Kujo onion is in season Nov–Feb, so late January is its best time."
+      - title: A clear, light broth
+        text: "Non-cloudy pork broth with soy sauce from Fushimi. Light enough for breakfast, unlike the thick Kyoto styles."
+      - title: The ramen duel
+        text: "Rival **Shinpuku Saikan**'s main shop is right next door. Order the ¥830 mini bowl here and try both."
+  - type: prose
+    text: |-
+      Kyoto ramen is not one style, and Daiichi Asahi is the clear, soy-sauce one: thin straight noodles, slices of chashu, a heap of green onion and bean sprouts, in a light pork broth. The fourth-generation owner says the early-morning crowd has grown with Japan's *asa-ra* (morning ramen) habit: night-bus arrivals, shift workers, people catching early trains.
+
+      It is the cheap classic on this list. A basic bowl is under ¥1,000; extra onion and sprouts and every seasoning change are free, and extra meat is ¥250.
+  - type: quote
+    variant: vibe
+    text: Steam on the window, a queue on the pavement, and green onion piled higher than the noodles.
+  - type: menu
+    title: What to order
+    items:
+      - { name: Ramen, name_local: ラーメン, price_local: 980, price_brl: 34.47, note: "About 150 g noodles, chashu, Kujo onion, bean sprouts", tag: cheap }
+      - { name: Tokusei ramen, name_local: 特製ラーメン, price_local: 1230, price_brl: 43.26, note: "About 200 g noodles and more chashu: the most-ordered bowl", tag: must-try }
+      - { name: Menma ramen, name_local: メンマラーメン, price_local: 1130, price_brl: 39.74, note: Bamboo shoots added }
+      - { name: Mini ramen, name_local: ミニラーメン, price_local: 830, price_brl: 29.19, note: For a two-shop crawl with Shinpuku Saikan next door }
+      - { name: Gyoza (6), name_local: 餃子, price_local: 350, price_brl: 12.31 }
+    note: "Prices from 2026 reports; the official menu page lags behind. Extra onion and sprouts, noodle firmness, soup richness and soy strength are all adjustable for free."
+  - type: map
+    note: "From the Karasuma exit, walk east along Shiokoji-dori toward the Takabashi bridge. Look for the yellow awning and the two queues."
+  - type: tips
+    variant: insider
+    items:
+      - "**09:00–10:00** is the quietest slot, between the breakfast crowd and lunch. Avoid Friday and Saturday nights (30–60 min waits)."
+      - "Buy your **meal ticket at the machine inside first**, then join the queue on the south side (the Shinpuku Saikan side). With 31 seats it moves faster than it looks."
+      - "Chashu cut is your choice for free: **赤** (lean) or **白** (fatty)."
+      - "Ordering **ネギ大盛** (*negi ōmori*) gets you a mountain of onion at no extra cost."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Closed Thursdays.** In your window that's Jan 21, Jan 28 and Feb 4."
+      - "The Sanjo-Kawaramachi branch (opened Feb 2026, same prices) is a fallback if the queue here is long. It opens at 11:00, not 06:00."
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 9
+    conditions: Cold, often clear, occasional light snow
+    note: "The queue is outside on the pavement. At 06:00 in late January it will be close to freezing, which is exactly when a hot bowl is best."
+    wear: Warm coat, gloves, hat for the queue
+  - type: pairs_well
+    items:
+      - { id: tenkaippin-sohonten-kyoto, note: "The opposite of this bowl: Kyoto's thick chicken kotteri, in northern Kyoto" }
+      - { id: kiyomizu-dera, note: "Ramen early, then the temple stage" }

@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: pc-zone
+  title: File:T1 Base Camp PC bang interior - 2023-07-21.jpg
+  author: Wvdp
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:T1_Base_Camp_PC_bang_interior_-_2023-07-21.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/13/T1_Base_Camp_PC_bang_interior_-_2023-07-21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Interior of the T1 Base Camp PC bang (internet café) in Hongdae, Mapo-gu, Seoul, South Korea, showing rows of gaming PCs and red-white T1 gaming chairs.
+  width: 4032
+  height: 2268
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

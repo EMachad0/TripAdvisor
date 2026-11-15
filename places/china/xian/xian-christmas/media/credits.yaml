@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: bell-tower-night
+  title: File:Xi'an Bell Tower at night 2.jpg
+  author: H2v5o68z
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Xi%27an_Bell_Tower_at_night_2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/76/Xi%27an_Bell_Tower_at_night_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​Xi'an Bell Tower at night
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: wall-in-snow
+  title: File:城墙雪 Ancient city wall in heavy snow - panoramio.jpg
+  author: monicker
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E5%9F%8E%E5%A2%99%E9%9B%AA_Ancient_city_wall_in_heavy_snow_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/40/%E5%9F%8E%E5%A2%99%E9%9B%AA_Ancient_city_wall_in_heavy_snow_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 城墙雪 Ancient city wall in heavy snow
+  width: 2592
+  height: 1944
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: bell-tower-dusk
+  title: File:Xi'an Bell Tower - 54075117224.jpg
+  author: xiquinhosilva
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Xi%27an_Bell_Tower_-_54075117224.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/98/Xi%27an_Bell_Tower_-_54075117224.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Xi'an Bell Tower at night
+  width: 2560
+  height: 1508
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

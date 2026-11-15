@@ -1,0 +1,141 @@
+id: sunshine-city-ikebukuro
+name: "Sunshine City"
+name_local: サンシャインシティ
+name_romanized: Sanshain Shiti
+country: japan
+city: tokyo
+area: Higashi-Ikebukuro
+category: shopping
+fame: popular
+tags: [mall, observatory, aquarium, pokemon, anime, rooftop]
+kind: Shop
+why: "A 1978 city-in-a-building: a lawn on the 60th floor, penguins swimming over the rooftops, the flagship Pokémon Center and a gyoza theme park."
+
+cost:
+  local: 700
+  currency: JPY
+  brl: 24.78
+  note: "Observatory, weekday price. ¥900 weekends and busy days, ¥1,200 peak days; check the fee calendar. The mall is free."
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h
+best_time: "Weekday afternoon, observatory at sunset"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "Weekends and busy days: a timed web ticket is required"
+  method: website
+  links:
+    - label: Observatory tickets and fees
+      url: "https://sunshinecity.jp/en/observatory/ticket/"
+      note: "Date/time web tickets on LINKTIVITY, on sale two months ahead"
+  notes: "On weekdays (except designated days) you can buy at the 60th-floor counter. On weekends, holidays and busy days entry is restricted and you need a date-and-time web ticket. Shops and the Pokémon Center need nothing."
+
+hours:
+  summary: "Observatory 11:00–21:00 (last entry 20:30); Pokémon Center Mega Tokyo 10:00–20:00"
+  winter: "No winter closures listed. The observatory's fee calendar runs only to December 2026 (late December is peak, ¥1,200), so late-January prices aren't out yet. The aquarium price changes by day; check its calendar."
+
+location:
+  address: "Sunshine City, 3-1 Higashi-Ikebukuro, Toshima, Tokyo"
+  address_local: 東京都豊島区東池袋3-1 サンシャインシティ
+  lat: 35.72929
+  lng: 139.71919
+  nearest_transit: "Higashi-Ikebukuro (Yurakucho Line), 3 min; JR Ikebukuro East Exit 35, 8 min"
+
+sources:
+  - url: "https://sunshinecity.jp/en/observatory/ticket/"
+    title: "Sunshine City: Tenbou-Park observatory hours, fees and web-ticket rules"
+    checked: 2026-11-13
+  - url: "https://sunshinecity.jp/en/observatory/"
+    title: "Sunshine City: Tenbou-Park observatory, 251 m, artificial-grass hill"
+    checked: 2026-11-13
+  - url: "https://sunshinecity.jp/en/information/about/"
+    title: "Sunshine City: about the complex (60th-floor deck, sky restaurants, aquarium, planetarium, Namjatown)"
+    checked: 2026-11-13
+  - url: "https://www.gotokyo.org/en/spot/31/index.html"
+    title: "GO TOKYO (official Tokyo guide): Sunshine City, opened 1978, about 220 shops, Pokémon Center, Ghibli shop, gyoza stadium"
+    checked: 2026-11-13
+  - url: "https://sunshinecity.jp/en/aquarium/ticket/"
+    title: "Sunshine Aquarium (official): adults ¥2,600–3,200, price varies by day (calendar to Mar 2027)"
+    checked: 2026-11-13
+  - url: "https://sunshinecity.jp/en/information/access.html"
+    title: "Sunshine City: access (Ikebukuro Station East Exit 35 is the closest exit)"
+    checked: 2026-11-13
+  - url: "https://www.gotokyo.org/en/spot/32/index.html"
+    title: "GO TOKYO: Sunshine Aquarium on the World Import Mart roof, ¥2,600–3,200 by season"
+    checked: 2026-11-13
+  - url: "https://sunshinecity.jp/en/aquarium/area/sky-journey.html"
+    title: "Sunshine Aquarium: Outdoor Marine Garden, the 12 m 'Penguins in the Sky' tank"
+    checked: 2026-11-13
+  - url: "https://shop.pokemon.co.jp/en/shop/pokemoncenter-megatokyo/"
+    title: "Pokémon Center official site: Pokémon Center MEGA TOKYO, Sunshine City alpa 2F, 10:00–20:00"
+    checked: 2026-11-13
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "JMA: climate normals 1991–2020, Tokyo (January)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Observatory hours and fee tiers are from the official ticket page; its calendar runs only to Dec 2026, so the late-January price is not yet confirmed (¥700 on an ordinary weekday). Aquarium price range from its official ticket page; the day-by-day price is on its calendar. Shop count and the gyoza stadium come from GO TOKYO."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: view-60f
+    caption: "Ikebukuro from the Sunshine 60 observatory"
+    hook: "Sixty floors up there's a lawn to lie on, and Tokyo runs to the horizon in every direction."
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: Weekday, sunset at the top
+    extra:
+      - { label: Mall entry, value: Free, detail: "About 220 shops and restaurants" }
+      - { label: Observatory, value: "251 m, 60th floor", detail: "¥700 weekdays, ¥900 weekends, ¥1,200 peak" }
+      - { label: Aquarium, value: "¥2,600–3,200", detail: "On the roof; the price changes by day" }
+  - type: highlights
+    items:
+      - title: A park on the 60th floor
+        text: "The observatory is now **Tenbou-Park**: artificial grass, a hill to sit on and a 251 m view that takes in Tokyo Tower and the Metropolitan Government Building at night."
+      - title: Penguins over the city
+        text: "The **Sunshine Aquarium** sits on the roof of the World Import Mart building. Its 12 m **Penguins in the Sky** tank hangs overhead, so the birds look as if they are flying over the towers."
+      - title: Pokémon, Ghibli and a gyoza stadium
+        text: "The flagship **Pokémon Center Mega Tokyo** is on alpa 2F. GO TOKYO lists **Donguri Kyowakoku** (Studio Ghibli goods) and, inside the Namjatown indoor theme park, a stadium of famous gyoza stalls."
+      - title: Free to wander
+        text: "Walking the malls costs nothing. Only the observatory, the aquarium, the planetarium and Namjatown charge."
+  - type: prose
+    title: Why it's worth a card
+    text: |-
+      Sunshine City opened in 1978: an office tower, a hotel, a theatre, a museum, a planetarium and several malls in one complex on Ikebukuro's east side. The shopping is ordinary chain retail. The reasons to come are the things on top of it and in between: the lawn at 251 m, the rooftop aquarium and the Pokémon Center Mega Tokyo.
+
+      On a budget, the observatory at **¥700** on a weekday is a cheap paid view; the Metropolitan Government Building's deck in Shinjuku is free. Skip the aquarium unless penguins are your thing. At ¥2,600 or more it eats most of a day's budget.
+  - type: gallery
+    images:
+      - file: sunshine-60
+        caption: "The Sunshine 60 tower from street level"
+        focus: top
+      - file: alpa-atrium
+        caption: "The fountain atrium inside alpa (2012)"
+  - type: cost_breakdown
+    items:
+      - { label: "Tenbou-Park observatory (weekday)", local: 700, brl: 24.78 }
+      - { label: "Sunshine Aquarium (low end of seasonal range)", local: 2600, brl: 92.04, optional: true }
+  - type: map
+    note: "From JR Ikebukuro, walk east along **Sunshine 60 Street** (about 8 min), or ride the Yurakucho Line one stop to Higashi-Ikebukuro."
+  - type: tips
+    variant: insider
+    items:
+      - "Time the observatory for sunset, around **17:00** in late January, and stay for the night view; last entry is 20:30."
+      - "On a weekend, buy the **timed web ticket** first. Weekend entry without one is restricted."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The Pokémon Center opens at 10:00 but the observatory only at **11:00**. Shop first, go up later."
+      - "Discounts (e.g. for disabled visitors) are only sold at the 60th-floor counter, not online."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Dry, cold and mostly sunny
+    note: "January normals for Tokyo (JMA): 1.2 °C low, 9.8 °C high, about 193 sunshine hours and only 60 mm of rain. Everything here is indoors, and clear winter air is the best for the view."
+    wear: A warm coat for the walk; layers you can take off inside
+  - type: pairs_well
+    items:
+      - { id: tocho-observatory-shinjuku, note: "The free observatory, to compare with this ¥700 one" }
+      - { id: shibuya-crossing-and-sky, note: "The famous paid deck, if you only do one" }

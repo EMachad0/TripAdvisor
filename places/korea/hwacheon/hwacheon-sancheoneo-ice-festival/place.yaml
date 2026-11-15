@@ -1,0 +1,175 @@
+id: hwacheon-sancheoneo-ice-festival
+name: "Hwacheon Sancheoneo Ice Festival"
+short_name: Hwacheon Ice Festival
+name_local: 얼음나라화천 산천어축제
+name_romanized: Eoreumnara Hwacheon Sancheoneo Chukje
+country: korea
+city: hwacheon
+area: Hwacheon-eup · Gangwon
+category: day-trip
+fame: popular
+tags: [cold-outdoors, festival, ice-fishing, snow, gangwon]
+kind: Do
+why: "Fish for mountain trout through a hole in a frozen river, then have your catch grilled. Runs 9–31 Jan 2027: your free Sat 16 Jan fits, no booking needed."
+
+cost:
+  local: 41800
+  currency: KRW
+  brl: 171.21
+  note: "Return bus from Dong Seoul, foreigner ice fishing at the 2026 price, one fish grilled. 2027 fees not published"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Full day (about 5.5 h on buses)
+best_time: "Sat 16 Jan, on the first bus from Dong Seoul"
+
+when:
+  dates:
+    - { from: 2027-01-09, to: 2027-01-31 }
+  kind: only
+  label: "9–31 Jan 2027 only"
+  confirmed: true
+
+book_ahead:
+  required: false
+  notes: "The 2026 foreigner fishing zone sold tickets on site (09:00–17:00). The reserved zone had online pre-sale, but 2027 booking is not open yet."
+
+hours:
+  summary: "2026 edition: foreigner ice fishing 09:00–18:00, ticket sales 09:00–17:00. 2027 hours not published yet"
+  winter: "The festival exists only in January: Sat 9 Jan to Sun 31 Jan 2027 (23 days), per the organiser's site (re-checked 12 Nov 2026). All of your Korea days (10–20 Jan) fall inside it; your free weekend is Sat 16 – Sun 17 Jan. The organiser says the number of people let onto the ice depends on ice conditions."
+
+location:
+  address: Hwacheoncheon stream, Ha-ri, Hwacheon-eup, Hwacheon-gun, Gangwon
+  address_local: 강원특별자치도 화천군 화천읍 하리 2-1 (산천어축제장)
+  lat: 38.1059
+  lng: 127.71058
+  nearest_transit: Hwacheon bus terminal (intercity bus from Dong Seoul)
+  approximate: true
+
+sources:
+  - url: http://www.narafestival.com/ice_en/
+    title: "Official festival site, English home page: 2027 dates (Nara Foundation / Hwacheon County). Read with ./atr render"
+    checked: 2026-11-10
+  - url: http://www.narafestival.com/ice_en/?wr_id=16
+    title: "Official site: Foreigners & FAM tourists ice fishing area (2026 edition content)"
+    checked: 2026-11-10
+  - url: http://www.narafestival.com/ice_en/?wr_id=89
+    title: "Official site: 2026 Sancheoneo experience fees"
+    checked: 2026-11-10
+  - url: http://www.narafestival.com/01_icenara/?wr_id=8
+    title: "Official site (Korean): directions, Dong Seoul and Chuncheon bus fares and times (2026 edition content)"
+    checked: 2026-11-10
+  - url: http://www.narafestival.com/ice_en/?wr_id=4
+    title: "Official site: outline of the 2026 festival (10 Jan – 1 Feb 2026)"
+    checked: 2026-11-10
+  - url: http://www.narafestival.com/ice_en/?wr_id=14
+    title: "Official site: unreserved ice fishing, rules and what to bring (2026 edition content)"
+    checked: 2026-11-10
+  - url: https://news.mtn.co.kr/news-detail/2026100210184026559
+    title: "MTN News, 2 Oct 2026: county reviews raising the fee to ₩25,000 for 2027"
+    checked: 2026-11-10
+  - url: https://www.trazy.com/experience/detail/hwacheon-sancheoneo-ice-festival-shuttle-bus-package
+    title: "Trazy: 2027 Hwacheon Sancheoneo Ice Festival shuttle bus package (Jan 9–31)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Chuncheon
+    title: "Chuncheon climate normals 1991–2020 (Wikipedia), nearest city with a climate table"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "2027 dates are on the organiser's home page (re-read 12 Nov 2026). Prices, hours and bus times come from its 2026-edition pages ('preparing to update'); a fee rise to ₩25,000 is under review. Rod lending in the foreigner zone is not stated. A timetable site I could not open showed 8 buses a day in a search snippet, last return 19:30. Pin is the stream, not a gate. Weather uses Chuncheon."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: ice-fishing-field
+    hook: Thousands of people crouch over holes in a frozen river, each waiting for a trout to bite.
+    caption: The ice fishing field at the 2023 festival
+    focus: center
+  - type: quick_facts
+    time_needed: Full day (about 5.5 h on buses)
+    best_time: "Sat 16 Jan, first bus"
+    extra:
+      - label: Your dates
+        value: Sat 16 or Sun 17 Jan
+        detail: Your free weekend; the festival runs 9–31 Jan
+      - label: Catch limit
+        value: 3 fish per ticket
+        detail: 2026 rule in the foreigner zone
+      - label: Bus each way
+        value: 2 h 35 – 2 h 55
+        detail: Dong Seoul terminal, ₩14,400
+  - type: highlights
+    items:
+      - title: Ice fishing with a foreigner zone
+        text: "In 2026 a separate fishing area for foreign visitors ran all festival long, below the suspension bridge, with a rest area and a grill zone. Solo travellers paid **₩10,000** and got a **₩5,000** Hwacheon gift certificate back."
+      - title: Eat what you catch
+        text: "The festival's grill and sashimi centres cook the trout you caught for **₩3,000 per fish** (2026 price). They don't sell fish separately."
+      - title: More than fishing
+        text: "The 2026 programme had bare-hand fishing, snow sleds, an ice bobsleigh, ice soccer, the Haneulgareugi ('fly to the sky') ride and an indoor ice sculpture plaza carved by sculptors from the Harbin ice festival."
+      - title: Lantern street after dark
+        text: "The town's Seondeung street is hung with trout-shaped paper lanterns and LED lights. In the 2025/26 season it ran from 20 Dec to 8 Feb, longer than the festival itself."
+  - type: prose
+    title: Which day to go
+    dropcap: true
+    text: |-
+      The organiser's site shows **Sat 9 Jan – Sun 31 Jan 2027**, 23 days, so the whole of your Korea stay (10–20 Jan) is inside it. Your weekdays are work days (afternoons only, shift from 21:00), and with almost 3 hours of bus each way the festival needs a whole day. That leaves your free weekend, **Sat 16 or Sun 17 Jan**.
+
+      Saturday is the better of the two: Sat night is your one free night out in Seoul, and Sunday then stays free to recover. The organiser warns that on weekends walk-up fishing tickets can run out before noon, so take the first bus and be on the ice by mid-morning. You don't need to book: the foreigner zone sold tickets on site in 2026.
+
+      **Sancheoneo** is a mountain trout that lives only in very clean water. The stream freezes thick enough for people to walk on, holes are cut in the ice, and you fish with a short rod and a lure. Live bait is banned.
+
+      Programme, fees and booking for 2027 are not published yet. The official pages still show 2026 content with a note that the update is being prepared. In October 2026 the county was reviewing a rise of the standard fee from ₩15,000 to about ₩25,000, with a bigger voucher given back.
+  - type: quote
+    variant: vibe
+    text: A white river under bare hills, a plastic rod in a gloved hand, and a shout every time someone pulls a trout onto the ice.
+  - type: cost_breakdown
+    items:
+      - label: Bus Dong Seoul → Hwacheon and back
+        local: 28800
+        brl: 117.96
+        note: "₩14,400 each way (2026 edition fare)"
+      - label: Foreigner zone ice fishing
+        local: 10000
+        brl: 40.96
+        note: "2026 price for independent travellers. ₩5,000 comes back as a local gift certificate"
+      - label: One trout grilled
+        local: 3000
+        brl: 12.29
+        note: Per fish, 2026 price
+      - label: Indoor ice sculpture plaza
+        local: 5000
+        brl: 20.48
+        optional: true
+        note: "2026 price, ₩3,000 back as a gift certificate"
+      - label: Snow sleigh
+        local: 5000
+        brl: 20.48
+        optional: true
+        note: "3–5 runs, 2026 price"
+    note: "About 1.2 days of your R$140 Korea budget, most of it the bus. All prices are from the 2026 edition. The county is reviewing a higher fishing fee for 2027."
+  - type: map
+    zoom: 13
+    note: "From **Dong Seoul bus terminal**, buses to Hwacheon left between 06:45 and 18:10 and took 2 h 55 (2026 edition timetable). Buses back left 06:40–21:00 and took 2 h 35. The pin marks the stream by the festival ground, not an exact gate."
+  - type: tips
+    variant: insider
+    items:
+      - "Bring your **passport**. The discounted rate for foreigners is given to foreign passport holders."
+      - "Paid alternative: Trazy lists a [2027 shuttle package](https://www.trazy.com/experience/detail/hwacheon-sancheoneo-ice-festival-shuttle-bus-package) from Hongik Univ. and Myeongdong with fishing ticket, rod rental and one grilled fish. It needs 20 people to run."
+      - "The other public route: ITX-Cheongchun train from Cheongnyangni to Chuncheon (about 1 h, ₩9,600), then a Hwacheon bus (₩5,800, every 30–60 min). Both figures are from the 2026 edition page."
+      - "If you take the train route, the organiser says buses from **Chuncheon station** are often full during the festival. Board at the Chuncheon bus terminal near Namchuncheon station instead."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Check the last bus back before you start fishing.** The festival page says the last Hwacheon → Dong Seoul bus left at 21:00 in the 2026 edition, but timetables change and seats are limited."
+      - "The general fishing areas expect you to bring a rod, a lure and a chair. The official page does not say whether the foreigner zone lends rods, so ask at the ticket booth or look for one at the festival fishing store."
+      - "No food, ice boxes, tents or stoves are allowed on the fishing ice. Fish bags are handed out at the booth."
+  - type: weather
+    temp_low_c: -9
+    temp_high_c: 2
+    conditions: Dry, hard frost, snow on about 9 days in January
+    note: "Figures are January normals for Chuncheon, the nearest city with a climate table. Hwacheon is further north in the mountains. You stand or sit still on river ice for hours, so this is colder than walking around Seoul at the same temperature. The festival has warm rest areas."
+    wear: Thermal layers, padded coat, thick socks, waterproof boots, gloves, hat
+  - type: pairs_well
+    items:
+      - id: elysian-gangchon-ski-day
+        note: Same Chuncheon rail corridor, on a different day
+      - id: seoul-plaza-ice-rink
+        note: The ₩1,000 cold-outdoors option for a work-day afternoon in Seoul

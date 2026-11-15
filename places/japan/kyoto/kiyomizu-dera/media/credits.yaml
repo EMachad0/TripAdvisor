@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: main-hall-stage
+  title: File:Kiyomizu-dera, Kyoto, November 2016 -01.jpg
+  author: Martin Falbisoner
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/83/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Kiyomizu-dera , Kyoto , Japan , part of UNESCO World Heritage Site Ref. Number 688 .
+  width: 5852
+  height: 3601
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: snow
+  title: File:Kiyomizudera Snow.JPG
+  author: 애콜라이트
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Kiyomizudera_Snow.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Kiyomizudera_Snow.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Kiyomizudera in Winter
+  width: 4320
+  height: 2432
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

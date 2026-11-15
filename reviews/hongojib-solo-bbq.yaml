@@ -1,0 +1,27 @@
+# Independent review of hongojib-solo-bbq. Written by `./atr review`; do not edit by hand.
+id: hongojib-solo-bbq
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: f38afb5f7f4664a90fa03b0ae69fc47f0c9bb50ee6b673bd6abdfc674376eb47
+facts:
+  supported: 10
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[6].items
+    problem: The highlight names a 'beef brisket, short rib and neck' set at ₩11,500 (from Siksin), but the menu block does not list it, and the menu still tags the ₩9,900 set as 'cheap' even though the ₩9,800 set costs less.
+    evidence: https://hotplacehunter.co.kr/sns/article/86207/ — "우삼겹+가루비+목살 정식 11,500원"
+    fix: Add the 우삼겹+가루비+목살 set at ₩11,500 to the menu, and move the 'cheap' tag to the ₩9,800 set or drop it.
+resolved:
+  - field: hours.summary
+    problem: "The page gives continuous daily hours of 11:30–22:00, and blocks[2].items[3] repeats 'Open from 11:30 until 22:00'. A dated Feb 2026 article gives a 15:30–17:00 break and last orders at 21:30. The Polle review backs this up: at 17:30 on a Friday the place had 'opened 30 minutes ago'. Someone who arrives between 15:30 and 17:00 finds it closed."
+    evidence: "hours.summary and blocks[2].items[3] now read 'Daily 11:30–15:30 and 17:00–22:00 (last order 21:30)', and the hotplacehunter article is now cited: https://hotplacehunter.co.kr/sns/article/86207/ — \"매일 11:30-22:00 (브레이크타임 15:30-17:00 / 라스트오더 21:30)\". best_time was updated to the 17:00 reopening."
+  - field: cost.local
+    problem: The headline price of ₩11,500 for the neck + galmaegisal + belly set comes from Polle's undated menu. A dated Feb 2026 source lists the same set at ₩9,800, so either the menu changed or one source is wrong. The page also calls ₩9,900 the cheapest set.
+    evidence: cost.local, why, menu, cost_breakdown and the highlight now use ₩9,800, citing the Feb 2026 article, and the cost note and menu note flag Polle's older ₩11,500 price. https://hotplacehunter.co.kr/sns/article/86207/ — "목살+갈매기살+삼겹살 정식 9,800원, 우삼겹+가루비+목살 정식 11,500원"
+rereview_of: d7c114fccb8ae6ba19c049281cee05659aa4759681e11e9dffaf36efe980f672
+summary: "Both earlier findings are fixed. The hours with the 15:30–17:00 break, the ₩9,800 set, the extra set prices and the January weather normals all match the cited sources (Siksin Feb 2026; Wikipedia's KMA normals of 2.1 / −5.5 °C and 7.1 snowy days). The page renders cleanly on phone. One nit is left: the menu block is missing the ₩11,500 set and its 'cheap' tag is on the wrong item."
+model: claude-opus-5-5
+cost_usd: 0.268

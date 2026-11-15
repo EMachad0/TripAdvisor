@@ -1,0 +1,172 @@
+id: elysian-gangchon-ski-day
+name: "Elysian Gangchon Ski Day"
+short_name: Elysian Gangchon
+name_local: 엘리시안 강촌 스키장
+name_romanized: Ellisian Gangchon Seukijang
+country: korea
+city: chuncheon
+area: Namsan-myeon · Baegyang-ri
+category: day-trip
+fame: popular
+tags: [cold-outdoors, ski, snowboard, snow, subway-reachable]
+kind: Do
+why: "Korea's only ski resort with a subway station inside it: 8 of 10 slopes suit beginners and you can rent skis, boots and ski clothes on arrival."
+
+cost:
+  local: 135000
+  currency: KRW
+  brl: 552.96
+  note: "2025/26 list prices (4 h weekday lift, ski set, clothes, helmet). On-site discount in Jan: about ₩107,000. Train extra"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Full day (4 h on snow plus travel)
+best_time: "Mon 11 or Mon 18 Jan, a pass ending by about 16:00"
+
+when:
+  dates:
+    - { from: 2026-12-05, to: 2027-03-07 }
+  kind: season
+  label: "Dec–Mar · 2026/27 dates not announced"
+  confirmed: false
+
+book_ahead:
+  required: false
+  notes: "Lift passes of 2, 4 and 6 hours were sold on site in 2025/26. The 3, 5 and 7 hour passes were online-only products."
+
+hours:
+  summary: "2025/26: day, night and late-night skiing. Exact times were posted in the resort's notices"
+  closed: "Slopes close 17:00–18:30 for grooming"
+  winter: "Ski season only. The 2025/26 season ran 5 Dec 2025 – 8 Mar 2026. Dates for 2026/27 were not announced by 10 Nov 2026, but all of January sat inside last season. In 2025/26 ticket machines closed at 23:00 for night skiing and 02:00 for late-night, one hour before the slopes. Smaller discounts applied 20 Dec – 22 Feb (list prices stay the same)."
+
+location:
+  address: 688 Bukhangangbyeon-gil, Namsan-myeon, Chuncheon-si, Gangwon
+  address_local: 강원특별자치도 춘천시 남산면 북한강변길 688 엘리시안 강촌
+  lat: 37.81666
+  lng: 127.58714
+  nearest_transit: Baegyang-ri (Gyeongchun Line), then free resort shuttle
+
+sources:
+  - url: http://www.elysian.co.kr/about-gangchon/ski
+    title: "Elysian Gangchon official site: ski resort, 2025/26 season dates, lift and rental prices, discounts"
+    checked: 2026-11-10
+  - url: http://www.elysian.co.kr/about-gangchon/way-to-come
+    title: "Elysian Gangchon official site: directions, address, Baegyang-ri station shuttle"
+    checked: 2026-11-10
+  - url: http://www.elysian.co.kr/shuttle-bus-reservation
+    title: "Elysian Gangchon official site: free shuttle buses"
+    checked: 2026-11-10
+  - url: https://foxcg.com/ski-resort-opening-schedule/
+    title: "Ski resort opening dates 2026/27 (foxcg.com, updated 20 Oct 2026): Elysian Gangchon not announced"
+    checked: 2026-11-10
+  - url: https://blog.trazy.com/elysian-gangchon-ski-resort-guide/
+    title: "Trazy blog: Elysian Gangchon ski resort guide (Nov 2025, updated Sep 2026)"
+    checked: 2026-11-10
+  - url: https://www.segye.com/newsView/20251201510235
+    title: "Segye Ilbo, 1 Dec 2025: Elysian Gangchon opens its 2025/26 season"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Baegyang-ri_station
+    title: Baegyang-ri station (Wikipedia)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Chuncheon
+    title: "Chuncheon climate normals 1991–2020 (Wikipedia)"
+    checked: 2026-11-10
+confidence: low
+confidence_note: "2026/27 dates and prices not published; `when` is estimated from 2025/26 (5 Dec – 8 Mar). Prices and discounts: 2025/26 resort site (read with atr render). Slope hours were only in notices I could not open. Ride time (~2.5 h) from Trazy; subway fare not found, so left out. Proof needed for on-site and ITX discounts not stated."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: baegyangri-station
+    hook: Ride the Seoul subway until the river valley turns white, then get off at the ski resort's own station.
+    caption: Baegyang-ri station in summer. No free photo of the slopes exists
+    focus: center
+  - type: quick_facts
+    time_needed: Full day (4 h on snow plus travel)
+    best_time: "Mon 11 / Mon 18 Jan, done by 16:00"
+    extra:
+      - label: Slopes
+        value: 10, with 8 easy or medium
+        detail: Beginner and intermediate runs
+      - label: Rent on site
+        value: Skis, boots, clothes, helmet
+        detail: Goggles are sold, not rented
+      - label: Budget check
+        value: About 3–4 days of budget
+        detail: "≈ ₩107,000 with the on-site discount, ₩135,000 list"
+  - type: highlights
+    items:
+      - title: A ski resort on the subway map
+        text: "The resort says it is the only one in Korea with a metro station (**Baegyang-ri**, Gyeongchun Line) on its grounds. A free resort shuttle links the station and the slopes."
+      - title: Built for first-timers
+        text: "Eight of the ten slopes are for beginners and intermediates. A travel guide points first-timers to the gentle **Panda** and **Rabbit** slopes."
+      - title: Arrive with nothing
+        text: "You can rent the ski or snowboard set (skis, boots and poles), a ski jacket and trousers, and a helmet. Helmets have been compulsory since 1 Jan 2026."
+      - title: Pay for the hours you ski
+        text: "Lift passes are sold by time. The clock starts when you first pass the gate and the evening grooming break does not count."
+  - type: prose
+    title: Is it worth three to four days of budget?
+    dropcap: true
+    text: |-
+      At 2025/26 list prices, a weekday beginner day costs **₩135,000**: a 4-hour lift pass bought on site (₩72,000), a ski set for up to 4 hours (₩33,000), ski clothes (₩25,000) and a helmet (₩5,000). On weekends the same lift pass was ₩85,000. That is close to four days of your R$140 Korea budget, so pick it only if skiing itself is the goal.
+
+      Nobody pays list price, though. The resort says its prices are before discounts, and its 2025/26 table gave anyone **buying on site** (up to 4 people) 25% off the lift and 30% off rental in the 20 Dec – 22 Feb peak. In January that makes the 4-hour weekday pass about **₩54,000** and the ski set about **₩23,100**; clothes-only and helmet rentals get no discount, so the day comes to about **₩107,000**. **ITX-Cheongchun riders** got more: 40% off the lift and 50% off rental. The page doesn't say what proof either discount needs, so keep your train ticket and ask at the ticket office. The 2-hour on-site pass (₩62,000 list) is enough for a first try.
+
+      **Which day.** The Trazy guide puts the resort about **2.5 hours from Seoul by subway**. Coming off the slopes at the 17:00 grooming break puts you back in Seoul around 20:00 at the earliest, too tight for a 21:00 shift. Your rested weekdays are **Mon 11 and Mon 18 Jan** (no shift the night before); the other weekdays come straight after a 21:00–06:00 shift. On those Mondays a 2-hour pass ending by about 16:00 gets you back with a margin. Sun 10 Jan is your arrival day and pays the weekend rate (₩85,000 lift list price), with rental queues at midday; Sat 16 – Sun 17 Jan is planned for Hwacheon.
+
+      About the train: the resort's own directions say ITX-Cheongchun passengers get off at **Gapyeong or Gangchon** and ride the Gyeongchun Line on to Baegyang-ri. The ordinary Gyeongchun Line subway stops at Baegyang-ri directly. A travel guide gives **Sangbong station** as the Seoul starting point.
+
+      I checked whether another resort would suit a solo beginner without a car better and found no reason to swap: this one ran a full 2025/26 season, most of its slopes are easy, and you reach it on the subway with no tour and no fixed return time.
+  - type: quote
+    variant: vibe
+    text: Rented jacket, rented skis, a hill of other beginners, and the train home waiting at the bottom.
+  - type: cost_breakdown
+    items:
+      - label: Lift pass, 4 hours, weekday
+        local: 72000
+        brl: 294.91
+        note: "On-site price 2025/26. ₩85,000 on weekends and holidays"
+      - label: Ski or snowboard set, up to 4 hours
+        local: 33000
+        brl: 135.17
+        note: Skis, boots and poles
+      - label: Ski jacket and trousers, up to 4 hours
+        local: 25000
+        brl: 102.4
+      - label: Helmet
+        local: 5000
+        brl: 20.48
+        note: Compulsory since 1 Jan 2026
+      - label: Gloves, if you have none
+        local: 20000
+        brl: 81.92
+        optional: true
+        estimate: true
+        note: Sold on site, not rented (third-party guide)
+    note: "List prices from the 2025/26 season, before any discount. Subway fare from Seoul is not included: no source I opened states it. The resort shuttle from the station is free."
+  - type: map
+    zoom: 13
+    note: "Take the **Gyeongchun Line** to **Baegyang-ri** and board the free resort shuttle. A guide says it leaves every 20 minutes. From an ITX-Cheongchun train, change at Gapyeong or Gangchon."
+  - type: tips
+    variant: insider
+    items:
+      - "Bring your own **gloves and goggles**. The resort does not rent goggles, and a guide lists gloves as a ₩20,000 purchase on site."
+      - "Collect rental gear outside Saturday and Sunday 12:00–14:00. The resort warns that gear can run out for an hour or two then."
+      - "Check your boots and bindings at the counter. The resort swaps or readjusts them on request before you go up."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "A cancelled or exchanged lift pass costs ₩2,000, and there is no refund once you pass the gate."
+      - "You cannot switch from skis to a snowboard, or back, after renting."
+      - "The slopes shut **17:00–18:30** for grooming. Plan a 4-hour pass to finish before 17:00 or start after 18:30."
+  - type: weather
+    temp_low_c: -9
+    temp_high_c: 2
+    conditions: Dry, hard frost, snow on about 9 days in January
+    note: "January normals for Chuncheon, the city the resort belongs to. The resort runs its own snow-making system. A night session is skied near the daily low, not the high."
+    wear: Rented ski suit over thermals, your own gloves, goggles, neck warmer
+  - type: pairs_well
+    items:
+      - id: hwacheon-sancheoneo-ice-festival
+        note: "The other Gangwon cold-outdoors day: your free Sat 16 Jan"
+      - id: seoul-plaza-ice-rink
+        note: Ice instead of snow, for ₩1,000

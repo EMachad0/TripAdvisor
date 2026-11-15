@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: karst-over-the-street
+  title: File:Yangshuo-Weststrasse-48-2012-gje.jpg
+  author: Gerd Eichmann
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yangshuo-Weststrasse-48-2012-gje.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/67/Yangshuo-Weststrasse-48-2012-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yangshuo West Street‎
+  width: 4938
+  height: 3198
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: bar-signs
+  title: File:West Street -Yangshuo-Guilin - China - panoramio.jpg
+  author: HALUK COMERTEL
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:West_Street_-Yangshuo-Guilin_-_China_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1d/West_Street_-Yangshuo-Guilin_-_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: West Street -Yangshuo-Guilin - China
+  width: 1940
+  height: 1274
+  widths:
+    - 640
+    - 1280
+    - 1940
+  fetched: 2026-11-10
+  origin: commons
+- file: neon-under-the-peak
+  title: File:广西壮族自治区桂林市阳朔西街景色 - panoramio (61).jpg
+  author: luchangjiang~鲁昌江
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_(61).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/16/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2861%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 广西壮族自治区桂林市阳朔西街景色
+  width: 3264
+  height: 2448
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

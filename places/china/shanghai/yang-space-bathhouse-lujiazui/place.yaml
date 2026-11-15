@@ -1,0 +1,142 @@
+id: yang-space-bathhouse-lujiazui
+name: "Yang·SPACE: a night in a Chinese bathhouse"
+short_name: Yang·SPACE
+name_local: 漾·SPACE汤泉生活（陆家嘴店）
+name_romanized: Yàng SPACE Tāngquán Shēnghuó
+country: china
+city: shanghai
+area: Pudong · Lujiazui
+category: odd-local
+fame: hidden
+tags: [bathhouse, xiyu-zhongxin, 24-hours, sauna, overnight, unlimited-fruit, solo-friendly]
+kind: Do
+why: "China's viral 24-hour bathhouse: hot pools, saunas, endless fruit and ice cream, pajamas and a recliner to sleep on. From about ¥299, open all night."
+cost:
+  local: 299
+  currency: CNY
+  brl: 247.18
+  note: "Base ticket 'around ¥299' (IntoChinaTrip, Off Peak Trip); SCMP quotes the manager at ¥340 a head. Overnight fee unconfirmed"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "6 h to overnight"
+best_time: "Arrive in the evening, stay overnight"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Open 24 hours, every day"
+  winter: "No winter closures found. Cold, damp December evenings are when a hot pool feels best. Ticket prices vary by day or night and weekday or weekend (Ummi Goes Where), so New Year's Eve may cost more: not confirmed."
+
+location:
+  address: "57 Pudian Road, Pudong New Area, Shanghai"
+  address_local: 上海市浦东新区浦电路57号 漾·SPACE汤泉生活（陆家嘴店）
+  lat: 31.21998
+  lng: 121.51337
+  approximate: true
+  nearest_transit: "Tangqiao or Pudian Road metro stations, then a short walk"
+
+sources:
+  - url: https://ummigoeswhere.com/young-space-spa-shanghai-review/
+    title: "Young Space Spa review (Ummi Goes Where, 2026-07-21; overnight stay Nov 2025): wristband, rules, food, sleeping, address, metro"
+    checked: 2026-11-12
+  - url: https://intochinatrip.com/chinese-bathhouse-guide-2026/
+    title: "Chinese Bathhouse Guide 2026 (IntoChinaTrip, 2026-09-08): Young·SPACE 57 Pudian Rd, 24/7, ~¥299; passport registration; overnight fees"
+    checked: 2026-11-12
+  - url: https://offpeaktrip.com/en/guide/shanghai/young-space-hot-spring-hall
+    title: "Young·SPACE Hot Spring Hall (Off Peak Trip): tickets from ¥299, 浦电路57号"
+    checked: 2026-11-12
+  - url: https://www.scmp.com/news/people-culture/article/3349269/foreigners-flock-china-spas-enjoy-unique-cultural-baths-amid-rise-wellness-tourism
+    title: "Foreigners flock to China spas (SCMP, 2026-04-10): Yang Space Lujiazui ¥340 a head; stays capped at 24 h; families"
+    checked: 2026-11-12
+  - url: https://chinatour.bswen.com/blog/2026-04-27-china-24-hour-spa-bathhouses-for-foreigners/
+    title: "China's 24-hour spas: a first-timer's guide (bswen, updated 2026-09-21): nudity, tattoos, passport, overnight rules"
+    checked: 2026-11-12
+  - url: https://mychina.guide/blog/hangzhou-public-bathhouse-guide-for-foreigners
+    title: "Public bathhouse guide for foreigners (MyChinaGuide, updated 2026-09-27): sequence, ID, start with a chain"
+    checked: 2026-11-12
+  - url: https://harris-sliwoski.com/zh/chinalawblog/the-china-brothel-scam-its-baaaack/
+    title: "The China brothel scam (Harris Sliwoski China Law Blog, 2019): massage-parlour shakedowns of foreigners; prostitution is illegal"
+    checked: 2026-11-12
+  - url: https://english.shanghai.gov.cn/en-Latest-WhatsNew/20260421/7b108876c4b54081a29f2aec3e8616d1.html
+    title: "Shanghai bathhouses attract global tourists (Shanghai gov., 2026-04-21): Shuiguo Wujiaochang, ~¥300 for 8–16 h"
+    checked: 2026-11-12
+  - url: https://www.chinahighlights.com/shanghai/weather/december.htm
+    title: "Shanghai weather in December (China Highlights): 4–11 °C"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Chosen over Chongqing: no Chongqing venue had a Chinese name, CNY price and overnight rule on pages I could open. ¥299 from two 2026 guides, ¥340 from SCMP; overnight fee unconfirmed. SCMP (403) and Shanghai gov. (timeout) opened via atr render. Passport rule is general advice, not the venue's. No tattoo rule found. Pin is Pudian Rd's west end."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: Soak, sauna, eat mango in pajamas, sleep on a recliner, shower, repeat.
+  - type: quick_facts
+    time_needed: 6 h to overnight
+    best_time: Evening, then stay the night
+    extra:
+      - { label: Bring, value: Passport, detail: "Foreign guests may need to register; carry the physical passport" }
+      - { label: Swimsuit, value: Not worn, detail: "Bathing areas are single-sex and nude; pajamas everywhere else" }
+      - { label: Sleep, value: Recliner or cubicle, detail: "First come, first served; blankets, earplugs, eye masks given" }
+  - type: highlights
+    items:
+      - title: The fruit
+        text: "Ummi Goes Where describes bowls of berries, mango, golden kiwi, dragon fruit and cherries that are refilled as soon as they empty, plus free juices, coffee, scoop ice cream and one free herbal tea."
+      - title: A whole night inside
+        text: "Hot pools and saunas downstairs; upstairs a salt room, games room with pool tables, mahjong rooms, a small cinema, phone-booth karaoke and reading rooms."
+      - title: It can replace a bed
+        text: "Ummi slept on a recliner with its own charging port and called it nicer than some hostels. Her overnight package included breakfast."
+      - title: Pure China, not a Western spa
+        text: "Shanghai's government reports foreign tourists 'luggage in tow' flocking to the city's bathhouses. It's the everyday local version, not a resort day."
+  - type: prose
+    title: Your first time, step by step
+    dropcap: true
+    text: |-
+      **1. Pay and get a wristband.** At the desk you pay the entry (walk-ins are fine; Trip.com and Klook also sell tickets) and get a waterproof wristband. It opens your locker and anything you order goes on it; you settle up when you leave.
+
+      **2. Shoes off, then split.** Shoes go in a shoe locker and you get slippers. Men and women then go to separate changing rooms with more lockers.
+
+      **3. Shower, then soak.** In the bathing area everyone is naked. Shower properly before any pool. Yang·SPACE asks for a **shower cap** and long hair tied up (both provided). No cameras here.
+
+      **4. Pajamas and upstairs.** Staff hand you pajamas, and the mixed areas upstairs are for fruit, games, films and naps. Meals from the restaurant cost extra.
+
+      **5. Sleep, shower, check out.** Claim a recliner or a curtained cubicle early; spots aren't assigned. In the morning, a last soak, then pay the wristband at the desk.
+  - type: quote
+    variant: vibe
+    text: Pajamas, a plate of golden kiwi, and the whole of Pudong asleep outside.
+  - type: cost_breakdown
+    items:
+      - { label: "Base ticket (around ¥299; prices vary by day and time)", local: 299, brl: 247.18, estimate: true }
+      - { label: "Overnight surcharge, if charged (¥30–69 at venues generally)", local: 69, brl: 57.04, optional: true, estimate: true }
+      - { label: "Body scrub (¥80–150 typical)", local: 100, brl: 82.67, optional: true, estimate: true }
+  - type: map
+    note: "Search **漾·SPACE汤泉生活** in Amap; Ummi warns that Google Maps is offset in China. The pin marks Pudian Road, not the door."
+  - type: tips
+    variant: insider
+    items:
+      - "**Passport:** carry it. IntoChinaTrip says foreign guests must be registered and that some venues can't register foreign passports for overnight stays, so ask before you pay."
+      - "**Tattoos:** China has no Japan-style blanket ban (bswen), but venues can set their own rules. I found no tattoo rule for Yang·SPACE: if yours are large, message first."
+      - "**Overnight:** ask whether your ticket includes the night (过夜, *guòyè*) and breakfast. Guides say some venues add an overnight fee, and SCMP reports stays are capped at 24 hours."
+      - "Don't eat a big dinner first; the fruit is the point."
+      - "**Alternative:** Shuiguo (水裹) Wujiaochang, 13,000 m², about ¥300 for 8–16 hours with unlimited food and drinks (Shanghai government, April 2026)."
+  - type: tips
+    variant: pitfalls
+    title: Family bathhouse or something else?
+    items:
+      - "Signs you're in the right kind of place (my reading of the guides): a big chain with a public ticket price on Trip.com, Klook or Meituan, a fruit bar and families in the lounges. SCMP describes a British couple bringing their child."
+      - "Start with a well-known chain and check Amap ratings and comments (MyChinaGuide's advice)."
+      - "Walk out of any place that offers a 'special' massage in a private room or adds services you didn't order. Prostitution is illegal in China, and a law firm reports foreigners being shaken down by fake police after 'massages'."
+      - "Scrubs and massages are normal paid extras at real bathhouses (bswen): they go on your wristband, so ask the price before you say yes."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: Cool and mostly dry
+    note: "All indoors. A cold December night is exactly when a hot pool and pajamas are worth it."
+    wear: Anything; pajamas, towels and toiletries are provided
+  - type: pairs_well
+    items:
+      - { id: bund-and-lujiazui-skyline, note: "Lujiazui at night, then the pools" }
+      - { id: huxi-laolongtang-scallion-noodles, note: "A ¥7 bowl of noodles first" }
+      - { id: desti-youth-hostel-jing-an, note: "Skip a hostel night, or come back for your bags" }
+      - { id: dayin-hostel-east-nanjing-road, note: "Your other Shanghai base" }

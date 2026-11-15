@@ -1,0 +1,16 @@
+# Independent review of area bangkok. Written by `./atr review`; do not edit by hand.
+id: bangkok
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: f292d3a2848368f54b94f2e31fb815efde29c036a4d3d5874448e546233b065c
+facts:
+  supported: 0
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: f292d3a2848368f54b94f2e31fb815efde29c036a4d3d5874448e546233b065c
+summary: "This re-review found nothing to close: the earlier review left no findings, and the YAML has not changed since. `./atr validate bangkok` passes. I re-checked no facts against sources this time, and I am sure of no blocker in the unchanged text. `./atr shot bangkok --area` failed because build/areas/bangkok/index.html does not exist (ERR_FILE_NOT_FOUND), so this pass did not inspect the rendered page. That missing file may be a problem with the build or the tool rather than the page, so it is not raised as an issue."
+model: claude-opus-5-5
+cost_usd: 0.228

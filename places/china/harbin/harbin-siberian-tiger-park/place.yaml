@@ -1,0 +1,172 @@
+id: harbin-siberian-tiger-park
+name: "Siberian Tiger Park"
+name_local: 东北虎林园
+name_romanized: Dōngběi Hǔ Lín Yuán
+country: china
+city: harbin
+area: Songbei · north bank
+category: nature
+fame: popular
+tags: [cold-outdoors, wildlife, tigers, snow, winter, morning]
+kind: See
+why: "More than 300 Siberian tigers on snow: a coach drives through their enclosures, then you walk a raised corridor above them. Open all December, ice city or not."
+cost:
+  local: 100
+  currency: CNY
+  brl: 82.67
+  note: "¥90 ticket with the coach circuit, plus about ¥10 of metro and bus. Feeding the tigers costs extra"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–4 h plus an hour of travel"
+best_time: "At opening, 08:30: the first hour is when the tigers move"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 08:30–16:30, last entry 16:00 (Trip.com guide, Oct 2026). Other sources give a 16:00 close"
+  winter: "Open **all year**, so it exists on both candidate dates: 10–14 Dec and 22–25 Dec 2026. Unlike the ice parks, it does not wait for an opening day. A 2026 guide gives 08:30 as the winter opening and 16:00 as the last winter entry. No Christmas or New Year closure is listed on any source I opened; the park's own site did not load, so check the hours the day before."
+
+location:
+  address: "No. 88 Songbei Street, Songbei District, Harbin"
+  address_local: 哈尔滨市松北区松北街88号 东北虎林园
+  lat: 45.81496
+  lng: 126.59678
+  approximate: true
+  nearest_transit: "Shimao Avenue (Line 2), Exit 3, then bus 35 or 122 to Hulin Park stop"
+
+sources:
+  - url: https://chinafortravelers.com/guides/harbin-siberian-tiger-park/
+    title: "Harbin Siberian Tiger Park (China for Travelers, updated 2026-09-05): ¥90 with coach, feeding prices, timings, winter hours"
+    checked: 2026-11-10
+  - url: https://my.trip.com/guide/attraction/siberian-tiger-park-harbin.html
+    title: "Siberian Tiger Park Harbin guide (Trip.com, 2026-10-15): address, 08:30–16:30, last admission 16:00, buses 35 and 122"
+    checked: 2026-11-10
+  - url: https://www.chinaservicesinfo.com/s/202602/27/WS69afe240498e23165e06e068/parks-siberian-tigers-get-a-light-fasting-program.html
+    title: "Park's Siberian tigers get a light-fasting program (China Daily, 2026-02-27): 300+ tigers, 13 free-range areas, visitor feeding"
+    checked: 2026-11-10
+  - url: https://www.eastchinatrip.com/china-attraction-tickets/harbin/siberia-tiger-park-tickets/
+    title: "Siberia Tiger Park tickets (East China Trip, 2026): adult ticket CNY 90, same-day purchase, slippery walkways"
+    checked: 2026-11-10
+  - url: https://www.pelago.com/en/activity/pcsq8cszw-harbin-siberian-tiger-park-admission-ticket-thrilling-sightseeing-bus-harbin/
+    title: "Siberian Tiger Park ticket + sightseeing bus (Pelago): passport with voucher, feeding times, 30 min by taxi from Central Street"
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Harbin
+    title: "Harbin (Wikivoyage): tiger park ¥90 plus ¥10 bus, taxi ¥40 from the centre, metro and bus fares"
+    checked: 2026-11-10
+  - url: https://m.gmw.cn/2025-12/15/content_1304263828.htm
+    title: "27th Ice and Snow World opening (Heilongjiang Daily via GMW, 2025-12-15): opened 17 Dec 2025"
+    checked: 2026-11-10
+  - url: https://www.chinanews.com.cn/sh/2025/12-31/10543499.shtml
+    title: "38th Sun Island Snow Expo opens (CCTV via China News, 2025-12-31): opened 31 Dec 2025"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Harbin
+    title: "Harbin (Wikipedia): climate table, December and January normals 1991–2020"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "No official page opened: the park's site timed out. ¥90 is on two 2026 guides; Wikivoyage (undated) adds ¥10 for the bus. Closing time differs (16:00 or 16:30). Whether the window sells to a foreign passport is not stated anywhere; one reseller asks for the passport with its voucher. The pin is the park's OpenStreetMap centre, not the gate. Transport cost is my estimate from Wikivoyage fares."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: tiger-and-bus
+    caption: Tigers beside the park coach, 6 January 2026
+    hook: The one big Harbin day that does not depend on when the ice parks open.
+    focus: center
+  - type: quick_facts
+    time_needed: "2–4 h plus an hour of travel"
+    best_time: "At opening, 08:30"
+    extra:
+      - label: Mid-December
+        value: Open
+        detail: Year-round, unlike the ice parks
+      - label: Tigers
+        value: More than 300
+        detail: Nearly 200 roam 13 open areas
+      - label: Morning temp
+        value: About −19 °C
+        detail: December average low
+  - type: highlights
+    items:
+      - title: Tigers that like the cold
+        text: "A 2026 guide puts it plainly: Amur tigers are built for cold and run in snow, while in summer they pant and sleep through the afternoon. Winter is the season to come."
+      - title: The coach among them
+        text: "The **¥90 ticket** includes a 30–40 minute coach circuit through the open enclosures. China Daily counts **more than 300 tigers**, nearly 200 of them in 13 free-range areas."
+      - title: The raised walkway
+        text: "After the coach you walk a raised corridor for 40–50 minutes. The tigers come to it and wait, so the close views are more reliable here than from the coach. The white tigers are on this part."
+      - title: It is there whenever you come
+        text: "In past years the ice parks opened between 17 and 31 December. This park is open every day, so a **10–14 Dec** visit still gets a full cold outdoor day."
+  - type: prose
+    title: What the visit is like
+    dropcap: true
+    text: |-
+      Be at the gate for **08:30**. The guide I trust most on this says the tigers are fed early and are most active while hungry, and that by noon in busy periods an afternoon coach can drive past sleeping animals.
+
+      The visit has three parts: the coach circuit (30–40 minutes), the raised walkway (40–50 minutes) and the cub enclosure (20–30 minutes). Most of it is outdoors, on a December day that averages about −15 °C, and that is the point of coming in winter.
+
+      **Know this before you go:** the park sells feeding. Meat strips cost ¥20 each, a live chicken ¥80 and a live pheasant ¥150, and other visitors will buy them. Trip reports quoted by the same guide call it "more brutal than I was ready for". You can watch without buying anything; decide beforehand whether you want to see it.
+
+      Is it worth a day? On its own it fills a morning. With the trip to the north bank and back, and a walk by the frozen river at dusk, it makes the day. For a Harbin stay before about 20 December it is the strongest outdoor plan I could confirm.
+  - type: gallery
+    images:
+      - file: safari-bus-snow
+        caption: The coach on its circuit, January 2026
+      - file: tigers-resting-snow
+        caption: Tigers resting on the snow
+      - file: tiger-fence-snow
+        caption: A tiger pacing along the fence in the snow
+      - file: visitor-centre
+        caption: The visitor centre at the entrance, January 2026
+  - type: quote
+    variant: vibe
+    text: Orange fur on white snow, steam from the coach, and a tiger looking straight at your window.
+  - type: cost_breakdown
+    items:
+      - label: Ticket with coach circuit
+        local: 90
+        brl: 74.40
+      - label: Metro and bus there and back
+        local: 10
+        brl: 8.27
+        estimate: true
+      - label: Meat strip for feeding (each)
+        local: 20
+        brl: 16.53
+        optional: true
+      - label: Taxi from the centre, one way
+        local: 40
+        brl: 33.07
+        optional: true
+        estimate: true
+    note: "About half a day's budget. The taxi fare is Wikivoyage's undated figure and may be out of date."
+  - type: map
+    zoom: 13
+    note: "The pin is the middle of the park, not the gate. Buses 35 and 122 stop at **Hulin Park** (虎林园站), about 200 m from the entrance. A reseller puts a taxi from Central Street at about 30 minutes."
+  - type: tips
+    variant: insider
+    items:
+      - "Go **first thing**. Later in the day the tigers have eaten what visitors bought and lie down."
+      - "Spend longer on the **walkway** than on the coach. The coach is a bet on where the animals are; the walkway is where they wait."
+      - "No Chinese payment app? The 2026 guide says official tickets mostly sell inside WeChat and recommends Trip.com, which takes a passport and a foreign card. One reseller says buying at the entrance on the day works in most cases."
+      - "Carry your **passport**: one reseller requires it together with the voucher."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Live feeding happens in front of you.** If that would spoil the day, skip this card."
+      - "Last entry is 16:00 and the walkways can be slippery in winter. Wear boots with grip."
+      - "This is a breeding park with coaches and fences, not a wildlife reserve. Expect a managed safari."
+      - "Check which parts are open on your day: Trip.com's guide says cub viewing depends on availability."
+  - type: weather
+    temp_low_c: -19
+    temp_high_c: -10
+    conditions: Dry, very cold, about 10 days with snow in December
+    note: "Harbin's December averages are −19.1 °C at night and −9.8 °C by day, and January is about 3 °C colder. An 08:30 start is near the coldest part of the day, and the walkway is outdoors. The cold is why the tigers are active, so it works in your favour."
+    wear: Down parka, thermal layers, insulated boots with grip, face cover, hand warmers
+  - type: pairs_well
+    items:
+      - id: harbin-ice-and-snow-world
+        note: "Same bank of the river. Tigers in the morning, ice city from 15:00, if it has opened"
+      - id: harbin-christmas-on-central-street
+        note: "Back across the river for Central Street after dark"
+      - id: harbin-xingsu-hostel
+        note: "The hostel by Central Street metro, Line 2 to the north bank"

@@ -1,0 +1,38 @@
+# Independent review of dujiangyan-zhongshuge-bookstore. Written by `./atr review`; do not edit by hand.
+id: dujiangyan-zhongshuge-bookstore
+reviewed: 2026-11-10
+verdict: fix
+content_hash: 28e24654430ec6bd9cdc137107303d55dcf00a66f40f57d4ba359f44cce85c28
+facts:
+  supported: 14
+  unsupported: 4
+  contradicted: 0
+issues:
+  - severity: should
+    field: cost.local
+    problem: "The ¥15-each-way 2nd-class fare comes from one undated guide (travelofchina, which also gets the opening year wrong as 2019). The page never says which Chengdu station to leave from, and the fare changes with it: a Ctrip listing shows about ¥19 from Chengdu East and ¥27 from Chengdu South, while Xipu to Dujiangyan is about ¥10. I saw these Ctrip prices only in search results and did not open the page."
+    evidence: 'https://www.travelofchina.com/dujiangyan-bookstore — "Rates of second-class are ¥15"; https://trains.ctrip.com/TrainBooking/dujiangyan-chengdu/gaotie (search snippet: D-train Chengdu East ¥19, C-train Chengdu South ¥27)'
+    fix: Name the departure station (for example Xipu via Metro Line 2, or Chengdu East), give the fare range for it, and cite 12306 or Ctrip.
+  - severity: should
+    field: hours.summary
+    problem: The hours (10:00–21:00) and the claim that the store is still open rest on two undated third-party guides plus a SCOL news page. That page timed out in ./atr links and calls itself a preview address ("该页面为预览地址"). The chain is closing stores (Chongqing, Xi'an, Guiyang, Yangzhou, Wuxi, Beijing Wangjing), and there is no official or Dianping/Amap listing to show it is open now. The travelofchina guide also says it closes on Chinese New Year's Eve, which the page leaves out (that date is outside this trip).
+    evidence: https://chengdu-expat.com/?p=275268 — "Daily, 10:00 – 21:00" (undated); https://m.winshang.com/news735317.html (chain closures 2024–2025)
+    fix: Add a current Dianping, Amap or official Zhongshuge listing that confirms the store is open and gives its hours, and replace the SCOL preview URL with its public article link.
+  - severity: should
+    field: blocks[0]
+    problem: The hero has no photo, only the name over a dark gradient, even though the media folder has good photos of the spiral staircase. On a page whose whole point is a visual effect, the first screen shows nothing of the place.
+    evidence: "./atr shot phone-light s01 and desktop-dark s01: the hero is text only; media/spiral-staircase-*.webp exists"
+    fix: Set the hero image to spiral-staircase.
+  - severity: nit
+    field: blocks[2].items[2]
+    problem: The page says the curved walnut book walls are modelled on the irrigation system. STIR only says the central circular enclosure is 'said to be inspired by the Dujiangyan dam'.
+    evidence: https://www.stirworld.com/see-features-dujiangyan-zhongshuge-bookstore-by-x-living-is-a-surreal-city-of-illusions — "Said to be inspired by the Dujiangyan dam"
+    fix: Change the wording to say the central circular book enclosure is said to be inspired by the Dujiangyan dam.
+  - severity: nit
+    field: blocks[3].text
+    problem: No listed source says 'Yangjiaping' or makes the 'Escher' comparison. Dezeen places the Chongqing store in Zodi Plaza, 3rd–4th floors.
+    evidence: https://www.dezeen.com/2019/08/04/chongqing-zhongshuge-bookstore-interiors-staircases/ — "third and fourth floors of Chongqing's Zodi Plaza"
+    fix: Say 'Zodi Plaza' (or cite a source for Yangjiaping) and drop or source the Escher line.
+summary: "The page holds up: free entry, address (2F, Sunac Mall, 至臻路1号), the Chongqing closure on 17 Sep 2024, the 6th place in the 1000 Libraries 2025 list and the X+Living design all match their sources, and the claim on the infinity-staircase must-do is honest. Three things need fixing: the train fare needs a named departure station and a better source, the hours and still-open status need a current listing, and the hero should show the staircase photo."
+model: claude-opus-5-5
+cost_usd: 0.606

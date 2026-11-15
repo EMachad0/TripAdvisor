@@ -1,0 +1,109 @@
+id: uogashi-nihonichi-shibuya
+name: "Uogashi Nihon-ichi, Shibuya"
+short_name: Uogashi Nihon-ichi
+name_local: 魚がし日本一 立喰寿司 渋谷道玄坂店
+name_romanized: Uogashi Nihon-ichi Tachigui-zushi
+country: japan
+city: tokyo
+area: Shibuya · Dōgenzaka
+category: food
+fame: hidden
+tags: [sushi, standing-bar, solo-friendly, cheap-eats]
+kind: Eat
+why: "Stand at a 15-place counter up Dōgenzaka while a chef hands you nigiri two at a time: a 10-piece set is about ¥1,200, and there are no seats to pay for."
+cost:
+  local: 1350
+  currency: JPY
+  brl: 47.48
+  note: "10-piece set ¥1,200 + a pair of grilled squid-mayo at ¥75 each (2026 reviews)"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 30–45 min
+best_time: Weekday mid-afternoon, between lunch and dinner
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Fri 11:00–23:00, Sat 11:00–22:00, Sun 11:00–21:30 (Tabelog)"
+  winter: "No winter or New Year hours are published; the trip dates (Jan 20 – Feb 4) are after the New Year break. Call 03-5428-4851 if you're going late on a Sunday."
+
+location:
+  address: 2-9-1 Dōgenzaka, Shibuya-ku, Tokyo
+  address_local: 東京都渋谷区道玄坂2-9-1
+  lat: 35.65938
+  lng: 139.69878
+  nearest_transit: Shibuya Station, about 5 min walk up Dōgenzaka
+  approximate: true
+
+sources:
+  - url: https://tabelog.com/en/tokyo/A1303/A130301/13052346/
+    title: Uogashi Nihonichi Tachigui Sushi Shibuya Dogenzaka — Tabelog (hours, address, 15 standing places, budget)
+    checked: 2026-11-12
+  - url: https://tabelog.com/en/tokyo/A1303/A130301/13052346/dtlrvwlst/
+    title: Tabelog review list (visits Jul 2025 – Aug 2026; ¥1,200 10-piece set, ¥75 squid-mayo)
+    checked: 2026-11-12
+  - url: https://tabelog.com/en/tokyo/A1303/A130301/13052346/dtlmenu/
+    title: Tabelog menu (price tiers, pairs only; last updated 2017)
+    checked: 2026-11-12
+  - url: https://tokyocheapo.com/restaurant/uogashi-nihonichi-standing-sushi-bar-shibuya-dogenzaka-branch/
+    title: Uogashi Nihonichi Standing Sushi Bar, Shibuya Dogenzaka — Tokyo Cheapo
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Open in 2026: Tabelog has reviews from visits up to Aug 2026. The ¥1,200 set and ¥75 squid-mayo come from 2025–26 reviews. The full price list on Tabelog dates from 2017, so expect higher prices. The official site would not load from here. Tokyo Cheapo gives older, different hours. The pin covers the Dōgenzaka 2-chōme block."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: Two pieces at a time, straight from the chef's hands. Eat, point at the next fish, and you're out in half an hour.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: Weekday, 14:00–17:00
+    extra:
+      - { label: Seats, value: None (standing), detail: 15 places at the counter }
+      - { label: Solo, value: Ideal, detail: Tabelog tags it solo-friendly }
+  - type: highlights
+    items:
+      - title: Tachigui, the old way
+        text: "No seats means no seat costs. Tokyo Cheapo says the money goes into the fish instead. You stand at the counter, order, eat and leave."
+      - title: Ordered in pairs
+        text: "Nigiri is made **two pieces per order**, so it's easy to taste many fish in a short meal."
+      - title: The ¥75 cult item
+        text: "2025–26 reviewers keep reordering the **grilled squid tentacle with mayo**, at ¥75."
+      - title: A cheap hour in Shibuya
+        text: "It's 5 minutes from the Scramble, so it fits between Shibuya Sky and a night out. Most reviewers spent ¥1,000–1,999."
+  - type: menu
+    title: What to point at
+    items:
+      - { name: Seasonal 10-piece set, price_local: 1200, price_brl: 42.2, note: "Price from a June 2026 Tabelog review", tag: must-try }
+      - { name: Grilled squid tentacle with mayo, price_local: 75, price_brl: 2.64, note: "Per piece, served as a pair (2025–26 reviews)", tag: cheap }
+      - { name: Medium-fatty tuna, name_local: 中とろ, note: One of the top price tiers on the menu }
+      - { name: Sea urchin gunkan, name_local: うに軍艦, note: "Top tier, with fatty tuna" }
+      - { name: Gizzard shad, name_local: こはだ, note: Classic Edomae cured fish in a mid tier }
+    note: "The 2017 menu on Tabelog listed tiers from ¥81 to ¥324 a piece including tax, always ordered in pairs. Prices have risen since, so check the board."
+  - type: cost_breakdown
+    items:
+      - { label: Seasonal 10-piece set, local: 1200, brl: 42.2 }
+      - { label: Grilled squid-mayo (pair), local: 150, brl: 5.28 }
+      - { label: Extra pairs of tuna or uni, local: 600, brl: 21.1, optional: true, estimate: true }
+  - type: map
+    note: Walk up **Dōgenzaka** from Hachikō Square, about 5 minutes.
+  - type: tips
+    variant: insider
+    items:
+      - "Say the fish name and **two fingers**. Everything comes in pairs anyway."
+      - "Tabelog lists **card, e-money and QR payments**, but only JCB, AMEX and Diners cards. Bring cash or a Suica if you use Visa or Mastercard."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "This is a **standing** bar with 15 places. It's not a place to linger over sake."
+      - "Don't mix it up with the Uobei conveyor-belt shop nearby on Dōgenzaka. It's a different chain."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Dry, sunny, cold evenings
+    note: You eat indoors, so the cold only matters on the walk up the slope.
+    wear: Your normal winter jacket
+  - type: pairs_well
+    items:
+      - { id: shibuya-crossing-and-sky, note: "5 min walk. Eat first, then go up for sunset." }
+      - { id: wise-owl-hostels-shibuya, note: "Shibuya hostel. A cheap dinner before going out." }

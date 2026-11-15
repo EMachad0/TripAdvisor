@@ -1,0 +1,22 @@
+# FIXTURE credits (copied from platform fixtures)
+- file: snow-sculpture
+  title: File:Snow sculpture, Harbin International Ice and Snow Sculpture Festival
+    (3238491776).jpg
+  author: Rincewind42 from China
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Snow_sculpture,_Harbin_International_Ice_and_Snow_Sculpture_Festival_(3238491776).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/71/Snow_sculpture%2C_Harbin_International_Ice_and_Snow_Sculpture_Festival_%283238491776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "The annual Snow and Ice World festival in Harbin, in the north
+    east of China attracts tens of thousands of visitors every year. Harbin
+    (哈尔滨), is the capital of the Heilongjiang Province in Northeast China. It
+    lies on the southern bank of the Songhua River. Harbin is the tenth largest
+    city in China, "
+  width: 3072
+  height: 2304
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons

@@ -1,0 +1,89 @@
+id: koh-phangan-koh-tao
+country: thailand
+name: "Koh Phangan & Koh Tao"
+name_local: เกาะพะงัน · เกาะเต่า
+region: Surat Thani, Gulf coast
+scope: region
+cities: [koh-phangan, koh-tao]
+why: "Phangan for the Full Moon Party and jungle raves, Tao for the cheapest dive course in Thailand. The January 2027 Full Moon Party is Fri 22 Jan, 12 days after you leave Thailand."
+best_for: [nightlife, nature]
+highlights: ["Halfmoon and jungle parties near Ban Tai", "Haad Rin bar nights", "Snorkelling at Shark Bay", "Mango Bay and Ko Nang Yuan", "Full Moon Party (22 Jan: not on your dates)"]
+days_suggested: { min: 3, max: 6 }
+cost_level: medium
+fame: popular
+lat: 9.71056
+lng: 99.98638
+getting_there: "No airport. Lomprayah from Bangkok (Khao San or Pinklao pickup): 21:30 bus+ferry, Tao 08:15 ฿850, Phangan 10:30 ฿1,150; 22:00 catamaran ฿1,250/1,350. Or fly Surat Thani ~฿1,300 + ฿600–950 bus+ferry."
+getting_around: "Phangan: songthaews from Thong Sala pier to Haad Rin and Ban Tai, about ฿100–200 a person. Tao: walk Sairee's beach path; taxis start around ฿300, longtails ฿100–200."
+winter_note: "The Gulf's rainy season runs October–December and rough seas can stop the boats for a day or two; January is the tail of it: about 24–29 °C and roughly 127 mm of rain on Samui (1991–2020). The Dec 24 and Dec 31 parties fall while you are in China, and the next one, Fri 22 Jan 2027, is after you have left for Korea."
+image: koh-tao-coast
+sources:
+  - url: https://www.visitthailandtoday.com/guides/full-moon-party-koh-phangan
+    title: "Visit Thailand Today (2026-10-24): Full Moon Party dates 2026–27 (22 Jan 2027), ฿200 entry, Halfmoon and other parties, boats"
+    checked: 2026-11-12
+  - url: https://www.umetravel.com/thailand-festivals/thailand-full-moon-party.html
+    title: "UME Travel (updated 2026-07-03): Full Moon Party dates 2026–2028, Friday 22 January 2027"
+    checked: 2026-11-12
+  - url: https://cdnc.heyzine.com/flip-book/pdf/15c14f82883e25cc5239e9dc9760b05fce1325b6-57.pdf
+    title: "Lomprayah 2026 timetable PDF (linked from lomprayah.com/time-table), p.5: 21:30 → Tao 08:15 ฿850, Phangan 10:30 ฿1,150; 22:00 ฿1,250/1,350"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/guides/bangkok-to-koh-tao
+    title: "Visit Thailand Today: Bangkok to Koh Tao 2026, Lomprayah ฿1,250, train and flight via Chumphon, Gulf rainy season Oct–Dec"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/guides/bangkok-to-koh-phangan
+    title: "Visit Thailand Today (Oct 2026): Bangkok to Koh Phangan, Surat Thani flights from ~฿1,300, Samui + ฿350 boat, songthaews"
+    checked: 2026-11-12
+  - url: https://en.wikivoyage.org/wiki/Ko_Tao
+    title: "Ko Tao (Wikivoyage): dive courses (Open Water about ฿9,800), Shark Bay, Mango Bay, Ko Nang Yuan, taxis, scooter scams"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Ko_Samui
+    title: "Ko Samui (Wikipedia): January climate normals 1991–2020, the nearest Gulf island station"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "22 Jan 2027 party date on two 2026 calendars. Halfmoon/Black Moon Jan 2027 dates unpublished. Dive, snorkel and taxi prices: undated Wikivoyage. Boat times/fares read from the text of Lomprayah's 2026 timetable PDF on 2026-11-12 (p.5; which Bangkok pickup, Khaosan or Pinklao, is unclear), matching Visit Thailand Today (Oct 2026). Weather: Samui station normals."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Halfmoon raves and Haad Rin bar nights on Phangan, snorkel bays on Tao. The Full Moon Party misses your dates."
+    caption: "Koh Tao from a hilltop viewpoint"
+  - type: highlights
+    items:
+      - title: Parties that can fit early January
+        text: "**Halfmoon Festival** runs two-night editions about a week either side of each full moon near Ban Tai, the **Black Moon Party** falls around the new moon, and jungle parties run their own calendars. Their January 2027 dates weren't out when checked."
+      - title: Dive school island, at a price
+        text: "An **Open Water course** on Tao runs around ฿9,000–9,800 (R$1,480–1,620) per Wikivoyage: about **15 days of your R$100 budget**, so only if diving is the point of the trip. The cheap taste is snorkelling (below)."
+      - title: Snorkel bays
+        text: "Small black-tip reef sharks at **Shark Bay**, boulders and clear water at **Mango Bay**, and the islet of **Ko Nang Yuan**, by road or longtail. Snorkel gear rents for about ฿100 a day."
+      - title: The Full Moon Party (not on your dates)
+        text: "An all-night party on **Haad Rin's Sunrise Beach** since the mid-1980s, ฿200 at the gate. **Not on your dates:** 24 and 31 Dec fall in China, 22 Jan in Korea."
+  - type: prose
+    title: Does the Full Moon Party fit this trip?
+    text: |-
+      **Not on the current dates.** The party follows the moon: the last two of 2026 are on **24 December** and a New Year's countdown on **31 December** (you are in China), and the first of 2027 is **Friday 22 January**, when you will be in Korea. Seeing it means moving Thailand by about two weeks, or flying back from Korea for a weekend, which is far more than it is worth.
+
+      **What is left in early January** is the island's other party calendar. Halfmoon stages two-night editions roughly a week before and after each full moon, so one edition should land in the gap between 24 December and 22 January, but its 2027 dates were not out when we checked. Haad Rin's bars also run most high-season nights anyway.
+
+      **How it fits the work week.** Both islands are a full night or day away from Bangkok, so a weekend alone is not enough: Saturday night on the bus, Sunday on the island, and you are back on Monday night only if every boat is on time. This only works with extra days, or with the laptop: Phangan's quiet yoga village of **Srithanu** or value-priced **Thong Sala** suit working 19:00–04:00, and Tao fills your afternoons with dives. Rough seas can stop the boats for a day or two in the rainy season, so leave a spare day before a flight out.
+  - type: gallery
+    images:
+      - { file: haad-rin-aerial, caption: "Haad Rin from the air: the village sits between two beaches" }
+      - { file: haad-rin-sunrise-beach, caption: "Sunrise Beach in Haad Rin by day, the Full Moon Party beach" }
+      - { file: mango-bay, caption: "Mango Bay on Koh Tao, a snorkelling stop" }
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: needs extra days, or a weekend + laptop.** Too far for a Saturday-night-only trip."
+      - "Cheapest way down: Lomprayah's **21:30** bus + ferry from Bangkok (pickup at Khao San or Pinklao: confirm which when booking; ฿850 to Tao, ฿1,150 to Phangan, changing to the catamaran at Tao). The 22:00 bus + catamaran costs ฿200–400 more."
+      - "For a party night, don't sleep in Haad Rin: Ban Tai and Thong Sala have normal prices and songthaews run the party route all night."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Wear shoes on the party beach (broken glass), stay out of the sea after dark and watch your bucket being poured: organisers warn some contain methanol."
+      - "On Koh Tao, photograph every scratch on a rental scooter: some shops hold your passport and charge for damage that was already there."
+  - type: weather
+    temp_low_c: 24
+    temp_high_c: 29
+    conditions: "End of the rainy season: mostly warm, some wet days, choppy seas"
+    note: "January is calmer than November–December but not the Gulf's driest month; visibility for diving and boat schedules can still suffer after a storm."
+    wear: "Swimwear, closed shoes for the party, a light rain jacket"

@@ -1,0 +1,170 @@
+id: lotte-world-tower-seoul-sky
+name: "Lotte World Mall & Seoul Sky"
+short_name: Seoul Sky
+name_local: 롯데월드몰 · 서울스카이
+name_romanized: Lotte Woldeu Mol · Seoul Seukai
+country: korea
+city: seoul
+area: Jamsil · Songpa-gu
+category: views
+fame: iconic
+tags: [mall, observation-deck, skyscraper, glass-floor, night-view, sunset]
+kind: See
+why: "Korea's tallest building, 555 m, on top of a giant mall. Seoul Sky is ₩33,000: a glass floor at 478 m, sunset 17:33–17:41, home before a 21:00 shift."
+cost:
+  local: 36100
+  currency: KRW
+  brl: 152.92
+  note: "Seoul Sky adult ticket ₩33,000 plus two subway rides. The mall itself is free"
+fx: { rate: 0.004236, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: "Arrive about 16:45 for sunset (17:33–17:41) and dark"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Seoul Sky Sun–Thu 10:30–22:00, Fri–Sat 10:30–23:00; tickets and entry stop 1 h before closing. Mall 10:30–22:00"
+  winter: "No January changes listed. The Christmas market (19 Nov – 3 Jan) and the tower's 31 Dec countdown light show end before you're in Korea. Sunset is 17:33 on 11 Jan and 17:41 on 19 Jan."
+
+location:
+  address: 300 Olympic-ro, Songpa-gu, Seoul (Lotte World Tower; Seoul Sky entrance on B1–B2)
+  address_local: 서울특별시 송파구 올림픽로 300 롯데월드타워 서울스카이
+  lat: 37.51255
+  lng: 127.10268
+  nearest_transit: "Jamsil (Line 2) Exit 1 or 2, or Jamsil (Line 8) Exit 10 or 11"
+
+sources:
+  - url: https://seoulsky.lotteworld.com/price/info/ticket
+    title: "Seoul Sky official: tickets (adult ₩33,000, Fast Pass ₩62,000; online or on-site booth)"
+    checked: 2026-11-13
+  - url: https://seoulsky.lotteworld.com/guide/hours
+    title: "Seoul Sky official: hours calendar (10:30–23:00 on Fri 13 Nov 2026; sales and entry close 1 h before)"
+    checked: 2026-11-13
+  - url: https://seoulsky.lotteworld.com/intro
+    title: "Seoul Sky official: about (123 floors, 555 m, Sky Deck 478 m glass floor, Sky Terrace 486 m, Sky Bridge 541 m)"
+    checked: 2026-11-13
+  - url: https://seoulsky.lotteworld.com/enjoy/observatory/list
+    title: "Seoul Sky official: attractions (Sky Shuttle B2–117F, Sky Show 117F, Sky Theater 118F, Sky Terrace 120F, Mapping Show 121F)"
+    checked: 2026-11-13
+  - url: https://www.trazy.com/experience/detail/lotte-world-tower-seoul-sky-ticket
+    title: "Seoul Sky ticket for foreigners only (Trazy): cheaper than on-site, passport checked at entrance"
+    checked: 2026-11-13
+  - url: https://seoulsky.lotteworld.com/guide/location
+    title: "Seoul Sky official: getting here (Jamsil Line 2 Exits 1–2, Line 8 Exits 10–11)"
+    checked: 2026-11-13
+  - url: https://www.lwt.co.kr/ko/about/media-light.do
+    title: "Lotte World Tower · Mall (official, Korean): Tower Media Light Dec 2026 programme; Seoul Sky Sun–Thu 10:30–22:00, Fri–Sat 10:30–23:00"
+    checked: 2026-11-13
+  - url: https://www.lwt.co.kr/ko/about/tower-story.do
+    title: "Lotte World Tower · Mall (official, Korean): tower story (555 m, 123 floors, 6th tallest in the world, 55 million visitors in 2023)"
+    checked: 2026-11-13
+  - url: https://www.lwt.co.kr/ko/service/customer.do
+    title: "Lotte World Tower · Mall (official, Korean): FAQ, mall closed 22:00–10:30"
+    checked: 2026-11-13
+  - url: https://www.lwt.co.kr/ko/tourist-guide/view.do?guide-id=4th
+    title: "Lotte World Tower · Mall (official): For foreigners guide (Seokchon Lake, Songridan-gil)"
+    checked: 2026-11-13
+  - url: https://www.lwt.co.kr/
+    title: "Lotte World Tower · Mall (official, Korean): 2026 Christmas market 19 Nov 2026 – 3 Jan 2027"
+    checked: 2026-11-13
+  - url: https://www.koreajoongangdaily.com/korea/seoul-subway-prices-rising-to-1550-won-on-june-28/11965075
+    title: "Seoul subway prices rising to 1,550 won on June 28 (Korea JoongAng Daily, 2025)"
+    checked: 2026-11-13
+  - url: https://sunrise-sunset.org/search?location=Seoul&year=2027&month=1
+    title: "Sunrise and sunset in Seoul, January 2027 (sunrise-sunset.org)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Price and hours from Seoul Sky's and the tower's sites (read 2026-11-13); January's calendar isn't out. Mall hours implied by the tower FAQ (closed 22:00–10:30). Line 8 Exits 10–11 are on the location page's subway tab. Trazy's foreigner price needs its booking widget, so no number given. Not checked: Sky Terrace in January, Sky Bridge Tour winter schedule and price."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: tower-dawn
+    caption: Lotte World Tower over Seokchon Lake at dawn
+    hook: A 555 m tower rising out of a mall, with a glass floor at the top and the city under your shoes.
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: "16:45 arrival; sunset 17:33–17:41"
+    extra:
+      - label: Fits a work day
+        value: "Yes, if you're out by 19:00"
+        detail: Sunset and the first hour of city lights, then home for a 21:00 shift
+      - label: Tickets
+        value: Online or at the booth
+        detail: Booking opens on the 1st of each month for that month
+  - type: highlights
+    items:
+      - title: Korea's tallest building
+        text: "Lotte World Tower is **555 m** high with 123 floors above ground. The tower's site ranks it 6th in the world and says 55 million people visited the tower and mall in 2023."
+      - title: The glass floor
+        text: "The **Sky Deck** is a glass floor 478 m above the ground. Seoul Sky says Guinness listed it as the highest glass-floor observatory."
+      - title: Floors 117 to 123
+        text: "The **Sky Shuttle** lift runs from B2 to the 117th floor. Seoul Sky lists a Sky Show on 117, a Sky Theater on 118 and a mapping show on 121, plus the open-air 120th-floor **Sky Terrace** (486 m) and the 123 Lounge, a premium café-restaurant."
+      - title: The mall below
+        text: "Lotte World Mall is open 10:30–22:00 and free to wander, with the tower's lobby, a cinema, the Lotte World Aquarium and the Avenuel luxury store under one roof."
+  - type: prose
+    title: Why it's more than a mall
+    dropcap: true
+    text: |-
+      The mall is the part you walk through to get to the view. Seoul Sky is the observation deck at the top of the tower, from the 117th to the 123rd floor, and its windows give a 360-degree view of the city. On a clear January evening you watch the lights come on below you.
+
+      Time it for sunset: in mid-January the sun sets between 17:33 and 17:41, and civil dusk ends around 18:01–18:09. That fits a work day: arrive at 16:45, watch the sunset and the city light up, and be out by 19:00.
+
+      If you want to walk off the ticket price, **Seokchon Lake** is right next to the tower. The tower's own guide suggests taking a snack from the mall's food floors down to a lakeside bench with the tower in view.
+  - type: gallery
+    feature: false
+    images:
+      - file: lake-day
+        caption: The tower and the mall beside Seokchon Lake by day
+      - file: night-river
+        focus: center
+        caption: The tower over the Han River at night
+  - type: quote
+    variant: vibe
+    text: The whole of Seoul switching its lights on, 478 metres under your feet.
+  - type: cost_breakdown
+    items:
+      - label: Seoul Sky, adult (13+)
+        local: 33000
+        brl: 139.79
+      - label: Subway there and back
+        local: 3100
+        brl: 13.13
+        note: "₩1,550 each way with a transport card"
+      - label: Fast Pass (no timed slot)
+        local: 62000
+        brl: 262.63
+        optional: true
+        note: Instead of the standard ticket, not on top of it
+  - type: map
+    zoom: 16
+    note: "From **Jamsil** station take Line 2 Exit 1 or 2, or Line 8 Exit 10 or 11. Follow signs for Seoul Sky down to the entrance on **B1–B2** of the tower."
+  - type: tips
+    variant: insider
+    items:
+      - "Seoul Sky's ticket page says tickets for a visit date go on sale on the **1st of that month**. In January you can buy one online or simply at the booth."
+      - "Resellers sell **foreigner-only** Seoul Sky tickets for less than the on-site price (Trazy says so; check its live price). Bring your **passport**: it's checked at the gate."
+      - "Bring your **own phone ticket**: copies and screenshots aren't accepted at the gate."
+      - "Seoul Sky closes at **22:00 Sun–Thu** and 23:00 on Fri–Sat, and ticket sales stop an hour before that."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "₩33,000 is about a full day's budget, and a little over once you add the subway. The free option is Seokchon Lake and the mall; Namsan's terraces are a free view too."
+      - "Look at the sky before you buy. On a hazy day the view is mostly white; a clear, cold day is when it pays off."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing, often clear and dry
+    note: "Seoul's January averages are 2.1 °C by day and −5.5 °C at night. The deck is indoors; only the 120th-floor terrace is open-air, and at 486 m it will be colder and windier than the street."
+    wear: Warm jacket for the walk from the station and the terrace
+  - type: pairs_well
+    items:
+      - id: kbl-basketball-jamsil
+        note: "Sports Complex station is two stops away on Line 2: a KBL game, then the sunset deck"
+      - id: namsan-n-seoul-tower
+        note: The cheaper, older city view; compare before you pick one

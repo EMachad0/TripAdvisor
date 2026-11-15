@@ -1,0 +1,123 @@
+id: 1000-trees-shanghai
+name: "1000 Trees"
+name_local: 天安千树
+name_romanized: Tiān'ān Qiānshù
+country: china
+city: shanghai
+area: "Putuo · Suzhou Creek, M50"
+category: shopping
+fame: popular
+tags: [mall, architecture, heatherwick, free, suzhou-creek, photo-spot]
+kind: See
+why: "A free Heatherwick building on Line 13: an hour among the planter columns, M50's galleries five minutes away, and the trees lit after dark."
+
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+  note: "No ticket to walk the mall or the creek promenade"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Weekday afternoon, staying to dusk (~17:00)"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mall 10:00–22:00 daily per one 2026 guide (not official); shops vary. The creek promenade is open air"
+  winter: "No winter hours or holiday closures found. Sunset is about 16:52–17:00 through December (sunrise-sunset.org)."
+
+location:
+  address: "600 Moganshan Road, Putuo District, Shanghai (Suzhou Creek bank)"
+  address_local: 上海市普陀区莫干山路600号 天安千树
+  lat: 31.25087
+  lng: 121.44089
+  nearest_transit: "Jiangning Road (Line 13), about 550 m south (straight line on OSM)"
+
+sources:
+  - url: https://www.travelofchina.com/1000-trees-shanghai/
+    title: "1000 Trees Shanghai 2026 — Travel of China (updated 2026-10-28): address, hours, floors, food, M50, Phase 2"
+    checked: 2026-11-13
+  - url: https://www.metalocus.es/en/news/heatherwick-studio-completes-first-phase-mixed-use-complex-1000-trees
+    title: "Heatherwick Studio completes first phase of 1000 Trees — Metalocus: up to 1,000 columns, 70+ tree species, 300,000 m²"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai — Wikipedia: Xujiahui climate table, Dec–Jan normals"
+    checked: 2026-11-13
+  - url: https://sunrise-sunset.org/china/shanghai/2026/12
+    title: "Shanghai sunset times, December 2026 — sunrise-sunset.org"
+    checked: 2026-11-13
+  - url: https://www.openstreetmap.org/?mlat=31.25087&mlon=121.44089#map=17/31.25087/121.44089
+    title: "OpenStreetMap — 1000 Trees and Jiangning Road station (distance measured on the map)"
+    checked: 2026-11-13
+  - url: https://www.dezeen.com/2015/12/22/thomas-heatherwick-studio-50-moganshan-road-shanghai-development-tree-covered-mountains/
+    title: "Heatherwick mountain complex — Dezeen (2015, via atr render): two tree-covered mountains beside M50, ~1,000 plant-topped columns"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Architecture facts agree across Metalocus and Dezeen. Hours, floors and the food list come from one guide (Oct 2026), not an official channel; its food list is the Dec 2021 opening directory, and its author marks L7–L8 status and exit numbers as unverified. Free entry: visitors reported no fee in Sep–Oct 2026, but there is no official policy page. No winter-specific info found."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: creek-side
+    focus: center
+    hook: "Two stepped hills of concrete, and every column ends in a planter with a tree on top."
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: "Weekday afternoon to dusk"
+    extra:
+      - { label: Columns, value: "Up to 1,000", detail: "Each one tops out as a planter" }
+      - { label: Architect, value: Heatherwick Studio, detail: "Phase 1 opened Dec 2021" }
+      - { label: Food floors, value: "B1 and L5–L6", detail: "Per the 2021 opening list; tenants change" }
+  - type: highlights
+    items:
+      - title: Columns that turn into trees
+        text: "Most buildings hide their columns. Here **up to 1,000** of them rise through the façade and end as planters, with more than **70 tree species** on top (Metalocus)."
+      - title: A mall shaped like hills
+        text: "Dezeen called it two **tree-covered mountains** on the Suzhou Creek bank. Up close it reads like a stepped ruin taken over by a garden."
+      - title: Cheap food inside
+        text: "At the 2021 opening, B1 had a supermarket, KFC and Daoxiangcun and **L5 a food hall**; tenants change, so check. Lao Wall Root hotpot on L6 is listed in 2026."
+      - title: M50 next door
+        text: "The M50 galleries in an old textile mill are about **five minutes' walk** away; Jade Buddha Temple is about 15 minutes further."
+  - type: prose
+    dropcap: true
+    text: |-
+      Thomas Heatherwick's studio was given a plot beside the M50 art district and asked for a mall. Its answer was to show the columns instead of hiding them: each one climbs the stepped façade and finishes as a pot with a tree in it. The first phase opened in December 2021; the second phase next door is due at the end of 2027.
+
+      As a mall it is small and its shops come and go, says Travel of China. The building and the creek are the reason to come. Walk the outside first, from the Suzhou Creek side, where the two hills are clearest. Then go in and ride up through the floors.
+
+      It costs nothing and sits on Line 13, so it fits a short afternoon before a work night or a slow first day in Shanghai. Stay until dusk if you can: the trees are lit after dark, though no switch-on time is published.
+  - type: gallery
+    images:
+      - { file: planter-columns, caption: "Planter columns over the entrance steps" }
+      - { file: terraces, caption: "The stepped façade, column after column", focus: center }
+  - type: quote
+    variant: vibe
+    text: "A shopping mall that looks like the ruins of a hanging garden."
+  - type: cost_breakdown
+    items:
+      - { label: "Walking the mall and the creek promenade", local: 0, brl: 0 }
+  - type: map
+    note: "Give drivers **天安千树** or the address: Travel of China warns that \"Tianan\" alone can be heard as Tiananmen."
+  - type: tips
+    variant: insider
+    items:
+      - "Start outside on the **Suzhou Creek** side for the full view of both hills, then go in."
+      - "Pair it with **M50**: galleries in an old mill, five minutes away."
+      - "Tax refund: Watsons (B1) and Benlai (LF) were listed as departure-refund shops in Aug 2025; ask at the counter."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "There is a different **1000TREES** on Yuyuan Road in Changning. Don't let a map app send you there."
+      - "Don't come for the shopping: the tenant list is short and changes often."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 11
+    conditions: "Damp, grey, occasional drizzle"
+    note: "The best views are from outside, so dress for it; you can warm up inside."
+    wear: "Warm layers and a waterproof jacket"
+  - type: pairs_well
+    items:
+      - { id: desti-youth-hostel-jing-an, note: "About 1.5 km south, in Jing'an" }
+      - { id: bund-and-lujiazui-skyline, note: "Suzhou Creek runs east from here to the Bund" }

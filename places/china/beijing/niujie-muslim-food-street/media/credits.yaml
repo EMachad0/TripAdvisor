@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: niujie-street
+  title: File:North start of Niujie St (20201125145623).jpg
+  author: N509FZ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:North_start_of_Niujie_St_(20201125145623).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/35/North_start_of_Niujie_St_%2820201125145623%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The north section has more business...
+  width: 3954
+  height: 2636
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: hand-cut-lamb
+  title: File:Hand-cut lamb slices for hotpot.jpg
+  author: ZhengZhou
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hand-cut_lamb_slices_for_hotpot.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/78/Hand-cut_lamb_slices_for_hotpot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Hand-cut lamb slices for hotpot
+  width: 3880
+  height: 2909
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: mosque
+  title: File:Niujie Mosque - CIMG3716.JPG
+  author: User:Vmenkov
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Niujie_Mosque_-_CIMG3716.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5a/Niujie_Mosque_-_CIMG3716.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Niujie Mosque, Beijing
+  width: 2560
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

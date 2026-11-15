@@ -1,0 +1,32 @@
+# Independent review of nappark-hostel. Written by `./atr review`; do not edit by hand.
+id: nappark-hostel
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 0d6eda262cf54e196f9362589288d04451e517c73af967d2d761e471813ba31a
+facts:
+  supported: 10
+  unsupported: 5
+  contradicted: 0
+issues:
+  - severity: nit
+    field: stay.beds[0..2,4]
+    problem: "The 9 Jan prices and the 5 Jan prices for the 14-, 8- and 6-bed dorms (฿400/450/690) could not be re-checked: Hostelworld redirected every 5 and 9 Jan render to 13–14 Nov 2026. The 2 Jan render and the first review's 5 Jan ฿350 did match the page."
+    evidence: ./atr render on the 2027-01-05 and 2027-01-09 URLs → final URL "…from=2026-11-13&to=2026-11-14…"
+    fix: No change needed if the curator's reading stands. Re-confirm the 9 Jan prices on the next refresh.
+  - severity: nit
+    field: location.nearest_transit
+    problem: The page gives the S1 fare but not its hours. The cited source says it leaves Suvarnabhumi only 06:00–20:00, which matters for a late arrival on Sat 2 Jan.
+    evidence: https://thaiest.com/en/thailand/bangkok/s1-bus — "operates daily, from 06:00 to 20:00"; departs "Level 1 … (Gate 7)"
+    fix: Add "06:00–20:00 from Level 1, Gate 7" to the S1 mention in nearest_transit or the map note.
+resolved:
+  - field: cost.local
+    problem: All prices on the page come from searches for 23 and 26 Jan 2027, but the traveler is in Thailand only from 2 to 10 Jan. The first night, Sat 2 Jan, costs ฿500 for the 22-bed dorm, not ฿350, and every other dorm is dearer too (฿550, ฿650, ฿730). The ฿350 price only holds for weekday nights such as Tue 5 Jan. hours.winter says New Year prices were not checked, but the arrival night falls in that period.
+    evidence: https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-02&to=2027-01-03&guests=1&currency=THB (rendered 12 Nov) — "Standard 22 Bed Mixed Dorm THB 500.00 … Superior 14 THB 550.00 … Standard 8 THB 650.00 … Deluxe 6 THB 730.00". This matches stay.beds, cost.note and hours.winter. The weeknight ฿350 now cites the 5 Jan search, which the first review saw at THB 350.00.
+  - field: blocks[2].social
+    problem: From Mon 4 to Fri 8 Jan the traveler works night shifts (19:00–04:00) from Bangkok and sleeps during the day. The page sells nightly pub crawls and points to the 22-bed dorm as the cheapest bed, but never says whether you can sleep there by day or work in the coworking space overnight. The insider tip about remote work stops at 'the listing has a coworking space'.
+    evidence: blocks[2].good_to_know[4], blocks[2].social[4], blocks[6].items[1] and blocks[7].items[0] now cover the 4–8 Jan shift. They say overnight coworking access is not stated, so the traveler should ask, and they point to the 6-bed with partitions for sleeping by day. The listing confirms "Free Wi-Fi throughout the building", "Coworking Space" and "removable partitions between beds".
+rereview_of: 2df330d3ef691ddbabced3c3bda374afcf781d7945515dea4112a5e272d2d3bc
+summary: "All three earlier findings are resolved. The Sat 2 Jan prices (฿500/550/650/730) match a live render, the work-week tips are honest about overnight coworking access, and the S1 ฿60 fare now has a source that opens. Only two nits remain: the 9 Jan prices could not be re-rendered, and the page does not give the S1 bus hours. The phone screenshot failed because the build file was missing, so the page layout was not checked visually."
+model: claude-opus-5-5
+cost_usd: 0.647

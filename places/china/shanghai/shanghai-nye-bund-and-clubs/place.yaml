@@ -1,0 +1,194 @@
+id: shanghai-nye-bund-and-clubs
+name: "Shanghai NYE: the Bund, then a Club"
+short_name: Shanghai NYE
+name_local: 上海跨年 · 外滩与夜店
+name_romanized: Shànghǎi kuànián · Wàitān
+country: china
+city: shanghai
+area: Huangpu · the Bund
+category: nightlife
+fame: popular
+tags: [nye, clubs, bund, skyline, countdown, party, book-ahead]
+kind: Do
+why: "Walk the lit Bund early (no fireworks, no official countdown), then count down in a real club: INS's six floors or a 91st-floor hotel party."
+when:
+  dates:
+    - { from: 2026-12-31, to: 2026-12-31 }
+cost:
+  local: 334
+  currency: CNY
+  brl: 276.12
+  note: "INS all-pass ¥288 Fri/Sat, ¥328 with snack on holidays (2026 NYE price not out) plus metro. The Bund is free"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "18:00–04:00"
+best_time: "Bund by 18:30, clubs from 22:30"
+
+book_ahead:
+  required: recommended
+  lead_days: 7
+  lead_time: "NYE tickets appear mid-December; book a week ahead"
+  method: website
+  links:
+    - label: INS Land all-pass (Qunar/Trip)
+      url: "https://touch.piao.qunar.com/touch/detail_197163289.html"
+      note: "Regular all-pass listing; NYE tickets usually appear here and on WeChat"
+    - label: SmartShanghai NYE events
+      url: "https://www.smartshanghai.com/events/"
+      note: "English listings of club and hotel NYE parties; search NYE in mid-December"
+  notes: "Big NYE parties sell tickets in advance at a fixed price. Door prices on the night are higher or sold out. Bring your **passport**: clubs check ID."
+
+hours:
+  summary: "Bund always open; car ban 20:00–01:00 on NYE. Clubs from about 21:00 until 04:00+"
+  closed: "East Nanjing Rd (L2/10) and Yuyuan Garden (L14) stations shut from 20:00"
+  winter: "On NYE 2025 police closed the Bund to cars 20:00–01:00 and shut East Nanjing Road (Lines 2/10) and Yuyuan Garden (Line 14) stations from 20:00. Lines 1, 7, 8, 9, 10 and 13 ran late. **No fireworks and no official countdown** in central Shanghai."
+
+location:
+  address: The Bund promenade at East Nanjing Road (opposite the Peace Hotel), Zhongshan East 1st Road, Huangpu, Shanghai
+  address_local: 上海市黄浦区中山东一路 外滩（南京东路口，和平饭店对面）
+  lat: 31.2407
+  lng: 121.4860
+  nearest_transit: "Yuyuan Garden (Line 10, stays open) or People's Square (L1/2/8), then walk"
+
+sources:
+  - url: https://english.shanghai.gov.cn/en-LatestNews/20251231/1b54690a4747486caee0b9d845156187.html
+    title: "Shanghai extends metro services during New Year holiday (Shanghai gov., 2025-12-31): station closures from 20:00"
+    checked: 2026-11-10
+  - url: https://english.shanghai.gov.cn/en-LatestNews/20251229/4f9ea8a84bba4b3788bb60b982726d47.html
+    title: "New Year's Eve traffic restrictions in Shanghai (Shanghai gov., 2025-12-29): Bund car ban 20:00–01:00"
+    checked: 2026-11-10
+  - url: https://www.worldjournal.com/wj/story/121474/9238286
+    title: "上海跨年仍未開放大型倒數活動 (World Journal, 2025-12-31): no big countdown, fireworks only in outer districts"
+    checked: 2026-11-10
+  - url: https://www.smartshanghai.com/articles/nightlife/the-shanghai-clubbing-guide-october-2026
+    title: "The Shanghai Clubbing Guide, October 2026 (SmartShanghai): INS, Abyss, Heim, KEV, Le Baron"
+    checked: 2026-11-10
+  - url: https://touch.piao.qunar.com/touch/detail_197163289.html
+    title: "INS LAND新乐园 tickets (Qunar): all-pass ¥288 Fri/Sat, ¥328 with snack on holidays"
+    checked: 2026-11-10
+  - url: https://www.smartshanghai.com/articles/nightlife/alter-new-years-eve-parties-alila-may-chow
+    title: "ALTER. NYE parties at Alila and Thompson (SmartShanghai, 2025-12-29): what hotel NYE parties look like"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Bund closures and metro rules are from official 2025 notices and have been the same for years. 2026 NYE party lineups and prices aren't out. Hotel NYE parties were ¥198–788 in 2025 per SmartShanghai search listings (event pages not openable, bot check)."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: pudong-from-bund
+    caption: Pudong's skyline from the Bund on a normal night
+    hook: "The most famous skyline in China, then a six-floor club building for the countdown."
+  - type: quick_facts
+    time_needed: "18:00–04:00"
+    best_time: "Bund by 18:30, clubs from 22:30"
+    extra:
+      - label: Fireworks
+        value: None in the centre
+        detail: Only outer districts in 2025
+      - label: Countdown
+        value: No official one
+        detail: Shanghai policy since the 2014 crush
+      - label: Dress code
+        value: Smart-casual
+        detail: Some clubs turn away sportswear
+  - type: highlights
+    items:
+      - title: The Bund, before the crowds peak
+        text: "Walk the riverside between the **Peace Hotel** and the Customs House while Pudong's towers glow across the water. It's lit every night, so go early and skip the 20:00 crush."
+      - title: INS, a club building
+        text: "**INS Land** (109 Yandang Rd) stacks clubs on six floors: hip hop at La Fin, trap at Hush, house and techno at **Dirty House**, K-pop at Culture Club. One all-pass covers them all."
+      - title: Or go up, or go underground
+        text: "Hotel rooftop countdowns cost **¥198–788** in 2025 (91st floor of the Park Hyatt at the top end). For techno, **Abyss** and **Heim** are the serious picks."
+      - title: Late metro, real nightlife
+        text: "Six metro lines run late on NYE, and Shanghai's club scene goes until 04:00. It's the most \"party\" NYE of the mainland options."
+  - type: prose
+    title: What NYE in Shanghai is actually like
+    dropcap: true
+    text: |-
+      First, reset expectations. Since **36 people died in a crush on the Bund on NYE 2014**, Shanghai has held **no public countdown and no fireworks** in the centre. Police seal the riverside to cars from 20:00 and shut the nearest metro stations. The Bund still fills up, but with police lines and one-way flows, not a show.
+
+      So use the Bund as the **warm-up**. Get there by 18:30 via Yuyuan Garden (Line 10, which stays open), walk north for the classic photo, and eat on Nanjing Road East, where more than 30 shops stayed open past midnight in 2025.
+
+      Then go where the actual countdown happens: **indoors**. By 22:30 head to INS or a club you've booked. Countdowns are run by the DJs, and the floor stays full until 04:00.
+  - type: gallery
+    images:
+      - file: bund-crowd-night
+        caption: An ordinary night on the Bund; NYE is denser, with police lines
+      - file: peace-hotel-night
+        caption: The Peace Hotel's green roof, centre of the Bund
+  - type: quote
+    variant: vibe
+    text: Police whistles and phone flashes on the Bund at 19:00, then bass and confetti at midnight.
+  - type: book_ahead
+    steps:
+      - days_before: 21
+        text: "From mid-December, check **SmartShanghai events** and the INS listing for NYE lineups and prices."
+      - days_before: 7
+        text: "Buy your **NYE ticket** in advance. Ask your hostel if they run a group ticket deal or a pre-party."
+      - days_before: 0
+        text: "Bring your **passport** for the door. Travel by metro; Didi near the Bund is impossible after 20:00."
+  - type: cost_breakdown
+    items:
+      - label: The Bund walk
+        local: 0
+        brl: 0
+      - label: INS all-pass with snack (holiday rate)
+        local: 328
+        brl: 271.16
+      - label: Metro (rough)
+        local: 6
+        brl: 4.96
+      - label: Hotel rooftop countdown instead (2025 low end)
+        local: 198
+        brl: 163.69
+        optional: true
+    note: "About 1.6× the R$170 day budget. NYE is the night to splurge; the Bund part is free."
+  - type: menu
+    title: What the night costs at the door
+    items:
+      - name: INS all-pass, Fri/Sat
+        name_local: INS新乐园 通票
+        price_local: 288
+        price_brl: 238.09
+        note: Regular weekend price; covers all clubs in the building.
+        tag: signature
+      - name: INS all-pass + late snack, holidays
+        name_local: 通票+夜宵小食
+        price_local: 328
+        price_brl: 271.16
+        note: Holiday rate; NYE pricing could differ.
+        tag: drink
+      - name: Le Baron open bar
+        name_local: Le Baron
+        price_local: 98
+        price_brl: 81.02
+        note: "Normal-night free-flow deal in Oct 2026; NYE will differ."
+        tag: cheap
+    note: "2026 NYE prices aren't published yet. These are current regular prices to compare against."
+  - type: map
+    zoom: 16
+    note: "Pin is the Bund at East Nanjing Road. **INS Land** is at 109 Yandang Road (雁荡路109号), about 15 minutes by metro or taxi."
+  - type: tips
+    variant: insider
+    items:
+      - "Do the Bund **18:30–20:00**, then leave before the station closures and crowd controls kick in."
+      - "Hostel crowds often go out together on NYE. Ask at check-in; it's the easiest way to meet people for the night."
+      - "Clubs only fill up after **23:00**. Pre-drink with the group or eat late on Nanjing Road."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**East Nanjing Road station is closed from 20:00.** Use Yuyuan Garden on Line 10 or People's Square and walk."
+      - "Don't expect fireworks or a Bund light show. In 2025 the city ran no countdown event; any fireworks were in outer districts."
+      - "Unlicensed \"taxis\" swarm after midnight. Use Didi or the metro."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 9
+    conditions: Cold, damp, windy on the river
+    note: "The Bund is windy and you'll stand still a lot. Clubs are hot inside, so layer and use the coat check."
+    wear: Warm coat over smart-casual clothes, closed shoes
+  - type: pairs_well
+    items:
+      - id: yu-garden
+        note: Next to Yuyuan Garden station, your NYE entry point to the Bund
+      - id: shanghai-christmas-markets
+        note: "If you're in Shanghai for both: markets on Dec 24, clubs on Dec 31"

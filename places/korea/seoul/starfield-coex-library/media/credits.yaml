@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: library-hall
+  title: File:Seoul, Gangnam District, COEX Mall, Starfield Library.jpg
+  author: Dr. Thomas Liptak
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul,_Gangnam_District,_COEX_Mall,_Starfield_Library.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a1/Seoul%2C_Gangnam_District%2C_COEX_Mall%2C_Starfield_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Seoul : Gangnam District , COEX Mall , Starfield Library"
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: escalator-shelves
+  title: File:Starfield library 5.jpg
+  author: Sgroey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Starfield_library_5.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/29/Starfield_library_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Starfield library Seoul
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: glass-roof
+  title: File:Starfield Library COEX 20240218.jpg
+  author: Sean Young (@assanges)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Starfield_Library_COEX_20240218.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Starfield_Library_COEX_20240218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Starfield Library in Starfield COEX Mall
+  width: 4080
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: reading-desk
+  title: File:Starfield library 6.jpg
+  author: Sgroey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Starfield_library_6.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Starfield_library_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Starfield library Seoul
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

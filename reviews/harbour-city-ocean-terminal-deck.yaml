@@ -1,0 +1,25 @@
+# Independent review of harbour-city-ocean-terminal-deck. Written by `./atr review`; do not edit by hand.
+id: harbour-city-ocean-terminal-deck
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 81cdc8d42ffa0b141db1c77bbb095e595478327895b822b95067f0617837f781
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: why
+    problem: "`why` calls Harbour City \"Hong Kong's biggest mall\", but the Tourism Board source only says \"one of the largest\", and the page's own highlight says the same."
+    evidence: "`why` now reads \"One of Hong Kong's largest malls\". This matches https://www.discoverhongkong.com/eng/place-to-go/travel.guide-harbour-city.html (\"one of the largest shopping malls in Hong Kong\") and the page's own highlight."
+  - field: best_time
+    problem: The 18:15 sunset drives `best_time` and both the highlight and the insider tip for Feb 4–9, but no listed source gives a sunset time.
+    evidence: The Hong Kong Observatory open-data CSV for Feb 2027 is now cited. It gives sunset times of 18:14 (Feb 4–5), 18:15 (Feb 6–7), 18:16 (Feb 8) and 18:17 (Feb 9), so "about 18:15" in best_time, the highlight and the insider tip holds.
+  - field: blocks[7].items[1].label
+    problem: The fare line is labelled "weekend/holiday", but the cited article gives only weekday (HK$6) and weekend (HK$8.30) fares. Feb 8–9 are Monday–Tuesday public holidays, so the fare on those days is unproven.
+    evidence: "The label is now \"weekend fare, from Jan 25\" at HK$8.30. The pitfall tip gives HK$6 on weekdays and HK$8.30 at weekends, and says the Feb 8–9 holiday fare isn't stated. Both figures match The Star article: \"weekday fares will be capped at HK$6 ... and weekend fares at HK$8.30\"."
+rereview_of: bdbe5172dc48afa03178220243564e8e2a372048729d22f8b901060aa55ff08d
+summary: "All three earlier shoulds are fixed and each fix is backed by a listed source. That covers the HKTB \\\"one of the largest\\\" wording, the HKO sunset times of 18:14–18:17 and the corrected Star Ferry fare wording. New facts in the diff were checked against their sources and hold: the Harbour City access page gives \\\"Exit A1 Tsim Sha Tsui MTR Station, a 5-minute walk\\\" and \\\"Exit L5 East Tsim Sha Tsui MTR Station, a 5-minute walk\\\", and Wikipedia gives the 3–27 Canton Road address and Ocean Terminal's 1966 opening. No blockers were found in the unchanged text."
+model: claude-opus-5-5
+cost_usd: 0.341

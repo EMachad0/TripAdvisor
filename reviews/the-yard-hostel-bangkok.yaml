@@ -1,0 +1,32 @@
+# Independent review of the-yard-hostel-bangkok. Written by `./atr review`; do not edit by hand.
+id: the-yard-hostel-bangkok
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 06433b406e7eb096da62ee4372e5e40088ccdbc586ce9420e3148d7a3237af4f
+facts:
+  supported: 7
+  unsupported: 3
+  contradicted: 0
+issues:
+  - severity: nit
+    field: book_ahead.method
+    problem: "method: website shows as 'Official website' in the Booking quick fact, but the only booking link is Hostelworld, a third-party OTA."
+    evidence: "phone-light s01 / desktop-dark s01: '21 days before · Official website'; book_ahead.links[0].url is hostelworld.com"
+    fix: Set the method to the OTA/online value the schema allows, or link the hostel's own booking page.
+  - severity: nit
+    field: blocks[11].conditions
+    problem: "'Hot, dry and sunny; the cool, dry season' contradicts itself, and Wikipedia's climate text confirms only a 'winter season', not the exact 'cool, dry season' wording."
+    evidence: https://en.wikipedia.org/wiki/Bangkok — 'Extreme minimum temperature during winter season'
+    fix: "Write 'Warm, dry and sunny: the cool season, by Bangkok standards'."
+resolved:
+  - field: book_ahead.required
+    problem: The hero badge and quick facts say "No booking needed", but no source supports that. On the cited 4–6 Jan search, Hostelworld shows "Only 3 beds left!" in the 4-bed mixed dorm, "Only 4 beds left!" in the 6-bed female dorm and a 2-night minimum. The page's own tip says to book the whole work week together.
+    evidence: "book_ahead is now required: recommended, and the hero badge reads 'Booking recommended · 21 days ahead'. The new 4–9 Jan Hostelworld link opens the right page and shows 'Only 4 beds left!' (8-bed, THB 605.00, Free Cancellation), 'Only 3 beds left!' (4-bed) and 'Only 2 beds left!' (female dorm), so book_ahead.notes is correct. https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020?from=2027-01-04&to=2027-01-09&guests=1&currency=THB"
+  - field: blocks[0] (hero) / media
+    problem: The media folder is empty, so the hero is a plain gradient with no photo. Most of the page's case rests on the garden and the bunks, and the traveler never sees either.
+    evidence: The hero now uses media/ari-bts (Commons 'Ari BTS Station.jpg', Crcolas, CC BY-SA 4.0, credited in credits.yaml). Its caption says plainly that it shows BTS Ari and not the hostel, and the phone-light s01 and desktop-dark s01 shots show the station platform with the caption readable.
+rereview_of: a623253888923870d9171c9d3b7b33f471788c69d05aeabd7582fcfb0a076466
+summary: "Both earlier shoulds are resolved. The booking guidance now matches a live 4–9 Jan Hostelworld search (THB 605, 4/3/2 beds left, free cancellation), and the hero is a credited, honestly captioned photo of BTS Ari. Only two nits remain: the 'Official website' label on a Hostelworld link and the self-contradicting weather wording."
+model: claude-opus-5-5
+cost_usd: 0.398

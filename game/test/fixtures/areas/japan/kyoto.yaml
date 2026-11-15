@@ -1,0 +1,32 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: kyoto
+country: japan
+name: Kyoto
+name_local: 京都
+region: Kansai
+scope: city
+cities:
+  - kyoto
+why: A thousand temples, quiet winter mornings and the occasional dusting of snow on golden roofs.
+best_for:
+  - culture
+  - nature
+highlights:
+  - Fixture highlight one
+  - Fixture highlight two
+days_suggested:
+  min: 2
+  max: 3
+cost_level: medium
+winter_note: "Fixture winter note: **cold** but worth it."
+image: pavilion
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture 2
+    checked: 2026-11-09
+confidence: low
+last_updated: 2026-11-09

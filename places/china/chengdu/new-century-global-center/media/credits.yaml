@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: atrium
+  title: File:Hall of Chengdu Global Center.jpeg
+  author: 来斤小仓鼠吧
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hall_of_Chengdu_Global_Center.jpeg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/ff/Hall_of_Chengdu_Global_Center.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 成都新世纪环球中心购物中心大堂
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: east-front
+  title: File:New Century Global Center.jpg
+  author: Supercarwaar
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:New_Century_Global_Center.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/00/New_Century_Global_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The eastern facade of the New Century Global Mall
+  width: 8134
+  height: 3253
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: facade
+  title: File:Chengdu Global Center.jpg
+  author: FMoo
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Chengdu_Global_Center.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a6/Chengdu_Global_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: New Century Global Center
+  width: 3264
+  height: 2448
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

@@ -1,0 +1,17 @@
+# FIXTURE credits (copied from platform fixtures)
+- file: rooftops
+  title: File:Yu Garden Shanghai November 2017 007.jpg
+  author: King of Hearts
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yu_Garden_Shanghai_November_2017_007.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e3/Yu_Garden_Shanghai_November_2017_007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yu Garden , Shanghai , China .
+  width: 6000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons

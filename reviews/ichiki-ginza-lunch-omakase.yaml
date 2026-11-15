@@ -1,0 +1,29 @@
+# Independent review of ichiki-ginza-lunch-omakase. Written by `./atr review`; do not edit by hand.
+id: ichiki-ginza-lunch-omakase
+type: place
+reviewed: 2026-11-13
+verdict: fix
+content_hash: 400f4a6e79eb756a25dd7960af8f948ec9b908f029de798abe7568416b070e9c
+facts:
+  supported: 2
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: should
+    field: book_ahead.lead_time
+    problem: The page now states as fact that same-day booking is possible, and the reader will take that to cover the lunch course. The only source is Tabelog's headline, which ties same-day booking to the dinner course from ¥18,000. The lunch course page says nothing about same-day booking.
+    evidence: https://tabelog.com/en/tokyo/A1301/A130101/13258242/ — "[Same-day reservations available, just a 1-minute walk from Ginza Station] Omakase Course starting from JPY 18,000 (tax included)"; https://tabelog.com/en/tokyo/A1301/A130101/13258242/party/166928524/ has no same-day text
+    fix: Change it to say that Tabelog advertises same-day booking for the shop's dinner course, and that the lunch page gives no lead time, so book a few days ahead.
+  - severity: should
+    field: blocks[8].items[1]
+    problem: The new tip tells the traveler to book by phone on 03-6264-5390. Tabelog lists that number with no label. The number Tabelog labels for reservations is 050-5890-3942.
+    evidence: https://tabelog.com/en/tokyo/A1301/A130101/13258242/ — "Phone number (for reservation and inquiry) | 050-5890-3942"; the 03-6264-5390 line appears without a reservation or inquiry label
+    fix: Give 050-5890-3942 as the booking number, and add 03-6264-5390 only as the shop's other listed line.
+resolved:
+  - field: book_ahead.lead_days
+    problem: The page shows 'Booking recommended · 7 days ahead' as a rule, but no source gives a lead time. The curator admits it is a guess, and Tabelog's own headline says same-day booking is possible.
+    evidence: The page no longer presents 7 days as a rule. book_ahead.lead_time now reads "Same-day booking is possible; a few days ahead secures a 12:00 counter seat", and confidence_note calls the 3 days "only a safety margin", which is the fix that was asked for. Tabelog (https://tabelog.com/en/tokyo/A1301/A130101/13258242/) still gives no lead time, so treating 3 days as a margin is honest. The new wording has its own sourcing problem, raised as a new issue below.
+rereview_of: 86d572864faf3d94b12cbb04c33c0c1c9c18abebdd26c822f8c8bd750cea0e78
+summary: "Finding 1 is resolved: the page now says the lead time is only a safety margin. The new lunch entry window, 12:00–13:30, matches Tabelog. The page still needs two fixes. The same-day booking claim rests on a headline about the dinner course. The phone tip gives the unlabeled 03 number instead of 050-5890-3942, the number Tabelog labels for reservations."
+model: claude-opus-5-5
+cost_usd: 0.33

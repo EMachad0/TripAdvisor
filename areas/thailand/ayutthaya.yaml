@@ -1,0 +1,71 @@
+id: ayutthaya
+country: thailand
+name: "Ayutthaya"
+name_local: พระนครศรีอยุธยา
+region: Central Thailand
+scope: region
+cities: [ayutthaya]
+why: "The ruined royal capital of old Siam, a UNESCO site of brick prangs and a Buddha head in tree roots. About 1–2 h north of Bangkok by a train that costs R$2.50–3.50 in third class."
+best_for: [culture, day-trip]
+highlights: ["Wat Mahathat (Buddha head in tree roots)", "Wat Phra Si Sanphet", "Wat Chaiwatthanaram at sunset", "Cycling the island", "Third-class train from Bangkok"]
+days_suggested: { min: 1, max: 2 }
+cost_level: low
+fame: popular
+lat: 14.3478
+lng: 100.5606
+getting_there: "Third-class train from Hua Lamphong about ฿15 (80 min–2 h) or Krung Thep Aphiwat about ฿20 on a rapid; SRT Bangkok Connex ฿50; minivan from the Northern Bus Terminal."
+getting_around: "Rent a bicycle (about ฿40–50 a day) and ride between temples on the island; tuk-tuks ask about ฿200–300 an hour. A ฿5 ferry crosses from the station to the island."
+winter_note: "January is dry and the coolest month: about 18 °C at night and 32 °C by day, with essentially no rain (Thai Meteorological Department normals). Cool mornings make cycling pleasant; by midday the ruins have little shade."
+image: chaiwatthanaram-dusk
+sources:
+  - url: https://en.wikivoyage.org/wiki/Ayutthaya
+    title: "Ayutthaya (Wikivoyage): trains, Bangkok Connex, minivans, ferry, bike and tuk-tuk prices, ฿300 ticket, Chaiwatthanaram hours"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Ayutthaya_Historical_Park
+    title: "Ayutthaya Historical Park (Wikipedia): UNESCO World Heritage Site since 1991, coordinates, temples in the park"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Phra_Nakhon_Si_Ayutthaya_(city)
+    title: "Phra Nakhon Si Ayutthaya (Wikipedia): distance from Bangkok, January climate normals"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Fares and the 7-site ฿300 ticket are from Wikivoyage; the SRT site gave me no fare table. The minivan fare (฿70) dates from 2020, so it is left off the page. The Bangkok Connex commuter train is new (2026); its fare and timetable could change. Per-temple prices beyond Wat Mahathat (฿80) come from a page summary, so the page gives only the ticket price."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Brick towers of the old Siamese capital, reached on a ฿15 train and explored by bicycle."
+    caption: "Wat Chaiwatthanaram at dusk"
+  - type: highlights
+    items:
+      - title: The Buddha head in the roots
+        text: "At **Wat Mahathat** a stone Buddha head is grown into the roots of a fig tree, the image everyone knows from Ayutthaya."
+      - title: A capital in ruins
+        text: "The historical park has been a **UNESCO World Heritage Site since 1991**: royal temples like Wat Phra Si Sanphet stand in open lawns."
+      - title: Cheap to reach, cheap to see
+        text: "A third-class train costs about **฿15–20 (R$2.47–3.30)**, a bicycle about ฿40 a day, and one **฿300 (R$49.47)** ticket covers seven monuments for seven days."
+      - title: Sunset at Chaiwatthanaram
+        text: "**Wat Chaiwatthanaram**, in the park's buffer zone off the island, is open 08:30–18:30 (no tickets after 18:30, but you may stay a while after). Staying overnight lets you catch sunset there without chasing the last train."
+  - type: prose
+    title: Day trip or overnight?
+    text: |-
+      **A day trip** is what most visitors do, and it works well. Catch a morning train north, cross on the ฿5 ferry, rent a bicycle and loop the main temples on the island, such as Wat Mahathat and Wat Phra Si Sanphet. Head back to Bangkok in the late afternoon. Expected spend, without food: about ฿40 in train fares, ฿40 for the bike and ฿300 for the multi-site ticket, so about **฿380 (R$62.66)**, well under the R$100 daily budget.
+
+      **An overnight** buys the two ends of the day: the ruins in the cool of early morning before the day-trippers arrive, and **Wat Chaiwatthanaram** at sunset without racing for the last train. It also leaves time for the sites further out. Wikivoyage lists plenty of places to sleep, though the town is quiet at night compared with Bangkok.
+
+      **Getting there.** The cheapest is an ordinary third-class train from **Hua Lamphong**, about ฿15, 80 minutes to 2 hours. Faster rapid and express trains leave from **Krung Thep Aphiwat** (Bang Sue): about ฿20 in third class, up to ฿345 for air-con special express. The newer **SRT Bangkok Connex** commuter train runs via Don Mueang for ฿50, about 1 h 15 min, unreserved. Minivans and first-class buses also leave from the Northern Bus Terminal (Mo Chit), taking from about an hour to over two hours depending on traffic.
+  - type: gallery
+    images:
+      - { file: si-sanphet-chedis, caption: "The three chedis of Wat Phra Si Sanphet" }
+      - { file: mahathat-buddha-head, caption: "The Buddha head in the fig-tree roots at Wat Mahathat", focus: center }
+  - type: tips
+    variant: insider
+    items:
+      - "Ayutthaya station is on the **east bank**, not on the island: take the ฿5 ferry across, a tuk-tuk from the station should be no more than ฿100 for two."
+      - "The ฿300 multi-site ticket is valid for **seven days**, so it also covers an overnight. Some temples, like Wat Thammikarat, are not on it."
+      - "Tuk-tuks quote about ฿300 an hour; a bicycle at ฿40 a day is the budget way round."
+  - type: weather
+    temp_low_c: 18
+    temp_high_c: 32
+    conditions: Dry and sunny, essentially no rain in January
+    note: "Mornings are pleasantly cool on a bike; the open ruins get hot from late morning."
+    wear: "Light clothes, hat, sunscreen, water"

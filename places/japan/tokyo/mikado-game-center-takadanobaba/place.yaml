@@ -1,0 +1,132 @@
+id: mikado-game-center-takadanobaba
+name: "Game Center Mikado, Takadanobaba"
+short_name: Game Center Mikado
+name_local: 高田馬場ゲーセンミカド
+name_romanized: Takadanobaba Gēsen Mikado
+country: japan
+city: tokyo
+area: Shinjuku · Takadanobaba
+category: odd-local
+fame: hidden
+must_do: gaming-cafe
+tags: [gaming, arcade, retro, fighting-games, street-fighter, cheap]
+kind: Do
+why: "Two floors of '80s and '90s arcade cabinets by Takadanobaba station: Street Fighter II, streamed tournaments and ¥100 coins. Open 10:00 to midnight."
+
+cost:
+  local: 1000
+  currency: JPY
+  brl: 35.1
+  note: "No entry fee. Machines mostly take ¥100 coins; ¥1,000 buys about ten games"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Weekday evening, when the regulars come in"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 10:00–24:00 per the official site. It sometimes opens at 13:00 or 16:00 for private bookings, announced on its news page"
+  winter: "No winter or New Year hours are published. Late openings for private hire are posted on the official top page a few days ahead. Check it on the morning you go. Your Japan dates are now 4–22 Jan 2027."
+
+location:
+  address: "Oasis Plaza Bldg 1F–2F, 4-5-10 Takadanobaba, Shinjuku-ku, Tokyo"
+  address_local: 東京都新宿区高田馬場4-5-10 オアシスプラザビル1F・2F
+  lat: 35.7127
+  lng: 139.70344
+  nearest_transit: "Takadanobaba (JR Yamanote, Toyama exit), 30 sec walk"
+
+sources:
+  - url: https://mi-ka-do.net/baba/
+    title: "Takadanobaba Game Center Mikado official page: hours 10:00–24:00, address"
+    checked: 2026-11-11
+  - url: https://mi-ka-do.net/
+    title: "Game Center Mikado official top page: 2026 notices of late openings for private hire"
+    checked: 2026-11-11
+  - url: https://mi-ka-do.net/access/
+    title: "Game Center Mikado official access page: walking times from JR, Metro and Seibu Takadanobaba"
+    checked: 2026-11-11
+  - url: https://brutus.jp/en/post-291240
+    title: "BRUTUS (Jan 2024): Game Center Mikado, floors, classic games, tournaments, owner Minoru Ikeda"
+    checked: 2026-11-11
+  - url: https://tokyocheapo.com/place/mikado-vintage-arcade
+    title: "Tokyo Cheapo: Mikado vintage arcade, machines mainly take ¥100 coins"
+    checked: 2026-11-11
+  - url: https://arigatojapan.co.jp/best-retro-gaming-spots-in-japan/
+    title: "Arigato Japan (Jun 2025): best retro gaming spots, Mikado's two Tokyo branches"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals 1991–2020"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Hours and address are from the official site, but its Takadanobaba page hasn't been updated since 2022, and a Jun 2025 guide gives 10:00–23:30. The ¥100-per-play figure comes from an undated Tokyo Cheapo listing; some machines may cost more. The ¥1,000 total is our suggested budget, not a price."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: storefront-2018
+    caption: "The Oasis Plaza entrance in 2018. No free photos of the cabinets inside"
+    hook: "Rows of humming CRT cabinets, and a 40-year-old regular who will beat you at Street Fighter II without looking up."
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: "Weekday evening"
+    extra:
+      - label: Per game
+        value: Mostly ¥100
+        detail: Bring coins; ¥1,000 is plenty for a session
+      - label: Floors
+        value: 2
+        detail: "1F racing and rhythm, 2F about 100 retro cabinets"
+      - label: Good in cold
+        value: Yes, all indoors
+  - type: highlights
+    items:
+      - title: About 100 retro cabinets
+        text: "The 2nd floor is lined with about **100 '90s-style cabinets**, old but well looked after. The 1st floor has racing and rhythm games."
+      - title: Fighting-game history, still played
+        text: "*Super Street Fighter II X* (1994) is still studied and played seriously here. *Fatal Fury Special* (1993) even has a yearly 'world championship'."
+      - title: Three screens wide
+        text: "Look for *The Ninja Warriors* (1987), a cabinet with **three CRT screens** side by side."
+      - title: An arcade with a community
+        text: "In-store tournaments, some streamed online, and a notebook where regulars leave messages for each other."
+  - type: prose
+    title: Why Mikado and not a big arcade
+    dropcap: true
+    text: |-
+      Mikado is a one-owner arcade with a point of view. Owner **Minoru Ikeda**, an arcade worker since the mid-'90s, opened it in Kabukichō in 2006 and moved it to Takadanobaba in 2009. He chose to fill it with the cabinets that defined the '80s and '90s.
+
+      It almost didn't survive Covid: crowdfunding kept it alive. Today players around forty share the sticks with people half their age, and the line-up rotates with tournaments.
+  - type: quote
+    variant: vibe
+    text: Clattering joysticks, chiptune from every direction, and a stranger's coin dropping into the other side of your cabinet.
+  - type: cost_breakdown
+    items:
+      - label: About ten games at ¥100
+        local: 1000
+        brl: 35.1
+        estimate: true
+    note: "No entry fee: you only pay per game, so spend as much or as little as you like."
+  - type: map
+    zoom: 17
+    note: "About 30 seconds from the JR Toyama exit, 45 seconds from Metro Exit 1. The arcade is on the 1st and 2nd floors of the Oasis Plaza building."
+  - type: tips
+    variant: insider
+    items:
+      - "Check the official top page the same morning: Mikado posts **late openings** (13:00 or 16:00) when it's booked for a private event."
+      - "Come on a night with a tournament to see the regulars at full strength. Events are listed on the Mikado site."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Mikado has **two Tokyo branches**. This is the Takadanobaba one; the other is near Ikebukuro's east exit."
+      - "Closing time differs between sources (24:00 officially, 23:30 in a 2025 guide). Don't plan to arrive after 23:00."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "Tokyo's January averages 1 °C at night and 10 °C by day. Mikado is fully indoors and right by the station: a good plan for a cold or wet evening."
+    wear: Anything; it's warm inside
+  - type: pairs_well
+    items:
+      - id: nine-hours-shinjuku-north
+        note: "One Yamanote stop away (Shin-Okubo). Games until midnight, then your pod"

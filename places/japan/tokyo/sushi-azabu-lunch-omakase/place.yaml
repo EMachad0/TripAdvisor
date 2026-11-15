@@ -1,0 +1,126 @@
+id: sushi-azabu-lunch-omakase
+name: Sushi Azabu Lunch Omakase
+short_name: Sushi Azabu
+name_local: すし麻布
+name_romanized: Sushi Azabu
+country: japan
+city: tokyo
+area: Minato · Azabudai Hills
+category: food
+fame: popular
+tags: [sushi, omakase, splurge, counter]
+kind: Eat
+why: "A 13-course weekday omakase at a hinoki counter for ¥4,800, from the Tokyo outpost of a once Michelin-starred New York sushi bar. Book on TableCheck in English."
+cost:
+  local: 4800
+  currency: JPY
+  brl: 168.82
+  note: "Weekday counter lunch, tax incl.; one drink per guest is compulsory and extra"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+time_needed: 90 min (the lunch seating limit)
+best_time: Weekday lunch, Mon–Fri
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book once your Tokyo days are fixed; from 3 days before, cancelling costs 100%"
+  method: website
+  links:
+    - label: TableCheck (English)
+      url: https://www.tablecheck.com/en/shops/sushi-azabu/reserve
+      note: "Pick 'Light Chef's Choice, 13 dishes', Counter, party of 1"
+  notes: "A credit card is needed to hold the seat. TableCheck says it's a deposit, refunded after the visit, and you pay at the restaurant. Cancelling 3 days or less before the booked date costs the full course price."
+
+hours:
+  summary: "Lunch 11:00–15:30 (last order 14:30), dinner 17:30–23:00 (Time Out)"
+  winter: "The ¥4,800 weekday counter lunch is listed on TableCheck as bookable from Jan 6, 2027, Mon–Fri. It isn't offered Dec 19–31. Weekends and holidays have only the ¥9,800 lunch."
+
+location:
+  address: Azabudai Hills Tower Plaza 3F, 1-3-1 Azabudai, Minato-ku, Tokyo
+  address_local: 東京都港区麻布台1-3-1 麻布台ヒルズ タワープラザ3F
+  lat: 35.66084
+  lng: 139.74065
+  nearest_transit: Kamiyachō (Hibiya Line), about 470 m
+  approximate: true
+
+sources:
+  - url: https://www.tablecheck.com/en/shops/sushi-azabu/reserve
+    title: Book at Sushi Azabu — TableCheck (courses, prices, valid dates, policies)
+    checked: 2026-11-12
+  - url: https://www.tablecheck.com/en/sushi-azabu
+    title: Sushi Azabu — TableCheck venue page (address, station, background)
+    checked: 2026-11-12
+  - url: https://www.timeout.com/tokyo/restaurants/sushi-azabu
+    title: Sushi Azabu — Time Out Tokyo (hours, 19-seat counter, Toyosu fish)
+    checked: 2026-11-12
+  - url: https://www.timeout.com/tokyo/restaurants/best-omakase-sushi-under-5-000-in-tokyo
+    title: 7 best omakase sushi for ¥5,000 and under in Tokyo — Time Out (May 2024)
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Course, price, valid dates and policies were read on TableCheck's live booking page on 2026-11-12. Hours and the 19-seat counter come from Time Out (May 2024). Closed days, drink prices and how far ahead slots open aren't published, so lead_days 14 is a cautious guess. The pin is on the Mori JP Tower complex, not the Tower Plaza door."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: azabudai-hills
+    caption: "Azabudai Hills, home of the restaurant. No free photo of the counter exists"
+    hook: Over the R$170 day budget, once. A real omakase counter for the price of two Tsukiji breakfasts.
+  - type: quick_facts
+    time_needed: 90 min seating
+    best_time: Weekday lunch
+    extra:
+      - { label: Courses, value: 13 dishes, detail: "Nigiri and a bara-chirashi bowl" }
+      - { label: Solo, value: "Yes, counter", detail: TableCheck takes a party of 1 }
+      - { label: Diets, value: No changes, detail: "No veg, gluten-free or allergy swaps" }
+  - type: highlights
+    items:
+      - title: Why go over budget here
+        text: "The course alone is **99% of the R$170 day**, and the compulsory drink takes you over it. In return a chef serves you Edomae sushi course by course. Time Out notes that an omakase meal can easily cost ¥20,000–30,000. Do it once, on a day with no other paid plans."
+      - title: Foreigner-proof booking
+        text: "**TableCheck works in English**, and you can book one seat at the counter."
+      - title: A New York name
+        text: "The sister **AZABU** restaurants in New York and Miami Beach each held a Michelin star. Time Out says the fish comes from **Toyosu**."
+      - title: The room
+        text: "An L-shaped hinoki counter in front of a wall of calligraphy by **Rintaro Hashiguchi**, three floors up in Azabudai Hills."
+  - type: book_ahead
+    steps:
+      - days_before: 14
+        text: "On TableCheck choose **Lunch → Counter → 'Light Chef's Choice, 13 dishes' (¥4,800)**, then a weekday from Jan 6, 2027 on. Register a credit card."
+      - days_before: 4
+        text: "Last day to cancel for free. From 3 days before, TableCheck charges the **full course price**."
+      - days_before: 0
+        text: "Arrive on time. TableCheck says the booking is cancelled if they can't reach you 15 minutes after the slot."
+  - type: menu
+    title: The weekday lunch
+    items:
+      - { name: "Light Chef's Choice, 13 dishes", price_local: 4800, price_brl: 168.82, note: "Mon–Fri, counter. Nigiri plus bara-chirashi", tag: signature }
+      - { name: "Full Omakase lunch, 16 dishes", price_local: 9800, price_brl: 344.67, note: "Weekends and holidays. Not worth it on this budget" }
+    note: "TableCheck: no à la carte menu, and each guest must order **at least one drink**. Drink prices aren't online."
+  - type: cost_breakdown
+    items:
+      - { label: Weekday counter lunch (13 dishes), local: 4800, brl: 168.82 }
+    note: "The total **leaves out the compulsory drink**: every guest must order one, and the restaurant doesn't publish drink prices. Expect the real bill to be a little over the R$170 day."
+  - type: map
+    note: "Sushi Azabu is on the **3rd floor of Tower Plaza** in Azabudai Hills, about 470 m from **Kamiyachō** (Hibiya Line). The pin marks the complex."
+  - type: tips
+    variant: insider
+    items:
+      - "Book the **weekday** ¥4,800 lunch. On weekends and holidays the only lunch is ¥9,800."
+      - "TableCheck lists the deal from **Jan 6, 2027**, so your Jan 20 – Feb 4 dates are covered."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No-shows and cancellations 3 days or less before the date are charged **100%**, so only book a date you're sure of."
+      - "There are no swaps: TableCheck says they can't change dishes for allergies or diets."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, mostly sunny
+    note: "You're indoors the whole time, so winter doesn't matter here."
+    wear: Something a little neater than hostel clothes
+  - type: pairs_well
+    items:
+      - { id: tsukiji-outer-market-sushi-breakfast, note: "The cheap version: the same kind of fish, ordered by the piece" }
+      - { id: sushi-tokyo-ten-shibuya, note: "Mid-tier step up: dinner omakase with drinks, ¥13,200" }
+      - { id: ichiki-ginza-lunch-omakase, note: "Mid-tier step up: 16-item Ginza counter lunch, about ¥12,100" }

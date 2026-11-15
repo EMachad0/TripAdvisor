@@ -1,0 +1,64 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: food-alley
+  title: File:Gwangjang Market, Seoul 02.jpg
+  author: Bgag
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Gwangjang_Market,_Seoul_02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/81/Gwangjang_Market%2C_Seoul_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Gwangjang Market, Seoul
+  width: 3939
+  height: 2203
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons
+- file: jeon-stall
+  title: File:Seoul, Jongno District, Gwangjang Market, Jeon.jpg
+  author: Dr. Thomas Liptak
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul,_Jongno_District,_Gwangjang_Market,_Jeon.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/28/Seoul%2C_Jongno_District%2C_Gwangjang_Market%2C_Jeon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Seoul : Jongno District , Gwangjang Market ( Jeon vendor)"
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons
+- file: bindaetteok-makgeolli
+  title: File:Korean mung bean pancake and rice wine-Bindaetteok and makgeolli.jpg
+  author: Pfc. Bo Park, 2ID PAO, US Army
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File:Korean_mung_bean_pancake_and_rice_wine-Bindaetteok_and_makgeolli.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/24/Korean_mung_bean_pancake_and_rice_wine-Bindaetteok_and_makgeolli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Bindaetteok (ground mung bean pancakes) are served in small pieces with onion marinated in soy sauce. Korean rice wine, 'makgeolli', complements the pancakes very well. Taken at Gwangjang Market, South Korea
+  width: 2240
+  height: 1488
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons
+- file: yukhoe
+  title: File:Yukhoe in Gwangjang Market, Seoul.jpg
+  author: Choi2451
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yukhoe_in_Gwangjang_Market,_Seoul.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2a/Yukhoe_in_Gwangjang_Market%2C_Seoul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 2017년 11월 광장시장의 육회
+  width: 5312
+  height: 2988
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons

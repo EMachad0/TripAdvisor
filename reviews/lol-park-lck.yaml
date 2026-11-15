@@ -1,0 +1,19 @@
+# Independent review of lol-park-lck. Written by `./atr review`; do not edit by hand.
+id: lol-park-lck
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 1e7e4200a16d65c540ea346f8c5aa2c1e7e2595249c9b340954b82f0c8ddfa6b
+facts:
+  supported: 1
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].text
+    problem: The new work-day plan rests on "In 2025 the first weekday match started at 17:00" and on a best-of-three ending around 19:30. The 17:00 time comes from the 2025 regular season (launched 2 April), not the January LCK Cup. No listed source gives the Cup's weekday start time or says the Cup is best-of-three. GameMeca only says Super Week games are best-of-five.
+    evidence: "blocks[3].text now reads \"In the 2025 regular season the first weekday match started at 17:00. No source gives the January Cup's weekday times or format, so check the 2027 Cup schedule\", and the best-of-three claim is gone. This is the second fix the review offered. The 17:00 regular-season time is backed by https://www.invenglobal.com/lol/articles/19254/2025-lck-season-launches-april-2-with-hanwha-life-esports-vs-geng-showdown, a listed source: \"Weekday games now begin at 5 p.m. and 7 p.m.\" I did not reopen this page during the re-review. The quote comes from the earlier review's evidence."
+rereview_of: 268d8032e40d941ac3bd9793d41f46e81b7ae1f1377b219357fa540061be6bae
+summary: The only open should is resolved. The work-day plan now says the 17:00 start is a regular-season figure and tells the traveler to check the 2027 Cup schedule, and the unsupported best-of-three claim is gone. The changed lines add no new unsupported facts, and I found no blockers in the text that did not change.
+model: claude-opus-5-5
+cost_usd: 0.257

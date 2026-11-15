@@ -1,0 +1,223 @@
+id: tianmen-mountain
+name: "Tianmen Mountain"
+name_local: 天门山
+name_romanized: Tianmen Shan
+country: china
+city: zhangjiajie
+area: Yongding · city's south edge
+category: views
+fame: popular
+tags: [cold-outdoors, cable-car, glass-skywalk, natural-arch, cliff-walk, stairs, real-name-ticket]
+kind: See
+why: "The hole in the mountain, 999 steps you climb on foot, cliff walks with glass sections. ¥288; in Dec 2026 the only way up is the short express cableway."
+cost:
+  local: 288
+  currency: CNY
+  brl: 238.09
+  note: "Line C ticket: entry, express cableway both ways, tunnel escalators. The 999 steps are free; the escalator beside them is ¥32 up"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 5–8 h
+best_time: A clear day; late morning once fog lifts
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: Real-name timed ticket; book 1–3 days ahead, when the forecast is clear
+  method: passport-registered
+  links:
+    - label: Trip.com (foreigner-friendly)
+      url: https://www.trip.com/travel-guide/attraction/zhangjiajie/tianmen-mountain-national-forest-park-10558650/
+      note: In English, with your passport number; choose the date and entry slot. Line C is the only route sold
+  rules_changed:
+    date: 2026-10-13
+    note: "From 13 Oct 2026 the city cableway is closed for rebuilding and only Line C is sold: the express cableway up and down. Lines A, B, 1 and 2 are suspended, with no reopening date."
+  passport: true
+  notes: "The ticket is valid only on the booked date, and you enter within your hourly slot (entry until 16:00). The official **张家界一机游** WeChat mini-program often fails for foreigners. The downtown ticket office stays open."
+
+hours:
+  summary: "Daily. Ticket sales 07:30–16:00, rides from 08:00, last entry 16:00 (operator notice in force since 13 Oct 2026)"
+  winter: "**City cableway closed** since 13 Oct 2026, no reopening date; no bus runs up the 99-bend road. The operator warns the East and Panlong Cliff glass walkways and the **上天梯 (the 999-step stairway to the cave)** can close at any time for weather or maintenance. In the 31 Dec 2025 snow the glass walkway shut. The East glass walkway closed for works in May 2026; no reopening notice found."
+
+location:
+  address: Tianmen Mountain Cableway lower station (ticket office and free shuttle to the Mountain Gate), Dayong Road, Yongding District, Zhangjiajie
+  address_local: 张家界市永定区大庸路 天门山索道下站
+  lat: 29.11478
+  lng: 110.47848
+  nearest_transit: Beside Zhangjiajie railway station; taxi ¥15–30 from city hotels
+
+sources:
+  - url: https://m.voc.com.cn/rmt/article/18128145.html
+    title: "Operator notice: only Line C from 13 Oct 2026; ticket contents; walkways and 上天梯 may close — Hunan Daily (2026-10-10, Chinese)"
+    checked: 2026-11-11
+  - url: https://m.voc.com.cn/rmt/article/16078535.html
+    title: "Operator notice of 18 Mar 2026: bad weather stops the road shuttle and switches A/B to Line C — Hunan Daily / Xinhunan (in Chinese)"
+    checked: 2026-11-11
+  - url: https://www.chinadiscovery.com/hunan/zhangjiajie/tianmen-mountain/visiting-routes.html
+    title: "Tianmen Mountain visiting guide 2026/2027: Line C route, ¥288, 999 steps free, ¥32 escalator — China Discovery"
+    checked: 2026-11-11
+  - url: https://m.cncn.net/blog/1442226
+    title: "Tianmen Line C guide after 13 Oct 2026: no 99-bend bus, walking times, summit loop — local guide on cncn.net (2026-10-14, in Chinese)"
+    checked: 2026-11-11
+  - url: https://travelchinawith.me/attractions/hunan/zhangjiajie/tianmen-mountain-line-a-b-c/
+    title: "Tianmen Line A, B or C (updated 2026-10-14): 999 steps 1,050–1,170 m, climb times, ¥288 — Travel China With Me"
+    checked: 2026-11-11
+  - url: https://www.zhangjiajieguide.com/travel-notices/tianmen-mountain-cableway-suspension.html
+    title: "Tianmen Mountain Cableway suspension: route changes from October 13, 2026 — Zhangjiajie Guide"
+    checked: 2026-11-11
+  - url: https://www.zhangjiajieguide.com/attractions/tianmen-mountain/tickets.html
+    title: Tianmen Mountain tickets — Zhangjiajie Guide (¥288 since Nov 2025, extras, entry slots, low-season hours)
+    checked: 2026-11-11
+  - url: https://chinafortravelers.com/guides/tianmen-mountain-zhangjiajie/
+    title: "Tianmen Mountain guide — China for Travelers (ticket, booking, extras, summit 8–12 °C colder, taxis)"
+    checked: 2026-11-11
+  - url: https://www.hunantoday.cn/news/xhn/202605/32651190.html
+    title: "East Line Glass Walkway closed for maintenance; Panlong and West stay open — Hunan Today (2026-05-14)"
+    checked: 2026-11-11
+  - url: https://m.sohu.com/a/971330220_121284943
+    title: "Snow at Tianmen and Qixing on 31 Dec 2025: park open, glass walkway shut — Jimu News via Sohu (in Chinese)"
+    checked: 2026-11-11
+  - url: https://www.hunantoday.cn/news/xhn/202511/30926694.html
+    title: "First rime ice at Tianmen, 17 Nov 2025; some trails iced over — Hunan Today (bilingual)"
+    checked: 2026-11-11
+  - url: https://m.voc.com.cn/rmt/article/18098810.html
+    title: "Tianmen Cave express cableway stopped for maintenance 8–12 Oct 2026 — Hunan Daily / Xinhunan (in Chinese)"
+    checked: 2026-11-11
+  - url: https://www.hunantoday.cn/news/xhn/202603/31695810.html
+    title: Tianmen Mountain to adjust cableway operation from March 9 — Hunan Today (2026-03-07)
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Tianmen_Mountain
+    title: Tianmen Mountain — Wikipedia (elevation, cableway, 99-bend road, cave height)
+    checked: 2026-11-11
+  - url: https://travelchinawith.me/china-destinations/zhangjiajie/snow-in-zhangjiajie/
+    title: Snow in Zhangjiajie — Travel China With Me (snow season, rime, early-December fog)
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Zhangjiajie
+    title: Zhangjiajie — Wikipedia (CMA climate normals 1991–2020)
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Line C, hours, ticket contents: operator notice via Hunan Daily. No source shows a public hiking trail up, so 'walking it' means the 999 steps and summit paths. Unknown: East glass walkway reopening; any December 2026 notice. voc.com.cn, hunantoday.cn and chinadiscovery time out in atr links but opened with atr render today. Trip.com link from Trip.com's guide, bot-blocked."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: tianmen-cave-haze
+    hook: A doorway in the sky, 131 metres tall, reached by a cable car and 999 steps you can climb yourself.
+    caption: Tianmen cave seen through haze from the approach
+    focus: "70% 45%"
+  - type: quick_facts
+    time_needed: 5–8 h
+    best_time: A clear day; late morning once fog lifts
+    extra:
+      - label: Way up in Dec 2026
+        value: Express cableway only
+        detail: City cableway shut since 13 Oct 2026; no 99-bend bus
+      - label: On foot
+        value: 999 steps + cliff paths
+        detail: Steps free, 30–45 min up; summit loop 4–8 h
+      - label: Bring
+        value: Your original passport
+        detail: Tickets are tied to the passport number
+  - type: faq
+    items:
+      - q: "Is this the one with the sky ladder, the mountain with a hole and the glass bridge?"
+        a: "Two out of three. The **hole** is Tianmen Cave, and the operator's own name for the **999-step stairway** up to it is 上天梯, \"ladder to heaven\". The viral **iron sky ladder** in videos is a via ferrata on Qixing Mountain, and the big **glass bridge** is in the Grand Canyon. Both are separate places with their own cards. Tianmen has short glass sections on its cliff paths, not a bridge."
+        asked: 2026-11-11
+      - q: "Can I walk it?"
+        a: "Partly. No bus runs up the 99-bend road and no source shows a public hiking trail from the city, so the **express cableway** takes you from the Mountain Gate up to the cave area. From there you walk: about 10 minutes on a plank path to the square, then the **999 steps** (free, 30–45 minutes up) to the cave. The summit cliff paths take about 4 hours for the west half, or 6–8 hours for the full loop. The 999 steps can close in ice or snow."
+        asked: 2026-11-11
+  - type: highlights
+    items:
+      - title: Tianmen cave
+        text: "A natural arch **131.5 m** high near the top of the mountain. From the square below it looks like a gate cut through the ridge."
+      - title: The 999 steps on foot
+        text: "The **上天梯**, a stairway from the cave square (about 1,050 m) to the arch (about 1,170 m), free to climb in 30–45 minutes. The escalator beside it costs **¥32** (R$26) going up."
+      - title: Escalators through the mountain
+        text: "From behind the cave, seven escalator sections tunnel up inside the rock to the summit. Both directions are in the ticket."
+      - title: Cliff paths and glass sections
+        text: "Plank paths and the Guigu cliff walk run along the summit edge, with short glass-floored sections (West and Panlong Cliff; the East one closed for works in May 2026). Shoe covers cost ¥5."
+      - title: The view down
+        text: "On a clear day the summit looks over the city and the **99 bends** of the 11 km road. You no longer ride that road; you see it from above and from the express cableway."
+      - title: Rime ice
+        text: "Tianmen got its first rime of the 2025 winter on 17 November. A local guide gives late December to mid-February as the snow season."
+  - type: prose
+    title: What you get in December 2026
+    dropcap: true
+    text: |-
+      Tianmen Mountain was sold for years on its cable car: 7,455 m from the middle of the city to the summit, built in 2005. **That ride is not available on this trip.** On 13 October 2026 the operator stopped the whole line for rebuilding and said it will announce a reopening date as the works progress. The bus up the 99-bend road was part of the suspended Lines A and B, so it is not running either.
+
+      What runs is **Line C**. A free shuttle takes you from the old downtown station to the Mountain Gate. The Tianmen Cave express cableway lifts you to a plank path, and ten minutes on foot brings you to the square under the arch. You climb the 999 steps (or ride the paid escalator), walk through the cave, and take the tunnel escalators to the top for the cliff paths. You come back the same way.
+
+      **Is it worth R$238?** It is over the daily budget for one ticket. On a clear or frosty day you get the arch, a real stair climb and long cliff walks, with few people around: a fair splurge. In fog you pay the same for a staircase and a white wall, and in ice the steps or glass sections can be shut. The ticket is tied to one date, so book it only when the forecast is good.
+  - type: gallery
+    images:
+      - { file: cliff-walkway, caption: "A walkway bolted to the summit cliff (summer photo)" }
+      - { file: steps-999, caption: "The 999 steps from Tianmen Cave Square", focus: center }
+      - { file: escalator, caption: "The escalators inside the mountain" }
+      - { file: cloud-sea, caption: "Above the cloud in March 2018, from the old cableway" }
+  - type: quote
+    variant: vibe
+    text: Nine hundred and ninety-nine cold steps, then a hole in the mountain with the weather blowing through it.
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "Start watching the forecast. Guides say to book **1–3 days ahead**; in winter there is no gain in booking earlier."
+      - days_before: 1
+        text: "Book the **Line C** ticket on Trip.com with your passport number. Pick an entry slot from late morning, when fog has had time to lift."
+      - days_before: 0
+        text: "Go to the downtown cableway station, take the **free shuttle** to the Mountain Gate, and enter within your slot with your passport."
+    passport_note: "Bring the **same passport** you booked with; entry is by passport scan or the e-ticket QR code."
+  - type: cost_breakdown
+    items:
+      - label: Line C ticket (entry, express cableway, tunnel escalators)
+        local: 288
+        brl: 238.09
+      - label: Cave escalator, up (instead of the 999 steps)
+        local: 32
+        brl: 26.45
+        optional: true
+      - label: Glass walkway shoe covers
+        local: 5
+        brl: 4.13
+        optional: true
+      - label: Forest sightseeing cable car on the summit, one ride
+        local: 25
+        brl: 20.67
+        optional: true
+      - label: Taxi from a city hotel to the station
+        local: 20
+        brl: 16.53
+        optional: true
+        estimate: true
+        note: Guide range ¥15–30
+  - type: map
+    zoom: 13
+    note: "The pin is the **downtown lower station**, beside Zhangjiajie railway station. The cableway there is closed, but the ticket office is open and the free shuttle to the Mountain Gate leaves from it."
+  - type: tips
+    variant: insider
+    items:
+      - "Sleep in the city the night before if you can. From Wulingyuan a guide puts the trip at 50–70 minutes and ¥80–120 by taxi."
+      - "**Walk up** the 999 steps; it is the one real climb left now the cable car is gone. Allow 30–45 minutes and take the stops."
+      - "On the summit go **west** first: the West glass section and the Guigu cliff path are the classic route."
+      - "The summit is 8–12 °C colder than the street. Bring the layers you would wear in the park."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Do not plan around the long cable car or the 99-bend bus. Many guides, photos and tour listings predate the October 2026 shutdown."
+      - "Routes A and B are not sold. If a listing offers them for December 2026, it is out of date."
+      - "The ¥32 cave escalator and the tunnel escalators are different things. Only the tunnel ones are in the ticket."
+      - "After snow or ice the steps and glass sections can stay shut. Ask at the downtown ticket office before you pay."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: Cold and exposed; often in cloud; ice and rime possible
+    note: "No summit normals were found. The city averages 4.9–12.2 °C in December and a guide puts the summit 8–12 °C colder, so expect around or below freezing. Fog may not clear until 10:00–11:00. In November 2025 the first rime came with icy trails; snow is more likely from late December."
+    wear: Down jacket, thermals, hat and gloves, shoes with grip for wet or icy stone
+  - type: pairs_well
+    items:
+      - id: qixing-mountain-sky-ladder
+        note: The viral iron sky ladder, about 13 km from downtown
+      - id: zhangjiajie-grand-canyon-glass-bridge
+        note: The big glass bridge, a separate site near Wulingyuan
+      - id: zhangjiajie-national-forest-park
+        note: The pillar forest, about 40 min north by bus

@@ -1,0 +1,32 @@
+# Independent review of channel-7-muay-thai. Written by `./atr review`; do not edit by hand.
+id: channel-7-muay-thai
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: ad6ebf04fc10516f006a0546347a522b103de0b0b8cddba61145e4882edaa067
+facts:
+  supported: 8
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: nit
+    field: hours.winter
+    problem: No listed source names a 'Ch7HD Sports' Facebook page. The Naewna article links ch7.com and Ch7HD social accounts, and the Muay Thai Stadiums author points readers to the Instagram account MuayThaiResults instead.
+    evidence: "https://muaythaistadiums.com/channel-7-boxing-stadium/: a reader-comment reply names Instagram 'MuayThaiResults' and no Facebook page"
+    fix: Link the exact Ch7HD social page you checked, or point to ch7.com plus the MuayThaiResults Instagram.
+  - severity: nit
+    field: confidence_note
+    problem: The note calls the Naewna piece 'Channel 7HD's own weekly programme release', but the article is not labelled as a press release and does not name the venue for 7 Si.
+    evidence: "https://www.naewna.com/entertain/981515: no ประชาสัมพันธ์ tag; the venue for 7 Si is not stated"
+    fix: Say 'a Naewna programme listing for Channel 7HD (Aug 2026)'.
+resolved:
+  - field: blocks[1].extra[1] / blocks[8].wear / blocks[7].items[0]
+    problem: Both fight guides require a collared shirt, and one bans T-shirts outright. The page treats the collar as optional ('collared to be safe') and the quick-facts card and weather 'wear' line only ask for a 'light shirt with sleeves', so the traveler could turn up in a T-shirt and be refused entry. confidence_note also says only one guide mentions a collar.
+    evidence: 'quick_facts (blocks[1].extra[1]), the pitfalls tip (blocks[8]) and weather.wear now all say collared shirt, no T-shirts, long trousers, closed shoes; confidence_note is corrected. https://muaythaistadiums.com/channel-7-boxing-stadium/: "You must wear long pants, a collared shirt, and closed-toe footwear".'
+  - field: hours.summary / when
+    problem: The Sunday 14:30 slot rests only on third-party blogs, the newest a single event listing from March 2026. No official Channel 7/BBTV page is cited, and a search also turns up a guide giving 12:00–14:00. Sun 3 Jan 2027 is the first Sunday after New Year, the page's only possible date, and no source confirms a show that day.
+    evidence: "New current source https://www.naewna.com/entertain/981515 (published 5 Aug 2026): Muay Thai 7 Si live from \"14.30 น.\", \"ชมฟรี! เพียง 500 คนแรกเท่านั้น\" (free, first 500 only). hours.winter now names the New Year risk and says to check ch7.com or the channel's social page in the week before 3 Jan."
+rereview_of: e3819c22591168e8e2c106f26b2670446404782a757ef33fb8e5b9810b69ce1c
+summary: Both earlier findings are fixed. The dress code now says collared shirt and no T-shirts everywhere it appears. The Naewna Aug 2026 listing supports the free 14:30 Sunday show and the first-500 cap, and hours.winter flags the New Year risk with a way to check the card. Two wording nits remain; there is no blocker or should.
+model: claude-opus-5-5
+cost_usd: 0.409

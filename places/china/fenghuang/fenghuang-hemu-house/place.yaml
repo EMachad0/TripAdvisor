@@ -1,0 +1,118 @@
+id: fenghuang-hemu-house
+name: "Fenghuang Hemu House (Phoenix Hong Bridge)"
+short_name: Hemu House
+country: china
+city: fenghuang
+area: Qingxi Lane · inside Fenghuang old town
+category: stay
+tags: [hostel, guesthouse, english-speaking, ticket-help, quiet]
+kind: Stay
+why: "A small, top-rated hostel inside the old town: ¥78 bed in a 2-bed ensuite dorm, English-speaking staff who book tickets. Friendly, but not a party hostel."
+cost:
+  local: 78
+  currency: CNY
+  brl: 64.48
+  note: "2-bed dorm, nights of Dec 22, 23 and 24, 2026, Hostelworld, searched Nov 12; tax included"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Reception 07:30–23:30 · check-in 14:00–23:00 · check-out by 12:00 · no curfew (Hostelworld)"
+  winter: "No Christmas rules or minimum stay shown: searches for the nights of Dec 22, 23 and 24, 2026 all showed dorm beds at ¥78. Free cancellation needs at least 3 days' notice."
+
+location:
+  address: "No. 47 Qingxi Lane, Fenghuang Ancient Town, Fenghuang County, Hunan"
+  address_local: 湖南省湘西州凤凰县 凤凰古城 虹桥附近
+  lat: 27.9518
+  lng: 109.60184
+  nearest_transit: "Qifeng Square shuttle stop (Line 1 from the station, ¥7), then on foot"
+  approximate: true
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Fenghuang-Hemu-House-Phoenix-Hong-Bridge/Fenghuang-Phoenix-County/299324?from=2026-12-22&to=2026-12-23&guests=1&currency=CNY"
+    title: "Hemu House — Hostelworld (Dec 22–23, 2026: 2-bed dorm ¥78, 10/29 reviews, house rules, reviews Hungary May 2026, England Nov 2024)"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Fenghuang-Hemu-House-Phoenix-Hong-Bridge/Fenghuang-Phoenix-County/299324?from=2026-12-24&to=2026-12-25&guests=1&currency=CNY"
+    title: "Fenghuang Hemu House — Hostelworld (Dec 24–25, 2026 search: same ¥78 dorm price)"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Border-Town-International-Youth-Hostel/Fenghuang-Phoenix-County/333604?from=2026-12-22&to=2026-12-23&guests=1&currency=CNY"
+    title: "Border Town IYH — Hostelworld (Dec 22–23, 2026: dorm ¥35, rooftop with pool table, 7.6 from 3 reviews, No. 15 Tangjia Lane)"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/hostels/asia/china/fenghuang-phoenix-county/?from=2026-12-22&to=2026-12-23&guests=1"
+    title: "Hostels in Fenghuang — Hostelworld (3 listed for Dec 22, 2026: Hemu House 10/29, Border Town 7.6/3, YunQi ShanJu no dorms)"
+    checked: 2026-11-12
+  - url: https://chinafortravelers.com/guides/fenghuang-ancient-town/
+    title: "China for Travelers (2026-08-13: bar strip Nanhua Bridge–Hongqiao, mist 06:30–08:00, shuttle Line 1 to Qifeng Square ¥7)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices from dated Hostelworld searches. Only two review texts are visible (Hungary, May 2026; England, Nov 2024), so foreign guests are inferred from those, not from a stated policy. 'Social' is weak: no bar, events or common room listed. No Chinese address found, so the pin is Hongqiao, ~0.4 km away (Hostelworld). Booking.com lists a 'Hemu House' but I did not open it."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: tuo-river-december
+    caption: "The Tuo River through the old town in December. No free photo of the hostel itself"
+    hook: Twin dorms in an old-town lane, a few minutes' walk from the lit river.
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–23:00", detail: Reception 07:30–23:30; no curfew }
+      - { label: Vibe, value: Quiet, detail: "Helpful staff; no bar or events listed" }
+      - { label: Pay, value: "Cash, WeChat, Alipay", detail: Cards not accepted at the hostel }
+  - type: highlights
+    items:
+      - title: Inside the old town
+        text: "About **0.4 km** from Hongqiao (Hostelworld), so dawn mist and the night lights are a short walk."
+      - title: Top-rated, small
+        text: "**10/10** from 29 Hostelworld reviews, checked 12 Nov 2026."
+      - title: Staff who book for you
+        text: "Free help with attraction and onward tickets, which matters with Chinese-only booking apps."
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 2-bed male or female dorm, ensuite
+        local: 78
+        brl: 64.48
+        note: "Nights of Dec 22, 23 and 24, 2026, Hostelworld; tax included"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Fenghuang-Hemu-House-Phoenix-Hong-Bridge/Fenghuang-Phoenix-County/299324?from=2026-12-22&to=2026-12-23&guests=1"
+      - label: Standard twin private ensuite (per room)
+        local: 160
+        brl: 132.27
+        note: "Night of Dec 22, 2026, Hostelworld; tax included"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Fenghuang-Hemu-House-Phoenix-Hong-Bridge/Fenghuang-Phoenix-County/299324?from=2026-12-22&to=2026-12-23&guests=1"
+    rating:
+      score: 10
+      out_of: 10
+      source: Hostelworld
+      reviews: 29
+      atmosphere: 10
+      checked: 2026-11-12
+    social:
+      - "Not a party hostel: Hostelworld lists no bar, common-room events or tours run by the hostel"
+      - "English-speaking staff give you a map and ideas for the town; reviewers praise the help"
+      - "For a social night, the bar street between Nanhua Bridge and Hongqiao is a short walk"
+      - "More social-looking: **Border Town Int'l Youth Hostel** (rooftop pool table, ¥35 dorm on Dec 22), but only 3 reviews (7.6), none readable"
+    good_to_know:
+      - "**Free ticket help**: staff book attraction tickets and onward bus tickets at no extra charge"
+      - "Pay on arrival by cash, WeChat or Alipay; cards not accepted; 6% extra if you want an invoice"
+      - "Free cancellation with at least 3 days' notice; luggage storage, free wifi, adaptors"
+      - "Foreign guests: reviews from a Hungarian (May 2026) and an English guest (Nov 2024); no stated passport policy"
+      - "Dorms are 2 beds with an ensuite bathroom, so it is closer to a cheap twin share than a bunk room"
+  - type: map
+    note: "No Chinese address found: show the driver **凤凰古城 虹桥** and walk from there. The pin is approximate."
+  - type: tips
+    variant: insider
+    items:
+      - "Ask the staff to book the **16:38 G3376** to Chongqing for you when sales open, 15 days ahead."
+      - "Get up for the 06:30–08:00 mist on the river: you are already inside the town."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: Cool and damp
+    note: "Fenghuang averages 4.4–11 °C in December. The listing names no heating; check before booking if you feel the cold."
+    wear: Warm layer for evenings indoors
+  - type: pairs_well
+    items:
+      - { id: fenghuang-ancient-town, note: "You sleep inside it" }
+      - { id: zhangjiajie-jijiehao-hostel, note: "The social hostel one stop back, in Zhangjiajie" }

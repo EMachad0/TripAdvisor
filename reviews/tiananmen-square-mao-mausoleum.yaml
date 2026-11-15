@@ -1,0 +1,24 @@
+# Independent review of tiananmen-square-mao-mausoleum. Written by `./atr review`; do not edit by hand.
+id: tiananmen-square-mao-mausoleum
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: e1b742e825ff977dcbc20f5c570dce689050a295eab2b6fa6ae1ccefd1da8ecb
+facts:
+  supported: 6
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[1].extra[2].detail
+    problem: "'26 Dec (Mao's birthday) has own hours' says more than the source does. The official notice only says hours on holidays and 'relevant commemorative days' are announced separately, and it does not name 26 Dec."
+    evidence: https://cpc.people.com.cn/GB/143527/143528/index.html — "国家法定节假日、有关纪念日开放时间另行通知"
+    fix: "Write '26 Dec (Mao's birthday) and 1 Jan: hours may change, check the notice', which matches hours.winter."
+resolved:
+  - field: book_ahead.notes
+    problem: The notes say flatly that you can 'try the desk for foreign visitors at its south-east corner' without a booking. The only source is a May 2025 forum reply written before the 2026 closure, and the official notice does not mention any foreigner desk or same-day entry. The tips block caveats this, but the booking card the traveler acts on does not.
+    evidence: "book_ahead.notes now reads 'Book the mausoleum online too; a walk-in desk for foreigners is a 2025 report, unconfirmed since the reopening.' This matches the forum reply dated 24/05/2025 (https://ruqintravel.com/community/china-travel-forum-3-beijing-travel-forum/how-to-book-visits-to-mao-memorial-hall/). The official notice lists only online channels: https://cpc.people.com.cn/GB/143527/143528/index.html — \"请提前1-6天登录毛主席纪念堂微信公众号、毛主席纪念堂预约微信小程序、人民网毛主席纪念堂专题网页进行预约\""
+rereview_of: 67da61be33a7e23e1eb8e25ba8e63a8d12aa1c5a5fd67fa3cb66718eca1f1103
+summary: "The earlier should is fixed: the booking card now presents online booking as the way in and flags the foreigner desk as an unconfirmed 2025 report. The new facts check out against their sources: the 21 Jul 2026 official banned list (banners, flags, printed matter), the Trip.com one-way route past Duanmen and the Wander in China list (lighters, controlled knives, drones). The only thing left is a nit: the 26 Dec hours note is worded more firmly than the official notice supports."
+model: claude-opus-5-5
+cost_usd: 0.424

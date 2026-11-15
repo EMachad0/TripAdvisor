@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: train-through-building
+  title: File:李子坝站轻轨穿楼 0023.png
+  author: David290
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E5%AD%90%E5%9D%9D%E7%AB%99%E8%BD%BB%E8%BD%A8%E7%A9%BF%E6%A5%BC_0023.png
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/ae/%E6%9D%8E%E5%AD%90%E5%9D%9D%E7%AB%99%E8%BD%BB%E8%BD%A8%E7%A9%BF%E6%A5%BC_0023.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A train going out from Liziba Station, Line 2
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: from-niujiaotuo
+  title: File:Liziba Station with 02031 (20191224152311).jpg
+  author: N509FZ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Liziba_Station_with_02031_(20191224152311).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7f/Liziba_Station_with_02031_%2820191224152311%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Taken from the northbound platform of CRT3 Niujiaotuo Station. Obviously, a flock of spectators were witnessing one of the symbols of Chongqing.
+  width: 7323
+  height: 4882
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: street-facade
+  title: File:Liziba Station 20180430 162756.jpg
+  author: Qa003qa003
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Liziba_Station_20180430_162756.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Liziba_Station_20180430_162756.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​李子坝站~
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: platform-level
+  title: File:Liziba Station 20180430 164458.jpg
+  author: Qa003qa003
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Liziba_Station_20180430_164458.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/06/Liziba_Station_20180430_164458.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​李子坝站~
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

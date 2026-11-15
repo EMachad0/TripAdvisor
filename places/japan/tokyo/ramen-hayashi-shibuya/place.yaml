@@ -1,0 +1,114 @@
+id: ramen-hayashi-shibuya
+name: "Ramen Hayashi"
+short_name: Hayashi
+name_local: らーめん はやし
+name_romanized: Rāmen Hayashi
+country: japan
+city: tokyo
+area: Shibuya · Dogenzaka
+category: food
+fame: hidden
+tags: [ramen, shoyu, lunch-only, cash-only]
+kind: Eat
+why: A 10-seat Dogenzaka counter that has served one shoyu ramen since 2003 — lunch only, gone when the soup runs out, ¥1,000 a bowl.
+cost:
+  local: 1000
+  currency: JPY
+  brl: 35.17
+  note: "Ramen ¥1,000 (Tabelog menu, updated Nov 2025); cash only"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30 min + the queue
+best_time: Line up before 11:30 opening
+
+book_ahead:
+  required: false
+
+hours:
+  summary: Mon, Tue, Thu, Fri, Sat 11:30–15:30, or until the soup sells out
+  closed: Wednesdays, Sundays and public holidays
+  winter: "Closed Wed, Sun and public holidays. Japan has no public holiday between Jan 20 and Feb 4, 2027, so in your window only Wednesdays and Sundays are out (Jan 20, 24, 27, 31 and Feb 3). No New Year dates were published when checked (Nov 2026); your dates are well after the New Year break."
+
+location:
+  address: 1F Social Dogenzaka, 1-14-9 Dogenzaka, Shibuya-ku, Tokyo
+  address_local: 東京都渋谷区道玄坂1-14-9 ソシアル道玄坂 1F
+  lat: 35.65733
+  lng: 139.69802
+  nearest_transit: Shibuya Sta. — Keio Inokashira West Exit 2 min, JR Hachiko Exit 6 min
+
+sources:
+  - url: https://tabelog.com/en/tokyo/A1303/A130301/13003367/
+    title: Hayashi — Tabelog (hours, closed days, cash only, 10 counter seats, Nov 2026 reviews)
+    checked: 2026-11-12
+  - url: https://tabelog.com/en/tokyo/A1303/A130301/13003367/dtlmenu/
+    title: Hayashi — Tabelog food menu (updated 2025-11-24)
+    checked: 2026-11-12
+  - url: https://www.magical-trip.com/media/top-8-recommended-ramen-shops-in-shibuya/
+    title: Top 8 Recommended Ramen Shops in Shibuya 2026 — Magical Trip (updated Dec 2025)
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours, closed days, cash-only and prices from Tabelog (menu updated Nov 2025; reviews dated Nov 2026 show it open). Magical Trip gives the same hours and closed days. How early it sells out varies by day and is not published; no numbered-ticket or reservation system exists (Tabelog: reservations unavailable)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: bowl
+    caption: A Hayashi bowl with chashu and egg (older photo from Commons)
+    hook: Ten stools, a short menu and a shoyu broth that Shibuya regulars have queued for since 2003.
+  - type: quick_facts
+    time_needed: 30 min + the queue
+    best_time: Before 11:30 on a weekday
+    extra:
+      - { label: Style, value: Shoyu, detail: "Pork-chicken bone and seafood soup, soy-sauce seasoned" }
+      - { label: Pay, value: Cash only, detail: "No cards, IC or QR (Tabelog)" }
+      - { label: Seats, value: 10 at the counter }
+  - type: highlights
+    items:
+      - title: One bowl, done right
+        text: "Ramen, ramen with egg, chashu ramen — and that's about it. No rice, no sides: you're here for the **soup**."
+      - title: The secret shio
+        text: "Not on the machine: buy a regular ramen ticket and say **\"shio\"** when you hand it over — same price, salt instead of soy."
+      - title: A local's Shibuya
+        text: Magical Trip says that in Shibuya, "ramen" often just means **Hayashi**. And it's only 6 minutes from the Scramble.
+      - title: Cheap for the quality
+        text: "**¥1,000 (R$35)** for a bowl from a 3.77-rated Tabelog shop with 3,600+ reviews."
+  - type: quote
+    variant: vibe
+    text: A line on the Dogenzaka pavement, a ticket machine inside the door, ten stools and one soup.
+  - type: gallery
+    images:
+      - { file: close-up, caption: "Soft-boiled egg and menma (older photo)" }
+      - { file: noren, caption: The white noren at the entrance, focus: center }
+  - type: menu
+    items:
+      - { name: Ramen, name_local: らーめん, price_local: 1000, price_brl: 35.17, note: Shoyu over a pork-chicken and seafood soup, tag: must-try }
+      - { name: Ramen with seasoned egg, name_local: 味玉らーめん, price_local: 1100, price_brl: 38.69 }
+      - { name: Chashu ramen (with egg), name_local: チャーシューらーめん, price_local: 1500, price_brl: 52.76, note: Extra slices of roast pork }
+      - { name: Shio ramen, name_local: 塩らーめん, price_local: 1000, price_brl: 35.17, note: "Off-menu: buy a ramen ticket, ask for shio" }
+    note: Prices incl. tax from the Tabelog menu (updated Nov 2025). English menu available.
+  - type: cost_breakdown
+    items:
+      - { label: Ramen, local: 1000, brl: 35.17 }
+      - { label: Upgrade to seasoned egg, local: 100, brl: 3.52, optional: true }
+  - type: map
+    note: On the Dogenzaka side of Shibuya, closest to the Keio Inokashira Line West Exit.
+  - type: tips
+    variant: insider
+    items:
+      - "Join the queue outside first; you buy your ticket from the machine **when you get inside** (Tabelog reviews)."
+      - "Bring **cash** — no cards, IC or QR codes."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It **closes when the soup runs out**; arriving at 15:00 is a gamble."
+      - "Closed **Wed, Sun and holidays**: in your window that means Jan 20, 24, 27, 31 and Feb 3."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: The queue stands on the open pavement; a short wait at lunch is fine in a coat.
+    wear: Coat and gloves for the line
+  - type: pairs_well
+    items:
+      - { id: shibuya-crossing-and-sky, note: The Scramble is 6 min east }
+      - { id: wise-owl-hostels-shibuya, note: Hostel in Shibuya }

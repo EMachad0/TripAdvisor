@@ -1,0 +1,72 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: shibuya-sky
+name: Shibuya Sky
+name_local: 渋谷スカイ
+country: japan
+city: tokyo
+area: Shibuya
+category: views
+tags:
+  - shibuya
+  - sunset
+  - observation-deck
+kind: See
+why: An open-air rooftop 230 m above the scramble crossing; sunset slots sell out two weeks ahead.
+cost:
+  local: 2500
+  currency: JPY
+  brl: 88.7
+fx:
+  rate: 0.0355
+  date: 2026-11-09
+  source: fixture rate
+time_needed: 2–3 h
+best_time: Weekday morning
+book_ahead:
+  required: true
+  lead_days: 14
+  lead_time: Fixture lead time
+  method: app
+  links:
+    - label: Example booking page
+      url: https://example.org/book/shibuya-sky
+hours:
+  summary: Daily 10:00–22:00
+location:
+  address: Fixture address, tokyo
+  lat: 35.66
+  lng: 139.7
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture source
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture source 2
+    checked: 2026-11-09
+confidence: low
+confidence_note: Game test fixture, not researched.
+last_updated: 2026-11-09
+blocks:
+  - type: hero
+    hook: The scramble crossing from 230 metres, wind in your hair.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Weekday morning
+  - type: highlights
+    items:
+      - title: Fixture highlight
+        text: Test text for **Shibuya Sky**. Not researched.
+      - title: Second highlight
+        text: Game fixture content, ignored by the real build.
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 10
+    conditions: Clear, crisp
+    note: Fixture weather note.
+    wear: Warm layers
+  - type: tips
+    variant: insider
+    items:
+      - "Fixture tip: go early."

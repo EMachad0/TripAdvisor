@@ -1,0 +1,179 @@
+id: hk-lny-raceday-sha-tin
+name: "Chinese New Year Raceday at Sha Tin"
+short_name: New Year Raceday
+name_local: 沙田新春賽馬日
+country: hong-kong
+city: hong-kong
+area: Sha Tin · New Territories
+category: shows
+fame: popular
+tags: [lunar-new-year, lunar-new-year-option, horse-racing, temple, lion-dance, wishing-tree, crowds, sports]
+kind: Do
+why: "Day 3 of New Year, Mon Feb 8: a Sha Tin race meeting with lion dances and 98,000 people (2026), free for visitors, after pinwheels at Che Kung Temple."
+
+when:
+  dates:
+    - { from: 2027-02-08, to: 2027-02-08 }
+  kind: only
+  label: "3rd day, Mon 8 Feb"
+  confirmed: true
+
+cost:
+  local: 0
+  currency: HKD
+  brl: 0
+  note: "HKJC lists free public-enclosure entry for visitors with a passport; the standard fare is HK$10 by Octopus"
+fx: { rate: 0.7219, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Half a day; a full day with the temple"
+best_time: "Mon Feb 8: temple in the morning, races after"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Sha Tin day meeting Mon Feb 8, 2027 (HKJC fixture). Gates open 2 h before the first race; 10:30 in 2025"
+  winter: "Feb 8 is the **3rd day of New Year** and a public holiday. The race meeting is on the HKJC fixture; its 2027 New Year programme isn't out. Day 3 is 'Chek Hau', Red Mouth Day, when people skip family visits and go to temples instead: Che Kung Temple was packed from opening in 2026, with one-way crowd control outside."
+
+location:
+  address: Sha Tin Racecourse, Tai Po Road, Sha Tin, New Territories
+  address_local: 新界沙田大埔公路 沙田馬場
+  lat: 22.4001
+  lng: 114.2042
+  nearest_transit: "Racecourse station (East Rail line, race days only)"
+
+sources:
+  - url: "https://racing.hkjc.com/en-us/local/information/fixture?calyear=2027&calmonth=02"
+    title: "Fixture, February 2027 (Hong Kong Jockey Club): Sha Tin day meeting on Mon Feb 8"
+    checked: 2026-11-14
+  - url: https://entertainment.hkjc.com/en-us/visit-us/sha-tin-racecourse
+    title: "Plan your visit to Sha Tin Racecourse (HKJC): HK$10 by Octopus, opening 2 h before race 1, Tourist Badge, 18+"
+    checked: 2026-11-14
+  - url: https://www.gov.hk/en/about/abouthk/holiday/2027.htm
+    title: "General holidays for 2027 (GovHK): Feb 6, 8 and 9"
+    checked: 2026-11-14
+  - url: https://www.discoverhongkong.com/eng/events/chinese-new-year.html
+    title: "Chinese New Year (Hong Kong Tourism Board): races on the third day, Lam Tsuen, Che Kung Temple"
+    checked: 2026-11-14
+  - url: https://news.rthk.hk/rthk/en/component/k2/1844330-20260219.htm
+    title: "Crowds try their luck at Che Kung Temple, horse racing (RTHK, 2026-02-19): 98,000 at Sha Tin, Red Mouth Day"
+    checked: 2026-11-14
+  - url: https://www.thestandard.com.hk/news/article/226338/Punters-crowd-Sha-Tin-Racecourse-for-Chinese-New-Year-Raceday-2025
+    title: "Punters crowd Sha Tin for Chinese New Year Raceday 2025 (The Standard, 2025-01-31): gates 10:30, lion dance, free entry for tourists"
+    checked: 2026-11-14
+  - url: https://www.chinadailyhk.com/hk/article/629164
+    title: "Year of the Horse Raceday (China Daily HK, 2026-02-19): lion dances, live music, third day of New Year"
+    checked: 2026-11-14
+  - url: https://news.tvb.com/en/1151938-DevoteesthrongCheKungTempleon3rddayofLunarNewYear
+    title: "Devotees throng Che Kung Temple on 3rd day of Lunar New Year (TVB News, 2026-02-19)"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Che_Kung_Temple
+    title: "Che Kung Temple (Wikipedia): Sha Tin temple, fortune wheel, between Tai Wai and Che Kung Temple stations"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Racecourse_station_(MTR)
+    title: "Racecourse station (Wikipedia): East Rail branch, race days only"
+    checked: 2026-11-14
+  - url: https://news.rthk.hk/rthk/en/component/k2/1842627-20260204.htm
+    title: "Lam Tsuen festival wish rides on higher turnout (RTHK, 2026-02-04): Feb 17 – Mar 3, placards HK$50"
+    checked: 2026-11-14
+  - url: https://thebeat.asia/hong-kong/the-list/events/hong-kong-well-wishing-festival-2026
+    title: "Hong Kong Well-wishing Festival 2026 (The Beat): Lam Tsuen Wishing Square, free, 9am–9pm"
+    checked: 2026-11-14
+  - url: https://www.info.gov.hk/gia/general/202602/16/P2026021600524.htm
+    title: "Traffic arrangements for the Well-wishing Festival 2026 (HK Police, 2026-02-16)"
+    checked: 2026-11-14
+  - url: "https://e-cgo.org.hk/travel/en/trip-detail?id=52"
+    title: "Lam Tsuen route (e-CGO): KMB 64K from Tai Po Market or Tai Wo, alight Fong Ma Po (Lam Tsuen Wishing Tree)"
+    checked: 2026-11-14
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Climatological normals 1991–2020 (Hong Kong Observatory): February"
+    checked: 2026-11-14
+confidence: medium
+confidence_note: "Confirmed for 2027: a Sha Tin day meeting on Mon Feb 8 (HKJC fixture) and the Feb 8 holiday. Not announced: the New Year programme and first-race time. Free visitor entry is on the HKJC page now, but offers can change. Lam Tsuen's 2027 festival dates are the 2026 pattern (day 1 to day 15)."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: parade-ring-cny-2012
+    caption: The parade ring packed on Chinese New Year Raceday, January 2012
+    hook: A lion dance before the first race, jockeys holding New Year couplets, and a full grandstand on a holiday Monday.
+  - type: quick_facts
+    time_needed: "Half a day; a full day with the temple"
+    best_time: "Mon Feb 8: temple in the morning, races after"
+    extra:
+      - label: 2027 meeting
+        value: Mon Feb 8, Sha Tin
+        detail: On the HKJC fixture; programme not out
+      - label: Crowd (2026)
+        value: "98,000+"
+        detail: Year of the Horse Raceday, day 3
+      - label: Age limit
+        value: 18+
+        detail: Bring your passport
+  - type: highlights
+    items:
+      - title: Racing's biggest party day
+        text: "The Tourism Board lists the day-3 races as one of the year's biggest events. In 2026 more than **98,000** people came; racegoers got free pinwheels and a set by singer Kelly Chen."
+      - title: Lions in the paddock
+        text: "In 2025 officials dotted the eyes of a lion dance before racing and jockeys held up New Year couplets. In 2026: lion dances, live music, photo spots."
+      - title: Che Kung's pinwheels
+        text: "Day 3 is **Red Mouth Day**, when you avoid visiting family and go to a temple instead. Che Kung Temple in Sha Tin was packed from opening in 2026; people spin its **fortune wheel** three times and buy pinwheels to turn their luck."
+      - title: Or the Lam Tsuen wishing trees
+        text: "The Well-wishing Festival in Tai Po ran from day 1 to day 15 in 2026: free entry, **HK$50** wishing placards to throw into the trees, and a 70-stall New Year market. It fits any day of your stay."
+  - type: prose
+    title: How a visitor gets in, and what's confirmed
+    dropcap: true
+    text: |-
+      **Getting in**: the HKJC lists **free public-enclosure entry** as a visitor privilege for anyone 18+ with a valid travel document, so bring your passport (tourists also got in free on New Year Raceday 2025). Everyone else taps an Octopus card for **HK$10**. For trackside and the members' halls, a **Tourist Badge** costs **HK$400** on major racedays (the HKJC lists Chinese New Year Raceday as one), including two HK$50 food and drink vouchers. No flip-flops; no shorts or singlets in the members' area.
+
+      **Confirmed for 2027**: a Sha Tin day meeting on **Monday Feb 8**, the 3rd day of New Year. **Not announced**: the New Year programme, first-race time and giveaways.
+
+      **The day**: Che Kung Temple sits between Tai Wai and Che Kung Temple stations. From Tai Wai it's East Rail to Racecourse station, which opens only on race days. Prefer the wishing trees? East Rail further north to Tai Po Market, then KMB bus **64K** to Fong Ma Po.
+  - type: gallery
+    images:
+      - file: racecourse-overview
+        caption: Sha Tin Racecourse and the Shing Mun River, 2009
+      - file: wishing-tree
+        caption: "The Lam Tsuen wishing trees, 2010"
+  - type: quote
+    variant: vibe
+    text: Pinwheels, lion-dance drums and a holiday crowd at the rail.
+  - type: cost_breakdown
+    items:
+      - label: Public enclosure entry, visitor with passport
+        local: 0
+        brl: 0
+        note: "Visitor privilege on the HKJC page; standard fare HK$10 by Octopus"
+      - label: Lam Tsuen wishing placard (2026 price)
+        local: 50
+        brl: 36.1
+        optional: true
+      - label: Tourist Badge, major raceday (incl. HK$100 F&B vouchers)
+        local: 400
+        brl: 288.76
+        optional: true
+  - type: map
+    note: "Racecourse station (East Rail) opens only on race days. Trains can come in on either platform, so follow the displays."
+  - type: tips
+    variant: insider
+    items:
+      - "In 2025 fans queued **two hours** before the 10:30 gate opening. Gates open 2 h before the first race."
+      - "Hit Che Kung Temple when it opens, then go racing. In 2026 the temple was still packed at midday, with one-way crowd control outside."
+      - "Lam Tsuen: the village road was pedestrianised 07:00–19:00 during the 2026 festival. Take bus 64K from Tai Po Market or Tai Wo (Exit A) to **Fong Ma Po (Lam Tsuen Wishing Tree)**."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Bring your **passport**: it's needed for the Tourist Badge and for any visitor offer."
+      - "In 2026 a pinwheel vendor said the road closure around Che Kung Temple hurt trade: expect closed roads, queues and fences, not a quiet temple."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: "Mild and humid; about 8 days with some rain in an average February"
+    note: "February averages 15.3–19.4 °C: comfortable for a day between a temple courtyard and the grandstand."
+    wear: Light jacket, closed shoes (no flip-flops at the racecourse)
+  - type: pairs_well
+    items:
+      - id: hk-lny-harbour-fireworks
+        note: "The night before (expected): fireworks over the harbour"
+      - id: ifc-mall-rooftop-garden
+        note: "For your last day, near the Airport Express (see its page)"

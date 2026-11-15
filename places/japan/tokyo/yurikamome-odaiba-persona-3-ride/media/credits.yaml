@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: on-the-bridge
+  title: File:Oncoming Yurikamome 48 on the Rainbow Bridge dllu.jpg
+  author: Daniel L. Lu (user:dllu)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Oncoming_Yurikamome_48_on_the_Rainbow_Bridge_dllu.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/35/Oncoming_Yurikamome_48_on_the_Rainbow_Bridge_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Yurikamome is a autonomous light rail train in Tokyo .
+  width: 7177
+  height: 4562
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

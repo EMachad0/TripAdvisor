@@ -1,0 +1,223 @@
+id: kunming-christmas
+name: "Christmas in Kunming: Green Lake gulls"
+short_name: Kunming Christmas
+name_local: 昆明 · 翠湖
+name_romanized: Kunming Cuihu
+country: china
+city: kunming
+area: Wuhua · Green Lake
+category: nature
+fame: popular
+tags: [christmas, christmas-option, gulls, lake, park, free, sunny-winter, overnight-train]
+kind: See
+why: "Christmas in the sun: 16 °C days, thousands of Siberian gulls on Green Lake, then a ¥215 sleeper on the 25th that reaches Chongqing at 08:03."
+when:
+  dates:
+    - { from: 2026-12-24, to: 2026-12-25 }
+  kind: best
+  label: "Christmas, 24–25 Dec"
+
+cost:
+  local: 215
+  currency: CNY
+  brl: 177.74
+  note: "Hard sleeper Kunming → Chongqing on the night of the 25th. The lake, the gulls and the streets are free"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Christmas Eve + Christmas Day"
+best_time: "Lake late morning; 19:03 sleeper out on the 25th"
+
+book_ahead:
+  required: recommended
+  lead_days: 15
+  lead_time: "Train tickets go on sale 15 days ahead: around Dec 10 for the 25th"
+  method: passport-registered
+  links:
+    - label: Trip.com trains (Kunming → Chongqing)
+      url: "https://www.trip.com/trains/china/route/kunming-to-chongqing/"
+      note: "English, foreign cards, passport details; sleeper berths on K986 and K692"
+    - label: Ctrip timetable (Chinese)
+      url: "https://trains.ctrip.com/trainbooking/kunming-chongqing/"
+      note: "Times and fares by date"
+  passport: true
+  notes: "Only the train needs booking; the park and the streets don't. On the timetable for Thu Nov 12, opened two days before, the sleeper berths on both overnight trains were already waitlist-only, so buy when sales open."
+
+hours:
+  summary: "Green Lake Park is free and open daily from early morning to late evening (guides give 06:00–23:30 or 07:00–23:00)"
+  winter: "The gulls are on the lake from November to March. Christmas isn't a holiday in mainland China, so parks, shops and trains run as normal. **No 2026 Christmas program has been announced**, and no report newer than 2020 describes Kunming's Christmas Eve. Older ones put the crowd around Nanping Street; in 2018 police in one district banned Christmas decorations in bars."
+
+location:
+  address: Green Lake Park, 67 Cuihu South Road, Wuhua District, Kunming
+  address_local: 昆明市五华区翠湖南路67号 翠湖公园
+  lat: 25.05149
+  lng: 102.70252
+  nearest_transit: "No metro at the gate: 1–1.5 km walk from Lines 2, 3 or 5; buses 1 and 101"
+
+sources:
+  - url: https://trains.ctrip.com/trainbooking/kunming-chongqing/
+    title: "Kunming–Chongqing trains on Ctrip (timetable for 2026-11-12): 22 trains; G2886 07:34 → 12:23 ¥330; K986 19:03 → 08:03, hard sleeper ¥215"
+    checked: 2026-11-10
+  - url: https://goasia.cc/en/china/kunming-to-chongqing
+    title: "Kunming to Chongqing (GoAsia, updated 2026-10-15): K986 and K692 overnight, flights 1 h 30 – 1 h 45, sales 15 days ahead, passport"
+    checked: 2026-11-10
+  - url: "https://www.trip.com/flights/showfarefirst?dcity=kmg&acity=ckg&ddate=2026-12-26&triptype=ow&class=y&quantity=1&locale=en-US&curr=CNY"
+    title: "Trip.com flight search KMG → CKG for Sat 2026-12-26 (searched 2026-11-10): Lucky Air 06:40 → 08:15 ¥452, Sichuan Airlines 06:55 → 08:30 ¥472"
+    checked: 2026-11-10
+  - url: https://regional.chinadaily.com.cn/kunming/2021-11/16/c_679896.htm
+    title: "Places to observe black-headed gulls in Kunming (China Daily, 2021-11-16): wintering since 1985, about 41,000 birds, Cuihu Lake Park"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Green_Lake_(Kunming)
+    title: "Green Lake, Kunming (Wikipedia): gulls from Siberia in winter, bread vendors, next to Yunnan University"
+    checked: 2026-11-10
+  - url: https://www.chinaxiantour.com/kunming-attractions/green-lake-park.html
+    title: "Green Lake Park (China Xian Tour, updated 2025-07-16): free, 06:00–23:30, 67 Cuihu South Road, no direct metro, gulls November to March"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/kunming/attraction/cuihu-park.htm
+    title: "Cuihu Park (China Highlights): free, 07:00–23:00, bus 1 or 101 to Yunnan University, 1–2 hours"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Kunming
+    title: "Kunming (Wikipedia): about 1,890 m; December normals 16.0 / 4.8 °C, 195 sunshine hours, 13.7 mm of rain"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/kunming/weather/december.htm
+    title: "Kunming weather in December (China Highlights): 3–15 °C, driest month, large day–night difference, what to wear"
+    checked: 2026-11-10
+  - url: https://regional.chinadaily.com.cn/kunming/2021-06/02/c_629374.htm
+    title: "Nanping Pedestrian Street (China Daily, 2021-06-02): 685 m, evening food market, Metro Line 2 to Dongfeng Square"
+    checked: 2026-11-10
+  - url: https://www.gokunming.com/en/blog/item/3390/seasons-greetings-from-the-kunming-psb
+    title: "Season's greetings from the Kunming PSB (GoKunming, Dec 2014): one-way streets around Jinbi and Nanping squares on Dec 24–25, spray-snow ban"
+    checked: 2026-11-10
+  - url: https://www.gokunming.com/en/blog/item/1987/gokunming-december-2010-holiday-preview
+    title: "December 2010 holiday preview (GoKunming): reader comment on spray snow around Nanping Jie and Jinma Biji Fang on Christmas Eve"
+    checked: 2026-11-10
+  - url: https://news4sanantonio.com/news/nation-world/santa-gets-pushed-out-as-chinas-leaders-emphasize-tradition-12-25-2018
+    title: "Santa gets pushed out as China's leaders emphasize tradition (AP, 2018-12-24): Panlong district police notice banning Christmas decorations"
+    checked: 2026-11-10
+  - url: https://gs.ctrip.com/html5/you/travels/2/3989631.html
+    title: "Ctrip travel note (2020-12-25): Nanping Street as the usual Christmas crowd spot, 2020 unusually quiet"
+    checked: 2026-11-10
+  - url: https://www.gokunming.com/en/listings/item/34742/wenlin-jie
+    title: "Wenlin Jie (GoKunming listing, updated 2023-07-07): bars and cafes on the slope up from Green Lake North Road"
+    checked: 2026-11-10
+  - url: https://gcatholic.org/churches/asia/3701.htm
+    title: "Former Cathedral of the Sacred Heart of Jesus, Kunming (GCatholic): 432 Beijing Road, rebuilt 2018, demolished 2021"
+    checked: 2026-11-10
+  - url: https://wanderinchina.com/destinations/kunming/transport/train-stations/
+    title: "Kunming train stations (Wander in China, 2026-07-30): K trains from Kunming Station, G trains from Kunming South, 35–45 min by Line 1"
+    checked: 2026-11-10
+  - url: https://wanderinchina.com/destinations/kunming/transport/metro/
+    title: "Kunming Metro guide (Wander in China, 2026-07-30): first trains about 06:20, last about 22:00–22:30, fares ¥2–7"
+    checked: 2026-11-10
+  - url: https://www.theworldofchinese.com/2024/12/christmas-celebrations-across-china-in-photos/
+    title: "Christmas celebrations across China (The World of Chinese, 2024-12-25): not a family holiday, malls decorate, apples on Christmas Eve"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Nothing newer than 2020 describes Kunming's Christmas Eve: 2026 decorations are unconfirmed and no program exists yet. Train times and fares are Ctrip's timetable for Nov 12; the flight fare is a Trip.com search on Nov 10 for Dec 26. Both can change. Park hours vary by guide. Wenlin Street bars rest on a 2023 listing. Kundu's bar block: status unknown. Trip.com pages opened with atr render only."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: green-lake-winter
+    caption: "Green Lake on a February midday: pedal boats, and gulls on the water"
+    hook: A blue-sky winter day, gulls snatching bread out of the air, and no need for a heavy jacket until dark.
+  - type: quick_facts
+    time_needed: "Christmas Eve + Christmas Day"
+    best_time: "Lake late morning; 19:03 sleeper out on the 25th"
+    extra:
+      - label: To Chongqing
+        value: "Overnight, 13 h"
+        detail: "K986 hard sleeper ¥215 (R$178), in at 08:03 on the 26th"
+      - label: By day
+        value: "About 16 °C, sunny"
+        detail: "Nights drop to about 5 °C"
+      - label: Christmas
+        value: Not a holiday
+        detail: "No 2026 program; decorations unconfirmed"
+  - type: highlights
+    items:
+      - title: Gulls from Siberia
+        text: "Black-headed gulls have wintered in Kunming every year since **1985**. About **41,000** were counted across the city in the winter of 2020–21, and Green Lake is the spot right in the city centre: vendors sell bread and the birds snap it up."
+      - title: Sun at 16 °C
+        text: "Kunming sits at about **1,890 m**. December averages **16 °C** by day and 5 °C at night, with about 195 hours of sunshine and almost no rain. It's one of the two driest months of the year."
+      - title: Christmas Eve, honestly
+        text: "The crowd has gathered around **Nanping Street**, a 685 m pedestrian street with an evening food market, and the **Jinma Biji arches**. But the reports are old (2010, 2014, 2020), and nothing recent confirms decorations."
+      - title: Sleep your way to Chongqing
+        text: "**K986** leaves Kunming Station at **19:03** on the 25th and reaches **Chongqing West at 08:03** on the 26th. That saves a hostel night and gives you all of Saturday before the drone show."
+  - type: prose
+    title: What Christmas is like here
+    dropcap: true
+    text: |-
+      Christmas in mainland China is a shopping-and-going-out night, not a family holiday. In Kunming even that is uncertain. Older accounts describe Christmas Eve around Nanping Street as a crush of people spraying each other with canned snow, with streets turned one-way from 19:00 to midnight. In **2018** police in Panlong district told bars and hotels to take down Christmas decorations. A travel note from 2020, a pandemic year, called the mood "unusually quiet". Nothing newer turned up.
+
+      So come for the daytime. Spend a sunny morning at **Green Lake** with the gulls, then walk up to **Wenlin Street**, the university street beside the lake, where bars and cafes line the slope. On the evening of the 24th walk down to Nanping Street and the arches and see what the city does this year.
+
+      There's no old church to anchor the night. The Catholic cathedral on Beijing Road, rebuilt in 2018, was **demolished in 2021**.
+  - type: gallery
+    images:
+      - file: green-lake-gulls
+        caption: Black-headed gulls wintering on Green Lake
+      - file: jinma-biji-arches
+        caption: The Jinma Biji arches, where the Christmas Eve crowd has gathered (an August evening)
+      - file: nanping-street
+        caption: "Nanping Street's pedestrian square, with the arches at the far end (an old photo)"
+  - type: quote
+    variant: vibe
+    text: Sun on your face, gulls overhead, and a night train waiting.
+  - type: book_ahead
+    steps:
+      - days_before: 15
+        text: "Sales open for **Dec 25**. Book a **hard sleeper on K986** (¥215) on Trip.com or 12306 with your passport. If it's gone, try **K692** (20:06 → 09:30, same fares)."
+      - days_before: 0
+        text: "The sleepers leave from **Kunming Station** (昆明站) in the city, not Kunming South. Arrive 45–60 minutes early and use the staffed lane: your passport is the ticket."
+    passport_note: "Book and board with the **same passport**."
+  - type: cost_breakdown
+    items:
+      - label: Green Lake, the gulls and the pedestrian streets
+        local: 0
+        brl: 0
+      - label: "K986 hard sleeper, Kunming → Chongqing West (Dec 25)"
+        local: 215
+        brl: 177.74
+      - label: Hard seat on the same train (13 hours sitting)
+        local: 124
+        brl: 102.51
+        optional: true
+      - label: "G train on the morning of the 26th, second class"
+        local: 343
+        brl: 283.56
+        note: "08:02 → 13:10; other morning trains ¥330–394"
+        optional: true
+      - label: "Flight on the 26th, Lucky Air 06:40 → 08:15"
+        local: 452
+        brl: 373.67
+        note: "Trip.com search on Nov 10; Dec 25 from ¥430"
+        optional: true
+    note: "The sleeper costs more than a day's budget, but it replaces a hostel night and is the cheapest way out with a bed. The two days in Kunming themselves cost almost nothing."
+  - type: map
+    zoom: 14
+    note: "The pin is **Green Lake Park**. Wenlin Street is just north of the lake, up the slope from Green Lake North Road. Nanping Street and the Jinma Biji arches are about 1.5 km south-east (Metro Line 2, Dongfeng Square)."
+  - type: tips
+    variant: insider
+    items:
+      - "**Getting to Chongqing on the 26th**: the easy way is a sleeper on the 25th. The Nov 12 timetable has **K986** 19:03 → 08:03 and **K692** 20:06 → 09:30, both to Chongqing West: hard sleeper **¥215 (R$178)**, soft sleeper ¥336."
+      - "Or a G train on the 26th from Kunming South: **G2872** 08:02 → 13:10 (¥343), **G2868** 09:30 → 14:40 (¥369), **G3474** 10:05 → 15:00 (¥369). The last one that arrives in the afternoon is **G3472**, 11:36 → 16:15 (¥394)."
+      - "Flying isn't cheaper. For Dec 26 Trip.com showed **¥452 (R$374)** on Lucky Air, 06:40 → 08:15, and ¥472 on Sichuan Airlines at 06:55. The flight takes about 1 h 35 min."
+      - "December timetables can differ from November's. 12306 opens sales **15 days ahead**, so check the real times when Dec 25 goes on sale."
+      - "Go to the lake on a clear late morning. Guides suggest a weekday morning or afternoon to avoid the crowd; Dec 24 and 25 are a Thursday and a Friday."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't expect a Christmas market or a program. Decorations in the centre aren't confirmed for 2026."
+      - "Old reports from Christmas Eve mention strangers spraying canned snow at each other around Nanping Street. Police banned unlicensed street vendors from selling it in 2014. Don't wear your best jacket."
+      - "The metro starts at about **06:20** and stops at about **22:00–22:30**. Kunming South is 35–45 minutes out on Line 1, so the 07:34 train and the 06:40 flight both mean a taxi before dawn."
+      - "Two stations: sleepers leave from **Kunming Station**, most G trains from **Kunming South**. Check the ticket."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 16
+    conditions: "Dry and mostly sunny; cold as soon as the sun goes down"
+    note: "Warmer and far sunnier than Chengdu or Xi'an at Christmas: the lake and the streets are comfortable all day. The difference between day and night is large."
+    wear: "Long sleeves and a coat by day; add gloves and a hat at night"
+  - type: pairs_well
+    items:
+      - id: chongqing-drone-light-show
+        note: "Arrive 08:03 on Sat Dec 26; the 20:30 drone show that night is likely, not confirmed"

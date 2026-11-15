@@ -1,0 +1,112 @@
+id: lumphini-park-lizards
+name: "Lumphini Park and its monitor lizards"
+short_name: Lumphini Park
+name_local: สวนลุมพินี
+name_romanized: Suan Lumphini
+country: thailand
+city: bangkok
+area: Pathum Wan · Silom
+category: nature
+fame: popular
+tags: [park, wildlife, free, monitor-lizard, lake]
+kind: See
+why: "Free park among skyscrapers where water monitors the size of your leg swim the lake and sun on the paths. Free entry, and pedal boats reported free in 2025."
+cost:
+  local: 0
+  currency: THB
+  brl: 0
+  note: "Free entry. Pedal boats were free as of Dec 2025; check at the boathouse"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Weekday afternoon, 15:00–17:30"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 04:30–21:00. Pedal boats 09:00–16:00 (free as of Dec 2025); adult cycling only 10:00–15:00"
+  winter: "A renovation was reported under way in late 2026 with no end date announced: the park stays open, but fencing, possibly around the main gate and statue, may still be up in January 2027. No winter closures listed; January is the dry, cool season. Free open-air aerobics are commonly reported around 17:00, but not guaranteed."
+
+location:
+  address: "Rama IV Rd, Lumphini, Pathum Wan, Bangkok 10330"
+  address_local: "สวนลุมพินี ถนนพระรามที่ 4 แขวงลุมพินี เขตปทุมวัน กรุงเทพฯ 10330"
+  lat: 13.7306
+  lng: 100.54154
+  nearest_transit: "Si Lom or Lumphini (MRT Blue Line), or Sala Daeng (BTS)"
+
+sources:
+  - url: https://www.visitthailandtoday.com/activities-tours/bangkok/lumphini-park
+    title: "Lumphini Park (Visit Thailand Today)"
+    checked: 2026-11-12
+  - url: https://theo-courant.com/en/lumpini-park-bangkok-best-tips/
+    title: "Lumpini Park Bangkok: History, Activities, Monitor Lizards & Practical Info (THéo COurant, 7 Dec 2025)"
+    checked: 2026-11-12
+  - url: https://portail-asie.com/en/lumphini-park-bangkok/
+    title: "Lumphini Park 2026: Renovations & Events (Portail Asie, updated 26 Oct 2026)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours and free entry agree across sources. Free boats (09:00–16:00), the cycling window and 17:00 aerobics are from THéo COurant (Dec 2025); Visit Thailand Today's reviews also mention free boats, but Portail Asie (Oct 2026) says boats are for rent and aerobics happen occasionally, mostly weekends. Renovation fencing from Portail Asie."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: monitor
+    hook: "Tai chi at dawn, skyscrapers on every side, and lizards the size of your leg."
+    caption: "An Asian water monitor in Lumphini Park"
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: Weekday, 15:00 onwards
+    extra:
+      - { label: Your slot, value: Weekday afternoon, detail: "Boats till 16:00, maybe aerobics at 17:00, home by 19:00" }
+      - { label: Lizards, value: Around the lake, detail: "Wild animals: watch, don't touch or feed" }
+  - type: highlights
+    items:
+      - title: The lizards
+        text: "Asian water monitors roam the paths and slide into the lake as if they own it. They're shy and used to people, but they're wild: keep your distance."
+      - title: Free swan boats
+        text: "Swan-shaped pedal boats and canoes on the lake, daily 09:00–16:00, were **free** as of Dec 2025 (one 2026 guide says rental). Ask at the boathouse."
+      - title: Free aerobics, if you're lucky
+        text: "Sound systems often go up around **17:00** and dozens of people dance along; anyone can join. Not guaranteed: one 2026 guide says classes are occasional, mostly weekends."
+      - title: A 1925 park
+        text: "Created under King Rama VI on crown land, with his statue at the main gate, a 1925 library and a Chinese-style clock tower."
+  - type: prose
+    title: Central Park with dinosaurs
+    dropcap: true
+    text: |-
+      Lumphini is Bangkok's big central park: a lake, shaded paths and open lawns, with towers rising on every side. Joggers and tai chi groups take it over at the 04:30 opening. Later in the day it belongs to musicians, stray cats and the monitor lizards, which are the reason most visitors remember it.
+
+      For a work-week traveler it fits the empty hours well. It's free, it's on the MRT, and you can come after lunch, take a pedal boat out before 16:00, watch the lizards along the water, and maybe catch the 17:00 aerobics before heading back to start your shift.
+  - type: gallery
+    images:
+      - { file: by-swan-boats, caption: "A large monitor resting by the swan boats" }
+      - { file: sculpture, caption: "A monitor-lizard sculpture in the park" }
+  - type: cost_breakdown
+    items:
+      - { label: Entry, local: 0, brl: 0 }
+      - { label: "Pedal boat or canoe (free as of Dec 2025)", local: 0, brl: 0 }
+  - type: map
+    note: "The main gate with the **King Rama VI statue** is on Rama IV Road, a short walk from MRT **Si Lom**; renovation was under way in late 2026 with no end date, so fencing may still close parts of it in January 2027. MRT **Lumphini** and BTS **Sala Daeng** are also close to gates."
+  - type: tips
+    variant: insider
+    items:
+      - "**Your slot: weekday afternoon.** Come after lunch, take a boat before 16:00, stay for the aerobics if they're on, and you're home well before 19:00."
+      - "A greenway path links Lumphini to **Benjakitti Park** if you want a longer walk."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't corner, chase or feed the lizards. They're wild animals and can bite."
+      - "Smoking, swimming in the lake and bringing pets are all banned. Adult bikes are only allowed 10:00–15:00."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; the cool season
+    note: "Midday is hot in the open; the tree-shaded paths and the late afternoon are the comfortable parts."
+    wear: Light clothes, water
+  - type: pairs_well
+    items:
+      - { id: mahanakhon-skywalk, note: "Also in Silom: city views after the park" }
+      - { id: bang-krachao-bike-day, note: "The bigger green escape, same MRT line" }

@@ -1,0 +1,90 @@
+id: gyeongju
+country: korea
+name: "Gyeongju"
+name_local: 경주
+region: North Gyeongsang (Gyeongbuk)
+scope: city
+cities: [gyeongju]
+why: "The Silla kingdom's capital for a millennium, 2 h from Seoul: grassy royal tombs in the middle of town, Bulguksa and Seokguram (free since 2023), and a palace pond lit until 22:00."
+best_for: [culture, views, day-trip]
+highlights: ["Bulguksa Temple", "Seokguram Grotto", "Daereungwon royal tombs", "Donggung Palace and Wolji Pond at night", "Hwangnidan-gil", "Cheomseongdae observatory"]
+days_suggested: { min: 1, max: 2 }
+cost_level: medium
+fame: hidden
+lat: 35.839
+lng: 129.212
+getting_there: "SRT from Suseo 2 h 05, ₩42,600; KTX from Seoul Station about 2 h 15, ₩49,300, to Gyeongju Station (ex-Singyeongju), 15 min by bus from town. Express bus 3 h 30–4 h, ₩24,000–28,000."
+getting_around: "Downtown (tombs, Cheomseongdae, Wolji Pond, Hwangnidan-gil) is walkable or ₩7,000/day by bike. Buses ₩1,450 by card; 10 and 11 reach Bulguksa in about 45 min, bus 12 goes up to Seokguram hourly."
+winter_note: "January runs about −5 °C at night to 6 °C by day, with ~32 mm of rain or snow: dry and mostly clear. Bulguksa and Seokguram: last entry 17:00 from November to January, every day including weekends, so do the mountain temples first. The tombs park stays open until 22:00 all year; Wolji Pond is lit until 22:00."
+image: bulguksa-gate
+sources:
+  - url: https://en.wikivoyage.org/wiki/Gyeongju
+    title: "Gyeongju (Wikivoyage): KTX, buses 10/11/12, fares, bikes, Bulguksa, Seokguram, tombs, Wolji, Hwangnidan-gil, climate"
+    checked: 2026-11-12
+  - url: https://www.bulguksa.or.kr/bbs/content.php?co_id=application
+    title: "Bulguksa official site: free since 4 May 2023; Nov–Jan 09:00, last entry 17:00, same on weekdays and weekends"
+    checked: 2026-11-12
+  - url: https://seokguram.org/bbs/content.php?co_id=price
+    title: "Seokguram official site: free since 4 May 2023; Nov–Jan 09:00, last entry 17:00, same on weekdays and weekends"
+    checked: 2026-11-12
+  - url: https://www.koreatodo.com/gyeongju-day-trip
+    title: "Guide to Gyeongju from Seoul/Busan (Korea To Do): KTX ₩49,300, SRT ₩42,600, station rename, Bulguksa–Seokguram bus"
+    checked: 2026-11-12
+  - url: https://mileasia.com/korea/seoul-to-gyeongju/
+    title: "Seoul to Gyeongju 2026 (MileAsia, 18 May 2026): KTX vs bus, taxi from the station, Wolji Pond lit until 22:00"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020 for comparison (high 2.1 °C)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Korail and SRT fare pages would not load; fares are from Korea To Do and MileAsia (KTX ₩43,800–50,200). Bus fares disagree, so the MileAsia range is used. Free entry (since 4 May 2023) and the Nov–Jan hours (09:00, last entry 17:00, same every day) are from the official Bulguksa and Seokguram sites. Wolji Pond and tombs-park hours are from MileAsia and Wikivoyage."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Royal burial mounds between the shops, a thousand-year-old temple on the hill, and a palace pond lit at night."
+    caption: "The stone stairways and gate of Bulguksa"
+    focus: center
+  - type: highlights
+    items:
+      - title: Bulguksa and Seokguram, for free
+        text: "Korea's first **UNESCO** site: the 8th-century temple with the Dabotap and Seokgatap pagodas, and a granite Buddha in a grotto up the mountain facing the East Sea. Entry to both has been free since **May 2023**."
+      - title: Tombs in the middle of town
+        text: "**Daereungwon** is a park of grassy Silla burial mounds downtown; you can walk inside one, the Heavenly Horse Tomb. Open 09:00–22:00 all year."
+      - title: The palace pond at night
+        text: "**Donggung Palace and Wolji Pond**, built in the 670s, is lit until 22:00, with the pavilions reflected in the water. This is the reason to stay the night."
+      - title: Hwangnidan-gil
+        text: "Old hanok houses turned into cafés, bakeries and shops next to the tombs. Try **Hwangnam-ppang** (red-bean pastry, invented here in 1939) or the viral cheese-filled **10-won bread** (₩3,500)."
+  - type: prose
+    title: Day trip or a night?
+    text: |-
+      Gyeongju is Korea's open-air history museum: modern streets with no high-rises, interrupted by huge green burial mounds. Wikivoyage notes that most visitors are Korean or from elsewhere in East Asia; few Westerners make it here.
+
+      A day trip from Seoul is possible but tight. The train is about two hours, the KTX station is 15 minutes out of town, and Bulguksa is another 45 minutes by bus, with Seokguram above that on a bus that runs once an hour. **Better: one night.** Do Bulguksa and Seokguram in the morning, the tombs and Hwangnidan-gil in the afternoon, and Wolji Pond after dark.
+
+      **Money.** A return SRT ticket is about ₩85,200 (R$354.09), more than two days of your R$140 budget, but the big sights are free or cheap once you're there. The express bus costs a little over half the SRT fare (about ₩15,000–18,000 less each way) and takes almost twice as long.
+
+      **Time.** It needs one of your free days (Sat–Sun 16–17 Jan), the same ones Hwacheon wants. Since your job is remote, you could also sleep a night near Hwangnidan-gil and work the shift there.
+  - type: gallery
+    images:
+      - { file: wolji-pond-night, caption: "Donggung Palace reflected in Wolji Pond at blue hour" }
+      - { file: daereungwon-tombs, caption: "Grassy Silla tombs in Daereungwon, downtown" }
+      - { file: hwangnidan-gil, caption: "Hwangnidan-gil on a cold, clear day" }
+  - type: tips
+    variant: insider
+    items:
+      - "Book trains to **Gyeongju Station**: Singyeongju was renamed in December 2023, and the old downtown Gyeongju station closed in 2021."
+      - "The **SRT from Suseo** (Gangnam side) is ₩6,700 cheaper and a little faster than the KTX from Seoul Station."
+      - "Missed bus 12 up to Seokguram? A taxi from Bulguksa takes about 20 min and costs about ₩12,000."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Bus stops have no timetables and waits can be long; plan Bulguksa around the bus, or share a taxi."
+      - "Restaurant owners by Bulguksa's bus stop tout hard; prices are standard, so pick freely."
+      - "No photos inside Seokguram: the Buddha sits behind glass and photography is forbidden."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 6
+    conditions: Cold, dry, mostly clear
+    note: "A few degrees milder than Seoul by day (6 °C vs 2.1 °C), with clear skies for the mountain views. The temples and tombs are all outdoors, and Seokguram is higher up the mountain."
+    wear: Padded jacket, gloves, shoes for stone steps and a hill

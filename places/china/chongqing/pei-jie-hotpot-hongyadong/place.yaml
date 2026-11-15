@@ -1,0 +1,151 @@
+id: pei-jie-hotpot-hongyadong
+name: "Pei Jie Old Hotpot: Chongqing hotpot, solo"
+short_name: Pei Jie Old Hotpot
+name_local: 珮姐老火锅（洪崖洞店）
+name_romanized: Pèijiě Lǎo Huǒguō
+country: china
+city: chongqing
+area: Yuzhong · Hongyadong
+category: food
+fame: popular
+tags: [hotpot, beef-tallow, spicy, late-night, queue, solo-dining]
+kind: Eat
+why: "The real Chongqing hotpot: a nine-grid pot of red beef tallow on the 11th floor of Hongyadong, open till 02:00. About ¥100 alone if you order tight."
+cost:
+  local: 102
+  currency: CNY
+  brl: 84.32
+  note: "Solo estimate from Cities Insider's 2026 price ranges (base, tripe, sauce, ice jelly). Guides put the group average at ¥100–120 a head"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h (plus the queue)
+best_time: "Late evening, well after the dinner rush"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Open until 02:00 (Cities Insider); opening time not found"
+  winter: "No seasonal hours or New Year closures found. Hongyadong is the city's busiest night spot, so expect the longest queues around New Year's Eve."
+
+location:
+  address: "11th Floor, Hongya Cave (Hongyadong), Cangbai Road, Jiefangbei, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区沧白路洪崖洞11楼 珮姐老火锅
+  lat: 29.56507
+  lng: 106.57534
+  approximate: true
+  nearest_transit: "Hongyadong, Cangbai Road side (11th floor)"
+
+sources:
+  - url: https://citiesinsider.com/country/china/chongqing/chongqing-hot-pot-guide/en
+    title: "Chongqing Hot Pot Guide (Cities Insider, Jan 2026 prices): price tiers, menu prices, Pei Jie Hongyadong open till 02:00, remote queuing"
+    checked: 2026-11-12
+  - url: https://www.chinaxiantour.com/chongqing-travel-guide/top-hot-pot-restaurants
+    title: "Top Chongqing hot pot restaurants (China Xian Tour, updated 2026-02-13): Pei Jie Hongyadong, ~¥110–120, dishes, queue"
+    checked: 2026-11-12
+  - url: https://www.chinahighlights.com/chongqing/top-hotpot-restaurants.htm
+    title: "5 Hot Pot Restaurants in Chongqing (China Highlights): Pei Jie Hongyadong address, ~¥100, phone, some English"
+    checked: 2026-11-12
+  - url: https://chinafortravelers.com/guides/chongqing-vs-chengdu-hot-pot/
+    title: "Chongqing vs Chengdu Hot Pot (China for Travelers, updated 2026-08-14): single pot default, split pot, sauce, drinks"
+    checked: 2026-11-12
+  - url: https://www.wanderinchina.com/en/chinese-food/chongqing-hotpot/
+    title: "Chongqing Hot Pot Guide 2026 (Wander in China, Mar 2026): community shops vs chains, Peijie's beef-tallow base, first order"
+    checked: 2026-11-12
+  - url: https://www.chinahighlights.com/chongqing/weather/december.htm
+    title: "Chongqing weather in December (China Highlights): 8–12 °C"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Address, ~¥100–120 average and queues agree across three guides; 02:00 closing from Cities Insider only; opening time not found. ¥102 solo total is my sum of the low end of Cities Insider's citywide ranges, not Pei Jie's menu. No source confirms half portions or solo seating; solo advice is my inference from the per-pot base fee. Pin is the Hongyadong complex."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: nine-grid-pot
+    caption: "A nine-grid pot in Chongqing (not at Pei Jie; no free photo of the restaurant)"
+    hook: Beef tallow, dried chilies and Sichuan pepper boiling in a grid, eleven floors up a cliffside of lights.
+  - type: quick_facts
+    time_needed: 1.5–2 h + queue
+    best_time: "Late, after the dinner rush"
+    extra:
+      - { label: Say, value: 微辣 (wei la), detail: "Mild. Chongqing mild is hotter than most places' extra hot" }
+      - { label: Solo, value: "One pot, few dishes", detail: "The base is charged per pot; keep the dish list short" }
+  - type: highlights
+    items:
+      - title: The original hotpot
+        text: "Chongqing hotpot began as a dockworkers' meal on the river: cheap beef tallow, chili and peppercorn, and offal. China for Travelers dates it to the 1920s–30s."
+      - title: Why Pei Jie
+        text: "Over 20 years old, and the classic pick of Cities Insider, China Xian Tour and Wander in China: deep beef-tallow aroma, **fresh tripe**, gongcai meatballs and premium beef slices."
+      - title: Open till 02:00
+        text: "Cities Insider lists the Hongyadong branch as open until **2:00 AM**, so eat after the Hongyadong lights instead of queueing at peak dinner time."
+      - title: The nine-grid pot
+        text: "The grid isn't for flavours, it's for heat: the centre boils hardest for quick dips, the corners barely simmer for duck blood and anything that stews."
+  - type: prose
+    title: How to do hotpot alone
+    dropcap: true
+    text: |-
+      Hotpot is built for a table of friends, and the honest problem for a solo diner is the **base fee**: Cities Insider lists it separately at ¥38–68 per pot, so alone you pay all of it. Keep the rest small. One plate of **fresh tripe** (mao du, ¥48–88), a ¥6–12 sauce and an ice jelly to finish comes to about ¥100. Chongqing's default is a single red pot (China for Travelers); a split *yuanyang* pot with a mild half costs no extra there, but China Xian Tour's tip for Pei Jie is half tomato, half red.
+
+      The better plan is to bring people: ask around your hostel, since three or four people make Pei Jie's ¥110–120 a head go much further. If you're alone anyway, use the late hours: it stays open until 02:00, so there is no need to queue at peak dinner time.
+  - type: quote
+    variant: vibe
+    text: Seven dips up, eight down, and a bottle of peanut milk for the burn.
+  - type: cost_breakdown
+    items:
+      - { label: "Soup base, one pot (low end of ¥38–68)", local: 38, brl: 31.41, estimate: true }
+      - { label: "Fresh tripe, one plate (low end of ¥48–88)", local: 48, brl: 39.68, estimate: true }
+      - { label: "Dipping-sauce station (¥6–12)", local: 6, brl: 4.96, estimate: true }
+      - { label: "Ice jelly to finish (¥10–18)", local: 10, brl: 8.27, estimate: true }
+  - type: menu
+    title: A solo order
+    items:
+      - name: Fresh tripe
+        name_local: 毛肚
+        note: "Seven dips up, eight down, ~15 seconds, and it stays crisp. Citywide ¥48–88"
+        tag: must-try
+      - name: Gongcai meatballs
+        name_local: 贡菜丸子
+        note: "One of Pei Jie's signatures (China Xian Tour); price not found"
+        tag: signature
+      - name: Duck intestines
+        name_local: 鸭肠
+        note: "Part of the classic \"big three\" with tripe and duck blood (Cities Insider)"
+      - name: Duck blood
+        name_local: 鸭血
+        note: Leave it in a corner grid to simmer
+      - name: Ice jelly
+        name_local: 冰粉
+        note: "The standard way to cool down; ¥10–18 citywide"
+        tag: cheap
+      - name: Weiyi peanut milk
+        name_local: 唯怡花生奶
+        note: "The classic chili antidote (China for Travelers); water makes it worse"
+        tag: drink
+    note: "Pei Jie's own prices weren't online; ranges are Cities Insider's Jan 2026 citywide figures."
+  - type: map
+    note: "The address is the **11th floor** of Hongyadong on the Cangbai Road side. Show the driver 洪崖洞11楼 珮姐老火锅."
+  - type: tips
+    variant: insider
+    items:
+      - "Use **Dazhong Dianping's remote queue** (排号) before you walk over. Cities Insider warns that turning up at Pei Jie at 19:00 without a number often means no table."
+      - "Sauce the Chongqing way: **sesame oil, garlic, coriander**. The oil coats your tongue and takes the edge off."
+      - "Order **wei la** or a split pot. China Xian Tour suggests half tomato, half spicy for a first time."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't leave tripe or intestines in the pot: they go rubbery in a minute."
+      - "Don't fight the heat with ice water. Soy milk, peanut milk or sour plum juice work; water doesn't."
+      - "Want it cheaper? Cities Insider puts back-alley community hotpot at ¥60–100 a head, and China for Travelers points to the alley shops of **Bayi Haochi Jie** near Jiefangbei."
+  - type: weather
+    temp_low_c: 8
+    temp_high_c: 12
+    conditions: Cloudy, damp, often smoggy
+    note: "Indoors and steaming hot, but the queue is outside on Hongyadong's terraces: dress for a damp evening."
+    wear: Warm layers you can peel off at the table
+  - type: pairs_well
+    items:
+      - { id: hongyadong-qiansimen-night-walk, note: "Same building: lights first, hotpot late" }
+      - { id: huashi-wanza-mian, note: "Noodles for breakfast, hotpot at night" }
+      - { id: only-cafe-and-backpacker, note: "Find a hotpot crew in the common room" }
+      - { id: desti-youth-park-hostel-chongqing, note: "Another place to find hotpot company" }
+      - { id: yangtze-river-cableway-night, note: "Another Chongqing night plan" }

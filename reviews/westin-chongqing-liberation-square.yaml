@@ -1,0 +1,22 @@
+# Independent review of westin-chongqing-liberation-square. Written by `./atr review`; do not edit by hand.
+id: westin-chongqing-liberation-square
+type: place
+reviewed: 2026-11-15
+verdict: pass
+content_hash: f510ece5de215d40828844ea047840ed5b4ea6c58975239a3b5ce243df695569
+facts:
+  supported: 3
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].items[2]
+    problem: "'Cheapest of the top tier' compares the Westin's ¥1,250 with Ascott at ¥1,269. That is Ascott's official flexible Studio Deluxe rate. Google Hotels lists Ascott for 27–28 Dec at ¥1,018–1,028 with free cancellation, which is cheaper than the Westin. The same applies to the prose range 'top international five-stars ran ¥1,250–2,030' and to the Ascott tip (blocks[9].items[6])."
+    evidence: "The highlight is now 'Cheapest top-tier room sold with a view'. It, the prose range and the Ascott tip now give ¥1,018–1,028 and say the studio has no view named. Re-rendered the listed Westin Google Hotels search for 27–28 Dec: \"CN¥1,018 Ascott Raffles City Chongqing … Also a 5-star hotel, for CN¥229 less\". The listed Ascott Google Hotels search shows \"CN¥1,028\"."
+  - field: location.nearest_transit
+    problem: The new detail 'Xiaoshizi (Line 1) exit 5A, about 5 min on foot' is credited to Trip.com, but the Trip.com page now redirects to a sign-in wall, so I could not check it. No other listed source names exit 5A or a 5-minute walk. The map note, which did not change, still gives '320 m' for the same station.
+    evidence: nearest_transit is back to 'Xiaoshizi (Line 1) 320 m; Jiaochangkou (Lines 1/2) 730 m (Trip.com)'. That matches the map note's 320 m, which is the fallback the earlier fix asked for. The unverifiable exit 5A / 5 min claim is gone.
+rereview_of: b5f25cc7d9dba25a662f066370e9d56f29f30be517c39d3e5412ab5283e57444
+summary: Both earlier findings are resolved. The Ascott comparison now uses the ¥1,018–1,028 that Google Hotels shows, and the highlight is reframed around the skyline view. The transit line is back to the 320 m figure the map note already uses. The changed lines add no new unsupported fact that matters, and the unchanged content raises no blocker.
+model: claude-opus-5-5
+cost_usd: 0.343

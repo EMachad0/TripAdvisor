@@ -1,0 +1,16 @@
+# Independent review of dongdaemun-design-plaza. Written by `./atr review`; do not edit by hand.
+id: dongdaemun-design-plaza
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: fcd7569f951afcb9d9267c0c35a484f979baccef35d393549b03b8d618a1e9dd
+facts:
+  supported: 2
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 04876710e0def0c5f489c4cc067e740f99eb419ea047aa92cdb8e02ee6a90a1f
+summary: The edit is correct. The Mom-mom listing gives "26/12/17 ~ 27/01/01" for Seoul Light DDP 2026 Winter, and config/trip.yaml has Korea starting 2027-01-10. So "it ends before you reach Korea on 10 January" is supported and matches hours.winter. There were no earlier findings to close, and the unchanged content has no new blockers.
+model: claude-opus-5-5
+cost_usd: 0.183

@@ -1,0 +1,29 @@
+# FIXTURE — platform test data, not curated content. Ignored by the real build.
+fixture: true
+id: dali
+country: china
+name: "Dali"
+name_local: 大理
+region: Yunnan, Southwest China
+scope: city
+cities: [dali]
+why: Fixture card. A lakeside old town under 4,000 m peaks where winter days are sunny and mild.
+best_for: [nature, odd-local]
+highlights: ["Erhai Lake", "Cangshan"]
+days_suggested: { min: 3, max: 4 }
+cost_level: low
+getting_there: Fly to Kunming, then 2 h by train.
+fame: hidden
+lat: 25.6065
+lng: 100.2676
+winter_note: Sunny, 3 to 16 °C. Fixture text.
+image: snow-sculpture
+sources:
+  - url: https://en.wikipedia.org/wiki/Dali_City
+    title: Dali — Wikipedia
+    checked: 2026-11-09
+  - url: https://en.wikivoyage.org/wiki/Dali_City
+    title: Dali — Wikivoyage
+    checked: 2026-11-09
+confidence: low
+last_updated: 2026-11-09

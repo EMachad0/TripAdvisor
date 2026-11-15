@@ -1,0 +1,36 @@
+# Independent review of gunkanjima-hashima-island. Written by `./atr review`; do not edit by hand.
+id: gunkanjima-hashima-island
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 2ddfbb4d0fc8bcfb69107ab85252fd511a97beb9e5dfa956e3189a5d57891124
+facts:
+  supported: 11
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[4].text
+    problem: The Osaka–Nagasaki fares (¥19,900 / ¥15,850) come only from tabiris, an undated third-party site, which itself says prices are regular-season and can vary.
+    evidence: https://shinkansen.tabiris.com/osaka_nagasaki.html — prices shown are 「通常期」; the page has no date
+    fix: Add JR West's e5489 or JR Kyushu's fare page as a second source, or say the fares are approximate.
+resolved:
+  - field: book_ahead.links[1]
+    problem: The page offers Gunkanjima Concierge as the second operator, with its fares, times and Digital Museum check-in. Concierge does not sail at all from 4 Jan to 5 Feb 2027 because its boat is in dock, and that covers every one of the traveler's Japan days (20 Jan–4 Feb). Its booking calendar shows 休 (no sailing) for every slot from 4 Jan to 5 Feb.
+    evidence: "Concierge removed from booking links, cost_breakdown, map note and the check-in step. hours.closed, the notes, the prose and the pitfalls now say it does not sail 4 Jan – 5 Feb 2027. Source: https://www.gunkanjima-concierge.com/cgi/web/?c=news-2&pk=706 — 「船舶「ジュピター」…ドック入り（定期検査）のため、運休」, 2027年1月4日（月）〜2月5日（金）. The notice prints the end year as 2026, an obvious typo, since the start date and weekdays are 2027."
+  - field: hours.winter
+    problem: The landing rates (about 58% in Dec, 70% in Jan, 46% in Feb) are estimates read off a chart. The chart pages (gunkan-jima.net/graph-ja/, /graph-en/) return no data when fetched, so I could not confirm the numbers, and the page shows them as facts in quick_facts and in the prose.
+    evidence: The figures are now worded as 'Read roughly off Yamasa's own chart… about half to two-thirds', and the chart (https://www.gunkan-jima.net/graph-ja/) is linked in the prose and listed in sources. The fetch still returns only the page title, but the page no longer presents the numbers as exact.
+  - field: book_ahead.lead_days
+    problem: The button says 'Book 14 days ahead', but the page's own timeline says 15 days, and Yamasa's free online cancellation ends 15 days before sailing. Booking at 14 days means paying a 10% cancellation fee and cancelling only by phone. The source also never says how many days ahead the early fares (早割20 ¥3,800 … 早割5 ¥4,500) need.
+    evidence: lead_days is now 20, and the timeline step is 20 days before. The step and confidence_note say Yamasa does not state the early-fare day counts. https://order.gunkan-jima.net/yamasa — 「乗船日の15日前まで行えます」; https://www.gunkan-jima.net/ lists 早割5–20 with no day rule in the text.
+  - field: book_ahead.links[0].note
+    problem: "'pay at the counter on the day (cash or card)': Yamasa's English FAQ says cards are not accepted, while the Japanese FAQ lists VISA/Master/AMEX/JCB on site. The sources disagree on a payment fact the traveler acts on."
+    evidence: The booking note now says 'Bring cash', and the day-0 step says 'Bring ¥5,350 in cash' and names both FAQs. https://www.gunkan-jima.net/en/ — "Credit card is not available. Please pay in cash."; the JA FAQ — 「ご利用いただけますが、現地精算のみ」 VISA/Master/AMEX/JCB.
+  - field: must_do
+    problem: The traveler asked for 'Japanese ghost towns if not too out of way', and the Japan route is Tokyo–Kyoto–Osaka. Nagasaki is a long detour, and the page never weighs that detour against the 15 Japan days or mentions the closer alternative already on the list.
+    evidence: A new paragraph, 'Is it too far out of the way?', gives about 4.5 h each way with two changes, ¥19,900 reserved or ¥15,850 Super Hayatoku, about R$1,100–1,400 return, three of the 15 days, the landing risk, and Tomogashima as the fallback, which has its own page at places/japan/wakayama/tomogashima-fort-ruins. https://shinkansen.tabiris.com/osaka_nagasaki.html — 「乗り換え時間を含めて4時間30分程度」, 「2度の乗り換え」, 指定席（さくら+かもめ）19,900円, スーパー早特きっぷ 15,850円 「14日前までに購入」.
+rereview_of: 2403feae279431dccecb62378574556719a95f315f0027d66868732620236ce4
+summary: "All five earlier findings are fixed on the page and backed by the listed sources. Concierge is out for the trip dates, the landing rates are hedged and the chart is linked, the lead time is 20 days, payment is cash, and the detour cost is now spelled out. The new facts match Yamasa's site, the Concierge notice and tabiris. The only gap left is a nit: the rail fares rest on one undated third-party source."
+model: claude-opus-5-5
+cost_usd: 0.497

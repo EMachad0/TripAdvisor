@@ -1,0 +1,24 @@
+# Independent review of nara-park-deer. Written by `./atr review`; do not edit by hand.
+id: nara-park-deer
+type: place
+reviewed: 2026-11-14
+verdict: fix
+content_hash: 0412053e923916604ad41c51fc35443c1f332970e1c501bd9f7d370c307d292e
+facts:
+  supported: 13
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[4].text
+    problem: The new 'cheapest way in' line gives JR Namba → JR Nara as ¥580, about an hour door to door, and says it comes from Jorudan. None of the listed sources is that search. The three Jorudan URLs in sources cover Osaka-Namba → Kintetsu-Nara, Kyoto → Kintetsu-Nara and JR Osaka → JR Nara. I ran the search myself and it confirms the figure.
+    evidence: No listed source supports it. https://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%EF%BC%AA%EF%BC%B2%E9%9B%A3%E6%B3%A2&eki2=%E5%A5%88%E8%89%AF&Dym=202701&Ddd=22&Dhh=9&Dmn1=0&Dmn2=0&Cway=0&S=%E6%A4%9C%E7%B4%A2 — "09:07発 → 09:48着 41分 乗換 0回 580 円", 大和路線快速
+    fix: Add the JR難波 → 奈良 Jorudan search to sources. Say the ride is 41 min and the walk from JR Nara is about 20 min, so 'about an hour' is no longer an unexplained figure.
+resolved:
+  - field: blocks[6].items[5]
+    problem: The ¥2,000 early-bird Yamayaki ticket is only sold until 15 Jan 2027, 23:59, and the traveler reaches Japan on 20 Jan. Neither the cost line nor the tip gives that deadline. The 7-Eleven route (¥165 fee) needs a shop in Japan, so buying early-bird from Korea means a web order with a ¥330/ticket system fee plus other fees. Bought after 15 Jan, the ticket is ¥2,500 advance or ¥3,000 cash on the day. The paper ticket must also be picked up at 甍 (Iraka), about a 30-min uphill walk from the paid area.
+    evidence: https://yamayaki.pref.nara.lg.jp/ticket/ says "早割 2,000円 … 2027年1月15日（金）23:59まで", "前売 2,500円 … 2027年1月16日（土）〜 2027年1月22日（金）", "当日券 3,000円（現金のみ）" and "前売完売時は当日券の販売なし". It lists the 7-Eleven fee as "発券手数料（165円/枚）のみ" and the web fees as "システム利用料330円/枚、発券手数料165円/枚、コンビニ決済手数料330円/決済". It names 甍 Iraka for the exchange, open 14:30–17:30 on 23 Jan, then "徒歩約30分（登り坂）". blocks[9].items[2] now states all of this, and cost_breakdown now uses the ¥2,500 advance price.
+rereview_of: 2e0dc014c9ce8c8f1d974a725baba919a6c64c7155bd471ae560812a0e9b4b6e
+summary: "The Yamayaki ticket finding is fixed: the cutoff, the fees, the later prices, the Iraka pickup and the no-refund rule all match the official ticket page, and the 10:00 deer-calling time and the natural-monument line are supported. One should remains: the new ¥580 JR Namba fare is correct, but the Jorudan search behind it is missing from sources."
+model: claude-opus-5-5
+cost_usd: 0.927

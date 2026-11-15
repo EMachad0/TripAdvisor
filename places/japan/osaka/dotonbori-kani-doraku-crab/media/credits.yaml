@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: giant-crab
+  title: File:Giant Crab in Dotonbori, Osaka.jpg
+  author: Ethan Doyle White
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Giant_Crab_in_Dotonbori,_Osaka.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/db/Giant_Crab_in_Dotonbori%2C_Osaka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A giant animatronic crab on a street in Dotonbori, Osaka.
+  width: 4896
+  height: 3672
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: crab-sign-2020
+  title: File:Crab sign on Kani Doraku Dotombori honten on 21st October 2020.jpg
+  author: Tokumeigakarinoaoshima
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Crab_sign_on_Kani_Doraku_Dotombori_honten_on_21st_October_2020.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Crab_sign_on_Kani_Doraku_Dotombori_honten_on_21st_October_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 2020年10月21日時点のかに道楽道頓堀本店の蟹の看板を撮影。
+  width: 2560
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

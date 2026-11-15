@@ -1,0 +1,126 @@
+id: chatuchak-weekend-market
+name: "Chatuchak Weekend Market"
+short_name: Chatuchak
+name_local: ตลาดนัดจตุจักร
+name_romanized: Talat Nat Chatuchak
+country: thailand
+city: bangkok
+area: Chatuchak · Kamphaeng Phet
+category: shopping
+fame: iconic
+tags: [market, flea-market, weekend-only, free, street-food]
+kind: Shop
+why: "15,000 stalls in 27 numbered sections, open in full only on Saturdays and Sundays. Arrive at 09:00 and leave before the midday heat."
+cost:
+  local: 0
+  currency: THB
+  brl: 0
+  note: "Free to enter. Budget only for what you buy and eat; bargaining is expected"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h
+best_time: Sat or Sun at 09:00, out before midday
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Full market Sat–Sun 09:00–18:00. Wed–Thu 07:00–18:00 plants only; Fri from 18:00 wholesale only"
+  closed: "Mon–Tue; Wed–Fri only partial sections"
+  winter: "Your weekend days in Thailand are Sat Jan 2, Sun Jan 3, Sat Jan 9 and Sun Jan 10 (your flight day). Sat Jan 9, 2027 should be Thai Children's Day (second Saturday of January), when families crowd attractions, so Sun Jan 3 is the calmer pick. No New Year closure was found, but none is confirmed either."
+
+location:
+  address: "587 Kamphaeng Phet 2 Rd, Chatuchak, Bangkok 10900"
+  address_local: "ตลาดนัดจตุจักร ถนนกำแพงเพชร 2 แขวงจตุจักร เขตจตุจักร กรุงเทพฯ 10900"
+  lat: 13.80027
+  lng: 100.55112
+  nearest_transit: "Kamphaeng Phet (MRT Blue Line), 4 min walk; or Chatuchak Park MRT / Mo Chit BTS"
+
+sources:
+  - url: https://www.visitthailandtoday.com/markets-shopping/bangkok/chatuchak-weekend-market
+    title: "Chatuchak Weekend Market: Hours, Days & How to Get There (Visit Thailand Today, updated Oct 2026)"
+    checked: 2026-11-12
+  - url: https://www.chatuchakmarket.org/opening-times/
+    title: "Chatuchak Market Opening Times (chatuchakmarket.org)"
+    checked: 2026-11-12
+  - url: https://thailandmagazine.com/bangkok/see-do/chatuchak-weekend-market/
+    title: "Chatuchak Weekend Market: The World's Largest Outdoor Market (Thailand Magazine)"
+    checked: 2026-11-12
+  - url: https://www.trvlogue.com/en/bangkok-chatuchak-market-guide
+    title: "Bangkok's Chatuchak Market 2026: Hours, Map & Getting There (TRVLOGUE, updated Oct 2026)"
+    checked: 2026-11-12
+  - url: https://www.thaizer.com/national-childrens-day/
+    title: "National Children's Day (Thaizer)"
+    checked: 2026-11-12
+  - url: https://www.thaipbs.or.th/verify/en/content/13302
+    title: "Thai PBS Verify: MRT Blue Line fares ฿17–44 from 3 July 2026 (Royal Gazette, confirmed by MRTA)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours agree across four sources, but none is from the market's management. Chatuchakmarket.org is a fan/tour site, not the operator. The section map and the ฿160 paella come from Thailand Magazine (undated). Thai Children's Day on Jan 9, 2027 follows the second-Saturday rule; the 2027 date is not announced yet. No source mentions New Year closures either way."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: roofs
+    hook: "A tin-roofed city of 27 sections around a clock tower: clothes, antiques, plants, pets and grilled skewers."
+    caption: "Chatuchak's roofs, with the clock tower in the middle"
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: Sat or Sun, 09:00 sharp
+    extra:
+      - { label: Your slot, value: Weekend day, detail: "Sun Jan 3 is best; Sat Jan 9 is Children's Day" }
+      - { label: Payment, value: Cash in small notes, detail: Bargaining is expected; keep it friendly }
+      - { label: Meeting point, value: The clock tower, detail: In the middle of the market }
+  - type: highlights
+    items:
+      - title: Too big to finish
+        text: "More than **15,000 stalls** on about 35 hectares, and some 200,000 visitors every weekend. Here since 1982, after starting at Sanam Luang in 1942."
+      - title: Sections, not chaos
+        text: "27 numbered sections: antiques and art in 1, 7 and 26, handicrafts in 8–11, books in 1 and 27, food in 2–4 and 23–27. There's a map near the entrance."
+      - title: Plants, and air-con next door
+        text: "Sections 3–4 are **Bangkok's largest flower market**, orchids to bonsai. When the heat wins, **JJ Mall** next door has air-con, home goods, fabrics and a food court."
+      - title: Street food as you go
+        text: "Grilled skewers, fresh fruit and soft-serve between the stalls. A big pan of paella at Viva 8 costs about **฿160**."
+  - type: prose
+    title: How to do it on a budget
+    dropcap: true
+    text: |-
+      Chatuchak is free to enter, so the only cost is what you carry out. It's a good place to buy the things a backpacker needs anyway: elephant pants, a rattan bag, small gifts to take home. Haggling is normal.
+
+      It's also tiring. The lanes are covered with corrugated roofs, and by noon the heat under them is draining. Come at opening, do three hours, eat, and go. On Wednesday and Thursday only the plant section opens, and on Friday night only wholesalers trade, a much smaller market than people expect. On a weekday afternoon, go to Or Tor Kor across the road instead.
+  - type: gallery
+    images:
+      - { file: alley, caption: "The road along the market's edge on a weekend" }
+      - { file: stalls, caption: Stalls packed under the roofs }
+      - { file: clock-tower, caption: "The clock tower, the easiest meeting point", focus: top }
+  - type: cost_breakdown
+    items:
+      - { label: Entry, local: 0, brl: 0 }
+      - { label: "MRT there and back (฿17–44 a ride)", local: 60, brl: 9.89, estimate: true, optional: true }
+      - { label: Paella at Viva 8, local: 160, brl: 26.38, optional: true }
+  - type: map
+    note: "Take the MRT Blue Line to **Kamphaeng Phet** for the western sections, or **Chatuchak Park** / BTS **Mo Chit** for the southern corner. Skip the taxi."
+  - type: tips
+    variant: insider
+    items:
+      - "**Your slot: weekend day.** Sun Jan 3 is the easy pick. On Sat Jan 9 (expected Children's Day) more families will be out across the city."
+      - "Pair it with **Or Tor Kor** across the road for lunch, and **Jodd Fairs** on the same MRT line in the evening."
+      - "Lost? Head for the **clock tower** in the centre; it's visible from most lanes."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't come Monday–Friday daytime expecting the full market: only plants trade Wed–Thu, and Friday night is wholesale."
+      - "Noon under the tin roofs is the hardest part of the day. Shop early, then go somewhere air-conditioned."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; the cool season, but hot at midday
+    note: "Most lanes are covered but not air-conditioned, so midday is stuffy. JJ Mall next door is the escape."
+    wear: Light clothes and shoes you can walk miles in; carry water
+  - type: pairs_well
+    items:
+      - { id: or-tor-kor-market, note: "Across the road: lunch in its food court" }
+      - { id: jodd-fairs-rama-9, note: "Same MRT line, for the evening" }

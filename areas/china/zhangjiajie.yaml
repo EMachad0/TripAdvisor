@@ -1,0 +1,143 @@
+id: zhangjiajie
+country: china
+name: "Zhangjiajie"
+name_local: 张家界
+region: Hunan · central China
+scope: city
+cities: [zhangjiajie]
+why: "The 'Avatar' sandstone pillars of Wulingyuan and Tianmen Mountain's hole in the sky, 2h20 by train from Chongqing. December is a gamble: fog can hide it all, snow is rare before the 31st, and both tickets are pricey."
+best_for: [nature, views]
+highlights: ["Avatar pillars at Yuanjiajie", "Tianzi Mountain panorama", "Bailong cliff lift", "Tianmen cave and 999 steps", "Grand Canyon glass bridge", "Qixing via ferrata sky ladder"]
+days_suggested: { min: 2, max: 4 }
+cost_level: high
+fame: popular
+lat: 29.117
+lng: 110.479
+getting_there: "Shanghai Hongqiao to Zhangjiajie West: 3 direct G-trains a day, 7h15–9h11, ¥786–826 in 2nd class. On to Chongqing East: from 2h21, 13 departures a day, about ¥191–261."
+getting_around: "Coach from Zhangjiajie West to Wulingyuan ¥13, 30–70 min. City bus station to Wulingyuan ¥12, about 40 min. Park eco-buses are in the ticket. Taxi from city hotels to the Tianmen station ¥15–30."
+winter_note: "City normals (219 m): Dec 4.9–12.2 °C, 8.6 wet days, only 23% of possible sunshine; the plateaus run 4–8 °C colder. Fog is frequent and can sit until 10–11 am. Snow is rare before late December: the first fall came on Dec 31 in both 2024 and 2025. Ice can shut lifts and glass walkways. Tianmen's city cableway is closed for rebuilding since 13 Oct 2026 (Line C only)."
+image: tianzi-panorama
+sources:
+  - url: https://en.wikipedia.org/wiki/Zhangjiajie
+    title: Zhangjiajie — Wikipedia (coordinates, CMA climate normals 1991–2020, stations, airport, districts)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/zhangjiajie-national-park/
+    title: "Zhangjiajie National Park guide — China for Travelers (updated 2026-09-04; base, days, prices, booking)"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/tools/rail-map/shanghai-to-zhangjiajie/
+    title: "Shanghai to Zhangjiajie by rail — China for Travelers (updated 2026-08-13; July 2026 fares)"
+    checked: 2026-11-10
+  - url: https://goasia.cc/en/china/shanghai-to-zhangjiajie
+    title: "Shanghai to Zhangjiajie — GoAsia (updated 2026-10-29; 12306 timetable of 16 Oct 2026, flights)"
+    checked: 2026-11-10
+  - url: https://www.trip.com/trains/china/route/zhangjiajie-to-chongqing/
+    title: Zhangjiajie to Chongqing train timetable — Trip.com (13 daily departures; read 2026-11-10)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/chongqing-to-zhangjiajie/
+    title: "Chongqing to Zhangjiajie by train — China for Travelers (updated 2026-07-18; fares, station transfers)"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/tools/rail-map/zhangjiajie-to-chengdu/
+    title: "Chengdu–Zhangjiajie rail page — China for Travelers (updated 2026-08-13; 7 direct trains, fares)"
+    checked: 2026-11-10
+  - url: https://goasia.cc/en/china/xian-to-zhangjiajie
+    title: "Xi'an to Zhangjiajie — GoAsia (updated 2026-10-29; G3763, fares, flights)"
+    checked: 2026-11-10
+  - url: https://m.voc.com.cn/rmt/article/18128145.html
+    title: "Tianmen Mountain notice: only Line C from 13 Oct 2026 — Hunan Daily / Xinhunan (2026-10-10, in Chinese)"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/cityguides/hunan/zhangjiajie/weather-december.htm
+    title: Zhangjiajie weather in December — TravelChinaGuide (updated 2026-06-08; daylight, fog, closures)
+    checked: 2026-11-10
+  - url: https://travelchinawith.me/china-destinations/zhangjiajie/snow-in-zhangjiajie/
+    title: Snow in Zhangjiajie — Travel China With Me (updated 2026-05-20; snow season, fog hours, closures)
+    checked: 2026-11-10
+  - url: https://www.hunantoday.cn/news/xhn/202601/31263524.html
+    title: Zhangjiajie National Forest Park welcomes its first snow — China Daily via Hunan Today (2026-01-01)
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/destinations/zhangjiajie/weather/
+    title: Zhangjiajie weather 2026 — Wander in China (2026-08-05; plateau vs city temperatures)
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Zhangjiajie
+    title: Zhangjiajie — Wikivoyage (city buses, Tourism Lines A and B, food prices, taxi warning)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/zhangjiajie-glass-bridge/
+    title: "Zhangjiajie Glass Bridge 2026 guide — China for Travelers (Grand Canyon, Cili County, separate ticket)"
+    checked: 2026-11-11
+  - url: https://chinadailyglobal.com/a/202606/04/WS6a1fd692a310d6866eb4c3ed.html
+    title: "Adventurers scramble to experience sky ladder in Hunan — China Daily (2026-06-04; Qixing via ferrata)"
+    checked: 2026-11-11
+  - url: https://sg.trip.com/guide/attraction/zhangjiajie-national-forest-park.html
+    title: "Zhangjiajie National Forest Park: tickets, itineraries and tips — Trip.com (2026-04-21)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Fares are guide samples (Jul–Oct 2026), not December quotes. The ¥191–261 Chongqing fare, the Chengdu figures and Xi'an's G3763 are listed for the opposite direction only. Shanghai flight fares found in USD only. Snow timing rests on two winters. The 2+1 night split is my reading of the guides. voc.com.cn, hunantoday.cn and trip.com opened in a web fetch, not from this machine."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    hook: A forest of stone towers and a cave you climb 999 steps to reach, if the cloud lets you see them.
+    caption: Tianzi Mountain, Wulingyuan, on a misty day
+  - type: highlights
+    title: What justifies the detour
+    items:
+      - title: The Avatar pillars
+        text: "At **Yuanjiajie**, cliff-edge paths look across at free-standing sandstone towers. One of them, the Southern Sky Column, was renamed Avatar Hallelujah Mountain in January 2010."
+      - title: Tianzi Mountain
+        text: "A wide panorama over the pillar forest. A local guide ranks it the most reliable winter viewpoint because it sits above the cloud line more often than the others."
+      - title: A 326 m lift on a cliff face
+        text: "The **Bailong Elevator** (2002) climbs the cliff in under two minutes for **¥65** (R$54). The stairs beside it are free: about 2,000 steps, 1.5–2 hours."
+      - title: Golden Whip Stream
+        text: "A flat **7.5 km** walk along the valley floor between the towers, 2.5–3 hours end to end. The same guide calls it the underrated winter pick."
+      - title: Tianmen Mountain
+        text: "A **131.5 m** natural arch near the top of a 1,518 m mountain, with 999 steps up to it and glass walkways on the cliff. It has its own ticket (**¥288**, R$238) and its own card below."
+  - type: prose
+    title: What a few days here feel like
+    dropcap: true
+    text: |-
+      Zhangjiajie is two separate mountain days. **Wulingyuan** is the pillar forest: you take a lift, a cable car or a long staircase up to a plateau, walk between viewpoints, and come down into a stream valley. **Tianmen Mountain** stands over the city itself, about 30 minutes by road from the park, and is a 5–7 hour trip up to cliff paths and a cave.
+
+      Guides agree on **two days for the park**; one calls a single day "a rushed dash". Tianmen takes most of a third day. In December a fourth day is insurance, because the views depend on cloud and the park ticket is valid for four days.
+
+      **Where to sleep.** Wulingyuan town is about five minutes from the park's east gate and is the base the guides recommend for the park. Zhangjiajie city is about 30 minutes from the park, and it is where Tianmen Mountain, the bus station and the airport are. A workable split: arrive, go straight to Wulingyuan for two nights, then one night in the city for Tianmen and the train out.
+
+      December is the quietest season, so there are no queues to speak of. What you pay for that is light: daylight runs from about 07:15 to 17:45, and the sun shows for less than a quarter of it.
+  - type: prose
+    title: Getting in and out
+    text: |-
+      Fast trains use **Zhangjiajie West** (张家界西站), about 26 km from Wulingyuan. There is no station at the park.
+
+      - **From Shanghai:** three direct G-trains a day. G219 leaves Hongqiao at 07:04 and arrives 14:19 (7h15). The others leave Shanghai South at 12:12 (8h34) and Hongqiao at 12:44 (9h11). Second class **¥786–826** (R$650–683). An overnight K-train from Songjiang takes 19h24 to the old Zhangjiajie station. Flights to Hehua airport take 2h10–2h25; the guide lists them at US$112–406.
+      - **On to Chongqing:** 13 departures a day. The 07:30 G2452 reaches **Chongqing East** at 09:51 (2h21). The same trains continue to Chongqing West in about 3h20–3h28. Second class about **¥191–261** (R$158–216).
+      - **Chengdu East:** 3h58–5h28, seven direct trains a day, **¥398–416** (R$329–344). The fastest stops at Chongqing East.
+      - **Xi'an North:** one direct train, G3763, 9h33, **¥683** (R$565). Flights take about 1h25–1h30.
+
+      From Zhangjiajie West, the coach to Wulingyuan costs **¥13** (R$11) and takes 30–70 minutes; the last one leaves around 19:00–19:20. A taxi or DiDi is about ¥55–80. To the city centre a taxi is about ¥15–35, or bus 6 for ¥1–2 in about 50 minutes.
+  - type: gallery
+    images:
+      - { file: tianzi-snow, caption: "A snowy viewpoint at Tianzi Mountain, winter 2026: the lucky version" }
+      - { file: tianzi-cable-car, caption: "Tianzi Mountain and its cable car on a clear day with bare trees, 2026" }
+      - { file: tianmen-cave-haze, caption: "Tianmen cave through haze" }
+      - { file: city-from-tianmen, caption: "Zhangjiajie city and the 99-bend road from Tianmen's summit" }
+  - type: quote
+    variant: vibe
+    text: Stone towers coming and going in the cloud, frost on the railings, and almost nobody else on the path.
+  - type: tips
+    variant: insider
+    items:
+      - "Keep the order loose. Do the park on the first clear morning, and move Tianmen to whichever day the forecast looks best: its ticket is tied to one date."
+      - "A guide puts the clearest winter window at **10:00–14:00**, after the morning fog lifts."
+      - "Book both tickets on **Trip.com** with your passport number. The official WeChat mini-program (张家界一机游) often fails to open for foreigners."
+      - "Eat in town. Wikivoyage lists noodle shops in the city at ¥10–20 and warns that food inside the scenic areas is heavily overpriced."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Touts at Zhangjiajie West say the official coach has stopped and push cheap charters or tours that end at shops. The coach leaves from the bus depot to the right of the exit."
+      - "Tianmen Mountain's city cableway is **not running** in December 2026. Older guides and photos still show it as the main way up."
+      - "The big **glass bridge** is in the Grand Canyon, and the viral iron **sky ladder** is a via ferrata on Qixing Mountain: two separate sites with their own tickets and cards, not part of Tianmen."
+      - "Airport taxis sometimes refuse the meter (Wikivoyage: the fare to the city should be ¥20–40)."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 12
+    conditions: Cold, damp and often foggy; little sun; snow rare before late December
+    note: "City figures: Dec 4.9–12.2 °C, Jan 2.9–9.5 °C, with 1.7 snowy days in December and 5 in January. The viewpoints sit around 1,000 m and run 4–8 °C colder, below freezing after sunset. For 9–22 December expect cold rain or fog more often than snow: one local guide says early December has 'little scenic value' on such days. A clear day after rain or snow is the prize."
+    wear: Down jacket, thermal base layer, hat and gloves, grippy waterproof shoes, a poncho

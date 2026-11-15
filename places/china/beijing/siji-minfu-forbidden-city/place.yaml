@@ -1,0 +1,138 @@
+id: siji-minfu-forbidden-city
+name: "Siji Minfu: Peking Duck by the Forbidden City"
+short_name: Siji Minfu
+name_local: 四季民福烤鸭店（故宫店）
+name_romanized: Sìjì Mínfú Kǎoyā Diàn
+country: china
+city: beijing
+area: Dongcheng · Nanchizi
+category: food
+fame: popular
+tags: [peking-duck, roast-duck, queue, beijing-cuisine, forbidden-city]
+kind: Eat
+why: "Peking duck a half bird at a time (¥159, enough for one), at the Siji Minfu branch on Nanchizi Street, by the Forbidden City's east side."
+
+cost:
+  local: 159
+  currency: CNY
+  brl: 131.45
+  note: "Half duck at Siji Minfu's Dengshikou branch, Aug 2026 review; Forbidden City branch price not seen. Visit Beijing: ¥150–220/person"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1–1.5 h at the table, plus the queue"
+best_time: "Weekday, away from the lunch and dinner peaks"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Thu 10:30–21:30, Fri–Sun 10:30–22:30 (Visit Beijing, Feb 2026). Trip.com lists 10:30–21:30"
+  winter: "No December closures found. Visit Beijing's Feb 2026 list gives the hours above and keeps the late Fri–Sun closing over Spring Festival. Long queues were reported for the October 2025 Golden Week; nothing found on mid-December queues."
+
+location:
+  address: "11 Nanchizi Street, Dongcheng District, Beijing"
+  address_local: 北京市东城区南池子大街11号
+  lat: 39.91326
+  lng: 116.39659
+  nearest_transit: "Tiananmen East (Line 1), then a short walk east to Nanchizi Street"
+
+sources:
+  - url: https://www.visitbeijing.com.cn/article/4QDnB2yQB8M
+    title: "值得一尝！北京春节必吃的20家美食 — Visit Beijing (official, 2026-02-03): Siji Minfu Gugong branch hours and address"
+    checked: 2026-11-11
+  - url: https://www.visitbeijing.com.cn/article/4OMQ7YiwJJJ
+    title: "土著推荐！来北京必吃的6家正宗烤鸭店 — Visit Beijing (2025-09-17): ¥150–220 per person, Donghuamen corner-tower view, usually a queue"
+    checked: 2026-11-11
+  - url: https://finance.ifeng.com/c/8nHhmBBweJ6
+    title: "长假催热餐饮业：四季民福排号数百桌 — Times Weekly via ifeng (2025-10-08): Gugong branch online queue closed, in-store numbers, 165 small tables waiting"
+    checked: 2026-11-11
+  - url: https://www.trvlogue.com/en/siji-minfu-beijing-peking-duck
+    title: "Siji Minfu Beijing Peking Duck Review 2026 — Trvlogue (Aug 2026): solo diner, half duck ¥159, queue via WeChat on arrival"
+    checked: 2026-11-11
+  - url: "https://www.trip.com/travel-guide/foods/Beijing-1-restaurant/Siji%20Minfu%20Roast%20Duck%20(Gugong)-25079814"
+    title: "四季民福烤鸭店(故宫店) on Trip.com (listed as PEKING CHAMBER): 10:30–21:30, 11 Nanchizi St, English menu, Visa/UnionPay"
+    checked: 2026-11-11
+  - url: "https://www.openstreetmap.org/?mlat=39.91326&mlon=116.39659#map=18/39.91326/116.39659"
+    title: "四季民福烤鸭店, 11 Nanchizi Street — OpenStreetMap (pin)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Beijing — Wikipedia (climate table, December normals)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Half-duck ¥159 is from a 2026 review of the Dengshikou branch; same price here is assumed. Online queue was closed here in Golden Week 2025; no source on mid-December queues or whether the paper ticket needs a Chinese phone. Visit Beijing pages time out in atr links but open in atr render; Trip.com and Trvlogue block the checker and opened in atr render on 11 Nov."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: roast-duck
+    caption: "Peking duck at a Siji Minfu branch (the photographer doesn't say which one)"
+    hook: "Lacquered skin, thin pancakes, and the palace walls a short walk up the street."
+  - type: quick_facts
+    time_needed: "1–1.5 h, plus the queue"
+    best_time: "Weekday, off-peak"
+    extra:
+      - { label: Solo order, value: Half duck ¥159, detail: "Enough for one, per a solo 2026 reviewer" }
+      - { label: Queue, value: Take a number, detail: "Paper ticket in the shop when online queuing is off" }
+      - { label: English menu, value: "Yes, per Trip.com", detail: "Visa and UnionPay accepted there too" }
+  - type: highlights
+    items:
+      - title: Half a duck works solo
+        text: "A solo reviewer in Aug 2026 ordered a **half duck for ¥159** and couldn't finish it. You don't need a group for the classic Beijing meal."
+      - title: Next to the palace
+        text: "Nanchizi Street runs along the Forbidden City's east side. Visit Beijing says you can see the corner tower by Donghuamen, the palace's east gate."
+      - title: Modern, not touristy-old
+        text: "Visit Beijing calls the room modern Chinese, clean and bright. Trip.com lists an English menu and card payment."
+      - title: Bring the rest of Beijing
+        text: "Order **zhajiang noodles** (炸酱面) on the side; a Trip.com reviewer calls them the main dish to pair with the duck."
+  - type: prose
+    title: Why this branch, and the queue
+    text: |-
+      Siji Minfu is the Peking duck chain locals and visitors queue for. The Gugong branch is the one beside the Forbidden City, so it fits the palace day. Visit Beijing calls it good value, puts the spend at **¥150–220 per person**, and says there is usually a queue.
+
+      The queue can be serious. In Golden Week 2025, Times Weekly reported that this branch had **closed online queuing**, so people took numbers inside the shop. At 12:40 on 7 October, 165 small tables (1–2 people) were waiting, and one visitor queued for three hours. That was China's busiest holiday; mid-December should be calmer, but I found no report from that time of year. On a normal day a 2026 reviewer at another branch took a queue number by WeChat on arrival and went shopping until the alert came.
+  - type: gallery
+    images:
+      - { file: duck-condiments, caption: "The sides: pancakes, scallion, cucumber and sauce" }
+      - { file: zhajiang-noodles, caption: "Siji Minfu's zhajiang noodles" }
+  - type: cost_breakdown
+    items:
+      - { label: "Half Peking duck (半只烤鸭)", local: 159, brl: 131.45 }
+  - type: menu
+    items:
+      - name: Peking roast duck, half
+        name_local: 烤鸭（半只）
+        price_local: 159
+        price_brl: 131.45
+        note: "Trvlogue, Aug 2026, Dengshikou branch. Comes with pancakes and condiments"
+        tag: must-try
+      - name: Zhajiang noodles
+        name_local: 炸酱面
+        note: "Beijing's noodle dish; price not found"
+        tag: signature
+      - name: Crispy honey shrimp
+        name_local: 蜜汁酥皮虾
+        note: "On Trip.com's popular-dishes list; price not found"
+    note: "Ask for **半只** (half). Trip.com lists an English menu at this branch."
+  - type: map
+    note: "From Tiananmen East (Line 1), walk east along Chang'an Avenue to Nanchizi Street and turn north. The restaurant is at No. 11."
+  - type: tips
+    variant: insider
+    items:
+      - "Palace day plan (mine): enter the palace in the morning (tickets must be checked by 12:00), climb Jingshan, then come back down the east side for a late lunch here, after the noon rush."
+      - "If the queue is long, the 2026 reviewer's trick works: take the number, then go and look around until it's called."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't pay a queue-runner. Times Weekly found people charging ¥50–500 to queue for Siji Minfu during Golden Week."
+      - "No Chinese phone? Take the **paper number inside the shop** and stay close. I found no source saying whether the ticket needs a Chinese number."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: "Dry, sunny and freezing in December"
+    note: "If you queue outside, it's below freezing. Take the number, then wait somewhere warm nearby."
+    wear: "Down jacket, hat and gloves"
+  - type: pairs_well
+    items:
+      - { id: forbidden-city-jingshan, note: "Palace and Jingshan in the morning, late duck lunch after" }
+      - { id: beijing-xingshe-youth-hostel, note: "About 4 km north-west in Xicheng" }
+      - { id: mutianyu-great-wall, note: "The other Beijing must: wall one day, duck the next" }

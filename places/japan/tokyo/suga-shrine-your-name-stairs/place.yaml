@@ -1,0 +1,136 @@
+id: suga-shrine-your-name-stairs
+name: "Suga Shrine: the Your Name stairs"
+short_name: Suga Shrine stairs
+name_local: 須賀神社
+name_romanized: Suga Jinja
+country: japan
+city: tokyo
+area: Shinjuku · Yotsuya
+category: odd-local
+fame: popular
+must_do: your-name-stairs
+tags: [anime, your-name, shrine, free, photo-spot, residential]
+kind: See
+why: "Stand on the red-railed stairs from the final scene of Your Name. Free, 7 min on foot from Yotsuya-sanchome, on an ordinary Yotsuya backstreet."
+
+cost:
+  local: 0
+  currency: JPY
+  brl: 0
+  note: "Free. The shrine charges nothing to visit"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45 min–1 h
+best_time: "Morning on a weekday, while the street is quiet"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Stairs are a public street, always open. Shrine gate 06:00–17:00 (06:30 Nov–Feb). Charms and goshuin 10:00–16:45"
+  winter: "From November to February the shrine gate opens at 06:30 instead of 06:00. In January, from the New Year until the first week of February, weekend and holiday prayer rituals take walk-ins, so the shrine may be busier. Your Japan dates are now 4–22 Jan 2027."
+
+location:
+  address: "5-6 Sugacho, Shinjuku-ku, Tokyo 160-0018"
+  address_local: 〒160-0018 東京都新宿区須賀町5-6 須賀神社
+  lat: 35.68533
+  lng: 139.72253
+  nearest_transit: "Yotsuya-sanchome (Marunouchi Line), 7 min walk"
+
+sources:
+  - url: https://sugajinjya.or.jp/access/
+    title: "Suga Shrine official site: address, access from 4 stations, walking routes"
+    checked: 2026-11-11
+  - url: https://sugajinjya.or.jp/faq/
+    title: "Suga Shrine official FAQ: gate hours (06:30 opening Nov–Feb), charm and goshuin hours, New Year prayers"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Suga_Shrine_(Shinjuku)
+    title: "Suga Shrine (Shinjuku) on Wikipedia: history and the Your Name final scene"
+    checked: 2026-11-11
+  - url: https://en.japantravel.com/tokyo/your-name-real-life-locations/45058
+    title: "Japan Travel: Your Name real-life locations (Aug 2026), the stairs with red railings"
+    checked: 2026-11-11
+  - url: https://www.timeout.jp/tokyo/ja/things-to-do/suga-jinjya
+    title: "Time Out Tokyo (Japanese): Suga Shrine, access and the Your Name staircase"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals 1991–2020"
+    checked: 2026-11-11
+confidence: high
+confidence_note: "Address, walking times and gate hours are from the shrine's official site. The map pin is the shrine; the film's stairs are the approach just below it. No source we found gives rules for photographing on the stairs, so the etiquette tips are common sense, not posted rules."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: stairs-below
+    hook: A plain stone staircase with red handrails in a quiet backstreet, and the last scene of Your Name.
+    focus: center
+  - type: quick_facts
+    time_needed: 45 min–1 h
+    best_time: "Weekday morning"
+    extra:
+      - label: The stairs
+        value: Red handrails
+        detail: The approach just below the shrine
+      - label: Shrine gate
+        value: 06:30–17:00 in winter
+        detail: The street stairs themselves are always open
+      - label: Good in cold
+        value: Yes, but outdoors
+  - type: highlights
+    items:
+      - title: The film's final scene
+        text: "The closing scene of the anime film **Your Name** (2016) takes place on these stairs, and they were on the film's posters too."
+      - title: A real neighbourhood staircase
+        text: "Locals use these stairs every day. That's the charm: it's an everyday Tokyo street, not a theme park."
+      - title: An Edo-era shrine at the top
+        text: "Suga Shrine has guarded Yotsuya's 18 neighbourhoods since the early Edo period. Its June festival was once one of Edo's five great festivals."
+      - title: Fans' wishes on wood
+        text: "Fans of the film leave **ema**, wooden wish plaques, at the shrine. Add your own or just read theirs."
+  - type: prose
+    title: Finding the stairs
+    dropcap: true
+    text: |-
+      From **Yotsuya-sanchome** on the Marunouchi Line it's about a 7-minute walk; from JR Yotsuya, about 10. The shrine's own site lists five lanes in from the main roads. Two of them end at "the stairs below the shrine", and cars can't get past.
+
+      Look for a flight of stone steps with **red railings** climbing toward the shrine. Try it from the bottom looking up, and from the top looking down into the street.
+
+      Then climb up and see the shrine itself. The gate closes at 17:00, and charms and goshuin stamps are sold from 10:00 to 16:45.
+  - type: gallery
+    images:
+      - file: stairs-above
+        caption: Looking down the stairs into the Yotsuya backstreets
+      - file: torii
+        caption: The torii and the main hall at the top
+  - type: quote
+    variant: vibe
+    text: A cold, bright January morning, a quiet backstreet, and a staircase you've seen before without ever having been here.
+  - type: cost_breakdown
+    items:
+      - label: Visiting the stairs and shrine
+        local: 0
+        brl: 0
+    note: "Charm and ema prices aren't published on the shrine's site. Ask at the shrine office if you want one."
+  - type: map
+    zoom: 17
+    note: "The pin is the shrine. The film's stairs are on the approach just below it. The lanes are small, so let a map app guide the last turns."
+  - type: tips
+    variant: insider
+    items:
+      - "Go **early on a weekday**. It's quieter, and you won't spend your visit waiting for a gap in other people's photos."
+      - "Re-watch the last 5 minutes of the film on the train there. Standing on the steps hits differently."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "These are **residents' stairs**. Keep to one side, keep your voice down and don't block anyone carrying shopping."
+      - "The shrine gate opens at **06:30** in winter. If you want the shrine too, don't come before that."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "Tokyo's January averages 1 °C at night and 10 °C by day, with about 5 wet days. It's all outdoors, but the visit is short."
+    wear: Warm coat and comfortable shoes for the steps
+  - type: pairs_well
+    items:
+      - id: shibuya-crossing-and-sky
+        note: "Another Tokyo icon from the screen. Easy to fit into the same day"

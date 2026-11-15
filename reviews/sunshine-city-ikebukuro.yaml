@@ -1,0 +1,24 @@
+# Independent review of sunshine-city-ikebukuro. Written by `./atr review`; do not edit by hand.
+id: sunshine-city-ikebukuro
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 99d21626afb12f7f92b733ff75be267e516e7f23d41b684a6652eccc0be5e525
+facts:
+  supported: 8
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: hours.winter
+    problem: The page says the aquarium price calendar runs to March 2027. The official ticket page links the calendar PDF, but its text could not be read, so the end month is unverified. The page also says "Dec 24–31 is peak", while the observatory calendar marks Dec 19–21 as peak too. Both are outside the traveler's dates.
+    evidence: https://sunshinecity.jp/en/aquarium/ticket/ — "Prices vary depending on the day" (calendar PDF unreadable); https://sunshinecity.jp/en/observatory/ticket/ — peak hexagons on Dec 19, 20, 21, 24–31
+    fix: Write "the aquarium price changes by day; check its calendar" without naming an end month, and say "late December is peak".
+resolved:
+  - field: cost.note
+    problem: "The page gives the observatory two prices, ¥700 on weekdays and ¥900 on weekends. The official page has four tiers, including busy season at ¥900 and peak season at ¥1,200, and peak days can be weekdays: the Dec 2026 calendar marks Dec 24–31 as peak. The traveler's Jan 20 – Feb 4 dates are not on the calendar yet, so the stated ¥700 is not guaranteed. The same two-price claim is repeated in blocks[1].extra[1].detail."
+    evidence: cost.note now reads "¥900 weekends and busy days, ¥1,200 peak days; check the fee calendar", and blocks[1].extra[1].detail reads "¥700 weekdays, ¥900 weekends, ¥1,200 peak". https://sunshinecity.jp/en/observatory/ticket/ lists "Weekday 700 yen / Weekend and holiday 900 yen / Busy season 900 yen / Peak season 1,200 yen". The calendar shows only Nov–Dec 2026, which matches the page's note that late-January prices are not out yet.
+rereview_of: 6c00a1a07cd310d93474415b0cdca8d5d35dea04a1ab735e6aade3f690d9c8e7
+summary: "Earlier finding 1 is resolved: the official ticket page backs all observatory fee tiers, and the page now tells the traveler to check the fee calendar. Also backed by sources: the aquarium price range, the price changing by day, East Exit 35, the 3-minute walk from Higashi-Ikebukuro and Donguri Kyowakoku. The one open item is a nit: the aquarium calendar's end month (March 2027) could not be verified."
+model: claude-opus-5-5
+cost_usd: 0.373

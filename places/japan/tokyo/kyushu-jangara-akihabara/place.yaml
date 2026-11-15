@@ -1,0 +1,116 @@
+id: kyushu-jangara-akihabara
+name: "Kyushu Jangara Akihabara Honten"
+short_name: Kyushu Jangara
+name_local: 九州じゃんがら 秋葉原本店
+name_romanized: Kyūshū Jangara Akihabara Honten
+country: japan
+city: tokyo
+area: Akihabara · Sotokanda
+category: food
+fame: popular
+tags: [ramen, tonkotsu, cheap, late-night, vegan-option]
+kind: Eat
+why: "Akihabara's tonkotsu flagship since about 1984: mild pork-bone soup for about ¥900 (Akasaka price), reopening 26 Nov 2026 after an expansion."
+cost:
+  local: 890
+  currency: JPY
+  brl: 31.30
+  note: "Base bowl ¥890 on a listing for the chain's Akasaka branch; Akihabara's post-reopening price not yet published"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30 min
+best_time: Evening after the Akihabara arcades
+
+book_ahead:
+  required: false
+
+hours:
+  summary: Daily 11:00–22:00 (last order 21:45), as listed before the renovation
+  closed: No regular closing day listed
+  winter: "Closed for renovation from 30 Sep 2026; the chain announced it **reopens Thu 26 Nov 2026**, expanded into the former restaurant next door. Hours after reopening were not published when checked (Nov 2026). Your Japan dates (Jan 20 – Feb 4, 2027) are two months after the reopening and well after the New Year break."
+
+location:
+  address: 3-11-6 Sotokanda, Chiyoda-ku, Tokyo
+  address_local: 東京都千代田区外神田3-11-6
+  lat: 35.70078
+  lng: 139.77066
+  nearest_transit: Suehirocho Sta. (Ginza Line) Exit 3, 3 min; Akihabara Sta. 6 min
+
+sources:
+  - url: https://kyushujangara.co.jp/en/top/
+    title: Kyushu Jangara official site (Akihabara reopening notice, Nov 2026)
+    checked: 2026-11-12
+  - url: https://kyushujangara.co.jp/menu/
+    title: Kyushu Jangara official menu (soup styles; no prices)
+    checked: 2026-11-12
+  - url: https://www.gdm.or.jp/crew/2026/1016/656504
+    title: "Hermitage Akihabara: Kyushu Jangara Akihabara expands, renewal in late November (Oct 2026)"
+    checked: 2026-11-12
+  - url: https://www.gdm.or.jp/crew/2026/0908/651490
+    title: "Hermitage Akihabara: Kyushu Jangara Akihabara closes from 30 Sep for renovation ('nearly 42 years of history')"
+    checked: 2026-11-13
+  - url: https://visit-chiyoda.tokyo/app/en/spot/detail/927
+    title: Kyushu Jangara Akihabara-Honten — Chiyoda Tourism Association (hours, access, vegan ramen)
+    checked: 2026-11-12
+  - url: https://menufans.com/ja-JP/place/kyushu-jangara-akasaka-019aeadec69471caa3dcbc37bf7a6a84
+    title: Kyushu Jangara Akasaka — menufans menu listing (prices, undated)
+    checked: 2026-11-12
+confidence: low
+confidence_note: "Reopening 26 Nov 2026: official notice title only. No official prices: ¥890 is an undated Akasaka-branch listing; the renovated shop may charge more. Hours are the Chiyoda tourism listing's from before the closure. Payment unverified. Hermitage articles read via atr render (403 to bots); 'since about 1984' is inferred from their 'nearly 42 years'."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: akihabara-night
+    caption: Sotokanda (Akihabara Electric Town) at night. The shop is a block off this strip
+    hook: The 1984 shop that brought Kyushu-style pork-bone ramen to Electric Town, open late and cheap.
+  - type: quick_facts
+    time_needed: 30 min
+    best_time: Evening after the arcades
+    extra:
+      - { label: Style, value: Tonkotsu, detail: "Mild pork-bone, chicken and vegetable soup" }
+      - { label: Reopens, value: 26 Nov 2026, detail: After a renovation that adds the space next door }
+      - { label: Veg option, value: Vegan shoyu ramen, detail: Only at this main branch (Chiyoda tourism site) }
+  - type: highlights
+    items:
+      - title: Tonkotsu, five ways
+        text: "The house bowl is a **mild** pork-bone soup. **Bonshan** is creamy Kurume/Hakata-style, **Kobonshan** adds Kumamoto-style black garlic oil, and **Karabon** is the spiced one."
+      - title: Cheap and late
+        text: "About **¥890 (R$31)** for a bowl at the Akasaka branch (Akihabara's new price isn't published), open until **22:00** every day before the renovation. A safe dinner after Akihabara's arcades close in on you."
+      - title: Akihabara history
+        text: "Here for **nearly 42 years** (the shop's own words in Sept 2026), so since about 1984, long before Akihabara turned anime."
+      - title: The vegan bowl
+        text: The main branch's **dark-soy vegan ramen** uses no animal products or chemical seasonings. It was once served on JAL flights.
+  - type: menu
+    items:
+      - { name: Kyushu Jangara (mild tonkotsu), name_local: 九州じゃんがら, price_local: 890, price_brl: 31.30, note: "The house bowl. Price from the Akasaka listing", tag: cheap }
+      - { name: Bonshan (creamy tonkotsu), name_local: ぼんしゃん, note: Richer Kurume/Hakata-style soup }
+      - { name: Kobonshan, name_local: こぼんしゃん, note: Kumamoto-style with house black garlic oil }
+      - { name: Karabon (spiced), name_local: からぼん, note: "Creamy tonkotsu with a dozen spices; heat level adjustable", tag: spicy }
+      - { name: Dark-soy vegan ramen, name_local: 濃い口醤油 ヴィーガンらあめん, note: Main branch only, tag: veg }
+      - { name: Everything-on version, name_local: 全部入り, price_local: 1590, price_brl: 55.92, note: All toppings. Akasaka listing price }
+    note: "Bowl names from the official menu, which lists no prices. Prices are the Akasaka branch's on menufans; check the machine after the reopening."
+  - type: cost_breakdown
+    items:
+      - { label: Kyushu Jangara bowl, local: 890, brl: 31.30, estimate: true }
+  - type: map
+    note: Closest to **Suehirocho** (Ginza Line) Exit 3; from JR Akihabara it's a 6-minute walk.
+  - type: tips
+    variant: insider
+    items:
+      - "Try the **mild** house bowl first; go **Bonshan** if you want the thick, creamy Hakata style."
+      - "Vegetarian friend along? This is the branch with the **vegan ramen**, and staff can leave out the five pungent ingredients (garlic, onion and the like) if you ask."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The shop reopens **26 Nov 2026** after a renovation: check the ticket machine, since prices and hours may have changed."
+      - "It's a cheap classic, not a destination bowl. Come because you're in Akihabara."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: An indoor stop. A hot bowl after dark in Akihabara is exactly what a January evening wants.
+    wear: Coat; it's warm inside
+  - type: pairs_well
+    items:
+      - { id: kikanbo-kanda-karashibi-miso, note: Spicy miso one JR stop south in Kanda }

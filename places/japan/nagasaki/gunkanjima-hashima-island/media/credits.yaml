@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: west-side
+  title: File:Hashima, Nagasaki, Japan, 20240814 1421 3380.jpg
+  author: Jakub Hałun
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hashima,_Nagasaki,_Japan,_20240814_1421_3380.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Hashima%2C_Nagasaki%2C_Japan%2C_20240814_1421_3380.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Abandoned island of Hashima near Nagasaki
+  width: 5891
+  height: 2772
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: viewing-area-3
+  title: File:Hashima number 3 viewing area August 2017.jpg
+  author: さかおり
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hashima_number_3_viewing_area_August_2017.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3a/Hashima_number_3_viewing_area_August_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 端島（軍艦島）第三見学広場
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: walkway-guide
+  title: File:Hashima number 1 viewing area August 2017.jpg
+  author: さかおり
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hashima_number_1_viewing_area_August_2017.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/ff/Hashima_number_1_viewing_area_August_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 端島（軍艦島）第一見学広場
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: school-building
+  title: File:Hashima No 70 bldg Nagasaki 201708.jpg
+  author: Ka23 13
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hashima_No_70_bldg_Nagasaki_201708.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/af/Hashima_No_70_bldg_Nagasaki_201708.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Hashima Elementary and Junior High School (Building 70), built in 1958, located on the northeast area of Hashima (Gunkanjima), Nagasaki Prefecture (Japan). A section of the roof of the 7th floor extension seems to be collapsed. Elementary School was on the 1st to 4th floors, Junior High School w
+  width: 4608
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: from-the-sea
+  title: File:Hashima, Nagasaki, Japan, 20240814 1424 3412.jpg
+  author: Jakub Hałun
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hashima,_Nagasaki,_Japan,_20240814_1424_3412.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/88/Hashima%2C_Nagasaki%2C_Japan%2C_20240814_1424_3412.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Abandoned island of Hashima near Nagasaki
+  width: 4592
+  height: 1580
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

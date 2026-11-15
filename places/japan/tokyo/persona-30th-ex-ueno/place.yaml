@@ -1,0 +1,154 @@
+id: persona-30th-ex-ueno
+name: "PERSONA 30th EX. (Ueno)"
+short_name: PERSONA 30th EX.
+name_local: 上野の森美術館
+name_romanized: Ueno no Mori Bijutsukan
+country: japan
+city: tokyo
+area: Taitō · Ueno Park
+category: culture
+fame: hidden
+tags: [persona, gaming, atlus, exhibition, event]
+kind: See
+why: "Only if you play Persona: the series' 30th-anniversary show, with art, 3D models and never-shown production material, open during your Tokyo days."
+cost:
+  local: 3000
+  currency: JPY
+  brl: 105.51
+  note: "Entry bought from 21 Jan (online, while stocks last); ¥2,700 weekday ticket if bought by 20 Jan 23:59. Lawson adds a fee."
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 1.5–2 h
+best_time: A weekday from 26 Jan, at 10:00
+
+when:
+  dates:
+    - { from: 2027-01-21, to: 2027-02-07 }
+  kind: only
+  label: "21 Jan – 7 Feb 2027"
+
+book_ahead:
+  required: true
+  lead_days: 1
+  lead_time: "From 21 Jan: ¥3,000 online while stocks last; ¥2,700 only by 20 Jan 23:59"
+  method: website
+  links:
+    - label: Lawson Ticket (English interface)
+      url: "https://l-tike.com/event/mevent/?mid=797993"
+      note: "Advance sale 5 Dec – 20 Jan; same-day e-tickets from 00:00 on the day"
+    - label: Official ticket page (Japanese)
+      url: "https://event-info.kadokawa.co.jp/persona30th-ex/ticket/"
+      note: Prices, ticket types and the sales calendar
+  notes: "Lawson Ticket says users from overseas can buy only general-sale tickets, foreign cards may fail, and e-tickets need a device that works in Japan. Main plan: buy on 20 Jan after you land, with a Japanese SIM or eSIM. Buying from Korea may fail (no overseas log-in); fallback ¥3,000 from 21 Jan."
+
+hours:
+  summary: "Mon–Thu 10:00–17:00 (last entry 16:00); Fri–Sun 10:00–19:00 (last entry 18:00)"
+  winter: "The whole show is a winter event: 21 Jan – 7 Feb 2027, plus a ¥6,500 lottery-only preview evening on 20 Jan. The organisers say a queue may form outdoors, and that dates and content can change without notice."
+
+location:
+  address: "The Ueno Royal Museum, 1-2 Ueno Park, Taitō, Tokyo 110-0007"
+  address_local: 東京都台東区上野公園1-2 上野の森美術館
+  lat: 35.71285
+  lng: 139.77477
+  nearest_transit: "JR Ueno, Park Exit (3 min walk); Metro/Keisei Ueno (5 min)"
+
+sources:
+  - url: "https://event-info.kadokawa.co.jp/persona30th-ex/overview/"
+    title: "PERSONA 30th EX. official site: overview (dates, hours, venue, rules)"
+    checked: 2026-11-12
+  - url: "https://event-info.kadokawa.co.jp/persona30th-ex/ticket/"
+    title: "PERSONA 30th EX. official site: tickets (prices, timed days, sales calendar, entry gift)"
+    checked: 2026-11-12
+  - url: "https://www.ueno-mori.org/exhibitions/article.cgi?id=13135379"
+    title: "Ueno Royal Museum: PERSONA 30th EX. (dates, hours, prices, no tickets at the museum)"
+    checked: 2026-11-12
+  - url: "https://www.famitsu.com/article/202609/88458"
+    title: "Famitsu: Persona 30th exhibition announced, 21 Jan – 7 Feb 2027 (20 Sep 2026)"
+    checked: 2026-11-12
+  - url: "https://event-info.kadokawa.co.jp/persona30th-ex/"
+    title: "PERSONA 30th EX. official site: top (art, models, first-shown material, P4 Revival)"
+    checked: 2026-11-12
+  - url: "https://www.algernonproduct.co.jp/p30th-kei_mochizuki/"
+    title: "Algernon Product: Kei Mochizuki × Persona 30th at Loft (Shibuya Loft 16 Dec – 7 Jan)"
+    checked: 2026-11-12
+  - url: "https://shibuyatsutaya.tsite.jp/kyoto/article/2777.html"
+    title: "SHIBUYA TSUTAYA: Persona Series The Animation pop-up (1 Dec – 4 Jan)"
+    checked: 2026-11-12
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "JMA: climate normals 1991–2020, Tokyo (January)"
+    checked: 2026-11-13
+  - url: "https://l-tike.com/guide/en/"
+    title: "Lawson Ticket: guide page for non-Japanese customers (overseas limits)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Dates, hours, prices and the timed-entry rule are from the official site and the museum (Nov 2026). The exhibit list and goods are still 'coming soon'. Whether a foreigner can finish a Lawson Ticket purchase without a Japanese phone number is not confirmed: the L-tike guide only lists the overseas limits, and community guides disagree. The booking fee amount is not published."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: winter-queue
+    caption: "A winter queue outside the Ueno Royal Museum for an earlier show (2015)"
+    focus: "60% 50%"
+    hook: Thirty years of Velvet Rooms, tarot cards and Shadows, in a small museum in the middle of Ueno Park.
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: A weekday from 26 Jan, at 10:00
+    extra:
+      - { label: Series, value: "Persona 1 to P4 Revival", detail: "Art, 3D models, first-shown production material" }
+      - { label: Entry gift, value: A4 art print, detail: "Key visual 21–29 Jan; 8-hero group art 30 Jan – 7 Feb" }
+      - { label: Good in rain, value: "Yes, once inside", detail: "The queue may stand outdoors" }
+  - type: highlights
+    items:
+      - title: Thirty years in one building
+        text: "Atlus is a partner on the official show for the series' **30th anniversary**: art and **3D models** from the 1996 original to *Persona 4 Revival* (due 2027), plus production material shown **for the first time**."
+      - title: New art for the show
+        text: "Every series protagonist was drawn again **for this exhibition**, and the art is going on show-only goods. The goods list is still \"coming soon\"."
+      - title: A free print at the door
+        text: "Each entry gets an **A4 art print**: the key visual from 21 to 29 Jan, then the art of all eight heroes from 30 Jan. They are handed out while stocks last."
+      - title: It fits your dates
+        text: "The show runs **21 Jan – 7 Feb 2027**; you're in Japan **20 Jan – 4 Feb**. It is in Tokyo, so go before you head to Kyoto."
+  - type: prose
+    title: Why this one earns a day
+    dropcap: true
+    text: |-
+      Persona's 30th year has been a run of pop-ups, but almost all of them close before you land: the Shibuya TSUTAYA anime pop-up ends on 4 Jan, and the Loft collab on 7 Jan. This exhibition opens the day after you arrive in Japan, and it is the big one: a show organised with Atlus' help, on two floors of the Ueno Royal Museum.
+
+      Be honest with yourself first: this is a fan exhibition, not a Louvre-level museum. It earns a day only if you have played or watched Persona; if you haven't, skip it and spend the money on an arcade night.
+
+      Plan it for a **weekday after 22 Jan**. The ¥2,700 weekday ticket works on any weekday except the 21st and 22nd, so you don't need to commit to a date. Weekend and opening-day entry is in timed slots.
+  - type: gallery
+    images:
+      - { file: ameyoko-entrance, caption: "Ameyoko market, by Ueno Station: street food after the show" }
+  - type: book_ahead
+    steps:
+      - days_before: 1
+        text: "On **Lawson Ticket** (Japanese SIM/eSIM): from 21 Jan entry is **¥3,000** while stocks last; weekends and 21–22 Jan need a **timed ticket** (日時指定入場券). Cheaper: the **weekday ticket** (平日入場券) is ¥2,700 by **20 Jan, 23:59**."
+      - days_before: 0
+        text: "Arrive 5–15 min before a timed slot, and show the e-ticket on your phone."
+  - type: cost_breakdown
+    items:
+      - { label: "Entry ticket, bought from 21 Jan", local: 3000, brl: 105.51 }
+      - { label: "Instead: weekday ticket bought by 20 Jan", local: 2700, brl: 94.96, optional: true, note: "Replaces the ¥3,000 ticket; saves ¥300" }
+      - { label: "Playmat voucher (show-only goods)", local: 3300, brl: 116.06, optional: true }
+  - type: map
+    note: "Leave **JR Ueno** by the **Park Exit** (公園口) and walk into the park; the museum is a 3-min walk from the gate. Big suitcases are not allowed and there are no lockers."
+  - type: tips
+    variant: insider
+    items:
+      - "The weekday ticket isn't tied to a date: buy it by 20 Jan for ¥2,700, then go on whatever weekday the weather is worst."
+      - "Fridays run to 19:00 (last entry 18:00): a late visit leaves the morning for Ueno Park or Akihabara."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**No tickets are sold at the museum**, not even on the day. Sort the e-ticket out before you walk over."
+      - "**No video** at all, phone and tablet photos only where allowed, no selfie sticks, and no re-entry once you leave."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Dry and cold
+    note: "January normals for central Tokyo (JMA): 1.2 °C low, 9.8 °C high, about 60 mm of rain. Indoors, but the organisers warn that queues may stand outside."
+    wear: Warm coat for the queue; a bag small enough to carry, since there are no lockers
+  - type: pairs_well
+    items:
+      - { id: akihabara-retro-game-crawl, note: "Two JR stops: retro games and arcades after" }
+      - { id: nui-hostel-kuramae, note: "Social hostel about 2 km away in Kuramae" }
+      - { id: shibuya-parco-game-floor, note: "SEGA STORE TOKYO stocks Atlus goods year-round" }

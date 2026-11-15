@@ -1,0 +1,149 @@
+id: lanxin-jinxian-road
+name: "Lanxin: Benbang Home Cooking on Jinxian Road"
+short_name: Lanxin
+name_local: 兰心餐厅（进贤路店）
+name_romanized: Lánxīn Cāntīng
+country: china
+city: shanghai
+area: Huangpu · Jinxian Road
+category: food
+fame: hidden
+tags: [benbang, shanghainese, michelin-bib, laozihao, queue, hongshao-rou]
+kind: Eat
+why: "Shanghai's red-braised pork at a tiny 30-year-old Bib Gourmand shop, ¥58–78 a plate, and 1 km from INS Land: dinner, then the clubs."
+
+cost:
+  local: 78
+  currency: CNY
+  brl: 64.48
+  note: "One plate of red-braised pork at the higher of two 2025 blog prices (¥58 / ¥78). Rice and greens extra"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1 h, plus the queue"
+best_time: "Right at 11:00 or 17:00, before the line builds"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Lunch from 11:00, dinner from 17:00. Closing times differ by source: 13:30–14:00 and 21:00–22:00"
+  winter: "No winter hours or December closures found. The hours above come from Trip.com and two travel guides; none mentions seasonal changes."
+
+location:
+  address: "130 Jinxian Road, Huangpu, Shanghai"
+  address_local: 上海市黄浦区进贤路130号
+  lat: 31.22358
+  lng: 121.45543
+  nearest_transit: "Huaihai Middle Road (Line 13), Exit 1, about 8 min walk"
+
+sources:
+  - url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/lan-xin-jinxian-road
+    title: "Lan Xin (Jinxian Road) — MICHELIN Guide (130 Jinxian Road, Shanghainese, ¥ price band, 'Worth queueing for')"
+    checked: 2026-11-11
+  - url: https://uk.trip.com/restaurant/china/shanghai/detail/lanxin-restaurant-20817937
+    title: "LanXin Restaurant (兰心餐厅 进贤路店) — Trip.com: 11:00–13:30, 17:00–21:00, phone, popular dishes, reviews"
+    checked: 2026-11-11
+  - url: https://unseenshenzhen.com/food/shanghai-restaurants/
+    title: "Best Shanghai Restaurants 2025 — Unseen Shenzhen (Aug 2025): no reservations, 90-min wait, braised pork ¥78, shrimp ¥88"
+    checked: 2026-11-11
+  - url: https://urbanchinatravelogue.com/shanghai-braised-pork-belly-hongshao-rou/
+    title: "Shanghai-Style Braised Pork Belly guide — Urban China Travelogue (Dec 2025): Lanxin ¥58, Line 13 Exit 1, 8 min walk"
+    checked: 2026-11-11
+  - url: https://m.sohu.com/a/974876290_391486/
+    title: "“店破，排队，巨好吃” — Sohu (Jan 2026): Jinxian Road's four benbang shops; Lanxin 30+ years old, 8 years Bib Gourmand"
+    checked: 2026-11-11
+  - url: https://touch.travel.qunar.com/poi/3165802
+    title: "兰心餐厅(进贤路店) — Qunar: ¥79 per person, diner reports on queues and timing"
+    checked: 2026-11-11
+  - url: https://www.thechinajourney.com/best-shanghai-restaurant/
+    title: "Where to Eat in Shanghai 2026 — The China Journey (Apr 2026): Lanxin ¥120–180 per person, specialities"
+    checked: 2026-11-11
+  - url: "https://www.openstreetmap.org/node/13784333201"
+    title: "Lanxin, 130 Jinxian Road — OpenStreetMap (pin)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai — Wikipedia (climate table, December normals)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "No 2026 menu found; Dianping blocked me. Dish prices are from two 2025 blogs that disagree (pork ¥58 vs ¥78); per-person spend runs ¥63–200 across sites. Closing times differ by source. Nothing found on an English menu. Trip.com blocks the link checker; I read it with atr render on 11 Nov. The 1 km to INS Land is my straight-line measure."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    hook: "Soy, rock sugar and pork belly braised until it trembles, in a room the size of a living room."
+  - type: quick_facts
+    time_needed: "1 h, plus the queue"
+    best_time: "At 11:00 or 17:00 sharp"
+    extra:
+      - { label: Style, value: Benbang (本帮菜), detail: "Shanghai's own 'thick oil, red sauce' home cooking" }
+      - { label: Queue, value: Up to 90 min, detail: "No reservations, per a 2025 guide" }
+      - { label: To INS Land, value: About 1 km, detail: "Straight line to Fuxing Park" }
+  - type: highlights
+    items:
+      - title: The real benbang taste
+        text: "Benbang is Shanghai's own cooking: soy sauce, sugar, slow braising. Diners on Trip.com call Lanxin's \"thick oil and red sauce\" the taste of their grandmother's kitchen."
+      - title: Thirty years on one street
+        text: "Sohu (Jan 2026) calls it the oldest of Jinxian Road's benbang shops: **30+ years** and eight years running in the Michelin Bib Gourmand list."
+      - title: Priced for one
+        text: "Michelin puts it in its cheapest **¥** band. One plate of pork plus rice is a full meal for one person."
+      - title: Dinner before INS
+        text: "Jinxian Road is about a kilometre from Fuxing Park. Eat at 17:00, walk it off, and be at INS Land when it gets going."
+  - type: prose
+    title: Order like a regular
+    text: |-
+      Lanxin is a small, plain room. A 2021 Trip.com reviewer says the walls are covered with food awards and that you can order by following the stars on the menu. The dishes every source names are **红烧肉** (red-braised pork belly), **油爆虾** (river shrimp flash-fried in a sweet glaze), **酱爆猪肝** (pork liver in sweet bean sauce) and **草头** (wine-tossed clover greens), which one regular orders every visit.
+
+      Eating alone, order one main plus rice, and the greens if you're still hungry. The pork is the dish to come for.
+  - type: quote
+    variant: vibe
+    text: "Steam on the window, a queue in the lane, and a plate of pork the colour of lacquer."
+  - type: cost_breakdown
+    items:
+      - { label: "Red-braised pork (红烧肉)", local: 78, brl: 64.48, estimate: true }
+      - { label: "Oil-fried river shrimp (油爆虾), to share or splurge", local: 88, brl: 72.75, estimate: true, optional: true }
+  - type: menu
+    items:
+      - name: Red-braised pork belly
+        name_local: 红烧肉
+        price_local: 78
+        price_brl: 64.48
+        note: "¥78 in Aug 2025 (Unseen Shenzhen); ¥58 in Dec 2025 (Urban China Travelogue)"
+        tag: must-try
+      - name: Oil-fried river shrimp
+        name_local: 油爆虾
+        price_local: 88
+        price_brl: 72.75
+        note: "Crisp, edible shells, sweet-savoury glaze (Unseen Shenzhen, 2025)"
+        tag: signature
+      - name: Pork liver in sweet bean sauce
+        name_local: 酱爆猪肝
+        note: "On Trip.com's popular-dishes list; price not found"
+      - name: Wine-tossed clover greens
+        name_local: 草头
+        note: "The vegetable regulars order; price not found"
+        tag: veg
+    note: "Point at the characters on this list. No English menu is confirmed. Prices are from 2025 blogs; check the menu on the day."
+  - type: map
+    note: "From Huaihai Middle Road station (Line 13), Exit 1, walk about 8 minutes to Jinxian Road near Maoming South Road. Fuxing Park and INS Land are about 1 km to the south-east."
+  - type: tips
+    variant: insider
+    items:
+      - "Be at the door at **11:00** or **17:00**. A Qunar diner who arrived at 11:00 sharp found three tables already eating; another who came back after the evening rush found no queue."
+      - "Line too long? **Maolong (茂隆)** at No. 134 and **Chun (春)** a few doors away are the street's other benbang shops (Sohu, 2026)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't plan this as a quick bite: a 2025 guide waited 90 minutes for a table."
+      - "Benbang is sweet. If you want it less sweet, Urban China Travelogue suggests asking \"shǎo fàng diǎn táng\"."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "Cold, damp evenings around 5–11 °C"
+    note: "The queue is outside in the lane. Go early so you don't stand in the drizzle."
+    wear: Warm jacket, umbrella
+  - type: pairs_well
+    items:
+      - { id: ins-land, note: "About 1 km away: dinner at 17:00, clubs after" }
+      - { id: dayin-hostel-east-nanjing-road, note: "Your social base; a short taxi north" }
+      - { id: desti-youth-hostel-jing-an, note: "The other hostel option, in Jing'an" }
+      - { id: da-hu-chun-shengjian, note: "The other old-Shanghai classic, for breakfast" }

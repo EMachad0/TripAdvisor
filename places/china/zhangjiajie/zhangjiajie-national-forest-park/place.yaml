@@ -1,0 +1,199 @@
+id: zhangjiajie-national-forest-park
+name: "Zhangjiajie National Forest Park"
+short_name: Zhangjiajie Forest Park
+name_local: 张家界国家森林公园
+country: china
+city: zhangjiajie
+area: Wulingyuan District
+category: nature
+fame: iconic
+tags: [cold-outdoors, hiking, sandstone-pillars, unesco, cable-car, real-name-ticket]
+kind: See
+why: "The 'Avatar' pillars: a forest of sandstone towers seen from cliff-edge paths. ¥239 for four days, lifts extra. In December, fog decides what you see."
+cost:
+  local: 376
+  currency: CNY
+  brl: 310.84
+  note: "¥239 4-day ticket + Bailong lift up ¥65 + Tianzi cable car down ¥72. Walk both ways and you pay the ticket only (R$198)"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2 days (1 is a rush)
+best_time: First clear morning; views best 10:00–14:00
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: Sales open 30 days ahead; book before you go to the gate
+  method: passport-registered
+  links:
+    - label: Trip.com (foreigner-friendly)
+      url: https://www.trip.com/travel-guide/attraction/zhangjiajie/zhangjiajie-national-forest-park-10559092/
+      note: In English, with your passport number; the purchase includes the timed slot
+  rules_changed:
+    date: 2025-06-01
+    note: "Since June 2025 every entry needs a timed reservation for a specific gate, including re-entry on days 2–4 of the ticket. The December–February discount ended in January 2025."
+  passport: true
+  notes: "Re-entry on later days needs a new slot in the **张家界一机游** WeChat mini-program, which often fails to open for foreigners. One guide's workaround: ask gate staff on day one to set up your next entry. Foreigners get no half-price tickets or lift discounts."
+
+hours:
+  summary: "Daily 07:00–17:00 (last entry 17:00); gates open around 07:30 in the off-season. Entry by timed slot"
+  winter: "Same price all year. Off-season: gates open about 07:30, last eco-buses about 17:00, Huangshizhai cable car sells until 16:30. Daylight is roughly 07:15–17:45. Ice or heavy snow can stop the cable cars, the lift and minor trails for a day; some cable cars get maintenance in winter. No notice for December 2026 found."
+
+location:
+  address: East gate (Biaozhimen, Wujiayu), Wulingyuan town, Wulingyuan District, Zhangjiajie, Hunan
+  address_local: 张家界市武陵源区 武陵源标志门(吴家峪)
+  lat: 29.3387
+  lng: 110.52831
+  nearest_transit: "Coach from Zhangjiajie West station to Wulingyuan: ¥13, 30–70 min"
+  approximate: true
+
+sources:
+  - url: https://chinafortravelers.com/guides/zhangjiajie-national-park/
+    title: "Zhangjiajie National Park: 2026 guide — China for Travelers (updated 2026-09-04; prices, gates, booking, routes)"
+    checked: 2026-11-10
+  - url: https://www.zhangjiajieguide.com/attractions/Zhangjiajie-national-forest-park/tickets.html
+    title: Zhangjiajie National Forest Park tickets — Zhangjiajie Guide (2026 prices, combos, real-name rules)
+    checked: 2026-11-10
+  - url: https://sg.trip.com/guide/attraction/zhangjiajie-national-forest-park.html
+    title: "Zhangjiajie National Forest Park: tickets, itineraries and tips — Trip.com (2026-04-21; hours, gates, days)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park
+    title: Zhangjiajie National Forest Park — Wikipedia (history, geology, Bailong Elevator, Avatar renaming)
+    checked: 2026-11-10
+  - url: https://travelchinawith.me/attractions/hunan/zhangjiajie/zhangjiajie-cable-cars-guide/
+    title: Zhangjiajie cable cars guide — Travel China With Me (updated 2026-08-19; fares and hours)
+    checked: 2026-11-10
+  - url: https://travelchinawith.me/china-destinations/zhangjiajie/snow-in-zhangjiajie/
+    title: Snow in Zhangjiajie — Travel China With Me (updated 2026-05-20; snow season, fog, closures, viewpoints)
+    checked: 2026-11-10
+  - url: https://www.hunantoday.cn/news/xhn/202601/31263524.html
+    title: Zhangjiajie National Forest Park welcomes its first snow — China Daily via Hunan Today (2026-01-01)
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/cityguides/hunan/zhangjiajie/weather-december.htm
+    title: Zhangjiajie weather in December — TravelChinaGuide (updated 2026-06-08; temperatures, daylight, closures)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Zhangjiajie
+    title: Zhangjiajie — Wikipedia (CMA climate normals 1991–2020)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/chongqing-to-zhangjiajie/
+    title: "Chongqing to Zhangjiajie by train — China for Travelers (updated 2026-07-18; coach from the station)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "No official park page opened; three 2026 guides agree on prices (¥236 + ¥3 insurance). Opening time varies by source (07:00 or 07:30). 'Book a day ahead' is my off-season reading; no source reports December sell-outs. The pin is Wulingyuan town, not the gate. Trip.com booking URL is from Trip.com's guide; bot-blocked, not checked. hunantoday.cn opened in a web fetch but not from this machine."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: pillars-mist
+    hook: Stone towers with pine trees on top, standing in a valley that fills with cloud.
+    caption: The pillar forest in summer mist. December has bare trees and, often, more cloud
+  - type: quick_facts
+    time_needed: 2 days (1 is a rush)
+    best_time: First clear morning; views best 10:00–14:00
+    extra:
+      - label: Ticket validity
+        value: 4 days
+        detail: Each entry needs its own timed slot
+      - label: Winter crowds
+        value: Quietest season
+        detail: Summer lift queues run 60–90 min
+      - label: Bring
+        value: Your original passport
+        detail: Gates read foreign passports since July 2026
+  - type: highlights
+    items:
+      - title: Yuanjiajie and the Avatar pillar
+        text: "Cliff-edge platforms at Mihuntai and the **No. 1 Bridge Under Heaven** look straight across at the towers. The Southern Sky Column was renamed **Avatar Hallelujah Mountain** in January 2010. Allow 4–5 hours."
+      - title: Tianzi Mountain
+        text: "The wide \"ten-thousand peaks\" panorama, 3–4 hours. A local guide ranks it first for winter because it is above the cloud line more often than any other viewpoint. The winter's first snow fell here on Dec 31, 2025."
+      - title: The Bailong Elevator
+        text: "A **326 m** glass lift bolted to a cliff, opened in 2002 and billed as the world's tallest outdoor lift. The ride takes under two minutes and costs **¥65** (R$54) each way."
+      - title: Golden Whip Stream
+        text: "A **7.5 km** path along the valley floor with the towers overhead, 2.5–3 hours end to end and no lift needed. The same guide calls it the underrated winter pick."
+      - title: Rime and snow, with luck
+        text: "On cold mornings rime ice can coat the trees. Snow usually comes between late December and mid-February, 4–8 falls a winter, and stays 2–5 days on the tops."
+      - title: Not limestone
+        text: "The pillars look like karst but are not limestone: they were cut by freeze-thaw cycles and plant roots. This was China's first national forest park (1982) and is part of a UNESCO site listed in 1992."
+  - type: prose
+    title: Is it worth it in December?
+    dropcap: true
+    text: |-
+      On a clear day this is one of the strangest landscapes in China: you stand on a plateau rim and look across at hundreds of towers, some more than 200 m tall, each with its own tuft of pines. In December the trees on the slopes are bare, the paths are nearly empty, and the queues that eat hours in summer are gone.
+
+      The catch is cloud. The city below gets about 23% of its possible sunshine in December and rain on eight or nine days. Up on the plateau, a local guide writes that early December "is more often cold rain and fog with little scenic value", that fog can sit until 10:00–11:00, and that in falling snow visibility drops to 20–50 m. Another puts it bluntly: you may spend part of the trip staring at a wall of white.
+
+      Snow on the pillars is the picture people hope for, but it is unlikely on 9–22 December. The first snow of the winter fell on Dec 31 in both 2024 and 2025.
+
+      **Why it can still be worth R$311.** The ticket lasts four days and the park has two kinds of day in it. If the plateau is in cloud, walk Golden Whip Stream on the valley floor and go up the next clear morning. Two park days bring the cost to about R$155 a day, under the daily budget. With only one day and a grey forecast, it is a poor bet.
+  - type: gallery
+    images:
+      - { file: tianzi-snow, caption: "A viewpoint at Tianzi Mountain under snow, winter 2026" }
+      - { file: tianzi-pillars-winter, caption: "Tianzi Mountain on a clear winter day, 2026" }
+      - { file: bailong-elevator, caption: "The Bailong Elevator on its cliff" }
+      - { file: pillars-fog, caption: "The other outcome: pillars half lost in fog", focus: center }
+  - type: quote
+    variant: vibe
+    text: Cold air, wet stone steps, and a tower sliding out of the cloud right where the map said it would be.
+  - type: book_ahead
+    steps:
+      - days_before: 30
+        text: "Sales open up to **30 days** ahead. There is no reason to buy that early in December: wait for the forecast."
+      - days_before: 1
+        text: "Buy the 4-day ticket on **Trip.com** with your passport number. Pick the date, an entry slot and the gate: the **east gate** (Wulingyuan) if you sleep in Wulingyuan town."
+      - days_before: 0
+        text: "Scan your passport at the gate. Before you leave the park, ask staff to book tomorrow's entry if the mini-program will not open for you."
+    passport_note: "Entry is by **passport scan**, no paper ticket. Older passports without a chip go through the staffed lane."
+  - type: cost_breakdown
+    items:
+      - label: 4-day park ticket (eco-buses and insurance included)
+        local: 239
+        brl: 197.58
+      - label: Bailong Elevator, up
+        local: 65
+        brl: 53.74
+        note: Or walk about 2,000 steps, 1.5–2 h
+      - label: Tianzi Mountain cable car, down
+        local: 72
+        brl: 59.52
+        note: Or walk down in about 1.5 h
+      - label: Huangshizhai cable car, one way
+        local: 65
+        brl: 53.74
+        optional: true
+      - label: Ten-Mile Gallery tram, one way
+        local: 38
+        brl: 31.42
+        optional: true
+        note: The most criticised spend; you can walk a stretch instead
+      - label: Coach from Zhangjiajie West to Wulingyuan
+        local: 13
+        brl: 10.75
+        optional: true
+    note: "The ticket-plus-two-rides combo is sold at the same ¥376. A combo with four rides is ¥477 (R$394), unlimited rides ¥537 (R$444)."
+  - type: map
+    zoom: 12
+    note: "Most visitors enter by the **east gate** (标志门, Wujiayu) beside Wulingyuan town; an eco-bus reaches the Bailong Elevator in 20–25 min. The **south gate** (森林公园), on the city side, opens onto Huangshizhai and Golden Whip Stream."
+  - type: tips
+    variant: insider
+    items:
+      - "A two-day plan from one guide: day 1 east gate, Bailong lift up, Yuanjiajie, Tianzi Mountain, cable car down. Day 2 south gate, Golden Whip Stream east to the eco-bus, back to the east gate."
+      - "Fogged in? Do the stream walk and wait. The clearest views come on the first clear morning after rain, when cloud fills the valleys below the rim."
+      - "Ride the Bailong lift one way only, and take stairs the other way if you want to save ¥65–72 per ride."
+      - "Food on the plateau is basic and marked up: noodles ¥25–35, a rice box ¥30–40. There is a KFC near the No. 1 Bridge parking area."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The last eco-buses run at about **17:00** in the off-season. The plateau is a long way from the gate, so start down by mid-afternoon."
+      - "Macaques snatch bags and snacks and can turn aggressive. Keep food out of sight and do not feed them."
+      - "Large suitcases are not allowed on the eco-buses, cable cars or the lift. Leave luggage at your hostel."
+      - "Crampons can be rented at the entrances on icy days. Secondary trails may stay icy after the main ones are cleared."
+  - type: weather
+    temp_low_c: 0
+    temp_high_c: 10
+    conditions: Cold, damp, often in cloud; frost and rime on clear mornings
+    note: "At around 1,000 m the viewpoints rarely pass 10 °C by day and drop below freezing after sunset; the plateau runs 4–8 °C colder than the city (Dec normals 4.9–12.2 °C). All of it is outdoors. Snow is unlikely before late December. Heavy snow or ice can close cable cars, the lift and glass walkways for 12–24 hours."
+    wear: Down jacket, thermals, hat and gloves, non-slip hiking shoes, a poncho
+  - type: pairs_well
+    items:
+      - id: tianmen-mountain
+        note: The other mountain, in the city, about 40 min away by bus. Save it for a clear day

@@ -1,0 +1,36 @@
+# Independent review of yurikamome-odaiba-persona-3-ride. Written by `./atr review`; do not edit by hand.
+id: yurikamome-odaiba-persona-3-ride
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: d8067a8cf72cac1e661bf238bf3c97e852ccbdf2b47ed5c1046af8576d49485b
+facts:
+  supported: 11
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: confidence_note
+    problem: The note says it is not stated whether a card tap is charged the ticket fare or the IC fare. The operator's page, which is now in sources, says a tap is charged the ticket fare.
+    evidence: https://www.yurikamome.co.jp/ticket/touch-payment.html — "片道乗車券（きっぷ/10円単位の運賃）と同額"
+    fix: Say that the operator charges contactless taps the ticket fare, so ¥260 + ¥330 is exact.
+resolved:
+  - field: location.address
+    problem: The page puts Yurikamome Shimbashi Station in Shimbashi 2-chome, which is the address of the JR station. The Yurikamome station is in Higashi-Shimbashi 1-chome. This wrong address also appears in the "show this to your driver" box.
+    evidence: address and address_local now read 東京都港区東新橋1-1-11先 / 1-1-11 Higashi-Shimbashi. https://www.yurikamome.co.jp/station-timetable/u-01.html — "東京都港区東新橋一丁目１番１１号先", now listed in sources.
+  - field: blocks[2].items[1].text
+    problem: "The page says fans read the Moonlight Bridge as Rainbow Bridge, and quick_facts repeats it. The only fan source never names Rainbow Bridge: it says only the film's train-window view is modelled on Odaiba and \"Tokyo Bay Bridge\". No listed source ties the Moonlight Bridge to Rainbow Bridge."
+    evidence: The Moonlight Bridge = Rainbow Bridge claim is gone from blocks[2].items[1] and quick_facts. The highlight now just says to cross Rainbow Bridge on the walkway, and confidence_note matches dtman.info ("お台場、東京ベイブリッジがモデル").
+  - field: cost.local
+    problem: The headline cost is the ¥820 daily cap. The route the page suggests (Shimbashi to Shibaura-futo, then Odaiba-kaihinkoen back to Shimbashi) is only two rides and may cost less. Single fares were never checked, so the traveler cannot tell whether the cap matters. The official site also still lists an ¥820 QR one-day pass, which the page does not mention.
+    evidence: "Jorudan via atr render: Shimbashi→Shibaura-futo \"総額 251円 (切符 260円)\"; Odaiba-kaihinkoen→Shimbashi \"総額 325円 (切符 330円)\". The operator says a card tap charges the ticket fare (https://www.yurikamome.co.jp/ticket/touch-payment.html — \"タッチ決済で収受する運賃は大人片道乗車券のきっぷ運賃のみ\"), so ¥590 is right. The ¥820 cap and the ¥820 QR One-Day Pass are both on the page and match the operator's fare guide."
+  - field: blocks[9].items[0]
+    problem: The page says the cap needs "the same card all day" and treats a card and a phone as interchangeable. The operator requires the same card number and the same medium, so tapping a physical card and the same card on a phone does not count toward one cap. The page also cites a news site and Rurubu rather than the operator and the Port Bureau.
+    evidence: blocks[9].items[0] now says to use the same card number on the same device, the card or the phone but not both. https://www.yurikamome.co.jp/ticket/touch-payment.html — "同一のカード番号かつ同一の媒体でご乗車いただいた場合に限ります". The operator page and the Port Bureau walkway page are both in sources now.
+  - field: blocks[11].temp_low_c
+    problem: The weather block gives Dec–Jan figures of 2–10 °C and says the walkway closes in snow, but no listed source covers either. The official walkway page only says entry may be refused because of weather.
+    evidence: JMA normals at https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662 give January 日最低 1.2, 日最高 9.8, 降水量 59.7, which matches the page (1 °C / 10 °C, 1.2 / 9.8, about 60 mm). The snow claim is replaced with 'may shut in bad weather', in line with the Port Bureau's "天候上等の都合により、お客様の入場をお断りすることがあります".
+rereview_of: 53aa49b60a19a4009e7970de7ebff4be93455d0c3302ffbbda828ca921224193
+summary: "All five earlier findings are fixed and backed by sources: the address, the bridge claim, the two-ride fare of ¥590 (Jorudan ticket fares, and the operator charges taps at the ticket fare), the same-card-same-device cap rule, and the JMA January normals. The walkway hours and the 3rd-Monday closure match the Port Bureau. Only a nit is left in confidence_note."
+model: claude-opus-5-5
+cost_usd: 0.434

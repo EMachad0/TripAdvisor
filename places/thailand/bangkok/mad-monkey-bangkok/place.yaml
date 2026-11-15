@@ -1,0 +1,164 @@
+id: mad-monkey-bangkok
+name: "Mad Monkey Bangkok"
+short_name: Mad Monkey
+name_local: แมด มังกี้ กรุงเทพฯ
+country: thailand
+city: bangkok
+area: Banglamphu · Khao San
+category: stay
+tags: [hostel, social, party-hostel, pub-crawl, pool, bar, nightlife-base]
+kind: Stay
+why: "Bangkok's party hostel: free spirits at 19:00, a crawl at 23:00, a pool. Best for the 2–3 and 9 Jan weekends, not for sleeping by day."
+
+cost:
+  local: 900.25
+  currency: THB
+  brl: 148.45
+  note: "Hostelworld, 4-bed dorm, non-refundable, Sat 9 Jan 2027 (searched 12 Nov 2026). Sat 2 Jan: ฿1,327; Tue 5 Jan: ฿977–982"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 30
+  lead_time: "Book now: the 2 Jan night is post-New-Year peak"
+  method: website
+  links:
+    - label: Hostelworld (Sat 2 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Bangkok/Bangkok/278445?from=2027-01-02&to=2027-01-03&guests=1&currency=THB"
+      note: "Change the dates to your nights; price per bed, tax included"
+    - label: Hostelworld (Tue 5 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Bangkok/Bangkok/278445?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+      note: "A work-week night, for comparison"
+  notes: "On 12 Nov the 2 Jan night already cost ฿1,327 against ฿900–982 later that week, and the 5 Jan female dorm showed \"Only 4 beds left!\". The cheapest rate is non-refundable; free cancellation costs about ฿75–100 more."
+
+hours:
+  summary: "Check-in 14:00–24:00 · check-out until 12:00 · no curfew"
+  winter: "Sat 2 Jan is the tail of New Year: the 4-bed dorm was ฿1,327 that night against ฿900 on Sat 9 Jan (searched 12 Nov). The 2 Jan Hostelworld search showed no minimum-stay rule. Events listed for 2 Jan: The Meet Up and a karaoke night."
+
+location:
+  address: "55 Phra Sumen Road, Bang Lamphu, Phra Nakhon, Bangkok 10200"
+  address_local: "55 ถนนพระสุเมรุ แขวงชนะสงคราม เขตพระนคร กรุงเทพมหานคร 10200"
+  lat: 13.76329
+  lng: 100.49703
+  nearest_transit: "No BTS/MRT nearby; S1 airport bus to Khao San, then walk"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Bangkok/Bangkok/278445?from=2027-01-02&to=2027-01-03&guests=1&currency=THB"
+    title: "Mad Monkey Bangkok on Hostelworld, Sat 2 Jan 2027: 4-bed ฿1,327.48 non-refundable, ฿1,430.28 refundable; events, WiFi"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Bangkok/Bangkok/278445?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+    title: "Mad Monkey Bangkok on Hostelworld, Tue 5 Jan 2027 search: female 4-bed ฿976.54, mixed ฿981.62 (non-refundable), \"Only 4 beds left!\""
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Bangkok/Bangkok/278445?from=2027-01-09&to=2027-01-10&guests=1&currency=THB"
+    title: "Mad Monkey Bangkok on Hostelworld, Sat 9 Jan 2027 search: 4-bed dorm ฿900.25 non-refundable, ฿969.96 free cancellation"
+    checked: 2026-11-12
+  - url: https://madmonkeyhostels.com/blogs/bangkok-airport-to-khao-san-road/
+    title: "Mad Monkey Hostels (official blog, Oct 2026): address 55 Phra Sumen Road, no BTS/MRT on Khao San, S1 and A4 airport buses"
+    checked: 2026-11-12
+  - url: https://www.openstreetmap.org/?mlat=13.76329&mlon=100.49703#map=17/13.76329/100.49703
+    title: "OpenStreetMap: Mad Monkey Bangkok, 55 Phra Sumen Road (coordinates)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok (Wikipedia): climate table, January averages"
+    checked: 2026-11-12
+  - url: "https://en.wikipedia.org/w/index.php?title=Bangkok&action=raw"
+    title: "Bangkok article source text (Wikipedia): Jan high 32.7 °C, low 23.4 °C, rain 23.6 mm"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices, events and rules are from Hostelworld one-night searches for 2, 5 and 9 Jan 2027, read on 12 Nov 2026; prices move. Wi-Fi speed and any work space are not listed. The pub crawl price is not listed. Deposit and lift are not listed. The Thai address is my own rendering of the English address with the subdistrict from OpenStreetMap."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: phra-sumen-fort
+    caption: "Phra Sumen Fort, a short walk from the hostel. No free photo of the hostel itself exists"
+    hook: "Free-flow spirits at seven, the pub crawl at eleven, the pool to recover in the next afternoon."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–24:00", detail: "Check-out until 12:00" }
+      - { label: Vibe, value: Party hostel, detail: "Atmosphere 9.7/10 on Hostelworld" }
+      - { label: Your slot, value: "Weekend nights", detail: "Sat 2, Sun 3, Sat 9 Jan; poor base for the work week" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "4-bed mixed or female dorm · Sat 9 Jan"
+        local: 900.25
+        brl: 148.45
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Bangkok/Bangkok/278445?from=2027-01-09&to=2027-01-10&guests=1&currency=THB"
+        note: "Non-refundable, ensuite, searched 12 Nov; ฿969.96 with free cancellation"
+      - label: "4-bed female dorm · Tue 5 Jan"
+        local: 976.54
+        brl: 161.03
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Bangkok/Bangkok/278445?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+        note: "Non-refundable; mixed dorm ฿981.62. A typical work-week night"
+      - label: "4-bed mixed dorm · Sat 2 Jan"
+        local: 1327.48
+        brl: 218.9
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Bangkok/Bangkok/278445?from=2027-01-02&to=2027-01-03&guests=1&currency=THB"
+        note: "Arrival night, post-New-Year price; ฿1,430.28 with free cancellation"
+    rating:
+      score: 9.7
+      out_of: 10
+      source: Hostelworld
+      reviews: 6887
+      atmosphere: 9.7
+      checked: 2026-11-12
+    social:
+      - "**The Meet Up, every night at 19:00**: 30 minutes of free-flow spirits and mixers at the bar."
+      - "**Pub crawl every night at 23:00**; on Wednesdays and Sundays it is \"Khaosan's Biggest Pub Crawl\" with a singlet, cocktail, shot and entry to 3 bars and 1 club."
+      - "Weekly fixtures: Beats & Bingo (Tue), beer pong (Thu), foam party (Sat). Hostel-run canal, tuk-tuk and Chinatown tours leave the bar at 14:30."
+      - "Nov 2026 review: \"Such an awesome place to meet people!\""
+      - "**Your dates**: the Meet Up and crawl fit only Sat 2, Sun 3 (big crawl) and Sat 9 Jan (foam party). Your 4–8 Jan shifts (19:00–04:00) miss both."
+    good_to_know:
+      - "Dorms are **4-bed, air-conditioned and ensuite**, with privacy curtains, a reading light and socket per bunk, and a locker. There is a female-only 4-bed dorm."
+      - "Free security lockers, luggage storage, WiFi and towel."
+      - "Pool and an outdoor gym on site; bar and restaurant."
+      - "No children, no smoking, no curfew. It is loud by design: light sleepers should look at NapPark instead."
+      - "**Work week**: only \"Free WiFi\" is listed (no cowork space), and you'd sleep by day in a party dorm. Stay here for weekends only."
+  - type: highlights
+    items:
+      - title: Built for meeting people
+        text: "**9.7 overall and 9.7 for atmosphere** from 6,887 Hostelworld reviews, and an organised night out every single night."
+      - title: A pool on Khao San
+        text: "A pool and sunbeds, which the hostel calls a rare find on Khao San, for the slow afternoon after a crawl."
+      - title: Small dorms
+        text: "Only 4-bed rooms, each with its own bathroom, so a party hostel still sleeps better than a 20-bed hall."
+      - title: Old Bangkok on foot
+        text: "On Phra Sumen Road by the river and the fort, a walk from Khao San Road and the old-city temples."
+  - type: cost_breakdown
+    items:
+      - { label: "4-bed dorm bed, Sat 9 Jan (non-refundable)", local: 900.25, brl: 148.45 }
+      - { label: "S1 airport bus from Suvarnabhumi", local: 60, brl: 9.89, optional: true }
+  - type: map
+    note: "From Suvarnabhumi take the **S1 bus** (Level 1, Gate 7, ฿60, 06:00–20:00) to Khao San and walk the last stretch along Phra Sumen Road."
+  - type: tips
+    variant: insider
+    items:
+      - "Be at the bar at **19:00** on your first night: The Meet Up is free and it is how the pub-crawl crew forms."
+      - "**Sun 3 Jan** is the one free night with the big crawl (club entry included); Wednesday's falls on a work night."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The arrival night is the dearest: ฿1,327 on Sat 2 Jan against ฿982 on Tue 5 Jan and ฿900 on Sat 9 Jan (searched 12 Nov)."
+      - "Sleeping here through the 4–8 Jan work week means daytime sleep in a loud 4-bed dorm. Split the stay."
+      - "The cheapest rate is non-refundable. If your Thailand dates may still move, pay the extra ~฿70–100 for free cancellation."
+  - type: book_ahead
+    steps:
+      - days_before: 30
+        text: "Book the weekend nights (2–3 and 9 Jan) on Hostelworld as soon as dates are fixed; choose free cancellation if they may move."
+      - days_before: 0
+        text: "Check in from 14:00, then go to The Meet Up at 19:00."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Hot, dry and sunny; the cool season
+    note: "January averages 23 °C at night and 33 °C by day with about 24 mm of rain all month. Pool weather; crawls are warm, not sweaty."
+    wear: Light clothes, sandals; cover shoulders and knees for temples
+  - type: pairs_well
+    items:
+      - id: golden-mount-wat-saket
+        note: "Sunset over the old city, a walk across Banglamphu"
+      - id: grand-palace-wat-phra-kaew
+        note: "The Grand Palace is a short walk south of Banglamphu"
+      - id: nappark-hostel
+        note: "Quieter, cheaper Khao San hostel for the work week"

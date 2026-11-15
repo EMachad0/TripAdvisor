@@ -1,0 +1,144 @@
+id: club-joule-osaka
+name: "Club Joule"
+short_name: Joule
+name_local: クラブ ジュール (clubJOULE)
+country: japan
+city: osaka
+area: Amerikamura · Minami
+category: nightlife
+fame: popular
+must_do: japan-clubs
+tags: [club, techno, house, rooftop, amerikamura, late-night]
+kind: Do
+why: "Osaka's best-known club since 1999: three floors and the city's only club rooftop terrace. Techno every Wednesday for ¥2,000."
+cost:
+  local: 2000
+  currency: JPY
+  brl: 70.2
+  note: "Wednesday techno night at the door. Big weekend guests: about ¥3,000 before midnight, ¥4,000 at the door. Drinks extra"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 4–6 h
+best_time: "Arrive 23:00–00:00; headliners usually play 00:00–02:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Event nights only. Doors about 22:00–23:00, closing about 04:00–05:00. Techno every Wednesday from 23:00"
+  winter: "No January 2027 events announced yet (checked 2026-11-11); the club posts them on its site. Your Japan dates are now Jan 4–22, so the Wednesdays are Jan 6, 13 and 20, if the weekly night runs then. Coming-of-Age Day (Mon Jan 11) makes Sun Jan 10 a holiday eve."
+
+location:
+  address: "Minami Sumiyamachi Bldg 2–4F, 2-11-7 Nishi-Shinsaibashi, Chuo-ku, Osaka"
+  address_local: 大阪府大阪市中央区西心斎橋2-11-7 南炭屋町ビル 2〜4F clubJOULE
+  lat: 34.67077
+  lng: 135.49861
+  nearest_transit: "Shinsaibashi (Midosuji line) Exit 7, or Yotsubashi Exit 5"
+  approximate: true
+
+sources:
+  - url: https://club-joule.com/
+    title: "clubJOULE official site (est. 1999, upcoming events)"
+    checked: 2026-11-11
+  - url: https://club-joule.com/events/midweek-groove-techno-every-wednesday-6/
+    title: "MIDWEEK GROOVE TECHNO EVERY WEDNESDAY, clubJOULE (Nov 2026: 23:00, door ¥2,000)"
+    checked: 2026-11-11
+  - url: https://club-joule.com/about/
+    title: "About clubJOULE (three floors, Osaka's only club rooftop terrace)"
+    checked: 2026-11-11
+  - url: https://www.timeout.com/osaka/music/joule
+    title: "Joule — Time Out Osaka (address, 800-person dancefloor, stations)"
+    checked: 2026-11-11
+  - url: https://www.technoairlines.com/club/club-joule-osaka
+    title: "clubJOULE Osaka — Techno Airlines (GOODLIFE Oct 9, 2026 prices; checked Sep 2026)"
+    checked: 2026-11-11
+  - url: https://www.ticketfairy.com/events-in-osaka/joule
+    title: "Joule, Osaka — Ticket Fairy venue guide (20+, photo ID, typical hours)"
+    checked: 2026-11-11
+  - url: https://www.osakatourism.org/best-nightclubs-in-osaka/
+    title: "Osaka Nightlife Guide — osakatourism.org (verified Oct 24, 2026: passport, dress code, getting home)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Wednesday price from the club's own Nov 2026 listing; weekend prices from a Techno Airlines page quoting the club. No January 2027 events posted yet. Age 20+ and photo ID from Ticket Fairy; passport and dress code from osakatourism.org; not stated on the club's site. Pin is the block (Nishi-Shinsaibashi 2-chome), not the door. No drink prices found."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: amerikamura
+    focus: center
+    caption: "Amerikamura by day, Joule's neighbourhood; no free photo of the club"
+    hook: House and techno in Amerikamura since 1999, with a rooftop to cool off on.
+  - type: quick_facts
+    time_needed: 4–6 h
+    best_time: Arrive 23:00–00:00
+    extra:
+      - { label: At the door, value: "Passport, 20+", detail: "Bring the physical passport, not a photo" }
+      - { label: Dress, value: Smart casual, detail: "Sneakers OK; no shorts on weekends" }
+      - { label: Cheapest night, value: "Wednesday, ¥2,000", detail: "Women free until 01:00" }
+  - type: highlights
+    items:
+      - title: The club with a rooftop
+        text: "Joule calls its rooftop terrace **the only one among Osaka nightclubs**. Three floors: main dancefloor, a mezzanine and a VIP level up top."
+      - title: Real lineups
+        text: "Time Out lists past guests from Steve Aoki and Calvin Harris to Fatboy Slim. The club's 2026 news announced Dixon, and its GOODLIFE techno parties come back several times a year."
+      - title: A cheap midweek night
+        text: "**MIDWEEK GROOVE** is techno every Wednesday from 23:00. ¥2,000 at the door, and the lineup changes each week."
+  - type: prose
+    title: How a night works
+    dropcap: true
+    text: |-
+      Joule opened in **1999** next to Triangle Park in Amerikamura, moved to its current building in 2009 and was refurbished in 2016 (Time Out). The main dancefloor holds about **800 people**. Music changes by night: techno and house most often, with hip-hop and reggae nights between them.
+
+      Prices depend on the party. The Wednesday techno night is ¥2,000. For a bigger weekend name, expect about ¥3,000 in advance or before midnight and ¥4,000 at the door (GOODLIFE, October 2026). Osaka residents get a discount with proof of address, which you won't have.
+
+      **Getting home:** Osaka's subway runs until about midnight and starts again around 05:00. Either stay until the first train, take a taxi (20% late-night surcharge after 22:00) or walk back if your hostel is in Namba or Shinsaibashi.
+  - type: quote
+    variant: vibe
+    text: Strobe on the main floor at 2 a.m., then cold air on the only club rooftop in Osaka.
+  - type: cost_breakdown
+    items:
+      - { label: "Entry, Wednesday techno night (door)", local: 2000, brl: 70.2 }
+      - { label: "Extra on a big weekend night (¥4,000 door)", local: 2000, brl: 70.2, optional: true }
+  - type: menu
+    title: Entry prices
+    items:
+      - name: Wednesday techno night, door
+        name_local: MIDWEEK GROOVE 当日
+        price_local: 2000
+        price_brl: 70.2
+        note: "Every Wednesday from 23:00 (club listing, Nov 2026). Women free until 01:00"
+        tag: cheap
+      - name: Weekend party, advance or before midnight
+        price_local: 3000
+        price_brl: 105.3
+        note: "Example: GOODLIFE feat. NAKADIA, Fri Oct 9, 2026"
+      - name: Weekend party, door
+        price_local: 4000
+        price_brl: 140.4
+        note: "Same night, at the door after midnight"
+    note: "Drink prices weren't published in any source we found. Prices change per event: check the event page on club-joule.com first."
+  - type: map
+    note: "From **Shinsaibashi station Exit 7** walk west into Amerikamura. The club is on floors 2–4 of the Minami Sumiyamachi Building. Pin is approximate."
+  - type: tips
+    variant: insider
+    items:
+      - "Go on a **Wednesday** for the cheap ¥2,000 techno night, or pick a weekend with a guest DJ on the club's event page."
+      - "Buy in advance or arrive **before midnight** on big nights: ¥3,000 instead of ¥4,000 at the door."
+      - "Go with people from your hostel and share a taxi back if you leave before the first train."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Under 20? You won't get in.** Staff check photo ID; bring your actual passport."
+      - "Shorts aren't allowed on weekends. In January you won't be wearing them anyway."
+      - "Taxis add a **20% late-night surcharge** after 22:00. If your hostel is far, waiting for the ~05:00 first train is the cheap option."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cold, mostly dry nights, around 3 °C at closing time
+    note: "Osaka's January normals are 3–10 °C (Wikipedia, 1991–2020). Indoors all night, but the rooftop and the walk home at 05:00 will be cold."
+    wear: A jacket you can carry or check; club clothes underneath
+  - type: pairs_well
+    items:
+      - { id: dotonbori-kani-doraku-crab, note: "Neon and the giant crab before the club opens" }
+      - { id: tenma-standing-bars, note: "Cheap drinks with the hostel crew before going out" }
+      - { id: hostel-chillax-namba, note: "Round up people from the hostel and go together" }

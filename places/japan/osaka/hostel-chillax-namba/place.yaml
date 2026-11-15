@@ -1,0 +1,159 @@
+id: hostel-chillax-namba
+name: "Riverside Hostel Chillax Namba"
+short_name: Hostel Chillax
+country: japan
+city: osaka
+area: Naniwa · Saiwaicho
+category: stay
+tags: [hostel, social, coworking, pub-crawl, reggae, terrace, remote-work]
+kind: Stay
+why: "The work-week base: a listed coworking space and ¥7,500 single rooms with a table, plus pub crawls and reggae nights, 10 min from Dotonbori. Dorm ¥6,700."
+
+cost:
+  local: 6700
+  currency: JPY
+  brl: 235.17
+  note: "Hostelworld, 12-bed mixed dorm, Mon 4 and Tue 5 Jan 2027 (same price), 1 guest, searched 11 Nov 2026"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 7
+  lead_time: "Book 7+ days ahead: free cancellation ends 6 days before arrival"
+  method: website
+  links:
+    - label: Hostelworld (Tue 5 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Riverside-HOSTEL-CHILLAX-Namba/Osaka/324624?from=2027-01-05&to=2027-01-06&guests=1&currency=JPY"
+      note: "Change the dates to your own nights; you pay in cash on arrival"
+  notes: "Recommended for the single rooms: on 11 Nov only 2 were left for 4, 5 and 9 Jan. Cancelling 5 days or less before arrival costs 100% of all nights."
+
+hours:
+  summary: "Check-in 15:00–23:00 (paid late check-in to 00:30) · check-out by 11:00 · reception 10:00–23:00 · no curfew"
+  winter: "Japan dates are now 4–22 Jan; 4–8 Jan is a remote-work week. No seasonal notes on Hostelworld. Seen 11 Nov: 12-bed dorm ¥6,700 Mon 4 and Tue 5 Jan, ¥9,200 Sat 9 Jan; single room ¥7,500 Mon 4 / Tue 5, ¥11,000 Sat 9."
+
+location:
+  address: "2-1-3 Saiwaicho, Naniwa-ku, Osaka 556-0021"
+  address_local: 大阪府大阪市浪速区幸町2-1-3
+  lat: 34.66917
+  lng: 135.48943
+  nearest_transit: "Sakuragawa (Sennichimae Line) 5 min; JR Namba 8 min"
+  approximate: true
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Riverside-HOSTEL-CHILLAX-Namba/Osaka/324624?from=2027-01-05&to=2027-01-06&guests=1&currency=JPY"
+    title: "Hostel Chillax on Hostelworld, Tue 5 Jan 2027: prices, house rules, cash only, Coworking Space, rating 8.8 (189), atmosphere 8.7"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Riverside-HOSTEL-CHILLAX-Namba/Osaka/324624?from=2027-01-04&to=2027-01-05&guests=1&currency=JPY"
+    title: "Hostel Chillax on Hostelworld, Mon 4 Jan 2027 search: dorm ¥6,700, single ¥7,500 (2 left)"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Riverside-HOSTEL-CHILLAX-Namba/Osaka/324624?from=2027-01-09&to=2027-01-10&guests=1&currency=JPY"
+    title: "Hostel Chillax on Hostelworld, Sat 9 Jan 2027 search: dorm ¥9,200, single ¥11,000 (2 left)"
+    checked: 2026-11-11
+  - url: https://www.tripoffice.com/japan/osaka-jp/hostel-chillax
+    title: "HOSTEL CHILLAX on TripOffice: Japanese address, shared lounge, terrace"
+    checked: 2026-11-11
+  - url: https://www.hostelworld.com/blog/de/the-best-social-hostels-in-osaka-for-foodies-and-solo-travelers-2/
+    title: "Hostelworld blog: the best social hostels in Osaka (Hostel Chillax: open-plan kitchen and shared spaces)"
+    checked: 2026-11-11
+  - url: "https://www.openstreetmap.org/?mlat=34.66917&mlon=135.48943#map=17/34.66917/135.48943"
+    title: "OpenStreetMap: Saiwaicho 2-chome, Naniwa-ku (block centre, not the building)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: "Osaka (Wikipedia): climate table, January normals 1991–2020"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Prices are Hostelworld per-room/bed prices for the linked one-night searches, seen 11 Nov; they move. The coworking space is only a line in Hostelworld's facility list: its size, hours and quietness are not described anywhere I could open. The pin is the centre of Saiwaicho 2-chome, not the building. Reviews disagree on how social it is."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: sakuragawa-exit
+    caption: "Sakuragawa station, 5 minutes away. No free photo of the hostel exists"
+    hook: "Laptop in the coworking space by day, the riverside terrace at night, Dotonbori 10 minutes away."
+  - type: quick_facts
+    extra:
+      - { label: Work space, value: Coworking space listed, detail: "Plus single rooms with a table, ¥7,500 on 4–5 Jan" }
+      - { label: Payment, value: Cash only, detail: "On arrival, including late check-in fees" }
+      - { label: Vibe, value: "Chill, sometimes social", detail: "Atmosphere 8.7/10 on Hostelworld" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "12-bed mixed dorm · Mon 4 or Tue 5 Jan"
+        local: 6700
+        brl: 235.17
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Riverside-HOSTEL-CHILLAX-Namba/Osaka/324624?from=2027-01-05&to=2027-01-06&guests=1&currency=JPY"
+        note: "Hostelworld, free cancellation 6+ days ahead, searched 11 Nov"
+      - label: "Single room, shared bathroom · Mon 4 or Tue 5 Jan"
+        local: 7500
+        brl: 263.25
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Riverside-HOSTEL-CHILLAX-Namba/Osaka/324624?from=2027-01-04&to=2027-01-05&guests=1&currency=JPY"
+        note: "Table, air con and Wi-Fi; only 2 left on 11 Nov"
+      - label: "12-bed mixed dorm · Sat 9 Jan"
+        local: 9200
+        brl: 322.92
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Riverside-HOSTEL-CHILLAX-Namba/Osaka/324624?from=2027-01-09&to=2027-01-10&guests=1&currency=JPY"
+      - label: "Single room, shared bathroom · Sat 9 Jan"
+        local: 11000
+        brl: 386.1
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Riverside-HOSTEL-CHILLAX-Namba/Osaka/324624?from=2027-01-09&to=2027-01-10&guests=1&currency=JPY"
+    rating:
+      score: 8.8
+      out_of: 10
+      source: Hostelworld
+      reviews: 189
+      atmosphere: 8.7
+      checked: 2026-11-11
+    social:
+      - "The hostel offers **reggae music events** and says: \"Let's do pub crawl together!\""
+      - "July 2026 review: \"one of the most social hostels I've stayed at in Japan with the terrace being the perfect place to make friends\"."
+      - "October 2026 review: nice lounge and patio, but \"it wasn't very social\". Expect it to depend on who is staying."
+      - "Shared living room, open-plan kitchen and a balcony (the only place smoking is allowed)."
+    good_to_know:
+      - "**Cash only**, paid on arrival. Cards are not accepted."
+      - "Late check-in costs ¥1,000 (23:00–23:30), ¥1,800 (to 24:00), ¥2,500 (to 00:30). No check-in after 00:30."
+      - "Without notice of a late arrival, the booking may be cancelled after 23:00."
+      - "Free security lockers, free luggage storage, adaptors."
+      - "Dorm beds have curtains, a light, power and a bed table; lockers and showers on the same floor."
+      - "Free to cancel 6+ days before arrival; after that you pay 100% of all nights."
+  - type: highlights
+    items:
+      - title: A desk for the work week
+        text: "Hostelworld lists a **Coworking Space**, and the single rooms (¥7,500 on 4–5 Jan) come with a table, air con and Wi-Fi."
+      - title: Pub crawls and reggae
+        text: "The hostel runs reggae music events and invites guests on pub crawls; a July 2026 reviewer made friends on the terrace."
+      - title: Walk to Dotonbori
+        text: "The hostel puts Dotonbori 10 minutes away, Sakuragawa station 5 and JR Namba 8."
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "Book on Hostelworld while cancellation is still free (6+ days before arrival). Take a **single room** for 4–8 Jan if you want a table to work at."
+      - days_before: 1
+        text: "Get yen in cash for the whole stay: you pay on arrival and cards are not accepted."
+      - days_before: 0
+        text: "Check in 15:00–23:00. Arriving later? Tell them in advance and bring cash for the late fee."
+  - type: map
+    note: "The pin is the block, not the door. From Sakuragawa station (Sennichimae Line) it is about 5 minutes on foot."
+  - type: tips
+    variant: insider
+    items:
+      - "For a work week, a single room at ¥7,500 is only ¥800 more than a dorm bed on Mon 4 / Tue 5 Jan."
+      - "Ask at check-in when the next pub crawl or reggae night is."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Saturday 9 Jan costs more: ¥9,200 for the dorm and ¥11,000 for the single, against ¥6,700 and ¥7,500 on Mon–Tue."
+      - "Nobody describes the coworking space: ask the hostel how big and quiet it is before you plan calls there."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool and mostly dry
+    note: "January in Osaka averages 3.0 °C at night and 9.7 °C by day, with about six wet days. The terrace is cold after dark."
+    wear: Warm jacket for the terrace and the walk to Dotonbori
+  - type: pairs_well
+    items:
+      - id: dotonbori-kani-doraku-crab
+        note: "The giant crab of Dotonbori, about 10 minutes away"
+      - id: club-joule-osaka
+        note: "A club night with people from the pub crawl"
+      - id: mad-cat-hostel-osaka
+        note: "The other Osaka pick: more social, no work room"

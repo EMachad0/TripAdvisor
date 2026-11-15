@@ -1,0 +1,170 @@
+id: g-guesthouse-itaewon
+name: "G Guesthouse Itaewon"
+short_name: G Guesthouse
+country: korea
+city: seoul
+area: Yongsan-gu · Itaewon
+category: stay
+tags: [hostel, social, rooftop, bbq, itaewon, free-breakfast]
+kind: Stay
+why: "One of the cheapest social beds for 10–19 Jan: ₩29,241 on weeknights with free breakfast, 2 min from Itaewon station, but across town from Hongdae."
+
+cost:
+  local: 29241
+  currency: KRW
+  brl: 121.53
+  note: "Hostelworld, 10-bed mixed dorm (ensuite), non-refundable, Sun–Thu nights 10–19 Jan 2027 (Fri ₩42,349, Sat ₩45,374), seen 12 Nov"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 5
+  lead_time: "Book 5+ days ahead: free cancellation needs 4 days' notice"
+  method: website
+  links:
+    - label: Hostelworld (Mon 11 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+      note: "Change the dates to yours; the cheapest rate is non-refundable"
+  notes: "Only lightly recommended: on 12 Nov the 10-bed dorm had 20 beds free every night 10–19 Jan, but the 4-bed mixed dorm was down to 1 bed on 11–14 Jan, and Fri/Sat cost about 50% more."
+
+hours:
+  summary: "Check-in 15:00–24:00 · check-out by 11:00 · no curfew"
+  winter: "No seasonal notes on Hostelworld. Cheapest dorm bed seen on 12 Nov (non-refundable): ₩29,241 every Sun–Thu night 10–19 Jan, ₩42,349 Fri 15 Jan, ₩45,374 Sat 16 Jan. Rooms have Korean floor heating."
+
+location:
+  address: 14-38 Bogwang-ro 60-gil, Yongsan-gu, Seoul
+  address_local: 서울특별시 용산구 보광로60길 14-38
+  lat: 37.5334
+  lng: 126.9951
+  nearest_transit: "Itaewon station (Line 6), 2 min walk"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+    title: "G Guest House Itaewon on Hostelworld, Mon 11 Jan 2027 search: dorm prices, house rules, rating 9.0 (1,283), atmosphere 8.7, reviews"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-16&to=2027-01-17&guests=1&currency=KRW"
+    title: "G Guest House Itaewon on Hostelworld, Sat 16 Jan 2027 search: 10-bed dorm ₩45,374 non-refundable, ₩46,778 flexible"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/85799/availability/?guests=1&num-nights=1&date-start=2027-01-15&currency=KRW&application=web"
+    title: "Hostelworld availability feed (change date-start): 10–19 Jan read nightly; Fri 15 Jan ₩42,349, free cancellation to 4 days before"
+    checked: 2026-11-12
+  - url: https://www.hostelworld.com/hostels/p/85799/g-guest-house-itaewon-in-seoul/
+    title: "G Guest House Itaewon, Hostelworld property page: description (wifi, desk, rooftop BBQ), coordinates, free cancellation, reviews"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/85799/?application=web"
+    title: "Hostelworld property feed: house rules (check-out before 11:00, cash or card on arrival), facility list"
+    checked: 2026-11-12
+  - url: https://en.wikivoyage.org/wiki/Seoul
+    title: "Seoul (Wikivoyage): Itaewon as Seoul's international district"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Prices are Hostelworld per-bed prices for 10–19 Jan, read 12 Nov (feed with curl, pages rendered); they move. The Lonely Planet and TV-filming claims are the hostel's own words. Whether the rooftop or BBQ is usable in January is not stated. The 'bar downstairs' is from one undated review. No source says a common room stays open at night. Booking.com facts dropped: it cannot be fetched."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: itaewon-crossing
+    caption: "An Itaewon crossing at night. No free photo of the hostel exists"
+    hook: "Free breakfast, floor-heated dorms and Itaewon's bars two minutes from the station."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "15:00–24:00", detail: "Check-out by 11:00, no curfew" }
+      - { label: Vibe, value: "Social, varies by night", detail: "Atmosphere 8.7/10 on Hostelworld" }
+      - { label: Breakfast, value: Free }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "10-bed mixed dorm, ensuite · Sun–Thu (e.g. Mon 11 Jan)"
+        local: 29241
+        brl: 121.53
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+        note: "Hostelworld, non-refundable, same every Sun–Thu night 10–19 Jan; seen 12 Nov"
+      - label: "10-bed mixed dorm, ensuite · Mon 11 Jan, flexible"
+        local: 30146
+        brl: 125.29
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+        note: "Free-cancellation rate"
+      - label: "10-bed mixed dorm, ensuite · Fri 15 Jan"
+        local: 42349
+        brl: 176.00
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-15&to=2027-01-16&guests=1&currency=KRW"
+        note: "Non-refundable"
+      - label: "10-bed mixed dorm, ensuite · Sat 16 Jan"
+        local: 45374
+        brl: 188.57
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-16&to=2027-01-17&guests=1&currency=KRW"
+        note: "Non-refundable; ₩46,778 flexible"
+      - label: "4-bed mixed dorm, ensuite · Mon 11 Jan"
+        local: 40333
+        brl: 167.62
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+        note: "Non-refundable; quieter for day sleep. 1 bed left on 11–14 Jan when searched"
+      - label: "Twin private room, ensuite · Mon 11 Jan"
+        local: 131081
+        brl: 544.77
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+        note: "Whole room, non-refundable"
+    rating:
+      score: 9.0
+      out_of: 10
+      source: Hostelworld
+      reviews: 1283
+      atmosphere: 8.7
+      checked: 2026-11-12
+    social:
+      - "**Rooftop with BBQ facilities** looking over Itaewon, open to guests \"from all over the world\", in the hostel's words. January use not stated."
+      - "Sep 2026 review: \"The rooftop is also mostly good for socialising although it depends on the night.\""
+      - "Shared kitchen and cafeteria for tea time; one review mentions a bar downstairs to socialise."
+    good_to_know:
+      - "Every dorm bed has its own light, outlet and locker; rooms have Korean floor heating."
+      - "Free breakfast, free luggage storage, coin laundry (powder provided)."
+      - "Hostelworld's review summary: bathrooms can feel dated and wet, and the common areas are small."
+      - "No children. Free cancellation only if you book more than 4 days ahead."
+      - "The cheapest rate is non-refundable; the flexible rate was ₩905 more on weeknights. Cash or card on arrival, says the hostel."
+      - "**Night shifts:** fast wifi \"everywhere\" and a meeting room are listed, but no source says a common space is open 21:00–06:00. Ask first."
+      - "**Day sleep:** check-out is before 11:00. For work nights, the 4-bed dorm or the twin room (prices above; rooms have a desk and chair) are calmer."
+  - type: highlights
+    items:
+      - title: A cheap social bed
+        text: "**₩29,241 (R$121.53)** on every weeknight 10–19 Jan, breakfast included."
+      - title: Itaewon's bars on the doorstep
+        text: "Wikivoyage calls Itaewon Seoul's international district, full of Western-style places to eat and drink. The hostel is 2 minutes from the station."
+      - title: Well reviewed
+        text: "A **9.0** Hostelworld score from more than 1,200 reviews, plus BBQ facilities on the roof (January use unconfirmed)."
+  - type: book_ahead
+    steps:
+      - days_before: 5
+        text: "Book on Hostelworld. More than 4 days ahead keeps free cancellation on the flexible rate (by 6 Jan for a Sun 10 Jan arrival)."
+      - days_before: 0
+        text: "Check in from 15:00 (until midnight)."
+  - type: map
+    note: "Two minutes on foot from Itaewon station, up Bogwang-ro 60-gil."
+  - type: gallery
+    feature: false
+    images:
+      - file: itaewon-snow
+        caption: "Snow on an Itaewon hillside street"
+  - type: tips
+    variant: insider
+    items:
+      - "Every night 10–19 Jan is ₩29,241 except Fri 15 (₩42,349) and Sat 16 Jan (₩45,374), non-refundable, seen 12 Nov. All 10 nights (10–19 Jan) come to about ₩321,650 (R$1,337)."
+      - "Hongdae's clubs and T1 Base Camp are across town; here you go out in Itaewon instead, or ride the subway west and back."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The cheapest rate is **non-refundable**. Pay the extra few hundred won for the flexible one if your dates may move."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry and freezing, some snow
+    note: "January in Seoul averages −5.5 °C at night and 2.1 °C by day, with about seven snowy days. If the rooftop is open, it needs a proper coat; the dorms have floor heating."
+    wear: Padded jacket, hat and gloves
+  - type: pairs_well
+    items:
+      - id: namsan-n-seoul-tower
+        note: "The hostel says Namsan Mountain is close by"
+      - id: hongdae-club-night
+        note: "For the famous clubs, take the subway across to Hongdae"

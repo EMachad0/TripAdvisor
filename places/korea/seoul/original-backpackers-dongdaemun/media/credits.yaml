@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: heunginjimun
+  title: File:Dongdaemun Gate or Heunginjimun gate.jpg
+  author: TealAlligator
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Dongdaemun_Gate_or_Heunginjimun_gate.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fc/Dongdaemun_Gate_or_Heunginjimun_gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Dongdaemun Gate or Heunginjimun gate
+  width: 3976
+  height: 2650
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

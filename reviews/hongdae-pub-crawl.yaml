@@ -1,0 +1,16 @@
+# Independent review of hongdae-pub-crawl. Written by `./atr review`; do not edit by hand.
+id: hongdae-pub-crawl
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: f82e6b81b413b30364b917c4434a301fb7d1c4341db33f419222d82756d2c418
+facts:
+  supported: 10
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: f192017858192954acaec7cd67c807400e223d88ff68f1f90078026f5f7b5786
+summary: "The new details match the organiser's Ticket Tailor pages: event 2519486 is Sat 16 Jan 2027 at Mike's Cabin, ₩25,000, check-in 20:30–21:40, and the Friday event 2519484 is 15 Jan at Dokkaebi Party House. The list ends on 16 Jan and has an Itaewon crawl that night. The night-by-night fit matches config/trip.yaml. The only fact I could not check is the hedged Trazy price note. There were no earlier findings, and the phone screenshot shows the changed sections displaying correctly."
+model: claude-opus-5-5
+cost_usd: 0.42

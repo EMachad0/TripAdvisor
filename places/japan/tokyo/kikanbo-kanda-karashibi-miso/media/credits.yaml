@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: kanda-east-exit
+  title: File:Kanda-Station-East-Exit-2019.jpg
+  author: Kaze315
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Kanda-Station-East-Exit-2019.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f0/Kanda-Station-East-Exit-2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: JR東日本神田駅東口（2019年）
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

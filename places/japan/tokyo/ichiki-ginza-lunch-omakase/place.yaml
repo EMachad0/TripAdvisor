@@ -1,0 +1,127 @@
+id: ichiki-ginza-lunch-omakase
+name: "Ichiki Ginza Lunch Omakase"
+short_name: Ichiki
+name_local: 一㐂
+name_romanized: Ichiki
+country: japan
+city: tokyo
+area: Chūō · Ginza 5-chōme
+category: food
+fame: hidden
+tags: [sushi, omakase, counter, splurge, lunch]
+kind: Eat
+why: "A 16-item Edomae lunch at a Ginza counter for about ¥12,100 with service. Books for one on Tabelog in English, 1 min from Ginza Station."
+cost:
+  local: 12100
+  currency: JPY
+  brl: 428.34
+  note: "¥11,000 lunch course incl. tax + 10% service; drinks extra"
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+time_needed: 90 min (lunch seat limit)
+best_time: "Lunch at 12:00 (last entry 13:30)"
+
+book_ahead:
+  required: recommended
+  lead_days: 3
+  lead_time: "Lunch page gives no lead time; book a few days ahead for a 12:00 seat"
+  method: platform
+  links:
+    - label: Tabelog lunch course (English)
+      url: https://tabelog.com/en/tokyo/A1301/A130101/13258242/party/166928524/
+      note: "'Lunch Omakase Course ¥11,000'. The booking box offers 1–6 guests"
+  notes: "For guests from overseas: cancelling the day before costs 50%, on the day 100%. The shop asks you to give your hotel's phone number. Phone bookings win a double booking, so arrive with your confirmation."
+
+hours:
+  summary: "Daily 12:00–14:30 (last entry 13:30) and 17:00–23:00 (last entry 21:00)"
+  winter: "Tabelog lists no regular closing day and no New Year notice (Nov 2026). Late January should be normal service; check the booking calendar."
+
+location:
+  address: 4F Nishigo Bldg, 5-4-15 Ginza, Chūō-ku, Tokyo
+  address_local: 東京都中央区銀座5-4-15 西五ビル 4F
+  lat: 35.67164
+  lng: 139.76292
+  nearest_transit: Ginza (Ginza / Hibiya / Marunouchi Line), 1 min walk
+  approximate: true
+
+sources:
+  - url: https://tabelog.com/en/tokyo/A1301/A130101/13258242/
+    title: Ichiki — Tabelog (3.54, hours, 10% service, 20 seats, cards, perfume rule, booking box 1–6 guests)
+    checked: 2026-11-13
+  - url: https://tabelog.com/en/tokyo/A1301/A130101/13258242/party/166928524/
+    title: Ichiki — Tabelog lunch course page (¥11,000 incl. tax, 16 items, 90-min stay, overseas cancellation rules)
+    checked: 2026-11-13
+  - url: https://tabelog.com/en/tokyo/A1301/A130101/13258242/dtlrvwlst/
+    title: Ichiki — Tabelog reviews (visits up to October 2026)
+    checked: 2026-11-13
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "JMA: climate normals 1991–2020, Tokyo (January)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "All facts from Ichiki's own Tabelog listing (marked 'Official information') and its course page, Nov 2026. Its website (ginza-sushiichiki.com) did not resolve from here, so I couldn't cross-check. Tabelog advertises same-day booking only for the dinner course; the lunch page gives no lead time, so 3 days is a safety margin. Drink prices aren't published. No Michelin or Tabelog award found."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: ginza-5-chome
+    caption: "Ginza 5-chōme crossing, a minute from the restaurant (no free photo of the counter)"
+    hook: Ginza sushi at lunch prices, in front of the knife.
+  - type: quick_facts
+    time_needed: 90 min seat
+    best_time: Lunch from 12:00
+    extra:
+      - { label: Course, value: 16 items, detail: "11 nigiri, 2 rolls, tamagoyaki, soup, dessert" }
+      - { label: Solo, value: "Yes, 1 guest", detail: Tabelog's booking box starts at 1 }
+      - { label: Out of place?, value: A little, detail: "A Ginza business-lunch room; the only stated rule is no perfume" }
+  - type: highlights
+    items:
+      - title: Why go over the R$170 day
+        text: "About **R$428**, roughly **2.5 days of budget**. You sit at the counter while an Edomae chef serves 11 nigiri one by one, plus rolls, tamagoyaki, soup and dessert. The same room's dinner is ¥18,000 before service; lunch is the smart way in."
+      - title: Booking built for foreigners
+        text: "The Tabelog course page is in **English** and has its own rules **for customers from overseas**. You don't need a concierge."
+      - title: What the room is like
+        text: "A modern Japanese room with a **12–13 seat counter** and private rooms. Tabelog tags it as a *relaxing space* that's popular for business meals."
+      - title: Honest ranking
+        text: "**3.54 on Tabelog** from 760+ reviews. No Michelin or Tabelog award: pick it for a proper counter lunch in Ginza, not for prestige."
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "Open the Tabelog **Lunch Omakase Course (¥11,000)**, choose the date, **1 guest**, 12:00. Use your hostel or hotel phone number, as the shop asks."
+      - days_before: 1
+        text: "From the day before, cancelling costs **50%**; on the day, **100%**."
+      - days_before: 0
+        text: "Go up to **4F** of the building. An entry at 13:30 gets only one hour."
+  - type: menu
+    title: The courses (tax included)
+    items:
+      - { name: Lunch Omakase, price_local: 11000, price_brl: 389.40, note: "16 items; entry 12:00–13:30", tag: signature }
+      - { name: Dinner Omakase, price_local: 18000, price_brl: 637.20, note: "21 items, from 17:00" }
+    note: "A **10% service charge** is added to both. Drinks are extra and not priced online."
+  - type: cost_breakdown
+    items:
+      - { label: Lunch Omakase course, local: 11000, brl: 389.40 }
+      - { label: 10% service charge, local: 1100, brl: 38.94 }
+    note: "Drinks not included; Tabelog doesn't publish their prices."
+  - type: map
+    note: "One minute from **Ginza Station**, on the 4th floor of the Nishigo Building."
+  - type: tips
+    variant: insider
+    items:
+      - "Book the **12:00** entry: you get the full 90 minutes. The 13:30 entry is cut to one hour."
+      - "Tabelog says the shop may also take bookings by phone (050-5890-3942, the number Tabelog lists for reservations) when the online calendar shows nothing."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Don't wear perfume or cologne**: it's the one dress rule Tabelog lists."
+      - "The listed price excludes the **10% service charge**."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "Indoors the whole time, a minute from the subway."
+    wear: Neat casual; no perfume
+  - type: pairs_well
+    items:
+      - { id: ginza-hachigou-chukasoba, note: "Clear French-style ramen, 10 min walk" }
+      - { id: sushi-tokyo-ten-shibuya, note: "The all-drinks-included dinner option" }
+      - { id: sushi-azabu-lunch-omakase, note: "The cheaper lunch counter" }

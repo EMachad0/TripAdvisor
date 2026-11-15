@@ -1,0 +1,29 @@
+# Independent review of shanghai-maglev. Written by `./atr review`; do not edit by hand.
+id: shanghai-maglev
+type: place
+reviewed: 2026-11-14
+verdict: pass
+content_hash: 7f6262b8c5bd7d235ef6e17b0065dc40653fea78b069eb7959e172b0296b6a6c
+facts:
+  supported: 30
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[7].items[2]
+    problem: The page treats the museum as free with a same-day ticket and gives only the operator's 09:00–17:30. Chinese Wikipedia gives 9:00–17:00, and Wander in China says entry may cost a nominal ¥10.
+    evidence: https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E7%A3%81%E6%B5%AE%E4%BA%A4%E9%80%9A%E7%A7%91%E6%8A%80%E9%A6%86 — "开放时间：9:00-17:00"; https://www.wanderinchina.com/destinations/shanghai/transport/maglev/ — "Often free if you show your Maglev ticket, or a nominal 10 CNY fee"
+    fix: In the tip, say the museum may close at 17:00 and may charge about ¥10.
+  - severity: nit
+    field: blocks[9]
+    problem: The card is labelled 'Typical Dec–Jan low/high' but shows December normals (5.3/11.3 °C). January is colder, at 2.9/8.7 °C.
+    evidence: https://en.wikipedia.org/wiki/Shanghai — climate table (Xujiahui 1991–2020)
+    fix: Show the range as 3–11 °C, or say the numbers are for December.
+  - severity: nit
+    field: name_romanized
+    problem: On both phone and desktop, the final 'ē' in 'Lièchē' renders as an 'e' with a detached bar after it.
+    evidence: ./atr shot shanghai-maglev --only desktop --theme dark (s01 hero)
+    fix: Check that the hero's italic font has a glyph for ē, or write it as a precomposed character.
+summary: The operator's own pages back every fare (¥50/¥80/¥160, the ¥85 combo, ¥40 with a transport card or flight ticket, ¥50 for a foreign card tap) and the timetable (06:45–21:40 and 07:02–21:42, 300 km/h all day, last check-in 5 minutes before the last train). The budget angle and the arrival-day advice are good. Only nits remain; the one unverified item is the approximate map pin.
+model: claude-opus-5-5
+cost_usd: 1.112

@@ -1,0 +1,24 @@
+# Independent review of lawson-fuji-kawaguchiko. Written by `./atr review`; do not edit by hand.
+id: lawson-fuji-kawaguchiko
+type: place
+reviewed: 2026-11-13
+verdict: fix
+content_hash: f5b142baaa1e3757fd3a865e6c5a12ec7830d978ddeaec58d9324f429f5f7251
+facts:
+  supported: 3
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[2].items[2].text
+    problem: "'Locals point to 7-Eleven Kawaguchiko Higashi-Koiji' rests only on an All About page that returns HTTP 403. The curator admits seeing it only in search results, so no source we could open supports it. The quick fact '7-Eleven? … in Kawaguchiko' (blocks[1].extra[2].detail) depends on the same claim."
+    evidence: https://news.allabout.co.jp/articles/o/57122/?page=4 returns HTTP 403 Forbidden. https://japanstartshere.com/2025/09/04/convenience-store-with-view-of-mt-fuji/ names only the Gekkoji and Yamanakako 7-Elevens and does not mention Higashi-Koiji.
+    fix: Either cite a source that opens and confirms the Higashi-Koiji store and its Fuji view (and give its address), or drop it from the highlight and from the quick-fact detail.
+resolved:
+  - field: blocks[8].items[1]
+    problem: "The new 'Chureito Pagoda is 15 min and ¥310 away by Fujikyu train' is not backed by any listed source. The ¥310 fare matches the official Fujikyu Railway fare table (https://www.fujikyu-railway.jp/en/fare/: Shimoyoshida–Kawaguchiko ¥310, 5.5 km), but that page is not cited. The 15 min ride time appears on no page checked, and Japan Travel Kit gives no fare or time for this leg."
+    evidence: "https://www.fujikyu-railway.jp/en/fare/ is now in sources, and its fare matrix gives Shimoyoshida–Kawaguchiko 310 yen (adult). The unsourced '15 min' is gone: the line now reads 'a ¥310 local-train ride away', so the express surcharge doesn't apply to the trip as written."
+rereview_of: 245e340d8fa6efeb38b93be633c6cc17ddfdc350a9741ef641107726da535ccb
+summary: "The earlier finding is resolved: the ¥310 fare now cites Fujikyu's fare table, and the unsourced ride time is gone. In the new 7-Eleven text, the Gekkoji and Lake Yamanaka (east shore, better light) claims match the cited blog, and the 2018 7-Eleven photo caption is honest. The Higashi-Koiji 'locals' pick' still has no source anyone can open, so prove it or remove it."
+model: claude-opus-5-5
+cost_usd: 0.49

@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: night-bazaar
+  title: File:Patpong Night Bazaar (5828832361).jpg
+  author: nakhon100
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Patpong_Night_Bazaar_(5828832361).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Patpong_Night_Bazaar_%285828832361%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Patpong Night Bazaar
+  width: 1824
+  height: 1368
+  widths:
+    - 640
+    - 1280
+    - 1824
+  fetched: 2026-11-13
+  origin: commons
+- file: patpong-daytime
+  title: File:Patpong, Bangkok (45355761362).jpg
+  author: Blemished Paradise
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Patpong,_Bangkok_(45355761362).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Patpong%2C_Bangkok_%2845355761362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Night market and gogo bars alongside.
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: safari-sign
+  title: File:Patpong, Bangkok (44681694804).jpg
+  author: Blemished Paradise
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Patpong,_Bangkok_(44681694804).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f3/Patpong%2C_Bangkok_%2844681694804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Night market and gogo bars alongside.
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

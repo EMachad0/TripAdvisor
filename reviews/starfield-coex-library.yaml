@@ -1,0 +1,24 @@
+# Independent review of starfield-coex-library. Written by `./atr review`; do not edit by hand.
+id: starfield-coex-library
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 91b9103c87ccfaa7b8e1ee9defc7d02f6994da2798f4e15dbd72bb66fcf32f58
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[8].items[2].note
+    problem: The note says online tickets are discounted but gives no amount. The cheapest way in is ₩28,000 for an adult on the official ticketing page, which is not cited.
+    evidence: https://ticketing.visitsealife.com/ko/seoul/tickets/sea-life-coex-admission-ticket — "성인 ( 13세 이상) … 20% 할인 ₩28,000 ₩35,000"
+    fix: Change the note to 'Regular price; ₩28,000 if bought online ahead' and add the ticketing page to sources.
+resolved:
+  - field: blocks[8].items[2]
+    problem: The page gives the COEX Aquarium adult ticket as ₩32,000, taken from a June 2026 guide. The aquarium is now SEA LIFE COEX, and its official ticket page shows a ₩35,000 regular adult price and ₩28,000 for an online 20% discount.
+    evidence: "blocks[8].items[2] is now 'SEA LIFE COEX Aquarium, adult', ₩35,000 (BRL 148.26 = 35,000 × 0.004236), with the note 'online tickets are discounted'. Sources: https://www.visitsealife.com/coex-seoul/ (now listed) says '정상가 35,000원' and '최대 20% 할인' for adult/child tickets bought ahead; https://ticketing.visitsealife.com/ko/seoul/tickets/sea-life-coex-admission-ticket lists adult 13+ at '20% 할인 ₩28,000 ₩35,000'."
+rereview_of: e371b31169ce14ee72343d71bafdfe10c9f8236a4459879026c0d18c9d1bd0d7
+summary: "The aquarium finding is resolved. The line now uses the SEA LIFE COEX name and the official ₩35,000 regular price, with a correct BRL conversion. The new events wording and the Millennium Plaza / ASEM Plaza routing match Starfield's official pages. One nit remains: give the ₩28,000 online price and cite the ticketing page."
+model: claude-opus-5-5
+cost_usd: 0.332

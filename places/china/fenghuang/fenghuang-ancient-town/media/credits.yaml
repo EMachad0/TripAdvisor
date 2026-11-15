@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tuojiang
+  title: File:Tuojiang in fenghuang.jpg
+  author: 张韡武
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tuojiang_in_fenghuang.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d3/Tuojiang_in_fenghuang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tuojiang River by passing the Fenghuang county old town, looking from Dong Guang Men westwards.
+  width: 3072
+  height: 2304
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: hongqiao-night
+  title: File:Fenghuang Hongqiao (Fenghuang Rainbow-Shaped Bridge) 2, 9 November 2010.jpg
+  author: Huangdan2060
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Fenghuang_Hongqiao_(Fenghuang_Rainbow-Shaped_Bridge)_2,_9_November_2010.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f1/Fenghuang_Hongqiao_%28Fenghuang_Rainbow-Shaped_Bridge%29_2%2C_9_November_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The night scene of Fenghuang Hongqiao (Fenghuang Rainbow-Shaped Bridge), on 9 November 2010.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

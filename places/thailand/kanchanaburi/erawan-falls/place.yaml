@@ -1,0 +1,125 @@
+id: erawan-falls
+name: "Erawan Falls"
+name_local: น้ำตกเอราวัณ
+name_romanized: Nam Tok Erawan
+country: thailand
+city: kanchanaburi
+area: "Erawan National Park"
+category: nature
+fame: popular
+tags: [waterfall, swimming, national-park, hike]
+kind: Do
+why: "Seven tiers of milky-turquoise pools up a 1.5 km jungle trail, swimming with nibbling fish. Best with a Saturday night in Kanchanaburi."
+cost:
+  local: 680
+  currency: THB
+  brl: 112.13
+  note: "From Bangkok and back: two ฿110 buses, two ฿80 park buses, ฿300 park entry. From a Kanchanaburi bed: ฿460."
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: "3–4 h in the park, 14 h door to door"
+best_time: "Sunday, on the 08:00 bus from Kanchanaburi"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 08:00–16:30, no entry after 15:30. Last bus back to Kanchanaburi 16:30."
+  winter: "Open every day all year, public holidays included. The park is very crowded on weekends and public holidays, and your only possible days (Jan 2–3, 9–10) are a weekend: go early. January is dry season (the rains are May–Oct)."
+
+location:
+  address: "Erawan National Park, Si Sawat District, Kanchanaburi (about 50–70 km from Kanchanaburi town)"
+  address_local: "อุทยานแห่งชาติเอราวัณ อำเภอศรีสวัสดิ์ จังหวัดกาญจนบุรี"
+  lat: 14.36829
+  lng: 99.1443
+  nearest_transit: "Bus 8170 from Kanchanaburi Bus Station, about 1.5 h"
+  approximate: true
+
+sources:
+  - url: https://www.thainationalparks.com/erawan-national-park
+    title: "Thai National Parks: Erawan entry ฿300 (June 2026), 08:00–16:30, no entry after 15:30, golf cart ฿20, bottle deposit, weekend crowds"
+    checked: 2026-11-12
+  - url: https://portail-asie.com/en/erawan-national-park-guide/
+    title: "Portail Asie (updated 20 Oct 2026): Erawan entry ฿300 for foreign adults"
+    checked: 2026-11-12
+  - url: https://www.nationthailand.com/thailand/tourism/40023668
+    title: "The Nation (Jan 2023): Erawan among six parks piloting e-tickets on the QueQ app, card or Thai QR"
+    checked: 2026-11-12
+  - url: https://www.thainationalparks.com/erawan-national-park/get-there
+    title: "Thai National Parks: bus 8170 ฿80 (Nov 2026), timetable (Sept 2026); 1st-class buses Bangkok–Kanchanaburi 05:00–22:30, ฿110"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Erawan_National_Park
+    title: "Erawan National Park (Wikipedia): seven tiers, 1.5 km to the top, swimming pools, doctor fish"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Kanchanaburi
+    title: "Kanchanaburi (Wikipedia): January climate normals 1991–2020"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "฿300 fee from Thai National Parks (June 2026) and Portail Asie (Oct 2026); no official DNP fee page found. QueQ e-tickets: only a 2023 pilot is sourced. The cost bar's '100%' is a renderer cap I can't change; the note gives 112%. Bus times and the ฿110 Bangkok fare from Thai National Parks (fare undated); no official 8170 timetable found. Distance: Wikipedia ~50 km, Thai National Parks ~70 km."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: limestone-tier
+    hook: "Water pours over mossy limestone into pools the colour of jade; fish nibble your feet while you swim."
+    caption: "One of the seven tiers of Erawan Falls"
+  - type: quick_facts
+    time_needed: "3–4 h in the park"
+    best_time: "Sunday; first bus from town"
+    extra:
+      - { label: Fits your week, value: "Weekend, best with 1 night", detail: "Sat Jan 2 → Kanchanaburi, Sun Jan 3 Erawan; or one very long Saturday" }
+      - { label: Last entry, value: "15:30", detail: "Park closes about 16:30; last bus to town 16:30" }
+  - type: highlights
+    items:
+      - title: Seven tiers, one trail
+        text: "A wide, signposted path climbs **1.5 km** past all seven tiers. The top one is said to look like the three-headed elephant Erawan."
+      - title: Swim in the pools
+        text: "Several tiers have pools you can swim in. Changing rooms are near the first two; the **doctor fish** go for your toes."
+      - title: Monkeys and monitor lizards
+        text: "Crab-eating macaques are common, and water monitors up to 1.5 m laze by the streams. Harmless, but keep a couple of metres away."
+      - title: A cheap local bus
+        text: "Bus **8170** from Kanchanaburi costs ฿80 (R$13.19) and runs right to the park in about 1.5 hours."
+  - type: prose
+    title: Long day or overnight?
+    text: |-
+      **Overnight (recommended).** Take a bus to Kanchanaburi on **Saturday** afternoon, see the River Kwai bridge, sleep there, and catch the **08:00** bus 8170 to the falls on Sunday. You're on the trail by about 09:30, with time for every tier. Back on the **14:30** or **16:30** bus, then a bus to Bangkok in the evening. With your weekday night shifts it only fits a weekend: Jan 2–3, or Jan 9–10 if you're still in Thailand.
+
+      **As one long day.** Possible, but tiring: a first-class bus from Bangkok's **Southern Bus Terminal** at about 05:00 (about 2 h, ฿110), the 08:00 bus 8170 to the park, a few hours at the falls and the 14:30 bus back to town, then a bus to Bangkok, home around 19:00 or later. That's about 14 hours, 7 of them on buses.
+
+      **Not on a weekday.** You work until 04:00 on weekday nights, and the park lets nobody in after 15:30.
+  - type: gallery
+    images:
+      - { file: white-cascade, caption: "White limestone cascades on one of the tiers" }
+      - { file: forest-pools, caption: "Stepped pools in the forest" }
+  - type: cost_breakdown
+    items:
+      - { label: "1st-class bus Bangkok → Kanchanaburi", local: 110, brl: 18.14 }
+      - { label: "Bus 8170 to the park", local: 80, brl: 13.19 }
+      - { label: Park entry (foreigner), local: 300, brl: 49.47 }
+      - { label: "Bus 8170 back to town", local: 80, brl: 13.19 }
+      - { label: "1st-class bus back to Bangkok", local: 110, brl: 18.14 }
+      - { label: Golf cart to the first tiers, local: 20, brl: 3.3, optional: true }
+      - { label: Bike at the visitor centre (lower tiers only), local: 20, brl: 3.3, optional: true }
+    note: "Sleeping in Kanchanaburi cuts it to ฿460."
+  - type: map
+    note: "The pin is the falls trail, about 50–70 km from Kanchanaburi town. The first tier is a few hundred metres from the visitor centre."
+  - type: tips
+    variant: insider
+    items:
+      - "**Fits your week:** a weekend. Best as Sat night in Kanchanaburi + Erawan on Sunday; a same-day trip from Bangkok works but costs 14 hours."
+      - "Bus 8170 can also be flagged down on Highway 323 before the River Kwai bridge, handy if you sleep near the bridge."
+      - "Over budget at R$112 from Bangkok? The park fee is most of it; staying in Kanchanaburi turns the bus legs into a separate travel day."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**No food beyond the second tier**, and every drink bottle carries a ฿20 deposit, refunded when you bring it back."
+      - "Bring **cash** for the ฿300 fee. Erawan was in a 2023 pilot of **QueQ** app e-tickets (card or Thai QR); whether that still works for foreigners is unconfirmed."
+      - "Weekends are busy. If you take the last bus up, you might reach the gate after the 15:30 cut-off."
+  - type: weather
+    temp_low_c: 20
+    temp_high_c: 33
+    conditions: Dry and sunny, the slightly cooler season
+    note: "Hot afternoons make the pools welcome; early morning on the trail is the comfortable part."
+    wear: "Swimwear under your clothes, sandals that grip, a dry bag for the phone"
+  - type: pairs_well
+    items:
+      - { id: ayutthaya-temples-by-bike, note: "The other classic day out of Bangkok; Ayutthaya for culture, Erawan for a swim" }

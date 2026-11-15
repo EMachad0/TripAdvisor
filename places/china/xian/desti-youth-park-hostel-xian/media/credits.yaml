@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: bell-tower-day
+  title: File:Xi'an Bell Tower 2024.10.jpg
+  author: xiquinhosilva
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Xi%27an_Bell_Tower_2024.10.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4e/Xi%27an_Bell_Tower_2024.10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Xi'an Bell Tower
+  width: 2560
+  height: 1707
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

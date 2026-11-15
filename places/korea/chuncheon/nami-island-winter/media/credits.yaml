@@ -1,0 +1,48 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: ferry
+  title: File:Gapyeong-Nami Island Ferry.jpg
+  author: Minseong Kim
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Gapyeong-Nami_Island_Ferry.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Gapyeong-Nami_Island_Ferry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "@Namiseom Ferry Pier, Chuncheon"
+  width: 2784
+  height: 2223
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: metasequoia-snow
+  title: File:Nami island winter.jpg
+  author: Nami Island
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nami_island_winter.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Nami_island_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nami island metasequoia
+  width: 1010
+  height: 1515
+  widths:
+    - 640
+    - 1010
+  fetched: 2026-11-12
+  origin: commons
+- file: peacock
+  title: File:Pavo cristatus cock (Namiseom).jpg
+  author: Drcbrothephotographer
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Pavo_cristatus_cock_(Namiseom).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/28/Pavo_cristatus_cock_%28Namiseom%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A back view of a common peacock in Namiseom.
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

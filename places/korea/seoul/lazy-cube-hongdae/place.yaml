@@ -1,0 +1,138 @@
+id: lazy-cube-hongdae
+name: "Lazy Cube Hongdae"
+short_name: Lazy Cube
+name_local: 레이지큐브 홍대
+country: korea
+city: seoul
+area: Hongdae · Donggyo-dong
+category: stay
+tags: [capsule, hostel, hongdae, new-build, self-check-in, social]
+kind: Stay
+why: "A capsule pod in a new 8th-floor hostel by Hongik Univ. station: ₩45,000 Sun–Thu, but ₩81,900 on Fri and Sat nights. Rooftop, late self check-in."
+
+cost:
+  local: 45000
+  currency: KRW
+  brl: 187.02
+  note: "Hostelworld, capsule in the 70-bed mixed room, Sun–Thu nights 10–19 Jan 2027 (Fri 15/Sat 16 ₩81,900), searched 12 Nov 2026"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 16
+  lead_time: "Book by ~15 days before the night to keep free cancellation"
+  method: website
+  links:
+    - label: Hostelworld (Mon 11 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lazy-cube/Seoul/338902?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+      note: "15% deposit online; change the dates to your nights"
+  notes: "Recommended mainly for the weekend: Hostelworld offers just 10 beds in the mixed room on every night 10–19 Jan (34 in the female room). Free cancellation ends 15 days before each night (26 Dec for Sun 10 Jan, 1 Jan for Sat 16 Jan)."
+
+hours:
+  summary: "Check-in from 15:00, self check-in kiosk after 22:00 · check-out by 11:00 · no curfew"
+  winter: "Searched 12 Nov 2026: Sun–Thu nights 10–14 and 17–19 Jan ₩45,000; Fri 15 and Sat 16 Jan ₩81,900. No seasonal notes or closures listed. The open-air rooftop will be freezing in January."
+
+location:
+  address: "8th floor, 178 Donggyo-ro, Donggyo-dong, Mapo-gu, Seoul"
+  address_local: "서울특별시 마포구 동교로 178, 8층"
+  lat: 37.55628
+  lng: 126.92174
+  nearest_transit: "Hongik Univ. (Line 2 / AREX), a few minutes on foot"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lazy-cube/Seoul/338902?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+    title: "Lazy Cube on Hostelworld, Mon 11 Jan 2027 search: capsule prices, house rules, facilities, rating 9.5 (15)"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/338902/reviews/?sort=newest&page=1&monthCount=36&application=web"
+    title: "Hostelworld guest reviews, newest first (all 7 written reviews, May–Oct 2026)"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/338902/availability/?guests=1&num-nights=1&date-start=2027-01-15&currency=KRW&application=web"
+    title: "Hostelworld availability feed (change date-start): 10–19 Jan 2027 read night by night; Fri 15 Jan ₩81,900, 10 mixed beds"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/338902/?application=web"
+    title: "Hostelworld property feed: house notes (check-in from 15:00, self check-in kiosk after 22:00), facilities, coordinates"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices for every night 10–19 Jan, read 12 Nov; they move. Only Hostelworld readable; Expedia places Lazy Cube in Jongno. 7 written reviews, none on wifi, noise or a 24 h lounge. Hostelworld disagrees with itself on tax (not incl. vs incl.) and cancellation (16 vs 14 days). Reviews feed read with curl (403 to the link checker)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: hongik-exit-7
+    caption: "Hongik Univ. station, Exit 7. No free photo of the hostel exists"
+    hook: "Sleep in a pod above Hongdae: a new-build capsule hostel where the staff \"set the vibe\"."
+  - type: quick_facts
+    extra:
+      - { label: Bed, value: Capsule pod, detail: "70-bed mixed or 34-bed female capsule room" }
+      - { label: Late arrivals, value: Self check-in after 22:00, detail: "Kiosk check-in; 24 h reception is listed" }
+      - { label: Vibe, value: "Friendly, staff-led", detail: "Atmosphere 8.7/10 on Hostelworld" }
+  - type: stay
+    style: capsule
+    beds:
+      - label: "Capsule, mixed room · Sun–Thu (e.g. Mon 11 Jan)"
+        local: 45000
+        brl: 187.02
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lazy-cube/Seoul/338902?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+        note: "Same for 10–14 and 17–19 Jan; female room same price. Searched 12 Nov"
+      - label: "Capsule, mixed room · Fri 15 / Sat 16 Jan"
+        local: 81900
+        brl: 340.38
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lazy-cube/Seoul/338902?from=2027-01-16&to=2027-01-17&guests=1&currency=KRW"
+        note: "82% more for the same pod"
+    rating:
+      score: 9.5
+      out_of: 10
+      source: Hostelworld
+      reviews: 15
+      atmosphere: 8.7
+      checked: 2026-11-12
+    social:
+      - "Staff are the social engine: \"they definitely set the vibe and made an effort to get to know everybody\" (Aug 2026)."
+      - "A rooftop, a common room and a lounge are listed; \"Love the rooftop\" (Oct 2026)."
+      - "\"Everyone staying there was also kind and friendly\" (Oct 2026), but another October guest wrote \"not the most social\"."
+    good_to_know:
+      - "**Night shifts:** check-in is a kiosk after 22:00, and no source says the lounge stays open all night or how fast the wifi is. Ask first."
+      - "**Sleeping by day:** a pod gives you your own box with a reading light and plugs; reviews call the capsules roomy with good privacy."
+      - "**Lockers** are free; luggage space by the pods is tight, with an extra storage area around the corner (Oct 2026)."
+      - "Separate men's and women's toilets and \"so many showers\" (Oct 2026). Towels and linen included, no breakfast."
+      - "Cards are not accepted at the property; ages 18–60 only. Lift to the 8th floor."
+  - type: highlights
+    items:
+      - title: Your capsule night
+        text: "A real **pod** in Seoul's nightlife district, so you can tick off the capsule stay without waiting for Japan."
+      - title: Odd hours are fine
+        text: "No curfew, and a **self check-in kiosk** after 22:00, so a late arrival is no problem."
+      - title: Hongdae on the doorstep
+        text: "Clubs, T1 Base Camp and street food are a walk away, and the **airport train** stops at Hongik Univ."
+      - title: Brand new and spotless
+        text: "Cleanliness scores **9.9/10**; the building is new, with modern fire safety, says the listing."
+  - type: map
+    note: "The hostel is on the **8th floor** of 178 Donggyo-ro; take the lift up to reception."
+  - type: tips
+    variant: insider
+    items:
+      - "Message the hostel before booking work nights and ask whether the lounge is open 21:00–06:00 and how fast the wifi is."
+      - "Your club night is Sat 16 Jan, exactly when a pod costs ₩81,900. Sleep in the capsule on weeknights (₩45,000) and pick a cheaper dorm for Fri 15–Sat 16 to save about ₩37,000 a night."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Weekend trap:** the same pod is ₩81,900 (about R$340) on Fri and Sat nights, more than double a Time Travelers dorm bed."
+      - "Hostelworld's room list says **taxes not included** while its house notes say included: check the total before paying."
+      - "A 70-bed room means plenty of people coming and going. Bring earplugs and an eye mask if you will sleep after 07:00."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry and freezing, some snow
+    note: "January in Seoul averages −5.5 °C at night and 2.1 °C by day: the rooftop is for a quick look, not for hanging out."
+    wear: Padded jacket, hat and gloves
+  - type: pairs_well
+    items:
+      - id: hongdae-club-night
+        note: "Club Street is a short walk: go with people from the hostel"
+      - id: t1-base-camp
+        note: "The T1 PC bang and merch shop are in Hongdae"
+      - id: mangwon-market
+        note: "Cheap market food, a short subway or bus ride away"

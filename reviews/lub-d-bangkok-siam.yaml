@@ -1,0 +1,24 @@
+# Independent review of lub-d-bangkok-siam. Written by `./atr review`; do not edit by hand.
+id: lub-d-bangkok-siam
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 4d14d4826e4ce28ef754c198c30ba7a0bee71a1cbe9fb15910c47647979ba842
+facts:
+  supported: 6
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[6].items[2]
+    problem: The five-night totals multiply the 5 Jan prices by five, though only 5 Jan was searched for 4–8 Jan. They also use non-refundable rates while pitfalls[0] recommends free cancellation (private ฿2,543.60, dorm ฿665.59 a night).
+    evidence: https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-05&to=2027-01-06&guests=1&currency=THB — "Basic 4 Bed Private Shared Bathroom … THB 2,543.60 … Free Cancellation"
+    fix: Add "at 5 Jan non-refundable rates" to the totals, or also give the free-cancellation figure (about ฿12,700 for five private nights).
+resolved:
+  - field: blocks[2].beds[4]
+    problem: The private-room option shown is the ฿1,959 double (R$323, over three times the R$100/day budget). The same 5 Jan search lists a cheaper private room, 'Basic 4 Bed Private Shared Bathroom', at ฿1,699.76 non-refundable. The page also never says that 5 nights in a private room would take most of the Thailand budget. Its own advice to prefer free cancellation would put the double at ฿2,834.32.
+    evidence: 'https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-05&to=2027-01-06&guests=1&currency=THB (rendered): "Basic 4 Bed Private Shared Bathroom … Best private price … per room … THB 1,699.76 … Non-refundable". beds[4] now lists this room, and pitfalls[2] gives the 5-night cost against the R$100/day budget with a middle-way option.'
+rereview_of: 5f19046cbcbcbfea16b2a9ad90e1321a86332e47a9731060d5aaef76d3e7f965
+summary: "The earlier should is resolved: the page now lists the cheapest private room (฿1,699.76 per room on 5 Jan, which the source confirms) and compares five nights against the R$100/day budget. One nit remains: the five-night totals use only the 5 Jan prices and are based on non-refundable rates."
+model: claude-opus-5-5
+cost_usd: 0.531

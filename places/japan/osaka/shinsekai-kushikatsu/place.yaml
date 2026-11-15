@@ -1,0 +1,204 @@
+id: shinsekai-kushikatsu
+name: "Shinsekai Kushikatsu at Daruma"
+short_name: Shinsekai kushikatsu
+name_local: 新世界 串かつだるま 総本店
+name_romanized: Shinsekai Kushikatsu Daruma Sōhonten
+country: japan
+city: osaka
+area: Naniwa-ku · Shinsekai
+category: food
+fame: popular
+tags: [kushikatsu, street-food, cheap-eats, neon, retro, tsutenkaku, solo-friendly]
+kind: Eat
+why: "Deep-fried skewers from ¥143 at the 12-seat counter where kushikatsu started in 1929, under the neon of Tsutenkaku tower."
+cost:
+  local: 2288
+  currency: JPY
+  brl: 80.31
+  note: "9-skewer set with doteyaki (¥1,793) + the one compulsory drink (chuhai ¥495). Official menu, tax included"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–1.5 h with a walk round Shinsekai
+best_time: Weeknight after work, 18:00–21:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Fri 11:00–22:30, Sat/Sun/holidays 10:30–22:30. Last order 30 min before closing"
+  closed: "Open every day (年中無休)"
+  winter: "Your Japan dates are now Jan 4–22. The main shop lists no closing day and no seasonal hours. Mon Jan 11 is a holiday, so weekend hours apply. The winter menu adds oyster, fugu and Omi duck skewers. Counter seating is indoors."
+
+location:
+  address: "2-3-9 Ebisu-higashi, Naniwa-ku, Osaka"
+  address_local: 大阪市浪速区恵美須東2-3-9 串かつだるま 新世界総本店
+  lat: 34.6512
+  lng: 135.5062
+  nearest_transit: "Ebisucho (Sakaisuji Line) · Dobutsuen-mae (Midosuji) · JR Shin-Imamiya"
+  approximate: true
+
+sources:
+  - url: https://www.kushikatu-daruma.com/location/shinsekai
+    title: "新世界総本店: hours, no reservations, 12 counter seats, cash only, one drink per person (Daruma, official)"
+    checked: 2026-11-11
+  - url: https://www.kushikatu-daruma.com/files/user/HP%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC.pdf
+    title: "Daruma English menu with tax-included prices (official PDF)"
+    checked: 2026-11-11
+  - url: https://www.kushikatu-daruma.com/history/
+    title: "だるまの歴史: founded 1929 on the old Luna Park site; free cabbage and the shared sauce (Daruma, official)"
+    checked: 2026-11-11
+  - url: https://www.kushikatu-daruma.com/commitment/
+    title: "味へのこだわり: 'no double-dipping the sauce' (Daruma, official)"
+    checked: 2026-11-11
+  - url: https://www.kushikatu-daruma.com/news/detail/id=943
+    title: "Beware of look-alike izakaya in Shinsekai and Namba (Daruma notice, Oct 2025)"
+    checked: 2026-11-11
+  - url: https://osaka-info.jp/en/spot/shinsekai/
+    title: "Shinsekai (Osaka Convention & Tourism Bureau): Tsutenkaku, Janjan Yokocho, access"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Shinsekai
+    title: "Shinsekai: 1912 origins, Tsutenkaku, kushikatsu (Wikipedia)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: "Osaka: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-11
+confidence: high
+confidence_note: "Prices, hours and house rules from Daruma's own site and menu PDF (read 11 Nov 2026). The menu PDF is undated, so prices may move a little by January. The pin is approximate: the address sits between Tsutenkaku and Janjan Yokocho, and OpenStreetMap has no point for this branch."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: shinsekai-night
+    focus: center
+    caption: "Shinsekai's main street and Tsutenkaku at night, not the Daruma shop itself"
+    hook: "Puffer-fish lanterns, a 103 m neon tower and the counter where breaded beef on a stick began in 1929."
+  - type: quick_facts
+    time_needed: 1–1.5 h with a walk round Shinsekai
+    best_time: Weeknight after work, 18:00–21:00
+    extra:
+      - label: Payment
+        value: Cash only
+        detail: At the main shop, per the official page
+      - label: Seating
+        value: 12 counter seats
+        detail: No reservations; queue outside
+      - label: House rule
+        value: One drink each
+        detail: Required per person, soft drinks count
+  - type: highlights
+    items:
+      - title: Where kushikatsu began
+        text: "Daruma's founder opened in **1929** on the site of the old Luna Park amusement park. The menu then had two skewers: beef and potato."
+      - title: Cheap, one stick at a time
+        text: "Most vegetable, egg and cheese skewers are **¥143**, the original beef **¥154**. Order a few, then a few more."
+      - title: The sauce rule
+        text: "The sauce pot is shared, so **no double-dipping**. Dip once, then scoop more sauce over with the free cabbage."
+      - title: Shinsekai after dark
+        text: "The neighbourhood was laid out in **1912**, half modelled on Coney Island, around Tsutenkaku tower. Janjan Yokocho, a 130 m alley of about 50 shops, is part of it."
+  - type: prose
+    title: How to order
+    dropcap: true
+    text: |-
+      Sit at the counter, order a drink (it's required) and start with **Set No. 3**: nine skewers plus a bowl of doteyaki, Osaka's beef tendon stewed in miso. The set has the original beef, shrimp, quail egg, asparagus, mochi, pork cutlet, chicken meatball, cheese chikuwa and a sausage.
+
+      Then add singles. In January the menu has winter-only skewers: **oyster**, **fugu** (puffer fish) and **Omi duck with green onion**. If you're full, stop; if not, the Kobe beef skewer is ¥748.
+
+      The main shop has only 12 seats and takes no bookings. If the queue is long, Daruma's **Janjan branch** nearby has the same hours and takes reservations for two or more, and there's a Tsutenkaku branch too.
+  - type: gallery
+    images:
+      - file: kushikatsu-plate
+        caption: A Shinsekai kushikatsu spread
+      - file: side-street
+        caption: Shinsekai's food streets with Tsutenkaku behind
+  - type: quote
+    variant: vibe
+    text: Hot oil, a steel tray of sauce you may dip once, and a giant neon puffer fish outside.
+  - type: menu
+    title: The Daruma order
+    items:
+      - name: Set No. 3, 9 skewers + doteyaki
+        name_local: 新世界セット
+        price_local: 1793
+        price_brl: 62.93
+        note: Beef, shrimp, quail egg, asparagus, mochi, pork, meatball, cheese chikuwa, sausage
+        tag: must-try
+      - name: The original beef kushikatsu
+        name_local: 元祖串かつ
+        price_local: 154
+        price_brl: 5.41
+        note: The 1929 skewer. Start here if ordering à la carte.
+        tag: signature
+      - name: Beef tendon stewed in miso
+        name_local: どて焼き
+        price_local: 440
+        price_brl: 15.44
+        note: Osaka speciality, already in the sets
+      - name: Quail egg, cheese, lotus root…
+        name_local: うずら卵・チーズ・れんこん
+        price_local: 143
+        price_brl: 5.02
+        note: Most vegetable and egg skewers cost this
+        tag: cheap
+      - name: Oyster (winter only)
+        name_local: 牡蠣
+        price_local: 308
+        price_brl: 10.81
+        note: Winter limited edition
+      - name: Fugu, puffer fish (winter only)
+        name_local: ふぐ
+        price_local: 308
+        price_brl: 10.81
+        note: Winter limited edition
+      - name: Kobe beef
+        name_local: 神戸牛
+        price_local: 748
+        price_brl: 26.25
+        note: The splurge skewer
+      - name: Lemon or yuzu chuhai
+        name_local: チューハイ
+        price_local: 495
+        price_brl: 17.37
+        note: Draft Asahi ¥616; Coca-Cola ¥330
+        tag: drink
+    note: "Prices from Daruma's English menu, tax included. **Cash only** at the main shop. Free cabbage is for scooping sauce."
+  - type: cost_breakdown
+    items:
+      - label: Set No. 3 (9 skewers + doteyaki)
+        local: 1793
+        brl: 62.93
+      - label: One drink (chuhai), compulsory
+        local: 495
+        brl: 17.37
+      - label: Two extra winter skewers (oyster, fugu)
+        local: 616
+        brl: 21.62
+        optional: true
+  - type: map
+    zoom: 16
+    note: "Shinsekai is right by **Ebisucho** (Sakaisuji Line); Dobutsuen-mae is about 3 min away. Head for Tsutenkaku, the tower you can see from everywhere."
+  - type: tips
+    variant: insider
+    items:
+      - "Bring **cash**. The main shop doesn't take cards."
+      - "Queue too long? Try Daruma's **Janjan branch** (bookable for 2+) or the Tsutenkaku branch. Same opening hours."
+      - "Make it a work-week evening: kushikatsu, a lap of the neon streets, then a bath at **Spa World** in the same neighbourhood."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Don't double-dip.** Use the cabbage to scoop more sauce over your skewer."
+      - "\"Daruma Shoten\" (だるま商店) is **not** Daruma. The chain posted a notice that it has nothing to do with this look-alike izakaya in Shinsekai and Namba."
+      - "Everyone must order at least one drink. It's the house rule, so add it to your budget."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool and mostly dry, little rain
+    note: "Cold enough that hot fried skewers feel right. You're indoors at the counter; only the queue and the walk round Shinsekai are outside."
+    wear: Light winter jacket
+  - type: pairs_well
+    items:
+      - id: spa-world-osaka
+        note: Same neighbourhood. A bath after dinner
+      - id: tenma-standing-bars
+        note: Another cheap Osaka night, on the Loop Line
+      - id: dotonbori-kani-doraku-crab
+        note: Osaka's other neon food street

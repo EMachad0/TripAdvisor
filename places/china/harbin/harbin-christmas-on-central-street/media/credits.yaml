@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: sophia-snow-dusk
+  title: File:Saint Sophia Cathedral, Harbin 8.jpg
+  author: 闫恩铭 / Enming Yan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Saint_Sophia_Cathedral,_Harbin_8.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c3/Saint_Sophia_Cathedral%2C_Harbin_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Saint Sophia Cathedral, Harbin.
+  width: 4048
+  height: 3036
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: central-street-winter
+  title: File:Central Street (Zhongyang Dajie), Harbin 16.jpg
+  author: 闫恩铭 / Enming Yan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Central_Street_(Zhongyang_Dajie),_Harbin_16.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ec/Central_Street_%28Zhongyang_Dajie%29%2C_Harbin_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: To be filled
+  width: 3840
+  height: 2160
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: snow-polar-bear
+  title: File:Central Street (Zhongyang Dajie), Harbin 13 Ice (snow) sculpture.jpg
+  author: 闫恩铭 / Enming Yan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Central_Street_(Zhongyang_Dajie),_Harbin_13_Ice_(snow)_sculpture.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/55/Central_Street_%28Zhongyang_Dajie%29%2C_Harbin_13_Ice_%28snow%29_sculpture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: To be filled
+  width: 4048
+  height: 3036
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: sophia-night
+  title: File:Saint Sophia Cathedral, Harbin 6.jpg
+  author: 闫恩铭 / Enming Yan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Saint_Sophia_Cathedral,_Harbin_6.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8f/Saint_Sophia_Cathedral%2C_Harbin_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Saint Sophia Cathedral, Harbin.
+  width: 4048
+  height: 3036
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: street-sign
+  title: File:Central Street (Zhongyang Dajie), Harbin 15 Road sign.jpg
+  author: 闫恩铭 / Enming Yan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Central_Street_(Zhongyang_Dajie),_Harbin_15_Road_sign.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e0/Central_Street_%28Zhongyang_Dajie%29%2C_Harbin_15_Road_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: To be filled
+  width: 4048
+  height: 3036
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

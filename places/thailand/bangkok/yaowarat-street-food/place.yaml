@@ -1,0 +1,179 @@
+id: yaowarat-street-food
+name: "Yaowarat Street Food at Night"
+short_name: Yaowarat street food
+name_local: ถนนเยาวราช
+name_romanized: Thanon Yaowarat
+country: thailand
+city: bangkok
+area: Samphanthawong · Chinatown
+category: food
+fame: iconic
+tags: [street-food, night-market, chinatown, michelin]
+kind: Eat
+why: "Bangkok's Chinatown after dark: peppery rolled-noodle soup, charcoal doughnuts and grilled prawns under neon, ฿50–100 a dish. Skip Mondays."
+cost:
+  local: 160
+  currency: THB
+  brl: 26.38
+  note: "Cheapest quotes for a three-stop crawl; allow ฿180–200. A seafood table at T&K runs ฿200–350 a person"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: Tue–Sun, 18:00–21:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Stalls set up from about 17:00 and run to around midnight; each stall keeps its own hours"
+  closed: Many stalls take Monday off
+  winter: "January is the cool, dry season: the best weather of the year for an evening on the street. No seasonal closures listed. Chinese New Year 2027 falls in February, after a January visit, so expect normal nights, not the festival crowds."
+
+location:
+  address: "Yaowarat Rd, Samphanthawong, Bangkok 10100"
+  address_local: "ถนนเยาวราช แขวงสัมพันธวงศ์ เขตสัมพันธวงศ์ กรุงเทพฯ 10100"
+  lat: 13.74003
+  lng: 100.51046
+  nearest_transit: "Wat Mangkon (MRT Blue Line), Exit 1"
+  approximate: true
+
+sources:
+  - url: https://www.thefinestthai.com/2026/04/16/yaowarat-the-ultimate-guide-to-bangkoks-chinatown-street-food/
+    title: "Yaowarat: The Ultimate Guide to Bangkok's Chinatown Street Food (The Finest Thai, Apr 2026)"
+    checked: 2026-11-12
+  - url: https://www.bangkok-spirit.com/guides/yaowarat-chinatown-food/
+    title: "Yaowarat Chinatown food guide 2026 (Bangkok Spirit)"
+    checked: 2026-11-12
+  - url: https://bangkokheaven.com/bangkok-chinatown-street-food-guide/
+    title: "Best Street Food in Chinatown Bangkok: 2026 Guide (Bangkok Heaven)"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/restaurants/bangkok/guay-jub-ouan-pochana
+    title: "Guay Jub Ouan Pochana (Visit Thailand Today, updated Nov 2026)"
+    checked: 2026-11-12
+  - url: https://thesmartlocal.co.th/yaowarat-food-guide
+    title: "Yaowarat food guide (TheSmartLocal Thailand, updated Aug 2023)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Stall prices and hours come from 2023–2026 food guides that disagree a little (Nai Ek ฿50–100, Pa Tong Go ฿30–60); the page shows the lowest 2026 quote, so budget ฿180–200 for the same crawl to be safe. Michelin status changes yearly and the 2027 Bib list (Nov 2026) could not be opened; Ouan Pochana is no longer on it per Visit Thailand Today. The pin marks Yaowarat Road, not one stall."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: neon-night
+    hook: Neon signs in Chinese and Thai, wok smoke over the traffic, and a queue at every plastic table.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Tue–Sun, 18:00–21:00
+    extra:
+      - { label: Busiest, value: "20:00–22:00", detail: "Arrive before 19:00 for T&K Seafood" }
+      - { label: Payment, value: Cash, detail: Many stalls are cash only; bring small notes }
+  - type: highlights
+    items:
+      - title: Rolled-noodle soup since 1960
+        text: "**Nai Ek Roll Noodles** has served guay jub, rolled rice noodles in a peppery pork broth, since 1960. Three bowl sizes run ฿50, ฿80 and ฿100."
+      - title: Charcoal doughnuts
+        text: "**Pa Tong Go Savoey** (since 1968) fries Chinese doughnuts in the evening, about ฿50 for five pieces. It closes on Mondays."
+      - title: The seafood corner
+        text: "**T&K Seafood**, at the Phadung Dao corner, grills river prawns and fries crab in yellow curry. Staff wear green shirts, and most dishes are ฿200–350 a person."
+      - title: Cheap curry before dark
+        text: "**Jek Pui** serves curry over rice from mid-afternoon to early evening. A plate costs ฿40, or ฿60 for a big one. Get there before the night stalls even open."
+  - type: prose
+    title: How to eat it
+    dropcap: true
+    text: |-
+      Yaowarat Road is Bangkok's Chinatown, and from about 17:00 the pavements fill with carts and folding tables. The best stalls are spread along the main road and its side sois (Phadung Dao, Soi Texas), so think of it as a walk with five or six small stops, not one big meal.
+
+      The cheap way is to share nothing and order small: a ฿50 bowl here, a ฿50 bag of doughnuts there, a pomegranate juice from a cart. That fills you for under ฿200. Seafood tables are the splurge, and still cost less than a hotel bar.
+
+      About the Michelin stickers: several stalls here are or were in the Bib Gourmand list, but the list changes every year. Nai Ek had the award in 2018 and 2019. Ouan Pochana had it in earlier editions but is not on the 2026 or 2027 lists. Treat the sticker as history, not a guarantee.
+  - type: gallery
+    images:
+      - file: river-prawns
+        caption: River prawns on ice, waiting for the grill
+      - file: road-night
+        caption: Yaowarat Road after dark
+      - file: pomegranate-juice
+        caption: Fresh pomegranate juice carts line the road
+      - file: fried-snacks
+        caption: Fried spring rolls and fritters at a street stall
+  - type: quote
+    variant: vibe
+    text: "Eat standing up, move on, eat again: the street is the restaurant."
+  - type: menu
+    title: What to order
+    items:
+      - name: Guay jub at Nai Ek (small / medium / large)
+        name_local: ก๋วยจั๊บนายเอ็ก
+        price_local: 50
+        price_brl: 8.24
+        note: "Rolled noodles in peppery pork broth, crispy pork belly. Larger bowls ฿80 and ฿100."
+        tag: must-try
+      - name: Guay jub at Ouan Pochana (medium)
+        name_local: ก๋วยจั๊บอ้วนโภชนา
+        price_local: 50
+        price_brl: 8.24
+        note: "The other famous guay jub, in front of the old China Town Rama cinema. Large ฿100. Closed Mondays."
+      - name: Pa tong go, set of five
+        name_local: ปาท่องโก๋เสวย
+        price_local: 50
+        price_brl: 8.24
+        note: Chinese doughnuts, fried then charcoal-grilled. 17:30–23:30, closed Mondays.
+        tag: cheap
+      - name: Curry over rice at Jek Pui
+        name_local: ข้าวแกงเจ็กปุ๊ย
+        price_local: 40
+        price_brl: 6.6
+        note: "Regular plate; large ฿60. Afternoon only, gone by about 19:30."
+        tag: cheap
+      - name: Seafood at T&K, per person
+        name_local: ที แอนด์ เค ซีฟู้ด
+        price_local: 200
+        price_brl: 32.98
+        note: "Most dishes ฿200–350 a person; crab dishes can pass ฿500. Open about 16:30–02:00."
+        tag: signature
+      - name: Toasted bun with pandan custard
+        name_local: ขนมปังปิ้ง
+        price_local: 40
+        price_brl: 6.6
+        note: "฿30–40 a bun at the Yaowarat Toasted Bread stall, which gives out queue numbers."
+      - name: Pomegranate juice
+        name_local: น้ำทับทิม
+        price_local: 60
+        price_brl: 9.89
+        note: "฿60–80 a bottle from the carts on the main road."
+        tag: drink
+    note: "Prices from 2026 food guides; they drift up a few baht a year. Cash is safest."
+  - type: cost_breakdown
+    items:
+      - { label: Guay jub (small bowl), local: 50, brl: 8.25 }
+      - { label: Pa tong go (five pieces), local: 50, brl: 8.24 }
+      - { label: Pomegranate juice, local: 60, brl: 9.89 }
+      - { label: Seafood at T&K, local: 200, brl: 32.98, optional: true }
+  - type: map
+    note: "From **Wat Mangkon MRT, Exit 1**, you are on Yaowarat Road in about two minutes. Hua Lamphong MRT is about a 15-minute walk away."
+  - type: tips
+    variant: insider
+    items:
+      - "Do Jek Pui's curry rice at around **17:00**, then walk the main road as the night stalls open. That's two meals for under ฿100."
+      - "Soi Texas and the Phadung Dao corner are where the most stalls are packed together."
+      - "Famous stalls start running out of ingredients by about 23:00, so don't leave it late."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Monday** is the wrong night: many stalls, Pa Tong Go and Ouan Pochana among them, are closed."
+      - "Bird's nest soup runs ฿200–500 a bowl. It is a splurge, not the street food you came for."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; about 2 rainy days in the month
+    note: "January evenings are as cool as Bangkok gets, so sitting at the street tables is pleasant, not sweaty. The woks still throw heat."
+    wear: T-shirt and sandals; a light layer for air-conditioned trains
+  - type: pairs_well
+    items:
+      - { id: wat-pho-and-wat-arun, note: "Temples by day, then MRT to Wat Mangkon for dinner" }
+      - { id: chao-phraya-express-boat, note: "Ride the river, then eat in Chinatown" }
+      - { id: nang-loeng-market, note: "The old-Bangkok lunch to Yaowarat's dinner" }

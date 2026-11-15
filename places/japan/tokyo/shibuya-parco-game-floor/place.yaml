@@ -1,0 +1,145 @@
+id: shibuya-parco-game-floor
+name: "Shibuya PARCO 6F: Nintendo TOKYO & co."
+short_name: Shibuya PARCO game floor
+name_local: 渋谷PARCO 6F（Nintendo TOKYO・ポケモンセンターシブヤ）
+name_romanized: Shibuya Paruko rokkai
+country: japan
+city: tokyo
+area: Shibuya · Udagawachō
+category: shopping
+fame: popular
+tags: [gaming, nintendo, pokemon, capcom, sega, atlus, free]
+kind: Shop
+why: "One mall floor with Nintendo's first official store, Pokémon Center Shibuya, Capcom Store Tokyo and SEGA STORE TOKYO (Persona goods). Free to walk in."
+
+cost:
+  local: 0
+  currency: JPY
+  brl: 0
+  note: "Free to enter and browse. Everything you buy is extra; the shops offer tax-free shopping for tourists (bring your passport)"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Weekday at 10:00, before the floor fills"
+
+book_ahead:
+  required: false
+  notes: "No booking. On weekends and holidays Nintendo TOKYO hands out **numbered entry tickets** (one per person): at PARCO 1F before opening, at the Mario statue by the 6F outer stairs after."
+
+hours:
+  summary: "6F game shops daily 10:00–21:00 per PARCO (SEGA STORE's own hours not listed); the rest of PARCO opens 11:00"
+  closed: "PARCO has irregular closing days (不定休)"
+  winter: "PARCO says its New Year hours differ, but your Japan dates (20 Jan – 4 Feb 2027) are after the New Year holidays, so normal hours should apply. For now Nintendo TOKYO uses numbered tickets on weekends, holidays and other busy days."
+
+location:
+  address: "Shibuya PARCO 6F, 15-1 Udagawachō, Shibuya-ku, Tokyo"
+  address_local: 東京都渋谷区宇田川町15-1 渋谷PARCO 6F
+  lat: 35.6620484
+  lng: 139.6987767
+  nearest_transit: "Shibuya (JR / Metro / Tokyu / Keio), about 5 min walk"
+
+sources:
+  - url: https://www.nintendo.com/jp/officialstore/index.html
+    title: "Nintendo official: Nintendo TOKYO address, 10:00–21:00, weekend numbered-ticket entry"
+    checked: 2026-11-12
+  - url: https://shibuya.parco.jp/shop/detail/?cd=025793
+    title: "Shibuya PARCO: Nintendo TOKYO, 6F, Japan's first Nintendo-run official store, 10:00–21:00"
+    checked: 2026-11-12
+  - url: https://shibuya.parco.jp/shop/detail/?cd=025795
+    title: "Shibuya PARCO: Pokémon Center Shibuya, 6F, 10:00–21:00, tax free"
+    checked: 2026-11-12
+  - url: https://shibuya.parco.jp/shop/detail/?cd=025792
+    title: "Shibuya PARCO: Capcom Store Tokyo, 6F, Monster Hunter / Resident Evil / Ace Attorney goods, 10:00–21:00"
+    checked: 2026-11-12
+  - url: https://shibuya.parco.jp/shop/detail/?cd=029767
+    title: "Shibuya PARCO: SEGA STORE TOKYO, 6F, SEGA and ATLUS character goods"
+    checked: 2026-11-12
+  - url: https://www.kanpai-japan.com/tokyo/shibuya-parco
+    title: "Kanpai (updated Nov 2025): PARCO reopened Nov 2019; Nintendo TOKYO figures, giant Mewtwo, Capcom's Ryu figure"
+    checked: 2026-11-12
+  - url: https://shibuya.parco.jp/info/
+    title: "Shibuya PARCO info: shops 11:00–21:00, 6F 10:00–21:00, irregular closures, different New Year hours"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals"
+    checked: 2026-11-12
+confidence: high
+confidence_note: "Hours, floor and the numbered-ticket rule are from Nintendo's and PARCO's own pages (Nov 2026). SEGA STORE TOKYO's hours are not on its PARCO page; PARCO says the 6F shops open 10:00–21:00."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: nintendo-entrance
+    caption: "The entrance to Nintendo TOKYO on PARCO's 6th floor"
+    hook: "Four game companies' own shops on a single floor, and a giant Mewtwo at the door."
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: Weekday at 10:00
+    extra:
+      - label: Shops
+        value: 4 game makers
+        detail: "Nintendo, Pokémon, Capcom, SEGA/ATLUS"
+      - label: Tax free
+        value: Bring your passport
+        detail: Pokémon Center and Capcom list tax-free sales
+      - label: Weekends
+        value: Numbered tickets
+        detail: Nintendo TOKYO only
+  - type: highlights
+    items:
+      - title: Nintendo TOKYO
+        text: "Japan's **first Nintendo-run official store**: consoles, games and character goods."
+      - title: Pokémon Center Shibuya
+        text: "Pokémon goods, with a **giant-scale Mewtwo** standing at the entrance."
+      - title: Capcom Store Tokyo
+        text: "Capcom's own shop: **Monster Hunter, Resident Evil, Ace Attorney** goods, a big Ryu figure mid-Hadōken, and store-limited items."
+      - title: SEGA STORE TOKYO
+        text: "SEGA and **ATLUS** character goods: the stop for Persona merch after the Shibuya Persona 5 walk."
+  - type: prose
+    title: A free floor that earns an hour
+    dropcap: true
+    text: |-
+      Shibuya PARCO reopened in late November 2019 after a rebuild, with a floor of Japanese pop-culture shops. The pull is that the **official stores sit side by side**: you can buy a Nintendo sound clock, a Pikachu plush and a Monster Hunter mug without leaving one floor.
+
+      It costs nothing to walk around, so it fits between the Scramble and dinner. Go on a weekday morning: on weekends Nintendo TOKYO lets people in with numbered tickets.
+  - type: gallery
+    images:
+      - { file: pokemon-center, caption: "Pokémon Center Shibuya" }
+      - { file: nintendo-floor, caption: "Inside Nintendo TOKYO" }
+      - { file: capcom-store, caption: "Capcom Store Tokyo (2019)" }
+  - type: quote
+    variant: vibe
+    text: The Mario theme on loop, a queue for a limited plush, and big figures of Mario, Link and an Inkling Girl watching the tills.
+  - type: cost_breakdown
+    items:
+      - label: Entry to the floor
+        local: 0
+        brl: 0
+    note: "Free. Set a souvenir budget before you go up: the limited items are the trap."
+  - type: map
+    zoom: 17
+    note: "Take the escalator or lift to **6F**. On weekends, numbered tickets are handed out at **1F** before 10:00 and at the Mario statue by the 6F outer stairs after."
+  - type: tips
+    variant: insider
+    items:
+      - "Arrive at **10:00** on a weekday: the 6F shops open an hour before the rest of PARCO."
+      - "Carry your **passport** for tax-free purchases at the shops that offer it."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Some Nintendo items have **purchase limits**: Nintendo's page says the Alarmo clock is one per person and some shops may ask to see a Nintendo Account at checkout."
+      - "On weekends you may get a ticket with a later entry time; plan something nearby while you wait."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold and dry
+    note: "Tokyo's January averages about 1 °C at night and 10 °C by day. All indoors; a good plan for a cold or wet hour."
+    wear: Layers you can take off inside
+  - type: pairs_well
+    items:
+      - id: shibuya-crossing-and-sky
+        note: "The Scramble is about 5 min downhill"
+      - id: shibuya-persona-5-walkway
+        note: "Walk the Persona 5 spots, then buy ATLUS goods at SEGA STORE"
+      - id: ramen-hayashi-shibuya
+        note: "Ramen nearby in Shibuya"

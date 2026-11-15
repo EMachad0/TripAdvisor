@@ -1,0 +1,80 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: dora-winter
+  title: File:Dora Observatory 01.JPG
+  author: Abasaa
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File:Dora_Observatory_01.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/98/Dora_Observatory_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Dora Observatory
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: dora-view
+  title: File:20240602 110854 Dora Observatory, Demilitarized Zone (DMZ), South Korea 05.jpg
+  author: Dwxn
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:20240602_110854_Dora_Observatory,_Demilitarized_Zone_(DMZ),_South_Korea_05.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3e/20240602_110854_Dora_Observatory%2C_Demilitarized_Zone_%28DMZ%29%2C_South_Korea_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Dora Observatory, Demilitarized Zone (DMZ), South Korea
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: third-tunnel
+  title: File:Third Tunnel of Aggression.jpg
+  author: Josh Berglund
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Third_Tunnel_of_Aggression.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b2/Third_Tunnel_of_Aggression.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Third Tunnel of Aggression , located between North Korea and South Korea.
+  width: 3072
+  height: 2304
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: imjingak-pinwheels
+  title: File:Imjingak pyunghwanuri.jpg
+  author: 한국문화관광연구원
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Imjingak_pyunghwanuri.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/33/Imjingak_pyunghwanuri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 임진각 평화누리공원 바람의 언덕
+  width: 7360
+  height: 4912
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: peace-bell
+  title: File:Peace Bell at Imjingak, Demilitarized Zone (DMZ), South Korea.jpg
+  author: Lance Vanlewen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Peace_Bell_at_Imjingak,_Demilitarized_Zone_(DMZ),_South_Korea.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1b/Peace_Bell_at_Imjingak%2C_Demilitarized_Zone_%28DMZ%29%2C_South_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Peace Bell at Imjingak, Demilitarized Zone (DMZ), South Korea
+  width: 4096
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

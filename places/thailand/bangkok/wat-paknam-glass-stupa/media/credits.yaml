@@ -1,0 +1,64 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: skyline
+  title: File:Wat Paknam Bhasicharoen May 2022.jpg
+  author: Smilingbandit
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wat_Paknam_Bhasicharoen_May_2022.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/22/Wat_Paknam_Bhasicharoen_May_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wat Paknam Bhasicharoen's enormous Buddha statue, take from the Bangkok Mass Transit System in May 2022.
+  width: 3994
+  height: 1736
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: glass-stupa
+  title: File:Glass stupa wat paknam 2.jpg
+  author: Wikiman5676
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Glass_stupa_wat_paknam_2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/90/Glass_stupa_wat_paknam_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: glass stupa at wat paknam in the top floor of maharatchamongkhon stupa
+  width: 3024
+  height: 4032
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: glass-naga
+  title: File:Wat paknam naga.jpg
+  author: Wikiman5676
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wat_paknam_naga.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7e/Wat_paknam_naga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: glass nagas surrounding stupa at the top floor of maharatchamongkhon stupa in wat paknam
+  width: 3024
+  height: 4032
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: museum-hall
+  title: File:Wat Paknam Phasi Charoen,Bangkok (61).jpg
+  author: กสิณธร ราชโอรส
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wat_Paknam_Phasi_Charoen,Bangkok_(61).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/70/Wat_Paknam_Phasi_Charoen%2CBangkok_%2861%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  width: 4320
+  height: 3240
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

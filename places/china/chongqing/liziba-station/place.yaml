@@ -1,0 +1,113 @@
+id: liziba-station
+name: "Liziba Station"
+name_local: 李子坝站
+name_romanized: Lǐzǐbà Zhàn
+country: china
+city: chongqing
+area: Yuzhong · Jialing riverside
+category: odd-local
+fame: popular
+tags: [monorail, urban-oddity, free, photo-spot, line-2]
+kind: Do
+why: Watch a Line 2 monorail glide into a 19-storey apartment block, stop on floors 6–8 and slide out the other side. Free to watch; the ride costs ¥2.
+
+cost:
+  local: 4
+  currency: CNY
+  brl: 3.30
+  note: "Viewing platform is free; ¥2 metro each way from Jiaochangkou"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45 min – 1 h
+best_time: Weekday 07:00–09:00, before the tour groups
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Open-air viewing platform; trains run roughly 06:30–23:00, every 3–8 min"
+  winter: "Chongqing is one of China's least sunny cities in Dec–Jan (about 5% of possible sunshine), so expect flat, grey light. Only one travel guide reports staged station works until 30 Dec 2026 (platform-edge fencing until 30 Nov); no official notice found, so check which exits are open on the day. No holiday hours found for Christmas or New Year."
+
+location:
+  address: "No. 62 Liziba Zhengjie, Yuzhong District, Chongqing (viewing platform across the road)"
+  address_local: 重庆市渝中区李子坝正街62号 · 李子坝单轨穿楼观景平台
+  lat: 29.55083
+  lng: 106.53528
+  nearest_transit: "Liziba (Line 2), Exit 2 — follow the 观景台 signs"
+
+sources:
+  - url: https://en.wikipedia.org/wiki/Liziba_station
+    title: Liziba station — Wikipedia
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/liziba-monorail-station/
+    title: Liziba Monorail Station guide — China for Travelers (updated 2026-10-02)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Chongqing#Climate
+    title: Chongqing climate table (1991–2020 normals) — Wikipedia
+    checked: 2026-11-10
+  - url: https://www.chinabound.cn/s/202606/16/WS6a30e7d6498e23165e07014a/chongqings-most-viral-attraction-catch-a-train-with-your-mouth.html
+    title: "Chongqing's most viral attraction — ChinaBound (2026-06-16)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Free platform and ¥2 fare agree across sources. Platform hours conflict (24 h vs 06:30–23:15), so I give train hours only. The 2026 station-works dates come from one commercial guide only; no Chongqing Rail Transit notice found (official site would not load), so they are unconfirmed. Holiday one-way rule is sourced for Golden Weeks only; New Year crowding is not."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: train-through-building
+    focus: left
+    hook: The tracks don't go around the tower. They go straight through it, and people live upstairs.
+  - type: quick_facts
+    time_needed: 45 min – 1 h
+    best_time: Weekday, 07:00–09:00
+    extra:
+      - { label: Station floors, value: 6th–8th of 19, detail: "Shops below, about 240 flats above" }
+      - { label: Open since, value: June 2005, detail: Built as one structure with the building }
+  - type: highlights
+    items:
+      - { title: The swallow, text: "Every few minutes a train **disappears into the façade** and pops out the other side, all in plain view from the street." }
+      - { title: Eat the train, text: "Free wooden props on the platform for the forced-perspective shot of the monorail **flying into your mouth**." }
+      - { title: Ride through it too, text: "Tap in for ¥2 and stand on a platform that is literally **inside someone's apartment block**." }
+      - { title: Peak 8D Chongqing, text: "Cliffside tracks, stacked towers and a river below: the city's vertical madness in one frame." }
+  - type: prose
+    dropcap: true
+    text: |-
+      Chongqing is built on a mountain peninsula with almost no flat ground, so when Line 2 needed a stop on the Jialing riverbank, the planners put it **inside a residential tower**. Station and building went up together and opened in 2005: shops at the bottom, the monorail on floors six to eight, about 240 flats above.
+
+      For years it was just a commute. Then short videos made it viral, and in 2018 the city built a free viewing terrace across the road. Now people wait there with their mouths open, lining up the train so it looks as if they're swallowing it.
+
+      Treat it as an hour, not a whole day. Pair it with the free war-heritage park down the hill and the E'ling Er Chang creative district up the slope, then ride Line 2 back along the river.
+  - type: gallery
+    images:
+      - { file: from-niujiaotuo, caption: "Seen from Niujiaotuo: the line threads the hillside into the tower" }
+      - { file: street-facade, caption: Liziba Zhengjie at street level }
+      - { file: platform-level, caption: "Inside: the platform, built into the building" }
+  - type: quote
+    variant: vibe
+    text: A train hums into a living room wall, phones go up, and somebody upstairs is hanging out laundry.
+  - type: cost_breakdown
+    items:
+      - { label: Viewing platform, local: 0, brl: 0 }
+      - { label: "Line 2, Jiaochangkou → Liziba", local: 2, brl: 1.65 }
+      - { label: Line 2 back, local: 2, brl: 1.65 }
+      - { label: Roadside photographer shot, local: 20, brl: 16.53, optional: true }
+  - type: map
+    note: "Get off at Liziba and take **Exit 2**, then follow the **观景台** (viewing platform) signs to the lift and cross the road. Don't wait inside the station; the view is from outside."
+  - type: tips
+    variant: insider
+    items:
+      - "Be there by **08:00 on weekdays** (08:30 weekends). Trains run every 3–5 min at rush hour, so you get many tries at the shot."
+      - "Ride a train through first, then go out to watch. You need both for the full experience, and together they cost ¥4."
+      - "Bring your own snacks; the platform has only a kiosk (water, ice cream about ¥15) and no public toilet."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Mid-morning (10:00–11:30) and sunny weekend afternoons are the worst crowd windows."
+      - "Roadside photographers charge about **¥20 a shot**; the wooden props are free and your phone works fine."
+      - "During Golden Week holidays (Spring Festival, May Day, National Day) the deck goes one-way and the queue can take hours. None fall in December; New Year crowds aren't reported, but expect it busier than a weekday."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Cool, damp, often foggy; around 5% of possible sunshine
+    note: "The platform is fully open and unshaded. Fog can soften the far side of the valley, but the building is close enough to stay sharp. Not freezing, but the damp chill gets in."
+    wear: Warm layers, a light waterproof jacket, closed shoes

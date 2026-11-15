@@ -1,0 +1,27 @@
+# Independent review of area seoul. Written by `./atr review`; do not edit by hand.
+id: seoul
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 4f3089912100662cc9a8bc72df4a99a318c5d19e6d2bd89bd7f86b3980dce3d3
+facts:
+  supported: 6
+  unsupported: 3
+  contradicted: 0
+issues:
+  - severity: nit
+    field: getting_there
+    problem: The line gives the T2 fare but says 'under an hour' for both terminals. The Seoul Guide puts T2 at about 67 min to Seoul Station, which makes Hongik about an hour from T2, not under.
+    evidence: https://www.theseoulguide.com/airport-railroad-arex-all-stop-train/ — "about 67 minutes from Terminal 2"
+    fix: Write 'under an hour from T1, about an hour from T2', as the prose block already does by naming Terminal 1.
+resolved:
+  - field: blocks[2].text
+    problem: G Guesthouse's Fri/Sat price of ₩42,349–45,374, and the claim that it matches the cheapest Hongdae dorm on all 10–19 Jan weeknights, have no listed source. Only the Mon 11 Jan URL is cited.
+    evidence: "The Fri 15 and Sat 16 Jan Hostelworld URLs are now in sources, and ./atr render confirms them: the 10-bed dorm's 'Best Bed Price' shows ₩42,349 on Fri 15 Jan and ₩45,374 on Sat 16 Jan. The claim that G Guesthouse matches the cheapest Hongdae dorm on every weeknight from 10 to 19 Jan has been narrowed to the sourced Mon 11 Jan comparison (₩29,241 vs ₩29,412)."
+  - field: blocks[1].items[0].text
+    problem: The Hongdae club covers (₩10,000–20,000 with a drink), the 5–6 AM closing and the 5:30 first trains in tips[3] rest only on KORLENS. That page calls itself an AI draft and tells readers to confirm prices with the venue.
+    evidence: "The curator took the fix the review offered: blocks[1].items[0] and tips[3] now call the covers, closing time and first-train time approximate ('check at the door', 'check the timetable'). The KORLENS source title and confidence_note both say it is an AI-drafted guide."
+rereview_of: 28e97c2a9b7cb0ec178d45eb7861f86f1a22e014a48ac380b986c2d6dab4d3f5
+summary: "All three earlier shoulds are resolved. The AREX time now rests on The Seoul Guide and Wikipedia's station list, and the G Guesthouse Fri and Sat prices match their new Hostelworld URLs (checked by render). The KORLENS nightlife numbers are now labelled approximate. The only thing left is a nit: 'under an hour' is true from T1 but not quite from T2."
+model: claude-opus-5-5
+cost_usd: 0.385

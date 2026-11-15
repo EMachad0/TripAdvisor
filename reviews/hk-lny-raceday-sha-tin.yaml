@@ -1,0 +1,22 @@
+# Independent review of hk-lny-raceday-sha-tin. Written by `./atr review`; do not edit by hand.
+id: hk-lny-raceday-sha-tin
+type: place
+reviewed: 2026-11-14
+verdict: pass
+content_hash: f6b5328b544eb77246908ba5783adab390e0a899708c5b75fe5ba8c1e0817eca
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].text
+    problem: The page says the HKJC's current page lists only the HK$10 fare, so the visitor offer is unknown. The same HKJC page lists the Public Enclosure as "Free" under Visitor Privileges, next to the HK$10 Octopus fee. cost.note and cost_breakdown[0].note say the same thing.
+    evidence: 'https://entertainment.hkjc.com/en-us/visit-us/sha-tin-racecourse — Visitor Privileges: Public Enclosure "Free", "Only applicable to visitors aged 18 or above who hold a valid travel document or passport"; "use your Octopus card to pay the HK$10 admission fee". blocks[3].text, cost.note, cost_breakdown[0].note and confidence_note now say this, and "shows only the HK$10 fare" is gone.'
+  - field: location.lat/lng
+    problem: The pin (22.3994, 114.207) sits in Penfold Park inside the track, not at the grandstand or the public entrance by Racecourse station on the west side, so the Google/Apple Maps buttons send the traveler to the infield.
+    evidence: "./atr shot phone light, map slices s06/s07: the pin (22.4001, 114.2042) now sits on the 沙田馬場 Sha Tin Racecourse grandstand label, next to 馬場 Racecourse station on the west side, not in Penfold Park."
+rereview_of: 871dedf4a5e2aed9d50ae9a2878d433d112bbdecd0afe5adcfb799ef877f93a3
+summary: Both earlier findings are fixed. The HKJC page supports free public-enclosure entry for visitors 18+ with a travel document, with HK$10 by Octopus as the standard fare, and the pin is now on the grandstand by Racecourse station. GovHK lists Mon Feb 8, 2027 as the third day of Lunar New Year, and TVB supports the reworded vendor tip. Nothing new needs a fix. The desktop dark check didn't run because `--no-build` found no built page, so I checked the map on the phone light screenshots only.
+model: claude-opus-5-5
+cost_usd: 0.49

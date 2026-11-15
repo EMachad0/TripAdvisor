@@ -1,0 +1,161 @@
+id: nang-loeng-market
+name: "Nang Loeng Market"
+name_local: ตลาดนางเลิ้ง
+name_romanized: Talat Nang Loeng
+country: thailand
+city: bangkok
+area: Nang Loeng · Old Town
+category: food
+fame: hidden
+tags: [market, old-bangkok, thai-desserts, lunch]
+kind: Eat
+why: "Bangkok's first market on land, opened in 1900: a lunchtime maze of curry trays, ฿35 coconut cups and recipes older than the shophouses."
+cost:
+  local: 100
+  currency: THB
+  brl: 16.49
+  note: "A box of pork-filled tapioca dumplings and a pla naem set. Most single items cost ฿12–50"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: Mon–Sat, 10:30–13:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Sat 08:00–15:00, Sun 08:00–17:00. Many vendors pack up after lunch"
+  closed: "Open daily, but some vendors take Sundays off"
+  winter: "No seasonal closures listed. January's cool, dry weather is the most comfortable time of year for a market with open lanes. Hours can change on Thai public holidays, so New Year's Day may be quieter."
+
+location:
+  address: "Nakhon Sawan Rd, Wat Sommanat, Pom Prap Sattru Phai, Bangkok 10100"
+  address_local: "ตลาดนางเลิ้ง ถนนนครสวรรค์ แขวงวัดโสมนัส เขตป้อมปราบศัตรูพ่าย กรุงเทพฯ 10100"
+  lat: 13.75907
+  lng: 100.51215
+  nearest_transit: "No station nearby: taxi/Grab, or canal boat to Phan Fa Bridge + 15 min walk"
+
+sources:
+  - url: https://en.thairath.co.th/lifestyle/food/2948454
+    title: "Nang Loeng Market's century-old legacy: shops and prices (Thairath, 24 Jul 2026)"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/markets-shopping/bangkok/nang-loeng-market
+    title: "Nang Loeng Market (Visit Thailand Today, updated Oct 2026)"
+    checked: 2026-11-12
+  - url: https://migrationology.com/nang-loeng-market-bangkok
+    title: "Nang Loeng Market: Food and History (Migrationology, Mark Wiens)"
+    checked: 2026-11-12
+  - url: https://yourthaiguide.com/nang-loeng-market-tourist-faq/
+    title: "Is Nang Loeng Market worth visiting? (Your Thai Guide, Sep 2025)"
+    checked: 2026-11-12
+  - url: https://www.lovethailand.org/travel/en/17-Bangkok/980-Nang-Loeng-Market.html
+    title: "Nang Loeng Market (Love Thailand)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Dish prices are from one dated source (Thairath, July 2026). Market hours agree across Visit Thailand Today and Love Thailand, but individual shops keep their own (some Mon–Sat only). The curry shop's prices weren't found. Commons has no free photo of the market, so the hero is typographic."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Grandmother recipes under a tin roof: curries ladled from trays, sweets steamed in tiny cups, lunch over by three."
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: Mon–Sat, late morning
+    extra:
+      - { label: Entry, value: Free, detail: You pay only for what you eat }
+      - { label: Opened, value: 29 March 1900, detail: "By King Rama V, as Thailand's first land market" }
+  - type: highlights
+    items:
+      - title: The first market on land
+        text: "King Rama V opened Nang Loeng in **1900** as Thailand's first market built on land rather than on the water. The neighbourhood around it is even older."
+      - title: Twenty curries on one corner
+        text: "**Khao Gaeng Rattana** lays out 20 to 30 curries over rice. Try the roasted eggplant salad or the mackerel and lotus-stem curry."
+      - title: Old-style sweets for ฿12–45
+        text: "Monta's coconut cups (**฿35 a box**, over 1,000 cups a day), shrimp-filled toa paeb (฿45) and khanom tian (฿12 a piece)."
+      - title: A 70-year-old stall
+        text: "Mae Lek has sold **pla naem** sets at the market for more than 70 years: ฿50 a set, late morning to early afternoon only."
+  - type: prose
+    title: Lunch, not dinner
+    dropcap: true
+    text: |-
+      Most visitors to Bangkok eat at night markets. Nang Loeng works the other way round: it is a daytime market, best before noon. Arrive mid-morning, graze for an hour, and you are out before the stalls pack up after lunch.
+
+      The neighbourhood has history beyond the food. The community here goes back more than 200 years, and the market's old **Sala Chaloem Thani** cinema was built in 1918 and closed in 1993. It is about a 10-minute walk from Democracy Monument, so it fits easily into an old-town morning.
+
+      It is also very cheap. Almost everything sells by the box or the set for ฿12–50, so ฿100–150 buys a proper tasting lunch.
+  - type: quote
+    variant: vibe
+    text: "Point at the tray, get a spoon, sit wherever there's a stool."
+  - type: menu
+    title: What to eat
+    items:
+      - name: Coconut cups (khanom thuai talai)
+        name_local: ขนมถ้วยตะไล
+        price_local: 35
+        price_brl: 5.77
+        note: "A box at Monta's. Mon–Sat 06:30–15:00."
+        tag: must-try
+      - name: Tapioca dumplings with pork
+        name_local: สาคูไส้หมู
+        price_local: 50
+        price_brl: 8.24
+        note: "A box at Mae Sa Ing's. Daily 08:00–15:00."
+        tag: signature
+      - name: Pla naem set
+        name_local: ปลาแนม
+        price_local: 50
+        price_brl: 8.24
+        note: "Mae Lek's, 70+ years. Mon–Sat 10:30–14:30."
+      - name: Khao chae set
+        name_local: ข้าวแช่
+        price_local: 40
+        price_brl: 6.6
+        note: "Rice in iced water with side dishes, at the Phetchaburi Khao Chae stall."
+      - name: Toa paeb with shrimp
+        name_local: ถั่วแปบ
+        price_local: 45
+        price_brl: 7.42
+        note: "Folded dumplings at Mae Somchit's; other desserts ฿20–35."
+        tag: cheap
+      - name: Khanom tian
+        name_local: ขนมเทียน
+        price_local: 12
+        price_brl: 1.98
+        note: "Mae Arun's: ฿12 a piece or ฿100 for eight."
+        tag: cheap
+      - name: Curries over rice
+        name_local: ข้าวแกงรัตนา
+        note: "Khao Gaeng Rattana: 20–30 curries to choose from. No current price found."
+    note: "Prices from Thairath's July 2026 visit. Cash is safest."
+  - type: cost_breakdown
+    items:
+      - { label: Tapioca dumplings with pork (box), local: 50, brl: 8.25 }
+      - { label: Pla naem set, local: 50, brl: 8.24 }
+      - { label: Box of coconut cups, local: 35, brl: 5.77, optional: true }
+  - type: map
+    note: "No train station is close. Take a taxi or Grab to **Nang Loeng Market, Nakhon Sawan Road**, or ride the Saen Saep canal boat to **Phan Fa Bridge** and walk 10–15 minutes."
+  - type: tips
+    variant: insider
+    items:
+      - "Come **Monday to Saturday**: several of the best stalls (Monta's, Mae Lek's) don't open on Sundays."
+      - "Mae Lek's pla naem is only sold **10:30–14:30**, so plan your arrival around it."
+      - "Most stalls sell by the box, so you can take sweets away for later."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't come late afternoon: many vendors close after lunch, well before the official 15:00."
+      - "Hours can change on Thai public holidays, so don't plan your only visit for one."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; about 2 rainy days in the month
+    note: "Late morning is warm but not yet at the midday peak. January is dry and as cool as Bangkok gets, good for walking the old town."
+    wear: Light clothes, sandals, a hat for the walk from the canal boat
+  - type: pairs_well
+    items:
+      - { id: golden-mount-wat-saket, note: "Old-town morning: Golden Mount, then lunch here" }
+      - { id: yaowarat-street-food, note: "Lunch here, Chinatown street food for dinner" }
+      - { id: grand-palace-wat-phra-kaew, note: "Taxi over after the palace; arrive by about 13:00, stalls close after lunch" }

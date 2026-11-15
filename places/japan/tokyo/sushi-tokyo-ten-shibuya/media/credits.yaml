@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: shibuya-stream-atrium
+  title: File:Shibuya Stream-2e.jpg
+  author: 江戸村のとくぞう
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shibuya_Stream-2e.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/Shibuya_Stream-2e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 渋谷ストリーム
+  width: 4496
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

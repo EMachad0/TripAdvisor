@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: ear-cleaning
+  title: File:Ear-cleaning, teahouse in Peoples Park - Chengdu, China - DSC05368.jpg
+  author: Daderot
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Ear-cleaning,_teahouse_in_Peoples_Park_-_Chengdu,_China_-_DSC05368.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/30/Ear-cleaning%2C_teahouse_in_Peoples_Park_-_Chengdu%2C_China_-_DSC05368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: At a teahouse in Peoples Park - Chengdu, Sichuan, China.
+  width: 4844
+  height: 3226
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: bamboo-chairs
+  title: File:Teahouse in Peoples Park - Chengdu, China - DSC05371.jpg
+  author: Daderot
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Teahouse_in_Peoples_Park_-_Chengdu,_China_-_DSC05371.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e4/Teahouse_in_Peoples_Park_-_Chengdu%2C_China_-_DSC05371.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: At a teahouse in Peoples Park - Chengdu, Sichuan, China.
+  width: 5472
+  height: 3648
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: gaiwan
+  title: File:Tea in People's Park - Chengdu, China - DSC05362.jpg
+  author: Daderot
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Tea_in_People%27s_Park_-_Chengdu,_China_-_DSC05362.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/47/Tea_in_People%27s_Park_-_Chengdu%2C_China_-_DSC05362.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tea in People's Park - Chengdu, Sichuan, China.
+  width: 2480
+  height: 2401
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: heming-archway
+  title: File:Teahouse in Peoples Park - Chengdu, China - DSC05348.jpg
+  author: Daderot
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Teahouse_in_Peoples_Park_-_Chengdu,_China_-_DSC05348.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d5/Teahouse_in_Peoples_Park_-_Chengdu%2C_China_-_DSC05348.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: At a teahouse in Peoples Park - Chengdu, Sichuan, China.
+  width: 5472
+  height: 3648
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: lakeside
+  title: File:Teahouse in Peoples Park - Chengdu, China - DSC05353.jpg
+  author: Daderot
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Teahouse_in_Peoples_Park_-_Chengdu,_China_-_DSC05353.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/75/Teahouse_in_Peoples_Park_-_Chengdu%2C_China_-_DSC05353.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: At a teahouse in Peoples Park - Chengdu, Sichuan, China.
+  width: 5412
+  height: 3367
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

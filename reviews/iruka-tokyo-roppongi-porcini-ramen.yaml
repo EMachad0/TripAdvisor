@@ -1,0 +1,22 @@
+# Independent review of iruka-tokyo-roppongi-porcini-ramen. Written by `./atr review`; do not edit by hand.
+id: iruka-tokyo-roppongi-porcini-ramen
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 54f62843126394fef5ffe514f8bb826046b2ee610533883f688066df188f6b9e
+facts:
+  supported: 12
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: time_needed
+    problem: The page gives a 15–60 min queue and backs it with the shortest wait in the reviews (4 people at 1 pm). Recent reviews on the listed Tabelog page report waits of more than an hour, and the shop is known for long lines.
+    evidence: "time_needed is now '30 min + 15–90 min queue', and the insider tip cites the long waits. https://tabelog.com/en/tokyo/A1307/A130701/13264260/dtlrvwlst/ — Nov 2026: \"I visited around 17:40 and waited for just over an hour\"; Oct 2026: \"Worth the 1.5-hour wait!\" (\"around 11:30 AM on a holiday\"); Oct 2026: \"It was the weekend, but since it was around 4 PM, I was able to get in without waiting.\""
+  - field: best_time
+    problem: '"Before 11:00 opening" has no listed source. Only the weekday mid-afternoon tip has some support, from one Tabelog review of a weekend visit at about 16:00 with no queue.'
+    evidence: The advice to arrive before 11:00 is gone. best_time is now 'Mid-afternoon, around 15:00–16:00', backed by the 16:00 Tabelog review and https://mydyney-github-io.pages.dev/posts/iruka-tokyo-roppongi-michelin-ramen-guide — "When we visited on a Thursday at 3 PM, there were only 2 groups ahead and we got in within 15 minutes" and "visit during the relatively quiet weekday afternoon hours around 3–4 PM."
+rereview_of: 7ea3d4cf558172dcd51028540152a94ee074adac3e4abc3c58bfc46ecbe18eb6
+summary: Both earlier findings are fixed, and every changed line is backed by a listed source. Those lines cover the 15–90 min queue, the dated review quotes, the 15:00 weekday visit from the blog and the blog's 'Mondays and public holidays' closure. No Japanese public holiday falls between Jan 20 and Feb 4, 2027. Hotaka Bldg 1F matches Tabelog, and the 1/10 °C weather matches JMA's January normals of 1.2/9.8 °C. No blockers or shoulds are open.
+model: claude-opus-5-5
+cost_usd: 0.464

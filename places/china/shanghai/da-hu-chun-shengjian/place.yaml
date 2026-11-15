@@ -1,0 +1,128 @@
+id: da-hu-chun-shengjian
+name: "Da Hu Chun: Shengjian since 1932"
+short_name: Da Hu Chun
+name_local: 大壶春
+name_romanized: Dà Hú Chūn
+country: china
+city: shanghai
+area: Huangpu · the Bund
+category: food
+fame: hidden
+tags: [shengjian, breakfast, laozihao, michelin-listed, cheap-eats, queue]
+kind: Eat
+why: "Shanghai's pan-fried pork buns the old way: fluffy, crisp-bottomed, ¥11 for four, at the 1932 shop on Sichuan Middle Road, a block from the Bund."
+cost:
+  local: 22
+  currency: CNY
+  brl: 18.19
+  note: "Two portions (8 buns) at ¥11 per 4. HK01 puts the average spend at about ¥28 with soup"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min
+best_time: "Breakfast, from 07:00, before the meal-time queue"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 07:00–19:30"
+  winter: "No winter hours or Christmas/New Year closures announced; the 07:00–19:30 hours come from 2026 sources. It closes early in the evening, so this is breakfast or lunch, not a late-night snack."
+
+location:
+  address: 136 Middle Sichuan Road, Huangpu, Shanghai
+  address_local: 上海市黄浦区四川中路136号
+  lat: 31.2367
+  lng: 121.48477
+  nearest_transit: "East Nanjing Road (Lines 2, 10), then walk south-east"
+
+sources:
+  - url: https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260430/c012ba9f05414f3184be86244a03e950.html
+    title: "Global Taste in Shanghai: Pan-fried pork buns (Shanghai gov., 2026-04-30): 1932, ¥11 per 4, 07:00–19:30"
+    checked: 2026-11-10
+  - url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/da-hu-chun-middle-sichuan-road
+    title: "Da Hu Chun (Middle Sichuan Road) — MICHELIN Guide (address, ¥ price band)"
+    checked: 2026-11-10
+  - url: "https://global.hk01.com/旅游/60361419/上海美食-7间米芝莲必比登餐厅推荐-清水生煎-现炒辣肉面高cp值"
+    title: "上海美食：7间米芝莲必比登餐厅推荐 — HK01 (2026-07-15; hours, ~¥28 per person, curry beef soup)"
+    checked: 2026-11-10
+  - url: https://rachelgouk.com/listings/da-hu-chun-yunnan-south-road/
+    title: "Da Hu Chun (Yunnan South Road) — Rachel Gouk (fillings, leavened dough)"
+    checked: 2026-11-10
+  - url: https://www.openstreetmap.org/?mlat=31.2367&mlon=121.48477#map=18/31.2367/121.48477
+    title: Dahuchun, 136 Middle Sichuan Road — OpenStreetMap (pin)
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Price (¥11 per 4) and hours from the Shanghai government's April 2026 food feature (opened by web fetch; times out in the link checker); HK01 (July 2026) gives the same hours. A Michelin search snippet said 08:00–21:00; the page I rendered showed no hours. No price found for the soup or the shrimp/crab buns. Walking directions from the metro are mine."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: yunnan-road-shopfront
+    caption: "Da Hu Chun's Yunnan South Road branch; no free photo of the Sichuan Middle Road shop"
+    hook: Pleats up, bottoms fried crisp, four to a portion, the same recipe on Sichuan Middle Road for ninety years.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: Breakfast, from 07:00
+    extra:
+      - { label: Style, value: Qingshui (clear), detail: "Fully leavened dough, no aspic: bready, not soupy" }
+      - { label: Order by, value: The liang, detail: "One liang = four buns" }
+  - type: highlights
+    items:
+      - title: The other Shanghai bun
+        text: "Everyone knows xiaolongbao. Shengjian are the pan-fried cousin with a crisp base, sold in Shanghai's tea houses since the 1920s."
+      - title: The 1932 style
+        text: "Da Hu Chun makes the **qingshui** kind: fully leavened dough, pleats facing up, and no aspic, so the juice comes from the meat itself."
+      - title: Cheap, even for China
+        text: "**¥11 for four buns** (about R$9). HK01's July 2026 review puts the average spend at around ¥28 with a bowl of soup."
+      - title: A block from the Bund
+        text: "The Sichuan Middle Road shop is the one HK01 tells you to pick. Eat, then walk straight out to the river."
+  - type: prose
+    title: Two kinds of shengjian
+    text: |-
+      Shanghai's government food guide splits shengjian into two schools. **Hunshui** buns have half-risen dough, pleats down and pork-skin aspic that melts into a hot broth; Yang's Fry-Dumpling (since 1994, ¥13 for four) pushes that to a thin skin and lots of broth. **Qingshui** buns, Da Hu Chun's style since 1932, use fully risen dough, sit pleats up and rely on the meat's own juices. They are cleaner-tasting and more like bread.
+
+      Locals call Da Hu Chun's bun the "naked beauty with pleats facing the sky." Rachel Gouk's guide calls it the "soupless" shengjian, because the fluffy wrapper soaks up most of the juice. Try both styles while you're in town and pick a side.
+  - type: quote
+    variant: vibe
+    text: Steam off the pan, a spoon, a dab of vinegar, and the Bund still grey outside.
+  - type: cost_breakdown
+    items:
+      - { label: "Pork shengjian, 1 liang (4 buns)", local: 11, brl: 9.09 }
+      - { label: "A second liang", local: 11, brl: 9.1 }
+  - type: menu
+    items:
+      - name: Pork shengjian (1 liang, 4 buns)
+        price_local: 11
+        price_brl: 9.09
+        note: The original. Fluffy top, crisp base, juice from the meat.
+        tag: must-try
+      - name: Shrimp or crab-roe shengjian
+        note: "Rachel Gouk's \"classics\" besides pork; price not found"
+        tag: signature
+      - name: Curry beef soup
+        name_local: 咖喱牛肉汤
+        note: "The classic side, ordered with the buns; price not found"
+    note: "Order by the liang (4 buns). Prices: pork from the Shanghai government's 2026 guide; others not found."
+  - type: map
+    note: "From East Nanjing Road station, walk toward the river. The Bund is one block east of the shop."
+  - type: tips
+    variant: insider
+    items:
+      - "Eat it the local way, from the Shanghai government's guide: put the bun on a spoon, bite a small hole and sip, eat the filling, then dip the crisp bottom in vinegar."
+      - "Go at breakfast: Michelin's note on the shop starts with the queues, and it closes at 19:30."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Da Hu Chun has several branches. HK01 says to pick the **Sichuan Middle Road** one."
+      - "Don't expect a soup bun: this style is bready by design. For broth, try Yang's (97 Huanghe Road)."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Cool, damp and often grey
+    note: "Hot buns on a cold morning are the point. Queues can form outside, so dress for standing in the damp."
+    wear: Warm jacket
+  - type: pairs_well
+    items:
+      - { id: bund-and-lujiazui-skyline, note: "One block east: breakfast, then the riverfront" }
+      - { id: yu-garden, note: "Breakfast here, then Yu Garden at opening" }
+      - { id: desti-youth-hostel-jing-an, note: "Your Jing'an base, a metro ride away" }

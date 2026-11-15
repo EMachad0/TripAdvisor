@@ -1,0 +1,163 @@
+id: hk-lny-harbour-fireworks
+name: "Lunar New Year Harbour Fireworks"
+short_name: New Year Harbour Fireworks
+name_local: 新春煙花匯演
+country: hong-kong
+city: hong-kong
+area: Tsim Sha Tsui waterfront
+category: views
+fame: iconic
+tags: [lunar-new-year, lunar-new-year-option, fireworks, harbour, skyline, free, crowds, night]
+kind: See
+why: "23 minutes and 31,888 shells over the harbour on the 2nd night of New Year (Sun Feb 7 if 2027 repeats 2026). Free from either shore."
+
+when:
+  dates:
+    - { from: 2027-02-07, to: 2027-02-07 }
+  kind: only
+  label: "2nd day, Sun 7 Feb (expected)"
+  confirmed: false
+
+cost:
+  local: 0
+  currency: HKD
+  brl: 0
+  note: "Free from the waterfront on both sides of the harbour"
+fx: { rate: 0.7219, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Afternoon to 20:30"
+best_time: "Sun Feb 7 (expected); on the waterfront by mid-afternoon"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "2026: 20:00 on the 2nd day of New Year, about 23 min. The 2027 date and time aren't announced (Nov 14, 2026)"
+  winter: "The 2nd day of New Year is **Sun Feb 7, 2027** (HKO). If the show follows 2026, it's that night at 20:00. In 2026 police taped off the waterfront before crowds arrived, TST roads closed in phases from the afternoon, and seven MTR lines were set to run more often. This is a different show from the Dec 31 countdown fireworks."
+
+location:
+  address: Avenue of Stars, Tsim Sha Tsui Promenade, Salisbury Road, Kowloon
+  address_local: 九龍尖沙咀梳士巴利道 尖沙咀海濱長廊 星光大道
+  lat: 22.2937
+  lng: 114.1742
+  nearest_transit: East Tsim Sha Tsui MTR
+  approximate: true
+
+sources:
+  - url: https://www.timeout.com/hong-kong/news/everything-you-need-to-know-about-the-2026-chinese-new-year-fireworks-display-021426
+    title: "Everything you need to know about the 2026 Chinese New Year Fireworks Display (Time Out HK, 2026-02-14): time, length, spots, radio"
+    checked: 2026-11-14
+  - url: https://www.thestandard.com.hk/news/article/324736/Crowds-secure-prime-spots-early-for-2026-Lunar-New-Year-fireworks-display-at-Victoria-Harbour
+    title: "Crowds secure prime spots early for 2026 LNY fireworks (The Standard, 2026-02-18): 23 min, 31,888 shells"
+    checked: 2026-11-14
+  - url: https://news.rthk.hk/rthk/en/component/k2/1844240-20260218.htm
+    title: "Early birds swoop in as fireworks extravaganza calls (RTHK, 2026-02-18): barriers, road closures, arrivals from 9am"
+    checked: 2026-11-14
+  - url: https://news.tvb.com/en/1151826-"ProsperityGallopsAcrossHongKong"fireworksdazzleVictoriaHarbour
+    title: "Prosperity Gallops Across Hong Kong fireworks dazzle Victoria Harbour (TVB News, 2026-02-18): 360,000 spectators"
+    checked: 2026-11-14
+  - url: https://www.thestandard.com.hk/news/article/324436/Lunar-New-Year-transport-boost-overnight-MTR-border-bus-upgrades-lucky-draw-prizes
+    title: "Lunar New Year transport boost (The Standard, 2026-02-13): seven MTR lines add trains for the fireworks"
+    checked: 2026-11-14
+  - url: https://news.rthk.hk/rthk/en/component/k2/1844157-20260217.htm
+    title: "Night parade delivers rousing welcome to Year of Horse (RTHK, 2026-02-17): fireworks Wednesday, races Thursday"
+    checked: 2026-11-14
+  - url: https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2027e.txt
+    title: "Gregorian–Lunar calendar 2027 (Hong Kong Observatory): Feb 7 = 2nd day of the 1st month"
+    checked: 2026-11-14
+  - url: https://hongkongcheapo.com/things-to-do/hong-kong-chinese-new-year/
+    title: "Lunar New Year in Hong Kong (HK Cheapo, 2025-01-22): many restaurants closed or on modified hours"
+    checked: 2026-11-14
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Climatological normals 1991–2020 (Hong Kong Observatory): February"
+    checked: 2026-11-14
+confidence: medium
+confidence_note: "Not announced for 2027 (checked Nov 14, 2026): date, time, length and sponsor all follow the 2026 show (2nd day, 20:00, 23 min). It has been on the 2nd day in recent years, but that's a pattern, not a promise. The pin is the Avenue of Stars, one of several viewing spots."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: fireworks-2012
+    caption: The Lunar New Year fireworks over Central, January 2012
+    hook: Half the city on the waterfront, the whole island skyline behind the shells, and the radio playing the soundtrack.
+  - type: quick_facts
+    time_needed: "Afternoon to 20:30"
+    best_time: "Sun Feb 7 (expected); waterfront by mid-afternoon"
+    extra:
+      - label: 2027 status
+        value: Not announced
+        detail: "2026: 2nd day of New Year, 20:00"
+      - label: 2026 show
+        value: 23 min, 31,888 shells
+        detail: Eight scenes on a horse theme
+      - label: Crowd (2026)
+        value: "360,000+"
+        detail: Police count, both shores
+  - type: highlights
+    items:
+      - title: The second-night show
+        text: "Hong Kong's New Year runs parade, fireworks, races on days 1, 2 and 3. In 2026 the fireworks were on the 2nd day at **20:00**: 23 minutes, 31,888 shells, eight scenes."
+      - title: Both shores work
+        text: "Time Out's picks: **Tsim Sha Tsui** (the Avenue of Stars is hard to beat), Central (Central Ferry Piers), Wan Chai (Bauhinia Square), Causeway Bay and Hung Hom. The West Kowloon Art Park is the less crowded option."
+      - title: The soundtrack on the radio
+        text: "In 2026 **RTHK Radio 4 (FM 97.6–98.9)** played music synced to the show. Bring earphones and a phone with an FM radio, or stand near someone who has one."
+      - title: Free, and a bigger crowd than you've seen
+        text: "Police counted more than 360,000 spectators in 2026. The show is free; the price is the wait."
+  - type: prose
+    title: What's known for 2027
+    dropcap: true
+    text: |-
+      **Not announced yet** (as of Nov 14, 2026). Every detail here is from the 2026 show: the 2nd day of New Year at 20:00. In 2027 the 2nd day is **Sunday Feb 7**, in the middle of your five days. Watch the Tourism Board's and the government's announcements in January.
+
+      **Not the same as the New Year's Eve fireworks.** The Dec 31 countdown show over the same harbour has its own page (linked below), but that's the Western New Year, when you're still in mainland China. This one is the Lunar New Year show, inside your Hong Kong dates.
+
+      **How early**: in 2026 crowds were on the Tsim Sha Tsui and Wan Chai waterfronts hours before the show, one resident from 9 a.m., and police taped off the promenade ahead of the main crowds.
+  - type: gallery
+    images:
+      - file: tst-crowd-2014
+        caption: The crowd on the Tsim Sha Tsui waterfront for the 2014 show
+      - file: fireworks-2026
+        caption: "The 2026 show (Feb 18) seen from a hillside, high above the harbour"
+  - type: quote
+    variant: vibe
+    text: The whole waterfront goes quiet for the first shell, then roars.
+  - type: cost_breakdown
+    items:
+      - label: Watching from the waterfront
+        local: 0
+        brl: 0
+    note: "Free. A harbour-view table or cruise costs money; the promenade costs nothing."
+  - type: map
+    zoom: 15
+    note: "The Avenue of Stars and the promenade by the Cultural Centre fill first. If they're full, try the West Kowloon Art Park, a walk west along the water."
+  - type: tips
+    variant: insider
+    items:
+      - "Be on the waterfront by **mid-afternoon**. In 2026 crowds were in place hours before 20:00."
+      - "Bring water, snacks and an FM radio app or earphones for **RTHK Radio 4** (97.6–98.9 MHz in 2026)."
+      - "Spend the day nearby: Harbour City's Ocean Terminal deck, K11 MUSEA and the ifc rooftop all have harbour views, and their pages (linked below) cover their New Year displays."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Roads around Tsim Sha Tsui close in phases** from the afternoon. Take the MTR; seven lines were scheduled to run more often in 2026."
+      - "**Many restaurants are closed** or on short hours in the first days of New Year. Eat before you claim your spot."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: "Mild and humid; about 8 days with some rain in an average February"
+    note: "February averages 15.3–19.4 °C: mild enough for hours outdoors. Bring a layer for after dark."
+    wear: Light jacket, something to sit on, a power bank
+  - type: pairs_well
+    items:
+      - id: hk-lny-night-parade
+        note: "The night before: the New Year parade from the same waterfront"
+      - id: hk-lny-raceday-sha-tin
+        note: "The next day: New Year races and Che Kung Temple in Sha Tin"
+      - id: harbour-city-ocean-terminal-deck
+        note: Harbour views from the Kowloon side
+      - id: k11-musea
+        note: Harbour-front mall on the Kowloon side
+      - id: ifc-mall-rooftop-garden
+        note: Free rooftop on the Hong Kong Island side
+      - id: hong-kong-nye-fireworks
+        note: "The Dec 31 show over the same harbour (outside your Hong Kong dates)"

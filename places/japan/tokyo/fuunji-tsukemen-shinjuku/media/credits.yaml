@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: entrance
+  title: File:Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku (11324125335).jpg
+  author: Guilhem Vellut from Annecy, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chicken_Gyokai_Tsukemen_@_Fuunji_@_Shinjuku_(11324125335).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9e/Chicken_Gyokai_Tsukemen_%40_Fuunji_%40_Shinjuku_%2811324125335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku
+  width: 3648
+  height: 2736
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: dipping-soup
+  title: File:Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku (11324203954).jpg
+  author: Guilhem Vellut from Annecy, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chicken_Gyokai_Tsukemen_@_Fuunji_@_Shinjuku_(11324203954).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/21/Chicken_Gyokai_Tsukemen_%40_Fuunji_%40_Shinjuku_%2811324203954%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku
+  width: 3648
+  height: 2736
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: noodles
+  title: File:Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku (11324269423).jpg
+  author: Guilhem Vellut from Annecy, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chicken_Gyokai_Tsukemen_@_Fuunji_@_Shinjuku_(11324269423).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/74/Chicken_Gyokai_Tsukemen_%40_Fuunji_%40_Shinjuku_%2811324269423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku
+  width: 3648
+  height: 2736
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: counter
+  title: File:Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku (11324117895).jpg
+  author: Guilhem Vellut from Annecy, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chicken_Gyokai_Tsukemen_@_Fuunji_@_Shinjuku_(11324117895).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/63/Chicken_Gyokai_Tsukemen_%40_Fuunji_%40_Shinjuku_%2811324117895%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku
+  width: 3648
+  height: 2736
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons

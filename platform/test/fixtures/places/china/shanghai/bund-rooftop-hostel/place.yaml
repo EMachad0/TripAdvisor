@@ -1,0 +1,93 @@
+# FIXTURE — platform test data, not curated content. Ignored by the real build.
+# An invented hostel: every fact here is made up to exercise the stay category and block.
+fixture: true
+id: bund-rooftop-hostel
+name: "Bund Rooftop Hostel"
+name_local: 外滩屋顶青年旅舍
+country: china
+city: shanghai
+area: Huangpu · near the Bund
+category: stay
+must_do: social-hostel
+tags: [hostel, social, rooftop-bar]
+kind: Stay
+why: A fixture hostel with a rooftop bar, a nightly family dinner and dorm beds a ten-minute walk from the Bund.
+
+cost:
+  local: 60
+  currency: CNY
+  brl: 49.6
+  note: 8-bed dorm on a January weeknight; weekends cost about 30% more
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: Two weeks ahead for New Year dates
+  method: website
+  links:
+    - { label: Hostelworld, url: "https://www.hostelworld.com/hostels/p/00000/fixture-hostel/", note: Free cancellation up to 3 days before }
+
+hours:
+  summary: Reception 24 h · check-in 15:00 · check-out 11:00
+  winter: Dorms are heated. Dec 30 – Jan 2 has a two-night minimum and prices roughly double.
+
+location:
+  address: 100 Fixture Rd, Huangpu, Shanghai
+  address_local: 上海市黄浦区示例路100号
+  lat: 31.2365
+  lng: 121.4861
+  nearest_transit: East Nanjing Road (Line 2 / 10), Exit 3
+
+sources:
+  - url: https://en.wikipedia.org/wiki/Hostel
+    title: Hostel — Wikipedia
+    checked: 2026-11-09
+  - url: https://en.wikipedia.org/wiki/The_Bund
+    title: The Bund — Wikipedia
+    checked: 2026-11-09
+confidence: low
+confidence_note: Fixture for platform tests — an invented place, not researched.
+last_updated: 2026-11-09
+
+blocks:
+  - type: hero
+    hook: Bunk beds, a rooftop bar and a table of strangers who become your Friday night.
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "From 15:00", detail: Bags can be left from 08:00 }
+      - { label: Vibe, value: Social, detail: Quiet in the dorms after 23:00 }
+  - type: stay
+    style: hostel
+    beds:
+      - { label: 8-bed mixed dorm, local: 60, brl: 49.6, note: Weeknight in January }
+      - { label: 4-bed female dorm, local: 85, brl: 70.27 }
+      - { label: Private double, local: 220, brl: 181.87, note: Shared bathroom }
+    rating: { score: 9.1, out_of: 10, source: Hostelworld, reviews: 2300, checked: 2026-11-09 }
+    social:
+      - "**Rooftop bar** open until 02:00, with ¥15 draft beer"
+      - Family dinner at 19:00 every night (¥30)
+      - Free walking tour of the Bund every morning
+      - Pub crawl on Fridays and Saturdays
+    good_to_know:
+      - Passport needed at check-in; foreigners are registered with the police
+      - Bring a **padlock** for the locker, or buy one for ¥10
+      - No lift, and the dorms are on the 3rd floor
+  - type: highlights
+    items:
+      - title: You will meet people
+        text: The common room and the rooftop are one space, so everyone ends up at the **same long table**.
+      - title: Walk to the Bund
+        text: Ten minutes on foot to the riverfront, so the night view costs nothing.
+  - type: cost_breakdown
+    items:
+      - { label: 8-bed mixed dorm, local: 60, brl: 49.6 }
+      - { label: Towel rental, local: 10, brl: 8.27, optional: true }
+    note: Pay by Alipay or card at check-in.
+  - type: map
+    zoom: 16
+  - type: tips
+    variant: insider
+    items:
+      - Ask for a **lower bunk** when you book; they go first.
+      - The pub crawl is cheaper if you sign up at reception before 18:00.

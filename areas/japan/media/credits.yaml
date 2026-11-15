@@ -1,0 +1,392 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: shirakawa-lit-night
+  title: File:Shirakawa Go (198622037).jpeg
+  author: Yoshiyuki Ito
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shirakawa_Go_(198622037).jpeg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9a/Shirakawa_Go_%28198622037%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "500px provided description: The light of the three houses of Shirakawago. [#night ,#japan ,#snow ,#heritage ,#gifu ,#shirakawago ,#worldheritage ,#??? ,#japantrip]"
+  width: 2048
+  height: 1366
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: takayama-shirakawa-go
+- file: ogimachi-snow-view
+  title: File:Shirakawa-go 20170202.jpg
+  author: Suicasmo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shirakawa-go_20170202.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/93/Shirakawa-go_20170202.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Shirakawa-go 20170202
+  width: 5184
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: takayama-shirakawa-go
+- file: gassho-blue-sky
+  title: File:Winter in Shirakawa-go (51815451686).jpg
+  author: Raita Futo from Tokyo, Japan
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Winter_in_Shirakawa-go_(51815451686).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/ca/Winter_in_Shirakawa-go_%2851815451686%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 白川郷の冬
+  width: 5908
+  height: 3939
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: takayama-shirakawa-go
+- file: takayama-old-street
+  title: File:Hida Takayama old town streets (48519201716).jpg
+  author: Raita Futo from Tokyo, Japan
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hida_Takayama_old_town_streets_(48519201716).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Hida_Takayama_old_town_streets_%2848519201716%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 飛騨高山の街並み
+  width: 5966
+  height: 3977
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: takayama-shirakawa-go
+- file: dotonbori-night
+  title: File:Osaka Dotonbori yoru 02.jpg
+  author: Sakai Yayoi
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Osaka_Dotonbori_yoru_02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8e/Osaka_Dotonbori_yoru_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Dotonbori at night
+  width: 4028
+  height: 2685
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: osaka
+- file: kyoto-kinkakuji
+  title: File:Kyoto Rokuon-ji Kinkaku-ji c14.jpg
+  author: Hyppolyte de Saint-Rambert
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Kyoto_Rokuon-ji_Kinkaku-ji_c14.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/bb/Kyoto_Rokuon-ji_Kinkaku-ji_c14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Vue générale du pavillon d'or sous la neige qui tombe.
+  width: 5184
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: kyoto
+- file: kyoto-fushimi-inari
+  title: File:Fushimi-Inari-Shrine-Senbon-Torii-2016-Luka-Peternel.jpg
+  author: Luka Peternel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Fushimi-Inari-Shrine-Senbon-Torii-2016-Luka-Peternel.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e4/Fushimi-Inari-Shrine-Senbon-Torii-2016-Luka-Peternel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: View of the north-eastern wing of Senbon Torii path within the Fushimi Inari Shirne.
+  width: 5472
+  height: 3648
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: kyoto
+- file: kyoto-gion
+  title: File:Yasaka-dori early morning with street lanterns and the Tower of Yasaka (Hokan-ji Temple), Kyoto, Japan.jpg
+  author: Basile Morin
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_(Hokan-ji_Temple),_Kyoto,_Japan.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_%28Hokan-ji_Temple%29%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yasaka-dori, early morning with street lanterns and the Tower of Yasaka ( Hokan-ji Temple ), 388 Yasaka Kamimachi, Higashiyama-ku , Kyoto , Japan . Important cultural heritage of Kyoto, Hokan-ji is a 46 m (151 ft) high, 5 storey pagoda with a tiled roof that was founded in the 6th century.
+  width: 5550
+  height: 3700
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: kyoto
+- file: shinsekai-night
+  title: File:Shinsekai Tsutenkaku at night 2022-04-23.jpg
+  author: Dick Thomas Johnson
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shinsekai_Tsutenkaku_at_night_2022-04-23.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/90/Shinsekai_Tsutenkaku_at_night_2022-04-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tsutenkaku seen from Shinsekai
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: osaka
+- file: tokyo-shibuya-crossing
+  title: File:Tokyo Shibuya Scramble Crossing 2018-10-09.jpg
+  author: Benh LIEU SONG ( Flickr )
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c5/Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Pedestrians crossing perhaps the most famous scramble intersection in the world, in Shibuya, Tokyo, Japan. Taken from Hachikō square.
+  width: 5853
+  height: 3902
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: tokyo
+- file: tokyo-kabukicho
+  title: File:Kabukicho red gate and colorful neon street signs at night, Shinjuku, Tokyo, Japan.jpg
+  author: Basile Morin
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Kabukicho_red_gate_and_colorful_neon_street_signs_at_night,_Shinjuku,_Tokyo,_Japan.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/92/Kabukicho_red_gate_and_colorful_neon_street_signs_at_night%2C_Shinjuku%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Kabukichō red gate and colorful neon street signs, entertainment and red-light district at night in Kabukicho , Shinjuku , Tokyo , Japan.
+  width: 4950
+  height: 4411
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: tokyo
+- file: tokyo-akihabara
+  title: File:Akihabara Night.jpg
+  author: ElHeineken
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Akihabara_Night.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Akihabara_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Main road of Akihabara in Tokyo, Japan
+  width: 5616
+  height: 3744
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+  area: tokyo
+- file: inasa-dusk
+  title: File:Nagasaki City view from Mt Inasa01s5.jpg
+  author: 663highland
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source_url: https://commons.wikimedia.org/wiki/File:Nagasaki_City_view_from_Mt_Inasa01s5.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/23/Nagasaki_City_view_from_Mt_Inasa01s5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A Nagasaki City view from Mount Inasa , Nagasaki , Nagasaki prefecture , Japan
+  width: 4200
+  height: 2800
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: nagasaki
+- file: glover-night
+  title: File:Nagasaki night pano from Glover Garden.jpg
+  author: Photos of Japan
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Nagasaki_night_pano_from_Glover_Garden.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4b/Nagasaki_night_pano_from_Glover_Garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nighttime panorama of Nagasaki taken from Glover's Garden .
+  width: 11501
+  height: 3091
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: nagasaki
+- file: dejima
+  title: File:View of the Former Dutch Trading Post on Dejima from Tamae Bridge, Nagasaki, 20240815 1501 3720.jpg
+  author: Jakub Hałun
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:View_of_the_Former_Dutch_Trading_Post_on_Dejima_from_Tamae_Bridge,_Nagasaki,_20240815_1501_3720.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1a/View_of_the_Former_Dutch_Trading_Post_on_Dejima_from_Tamae_Bridge%2C_Nagasaki%2C_20240815_1501_3720.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: View of the Former Dutch Trading Post on Dejima from Tamae Bridge, Nagasaki
+  width: 5680
+  height: 3792
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: nagasaki
+- file: chinatown
+  title: File:Nagasaki Shinchi Chinatown.jpg
+  author: Drivephotographer
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Nagasaki_Shinchi_Chinatown.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Nagasaki_Shinchi_Chinatown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nagasaki Shinchi Chinatown
+  width: 4000
+  height: 2250
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: nagasaki
+- file: peace-statue-clear
+  title: File:Nagasaki peace statue.jpg
+  author: RC-wiki-fr
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nagasaki_peace_statue.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2d/Nagasaki_peace_statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nagasaki peace statue
+  width: 4128
+  height: 6192
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: nagasaki
+- file: fuji-lake-kawaguchi
+  title: File:Kawaguchiko, Part III - Kawaguchiko6776.jpg
+  author: lumoplank
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Kawaguchiko,_Part_III_-_Kawaguchiko6776.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Kawaguchiko%2C_Part_III_-_Kawaguchiko6776.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Mount Fuji viewed across Lake Kawaguchi.
+  width: 5036
+  height: 3357
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+  area: fujiyoshida
+- file: fuji-chureito
+  title: File:Chureito Pagoda and Mount Fuji 2023-03-07.jpg
+  author: Stjepko Krehula
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/53/Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chureito Pagoda and Mount Fuji
+  width: 4251
+  height: 2394
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+  area: fujiyoshida
+- file: nara-daibutsuden
+  title: File:Daibutsu-den in Todaiji Nara01bs3200.jpg
+  author: 663highland
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source_url: https://commons.wikimedia.org/wiki/File:Daibutsu-den_in_Todaiji_Nara01bs3200.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b5/Daibutsu-den_in_Todaiji_Nara01bs3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Todaiji in Nara , Nara prefecture, Japan
+  width: 3200
+  height: 2130
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+  area: nara
+- file: nara-deer-group
+  title: File:20190121 Nara deer-2.jpg
+  author: Balon Greyjoy
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:20190121_Nara_deer-2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/32/20190121_Nara_deer-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Deer in Nara Park.
+  width: 5541
+  height: 3694
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+  area: nara
+- file: nara-naramachi
+  title: File:Street in Naramachi area (6156072416).jpg
+  author: Maarten Heerlien from Voorschoten, The Netherlands
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Street_in_Naramachi_area_(6156072416).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/86/Street_in_Naramachi_area_%286156072416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Street in Naramachi area
+  width: 3872
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+  area: nara
+- file: nara-kasuga-deer
+  title: File:Nara Kasuga-taisha Lanterns & Deer 05.jpg
+  author: Zairon
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nara_Kasuga-taisha_Lanterns_%26_Deer_05.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9f/Nara_Kasuga-taisha_Lanterns_%26_Deer_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Lanterns & a Deer at the Kasuga Shrine, Nara, Prefecture of Nara, Region of Kinki, Japan
+  width: 5172
+  height: 3714
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+  area: nara

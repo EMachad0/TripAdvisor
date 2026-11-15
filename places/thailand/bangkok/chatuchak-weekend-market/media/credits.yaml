@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: alley
+  title: File:Chatuchak Weekend Market 1.jpg
+  author: Christophe95
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chatuchak_Weekend_Market_1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Chatuchak_Weekend_Market_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Chatuchak Weekend Market in Bangkok.
+  width: 5142
+  height: 3338
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: stalls
+  title: File:Chatuchak Weekend Market 2.jpg
+  author: Christophe95
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chatuchak_Weekend_Market_2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Chatuchak_Weekend_Market_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Chatuchak Weekend Market in Bangkok.
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: clock-tower
+  title: File:MRT Tower at Chatuchak Weekend Market.jpg
+  author: NC-MyLifeArm
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:MRT_Tower_at_Chatuchak_Weekend_Market.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/81/MRT_Tower_at_Chatuchak_Weekend_Market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The MRT Tower at Chatuchak Weekend Market
+  width: 3024
+  height: 4032
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: roofs
+  title: File:Chatuchak weekend market roofs.jpg
+  author: Jarcje at en.wikipedia
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source_url: https://commons.wikimedia.org/wiki/File:Chatuchak_weekend_market_roofs.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6e/Chatuchak_weekend_market_roofs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chatuchak weekend market - Part of the massive market with the clock tower shown in the middle.
+  width: 2592
+  height: 1944
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

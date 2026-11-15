@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tingtao-pond
+  title: File:Shanghai - Yu Garden - 0035.jpg
+  author: Stefan Fussan
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shanghai_-_Yu_Garden_-_0035.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/45/Shanghai_-_Yu_Garden_-_0035.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tingtao Tower Exhibit Hall and a pond in Yu Garden, Shanghai, China
+  width: 4990
+  height: 2930
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons
+- file: jade-corridor
+  title: File:Yu Garden Shanghai November 2017 013.jpg
+  author: King of Hearts
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yu_Garden_Shanghai_November_2017_013.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0b/Yu_Garden_Shanghai_November_2017_013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Jade Water Corridor, Yu Garden , Shanghai , China .
+  width: 5280
+  height: 3960
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons
+- file: rooftops
+  title: File:Yu Garden Shanghai November 2017 007.jpg
+  author: King of Hearts
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yu_Garden_Shanghai_November_2017_007.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e3/Yu_Garden_Shanghai_November_2017_007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yu Garden , Shanghai , China .
+  width: 6000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons
+- file: pavilion
+  title: File:2024-Apr Shanghai Yu Yuan Garden 豫园 - img 20.jpg
+  author: Chainwit.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a1/2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yu Yuan Garden (豫园)
+  width: 3949
+  height: 2962
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons

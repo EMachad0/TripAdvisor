@@ -1,0 +1,168 @@
+id: jodd-fairs-rama-9
+name: "Jodd Fairs Ratchada"
+short_name: Jodd Fairs
+name_local: จ๊อดแฟร์ รัชดา
+country: thailand
+city: bangkok
+area: Din Daeng · Ratchada
+category: food
+fame: popular
+tags: [night-market, street-food, beer, ratchada]
+kind: Eat
+why: "Bangkok's big evening food fair: volcano-sized pork-rib soup, ฿15 skewers and beer at shared tables, 3 min from the MRT. Moved from Rama 9 to Ratchada."
+cost:
+  local: 150
+  currency: THB
+  brl: 24.73
+  note: "Two pork skewers, mango sticky rice and a smoothie. Sharing a ฿180 leng saap or grilled prawns pushes it to ฿300+"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: "Sat 2, Sun 3 or Sat 9 Jan, arriving 17:00–18:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 17:00–01:00 (verified open July 2026); stalls may close earlier"
+  winter: "January is Bangkok's cool, dry season, the most comfortable time of year for an open-air market. None of the sources list seasonal closures or changed hours for December–January. Expect bigger crowds on Friday and Saturday nights. Check the Jodd Fairs Facebook page or LINE @Joddfairs before going for holiday changes."
+
+location:
+  address: "Ratchadaphisek Rd, next to Big C Place Ratchadaphisek, Din Daeng, Bangkok 10400"
+  address_local: "จ๊อดแฟร์ รัชดา ถนนรัชดาภิเษก (ข้างบิ๊กซี รัชดาภิเษก) เขตดินแดง กรุงเทพฯ 10400"
+  lat: 13.76817
+  lng: 100.57092
+  nearest_transit: "Thailand Cultural Centre (MRT Blue Line), Exit 4"
+
+sources:
+  - url: https://travjoy.com/blog/jodd-fairs-night-market-bangkok-a-complete-2026-guide-to-the-ratchada-site
+    title: "Jodd Fairs Night Market Bangkok: a complete 2026 guide to the Ratchada site (Travjoy)"
+    checked: 2026-11-12
+  - url: https://thaiest.com/blog/jodd-fairs-night-market-bangkok
+    title: "Jodd Fairs Night Market Bangkok (Thaiest, updated 3 Oct 2025)"
+    checked: 2026-11-12
+  - url: https://says.com/my/makan/popular-bangkok-night-market-jodd-fairs-moved
+    title: "Popular Bangkok night market Jodd Fairs Rama 9 closes down (SAYS, 22 Jan 2025)"
+    checked: 2026-11-12
+  - url: https://www.airportels.asia/travel-guides/bangkok-night-market/
+    title: "Night Market Bangkok: 12 still open in 2026 (Airportels, re-checked July 2026): Jodd Fairs Ratchada daily 17:00–01:00, Exit 4"
+    checked: 2026-11-12
+  - url: https://go2-thailand.com/blog/jodd-fairs-bangkok-night-market-guide/
+    title: "Jodd Fairs Ratchada: location, hours and visit plan (Go2 Thailand, verified July 2026)"
+    checked: 2026-11-12
+  - url: https://www.timeout.com/bangkok/things-to-do/jodd-fairs
+    title: "Jodd Fairs (Time Out Bangkok, Mar 2023, written for the old Rama 9 site)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Rama 9 closed Jan 2025; Ratchada is the only branch left. Hours 17:00–01:00 from two guides re-checked July 2026 (Airportels, Go2 Thailand); no first-party 2026 post readable, so check Facebook or LINE @Joddfairs first. Prices from Travjoy (2026) and Thaiest (Oct 2025); no beer price found."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: leng-saap
+    caption: "Leng saap, the market's signature dish (this bowl was shot at another Bangkok restaurant)"
+    hook: A mountain of pork bones in sour, chilli-green broth, a cold beer, and around 800 stalls.
+    focus: "30% 70%"
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: "Sat or Sun, 17:00–18:00"
+    extra:
+      - { label: Busiest, value: "Fri–Sat 20:00–23:00", detail: Shoulder-to-shoulder in the main lanes }
+      - { label: Payment, value: Cash, detail: "Thai QR needs a Thai bank account; few stalls take cards" }
+      - { label: Your slot, value: Weekend night, detail: "Sat 2, Sun 3 or Sat 9 Jan; on work days only a quick 17:00 bite" }
+  - type: highlights
+    items:
+      - title: The volcano ribs
+        text: "**Leng saap** is a heap of pork spine stacked high in a spicy, lime-sour broth. A medium is ฿180, large ฿250, extra large ฿350, so bring friends to share. Ask for *phet nit noi* if you want it milder."
+      - title: Cheap grazing
+        text: "Pork skewers and grilled meats run **฿15–40** each and mango sticky rice starts at **฿60**, so a solo dinner of small bites stays near ฿150."
+      - title: A market built for drinking
+        text: "Beer and cocktails are sold alongside the food, so it works as a first stop before a night out with people from the hostel."
+      - title: The easiest night market to reach
+        text: "It sits about **100 m from Exit 4** of Thailand Cultural Centre MRT, on level pavement. No taxi needed to get there."
+  - type: prose
+    title: Which night market?
+    dropcap: true
+    text: |-
+      Jodd Fairs is run by the team behind the old Rod Fai (Train) Night Market. It ran behind Central Rama 9 until the lease ended, then moved up Ratchadaphisek Road: the new site opened in November 2024 and Rama 9 shut for good in January 2025. If a guide or map still sends you to Rama 9, ignore it. There is only one Jodd Fairs now.
+
+      Compared with Yaowarat, Chinatown's old street-food road, this is a purpose-built market with around 800 stalls, food and drinks side by side. Food is priced for visitors, a bit above ordinary street food. Go to Yaowarat for the eating, and to Jodd Fairs for an easy evening with a beer and a crowd.
+  - type: gallery
+    feature: false
+    images:
+      - file: danneramit-2023
+        caption: "Jodd Fairs' DanNeramit branch in 2023. It closed in 2025, but the stall rows look the same"
+  - type: quote
+    variant: vibe
+    text: "Smoke from the grills, a bucket of ribs on every table, and the MRT still running when you leave."
+  - type: menu
+    title: What to order
+    items:
+      - name: Leng saap, medium
+        name_local: เล้งแซ่บ
+        price_local: 180
+        price_brl: 29.68
+        note: "Pork spine in spicy, sour lime broth. Large ฿250, extra large ฿350."
+        tag: signature
+      - name: Grilled pork skewer
+        name_local: หมูปิ้ง
+        price_local: 15
+        price_brl: 2.47
+        note: "฿10–15 a stick; other grilled meats up to ฿40."
+        tag: cheap
+      - name: Mango sticky rice
+        name_local: ข้าวเหนียวมะม่วง
+        price_local: 60
+        price_brl: 9.89
+        note: From ฿60.
+        tag: must-try
+      - name: Grilled river prawns
+        name_local: กุ้งแม่น้ำเผา
+        price_local: 200
+        price_brl: 32.98
+        note: "฿200–450 depending on size."
+      - name: Salt-crusted grilled fish
+        name_local: ปลาเผาเกลือ
+        price_local: 250
+        price_brl: 41.23
+        note: "฿250–400; a good one to share."
+      - name: Fruit smoothie
+        name_local: น้ำผลไม้ปั่น
+        price_local: 60
+        price_brl: 9.89
+        note: About ฿60.
+        tag: drink
+    note: "Prices from 2025–2026 guides (Travjoy, Thaiest); stalls change often. Bring small notes."
+  - type: cost_breakdown
+    items:
+      - { label: "Two pork skewers", local: 30, brl: 4.95 }
+      - { label: Mango sticky rice, local: 60, brl: 9.89 }
+      - { label: Fruit smoothie, local: 60, brl: 9.89 }
+      - { label: "Half of a medium leng saap, shared", local: 90, brl: 14.84, optional: true }
+      - { label: "Grab home after the MRT stops (about midnight)", local: 150, brl: 24.74, optional: true, estimate: true }
+  - type: map
+    note: "Take **Exit 4** at Thailand Cultural Centre MRT and walk about 100 m. The market is right next to **Big C** on Ratchadaphisek Road."
+  - type: tips
+    variant: insider
+    items:
+      - "**Your slot: a weekend night** (Sat 2, Sun 3 or Sat 9 Jan). Arrive at **17:00–18:00**, when stalls open and tables are free; Friday and Saturday peak 20:00–23:00."
+      - "On a work day (Mon 4 – Fri 8 Jan, shift from 19:00) it only fits as a short 17:00 early dinner before the shift."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Bring **cash**: Thai QR payment needs a Thai bank account, and Thai ATMs charge foreign cards a fee per withdrawal, so take out enough at once."
+      - "The MRT stops around midnight. After that, a Grab or Bolt home is typically ฿150–300."
+      - "Crowded lanes attract **pickpockets**: keep your phone in a front pocket."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and clear; warm evenings that cool to the low 20s
+    note: "January is Bangkok's best month for an outdoor evening market: little rain and the coolest nights of the year. Evenings stay warm."
+    wear: T-shirt and shorts, comfortable shoes
+  - type: pairs_well
+    items:
+      - { id: yaowarat-street-food, note: "The other night food scene: older, more street-level" }
+      - { id: chatuchak-weekend-market, note: "Same MRT Blue Line, for a weekend daytime market" }

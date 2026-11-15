@@ -1,0 +1,30 @@
+# Independent review of shibuya-persona-5-walkway. Written by `./atr review`; do not edit by hand.
+id: shibuya-persona-5-walkway
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: d38058386ebc7be7c60ba43795d9f6c8a2bbef8dd8de567fa55b0628af5f61e8
+facts:
+  supported: 7
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[11].conditions
+    problem: No listed source says 'Mostly clear, dry'. The JMA normals page the curator added gives only temperatures (Jan 9.8 / 1.2 °C).
+    evidence: https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662 — temperature table only
+    fix: Cite JMA sunshine-hours or precipitation normals for January, or drop the word 'clear'.
+resolved:
+  - field: hours.summary
+    problem: No listed source gives the walkway's opening hours. The page's best_time is 'after dark', so a late visit depends on this. The only hours I found (Walkerplus, Jan 2026) are the Mark City complex's 10:00–21:00, and that page does not say whether the connecting passage follows them.
+    evidence: hours.summary now says the walkway has no published hours, gives Mark City's 21:00/23:00 and advises going before 21:00. This is the fallback the earlier review asked for. The best_time and pitfalls tip match it. https://www.walkerplus.com/spot/ar0313s03433/ — "10:00～21:00、レストラン 11:00～23:00" (as of Jan 2026). LIVE JAPAN lists no hours.
+  - field: blocks[0].image / blocks[4].images
+    problem: The page is built around the 30 m mural, but no photo shows the mural or the walkway. The hero shows Center Gai and the gallery shows a Ginza Line train and the name plaque.
+    evidence: "The hero is now mural-from-below: the painted mural runs overhead above the 明日の神話 / Myth of Tomorrow plaque, and the caption says honestly that no free photo shows all 30 m (phone-light s01, desktop-dark s01). The first gallery image is the walkway itself with the plaque in shot (phone-light s04)."
+  - field: blocks[2].items[3].text
+    problem: No source that opened says the green train car appears in the game's Station Square. tsunagu mentions only a 'train-shaped monument' in the real square, and Twinfinite returned HTTP 403 to me as well.
+    evidence: blocks[2].items[3] no longer says the car is in the game. It now calls the car a former real landmark moved to Odate, Akita, in Aug 2020. https://www.timeout.com/tokyo/news/the-iconic-train-car-tourist-information-centre-in-shibuya-has-moved-to-akita-prefecture-080420 — "a tourist information centre located inside a vivid green train car" … "will be moved to Odate in Akita prefecture on August 6" (2020).
+rereview_of: 5d1bb3b743da381ac65d8cecf37aba5a7c7dd4af2fe63f01e41e87f05bc7f1ea
+summary: "All three earlier findings are fixed and backed by sources. The hours now say plainly that none are published and give a safe 21:00 cutoff. The hero shows the mural with an honest caption. The train-car text matches Time Out (Odate, Aug 2020), and the new weather numbers match JMA's January normals (trip dates in Japan: 2027-01-20 to 02-04). Only a nit is left: no source backs the word 'clear' in the weather conditions."
+model: claude-opus-5-5
+cost_usd: 0.47

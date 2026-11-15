@@ -1,0 +1,84 @@
+id: kanchanaburi
+country: thailand
+name: "Kanchanaburi"
+name_local: กาญจนบุรี
+region: Western Thailand
+scope: region
+cities: [kanchanaburi]
+why: "The Bridge over the River Kwai, a ride on the WWII Death Railway along a cliff, and the seven-tier Erawan Falls. About 2.5 h west of Bangkok by a ฿100 (R$16.49) train."
+best_for: [nature, culture, day-trip]
+highlights: ["Bridge over the River Kwai", "Death Railway to Nam Tok", "Erawan Falls", "Hellfire Pass", "Kanchanaburi War Cemetery"]
+days_suggested: { min: 1, max: 3 }
+cost_level: low
+fame: popular
+lat: 14.0194
+lng: 99.5311
+getting_there: "Ordinary train from Thonburi about 07:45–07:50 or 13:45–13:55 (confirm there), ฿100 for foreigners, about 2 h 40 min; or a 1st-class bus from the Southern Bus Terminal, ฿110, about 2 h."
+getting_around: "Songthaews about ฿10 around town; bicycles about ฿50 a day, motorbikes ฿150–200. Bus 8170 to Erawan Falls, ฿80, about 1.5 h."
+winter_note: "January is dry: about 20 °C at night and 33 °C by day (1991–2020 normals), with little rain. Warm afternoons suit a swim in the Erawan pools."
+image: river-kwai-bridge
+sources:
+  - url: https://en.wikivoyage.org/wiki/Kanchanaburi
+    title: "Kanchanaburi (Wikivoyage): Thonburi trains, ฿100 foreigner fare, Southern Terminal buses, Hellfire Pass, cemetery, transport"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Kanchanaburi
+    title: "Kanchanaburi (Wikipedia): coordinates, 120 km from Bangkok, January climate normals 1991–2020"
+    checked: 2026-11-12
+  - url: https://www.thainationalparks.com/erawan-national-park
+    title: "Thai National Parks: Erawan entry ฿300 adults (June 2026), open 08:00–16:30, no entry after 15:30"
+    checked: 2026-11-12
+  - url: https://www.thainationalparks.com/erawan-national-park/get-there
+    title: "Thai National Parks: bus 8170 to Erawan, ฿80 (Nov 2026), 1.5 h, timetable, last bus back 16:30"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Erawan_National_Park
+    title: "Erawan National Park (Wikipedia): seven-tier falls, 1.5 km trail, 50 km from town"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Hellfire_Pass
+    title: "Hellfire Pass (Wikipedia): interpretive centre renovated 2018, nearest station Nam Tok Sai Yok Noi"
+    checked: 2026-11-12
+  - url: https://www.thelongestwayhome.com/travel-guides/thailand/weekend-train-kanchanaburi-bridge-over-river-kwai.html
+    title: "The Longest Way Home (updated 15 Mar 2026): Thonburi timetable 07:45→10:35 and 13:55→16:25, ฿100 foreigner fare in 2026"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Train times from Wikivoyage (07:45/13:45) and The Longest Way Home, Mar 2026 (07:45→10:35, 13:55→16:25); other guides give 07:50, so check at Thonburi on the day. ฿100 fare confirmed for 2026 by The Longest Way Home. Bus fare from Wikivoyage, undated. Erawan fee and bus from Thai National Parks (2026)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "A wartime railway along the river, a famous black-iron bridge and turquoise jungle pools."
+    caption: "The Bridge over the River Kwai at sunset"
+    focus: bottom
+  - type: highlights
+    items:
+      - title: The bridge and the history
+        text: "The **Bridge over the River Kwai** is 3 km north of town. Some 16,000 prisoners of war and 90,000 Asian labourers died building the railway in 1942–43."
+      - title: Ride the Death Railway
+        text: "The ordinary train continues past the bridge to **Nam Tok**, crossing wooden viaducts along the river at Wang Pho. Foreigners pay ฿100 a leg."
+      - title: Seven tiers of waterfall
+        text: "**Erawan Falls** climbs seven tiers along a 1.5 km trail in a national park 50 km from town: ฿300 (R$49.47) entry, ฿80 by local bus."
+      - title: Hellfire Pass
+        text: "A cutting hacked through rock by prisoners, with a museum renovated in 2018, beyond the end of the line."
+  - type: prose
+    title: Day trip or overnight?
+    text: |-
+      **A day trip** from Bangkok buys the town itself: the early train from Thonburi arrives mid-morning, leaving time for the **bridge**, the **war cemetery** (free, Wikivoyage lists it as open in the morning and early afternoon) and the museums, then the afternoon train or a bus back. Expect about ฿200 in train fares plus a songthaew or two, roughly **R$35**.
+
+      **An overnight (or two)** is what makes Kanchanaburi worth it, because the best parts are further out. Erawan Falls is 1.5 hours away by bus and stops letting people in at **15:30**, the last bus back leaves at 16:30. The Death Railway to Nam Tok and **Hellfire Pass** fill another day. Two nights let you do one of each without rushing.
+
+      **Getting there.** Ordinary trains leave Bangkok's **Thonburi** station (on the west bank, not Hua Lamphong) at about **07:45–07:50** and **13:45–13:55** (timetables differ by a few minutes; confirm at Thonburi), arriving around 10:20–10:35 and 16:25–16:35; foreigners pay a flat **฿100**, and tickets are sold at the station on the day. Faster and more frequent: first-class **BKS buses from the Southern Bus Terminal** every 15 minutes from 05:00 to 22:30, **฿110 (R$18.14)**, about two hours.
+  - type: gallery
+    images:
+      - { file: wang-pho-viaduct, caption: "The Death Railway along the river near Wang Pho" }
+      - { file: erawan-falls, caption: "Erawan Falls in its national park" }
+  - type: tips
+    variant: insider
+    items:
+      - "Get to **Erawan** early: no entry after 15:30, and the last bus back to town leaves at 16:30."
+      - "Return trains to Bangkok leave Kanchanaburi station at about 07:25 and 14:48; buses run all day."
+      - "Bicycles (about ฿50 a day) are enough for the bridge, the cemetery and town; rent a motorbike (฿150–200) only if you ride already."
+  - type: weather
+    temp_low_c: 20
+    temp_high_c: 33
+    conditions: Dry and sunny, little rain in January
+    note: "Cool mornings for the train ride, hot afternoons: ideal for a swim at Erawan."
+    wear: "Light clothes, swimwear, shoes that grip on wet rock"

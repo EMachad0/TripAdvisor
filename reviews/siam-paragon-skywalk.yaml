@@ -1,0 +1,22 @@
+# Independent review of siam-paragon-skywalk. Written by `./atr review`; do not edit by hand.
+id: siam-paragon-skywalk
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: c29791415ced7132577ba8d70a8aee1ec30d63fd8090692da08af094a15bdc26
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[2].items[1]
+    problem: The page says Rolls-Royce "opened a boutique showroom on the 2nd floor in 2024", and `why` gives it top billing. The only source is a press release in the future tense that gives no opening date and calls it a 'Galleria boutique'. Nothing from the last two years shows it is still open.
+    evidence: "The showroom is out of `why` and the prose, and the highlight now says 'check the mall directory before you count on it'. The softened claim matches https://newsroom.rolls-roycemotorcars.com/rolls-royce-motor-cars-bangkok-opens-new-showroom-in-thailands-largest-luxury-hub (dated 09 Aug 2024): \"Located on the second floor of Siam Paragon, the Galleria concept…\". The 2024 opening claim is gone."
+  - field: blocks[2].items[1].text
+    problem: "The text says \"Inside Retail reported it open in Mar 2025\", but the article only lists the Rolls-Royce Galleria under 'Major new store openings include:', with no verb and no date. It does not say the showroom is open. 'Two-car' is not in either source either: the press release mentions \"a Rolls-Royce motor car\" inside, plus Spectre in the window. No source shows the showroom is open in 2026, yet `why` and the prose still present it as a fact."
+    evidence: "'Two-car' and 'reported it open' are gone. The page now says 'Inside Retail listed it among new openings in Mar 2025', which matches https://insideretail.asia/2025/03/12/siam-piwat-forges-ahead-with-pioneering-world-class-luxury-destination-prototype/: under \"Major new store openings include:\" it lists \"Rolls-Royce: A new 'Galleria' showroom at Siam Paragon\". confidence_note now says 'not confirmed open in 2026'."
+rereview_of: 625659417668dca3bd963deb65d24cc230d2182ec547e498395f96f4f7fe69d0
+summary: "Both earlier findings are resolved. The Rolls-Royce showroom is out of `why` and the prose, and the highlight now matches the two sources: an Aug 2024 announcement and an Inside Retail list of new openings from Mar 2025, with a caveat to check before going. The rewrite adds no new unsupported facts, and the phone render shows the new block cleanly."
+model: claude-opus-5-5
+cost_usd: 0.381

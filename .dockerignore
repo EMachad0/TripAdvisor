@@ -1,0 +1,9 @@
+.git
+node_modules
+build
+runs
+.cache
+reviews
+docs
+**/test
+**/.DS_Store

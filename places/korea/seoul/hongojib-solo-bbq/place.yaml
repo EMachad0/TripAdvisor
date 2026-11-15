@@ -1,0 +1,166 @@
+id: hongojib-solo-bbq
+name: "Hongojib: solo Korean BBQ"
+short_name: Hongojib
+name_local: 혼고집
+name_romanized: Hongojip
+country: korea
+city: seoul
+area: Hongdae · Donggyo-dong
+category: food
+fame: hidden
+tags: [bbq, samgyeopsal, solo-friendly, cheap-eats, near-hongdae]
+kind: Eat
+why: "Korean BBQ built for one: your own grill, self-order, three-cut sets from ₩9,800, no 2-serving minimum. A short walk from the Hongdae hostels."
+
+cost:
+  local: 9800
+  currency: KRW
+  brl: 40.73
+  note: "Neck + pork skirt + belly set, ₩9,800 (Feb 2026; an older menu says ₩11,500). Beef sets ₩13,600–17,800. Drinks extra"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1 h
+best_time: Weekday 17:00 reopening, before a shift
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 11:30–15:30 and 17:00–22:00 (last order 21:30)"
+  winter: "No winter or holiday hours published. It is indoors and heated, and the grill sits in front of you. Seollal (Feb 2027) falls after your Korea dates."
+
+location:
+  address: 1F, 1 Donggyo-ro 30-gil, Mapo-gu, Seoul
+  address_local: 서울특별시 마포구 동교로30길 1 1층 (혼고집)
+  lat: 37.56029
+  lng: 126.92485
+  nearest_transit: Hongik Univ. (Line 2 / AREX), a few minutes' walk
+  approximate: true
+
+sources:
+  - url: https://www.ivisitkorea.com/solo-friendly-restaurants-in-seoul/
+    title: "Solo-friendly Restaurants in Seoul (iVisitKorea, 2026)"
+    checked: 2026-11-12
+  - url: https://hotplacehunter.co.kr/sns/article/86207/
+    title: "혼밥 맛집 BEST5: 혼고집 (Siksin Hot Place Hunter, Feb 2026)"
+    checked: 2026-11-12
+  - url: https://polle.com/place/2Utvht/%ED%98%BC%EA%B3%A0%EC%A7%91
+    title: 혼고집 - 홍대 고깃집 (Polle, menu and reviews)
+    checked: 2026-11-12
+  - url: https://www.nomadotravel.app/en/guides/korean-bbq-guide-seoul
+    title: "Korean BBQ in Seoul: how it works (Nomado guide)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Climate_of_Seoul
+    title: "Climate of Seoul (Wikipedia, KMA 1991–2020 normals)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours, break time and two set prices are from Siksin's Feb 2026 article. Other prices are from Polle's undated menu, which lists the neck/galmaegisal/belly set at ₩11,500 against ₩9,800 in 2026, so treat Polle prices as approximate. iVisitKorea (2026) gives 11:30–22:00 without the break. The pin marks Donggyo-ro 30-gil, not the door. No free photo exists."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: Your own little grill and a self-order screen. Nobody here is waiting for a second person to show up.
+  - type: quick_facts
+    time_needed: 1 h
+    best_time: Weekday 17:00 reopening, before a shift
+    extra:
+      - label: Eating alone
+        value: Built for it
+        detail: Personal grill, self-order kiosk. One set is enough
+      - label: Grill
+        value: You grill it yourself
+        detail: Each table has its own grill
+  - type: highlights
+    items:
+      - title: The solo answer
+        text: "Most BBQ places want **2 servings** at least. Hongojib was built for one person: a personal grill at each seat and self-order kiosks. A Polle reviewer came because '2 servings felt like too much', and found a room of 1–2-person tables."
+      - title: Three cuts for under ₩12,000
+        text: "Sets mix three cuts: neck, *galmaegisal* and belly for **₩9,800** (Feb 2026), or beef brisket, short rib and neck for ₩11,500. Side dishes and soup come with it; a fresh grill plate is ₩1,000. Try galmaegisal here before the Mapo alley."
+      - title: Beef if you want it
+        text: "Beef sets with skirt, flank or wagyu cost **₩13,600–17,800**. A reviewer's flank, short-rib and wagyu set came to about 100 g of each cut."
+      - title: A shift-day dinner
+        text: "Open 11:30–15:30, then 17:00–22:00 (last order 21:30). Arrive at 17:00 when it reopens and you've eaten long before a 21:00 shift."
+  - type: prose
+    title: How Korean BBQ works, in one minute
+    dropcap: true
+    text: |-
+      Meat comes raw (or marinated) to a grill in your table, and you cook as you eat. **Scissors** come with the tongs: cut the strips into bites on the grill. That's normal, not rude. At mid-range places staff often grill for you. At cheap spots, like this one, you grill it yourself.
+
+      Wrap a piece in **lettuce or a perilla leaf** with a dab of *ssamjang* (soybean-chili paste), raw garlic and green chili, and eat it in one bite. This is a *ssam*. Soju or beer goes with it, and your jacket will smell of smoke afterwards, whatever you do.
+
+      Usually the catch for a solo traveler is the **two-portion minimum**. Hongojib doesn't have one, which makes it the easiest first BBQ in Seoul when you're alone.
+  - type: quote
+    variant: vibe
+    text: A sizzle in front of you, a self-order screen, nobody asking "just one?".
+  - type: menu
+    title: Sets (one person)
+    items:
+      - name: Belly + beef brisket + neck
+        name_local: 삼겹살+우삼겹+목살 정식
+        price_local: 9900
+        price_brl: 41.14
+        note: Polle's menu (undated).
+        tag: cheap
+      - name: Neck + pork skirt + belly
+        name_local: 목살+갈매기살+삼겹살 정식
+        price_local: 9800
+        price_brl: 40.73
+        note: "Feb 2026 price (Polle's older menu: ₩11,500). Includes galmaegisal, Mapo's cut."
+        tag: must-try
+      - name: Beef brisket + skirt + belly
+        name_local: 우삼겹+안창살+삼겹살 정식
+        price_local: 13600
+        price_brl: 56.52
+      - name: Pork skirt + brisket + wagyu
+        name_local: 갈매기살+우삼겹+와규 정식
+        price_local: 14000
+        price_brl: 58.18
+      - name: Flank + short rib + wagyu
+        name_local: 부채살+가루비+와규 정식
+        price_local: 17200
+        price_brl: 71.48
+        note: One reviewer said skip the garubi (short rib) and get more wagyu.
+      - name: Pork sukiyaki set, 150 g
+        name_local: 돈스키야키 150g 정식
+        price_local: 13400
+        price_brl: 55.69
+        note: A simmered option if you don't want to grill.
+      - name: First-come "1 pound" grill set
+        name_local: 선착순 1파운드구이정식
+        price_local: 15900
+        price_brl: 66.08
+        note: Limited daily. A reviewer found it sold out by 17:30 on a Friday.
+    note: "Galmaegisal-set price from Siksin (Feb 2026); others from Polle's undated menu. You order on a self-order screen. Drinks are extra; their prices weren't listed."
+  - type: cost_breakdown
+    items:
+      - label: Neck + pork skirt + belly set
+        local: 9800
+        brl: 40.73
+  - type: map
+    note: "In the lanes north of **Hongik Univ.** station. The pin marks the street; look for 혼고집 on the ground floor."
+  - type: tips
+    variant: insider
+    items:
+      - "Get the **galmaegisal set** to taste the cut before deciding on a night in the Mapo alley."
+      - "Arrive early for the first-come sets: a Friday reviewer found them gone 30 minutes after opening."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't expect a social night. It's quiet and efficient by design. For a loud BBQ evening, round up people from the hostel and go to Mapo's galmaegisal alley."
+      - "Your jacket **will** smell of smoke. Wear the jacket you don't mind, not the one for the club."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing; about 7 snowy days in January
+    note: "Indoors and heated, with a grill in front of you. The only cold part is the short walk from the station."
+    wear: Padded jacket you don't mind smelling of BBQ
+  - type: pairs_well
+    items:
+      - id: time-travelers-relax-hongdae
+        note: Hostel in the same Hongdae–Sinchon area
+      - id: lazy-cube-hongdae
+        note: Capsule hostel by Hongik Univ. station
+      - id: hongdae-pub-crawl
+        note: Eat here first, then meet the crawl
+      - id: mapo-galmaegisal-alley
+        note: The full galmaegisal night, with company

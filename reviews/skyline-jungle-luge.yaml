@@ -1,0 +1,22 @@
+# Independent review of skyline-jungle-luge. Written by `./atr review`; do not edit by hand.
+id: skyline-jungle-luge
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: e4933d0b2a9415aa82db8a06386bfa149f8d70abaa5745a28828cd1f6b904ff3
+facts:
+  supported: 11
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: The page puts hotel pickups at roughly 07:00–13:00 and tells you to take a late-morning pickup off the 08:45 train and ask for a later slot. On the official booking calendar, the Exciting package you are told to book has only one daily pickup, at 10:00. Pickups at 07:00, 08:00, 09:00, 11:00 and later are offered only for Extreme. If No. 13 runs 60 min late, you miss the only Exciting van, and there is no later slot to ask for.
+    evidence: hours.summary, booking-link notes, prose, book_ahead step, cost_breakdown and pitfalls tip now say Exciting has only a 10:00 pickup and recommend Extreme at 11:00 or 12:00. The FareHarbor calendar for Exciting (items/686305, Dec 2026) shows '10:00 AM' as the only slot on every day. The Extreme calendar (items/686303) lists start_at 07:00, 08:00, 09:00, 11:00, 12:00 and 13:00, so the 11:00 and 12:00 slots exist. The Jan 2027 calendar renders with no dates, which matches the 'not on sale yet' note.
+  - field: blocks[1].extra[1].detail
+    problem: The page says the run is the 'longest luge run in Thailand, per the operator', and `why` repeats it. The operator never says this. It calls the ride Thailand's only luge kart. 'Longest' comes from a reseller, and the project's own Thongsomboon page shows other luge runs exist.
+    evidence: "'longest luge run in Thailand' is gone from `why` and from the Track detail. The detail now reads 'the operator calls it Thailand's only luge kart', which matches https://skylinejungleluge.com/packages/exciting/: 'Thailand's only luge kart ride'."
+rereview_of: ae35d3b598478516164a2ff84d18f75f3155b81644f9ca5f29d7a532b065b986
+summary: "Both earlier findings are fixed and the official site and its FareHarbor calendar back the fixes. These all check out against official sources: the ฿2,450 Extreme package and its pickups at 07:00–09:00 and 11:00–13:00, the single 10:00 pickup for Exciting, 21 ziplines on 38 platforms with a 900 m longest line and 2 abseils, ages 4+ and the 110 kg limit (FareHarbor: 'weight does not exceed 110 kg'; not recommended for ages 65+), and the new totals (฿3,992 ≈ R$667). The page renders cleanly on phone (light) and desktop (dark), and nothing in the changes needs further work."
+model: claude-opus-5-5
+cost_usd: 0.56

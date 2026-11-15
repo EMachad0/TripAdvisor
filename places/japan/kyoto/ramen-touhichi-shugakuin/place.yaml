@@ -1,0 +1,136 @@
+id: ramen-touhichi-shugakuin
+name: "Ramen Touhichi"
+short_name: Touhichi
+name_local: らぁ麺 とうひち
+name_romanized: Ramen Touhichi
+country: japan
+city: kyoto
+area: Sakyō · Shugakuin
+category: food
+fame: hidden
+tags: [ramen, chef-driven, bib-gourmand, local-favourite, cash-only]
+kind: Eat
+why: "Kyoto's clear chicken-shoyu bowl: Tanba black chicken and Hinai-jidori broth, fresh soy sauce, house noodles. ¥1,700 for the special; skip the line for ¥500."
+cost:
+  local: 1700
+  currency: JPY
+  brl: 60.18
+  note: "Special chicken shoyu ramen, from a Tabelog review (Oct 2026); the plain bowl is ¥1,300"
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 1 h incl. the train
+best_time: "Saturday 18:00 (no wait one October evening)"
+
+book_ahead:
+  required: false
+  links:
+    - label: TableCheck FastPass (optional)
+      url: https://www.tablecheck.com/en/shops/touhichi/reserve
+      note: "¥500 per person to skip the line at a set time; party of 1 OK"
+
+hours:
+  summary: "Mon and Wed–Sun 11:00–14:30 and 18:00–21:00"
+  closed: Tuesdays
+  winter: "No winter or New Year notice found on Tabelog or TableCheck (Nov 2026). No closure is announced for late January; recheck Tabelog the day before. The queue, if any, is outside by the station."
+
+location:
+  address: 1F Keifuku Shugakuin Mansion, 8-6 Yamabana Ichōdachō, Sakyō-ku, Kyoto
+  address_local: 京都府京都市左京区山端壱町田町8-6 京福修学院マンション 1F
+  lat: 35.04997
+  lng: 135.79103
+  nearest_transit: Shugakuin (Eizan Railway), about 100 m
+  approximate: true
+
+sources:
+  - url: https://tabelog.com/en/kyoto/A2601/A260303/26037391/
+    title: Ramen Touhichi — Tabelog (3.74, Ramen WEST Tabelog 100 2025, hours, closed Tue, cash only, 14 seats, reopened in Shugakuin 5 Apr 2022)
+    checked: 2026-11-13
+  - url: https://tabelog.com/en/kyoto/A2601/A260303/26037391/dtlrvwlst/
+    title: Ramen Touhichi — Tabelog reviews (Oct–Nov 2026 visits; ¥1,300 chicken shoyu, ¥1,700 special, ¥1,850 large special, waits)
+    checked: 2026-11-13
+  - url: https://www.tablecheck.com/en/shops/touhichi/reserve
+    title: Ramen Touhichi — TableCheck FastPass (¥500, weekend slots released a week ahead, cash only, party 1–4)
+    checked: 2026-11-13
+  - url: https://www.tablecheck.com/en/touhichi
+    title: Ramen Touhichi — TableCheck venue page (Tanba black chicken and Hinai-jidori broth, fresh soy sauce, house noodles)
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/kyoto-region/kyoto/restaurant/ramen-touhichi
+    title: MICHELIN Guide — Ramen Touhichi (price ¥, "Good for solo dining")
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/jp/kyoto-region/kyoto/restaurants/bib-gourmand/ramen
+    title: MICHELIN Guide — Kyoto Bib Gourmand ramen list (current Kyoto-Osaka 2026 selection; Ramen Touhichi listed)
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-ceremony-tokyo-kyoto-osaka-nara-2027-selection-save-the-date
+    title: MICHELIN Guide — 2027 Kyoto-Osaka selection to be revealed Feb 16, 2027
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Eizan_Electric_Railway
+    title: Eizan Electric Railway — Wikipedia (Eizan Main Line from Demachiyanagi via Shugakuin)
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Kyoto
+    title: Kyoto — Wikipedia (climate table, January normals)
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "No menu is published online (Tabelog's menu tab and TableCheck show none), so bowl prices come from Tabelog reviews dated Oct–Nov 2026. Hours and payment from Tabelog; FastPass rules from TableCheck. How far ahead weekday FastPasses open isn't stated. Bib status from Michelin's Kyoto Bib ramen list. Pin is block-level."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: shugakuin-station
+    caption: "Shugakuin Station on the Eizan line, about 100 m from the shop (no free photo of it)"
+    hook: A bowl of clear golden chicken soup worth a ride out of central Kyoto.
+  - type: quick_facts
+    time_needed: 1 h incl. the train
+    best_time: Saturday 18:00
+    extra:
+      - { label: Pay, value: Cash only, detail: "No cards, IC or QR (Tabelog)" }
+      - { label: Seats, value: "14 (8 at the counter)", detail: Tabelog }
+      - { label: Out of place?, value: "No", detail: "Michelin tags it good for solo dining; no dress rule on its listings" }
+  - type: highlights
+    items:
+      - title: Why it's a step up
+        text: "The broth is simmered from **Tanba black chicken and Hinai-jidori**, seasoned with a special fresh (nama) soy sauce, with thin house-made noodles from domestic wheat and both pork and chicken-breast chashu (TableCheck)."
+      - title: Bib Gourmand and Tabelog Top 100
+        text: "On Michelin's **Kyoto-Osaka 2026** Bib Gourmand ramen list, picked for Tabelog's **Ramen WEST Top 100 2025**, and **3.74 on Tabelog** from 820+ reviews. One Kyoto reviewer has eaten here 78 times."
+      - title: Skip the queue for ¥500
+        text: "A **TableCheck FastPass** puts you first in line at a set time. It isn't a table booking, so a short wait is still possible."
+      - title: Cheap for what it is
+        text: "**¥1,300 (R$46)** for the chicken shoyu, ¥1,700 for the special."
+  - type: prose
+    title: Out of the centre, on purpose
+    text: |-
+      Touhichi moved to Shugakuin, in Kyoto's northern Sakyō ward, in April 2022. It sits a few steps from Shugakuin Station on the little Eizan Railway, which starts at Demachiyanagi.
+
+      There's no dining room to dress for: eight counter seats, a few tables, and cash in your pocket.
+  - type: menu
+    title: The bowls (from recent reviews)
+    items:
+      - { name: Chicken shoyu ramen, name_local: 鶏醤油らぁ麺, price_local: 1300, price_brl: 46.02, note: "The signature clear bowl", tag: signature }
+      - { name: Special chicken shoyu ramen, price_local: 1700, price_brl: 60.18, note: "More toppings", tag: must-try }
+      - { name: "Special shoyu ramen, large", price_local: 1850, price_brl: 65.49 }
+      - { name: Niboshi ramen, price_local: 1300, price_brl: 46.02, note: "Dried-sardine broth" }
+    note: "No menu online; prices are from Tabelog reviews of Oct–Nov 2026 visits and may have moved. **Cash only.**"
+  - type: cost_breakdown
+    items:
+      - { label: Special chicken shoyu ramen, local: 1700, brl: 60.18 }
+      - { label: TableCheck FastPass, local: 500, brl: 17.70, optional: true }
+  - type: map
+    note: "Take the **Eizan Railway** from Demachiyanagi to **Shugakuin**; the shop is about 100 m from the station."
+  - type: tips
+    variant: insider
+    items:
+      - "Recent reviews: **no wait** at 18:00 on a Saturday in October; two groups ahead at 13:00 on a Sunday in November."
+      - "FastPass slots for weekends and holidays open **one week ahead** on TableCheck. Show the confirmation email when you arrive."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Cash only**, and **closed on Tuesdays**."
+      - "A FastPass can't be refunded or changed after purchase; book only a time you're sure of."
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 9
+    conditions: Cold, often clear, occasional light snow
+    note: "If there's a line, it's outdoors. A hot chicken broth is the right answer to a Kyoto January."
+    wear: Warm coat, gloves
+  - type: pairs_well
+    items:
+      - { id: honke-daiichi-asahi-kyoto, note: "The everyday Kyoto shoyu bowl, by Kyoto Station" }
+      - { id: tenkaippin-sohonten-kyoto, note: "Kyoto's thick-chicken original, also in Sakyō" }

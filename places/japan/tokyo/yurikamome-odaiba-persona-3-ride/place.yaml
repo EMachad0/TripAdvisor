@@ -1,0 +1,143 @@
+id: yurikamome-odaiba-persona-3-ride
+name: "Yurikamome: the Port Island ride"
+short_name: Yurikamome ride
+name_local: ゆりかもめ・レインボーブリッジ・お台場
+name_romanized: Yurikamome · Reinbō Burijji · Odaiba
+country: japan
+city: tokyo
+area: Minato · Shimbashi to Odaiba
+category: views
+fame: popular
+tags: [anime, persona, gaming, monorail, bridge, night-view, cheap]
+kind: Do
+why: "A driverless train loops up onto Rainbow Bridge to an artificial bay island: the closest real feel to Persona 3's Port Island commute. About ¥590 in fares."
+cost:
+  local: 590
+  currency: JPY
+  brl: 20.75
+  note: "Two rides at ticket fares (¥260 + ¥330). Add more stops and ¥820 is the most a day can cost. The bridge walk is free."
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 3–4 h
+best_time: "Afternoon start, before 17:30 for the bridge walk"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Yurikamome runs all day. Rainbow Bridge walkway, Nov–Mar: 10:00–18:00 (last entry 17:30)."
+  closed: "Walkway: 3rd Monday (next day if holiday); may shut in bad weather"
+  winter: "The walkway keeps winter hours Nov–Mar (10:00–18:00, last entry 17:30) and may refuse entry in bad weather. That rules out walking it after dark in January; ride the train back across for the bridge at night instead."
+
+location:
+  address: "Yurikamome Shimbashi Station (start), 1-1-11 Higashi-Shimbashi, Minato, Tokyo"
+  address_local: 東京都港区東新橋1-1-11先 ゆりかもめ 新橋駅
+  lat: 35.6659
+  lng: 139.75908
+  nearest_transit: "Shimbashi (JR, Ginza and Asakusa lines), then the Yurikamome"
+
+sources:
+  - url: https://tetsudo-ch.com/13004584.html
+    title: "Tetsudo Channel: Yurikamome daily cap of ¥820 with contactless cards, from 14 Jul 2025"
+    checked: 2026-11-12
+  - url: https://www.yurikamome.co.jp/station-timetable/u-01.html
+    title: "Yurikamome: Shimbashi station (address 東新橋1-1-11先)"
+    checked: 2026-11-13
+  - url: https://www.yurikamome.co.jp/ticket/touch-payment.html
+    title: "Yurikamome: contactless payment and the ¥820 daily cap (same card number and same medium)"
+    checked: 2026-11-13
+  - url: https://www.yurikamome.co.jp/en/ride-guidance/fare.html
+    title: "Yurikamome: fare guide (One-Day Pass ¥820, 24-Hour Pass ¥900)"
+    checked: 2026-11-13
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%E6%96%B0%E6%A9%8B&eki2=%E8%8A%9D%E6%B5%A6%E3%81%B5%E9%A0%AD&S.x=0"
+    title: "Jorudan: Shimbashi → Shibaura-futo, ¥260 ticket / ¥251 IC"
+    checked: 2026-11-13
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?S.x=0&eki1=%E3%81%8A%E5%8F%B0%E5%A0%B4%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92&eki2=%E6%96%B0%E6%A9%8B"
+    title: "Jorudan: Odaiba-kaihinkoen → Shimbashi, ¥330 ticket / ¥325 IC"
+    checked: 2026-11-13
+  - url: https://www.kouwan.metro.tokyo.lg.jp/kanko/road/rainbowbridge
+    title: "Tokyo Port Bureau: Rainbow Bridge walkway (hours, 3rd-Monday closure, weather)"
+    checked: 2026-11-13
+  - url: https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662
+    title: "JMA: climate normals 1991–2020, Tokyo (January)"
+    checked: 2026-11-13
+  - url: https://rurubu.jp/andmore/spot/80010917
+    title: "Rurubu: Rainbow Bridge walkway (hours, closed days, free, 30 min each way, access)"
+    checked: 2026-11-12
+  - url: https://www.jrpass.com/blog/tokyo-s-yurikamome-line-a-scenic-ride-to-odaiba
+    title: "JRPass blog: the Yurikamome, a scenic driverless ride to Odaiba"
+    checked: 2026-11-12
+  - url: https://www.japansophy.com/post/yurikamome-line-tokyo
+    title: "Japansophy: Yurikamome line guide (270-degree loop, front seats, board at Shimbashi)"
+    checked: 2026-11-12
+  - url: https://dtman.info/seiti-persona3-movie-odaiba/
+    title: "Fan location blog: PERSONA3 THE MOVIE locations, Odaiba (2014, updated 2021)"
+    checked: 2026-11-12
+  - url: https://megamitensei.fandom.com/wiki/Tatsumi_Port_Island
+    title: "Megami Tensei Wiki: Tatsumi Port Island (called 'the Bay Area' in game)"
+    checked: 2026-11-12
+  - url: "https://www.tokyo-odaiba.net/en/genre/ヴィーナスフォート"
+    title: "Tokyo Odaiba official guide: VenusFort, closed 27 Mar 2022"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "No Atlus statement ties Port Island to Odaiba: one fan blog says only the film's train-window views are modelled on Odaiba and the Tokyo Bay Bridge. Fares from Jorudan; whether a card tap is charged the ticket or IC fare is not stated, so the page uses the ticket fare. Tetsudo Channel, JRPass, MegaTen wiki: read via atr render (they block checkers)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: on-the-bridge
+    caption: "An oncoming train inside Rainbow Bridge's lower deck"
+    hook: "No driver, a front window over the track, and a loop up onto a suspension bridge. Play Burn My Dread."
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: "Start mid-afternoon on a clear day"
+    extra:
+      - { label: Game link, value: "Loose (fan theory)", detail: "Persona 3's Port Island and its monorail" }
+      - { label: Bridge walk, value: "Free, ~30 min", detail: "Last entry 17:30 in winter" }
+  - type: highlights
+    items:
+      - title: The front seat
+        text: "The Yurikamome has **no driver's cabin**: a big window looks straight down the track as the train leaves Shimbashi, winds between towers and makes a **270-degree loop** up onto **Rainbow Bridge**."
+      - title: A bay bridge you can walk
+        text: "Get off at **Shibaura-futo** and cross Rainbow Bridge on the free walkway, about **30 min** each way, with the bay below."
+      - title: The artificial island
+        text: "Like Port Island, Odaiba is built on reclaimed land in the bay. The game itself calls Port Island **\"the Bay Area\"**, and the film's monorail views look like this line."
+      - title: Cheap, for a whole afternoon
+        text: "The suggested route is two rides, about **¥590**. Add stops (Telecom Center, Toyosu) and a tapped contactless card stops charging at **¥820** a day, the same as the QR one-day pass."
+  - type: prose
+    title: How loose is the link?
+    dropcap: true
+    text: |-
+      Be honest with yourself before you go: Atlus has never said Port Island is Odaiba. A fan who mapped the locations says the game deliberately avoids anything you could pin to a real place. Only the anime film's monorail scenes, with the bay and a big bridge outside the window, look like the Yurikamome.
+
+      One fan favourite is gone: VenusFort, the indoor "Venetian" mall often matched with Paulownia Mall, **closed for good on 27 March 2022**. What is left is the feeling: a quiet driverless train to an island of glass towers, a long bridge, and the bay at night. Kobe also has a real Port Island, with Japan's first fully automated line (1981). Nobody has tied that one to the game either.
+  - type: quote
+    variant: vibe
+    text: Headphones on, front seat, the city tilting as the train climbs the loop. Somewhere it is the Dark Hour.
+  - type: cost_breakdown
+    items:
+      - { label: "Shimbashi → Shibaura-futo (ticket fare)", local: 260, brl: 9.14 }
+      - { label: "Odaiba-kaihinkoen → Shimbashi (ticket fare)", local: 330, brl: 11.61 }
+      - { label: Rainbow Bridge walkway, local: 0, brl: 0 }
+  - type: map
+    note: "Start at **Shimbashi**. Ride to **Shibaura-futo** (5 min walk to the walkway's Shibaura entrance), walk across to Daiba, then pick the train up again at **Odaiba-kaihinkoen** (15 min walk from the Daiba entrance)."
+  - type: tips
+    variant: insider
+    items:
+      - "Board at **Shimbashi**, the first station: mid-route the train is usually packed, and local kids compete for the front seats."
+      - "Ride back to Shimbashi **after dark** for the bridge at night from the front window, since the walkway shuts at 18:00 in winter."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The ¥820 cap counts only taps with the **same card number on the same device**: use the card *or* the phone with it, not both. Suica and paper tickets pay every fare."
+      - "The walkway is closed on the **3rd Monday** and may refuse entry in bad weather: check before you plan the walk."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Dry and cold
+    note: "January normals for central Tokyo (JMA): 1.2 °C low, 9.8 °C high, about 60 mm of rain. The bridge and the island are open to the wind off the bay, and the walkway may shut in bad weather."
+    wear: Windproof jacket, gloves and a hat for the bridge
+  - type: pairs_well
+    items:
+      - { id: ado-utattemita-tour-ariake-arena, note: "Ariake Arena is on the same side of the bay" }
+      - { id: shibuya-persona-5-walkway, note: "The Persona 5 side of Tokyo: Shibuya's walkway" }
+      - { id: persona-30th-ex-ueno, note: "Persona 30th exhibition in Ueno, 21 Jan – 7 Feb" }

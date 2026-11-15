@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: pass-gate
+  title: File:娄山关 20140809.jpg
+  author: xue siyang (df45086)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E5%A8%84%E5%B1%B1%E5%85%B3_20140809.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e9/%E5%A8%84%E5%B1%B1%E5%85%B3_20140809.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 巡道工出品 Photo by Xundaogong 210国道骑行 松坎-遵义
+  width: 1600
+  height: 1067
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-13
+  origin: commons
+- file: battle-site-wall
+  title: File:娄山关红军战斗遗址 20140809-A.jpg
+  author: xue siyang (df45086)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E5%A8%84%E5%B1%B1%E5%85%B3%E7%BA%A2%E5%86%9B%E6%88%98%E6%96%97%E9%81%97%E5%9D%80_20140809-A.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/62/%E5%A8%84%E5%B1%B1%E5%85%B3%E7%BA%A2%E5%86%9B%E6%88%98%E6%96%97%E9%81%97%E5%9D%80_20140809-A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 巡道工出品 Photo by Xundaogong 210国道骑行 松坎-遵义
+  width: 1600
+  height: 1067
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-13
+  origin: commons
+- file: battle-relief
+  title: File:娄山关红军战斗遗址 20140809-B.jpg
+  author: xue siyang (df45086)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E5%A8%84%E5%B1%B1%E5%85%B3%E7%BA%A2%E5%86%9B%E6%88%98%E6%96%97%E9%81%97%E5%9D%80_20140809-B.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2f/%E5%A8%84%E5%B1%B1%E5%85%B3%E7%BA%A2%E5%86%9B%E6%88%98%E6%96%97%E9%81%97%E5%9D%80_20140809-B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 巡道工出品 Photo by Xundaogong 210国道骑行 松坎-遵义
+  width: 1600
+  height: 1067
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-13
+  origin: commons

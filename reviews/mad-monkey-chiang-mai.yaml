@@ -1,0 +1,22 @@
+# Independent review of mad-monkey-chiang-mai. Written by `./atr review`; do not edit by hand.
+id: mad-monkey-chiang-mai
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: ba09c60409038a7eb6f3241ee2005867b41374b3304e23e9dc078b2d0d2e077c
+facts:
+  supported: 4
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: why
+    problem: The page has no budget angle beyond the gap between the refundable and non-refundable rates. It does not say whether ฿671 is cheap or dear for a Chiang Mai dorm, and it does not mention that Hostelworld says booking direct gives free nights and loyalty perks.
+    evidence: "`why` now says '฿671 a bed, upper end for Chiang Mai dorms'. A new tip, blocks[7].items[2], covers booking direct. The Hostelworld detail page (https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Chiang-Mai/Chiang-Mai/318111?from=2027-01-09&to=2027-01-10&guests=1&currency=THB) still says: \"Remember if you book directly, you get additional free nights and loyalty perks.\""
+  - field: blocks[7].items[1]
+    problem: The cheapest-way-in tip says Hostelworld's Chiang Mai list shows dorms 'from about €5 (R$33)'. The cited page now shows dorms from €1.54. These are also undated 'from' prices, so they cannot be compared directly with the ฿671 rate for Sat 9 Jan. The same list shows Mad Monkey itself at 'Dorms From €17.54'.
+    evidence: "blocks[7].items[1] now gives the list's undated 'from' prices: dorms from under €2 and Mad Monkey at €17.54. It says a dated 9 Jan search returned nothing, so the traveler should compare live. sources[3] has a new title to match. Page 1 of https://www.hostelworld.com/hostels/asia/thailand/chiang-mai/ shows Rimnim Hostel Chiangmai at \"Dorms From €1.54\" and Mad Monkey Chiang Mai at \"Dorms From €17.54\"."
+rereview_of: 4210f63a0a5693aca6636d91a327d8500d1995439283355b11473755153d7885
+summary: Both earlier shoulds are fixed. The cheapest-way-in tip and the book-direct tip match the Hostelworld list and the hostel's detail page as they read today. The R$ conversions agree with the page's fx rate. Only 'near the top' rests on page 1 of 7 of the list. That is a mild interpretation and not a wrong fact, and no new blockers turned up.
+model: claude-opus-5-5
+cost_usd: 0.34

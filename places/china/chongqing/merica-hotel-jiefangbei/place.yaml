@@ -1,0 +1,208 @@
+id: merica-hotel-jiefangbei
+name: "Merica Hotel Jiefangbei"
+name_local: 麦瑞卡酒店（重庆解放碑店）
+short_name: Merica Hotel
+country: china
+city: chongqing
+area: Yuzhong · Xinhua Road
+category: stay
+tags: [hotel, private-room, work-nights, call-night, windowless, jiefangbei, not-social]
+kind: Stay
+why: "Not social: a dark windowless room with a door for the three night shifts, ¥389 (R$330) for 28–31 Dec, ¥194 more than a hostel dorm."
+
+cost:
+  local: 129.67
+  currency: CNY
+  brl: 110.08
+  note: "Windowless queen, ¥389 for 28–31 Dec on Booking.com (15 Nov). ¥130 for 28 Dec alone; New Year's Eve alone ¥406"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book 2+ weeks ahead; free cancellation until 18:00 (UTC+8) on arrival day"
+  method: platform
+  links:
+    - label: "Booking.com, 3 work nights 28–31 Dec"
+      url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "My pick: ¥389 windowless queen, nothing to pay until 26 Dec"
+    - label: "Booking.com, 4 nights with NYE"
+      url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2027-01-01&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "¥736 windowless queen after a 10% discount"
+    - label: "Booking.com, whole week 26 Dec – 2 Jan"
+      url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "¥1,402 windowless queen, nothing to pay until 24 Dec"
+    - label: "Booking.com, call night only, 28 Dec"
+      url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "¥130 windowless queen"
+  notes: "On 15 Nov Booking.com showed 4 windowless queens left for 28–31 Dec. The hotel may release the room after 18:00 (UTC+8) on check-in day: write your arrival time in the special-requests box. The fine print still asks for a bank transfer before arrival (see the steps)."
+
+hours:
+  summary: "Check-in from 14:00, check-out by 12:00 (UTC+8) · listings disagree on desk hours; a 2026 review mentions a night-shift receptionist"
+  winter: "Searched 15 Nov for the windowless queen: a normal night (28 Dec) is ¥130, New Year's Eve alone ¥406, 1 Jan ¥274. Booking.com took 10% off the 28 Dec – 1 Jan stay. Rooms have air conditioning. Booking.com reviews from Dec 2025 to Feb 2026 that I read mention no cold room, but no source says how the rooms are heated."
+
+location:
+  address: "5/F, Great Wall Building, 337 Xinhua Road, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区新华路337号长城大厦5楼
+  lat: 29.55753
+  lng: 106.5757
+  nearest_transit: "Xinhua Road cableway 6 min walk; metro Chaotianmen 1 km, Jiaochangkou 1.2 km"
+  approximate: true
+
+sources:
+  - url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 28–31 Dec 2026: room prices and stock, cancellation terms, 8.9 from 426 reviews, bank-transfer fine print, check-in times"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2027-01-01&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 28 Dec 2026 – 1 Jan 2027: ¥736 windowless queen after 10% off (¥820 before)"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 26 Dec 2026 – 2 Jan 2027: ¥1,402 windowless queen for 7 nights"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, night of 28 Dec 2026: ¥130 windowless queen, ¥154 inner-window queen"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-31&checkout=2027-01-01&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, night of 31 Dec 2026: ¥406 windowless queen, ¥295 prepaid partner double"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2027-01-01&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, night of 1 Jan 2027: ¥274 windowless queen"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?selected_currency=CNY&lang=en-us"
+    title: "Booking.com reviews, Aug 2025 – Nov 2026 (Read all reviews): noise, windows, table, smoke, night receptionist, 'Mairuika' on Amap"
+    checked: 2026-11-15
+  - url: https://www.tiket.com/en-us/hotel/china/merica-hotel-chongqing-jiefangbei-803001740868995396
+    title: "Merica Hotel on tiket.com: 56 rooms, workspace, desk hours, payment methods, ID and deposit at check-in, guest reviews (thin walls)"
+    checked: 2026-11-15
+  - url: https://tw.hotels.com/ho3630871392/
+    title: "Hotels.com Taiwan: listed as 麥瑞卡酒店 - 重慶解放碑店, 6 min walk to the Xinhua Road cableway station (search result; the page shows a bot check)"
+    checked: 2026-11-15
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-26&to=2027-01-02&guests=1&currency=CNY"
+    title: "Only Cafe And Backpacker on Hostelworld, 26 Dec 2026 – 2 Jan 2027: 8-bed dorm ¥75, ¥65 on 28–30 Dec, ¥100 on 31 Dec, ¥150 on 1 Jan"
+    checked: 2026-11-15
+  - url: "https://www.openstreetmap.org/?mlat=29.55753&mlon=106.5757#map=17/29.55753/106.5757"
+    title: "OpenStreetMap: Changcheng Building bus stop, Xinhua Road (the map pin)"
+    checked: 2026-11-15
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals 1991–2020"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Prices: Booking.com date searches of 15 Nov; they will move. Trip.com, Agoda and Expedia/Hotels.com gave no price (sign-in wall, no listing, bot check); tiket.com's price box was 403. Chinese name and cableway walk from a Hotels.com Taiwan search result (bot-blocked), and a reviewer's Amap tip. Not confirmed: heating, skipping housekeeping, food at 05:00, whether the bank transfer is enforced."
+last_updated: 2026-11-15
+
+blocks:
+  - type: hero
+    hook: "A dark room with a door for the night shifts of 28–30 December and the 01:00 (UTC+8) call."
+  - type: quick_facts
+    extra:
+      - { label: Booking.com, value: "8.9 / 10", detail: "426 reviews; location 9.6, wifi 9.0" }
+      - { label: Room, value: Windowless queen, detail: "16 m², own bathroom, a small table" }
+      - { label: Social, value: "No", detail: "Hostel nights for 26–27 Dec and New Year" }
+  - type: stay
+    style: hotel
+    beds:
+      - label: "Windowless queen, 3 work nights 28–31 Dec"
+        local: 129.67
+        brl: 110.08
+        note: "¥389 (R$330) in total. 4 left on 15 Nov"
+        url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: "Windowless queen, call night only (28 Dec)"
+        local: 130
+        brl: 110.36
+        note: "Free cancellation until 18:00 (UTC+8) on 28 Dec"
+        url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: "Inner-window queen, 3 nights 28–31 Dec"
+        local: 154
+        brl: 130.73
+        note: "¥462 (R$392) in total, 19 m², with a projector"
+        url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: "Windowless queen, 4 nights 28 Dec – 1 Jan"
+        local: 184
+        brl: 156.2
+        note: "¥736 (R$625) in total after 10% off; adds New Year's Eve"
+        url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2027-01-01&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: "Deluxe queen with window, 3 nights 28–31 Dec"
+        local: 190
+        brl: 161.29
+        note: "¥570 (R$484) in total, 22 m², city view"
+        url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: "Windowless queen, whole week 26 Dec – 2 Jan"
+        local: 200.29
+        brl: 170.03
+        note: "¥1,402 (R$1,190) in total for 7 nights"
+        url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    rating:
+      score: 8.9
+      out_of: 10
+      source: Booking.com
+      reviews: 426
+      checked: 2026-11-15
+    social:
+      - "**Not social.** A 56-room hotel on one floor of an office building. It has a lounge with a shared fridge and a lobby arcade; no review mentions meeting people."
+      - "Sleep at a hostel on the nights you are free. Both hostels on the list use Jiaochangkou station, which tiket.com puts 1.2 km from this hotel (straight line)."
+    good_to_know:
+      - "**Front desk:** tiket.com lists 08:30–12:00 (UTC+8), yet a June 2026 guest wrote about the night-shift receptionist. Tell the hotel when you will come and go."
+      - "**Table and wifi:** a May 2026 guest in a windowless queen had a sofa and a small table. Booking.com guests score the wifi 9.0."
+      - "**Corridor noise:** guests in Nov 2025 and Aug 2026 heard people talking in the hallway. A Jan 2026 guest found the windowless room very quiet at night."
+      - "**Housekeeping** is listed as daily. No source says you can skip it; ask at check-in. Staff answer quickly on WeChat, say guests from 2025 and 2026."
+      - "**Smoke:** five guests from Jan to Nov 2026 smelled cigarettes in the room, hallway or lift."
+      - "**Showers** swing between hot and cold when others use water, say guests in Dec 2025 and Oct 2026."
+      - "**Free laundry** with one washer and one dryer, often busy. Staff take in food deliveries and help you order takeaway."
+      - "**Foreign guests** are accepted in practice: Booking.com reviews from Brazil, Germany, the UK and Canada in 2025–2026."
+  - type: highlights
+    items:
+      - title: Dark when you sleep in the day
+        text: "After a shift ending at 05:00 (UTC+8) you sleep until the afternoon. The cheapest room has **no window**; a Brazilian guest who took it in January 2026 called it 'a great choice because it's was so quiet at night'."
+      - title: The 01:00 call in your own room
+        text: "The call is at **01:00 (UTC+8) on Tuesday 29 December**, in the middle of the first shift. A room with a door and a table beats a hostel lounge for it."
+      - title: Three nights for less than R$200 over a dorm
+        text: "The three work nights cost **¥389 (R$330)**. A bed at Only Cafe for the same nights is ¥195 (R$166), so the door costs **¥194 (R$165)**."
+      - title: In the middle of town
+        text: "Booking.com guests score the location **9.6**. Hotels.com puts the Xinhua Road cableway station 6 minutes away on foot."
+  - type: prose
+    title: One night, three or the whole week
+    text: |-
+      You are in Chongqing from Saturday 26 December to Saturday 2 January. You work **20:00–05:00 (UTC+8)** on 28, 29 and 30 December, so you sleep in the daytime on 29, 30 and 31 December. The video call is at 01:00 (UTC+8) on Tuesday 29 December. Nobody works on 31 December. Prices for the windowless queen on Booking.com, 15 Nov, compared with an 8-bed dorm at Only Cafe on Hostelworld the same day:
+
+      - **Call night only, 28 Dec:** ¥130 (R$110), ¥65 more than the dorm. You would then sleep in a dorm in the daytime on the 30th and 31st.
+      - **Three work nights, 28–31 Dec:** ¥389 (R$330), ¥130 a night. ¥194 (R$165) more than the dorm.
+      - **Four nights with New Year's Eve, 28 Dec – 1 Jan:** ¥736 (R$625), ¥184 a night after a 10% discount. ¥441 (R$374) more than the dorm. Booked alone, New Year's Eve costs ¥406, three times a normal night.
+      - **The whole week, 26 Dec – 2 Jan:** ¥1,402 (R$1,190), ¥200 a night. ¥807 (R$685) more than the dorm.
+
+      **I would book the three work nights.** They are the nights a dorm fails you: you sleep from about 06:00 to 14:00 (UTC+8), when a dorm is checking people out and in. For R$55 a day you get a dark room, a door and a table. Spend 26–27 December and New Year at a hostel: those are the nights for meeting people, and the countdown and drone show are better with company. A whole week here gives up all of that.
+
+      The catch is the morning of the 31st. Check-out is 12:00 (UTC+8) and your shift ends at 05:00, so ask for a late check-out. If they say no and sleep matters more, take the four-night stay: keeping the room for New Year's Eve adds ¥347 (R$295) to the same booking.
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Book **28–31 Dec** in the windowless queen and write your arrival time in the special-requests box. Nothing is charged until 26 Dec." }
+      - { days_before: 13, text: "Booking.com says the hotel wants a **bank transfer before arrival** and will send instructions. Ask to pay by foreign card or at the desk (tiket.com says it takes cards and mobile payments), and ask for a late check-out on 31 Dec." }
+      - { days_before: 2, text: "Free cancellation runs until **18:00 (UTC+8) on 28 Dec**. If the hotel still insists on a transfer you cannot make, cancel before then." }
+      - { days_before: 0, text: "Check in from **14:00 (UTC+8)**, well before the 20:00 shift. Test the wifi, find a socket by the table, and ask how to keep housekeeping out while you sleep." }
+    passport_note: "tiket.com says check-in needs government-issued photo ID and a card or cash deposit may be asked for. Bring the passport itself."
+  - type: map
+    note: "The pin is the **Changcheng (Great Wall) Building** bus stop on Xinhua Road. The hotel is on the **5th floor** of that building. A January 2026 guest found it on Amap by typing **'Mairuika hotel'**. In Sept 2026 the main entrance was shut for renovation; guests used a side door at the back."
+  - type: tips
+    variant: insider
+    items:
+      - "Take the **windowless queen**, not the inner-window room. A guest in an inner-window room in Oct 2026 said it had no window either, and it costs ¥73 more for three nights."
+      - "The deluxe queen has a real window and a city view (¥570 for three nights), but a May 2026 guest's view was another building. For daytime sleep the dark room is the better buy."
+      - "Food at 05:00 (UTC+8): a guest in May 2026 had a convenience store close by, and staff take in deliveries. No source gives opening hours that late, so check on the first evening."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Bring **earplugs**. Guests heard the corridor at night in Nov 2025 and Aug 2026, and neighbours at midnight in Sept 2025. Ask for a room away from the lift."
+      - "The lobby and main entrance were under renovation in Sept–Oct 2026. If work is still going in December, it would be daytime noise: ask when you book."
+      - "Don't book it for New Year's Eve just for the room: ¥406 alone, against ¥100 for the Only Cafe dorm. Book it only to sleep in after the last shift."
+      - "Give yourself time to find the door. A September 2026 guest spent hours looking, and nobody answered the hotel's phone."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, rain on about 10 days a month
+    note: "Mild for a China winter, but grey. Rooms have air conditioning; the winter reviews I read mention no cold room."
+    wear: Mid-weight jacket and a rain layer
+  - type: pairs_well
+    items:
+      - { id: only-cafe-and-backpacker, note: "The social hostel for 26–27 Dec and New Year" }
+      - { id: desti-youth-park-hostel-chongqing, note: "The cheaper hostel for the free nights" }
+      - { id: chongqing-liuhe-youth-hostel, note: "Another hostel option for the free nights" }
+      - { id: jiefangbei-nye-countdown, note: "New Year's Eve, after the last shift" }

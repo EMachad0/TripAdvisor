@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: leng-saap
+  title: File:Leng saap.jpg
+  author: Aaaatu
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Leng_saap.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/85/Leng_saap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Leng saap – A spicy and sour pork spine soup. Thai dish photographed in Wu’s Yong Tau Foo, Ghost Gate in Bangkok, Thailand
+  width: 6492
+  height: 4328
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: danneramit-2023
+  title: File:Jodd Fairs DanNeramit 2023-05-03.jpg
+  author: นพพร ลองไปเรื่อย Nopporn Long Pai Ruai
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Jodd_Fairs_DanNeramit_2023-05-03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/aa/Jodd_Fairs_DanNeramit_2023-05-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Jodd Fairs DanNeramit night market in Bangkok
+  width: 1920
+  height: 1080
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons

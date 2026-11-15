@@ -1,0 +1,39 @@
+# Independent review of soi-cowboy. Written by `./atr review`; do not edit by hand.
+id: soi-cowboy
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 356e73ce554fd07eeffc4facb6f8dac8ed5acb19bfb0c26beb14dc19e9ea197d
+facts:
+  supported: 20
+  unsupported: 3
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[6].items[1].note
+    problem: "The Kiss draft beer is tagged `cheap`, but its note calls Kiss 'one of the pricier bars'. The tag and note contradict each other, and no listed source calls Kiss pricey: BestPrice gives just the prices (฿110 draft, ฿180 bottle)."
+    evidence: https://www.bestpricetravel.com/travel-guide/soi-cowboy.html — "180 baht/glass of beer and 110 baht/draft beer"
+    fix: Drop 'one of the pricier bars' and say the ฿110 draft is the cheapest posted beer on the page.
+  - severity: nit
+    field: blocks[7].note
+    problem: "'BTS Nana, then 7–10 min down Soi 4' is not in any listed source. Nana Plaza sits near the mouth of Soi 4, a few minutes from the station, so 7–10 min looks too long."
+    evidence: No listed source gives a walk time from BTS Nana to Nana Plaza.
+    fix: Say 'a short walk down Soi 4' or cite a source for the minutes.
+  - severity: nit
+    field: blocks[3].text
+    problem: The prose calls Nana Plaza 'a three-floor plaza'. The lady-drink pitch there is in khaosanroad.com, but no listed source gives the floor count.
+    evidence: https://www.khaosanroad.com/articles/party-streets-in-bangkok-khao-san-sukhumvit-rca-patpong — "Expect to be pitched lady drinks" (for Nana Plaza; no floor count)
+    fix: Drop 'three-floor' or add a source for it.
+  - severity: nit
+    field: why
+    problem: "`why` says 'around 40 go-go bars', but Wikipedia counts around 40 establishments, mostly (not all) go-go bars. The page's own Length fact says 'mostly go-go bars, a few open-air beer bars'."
+    evidence: https://en.wikipedia.org/wiki/Soi_Cowboy — "around 40 commercial establishments, mostly go-go bars"
+    fix: Change to 'around 40 bars, mostly go-go'.
+  - severity: nit
+    field: blocks[9].items[0]
+    problem: "The weekend-night slot (Sat 2, Sun 3 or Sat 9 Jan) appears twice: in the quick_facts Slot and again as the first insider tip."
+    evidence: Phone screenshots s01 (quick facts) and s07 (insider tips)
+    fix: Remove the slot line from the insider tips.
+summary: "Listed sources support the hard facts: length, bar count, address, transit, 19:00–02:30 hours, happy hour, drink, lady-drink and cover prices, the 1977 history, the films, the 2026 alcohol rule, the 1155 hotline and January weather. The weekend dates fall inside the Thailand days, the pin is on the lane, all four photos show the street, and the budget angle fits. Only nits remain: a tag that contradicts its note, two unsourced Nana Plaza details, a stretched bar count in `why`, and one line said twice."
+model: claude-opus-5-5
+cost_usd: 0.637

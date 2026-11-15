@@ -1,0 +1,281 @@
+[
+  {
+    "id": "b1",
+    "category": "Documents",
+    "item": "Passport",
+    "note": "Valid 6+ months past February",
+    "qty": 1,
+    "packed": false,
+    "order": 1
+  },
+  {
+    "id": "b2",
+    "category": "Documents",
+    "item": "Booking copies (offline on phone + one printout)",
+    "qty": 1,
+    "packed": false,
+    "order": 2
+  },
+  {
+    "id": "b3",
+    "category": "Documents",
+    "item": "Travel insurance details",
+    "qty": 1,
+    "packed": false,
+    "order": 3
+  },
+  {
+    "id": "b4",
+    "category": "Documents",
+    "item": "Credit/debit cards (2, kept apart)",
+    "qty": 1,
+    "packed": false,
+    "order": 4
+  },
+  {
+    "id": "b5",
+    "category": "Documents",
+    "item": "Some cash (USD)",
+    "qty": 1,
+    "packed": false,
+    "order": 5
+  },
+  {
+    "id": "b6",
+    "category": "Tech",
+    "item": "Phone + charger",
+    "qty": 1,
+    "packed": false,
+    "order": 6
+  },
+  {
+    "id": "b7",
+    "category": "Tech",
+    "item": "Power bank (carry-on only)",
+    "note": "China checks the 3C mark on power banks at airports",
+    "qty": 1,
+    "packed": false,
+    "order": 7
+  },
+  {
+    "id": "b8",
+    "category": "Tech",
+    "item": "Universal plug adapter",
+    "qty": 1,
+    "packed": false,
+    "order": 8
+  },
+  {
+    "id": "b9",
+    "category": "Tech",
+    "item": "Earphones",
+    "qty": 1,
+    "packed": false,
+    "order": 9
+  },
+  {
+    "id": "b10",
+    "category": "Tech",
+    "item": "Old phone as backup",
+    "qty": 1,
+    "packed": false,
+    "order": 10
+  },
+  {
+    "id": "b11",
+    "category": "Clothes",
+    "item": "Warm winter jacket",
+    "note": "Seoul and Japan in January go below 0°C. Wear it on flights; it won't fit in the bag.",
+    "qty": 1,
+    "packed": false,
+    "order": 11
+  },
+  {
+    "id": "b12",
+    "category": "Clothes",
+    "item": "Fleece or sweater",
+    "qty": 1,
+    "packed": false,
+    "order": 12
+  },
+  {
+    "id": "b13",
+    "category": "Clothes",
+    "item": "Thermal base layers",
+    "note": "Thin layers keep you warm without a bulky second sweater",
+    "qty": 2,
+    "packed": false,
+    "order": 13
+  },
+  {
+    "id": "b14",
+    "category": "Clothes",
+    "item": "T-shirts",
+    "note": "Quick-dry ones wash and dry overnight",
+    "qty": 5,
+    "packed": false,
+    "order": 14
+  },
+  {
+    "id": "b15",
+    "category": "Clothes",
+    "item": "Trousers",
+    "note": "Wear one, pack one",
+    "qty": 2,
+    "packed": false,
+    "order": 15
+  },
+  {
+    "id": "b16",
+    "category": "Clothes",
+    "item": "Shorts (for Thailand)",
+    "qty": 1,
+    "packed": false,
+    "order": 16
+  },
+  {
+    "id": "b17",
+    "category": "Clothes",
+    "item": "Underwear",
+    "qty": 6,
+    "packed": false,
+    "order": 17
+  },
+  {
+    "id": "b18",
+    "category": "Clothes",
+    "item": "Socks (some warm)",
+    "qty": 6,
+    "packed": false,
+    "order": 18
+  },
+  {
+    "id": "b19",
+    "category": "Clothes",
+    "item": "Beanie, gloves, scarf",
+    "qty": 1,
+    "packed": false,
+    "order": 19
+  },
+  {
+    "id": "b20",
+    "category": "Clothes",
+    "item": "Comfortable walking shoes",
+    "note": "Wear them on travel days",
+    "qty": 1,
+    "packed": false,
+    "order": 20
+  },
+  {
+    "id": "b21",
+    "category": "Clothes",
+    "item": "Sandals / flip-flops",
+    "qty": 1,
+    "packed": false,
+    "order": 21
+  },
+  {
+    "id": "b22",
+    "category": "Toiletries & health",
+    "item": "Toothbrush and toothpaste",
+    "qty": 1,
+    "packed": false,
+    "order": 22
+  },
+  {
+    "id": "b23",
+    "category": "Toiletries & health",
+    "item": "Liquids kit: 100 ml bottles in one 1 L clear bag",
+    "note": "Shampoo, deodorant, moisturizer. Solid shampoo bars save liquid space",
+    "qty": 1,
+    "packed": false,
+    "order": 23
+  },
+  {
+    "id": "b24",
+    "category": "Toiletries & health",
+    "item": "Lip balm and moisturizer",
+    "note": "Winter air in North Asia is very dry",
+    "qty": 1,
+    "packed": false,
+    "order": 24
+  },
+  {
+    "id": "b25",
+    "category": "Toiletries & health",
+    "item": "Sunscreen (travel size)",
+    "note": "Or buy it in Thailand",
+    "qty": 1,
+    "packed": false,
+    "order": 25
+  },
+  {
+    "id": "b26",
+    "category": "Toiletries & health",
+    "item": "Basic meds (painkiller, stomach, cold)",
+    "qty": 1,
+    "packed": false,
+    "order": 26
+  },
+  {
+    "id": "b27",
+    "category": "Toiletries & health",
+    "item": "Tissues / pocket wipes",
+    "note": "Many public toilets in China have no paper",
+    "qty": 1,
+    "packed": false,
+    "order": 27
+  },
+  {
+    "id": "b28",
+    "category": "Toiletries & health",
+    "item": "Laundry sheets or a small soap bar",
+    "note": "Plan a wash every 5–7 days. Coin laundries are easy to find in Japan, Korea and Thailand",
+    "qty": 1,
+    "packed": false,
+    "order": 28
+  },
+  {
+    "id": "b29",
+    "category": "Other",
+    "item": "40 L bag",
+    "note": "Cabin limits on the flights already bought: West Air 7 kg, Jeju Air 10 kg, Peach 5 kg, Greater Bay 7 kg. All four include a checked bag (15–20 kg), and Singapore Airlines 25 kg, so the bag can be checked when it is over.\nLATAM (Light fare) has no checked bag: it goes in the cabin. Turkish Economy allows one cabin bag of about 8 kg, 55×40×23 cm.",
+    "qty": 1,
+    "packed": false,
+    "order": 29
+  },
+  {
+    "id": "b30",
+    "category": "Other",
+    "item": "Daily backpack (personal item)",
+    "note": "Goes under the seat. Keep passport, tech, meds and one change of clothes in it",
+    "qty": 1,
+    "packed": false,
+    "order": 30
+  },
+  {
+    "id": "b31",
+    "category": "Other",
+    "item": "Reusable water bottle",
+    "qty": 1,
+    "packed": false,
+    "order": 31
+  },
+  {
+    "id": "b32",
+    "category": "Other",
+    "item": "Packing cubes",
+    "note": "Compress clothes to fit the bag",
+    "qty": 1,
+    "packed": false,
+    "order": 32
+  },
+  {
+    "id": "b33",
+    "category": "Other",
+    "item": "Small padlock",
+    "qty": 1,
+    "packed": false,
+    "order": 33
+  }
+]

@@ -1,0 +1,214 @@
+id: westin-chongqing-liberation-square
+name: "The Westin Chongqing Liberation Square"
+short_name: The Westin
+name_local: 重庆解放碑威斯汀酒店
+country: china
+city: chongqing
+area: Yuzhong · Jiefangbei
+category: stay
+must_do: chongqing-luxury-night
+must_do_note: "Top five-stars ran ¥1,018–2,030, not ¥350–600. This is the cheapest I found whose base room the brand sells as skyline view"
+tags: [hotel, luxury, splurge, skyline-view, pool, jiefangbei, not-social]
+kind: Stay
+why: "The splurge night: a five-star room high above Jiefangbei with the skyline in the window, ¥1,250 on Sun 27 Dec, 11 minutes' walk from Jiaochangkou."
+
+cost:
+  local: 1250
+  currency: CNY
+  brl: 1061.13
+  note: "Night of Sun 27 Dec 2026, cheapest room, taxes included, no breakfast. Booking.com and the official site, both on 15 Nov"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book 2+ weeks ahead; the rates shown cancel for free"
+  method: website
+  links:
+    - label: "Official site (Marriott)"
+      url: "https://www.marriott.com/en-us/hotels/ckgwi-the-westin-chongqing-liberation-square/overview/"
+      note: "¥1,250 for 27 Dec via Google Hotels; pay with your own card"
+    - label: "Booking.com, night of 27 Dec"
+      url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-wei-si-ting-jiu-dian.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+      note: "Same ¥1,250, but its fine print asks for a bank transfer before arrival"
+  notes: "On 15 Nov Booking.com showed 5 rooms left at several rates for 27 Dec. Booking.com's fine print says payment before arrival is by bank transfer and lists cash only; Trip.com says the hotel takes cards and third-party payment. Booking on the official site avoids the question."
+
+hours:
+  summary: "Check-in from 15:00 (UTC+8) · check-out by 12:00 (UTC+8) · late check-out not confirmed"
+  winter: "Cheapest room, taxes in, Booking.com 15 Nov: Sat 26 Dec ¥1,308, Sun 27 Dec ¥1,250, Thu 31 Dec (NYE) ¥1,399, Fri 1 Jan ¥1,399. NYE costs ¥149 (12%) more than the 27th. The pool is indoor and heated (Booking.com). No listing gives pool, gym or spa hours."
+
+location:
+  address: "222 Xinhua Road, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区新华路222号
+  lat: 29.5599
+  lng: 106.57635
+  nearest_transit: "Xiaoshizi (Line 1) 320 m; Jiaochangkou (Lines 1/2) 730 m (Trip.com)"
+
+sources:
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-wei-si-ting-jiu-dian.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+    title: "The Westin on Booking.com, night of 27 Dec 2026: room rates and taxes, river-view rooms, 9.1 from 259 reviews, check-in rules, fine print"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-wei-si-ting-jiu-dian.html?checkin=2026-12-26&checkout=2026-12-27&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+    title: "The Westin on Booking.com, night of 26 Dec 2026: ¥1,122 + ¥186 taxes"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-wei-si-ting-jiu-dian.html?checkin=2026-12-31&checkout=2027-01-01&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+    title: "The Westin on Booking.com, night of 31 Dec 2026 (NYE): ¥1,200 + ¥199 taxes"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-wei-si-ting-jiu-dian.html?checkin=2027-01-01&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+    title: "The Westin on Booking.com, night of 1 Jan 2027: ¥1,200 + ¥199 taxes"
+    checked: 2026-11-15
+  - url: "https://www.google.com/travel/search?q=Westin%20Chongqing%20Liberation%20Square&hl=en&gl=us&ts=CAAaGhIYEhIKBwjqDxAMGBsSBwjqDxAMGBwyAggAKgcKBToDQ05Z"
+    title: "Google Hotels, Westin, 27–28 Dec 2026 nightly totals: official ¥1,250 Deluxe King skyline view, Expedia ¥1,248, 11 min from Jiaochangkou"
+    checked: 2026-11-15
+  - url: "https://www.google.com/travel/search?q=Hyatt%20Regency%20Liberation%20Square%20Chongqing%20hotel&hl=en&gl=us&ts=CAAaGhIYEhIKBwjqDxAMGBsSBwjqDxAMGBwyAggAKgcKBToDQ05Z"
+    title: "Google Hotels, Hyatt Regency Liberation Square, 27–28 Dec 2026: Trip.com ¥717, official ¥719, King room, 68 Zourong Rd"
+    checked: 2026-11-15
+  - url: "https://www.google.com/travel/search?q=Ascott%20Raffles%20City%20Chongqing&hl=en&gl=us&ts=CAAaGhIYEhIKBwjqDxAMGBsSBwjqDxAMGBwyAggAKgcKBToDQ05Z"
+    title: "Google Hotels, Ascott Raffles City, 27–28 Dec 2026: official ¥1,269 Studio Deluxe; listed from ¥1,018–1,028 on the Westin search"
+    checked: 2026-11-15
+  - url: https://uk.trip.com/hotels/chongqing-hotel-detail-853869/the-westin-chongqing-liberation-square
+    title: "The Westin on Trip.com: 9.4 from 4,667 reviews, floors 34–45, ¥1,000 deposit, payment, breakfast ¥158, distances, foreign guests"
+    checked: 2026-11-15
+  - url: "https://www.google.com/travel/search?q=Niccolo%20Chongqing&hl=en&gl=us&ts=CAAaGhIYEhIKBwjqDxAMGBsSBwjqDxAMGBwyAggAKgcKBToDQ05Z"
+    title: "Google Hotels, Niccolo Chongqing, 27–28 Dec 2026: Trip.com ¥1,309, official ¥1,341, Booking.com ¥1,364"
+    checked: 2026-11-15
+  - url: "https://www.google.com/travel/search?q=Sheraton%20Chongqing%20Hotel&hl=en&gl=us&ts=CAAaGhIYEhIKBwjqDxAMGBsSBwjqDxAMGBwyAggAKgcKBToDQ05Z"
+    title: "Google Hotels, Sheraton Chongqing, 27–28 Dec 2026: Trip.com ¥516, official ¥608; cheapest rooms labelled city or mountain view"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/sheraton-chongqing.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+    title: "Sheraton Chongqing on Booking.com, night of 27 Dec 2026: ¥521 + ¥87 taxes, 8.7 from 51 reviews"
+    checked: 2026-11-15
+  - url: https://uk.trip.com/hotels/chongqing-hotel-detail-386932/sheraton-chongqing-hotel
+    title: "Sheraton Chongqing on Trip.com: river-view rooms sold as a separate type, 5.5 km by road to Jiefangbei, ¥500 deposit"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/jw-marriott-hotel-chongqing.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+    title: "JW Marriott Chongqing on Booking.com, night of 27 Dec 2026: ¥655 + ¥109 taxes, city-view rooms, 8.7 from 233 reviews"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/kempinski-hotel-chongqing.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+    title: "Kempinski Chongqing on Booking.com, night of 27 Dec 2026: ¥376 + ¥62 taxes, city view, Nan'an, 8.7 from 54 reviews"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/cn/intercontinental-hotels-chongqing-raffles-city.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+    title: "InterContinental Raffles City on Booking.com, night of 27 Dec 2026: ¥1,739 + ¥289 taxes, 9.6 from 350 reviews"
+    checked: 2026-11-15
+  - url: "https://www.google.com/travel/search?q=Regent%20Chongqing&hl=en&gl=us&ts=CAAaGhIYEhIKBwjqDxAMGBsSBwjqDxAMGBwyAggAKgcKBToDQ05Z"
+    title: "Google Hotels, Regent Chongqing, 27–28 Dec 2026: Trip.com ¥1,502, official ¥1,583"
+    checked: 2026-11-15
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals"
+    checked: 2026-11-15
+confidence: medium
+confidence_note: "Prices: dated searches on 15 Nov; they will move. Trip.com pages read with WebFetch; marriott.com blocks bots, so its price comes via Google Hotels. Unconfirmed: pool/gym/spa hours, late check-out, foreign card on a Booking.com booking, Alipay, Sheraton's cheap-room view. Chinese name and address are my rendering of the Booking.com slug and English address."
+last_updated: 2026-11-15
+
+blocks:
+  - type: hero
+    image: yuzhong-night-above
+    caption: "Yuzhong from high up at night. Not taken from the hotel: no free photo of it exists"
+    hook: "One night high above Jiefangbei, Chongqing's towers lit in the window, before three nights of night shifts."
+  - type: quick_facts
+    time_needed: "One night, 15:00 Sun–12:00 Mon (UTC+8)"
+    best_time: "Sun 27 Dec, the cheapest of your four nights"
+    extra:
+      - { label: View, value: Skyline or city, detail: "Marriott says skyline, Booking.com city. River +¥117" }
+      - { label: Deposit, value: "¥1,000 at check-in", detail: "Refunded at check-out (Trip.com)" }
+      - { label: Social, value: "No", detail: "A business hotel: keep your hostel bed for the other nights" }
+  - type: stay
+    style: hotel
+    beds:
+      - label: Deluxe King or Twin, city view, room only
+        local: 1250
+        brl: 1061.13
+        note: "27 Dec, taxes in. King: free cancellation before 27 Dec; twin only before 25 Dec"
+        url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-wei-si-ting-jiu-dian.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+      - label: Deluxe Twin with breakfast
+        local: 1309
+        brl: 1111.21
+        note: "27 Dec. ¥59 more than room only, breakfast alone is ¥158; free cancellation before 27 Dec"
+        url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-wei-si-ting-jiu-dian.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+      - label: Superior River View King, room only
+        local: 1367
+        brl: 1160.45
+        note: "27 Dec. 46 m², river and mountain view; ¥1,426 with breakfast"
+        url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-wei-si-ting-jiu-dian.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+      - label: Cheapest room on NYE (31 Dec)
+        local: 1399
+        brl: 1187.61
+        note: "Deluxe Twin, room only; Trip.com ¥1,396 via Google Hotels"
+        url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-wei-si-ting-jiu-dian.html?checkin=2026-12-31&checkout=2027-01-01&group_adults=1&no_rooms=1&selected_currency=CNY&lang=en-us"
+    rating:
+      score: 9.1
+      out_of: 10
+      source: Booking.com
+      reviews: 259
+      checked: 2026-11-15
+    social:
+      - "**Not social.** A 333-room business hotel (Trip.com). The point is the room, the pool and the view, then back to the hostel."
+    good_to_know:
+      - "**Foreign guests:** Trip.com says guests from all countries are welcome; Booking.com asks for a passport at check-in."
+      - "**Deposit ¥1,000 per night**, returned to the card or account you paid with at check-out (Trip.com)."
+      - "**Paying:** Trip.com lists cash, credit and debit cards and third-party payment. It does not name Alipay. Booking.com asks for a bank transfer before arrival."
+      - "**Taxes:** Booking.com shows the room price plus about 16.6% taxes and fees on top. Every price on this page includes them."
+      - "**Pool:** indoor, heated, with a shallow end (Booking.com). A fitness centre, spa and sauna are listed; no source gives their hours."
+      - "**Breakfast** buffet 06:00–10:30 (UTC+8), ¥158 bought separately (Trip.com)."
+      - "**Arrival time:** Booking.com asks you to tell the hotel when you will arrive. Use the special-requests box."
+  - type: highlights
+    items:
+      - title: The view comes with the cheapest room
+        text: "Marriott sells the ¥1,250 room as a **Deluxe King with skyline view**; Booking.com calls it city view. The higher room types Trip.com lists are on floors 34 to 45."
+      - title: Next door to your hostel
+        text: "Jiefangbei's pedestrian street is 320 m away and Hongyadong 830 m (Trip.com). Google puts it 11 minutes on foot from Jiaochangkou, the station Only Cafe and Desti use."
+      - title: Cheapest top-tier room sold with a view
+        text: "On 27 Dec Ascott Raffles City started at ¥1,018 (no view named), Niccolo ¥1,309 on Trip.com, Regent ¥1,502 and the InterContinental ¥2,024. The Westin scores 9.4 from 4,667 Trip.com reviews."
+      - title: Breakfast almost free
+        text: "The breakfast rate costs **¥59 more** than room only on 27 Dec. Bought alone the buffet is ¥158, so take the breakfast rate."
+  - type: prose
+    title: Which night, and what it costs
+    text: |-
+      Book **Sunday 27 December**. It was the cheapest of the four candidate nights at almost every hotel I priced, the Westin included (¥1,250 against ¥1,308 on Saturday and ¥1,399 on 31 Dec and 1 Jan). You have no shift that night. Check out at 12:00 (UTC+8) on Monday and you still have eight hours before the first shift at 20:00 (UTC+8).
+
+      The other nights lose something. On **Saturday 26** you arrive in the city and pay ¥58 more. On **New Year's Eve** you pay ¥149 more, then spend 19:00 to 01:00 (UTC+8) in the street crowd at Jiefangbei or at the drones by the river. On **1 January** you pay ¥1,399 the night before a flight. Shift nights (28–30 Dec, 20:00–05:00 UTC+8) would waste the room.
+
+      The short answer to the videos: Chongqing's top hotels are cheap next to Europe, but not ¥350–600. The top international five-stars ran **¥1,018–2,030** a night on 27 Dec. ¥440–770 buys a five-star from a big chain, but its cheapest room is sold as city view (Kempinski, JW Marriott), with no view named (Hyatt Regency) or with river view as a separate room (Sheraton). Their prices are in the tips below.
+  - type: gallery
+    images:
+      - file: jiefangbei-monument-night
+        caption: "The Liberation Monument at night, 320 m from the hotel"
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Book the night of **27 Dec** on the official site or Booking.com. Choose the breakfast rate; both cancel for free until the day before." }
+      - { days_before: 2, text: "**25 Dec:** last day to cancel the room-only twin for free. The king and breakfast rates cancel free until 27 Dec. Message the hotel your arrival time." }
+      - { days_before: 0, text: "Walk over from the hostel, check in from 15:00 (UTC+8) with your passport and leave a ¥1,000 deposit. Ask for a high floor." }
+    passport_note: "Booking.com: a valid passport is required at check-in. Bring the passport itself, not a copy."
+  - type: map
+    note: "From **Only Cafe** or **Desti**, walk to Jiaochangkou station, then about 11 minutes on foot (Google). Xiaoshizi (Line 1) is 320 m away. For a taxi, show **重庆解放碑威斯汀酒店**."
+  - type: tips
+    variant: insider
+    title: The other five-stars, priced for 27 Dec
+    items:
+      - "**Niccolo Chongqing** (Jiangbei, IFS tower 1): ¥1,309 on Trip.com, ¥1,364 on Booking.com, 9.4 there from 77 reviews. On NYE ¥1,676 (Trip.com)."
+      - "**Regent Chongqing** (Jiangbeizui): ¥1,502 on Trip.com, ¥1,583 official, 9.4 on Booking.com from 53 reviews. NYE ¥2,039 (Trip.com)."
+      - "**InterContinental Raffles City** (Chaotianmen): ¥2,028 on Booking.com for a non-refundable city-view king, ¥2,024 on Trip.com. 9.6 from 350 reviews. NYE ¥2,099 official."
+      - "**JW Marriott** (Jiefangbei): ¥764 on Booking.com, ¥719 official, city-view rooms only at that price. 8.7 from 233 reviews. NYE ¥1,095 on Booking.com."
+      - "**Sheraton** (Nan'an riverbank): ¥516 on Trip.com, ¥608 official and on Booking.com. The cheapest rooms are labelled city or mountain view; river view is a separate room type. NYE ¥653 (Trip.com)."
+      - "**Hyatt Regency Liberation Square** (68 Zourong Road, Jiefangbei): ¥717 on Trip.com, ¥719 official via Google Hotels, a King room with no view named."
+      - "**Ascott Raffles City** (serviced apartments, Chaotianmen): from ¥1,018–1,028 in Google Hotels' lists, ¥1,269 official for a Studio Deluxe. No view named for the studio."
+      - "**Kempinski** (Nan'an): ¥438 on Booking.com, city view, 8.7 from 54 reviews. The only one with no NYE jump: ¥438 on 31 Dec."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Booking.com's fine print asks for a **bank transfer before arrival** and lists cash as the only payment. Without a Chinese bank account, book on the official site or Trip.com."
+      - "The room-only Deluxe Twin can be cancelled free only **before 25 Dec**. The Deluxe King and breakfast rates cancel until 27 Dec."
+      - "Keep ¥1,000 of room on your card or account for the deposit. It is returned at check-out, not charged."
+      - "Don't plan on a late check-out. No source confirms one; ask at check-in."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast
+    note: "Cool and grey, but the pool is indoors and heated, so it works in any weather."
+    wear: Mid-weight jacket and a rain layer
+  - type: pairs_well
+    items:
+      - { id: only-cafe-and-backpacker, note: "Your hostel the other nights, about 10 minutes away on foot" }
+      - { id: hongyadong-qiansimen-night-walk, note: "830 m away: the night walk from the hotel door" }
+      - { id: jiefangbei-nye-countdown, note: "If you pick NYE instead, the countdown is 320 m away" }
+      - { id: merica-hotel-jiefangbei, note: "The cheap private room for the call night" }

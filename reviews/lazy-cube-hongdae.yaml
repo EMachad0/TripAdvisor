@@ -1,0 +1,24 @@
+# Independent review of lazy-cube-hongdae. Written by `./atr review`; do not edit by hand.
+id: lazy-cube-hongdae
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 485fb02b3438d5be62ca97bdddce7a380734268782e0a60c691de4a52aee4985
+facts:
+  supported: 7
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[6].items[1]
+    problem: The tip says 'Your club night is Sat 16 Jan' as if it were fixed. config/trip.yaml only marks 16–17 Jan as free days, with the Hwacheon trip also on those days, and no plan pins the club night to Saturday.
+    evidence: config/trip.yaml — "free days Jan 10, Jan 16–17 (Hwacheon)"
+    fix: Change it to 'If your club night is Sat 16 Jan…'.
+resolved:
+  - field: book_ahead.lead_time
+    problem: The page says to book 14 days ahead and calls that 'inside the free-cancellation window'. But the deposit refund ends about 15 days before each night (18 Dec for 2 Jan, 21 Dec for 5 Jan, 24 Dec for 8 Jan). A booking made 14 days ahead is already past the free-cancellation deadline. book_ahead.notes also says '16 days before'. 21 Dec to 5 Jan is 15 days.
+    evidence: "lead_days is now 16 and the text says 'Book by ~15 days before the night'. The notes give 26 Dec for Sun 10 Jan and 1 Jan for Sat 16 Jan. The availability feed agrees: date-start=2027-01-10 says \"cancel your booking before 23:59 26th Dec 2026 (KST)\" and date-start=2027-01-16 says \"before 23:59 1st Jan 2027 (KST)\". Every night from 11 to 19 Jan also ends 15 days before."
+rereview_of: aff54942650c2fb2efee9dc18861d1eaf0e480768dcf61b579598d86eec79abc
+summary: "The earlier cancellation finding is fixed: the 15-day deadline, lead_days 16 and the example dates match Hostelworld's feed. All re-dated prices are confirmed night by night for 10–19 Jan: ₩45,000 on Sun–Thu and ₩81,900 on Fri 15 and Sat 16. Bed counts and BRL conversions also check out. Only a wording nit is left, so the page passes."
+model: claude-opus-5-5
+cost_usd: 0.541

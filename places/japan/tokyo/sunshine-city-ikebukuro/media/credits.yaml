@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: view-60f
+  title: File:Ikebukuro station @ Sunshine 60 Observatory @ Sunshine City @ Ikebukuro (9350794957).jpg
+  author: Guilhem Vellut from Annecy, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ikebukuro_station_@_Sunshine_60_Observatory_@_Sunshine_City_@_Ikebukuro_(9350794957).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1c/Ikebukuro_station_%40_Sunshine_60_Observatory_%40_Sunshine_City_%40_Ikebukuro_%289350794957%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ikebukuro station @ Sunshine 60 Observatory @ Sunshine City @ Ikebukuro
+  width: 3648
+  height: 2736
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: alpa-atrium
+  title: File:Sunshine City Atrium 201206.jpg
+  author: Dick Thomas Johnson from Tokyo, Japan
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Sunshine_City_Atrium_201206.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/28/Sunshine_City_Atrium_201206.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sunshine City Atrium サンシャインシティ 専門店街アルパ
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: sunshine-60
+  title: File:Sunshine 60 building @ Ikebukuro (9353559670).jpg
+  author: Guilhem Vellut from Annecy, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Sunshine_60_building_@_Ikebukuro_(9353559670).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/93/Sunshine_60_building_%40_Ikebukuro_%289353559670%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sunshine 60 building @ Ikebukuro
+  width: 2736
+  height: 3648
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

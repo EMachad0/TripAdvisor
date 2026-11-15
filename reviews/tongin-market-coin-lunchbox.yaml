@@ -1,0 +1,16 @@
+# Independent review of tongin-market-coin-lunchbox. Written by `./atr review`; do not edit by hand.
+id: tongin-market-coin-lunchbox
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 9be81bb3482d9c5000f72a05ea7450457df8bd46205d6d163ea41c2a91cae456
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 190da7a4ec107c9b93a7f69bdefa9e28521fa1eef2be75a5eb7fbebe0ff8c78f
+summary: "The earlier review left no findings open. The diff only moves the dates to the new Korea window (10–20 Jan 2027, per config/trip.yaml), and they match the January 2027 calendar: Mon 11 / Tue 12 and Mon 18 / Tue 19 are the possible weekly closing days, and Sun 17 is the 3rd Sunday (after the 3rd and the 10th). The closing rules themselves (Mon or Tue, plus the 3rd Sunday) did not change. No new issues, so the page passes."
+model: claude-opus-5-5
+cost_usd: 0.155

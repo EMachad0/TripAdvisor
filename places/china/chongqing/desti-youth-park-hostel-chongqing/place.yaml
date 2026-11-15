@@ -1,0 +1,199 @@
+id: desti-youth-park-hostel-chongqing
+name: "Desti Youth Park Hostel Chongqing"
+short_name: Desti Chongqing
+name_local: 背包十年青年旅舍（重庆解放碑店）
+name_romanized: Beibao Shinian
+country: china
+city: chongqing
+area: Yuzhong · Shancheng Lane
+category: stay
+tags: [hostel, bar, coworking, events, dorm-only]
+kind: Stay
+why: "Dorm beds from ¥49 by Shancheng Lane, with a bar-café floor listed as coworking space and a hostel event every night. Social on some nights, flat on others."
+
+cost:
+  local: 49
+  currency: CNY
+  brl: 40.51
+  note: "6-bed female dorm, nights of 26–30 Dec 2026 on Hostelworld (30% promo). Male 6-bed ¥51.10; ¥93.80 on 31 Dec and 1 Jan"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book 2+ weeks ahead; few 6-bed beds are left"
+  method: website
+  links:
+    - label: "Hostelworld, 26 Dec – 2 Jan"
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-26&to=2027-01-02&guests=1&currency=CNY"
+      note: "Pay on arrival in cash or by card; the hostel may pre-authorise your card"
+    - label: "Booking.com, 26 Dec – 2 Jan"
+      url: "https://www.booking.com/hotel/cn/chongqing-desti-youth-park-hostel-zhong-qing.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "No prepayment; pay at the hostel"
+  notes: "On 10 Nov, Hostelworld showed only 1–3 beds left in each 6-bed dorm for these nights and 8–9 in the 4-bed dorms. Prices carried a 30% promotion on both sites, so they may rise. Cancellation is free on both, so booking early costs nothing."
+
+hours:
+  summary: "Reception 08:00–01:00 (Trip.com) · check-in 14:00–23:00 (Hostelworld) · check-out by 12:00 · no curfew listed"
+  winter: "All seven nights from 26 Dec to 2 Jan were bookable on 10 Nov, with no minimum stay shown: 31 Dec could be booked alone. On Hostelworld the 6-bed dorm is ¥49–51 on 26–30 Dec and ¥93.80 on 31 Dec and 1 Jan; the 4-bed dorm is ¥103.60 on those two nights. Hostelworld lists a hostel event every night of the stay. Rooms have air conditioning; no review mentions the heating."
+
+location:
+  address: "5 Mati Street, Yuzhong District, Chongqing (the red-brick building at the entrance of Shancheng Lane)"
+  address_local: 重庆市渝中区马蹄街5号
+  lat: 29.55447
+  lng: 106.56391
+  nearest_transit: "Jiaochangkou (Line 1 / 2), Exit 5, about 500 m"
+  approximate: true
+
+sources:
+  - url: https://www.hostelworld.com/hostels/p/306806/desti-youth-park-hostel-chongqing/
+    title: "Desti Youth Park Hostel - Chongqing on Hostelworld: score, sub-scores, description, facilities, policies, reviews (under 'View all reviews')"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-26&to=2026-12-27&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 26 Dec 2026: dorm beds ¥49–53.20, event list for 26 Dec – 2 Jan, house rules"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 28 Dec 2026: same prices, no private rooms"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 31 Dec 2026 alone: 6-bed ¥93.80, 4-bed ¥103.60"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-26&to=2027-01-02&guests=1&currency=CNY"
+    title: "Hostelworld date search, 26 Dec – 2 Jan: ¥61.80–67.60 a night on average"
+    checked: 2026-11-10
+  - url: "https://www.booking.com/hotel/cn/chongqing-desti-youth-park-hostel-zhong-qing.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Desti Youth Park Hostel on Booking.com: 9.1 from 274 reviews, wifi score 8.5, dorms only, distances, ¥425–464 for the week"
+    checked: 2026-11-10
+  - url: https://ae.trip.com/hotels/chongqing-hotel-detail-54505766/chongqing-desti-youth-park
+    title: "Desti Youth Hostel Chongqing Jiefangbei on Trip.com: all nationalities welcome, front desk 08:00–01:00, quiet hours, opened 2019"
+    checked: 2026-11-10
+  - url: https://m.ctrip.com/html5/hotel/hoteldetail/54505766.html
+    title: "背包十年青年旅舍(重庆解放碑店) on Ctrip: Chinese name and address, 430 m from Jiaochangkou metro, opened 2019"
+    checked: 2026-11-10
+  - url: https://www.hostelworld.com/hostels/asia/china/chongqing/
+    title: "Hostelworld's Chongqing list: scores and review counts of all ten hostels, used to compare"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Rooftop-Terrace-Hostel/Chongqing/331717?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+    title: "Chongqing Rooftop Terrace Hostel, Hostelworld date search for 28 Dec 2026: the private-room fallback named in the tips"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+    title: "Only Cafe And Backpacker, Hostelworld date search for 28 Dec 2026: the alternative named on this page (¥65, atmosphere 9.6)"
+    checked: 2026-11-10
+  - url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Merica Hotel on Booking.com, date search for the night of 28 Dec 2026: private double ¥107, 8.9 from 423 reviews (the call-night room)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals 1991–2020"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Prices are promo rates from date searches on 10 Nov and will move. No source says whether the common floor stays open after reception closes at 01:00; the lock-out story is one May 2025 review. The 14-day lead is my judgment. Pin is Mati Street on OpenStreetMap, not the building. Review quotes sit under 'View all reviews'. The Trip.com and Ctrip pages opened in a web fetch only."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: "The practical pick for a work week: a common floor with coffee and craft beer, kept apart from the dorms."
+  - type: quick_facts
+    extra:
+      - { label: Hostelworld, value: "9.5 / 10", detail: "102 reviews; atmosphere 8.8" }
+      - { label: Private room, value: None, detail: "For the 01:00 call: Merica Hotel, ¥107" }
+      - { label: Reception, value: "08:00–01:00", detail: "Not 24 h; quiet hours 23:00–08:00" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 6-bed female dorm, 26–30 Dec
+        local: 49
+        brl: 40.51
+        note: "Searched for the nights of 26 and 28 Dec 2026; 30% promo"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+      - label: Bed in 6-bed male dorm, 26–30 Dec
+        local: 51.1
+        brl: 42.24
+        note: "Same search; 4-bed female dorm is the same price"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+      - label: Bed in 4-bed male dorm, 26–30 Dec
+        local: 53.2
+        brl: 43.98
+        note: "Same search"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+      - label: Bed in 6-bed dorm, 31 Dec and 1 Jan
+        local: 93.8
+        brl: 77.54
+        note: "Male or female; searched for the night of 31 Dec 2026 alone"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+      - label: Bed in 4-bed dorm, 31 Dec and 1 Jan
+        local: 103.6
+        brl: 85.65
+        note: "Male or female; same search"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+    rating:
+      score: 9.5
+      out_of: 10
+      source: Hostelworld
+      reviews: 102
+      atmosphere: 8.8
+      checked: 2026-11-10
+    social:
+      - "A 4th-floor common area with a **coffee bar and craft beer taps**, a book corner, board games, foosball and a screening room."
+      - "Hostelworld lists an event on every night of 26 Dec – 2 Jan: a **drinking game** nightly and a movie night at 20:00 on 26 Dec."
+      - "A one-hour guided **Mountain City Walk** from the hostel every Thursday at 16:00. In this stay that is 31 Dec."
+      - "Recent guests who liked it: \"Great social hostel\" (Nov 2026), \"easy to meet people\" (Aug 2026), a bar with \"a very diverse range of people\" (Sept 2026)."
+      - "**Honest caveat:** as many say the opposite. \"Not social at all\" (Sept 2026), \"hit or miss\" (March 2026), \"no atmosphere, no events\" (a Brazilian, May 2026)."
+      - "Several 2025 guests note that there were few foreigners in the hostel."
+    good_to_know:
+      - "**No private rooms.** Hostelworld, Booking.com and Trip.com list only 4- and 6-bed dorms, split into male and female rooms."
+      - "**Reception 08:00–01:00**, not 24 h. Hostelworld lists no curfew, but a May 2025 guest found the door locked from outside at 00:30."
+      - "**Wifi:** the hostel says high-speed wifi covers the building. Not mentioned in Hostelworld reviews; Booking.com guests score it 8.5."
+      - "**Work space:** Hostelworld lists a coworking space. Reviews describe a big common area, quiet in the daytime; none mentions working there."
+      - "**Foreign passports:** Trip.com states that guests from all countries and regions are welcome."
+      - "Bunks are built into the wall, with a curtain, key-card locker, lamp and socket. Linen and towels included. Lift, laundry."
+      - "Pay on arrival in cash or by card. Breakfast is not included (Hostelworld)."
+      - "Trip.com lists quiet hours from 23:00 to 08:00. Guests warn of a big staircase before the door and of map apps pointing to the wrong spot."
+  - type: highlights
+    items:
+      - title: The cheapest good bed in Yuzhong
+        text: "From **¥49 (R$41)** a night before New Year, against ¥65 at the top-rated hostel. Hostelworld guests score it 9.6 for value and 9.5 for cleanliness."
+      - title: A common floor built for sitting
+        text: "The hostel puts guest rooms and public areas on **separate floors** and fits soundproof doors. One guest liked that the rooms are far from the chill spaces, so they stay quiet."
+      - title: Something on every night
+        text: "Hostelworld shows a hostel event for each night from 26 Dec to 2 Jan, including a drinking game on **New Year's Eve** before you walk to the countdown."
+      - title: In the old lanes, by the river
+        text: "The building stands at the entrance of **Shancheng Lane**, a century-old hillside footpath above the Yangtze. The hostel puts Jiefangbei at a 15-minute walk."
+  - type: prose
+    title: The remote-work week, honestly
+    text: |-
+      **Working by day.** This is the stronger of the two Chongqing hostels for it. Hostelworld's facility list includes a coworking space, and the hostel describes high-speed wifi across the building and a large 4th-floor common area with a coffee bar. A 2025 guest wrote that the place is quiet during the day. Still, no Hostelworld review mentions wifi, a laptop or working here, and Booking.com guests score the wifi 8.5 out of 10.
+
+      **The 01:00 call on Tue 29 Dec** needs a question before you book. There is no private room. Reception closes at 01:00, Trip.com lists quiet hours from 23:00 to 08:00, and one May 2025 guest found the front door locked at 00:30. The common area is on its own floor, away from the dorms, and the hostel lists a private screening room, but no source says either is open after 01:00. Ask the hostel in writing whether you can use one of them for a call at that hour. If the answer is no or vague, book one night in a private room: Merica Hotel had one on 28 Dec for ¥107 (R$88) prepaid, or ¥130 to pay later.
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Book 26 Dec – 2 Jan as one stay. On 10 Nov the male 6-bed dorm was **¥443 (R$366)** for the seven nights on Hostelworld and **¥435 (R$360)** on Booking.com, both with a 30% promotion." }
+      - { days_before: 1, text: "Hostelworld asks for at least one day's notice to cancel for free. Booking.com showed free cancellation until 14:00 on check-in day." }
+      - { days_before: 0, text: "Hostelworld gives check-in as 14:00–23:00; Trip.com says until 01:00. Message the hostel if you will arrive after 23:00. Pay in cash or by card." }
+    passport_note: "Trip.com states that guests from all countries and regions are welcome. Bring the passport itself."
+  - type: map
+    note: "Leave Jiaochangkou by **Exit 5** and walk about 500 m. The hostel is the red-brick building at the entrance of Shancheng Lane, above a Chagee: guests say to navigate to the Chagee, because Amap points to the wrong place. Take the lift to the 4th-floor lobby."
+  - type: tips
+    variant: insider
+    items:
+      - "Before you book, message the hostel: is the 4th-floor common area or the screening room open at 01:00, and can you get back in after reception closes?"
+      - "**A private room for the call night:** Merica Hotel on Xinhua Road had an ensuite double on 28 Dec for **¥107 (R$88)** prepaid with no changes allowed, or **¥130** to pay later (Booking.com, 8.9 from 423 reviews; searched 10 Nov). It has its own card."
+      - "**Cheaper fallback:** Chongqing Rooftop Terrace Hostel, by its own account 5 minutes' walk from Jiaochangkou station, had a private single for ¥125 on 28 Dec, one left on 10 Nov. It scores 7.9 from 16 Hostelworld reviews."
+      - "Go to the event on your first night. Guests who found it social met people in the bar and the common area."
+      - "Want the most social hostel in town instead? **Only Cafe and Backpacker** scores 9.6 for atmosphere, from ¥65."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't expect a party hostel. Hostelworld's atmosphere score is 8.8, its lowest sub-score here."
+      - "The 30% promotion was live on 10 Nov on both sites. Without it the same bed lists at ¥70–76."
+      - "A March 2026 guest found too few toilets for everyone; a May 2026 guest reports bugs in the shower."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, rain on about 10 days a month
+    note: "Mild for a China winter, but grey: December gets about 6% of its possible sunshine. It is about 500 m from the metro exit to the door, with stairs on the way. Rooms have air conditioning; no review I read says how warm the dorms are in winter."
+    wear: Mid-weight jacket, a rain layer and shoes with grip
+  - type: pairs_well
+    items:
+      - { id: jiefangbei-nye-countdown, note: "The monument is 1.4 km away (Booking.com); the hostel calls it a 15-minute walk" }
+      - { id: chongqing-drone-light-show, note: "Hongyadong is 2.5 km and Chaotianmen 2.6 km away (Booking.com): take the metro or allow a long walk" }
+      - { id: liziba-station, note: "Line 2 from Jiaochangkou" }
+      - { id: merica-hotel-jiefangbei, note: "A private room for the night of the 01:00 call" }

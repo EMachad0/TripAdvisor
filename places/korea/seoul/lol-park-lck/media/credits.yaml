@@ -1,0 +1,64 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: arena
+  title: File:LOL Park Stadium.jpg
+  author: self
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:LOL_Park_Stadium.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a4/LOL_Park_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: lobby
+  title: File:LOL Park lobby.jpg
+  author: self
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:LOL_Park_lobby.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/55/LOL_Park_lobby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: LOL 파크 로비
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: riot-store
+  title: File:LOL Park Riot store.jpg
+  author: self
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:LOL_Park_Riot_store.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e4/LOL_Park_Riot_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: LOL 파크 라이엇 스토어
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: pc-bang
+  title: File:LOL Park PC Room.jpg
+  author: self
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:LOL_Park_PC_Room.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/77/LOL_Park_PC_Room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: LOL 파크 PC방
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

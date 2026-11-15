@@ -1,0 +1,160 @@
+id: seoul-plaza-ice-rink
+name: "Seoul Plaza Ice Rink"
+name_local: 서울광장 스케이트장
+name_romanized: Seoul Gwangjang Seukeiteujang
+country: korea
+city: seoul
+area: Jung-gu · City Hall
+category: odd-local
+fame: popular
+tags: [cold-outdoors, ice-skating, cheap-thrills, city-hall, winter-only]
+kind: Do
+why: "An hour of outdoor skating in front of City Hall for ₩1,000, skates and helmet included. Seoul says it reopens on 18 Dec 2026."
+
+cost:
+  local: 1000
+  currency: KRW
+  brl: 4.1
+  note: "2025/26 price for a 1-hour session with skates and helmet. The 2026/27 price is not announced"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5 h (one 1-hour session)
+best_time: "Work-day 16:00 or 17:30 session (19:00 at the latest)"
+
+when:
+  dates:
+    - { from: 2026-12-18, to: 2027-02-07 }
+  kind: season
+  label: "From 18 Dec 2026 · end not announced"
+  confirmed: false
+
+book_ahead:
+  required: false
+  notes: "Last season each session had 300 tickets sold online (from 7 days ahead, on seoulskate.kr) and 300 at the box office on the day. Whether the online booking works without a Korean phone number is not stated."
+
+hours:
+  summary: "2025/26: Sun–Fri 10:00–21:30, Sat and public holidays 10:00–23:00, in 1-hour sessions"
+  closed: "Can close for bad air quality, snow or rain"
+  winter: "Winter-only rink. Seoul said in Feb 2026 it returns on Fri 18 Dec 2026. The end date, hours and price for 2026/27 are not announced. Last season ran 19 Dec 2025 – 8 Feb 2026 (52 days), so your Jan dates fall inside any likely season. In 2025/26 it stayed open late on 24 Dec and 31 Dec, with an extra 23:30–00:30 session."
+
+location:
+  address: Seoul Plaza, 110 Sejong-daero, Jung-gu, Seoul
+  address_local: 서울특별시 중구 세종대로 110 서울광장
+  lat: 37.56564
+  lng: 126.97799
+  nearest_transit: City Hall (Line 1), Exit 5
+
+sources:
+  - url: https://www.seoul.go.kr/news/news_report.do?nttNo=452035
+    title: "Seoul city press release, 11 Feb 2026: season closed with 180,701 visitors, rink returns 18 Dec 2026"
+    checked: 2026-11-10
+  - url: https://mediahub.seoul.go.kr/archives/2016523
+    title: "Seoul city news, Dec 2025: 2025/26 season dates, hours, price, session timetable, ticket rules"
+    checked: 2026-11-10
+  - url: https://mediahub.seoul.go.kr/archives/2016580
+    title: "Seoul city news (citizen reporter), 23 Dec 2025: gloves, locker and extras prices"
+    checked: 2026-11-10
+  - url: https://www.koreatimes.co.kr/lifestyle/people-events/20251230/how-to-enjoy-ice-skating-in-seoul-for-less-than-1
+    title: "Korea Times, 30 Dec 2025: How to enjoy ice skating in Seoul for less than $1"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Seoul_Plaza
+    title: Seoul Plaza (Wikipedia)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul climate normals 1991–2020 (Wikipedia)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Only the 18 Dec 2026 reopening is announced. The end date in `when` is my estimate (52 days, like last season). Price, hours, sessions and ticket rules are all from 2025/26. The booking site seoulskate.kr did not load from this machine on 2026-11-10 (off-season), so it is named but not linked or checked. The Korea Times gives 6 Feb as last season's end; the city says 8 Feb."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: skaters-sun
+    hook: Office towers on every side, a sheet of ice in the middle, and half of Seoul wobbling around it.
+    caption: The rink in January 2015
+    focus: center
+  - type: quick_facts
+    time_needed: 1.5 h (one 1-hour session)
+    best_time: "Work day: 16:00 or 17:30 session"
+    extra:
+      - label: Session
+        value: 1 hour on the ice
+        detail: Then 30 min of ice resurfacing
+      - label: Gloves
+        value: Required
+        detail: Bring your own or buy on site
+      - label: Tickets per session
+        value: 300 online + 300 on site
+        detail: 2025/26 rule
+  - type: highlights
+    items:
+      - title: The ₩1,000 hour
+        text: "The price has not changed since the rink first opened in **2004**. In 2025/26 it covered one hour on the ice with skates and a helmet."
+      - title: Right in front of City Hall
+        text: "The rink is built on Seoul Plaza every winter. In spring the lawn comes back."
+      - title: Skating after dark
+        text: "Last season the final session ran **20:30–21:30** on Sunday to Friday, and **22:00–23:00** on Saturdays and public holidays."
+      - title: Where Seoul goes in winter
+        text: "The 2025/26 season counted **180,701** skaters in 52 days, about 3,475 a day. Expect company on the ice."
+  - type: prose
+    title: How a session works
+    dropcap: true
+    text: |-
+      This is last season's system. Seoul has announced only the reopening date for 2026/27, **Friday 18 December 2026**, so check the rules again in December.
+
+      You buy a ticket for one numbered session. Sessions started at 10:00, 11:30, 13:00, 14:30, 16:00, 17:30, 19:00 and 20:30, with a ninth at 22:00 on Saturdays and public holidays. Each lasted one hour, and the ice was resurfaced after every session. On your work days, take the **16:00 or 17:30** session (the lights come on around sunset); 19:00 is the latest that leaves time before a 21:00 shift.
+
+      Half the tickets were sold online from seven days ahead, the other half at the box office on the day. The city press material lists the official site as seoulskate.kr.
+
+      The city says the rink can stop for bad air (fine-dust alerts), snow or rain. People who booked online got a text message, and the box office screens showed the status.
+  - type: gallery
+    images:
+      - file: city-hall-rink
+        caption: The old City Hall building behind the ice (2015)
+      - file: skaters-towers
+        caption: Midday session with low winter sun (2015)
+  - type: quote
+    variant: vibe
+    text: Rental skates, beginners clinging to the boards, and the old City Hall clock above a ring of office towers.
+  - type: cost_breakdown
+    items:
+      - label: One session with skates and helmet
+        local: 1000
+        brl: 4.1
+        note: 2025/26 price
+      - label: Gloves, if you have none
+        local: 1500
+        brl: 6.14
+        optional: true
+        note: Sold on site in 2025/26
+      - label: Locker
+        local: 1000
+        brl: 4.1
+        optional: true
+    note: "Holders of the Discover Seoul Pass skated free in 2025/26."
+  - type: map
+    zoom: 17
+    note: "**City Hall station, Exit 5** is about a minute's walk from the plaza."
+  - type: tips
+    variant: insider
+    items:
+      - "Wear gloves from the hostel. They are required on the ice, and buying a pair on site costs more than the ticket."
+      - "Knee pads were lent free once per visit in 2025/26. Ask at the rental counter."
+      - "If the session you want is sold out online, the other half of the tickets is sold at the box office that day."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Check the rink's status before you go on a smoggy or snowy day. It closes for fine-dust alerts and bad weather."
+      - "One ticket is one hour. If you want more, you need a ticket for another session."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry and cold, snow on about 7 days in January
+    note: "Fully outdoors. An evening session is close to the daily low, and you move slowly as a beginner, so dress for standing still. Fine-dust days are the real risk: the rink closes on alert days."
+    wear: Gloves (required), hat, padded jacket, thick socks for rental skates
+  - type: pairs_well
+    items:
+      - id: gwangjang-market
+        note: Hot bindaetteok after a cold hour on the ice
+      - id: hwacheon-sancheoneo-ice-festival
+        note: "The big cold-outdoors day trip: your free Sat 16 Jan"

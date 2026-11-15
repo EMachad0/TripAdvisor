@@ -1,0 +1,28 @@
+# Independent review of liziba-station. Written by `./atr review`; do not edit by hand.
+id: liziba-station
+reviewed: 2026-11-10
+verdict: pass
+content_hash: 4f06600ba542c24a2f12ce14613a79764a00693e618ecd627332fbc10e817e67
+facts:
+  supported: 17
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[1].extra[0].detail
+    problem: None of the four listed sources gives the figure of 'about 240 flats above'. Wikipedia only says '6th to 8th floors of a 19-story residential building', and a news report says floors 9–19 are flats but gives no count.
+    evidence: https://en.wikipedia.org/wiki/Liziba_station (no flat count); https://cs.com.cn/fdc/201805/t20180525_5812252.html (9–19楼为住宅, no count)
+    fix: Change the detail to 'Shops below, flats on floors 9–19', or add a source for the 240 figure. Make the same change in the prose block.
+  - severity: nit
+    field: confidence_note
+    problem: The note says the ¥2 fare 'agree[s] across sources'. ChinaBound gives no fare amount, and China for Travelers says both '¥2' and 'the fare is ¥2-3 within central Chongqing'. Only one commercial guide supports the ¥2 Jiaochangkou→Liziba fare.
+    evidence: https://chinafortravelers.com/guides/liziba-monorail-station/ — "Line 2 from Jiaochangkou (较场口), 6 stops … ¥2" and "the fare is ¥2-3 within central Chongqing"; https://www.chinabound.cn/s/202606/16/WS6a30e7d6498e23165e07014a/chongqings-most-viral-attraction-catch-a-train-with-your-mouth.html — "taking the monorail requires an MRT fare"
+    fix: Cite the Chongqing Rail Transit fare table for the Jiaochangkou→Liziba fare, or reword the note to say that only one guide states the ¥2 fare.
+  - severity: nit
+    field: blocks[0].focus
+    problem: On desktop the title text covers the monorail coming out of the building, and on phone it covers most of it. The reader sees the towers but not the train-through-building moment the page is about.
+    evidence: "./atr shot liziba-station --only desktop --theme dark (s01): train at left is behind 'Liziba Station' title"
+    fix: Shift the hero focus or crop so the train is clear of the title block, or use from-niujiaotuo as the hero.
+summary: "The facts the traveler would act on check out against the listed sources: free platform, ¥2 fare, train hours, Exit 2 and 观景台 route, address and pin, the 2026 station works with their dates flagged honestly, and Dec–Jan weather. No blockers. The three nits are an unsourced '240 flats' figure, a confidence note that overstates how well sources agree on the fare, and a hero image whose train is hidden behind the title."
+model: claude-opus-5-5
+cost_usd: 0.604

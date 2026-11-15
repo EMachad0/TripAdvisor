@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: covered-walkway
+  title: File:Shanghai marriage market, December 2015 - 01.JPG
+  author: Another Believer
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shanghai_marriage_market,_December_2015_-_01.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9e/Shanghai_marriage_market%2C_December_2015_-_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Shanghai marriage market, December 2015
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: umbrella-stalls
+  title: File:Umbrellas at marriage market, Shanghai.JPG
+  author: Jpbowen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Umbrellas_at_marriage_market,_Shanghai.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/be/Umbrellas_at_marriage_market%2C_Shanghai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Umbrellas at marriage market with stalls in the background at People's Park, Shanghai, China.
+  width: 4288
+  height: 3216
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: crowded-arcade
+  title: File:Marriage market, Shanghai.JPG
+  author: Jpbowen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Marriage_market,_Shanghai.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6c/Marriage_market%2C_Shanghai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Marriage market, People's Park, Shanghai, China.
+  width: 4288
+  height: 3216
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: park-and-towers
+  title: File:Shanghai - People's Park - 0005.jpg
+  author: Stefan Fussan
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shanghai_-_People%27s_Park_-_0005.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/23/Shanghai_-_People%27s_Park_-_0005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: People's Park and Jin Jiang Park Hotel, Nova Plaza and Radisson Blu Hotel, Shanghai, China
+  width: 4476
+  height: 2790
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons

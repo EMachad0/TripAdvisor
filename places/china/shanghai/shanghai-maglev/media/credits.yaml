@@ -1,0 +1,96 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: longyang-platform
+  title: File:China-Shanghai (2024) Maglev train - img 03.jpg
+  author: Chainwit
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:China-Shanghai_(2024)_Maglev_train_-_img_03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1c/China-Shanghai_%282024%29_Maglev_train_-_img_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Maglev train of Shanghai, China
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: leaving-pudong
+  title: File:A maglev train coming out, Pudong International Airport, Shanghai.jpg
+  author: User Alex Needham (own photography) on en.wikipedia
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File:A_maglev_train_coming_out,_Pudong_International_Airport,_Shanghai.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d1/A_maglev_train_coming_out%2C_Pudong_International_Airport%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A maglev train is coming out of the Pudong International Airport.
+  width: 2338
+  height: 1259
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: cabin-300
+  title: File:2009 Shanghai Maglev interior.jpg
+  author: J. Patrick Fischer
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:2009_Shanghai_Maglev_interior.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f0/2009_Shanghai_Maglev_interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Inside of Maglev, Shanghai
+  width: 4272
+  height: 2848
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: old-430-readout
+  title: File:Shanghai Maglev 4.jpg
+  author: kallerna
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shanghai_Maglev_4.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/48/Shanghai_Maglev_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sign showing the speed of the train in Transrapid 08 SMT, Pudong to Shanghai.
+  width: 4000
+  height: 2215
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: ticket
+  title: File:Ticket of Shanghai Maglev Train.jpg
+  author: そらみみ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ticket_of_Shanghai_Maglev_Train.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1b/Ticket_of_Shanghai_Maglev_Train.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 上海トランスラピッドの片道切符
+  width: 4016
+  height: 3012
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: elevated-track
+  title: File:Shanghai Maglev Train near Haitiansan Road Station, Aug 11 2023.jpg
+  author: A Chinese ID
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shanghai_Maglev_Train_near_Haitiansan_Road_Station,_Aug_11_2023.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/75/Shanghai_Maglev_Train_near_Haitiansan_Road_Station%2C_Aug_11_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Shanghai Maglev Train near Haitiansan Road Station, Aug 11 2023
+  width: 4032
+  height: 2192
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons

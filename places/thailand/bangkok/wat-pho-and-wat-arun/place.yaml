@@ -1,0 +1,125 @@
+id: wat-pho-and-wat-arun
+name: "Wat Pho and Wat Arun"
+name_local: วัดโพธิ์ · วัดอรุณ
+name_romanized: Wat Pho · Wat Arun
+country: thailand
+city: bangkok
+area: Tha Tien riverside
+category: culture
+fame: iconic
+tags: [temple, river, ferry, massage, dress-code]
+kind: See
+why: "A 46 m gold reclining Buddha, then a ฿5 two-minute ferry to Wat Arun's porcelain prang: two icons in one afternoon for ฿510."
+cost:
+  local: 510
+  currency: THB
+  brl: 84.1
+  note: "Wat Pho ฿300 + Wat Arun ฿200 + the ferry both ways (about ฿5 each, one 2026 guide). Thais and kids under 120 cm free"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h
+best_time: Weekday 13:00, Wat Arun by 16:30
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Wat Pho daily 08:00–19:30 (official). Wat Arun daily 08:00–18:00, last entry 17:30 (guides; some say 08:30 opening)"
+  closed: No weekly closing day for either
+  winter: "Dec–Jan are the coolest, driest months: the best time for a long outdoor walk. No Dec–Jan closures were listed when checked (Nov 2026). Hours can shift around Thai public holidays, so expect crowds and possible changes on Jan 1–2. The cross-river ferry runs during roughly the same hours as Wat Arun, so don't count on a crossing after 18:00."
+
+location:
+  address: "Wat Pho, Sanam Chai Rd, Phra Nakhon, Bangkok 10200 (Wat Arun is across the river)"
+  address_local: "วัดโพธิ์ (วัดพระเชตุพนวิมลมังคลาราม) ถนนสนามไชย เขตพระนคร กรุงเทพฯ 10200"
+  lat: 13.74635
+  lng: 100.49274
+  nearest_transit: "Sanam Chai (MRT Blue Line), Exit 1, short walk"
+
+sources:
+  - url: https://www.watpho.com/en/contact/plan
+    title: "Plan your visit: hours, admission, massage prices (Wat Pho, official)"
+    checked: 2026-11-12
+  - url: https://en.thairath.co.th/news/governmentpolicy/2925762
+    title: "No fare hikes on passenger boats; Tha Tien–Wat Arun ferry lowered its fare (Thairath, Apr 2026)"
+    checked: 2026-11-12
+  - url: https://www.thaiholidayguide.com/attraction/wat-pho/
+    title: "Wat Pho: hours, tickets, massage (Thai Holiday Guide, fact-checked Nov 2026)"
+    checked: 2026-11-12
+  - url: https://www.thaiholidayguide.com/attraction/wat-arun/
+    title: "Wat Arun: tickets, ferry, climb (Thai Holiday Guide, fact-checked Nov 2026)"
+    checked: 2026-11-12
+  - url: https://yourthaiguide.com/bangkok-big-list-of-entry-fees/
+    title: "Bangkok Big List of Entry Fees, 2026 (Your Thai Guide)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Wat Pho hours, ticket and massage prices: official site. Wat Arun has no reachable official site; its ฿200 ticket and 08:00–18:00 hours come from two 2026 guides (one says 08:30 opening). The ฿5 ferry fare is from one 2026 guide; Thairath (Apr 2026) says the route lowered its fare but gives no amount, and no dated fare source was found."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: buddha-face
+    focus: "50% 35%"
+    hook: "A golden Buddha longer than the hall can show, then a ferry across the river for small change."
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: Weekday 13:00, Wat Arun by 16:30
+    extra:
+      - { label: Your slot, value: Weekday afternoon, detail: "Fits Mon–Fri before a 19:00 work start" }
+      - { label: Cross-river ferry, value: "About ฿5, 2 minutes", detail: "One 2026 guide; bring a few extra baht, cash only" }
+      - { label: Dress code, value: Shoulders + knees covered, detail: "Wat Arun rents sarongs: ฿20 + ฿100 deposit" }
+  - type: highlights
+    items:
+      - title: The 46 m reclining Buddha
+        text: "Wat Pho is Bangkok's oldest and largest temple. Its gold Buddha fills the hall; along the wall, **108 bronze bowls** take a coin each for merit, so bring small coins."
+      - title: Massage at the original school
+        text: "The temple's **Thai Traditional Medical School** runs massages inside the grounds: ฿340 for 30 min, ฿520 for an hour."
+      - title: The porcelain prang
+        text: "Wat Arun's central tower is covered in Chinese porcelain and shells. You can climb part of it; the steps are **steep, almost vertical**, with rope rails."
+      - title: The river in between
+        text: "The small cross-river ferry from Tha Tien (about ฿5) is the cheapest way over: a couple of minutes on the water."
+  - type: prose
+    title: One afternoon, two icons
+    dropcap: true
+    text: |-
+      This is the afternoon plan for a work week. Get off the MRT at **Sanam Chai** around 13:00, see the reclining Buddha and the quiet courtyards of Wat Pho, and if your back hurts from the laptop, take the hour-long massage at the temple school.
+
+      Then walk 3–5 minutes to **Tha Tien pier**, cross for ฿5 and reach Wat Arun before last entry at **17:30**. The ferry runs on roughly Wat Arun's hours, so on a workday cross back with the light still on and you will be at your desk by 19:00. On a free evening, stay on the Tha Tien side: the famous photo of Wat Arun is taken from the east bank, and the temple is lit after dark.
+  - type: gallery
+    images:
+      - { file: arun-prang, caption: "Wat Arun's central prang and its four corner towers" }
+      - { file: arun-night, caption: Wat Arun lit up after dark }
+  - type: cost_breakdown
+    items:
+      - { label: Wat Pho ticket, local: 300, brl: 49.47 }
+      - { label: Wat Arun ticket, local: 200, brl: 32.98 }
+      - { label: "Cross-river ferry, both ways", local: 10, brl: 1.65 }
+      - { label: "Thai massage at Wat Pho, 60 min", local: 520, brl: 85.75, optional: true }
+      - { label: Sarong rental at Wat Arun (plus ฿100 refundable deposit), local: 20, brl: 3.3, optional: true }
+  - type: map
+    note: "Wat Pho's riverside entrance is a 3–5 minute walk from **Tha Tien pier**, where the ferry to Wat Arun leaves. Pay the ferry in cash."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot:** weekday afternoon. Start at Wat Pho by 13:00 so Wat Arun's 17:30 last entry is never tight."
+      - "Do the Grand Palace first on a day when you can arrive early; it's 10 min north, but its ticket desk closes at 15:30."
+      - "If the ferry is loading when you arrive it is full: the next one comes within a few minutes."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Anyone outside saying Wat Pho is \"closed for a ceremony\" is steering you to a shop or tour. Walk on."
+      - "Don't climb Wat Arun's prang in flip-flops: closed shoes or sandals with a heel strap."
+      - "Shorts above the knee, tank tops and see-through clothes are turned back at both temples."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry and sunny; Dec–Jan are the coolest stretch of the year"
+    note: "Hot by early afternoon, but the halls give shade and the river breeze helps on the ferry. Dec–Jan are about as comfortable as Bangkok gets."
+    wear: "Light long trousers, a T-shirt with sleeves, shoes you can slip off at hall doors"
+  - type: pairs_well
+    items:
+      - { id: grand-palace-wat-phra-kaew, note: "10 min north on foot; go on a morning when you can be there at 08:30" }
+      - { id: wang-lang-market, note: "A short express-boat ride upriver on the Thonburi side: street snacks" }
+      - { id: golden-mount-wat-saket, note: "Another afternoon: the old town from above" }

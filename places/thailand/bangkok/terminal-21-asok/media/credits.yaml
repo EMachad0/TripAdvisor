@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: golden-gate-pier21
+  title: File:Terminal 21 Asok 20251228 132908.jpg
+  author: Jothefiredragon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Terminal_21_Asok_20251228_132908.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b3/Terminal_21_Asok_20251228_132908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Terminal 21 Asok
+  width: 4080
+  height: 3060
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: long-escalator
+  title: File:Terminal 21 Bangkok longest escalator.jpg
+  author: Chainwit
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Terminal_21_Bangkok_longest_escalator.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/76/Terminal_21_Bangkok_longest_escalator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Terminal 21 Bangkok in 2020 December during COVID-19 Pandemic sits empty
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: escalator-glass
+  title: File:Escalator In Terminal 21 Bangkok (212014369).jpeg
+  author: Wolfgang Weber
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Escalator_In_Terminal_21_Bangkok_(212014369).jpeg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Escalator_In_Terminal_21_Bangkok_%28212014369%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "500px provided description: The Interieur View in Terminal 21 [#travel ,#outside ,#architecture ,#cityscape ,#view ,#photo ,#500px ,#canon ,#photography ,#turquoise ,#inside ,#shopping mall ,#interieur ,#escalators ,#bestoftheday ,#instagood ,#nopeople ,#Thailand ,#City ,#Bangkok ,#Center ,#Twitter "
+  width: 2048
+  height: 1366
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: exterior
+  title: File:Terminal 21 Asok Bangkok 20202021.jpg
+  author: Chainwit
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Terminal_21_Asok_Bangkok_20202021.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/96/Terminal_21_Asok_Bangkok_20202021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Terminal 21
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

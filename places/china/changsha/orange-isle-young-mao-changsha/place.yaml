@@ -1,0 +1,144 @@
+id: orange-isle-young-mao-changsha
+name: "Orange Isle: the Giant Young Mao"
+short_name: Orange Isle Young Mao
+name_local: 橘子洲 · 毛泽东青年艺术雕塑
+name_romanized: Júzi Zhōu
+country: china
+city: changsha
+area: "Yuelu · Orange Isle"
+category: culture
+fame: popular
+tags: [communism, red-tourism, giant-statue, free, stopover, river]
+kind: See
+why: "A 32 m stone head of young Mao, hair blowing in the wind, on a river island. Free, floodlit at night, 2 h by train from Zhangjiajie."
+
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+  note: "Island and statue free. Sightseeing bus ¥20–40. As a day trip from Zhangjiajie, trains add about ¥276 return"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–3 h on the island"
+best_time: "Late afternoon into dark (sunset about 17:30)"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "Free time slots, released up to 3 days ahead"
+  method: app
+  links:
+    - label: "Scenic area booking notice (Chinese)"
+      url: "https://travel.sina.cn/2026-03-30/detail-inhsswmp0085587.d.html"
+      note: "Book in WeChat: 岳麓山 橘子洲旅游区. Slots 07–12, 12–17, 17–22"
+    - label: "Zhangjiajie ↔ Changsha trains"
+      url: "https://chinafortravelers.com/guides/changsha-to-zhangjiajie/"
+      note: "Use Changsha station, not Changsha South: faster and cheaper"
+  notes: "In 2026 holiday notices the area ran 'no booking, no entry' with free real-name slots, checked against a Chinese ID card. No source says how a passport is handled. Try to book first; if it fails, call 0731-88882152 or ask at the gate."
+
+hours:
+  summary: "Daily 07:00–22:00 (last booking slot 17:00–22:00)"
+  winter: "No winter hours or closures found. Only holiday crowds are reported (National Day, May Day). The statue is floodlit at night. Changsha in December averages 5–11 °C with rain on about 11 days."
+
+location:
+  address: "South tip of Orange Isle (Juzizhou), Xiang River, Yuelu District, Changsha, Hunan"
+  address_local: 湖南省长沙市岳麓区橘子洲 毛泽东青年艺术雕塑
+  lat: 28.17107
+  lng: 112.95482
+  nearest_transit: "Orange Isle (Juzizhou) station, Metro Line 2"
+
+sources:
+  - url: https://travel.sina.cn/2026-03-30/detail-inhsswmp0085587.d.html
+    title: "Yuelu Mountain · Orange Isle notice via Sina, Mar 2026: no booking, no entry; slots 07–12, 12–17, 17–22; book up to 3 days ahead"
+    checked: 2026-11-13
+  - url: https://m.voc.com.cn/xhn/news/202605/32569765.html
+    title: "Xinhunan, 1 May 2026: open 07:00–22:00, three timed slots, booking in the 岳麓山 橘子洲旅游区 mini-program"
+    checked: 2026-11-13
+  - url: https://chinatripedia.com/?p=38356
+    title: "Chinatripedia: statue 32×83×41 m; Mao studied in Changsha 1913–18; 1925 poem; free, bus ¥20, 07:00–22:00, phone"
+    checked: 2026-11-13
+  - url: https://www.babagoeschina.com/orange-island-juzizhou-in-changsha/
+    title: "Baba Goes China, Nov 2024: 07:00–22:00, free, train ¥40 (¥20 elsewhere on the page), Line 2, pay at the ticket office"
+    checked: 2026-11-13
+  - url: https://paper.people.com.cn/rmrbhwb/pc/content/202512/10/content_30119394.html
+    title: "People's Daily Overseas, 10 Dec 2025: free to the public, about 17 million visits a year"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Orange_Isle
+    title: "Orange Isle — Wikipedia: 5 km long, statue completed 20 Dec 2009, Line 2 station since 2014"
+    checked: 2026-11-13
+  - url: https://chinafortravelers.com/guides/changsha-to-zhangjiajie/
+    title: "China for Travelers, Aug 2026: Changsha–Zhangjiajie from 1 h 45, about 40 trains a day, ¥138–166 from Changsha station"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Changsha
+    title: "Changsha — Wikipedia: December normals 4.7–11.4 °C, 10.8 rain days"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Hours, free entry and the slot system are from 2026 local news and the scenic area's own notice; those notices are written for holidays and Chinese ID cards, and nothing says whether a passport works in the booking. The bus price is ¥20 in one guide and ¥40 in another. Sunset computed with ./atr sun."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: statue-night
+    hook: "Mao as the student he was in Changsha, carved 32 m high and floodlit over the Xiang River."
+    caption: "The Young Mao sculpture at night"
+  - type: quick_facts
+    time_needed: "2–3 h on the island"
+    best_time: "Late afternoon into dark"
+    extra:
+      - { label: Size, value: "32 m tall, 83 m long", detail: "Head and shoulders only; completed 2009" }
+      - { label: From Zhangjiajie, value: "From 1 h 45 by train", detail: "About 40 trains a day to Changsha station" }
+      - { label: Your slot, value: "A stopover, Dec 6–24", detail: "Too far from any base for a night-shift day" }
+  - type: highlights
+    items:
+      - title: A head the size of a building
+        text: "The sculpture shows Mao as a young man, hair swept back, and is **32 m tall, 83 m long and 41 m wide**: only the head and shoulders, rising out of a long stone base at the island's south tip."
+      - title: Why here
+        text: "Mao studied in Changsha from 1913 to 1918 and crossed to the isle with classmates; his 1925 poem *Changsha* opens at its head, 'myriad hills drenched in crimson'."
+      - title: Lit after dark
+        text: "Floodlit at night against the river and the city towers. With sunset around **17:30** in December, a 16:00 start gives you both day and night views."
+      - title: Free and on the metro
+        text: "No ticket, Metro Line 2 to the island, and a sightseeing bus (¥20 or ¥40; sources disagree) down its 5 km length if you don't want to walk."
+  - type: prose
+    title: Fitting it into the route
+    dropcap: true
+    text: |-
+      Orange Isle is a 5 km sliver of land in the Xiang River in the middle of Changsha, the capital of Hunan. The statue was finished on 20 December 2009, and the free island now gets about 17 million visits a year (People's Daily, December 2025).
+
+      Changsha is not one of your bases, but it sits on the rail line out of Zhangjiajie, about **1 h 45 – 2 h** by train from Zhangjiajie (around 40 trains a day to Changsha station, ¥138–166 in second class). The easy way is a stopover: arrive in the afternoon, see the statue at dusk, sleep in Changsha and move on. A return day trip from Zhangjiajie works too, but the trains cost about ¥276 (R$234) for a sight that is free, so only do it if a giant Mao is worth that to you.
+
+      Bookings run on WeChat in Chinese, built for Chinese ID cards. On holidays the slots sell out; on a December weekday crowds are unlikely to be the problem, but the booking might be. Have the hostel help, or ask at the gate with your passport.
+  - type: gallery
+    images:
+      - { file: statue-day, caption: "The sculpture by day, from the island's lawns" }
+      - { file: statue-face, caption: "The face, lit at night" }
+  - type: book_ahead
+    steps:
+      - { days_before: 1, text: "In WeChat, search **岳麓山 橘子洲旅游区** and book a free slot for the island (17:00–22:00 if you want the night view). Slots open up to 3 days ahead." }
+      - { days_before: 0, text: "If the booking won't take your passport, go to the entrance at Orange Isle metro station with your passport and ask, or call **0731-88882152**." }
+  - type: cost_breakdown
+    items:
+      - { label: Orange Isle and the statue, local: 0, brl: 0 }
+      - { label: Sightseeing bus along the island, local: 20, brl: 16.98, optional: true, estimate: true, note: "¥20 or ¥40; sources disagree" }
+      - { label: "Day trip only: trains Zhangjiajie ↔ Changsha, 2nd class", local: 276, brl: 234.3, optional: true, estimate: true }
+  - type: map
+    note: "The pin is the statue at the south tip. The metro station is further north (about 2 km by my estimate from the map); walk down the island or take the sightseeing bus."
+  - type: tips
+    variant: insider
+    items:
+      - "Go for the **17:00–22:00** slot: last light at about 18:00, then the floodlights."
+      - "If WeChat payment for the bus fails, the ticket office takes other payment (Baba Goes China, 2024)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Trains from Zhangjiajie to **Changsha South** loop via Huaihua and take about 3 h; pick a train to **Changsha station** instead."
+      - "Holiday dates sell out; 1 Jan is one. Go before Christmas."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "Cool, damp and grey; rain on about a third of December days"
+    note: "All outdoors on an exposed river island, so the wind off the water makes it feel colder at night."
+    wear: "Warm jacket, waterproof layer, comfortable shoes for 2–4 km of walking"
+  - type: pairs_well
+    items:
+      - { id: zhangjiajie-national-forest-park, note: "The reason you're in Hunan; Changsha is the train hub on the way" }
+      - { id: tiananmen-square-mao-mausoleum, note: "The older Mao, under glass in Beijing" }

@@ -1,0 +1,169 @@
+id: qixing-mountain-sky-ladder
+name: "Qixing Mountain Sky Ladder (via ferrata)"
+short_name: Qixing Sky Ladder
+name_local: 七星山 大岩壁飞拉达 · 凌云天梯
+name_romanized: Qixing Shan
+country: china
+city: zhangjiajie
+area: Yongding · Daping
+category: nature
+fame: popular
+tags: [cold-outdoors, via-ferrata, heights, adventure, cable-car, viral]
+kind: Do
+why: "The viral sky ladder: 168 m of iron rungs up a cliff, clipped to a steel cable, 3–4 h with coaches. ¥780. Shut on snow days; last start 13:00."
+cost:
+  local: 780
+  currency: CNY
+  brl: 644.83
+  note: "Big Rock Wall route ticket: park entry, cable car, shuttle, gear, briefing, coaches (China Daily, June 2026)"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Full day (climb 3–4 h)
+best_time: A dry, clear morning; at the cable car by 10:00
+
+book_ahead:
+  required: recommended
+  lead_days: 2
+  lead_time: Daily slots are limited; book a few days ahead
+  method: passport-registered
+  links:
+    - label: Trip.com via ferrata ticket
+      url: https://www.trip.com/things-to-do/detail/104969780
+      note: "Found by search; bot-blocked from here, so price and dates not checked"
+    - label: Guided day tour with pickup
+      url: https://www.clicatour.com/en/excursion/china/zhangjiajie/zhangjiajie-qixing-mountain-via-ferrata-ultimate-adventure-1769299928
+      note: "Hotel pickup in Zhangjiajie; ages 12–60, under 100 kg; free cancellation up to 24 h before"
+  passport: true
+  notes: "A guide says English support is limited at the mountain and recommends booking through an agent. Passport needed for entry. Have Alipay or WeChat Pay: foreign cards are not taken at activity counters."
+
+hours:
+  summary: "Scenic area 08:30–18:00 (last entry 16:00); via ferrata last start 13:00"
+  winter: "On 31 Dec 2025, in heavy snow, the scenic area stayed open but closed the via ferrata, the glass walkway and the 1520 Sky Eye until the weather allowed. Rain, wind or fog can also stop the climb or the cable car. A ski slope opens in winter (planned for 8 Jan in 2026). No December 2026 notice found."
+
+location:
+  address: Qixing Mountain cableway tourist centre, Daping Town, Yongding District, Zhangjiajie
+  address_local: 张家界七星山索道游客中心
+  lat: 29.02545
+  lng: 110.45198
+  nearest_transit: "Taxi or DiDi 15–20 min from downtown (¥30–45); bus 9 from Zhangjiajie West (¥9)"
+  approximate: true
+
+sources:
+  - url: https://chinadailyglobal.com/a/202606/04/WS6a1fd692a310d6866eb4c3ed.html
+    title: "Adventurers scramble to experience sky ladder in Hunan — China Daily (2026-06-04; ¥780, access, safety, foreign visitors)"
+    checked: 2026-11-11
+  - url: https://www.chinadaily.com.cn/a/202604/10/WS69d89f20a310d6866eb42bc5.html
+    title: "'Sky Ladder' via ferrata in Zhangjiajie draws global thrill-seekers — China Daily (2026-04-10; 168 m, 13 km)"
+    checked: 2026-11-11
+  - url: https://travelchinawith.me/attractions/hunan/zhangjiajie/qixing-mountain/
+    title: "Qixing Mountain guide — Travel China With Me (updated 2026-03-31; prices, hours, limits, transport, winter)"
+    checked: 2026-11-11
+  - url: https://m.sohu.com/a/971330220_121284943
+    title: "Snow on 31 Dec 2025: Qixing open, via ferrata and glass walkway closed — Jimu News via Sohu (in Chinese)"
+    checked: 2026-11-11
+  - url: https://m.thepaper.cn/newsDetail_forward_32291808
+    title: "Snow at Tianmen and Qixing, ski slope from 8 Jan 2026 — Red Net via The Paper (2025-12-31, in Chinese)"
+    checked: 2026-11-11
+  - url: https://www.clicatour.com/en/excursion/china/zhangjiajie/zhangjiajie-qixing-mountain-via-ferrata-ultimate-adventure-1769299928
+    title: "Qixing Mountain via ferrata day tour — Click A Tour / GetYourGuide (itinerary, age and weight limits, cancellation)"
+    checked: 2026-11-11
+  - url: https://www.ctvnews.ca/lifestyle/article/chinas-hottest-new-tourist-attraction-is-5000-feet-in-the-air/
+    title: "China's hottest new tourist attraction is 5,000 feet in the air — CNN via CTV (2024-11-26; operator, then ¥580)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Zhangjiajie
+    title: Zhangjiajie — Wikipedia (CMA climate normals 1991–2020)
+    checked: 2026-11-11
+confidence: low
+confidence_note: "¥780 from China Daily (June 2026) and one guide; CNN put it at ¥580 in Nov 2024. Winter running rests on one snow-day report from Dec 2025; no December 2026 notice. Trip.com listing found only by search (bot-blocked). No official site found. Pin is the cableway, not the climb. Age limit: 12–55 per the guide, 12–60 per the tour seller."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    hook: An iron ladder bolted to a cliff at about 1,480 metres, and you are clipped to it the whole way up.
+  - type: quick_facts
+    time_needed: Full day (climb 3–4 h)
+    best_time: A dry, clear morning; at the cable car by 10:00
+    extra:
+      - label: The ladder
+        value: 168 m of iron rungs
+        detail: Part of the Big Rock Wall route, Route 1
+      - label: Limits
+        value: Age 12–55, under 100 kg
+        detail: Height 1.4 m+; not for heart trouble or vertigo
+      - label: Last start
+        value: "13:00"
+        detail: Arrive by 10:00 for the cable car and briefing
+  - type: faq
+    items:
+      - q: "Is this the sky ladder from the videos, or is that Tianmen's 999 steps?"
+        a: "The **iron ladder** in the viral videos is this one: a 168 m section of the via ferrata on Qixing Mountain, which China Daily calls the \"sky ladder\". Tianmen's 999 steps are a stone staircase to the cave that the operator also calls 上天梯; you walk it, with no harness. Two different places, about 13 km apart."
+        asked: 2026-11-11
+  - type: highlights
+    items:
+      - title: The ladder itself
+        text: "**168 m** of metal rungs up a vertical cliff on a karst tableland, billed as China's highest via ferrata. The ladder sways a little as people climb above and below you."
+      - title: Clipped in all the way
+        text: "A 12 mm main lifeline plus a second cable, two locking carabiners that open only with a tool, a helmet and a harness, and coaches on the wall."
+      - title: Something to take home
+        text: "At the top you ring a bell; finishers get a certificate in Chinese and English, a trophy and drone footage of the climb."
+      - title: A crowd from everywhere
+        text: "Since it opened in November 2024 it has had nearly 150,000 climbers, more than 27,000 of them from abroad."
+  - type: prose
+    title: How the day works
+    dropcap: true
+    text: |-
+      Qixing Mountain is a separate scenic area about 13 km from downtown Zhangjiajie. You go to the cable car tourist centre, ride the cable car up to the plateau and take the shuttle bus to the gear station. After a safety briefing the climb takes three to four hours; a Ukrainian climber China Daily followed set off around 08:00 and finished before noon.
+
+      **Is it worth R$645?** That is almost four days of the "everything else" budget. You pay it because nothing else in the region does this: a real via ferrata with nearly 1,000 m of air below, coached, with gear included, open to beginners. If the price hurts, Tianmen's 999 steps give you a stairway to the sky for the price of the Tianmen ticket.
+
+      **In December** it is a gamble on the weather. A guide puts the plateau well below freezing in winter and says the climb closes in rain or wind; on the snowy 31 December 2025 it was shut. Pick a dry, clear day, and keep a spare day.
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "Watch the forecast. You need a **dry day** with little wind."
+      - days_before: 2
+        text: "Book the Big Rock Wall route (Route 1, the sky ladder) with your **passport** on Trip.com, or a guided tour with pickup."
+      - days_before: 0
+        text: "Be at the cable car tourist centre by **10:00** at the latest: last start on the wall is 13:00."
+    passport_note: "Bring your **passport**; a guide says it is required for entry."
+  - type: cost_breakdown
+    items:
+      - label: Big Rock Wall via ferrata, all included
+        local: 780
+        brl: 644.83
+      - label: Taxi or DiDi from downtown, one way
+        local: 40
+        brl: 33.07
+        optional: true
+        estimate: true
+        note: Guide range ¥30–45
+      - label: Bus 9 from Zhangjiajie West instead
+        local: 9
+        brl: 7.44
+        optional: true
+  - type: map
+    zoom: 13
+    note: "The pin is the cableway, approximate. Show the driver **张家界七星山索道游客中心**. Ticket holders also get a free shuttle from the Huatian Hotel downtown, every 30 minutes from 09:00."
+  - type: tips
+    variant: insider
+    items:
+      - "Wear non-slip, thick-soled shoes, quick-dry clothes and long trousers. Water and chocolate are sold on site."
+      - "If you only want the view and a taste of the height, a guide lists a cliff-jump experience (¥168) and a cloud swing (¥280), both including entry."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The guide says there is generally **no refund** once you are on the mountain if weather stops the climb."
+      - "Older articles quote ¥580; the 2026 price is ¥780."
+      - "Do not confuse it with Tianmen's 999 steps, also called a sky ladder (上天梯)."
+  - type: weather
+    temp_low_c: -3
+    temp_high_c: 5
+    conditions: Cold, often in cloud; snow or ice possible
+    note: "No plateau normals found. The city averages 4.9–12.2 °C in December; a guide says the plateau (1,400–1,528 m) drops well below freezing in winter and averages about 9 °C over the year. Rain, wind or fog stop the climb."
+    wear: Thermal base layer, gloves you can grip with, windproof jacket, grippy shoes
+  - type: pairs_well
+    items:
+      - id: tianmen-mountain
+        note: The other sky ladder, the 999 stone steps
+      - id: zhangjiajie-grand-canyon-glass-bridge
+        note: The big glass bridge, on the far side of Wulingyuan

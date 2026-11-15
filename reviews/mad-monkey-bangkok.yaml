@@ -1,0 +1,35 @@
+# Independent review of mad-monkey-bangkok. Written by `./atr review`; do not edit by hand.
+id: mad-monkey-bangkok
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: dbb0d5ac99ef20922dae4d41309a488583176b80093788844614e7ae0abec9ed
+facts:
+  supported: 11
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: book_ahead.lead_days
+    problem: The hero badge and booking card say "30 days ahead", but lead_time says "Book now" and the 2 Jan night is only 51 days away, so the badge reads as if booking by early December is fine.
+    evidence: './atr shot phone light s01/s07: "Booking recommended · 30 days ahead" next to "Book now: the 2 Jan night is post-New-Year peak"'
+    fix: Set lead_days to match "book now" (about 50) or soften lead_time so the two agree.
+  - severity: nit
+    field: book_ahead.notes
+    problem: The notes say free cancellation costs "about ฿75–100 more", but on 9 Jan it is ฿69.71 more (969.96 − 900.25). The pitfalls tip already says ~฿70–100.
+    evidence: https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Bangkok/Bangkok/278445?from=2027-01-09&to=2027-01-10&guests=1&currency=THB — "THB 969.96" / "THB 900.25"
+    fix: Change the notes to "about ฿70–100 more".
+resolved:
+  - field: cost.local
+    problem: Every price on the page (฿706.97, ฿761.72, ฿829.04, and the ฿707 in `why`) is for 23 or 26 Jan 2027, when the traveler is in Japan. config/trip.yaml has Thailand from 2 to 10 Jan, and Hostelworld charges much more on those dates.
+    evidence: All prices now come from nights inside 2–10 Jan. Hostelworld from=2027-01-09 shows mixed/female 4-bed "THB 900.25" and "THB 969.96". from=2027-01-05 shows female "THB 976.54", mixed "THB 981.62". from=2027-01-02 shows mixed "THB 1,327.48" and "THB 1,430.28". The BRL figures match the 0.1649 rate.
+  - field: hours.winter
+    problem: The page says to "ask if your Thailand dates move to early January" and that New Year rules were not checked, but the Thailand dates already are 2–10 Jan. The 2 Jan night costs almost twice the 26 Jan rate.
+    evidence: hours.winter is rewritten for 2 Jan with the ฿1,327 vs ฿900 comparison. The 2 Jan render lists THE MEET UP and Karaoke Night and shows no minimum-stay text.
+  - field: why
+    problem: The page pitches the 19:00 Meet Up and the 23:00 nightly crawl but never mentions that the traveler works night shifts 19:00–04:00 from Mon 4 to Fri 8 Jan. On those days they would miss both and have to sleep by day in a loud 4-bed party dorm.
+    evidence: why, quick_facts 'Your slot', social, good_to_know and pitfalls now name the weekend nights (Sat 2, Sun 3, Sat 9 Jan) and warn about daytime sleep on the 4–8 Jan shifts. pairs_well points to nappark-hostel (฿350 on its page) for the work week.
+rereview_of: 6e756d78c4886694876d7df08f5c5ffae8feecd02df753ad80e4697182e5d379
+summary: 'All four earlier findings are fixed. Every price now comes from 2, 5 or 9 Jan 2027 and matches the Hostelworld pages, the New Year note uses the real dates, the lead time is backed by price and availability, and the night-shift conflict is spelled out with a quieter hostel suggested. Only two nits remain: the 30-day badge does not match \"Book now\", and the cancellation range in the notes is off by a few baht.'
+model: claude-opus-5-5
+cost_usd: 0.57

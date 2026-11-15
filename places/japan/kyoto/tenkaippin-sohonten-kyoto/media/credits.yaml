@@ -1,0 +1,48 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: honten-lanterns
+  title: File:Tennichi honten2.JPG
+  author: HmanJp
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Tennichi_honten2.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/27/Tennichi_honten2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 天下一品 総本店その2
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: honten-front
+  title: File:Tenka-ippin main shop in Sakyo-ku, Kyoto (天下一品 総本店, 京都市左京区一乗寺築田町) (2012-04-03 by HmanJp).jpg
+  author: "HmanJp; derivative work by Clusternote"
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Tenka-ippin_main_shop_in_Sakyo-ku,_Kyoto_(%E5%A4%A9%E4%B8%8B%E4%B8%80%E5%93%81_%E7%B7%8F%E6%9C%AC%E5%BA%97,_%E4%BA%AC%E9%83%BD%E5%B8%82%E5%B7%A6%E4%BA%AC%E5%8C%BA%E4%B8%80%E4%B9%97%E5%AF%BA%E7%AF%89%E7%94%B0%E7%94%BA)_(2012-04-03_by_HmanJp).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d3/Tenka-ippin_main_shop_in_Sakyo-ku%2C_Kyoto_%28%E5%A4%A9%E4%B8%8B%E4%B8%80%E5%93%81_%E7%B7%8F%E6%9C%AC%E5%BA%97%2C_%E4%BA%AC%E9%83%BD%E5%B8%82%E5%B7%A6%E4%BA%AC%E5%8C%BA%E4%B8%80%E4%B9%97%E5%AF%BA%E7%AF%89%E7%94%B0%E7%94%BA%29_%282012-04-03_by_HmanJp%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ja:天下一品 総本店, ja:京都市 ja:左京区 一乗寺築田町94
+  width: 1384
+  height: 1038
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-12
+  origin: commons
+- file: kotteri-set
+  title: File:Tenkaippin ramen and charhan.jpg
+  author: Chacmool
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tenkaippin_ramen_and_charhan.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/54/Tenkaippin_ramen_and_charhan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 天下一品のこってりラーメンとチャーハン（小）
+  width: 4128
+  height: 2336
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons

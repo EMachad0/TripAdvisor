@@ -1,0 +1,33 @@
+# Independent review of namsan-n-seoul-tower. Written by `./atr review`; do not edit by hand.
+id: namsan-n-seoul-tower
+type: place
+reviewed: 2026-11-12
+verdict: fix
+content_hash: a165e3457e498a5ec9d9ca93de58327497db8294bc1813d72ab5ad347350b436
+facts:
+  supported: 23
+  unsupported: 3
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[9].note
+    problem: "The traveler is in Seoul 10–20 January, but the weather note and hours.winter give the December sunset (17:15) and say January was not checked. The listed Seoul Tourism guide has a January row: about 17:35 sunset (16:50 for the second time it lists). confidence_note is wrong to say no source gave a January sunset."
+    evidence: 'https://www.seoultourism.org/?p=1759 — sunset table: "January 17:35 16:50 … December 17:15 16:30"'
+    fix: Use the January sunset of about 17:35 from the listed guide in both blocks[9].note and hours.winter, and correct confidence_note.
+  - severity: nit
+    field: blocks[8].items[2]
+    problem: The page says the guide tells you to take the bus down after dark instead of the footpaths. The guide actually says the paths are lit and the bus is the easy option if you are tired. That is a softer claim than the page reports.
+    evidence: https://www.seoultourism.org/?p=1759 — "The main paths are lit, but the bus is the easy way down if you are tired."
+    fix: "Reword it as: paths are lit, but the bus is the easy way down on a cold, dark evening."
+  - severity: nit
+    field: blocks[6].items[1].brl
+    problem: The ₩1,500 fare shows as R$6,14 for the ride up and R$6,15 for the ride down, so the same fare has two prices.
+    fix: Use the same BRL value (6.14) for both bus rows.
+  - severity: nit
+    field: blocks[9].note
+    problem: '"sometimes below −10 °C" is not in the Wikipedia climate table the page cites. That table gives a January mean low of −5.5 °C and does not say how often it drops below −10 °C.'
+    evidence: "https://en.wikipedia.org/wiki/Seoul (Template:Seoul weatherbox: Jan high 2.1, Jan low −5.5)"
+    fix: Cite a source for the −10 °C nights or drop the clause.
+summary: "The money and timing facts all check out against the official tower, cable car and bus pages, plus the guide: observatory ₩29,000 and its hours, bus ₩1,500 by card from 06:30 to 23:00, cable car ₩15,000 return / ₩12,000 one way from 10:00 to 23:00, Oreumi hours, and the address and pin. Naksan is a useful free alternative for this budget. One should remains: the page gives the December sunset when the traveler is there in January, and the listed source has the January time (about 17:35)."
+model: claude-opus-5-5
+cost_usd: 1.01

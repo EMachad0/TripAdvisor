@@ -1,0 +1,34 @@
+# Independent review of spa-land-centum-city. Written by `./atr review`; do not edit by hand.
+id: spa-land-centum-city
+type: place
+reviewed: 2026-11-12
+verdict: fix
+content_hash: 1a1534d21f35e03abf9acdbd1018aa5ebf829a807f770dc1e06ef7af3a21b1c6
+facts:
+  supported: 13
+  unsupported: 8
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[2].items[0], blocks[2].items[1], hours.winter
+    problem: "The facility claims (18 hot-spring baths fed by two mineral waters, the list of themed rooms, 'the outdoor bath is listed as not operating') are not in the text of the official page: a render returned only the hours/price/locker tab, and the KoreaToDo source would not render. The 'why' line also relies on the 18-baths figure."
+    evidence: "https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008: rendered text has hours, prices, locker and discounts but no bath count, room names or outdoor-bath status; https://www.koreatodo.com/shinsegae-centum-city-spa-land returned no content"
+    fix: Quote the official 1층/2층 안내 wording for the bath count, rooms and outdoor-bath status, or soften these lines to say they are unconfirmed.
+  - severity: should
+    field: location.address, location.nearest_transit
+    problem: The street address (35 Centumnam-daero) and 'Exit 12, about 3 min walk / 110 m' rest only on KoreaToDo, which would not open. The official page confirms only '백화점 1F'.
+    evidence: "https://www.koreatodo.com/shinsegae-centum-city-spa-land: render returned no content; official page: '시설위치 백화점 1F'"
+    fix: Cite the address and subway exit from Shinsegae's own store-info page or Naver Map.
+  - severity: should
+    field: cost.note / blocks[4].note
+    problem: The budget angle never says whether a pre-bought ticket (the listed Trazy 'discount ticket', or other vouchers) is cheaper than ₩26,000 at the door. The official ₩6,000 surcharge for using a weekday ticket on a weekend or holiday appears only in confidence_note, not where the traveler would buy.
+    evidence: https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008 — '주중이용권으로 주말 또는 국공휴일 이용 시 6,000원 추가요금 발생'; https://www.trazy.com/experience/detail/busan-spaland-centum-city-discount-ticket (page titled discount ticket; price not readable)
+    fix: State the cheapest real way in (door price versus the Trazy/voucher price) and put the weekday-voucher weekend surcharge in the cost note.
+  - severity: nit
+    field: blocks[9].temp_low_c / temp_high_c
+    problem: The January 0–8 °C range cites Wikipedia climate normals, but I did not open that source to verify the figures.
+    evidence: https://en.wikipedia.org/wiki/Busan (not opened)
+    fix: Keep the range only if the Wikipedia January mean high and low match it.
+summary: "The official page confirms the price, student rate, hours, last entry, 4 h/6 h limits, extra-hour fee, age rule and suitcase locker. Trazy confirms the monthly closing day, and the unpublished January calendar is flagged. Fix three things: source the bath and room claims, source the address and subway exit, and say whether a pre-bought ticket beats the ₩26,000 door price and that weekday tickets cost ₩6,000 more on weekends."
+model: claude-opus-5-5
+cost_usd: 0.668

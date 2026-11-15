@@ -1,0 +1,48 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: rong-kueak-shrine
+  title: File:Rong Kuak Shrine Talat Noi ศาลเจ้าโรงเกือก ตลาดน้อย 2021 June.jpg
+  author: Chainwit.
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Rong_Kuak_Shrine_Talat_Noi_%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_2021_June.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/96/Rong_Kuak_Shrine_Talat_Noi_%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_2021_June.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Rong Kuak Shrine / Rong Kueak Shrine at Talat Noi neighbourhood
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: fish-sauce-mural
+  title: File:Talat Noi Street Art.jpg
+  author: Phoebus 28
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Talat_Noi_Street_Art.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Talat_Noi_Street_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chic graffiti on the wall of fish sauce factory, Talat Noi, Samphanthawong.
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: lane-mural
+  title: File:แขวงตลาดน้อย.jpg
+  author: Kanlaya.w
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2f/%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Talat Noi, Bangkok Thailand
+  width: 1477
+  height: 1108
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-12
+  origin: commons

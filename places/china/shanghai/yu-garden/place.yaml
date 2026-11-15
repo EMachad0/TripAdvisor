@@ -1,0 +1,163 @@
+id: yu-garden
+name: "Yu Garden"
+name_local: 豫园
+name_romanized: Yùyuán
+country: china
+city: shanghai
+area: Huangpu · Old City
+category: culture
+fame: iconic
+tags: [classical-garden, ming-dynasty, rockery, real-name-ticket, old-city, cheap]
+kind: See
+why: "A Ming official's 1559 garden of rockeries, carp ponds and dragon walls, ¥30 in winter. Real-name ticket with your passport, best booked the day before."
+cost:
+  local: 30
+  currency: CNY
+  brl: 24.8
+  note: "¥30 off-peak (Dec 1 – Mar 31), ¥40 Apr–Jun and Sep–Nov. Half price for full-time students with a student card"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: Tue–Fri at 09:00, before the tour groups
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: Book the day before; 2–3 days ahead for a weekend or Jan 1
+  method: passport-registered
+  links:
+    - label: Trip.com (foreigner-friendly)
+      url: https://www.trip.com/travel-guide/attraction/shanghai/yu-garden-75615/
+      note: Pay with a foreign card, enter your passport as the ID. No Chinese phone number needed
+  passport: true
+  notes: "Tickets are **real-name**: the passport number is tied to the ticket. Other channels: the official **上海豫园** WeChat mini-program (needs WeChat Pay) or the north/south gate windows with your passport. Some windows may not take foreign cards, so carry cash."
+
+hours:
+  summary: "Tue–Sun 09:00–16:30 (last entry 16:00)"
+  closed: Mondays (opens on Monday public holidays)
+  winter: "Same hours all year; the off-peak ¥30 price starts Dec 1. Monday Dec 28 is a normal closing day. Fri Jan 1, 2027 is a public holiday: open, but crowded. The famous lantern festival runs around Chinese New Year (Feb 6, 2027), after your China dates."
+
+location:
+  address: 168 Fuyou Road, Huangpu, Shanghai (north gate; the bazaar surrounds the garden)
+  address_local: 上海市黄浦区福佑路168号 豫园
+  lat: 31.2289
+  lng: 121.4880
+  nearest_transit: Yuyuan Garden (Line 10 / 14), about 5 min walk to the north gate
+
+sources:
+  - url: https://en.wikipedia.org/wiki/Yu_Garden
+    title: Yu Garden (Wikipedia; history, rockery, Exquisite Jade Rock)
+    checked: 2026-11-09
+  - url: https://yugarden.org/guides/yu-garden-tickets-hours/
+    title: Yu Garden tickets & hours 2026 (prices by season, hours, Monday rule; read Oct 2026)
+    checked: 2026-11-09
+  - url: https://www.gochinatravel.org/en/shanghai/yu-garden
+    title: "Yu Garden 2026: what's paid, what's free (real-name timed entry; verified 2026-11-05)"
+    checked: 2026-11-09
+  - url: https://www.thechinajourney.com/do-you-need-a-passport-for-yu-garden/
+    title: Do you need a passport for Yu Garden? (real-name rules, channels; updated Aug 2025)
+    checked: 2026-11-09
+  - url: https://www.wanderinchina.com/destinations/shanghai/yu-garden/
+    title: Yu Garden practical guide (Wander in China, Feb 2026; prices and Trip.com)
+    checked: 2026-11-09
+confidence: medium
+confidence_note: "Booking is 'recommended': 2025–26 sources disagree on timed entry, and gate windows sell real-name tickets. Trip.com page from search; bot-blocked, not checked."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: tingtao-pond
+    hook: Upturned eaves, a 12-metre stone mountain and carp in black water, five minutes from the Bund's glass towers.
+    focus: center
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: Tue–Fri at 09:00, before the tour groups
+    extra:
+      - label: Bring
+        value: Your original passport
+        detail: It must match the ticket; photocopies are refused
+      - label: Good in rain
+        value: Partly
+        detail: Covered corridors and halls, open courtyards
+      - label: Free part
+        value: The bazaar and bridge
+        detail: Only the walled garden needs a ticket
+  - type: highlights
+    items:
+      - title: The Grand Rockery
+        text: "A **12-metre** mountain of yellow *huangshi* stone in front of Sansui Hall, probably by Ming garden designer Zhang Nanyang. Climb the paths for a view over the roofs."
+      - title: The Exquisite Jade Rock
+        text: "A **3.3-metre**, 5-tonne boulder riddled with holes. Legend says it was meant for Emperor Huizong's garden and was fished out of the Huangpu after its boat sank."
+      - title: Dragon walls and moon gates
+        text: "Grey-tiled walls ripple like dragons' backs between the **six sections**, so every doorway frames a new courtyard, pond or pavilion."
+      - title: A rebel headquarters
+        text: "**Dianchun Hall** (1820) was the base of the Small Swords Society from 1853 to 1855, when rebels held Shanghai's old walled city."
+  - type: prose
+    title: A garden built for a father
+    dropcap: true
+    text: |-
+      In 1559 Pan Yunduan, a Ming official who had just failed the imperial exams, started a garden so his elderly father could spend his last years in comfort. He called it *Yu* (豫), "pleasing and satisfying to one's parents". Work stalled while he served as governor of Sichuan, and the garden was finished only in 1577.
+
+      It packs about **2 hectares** of Suzhou-style garden into Shanghai's old walled city: halls, pavilions, carp ponds, rockeries and zigzag corridors, each section sealed off by its own wall. The Opium War, the Taiping years and 1942 all left damage. What you see is mostly the 1956–61 restoration, opened to the public in 1961 and a national monument since 1982.
+
+      Outside the walls is the **Yuyuan Bazaar**: neon, souvenir shops, the zigzag bridge and the Huxinting teahouse. It's free and fun after dark, but it isn't the garden. Pay the ¥30, go through the gate, and the noise drops away.
+  - type: gallery
+    images:
+      - file: jade-water-corridor
+        caption: The Jade Water Corridor and its rockery-lined pond
+      - file: exquisite-jade-rock
+        caption: The Exquisite Jade Rock (centre), one of Jiangnan's three famous stones
+      - file: covered-corridor
+        caption: A covered corridor across the pond to Tingtao Tower
+      - file: rockery-bridge
+        caption: A wooden bridge under the rockery, the quietest corner
+  - type: quote
+    variant: vibe
+    text: Wet stone, bare willows and a carp surfacing under a moon gate while Shanghai hums outside the wall.
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "For a **weekend or Jan 1**, book on **Trip.com** a few days ahead. Pick the visit date, choose **Passport** as the ID type and type the number exactly as printed."
+      - days_before: 1
+        text: "For a weekday, booking the day before is enough. Buy the **¥30 adult** ticket (Dec–Mar price); students can try the half-price ticket with a student card at the gate."
+      - days_before: 0
+        text: "Walk in through the **north gate** on Fuyou Road and show your **original passport** and QR code. No ticket? The gate windows also sell real-name tickets with your passport."
+    passport_note: "The passport at the gate must be the **same one** you booked with. Photos and photocopies aren't accepted."
+  - type: cost_breakdown
+    items:
+      - label: Adult ticket (Dec–Mar)
+        local: 30
+        brl: 24.8
+      - label: Metro there and back
+        local: 6
+        brl: 4.96
+      - label: Yuyuan Bazaar, zigzag bridge and lights
+        local: 0
+        brl: 0
+        optional: true
+        note: Free to wander, best after dark
+  - type: map
+    zoom: 16
+    note: "From **Yuyuan Garden station**, walk south to the **north gate** on Fuyou Road. The south gate sits at the end of the zigzag bridge, inside the bazaar."
+  - type: tips
+    variant: insider
+    items:
+      - "Be at the gate at **09:00** on a weekday. Winter is the quiet season, and the first hour is the calmest."
+      - "Don't skip the **Inner Garden** (内园). It's the quietest section, and many groups rush past it."
+      - "Come back after dark for the **bazaar lights**. The garden itself closes at 16:30, but walking around outside is free."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It's **closed on Mondays**. The bazaar stays open, which fools people into thinking the garden is too."
+      - "Strangers inviting you to a **\"tea ceremony\"** or an art student show around the bazaar are a well-known scam that ends in a huge bill."
+      - "The garden's rules say to buy only through **official channels**. Skip anyone selling tickets outside the gates."
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 9
+    conditions: Damp, grey, occasional drizzle
+    note: "Almost all outdoors and the halls are unheated, so it feels colder than the number. The upside: off-peak price, thin crowds and misty ponds. Leave before 16:00, when the light goes."
+    wear: Warm layers, a hat and waterproof shoes for wet stone paths
+  - type: pairs_well
+    items:
+      - id: shanghai-museum-ancient-americas
+        note: About 1.7 km, a 20–25 min walk. Garden in the morning, museum after lunch

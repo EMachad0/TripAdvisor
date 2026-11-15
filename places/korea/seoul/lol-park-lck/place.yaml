@@ -1,0 +1,232 @@
+id: lol-park-lck
+name: "LCK live at LoL Park"
+short_name: LoL Park
+name_local: 치지직 롤파크
+country: korea
+city: seoul
+area: Jongno-gu · Jonggak
+category: shows
+fame: popular
+must_do: t1
+must_do_note: "No 2027 dates yet. The last two LCK Cups opened on 15 Jan 2025 and 14 Jan 2026, which would put the opening week inside your Korea days."
+tags: [esports, gaming, t1, lck, league-of-legends]
+kind: Do
+why: "Faker's league in a 450-seat arena. The LCK Cup opened mid-January two years running, so its first week likely falls in your 10–20 Jan stay."
+
+cost:
+  local: 40000
+  currency: KRW
+  brl: 166.24
+  note: "2026 LCK Cup group stage, weekday (two guides: ₩40,000–41,000; weekends ₩50,000–51,000). Regular season was ₩20,000/25,000"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Half a day on a match day
+best_time: "Wed 13 – Fri 15 Jan, first match of the day, if T1 plays"
+
+when:
+  dates:
+    - { from: 2027-01-13, to: 2027-01-31 }
+  kind: only
+  weekly: [wed, thu, fri, sat, sun]
+  label: "Expected mid-Jan, not announced"
+  confirmed: false
+
+book_ahead:
+  required: true
+  lead_days: 9
+  lead_time: "In 2026 sales opened 9 days before each match"
+  method: website
+  links:
+    - label: "NOL World (2026 listing, 2027 not out)"
+      url: "https://world.nol.com/en/ticket/places/22000006/products/26004053"
+      note: "A past T1 match at LoL Park. 2027 matches will be listed the same way"
+    - label: "LoL Esports schedule (official)"
+      url: "https://lolesports.com/en-US/leagues/lck"
+      note: "Where the 2027 match dates will appear. Nothing after 14 Nov 2026 yet"
+  rules_changed:
+    date: 2026-07-02
+    note: "Sales used to open 48 hours before each match (2025 and spring 2026). Riot's July 2026 release says 9 days (216 hours) before. The 2027 rule is not announced."
+  passport: true
+  notes: "Global Game Guide points international fans to NOL World (English) and says a passport is needed at entry. NOL Ticket's LCK page allows **two tickets per person** (you plus one companion). Sign-up without a Korean phone is **not verified**; one guide says it sometimes asks for one."
+
+hours:
+  summary: "LoL Park 11:00–20:00 (VisitKorea, 2024). A 2026 guide lists the stores Wed–Sun from 14:00. PC bang 24 h"
+  closed: "No 2027 matches announced yet (checked 12 Nov 2026)"
+  winter: "No 2027 LCK schedule yet (checked 12 Nov 2026). The LCK Cup began on Wed 15 Jan 2025 and Wed 14 Jan 2026, so its first week would likely fall on about 13–17 Jan 2027, inside your Korea days (10–20 Jan). A season-opening all-star show was held at the arena on 9 Jan 2026; no 2027 date was found. Everything is indoors."
+
+location:
+  address: 3F Gran Seoul, 33 Jong-ro, Jongno-gu, Seoul
+  address_local: 서울특별시 종로구 종로 33 그랑서울 타워 3층
+  lat: 37.57111
+  lng: 126.98139
+  nearest_transit: Jonggak (Line 1), Exit 1
+
+sources:
+  - url: https://lolesports.com/en-US/leagues/lck
+    title: "LoL Esports official schedule: no matches listed after the Worlds final on 14 Nov 2026"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/2026_LCK_season
+    title: "2026 LCK season (Wikipedia): LCK Cup 14 January – 1 March"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/2025_LCK_season
+    title: "2025 LCK season (Wikipedia): LCK Cup 15 January – 23 February"
+    checked: 2026-11-10
+  - url: https://labs.invenglobal.com/articles/20081/2026-lck-cup-to-open-with-world-championship-rematches-at-lol-park
+    title: "2026 LCK Cup to open at LoL Park on Wednesday, Jan. 14; T1's first match in week 1 (Inven Global, Jan 2026)"
+    checked: 2026-11-10
+  - url: https://labs.invenglobal.com/articles/20112/t1-vs-kt-rolster-headlines-week-2-of-the-2026-lck-cup-in-world-championship-final-rematch
+    title: "2026 LCK Cup week 2: matches Wednesday through Sunday at LoL Park (Inven Global, Jan 2026)"
+    checked: 2026-11-10
+  - url: https://www.thisisgame.com/articles/427438
+    title: "Riot Games release on 2026 LCK rounds 3–4: NOL Ticket, sales 216 hours before each match (This Is Game, Jul 2026)"
+    checked: 2026-11-10
+  - url: https://www.invenglobal.com/articles/20338/saturday-showdown-returns-as-lck-2026-opens-with-t1-kt-rolster-rivalry-match
+    title: "LCK 2026 regular season: NOL Ticket, bookings 48 hours before each match (Inven Global, Mar 2026)"
+    checked: 2026-11-10
+  - url: https://world.nol.com/en/ticket/places/22000006/products/26004053
+    title: "NOL World listing, 2026 LCK BFX vs T1 at CHZZK LoL Park (venue and date; rules shown only at booking)"
+    checked: 2026-11-10
+  - url: https://nol.yanolja.com/ticket/genre/sports/lck
+    title: "NOL Ticket LCK page (Korean): two tickets per person (buyer + one companion), no LCK matches on sale now"
+    checked: 2026-11-10
+  - url: https://www.globalgameguide.com/article/ultimate-guide-to-lck-2026-season
+    title: "Ultimate Guide to the LCK 2026 Season: ticket prices, NOL World, passport, English streams on LCK Global/Twitch (Global Game Guide, 2026)"
+    checked: 2026-11-12
+  - url: https://www.invenglobal.com/lol/articles/19254/2025-lck-season-launches-april-2-with-hanwha-life-esports-vs-geng-showdown
+    title: "2025 LCK season: tickets ₩20,000 / ₩25,000, start times 17:00 and 19:00, weekends 15:00 and 17:00 (Inven Global, Mar 2025)"
+    checked: 2026-11-10
+  - url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194959
+    title: "VisitKorea: LoL Park address, hours and PC bang fee (updated Apr 2024)"
+    checked: 2026-11-10
+  - url: https://www.ivisitkorea.com/watch-a-league-of-legends-match-at-lol-park/
+    title: "Watch a League of Legends Match at LoL Park (IVisitKorea, updated Aug 2026)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/LoL_Park
+    title: LoL Park (Wikipedia)
+    checked: 2026-11-10
+  - url: https://www.koreatimes.co.kr/amp/lifestyle/travel-food/20260122/inside-worlds-esports-capital-seouls-pc-bangs-and-pro-gaming-scene
+    title: "Inside world's esports capital: Seoul's PC bangs and pro gaming scene (Korea Times, Jan 2026)"
+    checked: 2026-11-10
+  - url: https://www.hankyung.com/article/202601065177i
+    title: "2026 LoL Season Opening held on 9 January (Hankyung, Jan 2026, Korean)"
+    checked: 2026-11-10
+  - url: https://www.invenglobal.com/articles/20073/team-mid-goes-undefeated-to-win-2026-lol-season-opening-claiming-back-to-back-championships
+    title: "Team Mid wins the 2026 LoL Season Opening at the LCK Arena (Inven Global, Jan 2026)"
+    checked: 2026-11-10
+  - url: https://www.gamemeca.com/en/mv.php?gid=1767995
+    title: "LCK 2026 season operational plan: weekend matches for the LCK Cup and regular season start at 5 PM (GameMeca, Nov 2025)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Climate_of_Seoul
+    title: Climate of Seoul (Wikipedia), 1991–2020 normals
+    checked: 2026-11-10
+confidence: low
+confidence_note: "2027 dates are NOT announced (re-checked 12 Nov 2026): the range is my estimate from 2025 (15 Jan) and 2026 (14 Jan), both Wednesdays. 17:00 weekend start: 2026 rule (GameMeca). T1's first 2027 match, prices and sale rules are unknown. Cup price: two guides. Buying without a Korean phone unverified. Venue hours from 2024. Liquipedia/Leaguepedia would not open."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: arena
+    hook: A circular stage under three giant screens, with only a few hundred seats around it.
+    caption: Inside the LCK Arena at LoL Park (photo from an earlier season)
+  - type: quick_facts
+    time_needed: Half a day on a match day
+    best_time: "Wed 13 – Fri 15 Jan, first match"
+    extra:
+      - label: T1 on 10–20 Jan
+        value: Likely, not announced
+        detail: Past LCK Cups opened on 14–15 Jan
+      - label: Arena size
+        value: About 450 seats
+        detail: Tickets are reported to sell out in seconds
+      - label: Without a ticket
+        value: Lobby, store, PC bang
+        detail: Open on non-match days too
+  - type: highlights
+    items:
+      - title: The home of the LCK
+        text: "The arena has hosted Korea's League of Legends league since **September 2018**. It holds about **450** people around a circular stage."
+      - title: A T1 match, if the dates line up
+        text: "In 2026 T1 played its first LCK Cup match in the opening week, at this arena. The 2027 schedule is **not out yet**."
+      - title: Worth a visit on a quiet day
+        text: "The lobby has an LCK exhibition with team jerseys, player statues and the trophy, plus a Riot Store and an LCK shop."
+      - title: A PC bang next to the arena
+        text: "The Riot Games PC Bang seats about 100 and is open 24 hours. VisitKorea listed it at **₩1,500 an hour** in 2024."
+  - type: prose
+    title: Is there a good opportunity?
+    dropcap: true
+    text: |-
+      Probably, yes. The year opens with the **LCK Cup**, which began on **15 January 2025** and **14 January 2026**, both Wednesdays. If 2027 follows the pattern, the first matches fall around **Wednesday 13 January**, in the middle of your Korea stay (10–20 Jan). That date is an estimate, not an announcement. In 2026 matches ran Wednesday to Sunday, and T1 played Hanwha Life on 16 January, the third day.
+
+      **Which days fit your shifts.** Sat 16 – Sun 17 Jan is planned for Hwacheon, so the realistic slot is a work-day afternoon, **Wed 13 – Fri 15 Jan**. In the 2025 regular season the first weekday match started at **17:00**. No source gives the January Cup's weekday times or format, so check the 2027 Cup schedule: an early first match should leave time to get back before your 21:00 shift, a late second match won't. A weekend T1 match (17:00 start in 2026) would mean moving Hwacheon to the other weekend day.
+
+      **The price.** January matches are LCK Cup games, and two guides put 2026 Cup group-stage seats at about **₩40,000 on weekdays and ₩50,000 at weekends**, double the regular season. That is more than a day of your R$140 budget; for a T1 fan who came to Seoul partly for T1, a live Faker match is the one splurge that makes sense.
+
+      **The commentary.** If Korean casting loses you, the official **English broadcast** is on LCK Global (YouTube) and the LCK Twitch channel, so you can follow it on your phone with earbuds while watching the stage. Even without the commentary, a T1 crowd is the show.
+
+      There is one more thing to watch. The league held a season-opening all-star show at this arena on **9 January 2026**, with Faker, Oner and Keria playing. No source says whether it returns in 2027, on which day, or whether fans can buy seats; if it falls on Sun 10 Jan, your arrival day, it might fit.
+
+      Without a match, LoL Park is still worth an hour for a fan: the exhibition, the stores, the PC bang and Cafe Bilgewater.
+  - type: gallery
+    images:
+      - file: lobby
+        caption: The lobby on the third floor of Gran Seoul
+      - file: riot-store
+        caption: The Riot Store, open without a match ticket
+      - file: pc-bang
+        caption: The Riot Games PC Bang beside the arena
+  - type: quote
+    variant: vibe
+    text: A round stage, three screens overhead, and a few hundred people who gasp at the same moment.
+  - type: book_ahead
+    steps:
+      - days_before: 30
+        text: "Check the official schedule and LCK channels. For 2026, Inven Global reported the opening match on 6 January, eight days before the Cup began, so the dates may come late."
+      - days_before: 14
+        text: "Create your account on **NOL World**, the English site of NOL Ticket, and finish any identity check it asks for before a sale opens."
+      - days_before: 9
+        text: "In late 2026, general sales opened **216 hours (9 days)** before each match. Earlier in 2026 it was 48 hours. Confirm which rule applies in 2027."
+      - days_before: 0
+        text: "Bring your **passport**: Global Game Guide says it is checked at entry. NOL Ticket allows the buyer plus one companion."
+    passport_note: "A 2026 guide says the name on the booking must match your passport."
+  - type: cost_breakdown
+    items:
+      - label: LCK Cup seat, weekday (2026 price)
+        local: 40000
+        brl: 166.24
+        note: "₩50,000 at weekends"
+      - label: One hour at the Riot PC Bang
+        local: 1500
+        brl: 6.23
+        optional: true
+        estimate: true
+        note: 2024 price from VisitKorea
+    note: "Global Game Guide lists **₩40,000 weekday / ₩50,000 weekend** for 2026 LCK Cup group-stage matches, and IVisitKorea ₩41,000 / ₩51,000 (Feb 2025). Regular-season seats were ₩20,000 / ₩25,000. No official 2027 price yet."
+  - type: map
+    zoom: 17
+    note: "From **Jonggak Exit 1** the Gran Seoul building is in front of you. Take the escalator to the **third floor**."
+  - type: tips
+    variant: insider
+    items:
+      - "No ticket? One guide says fans can watch the match on a big screen outside the arena, and the Korea Times met a visitor who does just that."
+      - "The Korea Times reports that winning teams greet fans outside the gates after the match."
+      - "The concourse sells BBQ chicken and beer, per the Korea Times."
+      - "In 2025 weekday matches began at 17:00 and 19:00 and weekend matches at 15:00 and 17:00; for 2026 the weekend start moved to **17:00**. Check the 2027 times on the listing."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Don't lock days for a match yet.** The 13 January start is an estimate from two past seasons. Decide after Riot publishes the 2027 schedule. With sales opening 9 days ahead (2026 rule), a 16 Jan match would go on sale around 7 Jan, while you are still in Thailand."
+      - "The Korea Times says LCK tickets sell out in seconds. A fan guide says T1 fan-zone seats go within a minute."
+      - "A 2026 guide lists the Riot Store and LCK shop as open **Wednesday to Sunday** only, from 14:00. On a Monday or Tuesday you may find just the PC bang."
+      - "NOL allows two tickets per person across all sales channels. A third bought under the same name is voided without refund."
+  - type: weather
+    temp_low_c: -5.5
+    temp_high_c: 2.1
+    conditions: Cold, mostly clear and dry
+    note: "January is Seoul's coldest month, with an average low of −5.5 °C and high of 2.1 °C. The arena, lobby and PC bang are all indoors on the third floor of an office building."
+    wear: Warm coat for the walk from the station
+  - type: pairs_well
+    items:
+      - id: t1-base-camp
+        note: T1's own PC bang in Hongdae, open 24 hours on any day of the trip
+      - id: gwangjang-market
+        note: Cheap market food in Jongno before a match

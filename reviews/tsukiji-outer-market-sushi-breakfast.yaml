@@ -1,0 +1,27 @@
+# Independent review of tsukiji-outer-market-sushi-breakfast. Written by `./atr review`; do not edit by hand.
+id: tsukiji-outer-market-sushi-breakfast
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 1f0ef4f14cd251d82af1c9a599eaba0cfb7964183537c2b4378d346dd37496ee
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: sources
+    problem: The page relies on kiyomura.co.jp/menu/ for the Japanese item names (本鮪 中とろ / かまとろ), and the confidence_note says so, but that URL is not in `sources`.
+    evidence: https://www.kiyomura.co.jp/menu/ — "本鮪 かまとろ 1個 767 円"
+    fix: Add https://www.kiyomura.co.jp/menu/ to `sources` as the chain's official menu.
+resolved:
+  - field: blocks[4].items[3].price_local
+    problem: "Tabelog's English menu has two tuna lines that could both be chūtoro: \"Medium Fatty\" at ¥547 and \"Chutoro\" at ¥767. The page, the cost breakdown (¥1,094 for 2 chūtoro) and the ¥2,462 total all use ¥547 and never mention the ¥767 piece. If the traveler orders the item called chūtoro, the meal costs ¥440 more than the page says."
+    evidence: 'https://www.kiyomura.co.jp/menu/ (opened with curl -k): "本鮪 中とろ 1個 547 円" and "本鮪 かまとろ 1個 767 円". The listed Tabelog EN menu gives the same prices ("Medium Fatty JPY 547", "Chutoro JPY 767"). The page now keeps chūtoro at ¥547, the ¥2,462 total is still correct, and the ¥767 piece is listed separately as kama-toro.'
+  - field: blocks[4].items[6].note
+    problem: The chirashi note "12 kinds of sashimi on rice, with miso soup" is not in any listed source. The Tabelog menu shows only the name and the price, and says nothing about how many kinds or whether soup comes with it.
+    evidence: The unsupported "12 kinds / miso soup" note was removed. The new note matches the listed source https://tabelog.com/en/tokyo/A1313/A131301/13002302/dtlmenu/ ("Seafood Chirashi Rice Bowl (Includes Daimyo Bowl) JPY 3,278") and the chain's menu ("海鮮ちらし丼〈大名椀付き〉 3,278 円").
+rereview_of: 9e1771e63ef105302fdfbaabb869b212b402ea929979e1f336ce5962e88873d0
+summary: "Both earlier findings are resolved. The chain's own menu confirms 中とろ ¥547 and かまとろ ¥767, so the chūtoro price and the ¥2,462 total are right. The chirashi note now says only what Tabelog and the chain menu show. The one thing left is a nit: add the chain menu URL to `sources`."
+model: claude-opus-5-5
+cost_usd: 0.305

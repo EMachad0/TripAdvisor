@@ -1,0 +1,169 @@
+id: shanghai-museum-ancient-americas
+name: "Shanghai Museum: Ancient Americas"
+name_local: 上海博物馆 · 在世界之树的顶端：美洲古代文明
+name_romanized: Shànghǎi Bówùguǎn
+country: china
+city: shanghai
+area: Huangpu · People's Square
+category: culture
+fame: popular
+tags: [museum, blockbuster-exhibition, maya, olmec, inca, real-name-ticket, rainy-day]
+kind: See
+why: "Nearly 3,000 Olmec, Maya, Aztec and Inca treasures from Mexico and Peru fill three floors of Shanghai's drum-shaped museum. On until Nov 2027."
+when:
+  dates:
+    - { from: 2026-07-09, to: 2027-11-14 }
+  label: "Until 14 Nov 2027"
+cost:
+  local: 135
+  currency: CNY
+  brl: 111.6
+  note: "¥135 designated-date ticket; ¥148 full price. A ¥74 tier was announced, but who qualifies isn't confirmed"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h
+best_time: Weekday morning, first entry slot
+
+book_ahead:
+  required: true
+  lead_days: 3
+  lead_time: 2–3 days ahead on weekdays; a week ahead for weekends and Jan 1
+  method: passport-registered
+  links:
+    - label: Trip.com (foreigner-friendly)
+      url: https://www.trip.com/travel-guide/attraction/shanghai/shanghai-museum-76144
+      note: The channel the museum's own visitor page links for foreigners. Email sign-up, no Chinese phone
+    - label: Official visitor guidelines
+      url: https://shmres-zwc.shanghaimuseum.net/
+      note: "Museum notice with the QR for the 上海博物馆参观预约 WeChat mini-program (may need a Chinese phone)"
+  rules_changed:
+    date: 2026-07-09
+    note: "The museum dropped reservations on Sept 1, 2025. Since **Jul 9, 2026** the People's Square building is **ticket-only** for this show. Older \"free, no booking\" advice is wrong here."
+  passport: true
+  notes: "Tickets for each month go on sale in batches and sell out by capacity. The on-site ticket office also sells, but same-day tickets aren't guaranteed."
+
+hours:
+  summary: "Tue–Sun 09:00–17:00 (last entry reported between 15:00 and 16:00; check your ticket)"
+  closed: Mondays (opens on Monday public holidays)
+  winter: "No winter timetable published. Monday Dec 28 is a normal closing day. Fri Jan 1, 2027 is a public holiday: open, but expect the biggest crowds of your stay."
+
+location:
+  address: 201 Renmin Avenue (People's Square), Huangpu, Shanghai
+  address_local: 上海市黄浦区人民大道201号 上海博物馆（人民广场馆）
+  lat: 31.2302
+  lng: 121.4710
+  nearest_transit: People's Square (Lines 1 / 2 / 8), Exit 1
+
+sources:
+  - url: https://english.shanghai.gov.cn/en-ArtExhibitions/20260512/bd3b39f2c36340b3b54b8094edb43a6d.html
+    title: Shanghai to launch exhibition on ancient civilizations of the Americas (Shanghai government, May 2026)
+    checked: 2026-11-09
+  - url: https://english.shanghai.gov.cn/en-ArtExhibitions/20260709/c7c661f3f5e846b6b55be6c22fcad5a9.html
+    title: 2026 Shanghai Tourism Festival summer season, museum highlights (real-name ticketing, Trip.com)
+    checked: 2026-11-09
+  - url: https://www.wanderinchina.com/destinations/shanghai/shanghai-museum/
+    title: Shanghai Museum guide 2026 (Wander in China, updated Aug 2026)
+    checked: 2026-11-09
+  - url: https://www.citynewsservice.cn/articles/shanghaidaily/news/shanghai-museum-to-drop-reservation-rule-from-sept-1-ekdqbowm
+    title: Shanghai Museum to drop reservation rule from Sept 1 (Shanghai Daily, Aug 2025)
+    checked: 2026-11-09
+  - url: https://shmres-zwc.shanghaimuseum.net/
+    title: Shanghai Museum visitor guidelines (official notice; Trip.com and WeChat booking QR codes)
+    checked: 2026-11-09
+  - url: https://en.wikipedia.org/wiki/Shanghai_Museum
+    title: Shanghai Museum (Wikipedia)
+    checked: 2026-11-09
+confidence: medium
+confidence_note: "Dates, rules and prices from official pages; Trip.com link from the museum's QR (bot-blocked, unchecked). Hours from 2026 guides that disagree. Winter lead time is a cautious guess."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: museum-facade
+    hook: A 4.5-tonne Olmec head and Andean gold, half a world from home, in a museum shaped like a bronze cauldron.
+    focus: center
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: Weekday morning, first entry slot
+    extra:
+      - label: On until
+        value: Nov 14, 2027
+      - label: Good in rain
+        value: Yes, fully indoors
+      - label: Bring
+        value: Your original passport
+        detail: The same one you booked with; no photocopies
+  - type: highlights
+    items:
+      - title: Olmec Colossal Head 4
+        text: "A **4.5-tonne** basalt face carved around 3,000 years ago, on loan from the Xalapa Museum of Anthropology in Veracruz."
+      - title: A Maya king under glass, outdoors
+        text: "The 4-metre **Calakmul Stela 51**, showing ruler Yuknoom Took' K'awiil, stands on People's Square in a climate-controlled case."
+      - title: Andean gold from Lima
+        text: "The 3rd floor holds 325 Andean pieces from Peru's **Larco Museum**, 116 of them shown outside Peru for the first time."
+      - title: Huge for a temporary show
+        text: "1,129 sets (about 3,000 objects) from 13 Mexican institutions, across more than **7,000 m²** on three floors."
+  - type: prose
+    title: Why fly to China to see Mexico and Peru
+    dropcap: true
+    text: |-
+      After its record-breaking ancient Egypt show *On Top of the Pyramid*, the Shanghai Museum turned its whole People's Square building over to the Americas. The Mesoamerican galleries (1st and 2nd floors) cover gods, kings and the ball game of the Olmec, Maya and Aztec. The Andean floor (3rd) covers Inca-era gold, silver and ritual art.
+
+      For a Brazilian it's a strange detour that's still worth it. Seeing this much of Mexico's national collection together usually means a trip to Mexico City, Xalapa and Lima. Here it's one ticket and a metro ride.
+
+      The building is a sight too. Architect Xing Tonghe's 1996 museum is shaped like a *ding*, an ancient bronze cauldron: a round top on a square base, for the old Chinese idea of "round sky, square earth".
+  - type: gallery
+    images:
+      - file: museum-square
+        caption: The ding-shaped museum on People's Square, home of the show until Nov 2027
+      - file: olmec-head-4-portrait
+        caption: Colossal Head 4 at home in Xalapa's anthropology museum. It's on loan to Shanghai now
+      - file: calakmul-stela-51
+        caption: Calakmul Stela 51 at its home in Mexico City's National Museum of Anthropology
+  - type: quote
+    variant: vibe
+    text: Three thousand years of the Americas, a short walk from the neon of Nanjing Road.
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "For a **weekend or Jan 1**, buy on **Trip.com** (pick the Americas exhibition ticket). Enter your **passport number** and pick a dated entry slot."
+      - days_before: 3
+        text: "For a weekday, 2–3 days ahead is usually enough. Book the **¥135 designated-date** ticket, not the ¥148 full price."
+      - days_before: 0
+        text: "Bring the **original passport** (not a photo or photocopy) and the QR code. Allow 15 min for the security line."
+    passport_note: "Real-name ticket: the passport you show at the gate must be the **same one** you booked with."
+  - type: cost_breakdown
+    items:
+      - label: Designated-date ticket
+        local: 135
+        brl: 111.6
+      - label: Metro there and back
+        local: 6
+        brl: 4.96
+      - label: Shanghai Museum East (Pudong), main galleries
+        local: 0
+        brl: 0
+        optional: true
+        note: Free, walk-in with passport, closed Tuesdays
+    note: Takes about two-thirds of a China day's R$170 budget. It's worth it as the trip's single biggest museum day. The free East Building covers Chinese bronzes and porcelain on another day.
+  - type: map
+    zoom: 16
+    note: "Use **Exit 1** of People's Square station and walk through the park. Individual visitors enter by the **south gate** on Renmin Avenue."
+  - type: tips
+    variant: insider
+    items:
+      - "Budget your energy. The Mesoamerican section (1F–2F) has over 2,600 objects, so leave at least an hour for the smaller **Andean floor (3F)**."
+      - "Don't miss **Stela 51**, displayed **outdoors** on People's Square in its own glass case. It's easy to walk past on the way in."
+      - "Make it a two-museum trip: **Shanghai Museum East** in Pudong is free and has China's best bronzes and porcelain. It's closed Tuesdays, so don't go on a Monday + Tuesday."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It's **closed on Mondays**. The East Building closes on Tuesdays instead."
+      - "Ignore older guides that say the museum is free with no booking. The People's Square building is **ticket-only** until Nov 2027."
+      - "Same-day tickets at the on-site office **aren't guaranteed**. Don't count on walking up on a weekend."
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 9
+    conditions: Damp, grey, occasional drizzle
+    note: "Fully indoors and heated, so it's a great choice for a raw, wet Shanghai day. The only cold part is the security queue and the walk across People's Square."
+    wear: Warm jacket you can carry (there's a cloakroom). Comfortable shoes for 3 floors

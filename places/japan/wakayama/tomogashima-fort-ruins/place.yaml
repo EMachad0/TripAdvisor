@@ -1,0 +1,144 @@
+id: tomogashima-fort-ruins
+name: "Tomogashima fort ruins"
+short_name: Tomogashima
+name_local: 友ヶ島 砲台跡
+name_romanized: Tomogashima hōdai-ato
+country: japan
+city: wakayama
+area: Kada · Kitan Strait
+category: day-trip
+fame: hidden
+must_do: ghost-town
+must_do_note: "Not a town: an abandoned army island with brick forts and tunnels, legal to explore, a train and ferry ride from Namba"
+tags: [ruins, abandoned, meiji-era, island, ferry, hiking, anime, cold-outdoors]
+kind: Do
+why: "Abandoned Meiji-era army forts on an island off Wakayama: brick tunnels and gun pits you can walk into. Winter ferry runs on weekends and holidays only."
+cost:
+  local: 4720
+  currency: JPY
+  brl: 165.67
+  note: "Ferry ¥2,800 return plus about ¥960 each way by Nankai train from Namba (older figure)"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Full day (3 h on the island)
+best_time: "Sat/Sun/holiday, the 09:00 or 11:00 boat"
+
+when:
+  dates:
+    - { from: 2027-01-09, to: 2027-01-11 }
+    - { from: 2027-01-16, to: 2027-01-17 }
+  kind: only
+  label: "Ferry Sat, Sun & holidays only"
+  confirmed: true
+
+book_ahead:
+  required: false
+  notes: "No advance booking. From the second sailing on, numbered same-day boarding tickets are handed out at Kada port, and they can run out early on busy days. Each boat takes 100 people."
+
+hours:
+  summary: "Jan–Feb ferries from Kada 09:00, 11:00, 13:00, 16:00; back from the island 09:30, 11:30, 13:30, 16:30"
+  closed: "Jan–Feb: weekdays (no ferry). Dec 29–Jan 3: no ferry"
+  winter: "From Jan 1 to the end of February the ferry runs only on Saturdays, Sundays and holidays (not Dec 29–Jan 3). In your Japan window (now Jan 4–22, 2027) that's Jan 9, 10, 11 (Coming-of-Age Day), 16 and 17; Jan 9 needs the Japan dates to start before Jan 10. Boats are cancelled in bad weather; the operator posts each day's status on its site."
+
+location:
+  address: "Tomogashima (Okinoshima), Kada, Wakayama. Ferry from Kada port"
+  address_local: 和歌山県和歌山市加太 友ヶ島（加太港から友ヶ島汽船）
+  lat: 34.28334
+  lng: 135.00849
+  nearest_transit: "Kada station (Nankai Kada line), 20 min walk to Kada port"
+
+sources:
+  - url: https://tomogashimakisen.com/main/%e9%81%8b%e8%88%aa%e6%99%82%e5%88%bb-copy
+    title: "Tomogashima Kisen (only ferry) — official timetable (winter Jan–Feb: Sat/Sun/holidays)"
+    checked: 2026-11-11
+  - url: https://tomogashimakisen.com/main/%e6%97%85%e5%ae%a2%e9%81%8b%e8%b3%83
+    title: "Tomogashima Kisen — official fares (adult return ¥2,800 since Jul 1, 2026)"
+    checked: 2026-11-11
+  - url: https://tomogashimakisen.com/main/
+    title: "Tomogashima Kisen — official home page (fare change, daily sailing notices)"
+    checked: 2026-11-11
+  - url: https://www.japan-guide.com/e/e4930.html
+    title: "Tomogashima — japan-guide.com (batteries, history, Kada line, winter schedule)"
+    checked: 2026-11-11
+  - url: https://osaka-info.jp/en/discover-kansai/exploring-ruins-on-tranquil-tomogashima-island/
+    title: "Exploring Ruins on Tranquil Tomogashima Island — Osaka Info (route, 3 h walk, flashlight; c. 2019)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Tomogashima
+    title: "Tomogashima — Wikipedia (Meiji forts, army no-entry until 1945, Summer Time Rendering)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Wakayama_(city)
+    title: "Wakayama — Wikipedia (climate table, 1991–2020 normals)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Ferry days, times and the ¥2,800 fare from the operator's site (timetable and fares are images, read from a rendered screenshot 2026-11-11). The Namba–Kada train fare (¥960 one way) comes from an older Osaka Info article. Third Battery details from japan-guide; which ruins are open can change."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: arsenal-ruin
+    focus: center
+    hook: Brick tunnels and gun pits, abandoned after WWII and slowly swallowed by the forest.
+  - type: quick_facts
+    time_needed: Full day
+    best_time: "Sat/Sun/holiday, 09:00 boat"
+    extra:
+      - { label: Ferry, value: "20 min, ¥2,800 return", detail: "Only Tomogashima Kisen; no advance booking" }
+      - { label: Last boat back, value: "16:30", detail: "Winter timetable, Jan–Feb" }
+      - { label: Bring, value: "Flashlight, food, water", detail: "Tunnels are pitch black; few shops on the island" }
+  - type: highlights
+    items:
+      - title: The Third Battery
+        text: "The largest and most open ruin: tunnels and ammunition chambers you can walk through, deep in the island's forest. Japan Guide calls it the most extensive and freely explorable."
+      - title: Off the map for decades
+        text: "In **1888** the island became a military site and was removed from civilian maps. The army kept the public out until the end of WWII; then the forts were abandoned."
+      - title: An 1872 lighthouse
+        text: "The lighthouse at the western tip dates from **1872** and still works. The First Battery beside it is reached through a tunnel."
+      - title: Anime island
+        text: "Wikipedia links Tomogashima to Hitogashima, the island in the manga and anime *Summer Time Rendering*."
+  - type: prose
+    title: How the day works
+    dropcap: true
+    text: |-
+      Leave Namba early. Take the Nankai line to **Wakayamashi** (about 1 hour by limited express) and change to the little **Kada line** (about 25–30 min). From Kada station it's a 20-minute walk to the port. The ferry takes 20 minutes.
+
+      In January the boat only sails on **weekends and holidays**, at 09:00, 11:00, 13:00 and 16:00 from Kada. Come back on the 13:30 or the last boat at **16:30**. A loop of the sights takes about three hours at an easy pace, with some steep, uneven stretches. Pass the Second Battery (roped off, partly collapsed), the lighthouse and First Battery, the navy listening post on the southwest cliff, and the big **Third Battery**.
+
+      It isn't a ghost *town*. It's the closest thing on the Osaka side: a whole island of military ruins you're allowed to walk into, a short ferry from the mainland.
+  - type: gallery
+    images:
+      - file: lighthouse
+        caption: Tomogashima lighthouse, built 1872
+      - file: arsenal-ruin-2
+        caption: Inside the old ammunition store
+  - type: quote
+    variant: vibe
+    text: Wind off the strait, wet brick, and your flashlight beam vanishing down a tunnel.
+  - type: cost_breakdown
+    items:
+      - { label: "Ferry Kada–Tomogashima, return", local: 2800, brl: 98.28 }
+      - { label: "Nankai train Namba–Kada, return", local: 1920, brl: 67.39, estimate: true }
+  - type: map
+    zoom: 13
+    note: "The pin is the island's ferry pier and information centre. **Kada port** is on the mainland across the strait, a 20-min walk from Kada station."
+  - type: tips
+    variant: insider
+    items:
+      - "Take the **09:00** boat if you can: from the second sailing, numbered boarding tickets are handed out and can run out early."
+      - "Bring a **flashlight** (or a phone light) for the Third Battery's tunnels."
+      - "Buy lunch and water near Kada station before boarding. The island has only a small refreshment stand by the pier."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**No weekday ferries in January.** Plan it for Sat Jan 9, Sun 10, Mon 11 (holiday), Sat 16 or Sun 17."
+      - "Boats are cancelled in bad weather. Check the operator's daily notice on the morning you go."
+      - "Don't miss the **16:30** last boat back in winter. There's no other way off."
+      - "Some ruins are unlit and slippery, and the Fourth Battery is overgrown and unsafe. Wear proper shoes."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool, windy on the water, dry days common
+    note: "Wakayama averages 2.9–9.8 °C in January (Wikipedia, 1991–2020) with about 7 wet days. You'll be outdoors all day, and the ferry deck and cliffs catch the wind."
+    wear: Windproof jacket, hiking shoes, gloves
+  - type: pairs_well
+    items:
+      - { id: dotonbori-kani-doraku-crab, note: "Back in Namba by evening: dinner on Dotonbori" }

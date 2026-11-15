@@ -1,0 +1,26 @@
+# Independent review of ramen-touhichi-shugakuin. Written by `./atr review`; do not edit by hand.
+id: ramen-touhichi-shugakuin
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 3445b7e64112d0e5b3920fc1152d0754951532dd24a5ec6599dc8656ae481b41
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: best_time
+    problem: '"No wait in two recent reviews" is true, but both reviews describe the same evening (Saturday 17 Oct 2026, 18:00), so the evidence is one sample. The new text also drops the weekday option.'
+    evidence: 'https://tabelog.com/en/kyoto/A2601/A260303/26037391/dtlrvwlst/ — "I visited on Saturday, October 17th at 6 PM, and there was no wait"; a second review: "Saturday, October 17th at 6:00 PM and was the only customer"'
+    fix: Say "no wait on a Saturday at 18:00 in October (two reviews of the same evening)".
+  - severity: nit
+    field: sources[3].title
+    problem: 'The source title still says "raw soy sauce". The body text now says "fresh", matching TableCheck (JA: 生揚げ醤油).'
+    evidence: https://www.tablecheck.com/en/touhichi — "a special fresh soy sauce"
+    fix: Change "raw soy sauce" to "fresh soy sauce" in the source title.
+resolved: []
+rereview_of: f9d1a81d0d6e15ad81aff7c73ba4df0b4ce508d7405b39c0a93e15f5368e46ec
+summary: 'The first review had no findings. Every changed fact checks out: Tabelog lists Ramen WEST Tabelog 100 2025 (also 2024) and shows no holiday notice; TableCheck says \"special fresh soy sauce\" and \"domestic wheat\"; the Michelin page (opened with atr render) shows price ¥ and \"Good for: Solo dining\". The phone page renders cleanly. Two nits remain: the Saturday 18:00 claim rests on one evening, and a source title still says \"raw soy sauce\"."'
+model: claude-opus-5-5
+cost_usd: 0.459

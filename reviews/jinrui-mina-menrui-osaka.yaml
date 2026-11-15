@@ -1,0 +1,25 @@
+# Independent review of jinrui-mina-menrui-osaka. Written by `./atr review`; do not edit by hand.
+id: jinrui-mina-menrui-osaka
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: a95cb47b3f36f726f4e6609333c4aaf869061dc4cf40decf67a8a16dd7048687
+facts:
+  supported: 9
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: The page says 'from 10:00 or 11:00 until late (listings differ)', but the official site, which is a listed source, gives clear hours. The 10:00 opening comes only from a 2025 blog, so a traveler following the 'weekday at opening' tip could arrive an hour early.
+    evidence: "The page now says 'Daily 11:00–23:00 (last order); closes early when the pork runs out', with best_time 'Weekday 11:00'. Source: https://www.jinrui-minamenrui.com/access/ — \"11:00～23:00 (L.O.)\", \"※チャーシューがなくなり次第終了\", 定休日 \"なし\"."
+  - field: blocks[6].note
+    problem: The page says the shop is about 5 min on foot from JR Shin-Osaka, but the official access page says 11 min.
+    evidence: "blocks[6].note now says 'about 11 min south from JR Shin-Osaka' and 'walk 1 min' from the subway. Source: https://www.jinrui-minamenrui.com/access/ — \"JR「新大阪駅」より徒歩11分\", \"地下鉄御堂筋線「西中島南方駅」徒歩1分\"."
+  - field: blocks[5].note
+    problem: The menu note and a pitfall (blocks[8].items[2]) tell the traveler to use a Japanese ticket machine. A 2025 visit describes ordering by QR code on LINE instead.
+    evidence: 'The ticket-machine wording is gone. The menu note and pitfall now say ordering may be by QR code on LINE and that the shop is cash only. Sources: https://ameblo.jp/heath0723/entry-12903749941.html — "前回同様、ＱＲコードを読み込みＬＩＮＥでオーダー"; https://reerac.net/blog/2025/10/02/… (2025-10-02) — "お支払いは現金のみなので要注意！".'
+rereview_of: 5dcb29865d06b20f7d14ef3f4598d5359e0dc7697ad84a1373bb3f52e73fd186
+summary: All three earlier findings are fixed. Hours, the no-closing-day rule, the address and the 1 min / 11 min walking times now match the official access page. The ordering and payment notes match the two 2025 reviews (QR/LINE ordering; cash only, Oct 2025). The changed text adds no new unsupported facts.
+model: claude-opus-5-5
+cost_usd: 0.336

@@ -1,0 +1,149 @@
+id: fuji-q-persona-30th
+name: "Fuji-Q Highland × Persona 30th"
+short_name: Fuji-Q × Persona
+name_local: ペルソナ30th×富士急ハイランド
+name_romanized: Fujikyū Hairando
+country: japan
+city: fujiyoshida
+area: Mt Fuji foothills
+category: day-trip
+fame: popular
+tags: [persona, gaming, theme-park, roller-coaster, mt-fuji, event]
+kind: Do
+why: "Persona's 30th-anniversary takeover of Fuji-Q to 31 Jan: collab attraction, food and goods. Entry is free; the coasters with Mt Fuji behind them are extra."
+cost:
+  local: 4000
+  currency: JPY
+  brl: 140.68
+  note: "Highway bus from Shinjuku and back, booked online. Park entry is free; a one-day ride pass is ¥6,000 on your dates."
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: Full day (about 2 h each way)
+best_time: "A Fri–Tue between 22 and 31 Jan, at 10:00"
+
+when:
+  dates:
+    - { from: 2026-12-04, to: 2027-01-31 }
+  kind: only
+  label: "To 31 Jan 2027"
+
+book_ahead:
+  required: recommended
+  lead_days: 3
+  lead_time: "Bus seats are reserved; booking opens one month ahead"
+  method: website
+  links:
+    - label: Fujikyu highway bus (Shinjuku)
+      url: "https://bus.fujikyu.co.jp/en/highway/fujisan/shinjuku-kawaguchiko/"
+      note: "¥2,000 each way online, ¥2,200 at the counter"
+    - label: Collab event page (Fuji-Q, English)
+      url: "https://www.fujiq.jp/en/event/p30th.html"
+      note: "Attraction, food and goods details still to come"
+  notes: "The park itself needs no booking: entry is free with a free entry pass you claim online or at the gate. The bus is the part that sells out."
+
+hours:
+  summary: "Late Jan 2027: 10:00–17:00 on open days"
+  closed: "Wednesdays and Thursdays in Jan 2027 (closed 20, 21, 27, 28 Jan)"
+  winter: "Winter schedule: 10:00–17:00, closed Wed–Thu. Takabisha has a scheduled closure on 22 Jan, and the Ferris wheel is closed for renovation until 31 Jan. Fuji-Q says ride hours can change with the weather. The Persona collab ends 31 Jan."
+
+location:
+  address: "Fuji-Q Highland, 5-6-1 Shin-Nishihara, Fujiyoshida, Yamanashi"
+  address_local: 山梨県富士吉田市新西原5-6-1 富士急ハイランド
+  lat: 35.48728
+  lng: 138.78156
+  nearest_transit: "Fuji-Q Highland bus terminal (highway bus from Busta Shinjuku)"
+
+sources:
+  - url: "https://www.fujiq.jp/en/event/p30th.html"
+    title: "Fuji-Q Highland: Persona 30th × Fuji-Q collaboration, 4 Dec 2026 – 31 Jan 2027"
+    checked: 2026-11-12
+  - url: "https://news.denfaminicogamer.jp/news/2609203l"
+    title: "Denfaminicogamer: Persona × Fuji-Q collab from 4 Dec (Sep 2026)"
+    checked: 2026-11-12
+  - url: "https://www.fujiq.jp/en/schedule/highland/202701/index.html"
+    title: "Fuji-Q Highland: business hours and ride closures, January 2027"
+    checked: 2026-11-12
+  - url: "https://www.fujiq.jp/en/ticket/index.html"
+    title: "Fuji-Q Highland: prices and tickets (free entry, one-day pass, Jan 2027 price list)"
+    checked: 2026-11-12
+  - url: "https://bus.fujikyu.co.jp/en/highway/fujisan/shinjuku-kawaguchiko/"
+    title: "Fujikyu Bus: Shinjuku – Fuji-Q Highland highway bus (fares, reservations)"
+    checked: 2026-11-12
+  - url: "https://www.walkerplus.com/spot/ar0419s03740/data.html"
+    title: "Walkerplus: Fuji-Q Highland (address)"
+    checked: 2026-11-12
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=49&block_no=47640"
+    title: "JMA: climate normals 1991–2020, Kawaguchiko (January)"
+    checked: 2026-11-13
+  - url: "https://watabi.org/en/articles/fujiq-highland-guide"
+    title: "Watabi: Is Fuji-Q Highland worth it? 2026 tickets and free-entry guide"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Collab dates are official, but what the collab attraction, food and goods are is still 'details later' on Fuji-Q's page (Nov 2026), and whether the attraction costs extra is unknown. Hours, closed days and the ¥6,000 pass price are from Fuji-Q's January 2027 calendars."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: park-under-fuji
+    caption: "Fuji-Q and the town of Fujiyoshida under Mt Fuji, at dusk"
+    focus: "25% 75%"
+    hook: "Thirty years of Persona heroes gather in a theme park that looks up at Mt Fuji and charges nothing to walk in."
+  - type: quick_facts
+    time_needed: Full day
+    best_time: "Fri–Tue, 22–31 Jan, at 10:00"
+    extra:
+      - { label: Park entry, value: Free, detail: "Rides cost extra; one-day pass ¥6,000 in late Jan" }
+      - { label: Collab, value: "Attraction, food, goods", detail: "New art; details still to be announced" }
+      - { label: Bus from Shinjuku, value: "~1 h 40 min", detail: "Busta Shinjuku to the park's own terminal" }
+  - type: highlights
+    items:
+      - title: The 30th-anniversary collab
+        text: "Fuji-Q runs a **Persona 30th** event to **31 January 2027**: a collab attraction, collab food and limited goods with **newly drawn art**. Press coverage says every series protagonist gathers at the park. Details come later."
+      - title: Free to walk in
+        text: "Fuji-Q has **no entry fee**: claim a free entry pass and you can browse the collab, the shops and the food without buying a single ride."
+      - title: Coasters with Mt Fuji behind them
+        text: "If you do want rides, the park is known for its record-breaking coasters framed by Mt Fuji. A one-day pass is **¥6,000** on every open day from 15 Jan."
+      - title: Your window is small
+        text: "You're in Japan from 20 Jan, the park is shut Wed–Thu, and the collab ends 31 Jan. That leaves **22–26 and 29–31 Jan**."
+  - type: prose
+    title: Is it worth a whole day?
+    dropcap: true
+    text: |-
+      Only if you're a fan. It's about two hours each way by bus, and the park and the coasters are the real draw. The Persona part is a themed attraction, food and goods, details still to come. Fuji-Q has a free entry pass, so a fan can go for the collab, eat, buy goods and leave for about ¥4,000 in bus fares.
+
+      If you add a ¥6,000 ride pass, the day comes to about ¥10,000 (R$352), twice the daily budget. That is only worth it if you love coasters. Look at the event page in mid-January: if the collab attraction turns out to be a sticker rally and a menu, skip it and spend the day in Tokyo.
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "Check the **event page** for what the collab attraction and menu are, and the January calendar for closures."
+      - days_before: 3
+        text: "Book the **Fujikyu highway bus** from Busta Shinjuku online (¥2,000 each way). Pick a morning bus out and a bus back after 17:00 closing."
+      - days_before: 1
+        text: "Claim the **free entry pass** online the day before (face registration), or get the QR code at the gate."
+  - type: cost_breakdown
+    items:
+      - { label: "Highway bus Shinjuku → Fuji-Q (online)", local: 2000, brl: 70.34 }
+      - { label: "Highway bus back (online)", local: 2000, brl: 70.34 }
+      - { label: Park entry, local: 0, brl: 0 }
+      - { label: "One-day ride pass (22–31 Jan price)", local: 6000, brl: 211.02, optional: true }
+  - type: map
+    note: "The highway bus stops at the **Fuji-Q Highland bus terminal**, next to the park. Fujikyu says it doesn't run that stop on days the park is closed."
+  - type: tips
+    variant: insider
+    items:
+      - "Avoid **22 Jan** if you want Takabisha: it has a scheduled closure that day."
+      - "The one-day pass is ¥6,000 on every open day from 15 Jan, so a weekend costs no more than a weekday."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't plan a **Wednesday or Thursday**: the park is closed, and the bus skips the park stop."
+      - "The **Ferris wheel** is closed for renovation until 31 Jan, so don't count on it for Fuji views."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 6
+    conditions: Dry, sunny and well below freezing at night
+    note: "January normals at nearby Kawaguchiko (JMA): -5.7 °C low, 5.5 °C high, about 210 sunshine hours. Fuji-Q says ride hours can change with the weather."
+    wear: Full winter gear, gloves and a hat; layers you can zip up on the coasters
+  - type: pairs_well
+    items:
+      - { id: persona-30th-ex-ueno, note: "The big Persona 30th exhibition in Tokyo, 21 Jan – 7 Feb" }
+      - { id: yurikamome-odaiba-persona-3-ride, note: "The Persona 3 'Port Island' ride in Tokyo" }

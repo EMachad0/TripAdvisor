@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: dragon-detail
+  title: File:Datong Nine dragon wall (1) January 1985.jpg
+  author: BabelStone
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Datong_Nine_dragon_wall_(1)_January_1985.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Datong_Nine_dragon_wall_%281%29_January_1985.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Part of the Nine-dragon wall (九龍壁) in Datong, Shanxi. January 1985. Scanned from 35mm film negative.
+  width: 5728
+  height: 3824
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: wall-scale
+  title: File:Datong Nine dragon wall (2) January 1985.jpg
+  author: BabelStone
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Datong_Nine_dragon_wall_(2)_January_1985.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a4/Datong_Nine_dragon_wall_%282%29_January_1985.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Part of the Nine-dragon wall (九龍壁) in Datong, Shanxi. January 1985. Scanned from 35mm film negative.
+  width: 5728
+  height: 3824
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: yungang-cave-20
+  title: File:Yungang Grottoes Cave 20 2.jpg
+  author: Thebrainchamber1
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yungang_Grottoes_Cave_20_2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/07/Yungang_Grottoes_Cave_20_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yungang Grottoes Cave 20 - 2
+  width: 5712
+  height: 4284
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: yungang-cave-5
+  title: File:Yungang Grottoes Cave 5 3.jpg
+  author: Thebrainchamber1
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yungang_Grottoes_Cave_5_3.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/86/Yungang_Grottoes_Cave_5_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yungang Grottoes Cave 5 - 3
+  width: 4284
+  height: 5712
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

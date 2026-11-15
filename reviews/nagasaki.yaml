@@ -1,0 +1,22 @@
+# Independent review of area nagasaki. Written by `./atr review`; do not edit by hand.
+id: nagasaki
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: f5518539042f2aae13ccb201d429fcc965139e0a515ad5fb719d985953cb96a4
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: winter_note
+    problem: The page says the Lantern Festival starts Feb 5, 2027 but never says this is the day after the traveler leaves Japan (Japan runs Jan 20 – Feb 4, then Hong Kong). The date also comes only from a 'first Friday' rule; the official date is not cited.
+    evidence: "winter_note now says 'The Lantern Festival (Feb 5–21, 2027) starts the day after you leave Japan (Feb 4)'. The official page is now in the sources: https://www.at-nagasaki.jp/lantern-festival — \"「2027長崎ランタンフェスティバル」は、2月5日(金)～21日(日) の17日間にわたり開催します\". This matches config/trip.yaml, where Japan runs 2027-01-20 → 2027-02-04. The 'inferred from its usual rule' line was also removed from confidence_note."
+  - field: blocks[3].images[2]
+    problem: The photo captioned 'The Peace Statue in the Peace Park' shows the statue hidden under scaffolding and blue sheeting. It does not show what you would see on a visit.
+    evidence: "Checked in ./atr shot nagasaki --area --only phone --theme light, slice s05: blocks[3].images[2] is now peace-statue-clear. It shows the Peace Statue with no scaffolding or sheeting, so the caption 'The Peace Statue in the Peace Park' is accurate."
+rereview_of: ff32ae142d55dc8378fb89bdd88f965500e028c7715cc8288eb04a48819e3c68
+summary: "Both earlier findings are fixed. The festival dates now cite the official page and say plainly that the festival falls after the traveler leaves Japan, and the scaffolded statue photo has been replaced with a clear one. The new Gunkanjima wording is supported by Yamasa Kaiun's official landing-rate chart (https://www.gunkan-jima.net/graph-en/): 2 sailings a day at 9:00 and 13:00, and landing rates of 57.7% in Dec 2024, 70.0% in Jan 2025 and 46.3% in Feb 2025, so roughly 30–54% of winter sailings did not land. No blockers or shoulds remain."
+model: claude-opus-5-5
+cost_usd: 0.544

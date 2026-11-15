@@ -1,0 +1,49 @@
+# Independent review of area beijing. Written by `./atr review`; do not edit by hand.
+id: beijing
+type: area
+reviewed: 2026-11-10
+verdict: fix
+content_hash: cceb60a6b7df1a58bbb213e0d6cb425824b798b6b80c707edf16febd69dec5a4
+facts:
+  supported: 29
+  unsupported: 4
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[1].items[1]
+    problem: The Great Wall is the traveler's open must-do and the biggest single spend in Beijing, but the page gives no Mutianyu prices (entry, valley shuttle, cable car/chairlift, toboggan, 916 bus) and no winter hours. The cited Wander in China page lists off-peak hours, and the confidence_note admits no prices were found.
+    evidence: 'https://www.wanderinchina.com/destinations/beijing/great-wall/mutianyu-great-wall/ — "Off-Peak Season (November 16 – March 15): Daily: 8:00 to 17:30"; "Admission, the valley shuttle and mountain lifts are priced separately"'
+    fix: Add Mutianyu entry, shuttle and lift/toboggan prices and the winter hours from the official Mutianyu ticketing page, and name the cheapest way up (walking vs chairlift).
+  - severity: should
+    field: blocks[5].items[3]
+    problem: The page calls Houhai skating 'unlikely on these dates' based on one season's opening date (20 Jan 2026). The traveler scores cold-outdoors 3, and no source shows that rinks normally open after early January.
+    evidence: https://english.beijing.gov.cn/consuminginbeijing/onlyinbeijing/iceandsnow/updatesoficeandsnow/202601/t20260122_4455415.html — "The Houhai Ice Rink officially opened on January 20" (2025–26 season only; times out in atr links, opened via web fetch)
+    fix: Say that the opening date depends on the ice each year, that 2026 opened on 20 Jan, and that the 2026–27 date should be checked in December. Name the other rinks on the government page as a fallback.
+  - severity: should
+    field: blocks[5].items[2]
+    problem: The Nov–Dec smog and coal-heating warning is a claim about Dec–Jan conditions, and no listed source supports it.
+    evidence: None of the 10 listed sources mention smog episodes; Wikipedia Beijing mentions coal plants only for heating supply.
+    fix: Cite a current air-quality source for Beijing's Dec–Jan AQI, or soften the line to 'check the AQI forecast before the Wall day'.
+  - severity: nit
+    field: getting_there
+    problem: The Harbin range is given as 4.5–7.5 h, but the source's slowest train takes 7 h 40 min.
+    evidence: https://chinafortravelers.com/guides/beijing-to-harbin/ — "4h 33m – 7h 40m"
+    fix: Write 4.5–7.7 h, or 'about 4.5 h on the fastest of 24 daily trains'.
+  - severity: nit
+    field: getting_around
+    problem: "'Taxis can't enter most hutongs' widens a source line that is only about the Gulou area."
+    evidence: 'https://www.wanderinchina.com/destinations/beijing/accommodation/ — Gulou: "Taxis cannot enter: You will be dropped at the main road."'
+    fix: Say 'taxis can't enter the Gulou hutongs; expect to be dropped on the main road'.
+  - severity: nit
+    field: blocks[1].items[4]
+    problem: The Grand Canal is listed as a Beijing UNESCO site, but no listed source names it. Wikipedia only gives the count of eight.
+    evidence: https://en.wikipedia.org/wiki/Beijing — "one of the eight UNESCO World Heritage Sites in Beijing" (Grand Canal not named in the text read)
+    fix: Add a source that lists all eight sites (e.g. the UNESCO list) or drop the Grand Canal from the list.
+  - severity: nit
+    field: blocks[0].focus
+    problem: On phone the hero's top half is flat grey sky, and the palace roofs only show as a dark strip behind the title.
+    evidence: build/shots/area-beijing-phone-light-s01.png
+    fix: Move the focus lower (about 50% 75%) so the snowy roofs fill the phone crop.
+summary: The Forbidden City, train, subway, airport, climate and Mutianyu access facts all match their sources, and the map pin is on central Beijing. The page needs Mutianyu prices and winter hours for the traveler's Great Wall must-do, a hedged Houhai skating claim instead of one based on a single season, and a source for the smog warning.
+model: claude-opus-5-5
+cost_usd: 0.938

@@ -1,0 +1,22 @@
+# Independent review of dmz-third-tunnel-dora. Written by `./atr review`; do not edit by hand.
+id: dmz-third-tunnel-dora
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 9ef82e4da0089206138a54d26125a4a79a453f22fb21c411bd3b4e414af94f84
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: best_time
+    problem: The page recommends Sat 16 or Sun 17 Jan (also in tips[0] and pairs_well). Those are the traveler's Hwacheon days. Their only other free Korea day that suits a morning start is Sun 10 Jan, and they work nights 21:00–06:00 on 11–15 and 18–19 Jan.
+    evidence: best_time, quick_facts.best_time, tips[0] and the Hongdae pairing now all say Sun 10 Jan, and tips[0] says 16/17 Jan would mean giving up Hwacheon. config/trip.yaml korea.notes lists Jan 10 as a free day, and `cal 1 2027` shows 10 Jan is a Sunday. https://dmz.paju.go.kr:8443/Home/H20000/H20300/html — weekend (주말) shuttles run 9:20 to 14:40, more runs than Tue–Fri.
+  - field: book_ahead.links[1].url
+    problem: The Klook booking link can't be checked (Klook returns 403 to bots), so neither its price nor whether it is the right tour is known. The US$42 that `book_ahead.notes` quotes comes from a GetYourGuide tour listed on DMZ Insider, not from this link.
+    evidence: The Klook link is now labeled 'Klook tour (unverified example)', and its note says price and stops were not checked. The US$42 is now credited to DMZ Insider/GetYourGuide. https://dmzinsidertour.com/dmz-tour-from-seoul/ (a listed source) — "from $42 a person on GetYourGuide (checked November 2026)".
+rereview_of: 4028e6e4d0f0b84540b9905b9b7112b3eed0c1fe8081969c236b0085b1233f2a
+summary: Both earlier findings are fixed. The page now points the traveler to Sun 10 Jan, their only free morning that leaves Hwacheon alone, and the official timetable supports that day. The Klook link is clearly labeled unverified, and the $42 price is credited to the source that states it. The new closure text checks out against the official page (Mondays and weekday public holidays) and the January 2027 calendar (Mondays 11 and 18 Jan, no weekday holiday 10–20 Jan). Nothing is open, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.448

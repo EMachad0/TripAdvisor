@@ -1,0 +1,78 @@
+# FIXTURE — platform test data, not curated content. Ignored by the real build.
+# An invented dated event to exercise `when` (chip, quick fact, trip-date check).
+fixture: true
+id: bund-nye-countdown
+name: "Bund New Year Countdown"
+name_local: 外滩跨年倒计时
+country: china
+city: shanghai
+area: Huangpu · The Bund
+category: shows
+fame: iconic
+tags: [new-year, countdown, free]
+kind: Do
+why: A fixture event where the riverfront crowd counts down to midnight under the lit-up towers of Pudong.
+
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 4–5 h
+best_time: On the promenade by 19:00
+when:
+  dates:
+    - { from: 2026-12-31, to: 2026-12-31 }
+  confirmed: false
+
+book_ahead:
+  required: false
+  method: walk-in
+
+hours:
+  summary: Crowd control from 18:00; countdown at midnight
+  winter: This is the Dec 31 event itself. The metro skips East Nanjing Road station from early evening.
+
+location:
+  address: Zhongshan East 1st Rd, Huangpu, Shanghai
+  address_local: 上海市黄浦区中山东一路
+  lat: 31.2400
+  lng: 121.4900
+  nearest_transit: People's Square (Line 1 / 2 / 8), then a 20 min walk
+
+sources:
+  - url: https://en.wikipedia.org/wiki/The_Bund
+    title: The Bund — Wikipedia
+    checked: 2026-11-09
+  - url: https://en.wikipedia.org/wiki/New_Year%27s_Eve
+    title: New Year's Eve — Wikipedia
+    checked: 2026-11-09
+confidence: low
+confidence_note: Fixture for platform tests — an invented event, not researched.
+last_updated: 2026-11-09
+
+blocks:
+  - type: hero
+    hook: Half a million people, one skyline and ten seconds of counting.
+  - type: quick_facts
+    time_needed: 4–5 h
+    best_time: On the promenade by 19:00
+  - type: highlights
+    items:
+      - title: The skyline at midnight
+        text: The Pudong towers run a light show for the last minute of the year.
+      - title: It is free
+        text: No ticket and no booking. You only pay for the metro.
+  - type: map
+    zoom: 15
+  - type: tips
+    variant: pitfalls
+    items:
+      - Police close the promenade when it is full, sometimes as early as **20:00**.
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 8
+    conditions: Cold and damp, windy by the river
+    note: You stand still outdoors for hours.
+    wear: Thermal layers, hat, gloves

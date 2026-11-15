@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: yuanmingyuan-road
+  title: File:Yuanmingyuan Rd. Shanghai.JPG
+  author: Livelikerw
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yuanmingyuan_Rd._Shanghai.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/af/Yuanmingyuan_Rd._Shanghai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​上海圆明园路街景
+  width: 4912
+  height: 3264
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: rockbund-apartments
+  title: File:Yuanmingyuan Apartments Rockbund Shanghai.JPG
+  author: Livelikerw
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yuanmingyuan_Apartments_Rockbund_Shanghai.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/82/Yuanmingyuan_Apartments_Rockbund_Shanghai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​外滩源圆明园公寓
+  width: 4912
+  height: 3264
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: metro-christmas-tree
+  title: File:201512 Christmas tree at People's Square station transfer concourse 1.jpg
+  author: Another Believer
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:201512_Christmas_tree_at_People%27s_Square_station_transfer_concourse_1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5c/201512_Christmas_tree_at_People%27s_Square_station_transfer_concourse_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Shanghai (December 2015)
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: arcade-christmas-tree
+  title: File:Shanghai, China, December 2015 - 034.JPG
+  author: Another Believer
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shanghai,_China,_December_2015_-_034.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/01/Shanghai%2C_China%2C_December_2015_-_034.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Shanghai, China, December 2015
+  width: 3000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-10
+  origin: commons

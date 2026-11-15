@@ -1,0 +1,91 @@
+id: chiang-mai
+country: thailand
+name: "Chiang Mai"
+name_local: เชียงใหม่
+region: Northern Thailand
+scope: city
+cities: [chiang-mai]
+why: "A walled Lanna old town with 30+ temples, khao soi curry noodles and the Sunday Walking Street. January nights drop to about 16 °C, and the ฿941 overnight sleeper from Bangkok replaces a hostel night."
+best_for: [culture, food, nature, views]
+highlights: ["Wat Phrathat Doi Suthep", "Sunday Walking Street", "Old-city temples: Wat Chedi Luang, Wat Phra Singh", "Khao soi and northern food", "Nimmanhaemin nights", "Overnight sleeper train from Bangkok"]
+days_suggested: { min: 3, max: 7 }
+cost_level: low
+fame: popular
+lat: 18.7953
+lng: 98.9986
+getting_there: "Sleeper No. 9 from Krung Thep Aphiwat, 18:40 → ~07:15, berth ฿941–1,041 (R$155–172). Or fly from DMK/BKK, 1h10–1h20, about ฿700–1,500 (R$115–247) before bags. Laptop trip only (see below)."
+getting_around: "Walk the 1.6 km-a-side old town. Red songthaews: ฿30–40 inside the walls (more in high season), more outside (agree first). Grab around ฿60–80 for a few km; a scooter for Doi Suthep and the hills."
+winter_note: "January is the cool, dry season: about 16 °C at night and 30 °C by day (1991–2020 normals). Northern crop burning runs roughly December–April and peaks in March; in 2025 haze already hid the Doi Suthep view by 11 January, so late January can be smoky. Check the air quality before a view day."
+image: city-view
+sources:
+  - url: https://en.wikivoyage.org/wiki/Chiang_Mai
+    title: "Chiang Mai (Wikivoyage): old city, temples, Doi Suthep, Sunday Walking Street, songthaew and Grab fares, Nimman, cool season"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/guides/bangkok-to-chiang-mai
+    title: "Visit Thailand Today (2026-09-25): Bangkok–Chiang Mai trains, berth fares, 90-day booking window, flights"
+    checked: 2026-11-12
+  - url: https://www.train36.com/train-9-bangkok-to-chiang-mai-timetable.html
+    title: "Train36: Train 9 timetable, Krung Thep Aphiwat 18:40 → Chiang Mai 07:15, berth prices via 12Go"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Chiang_Mai
+    title: "Chiang Mai (Wikipedia): coordinates, January climate normals 1991–2020"
+    checked: 2026-11-12
+  - url: https://www.iqair.com/newsroom/thailand-2021-burning-season
+    title: "IQAir: northern Thailand burning season (crop burning December–April), Chiang Mai PM2.5 by month, March the worst"
+    checked: 2026-11-12
+  - url: https://www.chiangmaicitylife.com/citynews/general/air-pollution-arrives-early/
+    title: "Chiang Mai CityLife (2025-01-11): annual haze arrives, Doi Suthep viewpoint hidden"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Train times and fares are from a 2026 guide quoting the SRT timetable of 5 Dec 2025 and match Train36's 12Go-based listing within ฿3; I could not open SRT's own D-Ticket timetable. Flight fares are a guide's range, not a live search. IQAir blocks link checkers; I read it with atr render. Haze varies a lot from year to year: the 2025 date is one year's report, not a forecast for January 2027."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Gold chedis above a moated old town, a mountain temple at the city's edge and cool mornings."
+    caption: "Chiang Mai from Doi Suthep, January 2025"
+    focus: "60% 55%"
+  - type: highlights
+    items:
+      - title: The temple on the mountain
+        text: "**Wat Phrathat Doi Suthep** sits at 1,073 m, 18 km from town, up 200-plus Naga-lined steps (or a ฿20 cable car). Open 07:00–17:00. Shared red songthaews go up from the zoo for about **฿50** one way (≤฿80 from Chang Phuak Gate); entry fee not on our sources."
+      - title: Sunday Walking Street
+        text: "Every Sunday from about 16:00 to 23:00, Ratchadamnoen Road from **Tha Phae Gate** to Wat Phra Singh closes to cars and fills with craft and food stalls. A smaller one runs on Saturdays on Wualai Road."
+      - title: Temples on foot
+        text: "More than **30 temples** inside the old walls, among them the earthquake-broken giant chedi of **Wat Chedi Luang** and the Lanna murals of **Wat Phra Singh**."
+      - title: Northern food
+        text: "**Khao soi** (curry noodle soup), *sai ua* sausage and *hang lay* pork curry. Wikivoyage rates the food here second only to Bangkok."
+  - type: prose
+    title: What a few days here buy you
+    text: |-
+      Bangkok gives you the big-city version of Thailand; Chiang Mai is the slower, older one. Three days cover the essentials: one for the old-town temples on foot, one for **Doi Suthep**, ideally in the morning, and one for food, a market and a night out. Pai is a further detour from here (see its card).
+
+      **Does it fit your dates?** Only as a laptop trip. Your free nights are Sat 2, Sun 3 and Sat 9 Jan, and you work 19:00–04:00 Mon 4 – Fri 8 Jan. The one plan that works: take the **18:40 sleeper on Sat 2 Jan**, arrive Sun 3 Jan for the **Sunday Walking Street** that evening, work your shifts from a Chiang Mai hostel, and see the city in the afternoons. Then fly back to Bangkok on Sat 9 Jan, because you leave for Seoul on Sun 10 Jan. A weekend-only trip doesn't work: a Sat 9 Jan sleeper would arrive the morning of your flight.
+
+      **Where to base yourself.** The **east half of the old city**, around Tha Phae Gate, has the most guesthouses, restaurants and scooter rentals, and you can walk to the Sunday market and most temples. **Nimmanhaemin**, near the university, is where young Thais go out, with bars that sit between pub and club; it suits nights more than sightseeing.
+
+      **Getting here.** The overnight **No. 9 sleeper** from Krung Thep Aphiwat (18:40, arriving around 07:15) costs ฿941 for an upper berth and ฿1,041 for a lower one in second class. It saves a night's bed and is the classic way north. One 2026 guide says SRT sells seats 90 days ahead, so January is already bookable, and lower berths sell out first in November–February. Flying takes 1h10–1h20 from either Bangkok airport and is often cheaper with carry-on only.
+  - type: gallery
+    images:
+      - { file: doi-suthep, caption: "Worshippers with lotus buds at Wat Phrathat Doi Suthep" }
+      - { file: sunday-walking-street, caption: "The Sunday Walking Street" }
+      - { file: wat-chedi-luang, caption: "The ruined great chedi of Wat Chedi Luang", focus: center }
+      - { file: khao-soi, caption: "Khao soi, the city's curry noodle soup" }
+      - { file: tha-phae-gate, caption: "Tha Phae Gate, the old town's east gate" }
+  - type: tips
+    variant: insider
+    items:
+      - "Book the **No. 9** sleeper as soon as your dates are fixed: lower berths go first in high season. If it is full, No. 13 (20:05, ฿771–841) still arrives at a sensible hour."
+      - "Use **Grab or Bolt** rather than tuk-tuks: Wikivoyage says Grab is usually cheaper than a haggled tuk-tuk, and Bolt is often 10–20% cheaper again."
+      - "Go up Doi Suthep early on a clear morning; on a hazy day the famous view is grey."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Drinking and smoking are banned on the Sunday Walking Street, with fines up to ฿4,000."
+      - "Drivers at the bus terminal may show a 'fixed' price list of ฿100–200 into town; Wikivoyage puts a fair tuk-tuk fare at about ฿50–60."
+  - type: weather
+    temp_low_c: 16
+    temp_high_c: 30
+    conditions: "Cool, dry season; nights are fresh, afternoons warm"
+    note: "Pleasant for walking the old town in the morning. Smoke from crop burning can hide the mountains as January goes on."
+    wear: "T-shirt by day, a light jacket for evenings and the mountain"

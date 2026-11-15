@@ -1,0 +1,128 @@
+id: sushi-tokyo-ten-shibuya
+name: "Sushi Tokyo Ten, Shibuya"
+short_name: Sushi Tokyo Ten
+name_local: SUSHI TOKYO TEN、渋谷店
+name_romanized: Sushi Tokyo Ten, Shibuya-ten
+country: japan
+city: tokyo
+area: Shibuya · Shibuya Stream
+category: food
+fame: hidden
+tags: [sushi, omakase, counter, splurge, all-inclusive]
+kind: Eat
+why: "A full dinner omakase of appetisers and nigiri with free-flowing drinks, ¥13,200 flat. Next to Shibuya Station, bookable for one in English on TableCheck."
+cost:
+  local: 13200
+  currency: JPY
+  brl: 467.28
+  note: "'Full Omakase Course' dinner incl. drinks and tax (TableCheck); no service charge listed"
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+time_needed: About 2 h
+best_time: Dinner, any day (17:00–21:30 last order)
+
+book_ahead:
+  required: recommended
+  lead_days: 3
+  lead_time: "No booking window published; a few days ahead is a safe margin"
+  method: platform
+  links:
+    - label: TableCheck (English)
+      url: https://www.tablecheck.com/en/shops/sushitokyo-ten-shibuya/reserve
+      note: "Choose 'Full Omakase Course' ¥13,200 (the drinks one), counter, 1 adult"
+  notes: "A credit card is needed to book. TableCheck: same-day cancellations are charged in full, and Tabelog counts you as a no-show 15 min after your time without notice. Same-day changes are by phone only. The restaurant is fully cashless."
+
+hours:
+  summary: "Daily 11:00–15:00 (last order 14:00) and 17:00–23:00 (last order 21:30)"
+  winter: "No New Year or winter notice on TableCheck or Tabelog (Nov 2026). The weekend and weekday dinner courses are listed as valid with no end date, so late January should be normal service."
+
+location:
+  address: Shibuya Stream 3F, 3-21-3 Shibuya, Shibuya-ku, Tokyo
+  address_local: 東京都渋谷区渋谷3-21-3 渋谷ストリーム 3F
+  lat: 35.65747
+  lng: 139.70285
+  nearest_transit: Shibuya Station, Exit C2 (direct connection)
+  approximate: true
+
+sources:
+  - url: https://www.tablecheck.com/en/shops/sushitokyo-ten-shibuya/reserve
+    title: SUSHI TOKYO TEN Shibuya — TableCheck (all courses and prices incl. tax, cashless, cancellation, party size 1–8)
+    checked: 2026-11-13
+  - url: https://tabelog.com/en/tokyo/A1303/A130301/13225919/
+    title: Sushi Tokyo Ten Shibuya — Tabelog (3.57, all-you-can-drink course, hours, address, 26 seats, payment, Ōma/Iki tuna, no-show rule)
+    checked: 2026-11-13
+  - url: https://www.timeout.com/tokyo/restaurants/sushi-tokyo-ten-shibuya
+    title: Sushi Tokyo Ten Shibuya — Time Out Tokyo (Mar 2022; Edo-style sushi, older prices)
+    checked: 2026-11-13
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "JMA: climate normals 1991–2020, Tokyo (January)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Courses, prices, cancellation and cashless rule read on TableCheck's live page (Nov 2026). TableCheck doesn't say how far ahead dates open, so 7 days is a cautious margin. No service charge appears on TableCheck or Tabelog. Michelin: not in the guide as far as I could find; no Tabelog award. Pin is on the Shibuya Stream block."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: shibuya-stream-atrium
+    caption: "Inside Shibuya Stream, home of the restaurant (3F). No free photo of the counter"
+    hook: "Omakase without the hush: sushi and sake for one fixed price, upstairs from Shibuya Station."
+  - type: quick_facts
+    time_needed: About 2 h
+    best_time: Dinner, any day
+    extra:
+      - { label: Courses, value: "¥9,900–16,500", detail: "Tax incl.; one ¥13,200 course includes drinks" }
+      - { label: Solo, value: "Yes, counter", detail: TableCheck takes 1 adult at the counter }
+      - { label: Out of place?, value: "No", detail: "26 seats in a station mall; reviewers book last-minute after work" }
+  - type: highlights
+    items:
+      - title: Why go over the R$170 day
+        text: "At **R$467** it's about **2.7 days of budget**. A chef-made omakase of appetisers and nigiri, and Tabelog files this course as **all-you-can-drink** (last order 30 min before the end). Bluefin **tuna from Ōma and Iki**. Do it once, on a day with no other paid plans."
+      - title: The relaxed kind of omakase
+        text: "A 26-seat room of counter and tables inside a Shibuya station complex. A Tabelog reviewer booked it last-minute after work with a friend. Neither TableCheck nor Tabelog mentions a dress code."
+      - title: Foreigner-proof booking
+        text: "**TableCheck in English**, party of one at the counter, card on file. Prices shown already include tax."
+      - title: What locals say
+        text: "**3.57 on Tabelog** from about 400 reviews. Not a Michelin or Tabelog award winner: it's here for value and ease, not prestige."
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "On TableCheck pick **Counter seats → 'Full Omakase Course' ¥13,200**, 1 adult. That's the drinks course; 'Special Assigned Selection' at the same price is the lobster course **without** drinks. Add your card."
+      - days_before: 1
+        text: "Last day to cancel without paying. From the day itself, cancelling costs the full course."
+      - days_before: 0
+        text: "Go to **Shibuya Stream 3F**. Arrive on time; same-day changes are by phone only."
+  - type: menu
+    title: The courses (tax included)
+    items:
+      - { name: Lunch Omakase, price_local: 5500, price_brl: 194.70, note: "Weekdays only; counter at 11:00 or 13:30", tag: cheap }
+      - { name: Evening Omakase, price_local: 9900, price_brl: 350.46, note: "Appetisers and seasonal nigiri; drinks extra" }
+      - { name: Premium Omakase, price_local: 13200, price_brl: 467.28, note: "Adds lobster; drinks extra. On TableCheck: 'Special Assigned Selection'" }
+      - { name: All-Omakase (with drinks), price_local: 13200, price_brl: 467.28, note: "Listed on TableCheck as 'Full Omakase Course'. Tabelog: all-you-can-drink", tag: signature }
+      - { name: All Premium (with drinks), price_local: 16500, price_brl: 584.10, note: "Lobster course plus drinks" }
+    note: "From TableCheck (Nov 2026). The drinks course is the only one with a known all-in price; à la carte drink prices aren't published."
+  - type: cost_breakdown
+    items:
+      - { label: "All-Omakase dinner, drinks included", local: 13200, brl: 467.28 }
+  - type: map
+    note: "Shibuya Stream is **directly connected to Shibuya Station** (Exit C2, or the JR New South Exit). The restaurant is on **3F**."
+  - type: tips
+    variant: insider
+    items:
+      - "Only want to taste it? The **weekday lunch omakase is ¥5,500** at the counter, 11:00 or 13:30."
+      - "The **drinks** course costs the same as the lobster course without drinks. If you drink sake, it's the better deal."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**No cash**: card or QR only (TableCheck)."
+      - "Same-day cancellation is charged at **100%**."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "You never step outside: Shibuya Stream connects straight to the station."
+    wear: Clean everyday clothes are fine
+  - type: pairs_well
+    items:
+      - { id: shibuya-crossing-and-sky, note: "Shibuya Sky at sunset, then dinner here" }
+      - { id: sushi-azabu-lunch-omakase, note: "The cheaper lunch counter you skipped" }
+      - { id: ichiki-ginza-lunch-omakase, note: "The other mid-tier pick, lunch in Ginza" }

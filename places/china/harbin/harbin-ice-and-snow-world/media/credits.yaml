@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: ice-tower-night
+  title: File:Tower at Harbin Ice and Snow Festival 2012.jpg
+  author: Shanghai killer whale
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tower_at_Harbin_Ice_and_Snow_Festival_2012.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/50/Tower_at_Harbin_Ice_and_Snow_Festival_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tower at Harbin Ice and Snow Festival 2012
+  width: 5616
+  height: 3744
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: ice-park-panorama
+  title: File:第十一届哈尔滨冰雪大世界、The Eleventh Harbin Ice Snow World、IMG 0103.JPG
+  author: 李吉秋
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E5%93%88%E5%B0%94%E6%BB%A8%E5%86%B0%E9%9B%AA%E5%A4%A7%E4%B8%96%E7%95%8C%E3%80%81The_Eleventh_Harbin_Ice_Snow_World%E3%80%81IMG_0103.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6d/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E5%93%88%E5%B0%94%E6%BB%A8%E5%86%B0%E9%9B%AA%E5%A4%A7%E4%B8%96%E7%95%8C%E3%80%81The_Eleventh_Harbin_Ice_Snow_World%E3%80%81IMG_0103.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Eleventh Harbin Ice Snow World、
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: ice-staircase
+  title: File:第十一届哈尔滨冰雪大世界、The Eleventh Harbin Ice Snow World、IMG 0066.JPG
+  author: 李吉秋
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E5%93%88%E5%B0%94%E6%BB%A8%E5%86%B0%E9%9B%AA%E5%A4%A7%E4%B8%96%E7%95%8C%E3%80%81The_Eleventh_Harbin_Ice_Snow_World%E3%80%81IMG_0066.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/37/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E5%93%88%E5%B0%94%E6%BB%A8%E5%86%B0%E9%9B%AA%E5%A4%A7%E4%B8%96%E7%95%8C%E3%80%81The_Eleventh_Harbin_Ice_Snow_World%E3%80%81IMG_0066.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Eleventh Harbin Ice Snow World、
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: ice-park-by-day
+  title: File:Harbin Ice and Snow Festival 2013.jpg
+  author: Tracy Hunter
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Harbin_Ice_and_Snow_Festival_2013.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/51/Harbin_Ice_and_Snow_Festival_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ice and Snow World, in Harbin, China, during day. The hundreds of sculptures will transform when they are all lit up and night.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

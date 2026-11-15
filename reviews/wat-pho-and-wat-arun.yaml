@@ -1,0 +1,19 @@
+# Independent review of wat-pho-and-wat-arun. Written by `./atr review`; do not edit by hand.
+id: wat-pho-and-wat-arun
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 0b389f61719c9bb28c286554cb4be8f22ec34bd31a630f46739f6799559a9e3b
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[1].extra[1]
+    problem: The ฿5 ferry fare (also in why, cost and cost_breakdown) still rests on one third-party guide. The added Thairath article says the Tha Tien–Wat Arun route lowered its fare in April 2026 but gives no amount, so it does not confirm ฿5. confidence_note reads it as proof that a ฿7 fare 'looks wrong', which the article does not say. Wat Arun's hours and ฿200 ticket still have no official or dated first-hand source either.
+    evidence: "The curator applied the asked fallback. confidence_note drops the '฿7 looks wrong' claim and says Thairath gives no amount. cost.note, blocks[1].extra[1] and blocks[2].items[3] now say 'about ฿5 (one 2026 guide; bring extra baht)'. https://www.thaiholidayguide.com/attraction/wat-arun/ — \"5 THB per person\", \"Fact-checked by our team, Nov 2026\". The Wat Arun ticket and hours still come only from guides, and the page says so. Minor: why and the prose block still say a flat '฿5'."
+rereview_of: a219f2579808bd288ba728836b151db77bfda07a45549ec7a1d3b66e9a564cd3
+summary: "The ferry fare finding is resolved: the fare is now written as 'about ฿5' from one guide fact-checked in Nov 2026, and confidence_note now reads the Thairath article correctly. The changed text matches its sources. Optionally, why and the prose block could also say 'about ฿5'."
+model: claude-opus-5-5
+cost_usd: 0.389

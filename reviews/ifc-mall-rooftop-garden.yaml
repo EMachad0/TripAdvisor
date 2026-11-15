@@ -1,0 +1,22 @@
+# Independent review of ifc-mall-rooftop-garden. Written by `./atr review`; do not edit by hand.
+id: ifc-mall-rooftop-garden
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 9759f45f4fd3ef9721c248c0ea51cdba8c6ddb3c84cd86d3f5374c17fea896f8
+facts:
+  supported: 5
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[6].items[2]
+    problem: The tip says the 2026 installation 'opened Feb 5, the day before New Year'. Lunar New Year 2026 was 17 February, so the display opened 12 days early. The wrong framing suggests a 2027 display would open on Feb 5, the day before Feb 6.
+    evidence: blocks[6].items[2] now says 'In 2026 it ran Feb 5 – Mar 3, opening about two weeks before New Year (Feb 17). The 2027 dates aren't out.' https://thebeat.asia/hong-kong/the-list/events/ifc-mall-the-phoenixs-celestial-court-art-installation — "Thu, February 5, 2026 - Tue, March 3, 2026", "Oval Atrium, Podium Level 1, ifc mall". The Feb 17 date comes from the first review's gov.hk quote; on this run gov.hk returned an empty page.
+  - field: hours.summary
+    problem: The 10:00–22:00 mall hours are borrowed from a 2026 atrium installation, not from any published mall hours, and nothing listed says the rooftop is open in the early evening. Yet best_time sends the traveler there in the early evening. Neither the official ifc location page nor the ifc mall homepage nor the HKTB page gives any hours.
+    evidence: "The 10:00–22:00 estimate is gone. hours.summary now reads 'Mall and rooftop garden hours are not published on the official site'. https://ifc.com.hk/en/mall/location lists no mall hours; the only hours on it are car park rates (07:01–23:00). best_time changed from early evening to 'Afternoon'. The pitfall tip warns that rooftop hours are unpublished. The confidence_note gives the customer service number, which the official location page shows: \"Tel: (852) 2295 3308\"."
+rereview_of: c1be2b192ca21c8d31e446be7cbc4376ba1e355e5e96d4a6b9c119b779e09879
+summary: Both earlier shoulds are resolved. The New Year tip now matches The Beat's Feb 5 – Mar 3, 2026 dates and does not guess at 2027. The made-up 10:00–22:00 hours are gone, replaced by an honest 'not published' and the ifc customer service number, which the official location page confirms. The new 'Afternoon' best_time is advice, not a fact, so I left it alone. The page renders cleanly and no blockers remain.
+model: claude-opus-5-5
+cost_usd: 0.38

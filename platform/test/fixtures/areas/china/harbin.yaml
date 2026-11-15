@@ -1,0 +1,59 @@
+# FIXTURE — platform test data, not curated content. Ignored by the real build.
+fixture: true
+id: harbin
+country: china
+name: "Harbin"
+name_local: 哈尔滨
+region: Heilongjiang, Northeast China
+scope: city
+must_do: ice-festival
+cities: [harbin]
+why: Ice palaces lit up in neon, Russian-era streets and −25 °C nights — winter is the whole point of going.
+best_for: [nature, odd-local, views]
+highlights: ["Ice and Snow World", "Central Street", "Sun Island snow sculptures"]
+days_suggested: { min: 2, max: 3 }
+cost_level: medium
+getting_there: Overnight sleeper or high-speed train from Beijing.
+getting_around: Metro Lines 1–3 cover the centre; bus or Didi to the ice park across the river.
+fame: popular
+lat: 45.7567
+lng: 126.6424
+winter_note: Brutally cold (−15 to −30 °C) but the **ice festival** runs from late December — fixture text.
+image: snow-sculpture
+sources:
+  - url: https://en.wikipedia.org/wiki/Harbin_International_Ice_and_Snow_Sculpture_Festival
+    title: Harbin Ice and Snow Festival — Wikipedia
+    checked: 2026-11-09
+  - url: https://en.wikipedia.org/wiki/Harbin
+    title: Harbin — Wikipedia
+    checked: 2026-11-09
+confidence: low
+last_updated: 2026-11-09
+blocks:
+  - type: hero
+    hook: A city that builds a second city out of ice every December.
+  - type: highlights
+    items:
+      - title: The ice city
+        text: Full-size palaces cut from **river ice** and lit from inside. Fixture text.
+      - title: Russian-era streets
+        text: Central Street is a kilometre of cobbles, bakeries and onion domes.
+      - title: Cheap and warm indoors
+        text: Dumpling houses and bathhouses for the hours you need to thaw.
+  - type: prose
+    title: Why come here
+    dropcap: true
+    text: |-
+      Harbin is the one stop on the route where the cold is the attraction. The festival opens in late December and runs until the ice melts.
+
+      Two or three days cover the ice park, the snow sculptures and the old town. Fixture text, not researched.
+  - type: tips
+    variant: insider
+    items:
+      - Go to the ice park at **15:00** and stay for the lights after dark.
+      - Phone batteries die at −25 °C. Keep the phone inside your coat.
+  - type: faq
+    items:
+      - q: Is it too cold to stay outside for hours?
+        a: You need proper layers, but the park has **heated huts** every few hundred metres.
+        asked: 2026-11-21

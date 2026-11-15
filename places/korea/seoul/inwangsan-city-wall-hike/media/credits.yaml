@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: wall-to-namsan
+  title: File:Seoul Fortress Wall, Inwangsan.3.jpg
+  author: Rtflakfizer
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_Fortress_Wall,_Inwangsan.3.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9f/Seoul_Fortress_Wall%2C_Inwangsan.3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Seoul.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: wall-to-bukhansan
+  title: File:Seoul Fortress Wall, Inwangsan.4.jpg
+  author: Rtflakfizer
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_Fortress_Wall,_Inwangsan.4.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/27/Seoul_Fortress_Wall%2C_Inwangsan.4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Seoul.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: winding-wall
+  title: File:Fortress Wall on Inwangsan Mountain.jpg
+  author: Ethan Doyle White
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Fortress_Wall_on_Inwangsan_Mountain.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/27/Fortress_Wall_on_Inwangsan_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Seoul Fortress Wall on Inwangsan Mountain
+  width: 3264
+  height: 4896
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: granite-ridge
+  title: File:Korea-Seoul-Inwangsan-01.jpg
+  author: Gaël Chardon
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Korea-Seoul-Inwangsan-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cf/Korea-Seoul-Inwangsan-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Mt. Inwangsan (인왕산) in Seoul, South Korea.
+  width: 3072
+  height: 2304
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

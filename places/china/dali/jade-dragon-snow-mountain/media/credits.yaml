@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: snow-ridge
+  title: File:Lijiang Yunnan China Jade-Dragon-Snow-Mountain-01.jpg
+  author: CEphoto, Uwe Aranas
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Lijiang_Yunnan_China_Jade-Dragon-Snow-Mountain-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/be/Lijiang_Yunnan_China_Jade-Dragon-Snow-Mountain-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Lijiang, Yunnan, China: Jade Dragon Snow Mountain (Yulong Xueshan), seen from Lijiang City."
+  width: 4272
+  height: 1923
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: blue-moon-valley
+  title: File:Lijiang Yunnan China-View-of-Jade-Dragon-Mountain-01.jpg
+  author: CEphoto, Uwe Aranas
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Lijiang_Yunnan_China-View-of-Jade-Dragon-Mountain-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a7/Lijiang_Yunnan_China-View-of-Jade-Dragon-Mountain-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Lijiang, Yunnan, China: Lake with the Jade Dragon Snow Mountain in the background."
+  width: 2333
+  height: 3500
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: from-the-valley
+  title: File:Jade Dragon Snow Mountain 20260221-1.jpg
+  author: ShuQizhe
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Jade_Dragon_Snow_Mountain_20260221-1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a5/Jade_Dragon_Snow_Mountain_20260221-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Taken on the way up Jade Dragon Snow Mountain
+  width: 4096
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

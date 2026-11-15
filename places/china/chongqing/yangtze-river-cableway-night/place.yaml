@@ -1,0 +1,130 @@
+id: yangtze-river-cableway-night
+name: "Yangtze River Cableway at Night"
+short_name: Yangtze Cableway
+name_local: 长江索道
+name_romanized: Chángjiāng Suǒdào
+country: china
+city: chongqing
+area: "Yuzhong · Xinhua Road"
+category: views
+fame: popular
+tags: [cable-car, night-view, skyline, river, public-transport, architecture]
+kind: Do
+why: "A 1987 cable car that still works as public transport: 4–5 minutes over the Yangtze for ¥30, with the lit skyline behind you. Be in line by 20:30 in winter."
+
+cost:
+  local: 30
+  currency: CNY
+  brl: 24.8
+  note: "One way (China for Travelers, Aug 2026; March 2025 fare cap per chongqing.guide). Return ¥50, not worth it"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h incl. queue
+best_time: "Weekday, 18:30–20:30"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "08:00–21:00 Dec–Feb (China for Travelers; the operator's site shows 08:00–22:00). Last admission about 30 min before closing"
+  closed: "One weekday a month for maintenance, announced 2–3 days ahead"
+  winter: "China for Travelers gives 08:00–21:00 from 1 Dec to end Feb, so be inside by about 20:30. Holiday hours: 07:30–23:00 per the operator, 07:30–22:30 per the guide; 1 Jan is a holiday. Heavy fog can stop it without notice, and fog is serious from January."
+
+location:
+  address: "North station: 151 Xinhua Road, Yuzhong District, Chongqing (south station at Shangxin Street, Nan'an)"
+  address_local: 重庆市渝中区新华路151号 长江索道北站
+  lat: 29.55804
+  lng: 106.58444
+  nearest_transit: "Xiaoshizi (Line 1 / 6), Exit 5; south end: Shangxinjie (Line 6), Exit 2"
+  approximate: true
+
+sources:
+  - url: https://www.cqsuodao.com/
+    title: "重庆公共交通运营有限公司索道分公司 — official operator site: hours, holiday hours, 1,166 m, opened 1987, cabin size, hotline"
+    checked: 2026-11-11
+  - url: https://www.cqsuodao.com/zaixiandingpiao.html
+    title: "在线订票 — official operator: same-day tickets on the WeChat account from 07:45, booking steps"
+    checked: 2026-11-11
+  - url: https://chinafortravelers.com/guides/yangtze-cable-car-chongqing/
+    title: "Yangtze Cable Car Chongqing 2026 — China for Travelers (updated 2026-08-16): fares, winter hours, queue, maintenance days"
+    checked: 2026-11-11
+  - url: https://chongqing.guide/en/guides/yangtze-cableway/
+    title: "Yangtze River Cableway — chongqing.guide (updated 2026-10-07): stations, metro exits, passport booking, fare cap, Longmenhao"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing — Wikipedia (climate table, Dec–Jan normals)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Winter hours conflict: the operator's homepage shows 08:00–22:00 with no season, China for Travelers gives 08:00–21:00 for Dec–Feb. Plan on the earlier. The March 2025 government fare notice did not load (render error), so the ¥30/¥50 caps rest on two guides. Pin is on the cable line, not the north station."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: cabins-over-river
+    focus: center
+    hook: "A green cabin of 65 commuters and tourists, swinging across the Yangtze on a wire since 1987."
+    caption: "A cabin over the Yangtze with Yuzhong's towers behind; no free night photo found"
+  - type: quick_facts
+    time_needed: 1–2 h incl. queue
+    best_time: "Weekday, 18:30–20:30"
+    extra:
+      - { label: Last admission, value: "~20:30 in winter", detail: "About 30 min before closing" }
+      - { label: Ride, value: "4–5 min, 1,166 m", detail: "Cabins hold 65 + 1 operator" }
+      - { label: Weekday queue, value: "0–15 min", detail: "Weekend/holiday evenings: an hour or more" }
+  - type: highlights
+    items:
+      - title: Public transport with a view
+        text: "Opened on **24 October 1987**, the line crosses 1,166 m from Xinhua Road in Yuzhong to Shangxin Street on the south bank. It is now a protected municipal heritage site and a 4A scenic area, says the operator."
+      - title: Evening skyline from the air
+        text: "chongqing.guide: daytime crossings show barges and bridges; evening rides show the glittering skyline and lit bridges."
+      - title: Short enough for a work night
+        text: "On an ordinary weekday the queue is **little or none, or 10–15 minutes**. The ride itself is 4–5 minutes."
+      - title: Land in the old south bank
+        text: "You step out next to **Longmenhao Old Street**, restored stone lanes and cliffside teahouses over the river."
+  - type: prose
+    title: How to do it after work
+    dropcap: true
+    text: |-
+      Take Line 1 or 6 to **Xiaoshizi**, leave by Exit 5 and follow the signs along Xinhua Road to the north station. Buy a **one-way ticket for ¥30 (R$25)**. China for Travelers explains why not the ¥50 return: it does not hold your place, so you queue again at the far end.
+
+      A ticket is not a boarding pass. Whatever channel you buy through, you take a **queue number** on the day, at the machines or through the operator's WeChat account, and board when it comes up. The official WeChat booking asks for your passport details, says chongqing.guide.
+
+      In winter the binding time is **last admission, about 20:30**. Leave work by 18:00 and you can catch the lights coming on at Hongyadong first, then ride across before the cut-off. On the south bank, walk Longmenhao, then take Line 6 back from **Shangxinjie**, or stay for a set at Cici Park.
+  - type: gallery
+    images:
+      - { file: cableway-cabin, caption: "A cabin mid-river on a hazy day, as most winter days look" }
+      - { file: south-station, caption: "The south station at Longmenhao" }
+  - type: quote
+    variant: vibe
+    text: Four minutes of quiet in a swaying box, the river black below and the towers lit above.
+  - type: cost_breakdown
+    items:
+      - { label: "One-way ticket", local: 30, brl: 24.8 }
+      - { label: "Return ticket instead (extra)", local: 20, brl: 16.53, optional: true }
+      - { label: "Cloud Eye deck combo instead (extra)", local: 68, brl: 56.22, optional: true }
+  - type: map
+    note: "The pin sits on the cable line over the river. The **north station** is at 151 Xinhua Road (新华路151号), signed from Xiaoshizi Exit 5; the south station is 长江索道南站 near Shangxinjie Exit 2."
+  - type: tips
+    variant: insider
+    items:
+      - "Ride **one way**, come back on Line 6 from Shangxinjie. Return tickets mean a second queue."
+      - "Go Monday to Thursday: weekend and holiday evenings mean an hour or more in line."
+      - "Down for maintenance or fogged in? Baixiangju and the Dongshuimen bridge deck show the cableway for free, and the ¥15 Liangjiang ferry crosses the water."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Check the operator's WeChat a few days ahead: one weekday a month it shuts for maintenance (2026 dates so far: 31 Mar, 22 Apr, 27 May, 29 Jul)."
+      - "In thick fog you pay ¥30 to see white for four minutes, China for Travelers warns. Look out the window first."
+      - "There is no paid fast lane. Anyone selling one is running a scam."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp, grey evenings; fog thickens from January
+    note: "The cabin is enclosed, but the queue and the Longmenhao lanes are outdoors. Fog can suspend the service or hide the view."
+    wear: Mid-weight jacket and a rain layer
+  - type: pairs_well
+    items:
+      - { id: hongyadong-qiansimen-night-walk, note: "Lights on at 18:30, cableway before 20:30: both near Xiaoshizi" }
+      - { id: cici-park-chongqing, note: "The club is an 8–12 min walk from Shangxinjie, where you land" }
+      - { id: chongqing-drone-light-show, note: "Saturday drones over the same rivers, seen from Nan'an" }
+      - { id: only-cafe-and-backpacker, note: "Back on Line 6 and Line 1/2 after the ride" }

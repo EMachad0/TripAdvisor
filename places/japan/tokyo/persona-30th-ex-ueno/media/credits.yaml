@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: winter-queue
+  title: File:Wongwt 上野之森美術館 (17283736521).jpg
+  author: Wei-Te Wong from Taipei City, Taiwan, Republic of China
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wongwt_%E4%B8%8A%E9%87%8E%E4%B9%8B%E6%A3%AE%E7%BE%8E%E8%A1%93%E9%A4%A8_(17283736521).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/be/Wongwt_%E4%B8%8A%E9%87%8E%E4%B9%8B%E6%A3%AE%E7%BE%8E%E8%A1%93%E9%A4%A8_%2817283736521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 上野の森美術館 / Ueno no Mori Museum
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: ameyoko-entrance
+  title: File:Ameya-Yokochō Entrance.jpg
+  author: AugustGresh
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ameya-Yokoch%C5%8D_Entrance.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9d/Ameya-Yokoch%C5%8D_Entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: This is the entrance to Ameya-Yokochō Shopping District near the Ueno Royal Museum.
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

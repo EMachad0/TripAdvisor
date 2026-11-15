@@ -1,0 +1,43 @@
+# Independent review of grand-palace-wat-phra-kaew. Written by `./atr review`; do not edit by hand.
+id: grand-palace-wat-phra-kaew
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: cb8b14d6bade275c2b86e209e2edaba0516f133b38029f4cad9c11861b11da12
+facts:
+  supported: 8
+  unsupported: 4
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[1].extra[2].detail
+    problem: The page says to 'Rent at the gate' and that the passport or card is 'held as deposit'. The official FAQ only says a passport or credit card 'is also required for rental' and does not say where you rent it or that it is held.
+    evidence: https://www.royalgrandpalace.th/en/visit/faq — "Passport or Credit Card (Amex, Master, Visa) is also required for rental"
+    fix: Change to 'Passport or credit card required for rental', or cite a source that names the rental desk.
+  - severity: nit
+    field: blocks[6].note
+    problem: The official FAQ confirms Mani Noppharat Gate is the entrance from 10 Jan 2024, but it does not say the gate is on Na Phra Lan Road. The road appears only as the palace's general address.
+    evidence: https://www.royalgrandpalace.th/en/visit/faq — entrance "will be changed from viset chaisri gate to mani noppharat gate" (no road given)
+    fix: Drop 'on Na Phra Lan Road' from the gate sentence, or cite a source that places the gate on that road.
+  - severity: nit
+    field: blocks[7].items[1]
+    problem: The claim that the spires can be seen over the walls from Sanam Luang is not in any listed source.
+    evidence: Not stated on any page in sources
+    fix: Cite a source or a photo taken from Sanam Luang that shows the view.
+resolved:
+  - field: sources
+    problem: "The official site is not cited, and confidence_note says it refused connections. Today it opens and confirms the main facts: ฿500 for foreigners including the textile museum, free entry for children under 120 cm, tickets sold 08:30–15:30, and online tickets up to a month ahead. The page instead rests on three third-party guides."
+    evidence: Both official pages are now in sources and loaded today. https://www.royalgrandpalace.th/en/visit/practical-information says "500 baht for Foreigners. Inclusive of access to Wat Phra Kaew and Queen Sirikit Museum of Textile" and "Tickets sold from 8:30 AM - 3:30 PM". https://www.royalgrandpalace.th/en/visit/faq says "Children under 120 cm are free". The confidence_note no longer says the site could not be reached.
+  - field: blocks[1].extra[2]
+    problem: "'Ticket valid 7 days' comes from Thai Holiday Guide alone. The official site does not state any validity, and Chiang Rai Times says it is unclear whether you can re-enter."
+    evidence: "The 'Ticket valid: 7 days' row has been removed from blocks[1].extra, and the confidence_note says validity is not on the official site. Neither official page states a validity period."
+  - field: blocks[7].items[0]
+    problem: The suggested weekend mornings ignore the trip plan. Sat Jan 2 is the arrival day from China, Sun Jan 10 is the travel day to Korea, and an 08:30 visit on Sat Jan 9 starts about 4.5 h after the last night shift ends at 04:00.
+    evidence: "blocks[4] and blocks[7].items[0] now recommend Sun Jan 3 and flag Jan 2 as the arrival day, Jan 9 as post-shift and Jan 10 as the travel day. This matches config/trip.yaml: thailand 2027-01-02 to 2027-01-10, night shifts Mon Jan 4 – Fri Jan 8, korea from 2027-01-10. 3 Jan 2027 is a Sunday."
+  - field: blocks[5].items[2]
+    problem: The only add-on the page offers is a ฿700–1,000 guide (R$115+, more than the R$100 daily budget). It leaves out the official ฿200 audio guide and gives no free alternative, so the budget angle is thin for a ticket that already takes 82% of the day's budget.
+    evidence: 'The ฿200 audio guide is now in quick_facts, highlights and cost_breakdown. It is supported by https://www.royalgrandpalace.th/en/visit/faq: audio guide "200 Baht" in "English, French, German, Japanese, Mandarin, Russian, Spanish and Thai". The ฿700 guide line was removed, and a free Sanam Luang option was added in blocks[7].items[1].'
+rereview_of: 0d04c1684f703e616517831ebb2e990ec9675d0d4d1382cb53ac15613e484a01
+summary: All four earlier shoulds are fixed. Price, ticket cut-off, children rule, online-ticket terms, the ฿200 audio guide and the gate change are now backed by the official site, and the Sun Jan 3 slot fits the trip plan. Three small unsupported details remain, all nits, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.478

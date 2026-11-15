@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: deck-skyline
+  title: File:Ocean Terminal Extension Deck 201807.jpg
+  author: Wpcpey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ocean_Terminal_Extension_Deck_201807.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c1/Ocean_Terminal_Extension_Deck_201807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ocean Terminal Extension Deck
+  width: 2736
+  height: 1824
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: central-skyline
+  title: File:Central Skyline viewed from Ocean Terminal Deck.jpg
+  author: Ceeseven
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Central_Skyline_viewed_from_Ocean_Terminal_Deck.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3d/Central_Skyline_viewed_from_Ocean_Terminal_Deck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Central Skyline viewed from Ocean Terminal Deck
+  width: 5520
+  height: 4140
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: roof-deck
+  title: File:Ocean Terminal Extension Roof deck 201710.jpg
+  author: Exploringlife
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ocean_Terminal_Extension_Roof_deck_201710.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/63/Ocean_Terminal_Extension_Roof_deck_201710.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ocean Terminal in Tsim Sha Tsui, Hong Kong.
+  width: 5953
+  height: 3935
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: forecourt
+  title: File:Harbour City, Ocean Terminal Forecourt (Hong Kong).jpg
+  author: Mk2010
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Harbour_City,_Ocean_Terminal_Forecourt_(Hong_Kong).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6c/Harbour_City%2C_Ocean_Terminal_Forecourt_%28Hong_Kong%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ocean Terminal Forecourt, Harbour City, Kowloon, Hong Kong.
+  width: 3916
+  height: 2936
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

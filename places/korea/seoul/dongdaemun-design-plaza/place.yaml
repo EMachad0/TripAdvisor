@@ -1,0 +1,149 @@
+id: dongdaemun-design-plaza
+name: "Dongdaemun Design Plaza (DDP) at Night"
+short_name: DDP
+name_local: 동대문디자인플라자
+name_romanized: Dongdaemun Dijain Peullaja
+country: korea
+city: seoul
+area: Dongdaemun · Jung-gu
+category: views
+fame: popular
+tags: [architecture, zaha-hadid, night-view, light-show, free]
+kind: See
+why: "Zaha Hadid's silver spaceship of curved aluminium, with a roof you can walk over. In winter an open-air laser show plays every 30 min from 18:00."
+cost:
+  local: 3100
+  currency: KRW
+  brl: 12.88
+  note: "Outdoor plaza, roof paths and the open-air light show need no ticket. This is two subway rides (₩1,550 each)"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Just before 18:00, for dusk and the first light show"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Outdoor plaza and roof paths always open; Design Market 24 h. Indoor halls about 10:00–19:00 or 20:00 (sources differ)"
+  winter: "DDP 365 Light, Nov–Feb: daily 18:00–22:00, on the hour and half hour, about 5 min. The bigger Seoul Light DDP 2026 Winter starts 17 Dec with a 31 Dec countdown; one listing has it ending 1 Jan 2027, before you're in Korea. Paid exhibitions have their own hours."
+
+location:
+  address: 281 Eulji-ro, Jung-gu, Seoul
+  address_local: 서울특별시 중구 을지로 281
+  lat: 37.5669
+  lng: 127.0094
+  nearest_transit: "Dongdaemun History & Culture Park (Lines 2, 4, 5), connected"
+
+sources:
+  - url: https://mediahub.seoul.go.kr/archives/2019492
+    title: "매일 밤 빛나는 'DDP 365라이트' (Seoul Metropolitan Government news, 28 Sep 2026)"
+    checked: 2026-11-12
+  - url: https://mom-mom.net/travel/places/6ae06c429353b0875c835898
+    title: "서울라이트 DDP 2026 겨울 (26/12/17 ~ 27/01/01) listing (Mom-mom)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Dongdaemun_Design_Plaza
+    title: Dongdaemun Design Plaza (Wikipedia)
+    checked: 2026-11-12
+  - url: https://timeout.com/seoul/museums/dongdaemun-design-plaza-ddp
+    title: "Dongdaemun Design Plaza (Time Out Seoul)"
+    checked: 2026-11-12
+  - url: https://seoulcitywall.seoul.go.kr/en/wallcourse/3.do
+    title: "Seoul City Wall official site: Heunginjimun Gate Trail (water gate and remains in the History & Culture Park)"
+    checked: 2026-11-12
+  - url: https://news.seoul.go.kr/culture/archives/534071
+    title: "서울라이트 DDP 2026 가을: 관람비용 무료, incl. the DDP 365 Light laser piece (Seoul Metropolitan Government, 2 Sep 2026)"
+    checked: 2026-11-12
+  - url: https://www.koreajoongangdaily.com/korea/seoul-subway-prices-rising-to-1550-won-on-june-28/11965075
+    title: "Seoul subway prices rising to 1,550 won on June 28 (Korea JoongAng Daily, 2025)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "365 Light schedule: the city's Sept 2026 article, which says times may change and mentions no fee; \"free\" is only stated for the autumn festival. Winter festival end date (1 Jan 2027) from one listing; the city confirmed only the 17 Dec start. Indoor hours: Time Out says 10–19 (Wed/Fri to 21), other guides 10–20; not found on ddp.or.kr."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: night-curves
+    hook: A building with no straight lines, glowing silver in the dark.
+    caption: DDP's aluminium skin lit up after dark
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: 17:45, for dusk and the 18:00 show
+    extra:
+      - label: Light show
+        value: "Every 30 min, 18:00–22:00"
+        detail: DDP 365 Light, about 5 min, open-air (Nov–Feb times)
+      - label: Fits a work day
+        value: Yes
+        detail: Catch the 18:00 or 19:00 show, home before a 21:00 shift
+  - type: highlights
+    items:
+      - title: Zaha Hadid's curves
+        text: "Designed by **Zaha Hadid** with Samoo and opened in March 2014, the main building is 280 m long, with no straight edges and a skin of aluminium panels."
+      - title: Walk on the roof
+        text: "There's a walkable park on its roofs, with grass slopes, so you can wander over the building as well as through it."
+      - title: A laser show every night
+        text: "**DDP 365 Light** is an open-air show of lasers, video and sound at Eoullim Square, every 30 minutes 18:00–22:00 from November to February. No ticket is mentioned; the city listed the same laser piece as free in its autumn festival."
+      - title: The old city wall underneath
+        text: "Building it uncovered pieces of old Seoul: the **Igansumun** water gate of the city wall and the remains of a Joseon military office sit in the Dongdaemun History & Culture Park, part of the complex."
+  - type: prose
+    title: What January looks like
+    dropcap: true
+    text: |-
+      DDP was built where Dongdaemun Stadium stood, in the middle of Seoul's wholesale fashion district. During the day it's a silver landscape of ramps and curves; at night the panels glow and the building really looks like the spaceship people call it.
+
+      The city's big winter festival, **Seoul Light DDP 2026 Winter**, which projects art onto the facade, starts on 17 December and ends with a New Year countdown. One listing gives 1 January 2027 as the last day, so it ends before you reach Korea on 10 January. What you'll get is the permanent **DDP 365 Light**, an outdoor show every night. Check DDP's site in case the winter edition is extended.
+  - type: gallery
+    images:
+      - file: daytime-curve
+        caption: The curving wall by day, with Dongdaemun's shopping towers behind
+      - file: roof-lawn
+        caption: The grass roof slopes you can walk on
+      - file: night-panorama
+        caption: DDP among Dongdaemun's lights
+  - type: quote
+    variant: vibe
+    text: Fashion towers, street food steam and a silver blob that looks like it landed last night.
+  - type: cost_breakdown
+    items:
+      - label: Building, roof paths and plaza
+        local: 0
+        brl: 0
+      - label: DDP 365 Light show (open-air, no ticket mentioned)
+        local: 0
+        brl: 0
+      - label: Subway there and back
+        local: 3100
+        brl: 12.88
+        note: "₩1,550 each way with a transport card"
+  - type: map
+    zoom: 16
+    note: "**Dongdaemun History & Culture Park Station** (Lines 2, 4, 5) connects straight into DDP. The 365 Light show is by the relic display at **Eoullim Square** (어울림광장)."
+  - type: tips
+    variant: insider
+    items:
+      - "The shows start **on the hour and the half hour** and last about 5 minutes. Arrive at 17:50 and you get dusk on the panels and then the first show."
+      - "The **Design Market** inside is open 24 hours, a warm place to duck into between shows."
+      - "Walk to **Heunginjimun**, the great East Gate (Dongdaemun Station Exit 6 or 7), and climb the city wall to Naksan Park for the night view."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The paid exhibitions inside are the only thing here that costs money. The building is the attraction; you don't need a ticket."
+      - "The city says the 365 Light schedule **may change**. Check ddp.or.kr on the day."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing, usually dry
+    note: "Seoul's January averages are 2.1 °C by day and −5.5 °C at night. You're outdoors for the shows but only 5 minutes at a time, and the building and the malls around it are warm places to wait."
+    wear: Warm jacket, gloves for phone photos
+  - type: pairs_well
+    items:
+      - id: sparex-dongdaemun
+        note: Jjimjilbang in Goodmorning City, a short walk away
+      - id: naksan-park-city-wall
+        note: Follow the wall uphill from the East Gate for the night view
+      - id: gwangjang-market
+        note: Cheap dinner at the stalls, a short ride away

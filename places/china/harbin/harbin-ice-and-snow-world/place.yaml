@@ -1,0 +1,193 @@
+id: harbin-ice-and-snow-world
+name: Harbin Ice and Snow World
+short_name: Ice and Snow World
+name_local: 哈尔滨冰雪大世界
+name_romanized: Hā'ěrbīn Bīngxuě Dàshìjiè
+country: china
+city: harbin
+area: Songbei · Sun Island
+category: views
+fame: iconic
+tags: [christmas, nye, ice-festival, winter, night, fireworks, drone-show, architecture]
+kind: See
+why: "A glowing city of ice, the biggest ever this winter at 1.25 million m², with a 500 m ice slide. On NYE 2025 it had fireworks and drones for 100,000 people."
+when:
+  dates:
+    - { from: 2026-12-20, to: 2027-02-28 }
+  label: "From about 20 Dec"
+  confirmed: false
+cost:
+  local: 332
+  currency: CNY
+  brl: 274.46
+  note: "¥328 adult ticket in 2025–26 (¥298 in opening week) plus metro. 2026–27 price not announced"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "4–5 h (15:00 to dark)"
+best_time: "Enter about 15:00; stay for the lights after 16:30"
+
+book_ahead:
+  required: recommended
+  lead_days: 2
+  lead_time: "Book 2+ days ahead for Christmas week and Dec 31"
+  method: passport-registered
+  passport: true
+  links:
+    - label: Trip.com (passport OK)
+      url: "https://us.trip.com/travel-guide/attraction/harbin/harbin-ice-snow-world-80633/"
+      note: Foreigner-friendly; enter with the passport you booked with
+    - label: Klook
+      url: "https://www.klook.com/activity/225811-harbin-ice-and-snow-world/"
+      note: Alternative reseller; check which gate swaps tickets
+  notes: "Official online sales are for Chinese ID holders. In opening week 2025, almost every date sold out in advance."
+
+hours:
+  summary: "Daily roughly 10:00/11:00 to 21:30/22:00 in season (sources differ)"
+  winter: "**2026–27 opening date not announced** (as of Nov 10); watch the park's WeChat account and the Trip.com listing. It opened Dec 17 in 2025 and guides expect about Dec 20, so it should be open by Christmas. On NYE 2025, 100,000+ people came for fireworks, drones and the Century Bell. No regular drone show is published. The 2025–26 season closed early on Feb 21 after a warm spell."
+
+location:
+  address: Harbin Ice and Snow World, Bingjing Road, Sun Island, Songbei District, Harbin
+  address_local: 哈尔滨市松北区太阳岛冰景路 哈尔滨冰雪大世界
+  lat: 45.7753
+  lng: 126.5564
+  nearest_transit: "Ice and Snow World station (Line 2), next to the park; 20–30 min from the centre"
+
+sources:
+  - url: https://www.news.cn/local/20261012/83c0431873834ce5af329a4679ada8f1/c.html
+    title: "哈尔滨冰雪大世界今冬园区规模将再创新高 (Xinhua, 2026-10-12): 28th edition, 1.25 million m², new super slides"
+    checked: 2026-11-10
+  - url: https://m.gmw.cn/2025-12/15/content_1304263828.htm
+    title: "27th edition opening (Heilongjiang Daily via GMW, 2025-12-15): Dec 17 opening, ¥298 then ¥328"
+    checked: 2026-11-10
+  - url: https://www.stdaily.com/web/gdxw/2025-12/17/content_448432.html
+    title: "27th edition opens (Science and Technology Daily, 2025-12-17): 521 m slide, 120 m Ferris wheel, passport ticketing"
+    checked: 2026-11-10
+  - url: https://www.yzwb.net/news/yw/202601/t20260102_307057.html
+    title: "Ice and Snow World NYE (Xinhua via Yangtze Evening Post, 2026-01-02): 100,000+ visitors, fireworks, drones"
+    checked: 2026-11-10
+  - url: https://www.chinanews.com/sh/2026/02-21/10575010.shtml
+    title: "Ice and Snow World closes early after record warmth (China News Service, 2026-02-21)"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/harbin/attraction/harbin-international-ice-and-snow-festival.htm
+    title: "Harbin Ice Festival 2026–2027 (China Highlights): passport buyers, entry timing, temperatures"
+    checked: 2026-11-10
+  - url: https://us.trip.com/guide/attraction/harbin-ice-and-snow-world.html
+    title: "Harbin Ice and Snow World guide (Trip.com): Line 2 station, hours, crowds"
+    checked: 2026-11-10
+  - url: https://cn.chinadaily.com.cn/a/202601/06/WS695caf08a310942cc499a475.html
+    title: "3000架无人机点亮夜空 (China Daily, 2026-01-06, drone company's release): 3,000 drones at the festival opening on Jan 5, 2026"
+    checked: 2026-11-10
+  - url: https://www.eastchinatrip.com/harbin-ice-and-snow-world-travel-guide/
+    title: "Harbin Ice and Snow World guide (East China Trip, 2026-01-02): Line 2 direct from Central Street, taxi ¥30–50"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/harbin-ice-and-snow-world/
+    title: "Harbin Ice and Snow World (China for Travelers, updated 2026-09-05): opening fortnight sells out early, station by the east gate"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "The park and its NYE party are reliable. Opening date, 2026–27 price and NYE program aren't announced yet; the price shown is last season's. Hours differ between resellers. Trip.com/Klook pages found via search and not opened (bot checks). No source gives a drone-show time or the distance in km; 4–5 km is measured between the two map pins."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: ice-tower-night
+    caption: An ice tower at the 2012 edition. Each year's buildings are new, but the look is the same
+    hook: Castles, towers and temples cut from Songhua River ice, lit up in neon at minus twenty-five.
+    focus: center
+  - type: quick_facts
+    time_needed: "4–5 h (15:00 to dark)"
+    best_time: "Enter about 15:00; stay for the lights after 16:30"
+    extra:
+      - label: Opening 2026
+        value: Not announced
+        detail: "2025: Dec 17. Guides expect about Dec 20"
+      - label: Size
+        value: 1.25 million m²
+        detail: Record for the 28th edition (plan)
+      - label: Night temp
+        value: −20 to −25 °C
+        detail: Warm-up halls inside the park
+  - type: highlights
+    items:
+      - title: A city made of ice
+        text: "Blocks cut from the frozen **Songhua River** become towers, temples and copies of world landmarks, lit from inside. The 28th edition plans **400,000 m³** of ice and snow."
+      - title: The super ice slide
+        text: "In 2025–26 it had **24 lanes and 521 m** of ice slide, and this year adds a new cluster of super slides. Queues are long; reserve a slot in the park app if offered."
+      - title: Christmas week opening buzz
+        text: "Opening week is the first chance to see a brand-new ice city. Christmas lands in the first fortnight, when everything is fresh and sharp."
+      - title: NYE under fireworks
+        text: "On **Dec 31, 2025** more than **100,000 people** watched fireworks spell \"2026\", a drone show and the Century Bell. The 2026 NYE plan isn't out yet."
+  - type: prose
+    title: Is it worth R$274?
+    dropcap: true
+    text: |-
+      It's the most expensive single ticket on the China leg, about **1.6× the daily budget**. But it's also the thing people fly to Harbin for, and nothing else on the trip looks like it. For a traveler who calls the cold "awesome", it's the headline act.
+
+      Get the most from one ticket by arriving around **15:00**. You see the sculptures in daylight, watch them switch on at dusk (about 16:00–16:30), then stay for the full night look, with a hot drink in the warm halls between loops. Plan about four hours outside; the cold sets the limit, not the park.
+
+      **Christmas or NYE?** At Christmas the park is newly open and slightly calmer. On NYE you get fireworks and drones on top, with a crowd of over 100,000 and a long, cold queue for the metro home.
+  - type: gallery
+    images:
+      - file: ice-park-panorama
+        caption: The park after dark (11th edition, 2009–10)
+      - file: ice-staircase
+        caption: Ice staircases lead up to the lit pagodas
+      - file: ice-park-by-day
+        caption: The same ice by daylight. Come at 15:00 to see both
+  - type: quote
+    variant: vibe
+    text: Your breath freezes on your scarf while the walls around you glow pink, green and gold.
+  - type: book_ahead
+    steps:
+      - days_before: 14
+        text: "Watch for the **opening date and price**; they're usually announced a week or two before opening. Check Trip.com or Klook."
+      - days_before: 2
+        text: "Buy a dated ticket on **Trip.com** or Klook with your **passport number**. Busy dates like Dec 31 go first."
+      - days_before: 0
+        text: "Take Line 2 to **Ice and Snow World** station. Enter with your passport at a gate that serves foreigners (resellers name the West or South ticket office)."
+    passport_note: "Bring the **same passport** you booked with. Without the original, you may be turned away."
+  - type: cost_breakdown
+    items:
+      - label: Adult ticket (2025–26 price)
+        local: 328
+        brl: 271.16
+      - label: Metro there and back (rough)
+        local: 4
+        brl: 3.31
+    note: "Over the daily budget, but it's the one splurge Harbin is built around. Opening week was ¥30 cheaper in 2025."
+  - type: faq
+    items:
+      - q: When is the drone show?
+        a: "There is **no nightly drone show** in any schedule I could find. Last season the drones flew on two special nights: **New Year's Eve** (Dec 31, 2025, with fireworks) and the Ice and Snow Festival's opening ceremony on **Jan 5, 2026** (3,000 drones). Only **Dec 31** falls inside your China dates. The 2026 programme isn't announced, and last year's reports give no start time. Check the park's WeChat account around Dec 20–28."
+        asked: 2026-11-10
+      - q: What are the best days to visit?
+        a: "For fireworks and drones: **Dec 31**, if the programme is confirmed, with 100,000+ other people. For the ice itself: a **weekday**, such as Mon–Wed Dec 21–23 or Dec 28–30, if the park opens around Dec 20 as guides expect. Guides call Christmas busy and weekends crowded, and the opening fortnight sold out early in 2025, so book ahead either way. The calmest stretch they name, Jan 6–20, comes after you leave China."
+        asked: 2026-11-10
+      - q: How far is it from Harbin city center?
+        a: "About **4–5 km** north-west of Central Street in a straight line, on the far bank of the Songhua River (measured between the two map pins). **Metro Line 2** runs direct from Central Street station to Ice and Snow World station, by the gate: Trip.com's guide gives 20–30 minutes for about US$0.50–0.70. One guide puts a taxi at ¥30–50 (R$25–41), but taxis can be stopped short of the gate on busy nights."
+        asked: 2026-11-10
+  - type: map
+    zoom: 14
+    note: "Use the **metro (Line 2)**, not a taxi. Guides warn that taxis and buses can stop 2–3 km short when the area is crowded."
+  - type: tips
+    variant: insider
+    items:
+      - "One ticket, both looks: **enter around 15:00**, see it by day, stay for the lights."
+      - "Warm up in the indoor halls every 45–60 minutes. A new **5,000 m² warm hall** opened in 2025–26."
+      - "Ride the **Ferris wheel** after dark: shorter queue, best view of the lit park."
+      - "For NYE, check the Harbin Ice and Snow World WeChat account around **Dec 20–28** for the countdown program."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Don't buy non-refundable flights for opening day** until the date is official."
+      - "Phones die in minutes at −25 °C. Carry a power bank in an inside pocket."
+      - "Leaving on NYE: 100,000 people want the same metro line. Wait it out in a warm hall."
+  - type: weather
+    temp_low_c: -24
+    temp_high_c: -13
+    conditions: Clear, dry, very cold; light snow some days
+    note: "This is what the park needs: the colder, the better the ice. Feb 2026 shows the risk of a warm spell, but late December is reliably deep-frozen."
+    wear: Down parka, thermal base layers, insulated boots, face cover, hand warmers
+  - type: pairs_well
+    items:
+      - id: harbin-christmas-on-central-street
+        note: "Central Street and the cathedral on the other bank; do them the same day or the next"

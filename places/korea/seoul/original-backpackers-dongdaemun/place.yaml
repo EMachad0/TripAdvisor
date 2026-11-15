@@ -1,0 +1,145 @@
+id: original-backpackers-dongdaemun
+name: "Original Backpackers"
+name_local: 오리지널 백패커스
+country: korea
+city: seoul
+area: Jongno · Dongdaemun
+category: stay
+tags: [hostel, social, spotless, coworking, breakfast-included, dongdaemun, jongno]
+kind: Stay
+why: "10/10 for cleanliness on Hostelworld (134 reviews), with a coworking room, blackout curtains on every bunk and a staff WhatsApp group that gets people out."
+
+cost:
+  local: 57000
+  currency: KRW
+  brl: 236.89
+  note: "Hostelworld, 6-bed mixed dorm, Tue 1 Dec 2026 (latest date on sale; January not open yet), searched 12 Nov 2026"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 30
+  lead_time: "Watch for January beds to go on sale and book as soon as they do"
+  method: website
+  links:
+    - label: Hostelworld (date search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Original-Backpackers/Seoul/330544?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+      note: "On 12 Nov: no beds on sale for any night 10–19 Jan (Mon 11 Jan search)"
+  notes: "Small and popular: only 3 dorm beds were on sale for 1 Dec, none for later dates. Cancelling within 7 days of check-in costs 100% of the booking."
+
+hours:
+  summary: "Reception 07:40–22:00 · check-in 15:00–midnight (24 h on request) · check-out by 11:00 · no curfew"
+  winter: "Searched 12 Nov 2026 night by night: no beds of any kind on sale for 10–19 Jan 2027, and none on the December nights checked (2, 5, 15, 28 Dec) except 3 dorm beds on 1 Dec. Dorm prices for the trip are unknown. No winter closures or New Year rules listed."
+
+location:
+  address: "3rd–5th floor, 313-3 Jong-ro, Jongno-gu, Seoul (by Dongdaemun station Exit 3)"
+  address_local: "서울특별시 종로구 종로 313-3, 3~5층"
+  lat: 37.57217
+  lng: 127.01251
+  nearest_transit: "Dongdaemun (Line 1 / 4), Exit 3, about 1 min on foot"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Original-Backpackers/Seoul/330544?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+    title: "Original Backpackers on Hostelworld, Mon 11 Jan 2027 search: no beds; description, house rules, facilities, rating 9.9 (134)"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/330544/availability/?guests=1&num-nights=1&date-start=2027-01-16&currency=KRW&application=web"
+    title: "Hostelworld availability feed (change date-start): every night 10–19 Jan 2027 read; no rooms returned"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/330544/reviews/?sort=newest&page=1&monthCount=36&application=web"
+    title: "Hostelworld guest reviews, newest first (all 11 pages read: Mar 2025 – Nov 2026)"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/330544/availability/?guests=1&num-nights=1&date-start=2026-12-01&currency=KRW&application=web"
+    title: "Hostelworld availability for 1 Dec 2026: 6-bed mixed dorm ₩57,000, 3 beds left"
+    checked: 2026-11-12
+  - url: "https://www.openstreetmap.org/?mlat=37.57186&mlon=127.01149#map=17/37.57186/127.01149"
+    title: "OpenStreetMap: Dongdaemun station"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020"
+    checked: 2026-11-12
+confidence: low
+confidence_note: "No trip-night price: on 12 Nov Hostelworld sold no beds for 10–19 Jan, so ₩57,000 is the 1 Dec dorm price (the only one). Trip.com, Booking and Expedia block bots; Hostelz's undated 'from ₩28,765' is a snippet. Night-work details come from single reviews. Pin from Hostelworld coordinates. Reviews feed read with curl (403 to the link checker)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: heunginjimun
+    caption: "Heunginjimun (Dongdaemun Gate), a short walk from the hostel. No free photo of the hostel exists"
+    hook: "Hotel-clean beds by the old East Gate, a rooftop kitchen, and hosts who plan your day on WhatsApp."
+  - type: quick_facts
+    extra:
+      - { label: For night work, value: Coworking room, detail: "Listed on the 3rd floor, with reception" }
+      - { label: Breakfast, value: Included, detail: "08:00–10:00, cook-it-yourself ingredients" }
+      - { label: Nightlife, value: ~20 min by subway, detail: "A Mar 2026 guest: to \"the going-out area\"" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "6-bed mixed dorm · Tue 1 Dec 2026"
+        local: 57000
+        brl: 236.89
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Original-Backpackers/Seoul/330544?from=2026-12-01&to=2026-12-02&guests=1&currency=KRW"
+        note: "Not a January price (not on sale on 12 Nov). VAT included, refunded at check-in"
+    rating:
+      score: 9.9
+      out_of: 10
+      source: Hostelworld
+      reviews: 134
+      atmosphere: 9.6
+      checked: 2026-11-12
+    social:
+      - "Staff run a **WhatsApp group** with daily plans and food tips; several 2026 guests say it got them out with others."
+      - "Events: **movie nights** and yoga (2026 reviews), a BBQ (2025). Rooftop terrace and a big kitchen on the top floor."
+      - "\"The hostel actively connects you with the others\" (Jul 2026); \"social but not necessarily a party vibe\" (Mar 2026)."
+      - "Some weeks are quiet: \"not as social but that's ok\" (Jun 2026). Parties are not permitted."
+    good_to_know:
+      - "**Night shifts:** a coworking space is listed on the 3rd floor. No source says whether you can use it 21:00–06:00: ask."
+      - "**Wifi:** \"snappy wifi\" (Aug 2025), \"Wifi worked\" (Oct 2026). Keep mobile data as a backup."
+      - "**Day sleep:** each bunk has blackout curtains (Mar 2025) and earplugs are provided (May 2025). One guest found the walls thin (Jun 2026)."
+      - "**Lockers** are free, spacious and come with locks (Dec 2025). Towels, toiletries, laundry, coffee and ramen free."
+      - "**No lift:** 3rd to 5th floor on uneven stairs, and one toilet per floor (Dec 2025)."
+      - "Reception closes at 22:00. Check-in until midnight; later arrival on request."
+  - type: highlights
+    items:
+      - title: The clean one
+        text: "Cleanliness **10/10** on Hostelworld; guests keep calling the showers the best they have seen in a hostel."
+      - title: Built for working nights
+        text: "A **coworking room**, blackout curtains on the bunks and free ramen and coffee for 03:00 on the 21:00–06:00 shifts."
+      - title: Free breakfast and laundry
+        text: "Breakfast, washing machine and dryer are free: real savings over a week in Seoul."
+      - title: Central, airport bus at the door
+        text: "Dongdaemun station is a minute away, and the airport bus to Incheon stops in front of the hostel."
+  - type: book_ahead
+    steps:
+      - days_before: 60
+        text: "Check the Hostelworld page for January dates; on 12 Nov they were not on sale yet."
+      - days_before: 30
+        text: "Book as soon as beds appear: it is small and the December beds were nearly gone. Cancelling inside 7 days costs the full price."
+      - days_before: 0
+        text: "Arriving after midnight? Ask in advance for late check-in."
+  - type: map
+    note: "Use **Dongdaemun station Exit 3**; the hostel is on the 3rd floor, right by a 7-Eleven."
+  - type: tips
+    variant: insider
+    items:
+      - "A Mar 2026 guest puts \"the going-out area\" about 20 minutes away by subway: before the Sat 16 Jan club night, check the route back (or the first train)."
+      - "Ask staff for the WhatsApp group on arrival: it is the easiest way to find people for Gwangjang Market or a night out."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It is not in a nightlife district (a Mar 2026 guest's one complaint): on club nights, plan the trip back from Hongdae before you go out."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry and freezing, some snow
+    note: "January in Seoul averages −5.5 °C at night and 2.1 °C by day. A guest notes the rooftop is best in summer, so in winter expect people indoors."
+    wear: Padded jacket, hat and gloves
+  - type: pairs_well
+    items:
+      - id: gwangjang-market
+        note: "One subway stop west on Line 1 (Jongno 5-ga)"
+      - id: dongdaemun-design-plaza
+        note: "Also in Dongdaemun, a short walk away"
+      - id: naksan-park-city-wall
+        note: "The city wall walk starts near the East Gate"
+      - id: sparex-dongdaemun
+        note: "Jjimjilbang in the Dongdaemun shopping towers"

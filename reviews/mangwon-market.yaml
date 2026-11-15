@@ -1,0 +1,16 @@
+# Independent review of mangwon-market. Written by `./atr review`; do not edit by hand.
+id: mangwon-market
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: a9cdf42622ce6e9db5b6f174945799a49c6e03bc6c506ca30c524a81e0b7a879
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 479e5c4c045bef72492f4e7424f91d68299ee5ddb10581bcb6550dd4d528af61
+summary: The edited hours.winter line is correct. MileAsia says "The market is closed on the 2nd and 4th Tuesday of each month". In January 2027 those days are Tue 12 Jan, which falls inside the Korea dates in config/trip.yaml (Jan 10–20), and Tue 26 Jan, after the traveler leaves. The page still notes that the Seoul listing disagrees about the closure. The earlier review left no findings to close, and nothing new needs fixing.
+model: claude-opus-5-5
+cost_usd: 0.185

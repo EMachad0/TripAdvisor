@@ -1,0 +1,156 @@
+id: terracotta-army
+name: "Terracotta Army (Emperor Qinshihuang's Mausoleum Site Museum)"
+short_name: Terracotta Army
+name_local: 秦始皇兵马俑博物馆
+name_romanized: Qín Shǐhuáng Bīngmǎyǒng Bówùguǎn
+country: china
+city: xian
+area: Lintong District
+category: culture
+fame: iconic
+tags: [unesco, archaeology, day-out, real-name-booking]
+kind: See
+why: "Thousands of life-size clay soldiers in battle order in Pit 1: ¥120 all year, and a ¥2–5 public bus gets you there from the metro."
+cost:
+  local: 120
+  currency: CNY
+  brl: 99.2
+  note: "Same ¥120 in low and high season (official notice). Covers Pits 1–3, Lishan Garden and the shuttle between them"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–6 h on site, plus about 2 h of bus
+best_time: First entry at 08:30 on a weekday
+
+book_ahead:
+  required: true
+  lead_days: 7
+  lead_time: "Official sales open 7 days ahead at 00:00 Beijing time"
+  method: passport-registered
+  links:
+    - label: Trip.com (from the official site)
+      url: "https://www.trip.com/travel-guide/attraction/xi-an/emperor-qinshihuang-s-mausoleum-site-museum-75682/"
+      note: "The museum's English site sends its Ticket button here. Book with your passport number"
+    - label: Official ticketing notice (Chinese)
+      url: "https://www.bmy.com.cn/jingtai/bmyweb/ticketing.html"
+      note: "Rules, price and hours. Official booking needs a Chinese phone number or WeChat"
+  passport: true
+  notes: "Real-name only: every visitor, foreigners included, must book and pay online before coming. Person, ticket and passport must match. 65,000 visitors a day maximum; sales stop when full."
+
+hours:
+  summary: "Low season (16 Nov–15 Mar): ticket checks 08:30–16:30, site closes 18:00"
+  winter: "Your dates fall in the official low season: last ticket check 16:30, closing 18:00, same ¥120 price. No Christmas or New Year closure is listed. December is cold (about 1–8 °C) and quiet: guides report far fewer visitors than in summer."
+
+location:
+  address: Qinling North Road, Lintong District, Xi'an
+  address_local: 陕西省西安市临潼区秦陵北路 秦始皇帝陵博物院
+  lat: 34.38736
+  lng: 109.27767
+  nearest_transit: "Tourist Line 5 (306) bus, terminus; or Metro Line 9 to Huaqing Pool + bus"
+
+sources:
+  - url: https://www.bmy.com.cn/jingtai/bmyweb/ticketing.html
+    title: "Official ticketing notice (bmy.com.cn, 2023): ¥120 both seasons, low-season checks 08:30–16:30, real-name booking, carts ¥5/¥15"
+    checked: 2026-11-10
+  - url: https://www.bmy.com.cn/guide.html
+    title: "Official visitor guide (bmy.com.cn): closing 18:00 in low season, 65,000/day cap, passports, free shuttle, guide desk"
+    checked: 2026-11-10
+  - url: https://www.bmy.com.cn/jingtai/bmyweb/index.html
+    title: "Official English site: the Ticket link goes to the Trip.com attraction page"
+    checked: 2026-11-10
+  - url: https://www.chinaxiantour.com/xian-travel-guide/book-terracotta-warriors-tickets
+    title: "Buying Terracotta Warriors tickets (China Xian Tour, 2026-04-30): Chinese phone needed officially; 7-day window"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/cityguides/xian/transportation/tour-bus.htm
+    title: "Xi'an tourist buses (TravelChinaGuide, 2025-08-05): Line 5 (306) ¥2–5; Bell Tower direct bus ¥25"
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/destinations/xian/terracotta-warriors/transport/
+    title: "Terracotta Warriors transport (Wander in China, 2026-07-23): Line 9 + bus, Didi fares, ticket scam"
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/destinations/xian/terracotta-warriors/tickets/
+    title: "Terracotta Warriors tickets (Wander in China, 2026-07-23): 7-day sales, signage, fake guides and staff"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/attraction/shaanxi/xian/terra_cotta_army/
+    title: "Terracotta Army (TravelChinaGuide, 2026-06-22): Pits 1–3, 1974 discovery, visit routes"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/cityguides/xian/terracotta.htm
+    title: "Pit 1 (TravelChinaGuide): 14,260 m², battle formation, figures on display"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/attraction/shaanxi/xian/terra_cotta_army/pit_2.htm
+    title: "Pit 2 (TravelChinaGuide): four arrays, estimated warriors, horses and chariots"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/attraction/shaanxi/xian/terra_cotta_army/chariot.htm
+    title: "Bronze chariots and horses (TravelChinaGuide): found 1980, half size, 8 years of restoration"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Terracotta_Army
+    title: "Terracotta Army — Wikipedia (March 1974 well-digging find; burial 210–209 BC; east-facing army)"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/xian/weather/december.htm
+    title: "Xi'an weather in December (China Highlights): about 8 °C by day, 1 °C at night, fewer tourists"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Price, hours and booking rules are from the official site (ticketing notice dated 2023, still live). The Trip.com page blocks bots, so its price and fees are unchecked. Bus guides disagree on the bus from Huaqing Pool (602 or 613). Visit times are TravelChinaGuide's suggested routes. The metro fare is my estimate. No audio-guide price found."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: pit-1-ranks
+    hook: Rank after rank of life-size clay soldiers, laid out to guard the First Emperor's tomb from the east.
+  - type: quick_facts
+    time_needed: 3–6 h on site
+    best_time: 08:30 entry, weekday
+    extra:
+      - { label: Cheapest ride, value: "Bus 306, ¥2–5", detail: "From Fangzhicheng coach station, about 60 min" }
+      - { label: Shuttle, value: Free, detail: "Between the pits museum and Lishan Garden" }
+  - type: highlights
+    items:
+      - { title: Pit 1, text: "A 14,260 m² hall where about 6,000 warriors and horses are thought to be buried; nearly 2,000 stand on show in battle formation." }
+      - { title: Pit 2, text: "Kneeling and standing archers, a 64-chariot array and cavalry; an estimated 1,300 warriors and horses, still being dug." }
+      - { title: Pit 3, text: "The command post: 68 warriors and a four-horse chariot. It escaped the fire that damaged the other pits." }
+      - { title: Bronze chariots, text: "Two half-size bronze chariots with gold and silver ornaments, dug up near the mausoleum in 1980 and restored over 8 years." }
+  - type: prose
+    title: Why it earns the day
+    dropcap: true
+    text: |-
+      In March 1974 farmers digging a well in Lintong hit pottery. What came out was an army made for Qin Shi Huang, the First Emperor, buried in 210–209 BC, laid out to guard his tomb from the east. Pit 2 is still being excavated.
+
+      It is a long day: about an hour each way by bus, then TravelChinaGuide's suggested routes run 2.5–3 hours for the essentials or 6 hours for everything. A free shuttle links the pits museum with Lishan Garden, the tomb park. Go early and do Pit 1 first, while it is quiet.
+  - type: gallery
+    feature: false
+    images:
+      - { file: bronze-chariot, caption: "One of the two half-size bronze chariots" }
+  - type: book_ahead
+    steps:
+      - { days_before: 7, text: "Sales open at 00:00 Beijing time. Without a Chinese phone number, use the **Trip.com** page linked from the museum's English site and enter your **passport number**. Pick the **08:30** entry." }
+      - { days_before: 0, text: "Be at security by about 08:10 for 20 quiet minutes in Pit 1, and scan your **original passport** at the gate." }
+    passport_note: "Name and passport number must match the passport you carry; a photocopy or a phone photo won't work."
+  - type: cost_breakdown
+    items:
+      - { label: Entry ticket (pits museum + Lishan Garden + shuttle), local: 120, brl: 99.2 }
+      - { label: "Bus 306 from Fangzhicheng, each way", local: 5, brl: 4.13, estimate: true, optional: true, note: "¥2–5 by distance" }
+      - { label: "Electric cart at the pits museum", local: 5, brl: 4.13, optional: true }
+      - { label: "Direct bus from the Bell Tower (instead of 306), one way", local: 25, brl: 20.67, optional: true }
+  - type: map
+    note: "In a ride-hailing app, enter **秦始皇帝陵博物院**, the name the museum uses itself. Didi from town is about ¥120–160 and 45–60 min."
+  - type: tips
+    variant: insider
+    items:
+      - "**Cheapest route:** metro to **Fangzhicheng** (Line 9), then Tourist Line 5 / bus **306** from the coach station: ¥2–5, about an hour, every 30–40 min from 07:00."
+      - "**Easiest from the Bell Tower:** a direct bus leaves Bell Tower metro **Exit G1** every 30 min, 08:00–11:30 (¥25, about 1 h). Returns leave the museum's front gate at 14:00, 15:00 and 16:00."
+      - "**Guide or not?** There's very little English signage in the pits, so some explanation helps. The museum runs its own guide service (029-81399047). Many lanyard-wearing guides at the gate are unlicensed."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "By the old Xi'an Railway Station, people in lanyards selling bus \"tickets\" on the sidewalk are scammers; the ride ends at a fake museum."
+      - "People in black uniforms who say tickets are sold out for days aren't museum staff. Your online booking is all you need."
+      - "The 10:30–14:30 window is when the tour buses arrive; avoid it if you can."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 8
+    conditions: Cold, dry, mostly cloudy; snow rare
+    note: "December is low season, so crowds are much thinner than in summer. The shuttle stop and Lishan Garden are outdoors, and the walks between halls are long."
+    wear: Down jacket, gloves, comfortable shoes for a lot of walking
+  - type: pairs_well
+    items:
+      - { id: desti-youth-park-hostel-xian, note: "Your hostel in town" }
+      - { id: sajinqiao-food-crawl, note: "Back in town by evening: skewers and paomo on Sajinqiao" }
+      - { id: xian-christmas, note: "Pair with Christmas Eve at the Bell Tower" }

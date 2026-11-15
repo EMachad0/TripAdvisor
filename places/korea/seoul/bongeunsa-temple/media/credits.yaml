@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: temple-towers
+  title: File:Bongeunsa Seoul 9.jpg
+  author: kallerna
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Bongeunsa_Seoul_9.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Bongeunsa_Seoul_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Bongeunsa, a Buddhist temple in Seoul's Gangnam District.
+  width: 5240
+  height: 3500
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: main-hall
+  title: File:Bongeunsa Seoul 8.jpg
+  author: kallerna
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Bongeunsa_Seoul_8.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/83/Bongeunsa_Seoul_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Daewoongjeon at Bongeunsa, a Buddhist temple in Seoul's Gangnam District.
+  width: 5220
+  height: 3420
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: hall-interior
+  title: File:Interior view of the main hall of Bongeunsa temple in Seoul South Korea.jpg
+  author: Basile Morin
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Interior_view_of_the_main_hall_of_Bongeunsa_temple_in_Seoul_South_Korea.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Interior_view_of_the_main_hall_of_Bongeunsa_temple_in_Seoul_South_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Interior view of the main hall of Bongeunsa Buddhist temple , with colorful paper lanterns on the decorated ceiling, three lotus flower shaped lamps, three gold statues of the seated Buddha, flowers and candles, at night in Seoul , South Korea .
+  width: 5615
+  height: 3509
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: maitreya
+  title: File:The Mireuk Daebul at Bongeunsa.jpg
+  author: Ethan Doyle White
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:The_Mireuk_Daebul_at_Bongeunsa.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/ce/The_Mireuk_Daebul_at_Bongeunsa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Mireuk Daebul, a statue of Maitreya in the Bongeunsa temple, Seoul.
+  width: 4896
+  height: 3264
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: lantern-stairs
+  title: File:Bongeunsa-0984.jpg
+  author: Immanuelle
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Bongeunsa-0984.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/46/Bongeunsa-0984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Photo I took of Bongeunsa in August 2024
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

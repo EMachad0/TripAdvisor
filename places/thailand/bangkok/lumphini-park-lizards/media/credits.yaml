@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: monitor
+  title: File:Monitor lizard at Lumphini Park, Bangkok.jpg
+  author: Alexey Komarov
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Monitor_lizard_at_Lumphini_Park,_Bangkok.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/43/Monitor_lizard_at_Lumphini_Park%2C_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Asian water monitor at Lumphini Park, Bangkok
+  width: 4233
+  height: 2822
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: by-swan-boats
+  title: File:Large monitor lizard in Lumphini park, Bangkok (5065302314).jpg
+  author: istolethetv
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Large_monitor_lizard_in_Lumphini_park,_Bangkok_(5065302314).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e0/Large_monitor_lizard_in_Lumphini_park%2C_Bangkok_%285065302314%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Large monitor lizard, hanging out by the swan boats in Lumphini park, Bangkok, Thailand.
+  width: 3888
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: sculpture
+  title: File:Asian water monitor sculpture in Lumphini Park Bangkok.jpg
+  author: Tree Lightbulb
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Asian_water_monitor_sculpture_in_Lumphini_Park_Bangkok.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c8/Asian_water_monitor_sculpture_in_Lumphini_Park_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A sculpture of asian water monitor lizard (Varanus salvator) is located within Lumphini Park, Bangkok. The statue depicts a brown, elongated, scaled reptile featuring a long neck, an elevated head, four clawed limbs, and a posterior tail. Situated on a paved brick and stone surface adjacent to a par
+  width: 8064
+  height: 6048
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

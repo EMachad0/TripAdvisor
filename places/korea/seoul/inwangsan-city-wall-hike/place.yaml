@@ -1,0 +1,151 @@
+id: inwangsan-city-wall-hike
+name: "Inwangsan Sunset Hike on the City Wall"
+short_name: Inwangsan
+name_local: 인왕산 · 한양도성 인왕산 구간
+name_romanized: Inwangsan
+country: korea
+city: seoul
+area: Sajik-dong · Jongno-gu
+category: nature
+fame: hidden
+tags: [hike, city-wall, sunset, night-view, free, cold-outdoors]
+kind: Do
+why: "A 339 m granite ridge in downtown Seoul: climb the wall at sunset, see the palace, Namsan Tower and Bukhansan, then walk down to city lights. Free."
+cost:
+  local: 3050
+  currency: KRW
+  brl: 12.68
+  note: "The trail is free. Subway there (₩1,550) and the green bus back (₩1,500), both by transport card"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2.5–3 h
+best_time: "Start ~16:00, summit at sunset, down by 18:30"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Trail open 24 hours, free (official City Wall site and Seoul city guide). One older guide claims a Monday closure"
+  closed: "Not officially; to be safe, skip Mon 11 and Mon 18 Jan 2027 (see pitfalls)"
+  winter: "The official site warns the rocky sections need extra care in winter. Sunset is about 17:32 on 10 Jan and 17:42 on 20 Jan 2027; dark by about 18:00–18:10. A 16:00 start leaves you down well before a 21:00 work shift. The Yun Dong-ju Literary Museum at the end keeps winter hours 10:00–17:00 and closes Mondays."
+
+location:
+  address: "Start at Sajikdan Altar, Jongno-gu, 5 min from Gyeongbokgung Station Exit 1 (pin is the summit)"
+  address_local: 사직단 (종로구 사직동)
+  lat: 37.585
+  lng: 126.95788
+  nearest_transit: "Gyeongbokgung (Line 3), Exit 1, 5 min to Sajikdan"
+
+sources:
+  - url: https://seoulcitywall.seoul.go.kr/en/wallcourse/6.do
+    title: "Seoul City Wall official site: Inwangsan Mountain Trail (distance, hours, transit, winter notice)"
+    checked: 2026-11-12
+  - url: https://www.koreatodo.com/inwangsan-mountain
+    title: "Inwangsan Mountain: Sights & How To Go Guide (KoreaToDo)"
+    checked: 2026-11-12
+  - url: https://sunrise-sunset.org/search?location=Seoul&year=2027&month=1
+    title: "Seoul sunrise and sunset, January 2027 (sunrise-sunset.org)"
+    checked: 2026-11-12
+  - url: https://news.seoul.go.kr/culture/archives/505266
+    title: "한양도성 순성길 코스 안내: 인왕산구간 개방시간 24시간 (Seoul Metropolitan Government)"
+    checked: 2026-11-12
+  - url: https://english.seoul.go.kr/policy/transportation/modes-of-transport/
+    title: "Seoul Metropolitan Government: modes of transport, bus fares (₩1,500 by card)"
+    checked: 2026-11-12
+  - url: https://www.koreajoongangdaily.com/korea/seoul-subway-prices-rising-to-1550-won-on-june-28/11965075
+    title: "Seoul subway prices rising to 1,550 won on June 28 (Korea JoongAng Daily, 2025)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Route, distance, history and the winter warning: official City Wall site. Open 24 hours: that site and the Seoul city trail guide, neither listing a Monday trail closure; only KoreaToDo (undated) does, so the page says to avoid Mon 11 and Mon 18 Jan anyway. Driver text is the Sajikdan landmark, not a street address. Weather is Seoul city averages."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: wall-to-namsan
+    hook: Granite, a stone wall on the ridge, and the whole old city at your feet.
+    caption: The wall on Inwangsan, looking across downtown to N Seoul Tower
+  - type: quick_facts
+    time_needed: 2.5–3 h
+    best_time: Up for sunset, down in the dusk
+    extra:
+      - label: Difficulty
+        value: Steep, rocky, short
+        detail: Stone steps along the wall; one summit at 338 m
+      - label: Headlamp
+        value: Bring one
+        detail: KoreaToDo advises it for after-dark hiking
+      - label: Fits a work day
+        value: Yes, if you start by 16:00
+        detail: Down and fed before a 21:00 shift
+  - type: highlights
+    items:
+      - title: A view nobody blocks
+        text: "The ridge is bare granite, so the view is open both ways: **Gyeongbokgung** and the old Blue House below, **N Seoul Tower** across the city, **Bukhansan** behind you."
+      - title: Walking on the wall
+        text: "The trail follows **Hanyangdoseong**, the Joseon city wall, up and over the summit. Near the top you can see where different centuries rebuilt it in different stone."
+      - title: Rocks with names
+        text: "Inwangsan is known for its strange rock formations: **Seonbawi**, said to look like a monk in meditation, Chimabawi (Skirt Rock) and Gichabawi (Train Rock)."
+      - title: Closed for 25 years
+        text: "After North Korean commandos infiltrated Seoul on 21 January 1968, the mountain was off-limits. It only reopened in 1993."
+  - type: prose
+    title: The route
+    dropcap: true
+    text: |-
+      The official Inwangsan section of the City Wall trail runs 4.0 km from the site of Donuimun Gate to **Changuimun Gate**, about 2½ hours. Most people start nearer the top: from Gyeongbokgung Station Exit 1 walk 5 minutes to Sajikdan Altar, then follow the wall uphill. KoreaToDo's version, from the 7-Eleven by the Korea Social Science Library over the summit to Changuimun, is 3.1 km and about 2 h 15 min.
+
+      For a short evening: go up to the summit for sunset and come back down the same way, or carry on north to **Yun Dong-ju Hill** above Changuimun and catch bus 7212, 1020 or 7022 back to Gyeongbokgung Station. Muakjae and Dongnimmun stations (Line 3) on the west side are other ways off the mountain.
+  - type: gallery
+    images:
+      - file: wall-to-bukhansan
+        caption: The wall and the old city, with Bukhansan on the skyline
+      - file: winding-wall
+        caption: The wall drops steeply toward downtown
+        focus: center
+      - file: granite-ridge
+        caption: Inwangsan's bare granite
+  - type: quote
+    variant: vibe
+    text: A short walk from the palace, and you're on bare rock above the whole city.
+  - type: cost_breakdown
+    items:
+      - label: Inwangsan trail
+        local: 0
+        brl: 0
+      - label: Subway to Gyeongbokgung
+        local: 1550
+        brl: 6.44
+        note: Transport card fare
+      - label: Green bus back from Yun Dong-ju Hill
+        local: 1500
+        brl: 6.24
+        note: "7212 / 1020 / 7022, card fare"
+  - type: map
+    zoom: 14
+    note: "Start: **Gyeongbokgung Station Exit 1** → Sajikdan, then up along the wall. Finish: down the same way, or on to **Yun Dong-ju Hill** (bus 7212 / 1020 / 7022 back to Gyeongbokgung Station Exit 3)."
+  - type: tips
+    variant: insider
+    items:
+      - "Time it backwards from sunset: about **17:32** on 10 Jan and **17:42** on 20 Jan, dark by about 18:00–18:10. Leave Sajikdan an hour before."
+      - "Night hiking is allowed, and KoreaToDo recommends a **headlamp**. Your phone torch works, but you'll want both hands on the steep steps."
+      - "Coming down by the Gyeongbokgung side puts you a short walk from dinner in the hanok lanes between the mountain and the palace, the old Sangchon (Udae) quarter the official site describes."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The official site warns that Inwangsan's rocky sections need extra care **in winter**. After snow or frost, wet granite and stone steps get slick. Skip the dark descent if it's icy; go at midday instead."
+      - "**Mondays:** the official City Wall site and the Seoul city trail guide both say open 24 hours, and their only Monday closures are buildings (Yun Dong-ju Literary Museum, Sungnyemun). KoreaToDo still says no hiking on Mondays. Your Mondays are **11 and 18 Jan**: pick another day to be safe."
+      - "Going alone? KoreaToDo says there is only one main trail, along the wall: stay on it and tell someone when you expect to be down."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing, dry, windy on the open ridge
+    note: "Seoul's January averages are 2.1 °C by day and −5.5 °C at night. The climb warms you up, then the summit wind and the stop for sunset cool you down fast. Cold, dry air gives the longest views."
+    wear: Layers you can open and close, windproof shell, gloves, hat, shoes with real grip
+  - type: pairs_well
+    items:
+      - id: gyeongbokgung-palace
+        note: Palace in the afternoon (same station), Inwangsan for sunset
+      - id: naksan-park-city-wall
+        note: The same city wall on the other side of town, easier and lit

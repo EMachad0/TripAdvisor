@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: entrance
+  title: File:Womb Nightclub Tokyo.jpg
+  author: Dick Thomas Johnson
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Womb_Nightclub_Tokyo.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a0/Womb_Nightclub_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Womb nightclub in the Shibuya district of Tokyo in 2023.
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: vj-booth
+  title: File:My VJ Booth @WOMB, Shibuya Tokyo (2013-06-02 14.31.22 by superidoljp).jpg
+  author: superidoljp from Tokyo, Japan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:My_VJ_Booth_@WOMB,_Shibuya_Tokyo_(2013-06-02_14.31.22_by_superidoljp).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b8/My_VJ_Booth_%40WOMB%2C_Shibuya_Tokyo_%282013-06-02_14.31.22_by_superidoljp%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "My VJ Booth @WOMB, Shibuya Tokyo Flickr Tags: japan tokyo VJ laptop tablet iPad ."
+  width: 5760
+  height: 3840
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

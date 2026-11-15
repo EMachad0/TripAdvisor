@@ -1,0 +1,172 @@
+id: hk-lny-night-parade
+name: "Chinese New Year Night Parade"
+short_name: New Year Night Parade
+name_local: 新春國際匯演之夜
+country: hong-kong
+city: hong-kong
+area: Tsim Sha Tsui
+category: shows
+fame: popular
+tags: [lunar-new-year, lunar-new-year-option, parade, dragon-dance, lion-dance, lanterns, free, crowds, night]
+kind: See
+why: "Floats, dragons and lion dancers through Tsim Sha Tsui on New Year's night (Sat Feb 6 if 2027 repeats 2026). Free from the kerb; seats from HK$450."
+
+when:
+  dates:
+    - { from: 2027-02-06, to: 2027-02-06 }
+  kind: only
+  label: "New Year's Day, Sat 6 Feb"
+  confirmed: false
+
+cost:
+  local: 0
+  currency: HKD
+  brl: 0
+  note: "Free along the route. 2026 stand seats at the Cultural Centre cost HK$450–600, sold in person ten days before"
+fx: { rate: 0.7219, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "3–4 h with the wait"
+best_time: "Sat Feb 6; on Canton Road by mid-afternoon"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "2026: street warm-up from 18:00, parade 20:00–21:45. The 2027 time isn't announced"
+  winter: "Lunar New Year's Day is **Sat Feb 6, 2027**, a public holiday (the holiday runs Feb 6–9). The Tourism Board runs the parade on the first day of the holiday, but has published nothing for 2027 yet (checked Nov 14, 2026). Many restaurants close or cut hours on the first days of New Year."
+
+location:
+  address: Hong Kong Cultural Centre Piazza, Salisbury Road, Tsim Sha Tsui (the start)
+  address_local: 九龍尖沙咀梳士巴利道 香港文化中心廣場
+  lat: 22.29395
+  lng: 114.17039
+  nearest_transit: "Tsim Sha Tsui or East Tsim Sha Tsui MTR"
+
+sources:
+  - url: https://www.discoverhongkong.com/eng/events/chinese-new-year.html
+    title: "Chinese New Year (Hong Kong Tourism Board): parade on the first day, races on the third"
+    checked: 2026-11-14
+  - url: https://www.hk01.com/食玩買/60319120/旅發局初一花車巡遊-觀眾席門票周六開售-沿途免費欣賞
+    title: "旅發局初一花車巡遊 觀眾席門票周六開售 (HK01, 2026-02-05): 2026 times, route, seat prices and sale"
+    checked: 2026-11-14
+  - url: https://thebeat.asia/hong-kong/the-list/events/cathay-international-chinese-new-year-night-parade-2026
+    title: "Cathay International Chinese New Year Night Parade 2026 (The Beat): 20:00–21:45, free along the route"
+    checked: 2026-11-14
+  - url: https://news.rthk.hk/rthk/en/component/k2/1844157-20260217.htm
+    title: "Night parade delivers rousing welcome to Year of Horse (RTHK, 2026-02-17): route, 12 floats"
+    checked: 2026-11-14
+  - url: https://news.tvb.com/en/1151439-DancersandcreaturesreadyforLunarNewYearparadeinTsimShaTsui
+    title: "Dancers and creatures ready for Lunar New Year parade (TVB News, 2026-02-16): dragons, free spots"
+    checked: 2026-11-14
+  - url: https://www.thestandard.com.hk/news/article/226284/Crowds-gather-to-watch-the-Chinese-New-Year-Night-Parade-welcoming-the-Year-of-the-Snake
+    title: "Crowds gather for the Night Parade (The Standard, 2025-01-29): queuing on Canton Road from 3 pm"
+    checked: 2026-11-14
+  - url: https://www.info.gov.hk/gia/general/202602/12/P2026021200363.htm
+    title: "Chinese New Year Lantern Display 2026 (LCSD, 2026-02-12): Cultural Centre Piazza, Feb 12 – Mar 15, 6–11pm, free"
+    checked: 2026-11-14
+  - url: https://www.news.gov.hk/eng/2024/02/20240202/20240202_170620_948.html
+    title: "Lantern displays illuminate LNY (news.gov.hk, 2024-02-02): Feb 2–25 display, carnivals Feb 20–25"
+    checked: 2026-11-14
+  - url: https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2027e.txt
+    title: "Gregorian–Lunar calendar 2027 (Hong Kong Observatory): Feb 6 = New Year, Feb 20 = 15th day"
+    checked: 2026-11-14
+  - url: https://www.gov.hk/en/about/abouthk/holiday/2027.htm
+    title: "General holidays for 2027 (GovHK): Feb 6, 8 and 9"
+    checked: 2026-11-14
+  - url: https://hongkongcheapo.com/things-to-do/hong-kong-chinese-new-year/
+    title: "Lunar New Year in Hong Kong (HK Cheapo, 2025-01-22): lion and dragon dances in the parade, restaurants closed"
+    checked: 2026-11-14
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Climatological normals 1991–2020 (Hong Kong Observatory): February"
+    checked: 2026-11-14
+confidence: medium
+confidence_note: "Nothing for 2027 is announced: date, time, route, seat prices and the lantern display are all the 2026 pattern. 2026 seats were sold only in person at the Kowloon Visitor Centre; whether 2027 adds online sales is unknown."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: parade-performer
+    caption: "The 2012 parade, themed \"World City. World Party.\""
+    hook: Neon floats, Chinese dragons and drum-led lions rolling down Nathan Road on the first night of the year.
+  - type: quick_facts
+    time_needed: "3–4 h with the wait"
+    best_time: "Sat Feb 6; on Canton Road by mid-afternoon"
+    extra:
+      - label: 2027 status
+        value: Not announced
+        detail: "2026: first day of New Year, 20:00–21:45"
+      - label: Seats (2026)
+        value: HK$450–600
+        detail: Free standing all along the route
+      - label: Lanterns nearby
+        value: Cultural Centre Piazza
+        detail: "Free LCSD display, 18:00–23:00 in 2026"
+  - type: highlights
+    items:
+      - title: Dragons, lions and dinosaurs
+        text: "In 2026 the **Chinese Martial Arts Dragon and Lion Dance** team shared the road with Cromosauro, an Italian dinosaur troupe, and two Chinese dragons. On your dates, this is the most reliable place to see a dragon dance."
+      - title: Floats with local jokes
+        text: "Twelve floats in 2026, including a Cathay Pacific plane, a retro McDonald's train, Labubu and Molly, and a glowing wishing tree from Lam Tsuen village."
+      - title: Free from the kerb
+        text: "No ticket needed: crowds line **Canton Road, Haiphong Road and Nathan Road**. The parade starts at the Cultural Centre and ends outside the Sheraton on Salisbury Road."
+      - title: The lantern display at the start
+        text: "The Cultural Centre Piazza, where the parade begins, hosts the free **Chinese New Year Lantern Display**. In 2026 it was paper-craft horses, lions and cheongsams, lit 18:00–23:00."
+  - type: prose
+    title: Is this the Lantern Festival?
+    dropcap: true
+    text: |-
+      **No, but they belong together.** Chinese New Year is day 1 of the first lunar month (Sat Feb 6, 2027). The **Lantern Festival** (Yuen Siu, 元宵) is day 15 of the same month, **Sat Feb 20, 2027**, the night that closes the New Year season. You fly home around Feb 9, so you miss the festival itself and its lantern carnivals (in 2024 those ran Feb 20–25, around day 15).
+
+      What you *can* see is the **Chinese New Year Lantern Display** at the Cultural Centre Piazza. In 2024 it opened 8 days before New Year and in 2026 five days before, and both years it stayed up until after the Lantern Festival. If 2027 follows that pattern, it will be lit while you're here. Nothing is announced yet.
+
+      **2027 status of the parade**: not announced. The Tourism Board's page says it runs on the first day of the holiday. In 2026 it ran from 20:00 to 21:45 with a street warm-up from 18:00.
+  - type: gallery
+    images:
+      - file: parade-dancer
+        caption: A costumed performer in the 2012 parade
+      - file: cultural-centre-rehearsal
+        caption: A parade rehearsal in Tsim Sha Tsui
+      - file: lion-dance-poles
+        caption: "A lion dance on poles in Tseung Kwan O, February 2024 (not the parade)"
+  - type: quote
+    variant: vibe
+    text: Drums, cymbals and a dragon weaving over the heads of the crowd on Nathan Road.
+  - type: cost_breakdown
+    items:
+      - label: Standing along the route
+        local: 0
+        brl: 0
+      - label: Cheapest 2026 stand seat
+        local: 450
+        brl: 324.86
+        optional: true
+    note: "In 2026 seats went on sale in person on Feb 7, ten days before the parade. If 2027 repeats that, sales would be around Jan 27, while you're still in Japan."
+  - type: map
+    zoom: 15
+    note: "The route: Cultural Centre Piazza → Canton Road → Haiphong Road → Nathan Road → Salisbury Road (Sheraton). Canton Road is where 2025's early birds queued."
+  - type: tips
+    variant: insider
+    items:
+      - "Claim a kerb spot early. In 2025 people queued on **Canton Road from 15:00** for a 20:00 parade."
+      - "2026 seats were sold only at the **Kowloon Visitor Centre** (Star Ferry Pier, Tsim Sha Tsui) from 08:00 on sale day: take a queue number, then choose seats and pay at a set time, up to 4 per person. Watch discoverhongkong.com in January."
+      - "See the lantern display at the Cultural Centre Piazza on another night: on parade night the piazza is the start area."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Many restaurants are closed** or on short hours on New Year's Day. Eat early, before you claim your spot."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: "Mild and humid; about 8 days with some rain in an average February"
+    note: "February averages 15.3–19.4 °C. Hours of standing are the hard part, not the cold."
+    wear: Light jacket, comfortable shoes, a small bag
+  - type: pairs_well
+    items:
+      - id: hk-lny-eve-victoria-park-fair
+        note: "The night before: the all-night flower fair"
+      - id: harbour-city-ocean-terminal-deck
+        note: "Right on the route at the Canton Road end; see its page for its New Year displays"
+      - id: k11-musea
+        note: "A few minutes from the route; see its page for its New Year programme"
+      - id: hk-lny-harbour-fireworks
+        note: "The next night (expected): fireworks from the same waterfront"

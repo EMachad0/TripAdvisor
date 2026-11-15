@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: park-under-fuji
+  title: File:Fuji-San and Fuji-Q.jpg
+  author: sergejf
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Fuji-San_and_Fuji-Q.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Fuji-San_and_Fuji-Q.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Journey to Japan
+  width: 6240
+  height: 4160
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

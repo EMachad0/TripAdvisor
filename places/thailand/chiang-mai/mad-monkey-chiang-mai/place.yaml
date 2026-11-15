@@ -1,0 +1,131 @@
+id: mad-monkey-chiang-mai
+name: "Mad Monkey Chiang Mai"
+short_name: Mad Monkey CM
+name_local: แมด มังกี้ เชียงใหม่
+country: thailand
+city: chiang-mai
+area: Chang Khlan · Tha Phae
+category: stay
+tags: [hostel, social, party, pool, bar, pub-crawl, coworking, female-dorm]
+kind: Stay
+why: "Highly social (atmosphere 9.9): saltwater pool, 19:00 half-price-beer meet-up, pub crawls. ฿671 a bed, upper end for Chiang Mai dorms."
+
+cost:
+  local: 671.37
+  currency: THB
+  brl: 110.71
+  note: "Hostelworld, 12-bed dorm, non-refundable rate, Sat 9 – Sun 10 Jan 2027, searched 12 Nov 2026"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "24-hour front desk · check-in 14:00–24:00 · check-out by 12:00 · no curfew · adults only"
+  winter: "Chiang Mai's cool, dry season: about 16 °C at night, so the pool is for the afternoon. Saturday 9 Jan 2027 still showed every dorm type free on 12 Nov."
+
+location:
+  address: "7/2 Soi 2 Kamphaeng Din Road, Chang Khlan, Mueang Chiang Mai 50100"
+  address_local: "7/2 ซอย 2 ถนนกำแพงดิน ตำบลช้างคลาน อำเภอเมืองเชียงใหม่ เชียงใหม่ 50100"
+  lat: 18.7851
+  lng: 98.99757
+  nearest_transit: "No metro: Tha Phae Gate is about 500 m away; red songthaews and Grab"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Chiang-Mai/Chiang-Mai/318111?from=2027-01-09&to=2027-01-10&guests=1&currency=THB"
+    title: "Mad Monkey Chiang Mai on Hostelworld, Sat 9 Jan 2027 search: dorm prices, events, rules, 9.8 (3,241), atmosphere 9.9, Nov 2026 reviews"
+    checked: 2026-11-12
+  - url: "https://www.booking.com/hotel/th/brick-house-hostel.en-gb.html?checkin=2027-01-09&checkout=2027-01-10&group_adults=1&selected_currency=THB"
+    title: "Booking.com listing under its old name, Brick House Hostel: same address, adults only, pool, 24-hour desk, ฿500 cash deposit"
+    checked: 2026-11-12
+  - url: https://www.openstreetmap.org/?mlat=18.7851&mlon=98.99757#map=17/18.7851/98.99757
+    title: "OpenStreetMap: Mad Monkey Hostel Chiang Mai / Brick House Hostel, Kamphaeng Din Road Lane 2"
+    checked: 2026-11-12
+  - url: https://www.hostelworld.com/hostels/asia/thailand/chiang-mai/
+    title: "Hostelworld: Chiang Mai hostels list (undated 'from' prices): cheapest dorm from €1.54, Mad Monkey dorms from €17.54"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Chiang_Mai
+    title: "Chiang Mai (Wikipedia): January climate normals 1991–2020"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices and events are from one Hostelworld search read on 12 Nov 2026; prices move and the event calendar can change. Booking.com still lists the building as Brick House Hostel with no reviews, so I used it only for facilities and address. Wi-Fi speed and coworking-space hours are not published. The 500 m to Tha Phae Gate is measured on the map. Thai name and address are my own renderings."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: tha-phae-gate
+    caption: "Tha Phae Gate, about 500 m away. No free photo of the hostel itself exists"
+    hook: "A pool, a bar and a crowd heading out every night, ten minutes on foot from the old city walls."
+  - type: quick_facts
+    extra:
+      - { label: Slot, value: Weekend night (Sat 9 Jan), detail: "Meet Up + Music Trivia that night; crawl is Sun 10" }
+      - { label: Vibe, value: Party-social, detail: "Atmosphere 9.9/10 on Hostelworld" }
+      - { label: Check-in, value: "14:00–24:00", detail: "24-hour front desk; check-out by 12:00" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "12-bed mixed or female dorm · Sat 9 Jan"
+        local: 671.37
+        brl: 110.71
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Chiang-Mai/Chiang-Mai/318111?from=2027-01-09&to=2027-01-10&guests=1&currency=THB"
+        note: "Non-refundable; ฿723.36 with free cancellation. Searched 12 Nov"
+      - label: "8-bed mixed dorm"
+        local: 722.23
+        brl: 119.1
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Chiang-Mai/Chiang-Mai/318111?from=2027-01-09&to=2027-01-10&guests=1&currency=THB"
+        note: "Non-refundable; ฿778.16 with free cancellation"
+      - label: "4-bed mixed dorm"
+        local: 773.09
+        brl: 127.48
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Chiang-Mai/Chiang-Mai/318111?from=2027-01-09&to=2027-01-10&guests=1&currency=THB"
+        note: "Non-refundable; ฿832.96 with free cancellation"
+    rating:
+      score: 9.8
+      out_of: 10
+      source: Hostelworld
+      reviews: 3241
+      atmosphere: 9.9
+      checked: 2026-11-12
+    social:
+      - "**The Meet Up**: every day at 19:00 at the bar, with 50% off beers."
+      - "**Pub crawls every Tuesday, Friday and Sunday**, plus Music Bingo on Tuesdays and Karaoke on Thursdays."
+      - "A **saltwater pool** and an air-conditioned bar and restaurant; a tour desk books Sticky Waterfall, sanctuary and zipline days."
+      - "November 2026 reviews: \"Made the best friends\", \"Where the party is at\". Hostelworld's summary calls it highly social."
+    good_to_know:
+      - "Air-con dorms with **360° privacy curtains**, a reading light and a socket at each bed; female dorms available."
+      - "Free lock boxes, luggage storage and towels; a **co-working space** and a gym on site."
+      - "Adults only, no smoking, no curfew. Booking.com asks for photo ID and a credit card at check-in."
+      - "Bring **฿500 cash** for the refundable damage deposit, collected on arrival and returned at check-out (Booking.com)."
+  - type: highlights
+    items:
+      - title: Instant crew
+        text: "A 19:00 meet-up every night and three pub crawls a week (Tue, Fri, Sun): the easiest way to go out in Chiang Mai alone."
+      - title: Pool in the cool season
+        text: "A saltwater pool for the warm January afternoons (about 30 °C), before the evenings drop to 16 °C."
+      - title: Old City on foot
+        text: "Tha Phae Gate (about 500 m), the Night Bazaar and Wat Chedi Luang are listed as nearby: the old city is a walk, not a ride."
+      - title: Work if you must
+        text: "A co-working space on site makes it a workable base if you bring the laptop for the Mon–Fri nights."
+  - type: cost_breakdown
+    items:
+      - { label: "12-bed dorm bed, one night (non-refundable)", local: 671.37, brl: 110.71 }
+  - type: map
+    note: "Down **Soi 2 off Kamphaeng Din Road**, south-east of the old city moat; drivers may know it by its old name, **Brick House Hostel**."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: weekend night, Sat 9 Jan.** That night Hostelworld lists the 19:00 **Meet Up and Music Trivia**, no crawl. The Sunday crawl falls on Sun 10 Jan, the day you fly to Seoul, and Fri 8 Jan is a work night."
+      - "**Cheapest way in:** Hostelworld's Chiang Mai list (undated 'from' prices, read 12 Nov) starts under **€2 (about R$10)** a dorm bed and puts Mad Monkey at €17.54 (R$109), near the top: you pay for the social scene. A dated 9 Jan search returned nothing, so compare live."
+      - "**Book direct?** Hostelworld itself says booking on Mad Monkey's own site gives extra free nights and loyalty perks; compare before paying."
+      - "The non-refundable rate is about ฿52 cheaper a night; pay the extra for free cancellation while your dates can still move."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It is built for nights out: with work from 19:00 to 04:00, the bar's busiest hours are your working hours. Test the co-working space and Wi-Fi on arrival."
+      - "Some apps still show it as Brick House Hostel. Search both names before you tell a Grab driver."
+  - type: weather
+    temp_low_c: 16
+    temp_high_c: 30
+    conditions: "Cool, dry season: fresh nights, warm afternoons"
+    note: "Pool weather after lunch, jacket weather after dark (1991–2020 normals for January)."
+    wear: "T-shirt by day, a light jacket for the evening"

@@ -1,0 +1,25 @@
+# Independent review of akihabara-retro-game-crawl. Written by `./atr review`; do not edit by hand.
+id: akihabara-retro-game-crawl
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 69da23dd96f90e69354c948e22e8cbedeeef646bc6335204c795797cdfd12538
+facts:
+  supported: 9
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.local
+    problem: The page's only cost, ¥1,000 for 1 h of 5F free play with free candy, comes from a guide published 13 Apr 2022. Super Potato's official page mentions the 5F retro game center but gives no price or free-play system. The hook also states 'all-you-can-play retro cabinets with free candy' as a current fact.
+    evidence: Taken the 'soften' route. cost.local is now 0 and the note reads 'Free to browse… a 2022 guide gives ¥1,000 for 1 h'. The cost_breakdown row says '(2022 price)' and is marked optional. The hook now says 'a small retro arcade on the top floor'. https://www.superpotato.com/shop/akihabara/ supports free entry and the arcade ('5Fのフロアでは、懐かしい筐体が並んだゲームセンターも営業中！ 休憩だけでもOK!'), and the confidence_note says no newer price was found.
+  - field: why
+    problem: "`why` promises 'HEY's shmup floor across the street' as a current feature. The only source for it is a 2017 Commons photo, and the confidence_note itself says HEY now leans toward rhythm and crane games. Taito's official page did not render its machine list, so nothing current supports it. `why` also says 'three floors of Famicom carts', but the 2022 guide says games are sold on 3F–4F only, with merch on 4F and the arcade on 5F."
+    evidence: "`why` now says 'retro floor… soundtrack floor and 5F retro arcade, then Taito's four-floor HEY' and no longer claims a current shmup floor. The official Super Potato page lists 'GM（サントラ）' and '５Ｆレトロゲームセンター'. https://www.taito.co.jp/store/00001703 gives '外神田１－１０－５廣瀬本社ビル１階～４階'. The HEY highlight keeps the shmup claim dated to 2017 and points to the official page."
+  - field: hours.winter
+    problem: This field gives the traveler's Japan dates as '10–19 Jan, or 22 Jan – 4 Feb on the newer draft'. The trip config has Japan from 20 Jan to 4 Feb 2027, and 10–19 Jan is the Korea leg.
+    evidence: "hours.winter now says 'Your Japan dates (20 Jan – 4 Feb 2027)', which matches config/trip.yaml (japan from: 2027-01-20, to: 2027-02-04)."
+rereview_of: 28eb06ca1b7f0a67a0ddafbf59b3f141fc87018c0ee43c6acce58d75f8fa7172
+summary: All three earlier findings are fixed. The new text matches the official Super Potato page and the Taito HEY page (hours, floors, free entry, video and rhythm game updates dated 2026.10.27). The phone and desktop pages render cleanly. 'Across the street' is the only new claim no source states, but it is not a fact the traveler would act on.
+model: claude-opus-5-5
+cost_usd: 0.51

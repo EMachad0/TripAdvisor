@@ -1,0 +1,89 @@
+id: pai
+country: thailand
+name: "Pai"
+name_local: ปาย
+region: Mae Hong Son, N Thailand
+scope: city
+cities: [pai]
+why: "A small mountain-valley town known as the 'Khao San Road of the North': a canyon at sunset, hot springs, misty viewpoints and backpacker bars. About 3.5–4 h by van from Chiang Mai, over 762 curves. Laptop trip only."
+best_for: [nature, views, nightlife]
+highlights: ["Pai Canyon at sunset", "Yun Lai viewpoint at sunrise", "Walking Street and the bar strip", "Tha Pai and Sai Ngam hot springs", "White Buddha (Wat Phra That Mae Yen)", "Bamboo bridge over the paddies"]
+days_suggested: { min: 2, max: 4 }
+cost_level: low
+fame: popular
+lat: 19.3581
+lng: 98.4406
+getting_there: "Van from Chiang Mai only (no train, no flights): Prempracha from Arcade terminal hourly 06:30–17:30, about ฿150–355 (R$25–59), 3.5–4 h on Route 1095. aYa vans ฿250 with hotel pickup."
+getting_around: "The centre is walkable. Everything else needs wheels: scooters about ฿100–300 a day (deposit or passport), bicycles ฿40–100, plus motorbike and 4WD taxis."
+winter_note: "January is cool-season peak: dry, sunny days of about 25–26 °C and nights down to about 13 °C, cold on a scooter at dawn. It is the busy season (Oct–Feb), with crowds, traffic and rooms hard to find, and vans can sell out a day ahead."
+image: pai-canyon
+sources:
+  - url: https://en.wikivoyage.org/wiki/Pai
+    title: "Pai (Wikivoyage): vans, no flights, scooters, canyon, hot springs, Bamboo Bridge, White Buddha, bars, busy season"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/guides/chiang-mai-to-pai
+    title: "Visit Thailand Today (2026-10-19): Chiang Mai to Pai, 762 curves, Prempracha and aYa van times and fares"
+    checked: 2026-11-12
+  - url: https://kupi.com/en/explore/thailand/pai/weather
+    title: "Kupi: Pai weather by month, cool season Nov–Feb, January days 25–26 °C, nights down to 13 °C"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/guides/bangkok-to-chiang-mai
+    title: "Visit Thailand Today (2026-09-25): Bangkok–Chiang Mai sleeper No. 9, 18:40 → about 07:15, berths ฿941–1,041; flights 1h10–1h20"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Van fares vary by seller (aYa's and Prempracha's own sites did not load): ฿150–220 is what recent travelers paid at the Arcade counter (not a posted price) and ฿270–355 is the online price, both from one 2026 guide. January temperatures come from a weather site, not a national met-office station. I found no source on haze in Pai specifically, so the page makes no haze claim for it."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Red sandstone ridges, valley mist at dawn and reggae bars by the river, a morning of hairpins from Chiang Mai."
+    caption: "Pai Canyon at sunset"
+    focus: "85% 70%"
+  - type: highlights
+    items:
+      - title: Pai Canyon at sunset
+        text: "Narrow red ridges with 50 m drops on both sides, about 8 km from town. Free, and the classic sunset spot. Paths are narrow, so stick to the steps if you're unsure."
+      - title: Mist from Yun Lai
+        text: "Above the Yunnanese **Santichon** village, the Yun Lai viewpoint (฿20) looks over the valley, best on cool-season mornings when mist fills it."
+      - title: Hot springs on a cold evening
+        text: "**Tha Pai Hot Springs** (฿300 for foreigners) mixes 80 °C sulphur water with a stream. Resort pools nearby charge about ฿80 and stay open after dark."
+      - title: The backpacker scene
+        text: "The **Walking Street** comes alive in the evenings in peak season, with live music and reggae bars in town and late-night bars across the bridge on the eastern edge."
+  - type: prose
+    title: What a few days here buy you
+    text: |-
+      Pai is the opposite of Bangkok: one main street, rice paddies and mountains all around, and days that run on a scooter. Two nights give you one sunrise, one sunset at the canyon and one night out; three or four let you add the hot springs, the 815-metre **bamboo bridge** across the paddies (฿30) and the **White Buddha** above town, reached by 353 steps. The town itself has few sights; people come for the valley and the mood. In return you get mountain air, cold nights and a backpacker town you can walk end to end.
+
+      **Does it fit your dates?** Only if you work your night shifts from up north. Your free nights are Sat 2, Sun 3 and Sat 9 Jan, with 19:00–04:00 shifts Mon 4 – Fri 8 Jan. The plan: the **18:40 sleeper No. 9 from Krung Thep Aphiwat** (Bang Sue, not Hua Lamphong) on Sat 2 Jan, arriving Chiang Mai about 07:15; the van to Pai on Sun 3 Jan; **two to four shift nights from Pai** (or split them with Chiang Mai); then back down the road to fly Chiang Mai–Bangkok (about 1h10–1h25 in the air, ฿700–1,500 if booked 2–4 weeks ahead, more if left late, so book it with the train) before Sun 10 Jan. That assumes your Seoul flight leaves from Bangkok; it isn't booked yet. Test the Wi-Fi the first afternoon. If you won't work from the mountains, skip Pai.
+
+      **Book the train now.** Lower berths on No. 9 sell out first, earliest for November–February. SRT sells seats 90 days ahead on its D-Ticket site (dticket.railway.co.th), so 2 Jan is already bookable: upper ฿941, lower ฿1,041.
+
+      **What the detour costs.** Sleeper ฿941–1,041 + two vans ฿150–355 each + the flight back ฿700–1,500 comes to about **฿1,940–3,250 (R$320–536)** in transport if the flight is booked early (a late flight costs more), before beds and food. That is three to five days of the R$100 daily budget, spread over a week you'd be working anyway.
+
+      **Getting here.** Pai only makes sense as an add-on to **Chiang Mai**. Prempracha vans leave Arcade bus terminal (Terminal 2) every hour on the half hour from 06:30 to 17:30, and aYa Service runs seven vans a day from 08:30 to 14:30 with pickup at your hotel. Expect 3.5–4 hours with one rest stop halfway at Mae Sae. Route 1095 is a steep mountain road: take a motion-sickness pill if you need one. Big bags go on the roof, 15 kg a person.
+
+      **Where to stay.** In or near the centre, so you can walk back from the bars. Wikivoyage warns that packs of territorial dogs roam the empty streets at night beyond the two main bar streets.
+  - type: gallery
+    images:
+      - { file: walking-street, caption: "Pai Walking Street after dark" }
+      - { file: yun-lai-mist, caption: "Morning mist from the Yun Lai viewpoint" }
+      - { file: white-buddha, caption: "The White Buddha above town" }
+      - { file: valley-view, caption: "The town and its valley from the hillside" }
+  - type: tips
+    variant: insider
+    items:
+      - "Book the van online for December–January: aYa's vans often sell out a day or more ahead."
+      - "Sit near the front of the van and eat a light breakfast before the curves."
+      - "Bring a warm layer for sunrise at Yun Lai and for scooter rides after dark."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Police report an average of **two accidents a day** on the Chiang Mai–Pai road. Ride a scooter up only if you are already a confident rider."
+      - "Scooter rentals keep your passport or a ฿2,000–3,000 cash deposit; read the insurance terms first."
+      - "No shared van leaves Chiang Mai airport for Pai: go to Arcade or your hotel's pickup first."
+  - type: weather
+    temp_low_c: 13
+    temp_high_c: 26
+    conditions: "Cool season: dry and sunny by day, cold nights"
+    note: "Cool-season mornings can fill the valley with mist, the best time for viewpoints."
+    wear: "Shorts and T-shirt by day, a hoodie or light jacket for nights and the scooter"

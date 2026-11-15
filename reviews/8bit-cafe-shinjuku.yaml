@@ -1,0 +1,30 @@
+# Independent review of 8bit-cafe-shinjuku. Written by `./atr review`; do not edit by hand.
+id: 8bit-cafe-shinjuku
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 1630556140348d55340a9be63f553fee76a900adf8376dfad89f1cad7722e6f4
+facts:
+  supported: 8
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[3].items[1].text
+    problem: The page calls Pico Park 'co-op'. The cited visitor played its competitive battle modes with a friend, not co-op levels with strangers.
+    evidence: https://www.stripes.com/living/pacific_travel/quick_trips/2022-09-15/retro-video-game-cafe-tokyo-japan-7299431.html — "I played with my friend on battle mode, in which players compete…"
+    fix: Say 'a 2–8 player party game', or mention the battle modes, instead of 'co-op' here and in the vibe quote.
+resolved:
+  - field: hours.winter
+    problem: The note says the traveler's Japan dates are "10–19 Jan, or 22 Jan – 4 Feb on the newer draft". config/trip.yaml has Japan from 2027-01-20 to 2027-02-04, and 10–20 Jan are the Korea days. This text shows in the Hours row on the page.
+    evidence: hours.winter now says '20 Jan – 4 Feb 2027' and still says to check Google Maps; config/trip.yaml has japan from 2027-01-20 to 2027-02-04.
+  - field: cost
+    problem: The ¥1,200 total leaves out tax. The bar's own Facebook page says 10% tax is added, and that page was not used as a source.
+    evidence: The bar's Facebook page is now in sources. It says 'charge¥500,BEER¥600,10%tax' (atr render, HTTP 200). cost.local 1210 = 500 + 600 + 110 tax, and brl 42.56 = 1210 × 0.03517. A beer line is in both cost_breakdown and menu.
+  - field: why
+    problem: The `why` and the vibe quote both lead with Mario Kart, but no listed source mentions Mario Kart. Stars and Stripes names Pico Park on a large Game Boy as the party game.
+    evidence: "why, blocks[3].items[1] and blocks[5] now name Pico Park. Stars and Stripes says: 'Gamers can also play Pico Park, an action puzzle game made for two to eight players on a large Nintendo Game Boy.'"
+rereview_of: 69a85c1deede13bff845ecf1ea872227233d71bafbf4a8c96695ccc7b49aab3c
+summary: "All three earlier findings are fixed. The new prices (¥500 charge, ¥600 beer, 10% tax, ¥1,210 total) match the bar's own Facebook page, and the arithmetic is right. One nit is left: Pico Park is called 'co-op', but the cited visitor played its competitive battle modes."
+model: claude-opus-5-5
+cost_usd: 0.336

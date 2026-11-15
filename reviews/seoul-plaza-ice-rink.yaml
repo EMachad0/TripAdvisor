@@ -1,0 +1,24 @@
+# Independent review of seoul-plaza-ice-rink. Written by `./atr review`; do not edit by hand.
+id: seoul-plaza-ice-rink
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 7e97589f9344383cd9d2c5cd91bc213923812ea9258dba279607d182a6e403c5
+facts:
+  supported: 3
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[3].text
+    problem: The new aside "the lights come on around sunset" has no support in any listed source. The mediahub page only shows a night rendering ("조감도(야간)") and says nothing about when the lights switch on.
+    evidence: "https://mediahub.seoul.go.kr/archives/2016523: no statement on lighting times"
+    fix: Drop the parenthetical or reword it as "sunset is around 17:30 in mid-January", and cite a sunrise/sunset source.
+resolved:
+  - field: best_time
+    problem: The page recommends a weekday evening session, but the traveler works nights from 21:00 on Jan 11–15 and 18–19. The 20:30–21:30 session overlaps the start of the shift, and the 19:00 session leaves little margin. The traveler's only free day in Seoul is Sun 10 Jan (Jan 16–17 are Hwacheon), which falls on a weekend.
+    evidence: 'best_time, quick_facts.best_time and the blocks[3] prose now recommend the 16:00 or 17:30 session on work days, with 19:00 as the latest. All three fit before the 21:00 shift in config/trip.yaml korea.notes. https://mediahub.seoul.go.kr/archives/2016523 lists the slots: 5회 "16:00~17:00", 6회 "17:30~18:30", 7회 "19:00~20:00".'
+rereview_of: cbbd53a2e8c9a115d655983f265ad4eb90761030c1e917e46a76d368952ad402
+summary: The earlier timing finding is resolved. The page now steers the traveler to the 16:00 or 17:30 sessions on work days, with 19:00 as the latest, and the city's 2025/26 session table supports those times. The only new problem is the unsourced remark about when the lights come on, which is polish, not a blocker.
+model: claude-opus-5-5
+cost_usd: 0.214

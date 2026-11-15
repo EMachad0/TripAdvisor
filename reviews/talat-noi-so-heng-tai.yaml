@@ -1,0 +1,24 @@
+# Independent review of talat-noi-so-heng-tai. Written by `./atr review`; do not edit by hand.
+id: talat-noi-so-heng-tai
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 432270cb7fb726cf3a3e2b829e94d5ad675b3b5a2d198dab7462860891beb07f
+facts:
+  supported: 5
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[0].caption
+    problem: In the phone hero crop, the glass Marine Department tower fills the top half of the frame and the shrine shows only at the bottom.
+    evidence: build/shots/talat-noi-so-heng-tai-phone-light-s01.png
+    fix: Say the caption shows the shrine below the Marine Department building, or set the focal point lower.
+resolved:
+  - field: blocks[0].image
+    problem: The page does not build. The hero image "street-art" and the gallery image "lane" (blocks[4].images[1].file) have no entry in media/credits.yaml, so `./atr shot` stops with "page not built" and the page could not be looked at.
+    evidence: The hero is now rong-kueak-shrine. It is credited in media/credits.yaml ("Rong Kuak Shrine Talat Noi … 2021 June.jpg", Chainwit., CC BY-SA 4.0), and the gallery with the missing 'lane' image is gone. `./atr validate` passes, and `./atr shot --only phone --theme light` built and rendered all 8 slices.
+rereview_of: 7c0bd087ea988dafa16f88f32bb17cf49601a2592e86d201eda5696721b7d172
+summary: "Earlier blocker 1 is resolved: the page builds and the hero is a credited photo of the shrine. The changes check out. The operator page gives the Yellow Flag fare as a flat ฿24 on Mon–Fri, and trip.yaml supports the Tue–Fri slot and the 19:00 shift. One fact is still unsupported: no source says Yellow Flag stops at Si Phraya. The desktop dark shot did not build, so only the phone light view was checked. No blocker or should remains."
+model: claude-opus-5-5
+cost_usd: 0.449

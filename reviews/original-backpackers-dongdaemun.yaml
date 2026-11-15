@@ -1,0 +1,19 @@
+# Independent review of original-backpackers-dongdaemun. Written by `./atr review`; do not edit by hand.
+id: original-backpackers-dongdaemun
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: ccf069c59c824b713f25f53e3de49fcd94bb9c8eb75cda54d6d6d0f16f21c49d
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[1].extra[2]
+    problem: The page says Hongdae is "About 20 min by subway" and credits a Mar 2026 guest. That guest never names Hongdae, only "the 'going out' area". Dongdaemun to Hongik Univ. is one stop on Line 4, a change, then about 10 stops on Line 2, which is nearer 30 minutes. The same claim is repeated in blocks[7].items[0].
+    evidence: "blocks[1].extra[2] now reads 'Nightlife · ~20 min by subway · A Mar 2026 guest: to \"the going-out area\"', and blocks[7].items[0] quotes the same words. Both match the 2026-03-03 review in https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/330544/reviews/?sort=newest&page=1&monthCount=36&application=web: \"not in the 'going out' area of the city but only about a 20 minute subway ride away\". The page no longer gives a Hongdae travel time."
+rereview_of: 5ae767c267ed5b3cb13c747d661bb7b5d84dbae369f289b616aedb25272b19e8
+summary: "The only earlier finding is resolved: the subway-time claim now quotes the guest's own words instead of naming Hongdae. The new facts hold up. I read the Hostelworld availability feed for 10, 11, 13, 16 and 19 Jan 2027 and for 2 and 15 Dec 2026, and each returned empty dorm and private lists; 1 Dec still lists dorms. The free ramen is supported by a Jul 2026 review ('free tea coffee and ramen at all times'), and Sat 16 Jan matches the traveler's club night on the other Seoul pages. No blocker or should is open."
+model: claude-opus-5-5
+cost_usd: 0.363

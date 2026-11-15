@@ -1,0 +1,124 @@
+id: endo-sushi-osaka-central-market
+name: Endo Sushi, Osaka Central Market
+short_name: Endo Sushi
+name_local: 中央市場 ゑんどう寿司
+name_romanized: Chūō Ichiba Endō-zushi
+country: japan
+city: osaka
+area: Fukushima · Central Market
+category: food
+fame: hidden
+tags: [sushi, market, breakfast, since-1907]
+kind: Eat
+why: "Sushi for breakfast inside Osaka's wholesale fish market since 1907: warm rice, 'grabbed' not pressed, five pieces a plate. Order more until you're full."
+cost:
+  local: 3300
+  currency: JPY
+  brl: 116.06
+  note: "Two 5-piece plates at about ¥1,650 each (2026 estimate; ¥1,500 in a June 2024 report)"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: "1–2 h incl. the queue (45-min seating)"
+best_time: Weekday at opening, around 6:15
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Sat from about 6:00 (6:15 in 2026 reviews) to 14:00. On busy days the queue is cut off around midday."
+  closed: Sundays and national holidays
+  winter: "The market's official 2027 calendar closes it on Sun Jan 24 and Jan 31, and also on Wed Jan 20, Wed Jan 27 and Wed Feb 3. The shop's own site lists only Sundays and holidays, so on those Wednesdays call 06-6469-7108 before going. Safest days: Mon, Tue, Thu, Fri, Sat."
+
+location:
+  address: Osaka Central Wholesale Market, 1-1-86 Noda, Fukushima-ku, Osaka
+  address_local: 大阪府大阪市福島区野田1-1-86 大阪市中央卸売市場本場
+  lat: 34.68427
+  lng: 135.4795
+  nearest_transit: Noda (JR Loop Line) or Tamagawa (Sennichimae Line), ~10 min walk
+
+sources:
+  - url: https://www.endo-sushi.com/12450124631247512473.html
+    title: "アクセス — 中央市場 ゑんどう寿司 official (address, 6:00–14:00, closed Sun & holidays)"
+    checked: 2026-11-12
+  - url: https://www.endo-sushi.com/12513124911251712540.html
+    title: "メニュー — official (tsukami-zushi, jō-maze 5 pieces a plate, aji-bō, akadashi)"
+    checked: 2026-11-12
+  - url: https://www.endo-sushi.com/1243312435123931235812395123881235612390.html
+    title: "ゑんどうについて — official (100 years in business, four generations)"
+    checked: 2026-11-12
+  - url: https://www.endo-sushi.com/
+    title: "中央市場 ゑんどう寿司 — official home page (明治40年 start at Zakoba; moved when the Central Market opened in Nov 1931)"
+    checked: 2026-11-13
+  - url: https://www.city.osaka.lg.jp/shijo/cmsfiles/contents/0000006/6696/r09.pdf
+    title: "令和9年 本場・東部市場カレンダー — Osaka City (2027 market closed days)"
+    checked: 2026-11-13
+  - url: https://retty.me/area/PRE27/ARE618/SUB8904/100000447698/
+    title: "中央市場 ゑんどう — Retty (reviews of 2026 visits: 6:15 opening, 45-min seating, 1-hour queue)"
+    checked: 2026-11-12
+  - url: https://pawatama.com/post-31477/
+    title: "ゑんどう寿司@大阪 visit report — Pawatama (¥1,500 a plate, cash only, queue closes ~12:15)"
+    checked: 2026-11-12
+  - url: https://tabelog.com/en/osaka/A2701/A270108/27082215/
+    title: "Maruchu, same market — Tabelog (walking times from Tamagawa and Noda stations)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours, closed days, menu and history come from the official site, and Retty reviews show it open in Aug 2026. Plate price: ¥1,500 in a June 2024 blog. A May 2026 Retty review (7 plates and 2 soups for about ¥12,000) points to about ¥1,600–1,700, so ¥1,650 is an estimate. Cash only is from the 2024 blog. Unknown: whether the shop opens on the market's Wednesday closed days."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: market-gate
+    caption: "A gate of Osaka's Central Wholesale Market. No free photo of the restaurant exists"
+    hook: Four generations of the Endō family have served market workers here since 1907.
+  - type: quick_facts
+    time_needed: 1–2 h with queue
+    best_time: Weekday, 6:15
+    extra:
+      - { label: Pay, value: Cash only, detail: Per a 2024 visit report }
+      - { label: Seating, value: 45 min, detail: Per a 2026 Retty review }
+      - { label: Queue, value: Up to 1 h, detail: "From a Retty review posted May 2026" }
+  - type: highlights
+    items:
+      - title: Tsukami-zushi, "grabbed" sushi
+        text: "The rice is cooked and used **hot**, without cooling. It's grabbed lightly instead of pressed, so it falls apart in your mouth. The official site calls this the house signature."
+      - title: Jō-maze, plate by plate
+        text: "Each plate brings **5 seasonal pieces**, and you order the next when you're ready. Retty reviewers say about **4 plates** cover the full range of toppings."
+      - title: Brush your own soy
+        text: "Soy sauce comes with a **brush**, so you paint each piece yourself (2026 Retty review)."
+      - title: A real market morning
+        text: "The official site says it began in **1907** at Osaka's old Zakoba fish market and moved into the new Central Market when it opened in **November 1931**. Four generations later, it's still there."
+  - type: menu
+    title: "The order"
+    items:
+      - { name: "Jō-maze (chef's 5-piece plate)", name_local: 上まぜ, price_local: 1650, price_brl: 58.03, note: "≈¥1,600–1,700 in 2026 (¥1,500 in 2024). Order more plates as you like, or pick your own 5", tag: signature }
+      - { name: Horse-mackerel bar sushi, name_local: あじ棒, note: "Made the same way since the shop opened" }
+      - { name: Conger eel, name_local: 穴子, note: "The other house classic named on the official site" }
+      - { name: Red miso soup with clams, name_local: 赤だし, note: "Shijimi clam and blended miso, the house recipe" }
+    note: "The jō-maze price is worked out from a May 2026 bill. A 2017 blog listed the soup at ¥300 before tax, so check the board for current prices."
+  - type: cost_breakdown
+    items:
+      - { label: "First jō-maze plate (5 pieces)", local: 1650, brl: 58.03, estimate: true }
+      - { label: "Second plate (10 pieces in all)", local: 1650, brl: 58.03, estimate: true }
+      - { label: "2 more plates for the full range of toppings", local: 3300, brl: 116.06, optional: true, estimate: true }
+    note: "Cheapest way in: **one plate plus the akadashi soup**, about ¥1,650 plus the soup. That's still almost 2× a ¥900 meal, so make this your one sushi breakfast in Osaka, not a daily habit."
+  - type: map
+    note: "Enter the market grounds. The official site says you'll see a **big clock** in front of you as you enter. Its map marks the restaurant's building from there."
+  - type: tips
+    variant: insider
+    items:
+      - "Arrive at **opening**. A reviewer turned up at 6:15 on a Friday in July 2026 and walked straight in."
+      - "Bring **cash**. A recent visit report says cards aren't accepted."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't go late. One visitor found the queue already closed at **12:15**."
+      - "The **Kyōbashi** branch some guides list closed in February 2025. Go to the market shop."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 9
+    conditions: Cold and mostly dry; still dark at opening
+    note: "You may queue outdoors before sunrise, so dress warm. Inside, the hot rice helps."
+    wear: Warm jacket, hat and gloves for the queue
+  - type: pairs_well
+    items:
+      - { id: tenma-standing-bars, note: "Another old-Osaka counter, at night" }
+      - { id: spa-world-osaka, note: "Warm up after a cold early start" }

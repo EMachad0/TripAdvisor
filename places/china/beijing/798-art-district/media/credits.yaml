@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: slogans-arches
+  title: File:Space-gallery 798-art-district.jpg
+  author: Leeluv
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Space-gallery_798-art-district.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/87/Space-gallery_798-art-district.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 798 Space gallery at the art district of Beijing
+  width: 3831
+  height: 2564
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: sign-798
+  title: File:Beijing 798 Art District.jpg
+  author: Cory M. Grenier
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Beijing_798_Art_District.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f3/Beijing_798_Art_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "798 Art Zone (Chinese: 798艺术区; pinyin: 798 Yìshùqū), or Dashanzi Art District in Beijing, China."
+  width: 3648
+  height: 2736
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: sawtooth-halls
+  title: File:798 Old Factories - panoramio.jpg
+  author: Weixi Zeng
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:798_Old_Factories_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b2/798_Old_Factories_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 798 Old Factories
+  width: 3240
+  height: 4320
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: winter-street
+  title: File:北京798艺术区 (2012-12-12) - panoramio.jpg
+  author: 科技小辛
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC798%E8%89%BA%E6%9C%AF%E5%8C%BA_(2012-12-12)_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d4/%E5%8C%97%E4%BA%AC798%E8%89%BA%E6%9C%AF%E5%8C%BA_%282012-12-12%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 北京798艺术区 (2012-12-12)
+  width: 3264
+  height: 1836
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

@@ -1,0 +1,168 @@
+id: wang-lang-market
+name: "Wang Lang Market"
+name_local: ตลาดวังหลัง
+name_romanized: Talat Wang Lang
+country: thailand
+city: bangkok
+area: Bangkok Noi · Siriraj
+category: food
+fame: hidden
+tags: [street-food, market, lunch, thonburi, ferry]
+kind: Eat
+why: "The lunchtime market of Siriraj Hospital nurses and students: ฿6 sushi, ฿50 som tam and grilled pork, a ฿4.50 ferry hop from the Grand Palace."
+cost:
+  local: 120
+  currency: THB
+  brl: 19.79
+  note: "A grazing lunch: som tam, five pieces of sushi and a bag of kanom bueng. Most dishes cost ฿30–60"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Weekday, 10:00–14:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily, mainly a daytime market: all stalls open about 09:00–17:00; some from 07:00, a few until 19:00"
+  winter: "November–February is the best time to visit, and crowds peak in December and January (Visit Thailand Today). It is the cool, dry season, so a midday visit is comfortable by Bangkok standards. No seasonal closures listed."
+
+location:
+  address: "Soi Wang Lang, Siriraj, Bangkok Noi, Bangkok 10700 (beside Siriraj Hospital)"
+  address_local: "ตลาดวังหลัง ซอยวังหลัง แขวงศิริราช เขตบางกอกน้อย กรุงเทพฯ 10700"
+  lat: 13.75451
+  lng: 100.48596
+  nearest_transit: "Wang Lang (Prannok) pier N10; cross-river ferry from Tha Chang"
+  approximate: true
+
+sources:
+  - url: https://www.nationthailand.com/life/food/40050395
+    title: "Wang Lang Market: Bangkok's hidden gem for street food lovers (The Nation, 24 May 2025)"
+    checked: 2026-11-12
+  - url: https://www.phuket101.net/bangkok/wang-lang-market/
+    title: "Wang Lang Market: the most local market experience in Bangkok (Phuket 101, updated 18 Dec 2025)"
+    checked: 2026-11-12
+  - url: https://grantourismotravels.com/wang-lang-market-bangkok-where-to-eat-and-drink/
+    title: "Wang Lang Market Bangkok: where to eat and drink (Grantourismo, Jul 2026)"
+    checked: 2026-11-12
+  - url: https://www.grab.com/th/food-blog/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87/
+    title: "30 ร้านอาหารวังหลัง: 30 Wang Lang restaurants with hours (Grab Thailand, 19 Jun 2025)"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/markets-shopping/bangkok/wang-lang-market
+    title: "Wang Lang Market (Visit Thailand Today, updated Oct 2026)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours differ (Nation 07:00–19:00, Phuket 101 09:00–18:00, Grantourismo 09:00–17:00 'when all stalls are open'). Sushi is ฿6 a piece per Grab (Jun 2025), ฿5 per The Nation (May 2025). The ฿4.50 ferry fare is from Phuket 101 only. Kanom bueng price: a reader review on Visit Thailand Today. Tha Chang ferry lands at Wat Rakhang pier per Grantourismo, Wang Lang pier per others; both flank the market."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: sushi-queue
+    caption: A queue at a Wang Lang sushi counter (2017)
+    hook: Nurses in uniform, students and a queue for few-baht sushi, one river crossing from the palace crowds.
+    focus: center
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: "Weekday, 10:00–14:00"
+    extra:
+      - { label: Ferry, value: "From Tha Chang", detail: "About ฿4.50, a couple of minutes across the river" }
+      - { label: Payment, value: Bring small notes, detail: Street stalls; a translation app helps with menus }
+  - type: highlights
+    items:
+      - title: Sushi for a few baht
+        text: "**Sushi Wang Lang by Orathai** (ซูชิวังหลัง บาย อรทัย) sells fresh nigiri at about **฿6 a piece**, daily 09:30–18:30. There is always a queue, and it moves."
+      - title: Lunch with the hospital
+        text: "The market sits next to **Siriraj Hospital**, with Thammasat University nearby, so at lunch you eat among nurses' uniforms and students. Weekdays are more local, weekends more food tourists."
+      - title: Local prices
+        text: "Most dishes cost **฿30–60**. Som tam and Isaan dishes at Som Tam Sida run about ฿40–50."
+      - title: The river commute
+        text: "The cross-river ferry from **Tha Chang**, beside the Grand Palace, takes a couple of minutes, so it fits between a morning at the temples and the afternoon."
+  - type: prose
+    title: How to eat it
+    dropcap: true
+    text: |-
+      Wang Lang is not one hall but a few lanes of shophouses, carts and small canteens between the river piers and Siriraj Hospital. It is a daytime market: breakfast stalls open early, the full spread is there from late morning, and some vendors pack up from mid-afternoon.
+
+      Graze. Five pieces of sushi from Orathai, a plate of som tam, a bag of crispy kanom bueng, then a bowl of **tub tim krob** to cool down. That is about ฿120 before dessert. For a sit-down dish, some side-lane restaurants are packed with hospital staff at lunch, which is a good sign.
+  - type: gallery
+    images:
+      - file: street-stalls
+        caption: Grilled snacks along a Wang Lang lane
+        focus: top
+      - file: tub-tim-krob
+        caption: "Tub tim krob, the market's iced dessert"
+      - file: pier
+        caption: Wang Lang ferry pier on the Chao Phraya
+      - file: sarim
+        caption: "Sarim, a Thai dessert, as sold at Wang Lang"
+        focus: center
+  - type: quote
+    variant: vibe
+    text: "Cross the river, follow the white uniforms, eat what they eat."
+  - type: menu
+    title: What to order
+    items:
+      - name: Sushi at Orathai, per piece
+        name_local: ซูชิวังหลัง บาย อรทัย
+        price_local: 6
+        price_brl: 0.99
+        note: "Salmon, tamago, crab stick and more. ฿5–6 a piece depending on the source."
+        tag: must-try
+      - name: Som tam at Som Tam Sida
+        name_local: ส้มตำ
+        price_local: 50
+        price_brl: 8.24
+        note: "Papaya salad; most dishes here ฿40–50."
+        tag: spicy
+      - name: Kanom bueng, 11 pieces
+        name_local: ขนมเบื้อง
+        price_local: 40
+        price_brl: 6.6
+        note: "Crispy little Thai crêpes; price from a visitor review."
+        tag: cheap
+      - name: Tub tim krob
+        name_local: ทับทิมกรอบวังหลัง
+        note: "Iced dessert from the Tub Tim Krob Wang Lang shop, 08:00–19:00."
+      - name: Hoy tod, crispy oyster omelette
+        name_local: เจ๊อ้วนหอยใหญ่ กระทะร้อน
+        note: "Hot-pan oyster omelette at Jae Ouan Hoy Yai."
+      - name: Fried corn at Koo Lib Heng
+        name_local: ข้าวโพดทอด คูลิบเฮง
+        note: "Their signature, with Isaan laab moo tod and nam tok moo."
+      - name: Curry over rice at Pa Thawee
+        name_local: ข้าวแกง ป๋าทวี
+        note: "Mon–Sat 07:00–16:00, closed Sunday."
+        tag: cheap
+    note: "Prices from 2025–2026 guides; dishes without a price had none listed. Point at the Thai name."
+  - type: cost_breakdown
+    items:
+      - { label: Som tam, local: 50, brl: 8.24 }
+      - { label: "Five pieces of sushi at Orathai", local: 30, brl: 4.95 }
+      - { label: Kanom bueng, local: 40, brl: 6.6 }
+      - { label: "Cross-river ferry, both ways", local: 9, brl: 1.48, optional: true }
+  - type: map
+    note: "From the Grand Palace side, walk to **Tha Chang** pier and take the cross-river ferry. On the Chao Phraya Express or tourist boat, get off at **Prannok (N10)**, also called Wang Lang."
+  - type: tips
+    variant: insider
+    items:
+      - "Go on a **weekday** for the local lunch crowd; weekends bring more food tourists."
+      - "Afterwards, walk to **Wat Rakhang**, free and rarely crowded, a few minutes along the river."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't come for dinner: it is a daytime market and some stalls pack up from mid-afternoon."
+      - "Bring small notes; a translation app helps with Thai menus."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; hot at midday
+    note: "Early January is the cool, dry season, but lunchtime still reaches the low 30s and many stalls are open-air with few air-conditioned seats."
+    wear: Light clothes, hat, water
+  - type: pairs_well
+    items:
+      - { id: grand-palace-wat-phra-kaew, note: "Tha Chang pier is next to the palace: lunch here after" }
+      - { id: wat-pho-and-wat-arun, note: Same riverside stretch }
+      - { id: chao-phraya-express-boat, note: "Prannok (N10) is on the express boat line" }

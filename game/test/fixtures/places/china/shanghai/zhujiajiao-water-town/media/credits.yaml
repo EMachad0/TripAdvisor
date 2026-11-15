@@ -1,0 +1,17 @@
+# FIXTURE credits (copied from platform fixtures)
+- file: tingtao-pond
+  title: File:Shanghai - Yu Garden - 0035.jpg
+  author: Stefan Fussan
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shanghai_-_Yu_Garden_-_0035.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/45/Shanghai_-_Yu_Garden_-_0035.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tingtao Tower Exhibit Hall and a pond in Yu Garden, Shanghai, China
+  width: 4990
+  height: 2930
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons

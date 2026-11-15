@@ -1,0 +1,40 @@
+# Independent review of xian-christmas. Written by `./atr review`; do not edit by hand.
+id: xian-christmas
+type: place
+reviewed: 2026-11-10
+verdict: fix
+content_hash: cd9bfcd30bfc88d7114382544027416031316b40624b1de480ab5c2e308bf34c
+facts:
+  supported: 9
+  unsupported: 1
+  contradicted: 2
+issues:
+  - severity: should
+    field: blocks[7].note
+    problem: The day-train comparison says "about 5 h 15 min to 6 h and cost ¥384–530". On the cited Ctrip timetable, the cheapest daytime fast trains are D trains at ¥302–328 (D1711 15:49 Xi'an North → Chongqing North, 5 h 15 min, ¥302). The fastest is D967 at 5 h 04 min, and several G trains take 6 h 03 min to 6 h 10 min. So the page makes the cheapest alternative to the sleeper look ¥82 dearer than it is.
+    evidence: 'https://trains.ctrip.com/trainbooking/xian-chongqing/ (read with ./atr render; the timetable is for 2026-11-12): "15:49 西安北 5时15分 D1711 21:04 重庆北 二等座 302"; "17:43 西安北 5时14分 D1991 … 二等座 305"; "05:18 西安北 5时4分 D967 … 二等座 384"; "16:34 西安北 6时10分 G3781 … 二等座 438"; max "G3898 … 二等座 529"'
+    fix: Change the note to "about 5–6 h, ¥302–529 second class (D trains from ¥302)". Make the same change in blocks[8].items[0] and in the Ctrip source title.
+  - severity: should
+    field: blocks[8].items[0]
+    problem: 'The changed tip says daytime fast trains "take about 5 h 15 min to 6 h (¥384–530 second class)". This is the same range the cited Ctrip timetable contradicts: D trains start at ¥302, and the fastest train takes 5 h 04 min.'
+    evidence: https://trains.ctrip.com/trainbooking/xian-chongqing/ — "D1711 … 二等座 302", "D967 … 5时4分"
+    fix: Change it to "about 5–6 h (¥302–529 second class; the cheapest are D trains)".
+  - severity: nit
+    field: why
+    problem: "\"an 1883 Baroque cathedral\": Wikipedia gives the building's style as neo-Romanesque. Only its facade is Baroque, which is how highlights already describes it."
+    evidence: https://en.wikipedia.org/wiki/St._Francis_Cathedral,_Xi%27an — infobox "Neo-Romanesque"; "The [Baroque] facade has three arched entrances"
+    fix: Change it to "an 1883 cathedral with a Baroque facade".
+resolved:
+  - field: blocks[3].text
+    problem: The prose says the traveler wakes up in Chongqing with Saturday ahead, "drone show included", and pairs_well says "the drone show is at 20:30 that night". The linked Chongqing page says the Dec 2026 dates are not published and that weather often cancels shows on the day.
+    evidence: 'blocks[4].text now reads "The 20:30 drone show is likely that night but not confirmed: December dates come out in late November, and rain can cancel it on the day". pairs_well says "likely, not confirmed". Both match places/china/chongqing/chongqing-drone-light-show/place.yaml hours.winter ("No Dec 2026 schedule yet") and its Saturday 20:30 Oct–Apr pattern.'
+  - field: hours.summary
+    problem: No listed source gives the cathedral's opening times. The Wikipedia page says nothing on hours or Mass, so "courtyard generally open in the daytime" is unsupported.
+    evidence: 'hours.summary now reads "Cathedral opening hours are not published: the gate may be shut", and confidence_note repeats it. https://en.wikipedia.org/wiki/St._Francis_Cathedral,_Xi%27an still gives no hours, so the page no longer claims any.'
+  - field: location.nearest_transit
+    problem: No listed source supports "Zhonglou / Bell Tower (Lines 2 / 6)" or the ¥4 metro fare in cost_breakdown. The only metro mention in the sources is Line 6 to Guangji Street.
+    evidence: 'nearest_transit is now "Guangji Street (Line 6), for the Muslim Quarter". https://www.chinahighlights.com/xian/attraction/muslim-street.htm says "take Metro Line 6 and get off at Guangji Street Station". The ¥4 metro fare is labeled "(my estimate)" with estimate: true, and confidence_note calls it an estimate.'
+rereview_of: 7f16d559a9cded8618932bad5c1a07bdae891d24d690d5af41ea61872dbad87d
+summary: "All three earlier findings are fixed. The drone-show caveat, the unpublished cathedral hours, and the Guangji Street transit (with the metro fare marked as an estimate) now match their sources. The K507 23:06 → 08:28, ¥178 hard sleeper and ¥102 hard seat check out against the rendered Ctrip timetable. The new day-train range (¥384–530, 5 h 15 min to 6 h) is contradicted by that same timetable: D trains run from ¥302 and the fastest takes 5 h 04 min. Fix the range in the cost note and the insider tip."
+model: claude-opus-5-5
+cost_usd: 0.488

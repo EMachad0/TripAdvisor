@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: yuzhong-night-above
+  title: File:Chongqing Night Yuzhong.jpg
+  author: Jonipoon
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chongqing_Night_Yuzhong.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Spectacual wide-lens nightview over the Yuzhong skyline in Chongqing, China. Taken with Canon EOS 5D.
+  width: 2000
+  height: 1333
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-15
+  origin: commons
+- file: jiefangbei-monument-night
+  title: File:Night of Jiefangbei 2.jpg
+  author: ForwardXu
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Night_of_Jiefangbei_2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b0/Night_of_Jiefangbei_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​重庆解放碑夜景2
+  width: 4112
+  height: 3080
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-15
+  origin: commons

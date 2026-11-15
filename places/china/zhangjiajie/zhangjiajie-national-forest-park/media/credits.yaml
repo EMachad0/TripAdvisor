@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: pillars-mist
+  title: File:Zhangjiajie National Forest Park 38023-Zhangjiajie (48757574461).jpg
+  author: xiquinhosilva
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park_38023-Zhangjiajie_(48757574461).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/24/Zhangjiajie_National_Forest_Park_38023-Zhangjiajie_%2848757574461%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 38023-Zhangjiajie
+  width: 3000
+  height: 1816
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: tianzi-snow
+  title: File:Belvédère enneigé des monts Tianzi, Zhangjiajie (2026).jpg
+  author: ICOLEF / visualtravelguide.com
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Belv%C3%A9d%C3%A8re_enneig%C3%A9_des_monts_Tianzi,_Zhangjiajie_(2026).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a3/Belv%C3%A9d%C3%A8re_enneig%C3%A9_des_monts_Tianzi%2C_Zhangjiajie_%282026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Snowy viewpoint facing the Tianzi Mountain pillars in winter, Zhangjiajie (Hunan, China).
+  width: 4800
+  height: 3600
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: tianzi-pillars-winter
+  title: File:Piliers de grès des monts Tianzi, Zhangjiajie (2026).jpg
+  author: ICOLEF / visualtravelguide.com
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Piliers_de_gr%C3%A8s_des_monts_Tianzi,_Zhangjiajie_(2026).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cf/Piliers_de_gr%C3%A8s_des_monts_Tianzi%2C_Zhangjiajie_%282026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sandstone pillars of Tianzi Mountain, Wulingyuan area, Zhangjiajie (Hunan, China).
+  width: 4800
+  height: 3600
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: bailong-elevator
+  title: File:Bailong Elevator area 02.jpg
+  author: Codas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Bailong_Elevator_area_02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f5/Bailong_Elevator_area_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Bailong Elevator area
+  width: 5712
+  height: 4284
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: pillars-fog
+  title: File:Rock formations emerge from the mist in Zhangjiajie.jpg
+  author: Rocio Gil
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Rock_formations_emerge_from_the_mist_in_Zhangjiajie.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6a/Rock_formations_emerge_from_the_mist_in_Zhangjiajie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: This photo was taken one a very misty day in the area of Tianzi mountain (天子山), stunning rock formations emerge from the mist creating a unique scenery.
+  width: 3024
+  height: 4032
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-10
+  origin: commons

@@ -1,0 +1,88 @@
+id: kyoto
+country: japan
+name: "Kyoto"
+name_local: 京都
+region: Kansai · Kyoto Prefecture
+scope: city
+cities: [kyoto]
+why: "The Japanese temple on your list: Fushimi Inari's torii tunnel, the gilded Kinkaku-ji and Gion's old streets, 29 minutes from Osaka for ¥580. Quieter in January than in the spring and autumn crush."
+best_for: [culture, food]
+highlights: ["Fushimi Inari torii", "Kinkaku-ji", "Gion", "Kiyomizu-dera", "Kiyamachi bars", "Arashiyama"]
+days_suggested: { min: 2, max: 4 }
+cost_level: medium
+fame: iconic
+lat: 35.0116
+lng: 135.7681
+getting_there: "From Osaka: JR Special Rapid ¥580, ~29 min; Hankyu Umeda–Kawaramachi ¥410, ~43–46 min. To Tokyo: Nozomi ¥13,320 unreserved or ¥14,170 reserved, ~2 h 15 min."
+getting_around: "City buses ¥230 flat; bus + subway day pass ¥1,100 (the ¥700 bus-only pass ended in Sept 2023); subway day pass ¥800. Downtown is walkable."
+winter_note: "January averages 1.5 °C at night and 9.1 °C by day (1991–2020), 53 mm of precipitation and about 5 cm of snow. Most businesses close Jan 1–3; you arrive after that. Mon Jan 11, 2027 (Coming-of-Age Day) is a public holiday."
+image: kyoto-fushimi-inari
+sources:
+  - url: https://en.wikipedia.org/wiki/Kyoto
+    title: "Kyoto (Wikipedia): coordinates, January climate normals 1991–2020"
+    checked: 2026-11-11
+  - url: https://en.wikivoyage.org/wiki/Kyoto
+    title: "Kyoto (Wikivoyage): districts, bus and subway fares, day passes, where to stay, Kiyamachi bars, clubs"
+    checked: 2026-11-11
+  - url: https://www.trip.com/guide/transport/osaka-to-kyoto.html
+    title: "Osaka to Kyoto 2026 (Trip.com, 3 Jul 2026): JR, Hankyu, Keihan, Shinkansen fares and times"
+    checked: 2026-11-11
+  - url: https://mileasia.com/japan/kyoto-to-osaka/
+    title: "Kyoto to Osaka 2026 (MileAsia, Jun 2026): JR ¥580, Hankyu ¥410, Keihan ¥430, Shinkansen ¥1,490"
+    checked: 2026-11-11
+  - url: https://www.trip.com/guide/transport/shinkansen-tokyo-to-kyoto-and-osaka.html
+    title: "Shinkansen Tokyo to Kyoto and Osaka (Trip.com, 3 Jun 2026): Nozomi ¥13,320 / ¥14,170, 2 h 15 min"
+    checked: 2026-11-11
+  - url: https://mileasia.com/japan/tokyo-to-kyoto/
+    title: "Tokyo to Kyoto by Shinkansen (MileAsia, 4 Apr 2026): unreserved ¥13,320, 2 h 15 min"
+    checked: 2026-11-11
+  - url: https://www.japan-guide.com/e/e2018_tokaido.html
+    title: "Tokaido Shinkansen (japan-guide, May 2026): Nozomi unreserved cars, fully reserved at New Year"
+    checked: 2026-11-11
+  - url: https://www.japan-guide.com/e/e2064.html
+    title: "Japanese New Year (japan-guide): most businesses close Jan 1–3"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Japan dates are now Jan 4–22, 2027 (not yet in the trip config). Fares are from 2026 guides (Trip.com, read 11 Nov but blocks link checks; MileAsia), not JR's tables, and differ by ¥10–50. Temple hours and prices are on temple cards. Wikivoyage says Kyoto winters are usually snowless; Wikipedia normals show about 5 cm in January."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    hook: "A tunnel of orange gates, a gilded pavilion and old Gion lanes, with a 29-minute train back to Osaka."
+  - type: highlights
+    items:
+      - title: The torii tunnel
+        text: "**Fushimi Inari-taisha**'s Senbon Torii is the tunnel of orange gates everyone knows from photos. It is the obvious answer to the \"Japanese temple\" on your list."
+      - title: Gold and wood
+        text: "The gilded pavilion of **Kinkaku-ji** in the north, and **Kiyomizu-dera** with its famous large veranda in Higashiyama."
+      - title: Gion's old streets
+        text: "**Gion**, in Higashiyama, is Kyoto's famous geisha district. Wikivoyage warns that tacky souvenir shops are part of it too."
+      - title: A drink after dark
+        text: "Most bars are around **Kiyamachi**, between Shijo and Sanjo. Kyoto is not known for dance clubs: Wikivoyage sends you to Osaka for that."
+  - type: prose
+    title: Where to base yourself
+    text: |-
+      Wikivoyage says places to stay cluster **around Kyoto Station** and **downtown near Karasuma-Oike**. Kyoto Station is easiest if you arrive by Shinkansen or plan an early train to Tokyo. Downtown, near **Kawaramachi**, puts you a short walk from the Kiyamachi bars and Gion and at the end of the cheap Hankyu line from Osaka; for a traveler who wants to go out with people from the hostel, that is the better pick. The hostel cards are written separately.
+
+      You could also skip moving: from a hostel in Osaka, Kyoto is a ¥410–580 train ride each way.
+  - type: prose
+    title: Getting here and on to Tokyo
+    text: |-
+      **From Osaka**: JR Special Rapid from Osaka station, about 29 minutes for ¥580 (R$20.36); Hankyu from Umeda to Kyoto-Kawaramachi, about 43–46 minutes for ¥410 (R$14.39); Keihan from Yodoyabashi to Gion-Shijo and Sanjo, about 50–55 minutes for about ¥430–490. The Shinkansen from Shin-Osaka takes about 14 minutes for ¥1,440–1,490 unreserved.
+
+      **To Tokyo**: the Nozomi takes about 2 h 15 min, **¥13,320** unreserved (R$467.53) or **¥14,170** reserved (R$497.37). Nozomi trains usually have two unreserved cars, but japan-guide says they become fully reserved over the New Year holiday. The cheap alternative is a night bus from Osaka (see the Osaka page) or a stop in the Japanese Alps on the way (see Takayama & Shirakawa-go).
+  - type: gallery
+    images:
+      - { file: kyoto-kinkakuji, caption: "Kinkaku-ji, the gilded pavilion" }
+      - { file: kyoto-gion, caption: "Yasaka-dori and its pagoda in Higashiyama, near Gion" }
+  - type: tips
+    variant: insider
+    items:
+      - "Buses are a flat **¥230**. If you will ride more than four times, the bus + subway day pass is ¥1,100; the cheaper bus-only pass no longer exists."
+      - "Hankyu ends downtown at Kawaramachi; JR ends at Kyoto Station. Pick the line by where your hostel is."
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 9
+    conditions: Cold, mostly dry, the odd snowfall
+    note: "January normals: 1.5 °C at night, 9.1 °C by day, 53 mm of precipitation and about 5 cm of snow. Sightseeing here is mostly outdoors, so dress for a full day near freezing in the morning."
+    wear: Warm jacket, gloves, thick socks

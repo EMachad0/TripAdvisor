@@ -1,0 +1,168 @@
+id: lub-d-bangkok-siam
+name: "Lub d Bangkok Siam"
+short_name: Lub d Siam
+name_local: หลับดี กรุงเทพฯ สยาม
+country: thailand
+city: bangkok
+area: Siam, opposite MBK
+category: stay
+tags: [hostel, social, central, bts, bar, coworking, female-dorm]
+kind: Stay
+why: "The calm central base for the work week: BTS at the door, 4-bed dorms, a coworking space, and a free Thai BBQ night for weekends. ฿599 a weeknight."
+
+cost:
+  local: 599.03
+  currency: THB
+  brl: 98.78
+  note: "Hostelworld, 4-bed mixed dorm, non-refundable promo rate (-35%), Tue 5 and Sat 9 Jan 2027, searched 12 Nov 2026. Sat 2 Jan: ฿950"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 30
+  lead_time: "Book now for Sat 2 Jan; promo rates may not last"
+  method: website
+  links:
+    - label: Hostelworld (Sat 2 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-02&to=2027-01-03&guests=1&currency=THB"
+      note: "Change the dates to your nights; price per bed, tax included"
+    - label: Hostelworld (Tue 5 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+      note: "A work-week night, for comparison"
+  notes: "On 12 Nov the 2 Jan night cost ฿950–1,056 (vs ฿599–666 on 5 or 9 Jan) and the female dorm showed \"Only 3 beds left!\". All prices shown were -35% promo rates, which may end."
+
+hours:
+  summary: "24-hour reception · check-in 14:00–24:00 · check-out by 12:00 · no curfew · 18+"
+  winter: "Sat 2 Jan is the tail of New Year: the 4-bed dorm cost ฿950 non-refundable that night against ฿599 on Tue 5 and Sat 9 Jan (searched 12 Nov). No minimum stay shown for 2 Jan. Hostelworld listed a river trip, Moo Kra Ta, the shuttle and quad games for 5 Jan."
+
+location:
+  address: "925/9 Rama I Road, Wang Mai, Pathum Wan, Bangkok 10330"
+  address_local: "925/9 ถนนพระรามที่ 1 แขวงวังใหม่ เขตปทุมวัน กรุงเทพมหานคร 10330"
+  lat: 13.74696
+  lng: 100.52863
+  nearest_transit: "BTS National Stadium, steps away; MBK Center 5 min walk"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-02&to=2027-01-03&guests=1&currency=THB"
+    title: "Lub d Siam on Hostelworld, Sat 2 Jan 2027: 4-bed ฿950.19 non-refundable, ฿1,055.77 refundable (-35%), female dorm 3 beds left"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+    title: "Lub d Siam on Hostelworld, Tue 5 Jan 2027: 4-bed ฿599.03 / ฿665.59, events, coworking, rating 9.3, \"less social than expected\""
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-09&to=2027-01-10&guests=1&currency=THB"
+    title: "Lub d Siam on Hostelworld, Sat 9 Jan 2027: 4-bed ฿599.03 non-refundable, female dorm ฿664.45, 5 beds left"
+    checked: 2026-11-12
+  - url: https://lubd.com/destination/bangkok-siam/
+    title: "Lub d Bangkok Siam official page: daily Moo Kra Ta night (free, 18:00–21:00) and Nightlife Shuttle (21:00, ฿100), address, walking times"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok (Wikipedia): climate table, January averages"
+    checked: 2026-11-12
+  - url: "https://en.wikipedia.org/w/index.php?title=Bangkok&action=raw"
+    title: "Bangkok article source text (Wikipedia): Jan high 32.7 °C, low 23.4 °C, rain 23.6 mm"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices and rules are from Hostelworld searches for 2, 5 and 9 Jan 2027, read on 12 Nov 2026; they are promo rates and move. Overnight coworking access is not stated; and booking direct is said to give members 10% off (not compared). Where the nightlife shuttle goes is not stated. Deposit is not listed. The Thai address and name are my own renderings."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: national-stadium-bts
+    caption: "National Stadium BTS station, steps from the hostel. No free photo of Lub d itself exists"
+    hook: "Skytrain at the door, Siam's malls across the road, and a Thai barbecue in the lobby to meet people over."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–24:00", detail: "24-hour reception; check-out by 12:00" }
+      - { label: Vibe, value: Social but calm, detail: "Atmosphere 8.4/10 on Hostelworld" }
+      - { label: Your slot, value: "Work-week base", detail: "4–8 Jan; social nights only Sat 2, Sun 3, Sat 9 Jan" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "4-bed mixed dorm · Tue 5 or Sat 9 Jan"
+        local: 599.03
+        brl: 98.78
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+        note: "Non-refundable promo rate (-35%), searched 12 Nov"
+      - label: "4-bed female dorm · Tue 5 or Sat 9 Jan"
+        local: 664.45
+        brl: 109.57
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-09&to=2027-01-10&guests=1&currency=THB"
+        note: "Non-refundable; ฿738.28 with free cancellation"
+      - label: "4-bed mixed dorm, free cancellation · 5 or 9 Jan"
+        local: 665.59
+        brl: 109.76
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+        note: "฿906.34 with breakfast"
+      - label: "4-bed mixed dorm · Sat 2 Jan"
+        local: 950.19
+        brl: 156.69
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-02&to=2027-01-03&guests=1&currency=THB"
+        note: "Arrival night, non-refundable; ฿1,055.77 with free cancellation"
+      - label: "Private 4-bed room, shared bathroom · Tue 5 Jan"
+        local: 1699.76
+        brl: 280.29
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+        note: "Whole room to yourself, non-refundable; Hostelworld's best private price. Ensuite double ฿1,959"
+    rating:
+      score: 9.3
+      out_of: 10
+      source: Hostelworld
+      reviews: 3002
+      atmosphere: 8.4
+      checked: 2026-11-12
+    social:
+      - "**Moo Kra Ta (Thai BBQ) Night Gathering every day, 18:00–21:00, free entry**, per the official page."
+      - "**Nightlife Shuttle every day at 21:00, ฿100** per person; Hostelworld also listed a river trip and quad games for 5 Jan."
+      - "A hostel bar with cheap beer and a \"Rip shot\" challenge to represent your country, say reviews on the official page."
+      - "Hostelworld's review summary (5 Jan search): \"some find it **less social than expected**\". A calm base, not a party hostel."
+      - "**Your dates**: BBQ and shuttle fit Sat 2, Sun 3 and Sat 9 Jan only; on 4–8 Jan your 19:00 shift cuts the BBQ short and misses the shuttle."
+    good_to_know:
+      - "Dorms are 4-bed and air-conditioned; there is a **female-only 4-bed dorm**. Lift to every floor."
+      - "24-hour reception, free luggage storage, laundry (one free load per stay, official page), coworking space."
+      - "**Work week**: free Wi-Fi and a coworking space; overnight access isn't stated, so ask. One review calls the dorms \"clean and calm\"."
+      - "**Day sleep risk**: after a 04:00 finish you'd sleep while roommates pack up for the 12:00 check-out. The cheapest private room was ฿1,700 on Tue 5 Jan."
+      - "Minimum check-in age 18. Free cancellation rates can be cancelled until 1 day before; later, or a no-show, is charged in full."
+      - "Smoking only in designated areas; no curfew."
+  - type: highlights
+    items:
+      - title: The BTS at the door
+        text: "National Stadium station is steps away, so Sukhumvit bars, Silom and Chatuchak are a train ride, not a taxi haggle."
+      - title: A free dinner to meet people
+        text: "The daily **Moo Kra Ta** barbecue gathering (18:00–21:00) is free to join, then the ฿100 shuttle heads out at 21:00."
+      - title: Sleep well, work well
+        text: "**9.9 for security**, 9.3 for cleanliness, 4-bed dorms and a coworking space: the best of the three for the 4–8 Jan work week."
+      - title: Central Bangkok on foot
+        text: "MBK in 5 minutes, Siam Square and BACC in 6–7, Jim Thompson House in about 15."
+  - type: cost_breakdown
+    items:
+      - { label: "4-bed dorm bed, Tue 5 or Sat 9 Jan (non-refundable)", local: 599.03, brl: 98.78 }
+      - { label: "Nightlife Shuttle at 21:00", local: 100, brl: 16.49, optional: true }
+  - type: map
+    note: "Come up from **BTS National Stadium**; the hostel is on Rama I Road opposite MBK Center."
+  - type: tips
+    variant: insider
+    items:
+      - "Join the **Moo Kra Ta night** on Sat 2 or Sun 3 Jan: it is free and the Nightlife Shuttle leaves right after, at 21:00."
+      - "If you want Khao San's party nights, stay here for the BTS and take a taxi to Banglamphu for a night, or split your stay with Mad Monkey or NapPark."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The non-refundable rate is ฿66 cheaper (฿106 on 2 Jan) but can't be cancelled; with dates still moving, the free-cancellation rate is safer."
+      - "The arrival night is the dearest: ฿950 on Sat 2 Jan against ฿599 on 5 or 9 Jan."
+      - "For 4–8 Jan, weigh a 4-bed dorm (฿599, people moving around while you sleep 05:00–13:00) against the private 4-bed room (฿1,700, quiet). Five nights: **฿3,000 (R$494) dorm vs ฿8,500 (R$1,401) private**, a gap of nine days of the R$100 budget. Middle way: private only after the hardest shifts."
+      - "Breakfast costs about ฿240 a night extra on Hostelworld; street food around Siam is cheaper."
+  - type: gallery
+    images:
+      - { file: stadium-sunset, caption: "Sunset over the National Stadium from the BTS platform" }
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Hot, dry and sunny; the cool season
+    note: "January averages 23 °C at night and 33 °C by day with about 24 mm of rain all month. The air-conditioned malls next door help at midday."
+    wear: Light clothes; a layer for cold malls and the BTS
+  - type: pairs_well
+    items:
+      - id: mahanakhon-skywalk
+        note: "Bangkok's glass-floor view, a few BTS stops away"
+      - id: jodd-fairs-rama-9
+        note: "Night market for dinner"

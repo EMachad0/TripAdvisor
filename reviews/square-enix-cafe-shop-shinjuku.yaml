@@ -1,0 +1,19 @@
+# Independent review of square-enix-cafe-shop-shinjuku. Written by `./atr review`; do not edit by hand.
+id: square-enix-cafe-shop-shinjuku
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: ecb70fe1892f37f7aab000afe8c155a5d09137725fd220cba6355fa21776150c
+facts:
+  supported: 9
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: book_ahead.lead_days
+    problem: The hero chip, quick facts and timeline say to book 7 days ahead, but no source gives a lead time. The official site only says booking is recommended and that slots open one month ahead at 12:00, and the confidence_note admits that sell-out timing is not published.
+    evidence: "lead_days is now 30 and lead_time says 'Book when slots open: 1 month ahead, 12:00 Japan time'. The unsourced 7-day timeline step has been removed, and confidence_note says 30 days is when slots open, not a measured sell-out time. https://paselabo.pasela.co.jp/sqex_cafe_shop/topics/collaboration_ffx/: \"予約は1か月先まで受け付けております。 毎日12:00に、1か月後の日程の予約受付を開始します。\""
+rereview_of: 7d8ef31a100f38e8b7dab2022005542f248cc7e947d592eab4fe04aaa4c4dbaa
+summary: 'The only earlier finding is resolved: the booking lead time now follows the official rule that slots open one month ahead at 12:00 JST. The new text checks out against the listed sources: Newton runs the café (GAME Watch: "ニュートンが運営する本店舗"), and ARTNIA is open 11:00–21:00, closes on irregular days (不定休) and switches to bar time at 17:00. The official topics list has nothing announced for January 2027, and validate passes. No blockers or shoulds remain.'
+model: claude-opus-5-5
+cost_usd: 0.356

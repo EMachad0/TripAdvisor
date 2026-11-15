@@ -1,0 +1,143 @@
+id: xian-biangbiang-roujiamo-luomashi
+name: "Biangbiang and pork roujiamo, Bell Tower"
+short_name: Bell Tower noodles
+name_local: 秦豫肉夹馍 · 老李家biangbiang面
+name_romanized: Qínyù Ròujiāmó · Lǎolǐjiā Biángbiáng Miàn
+country: china
+city: xian
+area: Beilin · Luomashi
+category: food
+fame: popular
+tags: [roujiamo, biangbiang, noodles, breakfast, lunch, cheap-eats, laozihao, queue]
+kind: Eat
+why: "Xi'an's two Han-Chinese classics a few minutes from the Bell Tower: Qinyu's stewed-pork roujiamo (gone by lunch) and belt-wide biangbiang noodles at Lao Li Jia."
+cost:
+  local: 36
+  currency: CNY
+  brl: 29.76
+  note: "Qinyu ~¥16 per person (Ctrip user average) plus a bowl of biangbiang at the low end of ¥20–30"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–1.5 h
+best_time: "Morning: Qinyu by 11:00, then noodles"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Qinyu: from 07:00, closes 13:00–14:00 or when the bread runs out. Lao Li Jia: 09:00–22:00"
+  winter: "No winter hours or New Year closures found for either shop. Qinyu's morning-only hours are the constraint: a Ctrip regular says the roujiamo is gone by noon."
+
+location:
+  address: "Qinyu: 19 Dongmutoushi, Beilin District, Xi'an. Lao Li Jia: 46 Luomashi Pedestrian Street (250 m east of the Bell Tower)"
+  address_local: 西安市碑林区东木头市19号 秦豫肉夹馍
+  lat: 34.2576
+  lng: 108.94433
+  approximate: true
+  nearest_transit: "Bell Tower (Lines 2, 6); Lao Li Jia is by Exit K"
+
+sources:
+  - url: https://you.ctrip.com/food/7/173497.html
+    title: "秦豫肉夹馍, Ctrip: ¥16 per person, dishes, reviews up to 2026-05-05 (07:00–13:00 and 东木头市19号 in a 2023 review)"
+    checked: 2026-11-12
+  - url: https://lostplate.com/roujiamo-best-chinese-burgers-in-xian-china/
+    title: "Roujiamo: the best Chinese burgers in Xi'an (Lost Plate): Qinyu 07:00–14:00, 东木头市19号, queue, sells out"
+    checked: 2026-11-12
+  - url: https://www.chinaxiantour.com/xian-travel-guide/biangbiang-noodles
+    title: "Biangbiang Noodles (China Xian Tour, updated 2026-05-26): Lao Li Jia Bell Tower branch, 46 Luomashi"
+    checked: 2026-11-12
+  - url: https://www.xianprivatetour.com/xian/xian-dining.htm
+    title: "Xi'an famous foods (Xian Private Tour): Old Li's Biangbiang Bell Tower flagship, Exit K, 09:00–22:00, ¥20–30"
+    checked: 2026-11-12
+  - url: https://www.thefoodranger.com/the-ultimate-xian-food-tour
+    title: "The Food Ranger's Xi'an food guide (2018): Qinyu Dongmutoushi branch, Liu Laosi biangbiang on Miaohoujie"
+    checked: 2026-11-12
+  - url: https://www.chinahighlights.com/xian/weather/december.htm
+    title: "Xi'an weather in December (China Highlights): about 8 °C by day, 1 °C at night"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Qinyu trades in 2026 (May 2026 Ctrip review); address muddled: guides say 19 Dongmutoushi, Ctrip's info box Xingzhengyuan Plaza on Luomashi. Closing 13:00 or 14:00 by source. Lao Li Jia is in China Xian Tour's May 2026 guide; hours and price from an undated tour page. Pin is Dongmutoushi. Chinese names of biangbiang styles are standard ones, not from the menu."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: A noodle as wide as a belt, slapped on the board until it goes biang, then hit with smoking chili oil.
+  - type: quick_facts
+    time_needed: 1–1.5 h
+    best_time: "Morning: Qinyu before 11:00"
+    extra:
+      - { label: Not halal, value: Pork, detail: "Lazhi roujiamo is stewed pork: the Han side of Xi'an, unlike Sajinqiao" }
+      - { label: Order, value: 优质肉夹馍, detail: "The 'premium' roujiamo: more meat. Ask for fat-and-lean" }
+  - type: highlights
+    items:
+      - title: The pork roujiamo
+        text: "**Qinyu** is one of the old names inside the city wall: a crisp baked bun stuffed with chopped stewed pork. It has been on *A Bite of China*, a Ctrip reviewer notes."
+      - title: Gone by lunch
+        text: "Qinyu bakes a fixed amount. A Ctrip regular says it is sold out by noon; Lost Plate arrived five minutes late and was told to come back earlier the next day."
+      - title: Belt-wide noodles
+        text: "**Biangbiang**: one strip is about 5 cm wide and a metre long, named for the slap on the board. Lao Li Jia's Bell Tower branch is 250 m east of the tower."
+      - title: The other half of Xi'an food
+        text: "Your Sajinqiao crawl is the Hui Muslim beef-and-lamb side. This is the Han side: pork, chili oil and wheat."
+  - type: prose
+    title: A Bell Tower breakfast-to-lunch
+    dropcap: true
+    text: |-
+      Start at **Qinyu** on Dongmutoushi, a lane south of the Bell Tower. Order a *youzhi roujiamo* (优质肉夹馍, the premium one) and a bowl of liangpi, the cold noodles every roujiamo shop serves alongside. A Ctrip regular says the fat-and-lean version beats pure lean, which can be dry. One 2023 review says you pay for the bun and the liangpi separately.
+
+      Then walk up Luomashi to **Lao Li Jia** for biangbiang. China Xian Tour describes the classic as *you po*: wide noodles under chili, garlic and scallion, finished with sizzling oil. Tomato-and-egg is the mild version if your mouth needs a break.
+  - type: quote
+    variant: vibe
+    text: A paper bag, a burning-hot bun, and the queue behind you already shouting orders.
+  - type: cost_breakdown
+    items:
+      - { label: "Qinyu roujiamo (+ liangpi), per person", local: 16, brl: 13.23, estimate: true }
+      - { label: "Bowl of biangbiang at Lao Li Jia", local: 20, brl: 16.53, estimate: true }
+  - type: menu
+    items:
+      - name: Premium pork roujiamo
+        name_local: 优质肉夹馍
+        note: "Qinyu's signature. Ctrip's average spend there is ¥16"
+        tag: must-try
+      - name: Lean-with-skin roujiamo
+        name_local: 优质皮瘦夹馍
+        note: On Qinyu's dish list
+      - name: Secret-recipe liangpi
+        name_local: 秘制凉皮
+        note: "Cold noodles; a 2023 Ctrip complaint priced them at ¥10 and called the portion small"
+      - name: Glass-noodle soup
+        name_local: 粉丝汤
+        note: "Qinyu's soup to go with the bun"
+      - name: Oil-poured biangbiang
+        name_local: 油泼biangbiang面
+        note: "The classic at Lao Li Jia: chili, garlic, scallion, hot oil. ¥20–30 per person"
+        tag: spicy
+      - name: Tomato-and-egg biangbiang
+        name_local: 西红柿鸡蛋biangbiang面
+        note: "The mild version (China Xian Tour)"
+        tag: veg
+    note: "No printed menu prices found; per-person averages from Ctrip and Xian Private Tour."
+  - type: map
+    note: "From Bell Tower station, Lao Li Jia is right of **Exit K** on Luomashi. Qinyu is further south on Dongmutoushi: show 东木头市19号 秦豫肉夹馍."
+  - type: tips
+    variant: insider
+    items:
+      - "Do Qinyu **first and early**: sources give closing as 13:00 or 14:00, and the bread can run out sooner."
+      - "Search 秦豫肉夹馍 in Amap before walking: Ctrip lists the shop in Xingzhengyuan Plaza on Luomashi, older guides at 19 Dongmutoushi. On the map both are in the Luomashi lanes a few minutes from the Bell Tower."
+      - "Lost Plate's pairing: roujiamo, liangpi and an **Ice Peak** (冰峰) orange soda."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The Food Ranger's biangbiang pick, **Liu Laosi** (刘老四), is a 2018 recommendation on Miaohoujie in the Muslim Quarter; I found nothing showing it still trades in 2026."
+      - "Queue at Qinyu: a 2022 reviewer says the day's supply is gone by noon."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 8
+    conditions: Cold, dry, mostly cloudy
+    note: "Cold, dry mornings: the queue outside Qinyu is the hard part. A hot bun and chili oil are the cure."
+    wear: Warm coat, hat, gloves
+  - type: pairs_well
+    items:
+      - { id: desti-youth-park-hostel-xian, note: "Your Bell Tower hostel" }
+      - { id: sajinqiao-food-crawl, note: "The halal side of Xi'an food, for the evening" }
+      - { id: xian-christmas, note: "Bell Tower area" }
+      - { id: terracotta-army, note: "Roujiamo breakfast before the Lintong bus" }

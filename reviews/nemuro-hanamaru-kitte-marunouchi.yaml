@@ -1,0 +1,27 @@
+# Independent review of nemuro-hanamaru-kitte-marunouchi. Written by `./atr review`; do not edit by hand.
+id: nemuro-hanamaru-kitte-marunouchi
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: c4981fb9b9c6d4df559f525013926113e26f72d5d02cc59486b27575e185f70f
+facts:
+  supported: 3
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[1].best_time
+    problem: The page says "seated ~12:30", but the source says the party was called at 12:10 after taking its ticket at opening. 12:30 is a guess the source doesn't state.
+    evidence: https://mydyney-github-io.pages.dev/posts/tokyo-station-nemuro-hanamaru-sushi-guide — "We were called in at 12:10 PM"
+    fix: Change it to "Ticket at 11:00, called ~12:10".
+resolved:
+  - field: blocks[1].extra[0].detail
+    problem: The page says the Dec 2024 visitor waited 1.5 h 'at lunch' and gives 'Ticket at 11:00' as the best time, which implies opening time avoids the wait. The source says that visitor got a ticket before opening and still waited 1.5 h behind about 20 groups. So taking a ticket at 11:00 does not avoid the long wait.
+    evidence: 'The Wait detail now says "Even with a ticket taken at opening (Dec 2024)", and best_time now says "ticket at 11:00, then expect ~1.5 h". This matches https://mydyney-github-io.pages.dev/posts/tokyo-station-nemuro-hanamaru-sushi-guide: "We arrived around 10:40 AM", "got ticket #22", "called in at 12:10 PM", about 1.5 hours.'
+  - field: blocks[3].items
+    problem: Every plate price, plus cost.local, comes from one blog post dated 2 Dec 2024 that is almost two years old, and the official site publishes no prices. I searched for a newer menu and found only average budgets (Gurunavi ¥1,800, Tabelog ¥2,000–2,999).
+    evidence: This uses the second fix I offered. cost.note now gives a range, "budget ≈¥2,900–3,300 now", and labels the plates as "Dec 2024 prices". The highlights text now opens with "At Dec 2024 prices", and confidence_note says no 2025–26 price list turned up. The blog (posted December 2, 2024) still shows ¥176/308/418/550 for the listed plates.
+rereview_of: 61ea2c011edfc93f240798db9ef8018c391f6e5d52904b212cb559e78f72c246
+summary: "Both earlier shoulds are fixed. The wait text now matches the Dec 2024 visit (ticket taken at opening, about 1.5 h), and prices are labelled as Dec 2024 with a current range in the cost note. The only thing left is a nit: \"seated ~12:30\" should match the source's 12:10 call time."
+model: claude-opus-5-5
+cost_usd: 0.247

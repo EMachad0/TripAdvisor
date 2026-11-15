@@ -1,0 +1,130 @@
+id: new-century-global-center
+name: "New Century Global Center"
+short_name: Global Center
+name_local: 新世纪环球中心
+name_romanized: Xīn Shìjì Huánqiú Zhōngxīn
+country: china
+city: chengdu
+area: "Wuhou · Tianfu Avenue"
+category: shopping
+fame: popular
+tags: [mall, architecture, water-park, indoor, rainy-day, ice-rink]
+kind: Do
+why: "A mall big enough to hold an indoor beach under a 150-metre fake sky. Walking it is free; the water park is about ¥146 online."
+
+cost:
+  local: 146
+  currency: CNY
+  brl: 123.94
+  note: "Water park adult, low end of ¥146–180 online (Feb 2026, estimate); ¥178 list price in 2025. Walking it is free"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2 h; half a day with water park"
+best_time: "Weekday, from 13:00; water park shuts 18:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Building 10:00–22:00 daily. Water park Mon–Fri 10:00–18:00, Sat–Sun and holidays 10:00–19:00 (Sep–Dec, per a 2025 listing)"
+  winter: "Dahe Ticketing's 2025 listing gives the water park's Sep–Dec and Jan hours as 10:00–18:00 on weekdays and 10:00–19:00 at weekends and on holidays (New Year's Day included). Night opening to 22:00 is summer only (20 Jun – 31 Aug). It is indoors; no source says how warm the water is in winter."
+
+location:
+  address: "1700 North Section, Tianfu Avenue, Wuhou District, Chengdu (water park: East Zone, 1F)"
+  address_local: 四川省成都市武侯区天府大道北段1700号 新世纪环球中心
+  lat: 30.57133
+  lng: 104.06237
+  nearest_transit: "Jincheng Plaza (Line 1), right at the building"
+  approximate: true
+
+sources:
+  - url: https://en.wikipedia.org/wiki/New_Century_Global_Center
+    title: "New Century Global Center — Wikipedia: floor area, size, water park, beach, LED sky screen, ice rink, metro"
+    checked: 2026-11-13
+  - url: https://www.chinadiscovery.com/sichuan/chengdu/global-center.html
+    title: "Chengdu Global Center — China Discovery: building hours 10:00–22:00, free entry, Jincheng Plaza on Line 1"
+    checked: 2026-11-13
+  - url: https://www.dahepiao.com/lvyounews1/20250730523450.html
+    title: "成都环球中心海洋乐园 开放时间及门票价格 — 大河票务网 (2025-07-30): water park hours by season, prices"
+    checked: 2026-11-13
+  - url: https://citiesinsider.com/country/china/chengdu/amusement-parks/en
+    title: "Chengdu amusement parks — Cities Insider (prices cited to Feb 2026): water park ¥146–180"
+    checked: 2026-11-13
+  - url: https://offpeaktrip.com/en/guide/chengdu/paradise-island-waterpark
+    title: "Paradise Island Waterpark — Offpeaktrip: weekdays much quieter than weekends"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Chengdu
+    title: "Chengdu — Wikipedia: climate table, Dec–Jan normals"
+    checked: 2026-11-13
+  - url: https://m.winshang.com/news738875.html
+    title: "成都环球中心 年客流超3000万 — 赢商网 (2026-02-24): 2025 visitors, ocean park still listed, new food floor"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Water park hours come from one 2025 reseller article. Price is an estimate: ¥178 list (2025), ¥146–180 online (Cities Insider, Feb 2026), from ¥109 (Offpeaktrip, undated). Winshang (Feb 2026) still lists the ocean park but I found no official winter notice or water temperature. Pin is the building, not the water park entrance. Cities Insider opened by web fetch; atr links times out on it."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: facade
+    focus: "50% 75%"
+    hook: "Half a kilometre of wavy glass, and inside it a beach with its own sunset on a screen."
+  - type: quick_facts
+    time_needed: "2 h; half a day with water park"
+    best_time: "Weekday, from 13:00"
+    extra:
+      - { label: Size, value: "500 × 400 m, 100 m tall", detail: "About 1.7 million m² of floor space" }
+      - { label: Good in rain, value: "Yes, all indoors", detail: "Chengdu's grey winter days are what it's for" }
+      - { label: Water park closes, value: "18:00 weekdays", detail: "19:00 Sat–Sun and on New Year's Day" }
+  - type: highlights
+    items:
+      - title: The size of it
+        text: "**500 × 400 m and 100 m tall**, about 1.7 million m² of floor space. China Discovery bills it as the world's largest building; Wikipedia ranks it third by floor area."
+      - title: A beach indoors
+        text: "Paradise Island water park has a **5,000 m² artificial beach** and a **150 × 40 m screen** that plays sunrises and sunsets over the waves."
+      - title: Free to wander
+        text: "Entry to the building is free, 10:00–22:00. Inside: a big shopping mall, an IMAX cinema, an Olympic-size ice rink and a mock Mediterranean village."
+      - title: Still busy, still changing
+        text: "Over **30 million visits in 2025** (Winshang). After Lotte left in 2024, its old 4th-floor shops became a food zone."
+  - type: prose
+    dropcap: true
+    text: |-
+      The Global Center opened in 2013 on Tianfu Avenue, about 10 km south of Tianfu Square. From outside it is one long wave of glass; inside are hotels, offices, a mall and, on the east side of the ground floor, a water park with a beach and a giant screen for a sky.
+
+      The shopping alone isn't the reason to come; Chengdu's Chunxi Road and Taikoo Li do that better. Come for the scale. Walk the length of the atrium, look at the ice rink, and if the water park appeals, give it the afternoon: it closes at 18:00 on weekdays in winter.
+
+      It works on a grey day, which in a Chengdu December is most days, and on a work-night afternoon: Line 1 stops at the door, and you can be back in the centre well before 20:00.
+  - type: gallery
+    images:
+      - { file: east-front, caption: "The east façade from the square" }
+      - { file: atrium, caption: "The main hall, under a glass vault" }
+  - type: quote
+    variant: vibe
+    text: "Grey sky outside, a screen sunset inside, and a wave pool under both."
+  - type: cost_breakdown
+    items:
+      - { label: "Water park, adult, online (estimate)", local: 146, brl: 123.94, estimate: true }
+      - { label: "At the 2025 list price instead (extra)", local: 32, brl: 27.16, optional: true }
+      - { label: "Walking the building and the mall", local: 0, brl: 0 }
+  - type: map
+    note: "Take Line 1 to **Jincheng Plaza** (锦城广场). The water park entrance is on the **east side, ground floor** (环球中心东区1楼)."
+  - type: tips
+    variant: insider
+    items:
+      - "Go Monday to Friday: Offpeaktrip says the water park is far quieter on weekdays than at weekends."
+      - "On a work day (Dec 28–31), arrive around 13:00, swim until 17:30 and be back in town before your 20:00 start."
+      - "Not swimming? Walking the halls costs nothing, and the 2–3 hours China Discovery suggests is plenty."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't just pay at the gate: Cities Insider's ¥146–180 (Feb 2026) comes from the official booking platforms and Trip.com, and Offpeaktrip lists tickets from ¥109. The 2025 list price was ¥178. Dahe's ticket listing has student and group-buy (团购) tickets from ¥99 (July 2025)."
+      - "The night session to 22:00 is a summer thing only. In December the water park shuts at 18:00 on weekdays."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "Cool, grey and damp, with little sun"
+    note: "Irrelevant once you are inside: the whole visit is indoors. No source says how warm the water is in winter."
+    wear: "Light layers you can carry; swimwear if you plan to swim"
+  - type: pairs_well
+    items:
+      - { id: chengdu-christmas, note: "Chengdu's centre malls, Taikoo Li and IFS, are 10 km north" }
+      - { id: heming-teahouse-peoples-park, note: "Line 1 to Tianfu Square, then a short hop to People's Park tea" }

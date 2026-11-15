@@ -1,0 +1,97 @@
+id: chengdu
+country: china
+name: "Chengdu"
+name_local: 成都
+region: Sichuan · Southwest China
+scope: city
+cities: [chengdu]
+why: "Pandas at breakfast, a ¥3 bowl of tea by a lake, hotpot in Sichuan's capital and a social hostel by Taikoo Li. Mild for a China December, 3 h from Xi'an and an hour from Chongqing."
+best_for: [food, odd-local, nature, nightlife]
+highlights: ["Panda Base at opening", "Heming Teahouse", "Sichuan hotpot", "Jinli and Kuanzhai alleys", "Taikoo Li at Christmas", "Dujiangyan bookstore day trip"]
+days_suggested: { min: 3, max: 4 }
+cost_level: low
+fame: popular
+lat: 30.66
+lng: 104.0633
+getting_there: "From Xi'an North: G-train to Chengdu East, 3–4 h, ¥263–300 in 2nd class, ~80 a day. On to Chongqing: from 1 h 02, ¥85–191, about 143 trains a day."
+getting_around: "Metro from ¥2, most central rides ¥2–5, about 06:20–23:00. Line 2 links Chengdu East, Chunxi Road and People's Park; Line 3 goes to the pandas. Taxis start at ¥9."
+winter_note: "Mild for a China winter: December averages 5–11 °C, snow is rare, and it barely rains (about 7 mm in the month). But it is grey: December gets only 15% of possible sunshine and humidity sits around 82%, so the cold feels damp, and teahouses are open-air. The Panda Base runs winter hours (08:00 opening). No 2026 Christmas programme announced."
+image: anshun-bridge-night
+sources:
+  - url: https://en.wikipedia.org/wiki/Chengdu
+    title: Chengdu — Wikipedia (coordinates, climate normals 1991–2020)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/xian-to-chengdu/
+    title: "Xi'an to Chengdu High-Speed Train — China for Travelers (3h, ¥263–300)"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/chengdu-to-chongqing/
+    title: Chengdu to Chongqing by High-Speed Train — China for Travelers (updated 2026-07-18)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/chengdu-subway-guide/
+    title: Chengdu Subway Guide — China for Travelers (fares, hours)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/where-to-stay-in-chengdu/
+    title: Where to Stay in Chengdu — China for Travelers (updated 2026-08-14)
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Chengdu
+    title: Chengdu — Wikivoyage (Jinli, Kuanzhai, Anshun Bridge, nightlife)
+    checked: 2026-11-10
+  - url: https://www.panda.org.cn/en/service/ticket/
+    title: Tickets and winter hours — Chengdu Panda Base (official)
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Train times and fares from China for Travelers guides, not opened on 12306 myself; the orchestrator's 12306 read for 24 Nov 2026 (¥285–300 Xi'an; ¥85–156 Chongqing) sits inside these ranges. Climate from 1991–2020 normals, not a forecast. Metro hours and taxi flag fall from one guide each. panda.org.cn opened with ./atr render; the link checker times out on it."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: "The city that sits down: tea in bamboo chairs, hotpot steam and pandas eating breakfast."
+    caption: Anshun Bridge lit up over the Jin River
+  - type: highlights
+    title: Why stop here
+    items:
+      - title: Pandas at opening time
+        text: "The Panda Base opens at **08:00** in winter, ¥55 with a passport booking. The pandas are busiest at morning feeding."
+      - title: Teahouse afternoons
+        text: "At **Heming Teahouse** in People's Park, one bowl of tea with free refills buys you the afternoon; ear-cleaners work the tables."
+      - title: Sichuan food at the source
+        text: "Hotpot, mapo tofu and dan dan noodles in the capital of Sichuan cooking, from hostel hotpot parties to street snacks in **Jinli**."
+      - title: Christmas in a mall around a temple
+        text: "**Taikoo Li** wraps an open-air shopping district around the old Daci Temple. It has its own Christmas card below."
+      - title: A staircase out of town
+        text: "The Dujiangyan Zhongshuge bookstore, with its mirrored spiral stairs, is your **infinity staircase**, as a day trip."
+  - type: prose
+    title: What a few days here feel like
+    dropcap: true
+    text: |-
+      Chengdu is a huge city, over 15 million in the urban area, that Wikivoyage describes as built around culture and relaxation, with parks, teahouses and green spaces everywhere. The days run slowly. Pandas first thing, tea in the afternoon, hotpot at night, then a bar.
+
+      **Base yourself at Chunxi Road / Taikoo Li** (Jinjiang). A 2026 neighbourhood guide calls it the default for first-timers: Line 2 reaches Chengdu East station in 22 minutes, Line 3 runs to the Panda Base, and the food is walkable. The social Flipflop hostel is a minute from Taikoo Li. The same guide warns that Chunxi Road itself is touristy and has tea-house and "art student" touts. Kuanzhai Alley is the pick if you want old-Chengdu lanes instead.
+
+      It fits the route neatly. Come down from Xi'an through the Qinling mountains (3–4 h by G-train), and leave for Chongqing on trains that run roughly every 15 minutes. With Christmas Eve and Day here, the Dec 26 train to Chongqing takes about an hour.
+  - type: gallery
+    images:
+      - { file: jinli-night, caption: Jinli Street after dark }
+      - { file: kuanzhai-alley, caption: Kuanzhai Alley by day }
+      - { file: hotpot, caption: "A split hotpot: one side spicy, one mild" }
+      - { file: panda, caption: A giant panda at the breeding base }
+  - type: quote
+    variant: vibe
+    text: Bamboo chairs, a refilled gaiwan, and nowhere to be until the hotpot.
+  - type: tips
+    variant: insider
+    items:
+      - "Pick a train into **Chongqing North** rather than Chongqing West, which is about 15 km further across town (China for Travelers)."
+      - "Do the pandas on a weekday morning and keep the afternoon for tea: the base and People's Park are both on the metro."
+      - "Xi'an to Chengdu: sit by a window on a daytime train for the Qinling mountain crossing, about an hour out of Xi'an."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Around Chunxi Road, ignore \"art students\" and tea-house invitations from strangers: a known scam script."
+      - "Metro ride codes in Alipay need a linked foreign card; set it up before you arrive."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Grey, humid, cool; very little rain and very little sun
+    note: "Not freezing, but damp. Outdoor teahouses and the early panda start are the cold parts of the day. Indoor plans: the Dujiangyan bookstore."
+    wear: Warm jacket, a layer to sit in, closed shoes

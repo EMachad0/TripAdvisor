@@ -1,0 +1,122 @@
+id: kiyomizu-dera
+name: "Kiyomizu-dera"
+name_local: 清水寺
+name_romanized: Kiyomizu-dera
+country: japan
+city: kyoto
+area: Higashiyama-ku · Mt. Otowa
+category: culture
+fame: iconic
+must_do: japanese-temple
+tags: [temple, viewpoint, wooden-architecture, early-morning]
+kind: See
+why: "Kyoto's postcard temple: a wooden stage 13 m above the treetops, built without nails. Opens at 06:00, entry ¥500."
+cost:
+  local: 500
+  currency: JPY
+  brl: 17.55
+  note: "Adult admission (Japan Guide). Bus from Kyoto Station extra"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h with the walk up
+best_time: "06:00 opening, on a weekday"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 06:00–18:00 from Jan 1 to Mar 26 (2026 table)"
+  closed: No closing days
+  winter: "The temple's New Year service, Shushō-e, runs Jan 1–7, so your first days in Japan (now Jan 4–22, 2027) overlap with its end. The official hours table is for 2026; the 2027 one isn't out yet, but January has been 06:00–18:00. Kyoto averages about 5 cm of snow in January, so a white roof is possible but not something to plan on."
+
+location:
+  address: 1-294 Kiyomizu, Higashiyama-ku, Kyoto 605-0862
+  address_local: 〒605-0862 京都府京都市東山区清水1-294 清水寺
+  lat: 34.9943
+  lng: 135.78444
+  nearest_transit: "Bus 206 or 100 to Gojozaka, then 10 min walk east (uphill)"
+
+sources:
+  - url: https://www.kiyomizudera.or.jp/en/location/
+    title: "Kiyomizu-dera official site — Open hours 2026 and access"
+    checked: 2026-11-11
+  - url: https://www.kiyomizudera.or.jp/en/visit/
+    title: "Kiyomizu-dera official site — Visit and events schedule (Shushō-e Jan 1–7)"
+    checked: 2026-11-11
+  - url: https://www.japan-guide.com/e/e3901.html
+    title: "Kiyomizudera — japan-guide.com (¥500 admission, stage, Otowa waterfall, bus fare)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Kyoto
+    title: "Kyoto — Wikipedia (climate table, 1991–2020 normals)"
+    checked: 2026-11-11
+  - url: https://www.shokoku-ji.jp/en/kinkakuji/
+    title: "Kinkaku-ji — official site of Shokoku-ji (hours 09:00–17:00)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Hours and address from the official site (2026 table; 2027 not yet published). The ¥500 adult fee is from japan-guide.com; the official English pages don't state it, and one secondary guide said ¥400. The bus fare is japan-guide's figure and may have changed."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: main-hall-stage
+    focus: center
+    caption: "The stage in November 2016. In January the maples are bare"
+    hook: A nail-free wooden stage hanging over the treetops, with all of Kyoto spread out beyond it.
+  - type: quick_facts
+    time_needed: 1–2 h with the walk up
+    best_time: 06:00 opening, weekday
+    extra:
+      - { label: Opens, value: "06:00 daily", detail: "Closes 18:00 in January" }
+      - { label: It's a temple, value: Buddhist, detail: "Fushimi Inari's red gates are a Shinto shrine" }
+  - type: highlights
+    items:
+      - title: The stage
+        text: "The famous wooden stage juts out about **13 metres** above the hillside. The main hall and stage were built **without nails**, Japan Guide says."
+      - title: Otowa waterfall
+        text: "At the foot of the main hall the spring splits into three streams: long life, success at school, luck in love. Drinking from all three counts as greedy."
+      - title: Up before Kyoto wakes
+        text: "Gates open at **06:00** every day of the year, much earlier than Kinkaku-ji (09:00). Come at opening and you share the stage with far fewer people than at midday."
+      - title: New Year at the temple
+        text: "The New Year service, **Shushō-e**, runs Jan 1–7. If you're in Kyoto by then, it's your chance to see the temple in festival mode."
+  - type: prose
+    title: How to see it
+    dropcap: true
+    text: |-
+      Take bus 206 or 100 from Kyoto Station to **Gojozaka** and walk east, uphill, about 10 minutes. The temple warns that some map apps route you to a dead end. The grounds can only be reached from the Nio-mon gate at the top of **Kiyomizu-zaka** or from Chawan-zaka.
+
+      Pay at the gate, walk onto the stage, then go down the steps to the Otowa waterfall. Japan Guide puts a typical visit at 30–60 minutes, plus the walk up through the old shopping streets.
+
+      **Temple or shrine?** The traveler asked for a *temple*. Kiyomizu-dera is a Buddhist temple. Fushimi Inari, with its tunnels of red gates, is a Shinto shrine. Both count as Kyoto icons; this card is the temple. Want the snow photo? Kinkaku-ji, the Golden Pavilion, opens 09:00–17:00. Check the forecast and go if it snows overnight.
+  - type: gallery
+    images:
+      - file: snow
+        caption: Kiyomizu-dera under snow
+  - type: quote
+    variant: vibe
+    text: Cold boards underfoot, mist over Kyoto, and nobody else on the stage at 06:30.
+  - type: cost_breakdown
+    items:
+      - { label: Admission, local: 500, brl: 17.55 }
+      - { label: "Bus 206 from Kyoto Station, each way", local: 230, brl: 8.07, estimate: true, optional: true }
+  - type: map
+    zoom: 16
+    note: "Walk up **Kiyomizu-zaka** to the Nio-mon gate. Don't follow a map route that ends at the back of the hill."
+  - type: tips
+    variant: insider
+    items:
+      - "Be at the gate at **06:00**, three hours before Kinkaku-ji opens, and see the stage before the tour groups."
+      - "Snow is rare: if it falls overnight, go straight to Kinkaku-ji when it opens at 09:00 for the gold-on-white photo, then come here."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No bus? The temple says it's about 25 min on foot from **Keihan Kiyomizu-Gojo** station."
+      - "There's no parking, and the temple says some map apps send you to a dead end. Use Kiyomizu-zaka."
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 9
+    conditions: Cold, often clear, occasional light snow
+    note: "Kyoto averages 1.5–9 °C in January (Wikipedia, 1991–2020) with about 8 wet days and 5 cm of snow in the month. At 06:00 on the stage it will be close to freezing."
+    wear: Warm coat, gloves, shoes that grip on wet stone steps
+  - type: pairs_well
+    items:
+      - { id: dotonbori-kani-doraku-crab, note: "Kyoto temple by morning, Osaka neon by night" }

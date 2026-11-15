@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: east-nanjing-road
+  title: File:East Nanjing Pedestrian Shopping Street.jpg
+  author: HeroicLife
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:East_Nanjing_Pedestrian_Shopping_Street.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9f/East_Nanjing_Pedestrian_Shopping_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: East Nanjing Pedestrian Shopping Street, Shanghai
+  width: 4025
+  height: 2576
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

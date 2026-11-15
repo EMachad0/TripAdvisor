@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+// Entry point. Self-contained on purpose (no platform imports): if a platform file is half-written while the coder
+// updates it, this prints one clear line instead of a stack trace. platform/cli/atr.js does the same for the modules
+// commands load later.
+const why = (e) => {
+  const msg = String(e?.message || '');
+  if (e?.name === 'SyntaxError' && (/compileSourceTextModule|^file:\/\//.test(e.stack || '') || /does not provide an export named/.test(msg))) return msg;
+  if (e?.code === 'ERR_MODULE_NOT_FOUND' && /Cannot find module/.test(msg)) return msg.replace(/ imported from .*/, '');
+  return null;
+};
+import('./platform/cli/atr.js').catch((e) => {
+  const w = why(e);
+  if (e?.code === 'ERR_MODULE_NOT_FOUND' && /Cannot find package '([^']+)'/.test(e.message)) {
+    process.stderr.write(`atr: the package ${e.message.match(/Cannot find package '([^']+)'/)[1]} is not installed; run npm install (or try again in a minute if someone is installing).\n`);
+  } else if (w) {
+    process.stderr.write(`atr: the platform is being updated; try again in a minute. (${w.split('\n')[0].slice(0, 160)})${process.env.ATR_DEBUG ? `\n${e.stack}` : ''}\n`);
+  } else throw e;
+  process.exitCode = 75;
+});

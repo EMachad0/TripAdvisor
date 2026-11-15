@@ -1,0 +1,29 @@
+# FIXTURE — platform test data, not curated content. Ignored by the real build.
+fixture: true
+id: xian
+country: china
+name: "Xi'an"
+name_local: 西安
+region: Shaanxi, Central China
+scope: city
+cities: [xian]
+why: Fixture card. The walled old capital with the Terracotta Army an hour away and a night market that never stops.
+best_for: [culture, food]
+highlights: ["Terracotta Army", "City wall", "Muslim Quarter"]
+days_suggested: { min: 2, max: 3 }
+cost_level: low
+getting_there: About 6 h by high-speed rail from Shanghai.
+fame: iconic
+lat: 34.2658
+lng: 108.9541
+winter_note: Dry and cold (−3 to 6 °C). Fixture text.
+image: snow-sculpture
+sources:
+  - url: https://en.wikipedia.org/wiki/Xi%27an
+    title: Xi'an — Wikipedia
+    checked: 2026-11-09
+  - url: https://en.wikivoyage.org/wiki/Xi%27an
+    title: Xi'an — Wikivoyage
+    checked: 2026-11-09
+confidence: low
+last_updated: 2026-11-09

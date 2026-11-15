@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: mao-portrait-gate
+  title: File:Portrait of Chairman Mao on Tiananmen Gatetower.jpg
+  author: 我乃野云鹤
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Portrait_of_Chairman_Mao_on_Tiananmen_Gatetower.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/90/Portrait_of_Chairman_Mao_on_Tiananmen_Gatetower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Portrait of Chairman Mao on Tiananmen Gatetower.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: heroes-monument
+  title: File:Monument to the Peoples Heroes Tiananmen Square.jpg
+  author: Jp16103
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Monument_to_the_Peoples_Heroes_Tiananmen_Square.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/31/Monument_to_the_Peoples_Heroes_Tiananmen_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Monument to the Peoples Heroes Tiananmen Square
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: mausoleum-2025
+  title: File:20251026 Memorial Hall of Mao Zedong.jpg
+  author: Windmemories
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:20251026_Memorial_Hall_of_Mao_Zedong.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f9/20251026_Memorial_Hall_of_Mao_Zedong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Memorial Hall of Mao Zedong
+  width: 1800
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1800
+  fetched: 2026-11-13
+  origin: commons
+- file: mausoleum-guard
+  title: File:Lascar Mausoleum of Mao Zedong (4475525297).jpg
+  author: Jorge Láscar from Australia
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Lascar_Mausoleum_of_Mao_Zedong_(4475525297).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/42/Lascar_Mausoleum_of_Mao_Zedong_%284475525297%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Chairman Mao Memorial Hall, commonly known as the Mausoleum of Mao Zedong, or the Mao Mausoleum, is the final resting place of Mao Zedong, Chairman of the Politburo of the Communist Party of China from 1943 and the chairman of the Central Committee of the Communist Party of China from 1945 until
+  width: 3216
+  height: 2136
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: monument-relief
+  title: File:Beijing China Tiananmen-Square-Young Pioneers of China-01.jpg
+  author: CEphoto, Uwe Aranas
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Beijing_China_Tiananmen-Square-Young_Pioneers_of_China-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/03/Beijing_China_Tiananmen-Square-Young_Pioneers_of_China-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Beijing, China: Young Pioneers of China standing honour guard at the Monument to the People's Heroes at Tianamen Square"
+  width: 3999
+  height: 2666
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

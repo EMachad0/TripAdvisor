@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: wall-sunny
+  title: File:Nine Dragon Wall, Beihai Park.jpg
+  author: EditQ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nine_Dragon_Wall,_Beihai_Park.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a8/Nine_Dragon_Wall%2C_Beihai_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nine Dragon Wall, Beihai Park
+  width: 3873
+  height: 2976
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: dragons-close
+  title: File:Nine Dragon Wall in Beihai Park 20160822-3.jpg
+  author: そらみみ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nine_Dragon_Wall_in_Beihai_Park_20160822-3.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Nine_Dragon_Wall_in_Beihai_Park_20160822-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 北海公園の九龍壁
+  width: 3264
+  height: 2448
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: wall-front
+  title: File:Nine Dragon Wall in Beihai Park.JPG
+  author: Gisling
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nine_Dragon_Wall_in_Beihai_Park.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Nine_Dragon_Wall_in_Beihai_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nine Dragon Wall in Beihai Park, Beijing
+  width: 2990
+  height: 1308
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

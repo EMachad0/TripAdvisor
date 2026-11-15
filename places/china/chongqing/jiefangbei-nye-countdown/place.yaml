@@ -1,0 +1,172 @@
+id: jiefangbei-nye-countdown
+name: "New Year's Eve at Jiefangbei, Chongqing"
+short_name: Jiefangbei NYE
+name_local: 解放碑跨年
+name_romanized: Jiěfàngbēi kuànián
+country: china
+city: chongqing
+area: Yuzhong · Jiefangbei
+category: nightlife
+fame: hidden
+tags: [nye, countdown, crowds, street-food, free, night, cyberpunk]
+kind: Do
+why: "Chongqing's biggest street countdown: tens of thousands pack the neon canyon around the Liberation Monument, let balloons go at midnight, then eat."
+when:
+  dates:
+    - { from: 2026-12-31, to: 2026-12-31 }
+  confirmed: false
+cost:
+  local: 46
+  currency: CNY
+  brl: 38.03
+  note: "Free to join. ¥46 = metro round trip, a ¥10 wish balloon and street snacks; clubbing after costs extra"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "19:00–01:00"
+best_time: "Dec 31, in place by 20:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Open public streets. NYE 2025: stage shows on the hour 20:00–24:00, monument bell at midnight"
+  winter: "Cars barred from Jiefangbei roads from 18:00 on Dec 31, 2025; both nearby river bridges closed to cars from 17:00. Night buses picked up at 5 points from 00:00–01:00. **NYE 2026 plans not announced yet** (usually out in the last week of December)."
+
+location:
+  address: Liberation Monument, Jiefangbei Pedestrian Street (Minzu Road / Minquan Road), Yuzhong District, Chongqing
+  address_local: 重庆市渝中区民族路 解放碑
+  lat: 29.5601
+  lng: 106.5734
+  nearest_transit: Xiaoshizi (Line 1/6) or Jiaochangkou (Line 1/2), 5–10 min walk
+
+sources:
+  - url: https://www.itiger.com/hans/news/1114431613
+    title: "Chongqing's Liberation Monument rings in 2026 (Jan 1, 2026): crowds by 19:00, shows 20:00–24:00, ¥10 balloons"
+    checked: 2026-11-10
+  - url: https://cbgc.scol.com.cn/news/7113246
+    title: "渝中区跨年夜交通管控 (Chongqing gov. via Sichuan Daily, 2025-12-27): closures, metro advice, evacuation buses"
+    checked: 2026-11-10
+  - url: http://cq.bendibao.com/xiuxian/2025124/159886.shtm
+    title: "2026重庆跨年夜无人机表演地点 (Chongqing Bendibao, 2025-12-30): metro runs until about 01:30"
+    checked: 2026-11-10
+  - url: https://citiesinsider.com/country/china/chongqing/nightlife/en
+    title: "Chongqing nightlife guide (CitiesInsider, prices Feb 2026): 9th Street clubs, cover ¥0–200"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "What happened in 2025 is well covered (news report, official traffic notice). The 2026 plan is not out yet. Police call the Jiefangbei crowd a spontaneous gathering, not an official event, so the format could change. Snack prices are rough."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: monument-at-night
+    caption: The Liberation Monument on a normal night. No free photo of the NYE crowd exists
+    hook: Midnight at the bottom of a canyon of skyscrapers, with a 1940s clock tower as the countdown clock.
+  - type: quick_facts
+    time_needed: "19:00–01:00"
+    best_time: "Dec 31, in place by 20:00"
+    extra:
+      - label: Crowd
+        value: Tens of thousands
+        detail: The crossing was full by 19:00 in 2025
+      - label: Last metro
+        value: About 01:30
+        detail: Extended on NYE 2025; confirm for 2026
+      - label: Status
+        value: Not an official event
+        detail: Police call it a spontaneous gathering
+  - type: highlights
+    items:
+      - title: The monument at the centre of it all
+        text: "The **Liberation Monument** (1947) is a clock tower in the middle of Chongqing's densest skyscraper district. At midnight on NYE 2025 it rang in the new year."
+      - title: Hourly stage shows
+        text: "In 2025 a city-run \"Gala of Light\" put on shows at **20:00, 21:00, 22:00, 23:00 and 24:00** around the square, so there's something to watch while you wait."
+      - title: Balloons and wishes
+        text: "Vendors sell glowing **¥10 balloons**. People write wishes and let them go at midnight (a few end up in the trees)."
+      - title: Then eat, then dance
+        text: "Snack stalls stay busy after midnight. Clubbers head to **9th Street (Jiujie)** in Guanyinqiao, the city's main club strip (normal-night cover ¥0–200)."
+  - type: prose
+    title: What the night is actually like
+    dropcap: true
+    text: |-
+      Jiefangbei on NYE is less a party than a **human tide**. By 19:00 in 2025 the pedestrian crossings around the monument were already packed, mostly with students and young couples. Expect to shuffle, not walk, and expect police lines that steer the flow one way.
+
+      The city doesn't call it an event. The 2025 traffic notice talks about "spontaneous crowd gathering" at Jiefangbei, and police closed roads in stages: the Qianshimen and Dongshuimen bridges from 17:00, the roads around the monument from 18:00 and more streets from 22:00. That framing matters: mainland cities have been cautious about big countdowns since the 2014 Shanghai Bund crush, and a spontaneous gathering can be managed differently from one year to the next.
+
+      After midnight you have two choices. Hunt for **xiaomian** and skewers at the stalls, or catch the extended metro and taxi on to 9th Street, where the big clubs run late. Either way, decide your exit before the countdown, because everyone leaves at 00:05.
+  - type: gallery
+    images:
+      - file: pedestrian-street
+        caption: The Jiefangbei pedestrian street by day, the same canyon you'll stand in at midnight
+      - file: clock-tower
+        caption: The monument dwarfed by towers
+        focus: center
+      - file: square-in-1988
+        caption: The same square in 1987, before the skyscrapers
+  - type: quote
+    variant: vibe
+    text: Balloons going up between skyscrapers, and a whole crowd shouting the last ten seconds.
+  - type: cost_breakdown
+    items:
+      - label: The countdown
+        local: 0
+        brl: 0
+      - label: Metro there and back (rough)
+        local: 6
+        brl: 4.96
+      - label: Wish balloon
+        local: 10
+        brl: 8.27
+      - label: Street snacks (rough)
+        local: 30
+        brl: 24.80
+    note: "A cheap night. Going clubbing afterwards adds an entry fee; 2026 NYE ticket prices aren't announced yet."
+  - type: menu
+    title: Midnight street food
+    items:
+      - name: Chongqing small noodles
+        name_local: 重庆小面
+        note: Spicy, numbing breakfast-style noodles; the city's everyday dish.
+        tag: must-try
+      - name: Hot and sour sweet-potato noodles
+        name_local: 酸辣粉
+        note: Glassy noodles in a sour, chili-red broth. Warms you up fast.
+        tag: spicy
+      - name: Skewers in hotpot broth
+        name_local: 串串香
+        note: Pay per stick; great for sharing with hostel friends.
+        tag: signature
+      - name: Glowing wish balloon
+        name_local: 气球
+        price_local: 10
+        price_brl: 8.27
+        note: Price from the 2025 report.
+        tag: cheap
+    note: "Food prices change on the night; check the board before you order."
+  - type: map
+    zoom: 16
+    note: "Go by **metro**: the roads are closed to cars from 18:00. Get off at Xiaoshizi or Jiaochangkou and walk in."
+  - type: tips
+    variant: insider
+    items:
+      - "Arrive **by 20:00** and pick a spot near an edge or side street, not dead centre. It's easier to leave."
+      - "Go with people from your hostel and agree on a **meeting point** away from the monument; phone networks clog at midnight."
+      - "Check Chongqing Bendibao (重庆本地宝) around **Dec 25–28** for the 2026 traffic notice and metro hours."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**You can't do both** the 23:25 drone show by the river and midnight at the monument. Crowd controls make crossing between them unrealistic."
+      - "Some metro station exits may close or run one-way for crowd control. Have a second station in mind."
+      - "Taxis and Didi can't reach the core after 18:00. Walk out to a pickup point, or use the special night buses (00:00–01:00 in 2025)."
+      - "Keep your phone and passport zipped away. It's very crowded."
+  - type: weather
+    temp_low_c: 7
+    temp_high_c: 12
+    conditions: Damp and grey, sometimes drizzle
+    note: "Mild by northern standards, but standing still for 4–5 hours in damp air gets cold. The crowd keeps you warmer than you'd think."
+    wear: Warm jacket, comfy shoes for standing, small umbrella
+  - type: pairs_well
+    items:
+      - id: chongqing-drone-light-show
+        note: "Catch the drones on a Saturday before NYE, then do the countdown here"
+      - id: liziba-station
+        note: Daytime cyberpunk fix on Jan 1

@@ -1,0 +1,130 @@
+id: kichijoji-persona-5-royal-walk
+name: "Kichijoji, Persona 5 Royal's district"
+short_name: Kichijoji (P5 Royal)
+name_local: 吉祥寺
+name_romanized: Kichijōji
+country: japan
+city: tokyo
+area: Musashino · Kichijōji
+category: culture
+fame: popular
+tags: [anime, persona, walk, shotengai, park, gaming]
+kind: See
+why: "Royal's hangout district is real: Sun Road arcade, the menchi-katsu queue the game copied, lantern-lit Harmonica Yokocho, then a walk by Inokashira Park's pond."
+cost:
+  local: 350
+  currency: JPY
+  brl: 12.31
+  note: "The walk and park are free; ¥350 is one Satou menchi-katsu (2026 price, ¥330 each if you buy 5+)."
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 3–4 h
+best_time: Weekday late morning (short queue), stay till dark
+book_ahead:
+  required: false
+
+hours:
+  summary: "Streets and Inokashira Park: always open. Satou: 10:00–19:00, menchi-katsu from 10:30; one 2026 blog adds irregular closing days."
+  winter: "Boats Nov–Feb: 09:30–16:50 (last ticket 15:50), closed Wednesdays Dec–Feb (official park page). Satou closes only at New Year (年始) per its Jan 2026 listing, so the Jan 20 – Feb 4 Japan days are after it."
+
+location:
+  address: Kichijōji Sun Road entrance, Kichijōji Honchō 1-chōme, Musashino, Tokyo (north exit of Kichijōji Station)
+  address_local: 東京都武蔵野市吉祥寺本町1丁目 吉祥寺サンロード入口（吉祥寺駅北口）
+  lat: 35.70484
+  lng: 139.58039
+  nearest_transit: Kichijōji (JR Chūō Line / Keio Inokashira Line), North Exit
+  approximate: false
+
+sources:
+  - url: https://twinfinite.net/features/persona-5-royal-kichijoji/
+    title: "Twinfinite — Persona 5 Royal's new location compared with real-life Tokyo (Kichijoji, 2019)"
+    checked: 2026-11-12
+  - url: "https://kamigame.jp/P5R/%E3%82%A8%E3%83%AA%E3%82%A2/%E5%90%89%E7%A5%A5%E5%AF%BA.html"
+    title: "神ゲー攻略 P5R wiki — 吉祥寺でできること (updated 2025-03-05)"
+    checked: 2026-11-12
+  - url: https://www.gotokyo.org/en/spot/165/index.html
+    title: "GO TOKYO — Harmonica Alley (updated 2025-10-31)"
+    checked: 2026-11-12
+  - url: https://www.gltjp.com/ja/directory/item/18540/
+    title: "GLTJP directory — 吉祥寺 さとう (shop-checked, updated 2026-01-14: 10:00–19:00, menchi from 10:30, closed only at New Year)"
+    checked: 2026-11-12
+  - url: https://www.tokyo-park.or.jp/park/inokashira/facility/
+    title: "Tokyo Metropolitan Park Association — 井の頭恩賜公園 facilities (boat prices and Nov–Feb hours)"
+    checked: 2026-11-12
+  - url: https://www.walkerplus.com/spot/ar0313s03433/
+    title: "Walkerplus — 渋谷マークシティ (directly connected to Keio Inokashira Line Shibuya Station; info as of Jan 2026)"
+    checked: 2026-11-12
+  - url: "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "Japan Meteorological Agency — Tokyo climate normals (January: mean high 9.8 °C, low 1.2 °C)"
+    checked: 2026-11-12
+  - url: "https://www.bring-you.info/?p=64325"
+    title: "Bring-You — 吉祥寺さとう menchi-katsu (updated 2026-06-22: ¥350, ¥330 for 5+)"
+    checked: 2026-11-12
+  - url: https://cdn.gltjp.com/en/article/item/21387/
+    title: "GLTJP — Inokashira Park travel guide (updated 2026-04-21)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Game matches: 2019 Twinfinite + P5R wiki. Satou ¥350 from a June 2026 blog (older listings still show ¥240); hours from a Jan 2026 listing checked by the shop, which says closed only at New Year, while the blog says irregular closing days. Boat hours and prices from the official park page. Twinfinite and Bring-You opened via atr render but block the link checker (403)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: harmonica-sunday
+    caption: Harmonica Yokocho, the lantern alley the game borrows for its Kichijoji
+    hook: Royal turned Sun Road into "Sanpo Road" (stroll road) and kept almost everything else, down to the queue for croquettes.
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: Weekday late morning, stay till dark
+    extra:
+      - { label: Game, value: Persona 5 Royal, detail: "Kichijoji: darts, billiards, a thrift shop, hangouts" }
+      - { label: From Shibuya, value: Inokashira Line, detail: "Its Shibuya terminal is inside Shibuya Mark City" }
+  - type: highlights
+    items:
+      - title: "Screenshot vs reality: Sanpo Road"
+        text: "The arcade gate of **Kichijōji Sun Road** is nearly identical in the game, renamed **Sanpo Road**. The blue **Daiya-gai** arcade next to it becomes **Platinum-gai**."
+      - title: The croquette queue is real
+        text: "The game's meat shop with a long queue is **Satou**, in Daiya-gai. People queue for its fried beef **menchi-katsu**: **¥350** each in 2026. Weekday mornings have the shortest line."
+      - title: Harmonica Yokocho at night
+        text: "A covered post-war warren of tiny bars by the north exit, which shows up in Royal's trailers. Red lanterns, standing bars, small eateries: good for one drink."
+      - title: Inokashira Park
+        text: "The park is a hangout spot already in the original Persona 5, and Royal sends the Shujin students there to pick up litter. It's free and open 24 h; the pond has rowboats (¥800 per 30 min) and swan boats (¥1,000)."
+  - type: prose
+    title: Royal's extra district
+    dropcap: true
+    text: |-
+      Persona 5 Royal adds Kichijoji as a whole new district. In the game it's where you play darts and billiards and trade old armour at a thrift shop. The real Kichijoji sits at the end of the Keio Inokashira Line from Shibuya, and the game's version is a close copy, with the shop names changed.
+
+      Atlus merged two arcades into one: Gessō-ji temple's gate, really halfway along Sun Road, appears on the same street as Satou. Walk both arcades and spot the switch.
+  - type: gallery
+    images:
+      - { file: harmonica-lantern, caption: A paper lantern in Harmonica Yokocho }
+      - { file: harmonica-lane, caption: "One of Harmonica Yokocho's narrow lanes", focus: center }
+      - { file: inokashira-swan-boat, caption: A swan boat on Inokashira Pond, focus: center }
+  - type: cost_breakdown
+    items:
+      - { label: Walking Sun Road and Daiya-gai, local: 0, brl: 0 }
+      - { label: "Satou menchi-katsu (元祖丸メンチカツ)", local: 350, brl: 12.31 }
+      - { label: Inokashira Park, local: 0, brl: 0 }
+      - { label: "Rowboat, 30 min (swan boat ¥1,000)", local: 800, brl: 28.14, optional: true }
+  - type: map
+    zoom: 16
+    note: "From Shibuya take the **Keio Inokashira Line** to the end, Kichijōji. Leave by the **North Exit**: Sun Road and Harmonica Yokocho are right there. The park is 5–10 min south of the station."
+  - type: tips
+    variant: insider
+    items:
+      - "Queue at **Satou before noon on a weekday**. Menchi-katsu go on sale at 10:30 and stop when they sell out."
+      - "Do the arcades by day, the park before sunset, then come back to **Harmonica Yokocho** after dark when the lanterns are lit."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't search maps for the game's shop names: Atlus changed the names of real businesses, so only the look matches."
+      - "Boats don't run on **Wednesdays from December to February**, and in winter the last ticket is sold at **15:50**."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Mostly clear, dry and cold
+    note: "The arcades are covered, so they're fine in any weather. Winter trees are bare, but the pond walk is quiet and pretty in low sun. Rent a boat before 15:50."
+    wear: Warm coat, gloves for the park
+  - type: pairs_well
+    items:
+      - { id: shibuya-persona-5-walkway, note: "The Inokashira Line runs straight from the walkway's gates" }
+      - { id: sangenjaya-yongen-jaya-walk, note: "Joker's home district, the other side of Shibuya" }

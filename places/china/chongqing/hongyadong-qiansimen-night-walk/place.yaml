@@ -1,0 +1,130 @@
+id: hongyadong-qiansimen-night-walk
+name: "Hongyadong and Qiansimen Bridge at Night"
+short_name: Hongyadong at night
+name_local: 洪崖洞 · 千厮门大桥
+name_romanized: Hóngyádòng · Qiānsīmén Dàqiáo
+country: china
+city: chongqing
+area: "Yuzhong · Cangbai Road"
+category: views
+fame: iconic
+tags: [night-view, architecture, cyberpunk, free, skyline, river, stilt-houses]
+kind: See
+why: "Eleven glowing storeys of stilt houses on a river cliff, then the bridge walkway for the full view. Free, lit from ~18:30, a 15-minute walk from Jiefangbei."
+
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+  note: "Free to enter and photograph (chongqing.guide). Food stalls and teahouses inside are extra"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Weekday, just before 18:30 when the lights come on"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Open to walk through; the lights come on around 18:30 in winter and usually go off between 22:30 and 23:00"
+  winter: "Winter lights from about 18:30 (chongqing.guide). The bridge and riverside viewpoints are open to rain and fog; the inside corridors are covered. No holiday schedule for 2026–27 found; New Year's Day crowds not confirmed."
+
+location:
+  address: "Cangbai Road (top floor, Gate 1) / Jiabin Road (riverside, Gate 7), Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区沧白路 洪崖洞（11楼 1号门）
+  lat: 29.56507
+  lng: 106.57534
+  nearest_transit: "Xiaoshizi (Line 1 / 6), Exit 6 or 9, then 10–15 min walk"
+
+sources:
+  - url: https://chongqing.guide/en/guides/hongya-cave/
+    title: "Hongya Cave — chongqing.guide (updated 2026-10-18): levels, gates, metro, Qiansimen Bridge, winter lights, free entry"
+    checked: 2026-11-11
+  - url: https://citiesinsider.com/country/china/chongqing/nightlife/en
+    title: "Nightlife in Chongqing (2026) — Cities Insider: lights off 22:30–23:00, Hongyadong bars as tourist traps"
+    checked: 2026-11-11
+  - url: https://chongqing.guide/en/guides/best-hotpot-restaurants/
+    title: "Best hotpot restaurants — chongqing.guide (updated 2026-10-20): Liu Yishou river-view branch at 48 Cangbai Road"
+    checked: 2026-11-11
+  - url: https://www.chinahighlights.com/chongqing/top-hotpot-restaurants.htm
+    title: "5 Hot Pot Restaurants in Chongqing — China Highlights: Sister Pei's on Hongya Cave's 11th floor, ~¥100 a head"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing — Wikipedia (climate table, Dec–Jan normals)"
+    checked: 2026-11-11
+confidence: high
+confidence_note: "Free entry, levels, gates and the 18:30 winter lighting are from one current guide (Oct 2026); the 22:30–23:00 lights-off time is from a second. China Highlights' hotpot page is undated. Holiday crowd control on 1 Jan not checked."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: hongyadong-night
+    focus: center
+    hook: "A cliff of lantern-lit wooden balconies, eleven floors high, with the skyline stacked behind it."
+    caption: "Hongyadong lit up at night, May 2025"
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: "Weekday, 18:15–20:00"
+    extra:
+      - { label: Lights on, value: "~18:30 in winter", detail: "Off between 22:30 and 23:00 (Cities Insider)" }
+      - { label: Enter from, value: "Cangbai Road, 11F", detail: "The top floor is street level up there" }
+      - { label: Rain, value: "Partly covered", detail: "Corridors dry; bridge and riverside open" }
+  - type: highlights
+    items:
+      - title: The building that looks like a film set
+        text: "An **11-storey** complex built against a river cliff, opened in 2006 to recreate Bayu stilt houses (diaojiaolou). Guides compare it to the bathhouse in *Spirited Away*."
+      - title: The bridge view
+        text: "Walk from Cangbai Road onto the pedestrian promenade of **Qiansimen Bridge**: the whole glowing facade, reflected in the Jialing River."
+      - title: The '8D' city in one building
+        text: "The **top floor opens onto a street**, and the first floor onto another, dozens of metres lower. That is Chongqing's layered city in one walk."
+      - title: Free, and close to the hostels
+        text: "No ticket. From Jiefangbei it is about a **15-minute walk downhill**."
+  - type: prose
+    title: An evening after work
+    dropcap: true
+    text: |-
+      Finish work, eat early near Jiefangbei, and walk down at dusk. Arrive a little before **18:30** to see the river valley first and then the moment the amber lights come on, chongqing.guide suggests.
+
+      Enter at the top: **Cangbai Road, Floor 11, Gate 1**. Browse the upper terraces, then walk straight out onto Qiansimen Bridge for the classic view. Going down inside means stone stairs, so to save your legs leave the same way you came. For a close-up from below, the riverside walk on **Jiabin Road** (Floor 1, Gate 7) lets you look straight up at the balconies.
+
+      For the long view, go across the Jialing to **Jiangbeizui** near the Grand Theatre, where Hongyadong sits in front of the whole Yuzhong skyline. Fog is common in winter; on wet nights the stone paving reflects the lights.
+
+      Hungry? **Liu Yishou**'s river-view hotpot branch is at 48 Cangbai Road, at the top entrance, and China Highlights lists Sister Pei's (Peijie) on the 11th floor at about ¥100 a head.
+  - type: gallery
+    images:
+      - { file: qiansimen-bridge, caption: "Qiansimen Bridge in red, with Hongyadong glowing at its foot, May 2026" }
+      - { file: hongyadong-lights, caption: "The stacked balconies from below", focus: top }
+  - type: quote
+    variant: vibe
+    text: Gold lanterns on a black cliff, a red bridge overhead, and the whole thing doubled in the river.
+  - type: cost_breakdown
+    items:
+      - { label: Entry, local: 0, brl: 0 }
+      - { label: "Hotpot at the top entrance", local: 100, brl: 82.67, estimate: true, optional: true }
+  - type: map
+    note: "Set your map or DiDi to **沧白路** (Cangbai Road), not just 'Hongyadong': the upper and lower entrances look next to each other on a map but are dozens of metres apart in height."
+  - type: tips
+    variant: insider
+    items:
+      - "Leave the photos for early: Cities Insider says the lights go off between 22:30 and 23:00."
+      - "Coming from Liziba? Line 2 to **Linjiangmen** is the other handy station, chongqing.guide says."
+      - "Go *to* Hongyadong to be in the scene; for a view *of* it, Cities Insider recommends the opposite bank."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Bars inside the complex are often tourist traps with high prices, says Cities Insider. Drink elsewhere."
+      - "Don't navigate to plain 'Hongyadong': you may end up on the river road, a long climb below the bridge."
+      - "An outdoor escalator was only announced in March 2026. Count on stairs between floors."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp, grey evenings, often foggy
+    note: "The fog softens the lights rather than hiding them. The bridge is exposed and wet stone is slippery."
+    wear: Mid-weight jacket, rain layer, shoes with grip
+  - type: pairs_well
+    items:
+      - { id: liziba-station, note: "Line 2 from Liziba to Linjiangmen, then walk: both in one evening" }
+      - { id: yangtze-river-cableway-night, note: "The cableway's north station is a short walk, also near Xiaoshizi" }
+      - { id: chongqing-drone-light-show, note: "Same skyline, seen from across the river on a Saturday" }
+      - { id: only-cafe-and-backpacker, note: "Walk down after work and back up" }
+      - { id: chongqing-liuhe-youth-hostel, note: "The hostel lists Hongyadong as a neighbour" }

@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: monument-at-night
+  title: File:Jiefangbei night.jpg
+  author: Baycrest
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source_url: https://commons.wikimedia.org/wiki/File:Jiefangbei_night.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4a/Jiefangbei_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Night scene of Jiefangbei, Chongqing
+  width: 1800
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1800
+  fetched: 2026-11-10
+  origin: commons
+- file: pedestrian-street
+  title: File:Jiefangbei CBD 20240721.jpg
+  author: HoweyYuan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Jiefangbei_CBD_20240721.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/52/Jiefangbei_CBD_20240721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​重庆解放碑商圈
+  width: 12032
+  height: 9024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: square-in-1988
+  title: File:Jiefangbei square in Chongqing in 1988.jpg
+  author: Jan Kranendonk ( https://www.jankranendonk.nl )
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Jiefangbei_square_in_Chongqing_in_1988.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/dc/Jiefangbei_square_in_Chongqing_in_1988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Jiefangbei square in Chongqing in 1987
+  width: 2738
+  height: 1891
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: clock-tower
+  title: File:Jiefangbei CBD 31548-Chongqing (45436210295).jpg
+  author: xiquinhosilva
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Jiefangbei_CBD_31548-Chongqing_(45436210295).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Jiefangbei_CBD_31548-Chongqing_%2845436210295%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Jiefangbei CBD, also known as Jiefangbei Shangye Buxingjie, is the ultra-dense, urbanized downtown and central business district in the city of Chongqing, China, that is centred on a large pedestrian mall with a landmark monument tower surrounded by collections of tall skyscrapers.
+  width: 1839
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1839
+  fetched: 2026-11-10
+  origin: commons

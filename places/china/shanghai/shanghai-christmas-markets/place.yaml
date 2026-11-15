@@ -1,0 +1,177 @@
+id: shanghai-christmas-markets
+name: "Shanghai Christmas Markets"
+short_name: Shanghai Christmas
+name_local: 上海圣诞集市
+name_romanized: Shànghǎi Shèngdàn jíshì
+country: china
+city: shanghai
+area: Huangpu · Rockbund
+category: food
+fame: hidden
+tags: [christmas, christmas-market, gluhwein, bund, expats, social]
+kind: Do
+why: "Glühwein in 1920s Rockbund streets: 40+ wooden chalets at the Bund Christkindlmarkt, then Paulaner's North Bund market, open late on Dec 24 and 25 in 2025."
+when:
+  dates:
+    - { from: 2026-11-25, to: 2026-12-27 }
+  confirmed: false
+cost:
+  local: 140
+  currency: CNY
+  brl: 115.74
+  note: "¥40 entry at the door plus two mugs of glühwein. Not included: the trip to Chongqing on the 26th, from ¥632 by air"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "3–4 h, afternoon to evening"
+best_time: "Dec 24 from 16:00, as the lights come on"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "2025: Christkindlmarkt Wed–Fri 15:00–22:00, Sat–Sun and Dec 24 12:00–22:00, closed Mon–Tue; ran to Dec 28"
+  closed: Mondays and Tuesdays (2025 pattern)
+  winter: "2026 dates aren't confirmed: the dates shown assume the 2025 pattern (Nov 26–Dec 28, Wed–Sun). SmartShanghai sells the tickets and lists the dates. In 2026 **Dec 24 is a Thursday and Dec 25 a Friday**, so both fall on market days if the pattern holds. Paulaner's North Bund market opened 13:00–22:00 on Dec 24–25, 2025. Christmas is a normal working day in China."
+
+location:
+  address: Yuanmingyuan Road at East Beijing Road (Rockbund), Huangpu, Shanghai
+  address_local: 上海市黄浦区圆明园路（近北京东路）洛克·外滩源
+  lat: 31.2440
+  lng: 121.4835
+  nearest_transit: "East Nanjing Road (Line 2/10), Exit 6, 8 min walk; Tiantong Rd (L12)"
+
+sources:
+  - url: https://rachelgouk.com/best-christmas-markets-in-shanghai-2025/
+    title: "The Best Christmas Markets in Shanghai 2025 (Rachel Gouk, 2025-12-03): dates, hours, entry prices"
+    checked: 2026-11-10
+  - url: https://www.travelofchina.com/?p=16870
+    title: "Christkindlmarkt at The Bund 2025 (TravelofChina, updated 2025-12-16): Dec 24 hours, glühwein ¥40–60"
+    checked: 2026-11-10
+  - url: https://www.smartshanghai.com/wire/shanghai-life/christkindlmarkt-market-tickets-now-available
+    title: "Christkindlmarkt tickets now available (SmartShanghai, 2025-12-05): 2025 dates of both markets, tickets by time slot on SmartShanghai"
+    checked: 2026-11-10
+  - url: "https://www.trip.com/chinaflights/ShowFareFirst?dCityName=shanghai&aCityName=chongqing&dCity=sha&aCity=ckg&dcity=sha&acity=ckg&ddate=2026-12-26&flighttype=ow&class=y&quantity=1&curr=CNY&locale=en-XX&searchboxArg=t"
+    title: "Trip.com flight search Shanghai → Chongqing for Sat 2026-12-26 (searched 2026-11-10): nonstops from PVG, cheapest CNY 632"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/shanghai-chongqing/
+    title: "Shanghai–Chongqing trains on Ctrip (timetable for 2026-11-12, 25 trains): G3390, D982, D986, D57 times and fares"
+    checked: 2026-11-10
+  - url: https://www.chinadiscovery.com/chongqing-tours/transportation/chongqing-jiangbei-international-airport.html
+    title: "Chongqing Jiangbei Airport transport (China Discovery): rail transit about 60 min to downtown, taxi about 50 min to Jiefangbei"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Market details are from the 2025 season; 2026 dates and prices aren't announced. SmartShanghai's 2026 listings (search snippets only, bot check) disagree: Nov 25–Dec 27 or Nov 18–Dec 28. No 2026 hostel parties confirmed. Flights: a Trip.com search on Nov 10 for Dec 26, read with atr render. Trains: Ctrip's Nov 12 timetable. China Discovery opened in a web fetch only."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: yuanmingyuan-road
+    caption: Yuanmingyuan Road, home of the Bund market. No free photo of the market exists
+    hook: Brick 1920s lanes behind the Bund, filled with wooden huts, sausages and mulled wine.
+  - type: quick_facts
+    time_needed: "3–4 h, afternoon to evening"
+    best_time: "Dec 24 from 16:00, as the lights come on"
+    extra:
+      - label: Glühwein
+        value: "¥40–60 a mug"
+        detail: At the Bund Christkindlmarkt in 2025
+      - label: Free options
+        value: Mall markets
+        detail: Kerry Centre, BFC and Xintiandi were free
+      - label: To Chongqing
+        value: "Fly: about 3 h 15, ¥632"
+        detail: "R$522 on Dec 26; day trains arrive too late"
+  - type: highlights
+    items:
+      - title: The big German one
+        text: "**Christkindlmarkt on the Bund**: more than 40 wooden chalets in the old Rockbund streets, ¥30 if you pre-buy on WeChat, ¥40 at the door. Santa came on Dec 25–26."
+      - title: Paulaner's North Bund market
+        text: "Shanghai's longest-running Christmas market (19th edition in 2025). **¥50 entry that you spend on food and drink**, open 13:00–22:00 on Dec 24–25."
+      - title: Free mall markets
+        text: "**Jing An Kerry Centre** ran a free market daily until Jan 1, and **BFC** on the Bund had free weekend markets plus an ice rink (¥39.9 for 90 min)."
+      - title: A social Christmas Eve
+        text: "Christmas is a **date night** for young Shanghainese, so malls and Nanjing Road are packed. The expat crowd lives at the markets and bars. Good night to go out with people from your hostel."
+  - type: prose
+    title: How to do Christmas Eve here
+    dropcap: true
+    text: |-
+      Arrive at **Yuanmingyuan Road** around 16:00, when the market has warmed up and dusk is coming. Grab a glühwein, walk the chalets, then at 17:30 cut through to the Bund for the riverside lights. It's 2 minutes away.
+
+      For round two, take a taxi or metro to **Paulaner** on the North Bund (2/F, 500 Dongdaming Road). There the ¥50 entry comes back as food and beer vouchers, and it stayed open until 22:00 on Christmas Eve in 2025.
+
+      Then go back to the hostel. A shared Christmas with dorm-mates from half a dozen countries is a backpacker classic. **Ask at check-in** whether they're doing a dinner, a party or a pub crawl. None are confirmed for 2026.
+  - type: gallery
+    images:
+      - file: rockbund-apartments
+        caption: The Rockbund's restored 1920s apartment blocks frame the market streets
+      - file: metro-christmas-tree
+        caption: A Christmas tree in the People's Square metro concourse (2015)
+      - file: arcade-christmas-tree
+        caption: Christmas trees appear in Shanghai's malls and arcades from late November
+        focus: bottom
+  - type: quote
+    variant: vibe
+    text: Cinnamon steam, fairy lights on red brick, and the Bund glowing two minutes away.
+  - type: cost_breakdown
+    items:
+      - label: Christkindlmarkt entry at the door
+        local: 40
+        brl: 33.07
+      - label: Two mugs of glühwein
+        local: 100
+        brl: 82.67
+      - label: Paulaner market entry (spent as food vouchers)
+        local: 50
+        brl: 41.34
+        optional: true
+    note: "Pre-buy on the SmartShanghai WeChat mini-program and the entry drops to ¥30."
+  - type: menu
+    title: What to order
+    items:
+      - name: Mulled wine
+        name_local: 热红酒
+        price_local: 50
+        price_brl: 41.34
+        note: "¥40–60 a mug at the Bund market in 2025; keep the mug or return it."
+        tag: drink
+      - name: Bratwurst in a roll
+        name_local: 德式香肠
+        note: Classic market food; price not published.
+        tag: must-try
+      - name: Hot apple cider / hot chocolate
+        name_local: 热苹果酒 / 热巧克力
+        note: Non-alcoholic option; price not published.
+        tag: drink
+    note: "Only the glühwein price was published for 2025. Check the stall boards."
+  - type: map
+    zoom: 16
+    note: "Market streets are **Yuanmingyuan Road** and Huqiu Road behind the north end of the Bund. Paulaner is across Suzhou Creek at 500 Dongdaming Road."
+  - type: tips
+    variant: insider
+    items:
+      - "Pre-buy the **¥30 ticket** on the SmartShanghai mini-program in WeChat (needs a working WeChat Pay)."
+      - "Weekday afternoons (Wed–Fri, 15:00) are the calmest. Dec 24 evening is the busiest."
+      - "Save money with the **free** Kerry Centre or BFC markets for photos, and pay entry only at one German market."
+      - "**Getting to Chongqing on the 26th**: fly. On Nov 10, Trip.com showed Juneyao 07:25 → 10:40 and Air China 07:40 → 10:40 from Pudong for **¥632 (R$522)**, and China Eastern 09:30 → 12:40 for ¥732. The airport rail link takes about 60 min to downtown, so the afternoon arrival is realistic."
+      - "**By train instead**, you give up Christmas night. In the Nov 12 timetable, sleeper D982 leaves Hongqiao at 18:22 and reaches Chongqing North at 05:25 (berth ¥700, seat ¥544). D57 leaves Shanghai South at 19:40 and arrives 12:51 (berth ¥438, seat ¥292)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Closed **Mondays and Tuesdays** in 2025. Don't plan the 22nd or 23rd blind."
+      - "The Bund market ended **Dec 28** in 2025, so it's no help for NYE."
+      - "Glühwein adds up fast. Two mugs cost more than a day of metro and street food."
+      - "No day train on the 26th works. The earliest, G3390, leaves Hongqiao at 07:04 and reaches Chongqing North at 16:57 for ¥824; every other one arrives after 18:00."
+      - "The ¥632 fare is what Trip.com showed on Nov 10 for Dec 26. Fares move daily, and the train times are from a November timetable."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 9
+    conditions: Cold, damp, sometimes drizzly
+    note: "Just cold enough for glühwein to make sense. All outdoors, so bring layers."
+    wear: Warm coat, scarf, waterproof shoes
+  - type: pairs_well
+    items:
+      - id: shanghai-nye-bund-and-clubs
+        note: "Same riverside a week later, for the NYE warm-up"
+      - id: yu-garden
+        note: "Old-town lanes 20 min south along the Bund"

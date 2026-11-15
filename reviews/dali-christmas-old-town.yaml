@@ -1,0 +1,27 @@
+# Independent review of dali-christmas-old-town. Written by `./atr review`; do not edit by hand.
+id: dali-christmas-old-town
+type: place
+reviewed: 2026-11-10
+verdict: fix
+content_hash: 428e5d00dc0fc477b06788409cf67bd15c4a71bcdfee1d2d38b5930fa97bc212
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[7]
+    problem: The cost block still reads "100% of your R$ 170/day China budget" for a R$274 total, while the hero card says 161%. A note in confidence_note says the bar is a platform bug, but that does not fix what the traveler sees on the page.
+    evidence: './atr shot dali-christmas-old-town --only phone --theme light, s07: "100% of your R$ 170/day China budget"; s01: "¥332 · 161% of daily budget"'
+    fix: Until the platform caps the bar correctly and shows over-budget, state "161% of the R$170/day budget" in blocks[7].note. Alternatively, fix the bar label in the platform.
+resolved:
+  - field: blocks[9].items[1]
+    problem: The page sells the ¥329 C9508 + K986 route as the cheapest way out, but Ctrip's listings for both legs show 抢票 (sold out, waitlist only) for those fares. G2850 shows 预订 (bookable). The page never says these seats sell out.
+    evidence: blocks[9].items[3] now says the ¥114 seats and ¥215 sleepers were sold out (waitlist only), says to book when sales open on Dec 10, and names G2850 or the flight as the fallback. https://trains.ctrip.com/trainbooking/kunming-chongqing/ (read with atr render) still shows "K986 … 硬卧 215 抢票".
+  - field: location.nearest_transit
+    problem: The page says bus 8 takes 45–60 min and costs ¥2–3, but another listed source, updated in 2026, says about 1.5 h and ¥3–5. The page uses the shorter time to tell the traveler when to leave for the 09:56 train.
+    evidence: 'location.nearest_transit now says 45–90 min. blocks[6].steps[1] says "45–90 min on bus 8 (¥2–5), so allow 1.5 h". This matches both sources: https://www.wanderinchina.com/transport/intercity/kunming-dali/ — "Costs ¥3–5 and takes about 1.5 hours", and https://travelchinawith.me/attractions/yunnan/dali/dali-old-town/ — "Bus No. 8 | CNY 2–3 | 45–60 min".'
+rereview_of: 0120bd2ba121aba90784519dcaee5dfca7758af7c0d80c65a92015a15c7b5dcc
+summary: "Findings 1 and 2 are fixed: the sold-out warning and the 45–90 min / ¥2–5 bus range are on the page and match their sources. The new ¥85 Chengdu–Chongqing source checks out (D3058, 二等座 85). The 100% vs 161% budget mismatch is still visible in the cost block, so the page needs one more fix."
+model: claude-opus-5-5
+cost_usd: 0.464

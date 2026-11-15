@@ -1,0 +1,16 @@
+# Independent review of time-travelers-relax-hongdae. Written by `./atr review`; do not edit by hand.
+id: time-travelers-relax-hongdae
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 2cbcaa94aeb680e72de809065de75228f4d125fb7e91fe2e403ec67476fe5343
+facts:
+  supported: 9
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: bb22758390d25c985f5f39d9438851349cdec062fb3c57c5f18c46774cacf082
+summary: "The edit moves the price and availability data onto the traveler's real Korea nights (10–19 Jan 2027). I re-read the Hostelworld feed for each night and it matches the page: ₩29,412 (8-bed dorm), ₩31,767 (4-bed dorm) and ₩58,825 (single). It also matches the beds left (8, 2–3, 1) and shows no rooms on Fri 15 and Sat 16. The BRL conversions and shift dates are correct, the booking link resolves and the page renders cleanly. There were no earlier findings and nothing new to fix, so the page passes."
+model: claude-opus-5-5
+cost_usd: 0.416

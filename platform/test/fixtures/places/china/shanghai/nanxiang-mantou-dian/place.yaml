@@ -1,0 +1,90 @@
+# FIXTURE — platform test data, not curated content. Ignored by the real build.
+fixture: true
+id: nanxiang-mantou-dian
+name: "Nanxiang Mantou Dian"
+name_local: 南翔馒头店
+country: china
+city: shanghai
+area: Huangpu · Yuyuan bazaar
+category: food
+fame: hidden
+tags: [dumplings, xiaolongbao, queue]
+kind: Eat
+why: Shanghai's most famous soup dumplings, served in bamboo steamers a few steps from Yu Garden.
+
+cost:
+  local: 60
+  currency: CNY
+  brl: 49.6
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45 min + queue
+best_time: Before 11:00 or after 14:00
+
+book_ahead:
+  required: false
+  method: walk-in
+
+hours:
+  summary: Daily 10:00–21:00
+  winter: Open through the holidays; queues are longest on New Year's Day.
+
+location:
+  address: 85 Yuyuan Rd, Huangpu, Shanghai
+  address_local: 上海市黄浦区豫园路85号
+  lat: 31.2285
+  lng: 121.4874
+  nearest_transit: Yuyuan Garden (Line 10 / 14), Exit 1
+
+sources:
+  - url: https://en.wikipedia.org/wiki/Xiaolongbao
+    title: Xiaolongbao — Wikipedia
+    checked: 2026-11-09
+  - url: https://en.wikipedia.org/wiki/Nanxiang,_Shanghai
+    title: Nanxiang, Shanghai — Wikipedia
+    checked: 2026-11-09
+confidence: low
+confidence_note: Fixture for platform tests — not researched.
+last_updated: 2026-11-09
+
+blocks:
+  - type: hero
+    image: xiaolongbao
+    hook: Bite, sip, burn your tongue, repeat.
+  - type: highlights
+    items:
+      - title: The original
+        text: The xiaolongbao style is said to come from **Nanxiang** town, northwest of Shanghai.
+      - title: Takeaway window
+        text: The ground-floor window is cheaper and faster than the sit-down floors upstairs.
+  - type: menu
+    items:
+      - name: Pork xiaolongbao
+        name_local: 鲜肉小笼
+        price_local: 30
+        price_brl: 24.8
+        note: The classic; 16 per steamer at the takeaway window.
+        tag: must-try
+      - name: Crab roe xiaolongbao
+        name_local: 蟹粉小笼
+        price_local: 60
+        price_brl: 49.6
+        note: Richer and pricier; worth one steamer.
+        tag: signature
+      - name: Hot and sour soup
+        name_local: 酸辣汤
+        price_local: 12
+        price_brl: 9.92
+        tag: spicy
+    note: Picture menu; pay with **Alipay** or cash.
+  - type: gallery
+    images:
+      - file: queue
+        caption: The takeaway queue on a weekend
+  - type: map
+    zoom: 17
+  - type: tips
+    variant: locals
+    items:
+      - Poke a small hole, sip the broth, then eat — never in one bite.
+      - Locals add **black vinegar** with ginger shreds.

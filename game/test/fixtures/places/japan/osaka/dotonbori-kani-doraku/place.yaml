@@ -1,0 +1,66 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: dotonbori-kani-doraku
+name: Kani Doraku Dotonbori
+name_local: かに道楽 道頓堀本店
+country: japan
+city: osaka
+area: Chuo · Dotonbori
+category: food
+tags:
+  - crab
+  - yakuza
+  - neon
+kind: Eat
+why: The giant moving crab from the Yakuza games' Sotenbori, and an all-crab set lunch under it.
+cost:
+  local: 6000
+  currency: JPY
+  brl: 213
+fx:
+  rate: 0.0355
+  date: 2026-11-09
+  source: fixture rate
+time_needed: 2–3 h
+best_time: Weekday morning
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: Fixture lead time
+  method: app
+  links:
+    - label: Example booking page
+      url: https://example.org/book/dotonbori-kani-doraku
+hours:
+  summary: Daily 10:00–22:00
+location:
+  address: Fixture address, osaka
+  lat: 35.66
+  lng: 139.7
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture source
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture source 2
+    checked: 2026-11-09
+confidence: low
+confidence_note: Game test fixture, not researched.
+last_updated: 2026-11-09
+blocks:
+  - type: hero
+    hook: Under the claws of the most famous sign in Osaka.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Weekday morning
+  - type: highlights
+    items:
+      - title: Fixture highlight
+        text: Test text for **Kani Doraku Dotonbori**. Not researched.
+      - title: Second highlight
+        text: Game fixture content, ignored by the real build.
+  - type: tips
+    variant: insider
+    items:
+      - "Fixture tip: go early."

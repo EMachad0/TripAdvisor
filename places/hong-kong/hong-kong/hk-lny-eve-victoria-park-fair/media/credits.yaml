@@ -1,0 +1,48 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: fair-stalls
+  title: File:2019 Victoria Park Lunar New Year Fair (20190130115841).jpg
+  author: N509FZ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:2019_Victoria_Park_Lunar_New_Year_Fair_(20190130115841).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0f/2019_Victoria_Park_Lunar_New_Year_Fair_%2820190130115841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Several stalls are pig-related. Yet the only mary-janes seen here are worn by students.
+  width: 4032
+  height: 2721
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: evening-crowd
+  title: File:HK CWB 維園年宵市場 Victoria Park Fair - evening visitors HKCL Jan-2012.jpg
+  author: Zhu Fok Gam
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:HK_CWB_%E7%B6%AD%E5%9C%92%E5%B9%B4%E5%AE%B5%E5%B8%82%E5%A0%B4_Victoria_Park_Fair_-_evening_visitors_HKCL_Jan-2012.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/64/HK_CWB_%E7%B6%AD%E5%9C%92%E5%B9%B4%E5%AE%B5%E5%B8%82%E5%A0%B4_Victoria_Park_Fair_-_evening_visitors_HKCL_Jan-2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​ zh:銅鑼灣 維園年宵市場 zh:黃昏
+  width: 2592
+  height: 1936
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: wong-tai-sin-incense
+  title: File:WongTaiSinTempleIncense.jpg
+  author: CeciliaPang
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File:WongTaiSinTempleIncense.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c4/WongTaiSinTempleIncense.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wong Tai Sin Temple
+  width: 2288
+  height: 1520
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons

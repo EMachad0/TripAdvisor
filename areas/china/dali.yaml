@@ -1,0 +1,117 @@
+id: dali
+country: china
+name: "Dali"
+name_local: 大理
+region: Dali Prefecture · Yunnan
+scope: city
+cities: [dali]
+why: "A free Bai old town at 1,978 m between the Cangshan range and Erhai lake: sunny 16 °C days, e-bikes round the lake, bar streets at night. The catch: about ¥1,000 more in flights or trains than Chengdu–Chongqing."
+best_for: [views, culture, nightlife, food]
+highlights: ["Dali Old Town", "E-bike along Erhai", "Xizhou village", "Three Pagodas", "Cangshan cable car", "Renmin Road bars"]
+days_suggested: { min: 3, max: 4 }
+cost_level: low
+fame: popular
+lat: 25.6939
+lng: 100.1611
+getting_there: "Chengdu to Dali: flights 1h20–1h45 from ¥490 (mid-Dec search) or 2 trains, 8h09–8h16, ¥661.5–695.5. On to Chongqing: flights from ¥520, or 2 trains, 7h13, ¥530.5."
+getting_around: "Old town on foot. E-bike about ¥50 a day (Meituan or Qingju). Bus 8 to Dali station in Xiaguan ¥2–3, 45–60 min; taxi ¥40–50. Airport shuttle ¥25–30, taxi ¥80–120."
+winter_note: "The sunniest stop in a China December: 1991–2020 normals give 16.5 °C days, 3.5 °C nights, 11 mm of rain over about 2.6 days and 72% of possible sunshine. It is windy, so bring a windbreaker. A 2026 guide calls winter fine for the old town and less ideal for Cangshan hikes. No Christmas programme announced."
+image: dali-erhai-cangshan
+sources:
+  - url: "https://trains.ctrip.com/webapp/train/list?ticketType=0&dStation=%E6%88%90%E9%83%BD&aStation=%E5%A4%A7%E7%90%86&dDate=2026-11-12&rDate=&trainsType=&hubCityName=&highSpeedOnly=0"
+    title: "Chengdu–Dali trains, Ctrip (2026-11-12): G2837 Chengdu East 07:30 → Dali 15:39, G2845 13:42 → 21:58; ¥661.5–695.5"
+    checked: 2026-11-10
+  - url: "https://trains.ctrip.com/webapp/train/list?ticketType=0&dStation=%E5%A4%A7%E7%90%86&aStation=%E9%87%8D%E5%BA%86&dDate=2026-11-12&rDate=&trainsType=&hubCityName=&highSpeedOnly=0"
+    title: "Dali–Chongqing trains, Ctrip (2026-11-12): G2850 09:56 → Chongqing West 17:10, G2842 16:00 → 23:13; ¥530.5"
+    checked: 2026-11-10
+  - url: "https://trains.ctrip.com/webapp/train/list?ticketType=0&dStation=%E5%A4%A7%E7%90%86&aStation=%E6%88%90%E9%83%BD&dDate=2026-11-12&rDate=&trainsType=&hubCityName=&highSpeedOnly=0"
+    title: "Dali–Chengdu trains, Ctrip (2026-11-12): G2846 07:04 → Chengdu East 15:46, G2838 14:25 → 22:36; ¥673.5–695.5"
+    checked: 2026-11-10
+  - url: "https://www.trip.com/flights/showfarefirst?dcity=ctu&acity=dlu&ddate=2026-12-15&triptype=ow&class=y&quantity=1&locale=en-XX&curr=CNY"
+    title: "Trip.com flights Chengdu → Dali, 2026-12-15 (searched 2026-11-10): Lucky Air 06:40 TFU → 08:20, CNY 532; Dec 8–22 mostly CNY 490"
+    checked: 2026-11-10
+  - url: "https://www.trip.com/flights/showfarefirst?dcity=dlu&acity=ckg&ddate=2026-12-18&triptype=ow&class=y&quantity=1&locale=en-XX&curr=CNY"
+    title: "Trip.com flights Dali → Chongqing, 2026-12-18 (searched 2026-11-10): West Air 12:25 → 13:50, CNY 562; Dec 11–25 CNY 520–562"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/chengdu-chongqing/
+    title: "Chengdu–Chongqing trains, Ctrip (2026-11-12, 166 trains): from 1h10, 2nd class from ¥85, the comparison for the detour"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Dali_City
+    title: "Dali City — Wikipedia (CMA 1991–2020 normals for the 1,978 m station; Nanzhao and Dali kingdoms, Bai)"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/cityguides/yunnan/dali/weather-december.htm
+    title: "Dali weather in December — TravelChinaGuide (updated 2025-08-15): 3–16 °C, about 11 mm, windy, wear a padded jacket"
+    checked: 2026-11-10
+  - url: https://travelchinawith.me/attractions/yunnan/dali/dali-old-town/
+    title: "Dali Old Town — Travel China With Me (updated 2026-09-28): free, transfers, e-bikes, Three Pagodas ¥75, winter"
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Dali
+    title: "Dali — Wikivoyage (Erhai bike route, Xizhou, Cangshan cable car, rushan cheese, dorm prices; partly older listings)"
+    checked: 2026-11-10
+  - url: https://www.trip.com/trains/china/route/dali-to-chongqing/
+    title: "Dali to Chongqing trains — Trip.com (about 2 a day, 09:56 and 16:00, from 7h13; sales open 15 days ahead)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Trains are Ctrip's 12 Nov 2026 timetable, not a December quote; flights are Trip.com searches made 10 Nov for 15 and 18 Dec, read with ./atr render (link checker blocked). Cangshan cable car and dorm prices are older Wikivoyage listings. The wind remark rests on one weather guide. Detour extra and loop totals are my sums. No hostel checked."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: Dry winter sun at 2,000 m, a lake to ride around, and grey-tile lanes that turn into bar streets after dark.
+    caption: Erhai lake and the Cangshan range
+  - type: highlights
+    title: What justifies the detour
+    items:
+      - title: Real winter sun
+        text: "December averages **72%** of possible sunshine, 233 hours, and about 11 mm of rain over 2–3 days."
+      - title: A free old town
+        text: "Travel China With Me (Sept 2026): the old town has no ticket, and the **Three Pagodas** just north of the walls cost ¥75 (R$62)."
+      - title: Erhai by e-bike
+        text: "About **¥50** (R$41) a day. Wikivoyage's lakeside route runs east to Caicun and north along the shore, past 17 villages and 3 Qing bridges."
+      - title: Xizhou
+        text: "About 20 km north, with almost 200 heritage-listed Qing houses (Wikivoyage) and **baba**, the local flatbread."
+  - type: prose
+    title: What a few days here feel like
+    dropcap: true
+    text: |-
+      Dali is the slow, sunny break in a grey December. Sleep **inside the old town walls**, where everything is on foot. Mornings are cold, around 3 °C, but by midday it is near 16 °C, bright and dry: lake weather. Ride an e-bike along Erhai one day, go to Xizhou and the Three Pagodas another, and spend the evenings on Renmin Road, where Wikivoyage lists most of the bars.
+
+      The old town was the capital of the Nanzhao and Dali kingdoms, and the plain between the Cangshan range and Erhai is Bai country. Wikivoyage lists **rushan**, a fried cheese often wound around bamboo skewers, as the snack to try.
+
+      The reason to think twice is distance. Three nights is the minimum that makes the flights worth it; four leaves room for a Cangshan day if the sky is clear.
+  - type: prose
+    title: The detour in time and money
+    text: |-
+      Dali is far west of the main line. The natural loop is **Chengdu → Dali → Chongqing**, replacing the 1-hour Chengdu–Chongqing train:
+
+      - **Chengdu → Dali by air:** 1h20–1h45, Trip.com's Dec 8–22 calendar mostly at **¥490** (R$405), ¥532 on Dec 15 (Lucky Air 06:40 from Tianfu, arrives 08:20).
+      - **Chengdu East → Dali by train:** 2 a day, **8h09–8h16**, ¥661.5–695.5 (R$547–575). G2837 leaves 07:30, arrives 15:39.
+      - **Dali → Chongqing by air:** about 1h25–1h40, **¥520–562** (R$430–465) for Dec 11–25. West Air 12:25 → 13:50 on Dec 18.
+      - **Dali → Chongqing West by train:** 2 a day, **7h13**, ¥530.5 (R$439). G2850 leaves 09:56, arrives 17:10.
+      - **Compared with going straight:** Chengdu → Chongqing starts at ¥85. Flying both ways costs about **¥1,010** plus airport transfers, or about **¥1,190** by train: roughly **¥930–1,110 extra** (R$765–915), by my sums.
+      - **Transfers:** Dali station is in Xiaguan, 45–60 min on bus 8. The airport shuttle is ¥25–30.
+  - type: gallery
+    images:
+      - { file: dali-old-town-street, caption: "An old-town street after dark, May 2026" }
+      - { file: dali-three-pagodas, caption: "The Three Pagodas of Chongsheng Temple, February 2026" }
+  - type: quote
+    variant: vibe
+    text: Sun on your face at noon, a down jacket at night, and a lake road with nobody on it.
+  - type: tips
+    variant: insider
+    items:
+      - "Flights beat trains here on time and often on price. Trip.com showed Chengdu–Dali fares from ¥490 on most December days."
+      - "Rent e-bikes only through **Meituan or Qingju**; Travel China With Me warns about Youzi Huixing's ¥30 minimum and confusing top-ups."
+      - "Train tickets go on sale 15 days before departure, and there are only two direct trains a day each way, so buy early."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Dali station is **not** at the old town; allow 1.5 h by bus for a departing train, or about 30 min by taxi."
+      - "Travel China With Me advises skipping the restaurants right on Renmin Road and Fuxing Road."
+      - "Wikivoyage's Cangshan cable car fares (¥80 return to Gantong Temple) are undated: check the current price on site."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 16
+    conditions: Dry, sunny and windy; cold nights
+    note: "December normals at 1,978 m: 16.5 °C days, 3.5 °C nights, 11 mm of rain and 233 hours of sun. TravelChinaGuide calls Dali a windy city in December and suggests a windbreaker. Great for the lake by day; dress warmly for evening bar streets."
+    wear: Padded or down jacket for evenings, layers, windbreaker, sunscreen

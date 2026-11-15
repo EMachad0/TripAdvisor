@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: sanchome-night
+  title: File:Shinjuku Sanchome at night 02 (15777192701).jpg
+  author: Joe Mabel on Flickr as Joe Mabel from Seattle, US
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shinjuku_Sanchome_at_night_02_(15777192701).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Shinjuku_Sanchome_at_night_02_%2815777192701%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Shinjuku 3-chome, Tokyo, Japan, at night.
+  width: 4288
+  height: 2848
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

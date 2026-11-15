@@ -1,0 +1,153 @@
+id: t1-base-camp
+name: "T1 Base Camp Hongdae"
+short_name: T1 Base Camp
+name_local: T1 베이스캠프
+country: korea
+city: seoul
+area: Mapo-gu · Hongdae
+category: odd-local
+fame: popular
+must_do: t1
+must_do_note: "Also the gaming café on your list: this is T1's own PC bang. No match needed, open on every day of the trip."
+tags: [esports, gaming, t1, pc-bang, late-night]
+kind: Do
+why: "T1's own 24-hour PC bang: 250-plus seats in team red, a T1 shop at the door and a menu of the players' picks, from ₩3,000 an hour."
+
+cost:
+  local: 6000
+  currency: KRW
+  brl: 24.58
+  note: "Two hours at ₩3,000/h non-member (₩2,000/h member). Only source: VisitKorea, Apr 2024; no current price list found"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: Any day or night, it never closes
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Open 24 hours, every day (Kakao Map listing, checked 10 Nov 2026)"
+  winter: "No seasonal changes found. Kakao Map shows it open daily 00:00–24:00, and VisitKorea lists it as open 24 hours all year. It is a basement venue, fully indoors, so it works on the coldest days and late at night. New Year hours were not confirmed with the venue."
+
+location:
+  address: B1, 147 Yanghwa-ro, Mapo-gu, Seoul
+  address_local: 서울 마포구 양화로 147 아일렉스 지하1층
+  lat: 37.55605
+  lng: 126.92205
+  nearest_transit: Hongik Univ. (Line 2), Exit 1
+  approximate: true
+
+sources:
+  - url: https://map.kakao.com/?q=T1%20%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%BA%A0%ED%94%84
+    title: "Kakao Map listings for T1 Base Camp: Hongdae, Gangnam and Busan, all shown open daily 00:00–24:00"
+    checked: 2026-11-10
+  - url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194959
+    title: "VisitKorea: T1 Base Camp address, hours and PC bang fees (updated Apr 2024)"
+    checked: 2026-11-10
+  - url: https://creatrip.com/en/userblog/4884
+    title: "Creatrip user post on visiting T1 Base Camp (undated)"
+    checked: 2026-11-10
+  - url: https://isplus.com/article/view/isp202305100169
+    title: "T1 Base Camp opening report: seats, zones, menu (Ilgan Sports, May 2023, Korean)"
+    checked: 2026-11-10
+  - url: https://www.oneesports.gg/league-of-legends/t1-pc-bang-seoul-south-korea/
+    title: "T1 PC bang opens in Hongdae: address and zones (ONE Esports, May 2023)"
+    checked: 2026-11-10
+  - url: https://www.invenglobal.com/articles/26277/t1-opens-3rd-t1-base-camp-esports-complex-cultural-space-in-gangnam
+    title: "T1 opens 3rd T1 Base Camp in Gangnam (Inven Global, Sep 2026)"
+    checked: 2026-11-10
+  - url: https://www.invenglobal.com/business_industry/articles/19954/t1-to-open-second-base-camp-esports-venue-in-busan
+    title: "T1 to open second Base Camp in Busan (Inven Global, Dec 2025)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Climate_of_Seoul
+    title: Climate of Seoul (Wikipedia), 1991–2020 normals
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Open now and 24 h per Kakao Map (read with atr render). Hourly rates are from VisitKorea, April 2024 only; no current price list was found, so they may have changed. No source says whether a foreign game account works on the PCs or whether a Korean phone is needed. Menu and seat details date from 2023. The pin is the building at 147 Yanghwa-ro."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: pc-zone
+    hook: Rows of red-and-white T1 chairs in a Hongdae basement, as open at 4 a.m. as at 4 p.m.
+    caption: The PC zone at T1 Base Camp Hongdae (photo from July 2023)
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Any day or night, it never closes
+    extra:
+      - label: Rate
+        value: ₩3,000/h non-member
+        detail: ₩2,000/h for members (2024 listing)
+      - label: Language
+        value: PCs are in Korean
+        detail: A visitor used a translator; staff found an English speaker
+      - label: T1 on 10–20 Jan
+        value: This is the sure thing
+        detail: An LCK match is likely then, but not announced
+  - type: highlights
+    items:
+      - title: T1's own PC bang
+        text: "Opened in **May 2023** as the team's first Base Camp, in a basement near Hongik Univ. Station. The opening report counted **250-plus seats**."
+      - title: Pay as a non-member
+        text: "VisitKorea lists a **non-member rate of ₩3,000 an hour**, so no membership is needed to sit down and play."
+      - title: The T1 shop at the door
+        text: "The official T1 Shop is at the entrance, with photo booths that use T1 player frames."
+      - title: Food to your seat
+        text: "A visitor (Creatrip post) ordered from the on-screen menu and staff brought it to the desk. The menu includes dishes picked by T1 players."
+  - type: prose
+    title: What it is
+    dropcap: true
+    text: |-
+      T1 Base Camp is the fan venue you can count on. LCK matches need a schedule that is not out yet, but this place is open around the clock. You walk down a lit staircase, pass the T1 shop and pay by the hour for a seat.
+
+      At opening in 2023 the venue had large LED screens on the pillars showing League of Legends and Valorant matches, wider **Elite seats** for ₩500 more per hour, a console room and soundproof tournament booths. Those details are from 2023 reports and may have changed.
+
+      It also covers the gaming café on your list: seats by the hour, and food ordered from the screen and brought to your desk.
+
+      T1 now runs three Base Camps. The newest, in **Gangnam**, soft-opened on 3 October 2026 two minutes from Sinnonhyeon Station. It has a Trophy Room with player handprints and jerseys, the T1 Flagship Store and a restaurant open 11:00–24:00. If you want trophies more than a PC seat, go there.
+  - type: quote
+    variant: vibe
+    text: A wall of red chairs, a full basement at midnight, and the hope that a T1 academy scout is watching.
+  - type: cost_breakdown
+    items:
+      - label: Two hours, non-member
+        local: 6000
+        brl: 24.58
+        note: "₩3,000 an hour (2024 listing)"
+      - label: Drink and instant noodles
+        local: 5000
+        brl: 20.48
+        optional: true
+        estimate: true
+        note: What a visitor paid for Milkis and ramyeon (undated post)
+      - label: Premium Room for 3
+        local: 14000
+        brl: 57.34
+        optional: true
+        note: 2024 listing, time unit not stated. For a group from the hostel
+  - type: map
+    zoom: 17
+    note: "The entrance is near **Exit 1** of Hongik Univ. Station. The venue is in the basement of the Ilex building at 147 Yanghwa-ro; the pin marks the building."
+  - type: tips
+    variant: insider
+    items:
+      - "The PCs run in Korean. A visitor got by with a translator app, and staff brought an English speaker to help."
+      - "Each desk has a phone stand and charger, per the same visitor, so you can stay a while."
+      - "The shop also sold gaming accessories and Nintendo Switch games when visited in 2026, next to the T1 and League of Legends merchandise."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No source confirms that a foreign game account works on these PCs, or that sign-in needs no Korean phone number. Ask at the counter before you pay for hours."
+      - "The hourly rates are from an April 2024 listing. Check the price board at the entrance."
+      - "The Trophy Room and T1 Flagship Store are at the **Gangnam** branch, not here."
+  - type: weather
+    temp_low_c: -5.5
+    temp_high_c: 2.1
+    conditions: Cold, mostly clear and dry
+    note: "January is Seoul's coldest month, with an average low of −5.5 °C and high of 2.1 °C. The venue is an indoor basement, so it's a good plan for a freezing night."
+    wear: Layers you can take off indoors
+  - type: pairs_well
+    items:
+      - id: lol-park-lck
+        note: The LCK arena in Jongno. Lobby and store are open without a match

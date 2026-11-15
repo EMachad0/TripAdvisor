@@ -1,0 +1,30 @@
+# Independent review of maeklong-railway-amphawa. Written by `./atr review`; do not edit by hand.
+id: maeklong-railway-amphawa
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 80b3b32c71736d68b01555c2d38b17331d2fc04e33b926851895483ea4ab5271
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[8].items[3]
+    problem: The new insider tip 'Fits your week' repeats the quick_facts 'Fits your week' card, the prose and hours.winter. On the phone the reader sees 'not Jan 2' four times. The tip also says 'Not a weekday', but Amphawa does open on Friday; it is excluded only because of the work night.
+    evidence: ./atr shot phone light s02 and s08
+    fix: Drop this tip, since quick_facts and the prose already cover it, or change it to 'Not Mon–Fri for you'.
+resolved:
+  - field: blocks[1].extra[1].value
+    problem: The 8:30/11:10/14:30/17:40 arrival times shown in quick_facts come from one third-party blog table labelled 2025. No SRT or station source confirms them for January 2027, yet the whole day is planned around the 11:10 and 14:30 trains. I found no SRT suspension notice, but a recent guide says Mueang Samut Songkhram was still listed as flood-affected in October 2026.
+    evidence: 'quick_facts detail now reads "Arrivals. 2025 table, unconfirmed for 2027: check at the station", and the prose says "These times come from a 2025 table, not a current SRT timetable, so check them at Maeklong station (or ask your hostel to call the station) the day before, and on arrival". Both appear in the phone render (s02, s04). The fix says the station rather than the SRT 1690 hotline, which is still an actionable check.'
+  - field: blocks[2].text
+    problem: The plan ends at Amphawa after dark, with an optional firefly boat from about 18:00, but no source gives the last van or bus from Amphawa or Maeklong back to Bangkok. Van service from Amphawa is also unsourced. A solo traveler could end up stranded about 70 km from base.
+    evidence: blocks[2] 'Getting back' no longer claims a schedule. It says no source gives the last van, tells the traveler to buy or confirm the return at the van office on arrival, and sets a 19:00 cutoff with firefly boats only if a later departure is confirmed. The firefly line in the prose was removed, and confidence_note explains why the time is missing.
+  - field: blocks[1].extra[0].detail
+    problem: Sat Jan 2 is offered as a day-trip date, but the traveler is in China until Jan 2, so Jan 2 is their travel day into Bangkok. That leaves Sun Jan 3 and Sat Jan 9 as the only realistic weekend days.
+    evidence: "config/trip.yaml has china to 2027-01-02 and thailand from 2027-01-02 (Fri Jan 8 is a work night: 'night shifts 19:00–04:00, Mon Jan 4 – Fri Jan 8'). The page now has when.dates from 2027-01-03, best_time 'Sun Jan 3', the Fits your week detail 'Sun Jan 3 best, Sat Jan 9 backup', and prose and hours.winter that rule out Jan 2. Jan 9, 2027 is the second Saturday of January, which matches the cited Wikipedia holiday rule."
+rereview_of: 315e0b0d92a17f1601f3461edf9b9a6678e70047c8ea1857a3b0516a8db8541c
+summary: "All three earlier shoulds are fixed. The train times are marked unconfirmed with a check-at-station step, the return leg has an honest 19:00 cutoff instead of an unsourced schedule, and Jan 2 is gone in favour of Sun Jan 3 with Sat Jan 9 as backup. The only new issue is a nit: the date advice is now said four times."
+model: claude-opus-5-5
+cost_usd: 0.373

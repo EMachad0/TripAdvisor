@@ -1,0 +1,19 @@
+# Independent review of hulu-lu-ikebukuro. Written by `./atr review`; do not edit by hand.
+id: hulu-lu-ikebukuro
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: d9e55049d33587397825e9a30d30c191697d364230d5ddbf3d6239f46872b1db
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: tags / blocks[2].items[1] / blocks[2].items[3]
+    problem: The `tabelog-hyakumeiten` tag and the line "cheaper than most Hyakumeiten bowls" make the shop sound like a current Top 100 pick. Tabelog lists its Hyakumeiten awards for 2017–2021 only, so the shop's "five years running" means 2017–2021, with no award since.
+    evidence: The `tabelog-hyakumeiten` tag is removed. blocks[2].items[1] now reads "in Tabelog's Hyakumeiten (Top 100) five years running, 2017–2021". blocks[2].items[3] no longer compares the bowl with Hyakumeiten prices. https://tabelog.com/en/tokyo/A1305/A130501/13136428/ lists "Selected for Tabelog Ramen TOKYO 'Tabelog 100'" for 2017–2021 only, with no award after 2021. https://www.hulu-lu.net/ says "ラーメングランプリに優勝し、百名店に５年連続受賞した".
+rereview_of: 8ed73f956358d846fb5a4fb4d8c5d72737e517d7e52a7227d7d49cad3b02f119
+summary: The one earlier finding is fixed. The award line now gives the 2017–2021 years, which match Tabelog's award list and the shop's \"5年連続\" claim, and nothing on the page suggests a current Top 100 listing. The new text adds no new fact that needs checking, and I found no blocker in the unchanged content.
+model: claude-opus-5-5
+cost_usd: 0.273

@@ -1,0 +1,54 @@
+# Independent review of only-cafe-and-backpacker. Written by `./atr review`; do not edit by hand.
+id: only-cafe-and-backpacker
+type: place
+reviewed: 2026-11-10
+verdict: fix
+content_hash: 6ea2278b0838131defd119b209280dd910fb995bd5158ef5f991aa9ad0418e6b
+facts:
+  supported: 29
+  unsupported: 7
+  contradicted: 0
+issues:
+  - severity: should
+    field: book_ahead.links[0].note
+    problem: The Hostelworld note says '15% deposit by card', and book_ahead.steps[1] says free cancellation ends at 23:59 the day before check-in. Neither appears on the Hostelworld property page or the date-search pages. Hostelworld says only that the property 'may pre-authorize your card before arrival' and 'Book more than 1 days in advance for Free Cancellation'.
+    evidence: https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY — "This property may pre-authorize your card before arrival."; https://www.hostelworld.com/hostels/p/301757/only-cafe-and-backpacker/ — "Book more than 1 days in advance for Free Cancellation"
+    fix: Use Hostelworld's own wording for the payment and cancellation terms, or cite the checkout step that shows the 15% deposit and the 23:59 deadline.
+  - severity: should
+    field: blocks[8].items[1]
+    problem: Merica Hotel at ¥107 for 28 Dec is real, but it is a prepaid 'Partner Offer' that cannot be modified and must be cancelled before 27 Dec. The flexible pay-later double was ¥130 (list price ¥134) on the same day. The quick_facts 'Private room' entry and the prose repeat ¥107 without these conditions.
+    evidence: https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&selected_currency=CNY — "CNY 107 … Free cancellation before December 27, 2026 • Pay in advance • Partner Offer … No modifications"; next option "Original price CNY 134 Current price CNY 130 … Pay nothing until December 26, 2026"
+    fix: State ¥107 as a prepaid, non-modifiable partner rate and give ¥130 as the flexible pay-later price.
+  - severity: should
+    field: book_ahead.passport_note
+    problem: "The page leaves out two Booking.com rules: guests must show a photo ID and a credit card at check-in, and must contact the property if arriving after 18:00. The page says only that photo ID is needed and that you should give an arrival time, and the Booking.com link note says 'no card', which a traveler could misread."
+    evidence: https://www.booking.com/hotel/cn/ruo-shui-qing-lu-cafe-amp-hostel.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY — "Guests are required to show a photo ID and credit card at check-in." / "Please contact the property directly if you will arrive later than 18:00."
+    fix: Add 'bring a credit card as well as the passport; tell the hostel if you arrive after 18:00', and change the link note to say no card is needed only to book.
+  - severity: should
+    field: location.nearest_transit
+    problem: "'Exit 9' (also in the map note) does not appear in any listed source. The sources disagree on the walking distance: Hostelworld says 100 m, Ctrip 200 m, Booking.com 600 m."
+    evidence: https://www.hostelworld.com/hostels/p/301757/only-cafe-and-backpacker/ — "Jiaochangkou Metro Station is only 100 meters away"; https://m.ctrip.com/html5/hotel/hoteldetail/2892685.html — "距较场口地铁站步行200米"; Booking.com page — "Jiaochangkou Metro Station 600 m"
+    fix: Cite a source for Exit 9 (the hostel's own directions or a map) or remove it, and give the distance as '100–200 m (hostel/Ctrip)'.
+  - severity: nit
+    field: blocks[5].text
+    problem: "The Trip.com claims behind the 01:00-call advice (no soundproofing, a single room offered in a nearby building, the café across the street) could not be checked: us.trip.com blocks automated checks. Booking.com also lists 'Soundproofing' as a feature of the dorms."
+    evidence: ./atr links — "us.trip.com blocks automated checks"; Booking.com page dorm features — "Soundproofing"
+    fix: Mark these as single-review reports and note that Booking.com lists soundproofing.
+  - severity: nit
+    field: blocks[0]
+    problem: The hero has no photo, only the Chinese name as a background texture. The media folder is empty, so the traveler never sees the rooftop the page sells.
+    evidence: places/china/chongqing/only-cafe-and-backpacker/media/ is empty; phone and desktop screenshots s01
+    fix: Add a captioned photo of the rooftop or the building.
+  - severity: nit
+    field: hours.winter
+    problem: "The per-night price ladder (¥75/¥65/¥100/¥150) is shown three times: in cost.note, in hours.winter and in the stay beds."
+    evidence: phone screenshots s02–s03
+    fix: Keep the prices in the beds list and cut them from hours.winter.
+  - severity: nit
+    field: book_ahead.method
+    problem: Quick facts show 'Official website' as the booking method, but both links go to booking sites (Hostelworld, Booking.com).
+    evidence: phone screenshot s01 — "14 days before · Official website"
+    fix: Set the method to the booking-site value, or link the hostel's own channel.
+summary: "The core numbers check out: the Hostelworld score and dorm prices for every night, the Booking.com week price, cash-only payment, the ¥100 deposit, distances and the address, plus the fallback hostels' prices and scores. Fix the unsupported Hostelworld deposit and cancellation terms, the conditions on the ¥107 Merica rate, the card and late-arrival rules at check-in, and the unsourced Exit 9."
+model: claude-opus-5-5
+cost_usd: 1.074

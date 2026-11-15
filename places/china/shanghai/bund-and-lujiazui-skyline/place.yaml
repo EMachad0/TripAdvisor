@@ -1,0 +1,142 @@
+id: bund-and-lujiazui-skyline
+name: "The Bund and Lujiazui Skyline"
+short_name: The Bund
+name_local: 外滩 · 陆家嘴
+name_romanized: Wàitān · Lùjiāzuǐ
+country: china
+city: shanghai
+area: Huangpu · the Bund
+category: views
+fame: iconic
+tags: [skyline, riverfront, free, night-view, ferry, architecture]
+kind: See
+why: "Free: 1.6 km of 1920s banks facing Lujiazui's towers. Walk it at the 16:50 December sunset, cross on the ¥2 ferry, watch the lights come on at 18:00."
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+  note: "The promenade is free. Ferry ¥2 each way; Shanghai Tower deck ¥180 if you want height"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: "16:30–19:00: sunset, then the lights"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Promenade open all hours. Skyline lights from about 18:00 to 22:00; ferry 07:00 to about 18:30"
+  winter: "Sunset is 16:51 on Dec 6 and 16:57 on Dec 24, so the lights come on after dark. City notices for past holidays extended the core-area lights to 23:00 (and past midnight on NYE); none announced for Dec 2026 yet. No light show and no countdown on NYE (see the NYE card)."
+
+location:
+  address: The Bund, Zhongshan East 1st Road, Huangpu, Shanghai
+  address_local: 上海市黄浦区中山东一路 外滩
+  lat: 31.2380
+  lng: 121.4861
+  nearest_transit: "East Nanjing Road (Lines 2, 10)"
+
+sources:
+  - url: https://en.wikipedia.org/wiki/The_Bund
+    title: The Bund — Wikipedia (1.6 km, 52 buildings, raised embankment, coordinates)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Shanghai_Tower
+    title: Shanghai Tower — Wikipedia (632 m, tallest building in China)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Lujiazui
+    title: Lujiazui — Wikipedia (landmark towers, Line 2 and 14)
+    checked: 2026-11-10
+  - url: https://us.trip.com/guide/attraction/shanghai-tower-tickets.html
+    title: "Shanghai Tower tickets — Trip.com guide (118F, ¥180 adult, hours, time slots)"
+    checked: 2026-11-10
+  - url: https://www.travelofchina.com/shanghai-ferry-fares/
+    title: "Shanghai Ferry Fares 2026 — Travel of China (updated 2026-11-04; ¥2, Dongjin line 07:00–18:30)"
+    checked: 2026-11-10
+  - url: https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250430/8da6e1aab0df4b16a59532affb2e0929.html
+    title: "Shanghai lights up for May Day holiday (Shanghai gov., 2025-04-30): Bund/Lujiazui 18:00–23:00, extended 1 h"
+    checked: 2026-11-10
+  - url: https://english.shanghai.gov.cn/en-Latest-WhatsNew/20241230/6b65ce656261432fba6a94064779e5a3.html
+    title: "Festive lights for New Year (Shanghai gov., 2024-12-30): no NYE river light shows"
+    checked: 2026-11-10
+  - url: "https://api.sunrise-sunset.org/json?lat=31.2325&lng=121.4692&date=2026-12-06&tzid=Asia/Shanghai"
+    title: Sunrise-sunset.org API — Shanghai, 6 Dec 2026 (sunset 16:51)
+    checked: 2026-11-10
+  - url: "https://api.sunrise-sunset.org/json?lat=31.2325&lng=121.4692&date=2026-12-24&tzid=Asia/Shanghai"
+    title: Sunrise-sunset.org API — Shanghai, 24 Dec 2026 (sunset 16:57)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/shanghai-subway-guide/
+    title: Shanghai Subway Guide — China for Travelers (updated 2026-08-15; Line 2/10 stations, fares)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: Shanghai — Wikipedia (December climate normals, Dec 2013 smog)
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "The 22:00 lights-off is inferred from official notices calling 23:00 a one-hour extension; no regular schedule is published. Tower price/hours from a Trip.com guide (opened by web fetch; blocks the link checker), not the tower's site. Ferry times from one Nov 2026 guide. english.shanghai.gov.cn opened by web fetch but times out in the link checker."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: pudong-dusk
+    hook: Banks and customs houses from the 1920s on one side of the river, the tallest tower in China on the other.
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: "16:30–19:00"
+    extra:
+      - { label: Cheapest view, value: "¥2 ferry", detail: "Bund to Lujiazui; last boat from the Bund side ~18:30" }
+      - { label: Paid view, value: "¥180 deck", detail: "Shanghai Tower 118F; skip it on a hazy day" }
+  - type: highlights
+    items:
+      - title: Free and always open
+        text: "The promenade runs **1.6 km** along the Huangpu on an embankment raised above the street. Wikipedia counts **52 buildings** along it, in Gothic, Baroque, Beaux-Arts and Art Deco styles."
+      - title: The view across
+        text: "Lujiazui faces you: the Oriental Pearl, Jin Mao, the World Financial Center and the **632 m Shanghai Tower**, the tallest building in China."
+      - title: Lights at six
+        text: "The city switches on the Bund and Lujiazui lights at **18:00**. In December that's an hour after sunset, so you see the skyline go from blue to lit."
+      - title: The ¥2 crossing
+        text: "The public ferry from **Jinling East Road** to Dongchang Road costs ¥2 and runs about every 15 minutes, 800 m across the river."
+  - type: prose
+    title: A plan for one evening
+    dropcap: true
+    text: |-
+      Come out of **East Nanjing Road** station around 16:30 and walk the Bund south while the sun sets (16:51 on Dec 6). You pass the Peace Hotel, the 1923 HSBC building and the 1927 Customs House; the lights come on around 18:00.
+
+      Then catch the public ferry at **127 Zhongshan East 1st Road** (Jinling East Road terminal) before its last boat, about 18:30 from that side. Don't confuse it with the sightseeing cruise wharf next door. In Lujiazui, walk the riverside with the Bund now lit across the water, and take **Line 2 from Lujiazui** back to People's Square or Jing'an.
+
+      If the sky is clear, the **Shanghai Tower's 118th-floor deck** (¥180, time-slot tickets, weekdays until 21:00 with last entry 20:30) puts you above everything. If it's hazy, keep the ¥180.
+  - type: gallery
+    images:
+      - { file: bund-facades-night, caption: "The Peace Hotel's green roof and the Bank of China, lit at night" }
+      - { file: tower-deck-view, caption: "From the Shanghai Tower deck: the Pearl, the river and the Bund" }
+  - type: quote
+    variant: vibe
+    text: Gold banks behind you, blue towers in front, and a ¥2 boat in the middle of it.
+  - type: cost_breakdown
+    items:
+      - { label: The Bund promenade, local: 0, brl: 0 }
+      - { label: "Public ferry to Pudong, one way", local: 2, brl: 1.65, optional: true }
+      - { label: "Shanghai Tower 118F deck, adult", local: 180, brl: 148.81, optional: true }
+      - { label: "Metro back from Lujiazui (central rides)", local: 4, brl: 3.31, estimate: true, optional: true }
+  - type: map
+    note: "East Nanjing Road station (Lines 2, 10) is the walk-in. The ferry terminal is at 127 Zhongshan East 1st Road, south along the Bund."
+  - type: tips
+    variant: insider
+    items:
+      - "Cross on the ferry **before ~18:30** (last sailing from the Bund side), then watch the Bund from Pudong after the lights come on."
+      - "Ferries and the metro take Alipay ride-codes or a Shanghai transport card. A foreign card alone won't open the ferry gate, says Travel of China."
+      - "Pair it with breakfast at Da Hu Chun, one block behind the Bund, on another day: the shop shuts at 19:30."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The Jinling East Road **cruise wharf** (142 Zhongshan East 2nd Road) sells sightseeing cruises at much higher prices. The ¥2 public ferry is at number 127."
+      - "Don't come at 22:00 for photos: the regular lights seem to go off around then (holiday notices call 23:00 a one-hour extension)."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Cool and damp; wind off the river; haze on some days
+    note: "Everything here is outdoors, and the riverside is windy. Winter is Shanghai's smog season (the worst episode on record was in December 2013), so check the AQI before paying for the tower deck."
+    wear: Warm jacket, gloves, something against the wind
+  - type: pairs_well
+    items:
+      - { id: da-hu-chun-shengjian, note: "One block west of the Bund: shengjian before 19:30" }
+      - { id: shanghai-christmas-markets, note: "The Rockbund Christmas market is at the Bund's north end" }
+      - { id: yu-garden, note: "Yu Garden is south of the Bund; do it in the morning" }
+      - { id: shanghai-nye-bund-and-clubs, note: "The Bund on New Year's Eve has its own card" }

@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: mao-portraits-stall
+  title: File:2016-09-10 Beijing Panjiayuan market 34 anagoria.jpg
+  author: Anagoria
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:2016-09-10_Beijing_Panjiayuan_market_34_anagoria.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/91/2016-09-10_Beijing_Panjiayuan_market_34_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Beijing Antique Market (Panjiayuan Flea Market)
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: long-live-mao-stall
+  title: File:2016-09-10 Beijing Panjiayuan market 57 anagoria.jpg
+  author: Anagoria
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:2016-09-10_Beijing_Panjiayuan_market_57_anagoria.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/12/2016-09-10_Beijing_Panjiayuan_market_57_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Beijing Antique Market (Panjiayuan Flea Market)
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: market-gate
+  title: File:Panjiayuan Market Beijing China.jpg
+  author: Ben Tilley
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Panjiayuan_Market_Beijing_China.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6d/Panjiayuan_Market_Beijing_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Panjiayuan Market Beijing China
+  width: 4928
+  height: 3264
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: old-tools
+  title: File:2016-09-10 Beijing Panjiayuan market 01 anagoria.jpg
+  author: Anagoria
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:2016-09-10_Beijing_Panjiayuan_market_01_anagoria.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4e/2016-09-10_Beijing_Panjiayuan_market_01_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Beijing Antique Market (Panjiayuan Flea Market)
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: stone-carvings
+  title: File:2016-09-10 Beijing Panjiayuan market 43 anagoria.jpg
+  author: Anagoria
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:2016-09-10_Beijing_Panjiayuan_market_43_anagoria.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/40/2016-09-10_Beijing_Panjiayuan_market_43_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Beijing Antique Market (Panjiayuan Flea Market)
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

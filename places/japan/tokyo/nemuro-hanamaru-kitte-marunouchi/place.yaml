@@ -1,0 +1,112 @@
+id: nemuro-hanamaru-kitte-marunouchi
+name: Nemuro Hanamaru, KITTE Marunouchi
+short_name: Nemuro Hanamaru
+name_local: 回転寿司 根室花まる KITTE丸の内店
+name_romanized: Kaiten-zushi Nemuro Hanamaru
+country: japan
+city: tokyo
+area: Marunouchi · Tokyo Station
+category: food
+fame: popular
+tags: [sushi, kaiten-zushi, hokkaido]
+kind: Eat
+why: "Hokkaido conveyor-belt sushi a notch above the ¥120 chains: plates from ¥176 to ¥550, next to Tokyo Station. Take a queue ticket, then explore KITTE."
+cost:
+  local: 2904
+  currency: JPY
+  brl: 102.13
+  note: "8 plates at Dec 2024 prices; budget ≈¥2,900–3,300 now, as no newer price list is online"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 1 h to eat, plus the wait
+best_time: "Weekday; ticket at 11:00, then expect ~1.5 h"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 11:00–22:00 (last order 21:30). The ticket queue can close early when it's full."
+  winter: "The official page lists closure days month by month (only Nov 9 so far). January–February 2027 days weren't published yet, so check the store page the week before."
+
+location:
+  address: JP Tower 5F (KITTE Marunouchi), 2-7-2 Marunouchi, Chiyoda-ku, Tokyo
+  address_local: 東京都千代田区丸の内2丁目7番2号 JPタワー5F
+  lat: 35.67986
+  lng: 139.76478
+  nearest_transit: Tokyo Station, Marunouchi South Exit
+
+sources:
+  - url: https://www.sushi-hanamaru.com/store/details/s11.html
+    title: 回転寿司 根室花まる KITTE丸の内店 — official store page (hours, closures, ticket system)
+    checked: 2026-11-12
+  - url: https://www.sushi-hanamaru.com/store/area.html
+    title: Nemuro Hanamaru store list by area — official (no Ginza store listed)
+    checked: 2026-11-12
+  - url: https://mydyney-github-io.pages.dev/posts/tokyo-station-nemuro-hanamaru-sushi-guide
+    title: "Nemuro Hanamaru KITTE: wait time & tips — Tokyo Mate (Dec 2024 plate prices)"
+    checked: 2026-11-12
+  - url: https://jw-webmagazine.com/tips/central-tokyo-restaurant-guide-vol-3-nemuro-hanamaru-b850494f845b/
+    title: Nemuro Hanamaru near Tokyo Station — JW Web Magazine (updated Jul 2025)
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Open, with hours and the ticket rules, per the official store page (Nov 2026). Plate prices come from one blog visit in Dec 2024. The official site doesn't publish prices, and no 2025–26 price list turned up, so the cost note gives a range. The Ginza branch other guides recommend isn't on the official store list any more, so this page uses KITTE."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: kitte-atrium
+    caption: "KITTE's atrium. The sushi bar is on the 5th floor"
+    hook: "The queue is part of the plan: take a ticket and let LINE call you back."
+  - type: quick_facts
+    time_needed: 1 h + wait
+    best_time: "Ticket at 11:00, seated ~12:30"
+    extra:
+      - { label: Wait, value: Up to 1.5 h, detail: "Even with a ticket taken at opening (Dec 2024)" }
+      - { label: Seats, value: Counter + booths, detail: Booths take up to 4 }
+  - type: highlights
+    items:
+      - title: Nemuro fish in Tokyo
+        text: "Hanamaru started in **Nemuro**, eastern Hokkaido. JW Web Magazine praises its generous portions of Nemuro seafood at fair prices."
+      - title: Above the ¥120 chains
+        text: "At Dec 2024 prices, plates ran from **¥176 (tamago)** to **¥308** (salmon, sweet shrimp, negitoro), **¥418** (scallop, engawa) and **¥550** (chūtoro, crab gunkan)."
+      - title: A queue you don't stand in
+        text: "Take a numbered ticket from the machine and scan its **QR code**. The store page says you'll get a **LINE or email** alert, and you have 15 minutes to come back."
+      - title: Next to Tokyo Station
+        text: "It's on the 5th floor of the **KITTE** mall, next to Tokyo Station. Spend the wait exploring the mall."
+  - type: menu
+    title: Plate prices
+    items:
+      - { name: Egg, name_local: 玉子, price_local: 176, price_brl: 6.19, tag: cheap }
+      - { name: Salmon, name_local: サーモン, price_local: 308, price_brl: 10.83 }
+      - { name: Sweet shrimp, name_local: 甘えび, price_local: 308, price_brl: 10.83 }
+      - { name: "Scallop, two layers", name_local: 二層ほたて, price_local: 418, price_brl: 14.70, tag: must-try }
+      - { name: Flounder fin, name_local: えんがわ, price_local: 418, price_brl: 14.70 }
+      - { name: Medium-fatty tuna, name_local: 中とろ, price_local: 550, price_brl: 19.34 }
+      - { name: Crab-meat gunkan (seasonal), name_local: かに軍艦, price_local: 550, price_brl: 19.34, tag: signature }
+    note: "Prices from a Dec 2024 visit (Tokyo Mate). Hanamaru doesn't publish a price list online, so expect small increases."
+  - type: cost_breakdown
+    items:
+      - { label: Egg, local: 176, brl: 6.19 }
+      - { label: "3 plates at ¥308 (salmon, shrimp, negitoro)", local: 924, brl: 32.50 }
+      - { label: "3 plates at ¥418 (scallop, engawa, squid)", local: 1254, brl: 44.10 }
+      - { label: "1 plate at ¥550 (chūtoro)", local: 550, brl: 19.34 }
+  - type: map
+    note: "Go up to **5F of KITTE**. The official page says the lifts and escalators to 5F only start at 11:00, so you can't queue at the door before then."
+  - type: tips
+    variant: insider
+    items:
+      - "Take the ticket, scan the QR, then wander KITTE until **LINE** calls you."
+      - "Miss the call and you have **15 minutes** to show up, or you need a new ticket."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Your whole group must be there before you're seated."
+      - "Online guides still point to a **Ginza** branch, but it's no longer on Hanamaru's official store list."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry, clear
+    note: "Everything is indoors and KITTE is next to Tokyo Station, so winter doesn't matter."
+    wear: Normal winter layers
+  - type: pairs_well
+    items:
+      - { id: tsukiji-outer-market-sushi-breakfast, note: "Sushi breakfast at Tsukiji, conveyor-belt dinner here" }

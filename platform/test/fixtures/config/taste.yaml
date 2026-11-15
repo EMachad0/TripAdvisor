@@ -1,0 +1,51 @@
+# FIXTURE — stated taste for platform tests (fixture mode reads this instead of config/taste.yaml).
+updated: 2026-11-10
+goal: discovery
+interests:
+  culture: 2
+  food: 3
+  nightlife: 2
+  nature: 2
+  odd-local: 2
+  views: 3
+  shopping: 1
+  shows: 2
+  day-trip: 1
+tags:
+  - tag: museum
+    weight: 0
+    note: Only a must-go museum is worth a card.
+  - tag: esports
+    weight: 3
+stay:
+  wanted: true
+  per_city: 2
+  note: Social hostels where a solo traveler meets people.
+nightlife: Famous places, plus going out with people from the hostel.
+budget: Fine going over sometimes.
+must_do:
+  - key: classical-garden
+    said: a real chinese garden
+    hint: Fixture item, claimed by the yu-garden fixture.
+    country: china
+    city: shanghai
+  - key: ice-festival
+    said: the ice festival
+    hint: Fixture item, claimed by the harbin area fixture.
+    country: china
+  - key: china-clubs
+    said: china famous clubs
+    hint: Fixture item that needs two claims.
+    country: china
+    want: 2
+  - key: capsule-hotel
+    said: pod sleep capsule
+    hint: A capsule hotel stay (a Stay card).
+    country: japan
+  - key: gaming-cafe
+    said: interesting gaming cafe if any
+  - key: social-hostel
+    said: a hostel where I meet people
+    hint: Fixture item, claimed by the bund-rooftop-hostel fixture.
+    country: china
+    city: shanghai

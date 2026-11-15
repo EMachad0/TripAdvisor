@@ -1,0 +1,123 @@
+id: heming-teahouse-peoples-park
+name: "Heming Teahouse, People's Park"
+short_name: Heming Teahouse
+name_local: 鹤鸣茶社
+name_romanized: Hèmíng Cháshè
+country: china
+city: chengdu
+area: Qingyang · People's Park
+category: food
+fame: popular
+tags: [teahouse, ear-cleaning, mahjong, people-watching, open-air]
+kind: Eat
+why: "A bamboo chair by the lake since 1923: one bowl of jasmine tea with endless refills buys the afternoon, ear-cleaners optional."
+cost:
+  local: 30
+  currency: CNY
+  brl: 24.8
+  note: "Daytime gaiwan ¥20–30 with free refills; ¥3 before 08:30. Park entry free"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: 1–2 h
+best_time: "07:30 for ¥3 tea, or a weekday afternoon"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily from about 06:30 (¥3 early tea until 08:30) into the evening; closing time varies by source"
+  winter: "No winter closure or Christmas programme found. All seating is open-air under trees and eaves, so on a December afternoon (about 11 °C, grey, 82% humidity on average) you sit in the damp cold with a hot bowl you can refill as often as you like."
+
+location:
+  address: "12 Shaocheng Road, inside People's Park, Qingyang District, Chengdu"
+  address_local: 成都市青羊区少城路12号 人民公园内 鹤鸣茶社
+  lat: 30.65936
+  lng: 104.05585
+  nearest_transit: "People's Park (Line 2), Exit B; 3–5 min walk in"
+
+sources:
+  - url: https://chinafortravelers.com/guides/heming-teahouse-chengdu/
+    title: "Heming Tea House & People's Park, Chengdu (2026) — China for Travelers (updated 2026-08-11)"
+    checked: 2026-11-10
+  - url: https://www.chinatravel.com/chengdu/top-tea-house
+    title: Top 5 Most Authentic Teahouses in Chengdu — ChinaTravel.com
+    checked: 2026-11-10
+  - url: https://wanderinchina.com/cultural-experience/chengdu-ear-picking/
+    title: Chengdu Ear Picking guide (2026) — Wander in China
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Chengdu
+    title: Chengdu — Wikipedia (climate normals 1991–2020)
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Prices and the ¥3 early window come from one detailed 2026 guide; ChinaTravel gives ¥10–30 tea and hours 11:00–22:00, which conflicts with the 06:30 opening. Ear-cleaning: ¥30–40 at Heming per one guide; a city-wide guide gives ¥50–80 for a basic session. No official site or menu found. Chinese address composed from the English one."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: heming-archway
+    hook: Mahjong tiles, a long-spouted kettle and a man with a tuning fork offering to clean your ears.
+    caption: "The 鹤鸣 archway into the teahouse, People's Park"
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: "07:30, or a weekday afternoon"
+    extra:
+      - { label: Entry, value: Free, detail: Park and teahouse; you pay per bowl of tea }
+      - { label: Good in rain, value: Partly, detail: "Covered pavilions, but open to the air" }
+  - type: highlights
+    items:
+      - title: One bowl, all afternoon
+        text: "Order one **gaiwan** (lidded bowl) and the hot water is refilled free for as long as you stay. There's no minimum spend and nobody moves you on."
+      - title: The ¥3 dawn tea
+        text: "From **06:30 to 08:30** the same bowl costs **¥3** (R$2.48): the regulars' breakfast rate. Come around 07:30, after the staff have finished sweeping."
+      - title: Ear-cleaning, 采耳
+        text: "Uniformed ear-cleaners work the tables with picks, a feather and a tuning fork: about **¥30–40** for 3–5 minutes, plus about ¥10 for tools."
+      - title: Old Chengdu, loud
+        text: "Open since **1923**. Bamboo chairs, mahjong, gossip and kettles: it's a market hubbub, not a quiet Zen teahouse."
+  - type: gallery
+    images:
+      - { file: lakeside, caption: "Teahouse tables along the lake in People's Park" }
+      - { file: ear-cleaning, caption: "Ear-cleaning at a table in People's Park" }
+      - { file: bamboo-chairs, caption: Bamboo chairs under the trees }
+      - { file: gaiwan, caption: "A gaiwan of tea in People's Park" }
+  - type: menu
+    title: Tea and extras
+    items:
+      - { name: Early jasmine tea (06:30–08:30), name_local: 茉莉花茶, price_local: 3, price_brl: 2.48, note: "Same bowl as later: the price is a time, not a grade", tag: cheap }
+      - { name: Daytime gaiwan, name_local: 盖碗茶, price_local: 30, price_brl: 24.8, note: "¥20–30 from 08:30, free refills", tag: drink }
+      - { name: "Evening: basic flower tea", name_local: 三花 / 茉莉, price_local: 18, price_brl: 14.88, note: After about 18:00 the leaf sets the price, tag: drink }
+      - { name: "Evening: spring-bud green tea", name_local: 竹叶青 / 蒙顶甘露, price_local: 58, price_brl: 47.95, note: The top of the evening list, tag: drink }
+      - { name: "Ear-cleaning, basic", name_local: 采耳, price_local: 40, price_brl: 33.07, note: "¥30–40, plus ~¥10 for disposable tools; agree the price first", tag: must-try }
+    note: "Prices from one 2026 guide. Pay with Alipay or WeChat Pay; carry small cash as backup."
+  - type: cost_breakdown
+    items:
+      - { label: Daytime gaiwan with refills, local: 30, brl: 24.8 }
+      - { label: "Ear-cleaning, basic", local: 40, brl: 33.07, optional: true }
+      - { label: Disposable ear tools, local: 10, brl: 8.27, estimate: true, optional: true }
+  - type: quote
+    variant: vibe
+    text: Steam off the gaiwan, tiles clacking, and the whole afternoon still ahead.
+  - type: map
+    note: "Navigate to **人民公园** (People's Park), not 文化公园: there is a second Heming Teahouse in Culture Park across town."
+  - type: tips
+    variant: insider
+    items:
+      - "Walk past the first zone you meet from the photo wall (非遗体验区): it's the set-menu area at about ¥178 for two. The à-la-carte tables, with staff in blue, are further in."
+      - "Say a polite no and the ear-cleaners move on; they come by often."
+      - "Kuanzhai Alley is a 14-minute walk away and uses the same metro station."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Ear-cleaners push a **¥100–110** clean-and-wash combo. Agree on the basic price and what's included before they start."
+      - "Lakeside seats fill first, and weekends are packed."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Grey, humid and cool; little rain but almost no sun
+    note: "The teahouse is outdoors, so you feel the damp cold after an hour of sitting still. Free hot refills help."
+    wear: A warm layer you can sit in, scarf, closed shoes
+  - type: pairs_well
+    items:
+      - { id: chengdu-panda-base, note: "Pandas in the morning, tea in the afternoon: back on Line 3, change to Line 2" }
+      - { id: flipflop-hostel-chengdu, note: "Two stops from Chunxi Road on Line 2" }
+      - { id: chengdu-christmas, note: "Tea by day, Taikoo Li lights after dark" }

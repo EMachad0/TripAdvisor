@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: parade-ring-cny-2012
+  title: File:Parade Ring (6834953843).jpg
+  author: Michael Elleray from England, United Kingdom
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Parade_Ring_(6834953843).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/87/Parade_Ring_%286834953843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Sha Tin Racecourse Parade Ring was packed to capacity on Chinese New Year Race Day.
+  width: 4140
+  height: 2760
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: wishing-tree
+  title: File:HK LamTsuenWishingTree PasticTree 2010.JPG
+  author: Chong Fat
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:HK_LamTsuenWishingTree_PasticTree_2010.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/86/HK_LamTsuenWishingTree_PasticTree_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​2010年25呎塑膠許願樹
+  width: 2848
+  height: 2136
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: racecourse-overview
+  title: File:Sha Tin Racecourse Overview 2009.jpg
+  author: WiNG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Sha_Tin_Racecourse_Overview_2009.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/84/Sha_Tin_Racecourse_Overview_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sha Tin Racecourse
+  width: 2816
+  height: 2112
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons

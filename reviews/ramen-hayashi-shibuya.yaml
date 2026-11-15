@@ -1,0 +1,19 @@
+# Independent review of ramen-hayashi-shibuya. Written by `./atr review`; do not edit by hand.
+id: ramen-hayashi-shibuya
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: a619d5635ffa86f09afd82c99178d7147c222b272787587fff0365a0239df388
+facts:
+  supported: 1
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[7].items[0]
+    problem: The insider tip credits the queue-then-ticket rule to a "shop note on Tabelog". The Tabelog page has no such shop note. The only mention is a truncated user review, so the tip rests on a weaker source than the page claims.
+    evidence: blocks[7].items[0] now attributes the tip to "(Tabelog reviews)", the fix the first review asked for. https://tabelog.com/en/tokyo/A1303/A130301/13003367/ has a user review (visited Nov 2026) that says "When waiting outside, you first line up and purchase a ticket upon entering." The shop's own details still say nothing about it, so the new attribution is accurate.
+rereview_of: afc5feb496b799dbafdc7f196aa53d3c04393f85499ada7747875b7b6719aedb
+summary: "The one earlier finding is resolved: the queue-then-ticket tip now credits Tabelog reviews, and a November 2026 Tabelog review says the same thing. The only other change sets last_updated to 2026-11-12, today's date (it was dated a day ahead before). No new blockers found."
+model: claude-opus-5-5
+cost_usd: 0.275

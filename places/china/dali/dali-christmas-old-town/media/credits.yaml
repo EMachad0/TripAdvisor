@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: old-town-night
+  title: File:1 dali old town yunnan 2012b.jpg
+  author: chensiyuan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:1_dali_old_town_yunnan_2012b.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/47/1_dali_old_town_yunnan_2012b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: dali old town yunnan china night 2012 yang ren jie
+  width: 7360
+  height: 4912
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: church-at-night
+  title: File:Sacred Heart Cathedral of Dali - 49958910768.jpg
+  author: Rod Waddington
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Sacred_Heart_Cathedral_of_Dali_-_49958910768.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c2/Sacred_Heart_Cathedral_of_Dali_-_49958910768.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sacred Heart Cathedral of Dali
+  width: 4360
+  height: 2910
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: church-interior
+  title: File:Cathedral of the Sacred Heart in Dali 38 2017-09.jpg
+  author: 猫猫的日记本
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Sacred_Heart_in_Dali_38_2017-09.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6b/Cathedral_of_the_Sacred_Heart_in_Dali_38_2017-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​大理天主教堂，礼拜堂室内，自祭坛回望门楼。
+  width: 4912
+  height: 3264
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

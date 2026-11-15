@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: hongyadong-night
+  title: File:20250521 Hongyadong (223429).jpg
+  author: Yumeto
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:20250521_Hongyadong_(223429).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7b/20250521_Hongyadong_%28223429%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Hongyadong
+  width: 4096
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: hongyadong-lights
+  title: File:Hongyadong night lights Chongqing.jpg
+  author: Lianguanlun
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hongyadong_night_lights_Chongqing.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f1/Hongyadong_night_lights_Chongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Hongyadong stilted buildings illuminated at night in Chongqing, China.
+  width: 4128
+  height: 6192
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: qiansimen-bridge
+  title: File:Qiansimen Bridge 20260507-1.jpg
+  author: Suicasmo
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Qiansimen_Bridge_20260507-1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/Qiansimen_Bridge_20260507-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Qiansimen Bridge
+  width: 5184
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

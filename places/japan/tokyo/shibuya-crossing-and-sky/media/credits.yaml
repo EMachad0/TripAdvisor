@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: crossing
+  title: File:Tokyo Shibuya Scramble Crossing 2018-10-09.jpg
+  author: Benh LIEU SONG ( Flickr )
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c5/Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Pedestrians crossing perhaps the most famous scramble intersection in the world, in Shibuya, Tokyo, Japan. Taken from Hachikō square.
+  width: 5853
+  height: 3902
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: sky-stage
+  title: File:Shibuya Scramble Square - SHIBUYA SKY 10.jpg
+  author: Kakidai
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shibuya_Scramble_Square_-_SHIBUYA_SKY_10.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3c/Shibuya_Scramble_Square_-_SHIBUYA_SKY_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 渋谷スクランブルスクエア、屋外展望空間「SHIBUYA SKY -SKY STAGE」
+  width: 2500
+  height: 1521
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: view-down
+  title: File:Shibuya scramble square sky view of crossing (48995414042).jpg
+  author: Real Estate Japan from Tokyo, Japan
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shibuya_scramble_square_sky_view_of_crossing_(48995414042).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/37/Shibuya_scramble_square_sky_view_of_crossing_%2848995414042%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: shibuya scramble square sky view of crossing
+  width: 8368
+  height: 5584
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

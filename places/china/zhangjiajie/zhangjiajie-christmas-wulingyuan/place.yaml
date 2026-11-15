@@ -1,0 +1,190 @@
+id: zhangjiajie-christmas-wulingyuan
+name: "Christmas in Zhangjiajie: Wulingyuan"
+short_name: Zhangjiajie Christmas
+name_local: 武陵源 · 溪布街
+name_romanized: Wǔlíngyuán · Xībù Jiē
+country: china
+city: zhangjiajie
+area: Wulingyuan · Xibu Street
+category: nightlife
+fame: hidden
+tags: [christmas, christmas-option, hostel, bar, mountains, quiet-season]
+kind: Do
+why: "No Christmas program found, snow unlikely, few backpackers in December. The one social bet is the Jijiehao hostel's bar; then the 07:30 to Chongqing."
+when:
+  dates:
+    - { from: 2026-12-24, to: 2026-12-25 }
+  kind: best
+  label: "Christmas, 24–25 Dec"
+
+cost:
+  local: 252
+  currency: CNY
+  brl: 208.33
+  note: "Taxi to Zhangjiajie West and the 07:30 train to Chongqing East on the 26th. Xibu Street is free; drinks not priced"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Christmas Eve + Christmas Day"
+best_time: "The hostel common room on the evening of the 24th"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Xibu Street is a free pedestrian street, open all year; bar hours not published. The hostel bar is in the hostel"
+  winter: "Nothing announced for Christmas 2026, and I found no report of a Christmas event in Wulingyuan in 2024 or 2025. The winter events here start after Christmas: the Qixing Mountain ski field opened on Dec 26 in 2023 and Dec 27 in 2024. The first snow of last winter fell in the forest park on Dec 31, 2025. Dec 24 is a Thursday."
+
+location:
+  address: Xibu Street, Wulingyuan District, Zhangjiajie, Hunan
+  address_local: 湖南省张家界市武陵源区 溪布街
+  lat: 29.34724
+  lng: 110.55251
+  nearest_transit: "Walkable from Wulingyuan town; the Jijiehao hostel is under 1 km southwest"
+  approximate: true
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zhangjiajie-Jijiehao-Hostel/Zhangjiajie/331131?from=2026-12-24&to=2026-12-26&guests=1&currency=CNY"
+    title: "Jijiehao Hostel, Hostelworld, Dec 24–25, 2026: dorm ¥99 both nights, not sold out; 127 reviews read via its review feed"
+    checked: 2026-11-14
+  - url: https://m.voc.com.cn/rmt/article/12600320.html
+    title: "Qixing Mountain ski field opens on Dec 27, 2024, with the 3rd Zhangjiajie Ice and Snow Festival (Xinhunan, 2024-12-28, in Chinese)"
+    checked: 2026-11-14
+  - url: https://m.voc.com.cn/xhn/news/202312/19198840.html
+    title: "2nd Zhangjiajie Ice and Snow Festival opens at Qixing Mountain ski field on Dec 26, 2023 (Xinhunan, in Chinese)"
+    checked: 2026-11-14
+  - url: https://cn.chinadaily.com.cn/a/202412/23/WS67690feea310b59111daa5d9.html
+    title: "Zhangjiajie winter program 2024–25 (China Daily, 2024-12-23, Chinese): snow events Dec–Jan, folk events from Jan 7; nothing for Christmas"
+    checked: 2026-11-14
+  - url: https://www.hunantoday.cn/news/xhn/202601/31263524.html
+    title: "Zhangjiajie National Forest Park welcomes its first snow (China Daily via Hunan Today, 2026-01-01)"
+    checked: 2026-11-14
+  - url: https://news.qq.com/rain/a/20241210A09AFY00
+    title: "First rime of the winter on Tianmen Mountain, Dec 10, 2024 (Tencent News, 2024-12-10)"
+    checked: 2026-11-14
+  - url: https://www.hunantoday.cn/news/xhn/202511/31007794.html
+    title: "2,000-drone show over the Suoxi River in Wulingyuan, Nov 25, 2025 (Hunan Today, 2025-11-28): a one-off, no schedule"
+    checked: 2026-11-14
+  - url: https://chinadiscovery.com/hunan/zhangjiajie/nightlife.html
+    title: "Zhangjiajie nightlife (China Discovery): Xibu Street open all year, free, pubs and bars by the river"
+    checked: 2026-11-14
+  - url: https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/Shopping_12/202411/t20241106_33494926.html
+    title: "Xibu Ancient Street (Hunan provincial government): pedestrian street with waterfront bars and a food street"
+    checked: 2026-11-14
+  - url: https://travelchinawith.me/china-destinations/zhangjiajie/zhangjiajie-night-shows/
+    title: "Zhangjiajie night shows (Travel China With Me, updated 2026-05-20): Charming Xiangxi year-round 19:30 from ¥168; Fox Fairy until Dec 31"
+    checked: 2026-11-14
+  - url: https://trains.ctrip.com/trainbooking/zhangjiajie-chongqing/
+    title: "Zhangjiajie–Chongqing trains on Ctrip (read 2026-11-14): G2452 07:30 Zhangjiajie West → 09:51 Chongqing East, 2nd class ¥197"
+    checked: 2026-11-14
+  - url: https://www.trip.com/trains/china/route/zhangjiajie-to-chongqing/
+    title: "Zhangjiajie to Chongqing trains (Trip.com): tickets on sale 15 days before travel; G2452 07:30 → 09:51"
+    checked: 2026-11-14
+  - url: https://m.voc.com.cn/rmt/article/18128145.html
+    title: "Tianmen Mountain notice: only Line C from 13 Oct 2026 while the city cableway is rebuilt (Xinhunan, 2026-10-10, in Chinese)"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/zhangjiajie-national-park/
+    title: "Zhangjiajie National Park guide (China for Travelers, updated 2026-09-04): taxi or DiDi Zhangjiajie West–Wulingyuan ~¥55–80"
+    checked: 2026-11-10
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/331131/reviews/?sort=newest&allLanguages=true&page=10&monthCount=36&application=web"
+    title: "Jijiehao reviews, Hostelworld review feed (JSON, pages 1–13 by newest): Dec 2025 – Jan 2026 reviews quoted here"
+    checked: 2026-11-14
+  - url: https://trains.ctrip.com/trainbooking/chengdu-chongqing/
+    title: "Chengdu–Chongqing trains on Ctrip: cheapest D trains ¥85, the comparison figure used here"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Zhangjiajie
+    title: "Zhangjiajie (Wikipedia): CMA 1991–2020 normals, December 4.9–12.2 °C"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Nothing announced, but Chinese social apps were not searchable here. Hostel Christmas plans unknown: no review mentions Christmas. Monthly review counts are my tally of Hostelworld's review feed (listed). ¥197 fare read on Ctrip with atr render (it redirects plain requests to a bot check). Taxi fare is a guide range. Xibu Street pin is the OSM block."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: suoxi-dusk
+    caption: "Wulingyuan town on the Suoxi River at dusk (not at Christmas)"
+    hook: A mountain resort town in a quiet month. Christmas here is whoever is in the hostel bar that night.
+  - type: quick_facts
+    time_needed: "Christmas Eve + Christmas Day"
+    best_time: "The hostel common room on the evening of the 24th"
+    extra:
+      - label: Christmas
+        value: Nothing announced
+        detail: "No event found for 2024, 2025 or 2026"
+      - label: Snow on the 25th
+        value: Unlikely
+        detail: "Last winter's first snow: Dec 31, 2025"
+      - label: To Chongqing
+        value: "2 h 21, ¥197"
+        detail: "G2452 07:30 Zhangjiajie West → Chongqing East"
+  - type: highlights
+    items:
+      - title: The hostel is the party, if there is one
+        text: "**Jijiehao Hostel** has a bar, a pool table and free breakfast. A December 2025 guest wrote it is \"really good… when you … want to meet some other backpackers\"; in January 2026 a guest wrote that a **hotpot was lit in the common room** because it was cold."
+      - title: But fewer people come in December
+        text: "Of the hostel's 127 Hostelworld reviews, **2 are dated December 2025**, against 8–9 a month in Sep–Nov and 6 in January. Beds for Dec 24 and 25 were still on sale at ¥99 on Nov 14."
+      - title: Xibu Street, the town's night strip
+        text: "A free pedestrian street on the Suoxi River with **waterfront bars**, a food street and lights at night. It is built for Chinese tour groups, not backpackers; no Christmas program found."
+      - title: Christmas Day in the park
+        text: "The forest park is open, and December is its emptiest month. Snow is a long shot: last winter's first fall came on **Dec 31, 2025**, though Tianmen had **rime ice on Dec 10, 2024**."
+  - type: prose
+    title: What Christmas here is honestly like
+    dropcap: true
+    text: |-
+      Nobody in Wulingyuan does Christmas. I found no hostel party, bar event, light show or church service for Dec 24–25 in 2024 or 2025, and nothing announced for 2026. The town's winter calendar starts after Christmas: the Qixing Mountain ski field and the Zhangjiajie Ice and Snow Festival opened on **Dec 26 (2023)** and **Dec 27 (2024)**. A 2,000-drone show over the Suoxi River in November 2025 was a one-off.
+
+      What you do have is one genuinely social hostel. Jijiehao's reviews from Oct 2025 to Nov 2026 keep saying "very social" and that people "stay inside" because little is nearby. In December the crowd thins: going by the review counts, maybe a quarter of the autumn traffic. On a Thursday Christmas Eve you could find a table of backpackers sharing pizza and beer, or three people and the family dog. Ask the hostel before you book whether they plan anything.
+
+      The fallback is **Charming Xiangxi**, a Tujia and Miao folk show in Wulingyuan, listed as year-round at 19:30 from ¥168, then a walk down Xibu Street. Spend the 25th in the park if the cloud lifts, and take the 07:30 train to Chongqing on the 26th.
+  - type: gallery
+    images:
+      - file: tianzi-snow
+        caption: "Tianzi Mountain under snow in winter 2026: possible, but not usually before New Year"
+  - type: quote
+    variant: vibe
+    text: Cold stone towers by day, a pool table and whoever else came to China in December by night.
+  - type: cost_breakdown
+    items:
+      - label: Xibu Street and the riverside lights
+        local: 0
+        brl: 0
+      - label: "Taxi or DiDi to Zhangjiajie West, Dec 26 (¥55–80)"
+        local: 55
+        brl: 45.47
+        estimate: true
+      - label: "G2452 to Chongqing East, Dec 26 (2nd class)"
+        local: 197
+        brl: 162.86
+      - label: Charming Xiangxi show, cheapest seat
+        local: 168
+        brl: 138.89
+        optional: true
+    note: "The town costs nothing at Christmas. The money goes on the way out, about three times Chengdu's ¥85 train; the park ticket for the 25th is extra and on the park's own card."
+  - type: map
+    zoom: 15
+    note: "The pin is **Xibu Street** (approximate, the street block). Jijiehao Hostel is on Huanxi Road, under 1 km southwest. Wulingyuan has no train station: Zhangjiajie West is a taxi or DiDi ride (about ¥55–80); ask the hostel how early to leave for a 07:30 train."
+  - type: tips
+    variant: insider
+    items:
+      - "Message Jijiehao a week or two ahead and ask whether they do a Christmas dinner and how many guests are booked for the 24th. That answer decides whether this is a good Christmas."
+      - "Book the **07:30 G2452** on Dec 26 when sales open, 15 days ahead (Dec 11). For a 07:30 train, plan on a taxi or DiDi to Zhangjiajie West (about ¥55–80); ask the hostel to arrange one."
+      - "If the 25th is clear, go to the park: December's empty paths are the upside of coming now."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't come here *for* Christmas. Come for the park, and treat Christmas as a hostel night that might be quiet."
+      - "Don't plan Christmas Day around skiing or the ice festival: in the last two seasons they opened on Dec 26 and Dec 27."
+      - "Tianmen's city cableway is shut for rebuilding in December 2026 (see the area page), so Tianmen on the 25th means the long way up."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 12
+    conditions: Cold, damp and often foggy; snow rare before the last days of December
+    note: "City normals for December: 4.9–12.2 °C. The viewpoints sit around 1,000 m and run several degrees colder, near freezing at night. A January 2026 guest found their room cold with a broken window; the hostel lists air-con in the dorms."
+    wear: Down jacket, thermal layer, hat and gloves, grippy waterproof shoes
+  - type: pairs_well
+    items:
+      - id: zhangjiajie-jijiehao-hostel
+        note: "Where Christmas actually happens, if it does"
+      - id: zhangjiajie-national-forest-park
+        note: "Christmas Day, if the cloud lifts"
+      - id: chengdu-christmas
+        note: "The big-city alternative: lights, bar streets, ¥85 trains to Chongqing"

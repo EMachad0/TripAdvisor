@@ -1,0 +1,95 @@
+id: seoul
+country: korea
+name: "Seoul"
+name_local: 서울
+region: Capital of South Korea
+scope: city
+cities: [seoul]
+why: "The base for the whole Korea leg: Hongdae's clubs and social hostels, snow on palace roofs, LCK esports and T1, ₩1,550 subway rides, and under an hour from Incheon on a ₩4,650 train."
+best_for: [nightlife, food, culture, shows]
+highlights: ["Hongdae clubs", "Gyeongbokgung Palace", "Gwangjang Market", "LoL Park (LCK)", "T1 Base Camp", "N Seoul Tower"]
+days_suggested: { min: 5, max: 8 }
+cost_level: medium
+fame: iconic
+lat: 37.56
+lng: 126.99
+getting_there: "Incheon airport: AREX all-stop train to Hongik Univ. (Hongdae) ₩4,650 from T1, ₩5,250 from T2 with a transport card, under an hour (about 60 min to Seoul Station, two stops further)."
+getting_around: "Subway ₩1,550 a ride with a T-money card (card ₩5,000). Climate Card passes: ₩5,000 for 1 day to ₩20,000 for 7, not valid on airport buses. Owl N-buses ₩2,500."
+winter_note: "January averages −5.5 °C at night and 2.1 °C by day (1991–2020), with about 7 snowy days and little rain: dry, sharp cold. Hongdae clubs keep going all night; Gyeongbokgung closes on Tuesdays."
+image: seoul-namsan-aerial
+sources:
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): coordinates, January climate normals 1991–2020"
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Seoul
+    title: "Seoul (Wikivoyage): districts, subway fare, T-money, Climate Card, owl buses, AREX express, Gyeongbokgung"
+    checked: 2026-11-10
+  - url: https://www.theseoulguide.com/airport-railroad-arex-all-stop-train/
+    title: "AREX All Stop Train guide (The Seoul Guide, updated 29 Oct 2026): fares to Hongik Univ., ~60/67 min to Seoul Station, last trains"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/AREX
+    title: "AREX (Wikipedia): station list, Hongik Univ. (A03) two stops before Seoul Station (A01)"
+    checked: 2026-11-12
+  - url: https://korlens.app/blog/hongdae-nightlife-guide
+    title: "Hongdae Nightlife 2026 (KORLENS, AI-drafted guide, checked 4 Oct 2026): approximate club covers, closing and first-train times"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Time-Travelers-Relax-Guesthouse-Seoul/Seoul/273421?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+    title: "Time Travelers Relax on Hostelworld, Mon 11 Jan 2027: 8-bed dorm ₩29,412"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+    title: "G Guest House Itaewon on Hostelworld, Mon 11 Jan 2027: dorm bed ₩29,241"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-15&to=2027-01-16&guests=1&currency=KRW"
+    title: "G Guest House Itaewon on Hostelworld, Fri 15 Jan 2027: dorm bed ₩42,349"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/G-Guest-House-Itaewon-In-Seoul/Seoul/85799?from=2027-01-16&to=2027-01-17&guests=1&currency=KRW"
+    title: "G Guest House Itaewon on Hostelworld, Sat 16 Jan 2027: dorm bed ₩45,374"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lazy-cube/Seoul/338902?from=2027-01-16&to=2027-01-17&guests=1&currency=KRW"
+    title: "Lazy Cube on Hostelworld, Sat 16 Jan 2027: capsule ₩81,900 (₩45,000 Sun–Thu)"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Jin-s-Paradise/Seoul/295727?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+    title: "Jin's Paradise on Hostelworld, Mon 11 Jan 2027: \"no availability\""
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "The official AREX site would not load. Fares and the ~60 min to Seoul Station are from The Seoul Guide (Oct 2026); the time to Hongik itself is not stated anywhere checked, only that it is two stops earlier. Club covers, closing and first-train times come from one AI-drafted guide (KORLENS) and are approximate. The Seoul Guide warns of delays from a rail labour protest."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Palace roofs under snow by day, hip-hop basements in Hongdae by night, and the subway between them for ₩1,550."
+  - type: highlights
+    items:
+      - title: The famous clubs
+        text: "**Hongdae**, ringed by universities, has some of Seoul's most active nightlife. Covers are roughly ₩10,000–20,000, often with a drink, and clubs run until about 5–6 AM (approximate: check at the door)."
+      - title: Palaces and the old core
+        text: "**Jongno** is the Joseon-era heart of the city around Gyeongbokgung, which runs free English tours at 11:00, 13:30 and 15:30 and closes on Tuesdays."
+      - title: Esports at the source
+        text: "LoL Park and T1 Base Camp have their own cards: see the places listed below."
+      - title: Social hostels from about R$120 a night
+        text: "Dorm beds on Mon 11 Jan 2027: **₩29,412** at Time Travelers Relax in Hongdae, **₩29,241** at G Guesthouse in Itaewon (Hostelworld, seen 12 Nov)."
+  - type: prose
+    title: Where to base yourself
+    text: |-
+      For a solo traveler who wants to go out with people from the hostel, **Hongdae** is the base. It is where the clubs are, it has hostels built around rooftops and group dinners, and it is a stop on the airport train: the all-stop AREX gets there in under an hour from Terminal 1 (about 60 minutes to Seoul Station, two stops further), for ₩4,650 on a transport card.
+
+      **Itaewon**, in Yongsan, is the other option. Wikivoyage calls it Seoul's international district, with Western-style places to eat and drink, and on Mon 11 Jan G Guesthouse there (₩29,241) cost about the same as the cheapest Hongdae dorm found (₩29,412). From Itaewon the Hongdae clubs are a subway ride away.
+
+      Fri 15 and Sat 16 Jan cost much more. On 12 Nov, a Lazy Cube capsule in Hongdae was ₩45,000 on weeknights and ₩81,900 on those two nights; G Guesthouse's dorm went from ₩29,241 to ₩42,349–45,374. Some Hongdae hostels (Jin's Paradise) had no beds on sale for 10–19 Jan yet.
+  - type: gallery
+    images:
+      - { file: seoul-palace-snow, caption: "Snow on the roofs of Gyeongbokgung" }
+      - { file: seoul-hongdae-street, caption: "A Hongdae shopping street at night" }
+  - type: tips
+    variant: insider
+    items:
+      - "Buy a **T-money** card (₩5,000) at the airport and pay the AREX with it: a single-journey ticket adds ₩100 plus a ₩500 deposit."
+      - "Last all-stop trains from the airport to Seoul Station: **23:38** from T1, **23:32** from T2. Later ones stop at Digital Media City."
+      - "A 7-day **Climate Card** costs ₩20,000; at ₩1,550 a ride it pays off after 13 rides. It does not cover airport buses or the Sinbundang Line."
+      - "Missed the last subway after the clubs? Owl N-buses run late at night for ₩2,500, and the first trains leave at roughly 5:30 (approximate: check the timetable)."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry, sharp cold, some snow
+    note: "About 7 snowy days in January and only 16.8 mm of precipitation. Days are mostly dry and cold; nights out mean walking home below −5 °C."
+    wear: Padded jacket, hat, gloves, warm shoes

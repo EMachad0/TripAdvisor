@@ -1,0 +1,150 @@
+id: sparex-dongdaemun
+name: "Sparex Dongdaemun Jjimjilbang"
+short_name: Sparex Dongdaemun
+name_local: 스파렉스 굿모닝시티점
+country: korea
+city: seoul
+area: Jung-gu · Dongdaemun
+category: odd-local
+fame: popular
+tags: [jjimjilbang, bathhouse, sauna, overnight, open-24h, indoor]
+kind: Do
+why: "A 24-hour hanok-style bathhouse under a Dongdaemun mall: hot tubs, sauna rooms, an ice room and a sleeping hall, about ₩10,000 with a voucher."
+cost:
+  local: 10150
+  currency: KRW
+  brl: 41.57
+  note: "Creatrip voucher, US$7.51 (≈₩10,150) for day or night visits from 1 Dec 2026. Counter price not verified"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–5 h, or overnight
+best_time: A freezing evening, on a weeknight
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Open 24 hours. From 1 Dec 2026: day 05:00–19:00, night 19:00–05:00 (Creatrip)"
+  winter: "From 1 Dec 2026 the time bands and voucher prices change (Creatrip): the night band starts at 19:00, not 20:00, and both bands cost US$7.51. Men's bath is cleaned 00:30–01:30 and women's 03:00–04:00, when some facilities may be shut. Body scrubs stop 01:00–03:00. It is all indoors and heated, so January weather doesn't touch it."
+
+location:
+  address: "B3F, Goodmorning City, 247 Jangchungdan-ro, Jung-gu, Seoul"
+  address_local: 서울 중구 장충단로 247 굿모닝시티 지하 3층
+  lat: 37.56672
+  lng: 127.00754
+  nearest_transit: "Dongdaemun History & Culture Park (Lines 2, 4, 5), Exit 14"
+  approximate: true
+
+sources:
+  - url: https://www.seoultravelpass.com/en/products/1496-seoul-dongdaemun-sparex-jjimjilbang-sauna-admission-ticket
+    title: "Dongdaemun SPAREX Jjimjilbang Sauna Admission Ticket (Seoul Travel Pass): prices, rules, directions"
+    checked: 2026-11-10
+  - url: https://creatrip.com/en/spot/13261
+    title: "Sparex Dongdaemun (Creatrip): time bands and prices from 1 Dec 2026, day-pass surcharge rule, reviews Sep–Oct 2026"
+    checked: 2026-11-12
+  - url: https://www.waug.com/en/activities/143280
+    title: "Seoul Dongdaemun Sparex Good Morning City Jjimjilbang Ticket (WAUG): hours, address, 2026 reviews"
+    checked: 2026-11-10
+  - url: https://www.trazy.com/experience/detail/sparex-sauna-jjimjilbang-ticket-seoul
+    title: "SPAREX Sauna Entrance Ticket, Dongdaemun/Dongmyo (Trazy): hours, rules, how to use"
+    checked: 2026-11-10
+  - url: https://www.seoultourism.org/jjimjilbang-guide-seoul/
+    title: "Jjimjilbang guide to Seoul (Seoul Tourism Guide, updated 9 Nov 2026)"
+    checked: 2026-11-10
+  - url: https://sunnyshare-block.blogspot.com/2026/03/jjimjilbang-seoul-budget-travel-guide-2026.html
+    title: "Jjimjilbang Seoul budget travel guide 2026 (blog, 12 Mar 2026): walk-in prices"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "No official site or price board found. Price is Creatrip's US$7.51 option for visits from 1 Dec 2026, converted at ECB rates (≈₩10,150); Seoul Travel Pass prices for January not checked. Walk-in ₩12,000/₩15,000 is from one March 2026 blog. January climate per Wikipedia 1991–2020 normals. Unclear if a night ticket lets you sleep past 05:00. Tattoo rules not found. Pin is the mall."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: Sweat in a hot room, cool down in an ice room, then doze off in the sleeping hall while it is −5 °C outside.
+  - type: quick_facts
+    time_needed: 3–5 h, or overnight
+    best_time: A freezing evening, on a weeknight
+    extra:
+      - label: Included
+        value: Clothes and towel
+        detail: Bring your own shampoo and conditioner
+      - label: Stay limit
+        value: Up to 24 hours
+        detail: Extra fee beyond that. No re-entry
+      - label: Good in cold
+        value: Fully indoors
+        detail: Heated, open all night
+  - type: highlights
+    items:
+      - title: Open now, and used to foreigners
+        text: "Four ticket sites sell it for same-day use, with reviews up to **October 2026**. The entry kiosk has a language menu, one listing marks English as available, and a reviewer says the front desk speaks Chinese."
+      - title: Hanok-style inside
+        text: "The interior is built like a traditional Korean house in natural wood. Listings describe dry and wet saunas, an ice room, a clay room, a food court and sleeping areas."
+      - title: The snacks are part of it
+        text: "The classic pair is **sikhye**, a sweet rice punch served slushy, and eggs roasted on hot stones."
+      - title: A bed-free night, with a catch
+        text: "It never closes and has a sleeping hall, so you can stay the night. A reviewer in October 2026 found the women's sleeping room packed on a Saturday night."
+  - type: prose
+    title: How it works, as far as the sources say
+    dropcap: true
+    text: |-
+      Sparex is in the basement of the **Goodmorning City** mall. Take Exit 14 of Dongdaemun History & Culture Park Station, enter the building on your left through Gate 1, and ride the lift down to **B3**. The listings all note that the escalator is not running.
+
+      Pay at the counter, or scan a voucher at the kiosk and hand the printed slip to the staff. You get a **locker key** and a set of **jjimjilbang clothes**, plus a towel. Baths and showers are separate for men and women. The heated rooms, food court and sleeping hall are shared, and there you wear the clothes you were given.
+
+      From 1 December 2026, tickets are sold as **day (05:00–19:00)** or **night (19:00–05:00)**; before that the switch was at 20:00. Creatrip says that if you buy a day pass and visit during night hours, you pay an additional fee on site. Once you leave you can't come back in.
+  - type: quote
+    variant: vibe
+    text: Borrowed pyjamas, a roasted egg, a slushy rice drink, and a sleeping hall full of strangers at 2 a.m.
+  - type: cost_breakdown
+    items:
+      - label: Night entry voucher (19:00–05:00)
+        local: 10150
+        brl: 41.57
+        estimate: true
+        note: "Creatrip, US$7.51, for visits from 1 Dec 2026; includes clothes and towel"
+      - label: Day entry voucher (05:00–19:00)
+        local: 10150
+        brl: 41.57
+        estimate: true
+        optional: true
+        note: Same Creatrip price from 1 Dec 2026
+      - label: Men's body scrub, base course
+        local: 25000
+        brl: 102.4
+        optional: true
+        note: Paid on site
+      - label: Entry with luggage storage and one exit
+        local: 20000
+        brl: 81.92
+        optional: true
+    note: "Walk-in prices are not verified. One March 2026 blog gives **₩12,000 day / ₩15,000 night** at the counter. Seoul Travel Pass lists ₩8,000 night / ₩14,000 day with no dates, and Creatrip's cheaper options end 30 Nov 2026, so treat those as pre-December prices."
+  - type: map
+    zoom: 17
+    note: "The pin is the **Goodmorning City** building. From **Exit 14** enter on your left through Gate 1 and take the lift to B3."
+  - type: tips
+    variant: insider
+    items:
+      - "Buy the **night voucher** online before you go and scan it at the kiosk: pick your language, scan the QR code, give the printed slip to the counter."
+      - "Bring **shampoo and conditioner**, or buy single-use ones inside. For a body scrub, bring your own scrub towel if you'd prefer not to share one."
+      - "Travelling with a big bag? Large items that don't fit a locker are checked at the counter, free while you are inside."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Don't count on a full night's sleep.** The night ticket runs 19:00–05:00 (from 1 Dec 2026), and one reviewer was unable to sleep on past 05:00. Ask at the counter what staying until morning costs."
+      - "The men's bath is cleaned **00:30–01:30** (women's 03:00–04:00). Shower before or after."
+      - "Leave cash and valuables at the front counter. A lost locker key costs **₩20,000**."
+      - "No outside food or drink, and no re-entry once you walk out."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing outside, heated inside
+    note: "Seoul's January averages are 2.1 °C by day and −5.5 °C at night. None of that matters here: the whole place is indoors, in a basement, and open through the night. It is the plan for the coldest or snowiest evening of the stay."
+    wear: Anything. You change into the clothes they hand you
+  - type: pairs_well
+    items:
+      - id: gwangjang-market
+        note: Eat first. No outside food is allowed inside

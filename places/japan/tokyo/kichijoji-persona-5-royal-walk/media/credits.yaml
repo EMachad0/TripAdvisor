@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: harmonica-sunday
+  title: File:Sunday Afternoon in Harmonica Yokocho, Kichijoji (53417121535).jpg
+  author: Stephen Kelly from San Francisco, CA, USA
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Sunday_Afternoon_in_Harmonica_Yokocho,_Kichijoji_(53417121535).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Sunday_Afternoon_in_Harmonica_Yokocho%2C_Kichijoji_%2853417121535%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Known for its Showa-era atmosphere and festive red lanterns, Harmonica Yokocho is a hidden alleyway of small izakaya restaurants, shops, and bars in the Kichijoji neighborhood of Tokyo.
+  width: 5712
+  height: 4284
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: harmonica-lantern
+  title: File:In Harmonica Yokocho, Kichijoji (53417121000).jpg
+  author: Stephen Kelly from San Francisco, CA, USA
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:In_Harmonica_Yokocho,_Kichijoji_(53417121000).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4e/In_Harmonica_Yokocho%2C_Kichijoji_%2853417121000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Known for its Showa-era atmosphere and festive red lanterns, Harmonica Yokocho is a hidden alleyway of small izakaya restaurants, shops, and bars in the Kichijoji neighborhood of Tokyo.
+  width: 5712
+  height: 4284
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: harmonica-lane
+  title: File:Harmonica Yokocho in Kichijoji (53417122805).jpg
+  author: Stephen Kelly from San Francisco, CA, USA
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Harmonica_Yokocho_in_Kichijoji_(53417122805).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/23/Harmonica_Yokocho_in_Kichijoji_%2853417122805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Known for its Showa-era atmosphere and festive red lanterns, Harmonica Yokocho is a hidden alleyway of small izakaya restaurants, shops, and bars in the Kichijoji neighborhood of Tokyo.
+  width: 3567
+  height: 4756
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: inokashira-swan-boat
+  title: File:Swan Boat (10507765895).jpg
+  author: Yoshikazu TAKADA from Tokyo, Japan
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Swan_Boat_(10507765895).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/38/Swan_Boat_%2810507765895%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: at Inokashira Park, Musashino-shi, Tokyo
+  width: 4000
+  height: 6000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

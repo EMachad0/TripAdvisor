@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: cableway-cabin
+  title: File:重庆长江索道 - Chongqing Yangtze River Cableway - 2015.04 - panoramio.jpg
+  author: rheins
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E9%95%BF%E6%B1%9F%E7%B4%A2%E9%81%93_-_Chongqing_Yangtze_River_Cableway_-_2015.04_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7d/%E9%87%8D%E5%BA%86%E9%95%BF%E6%B1%9F%E7%B4%A2%E9%81%93_-_Chongqing_Yangtze_River_Cableway_-_2015.04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 重庆长江索道 - Chongqing Yangtze River Cableway - 2015.04
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: south-station
+  title: File:重庆市长江索道位于南岸区龙门浩的索道站.JPG
+  author: Limingqimonkey
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E5%B8%82%E9%95%BF%E6%B1%9F%E7%B4%A2%E9%81%93%E4%BD%8D%E4%BA%8E%E5%8D%97%E5%B2%B8%E5%8C%BA%E9%BE%99%E9%97%A8%E6%B5%A9%E7%9A%84%E7%B4%A2%E9%81%93%E7%AB%99.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/47/%E9%87%8D%E5%BA%86%E5%B8%82%E9%95%BF%E6%B1%9F%E7%B4%A2%E9%81%93%E4%BD%8D%E4%BA%8E%E5%8D%97%E5%B2%B8%E5%8C%BA%E9%BE%99%E9%97%A8%E6%B5%A9%E7%9A%84%E7%B4%A2%E9%81%93%E7%AB%99.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​长江索道南端
+  width: 4608
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: cabins-over-river
+  title: File:重庆 长江上的渡江索道1 - panoramio.jpg
+  author: Nyx Ning
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86_%E9%95%BF%E6%B1%9F%E4%B8%8A%E7%9A%84%E6%B8%A1%E6%B1%9F%E7%B4%A2%E9%81%931_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6b/%E9%87%8D%E5%BA%86_%E9%95%BF%E6%B1%9F%E4%B8%8A%E7%9A%84%E6%B8%A1%E6%B1%9F%E7%B4%A2%E9%81%931_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 重庆 长江上的渡江索道1
+  width: 4352
+  height: 2448
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

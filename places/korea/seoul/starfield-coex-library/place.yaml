@@ -1,0 +1,146 @@
+id: starfield-coex-library
+name: "Starfield COEX Mall & Starfield Library"
+short_name: Starfield Library
+name_local: 스타필드 코엑스몰 · 별마당 도서관
+name_romanized: Byeolmadang Doseogwan
+country: korea
+city: seoul
+area: Samseong-dong · Gangnam-gu
+category: shopping
+fame: popular
+tags: [mall, library, architecture, free, underground, rainy-day]
+kind: Shop
+why: "A free library with 13 m walls of books, about 70,000 of them, set in the middle of a huge underground mall. A warm weekday afternoon, with Bongeunsa next door."
+cost:
+  local: 3100
+  currency: KRW
+  brl: 13.13
+  note: "The mall and the library are free. This is two subway rides (₩1,550 each)"
+fx: { rate: 0.004236, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–3 h
+best_time: "Weekday, before noon or after 19:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mall and library daily 10:30–22:00; shops and restaurants keep their own hours"
+  winter: "No seasonal changes or New Year closures listed on the official site. The mall is underground and indoors, so January cold doesn't matter here."
+
+location:
+  address: 513 Yeongdong-daero, Gangnam-gu, Seoul (Starfield Library is in the middle of the mall)
+  address_local: 서울특별시 강남구 영동대로 513 스타필드 코엑스몰 별마당 도서관
+  lat: 37.5101
+  lng: 127.0601
+  nearest_transit: "Samseong (Line 2) Exit 5 or 6, or Bongeunsa (Line 9) Exit 7: both connect inside"
+
+sources:
+  - url: https://www.starfield.co.kr/coexmall/starfieldLibrary/library.do
+    title: "Starfield Library (official, Korean): 10:30–22:00, free, 2,800 m² on two levels, 13 m shelves, about 70,000 books and 600 magazines"
+    checked: 2026-11-13
+  - url: https://www.starfield.co.kr/coexmall/main.do
+    title: "Starfield COEX Mall (official, Korean): hours 10:30–22:00, address"
+    checked: 2026-11-13
+  - url: https://www.starfield.co.kr/coexmall/about/directions.do?type=metro
+    title: "Starfield COEX Mall directions by subway (official, Korean): Samseong Exits 5/6, Bongeunsa Exit 7"
+    checked: 2026-11-13
+  - url: https://mileasia.com/korea/starfield-coex/
+    title: "Starfield COEX Mall and Library Seoul 2026: Complete Guide (MileAsia, 13 Jun 2026)"
+    checked: 2026-11-13
+  - url: https://www.nomadotravel.app/en/attractions/coex-mall
+    title: "COEX Mall & Starfield Library: Seoul's Underground City Beneath Gangnam (Nomado Travel)"
+    checked: 2026-11-13
+  - url: https://www.koreajoongangdaily.com/korea/seoul-subway-prices-rising-to-1550-won-on-june-28/11965075
+    title: "Seoul subway prices rising to 1,550 won on June 28 (Korea JoongAng Daily, 2025)"
+    checked: 2026-11-13
+  - url: https://www.visitsealife.com/coex-seoul/
+    title: "SEA LIFE COEX Aquarium (official, Korean): regular admission ₩35,000, online discounts"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-13
+confidence: high
+confidence_note: "Hours, fee, size, shelf height and book count are from Starfield's own pages (checked 2026-11-13). Guides say about 50,000 books; the page uses the official 70,000. The 2017 opening year, the mall's size and the crowd advice come from the two guides, not the official site. No January notice found. The Millennium Plaza / ASEM Plaza routing is quoted from the official subway directions page."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: library-hall
+    caption: Starfield Library's two-storey shelves under the glass roof
+    hook: Two storeys of bookshelves rising out of a shopping mall, and nobody asks you to buy anything.
+  - type: quick_facts
+    time_needed: 1.5–3 h
+    best_time: Weekday before noon, or after 19:00
+    extra:
+      - label: Fits a work day
+        value: "Yes"
+        detail: Indoors, open from 10:30; home well before a 21:00 shift
+      - label: Good in the cold
+        value: Fully indoors
+        detail: Underground passages from two subway lines
+  - type: highlights
+    items:
+      - title: The library
+        text: "**Starfield Library** fills about 2,800 m² over two levels, with **13 m** bookshelves holding around 70,000 books and 600 magazine titles. It is free and open to anyone."
+      - title: An underground city
+        text: "COEX Mall opened in 2000 and covers about **85,000 m²** under Gangnam, so you can spend an afternoon here without going outside."
+      - title: Talks and small shows
+        text: "The library runs a programme of author talks, poetry readings and book concerts. Check the schedule on the Starfield site before you pick a day."
+      - title: A temple across the road
+        text: "Bongeunsa, a Buddhist temple, is about a 5-minute walk from the mall's main street exit: a quiet stop on the same afternoon."
+  - type: prose
+    title: Why it's worth an afternoon
+    dropcap: true
+    text: |-
+      Shopping is the smallest reason to come here. Starfield Library opened in 2017 in the middle of the mall, a two-level reading room with walls of books that rise the full height of both levels. Most titles are in Korean, but you can sit, read the magazines or just look up, and nobody checks a ticket.
+
+      Use it as your landmark: most corridors of the mall lead back to the library. Around it are a food hall, cafés and floors of restaurants, plus the SEA LIFE COEX Aquarium if you want a paid add-on.
+  - type: gallery
+    images:
+      - file: escalator-shelves
+        caption: The escalator runs between the two shelf towers
+      - file: glass-roof
+        caption: Looking up at the lattice roof
+      - file: reading-desk
+        caption: Reading desks on the upper level
+  - type: quote
+    variant: vibe
+    text: Escalator hum, a wall of spines and people whispering in a mall.
+  - type: cost_breakdown
+    items:
+      - label: Mall and Starfield Library
+        local: 0
+        brl: 0
+      - label: Subway there and back
+        local: 3100
+        brl: 13.13
+        note: "₩1,550 each way with a transport card"
+      - label: SEA LIFE COEX Aquarium, adult
+        local: 35000
+        brl: 148.26
+        optional: true
+        note: Regular price on SEA LIFE's site; online tickets are discounted
+  - type: map
+    zoom: 16
+    note: "From **Samseong** (Line 2), take Exit 5 or 6 and follow the passage through Millennium Plaza. From **Bongeunsa** (Line 9), Exit 7 leads through ASEM Plaza. The library is in the centre of the mall."
+  - type: tips
+    variant: insider
+    items:
+      - "The best view of the full shelves is from the **upper reading level**. Go on a weekday before noon for fewer people in your photos."
+      - "Evenings after 19:00 are quieter too: you can come here on a work day and still be back before your shift."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Weekend afternoons and the 12:00–14:00 lunch rush are the busiest times."
+      - "Most books are in **Korean**; come for the space, not for something to read in English."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing, usually dry
+    note: "Seoul's January averages are 2.1 °C by day and −5.5 °C at night, but both subway lines connect straight into the mall, so you're barely outside."
+    wear: Normal winter clothes; you'll take the jacket off inside
+  - type: pairs_well
+    items:
+      - id: bongeunsa-temple
+        note: About 5 min walk across Yeongdong-daero; free, open until 22:00

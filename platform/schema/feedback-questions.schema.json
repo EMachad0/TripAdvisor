@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Feedback questions event",
+  "type": "object",
+  "properties": {
+    "v": {
+      "enum": [
+        1
+      ]
+    },
+    "ts": {
+      "type": "string",
+      "description": "ISO 8601 timestamp",
+      "examples": [
+        "2026-11-20T14:03:00Z"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}"
+    },
+    "session": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "id": {
+      "type": "string",
+      "description": "Place id the question was about",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "question": {
+      "type": "string",
+      "maxLength": 2000
+    },
+    "answer_summary": {
+      "type": "string",
+      "maxLength": 2000
+    }
+  },
+  "required": [
+    "v",
+    "ts",
+    "id",
+    "question"
+  ],
+  "patternProperties": {
+    "^x_": {}
+  },
+  "additionalProperties": false
+}

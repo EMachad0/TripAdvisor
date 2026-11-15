@@ -1,0 +1,34 @@
+# Independent review of uogashi-nihonichi-shibuya. Written by `./atr review`; do not edit by hand.
+id: uogashi-nihonichi-shibuya
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 39fc97efb5707fb9addd5704673a4fdc7cf49865cc17b1faa6035481be086d83
+facts:
+  supported: 14
+  unsupported: 4
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[2].items[0].text
+    problem: The only source for 'Tokyo Cheapo says the money goes into the fish instead' is Tokyo Cheapo, and that page returned HTTP 403, so the quote could not be checked.
+    evidence: https://tokyocheapo.com/restaurant/uogashi-nihonichi-standing-sushi-bar-shibuya-dogenzaka-branch/ (HTTP 403 Forbidden)
+    fix: Remove the Tokyo Cheapo attribution and keep the plain point that a standing bar has no seats to pay for, or quote the article once it opens.
+  - severity: nit
+    field: blocks[8]
+    problem: None of the listed sources gives the 1 °C / 10 °C and 'dry, sunny' figures. They are plausible for Tokyo in January, but no source backs them.
+    evidence: No climate source in sources[]
+    fix: Add a JMA or other climate-normals source for Tokyo in January.
+  - severity: nit
+    field: blocks[7].items[1]
+    problem: No listed source mentions the Uobei conveyor-belt shop 'nearby on Dōgenzaka'.
+    evidence: Not on any of the 4 listed sources
+    fix: Cite the Uobei Shibuya Dōgenzaka listing or remove the tip.
+  - severity: nit
+    field: media
+    problem: The hero has no photo and the media folder is empty. A hidden-gem standing bar would sell itself better with one real photo of the counter or the sign.
+    evidence: places/japan/tokyo/uogashi-nihonichi-shibuya/media/ is empty; the phone and desktop heroes show only the kanji texture
+    fix: Add a photo of the shopfront or counter, with an honest caption.
+summary: "Tabelog supports the hours, address, 15 standing places, no reservations, the JCB/AMEX/Diners/e-money/QR payments, the ¥1,000–1,999 budget and the 2017 price tiers (¥81–¥324 a piece including tax, ordered in pairs). 2025–26 Tabelog reviews support the ¥1,200 set and the ¥75 squid-mayo, and the page honestly says the menu prices are old. Only nits remain: the Tokyo Cheapo source would not open (403), and the weather numbers and the Uobei tip have no source."
+model: claude-opus-5-5
+cost_usd: 0.659

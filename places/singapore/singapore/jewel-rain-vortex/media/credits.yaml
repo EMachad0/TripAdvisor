@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: rain-vortex-day
+  title: File:At Jewel Changi, Singapore 2023 36.jpg
+  author: Mike Peel ( www.mikepeel.net )
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:At_Jewel_Changi,_Singapore_2023_36.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f7/At_Jewel_Changi%2C_Singapore_2023_36.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: World's tallest indoor waterfall, the Rain Vortex, inside Jewel Changi Airport in Singapore .
+  width: 6960
+  height: 4640
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: vortex-skytrain
+  title: File:At Jewel Changi, Singapore 2023 44.jpg
+  author: Mike Peel ( www.mikepeel.net )
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:At_Jewel_Changi,_Singapore_2023_44.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/18/At_Jewel_Changi%2C_Singapore_2023_44.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Rain Vortex with Skytrain at Jewel Changi, Singapore
+  width: 6960
+  height: 4640
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: vortex-night
+  title: File:Rain Vortex Night Jewel Changi Feb23 R16 06856.jpg
+  author: Timothy A. Gonsalves
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Rain_Vortex_Night_Jewel_Changi_Feb23_R16_06856.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2d/Rain_Vortex_Night_Jewel_Changi_Feb23_R16_06856.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Rain vortex at night, Jewel Changi Airport, Singapore
+  width: 3346
+  height: 5019
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Feedback swipes event",
+  "type": "object",
+  "properties": {
+    "v": {
+      "enum": [
+        1
+      ]
+    },
+    "ts": {
+      "type": "string",
+      "description": "ISO 8601 timestamp",
+      "examples": [
+        "2026-11-20T14:03:00Z"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}"
+    },
+    "session": {
+      "type": "string",
+      "examples": [
+        "s-2026-11-20-a"
+      ],
+      "maxLength": 80
+    },
+    "round": {
+      "enum": [
+        "area",
+        "place"
+      ]
+    },
+    "id": {
+      "type": "string",
+      "description": "Place or area id",
+      "examples": [
+        "yu-garden"
+      ],
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "verdict": {
+      "enum": [
+        "must",
+        "maybe",
+        "skip"
+      ]
+    },
+    "country": {
+      "enum": [
+        "china",
+        "korea",
+        "japan",
+        "hong-kong",
+        "thailand",
+        "singapore"
+      ]
+    },
+    "ms": {
+      "type": "integer",
+      "description": "Time spent on the card",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "v",
+    "ts",
+    "session",
+    "round",
+    "id",
+    "verdict"
+  ],
+  "patternProperties": {
+    "^x_": {}
+  },
+  "additionalProperties": false
+}

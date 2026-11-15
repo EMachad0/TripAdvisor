@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: bikes
+  title: File:ปั่นจักรยานบางกะเจ้า สมุทรปราการ.jpg
+  author: Naludon77
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2_%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7a/%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2_%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ปั่นจักรยานบางกะเจ้า อำเภอพระประแดง จังหวัดสมุทรปราการ
+  width: 5184
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: bang-nam-phueng
+  title: File:Bang Nam Phueng, Phra Pradaeng District, Samut Prakan, Thailand - panoramio.jpg
+  author: mohigan
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Bang_Nam_Phueng,_Phra_Pradaeng_District,_Samut_Prakan,_Thailand_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Bang_Nam_Phueng%2C_Phra_Pradaeng_District%2C_Samut_Prakan%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Bang Nam Phueng, Phra Pradaeng District, Samut Prakan, Thailand
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

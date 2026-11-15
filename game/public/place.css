@@ -1,0 +1,51 @@
+/* Game additions to a place page: Ask box + embed tweaks. Uses atr.css tokens. */
+html[data-embed="1"] .topbar { display: none; }
+html[data-embed="1"] .site-foot { padding-bottom: 96px; }
+
+.g-ask { scroll-margin-top: 24px; }
+.g-ask .col { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: clamp(22px, 4vw, 40px); position: relative; overflow: hidden; }
+.g-ask .col::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; background: linear-gradient(90deg, var(--accent), color-mix(in oklab, var(--accent) 40%, #ffd66b)); }
+.g-ask .h2 { margin-bottom: 10px; }
+.g-ask__sub { color: var(--ink-3); margin: 0 0 20px; font-size: 15.5px; }
+.g-ask__form { display: flex; gap: 10px; align-items: flex-end; background: var(--surface-2); border: 1.5px solid var(--line); border-radius: 18px; padding: 8px 8px 8px 16px; transition: border-color .2s, box-shadow .2s; }
+.g-ask__form:focus-within { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.g-ask__form textarea { flex: 1; border: 0; background: transparent; color: var(--ink); font: 400 16.5px/1.5 var(--sans); resize: none; padding: 8px 0; min-height: 44px; outline: none; }
+.g-ask__form textarea::placeholder { color: var(--ink-3); }
+.g-ask__go { display: inline-flex; align-items: center; gap: 8px; border: 0; border-radius: 13px; background: var(--accent); color: #fff; font: 600 15px/1 var(--sans); padding: 13px 18px; cursor: pointer; transition: transform .15s, filter .15s; }
+:root[data-theme="dark"] .g-ask__go { color: #15110c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .g-ask__go { color: #15110c; } }
+.g-ask__go:hover { filter: brightness(1.08); }
+.g-ask__go:active { transform: scale(.96); }
+.g-ask__form.is-busy .g-ask__go { opacity: .6; pointer-events: none; }
+.g-ask__chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; }
+.g-ask__chips .chip { cursor: pointer; text-transform: none; letter-spacing: 0; font-size: 13.5px; font-weight: 500; background: var(--surface); transition: border-color .15s, color .15s; }
+.g-ask__chips .chip:hover { border-color: var(--accent); color: var(--accent); }
+.g-ask__out:not(:empty) { margin-top: 22px; display: grid; gap: 14px; }
+.g-answer { border-radius: 16px; border: 1px solid var(--line); background: var(--bg); padding: 18px 20px; animation: g-pop .35s cubic-bezier(.2,.9,.3,1.2); }
+.g-answer.is-error { border-color: color-mix(in oklab, #c0392b 40%, var(--line)); }
+.g-answer__q { margin: 0 0 10px; font: 600 1.05rem/1.35 var(--serif); color: var(--ink); }
+.g-answer__q::before { content: "Q · "; color: var(--accent); }
+.g-answer__status { display: flex; align-items: center; gap: 10px; color: var(--ink-3); font-size: 14px; margin: 0; }
+.g-answer__status::after { content: attr(data-t); margin-left: auto; font-variant-numeric: tabular-nums; opacity: .7; }
+.g-answer__body { white-space: pre-wrap; color: var(--ink-2); font-size: 15.5px; }
+.g-answer__body:has(.rich) { white-space: normal; }
+.g-answer__body .rich p { margin: 0 0 .8em; }
+.g-answer.is-live .g-answer__body:not(:empty) { margin-top: 10px; }
+.g-answer__tldr { margin: 12px 0 0; padding: 10px 14px; border-radius: 12px; background: var(--accent-soft); color: var(--ink); font-size: 15px; }
+.g-answer__tldr b { color: var(--accent); margin-right: 6px; font-size: 12px; letter-spacing: .1em; }
+.g-answer__warn { margin: 8px 0 0; color: var(--warn); font-size: 14.5px; }
+.g-dots { display: inline-flex; gap: 4px; }
+.g-dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); animation: g-dot 1s infinite ease-in-out; }
+.g-dots i:nth-child(2) { animation-delay: .15s; } .g-dots i:nth-child(3) { animation-delay: .3s; }
+@keyframes g-dot { 0%, 80%, 100% { transform: scale(.5); opacity: .4; } 40% { transform: scale(1); opacity: 1; } }
+@keyframes g-pop { from { opacity: 0; transform: translateY(8px) scale(.98); } }
+.g-ask__past { margin-top: 26px; border-top: 1px solid var(--line); padding-top: 18px; }
+.g-ask__past h3 { font: 700 12px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 12px; }
+.g-ask__past ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.g-ask__past li { display: grid; gap: 2px; font-size: 14.5px; }
+.g-ask__past li b { font-weight: 600; }
+.g-ask__past li span { color: var(--ink-3); }
+.g-ask__fab { position: fixed; right: 20px; bottom: 20px; z-index: 20; display: inline-flex; align-items: center; gap: 8px; padding: 14px 20px; border-radius: 999px; background: var(--ink); color: var(--bg); font: 600 15px/1 var(--sans); text-decoration: none; box-shadow: var(--shadow-lg); transition: transform .25s, opacity .25s; }
+.g-ask__fab::before { content: "✦"; color: #ffd66b; }
+.g-ask__fab.is-hidden { opacity: 0; transform: translateY(20px); pointer-events: none; }
+@media print { .g-ask, .g-ask__fab { display: none; } }

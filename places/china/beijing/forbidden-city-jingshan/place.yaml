@@ -1,0 +1,140 @@
+id: forbidden-city-jingshan
+name: "Forbidden City and Jingshan Park"
+short_name: Forbidden City
+name_local: 故宫博物院 · 景山公园
+name_romanized: Gùgōng Bówùyuàn · Jǐngshān Gōngyuán
+country: china
+city: beijing
+area: Dongcheng · Central Axis
+category: culture
+fame: iconic
+tags: [palace, ming-dynasty, unesco, viewpoint, real-name-booking]
+kind: See
+why: "¥40 winter ticket to the emperors' palace, south gate to north gate, then ¥2 and five minutes up Jingshan for the view over its yellow roofs."
+
+cost:
+  local: 42
+  currency: CNY
+  brl: 34.72
+  note: "Palace ¥40 Nov–Mar (¥60 Apr–Oct) + Jingshan ¥2. Treasure and Clock galleries ¥10 each extra"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "4–5 h with Jingshan"
+best_time: "Morning session from 08:30; Jingshan after, before dusk"
+
+book_ahead:
+  required: true
+  lead_days: 7
+  lead_time: "Opens 7 days ahead; dates sell out, so book the day they open"
+  method: passport-registered
+  links:
+    - label: Official booking (English)
+      url: "https://bookingticket.dpm.org.cn/"
+      note: "Foreign visitors book with their passport number; no tickets are sold on the day"
+    - label: Official visitor info
+      url: "https://intl.dpm.org.cn/visit.html?l=en"
+      note: "Prices, hours, the 40,000-a-day cap"
+  passport: true
+  notes: "Jingshan Park needs no advance booking: buy at the gate, or online up to 7 days ahead on the \"Visiting Beijing Parks\" WeChat account, and show your passport."
+
+hours:
+  summary: "Palace: Tue–Sun 08:30–16:30, last entry 15:30 (Nov–Mar). Jingshan: daily 06:30–20:00, last entry 19:30"
+  closed: "Palace closed Mondays, except public-holiday Mondays"
+  winter: "Winter hours run all of Nov–Mar at the ¥40 low-season price. Morning-session tickets must be checked by 12:00; afternoon checks start at 11:00. No Christmas closure is listed; the museum says it may close on irregular days. Jingshan keeps its low-season hours (06:30–20:00) Nov 1 – Mar 31."
+
+location:
+  address: "4 Jingshan Front Street, Dongcheng District, Beijing (enter at the Meridian Gate, south side)"
+  address_local: 北京市东城区景山前街4号 故宫博物院
+  lat: 39.91743
+  lng: 116.39078
+  nearest_transit: "Tiananmen East (Line 1), Exit A, for the Meridian Gate"
+
+sources:
+  - url: https://intl.dpm.org.cn/visit.html?l=en
+    title: "Visit — The Palace Museum (official: ¥40/¥60, galleries ¥10, hours, Monday closure, 40,000 cap, no same-day sales)"
+    checked: 2026-11-10
+  - url: https://bookingticket.dpm.org.cn/
+    title: "The Palace Museum ticket booking (official; opened with ./atr render: Nov 12–17 all sold out on Nov 10, session times)"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/forbidden-city-beijing/
+    title: "Forbidden City Beijing guide — China for Travelers (updated 2026-09-04: 7 days ahead at 20:00, gates, metro, Jingshan ¥2)"
+    checked: 2026-11-10
+  - url: https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753324.html
+    title: "Jingshan Park — Beijing government ticketing (¥2, low-season 06:30–20:00, WeChat booking 7 days ahead; 2024-07-19)"
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/en/destinations/beijing/jingshan-park/
+    title: "Jingshan Park 2026 — Wander in China (2026-03-16: no reservation needed, west/east gates, 5 min to the top)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Beijing — Wikipedia (climate normals 1991–2020)"
+    checked: 2026-11-10
+confidence: high
+confidence_note: "Prices, hours, closure, passport rule and the 7-day window are official (the booking calendar showed exactly 7 days on Nov 10, all sold out). The 20:00 release time is from one guide; another says 08:00. Whether the booking site accepts a foreign phone number is not stated. Jingshan hours: 2024 official page (times out in atr links, opens in atr render) plus a 2026 guide."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: snow-from-jingshan
+    hook: "Through the palace from south to north, then up the hill behind it to see every yellow roof at once."
+    caption: "The Forbidden City after snow, seen from Jingshan, January 2020"
+  - type: quick_facts
+    time_needed: "4–5 h with Jingshan"
+    best_time: "Morning session, then Jingshan"
+    extra:
+      - { label: Closed, value: Mondays, detail: "Except public-holiday Mondays" }
+      - { label: Way through, value: South → north, detail: "In at the Meridian Gate (Wumen), out at Shenwumen" }
+  - type: highlights
+    items:
+      - title: R$33 for an imperial palace
+        text: "Low-season entry (Nov 1 – Mar 31) is **¥40**, a third less than in summer. The Treasure Gallery and the Gallery of Clocks are ¥10 each on top."
+      - title: The view from Jingshan
+        text: "Leave by the north gate and cross the street to **Jingshan**: ¥2, and about 5 minutes up from the west gate to a hilltop pavilion looking straight down the palace axis."
+      - title: Snow, if you're lucky
+        text: "Beijing gets snow on about **2–3 days** in an average December. Red walls and white roofs are the photo everyone wants; dry blue-sky days are far more common."
+      - title: Capped and calm-ish
+        text: "Visitor numbers are capped at **40,000 a day**, and every ticket is booked online in advance. On Nov 10 every date open for booking was already sold out."
+  - type: gallery
+    images:
+      - { file: supreme-harmony-snow, caption: "The Hall of Supreme Harmony in snow, March 2022" }
+      - { file: corner-tower, caption: "The north-west corner tower and the moat, with the last snow" }
+      - { file: jingshan-sunset, caption: "The palace from the top of Jingshan (Coal Hill)" }
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "Tickets for your date open on the official booking site, at **20:00 Beijing time** according to one guide. Be online when yours opens."
+      - days_before: 7
+        text: "Enter your **passport number**, pick the morning session and add a gallery if you want it."
+      - days_before: 0
+        text: "Morning session: get in by 12:00. Enter at the **Meridian Gate** (Line 1, Tiananmen East, Exit A). Pay ¥2 at the Jingshan gate on the way out."
+    passport_note: "The ticket is your **passport**: bring the same one you booked with."
+  - type: cost_breakdown
+    items:
+      - { label: "Palace Museum, low season", local: 40, brl: 33.07 }
+      - { label: Jingshan Park, local: 2, brl: 1.65 }
+      - { label: Treasure Gallery, local: 10, brl: 8.27, optional: true }
+      - { label: Gallery of Clocks, local: 10, brl: 8.27, optional: true }
+  - type: map
+    note: "In from the south (Tiananmen East, Line 1), out at the north gate (Shenwumen). Jingshan's gates are on the west and east sides; the south gate is often closed. Shichahai (Line 8) is the nearest station after."
+  - type: tips
+    variant: insider
+    items:
+      - "Plan your Beijing days around **Monday**: the palace is shut, so make Monday the Great Wall or a food day."
+      - "Book the palace before anything else in Beijing: it's the one thing with a hard 7-day window and sell-outs."
+      - "Climb Jingshan from the **west gate**: about 5 minutes to the top, against 10–15 from the east."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "There are **no same-day tickets** at the palace. Without a booking you are left with Jingshan's view from outside."
+      - "Last entry is **15:30** in winter, and the museum can close on irregular days. Check the notices on the official site."
+      - "Jingshan's price goes up to ¥10 during exhibition periods."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: "Dry, sunny and freezing; about 59% of possible sunshine in December"
+    note: "Most of the palace is open courtyards and long walks between halls, so you're outdoors for hours. Jingshan adds an open, windy hilltop."
+    wear: "Down jacket, hat, gloves, warm shoes for the stone paving"
+  - type: pairs_well
+    items:
+      - { id: mutianyu-great-wall, note: "The other Beijing classic; do the wall on the palace's Monday off" }
+      - { id: niujie-muslim-food-street, note: "Cheap halal lunch or dinner in Xicheng after the palace" }
+      - { id: beijing-xingshe-youth-hostel, note: "About 4 km north-west in Xicheng" }

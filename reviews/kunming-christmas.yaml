@@ -1,0 +1,16 @@
+# Independent review of kunming-christmas. Written by `./atr review`; do not edit by hand.
+id: kunming-christmas
+type: place
+reviewed: 2026-11-10
+verdict: pass
+content_hash: c4a3fd86463269aacb6def4ae4a22650b57225b345c00022dd24939bd264b9bc
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 489c792242d67cd34c4f4887ae8ac7f91e9bc72e2ea513cc4d9d4ba0527d4b50
+summary: "The earlier review had no findings. All four changes are supported: 'one of the two driest months' matches Wikipedia's CMA 1991–2020 table (Feb 11.9 mm, Dec 13.7 mm); 'unlicensed street vendors' matches GoKunming 2014 ('all unlicensed curbside peddlers'); the drone-show hedge matches the Chongqing page (confirmed: false). Removing the snow line adds no claim. The page validates and both renders are clean. No new blockers."
+model: claude-opus-5-5
+cost_usd: 0.623

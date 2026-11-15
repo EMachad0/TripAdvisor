@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: muslim-quarter-night
+  title: File:1 xian muslim quarter china 2011.JPG
+  author: chensiyuan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:1_xian_muslim_quarter_china_2011.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/09/1_xian_muslim_quarter_china_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: xi'an china shanxi muslim quarter night 2011
+  width: 4243
+  height: 2822
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: sajinqiao-lane
+  title: File:莲湖 洒金桥.jpg
+  author: Liuxingy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E8%8E%B2%E6%B9%96_%E6%B4%92%E9%87%91%E6%A1%A5.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e1/%E8%8E%B2%E6%B9%96_%E6%B4%92%E9%87%91%E6%A1%A5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​西安市莲湖区洒金桥，老西安的感觉
+  width: 3008
+  height: 4016
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: paomo
+  title: File:Yangrou Paomo.JPG
+  author: Danielinblue
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yangrou_Paomo.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/80/Yangrou_Paomo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Xi'an cuisine, Yangrou Paomo
+  width: 2688
+  height: 1792
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: roujiamo
+  title: File:Laotongguan thousand layer roujiamo.jpg
+  author: Fumikas Sagisavas
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Laotongguan_thousand_layer_roujiamo.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/55/Laotongguan_thousand_layer_roujiamo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Laotongguan thousand layer roujiamo
+  width: 3000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

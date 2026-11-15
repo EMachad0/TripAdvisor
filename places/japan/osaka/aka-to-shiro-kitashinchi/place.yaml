@@ -1,0 +1,133 @@
+id: aka-to-shiro-kitashinchi
+name: "Aka to Shiro"
+short_name: Aka to Shiro
+name_local: あかとしろ
+name_romanized: Aka to Shiro
+country: japan
+city: osaka
+area: Kita · Kitashinchi
+category: food
+fame: hidden
+tags: [sushi, omakase, counter, splurge, bib-gourmand]
+kind: Eat
+why: "A Michelin Bib Gourmand sushi counter in Kitashinchi: ¥11,000 dinner omakase of ten nigiri and four dishes, bookable for one on TableCheck in English."
+cost:
+  local: 11000
+  currency: JPY
+  brl: 389.40
+  note: "Dinner course incl. tax (TableCheck); drinks extra. The ¥15,400 course adds a special fish dish"
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+time_needed: 2 h (the seating limit)
+best_time: Weeknight dinner
+book_ahead:
+  required: recommended
+  lead_days: 2
+  lead_time: "The ¥11,000 course needs 2+ days' notice; book once Osaka nights are fixed"
+  method: platform
+  links:
+    - label: TableCheck (English)
+      url: https://www.tablecheck.com/en/shops/sushi-akatoshiro/reserve
+      note: "Party size from 1. Pick the ¥11,000 or ¥15,400 course"
+  notes: "TableCheck: the meal is capped at 2 hours, and if they can't reach you 15 min after your booked time the booking may be cancelled. Call 06-6442-1277 if late. No cancellation fee is listed on the booking page."
+
+hours:
+  summary: "Dinner only, 17:00–22:00"
+  closed: "Sundays and public holidays (some weeks Mon or Sat instead)"
+  winter: "No winter or New Year notice on the official site (Nov 2026). Closed Sundays and public holidays, so check your date against the TableCheck calendar."
+
+location:
+  address: 3F, 1-1-41 Sonezaki-shinchi, Kita-ku, Osaka
+  address_local: 大阪府大阪市北区曽根崎新地1-1-41 谷安ゴッズインビル 3F
+  lat: 34.69675
+  lng: 135.50044
+  nearest_transit: Ōebashi a few min; JR Kitashinchi 5 min
+  approximate: true
+
+sources:
+  - url: https://sushi-akatoshiro.com/
+    title: Aka to Shiro — official site (two-rice concept, address, hours, closed days, 16 seats, cards, smart-casual dress code)
+    checked: 2026-11-13
+  - url: https://www.tablecheck.com/en/shops/sushi-akatoshiro/reserve
+    title: Aka to Shiro — TableCheck (courses ¥11,000 / ¥15,400 / ¥22,000 incl. tax, party 1–8, 2-day minimum, 2-hour seating)
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/osaka-region/osaka/restaurant/aka-to-shiro
+    title: MICHELIN Guide — AKA to SHIRO (¥¥, "Good for solo dining, groups", two vinegared rices)
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/jp/osaka-region/osaka/restaurants/bib-gourmand/sushi
+    title: MICHELIN Guide — Osaka Bib Gourmand sushi list (current Kyoto-Osaka 2026 selection; AKA to SHIRO listed, ¥¥)
+    checked: 2026-11-13
+  - url: https://tabelog.com/en/osaka/A2701/A270101/27110894/
+    title: Aka to Shiro — Tabelog (3.43 from 121 reviews, closed Sun and holidays, cards accepted)
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-ceremony-tokyo-kyoto-osaka-nara-2027-selection-save-the-date
+    title: MICHELIN Guide — 2027 Kyoto-Osaka selection to be revealed Feb 16, 2027
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: Osaka — Wikipedia (climate table, January normals)
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Courses and prices from TableCheck's live page; hours, seats and dress code from the official site (Nov 2026). Tabelog names the building 田中ビル, the official site 谷安ゴッズインビル; same street number. No service charge or drink prices are published. Bib status is from Michelin's Osaka Bib sushi list; the restaurant page hides award text. How far ahead dates open isn't stated."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    hook: "Red rice for the tuna, white rice for the bream. Two cities' sushi traditions on one counter."
+  - type: quick_facts
+    time_needed: 2 h seating
+    best_time: Weeknight dinner
+    extra:
+      - { label: Course, value: "10 nigiri + 4 dishes", detail: "Plus grill, hand roll, red miso soup, egg, fruit (¥11,000)" }
+      - { label: Solo, value: "Yes, counter", detail: TableCheck takes a party of 1 }
+      - { label: Out of place?, value: A little, detail: "Michelin: good for solo dining. The site asks for smart casual" }
+  - type: highlights
+    items:
+      - title: Why go over the R$170 day
+        text: "At **R$389** (≈2.3 days of budget) this is one of four Osaka sushi counters on Michelin's **Bib Gourmand** list in the current **Kyoto-Osaka 2026** guide. A full omakase with appetisers, a grilled dish and ten nigiri, at an 8–10 seat counter."
+      - title: The two rices
+        text: "**Red** vinegar rice, the Edomae style, for tuna and blue fish; **white** rice with rice vinegar and sugar, from Osaka's pressed-sushi tradition, for white fish and shrimp (official site)."
+      - title: Relaxed, with one rule
+        text: "8–10 counter seats and two small semi-private rooms. The site asks for **smart casual**, so pack one neat outfit for this night."
+      - title: What locals say
+        text: "Only **3.43 on Tabelog** from 121 reviews, so locals rate it as good value rather than a destination. Michelin is the stronger signal here."
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "On TableCheck choose **party of 1**, a weeknight, and the **¥11,000 course** (or ¥15,400 for the special fish and premium grill)."
+      - days_before: 2
+        text: "Last chance: the ¥11,000 course must be booked **at least 2 days ahead**."
+      - days_before: 0
+        text: "Arrive on time: the seat is held only **15 minutes** past your booking, and the meal is capped at 2 hours."
+  - type: menu
+    title: The courses (tax included)
+    items:
+      - { name: "¥11,000 course", price_local: 11000, price_brl: 389.40, note: "4 dishes, grill, 10 nigiri, hand roll, red miso soup, egg, fruit", tag: signature }
+      - { name: "¥15,400 course", price_local: 15400, price_brl: 545.16, note: "Adds a special fish dish, premium grill, 11 premium nigiri" }
+      - { name: "¥22,000 plan", price_local: 22000, price_brl: 778.80, note: "Over the R$700 cap: skip" }
+    note: "From TableCheck (Nov 2026). Drinks are extra; the official site highlights its sake list but prices aren't online."
+  - type: cost_breakdown
+    items:
+      - { label: "¥11,000 dinner course", local: 11000, brl: 389.40 }
+    note: "Drinks not included and not priced online."
+  - type: map
+    note: "A few minutes from **Ōebashi** station, 5 min from **JR Kitashinchi**, 12 min from Osaka Station (official site). 3rd floor."
+  - type: tips
+    variant: insider
+    items:
+      - "Go **Monday–Saturday**: it's closed on Sundays and holidays, and in a week with a weekday holiday it may close Monday or Saturday instead. Check the TableCheck calendar."
+      - "If you want one splurge in Osaka rather than Tokyo, the **¥15,400** course is still inside the R$700 cap."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Dinner only**: there is no lunch service."
+      - "Bookings for **5+ people or with children under 12** must be made by phone (doesn't affect you solo)."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool and mostly dry
+    note: "Indoors the whole meal; a short walk from the station."
+    wear: Smart casual, as the restaurant asks
+  - type: pairs_well
+    items:
+      - { id: endo-sushi-osaka-central-market, note: "The cheap market-breakfast version of Osaka sushi" }
+      - { id: tenma-standing-bars, note: "Tenma's standing bars for a drink after" }

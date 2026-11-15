@@ -1,0 +1,176 @@
+id: zhangjiajie-grand-canyon-glass-bridge
+name: "Zhangjiajie Grand Canyon Glass Bridge"
+short_name: Grand Canyon Glass Bridge
+name_local: 张家界大峡谷玻璃桥
+name_romanized: Yuntiandu (云天渡)
+country: china
+city: zhangjiajie
+area: Cili County · Sanguansi
+category: views
+fame: popular
+tags: [cold-outdoors, glass-bridge, canyon-walk, heights, real-name-ticket, timed-entry]
+kind: See
+why: "The glass bridge from the videos: 430 m of glass deck 300 m above a gorge, then a stair walk down past waterfalls to a boat. Not at Tianmen."
+cost:
+  local: 178
+  currency: CNY
+  brl: 147.15
+  note: "Bridge + canyon (B line), as two 2026 guides give it. Official list price ¥216; one guide says ¥128 Nov–Feb"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Half a day (3–4 h on site)
+best_time: First morning slot, on a dry day
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: Real-name timed slots; sales open 30 days ahead
+  method: passport-registered
+  links:
+    - label: Official ticket page
+      url: https://zjjdaxiagu.com/ticket.html
+      note: "Lines and list prices (in Chinese); its booking shop did not load from here"
+    - label: Trip.com (attraction page)
+      url: https://www.trip.com/travel-guide/attraction/cili/zhangjiajie-great-canyon-22544507/
+      note: In English, foreign cards; book the dated B-line ticket with your passport number
+  passport: true
+  notes: "Entry is real-name and timed, capped at 8,000 a day. Off-season weekdays are relaxed, so a day ahead is enough in December. A guide says that since July 2026 a foreign passport scans straight through the gate."
+
+hours:
+  summary: "Entry from 08:00; ticket checks stop at 16:00 (official site). A guide gives the bridge-only line an earlier cutoff, about 14:30"
+  closed: Closes in extreme weather (refund at the original price)
+  winter: "One guide lists shorter hours from 1 Nov to 14 Mar, 09:30–15:30, while the official site shows 08:00–16:00 with no season; check the day before. No December 2026 closure notice found. Wind and thunderstorms can shut the bridge; ice is not mentioned by any source."
+
+location:
+  address: Zhangjiajie Grand Canyon scenic area, Sanguansi Tujia Township, Cili County, Zhangjiajie
+  address_local: 张家界市慈利县三官寺土家族乡 张家界大峡谷景区
+  lat: 29.39905
+  lng: 110.69799
+  nearest_transit: "Coach from Wulingyuan bus station, ¥12–15, 40–50 min"
+
+sources:
+  - url: https://zjjdaxiagu.com/ticket.html
+    title: "Zhangjiajie Grand Canyon official site: ticket lines and list prices (¥91 / ¥216 / ¥125), in Chinese"
+    checked: 2026-11-11
+  - url: https://zjjdaxiagu.com/guide.html
+    title: "Zhangjiajie Grand Canyon official site: visitor guide, entry 08:00–16:00, route lengths (in Chinese)"
+    checked: 2026-11-11
+  - url: https://chinafortravelers.com/guides/zhangjiajie-glass-bridge/
+    title: "Zhangjiajie Glass Bridge 2026 guide — China for Travelers (updated 2026-08-16; lines, ~¥178, coaches, passports)"
+    checked: 2026-11-11
+  - url: https://www.babagoeschina.com/zhangjiajie-glass-bridge/
+    title: "Zhangjiajie Glass Bridge & Grand Canyon guide — Baba Goes China (2026-11-03; ~¥178, 8,000 cap, distances)"
+    checked: 2026-11-11
+  - url: https://www.zhangjiajieguide.com/attractions/grand-canyon/
+    title: "Grand Canyon and Glass Bridge tickets — Zhangjiajie Guide (winter hours, low-season ¥128, city buses)"
+    checked: 2026-11-11
+  - url: https://goasia.cc/en/article/zhangjiajie-glass-bridge
+    title: "Zhangjiajie Glass Bridge: routes, tickets, hours — GoAsia (updated 2026-10-29; size, routes)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Zhangjiajie
+    title: Zhangjiajie — Wikipedia (CMA climate normals 1991–2020)
+    checked: 2026-11-11
+confidence: low
+confidence_note: "Prices disagree: official list ¥216, two 2026 guides ~¥178, one guide ¥128 in Nov–Feb; winter hours disagree too. The official booking shop refused the connection, and Trip.com/Klook pages (Trip.com link found by search) are bot-blocked here, so no December price was seen. City bus line (¥20, every 20 min) is from one guide, running since April 2024."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: glass-deck
+    hook: Walk out on glass 300 metres above a gorge, then climb down into it.
+    caption: The glass deck on a busy autumn day
+    focus: "50% 65%"
+  - type: quick_facts
+    time_needed: Half a day (3–4 h on site)
+    best_time: First morning slot, on a dry day
+    extra:
+      - label: Bridge
+        value: 430 m long, ~300 m up
+        detail: Glass deck, 6 m wide; opened 2016
+      - label: Not at Tianmen
+        value: A separate site
+        detail: Cili County, own ticket; 50 km from the city
+      - label: Cheaper option
+        value: Bridge only ~¥125–140
+        detail: About an hour on site, no canyon walk
+  - type: highlights
+    items:
+      - title: The glass walk
+        text: "A **430 m** suspension bridge with a deck of 99 glass panels, about **300 m** above the canyon floor. Officially called 云天渡, Yuntiandu. Crossing takes 20–30 minutes; free shoe covers are handed out."
+      - title: Down into the canyon
+        text: "The B line carries on from the far end down stairs and walkways past waterfalls and caves, about 3.5 km and 3.5 hours, mostly downhill."
+      - title: A boat to the exit
+        text: "The walk ends at a jetty: a short boat ride across the lake is the only way out, included in the ticket."
+      - title: Extras if you want them
+        text: "A zip line, slides, a cliff via ferrata (about ¥138) and the 260 m bungee from the bridge (about ¥1,998) are all sold separately."
+  - type: prose
+    title: Which glass bridge is this?
+    dropcap: true
+    text: |-
+      Three things get called "the Zhangjiajie glass bridge" online. **This is the big one**: a glass-floored suspension bridge across the Zhangjiajie Grand Canyon in Cili County, opened in 2016 and then billed as the world's highest and longest glass-bottomed bridge. Tianmen Mountain only has short glass sections on its cliff paths, and the National Forest Park has no glass bridge at all.
+
+      It is a half-day trip of its own, closer to Wulingyuan (about 27 km, 35–50 minutes) than to Zhangjiajie city (about 50 km, 60–90 minutes). Pair it with the park side, not with Tianmen.
+
+      **Is it worth about R$147?** It is just under the daily budget. The bridge itself is a short thrill; the canyon walk underneath is the longer, quieter part, so buy the B line if your legs allow. The bridge-only ticket gives you the photo for less.
+  - type: gallery
+    images:
+      - { file: bridge-side, caption: "The bridge between the canyon walls (autumn photo)" }
+  - type: book_ahead
+    steps:
+      - days_before: 2
+        text: "Check the forecast: wind or thunderstorms close the bridge. Pick the **B line** (bridge + canyon) on Trip.com or the official channel."
+      - days_before: 1
+        text: "Book a morning slot with your **passport number**."
+      - days_before: 0
+        text: "Bring the same passport; bags beyond a phone and wallet go in a locker (¥5–10)."
+    passport_note: "Tickets are real-name: bring the **passport** you booked with."
+  - type: cost_breakdown
+    items:
+      - label: B-line ticket, bridge + canyon (2026 guides)
+        local: 178
+        brl: 147.15
+      - label: Coach from Wulingyuan bus station
+        local: 15
+        brl: 12.40
+        optional: true
+        estimate: true
+        note: Guide range ¥12–15
+      - label: Coach from the exit back to the city or Zhangjiajie West
+        local: 22
+        brl: 18.19
+        optional: true
+      - label: Locker for a bag
+        local: 10
+        brl: 8.27
+        optional: true
+        estimate: true
+        note: ¥5–10
+  - type: map
+    zoom: 12
+    note: "The pin is the bridge. Some coaches stop at the entrance and some at the exit car park: ask for the **entrance** (入口)."
+  - type: tips
+    variant: insider
+    items:
+      - "Go from **Wulingyuan**, not the city: a coach runs from Wulingyuan bus station about every 30 minutes."
+      - "From the city, a guide lists a bus from the Central Bus Station via the Tianmen cableway station, ¥20, about 90 minutes, every 20 minutes."
+      - "Coaches from the exit go straight back to the city and to Zhangjiajie West station until about 19:00."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Only a phone and a wallet are allowed on the bridge; leave the rest in a locker."
+      - "Prices vary a lot between sellers and years (¥128–216 for the same line). Check the date on any quote."
+      - "If wind closes the bridge, the guide says tickets are refunded, but there is no compensation beyond that."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 12
+    conditions: Cool, damp, often grey; a gorge in shade
+    note: "No canyon figures were found; these are Zhangjiajie city's December averages (4.9–12.2 °C), with little sun. A guide warns the issued shoe covers can be slippery on the glass, so walk slowly."
+    wear: Warm layer, waterproof jacket, shoes with grip
+  - type: pairs_well
+    items:
+      - id: zhangjiajie-jijiehao-hostel
+        note: Wulingyuan base, about 40 min away
+      - id: zhangjiajie-national-forest-park
+        note: Same side of the region; one day each
+      - id: tianmen-mountain
+        note: The short glass sections on the cliff, different place

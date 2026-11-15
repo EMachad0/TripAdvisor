@@ -1,0 +1,16 @@
+# Independent review of inwangsan-city-wall-hike. Written by `./atr review`; do not edit by hand.
+id: inwangsan-city-wall-hike
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 7ebd880ecafa739379d8468a1792bd3e2cffc22e2df63ccdc8c3a652b14a0f93
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 521f2ad43068c853e3f3f22307a3e76f25012cc58b345ff27d3f45e1093c7dd9
+summary: Re-review of the date changes only; the earlier review left no blockers or shoulds to close. Every changed fact checks out. sunrise-sunset.org gives Seoul sunset as 17:31:54 on 10 Jan and 17:42:07 on 20 Jan 2027, with last light at 18:00:46 and 18:10:27. 11 and 18 Jan 2027 are the only Mondays in the Korea window (10–20 Jan in config/trip.yaml). The 21:00 shift start matches the trip notes. I found no blockers in the text that did not change. The page passes.
+model: claude-opus-5-5
+cost_usd: 0.209

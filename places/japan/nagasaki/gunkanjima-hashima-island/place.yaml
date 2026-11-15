@@ -1,0 +1,161 @@
+id: gunkanjima-hashima-island
+name: "Gunkanjima (Hashima) Landing Cruise"
+short_name: Gunkanjima
+name_local: 軍艦島（端島）上陸クルーズ
+name_romanized: Gunkanjima (Hashima)
+country: japan
+city: nagasaki
+area: "Nagasaki Port · Hashima"
+category: culture
+fame: popular
+must_do: ghost-town
+tags: [ghost-town, abandoned, unesco, boat-trip, wwii-history]
+kind: Do
+why: "Japan's most famous ghost town: a coal-mine island that once held 5,259 people, empty since 1974. Licensed boats land you on it for about 45 minutes."
+cost:
+  local: 5350
+  currency: JPY
+  brl: 188.16
+  note: "Yamasa Kaiun ¥4,700 regular fare + ¥650 city entry fee. Yamasa's early-booking fares go down to ¥3,800 + ¥650"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2.5 h boat, ~3.5 h with check-in"
+best_time: "A calm-sea morning: book your first full day in Nagasaki"
+
+book_ahead:
+  required: true
+  lead_days: 20
+  lead_time: "Reservation only. Book 20+ days out for early fares and free cancellation"
+  method: website
+  links:
+    - label: Yamasa Kaiun booking
+      url: "https://order.gunkan-jima.net/yamasa"
+      note: "Pick the date on the calendar; pay at the port counter on the day. Bring cash"
+  notes: "Yamasa cancellation is free up to 15 days before (online cancelling also ends then; after that by phone only), then 10–50%. The other big operator, Gunkanjima Concierge, does not sail 4 Jan – 5 Feb 2027: its boat is in dock."
+
+hours:
+  summary: "Yamasa: daily sailings 09:00 and 13:00, back ~11:30 / 15:30"
+  closed: "Gunkanjima Concierge: no sailings 4 Jan – 5 Feb 2027 (dry dock)"
+  winter: "Yamasa sails daily all year. Winter seas are the problem: no landing if wind is over 5 m/s or waves over 0.5 m, and Yamasa expects only about 100 days a year to meet that standard. Read roughly off Yamasa's own chart, about two-thirds of January 2025 sailings landed and about half in February 2025; the rest looped the island or did not sail. Concierge is in dock 4 Jan – 5 Feb 2027."
+
+location:
+  address: "Nagasaki Port Terminal Bldg 1F, window 7 (Yamasa Kaiun), 17-3 Motofunamachi, Nagasaki"
+  address_local: 長崎市元船町17-3 長崎港ターミナルビル1F 7番窓口
+  lat: 32.74581
+  lng: 129.86889
+  nearest_transit: "Ohato tram stop, 3 min walk; JR Nagasaki Station, 10 min walk"
+
+sources:
+  - url: https://www.gunkan-jima.net/
+    title: "Yamasa Kaiun (official, JA): fares since Oct 2025, ¥650 fee, sailings, landing rules, refunds, landing-rate chart, FAQ"
+    checked: 2026-11-12
+  - url: https://www.gunkan-jima.net/en/
+    title: "Yamasa Kaiun official (English): free English guide Tue/Thu/Sat/Sun, landing rules (fare table on this page is the older ¥4,500)"
+    checked: 2026-11-12
+  - url: https://order.gunkan-jima.net/yamasa
+    title: "Yamasa Kaiun booking site: calendar booking, online cancellation up to 15 days before"
+    checked: 2026-11-12
+  - url: https://www.gunkan-jima.net/graph-ja/
+    title: "Yamasa Kaiun landing-rate chart (bar chart, no printed figures)"
+    checked: 2026-11-13
+  - url: "https://www.gunkanjima-concierge.com/cgi/web/?c=news-2&pk=706"
+    title: "Gunkanjima Concierge notice: no sailings 4 Jan – 5 Feb 2027 (boat Jupiter in dock); museum closed 19–21 Jan"
+    checked: 2026-11-13
+  - url: https://www.gunkanjima-concierge.com/plan_joriku/notes.html
+    title: "Gunkanjima Concierge notes: 40–50 min on the island (Nagasaki City rule)"
+    checked: 2026-11-12
+  - url: https://shinkansen.tabiris.com/osaka_nagasaki.html
+    title: "Shin-Osaka–Nagasaki by Shinkansen (tabiris): ~4.5 h, ¥19,900 reserved, ¥15,850 Super Hayatoku"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Hashima_Island
+    title: "Hashima Island (Wikipedia): mine 1887–1974, 5,259 residents in 1959, reopened 2009, UNESCO 2015, forced labour and the UNESCO dispute"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Nagasaki
+    title: "Nagasaki (Wikipedia): JMA 1991–2020 climate normals (Jan 4.0–10.7 °C, Feb 4.5–12.0 °C)"
+    checked: 2026-11-12
+  - url: https://www.japan-guide.com/e/e4410.html
+    title: "Nagasaki: getting around (japan-guide): tram ¥150 flat fare"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Yamasa fares, times, rules: its own site. Landing shares are rough readings of its bar chart (no figures printed). Yamasa doesn't say how many days ahead the early fares (早割5–20) need; 20 is a guess. Payment: its Japanese FAQ lists cards, its English FAQ says cash only. Other operators (Takashima Kaijo, Seaman Shokai, a Nomozaki boat) appear only in search results, so are left out."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: west-side
+    focus: center
+    hook: "Seawalls, gutted concrete flats and a pithead on 6 hectares of rock: a mining town left to rot in 1974."
+    caption: "The west side's apartment blocks, seen from the cruise boat"
+  - type: quick_facts
+    time_needed: "2.5 h boat (~3.5 h door to door)"
+    best_time: "Morning sailing, first full day in town"
+    extra:
+      - { label: Time on the island, value: "40–50 min", detail: "Three viewing points along a fenced walkway" }
+      - { label: Winter landings, value: "About half to two-thirds", detail: "Rough reading of Yamasa's Jan–Feb 2025 chart" }
+      - { label: English guide, value: "Yamasa: Tue/Thu/Sat/Sun", detail: "Free, per Yamasa's English page" }
+  - type: highlights
+    items:
+      - title: A whole town in concrete
+        text: "From 1887 to 1974 this tiny island was an undersea coal mine. At its 1959 peak **5,259 people** lived on 6.3 hectares. In 1916 Mitsubishi built Japan's first large reinforced-concrete apartment block here, and the shells of the later blocks still stand."
+      - title: You actually set foot on it
+        text: "Since 2009 licensed boats can tie up at the pier. A guide walks you along a fenced walkway past **three viewing points** in the south of the island for 40–50 minutes. More than 95% of the island stays off-limits, so you see the ruins from the path, never inside."
+      - title: The loop by boat
+        text: "After the landing, Yamasa's boat circles the island so you see the **apartment blocks** from the sea. Even when you can't land, this loop is what you get."
+      - title: A difficult history
+        text: "UNESCO listed the mine in 2015 in **Sites of Japan's Meiji Industrial Revolution**. Korean conscripts and Chinese POWs were forced to work its mines in the 1930s–40s. Japan promised to tell that story; UNESCO has found its efforts insufficient."
+  - type: prose
+    title: What you are signing up for
+    dropcap: true
+    text: |-
+      Hashima sits about 19 km out from Nagasaki port, on open sea. Since 2009, when the city reopened it after 35 years, the only way to visit is a licensed cruise. You board, ride out for about half an hour, and the captain decides at the island whether you can land. **The boat can sail and still not land.** If the wind is over 5 m/s or the waves over 0.5 m, you get a lap around the island and a partial refund instead.
+
+      Winter is the worst season for this. Read roughly off [Yamasa Kaiun's chart](https://www.gunkan-jima.net/graph-ja/) for 2024–25, only **about half to two-thirds** of December–February sailings landed; the rest circled the island or stayed in port. Book the earliest sailing you can, and keep a second day free for another try. For your dates Yamasa is the operator to use: Gunkanjima Concierge's boat is in dry dock from 4 Jan to 5 Feb 2027.
+
+      **Is it too far out of the way?** From Osaka it is about **4.5 hours each way** by Shinkansen with two changes, ¥19,900 (R$699.88) one way reserved, or ¥15,850 (R$557.44) bought 2+ weeks ahead. That's roughly R$1,100–1,400 return plus two nights, three of your 15 Japan days, and one rough sea can still cost you the landing. Tomogashima near Osaka is the cheap fallback: real ruins, but a fort island, not a town.
+
+      The other thing to know is the history. The island had a school, a hospital, a cinema and rooftop gardens, and that daily life is the story the tours are built around. Its wartime forced labour is documented by the UNESCO process and is still disputed between Japan and South Korea. Wikipedia's article covers both sides and is worth reading on the way out.
+  - type: gallery
+    images:
+      - { file: viewing-area-3, caption: "Viewing point 3: rubble in front of the apartment blocks" }
+      - { file: walkway-guide, caption: "A guide on the fenced walkway at viewing point 1" }
+      - { file: school-building, caption: "Building No. 70, seen from the sea (2017)" }
+      - { file: from-the-sea, caption: "The battleship silhouette from a distance" }
+  - type: quote
+    variant: vibe
+    text: "Thirty minutes of open sea, a pier, and a town where the last resident left more than fifty years ago."
+  - type: book_ahead
+    steps:
+      - days_before: 20
+        text: "Book on **Yamasa's calendar**: free cancellation ends 15 days out, and the early fares need advance booking (Yamasa doesn't say how far). Pick the **morning** sailing on your first full day."
+      - days_before: 1
+        text: "Check the sea forecast and Yamasa's homepage. A high-wave advisory or warning cancels the sailing outright."
+      - days_before: 0
+        text: "Check in at **window 7** of the Nagasaki Port Terminal 45–60 min before sailing, sign the safety pledge and pay. Bring **¥5,350 in cash**: Yamasa's English FAQ says cash only (its Japanese FAQ lists cards)."
+  - type: cost_breakdown
+    items:
+      - { label: "Yamasa Kaiun boat fare (regular)", local: 4700, brl: 165.3 }
+      - { label: "Nagasaki City entry fee (refunded if you can't land)", local: 650, brl: 22.86 }
+      - { label: "Tram to Ohato and back", local: 300, brl: 10.55, optional: true }
+    note: "Over the R$170 day budget, because it is the whole day's plan and Japan's best-known ruin. The early fare (¥3,800 + ¥650 = R$156.51) brings it under."
+  - type: map
+    note: "Yamasa leaves from **Nagasaki Port Terminal** (pier 2), a 10-minute walk from JR Nagasaki Station."
+  - type: tips
+    variant: insider
+    items:
+      - "Book **Yamasa on a Tue, Thu, Sat or Sun**: that's when its English page says the free English guide is aboard."
+      - "Yamasa's page says the morning sailing sees the island's east side in full light; in the afternoon it's the reverse."
+      - "On Yamasa seats are unreserved and go in queue order: line up early for a window."
+      - "Bring water and take rubbish home: the island has no toilets, shops or bins."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No umbrellas on the boat or the island (rule from the city). Bring a rain jacket."
+      - "The sea outside the harbour can be rough even when the port is calm; Yamasa advises seasickness tablets 30 min before."
+      - "If the landing fails, Yamasa refunds the ¥650 fee and 10% of the fare. You don't get a free second try."
+      - "Don't plan on **Gunkanjima Concierge**: no sailings 4 Jan – 5 Feb 2027 while its boat is in dock."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: "Cool, often windy at sea; 10 rainy days a month"
+    note: "January normals are 4.0–10.7 °C, February 4.5–12.0 °C. The cold is mild; wind and swell decide whether you land."
+    wear: "Windproof jacket, flat shoes with a heel strap (no heels allowed), a hat"

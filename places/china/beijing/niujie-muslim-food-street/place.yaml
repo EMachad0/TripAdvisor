@@ -1,0 +1,134 @@
+id: niujie-muslim-food-street
+name: "Niujie Muslim Food Street"
+short_name: Niujie
+name_local: 牛街
+name_romanized: Niújiē
+country: china
+city: beijing
+area: Xicheng · Niujie
+category: food
+fame: hidden
+tags: [halal, street-food, snacks, hotpot, mosque, cheap-eats]
+kind: Eat
+why: "Beijing's old Hui Muslim quarter: ¥5 beef shaobing, ¥2.5 lamb buns, sticky-rice sweets, and copper-pot lamb hotpot by a 1,000-year-old mosque."
+
+cost:
+  local: 50
+  currency: CNY
+  brl: 41.32
+  note: "A snack crawl of five or six items; a copper-pot hotpot at Jubaoyuan is about ¥100–120 a head"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1.5–2 h"
+best_time: "Weekday, before the lunch or dinner rush"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Each shop keeps its own hours; vendors work from early morning into the evening"
+  winter: "No winter closures found. Queues are outdoors on the street, and a 2026 Beijing guide calls Jubaoyuan's hotpot the street's queue king, with waits of two to three hours at mealtimes. The mosque's halls close after the last prayer of the day."
+
+location:
+  address: "Niujie Street, Xicheng District, Beijing"
+  address_local: 北京市西城区牛街
+  lat: 39.88419
+  lng: 116.35735
+  nearest_transit: "Niujie (Line 19), Exit D2, at the north end"
+
+sources:
+  - url: https://www.thenationalnews.com/lifestyle/food/2026/08/13/seven-halal-dishes-to-try-in-niujie-beijings-central-muslim-neighbourhood/
+    title: "Seven halal dishes to try in Niujie — The National (2026-08-13: dishes and prices)"
+    checked: 2026-11-10
+  - url: https://www.visitbeijing.com.cn/article/4PotGGJbu93
+    title: "牛街 food and mosque guide — Visit Beijing (2026-01-04: queues, ¥1/¥5 shaobing, mosque ¥10 for foreigners)"
+    checked: 2026-11-10
+  - url: https://www.visitbeijing.com.cn/article/4PqefVQlqSe
+    title: "Beijing copper-pot hotpot list — Visit Beijing (2026-01-06: Jubaoyuan 牛街5-2号, about ¥100 a head)"
+    checked: 2026-11-10
+  - url: https://chinatripedia.com/?p=5535
+    title: "Niujie Muslim Snack Street — Chinatripedia (Line 19 Exit D2, shop list with Chinese names)"
+    checked: 2026-11-10
+  - url: https://halalspy.com/halal-food-guide/asia/beijing/
+    title: "Halal food in Beijing — HalalSpy (2026-03-22: snacks ¥5–30, vendors from early morning)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Niujie_Mosque
+    title: "Niujie Mosque — Wikipedia (built 996, non-Muslims kept out of the prayer hall)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Beijing — Wikipedia (climate normals 1991–2020)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Dish prices are from a 2026 article and a Jan 2026 Visit Beijing piece; shop-level prices and hours are not published. The ¥50 crawl total is my sum of those prices. Line 19 Exit D2 is from an undated guide; Wikipedia gives Caishikou as nearest station. No shop hours found. visitbeijing.com.cn times out in atr links but opens in atr render."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: niujie-street
+    hook: "A queue at the sticky-rice stall, ¥1 sesame bread from the oven, and Beijing's oldest mosque down the street."
+    caption: "The north end of Niujie Street"
+  - type: quick_facts
+    time_needed: "1.5–2 h"
+    best_time: "Weekday, off-peak"
+    extra:
+      - { label: Halal, value: Whole street, detail: "Beef and lamb; no pork" }
+      - { label: Mosque, value: "¥10", detail: "Foreign visitors; courtyards only for non-Muslims" }
+  - type: highlights
+    items:
+      - title: The cheapest good meal in Beijing
+        text: "A sesame **shaobing** for ¥1, a beef one for ¥5, lamb or beef **baozi** at ¥2.5 each. Five or six snacks make a meal for about ¥50 (R$41)."
+      - title: Sticky-rice sweets at Bai Ji
+        text: "**白记年糕** sells glutinous-rice cakes with red-bean paste or purple jam for ¥10–20. It moved to a street-side stall and still has a long queue."
+      - title: Copper-pot lamb hotpot
+        text: "**聚宝源 Jubaoyuan** at No. 5-2 is the famous one: thin lamb in a copper pot, about ¥100–120 a head, with an English menu. Come early or prepare to wait."
+      - title: A 1,000-year-old mosque
+        text: "**Niujie Mosque** was first built in **996**, rebuilt in 1443 and expanded in 1696. Foreign visitors pay ¥10; non-Muslims can see the courtyards but not the prayer hall."
+  - type: gallery
+    images:
+      - { file: mosque, caption: "Niujie Mosque: Chinese roofs on a mosque first built in 996" }
+      - { file: hand-cut-lamb, caption: "Hand-cut lamb for hotpot (illustration, not from Niujie)" }
+  - type: menu
+    title: The crawl
+    items:
+      - { name: Sesame shaobing, name_local: 麻酱烧饼, price_local: 1, price_brl: 0.83, note: "Layered sesame flatbread, at Manji (满记烧饼)", tag: cheap }
+      - { name: Beef shaobing, name_local: 牛肉烧饼, price_local: 5, price_brl: 4.13, note: "Manji again; order online for pickup to skip the line", tag: must-try }
+      - { name: Beef pie, name_local: 牛肉馅饼, price_local: 15, price_brl: 12.4, note: "¥10–15; griddled, eat it hot", tag: must-try }
+      - { name: Lamb or beef baozi, name_local: 羊肉/牛肉包子, price_local: 2.5, price_brl: 2.07, note: Each; lamb is richer, tag: cheap }
+      - { name: Douzhi, name_local: 豆汁, price_local: 5, price_brl: 4.13, note: "¥3–5; fermented mung-bean drink, best warm", tag: drink }
+      - { name: Sticky-rice cake, name_local: 年糕, price_local: 20, price_brl: 16.53, note: "¥10–20 at Bai Ji (白记年糕)", tag: signature }
+      - { name: Baodu (quick-boiled tripe), name_local: 爆肚, price_local: 40, price_brl: 33.07, note: "¥30–50; beef or sheep tripe, with dipping sauces" }
+      - { name: "Copper-pot lamb hotpot, per head", name_local: 铜锅涮肉, price_local: 110, price_brl: 90.94, note: "¥100–120 at Jubaoyuan; queues of hours at meal times" }
+    note: "Prices from a 2026 article (The National) and Visit Beijing (Jan 2026). They vary by stall and portion."
+  - type: cost_breakdown
+    items:
+      - { label: Beef pie, local: 15, brl: 12.4 }
+      - { label: Beef shaobing, local: 5, brl: 4.13 }
+      - { label: Two lamb baozi, local: 5, brl: 4.13 }
+      - { label: Douzhi, local: 5, brl: 4.13 }
+      - { label: Sticky-rice cake at Bai Ji, local: 20, brl: 16.53 }
+      - { label: Jubaoyuan hotpot instead, local: 110, brl: 90.94, optional: true }
+      - { label: Niujie Mosque (foreign visitors), local: 10, brl: 8.27, optional: true }
+  - type: map
+    note: "Line 19 to **Niujie**, Exit D2, puts you at the north end. Jubaoyuan is at **牛街5-2号**; Line 7 Guang'anmennei is about 700 m away."
+  - type: tips
+    variant: insider
+    items:
+      - "Walk the whole street first and eat second: it is under a kilometre long."
+      - "Jubaoyuan's queue is two to three hours at meal times, per a 2026 Visit Beijing guide; its takeaway window often has a line too. Go mid-afternoon."
+      - "Try **douzhi** once for the story, with a shaobing to chase it."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No shop hours are published: check Dianping or Amap the day before for the stalls you want."
+      - "Non-Muslims may not enter the mosque's prayer hall; the halls close after the last prayer of the day."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: Dry and freezing; little snow
+    note: "You eat on the move and queue outside on a freezing street, so a hot bun or a warm douzhi does double duty. The hotpot is the sit-down, warm-up option."
+    wear: "Warm coat, gloves you can take off quickly to eat"
+  - type: pairs_well
+    items:
+      - { id: forbidden-city-jingshan, note: "Palace in the morning, halal dinner in Xicheng" }
+      - { id: mutianyu-great-wall, note: "A hot hotpot after a freezing day on the wall" }
+      - { id: beijing-xingshe-youth-hostel, note: "Both in Xicheng district" }

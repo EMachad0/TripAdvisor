@@ -1,0 +1,154 @@
+# FIXTURE — platform test data, not curated content. Ignored by the real build.
+# Facts are illustrative (from general knowledge) and NOT verified for planning.
+fixture: true
+id: yu-garden
+name: "Yu Garden"
+name_local: 豫园
+name_romanized: Yùyuán
+country: china
+city: shanghai
+area: Huangpu · Old City
+category: culture
+fame: iconic
+must_do: classical-garden
+tags: [garden, ming-dynasty, classical]
+kind: See
+why: A 450-year-old classical garden of rockeries, koi ponds and carved halls — calmest on a cold weekday morning.
+cover: tingtao-pond
+
+cost:
+  local: 30
+  currency: CNY
+  brl: 24.8
+  note: ¥30 in the low season (Dec–Mar), ¥40 the rest of the year
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: Weekday, right at opening
+
+book_ahead:
+  required: true
+  lead_days: 1
+  lead_time: Same-day slots usually exist in winter; book the day before to be safe
+  method: passport-registered
+  links:
+    - label: Official site
+      url: https://www.yugarden.com.cn/
+      note: Real-name slots; passport number accepted (fixture text)
+    - label: Trip.com
+      url: https://www.trip.com/travel-guide/attraction/shanghai/yu-garden-75656/
+      note: English, no Chinese phone number needed (fixture text)
+  passport: true
+  notes: Foreigners can usually also buy at the window with a passport — fixture text.
+
+hours:
+  summary: Tue–Sun 09:00–16:30 (last entry 16:00)
+  closed: Mondays
+  winter: The **lantern festival** decorations go up from mid-January; expect crowds after dark in late January.
+
+location:
+  address: 218 Anren St, Huangpu, Shanghai
+  address_local: 上海市黄浦区安仁街218号
+  lat: 31.2289
+  lng: 121.4878
+  nearest_transit: Yuyuan Garden (Line 10 / 14), Exit 1
+
+sources:
+  - url: https://en.wikipedia.org/wiki/Yu_Garden
+    title: Yu Garden — Wikipedia
+    checked: 2026-11-09
+  - url: https://www.yugarden.com.cn/
+    title: Yu Garden official site
+    checked: 2026-11-09
+confidence: low
+confidence_note: Fixture for platform tests — prices and hours are illustrative, not researched.
+last_updated: 2026-11-09
+
+blocks:
+  - type: hero
+    image: tingtao-pond
+    hook: Ming-dynasty pavilions and koi ponds, hidden behind a neon tourist bazaar.
+    focus: "50% 45%"           # focal point: x% from the left, y% from the top
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Weekday, at 09:00
+    extra:
+      - label: Good in rain
+        value: Partly — covered corridors
+  - type: highlights
+    items:
+      - title: The Great Rockery
+        text: A 14-metre mountain of yellow **Wukang stone**, stacked in the 1500s; climb it for a view over the rooftops.
+      - title: Dragon walls
+        text: Undulating whitewashed walls topped with clay dragon heads snake through the garden.
+      - title: Exquisite Jade Rock
+        text: A porous rock said to be meant for the imperial court — pour water in the top and it streams out of every hole.
+      - title: Winter calm
+        text: Bare branches and thin crowds; the koi still flash orange under the grey sky.
+  - type: prose
+    title: A garden built for parents
+    dropcap: true
+    text: |
+      A retired Ming official spent almost twenty years building this garden so his ageing parents could enjoy a tranquil old age. They did not live to see it finished.
+
+      Today the garden sits inside the noisy **Yuyuan bazaar**. Push past the souvenir stalls and the noise drops away into a maze of halls, ponds and moon gates — a miniature landscape designed to be walked slowly.
+  - type: gallery
+    images:
+      - file: rooftops
+        caption: Upturned eaves over the inner courtyards
+      - file: jade-corridor
+        caption: The Jade Water Corridor
+      - file: pavilion
+        caption: A pavilion above the pond
+  - type: quote
+    variant: vibe
+    text: Tea steam, carp rings on the water and the low murmur of tour guides somewhere behind a wall.
+  - type: book_ahead
+    steps:
+      - days_before: 1
+        text: Reserve a time slot on the official WeChat mini-program with your **passport number**.
+      - days_before: 0
+        text: Arrive 15 minutes before opening and scan your passport at the gate — no printed ticket.
+    passport_note: Bring the **same passport** you booked with; staff scan it at the turnstile.
+  - type: cost_breakdown
+    items:
+      - label: Entry ticket
+        local: 30
+        brl: 24.8
+        note: Winter price
+      - label: Metro there and back
+        local: 6
+        brl: 4.96
+        optional: true
+      - label: Tea in the Huxinting teahouse
+        local: 80
+        brl: 66.14
+        optional: true
+    note: The famous zig-zag bridge and teahouse are **outside** the paid garden — free to walk.
+  - type: map
+    zoom: 16
+    note: Enter from **Anren Street** (north side) to skip the bazaar crush at the south gate.
+  - type: tips
+    variant: insider
+    items:
+      - Go at **09:00** on a weekday; tour groups arrive around 10:00.
+      - Walk the rooms in reverse (start at the back) to have the rockery to yourself.
+  - type: tips
+    variant: pitfalls
+    items:
+      - The bazaar "tea ceremony" invitations near the gate are a known **tea-house scam**.
+      - Closed on Mondays — easy to miss when planning.
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Damp, grey, occasional drizzle
+    note: The visit is mostly outdoors and halls are unheated. The upside is light crowds and moody, misty photos.
+    wear: Warm layers, waterproof shoes
+  - type: pairs_well
+    items:
+      - id: nanxiang-mantou-dian
+        note: 2 min walk — soup dumplings for lunch after the garden
+      - id: the-bund
+        note: 20 min walk north for the skyline at dusk
+  - type: sources
+    note: Fixture page for platform tests. Prices and hours are illustrative.

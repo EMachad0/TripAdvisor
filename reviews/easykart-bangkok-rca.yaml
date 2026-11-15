@@ -1,0 +1,16 @@
+# Independent review of easykart-bangkok-rca. Written by `./atr review`; do not edit by hand.
+id: easykart-bangkok-rca
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: bb8561179699cc6a2319b362e65d330578b6de892b1d33b1805bf7794cc64bc6
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: ce6b3b93b5894d80545a6571f6eb2d96aa296fe5d2db46951e8dec2ab6262381
+summary: The diff removes the old downhill-carts must_do claim and the Hmong-race framing. The page now says plainly that this is a motor kart on a flat indoor track, which matches its confidence_note and the official site. Lovethailand supports the new pointer to Thongsomboon Club as a gravity luge you steer down a hill and brake yourself. Skyline's official site confirms a jungle luge kart at Doi Saket near Chiang Mai, and both linked place pages exist. There were no earlier findings and the unchanged content has no blocker, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.25

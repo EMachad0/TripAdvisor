@@ -1,0 +1,97 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: market-street
+  title: File:Dongmyo Flea Market 11.jpg
+  author: Seefooddiet
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Dongmyo_Flea_Market_11.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0a/Dongmyo_Flea_Market_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Stores in Dongmyo Flea Market
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: january-alley
+  title: File:Dongmyo Flea Market Jan 2024 03.jpg
+  author: Seefooddiet
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Dongmyo_Flea_Market_Jan_2024_03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3d/Dongmyo_Flea_Market_Jan_2024_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Dongmyo Flea Market
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: antiques-stall
+  title: File:Dongmyo Flea Market 06.jpg
+  author: Seefooddiet
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Dongmyo_Flea_Market_06.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c6/Dongmyo_Flea_Market_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Stores in Dongmyo Flea Market
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: vintage-racks
+  title: File:Dongmyo Flea Market 08.jpg
+  author: Seefooddiet
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Dongmyo_Flea_Market_08.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Dongmyo_Flea_Market_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Stores in Dongmyo Flea Market
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: bookshop
+  title: File:Dongmyo Flea Market 01.jpg
+  author: Seefooddiet
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Dongmyo_Flea_Market_01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6c/Dongmyo_Flea_Market_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Stores in Dongmyo Flea Market
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: shrine
+  title: File:Dongmyo Shrine 01 (31684035053).jpg
+  author: Republic of Korea from Seoul, Republic of Korea
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Dongmyo_Shrine_01_(31684035053).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/06/Dongmyo_Shrine_01_%2831684035053%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 'Dongmyo Shrine January 19, 2017 Sungin-dong, Jongno-gu, Seoul Ministry of Culture, Sports and Tourism Korean Culture and Information Service Korea.net (<a href=" http://www.korea.net " rel="nofollow">www.korea.net</a>) Official Photographer : Jeon Han This official Republic of Korea photograph is be'
+  width: 4908
+  height: 2982
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

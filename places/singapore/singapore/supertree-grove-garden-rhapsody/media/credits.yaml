@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: rhapsody-show
+  title: File:Supertree Grove, Singapore, augusti 2023 04.jpg
+  author: Johan Jönsson ( Julle )
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Supertree_Grove,_Singapore,_augusti_2023_04.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/Supertree_Grove%2C_Singapore%2C_augusti_2023_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Light and sounds show, Supertree Grove, Singapore.
+  width: 4624
+  height: 3468
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: supertrees-mbs
+  title: File:Supertree Grove at night.jpg
+  author: Kanzcech
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Supertree_Grove_at_night.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/00/Supertree_Grove_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Supertree Grove at night - Gardens by the Bay, Singapore
+  width: 4624
+  height: 2604
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

@@ -1,0 +1,163 @@
+id: majang-meat-market-bbq
+name: "Majang Meat Market: buy and grill"
+short_name: Majang Meat Market
+name_local: 마장축산물시장
+name_romanized: Majang Chuksanmul Sijang
+country: korea
+city: seoul
+area: Seongdong-gu · Majang-dong
+category: food
+fame: popular
+tags: [bbq, hanwoo, market, beef, local]
+kind: Eat
+why: "Pick hanwoo at Korea's biggest meat market, then carry it upstairs and grill it for a ₩4,000–6,000 table fee. Premium beef for far less than a restaurant."
+
+cost:
+  local: 36000
+  currency: KRW
+  brl: 149.62
+  note: "≈ ₩30,000 of hanwoo plus a ₩6,000 table fee. ZenKimchi: ₩30,000–60,000 of meat per person; iVisitKorea's prices suggest less"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2 h
+best_time: Weekday, early evening (16:00–19:00)
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Market 03:00–23:00 (Korea Tourism Organization listing). Upstairs grill restaurants keep their own hours"
+  closed: 1st and 3rd Sunday of each month
+  winter: "In your dates the 3rd Sunday is **Sun Jan 17**, so the market is closed that day (and you planned Hwacheon anyway). Sun Jan 10 is the 2nd Sunday, so it's open. The halls are roofed; the grill restaurants are heated. Seollal (Feb 2027) is after your trip."
+
+location:
+  address: 40 Majang-ro 31-gil, Seongdong-gu, Seoul
+  address_local: 서울특별시 성동구 마장로31길 40 (마장축산물시장)
+  lat: 37.56958
+  lng: 127.03993
+  nearest_transit: Yongdu (Line 2 branch), Exit 4, 7 min; Wangsimni (Line 2), Exit 3, 15 min
+
+sources:
+  - url: https://ktriptips.com/eng/shopping/1470972
+    title: "Majang Meat Market (K-Trip Tips, Korea Tourism Organization data, updated 2026-11-11)"
+    checked: 2026-11-12
+  - url: https://mediahub.seoul.go.kr/archives/2005734
+    title: "밥상이 행복해지는 고기는 요기! 마장축산물시장 (Seoul city, Seoul Sarang, 2022, updated 2023)"
+    checked: 2026-11-12
+  - url: https://www.ivisitkorea.com/majang-meat-market/
+    title: "Majang Meat Market: Best Place for Hanwoo Beef BBQ (iVisitKorea, updated Jun 2026)"
+    checked: 2026-11-12
+  - url: https://zenkimchi.com/tour-tips/majang-meat-market-hanwoo-beef-guide/
+    title: "Majang Meat Market: Seoul's Real Butcher-to-Table Experience (ZenKimchi)"
+    checked: 2026-11-12
+  - url: https://weekly.khan.co.kr/article/202106251620541
+    title: "마장동-고기에 의한, 고기를 위한, 고기의 마을 (Weekly Kyunghyang, Jun 2021)"
+    checked: 2026-11-12
+  - url: https://www.esquirekorea.co.kr/article/79703
+    title: "마장동 고깃집 (Esquire Korea, Aug 2023)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Climate_of_Seoul
+    title: "Climate of Seoul (Wikipedia, KMA 1991–2020 normals)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Table fees from 2022–23 (₩6,000 Gogi Ingneun Maeul, Seoul city; ₩4,000 Majang Hanwoo-chon, Esquire); guides say ₩4,000–5,000. Meat cost is the low end of ZenKimchi's ₩30,000–60,000; iVisitKorea's ₩12,000/100 g implies less. No source confirms a minimum weight. No free photo. KTripTips, Seoul mediahub and iVisitKorea opened with atr render on 2026-11-12; atr links times out or gets 403 on them."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: Red-lit butcher counters downstairs, charcoal and banchan upstairs, and you choose the steak.
+  - type: quick_facts
+    time_needed: 2 h
+    best_time: Weekday, early evening (16:00–19:00)
+    extra:
+      - label: Eating alone
+        value: Works, with one catch
+        detail: One table fee per person; ask the butcher for a small cut
+      - label: Table fee
+        value: ₩4,000–6,000 per person
+        detail: Grill and banchan; drinks and stew extra
+      - label: Payment
+        value: Prices posted by law
+        detail: Cut, origin and price on every tray
+  - type: highlights
+    items:
+      - title: The country's meat larder
+        text: "About **3,000 shops** over 110,000 m². The market began as a livestock market in 1922 and is now a Seoul Future Heritage site. ZenKimchi says it supplies over 60% of Korea's beef."
+      - title: Hanwoo without the restaurant markup
+        text: "Every cut is labelled with grade and origin, and prices run **20–30% under** shops. iVisitKorea found top-marbled hanwoo for about ₩12,000 per 100 g, and you can bargain."
+      - title: Buy downstairs, grill upstairs
+        text: "Take your tray to a *sangcharim* (table-setting) restaurant on the 2nd or 3rd floor. For **₩4,000–6,000 a head** you get a charcoal grill and side dishes. The butcher will usually point you to one."
+      - title: Cuts to ask for
+        text: "**Kkotdeungsim** (ribeye), **anchangsal** (thin skirt, beefy and chewy), **salchisal** (flap) and **chaekkeut** (strip loin). Butchers sometimes throw in a little raw beef for yukhoe as 'service'."
+  - type: prose
+    title: How it works, and doing it alone
+    dropcap: true
+    text: |-
+      Walk the halls first. Pork and beef shops are separate, and hanwoo specialists sit apart from imported meat. Point at a cut, ask the price per 100 g, and don't be shy about asking for a mixed tray (*gogi modeum*, 고기 모둠). Then take it upstairs. **Gogi Ingneun Maeul** (고기익는마을), at the West Gate on the 3rd floor, is run by the market's own co-op and certified by the city. In 2022 it charged ₩6,000 per adult.
+
+      **Solo:** this is one of the few BBQ formats with no "two servings" rule, because you're not ordering servings at all. You pay one table fee and grill what you bought. The catch: butchers often pre-cut trays for two or three people, so ask for **about 200 g** (*이백 그램만 주세요*). Upstairs, order a **doenjang-jjigae** and ask the staff to drop in some of the fatty trimmings. iVisitKorea recommends it on a cold night.
+
+      **Etiquette:** use the tongs and scissors provided, wrap bites in lettuce or perilla with ssamjang, and dip hanwoo in salt or wasabi. Good beef needs little more. Soju and beer are sold upstairs.
+  - type: quote
+    variant: vibe
+    text: A tray of marbled beef in one hand, a ₩6,000 grill waiting upstairs.
+  - type: menu
+    title: What you'll pay
+    items:
+      - name: Table fee (grill and banchan)
+        name_local: 상차림비
+        price_local: 6000
+        price_brl: 24.94
+        note: "Per adult at Gogi Ingneun Maeul (2022). Majang Hanwoo-chon charged ₩4,000 (2023)."
+      - name: Top-grade hanwoo, 100 g
+        name_local: 한우 (100g)
+        price_local: 12000
+        price_brl: 49.87
+        note: Rough figure from iVisitKorea. It depends on cut and grade; ask per 100 g.
+        tag: signature
+      - name: Ribeye
+        name_local: 꽃등심
+        note: Very tender, heavily marbled.
+        tag: must-try
+      - name: Thin skirt
+        name_local: 안창살
+        note: Deep, beefy, a little chewy.
+      - name: Flap / strip loin
+        name_local: 살치살 / 채끝살
+        note: Juicy grilling cuts.
+    note: "Butcher prices are posted on every tray with grade and origin. Soju, beer, rice and stews are ordered upstairs."
+  - type: cost_breakdown
+    items:
+      - label: Hanwoo for one (₩30,000–60,000 per ZenKimchi)
+        local: 30000
+        brl: 124.68
+        estimate: true
+      - label: Table fee, 1 adult
+        local: 6000
+        brl: 24.94
+  - type: map
+    note: "From **Yongdu** exit 4, cross the road and the bridge: 470 m, about 7 min. From **Wangsimni** exit 3 (straight on Line 2 from Hongik Univ.), about 15 min on foot to the West Gate."
+  - type: tips
+    variant: insider
+    items:
+      - "Ask the butcher where to grill. They often work with a restaurant upstairs and will point you to it."
+      - "Want to compare prices? Buy one cut, grill it, and go back down for a second round. You've only paid the table fee once."
+      - "Order a doenjang-jjigae upstairs and ask for the fatty trimmings to go in."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't come on **Sun Jan 17**: the 1st and 3rd Sundays are closing days."
+      - "The famous old **Majang BBQ Beef Alley** has been torn down (ZenKimchi), so don't go looking for it. The market halls are the place now."
+      - "Hanwoo adds up fast. Set a budget per 100 g before the butcher starts slicing."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing; about 7 snowy days in January
+    note: "Roofed halls and heated restaurants upstairs, so winter barely matters."
+    wear: Padded jacket you don't mind smelling of charcoal
+  - type: pairs_well
+    items:
+      - id: dongmyo-flea-market
+        note: Same eastern side of the city, for an afternoon before dinner
+      - id: hongojib-solo-bbq
+        note: The cheap everyday solo BBQ, near Hongdae

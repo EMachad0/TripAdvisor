@@ -1,0 +1,22 @@
+# Independent review of menya-jouroku-namba. Written by `./atr review`; do not edit by hand.
+id: menya-jouroku-namba
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 8068165395fd6053f689a0f22253fdfc2f1b8cebacfc6b0bc15e33f202bc0f8a
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].items[1]
+    problem: The page gives hayazushi as ¥150 in `why`, highlights, menu and tips. The newest review on Retty (posted 2026/5) lists it at ¥200, and the menu note warns only about the ramen price.
+    evidence: "The page now gives hayazushi as ¥150–200 in why, highlights, prose and tips. The menu item note reads '¥150 in 2025, ¥200 in a May 2026 review' and the menu note includes the hayazushi caveat. Both prices are on https://retty.me/area/PRE27/ARE94/SUB9501/100000030435/reports/: 2026/5 review \"早寿司 ¥200\" and 2025/11 review \"早寿司（150円）\". The phone render shows the change correctly."
+  - field: blocks[1].extra
+    problem: "The page says nothing about payment, yet both listed sources say you cannot pay by card: Noodlers says cash only and Retty says credit cards are not accepted. A traveler who expects to pay by card could get stuck."
+    evidence: "quick_facts.extra now has 'Payment: Cash only — No credit cards (Retty); Noodlers lists cash only', and it renders cleanly on phone. Supported by https://noodlers.jp/joroku01/ (\"決済方法：現金のみ\") and https://retty.me/area/PRE27/ARE94/SUB9501/100000030435/ (\"クレジットカード 不可\")."
+rereview_of: edb17baba4ef07ff66026f0a41236c9a6ee95bbcac8f83d34720e34d06b5843e
+summary: Both earlier findings are fixed. The ¥150–200 hayazushi range and the cash-only payment note are both backed by the listed Retty and Noodlers pages, and both render cleanly on the phone view. The changes add no new unsupported facts, and I found no blockers in the text that did not change.
+model: claude-opus-5-5
+cost_usd: 0.348

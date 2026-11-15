@@ -1,0 +1,160 @@
+id: chengdu-christmas
+name: "Christmas in Chengdu: Taikoo Li and Yulin"
+short_name: Chengdu Christmas
+name_local: 成都太古里
+name_romanized: Chengdu Taiguli
+country: china
+city: chengdu
+area: Jinjiang · Taikoo Li
+category: nightlife
+fame: popular
+tags: [christmas, christmas-option, lights, bar, craft-beer, church, near-chongqing]
+kind: Do
+why: "The easiest Christmas: decorated Taikoo Li and Chunxi Road, Yulin bar nights, a 1904 cathedral, then a ¥85 train to Chongqing on the 26th."
+when:
+  dates:
+    - { from: 2026-12-24, to: 2026-12-25 }
+  kind: best
+  label: "Christmas, 24–25 Dec"
+
+cost:
+  local: 169
+  currency: CNY
+  brl: 139.71
+  note: "Two craft beers in Yulin, metro, and the ¥85 train to Chongqing on the 26th. The streets and lights are free"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Evening of the 24th + the 25th"
+best_time: "Dec 24 from dusk (about 18:00) into the night"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Public streets, open all the time. Shop and bar hours vary (not checked). Metro stops around 23:30"
+  winter: "Christmas isn't a public holiday in mainland China. Shops and sights stay open on Dec 24–25. A Chengdu guide updated Oct 2026 says Chunxi Road, Taikoo Li, IFS and Tianfu Square are decorated for Christmas, with light shows downtown at the end of December. No 2026 Christmas program has been published yet."
+
+location:
+  address: Sino-Ocean Taikoo Li, 8 Zhongshamao Street, Jinjiang District, Chengdu
+  address_local: 成都市锦江区中纱帽街8号 远洋太古里
+  lat: 30.65477
+  lng: 104.08321
+  nearest_transit: "Chunxi Road (Lines 2 / 3), a short walk"
+
+sources:
+  - url: https://www.chinaxiantour.com/chengdu-travel-guide/weather-in-december
+    title: "Chengdu in December (China Xian Tour, updated 2026-10-02): Christmas decorations, end-Dec light shows, temperatures"
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/destinations/chengdu/activity/nightlife/
+    title: "Chengdu Nightlife Guide 2026 (Wander in China, 2026-02-22): Yulin, Little Bar, Lan Kwai Fong, drink prices, metro closing"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral,_Chengdu
+    title: "Immaculate Conception Cathedral, Chengdu (Wikipedia): Ping'anqiao church, built 1897–1904, 25 Xihuamen Street"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/chengdu-chongqing/
+    title: "Chengdu–Chongqing trains on Ctrip (timetable for 2026-11-12): 166 trains, D trains ¥85 in about 2 h, fastest G about 1 h 10 min"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/china-trains/chengdu-chongqing-train.htm
+    title: "Chengdu–Chongqing trains (China Highlights, schedules updated 2025-03-07): stations, trains about every 10 minutes"
+    checked: 2026-11-10
+  - url: https://www.theworldofchinese.com/2024/12/christmas-celebrations-across-china-in-photos/
+    title: "Christmas celebrations across China (The World of Chinese, 2024-12-25): apples on Christmas Eve, a commercial holiday on the mainland"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "No 2026 Christmas program is published. Decorations and light shows come from one tour-operator guide (Oct 2026); bar prices from a Feb 2026 guide. Train fares are Ctrip's timetable for 12 Nov, not Dec 26. Mass times aren't published. Reviewer asked to drop the train from cost: kept on purpose, all Christmas cards include the trip to Chongqing so they compare."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: taikoo-li-night
+    caption: "Taikoo Li's Atrium after dark (a regular night, not Christmas)"
+    hook: Sichuan rooftops under glass towers, crowds around the mall Christmas trees, then cheap beer in the alleys of Yulin.
+  - type: quick_facts
+    time_needed: "Evening of the 24th + the 25th"
+    best_time: "Dec 24 from dusk (about 18:00) into the night"
+    extra:
+      - label: To Chongqing
+        value: "1 h 10 – 2 h by train"
+        detail: "From ¥85 (R$70); trains about every 10 min"
+      - label: Christmas
+        value: Not a holiday
+        detail: Shops, bars and sights open as normal
+      - label: Night temp
+        value: "2–6 °C"
+        detail: Damp, rarely below freezing
+  - type: highlights
+    items:
+      - title: The lights are downtown
+        text: "**Chunxi Road, Taikoo Li, IFS and Tianfu Square** all put up Christmas decorations, and the city runs light shows downtown at the end of December."
+      - title: Yulin, the backpacker's bar street
+        text: "The original **Little Bar** on Yulin West Road has been Chengdu's indie-rock cradle since the late 1990s. Draft beer is **¥30–50**, half the price of the Taikoo Li terraces."
+      - title: A real cathedral
+        text: "The **Ping'anqiao Cathedral** (Immaculate Conception) was finished in **1904** by French missionaries. Go for the building; services are for the faithful."
+      - title: The shortest trip back
+        text: "No other Christmas option is closer to Chongqing: **166 trains a day**, the cheapest D trains at ¥85, so you can party on the 25th and still be in Chongqing by lunch on the 26th."
+  - type: prose
+    title: How Christmas goes here
+    dropcap: true
+    text: |-
+      Christmas in mainland China is a shopping-and-dating night, not a family holiday. Couples swap **apples** on Christmas Eve (*píng'ān yè*, "peaceful night", sounds like *píngguǒ*, apple). The malls compete for the best tree. Chengdu does this on a big scale, because its centre is one huge pedestrian zone.
+
+      Start at **Taikoo Li** around dusk for the decorations and the crowd. Walk through Chunxi Road to IFS, then take a taxi or the metro west to **Yulin** for bars where people actually talk to each other. Lan Kwai Fong is the club option, with drinks at ¥80–150.
+
+      On the 25th sleep in, eat hotpot, or take the trip out to the Dujiangyan bookstore. Take any train to Chongqing on the morning of the 26th.
+  - type: gallery
+    images:
+      - file: pinganqiao-cathedral
+        caption: "The Ping'anqiao Cathedral, finished in 1904"
+      - file: taikoo-li-day
+        caption: Taikoo Li's temple-style streets by day
+      - file: bishops-corridor
+        caption: "The wooden corridors of the bishop's residence (photo from 2008)"
+  - type: quote
+    variant: vibe
+    text: Crowds under the Taikoo Li tree, then a quiet beer in Yulin.
+  - type: cost_breakdown
+    items:
+      - label: Walking the lights (Taikoo Li, Chunxi Road, IFS)
+        local: 0
+        brl: 0
+      - label: Two draft beers in a Yulin bar (about ¥40 each)
+        local: 80
+        brl: 66.14
+      - label: Metro ride
+        local: 4
+        brl: 3.31
+      - label: "D train to Chongqing North, Dec 26 (cheapest)"
+        local: 85
+        brl: 70.27
+      - label: One cocktail at a Taikoo Li or Lan Kwai Fong bar
+        local: 100
+        brl: 82.67
+        optional: true
+    note: "Christmas here costs about what a normal night out costs. The train back to Chongqing is the cheapest of all the Christmas options."
+  - type: map
+    zoom: 15
+    note: "The pin is **Taikoo Li**. Chunxi Road and IFS are across the road to the west. Yulin is southwest of the centre: a short taxi ride."
+  - type: tips
+    variant: insider
+    items:
+      - "**Getting to Chongqing on the 26th**: D trains from Chengdu East to Chongqing North cost about **¥85 (R$70)** and take 2 h or a little more. Fast G trains take about **1 h 15** from ¥125, but some G trains take over 2 h and cost ¥210–234: check both before paying. Buy on 12306 or Trip.com."
+      - "Go to Taikoo Li **before 19:00** on the 24th: after that the crowd around the tree is shoulder to shoulder."
+      - "The metro stops around **23:30**. After that use DiDi, which works with a foreign card."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't expect a European-style market. Expect mall decorations, crowds and couples."
+      - "The Taikoo Li terraces charge **¥100–160** a drink. Drink in Yulin and only walk through Taikoo Li."
+      - "Church services in China are run by state-registered churches. Mass times for Christmas are posted only shortly before."
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 12
+    conditions: Grey, damp, occasional light drizzle; snow is rare in the city
+    note: "Not freezing, but the damp cold gets into bars without heating. Fine for walking all evening."
+    wear: Warm jacket, a sweater, closed shoes
+  - type: pairs_well
+    items:
+      - id: dujiangyan-zhongshuge-bookstore
+        note: "Christmas Day trip: the mirrored-staircase bookstore outside Chengdu"
+      - id: chongqing-drone-light-show
+        note: "Saturday Dec 26 in Chongqing: the 20:30 drone show, if it runs (December dates not posted yet)"

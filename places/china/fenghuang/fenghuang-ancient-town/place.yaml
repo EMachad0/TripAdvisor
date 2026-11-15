@@ -1,0 +1,123 @@
+id: fenghuang-ancient-town
+name: "Fenghuang Ancient Town"
+short_name: Fenghuang old town
+name_local: 凤凰古城
+name_romanized: Fènghuáng Gǔchéng
+country: china
+city: fenghuang
+area: Tuojiang riverfront
+category: culture
+fame: hidden
+tags: [old-town, stilt-houses, river, night-view, free, miao, bar-street]
+kind: See
+why: "Wooden stilt houses over the Tuojiang, a covered bridge and stepping stones, lit from 19:30. Free to walk in; ¥128 only if you want the nine courtyards."
+
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+  note: "Town, bridges and night lights free; optional nine-sight ticket ¥128 (3 days)"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1 night
+best_time: "06:30–08:00 for mist, after 19:30 for lights"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Town open all day, every day; ticketed sights about 08:30–17:30, ticket desks close ~17:00; lights from about 19:30"
+  winter: "No winter closures or Christmas changes found. December averages 4.4–11 °C with about 11 wet days. Chongde Hall, one of the nine ticketed sights, is reported shut through 2026 with no notice. A night cruise runs roughly 19:00–22:00 (one guide); its December schedule was not found."
+
+location:
+  address: "Hongqiao (Rainbow Bridge), Fenghuang Ancient Town, Fenghuang County, Xiangxi, Hunan"
+  address_local: 湖南省湘西州凤凰县 凤凰古城 虹桥
+  lat: 27.9518
+  lng: 109.60184
+  nearest_transit: "Qifeng Square shuttle stop (Line 1 from Fenghuang Gucheng station, ¥7)"
+
+sources:
+  - url: https://chinafortravelers.com/guides/fenghuang-ancient-town/
+    title: "China for Travelers (2026-08-13: free entry, ¥128 ticket incl. day boat, night cruise ¥80–120, lights ~19:30, mist 06:30–08:00)"
+    checked: 2026-11-12
+  - url: https://m.163.com/dy/article/L38ECEVD0556GRK9.html
+    title: "2026 Hunan prices — NetEase (2026-08-01: town free, nine-sight ticket ¥128, boat ¥158, bar-street rooms loud until 1 am)"
+    checked: 2026-11-12
+  - url: https://unusualnomad.com/fenghuang-ancient-town-travel-guide/
+    title: "Fenghuang Ancient Town guide — Unusual Nomad (2026-08-09: generally free, boats from North Gate wharf, Nanhua Bridge view, one night)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Fenghuang_County
+    title: "Fenghuang County — Wikipedia (CMA 1991–2020 normals: December 4.4–11.0 °C, 10.8 wet days, 2 snow days)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Free entry and the ¥128 nine-sight ticket agree in two 2026 sources. The boat does not: China for Travelers says the day boat is inside the ¥128 ticket and night cruises cost ¥80–120; NetEase lists the boat at ¥158. No official price page opened (Ctrip's pages are behind a bot check). No December river-level, crowd or night-cruise data found. Pin is Hongqiao, the town's centre."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: tuojiang
+    hook: A garrison town from 1704 whose wooden houses stand on stilts in the river.
+    caption: The Tuojiang through the old town, seen from the East Gate side
+  - type: quick_facts
+    time_needed: 1 night
+    best_time: Dawn mist, then after 19:30
+    extra:
+      - { label: Entry, value: Free, detail: "¥128 nine-sight ticket optional, 3 days" }
+      - { label: Bar noise, value: "Till ~1 am", detail: "Nanhua Bridge to Hongqiao; posted quiet hours 23:30" }
+      - { label: From the station, value: "~7.5 km", detail: "Shuttle ¥7, taxi ~¥25–30, or maglev" }
+  - type: highlights
+    items:
+      - title: Stilt houses on the Tuojiang
+        text: "Rows of wooden *diaojiaolou* hang over green water on both banks. The best free panorama is the far-bank stretch between the **Wanming Pagoda** and the Feng Bridge."
+      - title: Hongqiao and the stepping stones
+        text: "The covered **Hongqiao** bridge is free to cross; only its upstairs gallery is ticketed. Below the **North Gate** a line of stepping stones crosses the river: empty early, a queue by mid-morning in busy months."
+      - title: The lights
+        text: "From about **19:30** the riverfront lights double in the water. **Nanhua Bridge** gives the wide view (Unusual Nomad); after about 22:30 the crowds thin."
+      - title: Nine courtyards, if you want them
+        text: "The ¥128 ticket covers the **Shen Congwen** and Xiong Xiling residences, halls, the East Gate tower and the Hongqiao gallery. One guide says paying per sight (about ¥20 for Shen Congwen) is cheaper if you skip the boat."
+  - type: prose
+    title: A one-night plan
+    dropcap: true
+    text: |-
+      **Afternoon.** Arrive on a morning or midday train from Zhangjiajie West, take the Line 1 shuttle to Qifeng Square, and drop your bag. Walk the loop: out through the lanes, across Hongqiao, along the far bank past the Wanming Pagoda, and back over the stepping stones below the North Gate.
+
+      **Evening.** Be on Nanhua Bridge or the far bank around 19:30 when the lights come on. The strip between Nanhua Bridge and Hongqiao is the bar street: a beer there is the social part of the night. If you want the river from the water, the night cruise runs roughly 19:00–22:00 on its own ticket.
+
+      **Morning.** Set an alarm for 06:30. China for Travelers says the mist on the river until about 08:00, with locals washing and fishing below the stilt houses, is what Chinese photographers rate above the lights. Then breakfast, a last walk, and the 16:38 G3376 to Chongqing, or an earlier train back to Zhangjiajie West.
+  - type: gallery
+    images:
+      - { file: hongqiao-night, caption: "Hongqiao lit up at night" }
+  - type: quote
+    variant: vibe
+    text: River mist at dawn, lanterns at dusk, and stone steps cold underfoot in between.
+  - type: cost_breakdown
+    items:
+      - { label: Entering the town, local: 0, brl: 0 }
+      - { label: Shuttle from the station and back, local: 14, brl: 11.57, optional: true }
+      - { label: Nine-sight ticket (3 days), local: 128, brl: 105.82, optional: true }
+      - { label: Night cruise (one guide's range ¥80–120), local: 80, brl: 66.14, optional: true, estimate: true }
+  - type: map
+    note: "Show the driver **凤凰古城 虹桥**. The shuttle's Line 1 stops at Qifeng Square near Hongqiao; Line 2 at Nanhuali, the upstream end."
+  - type: tips
+    variant: insider
+    items:
+      - "Skip the ¥128 ticket unless you want the boat: the river, bridges, stepping stones and lights are all free."
+      - "Sleep upstream of Nanhua Bridge or downstream of Hongqiao if you want quiet; riverside rooms in between face the bar strip."
+      - "Day boat boards at the **North Gate pier**; the night cruise has its own pier near Wanshou Palace (China for Travelers)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Riverbank touts offering a cheap private boat are not the licensed service; the price is made up on the spot."
+      - "Costume-photo boards (\"all-in ¥199\") end with add-ons; agree what's included first."
+      - "Street-sold Miao-village day tours make their money in a silver and medicine shop."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: Cool, damp and often grey
+    note: "December normals 4.4–11.0 °C, 10.8 wet days, 2 snowy days. You spend the evening outdoors by the water and the old houses are unheated."
+    wear: Warm jacket, hat for the evening, shoes with grip for wet steps
+  - type: pairs_well
+    items:
+      - { id: fenghuang-hemu-house, note: "Hostel inside the old town, 0.4 km from the centre" }
+      - { id: tianmen-mountain, note: "Zhangjiajie, 1 h back up the line" }
+      - { id: hongcun-village, note: "The other old-village option on the route: ticketed, quieter" }

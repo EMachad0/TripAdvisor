@@ -1,0 +1,128 @@
+id: beijing
+country: china
+name: "Beijing"
+name_local: 北京
+region: North China
+scope: city
+cities: [beijing]
+why: "The imperial capital in a dry, bright, freezing winter: the Forbidden City for ¥40, the Great Wall at Mutianyu 70 km out, hutong alleys, and Peking duck in the city that invented it. Eight UNESCO sites in one stop."
+best_for: [culture, food, day-trip, nightlife]
+highlights: ["Forbidden City", "Great Wall at Mutianyu", "Hutongs around Gulou", "Peking duck", "Temple of Heaven", "Sanlitun nights"]
+days_suggested: { min: 3, max: 5 }
+cost_level: medium
+fame: iconic
+lat: 39.9067
+lng: 116.3975
+getting_there: "From Shanghai: 4–4.5 h on the fastest trains to Beijing South, about ¥600 in 2nd class; a slow hard sleeper is about ¥300. Harbin is about 4.5 h on the fastest train from Beijing Chaoyang, ¥600–648."
+getting_around: "Subway: ¥3–10 a ride, about 05:15–22:45, and it reaches every big sight in the city. Buses from ¥2. The Great Wall needs a bus or coach out of town. Taxis can't enter the Gulou hutongs."
+winter_note: "Below freezing most of the time: average lows of −5 to −7 °C and highs of 2–4 °C in Dec–Jan, and nights can drop below −10 °C. It is dry and sunny, with snow on about 3 days a month. The Forbidden City runs winter hours (08:30–16:30, last entry 15:30, closed Mondays) at the low-season price. Lake skating depends on the ice: Houhai opened on 20 Jan in 2026, so check the 2026–27 date in December."
+image: forbidden-city-snow
+sources:
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: Beijing — Wikipedia (coordinates, climate normals 1991–2020, UNESCO sites, hutongs)
+    checked: 2026-11-10
+  - url: https://intl.dpm.org.cn/visit.html?l=en
+    title: Visit — The Palace Museum (official; hours, prices, booking)
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Beijing
+    title: Beijing — Wikivoyage (subway, airports, districts, Great Wall sections)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Mutianyu
+    title: Mutianyu — Wikipedia
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/destinations/beijing/great-wall/mutianyu-great-wall/
+    title: "Mutianyu Great Wall 2026: Tickets, Cable Car & Routes — Wander in China (2026-09-08)"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/china_great_wall/scene/beijing/mutianyu.htm
+    title: Mutianyu Great Wall — TravelChinaGuide (updated 2026-10-20; prices, hours, buses, walking times)
+    checked: 2026-11-10
+  - url: https://en.mutianyugreatwall.com/article/4Sfg4mr302D
+    title: Mutianyu Great Wall official site — ticket and fee notice (2026-08-05)
+    checked: 2026-11-10
+  - url: https://en.mutianyugreatwall.com/article/4DnYNPtz09s
+    title: Mutianyu Great Wall official site — opening hours (2023-07-21)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Grand_Canal_(China)
+    title: Grand Canal (China) — Wikipedia (starts in Beijing; UNESCO-listed 2014)
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/transport/intercity/beijing-shanghai/
+    title: "Beijing–Shanghai: High-Speed Train vs. Flight — Wander in China (2026-06-22)"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/beijing-to-harbin/
+    title: Beijing to Harbin by train — China for Travelers (updated 2026-10-14)
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/destinations/beijing/accommodation/
+    title: Where to Stay in Beijing — Wander in China (2026-10-29)
+    checked: 2026-11-10
+  - url: https://english.beijing.gov.cn/consuminginbeijing/onlyinbeijing/iceandsnow/updatesoficeandsnow/202601/t20260122_4455415.html
+    title: Recommendations for Ice Rinks in Beijing — Beijing government (2026-01-22)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Peking_duck
+    title: Peking duck — Wikipedia
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Forbidden City facts are official. Mutianyu entry is ¥45 on the official Aug 2026 notice, ¥40 on an Oct guide; lift, bus and coach prices are from that guide; the official hours page is dated 2023. Train fares are from guides, not 12306. Rink dates are for 2025–26. No hostel or food prices verified. The beijing.gov.cn page times out in atr links but opened in a web fetch."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: Six centuries of palace roofs under snow, seen from the hill the emperors built behind it.
+    caption: The Forbidden City after snow, January 2020
+    focus: "50% 75%"
+  - type: highlights
+    title: What earns the days
+    items:
+      - title: The Forbidden City for R$33
+        text: "Low-season entry (Nov–Mar) is **¥40**, with two side galleries at ¥10 each. Open 08:30–16:30, last entry 15:30, **closed Mondays**. There are no same-day tickets: book online with your passport number. The cap is 40,000 visitors a day."
+      - title: The Great Wall at Mutianyu
+        text: "A restored **2,250 m** stretch with 22 watchtowers, 70 km out. Entry is **¥40–45** (R$33–37) plus a ¥15 shuttle. Walking up takes 30–40 minutes and is free; the cable car is ¥100 one way (R$83). Winter hours are 08:00–17:30, last entry 17:00."
+      - title: Hutong life around Gulou
+        text: "The alleys between courtyard houses are what is left of old Beijing, and whole blocks keep disappearing under high-rises. The Drum Tower, Nanluoguxiang and the Shichahai lakes are the area to walk."
+      - title: Peking duck at the source
+        text: "The dish was developed here: crisp skin carved at the table and rolled in pancakes with spring onion, cucumber and sweet bean sauce. **Bianyifang** dates from 1416 and **Quanjude** from 1864."
+      - title: Eight UNESCO sites
+        text: "Beyond the palace: the Temple of Heaven, the Summer Palace, the Ming Tombs, the Central Axis, and stretches of the Great Wall and the Grand Canal. Three or four days cover the main ones."
+      - title: Sanlitun after dark
+        text: "The city's best-known nightlife district, with its highest concentration of bars and international restaurants. It is in Chaoyang, east of the old centre, on Subway Line 17."
+  - type: prose
+    title: What a few days here feel like
+    dropcap: true
+    text: |-
+      Beijing in December is cold, hard and clear. The air is dry, the sky is blue more often than not, and the big imperial sites are built for that light: red walls, yellow tiles, bare trees. When it does snow, about three days a month, the Forbidden City photo everyone wants is on offer.
+
+      It is the stop on the China route with the most history per day. Give the palace a morning, the Wall a full day, and the hutongs an afternoon on foot with duck for dinner. The Temple of Heaven and the Summer Palace fill a fourth day.
+
+      **Where to base.** For budget and atmosphere, the hutongs around **Gulou** in Dongcheng. Know what you are booking: old courtyard buildings are poorly insulated and cold in winter, many cheap guesthouses have no private bathroom, and taxis drop you on the main road. **Wangfujing** is the easy option, on Line 1 and walking distance from the Forbidden City. **Sanlitun** is for nights out. Confirm that the place registers foreign passports before paying for a non-refundable bed.
+
+      Beijing sits between the other northern stops: a fast train from Shanghai on one side and from Harbin on the other.
+  - type: gallery
+    images:
+      - { file: mutianyu-aerial, caption: "The Wall at Mutianyu in September. In winter the hills are bare and brown" }
+      - { file: hutong, caption: "A restaurant front in a Beijing hutong" }
+      - { file: peking-duck, caption: "Peking duck in Beijing, carved with the skin on" }
+      - { file: cbd-skyline, caption: "The modern side: the CBD skyline from the north-east at dusk" }
+      - { file: shichahai-ice-rink, caption: "The Shichahai ice rink in mid-January 2024. In 2026 it opened on 20 January" }
+  - type: quote
+    variant: vibe
+    text: Blue sky, red walls, frozen lakes, and your breath in the air on the way to dinner.
+  - type: tips
+    variant: insider
+    items:
+      - "Plan the week around the **Monday closure** of the Forbidden City, and book it before anything else: tickets are online only, tied to your passport number."
+      - "Cheapest Mutianyu day: the **916 Express** from Dongzhimen (¥16) to Huairou Beidajie, then bus H23, H24, H35 or H36, 2–2.5 h in all. Simpler: the tourist coach from Dongzhimen at 09:10, **¥80 return** (R$66), back between 13:00 and 16:00."
+      - "Walk up from the south gate to tower 6 or 8 and skip the lifts: with the coach, entry and shuttle the day costs about ¥135–140 (R$112–116). The cable car adds ¥140 return (R$116)."
+      - "Mutianyu tickets are real-name, one per passport per day, and open up to **15 days ahead**. Bring the same passport."
+      - "The Airport Express from Capital Airport costs ¥25 (R$21) and takes about 25 minutes; from Daxing it is ¥35 (R$29)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The subway stops at about **22:45**. A late night in Sanlitun ends in a taxi."
+      - "The Mutianyu toboggan and lifts depend on the weather, and the steps get slippery with snow or ice. Keep a plan for walking down."
+      - "Check the air-quality (AQI) and wind forecast before the Wall day, and keep that day flexible so you can move it."
+      - "Don't count on lake skating. Opening depends on the ice each year: in 2025–26 Houhai and the Summer Palace's Kunming Lake opened on 20 January and Peking University's Weiming Lake on 17 January, all after this trip's China dates. Check the 2026–27 dates in December."
+  - type: weather
+    temp_low_c: -7
+    temp_high_c: 4
+    conditions: Dry, sunny and below freezing; snow about 3 days a month
+    note: "Cold but easy to plan around: over 60% of possible sunshine in both months and almost no rain. Central heating runs from about 15 November to 15 March. The Wall is exposed, and wind, snow and ice make the stone steps hard going, so it is the one day that depends on the forecast."
+    wear: Down jacket, thermal layers, gloves, hat, shoes with grip; lip balm for the dry air

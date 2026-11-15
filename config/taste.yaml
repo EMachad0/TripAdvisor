@@ -1,0 +1,162 @@
+# What the traveler SAID they want (stated taste). Source: docs/TASTE.md (answers from 2026-11-10).
+# Owner: orchestrator. Curators read it through `./atr taste`, `./atr next` and `./atr gaps`; they never edit it.
+# What the traveler DOES in the game (swipes, duels, questions) lives in feedback/ and is read by `./atr feedback`.
+updated: 2026-11-10
+
+# The traveler knows the famous spots and feels there is a lot they don't know, especially in China.
+# So: cover the icons, but a good share of every country should be places they have not heard of.
+goal: discovery
+
+# 0 = not interested … 3 = loves it. Soft signal ("this all depends a lot"). Keys are place categories.
+interests:
+  culture: 2      # history and temples
+  food: 3         # food and markets
+  nightlife: 2    # clubs/parties 2, bars 1 (see tags)
+  nature: 2       # nature and hikes
+  odd-local: 2
+  views: 3        # views and architecture
+  shopping: 1     # shopping and flea markets
+  shows: 2        # shows and sports
+  day-trip: 1
+
+# Finer signals by tag. weight uses the same 0–3 scale and overrides the category weight for places with that tag.
+tags:
+  - tag: museum
+    weight: 0
+    note: Only a Louvre-level, must-go museum is worth a card. Say on the page why it clears that bar.
+  - tag: club
+    weight: 2
+    note: Famous clubs, the ones people travel for.
+  - tag: bar
+    weight: 1
+    note: Bars matter mostly as a way to meet people from the hostel.
+  - tag: temple
+    weight: 2
+  - tag: esports
+    weight: 3
+    note: T1 fan. LoL Park, T1 Base Camp, a live LCK match.
+  - tag: gaming
+    weight: 2
+    note: Interesting gaming cafés, PC bangs, arcades.
+  - tag: anime
+    weight: 2
+    note: Your Name locations, Ado, Yakuza-game locations.
+  - tag: cars
+    weight: 2
+    note: Car culture (Daikoku PA), factory tours (BYD).
+  - tag: cold-outdoors
+    weight: 3
+    note: "Cold outdoor plans: yes, sounds awesome (Harbin ice festival, snow, ice festivals in Korea)."
+
+# Where to sleep is part of the plan. Stay cards (category `stay`) are wanted for every city that gets places.
+stay:
+  wanted: true
+  per_city: 2
+  note: Social hostels where a solo traveler meets people to go out with. Also capsule/pod hotels, at least once in Japan.
+
+nightlife: Famous places, plus going out with people from the hostel.
+budget: Fine going over the daily budget sometimes, but no crazy spending on a single thing.
+
+# Things the traveler asked for by name. `said` is their exact words. `hint` is the orchestrator's guess: verify it.
+# A place or area claims an item with `must_do: <key>`. Several places may claim the same key (e.g. two clubs).
+# `type` says what covers it: place (default), area (an area card) or stay (a Stay card).
+must_do:
+  - key: infinity-staircase
+    said: the china infinity staircase
+    hint: Probably the mirrored "Escher" staircase of a Zhongshuge bookstore (Chongqing branch is the viral one). Verify which staircase it is.
+    country: china
+  - key: great-wall
+    said: great wall of china
+    hint: Pick the section that suits a solo winter traveler (Mutianyu, Jinshanling, Jiankou) and say why.
+    country: china
+    city: beijing
+  - key: cyberpunk-city
+    said: cyberpunk city
+    hint: Chongqing. Hongyadong, Liziba monorail through a building, layered streets, night views.
+    type: area
+    country: china
+    city: chongqing
+  - key: byd-factory
+    said: byd factory if possible
+    hint: BYD headquarters or factory tour in Shenzhen. Check whether individual foreigners can visit at all.
+    country: china
+    city: shenzhen
+  - key: china-clubs
+    said: china famous clubs
+    hint: The famous clubs (Shanghai, Chengdu, Chongqing…).
+    country: china
+    want: 3
+  - key: shibuya
+    said: shibuya
+    hint: Shibuya crossing, Shibuya Sky, the nightlife around it.
+    country: japan
+    city: tokyo
+  - key: yakuza-crab
+    said: yakuza crab
+    hint: The giant crab sign at Dotonbori (Kani Doraku), "Sotenbori" in the Yakuza games. Kabukicho is "Kamurocho".
+    country: japan
+    city: osaka
+  - key: car-meet
+    said: car meet japan island
+    hint: Daikoku PA car meet on the artificial island in Yokohama. Often closed by police, check how to get there without a car.
+    country: japan
+    city: yokohama
+  - key: your-name-stairs
+    said: your name staircase
+    hint: Suga Shrine stairs in Yotsuya.
+    country: japan
+    city: tokyo
+  - key: japan-clubs
+    said: japan clubs
+    hint: Famous clubs in Tokyo and Osaka.
+    country: japan
+    want: 2
+  - key: capsule-hotel
+    said: pod sleep capsule
+    hint: A capsule hotel stay (a Stay card). Japan first, other countries too if good.
+    type: stay
+    country: japan
+  - key: chongqing-luxury-night
+    said: I have seen some videos where great hotels, sometimes even luxurious ones, go very cheap in China. Spawn a curator for the luxury night in Chongqing.
+    hint: One splurge night in a real five-star in Chongqing (skyline or river view), Dec 26 – Jan 2. An extra option, not a replacement, the hostels and Merica stay on the list. Also said (2026-11-15) that more nights at Merica Hotel could be worth it, e.g. the work nights Dec 28–30.
+    type: stay
+    country: china
+    city: chongqing
+  - key: gaming-cafe
+    said: interesting gaming cafe if any
+    hint: Gaming cafés, PC bangs, arcades worth a visit. Any country.
+  - key: t1
+    said: some t1 related stuff
+    hint: T1 Base Camp, LoL Park, a T1 match (LCK season starts around mid-January; the traveler is in Seoul Jan 10–20).
+    country: korea
+    city: seoul
+  - key: japanese-temple
+    said: japanese temple
+    hint: Temples, Kyoto above all.
+    country: japan
+  - key: ado
+    said: Something Ado related
+    hint: Ado (singer). Concerts, pop-ups or collab cafés during Jan 20 – Feb 4, 2027 (Osaka live Jan 30–31).
+    country: japan
+  - key: ghost-town
+    said: Japanese ghost towns if not too out of way
+    hint: Hashima/Gunkanjima is far (Nagasaki). Look for abandoned sites closer to the Tokyo–Kyoto–Osaka route.
+    country: japan
+  - key: downhill-carts
+    said: thailand downhill little car races (gravity karts / mountain kart rides you ride yourself)
+    hint: NOT Formula Hmong. A ride-it-yourself gravity cart down a mountain track, luge-style. Known lead — Skyline Jungle Luge, Doi Saket near Chiang Mai (~2.1 km). Look for any closer to Bangkok (Pattaya, Khao Yai, Kanchanaburi) and say which fits a free weekend (Jan 2–3 or 9–10). Powered go-karts don't count.
+    country: thailand
+  - key: red-light-district
+    said: red light districts
+    hint: Bangkok's walk-through nightlife strips Soi Cowboy, Nana Plaza and Patpong (Patpong also has a night market). Say what to expect, how to stay safe (drink prices, touts, ping-pong-show scams) and which strip fits a weekend night best. Pattaya Walking Street only if a Pattaya page exists.
+    country: thailand
+    want: 2
+  - key: china-dragons
+    said: dragon stuff
+    hint: Dragon sights that fit Dec 6 – Jan 2 (Lunar New Year and dragon boats fall outside it). E.g. Beijing's Nine-Dragon Walls, Jade Dragon Snow Mountain (Lijiang), Longji "Dragon's Backbone" terraces, Longmen Grottoes, dragon dances or ice dragons at Harbin. Verify each and prefer the striking ones.
+    country: china
+    want: 3
+  - key: jewel-changi
+    said: could we do a layover on Jewel Changi in Singapore just so I can see it?
+    hint: Jewel Changi Airport (Rain Vortex waterfall, its evening light-and-sound show, Shiseido Forest Valley). The whole Singapore stop exists for this. The traveler would rather stay at or near the airport and only go into the city if a day at the airport is too boring. The plan is to land mid-afternoon and stay airport-only; the city is the fallback for a midday landing.
+    country: singapore

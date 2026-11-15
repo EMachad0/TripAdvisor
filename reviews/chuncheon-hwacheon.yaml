@@ -1,0 +1,25 @@
+# Independent review of area chuncheon-hwacheon. Written by `./atr review`; do not edit by hand.
+id: chuncheon-hwacheon
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 252cffdceb154edb3b8bebea8a43757aea9c21ebb45a605117dc61d2fd04de2f
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: getting_there
+    problem: The facts strip gives only the 2 h 35 return time for the Dong Seoul–Hwacheon bus. The outbound trip in the same timetable is 2 h 55, and the last bus out of Dong Seoul leaves at 18:10. Those are the numbers the traveler needs to plan the outbound leg of a festival day.
+    evidence: "getting_there now reads 'bus from Dong Seoul 2 h 55 (first bus 06:45, last 18:10), back 2 h 35 (last bus 21:00), ₩14,400 each way (2026 timetable)'. This matches http://www.narafestival.com/01_icenara/?wr_id=8: 동서울→화천 \"06:45(첫차)~18:10(막차)\", \"02:55\"; 화천→동서울 \"06:40(첫차)~21:00(막차)\", \"02:35\"."
+  - field: blocks[1].items[3].text
+    problem: The Skywalk's price (₩2,000), card-only rule and Tuesday closure all come from Wikivoyage alone, which is a weak source. The confidence_note says so, but no official Chuncheon tourism page is cited.
+    evidence: "blocks[1].items[3].text now adds 'roughly 10:00–17:30' and 'These details come from Wikivoyage only; check before you go.' Marking the facts as unconfirmed was one of the accepted fixes. Hours match https://en.wikivoyage.org/wiki/Chuncheon: \"10:00-17:30, Closed on Tue\"."
+  - field: blocks[4].items[2]
+    problem: The tip says Nami Island sells cheaper tickets before 08:00 and after 18:01 in Dec–Mar. On the official fee page those conditions sit next to the ₩13,000 'Special' row, which is for children. The page never says adults pay less at those times, so the tip may promise a discount the traveler won't get.
+    evidence: blocks[4].items[2] now adds 'It is unclear whether adults qualify, so check the price at the ferry wharf.' This was the accepted hedge, and it no longer promises adults a discount that https://namisum-en.imweb.me/163 lists only beside the children's 'Special' row.
+rereview_of: 12042d500689ebeb1a8ae8e027d2e02f2302b200b23ff68128ea93f9a1d8300f
+summary: All three earlier findings are resolved. The Hwacheon bus line now gives the outbound time, first and last buses, and the return time from the festival's 2026 timetable. The Skywalk details and the Nami Island early/late ticket tip are now marked as unconfirmed on the page. The edits add no new unsupported facts, and validate passes.
+model: claude-opus-5-5
+cost_usd: 0.264

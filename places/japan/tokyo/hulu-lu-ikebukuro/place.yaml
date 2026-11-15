@@ -1,0 +1,116 @@
+id: hulu-lu-ikebukuro
+name: "Menya Hulu-lu"
+short_name: Hulu-lu
+name_local: 麺屋 Hulu-lu
+name_romanized: Men'ya Fururu
+country: japan
+city: tokyo
+area: Ikebukuro · West side
+category: food
+fame: hidden
+tags: [ramen, shio, chicken, cash-only]
+kind: Eat
+why: "A Hawaiian-café ramen shop in back-street Ikebukuro — clear chicken shio with house noodles for ¥970, but check the day: some days it serves only one thing."
+cost:
+  local: 970
+  currency: JPY
+  brl: 34.11
+  note: "Shio SOBA ¥970 on the official menu (Nov 2026); special version ¥1,400. Cash only"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 40 min + the queue
+best_time: Wed, Thu, Sat or Sun at 11:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon, Wed–Sat and holidays 11:00–15:00 & 17:30–21:00; Sun 11:00–15:30"
+  closed: Tuesdays
+  winter: "Fridays are tsukemen-only, 2nd and 4th Mondays serve only abura soba and egg noodles, and the 1st of each month is tomato ramen only. In your Japan window (Jan 20 – Feb 4, 2027) that means **no shio** on Fri Jan 22 and 29, Mon Jan 25 and Mon Feb 1 (tomato day), and closed on Tue Jan 26 and Feb 2. Holidays keep normal hours (Tabelog). No New Year notice was posted when checked (Nov 2026)."
+
+location:
+  address: 2-60-7 Ikebukuro, Toshima-ku, Tokyo
+  address_local: 東京都豊島区池袋2-60-7
+  lat: 35.734
+  lng: 139.70884
+  approximate: true
+  nearest_transit: Ikebukuro Sta. — Fukutoshin Line Exit C6 5 min; JR West Exit 10 min
+
+sources:
+  - url: https://www.hulu-lu.net/menu/
+    title: Menya Hulu-lu official menu (prices, day-limited bowls)
+    checked: 2026-11-12
+  - url: https://www.hulu-lu.net/
+    title: Menya Hulu-lu official site (hours, closed Tuesday, day rules, Hyakumeiten)
+    checked: 2026-11-12
+  - url: https://tabelog.com/en/tokyo/A1305/A130501/13136428/
+    title: Menya Hulu-lu — Tabelog (cash only, 11 seats, no reservations, Oct 2026 reviews)
+    checked: 2026-11-12
+  - url: https://www.timeout.com/tokyo/restaurants/hulu-lu
+    title: Hulu-Lu — Time Out Tokyo
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices, hours and day rules from the official site (© 2026) and Tabelog; Tabelog reviews from Oct 2026 show it open. Saturday hours are Tabelog's (the official site lists only weekdays and Sunday); Time Out's older hours differ. The map pin is the Ikebukuro 2-chome block, not the shop's door. No free photo of the shop or its bowls exists on Commons."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: A Hawaiian café look, Kibi black chicken in the pot, and noodles made with Hawaiian water.
+  - type: quick_facts
+    time_needed: 40 min + the queue
+    best_time: Wed, Thu, Sat or Sun at 11:00
+    extra:
+      - { label: Style, value: Shio (and shoyu), detail: "Chicken and aromatic-veg soup, house noodles" }
+      - { label: Pay, value: Cash only, detail: "No cards, IC or QR (Tabelog)" }
+      - { label: Seats, value: 11, detail: 5 counter seats + tables }
+  - type: highlights
+    items:
+      - title: Chicken, done clear
+        text: The base is **Kibi black chicken, whole chicken and aromatic vegetables** — light, fragrant, the opposite of a tonkotsu bomb.
+      - title: Award shelf
+        text: "The shop says it won a **ramen grand prix**, and it was in Tabelog's **Hyakumeiten** (Top 100) five years running, **2017–2021**."
+      - title: Hawaii in Ikebukuro
+        text: Opened in 2012 by the former manager of the famed Chabuya; the room looks like a **Hawaiian café**, the noodles are reportedly made with **Hawaiian water**, and sets come with **Spam**.
+      - title: Under ¥1,000
+        text: "Shio or shoyu SOBA for **¥970 (R$34)**, about the price of a cheap meal."
+  - type: prose
+    title: Read the calendar first
+    text: |-
+      Hulu-lu runs a rota. **Fridays** are tsukemen-only (curry, spicy or miso dips). The **2nd and 4th Mondays** serve only abura soba and TKM, a raw-egg noodle bowl. The **1st of each month** is "Tomato.Hulu-lu", tomato ramen and tomato tsukemen only. **Tuesdays** it's closed.
+
+      For the shio, aim for a **Wednesday, Thursday, Saturday or Sunday**. Thursdays and Saturdays also bring a limited chicken paitan, and Sundays and Mondays a light niboshi bowl.
+  - type: menu
+    items:
+      - { name: Shio SOBA, name_local: 塩SOBA, price_local: 970, price_brl: 34.11, note: "Clear chicken shio, the reason to come", tag: must-try }
+      - { name: Special shio SOBA, name_local: 特製塩SOBA, price_local: 1400, price_brl: 49.24, note: With all the toppings }
+      - { name: Shio SOBA + Spam set, name_local: 塩SOBAスパムセット, price_local: 1350, price_brl: 47.48, note: The Hawaiian touch }
+      - { name: Shoyu SOBA, name_local: 醤油SOBA, price_local: 970, price_brl: 34.11, note: "Time Out calls it the signature: mild, with green onion and yuzu" }
+      - { name: Soy-milk tantanmen, name_local: 豆乳担々麺, price_local: 1130, price_brl: 39.74 }
+      - { name: Chicken paitan SOBA, name_local: 鶏パイタンSOBA, price_local: 1050, price_brl: 36.93, note: Thursdays and Saturdays only }
+    note: Prices incl. tax from the official menu (checked Nov 2026).
+  - type: cost_breakdown
+    items:
+      - { label: Shio SOBA, local: 970, brl: 34.11 }
+      - { label: Upgrade to Spam set, local: 380, brl: 13.36, optional: true }
+  - type: map
+    note: "From the JR West Exit, turn right at the five-way junction, cross Ikebukuro 2-chome, and turn left at the first FamilyMart (directions from Tabelog)."
+  - type: tips
+    variant: insider
+    items:
+      - "Check the day before you go: **Friday = tsukemen**, **1st of the month = tomato**, **2nd/4th Monday = abura soba**."
+      - "Bring **cash**; nothing else is accepted."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Closed Tuesdays**, and Sunday has no evening service: it closes at 15:30."
+      - "It's on the **west side**, 10 minutes from the JR West Exit, away from the big east-side shopping streets."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: Any queue is outside on a quiet residential street; inside it's warm and calm.
+    wear: Coat and gloves
+  - type: pairs_well
+    items:
+      - { id: mikado-game-center-takadanobaba, note: "Retro arcade 2 stops south on the Yamanote line" }

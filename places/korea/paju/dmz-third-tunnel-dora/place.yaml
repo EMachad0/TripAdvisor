@@ -1,0 +1,162 @@
+id: dmz-third-tunnel-dora
+name: "DMZ: Third Tunnel and Dora Observatory"
+short_name: The DMZ
+name_local: 제3땅굴 · 도라전망대
+name_romanized: Je-3 Ttanggul · Dora Jeonmangdae
+country: korea
+city: paju
+area: Imjingak · Dorasan
+category: day-trip
+fame: iconic
+tags: [cold-outdoors, history, border, passport]
+kind: Do
+why: "Walk down into a North Korean invasion tunnel, then look across the border at Kaesong. Paju city's own shuttle tour costs ₩12,200; JSA is still closed."
+
+cost:
+  local: 12200
+  currency: KRW
+  brl: 50.70
+  note: "Paju city Course A, adult, monorail into the tunnel (₩9,200 on foot). Train to Imjingang station extra"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Full morning: 3 h course + travel"
+best_time: "Sun 10 Jan, your free day, on an early run"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "Online seats are limited; otherwise queue at the counter before 09:00"
+  method: website
+  links:
+    - label: "Paju DMZ Peace Tour (official)"
+      url: "https://dmz.paju.go.kr:8443/Home/H20000/H20600/H20601/html"
+      note: "How to book: 실시간예약 > 개인. Korean only; only 14 of 44 seats per run are sold online"
+    - label: "Klook tour (unverified example)"
+      url: "https://www.klook.com/activity/75287-tour-dmz-seoul-guide"
+      note: "Example of a guided tour with Seoul pickup. Price and stops not checked: the page blocks bots"
+  passport: true
+  notes: "The official course has no guide. If the Korean booking form fails without a Korean phone, buy at the Imjingak counter (09:00–14:30, first come, sells out early). DMZ Insider listed a GetYourGuide tour from US$42 in Nov 2026."
+
+hours:
+  summary: "Counter 09:00–14:30. Shuttles Tue–Fri 09:20–14:40 (10 runs), more runs at weekends. Course A takes about 3 h"
+  closed: "Mondays and weekday public holidays"
+  winter: "Closed Mondays (11 and 18 Jan 2027 in your Korea days) and on weekday public holidays; none falls 10–20 Jan. The operator warns that snow can close DMZ access for safety, and security or weather can cancel any run. Dora Observatory's road was shut 23–30 Nov 2026 for repairs, possibly longer: check the notices. Seollal 2027 falls after the trip."
+
+location:
+  address: "DMZ Peace Tour office, 148-57 Imjingak-ro, Munsan-eup, Paju"
+  address_local: 경기도 파주시 문산읍 임진각로 148-57
+  lat: 37.88958
+  lng: 126.74011
+  nearest_transit: "Imjingang station (Gyeongui–Jungang line), then bus 058A/058B or 20 min walk"
+  approximate: true
+
+sources:
+  - url: https://dmz.paju.go.kr:8443/Home/H20000/H20100/html
+    title: "Paju DMZ Peace Tour (official, Korean): visiting info, closures, ID rules, counter hours, photo ban"
+    checked: 2026-11-12
+  - url: https://dmz.paju.go.kr:8443/
+    title: "Paju DMZ Peace Tour (official, Korean): fees and 2026 individual shuttle timetable"
+    checked: 2026-11-12
+  - url: https://dmz.paju.go.kr:8443/Home/H30000/H30200/boardList
+    title: "Paju DMZ Peace Tour (official, Korean): FAQ, same-day tickets, snow closures, passport"
+    checked: 2026-11-12
+  - url: https://dmz.paju.go.kr:8443/Home/H10000/H10300/html
+    title: "Paju DMZ Peace Tour (official, Korean): directions, Imjingang station, bus 058A/058B"
+    checked: 2026-11-12
+  - url: "https://dmz.paju.go.kr:8443/Home/H30000/H30100/boardView?board_key=517"
+    title: "Paju DMZ Peace Tour notice, 23 Oct 2026: Dora Observatory road closed 23–30 Nov 2026"
+    checked: 2026-11-12
+  - url: https://dmzinsidertour.com/dmz-vs-jsa-access/
+    title: "DMZ Insider: DMZ vs JSA access, JSA closed as of 10 Nov 2026"
+    checked: 2026-11-12
+  - url: https://dmzinsidertour.com/dmz-tour-from-seoul/
+    title: "DMZ Insider: DMZ tours from Seoul, prices checked Nov 2026"
+    checked: 2026-11-12
+  - url: https://thriftynomads.com/visiting-north-koreas-dmz-border-a-how-to-guide/
+    title: "Thrifty Nomads: how to visit the DMZ (updated 11 Oct 2026), JSA suspended since July 2023"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Third_Tunnel_of_Aggression
+    title: Third Tunnel of Aggression (Wikipedia)
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Dora_Observatory
+    title: Dora Observatory (Wikipedia)
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Paju
+    title: "Paju climate normals 2002–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Fees, timetable, closures and ID rules: Paju city site (Korean), read 12 Nov 2026; the 2027 timetable is not out. Whether foreigners can book online without a Korean phone is stated nowhere. Klook link is from web search (403 to bots); price unchecked. JSA status is from two guides dated Oct–Nov 2026. Train fare and time to Imjingang are on no source I opened. Pin is Imjingak park."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: dora-winter
+    caption: "Dora Observatory's old building in winter. Tours have used a newer one since 2024"
+    hook: "73 metres under the border, then binoculars on North Korea: the Cold War, 44 km from Seoul."
+  - type: quick_facts
+    time_needed: "Full morning: 3 h course + travel"
+    best_time: "Sun 10 Jan, your free day, on an early run"
+    extra:
+      - { label: JSA (Panmunjom), value: Closed, detail: "Suspended since July 2023; no reopening date" }
+      - { label: Bring, value: Your physical passport, detail: "No copies or photos; no entry without it" }
+      - { label: Guide, value: None on the city tour, detail: "Paid tours from Seoul add one" }
+  - type: highlights
+    items:
+      - title: Inside an invasion tunnel
+        text: "The **Third Tunnel**, found in 1978, runs about **73 m** below ground in bedrock, 44 km from Seoul. You go down by monorail or on foot (₩3,000 cheaper) and walk the cramped tunnel toward the line."
+      - title: Looking into North Korea
+        text: "From **Dora Observatory** on Dorasan, binoculars pick out the **Kijong-dong** propaganda village and the city of **Kaesong**."
+      - title: Not a tour bus price
+        text: "Paju city runs the official course itself: Imjingak → Third Tunnel → Dora Observatory → Unification Village → Imjingak, about 3 hours, **₩12,200**."
+      - title: Imjingak before the gate
+        text: "The shuttle starts at **Imjingak**, the one part of the area you can visit on your own, with the Peace Bell and memorials facing the Imjin River."
+  - type: prose
+    title: What's open, honestly
+    dropcap: true
+    text: |-
+      The famous part, the **Joint Security Area at Panmunjom**, has been closed to tourists since **July 2023**, when a US soldier crossed into the North during a tour. Guides checked in October and November 2026 still list it as closed, with no reopening date. Any tour that sells "JSA" today means a museum or photo zone, not the huts.
+
+      What does run is the **Civilian Control Line** course north of Imjingak: the Third Tunnel and Dora Observatory, with passport checks at the gate. Paju city runs it Tuesday to Sunday. You can go on your own for ₩12,200, or pay a Seoul tour company for transport and a guide.
+  - type: gallery
+    images:
+      - { file: dora-view, caption: "The view hall at Dora Observatory, looking north (June 2024)" }
+      - { file: peace-bell, caption: The Peace Bell at Imjingak }
+      - { file: imjingak-pinwheels, caption: "Pinwheels at Imjingak's Peace Nuri park" }
+      - { file: third-tunnel, caption: "Entrance area of the Third Tunnel. No photos are allowed inside" }
+  - type: book_ahead
+    steps:
+      - days_before: 1
+        text: "Try the official site: **실시간예약 > 개인**, pick the date, course and run, enter each visitor's details and pay. Details can't be changed after payment."
+      - days_before: 0
+        text: "Reach **Imjingak** early. The counter opens at 09:00 and only sells to people who are there. Online bookings must collect tickets 20 min before departure, walk-ins buy up to 10 min before."
+    passport_note: "Bring your **original, valid passport**. Screenshots, photocopies and expired passports are refused at the checkpoint."
+  - type: cost_breakdown
+    items:
+      - { label: "Course A ticket, monorail into the tunnel", local: 12200, brl: 50.70 }
+      - { label: "Paid tour from Seoul instead (VIP Travel, Oct 2026)", local: 80000, brl: 332.48, optional: true }
+    note: "The walking route costs ₩9,200 instead of ₩12,200. Foreigners get no discounts on the city's fees. Train to Imjingang station not included."
+  - type: map
+    note: "Take the **Gyeongui–Jungang line** to **Imjingang station**, then village bus **058A or 058B**, or walk about 20 min to Imjingak. The ticket counter is inside the Imjingak tourist area."
+  - type: tips
+    variant: insider
+    items:
+      - "Go on **Sun 10 Jan**, your free day before the night shifts start. Weekends have the most runs (09:20–14:40). Sat 16 or Sun 17 Jan would mean giving up Hwacheon, and a work day doesn't fit: you'd need a morning start after a shift ending at 06:00."
+      - "Each run has 44 seats, and only 14 are sold online. The rest go first come at the counter, so arriving at 09:00 is your safest bet without a Korean booking."
+      - "There's no guide on the city tour. Read up on the tunnel and Kaesong first, or pay a Seoul company if you want the story told."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Mondays** are closed (11 and 18 Jan)."
+      - "The official rules ban photos and video **anywhere on the course**, drones included. Phones out only where staff allow it."
+      - "Snow can close the DMZ for the day, so check the site's notices that morning."
+      - "Tours still advertising **JSA** mean a museum or photo stop, not Panmunjom."
+  - type: weather
+    temp_low_c: -11
+    temp_high_c: 2
+    conditions: "Very cold, dry, often clear; occasional snow"
+    note: "January normals for Paju (2002–2020), colder at night than Seoul. The observatory and Imjingak are exposed to the wind off the river. The tunnel is sheltered, but the walk down and back up is steep. Snow can cancel runs."
+    wear: "Down jacket, hat, gloves, warm shoes with grip"
+  - type: pairs_well
+    items:
+      - { id: hongdae-club-night, note: "Sun 10 Jan: DMZ in the morning, Hongdae that evening before the work week" }
+      - { id: gyeongbokgung-palace, note: "The other half of Korea's history, in central Seoul" }

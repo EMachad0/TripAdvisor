@@ -1,0 +1,19 @@
+# Independent review of lotte-world-tower-seoul-sky. Written by `./atr review`; do not edit by hand.
+id: lotte-world-tower-seoul-sky
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: f1eee641fa0febbbe0b11d1a0a12fedd0f2e4dacd1be4ce0bef16795b46e84ff
+facts:
+  supported: 9
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.note
+    problem: The budget angle stops at the on-site price. The page never mentions the discounted foreigner-only tickets that resellers sell (passport checked at the gate), which are the cheapest way in for a page already at 109% of the daily budget.
+    evidence: blocks[11].items[1] now tells the traveler about foreigner-only reseller tickets and the passport check, and the Trazy page is listed in sources. https://www.trazy.com/experience/detail/lotte-world-tower-seoul-sky-ticket says "This ticket is for FOREIGNERS ONLY", "tickets on Trazy are cheaper for both adults and children compared to on-site prices" and "A valid ID, such as passport, is required to verify your foreigner status at the entrance." No price figure appears in the page's text, so leaving the number out (as confidence_note explains) is correct.
+rereview_of: 64ed50133c91489f2115382f2a9e5336fef6797eedd65395526485009dae0de7
+summary: "Finding 1 is fixed: the page now covers the cheaper foreigner-only tickets and the passport check, and Trazy supports both. The changed facts check out: sunset 17:33–17:41 (sunrise-sunset.org: 17:32:52 on 11 Jan, 17:41:03 on 19 Jan), the attraction floors on the official page (rendered) and the budget wording. No blockers or shoulds are left. The desktop dark screenshot failed because the page isn't built at that path in build/, so only the phone screenshots were checked."
+model: claude-opus-5-5
+cost_usd: 0.549

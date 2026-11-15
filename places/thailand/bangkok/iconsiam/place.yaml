@@ -1,0 +1,134 @@
+id: iconsiam
+name: "ICONSIAM"
+name_local: ไอคอนสยาม
+name_romanized: Ai-khon Sayam
+country: thailand
+city: bangkok
+area: "Khlong San · riverside"
+category: shopping
+fame: iconic
+tags: [mall, riverside, food-hall, free, architecture, fountain-show]
+kind: See
+why: "Bangkok's ฿54-billion riverside mega-mall: an indoor floating market of boat stalls downstairs, river terraces and a fountain show outside."
+cost:
+  local: 24
+  currency: THB
+  brl: 4.01
+  note: "Entry is free. ฿24 is the shuttle boat from Sathorn Pier and back (฿12 each way); food extra"
+fx: { rate: 0.167, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h
+best_time: "Free day (Jan 2, 3 or 9), late afternoon into the evening"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 10:00–22:00. Shuttle boats from about 09:00; last boats 22:30–23:00 depending on pier and source"
+  winter: "No closures listed for early January. The official events list shows the Bangkok Illumination light show ending before Christmas 2026, so it will be gone by your dates. The shuttle boats run every day."
+
+location:
+  address: "299 Charoen Nakhon Soi 5, Charoen Nakhon Rd, Khlong Ton Sai, Khlong San, Bangkok 10600"
+  address_local: "ไอคอนสยาม 299 ซอยเจริญนคร 5 ถนนเจริญนคร แขวงคลองต้นไทร เขตคลองสาน กทม. 10600"
+  lat: 13.72682
+  lng: 100.51029
+  nearest_transit: "Charoen Nakhon (Gold Line); shuttle boat from Sathorn Pier"
+
+sources:
+  - url: https://www.iconsiam.com/en/getting-here
+    title: "Getting Here (expand the BTS and Shuttle sections): hours, address, BTS exits, shuttle piers 09:00–23:00 (ICONSIAM, official)"
+    checked: 2026-11-13
+  - url: https://www.iconsiam.com/en/attraction
+    title: "Attractions: SookSiam, water features, ICONSIAM Park, River Park; current events list (ICONSIAM, official)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Icon_Siam
+    title: "Iconsiam: opening, cost, size, towers (Wikipedia)"
+    checked: 2026-11-13
+  - url: https://travjoy.com/blog/iconsiam-bangkok-a-complete-guide-for-discerning-travellers-what-to-see-eat-and-know-before-you-go-in-2026
+    title: "ICONSIAM Bangkok: a complete guide (Travjoy, 2026): boat and Gold Line fares, terraces, show times"
+    checked: 2026-11-13
+  - url: https://www.visitthailandtoday.com/markets-shopping/bangkok/iconsiam
+    title: "ICONSIAM (Visit Thailand Today, updated Oct 2026)"
+    checked: 2026-11-13
+  - url: https://www.trvlogue.com/en/sooksiam-bangkok-food-guide
+    title: "SookSiam Bangkok Food Guide 2026 (TRVLOGUE, updated Oct 2026)"
+    checked: 2026-11-13
+  - url: https://www.thaiholidayguide.com/attraction/iconsiam/
+    title: "IconSiam (Thai Holiday Guide, updated Jul 2026): fountain show timing"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Hours, address, BTS exits and shuttle piers are from the official Getting Here page (inside its expandable sections). Shuttle last boats: official 23:00, Travjoy 22:50 (Sathorn) and 22:30 (Si Phraya). Shuttle fare ฿12 and Gold Line ฿17 are from Travjoy (2026). Fountain show times differ between guides and aren't on the official site. The SookSiam food line in the cost block is my estimate."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: sooksiam-boats
+    hook: "Arrive by boat, eat your way through a fake floating market, stay for the river at dusk."
+    caption: "SookSiam's lantern-lit canal hall, ground floor"
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: "Free day, 16:00 into the evening"
+    extra:
+      - { label: Your slot, value: "Sat Jan 2 or 9, Sun Jan 3", detail: "Free evenings: river at sunset, then the fountain show" }
+      - { label: Weekday option, value: "Mon–Fri, 11:00–17:00", detail: "SookSiam and the terraces; leave by 18:00 for your 19:00 shift" }
+      - { label: Good in heat, value: "Yes", detail: "All indoor and air-conditioned, apart from the river park" }
+  - type: highlights
+    items:
+      - title: SookSiam, the indoor floating market
+        text: "The whole ground floor is built as a canal village: wooden stalls, **boats loaded with fruit** on an indoor waterway and lanterns overhead. Food and crafts are laid out by region of Thailand."
+      - title: The river side
+        text: "**River Park**, over 10,000 m² of open space on the Chao Phraya, and a planted park on the 2nd floor look straight across the water at the old town bank."
+      - title: A fountain show on the river
+        text: "ICONSIAM calls its multimedia water feature **Southeast Asia's longest dancing fountain**, with jets up to 35 m, on the riverfront in the evening. Free to watch."
+      - title: Sheer scale
+        text: "Opened in 2018 for about ฿54 billion, with 525,000 m² of floor space. The 318 m **Magnolias Waterfront Residences** in the complex is listed by Wikipedia as Thailand's tallest building."
+  - type: prose
+    title: More than a mall
+    dropcap: true
+    text: |-
+      You can skip every shop in ICONSIAM and still have a good afternoon. The trip is part of it: from BTS Saphan Taksin you walk down to Sathorn Pier and cross the river on the mall's shuttle boat, which costs ฿12 now that the free boat has gone. Or take the Gold Line, a small elevated train that stops at the mall's own station.
+
+      Downstairs is SookSiam, a market built indoors to look like a canal village, with regional Thai food at mall prices (more than on the street, but you eat in air-conditioning). Upstairs, the 6th- and 7th-floor terraces look down the Chao Phraya. On a free evening, stay for sunset and the fountain show on the riverfront.
+  - type: gallery
+    images:
+      - { file: river-approach, caption: "Approaching ICONSIAM from the Chao Phraya, with the Magnolias tower behind" }
+      - { file: sooksiam-hall, caption: "SookSiam's market hall from above" }
+      - { file: atrium-curves, caption: "Looking down ICONSIAM's atrium" }
+  - type: quote
+    variant: vibe
+    text: "A luxury mall with a canal village on the ground floor and a fountain on the river."
+  - type: cost_breakdown
+    items:
+      - { label: Entry, local: 0, brl: 0 }
+      - { label: "Shuttle boat, Sathorn Pier ↔ ICONSIAM (฿12 each way)", local: 24, brl: 4.01 }
+      - { label: "Or the Gold Line from Krung Thon Buri, one way", local: 17, brl: 2.84, optional: true }
+      - { label: "A couple of SookSiam snacks and a drink", local: 150, brl: 25.05, optional: true, estimate: true }
+  - type: map
+    note: "From **BTS Saphan Taksin, Exit 2**, walk down to Sathorn Pier and look for the ICONSIAM shuttle. Or change at **Krung Thon Buri, Exit 3** for the Gold Line to Charoen Nakhon."
+  - type: tips
+    variant: insider
+    items:
+      - "**Best slot: a free evening** (Sat Jan 2, Sun Jan 3 or Sat Jan 9). Come around 16:00, eat in SookSiam, watch the sunset from a terrace, then the fountain show. Check the show times at River Park on the day."
+      - "Mind the **last shuttle**: Travjoy gives 22:50 from Sathorn and 22:30 from Si Phraya, earlier than the official 23:00. After the last show, take the boat promptly or use the Gold Line."
+      - "On a weekday, come at lunch: Travjoy says weekday mornings are calm and weekend evenings are 'shoulder to shoulder'."
+      - "Pair it with **Wat Arun** or **Talat Noi**: Si Phraya Pier, near Talat Noi, has its own shuttle."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Older blogs say the shuttle boat is free. It isn't: the official site says 'fare applies', and Travjoy dates the end of the free boat to May 2023."
+      - "The Gold Line is a separate ticket from the main BTS lines, and Travjoy says the BTS One-Day Pass doesn't cover it."
+      - "Some SookSiam stalls take cash only (Travjoy), so carry small notes."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; the cool season
+    note: "Inside is air-conditioned and cold. The river park and terraces are best after about 17:00, when the sun is low."
+    wear: "Light clothes, plus a thin layer for the air-conditioning"
+  - type: pairs_well
+    items:
+      - { id: talat-noi-so-heng-tai, note: "Across the river; the Si Phraya Pier shuttle links them" }
+      - { id: chao-phraya-express-boat, note: "The river is your way in" }
+      - { id: wat-pho-and-wat-arun, note: "Temples upriver in the morning, ICONSIAM for the evening" }

@@ -1,0 +1,133 @@
+id: den-den-town-retro-games
+name: "Den Den Town Retro Game Crawl"
+short_name: Den Den Town retro crawl
+name_local: でんでんタウン・オタロード
+name_romanized: Den Den Taun · Ota Rōdo
+country: japan
+city: osaka
+area: Nipponbashi · Naniwa-ku
+category: shopping
+fame: popular
+tags: [gaming, retro, arcade, famicom, soundtracks, fighting-games]
+kind: Shop
+why: "Osaka's electric town: Super Potato's 'No. 1 in West Japan' retro stock, a game-music shop open since 2000, then fighting games on Athena's top floors."
+
+cost:
+  local: 0
+  currency: JPY
+  brl: 0
+  note: "Free to browse. Games, soundtracks and arcade credits are whatever you choose to spend"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–4 h
+best_time: "Afternoon from 12:00; reach Game Tanteidan by 18:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Super Potato Mon–Fri 11:00–20:00, weekends 10:00–20:00. Game Tanteidan 12:00–18:45 (2020 notice). Athena 9:00–24:00 (own site, 2022 page)"
+  winter: "Super Potato and Athena both state 年中無休 (open every day) on their own sites. Game Tanteidan has no current closed-day notice; a March 2025 tourism article lists it as open all year. Its only seasonal change was New Year hours, before your dates."
+
+location:
+  address: "Super Potato Otaroad: Hirata Bldg 1F, 3-8-18 Nipponbashi, Naniwa-ku, Osaka 556-0005"
+  address_local: 大阪府大阪市浪速区日本橋3-8-18 平田ビル1F（スーパーポテト オタロード店）
+  lat: 34.66189
+  lng: 135.50507
+  nearest_transit: "Nipponbashi (Exit 5) or Ebisucho (Exit 2 or 5); about 5 min from Namba"
+
+sources:
+  - url: https://www.superpotato.com/shop/otaroad/
+    title: "Super Potato official: Otaroad store, West Japan's biggest retro stock, dagashi corner, hours, open all year, address"
+    checked: 2026-11-12
+  - url: https://game-tanteidan.com/
+    title: "Game Tanteidan (Game Music House) official: hours notice 12:00–18:45 (dated 2020), New Year 2025–26 hours, game music CDs"
+    checked: 2026-11-12
+  - url: https://athena-nipponbashi.com/access/
+    title: "Athena Nipponbashi official: 2-1-22 Namba-naka, 9:00–24:00 年中無休 (2022 page); home: capsules 3F, fighters 5F–6F"
+    checked: 2026-11-12
+  - url: https://discover.osaka-info.jp/en/articles/cyberpunk
+    title: "Discover Osaka (tourism bureau, Mar 2025): Game Detectives since 2000, 12:00–19:00; 150+ shops; ATHENA floors, 9:00–0:00"
+    checked: 2026-11-12
+  - url: https://insideosaka.com/den-den-town-guide/
+    title: "Inside Osaka: Den Den Town guide, Sakaisuji and Ota Road, Super Potato, access from Nipponbashi, Ebisucho and Namba"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: "Osaka (Wikipedia): climate table, January normals"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Super Potato hours and 年中無休 are on its own page (checked Nov 2026). Athena's 9:00–24:00 年中無休 is on its own access page, a post dated 2022; the Mar 2025 article agrees. Game Tanteidan's 12:00–18:45 is its own notice dated 2020; the Mar 2025 article says 12:00–19:00, so its current hours and closed days are unverified. Athena's 1F–2F prize floors come only from the 2025 article."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: sakaisuji
+    caption: "Sakaisuji through Den Den Town (2023); no free photo of the shops inside"
+    hook: "Osaka's answer to Akihabara, on two parallel streets: carts, game soundtracks and classic fighting-game cabinets."
+  - type: quick_facts
+    time_needed: 2–4 h
+    best_time: "From 12:00, any day"
+    extra:
+      - label: Entry
+        value: Free to browse
+        detail: Pay only for what you buy or play
+      - label: Layout
+        value: Sakaisuji + Ota Road
+        detail: "Two parallel streets, all three stops within about 10 min"
+      - label: Good in cold
+        value: Yes, mostly indoors
+  - type: highlights
+    items:
+      - title: Super Potato on Ota Road
+        text: "Super Potato calls its Otaroad store a **retro-game specialist** with the biggest stock in western Japan, from Famicom and Mega Drive to PC-Engine, Neo Geo and Virtual Boy, plus a dagashi (old-school sweets) corner."
+      - title: Game Tanteidan
+        text: "*Game Detectives* has been in Nipponbashi since **2000**. Walls of software, and its own speciality: **game soundtrack CDs**, strategy guides and doujinshi."
+      - title: Fighting games at Athena
+        text: "Athena's own site lists a capsule-toy shop on 3F and a **classic fighting-game corner on 5F–6F**, open **9:00–24:00** every day; the 2025 article adds prize games on 1F–2F."
+      - title: Less crowded than Akihabara
+        text: "Inside Osaka's guide says Den Den Town sees less foot traffic than Akihabara, and the shops sit on two easy parallel streets."
+  - type: prose
+    title: How to do it
+    dropcap: true
+    text: |-
+      Den Den Town (from *denki no machi*, "electric town") runs about a kilometre along **Sakaisuji**, with more than 150 shops; **Ota Road**, one street west, is where the anime, figure and game shops cluster.
+
+      Start at **Super Potato** on Ota Road, walk south to **Game Tanteidan** well before 18:45 (its 2020 notice; a 2025 article says 19:00), then finish at **Athena** at the north end of Ota Road, which its own site says is open until midnight every day. If you only buy one souvenir, a soundtrack CD from Game Tanteidan fits in a backpack better than a boxed console.
+  - type: quote
+    variant: vibe
+    text: "A wall of Famicom carts, game soundtracks on CD, and classic fighters on an arcade's top floors."
+  - type: cost_breakdown
+    items:
+      - label: Browsing all three
+        local: 0
+        brl: 0
+      - label: "A few arcade credits at Athena (your budget)"
+        local: 500
+        brl: 17.59
+        estimate: true
+        optional: true
+  - type: map
+    zoom: 16
+    note: "Pin: **Super Potato** on Ota Road. **Game Tanteidan** is at 5-7-18 Nipponbashi (大阪市浪速区日本橋5-7-18), a few blocks south. **Athena** is at 2-1-22 Namba-naka (浪速区難波中2-1-22), at the north end of Ota Road."
+  - type: tips
+    variant: insider
+    items:
+      - "Game Tanteidan closes earliest (**18:45** per its 2020 notice), so go there first. Athena stays open until **24:00**, so leave it for last."
+      - "Super Potato opens an hour earlier (10:00) on weekends."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Retro carts are region-locked to Japanese consoles: check that what you buy will run on what you own back home."
+      - "Inside Osaka warns that shop labels are mostly Japanese; a translation app helps."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool and mostly dry
+    note: "Osaka's January averages about 3 °C at night and 10 °C by day. The walk between shops is short; everything else is indoors."
+    wear: Light winter jacket
+  - type: pairs_well
+    items:
+      - id: space-station-game-bar-osaka
+        note: "Free retro games with a drink in Amerikamura that evening"
+      - id: shinsekai-kushikatsu
+        note: "Kushikatsu in Shinsekai, near Ebisucho Station, after"

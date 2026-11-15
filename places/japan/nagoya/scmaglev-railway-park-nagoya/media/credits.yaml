@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: mlx01
+  title: File:MLX01-1 SCMaglev and Railway Park.jpg
+  author: Morio
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:MLX01-1_SCMaglev_and_Railway_Park.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2a/MLX01-1_SCMaglev_and_Railway_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Experimental maglev car MLX01-1 at the SCMaglev and Railway Park museum in Nagoya, Japan
+  width: 3840
+  height: 2588
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: symbolic-hall
+  title: File:SCMaglev and Railway Park Symbolic Rolling Stock Hall.jpg
+  author: Morio
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:SCMaglev_and_Railway_Park_Symbolic_Rolling_Stock_Hall.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/99/SCMaglev_and_Railway_Park_Symbolic_Rolling_Stock_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 'Symbolic Rolling Stock Hall at the SCMaglev and Railway Park museum in Nagoya, Japan (From front to rear: C62 17, "300X" 955-6, MLX01-1)'
+  width: 2560
+  height: 1766
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: great-hall
+  title: File:SCMaglev and Railway Park Great Rollingstock Hall.jpg
+  author: Morio
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:SCMaglev_and_Railway_Park_Great_Rollingstock_Hall.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/44/SCMaglev_and_Railway_Park_Great_Rollingstock_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Overview of the Great Rolling Stock Hall at the SCMaglev and Railway Park museum in Nagoya, Japan
+  width: 2560
+  height: 1670
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: n700-outdoor
+  title: File:Series N700 unit X0 at SCMAGLEV and Railway Park.jpg
+  author: Minoru Umesako
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Series_N700_unit_X0_at_SCMAGLEV_and_Railway_Park.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/95/Series_N700_unit_X0_at_SCMAGLEV_and_Railway_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 2019年7月17日より117系電車に代わりリニア・鉄道館の屋外に展示されたN700系量産先行車（X0編成)
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: building
+  title: File:SCMaglev and Railway Park in Aichi Prefecture.jpg
+  author: Bariston
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:SCMaglev_and_Railway_Park_in_Aichi_Prefecture.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/77/SCMaglev_and_Railway_Park_in_Aichi_Prefecture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: リニア・鉄道館
+  width: 6016
+  height: 4016
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons

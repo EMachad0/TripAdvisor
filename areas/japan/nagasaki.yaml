@@ -1,0 +1,117 @@
+id: nagasaki
+country: japan
+name: "Nagasaki"
+name_local: 長崎
+region: Kyushu · Nagasaki Prefecture
+scope: city
+cities: [nagasaki]
+why: "The detour for Japan's famous ghost town: boats land on Gunkanjima from here. Add the A-bomb hypocentre, a top-three night view from Mt Inasa, Dejima and Chinatown. About 4.5 h by train from Osaka."
+best_for: [culture, views, day-trip]
+highlights: ["Gunkanjima landing cruise", "Peace Park & Atomic Bomb Museum", "Mt Inasa night view", "Glover Garden", "Dejima", "Shinchi Chinatown"]
+days_suggested: { min: 2, max: 3 }
+cost_level: medium
+fame: iconic
+lat: 32.7447
+lng: 129.8736
+getting_there: "From Shin-Osaka: Shinkansen to Hakata, Relay Kamome to Takeo-Onsen, Kamome Shinkansen to Nagasaki. ~4.5 h, ¥19,900 reserved, ¥15,850 Super Hayatoku if bought 2+ weeks ahead."
+getting_around: "Trams cover almost everything: ¥150 flat fare, ¥600 day pass, every 5–8 min, 06:00–23:00. Suica and ICOCA work. Mt Inasa by bus plus ropeway."
+winter_note: "Mild for Japan: January averages 4.0–10.7 °C, February 4.5–12.0 °C, about 10 rainy days a month. The catch is the sea: winter wind and swell cancel many Gunkanjima landings, so stay two nights. The Lantern Festival (Feb 5–21, 2027) starts the day after you leave Japan (Feb 4), so it's not on your route."
+image: inasa-dusk
+sources:
+  - url: https://shinkansen.tabiris.com/osaka_nagasaki.html
+    title: "Shin-Osaka–Nagasaki by Shinkansen (Shinkansen Ryokō Kenkyūjo): route, ~4.5 h, normal-season fares, Super Hayatoku"
+    checked: 2026-11-12
+  - url: https://www.japan-guide.com/e/e4410.html
+    title: "Nagasaki: getting there and around (japan-guide): trams, day pass, airport bus, Tokyo by train"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Nagasaki
+    title: "Nagasaki (Wikipedia): coordinates, JMA 1991–2020 climate normals"
+    checked: 2026-11-12
+  - url: https://www.japan-guide.com/e/e4400.html
+    title: "Nagasaki Peace Park (japan-guide): Atomic Bomb Museum ¥200, hours, closed Dec 29–31"
+    checked: 2026-11-12
+  - url: https://www.japan-guide.com/e/e4412.html
+    title: "Mount Inasayama (japan-guide): one of Japan's three best night views, ropeway ¥1,900 return, 09:00–22:00"
+    checked: 2026-11-12
+  - url: https://www.discover-nagasaki.com/en/featured-topics/access_mtinasa
+    title: "How to get to Mt Inasa (Discover Nagasaki, official visitor guide): World's/Japan's New Top 3 Night Views"
+    checked: 2026-11-12
+  - url: https://www.japan-guide.com/e/e4406.html
+    title: "Glover Garden (japan-guide): ¥1,300, 08:00–18:00, later on many days"
+    checked: 2026-11-12
+  - url: https://nagasakidejima.jp/english/
+    title: "Dejima (official): adults ¥1,100, 08:00–21:00, open all year"
+    checked: 2026-11-12
+  - url: https://glover-garden.jp/
+    title: "Glover Garden (official): Meiji-era Western houses moved and restored around the former Glover House"
+    checked: 2026-11-12
+  - url: https://www.japan-guide.com/e/e4404.html
+    title: "Nagasaki Shinchi Chinatown (japan-guide): restaurant hours"
+    checked: 2026-11-12
+  - url: https://www.at-nagasaki.jp/lantern-festival
+    title: "2027 Nagasaki Lantern Festival (travel nagasaki, official city site): Feb 5–21, 2027"
+    checked: 2026-11-13
+  - url: https://hoshinoresorts.com/jp/guide/area/kyushu/nagasaki/lantern-festival/
+    title: "Nagasaki Lantern Festival guide (Hoshino Resorts): ~15,000 lanterns, 17 days from the first Friday of February"
+    checked: 2026-11-12
+  - url: https://www.gunkan-jima.net/
+    title: "Yamasa Kaiun (Gunkanjima cruises, official): winter landing-rate chart, landing rules"
+    checked: 2026-11-12
+  - url: https://iwate-en.mytabi.net/aspite-line-snow-corridor.php
+    title: "Hachimantai Aspite Line (Iwate tourism): closed in winter, open mid-April to early November"
+    checked: 2026-11-12
+  - url: https://www.therealjapan.com/northern-tohoku-hachimantai/
+    title: "Hachimantai (The Real Japan): the Matsuo copper mine, road closed early Nov – mid-Apr"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Nagoro
+    title: "Nagoro (Wikipedia): scarecrow village in the Iya Valley, Shikoku, 25 residents (2026)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Train fares: tabiris normal-season figures (undated); a 2026 route search in search results showed ¥20,750. Peach flights (from ¥4,590) and ~11 h night buses come from search snippets only. Matsuo ruins by the Aspite Line: from a drive map seen only in search results."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "A harbour city of hills and trams, the Gunkanjima boats, and the atomic bombing of 9 August 1945."
+    caption: "Nagasaki harbour at dusk from Mt Inasa"
+  - type: highlights
+    items:
+      - title: Gunkanjima, the ghost town
+        text: "Yamasa Kaiun's boats leave Nagasaki port twice a day and land you on **Hashima**, the abandoned coal-mine island, for 40–50 minutes. Roughly a third to half of winter sailings don't land, so make it a two-night stop."
+      - title: Peace Park and the A-bomb museum
+        text: "The hypocentre park, the Peace Statue and the **Atomic Bomb Museum** (¥200) in Urakami, ten minutes north of the station by tram. A museum, which you'd normally skip, but here you see the bombing's story where it happened."
+      - title: Mt Inasa after dark
+        text: "japan-guide ranks the view from **Mt Inasa** among Japan's three best night views, with Hakodate and Mt Rokko. The ropeway costs ¥1,900 return and runs until 22:00; a bus to the foot of the ropeway is cheap."
+      - title: Dejima, Glover Garden, Chinatown
+        text: "**Dejima** (¥1,100, open until 21:00) is the rebuilt trading post, finished in 1636, with stone warehouses and Meiji-era buildings. **Glover Garden** (¥1,300) has Meiji-era Western houses above the harbour. **Shinchi Chinatown** is where you eat dinner."
+  - type: prose
+    title: Is the detour worth it?
+    text: |-
+      Nagasaki is on the far side of Kyushu: about **4.5 hours each way from Shin-Osaka** with two changes (Hakata, then Takeo-Onsen), at ¥19,900 reserved (R$699.88) or ¥15,850 (R$557.44) with a Super Hayatoku ticket bought 2 weeks to a month ahead. A return trip by train is roughly R$1,100–1,400. Budget flights from Kansai and night buses exist and can be far cheaper; check them for your dates.
+
+      What you get for it: the one famous Japanese ghost town you can actually walk on, plus a city with a history unlike Tokyo, Kyoto or Osaka's. Plan **two nights**. Day one: an early Gunkanjima sailing, then Dejima and Chinatown, and Mt Inasa at night. Day two is the backup landing day, plus the Peace Park and Glover Garden. Base yourself near **Nagasaki Station or the port**: the Yamasa boats leave from the port terminal, a 10-minute walk from the station.
+
+      **Other famous abandoned places don't fit this trip.** The Matsuo mine ruins are in Iwate's Hachimantai mountains, where the main mountain road (the Aspite Line) is closed by snow from early November to mid-April. Nagoro, the scarecrow village, is in a remote mountain corner of Shikoku's Iya Valley, far off the Tokyo–Kyoto–Osaka line. Nagasaki is the ghost-town detour that works in January.
+  - type: gallery
+    images:
+      - { file: glover-night, caption: "The harbour from Glover Garden at night" }
+      - { file: dejima, caption: "Dejima, the rebuilt Dutch trading post, from Tamae Bridge" }
+      - { file: peace-statue-clear, caption: "The Peace Statue in the Peace Park" }
+      - { file: chinatown, caption: "Shinchi Chinatown" }
+  - type: tips
+    variant: insider
+    items:
+      - "The **¥600 tram day pass** pays off after four rides; a single ride is ¥150 anywhere."
+      - "Do Mt Inasa on a clear night; the ropeway's last car is at 22:00."
+      - "Arriving by plane? The airport bus to Nagasaki Station is 45 min and ¥1,200."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't plan Gunkanjima on your last morning. If the landing is cancelled you want a second day."
+      - "The Atomic Bomb Museum closes **Dec 29–31**; not an issue in January."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: "Mild, damp, windy by the sea"
+    note: "JMA normals: January 4.0–10.7 °C, February 4.5–12.0 °C, about 10 days of rain each month. Fine for walking the hills; the wind out at sea is what matters for Gunkanjima."
+    wear: "Warm jacket, windproof layer, comfortable shoes for the slopes"

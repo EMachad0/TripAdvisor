@@ -1,0 +1,22 @@
+# Independent review of khao-san-road-night. Written by `./atr review`; do not edit by hand.
+id: khao-san-road-night
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 03627cb908186b469b2f0e480d6c968e48e9f49f74147f2c8930d5943089ba79
+facts:
+  supported: 2
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[6].note
+    problem: The new weekend route quotes a '฿60–90 taxi or Grab' from MRT Sam Yot, but no listed source gives this fare. MRT Sam Yot is also about 1.4 km from the page's own pin as the crow flies, not '~2 km'.
+    evidence: blocks[6].note (line 103) no longer gives the unsourced ฿60–90 fare. It now says 'a short taxi or Grab' and gives the distance as 'about 1.5 km away'. That matches the straight-line distance from MRT Sam Yot (13.7466, 100.5016) to the page pin (13.75891, 100.49727), which is about 1.4 km, so the wording is the one the earlier review asked for.
+  - field: location.nearest_transit
+    problem: This field repeats the same unsourced '฿60–90 taxi' fare and '~2 km' distance.
+    evidence: location.nearest_transit (line 36) now reads 'MRT Sam Yot (~1.5 km), then a short taxi or Grab; Phra Arthit pier on weekdays'. It matches the corrected map note, gives no unsourced fare, and uses the corrected distance.
+rereview_of: ec8b6199b324afcab0a569569ff6752a8415e50c8ea9e852cfa47525ec460e05
+summary: Both earlier shoulds are fixed. The unsourced taxi fare is gone, and the Sam Yot distance now reads ~1.5 km in both places, which fits the pin geometry. The diff adds no new unsupported facts, and `./atr validate` passes.
+model: claude-opus-5-5
+cost_usd: 0.236

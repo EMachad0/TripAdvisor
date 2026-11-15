@@ -1,0 +1,107 @@
+id: tokyo
+country: japan
+name: "Tokyo"
+name_local: 東京
+region: Kantō · capital of Japan
+scope: city
+cities: [tokyo]
+why: "Shibuya Crossing, Kabukicho's neon, the Your Name stairs and Akihabara arcades, with clubs in Shibuya and Roppongi. A 72-hour subway ticket is ¥2,000; the Nozomi from Kyoto takes 2 h 15 min."
+best_for: [nightlife, views, odd-local, food]
+highlights: ["Shibuya Crossing", "Shibuya Sky", "Kabukicho", "Akihabara", "Suga Shrine stairs", "Daikoku PA (Yokohama)"]
+days_suggested: { min: 5, max: 7 }
+cost_level: medium
+fame: iconic
+lat: 35.6897
+lng: 139.6922
+getting_there: "Nozomi from Kyoto ¥13,320 unreserved, ~2 h 15 min; from Shin-Osaka ¥13,870, ~2 h 22 min. Night bus from Osaka from ¥2,000, 8–9 h. Haneda → Shinjuku ¥540, ~40 min."
+getting_around: "Tokyo Metro ¥180–330 by distance; Suica or PASMO card. Tokyo Subway Ticket ¥1,000 (24 h), ¥1,500 (48 h), ¥2,000 (72 h). Toei buses ¥210."
+winter_note: "January averages 1.2 °C at night and 9.8 °C by day (1991–2020) with 193 hours of sun: cold, dry and bright. Snow is rare, but heavy snow can stop many trains. Most businesses close Jan 1–3, before your dates. Mon Jan 11, 2027 is a holiday."
+image: tokyo-shibuya-crossing
+sources:
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): coordinates, January climate normals 1991–2020 (Kitanomaru Park)"
+    checked: 2026-11-11
+  - url: https://en.wikivoyage.org/wiki/Tokyo
+    title: "Tokyo (Wikivoyage): districts, metro fares, Suica/PASMO, Tokyo Subway Ticket prices, winter"
+    checked: 2026-11-11
+  - url: https://en.wikivoyage.org/wiki/Tokyo/Shibuya
+    title: "Tokyo/Shibuya (Wikivoyage): Shibuya Crossing, Center Gai, clubs"
+    checked: 2026-11-11
+  - url: https://japantrain.net/guide/2026-haneda-to-tokyo-guide-train-and-bus-tickets-boarding-points-and-routes-japan-train
+    title: "Haneda to Tokyo 2026 (Japan Train, updated Nov 2026): Keikyu + JR, monorail and bus fares to Shinjuku and Shibuya"
+    checked: 2026-11-11
+  - url: https://www.keisei.co.jp/keisei/tetudou/skyliner/us/faq/index.php
+    title: "Keisei Skyliner FAQ (official): ¥2,580 one way, about 41 min; cheaper Keisei main line"
+    checked: 2026-11-11
+  - url: https://www.trip.com/guide/transport/shinkansen-tokyo-to-kyoto-and-osaka.html
+    title: "Shinkansen Tokyo to Kyoto and Osaka (Trip.com, 3 Jun 2026): Nozomi fares and times"
+    checked: 2026-11-11
+  - url: https://mileasia.com/japan/tokyo-to-kyoto/
+    title: "Tokyo to Kyoto by Shinkansen (MileAsia, 4 Apr 2026): unreserved ¥13,320, 2 h 15 min"
+    checked: 2026-11-11
+  - url: https://www.kosokubus.com/en/special/osaka_tokyo.html
+    title: "Osaka to Tokyo highway bus (Kosoku Bus): operators, from-fares, 8–9 h"
+    checked: 2026-11-11
+  - url: "https://en.wikipedia.org/wiki/Kabukich%C5%8D"
+    title: "Kabukichō (Wikipedia): featured in the Yakuza and Judgment games as Kamurochō"
+    checked: 2026-11-11
+  - url: https://www.japan-guide.com/e/e5908.html
+    title: "Getting to Takayama (japan-guide): highway buses from Busta Shinjuku"
+    checked: 2026-11-11
+  - url: https://www.japan-guide.com/e/e2064.html
+    title: "Japanese New Year (japan-guide): most businesses close Jan 1–3"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Coming_of_Age_Day
+    title: "Coming of Age Day (Wikipedia): second Monday of January, 11 Jan 2027"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Japan dates are now Jan 4–22, 2027 (not yet in the trip config). Shinkansen fares come from Trip.com (read 11 Nov; it blocks link checks) and MileAsia 2026 guides, not JR's own table, which would not load. Haneda fares are from one 2026 guide; Keikyu's site blocked us. Wikivoyage club listings may be dated, so no covers are quoted."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    hook: "The scramble crossing, Kabukicho after dark and a different neighbourhood every subway stop."
+  - type: highlights
+    items:
+      - title: Shibuya, day and night
+        text: "The crossing where people walk in every direction at once, **Center Gai** with its arcades and music shops, and Shibuya's clubs: Wikivoyage counts Womb among Tokyo's largest. Shibuya and its crossing are on your list and get their own cards."
+      - title: Shinjuku's neon
+        text: "Wikivoyage calls **Kabukicho** Tokyo's wildest nightlife and red-light district. It appears in the Yakuza and Judgment games as Kamurocho."
+      - title: Arcades and anime
+        text: "**Akihabara** is Tokyo's electronics mecca and the centre of otaku culture. The Your Name stairs at Suga Shrine in Yotsuya have their own card."
+      - title: Cars by the bay
+        text: "The **Daikoku PA** car meet is in Yokohama, next door. It has its own card."
+  - type: prose
+    title: Where to base yourself
+    text: |-
+      For going out, sleep in **Shinjuku** or **Shibuya**. Shinjuku has Kabukicho and the Busta Shinjuku bus terminal, where the highway buses to Takayama leave; Shibuya has the crossing, Center Gai and the clubs Wikivoyage lists. **Roppongi**, which Wikivoyage calls Tokyo's nightclub district and where bar crawls run, is the third option. The hostel and capsule cards for Tokyo are written separately, including the capsule on your list in Shinjuku.
+
+      Tokyo is where the trip to Japan ends: you leave for Bangkok on Fri **Jan 22**. With the dates now Jan 4–22, there is time for five to seven days here after Osaka and Kyoto.
+  - type: prose
+    title: Getting here
+    text: |-
+      **From Kyoto or Osaka by Shinkansen**: the Nozomi from Kyoto takes about 2 h 15 min, ¥13,320 unreserved (R$467.53) or ¥14,170 reserved; from Shin-Osaka about 2 h 22 min, ¥13,870 unreserved (R$486.84) or ¥14,720 reserved.
+
+      **By night bus**: Osaka to Tokyo takes 8–9 hours and arrives around 5–7 AM. Starting fares on Kosoku Bus go from ¥2,000 (WILLER) to ¥5,800 (R$70.20–203.58), depending on operator and date. It saves both the train fare and a night's bed.
+
+      **From the airports**, if you fly in or out: Haneda to Shinjuku by Keikyu and the JR Yamanote line, about 40 min for ¥540 (R$18.95), or to Shibuya about 35 min for ¥510. From Narita the Keisei **Skyliner** reaches Ueno in about 41 min for ¥2,580 (R$90.56); the slower Keisei main line costs less.
+  - type: gallery
+    images:
+      - { file: tokyo-kabukicho, caption: "Kabukicho, Shinjuku, at night" }
+      - { file: tokyo-akihabara, caption: "Akihabara's electric town" }
+  - type: tips
+    variant: insider
+    items:
+      - "Three busy days? The 72-hour **Tokyo Subway Ticket** is ¥2,000 (R$70.20); single metro rides are ¥180–330."
+      - "The Skyliner costs ¥2,580 to Ueno; Keisei's main-line trains are slower but cheaper, and Haneda is far closer to the city than Narita."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Heavy snow is rare in Tokyo, but Wikivoyage warns it can halt much of the train network. Leave slack before the Bangkok flight on Jan 22."
+      - "Mon **Jan 11** is Coming-of-Age Day, a public holiday: expect weekend crowds."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and sunny
+    note: "January normals: 1.2 °C at night, 9.8 °C by day, 59.7 mm of precipitation and 192.6 hours of sunshine. Plenty of sun for skyline views."
+    wear: Warm jacket, scarf and gloves for late nights

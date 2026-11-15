@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: arsenal-ruin
+  title: File:Ruin of an arsenal on Tomogashima Island - from flickr 31000150145.jpg
+  author: Kazue Asano
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ruin_of_an_arsenal_on_Tomogashima_Island_-_from_flickr_31000150145.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/15/Ruin_of_an_arsenal_on_Tomogashima_Island_-_from_flickr_31000150145.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 友ヶ島 砲台跡
+  width: 4592
+  height: 3056
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: arsenal-ruin-2
+  title: File:Ruin of an arsenal on Tomogashima Island from flickr 25364358949.jpg
+  author: Kazue Asano
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ruin_of_an_arsenal_on_Tomogashima_Island_from_flickr_25364358949.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c1/Ruin_of_an_arsenal_on_Tomogashima_Island_from_flickr_25364358949.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 友ヶ島 第3砲台跡
+  width: 4592
+  height: 3056
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: lighthouse
+  title: File:Tomogashima Lighthouse distant view.jpg
+  author: 藤谷良秀
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tomogashima_Lighthouse_distant_view.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5a/Tomogashima_Lighthouse_distant_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 沖ノ島西方より見える 友ヶ島 灯台
+  width: 3170
+  height: 2110
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

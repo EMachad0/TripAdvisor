@@ -1,0 +1,25 @@
+# Independent review of mapo-galmaegisal-alley. Written by `./atr review`; do not edit by hand.
+id: mapo-galmaegisal-alley
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 7bf4f5b3c041b33d34d48369d1dde2dda5b70e7b1b1beab99c7be23fc311a3f1
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: The page says the hours are unconfirmed and only says "Evenings", but a listed source gives Jangsu Galmaegi's hours as 10:30–23:30. The confidence_note also treats the 23:30 close as a search snippet only.
+    evidence: https://www.arukikata.co.jp/tokuhain/306118/ — "時間：10:30~23:30" (published 2025年5月24日, no closed day listed). hours.summary now gives Jangsu Galmaegi 10:30–23:30 (Arukikata, May 2025) and keeps the 'other shops vary; check Naver Map' caveat. confidence_note matches this and says no closed day is given.
+  - field: blocks[3].text
+    problem: The fallback for eating alone, "the galmaegisal set at Hongojib near Hongdae costs ₩11,500", is a price the traveler would act on, and none of this page's sources mention Hongojib or that price.
+    evidence: The ₩11,500 price is gone. blocks[3] now just points to the Hongojib page, and places/korea/seoul/hongojib-solo-bbq/place.yaml exists with a neck/galmaegisal/belly set (₩9,800, Feb 2026, from Siksin) and links back to this page.
+  - field: blocks[11]
+    problem: The weather block gives −7 °C / 1 °C and 'occasional snow' for Dec–Jan, but no listed source covers Seoul's climate.
+    evidence: "https://en.wikipedia.org/wiki/Climate_of_Seoul — 'Climate data for Seoul (1991–2020 normals)', Source: KMA. January has a mean daily max of 2.1 °C, a mean daily min of −5.5 °C and 7.1 average snowy days. The page's −6 / 2 °C and 'about 7 snowy days in January' match these normals within rounding."
+rereview_of: 1c10248fd832d77f1e57f9a9dde3a0ec20ccfa9e122e330af08b2f70e8d27b9f
+summary: All three earlier findings are fixed. Jangsu's 10:30–23:30 hours match Arukikata, the unsourced Hongojib price now points to the Hongojib page, and the weather block matches the KMA 1991–2020 normals cited through Wikipedia. The changes introduced no new problems.
+model: claude-opus-5-5
+cost_usd: 0.222

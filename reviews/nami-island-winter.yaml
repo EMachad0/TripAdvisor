@@ -1,0 +1,19 @@
+# Independent review of nami-island-winter. Written by `./atr review`; do not edit by hand.
+id: nami-island-winter
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 3604ed19332e570f8a37b381d5783c028ee602a1dd0b75f02c567bcf5e21ef7d
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: best_time
+    problem: The new best_time (repeated in blocks[1].best_time and blocks[9].items[0]) recommends 'Sun 10 Jan, from the first ferry (08:00)'. Sun 10 Jan is the Bangkok → Seoul flight day. Getting to the Gapyeong wharf by 08:00 that morning would need an overnight flight landing at about 05:00 plus about 2 h of transfers, and the page does not say so. The weekend of 16–17 Jan is the realistic option, but the page ranks it second.
+    evidence: best_time, blocks[1].best_time and blocks[9].items[0] now name Sat 16 / Sun 17 Jan as the main pick. blocks[9].items[0] says Sun 10 Jan is the arrival day from Bangkok and only works with a very early landing. This matches config/trip.yaml (korea free days Jan 16–17, arrival Jan 10) and docs/TRIP.md:18.
+rereview_of: 92aa82e6de34317ce8bc667944c42bbfd74c5e4b52d8f98346363165bd1f47e6
+summary: "Finding 1 is fixed. Every new fact in the diff checks out against the official directions page (https://namisum-en.imweb.me/164) and config/trip.yaml: the shuttle times (Hongdae 09:00, Myeongdong 09:40, DDP 09:50, arrives at Nami 11:30, leaves Nami 16:30, back in Seoul 18:00–18:50), the round-trip-only rule, and the free and work days. I found no new blockers on the unchanged text."
+model: claude-opus-5-5
+cost_usd: 0.214

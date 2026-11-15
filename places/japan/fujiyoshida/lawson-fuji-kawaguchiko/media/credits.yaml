@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: lawson-dusk
+  title: File:Lawson Fuji.jpg
+  author: Gabriel Hutchinson Photography
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Lawson_Fuji.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Lawson_Fuji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: An image of a famous Lawson store located infant of Mount Fuji in Japan.
+  width: 2048
+  height: 1152
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: lawson-day
+  title: File:That famous Lawson and Mount Fuji in Kawaguchiko (54244854384).jpg
+  author: Sergiy Galyonkin from Raleigh, USA
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:That_famous_Lawson_and_Mount_Fuji_in_Kawaguchiko_(54244854384).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8d/That_famous_Lawson_and_Mount_Fuji_in_Kawaguchiko_%2854244854384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: That famous Lawson and Mount Fuji in Kawaguchiko
+  width: 5486
+  height: 3510
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: oishi-park
+  title: File:Mount Fuji from Oishi Park.jpg
+  author: Alpsdake
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Oishi_Park.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/04/Mount_Fuji_from_Oishi_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Lake Kawaguchi and Mount Fuji seen from Oishi Park in Fujikawaguchiko, Yamanashi Prefecture, Japan.
+  width: 5184
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: lake-dawn
+  title: File:Kawaguchiko, Part III - Kawaguchiko6776.jpg
+  author: lumoplank
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Kawaguchiko,_Part_III_-_Kawaguchiko6776.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Kawaguchiko%2C_Part_III_-_Kawaguchiko6776.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Mount Fuji viewed across Lake Kawaguchi.
+  width: 5036
+  height: 3357
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: seven-eleven-sign
+  title: File:セブンイレブン (42884465781).jpg
+  author: Liz Mc from Austin, Texas
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3_(42884465781).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5f/%E3%82%BB%E3%83%96%E3%83%B3%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3_%2842884465781%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Honeymoon in Japan
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

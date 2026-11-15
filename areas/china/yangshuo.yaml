@@ -1,0 +1,112 @@
+id: yangshuo
+country: china
+name: "Yangshuo"
+name_local: 阳朔
+region: Guilin · Guangxi
+scope: city
+cities: [yangshuo]
+why: "Karst peaks around a bar street, bikes in the Yulong valley and a raft on the Li River's best stretch. Mild for December, but a long detour: about ¥700–900 more train than Chengdu–Chongqing."
+best_for: [nature, views, nightlife]
+highlights: ["Li River, Yangdi to Xingping", "Cycling the Yulong valley", "Xingping old town", "West Street at night", "Beer fish", "Impression Liu Sanjie"]
+days_suggested: { min: 2, max: 3 }
+cost_level: medium
+fame: popular
+lat: 24.7782
+lng: 110.4905
+getting_there: "Chengdu East to Yangshuo: 3 D-trains a day, 6h30–8h21, ¥443–479. On to Chongqing West: about 10 direct trains, 4h26–5h42, ¥329–497. The station is 34 km from town."
+getting_around: "Bus from Yangshuo station to town ¥20, about 1 h. In the valley: bikes ¥20–50 a day, electric scooters, minibuses ¥1 a ride; Xingping minibus ¥5.5, 45 min. Agree taxi fares first."
+winter_note: "Mild but grey: December highs 10–18 °C, nights 2–3 °C, 6–8 drizzly days. It is the dry season: Li River boats often start partway down from Guilin, and in deep winter (most often Jan–Mar) the big boats can be replaced by the Yangdi–Xingping raft. One guide calls rafting unsuitable in December. Impression Liu Sanjie closes in January or February."
+image: yangshuo-karst-river
+sources:
+  - url: https://trains.ctrip.com/trainbooking/chengdu-yangshuo/
+    title: "Chengdu–Yangshuo trains, Ctrip (2026-11-12, 3 trains): D1807 Chengdu East 10:05 → Yangshuo 16:35; 2nd class ¥443–479"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/yangshuo-chongqing/
+    title: "Yangshuo–Chongqing trains, Ctrip (2026-11-12, 12 rows): G2240 12:39 → Chongqing West 17:05; 4h26–5h42, ¥329–497"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/chengdu-chongqing/
+    title: "Chengdu–Chongqing trains, Ctrip (2026-11-12, 166 trains): from 1h10, 2nd class from ¥85, the comparison for the detour"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/xian-guilin/
+    title: "Xi'an–Guilin trains, Ctrip (2026-11-12, 3 trains): G2239 Xi'an North 07:38 → Guilin West 17:52, about 10 h, ¥751–812"
+    checked: 2026-11-10
+  - url: "https://www.trip.com/flights/showfarefirst?dcity=ctu&acity=kwl&ddate=2026-12-15&triptype=ow&class=y&quantity=1&locale=en-XX&curr=CNY"
+    title: "Trip.com flights Chengdu → Guilin, Tue 2026-12-15 (searched 2026-11-10): Air Guilin 14:55 → 16:30, CNY 532; Dec 8–22 from CNY 472"
+    checked: 2026-11-10
+  - url: "https://www.trip.com/flights/showfarefirst?dcity=sia&acity=kwl&ddate=2026-12-15&triptype=ow&class=y&quantity=1&locale=en-XX&curr=CNY"
+    title: "Trip.com flights Xi'an → Guilin, 2026-12-15 (searched 2026-11-10): Dec 8–22 calendar from CNY 515, CNY 767 on the 15th"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/china-trains/guilin-yangshuo-railway-station.htm
+    title: "Guilin Yangshuo Railway Station — China Highlights: 34 km from West Street, bus about 1 h, ¥20"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/guilin/weather/december.htm
+    title: "Guilin weather in December — China Highlights: highs 10–18 °C, lows 2–3 °C, 6–8 rainy days, rafting not suitable"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/li-river-cruise/
+    title: "Li River cruise guide — China for Travelers (updated 2026-06-21): low-water raft substitute, fares, passport booking"
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Yangshuo
+    title: "Yangshuo — Wikivoyage: bikes, minibuses, Xingping, Yulong River, Impression Liu Sanjie, beer fish, winter boats"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Train fares are Ctrip timetables for 12 Nov 2026, not December quotes; flights are Trip.com searches for 15 Dec, read with ./atr render (link checker is blocked there). No 2026 Li River low-water notice found: the raft substitute is one guide's 'most often Jan–Mar'. Wikivoyage prices are partly older listings. Detour cost is my sum. No hostel checked."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: Limestone towers in every direction, a river between them, and a bar street that still plays folk guitar.
+    caption: Karst peaks along the river near Yangshuo
+  - type: highlights
+    title: What justifies the detour
+    items:
+      - title: The Li River's best stretch
+        text: "**Yangdi to Xingping** is the most photographed part of the river, including Mural Hill. China for Travelers puts it at about 1.5 h by motorised bamboo raft, about **¥200** (R$165), with real-name passport booking."
+      - title: A bike and the Yulong valley
+        text: "Wikivoyage lists bikes at **¥20–50 a day** and the Yulong River as the place to ride, with rafting trips of 35–90 minutes when the water allows."
+      - title: Xingping
+        text: "A riverside town 45 minutes away by a **¥5.5** minibus. Wikivoyage describes a 24 km, 5–6 hour hike along the river from Yangdi to Xingping, with ¥10–30 ferry crossings."
+      - title: West Street after dark
+        text: "China's old backpacker street of bars and live music, on the town's doorstep. It has its own Christmas card below."
+  - type: prose
+    title: What a few days here feel like
+    dropcap: true
+    text: |-
+      Yangshuo is a countryside stay rather than a city stop. Base yourself near **West Street** in town: the minibuses leave from the town bus terminal, and the bars are at the door. Days are spent on a bike or a scooter between the karst peaks, and evenings on West Street. Wikivoyage says the town is now "very much a domestic Chinese tourism destination" and that most foreign-owned businesses have closed since 2023, so older backpacker listings may be gone.
+
+      December is the quiet season. Skies are often grey, and the river is low, which can shorten the boat trips. Two full days cover the Li River and a cycling day; a third gives room for Xingping or a lazy day in case of drizzle.
+  - type: prose
+    title: The detour in time and money
+    text: |-
+      Yangshuo is far off the Shanghai–Beijing–Xi'an–Chengdu line, so it works best as the **last stop before Chongqing**:
+
+      - **Chengdu East → Yangshuo:** 3 direct D-trains a day on the 12 Nov timetable, **6h30–8h21**, 2nd class **¥443–479** (R$366–396). D1822 leaves 07:41 and arrives 15:16; D1807 leaves 10:05 and arrives 16:35.
+      - **Yangshuo → Chongqing West:** about 10 direct trains, **4h26–5h42**, **¥329–497** (R$272–411). G3726 leaves 11:04 and arrives 15:43.
+      - **Compared with going straight:** Chengdu → Chongqing takes from 1h10 and starts at ¥85. The Yangshuo loop adds about **¥690–890** (R$568–737) and roughly 10 hours of train, by my sums from these fares.
+      - **From Xi'an instead:** 3 trains to Guilin, about 10 h, ¥751–812. Flights Xi'an → Guilin in the Dec 8–22 calendar ran from ¥515; Chengdu → Guilin from ¥472 (Air Guilin, 1h35).
+      - **The last 34 km:** Yangshuo station is near Xingping, not in town. The bus takes about an hour (¥20).
+  - type: gallery
+    images:
+      - { file: yangshuo-west-street, caption: "Yangshuo town on a wet day, peaks behind the street" }
+      - { file: yangshuo-li-river-grey, caption: "The Li River near Xingping under low cloud" }
+  - type: quote
+    variant: vibe
+    text: A rented bike, a grey sky, and a hundred limestone towers to ride between.
+  - type: tips
+    variant: insider
+    items:
+      - "Check the day's Li River route on the official **漓江售票处** mini-program 1–2 days ahead (China for Travelers). Off-peak, booking a day or two ahead is usually fine."
+      - "Bring the **physical passport** you booked the boat with; a photo is not accepted."
+      - "Beer fish is priced per jin (500 g), ¥20–50 depending on the fish (Wikivoyage). Ask the price per jin before they weigh it."
+      - "Check brakes and gears before taking a rental bike, and lock bags to it: Wikivoyage warns of bag snatchers on motorbikes."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The station is **34 km** from town: allow 1.5 h door to door for a departing train."
+      - "Taxis rarely use the meter. Wikivoyage says you will be asked ¥25–30 for a short ride that should be about ¥10."
+      - "In low water the boats often start partway down from Guilin (Wikivoyage), so a \"Guilin–Yangshuo\" cruise may include a bus leg. Ask what route runs that day before buying."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 14
+    conditions: Cool, grey and dry-season low water; light drizzle some days
+    note: "China Highlights gives December highs of 10–18 °C and nights around 2–3 °C, with 6–8 days of light drizzle and limited sun; the damp makes it feel colder. Good for cycling and walking, poor for getting wet on a raft."
+    wear: Layers, a light down or fleece jacket, a windproof shell, closed shoes

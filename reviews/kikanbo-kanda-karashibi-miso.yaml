@@ -1,0 +1,22 @@
+# Independent review of kikanbo-kanda-karashibi-miso. Written by `./atr review`; do not edit by hand.
+id: kikanbo-kanda-karashibi-miso
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 8e00625686645e9cea77b32cc93a99efbcdcee84cb0eed48fa5bfb469553d2d0
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[7].note
+    problem: The map note says a tsukemen sister shop is a couple of doors away. The only source for that is a Time Out article from April 2024. The official shop list now shows only Kikanbo Lab next door at 2-10-10, and the Lab sells the ramen only to Fast Pass holders. No tsukemen shop is listed.
+    evidence: The map note now names Kikanbo Lab at 2-10-10 and drops the tsukemen line. https://kikanbo.co.jp/pages/shop lists Kikanbo Lab at 東京都千代田区鍛冶町2-10-10 and 神田本店 at 2-10-9, and the only tsukemen shop it lists is the Taipei 台北本店. https://www.tablecheck.com/en/shops/kikanbo-japan/reserve says "only reserved guests may enjoy the Karashibi Miso Ramen 'Kikanbo' menu" at Lab.
+  - field: blocks[9].items[0]
+    problem: The peanut warning comes from the Kikanbo Lab TableCheck page, but the page presents it as a fact about the Kanda Honten noodles. Tabelog has no allergen information for Honten.
+    evidence: The pitfall now credits the notice to Kikanbo Lab's booking page and presents the Honten case as an inference ("assume the same and ask"), which is the fix that was asked for. https://www.tablecheck.com/en/shops/kikanbo-japan/reserve says "This is the reception desk for Kikanbo Lab (Kanda branch)… Peanuts are used in our noodle dishes" and describes Lab's food as the "Karashibi Miso Ramen 'Kikanbo' menu".
+rereview_of: b22452eb57fa11e79b0059ff556ad8c9db1439fa3557feebed513c409c5f30da
+summary: Both earlier shoulds are resolved. The map note now names Kikanbo Lab (2-10-10, Fast Pass only), which the official shop list and TableCheck support. The peanut warning is now credited to Lab's notice and the Honten case is marked as an inference. The new source and the last_updated change check out, ./atr validate passes, and I found no new blockers.
+model: claude-opus-5-5
+cost_usd: 0.305

@@ -1,0 +1,158 @@
+id: wise-owl-hostels-shibuya
+name: "Wise Owl Hostels Shibuya"
+short_name: Wise Owl Shibuya
+country: japan
+city: tokyo
+area: Meguro · Aobadai
+category: stay
+tags: [hostel, social, bar, happy-hour, shibuya, clubs, nightlife-base]
+kind: Stay
+why: "The Shibuya club base: daily happy hour in the lobby bar, WOMB and Shibuya's DJ bars within walking distance. ¥5,850 a dorm bed on Wed 13 Jan."
+
+cost:
+  local: 5850
+  currency: JPY
+  brl: 205.34
+  note: "Hostelworld, 28-bed mixed dorm, non-refundable rate, Wed 13 Jan 2027, 1 guest, searched 11 Nov 2026 (¥6,500 refundable)"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 7
+  lead_time: "Book a week or more ahead; weekends cost about 40% more"
+  method: website
+  links:
+    - label: Hostelworld (Wed 13 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924?from=2027-01-13&to=2027-01-14&guests=1&currency=JPY"
+      note: "Two rates per bed: non-refundable is 10% cheaper"
+  notes: "Recommended because Hostelworld's Tokyo list already showed it as \"Selling out fast!\" for Wed 13 Jan on 11 Nov, and Sat 16 / Sun 10 Jan cost ¥9,250 against ¥6,500."
+
+hours:
+  summary: "Check-in 16:00–23:00 · check-out until 11:00 · no curfew · 18+ only · daily happy hour 15:00–19:00"
+  winter: "Japan dates are now 4–22 Jan; Tokyo is likely 11–22 Jan. No seasonal notes on Hostelworld. 28-bed dorm, refundable rate, seen 11 Nov: ¥6,500 Wed 13, ¥9,250 Sun 10 (eve of Coming-of-Age Day) and Sat 16 Jan."
+
+location:
+  address: "4-9-10 Aobadai, Meguro-ku, Tokyo"
+  address_local: 東京都目黒区青葉台4-9-10
+  lat: 35.65371
+  lng: 139.68979
+  nearest_transit: "Shinsen (Keio Inokashira) or Ikejiri-Ohashi (Den-en-toshi), 8 min each"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924?from=2027-01-13&to=2027-01-14&guests=1&currency=JPY"
+    title: "Wise Owl Hostels Shibuya on Hostelworld, Wed 13 Jan 2027 search: dorm prices, house rules, rating 8.8 (1,315), atmosphere 8.4"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924?from=2027-01-16&to=2027-01-17&guests=1&currency=JPY"
+    title: "Wise Owl Hostels Shibuya on Hostelworld, Sat 16 Jan 2027 search: 28-bed dorm ¥9,250 / ¥8,325"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924?from=2027-01-10&to=2027-01-11&guests=1&currency=JPY"
+    title: "Wise Owl Hostels Shibuya on Hostelworld, Sun 10 Jan 2027 search: 28-bed dorm ¥9,250 / ¥8,325"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/s?q=Tokyo,%20Japan&country=Japan&city=Tokyo&type=city&id=452&from=2027-01-13&to=2027-01-14&guests=1&currency=JPY&page=1"
+    title: "Hostelworld Tokyo list, Wed 13 Jan 2027: Wise Owl Shibuya marked \"Selling out fast!\""
+    checked: 2026-11-11
+  - url: https://www.wiseowlhostels.com/shibuya/
+    title: "Wise Owl Hostels Shibuya, official page: address, access times, lockers with key, OWL's kitchen"
+    checked: 2026-11-11
+  - url: https://deeptokyo.jp/en/spot/travel/5654/
+    title: "DEEPTOKYO (28 Aug 2025): a social hostel for Shibuya nightlife: daily happy hour 15:00–19:00, staff events, nearby clubs"
+    checked: 2026-11-11
+  - url: "https://www.openstreetmap.org/?mlat=35.65371&mlon=139.68979#map=17/35.65371/139.68979"
+    title: "OpenStreetMap: Wise Owl Hostels Shibuya, Aobadai 4"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals 1991–2020 (Kitanomaru Park)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Prices are Hostelworld per-bed prices for the linked one-night searches, seen 11 Nov; they move. Happy hour and staff events are from a DEEPTOKYO article of Aug 2025, not the hostel. The Japanese address is the English one written in Japanese (also in a search snippet from icotto.jp, which blocked fetching)."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: shinsen-station
+    caption: "Shinsen station, 8 minutes' walk from the hostel. No free photo of the hostel exists"
+    hook: "Happy hour in the lobby from 15:00, then the walk down into Shibuya's DJ bars with whoever said yes."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "16:00–23:00", detail: "Check-out until 11:00" }
+      - { label: Vibe, value: Nightlife base, detail: "Atmosphere 8.4/10 on Hostelworld" }
+      - { label: Age, value: 18+ only }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "28-bed mixed dorm · Wed 13 Jan (non-refundable)"
+        local: 5850
+        brl: 205.34
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924?from=2027-01-13&to=2027-01-14&guests=1&currency=JPY"
+        note: "Hostelworld, searched 11 Nov"
+      - label: "28-bed mixed dorm · Wed 13 Jan (free cancellation)"
+        local: 6500
+        brl: 228.15
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924?from=2027-01-13&to=2027-01-14&guests=1&currency=JPY"
+      - label: "28-bed mixed dorm · Sat 16 Jan (non-refundable)"
+        local: 8325
+        brl: 292.21
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924?from=2027-01-16&to=2027-01-17&guests=1&currency=JPY"
+        note: "Sun 10 Jan showed the same prices"
+      - label: "28-bed mixed dorm · Sat 16 Jan (free cancellation)"
+        local: 9250
+        brl: 324.68
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924?from=2027-01-16&to=2027-01-17&guests=1&currency=JPY"
+    rating:
+      score: 8.8
+      out_of: 10
+      source: Hostelworld
+      reviews: 1315
+      atmosphere: 8.4
+      checked: 2026-11-11
+    social:
+      - "**Daily happy hour 15:00–19:00** in the lobby and dining area; guests who meet there head into Shibuya together (DEEPTOKYO, Aug 2025)."
+      - "Staff occasionally organise events, and one staff member is a Shibuya nightlife guide for guests (DEEPTOKYO)."
+      - "The hostel calls itself \"an entertainment hub\" and its 28-bed dorm is for guests \"willing to interact with others\"."
+      - "Nov 2026 review: \"really good location and quite social\". Hostelworld's summary notes a less social vibe off-peak."
+    good_to_know:
+      - "Each dorm bed has a safety deposit box, power, USB, a reading light and wooden side panels; the official site lists lockers with key."
+      - "**18 or older** at check-in. Cards accepted."
+      - "Bar and restaurant on site (OWL's kitchen on the ground floor). Smoking only in designated areas."
+      - "Reception has limited hours: arrive within check-in, 16:00–23:00."
+      - "One recent review: the pillows are very hard."
+  - type: highlights
+    items:
+      - title: Walk to the clubs
+        text: "DEEPTOKYO lists **WOMB**, Harlem and a run of Shibuya DJ bars as all within walking distance of the hostel."
+      - title: Happy hour every day
+        text: "15:00–19:00 in the lobby: the easy moment to find people for the night."
+      - title: Three stations on foot
+        text: "Shinsen and Ikejiri-Ohashi stations are 8 minutes away each; Shibuya station about 16, says the hostel."
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "Book on Hostelworld. Weeknights are cheapest; pick the free-cancellation rate unless your dates are fixed."
+      - days_before: 0
+        text: "Check in from 16:00 (until 23:00), early enough to catch the end of happy hour."
+  - type: map
+    note: "Shinsen (Keio Inokashira Line) or Ikejiri-Ohashi (Den-en-toshi Line), about 8 minutes on foot from either."
+  - type: tips
+    variant: insider
+    items:
+      - "Stay Sunday to Thursday, but not Sun 10 Jan: that night cost the same as Saturday (¥9,250) in the 11 Nov search."
+      - "Ask the front desk where people are heading tonight; the staff know the Shibuya scene."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The non-refundable rate saves only ¥650 on a weeknight. Take it only for nights you are sure of."
+      - "Hostelworld's review summary mentions little luggage space in the rooms: pack light or use the lockers."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "January in central Tokyo averages 1.2 °C at night and 9.8 °C by day, with about five wet days. The walk back from the clubs after midnight is cold."
+    wear: Warm coat, gloves for the walk back
+  - type: pairs_well
+    items:
+      - id: womb-shibuya
+        note: "WOMB, within walking distance per DEEPTOKYO"
+      - id: shibuya-crossing-and-sky
+        note: "Shibuya Crossing and Shibuya Sky"
+      - id: nui-hostel-kuramae
+        note: "The Asakusa-side option with the top score"

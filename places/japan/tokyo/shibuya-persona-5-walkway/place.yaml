@@ -1,0 +1,127 @@
+id: shibuya-persona-5-walkway
+name: "Shibuya, Persona 5 edition: the Walkway"
+short_name: Shibuya's Persona 5 spots
+name_local: 渋谷マークシティ連絡通路
+name_romanized: Shibuya Māku Shiti renraku tsūro
+country: japan
+city: tokyo
+area: Shibuya · Dōgenzaka
+category: culture
+fame: popular
+tags: [anime, persona, free, walk, public-art, gaming]
+kind: See
+why: "The Phantom Thieves' hideout is a real station walkway, under a 30 m Taro Okamoto mural restored in 2026. Then Central Street and Station Square, all free."
+cost:
+  local: 0
+  currency: JPY
+  brl: 0
+  note: Free. The walkway is a public station passage; no ticket needed.
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 1–1.5 h
+best_time: Early evening, walkway before 21:00, then Center Gai
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Walkway: no published hours (Mark City's shops close 21:00, restaurants 23:00); go before 21:00 to be safe. Center Gai, square: always open."
+  winter: "Nothing here is seasonal, and none of it closes for the season as far as the sources say. The mural's 2023–26 restoration finished at the end of June 2026, so it should be fully visible."
+
+location:
+  address: "Shibuya Mark City 2F connecting passage, from the JR/Ginza Line side to the Keio Inokashira Line gates, 1-12-1 Dōgenzaka, Shibuya"
+  address_local: 東京都渋谷区道玄坂1-12-1 渋谷マークシティ 連絡通路（岡本太郎『明日の神話』前）
+  lat: 35.65874
+  lng: 139.7003
+  nearest_transit: Shibuya Station, toward the Keio Inokashira Line gates
+  approximate: false
+
+sources:
+  - url: https://tsunagujapan.com/wow_02105
+    title: "tsunagu Japan — Visit the Real-Life Sites of Persona 5 (Shibuya and Sangen-jaya) (updated 2021)"
+    checked: 2026-11-12
+  - url: "https://www.timeout.jp/tokyo/ja/アート/myths-of-tomorrow-public-art"
+    title: "Time Out Tokyo — 明日の神話 (restoration finished end of June 2026)"
+    checked: 2026-11-12
+  - url: https://www.timeout.com/tokyo/art/myth-of-tomorrow
+    title: "Time Out Tokyo — The Myth of Tomorrow (English)"
+    checked: 2026-11-12
+  - url: https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-shibuya/spot-lj0002287/
+    title: "LIVE JAPAN — 明日の神話 (in the JR–Keio connecting passage, Shibuya Mark City; 5.5 × 30 m)"
+    checked: 2026-11-12
+  - url: "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "Japan Meteorological Agency — Tokyo climate normals (January: mean high 9.8 °C, low 1.2 °C)"
+    checked: 2026-11-12
+  - url: "https://kamigame.jp/P5R/%E3%82%A8%E3%83%AA%E3%82%A2/%E6%B8%8B%E8%B0%B7.html"
+    title: "神ゲー攻略 P5R wiki — 渋谷でできること (Central Street, underground mall, Station Square; updated 2025-03-05)"
+    checked: 2026-11-12
+  - url: https://www.walkerplus.com/spot/ar0313s03433/
+    title: "Walkerplus — 渋谷マークシティ (2F passage with the mural; free entry; hours 10:00–21:00, restaurants to 23:00; info as of Jan 2026)"
+    checked: 2026-11-12
+  - url: https://www.timeout.com/tokyo/news/the-iconic-train-car-tourist-information-centre-in-shibuya-has-moved-to-akita-prefecture-080420
+    title: "Time Out Tokyo — The iconic train car tourist information centre in Shibuya has moved to Akita (Aug 2020)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Mappings from the tsunagu fan guide and the P5R game wiki (the wiki lists in-game areas, not real buildings). No source gives the passage's own hours (Walkerplus, LIVE JAPAN, Time Out checked); only Mark City's 10:00–21:00, so the page says before 21:00. No free photo shows the whole mural (only partial views), so the hero shows it from below. Train car's 2020 move: Time Out news."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: mural-from-below
+    caption: Myth of Tomorrow seen from below its plaque; no free photo shows the whole 30 m
+    focus: top
+    hook: In the game it's the Walkway in the Teikyu Building. In real life it's a glass corridor under a huge atomic-bomb mural.
+  - type: quick_facts
+    time_needed: 1–1.5 h
+    best_time: Walkway before 21:00, then Center Gai
+    extra:
+      - { label: Game, value: Persona 5 / Royal, detail: "Shibuya: the Walkway hideout, Central Street, Station Square" }
+      - { label: Good in rain, value: Mostly, detail: The walkway is indoors }
+  - type: highlights
+    items:
+      - title: "Screenshot vs reality: the hideout"
+        text: "The Phantom Thieves plan their heists in the **Walkway**. The real one is the 2nd-floor passage in **Shibuya Mark City**, from the JR/Ginza Line side to the Keio Inokashira Line gates, with tall windows over the street."
+      - title: A freshly restored mural
+        text: "Taro Okamoto's **Myth of Tomorrow** runs 30 m along the walkway. It was lost in Mexico for decades, and its first big restoration since 2008 **finished at the end of June 2026**."
+      - title: Central Street is Center Gai
+        text: "Atlus renamed Center Gai **Central Street**. Guides say you'll recognise many signs and shop fronts, but the game moved buildings around, and the backstreet airsoft shop doesn't exist."
+      - title: "Station Square: one thing is gone"
+        text: "Politician Yoshida's speeches happen on **Station Square**, modelled on Hachikō Square. One real landmark has gone since: the old green train car that served as a tourist info centre was **moved to Odate, Akita, in August 2020**."
+  - type: prose
+    title: How the game uses Shibuya
+    dropcap: true
+    text: |-
+      Persona 5 opens in Shibuya, and the station is the hub you pass through almost every day: up from the underground mall, through the walkway, out to the square. Atlus kept the layout and changed the names: the walkway sits in the "Teikyu Building", and Center Gai becomes Central Street.
+
+      Do it in one loop: in from the Ginza or Inokashira Line side, the walkway and mural, down to the Scramble and Hachikō, then into Center Gai. Royal adds a second hangout district, Kichijoji, at the far end of the Inokashira Line.
+  - type: gallery
+    images:
+      - { file: walkway-commuters, caption: "Commuters hurrying through the walkway (2016)" }
+      - { file: center-gai-rain, caption: "Center Gai on a rainy afternoon, the game's \"Central Street\"" }
+      - { file: ginza-line-mark-city, caption: "A Ginza Line train sliding into the station at Mark City" }
+  - type: quote
+    variant: vibe
+    text: Commuters stream past a 30-metre skeleton on fire. Nobody looks up. You sit by the window and plan a heist.
+  - type: map
+    zoom: 17
+    note: "From the Hachikō exit, follow signs for the **Keio Inokashira Line**. The walkway is the long 2F glass corridor before its gates; the mural is on the inner wall. No ticket needed."
+  - type: tips
+    variant: insider
+    items:
+      - "Step back to the **window side** of the walkway to take in more of the 30 m mural."
+      - "Do it on the same evening as the Scramble and Shibuya Sky (their own card): it's all one station."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Hours for the walkway aren't published: do it **before 21:00** and leave the late evening for Center Gai and the Scramble."
+      - "Don't look for the game's airsoft shop in Center Gai's backstreets: guides say it has no real counterpart."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Mostly clear, dry, cold evenings
+    note: The walkway is indoors and sheltered, so winter only matters for the street part. Clear, dry January evenings are good for Center Gai's neon.
+    wear: Warm jacket; it gets cold once the sun is down
+  - type: pairs_well
+    items:
+      - { id: shibuya-crossing-and-sky, note: "The Scramble and the Shibuya Sky deck, right outside" }
+      - { id: sangenjaya-yongen-jaya-walk, note: "Den-en-toshi Line, 5 min: Joker's home, Yongen-Jaya" }
+      - { id: kichijoji-persona-5-royal-walk, note: "Inokashira Line from these gates: Royal's Kichijoji" }

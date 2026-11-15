@@ -1,0 +1,116 @@
+id: huangshan
+country: china
+name: "Huangshan & Hongcun"
+name_local: 黄山 · 宏村
+region: Southern Anhui · east China
+scope: region
+cities: [huangshan]
+why: "Granite peaks, frosted pines and a Ming-style village on a lake, about 2.5 h by train from Shanghai and on the way to Beijing. In December it is near freezing on top, often foggy, and the mountain ticket is ¥190."
+best_for: [views, nature, culture]
+highlights: ["Huangshan summit trails", "Sea of clouds and rime", "Sunrise above the cloud", "Eastern Steps hike", "Hongcun and South Lake", "Xidi village"]
+days_suggested: { min: 2, max: 3 }
+cost_level: high
+fame: popular
+lat: 30.0845
+lng: 118.1868
+getting_there: "Shanghai Hongqiao/South to Huangshan North: ~58 trains a day, 2h22–3h, ¥183–237 2nd class. On to Beijing South: 11 a day, 5h05–8h20, ¥546–686."
+getting_around: "Bus Huangshan North to the mountain's south gate ¥20, 50 min, 06:30–19:30. Shuttle to the cable cars ¥19. North station to Hongcun ¥30, about 1.5 h; Tangkou to Hongcun ¥20, 1 h."
+winter_note: "Near freezing on top: at 1,840 m December averages −3 to 3 °C, with 10.8 wet days and 6.5 snowy days, and about half the possible sunshine. Paths ice up in the morning and the riskier trails close. In Dec 2024 the Xihai Grand Canyon and Tiandu Peak shut from Dec 1, and the cable cars each stop for about a month of winter maintenance in turn; 2026 dates not announced."
+image: huangshan-winter-sunrise
+sources:
+  - url: https://trains.ctrip.com/trainbooking/shanghai-huangshan/
+    title: "Shanghai–Huangshan trains, Ctrip (2026-11-12, 58 trains): G997 07:30 → Huangshan North 09:52; 2nd class ¥182.5–237 on 2–3 h trains"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/huangshan-beijing/
+    title: "Huangshan–Beijing trains, Ctrip (2026-11-12, 11 trains): G88 17:36 → Beijing South 22:41; ¥546–685.5; K1110 sleeper ¥304.5"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/shanghai-beijing/
+    title: "Shanghai–Beijing trains on Ctrip (timetable for 2026-11-12): direct G-trains 4h24–7h24, ¥498–697, the comparison for the detour"
+    checked: 2026-11-10
+  - url: https://www.trip.com/trains/china/route/shanghai-to-huangshan/
+    title: "Shanghai to Huangshan trains — Trip.com (about 50 a day, 345 km, sales open 15 days ahead, passport booking)"
+    checked: 2026-11-10
+  - url: https://m.gmw.cn/2025-12/19/content_1304270257.htm
+    title: "2026 Huangshan ticket and cable car prices — Anhui Daily/Guangming (2025-12-19): ¥190 to Dec 19, cable cars ¥80/90, 3-day ticket"
+    checked: 2026-11-10
+  - url: https://m.gmw.cn/2024-11/26/content_1303906308.htm
+    title: "Huangshan winter opening notice — Guangming (2024-11-26): Dec hours 07:30–16:40, Xihai Grand Canyon and Tiandu Peak closed from Dec 1 2024"
+    checked: 2026-11-10
+  - url: https://travelchinaguide.com/attraction/anhui/huangshan/guide.htm
+    title: "Cable cars on Huangshan — TravelChinaGuide (updated 2026-04-30): each line out of service about a month in winter, in turn"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Huangshan
+    title: "Huangshan — Wikipedia (CMA 1991–2020 normals for the 1,840 m station, peaks, UNESCO listing)"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/huangshan/weather/december.htm
+    title: "Huangshan weather in December — China Highlights (sea of clouds more frequent in winter, crampons for ice, low season)"
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Huangshan
+    title: "Huangshan — Wikivoyage (Tangkou base, Eastern and Western Steps, summit hotel and food prices, winter closures)"
+    checked: 2026-11-10
+  - url: https://chinahighlights.com/huangshan/transportation.htm
+    title: "Huangshan transportation — China Highlights (Huangshan North bus to the south gate ¥20, 50 min; to Hongcun ¥30, 1.5 h)"
+    checked: 2026-11-10
+  - url: https://travelchinawith.me/attractions/anhui/xidi-and-hongcun-ancient-villages/
+    title: "Xidi and Hongcun — Travel China With Me (2026 ticket ¥104, buses from Huangshan North and Tangkou, staying overnight, winter)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Fares are Ctrip timetables for 12 Nov 2026, not December quotes; Trip.com and Ctrip pages read with ./atr render. 2026 winter closures and cable car maintenance dates not announced: the Dec 2024 notice and one guide show the pattern only. Dec 20–31 2026 price not announced. Hongcun's ¥52 promo unconfirmed. Detour extra and day costs are my sums. No hostel checked."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: Granite needles in frost, a sunrise above the cloud, and a whitewashed village reflected in a lake below.
+    caption: Huangshan at sunrise in winter
+  - type: highlights
+    title: What justifies the detour
+    items:
+      - title: The mountain in winter
+        text: "Wikipedia gives **6.5 snowy days** in an average December at the 1,840 m station. China Highlights says the **sea of clouds** shows more often in winter, and snow lingers on the peaks."
+      - title: Walk up, ride down
+        text: "Wikivoyage says the **Eastern Steps** can be climbed in 2–3 hours; the Western Steps take 6–7. Cable cars cost **¥80** (Yungu, Taiping) or **¥90** (Yuping) one way until Dec 19, 2026."
+      - title: One ticket, three days
+        text: "The 2026 policy makes the **¥190** (R$157) ticket valid for three days with re-entry, if you book the first day on the official mini-program and check in at the gate that day."
+      - title: Hongcun on its lake
+        text: "A Hui village of white walls around **South Lake**, 1–1.5 h by bus from the mountain or the station. Travel China With Me suggests sleeping there to see it at dawn without day-trippers."
+  - type: prose
+    title: What a few days here feel like
+    dropcap: true
+    text: |-
+      This is a cold-mountain stop on the way north. Take a morning train from Shanghai, sleep in **Tangkou**, the town at the south gate that Wikivoyage calls walkable and cheap (hotels around ¥80), and go up early the next day. A summit night is possible but costly: Wikivoyage lists mountain dorms at ¥100–300 and says some hotels close in winter.
+
+      On top it is close to freezing all day in December, and you may walk in fog for hours. The prize is a clear morning after snow, with rime on the pines. Hours are short (07:30–16:40 in December 2024) and trail gates close to new hikers at 15:00, so start early.
+
+      Day three is **Hongcun** (or Xidi on the same bus line), then back to Huangshan North for a train to Beijing South: five to eight hours, so a morning train arrives the same evening.
+  - type: prose
+    title: The detour in time and money
+    text: |-
+      - **Shanghai → Huangshan North:** about 58 trains a day on the 12 Nov timetable. The fast ones take **2h22–3h** from Hongqiao or Shanghai South, 2nd class **¥183–237** (R$151–196). G997 leaves Shanghai South at 07:30 and arrives 09:52.
+      - **Huangshan North → Beijing South:** 11 trains a day, **5h05–8h20**, **¥546–686** (R$451–567). G88 leaves 17:36, arrives 22:41. A slow K1110 from the old Huangshan station takes 19h40, hard sleeper ¥304.5.
+      - **Compared with going straight:** Shanghai → Beijing G-trains take 4h24–7h24 for ¥498–697. Going via Huangshan adds roughly **¥200–300** and half a day of train (my estimate from these fares), plus buses of ¥20–30 each way at the Huangshan end.
+      - **The mountain day:** ticket ¥190 plus one cable car (¥80–90) and the shuttle both ways (¥19 each) is about **¥310–320** (R$255–263), well over the R$170 daily budget. Walking both ways saves the cable car.
+  - type: gallery
+    images:
+      - { file: huangshan-icy-steps, caption: "Rime on the trees along a summit staircase, in fog: a common winter day" }
+  - type: quote
+    variant: vibe
+    text: Frost on the railings, a steaming cup of noodles, and the peaks showing for ten minutes between clouds.
+  - type: tips
+    variant: insider
+    items:
+      - "Book the mountain ticket on the **黄山旅游官方平台** mini-program with your passport, and get it checked at the gate on day one. Without that check the three-day re-entry is not activated."
+      - "Train sales open **15 days** before departure on Trip.com. Shanghai to Huangshan has plenty of trains; the Beijing leg has only about 11."
+      - "Buy food at the bottom: Wikivoyage says mountain-top prices are about double."
+      - "Vendors on the mountain sell **snow spikes** for your shoes (Wikivoyage); China Highlights says crampons can be rented at the base."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Check the official notices in late November. A cable car can be shut for maintenance, and in 2024 Tiandu Peak and the Xihai Grand Canyon closed for the whole winter."
+      - "Prices change on **Dec 20**. In the 2025–26 winter the ticket dropped to ¥150 from Dec 20. The 2026–27 winter rate has not been announced."
+      - "China Highlights advises avoiding Fridays and Saturdays, when the weekend crowds come."
+  - type: weather
+    temp_low_c: -3
+    temp_high_c: 3
+    conditions: Freezing on the peaks, often cloud or fog, some snow; milder in the villages
+    note: "Summit-station normals for December: −3.1 to 3.4 °C, 68 mm over 10.8 days, 6.5 snowy days, 52% of possible sunshine. Down in Hongcun a guide gives 0–10 °C. Fog can hide everything for a day, so keep a spare day if the views are the point."
+    wear: Down jacket, thermals, hat and gloves, waterproof boots with grip, snow spikes

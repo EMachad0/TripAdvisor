@@ -1,0 +1,121 @@
+id: nara
+country: japan
+name: "Nara"
+name_local: 奈良
+region: "Kansai · Nara Prefecture"
+scope: city
+cities: [nara]
+why: "Japan's capital in the 700s, now a day trip: about 1,700 wild deer around the Great Buddha and Kasuga's lantern forest. 37 min from Osaka-Namba (¥680) or 48 min from Kyoto (¥760)."
+best_for: [nature, culture, day-trip]
+highlights: ["Nara Park deer", "Todai-ji Great Buddha", "Kasuga Taisha lanterns", "Wakakusa Yamayaki (Jan 23)", "Nigatsudo view"]
+days_suggested: { min: 1, max: 1 }
+cost_level: low
+fame: iconic
+lat: 34.68444
+lng: 135.805
+getting_there: "Kintetsu from Osaka-Namba ¥680, ~37 min; from Kyoto ¥760, ~48 min; both 5 min from the park. JR to JR Nara (20 min walk): JR Namba ¥580, Kyoto ¥720."
+getting_around: "On foot: the park, Todai-ji and Kasuga are one long walk. Nara Kotsu buses link both stations to the sights (1-day pass ¥600, 2024 price). Suica and ICOCA work."
+winter_note: "January averages 0.1 °C at night and 9.0 °C by day, with about 1 cm of snow. Wakakusa Yamayaki is Sat Jan 23, 2027 (fireworks 18:15, hill lit 18:30). Winter deer calling Sun Jan 31 at 10:00. Setsubun lanterns at Kasuga Wed Feb 3."
+image: nara-daibutsuden
+sources:
+  - url: https://en.wikipedia.org/wiki/Nara,_Nara
+    title: "Nara (Wikipedia): coordinates, JMA climate normals 1991–2020"
+    checked: 2026-11-14
+  - url: https://www.japan-guide.com/e/e4107.html
+    title: "japan-guide (Dec 2024): getting to and around Nara, Nara Kotsu bus passes, IC cards"
+    checked: 2026-11-14
+  - url: https://www.japan-guide.com/e/e4103.html
+    title: "japan-guide: Nara Park, 5 min from Kintetsu Nara, 20 min from JR Nara"
+    checked: 2026-11-14
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%E5%A4%A7%E9%98%AA%E9%9B%A3%E6%B3%A2&eki2=%E8%BF%91%E9%89%84%E5%A5%88%E8%89%AF&Dym=202701&Ddd=22&Dhh=9&Dmn1=0&Dmn2=0&Cway=0&S=%E6%A4%9C%E7%B4%A2"
+    title: "Jorudan, Osaka-Namba → Kintetsu-Nara (22 Jan 2027): ¥680, 37 min"
+    checked: 2026-11-14
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%E4%BA%AC%E9%83%BD&eki2=%E8%BF%91%E9%89%84%E5%A5%88%E8%89%AF&Dym=202701&Ddd=22&Dhh=9&Dmn1=0&Dmn2=0&Cway=0&S=%E6%A4%9C%E7%B4%A2"
+    title: "Jorudan, Kyoto → Kintetsu-Nara (22 Jan 2027): express ¥760, 48 min; JR to Nara ¥720"
+    checked: 2026-11-14
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%E5%A4%A7%E9%98%AA&eki2=%E5%A5%88%E8%89%AF&Dym=202701&Ddd=22&Dhh=9&Dmn1=0&Dmn2=0&Cway=0&S=%E6%A4%9C%E7%B4%A2"
+    title: "Jorudan, JR Osaka → JR Nara (22 Jan 2027): Yamatoji Rapid ¥840, 51 min"
+    checked: 2026-11-14
+  - url: https://www.pref.nara.lg.jp/site/park/1000.html
+    title: "Nara Prefecture: Nara Park overview, capital from 710 for 74 years, about 1,700 deer"
+    checked: 2026-11-14
+  - url: https://yamayaki.pref.nara.lg.jp/en/
+    title: "Wakakusa Yamayaki official site: Sat 23 Jan 2027"
+    checked: 2026-11-14
+  - url: https://naradeer.com/learning/number.html
+    title: "Nara Deer Preservation Foundation: 1,687 deer in the 2026 count"
+    checked: 2026-11-14
+  - url: https://www.todaiji.or.jp/en/information/haikan/
+    title: "Todai-ji official: Great Buddha Hall ¥800, 08:00–17:00 Nov–Mar"
+    checked: 2026-11-14
+  - url: https://www.japan-guide.com/e/e4100.html
+    title: "japan-guide: Todai-ji, Nigatsudo free with city views"
+    checked: 2026-11-14
+  - url: https://www.kasugataisha.or.jp/calendar/winter02/
+    title: "Kasuga Taisha: Setsubun Mantoro, all ~3,000 lanterns lit from about 18:00, inner corridor ¥700"
+    checked: 2026-11-14
+  - url: https://yamayaki.pref.nara.lg.jp/ticket/
+    title: "Wakakusa Yamayaki 2027 tickets: places to watch outside the paid areas, early-bird ¥2,000 from Nov 20"
+    checked: 2026-11-14
+  - url: https://www.pref.nara.lg.jp/site/park/1232.html
+    title: "Nara Prefecture: how to treat the deer (national natural monument; only senbei)"
+    checked: 2026-11-14
+  - url: https://ja.wikipedia.org/wiki/%E9%B9%BF%E3%81%9B%E3%82%93%E3%81%B9%E3%81%84
+    title: "鹿せんべい (Japanese Wikipedia): ¥200 a bundle since Oct 2019"
+    checked: 2026-11-14
+  - url: https://www.kasugataisha.or.jp/about/basic/
+    title: "Kasuga Taisha: inner-area special worship ¥700"
+    checked: 2026-11-14
+  - url: https://soranews24.com/2019/10/01/naras-deer-cookie-rice-crackers-get-their-first-price-increase-in-28-years/
+    title: "SoraNews24 (1 Oct 2019): deer crackers rise to ¥200 for a pack of 10"
+    checked: 2026-11-14
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%EF%BC%AA%EF%BC%B2%E9%9B%A3%E6%B3%A2&eki2=%E5%A5%88%E8%89%AF&Dym=202701&Ddd=22&Dhh=9&Dmn1=0&Dmn2=0&Cway=0&S=%E6%A4%9C%E7%B4%A2"
+    title: "Jorudan, JR Namba → JR Nara (22 Jan 2027): Yamatoji rapid ¥580, 41 min"
+    checked: 2026-11-14
+  - url: https://naradeer.com/event/shikayose.html
+    title: "Nara Deer Preservation Foundation: winter deer calling 2027 dates"
+    checked: 2026-11-14
+  - url: https://www.kasugataisha.or.jp/events/2026/16853/
+    title: "Kasuga Taisha: guided Setsubun Mantoro tour, Wed 3 Feb 2027, 19:30, ¥3,000 (confirms the 2027 date)"
+    checked: 2026-11-14
+confidence: medium
+confidence_note: "Cracker price from Japanese Wikipedia and a 2019 report; no 2026 official price. Fares from Jorudan for a January 2027 search, not the railways' own tables. The bus pass price is japan-guide's December 2024 figure. No stay cards: most visitors base in Osaka or Kyoto and come for the day."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    hook: "A day out from Osaka or Kyoto: wild deer, a giant bronze Buddha and a shrine lined with lanterns."
+  - type: highlights
+    items:
+      - title: The deer
+        text: "The 2026 count found **1,687** wild sika deer in and around Nara Park. They're a national natural monument, and they bow for crackers (about ¥200 a bundle)."
+      - title: The Great Buddha
+        text: "Todai-ji's Great Buddha Hall, ¥800, open 08:00–17:00 in winter. Nigatsudo up the hill is free, with a view over the city."
+      - title: Kasuga's lanterns
+        text: "About 3,000 stone and hanging lanterns line Kasuga Taisha. On Setsubun, **Wed Feb 3, 2027**, the shrine lights them all from about 18:00; the inner corridor is ¥700. A guided ¥3,000 tour at 19:30 is optional."
+      - title: A hill on fire
+        text: "**Sat Jan 23, 2027**: Wakakusa Yamayaki. Fireworks at 18:15, then the grass on Mt. Wakakusa is set alight at 18:30. Paid standing tickets (from ¥2,000 early-bird, on sale from Nov 20, 2026) are optional; there are places to watch outside the paid areas."
+  - type: prose
+    title: A day trip, not a base
+    text: |-
+      Nara was Japan's capital from 710 for 74 years, the prefecture says. Today the sights a first-timer comes for sit in one walkable park east of **Kintetsu-Nara** station. Most people come for the day and sleep in Osaka or Kyoto, and that's the plan here too.
+
+      **From Osaka** it's closest: the Kintetsu rapid express from **Namba** takes about 37 minutes for ¥680. **From Kyoto** the Kintetsu express takes about 48 minutes for ¥760. Both end at Kintetsu-Nara, a 5-minute walk from the park. JR goes to JR Nara station, about 20 minutes' walk from the park. It can be the cheapest: from **JR Namba** the Yamatoji line is ¥580, a 41-minute ride in Jorudan's search, against ¥680 on Kintetsu. You pay for it with the longer walk.
+
+      A full day costs about **¥3,060** (R$108): Kintetsu return from Namba ¥1,360, Great Buddha Hall ¥800, Kasuga inner area ¥700 and a bundle of deer crackers (about ¥200). The details are on the Nara Park card.
+  - type: gallery
+    images:
+      - { file: nara-deer-group, caption: "Deer by a fence in Nara Park" }
+      - { file: nara-kasuga-deer, caption: "A deer among Kasuga Taisha's lanterns" }
+      - { file: nara-naramachi, caption: "A street in Naramachi, the old town near the park" }
+  - type: tips
+    variant: insider
+    items:
+      - "Get off at **Kintetsu-Nara**, not JR Nara: it's 5 minutes from the deer instead of 20."
+      - "Pick your day by the calendar: **Jan 23** (hill burning, evening), **Jan 31** (deer calling, 10:00) or **Feb 3** (lanterns, evening)."
+  - type: weather
+    temp_low_c: 0
+    temp_high_c: 9
+    conditions: "Cold, mostly dry, a little snow possible"
+    note: "JMA 1991–2020 normals: 0.1 °C at night, 9.0 °C by day in January, 52 mm of precipitation over about 8 days, 1 cm of snow. The day is all outdoors walking."
+    wear: "Warm coat, gloves, comfortable shoes"

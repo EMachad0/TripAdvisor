@@ -1,0 +1,158 @@
+id: desti-youth-hostel-jing-an
+name: "Desti Youth Hostel Jing'an"
+short_name: Desti Jing'an
+name_local: 背包十年青年旅舍（静安寺昌平路地铁站店）
+name_romanized: Bēibāo Shínián Qīngnián Lǚshè
+country: china
+city: shanghai
+area: Jing'an · Xikang Road
+category: stay
+fame: popular
+tags: [hostel, social, bar, pool-table, capsule-beds]
+kind: Stay
+why: "Rated 9.5 on Hostelworld: curtained capsule-style bunks from ¥108, a free pool table and darts, and a café-bar at the door where guests meet."
+
+cost:
+  local: 108
+  currency: CNY
+  brl: 89.28
+  note: "8-bed dorm, Sun–Thu nights in December 2026 on Hostelworld. ¥118 on Fri/Sat and on 31 Dec"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 3
+  lead_time: "Book a few days ahead; earlier for 31 Dec"
+  method: website
+  links:
+    - label: Hostelworld
+      url: "https://www.hostelworld.com/hostels/p/335239/shanghai-desti-youth-hostel-jing-an-temple/"
+      note: "15% deposit by card, the rest at the hostel in cash or by card"
+  notes: "Walk-in probably works in early December: every dorm type had beds for all nine December nights checked. Booking is safer for New Year, and Hostelworld's free cancellation ends at 23:59 two days before check-in."
+
+hours:
+  summary: "Reception 24 h · check-in 14:00–24:00 · check-out by 12:00 · no curfew"
+  winter: "Bookable through Christmas and New Year. On Hostelworld (read 10 Nov) the 8-bed dorm is ¥108 on Sun–Thu nights in December and ¥118 on Fri/Sat, on 31 Dec and on 1 Jan, with no minimum stay shown. Rooms have air conditioning; one guest found a dorm cold when a roommate turned it up."
+
+location:
+  address: Floor 1–2, 608 Xikang Road, Jing'an District, Shanghai
+  address_local: 上海市静安区西康路608号
+  lat: 31.2370
+  lng: 121.4417
+  nearest_transit: "Changping Road (Line 7), Exit 4, about 500 m"
+
+sources:
+  - url: https://www.hostelworld.com/hostels/p/335239/shanghai-desti-youth-hostel-jing-an-temple/
+    title: "Shanghai Desti Youth Hostel - Jing'an Temple on Hostelworld: score, facilities, rules, 2026 reviews, prices by date"
+    checked: 2026-11-10
+  - url: https://m.ctrip.com/html5/hotel/hoteldetail/131830059.html
+    title: "背包十年青年旅舍(上海静安寺昌平路地铁站店) on Ctrip: Chinese name and address, opened 2025, bar, café, folk music nights"
+    checked: 2026-11-10
+  - url: https://www.hostelworld.com/hostels/asia/china/shanghai/
+    title: "Hostelworld's Shanghai list: scores and review counts of every hostel, used to compare"
+    checked: 2026-11-10
+  - url: https://www.hostelworld.com/hostels/p/312935/dayin-hostel-east-nanjing-road-and-the-bund/
+    title: "Dayin Hostel East Nanjing Road & The Bund on Hostelworld: the alternative named in the tips"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai (Wikipedia): climate table, December normals 1991–2020"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Prices come from Hostelworld's date search (10 Nov, after a 50% promo) and will move. No page states that foreign passports are accepted; I infer it from 2026 Hostelworld reviews by guests from a dozen countries. Reviews disagree on how social it is. The Friday beer deal rests on one May 2026 review. Map pin is the hostel's OpenStreetMap node."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: "Clean, new and cheap, with a bar on the doorstep. You still have to start the conversation yourself."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–24:00", detail: "Reception is open 24 h" }
+      - { label: Vibe, value: Social if you try, detail: "Meet people at the bar out front, not in the dorm" }
+      - { label: Hostelworld, value: "9.5 / 10", detail: "139 reviews; atmosphere 8.9" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 8-bed male or female dorm
+        local: 108
+        brl: 89.28
+        note: "Sun–Thu in Dec 2026; ¥118 Fri/Sat and 31 Dec"
+      - label: Bed in 6-bed dorm
+        local: 118
+        brl: 97.55
+        note: "Sun–Thu in Dec 2026; ¥138 on 31 Dec"
+      - label: Bed in 4-bed dorm
+        local: 122
+        brl: 100.86
+        note: "Sun–Thu in Dec 2026; ¥148 on 31 Dec"
+      - label: Single pod room
+        local: 218
+        brl: 180.22
+        note: "Male pod, Sun–Thu in Dec 2026; ¥238 on 31 Dec"
+      - label: Private twin, shared bathroom
+        local: 358
+        brl: 295.96
+        note: "Whole room, 8 Dec 2026; ¥428 on 31 Dec"
+    rating:
+      score: 9.5
+      out_of: 10
+      source: Hostelworld
+      reviews: 139
+      checked: 2026-11-10
+    social:
+      - "**2Dollars Café & Bar** at the door: café by day, bar by night. Guests call it the place to meet other travelers."
+      - "Common room with a **free pool table**, foosball, darts and a big screen."
+      - "A small stage with live singing some evenings; Ctrip lists folk music nights."
+      - "A Friday beer deal, according to one May 2026 review."
+      - "**Honest caveat:** about half the 2026 reviews that mention it say it is *not* very social. Many guests are quiet Chinese travelers."
+    good_to_know:
+      - "Dorms are split into male and female rooms. Beds are capsule-style bunks with curtains."
+      - "Key-card access, large lockers, lift. Linen and towels are included."
+      - "Paid washing machines and dryers."
+      - "Pay the balance on arrival in cash or by card. No curfew. No children."
+      - "No page states the foreign-passport policy, but 2026 reviews come from guests of a dozen countries."
+      - "Not in the tourist centre: Line 7 is one stop from Jing'an Temple, and most sights need a change of line."
+  - type: highlights
+    items:
+      - title: Among the best-scored in town
+        text: "**9.5 from 139 Hostelworld reviews**, with 9.8 for cleanliness and 10 for security. Only two smaller hostels score higher, on far fewer reviews. Ctrip guests give it 4.7 out of 5 across more than 1,100 reviews."
+      - title: A bar you don't have to look for
+        text: "The hostel shares its front with 2Dollars Café & Bar. One guest wrote that a lot of the Westerners hang out there rather than inside, so go there first."
+      - title: Pod-style beds at dorm prices
+        text: "Curtained capsule-like bunks from **¥108 (R$89)**. Guests praise the privacy and the sleep."
+      - title: Opened in 2025
+        text: "Everything is new: bathrooms with separate wet and dry areas, hotel-grade bedding, a common room with sofas and soundproof booths."
+  - type: prose
+    title: Why this one
+    text: |-
+      Shanghai has no real party hostel. The two places where foreign backpackers actually gather are this one and the much bigger Dayin on East Nanjing Road. I picked Desti because it scores higher on atmosphere (8.9 against 8.4), is far cleaner, costs about ¥50 less a night and has a bar at the door.
+
+      Reviews from 2026 are split. Some say "good social life" and "everything is made so that we can easily meet new people"; others say "people keep to themselves". The pattern in them is clear: the dorms and the common room are calm, and the meeting happens at the bar out front and around the pool table. Ask at reception what is on that evening, because one guest never found the event times posted.
+  - type: book_ahead
+    steps:
+      - { days_before: 3, text: "Book on Hostelworld with a **15% deposit**. Choose the male or female 8-bed dorm for the lowest price." }
+      - { days_before: 2, text: "Free cancellation ends at 23:59 two days before check-in." }
+      - { days_before: 0, text: "Check in from 14:00 with your **passport** and pay the balance in cash or by card." }
+    passport_note: "Bring the passport itself, not a photo of it: you need it to check in."
+  - type: map
+    note: "Take Line 7 to **Changping Road**, leave by Exit 4 and walk east along Changping Road to Xikang Road. The hostel is on floors 1–2 of number 608, with 2Dollars Café & Bar at its door."
+  - type: tips
+    variant: insider
+    items:
+      - "Spend your first evening at **2Dollars** or the pool table, not in the dorm. The reviews that praise the social side point to those two spots."
+      - "Ask reception for tonight's event and its time; they are not always posted."
+      - "Want a busier lobby right beside the Nanjing Road pedestrian street? **Dayin Hostel East Nanjing Road** has a taproom and far more guests (8.8, 483 reviews), but dorms from ¥158 and weaker cleanliness scores."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't expect organised pub crawls or family dinners. Several guests wished for more events."
+      - "The Bund and Yu Garden are a metro ride with a change of line, not a walk."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Damp and grey, rain on about 8 days in December
+    note: "A cold, wet evening is when the bar and the common room fill up. It is about 500 m from the metro exit to the door."
+    wear: Warm layers and a rain jacket
+  - type: pairs_well
+    items:
+      - { id: shanghai-nye-bund-and-clubs, note: "Find your New Year's Eve group at the hostel bar first" }
+      - { id: yu-garden, note: "Metro with one change" }

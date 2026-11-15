@@ -1,0 +1,196 @@
+id: jongno-3ga-pojangmacha
+name: "Jongno 3-ga Pojangmacha Street"
+short_name: Jongno 3-ga tents
+name_local: 종로3가 포장마차 거리
+name_romanized: Jongno Samga Pojangmacha Geori
+country: korea
+city: seoul
+area: Jongno-gu · Jongno 3-ga
+category: food
+fame: popular
+tags: [bar, pojangmacha, soju, street-food, night, k-drama]
+kind: Eat
+why: "Plastic stools under tarp tents by Jongno 3-ga Station: soju, live octopus and fish-cake broth until 2 a.m. Time Out's #1 coolest neighbourhood of 2026."
+cost:
+  local: 24000
+  currency: KRW
+  brl: 99.74
+  note: "One anju plate (≈₩20,000; reported ₩13,000–30,000 by tent) plus a soju. Fish-cake skewers are the cheap way in"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: 2–3 h
+best_time: Weekend night, arrive before 19:00 for a stool
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Tents open around 17:00–18:00 and run to about 02:00, later on Fri–Sat. Each tent sets its own hours"
+  closed: Varies by tent
+  winter: "No fixed winter schedule, but Namane Card warns tents **may close earlier in severe winter weather**. On a bitterly cold night, go early (18:00–20:00) and keep Euljiro Nogari Alley's indoor beer halls as a backup. Vinyl-walled tents are warmer than pavement tables. No New Year closures listed."
+
+location:
+  address: Around Jongno 3-ga Station Exits 5–6 and Donhwamun-ro 11-gil, Jongno-gu, Seoul
+  address_local: 서울특별시 종로구 종로3가역 5·6번 출구 일대 (돈화문로11길, 낙원상가 방향)
+  lat: 37.57257
+  lng: 126.99005
+  nearest_transit: Jongno 3-ga (Lines 1, 3, 5), Exits 5–6
+  approximate: true
+
+sources:
+  - url: https://www.ktriptips.com/eng/tourspot/3403035
+    title: Jongno 3 (sam)-ga Pocha Street (K-Trip Tips, updated Mar 2026)
+    checked: 2026-11-12
+  - url: https://www.ktriptips.com/kor/tourspot/3056463
+    title: 종로3가 포장마차 거리 (K-Trip Tips, Korean)
+    checked: 2026-11-12
+  - url: https://blog.trazy.com/ultimate-guide-to-pojangmacha-streets-in-seoul/
+    title: Ultimate guide to pojangmacha streets in Seoul (Trazy blog)
+    checked: 2026-11-12
+  - url: https://blog.namanecard.com/en/pojangmacha-korean-street-food-guide-en/
+    title: "Pojangmacha Guide: Eating at Seoul's Street-Food Tents (Namane Card blog)"
+    checked: 2026-11-12
+  - url: https://m.go.seoul.co.kr/news/2026/09/23/20260923500190
+    title: 밤 되면 더 뜨거운 '종로3가'…야장으로 세계를 홀렸다 (Seoul Shinmun, Sep 2026)
+    checked: 2026-11-12
+  - url: https://mediahub.seoul.go.kr/archives/2019534
+    title: 세계에서 가장 멋진 동네 1위가 서울에? 걸어본 종로3가 (Seoul city mediahub, 2026)
+    checked: 2026-11-12
+  - url: https://www.trazy.com/spot/1223/jongno-3-ga-pojangmacha-street
+    title: Jongno 3-ga Pojangmacha Street (Trazy spot page)
+    checked: 2026-11-12
+  - url: https://www.inews24.com/view/2010246
+    title: "\"드라마서 봤어요\"…세계가 반한 종로3가 '야장' [르포] (iNews24, 2026)"
+    checked: 2026-11-12
+  - url: "https://polle.com/place/4kiUw8/%EC%A2%85%EB%A1%9C3%EA%B0%80%20%ED%8F%AC%EC%9E%A5%EB%A7%88%EC%B0%A8"
+    title: 종로3가 포장마차 user reviews (polle.com)
+    checked: 2026-11-12
+confidence: low
+confidence_note: "Nobody publishes prices: each tent sets its own. ₩20,000 plates: one polle.com review (~early 2026), shown as an estimate in a ₩13,000–30,000 range. Soju ₩4,000 and odeng ₩1,000–1,500 come from Namane Card. Trazy's older listing says ₩13,000 plates and ₩3,000 soju. Hankyung 2023 (snippet only): ₩18,000–30,000. Winter early-close line: Namane Card (not in my render). Photos: other tents."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: tent-night
+    hook: Ducking under red vinyl into the steam, a burner hissing, the green bottles already on the table.
+    caption: "A Seoul pojangmacha at night (2011): no free photo of the Jongno 3-ga tents exists"
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Weekend night, before 19:00
+    extra:
+      - label: Payment
+        value: Bring cash
+        detail: Card acceptance is patchy
+      - label: Fits your schedule
+        value: Sat Jan 16 or Sun Jan 17
+        detail: Late nights clash with 21:00 work shifts
+      - label: Menu language
+        value: Mostly Korean
+        detail: Point at other tables, ask the price first
+  - type: highlights
+    items:
+      - title: The K-drama scene, for real
+        text: "The tarp tent where characters drink soju and spill secrets. Here it's a whole row of them, full of office workers, young Seoulites and, more and more, foreign visitors."
+      - title: Seafood and drinking snacks
+        text: "Live octopus (**산낙지**), sea squirt, sea cucumber, chicken feet, kimchi pancakes, and udon or ramyeon to finish. Menus differ by tent."
+      - title: The coolest neighbourhood of 2026
+        text: "Time Out ranked Jongno 3-ga **#1 coolest neighbourhood in the world** for 2026, naming these tents along with Ikseon-dong's hanok lanes."
+      - title: A solo-friendly bar
+        text: "Shared tables and stools pushed together. A 2026 report described groups at neighbouring tables chatting and joining each other, which helps when you're on your own."
+  - type: prose
+    title: How a tent night goes
+    dropcap: true
+    text: |-
+      As it gets dark, the strip near **Exits 5–6** fills with red tents and plastic tables spill across the pavement. Some spots are vinyl-walled tents and some are open-air tables. In January you want the tent.
+
+      Drinks usually come first, then **anju**, food meant to go with them. A pot of fish-cake skewers in broth is the cheapest start. The seafood plates are the splurge. Prices are rarely written down and vary by tent, so point, ask *eolmayeyo?* (얼마예요?) and agree before you order.
+
+      In September 2026 the Seoul Shinmun found 2–3 of every 10 customers on the Donhwamun-ro 11-gil strip were foreign tourists. The district now sends safety staff to keep tables inside marked lines until late. It's still a local drinking street, just a famous one now.
+  - type: gallery
+    feature: false
+    images:
+      - file: tents-day
+        caption: "Closed tents by day, Seoul 2011 (not this street): they open up again every evening"
+  - type: quote
+    variant: vibe
+    text: Condensation dripping off the vinyl, soju glasses clinking, and minus five outside the flap.
+  - type: menu
+    title: Tent menu, roughly
+    items:
+      - name: Live octopus
+        name_local: 산낙지
+        price_local: 20000
+        price_brl: 83.12
+        note: "Chopped, still wriggling, with sesame oil. ₩20,000 in one 2026 user review; plates run about ₩13,000–30,000."
+        tag: signature
+      - name: Clam soup
+        name_local: 백합탕
+        price_local: 20000
+        price_brl: 83.12
+        note: "₩20,000 in the same review (one tent). Expect ₩13,000–30,000. Warming in January."
+      - name: Fish-cake skewer
+        name_local: 오뎅 / 어묵
+        price_local: 1000
+        price_brl: 4.16
+        note: "₩1,000–1,500 each. Broth refills are usually free."
+        tag: cheap
+      - name: Soju
+        name_local: 소주
+        price_local: 4000
+        price_brl: 16.62
+        note: "₩4,000 a bottle per Namane Card. Some tents may charge more, so ask."
+        tag: drink
+      - name: Spicy whelk salad
+        name_local: 골뱅이무침
+        note: A classic drinking snack. Ask the price first.
+      - name: Chicken feet
+        name_local: 닭발
+        note: Fiery. Ask the price first.
+      - name: Udon or ramyeon
+        name_local: 우동 / 라면
+        note: "The cheap closer. ₩3,000 in Trazy's older listing, likely more now."
+    note: "No tent posts a fixed menu online, and prices differ by tent. **Agree on the price before ordering.**"
+  - type: cost_breakdown
+    items:
+      - label: "One anju plate (₩13,000–30,000 by tent)"
+        local: 20000
+        brl: 83.12
+        estimate: true
+      - label: Bottle of soju
+        local: 4000
+        brl: 16.62
+      - label: Two fish-cake skewers
+        local: 2000
+        brl: 8.31
+        optional: true
+        estimate: true
+    note: "This is a night out, so it counts against the R$140 daily budget (about 70% of it). The cheap version is skewers, broth and one soju: about ₩6,000."
+  - type: map
+    zoom: 16
+    note: "Take **Exit 5 or 6** of Jongno 3-ga Station (toward Nakwon Arcade). The tents line the streets right outside. The pin marks Donhwamun-ro 11-gil, the busiest strip."
+  - type: tips
+    variant: insider
+    items:
+      - "Arrive **before 19:00** to get a stool on a weekday. After 21:00 on a Saturday, expect to wait for a table."
+      - "Solo and on a budget: order skewers and soju, then share a plate if neighbours invite you in."
+      - "Ikseon-dong's hanok alleys are a few minutes north. Walk them at dusk, then come back for the tents."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Prices aren't on the menu**, and Trazy warns some owners quote foreigners higher. Ask *eolmayeyo?* (얼마예요?) before you order and again when you pay."
+      - "Carry **cash** in ₩10,000 notes. Card acceptance is patchy."
+      - "On a work night (Jan 11–15 or 18–19), soju before a 21:00–06:00 shift is a bad idea. Save it for **Sat Jan 16** or **Sun Jan 17** (your next shift starts Mon 21:00). Sun Jan 10, your arrival night, also has no shift after it."
+  - type: weather
+    temp_low_c: -8
+    temp_high_c: 0
+    conditions: Freezing nights, dry wind, occasional snow
+    note: "At night it's well below zero. Pick a **vinyl-walled tent**, where the burner and the crowd warm the air, over a pavement table. It's the classic winter-night drink in Seoul."
+    wear: Heaviest jacket, hat, gloves. You'll sit still for hours
+  - type: pairs_well
+    items:
+      - id: euljiro-nogari-alley
+        note: About 10 min south. Beer and dried pollock for round two
+      - id: gwangjang-market
+        note: About 15 min east. Bindaetteok first, tents after

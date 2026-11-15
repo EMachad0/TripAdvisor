@@ -1,0 +1,71 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: lny-harbour-fireworks
+name: New Year Harbour Fireworks
+name_local: 新春煙花
+country: hong-kong
+city: hong-kong
+area: Victoria Harbour
+category: views
+tags:
+  - lunar-new-year
+  - lunar-new-year-option
+kind: See
+why: "Twenty-three minutes of fireworks over the harbour on the second night."
+when:
+  dates:
+    - { from: 2027-02-07, to: 2027-02-07 }
+  kind: only
+  label: "2nd day, Sun 7 Feb (expected)"
+cost:
+  local: 0
+  currency: HKD
+  brl: 0
+fx:
+  rate: 0.71
+  date: 2026-11-09
+  source: fixture rate
+time_needed: 2–3 h
+best_time: After dark
+book_ahead:
+  required: false
+hours:
+  summary: Evening
+  winter: Huge crowds on the holiday; the MTR runs late.
+location:
+  address: Fixture address, hong-kong
+  lat: 22.27
+  lng: 114.15
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture source
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture source 2
+    checked: 2026-11-09
+confidence: low
+confidence_note: Game test fixture, not researched.
+last_updated: 2026-11-09
+blocks:
+  - type: hero
+    hook: Leaning back at 27 degrees, up into the clouds.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: After dark
+  - type: highlights
+    items:
+      - title: Fixture highlight
+        text: Test text for **New Year Harbour Fireworks**. Not researched.
+      - title: Second highlight
+        text: Game fixture content, ignored by the real build.
+  - type: weather
+    temp_low_c: 14
+    temp_high_c: 19
+    conditions: Mild, hazy
+    note: Fixture weather note.
+    wear: Warm layers
+  - type: tips
+    variant: insider
+    items:
+      - "Fixture tip: go early."

@@ -1,0 +1,16 @@
+# Independent review of area kanchanaburi. Written by `./atr review`; do not edit by hand.
+id: kanchanaburi
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 27ce5fe71b75f76f6d8dc5ffd2a893dce266d284c600c7ac41605d841d1d10a2
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: aa7e3c1da42e1a9b513a8a7fd13e19ed9ab388e00b5dffa1d533148eb989a79b
+summary: "The new source loads. It is dated \"Updated: March 15th, 2026\" and supports everything the diff adds: Thonburi 07.45→10.35 and 13.55→16.25 in a table labelled \"Current for 2026\", and \"For foreign travelers in 2026 … fixed price of 100 Baht\". The earlier review left no blockers or shoulds, and the unchanged text has none. Its timetable gives about 2 h 50 min to Kanchanaburi, slightly more than the page's \"about 2 h 40 min\", but that difference is not a blocker."
+model: claude-opus-5-5
+cost_usd: 0.525

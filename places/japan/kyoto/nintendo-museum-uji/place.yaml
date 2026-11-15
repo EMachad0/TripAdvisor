@@ -1,0 +1,155 @@
+id: nintendo-museum-uji
+name: "Nintendo Museum"
+name_local: ニンテンドーミュージアム
+name_romanized: Nintendō Myūjiamu
+country: japan
+city: kyoto
+area: "Uji · Ogura"
+category: culture
+fame: popular
+tags: [gaming, museum, nintendo, retro, uji]
+kind: See
+why: "Nintendo's own museum in its old Uji factory: every console side by side, play-with-coins exhibits, hanafuda cards. Tickets by online lottery only."
+
+cost:
+  local: 4020
+  currency: JPY
+  brl: 141.38
+  note: "Adult ticket ¥3,300 plus Kintetsu Kyoto–Ogura return (¥360 each way). Extra play coins, café and shop on top"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h
+best_time: "First time slot; skip Tuesdays (closed)"
+
+book_ahead:
+  required: true
+  lead_days: 70
+  lead_time: "Now: Jan 2027 tickets on sale; Feb 2027 lottery closes 30 Nov"
+  method: website
+  links:
+    - label: Official ticketing site
+      url: "https://museum-tickets.nintendo.com/en/"
+      note: "The only place tickets are sold. Free Nintendo Account needed; card with 3-D Secure"
+    - label: How the lottery works
+      url: "https://museum.nintendo.com/en/guide/visit-flow/"
+      note: "Official step-by-step: drawing, results, payment deadline, QR code"
+  passport: true
+  notes: "No tickets at the door, and each ticket is in your name. Resale is banned: ignore third-party sellers."
+
+hours:
+  summary: "10:00–20:00"
+  closed: "Tuesdays (Wednesday if Tuesday is a holiday); 30 Dec – 3 Jan"
+  winter: "Open as normal during your Japan dates except **Tue 26 Jan and Tue 2 Feb 2027** (Tuesday closures). The New Year closure (30 Dec – 3 Jan) is before you arrive. No other winter changes listed on the official site."
+
+location:
+  address: "56 Kaguraden, Ogura-cho, Uji-shi, Kyoto 611-0042"
+  address_local: 京都府宇治市小倉町神楽田56
+  lat: 34.89257
+  lng: 135.7842
+  nearest_transit: "Ogura (Kintetsu Kyoto Line), East exit, 5 min walk"
+
+sources:
+  - url: https://museum.nintendo.com/en/
+    title: "Nintendo Museum official: news (Jan 2027 first-come sale; Feb 2027 drawing to 30 Nov), hours, closed days, address"
+    checked: 2026-11-12
+  - url: https://museum.nintendo.com/en/guide/visit-flow/
+    title: "Nintendo Museum official: drawing 3 months ahead, results 1st, pay by 7th, QR day before, passport as ID, prices"
+    checked: 2026-11-12
+  - url: https://museum-tickets.nintendo.com/en/
+    title: "Nintendo Museum ticketing site: adult ¥3,300, only official sales channel"
+    checked: 2026-11-12
+  - url: https://www.japan-guide.com/e/e3982.html
+    title: "japan-guide.com: Kintetsu 20 min ¥360, JR 25 min ¥310; play coins included; hanafuda workshop booked same day"
+    checked: 2026-11-12
+  - url: https://www.nintendo.com/jp/officialstore/index.html
+    title: "Nintendo official stores: Nintendo KYOTO in Kyoto Takashimaya S.C. [T8]"
+    checked: 2026-11-12
+  - url: https://www.takashimaya.co.jp/kyoto/specialtystores/businesshours/
+    title: "Kyoto Takashimaya S.C. T8 business hours: 10:30–20:00"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Kyoto
+    title: "Kyoto (Wikipedia): climate table, January normals"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices, hours, closures and the ticket schedule are from the official sites (12 Nov 2026). Whether any late-January first-come slots are still left, and whether you win the February drawing, can't be known in advance. The price of extra play coins and the café menu were not published in what I read, so they are left out."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: museum-building
+    focus: "68% 40%"
+    caption: "The museum building in Ogura, Uji"
+    hook: "The Kyoto card maker that became Nintendo, told in its own former factory, from hanafuda to Switch."
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: "First slot, not a Tuesday"
+    extra:
+      - label: Tickets
+        value: Online only, in your name
+        detail: "Drawing 3 months ahead, then first-come leftovers"
+      - label: From Kyoto
+        value: "20 min, ¥360"
+        detail: "Kintetsu Kyoto Line to Ogura, then a 5 min walk"
+      - label: Good in cold
+        value: Yes, indoors
+  - type: highlights
+    items:
+      - title: Every product side by side
+        text: "The official site describes Nintendo's releases laid out **side by side**, from playing cards and toys to Nintendo Switch: a single hall of the company's whole history."
+      - title: Exhibits you play
+        text: "Your ticket comes with a starting stash of **coins** for the interactive play exhibits; japan-guide notes you can buy more inside."
+      - title: Make your own hanafuda
+        text: "Nintendo began in 1889 making **hanafuda** cards. The Craft & Play workshop lets you make a deck and learn the game (extra fee, same-day booking once inside)."
+      - title: Built in the old factory
+        text: "The museum stands on the site of the **Uji Ogura plant**, a former Nintendo factory; the café and the shop with museum-only goods are for ticket holders only."
+  - type: prose
+    title: Why a museum clears the bar
+    dropcap: true
+    text: |-
+      You said museums aren't worth a day unless they're in the Louvre league. For a gamer this one is: it is Nintendo's own museum, run by a Kyoto-based company in its home prefecture on the site of its own factory, and you can't get in without winning or grabbing a ticket weeks ahead.
+
+      The catch is the booking, not the trip. Uji is a short train ride from Kyoto, but tickets are only sold on the official site, first by monthly drawing and then, if seats are left, first-come. As of 12 November 2026, **January 2027** tickets are on sale first-come and the **February 2027** drawing is open until 30 November.
+  - type: gallery
+    images:
+      - { file: signpost, caption: "The museum's signpost on the walk from Ogura Station" }
+  - type: book_ahead
+    steps:
+      - days_before: 70
+        text: "**Today (Nov 2026):** make a free Nintendo Account. For 20–31 Jan, buy first-come on the ticketing site now. For 1–4 Feb, enter the drawing **before 23:59 JST on 30 Nov**."
+      - days_before: 62
+        text: "1 Dec: drawing results arrive by email. If you win, pay by card by **23:59 JST on 7 Dec** or the ticket is cancelled."
+      - days_before: 1
+        text: "From **14:00** the day before, issue your QR code on the ticketing site (after that it can't be cancelled)."
+      - days_before: 0
+        text: "Show the QR code and your **passport** at the gate, then book the hanafuda workshop straight away if you want it."
+    passport_note: "A **passport** is the only ID accepted for non-Japanese visitors, and the name must match the ticket."
+  - type: cost_breakdown
+    items:
+      - label: Adult ticket (18+)
+        local: 3300
+        brl: 116.06
+      - label: "Kintetsu Kyoto ⇄ Ogura, return"
+        local: 720
+        brl: 25.32
+  - type: map
+    note: "No parking and Nintendo asks visitors **not to come by taxi**. Use the Kintetsu Ogura East exit (5 min) or JR Ogura North exit (8 min)."
+  - type: tips
+    variant: insider
+    items:
+      - "The JR Nara Line to JR Ogura (25 min, ¥310) is covered by a JR Pass; the Kintetsu train is a bit quicker."
+      - "Back in Kyoto, **Nintendo KYOTO** (the official store) is in Kyoto Takashimaya S.C. [T8], open 10:30–20:00: no ticket needed."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Tuesdays are closed: during your trip that is **26 Jan and 2 Feb**."
+      - "Only cards registered for **3-D Secure** work for payment; check yours before the payment deadline."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 9
+    conditions: Cold, mostly dry
+    note: "Kyoto's January averages around 1 °C at night and 9 °C by day. The visit is all indoors; only the short walk from the station is outside."
+    wear: Warm jacket, layers you can take off inside
+  - type: pairs_well
+    items:
+      - id: kiyomizu-dera
+        note: "Back in Kyoto: the classic temple for the same day"

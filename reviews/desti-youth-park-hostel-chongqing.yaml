@@ -1,0 +1,44 @@
+# Independent review of desti-youth-park-hostel-chongqing. Written by `./atr review`; do not edit by hand.
+id: desti-youth-park-hostel-chongqing
+type: place
+reviewed: 2026-11-10
+verdict: fix
+content_hash: 4ada4661898f0f1f2b031e73f5ea5232deec0e7366d53b6e5d17e2e4aca548a5
+facts:
+  supported: 30
+  unsupported: 5
+  contradicted: 1
+issues:
+  - severity: should
+    field: blocks[5].steps[2].text
+    problem: The page tells the traveler they can arrive any time before reception closes at 01:00. Hostelworld's house rules, on the booking channel the page links, give check-in as 14:00–23:00. Only Trip.com says check-in runs to 01:00.
+    evidence: 'https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY — "Check In 14:00 - 23:00"; Trip.com: "Check-in: 14:00–01:00 the next day"'
+    fix: Say check-in is 14:00–23:00 on Hostelworld (Trip.com says until 01:00), and tell the traveler to message the hostel if they will arrive after 23:00. Make the same change in hours.summary.
+  - severity: should
+    field: blocks[2].good_to_know[6]
+    problem: No listed source gives the 'Paid breakfast ¥19.90, 08:30–10:30'. Hostelworld says only "Breakfast not included" and Trip.com says "Breakfast not provided".
+    evidence: https://www.hostelworld.com/hostels/p/306806/desti-youth-park-hostel-chongqing/ — "6. Breakfast not included."; https://ae.trip.com/hotels/chongqing-hotel-detail-54505766/chongqing-desti-youth-park — "Breakfast not provided"
+    fix: Remove the breakfast price and hours, or cite the page that lists them.
+  - severity: should
+    field: book_ahead.links[0].note
+    problem: No listed source supports the '15% deposit by card'. Hostelworld's policy text says "Payment upon arrival by cash and Card" and "may pre-authorize your card before arrival", and Trip.com says "No deposit required by the property".
+    evidence: https://www.hostelworld.com/hostels/p/306806/desti-youth-park-hostel-chongqing/ — "Payment upon arrival by cash and Card … This property may pre-authorize your card before arrival."
+    fix: "Replace the deposit claim with the stated policy: pay on arrival, and the card may be pre-authorized."
+  - severity: nit
+    field: book_ahead.notes
+    problem: No source shows '8–9 beds left in the 4-bed dorms'. The rendered Hostelworld date searches show a 'beds left' count only for the 6-bed dorms.
+    evidence: https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-26&to=2027-01-02&guests=1&currency=CNY
+    fix: Drop the 4-bed count, or say the site showed no low-availability warning for those dorms.
+  - severity: nit
+    field: blocks[8].items[4]
+    problem: No source supports 'Only Cafe and Backpacker … is closer to Jiefangbei'. Hostelworld puts Only Cafe 2.45 km from the city centre and Desti 1.64 km.
+    evidence: https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY — "2.45km from city centre"
+    fix: Remove 'closer to Jiefangbei', or cite a distance that supports it.
+  - severity: nit
+    field: blocks[2].beds[3]
+    problem: The ¥93.80 price for 1 Jan is correct, but no listed source covers that night. The only listed source is the 31 Dec single-night search.
+    evidence: https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2027-01-01&to=2027-01-02&guests=1&currency=CNY — 6-bed CN¥93.80, 4-bed CN¥103.60
+    fix: Add the 1 Jan single-night search to sources.
+summary: "The Hostelworld and Booking.com prices, promo levels, week totals, events, rating, rules, address, alternatives and weather match the sources when rendered. Three statements need fixing: the arrival cutoff of 01:00 conflicts with Hostelworld's 14:00–23:00 check-in window, and no source supports the ¥19.90 breakfast or the 15% Hostelworld deposit."
+model: claude-opus-5-5
+cost_usd: 0.919

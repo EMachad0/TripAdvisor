@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: zanmai-sushi
+  title: File:2014-09-09 sushi at Sushizanmai in Tsukiji Outer Market.jpg
+  author: Cheng-en Cheng
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:2014-09-09_sushi_at_Sushizanmai_in_Tsukiji_Outer_Market.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/52/2014-09-09_sushi_at_Sushizanmai_in_Tsukiji_Outer_Market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: sushi at Sushizanmai in Tsukiji Outer Market
+  width: 5000
+  height: 3333
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
