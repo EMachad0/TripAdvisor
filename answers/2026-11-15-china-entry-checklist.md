@@ -1,8 +1,9 @@
 ---
 question: "China entry: can I do the arrival card now, do tickets need to be printed, and can I bring my power bank?"
 asked: 2026-11-15
+updated: 2026-11-15
 about: china
-tldr: "Arrival card: not yet, do it in the last 3 days before landing (or on arrival). Tickets on the phone are fine; nothing official asks for paper. A power bank without the Chinese 3C mark is fine on the flights in and out and on trains, but is stopped on flights inside China (as of Nov 2026)."
+tldr: "Arrival card: it can be filled in weeks ahead; the official form took a Dec 6 arrival on Nov 15 and gave a receipt with a QR code. Tickets on the phone are fine; nothing official asks for paper. A power bank without the Chinese 3C mark is fine on the flights in and out and on trains, but is stopped on flights inside China (as of Nov 2026)."
 sources:
   - title: "NIA Announcement No. 4 of 2025 on the online arrival card (2025-11-03)"
     url: https://en.nia.gov.cn/n147413/c187308/content.html
@@ -21,7 +22,7 @@ sources:
   - title: "Health declaration form scrapped from 2023-11-01 (Beijing government)"
     url: https://english.beijing.gov.cn/latest/news/202311/t20231101_3292824.html
 ---
-**Arrival card.** The official notice only says it can be filled in "before coming to China" and gives no window. Travel guides say the form takes arrival dates up to 3 days ahead; this is not confirmed officially. For a landing on Sun Dec 6, fill it in from Thu Dec 3. It is not needed to board: it can also be done at the airport by QR code, on a kiosk or on paper. Use only the official form (the NIA warns about fake paid sites) and save a screenshot of the result.
+**Arrival card.** The official notice only says it can be filled in "before coming to China" and gives no window. Travel guides that say "only within 3 days" are wrong: on 2026-11-15 the official form accepted an entry date of Dec 6 and issued an "Entry Declaration Receipt" (a PDF with a QR code and no expiry date printed). Keep that PDF offline and show the QR code at immigration. The card is free, and it can also be done at the airport by QR code, on a kiosk or on paper. Use only the official form (the NIA warns about fake paid sites). Whether a receipt issued weeks ahead is still read at the border is not stated anywhere official; if it is not, the fix is to fill it in again on arrival.
 
 **Tickets.** No official rule asks for paper. The visa-free FAQ only recommends carrying flight and hotel bookings that match the trip. What matters is proof of the flight out of China within 30 days.
 
