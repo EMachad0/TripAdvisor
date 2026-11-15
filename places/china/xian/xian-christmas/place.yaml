@@ -1,0 +1,170 @@
+id: xian-christmas
+name: "Christmas in Xi'an: Bell Tower & cathedral"
+short_name: Xi'an Christmas
+name_local: 西安钟楼
+name_romanized: Xi'an Zhonglou
+country: china
+city: xian
+area: Beilin · Bell Tower
+category: culture
+fame: popular
+tags: [christmas, christmas-option, church, night-walk, street-food, overnight-train]
+kind: See
+why: "Christmas Eve at an 1883 cathedral with a Baroque facade and the lit Bell Tower, then a ¥178 sleeper train on the 25th that arrives in Chongqing at 08:28."
+when:
+  dates:
+    - { from: 2026-12-24, to: 2026-12-25 }
+  kind: best
+  label: "Christmas, 24–25 Dec"
+
+cost:
+  local: 182
+  currency: CNY
+  brl: 150.46
+  note: "Hard sleeper Xi'an → Chongqing on the night of the 25th plus a metro ride. The streets and cathedral are free"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Christmas Eve + Christmas Day"
+best_time: "Dec 24 after dark; leave on the 23:06 sleeper on the 25th"
+
+book_ahead:
+  required: recommended
+  lead_days: 15
+  lead_time: "Sleeper tickets go on sale 15 days ahead: book on Dec 11"
+  method: passport-registered
+  links:
+    - label: Trip.com trains (Xi'an → Chongqing)
+      url: "https://www.trip.com/trains/china/route/xian-to-chongqing/"
+      note: "English, foreign cards, passport details; sleeper berths on K507"
+    - label: Ctrip timetable (Chinese)
+      url: "https://trains.ctrip.com/trainbooking/xian-chongqing/"
+      note: "Times and fares by date"
+  passport: true
+  notes: "Only the overnight train needs booking; the city itself doesn't. Overnight trains carry few sleeper berths, and Christmas falls on a Friday, so book when sales open."
+
+hours:
+  summary: "Streets and the Muslim Quarter are open all day. Cathedral opening hours are not published: the gate may be shut"
+  winter: "Christmas isn't a public holiday in China and no 2026 Christmas program has been announced. In 2024 Xi'an set up a **Christmas town** downtown (The World of Chinese). Cathedral Christmas Mass times are only posted shortly before. Cold and dry; snow is unusual."
+
+location:
+  address: Bell Tower, Bell Tower Roundabout, Beilin District, Xi'an
+  address_local: 陕西省西安市碑林区钟楼
+  lat: 34.26101
+  lng: 108.94234
+  nearest_transit: "Guangji Street (Line 6), for the Muslim Quarter"
+
+sources:
+  - url: https://en.wikipedia.org/wiki/St._Francis_Cathedral,_Xi%27an
+    title: "St. Francis Cathedral, Xi'an (Wikipedia): 17 Wuxing Street, begun 1716, current church 1883"
+    checked: 2026-11-10
+  - url: https://www.theworldofchinese.com/2024/12/christmas-celebrations-across-china-in-photos/
+    title: "Christmas across China (The World of Chinese, 2024-12-25): Xi'an set up a Christmas town downtown"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/xian-chongqing/
+    title: "Xi'an–Chongqing trains on Ctrip (timetable for 2026-11-12): K507 23:06 → 08:28, hard sleeper ¥178; day trains from 5 h 04 min, ¥302–529"
+    checked: 2026-11-10
+  - url: https://goasia.cc/en/china/xian-to-chongqing
+    title: "Xi'an to Chongqing (GoAsia, updated 2026-10-16): K507 from Xi'an East 23:06, tickets 15 days ahead, flights"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/xian/attraction/muslim-street.htm
+    title: "Xi'an Muslim Quarter (China Highlights): open all day, near the Bell and Drum Towers, lively after dark"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/xian/weather/december.htm
+    title: "Xi'an weather in December (China Highlights): about 8 °C by day, 1 °C at night, snow rare"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Train times and fares are from Ctrip's timetable for 12 Nov and GoAsia (Oct 2026); December can differ. The 2024 Christmas town may not return. Cathedral hours and Mass times aren't published. The metro fare to Xi'an East is my estimate. The Dec 26 drone show isn't scheduled yet. The Trip.com route page wasn't fetchable (bot check)."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: bell-tower-night
+    caption: The Bell Tower lit up at night (an ordinary night)
+    hook: A Ming-dynasty bell tower glowing in the traffic circle, a Baroque cathedral in an alley, and lamb soup to warm up.
+  - type: quick_facts
+    time_needed: "Christmas Eve + Christmas Day"
+    best_time: "Dec 24 after dark; leave on the 23:06 sleeper on the 25th"
+    extra:
+      - label: To Chongqing
+        value: "Overnight, 9 h 22 min"
+        detail: "K507 hard sleeper ¥178 (R$147), in at 08:28"
+      - label: Night temp
+        value: About 1 °C
+        detail: Dry cold, snow is rare
+      - label: Christmas
+        value: Not a holiday
+        detail: "Everything open; churches busy on the 24th"
+  - type: highlights
+    items:
+      - title: A cathedral from 1716
+        text: "**St. Francis Cathedral** on Wuxing Street, locals' *Nan Tang*, was begun in 1716 and rebuilt in 1883 with a Baroque facade. It's a provincial heritage site, in the old city near the Bell Tower."
+      - title: The towers after dark
+        text: "The **Bell Tower** and **Drum Tower** are lit every night, and the **Muslim Quarter** between them stays lively for street food after dark."
+      - title: A Christmas town, maybe
+        text: "In **2024** the city set up a **Christmas town** downtown. Nothing has been announced for 2026 yet, so check in mid-December."
+      - title: Sleep your way to Chongqing
+        text: "**K507** leaves Xi'an East at **23:06** on the 25th and reaches **Chongqing North at 08:28**. That's one night's bed and the whole of the 26th in Chongqing."
+  - type: prose
+    title: How to do it
+    dropcap: true
+    text: |-
+      Christmas in China is a night out, not a family holiday. Xi'an adds something most cities don't: a real old cathedral. **St. Francis** on Wuxing Street has served Xi'an's Catholics since the 1700s.
+
+      Go after dark on the 24th. Look at the cathedral, then walk to the **Bell Tower** and through the **Muslim Quarter** for lamb soup and roasted meat. If the Christmas town returns, it'll be downtown too.
+
+      Use the 25th for the city wall or the Terracotta Army, then board the **23:06 sleeper**. You wake up in Chongqing with Saturday ahead of you. The 20:30 drone show is likely that night but not confirmed: December dates come out in late November, and rain can cancel it on the day.
+  - type: gallery
+    images:
+      - file: wall-in-snow
+        caption: The Ming city wall in a rare snowfall
+      - file: bell-tower-dusk
+        caption: The Bell Tower roundabout at dusk
+  - type: book_ahead
+    steps:
+      - days_before: 15
+        text: "Sales open for **Dec 25 (K507)**. Book a **hard sleeper** (¥178) on Trip.com or 12306 with your passport."
+      - days_before: 0
+        text: "Be at **Xi'an East** (西安东站) by about 22:30. Station security checks passports. Board, sleep, arrive at **Chongqing North** at 08:28."
+    passport_note: "Book and board with the **same passport**. It's checked at the station entrance."
+  - type: cost_breakdown
+    items:
+      - label: Cathedral, Bell Tower and Muslim Quarter streets
+        local: 0
+        brl: 0
+      - label: "K507 hard sleeper, Xi'an East → Chongqing North (Dec 25)"
+        local: 178
+        brl: 147.15
+      - label: Metro to the station (my estimate)
+        local: 4
+        brl: 3.31
+        estimate: true
+      - label: Hard seat instead of sleeper (saves ¥76)
+        local: 102
+        brl: 84.32
+        optional: true
+    note: "The sleeper doubles as a night's bed, so compare it with a hostel night plus a daytime train: day trains take 5 to 6 h and cost ¥302–529 in second class."
+  - type: map
+    zoom: 15
+    note: "The pin is the **Bell Tower**. St. Francis Cathedral (五星街天主教堂) is at 17 Wuxing Street, west of here inside the city wall. The overnight train leaves from **Xi'an East** (西安东站), not Xi'an North."
+  - type: tips
+    variant: insider
+    items:
+      - "**Getting to Chongqing**: the November timetable has **K507**: Xi'an East 23:06 → Chongqing North 08:28 (+1), hard sleeper **¥178 (R$147)**, hard seat ¥102. Daytime fast trains take 5 to 6 h; second class runs from ¥302 on D trains to ¥529. Flights take about 1.5 h."
+      - "Christmas Eve at the cathedral: go early in the evening and stay outside if it's full. Watch the crowd rather than trying to get into the service."
+      - "Eat in the Muslim Quarter before the train. There's nothing good on board."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Two different stations: the sleeper leaves from **Xi'an East**, the fast trains from **Xi'an North**. Check your ticket."
+      - "The 2024 Christmas town isn't guaranteed for 2026."
+      - "The cathedral may be full or closed to visitors on Christmas Eve. No source gives its 2026 arrangements."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 8
+    conditions: Cold, dry, mostly cloudy; snow is unusual
+    note: "Cold but dry, so a long evening walk is comfortable with a proper jacket. The train is heated."
+    wear: Down jacket, hat, gloves
+  - type: pairs_well
+    items:
+      - id: chongqing-drone-light-show
+        note: "Arrive 08:28 on Sat Dec 26; the 20:30 drone show that night is likely, not confirmed"

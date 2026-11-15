@@ -1,0 +1,91 @@
+id: chuncheon-hwacheon
+country: korea
+name: "Chuncheon & Hwacheon"
+name_local: 춘천 · 화천
+region: Northern Gangwon
+scope: region
+cities: [chuncheon, hwacheon]
+why: "Lake-and-river country one hour from Seoul by train: ice fishing for trout at the Hwacheon festival (9–31 Jan 2027), sizzling dakgalbi in Chuncheon and Nami Island. Easy as day trips."
+best_for: [day-trip, food, nature, odd-local]
+highlights: ["Hwacheon Sancheoneo Ice Festival", "Chuncheon Dakgalbi Street", "Nami Island", "Soyang River Skywalk", "Soyang Lake and Cheongpyeongsa"]
+days_suggested: { min: 1, max: 2 }
+cost_level: low
+fame: hidden
+lat: 37.8667
+lng: 127.7333
+getting_there: "ITX from Cheongnyangni: 55 min to Namchuncheon, ₩8,300. Hwacheon: bus from Dong Seoul 2 h 55 (first bus 06:45, last 18:10), back 2 h 35 (last bus 21:00), ₩14,400 each way (2026 timetable)."
+getting_around: "Chuncheon city buses (₩1,100 cash per Wikivoyage) mostly run without a timetable; taxis are plentiful. Hwacheon buses leave Chuncheon every 30–60 min."
+winter_note: "Colder than Seoul. Chuncheon's January normals run from −9.3 °C at night to 1.9 °C by day, with about 9 snowy days. The Hwacheon Sancheoneo Ice Festival runs Sat 9 – Sun 31 Jan 2027, so it covers all your Korea days (10–20 Jan). Nami Island is open all year."
+image: hwacheon-ice-fishing
+sources:
+  - url: https://en.wikivoyage.org/wiki/Chuncheon
+    title: "Chuncheon (Wikivoyage): trains, buses from Dong Seoul, Dakgalbi Street, Soyang Skywalk, Soyang Dam, Nami Island"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Chuncheon
+    title: "Chuncheon (Wikipedia): coordinates, January climate normals 1991–2020 (KMA)"
+    checked: 2026-11-12
+  - url: http://www.narafestival.com/ice_en/
+    title: "Hwacheon Sancheoneo Ice Festival, official English site: 2027 dates (9–31 Jan)"
+    checked: 2026-11-12
+  - url: http://www.narafestival.com/01_icenara/?wr_id=8
+    title: "Festival directions (official, Korean): Dong Seoul and Chuncheon buses, ITX fares and times (2026 edition)"
+    checked: 2026-11-12
+  - url: https://namisum-en.imweb.me/163
+    title: "Nami Island official site: admission fees, round-trip ferry included, open all year"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Nami_Island
+    title: "Nami Island (Wikipedia): river island belonging to Chuncheon, Winter Sonata filming location"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals for comparison"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Bus and ITX fares and times are from the festival's 2026-edition directions page and Wikivoyage; 2027 timetables are not out. Wikivoyage gives ₩8,300 Yongsan–Chuncheon; the festival page gives ₩8,300 Cheongnyangni–Namchuncheon and ₩9,600 to Chuncheon station, which I use. Soyang Skywalk hours and price are from Wikivoyage (Dec 2024), not an official page."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Fish for trout through river ice, then eat spicy chicken off a hot plate in Chuncheon, an hour from Seoul."
+    caption: "Ice fishing at the Hwacheon Sancheoneo Ice Festival, 2023"
+  - type: highlights
+    items:
+      - title: Ice fishing on a frozen river
+        text: "The **Hwacheon Sancheoneo Ice Festival** runs 9–31 Jan 2027, all through your Korea dates. You fish for mountain trout through a hole in the ice and have them grilled on site."
+      - title: Dakgalbi where it comes from
+        text: "Chuncheon's **Dakgalbi Street** is lined with restaurants cooking the spicy chicken, rice cakes and vegetables on a skillet at your table."
+      - title: Nami Island
+        text: "The tree-lined river island from the drama *Winter Sonata*. **₩19,000** with the round-trip ferry, open all year, and pretty bare and snowy in winter."
+      - title: A glass walkway over the river
+        text: "The **Soyang River Skywalk** is a 174 m glass-floored walkway over the river, ₩2,000 (card only), roughly 10:00–17:30, closed on Tuesdays. These details come from Wikivoyage only; check before you go."
+  - type: prose
+    title: Day trip or sleep there?
+    text: |-
+      **Day-trip it.** Chuncheon is about an hour from Seoul on the ITX-Cheongchun train or the Gyeongchun metro line, so there is little reason to move your bags. On a work day you could go after you wake up, eat dakgalbi, walk the river, and be back in Seoul well before a 21:00 shift.
+
+      **Hwacheon is a long day.** The direct bus from Dong Seoul took close to three hours each way in the 2026 timetable, so go on a free day: Sat 16 or Sun 17 Jan. Sunday is the better fit if you go clubbing in Hongdae on Saturday night. The other way in is the ITX to Chuncheon and a local bus to Hwacheon, which lets you add a dakgalbi stop on the way back.
+
+      Sleeping in Chuncheon only makes sense if you want both on one weekend: dakgalbi and the river on Saturday, then the first bus to Hwacheon on Sunday.
+
+      **Nami Island** belongs to Chuncheon but you reach it from **Gapyeong**, on the same rail line, so it fits on the way to Chuncheon or on a day of its own.
+  - type: gallery
+    images:
+      - { file: chuncheon-river-bridge, caption: "A bridge over the river in Chuncheon, with the mountains behind" }
+      - { file: dakgalbi, caption: "Chuncheon dakgalbi: chicken, rice cakes and vegetables on the table skillet" }
+      - { file: nami-tree-lane, caption: "Nami Island's tree lane in summer; in January the branches are bare" }
+  - type: tips
+    variant: insider
+    items:
+      - "Going to Hwacheon by train? The festival organisers say buses from **Chuncheon station** are often full during the festival. Get off at **Namchuncheon** and board at the Chuncheon intercity bus terminal nearby."
+      - "Check the **last bus back** from Hwacheon before you start fishing. In 2026 the last one to Dong Seoul left at 21:00."
+      - "Nami Island sells cheaper tickets early and late: the official page lists a lower rate for tickets bought before 08:00, and in Dec–Mar after 18:01. It is unclear whether adults qualify, so check the price at the ferry wharf."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Chuncheon's city buses often run without a timetable, and Wikivoyage reports waits of five minutes to an hour. Check **Naver Map** or take a taxi."
+      - "The Soyang Skywalk takes **cards only** and is closed on Tuesdays."
+  - type: weather
+    temp_low_c: -9
+    temp_high_c: 2
+    conditions: Dry, very cold mornings, snow on about 9 days a month
+    note: "Chuncheon is about 4 °C colder than Seoul at night, and Hwacheon, further north in the mountains, is colder still. You stand or sit on open river ice at the festival, so dress for hours outdoors."
+    wear: Thermal base layer, down jacket, insulated boots, warm gloves and a hat

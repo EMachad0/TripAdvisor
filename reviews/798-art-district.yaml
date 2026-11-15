@@ -1,0 +1,19 @@
+# Independent review of 798-art-district. Written by `./atr review`; do not edit by hand.
+id: 798-art-district
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 0554064338388924bd470e85af4f795571eaf4d578bde99477f2685a78f757fc
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: why
+    problem: "`why` and the hero `hook` make the same point (1950s factory plus red Maoist slogans overhead), and the page shows them almost back to back, so the hero and the lead repeat each other."
+    evidence: '`why` now covers free entry, the East German-built 1950s factory, the machinery left in place and the ¥30–120 shows. The slogans now appear only in the hook. Sources: https://chinafortravelers.com/guides/798-art-district-beijing/ — "only the big ticketed shows charge (~¥30–120)"; https://www.lonelyplanet.com/points-of-interest/798-art-factory/1541494 (atr render) — "several pieces of the old East German–built machinery have been left in situ". In build/shots/798-art-district-phone-light-s01.png the hero shows only the slogan hook.'
+rereview_of: 5e60740cafb5a9d3baf9251e00d96a4129431f0e1896e80626f09fcd7fb60034
+summary: "The repeat between the hook and `why` is fixed. Everything that changed is backed by a listed source: the free-entry claim, the ¥30–120 range and the machinery left in situ; the hall named both 798 Art Factory and 798 Space (Lonely Planet and Wikipedia); the underpass just west of UCCA (Lonely Planet); and the pin, now labelled approximate on the map. No blockers on the unchanged content."
+model: claude-opus-5-5
+cost_usd: 0.422

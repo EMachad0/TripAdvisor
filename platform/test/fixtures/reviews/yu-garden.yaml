@@ -1,0 +1,14 @@
+# FIXTURE review (passing). content_hash must match the yu-garden fixture: if that file changes, set it to `shasum -a 256 platform/test/fixtures/places/china/shanghai/yu-garden/place.yaml`.
+id: yu-garden
+reviewed: 2026-11-10
+verdict: pass
+content_hash: a9313197c49735ac17376db9d7bbb2accfcabf1fea6f36f92b7c7892863090e3
+facts: { supported: 11, unsupported: 0, contradicted: 0 }
+issues:
+  - severity: nit
+    field: blocks[0].hook
+    problem: The hook repeats "koi ponds" from the why line.
+    fix: Vary the wording.
+summary: Fixture review. Every hard fact is supported by the listed sources.
+model: fixture
+cost_usd: 0

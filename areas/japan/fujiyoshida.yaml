@@ -1,0 +1,75 @@
+id: fujiyoshida
+country: japan
+name: "Mt Fuji Five Lakes"
+short_name: Fuji Five Lakes
+name_local: 富士五湖・富士吉田
+region: Yamanashi Prefecture
+scope: region
+cities: [fujiyoshida]
+why: "The classic Fuji views, a 1 h 45 bus ride from Shinjuku: the Chureito Pagoda, the viral Lawson and Lake Kawaguchi. January has the clearest skies of the year. A day trip, not a base."
+best_for: [views, day-trip]
+highlights: ["Chureito Pagoda", "Honcho Street", "Konbini Fuji shots", "Oishi Park", "Fuji-Q Highland"]
+days_suggested: { min: 1, max: 1 }
+cost_level: medium
+fame: iconic
+lat: 35.4983
+lng: 138.7688
+getting_there: "Highway bus from Busta Shinjuku: ¥2,000 online, about 1 h 45 to Kawaguchiko Station (Shimoyoshida stop about 1 h 30). Or JR to Otsuki, then Fujikyu Railway (¥1,170 + ¥400 express)."
+getting_around: "Fujikyu Railway between Shimoyoshida and Kawaguchiko; around the lake, the Red, Green and Blue Line sightseeing buses (day pass ¥1,500, single rides from ¥180)."
+winter_note: "January normals at Kawaguchiko (JMA): -5.7 °C low, 5.5 °C high. Dry and sunny: isfujivisible rated Fuji clear on every January 2026 day. Mornings are well below freezing."
+image: fuji-chureito
+sources:
+  - url: "https://bus.fujikyu.co.jp/en/highway/fujisan/shinjuku-kawaguchiko/"
+    title: "Fujikyu Bus: Shinjuku – Fuji Five Lakes highway bus (fares, stops, 1 h 45 min)"
+    checked: 2026-11-13
+  - url: "https://en.fujiyoshida.net/course/index.php?p=course-367"
+    title: "Fujiyoshida official tourist guide: Shimoyoshida expressway bus stop, about 1 h 30 from Shinjuku"
+    checked: 2026-11-13
+  - url: "https://www.japan-travel-kit.com/guides/attractions/kawaguchiko-day-trip-from-tokyo"
+    title: "Japan Travel Kit: Kawaguchiko day trip 2026 (train fares, sightseeing bus passes and single fares)"
+    checked: 2026-11-13
+  - url: "https://ticket.jorudan.co.jp/fujikyubus/ksm-2d/en"
+    title: "Jorudan / Fujikyu Bus: Mt. Fuji North Area 1-day pass ¥1,500"
+    checked: 2026-11-13
+  - url: "https://isfujivisible.com/blog/mount-fuji-lawson-photo-spot"
+    title: "isfujivisible.com (Aug 2026): Fuji visibility by month, morning vs afternoon"
+    checked: 2026-11-13
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=49&block_no=47640"
+    title: "JMA: climate normals 1991–2020, Kawaguchiko (January)"
+    checked: 2026-11-13
+  - url: "https://japanstartshere.com/2025/09/04/convenience-store-with-view-of-mt-fuji/"
+    title: "Japan Starts Here (Sept 2025): convenience stores with Fuji views, incl. the 7-Eleven by Gekkoji Station"
+    checked: 2026-11-13
+  - url: "https://www.fujiq.jp/en/event/p30th.html"
+    title: "Fuji-Q Highland: Persona 30th × Fuji-Q collaboration, to 31 Jan 2027"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Fares from Fujikyu and a 2026 guide. Clear-sky odds are isfujivisible's forecast scores, not observations. Fuji-Q collab dates are from Fuji-Q's event page."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    focus: "35% 50%"
+    hook: "Snow-capped Fuji over a red pagoda, a lake and a convenience store, two hours from Shinjuku."
+  - type: highlights
+    items:
+      - title: Chureito Pagoda
+        text: "The postcard view from Arakurayama Sengen Park in Fujiyoshida, 398 steps above Shimoyoshida station. Free and open around the clock."
+      - title: Konbini Fuji shots
+        text: "Fuji above a convenience store's roof: the viral Lawson by Kawaguchiko Station (the 2024 screen is gone) and several 7-Elevens, one by Gekkoji Station."
+      - title: Lake Kawaguchi
+        text: "The Red Line bus runs along the north shore to Oishi Park, with Fuji across the water."
+      - title: Fuji-Q Highland
+        text: "Coasters under Fuji, and a Persona 30th collab until 31 January 2027."
+  - type: prose
+    title: How to spend the day
+    text: |-
+      It's one long day out of Tokyo. Take the earliest bus from Busta Shinjuku, get off at Shimoyoshida for the pagoda and Honcho Street, ride the Fujikyu train a few stops to Kawaguchiko for the Lawson and the lake, and catch a late-afternoon bus back. Bus fares come to about ¥4,000 return, plus ¥1,500 if you use the lake buses.
+  - type: gallery
+    images:
+      - { file: fuji-lake-kawaguchi, caption: "Lake Kawaguchi and Fuji at first light" }
+  - type: tips
+    variant: insider
+    items:
+      - "Check the Fuji forecast on isfujivisible.com the night before, and move the day if clouds are due."
+      - "Book the bus a few days ahead. Since 1 Oct 2026 Fujikyu-run buses sell on Fujiyama Connect and Keio-run ones on Highwaybus.com."

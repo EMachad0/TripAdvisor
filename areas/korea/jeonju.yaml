@@ -1,0 +1,98 @@
+id: jeonju
+country: korea
+name: "Jeonju"
+name_local: 전주
+region: North Jeolla (Jeonbuk)
+scope: city
+cities: [jeonju]
+why: "Korea's food capital, 1 h 45 by KTX from Yongsan: 700 tile-roofed hanok houses, bibimbap where it was born, kettles of makgeolli with free side dishes, and a Fri–Sat night market."
+best_for: [food, culture, nightlife, day-trip]
+highlights: ["Jeonju Hanok Village", "Bibimbap and kongnamul gukbap", "Nambu Market night market (Fri–Sat)", "Samcheon-dong makgeolli street", "Jeondong Cathedral", "Gyeonggijeon shrine"]
+days_suggested: { min: 1, max: 2 }
+cost_level: medium
+fame: hidden
+lat: 35.8258
+lng: 127.1453
+getting_there: "KTX from Yongsan about 1 h 45 (1 h 26 – 2 h 30), ₩34,400 one way, ~20 a day. Express bus from Central City Terminal 2 h 40, ₩13,800–17,000."
+getting_around: "The hanok village, Nambu Market and the cathedral are a short walk apart. City buses ₩1,300 (line 1000 links the station, bus terminals and hanok village); taxi from the station ~₩7,600."
+winter_note: "January runs about −4 °C at night to 5 °C by day, with only ~27 mm of rain or snow: a few degrees milder than Seoul. The Nambu night market runs Friday and Saturday evenings; winter hours vary by source (from 17:00 or 18:00 to 23:00). Deokjin Park's musical fountain does not run in winter."
+image: jeonju-hanok-roofs
+sources:
+  - url: https://en.wikivoyage.org/wiki/Jeonju
+    title: "Jeonju (Wikivoyage): KTX ₩32,900 (2025), bus ₩13,800, city buses, taxis, hanok village, Gyeonggijeon, food, climate"
+    checked: 2026-11-12
+  - url: "https://www.trazy.com/spot/2660/hankookkwan-한국관-restaurant-cafe"
+    title: "Hankookkwan, Jeonju Hanok Village (Trazy): bibimbap ₩13,000, yukhoe bibimbap ₩15,000"
+    checked: 2026-11-12
+  - url: https://www.asiaodysseytravel.com/south-korea/seoul-to-jeonju.html
+    title: "Seoul to Jeonju 2026 (Asia Odyssey Travel): KTX from Yongsan ~20 a day, ₩34,400, 1 h 26 – 2 h 30; Mugunghwa ₩17,600; express bus ~₩17,000"
+    checked: 2026-11-12
+  - url: https://www.trvlogue.com/ko/jeonju-nambu-night-market-guide
+    title: "전주 남부시장 야시장 (TRVLOGUE, 2026): night market Fri–Sat 17:00–23:00, extra days on public holidays"
+    checked: 2026-11-12
+  - url: https://www.ktriptips.com/kor/shopping/132326
+    title: "전주 남부시장 (K-Trip Tips): 800 stalls, youth mall, night market every Friday and Saturday"
+    checked: 2026-11-12
+  - url: https://www.ktriptips.com/eng/tourspot/3510771
+    title: "Samcheon 2-dong Makgeolli Street (K-Trip Tips, 2025): 200 m of makgeolli bars, a Jeonju Future Heritage"
+    checked: 2026-11-12
+  - url: https://www.koreajoongangdaily.com/korea/down-an-alley-theres-a-kettle-full-of-makgeolli-waiting-for-you/10461585
+    title: "Down an alley, there's a kettle full of makgeolli (Korea JoongAng Daily, 2007): how the kettle-and-free-side-dishes system works"
+    checked: 2026-11-12
+  - url: https://mileasia.com/korea/seoul-to-jeonju/
+    title: "Seoul to Jeonju 2026 (MileAsia, 31 May 2026): express bus ~₩11,900 every hour from Gangnam, taxi terminal → hanok village ₩5,000–7,000"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020 for comparison (high 2.1 °C)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Korail's fare page would not load: ₩34,400 is from Asia Odyssey (2026); Wikivoyage says ₩32,900 (2025). MileAsia wrongly says there is no direct KTX; only its bus info is used. No official winter night-market hours: the city site refused connections, and TRVLOGUE (read via atr render; blocks link checks) says 17:00–23:00. The only makgeolli price found is from 2007, too old to quote."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Hundreds of tile roofs inside a modern city, bibimbap in brass bowls, makgeolli poured from a kettle."
+    caption: "Jeonju Hanok Village from above"
+    focus: bottom
+  - type: highlights
+    items:
+      - title: The biggest hanok village in Korea
+        text: "About **700 hanok** houses, many from the Joseon period, around Gyeonggijeon, the shrine to the dynasty's founder (₩3,000, 09:00–18:00). Wander the lanes for free."
+      - title: Bibimbap at the source
+        text: "Jeonju's version comes in a brass bowl with beef tartare, mung-bean jelly and a raw yolk, for about **₩13,000–15,000** at famous places like Hankookkwan; Wikivoyage's older ₩10,000 may still hold at plainer spots. Breakfast is **kongnamul gukbap**, the bean-sprout hangover soup."
+      - title: A Friday and Saturday night market
+        text: "Nambu Market, a short walk from the hanok village, turns into a night market of torch-grilled snacks on **Fridays and Saturdays** only, which fits your free Saturday, 16 Jan."
+      - title: Makgeolli with free food
+        text: "In the **Samcheon-dong** makgeolli street each kettle you order brings a tray of side dishes, and the more kettles, the better the food. Best with a group."
+  - type: prose
+    title: Is it worth a day?
+    text: |-
+      Jeonju is the easiest trip out of Seoul that is really about **food**, your top interest. The KTX from Yongsan takes about an hour and three quarters, so a day trip works for the hanok lanes, bibimbap at lunch and Jeondong Cathedral at dusk. The night market runs until 23:00, so to see it properly, plan to sleep in Jeonju; check the last train back on Korail before deciding on a day trip.
+
+      **The catch is the money.** A KTX return is about ₩68,800 (R$285.93), two days of your R$140 budget. The express bus from Central City Terminal halves that but takes about 2 h 40 each way.
+
+      **The catch is also the calendar.** The night market only runs on Fridays and Saturdays, and your only free Saturday is 16 Jan, which you were saving for Hwacheon. Since your job is remote, another way in is one night in a Jeonju guesthouse: arrive on a work-day afternoon, eat, work the night shift there with good Wi-Fi, and see the hanok village the next morning before the train back.
+
+      Base yourself in or next to the **hanok village**: the cathedral, Gyeonggijeon and Nambu Market are all within a few minutes' walk.
+  - type: gallery
+    images:
+      - { file: jeondong-cathedral, caption: "Jeondong Cathedral (1914), at the edge of the hanok village" }
+      - { file: jeonju-bibimbap, caption: "Jeonju bibimbap" }
+      - { file: gyeonggijeon-hall, caption: "The main hall of Gyeonggijeon, the shrine to the Joseon founder" }
+  - type: tips
+    variant: insider
+    items:
+      - "Take the train from **Yongsan**, not Seoul Station: Yongsan has about 20 KTX a day to Jeonju, Seoul Station only 5–8."
+      - "The cheap train is the **Mugunghwa** from Yongsan: ₩17,600 and about 3 h 30 to 3 h 50."
+      - "Makgeolli kettles are made for sharing; go with people from a guesthouse rather than alone."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Jeonju Station is far from the sights: take line **1000** or a taxi (~₩7,600) to the hanok village. The bus terminals are closer."
+      - "Don't plan Jeonju for a Sunday night if the night market is the point: it opens on public holidays too, but otherwise only Fri–Sat."
+  - type: weather
+    temp_low_c: -4
+    temp_high_c: 5
+    conditions: Cold, dry, the odd snow shower
+    note: "About 3 °C milder than Seoul by day, and only ~27 mm of precipitation in January. The hanok lanes are outdoors; cafés and restaurants are the warm-up stops."
+    wear: Padded jacket, hat and gloves for the night market

@@ -1,0 +1,205 @@
+id: nara-park-deer
+name: "Nara Park and its deer"
+short_name: "Nara Park"
+name_local: 奈良公園
+name_romanized: Nara-kōen
+country: japan
+city: nara
+area: "Nara · Noboriōji to Kasugano"
+category: nature
+fame: iconic
+tags: [deer, wildlife, park, temple, free, cold-outdoors, day-trip-from-osaka]
+kind: Do
+why: "About 1,700 wild deer roam free around the Great Buddha. A ¥200 bundle of crackers makes some of them bow to you. 37 min from Namba, ¥680."
+cost:
+  local: 3060
+  currency: JPY
+  brl: 108.32
+  note: "Great Buddha Hall ¥800, Kasuga inner shrine ¥700, crackers ¥200, Kintetsu return from Namba ¥1,360. The park is free"
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Half day; full day with Kasuga"
+best_time: "08:00 at Todai-ji, then walk east toward Kasuga"
+
+when:
+  dates:
+    - { from: 2027-01-23, to: 2027-01-23 }
+    - { from: 2027-01-31, to: 2027-01-31 }
+    - { from: 2027-02-03, to: 2027-02-03 }
+  kind: best
+  label: "Events: 23 Jan, 31 Jan, 3 Feb"
+  confirmed: true
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Park open all the time, free. Great Buddha Hall 08:00–17:00 (Nov–Mar); Kasuga gates 07:00–17:00 (Nov–Feb)"
+  closed: "No closing days at Todai-ji's Great Buddha Hall"
+  winter: "Jan 23, 2027 (Sat): Wakakusa Yamayaki, fireworks 18:15 and hill burning 18:30. Jan 31 (Sun): free winter deer calling, 10:00. Feb 3 (Wed): Setsubun lanterns at Kasuga Taisha, lit about 18:00. Kasuga's inner area is closed on the mornings of Jan 21, Feb 1 and Feb 3."
+
+location:
+  address: "Nara Park, Nara (park office: 30 Noboriōji-chō, Nara 630-8501)"
+  address_local: "奈良公園（奈良県奈良市登大路町30）"
+  lat: 34.68545
+  lng: 135.84341
+  nearest_transit: "Kintetsu Nara, about 5 min walk; JR Nara about 20 min"
+
+sources:
+  - url: https://www.pref.nara.lg.jp/site/park/1232.html
+    title: "Nara Prefecture, Nara Park quick guide: how to treat the deer (updated 27 Feb 2026). Only senbei, no bins, injuries"
+    checked: 2026-11-14
+  - url: https://www.pref.nara.lg.jp/site/park/1000.html
+    title: "Nara Prefecture, Nara Park overview: free city park since 1880, about 1,700 deer"
+    checked: 2026-11-14
+  - url: https://naradeer.com/learning/number.html
+    title: "Nara Deer Preservation Foundation: deer census, 1,687 deer in the 2026 count"
+    checked: 2026-11-14
+  - url: https://naradeer.com/about/keihatsu.html
+    title: "Nara Deer Preservation Foundation: rules (only crackers, don't tease, rut Sept–Nov, births May–June)"
+    checked: 2026-11-14
+  - url: https://naradeer.com/learning/keihatsu.html
+    title: "Nara Deer Preservation Foundation: injury warning (bowing, butting, antlers, wash your hands)"
+    checked: 2026-11-14
+  - url: https://www.pref.nara.lg.jp/documents/6506/20260526105513.pdf
+    title: "Nara Prefecture (May 2026): injuries by Nara's deer in FY2025: 110 by 31 Dec 2025, 80 of them foreigners"
+    checked: 2026-11-14
+  - url: https://naradeer.com/event/shikayose.html
+    title: "Nara Deer Preservation Foundation: shikayose deer calling, winter 2027 dates (Sundays/holidays, not Jan 24)"
+    checked: 2026-11-14
+  - url: https://yamayaki.pref.nara.lg.jp/en/
+    title: "Wakakusa Yamayaki official site: Sat 23 Jan 2027, fireworks 18:15, burning 18:30"
+    checked: 2026-11-14
+  - url: https://yamayaki.pref.nara.lg.jp/ticket/
+    title: "Wakakusa Yamayaki 2027 paid viewing tickets (¥2,000 early to ¥3,000 on the day; free viewing elsewhere)"
+    checked: 2026-11-14
+  - url: https://www.todaiji.or.jp/en/information/haikan/
+    title: "Todai-ji official: opening hours and admission (Great Buddha Hall ¥800, Nov–Mar 08:00–17:00)"
+    checked: 2026-11-14
+  - url: https://www.kasugataisha.or.jp/about/basic/
+    title: "Kasuga Taisha official: gate hours, inner-area special worship ¥700 09:00–16:00 and closed mornings, access"
+    checked: 2026-11-14
+  - url: https://www.kasugataisha.or.jp/calendar/winter02/
+    title: "Kasuga Taisha official: Setsubun Mantoro, all ~3,000 lanterns lit about 18:00, gate closes about 20:30"
+    checked: 2026-11-14
+  - url: https://www.kasugataisha.or.jp/events/2026/16853/
+    title: "Kasuga Taisha official: guided Setsubun Mantoro tour, Wed 3 Feb 2027, 19:30, ¥3,000"
+    checked: 2026-11-14
+  - url: https://ja.wikipedia.org/wiki/%E9%B9%BF%E3%81%9B%E3%82%93%E3%81%B9%E3%81%84
+    title: "鹿せんべい (Japanese Wikipedia): ¥200 since Oct 2019, rice bran + flour, certification band sold by the foundation"
+    checked: 2026-11-14
+  - url: https://soranews24.com/2019/10/01/naras-deer-cookie-rice-crackers-get-their-first-price-increase-in-28-years/
+    title: "SoraNews24 (1 Oct 2019): deer crackers rise from ¥150 to ¥200 for a pack of 10"
+    checked: 2026-11-14
+  - url: https://www.japan-guide.com/e/e4103.html
+    title: "japan-guide: Nara Park (5 min from Kintetsu Nara, 20 min from JR Nara; deer bow, can be aggressive)"
+    checked: 2026-11-14
+  - url: https://www.japan-guide.com/e/e4100.html
+    title: "japan-guide: Todai-ji (walk times from stations, Nigatsudo free and always open)"
+    checked: 2026-11-14
+  - url: https://www.japan-guide.com/e/e4107.html
+    title: "japan-guide: getting to Nara (JR Miyakoji Rapid from Kyoto 45 min; Kintetsu express 45 min; IC cards)"
+    checked: 2026-11-14
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%E5%A4%A7%E9%98%AA%E9%9B%A3%E6%B3%A2&eki2=%E8%BF%91%E9%89%84%E5%A5%88%E8%89%AF&Dym=202701&Ddd=22&Dhh=9&Dmn1=0&Dmn2=0&Cway=0&S=%E6%A4%9C%E7%B4%A2"
+    title: "Jorudan route search, Osaka-Namba → Kintetsu-Nara, 22 Jan 2027 09:00: rapid express ¥680, 37 min"
+    checked: 2026-11-14
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%E4%BA%AC%E9%83%BD&eki2=%E8%BF%91%E9%89%84%E5%A5%88%E8%89%AF&Dym=202701&Ddd=22&Dhh=9&Dmn1=0&Dmn2=0&Cway=0&S=%E6%A4%9C%E7%B4%A2"
+    title: "Jorudan route search, Kyoto → Kintetsu-Nara, 22 Jan 2027 09:00: express ¥760, 48 min; limited express ¥1,280, 34 min; JR ¥720"
+    checked: 2026-11-14
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%E5%A4%A7%E9%98%AA&eki2=%E5%A5%88%E8%89%AF&Dym=202701&Ddd=22&Dhh=9&Dmn1=0&Dmn2=0&Cway=0&S=%E6%A4%9C%E7%B4%A2"
+    title: "Jorudan route search, JR Osaka → JR Nara, 22 Jan 2027 09:00: direct Yamatoji Rapid ¥840, 51 min"
+    checked: 2026-11-14
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=%EF%BC%AA%EF%BC%B2%E9%9B%A3%E6%B3%A2&eki2=%E5%A5%88%E8%89%AF&Dym=202701&Ddd=22&Dhh=9&Dmn1=0&Dmn2=0&Cway=0&S=%E6%A4%9C%E7%B4%A2"
+    title: "Jorudan route search, JR Namba → JR Nara, 22 Jan 2027 09:00: Yamatoji rapid ¥580, 41 min"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Nara_Park
+    title: "Nara Park (Wikipedia): the deer are designated a natural monument"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Nara,_Nara
+    title: "Nara (Wikipedia): JMA climate normals 1991–2020, January 0.1–9.0 °C"
+    checked: 2026-11-14
+confidence: medium
+confidence_note: "Event dates, hours and temple fees are from the official 2026–27 pages. No source states in words that the park is free; it is a prefectural city park with no gate. ¥200 crackers: Japanese Wikipedia and a 2019 report; no 2026 official price found. Fares are from Jorudan for a January 2027 search, not the railways' own tables. The injury figure covers Apr–Dec 2025 only. Sunset: ./atr sun."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: tobihino-deer
+    focus: "50% 60%"
+    caption: "Tobihino lawn, where the deer-calling horn sounds (August 2025)"
+    hook: "Wild deer that bow for crackers, a giant bronze Buddha, and a forest path lined with stone lanterns."
+  - type: quick_facts
+    time_needed: "Half day; full day with Kasuga"
+    best_time: "08:00 at Todai-ji, Kasuga after"
+    extra:
+      - { label: Closest base, value: "Osaka-Namba, 37 min", detail: "Kintetsu ¥680 each way; Kyoto Kintetsu ¥760, 48 min" }
+      - { label: Deer, value: "1,687 (2026 count)", detail: "Wild, a national natural monument" }
+      - { label: Crackers, value: "¥200 a bundle", detail: "Shika senbei, sold at stalls across the park" }
+  - type: highlights
+    items:
+      - title: The bow
+        text: "Hold up a bundle of **shika senbei** and some deer dip their heads to you. The deer foundation says: give the cracker quickly once they bow. Teasing them, or pretending you have one, is what makes them butt."
+      - title: The Great Buddha
+        text: "Todai-ji's **Daibutsuden** (Great Buddha Hall) is ¥800, open 08:00–17:00 from November to March. Next door, **Nigatsudo** is free and always open, with a view over the city from its balcony."
+      - title: Lantern forest
+        text: "Kasuga Taisha sits about 25 minutes' walk east of Kintetsu Nara, at the end of a path lined with stone lanterns. The shrine counts about **3,000**, stone and hanging. The outer worship hall is free; the inner area is ¥700."
+      - title: Three dates to aim for
+        text: "**Sat Jan 23**: Wakakusa Yamayaki, the hill set on fire after fireworks. **Sun Jan 31**, 10:00: the winter deer calling. **Wed Feb 3**: every lantern at Kasuga lit for Setsubun."
+  - type: prose
+    title: How the day works
+    dropcap: true
+    text: |-
+      **Base: Osaka is closer.** From **Osaka-Namba**, the Kintetsu rapid express reaches **Kintetsu-Nara** in about 37 minutes for **¥680** (R$24.07). From **Kyoto Station**, the Kintetsu express takes about 48 minutes for **¥760** (R$26.90), or 34 minutes on the ¥1,280 limited express. Both end at Kintetsu-Nara, about **5 minutes' walk** from the park. JR runs too, to JR Nara station, about 20 minutes' walk from the park: Kyoto ¥720, JR Osaka ¥840. The cheapest way in is JR from **JR Namba** on the Yamatoji line, **¥580** and a 41-minute ride, plus the 20-minute walk from JR Nara. A JR Pass covers JR, not Kintetsu.
+
+      **The walk.** Walk east from Kintetsu-Nara into the park, then north to **Todai-ji** (japan-guide puts it at about 30 minutes on foot from the station). From Todai-ji, climb to **Nigatsudo** for the view. Then walk south through the woods to **Kasuga Taisha** (about 25 minutes from the station by the shrine's count), and back west across the **Tobihino** lawn.
+
+      **Where the deer are calmer.** The prefecture says the deer live on the park's grass, leaves and acorns; crackers are a treat. The foundation warns that anyone feeding crackers draws a crowd of deer. So the pushy ones are where the crackers are: by the stalls. Empty-handed out on the lawns, you mostly watch them graze.
+
+      **Half day or full?** Deer and the Great Buddha fit in a morning. Add Kasuga and the walk, and it's a day. On **Jan 23**, stay on after dark for the hill burning and take a late train back.
+  - type: gallery
+    images:
+      - { file: nandaimon-deer, caption: "A stag by Todai-ji's Nandaimon gate" }
+      - { file: kasuga-lanterns, caption: "Stone lanterns and a deer at Kasuga Taisha" }
+      - { file: yamayaki, caption: "Wakakusa Yamayaki, January 2011: fireworks over the burning hill" }
+      - { file: senbei, caption: "The certification band on a bundle (2017, when it still cost ¥150)" }
+  - type: quote
+    variant: vibe
+    text: "Cold air, brown winter grass, and a deer nodding at the cracker in your hand."
+  - type: cost_breakdown
+    items:
+      - { label: "Todai-ji Great Buddha Hall", local: 800, brl: 28.32 }
+      - { label: "Kasuga Taisha inner area (special worship)", local: 700, brl: 24.78 }
+      - { label: "Shika senbei, one bundle", local: 200, brl: 7.08 }
+      - { label: "Kintetsu Osaka-Namba ⇄ Kintetsu-Nara, return", local: 1360, brl: 48.14 }
+      - { label: "From Kyoto instead: Kintetsu express return", local: 1520, brl: 53.81, optional: true }
+      - { label: "Yamayaki paid standing area, advance (Jan 23)", local: 2500, brl: 88.50, optional: true }
+    note: "The park, Nigatsudo and the outer Kasuga worship hall are free. Yamayaki can also be seen from places outside the paid areas."
+  - type: map
+    zoom: 15
+    note: "Get off at **Kintetsu-Nara**, not JR Nara: it's the station next to the park. There are **no bins** in the park, so carry your rubbish out."
+  - type: tips
+    variant: insider
+    items:
+      - "**Sun Jan 31, 10:00**: the free winter *shikayose* on the Tobihino lawn. A natural horn calls the deer out of the woods and they get acorns. No booking. It's the only winter date in your Japan window (Jan 24 is skipped)."
+      - "**Sat Jan 23**: Wakakusa Yamayaki. Fireworks at 18:15, hill lit at 18:30. The organisers say there are places to watch outside the paid areas. If one firework goes up or the hill is lit, paid tickets aren't refunded, rain or not."
+      - "Paid standing area: the ¥2,000 early-bird ends **Jan 15**, before you land. Jan 16–22 it's ¥2,500 (7-Eleven +¥165; online +¥330 and more), or ¥3,000 cash on the day if left. Swap it for a wristband at **Iraka** hall, 14:30–17:30, then walk about 30 min uphill."
+      - "**Wed Feb 3, Setsubun**: about 3,000 lanterns at Kasuga are lit around 18:00; the gate is due to close about 20:30. The inner corridor is ¥700 that night. Kasuga's inner area is closed that morning."
+      - "Kasuga's inner area is also closed on the mornings of the **1st, 11th and 21st** of each month. So skip it on the mornings of Jan 21 and Feb 1."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Show, then give.** Once a deer bows, hand the cracker over. The foundation warns that holding it back, or faking it, stresses them and they butt."
+      - "**Only senbei.** Feeding them anything else (snacks, bread, vegetables, leftovers) is banned; it makes them sick. They also eat maps and plastic bags: keep them in your pocket."
+      - "**They do hurt people.** The prefecture logged **110** injuries from April to 31 Dec 2025, **80** of them foreign visitors, 19 taken to hospital. Biting, kicking, butting and antlers are the risks. Don't touch them, and wash your hands if you do."
+      - "Buy bundles with the paper **certification band**. The deer foundation sells the bands to the makers, and that money funds deer care, says Japanese Wikipedia."
+      - "Sunset is **17:13** on Jan 20 and 17:28 on Feb 4, and the Great Buddha Hall closes at 17:00. Start early."
+  - type: weather
+    temp_low_c: 0
+    temp_high_c: 9
+    conditions: "Cold, mostly dry; a little snow possible"
+    note: "Nara averages 0.1 °C at night and 9.0 °C by day in January (JMA 1991–2020), with about 8 wet days and 1 cm of snow in the month. Everything here is outdoors except the Buddha hall, and the Yamayaki and Setsubun evenings are after dark: plan for near freezing."
+    wear: "Warm coat, gloves and hat, shoes for gravel paths; a bag that closes (the deer go for paper)"
+  - type: pairs_well
+    items:
+      - { id: dotonbori-kani-doraku-crab, note: "Kintetsu back to Namba, then dinner under the neon crab" }
+      - { id: kiyomizu-dera, note: "If you base in Kyoto: Kyoto's temple in the morning, or on another day" }

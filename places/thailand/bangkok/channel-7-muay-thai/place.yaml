@@ -1,0 +1,116 @@
+id: channel-7-muay-thai
+name: "Channel 7 Sunday Muay Thai"
+short_name: Channel 7 Muay Thai
+name_local: เวทีมวยช่อง 7
+name_romanized: Wethi Muay Chong Chet
+country: thailand
+city: bangkok
+area: Chatuchak · near Mo Chit
+category: shows
+fame: hidden
+tags: [muay-thai, sport, free, tv-studio, weekend-day]
+kind: Do
+why: "Free live Muay Thai in a packed TV studio every Sunday at 14:30. Thai gamblers in the stands, and you might end up on national TV."
+cost:
+  local: 0
+  currency: THB
+  brl: 0
+  note: "Free entry for the first 500 people (Channel 7HD, Aug 2026)"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2.5–3 h with queuing
+best_time: "Sun 3 Jan, arrive by 13:30"
+
+when:
+  dates:
+    - { from: 2027-01-02, to: 2027-01-10 }
+  kind: only
+  weekly: [sun]
+  label: "Sundays 14:30"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Sundays only, 14:30 to about 16:30"
+  closed: Monday to Saturday
+  winter: "Sun 3 Jan 2027 is your only free Sunday (10 Jan is departure day) and the first Sunday after New Year; no source confirms a show that day, and TV schedules can shift around holidays. In the week before, check the Ch7HD Sports Facebook page or ch7.com for that Sunday's Muay Thai 7 Si card."
+
+location:
+  address: "Channel 7 Boxing Stadium, Soi Phahon Yothin 18/1, Chom Phon, Chatuchak, Bangkok 10900"
+  address_local: "เวทีมวยช่อง 7 ซอยพหลโยธิน 18/1 แขวงจอมพล เขตจตุจักร กรุงเทพฯ 10900"
+  lat: 13.80338
+  lng: 100.55697
+  nearest_transit: "BTS Mo Chit, about 700 m (15 min walk)"
+
+sources:
+  - url: https://muaythaistadiums.com/channel-7-boxing-stadium/
+    title: "Channel 7 Boxing Stadium: ticket prices, best seats, fight schedule (Muay Thai Stadiums, updated 3 Nov 2026)"
+    checked: 2026-11-12
+  - url: https://thaiboxingbangkok.com/event/sunday-muay-thai-fight-at-channel-7-stadium/2026-03-01-14-30
+    title: "Sunday Muay Thai fight event at Channel 7 Boxing Stadium, 1 Mar 2026 (Thai Boxing Bangkok)"
+    checked: 2026-11-12
+  - url: https://www.naewna.com/entertain/981515
+    title: "Channel 7HD fight programme, week of 9 Aug 2026: Muay Thai 7 Si free for the first 500, live from 14:30 (Naewna)"
+    checked: 2026-11-13
+  - url: https://muaythaistadiums.com/the-best-places-in-bangkok-to-watch-muay-thai-for-free/
+    title: "The best places in Bangkok to watch Muay Thai for free (Muay Thai Stadiums)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Free Sunday 14:30 show and the 500-person cap come from Channel 7HD's own weekly programme release (printed by Naewna, Aug 2026), backed by a Nov 2026 guide and a Mar 2026 listing. No source covers 3 Jan 2027 itself. Dress code: both guides require a collared shirt, long trousers and closed shoes. No free photo of the studio, hence the text-only hero."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    hook: "No ticket, no tourists' section: just a TV studio packed to the ceiling and a crowd betting on every round."
+  - type: quick_facts
+    time_needed: 2.5–3 h
+    best_time: "Sun 3 Jan, by 13:30"
+    extra:
+      - { label: Slot, value: Weekend day, detail: "Sun 3 Jan afternoon; you're free again by 17:00" }
+      - { label: Dress code, value: "Collared shirt", detail: "Long trousers, closed shoes; no T-shirts, shorts, sandals" }
+  - type: highlights
+    items:
+      - title: Free, and it's the real thing
+        text: "This is the studio for **Suek Muay Thai 7 Si**, a live TV fight show that a 2026 guide says still holds a **top-10 spot** in Thai TV ratings, and entry costs nothing."
+      - title: Traditional five-round fights
+        text: "Channel 7 has stuck to **five-round** traditional Muay Thai: the wai kru dance, the live music and the betting, not the three-round tourist format."
+      - title: Ringside if you're early
+        text: "Foreigners who arrive early enough can sit **ringside**, in shot of the live broadcast. Latecomers stand in the bleachers among the gamblers."
+      - title: Pairs with Chatuchak
+        text: "The stadium is about **1.2 km** from Chatuchak Weekend Market, which is open the same Sunday."
+  - type: prose
+    title: How it works
+    dropcap: true
+    text: |-
+      It's more of a studio than a stadium. The show goes out live on Thai TV every Sunday afternoon. Because entry is free, it fills up fast with Thai fans and gamblers, and it feels, as one guide puts it, like it "breaks every fire code".
+
+      Only the **first 500** people get in. Arriving **30 minutes early** should get you in; about **an hour early** gets you a ringside seat. Once you're in the standing bleachers you're pinned shoulder to shoulder until the show ends, so use the bathroom first. Bring nothing in a plastic or glass bottle: security holds them until the end.
+  - type: quote
+    variant: vibe
+    text: "Two hours of shouting odds, drumming and elbows, and it costs nothing."
+  - type: map
+    note: "From **BTS Mo Chit** it's about 700 m, a 15-minute walk. Food stalls line the road outside, and there's little to eat inside."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: weekend day.** Sunday 3 Jan is your only free Sunday. Morning at Chatuchak, fights at 14:30, and you're done before dark."
+      - "Fill up at the street stalls outside first. Inside there is water but little food."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Dress code:** a **collared shirt** (no T-shirts), long trousers and closed shoes. Both fight guides say you can be turned away otherwise; pack a polo."
+      - "Never rest your feet on chairs or railings, and don't throw anything towards the ring."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: sunny, hot early afternoon"
+    note: "The walk from the BTS is at the hottest time of day, and long trousers make it warmer. Inside, the packed studio is hot."
+    wear: "Collared shirt (polo is fine), light long trousers, closed shoes"
+  - type: pairs_well
+    items:
+      - { id: chatuchak-weekend-market, note: "1.2 km away; the market is open the same Sunday" }
+      - { id: rajadamnern-stadium-muay-thai, note: "The paid, big-stadium version on Saturday night" }

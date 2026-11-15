@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: rca-plaza
+  title: File:RCA Plaza in Huai Khwang District, Bangkok, Thailand.jpg
+  author: Globe-trotter
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:RCA_Plaza_in_Huai_Khwang_District,_Bangkok,_Thailand.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9a/RCA_Plaza_in_Huai_Khwang_District%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: RCA Plaza in Huai Khwang District, Bangkok, Thailand.
+  width: 3888
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

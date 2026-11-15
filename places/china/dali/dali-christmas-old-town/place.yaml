@@ -1,0 +1,224 @@
+id: dali-christmas-old-town
+name: "Christmas in Dali Old Town"
+short_name: Dali Christmas
+name_local: 大理古城
+name_romanized: Dàlǐ Gǔchéng
+country: china
+city: dali
+area: Dali Old Town · Renmin Lu
+category: nightlife
+fame: popular
+tags: [christmas, christmas-option, bar, church, old-town, lake, overnight-train]
+kind: Do
+why: "A Bai old town at 1,978 m: bar streets, a 1927 church with temple eaves, Erhai lake. The costliest trip back: ¥329–582 to Chongqing."
+when:
+  dates:
+    - { from: 2026-12-24, to: 2026-12-25 }
+  kind: best
+  label: "Christmas, 24–25 Dec"
+
+cost:
+  local: 332
+  currency: CNY
+  brl: 274.46
+  note: "Cheapest way out: train to Kunming plus a night sleeper to Chongqing on the 25th. The old town and church are free"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Christmas Eve + part of the 25th"
+best_time: "Dec 24 after 20:00, when the bar streets start"
+
+book_ahead:
+  required: recommended
+  lead_days: 15
+  lead_time: "Trains go on sale 15 days ahead (Dec 10–11); flights are on sale now"
+  method: passport-registered
+  links:
+    - label: Trip.com trains (Dali → Chongqing)
+      url: "https://www.trip.com/trains/china/route/dali-to-chongqing/"
+      note: "English, foreign cards, passport details; lists G2850 and G2842"
+    - label: Trip.com flights (DLU → CKG)
+      url: "https://www.trip.com/flights/dali-to-chongqing/airfares-dlu-ckg/"
+      note: "Nonstop flights of about 1 h 30; search Dec 26"
+  passport: true
+  notes: "Only the trip out needs booking; the town doesn't. There are just two direct trains a day to Chongqing and Dec 26 is a Saturday, so buy when sales open."
+
+hours:
+  summary: "Old town free, no ticket at the gates. Foreigner Street bars start around 20:00; listed bars close between 00:30 and 04:30"
+  winter: "No Christmas program for 2026 has been announced in Dali, and I found no source describing one in past years: expect a normal bar night. Christmas isn't a family holiday in most of China, and nothing suggests bars or shops close. The church doesn't publish Mass times, and visitors may be kept out during services. December is dry: about 11 mm of rain."
+
+location:
+  address: Dali Catholic Church, 6 Xinmin Road (alley off Renmin Road), Dali Old Town, Dali, Yunnan
+  address_local: 云南省大理市大理古城新民路6号 天主教堂
+  lat: 25.69607
+  lng: 100.16294
+  nearest_transit: "No metro. Bus 8 from Dali station (Xiaguan), 45–90 min"
+
+sources:
+  - url: "https://trains.ctrip.com/webapp/train/list?ticketType=0&dStation=%E5%A4%A7%E7%90%86&aStation=%E9%87%8D%E5%BA%86&dDate=2026-11-12&rDate=&trainsType=&hubCityName=&highSpeedOnly=0"
+    title: "Dali–Chongqing on Ctrip (2026-11-12, same on Sat 11-14 and 11-21): G2850 09:56 → Chongqing West 17:10, G2842 16:00 → 23:13, ¥530.5"
+    checked: 2026-11-10
+  - url: "https://trains.ctrip.com/webapp/train/list?ticketType=0&dStation=%E5%A4%A7%E7%90%86&aStation=%E6%98%86%E6%98%8E&dDate=2026-11-13&rDate=&trainsType=&hubCityName=&highSpeedOnly=0"
+    title: "Dali–Kunming on Ctrip (Fri 2026-11-13, 107 trains): C9508 14:52 → Kunming 17:07 ¥114; D8662 07:23 → Kunming South 10:08 ¥155.5"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/kunming-chongqing/
+    title: "Kunming–Chongqing on Ctrip (2026-11-12 to 11-14): K986 19:03 → Chongqing West 08:03, hard sleeper ¥215; G2852 11:11 → 16:05 ¥369"
+    checked: 2026-11-10
+  - url: "https://www.trip.com/flights/showfarefirst?dcity=dlu&acity=ckg&ddate=2026-12-26&triptype=ow&class=y&quantity=1&locale=en-XX&curr=CNY"
+    title: "Trip.com flight search DLU → CKG for Sat 2026-12-26 (searched 2026-11-10): West Air 12:10 → 13:40 and 17:30 → 19:00, CNY 582"
+    checked: 2026-11-10
+  - url: https://www.trip.com/trains/china/route/dali-to-chongqing/
+    title: "Dali to Chongqing trains (Trip.com): about 2 direct trains a day, tickets on sale 15 days before departure, passport booking"
+    checked: 2026-11-10
+  - url: https://travelchinawith.me/attractions/yunnan/dali/dali-old-town/
+    title: "Dali Old Town (Travel China With Me, updated 2026-09-28): free, 1,978 m, Foreigner Street bars, church, transfers, e-bikes"
+    checked: 2026-11-10
+  - url: https://gcatholic.org/churches/asia/5238
+    title: "Cathedral of the Sacred Heart of Jesus, Dali (GCatholic): 古城新民路6号, 1927"
+    checked: 2026-11-10
+  - url: "https://www.yunnanexploration.com/?p=16629"
+    title: "Catholic Church of Dali Old Town (Yunnan Exploration): built 1927, Bai, Han and Western styles, check Mass times before visiting"
+    checked: 2026-11-10
+  - url: https://uk.trip.com/toplist/tripbest/dali-best-bars-100900007337
+    title: "Top 20 Bars in Dali City (Trip.Best, updated 2026-11-10): Wild Pigeons Bar, To Go Craft Beer and others in the old town, with opening hours"
+    checked: 2026-11-10
+  - url: https://www.tripbase.com/destinations/dali-china/nightlife/
+    title: "Dali nightlife (Tripbase): Foreigner Street and Renmin Road have the most bars, busiest about 21:00–23:00"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/cityguides/yunnan/dali/weather-december.htm
+    title: "Dali weather in December (TravelChinaGuide, updated 2025-08-15): high 16 °C, low 3 °C, 11 mm of rain, 3 rainy days"
+    checked: 2026-11-10
+  - url: https://www.weather2travel.com/china/dali/december/
+    title: "Dali in December (Weather2Travel): 7 hours of sunshine a day, UV index 6"
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/transport/intercity/kunming-dali/
+    title: "Kunming–Dali transport guide (Wander in China, updated 2026-07-13): Dali station is in Xiaguan, passport at the gates"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/chengdu-chongqing/
+    title: "Chengdu–Chongqing trains on Ctrip (timetable for 2026-11-12): cheapest D trains ¥85, the comparison figure used here"
+    checked: 2026-11-10
+  - url: https://www.theworldofchinese.com/2024/12/christmas-celebrations-across-china-in-photos/
+    title: "Christmas across China (The World of Chinese, 2024-12-25): not a family holiday in most of China; apples on Christmas Eve"
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Dali
+    title: "Dali (Wikivoyage): Bad Monkey at 59 Renmin Road, bars on Renmin Road (listings partly old)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "No source describes Christmas in Dali in any year: the bar-night picture is from general guides. No drink prices; Bad Monkey's 2026 status unconfirmed. Train data is Ctrip's for Nov 12–21, the flight a Trip.com search for Dec 26 on Nov 10 (read with atr render). No Mass times published. The cost block's 100% line is a known platform bug: 161% is right."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: old-town-night
+    caption: "Foreigner Street (Yangren Jie) on an ordinary night in 2012, not Christmas"
+    hook: Grey-tile lanes between a mountain range and a lake, loud bars after eight, and a church that looks like a temple.
+  - type: quick_facts
+    time_needed: "Christmas Eve + part of the 25th"
+    best_time: "Dec 24 after 20:00, when the bar streets start"
+    extra:
+      - label: To Chongqing
+        value: "7 h 14 train, 1 h 30 flight"
+        detail: "Train ¥530.5 (R$439); flight about ¥582 (R$481)"
+      - label: Christmas
+        value: Nothing announced
+        detail: A normal bar night; Mass times unpublished
+      - label: Night temp
+        value: About 3 °C
+        detail: "Dry and sunny by day, about 16 °C"
+  - type: highlights
+    items:
+      - title: A church with temple eaves
+        text: "The **Dali Catholic Church** sits in an alley at 6 Xinmin Road, off Renmin Road. It dates from **1927** and mixes Bai woodwork with a Catholic interior. A 2026 guide calls it the old town's most overlooked building."
+      - title: Bar streets that start late
+        text: "**Foreigner Street** (Yangren Jie) is a souvenir street until about 20:00, then the bars turn the music up. Renmin Road has the other cluster. Trip.com's November 2026 list has **Wild Pigeons Bar** with live folk music every night."
+      - title: Erhai on Christmas Day
+        text: "An **e-bike for about ¥50 (R$41) a day** is the usual way to reach Erhai lake from the old town. December brings about 7 hours of sun a day and almost no rain."
+      - title: The catch is the way out
+        text: "Only **two direct trains a day** go to Chongqing: 7 h 14 min, ¥530.5. Chengdu's train costs ¥85. Of the Christmas options, this is the hardest and most expensive one to leave."
+  - type: prose
+    title: How Christmas goes here
+    dropcap: true
+    text: |-
+      Christmas in most of China isn't a religious or family holiday: malls decorate and people give apples on Christmas Eve. Dali adds no program of its own that I could find. What you get is the old town doing what it does every night: free to enter, grey-tile streets full of bars.
+
+      Spend the afternoon of the 24th at the **Catholic church**, then wait for dark. Foreigner Street and Renmin Road wake up after 20:00 and peak between 21:00 and 23:00. Bars are how a solo traveler meets people here; the church is for looking, since Mass times aren't published.
+
+      The 25th depends on how you leave. With a flight or the direct train on the 26th you get the whole day: rent an e-bike and ride to **Erhai**. Winter is rated fine for the town and less ideal for hiking Cangshan. With the cheap sleeper route you leave Dali at 14:52 on the 25th.
+  - type: gallery
+    images:
+      - file: church-at-night
+        caption: "The church gate tower: Bai eaves with a cross on top"
+      - file: church-interior
+        caption: Painted beams inside the nave, looking back to the door
+  - type: quote
+    variant: vibe
+    text: A temple roof with a cross on it, then folk guitars in a courtyard bar.
+  - type: book_ahead
+    steps:
+      - days_before: 15
+        text: "Train sales open about **Dec 10** for the 25th and **Dec 11** for the 26th. Book on Trip.com or 12306 with your passport. Flights for Dec 26 were already on sale on Nov 10."
+      - days_before: 0
+        text: "Leave the old town early. **Dali station** is in Xiaguan: guides give 45–90 min on bus 8 (¥2–5), so allow 1.5 h, or about 30 min by taxi (¥40–50). The **airport** is about 45 min by taxi (¥80–120)."
+    passport_note: "Book and travel with the **same passport**. Station gates scan its photo page."
+  - type: cost_breakdown
+    items:
+      - label: Old town and Catholic church
+        local: 0
+        brl: 0
+      - label: Bus 8 from the old town to Dali station
+        local: 3
+        brl: 2.48
+        estimate: true
+      - label: "C9508 Dali → Kunming, Dec 25 (2nd class)"
+        local: 114
+        brl: 94.24
+      - label: "K986 hard sleeper, Kunming → Chongqing West (Dec 25 night)"
+        local: 215
+        brl: 177.74
+      - label: "Instead: direct train G2850 on Dec 26 (2nd class)"
+        local: 530.5
+        brl: 438.56
+        optional: true
+      - label: "Instead: West Air flight on Dec 26 (searched Nov 10)"
+        local: 582
+        brl: 481.14
+        optional: true
+        estimate: true
+      - label: Taxi from the old town to the airport
+        local: 100
+        brl: 82.67
+        optional: true
+        estimate: true
+      - label: E-bike for a day at Erhai
+        local: 50
+        brl: 41.34
+        optional: true
+        estimate: true
+    note: "The town itself is free. The money goes on leaving: about four to seven times Chengdu's ¥85 train. The sleeper route is cheapest because it replaces a hostel night, but it costs you the afternoon of the 25th."
+  - type: map
+    zoom: 16
+    note: "The pin is the **Catholic church**. Its alley opens onto Renmin Road. The train station (in Xiaguan) and the airport are both well outside the old town."
+  - type: tips
+    variant: insider
+    items:
+      - "**Getting to Chongqing on the 26th**: two ways on the day, from timetables read on Nov 10. **Fly**: West Air 12:10 → 13:40, about **¥582 (R$481)**. **Direct train**: G2850, Dali 09:56 → Chongqing West 17:10, **¥530.5 (R$439)**."
+      - "**Cheapest, leaving on the 25th**: C9508 at 14:52 to Kunming (17:07, ¥114), then sleeper K986 at 19:03, arriving Chongqing West at 08:03 on the 26th (hard sleeper ¥215). Total **¥329 (R$272)**, and the train is your bed."
+      - "Changing in Kunming on the 26th saves almost nothing: D8662 at 07:23 to Kunming South (10:08, ¥155.5), then G2852 at 11:11 to Chongqing West (16:05, ¥369). That's ¥524.5 and one hour earlier than the direct train."
+      - "These are November timetables, and on the dates I checked Ctrip showed the ¥114 seats and the ¥215 sleepers as **sold out, waitlist only**. Book the minute sales open on Dec 10, and keep G2850 or the flight as the fallback."
+      - "The church courtyard has a café. It's a quiet place to sit before the bars open."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The last departures that work on the 26th are the **09:56 train** and the **12:10 flight**. The 16:00 train arrives at 23:13, after the drone show. The 17:30 flight lands at 19:00, too tight for a 20:30 show."
+      - "The ¥582 West Air fare was shown with carry-on baggage only. Check the bag rules if you travel with a big backpack."
+      - "Don't plan around a Christmas party. I found none announced. Bad Monkey at 59 Renmin Road is listed as Dali's longest-running foreign bar, but I couldn't confirm it's open in 2026."
+      - "A 2026 guide says to skip the restaurants directly on Renmin Road and Fuxing Road, and to rent e-bikes only through Meituan or Qingju."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 16
+    conditions: "Dry and sunny, about 7 h of sun a day; cold at night"
+    note: "At 1,978 m the days reach about 16 °C and the nights drop to about 3 °C. December brings about 11 mm of rain. The UV index is high (6) even in winter. Good weather for the lake by day; bring a real jacket for the bar streets at night."
+    wear: "Padded or down jacket for the evening, layers and sunscreen by day"
+  - type: pairs_well
+    items:
+      - id: chongqing-drone-light-show
+        note: "Sat Dec 26 at 20:30, if it runs. You arrive 13:40 by air, 17:10 by direct train, or 08:03 by sleeper"

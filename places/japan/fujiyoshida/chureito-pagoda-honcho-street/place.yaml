@@ -1,0 +1,180 @@
+id: chureito-pagoda-honcho-street
+name: "Chureito Pagoda and Honcho Street"
+short_name: Chureito Pagoda
+name_local: 忠霊塔・新倉山浅間公園 / 本町通り
+name_romanized: Chureito · Honcho-dori
+country: japan
+city: fujiyoshida
+area: Shimoyoshida
+category: views
+fame: iconic
+tags: [mt-fuji, pagoda, viewpoint, free, day-trip, photo-spot]
+kind: See
+why: "The postcard of Japan: a red five-storey pagoda with snowy Fuji behind it, 398 steps up. Free, and winter is when Fuji hides least."
+
+cost:
+  local: 4620
+  currency: JPY
+  brl: 163.55
+  note: "Highway bus to Kawaguchiko and back (¥2,000 each way online) plus the Fujikyu train to Shimoyoshida and back (¥310 each way)."
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Full day from Tokyo; 2–3 h on the spot"
+best_time: "Morning, on the earliest bus you can get"
+
+book_ahead:
+  required: recommended
+  lead_days: 3
+  lead_time: "Bus seats are reserved; sales open one month ahead"
+  method: website
+  links:
+    - label: Fujikyu highway bus (Shinjuku route)
+      url: "https://bus.fujikyu.co.jp/en/highway/fujisan/shinjuku-kawaguchiko/"
+      note: "Timetable and fares; ¥2,000 online to Kawaguchiko, ¥2,200 at the counter"
+    - label: Fujiyama Connect (Fujikyu buses)
+      url: "https://www.fujiyamaconnect.jp/bus/inbound/?wovn=en"
+      note: "Since 1 Oct 2026 Fujikyu-run buses sell here; Keio-run ones on Highwaybus.com"
+  notes: "The viewpoint needs no ticket. Only the bus is reserved, and you can still buy at the Busta Shinjuku counter on the day if seats are left."
+
+hours:
+  summary: "Park open 24 h, free; best in daylight"
+  winter: "Winter is Fuji's clearest season (see below). Fujiyoshida lists evening illumination from May to December, until 21:50; January is not listed, so don't count on lights after dark."
+
+location:
+  address: "Arakurayama Sengen Park, 2-4-1 Asama, Fujiyoshida, Yamanashi"
+  address_local: 山梨県富士吉田市浅間2-4-1 新倉山浅間公園
+  lat: 35.50129
+  lng: 138.80136
+  nearest_transit: "Shimoyoshida Station (Fujikyu Railway), about 25 min on foot to the pagoda"
+
+sources:
+  - url: "https://en.fujiyoshida.net/spot/index.php?p=12"
+    title: "Fujiyoshida official tourist guide: Arakurayama Sengen Park and Chureito Pagoda (398 steps, access, parking, bus rules)"
+    checked: 2026-11-13
+  - url: "https://en.fujiyoshida.net/feature/index.php?p=honcho_sansaku"
+    title: "Fujiyoshida official tourist guide: Honmachi Street feature (Showa streetscape, shops and cafés)"
+    checked: 2026-11-13
+  - url: "https://en.fujiyoshida.net/course/index.php?p=course-367"
+    title: "Fujiyoshida official tourist guide: walking route from the Shimoyoshida expressway bus stop (about 20 min)"
+    checked: 2026-11-13
+  - url: "https://www.city.fujiyoshida.yamanashi.jp/page/8788.html"
+    title: "Fujiyoshida City: paid parking at Arakurayama Sengen Park from 1 Apr 2025 (overtourism measures)"
+    checked: 2026-11-13
+  - url: "https://bus.fujikyu.co.jp/en/highway/fujisan/shinjuku-kawaguchiko/"
+    title: "Fujikyu Bus: Shinjuku – Fuji Five Lakes highway bus (fares, stops incl. Shimoyoshida, 1 h 45 min, booking opens one month ahead)"
+    checked: 2026-11-13
+  - url: "https://bus.fujikyu.co.jp/en/news/detail/mmpatv00000002xx.html"
+    title: "Fujikyu Bus news, 24 Aug 2026: Shinjuku–Kawaguchiko booking split between Fujiyama Connect and Highwaybus.com from 1 Oct 2026"
+    checked: 2026-11-13
+  - url: "https://www.japan-travel-kit.com/guides/attractions/kawaguchiko-day-trip-from-tokyo"
+    title: "Japan Travel Kit: Kawaguchiko day trip from Tokyo 2026 (bus vs JR + Fujikyu train fares, sightseeing bus pass)"
+    checked: 2026-11-13
+  - url: "https://isfujivisible.com/blog/mount-fuji-lawson-photo-spot"
+    title: "isfujivisible.com (Aug 2026): Fuji forecast scores by month; Honcho St 5 min from Shimoyoshida Stn; first buses beat coaches"
+    checked: 2026-11-13
+  - url: "https://www.fujikyu-railway.jp/en/fare/"
+    title: "Fujikyu Railway (official): fare table, Shimoyoshida–Kawaguchiko ¥310 (IC ¥305); express tickets extra"
+    checked: 2026-11-13
+  - url: "https://www.trvlogue.com/ja/shimoyoshida-mt-fuji-guide"
+    title: "trvlogue (2026): Kawaguchiko → Shimoyoshida by Fujikyu, about 15 min, ¥310, IC cards accepted"
+    checked: 2026-11-13
+  - url: "https://japanstartshere.com/2025/09/04/convenience-store-with-view-of-mt-fuji/"
+    title: "Japan Starts Here (Sept 2025): after Chureito, walk to Gekkoji Station for a 7-Eleven with a Fuji view"
+    checked: 2026-11-13
+  - url: "https://japancitytour.com/arakurayama-sengen-park-chureito-pagoda/"
+    title: "Japan City Tour: Arakurayama Sengen Park, open 24 hours (no gates), admission free"
+    checked: 2026-11-13
+  - url: "https://sunrise-sunset.org/search?location=Fujiyoshida"
+    title: "Sunrise-sunset.org: Fujiyoshida sunrise and sunset (late January about 06:50 / 17:05)"
+    checked: 2026-11-13
+  - url: "https://asianews.network/overtourism-grows-in-northern-foothills-of-mt-fuji-frustrating-local-officials"
+    title: "Yomiuri via Asia News Network: overtourism at Arakurayama Sengen Park, people walking onto Fujikyu tracks for photos"
+    checked: 2026-11-13
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=49&block_no=47640"
+    title: "JMA: climate normals 1991–2020, Kawaguchiko (January)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Park facts, access times and parking rules are from Fujiyoshida's official pages; free entry from Japan City Tour (the official page lists no fee). Bus fares from Fujikyu; the ¥310 train fare from Fujikyu's fare table. Clear-sky odds are isfujivisible's forecast scores, not observations. Sun times computed (NOAA), matching sunrise-sunset.org."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: pagoda-march
+    caption: "Chureito Pagoda and Fuji in early March, the trees still bare"
+    focus: "45% 50%"
+    hook: "Climb 398 steps through a hillside shrine and Japan's most printed view lines up in front of you."
+  - type: quick_facts
+    time_needed: Full day from Tokyo
+    best_time: Morning
+    extra:
+      - { label: Entry, value: Free, detail: "Park open around the clock" }
+      - { label: Clear-Fuji odds, value: "Very high in winter", detail: "isfujivisible's forecast scores: Jan 2026 all clear" }
+      - { label: Train from Kawaguchiko, value: "¥310, a short ride", detail: "Fujikyu Railway to Shimoyoshida (IC ¥305); expresses cost extra" }
+  - type: highlights
+    items:
+      - title: The postcard view
+        text: "From the deck above the pagoda you see the five-storey **Chureito**, the town of Fujiyoshida and the whole cone of **Mt Fuji** in one frame. It is free and the park never closes."
+      - title: Winter is the best season for it
+        text: "isfujivisible's **forecast scores** (its own model, not observations) rated Fuji clear on every January 2026 day, morning and afternoon, against about half the mornings in summer. From November to February the mountain is out nearly all day."
+      - title: Honcho Street, by the station
+        text: "Fujiyoshida's **Honmachi (Honcho) Street**, about five minutes on foot from Shimoyoshida Station, runs straight at the mountain, lined with Showa-era shopfronts. The town says old buildings now hold cafés, a sweets shop and a craft gallery."
+      - title: Pagoda and lake in one day
+        text: "Shimoyoshida is a short ¥310 ride from Kawaguchiko on the Fujikyu Railway, so one bus ticket each way covers the pagoda, the **Lawson shot** and the lake."
+  - type: prose
+    title: How to do it from Tokyo
+    dropcap: true
+    text: |-
+      **Bus (cheapest, simplest).** The Shinjuku–Fuji Five Lakes highway bus leaves from Busta Shinjuku and stops at **Shimoyoshida** on the expressway before Fuji-Q and Kawaguchiko. Fujiyoshida's own guide puts that stop about 1 h 30 from Shinjuku and a 20-minute walk from the park. To Kawaguchiko it is ¥2,000 online and ¥2,200 at the counter.
+
+      **Train.** JR Chuo Line to Otsuki, then the private Fujikyu Railway: ¥1,170 for Otsuki–Kawaguchiko, plus ¥400 on the limited express. A JR Pass stops at Otsuki. It's slower and dearer than the bus unless you already hold a JR ticket, but it lets you hop off at Shimoyoshida and carry on to the lake.
+
+      **Order of the day.** Take the earliest bus to Kawaguchiko and do the **Lawson** first: its light is best before 9:00, when the sun is still off to the side. Then the Fujikyu train back to **Shimoyoshida** (¥310 on a local train) for the pagoda and Honcho Street. Winter Fuji stays out most of the day, so the pagoda keeps until after lunch. Ride the train back to Kawaguchiko (another ¥310) and take the bus home from Kawaguchiko Station.
+  - type: gallery
+    images:
+      - file: pagoda-autumn
+        caption: "The same view in October; by January the leaves are gone"
+      - file: honcho-street
+        caption: "Honcho Street running towards Fuji (2016)"
+        focus: center
+  - type: quote
+    variant: vibe
+    text: "Frost on the steps, breath in the air, and the mountain sharp enough to touch."
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "Book the **Shinjuku → Kawaguchiko** bus online (¥2,000 each way). Pick the earliest morning bus out and a late-afternoon bus back."
+      - days_before: 1
+        text: "Check the Fuji forecast on **isfujivisible.com** the night before. If the mountain is clouded in, move the day."
+      - days_before: 0
+        text: "From Kawaguchiko take the **Fujikyu train** to Shimoyoshida (¥310 by local train), then walk about 25 min to the pagoda."
+  - type: cost_breakdown
+    items:
+      - { label: "Highway bus, Shinjuku → Kawaguchiko", local: 2000, brl: 70.8 }
+      - { label: "Fujikyu train, Kawaguchiko ↔ Shimoyoshida", local: 620, brl: 21.95, note: "¥310 each way" }
+      - { label: "Highway bus, Kawaguchiko → Shinjuku", local: 2000, brl: 70.8 }
+      - { label: Arakurayama Sengen Park and the pagoda, local: 0, brl: 0 }
+      - { label: "Sightseeing bus day pass, if you add the lake", local: 1500, brl: 53.1, optional: true }
+  - type: map
+    note: "Coaches can't reach the park: everything starts at **Shimoyoshida** station or the Shimoyoshida expressway bus stop."
+  - type: tips
+    variant: insider
+    items:
+      - "Sunrise around 25 Jan is about **06:50** and sunset about **17:05**. The first buses from Tokyo beat the tour coaches to the lake."
+      - "On Honcho Street, shoot from the **pavement**. It is a working street with traffic, not a photo set."
+      - "For a 7-Eleven with Fuji behind it, a Japan blogger suggests making your way to **Gekkoji Station** after the pagoda instead of back to Shimoyoshida, and calls the store there one of Japan's prettiest."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The Yomiuri found the deck **packed** on a weekday even after the autumn leaves had gone. Get there early and step aside after your shot."
+      - "Fujikyu has put warning signs and alarms at level crossings because people walk onto the **tracks** for Fuji photos. Don't."
+      - "Since 1 Oct 2026 Fujikyu-run and Keio-run buses on this route sell on **different sites** and can't be switched between them. Check which site sold yours before changing it."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 6
+    conditions: Dry, clear and sunny; well below freezing before 9:00
+    note: "January normals at nearby Kawaguchiko (JMA): -5.7 °C low, 5.5 °C high. Cold mornings are the price of the clearest views of the year."
+    wear: Full winter coat, gloves, hat and shoes with grip
+  - type: pairs_well
+    items:
+      - { id: lawson-fuji-kawaguchiko, note: "Do it first, before 9:00, then ride the train here" }
+      - { id: fuji-q-persona-30th, note: "Fuji-Q is the stop between Shimoyoshida and Kawaguchiko" }

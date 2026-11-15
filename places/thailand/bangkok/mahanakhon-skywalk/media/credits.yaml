@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: sunset-terrace
+  title: File:Skyscrapers of Bangkok during a sunset from Mahanakhon terrace.jpg
+  author: iMahesh
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Skyscrapers_of_Bangkok_during_a_sunset_from_Mahanakhon_terrace.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c2/Skyscrapers_of_Bangkok_during_a_sunset_from_Mahanakhon_terrace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Skyscrapers of Bangkok during a sunset from Mahanakhon terrace
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: skyline-pano
+  title: File:Bangkok skyline view from Mahanakhon Tower.jpg
+  author: Bigcitydata
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Bangkok_skyline_view_from_Mahanakhon_Tower.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/98/Bangkok_skyline_view_from_Mahanakhon_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Panoramic view of Bangkok city skyline from Mahanakhon Tower, September 2025
+  width: 16346
+  height: 3856
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

@@ -1,0 +1,121 @@
+id: iruka-tokyo-roppongi-porcini-ramen
+name: "Iruka Tokyo Roppongi"
+short_name: Iruka Tokyo
+name_local: 入鹿TOKYO 六本木
+name_romanized: Iruka Tokyo Roppongi
+country: japan
+city: tokyo
+area: Minato · Roppongi
+category: food
+fame: popular
+tags: [ramen, chef-driven, bib-gourmand, truffle, counter]
+kind: Eat
+why: "Porcini-oil shoyu ramen with smoked duck and a spoon of mushroom-and-truffle paste, ¥2,200 from a Roppongi kiosk. Michelin Bib Gourmand, Tabelog 3.82."
+cost:
+  local: 2200
+  currency: JPY
+  brl: 77.88
+  note: "Special porcini shoyu ramen (Tabelog reviews, Nov 2026); the plain bowl is ¥1,800"
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 30 min + 15–90 min queue
+best_time: "Mid-afternoon, around 15:00–16:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Tue–Sun 11:00–20:00 (last order 19:40)"
+  closed: "Mondays (a 2025 blog adds public holidays; none fall in your dates)"
+  winter: "No New Year or winter notice found (Tabelog, Nov 2026). Your Jan 20 – Feb 4 dates are well past the holidays; the queue waits outside on the street."
+
+location:
+  address: 1F Hotaka Bldg, 4-12-12 Roppongi, Minato-ku, Tokyo
+  address_local: 東京都港区六本木4-12-12 穂高ビル 1F
+  lat: 35.66453
+  lng: 139.73151
+  nearest_transit: Roppongi (Hibiya / Ōedo Line) Exit 7, 2 min walk
+  approximate: true
+
+sources:
+  - url: https://tabelog.com/en/tokyo/A1307/A130701/13264260/
+    title: Iruka Tokyo Roppongi — Tabelog (3.82, hours, closed Mon, no reservations, 13 seats, cashless payment list)
+    checked: 2026-11-13
+  - url: https://tabelog.com/en/tokyo/A1307/A130701/13264260/dtlrvwlst/
+    title: Iruka Tokyo Roppongi — Tabelog reviews (Oct–Nov 2026 visits; porcini shoyu ¥1,800, special ¥2,200, truffle egg rice ¥400)
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/tokyo-region/tokyo/restaurant/iruca-tokyo
+    title: MICHELIN Guide — IRUCA TOKYO (4-12-12 Roppongi; "Worth queueing for", "Solo dining")
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/jp/tokyo-region/tokyo/restaurants/bib-gourmand/ramen
+    title: MICHELIN Guide — Tokyo Bib Gourmand ramen list (current Tokyo 2026 selection; IRUCA TOKYO listed)
+    checked: 2026-11-13
+  - url: https://www.timeout.com/tokyo/restaurants/iruca-tokyo
+    title: Iruca Tokyo — Time Out Tokyo (May 2023; toppings, mushroom-and-truffle duxelles, rice sides)
+    checked: 2026-11-13
+  - url: https://mydyney-github-io.pages.dev/posts/iruka-tokyo-roppongi-michelin-ramen-guide
+    title: "Iruka Tokyo Roppongi guide (Aug 2025 blog): English kiosk, cashless since July 2025, typical 20–30 min wait"
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-ceremony-tokyo-kyoto-osaka-nara-2027-selection-save-the-date
+    title: MICHELIN Guide — 2027 Tokyo selection to be revealed Feb 16, 2027
+    checked: 2026-11-13
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "JMA: climate normals 1991–2020, Tokyo (January)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "No official menu online and Tabelog's menu tab is empty, so prices come from Tabelog reviews of Oct–Nov 2026 visits. Toppings are from Time Out (2023). Kiosk and queue details are from an Aug 2025 blog. Michelin hides the award text behind a login; Bib status is from Michelin's Tokyo Bib ramen list. Pin is block-level."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    hook: Shoyu ramen that smells of porcini, with a side of truffle paste to stir in halfway.
+  - type: quick_facts
+    time_needed: 30 min + queue
+    best_time: Mid-afternoon
+    extra:
+      - { label: Order, value: Kiosk in English, detail: "Pay by card, IC or QR; no cash (Tabelog, Aug 2025 blog)" }
+      - { label: Seats, value: 9 at the counter, detail: Plus one 4-seat room (Tabelog) }
+      - { label: Out of place?, value: "No", detail: "Michelin tags it 'Worth queueing for' and 'Solo dining'" }
+  - type: highlights
+    items:
+      - title: The fancy part
+        text: "Time Out lists chicken meatballs, chicken slices, chashu, pork, **smoked duck** and Kujo green onion on the special porcini shoyu, with a side dollop of **mushroom and truffle duxelles**. That's a long way from a ¥1,000 tonkotsu."
+      - title: Locals and Michelin agree
+        text: "**3.82 on Tabelog** from almost 3,000 reviews, and a **Bib Gourmand** in the current **Michelin Tokyo 2026** selection."
+      - title: Backpacker-proof ordering
+        text: "No booking, no dress code: queue, then order at a **touch-screen kiosk with English** and pay by card or Suica."
+      - title: Under R$80
+        text: "The special bowl is **¥2,200 (R$78)**; add the truffle egg rice for ¥400 if you're hungry."
+  - type: menu
+    title: What people order (Nov 2026 reviews)
+    items:
+      - { name: Porcini shoyu ramen, price_local: 1800, price_brl: 63.72 }
+      - { name: Special porcini shoyu ramen, price_local: 2200, price_brl: 77.88, note: "All the toppings plus the truffle duxelles", tag: signature }
+      - { name: Truffle egg over rice, price_local: 400, price_brl: 14.16, tag: must-try }
+    note: "No menu is published online; prices are from Tabelog reviews of Oct–Nov 2026 visits. Time Out also lists a yuzu shio ramen."
+  - type: cost_breakdown
+    items:
+      - { label: Special porcini shoyu ramen, local: 2200, brl: 77.88 }
+      - { label: Truffle egg over rice, local: 400, brl: 14.16, optional: true }
+  - type: map
+    note: "2 min from **Roppongi Station Exit 7**, on the ground floor of the Hotaka Building."
+  - type: tips
+    variant: insider
+    items:
+      - "Queues vary a lot. Tabelog reviews from Oct–Nov 2026: **no wait** around 16:00 on a weekend, 4 people ahead at 13:00 on a weekday, but **over an hour** at 17:40 and **1.5 hours** on a holiday morning."
+      - "Go **mid-afternoon**: the Aug 2025 blog got in within 15 minutes at about 15:00 on a weekday."
+      - "Queue first, then the kiosk: you order and pay when it's your turn (Aug 2025 blog)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Closed on Mondays.**"
+      - "Cash isn't accepted; bring a card or a charged Suica/IC card."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "The queue is outside on the pavement in Roppongi."
+    wear: Coat and gloves for the queue
+  - type: pairs_well
+    items:
+      - { id: ginza-hachigou-chukasoba, note: "The other refined bowl, a clear consommé ramen in Ginza" }
+      - { id: sushi-azabu-lunch-omakase, note: "The cheaper sushi counter, also in Minato" }

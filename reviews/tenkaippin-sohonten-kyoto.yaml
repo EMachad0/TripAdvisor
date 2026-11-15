@@ -1,0 +1,27 @@
+# Independent review of tenkaippin-sohonten-kyoto. Written by `./atr review`; do not edit by hand.
+id: tenkaippin-sohonten-kyoto
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 50ae92257aaa901fb6df952a95dffd973bc53aaaecd179bad4ff1bb188ee846e
+facts:
+  supported: 6
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[8].items[0]
+    problem: The tip sends the traveler to the Hachijo-guchi branch as the cheaper choice, but that branch closes Sundays and at 22:00, unlike the head shop's daily 11:00–01:00.
+    evidence: https://retty.me/restaurant/100001179696/ — 「[月〜金・土・祝] 10:30 〜 22:00」, 定休日「毎週日曜日」
+    fix: Add '(closes 22:00, shut Sundays)' after the branch name.
+resolved:
+  - field: blocks[5].items[1].price_local
+    problem: The ¥1,360 beef-tendon price is the chain's promo price for Nov 10, 2026 – Jan 11, 2027, and the source says prices vary by store. The traveler is in Japan Jan 20 – Feb 4, after the promo ends, when the dish is back to head-shop only. No source gives the head-shop price for those dates.
+    evidence: "https://yotchannopapa.blog.jp/archives/32734914.html (post dated 2025-08-17, at 総本店, 一乗寺築田町94): 「牛すじラーメン」(1,410円). The page now shows ¥1,410, dates it Aug 2025 and says the Jan 2027 price is unconfirmed (menu note and hours.winter). This is a blog, a weak source, but it is the shop's own price and the label is honest."
+  - field: cost.local
+    problem: The ¥920 kotteri price is a Kansai chain average from a third-party price blog (as of Feb 2026). The blog says branch prices differ because most shops are franchises, and no listed source gives the head shop's own price.
+    evidence: "cost.note now says '≈ ¥920–1,000 … chain's Kansai price, Feb 2026; head-shop prices unconfirmed'. The menu note says 'may be up to ¥1,000 here', the cost_breakdown row has estimate: true, and confidence_note cites GLT's ¥1,000–2,000 budget. This is the fix that was asked for."
+rereview_of: 82be5922d48789101df70683a3392851466fd1b7db28a7358c28c9571251da34
+summary: "All three earlier shoulds are resolved. The Eizan ¥220 fare is confirmed by the operator's fare table, the head-shop beef-tendon price of ¥1,410 is cited from an Aug 2025 visit and labeled unconfirmed for 2027, and the kotteri cost is honestly shown as a chain-price estimate. The only new issue is a nit: the Hachijo-guchi branch's Sunday closure."
+model: claude-opus-5-5
+cost_usd: 0.432

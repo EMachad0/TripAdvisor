@@ -1,0 +1,39 @@
+# Independent review of merica-hotel-jiefangbei. Written by `./atr review`; do not edit by hand.
+id: merica-hotel-jiefangbei
+type: place
+reviewed: 2026-11-15
+verdict: fix
+content_hash: f4950c81a603bf89859fa3ac3fc006d1918e3f330089680e538b1690f9ec9db7
+facts:
+  supported: 18
+  unsupported: 3
+  contradicted: 1
+issues:
+  - severity: blocker
+    field: blocks[2].good_to_know[7]
+    problem: The page says Booking.com 'may ask for a bank transfer before arrival'. Booking.com and tiket.com both say a bank transfer before arrival is required, and that the hotel sends instructions after you book. A Brazilian traveler without a Chinese bank account may not be able to pay that way, and if they can't, the call-night room is at risk.
+    evidence: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&selected_currency=CNY — \"Payment before arrival by bank transfer is required. The property will contact you after you book to provide instructions.\" Same sentence on tiket.com: \"Payment before arrival via bank transfer is required.\" Booking.com 'Accepted payment methods': \"Cash\""
+    fix: Say that both listings require a bank transfer before arrival. Tell the traveler to message the hotel right after booking to confirm a foreign card, Alipay or WeChat Pay, or the prepaid Booking.com rate, will do instead. Point to the prepaid ¥107 partner rate as the way around it.
+  - severity: should
+    field: blocks[2].beds / blocks[5].steps[1]
+    problem: The page gives no way around the bank-transfer rule. Booking.com sells a prepaid partner Double Room for 28–31 Dec at ¥315, ¥74 less than the ¥389 pick and paid through Booking.com. The only fallback is to cancel at 18:00 (UTC+8) on 28 Dec, which is the call night itself.
+    evidence: 'https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY — "Double Room … CNY 315 … Free cancellation before December 27, 2026 · Pay in advance · Partner Offer"; fine print: "Payment before arrival by bank transfer is required."'
+    fix: Add the ¥315 prepaid partner rate as a bed and name it as the way to avoid the transfer. Move the transfer check early enough that the traveler can switch before the partner rate's free cancellation ends on 27 Dec.
+  - severity: should
+    field: blocks[2].beds[3] / book_ahead.links[1].note / blocks[4].text
+    problem: "The 4-night stay with New Year's Eve is priced at ¥736 'after 10% off'. Booking.com's public price for 28 Dec – 1 Jan is ¥796, a 3% cut from ¥820. The 10% looks like a Genius sign-in price, and the page does not say so. The prose figures built on it are off too: 'adds ¥347' should be ¥407, and '¥441 more than the dorm' is also wrong."
+    evidence: https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2027-01-01&group_adults=1&no_rooms=1&selected_currency=CNY — "Original price CNY 820 Current price CNY 796"; "Sign in to unlock the members-only price for your selected dates"
+    fix: Give ¥796 as the price, mention ¥736 only as a possible Genius sign-in price, and recompute the NYE add-on and the dorm difference in the prose.
+  - severity: should
+    field: location.nearest_transit
+    problem: The first item in the hero quick fact, 'Xinhua Road cableway 6 min walk', rests only on a Hotels.com Taiwan page. That page shows a bot check, and I found no other source with the 6-minute figure.
+    evidence: https://tw.hotels.com/ho3630871392/ — renders only "身分驗證 … 點擊以下方格以完成身分驗證" (bot check)
+    fix: Lead with the tiket.com metro distances, or back the cableway walk with a source that opens (an Amap/OSM route, or a listing that loads).
+resolved:
+  - field: cost.note
+    problem: "'¥130 to pay at the hotel' does not match Booking.com. The ¥130 rate says 'Pay nothing until December 26, 2026', so it is charged before arrival, on top of the required bank transfer. It is not paid at the desk."
+    evidence: "cost.note no longer says 'to pay at the hotel'. Booking.com 28–29 Dec: \"Standard Queen Room - No Window … Current price CNY 130\". 28–31 Dec: \"Current price CNY 389 … Pay nothing until December 26, 2026\"."
+rereview_of: 678e809daff2d016247cebf7f0c3b982f4093ec2417a002be4e6373e79619717
+summary: "Findings 2 and 3 are fixed. Most of the new prices check out against Booking.com today: ¥389, ¥130, ¥154/¥462, ¥406, ¥274 and ¥1,402, with the cancellation and pay-later terms. Finding 1 is still open because the page skips the ¥315 prepaid partner rate that avoids the bank transfer. The 4-night ¥736 price is a sign-in discount; the public price is ¥796. The cableway walk has no source that opens."
+model: claude-opus-5-5
+cost_usd: 1.55

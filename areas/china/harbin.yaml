@@ -1,0 +1,119 @@
+id: harbin
+country: china
+name: "Harbin"
+name_local: 哈尔滨
+region: Heilongjiang, NE China
+scope: city
+cities: [harbin]
+why: "China's ice city: a park of lit ice castles across the frozen Songhua, Russian-era Central Street, and Siberian tigers on snow. Worth it only once Ice and Snow World opens (Dec 17–21 in past years), with −19 °C nights."
+best_for: [views, nature, culture]
+highlights: ["Harbin Ice and Snow World", "Central Street at Christmas", "Saint Sophia Cathedral", "Siberian Tiger Park", "The frozen Songhua River"]
+days_suggested: { min: 2, max: 4 }
+cost_level: medium
+fame: iconic
+lat: 45.7670
+lng: 126.6107
+getting_there: "Fly Shanghai PVG–Harbin nonstop, from ¥672 (Dec 8 fare, searched Nov 10), or G-train from Beijing Chaoyang, from 4h33. Out: Harbin–Chongqing nonstop from ¥1,137 on Dec 25."
+getting_around: "Metro Line 2 links Central Street with Ice and Snow World on the north bank. The old centre is walkable; taxis are hard to find in winter and often don't use the meter."
+winter_note: "December normals are −19 °C at night and −10 °C by day (CMA 1991–2020), with snow on about 10 days. That cold is what builds the ice city. Ice and Snow World's 2026–27 opening date isn't announced (as of Nov 10); it opened Dec 18, 2023, Dec 21, 2024 and Dec 17, 2025. Before it opens, Harbin is still cold and pretty, but the main reason to come is missing."
+image: harbin-ice-city-night
+sources:
+  - url: https://www.news.cn/local/20261012/83c0431873834ce5af329a4679ada8f1/c.html
+    title: "28th Ice and Snow World announced, 1.25 million m², no opening date (Xinhua, 2026-10-12)"
+    checked: 2026-11-10
+  - url: https://news.bjd.com.cn/2023/12/19/10652596.shtml
+    title: "25th Ice and Snow World opens Dec 18, 2023 (Xinhua via Beijing Daily)"
+    checked: 2026-11-10
+  - url: https://cn.chinadaily.com.cn/a/202412/22/WS67675bf0a310b59111daa2b2.html
+    title: "26th Ice and Snow World opens Dec 21, 2024 (China Daily)"
+    checked: 2026-11-10
+  - url: https://www.news.cn/local/20251217/003f5202d01b44a8845e68e36e28def5/c.html
+    title: "27th Ice and Snow World opens 10:00 Dec 17, 2025 (Xinhua)"
+    checked: 2026-11-10
+  - url: "https://www.trip.com/flights/showfarefirst?dcity=sha&acity=hrb&ddate=2026-12-08&triptype=ow&class=y&quantity=1&curr=CNY&locale=en-XX"
+    title: "Shanghai–Harbin flights for Dec 8, 2026 (Trip.com fare search, searched 2026-11-10): nonstop from ¥672"
+    checked: 2026-11-10
+  - url: https://www.trip.com/trains/china/route/beijing-to-harbin/
+    title: "Beijing to Harbin trains (Trip.com): 40 a day, G101 Beijing Chaoyang 08:00 → Harbin West 12:33, sale opens 15 days ahead"
+    checked: 2026-11-10
+  - url: "https://www.trip.com/flights/showfarefirst?dcity=hrb&acity=ckg&ddate=2026-12-25&triptype=ow&class=y&quantity=1&curr=CNY&locale=en-XX"
+    title: "Harbin–Chongqing flights for Fri Dec 25, 2026 (Trip.com, searched 2026-11-10): CA 11:55–16:25 nonstop ¥1,137"
+    checked: 2026-11-10
+  - url: "https://www.trip.com/flights/showfarefirst?dcity=hrb&acity=ckg&ddate=2026-12-26&triptype=ow&class=y&quantity=1&curr=CNY&locale=en-XX"
+    title: "Harbin–Chongqing flights for Sat Dec 26, 2026 (Trip.com, searched 2026-11-10): 07:00–12:20 via Yulin ¥1,107; nonstops from ¥1,404"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Harbin#Climate
+    title: "Harbin climate (Wikipedia; China Meteorological Administration 1991–2020 normals)"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/harbin/travel-tips.htm
+    title: "Harbin travel tips (China Highlights): buy winter clothes in Harbin, about ¥1,000 a full outfit; winter taxis"
+    checked: 2026-11-10
+  - url: https://www.pelago.com/en/activity/pc5m08x9n-harbin-winter-warm-clothing-rental-harbin
+    title: "Harbin winter clothing rental (Pelago): coat, trousers, snow boots, gloves delivered to your hotel, from US$138"
+    checked: 2026-11-10
+  - url: https://m.gmw.cn/2025-12/15/content_1304263828.htm
+    title: "27th Ice and Snow World will open Dec 17 (GMW, published 2025-12-15 07:20): the date came out two days ahead"
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Harbin
+    title: "Harbin (Wikivoyage): Central Street 1.4 km, pedestrian, free; Russian old quarter; Line 2 stations"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/harbin-siberian-tiger-park/
+    title: "Siberian Tiger Park (China for Travelers, updated 2026-09-05): ¥90, winter opening 08:30"
+    checked: 2026-11-10
+  - url: https://www.eastchinatrip.com/harbin-ice-and-snow-world-travel-guide/
+    title: "Harbin Ice and Snow World guide (East China Trip): Line 2 direct from Central Street"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Last three opening dates are from state media; 2026–27 isn't announced. Fares are one Trip.com search, read with atr render on 2026-11-10 (Trip.com blocks link checkers), and will move. Train time from Trip.com's timetable; no train fare found (12306 sells 15 days ahead). Rental price is one reseller's; the ¥1,000 outfit is China Highlights' estimate."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: Ice castles lit in neon, onion domes under snow, and air so cold your eyelashes frost.
+  - type: highlights
+    items:
+      - title: Ice and Snow World
+        text: "The reason to come: a park of lit ice buildings on the north bank, **1.25 million m²** this season (plan). Opens in mid-to-late December; the date isn't out yet."
+      - title: Central Street and Saint Sophia
+        text: "Russian-built old quarter: the 1.4 km cobbled, pedestrian Central Street is free, and St. Sophia is the city's main landmark. Walk out onto the frozen river in winter."
+      - title: Tigers on snow
+        text: "Siberian Tiger Park: several hundred Amur tigers seen from a caged coach, ¥90, from 08:30 in winter. It doesn't depend on the ice city opening."
+      - title: Cheap beds by the metro
+        text: "Hostel dorm beds by Central Street were **¥58–98** a night for Christmas week when searched (Hostelworld)."
+  - type: prose
+    title: How Harbin fits the route
+    dropcap: true
+    text: |-
+      Harbin is a long way north: about 2h45 by air from Shanghai, more than four hours by the fastest train from Beijing. It only pays off once **Ice and Snow World** is open. The last three seasons opened on **Dec 18, Dec 21 and Dec 17**, and last year's date was announced only about two days before. So the safe slot is the end of your China dates: arrive around **Dec 21–22**, give it 3 nights, and fly out to Chongqing.
+
+      **Leaving for Chongqing**: on Fri **Dec 25** an Air China nonstop flies 11:55–16:25 for ¥1,137 (R$940). On Sat **Dec 26** the earliest arrival in that search was a 07:00 one-stop via Yulin, landing 12:20 (¥1,107); nonstops landed 15:55 or later (from ¥1,404). Both fares are from a Nov 10 search for those dates.
+
+      Base yourself near **Central Street metro** (Line 2): the old street is on foot, and the same line crosses the river to the ice city.
+  - type: gallery
+    images:
+      - { file: harbin-sophia-snow, caption: Saint Sophia Cathedral in the snow }
+      - { file: harbin-frozen-songhua, caption: The frozen Songhua River }
+      - { file: harbin-tiger-bus, caption: Siberian Tiger Park in January 2026 }
+  - type: weather
+    temp_low_c: -19
+    temp_high_c: -10
+    conditions: "Dry and very cold; snow on about 10 December days"
+    note: "December normals (CMA 1991–2020). Warm clothes can be **bought** in Harbin's shops for about ¥1,000 (R$827) a full outfit (China Highlights), or **rented**: one service delivers a coat, trousers, snow boots and gloves to your hotel, from US$138 (Pelago)."
+    wear: "Down parka with hood, thermal base layers, warm trousers, snow boots, hat, gloves, face cover"
+  - type: tips
+    variant: insider
+    items:
+      - "Don't book a non-refundable flight in before the ice city's date is announced. Last year that came about two days before opening."
+      - "Brazilian wardrobe? Buy or rent the parka, trousers and boots **in Harbin** rather than hauling them around the rest of China."
+      - "Book the Beijing–Harbin train on the first sale day: tickets open **15 days ahead** and the fastest trains sell out (Trip.com)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Taxis are hard to find in winter, often don't use the meter, and pick up other riders. Use Line 2."
+      - "Fares here are from one Nov 10 search. Christmas-week prices can rise, so check again before booking."
+  - type: faq
+    items:
+      - q: This sounds nice but is far from Shanghai. How do I reach it?
+        a: "**Fly.** A Trip.com search on Nov 10 for Dec 8 showed Shanghai Pudong–Harbin nonstop from **¥672 (R$556)**, about 2h45. The game's \"under ¥600\" was not on offer that day. From Beijing, G-trains run Beijing Chaoyang–Harbin West in **4h33** at the fastest (Trip.com). I couldn't confirm an overnight sleeper fare from Shanghai, so I've left it out."
+        asked: 2026-11-10
+        correction: true

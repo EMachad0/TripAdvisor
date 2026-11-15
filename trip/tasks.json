@@ -1,0 +1,124 @@
+[
+  {
+    "id": "pay-latam",
+    "title": "Pay LATAM: Joinville → São Paulo",
+    "status": "done",
+    "note": "Paid Nov 10 by credit card: R$ 774,89. LA3327, Nov 29, Economy, Light fare.",
+    "order": 1
+  },
+  {
+    "id": "buy-phone",
+    "title": "Buy a new phone",
+    "status": "done",
+    "note": "Galaxy Z Fold 8 bought. Arrived Wed Nov 11.",
+    "order": 2
+  },
+  {
+    "id": "setup-phone",
+    "title": "Set up the Z Fold 8",
+    "status": "todo",
+    "note": "Move everything from the old phone with Smart Switch (cable or Wi-Fi). Check WhatsApp, banking and 2FA apps work before wiping the old phone.\nThen do the trip setup on the new phone: eSIM, VPN, Alipay / WeChat Pay, offline maps and translator (see those tasks below).",
+    "order": 3
+  },
+  {
+    "id": "dbrand",
+    "title": "dbrand case + screen protector: waiting for delivery",
+    "status": "doing",
+    "note": "Ordered from dbrand (Nov 10). Needs to arrive before the Nov 29 departure.\nTrack the parcel. International orders to Brazil can sit in customs for a while.\nBackup: if it still hasn't arrived around Nov 22, buy a cheap local case so the phone isn't bare on the trip.\nWhen it arrives, keep the factory protector on the inner screen.",
+    "order": 4
+  },
+  {
+    "id": "joi-sao",
+    "title": "Book Joinville ↔ São Paulo flights",
+    "status": "doing",
+    "note": "Out: LATAM LA3327 on Nov 29, paid (R$ 774,89, Light fare).\nBack: São Paulo → Joinville after the last week in São Paulo (around mid-February), still to book.",
+    "order": 5
+  },
+  {
+    "id": "br-pvg",
+    "title": "Book Brazil → Shanghai flight",
+    "status": "done",
+    "note": "TK216 + TK280 via Istanbul, Dec 4–6 · ref UMZZEA",
+    "order": 6
+  },
+  {
+    "id": "out-of-china",
+    "title": "Book flight out of China",
+    "status": "done",
+    "note": "Booked Nov 14: Chongqing CKG → Chiang Mai CNX, Sat Jan 2, West Air PN6595, 15:25 UTC+8 → 17:15 UTC+7, on Trip.com (7 kg carry-on + 20 kg checked).\nTicket issuance was still pending when booked: check the e-ticket arrived.\nDay 28 in China; the visa-free limit is 30 days from Dec 6 (about Jan 4).",
+    "order": 7
+  },
+  {
+    "id": "flight-home",
+    "title": "Book flight from Asia → Brazil",
+    "status": "todo",
+    "note": "Hong Kong → São Paulo around Tue Feb 9 (land by Wed Feb 10; Carnaval days off Feb 8–10, work Thu Feb 11). Being priced: change the old Ethiopian ticket or buy a new one-way.",
+    "order": 8
+  },
+  {
+    "id": "flights-asia",
+    "title": "Book flights between countries",
+    "status": "doing",
+    "note": "All five are bought (Nov 14):\nSat Jan 2 · Chongqing → Chiang Mai · West Air PN6595 · 15:25 UTC+8 → 17:15 UTC+7\nSun Jan 10 · Bangkok → Singapore · Singapore Airlines SQ 707 · 12:00 UTC+7 → 15:35 UTC+8\nMon Jan 11 · Singapore → Seoul · Jeju Air 7C2624 · 01:10 UTC+8 → 08:40 UTC+9\nWed Jan 20 · Seoul → Tokyo Haneda · Peach MM808 · 22:50 UTC+9 → 00:55 UTC+9 (+1)\nFri Feb 5 · Osaka KIX → Hong Kong · Greater Bay Airlines HB353 · 13:30 UTC+9 → 17:15 UTC+8\nStill open: the Peach flight was the wrong one. Refund asked from the agency on Nov 14, answer expected by email; if refused, keep it.",
+    "order": 9
+  },
+  {
+    "id": "esim",
+    "title": "Buy SIM / eSIM",
+    "status": "todo",
+    "note": "Granza recommended Holafly. Get a plan that covers China, Thailand, Singapore, Korea, Japan and Hong Kong, or one per country.",
+    "order": 10
+  },
+  {
+    "id": "k-eta",
+    "title": "Get Korea permission (K-ETA)",
+    "status": "todo",
+    "note": "Status (Nov 9): K-ETA account created, passport loaded. The Seoul dates are now fixed (land Mon Jan 11, leave Wed Jan 20); it still needs a Seoul address. Finish by about Dec 1.\nNeeded. Brazil is not one of the 22 countries exempt from the K-ETA (that exemption runs to Dec 31, 2026 and has never included Brazil).\nDeadline: it must be approved before you board SIN → ICN (red-eye, 01:10 UTC+8 on Mon Jan 11). It usually takes up to 72h. Apply before leaving Brazil (by about Dec 1), because Gmail doesn't work in China without a VPN or roaming.\nCost KRW 10,000 + ~3% card fee (≈ US$7–8). Valid 3 years, multiple entries, up to 90 days per stay.\nNeeded: passport, face photo, email, card, and a Korean address (book a free-cancellation Seoul hostel and use that one). Update the address and dates on the site if they change.\nWith a K-ETA you don't need the e-Arrival card.\nApply ONLY at https://www.k-eta.go.kr or the official K-ETA app. Sites charging more are agents.",
+    "order": 11
+  },
+  {
+    "id": "luggage",
+    "title": "Decide on luggage",
+    "status": "done",
+    "note": "Decided: one 40 L bag plus a daily backpack (Nov 14). Nothing to buy. Check the cabin weight limit on each flight (see Bag).",
+    "order": 12
+  },
+  {
+    "id": "stays",
+    "title": "Book first month of stays",
+    "status": "todo",
+    "note": "São Paulo Nov 29 – Dec 4: booked (Airbnb, Gustavo).\nChina from Dec 6: still to book. Shanghai Dec 6–9 first; Chongqing Dec 26 – Jan 2 needs a place fit for work nights and New Year’s Eve.",
+    "order": 13
+  },
+  {
+    "id": "vacation",
+    "title": "Get vacation",
+    "status": "doing",
+    "note": "Asked for 14 days (Dec 7 to 24), waiting for confirmation.\n13 more days for Jan 20 – Feb 5 (only weekdays count).",
+    "order": 14
+  },
+  {
+    "id": "entry-rules",
+    "title": "Check entry rules for each country",
+    "suggested": true,
+    "status": "todo",
+    "note": "China: visa-free 30 days per entry; the current policy runs to Dec 31, 2026.\nThailand: fill in the TDAC arrival card online before landing.\nSingapore: visa-free for Brazilians (up to 30 days). Fill in the SG Arrival Card on the official ICA site (free) within 3 days before landing on Jan 10.\nKorea: K-ETA (see above).\nJapan: check the visa waiver for Brazilians is still in force.\nHong Kong: visa-free for Brazilians.",
+    "order": 15
+  },
+  {
+    "id": "alipay",
+    "title": "Set up Alipay / WeChat Pay",
+    "suggested": true,
+    "status": "todo",
+    "note": "Link a foreign card before leaving. Most of China pays by QR code.",
+    "order": 16
+  },
+  {
+    "id": "apps",
+    "title": "Install maps, translator and VPN apps",
+    "suggested": true,
+    "status": "todo",
+    "note": "Amap or Apple Maps for China, a translator with offline Chinese, and a VPN set up before you land (Google, WhatsApp and Instagram are blocked in China).",
+    "order": 17
+  }
+]

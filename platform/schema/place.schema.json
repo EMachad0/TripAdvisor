@@ -1,0 +1,1832 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Place",
+  "type": "object",
+  "properties": {
+    "fixture": {
+      "type": "boolean",
+      "description": "Test fixtures only. Never set in real places.",
+      "examples": [
+        true
+      ]
+    },
+    "id": {
+      "type": "string",
+      "description": "Unique id; must equal the folder name.",
+      "examples": [
+        "yu-garden"
+      ],
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "examples": [
+        "Yu Garden"
+      ],
+      "maxLength": 80
+    },
+    "short_name": {
+      "type": "string",
+      "description": "Short form used in headings (\"Finding …\") and small cards when `name` is long.",
+      "examples": [
+        "Shanghai Museum"
+      ],
+      "maxLength": 32
+    },
+    "name_local": {
+      "type": "string",
+      "description": "Name in local script (Chinese, Hangul, Japanese, Thai).",
+      "examples": [
+        "豫园"
+      ],
+      "maxLength": 60
+    },
+    "name_romanized": {
+      "type": "string",
+      "examples": [
+        "Yùyuán"
+      ],
+      "maxLength": 80
+    },
+    "country": {
+      "enum": [
+        "china",
+        "korea",
+        "japan",
+        "hong-kong",
+        "thailand",
+        "singapore"
+      ],
+      "examples": [
+        "china"
+      ]
+    },
+    "city": {
+      "type": "string",
+      "description": "City slug; must equal the parent folder name.",
+      "examples": [
+        "shanghai"
+      ],
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "area": {
+      "type": "string",
+      "description": "Neighbourhood / district.",
+      "examples": [
+        "Huangpu · Old City"
+      ],
+      "maxLength": 80
+    },
+    "category": {
+      "enum": [
+        "culture",
+        "food",
+        "nightlife",
+        "nature",
+        "odd-local",
+        "views",
+        "shopping",
+        "shows",
+        "day-trip",
+        "stay"
+      ],
+      "description": "Main balance category (one). `stay` (with kind Stay) is a place to sleep, not an attraction.",
+      "examples": [
+        "culture"
+      ]
+    },
+    "fame": {
+      "enum": [
+        "iconic",
+        "popular",
+        "hidden"
+      ],
+      "description": "How well known it is. iconic = on every top-10 list, the traveler has surely heard of it; popular = well known to anyone who researched the city; hidden = most foreign visitors never hear of it. Shown as a chip (Icon / Hidden gem); the traveler wants discovery, so be honest.",
+      "examples": [
+        "hidden"
+      ]
+    },
+    "must_do": {
+      "type": "string",
+      "description": "Claims an item of the traveler's must-do list: a `key` from config/taste.yaml (see `./atr taste`). Shows the \"On your list\" chip.",
+      "examples": [
+        "great-wall"
+      ],
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "must_do_note": {
+      "type": "string",
+      "description": "One line shown next to \"On your list\" when the page is not exactly what the traveler named (and in `./atr taste`).",
+      "examples": [
+        "The viral Chongqing branch closed in 2024; this is the closest open one."
+      ],
+      "maxLength": 140
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "examples": [
+          "garden"
+        ],
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "description": "Finer labels, lowercase slugs.",
+      "examples": [
+        [
+          "garden",
+          "ming-dynasty"
+        ]
+      ],
+      "maxItems": 10
+    },
+    "kind": {
+      "enum": [
+        "See",
+        "Eat",
+        "Do",
+        "Shop",
+        "Stay"
+      ],
+      "description": "Trip page kind.",
+      "examples": [
+        "See"
+      ]
+    },
+    "why": {
+      "type": "string",
+      "description": "Swipe-card pitch: why the traveler should care, in one sentence.",
+      "examples": [
+        "A 450-year-old classical garden that is calm and nearly empty on winter mornings."
+      ],
+      "minLength": 20,
+      "maxLength": 160
+    },
+    "cover": {
+      "type": "string",
+      "description": "Image for swipe cards (media name). Defaults to the hero image.",
+      "examples": [
+        "main-hall-at-dusk"
+      ],
+      "maxLength": 80
+    },
+    "cost": {
+      "type": "object",
+      "description": "Typical per-person spend for one visit (ticket + must-have extras).",
+      "properties": {
+        "local": {
+          "type": "number",
+          "description": "Typical spend for one visit in local currency (0 = free). Stay places: ONE NIGHT in the cheapest bed.",
+          "examples": [
+            40
+          ],
+          "minimum": 0
+        },
+        "currency": {
+          "enum": [
+            "CNY",
+            "KRW",
+            "JPY",
+            "HKD",
+            "THB",
+            "USD",
+            "BRL"
+          ],
+          "examples": [
+            "CNY"
+          ]
+        },
+        "brl": {
+          "type": "number",
+          "description": "Same amount in R$ = local × fx.rate (rounded).",
+          "examples": [
+            30.4
+          ],
+          "minimum": 0
+        },
+        "note": {
+          "type": "string",
+          "examples": [
+            "Ticket ¥40 in peak season, ¥30 Dec–Mar"
+          ],
+          "maxLength": 140
+        }
+      },
+      "required": [
+        "local",
+        "currency",
+        "brl"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "fx": {
+      "type": "object",
+      "description": "Exchange rate used for every R$ amount on this page.",
+      "properties": {
+        "rate": {
+          "type": "number",
+          "description": "1 unit of local currency = rate × BRL. Get it with `./atr fx CNY`.",
+          "examples": [
+            0.76
+          ],
+          "minimum": 0
+        },
+        "date": {
+          "type": "string",
+          "examples": [
+            "2026-11-09"
+          ],
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "source": {
+          "type": "string",
+          "examples": [
+            "frankfurter.dev (ECB)"
+          ],
+          "maxLength": 80
+        }
+      },
+      "required": [
+        "rate",
+        "date",
+        "source"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "counts_against_budget": {
+      "type": "boolean",
+      "description": "Does this cost come out of the \"everything else\" daily budget? Default: false for food places (category food or kind Eat — meals are budgeted separately) and for stays (beds are budgeted separately), true otherwise.",
+      "examples": [
+        false
+      ]
+    },
+    "time_needed": {
+      "type": "string",
+      "examples": [
+        "2–3 h"
+      ],
+      "maxLength": 40
+    },
+    "best_time": {
+      "type": "string",
+      "examples": [
+        "Weekday, right at opening"
+      ],
+      "maxLength": 60
+    },
+    "when": {
+      "type": "object",
+      "description": "Only for date-bound places (events, festivals, seasonal openings): when it happens. Checked against the trip dates in config/trip.yaml.",
+      "examples": [
+        {
+          "dates": [
+            {
+              "from": "2026-12-31",
+              "to": "2026-12-31"
+            }
+          ],
+          "confirmed": false
+        }
+      ],
+      "properties": {
+        "dates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "from": {
+                "type": "string",
+                "description": "First day (ISO date).",
+                "examples": [
+                  "2026-12-31"
+                ],
+                "format": "date",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "to": {
+                "type": "string",
+                "description": "Last day; equal to `from` for a one-day event. Leave it out only when the end date is not announced yet (an opening date with no closing date): the page then says \"From 18 Dec\" and treats it as open from then on.",
+                "examples": [
+                  "2026-12-31"
+                ],
+                "format": "date",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              }
+            },
+            "required": [
+              "from"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          },
+          "description": "Date ranges with the real year of the trip (Dec 2026 – Jan 2027).",
+          "minItems": 1,
+          "maxItems": 6
+        },
+        "kind": {
+          "enum": [
+            "only",
+            "season",
+            "best"
+          ],
+          "description": "only (default) = it happens only on these dates (\"31 Dec only\") · season = open during this period (\"From 20 Dec to 28 Feb\") · best = the place is there all the time, the page is about these dates (\"Best on 24–25 Dec\").",
+          "examples": [
+            "only"
+          ]
+        },
+        "weekly": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "mon",
+              "tue",
+              "wed",
+              "thu",
+              "fri",
+              "sat",
+              "sun"
+            ],
+            "examples": [
+              "sat"
+            ]
+          },
+          "description": "Only these weekdays inside the ranges (e.g. a show every Saturday): one range for the whole period instead of one per date.",
+          "examples": [
+            [
+              "sat"
+            ]
+          ],
+          "minItems": 1,
+          "maxItems": 7
+        },
+        "label": {
+          "type": "string",
+          "description": "Chip text. Default is derived from the dates and the kind: \"31 Dec only\", \"17 Dec – 21 Feb\", \"Saturdays, 6 Dec – 2 Jan\", \"Best on 24–25 Dec\".",
+          "examples": [
+            "New Year's Eve only"
+          ],
+          "maxLength": 40
+        },
+        "confirmed": {
+          "type": "boolean",
+          "description": "false = dates expected from past years, not announced yet.",
+          "examples": [
+            false
+          ]
+        }
+      },
+      "required": [
+        "dates"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "book_ahead": {
+      "type": "object",
+      "properties": {
+        "required": {
+          "enum": [
+            true,
+            false,
+            "recommended"
+          ],
+          "description": "true = must book (likely turned away without); \"recommended\" = walk-in usually possible but booking is safer (sources disagree, sell-outs on peak days); false = no booking.",
+          "examples": [
+            true
+          ]
+        },
+        "lead_days": {
+          "type": "integer",
+          "description": "Book at least this many days before the visit. Required when required is true or \"recommended\" (unless `deadline` is set).",
+          "examples": [
+            7
+          ],
+          "minimum": 0,
+          "maximum": 365
+        },
+        "lead_time": {
+          "type": "string",
+          "description": "Human version of the lead time.",
+          "examples": [
+            "Slots open 7 days ahead at 00:00"
+          ],
+          "maxLength": 80
+        },
+        "method": {
+          "enum": [
+            "passport-registered",
+            "app",
+            "website",
+            "platform",
+            "tour",
+            "phone",
+            "walk-in"
+          ],
+          "description": "How to book. `platform` = a booking site such as Hostelworld, Booking.com or Klook (labelled with its name, not \"Official website\"); `phone` = by phone (a `tel:` link becomes a call button).",
+          "examples": [
+            "passport-registered"
+          ]
+        },
+        "deadline": {
+          "type": "string",
+          "description": "A fixed \"book by\" date (a lottery that closes, an advance price that ends), when that matters more than `lead_days`. The hero and the booking panel then say \"Book by 30 Nov\" instead of \"Book N days ahead\".",
+          "examples": [
+            "2026-11-30"
+          ],
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "link": {
+          "type": "string",
+          "description": "Main booking page. Use `links` for several channels.",
+          "examples": [
+            "https://www.example.gov.cn/tickets"
+          ],
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "examples": [
+                  "Trip.com (foreigner-friendly)"
+                ],
+                "maxLength": 40
+              },
+              "url": {
+                "type": "string",
+                "description": "The booking page; with method phone, a tel: link (tel:+6622465472) renders as a call button.",
+                "examples": [
+                  "https://www.trip.com/things-to-do/detail/12345/"
+                ],
+                "format": "uri",
+                "pattern": "^(https?://|tel:)"
+              },
+              "note": {
+                "type": "string",
+                "examples": [
+                  "Email sign-up, no Chinese phone number needed"
+                ],
+                "maxLength": 100
+              }
+            },
+            "required": [
+              "label",
+              "url"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          },
+          "description": "Booking channels, best one first (e.g. a foreigner-friendly reseller plus the official channel).",
+          "minItems": 1,
+          "maxItems": 4
+        },
+        "rules_changed": {
+          "type": "object",
+          "description": "Recently changed booking rules — shown as a badge so the traveler double-checks.",
+          "properties": {
+            "date": {
+              "type": "string",
+              "description": "When the booking rules changed.",
+              "examples": [
+                "2025-09-01"
+              ],
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "note": {
+              "type": "string",
+              "examples": [
+                "General reservations dropped; only special exhibitions need a timed ticket."
+              ],
+              "maxLength": 200,
+              "x-markdown": true
+            }
+          },
+          "required": [
+            "date",
+            "note"
+          ],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "passport": {
+          "type": "boolean",
+          "description": "Needs passport number at booking / entry.",
+          "examples": [
+            true
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "examples": [
+            "Book in the official WeChat mini-program; Trip.com resells at +¥10."
+          ],
+          "maxLength": 300,
+          "x-markdown": true
+        }
+      },
+      "required": [
+        "required"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "hours": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "string",
+          "examples": [
+            "Tue–Sun 09:00–16:30 (last entry 16:00)"
+          ],
+          "maxLength": 140
+        },
+        "closed": {
+          "type": "string",
+          "examples": [
+            "Mondays"
+          ],
+          "maxLength": 80
+        },
+        "winter": {
+          "type": "string",
+          "description": "Dec–Jan specifics: winter hours, Christmas/New Year closures, festivals.",
+          "examples": [
+            "Winter hours from Nov 1. Open on Jan 1. Lantern festival setup from mid-January."
+          ],
+          "maxLength": 400,
+          "x-markdown": true
+        }
+      },
+      "required": [
+        "summary"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": "string",
+          "examples": [
+            "218 Anren St, Huangpu, Shanghai"
+          ],
+          "maxLength": 160
+        },
+        "address_local": {
+          "type": "string",
+          "description": "Address in local script — shown big for taxi drivers.",
+          "examples": [
+            "上海市黄浦区安仁街218号"
+          ],
+          "maxLength": 120
+        },
+        "lat": {
+          "type": "number",
+          "examples": [
+            31.2272
+          ],
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lng": {
+          "type": "number",
+          "examples": [
+            121.4921
+          ],
+          "minimum": -180,
+          "maximum": 180
+        },
+        "nearest_transit": {
+          "type": "string",
+          "examples": [
+            "Yuyuan Garden (Line 10), Exit 1"
+          ],
+          "maxLength": 80
+        },
+        "approximate": {
+          "type": "boolean",
+          "description": "true when the pin is only near the place (the building is not on OpenStreetMap, you pinned the block or the mall). The map says \"approximate location\".",
+          "examples": [
+            true
+          ]
+        }
+      },
+      "required": [
+        "address",
+        "lat",
+        "lng"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "description": "Where a fact came from.",
+        "properties": {
+          "url": {
+            "type": "string",
+            "examples": [
+              "https://www.example.gov.cn/visit"
+            ],
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "title": {
+            "type": "string",
+            "examples": [
+              "Official visitor information"
+            ],
+            "maxLength": 140
+          },
+          "checked": {
+            "type": "string",
+            "description": "The day you opened the page and confirmed the facts you used.",
+            "examples": [
+              "2026-11-09"
+            ],
+            "format": "date",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        "required": [
+          "url",
+          "title",
+          "checked"
+        ],
+        "patternProperties": {
+          "^x_": {}
+        },
+        "additionalProperties": false
+      },
+      "description": "At least 2 real sources you actually read.",
+      "minItems": 2
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "description": "How sure you are about prices/hours/booking. Be honest.",
+      "examples": [
+        "high"
+      ]
+    },
+    "confidence_note": {
+      "type": "string",
+      "examples": [
+        "Winter price not on the official site; from two recent reviews."
+      ],
+      "maxLength": 400
+    },
+    "last_updated": {
+      "type": "string",
+      "examples": [
+        "2026-11-09"
+      ],
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "description": "A page block. `type` selects the block; run `./atr blocks` for every shape.",
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "hero"
+              },
+              "image": {
+                "type": "string",
+                "description": "Landscape photo ≥ 1600 px wide. Omit for a typographic (no-photo) hero.",
+                "examples": [
+                  "main-hall-at-dusk"
+                ],
+                "maxLength": 80
+              },
+              "caption": {
+                "type": "string",
+                "description": "Shown small on the hero. Use it to be honest when the photo is not the venue itself.",
+                "examples": [
+                  "The street outside — no free photo of the bar exists"
+                ],
+                "maxLength": 100
+              },
+              "hook": {
+                "type": "string",
+                "description": "One evocative line under the title. Not a repeat of `why`.",
+                "examples": [
+                  "A Ming-era maze of rockeries and koi ponds, hidden behind a tourist bazaar."
+                ],
+                "maxLength": 120
+              },
+              "focus": {
+                "type": "string",
+                "description": "Which part of the photo must stay visible when cropped: a keyword, or the focal point \"x% y%\" (e.g. \"20% 60%\" = 20% from the left, 60% from the top). On a phone the hero is taller than wide, so a landscape photo already fills its height: only the x value moves it, y has no effect, and the title covers the lower half. A subject low in a wide photo stays under the text; pick a photo with the subject in its upper half.",
+                "examples": [
+                  "center"
+                ],
+                "pattern": "^(center|top|bottom|left|right|(100|\\d{1,2})(\\.\\d+)?% (100|\\d{1,2})(\\.\\d+)?%)$",
+                "maxLength": 16
+              },
+              "credit_inline": {
+                "type": "boolean",
+                "description": "Show the photo credit on the hero itself (it is always in the sources footer).",
+                "examples": [
+                  false
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "hook"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "hero"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "quick_facts"
+              },
+              "time_needed": {
+                "type": "string",
+                "description": "How long a visit takes. Required except on stay places.",
+                "examples": [
+                  "2–3 h"
+                ],
+                "maxLength": 40
+              },
+              "best_time": {
+                "type": "string",
+                "description": "Best time of day / week. Required except on stay places.",
+                "examples": [
+                  "Weekday, right at opening"
+                ],
+                "maxLength": 60
+              },
+              "nearest_transit": {
+                "type": "string",
+                "description": "Nearest metro/bus stop and exit. Defaults to location.nearest_transit.",
+                "examples": [
+                  "Line 10, Exit 1 (5 min walk)"
+                ],
+                "maxLength": 80
+              },
+              "extra": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "examples": [
+                        "Dress code"
+                      ],
+                      "maxLength": 24
+                    },
+                    "value": {
+                      "type": "string",
+                      "description": "Keep it short (≤ 28 chars reads best); put the rest in `detail`.",
+                      "examples": [
+                        "None"
+                      ],
+                      "maxLength": 60
+                    },
+                    "detail": {
+                      "type": "string",
+                      "description": "Smaller second line under the value.",
+                      "examples": [
+                        "Shorts are fine"
+                      ],
+                      "maxLength": 80
+                    }
+                  },
+                  "required": [
+                    "label",
+                    "value"
+                  ],
+                  "patternProperties": {
+                    "^x_": {}
+                  },
+                  "additionalProperties": false
+                },
+                "description": "Up to 3 extra facts. Do not repeat the automatic ones: Cost, Time needed, Best time, Book ahead/Booking, Getting there, Hours.",
+                "maxItems": 3
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "quick_facts"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "highlights"
+              },
+              "title": {
+                "type": "string",
+                "examples": [
+                  "Why you'll love it"
+                ],
+                "maxLength": 60
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string",
+                      "examples": [
+                        "Rockery mountains"
+                      ],
+                      "maxLength": 60
+                    },
+                    "text": {
+                      "type": "string",
+                      "examples": [
+                        "Piles of porous **Taihu stone** stacked into mini mountains you can climb through."
+                      ],
+                      "maxLength": 280,
+                      "x-markdown": true
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "text"
+                  ],
+                  "patternProperties": {
+                    "^x_": {}
+                  },
+                  "additionalProperties": false
+                },
+                "minItems": 2,
+                "maxItems": 6
+              }
+            },
+            "required": [
+              "type",
+              "items"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "highlights"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "prose"
+              },
+              "title": {
+                "type": "string",
+                "examples": [
+                  "The story"
+                ],
+                "maxLength": 80
+              },
+              "text": {
+                "type": "string",
+                "examples": [
+                  "Built in the 1500s by a retired official for his parents...\n\nToday the garden is ringed by a bazaar."
+                ],
+                "maxLength": 3000,
+                "x-markdown": true
+              },
+              "dropcap": {
+                "type": "boolean",
+                "description": "Magazine-style large first letter.",
+                "examples": [
+                  true
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "text"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "prose"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "gallery"
+              },
+              "title": {
+                "type": "string",
+                "examples": [
+                  "In pictures"
+                ],
+                "maxLength": 60
+              },
+              "feature": {
+                "type": "boolean",
+                "description": "Show the first photo wide when the count is odd (default true).",
+                "examples": [
+                  true
+                ]
+              },
+              "images": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "file": {
+                      "type": "string",
+                      "description": "Image name in this place's media/credits.yaml (the `file` key, no extension). Fetch with `./atr media fetch`.",
+                      "examples": [
+                        "main-hall-at-dusk"
+                      ],
+                      "maxLength": 80
+                    },
+                    "caption": {
+                      "type": "string",
+                      "examples": [
+                        "The zig-zag bridge at opening time"
+                      ],
+                      "maxLength": 140
+                    },
+                    "focus": {
+                      "type": "string",
+                      "description": "What must stay visible when cropped: a keyword or a focal point \"x% y%\".",
+                      "examples": [
+                        "top"
+                      ],
+                      "pattern": "^(center|top|bottom|left|right|(100|\\d{1,2})(\\.\\d+)?% (100|\\d{1,2})(\\.\\d+)?%)$",
+                      "maxLength": 16
+                    }
+                  },
+                  "required": [
+                    "file"
+                  ],
+                  "patternProperties": {
+                    "^x_": {}
+                  },
+                  "additionalProperties": false
+                },
+                "minItems": 1,
+                "maxItems": 8
+              }
+            },
+            "required": [
+              "type",
+              "images"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "gallery"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "book_ahead"
+              },
+              "steps": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "days_before": {
+                      "type": "integer",
+                      "description": "Days before the visit (0 = visit day).",
+                      "examples": [
+                        7
+                      ],
+                      "minimum": 0,
+                      "maximum": 365
+                    },
+                    "text": {
+                      "type": "string",
+                      "examples": [
+                        "Tickets open on the official WeChat mini-program. Book with your **passport number**."
+                      ],
+                      "maxLength": 240,
+                      "x-markdown": true
+                    }
+                  },
+                  "required": [
+                    "days_before",
+                    "text"
+                  ],
+                  "patternProperties": {
+                    "^x_": {}
+                  },
+                  "additionalProperties": false
+                },
+                "minItems": 1,
+                "maxItems": 6
+              },
+              "passport_note": {
+                "type": "string",
+                "description": "Passport/real-name details, e.g. \"bring the same passport you booked with\".",
+                "examples": [
+                  "Bring the **same passport** you booked with — it is scanned at the gate."
+                ],
+                "maxLength": 300,
+                "x-markdown": true
+              }
+            },
+            "required": [
+              "type",
+              "steps"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "book_ahead"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "cost_breakdown"
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "examples": [
+                        "Entry ticket"
+                      ],
+                      "maxLength": 60
+                    },
+                    "local": {
+                      "type": "number",
+                      "description": "Amount in local currency.",
+                      "examples": [
+                        60
+                      ],
+                      "minimum": 0
+                    },
+                    "brl": {
+                      "type": "number",
+                      "description": "Same amount in R$ (local × fx.rate).",
+                      "examples": [
+                        60
+                      ],
+                      "minimum": 0
+                    },
+                    "note": {
+                      "type": "string",
+                      "examples": [
+                        "Winter price"
+                      ],
+                      "maxLength": 100
+                    },
+                    "optional": {
+                      "type": "boolean",
+                      "description": "Optional extra (excluded from the total).",
+                      "examples": [
+                        false
+                      ]
+                    },
+                    "estimate": {
+                      "type": "boolean",
+                      "description": "A rough figure (a typical fare, a snack): shown with \"≈\" before both amounts.",
+                      "examples": [
+                        true
+                      ]
+                    }
+                  },
+                  "required": [
+                    "label",
+                    "local",
+                    "brl"
+                  ],
+                  "patternProperties": {
+                    "^x_": {}
+                  },
+                  "additionalProperties": false
+                },
+                "minItems": 1,
+                "maxItems": 10
+              },
+              "note": {
+                "type": "string",
+                "examples": [
+                  "Students with an ISIC card get half price."
+                ],
+                "maxLength": 300,
+                "x-markdown": true
+              }
+            },
+            "required": [
+              "type",
+              "items"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "cost_breakdown"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "map"
+              },
+              "zoom": {
+                "type": "integer",
+                "examples": [
+                  16
+                ],
+                "minimum": 10,
+                "maximum": 19
+              },
+              "note": {
+                "type": "string",
+                "description": "Getting-there advice.",
+                "examples": [
+                  "Enter by the **north gate**; the south side is a souvenir maze."
+                ],
+                "maxLength": 300,
+                "x-markdown": true
+              },
+              "embed": {
+                "type": "boolean",
+                "description": "Show the static map image (default true).",
+                "examples": [
+                  true
+                ]
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "map"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "tips"
+              },
+              "variant": {
+                "enum": [
+                  "insider",
+                  "locals",
+                  "pitfalls"
+                ],
+                "examples": [
+                  "insider"
+                ]
+              },
+              "title": {
+                "type": "string",
+                "examples": [
+                  "Insider tips"
+                ],
+                "maxLength": 60
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "examples": [
+                    "Arrive at **08:45**; the first hour is tour-group free."
+                  ],
+                  "maxLength": 300,
+                  "x-markdown": true
+                },
+                "minItems": 1,
+                "maxItems": 8
+              }
+            },
+            "required": [
+              "type",
+              "variant",
+              "items"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "tips"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "menu"
+              },
+              "title": {
+                "type": "string",
+                "examples": [
+                  "What to order"
+                ],
+                "maxLength": 60
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "examples": [
+                        "Xiaolongbao"
+                      ],
+                      "maxLength": 60
+                    },
+                    "name_local": {
+                      "type": "string",
+                      "description": "Name in local script, to point at on the menu.",
+                      "examples": [
+                        "小笼包"
+                      ],
+                      "maxLength": 40
+                    },
+                    "price_local": {
+                      "type": "number",
+                      "description": "Price in local currency.",
+                      "examples": [
+                        60
+                      ],
+                      "minimum": 0
+                    },
+                    "price_brl": {
+                      "type": "number",
+                      "description": "Price in R$.",
+                      "examples": [
+                        60
+                      ],
+                      "minimum": 0
+                    },
+                    "note": {
+                      "type": "string",
+                      "examples": [
+                        "Soup dumplings; bite a hole, sip, then eat."
+                      ],
+                      "maxLength": 140
+                    },
+                    "tag": {
+                      "enum": [
+                        "must-try",
+                        "veg",
+                        "spicy",
+                        "signature",
+                        "cheap",
+                        "drink"
+                      ],
+                      "examples": [
+                        "must-try"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name"
+                  ],
+                  "patternProperties": {
+                    "^x_": {}
+                  },
+                  "additionalProperties": false
+                },
+                "minItems": 1,
+                "maxItems": 14
+              },
+              "note": {
+                "type": "string",
+                "examples": [
+                  "Picture menu available; cash or Alipay."
+                ],
+                "maxLength": 300,
+                "x-markdown": true
+              }
+            },
+            "required": [
+              "type",
+              "items"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "menu"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "stay"
+              },
+              "style": {
+                "enum": [
+                  "hostel",
+                  "capsule",
+                  "guesthouse",
+                  "hotel"
+                ],
+                "description": "hostel | capsule (capsule/pod hotel) | guesthouse | hotel.",
+                "examples": [
+                  "hostel"
+                ]
+              },
+              "beds": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "examples": [
+                        "8-bed mixed dorm"
+                      ],
+                      "maxLength": 60
+                    },
+                    "local": {
+                      "type": "number",
+                      "description": "Price for ONE night in local currency.",
+                      "examples": [
+                        60
+                      ],
+                      "minimum": 0
+                    },
+                    "brl": {
+                      "type": "number",
+                      "description": "Same price in R$ (local × fx.rate).",
+                      "examples": [
+                        60
+                      ],
+                      "minimum": 0
+                    },
+                    "note": {
+                      "type": "string",
+                      "description": "When the price is from, what is included.",
+                      "examples": [
+                        "Weeknight in January"
+                      ],
+                      "maxLength": 100
+                    },
+                    "url": {
+                      "type": "string",
+                      "description": "The date-search URL that shows this price (dates in the query string), so a reviewer can reproduce it.",
+                      "examples": [
+                        "https://www.hostelworld.com/pwa/hosteldetails.php/Example/Shanghai/12345?from=2026-12-08&to=2026-12-09&guests=1"
+                      ],
+                      "format": "uri",
+                      "pattern": "^https?://"
+                    }
+                  },
+                  "required": [
+                    "label",
+                    "local",
+                    "brl"
+                  ],
+                  "patternProperties": {
+                    "^x_": {}
+                  },
+                  "additionalProperties": false
+                },
+                "description": "Bed/room types, cheapest first.",
+                "minItems": 1,
+                "maxItems": 6
+              },
+              "rating": {
+                "type": "object",
+                "description": "Review score with its source and the date you checked it.",
+                "properties": {
+                  "score": {
+                    "type": "number",
+                    "examples": [
+                      9.1
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "out_of": {
+                    "type": "number",
+                    "examples": [
+                      10
+                    ],
+                    "minimum": 1,
+                    "maximum": 100
+                  },
+                  "source": {
+                    "type": "string",
+                    "description": "Where the score is from.",
+                    "examples": [
+                      "Hostelworld"
+                    ],
+                    "maxLength": 40
+                  },
+                  "reviews": {
+                    "type": "integer",
+                    "description": "Number of reviews behind the score.",
+                    "examples": [
+                      2300
+                    ],
+                    "minimum": 0
+                  },
+                  "atmosphere": {
+                    "type": "number",
+                    "description": "Atmosphere / social sub-score out of 10 from the same source (e.g. Hostelworld \"Atmosphere\"). The traveler picks hostels to meet people.",
+                    "examples": [
+                      9.4
+                    ],
+                    "minimum": 0,
+                    "maximum": 10
+                  },
+                  "checked": {
+                    "type": "string",
+                    "description": "The day you read the score.",
+                    "examples": [
+                      "2026-11-10"
+                    ],
+                    "format": "date",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  }
+                },
+                "required": [
+                  "score",
+                  "out_of",
+                  "source",
+                  "checked"
+                ],
+                "patternProperties": {
+                  "^x_": {}
+                },
+                "additionalProperties": false
+              },
+              "social": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "examples": [
+                    "Rooftop bar until 02:00"
+                  ],
+                  "maxLength": 160,
+                  "x-markdown": true
+                },
+                "description": "What makes it easy to meet people: bar, common room, events, pub crawls, family dinners.",
+                "maxItems": 8
+              },
+              "good_to_know": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "examples": [
+                    "Check-in from 14:00"
+                  ],
+                  "maxLength": 160,
+                  "x-markdown": true
+                },
+                "description": "Practical notes: check-in, lockers, curfew, noise, deposit.",
+                "maxItems": 8
+              }
+            },
+            "required": [
+              "type",
+              "style",
+              "beds"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "stay"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "faq"
+              },
+              "title": {
+                "type": "string",
+                "examples": [
+                  "You asked"
+                ],
+                "maxLength": 60
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "q": {
+                      "type": "string",
+                      "description": "The traveler's question, shortened if needed.",
+                      "examples": [
+                        "Do I need to book with my passport?"
+                      ],
+                      "maxLength": 200
+                    },
+                    "a": {
+                      "type": "string",
+                      "description": "The answer, concrete and sourced.",
+                      "examples": [
+                        "No. In winter you can **walk in**; bring the passport anyway, it is scanned at the gate."
+                      ],
+                      "maxLength": 600,
+                      "x-markdown": true
+                    },
+                    "asked": {
+                      "type": "string",
+                      "description": "The DATE the question was asked (YYYY-MM-DD, from `./atr feedback --new`), shown as \"asked 21 Nov\". Not the question text: that goes in `q`.",
+                      "examples": [
+                        "2026-11-21"
+                      ],
+                      "format": "date",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "correction": {
+                      "type": "boolean",
+                      "description": "true when this answer differs from what the game's Ask box told the traveler (see the \"game answered\" line in `./atr feedback --new`). Shows a small \"Correction\" tag.",
+                      "examples": [
+                        true
+                      ]
+                    }
+                  },
+                  "required": [
+                    "q",
+                    "a"
+                  ],
+                  "patternProperties": {
+                    "^x_": {}
+                  },
+                  "additionalProperties": false
+                },
+                "minItems": 1,
+                "maxItems": 8
+              }
+            },
+            "required": [
+              "type",
+              "items"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "faq"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "quote"
+              },
+              "text": {
+                "type": "string",
+                "examples": [
+                  "The best seat in the city is the one by the window at 6 pm."
+                ],
+                "maxLength": 280
+              },
+              "attribution": {
+                "type": "string",
+                "examples": [
+                  "a regular, on Dianping"
+                ],
+                "maxLength": 80
+              },
+              "variant": {
+                "enum": [
+                  "quote",
+                  "vibe"
+                ],
+                "examples": [
+                  "quote"
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "text"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "quote"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "pairs_well"
+              },
+              "title": {
+                "type": "string",
+                "examples": [
+                  "Pairs well with"
+                ],
+                "maxLength": 60
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "description": "The other place's `id`.",
+                      "examples": [
+                        "old-street-teahouse"
+                      ],
+                      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                    },
+                    "note": {
+                      "type": "string",
+                      "examples": [
+                        "10 min walk; go after for dinner."
+                      ],
+                      "maxLength": 120
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "patternProperties": {
+                    "^x_": {}
+                  },
+                  "additionalProperties": false
+                },
+                "minItems": 1,
+                "maxItems": 6
+              }
+            },
+            "required": [
+              "type",
+              "items"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "pairs_well"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "weather"
+              },
+              "temp_low_c": {
+                "type": "number",
+                "examples": [
+                  2
+                ],
+                "minimum": -50,
+                "maximum": 45
+              },
+              "temp_high_c": {
+                "type": "number",
+                "examples": [
+                  9
+                ],
+                "minimum": -50,
+                "maximum": 45
+              },
+              "conditions": {
+                "type": "string",
+                "examples": [
+                  "Damp, grey, occasional drizzle"
+                ],
+                "maxLength": 80
+              },
+              "note": {
+                "type": "string",
+                "examples": [
+                  "Most of the visit is outdoors; pavilions are unheated."
+                ],
+                "maxLength": 400,
+                "x-markdown": true
+              },
+              "wear": {
+                "type": "string",
+                "examples": [
+                  "Warm layers, waterproof shoes"
+                ],
+                "maxLength": 120
+              }
+            },
+            "required": [
+              "type",
+              "temp_low_c",
+              "temp_high_c",
+              "conditions",
+              "note"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "weather"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "sources"
+              },
+              "note": {
+                "type": "string",
+                "examples": [
+                  "Prices checked on the official site; hours confirmed on Dianping."
+                ],
+                "maxLength": 300,
+                "x-markdown": true
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false,
+            "title": "sources"
+          }
+        ]
+      },
+      "description": "The page, top to bottom. Start with hero.",
+      "minItems": 1
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "country",
+    "city",
+    "area",
+    "category",
+    "kind",
+    "why",
+    "cost",
+    "fx",
+    "book_ahead",
+    "hours",
+    "location",
+    "sources",
+    "confidence",
+    "last_updated",
+    "blocks"
+  ],
+  "patternProperties": {
+    "^x_": {}
+  },
+  "additionalProperties": false
+}

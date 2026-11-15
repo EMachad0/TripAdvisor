@@ -1,0 +1,136 @@
+id: the-hyundai-seoul
+name: "The Hyundai Seoul"
+name_local: 더현대 서울
+name_romanized: Deo Hyeondae Seoul
+country: korea
+city: seoul
+area: Yeouido · Yeongdeungpo-gu
+category: shopping
+fame: popular
+tags: [mall, department-store, architecture, indoor-garden, food-hall, free]
+kind: Shop
+why: "A Richard Rogers department store with a 3,300 m² forest under a glass roof and a 12 m indoor waterfall. Free to walk in; cheap lunch in the B1 food hall."
+cost:
+  local: 3100
+  currency: KRW
+  brl: 13.13
+  note: "Walking in is free. This is two subway rides (₩1,550 each); lunch in the B1 food hall is extra"
+fx: { rate: 0.004236, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2.5 h
+best_time: "Tue–Thu, 10:30–12:00, before the crowds"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Thu 10:30–20:00, Fri–Sun 10:30–20:30; restaurants 10:30–22:00"
+  closed: "One Monday a month (2 Nov in Nov 2026)"
+  winter: "The official calendar shows only the current month, so January's closing Monday isn't known yet; a 2026 guide says it's the third Monday, which would be 18 Jan. The same guide says the Christmas decorations in Sounds Forest run late Nov–Dec, so they may be gone by mid-January."
+
+location:
+  address: 108 Yeoui-daero, Yeongdeungpo-gu, Seoul
+  address_local: 서울특별시 영등포구 여의대로 108 더현대 서울
+  lat: 37.52596
+  lng: 126.92842
+  nearest_transit: "Yeouido (Lines 5, 9) Exit 3, 500 m walkway; or Yeouinaru (Line 5) Exit 1"
+
+sources:
+  - url: https://thehyundaiseoul.ehyundai.com/
+    title: "The Hyundai Seoul (official): today's hours, Mon–Thu 10:30–20:00, Fri–Sun 10:30–20:30, restaurants 10:30–22:00, closed 2 Nov"
+    checked: 2026-11-13
+  - url: https://thehyundaiseoul.ehyundai.com/about/the-hyundai-seoul
+    title: "The Hyundai Seoul (official): architecture by Richard Rogers, Sounds Forest 3,300 m² under a 20 m glass ceiling, 12 m Waterfall Garden"
+    checked: 2026-11-13
+  - url: https://thehyundaiseoul.ehyundai.com/about
+    title: "The Hyundai Seoul (official): opened 2021, 2,000+ pyeong of indoor green space in about 80,000 m²"
+    checked: 2026-11-13
+  - url: https://thehyundaiseoul.ehyundai.com/about/location
+    title: "The Hyundai Seoul (official): location (Yeouido Exit 3 via 500 m walkway, Exit 4, Yeouinaru Exit 1)"
+    checked: 2026-11-13
+  - url: https://thehyundaiseoul.ehyundai.com/about/facilities
+    title: "The Hyundai Seoul (official): service facilities (luggage storage at 1F tourist desk, lockers B1/B3/B4, tax refund 6F)"
+    checked: 2026-11-13
+  - url: https://creatrip.com/en/blog/12640
+    title: "The Hyundai Seoul Guide: Is This Yeouido Mall Worth Visiting in 2026? (Creatrip, updated 6 Apr 2026)"
+    checked: 2026-11-13
+  - url: https://www.koreajoongangdaily.com/korea/seoul-subway-prices-rising-to-1550-won-on-june-28/11965075
+    title: "Seoul subway prices rising to 1,550 won on June 28 (Korea JoongAng Daily, 2025)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Hours, architecture, garden and waterfall figures, transit and facilities are from the official site (read 2026-11-13). January's closing Monday isn't published: the site showed 2 Nov (first Monday), while Creatrip says the third Monday. Food-hall prices, the B2 floor and the 6F overlook are from Creatrip only. Maroon columns and dancheong are on the official architecture page."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: yeouido-skyline
+    caption: Yeouido's towers across the Han; no free photo of the store's interior
+    hook: Trees, benches and daylight on the fifth floor of a department store.
+  - type: quick_facts
+    time_needed: 1.5–2.5 h
+    best_time: Tue–Thu at 10:30
+    extra:
+      - label: Fits a work day
+        value: "Yes"
+        detail: Closes 20:00 Mon–Thu, before a 21:00 shift
+      - label: Monthly closure
+        value: One Monday a month
+        detail: Avoid Mondays 11 and 18 Jan until the calendar is out
+  - type: highlights
+    items:
+      - title: Sounds Forest
+        text: "An indoor garden of about **3,300 m²** on the 5th floor, lit by daylight through a **20 m** glass ceiling. It's free to walk through; a 6th-floor ledge looks down on it."
+      - title: Waterfall Garden
+        text: "Step in on the 1st floor and there's a waterfall dropping **12 m** from the 3rd floor down to the 1st."
+      - title: Richard Rogers' building
+        text: "Designed in the spirit of architect **Sir Richard Rogers**, with maroon columns that borrow from traditional Korean buildings and their painted *dancheong*."
+      - title: The basement food hall
+        text: "The B1 food hall works like a food court with self-order kiosks (cards) and a counter that takes cash. A 2026 guide puts most dishes at about ₩8,000–17,000."
+  - type: prose
+    title: Why it's worth the trip
+    dropcap: true
+    text: |-
+      The Hyundai Seoul opened in Yeouido in 2021, and over 6,600 m² (2,000+ *pyeong*) of its roughly 80,000 m² is indoor green space. That's the reason to come: you walk in from the cold and find a waterfall, then ride up to a skylit garden with real trees and benches, five floors above the street.
+
+      The shops matter less. B2 is the floor of young Korean streetwear brands, and it's the busiest one on weekends. If you came for one thing to buy, the food hall downstairs is where your money goes.
+  - type: quote
+    variant: vibe
+    text: The sound of a waterfall, three floors under a glass roof.
+  - type: cost_breakdown
+    items:
+      - label: Walking in, Sounds Forest, Waterfall Garden
+        local: 0
+        brl: 0
+      - label: Subway there and back
+        local: 3100
+        brl: 13.13
+        note: "₩1,550 each way with a transport card"
+      - label: Lunch in the B1 food hall
+        local: 12000
+        brl: 50.83
+        estimate: true
+        optional: true
+        note: Middle of the ₩8,000–17,000 range in a 2026 guide
+  - type: map
+    zoom: 16
+    note: "From **Yeouido** station (Lines 5, 9), Exit 3 leads to a 500 m underground walkway that ends at the B2 entrance. From **Yeouinaru** (Line 5), Exit 1 brings you to the rear entrance."
+  - type: tips
+    variant: insider
+    items:
+      - "Enter on the **1st floor** first for the waterfall, then take the escalators up to the **5th floor** for Sounds Forest."
+      - "Weekday mornings right after the 10:30 opening are the quietest time, according to Creatrip."
+      - "The **1F tourist desk** stores luggage, and tax refunds are on the 6th floor (bring your passport)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Some B2 shops queue you on a tablet that only accepts **Korean phone numbers**. Creatrip's workaround: scan the tablet's QR code and queue in the Hyundai Food Museum app."
+      - "Weekends, B2 in particular, are crowded."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing, usually dry
+    note: "Seoul's January averages are 2.1 °C by day and −5.5 °C at night. From Yeouido station the walkway is underground the whole way, so you can arrive without going outside."
+    wear: Normal winter clothes

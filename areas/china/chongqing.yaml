@@ -1,0 +1,124 @@
+id: chongqing
+country: china
+name: "Chongqing"
+name_local: 重庆
+region: Southwest China · Yangtze
+scope: city
+must_do: cyberpunk-city
+cities: [chongqing]
+why: "China's '8D' mountain city: a monorail through an apartment block, glowing cliffside Hongyadong, river cableways and numbing-spicy hotpot in its home town. Mild for a China winter, and most of the sights are free."
+best_for: [odd-local, food, views, nightlife]
+highlights: ["Liziba monorail station", "Hongyadong at night", "Yangtze River Cableway", "Hotpot", "Ciqikou old town", "Dazu Rock Carvings day trip"]
+days_suggested: { min: 3, max: 5 }
+cost_level: low
+fame: popular
+lat: 29.5637
+lng: 106.5504
+getting_there: "From Chengdu East: 1–2 h by G-train, ¥85–191 in 2nd class, about 143 trains a day into Chongqing North (20–35 min by metro to Jiefangbei). From Shanghai: 10.5–13 h by rail, or a domestic flight."
+getting_around: "Metro and monorail: ¥2–10 a ride, ¥18 for a 24 h pass, about 06:00–22:30. Yuzhong's sights are close together but stacked: expect stairs, lifts and bridges between street levels."
+winter_note: "Mild for a China winter: daily lows about 6–8 °C and highs about 10–12 °C in Dec–Jan, but damp, grey and often foggy, with very little sun. Snow is rare. Christmas lights go up around Jiefangbei, and winter is peak hotpot season. Crowds are light outside New Year's Day. Trip.com advises against Wulong mountain hikes in January because of poor visibility."
+image: hongyadong-night
+sources:
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: Chongqing — Wikipedia (coordinates, climate normals 1991–2020, monorail)
+    checked: 2026-11-10
+  - url: https://www.trip.com/guide/info/best-time-to-visit-chongqing.html
+    title: Best Time to Visit Chongqing — Trip.com (2026-03-30)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Chengdu%E2%80%93Chongqing_intercity_railway
+    title: Chengdu–Chongqing intercity railway — Wikipedia
+    checked: 2026-11-10
+  - url: https://www.trip.com/guide/attraction/hongyadong.html
+    title: "Hongya Cave (Hongyadong): Tickets & Visiting Guide — Trip.com (2026-09-16)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Yangtze_River_Cableway
+    title: Yangtze River Cableway — Wikipedia
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/yangtze-cable-car-chongqing/
+    title: Yangtze cable car guide — China for Travelers (updated 2026-08-16)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Raffles_City_Chongqing
+    title: Raffles City Chongqing — Wikipedia
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Liziba_station
+    title: Liziba station — Wikipedia
+    checked: 2026-11-10
+  - url: https://www.travelofchina.com/top-things-to-do-in-chongqing-cyberpunk-hotpot-guide/
+    title: "Things to Do in Chongqing: Cyberpunk Views & Hotpot Nights — Travel of China (updated 2026-07-01)"
+    checked: 2026-11-10
+  - url: https://www.trip.com/guide/transport/chongqing-metro.html
+    title: Guide to Chongqing Metro — Trip.com (2025-05-13)
+    checked: 2026-11-10
+  - url: https://www.trip.com/guide/stay/where-to-stay-in-chongqing.html
+    title: Where to Stay in Chongqing — Trip.com (2026-04-16)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/chengdu-to-chongqing/
+    title: Chengdu to Chongqing by train — China for Travelers (updated 2026-07-18)
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Chongqing
+    title: Chongqing — Wikivoyage (noodle prices, hotpot styles, bar warning)
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Cableway fare: Wikipedia says ¥20 one way, a 2026 guide ¥30. Raffles City deck price (¥100–180) and the Kuixinglou viewpoint come from one travel guide each; no official page opened. Hotpot and noodle prices are from single guides. No source found for Chongqing's clubs, so nightlife is not described. The four Trip.com guides opened in a web fetch on 2026-11-10 but block automated link checks."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: A city built in layers, where the ground floor of one street is the rooftop of the next.
+    caption: Hongyadong, eleven storeys of stilt houses lit up above the Jialing River
+  - type: highlights
+    title: The cyberpunk city, piece by piece
+    items:
+      - title: Hongyadong after dark
+        text: "Eleven storeys of stilt-house facades climb about **75 m** of cliff above the Jialing. Entry is **free**, and in winter the lights come on around **18:30** and go off at 23:00. The classic full view is from the Qiansimen Bridge walkway."
+      - title: The train through the building
+        text: "At **Liziba**, a Line 2 monorail runs into a 19-storey apartment block and stops on floors 6–8. Watching from the street is free."
+      - title: A cable car as public transport
+        text: "The **Yangtze River Cableway** has crossed 1,166 m of river since 1987 in under four minutes. One way costs **¥20–30** (R$17–25; sources disagree). Winter hours are 08:00–21:00, and the window accepts a passport."
+      - title: Raffles City at the river confluence
+        text: "Eight towers by Moshe Safdie, the tallest **354.5 m**, with a 300 m glass skybridge laid across four of them. The view of it from the riverbank is free. Guides put the deck at about ¥100–180 (R$83–149)."
+      - title: Streets on the 22nd floor
+        text: "The hills stack the city so that a bridge can land on an upper floor. One guide sends you to **Kuixinglou**, an apartment block with a viewpoint on its 22nd floor, for early evening."
+      - title: Hotpot in its home town
+        text: "Winter is hotpot season. A sit-down hotpot at a well-known downtown restaurant runs about **¥80–120** a head (R$66–99), and a bowl of plain **xiaomian** noodles is listed at ¥7 (R$6)."
+  - type: prose
+    title: What a few days here feel like
+    dropcap: true
+    text: |-
+      Chongqing sits on a steep peninsula where the Jialing runs into the Yangtze, and it grew upward and sideways at once. Monorails pass over your head and under your feet. You take a lift to cross a road. Fog softens the neon on most winter evenings, which is a large part of why photos of it look like a film set.
+
+      The days are for walking the levels: Liziba, the cableway, the riverbank below Raffles City. The city is at its best at night, and most of that is free. Hongyadong lights up at dusk, the skyline across both rivers follows, and on Saturdays there is a free drone show over the confluence (it has its own card below).
+
+      **Base yourself in Jiefangbei**, in Yuzhong district. Trip.com's area guide calls it the best overall for first-timers: Hongyadong, Raffles City and the cableway are all within walking distance, and the metro connects to the airport and the main stations. Weekends are crowded and the hotpot streets are loud late. Nan'an, across the Yangtze, is cheaper and quieter but 20–30 minutes away and hilly.
+
+      Chengdu is an hour or two away by train, so the two cities fit into one loop.
+  - type: gallery
+    images:
+      - { file: yuzhong-skyline-night, caption: "The Yuzhong peninsula at night, between its two rivers" }
+      - { file: liziba-train, caption: "Line 2 coming out of the apartment block at Liziba" }
+      - { file: raffles-city, caption: "Raffles City, May 2026, with the skybridge across the towers" }
+      - { file: yangtze-cableway, caption: "A cableway cabin over the Yangtze on a typical hazy day", focus: "40% 55%" }
+      - { file: hotpot, caption: "A Chongqing hotpot with concentric rings" }
+  - type: quote
+    variant: vibe
+    text: Neon in the fog, a train sliding out of a wall, and chilli oil on the air.
+  - type: tips
+    variant: insider
+    items:
+      - "Do the night sights on a **weekday**: Hongyadong is quietest on winter weeknights, and the cableway queue is 10–15 minutes or less on an ordinary weekday against an hour or more on weekend evenings."
+      - "Ride the cableway **one way** and come back by metro. A guide warns that the return leg needs a new queue number at the far station."
+      - "For Hongyadong, take Line 1 or 6 to **Xiaoshizi** and walk 8–12 minutes to the top level, then work down through the building to the river."
+      - "Arriving from Chengdu, pick a train into **Chongqing North**: it is about 8 km and 20–35 minutes by metro from Jiefangbei."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The metro stops at about **22:30**. Plan a taxi after a late night (flag fall ¥8, per Wikivoyage)."
+      - "Metro QR codes in Alipay or WeChat usually need a Chinese phone number. Single tickets from the machines work without one."
+      - "Wikivoyage warns that some bars pressure customers into large extra charges on the way out. Ask for prices before ordering."
+      - "On major holidays Hongyadong may ask for a free timed reservation on its official WeChat account. New Year's Day is the one that falls in this trip."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp, grey and often foggy, almost no sun
+    note: "The mildest big stop on the China route: no ice, and snow is rare. But January gets only about 5% of its possible sunshine and it rains lightly on about 10 days a month, so daytime views are flat and hazy. The night sights lose nothing, and the fog suits them."
+    wear: Mid-weight jacket, a rain layer, shoes with grip for wet stairs

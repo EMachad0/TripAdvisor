@@ -1,0 +1,19 @@
+# Independent review of zhangjiajie-christmas-wulingyuan. Written by `./atr review`; do not edit by hand.
+id: zhangjiajie-christmas-wulingyuan
+type: place
+reviewed: 2026-11-14
+verdict: pass
+content_hash: 4ad82be3dcb48025ce8de6a37aeb46b7b9254d47e3004c68a4aa6515be865d70
+facts:
+  supported: 2
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[8].note
+    problem: The new "Zhangjiajie West is about 30 min by taxi" comes from a source that times the ride to "the city/park", not to Wulingyuan, which is roughly 30 km further from the station. The traveler will time the taxi for the 07:30 train from this number.
+    evidence: The note drops the unsupported 30-min time. It now gives only the fare and says to ask the hostel how early to leave for the 07:30 train, which matches the accepted fix of not stating a time the source cannot support. https://chinafortravelers.com/guides/zhangjiajie-national-park/ — "metered taxi / DiDi (~¥55–80) to Wulingyuan town"
+rereview_of: 1d56888072f32fbaf247d7ac9beca29c888e4c42e52b7ff15d64a059f1d5126e
+summary: Earlier finding 1 is resolved. The map note no longer gives a 30-min ride time. Its ¥55–80 taxi/DiDi fare matches the listed chinafortravelers source's line for Wulingyuan town, and the note tells the traveler to ask the hostel when to leave for the 07:30 train. Nothing new was introduced, and no blockers were found in the unchanged content.
+model: claude-opus-5-5
+cost_usd: 0.26

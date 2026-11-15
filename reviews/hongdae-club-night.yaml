@@ -1,0 +1,34 @@
+# Independent review of hongdae-club-night. Written by `./atr review`; do not edit by hand.
+id: hongdae-club-night
+type: place
+reviewed: 2026-11-12
+verdict: fix
+content_hash: 69d33ec94fb5f7547c4901b5fa6b5bcf339492ec6ac48980130eea24be66173a
+facts:
+  supported: 20
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: should
+    field: best_time
+    problem: The page says to go on a Friday or Saturday, but the traveler works 21:00–06:00 on Fri 15 Jan and spends Sat 16 to Sun 17 Jan in Hwacheon (config/trip.yaml). The page never says which night of the Korea leg this plan actually fits. The other free night is Sun 10 Jan, and Sunday cover and crowd levels differ.
+    evidence: 'config/trip.yaml, korea notes: "Work nights 21:00–06:00 Jan 11–15 and 18–19; free days Jan 10, Jan 16–17 (Hwacheon)"'
+    fix: Name the night that works (for example Sat 16 Jan if the traveler is back from Hwacheon, or Sun 10 Jan with the weekday-cover note) and say what changes on that night.
+  - severity: should
+    field: blocks[3].text
+    problem: The page offers Sabotage as the fallback but leaves out that the page's own Esquire source says Sabotage stops letting foreigners in once they are about 20% of the crowd. For a foreign solo traveler, that decides whether the fallback works.
+    evidence: https://www.esquirekorea.co.kr/article/66925 — "클럽 내 외국인 비중이 20% 정도만 돼도 추가 외국인 입장을 막는다"
+    fix: Add the foreigner cap to the Sabotage fallback, or swap in a fallback club with no reported foreigner rule.
+  - severity: should
+    field: cost
+    problem: Every 2026 cover, drink and closing figure comes from KORLENS, Namane and Creatrip, and all three label their content as AI-drafted or AI-generated. The only first-hand NB2 price is a 2023 Kakao review that also says the club was empty. No source shows NB2 operating or charging in 2026.
+    evidence: https://korlens.app/blog/hongdae-nightlife-guide — "Guides are AI drafts based on public sources"; https://blog.namanecard.com/en/hongdae-late-night-guide-en/ — "written using information collected and analyzed by NAMANE's in-house K-pop research AI engine"
+    fix: Cite a recent first-party post from instagram.com/clubnb_official (2026 event or cover) or a dated 2026 visitor report, or say plainly in the cost note that the figures come from AI-drafted guides.
+  - severity: should
+    field: hours.summary
+    problem: The page says Kakao lists 22:00–06:00, Mon–Fri. The rendered Kakao listing shows only "22:00 오픈" (opens 22:00), with no closing time or weekday list in view. The 06:00 close and the Sabotage "until 08:00" are therefore unsupported.
+    evidence: https://place.map.kakao.com/1600511760 and https://place.map.kakao.com/27417898 (rendered with ./atr render) — "영업 전22:00 오픈" only
+    fix: Write "opens 22:00 (Kakao)" and take closing times from the district guides, or quote the expanded Kakao hours exactly.
+summary: "The address, the Sangsu exit, the 22:00 opening, the 2023 review, Esquire's closure report and all the district ranges (covers, coat check, owl bus ₩2,500, last and first trains, January −5.5/2.1 °C) match their sources, and the page renders cleanly with an honestly captioned hero. Still to fix: tie the Fri/Sat advice to the traveler's actual free nights, add Sabotage's foreigner cap, support NB2's 2026 status and prices with something stronger than AI-drafted guides, and stop citing Kakao for closing times it does not show."
+model: claude-opus-5-5
+cost_usd: 0.778

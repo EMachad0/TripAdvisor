@@ -1,0 +1,25 @@
+# Independent review of area gyeongju. Written by `./atr review`; do not edit by hand.
+id: gyeongju
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 79539880d2845ac7f894d3baa8bd29d093e5621e63c70121a15fd0b2e8dea20e
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: winter_note
+    problem: The page says Seokguram closes at 17:30, or 18:00 on weekends, in winter. The official site gives 09:00–17:00 (last entry) for November to January, the same on every day. The free days are Saturday and Sunday, so a traveler working from the page would arrive an hour late.
+    evidence: "winter_note now reads 'Bulguksa and Seokguram: last entry 17:00 from November to January, every day including weekends'. https://seokguram.org/bbs/content.php?co_id=price says \"11월~1월 오전 9시~ 오후5시(입장마감)\" and \"주중, 주말 공휴일 동일\". The wrong 17:30/18:00 times and the Bunhwangsa claim are gone from the page."
+  - field: blocks[1].text
+    problem: The prose says the express bus 'costs less than half as much' as the SRT. The page's own figures are ₩24,000–28,000 against ₩42,600, which is 56–66% of the SRT fare.
+    evidence: "blocks[1].text now says 'a little over half the SRT fare (about ₩15,000–18,000 less each way)'. That matches the page's own figures: ₩42,600 − ₩28,000 = ₩14,600 and ₩42,600 − ₩24,000 = ₩18,600, with the bus range from https://mileasia.com/korea/seoul-to-gyeongju/."
+  - field: confidence_note
+    problem: Bulguksa's winter hours are left unknown ('may close earlier than 18:00'), but the official site gives them. The page's advice to 'do the mountain temples first' depends on that time.
+    evidence: Bulguksa's Nov–Jan hours are now in winter_note, both official sites are in sources, and confidence_note has been updated. https://www.bulguksa.or.kr/bbs/content.php?co_id=application says "11월~1월 오전 9시~ 오후5시(입장마감)", "주중, 주말 공휴일 동일" and "2023년 5월 4일부터 관람료는 무료입니다".
+rereview_of: 31ed220c5bcacd457bcf2060c897032c98c946b6871708a12feb530cafb643fb
+summary: All three earlier findings are fixed. The new winter hours (last entry 17:00 from November to January, the same every day) and the free entry since 4 May 2023 match the official Bulguksa and Seokguram sites, and the bus-versus-SRT wording now agrees with the page's own fares. No new blockers were found, and the page validates.
+model: claude-opus-5-5
+cost_usd: 0.399

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "china",
+    "country": "china",
+    "currency": "CNY",
+    "bed": 80,
+    "food": 100,
+    "other": 170,
+    "pay": "Alipay or WeChat Pay with a foreign card linked: almost everything is paid by QR code, and many places take neither cash nor foreign cards.\nKeep a little cash (¥) for the rare stall that wants it.\nThe pay notes from the old trip page could not be read; this one was rewritten on Nov 14.",
+    "order": 1
+  },
+  {
+    "id": "thailand",
+    "country": "thailand",
+    "currency": "THB",
+    "bed": 70,
+    "food": 80,
+    "other": 100,
+    "pay": "Cash for street food, markets and small shops; card in malls, hostels and chains.\nThai ATMs charge a fee on every foreign withdrawal, so take out more at once.\nThe pay notes from the old trip page could not be read; this one was rewritten on Nov 14.",
+    "order": 2
+  },
+  {
+    "id": "singapore",
+    "country": "singapore",
+    "currency": "SGD",
+    "bed": 0,
+    "food": 60,
+    "other": 120,
+    "pay": "Card or phone tap everywhere, including the MRT gates. No cash needed for one day.\nThe pay notes from the old trip page could not be read; this one was rewritten on Nov 14.",
+    "order": 3
+  },
+  {
+    "id": "korea",
+    "country": "korea",
+    "currency": "KRW",
+    "bed": 130,
+    "food": 150,
+    "other": 140,
+    "pay": "Card almost everywhere. Buy a T-money card for the subway and buses; it is topped up with cash.\nThe pay notes from the old trip page could not be read; this one was rewritten on Nov 14.",
+    "order": 4
+  },
+  {
+    "id": "japan",
+    "country": "japan",
+    "currency": "JPY",
+    "bed": 190,
+    "food": 170,
+    "other": 170,
+    "pay": "Card in chains, stations and hotels; cash still rules small restaurants, shrines and ticket machines. Carry yen.\nAn IC card (Suica, PASMO, ICOCA) on the phone or as a card pays trains, buses and convenience stores. 7-Eleven ATMs take foreign cards.\nThe pay notes from the old trip page could not be read; this one was rewritten on Nov 14.",
+    "order": 5
+  },
+  {
+    "id": "hong-kong",
+    "country": "hong-kong",
+    "currency": "HKD",
+    "bed": 200,
+    "food": 140,
+    "other": 120,
+    "pay": "Octopus card for the MTR, trams, ferries and convenience stores; card in most shops; cash for small cha chaan tengs and markets.\nThe pay notes from the old trip page could not be read; this one was rewritten on Nov 14.",
+    "order": 6
+  }
+]

@@ -1,0 +1,22 @@
+# Independent review of chatuchak-weekend-market. Written by `./atr review`; do not edit by hand.
+id: chatuchak-weekend-market
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 8d3840bce7495afce42a7237429885d473d78561927e266d33ef1212f4fb6843
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[2].items[2]
+    problem: The page describes an air-conditioned indoor building inside the market, with a flower market upstairs and a food court overlooking the roofs, but no listed source describes it. The weather note also sends the traveler there to escape the heat. Visit Thailand Today only mentions JJ Mall as a separate mall 'next door', and Thailand Magazine places the flower market in the plant section.
+    evidence: 'The invented indoor building is gone. The page now names JJ Mall next door: https://www.visitthailandtoday.com/markets-shopping/bangkok/chatuchak-weekend-market says "Air conditioning next door to Chatuchak, plus home goods, fabrics and a food court" (280 m, 4 min walk). The flower market is now Sections 3–4: https://thailandmagazine.com/bangkok/see-do/chatuchak-weekend-market/ says "Plants & Gardening (Sections 3, 4)" and "The largest flower market in Bangkok, offering everything from orchids to bonsai trees".'
+  - field: blocks[6].items[1]
+    problem: The MRT fare of ฿15–40 a ride is not in any listed source, and it looks too low. The Wikipedia Blue Line article gives regular fares of ฿17–45, although I could read that article only in summary, not word for word. BEM's official fare page loaded without its fare table.
+    evidence: The page now says ฿17–44 a ride. https://www.thaipbs.or.th/verify/en/content/13302 gives Blue Line fares of 17 baht (1 station) to 44 baht (12 or more stations), "effective from July 3, 2026", from a Royal Gazette regulation that MRTA confirmed. The ฿60 round trip (about ฿30 each way) is within that range and is marked as an estimate.
+rereview_of: e3242a928f8315116e5df522f1d9f4950991a49d7b48a1359d4287aa24217938
+summary: Both earlier findings are fixed. The page now names JJ Mall, puts the flower market in Sections 3–4 and gives MRT fares of ฿17–44, and a listed source backs each one. The alley photo caption now matches what the photo shows. No new unsupported facts and no open blockers or shoulds.
+model: claude-opus-5-5
+cost_usd: 0.502

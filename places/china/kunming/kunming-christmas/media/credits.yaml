@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: green-lake-gulls
+  title: File:Gulls in Cuihu.jpg
+  author: RoyalCathayan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Gulls_in_Cuihu.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1f/Gulls_in_Cuihu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wintering gulls in Cuihu lake
+  width: 1972
+  height: 1479
+  widths:
+    - 640
+    - 1280
+    - 1972
+  fetched: 2026-11-10
+  origin: commons
+- file: nanping-street
+  title: File:Kunming (9964806713).jpg
+  author: Gary Todd from Xinzheng, China
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Kunming_(9964806713).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5a/Kunming_%289964806713%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Kunming, Yunnan. Complete indexed photo collection at WorldHistoryPics.com.
+  width: 3888
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: jinma-biji-arches
+  title: File:Kunming Jinma Biji Fang 20250813 183853.jpg
+  author: Zhangzhugang
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Kunming_Jinma_Biji_Fang_20250813_183853.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/87/Kunming_Jinma_Biji_Fang_20250813_183853.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​昆明市·金马碧鸡坊
+  width: 4096
+  height: 2731
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: green-lake-winter
+  title: File:Southwest part of Cuihu Park, Kunming (20240214121712).jpg
+  author: N509FZ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Southwest_part_of_Cuihu_Park,_Kunming_(20240214121712).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b1/Southwest_part_of_Cuihu_Park%2C_Kunming_%2820240214121712%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Blue now.
+  width: 7205
+  height: 4803
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

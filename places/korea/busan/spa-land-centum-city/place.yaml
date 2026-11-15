@@ -1,0 +1,136 @@
+id: spa-land-centum-city
+name: "Spa Land Centum City"
+short_name: Spa Land
+name_local: 스파랜드 센텀시티
+country: korea
+city: busan
+area: Haeundae-gu · Centum City
+category: odd-local
+fame: popular
+tags: [jjimjilbang, bathhouse, sauna, hot-spring, indoor]
+kind: Do
+why: "A department-store jjimjilbang: 18 hot-spring baths and 13 themed sauna rooms, four hours for ₩26,000. Pricey, polished, and warm."
+cost:
+  local: 26000
+  currency: KRW
+  brl: 106.5
+  note: "Door price, same every day, 4 h. Trazy's US$19.40 voucher is no cheaper. Weekday-only tickets cost ₩6,000 extra on weekends"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h (the ticket covers 4 h)
+best_time: Weekday afternoon or evening; last entry 21:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 09:00–22:00, last entry 21:00"
+  closed: "Store closing days, about once a month (per a ticket seller)"
+  winter: "The official page lists no winter hours. The department store's calendar showed one closing day in early November 2026, and a ticket seller says Spa Land shuts on the store's monthly closing day. The January 2027 calendar was not published when checked, so look at the store calendar before going. The official page marks the outdoor bath (women only) as not operating (미운영)."
+
+location:
+  address: Shinsegae Centum City 1F, 35 Centumnam-daero, Haeundae-gu, Busan
+  address_local: 부산광역시 해운대구 센텀남대로 35 신세계백화점 센텀시티점 1층 스파랜드
+  lat: 35.16876
+  lng: 129.12964
+  nearest_transit: "Centum City (Line 2), connected directly to the store"
+  approximate: true
+
+sources:
+  - url: https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008
+    title: "Spa Land, Shinsegae Centum City (official page, Korean): hours, prices, time limit, age rule, 1F/2F facility guide, store calendar"
+    checked: 2026-11-12
+  - url: https://www.shinsegae.com/store/main.do?storeCd=SC00008
+    title: "Shinsegae Centum City store page (official, Korean): address 센텀남대로 35, directly connected to Centum City Station"
+    checked: 2026-11-12
+  - url: https://www.koreatodo.com/shinsegae-centum-city-spa-land
+    title: "Shinsegae Centum City Spa Land (KoreaToDo): address, subway exit, wristband payment"
+    checked: 2026-11-10
+  - url: https://www.trazy.com/experience/detail/busan-spaland-centum-city-discount-ticket
+    title: "Busan Centum City Spaland ticket (Trazy): adult US$19.40, closes on the store's monthly closing day, age rules"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Busan
+    title: "Busan (Wikipedia), climate normals 1991–2020: January 8.2 / −0.1 °C"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Price, hours, limits, age rule, baths, rooms and outdoor-bath status are from the official Shinsegae page (1F/2F guide read from its HTML, 2026-11-12); address and station link from the store page. No exit number found. Not verified: January 2027 closing days, and which vouchers count as 'weekday tickets'. KoreaToDo would not render. Trazy's US$ price converted at ECB rates (≈₩26,200)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: shinsegae-exterior
+    caption: Shinsegae Centum City from outside. No free photo of the spa itself exists
+    hook: A January evening spent moving between hot pools, a salt room and an ice room, inside a department store.
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: Weekday afternoon or evening
+    extra:
+      - label: Time limit
+        value: 4 h per ticket
+        detail: 6 h if you spend ₩10,000+ inside; ₩5,000 per extra hour
+      - label: Age rule
+        value: Primary-school age and up
+        detail: Primary pupils need a same-sex guardian
+      - label: Suitcase locker
+        value: ₩3,000 for 5 h
+        detail: At the ticket desk; ₩1,000 per extra hour
+  - type: highlights
+    items:
+      - title: Two kinds of spring water
+        text: "The official page lists **18 hot-spring baths** fed by two natural spring waters (calcium chloride and sodium chloride) pumped from 1,000 m down, plus massage, bench-jet and bubble-jet pools."
+      - title: A dozen themed rooms
+        text: "The official page counts **13 themed rooms**: yellow clay, charcoal, salt, ice and a fire kiln, plus rooms named Roman, Hamam, Pyramid and Bali, and Finnish, Roman and steam saunas."
+      - title: A floor for doing nothing
+        text: "Upstairs is the entertainment zone: a relax room, an aesthetic (beauty) room, a restaurant, and a café and drinks bar."
+      - title: No wallet inside
+        text: "Your wristband works as an e-wallet. Food and drinks are charged to it and paid at the counter on the way out."
+  - type: prose
+    title: Why a bathhouse earns a Busan day
+    dropcap: true
+    text: |-
+      A *jjimjilbang* is a Korean bathhouse with a shared lounge of heated rooms, and Spa Land is the upmarket version, set on the first floor of the Shinsegae Centum City department store. You pay once, get four hours, and move between the baths and the themed rooms at your own pace.
+
+      It is not cheap for a backpacker. **₩26,000 (R$106.50)** is about three quarters of the R$140 daily budget for Korea, and the price is now the same on weekdays and weekends. What it buys is half a day indoors and warm, which matters in January.
+
+      One practical use: suitcases are not allowed in the locker room, but the ticket desk has a **suitcase locker** at ₩3,000 for five hours. That makes Spa Land a workable last stop before an evening train or a flight.
+  - type: cost_breakdown
+    items:
+      - label: Adult entry, 4 hours
+        local: 26000
+        brl: 106.5
+      - label: Each extra hour
+        local: 5000
+        brl: 20.48
+        optional: true
+      - label: Suitcase locker, 5 hours
+        local: 3000
+        brl: 12.29
+        optional: true
+    note: "The door price is the cheapest way in: Trazy's voucher (US$19.40, ≈₩26,200) is no cheaper. A weekday-only ticket used on a weekend or holiday costs ₩6,000 extra. Students born 2008–2019 pay ₩21,000."
+  - type: map
+    zoom: 16
+    note: "**Centum City Station** (Line 2) connects directly to the store, per the official page. The pin marks the department store; Spa Land is on its first floor."
+  - type: tips
+    variant: insider
+    items:
+      - "Spend **₩10,000 or more** inside (food, drinks or treatments, admission not counted) and the limit rises from four hours to six."
+      - "Arrive by **18:00** if you want the full four hours: doors close at 22:00 and last entry is 21:00."
+      - "Travelling with a suitcase? Leave it in the locker by the ticket desk **before** you enter."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Older guides list **₩17,000–20,000** and 06:00 opening. Both are out of date: the official page says ₩26,000 and 09:00."
+      - "Stay past your limit and it is **₩5,000 per hour**."
+      - "The store closes about one day a month and a ticket seller says Spa Land closes with it. Check the calendar on the official page the week you go."
+      - "The women's **outdoor bath** is marked as not operating on the official page."
+  - type: weather
+    temp_low_c: 0
+    temp_high_c: 8
+    conditions: Cool and dry outside; everything here is indoors
+    note: "Entirely indoors and heated, so the weather does not touch it. It is a good plan for a windy or grey January day, and the metro station connects straight into the store."
+  - type: pairs_well
+    items:
+      - id: jagalchi-fish-market
+        note: Across town in Nampo-dong. Market at lunch, baths after
+      - id: nomadx-stay-haeundae
+        note: The hostel is further east in Haeundae-gu

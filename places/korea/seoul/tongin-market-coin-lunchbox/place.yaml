@@ -1,0 +1,170 @@
+id: tongin-market-coin-lunchbox
+name: "Tongin Market Coin Lunchbox"
+short_name: Tongin Market
+name_local: 통인시장 엽전도시락
+name_romanized: Tongin Sijang Yeopjeon Dosirak
+country: korea
+city: seoul
+area: Jongno-gu · Seochon
+category: food
+fame: popular
+tags: [market, street-food, cheap-eats, tteokbokki, lunch]
+kind: Eat
+why: "Swap cash for brass coins (₩500 each), fill a plastic lunch tray stall by stall, and eat it upstairs. A 10-minute walk from Gyeongbokgung."
+cost:
+  local: 10000
+  currency: KRW
+  brl: 41.56
+  note: "20 coins for a full tray, rice included. The minimum is 10 coins (₩5,000), and leftover coins can be refunded"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–1.5 h
+best_time: Weekday 11:00–13:00, before the lunch rush
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Café 11:00–16:00 weekdays, 11:00–17:00 weekends (Seoul, 2025); KTO lists 11:00–15:00. Arrive by 13:30. Stalls ~07:00–21:00"
+  closed: "Café: Mon or Tue (sources disagree) and the 3rd Sunday; shops vary"
+  winter: "No winter hours or New Year closures published. In your Korea days (10–20 Jan) the risky days are **Mon 11 / Tue 12** and **Mon 18 / Tue 19 Jan** (weekly closing day), plus **Sun 17 Jan**, the 3rd Sunday. The arcade roof keeps snow off; it isn't heated. Seollal (Feb 2027) is after the trip."
+
+location:
+  address: 18 Jahamun-ro 15-gil, Jongno-gu, Seoul
+  address_local: 서울특별시 종로구 자하문로15길 18 (통인시장)
+  lat: 37.58076
+  lng: 126.97
+  nearest_transit: Gyeongbokgung (Line 3), Exit 2, about 500 m
+
+sources:
+  - url: https://mediahub.seoul.go.kr/archives/2014553
+    title: 엽전 들고 통인시장으로! 내 취향 도시락 만들어봤어요 (Seoul city mediahub, May 2025)
+    checked: 2026-11-12
+  - url: https://www.ktriptips.com/kor/shopping/1590323
+    title: 통인시장 (K-Trip Tips listing, updated Nov 2026)
+    checked: 2026-11-12
+  - url: https://koreaunlocked.blogspot.com/2026/05/tongin-market-seoul-lunchbox-cafe-guide.html
+    title: Tongin Market Seoul Guide 2026 (Korea Unlocked, May 2026)
+    checked: 2026-11-12
+  - url: https://mediahub.seoul.go.kr/archives/2008037
+    title: 기름떡볶이·엽전도시락…맛있게 소통하는 '통인시장' (Seoul city mediahub, May 2023)
+    checked: 2026-11-12
+  - url: https://mediahub.seoul.go.kr/archives/2004109
+    title: MZ세대를 사로잡는 엽전도시락 (Seoul city mediahub, Mar 2022)
+    checked: 2026-11-12
+  - url: https://thesoulofseoul.net/tong-in-market-eating-on-a-budget/
+    title: "Tongin Market: Eat On A Budget Near Gyeongbokgung (The Soul of Seoul, updated Oct 2026)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Coin value (₩500) and the 10-coin minimum agree across all sources. Café hours and the weekly closing day don't: Seoul's May 2025 article says Tuesdays, Soul of Seoul says Mondays, and K-Trip Tips lists the café at 11:00–15:00. Stall prices are from 2023, so treat them as a guide. The coin-to-dish rate (2–4 coins) comes from a 2026 blog."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: market-alley
+    hook: A narrow roofed lane of banchan, fried snacks and oil tteokbokki, paid for in old-style brass coins.
+    caption: Tongin Market's main lane in February
+  - type: quick_facts
+    time_needed: 1–1.5 h
+    best_time: Weekday 11:00–13:00
+    extra:
+      - label: Coins
+        value: "₩500 each, min. 10"
+        detail: Bought upstairs in the customer centre
+      - label: Payment
+        value: Cash for coins
+      - label: Fits a night-shift day
+        value: Yes, lunch only
+        detail: Arrive by 13:30; one listing ends the café at 15:00
+  - type: highlights
+    items:
+      - title: A lunch tray you build yourself
+        text: "Buy coins, take the plastic tray and walk the lane. Stalls with the **도시락카페** sign scoop small portions for 2–4 coins each, so you can try 6–8 things in one meal."
+      - title: Oil tteokbokki
+        text: "Rice cakes stir-fried in oil instead of stewed in sauce, in a **soy** or **gochujang** version. It's the market's signature dish."
+      - title: A real neighbourhood market
+        text: "About 70 shops: banchan, fruit, fish, tailors. It's been a market since **1941**, and locals still shop here between the tourists."
+      - title: Gyeongbokgung's cheap lunch
+        text: "About 500 m from Gyeongbokgung Station, so it fits before or after the palace. Seochon's hanok lanes are right outside."
+  - type: prose
+    title: How it works
+    dropcap: true
+    text: |-
+      Go to the customer centre in the middle of the market and climb to the **2nd floor**. Exchange cash for brass *yeopjeon* coins, at least 10 (₩5,000). You get a plastic lunch tray with them.
+
+      Walk the lane and look for stalls showing the lunchbox-café sign. Point at what you want and hand over coins. Most dishes cost 2–4 coins. Then go back upstairs, where rice and soup cost about 2 coins each and there are tables, drinks and utensils.
+
+      The scheme has run since **2012**, and a Seoul city writer noted in 2023 that it's still going when most tourist gimmicks fade. Ten coins is a light lunch. Twenty with rice is a proper meal, and the counter refunds coins you don't spend.
+  - type: gallery
+    images:
+      - file: lunchboxes
+        caption: Filled trays, February 2014
+      - file: tteokbokki
+        caption: Oil tteokbokki and fried greens going into a tray
+      - file: coins
+        caption: The brass coins, ₩500 each
+  - type: menu
+    title: What the coins buy
+    items:
+      - name: Oil tteokbokki (soy or chili)
+        name_local: 기름떡볶이
+        price_local: 4000
+        price_brl: 16.62
+        note: "₩4,000 a portion at Wonjo Jeong Halmeoni (2023 price). Smaller coin portions at lunchbox stalls."
+        tag: must-try
+      - name: Rice
+        name_local: 공기밥
+        price_local: 1000
+        price_brl: 4.16
+        note: 2 coins, sold upstairs in the café.
+      - name: Soup
+        name_local: 국
+        price_local: 1000
+        price_brl: 4.16
+        note: 2 coins, upstairs (2022 price).
+      - name: Chicken skewers
+        name_local: 닭꼬치
+        price_local: 2000
+        price_brl: 8.31
+        note: "₩2,000 for 3 at one stall (2023 price)."
+      - name: Kimchi dumplings
+        name_local: 김치만두
+        price_local: 6000
+        price_brl: 24.94
+        note: "₩6,000 a pack to take away (2023 price)."
+      - name: Side dishes in the tray
+        name_local: 반찬
+        note: "Spicy side dishes, fried fish and vegetables, gimbap: about 2–4 coins a scoop."
+    note: "Coin dishes are small tasting portions. Prices outside the coin scheme are from Seoul's 2023 market article."
+  - type: cost_breakdown
+    items:
+      - label: 16 coins of dishes from the stalls
+        local: 8000
+        brl: 33.25
+      - label: Rice and soup upstairs (4 coins)
+        local: 2000
+        brl: 8.31
+  - type: map
+    zoom: 17
+    note: "From **Gyeongbokgung Exit 2**, walk straight up Jahamun-ro for about 500 m. The entrance is on the left side of the road."
+  - type: tips
+    variant: insider
+    items:
+      - "Walk the whole lane **before** spending a coin. Every stall's dishes are on display, and the good stuff isn't always at the front."
+      - "Go on a **weekday**. Weekends at lunchtime get packed and the upstairs seats fill."
+      - "Want just one thing? You can also pay cash at the stalls, e.g. a full plate of oil tteokbokki."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Avoid **Mondays and Tuesdays** (11–12 and 18–19 Jan): sources disagree on which one the café closes. The café also shuts on the 3rd Sunday, **Sun 17 Jan**. Wed 13 – Fri 15 Jan are the safe days."
+      - "Coin sales stop an hour before closing, and the closing time is disputed (15:00, 16:00 or 17:00). **Arrive by 13:30** to be safe."
+  - type: weather
+    temp_low_c: -7
+    temp_high_c: 1
+    conditions: Dry, freezing, occasional snow
+    note: "The lane is covered but open to the cold. You pick food outside, then eat **indoors** upstairs, so it's one of the warmer cheap lunches in Seoul."
+    wear: Padded jacket and gloves you can pull off to pay
+  - type: pairs_well
+    items:
+      - id: gyeongbokgung-palace
+        note: "About 10 min walk. Palace in the morning, coin lunch after"

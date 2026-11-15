@@ -1,0 +1,21 @@
+# Independent review of chengdu-christmas. Written by `./atr review`; do not edit by hand.
+id: chengdu-christmas
+type: place
+reviewed: 2026-11-10
+verdict: pass
+content_hash: 0e034b1233a5be739a82307969e121814c2cbd8d6077e2bc0692b573e927e3b5
+facts:
+  supported: 9
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[9].items[0]
+    problem: The ¥210–234 range for G trains over 2 h is narrower than the timetable shows. Ctrip lists G8621 at 2 h 05 for ¥182, G2321 at 2 h 15 for ¥193 and G3355 at 2 h 29 for ¥237.
+    evidence: 'https://trains.ctrip.com/trainbooking/chengdu-chongqing/ (via ./atr render, 2026-11-12): "G8621 2时5分 182", "G2321 2时15分 193", "G3355 2时29分 237"'
+    fix: Say that some G trains take over 2 h and cost ¥180–240.
+resolved: []
+rereview_of: 153d07beb9d9b49717565c75c90fa724a32ef6d61cf7ecf8bc84c939421fae44
+summary: "Earlier finding 1 is resolved: the G-train tip now separates the fast ¥125 trains from the slow trains that cost over ¥200, and Ctrip supports it. The other edits are supported or remove claims: metro 23:30, Lan Kwai Fong ¥80–150, the 2008 photo date from the Commons credit, and the 20:30 drone show with December dates not yet posted. Only a nit on the fare range remains."
+model: claude-opus-5-5
+cost_usd: 0.776

@@ -1,0 +1,148 @@
+id: gyeongbokgung-palace
+name: "Gyeongbok Palace"
+name_local: 경복궁
+name_romanized: Gyeongbokgung
+country: korea
+city: seoul
+area: Jongno-gu · Gwanghwamun
+category: culture
+fame: iconic
+tags: [palace, joseon, history, guard-ceremony, cheap, cold-outdoors]
+kind: See
+why: "Joseon's first royal palace (1395) for ₩3,000: the royal guard change at 10:00 and 14:00, a throne hall and free English tours."
+cost:
+  local: 3000
+  currency: KRW
+  brl: 12.29
+  note: "Adult 19–64, 2026 fee (a rise is planned, timing undecided). Free in hanbok and on Culture Day (27 Jan, after you leave)"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: "Work-day afternoon from 13:30: tour, 14:00 guard change"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Wed–Mon 09:00–17:00 in January, last admission 16:00"
+  closed: "Tuesdays (12 and 19 Jan 2027)"
+  winter: "The official page lists 09:00–17:00 for November to February, last admission 16:00. It closes on Tuesdays; if a Tuesday is a public holiday it opens and closes the day after. No other January closure is listed. The guard ceremony runs all year except Tuesdays, and heavy rain or snow may cancel it."
+
+location:
+  address: 161 Sajik-ro, Jongno-gu, Seoul
+  address_local: 서울특별시 종로구 사직로 161 (세종로)
+  lat: 37.57975
+  lng: 126.97668
+  nearest_transit: Gyeongbokgung Station (Line 3), Exit 5
+
+sources:
+  - url: https://biz.sbs.co.kr/amp/article/20000339020
+    title: "SBS Biz (8 Oct 2026): palace fee rise on hold, plan, announcement and start date all marked 'undecided'"
+    checked: 2026-11-13
+  - url: https://www.heraldk.com/article/2026080500135508658
+    title: "Herald Business (5 Aug 2026): new palace fees to be announced in Nov 2026, applied from 1 Jan 2027"
+    checked: 2026-11-12
+  - url: https://waytoseoul.blogspot.com/2026/04/free-english-guided-tours-seoul-palaces-2026.html
+    title: "Way to Seoul (Apr 2026): free English palace tours; Gyeongbokgung 11:00, 13:30, 15:00, closed Tue, meet inside Heungnyemun"
+    checked: 2026-11-12
+  - url: https://royal.khs.go.kr/ENG/contents/E702000000.do?schGroupCode=gbg
+    title: "Admission Information: Gyeongbokgung (Korea Heritage Service, Royal Palaces and Tombs Center)"
+    checked: 2026-11-10
+  - url: https://royal.khs.go.kr/ENG/contents/E701000000.do
+    title: Free Admission Guidelines for Hanbok Wearers (Korea Heritage Service)
+    checked: 2026-11-10
+  - url: https://english.visitseoul.net/events/Changing-of-the-Royal-Guard-at-Gyeongbokgung-Palace-en/ENP008256
+    title: Changing of the Royal Guard at Gyeongbokgung Palace (Visit Seoul, edited Sep 2025)
+    checked: 2026-11-10
+  - url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=87740
+    title: Gyeongbokgung Palace (VisitKorea, Korea Tourism Organization)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Gyeongbokgung
+    title: Gyeongbokgung (Wikipedia)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Gyeongbokgung_station
+    title: Gyeongbokgung station (Wikipedia)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-10
+confidence: high
+confidence_note: "Price, hours, closed day and free entry: official page (atr render). Guard times: Visit Seoul (Sep 2025). English tour times: one 2026 blog (older guide: 15:30 last); official tour page shows no text, so unconfirmed. ₩3,000 is the 2026 fee; a fee rise is planned but its timing and amount are undecided (SBS Biz, Oct 2026), so it may change. Jan dates are calendar arithmetic."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: snow-roofs
+    hook: Six centuries of tiled roofs and stone courtyards, and in January you may get them under snow.
+    caption: The palace roofs after a snowfall in December 2013
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: "Work day: 13:30 tour + 14:00 guard change"
+    extra:
+      - label: Guard change
+        value: "10:00 and 14:00"
+        detail: At Gwanghwamun, the main gate. Not on Tuesdays
+      - label: Free English tour
+        value: "Usually 11:00, 13:30, 15:00"
+        detail: Wed–Mon, from the information center
+      - label: Good in cold
+        value: Outdoors all the way
+        detail: Big open courtyards, little shelter
+  - type: highlights
+    items:
+      - title: The guard change
+        text: "The Changing of the Royal Guard runs at **10:00 and 14:00** in front of Gwanghwamun, the main gate. A shorter gate-guard ceremony follows at 11:00 and 13:00."
+      - title: Geunjeongjeon, the throne hall
+        text: "The main hall, rebuilt in **1867**, is the largest main hall of any Joseon palace."
+      - title: Gyeonghoeru on its pond
+        text: "A banquet hall raised on an artificial island, first completed in **1412** and used to host dignitaries."
+      - title: A palace still being rebuilt
+        text: "About 500 buildings were sold off after 1910 and only 40 were left by 1945. Restoration has run since 1990 and is planned until **2045**."
+  - type: prose
+    title: Six centuries, burned down and rebuilt
+    dropcap: true
+    text: |-
+      Gyeongbokgung was founded in **1395** as the first royal palace of the Joseon dynasty. It burned down completely in 1592 during the Imjin War. Reconstruction was ordered in 1865, and King Gojong moved in three years later.
+
+      Under Japanese rule, from 1910, the palace's property was auctioned and almost all of its roughly 500 structures were sold and moved away. What you walk through today is partly original and partly a restoration that started in 1990. **Gwanghwamun**, the south gate, was put back in its pre-colonial state between 2006 and 2010.
+
+      For a budget traveler it is hard to beat: **₩3,000**, no booking, and free guided tours in English.
+  - type: gallery
+    images:
+      - file: geunjeongjeon
+        caption: Geunjeongjeon, the throne hall
+      - file: guard-ceremony
+        caption: The Royal Guard Changing Ceremony at the main gate
+      - file: snow-walls
+        caption: Palace walls under snow, December 2013
+  - type: cost_breakdown
+    items:
+      - label: Admission, adult 19–64
+        local: 3000
+        brl: 12.29
+    note: "Free for visitors in **hanbok** (full outfit: top and bottom), on **Culture Day** (the last Wednesday of each month), and for ages 18 and under or 65 and over."
+  - type: map
+    zoom: 16
+    note: "**Gyeongbokgung Station (Line 3), Exit 5** is signed for the palace and Gwanghwamun. The free tours start at the information center inside **Heungnyemun Gate**."
+  - type: tips
+    variant: insider
+    items:
+      - "**Free English tours**: a 2026 guide lists 11:00, 13:30 and 15:00 (an older one says 15:30), 60 to 90 minutes, no reservation under 10 people, meeting inside Heungnyemun Gate. Not on an official page I could read: confirm at the information center."
+      - "Hanbok gets you in free, but the ticket is only ₩3,000. A coat alone doesn't count: the rules ask for a top **and** a bottom, worn properly."
+      - "Culture Day, the last Wednesday of the month, is free. In January 2027 that is the **27th**, a week after you fly to Japan, so it doesn't help this trip."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Tuesday is the closed day**, and the guard ceremony stops too. In your Korea days that means **12 and 19 January**."
+      - "Last admission is **16:00** in January. On a work day (you sleep in the morning after the night shift), arrive by **13:30**: the English tour, the 14:00 guard change and the halls fit before closing."
+      - "In heavy rain or snow the guard change may be cancelled. Gate duty then moves to Heungnyemun Gate, further inside."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry, freezing, about 7 snowy days in January
+    note: "Seoul's January averages are 2.1 °C by day and −5.5 °C at night, and it sometimes drops below −10 °C. The whole visit is outdoors on open stone courtyards. On days of −10 °C or colder the guard change still runs in full, but fewer guards may stand watch. The palace closes at 17:00, so there is no evening visit in winter."
+    wear: Padded jacket, hat, gloves, warm socks. You stand still for the ceremony
+  - type: pairs_well
+    items:
+      - id: gwangjang-market
+        note: Hot mung-bean pancakes for lunch after a cold morning in the courtyards

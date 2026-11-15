@@ -1,0 +1,149 @@
+id: time-travelers-relax-hongdae
+name: "Time Travelers Relax Guesthouse"
+short_name: Time Travelers Relax
+name_local: 타임트래블러스 릴렉스 게스트하우스
+country: korea
+city: seoul
+area: Hongdae–Sinchon
+category: stay
+tags: [hostel, social, solo-travelers, hongdae, sinchon, budget, quiet]
+kind: Stay
+why: "A well-rated social bed near Hongdae for ₩29,412 a weeknight: solo-traveler-only dorms, an owner who plays guitar, 5 min from Hongik Univ."
+
+cost:
+  local: 29412
+  currency: KRW
+  brl: 122.24
+  note: "Hostelworld, 8-bed mixed dorm, Sun–Thu nights 10–19 Jan 2027, tax included, searched 12 Nov 2026"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book 2+ weeks ahead; the 4-bed dorm and the single were nearly gone"
+  method: website
+  links:
+    - label: Hostelworld (Mon 11 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Time-Travelers-Relax-Guesthouse-Seoul/Seoul/273421?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+      note: "Change the dates to your nights; dorm prices are per bed, tax included"
+  notes: "It is small: on 12 Nov each night 10–19 Jan showed 8 beds in the 8-bed dorm, 2–3 in the 4-bed dorm and 1 single room. Fri 15 and Sat 16 Jan were not on sale at all."
+
+hours:
+  summary: "Check-in 12:00–21:00 · check-out by 11:00 · reception limited hours · no curfew"
+  winter: "Searched 12 Nov 2026: same prices every Sun–Thu night 10–14 and 17–19 Jan; Fri 15 and Sat 16 Jan not on sale. A Jan 2026 guest found it very cold in winter, especially the bathrooms; a Dec 2025 guest called the rooms heated."
+
+location:
+  address: "90-13 Sinchon-ro 1-gil, Seodaemun-gu, Seoul (Hostelworld lists the lot address 275-3 Changcheon-dong)"
+  address_local: 서울특별시 서대문구 신촌로1길 90-13
+  lat: 37.56045
+  lng: 126.93021
+  nearest_transit: "Hongik Univ. station (Line 2 / AREX), about 5 min on foot, up a small hill"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Time-Travelers-Relax-Guesthouse-Seoul/Seoul/273421?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+    title: "Time Travelers Relax on Hostelworld, Mon 11 Jan 2027 search: dorm and private prices, house rules, facilities, rating 8.8 (1,329)"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/273421/availability/?guests=1&num-nights=1&date-start=2027-01-15&currency=KRW&application=web"
+    title: "Hostelworld availability feed (change date-start): 10–19 Jan 2027 read night by night; Fri 15 Jan returns no rooms"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/273421/reviews/?sort=newest&page=1&monthCount=36&application=web"
+    title: "Hostelworld guest reviews, newest first (pages 1–4 read: Mar–Oct 2026)"
+    checked: 2026-11-12
+  - url: "https://www.openstreetmap.org/?mlat=37.56045&mlon=126.93021#map=17/37.56045/126.93021"
+    title: "OpenStreetMap: Time Travelers Relax Hostel, 90-13 Sinchon-ro 1-gil"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hostelworld per-bed prices for every night 10–19 Jan, read 12 Nov; they move. Night-work details (wifi, noise, curtains, lockers) come from single 2026 reviews, which disagree; no source says the common room is open after midnight. Card surcharge from one Oct 2026 review. Reviews feed read with curl (403 to the link checker)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: hongik-exit-6
+    caption: "Hongik Univ. station, Exit 6. No free photo of the guesthouse exists"
+    hook: "A tiny, chilled guesthouse up the hill from Hongdae: tea, guitar and people to go out with."
+  - type: quick_facts
+    extra:
+      - { label: Vibe, value: Social but never rowdy, detail: "\"Not a party place at all\", says a reviewer" }
+      - { label: Dorms, value: Solo travelers only, detail: "8-bed and 4-bed mixed dorms" }
+      - { label: Check-in, value: "12:00–21:00" }
+  - type: stay
+    style: guesthouse
+    beds:
+      - label: "Deluxe 8-bed mixed dorm · Sun–Thu (e.g. Mon 11 Jan)"
+        local: 29412
+        brl: 122.24
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Time-Travelers-Relax-Guesthouse-Seoul/Seoul/273421?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+        note: "Hostelworld, free cancellation, searched 12 Nov"
+      - label: "Deluxe 4-bed mixed dorm · Mon 11 Jan"
+        local: 31767
+        brl: 132.02
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Time-Travelers-Relax-Guesthouse-Seoul/Seoul/273421?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+        note: "3 beds left most nights, 2 on Thu 14 Jan when searched"
+      - label: "Single private room, shared bathroom · Mon 11 Jan"
+        local: 58825
+        brl: 244.48
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Time-Travelers-Relax-Guesthouse-Seoul/Seoul/273421?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+        note: "Private rooms are on the 2nd floor, \"so more quiet\" (listing). Only 1 single, every night"
+    rating:
+      score: 8.8
+      out_of: 10
+      source: Hostelworld
+      reviews: 1329
+      atmosphere: 8.9
+      checked: 2026-11-12
+    social:
+      - "Dorms are **solo travelers only**, \"for making more friends when you travel\", says the listing."
+      - "Owner DJ plays guitar and joins jam sessions on request; one review says he cooked ramen for the guests."
+      - "2026 reviews: \"Social but respectful roommates\", \"Perfect place to meet fellow travelers\", \"chill and social if you want, but never rowdy\"."
+      - "It is very small, so it is quiet rather than a party hostel. One Sept 2026 guest found no social vibe that week."
+    good_to_know:
+      - "**Night shifts:** no source says the common room is open all night. Walls are thin and dorms open onto reception, so day sleep can be hard."
+      - "**Wifi:** \"I wish they had better wifi\" (Jul 2026). Bring a phone data plan as backup for work calls."
+      - "**Curtains:** reviews disagree, from \"loved the privacy curtains\" to \"partial curtain\" and \"top bunks could have curtains\"."
+      - "**Lockers** are in the room and cost ₩1,000 extra (May 2026 review)."
+      - "Beds are metal bunks that creak (Oct 2026). Towels are for hire, no breakfast."
+      - "One Oct 2026 review reports a **10% surcharge** for paying by card: bring cash."
+  - type: highlights
+    items:
+      - title: A good bed at a low price
+        text: "**₩29,412** (about R$122) for an 8-bed dorm on every weeknight 10–19 Jan, in walking distance of Hongdae."
+      - title: A quiet room option for work weeks
+        text: "The **single private room** (₩58,825) is on the quieter 2nd floor: worth it after the 21:00–06:00 shifts (11–15, 18–19 Jan), when you sleep through the morning."
+      - title: Between two neighbourhoods
+        text: "Five minutes to Hongik Univ. station (Line 2 and the airport train), and a short walk to Sinchon."
+      - title: Clean bathrooms, owner on site
+        text: "Recent guests call the bathrooms \"super clean\" and praise DJ's tips; cleanliness scores 8.6 on Hostelworld."
+  - type: book_ahead
+    steps:
+      - days_before: 14
+        text: "Book on Hostelworld. If you will sleep days on work nights, book the **single private room** for those nights and a dorm bed for the others. Fri 15 and Sat 16 Jan were not on sale on 12 Nov."
+      - days_before: 1
+        text: "Arriving after 21:00? Message the guesthouse: check-in ends at 21:00."
+      - days_before: 0
+        text: "Bring cash for the locker and to avoid the card surcharge."
+  - type: map
+    note: "From Hongik Univ. station walk east towards Sinchon; the last stretch is uphill."
+  - type: tips
+    variant: insider
+    items:
+      - "Split the stay: a dorm bed on nights you sleep at night, the single private room on nights you work and sleep by day. Fri 15 and Sat 16 Jan were not on sale: plan another bed for those two nights."
+      - "Hostelworld lists the lot address (275-3 Changcheon-dong); taxi drivers know the road address 신촌로1길 90-13."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Do not confuse it with **Time Travelers Party Hostel**, the same group's party hostel nearby, rated 7.0 on Hostelworld."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry and freezing, some snow
+    note: "January in Seoul averages −5.5 °C at night and 2.1 °C by day. The walk up the hill from the station is short but icy on snow days."
+    wear: Padded jacket, hat and gloves; shoes with grip
+  - type: pairs_well
+    items:
+      - id: hongdae-club-night
+        note: "Club Street is a walk away: go with people from the dorm"
+      - id: t1-base-camp
+        note: "The T1 PC bang and merch are in Hongdae too"

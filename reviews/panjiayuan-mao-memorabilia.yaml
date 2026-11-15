@@ -1,0 +1,29 @@
+# Independent review of panjiayuan-mao-memorabilia. Written by `./atr review`; do not edit by hand.
+id: panjiayuan-mao-memorabilia
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 3f3f6af011cfcc57eb17b08a45b783140d5307447cb508147acc4d9e98bd5e64
+facts:
+  supported: 7
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: sources[4] / confidence_note
+    problem: The newly added Visit Beijing listing gives different night-market hours ("Starting from April 12th, the night market runs from 12:00-24:00", no year) from the government page's Wed/Fri 11:00–23:00. The confidence_note does not mention this.
+    evidence: https://r.visitbeijing.com.cn/leisure/472 — "the night market runs from 12:00-24:00"
+    fix: Add one clause to confidence_note saying Visit Beijing's undated listing says 12:00–24:00 and that the page follows the dated 2025 government notice.
+  - severity: nit
+    field: blocks[1].extra[1]
+    problem: Quick facts now lead with Alipay / WeChat Pay, while the unchanged prose says "Bring cash and patience" and Ruqin says "cash is still widely preferred". Each claim has a source, but a quick reader gets two different messages.
+    evidence: https://uk.trip.com/guide/china/antique-market-beijing.html — "arrive with Alipay or WeChat Pay set up"; https://ruqintravel.com/china-destination-guides/panjiayuan-antique-market/ — "cash is still widely preferred"
+    fix: Change the value to "Mobile pay + small cash" so it matches the pitfall tip.
+resolved:
+  - field: cost.local
+    problem: The page says entry is free, in cost, highlights and why, but none of the five listed sources mentions an entry fee. Ruqin, Trip.com, Chinabound and the Beijing government night-market page are all silent on it.
+    evidence: 'Visit Beijing is now in sources: https://r.visitbeijing.com.cn/leisure/472 says "Admission: Free", "Opening Hours: All Year Round", "No. 18 Huaweili, Panjiayuan Lu(Rd), Chaoyang".'
+rereview_of: 581b90280524d7fcab36936a513fc4200600e7365fd54ac0b6584752d9c8e591
+summary: "The earlier should is resolved: Visit Beijing is now cited and says entry is free. Every changed fact checks against its source: night market Wed/Fri to 23:00 (Beijing government), Friday evening liveliest (Ruqin), price ranges ¥10–50 and ¥20–120 (Trip.com), and mobile pay plus cash. The ¥30 item is labelled as an estimate. Only two nits remain; the page passes."
+model: claude-opus-5-5
+cost_usd: 0.355

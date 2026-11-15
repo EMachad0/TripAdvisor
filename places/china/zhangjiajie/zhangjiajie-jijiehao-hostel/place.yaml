@@ -1,0 +1,126 @@
+id: zhangjiajie-jijiehao-hostel
+name: "Zhangjiajie Jijiehao Hostel"
+short_name: Jijiehao Hostel
+name_local: 张家界集结号公馆
+country: china
+city: zhangjiajie
+area: Wulingyuan · near East Gate
+category: stay
+tags: [hostel, social, bar, free-breakfast, ticket-help]
+kind: Stay
+why: "The social hostel of Zhangjiajie: bar, pool table, free breakfast, staff who book your tickets. ¥99 dorm, 9.2 on Hostelworld. In Wulingyuan, ~1 h from Tianmen."
+cost:
+  local: 99
+  currency: CNY
+  brl: 81.84
+  note: "4-bed dorm, night of Dec 21 (also Dec 23), 2026, Hostelworld, searched Nov 11; tax extra (Booking adds ¥6)"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Check-in 08:00–23:00 · check-out by 12:00 · no curfew (Hostelworld). Tell them if you arrive after 18:00"
+  winter: "No Christmas rules or minimum stay shown: searches for the nights of Dec 21 and Dec 23, 2026 both showed dorm beds at ¥99. A guest in late October 2026 found the common room cold."
+
+location:
+  address: "No. 41 Huanxi Road, Wulingyuan District, Zhangjiajie"
+  address_local: 张家界市武陵源区环溪路41号 张家界集结号公馆
+  lat: 29.342
+  lng: 110.54615
+  nearest_transit: "Park East Gate: 5 min by taxi, 15–30 min on foot"
+  approximate: true
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zhangjiajie-Jijiehao-Hostel/Zhangjiajie/331131?from=2026-12-21&to=2026-12-22&guests=1&currency=CNY"
+    title: "Zhangjiajie Jijiehao Hostel — Hostelworld (Dec 21–22, 2026 search: prices, 9.2/157, facilities, house rules, Oct–Nov 2026 reviews)"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zhangjiajie-Jijiehao-Hostel/Zhangjiajie/331131?from=2026-12-23&to=2026-12-24&guests=1&currency=CNY"
+    title: "Zhangjiajie Jijiehao Hostel — Hostelworld (Dec 23–24, 2026 search: same ¥99 dorm price)"
+    checked: 2026-11-11
+  - url: "https://www.booking.com/hotel/cn/zhang-jia-jie-ji-jie-hao-gong-guan.en-gb.html?checkin=2026-12-21&checkout=2026-12-22&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Zhangjiajie Jijiehao Inn — Booking.com (Dec 21–22, 2026: ¥99 + ¥6 tax, breakfast, 9.0/502, ID or passport at check-in)"
+    checked: 2026-11-11
+  - url: https://chinafortravelers.com/guides/tianmen-mountain-zhangjiajie/
+    title: "Tianmen Mountain guide — China for Travelers (Wulingyuan to the Tianmen base station: 50–70 min, ¥80–120)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Zhangjiajie
+    title: Zhangjiajie — Wikipedia (CMA climate normals 1991–2020)
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Prices from dated Hostelworld and Booking searches; Hostelworld shows ¥99 before tax, Booking ¥99 + ¥6. Dorms: ensuite on Hostelworld, shared bathroom on Booking. No source says outright that foreign passports are accepted; inferred from Booking's 'ID card or passport' rule and Oct–Nov 2026 reviews by guests from Europe, Canada and the USA. Pin converted from the hostel's Google Maps (GCJ) point."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: wulingyuan-gate
+    hook: Come back from the pillars to pizza, craft beer and a pool table full of other backpackers.
+    caption: "Wulingyuan's park gate square, near the hostel. No free photo of the hostel itself"
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "08:00–23:00", detail: No curfew; check-out by 12:00 }
+      - { label: Vibe, value: Social, detail: "Bar, pool table, games; atmosphere 9.2" }
+      - { label: To Tianmen, value: "50–70 min", detail: "Taxi ¥80–120 per a guide; or bus via the city" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 4-bed male or female dorm
+        local: 99
+        brl: 81.84
+        note: "Nights of Dec 21 and Dec 23, 2026, Hostelworld; tax not included; breakfast included"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zhangjiajie-Jijiehao-Hostel/Zhangjiajie/331131?from=2026-12-21&to=2026-12-22&guests=1"
+      - label: Bed in 4-bed dorm (Booking.com, tax included)
+        local: 105
+        brl: 86.80
+        note: "Night of Dec 21, 2026: ¥99 + ¥6 tax, breakfast included"
+        url: "https://www.booking.com/hotel/cn/zhang-jia-jie-ji-jie-hao-gong-guan.en-gb.html?checkin=2026-12-21&checkout=2026-12-22&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: Twin private room, ensuite (per room)
+        local: 161.24
+        brl: 133.30
+        note: "Night of Dec 21, 2026, Hostelworld (42% off ¥278), tax not included"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zhangjiajie-Jijiehao-Hostel/Zhangjiajie/331131?from=2026-12-21&to=2026-12-22&guests=1"
+    rating:
+      score: 9.2
+      out_of: 10
+      source: Hostelworld
+      reviews: 157
+      atmosphere: 9.2
+      checked: 2026-11-11
+    social:
+      - "Bar with craft beer, wine and whiskey, plus Naples-style pizza and fresh coffee"
+      - "Pool table, table football, a fighting-game machine and table games"
+      - "Recent reviews (Oct–Nov 2026): \"very social hostel\", \"makes it easy to meet other travellers\", \"people tend to stay inside\" because little is nearby"
+      - "Booking.com guests say people group up to go out for food, hikes and drinks"
+      - "Paid courses in calligraphy, kung fu and tea"
+    good_to_know:
+      - "**Free ticket booking**: staff book park, Tianmen and other tickets in advance and send an Amap route; several reviews praise the help planning the park"
+      - "Free breakfast: noodles, sandwiches or dumplings"
+      - "Free lockers and luggage storage; shared kitchen; paid rooftop laundry"
+      - "Check-in needs an ID card or passport; recent guests from Europe, Canada and the USA stayed in Oct–Nov 2026"
+      - "Some reviews: hard beds, no wifi in the rooms, coffee and snacks pricey, bathrooms not always clean"
+  - type: highlights
+    items:
+      - title: Built for the park
+        text: "About **15–30 minutes on foot** to the National Forest Park's East Gate, and the staff plan your route through it."
+      - title: The glass bridge is close
+        text: "The Grand Canyon glass bridge is about 27 km away, with a coach from Wulingyuan bus station."
+      - title: Tianmen is not
+        text: "Tianmen Mountain is at the city's edge: a guide puts it at 50–70 minutes and ¥80–120 by taxi from Wulingyuan. Fine for one day trip; if Tianmen is your only stop, sleep in the city instead."
+  - type: map
+    note: "Show the driver **张家界集结号公馆**. The pin is approximate."
+  - type: tips
+    variant: insider
+    items:
+      - "Ask the staff to book your Tianmen Line C ticket and the glass bridge slot for you; reviews say they handle it in advance."
+      - "Plan Tianmen on a clear day and leave early: the trip there is about an hour each way."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 12
+    conditions: Cold, damp, little sun
+    note: "Zhangjiajie city averages 4.9–12.2 °C in December; no Wulingyuan figures found. A late-October guest found the common room cold; the dorms list air-con."
+    wear: Warm layer for evenings in the common room
+  - type: pairs_well
+    items:
+      - { id: zhangjiajie-national-forest-park, note: "East Gate 15–30 min on foot" }
+      - { id: zhangjiajie-grand-canyon-glass-bridge, note: "About 27 km; coach from Wulingyuan" }
+      - { id: tianmen-mountain, note: "About an hour away, at the city's edge" }

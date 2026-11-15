@@ -1,0 +1,144 @@
+id: patpong-night-market
+name: "Patpong Night Market and Go-Go Strip"
+short_name: Patpong
+name_local: พัฒน์พงศ์
+name_romanized: Phat Phong
+country: thailand
+city: bangkok
+area: "Silom · Bang Rak"
+category: nightlife
+fame: iconic
+must_do: red-light-district
+tags: [red-light-district, night-market, go-go-bar, weekend-night, walk-through, history]
+kind: Do
+why: "Bangkok's oldest red-light strip, a Vietnam War R&R stop for US officers, now with souvenir stalls down the middle. Dodge the ping-pong-show touts."
+
+cost:
+  local: 175
+  currency: THB
+  brl: 29.23
+  note: "One beer at a bar on the strip (guide prices ฿150–200, 2024). Browsing the market is free"
+fx: { rate: 0.167, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1–2 h"
+best_time: "Sat or Sun night, 20:00–23:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Night market about 18:00–00:00/01:00 daily; bars about 20:00–02:00 (licensed entertainment zone)"
+  winter: "January is high season and the market runs every night. No seasonal closures found. Shops sell alcohol 11:00–24:00 only (2026 rules); bars here may serve until 02:00."
+
+location:
+  address: "Patpong 1 Road, between Silom Rd and Surawong Rd, Suriyawong, Bang Rak, Bangkok 10500"
+  address_local: "ถนนพัฒน์พงศ์ 1 ระหว่างถนนสีลมกับถนนสุรวงศ์ แขวงสุริยวงศ์ เขตบางรัก กรุงเทพฯ 10500"
+  lat: 13.72868
+  lng: 100.53183
+  nearest_transit: "BTS Sala Daeng or MRT Si Lom, a few minutes' walk"
+
+sources:
+  - url: https://en.wikipedia.org/wiki/Patpong
+    title: "Patpong: history, layout, entertainment zone, museum closure (Wikipedia)"
+    checked: 2026-11-13
+  - url: https://thaiest.com/blog/patpong-night-market-bangkok
+    title: "Patpong Night Market in Bangkok: guide and review (Thaiest)"
+    checked: 2026-11-13
+  - url: https://theo-courant.com/en/bangkok-patpong-red-light-district-go-go-bar
+    title: "Patpong – Sala Daeng: bar prices, touts and ping-pong shows (Théo Courant, Apr 2024)"
+    checked: 2026-11-13
+  - url: https://www.khaosanroad.com/articles/party-streets-in-bangkok-khao-san-sukhumvit-rca-patpong
+    title: "Top party streets in Bangkok: Silom and Patpong (khaosanroad.com)"
+    checked: 2026-11-13
+  - url: https://www.thaiholidayguide.com/bangkok-nightlife/
+    title: "Bangkok nightlife: scams to avoid (Thai Holiday Guide)"
+    checked: 2026-11-13
+  - url: https://onemileatatime.com/so-i-went-out-in-bangkok-last-night/
+    title: "So, I went out in Bangkok last night… (One Mile at a Time, Nov 2012: a Patpong bill scam first-hand)"
+    checked: 2026-11-13
+  - url: https://www.nationthailand.com/news/general/40072609
+    title: "Tourist Police step up support for international visitors: hotline 1155 (Nation Thailand)"
+    checked: 2026-11-13
+  - url: https://en.edaily.co.kr/news/eda202606085232/
+    title: "Thailand ends the 14:00–17:00 alcohol sales ban; sales 11:00–24:00 (Edaily, 8 Jun 2026)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Bar prices are from a 2024 guide (no 2026 price list found); market hours differ by source (18:00–01:00 vs 19:00–midnight). The 2012 bill story is old but matches the 2026 scam warnings. The Patpong Museum that older guides recommend closed in May 2023 (Wikipedia). Nothing specific to 2–9 Jan 2027."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: patpong-daytime
+    hook: "T-shirt stalls down the middle, go-go bar neon on both sides, and a tout with a laminated menu in between."
+    caption: "Patpong by day, before the stalls and neon go up"
+  - type: quick_facts
+    time_needed: "1–2 h"
+    best_time: "Sat/Sun, 20:00–23:00"
+    extra:
+      - { label: Slot, value: Weekend night, detail: "Sat 2, Sun 3 or Sat 9 Jan; work nights start at 19:00" }
+      - { label: The excuse, value: "A night market", detail: "Browse stalls and look in without going in" }
+      - { label: Avoid, value: "Ping-pong-show touts", detail: "Cheap menu outside, huge bill inside" }
+  - type: highlights
+    items:
+      - title: Where Bangkok's bar scene began
+        text: "Patpong's first go-go bar, the **Grand Prix**, opened in **1967**; the strip became an R&R stop for US officers during the Vietnam War, and *The Deer Hunter* used it to stand in for Saigon."
+      - title: A market down the middle
+        text: "Since the early 1990s the owning family has rented the pavement to **souvenir stalls**, so you walk between T-shirts and knock-off bags with bar doors on both sides. It's the easiest strip to see if Soi Cowboy feels like too much."
+      - title: Private streets, a family name
+        text: "The Patpongpanich family, Hainanese immigrants, bought the plot (a canal and a teak house) in **1946** and built the roads. Patpong 1 and 2 are still private."
+      - title: Three scenes in one block
+        text: "Patpong 1 and 2 for go-go bars, **Silom Soi 4** next door for open terraces and the gay scene (DJ Station is nearby), and Thaniya for Japanese hostess bars."
+  - type: prose
+    title: The ping-pong menu, decoded
+    dropcap: true
+    text: |-
+      On both Patpong lanes a tout will hold up a small laminated menu: a list of "shows" with cheap drink prices. The prices are there to lure you in (Théo Courant, 2024). Thai Holiday Guide warns that "free drinks" and "special shows" offered outside Patpong end in bills of **฿5,000–20,000** (R$835–3,340). A 2012 first-hand account has three Diet Cokes, quoted at ฿100 each, billed at ฿1,800 because of a ฿600-a-head **"entertainment" charge** nobody mentioned.
+
+      So the rule is simple: **don't follow a tout anywhere**, and only sit where you can see a price board. At an ordinary bar on the strip a beer is about ฿150–200.
+
+      Done properly, Patpong is an hour of browsing the market, a look down the lanes, a drink at a street-level bar or on Silom Soi 4, and street food on Silom Road on the way back to the BTS.
+  - type: gallery
+    images:
+      - { file: night-bazaar, caption: "The night bazaar under the stall awnings" }
+      - { file: safari-sign, caption: "Bar signs on the strip" }
+  - type: cost_breakdown
+    items:
+      - { label: "Browse the night market", local: 0, brl: 0 }
+      - { label: "One beer at a street-level bar", local: 175, brl: 29.23, estimate: true }
+      - { label: "Soft drink instead", local: 140, brl: 23.38, optional: true, estimate: true }
+      - { label: "Drink for a hostess (\"girl drink\"), if you buy one", local: 200, brl: 33.4, optional: true, estimate: true }
+  - type: menu
+    title: Bar prices on the strip (2024 guide)
+    items:
+      - { name: Beer, price_local: 175, price_brl: 29.23, note: "฿150–200", tag: drink }
+      - { name: Soft drink, price_local: 140, price_brl: 23.38, note: "฿120–165", tag: drink }
+      - { name: "Girl drink (for a hostess)", price_local: 200, price_brl: 33.4, note: "฿150–250, always optional", tag: drink }
+    note: "Tout-led \"show\" bars don't play by these prices: that's where the bill scams happen."
+  - type: map
+    note: "Two parallel lanes between **Silom Road and Surawong Road**. From BTS Sala Daeng or MRT Si Lom, walk along Silom; the market spills onto Silom Road too."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: weekend night.** Sat 2, Sun 3 or Sat 9 Jan."
+      - "Haggle at the stalls; Thaiest says it's souvenirs you can find anywhere, so don't pay first prices."
+      - "Foodland supermarket on Patpong has cheap drinks and snacks."
+      - "The **Patpong Museum** that older blogs recommend **closed in 2023**."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Ignore anyone whispering \"ping pong show\"** or offering free drinks; it's the classic scam here."
+      - "Ask the price before you sit, pay per round, and refuse any charge that wasn't on a posted board."
+      - "If a bar won't let you leave over a bill, call the **Tourist Police on 1155** (24 h, English)."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: warm, clear nights"
+    note: "January evenings are the most comfortable of the year, in the mid-20s °C. The market is under awnings anyway."
+    wear: "Light clothes; a small bag worn in front"
+  - type: pairs_well
+    items:
+      - { id: soi-cowboy, note: "The neon-only strip, at Asok on the BTS" }
+      - { id: lumphini-park-lizards, note: "Daytime: the park is a short walk away, across Rama IV Road" }

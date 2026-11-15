@@ -1,0 +1,155 @@
+id: spa-world-osaka
+name: "Spa World: Hot Springs of the World"
+short_name: Spa World
+name_local: スパワールド 世界の大温泉
+country: japan
+city: osaka
+area: Naniwa-ku · Shinsekai
+category: odd-local
+fame: popular
+tags: [onsen, bathhouse, sauna, open-late, overnight, indoor, no-tattoos]
+kind: Do
+why: "Natural hot-spring baths themed as Rome, Greece, Persia and Bali, open until 08:45 the next morning, for ¥1,500 with towels and loungewear."
+cost:
+  local: 1500
+  currency: JPY
+  brl: 52.65
+  note: "Baths only, any day. With pools ¥2,000 weekdays / ¥2,700 weekends. Staying 24:00–05:00 adds ¥1,450"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h, or overnight
+best_time: Weeknight after work, before midnight
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Baths 10:00–08:45 (next day), every day. Stone saunas 10:00–05:00. Pools weekdays to 19:00, weekends/holidays to 22:00"
+  closed: "Baths shut 08:45–10:00 daily for inspection"
+  winter: "Your Japan dates are now Jan 4–22. No winter closures are listed; the official site describes the building as open 24 hours. Pool hours are the ones set from Oct 1. The men's and women's zones swap every month; the homepage shows which is which. Mon Jan 11 is a public holiday, so weekend pool prices apply."
+
+location:
+  address: "3-4-24 Ebisu-higashi, Naniwa-ku, Osaka 556-0002"
+  address_local: 大阪市浪速区恵美須東3-4-24 スパワールド
+  lat: 34.64991
+  lng: 135.50561
+  nearest_transit: "Dobutsuen-mae (Midosuji / Sakaisuji), Exit 5 · JR Shin-Imamiya, East Exit"
+
+sources:
+  - url: https://www.spaworld.co.jp/english/info/ryokin/
+    title: "PRICING and REGULATIONS, incl. tattoo ban (Spa World, official English)"
+    checked: 2026-11-11
+  - url: https://www.spaworld.co.jp/info/ryokin/
+    title: "料金案内: weekday/weekend prices, late-night surcharge and bathing tax (Spa World, official Japanese)"
+    checked: 2026-11-11
+  - url: https://www.spaworld.co.jp/english/info/eigyo/
+    title: "OPENING HOURS: baths, stone saunas, pools, food (Spa World, official English)"
+    checked: 2026-11-11
+  - url: https://www.spaworld.co.jp/english/about/access.html
+    title: "LOCATION: address and stations (Spa World, official English)"
+    checked: 2026-11-11
+  - url: https://www.spaworld.co.jp/english/
+    title: "Spa World home: European and Asian zones, gender assigned per month (official)"
+    checked: 2026-11-11
+  - url: https://www.umetravel.com/japan-onsen/spa-world-osaka.html
+    title: "Spa World Osaka (UMETravel, updated Feb 9, 2026): bath themes, tattoo rule, what's included"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: "Osaka: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-11
+confidence: high
+confidence_note: "Prices, hours and the tattoo rule come from Spa World's own pages, read 11 Nov 2026. The bath themes come from UMETravel; the official zone pages weren't read in full. Some of the official site's broken (404) pages show spam text, which looks like a hacked page template; the price and hours pages read normally."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: building
+    focus: center
+    caption: "The Spa World building in Shinsekai. No free photos of the baths themselves exist"
+    hook: "A whole building of hot-spring baths in Shinsekai: Roman-themed baths on the 4th floor, a Bali bath on the 6th."
+  - type: quick_facts
+    time_needed: 2–3 h, or overnight
+    best_time: Weeknight after work, before midnight
+    extra:
+      - label: Tattoos
+        value: Not allowed
+        detail: Any size, ink or seals; official rule
+      - label: Included
+        value: Towels, shampoo, loungewear
+        detail: Bring nothing for the baths
+      - label: Late surcharge
+        value: +¥1,450 for 24:00–05:00
+        detail: ¥1,300 late fee + ¥150 bathing tax
+  - type: highlights
+    items:
+      - title: Two worlds of baths
+        text: "The **European zone** has Roman, Greek and Spanish-themed baths. The **Asian zone** has Japanese, Persian and Bali ones. Each is men-only or women-only for a month, then they swap."
+      - title: Cheap for what you get
+        text: "**¥1,500** any day for the baths, with towels, shampoo and loungewear included."
+      - title: Open almost all night
+        text: "Baths run **10:00 to 08:45 the next morning**. Stay past midnight and you pay an extra ¥1,450."
+      - title: More than baths
+        text: "Pools with water slides, darts, ping-pong, karaoke and billiards (extra fees), plus a food court open until **01:00** (03:00 on Fri, Sat and holiday eves)."
+  - type: prose
+    title: How it works
+    dropcap: true
+    text: |-
+      Walk in, no ticket needed. Staff may ask to see your wristband, and everyone pays at the machines when leaving, even if you bought nothing extra. The homepage shows which zone is men's and which is women's this month; it swaps monthly.
+
+      The **pools** on the 8th floor need a **swimsuit** (rent one for ¥650). The pool ticket costs more (¥2,000 on weekdays) and the pools close at 19:00 on weekdays, so on a work night, just do the baths.
+
+      The rule that matters most for foreigners: **no tattoos** of any size, *including tattoo seals*, per the official regulations. If you have ink, this one isn't for you.
+  - type: gallery
+    images:
+      - file: tsutenkaku-view
+        caption: Tsutenkaku at night, seen from the Spa World building
+      - file: from-tsutenkaku
+        caption: The Spa World building from above
+  - type: cost_breakdown
+    items:
+      - label: Entry, baths only (any day)
+        local: 1500
+        brl: 52.65
+      - label: Pools on a weekday (instead, +¥500)
+        local: 500
+        brl: 17.55
+        optional: true
+      - label: Ganban-yoku stone saunas, weekday
+        local: 800
+        brl: 28.08
+        optional: true
+      - label: Staying 24:00–05:00 (late fee + bathing tax)
+        local: 1450
+        brl: 50.9
+        optional: true
+      - label: Swimsuit rental (pools only)
+        local: 650
+        brl: 22.82
+        optional: true
+  - type: map
+    zoom: 16
+    note: "From **Dobutsuen-mae Exit 5** or **JR Shin-Imamiya East Exit**. It's in Shinsekai, so dinner and the bath are one evening."
+  - type: tips
+    variant: insider
+    items:
+      - "Leave before **midnight** to avoid the ¥1,450 late surcharge, or stay all night and treat it as a cheap bed."
+      - "No tickets or coupons needed, per the official FAQ. Just walk in."
+      - "Make it the second half of a Shinsekai evening: kushikatsu first, then a long soak."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Tattoos are banned** (including tattoo ink and seals). The rules say anyone breaking them may be asked to leave."
+      - "No outside food or drink, and you can't use the baths **drunk**. Go easy on the beers at dinner."
+      - "The baths close **08:45–10:00** every morning for inspection, so you can't arrive or stay through that window."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool and mostly dry, little rain
+    note: "The baths are indoors, so January weather only matters on the walk there. A cold night is the best excuse for a long hot soak."
+    wear: Anything; loungewear and towels are provided
+  - type: pairs_well
+    items:
+      - id: shinsekai-kushikatsu
+        note: Kushikatsu dinner in the same neighbourhood first
+      - id: tenma-standing-bars
+        note: Another cheap Osaka evening for a different night

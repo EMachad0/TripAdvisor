@@ -1,0 +1,76 @@
+id: krabi-railay
+country: thailand
+name: "Krabi, Ao Nang & Railay"
+name_local: กระบี่ · อ่าวนาง · ไร่เลย์
+region: Krabi, Andaman coast
+scope: region
+cities: [krabi-railay]
+why: "Limestone cliffs over white sand, reached only by longtail boat: Railay is the south's postcard and a world climbing spot. A 1h25 flight from Bangkok, but it needs 3+ days, so only with extra days or the laptop."
+best_for: [nature, views]
+highlights: ["Railay West and Phra Nang beaches", "Longtail boat from Ao Nang", "Railay viewpoint and lagoon scramble", "Rock climbing at Railay and Ton Sai", "Kayaking around the sea cliffs"]
+days_suggested: { min: 3, max: 5 }
+cost_level: medium
+fame: popular
+lat: 8.03109
+lng: 98.82188
+getting_there: "Fly Bangkok (DMK or BKK) → Krabi, 1h25, about ฿900–2,000 one way (R$148–330), more in Dec–Jan. Airport shuttle to Ao Nang ฿150. Or the 18:40 night bus, ฿715, arriving 05:40."
+getting_around: "Railay has no road access: longtail from Ao Nang beach, about 10 min, ฿100 a person once 8 people board. On Railay everything is a 5–10 min walk, except Ton Sai, a jungle path away."
+winter_note: "January is the Andaman dry season (Nov–May): about 22 °C at night and 33 °C by day (1981–2010 normals), calm seas and the most boats running. It is also peak season: cheap flights for mid-Dec to January sell out first, so book early."
+image: railay-west-longtails
+sources:
+  - url: https://www.visitthailandtoday.com/guides/bangkok-to-krabi
+    title: "Visit Thailand Today (2026-10-19): Bangkok–Krabi flights, Lignite night bus ฿715, airport shuttle ฿150 to Ao Nang"
+    checked: 2026-11-12
+  - url: https://en.wikivoyage.org/wiki/Rai_Leh
+    title: "Rai Leh (Wikivoyage): boat-only access, longtail ฿100 (min. 8), beaches, viewpoint, lagoon, climbing, Nov–May dry season"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Krabi
+    title: "Krabi (Wikipedia): January climate normals 1981–2010"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Flight range and transfers are from one 2026 guide, not a live search; fares for the actual trip dates were not checked. The ฿100 longtail fare and the kayak prices are from Wikivoyage listings that carry no recent date, so expect them to be a little higher now. Climate figures are 1981–2010 normals."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Sheer limestone walls, longtail boats parked on the sand and no roads in: a beach you can only reach by sea."
+    caption: "Longtail boats on Railay West"
+    focus: "75% 70%"
+  - type: highlights
+    items:
+      - title: A beach cut off by cliffs
+        text: "Railay sits on the tip of a peninsula walled in by **Khao Nang mountain**, so there are no cars: you wade out to a longtail at Ao Nang and are there in about 10 minutes."
+      - title: Phra Nang beach
+        text: "A broad strip of white sand with massive cliffs at each end, on the peninsula's southern tip, with the small cave shrine to the drowned princess at its north end."
+      - title: Viewpoint and lagoon
+        text: "A 20–25 minute climb on a muddy, roped path to a viewpoint over Railay and Ton Sai, then a steep scramble down to a hidden lagoon. Not in flip-flops."
+      - title: World-class climbing
+        text: "**More than 700 bolted routes** on the limestone above the sea. Climbing shops on Railay East and Ton Sai run beginner courses and rent gear."
+  - type: prose
+    title: What extra days down south buy you
+    text: |-
+      Bangkok and one region is the usual shape of a week in Thailand. Krabi is the south's answer to Chiang Mai: instead of temples and cool mornings you get the **Andaman coast**, warm water, and the cliffs that end up on every Thailand poster. Three days is the minimum worth the flight: one arriving and settling into Ao Nang, one on Railay (beach, viewpoint, a kayak or a climb), and one for a longtail out to the islands off Railay, such as Ko Poda, or simply a beach day.
+
+      **Where to base yourself.** **Ao Nang** is the practical base: the ฿150 airport shuttle goes there and the longtails to Railay leave from its beach. **Railay** itself has budget to mid-range places on the mangrove-lined east side, and **Ton Sai**, round the corner, is where climbers and backpackers stay cheaply.
+
+      **How it fits this trip.** It does not fit a normal weekend: you land from China on Saturday 2 January and work 19:00–04:00 Monday to Friday. Krabi works only if you add days to Thailand, or if you take the laptop and work from Ao Nang during the week, sleeping late and spending afternoons on the beach. In that case pick a bed with reliable Wi-Fi, and keep the flight back off the last day in case of delays.
+  - type: gallery
+    images:
+      - { file: railay-viewpoint, caption: "Railay and its cliffs from the viewpoint trail" }
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: needs extra days or a weekend + laptop.** Not a day trip from Bangkok."
+      - "From Krabi airport take the **฿150 shuttle** to Ao Nang; the taxi counter charges ฿700–1,000 for the same road."
+      - "Longtails leave Ao Nang once eight people are aboard. Wear clothes that can get wet: you wade out to the boat."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The lagoon path is steep, rocky and slippery; guides warn against it in sandals or with a bag."
+      - "Monkeys on the viewpoint trail snatch glasses, food and wallets. Don't feed them."
+  - type: weather
+    temp_low_c: 22
+    temp_high_c: 33
+    conditions: "Dry season: sunny, hot, calm seas"
+    note: "The best weather of the year on the Andaman coast. Midday sun is fierce on the sand; climb and hike in the morning."
+    wear: "Swimwear, sandals plus closed shoes for the trails, reef-safe sunscreen"

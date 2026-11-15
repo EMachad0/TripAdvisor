@@ -1,0 +1,22 @@
+# Independent review of jodd-fairs-rama-9. Written by `./atr review`; do not edit by hand.
+id: jodd-fairs-rama-9
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: fb188439303e3b1775bc1b5ff555e88536e65dd6e9b14047f09c5166099afa2c
+facts:
+  supported: 8
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: The hours (daily 17:00–01:00) and the claim that the market is still open come only from two blogs. The Travjoy guide has no date, and the Thaiest guide was last updated on 3 Oct 2025, more than a year ago. The Ratchada site has moved once already, and the traveler will plan an evening around these hours.
+    evidence: 'Two 2026 guides now back the hours. https://www.airportels.asia/travel-guides/bangkok-night-market/ says "re-checked in July 2026" and lists Jodd Fairs Ratchada "Daily", "17:00-01:00", Exit 4. https://go2-thailand.com/blog/jodd-fairs-bangkok-night-market-guide/ says "Last editorial review: 26 July 2026" and "daily from 17:00 to 01:00". hours.winter now says to check Facebook or LINE @Joddfairs first. No first-party post was found, but the stop-gap fix is on the page.'
+  - field: best_time
+    problem: The page says to arrive at 17:30–19:00. On Mon 4 – Fri 8 Jan the traveler works night shifts from 19:00 to 04:00 (config/trip.yaml), so that slot ends just as the shift starts. The evenings that actually work are Sat 2, Sun 3 and Sat 9 Jan, and the page warns that weekend nights are the most crowded.
+    evidence: best_time, the 'Your slot' quick fact and the insider tips now name Sat 2, Sun 3 and Sat 9 Jan at 17:00–18:00, and say a work day only allows a short 17:00 dinner. This matches config/trip.yaml (Thailand 2–10 Jan, shifts 19:00–04:00 Mon 4 – Fri 8 Jan). 1 Jan 2027 is a Friday, so the weekdays are right.
+rereview_of: 932bdc0fec13eccd4ec49325224b4ba9e9beb02cbe4b306ffd24b2cdcd952383
+summary: Both earlier findings are resolved. The hours now rest on two guides re-checked in July 2026, the page tells the traveler to check the official channels first, and the timing names the free evenings in this trip. The new weather low of 23 °C matches Wikipedia's 1991–2020 January mean minimum of 23.4 °C, and the changed text adds no new unsupported fact.
+model: claude-opus-5-5
+cost_usd: 0.574

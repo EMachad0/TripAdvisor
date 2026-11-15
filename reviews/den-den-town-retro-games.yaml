@@ -1,0 +1,22 @@
+# Independent review of den-den-town-retro-games. Written by `./atr review`; do not edit by hand.
+id: den-den-town-retro-games
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: b306e52790e940fe8cab284a7ce4cae0eeb6bb2153dab28bf3c777664100313a
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: Athena's 9:00–24:00 hours, its six floors and its fighting games on 4F–6F rest on one tourism article from March 2025, which says its information may have changed. There is no official source. The page then plans the evening around Athena being open until midnight.
+    evidence: "The page now cites Athena's official site. https://athena-nipponbashi.com/access/ says \"9:00-24:00 年中無休\" and gives the address 大阪市浪速区難波中2-1-22 (page dated 2022.09.21). The official site also gives the floors: capsule toys on 3F (\"アテナ日本橋3階にて、カプセルトイ…\") and fighting games on 5F–6F (\"アテナ日本橋5F・6F名作格ゲーコーナー\"). The Mar 2025 article agrees, and confidence_note states that the official page dates from 2022."
+  - field: hours.winter
+    problem: The page says Athena has no official page and labels its 9:00–24:00 hours and year-round opening as unverified, and says only Super Potato confirms 年中無休 on its own page. Athena's official site, linked from the page's own cited article, states both.
+    evidence: "The 'unverified' and 'not confirmed since' wording is gone from hours.summary, blocks[2].items[2], the prose, the tips and confidence_note. hours.winter now says both Super Potato and Athena state 年中無休. https://athena-nipponbashi.com/access/ supports this: \"9:00-24:00 年中無休\"."
+rereview_of: 253939e6972a68a69e3c131ebec2573251b483552a0bcfee0e2c2d264886583f
+summary: Both earlier findings are resolved. Athena's 9:00–24:00 hours, its 年中無休 (open every day) statement, the capsule-toy shop on 3F and the classic fighting-game corner on 5F–6F are now on Athena's official site, cited as a 2022 page. The edited hook, quote, tips and prose match those sources and add no unsupported facts. The page validates.
+model: claude-opus-5-5
+cost_usd: 0.316

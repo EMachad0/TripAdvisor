@@ -1,0 +1,124 @@
+id: river-vibe-rooftop
+name: "River Vibe Rooftop, Talat Noi"
+short_name: River Vibe
+name_local: ริเวอร์ไวบ์
+country: thailand
+city: bangkok
+area: Talat Noi · Chinatown
+category: views
+fame: hidden
+tags: [rooftop, sunset, river, bar, cheap]
+kind: Do
+why: "A small hotel's rooftop 8 floors above the Chao Phraya bend: sunset over the river for the price of a ฿110 beer, no dress code, no minimum spend."
+cost:
+  local: 110
+  currency: THB
+  brl: 18.14
+  note: "One beer (2026 guide: ~฿110; another 2026 guide says Singha/Chang ฿120–160). No cover or minimum"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: "Arrive ~17:30 for sunset"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 07:30–10:30 (breakfast) and 11:00–23:00"
+  winter: "January is dry season, so clear sunsets are likely. No seasonal closures listed. Sunset is early evening; a 2026 guide gives golden hour as roughly 17:30–18:45 most of the year."
+
+location:
+  address: "River View Residence (formerly River View Guest House), 768 Trok Vanich 2, Song Wat Rd, Talad Noi, Samphanthawong, Bangkok 10100"
+  address_local: "ริเวอร์วิว เรสซิเดนซ์ 768 ซอยวานิช 2 แขวงตลาดน้อย เขตสัมพันธวงศ์ กรุงเทพฯ 10100"
+  lat: 13.73444
+  lng: 100.51198
+  nearest_transit: "MRT Wat Mangkon (0.9 km) or Hua Lamphong; Ratchawong pier (N5) on weekdays"
+
+sources:
+  - url: https://riverviewbkk.com/
+    title: "River View Residence / River Vibe Restaurant and Bar: address and phones (official)"
+    checked: 2026-11-13
+  - url: https://riverviewbkk.com/map-direction/
+    title: "River View Residence: map and directions (official)"
+    checked: 2026-11-13
+  - url: https://www.chaophrayaexpressboat.com/chaophrayaexpressboat
+    title: "Chao Phraya Express Boat: routes and timetable from 9 Nov 2026 (operator)"
+    checked: 2026-11-13
+  - url: https://www.nightlife.run/info_venues/rivervibe.bkk
+    title: "River Vibe: venue listing, 8th floor of River View Residence, hours (nightlife.run)"
+    checked: 2026-11-13
+  - url: https://www.nightlife.run/en/blog/bestrooftopbarsinbangkok2026-en
+    title: "Best rooftop bars in Bangkok (2026): River Vibe as best value and hidden gem (nightlife.run)"
+    checked: 2026-11-12
+  - url: https://www.trip.com/restaurant/thailand/bangkok/detail/river-vibe-bar-and-restaurant-17042236/
+    title: "River Vibe Bar & Restaurant: hours, address, reviews (Trip.com)"
+    checked: 2026-11-12
+  - url: https://www.khaosanroad.com/articles/best-budget-rooftop-bars-bangkok-khao-san-road-travelers
+    title: "Best budget rooftop bars in Bangkok for Khao San travelers (khaosanroad.com, Jun 2026)"
+    checked: 2026-11-12
+  - url: https://gurulist.net/en/bangkok/nightlife/river-vibe-restaurant-bar-17093.htm
+    title: "River Vibe Restaurant & Bar: address and transit (Gurulist)"
+    checked: 2026-11-12
+  - url: https://www.timeout.com/bangkok/bars/best-cheap-affordable-rooftop-bars-bangkok
+    title: "Best wallet-friendly rooftop bars in Bangkok (Time Out, 2018 list)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Beer price differs between two 2026 guides (฿110 vs ฿120–160); the card uses ฿110. Hours from the nightlife.run venue listing and Trip.com; riverviewbkk.com lists no hours. Taksin Bridge view is from Time Out's 2018 list. Guides say 8th floor; one Trip.com reviewer says 8th–9th. Photos: views from a Talat Noi high-rise, not the bar. Trip.com read in a browser (blocks link checkers)."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: talat-noi-sunset
+    caption: "Sunset over the Chao Phraya from a Talat Noi high-rise, not the bar itself"
+    hook: "Barges sliding past below, the river bending downstream towards Taksin Bridge, and a cold Chang on a hotel roof."
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: "17:30, for sunset"
+    extra:
+      - { label: Slot, value: "Weekend evening", detail: "Or a weekday sunset if you can be back at your desk by 19:00" }
+      - { label: Dress code, value: "None", detail: "No minimum spend" }
+  - type: highlights
+    items:
+      - title: The river right below you
+        text: "Eight floors up on the bend of the **Chao Phraya**, with views downriver towards Taksin Bridge (Time Out, 2018). A 2026 guide picks it for best sunset and best photos."
+      - title: Rooftop prices without the rooftop markup
+        text: "About **฿110 a beer** where the famous sky bars charge several times that. No dress code, no minimum spend."
+      - title: A hidden one
+        text: "It sits on top of **River View Residence**, a small Talat Noi hotel, and barely advertises on social media, so the crowd is local couples and travelers in the know."
+      - title: Talat Noi on the way
+        text: "Getting there means a walk through the alleys of Talat Noi, the riverside end of Chinatown. River View was the first hotel in the neighbourhood."
+  - type: gallery
+    images:
+      - file: talat-noi-day
+        caption: "The same stretch of river by day, from Talat Noi"
+  - type: menu
+    items:
+      - { name: "Local beer", price_local: 110, price_brl: 18.14, note: "nightlife.run 2026", tag: cheap }
+      - { name: "Singha or Chang", name_local: สิงห์ / ช้าง, price_local: 140, price_brl: 23.09, note: "฿120–160 per khaosanroad.com 2026", tag: drink }
+    note: "Thai food is served too. Prices from two 2026 guides, not a menu we saw."
+  - type: cost_breakdown
+    items:
+      - { label: "One beer", local: 110, brl: 18.14 }
+      - { label: "A second beer", local: 110, brl: 18.14, optional: true }
+  - type: map
+    note: "Walk in from Song Wat Road along **Trok Vanich 2** (Soi Wanit 2); the bar tops **River View Residence** (ex-River View Guest House). Weekdays only: Orange-flag express boat (**Mon–Fri**) to **Ratchawong pier (N5)**, then a 10-min walk. Lost? Call the hotel: (+66) 99 352 2078."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: weekend evening** (Sat 2, Sun 3, Sat 9 Jan). On a weekday, only if you leave by ~18:30 to start work at 19:00."
+      - "Arrive before 17:30 to get a river-side seat before sunset; you can call ahead (+66 99 352 2078) or just walk in."
+      - "Combine it with an afternoon in Talat Noi and dinner in Yaowarat afterwards."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: clear, warm evenings"
+    note: "January is the best month for this: dry skies for the sunset, and reviewers mention a cool breeze up top."
+    wear: "Shorts and T-shirt are fine"
+  - type: pairs_well
+    items:
+      - { id: talat-noi-so-heng-tai, note: "Same neighbourhood: old Chinese mansion, before sunset" }
+      - { id: yaowarat-street-food, note: "Chinatown street food after dark, a short walk" }
+      - { id: chao-phraya-express-boat, note: "Arrive by river on a weekday (boats run Mon–Fri)" }

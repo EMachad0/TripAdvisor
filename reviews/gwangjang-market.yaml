@@ -1,0 +1,44 @@
+# Independent review of gwangjang-market. Written by `./atr review`; do not edit by hand.
+id: gwangjang-market
+type: place
+reviewed: 2026-11-12
+verdict: fix
+content_hash: ca4e274f90a9361acff37d1f28705c4487f075678fb5aadb5c842b7329fdc063
+facts:
+  supported: 15
+  unsupported: 6
+  contradicted: 0
+issues:
+  - severity: should
+    field: hours.closed
+    problem: The claim that goods shops close on Sundays is not backed by any listed source. Wikipedia gives no hours, the Korea Times article gives no hours, and the Namane blog's info card says the market is open every day ('매일 오전 9:00 ~ 오후 10:30'). The official site (kwangjangmarket.co.kr) would not open because of a self-signed TLS certificate, so I could not check it there.
+    evidence: https://blog.namanecard.com/en/seoul-street-food-guide-2026-gwangjang-myeongdong/ — "매일 오전 9:00 ~ 오후 10:30"
+    fix: Either cite a source for the Sunday closure of the goods shops or remove it, and say only that the food alley is listed as open daily.
+  - severity: should
+    field: hours.summary
+    problem: "The only source for the hours is one travel blog, and it contradicts itself: the info card gives 9:00–22:30 and the body text says 'The inner food hall runs from 9 AM to 11 PM'. The claim that griddles only start at 11:00–12:00 has no source at all."
+    evidence: https://blog.namanecard.com/en/seoul-street-food-guide-2026-gwangjang-myeongdong/ — "The inner food hall runs from 9 AM to 11 PM"
+    fix: Add a stronger source for the hours (VisitKorea's Korean 광장시장 page or VisitSeoul) and either source the 11:00–12:00 griddle claim or drop it.
+  - severity: should
+    field: blocks[3].text
+    problem: The prose says viral overcharging videos came out 'in 2025 and 2026'. The Korea Times source covers only the November 2025 incident, and the blog describes undated forum reports, so the 2026 part has no source. The real-name system is also presented as promised, while the source calls it only 'plans to introduce'.
+    evidence: https://www.koreatimes.co.kr/lifestyle/travel-food/20251112/gwangjang-market-stall-suspended-after-overcharging-dispute-goes-viral — dated Nov 12, 2025; "announced plans to introduce a 'real-name system' for roughly 250 street stalls"
+    fix: Change the text to 'In late 2025' (or cite a 2026 incident) and describe the real-name system as planned, not in effect.
+  - severity: nit
+    field: blocks[11].temp_low_c
+    problem: The weather numbers (−7 / 2 °C) have no source. Seoul's 1991–2020 January normals on Wikipedia are a 2.1 °C mean high and a −5.5 °C mean low, so −7 is colder than the normal.
+    evidence: "https://en.wikipedia.org/wiki/Seoul (climate table, January: mean max 2.1 °C, mean min −5.5 °C)"
+    fix: Use −6 / 2 °C and cite a climate source.
+  - severity: nit
+    field: blocks[7].note
+    problem: "The rendered cost box says the same thing twice: the auto line 'Food: paid from your meal money, not the \"everything else\" budget' sits right above the note 'Counts as a meal, so it comes out of your food money, not the R$140 'everything else' budget.'"
+    evidence: ./atr shot desktop dark, slice s04 (cost_breakdown footer)
+    fix: Remove the cost_breakdown note, or change it to say something new, such as how much the yukhoe add-on raises the total.
+  - severity: nit
+    field: blocks[9].items[1]
+    problem: The tip about ATMs with English menus at the convenience stores by the entrances has no source.
+    evidence: No listed source mentions ATMs; the blog only advises withdrawing cash before you arrive.
+    fix: Either source the ATM location or change the tip to 'withdraw cash before you go'.
+summary: The sources support the prices (bindaetteok, mayak gimbap, yukhoe, sundae), the 1905 founding and first-daily-market claim, the Netflix feature, Jongno 5-ga Exit 8, the pin, cash-only, and the November 2025 sundae suspension, and the budget angle is good. The hours and Sunday-closure facts rest on one self-contradicting blog or on no source at all, and the '2025 and 2026' overcharging claim goes beyond its source; fix these before the traveler plans around them.
+model: claude-opus-5-5
+cost_usd: 0.77

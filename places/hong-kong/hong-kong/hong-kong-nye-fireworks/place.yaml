@@ -1,0 +1,136 @@
+id: hong-kong-nye-fireworks
+name: "Hong Kong NYE Harbour Fireworks"
+short_name: Hong Kong NYE Fireworks
+name_local: 維港除夕倒數煙花匯演
+name_romanized: Wai Gong ceoi zik dou sou jin faa wui jin
+country: hong-kong
+city: hong-kong
+area: Tsim Sha Tsui waterfront
+category: views
+fame: iconic
+tags: [nye, fireworks, skyline, harbour, free, crowds, countdown]
+kind: See
+why: "Fireworks are back for NYE 2026, announced Nov 10 as a bigger show for Hong Kong's 30th SAR anniversary, over the skyline that defines New Year TV."
+when:
+  dates:
+    - { from: 2026-12-31, to: 2026-12-31 }
+cost:
+  local: 0
+  currency: HKD
+  brl: 0
+  note: "Free to watch. Budget a few MTR rides and a drink; a harbour-view bar or cruise costs far more"
+fx: { rate: 0.7035, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "20:00–01:30"
+best_time: "Dec 31; at the TST waterfront by 20:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Countdown fireworks at midnight on Dec 31; a past show ran 12 minutes from 00:00"
+  winter: "**Confirmed in principle on Nov 10, 2026**: the Tourism Board chairman said NYE fireworks return, themed on the SAR's 30th anniversary, at a bigger scale. Exact time, length and viewing areas aren't out yet. Winter Fest runs Nov 18, 2026 – Jan 5, 2027."
+
+location:
+  address: Tsim Sha Tsui Promenade by the Clock Tower and Cultural Centre, Salisbury Road, Kowloon
+  address_local: 九龍尖沙咀梳士巴利道 尖沙咀海濱長廊（鐘樓／文化中心）
+  lat: 22.2936
+  lng: 114.1695
+  nearest_transit: East Tsim Sha Tsui or Tsim Sha Tsui MTR (some exits close on NYE)
+
+sources:
+  - url: https://www.dotdotnews.com/a/202611/10/AP6af2e1e2e4b091a65a2f404a.html
+    title: "除夕倒數煙花壓軸回歸 (DotDotNews, 2026-11-10): HKTB chairman announces NYE fireworks return"
+    checked: 2026-11-10
+  - url: https://spyan-jour.hkbu.edu.hk/2026/11/10/%E5%86%AC%E6%97%A5%E5%B7%A1%E7%A6%AE%E4%B8%8B%E5%91%A8%E4%B8%89%E9%96%8B%E5%B9%95%E5%B9%BB%E5%BD%A9%E8%A9%A0%E9%A6%99%E6%B1%9F%E6%9C%80%E5%BE%8C%E4%B8%80%E6%AC%A1%E5%8A%A0%E6%8F%92%E7%85%99/
+    title: "冬日巡禮下周三開幕 (HKBU journalism, 2026-11-10): Winter Fest dates, Dec 31 fireworks planned"
+    checked: 2026-11-10
+  - url: https://www.news.gov.hk/eng/2026/01/20260101/20260101_083314_895.html
+    title: "HK welcomes 2026 (news.gov.hk, 2026-01-01): no fireworks; countdown on Chater Road with building light show"
+    checked: 2026-11-10
+  - url: https://www.info.gov.hk/gia/general/202512/31/P2025123100318.htm
+    title: "NYE special traffic and crowd measures (HK Police, 2025-12-31): LKF closed to cars 14:00–05:00"
+    checked: 2026-11-10
+  - url: https://www.thestandard.com.hk/news/article/59164/Legendary-bang-to-start-the-year
+    title: "Legendary bang to start the year (The Standard, 2024-01-02): 12 min, 5 barges, about 480,000 watchers"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Fireworks return comes from same-day reports of the HKTB launch (Nov 10, 2026). Time, length, barges and viewing zones aren't published. Crowd and road-closure patterns come from 2023–2025 events."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: harbour-fireworks
+    caption: Fireworks over Victoria Harbour from the Kowloon side (a past Lunar New Year show)
+    hook: Hong Kong Island's skyline exploding in colour, reflected on the harbour, with half a million people counting down.
+  - type: quick_facts
+    time_needed: "20:00–01:30"
+    best_time: "Dec 31; at the TST waterfront by 20:00"
+    extra:
+      - label: Status 2026
+        value: Fireworks announced
+        detail: "Nov 10, 2026; details to come"
+      - label: Last show length
+        value: 12 min
+        detail: NYE into 2024, from 5 barges
+      - label: Crowd
+        value: About 480,000
+        detail: Both shores, NYE into 2024
+  - type: highlights
+    items:
+      - title: The comeback show
+        text: "After last year's cancellation, the Tourism Board says NYE 2026 fireworks will be **bigger**, themed on **30 years of the Hong Kong SAR**."
+      - title: The skyline as a stage
+        text: "Shells go up from barges in the middle of the harbour (five of them last time). From Tsim Sha Tsui you see the whole island skyline lit up behind them."
+      - title: Winter Fest all around
+        text: "**Hong Kong Winter Fest** (Nov 18 – Jan 5) puts Christmas villages and light shows in Central, Tsim Sha Tsui and Causeway Bay."
+      - title: Lan Kwai Fong after midnight
+        text: "Hong Kong's bar quarter becomes a street party. Police close it to cars from 14:00 to 05:00 and manage the crowd on foot."
+  - type: prose
+    title: What happened last year, and what's known now
+    dropcap: true
+    text: |-
+      For the countdown into **2026**, the harbour fireworks were **cancelled** after the deadly Wang Fuk Court fire in Tai Po in November 2025. Instead, the city held a countdown on the **Chater Road** pedestrian zone in Central, with a light show projected onto eight buildings and live music.
+
+      On **Nov 10, 2026**, launching this year's Winter Fest, Tourism Board chairman Lam Kin-ngok said the year-end fireworks would return as the festival's finale, larger than before. As of today there's no official time, length or map of viewing zones. Expect the usual midnight start, and expect it to be the biggest crowd of your trip.
+
+      **The catch for this trip**: you plan to stay in mainland China until Jan 2, with Hong Kong on Feb 4–9. NYE here means leaving the mainland by Dec 30–31 and reshuffling the route. Worth it only if fireworks rank above everything else on the China leg.
+  - type: gallery
+    images:
+      - file: fireworks-over-central
+        caption: Shells bursting over Central's towers
+      - file: tst-promenade-night
+        caption: The Tsim Sha Tsui waterfront on a normal night; on NYE it's wall-to-wall
+      - file: chater-road-dec-2025
+        caption: Chater Road in Central, December 2025, site of last year's fireworks-free countdown
+  - type: quote
+    variant: vibe
+    text: The whole harbourfront counts from ten in Cantonese, English and Mandarin at once.
+  - type: cost_breakdown
+    items:
+      - label: Watching from the promenade
+        local: 0
+        brl: 0
+    note: "Free. Harbour-view bars and cruises sell NYE packages at a big markup; the promenade has the same view."
+  - type: map
+    zoom: 15
+    note: "The Clock Tower and Cultural Centre fill first. Once they're full, police divert people to other parts of the waterfront."
+  - type: tips
+    variant: insider
+    items:
+      - "Be on the Kowloon side by **20:00**. Late arrivals get diverted far from the water."
+      - "Bring water and snacks and use the toilet before you settle. Once you're in a pen, you can't easily leave."
+      - "Watch for the official **HKTB announcement** (discoverhongkong.com) in December: viewing areas, MTR arrangements and timing."
+      - "Book your hostel **now** if you go. NYE nights in TST fill early."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Some MTR exits** at Tsim Sha Tsui and East TST have closed for crowd control on past NYEs. Know a second station (Jordan, Hung Hom)."
+      - "Lan Kwai Fong is closed to cars from 14:00 to 05:00 and police may hold people back when it's full. Go early or go after 01:00."
+      - "Leaving Hong Kong for NYE **cuts your mainland China stay short**. You can't do Chongqing or Harbin NYE as well."
+  - type: weather
+    temp_low_c: 14
+    temp_high_c: 20
+    conditions: Mild, dry, often clear; can be windy by the water
+    note: "The warmest NYE option by far. A light jacket is enough; the crowd is the hard part, not the weather."
+    wear: Light jacket, comfy shoes, small bag

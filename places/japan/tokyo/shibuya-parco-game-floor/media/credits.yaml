@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: nintendo-entrance
+  title: File:Shibuya Parco 200220g.jpg
+  author: 江戸村のとくぞう
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shibuya_Parco_200220g.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/13/Shibuya_Parco_200220g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 渋谷パルコ
+  width: 4496
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: nintendo-floor
+  title: File:Nintendo Tokyo (PXL 20231220 022538554).jpg
+  author: IagoQnsi
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nintendo_Tokyo_(PXL_20231220_022538554).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/26/Nintendo_Tokyo_%28PXL_20231220_022538554%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The official Nintendo store in Parco Shibuya, a shopping center in Tokyo, Japan
+  width: 4080
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: pokemon-center
+  title: File:Pokémon Center Shibuya (52506444865).jpg
+  author: Dick Thomas Johnson from Tokyo, Japan
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Pok%C3%A9mon_Center_Shibuya_(52506444865).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/46/Pok%C3%A9mon_Center_Shibuya_%2852506444865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ポケモンセンターシブヤ
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: capcom-store
+  title: File:Capcom Store Tokyo at Shibuya PARCO - Dec 2019.jpg
+  author: Cabeza2000
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Capcom_Store_Tokyo_at_Shibuya_PARCO_-_Dec_2019.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9e/Capcom_Store_Tokyo_at_Shibuya_PARCO_-_Dec_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Capcom Store Tokyo at Shibuya PARCO - Dec 2019
+  width: 4032
+  height: 2268
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

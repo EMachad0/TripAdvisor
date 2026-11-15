@@ -1,0 +1,261 @@
+[
+  {
+    "id": "2026-11-30",
+    "status": "work"
+  },
+  {
+    "id": "2026-12-01",
+    "status": "work"
+  },
+  {
+    "id": "2026-12-02",
+    "status": "work"
+  },
+  {
+    "id": "2026-12-03",
+    "status": "work"
+  },
+  {
+    "id": "2026-12-04",
+    "status": "work"
+  },
+  {
+    "id": "2026-12-06",
+    "note": "Land at Shanghai Pudong at 05:10 (TK280)."
+  },
+  {
+    "id": "2026-12-07",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-08",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-09",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-10",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-11",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-14",
+    "status": "vacation",
+    "note": "Decide by today whether Xi’an stays in the route."
+  },
+  {
+    "id": "2026-12-15",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-16",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-17",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-18",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-21",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-22",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-23",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-24",
+    "status": "vacation"
+  },
+  {
+    "id": "2026-12-25",
+    "status": "off",
+    "holiday": "Christmas (Natal)"
+  },
+  {
+    "id": "2026-12-28",
+    "status": "work",
+    "note": "First work night in Chongqing (20:00–05:00)."
+  },
+  {
+    "id": "2026-12-29",
+    "status": "work"
+  },
+  {
+    "id": "2026-12-30",
+    "status": "work"
+  },
+  {
+    "id": "2026-12-31",
+    "status": "off",
+    "note": "Nobody in Brazil works today, so the night is free for New Year’s Eve."
+  },
+  {
+    "id": "2027-01-01",
+    "status": "off",
+    "holiday": "New Year’s Day (Confraternização Universal)"
+  },
+  {
+    "id": "2027-01-03",
+    "note": "Luge in Chiang Mai."
+  },
+  {
+    "id": "2027-01-04",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-05",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-06",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-07",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-08",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-09",
+    "note": "Free day in Bangkok."
+  },
+  {
+    "id": "2027-01-10",
+    "note": "Jewel Changi: Rain Vortex light shows at 20:00, 21:00 and 22:00."
+  },
+  {
+    "id": "2027-01-11",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-12",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-13",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-14",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-15",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-16",
+    "note": "Free weekend: Hwacheon day trip."
+  },
+  {
+    "id": "2027-01-18",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-19",
+    "status": "work"
+  },
+  {
+    "id": "2027-01-20",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-01-21",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-01-22",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-01-25",
+    "status": "vacation",
+    "holiday": "São Paulo city anniversary"
+  },
+  {
+    "id": "2027-01-26",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-01-27",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-01-28",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-01-29",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-01-30",
+    "note": "Ado live in Osaka (Jan 30–31, ticket lottery)."
+  },
+  {
+    "id": "2027-01-31",
+    "note": "Ado live in Osaka (Jan 30–31, ticket lottery)."
+  },
+  {
+    "id": "2027-02-01",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-02-02",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-02-03",
+    "status": "vacation",
+    "note": "Setsubun."
+  },
+  {
+    "id": "2027-02-04",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-02-05",
+    "status": "vacation"
+  },
+  {
+    "id": "2027-02-06",
+    "note": "Lunar New Year’s Day."
+  },
+  {
+    "id": "2027-02-08",
+    "status": "off",
+    "holiday": "Carnaval"
+  },
+  {
+    "id": "2027-02-09",
+    "status": "off",
+    "holiday": "Carnaval"
+  },
+  {
+    "id": "2027-02-10",
+    "status": "off",
+    "holiday": "Ash Wednesday (Quarta-feira de Cinzas)"
+  },
+  {
+    "id": "2027-02-11",
+    "status": "work",
+    "note": "Back at work in São Paulo."
+  }
+]

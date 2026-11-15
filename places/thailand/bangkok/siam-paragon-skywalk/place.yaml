@@ -1,0 +1,135 @@
+id: siam-paragon-skywalk
+name: "Siam Paragon and the Siam skywalk"
+short_name: Siam Paragon
+name_local: สยามพารากอน
+name_romanized: Sayam Pharakon
+country: thailand
+city: bangkok
+area: "Siam · Pathum Wan"
+category: shopping
+fame: iconic
+tags: [mall, cars, food-hall, free, skywalk, luxury]
+kind: See
+why: "Bangkok's showpiece mall: supercars parked at the door on weekend nights, a street-food hall downstairs, and skywalks over the traffic."
+cost:
+  local: 0
+  currency: THB
+  brl: 0
+  note: "Free to walk around, look at the cars and use the skywalk. Food hall about ฿100–300 a person (Thairath)"
+fx: { rate: 0.167, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: "Sat or Sun evening, 17:00–21:00, for the supercars"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 10:00–22:00. The OneSiam Skywalk is open 24 hours"
+  winter: "No special hours or closures listed for early January. Supercar spotting is busiest on Saturday and Sunday evenings (Renndriver), so Sat Jan 2, Sun Jan 3 and Sat Jan 9 are your nights."
+
+location:
+  address: "991/1 Rama I Rd, Pathum Wan, Bangkok 10330"
+  address_local: "สยามพารากอน 991/1 ถนนพระรามที่ 1 แขวงปทุมวัน เขตปทุมวัน กรุงเทพฯ 10330"
+  lat: 13.74678
+  lng: 100.53495
+  nearest_transit: "BTS Siam, Exit 3 (Sukhumvit and Silom lines)"
+
+sources:
+  - url: https://www.siamparagon.co.th/getting-here
+    title: "Getting Here and FAQ (expand the FAQ for hours): 10:00–22:00, BTS Siam exits (Siam Paragon, official)"
+    checked: 2026-11-13
+  - url: https://www.siamparagon.co.th/dine
+    title: "Dine: Gourmet Eats food hall, Gourmet Garden, Gourmet Market (Siam Paragon, official)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Siam_Paragon
+    title: "Siam Paragon: opening, size, Sea Life aquarium, cinemas (Wikipedia)"
+    checked: 2026-11-13
+  - url: https://en.thairath.co.th/lifestyle/food/2954739
+    title: "Bangkok mall food halls, with Gourmet Eats prices (Thairath English, 23 Aug 2026)"
+    checked: 2026-11-13
+  - url: https://www.renndriver.com/places/siam-paragon-supercar-park/
+    title: "Siam Paragon Supercar Park (Renndriver, updated 3 Jul 2026)"
+    checked: 2026-11-13
+  - url: https://newsroom.rolls-roycemotorcars.com/rolls-royce-motor-cars-bangkok-opens-new-showroom-in-thailands-largest-luxury-hub
+    title: "Rolls-Royce Motor Cars Bangkok opens new showroom in Thailand's largest luxury hub (Rolls-Royce press release, 9 Aug 2024)"
+    checked: 2026-11-13
+  - url: https://www.siamparagon.co.th/contact
+    title: "Contact: address 991/1 Rama 1 Road, Pathumwan, Bangkok 10330 (Siam Paragon, official)"
+    checked: 2026-11-13
+  - url: https://insideretail.asia/2025/03/12/siam-piwat-forges-ahead-with-pioneering-world-class-luxury-destination-prototype/
+    title: "Siam Piwat forges ahead with luxury destination prototype: Rolls-Royce Galleria at Siam Paragon (Inside Retail, 12 Mar 2025)"
+    checked: 2026-11-13
+  - url: https://www.visitthailandtoday.com/activities-tours/bangkok/onesiam-skywalk
+    title: "OneSiam Skywalk (Visit Thailand Today, updated Oct 2026)"
+    checked: 2026-11-13
+  - url: https://www.visitthailandtoday.com/activities-tours/bangkok/central-world-skywalk
+    title: "CentralWorld Skywalk (Visit Thailand Today, updated Aug 2026)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Hours: official FAQ (answer shows when expanded) and Thairath. Supercar parking is from one enthusiast guide (Renndriver, Jul 2026) and is informal. Rolls-Royce showroom: 2024 press release and an Inside Retail list of new openings (Mar 2025); not confirmed open in 2026. Thai address: my transcription of the official English one (991/1 Rama 1 Road)."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: paragon-facade
+    hook: "Ferraris at the kerb, a food hall downstairs, and an elevated walkway over the busiest junction in town."
+    caption: "Siam Paragon's glass front and forecourt fountains on Rama I Road"
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: "Weekend evening, 17:00–21:00"
+    extra:
+      - { label: Your slot, value: "Sat Jan 2 or 9, Sun Jan 3", detail: "Evening, for the supercars at the entrance" }
+      - { label: Weekday option, value: "Mon–Fri, lunch", detail: "Food hall and the skywalk; easy from the Lub d Siam hostel" }
+      - { label: Food hall, value: "Gourmet Eats, GF", detail: "About ฿100–300 a person (Thairath, Aug 2026)" }
+  - type: highlights
+    items:
+      - title: The supercar kerb
+        text: "Parking at the **main entrance canopy on Rama I Road** is kept for luxury cars. Renndriver says Saturday and Sunday evenings, roughly 17:00–22:00, bring the most Ferraris, Lamborghinis and Rolls-Royces."
+      - title: Cars inside, too (check first)
+        text: "Rolls-Royce announced a 'Galleria' showroom on the **2nd floor** in Aug 2024, and Inside Retail listed it among new openings in Mar 2025. I found nothing newer, so check the mall directory before you count on it."
+      - title: Gourmet Eats, the food hall
+        text: "Ground-floor street-food stalls. Thairath (Aug 2026) puts a meal at roughly **฿100–300 a person**; desserts start lower, like lod chong at ฿50."
+      - title: The skywalk
+        text: "The free, 24-hour **OneSiam Skywalk** joins Paragon, Siam Center and Siam Discovery above the traffic. Another skywalk runs from near Paragon to CentralWorld, Gaysorn and Platinum."
+  - type: prose
+    title: Bangkok's mall district, from above
+    dropcap: true
+    text: |-
+      Siam Paragon opened in 2005, cost about ฿15 billion and has around 400,000 m² of shops, a 16-screen cinema and the Sea Life aquarium in the basement. Most of it is luxury brands you won't buy. It's still worth a card because of what's around them: a kerb of supercars on weekend nights and a ground-floor food hall of street-food stalls.
+
+      Use it as the start of a walk. Come out of BTS Siam, go through Paragon, cross on the OneSiam Skywalk to Siam Center and Siam Discovery, and follow the walkways toward CentralWorld. If you stay at Lub d Siam, MBK and all of this are a short walk away.
+  - type: gallery
+    images:
+      - { file: main-hall, caption: "The main hall, from an upper floor" }
+      - { file: onesiam-skywalk, caption: "The OneSiam Skywalk ring over Pathum Wan junction, 2022" }
+      - { file: lamborghini-2009, caption: "A Lamborghini on show inside Siam Paragon, 2009" }
+  - type: cost_breakdown
+    items:
+      - { label: "Entry, the supercars and the skywalk", local: 0, brl: 0 }
+      - { label: "Dinner at Gourmet Eats (a dish and a drink)", local: 200, brl: 33.4, optional: true, estimate: true }
+  - type: map
+    note: "From **BTS Siam, Exit 3** you're in Paragon. The supercars park at the **main entrance on Rama I Road**."
+  - type: tips
+    variant: insider
+    items:
+      - "**Supercars**: Renndriver's own tip is Saturday or Sunday, roughly 18:00–21:00, at the Rama I entrance canopy. Weekday afternoons are quieter, which is better for clean photos."
+      - "Eat at **Gourmet Eats** on the ground floor, not the sit-down restaurants upstairs."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The Sea Life aquarium in the basement is a paid attraction; seeing the mall costs nothing."
+      - "The supercar parking is informal: no schedule, so some evenings there's little to see."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; the cool season
+    note: "Inside is air-conditioned. The skywalks are outdoors, above the traffic, so evening is the pleasant time to walk them."
+    wear: "Light clothes, plus a thin layer for the air-conditioning"
+  - type: pairs_well
+    items:
+      - { id: lub-d-bangkok-siam, note: "The social hostel near MBK, a short walk away" }
+      - { id: terminal-21-asok, note: "Same BTS line; themed floors and a cheaper food court" }

@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: building-from-harbour
+  title: File:Jagalchi Market 20200523 019.jpg
+  author: Mobius6
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Jagalchi_Market_20200523_019.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d4/Jagalchi_Market_20200523_019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Jagalchi Market in Busan, South Korea
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: mackerel-stall
+  title: File:Jagalchi Market 02.jpg
+  author: Bernard Gagnon
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Jagalchi_Market_02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/19/Jagalchi_Market_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Jagalchi Market in Busan, South Korea
+  width: 3568
+  height: 2229
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: indoor-aisle
+  title: File:Jagalchi Market 01.jpg
+  author: Bernard Gagnon
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Jagalchi_Market_01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0e/Jagalchi_Market_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Jagalchi Market in Busan, South Korea
+  width: 3658
+  height: 2234
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

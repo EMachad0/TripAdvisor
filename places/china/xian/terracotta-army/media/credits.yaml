@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: pit-1-ranks
+  title: File:Qin Terracotta Army, Pit 1 09.jpg
+  author: Gary Lee Todd, Ph.D.
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Army,_Pit_1_09.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b6/Qin_Terracotta_Army%2C_Pit_1_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 2011 visit. Complete indexed photo collection at www.WorldHistoryPics.com.
+  width: 4752
+  height: 3168
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: bronze-chariot
+  title: File:Qin Shihuang Bronze Chariot (9893849033).jpg
+  author: Gary Todd from Xinzheng, China
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Qin_Shihuang_Bronze_Chariot_(9893849033).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/25/Qin_Shihuang_Bronze_Chariot_%289893849033%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 2009 visit. Qin Terracotta Army Museum, Xi'an. Complete indexed photo collection at WorldHistoryPics.com.
+  width: 4752
+  height: 3168
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

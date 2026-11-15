@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: canopy-park
+  title: File:Canopy Park in Jewel Changi Airport.jpg
+  author: cattan2011
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Canopy_Park_in_Jewel_Changi_Airport.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8b/Canopy_Park_in_Jewel_Changi_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Canopy Park in Jewel Changi Airport
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: petal-garden
+  title: File:Canopy Park at Jewel Changi Airport - 49470136106.jpg
+  author: cattan2011
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Canopy_Park_at_Jewel_Changi_Airport_-_49470136106.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/98/Canopy_Park_at_Jewel_Changi_Airport_-_49470136106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Canopy Park at Jewel Changi Airport
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

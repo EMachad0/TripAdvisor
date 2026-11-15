@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tilac-neon
+  title: File:Soi Cowboy 2023 01.jpg
+  author: Yu tptw
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Soi_Cowboy_2023_01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1d/Soi_Cowboy_2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​Soi Cowboy, Bangkok, Thailand
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: rio-neon
+  title: File:Soi Cowboy 2023 03.jpg
+  author: Yu tptw
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Soi_Cowboy_2023_03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Soi_Cowboy_2023_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​Soi Cowboy, Bangkok, Thailand
+  width: 3839
+  height: 2879
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: red-strip
+  title: File:Soi Cowboy 2023 04.jpg
+  author: Yu tptw
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Soi_Cowboy_2023_04.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/02/Soi_Cowboy_2023_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​Soi Cowboy, Bangkok, Thailand
+  width: 3899
+  height: 2935
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: early-evening
+  title: File:Soi Cowboy - Bangkok.jpg
+  author: JJ Harrison ( https://www.jjharrison.com.au/ )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Soi_Cowboy_-_Bangkok.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/ff/Soi_Cowboy_-_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Soi Cowboy, Sukhumvit road, Bangkok, Thailand
+  width: 2500
+  height: 1667
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

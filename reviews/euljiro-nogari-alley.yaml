@@ -1,0 +1,39 @@
+# Independent review of euljiro-nogari-alley. Written by `./atr review`; do not edit by hand.
+id: euljiro-nogari-alley
+type: place
+reviewed: 2026-11-12
+verdict: fix
+content_hash: 242e14fa515b370eb92244326eb1177f01f20ea3044d83a2a196eca00720c58c
+facts:
+  supported: 16
+  unsupported: 4
+  contradicted: 0
+issues:
+  - severity: should
+    field: best_time
+    problem: The page's main advice is 'Mon–Thu from 19:00, avoid Sundays', but the traveler works 21:00–06:00 on every Mon–Thu in Korea (Jan 11–15, 18–19). Their free evenings are Sun Jan 10, which the page calls 'dead', and Sat Jan 16 (Jan 16–17 is also the Hwacheon trip). The 19:00 hof → 21:00 upstairs plan in the prose can't happen on a work night.
+    evidence: config/trip.yaml korea.notes — "Work nights 21:00–06:00 Jan 11–15 and 18–19; free days Jan 10, Jan 16–17 (Hwacheon)"
+    fix: "Say which of this traveler's evenings works: a short 18:30–20:30 hof stop before a weekday shift, or Saturday Jan 16 for the full crawl. Say plainly that Jan 10 is a Sunday."
+  - severity: should
+    field: cost / menu / hours.summary
+    problem: "Every current price (₩4,000–5,000 beer, nogari, ₩12,000–18,000 cocktails, ₩7,000–9,000 upstairs beer) and the Manseon Hof 12:00–05:00 hours come from one unofficial guide, seoultourism.org. That guide is unreliable elsewhere: it says Manseon Hof has been 'open since 1980', but Weekly Kyunghyang says its first branch opened in 2014. Time Out lists 12:00~24:00."
+    evidence: https://www.seoultourism.org/?p=1558 — "Manseon Hof — open since 1980, 12:00–05:00"; https://weekly.khan.co.kr/article/202207151430551 — "방씨는 2014년 골목에 만선호프 1호점을 개업했다"; https://www.timeout.com/seoul/bars/manseon-hof — "12:00~24:00"
+    fix: Add a current, independent source for Manseon Hof's hours and menu prices (its Naver Place or Kakao Map listing), or mark the prices as estimates from one guide.
+  - severity: nit
+    field: blocks[2].items[1]
+    problem: "'Born in 1980' presents Eulji OB Bear as part of the alley today. The 2022 source says it was evicted and demolished in April 2022."
+    evidence: https://weekly.khan.co.kr/article/202207151430551 — 을지OB베어 "노가리 골목의 시초 가게", demolished April 2022 after forced evictions
+    fix: Add a clause saying the original Eulji OB Bear was evicted from the alley in 2022.
+  - severity: nit
+    field: blocks[11] (weather) / quick_facts Last train
+    problem: No listed source supports the −7/2 °C January range, the 'last train around midnight' or the ₩10,000 taxi.
+    evidence: none of the four sources mention them
+    fix: Cite a KMA or other climate normal and the Seoul Metro last-train time for Euljiro 3-ga, or soften these to estimates.
+  - severity: nit
+    field: area
+    problem: The area string is 34 characters and wraps in the hero chip on a phone (atr validate info).
+    evidence: ./atr validate euljiro-nogari-alley — "area is 34 characters"
+    fix: Shorten it to 'Euljiro 3-ga (Hipjiro)'.
+summary: "Address, Exit 3, card payment, no reservations, the winter move indoors, Hipjiro's upstairs bars and the 1980 origin are all supported by the sources, and the hero caption is honest. Two things must change: the page's 'Mon–Thu' plan collides with the traveler's 21:00 work nights in Seoul, and all current prices and Manseon Hof's hours rest on one unofficial guide that is wrong elsewhere."
+model: claude-opus-5-5
+cost_usd: 0.531

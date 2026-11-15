@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: roof-two-ifc
+  title: File:HK 中環 Central 國際金融中心 IFC 平台 terrace roof garden the colorful glass tiles sculptures April 2020 SS2 04.jpg
+  author: Hangfook Lam Honga
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E5%9C%8B%E9%9A%9B%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83_IFC_%E5%B9%B3%E5%8F%B0_terrace_roof_garden_the_colorful_glass_tiles_sculptures_April_2020_SS2_04.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/44/HK_%E4%B8%AD%E7%92%B0_Central_%E5%9C%8B%E9%9A%9B%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83_IFC_%E5%B9%B3%E5%8F%B0_terrace_roof_garden_the_colorful_glass_tiles_sculptures_April_2020_SS2_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: HK 中環 Central 國際金融中心 IFC 平台 terrace the Flux April 2020
+  width: 2576
+  height: 1932
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: garden-dusk
+  title: File:Ifc mall Podium Garden Dusk View 201012.jpg
+  author: WiNG
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ifc_mall_Podium_Garden_Dusk_View_201012.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cf/Ifc_mall_Podium_Garden_Dusk_View_201012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ifc mall Podium Garden
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-13
+  origin: commons
+- file: glass-sculpture
+  title: File:HK 中環 Central 國際金融中心 IFC 平台 terrace roof garden the colorful glass tiles sculptures April 2020 SS2 02.jpg
+  author: Hangfook Lam Honga
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E5%9C%8B%E9%9A%9B%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83_IFC_%E5%B9%B3%E5%8F%B0_terrace_roof_garden_the_colorful_glass_tiles_sculptures_April_2020_SS2_02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5e/HK_%E4%B8%AD%E7%92%B0_Central_%E5%9C%8B%E9%9A%9B%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83_IFC_%E5%B9%B3%E5%8F%B0_terrace_roof_garden_the_colorful_glass_tiles_sculptures_April_2020_SS2_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: HK 中環 Central 國際金融中心 IFC 平台 terrace the Flux April 2020
+  width: 4128
+  height: 3096
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: mall-interior-2006
+  title: File:IFC Mall, 2006 (01).jpg
+  author: Bahnfrend
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:IFC_Mall,_2006_(01).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/dc/IFC_Mall%2C_2006_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The IFC Mall, Hong Kong, with a musical group playing on the stage at the centre of the image, and Lane Crawford, Zara, and Mango shops also visible
+  width: 2804
+  height: 1863
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

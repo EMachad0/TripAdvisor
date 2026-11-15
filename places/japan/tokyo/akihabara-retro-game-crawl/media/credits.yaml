@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: hey-shmup
+  title: File:Japanese shmup arcade.jpg
+  author: TarkusAB
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Japanese_shmup_arcade.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f1/Japanese_shmup_arcade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Players playing shoot 'em up video games at Hey arcade in Akihabara, Tokyo, Japan. 2017. This area of the arcade only had shooter machines, and all the players were attempting 1CCs (One credit clears).
+  width: 5312
+  height: 2988
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: cartridge-wall
+  title: File:Akihabara - Super Potato Retro Game Shop (17243583179).jpg
+  author: IQRemix from Canada
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Akihabara_-_Super_Potato_Retro_Game_Shop_(17243583179).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3f/Akihabara_-_Super_Potato_Retro_Game_Shop_%2817243583179%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Akihabara - Super Potato Retro Game Shop
+  width: 3872
+  height: 2581
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: handhelds
+  title: File:Super Potato, Akihabara (22061988538).jpg
+  author: Chester from Toronto, Canada
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Super_Potato,_Akihabara_(22061988538).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/Super_Potato%2C_Akihabara_%2822061988538%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Super Potato, Akihabara
+  width: 5152
+  height: 3864
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: aisles
+  title: File:Tienda Super Potato (Akihabara, Tokio).jpg
+  author: Jesusbella
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tienda_Super_Potato_(Akihabara,_Tokio).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/52/Tienda_Super_Potato_%28Akihabara%2C_Tokio%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Interior de la tienda de videojuegos de segunda mano Super Potato, en Akihabara (Tokio)
+  width: 4608
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

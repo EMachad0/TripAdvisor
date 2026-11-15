@@ -1,0 +1,165 @@
+id: tiananmen-square-mao-mausoleum
+name: "Tiananmen Square and Mao's Mausoleum"
+short_name: Tiananmen and the Mausoleum
+name_local: 天安门广场 · 毛主席纪念堂
+name_romanized: Tiān'ānmén · Máo Zhǔxí Jìniàntáng
+country: china
+city: beijing
+area: "Dongcheng · Tiananmen"
+category: culture
+fame: iconic
+tags: [communism, red-tourism, monument, free, real-name-booking, flag-ceremony]
+kind: See
+why: "Stand under Mao's portrait, then file past his embalmed body in its crystal coffin. Both free, booked with your passport; the hall reopened Sep 2026."
+
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+  note: "Square and mausoleum are free. Optional: Tiananmen Gate rostrum ¥15"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–3 h, more if security is slow"
+best_time: "Tue–Sat, 08:00 at the mausoleum, then the square"
+
+book_ahead:
+  required: true
+  lead_days: 6
+  lead_time: "Square 1–7 days ahead (slots at 12:00); mausoleum 1–6 days ahead"
+  method: passport-registered
+  links:
+    - label: "Square: WeChat mini-program"
+      url: "https://www.trip.com/guide/attraction/how-to-register-for-tiananmen-square.html"
+      note: "Search 天安门广场预约参观 in WeChat; this Trip.com guide shows the passport steps"
+    - label: "Mausoleum: official notice"
+      url: "https://cpc.people.com.cn/GB/143527/143528/index.html"
+      note: "People's Daily page of the hall: hours and the three booking channels"
+  passport: true
+  rules_changed:
+    date: 2026-09-01
+    note: "The mausoleum was closed for renovation from 16 Mar to 31 Aug 2026 and reopened on 1 Sep 2026, Tue–Sun 08:00–12:00, with real-name booking 1–6 days ahead."
+  notes: "Two free bookings: square and mausoleum. Foreign numbers often fail in the square's mini-program (Trip.com, Oct 2026): ask your hostel to book via their WeChat. Book the mausoleum online too; a walk-in desk for foreigners is a 2025 report, unconfirmed since the reopening."
+
+hours:
+  summary: "Square: from about 1 h before sunrise to after the flag-lowering, in 4 booked slots. Mausoleum: Tue–Sun 08:00–12:00"
+  closed: "Mausoleum closed Mondays"
+  winter: "December sunrise in Beijing is about 07:25–07:35, so the flag-raising is a 07:00-ish start in the dark and cold. The mausoleum says hours on public holidays and anniversaries are announced separately; 26 Dec is Mao's birthday and 1 Jan a holiday, so check the notice for those. No winter closure is listed."
+
+location:
+  address: "Tiananmen Square, Dongcheng District, Beijing (mausoleum on the south half of the square)"
+  address_local: 北京市东城区天安门广场 毛主席纪念堂
+  lat: 39.90272
+  lng: 116.39144
+  nearest_transit: "Qianmen (Line 2) for the south side; Tiananmen East/West (Line 1)"
+
+sources:
+  - url: https://cpc.people.com.cn/GB/143527/143528/index.html
+    title: "Chairman Mao Memorial Hall notice on People's Daily: reopened 1 Sep 2026, Tue–Sun 08:00–12:00, book 1–6 days ahead, show valid ID"
+    checked: 2026-11-13
+  - url: http://cpc.people.com.cn/n1/2023/1118/c143528-40121116.html
+    title: "Memorial Hall visiting rules (official): no bags, cameras, drinks or liquids; bag storage on the east side of the square; keep moving"
+    checked: 2026-11-13
+  - url: http://cpc.people.com.cn/n1/2026/0721/c143528-40765195.html
+    title: "Memorial Hall restricted items, 21 Jul 2026 (official): bags, cups, liquids, cameras, banners, flags, printed matter"
+    checked: 2026-11-13
+  - url: https://www.trip.com/guide/attraction/how-to-register-for-tiananmen-square.html
+    title: "Trip.com guide, 9 Oct 2026: square 1–7 days ahead from 12:00, passport, foreign numbers fail, 30–90 min security, rostrum ¥15"
+    checked: 2026-11-13
+  - url: https://english.beijing.gov.cn/latest/news/202409/t20240923_3903395.html
+    title: "Beijing government, Sep 2024: Tian'anmen Square visits booked 1–7 days ahead; carry ID for checks"
+    checked: 2026-11-13
+  - url: https://www.wanderinchina.com/destinations/beijing/tiananmen-square/
+    title: "Wander in China, 3 Oct 2026: four slots (flag-raising, morning, afternoon, flag-lowering), banned items, separate mausoleum booking"
+    checked: 2026-11-13
+  - url: https://ruqintravel.com/community/china-travel-forum-3-beijing-travel-forum/how-to-book-visits-to-mao-memorial-hall/
+    title: "Ruqin Travel forum, May 2025: foreigners can book at the international desk (south-east corner, 08:00–12:00); free bag storage east side"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Mausoleum_of_Mao_Zedong
+    title: "Mausoleum of Mao Zedong — Wikipedia: built Nov 1976 – May 1977, opened 9 Sep 1977, embalmed body, seated statue in the north hall"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Monument_to_the_People%27s_Heroes
+    title: "Monument to the People's Heroes — Wikipedia: 37.94 m, 1958, eight large reliefs, Mao's inscription"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Tiananmen_Square
+    title: "Tiananmen Square — Wikipedia: 765 × 282 m, Great Hall west, National Museum east, gate and portrait north, PRC proclaimed 1 Oct 1949"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Beijing — Wikipedia (December climate normals)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Mausoleum hours, reopening and booking window are from its official notice (People's Daily). The notice does not mention passports or foreigners; the foreigner desk is from a May 2025 forum answer. Square rules come from 2024 government news and 2026 travel guides, not an official 2026 notice. Sunrise from ./atr sun. Trip.com guide read via WebFetch (bot-blocked for atr links)."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: mao-portrait-gate
+    hook: "The giant portrait on the Gate of Heavenly Peace, the 38 m Heroes' obelisk, and Mao himself under glass."
+    caption: "Mao's portrait on Tiananmen Gate, facing the square"
+  - type: quick_facts
+    time_needed: "2–3 h, more if security is slow"
+    best_time: "Tue–Sat, mausoleum at 08:00"
+    extra:
+      - { label: Mausoleum, value: "Tue–Sun 08:00–12:00", detail: "Reopened 1 Sep 2026 after a renovation" }
+      - { label: Inside the hall, value: "No bags, no camera", detail: "Free bag storage on the east side of the square" }
+      - { label: Your slot, value: "Tue–Sun mornings", detail: "Not after Dec 28–31 shifts; 26 Dec (Mao's birthday) has own hours" }
+  - type: highlights
+    items:
+      - title: Mao's body under glass
+        text: "The mausoleum, built in 1977 a year after Mao died, keeps his **embalmed body** on display. You queue, walk past without stopping and out again; the north hall has a seated statue of him."
+      - title: Monument to the People's Heroes
+        text: "A **37.94 m** granite obelisk from 1958, with Mao's calligraphy on the front and eight large reliefs of revolutions from the Opium War to the 1949 Yangtze crossing."
+      - title: The portrait and the gate
+        text: "Mao's portrait hangs over the **Gate of Heavenly Peace** at the north end; he proclaimed the People's Republic here on 1 Oct 1949. Climbing the rostrum costs ¥15 on a separate booking."
+      - title: Flag-raising at dawn
+        text: "A guard of honour raises the flag at sunrise, about **07:25–07:35** in December. It needs its own flag-raising slot in the booking."
+  - type: prose
+    title: How the visit works
+    dropcap: true
+    text: |-
+      At 765 × 282 m the square is the political centre of the People's Republic: the Great Hall of the People on the west side, the National Museum on the east, the gate with Mao's portrait to the north, and in the south half the obelisk and the mausoleum. Entry is free but booked, with your passport, for one of four slots (flag-raising, morning, afternoon, flag-lowering), and everyone passes an ID check and airport-style screening. Travel guides from 2026 report 30–90 minutes at security on busy days.
+
+      The mausoleum is a second, separate booking and is open mornings only, Tuesday to Sunday. It was closed for most of 2026 and reopened on 1 September. Inside you may not carry a bag, camera, water or any liquid, so leave everything at the storage on the east side of the square before joining the line. The official rules ask visitors to stay silent and not linger, so the time with Mao himself is short.
+
+      This is the most charged public space in China, and the official story told here is the Party's. The page describes what you see; how you read it is up to you. In practice, keep your passport on you all the time, don't bring flags, banners or printed material (on the mausoleum's 2026 banned list), and don't fly a drone.
+  - type: gallery
+    images:
+      - { file: heroes-monument, caption: "The Monument to the People's Heroes, with the mausoleum behind" }
+      - { file: mausoleum-2025, caption: "The Chairman Mao Memorial Hall, October 2025" }
+      - { file: monument-relief, caption: "Young Pioneers in front of one of the obelisk's reliefs" }
+      - { file: mausoleum-guard, caption: "A guard outside the mausoleum at dusk" }
+  - type: book_ahead
+    steps:
+      - { days_before: 7, text: "Square: in WeChat, open the mini-program **天安门广场预约参观**, choose individual booking, document type **passport**. Slots release at **12:00** Beijing time. If your foreign number fails, ask your hostel to book for you." }
+      - { days_before: 6, text: "Mausoleum: book a morning on the hall's WeChat account or mini-program (毛主席纪念堂预约), 1–6 days ahead, with your passport. Pick a day **Tue–Sun**." }
+      - { days_before: 0, text: "Go early, leave the bag at the storage on the **east side of the square**, and carry only your passport into the mausoleum line." }
+    passport_note: "Bring the **original passport** you booked with. Screenshots and photocopies are not accepted at the square (Trip.com, Oct 2026)."
+  - type: cost_breakdown
+    items:
+      - { label: Tiananmen Square, local: 0, brl: 0 }
+      - { label: Chairman Mao Memorial Hall, local: 0, brl: 0 }
+      - { label: "Tiananmen Gate rostrum (separate booking)", local: 15, brl: 12.73, optional: true }
+  - type: map
+    note: "The pin is the square's centre; the mausoleum is on the south half. Enter from **Qianmen** (Line 2) for the mausoleum; the gate with the portrait is at the north end."
+  - type: tips
+    variant: insider
+    items:
+      - "Do the mausoleum first: it closes at **12:00**, while the square stays open all afternoon on the same day if your square slot allows it."
+      - "No WeChat booking? A May 2025 forum answer says the hall keeps same-day places for foreign visitors at a desk on its **south-east corner**, 08:00–12:00. Not confirmed since the 2026 reopening."
+      - "Trip.com (Oct 2026) says the Gate rostrum route is one-way: you can't come back past Duanmen, so see the square first. The Forbidden City beyond needs its own booking."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The mausoleum is **closed on Mondays**, and can close at short notice for events on the square (official notice)."
+      - "A Forbidden City ticket does not get you onto the square, and a square booking does not get you into the mausoleum: three separate systems."
+      - "Square screening bans lighters, knives and drones (Wander in China); the mausoleum's 2026 list also bans banners, flags and printed material. Leave them at the hostel."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: "Dry, sunny and freezing; strong wind across the open square"
+    note: "The square has no shelter and the security lines are outdoors. The mausoleum is heated, but you queue outside."
+    wear: "Down jacket, hat, gloves; nothing in your pockets you'd have to store"
+  - type: pairs_well
+    items:
+      - { id: forbidden-city-jingshan, note: "Straight north through the gate with the portrait" }
+      - { id: 798-art-district, note: "Cultural Revolution slogans still on a factory ceiling" }
+      - { id: panjiayuan-mao-memorabilia, note: "Mao badges and posters at the weekend flea market" }

@@ -1,0 +1,167 @@
+id: harbour-city-ocean-terminal-deck
+name: "Harbour City & Ocean Terminal Deck"
+short_name: Harbour City
+name_local: 海港城 · 海運大廈觀景台
+name_romanized: Hoi Gong Sing · Hoi Wan Daai Ha
+country: hong-kong
+city: hong-kong
+area: Tsim Sha Tsui · Canton Road
+category: shopping
+fame: popular
+tags: [mall, free, harbour-view, sunset, architecture, lunar-new-year]
+kind: Shop
+why: "One of Hong Kong's largest malls ends in a free Foster + Partners roof deck in the harbour: a 270° skyline view, open until midnight."
+
+cost:
+  local: 0
+  currency: HKD
+  brl: 0
+  note: "Mall and roof deck are free. The Star Ferry across to Central is the only cost if you come or go by water"
+fx: { rate: 0.7219, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: "From about 17:45, for the 18:15 sunset"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Ocean Terminal Deck 07:00–24:00 daily. Shoppers' Care Centres 10:00–22:00 daily; shop hours vary"
+  winter: "**Lunar New Year (Sat Feb 6, 2027)**: the holiday runs Feb 6–9. No 2027 holiday hours or decorations are published yet. Past years had big displays (2025: a 28 m corridor of 18 lions at the Ocean Terminal Forecourt). If fireworks follow 2026 (2nd day, 20:00), they'd be on Sun Feb 7; it's unknown whether the deck limits entry then."
+
+location:
+  address: Ocean Terminal, Harbour City, 3–27 Canton Road, Tsim Sha Tsui, Kowloon
+  address_local: 九龍尖沙咀廣東道3-27號 海港城 海運大廈
+  lat: 22.29506
+  lng: 114.16682
+  nearest_transit: "Tsim Sha Tsui MTR Exit A1 or East TST Exit L5, 5 min walk"
+  approximate: true
+
+sources:
+  - url: https://www.harbourcity.com.hk/en/explore-hc/services-facilities/ocean-terminal-deck/
+    title: "Ocean Terminal Deck (Harbour City official): hours 07:00–24:00, free, lawn and 200-seat grandstand"
+    checked: 2026-11-13
+  - url: https://www.discoverhongkong.com/eng/place-to-go/travel.guide-ocean-terminal-deck.html
+    title: "Ocean Terminal Deck (Hong Kong Tourism Board): 270° view, Foster + Partners design, sunset"
+    checked: 2026-11-13
+  - url: https://www.discoverhongkong.com/eng/place-to-go/travel.guide-harbour-city.html
+    title: "Harbour City (Hong Kong Tourism Board): 450+ outlets, 80+ dining outlets, over 2 million sq ft"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Harbour_City_(Hong_Kong)
+    title: "Harbour City (Wikipedia): 3–27 Canton Road; Ocean Terminal opened 1966"
+    checked: 2026-11-13
+  - url: https://www.harbourcity.com.hk/en/explore-hc/about/access/
+    title: "Getting here (Harbour City official): TST Exit A1 or East TST Exit L5, 5-minute walk; Star Ferry routes"
+    checked: 2026-11-13
+  - url: https://data.weather.gov.hk/weatherAPI/opendata/opendata.php?dataType=SRS&lang=en&rformat=csv&year=2027&month=2
+    title: "Sunrise and sunset, February 2027 (Hong Kong Observatory open data): sunset 18:14–18:17 on Feb 4–9"
+    checked: 2026-11-13
+  - url: https://www.harbourcity.com.hk/en/explore-hc/services-facilities/concierge/
+    title: "Concierge and Shoppers' Care Centre (Harbour City official): 10:00–22:00 Mon–Sun"
+    checked: 2026-11-13
+  - url: https://www.prnewswire.com/apac/news-releases/hong-kong-harbour-city-shopping-mall-launches-lions-roar-blessings-pour-chinese-new-year-decorations-a-striking-lion-dance-performance-by-eighteen-lions-kicked-off-the-event-302351733.html
+    title: "Harbour City 'Lions Roar, Blessings Pour' Chinese New Year decorations (PR Newswire, 2025-01-15)"
+    checked: 2026-11-13
+  - url: https://news.rthk.hk/rthk/en/component/k2/1854817-20260515.htm
+    title: "No shortchanging of Lunar New Year revellers in 2027 (RTHK, 2026-05-15): holiday Feb 6–9, 2027"
+    checked: 2026-11-13
+  - url: https://thebeat.asia/hong-kong/the-list/events/2026-lunar-new-year-fireworks-display
+    title: "2026 Lunar New Year Fireworks Display (The Beat): Feb 18, 2026, 20:00, about 23 min, free"
+    checked: 2026-11-13
+  - url: https://www.tourism.gov.hk/symphony/english/details/details.html
+    title: "A Symphony of Lights (Tourism Commission): nightly at 20:00, free, best viewing points"
+    checked: 2026-11-13
+  - url: https://www.tourism.gov.hk/symphony/english/participating/participating_kl_04.html
+    title: "A Symphony of Lights participating building #33: Ocean Terminal, Harbour City (Tourism Commission)"
+    checked: 2026-11-13
+  - url: https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/22/hogn-kong-approves-star-ferry-fare-increase-on-two-cross-harbour-routes
+    title: "Hong Kong approves Star Ferry fare increase (The Star, 2026-10-22): HK$6 weekday, HK$8.30 weekend from Jan 25, 2027"
+    checked: 2026-11-13
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Climatological normals 1991–2020 (Hong Kong Observatory): February 15.3–19.4 °C"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Deck hours and free entry are from the official page. Mall shop hours vary; 10:00–22:00 is the Shoppers' Care Centre's. Nothing is published yet for Lunar New Year 2027: holiday hours, decorations, the fireworks date and whether the deck limits entry on fireworks night are all unconfirmed."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: deck-skyline
+    caption: The Ocean Terminal Deck, with Two IFC and Hong Kong Island across the water
+    hook: Walk through 2 million sq ft of shops and come out on a roof deck in the middle of Victoria Harbour.
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: "From about 17:45, for the 18:15 sunset"
+    extra:
+      - label: Deck view
+        value: 270° of harbour
+        detail: Hong Kong Island, Kowloon and out to the islands
+      - label: Deck hours
+        value: 07:00–24:00
+        detail: Free, no ticket
+      - label: Size
+        value: 450+ outlets
+        detail: Over 2 million sq ft, plus 80+ dining outlets
+  - type: highlights
+    items:
+      - title: A free viewing deck
+        text: "The roof of the Ocean Terminal extension, designed by **Foster + Partners** (the firm behind the HSBC Main Building), sits out in the harbour with a **270°** view. No ticket, open until midnight."
+      - title: Sunset into the skyline
+        text: "The Tourism Board calls it a perfect sunset spot. In early February the sun sets at about **18:15**; stay on as the island's towers light up."
+      - title: Scale you can get lost in
+        text: "Over **2 million sq ft**, **450+ outlets** and **80+ places to eat** across Ocean Terminal, Ocean Centre and Gateway Arcade. One of the largest malls in Hong Kong, and it runs straight onto the water."
+      - title: Lunar New Year displays
+        text: "Harbour City dresses up for the New Year. For 2025 it built a **28 m corridor of 18 lions** with drums at the Ocean Terminal Forecourt, plus a lion photo stage in the atrium. The 2027 theme isn't out yet."
+  - type: prose
+    title: Why a mall earns a card here
+    dropcap: true
+    text: |-
+      Harbour City is mostly luxury and mid-range brands, which matters little on R$120 a day. What earns it a card is the end of the walk. Follow Ocean Terminal to the extension at its tip and go up to the roof: a lawn, a 200-seat grandstand facing a performance stage, and nothing between you and Hong Kong Island but water, ferries and junks.
+
+      **On your dates**: Lunar New Year's Day is Saturday Feb 6, and the public holiday runs to Tuesday Feb 9. In 2026 the harbour fireworks were on the second day at 20:00 and lasted about 23 minutes. If 2027 follows that pattern, that's Sunday Feb 7, but nothing is announced yet. None of the fireworks guides found mention this deck, so don't count on it being open to everyone that night.
+  - type: gallery
+    images:
+      - file: central-skyline
+        caption: Central's skyline from the deck on a grey winter day
+      - file: roof-deck
+        caption: The open roof deck at the tip of Ocean Terminal
+      - file: forecourt
+        caption: The Ocean Terminal Forecourt, where the 2025 New Year lions stood
+  - type: quote
+    variant: vibe
+    text: Shopping bags on one side, the whole harbour on the other, and a lawn to sit on in between.
+  - type: cost_breakdown
+    items:
+      - label: Ocean Terminal Deck and mall
+        local: 0
+        brl: 0
+      - label: Star Ferry from Central (weekend fare, from Jan 25)
+        local: 8.3
+        brl: 5.99
+        optional: true
+  - type: map
+    zoom: 15
+    note: "The deck is on the roof of the **Ocean Terminal extension**, at the far end of Ocean Terminal; follow the mall signs. The Star Ferry pier is on the same waterfront."
+  - type: tips
+    variant: insider
+    items:
+      - "Come by **Star Ferry** from Central, then walk out to the deck. It's the cheapest harbour crossing, and Ocean Terminal is part of the **Symphony of Lights** buildings at 20:00."
+      - "Sunset is around **18:15** on Feb 4–9. Get onto the deck 30 minutes before for a spot at the rail."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Feb 6–9 is a public holiday** and 2027 holiday hours aren't published. Check Harbour City's site in late January before you plan around a shop."
+      - "Don't plan the **fireworks night** around the deck until the 2027 arrangements are announced; watch for news in January."
+      - "Star Ferry fares rise on **Jan 25, 2027**: up to HK$6 on weekdays and HK$8.30 at weekends. The fare on the Mon–Tue holidays (Feb 8–9) isn't stated; budget the weekend one."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: Mild and humid, with little sunshine; about 39 mm of rain in the month
+    note: "February averages 15–19 °C. The deck is open-air, so a clear evening matters more than temperature. The mall below is a dry fallback."
+    wear: A light jacket for the evening on the deck
+  - type: pairs_well
+    items:
+      - id: ifc-mall-rooftop-garden
+        note: "Star Ferry across to Central: two free harbour views in one evening"
+      - id: k11-musea
+        note: "Same Tsim Sha Tsui waterfront; pair the two for a day in Kowloon"

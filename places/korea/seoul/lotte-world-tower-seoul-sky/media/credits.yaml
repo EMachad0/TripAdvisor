@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tower-dawn
+  title: File:Lotte World morning view 8.jpg
+  author: kallerna
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Lotte_World_morning_view_8.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/57/Lotte_World_morning_view_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Lotte World, Seoul.
+  width: 6000
+  height: 4100
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: night-river
+  title: File:Seoul Skyline Night 2018.jpg
+  author: mauveine.kim
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_Skyline_Night_2018.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/14/Seoul_Skyline_Night_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Seoul Skyline Night
+  width: 3818
+  height: 5992
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: lake-day
+  title: File:Lotte World day view 5.jpg
+  author: kallerna
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Lotte_World_day_view_5.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Lotte_World_day_view_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Lotte World, Seoul.
+  width: 8200
+  height: 4500
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

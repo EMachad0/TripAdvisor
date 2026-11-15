@@ -1,0 +1,29 @@
+# FIXTURE — platform test data, not curated content. Ignored by the real build.
+fixture: true
+id: shanghai
+country: china
+name: "Shanghai"
+name_local: 上海
+region: East China
+scope: city
+cities: [shanghai]
+why: Fixture card. The fixed first stop, with the Bund skyline, old lanes and the fixture places already researched.
+best_for: [views, food, nightlife]
+highlights: ["The Bund", "Yu Garden"]
+days_suggested: { min: 4, max: 6 }
+cost_level: medium
+getting_there: The trip starts here.
+fame: iconic
+lat: 31.2304
+lng: 121.4737
+winter_note: Damp and grey, 2 to 10 °C. Fixture text.
+image: snow-sculpture
+sources:
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: Shanghai — Wikipedia
+    checked: 2026-11-09
+  - url: https://en.wikivoyage.org/wiki/Shanghai
+    title: Shanghai — Wikivoyage
+    checked: 2026-11-09
+confidence: low
+last_updated: 2026-11-09

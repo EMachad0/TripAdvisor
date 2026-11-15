@@ -1,0 +1,148 @@
+id: kbl-basketball-jamsil
+name: "KBL Basketball at Jamsil"
+name_local: 잠실학생체육관 프로농구
+name_romanized: Jamsil Haksaeng Cheyukgwan
+country: korea
+city: seoul
+area: Songpa-gu · Jamsil
+category: shows
+fame: hidden
+tags: [sports, basketball, cheering, winter-indoor]
+kind: Do
+why: "₩15,000 gets you a seat at a Korean pro basketball game, with a cheer captain on a mic and the crowd chanting along. Best pick: Sun 17 Jan, 14:00."
+
+cost:
+  local: 15000
+  currency: KRW
+  brl: 62.34
+  note: "SK Knights adult general seat, 2026–27 season; online booking adds ₩1,000"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2.5–3 h"
+best_time: "Sun 17 Jan, 14:00 (SK vs Daegu KOGAS)"
+
+when:
+  dates:
+    - { from: 2027-01-10, to: 2027-01-10 }
+    - { from: 2027-01-17, to: 2027-01-17 }
+    - { from: 2027-01-19, to: 2027-01-19 }
+  kind: only
+  label: "Home games 10, 17 and 19 Jan"
+  confirmed: true
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Games at 14:00, 16:30 or 19:00; doors and box office open 2 h before tip-off, box office until the end of the 2nd quarter"
+  winter: "January is mid-season (Oct 3 – Apr 11). Home games in your Korea days (10–20 Jan): Sun 10 Jan 14:00 SK–LG; Sun 17 Jan 14:00 SK–Daegu; Tue 19 Jan 19:00 SK–DB. Just outside them: Samsung on Thu 7 and Sat 9 Jan, SK–KCC on Fri 22 Jan. It's indoors and heated."
+
+location:
+  address: "Jamsil Students' Gymnasium, 25 Olympic-ro, Songpa-gu, Seoul"
+  address_local: 서울특별시 송파구 올림픽로 25 잠실학생체육관
+  lat: 37.51223
+  lng: 127.0754
+  nearest_transit: "Sports Complex station (Lines 2 and 9)"
+
+sources:
+  - url: https://www.sksports.net/Knights/game/Home_Game_ticket.asp
+    title: "SK Knights official ticket page: 2026–27 seat prices, booking on KBL web/app 5 days ahead, box office hours, 50 seats for foreigners"
+    checked: 2026-11-12
+  - url: https://www.kbl.or.kr/match/schedule
+    title: "KBL official schedule: 2026–27 regular season fixtures, January 2027 games at Jamsil Students' Gymnasium (잠실학생)"
+    checked: 2026-11-12
+  - url: https://www.kbl.or.kr/ticket/info
+    title: "KBL ticket information: payment methods, ₩1,000 booking fee per ticket, Ticketlink call centre for foreigners (+82 1644-3850)"
+    checked: 2026-11-12
+  - url: https://sports.khan.co.kr/article/202601220510006
+    title: "Sports Kyunghyang (22 Jan 2026): Students' Gymnasium demolition postponed a year; Samsung shares it with SK in 2026–27"
+    checked: 2026-11-12
+  - url: https://www.fmkorea.com/5488835363
+    title: "FM Korea fan post (12 Feb 2023): seat guide for SK at Jamsil Students' Gymnasium, cheer captain in sections 204–205, cheerleaders"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Jamsil_Students%27_Gymnasium
+    title: "Jamsil Students' Gymnasium (Wikipedia): built 1972–76, 7,500 seats, 1988 Olympic boxing venue, home of the SK Knights"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals, mean high 2.1 °C, mean low −5.5 °C"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Fixtures read from the KBL site's own schedule data on 12 Nov 2026 (the page opens on the current month; pick Jan 2027). Prices are SK's; all three games on 10–20 Jan are SK home games (re-read 12 Nov 2026). Whether a foreigner can open a KBL online account without a Korean phone is unverified, hence the box-office route. Cheering details are from a 2023 fan post."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: jamsil-sports-complex
+    caption: "The Jamsil sports district from above, where the gym stands"
+    hook: "A cheer captain on the mic, cheerleaders by the court and a whole stand chanting, for ₩15,000 a seat."
+  - type: quick_facts
+    time_needed: "2.5–3 h"
+    best_time: "Sun 17 Jan, 14:00"
+    extra:
+      - { label: Teams here, value: "SK Knights + Samsung", detail: "Both Seoul teams share the gym in 2026–27" }
+      - { label: Box office, value: "From 2 h before tip-off", detail: "50 seats per game for foreigners who can't book online" }
+      - { label: Good in cold, value: "Yes, indoors" }
+  - type: highlights
+    items:
+      - title: Organised cheering
+        text: "A **cheer captain** (응원단장) leads the crowd all game long from sections 204–205, and a fan's seat guide says fans who cheer hard can get a signed ball. Sit opposite (213–214) for a quieter view."
+      - title: Cheaper than a club cover
+        text: "A general seat is **₩15,000** (₩13,000 for teens). Second-floor centre seats are ₩26,000, and courtside P seats ₩50,000 (official 2026–27 prices)."
+      - title: Two Seoul teams, one old gym
+        text: "Samsung's Jamsil Arena is being torn down, so **SK and Samsung share this 1976 gymnasium** in 2026–27. Three of their home games here fall in your Korea days (10, 17 and 19 Jan)."
+      - title: An Olympic building
+        text: "Wikipedia says the 7,500-seat gym hosted **boxing at the 1988 Seoul Olympics**. Its own demolition was postponed by a year, so this may be one of its last seasons."
+  - type: prose
+    title: Which game to pick
+    text: |-
+      In your Korea dates (10–20 Jan) there are three home games here, all SK Knights, so the official prices on this page apply:
+
+      - **Sun 17 Jan, 14:00, SK vs Daegu KOGAS**: the pick. It is a free weekend afternoon, and it leaves Sat 16 Jan for the Hwacheon day trip and a night out. The game is over by late afternoon.
+      - **Sun 10 Jan, 14:00, SK vs Changwon LG**: your arrival day from Bangkok. It only works if you land in the morning and drop your bag first.
+      - **Tue 19 Jan, 19:00, SK vs Wonju DB**: a work day. A 19:00 tip-off ends around your 21:00 shift start, so skip it.
+
+      Just outside your dates: Samsung's games here on Thu 7 and Sat 9 Jan, SK vs Busan KCC on Fri 22 Jan, and the Seoul derby (Samsung vs SK) on Sun 24 Jan.
+
+      **How a foreigner buys:** tickets go on sale on the KBL website or app **5 days before, at 11:00**. If the sign-up won't take your number, go to the box office, which opens 2 hours before tip-off. SK keeps **50 general seats per game** (one each) for people who can't book online, and names foreigners, with a passport check. That allocation stops an hour after the box office opens, so arrive early.
+  - type: gallery
+    images:
+      - file: kbl-game-db
+        caption: "A KBL game in Wonju. DB play at Jamsil on Tue 19 Jan"
+  - type: cost_breakdown
+    items:
+      - label: General seat, adult (SK home game)
+        local: 15000
+        brl: 62.34
+      - label: Online booking fee
+        local: 1000
+        brl: 4.16
+        optional: true
+      - label: Upgrade to a 2nd-floor centre seat
+        local: 11000
+        brl: 45.72
+        optional: true
+  - type: map
+    zoom: 16
+    note: "The gym is on Olympic-ro at the Jamsil Sports Complex, by Sports Complex station (Lines 2 and 9). Show the Korean address if you take a taxi."
+  - type: tips
+    variant: insider
+    items:
+      - "Cheer section or quiet section: the cheer captain works **204–205**; the fan guide recommends **213–214** if you just want to watch."
+      - "On the **last Tuesday, Wednesday and Thursday of each month** (\"Culture Day\"), general seats are half price: that's Tue 26 – Thu 28 Jan, after your window."
+      - "Booked online and need to cancel? The deadline is 2 hours before tip-off."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The foreigner allocation at the box office is **50 seats, one per person**, and it stops an hour after the box office opens."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: "Freezing outside, heated inside"
+    note: "January in Seoul averages −5.5 °C to 2.1 °C (Wikipedia). The game is indoors; the cold is the short walk from the station."
+    wear: "Layers you can take off inside"
+  - type: pairs_well
+    items:
+      - id: lol-park-lck
+        note: "The other live-sports night in Seoul, if the LCK is on"
+      - id: hongdae-pub-crawl
+        note: "Sat 16 Jan is the crawl night; the game is the next afternoon"

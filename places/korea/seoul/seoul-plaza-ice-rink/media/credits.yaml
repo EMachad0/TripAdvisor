@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: skaters-sun
+  title: File:Seoul Plaza IceSatingRink 20150106 03 (15598454103).jpg
+  author: Republic of Korea from Seoul, Republic of Korea
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_Plaza_IceSatingRink_20150106_03_(15598454103).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ea/Seoul_Plaza_IceSatingRink_20150106_03_%2815598454103%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 'Seoul Plaza Ice Skating Rink January 6, 2015 Seoul Plaza, Seoul Ministry of Culture, Sports and Tourism Korean Culture and Information Service Korea.net (<a href=" http://www.korea.net " rel="nofollow">www.korea.net</a>) Official Photographer: Jeon Han This official Republic of Korea photograph is b'
+  width: 4432
+  height: 3008
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: skaters-towers
+  title: File:Seoul Plaza IceSatingRink 20150106 04 (15598454063).jpg
+  author: Republic of Korea from Seoul, Republic of Korea
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_Plaza_IceSatingRink_20150106_04_(15598454063).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/31/Seoul_Plaza_IceSatingRink_20150106_04_%2815598454063%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 'Seoul Plaza Ice Skating Rink January 6, 2015 Seoul Plaza, Seoul Ministry of Culture, Sports and Tourism Korean Culture and Information Service Korea.net (<a href=" http://www.korea.net " rel="nofollow">www.korea.net</a>) Official Photographer: Jeon Han This official Republic of Korea photograph is b'
+  width: 4068
+  height: 2532
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: city-hall-rink
+  title: File:Seoul Plaza IceSatingRink 20150106 01 (16218310495).jpg
+  author: Republic of Korea from Seoul, Republic of Korea
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_Plaza_IceSatingRink_20150106_01_(16218310495).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8e/Seoul_Plaza_IceSatingRink_20150106_01_%2816218310495%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 'Seoul Plaza Ice Skating Rink January 6, 2015 Seoul Plaza, Seoul Ministry of Culture, Sports and Tourism Korean Culture and Information Service Korea.net (<a href=" http://www.korea.net " rel="nofollow">www.korea.net</a>) Official Photographer: Jeon Han This official Republic of Korea photograph is b'
+  width: 4576
+  height: 2960
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

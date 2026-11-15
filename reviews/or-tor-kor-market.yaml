@@ -1,0 +1,22 @@
+# Independent review of or-tor-kor-market. Written by `./atr review`; do not edit by hand.
+id: or-tor-kor-market
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 9a158255442d2479be2b0a9d71d153a6a77f3712625cf6b7240796aec51f6c51
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: sources
+    problem: Still open from the earlier review. The official MOF page and the Wikipedia article are not listed, so the operator, the 1974 date, Exit 3 and the CNN ranking rest only on travel aggregators.
+    evidence: 'The Wikipedia article and MOF page are now listed. https://en.wikipedia.org/wiki/Or_Tor_Kor_Market says "Opened in 1974, the market is operated by the Marketing Organization for Farmers" and "listed by CNN as one of the top 10 fresh markets in the world in 2017". https://www.mof.or.th/contact?m_id=7&sub_id=35 says "Subway Train : Kamphaeng Phet Station Exit 3 (Blue Line)", though for the MOF head office ("101 Yan Phahon Yothin Rd, Chatuchak"), not for the market by name. blocks[2].items[2] was changed from "fourth" to "top 10" to match Wikipedia.'
+  - field: hours.winter
+    problem: The new text says durian is "not in its main season" in January, and blocks[2].items[1] repeats it as "off-season in January". None of the five listed sources gives a durian season. The traveler may skip the durian tray tip because of this claim.
+    evidence: https://thethaiger.com/guides/your-ultimate-guide-to-durian-in-thailand says "While durian can be found all year round … the true Durian Season in Thailand shines from April to August." The page now says "main season runs roughly April–August … expect fewer" in hours.winter and "less of it in January" in blocks[2].items[1], which matches the source and no longer suggests durian is missing.
+rereview_of: 2a2f9764516ac6a18e171f12e03c2b4850e1d711625c0f3e41f1d10e0effec9c
+summary: Both earlier findings are resolved. The durian season now cites Thaiger (April–August, available all year), and Wikipedia now supports the operator, the 1974 date and the corrected CNN "top 10" wording. Exit 3 is backed only by the MOF head-office directions, which are not the market's own page, but that is good enough. The edits add no new unsupported facts.
+model: claude-opus-5-5
+cost_usd: 0.361

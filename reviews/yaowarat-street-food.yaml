@@ -1,0 +1,19 @@
+# Independent review of yaowarat-street-food. Written by `./atr review`; do not edit by hand.
+id: yaowarat-street-food
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 566c6352b97cd4832e168686f3bbb8c7e1d03972d1410f892b94e529783b02a3
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: confidence_note
+    problem: The note says that where guides disagree, "the higher end is shown". The page actually uses the lowest quotes. Nai Ek's small bowl is ฿50, but Bangkok Spirit gives 60–100 THB. Pa Tong Go is ฿50, but Bangkok Heaven gives ฿60. Jek Pui's curry is ฿40, but Bangkok Spirit gives 50–70 and Bangkok Heaven gives 60–80. So the ฿160 crawl in `cost` is the cheapest case, not a safe budget.
+    evidence: 'cost.note and confidence_note now say the page shows the lowest quotes, so allow ฿180–200. The higher quotes for the same three stops give that: Nai Ek "around 60–100 THB" (https://www.bangkok-spirit.com/guides/yaowarat-chinatown-food/), Pa Tong Go "60 THB for a small bag" and pomegranate juice 60–80 THB (https://bangkokheaven.com/bangkok-chinatown-street-food-guide/), so 60+60+60 = ฿180. Pa Tong Go ฿30–60 is right: Bangkok Spirit gives 30–50, Bangkok Heaven 60.'
+rereview_of: 329abace8732ecc3615da08c9b8530ab23054b85aa8d564467541b4d386449e9
+summary: "Finding 1 is fixed: the cost note and confidence_note now say the page shows the cheapest quotes and tell the traveler to allow ฿180–200, which the higher 2026 quotes for the same crawl support. The new text adds no wrong facts, and the unchanged content has no blocker."
+model: claude-opus-5-5
+cost_usd: 0.374

@@ -1,0 +1,19 @@
+# Independent review of area ayutthaya. Written by `./atr review`; do not edit by hand.
+id: ayutthaya
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 08b875d4aa4f4e9efffe4068df7be88ec9d7bd13afa1460bf386910a29301db5
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[1].items[3].text
+    problem: The page says Wat Chaiwatthanaram "is lit up after dark", and the overnight case in blocks[2] relies on that. None of the listed sources says the temple is floodlit. Wikivoyage gives only its hours (08:30–18:30, no entry after 18:30), and the hero photo alone does not prove the lights are on every night.
+    evidence: "The 'lit up after dark' claim is gone from blocks[1].items[3] and from the hero caption, which now reads 'Wat Chaiwatthanaram at dusk'. The new text matches https://en.wikivoyage.org/wiki/Ayutthaya, Wat Chaiwatthanaram listing: \"hours=08:30-18:30 (You cannot buy ticket and enter the site after 18:30 but you can still stay there for a while after 18:30)\". The overnight case now rests on seeing sunset inside those hours, not on night lighting."
+rereview_of: ca1627e233661c3ffc1b342fa7f32f00b49760bc3de8f9e2403dcf82e7ef269e
+summary: "The one earlier finding is fixed. The night-lighting claim is gone, and the page now gives Wikivoyage's real hours for Wat Chaiwatthanaram: open 08:30–18:30, no tickets after 18:30, visitors may stay a while after. Both the new text and the new hero caption match the source, the page passes validation, and nothing is still open."
+model: claude-opus-5-5
+cost_usd: 0.41

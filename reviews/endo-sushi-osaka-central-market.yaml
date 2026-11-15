@@ -1,0 +1,28 @@
+# Independent review of endo-sushi-osaka-central-market. Written by `./atr review`; do not edit by hand.
+id: endo-sushi-osaka-central-market
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 6992b43708c7001e63b81e445458198efd4bf607ee6bccdd61d6f11d2861db96
+facts:
+  supported: 9
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.local
+    problem: "The ¥1,500-a-plate price behind cost, menu[0] and cost_breakdown comes from a Pawatama report of a June 2024 visit (its photos are dated 20240615), not 2025. The newest listed data point is a May 2026 Retty review: 7 plates and 2 soups for about ¥12,000, which works out to roughly ¥1,600–1,700 a plate. So ¥3,000 for two plates is probably low."
+    evidence: "cost.local is now 3300 (2 × ¥1,650), labelled as a 2026 estimate, with ¥1,500 marked as a June 2024 price in cost.note, menu[0] and confidence_note. The estimate fits the Retty May 2026 bill: (¥12,000 − 2 soups) / 7 ≈ ¥1,620. BRL: 3300 × 0.03517 = 116.06 and 1650 × 0.03517 = 58.03, both correct."
+  - field: hours.winter
+    problem: The traveler would show up at 6:00 at a wholesale market. Whether the shop closes on the market's holiday days (休市日) between Jan 20 and Feb 4, 2027 is still unknown. The page says this honestly but gives no way to settle it. The market's site would not load (DNS failure) and Tabelog returned 403.
+    evidence: "https://www.city.osaka.lg.jp/shijo/cmsfiles/contents/0000006/6696/r09.pdf (令和9年 臨時休開場日カレンダー): Jan 24 and Jan 31 are marked as 条例上の休日, and Wed Jan 20, Wed Jan 27 and Wed Feb 3 are marked ● 臨時休業日. That is exactly what hours.winter lists. The page now gives the shop's phone number and the safe days."
+  - field: blocks[3].items[3]
+    problem: The Zakoba origin and the 1931 move, plus the '1907' in why and the hero hook, are not on the official history page. That page says only '創業百年' and four generations, even though the source's title on the page says otherwise. I found 1907 (明治40年) only in a GIGAZINE 2014 article, which is not listed. I found Zakoba and 1931 nowhere.
+    evidence: https://www.endo-sushi.com/ — "明治40年に、ゑんどう寿司の先代が雑喉場で…始めたのです" and "昭和6年11月中央市場開設に伴い雑喉場は廃止され、ゑんどう寿司も中央市場に移り、現在四代に至っております". This now-listed source supports 1907, Zakoba, Nov 1931 and four generations. The title of the about page was corrected.
+  - field: cost_breakdown
+    problem: The budget angle is thin. The page treats two plates as the meal and never says that one plate plus akadashi is the cheapest way in. It also never names a cheaper option nearby for a traveler on ¥900-meal days.
+    evidence: The cost_breakdown note now gives one plate plus akadashi as the cheapest way in, compares it with a ¥900 meal, and advises making it the one sushi splurge. The official menu page allows ordering any number of plates.
+rereview_of: 219fd8767497b92bcb8fab0c38fbbc86879652ad67b8a3169c938fa197c01a41
+summary: All four earlier findings are fixed. The official home page now backs the 1907 Zakoba start and the Nov 1931 move, the city's 2027 calendar confirms the Wednesday market closures (Jan 20, Jan 27, Feb 3), and the 2026 price is shown as an estimate next to the 2024 price, with the cheapest option given. The edits add no new problems.
+model: claude-opus-5-5
+cost_usd: 0.339

@@ -1,0 +1,80 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tianmen-cave-haze
+  title: File:Tian Menshan Mountain 10.jpg
+  author: huangdan2060
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File:Tian_Menshan_Mountain_10.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/31/Tian_Menshan_Mountain_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tian Menshan Mountain,Zhangjiajie famous mountains, national forest park.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: cliff-walkway
+  title: File:Tianmen Mountain 38218-Zhangjiajie (48757756147).jpg
+  author: xiquinhosilva
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tianmen_Mountain_38218-Zhangjiajie_(48757756147).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/94/Tianmen_Mountain_38218-Zhangjiajie_%2848757756147%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tianmen Mountain, meaning Heaven's Gate Mountain, is a mountain located within Tianmen Mountain National Park, Zhangjiajie, in the northwestern part of Hunan Province, China. A cablecar was constructed in 2005 by the French company Poma from nearby Zhangjiajie railway station to the top of the mount
+  width: 3000
+  height: 1996
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: steps-999
+  title: File:Tianmen 38334-Zhangjiajie (49046809583).jpg
+  author: xiquinhosilva
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tianmen_38334-Zhangjiajie_(49046809583).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Tianmen_38334-Zhangjiajie_%2849046809583%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tianmen Cave (Heaven’s Door Cave | Heaven’s Gate Cave | 天 门) is the world’s highest cave of its kind. It was formed naturally as a result of soil erosion. It’s alleged that in the year of 263, a large chunk of the mountain just fell off, creating a huge cavity.
+  width: 2002
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2002
+  fetched: 2026-11-10
+  origin: commons
+- file: escalator
+  title: File:Tianmen 38238-Zhangjiajie (49046805583).jpg
+  author: xiquinhosilva
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tianmen_38238-Zhangjiajie_(49046805583).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Tianmen_38238-Zhangjiajie_%2849046805583%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tianmen Cave (Heaven’s Door Cave | Heaven’s Gate Cave | 天 门) is the world’s highest cave of its kind. It was formed naturally as a result of soil erosion. It’s alleged that in the year of 263, a large chunk of the mountain just fell off, creating a huge cavity.
+  width: 3000
+  height: 1996
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: cloud-sea
+  title: File:Tianmen Mountain 20180326 094808.jpg
+  author: Qa003qa003
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tianmen_Mountain_20180326_094808.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/47/Tianmen_Mountain_20180326_094808.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​天门山的风景
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: ginza-5-chome
+  title: File:Ginza 5-Chome Crossroads 20150915.jpg
+  author: そらみみ (Soramimi)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ginza_5-Chome_Crossroads_20150915.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b6/Ginza_5-Chome_Crossroads_20150915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 銀座五丁目交差点
+  width: 3264
+  height: 2448
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

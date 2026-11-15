@@ -1,0 +1,163 @@
+id: namsan-n-seoul-tower
+name: "Namsan & N Seoul Tower"
+short_name: Namsan
+name_local: 남산 · N서울타워
+country: korea
+city: seoul
+area: Namsan · Yongsan-gu
+category: views
+fame: iconic
+tags: [viewpoint, night-view, tower, cable-car, cold-outdoors]
+kind: See
+why: "Seoul's hilltop night view. The terraces under the tower are free and a ₩1,500 bus gets you up; the observatory adds ₩29,000."
+cost:
+  local: 3000
+  currency: KRW
+  brl: 12.28
+  note: "Bus 01A/01B up and down, free terraces. Observatory ₩29,000 and cable car ₩15,000 return are optional"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: Arrive before sunset, stay for the first hour of dark
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Observatory Mon–Fri 10:00–22:30, weekends and holidays 10:00–23:00. Cable car 10:00–23:00. Summit terraces are outdoors"
+  winter: "The tower's site says it opens 365 days a year and the cable car's says the same; neither lists January changes. Both warn that weather can change hours, and the cable car can stop in strong wind. Last entry to the observatory is 30 minutes before closing. Sunset is about 17:35 in January (guide checked Oct 2026; 17:32–17:42 for 10–20 Jan per sunrise-sunset.org)."
+
+location:
+  address: 105 Namsangongwon-gil, Yongsan-gu, Seoul
+  address_local: 서울특별시 용산구 남산공원길 105
+  lat: 37.5511
+  lng: 126.9883
+  nearest_transit: "Bus 01A/01B from Chungmuro Station (Lines 3, 4), Exit 2"
+
+sources:
+  - url: https://www.nseoultower.co.kr/eng/visit/use2.asp
+    title: "N Seoul Tower official site: admission fees"
+    checked: 2026-11-10
+  - url: https://www.nseoultower.co.kr/eng/visit/use.asp
+    title: "N Seoul Tower official site: hours of operation"
+    checked: 2026-11-10
+  - url: https://www.nseoultower.co.kr/eng/visit/traffic.asp
+    title: "N Seoul Tower official site: getting there by bus (01A, 01B)"
+    checked: 2026-11-10
+  - url: https://www.nseoultower.co.kr/eng/visit/traffic2.asp
+    title: "N Seoul Tower official site: getting there by cable car and Namsan Oreumi"
+    checked: 2026-11-10
+  - url: https://www.namsancablecar.com/usage.html
+    title: "Namsan Cable Car official site: fares, hours, directions"
+    checked: 2026-11-10
+  - url: https://www.seoultourism.org/?p=1759
+    title: "N Seoul Tower Guide: Cable Car, Tickets & Best Time to Go (Seoul Tourism Guide, updated 22 Oct 2026)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/N_Seoul_Tower
+    title: N Seoul Tower (Wikipedia)
+    checked: 2026-11-10
+  - url: https://www.nomadotravel.app/en/attractions/naksan-park
+    title: "Naksan Park: Seoul's City Wall Hilltop (Nomado Travel)"
+    checked: 2026-11-10
+  - url: https://sunrise-sunset.org/search?location=Seoul&year=2027&month=1
+    title: "Sunrise and sunset in Seoul, January 2027 (sunrise-sunset.org)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Observatory ₩29,000 is on the tower's fee page (undated, 2014 footer) and matches a guide checked Oct 2026. Cable car fares are from the operator's site (its English text file). theseoulguide.com still shows ₩8,000 return; treated as stale. No source gave the walking time to the top. January sunset ~17:35 per the guide and sunrise-sunset.org. Naksan details rest on one undated guide."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: view-north
+    hook: The whole city lit up below you, from a hill in the middle of it.
+    caption: Seoul at night, looking north from N Seoul Tower
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Before sunset, then the first hour of dark
+    extra:
+      - label: Free part
+        value: Plaza and outdoor terraces
+        detail: The view without the observatory ticket
+      - label: Cable car
+        value: "₩15,000 return"
+        detail: "₩12,000 one way. About 3 minutes"
+      - label: Good in cold
+        value: Windy on top
+        detail: The paid observatory is the heated part
+  - type: highlights
+    items:
+      - title: A free night view
+        text: "The plaza, the terraces around the tower, the love-lock terraces and the outdoor viewing platforms cost **nothing**. A guide checked in October 2026 calls the hour after sunset the best."
+      - title: Three ways up
+        text: "On foot through Namsan Park (free), on bus **01A or 01B** (₩1,500, transport card only), or on the cable car from near Myeongdong (₩12,000 one way)."
+      - title: The observatory, if you want glass and heating
+        text: "**₩29,000** buys the enclosed decks inside the tower. In January wind that is the warm way to see the same city."
+      - title: The tower tells you the air quality
+        text: "After sunset the tower is lit by fine-dust level: blue is good, green average, yellow bad, red very bad. Yellow or red also means a hazier view."
+  - type: prose
+    title: How to do it on a budget
+    dropcap: true
+    text: |-
+      Namsan is the wooded hill in the centre of Seoul, and N Seoul Tower stands on its summit. The main structure is 236 m tall and opened to the public in 1980. Private cars can't drive up, so everyone arrives on foot, by loop bus or by cable car.
+
+      The cheap plan is simple. Ride bus **01A or 01B** from Chungmuro Station Exit 2 or Dongguk University Station, get off at the tower, and spend the evening on the free terraces. The buses run 06:30–23:00.
+
+      The **cable car** is a 3-minute ride, runs 10:00–23:00 and costs ₩15,000 return. Its lower station is a walk from Myeongdong Station Exit 3; the tower's site says 10 to 15 minutes. Whether the observatory is worth ₩29,000 on top is your call. That is most of a day's R$140 budget for a view you largely get outside for free.
+  - type: gallery
+    images:
+      - file: tower-from-park
+        caption: The tower lit up above the old city wall on Namsan
+      - file: cable-car
+        caption: The Namsan cable car
+      - file: night-skyline
+        caption: The skyline through the trees on Namsan at night
+  - type: cost_breakdown
+    items:
+      - label: Bus 01A or 01B up
+        local: 1500
+        brl: 6.14
+        note: Transport card only
+      - label: Bus back down
+        local: 1500
+        brl: 6.14
+      - label: Summit plaza and outdoor terraces
+        local: 0
+        brl: 0
+      - label: Observatory, adult
+        local: 29000
+        brl: 118.78
+        optional: true
+      - label: Cable car return, adult
+        local: 15000
+        brl: 61.44
+        optional: true
+        note: "₩12,000 (R$49) one way"
+    note: "Walking up through Namsan Park is free. The cable car and the observatory together come to ₩44,000, about R$180, which is more than the R$140 daily budget."
+  - type: map
+    zoom: 15
+    note: "Bus: **Chungmuro Station Exit 2** or Dongguk Univ. Station, then 01A or 01B. Cable car: **Myeongdong Station Exit 3**, then the street to the right of the Pacific Hotel. The free **Namsan Oreumi** incline lift near Namsan Tunnel 3 also reaches it (09:00–23:00, shut Mondays until 14:00)."
+  - type: tips
+    variant: insider
+    items:
+      - "**Cheaper night view:** Naksan Park, by Hyehwa Station (Line 4, Exit 2), is free and open 24 hours. The old city wall is lit from below and the city spreads out under it. It is a 10 to 15 minute uphill walk through Ihwa-dong."
+      - "Check the tower's colour from the city before you go up. **Blue or green** means clear air; on a yellow or red night the view is hazy and the ₩29,000 is poorly spent."
+      - "The cable car's own site says mornings are quieter and that weekends and holidays mean longer waits."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The loop bus takes a **transport card only**, no cash."
+      - "The cable car can be **suspended in strong wind** and may close early in bad weather. Check its status before walking up to the station."
+      - "The main footpaths are lit, but a guide checked in October 2026 calls the bus the easy way down on a cold, dark evening. At Naksan the sloped alleys ice over in winter."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry, freezing, windy on the summit
+    note: "Seoul's January averages are 2.1 °C by day and −5.5 °C at night, and you'll be on an exposed hilltop after dark. It gets dark early: January sunset is around 17:35. That makes the night view easy to fit before dinner. The paid observatory is heated; the free terraces are not."
+    wear: Windproof jacket, hat, gloves, shoes with grip for icy steps
+  - type: pairs_well
+    items:
+      - id: gwangjang-market
+        note: Dinner in the covered food alley after the sunset view

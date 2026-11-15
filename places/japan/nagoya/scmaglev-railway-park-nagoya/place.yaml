@@ -1,0 +1,217 @@
+id: scmaglev-railway-park-nagoya
+name: "SCMaglev and Railway Park"
+short_name: SCMaglev Park
+name_local: リニア・鉄道館
+name_romanized: Rinia Tetsudōkan
+country: japan
+city: nagoya
+area: "Minato · Kinjo-futo"
+category: culture
+fame: popular
+tags: [museum, shinkansen, maglev, trains, simulator, stopover]
+kind: See
+why: "JR Central's own museum: the 581 km/h maglev, 0-series to N700 Shinkansen and Doctor Yellow, on a stop between your Tokyo and Osaka trains."
+
+cost:
+  local: 3670
+  currency: JPY
+  brl: 129.92
+  note: "Entry ¥1,200 + Aonami return ¥720 + ¥1,750 extra Shinkansen for stopping off (unreserved). N700 simulator ¥500 on top"
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h
+best_time: "Fri 29 Jan, at the 10:00 opening"
+
+book_ahead:
+  required: false
+  notes: "No booking needed. Simulator tickets are sold only on the day, inside, first-come (see Tips)."
+
+hours:
+  summary: "10:00–17:30 (last entry 17:00)"
+  closed: "Tuesdays (Wednesday if Tuesday is a holiday); 28 Dec – 1 Jan"
+  winter: "The official 2026–27 calendar shows **Fri 29 Jan 2027 open**. Closed days in your Japan dates: Tue 26 Jan and Tue 2 Feb. The diorama is paused 5 Nov – 7 Dec 2026 for lighting work, so it is back before you arrive. Everything is indoors except the outdoor N700 car."
+
+location:
+  address: "3-2-2 Kinjofuto, Minato-ku, Nagoya, Aichi 455-0848"
+  address_local: 〒455-0848 愛知県名古屋市港区金城ふ頭3-2-2
+  lat: 35.04887
+  lng: 136.85121
+  nearest_transit: "Kinjo-futo (Aonami Line terminus), about 2 min walk"
+
+sources:
+  - url: https://museum.jr-central.co.jp/en/facilities/
+    title: "Official (EN): 10:00–17:30, last entry 30 min before, closed Tue and 28 Dec–1 Jan, adult ¥1,200, simulator fees, 8-language audio guide"
+    checked: 2026-11-14
+  - url: https://museum.jr-central.co.jp/en/facilities/_pdf/calendar_en_2026.pdf
+    title: "Official calendar Apr 2026 – Mar 2027: 29 Jan 2027 open; 26 Jan and 2 Feb closed"
+    checked: 2026-11-14
+  - url: https://museum.jr-central.co.jp/facilities/index.html
+    title: "Official (JP): simulator tickets first-come at the info desk until 17:15, limited, N700 or conductor (one each), numbered tickets if busy"
+    checked: 2026-11-14
+  - url: https://museum.jr-central.co.jp/en/floormap/
+    title: "Official quick guide: C62 129 km/h (1954), 300X 443 km/h (1996), MLX01-1 581 km/h (2003); N700 simulator; maglev room; diorama"
+    checked: 2026-11-14
+  - url: https://museum.jr-central.co.jp/en/rolling-stock/
+    title: "Official vehicle list: 39 vehicles incl. 0, 100, 300, 700, N700 series and Dr. Yellow (Class 923)"
+    checked: 2026-11-14
+  - url: https://museum.jr-central.co.jp/floormap/_pdf/floormap.pdf
+    title: "Official floor map: 923 (T4) Doctor Yellow, N700 outdoor exhibit, coin lockers, PLUSTA Bento on 2F"
+    checked: 2026-11-14
+  - url: https://museum.jr-central.co.jp/news/_pdf/000045944.pdf
+    title: "Official notice (28 Aug 2026): diorama closed 5 Nov – 7 Dec 2026 for lighting work"
+    checked: 2026-11-14
+  - url: https://jr-central.co.jp/news/release/_pdf/000044029.pdf
+    title: "JR Central release (23 Jan 2025): adult entry +¥200 from 1 Jun 2025, simulators unchanged, Doctor Yellow T4 cars shown from about Jun 2025"
+    checked: 2026-11-14
+  - url: https://museum.jr-central.co.jp/en/access/
+    title: "Official access: Aonami Line Nagoya → Kinjofuto about 24 min, museum about 2 min walk"
+    checked: 2026-11-14
+  - url: https://www.aonamiline.co.jp/train/an01-nagoya/an01-fare
+    title: "Aonami Line official fares from Nagoya: Kinjo-futo 24 min, 15.2 km, ¥360"
+    checked: 2026-11-14
+  - url: https://www.aonamiline.co.jp/train/an01-nagoya/an01-timetable
+    title: "Aonami Line timetable from Nagoya (14 Mar 2026 schedule): weekdays every 15 min 09:00–17:00, every 10 min at peaks"
+    checked: 2026-11-14
+  - url: https://www.aonamiline.co.jp/ticket/ic-card
+    title: "Aonami Line IC cards: manaca, TOICA, Suica, PASMO, ICOCA and other national cards (image list)"
+    checked: 2026-11-14
+  - url: https://global.jr-central.co.jp/en/tickets/type/stopovers.html
+    title: "JR Central ticket rules: stopovers allowed on basic fare tickets over 100 km, not on limited express tickets"
+    checked: 2026-11-14
+  - url: https://jr-central.co.jp/news/release/_pdf/000046069.pdf
+    title: "JR Central/JR West (16 Oct 2026): Nozomi reserved supplements from 1 Jul 2027 and the increase per section, so today's supplements"
+    checked: 2026-11-14
+  - url: https://jr-shinkansen.net/articles/fare-tokaido/
+    title: "Tokaido fare table (Sep 2026): base fares Tokyo–Nagoya ¥6,380, Tokyo–Shin-Osaka ¥8,910, Nagoya–Shin-Osaka ¥3,410; unreserved −¥530"
+    checked: 2026-11-14
+  - url: https://tabiris.com/archives/shinkansen-tokyo-nagoya2026/
+    title: "tabiris (Dec 2025): Tokyo–Nagoya Nozomi about 1 h 40 min, ¥11,300 reserved, ¥10,560 unreserved; seasonal ±¥200/¥400"
+    checked: 2026-11-14
+  - url: https://tabiris.com/archives/shinkansen-nagoya-osaka2026/
+    title: "tabiris (Sep 2026): Nagoya–Shin-Osaka Nozomi 50 min, ¥5,940 / ¥6,680 reserved; Meishin Highway Bus ¥3,100 (from ¥1,600), about 3 h"
+    checked: 2026-11-14
+  - url: https://www.kintetsu.co.jp/foreign/english/hinotori/index.html
+    title: "Kintetsu official: Hinotori Kintetsu-Nagoya ⇄ Osaka-Namba ¥4,990 standard (base fare ¥2,860), about 2 h, hourly"
+    checked: 2026-11-14
+  - url: https://tabiris.com/?p=46236
+    title: "tabiris (Jan 2026): Kintetsu Namba–Nagoya base fare ¥2,860 + limited express ¥1,930 = ¥4,790"
+    checked: 2026-11-14
+  - url: https://www.japan-guide.com/e/e3314.html
+    title: "japan-guide (updated 29 Sep 2026): ¥1,200, simulators ¥100 or ¥500, Aonami 25 min ¥360 not covered by JR Pass, closed Tuesdays"
+    checked: 2026-11-14
+  - url: https://www.jr-plus.co.jp/store/linear/
+    title: "PLUSTA Bento at the museum: 2F, 11:00–17:00, museum-only ekiben incl. Doctor Yellow box, eat inside the N700 cars"
+    checked: 2026-11-14
+  - url: https://www.nsk-eki.com/nagoya/coinlocker/
+    title: "JR Nagoya Station coin lockers: 12 banks, IC or cash, extra-large at Gate Tower B1, Hirokoji and bus terminal"
+    checked: 2026-11-14
+  - url: https://global.jr-central.co.jp/en/info/oversized-baggage/
+    title: "JR Central luggage rule: up to 160 cm total needs no reservation on the Shinkansen"
+    checked: 2026-11-14
+  - url: https://www.japan-guide.com/e/e3972.html
+    title: "japan-guide (Jun 2026): Kyoto Railway Museum ¥1,500 (¥1,900 from Mar 2027), closed Wednesdays, roundhouse and ¥300 steam ride"
+    checked: 2026-11-14
+  - url: https://www.railway-museum.jp/
+    title: "The Railway Museum (Omiya) official: 10:00–17:00, closed Tuesdays and New Year"
+    checked: 2026-11-14
+  - url: "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=51&block_no=47636&year=&month=&day=&view="
+    title: "JMA Nagoya normals 1991–2020: January 9.3 °C high / 1.1 °C low, 50.8 mm rain, 4 cm snowfall, 174.5 h sun"
+    checked: 2026-11-14
+confidence: high
+confidence_note: "Bullet-train request came via the planner (14 Nov), not the game. Entry, hours, 29 Jan open, simulator rules and Aonami fare: official pages, 14 Nov 2026. Shinkansen supplements derived from JR Central's Oct 2026 table, matching a Sep 2026 fare site. Not found: locker prices, bento prices, how fast simulator tickets sell out on a winter weekday."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: mlx01
+    caption: "MLX01-1, the maglev that ran 581 km/h in 2003, at the museum entrance"
+    hook: "The fastest trains Japan has built, parked by Nagoya port, halfway between Tokyo and Osaka."
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: "Fri 29 Jan, at 10:00"
+    extra:
+      - label: Extra vs riding through
+        value: "¥1,750 (R$61.95)"
+        detail: "Unreserved; ¥2,380 (R$84.25) with Nozomi reserved seats"
+      - label: From Nagoya Station
+        value: "24 min, ¥360"
+        detail: "Aonami Line to the last stop, Suica works"
+      - label: Your backpack
+        value: Lockers at both ends
+        detail: "Nagoya Station and the museum; prices not found"
+  - type: highlights
+    items:
+      - title: Three world records at the door
+        text: "The entrance hall holds the **C62 17** steam engine (129 km/h, 1954), the **300X** test Shinkansen (443 km/h, 1996) and **MLX01-1**, the superconducting maglev that set the world rail record of **581 km/h** in 2003."
+      - title: Every Shinkansen generation
+        text: "39 real vehicles, among them **0, 100, 300, 700 and N700 series** Shinkansen and **Doctor Yellow**, the yellow track-inspection train (923 series, T4 set). Some you can step inside."
+      - title: Drive an N700
+        text: "A full-size N700 cab mock-up with a 10 × 3 m curved screen: 15 minutes at the controls for **¥500**. A ¥100 local-train driving simulator and a ¥500 conductor simulator are there too."
+      - title: The maglev and the diorama
+        text: "A theatre built like the maglev cabin plays a CG ride on the Yamanashi test line. The diorama, among Japan's largest, runs the Tokaido Shinkansen from Tokyo to Kansai through a whole day and night."
+  - type: prose
+    title: Why a museum earns this day
+    dropcap: true
+    text: |-
+      Museums usually don't make your list. This one gets a card because it costs you **no sightseeing day** and only about **¥3,670 (R$129.92)**: Fri **29 Jan** is the move from Tokyo to Osaka, and Nagoya is a stop on that line anyway. It is also the one place for the "bullet train stuff" you asked the planner about: the museum of **JR Central**, the company that runs the Tokaido Shinkansen, with the maglev and the 300X record holders in the same room.
+
+      **A realistic day.** Take a Nozomi from Tokyo by about **07:30** (about 1 h 40 min to Nagoya). Put your backpack in a station locker or carry it on, ride the Aonami Line (24 min, every 15 min) and be at the door at the **10:00** opening, which is your best chance at an N700 simulator ticket. Stay until about **14:00**, with lunch from the bento shop. Back at Nagoya around 14:30, a Nozomi gets you to Shin-Osaka in about 50 minutes: in Osaka by about **15:30–16:00**, well before the Ado weekend.
+
+      **Why not Omiya or Kyoto?** JR East's Railway Museum in Omiya (closed Tuesdays) would take one of your Tokyo days. The Kyoto Railway Museum (¥1,500, closed Wednesdays, so shut on Setsubun, Wed 3 Feb) is the one for steam: a roundhouse full of steam engines and a ¥300 steam ride. Neither has the maglev, and neither sits on a day you are already on the Shinkansen.
+  - type: gallery
+    images:
+      - { file: symbolic-hall, caption: "The entrance hall: C62 steam engine, 300X and the maglev side by side" }
+      - { file: great-hall, caption: "The main hall: Shinkansen in a row behind early electric locomotives" }
+      - { file: n700-outdoor, caption: "The N700 parked outdoors; you can eat your bento inside it" }
+      - { file: building, caption: "The hangar at Kinjo-futo, two minutes from the station" }
+  - type: cost_breakdown
+    items:
+      - label: Adult entry
+        local: 1200
+        brl: 42.48
+      - label: "Aonami Line Nagoya ⇄ Kinjo-futo"
+        local: 720
+        brl: 25.49
+        note: "¥360 each way; the ¥800 day pass costs more"
+      - label: Extra Shinkansen for the stopover
+        local: 1750
+        brl: 61.95
+        note: "Unreserved; ¥2,380 (R$84.25) if you reserve both Nozomi legs"
+      - label: N700 driving simulator
+        local: 500
+        brl: 17.7
+        optional: true
+    note: "Coin lockers are extra; I could not find their prices. Compare: riding Tokyo → Shin-Osaka without stopping is ¥13,870 unreserved (R$491)."
+  - type: faq
+    title: The fare question
+    items:
+      - q: What does stopping in Nagoya add to the Tokyo → Osaka ticket?
+        a: "Buy **one base fare ticket Tokyo → Osaka** (¥8,910): it is over 100 km, so you may leave the gates at Nagoya. Shinkansen express tickets can't be used for a stopover, so you need **two**: Tokyo–Nagoya ¥4,180 + Nagoya–Shin-Osaka ¥2,530 unreserved. Total **¥15,620** vs ¥13,870 straight through: **+¥1,750 (R$61.95)**. With Nozomi reserved seats (¥4,920 + ¥3,270) it is ¥17,100 vs ¥14,720: **+¥2,380 (R$84.25)**."
+      - q: Is two separate tickets the same thing?
+        a: "No, it costs more. Tokyo–Nagoya ¥10,560 + Nagoya–Shin-Osaka ¥5,940 unreserved = **¥16,500**, which is ¥880 more than the through base ticket. Ask for the through base fare ticket with the two express tickets."
+      - q: Is there a cheaper way from Nagoya to Osaka?
+        a: "The **Meishin Highway Bus** is ¥3,100 (discount seats from ¥1,600) and takes about 3 h. With the ¥10,560 Shinkansen to Nagoya that is ¥13,660, **less than riding straight through**. **Kintetsu** to Osaka-Namba (about 2 h) is ¥4,790, or ¥4,990 on the Hinotori; it saves the transfer to Namba but costs about the same as the Nozomi stopover."
+      - q: Do these prices change on 29 Jan?
+        a: "Reserved seats cost ¥200 less to ¥400 more depending on the season; unreserved prices are the same all year. The Nozomi increase announced for 2027 applies from **1 Jul 2027** purchases, so not to your trip."
+  - type: map
+    note: "From Nagoya Station follow the **Aonami Line** signs and ride to the last stop, **Kinjo-futo**. The museum is about 2 minutes on foot."
+  - type: tips
+    variant: insider
+    items:
+      - "Simulator tickets are sold **first-come at the information desk**, from opening until 17:15, in limited numbers. You get **either** the N700 **or** the conductor simulator, not both. When busy, numbered tickets may be handed out before opening. Go to the desk first."
+      - "The free audio guide works on your phone over the museum Wi-Fi, in English and **Portuguese**."
+      - "**PLUSTA Bento** (2F, 11:00–17:00) sells ekiben you can only buy here, including a Doctor Yellow box. You can eat it inside the N700 cars."
+      - "Your Suica works on the Aonami Line. It is a separate company, so the JR Pass doesn't cover it."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't buy the Shinkansen ticket all the way to Shin-Osaka as one express ticket: leaving the gates at Nagoya voids the rest of it."
+      - "A backpack up to 160 cm (length + width + height) rides free on the Shinkansen; above that you need a seat reservation with an oversized-baggage area."
+      - "Tuesdays are closed: in your Japan dates that is **26 Jan and 2 Feb**. 29 Jan is a Friday and open."
+      - "If the **Daikoku PA** retry moves to the night of Fri 29 Jan, you leave Tokyo on Sat 30 Jan instead. The museum is open that day too, but it is the Ado weekend: only stop if your show time leaves the afternoon free, otherwise ride straight through."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 9
+    conditions: "Cold, sunny, little rain; about 4 cm of snow a January"
+    note: "Nagoya's January averages about 1 °C at night and 9 °C by day. The visit is indoors; only the walk from the station and the outdoor N700 are in the wind off the port."
+    wear: "Your travel jacket is enough; layers you can stuff in the backpack"

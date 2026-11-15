@@ -1,0 +1,181 @@
+id: jagalchi-fish-market
+name: "Jagalchi Fish Market"
+name_local: 자갈치시장
+name_romanized: Jagalchi Sijang
+country: korea
+city: busan
+area: Jung-gu · Nampo-dong
+category: food
+fame: iconic
+tags: [market, seafood, sashimi, grilled-fish, harbour]
+kind: Eat
+why: "Korea's largest fish market: pick a live fish from a tank downstairs and eat it upstairs minutes later. Solo, go for the grilled fish set."
+cost:
+  local: 15000
+  currency: KRW
+  brl: 61.44
+  note: "Grilled fish set with rice and soup: one Feb 2026 guide (itself awaiting review), unverified; no stall named. Sashimi for two ≈ ₩35,000"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: Late morning, 10:00–12:00, not a 1st or 3rd Tuesday
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily about 05:00–22:00. Outdoor stalls from around 05:00; one guide gives the indoor building as 08:00–22:00"
+  closed: "Indoor building: 1st and 3rd Tuesdays (one guide lists no Tuesday closure)"
+  winter: "In January 2027 the 1st and 3rd Tuesdays are Jan 5 and Jan 19, so in your Korea days (10–20 Jan) the indoor building should be shut on **Tue Jan 19**. One guide says the outdoor market usually stays open on those days, and another (MileAsia) lists the market as open daily except some holidays, so the closure is likely but not certain."
+
+location:
+  address: 52 Jagalchihaean-ro, Jung-gu, Busan
+  address_local: 부산광역시 중구 자갈치해안로 52 (자갈치시장)
+  lat: 35.09661
+  lng: 129.03052
+  nearest_transit: Jagalchi (Line 1), Exit 10, about 3 min walk
+
+sources:
+  - url: https://thesoulofseoul.net/inside-jagalchi-fish-market/
+    title: "Inside Jagalchi Fish Market (The Soul of Seoul, updated 2026-07-03): hours, closed days, how eating works, fees"
+    checked: 2026-11-10
+  - url: https://korea-experience.pages.dev/blog/the-best-fresh-seafood-in-busan-jagalchi-market-2026
+    title: "Jagalchi Market guide 2026 (Korea Experience, updated 2026-02-06): price table, table fee, solo advice"
+    checked: 2026-11-10
+  - url: https://www.ktriptips.com/kor/shopping/132190
+    title: "K-Trip Tips (Korean): 부산 자갈치시장, closed 1st, 3rd and 5th Tuesdays, address"
+    checked: 2026-11-12
+  - url: https://mileasia.com/korea/jagalchi-market/
+    title: "Jagalchi Market Busan 2026 (Mile Asia, 2026-06-13): floors, prices for two, best time"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Jagalchi_Market
+    title: Jagalchi Market (Wikipedia), address, coordinates, history
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Busan
+    title: Busan (Wikipedia), climate normals 1991–2020
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "No official source opened: the market's site (bisco.or.kr/jagalchimarket) and Visit Busan would not load. Hours, closed days and prices: three 2026 guides that disagree on fees and restaurant floors. The Korea Experience page marks its own prices as awaiting editorial review. The ₩15,000 grilled-fish set has no second source. Tuesday rule: two guides plus K-Trip Tips."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: mackerel-stall
+    hook: Rows of silver fish on ice, tanks of live crab, and a harbour full of boats right behind the stalls.
+    focus: center
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: Late morning, 10:00–12:00
+    extra:
+      - label: Payment
+        value: Cards indoors, cash outside
+        detail: One guide says cash can bring 5–10% off at outdoor stalls
+      - label: Solo-friendly
+        value: Partly
+        detail: Portions are sized for groups; see the grilled fish set
+      - label: Good in cold
+        value: Indoor hall and restaurants
+  - type: highlights
+    items:
+      - title: You choose the fish
+        text: "The ground floor of the main building holds the live tanks, more than **300 stalls** by one guide's count. You point, the vendor weighs, and you pay by weight."
+      - title: Then you eat it upstairs
+        text: "A runner or the vendor takes your seafood to a partner restaurant in the same building. It comes back as sashimi, grilled or steamed, with rice, kimchi and side dishes."
+      - title: The outdoor rows
+        text: "Outside, stalls sell fish, shellfish, sea vegetables and dried seafood from about **05:00**. One guide calls this part older and less polished than the building."
+      - title: The women who run it
+        text: "The vendors are known as **Jagalchi Ajumma**, a name from the years after the Korean War when women sold fish on the street here. *Jagal* means gravel, after the shore the market grew on."
+  - type: prose
+    title: How eating here works
+    dropcap: true
+    text: |-
+      There are two ways in. You can pick seafood at a stall, pay the vendor, and be led to a table. Or you can sit down at a restaurant first and let it source the fish from its own vendor. Either way there are **two bills**: the seafood, and then the restaurant's charges for the table and the cooking.
+
+      The guides do not agree on that second bill. One puts the table fee (*sang-charim*, 상차림비) at **₩5,000–6,000 per person**. Another says about ₩5,000 per person for preparation plus ₩2,000–4,000 for the seat. A third says ₩5,000–10,000 per group. Ask before you sit.
+
+      The market is built for groups. A plate of flounder or rockfish sashimi is sold for two, at about **₩35,000**, and a king crab costs ₩80,000–100,000 a kilo. For one person, the same guide points to the **grilled fish set** in the outdoor alleys, about **₩15,000** with rice and soup, or a small plate of pre-sliced sashimi.
+
+      Order *maeuntang* (매운탕), a spicy stew made from the head and bones of your fish, about halfway through the meal.
+  - type: gallery
+    images:
+      - file: indoor-aisle
+        caption: The ground-floor hall, with numbered stalls on both sides
+      - file: building-from-harbour
+        caption: The main market building seen from the harbour, May 2020
+  - type: quote
+    variant: vibe
+    text: Wet floors, shouted prices, and a fish that was swimming when you walked in.
+  - type: menu
+    title: What things cost
+    items:
+      - name: Grilled fish set, with rice and soup
+        price_local: 15000
+        price_brl: 61.44
+        note: Outdoor grilled-fish alleys. The pick for one person.
+        tag: cheap
+      - name: Flounder or rockfish sashimi plate for two
+        name_local: 회
+        price_local: 35000
+        price_brl: 143.36
+        note: ₩30,000–40,000 per platter. Another guide says ₩40,000–70,000 for a mixed selection for two.
+        tag: signature
+      - name: Spicy fish stew
+        name_local: 매운탕
+        price_local: 10000
+        price_brl: 40.96
+        note: ₩10,000–15,000 depending on pot size.
+        tag: spicy
+      - name: Table fee, per person
+        name_local: 상차림비
+        price_local: 5000
+        price_brl: 20.48
+        note: ₩5,000–6,000 in one guide. Sources disagree, so ask first.
+      - name: Soju or beer
+        price_local: 5000
+        price_brl: 20.48
+        note: About ₩5,000 a bottle.
+        tag: drink
+    note: "Prices from a guide updated in **February 2026** that marks them as not yet fully checked. Live seafood is sold by weight and varies by stall and day."
+  - type: cost_breakdown
+    items:
+      - label: Grilled fish set
+        local: 15000
+        brl: 61.44
+        estimate: true
+      - label: Sashimi plate for two, instead
+        local: 35000
+        brl: 143.36
+        estimate: true
+        optional: true
+      - label: Table fee with the sashimi
+        local: 5000
+        brl: 20.48
+        estimate: true
+        optional: true
+  - type: map
+    zoom: 17
+    note: "From **Jagalchi Station Exit 10**, turn right onto Jagalchi 3-gil. The main building is on the waterfront, near BIFF Square and Gukje Market."
+  - type: tips
+    variant: insider
+    items:
+      - "Go **late morning**. One guide gives 10:00–12:00 as the window when both the hall and the outdoor rows are in full swing and the lunch crowd has not arrived."
+      - "Ask for *service* (free extras) instead of a discount. One guide says haggling over premium crab rarely works."
+      - "Wear **closed shoes** with grip. The floors are wet and slippery."
+      - "With shellfish, say how you want it cooked: steamed is *jjim* (찜), grilled is *gui* (구이)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The **second bill** surprises first-timers. One guide suggests keeping ₩20,000–30,000 aside for the table fee, cooking and drinks on top of the seafood."
+      - "Check that the **basket is empty** of water before the vendor weighs your fish."
+      - "Crab, lobster and large prawns push the bill up fast. Agree the total weight and price before anything is cut."
+      - "**Tuesday Jan 19, 2027** is a third Tuesday: the indoor building is listed as closed."
+  - type: weather
+    temp_low_c: 0
+    temp_high_c: 8
+    conditions: Cool, dry and sunny, with strong wind off the water
+    note: "Busan's January averages run from about 0 °C at night to 8 °C by day. The outdoor rows sit on the open harbour front, so the wind is the cold part. The hall and the upstairs restaurants are indoors."
+    wear: Windproof jacket, closed shoes with grip
+  - type: pairs_well
+    items:
+      - id: spa-land-centum-city
+        note: Across town in Centum City. Fish for lunch, hot baths for the evening

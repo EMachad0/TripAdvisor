@@ -1,0 +1,157 @@
+id: bukhansan-winter-hike
+name: "Bukhansan Winter Hike to Baegundae"
+short_name: Bukhansan
+name_local: 북한산 백운대
+name_romanized: Bukhansan Baegundae
+country: korea
+city: seoul
+area: Ui-dong · Gangbuk-gu
+category: nature
+fame: popular
+tags: [hike, mountain, national-park, snow, cold-outdoors, free]
+kind: Do
+why: "Seoul's highest peak (836 m) on the subway: icy granite, a 20-minute rail scramble and the whole city below. Crampons are a must; rent or buy them in Ui."
+cost:
+  local: 3500
+  currency: KRW
+  brl: 14.55
+  note: "The park is free. Subway round trip from central Seoul, with the distance surcharge; crampons extra (price not published)"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 5–6 h (half a day+)
+best_time: "Mon 11 or Mon 18 Jan (rested); start by 09:30"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Trails: unofficial winter hours 04:00–16:00, no night hiking (one guide). Gear rental center 09:00–18:00, closed Mondays"
+  closed: "Gear rental closed Mondays and 1 January"
+  winter: "KoreaToDo (undated, unofficial) lists Nov–Mar trail hours of 04:00–16:00 and says night hiking is banned; I found no official winter times. Ice forms on the granite: guides call crampons recommended for the summit, for experienced hikers only. The gear center lists 1 Jan as a closed day. Check knps.or.kr for trail notices the day before."
+
+location:
+  address: "Baegundae Visitor Center (trailhead), Ui-dong, Gangbuk-gu, Seoul"
+  address_local: 서울특별시 강북구 우이동 백운대탐방지원센터
+  lat: 37.65818
+  lng: 126.99138
+  nearest_transit: "Bukhansan Ui (Ui-Sinseol Line), Exit 2"
+
+sources:
+  - url: https://www.koreaherald.com/article/10919315
+    title: "Chasing fall colors to the top of Seoul: the Baegundae Trail, gear rental, rescue markers (Korea Herald, Oct 2026)"
+    checked: 2026-11-12
+  - url: https://seoulhiking.or.kr/
+    title: "Seoul Hiking Tourism Center: Bukhansan Center address, hours, gear rental for foreigners (official)"
+    checked: 2026-11-12
+  - url: https://koreatodo.com/bukhansan-national-park
+    title: "Bukhansan National Park guide: seasonal hours, crampons, routes (KoreaToDo)"
+    checked: 2026-11-12
+  - url: https://www.seoultourism.org/?p=969
+    title: "Bukhansan Hiking Guide, updated 9 Nov 2026 (Seoul Tourism Guide)"
+    checked: 2026-11-12
+  - url: https://english.seoul.go.kr/policy/transportation/modes-of-transport/
+    title: "Seoul Metropolitan Government: modes of transport, fares and the 10 km + ₩100 per 5 km rule"
+    checked: 2026-11-12
+  - url: https://www.koreajoongangdaily.com/korea/seoul-subway-prices-rising-to-1550-won-on-june-28/11965075
+    title: "Seoul subway prices rising to 1,550 won on June 28 (Korea JoongAng Daily, 2025)"
+    checked: 2026-11-12
+  - url: https://sunrise-sunset.org/search?location=Seoul&year=2027&month=1
+    title: "Seoul sunrise and sunset, January 2027 (sunrise-sunset.org)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Trail and times from the Korea Herald (Oct 2026). Its $2–5 rental price covers boots, clothes, bags and poles, not crampons; no source gives a crampon price. Winter hours 04:00–16:00 only from KoreaToDo (undated); the official KNPS site would not load. Fare is an estimate from the Seoul fare rule. Pin is the Baegundae Visitor Center trailhead (OpenStreetMap)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: snowy-ridges
+    hook: Snow on granite ridges above a city of nine million, one subway ride from your hostel.
+    caption: The view from Baegundae after snow
+  - type: quick_facts
+    time_needed: 5–6 h door to door
+    best_time: "Mon 11 / Mon 18 Jan, summit by midday"
+    extra:
+      - label: Trail
+        value: 4.1 km up, about 130 min
+        detail: Baegundae Trail from the Ui side, rated advanced
+      - label: Crampons
+        value: Needed in January
+        detail: "Rental center shut Mondays: buy slip-ons at shops by the entrance"
+      - label: Good day for it
+        value: Mon 11 or Mon 18 Jan
+        detail: Rested after a free day; down by mid-afternoon, shift at 21:00
+  - type: highlights
+    items:
+      - title: The top of Seoul
+        text: "**Baegundae** (836 m) is the city's highest point. The Korea Herald describes a line of hikers waiting on bare granite to pose by the flag at the summit."
+      - title: A real scramble
+        text: "From **Baegunbongammun**, a 1711 fortress gate, the last 20 minutes are a rock scramble on footholds cut into the stone, holding steel rails. Not technical, but people afraid of heights find the way down just as hard."
+      - title: Gear for a few dollars
+        text: "The **Seoul Hiking Tourism Center** rents gear to foreign visitors. The Korea Herald says boots, jackets, pants, hats, bags and poles cost **$2 to $5**. KoreaToDo says crampons are on the list too, but I found no price for them."
+      - title: Korea's first mountain hut
+        text: "On the way up you pass **Baegun Shelter** at about 650 m, whose history goes back to 1924. If the top is iced over, it's a fine place to turn around."
+  - type: prose
+    title: Is it a good idea alone in January?
+    dropcap: true
+    text: |-
+      Honest answer: yes, if you're a fit hiker, have crampons and go on a clear weekday, and no if it has just snowed and you've never walked on ice. The Seoul Tourism Guide (Nov 2026) says that in winter the snow-covered granite slabs turn technical, crampons are recommended for the summit section, and the hike is for experienced hikers only. KoreaToDo says the same about footwear on snow and ice.
+
+      The safety net is good for a city mountain. About 240 numbered location signs stand every 200 to 500 m: read the number to **119** in an emergency. A park rescue team is on standby 24 hours a day. On the day the Korea Herald went up, a park official said more than half the hikers were foreigners: you won't be the only one.
+
+      **The gentler plan**: climb as far as Baegun Shelter or Baegunbongammun, have your snack, enjoy the ridges, and come back the same way. Or take the easier valley and "main road" loop from the **Bukhansanseong** entrance (Gupabal Station, Line 3, then bus 34/704/8772), which KoreaToDo calls relatively easy.
+  - type: gallery
+    images:
+      - file: baegundae-snow
+        caption: Snow on the granite near the summit
+      - file: baegundae-granite
+        caption: Baegundae's granite on a clear day
+      - file: summit-flag
+        caption: The flag on the summit rock
+  - type: cost_breakdown
+    items:
+      - label: National park entry
+        local: 0
+        brl: 0
+      - label: Subway there and back from central Seoul
+        local: 3500
+        brl: 14.55
+        estimate: true
+        note: "₩1,550 base fare covers 10 km, then ₩100 per 5 km"
+      - label: Post-hike makgeolli
+        local: 7000
+        brl: 29.09
+        estimate: true
+        optional: true
+        note: "₩6,000–8,000 a bowl (Seoul Tourism Guide)"
+  - type: map
+    zoom: 13
+    note: "Line 4 to **Sungshin Women's Univ.**, change to the **Ui-Sinseol Line** to its last stop, **Bukhansan Ui**. Exit 2: the Hiking Tourism Center (5F, 52 Samyang-ro 173-gil) is 5 min away; the trail starts at Baegundae Visitor Center."
+  - type: tips
+    variant: insider
+    items:
+      - "Get gear first: the **Hiking Tourism Center** opens at 09:00 (closed Mondays). Rentals are for foreign visitors (and Koreans hiking with them)."
+      - "The Seoul Tourism Guide says to avoid weekends: there is a queue at the summit scramble. Your rested weekdays are **Mon 11 and 18 Jan**, but the rental centre is shut Mondays: buy slip-on crampons on the way. Sat 16 – Sun 17 Jan is planned for Hwacheon: a weekend hike means dropping it."
+      - "Coming down past **Doseonsa**, a temple founded about 1,100 years ago, is how the Korea Herald's route comes down, on the Ui side."
+      - "Pack lunch and water: the Seoul Tourism Guide says there are no food vendors past the trailhead."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Plan to be down early. One guide (KoreaToDo) gives winter trail hours of **04:00–16:00** and says night hiking is banned, and sunset is only about 17:32–17:42 on 10–20 Jan. Being caught on icy granite in the dark is the real danger."
+      - "Ice on the steel-rail section is the real risk. If it's glazed and you have no crampons, stop at Baegunbongammun."
+      - "On a Monday the Hiking Tourism Center is shut, so check the trail notices on knps.or.kr the day before for ice or closures."
+      - "No rental slot? KoreaToDo says the hiking shops on the way to the park entrance sell affordable slip-on crampons."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing; colder, windier and icier on the summit
+    note: "These are Seoul's January city averages (2.1 °C by day, −5.5 °C at night). At 836 m on bare rock it is colder and windier than in town. Sunset is about 17:32 on 10 Jan and 17:42 on 20 Jan."
+    wear: Hiking boots (rentable), crampons, thermal layers, windproof shell, gloves, hat, headlamp
+  - type: pairs_well
+    items:
+      - id: sparex-dongdaemun
+        note: Back in town, soak sore legs in a jjimjilbang
+      - id: inwangsan-city-wall-hike
+        note: The short city version, if the big mountain is iced out

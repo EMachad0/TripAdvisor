@@ -1,0 +1,8 @@
+{"v":1,"ts":"2026-11-20T14:00:00Z","session":"s1","round":"area","id":"harbin","verdict":"must","country":"china"}
+{"v":1,"ts":"2026-11-20T14:05:00Z","session":"s1","round":"place","id":"yu-garden","verdict":"maybe","country":"china"}
+{"v":1,"ts":"2026-11-20T14:05:30Z","session":"s1","round":"place","id":"nanxiang-mantou-dian","verdict":"must","country":"china"}
+{"v":1,"ts":"2026-11-20T14:06:00Z","session":"s1","round":"place","id":"old-deleted-place","verdict":"skip","country":"china"}
+this line is not json
+{"v":1,"ts":"2026-11-20T14:07:00Z","session":"s1","round":"place","id":"yu-garden","verdict":"seen"}
+{"v":2,"ts":"2026-11-20T14:08:00Z","session":"s1","round":"place","id":"yu-garden","verdict":"must"}
+{"v":1,"ts":"2026-11-21T09:00:00Z","session":"s2","round":"place","id":"yu-garden","verdict":"must","country":"china"}

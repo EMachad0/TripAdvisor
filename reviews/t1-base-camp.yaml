@@ -1,0 +1,24 @@
+# Independent review of t1-base-camp. Written by `./atr review`; do not edit by hand.
+id: t1-base-camp
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: b1bcc49c20d7bff324dc972947571f13f958b916affbdb6325b750e1d8801802
+facts:
+  supported: 4
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[8].items[2]
+    problem: This tip still says the shop sold accessories and Switch games "when visited in 2026". It comes from the same undated Creatrip post, which the page now correctly calls undated.
+    evidence: 'https://creatrip.com/en/userblog/4884: "gaming accessories or Nintendo Switch games!" (only "5 months ago", no date on the post)'
+    fix: Change "when visited in 2026" to "per the same visitor post".
+resolved:
+  - field: cost.note
+    problem: The page uses the Creatrip post as proof from 2026 of the ₩3,000/h rate. That post gives no hourly rate and no date (it only shows "5 months ago"), and it says the writer paid ₩3,000 for an option it does not name. So the only real source for the hourly price is VisitKorea from April 2024, which is weak support for the main price.
+    evidence: 'cost.note now says "Only source: VisitKorea, Apr 2024; no current price list found". The Creatrip source is retitled "(undated)", and the quick_facts and food-to-seat text no longer calls the writer a 2026 visitor. The pitfalls tip tells the traveler to check the price board. https://creatrip.com/en/userblog/4884 still shows only "5 months ago" and "I only paid 3000 WON", so dropping the 2026 proof claim is correct. One unchanged tip still says "when visited in 2026" (see nit).'
+rereview_of: 0b807f274f6a7dcff069e1f86ed98c449254af2457cd0978e8db83c85ebafee6
+summary: The earlier price finding is resolved. The hourly rate is now labelled as coming only from VisitKorea (Apr 2024), and the Creatrip post is called undated. One tip still dates that post to 2026, which is a nit. No blockers or shoulds remain.
+model: claude-opus-5-5
+cost_usd: 0.206

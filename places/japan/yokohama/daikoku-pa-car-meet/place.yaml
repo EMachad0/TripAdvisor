@@ -1,0 +1,165 @@
+id: daikoku-pa-car-meet
+name: "Daikoku PA car meet"
+short_name: Daikoku PA
+name_local: 大黒パーキングエリア
+name_romanized: Daikoku Pākingu Eria
+country: japan
+city: yokohama
+area: Tsurumi · Daikoku Pier
+category: odd-local
+fame: popular
+must_do: car-meet
+must_do_note: "You can't walk or take transit there. This page is about the honest ways in, and how often police close it"
+tags: [cars, jdm, car-meet, night, expressway, tour]
+kind: Do
+why: "JDM legends parked under spiralling expressway ramps on Fri–Sat nights. No car? Only a tour or taxi gets you in, from ¥15,000, and police often close it."
+
+cost:
+  local: 15000
+  currency: JPY
+  brl: 526.5
+  note: "Cheapest small-group tour we found (Niche Drive on GetYourGuide, from ¥15,000 per person, seen 11 Nov 2026)"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 4 h (tour, from central Tokyo)
+best_time: "Friday or Saturday night, after dark"
+
+book_ahead:
+  required: true
+  lead_days: 2
+  lead_time: "Book once your Tokyo weekend night is fixed; free cancellation up to 24 h"
+  method: tour
+  links:
+    - label: Niche Drive, 4 h small group
+      url: "https://www.getyourguide.com/tokyo-l193/tokyo-jdm-car-meet-tour-daikoku-autobacs-with-tour-guide-t507597/"
+      note: "From ¥15,000 pp. Starts at Harajuku Station, max 9 people, Daikoku 'subject to access'"
+    - label: Self-drive package (Klook)
+      url: "https://www.klook.com/activity/147074-tokyo-daikoku-self-drive-tour/"
+      note: "¥75,625 on LIVE JAPAN. Needs a 1949 Geneva-Convention driving permit"
+  notes: "There is no way in on foot or by public transport, so you need a ride you've arranged. A licensed taxi is legal too; book the return before you go. Ask any tour whether its vehicle is licensed to carry paying passengers."
+
+hours:
+  summary: "An expressway rest stop with a 24-hour Lawson, so no set hours. On Friday and Saturday nights it is often restricted, closed or cleared"
+  closed: "Often closed to cars on weekend nights, at short notice"
+  winter: "No winter schedule exists: closures depend on the night. A 2018 report said closures start around 20:30, mostly on Saturdays, and lift about 01:00–03:00. On Halloween night 2026 a tour found Daikoku closed early. Your Japan dates are now 4–22 Jan 2027, which includes two Fri–Sat weekends (8–9 and 15–16 Jan)."
+
+location:
+  address: "Daikoku PA, Shuto Expressway Daikoku Route, Daikoku Pier, Tsurumi-ku, Yokohama"
+  address_local: 神奈川県横浜市鶴見区大黒ふ頭 首都高速 大黒パーキングエリア
+  lat: 35.46139
+  lng: 139.68278
+  nearest_transit: "None: reachable only by car on the Shuto Expressway"
+
+sources:
+  - url: https://livejapan.com/en/in-tokyo/in-pref-kanagawa/in-yokohama/article-a0006057/
+    title: "LIVE JAPAN: Daikoku PA car meet guide (updated 21 Oct 2026): access by car only, trespass warning, tour legality"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Daikoku_Parking_Area
+    title: "Daikoku Parking Area (Wikipedia): location, facilities, Friday/Saturday night restrictions"
+    checked: 2026-11-11
+  - url: https://agora-web.jp/archives/261102052752.html
+    title: "Agora (3 Nov 2026, Japanese): night-gathering closures at Daikoku, June 2025 roadside inspection"
+    checked: 2026-11-11
+  - url: https://kuruma-news.jp/post/99236/2
+    title: "Kuruma News (Jul 2018, Japanese): why Daikoku PA closes on weekend nights, typical closing times"
+    checked: 2026-11-11
+  - url: "https://www.getyourguide.com/tokyo-l193/tokyo-jdm-car-meet-tour-daikoku-autobacs-with-tour-guide-t507597/?currency=JPY"
+    title: "GetYourGuide: Niche Drive 4-hour JDM night tour, from ¥15,000 pp, reviews incl. Daikoku closed on Halloween 2026"
+    checked: 2026-11-11
+  - url: https://livejapan.com/en/in-tokyo/in-pref-kanagawa/in-kawasaki/activity-outdoor_activities/ac0147074
+    title: "LIVE JAPAN: Self-Drive JDM Car Tour to Daikoku PA (Klook), ¥75,625, licence and IDP rules"
+    checked: 2026-11-11
+  - url: https://soranews24.com/2026/07/08/foreign-tourists-injured-in-nissan-gt-r-crash-near-tokyos-shibuya-scramble-crossing/
+    title: "SoraNews24 (8 Jul 2026): tourists hurt in a paid GT-R 'driving tour'; driver held for unlicensed taxi service"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Yokohama
+    title: "Yokohama (Wikipedia): climate table, January normals 1991–2020"
+    checked: 2026-11-11
+confidence: low
+confidence_note: "2026 closure counts for Daikoku aren't published; closing times are from a 2018 report. Niche Drive's transport licence is unconfirmed; its GetYourGuide page (read in Chrome via atr render) gives a 'from' price. The Klook link came from search results and its ¥75,625 price from LIVE JAPAN; Klook blocks checks. No taxi fare found."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: night-panorama
+    caption: "Daikoku PA at night under the expressway ramps. No free photo of a meet itself"
+    hook: A car park inside an expressway junction, ringed by spiralling ramps, where Japan's tuned cars gather after dark.
+    focus: center
+  - type: quick_facts
+    time_needed: 4 h tour from Tokyo
+    best_time: "Fri or Sat night"
+    extra:
+      - label: On foot
+        value: Not possible
+        detail: Walking in is trespassing and can mean arrest
+      - label: Police closures
+        value: Common on weekends
+        detail: Lot closed to new cars or cleared, at short notice
+      - label: What you see
+        value: Parked cars, not racing
+        detail: Owners chatting next to their cars
+  - type: highlights
+    items:
+      - title: The car park inside a junction
+        text: "Daikoku PA is the **largest parking area** on the Shuto Expressway, a lot surrounded by the looping ramps of Daikoku Junction."
+      - title: Japan's car culture, parked
+        text: "Supercars, sports cars, lowriders and tuned cars gather here. It's a static meet: owners talking next to parked cars, not racing."
+      - title: Friday and Saturday nights
+        text: "There's no official schedule. Friday and weekend nights after sunset draw the biggest crowds."
+      - title: The honest catch
+        text: "Police often close the lot on weekend nights. Book a tour that has a **plan B**, such as Tatsumi or Umihotaru PA."
+  - type: prose
+    title: Getting there without a car
+    dropcap: true
+    text: |-
+      Daikoku PA sits inside the Shuto Expressway's Bayshore Route. There is **no footpath, no train and no bus**. LIVE JAPAN is blunt: climbing fences or walking in from the surrounding roads is trespassing and could lead to arrest. You arrive by car or not at all.
+
+      That leaves three options. A **licensed taxi** is legal; it costs more, and you must arrange the ride back before you go. The **self-drive package** sold on Klook (¥75,625) is the one LIVE JAPAN confirmed as legal, but it needs a 1949 Geneva-Convention international permit. Check whether your Brazilian licence qualifies. The third option is a **small-group tour**, from about ¥15,000 per person.
+
+      Be picky about tours. In September 2026 LIVE JAPAN wrote that most "JDM Night Tours" on booking sites are "highly likely to be illegal". In July 2026 a man in Shibuya was arrested for allegedly running an unlicensed taxi after offering tourists a ¥5,000 GT-R "driving tour" that crashed. Choose an operator that drives legally and ask whether it's licensed for paying passengers.
+  - type: gallery
+    images:
+      - { file: junction-loops, caption: "The ramps of Daikoku Junction curling over the car park, by day" }
+      - { file: parking-lot, caption: "The car park by day; the meets happen on Friday and Saturday nights" }
+  - type: quote
+    variant: vibe
+    text: Sodium lights, ramps curling overhead, and engines ticking as they cool, until the police decide it's time to go.
+  - type: book_ahead
+    steps:
+      - days_before: 2
+        text: "Pick a **Friday or Saturday** night in Tokyo and book a tour that says what it does if Daikoku is closed. Ask about its passenger-transport licence."
+      - days_before: 1
+        text: "Last day for free cancellation on the Niche Drive tour (up to 24 h before)."
+      - days_before: 0
+        text: "Meet at **Harajuku Station** for Niche Drive. If police close Daikoku, the guide switches to other stops."
+  - type: cost_breakdown
+    items:
+      - label: "Small-group tour (from)"
+        local: 15000
+        brl: 526.5
+    note: "This is about three days of your R$170 budget for one night. It's on your must-do list and there's no cheap way in. If cars are only a mild interest, this is the one to skip."
+  - type: map
+    zoom: 14
+    note: "The pin is the parking area inside Daikoku Junction. There's no pedestrian access: arrive by tour, taxi or rental car only."
+  - type: tips
+    variant: insider
+    items:
+      - "Expect a **static meet**: engines off, owners chatting. Ask before close-up photos of people, and keep bags and belt buckles away from paintwork."
+      - "Consider a **Friday**: a 2018 report said closures were most common on Saturday nights."
+      - "Wear something reflective or bright. It's a busy car park in the dark."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Never** accept a paid ride from someone who approaches you on the street. Police warn this is how unlicensed 'driving tours' operate."
+      - "If police tell the crowd to leave, leave. Don't argue."
+      - "A 'Tokyo Drift' tour means looking at parked cars, not drifting. Read the itinerary before you pay."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cold and dry, on the bay
+    note: "Yokohama's January averages 3 °C at night and 10 °C by day, with about 6 wet days. You'll stand in an open lot on the bay at night for an hour or more."
+    wear: Warm jacket, gloves, something reflective
+  - type: pairs_well
+    items:
+      - id: shibuya-crossing-and-sky
+        note: "Some tours start near Harajuku/Shibuya. Shibuya Sky at sunset, then the car meet"

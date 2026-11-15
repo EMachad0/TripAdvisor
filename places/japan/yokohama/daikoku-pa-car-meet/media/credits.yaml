@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: night-panorama
+  title: File:Daikoku Parking Area -01.jpg
+  author: Aimaimyi
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Daikoku_Parking_Area_-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/79/Daikoku_Parking_Area_-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Daikoku Parking Area on the Shuto Expressway , at Daikoku Pier in Tsurumi-ku , Yokohama City , Kanagawa Prefecture , Japan
+  width: 9202
+  height: 2585
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: junction-loops
+  title: File:Daikoku-JCT.JPG
+  author: Nyao148
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Daikoku-JCT.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/56/Daikoku-JCT.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Daikoku Junction seen from Daikoku Parking Area. The rampways are built circularly above the parking area
+  width: 2560
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: parking-lot
+  title: File:Daikoku-PA.JPG
+  author: Nyao148
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Daikoku-PA.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Daikoku-PA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Parking lot at Daikoku Parking Area
+  width: 2487
+  height: 1797
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons

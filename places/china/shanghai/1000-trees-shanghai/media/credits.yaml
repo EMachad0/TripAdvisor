@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: planter-columns
+  title: File:1000 Trees 20251127 (II).jpg
+  author: This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images, but please mention me as the author…
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:1000_Trees_20251127_(II).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6a/1000_Trees_20251127_%28II%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 1000 Trees (Also named as Hanging Gardens of Babylon) in Putuo District, Shanghai
+  width: 6277
+  height: 4484
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: terraces
+  title: File:1000 Trees 20251127.jpg
+  author: This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images, but please mention me as the author…
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:1000_Trees_20251127.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/06/1000_Trees_20251127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 1000 Trees (Also named as Hanging Gardens of Babylon) in Putuo District, Shanghai
+  width: 4001
+  height: 6002
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: creek-side
+  title: File:1000 Trees 04.jpg
+  author: Codas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:1000_Trees_04.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3a/1000_Trees_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 1000 Trees
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

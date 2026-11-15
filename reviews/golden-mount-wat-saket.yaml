@@ -1,0 +1,22 @@
+# Independent review of golden-mount-wat-saket. Written by `./atr review`; do not edit by hand.
+id: golden-mount-wat-saket
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: ba02311b55869729549a6686ffa771fb6c5bc5445804704783df3e07b3c2f190
+facts:
+  supported: 5
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[10].conditions
+    problem: The page says January is the coolest month, and hours.winter calls it the 'clearest, least sweaty month'. The listed climate source shows December is cooler and drier than January.
+    evidence: "https://en.wikipedia.org/wiki/Bangkok climate table (1991–2020): Dec max 32.3 / min 23.2 / 11.6 mm, Jan max 32.7 / min 23.4 / 23.6 mm, the lowest temperatures of the year. hours.winter now says 'Dec–Jan are the coolest, driest part of the year (about 23–33 °C)' and blocks[10].conditions now says 'Dec–Jan are the coolest, driest months'. Neither calls January the coolest month any more."
+  - field: location.address
+    problem: The English street address 'Soi Borommabanphot' does not appear in any listed source. The listed source gives a different street.
+    evidence: "https://www.visitthailandtoday.com/temples-culture/bangkok/golden-mount-wat-saket: \"344 Thanon Chakkraphatdi Phong, Khwaeng Ban Bat, Khet Pom Prap Sattru Phai, Krung Thep Maha Nakhon 10100\". location.address now reads '344 Chakkraphatdi Phong Rd, Ban Bat, Pom Prap Sattru Phai, Bangkok 10100', and address_local gives the same street in Thai (ถนนจักรพรรดิพงษ์)."
+rereview_of: 88083db8140df23d5697d8299bd8d7793fb12eb7a7cf5871b49cb79b0cc6ab25
+summary: Both earlier findings are fixed and the listed sources support the fixes. The Dec–Jan climate wording and 23–33 °C match the Wikipedia table, and the address matches Visit Thailand Today. The only new unsourced figure is the SkyWalk price (฿1,000–1,200) in pairs_well. It matches the linked SkyWalk page's own price tiers, so it is not a blocker, and no new blockers turned up.
+model: claude-opus-5-5
+cost_usd: 0.353

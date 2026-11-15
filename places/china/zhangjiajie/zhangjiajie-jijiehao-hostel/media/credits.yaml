@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: wulingyuan-gate
+  title: File:Wulingyuan entrance 01.jpg
+  author: Codas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wulingyuan_entrance_01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/99/Wulingyuan_entrance_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wulingyuan entrance
+  width: 5712
+  height: 4284
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

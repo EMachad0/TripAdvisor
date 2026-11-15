@@ -1,0 +1,19 @@
+# Independent review of formula-hmong-cart-racing. Written by `./atr review`; do not edit by hand.
+id: formula-hmong-cart-racing
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 4fef82f60155fff6094db953ac24d8e5107587cf3719f89b290967645eb3f09b
+facts:
+  supported: 1
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[0].hook
+    problem: "The new hook says 'The only thing to book is your trip north'. That claims spectators need no ticket, but the page itself says 'Race entry: unknown' and no listed source says watching is free."
+    evidence: "place.yaml blocks[0].hook now reads 'Book your trip north; race entry is unknown.' This matches book_ahead.lead_time ('Race entry: unknown') and book_ahead.notes ('Spectator entry is unknown'). The phone shot (s01) shows the new hook in the hero with nothing cut off."
+rereview_of: d340f04c6874f735c04ca6df28435467088f19dfd1845fc2c1610405207a22b3
+summary: "Earlier finding 1 is resolved. The hook no longer says spectators need no ticket, and it now matches the page's own 'race entry unknown' wording. The only other change is a wording tweak to the confidence_note ('Van fare: Rome2Rio estimate'), which adds no new fact. I found no blockers in the text that did not change, and ./atr validate passes."
+model: claude-opus-5-5
+cost_usd: 0.279

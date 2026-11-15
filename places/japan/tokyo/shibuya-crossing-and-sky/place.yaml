@@ -1,0 +1,160 @@
+id: shibuya-crossing-and-sky
+name: "Shibuya Crossing and Shibuya Sky"
+short_name: Shibuya
+name_local: 渋谷スクランブル交差点・SHIBUYA SKY
+name_romanized: Shibuya Sukuranburu Kōsaten
+country: japan
+city: tokyo
+area: Shibuya · Hachikō exit
+category: views
+fame: iconic
+must_do: shibuya
+tags: [shibuya, crossing, observation-deck, rooftop, sunset, night-view, free]
+kind: See
+why: "Walk the world's busiest crossing for free, then watch it from a 229 m open-air rooftop at sunset. Web tickets go on sale only 2 weeks ahead."
+
+cost:
+  local: 3400
+  currency: JPY
+  brl: 119.34
+  note: "Shibuya Sky web ticket for a 15:00+ (sunset/night) entry. Before 15:00 it's ¥2,700. The crossing is free"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: "Crossing after dark; rooftop slot just before sunset"
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Web tickets go on sale 2 weeks before the date"
+  method: website
+  links:
+    - label: SHIBUYA SKY tickets (official)
+      url: "https://www.shibuya-scramble-square.com/sky/ticket/"
+      note: "Use the button for international customers. Timed entry; pick your slot"
+  notes: "Sunset and night slots sell out: on 11 Nov 2026 that day's tickets were gone when we checked. If the web sells out, so does the counter. The site announces new purchase and entry methods from 19 Nov 2026, so re-check the steps when you book."
+
+hours:
+  summary: "Shibuya Sky 10:00–22:30, last entry 21:20. The crossing never closes"
+  closed: "Shibuya Sky closes on New Year's Day"
+  winter: "No winter hours listed. The open-air rooftop can close without notice when the weather turns (rain, strong wind), and there are no refunds once you're inside. The site reports the rooftop and the indoor floors separately, so the indoor deck may still be open. Your Japan dates are now 4–22 Jan 2027, after the 1 Jan closure."
+
+location:
+  address: "Shibuya Scramble Square, 2-24-12 Shibuya, Shibuya-ku, Tokyo (14F ticket desk, 45F–46F and rooftop)"
+  address_local: 東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア
+  lat: 35.65838
+  lng: 139.70222
+  nearest_transit: "Shibuya Station (JR Yamanote, Ginza, Hanzōmon…), connected to the building"
+
+sources:
+  - url: https://www.shibuya-scramble-square.com/sky/ticket/
+    title: "SHIBUYA SKY official ticket page: web/counter prices, 2-week sales window, rooftop closure note (rendered in Chrome)"
+    checked: 2026-11-11
+  - url: https://www.shibuya-scramble-square.com/sky/
+    title: "SHIBUYA SKY official top page: hours 10:00–22:30, last entry 21:20, live rooftop status and sunset time (rendered)"
+    checked: 2026-11-11
+  - url: https://www.gotokyo.org/en/spot/1749/index.html
+    title: "GO TOKYO (official Tokyo guide): SHIBUYA SKY, updated 23 Apr 2026: New Year's Day closure, rooftop rules, no refunds after entry"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Shibuya_Crossing
+    title: "Shibuya Crossing (Wikipedia): 1,000–2,000 people per green light"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals 1991–2020"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Prices, hours and the 2-week sales window are from the official site on 11 Nov 2026. The site announces new purchase and entry methods from 19 Nov 2026; the notice itself would not load, so the booking steps may change. Jan 2027 sunset times aren't sourced here: the official top page shows each day's sunset."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: crossing
+    hook: The lights turn red for every car at once, and a thousand people step off the curb in every direction.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: "Rooftop slot just before sunset"
+    extra:
+      - label: Crossing
+        value: Free, 24 hours
+        detail: Busiest after dark and on weekend evenings
+      - label: Rooftop height
+        value: 229 m, open-air
+        detail: Can close without notice in bad weather
+      - label: Ticket window
+        value: 2 weeks ahead
+        detail: Web sells out first, counter after
+  - type: highlights
+    items:
+      - title: The scramble, from street level
+        text: "Every light cycle, **1,000–2,000 people** cross at once from all sides. It costs nothing. Cross it a few times, then find a window above it."
+      - title: A rooftop with no glass
+        text: "Shibuya Sky's roof is an open deck **229 m** above the crossing, with Tokyo all around you. Loose hats, tripods and selfie sticks aren't allowed up there."
+      - title: Sunset into night
+        text: "Book an entry just before sunset and stay as the city lights up. The official page shows each day's sunset time. You can stay until closing at **22:30**."
+      - title: Shibuya after dark
+        text: "Come down to the clubs of Maruyamachō. **WOMB**, one of Tokyo's best-known clubs, is about an 8-minute walk from the Hachikō exit."
+  - type: prose
+    title: How to do Shibuya in one evening
+    dropcap: true
+    text: |-
+      Start at street level. Come out of the **Hachikō exit**, wait for the lights to change and walk the crossing in one direction, then back diagonally. It's free and open at any hour.
+
+      Then go up. Shibuya Sky is on top of **Shibuya Scramble Square**, the tower connected to the station. Tickets are timed. An entry before 15:00 costs ¥2,700 online, and one from 15:00 costs ¥3,400. In January the sunset falls in the more expensive band, and those slots go first.
+
+      Winter is the honest catch. The roof is open-air and closes when the weather turns. If that happens you only get the indoor floors, and there are no refunds once you've entered. Check the forecast before your slot.
+  - type: gallery
+    images:
+      - file: view-down
+        caption: The crossing from the top of Shibuya Scramble Square
+      - file: sky-stage
+        caption: "Sky Stage, the open-air rooftop at 229 m"
+  - type: quote
+    variant: vibe
+    text: Cold wind on the roof, the city turning gold and then neon, and the crossing pulsing far below like a heartbeat.
+  - type: book_ahead
+    steps:
+      - days_before: 14
+        text: "Web tickets for your date go on sale **2 weeks ahead**. Choose a slot starting just before sunset (15:00+ price, ¥3,400)."
+      - days_before: 1
+        text: "Check the forecast. The rooftop can close without notice when the weather turns."
+      - days_before: 0
+        text: "SHIBUYA SKY is on floors 14, 45–46 and the roof of Shibuya Scramble Square. Leave bags in the 46th-floor lockers before the roof."
+  - type: cost_breakdown
+    items:
+      - label: Shibuya Crossing
+        local: 0
+        brl: 0
+      - label: "Shibuya Sky, web ticket, 15:00+ entry"
+        local: 3400
+        brl: 119.34
+      - label: "Same ticket at the counter, if any are left"
+        local: 3700
+        brl: 129.87
+        optional: true
+    note: "A before-15:00 web ticket is ¥2,700 (R$94.77) if you'd rather see it by day."
+  - type: map
+    zoom: 16
+    note: "Shibuya Scramble Square sits directly on Shibuya Station. The crossing is right outside the **Hachikō exit**."
+  - type: tips
+    variant: insider
+    items:
+      - "Set an alarm for **14 days before** your date. The sales window opens then, and sunset slots don't last."
+      - "The official top page shows **today's rooftop status** (open or closed) and the sunset time. Check it on the day."
+      - "Cross the scramble once **after 22:30**, when Shibuya Sky has closed and the nightlife is just getting going."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "If web tickets are sold out, **the counter is sold out too**. Don't count on a walk-up."
+      - "No refunds after entry, even if the rooftop shuts while you're up there."
+      - "Big bags, food and drink aren't allowed. Station lockers are for luggage; smaller items go in the 46th-floor lockers."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "Tokyo's January averages 1 °C at night and 10 °C by day, with about 5 wet days. Clear winter air gives long views, but at 229 m the wind cuts. Expect it to feel colder than street level."
+    wear: Warm coat, gloves, a hat that won't blow off (or none)
+  - type: pairs_well
+    items:
+      - id: womb-shibuya
+        note: About 8 min walk from the Hachikō exit. The night goes on there

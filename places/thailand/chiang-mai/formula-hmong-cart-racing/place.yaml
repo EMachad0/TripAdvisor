@@ -1,0 +1,160 @@
+id: formula-hmong-cart-racing
+name: "Formula Hmong Wooden Cart Racing"
+short_name: Formula Hmong
+name_local: ฟอร์มูล่าม้ง
+country: thailand
+city: chiang-mai
+area: "Mon Jam · Mae Rim"
+category: odd-local
+fame: hidden
+tags: [hmong, festival, hill-tribe, racing, weekend-trip]
+kind: Do
+why: "Hmong villagers bomb down a 400 m mountain track on brakeless-looking wooden carts at their New Year. The 2027 race date isn't out yet."
+
+cost:
+  local: 3400
+  currency: THB
+  brl: 567.8
+  note: "Last-minute flights (the date comes out late) + van. ฿1,800 only with ฿700 fares booked weeks out. Spectator entry: unknown"
+fx: { rate: 0.167, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Half a day there; a weekend from Bangkok"
+best_time: "Race day, from the morning (date TBA)"
+
+when:
+  dates:
+    - { from: 2026-12-12, to: 2027-01-31 }
+  kind: season
+  label: "Dec–Jan race season · 2027 date TBA"
+  confirmed: false
+
+book_ahead:
+  required: recommended
+  lead_days: 2
+  lead_time: "Your flight or train north, once the 2027 date is out. Race entry: unknown"
+  method: platform
+  links:
+    - { label: "Train or flight north (12Go)", url: "https://12go.asia/en/travel/bangkok/chiang-mai", note: "What to book: the trip north, not the race. Sleeper trains and flights in one search" }
+    - { label: "Flights Bangkok → Chiang Mai (Trip.com)", url: "https://www.trip.com/flights/bangkok-to-chiang-mai/airfares-bkk-cnx/" }
+    - { label: "2025 race announcement (last year's)", url: "https://www.pattayamail.com/thailandnews/world-formula-hmong-racing-mon-jam-2025-jan-11-12-486623", note: "2027 details not out. Whether spectators pay or book is unknown" }
+  notes: "The booking here means **your flights or train**, not a race ticket. The 2025 date came out 2 days before the race, so that is your lead time. **Spectator entry is unknown:** no source says if watching is free or ticketed; in 2025 only racers registered (online form)."
+
+hours:
+  summary: "Daytime races on event days only; races in pairs, best of three, over 2–3 days (2024 and 2025 editions)"
+  winter: "This IS a winter event: races follow the Hmong New Year. Past dates: Mon Jam 26–28 Jan 2024 and 11–12 Jan 2025; a Hang Dong village race on 20 Dec 2025. No 2026/27 date found on 13 Nov 2026. THE STANDARD measured about 19 °C in the morning mist on race day 2024."
+
+location:
+  address: "Doi Mon Jam summit, Nong Hoi village, Mae Raem, Mae Rim, Chiang Mai (2024–2025 venue)"
+  address_local: "ยอดดอยม่อนแจ่ม บ้านหนองหอย ตำบลแม่แรม อำเภอแม่ริม จังหวัดเชียงใหม่"
+  lat: 18.93585
+  lng: 98.82271
+  nearest_transit: "Van from Warorot Market, Chiang Mai (3 a day, ~1 h)"
+  approximate: true
+
+sources:
+  - url: https://radiochiangmai.prd.go.th/th/content/article/detail/id/57/iid/354727
+    title: "เริ่มแล้ว ฟอร์มูล่าม้ง ที่เชียงใหม่: Monjam race 11–12 Jan 2025 (Radio Thailand Chiang Mai, government PR dept.)"
+    checked: 2026-11-13
+  - url: https://www.pattayamail.com/thailandnews/world-formula-hmong-racing-mon-jam-2025-jan-11-12-486623
+    title: "'World Formula Hmong Racing @ Mon Jam 2025' Jan 11–12 (Pattaya Mail / TAT, 9 Jan 2025)"
+    checked: 2026-11-13
+  - url: https://thestandard.co/world-formula-hmong-racing-at-mon-jam/
+    title: "ฟอร์มูล่าม้ง แข่งรถเลื่อนไม้ท่ามกลางอากาศหนาวเย็น 19 องศา: day 1 of the 2024 race, 26 Jan (THE STANDARD)"
+    checked: 2026-11-13
+  - url: https://www.pattayamail.com/thailandnews/formula-hmong-racing-enthusiasts-echo-through-the-mountains-in-chiang-mai-06-451104
+    title: "'Formula Hmong Racing' enthusiasts echo through the mountains in Chiang Mai (Pattaya Mail / TNA, 30 Jan 2024)"
+    checked: 2026-11-13
+  - url: https://www.chiangmainews.co.th/social/3851816/
+    title: "นายอำเภอหางดง เปิดงานปีใหม่ม้ง บ้านห้วยกว้าง ควบฟอร์มูล่าม้ง: 20 Dec 2025 (Chiang Mai News)"
+    checked: 2026-11-13
+  - url: https://thestandard.co/hmong-new-year/
+    title: "เครือข่ายม้ง 12 หมู่บ้าน จัดงานประเพณีปีใหม่ม้ง น่อ เป๊ เจ่า (THE STANDARD, Dec 2022)"
+    checked: 2026-11-13
+  - url: https://www.visitthailandtoday.com/temples-culture/chiang-mai/mon-jam
+    title: "Mon Jam, Chiang Mai: getting there and what it costs (Visit Thailand Today)"
+    checked: 2026-11-13
+  - url: https://www.rome2rio.com/s/Chiang-Mai/Mon-Jam
+    title: "Chiang Mai to Mon Jam: van from Talat Warorot, 3 a day, ~1 h (Rome2Rio)"
+    checked: 2026-11-13
+  - url: https://www.visitthailandtoday.com/guides/bangkok-to-chiang-mai
+    title: "Bangkok to Chiang Mai (2026): sleeper train, flight or bus (Visit Thailand Today)"
+    checked: 2026-11-13
+  - url: https://12go.asia/en/travel/bangkok/chiang-mai
+    title: "Bangkok to Chiang Mai: trains, buses and flights, bookable (12Go)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Chiang_Mai
+    title: "Chiang Mai: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-13
+confidence: low
+confidence_note: "No 2026/27 race date or venue found by 13 Nov 2026 (Thai and English searches); host villages rotate, so season and venue come from the 2024–2025 Mon Jam races. Van fare: Rome2Rio estimate. Pin: Mon Cham viewpoint, Ban Nong Hoi (OpenStreetMap). The schema has no 'unknown' booking state, so 'recommended' + 12Go stands for the trip north; race entry is unknown. Trip.com page read via atr render."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: mon-jam-panorama
+    focus: center
+    hook: "Hmong racers pilot wooden carts down a mountain road. Book your trip north; race entry is unknown."
+    caption: "The Mon Jam hills, venue of the 2024 and 2025 races. No free photo of the carts exists"
+  - type: quick_facts
+    time_needed: "Half a day at the track"
+    best_time: "Race day, from the morning"
+    extra:
+      - { label: Slot, value: "Free weekend + flight north", detail: "Sat 2–Sun 3 Jan best; on 9 Jan only the Saturday heats" }
+      - { label: 2027 date, value: Not announced yet, detail: "2025: 11–12 Jan · 2024: 26–28 Jan, both at Mon Jam" }
+      - { label: Track, value: "About 400 m downhill", detail: "Pairs race, best of 3, losers out" }
+  - type: highlights
+    items:
+      - title: The cart was a farm truck
+        text: "The wooden cart is how Hmong families once rolled crops **down from the high fields** to the lowland towns. Motor vehicles replaced it, so now it's raced for fun at New Year."
+      - title: Knockout racing on a mountain
+        text: "Two carts at a time down a **400 m** track, best of three, losers out, over two or three days, for cash prizes (nearly ฿10,000 in 2024)."
+      - title: A whole Hmong New Year around it
+        text: "Cloth-ball tossing (*lukchuang*, a courting game), spinning-top and crossbow contests, dancers and the embroidered New Year dress. The 12 Hmong villages of Chiang Mai take turns hosting."
+      - title: Tourists can have a go
+        text: "The 2025 Mon Jam edition had a separate **amateur class for tourists** next to the pros, and in 2024 international visitors joined test runs. Not guaranteed for 2027."
+  - type: prose
+    title: Will it fit your week?
+    dropcap: true
+    text: |-
+      Honestly, maybe not. The races ride on the Hmong New Year, which Chiang Mai's 12 Hmong villages celebrate in turns, and dates surface late: in 2025 the English announcement came out on 9 January, two days before the race, pointing to a Facebook page. The big Mon Jam race fell on **11–12 January** in 2025 and **26–28 January** in 2024; a village race in Hang Dong ran on **20 December 2025**. So a race on one of your two free weekends is plausible but nowhere near certain.
+
+      **Sat 2–Sun 3 Jan (the better fit):** you arrive in Thailand on the 2nd and have no shift until Monday night, so you get both race days. Instead of landing in Bangkok you could fly from China straight to Chiang Mai if a route fits (check flights), van up to Mon Jam (~1 h), and fly down to Bangkok on Sunday evening or Monday.
+
+      **Sat 9 Jan (heats only):** you finish work at 04:00 Saturday, fly Bangkok → Chiang Mai that morning (70–80 min) and catch the Saturday heats. Sunday's finals are out, because you leave for Seoul on the 10th. The other option is to carry the laptop and work your night shifts from Chiang Mai that week.
+
+      **Is it worth ฿1,800–3,400 (R$300–570), three to six days' budget?** Since the date comes out days before the race, expect last-minute fares of about ฿1,500 each way (R$570 in all), and New Year weeks can cost even more. It's only worth it if a race is confirmed: it happens nowhere else, and almost no foreign visitors see it. Without a date, don't spend the money.
+
+      This is a race you **watch** (and maybe try in an amateur class). To ride a gravity kart down a mountain yourself, see Skyline Jungle Luge near Chiang Mai and Thongsomboon Club near Khao Yai.
+  - type: gallery
+    images:
+      - { file: mon-jam-flowers, caption: "Flower fields at Mon Jam, a Hmong farming village turned viewpoint", focus: center }
+  - type: cost_breakdown
+    items:
+      - { label: "Flight Bangkok → Chiang Mai, last-minute (no bag)", local: 1500, brl: 250.5, estimate: true }
+      - { label: "Flight Chiang Mai → Bangkok, last-minute", local: 1500, brl: 250.5, estimate: true }
+      - { label: "Van Chiang Mai (Warorot) → Mon Jam", local: 200, brl: 33.4, estimate: true }
+      - { label: "Van back to Chiang Mai", local: 200, brl: 33.4, estimate: true }
+    note: "Flights are ฿700 each if booked 2–4 weeks out (total ฿1,800), but the date comes too late for that. Sleeper No. 9 is ฿941 (upper berth), 12–14 h. **Spectator entry: unknown.**"
+  - type: map
+    note: "Pin is the **Mon Cham viewpoint in Ban Nong Hoi**, the 2024–2025 race area. The 2027 host village may differ: check the announcement before you go."
+  - type: tips
+    variant: insider
+    items:
+      - "**Watch for the announcement** from mid-December: search Facebook for *World Formula Hmong Racing* and *เทศบาลตำบลแม่แรม* (Mae Raem municipality), or *ฟอร์มูล่าม้ง 2570*."
+      - "Up at Mon Jam, the flower gardens and photo spots charge about **฿50 each**: pick two or three."
+      - "A jungle coaster and zipline park is **2.1 km** from Mon Jam, if you want to ride something downhill yourself the same day."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Plan the ride **back down** before you go up: there are only 3 vans a day, so note the last one or agree a return with a hired songthaew."
+      - "Don't book flights until a date is out. If you fly up on spec, the rest of Mon Jam (gardens, cool air, viewpoints) is the consolation prize."
+  - type: weather
+    temp_low_c: 16
+    temp_high_c: 30
+    conditions: "Cool, misty mornings in the hills; dry season"
+    note: "THE STANDARD logged about 19 °C in the mist on race morning 2024. The numbers above are Chiang Mai city's January normals; the hills are cooler."
+    wear: "A fleece or light jacket for the morning, sun hat and sunscreen for the afternoon"
+  - type: pairs_well
+    items:
+      - { id: mad-monkey-chiang-mai, note: "Social hostel base in Chiang Mai" }
+      - { id: skyline-jungle-luge, note: "Ride a 2.1 km gravity luge yourself, an hour from Chiang Mai" }

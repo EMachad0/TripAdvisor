@@ -1,0 +1,22 @@
+# Independent review of nomadx-stay-haeundae. Written by `./atr review`; do not edit by hand.
+id: nomadx-stay-haeundae
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 9a6c2ef24fa3fff8ebc2fc29402c51b21558d75f9dc52664a6236b6d1bff230e
+facts:
+  supported: 12
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.note
+    problem: The page says the tax amount is not shown. The listed Hostelworld property data says 10% is added to the total, so the real dorm price is about ₩36,383 Sun–Thu and ₩46,778 Fri/Sat, not ₩33,075. The BRL figures under-count by the same 10%.
+    evidence: "The property feed https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/330679/?currency=KRW&application=web (now listed) says \"Taxes: not included - Extra 10% is applied to the total bill\". The availability feed gives Mon 11 Jan at ₩33,075 / ₩44,100 / ₩58,800 and Sat 16 Jan at ₩42,525 / ₩56,700 / ₩75,600. Adding 10% gives exactly the page's ₩36,383 / ₩48,510 / ₩64,680 and ₩46,778 / ₩62,370 / ₩83,160. The BRL figures at 0.004156 are correct, and the confidence_note line has been removed."
+  - field: blocks[4].text
+    problem: The traveler works 21:00–06:00 on most Korea nights (config/trip.yaml). Dorm quiet hours run 23:00–08:00, and the page never says where they could work at night. It also never says whether the co-working lounge 5 minutes away is open at those hours, and it doesn't point to the single private room with a desk as the option for work nights.
+    evidence: 'good_to_know now says "Night shifts: quiet hours 23:00–08:00; no source says the lounge or co-working space opens 21:00–06:00. Ask, or take the single room with a desk." The prose and the private-room note point to the ₩64,680 room as the work-night pick. The feed confirms "Quiet hours: Please lower your voice between 23:00pm and 08:00am".'
+rereview_of: 7dcbc79c028141f118f179caf0be2725e6a64e348608adb9b4f9cba15c69e315
+summary: "Both earlier findings are resolved. The after-tax prices and the BRL conversions match the Hostelworld feeds. So do the new house-rule facts: reception 08:00–23:00, check-out 08:00–11:00, quiet hours, payment on arrival by card or Apple/Samsung Pay, and free cancellation until 15 days before. The night-work gap is now stated honestly, with the private room as the fallback. The page renders cleanly on phone, and nothing needs to change."
+model: claude-opus-5-5
+cost_usd: 0.333

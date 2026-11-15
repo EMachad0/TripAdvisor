@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: entrance
+  title: File:中華そば 銀座 八五 入口 Dec 10, 2023.jpg
+  author: Jeremy Thompson
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0_%E9%8A%80%E5%BA%A7_%E5%85%AB%E4%BA%94_%E5%85%A5%E5%8F%A3_Dec_10,_2023.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d2/%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0_%E9%8A%80%E5%BA%A7_%E5%85%AB%E4%BA%94_%E5%85%A5%E5%8F%A3_Dec_10%2C_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ramen restaurant "Ginza Hachigo", Tokyo
+  width: 4080
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

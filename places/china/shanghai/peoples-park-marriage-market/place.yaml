@@ -1,0 +1,152 @@
+id: peoples-park-marriage-market
+name: "People's Park Marriage Market"
+short_name: "People's Park"
+name_local: 人民公园相亲角
+name_romanized: Rénmín Gōngyuán Xiāngqīn Jiǎo
+country: china
+city: shanghai
+area: Huangpu · People's Square
+category: odd-local
+fame: popular
+tags: [people-watching, local-life, park]
+kind: Do
+why: "Every weekend, hundreds of parents lay out their grown children's résumés (birth year, salary, flat, hukou) along People's Park's paths. Free to walk."
+
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+  note: "People's Park is free, and so is browsing. Only the parents pay, to brokers who post their listings"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Sat or Sun, 14:00–17:00"
+
+when:
+  dates:
+    - { from: 2026-12-06, to: 2027-01-02 }
+  kind: only
+  weekly: [sat, sun]
+  label: Weekends only
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Sat–Sun, roughly 12:00–17:00; brokers claim spots from the morning. The park opens daily from about 05:00 (sources differ)"
+  closed: "Mon–Fri: no market, just a park"
+  winter: "It runs through the winter. On Sun 21 Dec 2025, after morning rain, the Paris Review found it filling up by afternoon; City News found it busy on the cold last Saturday of 2025. Your China weekends: Sun Dec 6 (arrival day), Dec 12–13, 19–20, 26–27 and Sat Jan 2 (flight day). No source says how hard rain affects turnout."
+
+location:
+  address: "People's Park, 231 Nanjing West Road, Huangpu, Shanghai (the market fills the park's northwest corner)"
+  address_local: 上海市黄浦区南京西路231号 人民公园 相亲角
+  lat: 31.23418
+  lng: 121.46817
+  nearest_transit: "People's Square (Lines 1, 2, 8); an older guide says Exit 9, then left"
+
+sources:
+  - url: https://www.theparisreview.org/blog/2026/05/29/love-in-a-fallen-city-shanghais-marriage-market/
+    title: "Love in a Fallen City: Shanghai's Marriage Market — The Paris Review (2026-05-29; visit on Sun 21 Dec 2025)"
+    checked: 2026-11-14
+  - url: https://www.citynewsservice.cn/articles/xm5ggw0k
+    title: "People's Park blind-dating corner — City News Service / Shanghai Daily (2025-12-30; last Saturday of 2025, broker fees)"
+    checked: 2026-11-14
+  - url: https://www.newstalk.com/news/an-in-person-dating-app-matchmaking-at-shanghais-peoples-park-2228290
+    title: "An in-person dating app: matchmaking at Shanghai's People's Park — Newstalk (2026-01-25)"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Shanghai_Marriage_Market
+    title: "Shanghai Marriage Market — Wikipedia (since 2004, Sat–Sun noon–5 p.m., what the ads list)"
+    checked: 2026-11-14
+  - url: https://fionatravelsfromasia.com/visit-shanghai-marriage-market-what-you-should-know/
+    title: "Visit Shanghai Marriage Market: what you should know — Fiona Travels from Asia (2024, updated 2026; hours, metro, no photos)"
+    checked: 2026-11-14
+  - url: https://stephenleng.com/cn/shanghai-xiangqinjiao/
+    title: "论上海人民公园相亲角 — Stephen Leng (2025-01-20, updated 2026-01-19; Gate 5, photos, what the ads list)"
+    checked: 2026-11-14
+  - url: https://www.rmzxw.com.cn/c/2014-09-15/377050.shtml
+    title: "上海相亲角 — 人民政协网 / Guangzhou Daily (2014-09-15; crackdown on unlicensed agents, park won't intervene)"
+    checked: 2026-11-14
+  - url: https://joellemagazine.com/marriage-market/
+    title: "Marriage Market — Joelle Magazine (undated, photos from 2012; Exit 9 and turn left)"
+    checked: 2026-11-14
+  - url: https://om.trip.com/moments/poi-people-s-park-75610
+    title: "People's Park — Trip.com (free admission, 07:00–19:00, 231 West Nanjing Road)"
+    checked: 2026-11-14
+  - url: https://www.smartshanghai.com/venue/3891/People_Park_shanghai
+    title: "People's Park — SmartShanghai (updated 2026-09-24; daily 05:00–21:00, 231 Nanjing Xi Lu)"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai — Wikipedia (Xujiahui climate normals 1991–2020: Dec 5.3–11.3 °C, 8.5 rain days)"
+    checked: 2026-11-14
+  - url: "https://api.sunrise-sunset.org/json?lat=31.2342&lng=121.4682&date=2026-12-06&tzid=Asia/Shanghai"
+    title: "Sunrise-sunset.org API — People's Park, 6 Dec 2026 (sunset 16:51)"
+    checked: 2026-11-14
+confidence: medium
+confidence_note: "Self-organised, no official schedule. Hours vary (noon–17:00 in most sources; 9–16 in one; spots taken by 08:00 in another). Running per Dec 2025/Jan 2026 reports; no 2026 park notice found. Park hours conflict (SmartShanghai 05–21, City News 05:00 opening, Trip.com 07–19); Trip.com read by web fetch, blocks the checker. Exit 9 from an undated guide. Time needed is my estimate."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: covered-walkway
+    focus: bottom
+    caption: "The covered walkway, December 2015: listings on the ground, people on stools"
+    hook: No faces, no names. Just birth year, height, salary and a flat, laid out on the ground by worried parents.
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: "Sat or Sun, 14:00–17:00"
+    extra:
+      - { label: Photos, value: Not of sheets or people, detail: "Parents and brokers object; ask before any close-up" }
+      - { label: Language, value: Mostly Mandarin, detail: "Most sheets are in Chinese; Newstalk saw some in English" }
+  - type: highlights
+    items:
+      - title: Résumés without faces
+        text: "Each sheet is a child in numbers: birth year, height, education, job, income, **hukou**, flat (owned or rented, how many rooms), car, parents' health, even smoking. A few add a zodiac sign. The sheets carry no photos or names; brokers bring out photos once you show interest."
+      - title: A market with districts
+        text: "The Paris Review's writer found a seniors' corner, a divorced zone, a Muslim corner, an old-Shanghai corner for families who go back generations, and a \"foreigners'\" corner for Chinese based outside Shanghai."
+      - title: Brokers, not just parents
+        text: "Many stalls are run by paid matchmakers. One charged **¥100 a month** per listing plus ¥50 per date; another agency **¥300** for three months on display. Seniors born in the 1940s–50s come too."
+      - title: Still going last winter
+        text: "Reports from **December 2025** and **January 2026** describe it busy on weekends, and singles now come alongside their parents. I found no report of the park stopping it since a 2014 crackdown on unlicensed agencies."
+  - type: prose
+    title: Why the parents come
+    dropcap: true
+    text: |-
+      The market began in 2004, when retirees in People's Park started setting up their children together. It is now the biggest of its kind in China. Most of the children being advertised are in their thirties or forties, and most are not there: the Paris Review's writer met a father who had told his son to stop driving for DiDi and date instead, a mother hunting a wife for her son in Tokyo, and a group of friends who take turns each weekend to advertise all their children.
+
+      What they trade is security. A **Shanghai hukou** (household registration) decides access to local schools, health care and housing, so many sheets state it, and nearly all ask for it. Parents expect to help buy the couple a flat, and a 2014 Guangzhou Daily report says parents follow the old rule of *mén dāng hù duì* (门当户对): marry within your own class. Wikipedia calls the market an outlet for parents' private worries in a public place; one father in December 2025 feared a single child would age with no one to look after them.
+
+      It has survived official pressure before. In September 2014 the city cracked down on the unlicensed agencies crowding in, and the district greening office said the park would **not interfere** with the corner itself. The brokers stayed. Success is rare, everyone admits; the parents keep coming anyway.
+  - type: gallery
+    images:
+      - { file: crowded-arcade, caption: "A covered walkway on a busy day, listings clipped along both sides" }
+      - { file: umbrella-stalls, caption: "Umbrellas double as stalls: one listing on each" }
+      - { file: park-and-towers, caption: "People's Park itself, a green block between Nanjing Road and People's Square" }
+  - type: quote
+    text: "You have to make compromises if you yourself are not perfect. We used to stumble blindly into relationships, and it worked fine!"
+    attribution: "A father at the market, Dec 2025, to Becky Zhang (The Paris Review)"
+  - type: map
+    note: "Show the driver **人民公园 南京西路231号**. Inside, follow the umbrellas and folding stools; the Paris Review found the busiest square by the **north gate**, on the Nanjing Road side. Stephen Leng's guide enters by **Gate 5**, near the metro."
+  - type: tips
+    variant: insider
+    items:
+      - "Your landing day, **Sun Dec 6**, is a market day: you arrive at PVG at 05:10, so a nap and an afternoon here works. Otherwise Dec 12–13 or 19–20."
+      - "Come after lunch. The Paris Review's writer felt the energy pick up **at three**, and the brokers packed up **around five**. Sunset on Dec 6 is 16:51."
+      - "Expect brokers to ask your birth year and degree: the first one asked the Paris Review's writer on sight. A translation app helps; most sheets are in Chinese."
+      - "Walk the whole loop: the covered walkway, the umbrellas on the lawns, the square at the north gate. Each corner serves a different crowd."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Don't photograph the sheets, booklets or parents up close.** They carry real data (phone numbers, salaries). Aunties stop tourists, one guide says, and a broker snatched her booklet back from the Paris Review's writer: \"No photos!\""
+      - "Don't hand your **WeChat** or details to brokers. A regular told the Paris Review some sell contact lists in bulk and vanish once paid."
+      - "Never post a readable sheet online. If you want a picture, a wide shot of the walkway with no legible text or faces is the polite limit."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Cool and damp; rain on about 8–9 days in December
+    note: "All outdoors, with a covered walkway for drizzle. The market ran in the cold and after rain last December. Heavy rain likely thins it, but no source says by how much: check the forecast and keep a second weekend day in reserve."
+    wear: A warm waterproof layer and shoes for wet paving
+  - type: pairs_well
+    items:
+      - { id: shanghai-museum-ancient-americas, note: "About 500 m south across People's Square" }
+      - { id: dayin-hostel-east-nanjing-road, note: "About 500 m north: a short walk from your bed" }
+      - { id: bund-and-lujiazui-skyline, note: "About 2 km down East Nanjing Road, for blue hour as the market closes" }

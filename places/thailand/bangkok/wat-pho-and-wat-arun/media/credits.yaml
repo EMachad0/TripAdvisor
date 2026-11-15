@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: buddha-face
+  title: File:Wat Pho, Bangkok, Tailandia, 2013-08-22, DD 05.jpg
+  author: Diego Delso
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wat_Pho,_Bangkok,_Tailandia,_2013-08-22,_DD_05.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/dc/Wat_Pho%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: This is a photo of a monument in Thailand identified by the ID
+  width: 4331
+  height: 2869
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: arun-prang
+  title: File:Templo Wat Arun, Bangkok, Tailandia, 2013-08-22, DD 05.jpg
+  author: Diego Delso
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Templo_Wat_Arun,_Bangkok,_Tailandia,_2013-08-22,_DD_05.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fb/Templo_Wat_Arun%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: This is a photo of a monument in Thailand identified by the ID
+  width: 4035
+  height: 3391
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: arun-night
+  title: File:Templo Wat Arun, Bangkok, Tailandia, 2013-08-22, DD 37.jpg
+  author: Diego Delso
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Templo_Wat_Arun,_Bangkok,_Tailandia,_2013-08-22,_DD_37.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8e/Templo_Wat_Arun%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wat Arun , a temple situated in the city of Bangkok .
+  width: 4109
+  height: 3174
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

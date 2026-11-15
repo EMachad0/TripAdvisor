@@ -1,0 +1,90 @@
+id: bangkok
+country: thailand
+name: "Bangkok"
+name_local: กรุงเทพมหานคร
+region: Central Thailand
+scope: city
+cities: [bangkok]
+why: "Base in Khao San and ride a ฿19 river boat to the Grand Palace, Wat Pho and Wat Arun. January is the cool, dry season, and cheap trains reach Ayutthaya and Kanchanaburi."
+best_for: [food, views, nightlife, culture]
+highlights: ["Yaowarat (Chinatown) street food", "Khao San Road and Banglamphu", "Grand Palace, Wat Pho and Wat Arun", "Rooftops and the Mahanakhon Skywalk", "Chao Phraya express boats", "Muay Thai at Rajadamnern"]
+days_suggested: { min: 4, max: 8 }
+cost_level: medium
+fame: iconic
+lat: 13.7525
+lng: 100.4942
+getting_there: "From BKK: Airport Rail Link to Phaya Thai, ฿45 (R$7.42), about 26 min. From DMK: bus A4 to Sanam Luang near Khao San ฿50, A1 to Mo Chit 2 bus terminal ฿30, or the SRT Red Line."
+getting_around: "BTS Skytrain and MRT for Sukhumvit, Silom and Chinatown; the orange-flag express boat (฿19) along the river to the old town; Grab for cars and taxis at night."
+winter_note: "January is the cool, dry season: about 23 °C at night and 33 °C by day (1991–2020 normals), with about two rainy days in the month. Dec–Jan are the coolest, driest stretch of the year, so the best time to walk the old town, though midday is still hot."
+image: chao-phraya-night
+sources:
+  - url: https://en.wikivoyage.org/wiki/Bangkok
+    title: "Bangkok (Wikivoyage): cool season Nov–Feb, Khao San/Banglamphu, Sukhumvit and Silom districts, Airport Rail Link, Grab"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok (Wikipedia): coordinates, January climate normals 1991–2020"
+    checked: 2026-11-12
+  - url: https://www.nationthailand.com/news/general/40073046
+    title: "Nation Thailand (2026-11-03): Don Mueang airport transport guide, buses A1–A4 fares and hours, Red Line"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/SRT_Dark_Red_Line
+    title: "SRT Dark Red Line (Wikipedia): route Don Mueang–Krung Thep Aphiwat, distance-based fares"
+    checked: 2026-11-12
+  - url: https://railtravelstation.com/aera1-city-line-suvarnabhumi-airport-phaya-thai/
+    title: "Rail Travel Station: Airport Rail Link Suvarnabhumi–Phaya Thai, ฿45"
+    checked: 2026-11-12
+  - url: https://www.nationthailand.com/news/40069193
+    title: "Nation Thailand (2026-07-30): Airport Rail Link single-track disruption, 30-minute intervals"
+    checked: 2026-11-12
+  - url: https://thaiest.com/blog/chao-phraya-express-boat-fare
+    title: "Thaiest: Chao Phraya Express Boat fares, orange flag ฿18 → ฿19 from 5 Oct 2026"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Airport and transport fares are from 2026 news and guides, not the operators' own pages. The Red Line fare from Don Mueang is not stated anywhere I could open, so the page gives none. River boat fares follow diesel prices and changed several times in 2026. Rail Link times assume normal service."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Neon Chinatown, a river full of boats and a skyline of rooftop bars, in the one month the heat lets up."
+    caption: "The Chao Phraya at night, seen from State Tower"
+  - type: highlights
+    items:
+      - title: Eat your way through it
+        text: "**Yaowarat** (Chinatown) after dark is one long street-food queue. A cheap meal in Thailand costs about **R$10**, so food is where Bangkok spoils a budget traveler."
+      - title: Views at every price
+        text: "From the paid **Mahanakhon Skywalk** and rooftop bars to a free sunset from a river pier, the skyline is part of every day."
+      - title: Temples by boat
+        text: "The **orange-flag express boat** runs past the Grand Palace, Wat Pho and Wat Arun for **฿19 (R$3.13)** a ride (since 5 Oct 2026)."
+      - title: Go out with people
+        text: "**Khao San Road** is the backpacker party street; **Silom** is, as Wikivoyage puts it, the city's primary party district by night; RCA has the big clubs."
+  - type: prose
+    title: What eight days here feel like
+    text: |-
+      Bangkok is big enough that eight days never repeat. A typical day mixes one sight in the morning, before the midday heat, with food in the afternoon and a night out: temples and the river in the old town, markets and malls in the centre, Chinatown or a rooftop after dark. It also works as a base for **Ayutthaya** and **Kanchanaburi**, both reachable by cheap train.
+
+      **Where to base yourself.** For a solo backpacker who wants to meet people, **Khao San Road and Banglamphu** are the obvious pick: Wikivoyage calls it the backpacker mecca, and the hostels, bars and the boat piers to the temples are all on foot. The catch is that there is no BTS or MRT station, so trips to the modern city mean a boat, a bus or a Grab. **Sukhumvit** is on the BTS line and has the nightlife of the expat city, but it is pricier and less of a hostel scene. **Silom** and **Chinatown** sit in between: Silom for nights out, Chinatown for street food, both on the MRT.
+
+      **Arriving.** From Suvarnabhumi (BKK), the Airport Rail Link takes you to Phaya Thai for **฿45 (R$7.42)** in about 26 minutes, then change to the BTS. From Don Mueang (DMK), where many budget flights land, bus **A4** goes to Sanam Luang, a short walk from Khao San, for **฿50 (R$8.25)**; **A1** goes to Mo Chit 2 bus terminal for ฿30 and passes **BTS Mo Chit** and **MRT Chatuchak Park** on the way (Nation): get off there for the trains, and the SRT Red Line runs to Krung Thep Aphiwat at a distance-based fare.
+  - type: gallery
+    images:
+      - { file: yaowarat-neon, caption: "Yaowarat Road, Chinatown, at night" }
+      - { file: khao-san-night, caption: "Khao San Road after dark" }
+      - { file: express-boat, caption: "An orange-flag express boat on the Chao Phraya" }
+      - { file: bts-skytrain, caption: "The BTS Skytrain above the city" }
+  - type: tips
+    variant: insider
+    items:
+      - "**Grab** is the main ride-hailing app here and can also book metered taxis, which saves haggling late at night."
+      - "Do the temples by **river boat** from Banglamphu instead of a taxi through traffic."
+      - "Plan outdoor sights for the morning: even in January, afternoons reach the low 30s."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The Airport Rail Link ran every 30 minutes during a single-track fault in July 2026. If you have a tight connection, check the service before relying on it."
+      - "Boat fares follow diesel prices and changed several times in 2026, so expect a baht or two either way."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Cool season: dry, about two rainy days in January"
+    note: "Dec–Jan are as comfortable as Bangkok gets, but still hot by midday."
+    wear: "Light clothes, sunscreen, a hat for midday"

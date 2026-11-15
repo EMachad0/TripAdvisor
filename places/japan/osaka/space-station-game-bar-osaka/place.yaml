@@ -1,0 +1,125 @@
+id: space-station-game-bar-osaka
+name: "Space Station: PC & Retro Game Bar"
+short_name: Space Station game bar
+name_local: スペースステーション
+country: japan
+city: osaka
+area: Amerikamura · Minami
+category: nightlife
+fame: hidden
+tags: [gaming, bar, retro, amerikamura]
+kind: Do
+why: "A tiny upstairs bar in Amerikamura with 600+ retro games, free to play: no cover, you only buy drinks. Recent reviewers say solo travelers make friends here."
+
+cost:
+  local: 1200
+  currency: JPY
+  brl: 42.2
+  note: "No cover charge, games free. Two drinks at the ¥500–600 older guides quote; current prices not published"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: "After 19:00, before the screens fill up"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Nightly to about 02:00. Opens 17:00 per Google, 19:00 per GaijinPot: arrive after 19:00"
+  winter: "No seasonal hours or holiday closures found. A Google review from February 2026 mentions staying until it closed at 2 AM. Check Google Maps for the opening time on the day."
+
+location:
+  address: "Iwamura Bldg 2F, 2-13-3 Nishi-Shinsaibashi, Chuo-ku, Osaka"
+  address_local: 大阪府大阪市中央区西心斎橋2-13-3 岩村ビル2F
+  lat: 34.67077
+  lng: 135.49861
+  nearest_transit: "Namba (Midosuji Line, Kintetsu, Hanshin, Nankai), about 5 min walk"
+  approximate: true
+
+sources:
+  - url: https://wanderlog.com/place/details/37116/pc-and-retro-bar-space-station
+    title: "Wanderlog (Google Maps data): hours 17:00–2:00, 950 reviews incl. Feb, Apr and Sep 2026; no seat fee"
+    checked: 2026-11-12
+  - url: https://travel.gaijinpot.com/pc-and-retro-bar-space-station/
+    title: "GaijinPot Travel: 600+ games free, no cover, drinks from ¥500, opened 2011, address, 5 min from Namba"
+    checked: 2026-11-12
+  - url: https://www.mark-beales.com/space-station-video-game-bar/
+    title: "Mark Beales (Sep 2018): Iwamura Bldg 2F, drinks ¥600, consoles, LED Space Invaders stairs, Famicom-logo bar"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: "Osaka (Wikipedia): climate table, January normals"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Open in 2026: Google reviews dated Feb, Apr and Sep 2026 (read via Wanderlog). Opening time unsure: Google (via Wanderlog, garbled) shows 17:00, GaijinPot and a 2018 review say 19:00; no official site found. Drink prices (¥500–600) come from older guides (GaijinPot undated, 2018); no current menu found. The pin is the Nishi-Shinsaibashi 2-chome block, not the building."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Up the LED Space Invaders stairs: a bar shaped like the Famicom logo, cartridges behind the counter."
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: After 19:00
+    extra:
+      - label: Cover charge
+        value: None
+        detail: Games are free; you pay for drinks
+      - label: Language
+        value: English spoken
+        detail: Staff speak English and Japanese (GaijinPot)
+      - label: Solo-friendly
+        value: Yes
+        detail: "Small room; reviewers say it's easy to talk to neighbours"
+  - type: highlights
+    items:
+      - title: 600+ games, free
+        text: "GaijinPot counts **over 600 games** to play at no charge, from arcade Donkey Kong and Mario Kart 64 to co-op PC games, with no time limit."
+      - title: Real hardware on the bar
+        text: "Famicom, Super Nintendo, N64, Mega Drive, Saturn, Dreamcast, PlayStation and Xbox are listed across reviews, with Western and Japanese versions of games."
+      - title: The décor
+        text: "A 2018 visit describes LED **Space Invaders** on the stairs, arcade boards on the walls and a bar counter shaped like the **Famicom** logo."
+      - title: Where you meet people
+        text: "Run since 2011 by an American owner, the crowd is mixed locals and travellers; a September 2026 review recommends it for **solo travelers**."
+  - type: prose
+    title: Why this game bar
+    dropcap: true
+    text: |-
+      Osaka has dozens of game bars, and GaijinPot says the owner prides himself on being the one without a cover charge. **Space Station** opened in 2011 as one of the first in the city and runs on a simple deal: buy a drink and play anything on the shelf.
+
+      It's small: one recent review notes the room is tight, which, as that reviewer says, makes it easy to make friends with your neighbour. Arrive early if you want a particular console.
+  - type: quote
+    text: "Amazing bar with retro games that you can play… English speaking staff and you meet wonderful people. If you are solo traveler i highly recommend this place."
+    attribution: "Google review, September 2026 (via Wanderlog)"
+  - type: cost_breakdown
+    items:
+      - label: Cover charge and games
+        local: 0
+        brl: 0
+      - label: "Two drinks (older guides: ¥500–600 each)"
+        local: 1200
+        brl: 42.2
+        estimate: true
+  - type: map
+    zoom: 16
+    note: "The pin marks the **Nishi-Shinsaibashi 2-chome** block. The bar is on the **2nd floor** of the Iwamura Building at 2-13-3; look for the flashing LED stairwell."
+  - type: tips
+    variant: insider
+    items:
+      - "Ask the staff for a game recommendation: an April 2026 review says they are happy to suggest one."
+      - "A February 2026 reviewer stayed nearly 3 hours and spent about **¥5,000**: set a drink limit."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It's easy to walk past: look for the sign and the lit stairwell up to the 2nd floor."
+      - "The room is small (an April 2026 review), so on a busy night you may wait for the console you want."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool, mostly dry
+    note: "Osaka's January nights average about 3 °C. You're indoors; only the walk from the station is outside."
+    wear: Light winter jacket
+  - type: pairs_well
+    items:
+      - id: den-den-town-retro-games
+        note: "Buy the retro games by day in Den Den Town, play them here at night"
+      - id: club-joule-osaka
+        note: "Club in the same Amerikamura block if the group wants to keep going"

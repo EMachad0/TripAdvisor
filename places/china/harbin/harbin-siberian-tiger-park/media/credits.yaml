@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tiger-and-bus
+  title: File:Siberian Tiger Park, Harbin 06.01.2026 (2).jpg
+  author: SmallSonMarex
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Siberian_Tiger_Park,_Harbin_06.01.2026_(2).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f3/Siberian_Tiger_Park%2C_Harbin_06.01.2026_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Siberian Tiger Park, Harbin 06.01.2026 (2)
+  width: 6000
+  height: 3368
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: safari-bus-snow
+  title: File:Siberian Tiger Park, Harbin 06.01.2026 (3).jpg
+  author: SmallSonMarex
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Siberian_Tiger_Park,_Harbin_06.01.2026_(3).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/bb/Siberian_Tiger_Park%2C_Harbin_06.01.2026_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Siberian Tiger Park, Harbin 06.01.2026 (3)
+  width: 6000
+  height: 3368
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: tigers-resting-snow
+  title: File:Siberian Tiger Park resting tigers.jpg
+  author: KQuhen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Siberian_Tiger_Park_resting_tigers.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/92/Siberian_Tiger_Park_resting_tigers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tigers resting on the snow at Siberian Tiger Park in Harbin, Heilongjiang, China.
+  width: 2497
+  height: 1665
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: tiger-fence-snow
+  title: File:Siberian tiger, Harbin, China (3237652091).jpg
+  author: Rincewind42 from China
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Siberian_tiger,_Harbin,_China_(3237652091).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0e/Siberian_tiger%2C_Harbin%2C_China_%283237652091%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "A siberian tiger paces it's cage in the tiger sanctuary park of Harbin city in Heilongjiang, north each China. Harbin (哈尔滨), is the capital of the Heilongjiang Province in Northeast China. It lies on the southern bank of the Songhua River. Harbin is the tenth largest city in China, serving as a key "
+  width: 3072
+  height: 2304
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: visitor-centre
+  title: File:Siberian Tiger Park, Harbin 06.01.2026.jpg
+  author: SmallSonMarex
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Siberian_Tiger_Park,_Harbin_06.01.2026.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/ba/Siberian_Tiger_Park%2C_Harbin_06.01.2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Siberian Tiger Park, Harbin 06.01.2026
+  width: 6000
+  height: 3368
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

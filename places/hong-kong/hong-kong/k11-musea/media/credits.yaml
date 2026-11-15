@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: dockside-aerial
+  title: File:Victoria Dockside 202007.jpg
+  author: Wpcpey
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Victoria_Dockside_202007.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c7/Victoria_Dockside_202007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Victoria Dockside in Tsim Sha Tsui, Hong Kong
+  width: 2259
+  height: 2082
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: atrium
+  title: File:HK TST K11 MUSEA Mall July 2026 N13P 816.jpg
+  author: LAWITAK Wingoam JPA
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:HK_TST_K11_MUSEA_Mall_July_2026_N13P_816.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/20/HK_TST_K11_MUSEA_Mall_July_2026_N13P_816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: HK TST K11 MUSEA Mall in July 2026
+  width: 4080
+  height: 3060
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: exterior
+  title: File:K11 Mall Exterior.jpg
+  author: Aabyedav
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:K11_Mall_Exterior.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1c/K11_Mall_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: K11 Mall Exterior
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: peacock-playground
+  title: File:HK TST K11 MUSEA Mall July 2026 N13P 812.jpg
+  author: LAWITAK Wingoam JPA
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:HK_TST_K11_MUSEA_Mall_July_2026_N13P_812.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b4/HK_TST_K11_MUSEA_Mall_July_2026_N13P_812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: HK TST K11 MUSEA Mall in July 2026
+  width: 4080
+  height: 3060
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

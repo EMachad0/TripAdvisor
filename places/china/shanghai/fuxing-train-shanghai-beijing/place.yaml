@@ -1,0 +1,193 @@
+id: fuxing-train-shanghai-beijing
+name: "Fuxing Bullet Train: Shanghai to Beijing"
+short_name: Fuxing to Beijing
+name_local: 复兴号 上海虹桥 → 北京南
+name_romanized: Fùxīng Hào
+country: china
+city: shanghai
+area: Minhang · Hongqiao hub
+category: odd-local
+fame: popular
+tags: [train, high-speed-rail, transport]
+kind: Do
+why: "4h26 at 350 km/h: the 08:00 or 09:00 Fuxing takes you from Shanghai Hongqiao to Beijing South by lunch, in daylight the whole way."
+cost:
+  local: 692
+  currency: CNY
+  brl: 587.44
+  note: "2nd class on the fastest trains, as 12306 showed on 14 Nov for Sun 22 Nov. Dec 13 fares appear when sales open"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: "4h24–4h26 on the fastest trains"
+best_time: "G8 (08:00) or G10 (09:00): daylight all the way"
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "For a Dec 13 ride: on sale Sun Nov 29, 13:45 Beijing time (15-day window)"
+  method: passport-registered
+  passport: true
+  links:
+    - label: 12306 English (official)
+      url: https://www.12306.cn/en/index.html
+      note: "Verify your passport in the account first; foreign bank cards accepted"
+    - label: Trip.com Shanghai → Beijing
+      url: https://www.trip.com/trains/china/route/shanghai-to-beijing/
+      note: "English, easy foreign-card payment; check the service fee at checkout"
+    - label: 12306 timetable (Chinese, live)
+      url: "https://kyfw.12306.cn/otn/leftTicket/init?linktypeid=dc&fs=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5,AOH&ts=%E5%8C%97%E4%BA%AC%E5%8D%97,VNP&date=2026-11-22&flag=N,N,Y"
+      note: "Shows the 复 / 智 / 静 marks per train. Change the date to 2026-12-13 once sales open"
+  notes: "Walk-up seats usually exist outside holidays, but the four-and-a-half-hour trains at good hours sell out first. If yours is gone, 12306 lets you join a waitlist (候补) for up to 10 trains."
+
+hours:
+  summary: "About 55 trains a day Shanghai → Beijing (all stations); from Hongqiao to Beijing South, 12 take under 5 h (06:43–19:25)"
+  winter: "Dec 13 sunrise is 06:44 in Shanghai and sunset 16:50 in Beijing, so any fast train leaving 07:00–11:53 rides in daylight end to end. Snow or freezing rain brings speed limits: on 21 Feb 2024 the Dezhou East–Jinan West stretch ran slow and some trains were over 2 h late. No December disruption on this line found."
+
+location:
+  address: "Shanghai Hongqiao Railway Station, Shenhong Road, Minhang District, Shanghai"
+  address_local: 上海虹桥站（上海市闵行区申虹路）
+  lat: 31.19612
+  lng: 121.31611
+  nearest_transit: "Hongqiao Railway Station (Metro Lines 2, 10, 17)"
+
+sources:
+  - url: "https://kyfw.12306.cn/otn/leftTicket/init?linktypeid=dc&fs=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5,AOH&ts=%E5%8C%97%E4%BA%AC%E5%8D%97,VNP&date=2026-11-22&flag=N,N,Y"
+    title: "China Railway 12306: Shanghai Hongqiao → Beijing South, Sun 22 Nov 2026 (timetable, fares, sale times)"
+    checked: 2026-11-14
+  - url: https://seat61.com/beijing-to-shanghai-by-train.htm
+    title: "Seat61: Beijing to Shanghai by high-speed train (2026 timetable, seats, food, luggage)"
+    checked: 2026-11-14
+  - url: https://www.12306.cn/index/otn/index12306/queryAllCacheSaleTime
+    title: "12306 station sale-time list (JSON): 上海虹桥 AOH sale_time 1345, 上海 SHH 1445"
+    checked: 2026-11-14
+  - url: https://sunrise-sunset.org/china/beijing/2026/12
+    title: "Sunrise-Sunset.org: Beijing, December 2026 (Dec 13 sunset 16:49)"
+    checked: 2026-11-14
+  - url: https://sunrise-sunset.org/china/shanghai/2026/12
+    title: "Sunrise-Sunset.org: Shanghai, December 2026 (Dec 13 sunrise)"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Wikipedia: Shanghai climate table (Dec 5.3–11.3 °C, 1991–2020)"
+    checked: 2026-11-14
+  - url: https://www.trip.com/trains/china/route/shanghai-to-beijing/
+    title: "Trip.com: Shanghai to Beijing train tickets (15-day sale window, waitlist)"
+    checked: 2026-11-14
+  - url: https://enghunan.gov.cn/hneng/Services/Live/Transportation/RailwayStations/202606/t20260608_33680117.html
+    title: "Hunan provincial government: how foreigners buy train tickets (12306 passport verification), 2026-06-08"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Beijing%E2%80%93Shanghai_high-speed_railway
+    title: "Wikipedia: Beijing–Shanghai high-speed railway (350 km/h since 2017)"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Danyang%E2%80%93Kunshan_Grand_Bridge
+    title: "Wikipedia: Danyang–Kunshan Grand Bridge"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Dashengguan_Yangtze_River_Bridge
+    title: "Wikipedia: Dashengguan Yangtze River Bridge"
+    checked: 2026-11-14
+  - url: https://news.cgtn.com/news/7a6b544f35557a6333566d54/index.html
+    title: "CGTN: Beijing–Shanghai Fuxing runs at 350 km/h (speed shown on carriage screens), 21 Sep 2017"
+    checked: 2026-11-14
+  - url: https://news.ifeng.com/c/82RQ0KspBnG
+    title: "ifeng: quiet carriage on Beijing–Shanghai trains, 2nd class, no extra charge (24 Dec 2020)"
+    checked: 2026-11-14
+  - url: https://www.news.cn/talking/20260305/a892696dddde4335966e4b9b921ef71c/c.html
+    title: "Xinhua: CR450 halfway through its 600,000 km test, not yet in service (5 Mar 2026)"
+    checked: 2026-11-14
+  - url: https://www.thepaper.cn/newsDetail_forward_26415882
+    title: "The Paper: snow speed limits on the Beijing–Shanghai HSR, delays over 2 h (21 Feb 2024)"
+    checked: 2026-11-14
+  - url: "https://www.trip.com/flights/showfarefirst?dcity=sha&acity=bjs&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-US&curr=CNY"
+    title: "Trip.com flights Shanghai → Beijing, Sun 13 Dec 2026 (from CNY 682)"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Shanghai_Hongqiao_railway_station
+    title: "Wikipedia: Shanghai Hongqiao railway station (Metro Lines 2, 10, 17)"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Line_4_(Beijing_Subway)
+    title: "Wikipedia: Beijing Subway Line 4 (Beijing South, Xidan, Ping'anli)"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Wikipedia: Beijing climate table (1991–2020 normals)"
+    checked: 2026-11-14
+confidence: medium
+confidence_note: "Dec 13 not on sale until Nov 29 (12306 opens the 15th day at 13:45). Times/fares are 12306's for Sun 22 Nov, read 14 Nov; a timetable change before Dec 13 is possible and fares float. Trip.com pages read via atr render (bot-walled to link checks). CR450: no service report after Mar 2026. Trip.com fee and quiet-car number on 17-car sets unconfirmed."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: smart-fuxing
+    caption: "A CR400AF-Z smart Fuxing"
+    focus: "25% 65%"
+    hook: "A 164.8 km viaduct, the Yangtze crossing, and your passport as the ticket."
+  - type: quick_facts
+    time_needed: "4h24–4h26 (G8, G10, G12)"
+    best_time: "G8 08:00 or G10 09:00 on Sun Dec 13"
+    extra:
+      - { label: Fast vs slow, value: "4h26 vs 5h47", detail: "2 stops (Nanjing S, Jinan W) vs 7 on G532, same Fuxing" }
+      - { label: Window seats, value: "A and F", detail: "In every class. Avoid B, the 2nd-class middle seat" }
+      - { label: On sale, value: "Sun Nov 29, 13:45", detail: "Beijing time, 15 days ahead" }
+  - type: highlights
+    items:
+      - title: 350 km/h, on a screen
+        text: "Since September 2017 the Fuxing trains have run this line at **350 km/h**, and the speed shows on screens inside the carriage. Watch it climb out of Shanghai."
+      - title: The world's longest bridge
+        text: "Out of Shanghai you ride the **164.8 km Danyang–Kunshan Grand Bridge** past Kunshan, Suzhou and Wuxi, including 9 km over open water on Yangcheng Lake."
+      - title: Over the Yangtze
+        text: "After Nanjing South the line crosses the Yangtze on the **Dashengguan Bridge**, 1,615 m long, with two 336 m spans."
+      - title: The smart Fuxing
+        text: "On 12306, G8 and G10 carry **智** (smart Fuxing) and offer a premium 1st class (优选一等座, ¥1,522). G12 is a standard **复** Fuxing at the same 2nd-class fare."
+  - type: prose
+    title: Which train is the real thing
+    dropcap: true
+    text: |-
+      Every high-speed train on this line runs as a G train, and most are Fuxing (复兴号) sets, so what you are really choosing is **how many stops it makes**. On 12306's list for a November Sunday, the four-and-a-half-hour group from Hongqiao is **G8 08:00→12:26, G10 09:00→13:26, G12 10:00→14:24 and G14 11:00→15:31**. They stop only at Nanjing South and Jinan West. G532 at 06:31 uses the same kind of train but stops seven times and takes 5h47. When you book, sort by duration: anything near **4h30 is an express**, anything near **6h is a stopper**. G2 (06:43, 4h49) stops five times.
+
+      The next generation, the 400 km/h **CR450**, was still in testing in March 2026, halfway through the 600,000 km it must run before it carries passengers. I found no report of it in service. Don't plan around it for Dec 13.
+
+      The low numbers (G1–G44) are the express family. The G5xx–G8xx trains are the stoppers. Some fast ones leave from **Shanghai station** instead of Hongqiao (G4 07:00, G16 11:53), and one G28 ends at Beijing station, not Beijing South. Check both station names.
+  - type: gallery
+    images:
+      - { file: danyang-kunshan-bridge, caption: "The Danyang–Kunshan viaduct near Wuxi, the first hour out of Shanghai" }
+      - { file: second-class, caption: "Fuxing 2nd class: 3+2 seats, a socket at every seat" }
+      - { file: dashengguan-bridge, caption: "Through the Dashengguan truss over the Yangtze" }
+      - { file: coupled-fuxing, caption: "Two Fuxing sets coupled at a station platform" }
+      - { file: hongqiao-hall, caption: "Shanghai Hongqiao's departure hall" }
+  - type: book_ahead
+    steps:
+      - days_before: 20
+        text: "Open a **12306** account on the English site or app and add your passport. It verifies automatically, or you upload the photo page. If it fails, a station ticket counter can verify you."
+      - days_before: 14
+        text: "**Sun Nov 29, 13:45 Beijing time** (02:45 in Brazil): Dec 13 goes on sale. Book G8 or G10, tick the quiet-carriage option, pick seat **A or F**."
+      - days_before: 0
+        text: "Be at Hongqiao **30+ min** before departure for the X-ray and body check. Boarding opens about 30 min before. Scan your passport at the gate."
+    passport_note: "Your **passport is the ticket**. Book and travel with the same passport; there's no paper ticket."
+  - type: cost_breakdown
+    items:
+      - { label: "2nd class, G8/G10/G12 (fastest)", local: 692, brl: 587.44 }
+      - { label: "Metro to Hongqiao (Line 2)", local: 5, brl: 4.24, estimate: true, optional: true }
+      - { label: "Or 1st class", local: 1107, brl: 939.73, optional: true }
+      - { label: "Or business class (meal included)", local: 2420, brl: 2054.34, optional: true }
+    note: "Fares from 12306 for Sun 22 Nov; they float by date and hour. The stopping G532 is ¥576 in 2nd class. It is over the daily budget because it is also your Shanghai → Beijing leg, which you would pay for anyway."
+  - type: tips
+    variant: insider
+    items:
+      - "**Cheaper options:** the overnight D8 sleeper (Shanghai 19:08 → Beijing 07:17) saves a hostel night; Seat61 lists D-train berths from about US$86. The T110 is ¥304.5 hard sleeper or ¥177.5 hard seat for 16 hours."
+      - "**Flying** on Dec 13 starts at ¥682 on Trip.com, about the same as the train, but from Pudong or Hongqiao airport to Capital or Daxing. The train runs centre to centre and is the ride you came for."
+      - "Every Fuxing seat has a **power socket and USB**. Each car has a **boiling-water tap**: bring noodles or tea."
+      - "The buffet car is car 5 (8 cars) or 9 (16 cars). Carry **some cash**; it may not take cards."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Wrong station**: some fast trains use Shanghai station, not Hongqiao, and one G28 runs to Beijing station. The station name is on your booking."
+      - "Bags: **20 kg** per adult. They go on the overhead rack or the luggage stack at the end of the car."
+      - "The quiet carriage is **2nd class only** and costs nothing extra; pick it when you choose your seat."
+  - type: map
+    note: "**From central Shanghai:** Metro Line 2 from People's Square or East Nanjing Road goes straight to Hongqiao (Seat61: about 40 min, ¥5). **In Beijing:** Line 4 from Beijing South runs north to Xidan and Ping'anli; Line 14 also stops there. About 40 min to the centre."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: "You leave Shanghai at about 5–11 °C and arrive in Beijing at about −5 to 4 °C"
+    note: "The train is air-conditioned, so the cold matters only on the platform and the walk to the metro. Snow north of the Yangtze can bring speed limits and delays."
+    wear: "Layers you can peel off on board; the down jacket on top for Beijing"
+  - type: pairs_well
+    items:
+      - { id: dayin-hostel-east-nanjing-road, note: "People's Square, Line 2: one metro to Hongqiao" }
+      - { id: beijing-xingshe-youth-hostel, note: "Ping'anli is on Line 4 straight from Beijing South" }

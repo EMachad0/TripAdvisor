@@ -1,0 +1,34 @@
+# Independent review of area busan. Written by `./atr review`; do not edit by hand.
+id: busan
+type: area
+reviewed: 2026-11-12
+verdict: fix
+content_hash: 8ec69ac81a75e7705122b5b4e5a9dac0e1215eb585b67c678679198b67b9c3b0
+facts:
+  supported: 17
+  unsupported: 4
+  contradicted: 0
+issues:
+  - severity: should
+    field: getting_there
+    problem: The ₩54,400 KTX fare and the 1 Sep 2026 merger come from one government briefing dated 2026-08-18, published before the merger took effect. It does not show the fare is live, and the confidence_note says Korail's fare page was never checked.
+    evidence: https://www.korea.kr/briefing/policyBriefingView.do?newsId=148970171 — "서울-부산 구간의 기존 KTX 운임은 5만 9800원이었지만, 통합 이후에는 5만 4400원으로" (a preview of the change, not a confirmation). Creatrip ("From ₩60,000") and Wikivoyage ("₩59,800") both give the old fare.
+    fix: Confirm ₩54,400 on a current Korail or Korail+ fare search, or a news source dated after 1 Sep 2026, and cite it. If you can't, say on the page that the fare is the announced one.
+  - severity: should
+    field: why
+    problem: The `why` and the hero `hook` list the same three things (fish market, department-store bathhouse, lit-up bridge), so the page opens by saying the same thing twice.
+    evidence: 'hook: "Seafood at the harbour, hot baths in a department store and the Gwangan Bridge lit up over the water." why: "a fish market where you eat what you pick, a department-store bathhouse, beaches and a lit-up bridge"'
+    fix: Keep the sensory list in the hook and give `why` the angle for this traveler, such as the milder January, nightlife in Seomyeon/Gwangalli and onward flights or the ferry to Japan.
+  - severity: nit
+    field: blocks[1].items[1].text
+    problem: "The official Spa Land page has more pricing detail that the page leaves out: a weekday ticket used on a weekend or public holiday costs ₩6,000 extra, each hour past four costs ₩5,000, and opening hours are 09:00–22:00 (last entry 21:00)."
+    evidence: https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008 — "최대 4시간", "주중이용권으로 주말 또는 국공휴일 이용 시 6,000원 추가요금"
+    fix: Add the 4-hour limit and the ₩5,000 per extra hour so the budget angle is complete.
+  - severity: nit
+    field: winter_note
+    problem: The Seoul January normals (−5.5 to 2.1 °C) could only be read from a summary of the Wikipedia Seoul climate table, not word for word. The weather block's "often sunny, with strong wind" and "snow is rare" are not backed by any listed source.
+    evidence: https://en.wikipedia.org/wiki/Seoul — climate table not read word for word; no listed source mentions sunshine, wind or snow frequency for Busan.
+    fix: Cite a climate source such as KMA or the Busan Wikipedia climate table rows for sunshine hours and snow days, or soften these claims.
+summary: "Most hard facts check out against the listed sources: Busan January normals, coordinates, ITX-Maum and Mugunghwa fares, express bus time and fare, metro fares and day pass, Spa Land ₩26,000 for 4 h, Jagalchi as the largest fish market, Gimhae routes to Japan and its light rail, and the 6 h Fukuoka ferry. The page renders cleanly on phone and desktop. Two things must change: the headline ₩54,400 KTX fare rests only on a briefing written before the merger, and `why` repeats the hook."
+model: claude-opus-5-5
+cost_usd: 0.705

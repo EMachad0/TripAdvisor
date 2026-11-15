@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: pudong-dusk
+  title: File:Pudong skyline at dusk.jpg
+  author: Lloyd Tudor
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Pudong_skyline_at_dusk.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/46/Pudong_skyline_at_dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The skyline of Pudong at dusk
+  width: 5337
+  height: 3558
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: tower-deck-view
+  title: File:View from Shanghai Tower Observation Deck.jpg
+  author: Cotopaxi5897
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:View_from_Shanghai_Tower_Observation_Deck.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e4/View_from_Shanghai_Tower_Observation_Deck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: View from Shanghai Tower Observation Deck showing The Bund, Huangpu River, and The Oriental Pearl Tower
+  width: 3264
+  height: 2448
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-10
+  origin: commons
+- file: bund-facades-night
+  title: File:Shanghai Bund at night 20260417 (4).jpg
+  author: DvTor8303
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Shanghai_Bund_at_night_20260417_(4).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/20/Shanghai_Bund_at_night_20260417_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Photo of Shanghai Bund at night taken on 17.04.2026 from Huangpu River
+  width: 4050
+  height: 2960
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

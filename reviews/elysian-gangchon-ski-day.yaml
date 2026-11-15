@@ -1,0 +1,27 @@
+# Independent review of elysian-gangchon-ski-day. Written by `./atr review`; do not edit by hand.
+id: elysian-gangchon-ski-day
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 94fd962b6adf55df5f63447f5101e20495d6194df03725449c3ca5a6cb448c8d
+facts:
+  supported: 12
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[4].text
+    problem: The text says clothes-only rentals get no discount. The resort's exclusion only covers partial rentals ('장비/의류 부분 렌탈'), and the full clothes set (일반, ₩25,000) is a separate column from '일반(부분)'. So the clothes set probably gets the 30% rental discount too, and the day would be about ₩99,600, not ₩107,000.
+    evidence: "https://www.elysian.co.kr/about-gangchon/ski — '의류: 일반 / 일반(부분) / 고급 … 25,000원 20,000원 30,000원'; '리프트 1회권, 장비/의류 부분 렌탈, 헬멧 대여는 할인 적용 되지 않습니다'"
+    fix: Say that only the helmet and partial rentals are excluded, so the clothes set may also get 30% off (about ₩99,600–107,000), to be confirmed at the rental desk.
+resolved:
+  - field: cost
+    problem: "The ₩135,000 total and the advice that the day costs 'four days of budget' use the undiscounted list price. The resort's own 2025/26 discount table also gives a walk-up '현장구매' (on-site purchase) discount, valid for up to 4 people: 35% off the lift and 40% off rental early and late in the season, and 25% off the lift and 30% off rental in the 20 Dec–22 Feb peak. The page never mentions it, so it misses the cheapest way in for a January visit. hours.winter also says 'Peak pricing applied 20 Dec – 22 Feb', but list prices do not change in that window; only the discount rates get smaller."
+    evidence: https://www.elysian.co.kr/about-gangchon/ski (read with ./atr render) — '성수기 (2025.12.20 - 2026.02.22)… 현장구매 O X 35% 40% 20% 30% 25% 30% 10% 30% 4'; '상기 이용요금은 할인적용 전의 정상가격입니다'. The prose, cost.note and quick_facts now give the on-site discount (25% lift / 30% rental in peak, up to 4 people) and the January figures ₩54,000 lift and ₩23,100 ski set, both correct arithmetic. hours.winter now reads 'Smaller discounts applied 20 Dec – 22 Feb (list prices stay the same)'.
+  - field: hours.winter
+    problem: "The page says a weekday pass ending at 17:00 'leaves time to get back before a 21:00 shift', and it says no source gives the ride time. A listed source does give it: about 2.5 h by subway from Seoul. The page also does not say that every weekday in Korea (11–15 Jan) comes right after a 21:00–06:00 night shift. The traveler's only free day that falls on a ski day is Sun 10 or Sun 17 Jan, which pays the weekend rate (₩85,000 lift pass) and has the weekend rental shortage."
+    evidence: "https://blog.trazy.com/elysian-gangchon-ski-resort-guide/ — 'about 1.5 hours by car and 2.5 hours by subway'. The prose now cites ~2.5 h, says a 17:00 finish means about 20:00 in Seoul and is too tight, names Mon 11 / Mon 18 Jan as the rested weekdays (they match config/trip.yaml: night shifts Jan 11–15 and 18–19, free Jan 10 and 16–17), and gives the Sun 10 weekend-rate trade-off (₩85,000)."
+rereview_of: 85c2136cb82405a38c76e6e04cd1fe9957ff3c1eff7df7a2e641994eae4eb5a8
+summary: "I re-checked both earlier findings against the resort's 2025/26 price and discount table and the Trazy guide, and both are fixed. The new discount figures, the ~2.5 h subway time and the advice on which days work are all supported, and the page renders cleanly on phone. One small point is left: the full clothes rental is probably discounted as well, so the ₩107,000 estimate is a little high, which errs on the safe side."
+model: claude-opus-5-5
+cost_usd: 0.426

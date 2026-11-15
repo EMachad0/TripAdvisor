@@ -1,0 +1,24 @@
+# Independent review of area koh-phangan-koh-tao. Written by `./atr review`; do not edit by hand.
+id: koh-phangan-koh-tao
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: b6e82a010fadfe685dbf694fb26a8641768891fc83f55d1467844294d32e179d
+facts:
+  supported: 1
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: nit
+    field: getting_there
+    problem: The new text names both pickups but still gives one departure time, 21:30. 12GO's schedule for the Khao San pickup shows 20:30 → 08:45 (one 12GO user review does mention a 21:30 bus), so the time may depend on the pickup. I could not re-read the timetable PDF's text this session, so the 21:30 time and the ฿850/฿1,150 fares stay unchecked.
+    evidence: https://12go.com/en/travel/khao-san-lomprayah/koh-tao/ — schedule "Lomprayah 20:30 08:45"
+    fix: Add "times differ by pickup (Khao San may leave ~20:30)" so the traveler checks the time as well as the place when booking.
+resolved:
+  - field: confidence_note
+    problem: "The note says the departure point is Khaosan because of origin labels on p.10. In the PDF's text layer, p.10 is a different table: its labels sit beside Bus/Van times such as 10:15–15:00 and 20:30–00:45. Pages 4 and 5 have no origin labels in text at all. Page 4 also has a 21:00 departure arriving 08:15 at ฿850, so the 21:30 time may belong to Pinklao rather than Khaosan. 12GO lists Khao San Lomprayah to Koh Tao leaving at 20:30."
+    evidence: The curator used the second fix the first review offered. getting_there now says "from Bangkok (Khao San or Pinklao; check pickup)", blocks[2].items[1] says "confirm which when booking", and confidence_note no longer cites p.10 origin labels; it says the pickup "is unclear". The page no longer claims something the PDF does not say. https://12go.com/en/travel/khao-san-lomprayah/koh-tao/ confirms that Khao San is a Lomprayah Bangkok pickup.
+rereview_of: bc8ba22d3d8efa34daec8a350b4a8bd0e5176cc33ced25d4cee1f5b47f2c180d
+summary: "Earlier finding 1 is resolved. The page now says the Bangkok pickup could be Khao San or Pinklao and tells the traveler to confirm it, and confidence_note no longer cites origin labels the PDF does not have. All that remains is a nit: the departure time may also depend on the pickup."
+model: claude-opus-5-5
+cost_usd: 0.517

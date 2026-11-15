@@ -1,0 +1,137 @@
+id: maeklong-railway-amphawa
+name: "Maeklong Railway & Amphawa Markets"
+short_name: "Maeklong and Amphawa"
+name_local: ตลาดร่มหุบ · ตลาดน้ำอัมพวา
+name_romanized: Talat Rom Hup · Talat Nam Amphawa
+country: thailand
+city: samut-songkhram
+area: "Maeklong · Amphawa"
+category: day-trip
+fame: popular
+tags: [market, street-food, train, floating-market, weekend-only]
+kind: Do
+why: "A train rolls through a fish market as vendors fold their awnings, then a canal of boat cooks at dusk. Weekend only, about ฿220 (R$36) without food."
+cost:
+  local: 220
+  currency: THB
+  brl: 36.28
+  note: "Two vans (about ฿100 each) plus two songthaew rides; both markets are free to enter. Food extra."
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: "Full day, 09:00–21:00 door to door"
+best_time: "Sun Jan 3: 11:10 or 14:30 train, Amphawa after 16:00"
+
+when:
+  dates:
+    - { from: 2027-01-03, to: 2027-01-10 }
+  kind: only
+  weekly: [fri, sat, sun]
+  label: "Amphawa runs Fri–Sun only"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Railway market daily, trains pass 8 times a day. Amphawa Fri–Sun only, 10:00–20:30."
+  closed: "Amphawa: Mon–Thu (the canal is empty)"
+  winter: "No seasonal changes listed. Sat Jan 2 is your travel day from China, so it is out. Sat Jan 9, 2027 is Thai Children's Day (second Saturday of January), so expect more Thai families that day. Sun Jan 3 has no holiday. Firefly boats run year-round, but the display is strongest May–Oct."
+
+location:
+  address: "Maeklong Railway Market, Phet Samut Rd, Mueang Samut Songkhram (Amphawa canal is 10 min west by songthaew)"
+  address_local: "ตลาดร่มหุบ ถนนเพชรสมุทร อำเภอเมืองสมุทรสงคราม จังหวัดสมุทรสงคราม"
+  lat: 13.40773
+  lng: 100.0009
+  nearest_transit: "Maeklong station (end of the line from Ban Laem); vans stop in town"
+
+sources:
+  - url: https://thaiest.com/en/blog/maeklong-railway-market-talad-rom-hub
+    title: "THAIest: Talad Rom Hub guide (Oct 2026): 2025 train times, 8 passes a day, vans ฿100 from Sai Tai Mai/Mochit, train ฿10 + ฿3 + ฿10"
+    checked: 2026-11-12
+  - url: https://www.thaiholidayguide.com/attraction/amphawa-floating-market/
+    title: "Thai Holiday Guide: Amphawa (Jul 2026): Fri–Sun 10:00–20:30, free, boats ฿50, firefly boats ฿60–80 from ~18:00, avoid 13:00–16:00"
+    checked: 2026-11-12
+  - url: https://en.wikivoyage.org/wiki/Amphawa
+    title: "Wikivoyage: Amphawa: afternoon market, best around 15:00, songthaew 15 min from Samut Songkhram, weekend hotels sell out"
+    checked: 2026-11-12
+  - url: https://en.wikivoyage.org/wiki/Samut_Songkhram
+    title: "Wikivoyage: Samut Songkhram: 72 km from Bangkok, Southern Bus Terminal buses 05:40–21:00, Wongwian Yai–Maha Chai–Ban Laem train"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Public_holidays_in_Thailand
+    title: "Public holidays in Thailand (Wikipedia): National Children's Day is the 2nd Saturday of January"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok (Wikipedia): January climate normals, mean 23.4–32.7 °C"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Train times are THAIest's 2025 table (no current SRT table online), so they are marked unconfirmed. Van fare and terminals from THAIest. No source gives the last van back (12Go and old blogs disagree), hence the 19:00 cutoff unless the van office confirms later. Songthaew fare (~฿10) is an estimate. Amphawa hours differ by guide (10:00–20:30 vs 12:00–20:00)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: train-through-market
+    hook: "Awnings snap shut, a train creeps through the fish stalls, and by dusk you're eating off a boat."
+    caption: "The train squeezing through Maeklong's market stalls"
+  - type: quick_facts
+    time_needed: "Full day"
+    best_time: "Sun Jan 3, train at 11:10 or 14:30"
+    extra:
+      - { label: Fits your week, value: Weekend day trip, detail: "Sun Jan 3 best, Sat Jan 9 backup; Jan 2 is your flight day" }
+      - { label: Trains at Maeklong, value: "8:30 · 11:10 · 14:30 · 17:40", detail: "Arrivals. 2025 table, unconfirmed for 2027: check at the station" }
+  - type: highlights
+    items:
+      - title: The umbrella-pulldown market
+        text: "**Talat Rom Hup** means the \"umbrella pulldown market\": more than 300 stalls line 500 m of track, and a siren gives vendors seconds to fold awnings before the train inches through."
+      - title: Twice in one visit
+        text: "The same train arrives and then leaves again, so one wait often gets you two passes. You may climb aboard at the station for photos."
+      - title: Dinner on the water
+        text: "At **Amphawa**, cooks in small wooden boats grill river prawns, ladle boat noodles and fry oyster omelettes, selling straight up to the canal walkways."
+      - title: Fireflies after dark
+        text: "Shared firefly boats leave from about **18:00** for ฿60–80 (R$10–13), into the mangroves along the Mae Klong. Fewer in January than in the rainy season."
+  - type: prose
+    title: How the day works
+    text: |-
+      **Go on Sunday Jan 3.** Amphawa only runs Friday to Sunday. A Friday doesn't work for you (work night from 19:00, and the ride back takes about 2 hours), and Sat Jan 2 is the day you fly in from China. That leaves **Sun Jan 3** (no holiday that day) or, as a backup, **Sat Jan 9**, which is Thai Children's Day, so expect more families.
+
+      **Morning: Maeklong.** The easy way is a van from the **Southern Bus Terminal (Sai Tai Mai)**, or from the Mochit van terminal, about ฿100 and 2 hours to Maeklong town. Aim for the **11:10** arrival or **14:30** train. These times come from a 2025 table, not a current SRT timetable, so check them at Maeklong station (or ask your hostel to call the station) the day before, and on arrival. The slow, fun way is three legs by rail: Wongwian Yai to Maha Chai (฿10, about 1 h), a ฿3 ferry across the river, then Ban Laem to Maeklong (฿10, about 1 h), only worth it if you time the connections.
+
+      **Afternoon and evening: Amphawa.** A songthaew from Maeklong town takes about 10–15 minutes. Arrive **after 16:00**, when the day-tour buses thin out and the food boats are in full swing; stay for sunset.
+
+      **Getting back.** No source I could find gives the last van or bus from Amphawa or Maeklong back to Bangkok, and service thins out in the evening. So **buy or confirm your return at the van office as soon as you reach Amphawa**, and plan to leave by **19:00** unless they confirm a later departure. The firefly boats (from about 18:00) only fit if they do. Missing the last van leaves you about 70 km from your bed.
+  - type: gallery
+    images:
+      - { file: umbrellas-folded, caption: "Stalls pulled back from the rails as the train arrives" }
+      - { file: amphawa-canal, caption: "Boat cooks on the Amphawa canal" }
+      - { file: amphawa-walkway, caption: "The wooden walkway along the canal at dusk" }
+      - { file: amphawa-clams, caption: "Clams in chilli sauce, a typical Amphawa stall dish" }
+  - type: cost_breakdown
+    items:
+      - { label: "Van Bangkok → Maeklong", local: 100, brl: 16.49 }
+      - { label: "Songthaew Maeklong → Amphawa", local: 10, brl: 1.65, estimate: true }
+      - { label: "Songthaew back to Maeklong (or a van from Amphawa)", local: 10, brl: 1.65, estimate: true }
+      - { label: "Van back to Bangkok", local: 100, brl: 16.49 }
+      - { label: Railway market and Amphawa entry, local: 0, brl: 0 }
+      - { label: Shared canal boat ride (about 1 h), local: 50, brl: 8.25, optional: true }
+      - { label: Shared firefly boat, local: 80, brl: 13.19, optional: true }
+  - type: map
+    note: "The pin is the railway market. Amphawa Floating Market is about 5 km west; show the driver **ตลาดน้ำอัมพวา**."
+  - type: tips
+    variant: insider
+    items:
+      - "Be at the tracks **10–15 minutes** before the train and pick your spot early: when it comes, the crowd bunches up and blocks every shot."
+      - "Samut Songkhram's famous **pla tu** (mackerel) is sold all over both markets, packed head-down in little bamboo baskets."
+      - "Bring cash: most food boats and small stalls don't take cards."
+      - "**Fits your week:** a weekend day trip, best on Sun Jan 3. Not a weekday, and not Sat Jan 2 (your flight day)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Turning up at Amphawa Mon–Thu means a near-empty canal and shuttered stalls."
+      - "Skip Amphawa between **13:00 and 16:00**, when the day-tour buses fill the walkways."
+      - "Weekend rooms in Amphawa sell out; if you want to stay over, book a week ahead. Otherwise you sleep in Bangkok."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry season, sunny and hot by midday
+    note: "Midday on the tracks is hot and shadeless outside the awnings; the evening at Amphawa is the pleasant part of the day."
+    wear: "Light clothes, hat, sunscreen; closed shoes near the rails"
+  - type: pairs_well
+    items:
+      - { id: wang-lang-market, note: "Another market on the Thonburi side, for a weekday afternoon" }

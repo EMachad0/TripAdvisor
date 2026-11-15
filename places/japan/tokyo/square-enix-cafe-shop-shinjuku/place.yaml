@@ -1,0 +1,158 @@
+id: square-enix-cafe-shop-shinjuku
+name: "SQUARE ENIX Cafe & Shop Shinjuku"
+short_name: Square Enix Café
+name_local: スクウェア・エニックス カフェ&ショップ 新宿
+name_romanized: Sukuwea Enikkusu Kafe ando Shoppu Shinjuku
+country: japan
+city: tokyo
+area: Shinjuku · Southeast exit
+category: odd-local
+fame: hidden
+tags: [gaming, themed-cafe, final-fantasy, dragon-quest, nier, new-2026]
+kind: Do
+why: "Square Enix's new permanent café (opened June 2026): Slime sweets, Chocobo burgers and NieR pasta, with a ¥1,200 cover that includes a drink and a coaster."
+
+cost:
+  local: 1970
+  currency: JPY
+  brl: 69.28
+  note: "¥1,200 cover (includes a drink, a random coaster and a placemat) + one required order; the cheapest is ¥770 (June 2026 menu)"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 90 min (the seating limit)
+best_time: "Weekday lunch or mid-afternoon"
+
+book_ahead:
+  required: recommended
+  lead_days: 30
+  lead_time: "Book when slots open: 1 month ahead, 12:00 Japan time"
+  method: website
+  links:
+    - label: TableCheck (official booking)
+      url: https://www.tablecheck.com/shops/square-enix-cafe-shop/reserve
+      note: Linked from the official site; English interface
+  notes: "Reserved guests get seats first; walk-ins are seated only when seats are free. The goods shop on 1F needs no booking and is open to everyone."
+
+hours:
+  summary: "Daily 11:00–22:00; café last entry and last order 21:20"
+  closed: "No regular closing day"
+  winter: "No winter or New Year changes are listed on the official site. Limited-time collaborations rotate (the Final Fantasy X 25th-anniversary menu ends 2 Dec 2026), so check the Topics page for what runs in January; the regular menu stays."
+
+location:
+  address: "Paselabo Tower 1F–3F, 3-36-1 Shinjuku, Shinjuku-ku, Tokyo"
+  address_local: 東京都新宿区新宿3-36-1 パセラボタワー1F・2F・3F
+  lat: 35.6898071
+  lng: 139.7020182
+  nearest_transit: "JR Shinjuku, Southeast exit: next to the exit, per the café"
+
+sources:
+  - url: https://paselabo.pasela.co.jp/sqex_cafe_shop/
+    title: "Official site: concept, hours 11:00–22:00 daily, address, payment methods, booking link"
+    checked: 2026-11-12
+  - url: https://paselabo.pasela.co.jp/sqex_cafe_shop/topics/collaboration_ffx/
+    title: "Official topic (Aug 2026): FFX 25th-anniversary collab until 2 Dec; ¥1,200 cover, 90-min limit, booking opens 1 month ahead at 12:00"
+    checked: 2026-11-12
+  - url: https://game.watch.impress.co.jp/docs/news/2115103.html
+    title: "GAME Watch (12 Jun 2026): grand opening, full grand menu with prices, cover rules"
+    checked: 2026-11-12
+  - url: https://www.jp.square-enix.com/artnia/
+    title: "ARTNIA official: Square Enix shop and café-bar in Higashi-Shinjuku, 11:00–21:00, irregular closing days"
+    checked: 2026-11-12
+  - url: https://www.animenewsnetwork.com/news/2025-01-17/square-enix-cafe-tokyo-to-shut-down-on-march-31-after-8-years/.220150
+    title: "Anime News Network (Jan 2025): Akihabara Square Enix Café closes 31 Mar 2025 after 8+ years; ARTNIA continues"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours, cover and booking rules are from the official site (Nov 2026): booking recommended, walk-ins allowed; lead_days 30 is when slots open, not a measured sell-out time. Menu prices are from the June 2026 opening report. TableCheck could not be opened here; the link is the official site's. No January 2027 collab was announced as of Nov 2026."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: shinjuku-3chome
+    caption: "Shinjuku 3-chōme at night, the district the café is in. No free photo of the café itself"
+    hook: "A Slime you can eat, a Potion in a bottle, and a random coaster from four Square Enix worlds."
+  - type: quick_facts
+    time_needed: 90 min
+    best_time: Weekday lunch
+    extra:
+      - label: Cover
+        value: ¥1,200 incl. a drink
+        detail: Plus one order per person
+      - label: Floors
+        value: 1F shop · 2F–3F café
+        detail: The shop is open to everyone, no booking
+      - label: Payment
+        value: Cards, IC card, cash
+  - type: highlights
+    items:
+      - title: Four games on one menu
+        text: "Regular menu themes: **Dragon Quest**, **Final Fantasy**, **NieR:Automata** and *Fullmetal Alchemist*. Think a jiggly Slime sweets plate or Chocobo & Moogle curry."
+      - title: The cover comes back to you
+        text: "The ¥1,200 cover includes a **drink**, a **random coaster** and a paper **placemat** from the title you choose."
+      - title: A free goods floor
+        text: "The 1F shop sells official goods from Dragon Quest, Final Fantasy, NieR, Kingdom Hearts and more, without booking or paying a cover."
+      - title: Right at the station
+        text: "The café says it is **0 minutes** from JR Shinjuku's Southeast exit."
+  - type: prose
+    title: The café that replaced the café
+    dropcap: true
+    text: |-
+      Square Enix's Akihabara café closed in March 2025 after eight years. In **June 2026** a new permanent one opened in Shinjuku, run by **Newton** (ニュートン), with a fixed menu across four series and limited collaborations on top.
+
+      For more goods, **ARTNIA** in Higashi-Shinjuku is Square Enix's official shop with a café & bar area, open 11:00–21:00 (closed on irregular days), switching to bar time at 17:00.
+  - type: quote
+    variant: vibe
+    text: Chocobo plushies at the next table, and everyone photographing their latte before the first sip.
+  - type: book_ahead
+    steps:
+      - { days_before: 30, text: "Slots for your date open on TableCheck at **12:00 Japan time**, one month ahead." }
+      - { days_before: 0, text: "Order on your own phone from the table's **QR code**; the 90-minute limit includes a last order 40 minutes before the end." }
+  - type: cost_breakdown
+    items:
+      - label: Cover (drink, coaster, placemat included)
+        local: 1200
+        brl: 42.2
+      - label: "Cheapest required order (custard bun, June 2026)"
+        local: 770
+        brl: 27.08
+      - label: "A main dish instead (e.g. Chocobo & Moogle curry)"
+        local: 2200
+        brl: 77.37
+        optional: true
+  - type: menu
+    title: Grand menu (June 2026 prices)
+    items:
+      - { name: "Slime sweets plate (Dragon Quest)", name_local: スライムがあらわれた！ぷるぷるスイーツプレート, price_local: 1210, price_brl: 42.56 }
+      - { name: "Chocobo & Friends burger plate (FF)", name_local: チョコボ&フレンズ バーガープレート, price_local: 1430, price_brl: 50.29, tag: signature }
+      - { name: "Chocobo & Moogle spice curry (FF)", name_local: チョコボとモーグリのスパイスカレー, price_local: 2200, price_brl: 77.37 }
+      - { name: "Bullet-hell pasta (NieR:Automata)", name_local: 現地調達弾幕パスタ, price_local: 2200, price_brl: 77.37 }
+      - { name: "Ed's custard bun (Fullmetal Alchemist)", name_local: エドのカスタードまん, price_local: 770, price_brl: 27.08, tag: cheap }
+      - { name: "Potion (FF)", name_local: ポーション, price_local: 990, price_brl: 34.82, tag: drink }
+    note: "Menu from the June 2026 opening report; prices include tax. The Potion and other special drinks can't be your free cover drink."
+  - type: map
+    zoom: 17
+    note: "Paselabo Tower, by JR Shinjuku's **Southeast exit**. Shop on 1F, café on 2F–3F."
+  - type: tips
+    variant: insider
+    items:
+      - "Spend ¥1,000 and you earn a point toward novelty items; the cover counts."
+      - "Want only the goods? Skip the café and walk into the **1F shop**, or go to ARTNIA."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Walk-ins get only leftover seats: on a weekend without a booking you may be sent away."
+      - "The menu is on your phone via QR code, so make sure you have **mobile data**."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold and dry
+    note: "Tokyo's January averages about 1 °C at night and 10 °C by day. Indoors and right by the station."
+    wear: Anything; it's warm inside
+  - type: pairs_well
+    items:
+      - id: 8bit-cafe-shinjuku
+        note: "Retro game bar 10 min away; opens at 19:00"
+      - id: tocho-observatory-shinjuku
+        note: "Free view over Tokyo on the west side of the station"

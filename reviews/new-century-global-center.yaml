@@ -1,0 +1,16 @@
+# Independent review of new-century-global-center. Written by `./atr review`; do not edit by hand.
+id: new-century-global-center
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 4d3dd961f250d1283bc31a9d58a827c1d0eb0f77a4eca2410d4f6d8efed50805
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 661d38c44ad5f0453608f461410f7960d8c3b4edf29203116a339011d1d96de1
+summary: The only change is a rewording in the pitfalls block, and the Dahe source supports it. The 2025-07-30 article lists "团购价格：99元起", "学生票：99元" and "成人票：178元起". It is a ticket info and listing page with buy links, so "ticket listing" describes it fairly. There were no earlier findings and no blockers in the unchanged content, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.258

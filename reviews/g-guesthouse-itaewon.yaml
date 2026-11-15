@@ -1,0 +1,35 @@
+# Independent review of g-guesthouse-itaewon. Written by `./atr review`; do not edit by hand.
+id: g-guesthouse-itaewon
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 50262ccbad4c2fff6b0f714cbe109b623c2c35079b0f72059f5cdbe35e5d05ac
+facts:
+  supported: 11
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[2].good_to_know[6]
+    problem: For work nights the page sends the traveler to the 4-bed mixed dorm, which had 1 bed left on 11–14 Jan. The same feed shows a Deluxe 4-Bed Mixed Dorm Ensuite with 20 beds at ₩42,349, only ₩2,016 more. 'Quieter for day sleep' is also the curator's guess, not something a source says.
+    evidence: https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/85799/availability/?guests=1&num-nights=1&date-start=2027-01-11&currency=KRW&application=web — "Deluxe 4 Bed Mixed Dorm Ensuite" 20 beds, 42349.23 KRW
+    fix: Name the Deluxe 4-bed mixed dorm (₩42,349, plenty of beds) as the fallback, and phrase 'quieter' as fewer roommates rather than a stated fact.
+  - severity: nit
+    field: blocks[2].good_to_know[4]
+    problem: The page says 'Cash or card on arrival'. The house rules say that, but a guest review in the same feed (28 Oct 2026) says the card machine turned down three of their cards.
+    evidence: https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/85799/?application=web — "Old payment machine rejected 3 of our cards, so bring cash."
+    fix: "Add 'bring some cash: one Oct 2026 guest says the card machine refused their cards'."
+resolved:
+  - field: blocks[0].hook
+    problem: The hook, the `why` and highlight 03 all sell the rooftop BBQ, but no source says the rooftop or grill is open in January at −6 °C. The property text and JSON list "BBQ" and "Outdoor Terrace" with no season, and the curator's own confidence_note says winter use is not stated.
+    evidence: 'The hook and `why` now lead with free breakfast, floor heating and the station walk. The social line, highlight 03 and the weather note all say January rooftop/BBQ use is unconfirmed. Floor heating is backed by the property feed https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/85799/?application=web: "Korean traditional heating system".'
+  - field: location.nearest_transit
+    problem: 'Several facts rest only on the Booking.com page: "Noksapyeong station 750 m", the 8.0 rating from 577 reviews, the two Booking.com guest quotes and the 04406 postcode. That page returns an empty HTTP 202 to automated fetches, so none of them could be checked.'
+    evidence: 'All Booking.com facts are gone (Noksapyeong 750 m, the 8.0/577 rating, the guest quotes, postcode 04406, the booking link). The remaining location facts match the Hostelworld feed: "14-38, Bogwang-ro 60-gil", "Yongsan-gu", "Just 2 mins away from Itaewon station", and directions that "transfer to subway Line No.6".'
+  - field: why
+    problem: The traveler works nights 21:00–06:00 on 11–15 and 18–19 Jan, so they will sleep by day and need somewhere to work at night. The page never says whether a 10-bed dorm, with check-out at 11:00 and small common areas, works for that.
+    evidence: good_to_know now has a night-shift line and a day-sleep line, and the stay block adds the 4-bed dorm (₩40,333) and the twin room (₩131,081) with prices. The Hostelworld availability feed for 2027-01-11 shows "Standard 4 Bed Mixed Dorm Ensuite" at 40332.60 with 1 bed and "Standard Twin Room Private Ensuite" at 131080.96. The property feed supports "fastest WI-FI is provided everywhere", "Meeting Rooms" and "a desk & a chair". The page says honestly that no source confirms a common space is open at night.
+rereview_of: 41ccbbf80a9ceefe1e669bdc717ec2bd0d56d684d1ff26ab9249f0c1ad435fe4
+summary: All three earlier shoulds are fixed. The rooftop is now marked unconfirmed for January, the Booking.com facts are gone, and the night-shift and day-sleep advice is on the page with 4-bed and twin prices that the Hostelworld feed supports. Every new fact in the diff checks out against the Hostelworld property and availability feeds. The two nits left are polish and do not block the page.
+model: claude-opus-5-5
+cost_usd: 0.422

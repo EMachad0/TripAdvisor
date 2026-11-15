@@ -1,0 +1,146 @@
+id: thongsomboon-club-luge
+name: "Thongsomboon Club Luge"
+short_name: Thongsomboon Club
+name_local: ทองสมบูรณ์คลับ
+country: thailand
+city: khao-yai
+area: "Pak Chong"
+category: odd-local
+fame: hidden
+must_do: downhill-carts
+must_do_note: "A short gravity luge run, the closest to Bangkok (2.5–3.5 h by train). The long 2.1 km one is Skyline, near Chiang Mai"
+tags: [luge, gravity-kart, cowboy-theme, day-trip, weekend-day]
+kind: Do
+why: "The nearest gravity luge to Bangkok: steer a little kart down a hillside track, ride the chairlift back up. A Wild West ranch park, a train ride away."
+
+cost:
+  local: 1194
+  currency: THB
+  brl: 199.4
+  note: "฿399 wristband + a ฿150–200 luge ride if it isn't included + trains + taxi (estimate). ฿994 if the wristband covers the luge"
+fx: { rate: 0.167, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Full day from Bangkok; 2–3 h at the park"
+best_time: "Sun Jan 3, ~11:15 off Rapid 135; luge first"
+
+book_ahead:
+  required: false
+  notes: "None of the sources mentions booking: wristbands and ride tickets are described as sold at the park. Book only the train (SRT D-Ticket or Baolau)."
+
+hours:
+  summary: "Daily · Mon–Fri 09:00–18:00 · Sat, Sun and holidays 08:00 (or 08:30)–18:00"
+  winter: "November–February is the cool, dry season, the best time for an outdoor park. No holiday closures found. Weekends and holidays have queues for the luge and ATVs; Sat Jan 9 is Children's Day, so expect families."
+
+location:
+  address: "119 Moo 10, Road 2243, Pak Chong, Pak Chong District, Nakhon Ratchasima 30130"
+  address_local: "ไร่ทองสมบูรณ์คลับ 119 หมู่ 10 ตำบลปากช่อง อำเภอปากช่อง จังหวัดนครราชสีมา 30130"
+  lat: 14.73067
+  lng: 101.39017
+  nearest_transit: "Pak Chong station, about 4 km: taxi or Grab (no bus to the park)"
+
+sources:
+  - url: http://www.thongsomboon-club.com/
+    title: "Thongsomboon Club (official): address 119 Moo 10, Pak Chong, phone 044-312248, map pin"
+    checked: 2026-11-13
+  - url: https://th.trip.com/guide/attraction/rai-thong-somboon-club.html
+    title: "Trip.com guide (16 Mar 2026): luge you steer down the hill, wristbands ฿399/499/999, hours, address, weekend queues"
+    checked: 2026-11-13
+  - url: https://www.lovethailand.org/travel/t/46-นครราชสีมา/3105-ทองสมบูรณ์คลับ.html
+    title: "Lovethailand: gravity luge, you steer and brake, chairlift back; from ฿399; hours; GPS 14.730673, 101.390174"
+    checked: 2026-11-13
+  - url: https://wanderlog.com/place/details/262251/thongsomboon-club
+    title: "Wanderlog (Google reviews): Jul 2026 review finds the luge worn, with dirty helmets; 4.2/5 from 4,795 reviews"
+    checked: 2026-11-13
+  - url: https://www.lemon8-app.com/@pikky199509/7431212704284738064?region=th
+    title: "Lemon8 (Oct 2024): ฿399 (1 ride + 8 free activities), ฿599 (21 activities, 3 h), ฿999 (26, 4 h); rides ฿150–200; rainbow luge"
+    checked: 2026-11-13
+  - url: https://www.lemon8-app.com/@umpibaacafe/7600063960386830855?region=th
+    title: "Lemon8: visit on 17 Jan 2026, the rainbow luge as the first ride"
+    checked: 2026-11-13
+  - url: https://www.thaiholidayguide.com/attraction/thongsomboon-club/
+    title: "Thai Holiday Guide (Jul 2026): Wild West ranch park, grounds free, rides on coupons/packages, no direct public transport"
+    checked: 2026-11-13
+  - url: https://www.baolau.com/en/s/bangkok/pak-chong
+    title: "Baolau (search for 19 Nov 2026): Bangkok → Pak Chong, RP135 07:10 → 10:43 ฿85"
+    checked: 2026-11-13
+  - url: https://www.baolau.com/en/s/pak-chong/bangkok
+    title: "Baolau (search for 19 Nov 2026): Pak Chong → Bangkok, SP22 19:48 → 22:15 ฿310, RP136 14:32 → 18:00 ฿85"
+    checked: 2026-11-13
+  - url: https://rail-thailand.pages.dev/stations/pak-chong/pak-chong-to-bangkok-krung-thep-aphiwat
+    title: "Rail Thailand: Pak Chong → Krung Thep Aphiwat, 6 daily trains incl. Rapid 136 13:51 and Special Express 22 19:48"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Children%27s_Day_(Thailand)
+    title: "Children's Day in Thailand: second Saturday of January (Wikipedia)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Pak_Chong_district
+    title: "Pak Chong: climate table, 1993–2022 (Wikipedia)"
+    checked: 2026-11-13
+confidence: low
+confidence_note: "Luge running Jan and Jul 2026 (reviews); no source gives its length, its price or which wristband has it. Taxi fare and the 4 km are my map estimates. Pin from Lovethailand's GPS link; the official site fails TLS on fetch (address read via Chrome render). Trip.com (fetched; blocks link checks) lists the flying fox, rolling ball, BB guns; Lovethailand gives the footwear advice."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: luge-and-chairlift
+    focus: center
+    hook: "Hairpin bends on a hillside, two karts racing side by side, and a chairlift humming overhead to take you up again."
+  - type: quick_facts
+    time_needed: "Full day from Bangkok"
+    best_time: "Sun Jan 3, ~11:15; luge first"
+    extra:
+      - { label: Slot, value: "Weekend day trip", detail: "Sun Jan 3 best; Sat Jan 9 means no sleep and Children's Day crowds" }
+      - { label: Ride, value: "Gravity luge, you steer", detail: "Chairlift back up; track length not published" }
+      - { label: Train, value: "2.5–3.5 h each way", detail: "From Krung Thep Aphiwat to Pak Chong, ฿85–310" }
+  - type: highlights
+    items:
+      - title: A real gravity kart
+        text: "No motor: the kart rolls down a sloping track on gravity, and **you steer and brake** it yourself. Trip.com and Lovethailand both call it one of the park's most popular rides."
+      - title: Chairlift back up
+        text: "At the bottom you ride the **chairlift** back up the hill for the next run, over the track."
+      - title: The rest of the ranch
+        text: "A Wild West theme park in the Khao Yai foothills: ATVs, a flying fox, horses, a giant rolling ball, a dry sledge and BB guns, some in the same wristband."
+      - title: A day trip, not a flight
+        text: "**Rapid 135** leaves Bangkok at 07:10 for ฿85 and reaches Pak Chong at 10:43. Compare that with a ฿4,000 weekend in Chiang Mai for the long luge."
+  - type: prose
+    title: How it compares, and when to go
+    dropcap: true
+    text: |-
+      **This is the short one.** Skyline Jungle Luge near Chiang Mai has a **2.1 km** run through the jungle and costs about R$670 with the trip north. Thongsomboon's luge is a hillside track with a chairlift, at a family ranch park, for under a third of the price and no overnight. Nobody publishes its length, and a July 2026 Google review found the karts worn and the helmets dirty. Come for the ride and a fun day out, not for a world-class track.
+
+      **Sun Jan 3 is the day.** Take Rapid 135 at 07:10 from Krung Thep Aphiwat, then a taxi or Grab for the 4 km from Pak Chong station. You'll be there around 11:15: do the luge first, before the queues build. Want an earlier start? Special Express 21 leaves at 06:10 (Pak Chong 08:43, ฿310). Head back on Special Express 22 at 19:48 (Bangkok 22:15, ฿310) or the cheap Rapid 136 (฿85; 13:51 or 14:32 depending on the source, so check SRT). **Sat Jan 9** also works on paper, but you'd board at 07:10 straight after a shift that ends at 04:00, and it's Children's Day, with families and queues at a family park. A weekday doesn't fit: the only train that gets you back well before your 19:00 shift is Express 72 (11:18 or 12:08 depending on the source), about an hour after you'd reach the park, and you'd get no sleep after your 04:00 shift end.
+
+      **Make it a weekend?** Pak Chong is the base town for Khao Yai National Park, so the luge can fit into a Khao Yai weekend (see the Khao Yai area card).
+
+      **What ฿399 buys is unclear.** In 2024 the ฿399 ticket covered one ride plus free activities, and single rides cost ฿150–200. A March 2026 guide says ฿399 is a 3-hour unlimited wristband covering 13 activities. Neither says if the luge is in it. Ask at the counter. The other current tiers are ฿499 (with an ATV ride) and ฿999 (17 activities, 4 hours); a March 2026 visitor saw ฿339/559/999 boards.
+  - type: cost_breakdown
+    items:
+      - { label: "Starter ticket (luge inclusion unconfirmed)", local: 399, brl: 66.63 }
+      - { label: "Rapid 135, Bangkok → Pak Chong", local: 85, brl: 14.2 }
+      - { label: "Special Express 22, Pak Chong → Bangkok", local: 310, brl: 51.77 }
+      - { label: "Taxi/Grab station ↔ park, both ways (my guess)", local: 200, brl: 33.4, estimate: true }
+      - { label: "Luge ride, if not in the wristband", local: 200, brl: 33.4, estimate: true, note: "฿150–200 per ride on a 2024 price board" }
+      - { label: "Top wristband ฿999 instead (extra)", local: 600, brl: 100.2, optional: true, note: "17 activities, 4 h (Trip.com, 2026)" }
+    note: "Going back on Rapid 136 (฿85, 13:51 or 14:32, Bangkok 18:00) instead of SP22 saves ฿225 but cuts your park time. If the ฿399 wristband covers the luge, drop that line: ฿994."
+  - type: map
+    note: "The park is about **4 km northwest of Pak Chong station**. There is no public transport to it: take a taxi or Grab, and agree the ride back."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: weekend day trip.** Sun Jan 3."
+      - "At the counter, ask which wristband includes the **luge** (*ลูจ*) and how many runs, before you pay."
+      - "Wear sneakers or strap sandals: guides advise against flip-flops for the luge, ATVs and go-karts."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Weekends and holidays mean **queues** for the luge and ATVs. Go early."
+      - "A 2026 Google review found the luge karts worn and the helmets dirty; check yours, or bring a thin cap or bandana to wear under it."
+      - "Book the 19:48 train back in advance. Don't miss it: the next ones leave after 01:00."
+  - type: weather
+    temp_low_c: 18
+    temp_high_c: 30
+    conditions: "Cool, dry season; almost no rain"
+    note: "Pak Chong's January normals: warm afternoons, cool early morning. Good weather for an open-air hillside park."
+    wear: "Sneakers, light trousers, sunscreen, a light layer for the morning train"
+  - type: pairs_well
+    items:
+      - { id: skyline-jungle-luge, note: "The long version: a 2.1 km jungle luge near Chiang Mai" }

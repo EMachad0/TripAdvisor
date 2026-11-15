@@ -1,0 +1,149 @@
+id: ado-utattemita-tour-ariake-arena
+name: "Ado live: Utattemita Tour 2027"
+short_name: Ado live at Ariake Arena
+name_local: Adoの歌ってみたツアー2027 · 有明アリーナ
+name_romanized: Ado no Utatte Mita Tour 2027
+country: japan
+city: tokyo
+area: Ariake · Tokyo Bay
+category: shows
+fame: popular
+must_do: ado
+tags: [anime, concert, j-pop, arena]
+kind: Do
+why: "Ado opens her 10th-anniversary covers tour in Tokyo on Jan 10 and 11, 2027, inside your Japan dates. A seats ¥10,000; tickets by lottery."
+cost:
+  local: 10000
+  currency: JPY
+  brl: 351
+  note: "A seat. S seat ¥15,000, VIP ¥20,000 (with extras). Tickets so far only by fan-site lottery"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "About 5 h with doors and queues"
+best_time: "Sun Jan 10 (17:00) or Mon Jan 11 holiday (16:00)"
+
+when:
+  dates:
+    - { from: 2027-01-10, to: 2027-01-11 }
+  kind: only
+  label: "Jan 10–11, 2027 only (Tokyo)"
+  confirmed: true
+
+book_ahead:
+  required: true
+  lead_days: 45
+  lead_time: "Fan-site lotteries now; general sale date not announced"
+  method: website
+  links:
+    - { label: "DISK GARAGE: Sun Jan 10", url: "https://diskgarage.com/ticket/detail/103120", note: "Tokyo promoter's page: prices, rules, sale status ('before general sale')" }
+    - { label: "DISK GARAGE: Mon Jan 11", url: "https://diskgarage.com/ticket/detail/103119", note: "Same page for the holiday show" }
+    - { label: "Ado's fan site (lottery)", url: "https://ado-dokidokihimitsukichi-daigakuimo.com/", note: "Paid membership; 2nd member lottery opened Nov 5, 2026" }
+  notes: "So far tickets go only through lotteries on Ado's paid fan site (1st Oct 20–27, 2nd from Nov 5, 2026). DISK GARAGE lists the general sale as not yet started; its date isn't announced. Up to 4 tickets per application. Resale without the promoter's consent is banned."
+
+hours:
+  summary: "Sun Jan 10: doors 15:30, show 17:00. Mon Jan 11 (holiday): doors 14:30, show 16:00"
+  winter: "Only these two Tokyo dates fall in your Japan window (now Jan 4–22, 2027). The tour's Osaka shows are Jan 30–31, after you leave for Bangkok. Jan 10 is the free Sunday of your work week; Jan 11 is Coming-of-Age Day. If you start in Osaka, you'd need to be in Tokyo by then."
+
+location:
+  address: "Ariake Arena, 1-11-1 Ariake, Koto-ku, Tokyo"
+  address_local: 東京都江東区有明1丁目11番1号 有明アリーナ
+  lat: 35.64334
+  lng: 139.79446
+  nearest_transit: "Shin-Toyosu or Ariake Tennis no Mori (Yurikamome), 8 min walk"
+
+sources:
+  - url: https://www.universal-music.co.jp/ado/news/2026-10-19/
+    title: "Adoの歌ってみたツアー2027 announcement — Universal Music Japan (dates, times, prices, lottery)"
+    checked: 2026-11-11
+  - url: https://diskgarage.com/ticket/detail/103120
+    title: "Ado, Jan 10 2027, Ariake Arena — DISK GARAGE (prices, age rule, general sale not yet open)"
+    checked: 2026-11-11
+  - url: https://ado-dokidokihimitsukichi-daigakuimo.com/
+    title: "Adoのドキドキ秘密基地 — official fan site (2nd member lottery news, Nov 5, 2026)"
+    checked: 2026-11-11
+  - url: https://www.universal-music.co.jp/ado/
+    title: "Ado — Universal Music Japan artist page (covers album その2 out Dec 23, 2026)"
+    checked: 2026-11-11
+  - url: https://en.skream.jp/news/2026/10/ado_utattemita_tour_2027.php
+    title: "Ado announces Utattemita Tour 2027 — Skream! (English, Oct 19, 2026)"
+    checked: 2026-11-11
+  - url: https://ariake-arena.tokyo/access/
+    title: "Ariake Arena — official access page (address, stations)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Ariake_Arena
+    title: "Ariake Arena — Wikipedia (about 12,000–15,000 seats)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo — Wikipedia (climate table, 1991–2020 normals)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Dates, times, prices, lottery: Universal Music and DISK GARAGE, read 2026-11-11. Unknown: general sale date, whether foreigners can join the fan site or buy, ticket delivery. lead_days is a guess. Jan 10 as the anniversary date itself is from Natalie/Yahoo headlines seen only in search. No Ado pop-up or collab café found for Jan 4–22."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: ariake-arena
+    focus: center
+    caption: Ariake Arena from outside; no free photo of an Ado show
+    hook: Ado's 10th year as a singer, celebrated with a covers tour that opens in Tokyo on her anniversary day.
+  - type: quick_facts
+    time_needed: About 5 h
+    best_time: Sun Jan 10 or Mon Jan 11
+    extra:
+      - { label: Tickets, value: Lottery only so far, detail: "Fan site; general sale date not announced" }
+      - { label: Age rule, value: "3+ need a ticket", detail: "Under 3 not admitted" }
+      - { label: Venue, value: "Arena, ~12,000 seats", detail: "Up to 15,000 with extra seating" }
+  - type: highlights
+    items:
+      - title: Exactly on your dates
+        text: "The only Ado concerts in Jan 4–22: **Sun Jan 10** (17:00) and **Mon Jan 11** (16:00, holiday) at Ariake Arena. The tour then goes to Osaka (Jan 30–31) and Nagoya (Feb 27–28)."
+      - title: A 10th-anniversary show
+        text: "The *Utattemita* (\"I tried singing it\") tour marks ten years since Ado started as a cover singer. Opening night falls on the anniversary date itself, **Jan 10**."
+      - title: Covers, fresh off an album
+        text: "Her new covers album, *Adoの歌ってみたアルバム その2*, comes out Dec 23, 2026, two weeks before the tour opens."
+      - title: Arena size, not stadium
+        text: "Ariake Arena seats about 12,000. Ado played Nissan Stadium in July 2026, so this is a much closer room."
+  - type: prose
+    title: How to get a ticket
+    dropcap: true
+    text: |-
+      This is the hard part. So far tickets have been sold only by **lottery** to members of Ado's paid fan site, *Ado no Dokidoki Himitsu Kichi*. The first round ran Oct 20–27, 2026 and a second member lottery opened on Nov 5. DISK GARAGE, the Tokyo promoter, lists the **general sale** as "before general sale", with no date yet.
+
+      Prices (tax included): **A seat ¥10,000**, S seat ¥15,000, VIP ¥20,000 with extras. There are seated-only versions of A and S. Up to four tickets per application. At R$351 for the cheapest seat it's two days of your budget. The trade: it's the one Ado concert anywhere near your trip.
+
+      Watch DISK GARAGE's page for the general sale. We couldn't confirm whether a foreign visitor can join the fan site or buy without a Japanese phone number, so check that first.
+  - type: book_ahead
+    steps:
+      - { days_before: 60, text: "Check Ado's fan site for any further member lottery, and whether you can join from abroad." }
+      - { days_before: 45, text: "Watch the **DISK GARAGE** pages for the general sale date; buy the moment it opens." }
+      - { days_before: 0, text: "Doors open 90 min before the show. Bring the ticket in whatever form the seller issues it." }
+  - type: quote
+    variant: vibe
+    text: Twelve thousand penlights in the dark, and that voice.
+  - type: cost_breakdown
+    items:
+      - { label: "A seat (cheapest)", local: 10000, brl: 351 }
+      - { label: "Upgrade to S seat (¥15,000)", local: 5000, brl: 175.5, optional: true }
+  - type: map
+    zoom: 15
+    note: "8 min on foot from **Shin-Toyosu** or **Ariake Tennis no Mori** (Yurikamome). The venue says the Toei 05-2 bus from Tokyo Station may be too full to board on event days."
+  - type: tips
+    variant: insider
+    items:
+      - "Bookmark the **DISK GARAGE** pages for both dates. They'll show when the general sale opens."
+      - "**Jan 10** suits your work week (it's a Sunday); **Jan 11** is a public holiday at the start of your vacation."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Don't buy from resellers.** DISK GARAGE bans resale without the promoter's consent and has a form for reporting resold tickets."
+      - "Family seats need a child aged 3–12 with you, and staff may check. Don't pick them to save time."
+      - "Leave time for the queue: doors open 90 minutes before the show."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, mostly dry
+    note: "Tokyo averages 1.2–9.8 °C in January (Wikipedia, 1991–2020) with about 5 wet days. You'll queue outside before doors, and Ariake is by the bay."
+    wear: Warm coat for the queue, layers for the hall
+  - type: pairs_well
+    items:
+      - { id: shibuya-crossing-and-sky, note: "Tokyo icon to do on the free day around the show" }

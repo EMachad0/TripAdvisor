@@ -1,0 +1,98 @@
+id: khao-yai
+country: thailand
+name: "Khao Yai"
+name_local: เขาใหญ่
+region: "Nakhon Ratchasima"
+scope: region
+cities: [khao-yai]
+why: "Thailand's first national park, UNESCO-listed jungle with wild elephants, gibbons and hornbills, 3 h from Bangkok by train. A weekend here buys cool nights and real wildlife that Bangkok can't give you."
+best_for: [nature, day-trip]
+highlights: ["Wild elephants on the park road", "Gibbons and hornbills at dawn", "Haew Suwat waterfall", "Millions of bats at sunset", "Cool January nights"]
+days_suggested: { min: 2, max: 3 }
+cost_level: high
+fame: popular
+lat: 14.70409
+lng: 101.41322
+getting_there: "6 trains/day Krung Thep Aphiwat → Pak Chong, 2.5–3.5 h (06:10, 07:10, 10:35, ~19:25–19:40, 21:05, 23:05), ฿85 on Rapid trains. Confirm times on D-Ticket. No public transport into the park itself."
+getting_around: "Join a tour from Pak Chong (Greenleaf: ฿1,500 full day incl. ฿400 park fee). Alone: ฿50 bus to the gate, but the visitor centre is 14 km further and walking in isn't allowed."
+winter_note: "November–February is the cool, dry season: around 22 °C by day and down to 9–10 °C at night in the park (Thai National Parks). Bring a sweater. Weekends are busy and long holidays extremely busy, so the New Year weekend (Jan 2–3) will be crowded."
+image: haew-suwat
+sources:
+  - url: https://www.thainationalparks.com/khao-yai-national-park
+    title: "Thai National Parks: Khao Yai: ฿400 entry (June 2026), open 06:00–18:00, winter 22 °C day / 9–10 °C night, guide rules, weekend crowds"
+    checked: 2026-11-12
+  - url: https://www.thainationalparks.com/khao-yai-national-park/get-there
+    title: "Thai National Parks: getting there: no public transport into the park, trains and buses to Pak Chong, songthaew to the gate"
+    checked: 2026-11-12
+  - url: https://www.greenleaftour.com/tours.html
+    title: "Greenleaf Guesthouse & Tour: half day ฿500 (15:00–19:30, bat cave), full day ฿1,500 incl. park fee (08:00–18:30), both ฿1,800"
+    checked: 2026-11-12
+  - url: https://en.wikivoyage.org/wiki/Pak_Chong
+    title: "Wikivoyage: Pak Chong: trains 3–3.5 h from Krung Thep Aphiwat, ฿50 bus to the park gate, More than Sleep Hostel dorm ฿300 (Mar 2024)"
+    checked: 2026-11-12
+  - url: https://en.wikivoyage.org/wiki/Khao_Yai_National_Park
+    title: "Wikivoyage: Khao Yai: first national park (1962), UNESCO 2005, wildlife, Haew Suwat and Haew Narok falls, night spotlighting"
+    checked: 2026-11-12
+  - url: https://www.baolau.com/en/s/bangkok/pak-chong
+    title: "Baolau (search for 18 Nov 2026): Bangkok → Pak Chong, RP139 19:40→22:52 ฿85, EX71 ฿185, ฿85–780 by class"
+    checked: 2026-11-12
+  - url: https://www.baolau.com/en/s/pak-chong/bangkok
+    title: "Baolau (search for 18 Nov 2026): Pak Chong → Bangkok, EX72 12:08→14:55 ฿185, RP136 14:32→18:00 ฿85"
+    checked: 2026-11-12
+  - url: https://rail-thailand.pages.dev/stations/bangkok-krung-thep-aphiwat/bangkok-krung-thep-aphiwat-to-pak-chong
+    title: "Rail Thailand (updated 6 Jan 2026): Krung Thep Aphiwat → Pak Chong, 6 daily trains incl. EX71 10:35→13:17, RP139 19:25→22:33"
+    checked: 2026-11-12
+  - url: https://rail-thailand.pages.dev/stations/pak-chong/pak-chong-to-bangkok-krung-thep-aphiwat
+    title: "Rail Thailand (updated 6 Jan 2026): Pak Chong → Krung Thep Aphiwat, 6 daily trains incl. EX72 11:18→14:10"
+    checked: 2026-11-12
+  - url: https://www.thaitrainguide.com/routes/bangkok-to-pak-chong/
+    title: "Thai Train Guide: Bangkok → Pak Chong, SP21 06:10 and Rapid 135 07:10 (3rd class, often available at short notice)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Train times from Rail Thailand (Jan 2026), Baolau (Nov 2026) and Thai Train Guide, not SRT D-Ticket (not queryable for Jan 2027). Fares from Baolau: ฿85 Rapid 139, ฿185 Express 72. Times for those two differ by 15–50 min between sources. Greenleaf tour prices are from their site (undated). Hostel price is Wikivoyage, March 2024. The plan depends on your unbooked Jan 2 flight."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    caption: "Haew Suwat waterfall in Khao Yai"
+    hook: "Gibbons whooping at dawn, elephants on the road at dusk, and the first cool night since you landed."
+  - type: highlights
+    items:
+      - title: Real wild elephants
+        text: "Khao Yai is one of the easiest parks in Thailand to run into **wild elephants** with a bit of luck, often on the road or at salt licks late in the day."
+      - title: A jungle with a dawn chorus
+        text: "Gibbons are most active in the early morning, and over 320 bird species include **great hornbills**. Guides carry telescopes and photograph sightings through them for you."
+      - title: Bats at sunset
+        text: "Just outside the north gate, **millions of wrinkle-lipped bats** pour out of a cave at about 17:30, a ribbon across the sky. Greenleaf's ฿500 half-day tour ends there."
+      - title: Haew Suwat falls
+        text: "A 20 m curtain of water into a big pool, on the full-day tour. No swimming allowed at the park's falls."
+  - type: prose
+    title: What a weekend here buys
+    text: |-
+      **Versus staying in Bangkok:** two days in Bangkok buy you markets, temples and a night out. Khao Yai buys the thing Bangkok can't: a real jungle with wild elephants, gibbons and hornbills, and nights cool enough for a sweater. It costs more than a Bangkok weekend, and your Saturday night is spent in Pak Chong, a small town that is mostly a base for the park, not at a Bangkok bar.
+
+      **How it fits your week.** Only the first weekend works, and it depends on your flight from China on **Sat Jan 2**. If you land in Bangkok by mid-afternoon, take **Rapid 139** from Krung Thep Aphiwat at about **19:25–19:40** (Pak Chong about 22:35–22:55; confirm on D-Ticket) and sleep in Pak Chong. **Sun Jan 3** is the full-day park tour (08:00–18:30); sleep a second night. On **Mon Jan 4** take **Express 72** at about **11:20–12:10**, in Bangkok by about 14:10–15:00, well before your 19:00 shift. Only if you land very early can **Express 71** (10:35, Pak Chong 13:17) get you there for Saturday's 15:00 bat-cave half day. Jan 9–10 doesn't work: you fly to Korea on Sun Jan 10.
+
+      **What it costs.** Trains ฿85 out on Rapid 139 and ฿185 back on Express 72 (Baolau's fares), the full-day tour ฿1,500 including the ฿400 park fee, and a hostel dorm about ฿300 a night. Without beds that is roughly **฿1,770 (R$292)**, close to three days of your R$100 budget; two dorm nights add about ฿600 (R$99). The ฿500 half-day bat tour (฿1,800 for both tours) only fits if you arrive Saturday afternoon.
+
+      **Can you do it without a tour?** Barely. A ฿50 local bus goes from Pak Chong to the north gate, but the visitor centre is 14 km further in, you aren't allowed to walk in from the checkpoint, and only two short trails may be walked without a guide.
+  - type: gallery
+    images:
+      - { file: elephant-herd, caption: "A wild elephant herd on Khao Yai's grassland edge" }
+      - { file: grasslands, caption: "The park's grasslands, where deer and elephants graze" }
+  - type: tips
+    variant: insider
+    items:
+      - "**Fits your week:** weekend + Monday morning only: Sat Jan 2 evening train out (if your flight lands in time), park Sun Jan 3, Express 72 back Mon Jan 4 late morning."
+      - "Greenleaf picks you up free at Pak Chong train or bus station if you take the full-day tour; they take cash only and never ask for payment in advance."
+      - "Bring long trousers, closed shoes and a jacket. Tours hand out leech socks."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Nov–Mar is high season: Greenleaf groups can reach 14 on the full day and 20+ on the half day."
+      - "The park is very busy on weekends and extremely busy on long holidays; the New Year weekend counts."
+  - type: weather
+    temp_low_c: 10
+    temp_high_c: 22
+    conditions: Cool, dry season; chilly nights in the park
+    note: "The coolest place you'll be in Thailand. Mornings, when wildlife is most active, are the coldest."

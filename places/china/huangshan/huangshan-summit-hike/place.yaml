@@ -1,0 +1,186 @@
+id: huangshan-summit-hike
+name: "Huangshan Summit Hike in Winter"
+short_name: Huangshan summit hike
+name_local: 黄山风景区
+name_romanized: Huángshān Fēngjǐngqū
+country: china
+city: huangshan
+area: South gate · Tangkou
+category: nature
+fame: popular
+tags: [hike, mountain, cable-car, sunrise, snow, cold-outdoors, unesco, real-name-booking]
+kind: Do
+why: "Granite peaks in frost on a day hike from Tangkou: cable car up, 1,800 m ridges on stone stairs, down by the Western Steps. ¥190 ticket valid 3 days."
+
+cost:
+  local: 308
+  currency: CNY
+  brl: 254.62
+  note: "¥190 ticket (rate to Dec 19, 2026) + Yungu cable car up ¥80 + shuttle ¥19 each way; walking down instead of riding"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Full day, shuttle 07:40–17:10"
+best_time: Clear morning after snowfall, on a weekday
+
+book_ahead:
+  required: true
+  lead_days: 1
+  lead_time: "Real-name booking, at least 1 day ahead (3 before holidays)"
+  method: passport-registered
+  links:
+    - label: Trip.com (foreigner-friendly)
+      url: "https://www.trip.com/travel-guide/attraction/huangshan/huangshan-scenic-area-87869/"
+      note: English, passport booking, small fee; not opened (Trip.com blocks the checker)
+    - label: "Official rules (2026 notice)"
+      url: "https://www.sohu.com/a/992925783_121123826"
+      note: "Official channel is the 黄山旅游官方平台 WeChat mini-program; one traveler needed a Chinese phone"
+  passport: true
+  notes: "Strong real-name, timed and direction-based entry: book a time slot and a gate (south gate for Tangkou). Re-entry on days 2–3 must also be booked on the official platform; the ticket windows no longer do it."
+
+hours:
+  summary: "Dec 1–Mar 4: park and cable cars 08:00–16:40; walking trail gates take no new hikers after 15:00"
+  closed: "Lotus Peak (rest rotation); last winter also Tiandu Peak and Xihai Canyon"
+  winter: "2026–27 winter closures not announced yet. Last winter, from Dec 1, 2025, Xihai Grand Canyon (and its train), Tiandu Peak and the West Gate area closed for winter maintenance until Mar 14, 2026; Dec 2024 was the same. The three cable cars also each stop in turn for annual inspection: in 2025–26 Taiping Nov 24–Dec 8, Yuping Jan 4–28, Yungu Jan 29–Feb 13."
+
+location:
+  address: "Yungu Temple cable car station (Eastern Steps trailhead), Huangshan Scenic Area, Huangshan District"
+  address_local: 安徽省黄山市黄山区黄山风景区云谷寺（云谷索道下站）
+  lat: 30.12221
+  lng: 118.18755
+  nearest_transit: "Scenic-area shuttle from the Tangkou transfer centre to Yungu Temple, ¥19"
+
+sources:
+  - url: https://m.gmw.cn/2025-12/19/content_1304270257.htm
+    title: "2026 ticket and cable car prices — Anhui Daily via Guangming (¥190 Jan 21–Dec 19, 2026; Yungu ¥80, Yuping ¥90; 3-day re-entry)"
+    checked: 2026-11-11
+  - url: https://www.sohu.com/a/992925783_121123826
+    title: "Scenic Area Committee notice, 2026-03-04 (repost): Dec–Mar 4 hours 08:00–16:40, trail gates 15:00, shuttles, Lotus Peak, booking"
+    checked: 2026-11-11
+  - url: https://difang.gmw.cn/ah/2025-12/01/content_38450912.htm
+    title: "Xihai Grand Canyon and Tiandu Peak enter winter maintenance from Dec 1, 2025 — China News via Guangming"
+    checked: 2026-11-11
+  - url: https://m.thepaper.cn/newsDetail_forward_32769009
+    title: "Xihai Grand Canyon, its sightseeing train and the West Gate reopen on Mar 14, 2026 — Huangshan Fabu (official city account) on The Paper"
+    checked: 2026-11-11
+  - url: https://m.gmw.cn/2024-11/26/content_1303906308.htm
+    title: "Winter 2024–25 notice — Hefei Evening News via Guangming (same Dec 1 closures; Dec 2024 hours)"
+    checked: 2026-11-11
+  - url: https://m.wuhu.bendibao.com/tour/31429.shtm
+    title: "2025–26 winter cable car inspection stoppages — Wuhu Bendibao (2025-11-24)"
+    checked: 2026-11-11
+  - url: https://en.wikivoyage.org/wiki/Huangshan
+    title: "Huangshan — Wikivoyage (Eastern Steps 2–3 h, Western Steps 6–7 h, paths with railings and snow crews, snow spikes, summit dorms, Tangkou)"
+    checked: 2026-11-11
+  - url: https://www.chinahighlights.com/huangshan/weather/december.htm
+    title: "Huangshan weather in December — China Highlights (sea of clouds more frequent in winter, main paths cleared daily, crampons rentable)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Huangshan
+    title: "Huangshan — Wikipedia (CMA 1991–2020 normals at 1,840 m: December −3.1/3.4 °C, 6.5 snow days, 52% sunshine)"
+    checked: 2026-11-11
+  - url: https://shinghui.github.io/posts/huangshan-ticket/
+    title: "How to buy Huangshan tickets — Angel Wong's blog (Sept 2025: shuttle ¥19 each way, 2 h walk down to Ciguangge, foreigner half-price)"
+    checked: 2026-11-11
+  - url: "https://api.sunrise-sunset.org/json?lat=30.13&lng=118.16&date=2026-12-10&tzid=Asia/Shanghai"
+    title: "Sunrise and sunset at Huangshan on Dec 10, 2026 — sunrise-sunset.org (06:52 / 17:08)"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633?from=2026-12-10&to=2026-12-11&guests=1&currency=CNY"
+    title: "Huangshan Kunlun International Youth Hostel, Tangkou — Hostelworld (free luggage storage)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Prices and Dec hours from 2026 notices, read in reposts (official sites block readers). 2026–27 closures and cable car stoppages not announced: those shown are last winter's. No dated summit dorm price (Trip.com needs a login; Booking had none): ¥200–300 is Wikivoyage's 2019 range. Foreigner half-price: one traveler. Trip.com link from search, not opened."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: sunrise-snow
+    hook: Snow on the granite, first light on the needles, and stone stairs with railings all the way up.
+    caption: Huangshan at sunrise in winter
+  - type: quick_facts
+    time_needed: "Full day, 07:40–17:10"
+    best_time: Clear morning after snow, weekday
+    extra:
+      - { label: Trail gates close, value: "15:00", detail: "No new hikers after that in winter; cable cars run to 16:40" }
+      - { label: Sunrise, value: "06:52 on Dec 10", detail: "Sunset 17:08; you only see sunrise from the summit if you sleep up there" }
+      - { label: Summit cold, value: "−3 to 3 °C", detail: "December normals at 1,840 m; icy mornings" }
+  - type: faq
+    title: Your questions
+    items:
+      - q: Is it worth the days in winter?
+        a: "Yes, if you accept the gamble on views. December at the summit has about **half the possible sunshine** and 10.8 days with rain or snow, and fog can hide everything. In return there is snow and rime, the sea of clouds shows **more often in winter** (China Highlights), and crowds are low. The ticket is valid **3 days with re-entry**, so a fogged-out day 1 can be retried on day 2: book the re-entry on the official platform."
+        asked: 2026-11-11
+      - q: What do I do with my luggage?
+        a: "Book **two nights at a Tangkou hostel** (the night before and the night of the hike). The big bag then stays in your dorm and you climb with a daypack. The Kunlun hostel lists **free luggage storage** if you need to leave it after check-out. If you sleep on the summit, ask before booking whether they hold bags overnight: no listing says so. Bring only a daypack to the summit."
+        asked: 2026-11-11
+      - q: How hard is the hike, especially in the cold? Is it safe?
+        a: "Moderate but long. It is all **stone stairs**: the Eastern Steps take 2–3 h up, the Western Steps 6–7 h. Wikivoyage calls the trails wide walkways with railings, often lit, with workers clearing snow. China Highlights says the main paths are safe when icy because they are cleared daily, and management closes risky trails. Real risks: **ice in the morning** (buy snow spikes), −3 °C on top, and the 15:00 trail cut-off."
+        asked: 2026-11-11
+  - type: highlights
+    items:
+      - title: Frost and snow on granite
+        text: "The 1,840 m station gets **6.5 snowy days** in an average December, and China Highlights says snow lingers on the peaks because it melts slowly in the cold."
+      - title: The sea of clouds
+        text: "Clouds pool in the valleys overnight, especially after rain or snow (Wikivoyage). China Highlights says it shows **more often in winter**; nobody publishes odds, so treat it as a bonus."
+      - title: Cheap re-entry for bad weather
+        text: "One **¥190** ticket covers three consecutive days with unlimited entries once it is scanned on day one: a real fog insurance."
+      - title: Real hike, safe paths
+        text: "Up the **Eastern Steps** in 2–3 h or by cable car, then down the long **Western Steps**: a blogger walked down to Ciguangge in about 2 hours."
+  - type: prose
+    title: How the day works
+    dropcap: true
+    text: |-
+      Sleep in **Tangkou**, the town at the south gate. Book the ticket for the south gate the day before. From the Tangkou transfer centre, the winter shuttle goes up from **07:40** to **Yungu Temple** (¥19). There you either ride the **Yungu cable car** (¥80, from 08:00) or walk the **Eastern Steps**, the easier of the two southern stairways, in 2–3 hours.
+
+      On top you walk the plateau between Beihai and Bright Summit (Guangmingding) on stone paths. Leave enough time for the way down: the **Yuping cable car** (¥90) or the **Western Steps** past Yuping to Ciguangge, where the shuttle takes you back to Tangkou (last one down at **17:10**). Trail gates stop letting hikers in at **15:00** and the cable cars stop at **16:40**.
+
+      Sunrise is at about 06:52 in mid-December and the first shuttle is at 07:40, so on a day hike you only see sunrise from the top if you **sleep on the summit**. Summit hotels are expensive: Wikivoyage lists dorm beds at ¥200–300 (Shilin) or ¥100–250 (White Goose, which in 2021 did not take foreigners), and warns that several hotels close in winter. A Tangkou dorm bed costs about a third of that.
+  - type: gallery
+    images:
+      - { file: sea-of-clouds, caption: The sea of clouds from the top }
+      - { file: west-sea-winter, caption: "West Sea cliffs in winter (Xihai Canyon itself closed last winter)" }
+      - { file: paiyunlou-sunset, caption: Sunset at Paiyunlou on a snowy evening }
+      - { file: winter-fog, caption: "The other winter: fog all day" }
+  - type: quote
+    variant: vibe
+    text: Snow spikes crunching on the stairs, breath in the air, and the cloud below you lifting for ten minutes.
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "Book the ticket on **Trip.com** (passport number, foreign card), or on the 黄山旅游官方平台 WeChat mini-program if it accepts your passport. Pick the **south gate** and your time slot."
+      - days_before: 1
+        text: "Last sensible day to book: the official advice is at least one day ahead. Check the latest notice for closed peaks and cable car stoppages."
+      - days_before: 0
+        text: "Take the 07:40 shuttle, scan your **passport** at the gate. This first scan starts the 3-day validity."
+    passport_note: "Bring the **passport** you booked with: it is your ticket at the gate."
+  - type: cost_breakdown
+    items:
+      - { label: "Entry ticket (to Dec 19, 2026)", local: 190, brl: 157.07 }
+      - { label: "Yungu cable car up", local: 80, brl: 66.14 }
+      - { label: "Shuttle Tangkou to Yungu and Ciguangge back to Tangkou", local: 38, brl: 31.41 }
+      - { label: "Yuping cable car down instead of walking", local: 90, brl: 74.4, optional: true }
+      - { label: "Summit dorm bed (Shilin range, 2019)", local: 250, brl: 206.68, estimate: true, optional: true }
+  - type: map
+    note: "Pin: Yungu Temple, the lower cable car station and the start of the Eastern Steps. Shuttles leave from the Tangkou transfer centre."
+  - type: tips
+    variant: insider
+    items:
+      - "Walk **up** the Eastern Steps (2–3 h) instead of taking the cable car and save ¥80; or ride up and walk down the Western Steps. Wikivoyage reminds you that a long descent is not much easier than the climb."
+      - "Buy **snow spikes** from the vendors on the mountain (Wikivoyage) or rent crampons at the base (China Highlights)."
+      - "Buy snacks and water in Tangkou: food on top costs about twice as much."
+      - "Ask at the ticket counter whether a foreigner discount applies: one traveler paid **¥95** instead of ¥190 with a passport in Sept 2025. No official source confirms it."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Do not plan on **Tiandu Peak** or the **Xihai Grand Canyon** train: both were shut from Dec 1 in 2024 and 2025. Lotus Peak is on its closed rest rotation."
+      - "Check the cable car you want is running. In 2025–26 the **Taiping** line stopped Nov 24–Dec 8 for inspection; this winter's dates are not out yet."
+      - "Last December the province made the ticket **free for Anhui residents** all month. If that repeats, weekends get busy; China Highlights already advises skipping Fridays and Saturdays."
+      - "Missing the 15:00 trail gate or the 16:40 cable car means a long descent in the cold dark: sunset is around 17:08."
+  - type: weather
+    temp_low_c: -3
+    temp_high_c: 3
+    conditions: "Freezing on top, often fog; 10.8 days with rain or snow, 6.5 snowy days"
+    note: "December normals at 1,840 m: −3.1 to 3.4 °C, 52% of possible sunshine. Ice is worst in the morning; risky trails close in icy conditions."
+    wear: "Down jacket, thermal layers, hat, gloves, boots with grip, snow spikes, a headlamp"
+  - type: pairs_well
+    items:
+      - { id: huangshan-kunlun-youth-hostel, note: "Tangkou base: sleep there the nights before and after, bag stays put" }
+      - { id: hongcun-village, note: "Day after the hike: 1 h bus from Tangkou, then on to Huangshan North" }

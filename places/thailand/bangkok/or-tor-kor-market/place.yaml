@@ -1,0 +1,150 @@
+id: or-tor-kor-market
+name: "Or Tor Kor Market"
+name_local: ตลาด อ.ต.ก.
+name_romanized: Talat Or Tor Kor
+country: thailand
+city: bangkok
+area: Chatuchak · Kamphaeng Phet
+category: food
+fame: popular
+tags: [market, fresh-market, food-court, fruit]
+kind: Eat
+why: "Bangkok's showcase fresh market: premium fruit in tidy rows, and a food court where duck rice costs ฿60."
+cost:
+  local: 110
+  currency: THB
+  brl: 18.14
+  note: "Duck rice plus one Thai dessert at the food court. Fruit to take away costs extra and is pricey"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: Weekday morning, before the lunch rush
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily, about 06:00–18:00 (some listings say 20:00). Stalls keep their own hours"
+  closed: No weekly closing day listed
+  winter: "January is the cool, dry season. Durian's main season runs roughly April–August (Thaiger) and mango variety peaks in April–May (Nomado), so in early January expect fewer of both and lean on the food court and the other fruit. No holiday closures listed for Dec–Jan. The food court is under a roof, so heat and rain don't matter much."
+
+location:
+  address: "101 Kamphaeng Phet Rd, Chatuchak, Bangkok 10900"
+  address_local: "ตลาด อ.ต.ก. 101 ถนนกำแพงเพชร แขวงจตุจักร เขตจตุจักร กรุงเทพฯ 10900"
+  lat: 13.79713
+  lng: 100.54757
+  nearest_transit: "Kamphaeng Phet (MRT Blue Line), Exit 3, about 1 min walk"
+
+sources:
+  - url: https://www.visitthailandtoday.com/markets-shopping/bangkok/or-tor-kor-market
+    title: "Or Tor Kor Market (Visit Thailand Today, updated Oct 2026)"
+    checked: 2026-11-12
+  - url: https://www.nomadotravel.app/en/attractions/or-tor-kor-market
+    title: "Or Tor Kor Market: Bangkok's Best Fresh Market (Nomado Travel)"
+    checked: 2026-11-12
+  - url: https://theworldofstreetfood.com/2024/05/duck-and-rice-at-or-tor-kor-market.html
+    title: "Duck and Rice at Or Tor Kor Market (The World of Street Food, May 2024)"
+    checked: 2026-11-12
+  - url: https://tastythailand.com/?p=23276
+    title: "What to eat at Or Tor Kor market (Tasty Thailand, 2017)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Or_Tor_Kor_Market
+    title: "Or Tor Kor Market (Wikipedia): opened 1974, run by the Marketing Organization for Farmers, CNN top-10 fresh markets 2017"
+    checked: 2026-11-12
+  - url: "https://www.mof.or.th/contact?m_id=7&sub_id=35"
+    title: "Marketing Organization for Farmers (อ.ต.ก.), official contact page: MRT Kamphaeng Phet Exit 3"
+    checked: 2026-11-12
+  - url: https://thethaiger.com/guides/your-ultimate-guide-to-durian-in-thailand
+    title: "Your ultimate guide to durian in Thailand (Thaiger): main season April–August"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours differ by source (06:00–18:00 per Visit Thailand Today, Oct 2026; 06:00–20:00 per Nomado). The duck-rice price is from May 2024 and the pork and oyster prices are visitor reports quoted by Visit Thailand Today, so add a few baht. Commons has only one free photo of the market (a portrait close-up of a garlic stall), so the hero is typographic."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Fruit polished like jewellery, durian sealed in trays, and a food court that locals actually lunch in."
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: Weekday morning
+    extra:
+      - { label: Haggling, value: "No: prices are marked", detail: Not a bargaining market }
+      - { label: Run by, value: A state farmers' agency, detail: "Marketing Organization for Farmers, here since 1974" }
+  - type: highlights
+    items:
+      - title: The food court
+        text: "The cooked-food hall sells curries, rice dishes, soups and grilled chicken. Roast duck on rice costs **฿60**, or ฿80 for a large plate."
+      - title: Fruit on display
+        text: "The fruit is the main attraction, and durian (main season is April–August, so less of it in January) comes **pre-portioned in sealed trays**, so you can try it without buying a whole fruit."
+      - title: A ranked market
+        text: "In 2017 CNN listed it among the **world's top 10 fresh markets**. It is a clean, orderly hall, not a muddy wet market."
+      - title: One stop on the MRT
+        text: "Exit 3 of Kamphaeng Phet station comes up beside the market. Pair it with a Chatuchak weekend morning."
+  - type: prose
+    title: Why a market earns a day
+    dropcap: true
+    text: |-
+      Or Tor Kor is a showcase for Thai produce: fruit and fresh ingredients sorted, labelled and priced. It is run by the Marketing Organization for Farmers, a state agency, and has traded here since 1974.
+
+      The budget trick is to eat lunch, not shop. Food court plates cost about what you'd pay anywhere in the city, a little more than a street stall. The fruit is the premium part: a 2017 comparison found mangosteen here at about ฿250 a kilo against ฿100 at an ordinary market. Buy one portion to taste, not a bag.
+  - type: menu
+    title: What to try
+    items:
+      - name: Roast duck on rice
+        name_local: ข้าวหน้าเป็ด
+        price_local: 60
+        price_brl: 9.89
+        note: "With duck gravy and kale. Large plate ฿80 (May 2024 price)."
+        tag: must-try
+      - name: Crispy pork with Chinese kale
+        name_local: คะน้าหมูกรอบ
+        price_local: 100
+        price_brl: 16.49
+        note: Price reported by recent visitors.
+      - name: Oyster omelette
+        name_local: หอยทอด
+        price_local: 70
+        price_brl: 11.54
+        note: Price reported by recent visitors.
+      - name: Thai desserts
+        name_local: ขนมไทย
+        price_local: 50
+        price_brl: 8.24
+        note: "Typically ฿50–120 a portion."
+        tag: cheap
+      - name: Durian, sealed tray
+        name_local: ทุเรียน
+        note: Sold pre-portioned; price depends on variety and weight.
+      - name: Mango sticky rice
+        name_local: ข้าวเหนียวมะม่วง
+        note: A favourite here; no current price found.
+    note: "Prices are from 2024–2026 reports. Mangoes to look for: **Nam Dok Mai** and **Khiao Sawoei**."
+  - type: cost_breakdown
+    items:
+      - { label: Roast duck on rice, local: 60, brl: 9.89 }
+      - { label: One Thai dessert, local: 50, brl: 8.25 }
+  - type: map
+    note: "Take the MRT Blue Line to **Kamphaeng Phet** and leave by **Exit 3**: the market is next to the exit."
+  - type: tips
+    variant: insider
+    items:
+      - "Eat in the food court, then buy **one** sealed durian tray to try. That's the cheap way to taste the premium fruit."
+      - "Weekends get crowded. Come on a weekday morning to look around in peace."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Fruit here costs much more than at an ordinary market. Don't buy your daily fruit here, buy it on the street."
+      - "Each stall keeps its own hours, so a late-afternoon visit can find some already shut. Come for lunch."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; about 2 rainy days in the month
+    note: "The market and food court are under a roof, so the midday heat is bearable. Mornings are the most pleasant time to come."
+    wear: Light clothes; the MRT and malls are air-conditioned, so bring a thin layer
+  - type: pairs_well
+    items:
+      - { id: chatuchak-weekend-market, note: "Right next door: do both on a weekend morning" }
+      - { id: jodd-fairs-rama-9, note: "Same MRT line, for dinner the same evening" }

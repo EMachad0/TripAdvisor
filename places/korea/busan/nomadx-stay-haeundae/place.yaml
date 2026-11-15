@@ -1,0 +1,147 @@
+id: nomadx-stay-haeundae
+name: "NOMADX Stay (Nomad Live Hostel)"
+short_name: NOMADX Stay
+country: korea
+city: busan
+area: Haeundae · Jangsan
+category: stay
+tags: [hostel, social, co-living, capsule, free-breakfast, gym, haeundae]
+kind: Stay
+why: "Co-living hostel in Haeundae with Beer Day, pizza and movie nights, beach runs and free breakfast. ₩36,383 a dorm bed with tax; far from the old town."
+
+cost:
+  local: 36383
+  currency: KRW
+  brl: 151.21
+  note: "14-bed single-sex dorm, Sun–Thu 10–19 Jan 2027, Hostelworld ₩33,075 + 10% tax (Fri/Sat ₩46,778 with tax), seen 12 Nov"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Reception 08:00–23:00 · check-in 15:00–23:00 · check-out 08:00–11:00 · quiet hours 23:00–08:00"
+  winter: "No winter rules on the Hostelworld listing. On 12 Nov, 9–14 dorm beds per room were on sale every night 10–19 Jan 2027: ₩33,075 Sun–Thu, ₩42,525 Fri 15 and Sat 16 Jan, plus 10% tax; free cancellation until 15 days before each night."
+
+location:
+  address: "11F, 88 Jwadong-ro, Haeundae-gu, Busan"
+  address_local: "부산광역시 해운대구 좌동로 88 울트라타워빌딩 11층"
+  lat: 35.17207
+  lng: 129.17491
+  nearest_transit: "Jangsan (Line 2, eastern terminus), about 300 m"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/NOMADX-Stay/Busan/330679?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+    title: "NOMADX Stay on Hostelworld, date search 11–12 Jan 2027 (KRW): bed prices, facilities, events, house rules, rating 9.6 (85), reviews"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/330679/availability/?guests=1&num-nights=1&date-start=2027-01-16&currency=KRW&application=web"
+    title: "Hostelworld availability feed (change date-start): 10–19 Jan read nightly; Sat 16 Jan dorm ₩42,525, capsule ₩56,700"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/330679/?currency=KRW&application=web"
+    title: "Hostelworld property feed, house rules: 10% tax not included, quiet hours 23:00–08:00, reception 08:00–23:00, payment on arrival"
+    checked: 2026-11-12
+  - url: https://www.hostelworld.com/hostels/p/330679/nomad-live-hostel/
+    title: "Nomad Live hostel, Hostelworld property page: address, atmosphere score, events, October 2026 reviews"
+    checked: 2026-11-10
+  - url: "https://www.openstreetmap.org/?mlat=35.17207&mlon=129.17491#map=17/35.17207/129.17491"
+    title: "OpenStreetMap: 울트라타워빌딩, 88 Jwadong-ro, Haeundae-gu (the building)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Jangsan_station
+    title: "Jangsan station (Wikipedia): eastern terminus of Busan Metro Line 2, in Jwa-dong"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Busan
+    title: Busan (Wikipedia), January climate normals 1991–2020
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Prices for 10–19 Jan read 12 Nov (feed with curl); rating from Hostelworld only (other sites block bots). Hostelworld prices exclude a 10% tax (house rules); the page shows them with tax added. House rules now say reception to 23:00 (22:00 earlier). The 300 m to Jangsan is measured on OpenStreetMap. Whether the events run in January is not stated. No free photo of the hostel exists."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "A ping-pong table, a 180-inch movie screen and a beach run after dark, at the quiet end of Haeundae."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "15:00–23:00", detail: "Door code by email after online pre-check-in" }
+      - { label: Vibe, value: "Social, not a party hostel", detail: "Events and a games lounge; many guests are digital nomads" }
+      - { label: Breakfast, value: "Free, 08:00–11:00", detail: "Continental, plus a shared kitchen" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: 14-bed single-sex dorm
+        local: 36383
+        brl: 151.21
+        note: "Sun–Thu nights 10–19 Jan (e.g. Mon 11): ₩33,075 + 10% tax. Fri/Sat ₩46,778 with tax"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/NOMADX-Stay/Busan/330679?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+      - label: Capsule in a 24-bed single-sex room
+        local: 48510
+        brl: 201.61
+        note: "₩44,100 + 10% tax (Fri/Sat ₩62,370 with tax); capsule with its own code lock, per a review"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/NOMADX-Stay/Busan/330679?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+      - label: Single private room, shared bathroom
+        local: 64680
+        brl: 268.81
+        note: "₩58,800 + 10% tax (Fri/Sat ₩83,160 with tax); loft layout with a desk: the work-night pick"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/NOMADX-Stay/Busan/330679?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+    rating:
+      score: 9.6
+      out_of: 10
+      source: Hostelworld
+      reviews: 85
+      atmosphere: 8.9
+      checked: 2026-11-12
+    social:
+      - "Hostel events listed as **Pizza Day, Beer Day, Cinema Day** and more, plus Night Beach Running, Morning Hiking and Songjeong surfing."
+      - "Main lounge with **ping pong, billiards and darts**, and a Sunday movie night on a 180-inch screen."
+      - "Oct 2026 reviews: \"both VERY social and VERY private\", a \"huge open concept kitchen to meet people\", and a Brazilian guest praising the volunteers' activities."
+      - "It sells itself as a co-living and co-working hostel, so part of the crowd is working on laptops, not going out."
+    good_to_know:
+      - "Dorms and capsule rooms are **male-only or female-only**."
+      - "Reception only **08:00–23:00**. Arriving after 23:00, leave your arrival time; a guide letter with your door code waits at the desk."
+      - "An English pre-check-in link arrives by email 3 days before; finish it to get a temporary door code."
+      - "Free: breakfast 08:00–11:00, the 24-hour gym on the 2nd floor and a co-working lounge 5 minutes away (register at the desk)."
+      - "**Night shifts:** quiet hours 23:00–08:00; no source says the lounge or co-working space opens 21:00–06:00. Ask, or take the single room with a desk."
+      - "Pay on arrival by card, debit card or Apple/Samsung Pay; the 10% tax is added to the bill."
+      - "Free toiletries (toothbrush, shampoo, shower gel, slippers). Laundry room and a soundproof music room with drums, guitar and piano."
+      - "No children. No curfew."
+  - type: highlights
+    items:
+      - title: Something every evening
+        text: "The listing promises daily events (**Beer Day, Pizza Day, Cinema Day**) and outdoor ones like night runs on the beach and surfing at Songjeong."
+      - title: Breakfast and a gym, free
+        text: "A continental breakfast runs **08:00–11:00** every day, and the 24-hour gym on the 2nd floor costs nothing after you register."
+      - title: Capsules with storage
+        text: "If ₩12,127 more (with tax) is worth it, the capsule beds have big wardrobes; one October guest said his capsule had its own code and a fan that muffled night noise."
+      - title: Top scores
+        text: "**9.6 out of 10** from 85 reviews on Hostelworld, with 9.9 for cleanliness, facilities and value, and 8.9 for atmosphere."
+  - type: prose
+    title: Is it worth the ride out?
+    text: |-
+      The social side is organised: games in the lounge, a movie night, beer and pizza days, group runs and hikes. Reviewers in October 2026 describe it as easy to meet people and easy to hide when you want to.
+
+      The trade-off is location. It sits by **Jangsan**, the last stop at the eastern end of Metro Line 2, and Hostelworld puts it about 9 km from the city centre. Jagalchi and the old town are on the other side of the city. It suits a plan built around Haeundae, Centum City and the east coast; for a Nampo-dong plan, look elsewhere.
+
+      A weeknight dorm bed is ₩33,075 on Hostelworld, which adds 10% tax at the hostel: **₩36,383 (R$151.21)**. For the night shifts, the quiet hours (23:00–08:00) make the dorm a bad desk; the single room with a desk costs ₩64,680 with tax.
+  - type: map
+    note: "The hostel is on the 11th floor of the Ultra Tower building, about 300 m from Jangsan station (Line 2)."
+  - type: tips
+    variant: insider
+    items:
+      - "Ask at check-in which events run that week: the listing names them but not the January schedule."
+      - "Register at the front desk on day one for the free gym and the co-working lounge."
+      - "Arriving late from Seoul? Do the online pre-check-in so the door code is already in your inbox."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Hostelworld shows prices **without the 10% tax**, added at the hostel; this page's prices include it."
+      - "Reception closes at 23:00. Without the pre-check-in, a late arrival can leave you at a locked door."
+      - "A few recent reviews mention **thin mattresses** (Hostelworld's review summary)."
+  - type: weather
+    temp_low_c: 0
+    temp_high_c: 8
+    conditions: Cool, dry and sunny, often windy
+    note: "Busan's January averages run from about 0 °C at night to 8 °C by day, much milder than most of Korea. Beach runs in the dark will be cold; everything else here is indoors."
+    wear: Windproof jacket, layers for the evening events
+  - type: pairs_well
+    items:
+      - id: spa-land-centum-city
+        note: "Centum City is also on Metro Line 2"

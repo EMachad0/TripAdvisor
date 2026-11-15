@@ -1,0 +1,32 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: signpost
+  title: File:Nintendo ニンテンドーミュージアム着いた！ (55578677986).jpg
+  author: Nori Norisa
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nintendo_%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0%E7%9D%80%E3%81%84%E3%81%9F%EF%BC%81_(55578677986).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/92/Nintendo_%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0%E7%9D%80%E3%81%84%E3%81%9F%EF%BC%81_%2855578677986%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  width: 5712
+  height: 4284
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: museum-building
+  title: File:Nintendo Museum Entrance.jpg
+  author: Nagomijirap
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nintendo_Museum_Entrance.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c0/Nintendo_Museum_Entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nintendo Museum
+  width: 3302
+  height: 1960
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons

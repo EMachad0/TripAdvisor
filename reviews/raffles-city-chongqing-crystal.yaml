@@ -1,0 +1,19 @@
+# Independent review of raffles-city-chongqing-crystal. Written by `./atr review`; do not edit by hand.
+id: raffles-city-chongqing-crystal
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 676e872518626efbef832a2245583a8ca65d327664abd36194d20d683e69b273
+facts:
+  supported: 2
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: "The page now says plainly that the 10:00–22:00 daily hours are unconfirmed, but they still rest on one undated 2025 reseller article. The traveler has fixed windows: before the 20:00 work shift, Dec 28–31."
+    evidence: "No official or recent source for the hours was added, so the earlier finding's fallback fix was used: pitfalls item blocks[..].items[1] (place.yaml line 129) now says \"The 10:00–22:00 hours come from one 2025 reseller listing. On a work day, check the closing time at the L1 desk or on Qunar before you plan around it.\" hours.summary (line 29) also says the hours are not confirmed by the operator. The text matches the cited source, https://www.dahepiao.com/lvyounews1/20250725522805.html (2025-07-25): \"10:00-22:00开放\", entrance on L1 beside Gate 7."
+rereview_of: c8b5e79e3320173103839c93d9accf0a09ec227faa342e407637057c1767643f
+summary: The one earlier should is resolved. The page now says plainly that the 10:00–22:00 hours come from one 2025 reseller listing, and it tells the traveler to check the closing time at the L1 desk or on Qunar before their pre-shift window. The new line adds no unsupported facts, and I found no blockers in the unchanged content.
+model: claude-opus-5-5
+cost_usd: 0.247

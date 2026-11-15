@@ -1,0 +1,152 @@
+id: suwon-hwaseong-fortress
+name: "Suwon Hwaseong Fortress Wall Walk"
+short_name: Hwaseong Fortress
+name_local: 수원 화성
+name_romanized: Suwon Hwaseong
+country: korea
+city: suwon
+area: Old walled city
+category: day-trip
+fame: popular
+tags: [cold-outdoors, unesco, fortress, free, subway-reachable, architecture]
+kind: Do
+why: "Walk a free 5.7 km UNESCO fortress wall with gates, watchtowers and city views, about 50 min from Seoul Station on Line 1. ₩2,000 adds King Jeongjo's palace."
+
+cost:
+  local: 2000
+  currency: KRW
+  brl: 8.31
+  note: "The wall is free; ₩2,000 is the Hwaseong Haenggung palace ticket. ₩4,000 combo adds two museums"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Half a day (5.7 km wall loop + palace)
+best_time: "Afternoon, finishing on the wall at dusk"
+
+book_ahead:
+  required: false
+  notes: "Nothing to book for the wall or palace. The tourist trolley (화성어차) is reserved on the Suwon Cultural Foundation website, according to a Korea tourism listing."
+
+hours:
+  summary: "Wall: open all the time, night walks allowed. Haenggung palace 09:00–18:00, last entry 1 h before closing"
+  winter: "No winter closures: the foundation lists the fortress and palace as open every day of the year. The palace night opening ran only 1 May – 1 Nov in 2026, so in January the palace shuts at 18:00. Archery and the trolley do not run on rainy or snowy days. Free entry on the last Wednesday of the month falls on 27 Jan 2027, after your Korea days, so you pay ₩2,000."
+
+location:
+  address: "Paldalmun Gate, near 16 Jeongjo-ro 777beon-gil (Paldalmun info booth), Paldal-gu, Suwon"
+  address_local: 경기도 수원시 팔달구 정조로777번길 16 (팔달문 안내소)
+  lat: 37.27758
+  lng: 127.01676
+  nearest_transit: "Suwon Station (Line 1 / Suin–Bundang), exit 9, then bus to 팔달문"
+
+sources:
+  - url: https://www.swcf.or.kr/?p=8
+    title: "Suwon Cultural Foundation (Korean): fees, hours, free-entry days, night opening, trolley and archery fees, info booths"
+    checked: 2026-11-12
+  - url: https://www.swcf.or.kr/english/?p=10
+    title: "Suwon Cultural Foundation (English): Hwaseong Fortress, free entry, hours, integrated ticket"
+    checked: 2026-11-12
+  - url: https://www.swcf.or.kr/?p=55
+    title: "Suwon Cultural Foundation (Korean): directions by subway and bus, Gangnam express bus 3000"
+    checked: 2026-11-12
+  - url: https://www.swcf.or.kr/?p=58
+    title: "Suwon Cultural Foundation (Korean): about Suwon Hwaseong, wall circumference 5,744 m"
+    checked: 2026-11-12
+  - url: https://www.swcf.or.kr/english/?p=13&mode=view&idx=334&rIdx=99999204
+    title: "Suwon Cultural Foundation (English): traditional archery, 10 arrows ₩3,000, winter hours"
+    checked: 2026-11-12
+  - url: https://www.swcf.or.kr/english/?p=13&mode=view&idx=335&rIdx=99999203
+    title: "Suwon Cultural Foundation (English): Hwaseong tourist trolley, fares, Monday closure"
+    checked: 2026-11-12
+  - url: https://ktriptips.com/eng/tourspot/264403
+    title: "K-Trip Tips: Hwaseong Fortress Tourist Trolley (updated 11 Nov 2026)"
+    checked: 2026-11-12
+  - url: https://mileasia.com/korea/seoul-to-suwon/
+    title: "MileAsia: Seoul to Suwon (Jun 2026), Line 1 about 50 min from Seoul Station, no transfer"
+    checked: 2026-11-12
+  - url: https://ko.wikipedia.org/wiki/%EC%88%98%EB%8F%84%EA%B6%8C_%EC%A0%84%EC%B2%A0
+    title: "수도권 전철 (Korean Wikipedia): base fare ₩1,550 for 10 km, then ₩100 per 5 km up to 50 km"
+    checked: 2026-11-12
+  - url: https://ko.wikipedia.org/wiki/%EC%88%98%EC%9B%90%EC%97%AD
+    title: "수원역 (Korean Wikipedia): 41.5 km from Seoul Station on the Gyeongbu Line"
+    checked: 2026-11-12
+  - url: https://www.khan.co.kr/article/202606152045015
+    title: "Kyunghyang (15 Jun 2026): Seoul-area train base fare is ₩1,550"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Hwaseong_Fortress
+    title: Hwaseong Fortress (Wikipedia)
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Suwon
+    title: "Suwon climate normals 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Fees and hours: Suwon Cultural Foundation pages, undated; English and Korean pages disagree on last palace entry (17:30 vs 17:00). Line 1 time: one guide (Jun 2026). Fare is my calculation from the fare rule (₩1,550 + ₩100 per 5 km past 10 km, 41.5 km = ₩2,250), not a quoted fare. The 19:00 latest-departure advice is my estimate. Weather: Wikipedia."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: wall-walk
+    hook: An 18th-century king's wall wraps a whole city centre, and you can walk all of it for free.
+    focus: center
+  - type: quick_facts
+    time_needed: Half a day (5.7 km wall loop + palace)
+    best_time: "Afternoon, finishing on the wall at dusk"
+    extra:
+      - { label: Wall entry, value: Free, detail: "Open at all hours; night walks allowed" }
+      - { label: From Seoul Station, value: "Line 1, ≈ 50 min", detail: "≈ ₩2,250 each way with T-money, no transfer" }
+  - type: highlights
+    items:
+      - title: A wall you can walk end to end
+        text: "The fortress wall runs **5.74 km** around old Suwon, with four main gates and dozens of watchtowers, command posts and sluice gates along it. It costs nothing to walk."
+      - title: Korea's biggest gate
+        text: "**Janganmun**, the north gate, is the largest gate in Korea. **Paldalmun**, the south gate, now sits alone in the middle of a traffic roundabout."
+      - title: A king's palace for ₩2,000
+        text: "**Hwaseong Haenggung** was King Jeongjo's temporary palace inside the walls. Entry is ₩2,000, or ₩4,000 with the Suwon Museum and Suwon Hwaseong Museum."
+      - title: Shoot 10 arrows
+        text: "Traditional Korean archery at **Yeonmudae** costs ₩3,000 for 10 arrows, 09:30–17:00 in winter, but not on rainy or snowy days."
+  - type: prose
+    title: Built in two years, rebuilt from the plans
+    dropcap: true
+    text: |-
+      King Jeongjo of Joseon had Hwaseong built **from 1794 to 1796**, to a design by the scholar Chŏng Yagyong. It became a UNESCO World Heritage Site in 1997.
+
+      Much of the wall was damaged in the 20th century. It was rebuilt in the 1970s from the **Hwaseong Seongyeok Uigwe**, the 1801 construction record that drew every structure in detail. That is why the restoration is so exact.
+  - type: gallery
+    images:
+      - { file: paldalmun, caption: "Paldalmun, the south gate, alone in its roundabout" }
+      - { file: wall-gate, caption: Stone walkways and a gate tunnel along the wall }
+      - { file: banghwa-pond, caption: "Looking out from a pavilion over the pond below the wall" }
+  - type: quote
+    variant: vibe
+    text: "Crunching along cold stone battlements, tiled roofs below, apartment towers beyond."
+  - type: cost_breakdown
+    items:
+      - { label: Fortress wall, local: 0, brl: 0 }
+      - { label: Hwaseong Haenggung palace, local: 2000, brl: 8.31 }
+      - { label: "Combo instead: palace + 2 museums (extra over palace)", local: 2000, brl: 8.31, optional: true }
+      - { label: "Archery, 10 arrows", local: 3000, brl: 12.47, optional: true }
+      - { label: Hwaseong tourist trolley, local: 6000, brl: 24.94, optional: true }
+      - { label: "Line 1, Seoul Station ↔ Suwon, both ways", local: 4500, brl: 18.70, estimate: true, optional: true }
+    note: "Hanbok wearers get in free."
+  - type: map
+    note: "From **Suwon Station exit 9** (매산시장 stop), buses 11, 13, 35 and others run to the **팔달문** stop, then it's 5 minutes on foot. From Gangnam, express bus **3000** stops at 팔달문 too."
+  - type: tips
+    variant: insider
+    items:
+      - "The wall never closes and night walks are allowed, so you can start at Paldalmun after lunch and end on the wall after dark."
+      - "On a work day, start by early afternoon and leave Paldalmun by about **19:00**. That covers the bus to Suwon Station plus ~50 min on Line 1, with a buffer before a 21:00 shift (my estimate, not a timetable)."
+      - "The **₩4,000 combo** covers the palace and two museums, but it is not sold on the first Monday of the month, when the museum closes."
+      - "Wear **hanbok** and the palace is free. The other free day, the last Wednesday of the month, is 27 Jan: after you leave Korea."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The **trolley** is closed on Mondays and stops on rainy or snowy days. Archery also stops in rain or snow."
+      - "The palace closes at 18:00 in January: the summer night opening ended on 1 Nov."
+  - type: weather
+    temp_low_c: -7
+    temp_high_c: 3
+    conditions: "Cold and dry, with occasional snow"
+    note: "January normals for Suwon (1991–2020). The wall is fully exposed, with no shelter between towers, and the climbs up Paldalsan hill are steep. In snow the trolley and archery stop, but the wall stays open."
+    wear: "Warm layers, gloves, shoes with grip for icy stone steps"
+  - type: pairs_well
+    items:
+      - { id: gyeongbokgung-palace, note: "The Seoul palace of the same Joseon dynasty, for a second history day" }
+      - { id: inwangsan-city-wall-hike, note: "Seoul's own city wall, if you want another wall walk" }

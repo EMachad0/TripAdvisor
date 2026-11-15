@@ -1,0 +1,25 @@
+# Independent review of honke-daiichi-asahi-kyoto. Written by `./atr review`; do not edit by hand.
+id: honke-daiichi-asahi-kyoto
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 25fd3bc3e542bd584487726779d2ccce590638f1c97fed0900f86756b633b876
+facts:
+  supported: 12
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: sources
+    problem: "The only official source listed (honke-daiichiasahi.info/contents/) failed with a TLS hostname-mismatch error, and the page itself says it shows older prices. As a result, the prices, hours, Thursday closing and address rest on a blog (iekei.shop) and an article about a different branch. The official .com site does open: confidence_note says it 'blocked automated access', which is wrong."
+    evidence: "The official pages are now listed as sources, and both opened (HTTP 200). https://www.honke-daiichiasahi.com/shop.html lists 本店 \"6:00～25:00\", \"定休日 木曜日\", \"〒600-8213 京都府京都市下京区東塩小路向畑町845\", ラーメン 980円, 特製ラーメン 1,230円, 餃子 350円, 肉多め +250円, メンマラーメン 1,130円 and ミニラーメン 830円. https://www.honke-daiichiasahi.com/kodawari.html says \"九条ネギ本来の旬は冬場。11月から2月ごろです。\" confidence_note was corrected. One leftover: the unchanged menu note (blocks[7].note) still says 'Prices from 2026 reports; the official menu page lags behind'. The official page now shows the same prices, so this line is stale."
+  - field: blocks[2].items[0]
+    problem: The highlight 'The Kyoto original' presents this 1947 shop as the original Kyoto ramen. The page's own source says the rival next door, Shinpuku Saikan, dates from 1938.
+    evidence: "The highlight is now titled 'A 1947 Kyoto classic' and says Shinpuku Saikan is older, from 1938. https://iekei.shop/daiichi-asahi supports this: \"1947年（昭和22年）創業\" and the 1938 stall is described as the predecessor of 新福菜館. The railway-worker origin is supported by the same page: \"始発前に出勤する国鉄駅員をターゲットに早朝営業を開始\"."
+  - field: blocks[3].text
+    problem: The prose says 'every topping change is free', but extra meat costs more. Only the onion and bean-sprout extras and the seasoning adjustments are free.
+    evidence: The prose now says extra onion and sprouts and every seasoning change are free, and extra meat is ¥250. https://iekei.shop/daiichi-asahi lists six free customisations (麺の硬さ, スープの脂, 醤油の濃さ, チャーシュー部位, ネギ大盛, もやし大盛). The official https://www.honke-daiichiasahi.com/shop.html lists "肉多め +250円".
+rereview_of: 1d46678b6d64a2a81ac42f8cee191c5706de61b0c7f90d1a5d9ee806c38a8dfc
+summary: "All three earlier findings are resolved. Prices, hours, the Thursday closing and the address now come from the official main-shop page, and each matches it. The history and free-customisation claims match the iekei.shop guide. No new blockers or shoulds. Optional cleanup: the unchanged menu note still says the official menu page lags behind, which is now stale."
+model: claude-opus-5-5
+cost_usd: 0.369

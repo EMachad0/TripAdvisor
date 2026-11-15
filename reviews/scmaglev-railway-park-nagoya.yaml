@@ -1,0 +1,22 @@
+# Independent review of scmaglev-railway-park-nagoya. Written by `./atr review`; do not edit by hand.
+id: scmaglev-railway-park-nagoya
+type: place
+reviewed: 2026-11-14
+verdict: pass
+content_hash: a171d133cff3b8e0ad0271c4127eef64dd1c2380ea832feea76b0036f1c1d4b7
+facts:
+  supported: 7
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].text
+    problem: The museum card rests on "You asked for bullet trains", but neither ./atr taste nor anything in feedback/ (swipes, questions, notes) records a request for bullet trains or the Shinkansen. With museum scored 0 ("only a Louvre-level, must-go museum"), the page's case for clearing that bar depends on a traveler request that has no record.
+    evidence: "blocks[3].text now leads with what can be shown: no extra sightseeing day and ¥3,670 (R$129.92). That total matches cost_breakdown (¥1,200 entry + ¥720 Aonami + ¥1,750 stopover), and 3,670 × 0.0354 = 129.92. The bullet-train line is now a secondary point attributed to the planner, and confidence_note says the request came through the planner on 14 Nov, not the game. feedback/ still has no record of that request, so it remains unverified, but the case for clearing the museum=0 bar no longer depends on it."
+  - field: best_time
+    problem: The whole plan is built on Fri 29 Jan as the Tokyo→Osaka move, but config/trip.yaml says the Tokyo stay "may become 10 if the Daikoku retry moves to Fri Jan 29". If that happens, the 07:30 Nozomi and the 10:00 museum opening clash with a Daikoku night and a later departure. The page never mentions this.
+    evidence: "blocks[8].items[3] adds the Daikoku conflict and the Sat 30 Jan fallback (Ado weekend: stop only if the show time leaves the afternoon free). This matches config/trip.yaml (Daikoku retry may move to Jan 29; 'Ado live in Osaka Jan 30–31'). Official calendar https://museum.jr-central.co.jp/en/facilities/_pdf/calendar_en_2026.pdf, January 2027: closed only on 1, 5, 12, 19 and 26 Jan, so Fri 29 and Sat 30 are open; 2 Feb is closed."
+rereview_of: 935664f52fba1fda0587edcd41fed1c624467a74ca6ea15c9c873ad39687b251
+summary: Both earlier findings are fixed. The museum card now rests on its verifiable cost and no-extra-day case, and the Daikoku/Sat 30 Jan fallback matches the official 2027 calendar and trip.yaml. The new JMA source supports the weather numbers exactly (Jan 9.3/1.1 °C, 50.8 mm, 174.5 h sun, 4 cm snow). Only the planner-relayed bullet-train request has no record in feedback/, and it is no longer what the page's case depends on.
+model: claude-opus-5-5
+cost_usd: 0.475

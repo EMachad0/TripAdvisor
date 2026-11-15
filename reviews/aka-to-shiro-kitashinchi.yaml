@@ -1,0 +1,19 @@
+# Independent review of aka-to-shiro-kitashinchi. Written by `./atr review`; do not edit by hand.
+id: aka-to-shiro-kitashinchi
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 023879b41afae139f68e032031545c677d2caf4a36f78db17459ca8e591ca4bb
+facts:
+  supported: 9
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: book_ahead.notes; blocks[3].steps[2].text
+    problem: The page says seats are "held for 2 hours". TableCheck says the meal is limited to 2 hours, and the booking may be cancelled 15 minutes after the reserved time. A traveler who reads "held for 2 hours" could arrive late thinking the seat is safe.
+    evidence: 'book_ahead.notes now says the meal is capped at 2 hours and the booking may be cancelled 15 min after the booked time, with the phone number; blocks[3].steps[2] says the seat is held only 15 minutes. https://www.tablecheck.com/en/shops/sushi-akatoshiro/reserve — "If we cannot contact you within 15 minutes of your scheduled reservation time, we may have to cancel your reservation"; "Seating is limited to 2 hours for meals."; "For inquiries by phone: 06-6442-1277"'
+rereview_of: 1ff5f77f6271242eb88724c1e43963eacb3c5f664a1d15a7cc9570d5a94ce33a
+summary: "The 2-hour/15-minute wording is fixed, and the source supports it. The rest of the diff also checks out: the ¥11,000 course with 4 dishes and 10 nigiri, the 2-day minimum, booking for 1 in English on TableCheck, and the official site's rule that holiday weeks may close Monday or Saturday (\"※祝日が平日にある週は、月曜または土曜をお休みとする場合があります\"). Nothing is left open."
+model: claude-opus-5-5
+cost_usd: 0.336

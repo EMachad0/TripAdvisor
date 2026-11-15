@@ -1,0 +1,141 @@
+id: soi-cowboy
+name: "Soi Cowboy"
+name_local: ซอยคาวบอย
+name_romanized: Soi Khaoboi
+country: thailand
+city: bangkok
+area: "Asok · Sukhumvit"
+category: nightlife
+fame: popular
+must_do: red-light-district
+tags: [red-light-district, go-go-bar, neon, weekend-night, walk-through]
+kind: Do
+why: "150 m of pink and blue neon and around 40 go-go bars, 2 min from the Skytrain. Walk it once, have one beer at an open bar and watch the street."
+
+cost:
+  local: 200
+  currency: THB
+  brl: 33.4
+  note: "One beer at an open-front bar (2026 guides: ฿100–350). Walking the street costs nothing"
+fx: { rate: 0.167, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "45 min – 1.5 h"
+best_time: "Sat or Sun night, 21:00–00:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Bars about 19:00–02:30, every night; happy hours early (e.g. 19:00–20:30 at some bars)"
+  winter: "January is high season, so expect a full street. No seasonal closures found. Shops (7-Eleven) sell alcohol 11:00–24:00 only, under the 2026 rules."
+
+location:
+  address: "Soi Cowboy, between Sukhumvit Soi 21 (Asok Montri Rd) and Soi 23, Khlong Toei Nuea, Watthana, Bangkok 10110"
+  address_local: "ซอยคาวบอย ระหว่างซอยสุขุมวิท 21 (อโศกมนตรี) กับซอยสุขุมวิท 23 แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพฯ 10110"
+  lat: 13.737
+  lng: 100.56214
+  nearest_transit: "BTS Asok or MRT Sukhumvit, about 2 min walk"
+
+sources:
+  - url: https://en.wikipedia.org/wiki/Soi_Cowboy
+    title: "Soi Cowboy: length, location, history (Wikipedia)"
+    checked: 2026-11-13
+  - url: https://www.khaosanroad.com/articles/party-streets-in-bangkok-khao-san-sukhumvit-rca-patpong
+    title: "Top party streets in Bangkok: Soi Cowboy, Nana Plaza, Patpong (khaosanroad.com)"
+    checked: 2026-11-13
+  - url: https://www.bestpricetravel.com/travel-guide/soi-cowboy.html
+    title: "Soi Cowboy Bangkok: travel information 2026 (BestPrice Travel)"
+    checked: 2026-11-13
+  - url: https://pickyourtrail.com/attractions/bangkok/soi-cowboy-bangkok
+    title: "Soi Cowboy Bangkok: entry fees and drink prices 2026 (Pickyourtrail, updated 9 Feb 2026)"
+    checked: 2026-11-13
+  - url: https://www.thaiholidayguide.com/bangkok-nightlife/
+    title: "Bangkok nightlife: scams to avoid (Thai Holiday Guide)"
+    checked: 2026-11-13
+  - url: https://www.nationthailand.com/news/general/40072609
+    title: "Tourist Police step up support for international visitors: hotline 1155 (Nation Thailand)"
+    checked: 2026-11-13
+  - url: https://en.edaily.co.kr/news/eda202606085232/
+    title: "Thailand ends the 14:00–17:00 alcohol sales ban; sales 11:00–24:00 (Edaily, 8 Jun 2026)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Drink prices disagree between 2026 guides (฿100–200 at BestPrice, ฿200–350 at Pickyourtrail), so ฿200 is a middle figure; check the price board before you sit. Closing time (02:30) is from one guide. Nothing specific to 2–9 Jan 2027."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: tilac-neon
+    hook: "One short lane, so much neon it glows pink on your skin, and a bar behind every doorway."
+  - type: quick_facts
+    time_needed: "45 min – 1.5 h"
+    best_time: "Sat/Sun, 21:00–00:00"
+    extra:
+      - { label: Slot, value: Weekend night, detail: "Sat 2, Sun 3 or Sat 9 Jan; work nights start at 19:00" }
+      - { label: Length, value: "150 m, ~40 bars", detail: "Mostly go-go bars, a few open-air beer bars" }
+      - { label: Entry, value: "Free to walk", detail: "Some clubs charge a cover; ask first" }
+  - type: highlights
+    items:
+      - title: The photogenic one
+        text: "Of Bangkok's three foreigner-oriented bar strips (with Patpong and Nana), Soi Cowboy is the **short, neon-lit** one: a 150 m lane you can walk end to end in a few minutes."
+      - title: Easy to reach, easy to leave
+        text: "**2 minutes from BTS Asok and MRT Sukhumvit**, so you can drop in for an hour and be back on the train before midnight."
+      - title: Watch from an open bar
+        text: "The open-front beer bars let you sit with one drink and watch the street, with full view and an easy exit. No need to go inside a go-go bar at all."
+      - title: Named after a man in a hat
+        text: "A retired US airman, T. G. \"Cowboy\" Edwards, opened one of the first bars here in **1977**. Bridget Jones 2 and *Bangkok Dangerous* filmed scenes on the street."
+  - type: prose
+    title: How to do it as a watcher
+    dropcap: true
+    text: |-
+      Go with people from your hostel. Walk the lane once from the Asok Montri end to Soi 23 and back. Then pick an **open-front bar with a price board outside** and have one beer at a table facing the street. That's the whole experience, and it costs about R$33.
+
+      Inside a go-go bar, staff will sit next to you and suggest a **lady drink**: a drink you buy for a hostess, priced above your own. Saying no is normal. One 2026 guide calls Soi Cowboy fairly straightforward, with staff who rarely push. The "free drinks, special show" bill scams are reported around Patpong and Nana Plaza, a three-floor plaza where you should expect the lady-drink pitch.
+
+      Treat it as a nightlife sight, not a show put on for you: the people working here are not part of the décor, so don't point your phone at them.
+  - type: gallery
+    images:
+      - { file: rio-neon, caption: "Neon signs and bar terraces at night" }
+      - { file: red-strip, caption: "The red end of the lane" }
+      - { file: early-evening, caption: "Early evening, before the crowds" }
+  - type: cost_breakdown
+    items:
+      - { label: "Walk the street", local: 0, brl: 0 }
+      - { label: "One beer at an open bar", local: 200, brl: 33.4, estimate: true }
+      - { label: "A second beer", local: 200, brl: 33.4, optional: true, estimate: true }
+      - { label: "A lady drink, if you buy one", local: 250, brl: 41.75, optional: true, estimate: true }
+  - type: menu
+    title: What things cost (2026 guides)
+    items:
+      - { name: "Beer, typical bar", price_local: 200, price_brl: 33.4, note: "฿100–350 depending on the bar", tag: drink }
+      - { name: "Draft beer, posted price at Kiss", price_local: 110, price_brl: 18.37, note: "Bottle ฿180; one of the pricier bars", tag: cheap }
+      - { name: "Cocktail", price_local: 400, price_brl: 66.8, note: "฿280–550; lounges cost more", tag: drink }
+      - { name: "Lady drink", price_local: 250, price_brl: 41.75, note: "฿180–350, always optional", tag: drink }
+    note: "Ask the price before you order and pay per round if you can. Some clubs charge a cover (up to ฿600 per one guide)."
+  - type: map
+    note: "Enter from **Asok Montri Road (Sukhumvit Soi 21)**, a short walk from BTS Asok and MRT Sukhumvit. **Nana Plaza** is one BTS stop west (BTS Nana, then 7–10 min down Soi 4)."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: weekend night.** Sat 2, Sun 3 or Sat 9 Jan."
+      - "Happy hour (around 19:00–20:30 at some bars) is the cheapest time to sit down, before the street fills."
+      - "Shorts are fine, but some bars frown on singlets and flip-flops."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Anyone outside offering **\"free drinks\" or a \"special show\"** is running a scam; Thai Holiday Guide reports bills of **฿5,000–20,000**."
+      - "Confirm drink prices before ordering and check the bill: a cover charge or extra lady drinks can appear on it."
+      - "Photography inside bars is often not allowed; take your neon photos from the street."
+      - "Trouble with a bill? Call the **Tourist Police on 1155** (24 h, English)."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: warm, clear nights"
+    note: "January evenings are the most comfortable of the year, in the mid-20s °C. Rain is unlikely."
+    wear: "Shorts or light trousers, T-shirt, closed shoes or decent sandals"
+  - type: pairs_well
+    items:
+      - { id: patpong-night-market, note: "Second red-light strip, with a market for cover" }
+      - { id: khao-san-road-night, note: "The backpacker party street, for another weekend night" }

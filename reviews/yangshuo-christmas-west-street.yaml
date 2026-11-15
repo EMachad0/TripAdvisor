@@ -1,0 +1,29 @@
+# Independent review of yangshuo-christmas-west-street. Written by `./atr review`; do not edit by hand.
+id: yangshuo-christmas-west-street
+type: place
+reviewed: 2026-11-10
+verdict: fix
+content_hash: af475617d862adcca31a9329240893fdc9902ce6a35852b2dcb7f830929be10c
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: should
+    field: cost.local
+    problem: The headline cost is R$298 (¥360), and the hero quick facts say "175% of daily budget". Almost all of that is the Dec 26 train to Chongqing, which is inter-city transport, not the price of West Street, which is free. The cost_breakdown block then says "100% of your R$ 170/day China budget" for the same ¥360, so the page gives two different budget shares for one number.
+    evidence: 'Rendered page: hero cost tile "¥360 · 175% of daily budget" vs cost_breakdown footer "100% of your R$ 170/day China budget"'
+    fix: Set cost.local to 0 (the street and night market are free) and keep the ¥20 bus plus ¥340 train as a separate transport line, or at least make both budget percentages agree.
+  - severity: should
+    field: blocks[6] (cost_breakdown) / cost.local
+    problem: The hero cost tile says ¥360 is 175% of the daily budget. The cost_breakdown footer gives 100% of R$ 170/day for the same ¥360 (R$ 298 / R$ 170 ≈ 175%). The curator calls the footer a known platform bug but left it on the page.
+    evidence: 'Rendered page (phone light s01 and s05, desktop dark s03): "¥360 · 175% of daily budget" vs "100% of your R$ 170/day China budget"'
+    fix: Fix or cap-label the platform's cost_breakdown percentage so it matches 175% (for example "175%" with the bar shown full). Until then, add a cost_breakdown note saying the total is about 175% of the daily budget.
+resolved:
+  - field: hours.summary
+    problem: 'Three claims have no source: "open all the time", "bars open in the evening and close late" and "West Street bars stay open as usual" at Christmas. The China Highlights West Street page gives no hours at all.'
+    evidence: hours.summary now reads "A public pedestrian street. Bar hours vary and were not checked". hours.winter and quick_facts now say "an ordinary bar night" and no longer claim the bars "stay open as usual". The unsourced claims are gone, which is the softening the review asked for.
+rereview_of: 070c04a830f2e220b127c882778b5903536da9cb55da14c2a29da7ac9687da86
+summary: "Re-review. The train facts are now correct and match Ctrip's 12 Nov timetable: 12 rows, 10 distinct direct trains, and G3726 11:04→15:43 for ¥340. The hours wording is properly hedged and the new hero photo is a Commons image of West Street (阳朔西街). Finding 1 is still open: the page shows 175% in the hero and 100% in the cost block for the same ¥360, so the verdict stays fix until the two numbers agree."
+model: claude-opus-5-5
+cost_usd: 0.421

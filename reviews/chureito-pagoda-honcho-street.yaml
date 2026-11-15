@@ -1,0 +1,24 @@
+# Independent review of chureito-pagoda-honcho-street. Written by `./atr review`; do not edit by hand.
+id: chureito-pagoda-honcho-street
+type: place
+reviewed: 2026-11-13
+verdict: fix
+content_hash: fb37851317cf3fe20c97c915c79afc0b8c1929087459df56e399644932ee4a98
+facts:
+  supported: 4
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[9].items[2]
+    problem: The new Gekkoji tip tells the traveler to walk from the pagoda to Gekkoji Station and catch the train to Kawaguchiko there. The only cited source gives no walking time or route from Chureito to Gekkoji and says nothing about a train from Gekkoji. Its 7-Eleven section only says to 'make your way instead to Gekkouji Station'. The page's ¥310 fare is for Shimoyoshida, and no source gives the Gekkoji–Kawaguchiko fare.
+    evidence: https://japanstartshere.com/2025/09/04/convenience-store-with-view-of-mt-fuji/ — "instead of walking back to Shimoyoshida Station, make your way instead to Gekkouji Station" (no walking time, no train or fare mentioned)
+    fix: Add a walking time from the park to Gekkoji Station and the Gekkoji–Kawaguchiko fare, both from a source such as Fujikyu's fare table or Fujiyoshida's official guide. Otherwise cut the tip down to what the blog actually says.
+resolved:
+  - field: cost_breakdown.items[1]
+    problem: The new ¥310 Kawaguchiko–Shimoyoshida fare and the '~15 min' and 'IC cards work' claims (also in blocks[1].extra[2], blocks[2].items[3], blocks[3] and blocks[6]) cite only trvlogue, which returned HTTP 429 and could not be opened. Fujikyu Railway's own fare table appears to show ¥310 (IC ¥305), but the page does not cite it, and no openable source gives the 15-minute travel time.
+    evidence: https://www.fujikyu-railway.jp/en/fare/ is now cited. Its fare matrix gives 310 for Shimoyoshida–Lake Kawaguchi, and in its ticket/IC comparison table the 310 ticket fare sits next to 305 IC. The page no longer gives the '~15 min' time (it now says 'a short ride' or '¥310 on a local train'). 'IC cards work' is gone, replaced by the IC fare that Fujikyu's own table shows.
+rereview_of: a1d0f1a495d17328356cf85175cd6682834db81601f196f36989892c9dd2f7bd
+summary: "The earlier finding is resolved: the ¥310 fare (IC ¥305) and the extra charge on express trains now cite Fujikyu Railway's official fare table, and the travel time that no source supported has been removed. One new should: the added Gekkoji Station tip gives a walking route and a train connection that its blog source does not support."
+model: claude-opus-5-5
+cost_usd: 0.403

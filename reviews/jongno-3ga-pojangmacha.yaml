@@ -1,0 +1,21 @@
+# Independent review of jongno-3ga-pojangmacha. Written by `./atr review`; do not edit by hand.
+id: jongno-3ga-pojangmacha
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 65fb9725cb206afa906d1694c9b238f50c453eec8bf87fde9dda498ac5527e9f
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[?].items (work-night tip) / Fits your schedule
+    problem: The page suggests Sat Jan 16 and Sun Jan 17 for a late night, but config/trip.yaml has both days as the Hwacheon trip. A tent night is only realistic after an early return from Hwacheon, or on whichever of the two days is not used for it.
+    evidence: config/trip.yaml korea.notes — "free days Jan 10, Jan 16–17 (Hwacheon), Jan 20 (fly out)"
+    fix: Add a short note that Jan 16–17 is Hwacheon, so pick the evening you are back in Seoul, or Sun Jan 10.
+resolved: []
+rereview_of: b5850f09197aa4b718e8f8cc6e903b9dab5a4d32c0d260c5b7f46ddc7e8d1f26
+summary: "There were no earlier blockers or shoulds to close. The new schedule text matches config/trip.yaml: work nights are Jan 11–15 and 18–19, and Jan 10, 16 and 17 are free. The weekdays are right for 2027: Jan 10 is a Sunday, Jan 16 a Saturday, and the next shift starts Monday Jan 18 at 21:00. Only one nit: the page does not mention that Jan 16–17 is planned for Hwacheon."
+model: claude-opus-5-5
+cost_usd: 0.154

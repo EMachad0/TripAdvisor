@@ -1,0 +1,39 @@
+# Independent review of area jeju. Written by `./atr review`; do not edit by hand.
+id: jeju
+type: area
+reviewed: 2026-11-12
+verdict: fix
+content_hash: c1c465c5b309b530b1659ec68496a5b71253cc4aa8d1d3c9176609d6da89c497
+facts:
+  supported: 18
+  unsupported: 3
+  contradicted: 1
+issues:
+  - severity: blocker
+    field: blocks[1].text
+    problem: The page says a return flight costs about R$320–470 at Kayak's typical fares, but its own numbers give a different range. Two legs at US$37–83 each, at the page's own rate (US$25 = R$140.43), is US$74–166, or about R$415–930.
+    evidence: 'https://www.kayak.com/flight-routes/Seoul-Gimpo-Intl-GMP/Jeju-City-CJU — "Typical prices: $37-$83" (one-way)'
+    fix: Change the range to about R$415–930 for a return, or cite a return fare that supports R$320–470.
+  - severity: should
+    field: blocks[4].items[3]
+    problem: The tip says direct flights go from Jeju to Fukuoka, Osaka, Tokyo and Nagoya. The Wikivoyage text that could be read lists only flights into Jeju from Tokyo Narita and Osaka Kansai; Fukuoka and Nagoya are not there.
+    evidence: https://en.wikivoyage.org/wiki/Jeju — international flights listed only from Tokyo Narita, Osaka Kansai and Chinese cities
+    fix: Name only the routes a source confirms, or cite a schedule or booking search for CJU→Japan around 20 Jan.
+  - severity: should
+    field: blocks[4].items[1]
+    problem: The 11:30 and noon cut-offs are 2024-only rules from a news article. The official site has 2026 notices about Gwaneumsa trail restrictions and its reopening that the page does not reflect.
+    evidence: https://www.koreaherald.com/article/10011029 (17 Nov 2024); https://visithalla.jeju.go.kr/main/main.do — notices dated 2026-06-19 and 2026-09-18 on Gwaneumsa
+    fix: Point the tip to the current winter notice on visithalla.jeju.go.kr and say the times shown are from 2024.
+  - severity: should
+    field: blocks[1].items[0].text
+    problem: "The page says the Yeongsil and Eorimok trails need no permit. No listed source says so: Wikivoyage names the permit only for Gwaneumsa and Seongpanak, and says nothing about the other trails."
+    evidence: https://en.wikivoyage.org/wiki/Hallasan_National_Park — permit stated only for Gwaneumsa and Seongpanak
+    fix: Cite the official reservation guide (visithalla.jeju.go.kr) for which trails need no booking.
+  - severity: nit
+    field: blocks[1].items[1].text
+    problem: The listed sources confirm that the Jeju Volcanic Island and Lava Tubes site is on the UNESCO list, but they do not list Hallasan, Geomunoreum and Seongsan Ilchulbong as its parts.
+    evidence: https://en.wikivoyage.org/wiki/Jeju
+    fix: Add the UNESCO listing page (whc.unesco.org/en/list/1264) as a source.
+summary: "Most facts check out against the listed sources: the flight time and Kayak fares, the 2024 end of the ferries, bus fares, the January normals (3.7/8.6 °C, about 12 wet days), and the Hallasan permit, crampons, 17:00 buses and three-month no-show ban. The page renders cleanly on phone and desktop. The return-flight cost in the prose (R$320–470) is wrong by the page's own fares; the Jeju→Japan flight list and the 2024-only Hallasan hours need current sources."
+model: claude-opus-5-5
+cost_usd: 0.694

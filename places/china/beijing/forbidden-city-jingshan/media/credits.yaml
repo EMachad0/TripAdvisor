@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: snow-from-jingshan
+  title: File:Forbidden City after snow (20200106114634).jpg
+  author: N509FZ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Forbidden_City_after_snow_(20200106114634).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fc/Forbidden_City_after_snow_%2820200106114634%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Beijing's first snowfall of 2020, the hexacentennial of Forbidden City.
+  width: 7291
+  height: 4861
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: jingshan-sunset
+  title: File:The Forbidden City - View from Coal Hill.jpg
+  author: Pixelflake
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:The_Forbidden_City_-_View_from_Coal_Hill.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ef/The_Forbidden_City_-_View_from_Coal_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A (HDR-) photograph shot from the Jingshan Park (aka Coal Hill or Prospect Hill).
+  width: 4092
+  height: 2046
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: corner-tower
+  title: File:Northwest corner tower of the Forbidden City after snow (20211107135201).jpg
+  author: N509FZ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Northwest_corner_tower_of_the_Forbidden_City_after_snow_(20211107135201).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6d/Northwest_corner_tower_of_the_Forbidden_City_after_snow_%2820211107135201%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: With some remaining snow.
+  width: 7185
+  height: 4790
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: supreme-harmony-snow
+  title: File:Hall of Supreme Harmony in snow (20220318153418).jpg
+  author: N509FZ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_in_snow_(20220318153418).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6c/Hall_of_Supreme_Harmony_in_snow_%2820220318153418%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Too heavy...
+  width: 6850
+  height: 4567
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: ratchaburana-lawn
+  title: File:Ayutthaya - Wat Ratchaburana - 0059.jpg
+  author: Stefan Fussan
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ayutthaya_-_Wat_Ratchaburana_-_0059.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Ayutthaya_-_Wat_Ratchaburana_-_0059.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wat Ratchaburana, Ayutthaya, Thailand
+  width: 5996
+  height: 3179
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: cycling-past-walls
+  title: File:Thailand 2016 (116 of 422) (31554310263).jpg
+  author: Weldon Kennedy from London, UK
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Thailand_2016_(116_of_422)_(31554310263).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/91/Thailand_2016_%28116_of_422%29_%2831554310263%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Thailand 2016 (116 of 422)
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: wat-phra-ram
+  title: File:Templo Phra Ram, Ayutthaya, Tailandia, 2013-08-23, DD 06.jpg
+  author: Diego Delso
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Templo_Phra_Ram,_Ayutthaya,_Tailandia,_2013-08-23,_DD_06.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e5/Templo_Phra_Ram%2C_Ayutthaya%2C_Tailandia%2C_2013-08-23%2C_DD_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: This is a photo of a monument in Thailand identified by the ID
+  width: 5374
+  height: 3502
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: view-from-prang
+  title: File:Ayutthaya - Wat Ratchaburana - 0032.jpg
+  author: Stefan Fussan
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ayutthaya_-_Wat_Ratchaburana_-_0032.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/33/Ayutthaya_-_Wat_Ratchaburana_-_0032.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wat Ratchaburana, Ayutthaya, Thailand
+  width: 5632
+  height: 3755
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

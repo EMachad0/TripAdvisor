@@ -1,0 +1,148 @@
+id: k11-musea
+name: "K11 MUSEA"
+name_local: K11 MUSEA · 維港文化匯
+country: hong-kong
+city: hong-kong
+area: TST · Victoria Dockside
+category: shopping
+fame: popular
+tags: [mall, free, architecture, art, harbour-view, lunar-new-year]
+kind: Shop
+why: "A 10-storey mall-meets-art-gallery built by about 100 creatives: a brass atrium around a 10 m Gold Ball, living walls, and the Avenue of Stars outside."
+
+cost:
+  local: 0
+  currency: HKD
+  brl: 0
+  note: "Free to walk in and look around; the art and the atrium cost nothing"
+fx: { rate: 0.7219, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: "Late afternoon, then the 20:00 light show outside"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "10:00–22:00 daily"
+  winter: "**Lunar New Year (Sat Feb 6, 2027)**: the holiday runs Feb 6–9. No 2027 programme or holiday hours yet. In 2026 K11 held a lion dance and set a footfall record for the holiday week, and its harbour-view restaurants were nearly fully booked for the fireworks on the 2nd day."
+
+location:
+  address: Victoria Dockside, 18 Salisbury Road, Tsim Sha Tsui, Kowloon
+  address_local: 九龍尖沙咀梳士巴利道18號 維港文化匯
+  lat: 22.29447
+  lng: 114.17474
+  nearest_transit: East Tsim Sha Tsui MTR, Exit J
+
+sources:
+  - url: https://www.k11musea.com/visit/
+    title: "Visit (K11 MUSEA official): 10am–10pm daily, address, Nature Discovery Park glasshouse"
+    checked: 2026-11-13
+  - url: https://www.k11musea.com/visit/facilities-and-services
+    title: "Facilities and services (K11 MUSEA official): lockers on B1/B2, 30 min free Wi-Fi"
+    checked: 2026-11-13
+  - url: https://www.discoverhongkong.com/eng/place-to-go/travel.guide-k11-musea.html
+    title: "K11 MUSEA (Hong Kong Tourism Board): brass atrium, 10 m Gold Ball in 285 glass panels, 250+ stores, green walls"
+    checked: 2026-11-13
+  - url: https://hkmb.hktdc.com/en/1X0AJDFI/article/art-graces-novel-harbourfront-mall
+    title: "Art graces novel harbourfront mall (HKTDC): about 100 creatives, Opera Theatre atrium, rooftop garden"
+    checked: 2026-11-13
+  - url: https://www.kpf.com/project/victoria-dockside
+    title: "Victoria Dockside (KPF, architects): 100+ designers, 50,000 sq ft living wall, Avenue of Stars"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Victoria_Dockside
+    title: "Victoria Dockside (Wikipedia): K11 Musea opened August 2019, East TST Exit J"
+    checked: 2026-11-13
+  - url: https://nwd.com.hk/content/k11-musea-breaks-chinese-new-year-golden-week-footfall-record-watch-and-jewellery-sales-more-than-doubled-yoy-with-largest-single-purchase-surpassing-hk2-million
+    title: "K11 MUSEA breaks Chinese New Year footfall record (New World Development, 2026-02-24)"
+    checked: 2026-11-13
+  - url: https://www.tourism.gov.hk/symphony/english/details/details.html
+    title: "A Symphony of Lights (Tourism Commission): nightly 20:00, Avenue of Stars is a best viewing point"
+    checked: 2026-11-13
+  - url: https://news.rthk.hk/rthk/en/component/k2/1854817-20260515.htm
+    title: "No shortchanging of Lunar New Year revellers in 2027 (RTHK, 2026-05-15): holiday Feb 6–9, 2027"
+    checked: 2026-11-13
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Climatological normals 1991–2020 (Hong Kong Observatory): February 15.3–19.4 °C"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Hours, address and the atrium details are from the official site and the Tourism Board. Nothing is published yet for Lunar New Year 2027; the 2026 programme is the only guide. Public access to the rooftop gardens isn't spelled out on the official site."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: dockside-aerial
+    caption: Victoria Dockside from above; K11 MUSEA is the terraced, planted podium at the foot of the tower
+    hook: A brass opera house of an atrium with a golden sphere floating in it, and the harbour a few steps away.
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: "Late afternoon, then the 20:00 light show outside"
+    extra:
+      - label: Built by
+        value: About 100 creatives
+        detail: Architects, artists and designers; KPF led the masterplan
+      - label: Centrepiece
+        value: 10 m Gold Ball
+        detail: Wrapped in 285 carved glass panels, in the brass atrium
+      - label: Greenery
+        value: 50,000 sq ft of walls
+        detail: Inside and out, per architects KPF
+  - type: highlights
+    items:
+      - title: The Opera Theatre atrium
+        text: "The main atrium is dressed in **brass** around a **10-metre Gold Ball** wrapped in 285 carved glass panels, used for exhibitions and events. People come just to look up."
+      - title: A mall that wants to be a museum
+        text: "The Tourism Board says it bridges retail space and art gallery. About **100 creatives** worked on it, and art installations run through ten floors next to **250+ stores**."
+      - title: Green walls and a glasshouse
+        text: "The Tourism Board counts over **50,000 sq ft** of green walls carpeting the mall. Up top there's the **Nature Discovery Park**, a garden with a glasshouse; the official site lists it for private events, so public access isn't confirmed."
+      - title: Avenue of Stars outside
+        text: "It's part of the same Victoria Dockside project as the revamped **Avenue of Stars**, one of the best spots for the free **Symphony of Lights** at 20:00."
+  - type: prose
+    title: Why a mall earns a card here
+    dropcap: true
+    text: |-
+      You can't afford most of what's on sale at K11 MUSEA, and that's fine. Opened in August 2019 on the Tsim Sha Tsui waterfront, it's the Hong Kong mall people visit for the building: architects KPF and around a hundred designers and artists turned ten floors into something between a gallery and a theatre. The Tourism Board lists it under architectural gems.
+
+      **On your dates**: Lunar New Year is Saturday Feb 6 and the holiday runs to Tuesday Feb 9. In 2026 K11 had its busiest New Year week since opening, with a lion dance and harbour-view restaurants nearly full for the fireworks. The 2027 programme isn't out yet. Go on a weekday afternoon if you can (Fri Feb 5), and expect crowds over the holiday.
+  - type: gallery
+    images:
+      - file: atrium
+        caption: The main atrium, wrapped in brass-toned ribbons
+      - file: exterior
+        caption: The ribbon façade from Salisbury Road
+      - file: peacock-playground
+        caption: A peacock slide, photographed at K11 MUSEA in July 2026
+  - type: quote
+    variant: vibe
+    text: Escalators through a brass auditorium, then out the door to the harbour.
+  - type: cost_breakdown
+    items:
+      - label: Entry, art and atrium
+        local: 0
+        brl: 0
+  - type: map
+    zoom: 16
+    note: "From **East Tsim Sha Tsui** station, Exit J. The Avenue of Stars runs along the water in front."
+  - type: tips
+    variant: insider
+    items:
+      - "Time it so you walk out onto the **Avenue of Stars** before **20:00** for the Symphony of Lights. The music plays there."
+      - "Carrying your backpack? **Self-service lockers** are on B1 and B2, 10:00–22:00."
+      - "Free Wi-Fi: join the **K11** network; there's a 30-minute free option."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Harbour-view restaurants book out for the **Lunar New Year fireworks**; in 2026 they were nearly full. Don't count on a walk-in table that night."
+      - "The Symphony of Lights is cancelled on days with a **No. 3 typhoon signal** or a Red/Black rainstorm warning at or after 15:00."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: Mild and humid, with little sunshine; about 39 mm of rain in the month
+    note: "February averages 15–19 °C. Almost everything here is indoors, so it's a good rainy-day card; the light show outside needs a dry evening."
+    wear: A light jacket for the waterfront after dark
+  - type: pairs_well
+    items:
+      - id: harbour-city-ocean-terminal-deck
+        note: "Same Tsim Sha Tsui waterfront: the free roof deck for sunset"
+      - id: ifc-mall-rooftop-garden
+        note: "Across the harbour by Star Ferry: Central's free rooftop garden"

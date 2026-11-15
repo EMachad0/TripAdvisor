@@ -1,0 +1,19 @@
+# Independent review of suwon-hwaseong-fortress. Written by `./atr review`; do not edit by hand.
+id: suwon-hwaseong-fortress
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 73f701eb20be6ba8705feef2f3dfbf82133209b8862da3aa7e8ff35f29402095
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[1].extra[1].detail
+    problem: The ₩1,650 Line 1 fare (and the ₩3,300 round trip in cost_breakdown) comes from a guide dated 6 Jun 2026. The base fare for Seoul-area trains went up by ₩150, from ₩1,400 to ₩1,550, on 28 Jul 2026. A ~41 km trip also pays a distance surcharge on top, so ₩1,650 is very likely too low for Jan 2027.
+    evidence: "The fare is now ₩2,250 each way (₩4,500 both ways, flagged as an estimate). That matches the fare rule in Korean Wikipedia's 수도권 전철 article (raw text): \"기본 운임은 1550원 ... 10km에서 50km 범위 이내에서 5km당 100원\". It also matches 수원역 (Korean Wikipedia): \"경부선 서울 기점 41.5 km\". So ₩1,550 plus 7 bands × ₩100 = ₩2,250. Kyunghyang (15 Jun 2026) confirms \"기본운임(1550원)\". The confidence_note says plainly that the fare is calculated, not quoted. The MileAsia source title no longer claims ₩1,650."
+rereview_of: caa81ac75599968c6ba9b3e57da456aac5fdf986f1f4017c144dc0ec582a4146
+summary: The Line 1 fare finding is fixed. ₩2,250 each way and ₩4,500 return follow from the ₩1,550 base fare, the 10–50 km surcharge rule and the 41.5 km distance, all three in the listed sources. Both figures are honestly marked as an estimate, and the BRL conversion matches the rate used elsewhere on the page. The new source titles match what the sources say, the YAML validates, and nothing new needs fixing.
+model: claude-opus-5-5
+cost_usd: 0.273

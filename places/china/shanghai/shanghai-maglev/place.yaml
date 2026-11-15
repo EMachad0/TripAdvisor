@@ -1,0 +1,147 @@
+id: shanghai-maglev
+name: "Shanghai Maglev joyride"
+short_name: Shanghai Maglev
+name_local: 上海磁浮列车
+country: china
+city: shanghai
+area: "Pudong · Longyang Road"
+category: odd-local
+fame: popular
+tags: [train, maglev, futuristic]
+kind: Do
+why: "30 km in about 8 minutes on magnets instead of wheels: ride Longyang Road to Pudong Airport and back at 300 km/h, ¥85 with a day of metro thrown in."
+
+cost:
+  local: 85
+  currency: CNY
+  brl: 72.16
+  note: "Round trip + 24 h metro pass combo. Round trip alone ¥80; one-way ¥50, ¥40 with a same-day flight ticket"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: About 2 h from a central hostel
+best_time: Mid-afternoon, then Lujiazui for the sunset
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "From Longyang Rd 06:45–21:40; from Pudong Airport 07:02–21:42. Every 20 min (15 min before 07:00)"
+  winter: "No winter timetable is listed: the official timetable shows the same hours and the same 300 km/h top speed all year. Ticket checks stop 5 minutes before the last train."
+
+location:
+  address: "Longyang Road Maglev station, 2100 Longyang Rd, Pudong, Shanghai"
+  address_local: 上海市浦东新区龙阳路2100号（磁浮龙阳路站）
+  lat: 31.2053
+  lng: 121.554
+  nearest_transit: "Longyang Road (Metro Lines 2, 7, 16, 18)"
+  approximate: true
+
+sources:
+  - url: http://www.smtdc.com/cn/jszl1_2.html
+    title: "Shanghai Maglev official timetable (first/last trains, intervals, max speed 300 km/h all day)"
+    checked: 2026-11-14
+  - url: http://www.smtdc.com/cn/jszl.html
+    title: "Shanghai Maglev official fares (¥50/¥80/¥100/¥160, combos ¥55/¥85, card and QR payment)"
+    checked: 2026-11-14
+  - url: http://www.smtdc.com/cn/xnlv5.html
+    title: "Shanghai Maglev Museum, official page (ground floor of Longyang Rd station, 9:00–17:30)"
+    checked: 2026-11-14
+  - url: https://chinafortravelers.com/guides/shanghai-maglev/
+    title: "Shanghai Maglev: Should You Ride It? — China for Travelers (updated 2026-07-05; 431 suspended May 2021)"
+    checked: 2026-11-14
+  - url: https://www.wanderinchina.com/destinations/shanghai/transport/maglev/
+    title: "Shanghai Maglev Train Guide 2026 — Wander in China (2026-07-30; security, passing train, Line 2)"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Shanghai_maglev_train
+    title: "Shanghai maglev train — Wikipedia (431 km/h until May 2021, 8 min 10 s, Longyang Rd lines)"
+    checked: 2026-11-14
+  - url: https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E7%A3%81%E6%B5%AE%E4%BA%A4%E9%80%9A%E7%A7%91%E6%8A%80%E9%A6%86
+    title: "上海磁浮交通科技馆 — Chinese Wikipedia (free with a same-day Maglev ticket)"
+    checked: 2026-11-14
+  - url: https://chinafortravelers.com/guides/pvg-airport-guide/
+    title: "PVG Airport Guide — China for Travelers (Line 2 ~06:00, ~¥8, 70–90 min downtown)"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai — Wikipedia (December climate normals)"
+    checked: 2026-11-14
+  - url: "https://api.sunrise-sunset.org/json?lat=31.2325&lng=121.4692&date=2026-12-06&tzid=Asia/Shanghai"
+    title: "Sunrise-sunset.org API — Shanghai, 6 Dec 2026 (sunset 16:51)"
+    checked: 2026-11-14
+confidence: high
+confidence_note: "Speed, fares and timetable come from the operator's own pages (undated; read 2026-11-14) and match two July 2026 guides. One 2026 site claims daily 431 km/h windows; the operator says 300 all day, so I trust that. Museum hours and free entry are not confirmed for 2026."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: longyang-platform
+    hook: "The world's first commercial maglev still hovers at 300 km/h. The famous 431 readout ended in 2021."
+    caption: A Maglev train waiting at the platform (2024)
+  - type: quick_facts
+    time_needed: About 2 h from a central hostel
+    best_time: Mid-afternoon, then Lujiazui for the sunset
+    extra:
+      - { label: Top speed, value: 300 km/h, detail: "Every departure, all day (431 km/h until May 2021)" }
+      - { label: The ride, value: About 8 min, detail: "30 km, Longyang Road to Pudong Airport" }
+  - type: highlights
+    items:
+      - title: "300 on the readout"
+        text: "A display in each cabin shows the live speed. It climbs to **300 km/h** about two minutes in and holds there. The **431 km/h** runs ended in May 2021 and haven't come back for passengers."
+      - title: The passing moment
+        text: "If your timing is lucky, the oncoming Maglev flashes past at a closing speed of about **600 km/h**."
+      - title: No wheels
+        text: "The train floats on magnets above a concrete guideway, covering **30 km in about 8 minutes**. It has carried passengers since 2003."
+      - title: "A cheap thrill"
+        text: "The operator's **¥85 combo** gets you there and back plus 24 hours of unlimited metro (about R$72). The round trip alone is ¥80."
+  - type: prose
+    title: How to fit it in
+    dropcap: true
+    text: |-
+      **Not on arrival morning, mostly.** You land at Pudong around 05:10 on 6 December. The first Maglev leaves the airport at **07:02** (official timetable), while Metro Line 2 runs from about 06:00 and goes straight downtown for about ¥8 in 70–90 minutes. You *can* wait for the 07:02 train and pay ¥40 with your same-day flight ticket, but then you change at Longyang Road onto Line 2 with your pack. It isn't the joyride, just a tired transfer, so take Line 2 that morning.
+
+      **Do it as a round trip on another Shanghai day.** Take Line 2 east to **Longyang Road**, buy the round trip at the Maglev counter, ride to the airport and ride straight back. China for Travelers puts the round trip at about 45 minutes; add the metro from Jing'an or Huangpu each way and plan on about **2 hours**. If you later fly out of Pudong, the one-way ride is ¥40 with that day's ticket and the last train leaves Longyang Road at 21:40.
+
+      **Longyang Road isn't downtown.** It's in eastern Pudong. Line 2 west from there goes to Lujiazui, East Nanjing Road, People's Square and Jing'an Temple; Line 7 also reaches Jing'an.
+
+      **Does it earn a day?** On its own, no: it's 16 minutes of riding. It works as a half-day add-on. Ride mid-afternoon, then take Line 2 a few stops back to **Lujiazui** for the sunset (about 16:51) and the Bund lights.
+  - type: gallery
+    images:
+      - { file: leaving-pudong, caption: "Leaving Pudong Airport station on the guideway" }
+      - { file: cabin-300, caption: "The cabin display: 300 km/h is the number you'll see now (2009 photo)" }
+      - { file: old-430-readout, caption: "The old 430 km/h readout, gone from passenger runs since 2021" }
+      - { file: elevated-track, caption: "On the elevated guideway across eastern Pudong (2023)" }
+      - { file: ticket, caption: "An economy single ticket" }
+  - type: quote
+    variant: vibe
+    text: "A seat, a speed display and the suburbs of Pudong turning into a blur."
+  - type: cost_breakdown
+    items:
+      - { label: "Maglev round trip + 24 h metro (combo)", local: 85, brl: 72.16 }
+      - { label: "VIP class instead (round trip)", local: 160, brl: 135.82, optional: true }
+      - { label: "Maglev Museum (free with ticket; maybe ¥10)", local: 0, brl: 0, optional: true }
+  - type: map
+    note: "The Maglev concourse is a 3–4 minute walk from the Line 2 platforms at Longyang Road; the ticket counter is there."
+  - type: tips
+    variant: insider
+    items:
+      - "Buy the **round trip (¥80) or the ¥85 combo at the counter**. Tapping a foreign Visa or Mastercard at the gate works too, but it charges ¥50 for each ride."
+      - "With a **Shanghai transport card**, each ride is ¥40. With your own same-day flight ticket, a single ticket is also 20% off (¥40). Discounts don't stack."
+      - "The **Maglev Museum** is on the ground floor of Longyang Road station. The operator lists 09:00–17:30; Chinese Wikipedia says 09:00–17:00 and free with a same-day Maglev ticket, while one 2026 guide says it may charge about ¥10. Go before 17:00 and give it 20 minutes."
+      - "Economy is fine. VIP doubles the price on the same train at the same speed."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Some 2026 guides still promise 431 km/h windows in the morning and afternoon. The operator's timetable says **300 km/h all day** in both directions."
+      - "Doors close **1 minute** before departure, and ticket checks stop 5 minutes before the last train (21:40 from Longyang Rd, 21:42 from the airport)."
+      - "Bags go through an **X-ray check**, and you may be asked to sip from your water bottle."
+      - "Line 2 is packed at **08:00–09:30 and 17:30–19:00**. Avoid it with a big backpack."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 11
+    conditions: "Cool, damp and often grey: about 5–11 °C in December, 3–9 °C in January"
+    note: "The ride and the stations are indoors, so the weather barely matters. On a grey day the view out the window is just a flat blur of suburbs."
+    wear: A jacket for the walk between the metro and the Maglev hall
+  - type: pairs_well
+    items:
+      - { id: bund-and-lujiazui-skyline, note: "Line 2 back to Lujiazui for the 16:51 sunset and the river lights" }
+      - { id: fuxing-train-shanghai-beijing, note: "The other fast train: 350 km/h on rails to Beijing" }
+      - { id: yang-space-bathhouse-lujiazui, note: "Also in Pudong: end the day in a 24-hour bathhouse" }

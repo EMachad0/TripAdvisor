@@ -1,0 +1,111 @@
+id: menya-jouroku-namba
+name: "Menya Jouroku"
+name_local: 麺屋 丈六 なんば店
+name_romanized: Men'ya Jōroku
+country: japan
+city: osaka
+area: Namba · Sennichimae
+category: food
+fame: hidden
+tags: [ramen, takaida, cheap-eats, shoyu]
+kind: Eat
+why: "Jet-black Takaida-style shoyu ramen for ¥900 in a Namba back alley, with ¥150–200 Wakayama pressed sushi on the side."
+cost:
+  local: 900
+  currency: JPY
+  brl: 31.65
+  note: "Chuka soba, regular (Noodlers; Retty reviews 2025–26); one 2026 review says ¥1,000"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min
+best_time: Near the end of lunch service, or off-peak
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "11:30–15:00 and 18:00–21:00; first Sunday of the month also a morning service from 07:00"
+  closed: Wednesdays (Jan 20, Jan 27 and Feb 3 in your Japan window)
+  winter: "No winter changes found. The first-Sunday breakfast service doesn't fall in your window (Jan 3 and Feb 7, 2027 are outside it)."
+
+location:
+  address: 6-16 Namba-Sennichimae, Chuo-ku, Osaka
+  address_local: 大阪府大阪市中央区難波千日前6-16
+  lat: 34.66375
+  lng: 135.50488
+  nearest_transit: Namba (Osaka Metro / Nankai), about 5 min walk
+
+sources:
+  - url: https://retty.me/area/PRE27/ARE94/SUB9501/100000030435/reports/
+    title: 麺屋 丈六 なんば店 — Retty review list (2025–26 visits)
+    checked: 2026-11-13
+  - url: https://noodlers.jp/joroku01/
+    title: 麺屋 丈六 なんば店「中華そば」 — Noodlers (menu prices)
+    checked: 2026-11-12
+  - url: https://retty.me/area/PRE27/ARE94/SUB9501/100000030435/
+    title: 麺屋 丈六 なんば店 — Retty reviews (2026)
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: Osaka — Wikipedia (climate table)
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours, Wednesday closing, address and the ¥900 regular agree across Noodlers and several Retty reviews (2025–26); one 2026 Retty review lists ¥1,000 for a regular, so the price may have risen. Tabelog and the shop's X account weren't readable here. No free photo of the shop exists."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: Soup as dark as coffee, which tastes rounder than it looks.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: End of lunch, or off-peak
+    extra:
+      - { label: Style, value: Takaida black shoyu, detail: "East-Osaka style: dark soy soup, medium-thick straight noodles" }
+      - { label: Ordering, value: Tell the staff, detail: "No ticket machine; waiting chairs inside when it's full" }
+      - { label: Payment, value: Cash only, detail: "No credit cards (Retty); Noodlers lists cash only" }
+  - type: highlights
+    items:
+      - title: Osaka's own ramen style
+        text: "**Takaida chuka soba** comes from East Osaka: near-black soy soup, coarse-cut green onion, a sweet-sour finish that surprises people."
+      - title: Ramen and sushi
+        text: "Order a **早寿司** (*hayazushi*, ¥150–200): vinegared mackerel pressed and wrapped in an *ase* leaf, a Wakayama speciality."
+      - title: Cheap, and on the best-of lists
+        text: "A regular bowl is **¥900**, and a 2026 reviewer notes it has made Tabelog's Top 100 ramen list **five years running**."
+      - title: Free noodle refill
+        text: "A 2025 reviewer got a **free kaedama** (refill of thin noodles). Ask for 替え玉 if the bowl isn't enough."
+  - type: prose
+    text: |-
+      Most visitors to Namba eat at the neon places on Dotonbori. Jouroku is on a back street a few minutes away, with signed celebrity boards on the walls and a counter where you order out loud. Its soup is East Osaka's black Takaida style. Few foreign visitors have heard of it, though a 2026 reviewer found the counter mostly full of them, so word is spreading.
+
+      It is the cheap classic for Osaka: under ¥1,000 for the bowl, ¥100 for a seasoned egg, ¥150–200 for a piece of sushi. Pair it with the Jinrui Mina Menrui queue on another day.
+  - type: menu
+    title: What to order
+    items:
+      - { name: "Chuka soba, regular", name_local: 中華そば（並）, price_local: 900, price_brl: 31.65, note: "Black Takaida soy, medium-thick noodles", tag: must-try }
+      - { name: Seasoned soft-boiled egg, name_local: 味付煮玉子, price_local: 100, price_brl: 3.52, tag: cheap }
+      - { name: Hayazushi (Wakayama pressed sushi), name_local: 早寿司, price_local: 150, price_brl: 5.28, note: "One piece, wrapped in a leaf. ¥150 in 2025, ¥200 in a May 2026 review" }
+      - { name: Extra pork, name_local: 肉増し, price_local: 250, price_brl: 8.79 }
+      - { name: Bottled beer (Heartland), name_local: 瓶ビール, price_local: 550, price_brl: 19.34, tag: drink }
+    note: "Prices from 2026 reviews, which disagree: one lists the regular at ¥1,000, another the large at ¥1,000, and hayazushi shows as ¥150 or ¥200. Check the board."
+  - type: map
+    note: "It's on a back alley one street off Namba's main shopping streets, about 5 min on foot from Namba station. No reservations; if it's full, wait on the chairs inside."
+  - type: tips
+    variant: insider
+    items:
+      - "Come near the **end of lunch service** or at an off-peak hour. Reviewers who did walked straight in."
+      - "Order the **hayazushi** with the ramen. At ¥150–200 it's one of the cheapest add-ons on the menu."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Closed Wednesdays**, and there's a gap from 15:00 to 18:00. Don't turn up mid-afternoon."
+      - "There's a sister branch in Wakayama city. Make sure your map points to the **Namba** shop."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool and mostly dry
+    note: "Waiting is mostly on chairs inside, and turnover is quick. In late January, a hot, salty bowl after an evening in Namba is the right call."
+    wear: Light winter jacket
+  - type: pairs_well
+    items:
+      - { id: jinrui-mina-menrui-osaka, note: "Osaka's famous queue, for the sweet-shoyu contrast" }
+      - { id: dotonbori-kani-doraku-crab, note: The giant crab is a short walk north }
+      - { id: hostel-chillax-namba, note: Nearby Namba hostel }

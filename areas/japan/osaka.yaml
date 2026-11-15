@@ -1,0 +1,109 @@
+id: osaka
+country: japan
+name: "Osaka"
+name_local: 大阪
+region: Kansai · Osaka Prefecture
+scope: city
+cities: [osaka]
+why: "Where the cheap Seoul flights land: Dotonbori neon, Amerikamura bars and kushikatsu in Shinsekai, ¥970 from the airport, and Kyoto 29 minutes away by JR for ¥580. The natural base for the work week."
+best_for: [food, nightlife, shopping]
+highlights: ["Dotonbori neon", "Kani Doraku crab sign", "Amerikamura", "Shinsekai kushikatsu", "Takoyaki carts", "Day trips to Kyoto"]
+days_suggested: { min: 5, max: 8 }
+cost_level: medium
+fame: iconic
+lat: 34.6939
+lng: 135.5022
+getting_there: "Seoul flights land at Kansai (KIX). Nankai Airport Express to Namba ¥970, 45–50 min; rapi:t ¥1,670 (fare + ¥700 seat), 34–39 min. Kyoto by JR ¥580, ~29 min."
+getting_around: "Osaka Metro ¥200–350 a ride; Enjoy Eco Card ¥820 for a day of subways and buses. ICOCA card ¥2,000 (¥500 deposit); Tokyo's Suica and PASMO work here too."
+winter_note: "January averages 3.0 °C at night and 9.7 °C by day (1991–2020), 47 mm of rain and no snow on average. Most businesses close Jan 1–3, so you arrive (Jan 4–5) as the city reopens. Mon Jan 11, 2027 is Coming-of-Age Day, a public holiday."
+image: dotonbori-night
+sources:
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: "Osaka (Wikipedia): coordinates, January climate normals 1991–2020"
+    checked: 2026-11-11
+  - url: https://en.wikivoyage.org/wiki/Osaka
+    title: "Osaka (Wikivoyage): districts, nightlife areas, metro fares, Enjoy Eco Card, ICOCA, cheap food"
+    checked: 2026-11-11
+  - url: https://en.wikivoyage.org/wiki/Osaka/Minami
+    title: "Osaka/Minami (Wikivoyage): Dotonbori, Amerikamura bars, Kuromon market warning"
+    checked: 2026-11-11
+  - url: https://roote.ekispert.net/en/info/access-from-kansai-international-airport
+    title: "Access from Kansai International Airport (Ekispert, info as of June 2025): Nankai and JR fares and times"
+    checked: 2026-11-11
+  - url: https://www.nankai.co.jp/en_railway/traffic/express/rapit.html
+    title: "rapi:t (Nankai official): ¥700 regular seat charge, 34 min fastest, +¥300 if bought on board"
+    checked: 2026-11-11
+  - url: https://tetsudo-ch.com/13021686.html
+    title: "Nankai limited-express charge revision, 1 Apr 2026: ¥520 → ¥700, ticketless ¥550 (Tetsudo Channel)"
+    checked: 2026-11-11
+  - url: https://www.trip.com/guide/transport/osaka-to-kyoto.html
+    title: "Osaka to Kyoto 2026 (Trip.com, 3 Jul 2026): JR, Hankyu, Keihan, Shinkansen fares and times"
+    checked: 2026-11-11
+  - url: https://mileasia.com/japan/kyoto-to-osaka/
+    title: "Kyoto to Osaka 2026 (MileAsia, Jun 2026): JR ¥580, Hankyu ¥410, Shinkansen ¥1,490"
+    checked: 2026-11-11
+  - url: https://www.trip.com/guide/transport/shinkansen-tokyo-to-kyoto-and-osaka.html
+    title: "Shinkansen Tokyo to Kyoto and Osaka (Trip.com, 3 Jun 2026): Nozomi fares and times"
+    checked: 2026-11-11
+  - url: https://www.kosokubus.com/en/special/osaka_tokyo.html
+    title: "Osaka to Tokyo highway bus (Kosoku Bus): operators, from-fares, 8–9 h"
+    checked: 2026-11-11
+  - url: https://www.japan-guide.com/e/e2064.html
+    title: "Japanese New Year (japan-guide): most businesses close Jan 1–3"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Coming_of_Age_Day
+    title: "Coming of Age Day (Wikipedia): second Monday of January, 11 Jan 2027"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Japan dates are now Jan 4–22, 2027 (not yet in config). rapi:t total = Ekispert's ¥970 fare (Jun 2025) + Nankai's ¥700 charge since Apr 2026; Ekispert's ¥1,490 predates it. Trip.com and Tetsudo Channel pages were read 11 Nov but block link checks. Osaka–Kyoto fares differ by ¥10–50 between guides. No source on coworking found."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    hook: "The Glico runner, giant billboards and canal-side lanterns: Osaka's neon food strip, first stop off the plane."
+  - type: highlights
+    items:
+      - title: Dotonbori at night
+        text: "Wikivoyage calls **Dotonbori** the centre of Osaka nightlife, all restaurants, bars and neon over the canal. It is also the most touristy spot in town: look, eat, then go elsewhere to drink."
+      - title: Amerikamura for going out
+        text: "Part of Shinsaibashi, **Amerikamura** is where young Osaka shops and drinks, with bars from hip-hop to reggae. Club cards for Osaka come separately."
+      - title: Cheap, famous food
+        text: "Takoyaki from street carts around nightfall, okonomiyaki in hole-in-the-wall places, and **kushikatsu** in Shinsekai, which Wikivoyage names the best place for it."
+      - title: Kyoto as a day trip
+        text: "JR Special Rapid to Kyoto takes about 29 minutes for ¥580, and Hankyu runs Umeda to Kawaramachi for ¥410. You could see Kyoto without moving hostels."
+  - type: prose
+    title: Where to base yourself
+    text: |-
+      **Namba and Shinsaibashi** (Minami) are the base for this trip. The Nankai trains from Kansai airport run to Namba, Dotonbori is the food and neon strip, and Amerikamura is part of the Shinsaibashi area. For a solo traveler who wants to go out with people from the hostel, this is the part of town to sleep in; the hostel cards for Osaka are written separately.
+
+      **Umeda** (Kita) is the other centre, around JR Osaka station, with department stores and the Hankyu and JR trains to Kyoto. Wikivoyage calls nearby Kitashinchi the most famous nightclub district in Osaka, but it is bars and small restaurants more than dance clubs.
+
+      With the Japan dates now **Jan 4–22**, Osaka is the likely base for the remote-work week (Jan 4–8): you land here, the evenings are free for Dotonbori and Amerikamura, and the weekend of Jan 9–10 is open for a first trip to Kyoto.
+  - type: prose
+    title: Getting in, and on to Kyoto and Tokyo
+    text: |-
+      **From Seoul**: the cheapest flights for Jan 4–5 land at Kansai airport (KIX). The Nankai **Airport Express** to Namba costs ¥970 (R$34.05) and takes about 45–50 minutes. The **rapi:t** is faster, 34–39 minutes, but adds a ¥700 seat charge since April 2026, about ¥1,670 (R$58.62) in total; the charge is ¥150 less through Nankai's ticketless service and ¥300 more if bought on board.
+
+      **To Kyoto**: JR Special Rapid from Osaka station, about 29 minutes for ¥580 (R$20.36). Hankyu from Umeda to Kyoto-Kawaramachi, about 43–46 minutes for ¥410 (R$14.39). The Shinkansen from Shin-Osaka takes about 14 minutes for ¥1,440–1,490 unreserved.
+
+      **To Tokyo**: Nozomi Shinkansen from Shin-Osaka, about 2 h 22 min, ¥13,870 unreserved (R$486.84) or ¥14,720 reserved. Night buses take 8–9 hours and arrive early morning; starting fares on Kosoku Bus run from ¥2,000 (WILLER) to ¥5,800 (R$70.20–203.58), depending on operator and date.
+  - type: gallery
+    images:
+      - { file: shinsekai-night, caption: "Shinsekai and Tsutenkaku tower at night: the kushikatsu district" }
+  - type: tips
+    variant: insider
+    items:
+      - "Buy an **ICOCA** card (¥2,000 including a ¥500 deposit). It works on most Kansai trains, subways and buses, and a Suica from Tokyo works here too."
+      - "Heavy metro day? The **Enjoy Eco Card** is ¥820 for unlimited subways and buses."
+      - "Buy the rapi:t seat in advance: the on-board surcharge is ¥300."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Wikivoyage warns that some seafood and wagyu stalls in **Kuromon Market** charge very high prices."
+      - "Most businesses close **Jan 1–3**. Arriving Jan 4–5 you miss that, but Mon **Jan 11** is a public holiday (Coming-of-Age Day): expect weekend crowds."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool, mostly dry, no snow
+    note: "January normals: 3.0 °C at night, 9.7 °C by day, 47 mm of rain and 0 cm of snow on average. Fine for long evening walks between Namba and Shinsaibashi."
+    wear: Warm jacket, layers, a light hat for late nights

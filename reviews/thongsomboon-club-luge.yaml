@@ -1,0 +1,28 @@
+# Independent review of thongsomboon-club-luge. Written by `./atr review`; do not edit by hand.
+id: thongsomboon-club-luge
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 83e38c024f7fc399105790ff8b79cd614d0538e8bcc7b3db2d593f95545faa32
+facts:
+  supported: 10
+  unsupported: 2
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.local
+    problem: "The ฿994 total assumes the ฿399 wristband gets you on the luge, which is the reason for the trip, but no source says the luge is in it. The ฿599 'bigger wristband' (blocks[4].items[4]) is also not on the current price list: Trip.com's list, valid since Oct 2024, has ฿399/499/999, and a Mar 2026 Google review gives 339/559/999."
+    evidence: "cost.local is now ฿1,194: ฿399 wristband + ฿200 luge ride if it is not included + ฿85 + ฿310 + ฿200 taxi. It also gives ฿994 for the case where the wristband covers the luge. The ฿599 line is gone. The page now lists ฿499 (+ATV) and ฿999 (17 activities, 4 h), as https://th.trip.com/guide/attraction/rai-thong-somboon-club.html does: '499 … ATV 1 ใบ', '999 … 17 กิจกรรม ไม่จำกัดรอบ ภายใน 4 ชั่วโมง'. The March 2026 '339/559/999' boards are noted (Wanderlog). Which wristband includes the luge is still unknown; the page says so openly and gives both totals."
+  - field: blocks[3].text
+    problem: "'A weekday doesn't fit: the earliest train back gets in at 18:00' is wrong. Express 72 leaves Pak Chong at 12:08 (Rail Thailand: 11:18) and reaches Bangkok at 14:55 (Rail Thailand: 14:10). The conclusion still holds, but the reason given is false."
+    evidence: The weekday reason now names Express 72 at 11:18 or 12:08 and says you would get no sleep. https://www.baolau.com/en/s/pak-chong/bangkok shows 'EX72 12:08 → 14:55, 185 ฿'.
+  - field: location.lat
+    problem: "Nothing supports the map pin: the official site fails with a TLS certificate error. The Lovethailand GPS link puts the park at 14.730673, 101.390174, about 400 m east of the page's pin. On the phone map the OSM 'ทองสมบูรณ์คลับ' label sits at the right edge, away from the pin."
+    evidence: The pin moved to 14.73067, 101.39017. That matches the Lovethailand Google Maps directions link 'destination=14.730673,101.390174', and the source is now cited. confidence_note says the official site fails TLS. On the phone map the pin now sits on the park's OSM label.
+  - field: best_time
+    problem: The page contradicts itself. best_time says 'before the late-morning queues', but quick_facts says 'arrive late morning', and the suggested Rapid 135 only reaches Pak Chong at 10:43, so arriving before late morning is impossible.
+    evidence: best_time and quick_facts now both say 'Sun Jan 3, ~11:15; luge first'. The prose adds SP21 as an earlier option. Baolau https://www.baolau.com/en/s/bangkok/pak-chong shows 'SP21 06:10 → 08:43, 310 ฿' and 'RP135 07:10 → 10:43, 85 ฿'.
+rereview_of: 1cf33289782714e651f7a74b83c3a152d5ea8e3d3665efd966527b34778949b8
+summary: "All four earlier findings are fixed: the cost range with and without the luge, the current wristband tiers, the corrected train reasons, the moved pin and the single best-time statement. Each is backed by Trip.com, Baolau or Lovethailand. What is still unknown is which wristband includes the luge, and the ฿200 taxi fare is the curator's own estimate. The page says both openly, so no blocker or should is open."
+model: claude-opus-5-5
+cost_usd: 0.392

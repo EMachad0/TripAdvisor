@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: night-from-river
+  title: File:Raffles City Chongqing 20260507-3.jpg
+  author: Suicasmo
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-3.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cc/Raffles_City_Chongqing_20260507-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Raffles City Chongqing
+  width: 5184
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: crystal-day
+  title: File:Raffles City Chongqing 2019-9.jpg
+  author: Junyi Lou
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_2019-9.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/70/Raffles_City_Chongqing_2019-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​重庆来福士广场 2019 年 9 月 3 日，来福士商场将于 9 月 6 日开幕营业
+  width: 3668
+  height: 3110
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

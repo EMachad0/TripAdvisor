@@ -1,0 +1,22 @@
+# Independent review of beihai-nine-dragon-wall. Written by `./atr review`; do not edit by hand.
+id: beihai-nine-dragon-wall
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 02484032a69011a329648f4ff943e624175f220609d13d766e5ea5e197f0cd7f
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.winter
+    problem: The page cites 'a notice dated 12 Nov 2026' that closed the Chanfu Temple area until 20 Nov 2026. The official site's notice list has no such notice. It shows only a 2025 Chanfu closure (21–24 Oct 2025) and the 2025 boat winter-stop notice, so a specific dated claim rests on a source that does not say it.
+    evidence: "https://www.beihaipark.com.cn/#/detail/9dfab92e46b84af0ac986f8f7d107382 (atr render --shot) is an official notice dated 2026-11-12: '2026年11月16日(周一)至11月19日(周四)，万佛楼遗址及阐福寺景区暂停开放，11月20日(周五)恢复开放'. The new wording ('closes … 16–19 Nov 2026 only') matches, and the page cites this URL. The boat stop now reads as yearly practice, citing the 2025 notice on #/guide: '2025年11月10日(周一)起冬季停航'."
+  - field: blocks[9].items[0]
+    problem: The Monday-closure pitfall, hours.closed and confidence_note all say the rule comes from 'one 2026 guide'. The listed official site states it directly, so the page undersells a fact that changes which day to go.
+    evidence: "https://www.beihaipark.com.cn/#/guide (atr render): '园中园景点（团城除外）逢周一关闭，法定节假日除外。' hours.closed, blocks[9].items[0] and confidence_note now credit this rule to the park, name the Round City exception, and say it is unclear whether the wall counts as an inner garden."
+rereview_of: d0321ae66eb044982bae110959454673b8eee4bbf237399bacf0193bd0cb77e4
+summary: Both earlier findings are resolved. The Chanfu closure (16–19 Nov 2026) and the Monday inner-garden rule now match official park pages that the page cites. The new online-ticket note matches the '在线购票' / '提前预定北海公园门票' entries on the official site. Validation passes, and no new blocker or should was found.
+model: claude-opus-5-5
+cost_usd: 0.347

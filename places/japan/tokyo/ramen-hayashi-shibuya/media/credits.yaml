@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: bowl
+  title: File:Tonkotsu Gyokai Ramen @ Hayashi @ Shibuya (15054191278).jpg
+  author: Guilhem Vellut from Annecy, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tonkotsu_Gyokai_Ramen_@_Hayashi_@_Shibuya_(15054191278).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/aa/Tonkotsu_Gyokai_Ramen_%40_Hayashi_%40_Shibuya_%2815054191278%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tonkotsu Gyokai Ramen @ Hayashi @ Shibuya
+  width: 3968
+  height: 2976
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: close-up
+  title: File:Tonkotsu Gyokai Ramen @ Hayashi @ Shibuya (15240751015).jpg
+  author: Guilhem Vellut from Annecy, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tonkotsu_Gyokai_Ramen_@_Hayashi_@_Shibuya_(15240751015).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cf/Tonkotsu_Gyokai_Ramen_%40_Hayashi_%40_Shibuya_%2815240751015%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tonkotsu Gyokai Ramen @ Hayashi @ Shibuya
+  width: 3968
+  height: 2976
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: noren
+  title: File:Tonkotsu Gyokai Ramen @ Hayashi @ Shibuya (15217753836).jpg
+  author: Guilhem Vellut from Annecy, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tonkotsu_Gyokai_Ramen_@_Hayashi_@_Shibuya_(15217753836).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Tonkotsu_Gyokai_Ramen_%40_Hayashi_%40_Shibuya_%2815217753836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tonkotsu Gyokai Ramen @ Hayashi @ Shibuya
+  width: 2976
+  height: 3968
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons

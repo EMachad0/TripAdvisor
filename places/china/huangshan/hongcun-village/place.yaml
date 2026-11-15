@@ -1,0 +1,118 @@
+id: hongcun-village
+name: "Hongcun Village"
+name_local: 宏村
+name_romanized: Hóngcūn
+country: china
+city: huangshan
+area: Yi County · southern Anhui
+category: culture
+fame: popular
+tags: [village, hui-architecture, unesco, lake, ming-qing, film-location]
+kind: See
+why: "A Ming-Qing village of white walls and black roofs around a half-moon pond and South Lake. ¥104, valid 3 days, 1 h by bus from Tangkou."
+
+cost:
+  local: 104
+  currency: CNY
+  brl: 85.98
+  note: "Adult ticket, valid 3 days; Qunar sold it for ¥94 online on Nov 11, 2026"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h
+best_time: Weekday morning, before the tour buses
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Ticketed sights 07:30–17:30; the village itself is lived in and open all day"
+  winter: "No winter hours or Christmas/New Year closure found. Travel China With Me calls December weekdays cold but peaceful, at about 20% of normal crowds, and rates winter snow as excellent for photos. On Oct 28, 2026 the village shut 06:00–10:00 for building safety work: such short closures are announced on the operator's channels."
+
+location:
+  address: "Hongcun Town, Yi County, Huangshan, Anhui"
+  address_local: 安徽省黄山市黟县宏村镇
+  lat: 30.00478
+  lng: 117.98473
+  nearest_transit: "Hongcun bus station: buses from Tangkou (1 h) and Huangshan North (1.5 h)"
+
+sources:
+  - url: https://www.travelchinaguide.com/attraction/anhui/huangshan/hongcun-village.htm
+    title: "Hongcun Ancient Village — TravelChinaGuide (updated 2025-08-04: ¥104 valid 3 days, 07:30–17:30, buses from Tangkou and Huangshan North)"
+    checked: 2026-11-11
+  - url: https://travelchinawith.me/attractions/anhui/xidi-and-hongcun-ancient-villages/
+    title: "Xidi and Hongcun — Travel China With Me (2026 table: ¥104, 3–4 h, winter crowds, buses, Yixian East bus No. 10)"
+    checked: 2026-11-11
+  - url: https://chinahighlights.com/huangshan/transportation.htm
+    title: "Huangshan transportation — China Highlights (Huangshan North to Hongcun ¥30, 1.5 h; Tangkou to Hongcun ¥20, 1 h)"
+    checked: 2026-11-11
+  - url: "https://touch.piao.qunar.com/touch/detail.htm?id=11072"
+    title: "宏村景区门票 — Qunar (adult ticket ¥94 online, address 黟县宏村镇)"
+    checked: 2026-11-11
+  - url: https://en.wikivoyage.org/wiki/Huangshan
+    title: "Huangshan — Wikivoyage (Hongcun prettier but more crowded than Xidi; no buses at night)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Ticket ¥104, 3-day validity and 07:30–17:30 agree in two guides (2025, 2026) but I found no official page. Bus times disagree: TravelChinaGuide lists only 4 Tangkou buses off-season, China Highlights hourly. The Oct 28, 2026 closure is from a search snippet of an operator notice; I did not open it. December temperatures are one guide's range."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: south-lake
+    hook: Whitewashed walls and horse-head gables doubled in a still lake, an hour's bus ride below the mountain.
+    caption: South Lake, Hongcun
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: Weekday morning
+    extra:
+      - { label: Ticket valid, value: 3 days, detail: Unlimited entries from the first scan }
+      - { label: Good in rain, value: Partly, detail: Halls are covered; the lanes and lakeside are not }
+  - type: highlights
+    items:
+      - title: The Moon Pond
+        text: "A crescent pond in the middle of the village, built about 600 years ago for water, fire-fighting and washing. On a windless morning the houses around it reflect cleanly."
+      - title: South Lake and the bridge
+        text: "The bow-shaped lake at the entrance dates from **1607**. Its arched bridge is where *Crouching Tiger, Hidden Dragon* filmed."
+      - title: Chengzhi Hall
+        text: "The richest house, called the \"Folk Imperial Palace\": about **5 kg of gold** went into gilding its wood carvings (TravelChinaGuide)."
+      - title: A cow-shaped water system
+        text: "In the Ming dynasty the Wang family built a water system in the shape of an ox, with 1,200 m of channels and two ponds as its stomach and belly. **About 140** Ming and Qing houses still stand."
+  - type: prose
+    title: What it's like in December
+    dropcap: true
+    text: |-
+      Hongcun is a UNESCO-listed Hui village 11 km from Yi County. In summer and autumn it is busy; Travel China With Me reckons December weekdays bring about a **fifth of normal crowds**, with temperatures around 0–10 °C. A snowfall turns the black roofs white, which the same guide rates as excellent for photos.
+
+      Plan **3–4 hours**: South Lake first, then the lanes up to the Moon Pond, Chengzhi Hall and the Nanhu Academy on the lake's north bank. Wikivoyage finds it prettier than nearby Xidi but much more crowded, and says you don't need both if time is short. Travel China With Me quotes a returning visitor who found red lanterns, neon and loudspeaker tour groups in 2024: go early on a weekday.
+  - type: gallery
+    images:
+      - { file: moon-pond, caption: The Moon Pond at the heart of the village }
+      - { file: south-lake-bridge, caption: The bridge across South Lake }
+      - { file: morning-lanes, caption: Early morning in Hongcun }
+  - type: cost_breakdown
+    items:
+      - { label: Adult ticket (3 days), local: 104, brl: 85.98 }
+      - { label: Bus Tangkou to Hongcun, local: 20, brl: 16.53, optional: true }
+      - { label: Bus Hongcun to Huangshan North, local: 30, brl: 24.8, optional: true }
+  - type: map
+    note: "Buses stop at the bus station by the village entrance. Yixian East high-speed station is 40 min away by bus No. 10 (¥8)."
+  - type: tips
+    variant: insider
+    items:
+      - "Go **after the mountain**, on the way out: Tangkou bus in the morning, Hongcun at midday, then a ¥30 bus to Huangshan North for the train."
+      - "TravelChinaGuide lists only **four** Tangkou–Hongcun buses off-season (07:40, 09:40, 13:40, 15:40); China Highlights says hourly 07:00–16:30. Catch an early one and ask at the station."
+      - "With the big bag in tow, Travel China With Me lists luggage storage at the bus stations for **¥10–20**."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Buses don't run at night (Wikivoyage); a taxi to Tangkou costs ¥100–200."
+      - "Travel China With Me lists 10 buses from Hongcun to Huangshan North, **08:30–17:00**, taking 100 minutes. Leave a margin before an evening train."
+  - type: weather
+    temp_low_c: 0
+    temp_high_c: 10
+    conditions: Cold, often grey and damp; occasional snow
+    note: "Travel China With Me gives 0–10 °C for Dec–Feb: far milder than the summit, but you spend hours outdoors by the water."
+    wear: Warm jacket, gloves, waterproof shoes
+  - type: pairs_well
+    items:
+      - { id: huangshan-summit-hike, note: "The mountain first; Hongcun the day after" }
+      - { id: huangshan-kunlun-youth-hostel, note: "Tangkou base: 1 h bus to Hongcun" }

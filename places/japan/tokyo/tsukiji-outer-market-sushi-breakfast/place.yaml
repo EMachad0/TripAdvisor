@@ -1,0 +1,129 @@
+id: tsukiji-outer-market-sushi-breakfast
+name: Tsukiji Outer Market Sushi Breakfast
+short_name: Tsukiji sushi breakfast
+name_local: 築地場外市場
+name_romanized: Tsukiji Jōgai Shijō
+country: japan
+city: tokyo
+area: Chūō · Tsukiji
+category: food
+fame: iconic
+tags: [sushi, market, breakfast, tuna]
+kind: Eat
+why: "Bluefin tuna nigiri from ¥382 a piece at the 24-hour Sushi Zanmai flagship, then the market lanes after 9:00. Order by the piece, not the ¥5,000 sets."
+cost:
+  local: 2462
+  currency: JPY
+  brl: 86.59
+  note: "8 nigiri à la carte at Sushi Zanmai Honten (official menu, tax incl.)"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 2–3 h with the market walk
+best_time: "Not Wed/Sun: sushi at 8:00, market after 9:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Market most lively 9:00–13:00, most shops shut before evening. Sushi Zanmai Honten is open 24 h, every day."
+  closed: Many market shops close Wed, Sun and national holidays
+  winter: "No national holidays fall during the Japan dates (Jan 20 – Feb 4), so only Wednesdays and Sundays are at risk: Jan 20, 24, 27 and 31, and Feb 3. Sushi Zanmai Honten is listed as open 24 h, every day. The Jan–Feb 2027 market calendar wasn't published when this was checked."
+
+location:
+  address: Sushi Zanmai Honten, 4-11-9 Tsukiji, Chūō-ku, Tokyo
+  address_local: 東京都中央区築地4-11-9 すしざんまい本店
+  lat: 35.66539
+  lng: 139.77047
+  nearest_transit: Tsukiji (Hibiya Line) or Tsukiji-shijō (Ōedo Line), 3 min walk
+  approximate: true
+
+sources:
+  - url: https://tabelog.com/en/tokyo/A1313/A131301/13002302/dtlmenu/
+    title: Sushi Zanmai Honten menu — Tabelog (per-piece prices, sets, chirashi)
+    checked: 2026-11-12
+  - url: https://tabelog.com/en/tokyo/A1313/A131301/13002302/
+    title: Sushi Zanmai Honten — Tabelog (24 h, address, payment, reviews to Sep 2026)
+    checked: 2026-11-12
+  - url: https://www.gotokyo.org/en/story/guide/tsukijioutermarket/index.html
+    title: Tsukiji Outer Market guide — GO TOKYO (best hours, closed days)
+    checked: 2026-11-12
+  - url: https://www.tsukiji.or.jp/english/how-to-enjoy/
+    title: How to enjoy Tsukiji — Tsukiji Outer Market official site (pros first until 9:00)
+    checked: 2026-11-12
+  - url: https://www.english.metro.tokyo.lg.jp/w/016-101-003992
+    title: Information about Toyosu Market — Tokyo Metropolitan Government
+    checked: 2026-11-12
+  - url: https://www.english.metro.tokyo.lg.jp/documents/d/english/process202612-pdf
+    title: Advance raffle for the tuna auction tour (Dec 2026 tours; Jan 2027 entry dates) — TMG
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices are from the flagship's Tabelog menu, matching kiyomura.co.jp/menu/ (fails TLS outside a browser). That menu lists 本鮪 中とろ ¥547 and かまとろ ¥767; Tabelog EN mislabels the ¥767 one Chutoro. 24 h is from Tabelog. The 2027 Tokyo market calendar and the Feb 2027 Toyosu lottery dates weren't checked/out."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: zanmai-sushi
+    caption: Nigiri at Sushi Zanmai in the outer market
+    hook: The tuna auction moved to Toyosu in 2018. The breakfast stayed in Tsukiji.
+  - type: quick_facts
+    time_needed: 2–3 h with the walk
+    best_time: 8:00 sushi, market after 9:00
+    extra:
+      - { label: Avoid, value: "Wed, Sun", detail: Many shops close; Sushi Zanmai doesn't }
+      - { label: Card OK, value: Yes, detail: "Sushi Zanmai takes cards, Suica, PayPay" }
+  - type: highlights
+    items:
+      - title: The 24-hour flagship
+        text: "**Sushi Zanmai Honten** never closes. You can order a single piece: egg or squid at ¥140, bluefin lean at ¥382, chūtoro at ¥547."
+      - title: Pros first, then you
+        text: "The market's official site asks visitors to let professional buyers go first **until 9:00**. Eat sushi early, then shop the stalls."
+      - title: The cheap way vs the trap
+        text: "Ordering eight pieces à la carte costs about **¥2,460**. A set like Kokoro-iki (12 pieces) is ¥3,828, and the deluxe set is ¥5,148. Choose the fish yourself and stop when you're full."
+      - title: Toyosu, honestly
+        text: "The **tuna auction** now happens at Toyosu. It's only worth the 5:30 start if you win the free lottery for the close-up deck. Everyone else watches from the 2nd-floor visitor walkway."
+  - type: prose
+    title: Tsukiji or Toyosu?
+    text: |-
+      **Tsukiji** is where you eat: an open grid of food stalls and sushi counters. It's busiest between 9:00 and 13:00 and quiet after the shops close in the afternoon.
+
+      **Toyosu** is the working wholesale market, open 5:00–17:00 except Sundays, holidays and market closed days. The close-up **tuna auction deck** runs 5:45–6:25 and is free, but places are drawn by lottery: 100 people a day, and you show your passport at the 5:30 meeting. For **January 2027** tours, entries are open **Dec 2–8, 2026**, with results on Dec 17. The February 2027 dates weren't out yet. If you lose the draw, the 2nd-floor walkway doesn't justify a 5 a.m. alarm. Spend that morning here instead.
+  - type: menu
+    title: Sushi Zanmai, per piece
+    items:
+      - { name: Squid, name_local: いか, price_local: 140, price_brl: 4.92, tag: cheap }
+      - { name: Salmon, name_local: サーモン, price_local: 162, price_brl: 5.70, tag: cheap }
+      - { name: "Bluefin tuna, lean", name_local: 本鮪 赤身, price_local: 382, price_brl: 13.43, tag: must-try }
+      - { name: Bluefin medium-fatty tuna, name_local: 本鮪 中とろ, price_local: 547, price_brl: 19.24, tag: signature }
+      - { name: Bluefin fatty tuna, name_local: 本鮪 大とろ, price_local: 657, price_brl: 23.11 }
+      - { name: Sea urchin, name_local: うに, price_local: 1408, price_brl: 49.52 }
+      - { name: Tuna collar fatty cut, name_local: 本鮪 かまとろ, price_local: 767, price_brl: 26.98, note: "Listed as 'Chutoro ¥767' in Tabelog's English menu; it's kama-toro" }
+      - { name: Seafood chirashi bowl, name_local: 海鮮ちらし丼, price_local: 3278, price_brl: 115.29, note: "Comes with the daimyo-wan soup bowl" }
+    note: "Prices from the flagship's menu on Tabelog, which match the chain's own menu (tax incl.). You can order single pieces."
+  - type: cost_breakdown
+    items:
+      - { label: "Bluefin lean ×2", local: 764, brl: 26.87 }
+      - { label: "Bluefin chūtoro ×2", local: 1094, brl: 38.48 }
+      - { label: "Squid ×2", local: 280, brl: 9.85 }
+      - { label: "Salmon ×2", local: 324, brl: 11.40 }
+      - { label: "Swap for the chirashi bowl instead", local: 3278, brl: 115.29, optional: true }
+  - type: map
+    note: "The pin covers the market. Sushi Zanmai Honten is at **4-11-9 Tsukiji**, 3 minutes from Tsukiji Station."
+  - type: tips
+    variant: insider
+    items:
+      - "Go on a **Monday, Tuesday, Thursday, Friday or Saturday**. GO TOKYO says many shops close on Wednesdays, Sundays and holidays."
+      - "Want the Toyosu deck? Put the **Dec 2–8, 2026** entry window in your calendar now. It's free, but you need luck."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The market empties out in the afternoon. GO TOKYO says most stores close before evening."
+      - "Sushi Zanmai's sets cost ¥3,828–5,478. Ordering by the piece lets you stop at eight and keep the bill near ¥2,500."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry, clear mornings
+    note: The lanes are open-air and coldest before 9:00. The sushi counter is indoors.
+    wear: Warm jacket and gloves for the market walk
+  - type: pairs_well
+    items:
+      - { id: sushi-azabu-lunch-omakase, note: "The splurge version: Toyosu fish, served as a counter course" }
+      - { id: uogashi-nihonichi-shibuya, note: "The cheapest Tokyo nigiri: standing, two pieces at a time" }

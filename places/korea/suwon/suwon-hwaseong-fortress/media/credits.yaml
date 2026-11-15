@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: wall-walk
+  title: File:Hwaseong Fortress 01.jpg
+  author: Bernard Gagnon
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Hwaseong_Fortress_01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Hwaseong_Fortress_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Hwaseong Fortress in Suwon, South Korea
+  width: 3656
+  height: 2232
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: paldalmun
+  title: File:Paldalmun 20240929 001.jpg
+  author: Mobius6
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Paldalmun_20240929_001.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f6/Paldalmun_20240929_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Paldalmun, Suwon-si, Gyeonggi-do, Republic of Korea
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: banghwa-pond
+  title: File:Banghwasuryujeong.jpg
+  author: Clément Chevallier
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Banghwasuryujeong.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/38/Banghwasuryujeong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: View of Banghwasuryujeong
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: wall-gate
+  title: File:Hwaseong Fortress 03.jpg
+  author: Bernard Gagnon
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Hwaseong_Fortress_03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/76/Hwaseong_Fortress_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chemin de ronde in Hwaseong Fortress, South Korea
+  width: 4968
+  height: 3312
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

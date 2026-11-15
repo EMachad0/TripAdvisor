@@ -1,0 +1,157 @@
+id: wulong-karst-day-trip
+name: "Wulong Karst Day Trip: Three Natural Bridges"
+short_name: Wulong Karst
+name_local: 武隆天生三桥 · 龙水峡地缝
+name_romanized: Wǔlóng Tiānshēng Sānqiáo
+country: china
+city: chongqing
+area: Xiannüshan · Wulong District, ~45 min by fast train
+category: day-trip
+fame: hidden
+tags: [karst, unesco, gorge, natural-bridges, film-location, weekend]
+kind: Do
+why: "Walk a sinkhole floor under three giant stone arches where Transformers 4 filmed. 45 min by fast train from Chongqing East: a free-Saturday trip."
+
+cost:
+  local: 293
+  currency: CNY
+  brl: 242.22
+  note: "Three Bridges ticket ¥125 + fast trains ¥136 + station bus ¥32; Longshuixia gorge +¥85"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Full day (07:00–19:30)
+best_time: A clear weekend day; be at the gate by 09:00
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: Train sales open 15 days ahead; ticket the day before
+  method: passport-registered
+  links:
+    - label: Qunar ticket page (Chinese)
+      url: "https://touch.piao.qunar.com/touch/detail_14770.html"
+      note: "¥125 adult incl. shuttle bus and lift on Nov 12, 2026; Longshuixia combos listed"
+    - label: Ctrip train timetable
+      url: https://trains.ctrip.com/trainbooking/chongqing-wulong/
+      note: "Book the Chongqing East–Wulong South fast trains with a passport"
+  passport: true
+  notes: "Walk-up tickets are sold, but the trains are the bottleneck on weekends. Real-name entry: bring the physical passport you booked with. The official channel is the WeChat mini-program 武隆喀斯特旅游景区 (Chinese only)."
+
+hours:
+  summary: "About 08:30–16:30 Sep–Apr (one 2026 guide); a Chongqing listing says 08:30–16:00. Arrive by 13:00 to be safe"
+  winter: "Low season Nov 1 – Feb 28 with lower prices. December in Wulong town averages 6.6–11.9 °C; the parks sit far higher (no figures found). Trip.com calls Chongqing winters misty and advises against mountain hikes in January for poor visibility. No closure of Three Bridges, Longshuixia or Fairy Mountain found for winter; Fairy Mountain runs a ski area Dec–Feb."
+
+location:
+  address: "Three Natural Bridges, Yinxing Avenue, Xiannüshan, Wulong District, Chongqing"
+  address_local: 重庆市武隆区仙女山街道银杏大道32号 天生三桥
+  lat: 29.43993
+  lng: 107.78633
+  nearest_transit: "Wulong South (武隆南) HSR, then tourist bus to Xiannüshan visitor centre"
+
+sources:
+  - url: "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-24&leftTicketDTO.from_station=CUW&leftTicketDTO.to_station=WLW&purpose_codes=ADULT"
+    title: "12306 query, Chongqing → Wulong, 24 Nov 2026: G2425 CQ East 07:17 → Wulong South 08:02 ¥62; K507 CQ North 09:15 → Wulong 11:23 ¥24.5"
+    checked: 2026-11-12
+  - url: "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-24&leftTicketDTO.from_station=WLW&leftTicketDTO.to_station=CUW&purpose_codes=ADULT"
+    title: "12306 query, Wulong → Chongqing, 24 Nov 2026: C6398 18:30 → 19:22 ¥74; last G3870 21:25 → 22:10 ¥67; K9510 18:37 → CQ North 21:09 ¥24.5"
+    checked: 2026-11-12
+  - url: https://trains.ctrip.com/trainbooking/chongqing-wulong/
+    title: "Chongqing–Wulong trains, Ctrip (timetable for 14 Nov 2026, 34 trains; K-trains to Wulong ¥24.5 hard seat)"
+    checked: 2026-11-12
+  - url: "https://touch.piao.qunar.com/touch/detail_14770.html"
+    title: "武隆天生三桥 — Qunar (Nov 12, 2026: ticket incl. transfer bus and lift ¥125 adult; Longshuixia from ¥85; 4.6/7,281 reviews)"
+    checked: 2026-11-12
+  - url: https://www.sohu.com/a/1075740327_122552321
+    title: "天生三桥 2026 costs — Sohu (2026-09-14: ¥155 peak, ~¥95 low season incl. shuttle and lift; HSR 34–40 min; station bus ¥16; exit cart ¥15)"
+    checked: 2026-11-12
+  - url: https://m.cq.bendibao.com/jingdian/tianshengsanqiao/
+    title: "天生三桥 — Chongqing Bendibao (2026 page: hours 08:30–16:00, ticket incl. transfer bus and lift ¥155, address 银杏大道32号)"
+    checked: 2026-11-12
+  - url: https://www.wanderinchina.com/destinations/chongqing/wulong-karst/
+    title: "Wulong Karst — Wander in China (2026-09-27: low season Nov 1–Feb 28, 08:30–16:30 Sep–Apr, station bus ¥10, Fairy Mountain ski Dec–Feb)"
+    checked: 2026-11-12
+  - url: https://www.trip.com/guide/info/best-time-to-visit-chongqing.html
+    title: "Best time to visit Chongqing — Trip.com (December 'misty winters'; January: avoid mountain hikes, visibility often poor)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Wulong,_Chongqing
+    title: "Wulong, Chongqing — Wikipedia (CMA 1991–2020 normals at 278 m: December 6.6–11.9 °C, 9.7 wet days)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Trains are 12306 results for Tue 24 Nov 2026, not a December weekend: assumed the same. Ticket prices disagree: Qunar sold ¥125 (with shuttle and lift) on Nov 12; a Sep 2026 article says ~¥95 in low season; Bendibao says ¥155. I used ¥125. Station bus ¥10 or ¥16 (sources differ). Hours from guides. 12306/Qunar links time out in link checks but opened when fetched."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: tianfu-post-station
+    caption: "The Tianfu post house film set on the sinkhole floor, below Tianlong Bridge"
+    hook: A collapsed cave the size of a valley, with three stone arches still standing across the sky.
+  - type: quick_facts
+    time_needed: Full day
+    best_time: Clear weekend day, gate by 09:00
+    extra:
+      - { label: Fast train, value: "35–45 min", detail: "Chongqing East → Wulong South, ¥62–76" }
+      - { label: Last train back, value: "21:25", detail: "G3870 Wulong South → Chongqing East, ¥67" }
+      - { label: Walking, value: "~2.5 km", detail: "Mostly downhill on stone paths; slippery when wet" }
+  - type: highlights
+    items:
+      - title: Into the sinkhole
+        text: "A glass lift drops you about **80 m** to the floor of the Tianlong sinkhole. From there a one-way path of roughly 2.5 km runs under the three arches: Tianlong, Qinglong and Heilong."
+      - title: Film sets in a gorge
+        text: "Zhang Yimou built the **Tianfu post house** here for *Curse of the Golden Flower* (2006), and *Transformers: Age of Extinction* filmed under the bridges in 2014."
+      - title: Longshuixia slot gorge
+        text: "Optional add-on (Qunar from **¥85**): boardwalks pinned to the walls of a narrow gorge, past an 80 m waterfall. A free shuttle links it to the Three Bridges exit in about 10 minutes (Sohu)."
+      - title: Cheap and fast
+        text: "On the fast line, Chongqing East to **Wulong South** takes 35–45 minutes for ¥62–76 in 2nd class. The slow K-trains from Chongqing North cost ¥24.5 but take over two hours."
+  - type: prose
+    title: The day, step by step
+    dropcap: true
+    text: |-
+      Times from the 12306 timetable for 24 Nov 2026 (December assumed the same).
+
+      - **07:17** G2425 Chongqing East → Wulong South **08:02** (¥62).
+      - **~08:10** tourist bus from the station forecourt up to the **Xiannüshan visitor centre**, 35–45 min (¥10–16; sources differ).
+      - **~09:00** park shuttle to the Three Bridges gate (about 15 min), lift down, walk the gorge: **2.5–3 h**.
+      - **~12:30** lunch in Xiannü town. Optional: **Longshuixia** gorge 13:30–15:30.
+      - **~16:00** bus back down to Wulong South.
+      - **18:30** C6398 → Chongqing East **19:22** (¥74). Fallbacks: G2436 16:47 → 17:30 if you are fast, or the last fast train **G3870 21:25 → 22:10** (¥67).
+
+      **From Chongqing North instead**, the only morning train is the slow K507 (09:15 → old Wulong station 11:23, ¥24.5), then a ~¥10 minibus to the visitor centre. That leaves time for the Three Bridges only; back on K9510 18:37 → Chongqing North 21:09 (¥24.5). The cheapest version, about ¥194 with the ¥125 ticket.
+
+      **What December does.** Lower prices (Nov–Feb is low season), short days, and a real chance of low cloud: Trip.com advises against mountain hikes in January because visibility is often poor. The gorge floor is less exposed than a summit, but cloud can hide the tops of the arches. Pick the clearer of your two weekend days.
+  - type: gallery
+    images:
+      - { file: sinkhole-cliffs, caption: "The sinkhole walls between the arches" }
+      - { file: sky-dragon-arch-lift, caption: "Under Tianlong Bridge, with the lift shaft on the cliff", focus: top }
+      - { file: green-dragon-bridge, caption: "Qinglong (Green Dragon) Bridge over a pool on the gorge floor" }
+      - { file: longshuixia-walkway, caption: "The boardwalk inside Longshuixia gorge (2015)" }
+  - type: cost_breakdown
+    items:
+      - { label: Three Bridges ticket incl. shuttle bus and lift, local: 125, brl: 103.34 }
+      - { label: "G2425 Chongqing East → Wulong South", local: 62, brl: 51.26 }
+      - { label: "C6398 Wulong South → Chongqing East", local: 74, brl: 61.18 }
+      - { label: "Tourist bus station ↔ visitor centre (2 × ¥16)", local: 32, brl: 26.45, estimate: true }
+      - { label: "Longshuixia gorge (Qunar, from)", local: 85, brl: 70.27, optional: true }
+      - { label: Exit electric cart, local: 15, brl: 12.40, optional: true }
+  - type: map
+    note: "Buses and taxis go to the **仙女山游客中心** (Xiannüshan visitor centre); park shuttles leave from there to the Three Bridges gate."
+  - type: tips
+    variant: insider
+    items:
+      - "Book both train legs the day sales open (15 days ahead): weekend fast trains are the bottleneck, not the park."
+      - "Get off at **武隆南 Wulong South**, not the old 武隆 station, unless you are on a K-train."
+      - "Keep your ticket QR code or passport handy: shuttles scan it between the visitor centre and the gorges."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Wet stone and planks in both gorges: wear shoes with real grip."
+      - "Don't plan Fairy Mountain as well in one December day; its grassland is a separate ticket and the day is short."
+  - type: weather
+    temp_low_c: 7
+    temp_high_c: 12
+    conditions: Damp, grey, often misty; snow rare at the town station
+    note: "CMA normals at Wulong town (278 m): 6.6–11.9 °C in December, 9.7 wet days, 37 h of sun all month. The visitor centre and the bridges are much higher, so expect colder; no figures found."
+    wear: Warm layers, rain shell, grippy shoes
+  - type: pairs_well
+    items:
+      - { id: hongyadong-qiansimen-night-walk, note: "Back in town by 19:30: Hongyadong lights the same evening" }
+      - { id: yangtze-river-cableway-night, note: "Another evening in Chongqing" }

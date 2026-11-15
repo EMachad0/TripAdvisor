@@ -1,0 +1,25 @@
+# Independent review of fuunji-tsukemen-shinjuku. Written by `./atr review`; do not edit by hand.
+id: fuunji-tsukemen-shinjuku
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: e53fc8da23ac6c56759eacb2e98096dd2915cad5b158a2be9dd032194fde345a
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: location.address
+    problem: The page puts the shop in the basement (B1F) in the address, the map note and the hero caption ("basement entrance"). The official site and Time Out both give the ground floor (1F). Only Tabelog says B1F.
+    evidence: https://fu-unji.com/ — "東京都渋谷区代々木2-14-3 北斗第一ビル 1F". location.address and address_local now say 1F, blocks[0].caption no longer says basement, blocks[7].note says the queue forms outside on the street, and confidence_note records that Tabelog says B1F.
+  - field: blocks[4].items[5].price_local
+    problem: Extra noodles are listed as 替え玉 at ¥150, and blocks[3].text repeats that price. The official menu has no 替え玉. Its only extra-noodle item is 麺特盛 at ¥200.
+    evidence: https://fu-unji.com/ おしながき — "麺特盛 ¥200", and 替え玉 is not on the page. blocks[4].items[5] is now 麺特盛 ¥200 (R$7.03 = 200 × 0.03517), and blocks[3].text says ¥200 more on the official menu.
+  - field: why
+    problem: The address was moved to 1F, but `why` still calls the shop "a basement counter", and the weather note sends the queue onto "stairs". Both contradict the official 1F address.
+    evidence: '`why` now says "a ground-floor counter of 15 seats" and blocks[9].note now says "outdoors on the street" with no mention of stairs. Both match the official address "北斗第一ビル 1F".'
+rereview_of: 0af647eaa765ca3160341a332aae3d6341d02fa1a1b737e5afad5609b065f8ab
+summary: "All three earlier findings are resolved. The official site confirms each changed fact: 1F address, 麺特盛 ¥200, egg (味付玉子) ¥150, contents listed only for 得製らーめん, and the note that branch menus may differ. No new problems in the diff."
+model: claude-opus-5-5
+cost_usd: 0.286

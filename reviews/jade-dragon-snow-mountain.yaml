@@ -1,0 +1,19 @@
+# Independent review of jade-dragon-snow-mountain. Written by `./atr review`; do not edit by hand.
+id: jade-dragon-snow-mountain
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: c85c86e2b9c85ebadfbfb0b1b27445db14af1a812e6ecaeebbf9d1744e0bad5d
+facts:
+  supported: 3
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: book_ahead.links[0].note
+    problem: The note says 'Price shown per date', but no source shows that. The WebFetch text of the Trip.com page has no price and no per-date wording, and `./atr render` hit the verify.trip.com bot wall. The traveler still has no tour price to compare with the DIY ¥400.
+    evidence: "The note now says 'Price unconfirmed: compare with DIY ¥400', as the fix asked, and ¥400 matches cost.local. A new fetch of https://uk.trip.com/things-to-do/detail/89398370 still shows no price, so 'unconfirmed' is accurate. The phone screenshot (s05) shows the note rendering cleanly."
+rereview_of: 2c11d5bbe468ed992e5a08538d5f6582c77006e2e51fe91f10f8accb0901ba48
+summary: "Earlier finding 1 is resolved: the note drops the per-date price claim, says the price is unconfirmed and points to DIY ¥400. Trip.com names the 'Glacier Park Cableway' (4506 m), and Blue Moon Valley is in the title. 'From Lijiang' is unconfirmed (the page says only 'Pick-up available/Meet at meeting point') but too minor to raise. The unchanged content has no blockers, and the page renders cleanly at phone width."
+model: claude-opus-5-5
+cost_usd: 0.397

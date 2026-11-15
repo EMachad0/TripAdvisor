@@ -1,0 +1,78 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: harbin-ice-world
+name: Harbin Ice and Snow World
+name_local: 哈尔滨冰雪大世界
+country: china
+city: harbin
+area: Songbei · Sun Island
+category: nature
+tags:
+  - christmas
+  - nye
+  - ice-festival
+  - cold
+  - outdoor
+  - drone-show
+kind: Do
+why: A city of neon-lit ice palaces carved from the Songhua river; the reason to go north in winter.
+cost:
+  local: 330
+  currency: CNY
+  brl: 272.8
+fx:
+  rate: 0.8267
+  date: 2026-11-09
+  source: fixture rate
+time_needed: 2–3 h
+best_time: Weekday morning
+book_ahead:
+  required: true
+  lead_days: 3
+  lead_time: Fixture lead time
+  method: passport-registered
+  links:
+    - label: Example booking page
+      url: https://example.org/book/harbin-ice-world
+  passport: true
+hours:
+  summary: Daily 10:00–22:00
+  winter: Opens around Dec 18. NYE has fireworks and a drone show over the park; tickets sell out.
+location:
+  address: Fixture address, harbin
+  lat: 31.23
+  lng: 121.49
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture source
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture source 2
+    checked: 2026-11-09
+confidence: low
+confidence_note: Game test fixture, not researched.
+last_updated: 2026-11-09
+blocks:
+  - type: hero
+    image: snow-sculpture
+    hook: Glowing ice castles at −25 °C, with a slide taller than a house.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Weekday morning
+  - type: highlights
+    items:
+      - title: Fixture highlight
+        text: Test text for **Harbin Ice and Snow World**. Not researched.
+      - title: Second highlight
+        text: Game fixture content, ignored by the real build.
+  - type: weather
+    temp_low_c: -26
+    temp_high_c: -15
+    conditions: Bitter cold, clear skies
+    note: Fixture weather note.
+    wear: Warm layers
+  - type: tips
+    variant: insider
+    items:
+      - "Fixture tip: go early."

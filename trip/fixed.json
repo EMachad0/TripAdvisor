@@ -1,0 +1,65 @@
+[
+  {
+    "id": "latam",
+    "title": "Flight Joinville → São Paulo (LATAM)",
+    "amount": 775,
+    "status": "paid",
+    "note": "LA3327, Nov 29, Light fare. Paid Nov 10.",
+    "order": 1
+  },
+  {
+    "id": "turkish",
+    "title": "Flight to Shanghai (Turkish, via Istanbul)",
+    "amount": 5500,
+    "status": "paid",
+    "note": "Already booked. The amount is a guess; edit it to what you paid.",
+    "order": 2
+  },
+  {
+    "id": "home",
+    "title": "Flight home: Hong Kong → São Paulo",
+    "amount": 7475,
+    "status": "topay",
+    "note": "Not booked. Being priced: change the Ethiopian ticket or a new one-way, Feb 8 or 9. The amount is still the old Bangkok fare from Jan 31.",
+    "order": 3
+  },
+  {
+    "id": "peach",
+    "title": "Flight Seoul → Tokyo (Peach MM808)",
+    "amount": 999,
+    "status": "paid",
+    "note": "Jan 20. R$ 999,11 through an agency. Refund asked on Nov 14 (wrong flight).",
+    "order": 4
+  },
+  {
+    "id": "gba",
+    "title": "Flight Osaka → Hong Kong (Greater Bay HB353)",
+    "amount": 1113,
+    "status": "paid",
+    "note": "Feb 5. R$ 1.113,35 through an agency.",
+    "order": 5
+  },
+  {
+    "id": "asia-3",
+    "title": "Flights Chongqing → Chiang Mai, Bangkok → Singapore, Singapore → Seoul",
+    "amount": 1638,
+    "status": "estimate",
+    "note": "All three are bought (West Air, Singapore Airlines, Jeju Air), but what they cost was not written down. This is what is left of the old R$ 3.750 estimate for five flights; edit it to what you paid.",
+    "order": 6
+  },
+  {
+    "id": "esim",
+    "title": "eSIM for 6 countries",
+    "amount": 700,
+    "status": "estimate",
+    "note": "Holafly, or a regional Asia plan.",
+    "order": 7
+  },
+  {
+    "id": "insurance",
+    "title": "Travel insurance (~70 days)",
+    "amount": 500,
+    "status": "estimate",
+    "order": 8
+  }
+]

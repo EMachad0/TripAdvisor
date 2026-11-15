@@ -1,0 +1,131 @@
+id: tenkaippin-sohonten-kyoto
+name: "Tenkaippin Sohonten"
+name_local: 天下一品 総本店
+name_romanized: Tenka Ippin Sōhonten
+country: japan
+city: kyoto
+area: Sakyo · Ichijoji ramen strip
+category: food
+fame: hidden
+tags: [ramen, kotteri, chicken-paitan, late-night]
+kind: Eat
+why: "Tenkaippin's 1975 head shop: chicken soup so thick it sticks to your lips, plus head-shop-only bowls like beef-tendon ramen."
+cost:
+  local: 920
+  currency: JPY
+  brl: 32.36
+  note: "≈ ¥920–1,000: kotteri (regular) at the chain's Kansai price, Feb 2026; head-shop prices unconfirmed"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45 min, plus the trip north
+best_time: Late evening; it's open until 01:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 11:00–01:00 (next day); last order 15 min before closing"
+  closed: Jan 1 only (plus occasional announced closures)
+  winter: "Open every day of your Jan 20 – Feb 4 window as far as the official page shows; the only fixed closing day is New Year's Day. The beef-tendon ramen is sold at every branch until Jan 11, 2027; after that it is normally head-shop only again, at a price not yet confirmed."
+
+location:
+  address: "Maison Shirakawa 1F, 94 Ichijoji-Tsukudacho, Sakyo-ku, Kyoto"
+  address_local: 京都府京都市左京区一乗寺築田町94 メゾン白川1F
+  lat: 35.03944
+  lng: 135.79154
+  nearest_transit: Chayama–Kyoto Univ. of the Arts (Eizan Railway), 10 min walk
+  approximate: true
+
+sources:
+  - url: https://www.tenkaippin.co.jp/shop/728/
+    title: 天下一品 総本店 — official shop page (hours, closed days)
+    checked: 2026-11-12
+  - url: https://www.gltjp.com/ja/directory/item/15374/
+    title: 天下一品 総本店 — GOOD LUCK TRIP (head-shop menu, access)
+    checked: 2026-11-12
+  - url: https://www.pricey.jp/web/articles/4798
+    title: "天下一品の値上げ【2026年最新】 — current kotteri price (Pricey, updated Oct 2026)"
+    checked: 2026-11-12
+  - url: https://gourmet.watch.impress.co.jp/docs/news/2155047.html
+    title: "天下一品、総本店名物「牛すじラーメン」全店で発売 — Gourmet Watch, Nov 10 2026"
+    checked: 2026-11-12
+  - url: https://foodle.pro/ramenbeast/meals/kyoto/tenkaippin-main-shop-sohonten/18036
+    title: Tenkaippin Sohonten — Ramen Beast on Foodle (history)
+    checked: 2026-11-12
+  - url: https://yotchannopapa.blog.jp/archives/32734914.html
+    title: "総本店だけでしか食べられない天一 — blog visit, Aug 2025 (head-shop beef-tendon price)"
+    checked: 2026-11-13
+  - url: https://eizandensha.co.jp/guide/fare/
+    title: 叡山電車 運賃のご案内 — official fare table (Demachiyanagi–Chayama)
+    checked: 2026-11-13
+  - url: https://retty.me/restaurant/100001179696/
+    title: 天下一品 八条口店 — Retty listing (branch by Kyoto Station, 2025 review)
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Kyoto
+    title: Kyoto — Wikipedia (climate table)
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours and closing days from the official shop page. No head-shop price list found: ¥920 is the chain's Kansai kotteri price (Pricey, Feb 2026); GLT gives a ¥1,000–2,000 budget. Beef-tendon ¥1,410 was paid at the head shop in Aug 2025; the 2027 price is unconfirmed. Eizan fare: official table (Apr 2023), opened in a browser; it times out for the link checker. Pin approximate."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: honten-lanterns
+    caption: "The head shop's lanterns on its Ichijoji street"
+    hook: The original is a street cart's soup, simmered until it sticks to your lips.
+  - type: quick_facts
+    time_needed: 45 min at the table
+    best_time: Late evening, until 01:00
+    extra:
+      - { label: Style, value: Chicken kotteri, detail: "Chicken bones and a dozen-plus vegetables, boiled down to a paste-thick soup" }
+      - { label: Only here, value: Beef-tendon ramen, detail: "Head-shop dish; at every branch only until Jan 11, 2027" }
+  - type: highlights
+    items:
+      - title: The source of a 200-shop chain
+        text: "Started as a **street cart in 1971**. After four years of trial and error the founder had his soup, and he opened this shop in 1975."
+      - title: Soup like gravy
+        text: "**Kotteri** is a chicken soup thick enough to cling to the noodles. Nothing like the clear Kyoto shoyu at Daiichi Asahi."
+      - title: Head-shop-only bowls
+        text: "**牛すじラーメン** (beef tendon and konnyaku), a kimchi version and a **豚重定食** pork-bowl set aren't on the normal branch menu."
+      - title: Ramen battleground
+        text: "Ichijoji is one of Kyoto's busiest ramen districts. Fans call this shop the chain's holy ground."
+  - type: prose
+    text: |-
+      Most Japanese know Tenkaippin as the chain with the red sign. Few foreign visitors know it started here, in a quiet corner of northern Kyoto, with a soup the founder took four years to get right. The head shop still makes it on site, and fans say it is wilder and deeper than at the branches.
+
+      Come for the comparison. Have the clear Kyoto shoyu at Daiichi Asahi one day and this the next, and you'll have eaten Kyoto ramen's two opposite styles.
+  - type: gallery
+    images:
+      - { file: honten-front, caption: "The 総本店 (head shop) sign over the door, 2012" }
+      - { file: kotteri-set, caption: "A kotteri bowl and fried rice at another Tenkaippin branch" }
+  - type: menu
+    title: What to order
+    items:
+      - { name: Kotteri ramen (regular), name_local: こってりラーメン 並, price_local: 920, price_brl: 32.36, note: "The thick chicken soup. Chain's Kansai price; may be up to ¥1,000 here", tag: must-try }
+      - { name: Beef-tendon ramen, name_local: 牛すじラーメン, price_local: 1410, price_brl: 49.59, note: "Head-shop special: sweet-savoury beef tendon. ¥1,410 here in Aug 2025; Jan 2027 price unconfirmed" }
+    note: "Other bowls: assari (light), 屋台の味 (the early street-cart recipe) and a beef-tendon kimchi ramen. I found no head-shop price list."
+  - type: cost_breakdown
+    items:
+      - { label: Kotteri ramen (regular), local: 920, brl: 32.36, estimate: true }
+      - { label: "Eizan Railway, Demachiyanagi–Chayama return (2 × ¥220)", local: 440, brl: 15.47, optional: true }
+  - type: map
+    note: "Take the Eizan Railway from Demachiyanagi to Chayama–Kyoto Univ. of the Arts (¥220, two stops), then walk about 10 min. The shop sits on Shirakawa-dori; there is also a 22-car car park."
+  - type: tips
+    variant: insider
+    items:
+      - "Order **こってり** (kotteri) on a first visit, the beef-tendon bowl on a second."
+      - "Open until **01:00** every night except New Year's Day, so it works as a late dinner."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It's far from the sights: the Eizan Railway is **¥220 each way** from Demachiyanagi, plus a 10-min walk. If you only want standard kotteri, the **Hachijo-guchi branch** 4 min from Kyoto Station serves it with no extra fare. Come here for the head-shop-only bowls."
+      - "No seat reservations. Walk in and queue."
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 9
+    conditions: Cold, often clear, occasional light snow
+    note: "Northern Kyoto at night is close to freezing in late January. A paste-thick soup is the right food for it; the walk from the station is the cold part."
+    wear: Warm coat and gloves for the walk
+  - type: pairs_well
+    items:
+      - { id: honke-daiichi-asahi-kyoto, note: "The clear-soup opposite, by Kyoto Station" }

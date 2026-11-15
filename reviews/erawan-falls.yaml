@@ -1,0 +1,26 @@
+# Independent review of erawan-falls. Written by `./atr review`; do not edit by hand.
+id: erawan-falls
+type: place
+reviewed: 2026-11-12
+verdict: fix
+content_hash: 037b361f360bfd2ebcef1dceaa603f2ccf11e41f658750d95f5699d75379bef0
+facts:
+  supported: 0
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[5] (cost_breakdown total bar)
+    problem: The bar label still reads "100% of your R$ 100/day Thailand budget" for a ฿680 / R$112 cost. The new note says 112%, so the block now shows two different figures.
+    evidence: 'build/shots/erawan-falls-phone-light-s05.png: "100% of your R$ 100/day Thailand budget" above "R$112.13 is about 112% of your R$100/day"'
+    fix: Make the bar label print the real percentage (112%) and cap only the bar's fill. This is a renderer change, so it needs the platform owner rather than the place YAML.
+  - severity: should
+    field: blocks[5]
+    problem: The cost_breakdown bar label says "100% of your R$ 100/day Thailand budget" for a ฿680 / R$112 day, and the note right below it says 112%. The block shows two different percentages, and the label is false.
+    evidence: build/shots/erawan-falls-phone-light-s05.png — "100% of your R$ 100/day Thailand budget" / "R$112.13 is about 112% of your R$100/day (the bar above stops at 100%)"
+    fix: The platform owner should change the cost_breakdown renderer so the label prints the real percentage (112%) and only the bar's fill stops at 100%. The place YAML cannot fix this.
+resolved: []
+rereview_of: 037b361f360bfd2ebcef1dceaa603f2ccf11e41f658750d95f5699d75379bef0
+summary: "The YAML has not changed since the last review, and the one earlier issue (findings 1 and 2 are the same issue) is still on the page: the budget bar label says 100% and the note below it says 112%. This needs a renderer fix from the platform owner. On the unchanged content I found no blocker."
+model: claude-opus-5-5
+cost_usd: 0.254

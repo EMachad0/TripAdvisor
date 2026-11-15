@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: snow-roofs
+  title: File:KOCIS Korea Snowfall in Gyeongbokgung 19 (11318862306).jpg
+  author: Korea.net / Korean Culture and Information Service (Jeon Han)
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:KOCIS_Korea_Snowfall_in_Gyeongbokgung_19_(11318862306).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e5/KOCIS_Korea_Snowfall_in_Gyeongbokgung_19_%2811318862306%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A Morning’s Snowfall in Seoul December 11, 2013. Gyeongbokgung Palace, Jongno-gu, Seoul Ministry of Culture, Sports and Tourism Korean Culture and Information Service Korea.net( www.korea.net ) JEON HAN 눈 내린 서울 아침 2013-12-11 경복궁, 서울 문화체육관광부 해외문화홍보원 코리아넷 전한
+  width: 5580
+  height: 3696
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: geunjeongjeon
+  title: File:Front view of the Imperial Throne Hall Geunjeongjeon at Gyeongbokgung Palace with blue sky in Seoul.jpg
+  author: Basile Morin
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Front_view_of_the_Imperial_Throne_Hall_Geunjeongjeon_at_Gyeongbokgung_Palace_with_blue_sky_in_Seoul.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a4/Front_view_of_the_Imperial_Throne_Hall_Geunjeongjeon_at_Gyeongbokgung_Palace_with_blue_sky_in_Seoul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Front view of the Imperial Throne Hall Geunjeongjeon, at Gyeongbokgung Palace, with blue sky in Seoul , South Korea .
+  width: 6402
+  height: 3601
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: guard-ceremony
+  title: File:Royal Guard Changing Ceremony at Gyeongbokgung.jpg
+  author: Stevenliuyi
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Royal_Guard_Changing_Ceremony_at_Gyeongbokgung.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9b/Royal_Guard_Changing_Ceremony_at_Gyeongbokgung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: royal guard changing ceremony at Gyeongbokgung
+  width: 4925
+  height: 3283
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: snow-walls
+  title: File:KOCIS Korea Snowfall in Gyeongbokgung 14 (11318929223).jpg
+  author: Korea.net / Korean Culture and Information Service (Jeon Han)
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:KOCIS_Korea_Snowfall_in_Gyeongbokgung_14_(11318929223).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/46/KOCIS_Korea_Snowfall_in_Gyeongbokgung_14_%2811318929223%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A Morning’s Snowfall in Seoul December 11, 2013. Gyeongbokgung Palace, Jongno-gu, Seoul Ministry of Culture, Sports and Tourism Korean Culture and Information Service Korea.net( www.korea.net ) JEON HAN 눈 내린 서울 아침 2013-12-11 경복궁, 서울 문화체육관광부 해외문화홍보원 코리아넷 전한
+  width: 5104
+  height: 3179
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: neon-night
+  title: File:Yaowarat at night (32455695783).jpg
+  author: Ninara from Helsinki, Finland
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yaowarat_at_night_(32455695783).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/64/Yaowarat_at_night_%2832455695783%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yaowarat Road, the centre of Bangkok's Chinatown, at night
+  width: 3007
+  height: 1995
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: river-prawns
+  title: File:2016 Bangkok, Dystrykt Samphanthawong, Ulica Yaowarat, Owoce morza (01).jpg
+  author: Marcin Konsek
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:2016_Bangkok,_Dystrykt_Samphanthawong,_Ulica_Yaowarat,_Owoce_morza_(01).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2a/2016_Bangkok%2C_Dystrykt_Samphanthawong%2C_Ulica_Yaowarat%2C_Owoce_morza_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Seafood. Yaowarat Road . Samphanthawong District , Bangkok , Thailand.
+  width: 4652
+  height: 3101
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: pomegranate-juice
+  title: File:2016 Bangkok, Dystrykt Samphanthawong, Ulica Yaowarat, Świeżo wyciskane soki z granatu (01).jpg
+  author: Marcin Konsek
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:2016_Bangkok,_Dystrykt_Samphanthawong,_Ulica_Yaowarat,_%C5%9Awie%C5%BCo_wyciskane_soki_z_granatu_(01).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0a/2016_Bangkok%2C_Dystrykt_Samphanthawong%2C_Ulica_Yaowarat%2C_%C5%9Awie%C5%BCo_wyciskane_soki_z_granatu_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Freshly squeezed pomegranate juice. Yaowarat Road . Samphanthawong District , Bangkok , Thailand.
+  width: 4828
+  height: 2698
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: fried-snacks
+  title: File:2016 Bangkok, Dystrykt Samphanthawong, Ulica Yaowarat, Uliczne jedzenie (01).jpg
+  author: Marcin Konsek
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:2016_Bangkok,_Dystrykt_Samphanthawong,_Ulica_Yaowarat,_Uliczne_jedzenie_(01).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9c/2016_Bangkok%2C_Dystrykt_Samphanthawong%2C_Ulica_Yaowarat%2C_Uliczne_jedzenie_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Street food. Yaowarat Road . Samphanthawong District , Bangkok , Thailand.
+  width: 4503
+  height: 2765
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: road-night
+  title: File:Yaowarat Road at night.jpg
+  author: Christophe95
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yaowarat_Road_at_night.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0e/Yaowarat_Road_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yaowarat Road in Bangkok at night.
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

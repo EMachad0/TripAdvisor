@@ -1,0 +1,16 @@
+# Independent review of fuxing-train-shanghai-beijing. Written by `./atr review`; do not edit by hand.
+id: fuxing-train-shanghai-beijing
+type: place
+reviewed: 2026-11-14
+verdict: pass
+content_hash: 8a1ec4facb79377c16e6fc8e7cdbfc22c96dd85b80182919cf5f421b31343070
+facts:
+  supported: 5
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 59aaabfd50d0937b3377a9457639b90a8b465905eba91e123fc0d4a64abdb1d1
+summary: The changed text is supported. Wikipedia gives the Danyang–Kunshan bridge as 164.8 km and confirms the Dashengguan Bridge carries this line over the Yangtze. Seat61 lists G532 at 06:31→12:18 (5h47) and the metro to Hongqiao at about 40 min for RMB 5. Seat61 does not name Line 2, so that stays unchecked. The lead_time edit only rewords it. The phone render is clean; the desktop check did not run because the page was not built. No blockers or shoulds, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.463

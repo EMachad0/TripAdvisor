@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: chater-road-dec-2025
+  title: File:HK 中環 Central 遮打道 Chater Road 和平紀念碑 The Cenotaph nearby Hong Kong Club Building December 2025 N13P 02.jpg
+  author: BASIOO OOMW10 H00CA
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E9%81%AE%E6%89%93%E9%81%93_Chater_Road_%E5%92%8C%E5%B9%B3%E7%B4%80%E5%BF%B5%E7%A2%91_The_Cenotaph_nearby_Hong_Kong_Club_Building_December_2025_N13P_02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/90/HK_%E4%B8%AD%E7%92%B0_Central_%E9%81%AE%E6%89%93%E9%81%93_Chater_Road_%E5%92%8C%E5%B9%B3%E7%B4%80%E5%BF%B5%E7%A2%91_The_Cenotaph_nearby_Hong_Kong_Club_Building_December_2025_N13P_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: HK 中環 Central 遮打道 Chater Road 和平紀念碑 The Cenotaph nearby buildings in December 2025
+  width: 4080
+  height: 3060
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: tst-promenade-night
+  title: File:HK 尖沙咀 TST Waterfront Promenade near K11 MUSEA night July 2021 SS2 03.jpg
+  author: JaWings 2001
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_Waterfront_Promenade_near_K11_MUSEA_night_July_2021_SS2_03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0b/HK_%E5%B0%96%E6%B2%99%E5%92%80_TST_Waterfront_Promenade_near_K11_MUSEA_night_July_2021_SS2_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: HK 尖沙咀 TST Waterfront Promenade near K11 MUSEA night in July 2021
+  width: 4128
+  height: 3096
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: harbour-fireworks
+  title: File:Victoria Harbour Fireworks Display (6834868007).jpg
+  author: Michael Elleray from England, United Kingdom
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Victoria_Harbour_Fireworks_Display_(6834868007).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/92/Victoria_Harbour_Fireworks_Display_%286834868007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Victoria Harbour Fireworks Display
+  width: 3680
+  height: 2453
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: fireworks-over-central
+  title: File:Kung Hei Fat Choi! (6834861529).jpg
+  author: Michael Elleray from England, United Kingdom
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Kung_Hei_Fat_Choi!_(6834861529).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d1/Kung_Hei_Fat_Choi%21_%286834861529%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The traditional, and famous, Chinese New Year Firework Display over Victoria Harbour was a spectacular event lasting 25-minutes. Tens of thousands of people lined the shores of Kowloon and Hong Kong Island up to 4-hours early in order to get the best views.
+  width: 3788
+  height: 2525
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

@@ -1,0 +1,16 @@
+# Independent review of hk-lny-harbour-fireworks. Written by `./atr review`; do not edit by hand.
+id: hk-lny-harbour-fireworks
+type: place
+reviewed: 2026-11-14
+verdict: pass
+content_hash: dce0d9ffe0a1669f10e9b0354be735923a8bf01d24be0efedd8bf3be2902f08c
+facts:
+  supported: 3
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: b6a8540756ff24df1c484c0a69bf7453c81ae0c4967a083ed17c2847bc6f878a
+summary: No earlier findings to close. All three wording changes match their sources. The Standard (Feb 13, 2026) says seven named MTR lines "will increase frequencies" on the 2nd day. RTHK (Feb 18, 2026) says resident Chan "arrived at around 9am" and that police set up barriers "in preparation for the influx of spectators". The new pin, 22.2937, 114.1742, is on the west end of the Avenue of Stars. No source gives coordinates, so it counts as unsupported, but it is plausible and flagged approximate. The unchanged text has no new blockers.
+model: claude-opus-5-5
+cost_usd: 0.422

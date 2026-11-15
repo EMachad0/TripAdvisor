@@ -1,0 +1,187 @@
+id: womb-shibuya
+name: "WOMB"
+short_name: WOMB
+name_local: ウーム
+name_romanized: Ūmu
+country: japan
+city: tokyo
+area: Shibuya · Maruyamachō
+category: nightlife
+fame: popular
+must_do: japan-clubs
+tags: [club, techno, house, shibuya, late-night]
+kind: Do
+why: "Shibuya's techno and house institution: four floors, lasers and world DJs until 04:30. Entry ¥1,500 on weeknights, ¥4,000–5,000 on big weekends."
+
+cost:
+  local: 4800
+  currency: JPY
+  brl: 168.48
+  note: "A weekend night: ¥4,000 advance ticket plus one ¥800 beer. Door is ¥5,000; weeknight WTW parties ¥1,500"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "23:00 until the first train"
+best_time: "Fri or Sat, arrive around midnight"
+
+book_ahead:
+  required: false
+  notes: "No booking needed: you can pay the DOOR price at the entrance. Most events also sell cheaper advance tickets on their event page. Big headliners can have limited early-bird tickets."
+
+hours:
+  summary: "Events most nights 23:00–04:30. Check the calendar: some nights are dark, and earlier events can have their own rules"
+  winter: "Your Japan dates are now 4–22 Jan 2027. The January 2027 calendar wasn't out on 11 Nov 2026; the site listed events only into late November. The New Year countdown (31 Dec 2026) is before your dates."
+
+location:
+  address: "2-16 Maruyamacho, Shibuya-ku, Tokyo 150-0044"
+  address_local: 〒150-0044 東京都渋谷区円山町2-16
+  lat: 35.65843
+  lng: 139.69505
+  nearest_transit: "Shibuya Station, Hachikō exit, 8 min walk"
+
+sources:
+  - url: https://www.womb.co.jp/en
+    title: "WOMB official site: event calendar (Nov 2026), 23:00–04:30 nights"
+    checked: 2026-11-11
+  - url: https://www.womb.co.jp/en/faq
+    title: "WOMB official FAQ: door tickets, 20+ with photo ID (passport accepted), no re-entry, dress code, lockers"
+    checked: 2026-11-11
+  - url: https://www.womb.co.jp/en/events/111426
+    title: "WOMB event page, KULU (Sat 14 Nov 2026): door ¥5,000, advance ¥4,000"
+    checked: 2026-11-11
+  - url: https://www.womb.co.jp/en/events/111126
+    title: "WOMB event page, WTW (Wed 11 Nov 2026): door ¥1,500"
+    checked: 2026-11-11
+  - url: https://www.womb.co.jp/en/events/111326
+    title: "WOMB event page, Fri 13 Nov 2026: door ¥4,000 (¥2,500 for 23 and under), advance ¥3,000"
+    checked: 2026-11-11
+  - url: https://tokyocheapo.com/entertainment/music-and-nightlife/womb-shibuya-club/
+    title: "Tokyo Cheapo: Womb, the ultimate night out (Dec 2024): floors, drink prices, lockers, payment"
+    checked: 2026-11-11
+  - url: https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-shibuya/spot-lj0072139/
+    title: "LIVE JAPAN: WOMB listing, 8 min walk from Shibuya Hachikō exit"
+    checked: 2026-11-11
+  - url: https://www.jrailpass.com/blog/yamanote-line
+    title: "JRailPass: Yamanote Line guide (updated Jul 2026), first trains from around 04:30"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals 1991–2020"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Entry prices, ID and door rules are from WOMB's own site (Nov 2026 events). January 2027 lineups and prices aren't published yet. Resident Advisor blocked our browser, so it wasn't checked. Drink and locker prices come from a Dec 2024 Tokyo Cheapo article and may have risen."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: entrance
+    hook: A steel door in a Shibuya backstreet. Behind it, lasers, a huge sound system and a crowd that doesn't leave before 4am.
+    focus: center
+  - type: quick_facts
+    time_needed: "23:00 until the first train"
+    best_time: "Fri or Sat, from midnight"
+    extra:
+      - label: ID
+        value: Passport, 20+
+        detail: Photo ID checked at the door
+      - label: Re-entry
+        value: None
+        detail: Once you leave, you're out
+      - label: Pay with
+        value: Card, Suica, PayPay
+        detail: At the bars (Tokyo Cheapo, 2024)
+  - type: highlights
+    items:
+      - title: World DJs, Tokyo crowd
+        text: "In just one November 2026 week the calendar ran from Roman Flügel to **Joseph Capriati**. Global names play alongside Tokyo's resident DJs."
+      - title: Four floors
+        text: "A basement lounge, the laser-lit **main floor**, a premium lounge above it and a small top-floor room where it's easier to chat."
+      - title: Cheap weeknights
+        text: "The **WTW** party (Wednesdays and Thursdays) showcases local DJs, with door entry around **¥1,500** in November 2026."
+      - title: Minutes from the crossing
+        text: "WOMB is in Maruyamachō, about **8 minutes** on foot from Shibuya's Hachikō exit. Pair it with the scramble and Shibuya Sky."
+  - type: prose
+    title: How a night at WOMB works
+    dropcap: true
+    text: |-
+      Doors open at **23:00** and the party runs to **04:30**. Each night is a different promoter's event, so the music and the price change. Check the night's page on womb.co.jp. Weeknights cost about ¥1,500. A standard weekend night is ¥3,000–4,000 in advance or ¥4,000–5,000 at the door. A star headliner can reach ¥8,000. Some events knock **¥1,500 off for 23 and under**.
+
+      Bring your **passport**: entry is 20+ with photo ID. There is no dress code beyond "appropriate for a public venue", and there's no re-entry. Coin lockers exist but there aren't many.
+
+      The last trains run around 1am, before the party peaks, so plan to stay until the end. The night ends at 04:30, and the Yamanote Line's first trains run from around 04:30.
+  - type: gallery
+    images:
+      - file: vj-booth
+        caption: "A VJ's setup inside WOMB, 2013. No free photos of the dancefloor exist"
+  - type: quote
+    variant: vibe
+    text: Bass in your chest, lasers cutting the smoke, and a 4:30am walk to the station with people you met on the dancefloor.
+  - type: menu
+    title: Entry and drinks
+    items:
+      - name: Weeknight entry (WTW)
+        price_local: 1500
+        price_brl: 52.65
+        note: "Door price, Wed 11 Nov 2026"
+        tag: cheap
+      - name: Weekend advance ticket
+        price_local: 4000
+        price_brl: 140.4
+        note: "KULU, Sat 14 Nov 2026. Bought online on the event page"
+        tag: signature
+      - name: Weekend door ticket
+        price_local: 5000
+        price_brl: 175.5
+        note: "Same night at the door. Big headliners up to ¥8,000"
+      - name: Beer or cocktail
+        price_local: 800
+        price_brl: 28.08
+        note: "From about ¥800 (Tokyo Cheapo, Dec 2024)"
+        tag: drink
+      - name: Shot
+        price_local: 600
+        price_brl: 21.06
+        note: "From about ¥600"
+        tag: drink
+      - name: Soft drink
+        price_local: 500
+        price_brl: 17.55
+        note: "From about ¥500"
+        tag: drink
+    note: "Entry prices change every night. Check the event page for the night you want. Drink prices are from 2024 and may be higher now."
+  - type: cost_breakdown
+    items:
+      - label: Weekend advance ticket
+        local: 4000
+        brl: 140.4
+      - label: One beer
+        local: 800
+        brl: 28.08
+      - label: "Door price instead of advance (+¥1,000)"
+        local: 1000
+        brl: 35.1
+        optional: true
+    note: "A WTW weeknight is ¥1,500 at the door, which leaves room for a few drinks."
+  - type: map
+    zoom: 16
+    note: "From the **Hachikō exit**, it's about 8 minutes on foot to Maruyamachō. Show the taxi driver the Japanese address."
+  - type: tips
+    variant: insider
+    items:
+      - "Buy the **advance ticket** on the event page as soon as you pick a night. It's usually ¥1,000 less than the door."
+      - "Going alone? Wednesday and Thursday **WTW** nights are cheap and local. Better still, bring people from your hostel."
+      - "Stay until the end: the party closes at **04:30**, just as the first trains start."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No ID, no entry. Bring your **physical passport**: it's on WOMB's list of accepted ID, with a driver's licence and Japan's My Number card."
+      - "**No re-entry.** Stepping out for air or a convenience-store run ends your night."
+      - "Don't bring food or drinks: they're confiscated at the door."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry nights
+    note: "Tokyo's January averages 1 °C at night. You'll queue outside around midnight and walk out at 04:30 near freezing. Lockers are limited, so a coat you can carry or stash matters."
+    wear: Layers you can strip down to and a packable warm jacket
+  - type: pairs_well
+    items:
+      - id: shibuya-crossing-and-sky
+        note: "About 8 min walk. Sunset on the roof, then the club"

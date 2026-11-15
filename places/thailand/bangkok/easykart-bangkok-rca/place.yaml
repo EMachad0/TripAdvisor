@@ -1,0 +1,124 @@
+id: easykart-bangkok-rca
+name: "EasyKart Bangkok (RCA Plaza)"
+short_name: EasyKart Bangkok
+name_local: โกคาร์ท RCA Plaza
+country: thailand
+city: bangkok
+area: "RCA · Huai Khwang"
+category: odd-local
+fame: hidden
+tags: [go-kart, racing, indoor, weekday-afternoon, rainy-day]
+kind: Do
+why: "Your own race on one of Asia's biggest indoor kart tracks: 8 timed minutes, lap times on screen, a podium. Opens 13:00, so it fits a work-day afternoon."
+
+cost:
+  local: 699
+  currency: THB
+  brl: 116.73
+  note: "One 8-minute race in a regular kart (35 km/h), official price list, Nov 2026"
+fx: { rate: 0.167, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1–1.5 h (briefing + one race)"
+best_time: "Weekday 13:00–17:00, before your 19:00 shift"
+
+book_ahead:
+  required: recommended
+  lead_days: 0
+  lead_time: "Same day: phone or check the Bangkok slot schedule before you go"
+  method: phone
+  links:
+    - { label: Call EasyKart Bangkok, url: "tel:+66 2 641 4252", note: "The FAQ recommends confirming a Bangkok visit by phone" }
+    - { label: Bangkok time slots, url: "https://easykart.net/bangkok/#available-slots", note: "Check the schedule; book online for fast check-in" }
+  notes: "Only the Bangkok track asks you to confirm first: the official FAQ says the other branches take walk-ins. Your window is short (13:00–17:00 on work days), so check before crossing town."
+
+hours:
+  summary: "Mon–Thu 13:00–21:00 · Fri–Sun 13:00–23:00; races start every 10 min"
+  winter: "Indoors, so weather doesn't matter. No holiday closures are listed on the official site; it says hours can change on the day."
+
+location:
+  address: "RCA Plaza, 2nd floor, 31/11 Rama 9 Rd (RCA), Bang Kapi, Huai Khwang, Bangkok 10310"
+  address_local: "EasyKart โกคาร์ท RCA Plaza ชั้น 2 ถนนพระราม 9 แขวงบางกะปิ เขตห้วยขวาง กรุงเทพฯ 10310"
+  lat: 13.74732
+  lng: 100.57933
+  nearest_transit: "MRT Phetchaburi, then a short taxi or Grab (no station at RCA)"
+
+sources:
+  - url: https://easykart.net/bangkok/
+    title: "EasyKart Bangkok (RCA Plaza): karts, rates, hours, safety rules (official site)"
+    checked: 2026-11-13
+  - url: https://easykart.net/faq/
+    title: "EasyKart FAQ: do I need to book? (official site)"
+    checked: 2026-11-13
+  - url: https://thethaiger.com/guides/best-of/things-to-do/adrenaline-rush-at-bangkoks-best-go-kart-racing-venues
+    title: "Adrenaline rush at Bangkok's best go-kart racing venues (The Thaiger)"
+    checked: 2026-11-13
+  - url: https://www.littledayout.com/easykart-bangkok-go-karting-indoor/
+    title: "EasyKart Bangkok: indoor go-karting (Little Day Out, 2017 visit)"
+    checked: 2026-11-13
+  - url: https://www.khaosanroad.com/articles/party-streets-in-bangkok-khao-san-sukhumvit-rca-patpong
+    title: "Top party streets in Bangkok: RCA, getting there (khaosanroad.com)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Prices, kart specs, hours and rules from the official Bangkok page (13 Nov 2026). The Thaiger lists the weekday and weekend hours the other way round; the official site wins. Shoe rental is from a 2017 review only. It is a motor kart on a flat indoor track, not a gravity cart."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: rca-plaza
+    hook: "Full-face helmet on, lights go green, and a timing screen tells you exactly how slow you were."
+    caption: "RCA Plaza, home of the track (2nd floor). No free photo of the track itself"
+  - type: quick_facts
+    time_needed: "1–1.5 h"
+    best_time: "Weekday, 13:00–17:00"
+    extra:
+      - { label: Slot, value: Weekday afternoon, detail: "Mon 4–Fri 8 Jan, done well before your 19:00 shift" }
+      - { label: Karts, value: "35 or 55 km/h", detail: "Regular 12+ (135 cm) · Fast 15+ (150 cm), 200 cc" }
+      - { label: Good in rain, value: "Yes, fully indoors" }
+  - type: highlights
+    items:
+      - title: You drive, not watch
+        text: "You're the one in the seat. **Regular karts** top out at 35 km/h; **fast karts** (200 cc) reach 55 km/h on the advanced track."
+      - title: Lap times and a podium
+        text: "Every lap is timed and shown live; the fastest of each heat gets the **podium**, and there's a monthly leaderboard to try to break."
+      - title: A race every 10 minutes
+        text: "Open-time tickets, at the counter or online, and **races start every 10 minutes** (call ahead to check the track is open to the public). A safety briefing comes first; full-face helmets are provided."
+      - title: Pool table while you wait
+        text: "A trackside lounge with drinks, snacks, a **free pool table** and foosball, with a view of the circuit."
+  - type: prose
+    title: What it is, and what it isn't
+    text: |-
+      Motor karts on a flat indoor track, in the middle of Bangkok, open from 13:00: a race you drive yourself that fits a work-day afternoon. It is **not** a gravity kart. For a no-motor luge cart down a mountain, see Thongsomboon Club near Khao Yai (a weekend day trip) or Skyline Jungle Luge near Chiang Mai (a weekend up north).
+
+      **Is it worth R$117, more than a whole day's budget?** It's an 8-minute race. Do it once, in the regular kart, as the day's one thing, and keep the rest of the day to free sights. If the first race hooks you, the 3-race pack (with a T-shirt) works out cheaper per race than buying them one at a time.
+  - type: cost_breakdown
+    items:
+      - { label: "1 race, regular kart (8 min)", local: 699, brl: 116.73 }
+      - { label: "Fast kart instead: 2 races (8 min each)", local: 1499, brl: 250.33, optional: true }
+      - { label: "3 races + T-shirt (regular or fast)", local: 1999, brl: 333.83, optional: true }
+  - type: map
+    note: "Track is on the **2nd floor of RCA Plaza**. RCA is Bangkok's club strip, which is busy after dark and quiet in the afternoon."
+  - type: tips
+    variant: insider
+    items:
+      - "**Closed-toe shoes are mandatory**. Bring sneakers, not flip-flops (a 2017 review says they rent shoes, but don't count on it)."
+      - "Racing suits are free to borrow if you want the photo."
+      - "Before you go, **phone +66 2 641 4252** or check the Bangkok slot schedule: the FAQ recommends confirming a Bangkok visit first."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Weekday hours end at **21:00**, but with your 19:00 start, aim to be done by 17:00."
+      - "Reckless driving isn't allowed: marshals can **slow or stop any kart by remote**."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Indoors; Bangkok is dry and hot in January"
+    note: "Weather is irrelevant once you're inside. A helmet and a race in the heat leave you sweaty, so bring water."
+    wear: "Sneakers (closed-toe required), light clothes"
+  - type: pairs_well
+    items:
+      - { id: thongsomboon-club-luge, note: "A real gravity luge, a train ride away near Khao Yai" }
+      - { id: onyx-rca-club, note: "Same RCA strip; the club for a Saturday night" }
+      - { id: jodd-fairs-rama-9, note: "Night market on the same Rama 9 Road" }

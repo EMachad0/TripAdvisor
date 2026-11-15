@@ -1,0 +1,124 @@
+id: terminal-21-asok
+name: "Terminal 21 Asok"
+short_name: Terminal 21
+name_local: เทอร์มินอล 21 อโศก
+country: thailand
+city: bangkok
+area: "Sukhumvit · Asok"
+category: shopping
+fame: popular
+tags: [mall, themed, food-court, cheap-eats, free, air-conditioned]
+kind: Do
+why: "A mall built like an airport, each floor a city (Tokyo, London, Istanbul, a Golden Gate Bridge) and a food court where plates cost ฿40–90."
+cost:
+  local: 0
+  currency: THB
+  brl: 0
+  note: "Free to walk around. Pier 21 plates about ฿40–90 (Travjoy); other guides say ฿30–150"
+fx: { rate: 0.167, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: "Weekday lunch, Mon–Fri Jan 4–8"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 10:00–22:00"
+  winter: "No special hours or closures listed for early January. Pier 21 follows mall hours; the Monchai blog notes hours may vary on holidays."
+
+location:
+  address: "88 Sukhumvit Soi 19 (Wattana), Sukhumvit Rd, North Khlong Toei, Watthana, Bangkok 10110"
+  address_local: "เทอร์มินอล 21 อโศก 88 ซอยสุขุมวิท 19 (วัฒนา) ถนนสุขุมวิท แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพฯ 10110"
+  lat: 13.73787
+  lng: 100.56041
+  nearest_transit: "BTS Asok, Exit 1; MRT Sukhumvit, Exit 3"
+
+sources:
+  - url: https://www.terminal21.co.th/asok/contactus/en
+    title: "Contact Us: address and opening hours (Terminal 21 Asok, official)"
+    checked: 2026-11-13
+  - url: https://www.terminal21.co.th/asok/howtogo/en
+    title: "How to Go: BTS Asok Exit 1, MRT Sukhumvit Exit 3, buses (Terminal 21 Asok, official)"
+    checked: 2026-11-13
+  - url: https://travjoy.com/blog/terminal-21-asok-a-complete-bangkok-shopping-guide-for-discerning-travellers-floors-food-and-what-s-worth-buying
+    title: "Terminal 21 Asok: a complete Bangkok shopping guide (Travjoy, 2026): floors, Pier 21 card and prices"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Terminal_21
+    title: "Terminal 21: opening date, themed floors, longest escalators (Wikipedia)"
+    checked: 2026-11-13
+  - url: https://nationthailand.com/life/food/40048381
+    title: "Terminal 21 food court: Bangkok's best budget bites (The Nation, 5 Apr 2025)"
+    checked: 2026-11-13
+  - url: https://www.timeout.com/bangkok/shopping/terminal21
+    title: "Terminal21 Asok (Time Out Bangkok, Jul 2026)"
+    checked: 2026-11-13
+  - url: https://thailandwithmonchai.com/blogs/terminal-21s-food-court-is-it-still-bangkoks-best-bargain-in-march-2025
+    title: "Terminal 21's Food Court: Is It Still Bangkok's Best Bargain? (Thailand with Monchai, Mar 2025)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Hours, address and transit are from the official site. Floor themes and the Pier 21 card rules are from Travjoy (2026). Pier 21 prices differ by source: ฿40–90 (Travjoy, 2026), ฿30–50 (The Nation, 2025), under ฿40 to ฿150 (Time Out, 2026). The ฿100 minimum top-up is from Travjoy only."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: golden-gate-pier21
+    hook: "Fly from Tokyo to Istanbul on the escalators, then land at a food court with ฿50 plates."
+    caption: "The red Golden Gate span by the Pier 21 food court, Dec 2025"
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: "Weekday lunch"
+    extra:
+      - { label: Your slot, value: "Mon–Fri Jan 4–8, lunch", detail: "Free entry, done well before your 19:00 shift" }
+      - { label: Food court, value: "Pier 21, 5th floor", detail: "Prepaid card; plates about ฿40–90" }
+      - { label: Good in heat, value: "Yes", detail: "Fully indoor, linked to the BTS and MRT" }
+  - type: highlights
+    items:
+      - title: A different city on every floor
+        text: "Caribbean on LG, then **Rome, Paris, Tokyo, London, Istanbul**, San Francisco on 4 and 5, and Hollywood with the cinema on 6. London has red phone boxes; San Francisco has a Golden Gate span overhead."
+      - title: Pier 21, the cheap food court
+        text: "About thirty stalls on the 5th floor. Travjoy (2026) puts most plates at **฿40–90**, close to street-food prices, in air-conditioning."
+      - title: An airport, mostly as a joke
+        text: "Departure boards in the atrium and escalators signed as gates. The toilets are themed for their floor's city too, so peek in on each level."
+      - title: A 36-metre escalator
+        text: "Wikipedia lists Terminal 21's escalators, up to **36 m**, as the longest in Thailand. Travjoy says the long one runs from M straight up to Istanbul on 3."
+  - type: prose
+    title: Lunch before your shift
+    dropcap: true
+    text: |-
+      Terminal 21 opened in 2011 on the corner of Sukhumvit and Asok, and it's one of Bangkok's most useful malls for a backpacker. It sits on top of both BTS Asok and MRT Sukhumvit, it's free and air-conditioned, and the food court is cheap.
+
+      You don't need to buy anything. The reason to go is the decor. Ride the escalators up through the cities and take photos on each floor, then eat on the 5th floor. On a weekday, come for lunch: it's on the same BTS line as Siam, and it fits easily before a 19:00 shift.
+  - type: gallery
+    images:
+      - { file: long-escalator, caption: "Looking down the long escalator from the upper floors" }
+      - { file: escalator-glass, caption: "Escalators in the glass atrium over Sukhumvit" }
+      - { file: exterior, caption: "Terminal 21 on Sukhumvit Road, at the Asok crossroads" }
+  - type: cost_breakdown
+    items:
+      - { label: Entry and the themed floors, local: 0, brl: 0 }
+      - { label: "Lunch at Pier 21 (one plate plus a drink)", local: 90, brl: 15.03, optional: true, estimate: true }
+  - type: map
+    note: "The pin is the mall on the Sukhumvit–Asok corner. Pier 21 is on the **5th floor**; take the escalators up through the city floors."
+  - type: tips
+    variant: insider
+    items:
+      - "**Pier 21 card**: load it at the counter at the food-court entrance (from ฿100 per Travjoy), tap it at the stalls, and hand it back on the way out for your change. Stalls don't take cash."
+      - "Soi Cowboy is just off Asok too, if you come back on a free night."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Unused credit on the food card is refunded only **on the same day** at the mall (Travjoy). Cash it in before you leave."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; the cool season
+    note: "Weather doesn't matter here: it's indoor and air-conditioned, and you reach it from the BTS without going outside."
+    wear: "Light clothes, plus a thin layer for the air-conditioning"
+  - type: pairs_well
+    items:
+      - { id: soi-cowboy, note: "Around the corner, for a free night" }
+      - { id: mahanakhon-skywalk, note: "BTS to Siam, then the Silom line to Chong Nonsi" }

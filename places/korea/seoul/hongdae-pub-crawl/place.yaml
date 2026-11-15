@@ -1,0 +1,166 @@
+id: hongdae-pub-crawl
+name: "Hongdae Pub Crawl"
+name_local: 홍대 펍 크롤
+country: korea
+city: seoul
+area: Mapo-gu · Hongdae
+category: nightlife
+fame: popular
+tags: [bar, pub-crawl, hongdae, solo-friendly, hostel-crew]
+kind: Do
+why: "₩25,000 gets you 3 bars, a club, 4 shots and a crowd of strangers who become your crew. Sat 16 Jan, your free night, is on sale."
+
+cost:
+  local: 25000
+  currency: KRW
+  brl: 103.9
+  note: "General admission on the Jan 2027 listings; buy online, no cash at the meeting point"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "4–5 h from 20:30"
+best_time: "Sat 16 Jan (your free night); check in 20:30–21:40"
+
+book_ahead:
+  required: true
+  lead_days: 1
+  lead_time: "Buy online before you go: no cash payment at the meeting point"
+  method: website
+  links:
+    - label: "The Seoul Pub Crawl: Sat 16 Jan"
+      url: "https://www.tickettailor.com/events/sgwx/2519486"
+      note: "Official ticket page, Mike's Cabin start, check-in from 20:30"
+    - label: "All dates (Fri Hongdae, Sat Hongdae)"
+      url: "https://www.tickettailor.com/events/sgwx"
+      note: "Fri and Sat crawls listed up to Sat 16 Jan 2027 (checked 12 Nov 2026)"
+    - label: "Absolute pub crawl on Trazy"
+      url: "https://www.trazy.com/experience/detail/seoul-pub-crawl"
+      note: "Another operator, ages 19–40; book by 16:00 the day before. Trazy lists the days inconsistently"
+  notes: "Late-cancellation rules: 15% fee up to 7 days before, 50% up to 48 h before, nothing back after that."
+
+hours:
+  summary: "Fri and Sat; check in 20:30–21:40 at the first bar. No end time published (Absolute's crawl lists about 01:00)"
+  closed: "Sun–Thu (The Seoul Pub Crawl)"
+  winter: "Runs in winter. In your Korea dates (10–20 Jan) the listed Hongdae nights are Fri 15 Jan (a work night: the 20:30 check-in clashes with your 21:00 shift) and Sat 16 Jan, your free night. The list stops at 16 Jan for now. The walks between bars are short, but at −5 °C."
+
+location:
+  address: "Mike's Cabin Hongdae (Saturday meeting point), B1, 94-13 Eoulmadang-ro, Mapo-gu, Seoul"
+  address_local: 서울특별시 마포구 어울마당로 94-13 지하1층 (마이크스 캐빈 홍대점)
+  lat: 37.55315
+  lng: 126.92252
+  nearest_transit: "Hongik University station (Line 2), about 500 m"
+
+sources:
+  - url: https://www.tickettailor.com/events/sgwx
+    title: "SGW events / The Seoul Pub Crawl on Ticket Tailor: Fri/Sat Hongdae and Itaewon crawls listed to Sat 16 Jan 2027"
+    checked: 2026-11-12
+  - url: https://www.tickettailor.com/events/sgwx/2519484
+    title: "Hongdae Pub Crawl, Fri 15 Jan 2027: ₩25,000, 3 bars + 1 club, 4 shots, meeting point, ID and dress rules, cancellation policy"
+    checked: 2026-11-12
+  - url: https://www.tickettailor.com/events/sgwx/2519486
+    title: "Hongdae Pub Crawl, Sat 16 Jan 2027 (Mike's Cabin Hongdae), 20:30 KST"
+    checked: 2026-11-12
+  - url: https://www.tickettailor.com/events/sgwx/1962241
+    title: "2026 NYE Pub Crawl, Hongdae (31 Dec 2025): regular ticket ₩30,000, countdown at a Hongdae bar"
+    checked: 2026-11-12
+  - url: https://www.trazy.com/experience/detail/seoul-pub-crawl
+    title: "Seoul Nightlife Tour: Pub Crawl by Absolute (Trazy): ages 19–40, dress code, ends about 01:00"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals, mean high 2.1 °C, mean low −5.5 °C"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Dates and price from the organiser's Ticket Tailor pages (12 Nov 2026); bars change weekly. Trazy showed me US$18.7 for Absolute, but the price may not show for every visitor, so it is not used here; Trazy's header says Thu/Fri/Sat/Sun, its itinerary Hongdae Thu/Sat/Sun. Unclear if the two operators are one company. Nothing listed after 16 Jan yet."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: hongdae-night-crossing
+    caption: "Hongdae at night. No free photo of the crawl itself exists"
+    hook: "Wristband on, a shot in every bar, and by the time you reach the club you are out with a crew."
+  - type: quick_facts
+    time_needed: "4–5 h"
+    best_time: "Sat 16 Jan, by 21:40"
+    extra:
+      - { label: Includes, value: "3 bars, 1 club, 4 shots", detail: "Plus skip-the-line entry and wristband discounts" }
+      - { label: Bring, value: Physical photo ID, detail: "No photocopies; 19+ (international age)" }
+      - { label: Club age limit, value: "Can be 19–34", detail: "First 3 bars have no age limit" }
+  - type: highlights
+    items:
+      - title: Built for solo travelers
+        text: "A **party captain** collects everyone at the first bar and walks the group from venue to venue. You don't need a hostel crew to go out: this makes one."
+      - title: Cheap for Hongdae
+        text: "₩25,000 covers **4 shots or drinks, three bars and a club**, with skip-the-line, guaranteed entry, from the organiser's own ticket page."
+      - title: On sale for your free night
+        text: "The Seoul Pub Crawl lists a Hongdae crawl on **Sat 16 Jan**, the one night in Korea with no shift before or after. An Itaewon crawl runs the same night."
+      - title: Then you're out with friends
+        text: "The last stop is a club. The organiser doesn't publish an end time (Absolute's similar crawl says about 01:00); after that you are in Hongdae with a group and a wristband."
+  - type: prose
+    title: Which night works for you
+    text: |-
+      In your Korea dates (10–20 Jan) there are two listed Hongdae nights. **Sat 16 Jan**, starting at Mike's Cabin, is the one that fits: no shift that night and none on Sunday. **Fri 15 Jan** starts at **Dokkaebi Party House** (22 Wausan-ro 17-gil; the organiser says that is *not* Dokkaebi club), but check-in at 20:30 runs straight into your 21:00 shift.
+
+      Sunday 10 Jan, your arrival day, has no crawl (they only run Fridays and Saturdays). If the Hwacheon ice festival also lands on Sat 16 Jan, take a mid-afternoon bus back: the Hwacheon page has the bus times, and check-in closes at 21:40.
+  - type: gallery
+    images:
+      - file: hongdae-night-street
+        caption: "Hongdae's main road after dark"
+      - file: hongdae-alley
+        caption: "A side street off the main drag"
+        focus: "50% 60%"
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "Buy on Ticket Tailor (card). Cancelling 7 or more days out costs 15%."
+      - days_before: 2
+        text: "Last day to cancel for 50% back. After that there are no refunds."
+      - days_before: 0
+        text: "Be at the first bar **between 20:30 and 21:40**, show your QR code or name, and collect your wristband and drink coupons. No-shows and late arrivals get no refund."
+  - type: menu
+    title: What the night costs
+    items:
+      - name: Pub crawl ticket (The Seoul Pub Crawl)
+        name_local: 펍 크롤 티켓
+        price_local: 25000
+        price_brl: 103.9
+        note: "3 bars + 1 club, 4 shots/drinks, guaranteed entry"
+        tag: signature
+      - name: Absolute pub crawl (Trazy)
+        note: "3 pubs + 1 club, 3+ shots, ages 19–40; price not always shown publicly: check on Trazy before booking"
+        tag: cheap
+      - name: Last year's New Year's Eve crawl
+        price_local: 30000
+        price_brl: 124.68
+        note: "Regular ticket for 31 Dec 2025; you are not in Korea for NYE 2026"
+    note: "Drinks beyond the included shots are at bar prices, with wristband discounts at some venues. Prices are from the operators' pages, 12 Nov 2026."
+  - type: cost_breakdown
+    items:
+      - label: Pub crawl ticket
+        local: 25000
+        brl: 103.9
+  - type: map
+    zoom: 16
+    note: "Saturday crawls meet at Mike's Cabin (B1, 94-13 Eoulmadang-ro). Friday crawls meet at Dokkaebi Party House, 22 Wausan-ro 17-gil, about 300 m south. Ask a bartender for the pub-crawl captain."
+  - type: tips
+    variant: insider
+    items:
+      - "**Dress to impress** (the organiser's words): no sportswear, running or trekking shoes, big backpacks, flip-flops, or sandals and tank tops for men."
+      - "Message **@seoul_pub_crawl** on Instagram for changes; the organiser says email and Ticket Tailor messages are slow."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Arrive after **21:40** and you lose the ticket: no refund for late arrivals."
+      - "The final club **may limit entry to ages 19–34**, and Absolute's crawl only takes ages 19–40. Check before you buy if that matters for you."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: "Freezing, dry nights"
+    note: "January nights average −5.5 °C (Wikipedia). Each walk between bars is a few minutes of cold, then a hot basement."
+    wear: "A warm jacket, plus shoes that pass the dress code"
+  - type: pairs_well
+    items:
+      - id: hongdae-club-night
+        note: "Where the night goes after the crawl"
+      - id: jins-paradise-hongdae
+        note: "Hongdae hostel a short walk away"
+      - id: t1-base-camp
+        note: "T1's PC bang is in Hongdae too: an afternoon before the crawl"

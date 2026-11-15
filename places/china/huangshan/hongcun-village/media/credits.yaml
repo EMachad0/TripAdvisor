@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: south-lake
+  title: File:South Lake, Hongcun.jpg
+  author: EditQ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:South_Lake,_Hongcun.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e4/South_Lake%2C_Hongcun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: South Lake, Hongcun
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: moon-pond
+  title: File:Moon Pond, Hongcun.jpg
+  author: EditQ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Moon_Pond,_Hongcun.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8c/Moon_Pond%2C_Hongcun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Moon Pond
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: morning-lanes
+  title: File:Yixian Hongcun 2016.09.10 07-00-51.jpg
+  author: Zhangzhugang
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yixian_Hongcun_2016.09.10_07-00-51.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8f/Yixian_Hongcun_2016.09.10_07-00-51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 宏村 月沼、乐叙堂
+  width: 5472
+  height: 3648
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: south-lake-bridge
+  title: File:Hongcun South Lake 20141110.JPG
+  author: 颐园新居
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hongcun_South_Lake_20141110.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b2/Hongcun_South_Lake_20141110.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​宏村南部南湖
+  width: 2560
+  height: 1600
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

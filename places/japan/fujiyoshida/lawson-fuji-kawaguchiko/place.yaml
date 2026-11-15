@@ -1,0 +1,162 @@
+id: lawson-fuji-kawaguchiko
+name: "Konbini Fuji shots and Lake Kawaguchi"
+short_name: Konbini Fuji shots
+name_local: ローソン河口湖駅前店 / 大石公園
+name_romanized: Roson Kawaguchiko · Oishi Koen
+country: japan
+city: fujiyoshida
+area: Fujikawaguchiko town
+category: views
+fame: popular
+tags: [mt-fuji, convenience-store, viral, lake, viewpoint, day-trip, photo-spot]
+kind: See
+why: "Fuji rising over a convenience store: the viral Lawson (screen gone) plus quieter 7-Eleven versions, and the lake shore at Oishi Park."
+
+cost:
+  local: 5500
+  currency: JPY
+  brl: 194.7
+  note: "Bus from Shinjuku and back online (¥4,000) plus the ¥1,500 lake bus day pass. Skip the lake and it's ¥4,000, the bus alone."
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Full day from Tokyo; 30 min at the store"
+best_time: "Before 9:00; winter Fuji stays out most of the day"
+
+book_ahead:
+  required: recommended
+  lead_days: 3
+  lead_time: "Bus seats are reserved; sales open one month ahead"
+  method: website
+  links:
+    - label: Fujikyu highway bus (Shinjuku route)
+      url: "https://bus.fujikyu.co.jp/en/highway/fujisan/shinjuku-kawaguchiko/"
+      note: "¥2,000 online, ¥2,200 at the counter; about 1 h 45 to Kawaguchiko Station"
+    - label: Lake bus day pass (Jorudan app)
+      url: "https://ticket.jorudan.co.jp/fujikyubus/ksm-2d/en"
+      note: "¥1,500 for unlimited Red, Green and Blue Line rides for one day"
+  notes: "The store and the lake need no booking. Only the highway bus is reserved; the Busta Shinjuku counter (from 5:40) also sells tickets."
+
+hours:
+  summary: "The view is from a public pavement, any time; Oishi Park is an open lakeside park"
+  winter: "Winter is the best season: isfujivisible rated Fuji clear on every January 2026 day and 84–87% of December days. Cold, dry and bright. No seasonal closures apply to the pavement or the park."
+
+location:
+  address: "Lawson Kawaguchiko Ekimae, 3495-2 Funatsu, Fujikawaguchiko, Yamanashi"
+  address_local: 山梨県南都留郡富士河口湖町船津3495-2 ローソン河口湖駅前店
+  lat: 35.49804
+  lng: 138.76701
+  nearest_transit: "Kawaguchiko Station (Fujikyu Railway, highway buses), 2–3 min walk west"
+
+sources:
+  - url: "https://isfujivisible.com/blog/mount-fuji-lawson-photo-spot"
+    title: "isfujivisible.com, updated 22 Aug 2026: is the Lawson view still blocked? (timeline, barriers, where to stand, clear-sky odds)"
+    checked: 2026-11-13
+  - url: "https://www.timeout.com/tokyo/news/the-mt-fuji-barrier-at-lawson-in-kawaguchiko-is-back-up-again-081525"
+    title: "Time Out Tokyo, 15 Aug 2025: a lower 1.4 m barrier goes up opposite the Lawson, leaving the view open"
+    checked: 2026-11-13
+  - url: "https://japanstartshere.com/2025/09/04/convenience-store-with-view-of-mt-fuji/"
+    title: "Japan Starts Here (Sept 2025): convenience stores with Fuji views besides the Lawson (7-Elevens at Gekkoji and Yamanakako)"
+    checked: 2026-11-13
+  - url: "https://bus.fujikyu.co.jp/en/highway/fujisan/shinjuku-kawaguchiko/"
+    title: "Fujikyu Bus: Shinjuku – Kawaguchiko highway bus (¥2,000 online, 1 h 45 min, reservations one month ahead)"
+    checked: 2026-11-13
+  - url: "https://bus.fujikyu.co.jp/en/news/detail/mmpatv00000002xx.html"
+    title: "Fujikyu Bus news, 24 Aug 2026: booking split between Fujiyama Connect and Highwaybus.com from 1 Oct 2026"
+    checked: 2026-11-13
+  - url: "https://ticket.jorudan.co.jp/fujikyubus/ksm-2d/en"
+    title: "Jorudan / Fujikyu Bus: Mt. Fuji North Area 1-day pass ¥1,500 (Red, Green, Blue Lines; Oishi Park stop)"
+    checked: 2026-11-13
+  - url: "https://www.japan-travel-kit.com/guides/attractions/kawaguchiko-day-trip-from-tokyo"
+    title: "Japan Travel Kit: Kawaguchiko day trip from Tokyo 2026 (bus vs train, Red Line to Oishi Park, single fares from ¥180)"
+    checked: 2026-11-13
+  - url: "https://www.fujikyu-railway.jp/en/fare/"
+    title: "Fujikyu Railway (official): fare table, Kawaguchiko–Shimoyoshida ¥310"
+    checked: 2026-11-13
+  - url: "https://sunrise-sunset.org/search?location=Fujiyoshida"
+    title: "Sunrise-sunset.org: sunrise and sunset near Mt Fuji (late January about 06:50)"
+    checked: 2026-11-13
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=49&block_no=47640"
+    title: "JMA: climate normals 1991–2020, Kawaguchiko (January)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Barrier status rests on isfujivisible (Aug 2026, with dated visitor photos) and Time Out (Aug 2025); no official town notice found, so check on arrival. The 7-Eleven spots (Gekkoji, Lake Yamanaka) come from one blog (Sept 2025); check the view on a map first. Clear-sky odds are isfujivisible's forecast scores, not observations."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: lawson-dusk
+    caption: "The Kawaguchiko Station Lawson with Fuji above its roof"
+    hook: "A blue-and-white shop sign, a parked car and the most famous volcano on Earth: the photo that made a town put up a wall."
+  - type: quick_facts
+    time_needed: Full day from Tokyo
+    best_time: Before 9:00
+    extra:
+      - { label: Screen, value: "Gone since Aug 2024", detail: "A 1.4 m fence (Aug 2025) keeps people out of the road, not the view" }
+      - { label: Which store, value: "Kawaguchiko Ekimae", detail: "3495-2 Funatsu, ~200 m from the station" }
+      - { label: 7-Eleven?, value: "Yes, several", detail: "By Gekkoji Station (Fujiyoshida) and at Lake Yamanaka" }
+  - type: highlights
+    items:
+      - title: The shot, as it is now
+        text: "The 2024 **black screen** came down that August. Now there's a **1.4 m fence** (Aug 2025) and no-crossing barriers, and 2026 visitor photos show Fuji clear above the roof. Scaffolding on the building to the right sits at the edge of the frame."
+      - title: Which Lawson it is
+        text: "The viral one is the **Lawson Kawaguchiko Ekimae**, two to three minutes on foot west of Kawaguchiko Station. A second Lawson 1.2 km away also has Fuji behind it, with no crowd."
+      - title: The 7-Eleven versions
+        text: "Fuji rises behind several 7-Elevens too. A blogger rates the one by **Gekkoji Station** (Fujiyoshida, one stop from the Chureito Pagoda) among Japan's prettiest, and the one on **Lake Yamanaka**'s east shore for its light."
+      - title: Then the lake
+        text: "The **Red Line** sightseeing bus runs along Lake Kawaguchi's north shore to **Oishi Park**, where Fuji stands across the water. A ¥1,500 day pass covers the Red, Green and Blue Lines."
+  - type: prose
+    title: Where to stand, and why it matters
+    dropcap: true
+    text: |-
+      The frame only works from the **far side of the road**, looking back at the shop with Fuji behind it. From the store's own car park you just get a photo of a shop. That is how the trouble started: people realised they were on the wrong side and ran across a two-lane road near a busy station.
+
+      So use the **signalised crossing about 80 m along**. The forecourt opposite belongs to a dental clinic that uses it to drop off elderly patients. The clinic says it doesn't mind photos, only the parking, rubbish and people in the road. Take the picture, keep the pavement clear and move on.
+
+      If it's busy, walk 15 minutes to the **Lawson Fujikawaguchiko Machiyakubamae** (1395-1 Funatsu). It also has Fuji behind it, and nobody is managing a crowd there.
+  - type: gallery
+    images:
+      - file: lawson-day
+        caption: "The same store by day, with the no-crossing signs"
+      - file: seven-eleven-sign
+        caption: "A 7-Eleven car-park sign with Fuji behind (2018; the store isn't named)"
+      - file: oishi-park
+        caption: "Fuji across Lake Kawaguchi from Oishi Park"
+      - file: lake-dawn
+        caption: "Lake Kawaguchi at first light"
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "Book the **Shinjuku → Kawaguchiko Station** bus online (¥2,000 each way). Take the earliest bus you can and a late-afternoon bus back."
+      - days_before: 1
+        text: "Check the Fuji forecast on **isfujivisible.com**. If clouds are forecast, move the day."
+      - days_before: 0
+        text: "Buy the **¥1,500 day pass** in the Jorudan app before boarding the Red Line, or pay single fares from ¥180."
+  - type: cost_breakdown
+    items:
+      - { label: "Highway bus, Shinjuku → Kawaguchiko", local: 2000, brl: 70.8 }
+      - { label: "Highway bus, Kawaguchiko → Shinjuku", local: 2000, brl: 70.8 }
+      - { label: "Lake sightseeing bus day pass (Oishi Park)", local: 1500, brl: 53.1 }
+      - { label: The Lawson shot, local: 0, brl: 0 }
+  - type: map
+    note: "Walk west from **Kawaguchiko Station**; the store is on the same side as the station. Cross at the **signalised crossing** to the far pavement for the shot."
+  - type: tips
+    variant: insider
+    items:
+      - "Before about 9:00 the sun is still off to your left; around midday it sits almost behind Fuji and you shoot into the glare. Sunrise around 25 Jan is about **06:50**."
+      - "Come here **first**, straight off the earliest bus, then Oishi Park. The **Chureito Pagoda** is a ¥310 local-train ride away (Shimoyoshida) for the afternoon."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't cross between cars, and stay off the **clinic's forecourt** and the store's car park. They are why the barriers exist."
+      - "Use the toilets at the **station**, not the shop or the clinic."
+      - "Since 1 Oct 2026 the Shinjuku bus sells on two sites (Fujiyama Connect and Highwaybus.com), and a booking can't move between them."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 6
+    conditions: Dry, sunny and below freezing in the early morning
+    note: "January normals at Kawaguchiko (JMA): -5.7 °C low, 5.5 °C high. It's all outdoors."
+    wear: Full winter coat, gloves and a hat
+  - type: pairs_well
+    items:
+      - { id: chureito-pagoda-honcho-street, note: "Lawson first, pagoda after lunch: one day, one bus ticket each way" }
+      - { id: fuji-q-persona-30th, note: "Fuji-Q is one stop before Kawaguchiko on the same bus" }

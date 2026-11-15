@@ -1,0 +1,16 @@
+# Independent review of hk-lny-night-parade. Written by `./atr review`; do not edit by hand.
+id: hk-lny-night-parade
+type: place
+reviewed: 2026-11-14
+verdict: pass
+content_hash: e3a15f0b444c870efec0da7968edb924c4e2f5ce33c9e7acc9584d6aed4aeec0
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 7557c5dbe9b57f91d73eaed9f5c19503bfa909061ddbf569c1f3584b42167415
+summary: 'Both changes check out. The new caption matches the Commons description ("Night Parade (rehearse) in Tsim Sha Tsui"). HK01 supports the seat-sale tip: Kowloon Visitor Centre at the Star Ferry Pier, from 08:00, a numbered card first, then choosing seats and paying at a designated time, up to 4 tickets per person. There were no earlier findings and the unchanged content has no blockers.'
+model: claude-opus-5-5
+cost_usd: 0.336

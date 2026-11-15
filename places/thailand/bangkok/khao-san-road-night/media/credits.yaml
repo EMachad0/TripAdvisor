@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: khao-san-night
+  title: File:Khao San Road at night by kevinpoh.jpg
+  author: Kevin Poh from Petaling Jaya, Malaysia
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Khao_San_Road_at_night_by_kevinpoh.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d2/Khao_San_Road_at_night_by_kevinpoh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Khao San Road
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: khao-san-stalls
+  title: File:ถนนข้าวสารในเวลากลางคืน ๑ - Khaosan Road at night 1.jpg
+  author: Random username 083794703875938
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%99%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%B7%E0%B8%99_%E0%B9%91_-_Khaosan_Road_at_night_1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/28/%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%99%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%B7%E0%B8%99_%E0%B9%91_-_Khaosan_Road_at_night_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Khaosan Road at night, Bangkok, Kingdom of Thailand
+  width: 3365
+  height: 2234
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: soi-rambuttri
+  title: File:Rambutri Lukas Bergstrom.jpg
+  author: Lukas Bergstrom
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Rambutri_Lukas_Bergstrom.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Rambutri_Lukas_Bergstrom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Soi (alley) Rambutri, Bangkok, Thailand
+  width: 3072
+  height: 2304
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons

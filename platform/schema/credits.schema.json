@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Media credits",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "file": {
+        "type": "string",
+        "description": "Media name used in place.yaml (no extension).",
+        "examples": [
+          "main-hall-at-dusk"
+        ],
+        "maxLength": 80
+      },
+      "title": {
+        "type": "string",
+        "maxLength": 300
+      },
+      "author": {
+        "type": "string",
+        "examples": [
+          "Jane Doe"
+        ],
+        "maxLength": 300
+      },
+      "license": {
+        "type": "string",
+        "examples": [
+          "CC BY-SA 4.0"
+        ],
+        "maxLength": 80
+      },
+      "license_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://"
+      },
+      "source_url": {
+        "type": "string",
+        "examples": [
+          "https://commons.wikimedia.org/wiki/File:Example.jpg"
+        ],
+        "format": "uri",
+        "pattern": "^https?://"
+      },
+      "original_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://"
+      },
+      "description": {
+        "type": "string",
+        "maxLength": 1000
+      },
+      "width": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "height": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "widths": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "examples": [
+          [
+            640,
+            1280
+          ]
+        ],
+        "minItems": 1
+      },
+      "fetched": {
+        "type": "string",
+        "format": "date",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "origin": {
+        "enum": [
+          "commons",
+          "local"
+        ]
+      },
+      "area": {
+        "type": "string",
+        "description": "Area media only: the area card this photo was fetched for (`--area <id>`). Areas of one country share a media folder.",
+        "examples": [
+          "harbin"
+        ],
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
+    },
+    "required": [
+      "file",
+      "author",
+      "license",
+      "source_url",
+      "widths",
+      "fetched"
+    ],
+    "patternProperties": {
+      "^x_": {}
+    },
+    "additionalProperties": false
+  }
+}

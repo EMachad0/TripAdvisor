@@ -1,0 +1,112 @@
+id: wat-samphran-dragon-temple
+name: "Wat Samphran, the dragon temple"
+short_name: Wat Samphran
+name_local: วัดสามพราน
+name_romanized: Wat Sam Phran
+country: thailand
+city: bangkok
+area: Sam Phran · Nakhon Pathom
+category: odd-local
+fame: hidden
+tags: [temple, dragon, free, photography, out-of-town]
+kind: See
+why: "An 80 m pink-to-red tower with a green dragon coiled round it, 40 km west of Bangkok. You climb up inside the dragon's body. Few tourists."
+cost:
+  local: 1480
+  currency: THB
+  brl: 244.05
+  note: "Grab both ways (about ฿700 each in 2026) plus the ฿80 donation to climb. By bus it's under ฿200 but 3 h each way"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Half a day: 1–3 h there plus the ride"
+best_time: "Late afternoon light, or early morning"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Weekdays about 08:00/09:00–17:00; weekends 06:00–18:00 (as told to visitors in 2025)"
+  winter: "No closures found for Dec–Jan. January is dry and sunny, which is when the pink tower photographs best. On weekdays it was almost empty of tourists at the last report."
+
+location:
+  address: "92/8 Sam Phran, Sam Phran District, Nakhon Pathom 73110"
+  address_local: "วัดสามพราน 92/8 อำเภอสามพราน จังหวัดนครปฐม 73110"
+  lat: 13.73611
+  lng: 100.21478
+  nearest_transit: "None close. Grab from central Bangkok, about 40 min (38 km)"
+
+sources:
+  - url: https://therestlessbeans.com/wat-sam-phran-dragon-temple/
+    title: "Bangkok's Wat Sam Phran Dragon Temple: Is it Worth Visiting? (The Restless Beans, Mar 2025, Grab price updated 2026)"
+    checked: 2026-11-12
+  - url: https://bookaway.com/blog/wat-samphran-pink-dragon-temple-outside-bangkok
+    title: "Wat Samphran: The pink dragon temple just outside of Bangkok (Bookaway)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Only two first-hand guides. Hours: The Restless Beans (asked on site, 2025) says weekdays 08:00/09:00–17:00 and weekends 06:00–18:00; older Bookaway says 06:00–18:00 daily. The ฿80 climb donation and the ~฿700 Grab fare come from The Restless Beans. Upper floors locked on weekdays: search snippet only, source not opened."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: dragon-head
+    focus: "25% 40%"
+    caption: "The dragon's head at the top of the tower"
+    hook: "Walk up the inside of a dragon to the top of a pink corkscrew tower."
+  - type: quick_facts
+    time_needed: "Half a day incl. travel"
+    best_time: Late afternoon light
+    extra:
+      - { label: Your slot, value: Weekend day or weekday, detail: "Weekdays: leave by 11:00, back before your shift" }
+      - { label: Climb, value: "฿80 donation, 16 storeys", detail: "Steep, hot tunnel; take socks, shoes come off" }
+      - { label: Dress, value: Cover shoulders and knees, detail: "No posted dress code, but it's a temple" }
+  - type: highlights
+    items:
+      - title: Inside the dragon
+        text: "The way to the top is a **sweaty concrete tunnel** inside the dragon's body, climbing 16 storeys. There is also a working **lift (฿10)** to the upper floors (The Restless Beans, 2025)."
+      - title: A tower nobody explains
+        text: "**80 metres** tall and 16 storeys (one guide counts 17). Even its origin is hazy: Bookaway writes that no one seems to know when, by whom or why it was built."
+      - title: The strange gardens
+        text: "Paths paved with footprints, a giant golden Buddha on a pavilion roof, a house-sized stone **turtle you can walk inside**, and odd statues in the undergrowth."
+      - title: Almost no crowds
+        text: "Visitors in 2025 found it nearly empty on a weekday afternoon in peak season. Rare for a temple this photogenic."
+  - type: prose
+    title: Worth the ride?
+    dropcap: true
+    text: |-
+      Wat Samphran is a working temple in flat suburbs 40 km west of Bangkok. The tower is the reason to go: dusty pink in most photos (a 2026 reader comment on The Restless Beans says a 2025 renovation repainted it **bright red**), 80 metres tall, with a green Phaya Naga dragon spiralling from the ground to the roof. Inside, you climb through the dragon itself. The view from the top is of housing and factories; the gardens below are the better surprise.
+
+      The hard part is getting there. There is no direct bus or train. Grab costs about ฿700 each way in 2026, so the day comes to about **244%** of your daily budget. The cheap route (MRT to Lak Song, bus 84, then a 50-minute walk) costs under ฿100 each way but takes up to three hours. Go only if the dragon really grabs you, or split the Grab with someone from the hostel.
+  - type: gallery
+    images:
+      - { file: rooftop-dragons, caption: "Dragons on the roof, above flat suburbs" }
+      - { file: dragon-tower, caption: "The tower in its pink coat; a 2025 repaint reportedly made it red", focus: top }
+      - { file: golden-buddha, caption: "The giant golden Buddha on its pavilion roof", focus: top }
+  - type: cost_breakdown
+    items:
+      - { label: "Grab, Bangkok to the temple", local: 700, brl: 115.43, estimate: true }
+      - { label: "Grab back", local: 700, brl: 115.43, estimate: true }
+      - { label: "Donation to climb the dragon", local: 80, brl: 13.19 }
+      - { label: "Grounds entry", local: 0, brl: 0 }
+  - type: map
+    note: "Search Grab for **Wat Samphran (วัดสามพราน)**. A 2025 guide mentions a small Grab stand at the north end of the car park, but a reader found **none in December**: book the ride back in the app, or ask your driver to wait, before the first one leaves."
+  - type: tips
+    variant: insider
+    items:
+      - "**Your slot: weekend day** (Sat Jan 2, Sun Jan 3 or Sat Jan 9), when it's open 06:00–18:00. A weekday works too: leave Bangkok by 11:00 and you're back well before your 19:00 shift."
+      - "Find a hostel mate to split the Grab: at two people it drops to about ฿780 (R$129) each, donation included."
+      - "For a full shot of the tower without a drone, stand on the raised area of the Big Buddha pavilion next to it."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't expect a jungle view from the top: the view is flat suburbs, factories and a Tesco."
+      - "An unverified report says the upper floors can be **locked on weekdays**. If the top matters to you, go on a weekend."
+      - "The public-transport route takes up to three hours each way and ends with a long walk. Only for the very patient."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; the cool season
+    note: "The climb inside the dragon is hot and airless whatever the month. January's clear skies are the best for photos of the pink tower."
+    wear: "Long trousers, sleeves or a scarf, socks for the climb, water"

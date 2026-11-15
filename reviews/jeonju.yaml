@@ -1,0 +1,16 @@
+# Independent review of area jeonju. Written by `./atr review`; do not edit by hand.
+id: jeonju
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 8ce8cb00b4e8ef5d1b4abd423224ad68dc8f0f51703c627af89fac2350c7a25e
+facts:
+  supported: 1
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: ee5bf9e3a25e4e61ceabda91e94bb5c0811915bd6e801578e3087acd7c850b25
+summary: "The only change since the last review is a new gallery photo, gyeonggijeon-hall. It shows Gyeonggijeon's main hall: its Commons source (File:Gyeonggijeon_Shrine_04.jpg, Bernard Gagnon, CC0) is described as \"Main Hall of Gyeonggijeon Shrine, Jeonju, South Korea\". The caption matches the photo and the shrine-to-the-founder wording already in the unchanged highlights. On the phone render the photo sits correctly in the gallery with its credit and nothing overflows. The earlier review had no blockers or shoulds, and I found no new blockers in the unchanged content."
+model: claude-opus-5-5
+cost_usd: 0.344

@@ -1,0 +1,156 @@
+id: dongmyo-flea-market
+name: "Dongmyo Flea Market"
+name_local: 동묘 벼룩시장
+name_romanized: Dongmyo Byeongnuk Sijang
+country: korea
+city: seoul
+area: Jongno-gu · Sungin-dong
+category: shopping
+fame: hidden
+tags: [flea-market, vintage, thrift, cheap, street-food, cold-outdoors]
+kind: Shop
+why: "Seoul's junk-and-vintage maze: dig street piles of clothes from ₩1,000, vinyl, old cameras and army gear, with ₩1,000 makgeolli on the side."
+cost:
+  local: 10000
+  currency: KRW
+  brl: 41.56
+  note: "Free to wander. ₩10,000 buys a couple of pile finds and a drink; clothes start at ₩1,000"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: "Sun 10 Jan midday, or a weekday afternoon (not Tue 12 Jan)"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "No official hours. Time Out (2016, unconfirmed): weekdays about 14:00–20:00, weekends 10:00–21:00"
+  closed: "Maybe 2nd and 4th Tuesdays (Time Out 2016); Seoul city says open all year"
+  winter: "The market runs in winter (the January 2024 photo on this page shows stalls open), but it is all street stalls and unheated shops, and no source says how many vendors skip the coldest days. Faux fur and padded coats show up in the piles in winter. On a weekday, go after 14:00 and skip Tue 12 Jan (a 2nd Tuesday; Pungmul Market next door also closes Tuesdays)."
+
+location:
+  address: 102-8 Sungin-dong, Jongno-gu, Seoul (from Dongmyo Station Exit 3)
+  address_local: 서울특별시 종로구 숭인동 102-8 (동묘앞역 3번 출구)
+  lat: 37.5731
+  lng: 127.0177
+  approximate: true
+  nearest_transit: "Dongmyo (Line 1 / 6), Exit 3, right outside"
+
+sources:
+  - url: https://v.daum.net/v/20250201160032557?f=p
+    title: "Dongmyo Flea Market: A nostalgic time travel experience for all generations (The Korea Herald, 1 Feb 2025)"
+    checked: 2026-11-12
+  - url: https://mediahub.seoul.go.kr/archives/2010202
+    title: "요즘 MZ세대도 즐겨 찾는 '동묘시장' (Seoul Metropolitan Government news, 13 Feb 2024)"
+    checked: 2026-11-12
+  - url: https://mediahub.seoul.go.kr/archives/2007408
+    title: "고물가 시대에도 '만원의 행복' 가능한 곳 어디? (Seoul Metropolitan Government news, 30 Mar 2023)"
+    checked: 2026-11-12
+  - url: https://mediahub.seoul.go.kr/archives/1284376
+    title: "도심 속 보물상자 '동묘 구제시장' (Seoul Metropolitan Government news, 5 Jun 2020)"
+    checked: 2026-11-12
+  - url: https://www.timeout.com/seoul/things-to-do/dongmyo-flea-market
+    title: Dongmyo Flea Market (Time Out Seoul, 2016)
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "There are no official hours: Seoul city's 2020 piece says open all year, Time Out (2016) says weekdays from 14:00, weekends from 10:00 and closed 2nd and 4th Tuesdays. I couldn't confirm either for 2026. Prices come from 2020–2025 articles; food prices are older and probably higher now. Winter vendor numbers are unverified. The pin marks the market area, not a single stall."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: market-street
+    hook: "A street market where you crouch over heaps of clothes, and a find can still cost ₩1,000."
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: "Sun 10 Jan midday, or a weekday afternoon (not Tue 12 Jan)"
+    extra:
+      - label: Bring
+        value: Cash, ₩1,000 notes
+        detail: Older stalls rarely take cards
+      - label: Pile prices
+        value: "From ₩1,000"
+        detail: "Most pile clothes ₩1,000–5,000"
+      - label: Good in cold
+        value: Outdoors
+        detail: Street stalls; duck into the bookshops and vintage stores
+  - type: highlights
+    items:
+      - title: The clothes piles
+        text: "Vendors dump clothes on the street and you dig, bent over, for a find. Prices **start at ₩1,000** a piece; one shop even sells clothes by weight."
+      - title: Everything else
+        text: "Watches, cameras, laptops, **vinyl and CDs**, razors, snacks near their sell-by date, military gear. Locals swap stories of rare albums bought here cheap."
+      - title: Curated vintage too
+        text: "If digging isn't your thing, shops like **Sold Out** (replica football kits) and **Vintory** hang the vintage on racks."
+      - title: A shrine to Guan Yu in the middle
+        text: "The market is named after **Dongmyo**, a Joseon-era shrine to the Chinese general Guan Yu from *Romance of the Three Kingdoms*, behind stone walls on the main street."
+  - type: prose
+    title: Seoul's own Seongsu, for grandparents
+    dropcap: true
+    text: |-
+      The Korea Herald calls Dongmyo the baby boomers' answer to Seongsu-dong: a whole neighbourhood of secondhand clothes, antiques and junk that has turned cool again with the 1980s–90s revival. A SHINee member browsing it on the reality show *I Live Alone* brought the younger crowd.
+
+      From Dongmyo Station's Exit 3 the main street starts right away, and side alleys branch off it. Shoppers range from their 20s to their 80s. A 750 m alley of stalls continues to the covered **Seoul Pungmul Market**, so you can walk from one to the other.
+
+      Most foreign visitors never hear of it, and it is not polished. That's the point.
+  - type: gallery
+    images:
+      - file: january-alley
+        caption: A side street of stalls in January 2024
+      - file: vintage-racks
+        caption: Vintage racks along the shrine wall
+      - file: antiques-stall
+        caption: An antiques and curios stall
+      - file: bookshop
+        caption: A secondhand bookshop stacked to the ceiling
+      - file: shrine
+        caption: Dongmyo, the shrine to Guan Yu that names the market
+  - type: cost_breakdown
+    items:
+      - label: Entry
+        local: 0
+        brl: 0
+      - label: Two or three pile finds
+        local: 5000
+        brl: 20.78
+        estimate: true
+      - label: "A ₩1,000 makgeolli, sikhye or coffee, plus a snack"
+        local: 5000
+        brl: 20.78
+        estimate: true
+      - label: "Pollack stew (dongtae-jjigae) lunch in the market alley"
+        local: 6000
+        brl: 24.94
+        estimate: true
+        optional: true
+  - type: map
+    zoom: 16
+    note: "Come out of **Dongmyo Station Exit 3** and the market starts at once. The shrine walls are on the main street."
+  - type: tips
+    variant: insider
+    items:
+      - "Bring **cash** and small notes; older stalls are cash-first, and ₩1,000 notes make haggling easy."
+      - "Bring a tote or a small bag on wheels: the black plastic bags tear when you buy too much."
+      - "Seoul city's reporter says good stock arrives on **Saturday afternoon**."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Condition is random: check seams, zips and stains before you pay."
+      - "Weekends and holidays get so crowded that bikes can't get through. Go early on a weekend, or accept a thinner, quieter weekday."
+      - "The covered Seoul Pungmul Market next door is closed on **Tuesdays**."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry and freezing
+    note: "Seoul's January averages are about 2 °C by day and −5.5 °C at night. You stand still a lot while digging through piles, which makes it feel colder. The bookshops and vintage stores are the warm stops."
+    wear: Padded jacket, gloves you can take off quickly, comfortable shoes
+  - type: pairs_well
+    items:
+      - id: gwangjang-market
+        note: "Two stops west on Line 1: a cheap market lunch"
+      - id: changdeokgung-secret-garden
+        note: Palace and garden in the morning, flea market after
+      - id: sparex-dongdaemun
+        note: A jjimjilbang near Dongdaemun to thaw out afterwards

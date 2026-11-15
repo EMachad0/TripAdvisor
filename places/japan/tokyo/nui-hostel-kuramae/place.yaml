@@ -1,0 +1,155 @@
+id: nui-hostel-kuramae
+name: "Nui. Hostel & Bar Lounge"
+short_name: Nui. Hostel
+country: japan
+city: tokyo
+area: Taito · Kuramae
+category: stay
+tags: [hostel, social, bar, cafe, sumida-river, asakusa, nightlife-base]
+kind: Stay
+why: "Tokyo's best-scored social hostel: 9.6 from 2,586 Hostelworld reviews, a ground-floor bar full of locals until 24:30. ¥4,750 a dorm bed on Wed 13 Jan."
+
+cost:
+  local: 4750
+  currency: JPY
+  brl: 166.73
+  note: "Hostelworld, 8-bed mixed dorm without breakfast, Wed 13 Jan 2027, 1 guest, searched 11 Nov 2026"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 7
+  lead_time: "Book a week or more ahead to lock the weeknight price"
+  method: website
+  links:
+    - label: Hostelworld (Wed 13 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Nui-Hostel-Bar-Lounge/Tokyo/67481?from=2027-01-13&to=2027-01-14&guests=1&currency=JPY"
+      note: "Change the dates to your own nights; name as in your passport"
+  notes: "Recommended, not required: no night looked short of beds on 11 Nov, but it has only 8-bed dorms (mixed and female) and weekend beds cost ¥2,660 more than Wed 13 Jan."
+
+hours:
+  summary: "Check-in 16:00–23:00 (23:00–24:00 with notice and a fee) · check-out until 11:00 · no curfew · bar 18:00–24:30"
+  winter: "Japan dates are now 4–22 Jan; Tokyo is likely 11–22 Jan. No seasonal notes on Hostelworld. 8-bed dorm seen 11 Nov: ¥4,750 Wed 13, ¥6,650 Sun 10 (eve of Coming-of-Age Day), ¥7,410 Sat 16 Jan."
+
+location:
+  address: "2-14-13 Kuramae, Taito-ku, Tokyo 111-0051"
+  address_local: 〒111-0051 東京都台東区蔵前2-14-13
+  lat: 35.70387
+  lng: 139.79338
+  nearest_transit: "Kuramae (Toei Oedo Line exit A7, 2 min; Asakusa Line exit A2, 3 min)"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Nui-Hostel-Bar-Lounge/Tokyo/67481?from=2027-01-13&to=2027-01-14&guests=1&currency=JPY"
+    title: "Nui. on Hostelworld, Wed 13 Jan 2027 search: dorm prices, description, house rules, rating 9.6 (2,586), atmosphere 9.3"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Nui-Hostel-Bar-Lounge/Tokyo/67481?from=2027-01-16&to=2027-01-17&guests=1&currency=JPY"
+    title: "Nui. on Hostelworld, Sat 16 Jan 2027 search: 8-bed dorm ¥7,410"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Nui-Hostel-Bar-Lounge/Tokyo/67481?from=2027-01-10&to=2027-01-11&guests=1&currency=JPY"
+    title: "Nui. on Hostelworld, Sun 10 Jan 2027 search: 8-bed dorm ¥6,650"
+    checked: 2026-11-11
+  - url: https://www.gltjp.com/ja/directory/item/10264/
+    title: "Nui. HOSTEL & BAR LOUNGE on GLTJP: Japanese address, station exits, café 8:00–18:00 and bar 18:00–24:30, lounge open to non-guests"
+    checked: 2026-11-11
+  - url: https://hostelgeeks.com/party-hostels-in-tokyo/
+    title: "Hostelgeeks: party hostels in Tokyo (Nui.: café-bar with travellers and locals, quieter 6th-floor common area)"
+    checked: 2026-11-11
+  - url: "https://www.openstreetmap.org/?mlat=35.70387&mlon=139.79338#map=17/35.70387/139.79338"
+    title: "OpenStreetMap: Nui. HOSTEL & BAR LOUNGE, Kuramae 2-chome"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals 1991–2020 (Kitanomaru Park)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Prices are Hostelworld per-bed prices for the linked one-night searches, seen 11 Nov; they move. Bar hours are from the GLTJP directory, not the hostel; check on arrival. Lockers, lift and the late check-in fee amount are not listed on the pages I opened."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: kuramae-bridge
+    caption: "Kuramae Bridge over the Sumida, in the hostel's neighbourhood. No free photo of Nui itself"
+    hook: "Coffee downstairs at 8; at 18:00 the same room turns into a bar where Tokyo locals drink too."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "16:00–23:00", detail: "Until 24:00 with notice and a fee; never after midnight" }
+      - { label: Vibe, value: Bar lounge with locals, detail: "Atmosphere 9.3/10 on Hostelworld" }
+      - { label: Curfew, value: None }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "8-bed mixed dorm · Wed 13 Jan"
+        local: 4750
+        brl: 166.73
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Nui-Hostel-Bar-Lounge/Tokyo/67481?from=2027-01-13&to=2027-01-14&guests=1&currency=JPY"
+        note: "Hostelworld, free cancellation, searched 11 Nov"
+      - label: "8-bed mixed dorm + breakfast · Wed 13 Jan"
+        local: 5750
+        brl: 201.83
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Nui-Hostel-Bar-Lounge/Tokyo/67481?from=2027-01-13&to=2027-01-14&guests=1&currency=JPY"
+      - label: "8-bed mixed dorm · Sun 10 Jan"
+        local: 6650
+        brl: 233.42
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Nui-Hostel-Bar-Lounge/Tokyo/67481?from=2027-01-10&to=2027-01-11&guests=1&currency=JPY"
+        note: "Eve of the Coming-of-Age Day holiday"
+      - label: "8-bed mixed dorm · Sat 16 Jan"
+        local: 7410
+        brl: 260.09
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Nui-Hostel-Bar-Lounge/Tokyo/67481?from=2027-01-16&to=2027-01-17&guests=1&currency=JPY"
+    rating:
+      score: 9.6
+      out_of: 10
+      source: Hostelworld
+      reviews: 2586
+      atmosphere: 9.3
+      checked: 2026-11-11
+    social:
+      - "**Café & bar lounge on the ground floor**, open to guests and locals: its stated idea: a place where travellers and Tokyo people \"can meet naturally\"."
+      - "Café 8:00–18:00, then a bar from 18:00 to 24:30, says the GLTJP directory."
+      - "Hostelworld's review summary: guests love \"the vibrant cafe/bar downstairs, which attracts both locals and travellers\"."
+      - "No pub crawls or hostel events are mentioned anywhere I looked: the social life is the bar. Quieter common areas upstairs."
+    good_to_know:
+      - "Check-in 16:00–23:00. 23:00–24:00 only with advance notice and a fee; no check-in after midnight."
+      - "Book with your name in English letters exactly as in your passport."
+      - "Dorm beds have reading lights, power outlets and privacy curtains; rooms use security key access."
+      - "Common areas for reading or working, separate from the bar."
+      - "Shared showers and bathrooms. Free Wi-Fi in the whole building."
+  - type: highlights
+    items:
+      - title: Tokyo's top score
+        text: "**9.6 from 2,586 Hostelworld reviews**, with 9.9 for cleanliness and 9.3 for atmosphere."
+      - title: The bar is the common room
+        text: "From 18:00 the lounge downstairs becomes a bar that locals use too, so you meet more than other backpackers."
+      - title: Riverside, near Asakusa
+        text: "On the Sumida River in Kuramae; the hostel says Senso-ji is about 15 minutes' walk along the river."
+      - title: Cheap midweek
+        text: "**¥4,750** on Wed 13 Jan against ¥7,410 on Sat 16 for the same 8-bed dorm, in the 11 Nov searches."
+  - type: map
+    note: "Kuramae station exit A7 (Oedo Line) is about 2 minutes away; exit A2 (Asakusa Line) about 3."
+  - type: tips
+    variant: insider
+    items:
+      - "Stay midweek: on 11 Nov the dorm bed was ¥4,750 on Wed 13 Jan and ¥7,410 on Sat 16."
+      - "The bar runs until 24:30: start the night downstairs, then head out from there."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No check-in after midnight. If your train or bus from Kyoto or Osaka lands late, plan for it."
+      - "Kuramae is on the Asakusa side of Tokyo. For Shibuya club nights, see the Wise Owl Hostels Shibuya card."
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "Book on Hostelworld with your name in English letters, as in your passport. Weeknights are cheapest."
+      - days_before: 0
+        text: "Check in 16:00–23:00; tell them in advance if you will arrive between 23:00 and midnight."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "January in central Tokyo averages 1.2 °C at night and 9.8 °C by day, with about five wet days. The river walk to Asakusa is cold after dark."
+    wear: Warm coat, hat for the riverside at night
+  - type: pairs_well
+    items:
+      - id: wise-owl-hostels-shibuya
+        note: "The Shibuya option, close to the clubs"
+      - id: nine-hours-shinjuku-north
+        note: "Your capsule night: book it on a cheap weeknight"

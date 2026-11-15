@@ -1,0 +1,34 @@
+# Independent review of nine-hours-shinjuku-north. Written by `./atr review`; do not edit by hand.
+id: nine-hours-shinjuku-north
+type: place
+reviewed: 2026-11-10
+verdict: fix
+content_hash: 2ef8ceacf083175069a7d672e03216826dc492d3ab158e2515751c037041741d
+facts:
+  supported: 30
+  unsupported: 5
+  contradicted: 1
+issues:
+  - severity: should
+    field: blocks[8].items[0]
+    problem: The tip 'Pick a Sunday night' is misleading. On the page's own Booking.com sources, Sun 10 Jan costs ¥15,873, while Mon 11 and Mon 18 cost ¥5,555, the same as Sun 17. The confidence_note also says 'Mon–Thu prices not shown', but those same searches list Monday prices.
+    evidence: https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-11&checkout=2027-01-12&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us — "Jan 10 – Jan 11 · 1 night · From ¥15,873" … "Jan 11 – Jan 12 · 1 night · From ¥5,555"; checkin=2027-01-18 search — "Jan 18 – Jan 19 · 1 night · From ¥5,555"
+    fix: Say the cheap nights seen are Sun 17, Mon 11 and Mon 18 (¥5,555) and that Sun 10 and Sat 16 are ¥15,873. Correct the confidence_note to match.
+  - severity: should
+    field: book_ahead.lead_time
+    problem: "'Free to cancel until the day before' is the official site's policy, but the page tells the traveler to book whichever of Rakuten, Booking.com or the official site is cheapest. The official page says bookings made elsewhere follow that site's terms, and the FAQ says non-refundable plans have different policies."
+    evidence: https://ninehours.co.jp/en/shinjuku-north — "If you made your reservation through online booking sites (such as Rakuten, Jalan, booking.com…) please contact the booking site directly"; https://ninehours.co.jp/en/faq — "Different cancellation policies apply to non-refundable plan"
+    fix: Limit the free-cancellation claim to bookings on the official site, and tell the traveler to check the rate's terms on Rakuten or Booking.com before paying.
+  - severity: nit
+    field: blocks[2].beds[0].url
+    problem: The Sun 17 Jan bed links to the 18–19 Jan search, where the property shows as unavailable. The 17–18 search goes to the night itself.
+    evidence: https://www.booking.com/searchresults.html?ss=nine+hours+shinjuku-north&checkin=2027-01-18&checkout=2027-01-19&group_adults=1&no_rooms=1&selected_currency=JPY&lang=en-us — "This property is unavailable on our site for your dates"
+    fix: Point the Sun 17 bed at the checkin=2027-01-17&checkout=2027-01-18 search.
+  - severity: nit
+    field: blocks[11]
+    problem: The January weather numbers cite only Wikipedia's Tokyo article, and I did not check them. The pin and the Kabukicho claim were not checked against an opened source either.
+    evidence: https://en.wikipedia.org/wiki/Tokyo (not opened in this review)
+    fix: "Cite JMA normals for the January low and high, or leave the weather block as it is: no traveler decision depends on it."
+summary: "The hard facts are well sourced: the official branch page (rendered) and the FAQ confirm the address, access times, check-in and cleaning hours, cashless payment, locker and capsule sizes, the ¥100 toothbrush, the ¥5,000 fee and the official-site cancellation rule, and the Booking.com renders confirm all three January prices. Two things need fixing: the 'pick a Sunday' tip, which is wrong for Sun 10 and leaves out the equally cheap Mondays, and the free-cancellation claim, which holds only for official-site bookings."
+model: claude-opus-5-5
+cost_usd: 0.814

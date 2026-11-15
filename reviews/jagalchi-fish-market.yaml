@@ -1,0 +1,24 @@
+# Independent review of jagalchi-fish-market. Written by `./atr review`; do not edit by hand.
+id: jagalchi-fish-market
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 38facf52de8930d54e231e1cc11b331895956d2d2163027ce02311c013f1985b
+facts:
+  supported: 5
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: hours.closed
+    problem: K-Trip Tips, now cited, lists the 1st, 3rd and 5th Tuesdays, but hours.closed gives only the 1st and 3rd. January 2027 has no 5th Tuesday (Jan 5, 12, 19, 26), so the trip is not affected.
+    evidence: 'https://www.ktriptips.com/kor/shopping/132190: "매월 첫째, 셋째, 다섯째 화요일"'
+    fix: Change hours.closed to "1st, 3rd and 5th Tuesdays" so it matches the cited source.
+resolved:
+  - field: cost.local
+    problem: The headline ₩15,000 solo grilled fish set comes from one source, which says its own prices are still awaiting editorial review. No other listed source gives a price for grilled fish. The page also gives no stall name or exact alley, so the traveler can't find this exact set.
+    evidence: 'The earlier fix offered a fallback: if no second source could be found, say so in cost.note. cost.note now reads "one Feb 2026 guide (itself awaiting review), unverified; no stall named", and confidence_note says "The ₩15,000 grilled-fish set has no second source." The price is still unverified, but the page is now honest about that.'
+rereview_of: ae202e21640473efa158281bfeaa058834b30fe8c40eb3fb46596e6489e2ab39
+summary: "Both earlier shoulds are resolved. K-Trip Tips (updated 2026-11-11) confirms the Tuesday closure, the 05:00–22:00 hours and the address, so Tue Jan 19 stands as the closed day. The ₩15,000 grilled-fish set is still unverified, and the page now says so. Only a nit remains: add the 5th Tuesday to hours.closed."
+model: claude-opus-5-5
+cost_usd: 0.239

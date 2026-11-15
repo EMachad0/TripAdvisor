@@ -1,0 +1,147 @@
+id: naksan-park-city-wall
+name: "Naksan Park & City Wall at Night"
+short_name: Naksan Park
+name_local: 낙산공원 · 한양도성
+name_romanized: Naksan Gongwon · Hanyangdoseong
+country: korea
+city: seoul
+area: Ihwa-dong · Jongno-gu
+category: views
+fame: hidden
+tags: [viewpoint, night-view, city-wall, free, cold-outdoors, walk]
+kind: See
+why: "Free, open 24 h: a lit 600-year-old wall on a low hill, Seoul's lights below and Namsan Tower in the frame. 15 min uphill from Hyehwa."
+cost:
+  local: 3100
+  currency: KRW
+  brl: 12.88
+  note: "The park is free. This is two subway rides with a transport card (₩1,550 each)"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: Sunset (17:32–17:42, 10–20 Jan) into the first hour of dark
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Park and wall path open 24 hours, free. Naksan Exhibition Hall: 09:00–17:00 per one guide (unconfirmed)"
+  winter: "No seasonal closure listed: the official City Wall site gives the Naksan trail as open 24 hours. Sunset is about 17:32 on 10 Jan and 17:42 on 20 Jan 2027, dark by about 18:00–18:10, so even on a work day you are back with hours to spare before a 21:00 shift; the wall lights come on at dusk (switch-off time not published). The stepped alleys up from Ihwa-dong can be icy after snow."
+
+location:
+  address: 41 Naksan-gil, Jongno-gu, Seoul
+  address_local: 서울특별시 종로구 낙산길 41
+  lat: 37.58053
+  lng: 127.00761
+  nearest_transit: "Hyehwa (Line 4), Exit 2, then 15 min uphill"
+
+sources:
+  - url: https://seoulcitywall.seoul.go.kr/en/wallcourse/2.do
+    title: "Seoul City Wall official site: Naksan Mountain Trail (hours, transit, Ihwa and Jangsu villages)"
+    checked: 2026-11-12
+  - url: https://www.nomadotravel.app/en/attractions/naksan-park
+    title: "Naksan Park: Seoul's City Wall Hilltop (Nomado Travel)"
+    checked: 2026-11-12
+  - url: https://mediahub.seoul.go.kr/archives/2019197
+    title: "'케데헌' 속 낙산성곽길에서 누리는 서울의 노을과 야경: lights along the wall at dusk (Seoul city, 31 Aug 2026)"
+    checked: 2026-11-12
+  - url: https://mediahub.seoul.go.kr/archives/2001370
+    title: "감탄사 절로 부르는 '서울 야경 명소'…낙산공원과 DDP: lights below the wall (Seoul city, 2021)"
+    checked: 2026-11-12
+  - url: https://www.koreajoongangdaily.com/korea/seoul-subway-prices-rising-to-1550-won-on-june-28/11965075
+    title: "Seoul subway prices rising to 1,550 won on June 28 (Korea JoongAng Daily, 2025)"
+    checked: 2026-11-12
+  - url: https://sunrise-sunset.org/search?location=Seoul&year=2027&month=1
+    title: "Seoul sunrise and sunset, January 2027 (sunrise-sunset.org)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Route and 24-hour access: official City Wall site. Night lighting: two Seoul city articles (2021, Aug 2026); neither gives a switch-off time. The Exhibition Hall hours come only from one 2026 guide that says to confirm them, so the page marks them unconfirmed. The night photo is from autumn; in January the trees are bare."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: wall-at-night
+    hook: Floodlit stone battlements and the city's lights spread out below.
+    caption: The lit wall path on top of Naksan Park, autumn evening
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: Sunset, then the first hour of dark
+    extra:
+      - label: Climb
+        value: 124 m hill, gentle
+        detail: The official site rates the Naksan trail the easy one
+      - label: Fits a work day
+        value: Yes
+        detail: Dark before 18:00; you're back down well before 21:00
+  - type: highlights
+    items:
+      - title: The wall, lit up
+        text: "A stretch of **Hanyangdoseong**, the city wall first built in 1396, runs along the ridge. The stones change shape where each era rebuilt it. At dusk, lights set below the wall come on and light it up from underneath (Seoul city articles, 2021 and Aug 2026)."
+      - title: Namsan Tower without the tower crowd
+        text: "You said the best pictures are the ones away from the tower. Here **N Seoul Tower** is in the frame, seen from a free park with no queue. A 2021 city article notes trees hide part of the Namsan side, so walk along the wall to find a clear gap."
+      - title: Seoul's "Montmartre"
+        text: "The official City Wall site calls Naksan Park the Montmartre of Seoul for its sunset and night views. It's the lowest of the four inner mountains, so it's a walk, not a hike."
+      - title: Two villages on the way
+        text: "Walk up through **Ihwa Village**, painted with murals since 2006, or come back down outside the wall through **Jangsu Village**, a post-war hillside settlement that its residents saved from redevelopment."
+  - type: prose
+    title: How the walk goes
+    dropcap: true
+    text: |-
+      Naksan is a 124 m hill on the east side of the old city. The official Naksan section of the City Wall trail runs 3.2 km from Hyehwamun Gate to **Heunginjimun**, Dongdaemun's great East Gate, in about an hour. The park sits on the top of it.
+
+      The easy plan: Hyehwa Station Exit 2, then roughly 15 minutes uphill through the residential lanes of Ihwa-dong to the summit plaza. Be there before sunset, watch the city switch on, then follow the wall downhill south to Dongdaemun. The official site asks walkers to keep quiet for the residents of Bukjeong Village.
+  - type: gallery
+    images:
+      - file: sunset-skyline
+        caption: Sunset over downtown from the park
+      - file: tower-through-pines
+        caption: N Seoul Tower through the pines on a clear day
+        focus: "15% 40%"
+      - file: summit-plaza
+        caption: The summit plaza and the wall, looking north to the mountains
+  - type: quote
+    variant: vibe
+    text: Old stone, cold air, and a whole city switching its lights on below you.
+  - type: cost_breakdown
+    items:
+      - label: Naksan Park and the wall path
+        local: 0
+        brl: 0
+      - label: Subway to Hyehwa
+        local: 1550
+        brl: 6.44
+        note: Transport card fare
+      - label: Subway back from Dongdaemun
+        local: 1550
+        brl: 6.44
+        note: Transport card fare
+  - type: map
+    zoom: 15
+    note: "Up: **Hyehwa Station Exit 2**, 15 min on foot to the top. Lazy way up: Jongno Town Bus **03** from Dongdaemun Station Exit 5 to Naksan Junction. Down: follow the wall south to **Dongdaemun Station** (Lines 1, 4)."
+  - type: tips
+    variant: insider
+    items:
+      - "Go up via **Ihwa Village** and come down along the wall to Heunginjimun and Dongdaemun. That keeps the climb short and ends near dinner."
+      - "The **Naksan Exhibition Hall** in the park covers the wall's history. One guide gives 09:00–17:00 but says to confirm at the gate, so treat it as a maybe before sunset."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The lanes are steep with stone steps. Wear flat shoes with grip; after snow, those steps freeze."
+      - "People live right along the path. Keep your voice down, especially in Bukjeong Village."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry, freezing, clear on good days
+    note: "Seoul's January averages are 2.1 °C by day and −5.5 °C at night, and you'll be standing still on an open hilltop after sunset. Cold, clear nights give the sharpest view. The trees are bare, so the wall and the city show more than in the summer photos."
+    wear: Windproof jacket, hat, gloves, shoes with grip
+  - type: pairs_well
+    items:
+      - id: dongdaemun-design-plaza
+        note: Follow the wall downhill; DDP's light show runs every 30 min from 18:00
+      - id: gwangjang-market
+        note: Hot food stalls a short ride from Dongdaemun after the cold
+      - id: namsan-n-seoul-tower
+        note: The tower you're looking at, if you want the view from the other side

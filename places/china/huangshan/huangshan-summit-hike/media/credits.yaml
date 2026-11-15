@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: sunrise-snow
+  title: File:Huangshan at sunrise in winter 2.jpg
+  author: Dcpeets
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Huangshan_at_sunrise_in_winter_2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Huangshan_at_sunrise_in_winter_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Huangshan at sunrise in winter
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: paiyunlou-sunset
+  title: File:Huangshan Paiyunlou sunset.jpg
+  author: Dcpeets
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Huangshan_Paiyunlou_sunset.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/08/Huangshan_Paiyunlou_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Rocks and trees at sunset near Paiyunlou (Cloud-Dispelling Pavillion), Huangshan, in winter
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: west-sea-winter
+  title: File:Huangshan West Sea detail winter.jpg
+  author: Dcpeets
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Huangshan_West_Sea_detail_winter.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4c/Huangshan_West_Sea_detail_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Towering rocks in the "West Sea" of Huangshan (Yellow Mountain) in winter
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: winter-fog
+  title: File:Huangshan in Winter (30670158101).jpg
+  author: Dr. Hans-Günter Wagner
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Huangshan_in_Winter_(30670158101).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Huangshan_in_Winter_%2830670158101%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Huangshan in Winter
+  width: 3243
+  height: 2067
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: sea-of-clouds
+  title: File:Sea of clouds viewed from the top of Huangshan.jpg
+  author: JesseW900
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Sea_of_clouds_viewed_from_the_top_of_Huangshan.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/33/Sea_of_clouds_viewed_from_the_top_of_Huangshan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sea of clouds viewed from the top of Huangshan
+  width: 3264
+  height: 2448
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

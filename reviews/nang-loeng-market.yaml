@@ -1,0 +1,19 @@
+# Independent review of nang-loeng-market. Written by `./atr review`; do not edit by hand.
+id: nang-loeng-market
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 181c1356916dbc0707242965dd4e6b834c37126c793a4a096933d6a3082586c7
+facts:
+  supported: 0
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[11].items
+    problem: "The 'Pairs well with' list still links to golden-mount-wat-saket and grand-palace-wat-phra-kaew. Both are unfilled templates (image: TODO, cost: TODO, why: TODO), so their cards show broken images and lead to empty pages."
+    evidence: "Both linked pages are now filled in: golden-mount-wat-saket and grand-palace-wat-phra-kaew have no TODO left (grep shows no matches), each has a real why and cost (฿100 and ฿500), and their hero images exist in media/ (view-temple-roof, monk-reflection). ./atr validate passes for both. In the phone shot (slices s08 and s09), the 'Pairs well with' cards show real thumbnails for Golden Mount, Yaowarat and Grand Palace."
+rereview_of: 181c1356916dbc0707242965dd4e6b834c37126c793a4a096933d6a3082586c7
+summary: "The one earlier should is fixed: the two linked pages now have real content and heroes, and their cards render correctly. The YAML did not change, so there was nothing new to fact-check, and no new blockers were found on the content that stayed the same."
+model: claude-opus-5-5
+cost_usd: 0.314

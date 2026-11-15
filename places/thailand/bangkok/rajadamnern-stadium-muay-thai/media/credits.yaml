@@ -1,0 +1,47 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: facade
+  title: File:Rajadamnern Stadium.jpg
+  author: DiverDave
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Rajadamnern_Stadium.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Rajadamnern_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Rajadamnern Stadium, Ratchadamnoen Avenue, Pom Prap Sattru Phai district, Bangkok, Thailand
+  width: 4963
+  height: 2791
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: fight
+  title: File:Muay Thai match at Rajadamnern Stadium 2007-05-20 4.JPG
+  author: BrokenSphere
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Muay_Thai_match_at_Rajadamnern_Stadium_2007-05-20_4.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b6/Muay_Thai_match_at_Rajadamnern_Stadium_2007-05-20_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A Muay Thai match at Rajadamnern Stadium in Bangkok, Thailand.
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-12
+  origin: commons
+- file: ringside-crowd
+  title: File:Audience at Muay Thai match at Rajadamnern Stadium 2007-05-20.JPG
+  author: BrokenSphere
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Audience_at_Muay_Thai_match_at_Rajadamnern_Stadium_2007-05-20.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2d/Audience_at_Muay_Thai_match_at_Rajadamnern_Stadium_2007-05-20.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Muay Thai audience at Rajadamnern Stadium in Bangkok, Thailand.
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-12
+  origin: commons

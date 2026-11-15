@@ -1,0 +1,111 @@
+id: onyx-rca-club
+name: "Onyx, RCA"
+short_name: Onyx
+name_local: โอนิกซ์ อาร์ซีเอ
+country: thailand
+city: bangkok
+area: RCA · Huai Khwang
+category: nightlife
+fame: popular
+tags: [club, edm, weekend-night]
+kind: Do
+why: "Bangkok's big EDM club on RCA, the city's club strip: two floors under a very high ceiling, ฿400 in with a drink, open till 04:00."
+cost:
+  local: 400
+  currency: THB
+  brl: 65.96
+  note: "General entry with one drink included; cards accepted (2026 guide). Tables cost extra"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h
+best_time: "Sat 2 or Sat 9 Jan, late"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 21:00–04:00"
+  winter: "No holiday closures found for early January. Both sources list it open daily; the Monday ladies' night falls on a work night for you. Indoors."
+
+location:
+  address: "Royal City Avenue (RCA), Soi Soonvijai, Rama 9 Rd, Bang Kapi, Huai Khwang, Bangkok 10310"
+  address_local: "โอนิกซ์ รอยัลซิตี้อเวนิว (อาร์ซีเอ) ถนนพระราม 9 แขวงบางกะปิ เขตห้วยขวาง กรุงเทพฯ 10310"
+  lat: 13.7523
+  lng: 100.5748
+  nearest_transit: "MRT Phetchaburi or Phra Ram 9, then a short taxi to the RCA entrance"
+
+sources:
+  - url: https://www.trvlogue.com/en/bangkok-club-guide-nightlife
+    title: "Bangkok club reviews 2026: Route 66, Onyx and solo tips (TRVLOGUE, updated Oct 2026)"
+    checked: 2026-11-12
+  - url: https://intravel.net/bangkok/nightlife/onyx
+    title: "ONYX in Bangkok: photos, reviews (InTravel)"
+    checked: 2026-11-12
+  - url: https://tablejourney.com/thailand/bangkok/nightlife/onyx-bangkok-rca/
+    title: "Onyx Bangkok, dance club: address (TableJourney, checked Nov 2026)"
+    checked: 2026-11-12
+  - url: https://www.openstreetmap.org/node/4307307319
+    title: "onyx bangkok: map pin on RCA (OpenStreetMap)"
+    checked: 2026-11-13
+  - url: https://www.discoverythailand.com/royal-city-avenue-rca
+    title: "Royal City Avenue (RCA) guide: MRT Phra Ram 9 or Phetchaburi, then a short taxi (Discovery Thailand)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Price, hours and layout from one detailed 2026 review (TRVLOGUE, read in a browser 12 Nov 2026); InTravel confirms ฿400 with a drink and 21:00–04:00. Official site refused the connection. No free photo of the club: hero is RCA by day. Pin = OSM node for Onyx (checked 13 Nov 2026); MRT stations from Discovery Thailand, which gives no walking distance."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: rca-plaza
+    caption: "RCA Plaza by day; no free photo of the club itself"
+    hook: "Laser shows, a main stage ringed by a second-floor balcony, and EDM until four in the morning."
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: "Saturday, late"
+    extra:
+      - { label: Slot, value: Weekend night, detail: "Sat 2 or Sat 9 Jan; it doesn't close until 04:00" }
+      - { label: Bring, value: "Passport", detail: "ID is checked at the ticket booth; a phone photo usually works" }
+  - type: highlights
+    items:
+      - title: A proper EDM club
+        text: "High ceilings, two floors, a main stage with standing tables in the middle and VIP sofas around it. The 2026 reviewer called it the closest thing to a real EDM club on RCA."
+      - title: The upstairs balcony
+        text: "Stairs take you to a second floor that wraps around the main room. Anyone can go up except into the VIP zones."
+      - title: International crowd
+        text: "Mostly Western visitors plus tourists from Hong Kong and China, according to the reviewer, who ended up partying with a group she met inside."
+      - title: Route 66 next door
+        text: "RCA's other mega-club is a few steps away: ฿200 with a drink, cash only, hip-hop main room. The same reviewer preferred Onyx."
+  - type: menu
+    title: Getting in
+    items:
+      - { name: "Onyx general entry + 1 drink", price_local: 400, price_brl: 65.96, note: "Pay at the cinema-style booth; cards OK", tag: signature }
+      - { name: "Route 66 entry + 1 drink (next door)", price_local: 200, price_brl: 32.98, note: "Cash only", tag: cheap }
+    note: "Staff will offer a table; say general admission. Drink prices inside weren't published in any source we found."
+  - type: cost_breakdown
+    items:
+      - { label: "Entry with one drink", local: 400, brl: 65.96 }
+  - type: map
+    note: "Ask the driver to drop you at the **RCA entrance** on the Rama 9 side and walk in; driving down the strip can mean a toll."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: weekend night.** Sat 2 or Sat 9 Jan only: it runs till 04:00 and Sun 3 Jan is followed by a work week."
+      - "Cheapest way there: **MRT to Phra Ram 9 or Phetchaburi**, then a short taxi to the RCA entrance. For the ride home at 04:00, split a Grab with people from your hostel."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Bring the passport or a clear photo of it; you won't get in without ID."
+      - "Bring cash if you also want to try Route 66; its door is cash only."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: warm nights"
+    note: "Indoors, so the weather only matters on the way in; January nights are the mildest of the year."
+    wear: "Light clothes and closed shoes; no source lists a strict dress code"
+  - type: pairs_well
+    items:
+      - { id: jodd-fairs-rama-9, note: "Night market on Rama 9 Road for dinner first" }
+      - { id: lub-d-bangkok-siam, note: "Hostel crowd to go out with" }

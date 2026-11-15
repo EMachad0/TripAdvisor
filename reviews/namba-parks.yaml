@@ -1,0 +1,22 @@
+# Independent review of namba-parks. Written by `./atr review`; do not edit by hand.
+id: namba-parks
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: a3ba63b4964bf7be52ac3c33bd72e954f374db9db07221353ff07ad201659a19
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[7].items[0]
+    problem: The pitfall says restaurants close 'around' 21:00, like the shops. The official access page gives restaurant hours of 11:00–22:00, and OSAKA-INFO gives 11:00–23:00. The page tells the traveler to finish dinner an hour or more earlier than they need to.
+    evidence: blocks[7].items[0] and hours.summary now say restaurants close at 22:00. https://nambaparks.com/access (now a listed source) says "レストラン 11:00～22:00(一部店舗を除く)" and "ショップ 11:00～21:00". OSAKA-INFO's 23:00 fits the page's 'most restaurants' wording, since the official page says some restaurants are excepted.
+  - field: hours.winter
+    problem: The page calls the Glacier Court 'waterfall of light' and the Christmas illumination 'December features' and says nothing is planned for late January. No listed source gives their dates. The official about page only says the waterfall appears 'in winter', and the Christmas 2026 page has no dates, so it may still be running on 20 Jan – 4 Feb.
+    evidence: hours.winter no longer calls the illumination a December feature. It now repeats the official wording and says the late-January status is unknown. https://nambaparks.com/about says "冬になると「光の滝」が出現し" and gives no dates. https://nambaparks.com/christmas2026/ gives no illumination dates. https://nambaparks.com/event/357 is only the Christmas Challenge lottery (2026年12月11日～12月25日), not the illumination, so no end date is published.
+rereview_of: 194dfdda190baa8242895e473f6652e7731194a2974a2325f887eb90d4d0d36c
+summary: "Both earlier findings are fixed: the official /access page supports the restaurant hours, and the winter illumination text now matches the official site and says the late-January dates are unknown. Nothing in the changed text is unsupported, and no blocker was found in the unchanged content."
+model: claude-opus-5-5
+cost_usd: 0.316

@@ -1,0 +1,119 @@
+id: kikanbo-kanda-karashibi-miso
+name: "Kikanbo Kanda Honten"
+short_name: Kikanbo
+name_local: カラシビ味噌らー麺 鬼金棒 神田本店
+name_romanized: Karashibi Miso Rāmen Kikanbō
+country: japan
+city: tokyo
+area: Kanda · next to Akihabara
+category: food
+fame: popular
+tags: [ramen, miso, spicy, queue]
+kind: Eat
+why: "Miso ramen you set on fire yourself: pick chili heat and Sichuan-style numbing levels separately, eat under devil masks to taiko drums. ¥1,080."
+cost:
+  local: 1080
+  currency: JPY
+  brl: 37.98
+  note: "Karashibi miso ramen ¥1,080 (Tabelog menu, updated 31 Dec 2025)"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30 min + the queue
+best_time: A weekday (Sunday closes at 16:00)
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Sat & holidays 11:00–21:30; Sun 11:00–16:00"
+  closed: No regular closing day listed
+  winter: "Tabelog lists it as open year-round. In Dec 2025 the shop posted special year-end hours on its site; nothing for 2026–27 was up when checked (Nov 2026). Your Japan dates (Jan 20 – Feb 4, 2027) fall well after the New Year break, so normal hours are expected."
+
+location:
+  address: 2-10-9 Kajicho, Chiyoda-ku, Tokyo
+  address_local: 東京都千代田区鍛冶町2-10-9
+  lat: 35.69371
+  lng: 139.77241
+  nearest_transit: Kanda Sta. — Ginza Line 2 min, JR East/North Exit 3 min
+
+sources:
+  - url: https://tabelog.com/en/tokyo/A1310/A131002/13097205/
+    title: Karashibi Miso Ramen Kikanbo Kanda honten — Tabelog (hours, payment, 15 seats, Nov 2026 reviews)
+    checked: 2026-11-12
+  - url: https://tabelog.com/en/tokyo/A1310/A131002/13097205/dtlmenu/
+    title: Kikanbo Kanda honten — Tabelog food menu (updated 2025-12-31)
+    checked: 2026-11-12
+  - url: https://www.timeout.com/tokyo/restaurants/kikanbo
+    title: Kikanbo — Time Out Tokyo (ticket machine, kara/shibi levels, decor)
+    checked: 2026-11-12
+  - url: https://www.tablecheck.com/en/shops/kikanbo-japan/reserve
+    title: Kikanbo Lab Fast Pass — TableCheck
+    checked: 2026-11-12
+  - url: https://kikanbo.co.jp/pages/shop
+    title: Kikanbo official shop list (Kanda Honten 2-10-9, Kikanbo Lab 2-10-10)
+    checked: 2026-11-12
+  - url: https://kikanbo.co.jp/
+    title: Kikanbo official site (news list, Lab opening)
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices are from the Tabelog menu updated right after the shop's 31 Dec 2025 price revision; hours and payment from Tabelog, with Nov 2026 reviews showing it open. Time Out's ¥980 price is older. The spice-level scale (five steps each) is from Time Out and may have changed. The Fast Pass terms are read off TableCheck; I did not try a booking."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: kanda-east-exit
+    caption: Kanda Station's east side, 3 min from the shop. No free photo of the shop itself
+    hook: Two dials, kara and shibi. Turn both up and your lips go numb before the bowl is half gone.
+  - type: quick_facts
+    time_needed: 30 min + the queue
+    best_time: A weekday (Sunday closes at 16:00)
+    extra:
+      - { label: Style, value: Spicy miso, detail: "Miso + seafood and meat stock, chili and sansho oil" }
+      - { label: Pay, value: Card or QR, detail: "Tabelog: cards and QR yes, IC e-money no" }
+      - { label: Seats, value: 15 at the counter }
+  - type: highlights
+    items:
+      - title: Kara + shibi
+        text: "Buy a ticket at the machine; staff then ask your level for **kara** (chili heat) and **shibi** (the numbing tingle of sansho pepper), each on its own scale."
+      - title: Rich without the fire
+        text: The menu says the miso, seafood and meat broth is good **even at zero spice**, so heat-shy eaters can still come.
+      - title: Ogre's den
+        text: "*Kikanbō* is an ogre's iron club, and the room plays along: black walls, **festival devil masks** and taiko drumming on the speakers."
+      - title: One stop from Akihabara
+        text: Pair it with an Akihabara afternoon; Kanda is the next JR stop south.
+  - type: menu
+    items:
+      - { name: Karashibi miso ramen, name_local: カラシビ味噌らー麺, price_local: 1080, price_brl: 37.98, note: The signature. Choose kara and shibi levels, tag: spicy }
+      - { name: Special karashibi miso ramen, price_local: 1830, price_brl: 64.36, note: "Two pork-belly chashu, bean sprouts, seasoned egg" }
+      - { name: Coriander karashibi miso ramen, price_local: 1370, price_brl: 48.18, note: A mountain of coriander on top }
+      - { name: Extra chili (oni mashi), price_local: 200, price_brl: 7.03, note: Uses one of the world's hottest peppers. Only if you mean it }
+      - { name: Extra numbing (oni mashi), price_local: 200, price_brl: 7.03 }
+      - { name: Meat rice, price_local: 420, price_brl: 14.77, note: Rice with shredded braised pork }
+      - { name: Half rice, price_local: 100, price_brl: 3.52, note: Drop it into the leftover soup }
+    note: "Prices incl. tax from the Tabelog menu (updated 31 Dec 2025), with Tabelog's English names. The ticket machine is in Japanese, so look for **カラシビ味噌らー麺**."
+  - type: cost_breakdown
+    items:
+      - { label: Karashibi miso ramen, local: 1080, brl: 37.98 }
+      - { label: Half rice for the soup, local: 100, brl: 3.52, optional: true }
+      - { label: Fast Pass (Kikanbo Lab), local: 1000, brl: 35.17, optional: true, note: "Booking fee only, not food. Rarely worth it" }
+  - type: map
+    note: "Corner shop on the east side of Kanda Station. Next door (2-10-10) is **Kikanbo Lab**, which seats Fast Pass holders only; don't join the wrong line."
+  - type: tips
+    variant: insider
+    items:
+      - "First time? Order **regular** (普通) for both kara and shibi. Time Out found that spicy but bearable."
+      - "Queue too long? Kikanbo's **Fast Pass** on TableCheck sells a timed slot at the new **Kikanbo Lab** in Kanda for **¥1,000** on top of your food. It's cashless only, the fee is non-refundable and doesn't cover food, and it isn't a seat reservation: at busy times you may still wait."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Peanut allergy?** Kikanbo Lab's booking page says peanuts are used in its noodle dishes. Honten serves the same Karashibi menu, so assume the same and ask before ordering."
+      - "**Sunday closes at 16:00**, with no evening service."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: The line is on the street, but a bowl of chili and sansho is the best cure for a January afternoon.
+    wear: Coat and gloves; a tissue for the sweat
+  - type: pairs_well
+    items:
+      - { id: nui-hostel-kuramae, note: Social hostel across town in Kuramae }

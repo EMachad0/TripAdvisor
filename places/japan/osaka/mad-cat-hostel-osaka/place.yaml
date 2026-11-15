@@ -1,0 +1,151 @@
+id: mad-cat-hostel-osaka
+name: "Mad Cat Hostel Osaka & Bar"
+short_name: Mad Cat Hostel
+country: japan
+city: osaka
+area: Abeno · Ojicho
+category: stay
+tags: [hostel, social, bar, welcome-drink, cats, nightlife-base]
+kind: Stay
+why: "Osaka's top-rated social hostel on Hostelworld (atmosphere 9.8): beach-style bar 19:00–24:00 with locals, a welcome drink, two cats. ¥3,600 a dorm bed."
+
+cost:
+  local: 3600
+  currency: JPY
+  brl: 126.36
+  note: "Hostelworld, 10-bed mixed dorm, Mon 4 and Tue 5 Jan 2027 (same price), 1 guest, searched 11 Nov 2026"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 7
+  lead_time: "Book a week or more ahead, earlier for the Sat 9 – Mon 11 Jan holiday weekend"
+  method: website
+  links:
+    - label: Hostelworld (Tue 5 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Cat-Hostel-Osaka-Bar/Osaka/299246?from=2027-01-05&to=2027-01-06&guests=1&currency=JPY"
+      note: "Change the dates to your own nights; price per bed, tax included"
+  notes: "Recommended because it is small (a 10-bed mixed and a 4-bed female dorm on 11 Nov) and Hostelworld already said \"Selling out fast!\" for 5 Jan, with only 3 beds left in the female dorm."
+
+hours:
+  summary: "Check-in 16:00–23:00 · check-out until 12:00 · reception 16:00–24:00 · bar 19:00–24:00 · no curfew"
+  winter: "Japan dates are now 4–22 Jan (arrival from Seoul 4 or 5 Jan). No seasonal notes on Hostelworld. 10-bed dorm on 11 Nov: ¥3,600 Mon 4 and Tue 5 Jan, ¥4,500 Sat 9 Jan (eve of the Coming-of-Age Day weekend)."
+
+location:
+  address: "1-11-24 Ojicho, Abeno-ku, Osaka"
+  address_local: 大阪府大阪市阿倍野区王子町1-11-24
+  lat: 34.63469
+  lng: 135.5102
+  nearest_transit: "Matsumushi (Hankai tram) ~1 min; Showacho (Midosuji Line) ~7 min"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Cat-Hostel-Osaka-Bar/Osaka/299246?from=2027-01-05&to=2027-01-06&guests=1&currency=JPY"
+    title: "Mad Cat Hostel on Hostelworld, Tue 5 Jan 2027 search: ¥3,600 dorms, house rules, bar hours, rating 9.7 (330), atmosphere 9.8, 2026 reviews"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Cat-Hostel-Osaka-Bar/Osaka/299246?from=2027-01-04&to=2027-01-05&guests=1&currency=JPY"
+    title: "Mad Cat Hostel on Hostelworld, Mon 4 Jan 2027 search: dorm beds ¥3,600"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Cat-Hostel-Osaka-Bar/Osaka/299246?from=2027-01-09&to=2027-01-10&guests=1&currency=JPY"
+    title: "Mad Cat Hostel on Hostelworld, Sat 9 Jan 2027 search: dorm beds ¥4,500"
+    checked: 2026-11-11
+  - url: https://4travel.jp/dm_hotel-11791045
+    title: "Mad Cat Hostel Osaka on 4travel (フォートラベル): Japanese address and access from Matsumushi and Showacho stations"
+    checked: 2026-11-11
+  - url: https://www.wikidata.org/wiki/Q111127588
+    title: "Mad Cat Hostel Osaka & Bar (Wikidata): coordinates"
+    checked: 2026-11-11
+  - url: https://www.hostelworld.com/blog/de/the-best-social-hostels-in-osaka-for-foodies-and-solo-travelers-2/
+    title: "Hostelworld blog: the best social hostels in Osaka (Mad Cat: staff-hosted social events, bar with guests and locals)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: "Osaka (Wikipedia): climate table, January normals 1991–2020"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Prices are Hostelworld per-bed prices for the linked one-night searches, seen 11 Nov; they move. Station walking times are from 4travel, which says its data is not guaranteed. Lift, deposit and the cancellation deadline are not listed. How long it takes to reach Namba or Dotonbori is not stated by a source; check a route planner."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: matsumushi-tram
+    caption: "A Hankai tram at Matsumushi, about a minute from the door. No free photo of the hostel exists"
+    hook: "Welcome drink at the beach-style bar downstairs, two hostel cats, then out with whoever is at the counter."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "16:00–23:00", detail: "Check-out is late: until 12:00" }
+      - { label: Vibe, value: Social bar hostel, detail: "Atmosphere 9.8/10 on Hostelworld" }
+      - { label: Curfew, value: None }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "10-bed mixed dorm · Mon 4 or Tue 5 Jan"
+        local: 3600
+        brl: 126.36
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Cat-Hostel-Osaka-Bar/Osaka/299246?from=2027-01-05&to=2027-01-06&guests=1&currency=JPY"
+        note: "Hostelworld, free cancellation, searched 11 Nov"
+      - label: "4-bed female dorm · Tue 5 Jan"
+        local: 3600
+        brl: 126.36
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Cat-Hostel-Osaka-Bar/Osaka/299246?from=2027-01-05&to=2027-01-06&guests=1&currency=JPY"
+        note: "Only 3 beds left on 11 Nov"
+      - label: "10-bed mixed dorm · Sat 9 Jan"
+        local: 4500
+        brl: 157.95
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Cat-Hostel-Osaka-Bar/Osaka/299246?from=2027-01-09&to=2027-01-10&guests=1&currency=JPY"
+        note: "Eve of the Coming-of-Age Day long weekend"
+    rating:
+      score: 9.7
+      out_of: 10
+      source: Hostelworld
+      reviews: 330
+      atmosphere: 9.8
+      checked: 2026-11-11
+    social:
+      - "**Bar downstairs 19:00–24:00**: \"there are always our guests and locals get gathered\", says the hostel, and every guest gets a welcome drink."
+      - "Hostelworld's blog says staff host casual social events and the bar draws guests and locals."
+      - "July 2026 review: \"One of the best hostels I've stayed at period, and a rare social hostel in Japan.\""
+      - "Two resident cats, Maru and Kogo, in a beach-style bar."
+    good_to_know:
+      - "Free security lockers; luggage storage only while reception is open (16:00–24:00)."
+      - "Kitchen with fridge, microwave and toaster. Laundry ¥200, bike rental ¥500."
+      - "It is in a residential part of Abeno, about 8 km from the centre by Hostelworld's count: Namba nights mean a train ride back."
+      - "No children, no pets, no curfew."
+  - type: highlights
+    items:
+      - title: The highest scores in Osaka
+        text: "**9.7 overall and 9.8 for atmosphere** from 330 Hostelworld reviews, with 10.0 for security and for value."
+      - title: A bar that brings locals in
+        text: "The ground-floor bar opens at 19:00 for guests and neighbours alike, so the evening starts in the building."
+      - title: Cheap on work nights
+        text: "**¥3,600** a dorm bed on Mon 4 and Tue 5 Jan, ¥4,500 on Sat 9 Jan, all with free cancellation on 11 Nov."
+      - title: Lazy mornings
+        text: "Check-out is at **12:00**, an hour later than most hostels, after a late night out."
+  - type: map
+    note: "Hankai tram to Matsumushi (about 1 minute away), or the Midosuji Line to Showacho and walk about 7 minutes."
+  - type: tips
+    variant: insider
+    items:
+      - "Go down to the bar on your first evening: the welcome drink is the easy way to meet the people heading out that night."
+      - "If you stay for the remote-work week, keep a weeknight base here: the dorm price is lowest Mon–Tue."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No source mentions a quiet work room or desks here. For laptop days, a café or Hostel Chillax in Namba, which lists a coworking space, is the safer bet."
+      - "Check-in ends at 23:00 and reception at 24:00, and the listing says nothing about later arrivals: ask the hostel before a late flight into Kansai."
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "Book on Hostelworld, checking **Sat 9 Jan** first: it is the dearest night and the start of the holiday weekend."
+      - days_before: 0
+        text: "Check in between 16:00 and 23:00, then claim your welcome drink at the bar from 19:00."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool and mostly dry
+    note: "January in Osaka averages 3.0 °C at night and 9.7 °C by day, with about six wet days. Late walks back from the tram are chilly, not freezing."
+    wear: Warm jacket and layers for nights out
+  - type: pairs_well
+    items:
+      - id: club-joule-osaka
+        note: "A club night in Osaka with people from the bar"
+      - id: dotonbori-kani-doraku-crab
+        note: "The crab sign at Dotonbori, for the first evening out"

@@ -1,0 +1,39 @@
+# Independent review of sparex-dongdaemun. Written by `./atr review`; do not edit by hand.
+id: sparex-dongdaemun
+type: place
+reviewed: 2026-11-12
+verdict: fix
+content_hash: 47619be64b46b81d62ab119f0621e3a4f7c701d5b59a77e4f0d41dba07fe23ac
+facts:
+  supported: 18
+  unsupported: 3
+  contradicted: 3
+issues:
+  - severity: blocker
+    field: hours.summary
+    problem: The page gives the ticket bands as day 05:00–20:00 and night 20:00–05:00. Creatrip lists those bands only until 30 Nov 2026. From 1 Dec 2026 the night ticket starts at 19:00, so in January a visitor who arrives at 19:30 on a day ticket would be in the night band.
+    evidence: https://creatrip.com/en/spot/13261 — "Daytime (05:00 - 20:00) | ~26/11/30" … "Daytime (05:00~19:00)｜26/12/01~ Valid for visits on or after December 1, 2026" … "Nighttime (19:00~05:00)｜26/12/01~"
+    fix: "Change to 'Open 24 hours. From 1 Dec 2026: day 05:00–19:00, night 19:00–05:00', cite Creatrip, and update the same times in the prose, cost_breakdown labels, tips and pitfalls."
+  - severity: blocker
+    field: hours.winter
+    problem: The page says there are 'no seasonal changes', but a listed source shows new time bands (and new prices) from 1 Dec 2026, which covers the whole Korea leg (10–20 Jan 2027).
+    evidence: https://creatrip.com/en/spot/13261 — "Valid for visits on or after December 1, 2026."
+    fix: Remove 'no seasonal changes' and say the bands and voucher prices change on 1 Dec 2026.
+  - severity: blocker
+    field: cost.local
+    problem: The ₩8,000 night and ₩14,000 day vouchers are the current Seoul Travel Pass prices, and nothing shows they are valid in January. Creatrip's options for visits from 1 Dec 2026 cost US$7.51 for both day and night (about ₩10–11k), and its cheaper US$5.25/US$6 options end on 30 Nov 2026.
+    evidence: https://creatrip.com/en/spot/13261 — "Nighttime (19:00~05:00)｜26/12/01~ … 7.51 USD"; https://www.seoultravelpass.com/en/products/1496-seoul-dongdaemun-sparex-jjimjilbang-sauna-admission-ticket — "Night time Sauna(20:00 - 05:00) ₩ 8,000" (no validity dates shown)
+    fix: Base cost and cost_breakdown on a voucher valid for Jan 2027 (Creatrip's ≈US$7.51 Dec+ option, or check the STP calendar for January), and flag the ₩8,000 price as pre-December.
+  - severity: should
+    field: blocks[4].text
+    problem: "'If you hold a day ticket and stay into the night hours, you pay the difference on site' is not in any listed source. Seoul Travel Pass only mentions a fee for staying beyond 24 hours."
+    evidence: https://www.seoultravelpass.com/en/products/1496-seoul-dongdaemun-sparex-jjimjilbang-sauna-admission-ticket — "An additional fee will be charged if you stay beyond 24 hours."
+    fix: Remove the sentence or cite a source that states the day-to-night surcharge rule.
+  - severity: nit
+    field: blocks[9].note
+    problem: "The January climate figures (2.1 °C / −5.5 °C) could not be confirmed: the Wikipedia climate table did not come through in the rendered text."
+    evidence: https://en.wikipedia.org/wiki/Seoul (climate rows not found in the rendered text)
+    fix: Cite the KMA normals page directly, or check the numbers against the Wikipedia table.
+summary: Address, directions, cleaning times, house rules, the scrub and luggage prices and the reviewer quotes all match the reseller pages. But Creatrip shows new time bands (switch at 19:00) and new voucher prices from 1 Dec 2026, so the hours, the 'no seasonal changes' line and the ₩8,000 headline price are wrong for a January visit and must be updated.
+model: claude-opus-5-5
+cost_usd: 0.743

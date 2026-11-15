@@ -1,0 +1,134 @@
+id: jewel-canopy-park
+name: "Jewel Canopy Park: Canopy Bridge, Nets & Mazes"
+short_name: Jewel Canopy Park
+country: singapore
+city: singapore
+area: Jewel Changi · Level 5
+category: nature
+fame: popular
+tags: [garden, maze, nets, glass-bridge, airport, paid]
+kind: Do
+why: "Jewel's top floor under the glass dome: S$8 for gardens and slides, S$13.90 for the glass-bottom bridge 23 m above the Rain Vortex."
+
+cost:
+  local: 13.9
+  currency: SGD
+  brl: 61.12
+  note: "Canopy Bridge ticket (includes Canopy Park). Park only S$8; 5-attraction bundle S$39"
+fx: { rate: 4.397, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Late afternoon, before the 21:00 attraction close"
+
+book_ahead:
+  required: false
+  notes: "Standard tickets online at tickets.jewelchangiairport.com or at the L1/L5 concierge. CapitaStar/Changi Rewards members pay less at those counters (bridge S$10.70, park S$5.40); I couldn't confirm a visitor can join on the spot."
+
+hours:
+  summary: "Canopy Park Fri–Sun 10:00–22:00 (Mon–Thu to 21:00); bridge, nets and mazes 10:00–21:00. Last entry 30 min before"
+  winter: "No January 2027 closures announced as of 13 Nov 2026; Jewel posts private-event closures as a banner on its site. It is under the glass roof, so January showers don't stop it."
+
+location:
+  address: "Level 5, Jewel Changi Airport, 78 Airport Boulevard, Singapore 819666"
+  address_local: "Jewel Changi Airport L5, 78 Airport Boulevard"
+  lat: 1.36022
+  lng: 103.98967
+  nearest_transit: "Changi Airport MRT (CG2); lifts to L5 inside Jewel"
+  approximate: true
+
+sources:
+  - url: https://www.jewelchangiairport.com/en/attractions/canopy-park.html
+    title: "Canopy Park: hours, inclusions, prices and bundle deals (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/Mastercard-canopy-bridge.html
+    title: "Mastercard Canopy Bridge: 23 m, glass bottom, price (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/hedge-maze.html
+    title: "Hedge Maze: price and hours (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/mirror-maze.html
+    title: "Mirror Maze: price and hours (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/walking-net.html
+    title: "Walking Net: 25 m above ground, price (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/bouncing-net.html
+    title: "Bouncing Net: 45-min session, price (official)"
+    checked: 2026-11-13
+  - url: https://www.changiairport.com/en/at-changi/facilities-and-services-directory/baggage-storage.html
+    title: "Changi Airport baggage storage: Jewel L1, 24 h, rates per 24 h (official)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Climate_of_Singapore
+    title: "Climate of Singapore (Wikipedia): January normals, northeast monsoon"
+    checked: 2026-11-13
+  - url: https://sunrise-sunset.org/sg/singapore/2027/1
+    title: "Sunrise-sunset.org: Singapore, January 2027 sunset times (10 Jan: 19:13)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/rain-vortex.html
+    title: "Jewel Rain Vortex show times (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/ces.html
+    title: "Changi Experience Studio: hours and price (official)"
+    checked: 2026-11-13
+confidence: high
+confidence_note: "Every price and hour is from Jewel's official attraction pages, read 13 Nov 2026 (bundle tabs opened one by one). 'Sky Nets' is the old name: Jewel now sells them as the Walking Net and the Bouncing Net. The Hedge Maze watchtower and the Mirror Maze greenery cover are on their official pages."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: canopy-park
+    hook: "A rooftop garden under a glass dome, with a glass-floored bridge that crosses straight over the waterfall's mouth."
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: "Late afternoon, before 21:00"
+    extra:
+      - { label: Cheapest way in, value: "S$8 (R$35)", detail: "Gardens, Discovery Slides, Foggy Bowls" }
+      - { label: Paid extras close, value: "21:00", detail: "Bridge, nets and mazes; park itself to 22:00 Fri–Sun" }
+  - type: highlights
+    items:
+      - title: Canopy Bridge
+        text: "**23 m** up with a glass-bottom middle section and fog at both ends: the best view down into the Rain Vortex. S$13.90, Canopy Park included."
+      - title: Walking Net
+        text: "A taut net **25 m** above ground, stretched over a void. S$18.90. You need closed shoes and pants or shorts."
+      - title: Two mazes
+        text: "**Hedge Maze** (Singapore's largest, with a watchtower, S$13.90) and the **Mirror Maze** under a cover of greenery (S$18.90)."
+      - title: The free-ish part
+        text: "The **S$8** park ticket gets you the Petal Garden, Topiary Walk, Foggy Bowls and the Discovery Slides (minimum height 110 cm)."
+  - type: gallery
+    images:
+      - { file: petal-garden, caption: "The Petal Garden under the dome, part of the S$8 park ticket" }
+  - type: prose
+    title: Worth it, or stay on the free floor?
+    text: |-
+      The free floor (Rain Vortex, Forest Valley, the shows) is the reason you're here, and it costs nothing. Canopy Park is the extra: for a six-hour airport day, **one ticket** is a good use of an hour.
+
+      The pick for you is the **Canopy Bridge (S$13.90, R$61)**. It's the only spot where you stand over the waterfall's mouth, and it includes the gardens and slides. Add the Walking Net if heights are your thing. The **S$39 bundle** (R$171) covers bridge, both mazes, Walking Net and park, but that's more than your R$120 day budget for an hour of mazes: skip it.
+
+      The **Changi Experience Studio** (L4, S$25, Sundays 10:00–20:00) is still open: 20 interactive games and projections about how the airport works. Jewel pitches it to adults and kids alike, but at S$25 it isn't worth it on a one-day stop.
+  - type: cost_breakdown
+    items:
+      - { label: "Canopy Bridge (Canopy Park included)", local: 13.9, brl: 61.12 }
+      - { label: "Walking Net instead/also (Canopy Park included)", local: 18.9, brl: 83.1, optional: true }
+      - { label: "Bundle 1: park, bridge, 2 mazes, Walking Net", local: 39, brl: 171.48, optional: true }
+      - { label: "Bundle 2: Bundle 1 + Bouncing Net", local: 54, brl: 237.44, optional: true }
+  - type: map
+    note: "Take the lifts to **L5**; tickets at the L1 or L5 concierge."
+  - type: tips
+    variant: insider
+    items:
+      - "Do the bridge **before 19:00** while there's daylight through the dome (sunset 19:13 on Jan 10), then come down for the 20:00 show."
+      - "Each attraction ticket already includes Canopy Park entry: don't buy the S$8 park ticket on top of one."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Luggage and wheeled bags aren't allowed on the nets, mazes or bridge. Drop them at Baggage Storage first: Jewel L1, near the Early Check-in Lounge, open 24 h, S$11 per item under 10 kg."
+      - "Bridge, nets and mazes close at **21:00** (last entry 20:30), an hour before the park itself on a Sunday."
+  - type: weather
+    temp_low_c: 24
+    temp_high_c: 31
+    conditions: Hot and humid outside; you are under the glass roof
+    note: "January averages 24–31 °C with frequent afternoon showers, but Canopy Park is under Jewel's glass roof, so showers don't stop it."
+    wear: "Closed shoes; pants or shorts are recommended for the nets and bridge"
+  - type: pairs_well
+    items:
+      - { id: jewel-rain-vortex, note: "Directly below: the waterfall and the Sunday shows at 20:00, 21:00, 22:00" }

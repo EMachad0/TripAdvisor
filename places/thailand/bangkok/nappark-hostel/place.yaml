@@ -1,0 +1,170 @@
+id: nappark-hostel
+name: "NapPark Hostel at Khao San"
+short_name: NapPark Hostel
+name_local: แนปพาร์ค โฮสเทล
+country: thailand
+city: bangkok
+area: Banglamphu · Tani Road
+category: stay
+tags: [hostel, social, pub-crawl, family-dinner, pub-quiz, budget, garden]
+kind: Stay
+why: "Award-winning Khao San hostel, social without the foam party: pub crawl or quiz nightly, family dinners, a coworking space. ฿350 a weeknight."
+
+cost:
+  local: 350
+  currency: THB
+  brl: 57.72
+  note: "Hostelworld, 22-bed mixed dorm, Tue 5 and Sat 9 Jan 2027, searched 12 Nov 2026. Sat 2 Jan: ฿500"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 30
+  lead_time: "Book now for Sat 2 Jan, the post-New-Year night"
+  method: website
+  links:
+    - label: Hostelworld (Sat 2 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-02&to=2027-01-03&guests=1&currency=THB"
+      note: "Change the dates to your nights; price per bed, free cancellation"
+    - label: Hostelworld (Tue 5 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+      note: "A work-week night, for comparison"
+  notes: "Walk-in may work on weeknights, but on 12 Nov the 2 Jan night already cost ฿500 (vs ฿350), and the 8-bed dorm showed \"Only 3 beds left!\" for 5 Jan. All rates had free cancellation, so booking early costs nothing."
+
+hours:
+  summary: "24-hour reception · check-in 14:00–24:00 · check-out until 12:00 · no curfew"
+  winter: "Sat 2 Jan is the tail of New Year: every dorm cost more that night (22-bed ฿500, 6-bed ฿730) than on 5 or 9 Jan (฿350, ฿690), searched 12 Nov. The 2 Jan search showed no minimum-stay rule."
+
+location:
+  address: "5 Tani Road, Talat Yot, Phra Nakhon, Bangkok 10200"
+  address_local: "5 ถนนตานี แขวงตลาดยอด เขตพระนคร กรุงเทพมหานคร 10200"
+  lat: 13.76078
+  lng: 100.49763
+  nearest_transit: "No BTS/MRT nearby; S1 airport bus (฿60) to Khao San, then walk"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-02&to=2027-01-03&guests=1&currency=THB"
+    title: "NapPark on Hostelworld, Sat 2 Jan 2027: dorms ฿500 / 550 / 650 / 730, free cancellation; activities, awards, rating"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+    title: "NapPark on Hostelworld, Tue 5 Jan 2027: dorms ฿350 / 400 / 450 / 690; Free WiFi, coworking space, 24-h reception"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-09&to=2027-01-10&guests=1&currency=THB"
+    title: "NapPark on Hostelworld, Sat 9 Jan 2027: dorms ฿350 / 400 / 450 / 690"
+    checked: 2026-11-12
+  - url: https://nappark.com/
+    title: "NapPark Hostel official site: NapSpace dorm concept, address 5 Tani Rd, Taladyod, Phranakorn"
+    checked: 2026-11-12
+  - url: https://thaiest.com/en/thailand/bangkok/s1-bus
+    title: "Bangkok S1 bus (Thaiest, updated 13 Oct 2025): ฿60, daily 06:00–20:00, Level 1 Gate 7"
+    checked: 2026-11-12
+  - url: https://madmonkeyhostels.com/blogs/bangkok-airport-to-khao-san-road/
+    title: "Mad Monkey Hostels blog (Oct 2026): S1 airport bus to Khao San, ฿60, and no BTS/MRT on Khao San"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok (Wikipedia): climate table, January averages"
+    checked: 2026-11-12
+  - url: "https://en.wikipedia.org/w/index.php?title=Bangkok&action=raw"
+    title: "Bangkok article source text (Wikipedia): Jan high 32.7 °C, low 23.4 °C, rain 23.6 mm"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices from Hostelworld searches for 2, 5 and 9 Jan 2027, read 12 Nov 2026; prices move. Overnight coworking access not stated. Mad Monkey blog opens in a browser but gives 403 to scripts. Not listed, so not claimed: which night each activity runs, crawl price, dorm air-con, female dorm, deposit. Thai address and name are my renderings."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: khaosan-night
+    caption: "Khao San Road at night, two streets from the hostel. No free photo of NapPark exists"
+    hook: "A 150-year-old tamarind tree in the garden, Thai cushions in the lounge, and a pub crawl leaving at night."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–24:00", detail: "24-hour reception; check-out until 12:00" }
+      - { label: Vibe, value: "Social, not a party hostel", detail: "Atmosphere 9.3/10 on Hostelworld" }
+      - { label: Your slot, value: "Whole stay", detail: "Weekend nights out, and a calmer base for 4–8 Jan work" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "22-bed mixed dorm · Tue 5 or Sat 9 Jan"
+        local: 350
+        brl: 57.72
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+        note: "Free cancellation, searched 12 Nov"
+      - label: "14-bed mixed dorm (superior) · 5 or 9 Jan"
+        local: 400
+        brl: 65.96
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+        note: "Shared bathroom; ฿550 on Sat 2 Jan"
+      - label: "8-bed mixed dorm · 5 or 9 Jan"
+        local: 450
+        brl: 74.21
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+        note: "฿650 on Sat 2 Jan"
+      - label: "22-bed mixed dorm · Sat 2 Jan"
+        local: 500
+        brl: 82.45
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-02&to=2027-01-03&guests=1&currency=THB"
+        note: "Arrival night, post-New-Year price"
+      - label: "6-bed deluxe dorm · 5 or 9 Jan"
+        local: 690
+        brl: 113.78
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/NapPark-Hostel-at-Khao-San/Bangkok/41153?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+        note: "Removable partitions between beds: best for sleeping by day; ฿730 on 2 Jan"
+    rating:
+      score: 9.5
+      out_of: 10
+      source: Hostelworld
+      reviews: 9773
+      atmosphere: 9.3
+      checked: 2026-11-12
+    social:
+      - "**Daily activities every night of the week**: a pub crawl hosted by \"Baby\", pub quiz nights, music bingo, family dinners and social games."
+      - "Hostelworld HOSCARs including **Best Solo Hostel in Asia** and Best Hostel in Asia (2024)."
+      - "A garden around a 150-year-old tamarind tree, Thai cushions and chill-out areas: easy to start a conversation."
+      - "Nov 2026 review: \"Lots of hostel activities every night.\""
+      - "**Your dates**: evening events fit Sat 2, Sun 3 and Sat 9 Jan only; on 4–8 Jan your shift starts at 19:00."
+    good_to_know:
+      - "Every bed is a \"NapSpace\" with reading lamp, sockets and a mirror. **Economy** beds sit where people walk past more, so they are noisier."
+      - "Free lockers, linen, towels, duvets and luggage storage; 24-hour English-speaking reception."
+      - "Shared bathrooms off the hallways; the 22-bed room is the cheapest but also the busiest."
+      - "Bike hire, board games, a coworking space and computers. No smoking, no curfew."
+      - "**Work week**: Wi-Fi throughout and a coworking space; overnight use isn't stated, so ask. For day sleep, the 6-bed has partitions."
+  - type: highlights
+    items:
+      - title: The cheapest good bed
+        text: "**฿350 (R$58)** a weeknight (฿500 on Sat 2 Jan), with free cancellation on every rate."
+      - title: Social, but you can sleep
+        text: "Pub crawl, quiz and family dinners for the evenings; no pool parties or foam, so the building calms down."
+      - title: Awards for solo travellers
+        text: "**9.5 from 9,773 Hostelworld reviews** and Best Solo Hostel in Asia at the 2024 HOSCARs."
+      - title: Walk to the old city
+        text: "Two streets from Khao San Road, and in walking distance of the Grand Palace and Wat Pho, says Hostelworld."
+  - type: cost_breakdown
+    items:
+      - { label: "22-bed dorm bed, Tue 5 or Sat 9 Jan", local: 350, brl: 57.72 }
+      - { label: "S1 airport bus from Suvarnabhumi", local: 60, brl: 9.89, optional: true }
+  - type: map
+    note: "Tani Road runs parallel to Khao San Road. The S1 bus from Suvarnabhumi (฿60) stops by Khao San."
+  - type: tips
+    variant: insider
+    items:
+      - "Ask at reception which night has the **pub crawl** and which the **family dinner**, and plan your first two nights around them."
+      - "**Work week (4–8 Jan)**: the listing has a coworking space and Wi-Fi in the whole building; ask at the 24-hour desk if it stays open for a 19:00–04:00 shift."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Pick a **Standard** bed over an Economy one if you sleep lightly: same style, less foot traffic. Sleeping by day, pay for the 6-bed deluxe with partitions."
+      - "Air-conditioning in the big dorms is not stated on the listing; check the room photos or ask before booking if you need it."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Hot, dry and sunny; the cool season
+    note: "January averages 23 °C at night and 33 °C by day with about 24 mm of rain all month: perfect for walking the old city early and sitting in the garden in the evening."
+    wear: Light clothes, sandals; cover shoulders and knees for temples
+  - type: pairs_well
+    items:
+      - id: grand-palace-wat-phra-kaew
+        note: "Walkable from the hostel; go at opening"
+      - id: golden-mount-wat-saket
+        note: "Sunset over Banglamphu"
+      - id: mad-monkey-bangkok
+        note: "The party hostel nearby, for a weekend night out"

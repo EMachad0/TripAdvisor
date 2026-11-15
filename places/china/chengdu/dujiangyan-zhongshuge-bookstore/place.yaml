@@ -1,0 +1,144 @@
+id: dujiangyan-zhongshuge-bookstore
+name: "Dujiangyan Zhongshuge Bookstore"
+short_name: Dujiangyan Zhongshuge
+name_local: 钟书阁 都江堰店
+name_romanized: Zhōngshūgé Dūjiāngyàn Diàn
+country: china
+city: chengdu
+area: Dujiangyan · Sunac Mall
+category: views
+fame: hidden
+must_do: infinity-staircase
+tags: [bookstore, architecture, mirror-ceiling, free, indoor]
+kind: See
+why: The viral Chongqing "infinity staircase" bookstore closed in 2024. This sister store still has the spiral stairs under a mirrored ceiling.
+cost:
+  local: 20
+  currency: CNY
+  brl: 16.53
+  note: "Entry is free. This is the round-trip train from Xipu (¥10 each way). Trains from Chengdu East/South cost more."
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–1.5 h (half a day with the train)
+best_time: Weekday morning, right at 10:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: Daily 10:00–21:00
+  winter: "No Dec–Jan changes listed in the sources I found. It sits inside a mall, so expect it to stay open over Christmas and New Year, but busier on weekends and public holidays."
+
+location:
+  address: "2F, Chengdu Sunac Mall, 1 Zhizhen Rd, Dujiangyan, Chengdu"
+  address_local: 四川省成都市都江堰市至臻路1号成都融创茂2楼 钟书阁
+  lat: 30.9552
+  lng: 103.6166
+  nearest_transit: Dujiangyan station (train from Xipu, Metro Line 2), ~10 min taxi
+
+sources:
+  - url: https://www.stirworld.com/see-features-dujiangyan-zhongshuge-bookstore-by-x-living-is-a-surreal-city-of-illusions
+    title: "STIR — Dujiangyan Zhongshuge by X+Living (2021): spiral staircase, mirrored ceiling"
+    checked: 2026-11-10
+  - url: https://m.winshang.com/news676990.html
+    title: "Winshang — Zhongshuge opens in Dujiangyan Sunac Mall 2F (2020-09-29)"
+    checked: 2026-11-10
+  - url: https://i.ifeng.com/c/8wvSv5tEpYz
+    title: "iFeng — Zhongshuge Dujiangyan (Sunac Mall 2F, opened 2020): 4,500+ visitors on 2 Oct 2026"
+    checked: 2026-11-10
+  - url: https://www.chinawriter.com.cn/n1/2026/1004/c403994-40809345.html
+    title: "Chinawriter / People's Daily — Zhongshuge Dujiangyan: spiral stairs, mirrored ceiling (2026-10-04)"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/china-trains/chengdu-dujiangyan-train.htm
+    title: "China Highlights — Chengdu (Xipu)–Dujiangyan train: soft seat ¥10, 20–30 min (timetable May 2023)"
+    checked: 2026-11-10
+  - url: https://mighil.com/chengdu/how-to-get-to-dujiangyan-irrigation-system-from-chengdu
+    title: "Mighil — Chengdu to Dujiangyan: most trains from Xipu, ¥10–27 (updated 2026-07-07)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Xipu_station
+    title: "Xipu station — Wikipedia: cross-platform interchange, Metro Line 2 ↔ Dujiangyan intercity"
+    checked: 2026-11-10
+  - url: https://chengdu-expat.com/?p=275268
+    title: "Chengdu Expat — Dujiangyan Zhongshuge: address, hours, free entry, transport"
+    checked: 2026-11-10
+  - url: https://www.travelofchina.com/dujiangyan-bookstore
+    title: "Travel of China — Dujiangyan bookstore: hours, free entry"
+    checked: 2026-11-10
+  - url: https://www.timeout.com/asia/news/this-bookstore-in-china-with-infinite-shelves-is-one-of-the-worlds-10-most-beautiful-in-2025-081425
+    title: "Time Out — Dujiangyan Zhongshuge in 1000 Libraries' 2025 top 10 (2025-08-14)"
+    checked: 2026-11-10
+  - url: https://www.yicai.com/news/102249111.html
+    title: "Yicai — Zhongshuge Chongqing closes on 17 Sep 2024 (2024-08-27)"
+    checked: 2026-11-10
+  - url: https://m.winshang.com/news735317.html
+    title: "Winshang — Zhongshuge Beijing Wangjing closes; Chongqing and Xi'an closed in 2024 (2025-08-20)"
+    checked: 2026-11-10
+  - url: https://www.dezeen.com/2019/08/04/chongqing-zhongshuge-bookstore-interiors-staircases/
+    title: "Dezeen — Chongqing Zhongshuge by X+Living: staircases under a mirrored ceiling (2019)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Dujiangyan_City
+    title: Dujiangyan City — Wikipedia (climate table)
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "The viral staircase is Zhongshuge Chongqing, closed 17 Sep 2024 (Yicai); this is its closest open sibling. iFeng says it was open on 2 Oct 2026 from about 10:00. The 10:00–21:00 hours come from two undated guides: Dianping/Amap aren't fetchable from here. Train fare (¥10 from Xipu) is from a 2023 timetable plus a 2026 guide; check 12306. The map pin is approximate (the mall isn't on OSM)."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: spiral-staircase
+    focus: "50% 45%"
+    caption: The spiral staircase under the mirrored ceiling
+    hook: A spiral staircase of books climbing into a mirrored ceiling, so the shelves seem to go up forever.
+  - type: quick_facts
+    time_needed: 1–1.5 h inside
+    best_time: Weekday, right at 10:00
+    extra:
+      - { label: Good in rain, value: "Yes, fully indoors", detail: Inside a shopping mall }
+      - { label: Books, value: Mostly Chinese, detail: "Come for the space, not to read" }
+  - type: highlights
+    items:
+      - title: The infinity effect
+        text: "The **mirrored ceiling** reflects the shelves and stairs, so the room seems to rise forever. It's the same trick that made the Chongqing store go viral."
+      - title: A spiral staircase of books
+        text: In the literature hall a spiral staircase winds up along the shelves to the second level.
+      - title: Shelves shaped like a dam
+        text: "The curved walnut book walls are modelled on the ancient **Dujiangyan irrigation system** nearby."
+      - title: Free, and ranked world top 10
+        text: "No ticket. 1000 Libraries put it **6th** among the world's most beautiful bookstores of 2025."
+  - type: prose
+    title: Why not Chongqing?
+    dropcap: true
+    text: |-
+      The "infinity staircase" clips that went round the internet were shot in **Zhongshuge Chongqing**, in Yangjiaping. Its staircases sat under a mirrored ceiling, like an Escher print. That store **closed on 17 September 2024**. The Xi'an branch closed the same year, and the chain has been shutting other stores since.
+
+      The Dujiangyan store comes from the same designer (Li Xiang of X+Living), opened in 2020, and on 2 October 2026 it drew over 4,500 visitors in one day. You get the same signature: staircases and shelves reflected to infinity in a mirrored ceiling. Take Metro Line 2 to **Xipu**, then the 20–30 min train to Dujiangyan. Pair it with the Dujiangyan irrigation system for a full day.
+  - type: gallery
+    feature: false
+    images:
+      - file: mirrored-aisle
+        caption: Curved shelves and a polished black floor double everything
+        focus: center
+  - type: cost_breakdown
+    items:
+      - { label: Entry, local: 0, brl: 0 }
+      - { label: "Train Xipu ↔ Dujiangyan (¥10 each way)", local: 20, brl: 16.53, note: "From Chengdu East/South up to ~¥27 each way" }
+      - { label: "Didi straight from Chengdu, one way (instead of the train)", local: 100, brl: 82.67, optional: true }
+  - type: map
+    note: "Ride **Metro Line 2** to **Xipu** (犀浦), change across the platform to the intercity train to **Dujiangyan station**, then a short taxi to **融创茂** (Sunac Mall). The bookstore is on the **2nd floor**. Show the driver the Chinese address."
+  - type: tips
+    variant: insider
+    items:
+      - "Get there at **10:00 on a weekday**: a mall bookstore is usually at its quietest then."
+      - Stand at the foot of the spiral and shoot straight up to get the infinity look in the mirror.
+      - Make it a day trip with the Dujiangyan irrigation system in the same city.
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't go looking for the Chongqing store in Yangjiaping: it **closed in September 2024**."
+      - "It's a working bookstore, so keep your voice down. Avoid weekends and holidays, when the stairs fill with people posing."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 9
+    conditions: Grey, damp Sichuan winter (Jan avg 3–9 °C)
+    note: Fully indoors, so the weather doesn't matter here. It's a good grey-day plan.
+    wear: A warm layer for the train and station

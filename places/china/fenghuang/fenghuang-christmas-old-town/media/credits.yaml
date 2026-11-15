@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: hongqiao-night
+  title: File:Fenghuang Hongqiao (Fenghuang Rainbow-Shaped Bridge) 2, 9 November 2010.jpg
+  author: Huangdan2060
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Fenghuang_Hongqiao_(Fenghuang_Rainbow-Shaped_Bridge)_2,_9_November_2010.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f1/Fenghuang_Hongqiao_%28Fenghuang_Rainbow-Shaped_Bridge%29_2%2C_9_November_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The night scene of Fenghuang Hongqiao (Fenghuang Rainbow-Shaped Bridge), on 9 November 2010.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: tuo-river-december
+  title: File:Fenghuang County, Hunan, China, 21 December 2016b.jpg
+  author: 凌晨疯子
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source_url: https://commons.wikimedia.org/wiki/File:Fenghuang_County,_Hunan,_China,_21_December_2016b.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/af/Fenghuang_County%2C_Hunan%2C_China%2C_21_December_2016b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Residential buildings alongside the Tuojiang River in Fenghuang County, Hunan, China, on 21 December 2016.
+  width: 3000
+  height: 1992
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons

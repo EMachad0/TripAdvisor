@@ -1,0 +1,19 @@
+# Independent review of shibuya-parco-game-floor. Written by `./atr review`; do not edit by hand.
+id: shibuya-parco-game-floor
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: f1cf4d25fe8e287b4d19adfb13458746a0f4f6059d9c448f87c73886b423376c
+facts:
+  supported: 5
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.winter
+    problem: The page gives the traveler's Japan dates as "10–19 Jan, or 22 Jan – 4 Feb on the newer draft". 10–19 Jan are the Korea days, and the current trip file puts Japan on 20 Jan – 4 Feb 2027. The conclusion that normal post-New-Year hours apply is still right, but the dates shown on the page are wrong.
+    evidence: hours.winter now says "your Japan dates (20 Jan – 4 Feb 2027)". This matches config/trip.yaml (japan 2027-01-20 to 2027-02-04), and the old draft is no longer mentioned.
+rereview_of: 20401156d1064b4ab15337cad621c147ee02e011450b282752f40dd99fda967a
+summary: Finding 1 is resolved. Per shibuya.parco.jp/info/, PARCO opens 11:00–21:00 and 6F opens 10:00–21:00. SEGA STORE's PARCO page lists no hours of its own. Nintendo's store page confirms numbered tickets \"土・日・祝日など混雑が予想される日\" (weekends, holidays and busy days). I did not re-check \"Cold and dry\", but it is minor. The page renders cleanly, and no blocker or should is open.
+model: claude-opus-5-5
+cost_usd: 0.414

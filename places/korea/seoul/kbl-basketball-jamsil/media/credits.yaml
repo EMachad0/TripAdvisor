@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: jamsil-sports-complex
+  title: File:Seoul Sports Complex.jpg
+  author: Seoul Institute
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_Sports_Complex.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/04/Seoul_Sports_Complex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Seoul Sports Complex
+  width: 1600
+  height: 1087
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-12
+  origin: commons
+- file: kbl-game-db
+  title: File:Heo Ung (KBL Player).jpg
+  author: Khm3212
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Heo_Ung_(KBL_Player).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/98/Heo_Ung_%28KBL_Player%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: OLYMPUS DIGITAL CAMERA
+  width: 4288
+  height: 3216
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

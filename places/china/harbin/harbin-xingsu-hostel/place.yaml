@@ -1,0 +1,159 @@
+id: harbin-xingsu-hostel
+name: "Harbin Xingsu Hostel"
+short_name: Xingsu Hostel
+name_local: 哈尔滨行宿青年旅舍
+name_romanized: Hā'ěrbīn Xíngsù Qīngnián Lǚshè
+country: china
+city: harbin
+area: Daoli · Central Street
+category: stay
+tags: [hostel, central-street, small-hostel, kitchen]
+kind: Stay
+why: "Small, spotless hostel across from Central Street metro, two minutes from the old street. Friendly, not a party hostel. Beds from ¥58 in Christmas week."
+
+cost:
+  local: 58
+  currency: CNY
+  brl: 47.95
+  note: "18-bed women's dorm, Dec 20–23 (¥68 Dec 24–25). Men's 4-bed dorm ¥88 (¥98). Hostelworld, searched 2026-11-10"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 7
+  lead_time: "Book, then email the hostel at least 7 days before arrival"
+  method: website
+  links:
+    - label: Hostelworld (Dec 22 search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Harbin-Xingsu-Hostel/Harbin/320426?from=2026-12-22&to=2026-12-23&guests=1"
+      note: "15% deposit online, the rest paid at the hostel in cash, Alipay or WeChat Pay"
+    - label: Ctrip (Chinese)
+      url: "https://m.ctrip.com/html5/hotel/hoteldetail/109702725.html"
+      note: "Prices only shown after signing in"
+  notes: "The hostel's Hostelworld terms say to email them 7 days ahead or the booking \"cannot be guaranteed\". Only 4 beds in each 4-bed dorm; the men's ensuite showed 2 left for Dec 22."
+
+hours:
+  summary: "Reception 24 h · check-in 14:00–02:00 · check-out by 12:00 · no curfew"
+  winter: "Nothing seasonal listed. Christmas Eve and Christmas night cost ¥10 more per dorm bed (¥68 vs ¥58) in the 2026-11-10 search. Quiet hours 00:00–08:00 (Ctrip). Ice and Snow World opening week has sold out the park in past years; the hostel showed plenty of beds on 2026-11-10."
+
+location:
+  address: "93 Xiaman Street, Daoli District, Harbin (opposite Central Street metro station)"
+  address_local: 哈尔滨市道里区霞曼街93号
+  lat: 45.7681
+  lng: 126.6114
+  nearest_transit: "Central Street station (Line 2), about 140 m"
+  approximate: true
+
+sources:
+  - url: "https://www.hostelworld.com/hostels/p/320426/harbin-xingsu-hostel/"
+    title: "Harbin Xingsu Hostel (Hostelworld): 9.6/10 from 10 reviews, house rules, December beds and prices"
+    checked: 2026-11-10
+  - url: "https://m.ctrip.com/html5/hotel/hoteldetail/109702725.html"
+    title: "哈尔滨行宿青年旅舍(中央大街店) (Ctrip): opened 2023, 4.6/5 from 607 reviews, accepts guests of any nationality"
+    checked: 2026-11-10
+  - url: "https://www.eastchinatrip.com/harbin-ice-and-snow-world-travel-guide/"
+    title: "Harbin Ice and Snow World guide (East China Trip): Line 2 direct from Central Street"
+    checked: 2026-11-10
+  - url: "https://en.wikipedia.org/wiki/Harbin#Climate"
+    title: "Harbin climate table (Wikipedia, China Meteorological Administration 1991–2020 normals)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Prices read on Hostelworld (date search, 2026-11-10); they move. Foreign guests: Ctrip says guests from any country are accepted, and Hostelworld has reviews from Irish, Singaporean and Hong Kong guests who stayed in Dec 2025–Jul 2026. Only 10 Hostelworld reviews, so the 9.6 is a small sample. No hostel-run events are listed anywhere. Pin is on Xiaman Street near the station, not the exact door."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: central-street-ice
+    caption: "Ice sculpture on Central Street, 2 min away. No free photo of the hostel itself"
+    hook: Out the door and down the metro stairs, or two minutes on foot to the cobbles of Central Street.
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–02:00", detail: "Reception 24 h, no curfew" }
+      - { label: Vibe, value: "Friendly, small, quiet", detail: "Quiet hours 00:00–08:00; no organised events" }
+      - { label: Foreigners, value: Accepted, detail: "Ctrip: any nationality; foreign guests in recent reviews" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: 18-bed women's dorm
+        local: 58
+        brl: 47.95
+        note: "Dec 22 (same Dec 20–23); ¥68 on Dec 24–25"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Harbin-Xingsu-Hostel/Harbin/320426?from=2026-12-22&to=2026-12-23&guests=1"
+      - label: 4-bed women's dorm
+        local: 78
+        brl: 64.48
+        note: "Dec 22; ¥88 on Dec 24–25"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Harbin-Xingsu-Hostel/Harbin/320426?from=2026-12-22&to=2026-12-23&guests=1"
+      - label: 4-bed men's dorm, ensuite
+        local: 88
+        brl: 72.75
+        note: "Dec 22; ¥98 on Dec 24–25. The only dorm for men"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Harbin-Xingsu-Hostel/Harbin/320426?from=2026-12-24&to=2026-12-25&guests=1"
+      - label: Double room, ensuite
+        local: 228
+        brl: 188.49
+        note: "Whole room, Dec 22; ¥298 on Dec 24"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Harbin-Xingsu-Hostel/Harbin/320426?from=2026-12-22&to=2026-12-23&guests=1"
+    rating:
+      score: 9.6
+      out_of: 10
+      source: Hostelworld
+      reviews: 10
+      atmosphere: 10
+      checked: 2026-11-10
+    social:
+      - "Hostelworld atmosphere score 10/10, but from only 10 reviews"
+      - "Reviews from Dec 2024 and Jan 2026 both say \"made new friends\""
+      - "One guest said staff are shy at first but \"super friendly\" once you talk to them"
+      - "Shared kitchen, garden and barbecue; Ctrip lists parties and gatherings as allowed"
+      - "No pub crawls, family dinners or bar: you make your own plans"
+    good_to_know:
+      - "Mostly Chinese guests (Ctrip has 607 reviews against Hostelworld's 10)"
+      - "English-speaking staff, free luggage storage, lockers, lift, laundry (listings)"
+      - "No credit cards at the desk: cash, Alipay or WeChat Pay"
+      - "Men's dorm bathroom cubicles are \"quite transparent\", says a July 2026 review"
+      - "Under-18s not accepted; non-smoking"
+  - type: highlights
+    items:
+      - title: The metro is the front door
+        text: "Central Street station on **Line 2** is about 140 m away, and Line 2 runs straight to **Ice and Snow World** on the far bank."
+      - title: Central Street in two minutes
+        text: "The old Russian-era street and its winter ice sculptures are a short walk; Saint Sophia Cathedral is about 1 km (Ctrip)."
+      - title: Cheap for Christmas week
+        text: "A dorm bed was **¥58–68 (R$48–56)** a night for Dec 20–25 when searched, the lowest dorm price on Hostelworld's Harbin list that day."
+      - title: Cook your own
+        text: "Shared kitchen, and the Hongzhuan morning market (红专早市) is about 300 m away (Ctrip)."
+  - type: map
+    note: "The hostel asks guests to search **No. 93 Xiaman Street** on Amap or Google."
+  - type: tips
+    variant: insider
+    items:
+      - "After booking, **email the hostel** with your arrival time. Their terms say an unconfirmed booking may not be held, and a guest says they waited past midnight for a late flight."
+      - "Pay the balance with **Alipay or WeChat Pay**; set one up with a foreign card before China."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Not a party hostel. For a night out, team up with someone at check-in or head to Central Street."
+      - "Late flight? Check-in closes at **02:00**. Tell the hostel ahead."
+  - type: book_ahead
+    steps:
+      - days_before: 10
+        text: "Book on **Hostelworld** (15% deposit). Free cancellation ends about 8 days before arrival."
+      - days_before: 7
+        text: "**Email the hostel** to confirm, as their terms ask."
+      - days_before: 0
+        text: "Check in from 14:00 with your **passport**; pay the rest in cash, Alipay or WeChat Pay."
+  - type: weather
+    temp_low_c: -19
+    temp_high_c: -10
+    conditions: Dry, sunny or grey, snow on about 10 days in December
+    note: "December normals (CMA 1991–2020, via Wikipedia). The short walk to the metro is the main exposure; the hostel's room listings on Ctrip say air-conditioned, heating isn't described."
+    wear: Down parka, thermal layers, hat, gloves, boots with grip
+  - type: pairs_well
+    items:
+      - id: harbin-christmas-on-central-street
+        note: "Two minutes on foot: Central Street on Christmas Eve"
+      - id: harbin-ice-and-snow-world
+        note: "Line 2 from the station outside straight to the ice city"
+      - id: harbin-siberian-tiger-park
+        note: "Across the river on the north bank; pair it with the ice city"

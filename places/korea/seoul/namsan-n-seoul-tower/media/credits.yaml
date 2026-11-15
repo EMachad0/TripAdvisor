@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: night-skyline
+  title: File:Seoul city skyline at night from Namsan Mountain (49175035266).jpg
+  author: Matt Kieffer from London, United Kingdom
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_city_skyline_at_night_from_Namsan_Mountain_(49175035266).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Seoul_city_skyline_at_night_from_Namsan_Mountain_%2849175035266%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Seoul city skyline at night from Namsan Mountain
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: tower-from-park
+  title: File:Seoul Tower from Namsan Park (9595146693).jpg
+  author: travel oriented from Manila, Philippines
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_Tower_from_Namsan_Park_(9595146693).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Seoul_Tower_from_Namsan_Park_%289595146693%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Seoul Tower from Namsan Park
+  width: 3044
+  height: 2031
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: cable-car
+  title: File:Seoul - Namsan Cable Car.jpg
+  author: Jean & Nathalie
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_-_Namsan_Cable_Car.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0a/Seoul_-_Namsan_Cable_Car.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Namsan Cable Car
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: view-north
+  title: File:N Seoul Tower view 1.jpg
+  author: kallerna
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:N_Seoul_Tower_view_1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6a/N_Seoul_Tower_view_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Seoul seen from N Seoul Tower, Namsan. View towards north.
+  width: 5010
+  height: 2965
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

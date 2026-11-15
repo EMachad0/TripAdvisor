@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: snowy-ridges
+  title: File:View From Baegundae Peak.jpg
+  author: Lcarrion88
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:View_From_Baegundae_Peak.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4f/View_From_Baegundae_Peak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: This photo was taken from Baegundae Peak in Bukhansan National Park.
+  width: 3264
+  height: 2448
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: baegundae-snow
+  title: File:Baegundae Peak.jpg
+  author: Lcarrion88
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Baegundae_Peak.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/72/Baegundae_Peak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: This photo was taken from Baegundae Peak in Bukhansan National Park.
+  width: 3264
+  height: 2035
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: baegundae-granite
+  title: File:백운대.jpg
+  author: Symtux
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%EB%B0%B1%EC%9A%B4%EB%8C%80.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d2/%EB%B0%B1%EC%9A%B4%EB%8C%80.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 백운대 (mountain in South Korea)
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: summit-flag
+  title: File:End of Journey (Baegundae Peak Bukhansan Natl. Park).jpg
+  author: Eugenia15
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:End_of_Journey_(Baegundae_Peak_Bukhansan_Natl._Park).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/68/End_of_Journey_%28Baegundae_Peak_Bukhansan_Natl._Park%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: At Baegundae Peak the feeling of joy! You made it...look up, look around!
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

@@ -1,0 +1,49 @@
+# Independent review of shanghai-christmas-markets. Written by `./atr review`; do not edit by hand.
+id: shanghai-christmas-markets
+type: place
+reviewed: 2026-11-10
+verdict: fix
+content_hash: 6b471a91b4a5f43d6f9f574c145ad5962096157e92fd86f878c9d0b979b390e6
+facts:
+  supported: 21
+  unsupported: 8
+  contradicted: 1
+issues:
+  - severity: blocker
+    field: book_ahead.required
+    problem: The page says no booking is needed and shows "No booking needed" in the hero. The ticket seller says entry is by time slot, weekend slots sell out, and door sales stop when it gets busy. That makes walking up on Dec 24, the page's recommended evening, a real risk of not getting in.
+    evidence: 'https://www.smartshanghai.com/wire/shanghai-life/christkindlmarkt-market-tickets-now-available — "Weekend slots, especially afternoons, tend to sell out. Book ahead and stick to your time slot." / door tickets: "Sometimes available, sometimes not. If it gets too busy, they pause on-the-door sales."; https://www.travelofchina.com/?p=16870 — "Tickets Release in Batches", time-slot entry'
+    fix: Set book_ahead to recommended, with the method (SmartShanghai mini-program, time slot), a lead time of a few days for Dec 24, and a link. Also say the ¥40 door price in cost.note is not guaranteed.
+  - severity: should
+    field: hours.winter
+    problem: hours.winter says the dates shown "assume the 2025 pattern (Nov 26–Dec 28)", but when.dates shows Nov 25–Dec 27. That range matches SmartShanghai's 2026 listing, which is not among the sources. The reader cannot tell which range applies or where it comes from.
+    evidence: https://www.smartshanghai.com/events/christmas-markets/ — "Christkindlmarkt on the Bund 2026 ... From Nov 25 until Dec 27 @ 外滩源", "From ¥ 30"
+    fix: Add the SmartShanghai events listing to sources, say when.dates comes from the 2026 listing (Nov 25–Dec 27, usable Dec 6–27 on this trip), and remove the Nov 26–Dec 28 wording.
+  - severity: should
+    field: blocks[1].extra[1].detail
+    problem: '"Kerry Centre, BFC and Xintiandi were free": no listed source mentions a Xintiandi market. The Rachel Gouk article covers Kerry Centre and BFC only.'
+    evidence: https://rachelgouk.com/best-christmas-markets-in-shanghai-2025/ — no Xintiandi entry
+    fix: Drop Xintiandi or add a source that shows a free Xintiandi market.
+  - severity: should
+    field: blocks[2].items[1].text
+    problem: "\"Shanghai's longest-running Christmas market\" is not in any source. The source only says it was Paulaner's 19th Christkindlmarkt."
+    evidence: https://rachelgouk.com/best-christmas-markets-in-shanghai-2025/ — "Paulaner is hosting their 19th Christkindlmarkt"
+    fix: Change it to "Paulaner's 19th Christmas market in 2025", or cite a source for longest-running.
+  - severity: nit
+    field: blocks[2].items[1].text
+    problem: In 2025 the Paulaner market was open only Fri–Sun plus Dec 24–25, and the page does not say so. Someone reading the Bund market's Wed–Sun pattern could go on a Wednesday or Thursday and find it shut.
+    evidence: https://www.smartshanghai.com/wire/shanghai-life/christkindlmarkt-market-tickets-now-available — "Fri-Sun from Dec 5 to 28, plus Dec 24 & 25"
+    fix: Add "Fri–Sun only (2025), plus Dec 24–25" to the Paulaner highlight.
+  - severity: nit
+    field: blocks[11]
+    problem: The weather numbers (3–9 °C) have no climate source, and "keep the mug or return it" and "Christmas is a normal working day" are unsourced.
+    evidence: No listed source covers these.
+    fix: Cite a climate source for December in Shanghai, or soften the mug and working-day lines.
+  - severity: nit
+    field: blocks[8].items[3]
+    problem: A Christmas-market page carries a lot of Shanghai→Chongqing flight and train detail (quick fact, two tips, a pitfall and the cost note). "Every other one arrives after 18:00" was not checked against the timetable.
+    evidence: "https://trains.ctrip.com/trainbooking/shanghai-chongqing/ (rendered): G3390, D982, D986 and D57 times and fares match; the other trains were not checked"
+    fix: Move the Chongqing transfer to the Chongqing area or a transport page and keep one line here.
+summary: "Most 2025 market facts check out against Rachel Gouk, TravelofChina and SmartShanghai: hours, the ¥30/¥40 entry, the ¥50 Paulaner voucher, free Kerry Centre/BFC, the address and metro, the map pin, and the Trip.com and Ctrip fares. The booking rule is wrong: entry is by time slot, sold out on busy days, and door sales can stop, so 'No booking needed' must change. The 2026 date source, the Xintiandi claim and the 'longest-running' claim also need fixing."
+model: claude-opus-5-5
+cost_usd: 0.64

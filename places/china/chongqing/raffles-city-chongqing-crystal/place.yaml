@@ -1,0 +1,142 @@
+id: raffles-city-chongqing-crystal
+name: "Raffles City and The Crystal"
+short_name: Raffles City
+name_local: 重庆来福士 · 探索舱
+name_romanized: Chóngqìng Láifúshì · Tànsuǒ Cāng
+country: china
+city: chongqing
+area: "Yuzhong · Chaotianmen"
+category: shopping
+fame: popular
+tags: [mall, architecture, observation-deck, glass-floor, skyline, river-confluence]
+kind: Do
+why: "A 300 m glass skybridge laid across four towers, 250 m above where Chongqing's two rivers meet. The mall below is free; the deck is ¥128."
+
+cost:
+  local: 128
+  currency: CNY
+  brl: 108.66
+  note: "Deck sightseeing ticket, adult (Qunar, Nov 2026). The mall is free"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Weekday, about 16:30–18:30 (sunset ~18:05)"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Deck 10:00–22:00 daily per a 2025 listing; not confirmed by the operator. Entry on mall L1"
+  winter: "No Dec–Jan changes listed. The 2025 listing only shortens hours around Chinese New Year (late Jan), which is after your China dates. Chongqing winter is grey and often foggy, so the view can be hazy."
+
+location:
+  address: "8 Jiesheng Street, Yuzhong District, Chongqing (Raffles City mall, L1, next to Gate 7)"
+  address_local: 重庆市渝中区接圣街8号 重庆来福士 L1层 探索舱·云端乐园
+  lat: 29.56756
+  lng: 106.58313
+  nearest_transit: "Chaotianmen (Line 1); the station links into mall L2–L3"
+  approximate: true
+
+sources:
+  - url: https://touch.piao.qunar.com/touch/detail_476263.html
+    title: "探索舱·云端乐园 — Qunar ticket page (read 2026-11-13): ¥128 adult incl. non-mainland residents, ¥198 with Cloud Walk, address, reviews"
+    checked: 2026-11-13
+  - url: https://www.dahepiao.com/lvyounews1/20250725522805.html
+    title: "重庆来福士探索舱观景台 — 大河票务网 (2025-07-25): hours 10:00–22:00, entrance L1 beside Gate 7"
+    checked: 2026-11-13
+  - url: https://www.capitaland.com/cn/zh/newsroom/To-explore.html
+    title: "探索舱·观景台 — CapitaLand newsroom (2020-05-23): 250 m, 300 m long, L47 sky area, glass floor"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Raffles_City_Chongqing
+    title: "Raffles City Chongqing — Wikipedia: Moshe Safdie, opened Sep 2019, tower heights, mall area"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Chaotianmen_station
+    title: "Chaotianmen station — Wikipedia: Line 1, opened 31 Dec 2020"
+    checked: 2026-11-13
+  - url: https://www.nbd.com.cn/articles/2020-03-31/1421570.html
+    title: "重庆来福士 — NBD (2020-03-31): 400+ brands; Chaotianmen station to enter the mall at L2–L3"
+    checked: 2026-11-13
+  - url: https://citiesinsider.com/country/china/chongqing/architecture/en
+    title: "Chongqing architecture — Cities Insider (2026): Cloud Walk is an open-air tethered skywalk on The Crystal"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing — Wikipedia: climate table, Dec–Jan normals and sunshine"
+    checked: 2026-11-13
+  - url: https://sunrise-sunset.org/china/chongqing/2026/12
+    title: "Chongqing sunset times, December 2026 — sunrise-sunset.org (18:03–18:05 on 28–31 Dec)"
+    checked: 2026-11-13
+  - url: https://m.thepaper.cn/baijiahao_4360027
+    title: "重庆来福士开业 — The Paper (2019-09-06): L1 Chongqing food street, 24-hour passage Jiefangbei–Chaotianmen"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "The ¥128 price is from Qunar's live page (Nov 2026), which differs from the ¥180 at the 2020 opening and the ¥120 in a 2025 reseller article. Hours are from a 2025 reseller listing; no official page found. L1 food street: 2019 opening report. Pin is the mall, not the deck entrance. Cities Insider opened by web fetch; atr links times out on it."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: night-from-river
+    focus: center
+    hook: "Towers lit red over the river, and a glass tube laid across the tops of four of them."
+    caption: "Raffles City from the Jialing River at night (May 2026)"
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: "Weekday, 16:30–18:30"
+    extra:
+      - { label: The Crystal, value: "300 m long, 250 m up", detail: "A horizontal skyscraper on four towers" }
+      - { label: Deck floor, value: L47, detail: "Ticket desk and entry on mall L1" }
+      - { label: Add-on, value: "Cloud Walk +¥70", detail: "云中漫步: ¥198 combo on Qunar, Nov 2026" }
+  - type: highlights
+    items:
+      - title: A skyscraper lying down
+        text: "Moshe Safdie's **Crystal** is a 300 m glass conservatory, 32.5 m wide, laid across four towers 250 m up. The complex opened in 2019."
+      - title: Glass under your feet
+        text: "At the end of the bridge a **glass floor cantilevers** out over the drop, CapitaLand says, above the meeting of the Yangtze and Jialing."
+      - title: The mall is free
+        text: "235,000 m² of mall under the towers; at opening, L1 had a **Chongqing food street** with local names like 盛天毛血旺. Shopping and wandering cost nothing."
+      - title: Ends at the city's tip
+        text: "A 24-hour passage runs from the Jiefangbei side through the mall to **Chaotianmen**, the tip of the peninsula, said The Paper at the 2019 opening."
+  - type: prose
+    dropcap: true
+    text: |-
+      Raffles City fills the tip of the Yuzhong peninsula, where the Jialing runs into the Yangtze. Eight towers rise from a mall podium, and across the tops of four of them lies **The Crystal**, a glass tube 300 metres long. At night it glows over the rivers; the Dahe listing also mentions a weekly Saturday drone show (see that card).
+
+      The ticketed public part is the **Exploration Deck**, about 1,500 m² on the Jialing side of the bridge at L47, reached from a ticket desk on the mall's ground floor. A Qunar reviewer (June 2025) found the deck small, about five minutes to walk round apart from the Cloud Walk, but the glass terrace view across the rivers good.
+
+      So come for the half hour up top and the walk through the mall below. On a work day, go up at about 17:00 and watch the light fade toward the ~18:05 sunset, then eat in the mall and still make it to the 20:00 shift.
+  - type: gallery
+    images:
+      - { file: crystal-day, caption: "The Crystal by day, laid across the tower tops" }
+  - type: quote
+    variant: vibe
+    text: "Two rivers, one glass bridge, and a city that refuses to be flat."
+  - type: cost_breakdown
+    items:
+      - { label: "Exploration Deck, adult (Qunar, Nov 2026)", local: 128, brl: 108.66 }
+      - { label: "Cloud Walk add-on (¥198 combo)", local: 70, brl: 59.42, optional: true }
+      - { label: "Walking the mall", local: 0, brl: 0 }
+  - type: map
+    note: "Line 1 to **Chaotianmen** (朝天门). The deck entrance is on mall **L1, next to Gate 7** (7号门旁)."
+  - type: tips
+    variant: insider
+    items:
+      - "Qunar lists a separate ticket for **non-mainland residents** at the same ¥128, so a passport works. No advance booking is needed: tickets are sold for immediate use."
+      - "Eat before you go up: the Qunar reviewer found no food on the deck."
+      - "Fog or low cloud? Look up at the towers first. If The Crystal is in cloud, skip the deck: walk the 24-hour passage through the mall out to **Chaotianmen**, the peninsula's tip where the two rivers meet, for free."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The Cloud Walk combo (¥198) is a tethered walk outdoors. The same Qunar reviewer called it more dull than scary."
+      - "The 10:00–22:00 hours come from one 2025 reseller listing. On a work day, check the closing time at the L1 desk or on Qunar before you plan around it."
+      - "Prices have moved: ¥180 at the 2020 opening, ¥120 in a 2025 listing, ¥128 now. Check Qunar or the desk on the day."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: "Cool, damp, often foggy; around 5% of possible sunshine"
+    note: "Indoors except the Cloud Walk. Fog is the risk: it can hide the rivers from 250 m up."
+    wear: "Mid-weight jacket; a hat if you do the Cloud Walk"
+  - type: pairs_well
+    items:
+      - { id: hongyadong-qiansimen-night-walk, note: "Hongyadong is up the Jialing bank from here; lights on at dusk" }
+      - { id: chongqing-drone-light-show, note: "Saturday drones fly right around these towers" }
+      - { id: yangtze-river-cableway-night, note: "Another view of the rivers, from a 1987 cable car" }
+      - { id: jiefangbei-nye-countdown, note: "Jiefangbei is at the other end of the 24-hour passage" }

@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: panda-cub
+  title: File:Panda in Chengdu Research Base of Giant Panda Breeding - 7708872342.jpg
+  author: George Lu
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Panda_in_Chengdu_Research_Base_of_Giant_Panda_Breeding_-_7708872342.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Panda_in_Chengdu_Research_Base_of_Giant_Panda_Breeding_-_7708872342.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Panda in Chengdu Research Base of Giant Panda Breeding, China.
+  width: 4769
+  height: 3179
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: panda-walking
+  title: File:Chengdu Sichuan China Panda-breeding-and-research-center-02.jpg
+  author: CEphoto, Uwe Aranas
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chengdu_Sichuan_China_Panda-breeding-and-research-center-02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/df/Chengdu_Sichuan_China_Panda-breeding-and-research-center-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Chengdu, Sichuan, China: Giant Panda in the Chengdu panda breeding and research center"
+  width: 3529
+  height: 2353
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: red-panda
+  title: File:Chengdu Research Base of Giant Panda Breeding, 201907, 02.jpg
+  author: Jimmyshjj
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/98/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​成都大熊猫繁育研究基地内的小熊猫，摄于2019-07-04
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: gate
+  title: File:Chengdu Research Base of Giant Panda Breeding, 201907, 01.jpg
+  author: Jimmyshjj
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c1/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​成都大熊猫繁育研究基地大门，摄于2019-07-04
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: panda-bamboo
+  title: File:Chengdu Research Base of Giant Panda Breeding, 201907, 05.jpg
+  author: Jimmyshjj
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_05.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/26/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​成都大熊猫繁育研究基地内的大熊猫，摄于2019-07-04
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

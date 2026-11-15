@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: talat-noi-sunset
+  title: File:Sunset View of Chao Phraya River from Talat Noi, Bangkok, Thailand.jpg
+  author: Linh Anh Moreau
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Sunset_View_of_Chao_Phraya_River_from_Talat_Noi,_Bangkok,_Thailand.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/65/Sunset_View_of_Chao_Phraya_River_from_Talat_Noi%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sunset view of the Chao Phraya River in Bangkok, taken from a high-rise in Talat Noi Sub-district, Samphanthawong District.
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: talat-noi-day
+  title: File:View of Chao Phraya River from Talat Noi, Bangkok, Thailand.jpg
+  author: Linh Anh Moreau
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:View_of_Chao_Phraya_River_from_Talat_Noi,_Bangkok,_Thailand.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/61/View_of_Chao_Phraya_River_from_Talat_Noi%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Day time view of the Chao Phraya River in Bangkok, taken from a high-rise in Talat Noi Sub-district, Samphanthawong District.
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

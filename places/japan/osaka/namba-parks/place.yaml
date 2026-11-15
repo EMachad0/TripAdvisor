@@ -1,0 +1,122 @@
+id: namba-parks
+name: "Namba Parks"
+name_local: なんばパークス
+name_romanized: Nanba Pakusu
+country: japan
+city: osaka
+area: Namba
+category: shopping
+fame: popular
+tags: [mall, architecture, rooftop-garden, free, night-view]
+kind: Shop
+why: "A mall shaped like a canyon, with a free hillside park on top that climbs eight floors above the old baseball stadium site. Open until midnight."
+
+cost:
+  local: 0
+  currency: JPY
+  brl: 0
+  note: "The rooftop Parks Garden and the canyon walkways are free."
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "After dark, when the garden is lit"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Parks Garden 10:00–24:00; most shops 11:00–21:00, restaurants 11:00–22:00"
+  closed: "Occasional mall closing days; the garden follows them"
+  winter: "Open through winter. The official site says a 'waterfall of light' appears at the Glacier Court in winter, with no end date given; whether it still runs in late January is unknown. The garden is outdoors and cold at night."
+
+location:
+  address: "Namba Parks, 2-10-70 Nambanaka, Naniwa-ku, Osaka"
+  address_local: 大阪市浪速区難波中2-10-70 なんばパークス
+  lat: 34.66168
+  lng: 135.50208
+  nearest_transit: "Nankai Namba Station (direct link); Osaka Metro Namba, 9 min"
+
+sources:
+  - url: "https://nambaparks.com/garden"
+    title: "Namba Parks (official): Parks Garden, about 11,500 m², 500 species, 2F–9F, 10:00–24:00, free"
+    checked: 2026-11-13
+  - url: "https://nambaparks.com/about"
+    title: "Namba Parks (official): Canyon Court, Glacier Court, Nankai Hawks Memorial Gallery, shop hours"
+    checked: 2026-11-13
+  - url: "https://nambaparks.com/access"
+    title: "Namba Parks (official): access and hours (restaurants 11:00–22:00, some excepted)"
+    checked: 2026-11-13
+  - url: "https://osaka-info.jp/en/spot/namba-parks/"
+    title: "OSAKA-INFO (official Osaka tourism): Namba Parks, opened Oct 2003 on the Osaka Stadium site, access"
+    checked: 2026-11-13
+  - url: "https://en.wikipedia.org/wiki/Namba_Parks"
+    title: "Wikipedia: Namba Parks (designed by Jon Jerde / The Jerde Partnership; park climbing eight levels)"
+    checked: 2026-11-13
+  - url: "https://www.timeout.com/osaka/things-to-do/best-rooftop-gardens-in-osaka-to-relax-and-enjoy-free-city-views"
+    title: "Time Out Osaka: best free rooftop gardens (canyon concourse, garden lit from sunset to midnight)"
+    checked: 2026-11-13
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=62&block_no=47772"
+    title: "JMA: climate normals 1991–2020, Osaka (January)"
+    checked: 2026-11-13
+confidence: high
+confidence_note: "Garden size, hours and free entry are from Namba Parks' own garden page (Nov 2026). Closing days change monthly and weren't listed for January yet. The architect is from Wikipedia."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: garden-terraces
+    caption: "Parks Garden's terraces, with Namba's towers behind"
+    hook: "Walk through a canyon of shops and keep climbing until you're in a forest eight floors above the street."
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: After dark
+    extra:
+      - { label: Garden, value: "Free, open till midnight", detail: "About 11,500 m², 2F to 9F" }
+      - { label: Plants, value: "~500 species", detail: "About 100,000 plants, with resident gardeners" }
+      - { label: From Dotonbori, value: Short walk south, detail: "Directly linked to Nankai Namba Station" }
+  - type: highlights
+    items:
+      - title: The canyon
+        text: "The 2F walkway, the **Canyon Court**, was modelled on the Grand Canyon: layered walls of shops opening to the sky. The tall 'monument' called **Glacier** at its south end is really the escalator tower."
+      - title: A forest on the roof
+        text: "**Parks Garden** climbs in terraces from 2F to 9F: about **11,500 m²**, 500 plant species and 100,000 plants, with a grass hill on 8F and a wooded step garden on 9F. Entry is free."
+      - title: Lit until midnight
+        text: "The garden stays open until **24:00**, and Time Out says it is lit from sunset to midnight, which makes it a quiet walk after Dotonbori's crowds, even in winter."
+      - title: A baseball ghost
+        text: "The complex stands where **Osaka Stadium** was, home of the Nankai Hawks. The Nankai Hawks Memorial Gallery tells the team's 50-year story with trophies and uniforms."
+  - type: prose
+    title: Why a mall gets a card
+    text: |-
+      The shops are mid-range fashion and lifestyle chains, nothing you came to Japan for. What earns Namba Parks a card is the building: a long open canyon through the middle and a terraced park on top that steps up eight floors. Wikipedia says it was meant as a park first, in a city short on green.
+
+      It costs nothing, it is open late, and it is close to the hostels around Namba. Go after dinner, take the escalators up through the garden to 9F, and look back over the city.
+  - type: gallery
+    images:
+      - file: canyon
+        caption: "The terraced garden and the canyon, seen from above"
+        focus: center
+      - file: level-2
+        caption: "Inside on 2F"
+  - type: map
+    note: "From **Nankai Namba Station** walk straight south into the building; from Dotonbori it's a short walk past Namba station."
+  - type: tips
+    variant: insider
+    items:
+      - "Buy takeaway downstairs and eat on the **6F terrace**: the official guide says outside food is welcome there. Take your rubbish with you."
+      - "The whole garden is **non-smoking**; smoking rooms are on 3F and 6F inside."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Shops close at **21:00** and most restaurants at **22:00**. Only the garden stays open until midnight."
+      - "Check the official site for the month's **closing day** before you go."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool, dry and fairly sunny
+    note: "January normals for Osaka (JMA): 3.0 °C low, 9.7 °C high, 47 mm of rain. The canyon and the garden are open-air, so it's cold after dark."
+    wear: A warm coat for the garden
+  - type: pairs_well
+    items:
+      - { id: hostel-chillax-namba, note: "About 1.5 km west, by Namba" }
+      - { id: den-den-town-retro-games, note: "Den Den Town's retro game shops are just east" }
+      - { id: dotonbori-kani-doraku-crab, note: "The giant crab sign, about 1 km north" }

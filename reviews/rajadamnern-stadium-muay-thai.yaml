@@ -1,0 +1,19 @@
+# Independent review of rajadamnern-stadium-muay-thai. Written by `./atr review`; do not edit by hand.
+id: rajadamnern-stadium-muay-thai
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 3c8205b48fbdebb62bcacfebaa13bba0654bcb7c754fc930347d9969b662f731
+facts:
+  supported: 5
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[1].extra[1].detail
+    problem: The page says the cheapest Sunday seat is ฿1,500 and the Saturday floor is ฿1,200. The sources only show these are the cheapest seats sold online. The official site says tickets can also be bought at the stadium, and the Muay Thai Stadiums guide lists Third Class at ฿1,000, sold only at the door. The cheapest way in is never weighed on the page; it appears only in confidence_note.
+    evidence: 'blocks[1].extra[1].detail now reads "Online price, RWS card; Sunday ฿1,500 cheapest online". A new pitfalls tip, blocks[11].items[1], gives the ฿1,000 door option with the right hedge. Both changes show on the phone render. https://muaythaistadiums.com/rajadamnern-muay-thai-stadium/ supports the tip: its price table lists "Third Class | 1,000" with "Buy In Advance?" set to "No", and it adds "some shows such as RWS do sell out".'
+rereview_of: 8cacf929f95af6e26531df9f039bba5b7d6006c989ffc652c934979b2b8afd3c
+summary: "The only earlier finding is resolved: the page now marks the Sunday seat as cheapest online and adds the hedged ฿1,000 door price. Sources support the changed text: Wikipedia and the guide confirm the 1941 start and WWII halt; the guide confirms Likit Gai Yang and that RWS can sell out; 198% matches ฿1,200. The ฿1,500 Sunday price is unsupported this round because Ticketmelon would not load (WebFetch and ./atr render both failed). Only its wording changed, so I raised no issue. The page passes."
+model: claude-opus-5-5
+cost_usd: 0.552

@@ -1,0 +1,25 @@
+# Independent review of orange-isle-young-mao-changsha. Written by `./atr review`; do not edit by hand.
+id: orange-isle-young-mao-changsha
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 97afe8f5befd65631e37ade536d7b8f8a10fa6fd01eaf6bf5b395deaf989679f
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: The page says "last entry 21:00", but no listed source gives a last-entry time. VOC, Baba Goes China and Chinatripedia give only 07:00–22:00, and the last booking slot runs 17:00–22:00.
+    evidence: hours.summary now reads 'Daily 07:00–22:00 (last booking slot 17:00–22:00)', with no last-entry claim. https://m.voc.com.cn/xhn/news/202605/32569765.html — "开放时间：7:00-22:00" and "每天可约时段为：7：00-12：00，12：00-17：00，17：00-22：00"; https://travel.sina.cn/2026-03-30/detail-inhsswmp0085587.d.html — "07:00-12:00、12:00-17:00、17:00-22:00三个时段"
+  - field: blocks[3].items[3].text
+    problem: The highlights and cost_breakdown give the sightseeing bus as a flat ¥20. The listed Baba Goes China page gives ¥40 in its Quick Facts and ¥20 elsewhere on the same page. The page states ¥20 as fact and leaves the conflict only in confidence_note.
+    evidence: cost.note now says ¥20–40, blocks[3].items[3] says '¥20 or ¥40; sources disagree', and cost_breakdown[1] carries the note '¥20 or ¥40; sources disagree'. https://www.babagoeschina.com/orange-island-juzizhou-in-changsha/ — "sightseeing train (40RMB)" and "Mini tourist train around island (¥20)"
+  - field: fame
+    problem: The page marks this as `hidden`, but the Young Mao statue on Orange Isle is Changsha's headline sight. It gets about 17 million visits a year and appears in every foreign guide to the city, so a foreign visitor who goes to Changsha would have heard of it.
+    evidence: fame is now `popular`. The project scale has only iconic | popular | hidden (docs/CURATOR-GUIDE.md:143). `popular` means 'well known to anyone who researched the city', which fits Changsha's headline sight with about 17 million visits a year (People's Daily, 10 Dec 2025).
+rereview_of: f572a1a22a43e73ebfae82d21b5bd7072717eeedd56e389764889bb22875607f
+summary: All three earlier findings are fixed. The hours now give only 07:00–22:00 and the three booking slots, which the VOC and Sina notices support. The bus price shows the ¥20/¥40 disagreement everywhere it appears. Fame is now `popular`. The changed text adds no unsupported fact; the 1913–18 study years in the Chinatripedia source title come from a fetch of a truncated page, not verbatim text.
+model: claude-opus-5-5
+cost_usd: 0.398

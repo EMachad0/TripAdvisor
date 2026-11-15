@@ -1,0 +1,131 @@
+id: khao-san-road-night
+name: "Khao San Road and Soi Rambuttri at Night"
+short_name: Khao San Road at night
+name_local: ถนนข้าวสาร
+name_romanized: Thanon Khao San
+country: thailand
+city: bangkok
+area: Banglamphu · Old Town
+category: nightlife
+fame: iconic
+tags: [bar, street-party, backpacker, weekend-night, free]
+kind: Do
+why: "410 m of neon, buckets and street speakers where every backpacker in Bangkok ends up; drink on the strip, then slip to leafier Soi Rambuttri."
+cost:
+  local: 300
+  currency: THB
+  brl: 49.47
+  note: "Two small local beers at a bar on the strip (2026 guide: ฿120–180 each). Walking the street is free"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–4 h
+best_time: "Sat or Sun night, 20:00–01:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Street is open all day; bars and stalls run about 15:00–02:00, busiest 20:00–01:00"
+  winter: "January is the dry high season (Nov–Feb): the street is at its busiest and a 2026 price guide says promos are rarer and prices tick up. No closures; the New Year peak (31 Dec) is over by the time you arrive on 2 Jan."
+
+location:
+  address: "Khao San Road, Talat Yot, Phra Nakhon, Bangkok 10200"
+  address_local: "ถนนข้าวสาร แขวงตลาดยอด เขตพระนคร กรุงเทพฯ 10200"
+  lat: 13.75891
+  lng: 100.49727
+  nearest_transit: "MRT Sam Yot (~1.5 km), then a short taxi or Grab; Phra Arthit pier on weekdays"
+
+sources:
+  - url: https://www.thaiholidayguide.com/attraction/khao-san-road/
+    title: "Khao San Road, Bangkok: nightlife, street food and tips (Thai Holiday Guide, updated Jun 2026)"
+    checked: 2026-11-12
+  - url: https://www.khaosanroad.com/articles/how-much-is-a-beer-on-khao-san-road-2026
+    title: "How much is a beer on Khao San Road? 2026 prices (khaosanroad.com, Mar 2026)"
+    checked: 2026-11-12
+  - url: https://www.khaosanroad.com/articles/best-budget-rooftop-bars-bangkok-khao-san-road-travelers
+    title: "Best budget rooftop bars in Bangkok for Khao San travelers (khaosanroad.com, Jun 2026)"
+    checked: 2026-11-12
+  - url: https://en.edaily.co.kr/news/eda202606085232/
+    title: "Thailand ends the 14:00–17:00 alcohol sales ban; sales 11:00–24:00 (Edaily, 8 Jun 2026)"
+    checked: 2026-11-13
+  - url: https://www.chaophrayaexpressboat.com/chaophrayaexpressboat
+    title: "Chao Phraya Express Boat: routes and timetable from 9 Nov 2026 (operator)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices are ranges from a 2026 khaosanroad.com price guide (a site run for the street, not a neutral source); the ฿300 cost uses ฿150 per beer as a midpoint. Hours and tips from Thai Holiday Guide (Jun 2026). Hostel distances are straight-line from the hostels' own listed addresses and map pins (their pages), not walked. Nothing date-specific for 2–9 Jan 2027."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: khao-san-night
+    hook: "Neon signs, grilled-meat smoke, Bob Marley mixed into Thai club beats, and a bucket on every table."
+  - type: quick_facts
+    time_needed: 2–4 h
+    best_time: "Sat/Sun, from 20:00"
+    extra:
+      - { label: Slot, value: Weekend night, detail: "Sat 2, Sun 3 or Sat 9 Jan; on work nights you start at 19:00" }
+      - { label: Cheaper one street over, value: "Soi Rambuttri", detail: "Small beer ฿100–150 vs ฿120–180 on the strip" }
+  - type: highlights
+    items:
+      - title: The backpacker crossroads
+        text: "A former rice market (*khao san* = milled rice) that became Southeast Asia's backpacker hub in the 1980s. *The Beach* opens here."
+      - title: The street changes by the hour
+        text: "Shuttered before 17:00, tables in the road by early evening, speakers on at **20:00**, peak around **22:00**, hoses out at 02:00."
+      - title: Soi Rambuttri, the calmer twin
+        text: "One block north: tree-lined, lanterns, sit-down bars and **cheaper beer**. Better for a conversation with the people from your hostel."
+      - title: Sunset on the old city wall
+        text: "**Santichai Prakan Park** at the river end has a stretch of the 18th-century wall and a breeze off the Chao Phraya. Five minutes from the noise."
+  - type: prose
+    title: How to do it on R$50
+    dropcap: true
+    text: |-
+      The strip is about the people, not the drinks. Start with dinner from a cart at the edge of the street between 18:00 and 19:30, when it's still quiet, then walk the length of Khao San once to take it in.
+
+      For the actual drinking, Soi Rambuttri or Phra Athit Road are a notch cheaper and you can hear each other. Come back to the main strip after 22:00 when it's at full volume. It's the classic hostel group night: NapPark (5 Tani Road) is one street north, about 200 m as the crow flies, and Mad Monkey (55 Phra Sumen Road) about 500 m north.
+  - type: gallery
+    images:
+      - { file: khao-san-stalls, caption: "Khao San Road at night: street food, clothes stalls and neon" }
+      - { file: soi-rambuttri, caption: "Soi Rambuttri by day, tree-lined and calmer" }
+  - type: cost_breakdown
+    items:
+      - { label: "Small local beer at a strip bar", local: 150, brl: 24.74, estimate: true }
+      - { label: "Second beer", local: 150, brl: 24.73, estimate: true }
+      - { label: "A bucket (Thai spirit + mixer)", local: 250, brl: 41.23, optional: true, estimate: true }
+      - { label: "Beer from 7-Eleven (330 ml)", local: 45, brl: 7.42, optional: true, estimate: true }
+  - type: menu
+    title: What drinks cost here (2026 ranges)
+    items:
+      - { name: "Small Leo / Chang, strip bar", name_local: ลีโอ / ช้าง, price_local: 150, price_brl: 24.74, note: "฿120–180; Singha ฿10–20 more", tag: drink }
+      - { name: "Small local beer, Soi Rambuttri", price_local: 125, price_brl: 20.61, note: "฿100–150", tag: cheap }
+      - { name: "Bucket", price_local: 250, price_brl: 41.23, note: "฿200–320 from street stands; strong, cheap spirits", tag: drink }
+      - { name: "Beer tower 2–3 L (to share)", price_local: 650, price_brl: 107.19, note: "฿499–799; worth it in a group of 3–5", tag: drink }
+    note: "Many places add 7% VAT and sometimes 10% service. Street stands are cash only."
+  - type: map
+    note: "No metro stop next to it. The Chao Phraya Express flag boats to **Phra Arthit pier** run **Mon–Fri only**, so on your weekend nights take the MRT to **Sam Yot** (about 1.5 km away) and a short taxi or Grab, or a Grab all the way."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: weekend night.** Sat 2 Jan, Sun 3 Jan or Sat 9 Jan. Mon–Fri you work from 19:00."
+      - "Happy hours (often 17:00–20:00) can bring a small local beer down to ฿90–120: drink early on Rambuttri, then move to the strip."
+      - "Shops like 7-Eleven sell alcohol **11:00–24:00** (the old 14:00–17:00 ban ended in 2026); nothing from midnight to 11:00."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Buckets are bottom-shelf spirit plus Thai energy drink; two hit much harder than you expect."
+      - "Pickpockets work the crowd after 21:00: front pockets, no phone left on the table."
+      - "Don't book buses or minivans from the travel agents on the strip; the guide warns of luggage theft and downgrades. Use 12go.asia or the bus terminals."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: warm, clear evenings"
+    note: "January nights are the most comfortable of the year, around the mid-20s °C. Rain is rare."
+    wear: "Shorts, T-shirt, sandals; no dress code anywhere on the strip"
+  - type: pairs_well
+    items:
+      - { id: mad-monkey-bangkok, note: "Hostel with a bar, 55 Phra Sumen Rd, ~500 m north" }
+      - { id: nappark-hostel, note: "5 Tani Rd, one street north (~200 m)" }
+      - { id: rajadamnern-stadium-muay-thai, note: "Saturday Muay Thai first, then drinks here" }
+      - { id: golden-mount-wat-saket, note: "Old Town sight for a daytime visit" }

@@ -1,0 +1,22 @@
+# Independent review of area khao-yai. Written by `./atr review`; do not edit by hand.
+id: khao-yai
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 41605d5c3ec5e3b632e978c390709c1c20f19d01ba58a5bcc2a8c9b6c2f09897
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[2].text
+    problem: The plan's main outbound train is Rapid 139 at 19:25 → Pak Chong 22:33, from Rail Thailand's January 2026 table. Baolau's newer search for 18 Nov 2026 lists RP139 at 19:40 → 22:52. The times in getting_there also come only from that January table.
+    evidence: "blocks[2].text and getting_there now give Rapid 139 as about 19:25–19:40 → Pak Chong about 22:35–22:55, and tell the traveler to confirm on D-Ticket. Both sources back the range: https://www.baolau.com/en/s/bangkok/pak-chong — \"RP139 19:40 … 22:52 … 85 ฿\" (search for 18 Nov 2026), and Rail Thailand's table gives 19:25→22:33."
+  - field: blocks[2].text
+    problem: The ฿1,670 total counts ฿85 for each train. The planned return is Express 72, and no source gives its fare. Baolau prices the matching Express 71 at ฿185, so the total is probably about ฿100 low. (Baolau does show RP139 at ฿85, which the confidence_note says was not checked.)
+    evidence: "The fares are now ฿85 for Rapid 139 out and ฿185 for Express 72 back, and the new total is ฿85+185+1,500 = ฿1,770 (R$292 at the page's earlier rate). Source: https://www.baolau.com/en/s/pak-chong/bangkok — \"EX72 12:08 … 14:55 … 185 ฿\"."
+rereview_of: e49546e640d7b18c7921f8e1bb07520497b93feb41b7e0200d98eeb2b901ee08
+summary: Both earlier findings are fixed. The page now gives Rapid 139 and Express 72 as time ranges that cover both sources, tells the traveler to confirm on D-Ticket, and prices those two trains at Baolau's fares (฿85 and ฿185). The new ฿1,770 total adds up, the new facts in the diff are supported, and the phone screenshot renders cleanly.
+model: claude-opus-5-5
+cost_usd: 0.354

@@ -1,0 +1,294 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stated taste (config/taste.yaml)",
+  "type": "object",
+  "description": "Stated taste: config/taste.yaml.",
+  "properties": {
+    "updated": {
+      "type": "string",
+      "examples": [
+        "2026-11-10"
+      ],
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "goal": {
+      "enum": [
+        "discovery",
+        "balanced"
+      ],
+      "description": "discovery = cover the icons, but a good share of every country should be places the traveler has not heard of.",
+      "examples": [
+        "discovery"
+      ]
+    },
+    "interests": {
+      "type": "object",
+      "description": "Interest per place category, 0–3. Drives the category targets in `atr gaps` / `atr next`.",
+      "properties": {
+        "culture": {
+          "type": "integer",
+          "description": "Interest in Culture (temples, history, museums, architecture with a story), 0–3.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 3
+        },
+        "food": {
+          "type": "integer",
+          "description": "Interest in Food (restaurants, street food, markets, food streets), 0–3.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 3
+        },
+        "nightlife": {
+          "type": "integer",
+          "description": "Interest in Nightlife (bars, clubs, live music, night markets for drinking), 0–3.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 3
+        },
+        "nature": {
+          "type": "integer",
+          "description": "Interest in Nature (parks, hikes, mountains, ice/snow, gardens that are mostly nature), 0–3.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 3
+        },
+        "odd-local": {
+          "type": "integer",
+          "description": "Interest in Odd & local (quirky, very local experiences: bathhouses, jjimjilbang, themed cafés), 0–3.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 3
+        },
+        "views": {
+          "type": "integer",
+          "description": "Interest in Views (skylines, observation decks, viewpoints, striking modern architecture), 0–3.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 3
+        },
+        "shopping": {
+          "type": "integer",
+          "description": "Interest in Shopping (flea markets, malls worth seeing, craft streets), 0–3.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 3
+        },
+        "shows": {
+          "type": "integer",
+          "description": "Interest in Shows (performances, acrobatics, sports, festivals with a stage), 0–3.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 3
+        },
+        "day-trip": {
+          "type": "integer",
+          "description": "Interest in Day trip (a full day out of the base city), 0–3.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 3
+        },
+        "stay": {
+          "type": "integer",
+          "description": "Interest in Stay (social hostels, capsule/pod hotels), 0–3.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 3
+        }
+      },
+      "required": [],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tag": {
+            "type": "string",
+            "description": "A place tag.",
+            "examples": [
+              "museum"
+            ],
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "weight": {
+            "type": "integer",
+            "description": "0 = not interested … 3 = loves it.",
+            "examples": [
+              2
+            ],
+            "minimum": 0,
+            "maximum": 3
+          },
+          "note": {
+            "type": "string",
+            "examples": [
+              "Only a must-go museum is worth a card."
+            ],
+            "maxLength": 300
+          }
+        },
+        "required": [
+          "tag",
+          "weight"
+        ],
+        "patternProperties": {
+          "^x_": {}
+        },
+        "additionalProperties": false
+      },
+      "description": "Finer signals by tag; overrides the category weight for places with that tag."
+    },
+    "stay": {
+      "type": "object",
+      "properties": {
+        "wanted": {
+          "type": "boolean",
+          "description": "Are stay cards (category `stay`) wanted?",
+          "examples": [
+            true
+          ]
+        },
+        "per_city": {
+          "type": "integer",
+          "description": "Stay cards wanted per city that has attractions.",
+          "examples": [
+            2
+          ],
+          "minimum": 0,
+          "maximum": 6
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 400
+        }
+      },
+      "required": [
+        "wanted"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "nightlife": {
+      "type": "string",
+      "maxLength": 400
+    },
+    "budget": {
+      "type": "string",
+      "maxLength": 400
+    },
+    "must_do": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "What a place or area claims with `must_do: <key>`.",
+            "examples": [
+              "great-wall"
+            ],
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "said": {
+            "type": "string",
+            "description": "The traveler's exact words.",
+            "examples": [
+              "great wall of china"
+            ],
+            "maxLength": 200
+          },
+          "hint": {
+            "type": "string",
+            "description": "The orchestrator's guess at what is meant. Verify it.",
+            "examples": [
+              "Pick the section that suits a solo winter traveler."
+            ],
+            "maxLength": 400
+          },
+          "country": {
+            "enum": [
+              "china",
+              "korea",
+              "japan",
+              "hong-kong",
+              "thailand",
+              "singapore"
+            ],
+            "examples": [
+              "china"
+            ]
+          },
+          "city": {
+            "type": "string",
+            "examples": [
+              "beijing"
+            ],
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "type": {
+            "enum": [
+              "place",
+              "area",
+              "stay"
+            ],
+            "description": "What covers it: a place page (default), an area card, or a stay card (category stay).",
+            "examples": [
+              "place"
+            ]
+          },
+          "want": {
+            "type": "integer",
+            "description": "How many places/areas must claim the key before it counts as covered (default 1).",
+            "examples": [
+              3
+            ],
+            "minimum": 1,
+            "maximum": 10
+          }
+        },
+        "required": [
+          "key",
+          "said"
+        ],
+        "patternProperties": {
+          "^x_": {}
+        },
+        "additionalProperties": false
+      },
+      "description": "Things the traveler asked for by name."
+    }
+  },
+  "required": [],
+  "patternProperties": {
+    "^x_": {}
+  },
+  "additionalProperties": false
+}

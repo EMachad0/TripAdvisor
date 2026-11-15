@@ -1,0 +1,22 @@
+# Independent review of sushi-azabu-lunch-omakase. Written by `./atr review`; do not edit by hand.
+id: sushi-azabu-lunch-omakase
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: d4560d674dfa09c28e67263efab26dc811e88ae030195dec4fae38b2ce7fcc5c
+facts:
+  supported: 5
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].steps[1]
+    problem: The step at 3 days before calls that day the 'last moment to cancel for free'. The venue charges 100% from 3 days before the booking, so a traveler who cancels on that day pays the full ¥4,800.
+    evidence: 'blocks[3].steps[1] now says 4 days before is the last free day and that the full price is charged from 3 days before. book_ahead.lead_time, notes and the pitfalls tip say the same. https://www.tablecheck.com/en/shops/sushi-azabu/reserve: "3 days prior or later: 100% of the course price". No fee tier is listed for 4 or more days before. The page also says "contact us at least three days in advance", so the 4-day step is the safe reading.'
+  - field: blocks[5] (cost_breakdown)
+    problem: Every guest must order a drink, but the cost table and quick facts leave it out. The page shows R$169 and '99% of daily budget' while highlights[0] says the total with the drink is 'about one full day's R$170'. With the drink the real total goes over the budget by an amount the page does not give.
+    evidence: 'The cost_breakdown note now says the total "leaves out the compulsory drink" and that drink prices are not published, and highlights[0] no longer claims a ~R$170 total. TableCheck: "Each guest is required to order at least one beverage". No drink prices appear on the page. The note shows correctly under the total on the phone screenshot (s05).'
+rereview_of: 78b63d59d10d95c7c1c1cad00f5fb01339d21b2cf9608215516a7f279471dc55
+summary: Both earlier findings are fixed. The cancellation timeline matches TableCheck's 100% fee from 3 days before, and the cost table now says the compulsory drink is extra and has no published price. Only the phrase "a little over" the budget is unsourced, which is acceptable because no drink price is published. The changed blocks render cleanly on phone.
+model: claude-opus-5-5
+cost_usd: 0.31

@@ -1,0 +1,97 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: smart-fuxing
+  title: File:CR400AF-Z Fuxing Intelligent EMU.jpg
+  author: Samson Ng . D201@EAL
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:CR400AF-Z_Fuxing_Intelligent_EMU.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a4/CR400AF-Z_Fuxing_Intelligent_EMU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: China Railway
+  width: 2000
+  height: 1333
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: second-class
+  title: File:Second Class of CR400BF-A-3104 20230107.jpg
+  author: 颐园居
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Second_Class_of_CR400BF-A-3104_20230107.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/51/Second_Class_of_CR400BF-A-3104_20230107.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​复兴号CR400BF-A-3104的二等座车内部
+  width: 3840
+  height: 2560
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: danyang-kunshan-bridge
+  title: File:201603 Danyang-Kunshan grand bridge (wuxi).JPG
+  author: MNXANL
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:201603_Danyang-Kunshan_grand_bridge_(wuxi).JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8e/201603_Danyang-Kunshan_grand_bridge_%28wuxi%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 201603 Danyang-Kunshan grand bridge (wuxi)
+  width: 4912
+  height: 2760
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: dashengguan-bridge
+  title: File:Dashengguan Yangtze River Bridge 20140831 102244.jpg
+  author: Qa003qa003
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Dashengguan_Yangtze_River_Bridge_20140831_102244.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c9/Dashengguan_Yangtze_River_Bridge_20140831_102244.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​在图中拍摄到的两条轨道是京沪高速铁路，拍摄者在沪汉蓉铁路武汉方向
+  width: 4096
+  height: 2304
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: coupled-fuxing
+  title: File:Coupled Fuxing CR400AF (53996957175).jpg
+  author: Astrid [aroma]
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Coupled_Fuxing_CR400AF_(53996957175).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3c/Coupled_Fuxing_CR400AF_%2853996957175%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A formation of two CRRC Fuxing CR400AF-Z trains coupled together, waiting for passengers at a station. Its aerodynamic nose can be appreciated, which is decorated with a wavy red stripe that extends across its body.
+  width: 4624
+  height: 3472
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: hongqiao-hall
+  title: File:Shanghai Hongqiao Station Hall-20150519-RM-102949.jpg
+  author: Ermell
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shanghai_Hongqiao_Station_Hall-20150519-RM-102949.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b2/Shanghai_Hongqiao_Station_Hall-20150519-RM-102949.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Shanghai Hongqiao Station concourse
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons

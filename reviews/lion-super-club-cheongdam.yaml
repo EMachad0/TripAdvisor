@@ -1,0 +1,21 @@
+# Independent review of lion-super-club-cheongdam. Written by `./atr review`; do not edit by hand.
+id: lion-super-club-cheongdam
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: da53775376db8120990ff7df72c3496326732f1fcc26e832c47663f19a936c54
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[3].text
+    problem: Sat 16 Jan is the right night, but trip.yaml also puts the Hwacheon day trip on the free weekend of 16–17 Jan. The page does not say how the club night and the Hwacheon trip fit around each other, and the traveler comes off a shift that ends at 06:00 on Sat 16.
+    evidence: config/trip.yaml korea.notes — "free days Jan 10, Jan 16–17 (Hwacheon)"
+    fix: "Add one clause: do Hwacheon in the daytime on Sat 16 and come back by evening, or move it to Sun 17 after the club night."
+resolved: []
+rereview_of: 69e1c3d097cefc6420a92c2713e6a144b48aa561c9f0a3f8431cae7b8617ebd9
+summary: "There were no earlier findings to close. The new date text is correct: Korea runs 10–20 Jan, and 14/15/16 Jan 2027 fall on Thu/Fri/Sat. The 21:00–06:00 shifts on 11–15 Jan leave Sat 16 and Sun 17 free, and NightFlow still lists the club as open Thu from 22:00 and Fri–Sat from 23:00. The only issue is a nit: the page could say how the night fits with the Hwacheon trip on the same weekend."
+model: claude-opus-5-5
+cost_usd: 0.227

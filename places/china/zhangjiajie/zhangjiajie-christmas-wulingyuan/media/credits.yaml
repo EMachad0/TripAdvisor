@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: suoxi-dusk
+  title: File:Wulingyuan bridge.jpg
+  author: Codas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wulingyuan_bridge.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Wulingyuan_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wulingyuan bridge
+  width: 5712
+  height: 4284
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: tianzi-snow
+  title: File:Belvédère enneigé des monts Tianzi, Zhangjiajie (2026).jpg
+  author: ICOLEF
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Belv%C3%A9d%C3%A8re_enneig%C3%A9_des_monts_Tianzi,_Zhangjiajie_(2026).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a3/Belv%C3%A9d%C3%A8re_enneig%C3%A9_des_monts_Tianzi%2C_Zhangjiajie_%282026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Snowy viewpoint facing the Tianzi Mountain pillars in winter, Zhangjiajie (Hunan, China).
+  width: 4800
+  height: 3600
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons

@@ -1,0 +1,161 @@
+id: mapo-galmaegisal-alley
+name: "Mapo Galmaegisal Alley"
+short_name: Galmaegisal Alley
+name_local: 마포 갈매기골목
+name_romanized: Mapo Galmaegi Golmok
+country: korea
+city: seoul
+area: Mapo-gu · Dohwa-dong
+category: food
+fame: hidden
+tags: [bbq, galmaegisal, pork, local, after-work, charcoal]
+kind: Eat
+why: "Office workers' BBQ alley since the 1980s: pork skirt on coal grills set in tin drums, egg poured round the edge, ₩17,000 a serving."
+
+cost:
+  local: 17000
+  currency: KRW
+  brl: 70.65
+  note: "One 200 g serving of galmaegisal at Jangsu Galmaegi (May 2025). Soup refills and the egg crust included"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: Weeknight 18:00–20:00, or Sat with hostel friends
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Jangsu Galmaegi 10:30–23:30 (Arukikata, May 2025). Busiest after office hours. Other shops vary; check Naver Map"
+  winter: "No winter hours published. The drum tables are indoors or under awnings, with a coal grill in the middle, so it's warm. Seollal (Feb 2027) falls after your dates."
+
+location:
+  address: Jangsu Galmaegi, 46 Dohwa-gil, Mapo-gu, Seoul
+  address_local: 서울특별시 마포구 도화길 46 (장수갈매기 본점)
+  lat: 37.54167
+  lng: 126.9507
+  nearest_transit: "Gongdeok (Lines 5/6, AREX), Exits 7, 9, 10; or Mapo (Line 5), Exits 3–4"
+
+sources:
+  - url: https://www.twig24.com/news/travel-news/2025/01/03/20250103030001
+    title: "마포 주물럭·갈매기살 '굽는 맛' [서울펀! 동네힙!] (Seoul Shinmun via twig, Jan 2025)"
+    checked: 2026-11-12
+  - url: https://www.arukikata.co.jp/tokuhain/306118/
+    title: "麻浦カルメギ通りのカルメギサルの名店へ (Arukikata, May 2025 prices)"
+    checked: 2026-11-12
+  - url: https://www.nomadotravel.app/en/guides/korean-bbq-guide-seoul
+    title: "Korean BBQ in Seoul: how it works (Nomado guide)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Climate_of_Seoul
+    title: "Climate of Seoul (Wikipedia, KMA 1991–2020 normals)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices: Jangsu Galmaegi ₩17,000/200 g and ₩2,000 yeolmu-guksu (Arukikata, May 2025); alley-wide 'mid-to-high ₩10,000s' (Seoul Shinmun, Jan 2025). No source says whether these shops serve one person, so the page plans for 2 servings or company. Jangsu hours 10:30–23:30 from Arukikata (May 2025), no closed day given; other shops not checked. Hero: Mapo-daero at night, not the alley."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: mapo-daero-night
+    caption: Mapo-daero at night from Dohwa-dong. No free photo of the alley exists
+    hook: Coal in a tin drum, beaten egg poured into the grill's moat, and soju with half of Mapo's offices.
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: Weeknight 18:00–20:00, or Sat with hostel friends
+    extra:
+      - label: Eating alone
+        value: Unconfirmed
+        detail: Most BBQ places want 2 servings; go with people or ask first
+      - label: Grill
+        value: You grill
+        detail: Staff pour the egg; flip often, the cut is lean and chewy
+      - label: The cut
+        value: Pork skirt (diaphragm)
+        detail: Galmaegisal sits between the diaphragm and the liver
+  - type: highlights
+    items:
+      - title: A BBQ street with a history
+        text: "It began when thousands of labourers building **Yeouido** in the late 1960s crossed the Mapo Bridge each night for soju and meat. Today it's office workers from Yeouido, Gongdeok and Gwanghwamun."
+      - title: The egg crust
+        text: "The grills have a **groove around the edge**. Staff pour beaten egg into it, and it sets into an omelette ring you eat between the meat. In the alley this egg crust is the trademark."
+      - title: Galmaegisal, not samgyeopsal
+        text: "Pork skirt (the diaphragm): lean, a bit chewy, lightly seasoned with garlic. **₩17,000 for 200 g** at Jangsu Galmaegi, one of the alley's best-known shops, with free refills of doenjang soup."
+      - title: Cheaper than across the road
+        text: "Yonggang-dong, on the other side of the main road, is the **expense-account** strip: hanwoo jumulleok at ₩40,000–50,000 a serving. Dohwa-dong is where workers on a budget eat."
+  - type: prose
+    title: Finding it, and eating alone
+    dropcap: true
+    text: |-
+      Come out of **Mapo station exit 3 or 4**, walk into the lanes behind the Seoul Garden Hotel, and head uphill towards Gongdeok. That's the alley. Coal-fired drum tables spill out of shopfronts. Nobody agrees who was first, but **Busan Galmaegi**, **Jangsu Galmaegi** and **Mapo Galmaegi** are the names locals give.
+
+      **The honest solo answer:** no source we found says whether these shops serve one person. Seoul BBQ places usually want **two portions** at least, and this is a group-dinner street. Two ways to go: bring people from the hostel (a Saturday works, and it's a cheap pre-game before Hongdae), or go alone early on a weeknight and ask *"1인분 돼요?"* ("Can I order one serving?"). If not, two servings are ₩34,000 (about R$141). For a guaranteed solo version, see the Hongojib page: a solo-BBQ restaurant near Hongdae with a galmaegisal set.
+
+      **How to eat it:** grill it yourself and turn it often, which is what locals told Arukikata's writer. Cut it with the scissors, wrap it in lettuce or perilla with ssamjang and garlic, and finish with a bowl of cold **yeolmu-guksu** (radish-kimchi noodles, ₩2,000).
+  - type: quote
+    variant: vibe
+    text: Tin drums, coal smoke, loosened ties and a ring of egg setting round the grill.
+  - type: menu
+    title: At Jangsu Galmaegi
+    items:
+      - name: Pork skirt, 200 g
+        name_local: 갈매기살 (1인분)
+        price_local: 17000
+        price_brl: 70.65
+        note: The signature. Everyone orders this first. May 2025 price.
+        tag: signature
+      - name: Radish-kimchi cold noodles
+        name_local: 열무국수
+        price_local: 2000
+        price_brl: 8.31
+        note: A small bowl to finish. Order it with the second round of meat.
+        tag: cheap
+      - name: Egg crust and soybean soup
+        name_local: 계란 + 된장국
+        price_local: 0
+        price_brl: 0
+        note: Included. Staff pour the egg into the grill's groove; soup is refilled.
+      - name: Pork belly / pork ribs
+        name_local: 삼겹살 / 돼지갈비
+        note: Also on the menu; price not checked.
+    note: "Prices from Arukikata (May 2025). Other shops in the alley charge in the same range (₩10,000s per serving, Seoul Shinmun 2025). Soju and beer are extra."
+  - type: cost_breakdown
+    items:
+      - label: Galmaegisal, 1 serving (200 g)
+        local: 17000
+        brl: 70.65
+      - label: Second serving, if one isn't allowed
+        local: 17000
+        brl: 70.65
+        optional: true
+      - label: Yeolmu-guksu to finish
+        local: 2000
+        brl: 8.31
+        optional: true
+  - type: map
+    note: "Pin is Jangsu Galmaegi. The alley runs through the lanes between **Mapo** (exits 3–4) and **Gongdeok** (exits 7/9/10)."
+  - type: tips
+    variant: locals
+    items:
+      - "Turn galmaegisal **again and again** over medium heat. It toughens if you leave it."
+      - "Eat the egg ring between bites of meat. It's there to cut the fat and the soju."
+      - "Finish with yeolmu-guksu instead of rice: cold, sour, ₩2,000."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't wander across the main road to **Yonggang-dong** by mistake: that's the ₩40,000-a-serving hanwoo strip."
+      - "Going alone at 19:30 on a weekday means the full after-work rush. Arrive by 18:00 if you'll be asking for one serving."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing; about 7 snowy days in January
+    note: "A coal grill between your knees beats any heater. The cold part is queuing outside at peak time."
+    wear: Padded jacket you don't mind smelling of coal smoke
+  - type: pairs_well
+    items:
+      - id: hongojib-solo-bbq
+        note: The guaranteed solo galmaegisal set, near Hongdae
+      - id: hongdae-club-night
+        note: Saturday plan — BBQ in Mapo, then clubs in Hongdae
+      - id: hongdae-pub-crawl
+        note: Cheap dinner before the crawl
+      - id: time-travelers-relax-hongdae
+        note: Social hostel to find dinner company

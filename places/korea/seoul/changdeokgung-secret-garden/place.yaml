@@ -1,0 +1,179 @@
+id: changdeokgung-secret-garden
+name: "Changdeok Palace and Secret Garden"
+short_name: Changdeokgung
+name_local: 창덕궁과 후원
+name_romanized: Changdeokgung · Huwon
+country: korea
+city: seoul
+area: Jongno-gu · Anguk
+category: culture
+fame: popular
+tags: [palace, joseon, garden, unesco, cold-outdoors, guided-tour]
+kind: See
+why: "The palace Joseon kings actually preferred, plus a timed walk through the hillside Secret Garden: ₩8,000 for both, 100 people per slot."
+cost:
+  local: 8000
+  currency: KRW
+  brl: 33.25
+  note: "2026 prices: ₩3,000 palace + ₩5,000 garden. A palace fee rise is planned, but its date is undecided (Oct 2026)"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3 h (1.5 h palace + garden slot)
+best_time: Palace at 13:00, then the 14:30 English garden slot
+
+book_ahead:
+  required: recommended
+  lead_days: 6
+  lead_time: "Online slots open 10:00 KST, 6 days before; half are kept for the window"
+  method: website
+  links:
+    - label: Official reservations (Changdeokgung)
+      url: "https://royal.khs.go.kr/ROYAL/contents/R601000000.do?schGroupCode=cdg"
+      note: "Pick 후원관람예약 (Secret Garden). Korean page; the ticket site behind it has an English option"
+    - label: Official admission info (English)
+      url: "https://royal.khs.go.kr/ENG/contents/E702000000.do?schGroupCode=cdg"
+      note: Hours, fees and the English tour times
+  notes: "Each garden slot takes 100 people: 50 booked online, 50 sold on site on the day. Booking the garden online also requires booking a palace (전각) ticket in the same 6-day window. Entry is at your slot time only."
+
+hours:
+  summary: "Palace 09:00–17:30 in Nov–Jan (last entry 16:30). Secret Garden slots on the hour 10:00–15:00 (Nov–Feb)"
+  closed: "Mondays (11 and 18 Jan 2027)"
+  winter: "Nov–Feb the last Korean-language garden slot is 15:00, and Dec–Feb the English slots are 10:30, 11:30 and 14:30 (no 15:30). The palace keeps its Nov–Jan hours, 09:00–17:30. A palace fee rise is planned, but as of Oct 2026 its date is undecided: ₩8,000 is the current price. The main gate, Donhwamun, is being dismantled for repairs from Nov 2026 to Oct 2028, so expect scaffolding at the front."
+
+location:
+  address: 99 Yulgok-ro, Jongno-gu, Seoul
+  address_local: 서울특별시 종로구 율곡로 99
+  lat: 37.57944
+  lng: 126.991
+  nearest_transit: "Anguk (Line 3), Exit 3, 5 min walk"
+
+sources:
+  - url: https://biz.sbs.co.kr/amp/article/20000339020
+    title: "SBS Biz (8 Oct 2026): palace fee rise on hold, plan, announcement and start date all marked 'undecided'"
+    checked: 2026-11-13
+  - url: https://royal.khs.go.kr/ROYAL/contents/R702000000.do?schGroupCode=cdg
+    title: "관람시간: palace hours; Secret Garden slots, English 10:30/11:30/14:30 Dec–Feb, 100 per slot (50 online + 50 on site)"
+    checked: 2026-11-12
+  - url: https://royal.khs.go.kr/ROYAL/contents/R703000000.do
+    title: "관람요금 (official fees, Korean): palace ₩3,000, Secret Garden ₩5,000, palace ticket required; ₩6,000 pass excludes the garden"
+    checked: 2026-11-12
+  - url: https://royal.khs.go.kr/ROYAL/contents/R704000000.do
+    title: "관람규칙 (official visiting rules, Korean): Changdeokgung closed every Monday; Nov–Jan opening to 17:30"
+    checked: 2026-11-12
+  - url: https://www.heraldk.com/article/2026080500135508658
+    title: "Herald Business (5 Aug 2026): new palace fees to be announced in Nov 2026, applied from 1 Jan 2027"
+    checked: 2026-11-12
+  - url: https://royal.khs.go.kr/ENG/contents/E702000000.do?schGroupCode=cdg
+    title: "Admission Information: Changdeokgung (official English page; course map only)"
+    checked: 2026-11-12
+  - url: https://royal.khs.go.kr/ROYAL/contents/R601000000.do?schGroupCode=cdg
+    title: "통합예약: 창덕궁 후원관람예약 (official reservation page, Korean)"
+    checked: 2026-11-12
+  - url: https://www.korea.kr/news/policyNewsView.do?newsId=148975304
+    title: "창덕궁 돈화문 보수공사…본격 해체 (Korea Heritage Service via Korea.kr, 9 Nov 2026)"
+    checked: 2026-11-12
+  - url: https://whc.unesco.org/en/list/816/
+    title: Changdeokgung Palace Complex (UNESCO World Heritage Centre)
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Changdeokgung
+    title: Changdeokgung (Wikipedia)
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours, garden slots, English times and the 50/50 split: official 관람시간 page; fees: 관람요금; Monday closure: 관람규칙; 6-days-at-10:00 rule and the required palace booking: the Korean booking page. Fee rise timing undecided (SBS Biz, Oct 2026): ₩8,000 may change. The ticket site would not load in atr render, so foreign-card payment is untested. UNESCO page read via atr render (blocks bots)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: snow-pavilion
+    hook: The lived-in palace of the Joseon kings, with a walled hillside garden behind it you can only enter by time slot.
+    caption: A palace pavilion after snowfall
+  - type: quick_facts
+    time_needed: 3 h (1.5 h palace + garden slot)
+    best_time: Palace at 13:00, then the 14:30 English garden slot
+    extra:
+      - label: English garden slots
+        value: "10:30, 11:30, 14:30"
+        detail: "Dec–Feb, per the official schedule"
+      - label: Garden slots
+        value: 100 people each
+        detail: 50 online, 50 at the window on the day
+      - label: Good in cold
+        value: All outdoors
+        detail: Hilly paths that can be icy; no indoor halls to warm up in
+  - type: highlights
+    items:
+      - title: The palace kings preferred
+        text: "Built in **1405** as a second palace, it became the real seat of the dynasty after the 1592 war burned everything and Gyeongbokgung was left in ruins for centuries."
+      - title: The Secret Garden (Huwon)
+        text: "Terraces, a lotus pond and pavilions set into a wooded hill, with **over 56,000** trees and plants. You enter only at the time on your ticket."
+      - title: Built around the hill
+        text: "UNESCO listed it in **1997** for the way the halls follow the slope of the land instead of the strict grid of Gyeongbokgung. It feels less like a parade ground, more like a home."
+      - title: Cheap and quiet in January
+        text: "₩8,000 for palace and garden at 2026 prices (a rise is planned, date undecided). Seoul gets about seven snowy days in January, so snow on the tiled roofs is a real chance."
+  - type: prose
+    title: The other side of the Joseon palaces
+    dropcap: true
+    text: |-
+      If Gyeongbokgung is the grand official palace, Changdeokgung is where the kings chose to live. It was built in 1405 by King Taejong, and most later kings preferred it. After the Imjin War burned every palace in 1592, it was rebuilt first and served as the main palace for about 250 years. The last royal family members kept living here into the late 20th century.
+
+      The reason to come is the **Secret Garden** behind the halls. It was the king's private retreat, and it is still rationed: 100 people per time slot, half booked online and half sold at the window. Guided tours in English are optional; you enter at your slot time either way.
+
+      On a work day, this fits an afternoon: the palace buildings after lunch, then the **14:30** English garden slot, out before dark.
+  - type: gallery
+    images:
+      - file: snow-courtyard
+        caption: A courtyard and old pine under snow
+      - file: buyongji
+        caption: The Buyongjeong pavilion over its square pond in the Secret Garden (September)
+      - file: snow-nakseonjae
+        caption: Plain, unpainted residential halls in the snow
+      - file: tower-view
+        caption: Roof guardians, with Namsan Tower in the haze behind
+  - type: book_ahead
+    steps:
+      - days_before: 6
+        text: "At **10:00 Korea time**, on the official site book a **후원관람예약** (garden) slot plus a **전각관람** (palace) ticket for the same day; on **Wednesdays** the palace is free and unbookable, so garden only. English: 10:30, 11:30 or 14:30."
+      - days_before: 1
+        text: Online booking closes the day before. No ticket? The other 50 places of each slot are sold on site on the day.
+      - days_before: 0
+        text: "Show your mobile tickets and be at the **garden entrance** before your slot time."
+  - type: cost_breakdown
+    items:
+      - label: Palace admission, adult
+        local: 3000
+        brl: 12.47
+      - label: Secret Garden ticket, adult
+        local: 5000
+        brl: 20.78
+    note: "The **Royal Palace Pass** (₩6,000, valid 6 months) covers four palaces and Jongmyo Shrine but **not** the Secret Garden. These are 2026 prices: a rise is planned, date undecided."
+  - type: map
+    zoom: 16
+    note: "From **Anguk Station Exit 3** walk about 5 minutes east. The main gate is under repair until 2028, so follow the signs to the open entrance."
+  - type: tips
+    variant: insider
+    items:
+      - "Guided tours are **optional**: your ticket only fixes the entry time. Join the English guide or walk the open route at your own pace."
+      - "If online slots are gone, come early: **half of every slot** is sold at the ticket office on the day."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Be on time.** The official page says garden entry is limited and slot times must be kept. The garden entrance is inside the palace, a walk from the gate: leave time."
+      - "Closed on **Mondays** (11 and 18 Jan)."
+      - "The last garden entry is **15:00** in winter. After a night shift, don't plan the garden for late afternoon."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry and freezing, with occasional snow
+    note: "Seoul's January averages are about 2 °C by day and −5.5 °C at night. The garden route is a slow outdoor walk on slopes, so you feel the cold more than in a flat courtyard. Snow makes the roofs beautiful and the paths slippery."
+    wear: Padded jacket, hat, gloves, shoes with grip
+  - type: pairs_well
+    items:
+      - id: gyeongbokgung-palace
+        note: The grand official palace, 20 min walk west; same ₩3,000 ticket (2026 price)
+      - id: gwangjang-market
+        note: "About 20 min walk south: mung-bean pancakes after a cold garden walk"
+      - id: dongmyo-flea-market
+        note: Three stops east on Line 1 from Jongno 3-ga

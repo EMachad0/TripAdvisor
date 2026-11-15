@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: led-tool-street
+  title: File:LED shop in Euljiro Seoul.jpg
+  author: Aaaatu
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:LED_shop_in_Euljiro_Seoul.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c6/LED_shop_in_Euljiro_Seoul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: LED shop in Euljiro Seoul. The district has a cluster for lighting solutions on top of print works and metalworks just around the corner.
+  width: 6658
+  height: 4439
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons
+- file: station-sign
+  title: File:Euljiro 3-ga Station 20240929 001.jpg
+  author: Mobius6
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Euljiro_3-ga_Station_20240929_001.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/84/Euljiro_3-ga_Station_20240929_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Euljiro 3-ga Station, Subway Line 2, Seoul, South Korea
+  width: 4216
+  height: 2609
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons
+- file: printing-alley
+  title: File:A paper wholesaler in Euljiro printing alley.jpg
+  author: Aaaatu
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:A_paper_wholesaler_in_Euljiro_printing_alley.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ea/A_paper_wholesaler_in_Euljiro_printing_alley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A paper wholesaler in Euljiro printing alley. The district is known for its numerous printing shops and vibrant night life.
+  width: 3992
+  height: 2994
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons
+- file: euljiro-3ga-street
+  title: File:을지로 3가 동쪽 풍경.jpg
+  author: UniCon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%EC%9D%84%EC%A7%80%EB%A1%9C_3%EA%B0%80_%EB%8F%99%EC%AA%BD_%ED%92%8D%EA%B2%BD.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/63/%EC%9D%84%EC%A7%80%EB%A1%9C_3%EA%B0%80_%EB%8F%99%EC%AA%BD_%ED%92%8D%EA%B2%BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 을지로 3가역 11번 출구의 동쪽 풍경
+  width: 4032
+  height: 2268
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons

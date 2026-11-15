@@ -1,0 +1,142 @@
+id: rajadamnern-stadium-muay-thai
+name: "Rajadamnern Stadium Muay Thai"
+short_name: Rajadamnern Stadium
+name_local: เวทีราชดำเนิน
+name_romanized: Wethi Ratchadamnoen
+country: thailand
+city: bangkok
+area: Old Town · Pom Prap
+category: shows
+fame: iconic
+tags: [muay-thai, sport, live-fight, weekend-night]
+kind: Do
+why: "Live Muay Thai in Thailand's oldest stadium (1945): Saturday's RWS card from ฿1,200 in the top tier, in the Old Town near Khao San."
+cost:
+  local: 1200
+  currency: THB
+  brl: 197.88
+  note: "Third Class, Saturday RWS card, official price on Ticketmelon for 2 and 9 Jan 2027. Sunday's cheapest online seat is ฿1,500"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–3.5 h
+best_time: "Sat 2 or Sat 9 Jan, doors 18:00, fights from 19:00"
+
+book_ahead:
+  required: recommended
+  lead_days: 2
+  lead_time: "Popular night: book a few days ahead online to be safe"
+  method: website
+  links:
+    - label: "Sat 9 Jan 2027: RWS (official)"
+      url: "https://www.ticketmelon.com/raj/rws-9jan27"
+      note: "Third Class ฿1,200 · Leo Section ฿1,800 · QR e-ticket"
+    - label: "Sat 2 Jan 2027: RWS (official)"
+      url: "https://www.ticketmelon.com/raj/rws-2jan27"
+      note: Same card format the night you land in Bangkok
+    - label: "Sun 3 Jan 2027: Kiatpetch (official)"
+      url: "https://www.ticketmelon.com/raj/kiatpetch-3jan27"
+      note: "Traditional card, doors 17:00. Cheapest online seat: Leo ฿1,500"
+  notes: "Ticketmelon is the stadium's own ticket seller (linked from rajadamnern.com). Resellers and hotel desks charge more. Cheap Third Class is not listed online for Sunday."
+
+hours:
+  summary: "Fights every night. Sat RWS: doors 18:00, 19:00–22:00. Sun Kiatpetch: doors 17:00, 18:00–21:30"
+  winter: "The stadium's calendar lists cards on Sat 2 Jan (RWS), Sun 3 Jan (Kiatpetch) and Sat 9 Jan 2027 (RWS), all on sale in November 2026. Indoors with a roof, so January's dry, warm evenings don't matter. No holiday closures listed."
+
+location:
+  address: "8 Ratchadamnoen Nok Rd, Wat Sommanat, Pom Prap Sattru Phai, Bangkok 10100"
+  address_local: "เวทีมวยราชดำเนิน 8 ถนนราชดำเนินนอก แขวงวัดโสมนัส เขตป้อมปราบศัตรูพ่าย กรุงเทพฯ 10100"
+  lat: 13.761
+  lng: 100.50876
+  nearest_transit: "No metro next door: taxi from MRT Sam Yot or BTS Ratchathewi"
+
+sources:
+  - url: https://rajadamnern.com/tickets/
+    title: "Rajadamnern Stadium: tickets and fight calendar (official)"
+    checked: 2026-11-12
+  - url: https://www.ticketmelon.com/raj/rws-9jan27
+    title: "9 Jan 2027 RWS: seat prices (Ticketmelon, official seller)"
+    checked: 2026-11-12
+  - url: https://www.ticketmelon.com/raj/kiatpetch-3jan27
+    title: "3 Jan 2027 Kiatpetch: seat prices (Ticketmelon, official seller)"
+    checked: 2026-11-12
+  - url: https://rajadamnern.com/seats-type/
+    title: "Rajadamnern Stadium: seat types (official)"
+    checked: 2026-11-12
+  - url: https://muaythaistadiums.com/rajadamnern-muay-thai-stadium/
+    title: "Rajadamnern Stadium 2026: ticket prices, best seats, schedule (Muay Thai Stadiums, Aug 2026)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-12
+confidence: high
+confidence_note: "Prices and dates read on the official Ticketmelon pages for 2, 3 and 9 Jan 2027 on 12 Nov 2026; they can still change. The ฿1,000 door price for Third Class on other nights comes only from the Muay Thai Stadiums guide, not the official site."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: facade
+    hook: "A drum-and-pipe orchestra, a betting pit roaring every exchange, and elbows thrown under a 1950s roof."
+    focus: "50% 55%"
+  - type: quick_facts
+    time_needed: 3–3.5 h
+    best_time: "Sat 2 or 9 Jan, 19:00"
+    extra:
+      - { label: Slot, value: Weekend night, detail: "Sat 2, Sun 3 or Sat 9 Jan; not on work nights" }
+      - { label: Cheapest seat, value: "฿1,200 (Sat)", detail: "Online price, RWS card; Sunday ฿1,500 cheapest online" }
+  - type: highlights
+    items:
+      - title: The oldest ring in Thailand
+        text: "Its first fight was on **23 December 1945**, after World War II delayed the building work begun in the early 1940s. The roof came in 1951."
+      - title: Two kinds of night
+        text: "**Saturday RWS** is short, punchy 3-round fights built for TV and tourists. **Sunday Kiatpetch** mixes in traditional 5-round bouts with a bigger local betting crowd."
+      - title: The cheap seats are the good seats
+        text: "Third Class is free seating at the top of the bowl with a **360° view** of the ring. You see the walk-outs and the gamblers below as well as the fight."
+      - title: The bell
+        text: "The ringside bell is a stadium legend: the story goes it can be heard **two kilometres** away."
+  - type: prose
+    title: Rajadamnern or Lumpinee?
+    dropcap: true
+    text: |-
+      Bangkok has two famous stadiums, Rajadamnern and Lumpinee. Rajadamnern wins for this trip on two counts: it's in the Old Town near Khao San, and it has a card every night of the week, including both of your free Saturdays and the Sunday in between.
+
+      Seat prices only buy comfort and closeness. Ringside (฿2,500–3,500) puts you at the ropes; the VIP balconies add free drinks. For a budget traveller the Third Class bench is the honest choice. It costs about **twice** your daily R$100 budget (198%), so the budget bar below shows it maxed out. Make it your one splurge in Bangkok, then keep the rest of that weekend free, with Channel 7's Sunday fights at no cost.
+  - type: gallery
+    images:
+      - file: fight
+        caption: "A bout at Rajadamnern (2007 photo; the hall has been renovated since)"
+      - file: ringside-crowd
+        caption: "Spectators at the ringside rail, Rajadamnern, 2007"
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "Open the Ticketmelon page for your date, pick **Third Class** (Sat) or **Leo Section** (Sun), and pay by card. The QR e-ticket comes by email."
+      - days_before: 0
+        text: "Arrive when the doors open (18:00 Sat, 17:00 Sun) and show the QR at the gate. Bags go through an X-ray."
+  - type: cost_breakdown
+    items:
+      - { label: "Third Class, Saturday RWS", local: 1200, brl: 197.88 }
+      - { label: "Taxi from MRT Sam Yot (guide's figure)", local: 70, brl: 11.54, optional: true, estimate: true }
+  - type: map
+    note: "The stadium is on Ratchadamnoen Nok Road, east of Democracy Monument. No metro stop is close: walk 20 min or take a short taxi from MRT Sam Yot."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: weekend night.** Sat 2 Jan (arrival day), Sun 3 Jan or Sat 9 Jan. Every other night that week you're working from 19:00."
+      - "Eat before you go: the Muay Thai Stadiums guide recommends **Likit Gai Yang**, a grilled-chicken restaurant just around the corner."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Buy only on rajadamnern.com / Ticketmelon or at the stadium. Agents and resellers mark the same seats up."
+      - "One guide lists Third Class at about **฿1,000 at the door** (not sold in advance). Unconfirmed by the stadium, and risky on a busy Saturday: book online if the night matters."
+      - "Don't put your feet on rails or seats, and don't touch a fighter's head in photos."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: clear, warm evenings"
+    note: "The fights are indoors under a roof, so the weather doesn't matter. The top tier gets warm when the hall is full."
+    wear: "T-shirt and trousers or shorts; no dress code is enforced"
+  - type: pairs_well
+    items:
+      - { id: khao-san-road-night, note: "Same Old Town, a short ride west: drinks after the last bout" }
+      - { id: golden-mount-wat-saket, note: "Nearby in the Old Town, for the daytime" }
+      - { id: channel-7-muay-thai, note: "Free Sunday-afternoon fights, if ฿1,200 is too much" }

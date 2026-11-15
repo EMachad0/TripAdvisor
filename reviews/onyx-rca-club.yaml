@@ -1,0 +1,22 @@
+# Independent review of onyx-rca-club. Written by `./atr review`; do not edit by hand.
+id: onyx-rca-club
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 7d1aced1c82c1862caac349d4816a10de04acfb19da83dee8835b4c0b43ec68f
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: location.nearest_transit
+    problem: The page says "no metro next to it" but names no station, and no listed source supports that. RCA is about 1.3 km from MRT Phetchaburi and close to MRT Phra Ram 9, so the cheap way there is missing.
+    evidence: The page now names MRT Phra Ram 9 and Phetchaburi in location.nearest_transit and blocks[7].items[1], with a short taxi from the station. https://www.discoverythailand.com/royal-city-avenue-rca — "it can be reached by taking the MRT to Pharam 9 or Petchaburi stations and then a short taxi ride." The source gives no walking distance, and confidence_note says so honestly. Grab is kept for the 04:00 ride home.
+  - field: location.lat
+    problem: No listed source gives coordinates, so nothing confirms that the pin (13.7523, 100.5748) is on Onyx and not somewhere else on the RCA strip.
+    evidence: https://api.openstreetmap.org/api/0.6/node/4307307319 — name="onyx bangkok", amenity=bar, lat="13.7523021" lon="100.5748031". This matches the page pin (13.7523, 100.5748), and the node is now cited in sources.
+rereview_of: 1d71703bd557d4ec138d0fa360f79bdda6e99a5e8bff9c94c5e9fc9f2ee450eb
+summary: Both earlier findings are resolved. The page names MRT Phra Ram 9 and Phetchaburi with a short taxi from either station, as Discovery Thailand says. The pin matches the OSM node for Onyx, which is now cited. The new text adds no unsupported facts, and the unchanged text has no blockers.
+model: claude-opus-5-5
+cost_usd: 0.3

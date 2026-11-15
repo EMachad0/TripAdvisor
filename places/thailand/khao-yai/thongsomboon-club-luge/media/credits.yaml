@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: luge-and-chairlift
+  title: File:Activities in thongsomboon club.jpg
+  author: KengSiri
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Activities_in_thongsomboon_club.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Activities_in_thongsomboon_club.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 3 activities shot in Thongsomboon club , Nakornrachasima Thailand
+  width: 3840
+  height: 2160
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

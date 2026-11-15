@@ -1,0 +1,29 @@
+# Independent review of area gangneung. Written by `./atr review`; do not edit by hand.
+id: gangneung
+type: area
+reviewed: 2026-11-12
+verdict: fix
+content_hash: f1453b4e02fd6f0f45f2693dea82ae5555c2329aa09f4c43d8e314fd2c234a89
+facts:
+  supported: 26
+  unsupported: 4
+  contradicted: 1
+issues:
+  - severity: should
+    field: blocks[5].items[1]
+    problem: The pitfall and confidence_note say the sheep ranch's site shows no prices or hours. Its own fare page lists admission (adult ₩9,000, child ₩7,000, preferential ₩6,000) and ticket sales 09:00–16:00.
+    evidence: 'http://www.yangtte.co.kr/fareinformation: individual adult 9,000 / child 7,000 / preferential 6,000; "오늘 매표 시간 09:00 AM - 04:00 PM"'
+    fix: Give the official ₩9,000 adult fee and 09:00–16:00 ticket hours, cite the fare page, and keep the advice to check winter hours by phone.
+  - severity: nit
+    field: getting_around
+    problem: The 15–20 min taxi time from the KTX station to Gyeongpo/Anmok, and the claim that buses have English signs, appear in neither Wikivoyage nor any other listed source.
+    evidence: https://en.wikivoyage.org/wiki/Gangneung gives only "base fare of ₩3,800" and "flat ₩1,300 for city routes when you pay cash"
+    fix: Cite a source for the taxi time and the English signs, or drop them.
+  - severity: nit
+    field: blocks[6].note
+    problem: Seoul's 2.1 °C January maximum, used for the "3 °C milder" comparison, could not be read verbatim in the Seoul article's climate table.
+    evidence: https://en.wikipedia.org/wiki/Seoul (climate table not confirmed verbatim)
+    fix: Recheck the Seoul January mean maximum and keep it only if it matches.
+summary: "The listed sources back the transport fares and times (Wikivoyage and Mileasia agree), the climate normals for Gangneung and Daegwallyeong, the Jeongdongjin facts, the Jumunjin hours and the booking window. The page renders cleanly and is honest about cost and the free-day trade-off. One fix is needed: the sheep ranch pitfall says the official site has no prices, but its fare page lists ₩9,000 adult and 09:00–16:00 ticket hours."
+model: claude-opus-5-5
+cost_usd: 0.703

@@ -1,0 +1,173 @@
+id: mutianyu-great-wall
+name: "Great Wall at Mutianyu"
+short_name: Mutianyu Great Wall
+name_local: 慕田峪长城
+name_romanized: Mùtiányù Chángchéng
+country: china
+city: beijing
+area: Huairou · 70 km out
+category: day-trip
+fame: iconic
+must_do: great-wall
+must_do_note: "Mutianyu: restored, lifts up and a toboggan down, one coach from Dongzhimen. The easy, safe pick for a solo winter day"
+tags: [great-wall, ming-dynasty, unesco, hiking, toboggan, cold-outdoors]
+kind: Do
+why: "Ming watchtowers on bare winter ridges, 70 km out: ¥80 coach from Dongzhimen, ¥45 entry, walk up free or ride a chairlift and toboggan down."
+
+cost:
+  local: 140
+  currency: CNY
+  brl: 115.74
+  note: "Tourist coach return + entry + valley shuttle, walking up and down. Lifts add ¥100 one way, ¥140 return"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Full day, 8–9 h door to door"
+best_time: "A clear, dry weekday; 09:10 coach from Dongzhimen"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "Real-name tickets open 15 days ahead; one ticket per passport per day"
+  method: passport-registered
+  links:
+    - label: Official ticket notice (QR to buy)
+      url: "https://en.mutianyugreatwall.com/article/4Sfg4mr302D"
+      note: "Prices and the QR code to the official online ticket shop"
+    - label: Official ticketing rules
+      url: "https://en.mutianyugreatwall.com/article/4DlCYuBZ75h"
+      note: "Foreign-passport orders need no ticket exchange: show the passport at the gate"
+    - label: Trip.com (foreigner-friendly)
+      url: "https://www.trip.com/travel-guide/attraction/beijing/mutianyu-great-wall-75609/"
+      note: "Resellers sell entry and lift combos; check what is bundled"
+  passport: true
+  notes: "The site also has a ticket service centre and self-service booths. Each phone number registers one user on the official platform; whether a foreign number works is not stated."
+
+hours:
+  summary: "Nov 16 – Mar 15: daily 08:00–17:30; ticket sales stop 16:30, gate checks 17:00"
+  winter: "Off-peak hours all December. The toboggan is weather-dependent and shuts in rain or snow; one guide lists winter slide hours of 08:30–16:40. On 13 Dec 2025 the cable car closed for its annual maintenance day, and on 12 Dec 2025 the site warned of icy, slippery slopes after snow. Check the official notices the day before."
+
+location:
+  address: "Mutianyu Road, Bohai Town, Huairou District, Beijing"
+  address_local: 北京市怀柔区渤海镇慕田峪长城
+  lat: 40.43442
+  lng: 116.56346
+  nearest_transit: "Mutianyu Roundabout (buses H23/H24/H35/H36 from Huairou Beidajie)"
+
+sources:
+  - url: https://en.mutianyugreatwall.com/article/4Sfg4mr302D
+    title: "Mutianyu Great Wall official — ticket and fee notice (2026-08-05: ¥45 entry, ¥15 shuttle, cable car ¥100/¥140)"
+    checked: 2026-11-10
+  - url: https://en.mutianyugreatwall.com/article/4DnYNPtz09s
+    title: "Mutianyu Great Wall official — opening hours (off-peak Nov 16 – Mar 15, 08:00–17:30; page 2023-07-21)"
+    checked: 2026-11-10
+  - url: https://en.mutianyugreatwall.com/article/4DlCYuBZ75h
+    title: "Mutianyu Great Wall official — ticket purchase instructions (real-name, 15 days ahead, passport entry; 2023-07-18)"
+    checked: 2026-11-10
+  - url: https://en.mutianyugreatwall.com/article/4PWR2xDOBzt
+    title: "Mutianyu Great Wall official — cable car maintenance notice (2025-12-13)"
+    checked: 2026-11-10
+  - url: https://en.mutianyugreatwall.com/article/4PVxmGZWG8g
+    title: "Mutianyu Great Wall official — snow and ice safety notice (2025-12-12)"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/china_great_wall/scene/beijing/mutianyu.htm
+    title: "Mutianyu Great Wall — TravelChinaGuide (updated 2026-10-20: lift and toboggan prices, buses, walking times)"
+    checked: 2026-11-10
+  - url: https://www.bucketlistly.blog/posts/mutianyu-great-wall-guide
+    title: "How to Visit Mutianyu Great Wall from Beijing — Bucketlistly (Oct 2026 visit; prices paid)"
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/destinations/beijing/great-wall/mutianyu-great-wall/
+    title: "Mutianyu Great Wall 2026 — Wander in China (2026-09-08: real-name rule, time needed, winter conditions)"
+    checked: 2026-11-10
+  - url: https://ruqintravel.com/community/china-travel-forum-3-beijing-travel-forum/great-wall-in-december-and-toboggan-2/
+    title: "Great Wall in December and toboggan — Ruqin Travel forum (2026-04-15 reply)"
+    checked: 2026-11-10
+  - url: https://chinadiscovery.com/beijing-tours/beijing-transportation/mutianyu-great-wall-toboggan.html
+    title: "Mutianyu Great Wall Toboggan — China Discovery (winter slide hours, rain/snow closure)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Mutianyu
+    title: "Mutianyu — Wikipedia (Huairou, 70 km, 22 towers on 2,250 m, history)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Beijing — Wikipedia (climate normals 1991–2020, Miyun District station)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Entry ¥45: official Aug 2026 notice; two guides say ¥40. Lift and bus prices from guides. Toboggan in December: one forum reply and one guide's winter hours, not official. Hours page is from 2023. Trip.com blocks fetches (HTTP 432), not opened; China Discovery 403s in atr links but opened in a web fetch. Weather is the Miyun station, the nearest normals to Mutianyu."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: wall-bare-hills
+    hook: "Watchtowers strung along a brown winter ridge, wind in your face, and nobody on the steps ahead of you."
+  - type: quick_facts
+    time_needed: "Full day, 8–9 h"
+    best_time: "Clear weekday, 09:10 coach"
+    extra:
+      - { label: On the wall, value: "3–4 h", detail: "Plus 1.5–2 h each way on the coach" }
+      - { label: Walk up, value: "30–40 min", detail: "South gate to tower 6 or 8, free" }
+      - { label: Cold, value: "−9 to 3 °C", detail: "December average, Miyun station; windier on the ridge" }
+  - type: highlights
+    items:
+      - title: The Ming wall, restored
+        text: "**22 watchtowers** on a 2,250 m stretch, rebuilt in 1569. The top is 4–5 m wide, so even in winter you're not edging along a ledge."
+      - title: Up by chairlift, down by toboggan
+        text: "A chairlift up and the metal **toboggan** track down is ¥140 (R$116). It runs on dry days only and shuts in rain or snow."
+      - title: Free if you walk
+        text: "From the south gate to **tower 6 or 8** is a 30–40 minute climb on steps. Skip the lifts and the wall costs you the ¥45 entry."
+      - title: Old enough to matter
+        text: "First built in the **mid-500s** under the Northern Qi; the Ming added a pass here in 1404. Restoration was approved in 1983."
+  - type: prose
+    title: How the day works
+    dropcap: true
+    text: |-
+      The simplest way is the **Dongzhimen tourist coach**: one departure at **09:10** from the Dongzhimen transport hub, ¥80 return, 1.5–2 hours each way. Coaches come back between **13:00 and 16:00**, which gives you about three hours up top.
+
+      The cheaper DIY route is the **916 Express** from Dongzhimen (¥16, every 10–30 minutes from 05:50) to Huairou Beidajie, then bus **H23, H24, H35 or H36** to the Mutianyu roundabout: 2–2.5 hours in all, with more freedom on the way back.
+
+      At the site, a ¥15 shuttle runs up the valley to the gates. Walk up to tower 6 or 8, walk the wall as far as the cold allows, and decide by the weather whether you ride down or walk.
+  - type: gallery
+    images:
+      - { file: towers-spring, caption: "Towers along the ridge (spring photo; in December the trees are bare)" }
+      - { file: cable-car, caption: "The enclosed cable car; it closed for annual maintenance on 13 Dec 2025" }
+      - { file: toboggan, caption: "The toboggan track down; it shuts in rain and snow" }
+  - type: book_ahead
+    steps:
+      - days_before: 15
+        text: "Real-name tickets open. A December weekday rarely needs this much notice."
+      - days_before: 1
+        text: "Check the forecast and the official notices, then buy entry with your **passport number** (official QR shop or Trip.com)."
+      - days_before: 0
+        text: "Take the 09:10 coach or the 916 Express. Lifts and toboggan can be bought at the site once you see the conditions."
+    passport_note: "Bring the **original passport** you booked with; it is your ticket at the gate."
+  - type: cost_breakdown
+    items:
+      - { label: Entry ticket, local: 45, brl: 37.2, note: "Official Aug 2026 price; guides say ¥40" }
+      - { label: Valley shuttle bus, local: 15, brl: 12.4 }
+      - { label: "Tourist coach from Dongzhimen, return", local: 80, brl: 66.14 }
+      - { label: "Cable car, return", local: 140, brl: 115.74, optional: true }
+      - { label: "Chairlift up + toboggan down", local: 140, brl: 115.74, optional: true }
+      - { label: "Instead of the coach: 916 Express, return", local: 32, brl: 26.45, optional: true, note: "Plus the H-bus fare, not listed" }
+  - type: map
+    note: "The coach and the 916 Express both leave from the **Dongzhimen** public transport hub. The pin is the wall itself; the ¥15 valley shuttle takes you up to it from where the buses stop."
+  - type: tips
+    variant: insider
+    items:
+      - "Walk up, ride down: legs are fresh on the climb, and the toboggan or chairlift saves your knees on icy steps."
+      - "Take the **916 Express** if you want to stay past the coach's return window: it runs back from Huairou until 18:50."
+      - "Buy lifts at the site, not in a bundle, so you can choose on the day once you know whether the toboggan is running."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The coach has **one departure a day** at 09:10. Miss it and you're on the 916 Express."
+      - "After snow the steps are icy and steep: the site itself warns of slippery slopes and asks visitors to hold the handrails."
+      - "Ticket sales stop at **16:30** and the toboggan shuts in rain or snow. Don't arrive late counting on the slide."
+  - type: weather
+    temp_low_c: -9
+    temp_high_c: 3
+    conditions: "Dry, bright and freezing; colder than the city, wind on the ridge"
+    note: "Normals for Miyun, next to Huairou: December highs about 3 °C and lows about −9 °C. The wall is fully exposed, so the wind makes it feel colder. Snow and ice make the steps slippery and stop the toboggan. The hills are bare and brown, not green."
+    wear: "Down jacket, thermal layers, hat, gloves, shoes with grip; water and snacks"
+  - type: pairs_well
+    items:
+      - { id: forbidden-city-jingshan, note: "The other half of the Beijing classics; plan both around the Monday closure" }
+      - { id: beijing-xingshe-youth-hostel, note: "A Xicheng bed for the night before; leave early for the 09:10 coach" }
+      - { id: niujie-muslim-food-street, note: "Hot lamb and beef buns to warm up after a cold wall day" }

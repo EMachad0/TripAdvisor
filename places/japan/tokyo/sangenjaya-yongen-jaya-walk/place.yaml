@@ -1,0 +1,130 @@
+id: sangenjaya-yongen-jaya-walk
+name: "Sangenjaya: the real Yongen-Jaya"
+short_name: Sangenjaya
+name_local: 三軒茶屋
+name_romanized: Sangen-jaya
+country: japan
+city: tokyo
+area: Setagaya · Sangenjaya
+category: culture
+fame: hidden
+tags: [anime, persona, free, walk, backstreets, gaming]
+kind: See
+why: "Joker's home turf is real: the low-rise backstreets behind Carrot Tower that Persona 5 copied as Yongen-Jaya, plus a free 26th-floor view. 5 min from Shibuya."
+cost:
+  local: 0
+  currency: JPY
+  brl: 0
+  note: The walk and the Carrot Tower deck are free; you only pay the short Tokyu train ride from Shibuya.
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+time_needed: 1.5–2 h
+best_time: Late afternoon into dusk, then the deck after dark
+
+book_ahead:
+  required: false
+
+hours:
+  summary: Streets always open. Carrot Tower 26F deck 09:30–22:00 (free; hours since 1 Oct 2025).
+  closed: "Deck: 2nd Wednesday of each month, and 29 Dec – 1 Jan"
+  winter: "Nothing seasonal on the backstreets. The deck closes 29–31 Dec and 1 Jan, and on the 2nd Wednesday of each month. No 2nd Wednesday falls in the Japan dates (20 Jan – 4 Feb 2027: they are 13 Jan and 10 Feb), so the deck is open every day of the trip."
+
+location:
+  address: Sangenjaya 2-chōme backstreets, between Setagaya-dōri and Route 246, Setagaya, Tokyo
+  address_local: 東京都世田谷区三軒茶屋2丁目（世田谷通りと国道246号の間）
+  lat: 35.64165
+  lng: 139.66591
+  nearest_transit: Sangen-jaya (Tokyu Den-en-toshi Line), 5 min from Shibuya
+  approximate: true
+
+sources:
+  - url: https://tsunagujapan.com/wow_02105
+    title: "tsunagu Japan — Visit the Real-Life Sites of Persona 5 (Shibuya and Sangen-jaya) (updated 2021)"
+    checked: 2026-11-12
+  - url: https://sourcegaming.info/2017/04/09/persona-5-yongenjaya-in-real-life
+    title: "Source Gaming — Persona 5: Yongenjaya in Real Life (photo comparison, 2017)"
+    checked: 2026-11-12
+  - url: "https://kamigame.jp/P5R/%E3%82%A8%E3%83%AA%E3%82%A2/%E5%9B%9B%E8%BB%92%E8%8C%B6%E5%B1%8B.html"
+    title: "神ゲー攻略 P5R wiki — 四軒茶屋でできることとショップ一覧 (updated 2025-03-05)"
+    checked: 2026-11-12
+  - url: https://twinfinite.net/news/atlus-wants-persona-5-fans-to-leave-real-life-tokyo-residents-alone/
+    title: "Twinfinite — Atlus Wants Persona 5 Fans to Leave Real Life Tokyo Residents Alone (2017)"
+    checked: 2026-11-12
+  - url: https://www.city.setagaya.lg.jp/02072/8528.html
+    title: "Setagaya City — スカイキャロット展望ロビー (09:30–22:00 since 2025-10-01; closed 29–31 Dec, 1 Jan, 2nd Wed)"
+    checked: 2026-11-12
+  - url: https://www.tokyu.co.jp/area/sangen-jaya/article/arti-01K1YX9GY9GA2E3GFW1VF6T5Y7/
+    title: "Tokyu — 三軒茶屋 Carrot Tower article (2025-08-22): free 26F observation lobby"
+    checked: 2026-11-12
+  - url: https://onsen.nifty.com/tokyo/st-sangenjaya/
+    title: "Nifty Onsen — Sangenjaya bathhouse list: 千代の湯（三軒茶屋）（休業中）"
+    checked: 2026-11-12
+  - url: "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "Japan Meteorological Agency — Tokyo climate normals (January: mean high 9.8 °C, low 1.2 °C)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Yongen-Jaya mapping agrees across fan guides (2017–21) and the game wiki; I could not confirm the New Marina snack bar still trades. Chiyo no Yu: Nifty Onsen lists it 休業中 (no date); the bathhouse association page gave 403, so reopening is unknown. Deck hours: Setagaya City. Twinfinite opens via atr render but blocks the link checker (403)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: suzuran-dori
+    caption: Suzuran-dōri, the alley lane beside Sangenjaya station
+    hook: The station is called San-gen (three) here and Yon-gen (four) in the game. Same narrow streets, same quiet.
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: Dusk, then the free deck after dark
+    extra:
+      - { label: Game, value: Persona 5 / Royal, detail: "Yongen-Jaya (四軒茶屋): Café Leblanc, the bathhouse, the laundromat" }
+      - { label: Good in rain, value: Partly, detail: The deck is indoors; the walk is not }
+  - type: highlights
+    items:
+      - title: "Screenshot vs reality: Yongen-Jaya"
+        text: "The game's district is the wedge of streets **enclosed by Route 246 and Setagaya-dōri**, by the station. Guides say not every shop sits where the game puts it, but the low houses, wires and tight lanes feel the same."
+      - title: Leblanc's real-world model
+        text: "Café Leblanc doesn't exist. Guides name a small **snack bar, New Marina**, on these backstreets as the model for its front. It's a working bar: look from the street, don't block the door."
+      - title: The bathhouse and the laundromat
+        text: "Guides match the game's **Fuji no Yu** to the old **Chiyo no Yu** sentō, across from that bar, and a 2017 fan photo walk found the coin laundry and supermarket too. A current bathhouse listing marks it **temporarily closed**, so expect to see it from outside only."
+      - title: A free view on the 26th floor
+        text: "**Carrot Tower**, the orange tower over the station, has a free observation lobby on 26F, open until 22:00. On clear days you can see as far as Mt Fuji."
+  - type: prose
+    title: Why this neighbourhood
+    dropcap: true
+    text: |-
+      Persona 5's hero spends the year sleeping in the attic of Café Leblanc in **Yongen-Jaya**, a district Atlus copied from Sangenjaya, a five-minute train ride from Shibuya. It's a pun: *san* is three, *yon* is four.
+
+      This is a lived-in residential corner of Setagaya, not a theme park. In 2017 Atlus asked fans on the game's official site to keep things low-key here: take your rubbish with you, don't photograph places where photos aren't allowed, and leave the residents alone. Come as a walker, not a film crew.
+
+      Pair it with the Shibuya walkway the same evening: in the game, the Den-en-toshi Line ride from here to Shibuya is the protagonist's daily commute.
+  - type: gallery
+    images:
+      - { file: backstreet-night, caption: "Sangenjaya 2-chōme after dark: the Yongen-Jaya mood" }
+      - { file: carrot-tower-alley, caption: Carrot Tower above the alleys; its 26F deck is free, focus: center }
+      - { file: sangenjaya-crossing, caption: The Sangenjaya crossing under the expressway }
+  - type: quote
+    variant: vibe
+    text: Wires overhead, a laundromat humming, a bar sign flickering on. You half expect a black cat to cross the street.
+  - type: map
+    zoom: 16
+    note: "Take the **Tokyu Den-en-toshi Line** from Shibuya to Sangen-jaya. Wander the lanes of **Sangenjaya 2-chōme**, between Route 246 and Setagaya-dōri; the pin marks that block, not one door."
+  - type: tips
+    variant: insider
+    items:
+      - "Go **at dusk** and finish on the deck: its night view is free until 22:00."
+      - "Ride the **Tokyu Den-en-toshi Line** from Shibuya both ways, the commute the game has you make."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "This is a **residential neighbourhood**. Atlus itself asked fans not to trespass, cosplay at people's homes or leave rubbish."
+      - "Don't count on a soak at the 'Fuji no Yu' bathhouse: Chiyo no Yu is listed as temporarily closed, with no reopening date."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Mostly dry, sunny and cold
+    note: "January is Tokyo's driest, sunniest stretch, so the walk is easy. Dusk comes early in winter, which suits the night-time look of the backstreets."
+    wear: Warm jacket, gloves for after dark
+  - type: pairs_well
+    items:
+      - { id: shibuya-persona-5-walkway, note: "Den-en-toshi Line, 5 min: the game's commute to Shibuya" }
+      - { id: shibuya-crossing-and-sky, note: The Scramble and the Shibuya Sky deck }
+      - { id: kichijoji-persona-5-royal-walk, note: "Persona 5 Royal's other hangout, on the Inokashira Line" }

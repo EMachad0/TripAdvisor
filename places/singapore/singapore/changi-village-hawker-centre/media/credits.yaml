@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: hawker-stalls
+  title: File:Changi Village Hawker Centre 16-05-2024(6).jpg
+  author: LN9267
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Changi_Village_Hawker_Centre_16-05-2024(6).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/70/Changi_Village_Hawker_Centre_16-05-2024%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​這張照片在樟宜村拍攝。
+  width: 8064
+  height: 6048
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: hawker-sign
+  title: File:Changi Village Hawker Centre 16-05-2024(1).jpg
+  author: LN9267
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Changi_Village_Hawker_Centre_16-05-2024(1).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/08/Changi_Village_Hawker_Centre_16-05-2024%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​這張照片在樟宜村拍攝。
+  width: 8064
+  height: 6048
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

@@ -1,0 +1,29 @@
+# Independent review of hwacheon-sancheoneo-ice-festival. Written by `./atr review`; do not edit by hand.
+id: hwacheon-sancheoneo-ice-festival
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: f2c887419bf4903db05404bae56dc898fb9c171f6789056413cae00f95dea2ac
+facts:
+  supported: 24
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[3].text
+    problem: The only source for the October 2026 review of a fee rise from ₩15,000 to about ₩25,000 is the MTN article, and it would not open with either ./atr render or curl, so this claim could not be checked. The page already presents it as tentative.
+    evidence: https://news.mtn.co.kr/news-detail/2026100210184026559 — could not be opened (render timed out, curl output failed to parse)
+    fix: Also cite a second report of the fee review (another outlet or the Hwacheon County site), or drop the ₩25,000 figure and just say the 2027 fees are not out yet.
+  - severity: nit
+    field: blocks[3].text
+    problem: The organiser's warning that weekend tickets can sell out before noon is printed on the general unreserved-fishing page. The page applies it to walk-up fishing in general, but the traveler will be using the foreigner zone, which has its own capacity of 1,300 and sells tickets 09:00–17:00.
+    evidence: http://www.narafestival.com/ice_en/?wr_id=14 — "On weekends, booking can be finished before noon" (Unreserved ice fishing page)
+    fix: Say the sell-out warning is for the general zone and that the foreigner zone is separate, so an early bus is still wise but less critical.
+  - severity: nit
+    field: blocks[9].items[1]
+    problem: The Trazy package is offered as the paid alternative but no price is given, so the traveler cannot compare it with the ₩41,800 do-it-yourself total. The Seondeung lantern street is also not marked as free.
+    evidence: https://www.trazy.com/experience/detail/hwacheon-sancheoneo-ice-festival-shuttle-bus-package
+    fix: Add the Trazy price, say whether it beats the bus plus ticket, and mark the lantern street as free to walk.
+summary: "The 2027 dates match the organiser's home page. The 2026 fees, hours, catch limit, bus fares and times, rules and Trazy details all match official pages and are labelled as 2026 figures. Sat 16 Jan falls inside the festival. The phone screenshots looked clean; the --no-build desktop shot showed older text than the YAML, so it was not used. Only polish is left: the fee-rise article would not open, the sell-out warning belongs to the general zone, and the Trazy package needs a price."
+model: claude-opus-5-5
+cost_usd: 0.204

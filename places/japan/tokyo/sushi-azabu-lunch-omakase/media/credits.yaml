@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: azabudai-hills
+  title: File:Azabudai Hills 4.jpg
+  author: Syced
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Azabudai_Hills_4.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e6/Azabudai_Hills_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Azabudai Hills
+  width: 4080
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

@@ -1,0 +1,139 @@
+id: tocho-observatory-shinjuku
+name: "Tokyo Government Building Observatory"
+short_name: Tocho Observatory
+name_local: 東京都庁 展望室
+name_romanized: Tochō Tenbōshitsu
+country: japan
+city: tokyo
+area: Shinjuku · Nishi-Shinjuku
+category: views
+fame: popular
+tags: [observation-deck, free, night-view, skyline, mount-fuji, projection-mapping, anime]
+kind: See
+why: "Free 202 m deck in Shinjuku, open to 22:00. Fuji on clear winter days, then a projection show on the tower's own wall."
+cost:
+  local: 0
+  currency: JPY
+  brl: 0
+  note: "Free entry, no booking. Metro fare not included"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–1.5 h (plus the queue)
+best_time: Clear afternoon for Fuji, stay past dusk
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "South deck 09:30–22:00, North deck 09:30–17:30 (last entry 30 min before). One deck is always open on normal days"
+  closed: "South: 1st & 3rd Tue. North: 2nd & 4th Mon. Both: Dec 29–Jan 3 except Jan 1"
+  winter: "Your Japan dates are now Jan 4–22. Official 2027 calendar: closed Jan 2–3; Jan 1 open 07:30–17:30. South closed Tue Jan 5 and Tue Jan 19 (North then open to 22:00). North closed Tue Jan 12, after the Jan 11 holiday. Open every other day of your stay. Both decks can close at short notice in bad weather: check the X account @tocho_tenbou."
+
+location:
+  address: "Tokyo Metropolitan Government Building No. 1, 2-8-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo"
+  address_local: 東京都新宿区西新宿2-8-1 東京都庁第一本庁舎
+  lat: 35.6895
+  lng: 139.69171
+  nearest_transit: "Tochomae (Toei Oedo Line), direct link · JR Shinjuku West Exit, ~10 min"
+
+sources:
+  - url: https://www.zaimu.metro.tokyo.lg.jp/tochousha/goannai/tenbou
+    title: "展望室のご利用案内: observatory hours, closed days, free entry (TMG Bureau of Finance, official)"
+    checked: 2026-11-11
+  - url: https://www.zaimu.metro.tokyo.lg.jp/documents/d/zaimu/tenboukaishitsu-pdf
+    title: "TMG Observatory Operation Calendar Sep 2026 – Mar 2028 (official PDF)"
+    checked: 2026-11-11
+  - url: https://www.gotokyo.org/en/spot/74/index.html
+    title: "Tokyo Metropolitan Government No. 1 Building (GO TOKYO, official tourism site, updated Oct 13, 2026)"
+    checked: 2026-11-11
+  - url: https://tokyoprojectionmappingproject.jp/en/
+    title: "TOKYO Night & Light: projection mapping timetable and works (official)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo: climate table for Kitanomaru Park, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-11
+confidence: high
+confidence_note: "Hours and the Jan 2027 day-by-day calendar come from the official PDF, which is marked 予定 (planned). The projection-mapping times are the November 2026 ones; January's timetable isn't published yet. The ~20–30 min queue comes from the official page; we didn't time it ourselves."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: night-view
+    focus: center
+    hook: "Tokyo's lights run to the horizon in every direction, 202 metres up, and you pay nothing to see them."
+  - type: quick_facts
+    time_needed: 1–1.5 h (plus the queue)
+    best_time: Clear afternoon for Fuji, stay past dusk
+    extra:
+      - label: Height
+        value: 202 m
+        detail: South and North decks, one lift ride each
+      - label: Fuji odds
+        value: Best Dec–Feb
+        detail: Cold, clear air, says the official page
+      - label: Queue
+        value: About 20–30 min
+        detail: Official estimate; varies with weather and time of day
+  - type: highlights
+    items:
+      - title: Free, unlike Shibuya Sky
+        text: "Entry costs **¥0** and needs no booking. The official page says there's no advance or group reservation, so you just queue for the lift."
+      - title: Mount Fuji in winter
+        text: "Look west. The official page says the cold, clear months **December to February** give the most days with Fuji visible."
+      - title: Open late on most days
+        text: "The South deck lets you in until **21:30** and closes at 22:00. When it's shut, the North deck stays open late instead."
+      - title: The tower becomes the screen
+        text: "*TOKYO Night & Light* projects onto the building's east wall every evening, holder of the Guinness World Record for the largest permanent architectural projection-mapped display. Works include **Hatsune Miku**, *Bocchi the Rock!* and *Blue Lock*."
+  - type: prose
+    title: How to do it
+    dropcap: true
+    text: |-
+      Come up in the late afternoon. If the air is clear, Fuji shows to the west. As the sun goes down the view flips to the city lights: Shinjuku's towers right below you and, to the north-east, the Skytree. The deck is indoors behind glass, so a January wind doesn't touch you up here.
+
+      Then go back down and stand on the plaza side of the building. In November 2026 the projection show ran every half hour from **17:30 to 21:30**, with music you can stream on the official site from your phone. Check the timetable for January before you go, because it changes by month.
+
+      On weekends and holidays the 2nd-floor entrance is closed, so walk round to the **1st-floor main entrance** and take the dedicated observatory lift.
+  - type: gallery
+    images:
+      - file: projection
+        caption: TOKYO Night & Light on the east wall of Building No. 1
+      - file: deck-windows
+        caption: Inside the deck, looking west towards Fuji
+      - file: twin-towers
+        caption: The twin-towered No. 1 Building from the street
+  - type: cost_breakdown
+    items:
+      - label: Observatory entry
+        local: 0
+        brl: 0
+      - label: Projection-mapping show (outdoors)
+        local: 0
+        brl: 0
+    note: "Both are free. Your only cost is the metro fare there."
+  - type: map
+    zoom: 16
+    note: "From **Tochomae Station** (Oedo Line) you walk straight in. From JR Shinjuku, take the West Exit, about 10 min on foot."
+  - type: tips
+    variant: insider
+    items:
+      - "Pick the deck by the date. On **Jan 5 and Jan 19** only the North deck is open (until 22:00). On **Jan 12** only the South deck is open."
+      - "If you want the sunset and the night view, arrive about an hour before sunset. The deck stays open well after dark."
+      - "Bring headphones. The official projection site plays each show's music in sync, so you can hear it from the plaza."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Tripods aren't allowed** on the deck. Brace your phone on the window ledge for night shots."
+      - "Closures for bad weather are announced only on X (**@tocho_tenbou**). Check it on a stormy day before you go."
+      - "Don't come Jan 2–3: both decks are shut for the New Year break."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Dry, clear and sunny; the clearest skies of the year
+    note: "The deck is indoors, so the cold only matters while you queue and while you watch the projection on the plaza. January's clear air is why Fuji shows up most in winter."
+    wear: Warm coat for the plaza after dark
+  - type: pairs_well
+    items:
+      - id: nine-hours-shinjuku-north
+        note: Capsule hotel in Shinjuku, a short ride away
+      - id: shibuya-crossing-and-sky
+        note: The paid alternative. Do both and compare

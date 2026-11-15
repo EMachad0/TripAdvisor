@@ -1,0 +1,70 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: bund-countdown
+name: Bund New Year Countdown
+name_local: 外滩跨年
+country: china
+city: shanghai
+area: Huangpu · The Bund
+category: views
+tags:
+  - nye
+  - drone-show
+  - crowded
+  - outdoor
+  - free
+kind: Do
+why: Count down to 2027 under Pudong's towers with a river drone show; free, but the crowd is enormous.
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+fx:
+  rate: 0.8267
+  date: 2026-11-09
+  source: fixture rate
+time_needed: 2–3 h
+best_time: Weekday morning
+book_ahead:
+  required: false
+  method: walk-in
+hours:
+  summary: Daily 10:00–22:00
+  winter: Police close the riverside by 22:00 on Dec 31; arrive by 20:00. Metro exits near the Bund shut early.
+location:
+  address: Fixture address, shanghai
+  lat: 31.23
+  lng: 121.49
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture source
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture source 2
+    checked: 2026-11-09
+confidence: low
+confidence_note: Game test fixture, not researched.
+last_updated: 2026-11-09
+blocks:
+  - type: hero
+    hook: A million phones raised at the towers as the clock hits midnight.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Weekday morning
+  - type: highlights
+    items:
+      - title: Fixture highlight
+        text: Test text for **Bund New Year Countdown**. Not researched.
+      - title: Second highlight
+        text: Game fixture content, ignored by the real build.
+  - type: weather
+    temp_low_c: -1
+    temp_high_c: 7
+    conditions: Cold, dry, windy by the river
+    note: Fixture weather note.
+    wear: Warm layers
+  - type: tips
+    variant: insider
+    items:
+      - "Fixture tip: go early."

@@ -1,0 +1,189 @@
+id: chongqing-liuhe-youth-hostel
+name: "Chongqing LiuHe Youth Hostel"
+short_name: LiuHe Hostel
+country: china
+city: chongqing
+area: "Yuzhong · Qixinggang"
+category: stay
+tags: [hostel, rooftop, terrace, social, dorm-only, cheap]
+kind: Stay
+why: "The cheapest good bed in Chongqing (¥35) with river-view roof terraces that guests call a social spot. Atmosphere 9.2, but only 12 reviews, and no party hostel."
+
+cost:
+  local: 35
+  currency: CNY
+  brl: 28.93
+  note: "8-bed dorm, nights of 26–30 Dec 2026 on Hostelworld. ¥78 on 31 Dec and 1 Jan; about ¥331 for 26 Dec – 2 Jan"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book 2+ weeks ahead; cancel 3+ days before arrival"
+  method: website
+  links:
+    - label: "Hostelworld, 26 Dec – 2 Jan"
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-LiuHe-Youth-Hostel/Chongqing/324401?from=2026-12-26&to=2027-01-02&guests=1&currency=CNY"
+      note: "¥47.29 a night on average for the week (11 Nov)"
+  notes: "The 4-bed dorms showed 'only 4 beds left' on every night searched (11 Nov); the 8-bed dorms showed no warning. The hostel's policy: cancel 3 days before arrival, or the first night is charged."
+
+hours:
+  summary: "Check-in 14:00–20:00 · check-out by 12:00 · reception limited hours · no curfew (Hostelworld)"
+  winter: "All nights from 26 Dec to 2 Jan were bookable on 11 Nov with no minimum stay shown. New Year costs more: ¥78 (8-bed) and ¥88 (4-bed) on 31 Dec and 1 Jan, against ¥35/¥45 on 26–30 Dec. The hostel says every room has its own windows and heating/cooling air conditioning."
+
+location:
+  address: "No. 32-3, Jinshan Business Building, 97 Zhongshan 1st Road, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区中山一路97号 32-3
+  lat: 29.55864
+  lng: 106.5637
+  nearest_transit: "Qixinggang (Line 1), Exit 1, as the neighbour hostel in the same building says"
+  approximate: true
+
+sources:
+  - url: https://www.hostelworld.com/hostels/p/324401/chongqing-liuhe-youth-hostel/
+    title: "Chongqing LiuHe Youth Hostel on Hostelworld: 9.4 from 12 reviews, sub-scores, facilities, recent reviews, address"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-LiuHe-Youth-Hostel/Chongqing/324401?from=2026-12-26&to=2026-12-27&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 26 Dec 2026: 8-bed ¥35, 4-bed ¥45, description, house rules"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-LiuHe-Youth-Hostel/Chongqing/324401?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 28 Dec 2026: same prices"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-LiuHe-Youth-Hostel/Chongqing/324401?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 31 Dec 2026: 8-bed ¥78, 4-bed ¥88"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-LiuHe-Youth-Hostel/Chongqing/324401?from=2027-01-01&to=2027-01-02&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 1 Jan 2027: 8-bed ¥78, 4-bed ¥88"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-LiuHe-Youth-Hostel/Chongqing/324401?from=2026-12-26&to=2027-01-02&guests=1&currency=CNY"
+    title: "Hostelworld date search, 26 Dec – 2 Jan: 8-bed ¥47.29 a night on average"
+    checked: 2026-11-11
+  - url: https://ostrovok.ru/hotel/china/chongqing/mid13552823/6dirsyouth_hostel_chongqing/
+    title: "LiuHe Youth Hostel Chongqing on Ostrovok: room 32-3 address, terrace, lift, kitchen, TV in lobby, no reviews yet"
+    checked: 2026-11-11
+  - url: https://www.hostelworld.com/hostels/p/324400/four-rooftops-youth-hostel-jiefangbei-branch/
+    title: "Four Rooftops Youth Hostel on Hostelworld: same building (room 32-6, 97 Zhongshan 1st Rd), near Qixinggang Exit 1"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/s?q=Chongqing,%20China&country=China&city=Chongqing&type=city&id=2907&from=2026-12-31&to=2027-01-01&guests=1&currency=CNY&page=1"
+    title: "Hostelworld search, all Chongqing hostels for the night of 31 Dec 2026: prices used in the comparison"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/s?q=Chongqing,%20China&country=China&city=Chongqing&type=city&id=2907&from=2026-12-26&to=2026-12-27&guests=1&currency=CNY&page=1"
+    title: "Hostelworld search, all Chongqing hostels for the night of 26 Dec 2026: Desti ¥49, Only Cafe ¥75, Riverside ¥42"
+    checked: 2026-11-11
+  - url: https://www.hostelworld.com/hostels/asia/china/chongqing/
+    title: "Hostelworld's Chongqing list: scores and review counts of all ten hostels"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Riverside-Hostel/Chongqing/318745?from=2026-12-26&to=2026-12-27&guests=1&currency=CNY"
+    title: "Chongqing Riverside Hostel, Hostelworld search for 26 Dec 2026: atmosphere 8.0, 24 h reception, private double ¥188"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing — Wikipedia (climate table, Dec–Jan normals)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Only 12 Hostelworld reviews; Ostrovok has none. 'Social' rests on Hostelworld's atmosphere score, its AI summary and one October 2026 review. Foreign passports inferred from reviewers from Pakistan, the US and England. Chinese address is the English one rendered; building's Chinese name unknown. Metro exit is from the neighbour hostel. Pin is Zhongshan 1st Road."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    hook: "A loft at the top of an office tower, with terraces looking down the Yangtze and cats wandering between the bunks."
+  - type: quick_facts
+    extra:
+      - { label: Hostelworld, value: "9.4 / 10", detail: "Only 12 reviews; atmosphere 9.2" }
+      - { label: Private room, value: None, detail: "For the 01:00 call: Merica Hotel, ¥107" }
+      - { label: Check-in, value: "14:00–20:00", detail: "Reception keeps limited hours" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 8-bed male or female dorm, 26–30 Dec
+        local: 35
+        brl: 28.93
+        note: "Searched for the nights of 26 and 28 Dec 2026"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-LiuHe-Youth-Hostel/Chongqing/324401?from=2026-12-26&to=2026-12-27&guests=1&currency=CNY"
+      - label: Bed in 4-bed male or female dorm, 26–30 Dec
+        local: 45
+        brl: 37.2
+        note: "Same searches; 'only 4 beds left'"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-LiuHe-Youth-Hostel/Chongqing/324401?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+      - label: Bed in 8-bed dorm, 31 Dec and 1 Jan
+        local: 78
+        brl: 64.48
+        note: "Searched for each night alone"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-LiuHe-Youth-Hostel/Chongqing/324401?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+      - label: Bed in 4-bed dorm, 31 Dec and 1 Jan
+        local: 88
+        brl: 72.75
+        note: "Same searches"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-LiuHe-Youth-Hostel/Chongqing/324401?from=2027-01-01&to=2027-01-02&guests=1&currency=CNY"
+    rating:
+      score: 9.4
+      out_of: 10
+      source: Hostelworld
+      reviews: 12
+      atmosphere: 9.2
+      checked: 2026-11-11
+    social:
+      - "Hostelworld's review summary: the rooftop terrace is \"a great social spot\" and it is \"a social hostel, ideal for solo travellers\"."
+      - "A top-floor **loft with river-view terraces** facing the Yangtze River Bridge: wine or milk tea, books, games, old films (the hostel)."
+      - "\"Very nice hostel and people!\" (an English guest, October 2026)."
+      - "Activities \"from time to time\", the hostel says. Hostelworld lists **no events** for these dates, unlike Desti's nightly ones."
+      - "**Honest caveat:** this is not a party hostel. There is no bar listed, only 12 reviews, and no review describes a night out."
+    good_to_know:
+      - "**No private rooms.** Hostelworld lists only 4- and 8-bed dorms, split male and female."
+      - "**Check-in closes at 20:00** and reception keeps limited hours. Arriving late on 26 Dec? Message the hostel first."
+      - "**Cancellation:** 3 days before arrival, or the first night is charged."
+      - "**Wifi:** free (Hostelworld). No review mentions its speed. No desk or coworking space is listed."
+      - "**Foreign passports:** no page states a policy. 2026 reviewers came from Pakistan, the US and England."
+      - "1 × 2 m steel-frame beds with foam mattresses and a USB socket panel at each bunk. Lift, laundry, kitchen, luggage storage."
+      - "Staff \"spoke really good English\" and \"many chill cats\" live there (August 2026)."
+      - "Windows stay open: an October 2026 guest got mosquitoes and used the bed nets."
+  - type: highlights
+    items:
+      - title: Half the price of the others
+        text: "**¥35 (R$29)** a night before New Year, against ¥49 at Desti and ¥75 at Only Cafe on 26 Dec. The full week is about **¥331 (R$274)**."
+      - title: Terraces over the river
+        text: "Several roof terraces face the Yangtze River Bridge. Reviewers call the rooftop amazing and a place to meet people."
+      - title: Small, friendly, well scored
+        text: "9.6 for staff, cleanliness and value. One reviewer: \"THE BEST HOSTEL!!\" (February 2026). The sample is just 12 reviews."
+      - title: Central, on Line 1
+        text: "Hostelworld puts it 1.6 km from the centre. The hostel lists Jiefangbei, Hongyadong, the cableway and Shibati as nearby."
+  - type: prose
+    title: Party hostel? Honestly, Chongqing has none
+    text: |-
+      I found no party hostel in Chongqing. On Hostelworld (11 Nov), by atmosphere score the order is **Only Cafe 9.6** (251 reviews), **LiuHe 9.2** (12), **Desti 8.8** (102), and **Chongqing Riverside 8.0** (62, a quiet courtyard hostel). The rest have fewer than 20 reviews or none.
+
+      LiuHe is the one real alternative to the three stays already on your list. It is the cheapest good bed, and its terraces are a natural place to meet people. But it is small and new to Hostelworld, and no review mentions a big night out. For partying, the social plan is: find people here or at Only Cafe, then go out to ESMI or Cici Park together.
+
+      **For the work week:** free wifi, but no desk or coworking listed and no review about working. **The 01:00 call on Tue 29 Dec** has no good spot here: dorms only, limited reception hours, and no source on the terraces at night. Book the Merica Hotel for 28 Dec, as the other hostel cards say.
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Book 26 Dec – 2 Jan as one stay: about **¥331 (R$274)** for seven nights in the 8-bed dorm on 11 Nov." }
+      - { days_before: 3, text: "Last day to cancel without paying the first night." }
+      - { days_before: 0, text: "Arrive by **20:00**, the end of check-in. Have the address in Chinese for the taxi." }
+    passport_note: "No listing states the ID rule. Bring the passport itself."
+  - type: map
+    note: "The pin is Zhongshan 1st Road, not the building. Look for the Jinshan Business Building at number 97 and take the lift to the hostel at 32-3. The Four Rooftops hostel in the same building says it is near Exit 1 of Qixinggang station."
+  - type: tips
+    variant: insider
+    items:
+      - "Message the hostel before booking: is anything planned for New Year's Eve, and can you arrive after 20:00 on 26 Dec?"
+      - "Want people to go out with? Spend an evening at **Only Cafe** (atmosphere 9.6 from 251 reviews), the best-scored hostel in town."
+      - "**Chongqing Riverside Hostel** is the quiet option with 24 h reception and a private ensuite double (¥188 on 26 Dec). Atmosphere 8.0; reviews mention a lack of it."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Check-in ends at 20:00: a late train from Chengdu could leave you outside."
+      - "Bring insect repellent: windows stay open, and one autumn guest got mosquitoes."
+      - "Hostelworld shows a 'Free Cancellation' badge, but the hostel's own policy needs 3 days' notice."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, rain on about 10 days a month
+    note: "Mild for a China winter, but grey. The hostel lists heating air conditioning in every room. The terraces are outdoors, so expect them damp and cool."
+    wear: Mid-weight jacket and a rain layer
+  - type: pairs_well
+    items:
+      - { id: merica-hotel-jiefangbei, note: "A private room for the night of the 01:00 call" }
+      - { id: hongyadong-qiansimen-night-walk, note: "The hostel lists Hongyadong among its neighbours" }
+      - { id: esmi-night-club-jiangbei, note: "Free-entry big club across the river: DiDi over with terrace friends" }
+      - { id: cici-park-chongqing, note: "The techno room, NYE party listed" }
+      - { id: only-cafe-and-backpacker, note: "The most social hostel in town, for comparison" }

@@ -1,0 +1,22 @@
+# Independent review of kichijoji-persona-5-royal-walk. Written by `./atr review`; do not edit by hand.
+id: kichijoji-persona-5-royal-walk
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 143e22428b4ebee5a3e8b4ebd306f2f96b058c4579355cdf67536871496332c3
+facts:
+  supported: 11
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.winter
+    problem: The page says boat hours are shorter in winter but that 'no exact times' are published. The official park page does publish them, and the Wednesday closure it cites comes only from a search snippet, not from any listed source.
+    evidence: https://www.tokyo-park.or.jp/park/inokashira/facility/ (now listed in sources) — "11月～2月 9:30～16:50 （受付は15：50まで）", "定休日 12～2月の水曜日". hours.winter, the pitfalls tip and the weather note now give these exact times and the Wednesday closure.
+  - field: hours.summary
+    problem: The 10:30 start for menchi-katsu sales comes only from the 2019 Time Out page, the same page whose price is out of date. The 2026 Bring-You page gives 10:00–19:00 with irregular closing days (不定休), and the page leaves the irregular closures out.
+    evidence: https://www.gltjp.com/ja/directory/item/18540/ — "掲載施設による公式確認を経た情報です", updated 2026年01月14日, "営業時間 10:00〜19:00（メンチカツの販売は10:30〜）", "定休日 年始のみ". A current shop-checked listing now supports the 10:30 start. hours.summary mentions the blog's irregular closing days, and confidence_note says the two sources disagree.
+rereview_of: a23491ee9d2d00ed1fd653fd3d334f67f0e3aa3492925258e3b040b07d9822ee
+summary: Boat hours, the Wednesday closure, boat prices (rowboat ¥800 per 30 min, swan boat ¥1,000), Satou's hours and New Year closure, the Mark City terminal and the JMA January normals (9.8 °C high, 1.2 °C low) all match the sources now listed. Both earlier findings are resolved, and the page renders cleanly on phone.
+model: claude-opus-5-5
+cost_usd: 0.466

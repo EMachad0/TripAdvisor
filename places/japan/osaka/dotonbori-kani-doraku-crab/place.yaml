@@ -1,0 +1,147 @@
+id: dotonbori-kani-doraku-crab
+name: "Kani Doraku's giant crab, Dotonbori"
+short_name: The Dotonbori crab
+name_local: かに道楽 道頓堀本店 · 道頓堀
+name_romanized: Kani Dōraku Dōtonbori Honten
+country: japan
+city: osaka
+area: Dotonbori · Ebisubashi
+category: views
+fame: iconic
+must_do: yakuza-crab
+tags: [neon, canal, free, yakuza-games, anime, street-food, crab]
+kind: See
+why: "The 6.5 m mechanical crab waving its legs over Dotonbori, Sotenbori in the Yakuza games. Free to stare at; crab lunch upstairs from ¥3,740."
+cost:
+  local: 0
+  currency: JPY
+  brl: 0
+  note: "Looking is free. The cheapest crab lunch set inside is ¥3,740 (until 16:00)"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h (more if you eat)
+best_time: After dark, when the signs are lit
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "The street is always open. Restaurant 11:00–23:00, last entry 22:00. Lunch sets until 16:00"
+  closed: "Restaurant: Dec 31 only"
+  winter: "The restaurant's only closed day is New Year's Eve, before your Japan dates (now Jan 4–22, 2027). Nothing else seasonal is listed. The Nov–Dec crab-sukiyaki fair menu ends before you arrive, so expect the regular menu."
+
+location:
+  address: 1-6-18 Dotonbori, Chuo-ku, Osaka 542-0071 (south end of Ebisubashi bridge)
+  address_local: 〒542-0071 大阪府大阪市中央区道頓堀1-6-18 かに道楽 道頓堀本店
+  lat: 34.66886
+  lng: 135.5015
+  nearest_transit: "Namba (Metro, JR, Kintetsu), about 5 min walk"
+
+sources:
+  - url: https://douraku.co.jp/kansai/honten/
+    title: "Kani Doraku Dotonbori Honten, official store page (address, hours, closed Dec 31)"
+    checked: 2026-11-11
+  - url: https://douraku.co.jp/area/shop/menu/?shop_id=1&category=3
+    title: "Kani Doraku Dotonbori Honten, official lunch menu (お昼のかに御膳, until 16:00)"
+    checked: 2026-11-11
+  - url: https://douraku.co.jp/area/shop/menu/?shop_id=1&category=2
+    title: "Kani Doraku Dotonbori Honten, official course menu (from ¥6,600)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/D%C5%8Dtonbori
+    title: "Dōtonbori — Wikipedia (crab sign, Glico sign, Ebisubashi, Sotenbori in the Yakuza series)"
+    checked: 2026-11-11
+confidence: high
+confidence_note: "Menu, hours and address from the official store page, read 2026-11-11 (rendered; the page is JavaScript). Whether lunch sets run on weekends and holidays is not stated. The official page doesn't say whether the crab moves outside restaurant hours. Takoyaki prices not found on an official page, so none are given."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: giant-crab
+    focus: center
+    hook: A 6.5-metre crab, legs and eyes moving, above Osaka's brightest canal.
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: After dark, signs lit
+    extra:
+      - { label: In the games, value: Sotenbori, detail: "Dotonbori's stand-in in SEGA's Yakuza series" }
+      - { label: Crab size, value: 6.5 m, detail: "Moves its legs and eyestalks; current sign from 1996" }
+  - type: highlights
+    items:
+      - title: The crab itself
+        text: "Wikipedia: a **6.5-metre** mechanised crab that moves its arms and eyestalks. The first was built in **1960**; the current one went up in 1996."
+      - title: You've walked here before
+        text: "SEGA's Yakuza series turned Dotonbori into **Sotenbori**, the Omi Alliance's turf. Stand on the bridge and it feels like a save point."
+      - title: Glico Man, next door
+        text: "The Glico running man has stood just west of Ebisubashi since **1935**. Today's sixth version is LED, installed in 2014. It's the classic Osaka photo."
+      - title: Eat until you drop
+        text: "Dotonbori is the home of Osaka's *kuidaore* food culture: takoyaki, okonomiyaki, kitsune udon. Otakoya has sold takoyaki here since 1972."
+  - type: prose
+    title: How to do it
+    dropcap: true
+    text: |-
+      Come after dark. Walk onto **Ebisubashi** (the bridge), take the Glico Man photo looking west, then cross to the south end. The crab hangs over the door of Kani Doraku's flagship, right at the foot of the bridge.
+
+      Dotonbori has been Osaka's entertainment street since 1621. By 1662 it had six kabuki and five bunraku theatres. Today the canal runs between walls of signs, and the bridge is still the meeting point. Foreigners call it *nanpa-bashi*, the pick-up bridge.
+
+      Want to eat the crab too? Kani Doraku's 300-seat flagship serves crab set lunches until 16:00. The cheapest, **Hoshi**, costs ¥3,740 with crab tempura, crab sushi and chawanmushi. The full courses on the regular menu start at ¥6,600. Card and QR payment are accepted.
+  - type: gallery
+    images:
+      - file: crab-sign-2020
+        caption: The crab over the flagship's door, October 2020
+  - type: quote
+    variant: vibe
+    text: Neon on black water, a crab waving at you, and the smell of takoyaki everywhere.
+  - type: cost_breakdown
+    items:
+      - { label: Looking at the crab and the Glico sign, local: 0, brl: 0 }
+      - { label: "Crab lunch set Hoshi (until 16:00)", local: 3740, brl: 131.27, optional: true }
+  - type: menu
+    title: Crab lunch at Kani Doraku (お昼のかに御膳)
+    items:
+      - name: Hoshi lunch set
+        name_local: ほし
+        price_local: 3740
+        price_brl: 131.27
+        note: "Crab starter, crab vinegar, crab chawanmushi, crab tempura, crab sushi, soup, matcha ice cream"
+        tag: cheap
+      - name: Kirari lunch set
+        name_local: きらり
+        price_local: 4400
+        price_brl: 154.44
+        note: "Adds crab shumai, crab croquette and crab kamameshi rice"
+      - name: Hiyori lunch set
+        name_local: ひより
+        price_local: 5500
+        price_brl: 193.05
+        note: "Adds crab sashimi and crab gratin"
+        tag: signature
+      - name: Kanata lunch set
+        name_local: かなた
+        price_local: 6930
+        price_brl: 243.24
+        note: "Adds grilled crab and a small crab-sukiyaki pot"
+    note: "Official menu, tax included, read 2026-11-11. Lunch sets until 16:00. Regular full courses from ¥6,600."
+  - type: map
+    zoom: 17
+    note: "The crab is at the **south end of Ebisubashi**. The Glico sign is on the south bank, just west of the bridge."
+  - type: tips
+    variant: insider
+    items:
+      - "For the cheap version, skip the restaurant: stand on Ebisubashi at night and watch the crab for free."
+      - "Want crab without the price? Have the **Hoshi** set before 16:00. Regular full courses start at ¥6,600."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Ebisubashi is a famous pick-up spot (*nanpa-bashi*, Wikipedia says). Expect touts and strangers chatting you up."
+      - "Kani Doraku has **several Dotonbori branches**. The big moving crab is on the flagship (*honten*) at 1-6-18."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool, mostly dry, snow very rare
+    note: "Osaka averages 3–10 °C in January (1991–2020 normals, Wikipedia) with about 6 wet days. A cold night by the canal, but you're never far from a warm shop."
+    wear: A warm jacket for the bridge at night
+  - type: pairs_well
+    items:
+      - { id: club-joule-osaka, note: "Same Minami district: crab at 21:00, Joule after 23:00" }
+      - { id: shinsekai-kushikatsu, note: "Osaka's other neon street, with deep-fried skewers" }
+      - { id: tomogashima-fort-ruins, note: "Nankai trains to Wakayama leave from Namba, next door" }

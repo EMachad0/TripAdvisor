@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tst-crowd-2014
+  title: File:Lunar New Year Fireworks Display in Hong Kong 2014.jpg
+  author: Mk2010
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Lunar_New_Year_Fireworks_Display_in_Hong_Kong_2014.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/af/Lunar_New_Year_Fireworks_Display_in_Hong_Kong_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Lunar New Year Fireworks Display in Hong Kong (Feb 1, 2014)
+  width: 3631
+  height: 2421
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: fireworks-2012
+  title: File:Kung Hei Fat Choi! (6834861529).jpg
+  author: Michael Elleray from England, United Kingdom
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Kung_Hei_Fat_Choi!_(6834861529).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d1/Kung_Hei_Fat_Choi%21_%286834861529%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The traditional, and famous, Chinese New Year Firework Display over Victoria Harbour was a spectacular event lasting 25-minutes. Tens of thousands of people lined the shores of Kowloon and Hong Kong Island up to 4-hours early in order to get the best views.
+  width: 3788
+  height: 2525
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: fireworks-2026
+  title: File:Lunar New Year fireworks display in Hong Kong 20260218 195940.jpg
+  author: TYC
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Lunar_New_Year_fireworks_display_in_Hong_Kong_20260218_195940.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ee/Lunar_New_Year_fireworks_display_in_Hong_Kong_20260218_195940.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​2026年香港賀歲煙花匯演「前奏」中的「ＷＩＮ」字圖案煙花（於2026年2月18日19時59分40秒所拍攝之現場實景）
+  width: 2800
+  height: 2100
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons

@@ -1,0 +1,159 @@
+id: tenma-standing-bars
+name: "Tenma Standing Bars and Izakaya Alleys"
+short_name: Tenma standing bars
+name_local: 天満 立ち飲み
+name_romanized: Tenma tachinomi
+country: japan
+city: osaka
+area: Kita-ku · Tenma
+category: food
+fame: hidden
+tags: [tachinomi, izakaya, standing-bar, cheap-eats, bar-hopping, solo-friendly, locals]
+kind: Eat
+why: "A maze of hole-in-the-wall bars by JR Tenma station: ¥350 beers, small plates under ¥500, and you eat standing next to locals."
+cost:
+  local: 1350
+  currency: JPY
+  brl: 47.39
+  note: "One beer + two small plates at a standing bar, from Time Out's 2026 prices for Tachinomi Shomin. Bar-hopping costs more"
+fx: { rate: 0.0351, date: 2026-11-10, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–3 h, two or three bars
+best_time: Weeknight from about 18:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Varies by bar. The alleys come alive at night. Tachinomi Shomin (Kyobashi branch): 11:00–22:00, closed Mon"
+  winter: "Your Japan dates are now Jan 4–22, all ordinary working weeks in Tenma. No seasonal hours found for the district."
+
+location:
+  address: "Around JR Tenma Station (north side), Kita-ku, Osaka"
+  address_local: 大阪市北区 JR天満駅 北側
+  lat: 34.70492
+  lng: 135.51232
+  nearest_transit: "JR Tenma (Osaka Loop Line) · Ogimachi / Tenjinbashisuji 6-chome (metro)"
+  approximate: true
+
+sources:
+  - url: https://www.japan-guide.com/e/e4024.html
+    title: "Tenma (japan-guide.com, updated Oct 18, 2026): nightlife quarter, Tenjinbashi-suji, access"
+    checked: 2026-11-11
+  - url: https://www.timeout.com/osaka/bars-and-pubs/tachinomi-shomin
+    title: "Tachinomi Shomin (Time Out Osaka, Jul 2, 2026): prices, hours, branches incl. Temma"
+    checked: 2026-11-11
+  - url: https://www.osakatourism.org/best-izakaya-osaka/
+    title: "Best izakaya in Osaka (Osaka Tourism Guide, commercial site, verified Oct 24, 2026): Tenma section"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: "Osaka: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "District, not one venue. Prices are Time Out's for Tachinomi Shomin (Kyobashi branch); the Temma branch's address and hours weren't verified. Other bars vary. osakatourism.org is a commercial guide with affiliate links, not the city's official site. The pin is JR Tenma Station."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: tenma-ichiba
+    caption: "Lanterns under the Tenma Ichiba (天満市場) sign at night"
+    focus: center
+    hook: "Paper lanterns over a narrow lane, a counter you lean on, and the next bar three steps away."
+  - type: quick_facts
+    time_needed: 1.5–3 h, two or three bars
+    best_time: Weeknight from about 18:00
+    extra:
+      - label: Payment
+        value: Bring cash
+        detail: Smaller spots are cash-only
+      - label: English menus
+        value: Rare
+        detail: Use a translation app's camera mode
+      - label: Cover charge
+        value: Usually none standing
+        detail: Sit-down izakaya often add a small otoshi
+  - type: highlights
+    items:
+      - title: Osaka's cheap-drinking quarter
+        text: "Japan-guide calls Tenma a \"bustling nightlife quarter\": a maze of narrow alleys north of the station with hole-in-the-wall bars near the station and smarter places further out."
+      - title: Standing-bar prices
+        text: "At Tachinomi Shomin, a draft beer or highball is **¥350** and dishes top out around **¥500**, per Time Out (Jul 2026)."
+      - title: Made for a solo evening
+        text: "A standing bar takes about **half an hour**. Have a drink and a plate, then move to the next one. Easy to do on your own."
+      - title: Longest shopping arcade in Japan
+        text: "Tenjinbashi-suji, a covered arcade of **more than 2 km**, runs right by Tenma. Walk it before the bars get busy."
+  - type: prose
+    title: How to bar-hop Tenma
+    dropcap: true
+    text: |-
+      Get off at **JR Tenma** on the Loop Line and go out the north side. The alleys start right there. Look in: if there's a counter, a handwritten menu on the wall and room to stand, go in.
+
+      Order a beer or highball, then point at one or two small plates. When the glass is empty, pay and walk to the next place. The osakatourism.org guide names **Gifuya**, under the JR tracks, as a classic, and calls Thursday the sweet spot.
+
+      Expect smoke at some places, noise and very little English. That's the appeal: the guides describe it as working-class and unpretentious, not a tourist street.
+  - type: gallery
+    images:
+      - file: arcade
+        caption: Tenjinbashi-suji, the 2 km-plus covered shopping arcade beside Tenma
+  - type: menu
+    title: A standing-bar round
+    items:
+      - name: Draft beer
+        name_local: 生ビール
+        price_local: 350
+        price_brl: 12.29
+        note: Tachinomi Shomin price (Time Out, Jul 2026)
+        tag: drink
+      - name: Highball (whisky and soda)
+        name_local: ハイボール
+        price_local: 350
+        price_brl: 12.29
+        note: Same price as the beer at Shomin
+        tag: drink
+      - name: Small plates
+        name_local: 一品料理
+        price_local: 500
+        price_brl: 17.55
+        note: "Dishes \"top out around ¥500\" at Shomin; many cost less"
+        tag: cheap
+    note: "English menus are rare in Tenma. Point, or use your phone's camera translator. **Pay cash.**"
+  - type: cost_breakdown
+    items:
+      - label: Beer or highball
+        local: 350
+        brl: 12.29
+      - label: Two small plates
+        local: 1000
+        brl: 35.1
+        estimate: true
+      - label: A second bar (another drink + plate)
+        local: 850
+        brl: 29.84
+        estimate: true
+        optional: true
+  - type: map
+    zoom: 16
+    note: "Pin is **JR Tenma Station**. The bars are in the alleys on the north side; Tenjinbashi-suji arcade runs alongside."
+  - type: tips
+    variant: insider
+    items:
+      - "Standing bars usually skip the **otoshi** (a small compulsory starter charged at most sit-down izakaya)."
+      - "Carry **cash**, ideally small notes. Smaller spots don't take cards."
+      - "Tenma is on the **Osaka Loop Line**, so it's easy to reach after work from most of the city."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Sit-down izakaya often add an **otoshi** you didn't order. It's normal, not a scam."
+      - "Some bars allow smoking. If that bothers you, look in before you commit."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool and mostly dry, little rain
+    note: "January nights hover a few degrees above zero: chilly between bars, not freezing. Snow is rare."
+    wear: Light winter jacket you can hang on a hook
+  - type: pairs_well
+    items:
+      - id: shinsekai-kushikatsu
+        note: The other cheap Osaka food night, also near the Loop Line
+      - id: spa-world-osaka
+        note: A different evening of the work week

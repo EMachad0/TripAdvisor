@@ -1,0 +1,22 @@
+# Independent review of majang-meat-market-bbq. Written by `./atr review`; do not edit by hand.
+id: majang-meat-market-bbq
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: cb83fdf756630659c689b23f18e511b1c0908fbfec913b12b71f0dc2965a1331
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[5].items[5]
+    problem: The Daegu-jip line (500 g mixed hanwoo platter, ₩80,000, 'in a 2024 review') has no listed source. Esquire (2023) describes Daegu-jip but gives no price, and no 2024 review is cited. Daegu-jip is in the meokja-golmok food alley, which ZenKimchi says was razed, so it may have moved, and the page gives no location.
+    evidence: The Daegu-jip menu item (₩80,000 platter) is gone from blocks[5]. No other line on the page mentions Daegu-jip or the 2024 review.
+  - field: cost.local
+    problem: The ₩30,000 headline rests on one undated iVisitKorea line ('KRW 12,000 or $10 per 100g'). ZenKimchi, in the same source list, says ₩30,000–60,000 per person for premium hanwoo before the table fee, so the page's total sits below that range.
+    evidence: "cost.local is now ₩36,000 (₩30,000 meat + ₩6,000 fee). That puts the meat at the low end of https://zenkimchi.com/tour-tips/majang-meat-market-hanwoo-beef-guide/: \"Expect to pay ₩30,000–₩60,000 per person for premium Hanwoo cuts\". The note and cost_breakdown label give ZenKimchi's range and say that iVisitKorea's prices suggest less."
+rereview_of: 4cd4c672ae406253000cb24c311aa880ba3035b3e59475f6420720b88c04edf7
+summary: Both earlier findings are resolved. The unsupported Daegu-jip price is gone, and the cost now rests on ZenKimchi's ₩30,000–60,000 meat range plus the ₩6,000 table fee. The new weather figures (−6/2 °C, about 7 snowy days) match Wikipedia's KMA 1991–2020 January normals (−5.5/2.1 °C, 7.1 snowy days). No new problems.
+model: claude-opus-5-5
+cost_usd: 0.227

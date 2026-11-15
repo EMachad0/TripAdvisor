@@ -1,0 +1,124 @@
+id: panjiayuan-mao-memorabilia
+name: "Panjiayuan Market: Mao Badges and Posters"
+short_name: Panjiayuan Market
+name_local: 潘家园旧货市场
+name_romanized: Pānjiāyuán Jiùhuò Shìchǎng
+country: china
+city: beijing
+area: "Chaoyang · Panjiayuan"
+category: shopping
+fame: popular
+tags: [communism, flea-market, antiques, mao-memorabilia, bargaining, free]
+kind: Shop
+why: "Beijing's huge flea market: stalls of Mao badges, Little Red Books, propaganda posters and plaster Maos among the jade and junk. Free to browse."
+
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+  note: "Entry free. Small Mao-era items from about ¥10 at stalls (estimate); bargain"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–3 h"
+best_time: "Saturday or Sunday morning"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Winter (8 Oct – 7 Apr): 09:00–20:00. Night market Wed and Fri to about 23:00"
+  winter: "Temporary weekend vendors are what make it lively, and they come in the morning; the open-air stall area is freezing in December. No Christmas or New Year closure found."
+
+location:
+  address: "18 Huaweili, Panjiayuan Road, Chaoyang District, Beijing"
+  address_local: 北京市朝阳区潘家园路华威里18号 潘家园旧货市场
+  lat: 39.87392
+  lng: 116.45219
+  nearest_transit: "Panjiayuan (Line 10), 5–10 min walk"
+
+sources:
+  - url: https://ruqintravel.com/china-destination-guides/panjiayuan-antique-market/
+    title: "Ruqin Travel, updated 15 Jun 2026: winter 09:00–20:00, Wed/Fri night market, stall area from ~¥10, Mao-era posters, badges, books"
+    checked: 2026-11-13
+  - url: https://uk.trip.com/guide/china/antique-market-beijing.html
+    title: "Trip.com guide, 26 Aug 2026: Mao badges, Little Red Books, posters; weekend mornings best; reproductions common; Line 10"
+    checked: 2026-11-13
+  - url: https://www.chinabound.cn/s/202605/28/WS6a180722498e23165e06fb48/panjiayuan-antique-market-beijings-ultimate-treasure-hunt.html
+    title: "China Daily's Chinabound, 28 May 2026: Mao-era memorabilia, bargaining expected, 18 Huaweili, Line 10"
+    checked: 2026-11-13
+  - url: https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/sleeplessinbeijing/updatesofnighttimeconsumption/202504/t20250428_4076854.html
+    title: "Beijing government, Apr 2025: Panjiayuan night market Wed and Fri 11:00–23:00, Saturday 14:00–23:00 from 26 Apr"
+    checked: 2026-11-13
+  - url: https://r.visitbeijing.com.cn/leisure/472
+    title: "Visit Beijing listing, Panjiayuan Antique Market: admission free, open all year, 18 Huaweili"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Beijing — Wikipedia (December climate normals)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Sources disagree on hours (07:00, 09:00 or earlier at weekends); I use Ruqin's dated 2026 winter schedule. The ¥10 start is Ruqin's figure for the stall area; Trip.com gives souvenirs ¥10–50. Whether the Saturday night market runs in winter is not stated. The Trip.com guide was read via WebFetch (bot-blocked for atr links)."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: mao-portraits-stall
+    hook: "Mao in oils, plaster and print, stacked between old books on a Beijing flea-market stall."
+    caption: "Mao portraits and busts on a Panjiayuan stall, 2016"
+  - type: quick_facts
+    time_needed: "2–3 h"
+    best_time: "Weekend morning"
+    extra:
+      - { label: Your slot, value: "Any day, also Dec 29–31", detail: "Open into the evening; weekends are busiest" }
+      - { label: Pay with, value: Alipay / WeChat Pay, detail: "Carry small cash for haggling at stalls" }
+  - type: highlights
+    items:
+      - title: Mao, in every format
+        text: "Guides from 2026 list **Mao badges, Little Red Books, propaganda posters, medals, photos and figurines** among the stalls."
+      - title: A huge flea market
+        text: "An outdoor stall area for cheap finds, a tent area for figurines and collectables, and boutique shops for porcelain and paintings."
+      - title: Bargain hard
+        text: "Haggling is expected. Small things in the stall area start around **¥10**; walk away if the price feels wrong."
+      - title: Free and on the metro
+        text: "No entry fee, a short walk from Panjiayuan station on Line 10."
+  - type: prose
+    title: Buying a piece of the Mao era
+    dropcap: true
+    text: |-
+      Panjiayuan is a huge antique and flea market in south-east Beijing, and one of the easiest places to find second-hand Mao-era things: badges, pocket copies of *Quotations from Chairman Mao* (the Little Red Book), posters, medals and figurines. It sits between jade bracelets, old tools and stone lions, so treat it as a treasure hunt rather than a Mao shop.
+
+      Assume most of it is reproduction. The guides all say copies are mixed with originals, and a badge or poster sold as "original" for a high price should be treated with suspicion. For a souvenir that doesn't matter: a badge or a Little Red Book is cheap. For anything sold as a valuable antique, ask for documentation, or leave it.
+
+      Come on a weekend morning, when temporary vendors set up and the market is at its busiest. Bring cash and patience.
+  - type: gallery
+    images:
+      - { file: long-live-mao-stall, caption: "A 'Long live Chairman Mao' banner and propaganda prints, 2016" }
+      - { file: market-gate, caption: "The market entrance" }
+      - { file: old-tools, caption: "Old lamps and tools at another stall" }
+      - { file: stone-carvings, caption: "Stone carvings in the sculpture area" }
+  - type: cost_breakdown
+    items:
+      - { label: Entry, local: 0, brl: 0 }
+      - { label: "A Mao badge or Little Red Book, after bargaining", local: 30, brl: 25.47, optional: true, estimate: true, note: "Estimate within Trip.com's ranges: souvenirs ¥10–50, books/prints ¥20–120" }
+  - type: map
+    note: "Take Line 10 to **Panjiayuan**; the market is a 5–10 minute walk. Show the driver **潘家园旧货市场** if you take a taxi."
+  - type: tips
+    variant: insider
+    items:
+      - "Go on **Saturday or Sunday morning**: that's when temporary vendors come and the stall area is full (Trip.com, 2026)."
+      - "Evening option: the **night market** runs Wed and Fri to 23:00 (Beijing government, 2025); Ruqin calls Friday evening the liveliest. Saturday nights in winter are unconfirmed."
+      - "Learn two phrases: **太贵了** (tài guì le, too expensive) and **可以便宜一点吗?** (can it be cheaper?)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Reproductions are common. Don't pay antique prices for anything without documentation."
+      - "Guides disagree on cash vs Alipay/WeChat Pay: set up mobile pay and carry small notes for bargaining."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: "Dry, sunny and freezing"
+    note: "The stall area is open-air, so you browse in the cold; the boutique shops are indoors."
+    wear: "Down jacket, gloves you can take off to handle things, warm shoes"
+  - type: pairs_well
+    items:
+      - { id: 798-art-district, note: "Mao slogans and Mao kitsch in a 1950s factory" }
+      - { id: tiananmen-square-mao-mausoleum, note: "The real thing, on the square" }

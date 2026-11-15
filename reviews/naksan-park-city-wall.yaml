@@ -1,0 +1,16 @@
+# Independent review of naksan-park-city-wall. Written by `./atr review`; do not edit by hand.
+id: naksan-park-city-wall
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 582035593beef0d145ed7d3777018e43964a47951bdeed0d3c80afd0bbe34abb
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: f1dd03e714c4abb520063737212723b63bec130172f4427ad58cb29efe939041
+summary: "The new sunset times check out against the listed source (sunrise-sunset.org: sunset 5:31:54 pm on 10 Jan and 5:42:07 pm on 20 Jan 2027, last light 6:00:46 pm and 6:10:27 pm KST), and a separate calculation gives the same times. The new window of 10–20 Jan matches the Korea dates in config/trip.yaml, and so does the 21:00 shift start. There were no earlier findings, and the unchanged text has no blockers."
+model: claude-opus-5-5
+cost_usd: 0.232

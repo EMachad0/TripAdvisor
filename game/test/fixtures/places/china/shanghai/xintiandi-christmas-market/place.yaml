@@ -1,0 +1,70 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: xintiandi-christmas-market
+name: Xintiandi Christmas Market
+name_local: 新天地圣诞市集
+country: china
+city: shanghai
+area: Huangpu · Xintiandi
+category: shopping
+tags:
+  - christmas
+  - market
+  - mulled-wine
+  - outdoor
+kind: Shop
+why: Shikumen lanes strung with lights, mulled wine stalls and a giant tree; the most festive Christmas Eve in Shanghai.
+cost:
+  local: 80
+  currency: CNY
+  brl: 66.1
+fx:
+  rate: 0.8267
+  date: 2026-11-09
+  source: fixture rate
+time_needed: 2–3 h
+best_time: Weekday morning
+book_ahead:
+  required: false
+  method: walk-in
+hours:
+  summary: Daily 10:00–22:00
+  winter: Market runs Dec 12–Jan 1. Busiest on Dec 24 evening.
+location:
+  address: Fixture address, shanghai
+  lat: 31.23
+  lng: 121.49
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture source
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture source 2
+    checked: 2026-11-09
+confidence: low
+confidence_note: Game test fixture, not researched.
+last_updated: 2026-11-09
+blocks:
+  - type: hero
+    image: rooftops
+    hook: Stone-gate lanes, fairy lights and hot wine in paper cups.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Weekday morning
+  - type: highlights
+    items:
+      - title: Fixture highlight
+        text: Test text for **Xintiandi Christmas Market**. Not researched.
+      - title: Second highlight
+        text: Game fixture content, ignored by the real build.
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 9
+    conditions: Damp and chilly
+    note: Fixture weather note.
+    wear: Warm layers
+  - type: tips
+    variant: insider
+    items:
+      - "Fixture tip: go early."

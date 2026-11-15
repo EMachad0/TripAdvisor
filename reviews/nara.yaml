@@ -1,0 +1,32 @@
+# Independent review of area nara. Written by `./atr review`; do not edit by hand.
+id: nara
+type: area
+reviewed: 2026-11-14
+verdict: fix
+content_hash: 1029f74f7f7166a6e47acd9e08d695dfebff4c5ca431966abef5ae15d717198f
+facts:
+  supported: 10
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[1].items[0].text
+    problem: The ¥200 deer-cracker price, which is also part of the ¥3,060 day total in blocks[2].text, rests on one sentence of Japanese Wikipedia. That sentence has no citation, and the article is tagged for missing sources. Neither the prefecture page nor any other listed source gives a price.
+    evidence: https://ja.wikipedia.org/wiki/%E9%B9%BF%E3%81%9B%E3%82%93%E3%81%B9%E3%81%84 — "2019年（令和元年）10月から200円となっている。" (no footnote); https://www.pref.nara.lg.jp/site/park/1232.html gives no price.
+    fix: Cite the Nara Deer Preservation Foundation (naradeer.com) or another official or recent first-hand source for ¥200, or write "about ¥200" and name Wikipedia as the source.
+  - severity: nit
+    field: blocks[1].items[3].text
+    problem: "\"paid tickets went on sale Nov 20\" puts a future date in the past tense: the official page says sales start 10:00 on Fri 20 Nov 2026, after this page's date (2026-11-14). The page also leaves out the cheapest paid option. The ticket page does not use the word \"free\". It only says there are places to watch outside the paid areas."
+    evidence: https://yamayaki.pref.nara.lg.jp/ticket/ — "※11月20日（金）10:00よりチケット発売"; "有料観覧エリア以外にも、若草山焼きをご覧いただける場所があります。"; early bird ¥2,000 until 2027-01-15
+    fix: Write "paid seats (from ¥2,000 early bird, on sale from Nov 20, 2026) are optional; there are places to watch outside the paid areas".
+resolved:
+  - field: blocks[2].text
+    problem: "The prose says JR is \"only worth it with a JR Pass\". The page's own Jorudan Osaka search shows a cheaper JR route: from JR Namba on the Yamatoji Q-rapid for ¥580, against ¥680 on Kintetsu. That is the cheapest way in for a budget traveler staying in Osaka, and the page leaves it out."
+    evidence: 'blocks[2].text and getting_there now give JR Namba ¥580 against Kintetsu ¥680. Jorudan (read with ./atr render): "経路3 (09:00)発 → (10:04)着 1時間4分 乗換 0回 580 円 … ＪＲ難波 … 41分 … 大和路線Ｑ快速"; "経路1 … 37分 … 680 円".'
+  - field: blocks[1].items[2].text
+    problem: 'The only Feb 3 source is a paid guided tour: ¥3,000, starts 19:30, at least 5 people, booked through travel agencies. The highlight and the tip ("Feb 3 (lanterns, evening)") give no public viewing hours, no fee and no mention of the tour. The source also does not say all 3,000 lanterns are lit.'
+    evidence: https://www.kasugataisha.or.jp/calendar/winter02/ — "境内の約3000基の灯籠全てに火を灯し", "18時頃……全燈籠に灯がともる", "回廊内特別参拝は700円". The ¥3,000 19:30 tour is now called optional, and https://www.kasugataisha.or.jp/events/2026/16853/ gives "令和９年２月３日（水）".
+rereview_of: 30875ad4773275850ff55b4d6253e2abf6df4484f036dc5f5d5dc3cbf5e92dbc
+summary: "Findings 1 and 2 are fixed and the sources back them: JR Namba ¥580 is confirmed on Jorudan, and Kasuga's own calendar confirms all ~3,000 lanterns lit from about 18:00 with the corridor at ¥700. The monument status now has a prefecture source. The ¥200 cracker price, which feeds the day total, still rests only on an uncited Wikipedia sentence, so the page needs one more fix."
+model: claude-opus-5-5
+cost_usd: 0.469

@@ -1,0 +1,32 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: xiaolongbao
+  title: File:Xiaolongbao-01.jpg
+  author: Traveler100
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Xiaolongbao-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ef/Xiaolongbao-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: xiǎo​lóng​bāo​
+  width: 3648
+  height: 1993
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-09
+  origin: commons
+- file: queue
+  title: File:Queue at Nanxiang Mantou dian by Eason Lai.jpg
+  author: Eason Lai from 南翔 (Nanxiang), 豫园 (Yuyuan Gardens), 上海 ( Shanghai )
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Queue_at_Nanxiang_Mantou_dian_by_Eason_Lai.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/59/Queue_at_Nanxiang_Mantou_dian_by_Eason_Lai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 人多到不像話之『南翔包子;店』 上海之旅_0805_08
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-09
+  origin: commons

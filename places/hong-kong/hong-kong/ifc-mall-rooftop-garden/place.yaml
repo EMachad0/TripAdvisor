@@ -1,0 +1,154 @@
+id: ifc-mall-rooftop-garden
+name: "IFC Mall & Rooftop Garden"
+short_name: IFC Mall
+name_local: 國際金融中心商場 · 天台花園
+country: hong-kong
+city: hong-kong
+area: Central · Hong Kong Station
+category: shopping
+fame: popular
+tags: [mall, free, rooftop, harbour-view, byob, airport-express, lunar-new-year]
+kind: Shop
+why: "A glass mall on top of the Airport Express with a free public rooftop garden at the foot of Two IFC: harbour view, BYO 7-Eleven beer."
+
+cost:
+  local: 0
+  currency: HKD
+  brl: 0
+  note: "Mall and rooftop garden are free. A drink from the basement 7-Eleven is the cheap way to enjoy the view"
+fx: { rate: 0.7219, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–1.5 h
+best_time: "Afternoon, or before the airport train on Feb 9"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mall and rooftop garden hours are not published on the official site; shop hours vary"
+  winter: "**Lunar New Year (Sat Feb 6, 2027)**: the holiday runs Feb 6–9. No 2027 hours or display are published yet. For 2026 the mall put a free installation by Brazilian artist **Naíma Almeida** in the Oval Atrium (Podium L1), Feb 5 – Mar 3, 10:00–22:00: a 4 m phoenix leading a flock of geometric birds."
+
+location:
+  address: ifc mall, 8 Finance Street, Central, Hong Kong Island
+  address_local: 香港中環金融街8號 國際金融中心商場
+  lat: 22.2843
+  lng: 114.1587
+  nearest_transit: "Hong Kong Station (Airport Express), Exit F or E1"
+
+sources:
+  - url: https://ifc.com.hk/en/mall/location
+    title: "Location and transport (ifc mall official): 8 Finance Street, Hong Kong Station Exit F or E1"
+    checked: 2026-11-13
+  - url: https://www.discoverhongkong.com/eng/place-to-go/travel.guide-ifc-mall.html
+    title: "ifc mall (Hong Kong Tourism Board): 200+ brands, water views, direct link to Airport Express"
+    checked: 2026-11-13
+  - url: https://www.timeout.hk/things-to-do/ifc-rooftop-garden
+    title: "IFC Rooftop Garden (Time Out Hong Kong): skyline view, BYOB from the basement 7-Eleven"
+    checked: 2026-11-13
+  - url: https://www.hongkonguide.com/blog/two-hidden-awesome-places-in-ifc-that-they-don-t-want-you-to-know
+    title: "Two hidden places in ifc (HONGKONGUIDE, updated 2018-09-21): level 4 rooftop is public space, own food allowed"
+    checked: 2026-11-13
+  - url: https://www.hongkonghustle.com/places/242/ifc-roof-garden/
+    title: "The roof garden atop IFC Mall (Hong Kong Hustle, older post): lifts by City Super, press P4"
+    checked: 2026-11-13
+  - url: https://thebeat.asia/hong-kong/the-list/events/ifc-mall-the-phoenixs-celestial-court-art-installation
+    title: "ifc mall 'The Phoenix's Celestial Court' by Naíma Almeida (The Beat): Feb 5 – Mar 3, 2026, free, 10:00–22:00"
+    checked: 2026-11-13
+  - url: https://www.mtr.com.hk/en/customer/services/complom_checkin.html
+    title: "In-town check-in at Hong Kong Station (MTR): airlines, service hours, 24 h to 90 min before departure"
+    checked: 2026-11-13
+  - url: https://news.rthk.hk/rthk/en/component/k2/1854817-20260515.htm
+    title: "No shortchanging of Lunar New Year revellers in 2027 (RTHK, 2026-05-15): holiday Feb 6–9, 2027"
+    checked: 2026-11-13
+  - url: https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/22/hogn-kong-approves-star-ferry-fare-increase-on-two-cross-harbour-routes
+    title: "Hong Kong approves Star Ferry fare increase (The Star, 2026-10-22): HK$8.30 weekend from Jan 25, 2027"
+    checked: 2026-11-13
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Climatological normals 1991–2020 (Hong Kong Observatory): February 15.3–19.4 °C"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "The official site lists no mall-wide or rooftop hours (the 2026 New Year installation ran 10:00–22:00, which says nothing about the roof). Ask ifc customer service on (852) 2295 3308 if timing matters. The rooftop's access details come from Time Out's current listing plus older guides (2018 and earlier). Nothing is published for Lunar New Year 2027."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: roof-two-ifc
+    caption: The rooftop garden in April 2020, with a glass-tile sculpture and Two IFC behind
+    hook: Press P4 in a Central mall lift and step out onto grass, with the harbour on one side and Two IFC overhead.
+  - type: quick_facts
+    time_needed: 1–1.5 h
+    best_time: "Afternoon, or before the airport train on Feb 9"
+    extra:
+      - label: Rooftop
+        value: Free, public
+        detail: Level 4; lifts near City Super, press P4
+      - label: Bring your own
+        value: Allowed
+        detail: Food and drinks, clear your table after
+      - label: Airport Express
+        value: Right below
+        detail: Hong Kong Station, with in-town check-in for some airlines
+  - type: highlights
+    items:
+      - title: A free terrace in Central
+        text: "The roof garden on **level 4** is public space. Sit on the grass or at the tables with a harbour-side view, and buy nothing: guides say you can bring your own food and drinks."
+      - title: The cheapest harbour-view drink
+        text: "Time Out's tip: grab drinks at the **7-Eleven in the basement** near the Airport Express and take them up. It beats paying HK$1,000+ at a rooftop bar."
+      - title: Under Two IFC
+        text: "The garden runs to the foot of **Two IFC**, so here you sit under the skyline instead of looking at it from Kowloon."
+      - title: A Brazilian artist's New Year
+        text: "For Lunar New Year 2026, ifc brought **Naíma Almeida**, from Brazil, for her Hong Kong debut: a 4 m phoenix and flock of geometric birds under the atrium dome. Free to see. The 2027 artist isn't announced yet."
+  - type: prose
+    title: Why a mall earns a card here
+    dropcap: true
+    text: |-
+      ifc mall is 200-plus international brands, mostly mid-range to luxury, and you'll walk past most of them. The reason to come is upstairs. The roof garden is one of Central's few patches of grass, ringed by glass towers on one side and the harbour on the other. Time Out calls it an urban oasis for lunch and a go-to spot for late-night drinks.
+
+      **On your dates**: Lunar New Year is Saturday Feb 6, and the public holiday runs to Tuesday Feb 9, which is also roughly your flight home. The mall sits on **Hong Kong Station**, so it's the natural last stop before the Airport Express. Some airlines let you check in and drop bags at the station from 24 hours to 90 minutes before departure (Cathay Pacific, Qantas, Singapore Airlines and a few others). If yours is one, drop your backpack and spend your last hours on the roof.
+  - type: gallery
+    images:
+      - file: garden-dusk
+        caption: The podium garden at dusk (2010)
+      - file: glass-sculpture
+        caption: One of the coloured-glass sculptures on the roof
+      - file: mall-interior-2006
+        caption: Inside the mall (2006); the shops have changed since
+  - type: quote
+    variant: vibe
+    text: A convenience-store beer, a bench on the grass, and the same view the bars charge for.
+  - type: cost_breakdown
+    items:
+      - label: Mall and rooftop garden
+        local: 0
+        brl: 0
+      - label: Star Ferry to Tsim Sha Tsui (weekend fare, from Jan 25)
+        local: 8.3
+        brl: 5.99
+        optional: true
+  - type: map
+    zoom: 16
+    note: "From Hong Kong Station take **Exit F or E1** into the mall. For the roof, use the lifts near **City Super** and press **P4**."
+  - type: tips
+    variant: insider
+    items:
+      - "Take drinks up from the **basement 7-Eleven** near the Airport Express, as Time Out suggests. Clear your table when you leave."
+      - "On your last day, check whether your airline does **in-town check-in** at Hong Kong Station; it's listed on the MTR site with each airline's hours."
+      - "The Lunar New Year installation goes in the **Oval Atrium, Podium Level 1**. In 2026 it ran Feb 5 – Mar 3, opening about two weeks before New Year (Feb 17). The 2027 dates aren't out."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No official rooftop hours are published. Don't plan a midnight visit without checking it's open."
+      - "In-town check-in covers **only the listed airlines' own flights**, not codeshares, and you need an Airport Express fare to enter."
+      - "Star Ferry fares rise on **Jan 25, 2027**: up to HK$6 on weekdays and HK$8.30 at weekends. The fare on the Mon–Tue holidays (Feb 8–9) isn't stated; budget the weekend one."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: Mild and humid, with little sunshine; about 39 mm of rain in the month
+    note: "February averages 15–19 °C: comfortable for sitting outside. If it rains, the mall itself is the fallback."
+    wear: A light jacket in the evening
+  - type: pairs_well
+    items:
+      - id: harbour-city-ocean-terminal-deck
+        note: "Star Ferry across: the other free harbour deck, facing this one"
+      - id: k11-musea
+        note: "Kowloon's art mall, across the harbour in Tsim Sha Tsui"

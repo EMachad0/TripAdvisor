@@ -1,0 +1,116 @@
+id: chao-phraya-express-boat
+name: "Chao Phraya Express Boat"
+short_name: The express boat
+name_local: เรือด่วนเจ้าพระยา
+name_romanized: Ruea Duan Chao Phraya
+country: thailand
+city: bangkok
+area: Chao Phraya River
+category: views
+fame: popular
+tags: [river, boat, public-transport, cheap, skyline]
+kind: Do
+why: "Bangkok's river commuter boat for ฿19–24 a ride: palaces, temples and towers slide past on the stretch a ฿150 tourist pass covers."
+cost:
+  local: 48
+  currency: THB
+  brl: 7.92
+  note: "Two daytime Yellow Flag rides at ฿24 (fare since Oct 2026). The rush-hour Orange Flag is ฿19"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h with stops
+best_time: "Weekday 15:40–18:00, on an Orange Flag boat"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Fri: Orange Flag about 06:00–07:45 and 15:40–18:05; Yellow Flag all day (long route 08:10–15:40). Sat/Sun/holidays: Yellow only"
+  closed: "Orange Flag doesn't run on weekends or public holidays"
+  winter: "Schedule from 9 Nov 2026. Weekends and public holidays: Yellow Flag only. Saturday and holidays: from Nonthaburi 07:30–17:00, from Wat Rajsingkorn 08:40–17:45. Sunday (3 Jan): from Nonthaburi 08:40–17:00, from Wat Rajsingkorn 09:40–17:45. Oriental Pier (N1) is closed for renovation; Wat Khien Pier (N28) since June 2026."
+
+location:
+  address: "Sathorn (Central) Pier, under Taksin Bridge, by BTS Saphan Taksin, Bangkok"
+  address_local: "ท่าเรือสาทร (ท่าเรือกลาง) ใต้สะพานตากสิน กรุงเทพฯ"
+  lat: 13.71837
+  lng: 100.51257
+  nearest_transit: "Saphan Taksin (BTS Silom Line), next to the pier"
+
+sources:
+  - url: https://www.chaophrayaexpressboat.com/chaophrayaexpressboat?lang=en
+    title: "Boat Service: lines and fares from 9 Nov 2026 (Chao Phraya Express Boat, official)"
+    checked: 2026-11-12
+  - url: https://thaiest.com/thailand/bangkok/orange-flag-boat
+    title: "Orange Flag Boat Bangkok (THAIest, updated 9 Nov 2026)"
+    checked: 2026-11-12
+  - url: https://thaiest.com/thailand/bangkok/yellow-flag-boat
+    title: "Yellow Flag Boat Bangkok (THAIest, updated 9 Nov 2026)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Fares (Orange ฿19, Yellow ฿24) and the weekday-only Orange line are on the operator's own page. The departure times and pier lists come from THAIest (updated 9 Nov 2026); the official timetable is an image I could not read. THAIest gives two start dates for the change (18 or 30 March 2026) but agrees on the result. Ride times are my estimate."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: orange-line
+    hook: "The cheapest river cruise in Bangkok is a commuter boat with a flag on the back."
+    caption: "An Orange Flag boat docking at Phra Arthit pier, Banglamphu"
+  - type: quick_facts
+    time_needed: 1–2 h with stops
+    best_time: Weekday, from 15:40
+    extra:
+      - { label: Your slot, value: Weekday afternoon, detail: "Ride 15:40–18:00, back before the 19:00 shift" }
+      - { label: Tickets, value: At the pier desk, detail: "Or a Rabbit card, also good on the BTS" }
+      - { label: Wat Arun, value: No stop, detail: "Get off at Tha Tien (N8), take the cross-river ferry" }
+  - type: highlights
+    items:
+      - title: A river tour at bus prices
+        text: "The Yellow Flag costs **฿24** and the Orange Flag **฿19**, flat rate. The Blue Flag tourist boat on the same stretch costs ฿150 for a day pass."
+      - title: The sights from the water
+        text: "Between **Sathorn** and **Phra Arthit** you pass Chinatown (Ratchawong, N5), Wat Pho (Tha Tien, N8), the Grand Palace (Tha Chang, N9) and Wang Lang market (N10)."
+      - title: Your hostel's pier
+        text: "**Phra Arthit (N13)** is the stop for Khao San Road. Ride south to Sathorn and the BTS, and the boat beats the traffic."
+      - title: Ride it with the commuters
+        text: "The Orange Flag runs only at rush hour on weekdays. The first afternoon boat leaves **Wat Rajsingkorn (S3) at 15:40** (Nonthaburi 16:00), so you ride the commuter boat in the late-afternoon light."
+  - type: prose
+    title: Which flag to catch
+    dropcap: true
+    text: |-
+      The flag on the stern tells you the line. The **Orange Flag** stops almost everywhere between Nonthaburi (N30) and Wat Rajsingkorn (S3), but since 2026 it only runs on weekday mornings and late afternoons. In between (08:10–15:40 on weekdays) and all day on weekends and holidays, a **Yellow Flag** boat takes over the route with about 24 stops, for ฿24. The Yellow boats that run at weekday rush hour use the **original short route**, which skips Phra Arthit (N13) and Tha Tien (N8).
+
+      For a weekday afternoon, take the Yellow Flag after lunch, hop off for a temple or Wang Lang market, then ride an Orange Flag boat back in the late afternoon. Buy a ticket at the pier desk.
+  - type: gallery
+    images:
+      - { file: on-board, caption: "Express boats on the Chao Phraya" }
+  - type: cost_breakdown
+    items:
+      - { label: "Yellow Flag, Phra Arthit to Sathorn (long route)", local: 24, brl: 3.96 }
+      - { label: "Yellow Flag, back up the river", local: 24, brl: 3.96 }
+  - type: map
+    note: "The pin is **Sathorn (Central) Pier**, the hub, next to BTS Saphan Taksin. From Khao San, start at **Phra Arthit (N13)** instead."
+  - type: tips
+    variant: insider
+    items:
+      - "**Your slot: weekday afternoon.** Ride the long-route Yellow Flag after lunch, then an Orange Flag back (first one 15:40 from Wat Rajsingkorn, a few minutes later at Sathorn), and be on land well before your 19:00 shift."
+      - "Get a **Rabbit card**: it works on the express boat, the BTS and some MRT lines, so you skip the ticket desk."
+      - "The Blue Flag tourist boat (฿150 day pass) stops at Wat Arun. Worth it only if you hop on and off a lot."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "On weekends there is **no Orange Flag**. Look for the yellow flag and pay ฿24."
+      - "Rush-hour Yellow boats (Mon–Fri 06:00–08:05 from Nonthaburi, 17:15–19:05 from Sathorn) run the short route and **skip Phra Arthit and Tha Tien**; the ฿24 Phra Arthit–Sathorn ride needs the long-route Yellow (weekdays 08:10–15:40, or weekends). Oriental Pier (N1) is closed."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; the cool season
+    note: "Boats are open-sided, so you get the heat and the breeze. A late-afternoon ride avoids the worst of the midday sun."
+    wear: Light clothes; sunglasses for the water glare
+  - type: pairs_well
+    items:
+      - { id: wang-lang-market, note: "Prannok pier (N10): lunch stop on the way" }
+      - { id: wat-pho-and-wat-arun, note: "Tha Tien pier (N8)" }
+      - { id: grand-palace-wat-phra-kaew, note: "Tha Chang pier (N9)" }
+      - { id: talat-noi-so-heng-tai, note: "Marine Department or Si Phraya pier" }

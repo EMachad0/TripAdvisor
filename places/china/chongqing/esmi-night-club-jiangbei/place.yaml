@@ -1,0 +1,142 @@
+id: esmi-night-club-jiangbei
+name: "ESMI Night Club (Jiangbei)"
+short_name: ESMI
+name_local: ESMI江北店
+country: china
+city: chongqing
+area: "Jiangbei · Guanyinqiao"
+category: nightlife
+fame: hidden
+must_do: china-clubs
+tags: [club, edm, hip-hop, k-pop, big-room, late-night, jiujie]
+kind: Do
+why: "Trip.com's No. 1 club in Chongqing (Nov 2026): EDM, hip-hop and K-pop under giant screens and stage shows. Free entry at 18+ with your passport."
+
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+  note: "Entry is free (chongqing.guide, Oct 2026). Drinks extra: no bar prices published; a table seat runs about ¥300–500 a head"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: 3–5 h
+best_time: "Fri/Sat, in line by 20:30–21:00; peak around midnight"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Fri/Sat: queue from about 20:30; stage shows from about 22:30, peak around midnight, more routines after 02:00. Closing time not published"
+  winter: "No winter schedule, closures or New Year's Eve programme found. During the stay the weekend nights are Sat 26 Dec, Sun 27 Dec, Fri 1 Jan and Sat 2 Jan."
+
+location:
+  address: "Liyuchi 42 Art Park (commercial block), Guanyinqiao, Jiangbei District, Chongqing"
+  address_local: 重庆市江北区观音桥鲤鱼池42号艺术公园商业
+  lat: 29.57925
+  lng: 106.54094
+  nearest_transit: "9th Street area: Guanyinqiao (Lines 3/9) per Cities Insider; take a DiDi home"
+  approximate: true
+
+sources:
+  - url: https://chongqing.guide/en/guides/chongqing-nightclubs/
+    title: "Chongqing clubs guide — chongqing.guide (updated 2026-10-27): ESMI music, free entry 18+, passport, times, tables, address"
+    checked: 2026-11-11
+  - url: https://uk.trip.com/toplist/tripbest/chongqing-best-clubs-100900005424
+    title: "Top 20 Clubs in Chongqing — Trip.Best (updated 11 Nov 2026): ESMI Jiangbei No. 1, EDM, holographic screen room"
+    checked: 2026-11-11
+  - url: https://www.showstart.com/venue/17401197
+    title: "ESMI Official CQ — ShowStart venue page (address in Chinese)"
+    checked: 2026-11-11
+  - url: https://citiesinsider.com/country/china/chongqing/nightlife/en
+    title: "Nightlife in Chongqing (2026) — Cities Insider: 9th Street hub, metro stations, metro ~23:00, DiDi fares, door promoters"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing — Wikipedia (climate table, Dec–Jan normals)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Entry, ID, table and timing facts come from one guide (chongqing.guide, Oct 2026); ESMI's own Klook page blocks automated reading (HTTP 403). No closing time or drink prices found. Trip.com's list (read with ./atr render; blocks the link checker) says 'open all day'. Pin is the Liyuchi neighbourhood on OpenStreetMap, not the door. Nearest metro is my reading of Cities Insider's 9th Street note."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    hook: "A full stage production every weekend: screens, light rigs and dancers, with EDM and K-pop turned up to arena size."
+  - type: quick_facts
+    time_needed: 3–5 h
+    best_time: "Fri/Sat, queue by 21:00"
+    extra:
+      - { label: Entry, value: "Free, 18+", detail: "Passport checked at the door (chongqing.guide)" }
+      - { label: Music, value: "EDM, hip-hop, K-pop", detail: "Big party sets with stage shows" }
+      - { label: Solo?, value: "Stand, don't book", detail: "Tables are for groups: ¥1,000+ on weekends" }
+  - type: highlights
+    items:
+      - title: The city's top-ranked club
+        text: "Trip.com's Trip.Best list of Chongqing clubs, updated 11 November 2026, puts **ESMI's Jiangbei branch at No. 1**, for its 4D holographic screen room and EDM performances."
+      - title: Big-room, not underground
+        text: "EDM leads, with hip-hop and K-pop mixed in. Giant screens, moving light rigs and dancers turn the room into a show, says chongqing.guide. The 'heavy' night out, Chinese style."
+      - title: Free at the door
+        text: "Entry is **free for guests 18 and over**. You pay only for drinks, or a table if you come with a group."
+      - title: A night with a schedule
+        text: "Stage shows start around **22:30**, gain energy from 23:00 and peak around midnight; more dance routines run after 02:00."
+  - type: prose
+    title: Going alone, and getting home
+    text: |-
+      ESMI is built around tables. chongqing.guide gives E and W tables for two to four people at about **¥300–500 per person**, side booths at about **¥1,000** a table on weekends and centre booths at ¥3,000–4,000. For a solo traveller, the free entry is the point: get in, stand near the screens, buy a drink at a time. No source publishes a bar price, so ask before you order. Cities Insider warns that door promoters push VIP packages that are overpriced for visitors, and says you can usually get in without one.
+
+      It is in the **Liyuchi 42 art park** at Guanyinqiao, the centre of 9th Street (Jiujie) across the Jialing River from Yuzhong. Flavor Tiki, an award-winning cocktail bar, is in the same art park (cocktails from about ¥80, open 20:00–02:30), so you can start there and walk over.
+
+      The metro stops around 22:30–23:00, so plan a **DiDi** back. Cities Insider puts an average 20-minute night ride at ¥15–45. Copy the Chinese address into the app.
+  - type: cost_breakdown
+    items:
+      - { label: Entry, local: 0, brl: 0 }
+      - { label: "Seat at an E/W table, per person", local: 400, brl: 330.68, estimate: true, optional: true }
+      - { label: "DiDi back to Yuzhong", local: 30, brl: 24.8, estimate: true, optional: true }
+  - type: menu
+    title: What things cost
+    items:
+      - name: Entry, 18+
+        price_local: 0
+        price_brl: 0
+        note: "Bring your passport"
+        tag: cheap
+      - name: E/W table seat, per person
+        price_local: 400
+        price_brl: 330.68
+        note: "chongqing.guide: about ¥300–500 a head, two to four people"
+      - name: Side S booth, weekend minimum
+        name_local: 卡座低消
+        price_local: 1000
+        price_brl: 826.7
+        note: "Five to seven people, around ¥1,000 a table"
+      - name: Cocktail at Flavor Tiki next door
+        price_local: 80
+        price_brl: 66.14
+        note: "About ¥80 to over ¥100 (chongqing.guide)"
+        tag: drink
+    note: "No published price for a drink at ESMI's bar. Ask the price before you order."
+  - type: map
+    note: "Show the Chinese address to the driver: 鲤鱼池42号艺术公园. The pin marks the Liyuchi neighbourhood, not the club door."
+  - type: tips
+    variant: insider
+    items:
+      - "On Friday or Saturday, be in the queue by **20:30–21:00**: chongqing.guide says that beats the line outside."
+      - "Best nights for this trip: **Sat 26 Dec** (your arrival day) or **Fri 1 Jan**. Weeknights are work nights."
+      - "Want hip-hop instead of EDM? Orangutan Bunker and TEETHGOLD on Beicheng Tianjie have free entry and a bar counter with no minimum (chongqing.guide)."
+      - "Coming with hostel friends? chongqing.guide says E and W tables suit two to four people, so split one."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**PLAY HOUSE**, often named as a top 9th Street club, has **permanently closed** (chongqing.guide, Oct 2026)."
+      - "Promoters at the door push 'VIP packages'. Cities Insider says they are overpriced for short-term visitors."
+      - "Reserved tables are held only until 21:30. If you book one, be on time."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp, foggy nights around 6 °C
+    note: "Indoors all night; the cold only matters in the queue and while waiting for a car at 03:00."
+    wear: A light jacket over club clothes
+  - type: pairs_well
+    items:
+      - { id: cici-park-chongqing, note: "The underground alternative: techno and house in a small room, NYE party listed" }
+      - { id: chongqing-liuhe-youth-hostel, note: "Rally people on the terrace first; DiDi over together" }
+      - { id: only-cafe-and-backpacker, note: "The most social hostel in town: find a crew for a Saturday night" }

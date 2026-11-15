@@ -1,0 +1,19 @@
+# Independent review of persona-30th-ex-ueno. Written by `./atr review`; do not edit by hand.
+id: persona-30th-ex-ueno
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 6a4d327250e468011b03c104941cf92e169594c2da89b5ebc67c0764a6029094
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[5].steps[0].text
+    problem: "./atr validate fails: the rewritten step is 266 characters, over the 240 limit. Its middle clause ('; a timed ticket (日時指定入場券) for a weekend or 21–22 Jan.') also has no verb, so it is unclear that the timed ticket is the same ¥3,000 entry."
+    evidence: './atr validate persona-30th-ex-ueno: "0 error(s), 0 warning(s)". The clause now has a verb ("weekends and 21–22 Jan need a timed ticket"). https://event-info.kadokawa.co.jp/persona30th-ex/ticket/ supports it: "1月21日（木）、1月22日（金）、会期中の土日の入場は日時指定制です。" Both tickets cost ¥2,700 前売 until 1/20 and ¥3,000 from 1/21. Advance sales end "2027年1月20日（水）23時59分". The page sells through l-tike.com and says all tickets are limited ("数量に限りがございます").'
+rereview_of: 20b4a9da0272f8de054861fd70a092dc31d19d883a8d16abc36e995c4a1d2ebb
+summary: "The earlier finding is fixed: the book-ahead step now validates, and the official ticket page confirms its price, the timed-entry days, the 20 Jan 23:59 deadline and the Lawson Ticket channel. The diff adds no new problems and nothing blocks on the unchanged content, so the page passes."
+model: claude-opus-5-5
+cost_usd: 0.385

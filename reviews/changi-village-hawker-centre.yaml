@@ -1,0 +1,35 @@
+# Independent review of changi-village-hawker-centre. Written by `./atr review`; do not edit by hand.
+id: changi-village-hawker-centre
+type: place
+reviewed: 2026-11-13
+verdict: fix
+content_hash: 3c7bbdea068cdf2391daed044cc8268089383ebee76b9dc26c11c2bac0431d06
+facts:
+  supported: 8
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: blocker
+    field: cost.currency
+    problem: The page still fails `./atr validate` because "SGD" is not in the schema's allowed currencies. Until it validates, the page cannot pass.
+    evidence: './atr validate changi-village-hawker-centre: error cost.currency (line 15) "SGD" is not an allowed value'
+    fix: Have the orchestrator add SGD to the schema's allowed currencies, then re-validate. Keep the price in SGD.
+  - severity: nit
+    field: blocks[9].items[0]
+    problem: No listed source backs "older listings disagree". Eatbook gives only one set of hours.
+    evidence: "https://eatbook.sg/changi-village-hawker-centre/ lists a single schedule for #01-03"
+    fix: Drop "but older listings disagree" or cite the listing that disagrees.
+resolved:
+  - field: location.address
+    problem: The taxi address "2 Changi Village Road, Singapore 500002" is not backed by any listed source that opens. The Now Boarding article returns only its title and date, with no body, and Eatbook gives unit numbers but no street address. The Seth Lui source for the Oct 2026 closure is blocked (HTTP 403).
+    evidence: https://littlebigreddot.com/hawker-centres-closed-cleaning-october-2026/ opens and says "Changi Village Blk 2 and 3 on Changi Village Road is closed for repairs and redecoration from 1 to 15 October". That supports the new address "Blk 2 Changi Village Road" and the closure; the pin sits on the Changi Village hawker block in the phone screenshot.
+  - field: blocks[4].text
+    problem: "Two claims rest on sources that do not open: the T3 Basement 2 Kopitiam being \"open 24 h\", and the dessert stall being a soldiers' favourite. Both Now Boarding pages return only a title and date."
+    evidence: 'The soldiers line is gone. The Kopitiam claim now reads "keeps 15 of its stalls open 24 h", and https://alvinology.com/2024/12/16/fairprice-group-launches-first-integrated-food-retail-experience-at-changi-airport-t3/ says "Kopitiam: 24 hours (15 selected stalls)" at "Changi Airport Terminal 3, B2-03 & B2-10".'
+  - field: hours.summary
+    problem: The whole Sunday plan (best_time 17:00–19:00, the 20:00 show) depends on the nasi lemak stall opening at 17:00 on Sundays. The only source is Eatbook's June 2024 guide, almost 2.5 years old by the trip, and none of the stall hours or prices have a newer source.
+    evidence: "best_time now reads \"Sun 17:00–19:00; check the nasi lemak stall's hours first\". The insider tip dates the hours to Eatbook June 2024, gives the stall phone (https://eatbook.sg/changi-village-hawker-centre/: \"Tel: 8400 6882\", \"Sun 5pm to 11pm\") and names the 24 h stalls as the fallback."
+rereview_of: 681c1a5ad4038a5c7aad80204fb1df124dff31c9baee94b6047141251becc85c
+summary: "Earlier findings 2–4 are fixed. The address and the Oct closure now cite littlebigreddot, the Kopitiam claim cites Alvinology (15 stalls open 24 h), and the Sunday plan tells the traveler to check the stall's hours first. The new taxi surcharge notes and bus 2 frequencies match the Changi Airport page and the Land Transport Guru page. The blocker is still open: cost.currency \\\"SGD\\\" fails schema validation, so the page cannot pass until SGD is added to the allowed currencies."
+model: claude-opus-5-5
+cost_usd: 0.454

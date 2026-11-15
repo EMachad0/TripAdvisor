@@ -1,0 +1,100 @@
+# Trip facts used by `atr gaps` and budget checks. Source: docs/TRIP.md (route updated 2026-11-14: Japan 16 days to Feb 5, Hong Kong 4 from Feb 5).
+# Owner: orchestrator. Edit when dates/days/budgets change.
+traveler:
+  home: Brazil (Joinville / São Paulo)
+  currency: BRL
+  style: solo budget backpacker — hostels, local food, overnight trains, capsule hotels
+  interests: [culture, food, nightlife, nature, odd-local, views, shopping, shows, day-trip]
+
+# Max one attraction per day: `days` caps how many top picks fit in a country.
+# budget_brl_per_day = "everything else" (attractions, local transport, nightlife; not beds, not daily food).
+# route (optional): the stops inside a country in travel order, the seed for the game's Route tab:
+#   - { area: <area id>, nights: N }            nights optional; area = the area file name (areas/<country>/<id>.yaml)
+#   - { area: <id>, name: X, lat: Y, lng: Z }   a stop with no area file (name + WGS84 coordinates)
+# stays: false (optional) = no bed in this country (e.g. a layover day), so `atr gaps`/`next` don't ask for stay cards.
+# The game saves the traveler's edits to feedback/route.jsonl (latest wins) and never edits this file.
+countries:
+  - id: china
+    from: 2026-12-06
+    to: 2027-01-02
+    days: 27
+    budget_brl_per_day: 170
+    cheap_meal_brl: 21          # rough reference for food pages (≈ ¥25 bowl of noodles)
+    cities: [shanghai, huangshan, beijing, xian, fenghuang, zhangjiajie, chengdu, chongqing]
+    # Order agreed with the traveler 2026-11-14. FLEXIBLE stops (not commitments, the traveler may cut them): Huangshan, Xi'an, Chengdu.
+    # Fixed: Shanghai Dec 6; in Chongqing by Mon Dec 28 (work nights); out of Chongqing CKG on Sat Jan 2. Dec 16–28 is open by design.
+    # Out: Harbin, Dali, Yangshuo, Hongcun. No days are assigned inside a stop.
+    route:
+      - { area: shanghai, nights: 3 }                                   # Dec 6–9
+      - { area: huangshan, name: Huangshan (flexible), nights: 2 }      # Dec 9–11; if cut, Shanghai is one stay to Dec 13
+      - { area: shanghai-weekend, name: Shanghai again (weekend), lat: 31.2304, lng: 121.4737, nights: 2 }   # Fri Dec 11 – Sun Dec 13
+      - { area: beijing, nights: 3 }                                    # Dec 13–16, arriving on the Fuxing train
+      - { area: xian, name: Xi'an (flexible), nights: 2 }               # Dec 16–18, first night on the night train; decided in Beijing by ~Dec 14
+      - { area: fenghuang }                                             # Fenghuang + Zhangjiajie are one block of 5 nights, Dec 18–23,
+      - { area: zhangjiajie }                                           #   split on the ground by weather (Fenghuang first); may grow
+      - { area: chengdu, name: Chengdu (flexible), nights: 3 }          # Dec 23–26, Christmas; may be traded for the block or Chongqing
+      - { area: chongqing, nights: 7 }                                  # Sat Dec 26 – Jan 2; work nights Dec 28–30, NYE drone show
+    areas_wanted: 8             # area/region cards for the broad round (27 days, the traveler wants to discover China)
+    notes: Visa-free max 30 days; must leave by ~Jan 4. Vacation until Dec 24; work nights 20:00–05:00 Dec 28–30 (the traveler says nobody works Dec 31). Exit Chongqing CKG → Chiang Mai CNX on Sat Jan 2.
+  - id: thailand
+    from: 2027-01-02
+    to: 2027-01-10
+    days: 8
+    budget_brl_per_day: 100
+    cheap_meal_brl: 10          # rough reference for food pages (≈ ฿60 street-food plate)
+    cities: [chiang-mai, bangkok]   # order agreed with the traveler 2026-11-14 (reopened and confirmed the same day; exit stays Sun Jan 10). The Jan 2 flight to CNX is booked.
+    route:                          # nights left open on purpose: Chiang Mai 3–4, Bangkok 4–5 (moves Tue Jan 5 or Wed Jan 6, decided on the spot)
+      - { area: chiang-mai }
+      - { area: bangkok }
+    notes: Arrive Chiang Mai (CNX) Sat Jan 2; luge Sun Jan 3. Night shifts 19:00–04:00, Mon Jan 4 – Fri Jan 8 (Chiang Mai first, then Bangkok). Sat Jan 9 free in Bangkok; fly Bangkok → Singapore Sun Jan 10.
+  - id: singapore
+    from: 2027-01-10
+    to: 2027-01-11
+    days: 1
+    budget_brl_per_day: 120     # MRT + Canopy Park/Mirror Maze (S$18.90)
+    stays: false                # no bed: red-eye SIN → ICN the same night
+    cheap_meal_brl: 26          # rough reference (≈ S$6 hawker plate at 4.397)
+    cities: [singapore]
+    route:                      # no area file for Singapore: name + coordinates (Jewel Changi)
+      - { area: singapore, name: Singapore (Jewel Changi), lat: 1.3602, lng: 103.9894 }
+    notes: "Layover day Sun Jan 10, no bed. Plan (2026-11-13) is an afternoon flight from BKK landing ~15:00–16:00 and stay airport-only (~6 h landside around Jewel, Rain Vortex light shows 20:00/21:00/22:00), then check in and the red-eye to Seoul (booked: SQ 707 lands SIN 15:35; Jeju Air 7C2624 leaves 01:10 Mon Jan 11, lands ICN 08:40). Fallback if the cheap flight lands ~midday: leave bags at left luggage, afternoon in the city (Gardens by the Bay, hawker dinner), back to Jewel for the 21:00 or 22:00 show. Visa-free for Brazilians; SG Arrival Card within 3 days before landing."
+  - id: korea
+    from: 2027-01-11
+    to: 2027-01-20
+    days: 9
+    budget_brl_per_day: 140
+    cheap_meal_brl: 37          # rough reference for food pages (≈ ₩9,000 gimbap/soup set)
+    cities: [seoul]
+    route:
+      - { area: seoul }
+    notes: Land Mon Jan 11 morning on the red-eye from Singapore. Work nights 21:00–06:00 Jan 11–15 and 18–19; free days Jan 16–17 (Hwacheon), Jan 20 (fly out).
+  - id: japan
+    from: 2027-01-20
+    to: 2027-02-05
+    days: 16
+    budget_brl_per_day: 170
+    cheap_meal_brl: 31          # rough reference for food pages (≈ ¥900 ramen/teishoku)
+    cities: [tokyo, osaka, kyoto]   # order agreed with the traveler 2026-11-14 (Nagasaki out)
+    route:
+      - { area: tokyo, nights: 9 }    # Jan 20–29 (may become 10 if the Daikoku retry moves to Fri Jan 29)
+      - { area: osaka, nights: 4 }    # Jan 29 – Feb 2 (Ado Jan 30–31)
+      - { area: kyoto, nights: 3 }    # Feb 2–5 (Setsubun Feb 3); fly KIX → HKG Feb 5
+    areas_wanted: 4
+    notes: All vacation. Ado live in Osaka Jan 30–31 (lottery). Setsubun Feb 3.
+  - id: hong-kong
+    from: 2027-02-05
+    to: 2027-02-09
+    days: 4
+    budget_brl_per_day: 120
+    cheap_meal_brl: 35          # rough reference for food pages (≈ HK$50 cha chaan teng set)
+    cities: [hong-kong]
+    route:                      # no area file for Hong Kong: name + coordinates (Central)
+      - { area: hong-kong, name: Hong Kong, lat: 22.2819, lng: 114.1582 }
+    notes: Lunar New Year Sat Feb 6. Arrive Fri Feb 5 17:15 (Greater Bay HB353 from KIX). Home flight bought - Ethiopian ET645 leaves HKG Tue Feb 9 23:55, lands GRU Wed Feb 10 16:00.
+
+# Gap-report thresholds
+gaps:
+  stale_source_days: 45
+  options_per_day: 2            # want at least this many candidate places per trip day
+  dominant_category_share: 0.4  # warn when one category is > 40% of a country's places
+  budget_outlier_share: 1.0     # warn when one place costs > 100% of the daily budget

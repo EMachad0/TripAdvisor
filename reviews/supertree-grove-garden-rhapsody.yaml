@@ -1,0 +1,44 @@
+# Independent review of supertree-grove-garden-rhapsody. Written by `./atr review`; do not edit by hand.
+id: supertree-grove-garden-rhapsody
+type: place
+reviewed: 2026-11-13
+verdict: fix
+content_hash: 0e23c3b771cf41c994a424a866f7018c85cd76694b0ee4e79ef199deb0558a93
+facts:
+  supported: 5
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[3].text
+    problem: No listed source gives the 19:13 sunset on 10 Jan, and the page uses it to show the 19:45 show is after dark.
+    evidence: None of the 9 sources gives sunset times.
+    fix: Cite a sunset table such as timeanddate.com for Singapore on 10 Jan 2027, or drop the exact time.
+  - severity: should
+    field: blocks[5].items[1]
+    problem: The MRT fare (≈S$2–2.40 a ride) and the ≈45 min journey come only from Rome2rio. Rome2rio gives 48 min, and its fare is shown in R$ (R$14–17), which does not clearly match S$2.40 a ride. The 20:05 departure depends on this timing.
+    evidence: https://www.rome2rio.com/s/Bayfront-MRT-Station/Changi-Airport-Terminal-1 — "Subway … 48 min … R$14–17"
+    fix: Cite the SimplyGo or LTA fare for Changi Airport to Bayfront, and use 45–50 min.
+  - severity: blocker
+    field: cost.currency
+    problem: The page still fails `./atr validate`, because "SGD" is not an allowed currency in the schema.
+    evidence: ./atr validate supertree-grove-garden-rhapsody — error cost.currency (line 15) "SGD" is not an allowed value
+    fix: Add SGD to the schema's allowed currencies, or use a value the schema accepts, then run validate again until it passes.
+  - severity: should
+    field: blocks[2].extra[1].detail
+    problem: The MRT fare of ≈S$2.50 a ride appears in quick_facts, in cost_breakdown items 1–2 and in cost.local (5.6). No listed source gives it, and the curator says it is their own estimate.
+    evidence: 'confidence_note: "the ≈S$2.50 card fare per ride is my estimate (no LTA fare table opened)". Neither https://www.changiairport.com/en/airport-guide/transport/leaving-the-airport.html nor Rome2rio gives an S$ fare.'
+    fix: Cite the SimplyGo, LTA or TransitLink fare for Changi Airport to Bayfront, then make the fare and cost.local match it.
+  - severity: should
+    field: sources[9]
+    problem: The page says sunset on 10 Jan is 19:13 and uses it to show the 19:45 show is after dark. The added sunrise-sunset.org link shows only today's and tomorrow's times (Nov 2026), not 10 Jan 2027.
+    evidence: 'https://sunrise-sunset.org/search?location=Singapore — "Sunset time: 6:50:47 pm" for 14 Nov 2026; there is no Jan 2027 data on that page.'
+    fix: Link a page that shows the January 2027 date, such as sunrise-sunset.org's dated URL for Singapore on 2027-01-10, or drop the exact time and say "after sunset (about 19:10)".
+resolved:
+  - field: sources
+    problem: The Jewel L1 left-baggage figures are on the page (S$11 for an item under 10 kg, open 24 h), but no listed source covers them. The official Changi page supports them, and it adds that S$11 is charged per 24 hours.
+    evidence: 'The Changi baggage-storage page is now in sources. https://www.changiairport.com/en/at-changi/facilities-and-services-directory/baggage-storage.html — "Jewel Level1 (near the Early Check-In Lounge)", "Open 24 Hours", "Small items (below 10kg): S$11" under "BAGGAGE STORAGE RATES - PER 24 HOURS".'
+rereview_of: 9c7a216c08a5b5f9afa00ea2b00b8647ea88cec1b707bdd6ee1b973ddb70ecdf
+summary: The baggage-storage finding is fixed. The new taxi-surcharge text and the festive-show end date of 3 Jan match the official Changi and Gardens by the Bay pages. The page still fails validation because of the SGD currency (blocker). The MRT fare and the 10 Jan sunset time still have no source that states them.
+model: claude-opus-5-5
+cost_usd: 0.414

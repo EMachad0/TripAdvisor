@@ -1,0 +1,159 @@
+id: jins-paradise-hongdae
+name: "Jin's Paradise"
+country: korea
+city: seoul
+area: Mapo-gu · Hongdae
+category: stay
+tags: [hostel, social, rooftop, korean-bbq, hongdae, nightlife-base]
+kind: Stay
+why: "Hongdae's most social small hostel: atmosphere 9.8, a rooftop, weekend Korean BBQ. ₩39,999 a weeknight dorm, but Jan 10–19 is not on sale yet."
+
+cost:
+  local: 39999
+  currency: KRW
+  brl: 166.24
+  note: "Hostelworld, 6-bed dorm, Tue 5 Jan 2027 (latest night on sale 12 Nov). Deposit online, rest in cash on arrival; card +10%"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 16
+  lead_time: "Book as soon as Jan 10–19 opens; free cancellation ends 15 days before"
+  method: website
+  links:
+    - label: Hostelworld (Mon 11 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Jin-s-Paradise/Seoul/295727?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+      note: "On 12 Nov this said \"no availability\" for every night 10–19 Jan; re-check from early December"
+  notes: "Recommended because it is small and the trip nights are not on sale yet: on 12 Nov Hostelworld sold beds up to Tue 5 Jan and none from 6 Jan on. Book when they appear; free cancellation ends 15 days before each night (26 Dec for Sun 10 Jan)."
+
+hours:
+  summary: "Check-in 14:00–23:00 (later: self check-in, arrange in advance) · check-out by 11:00 · no curfew"
+  winter: "No seasonal notes on Hostelworld. On 12 Nov no beds were on sale for 10–19 Jan (\"no availability\" for each night). Latest prices on sale for the Basic 6-bed dorm: ₩69,000 Sat 5 Dec, ₩39,999 weeknights mid-Dec to Tue 5 Jan."
+
+location:
+  address: "4F, 358-115 Seogyo-dong, Mapo-gu, Seoul (OpenStreetMap: 92 Eoulmadang-ro)"
+  address_local: 서울특별시 마포구 어울마당로 92 (서교동 358-115) 4층
+  lat: 37.5531
+  lng: 126.9219
+  nearest_transit: "Hongik Univ. station (Line 2 / AREX), about 500 m on the map"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Jin-s-Paradise/Seoul/295727?from=2027-01-11&to=2027-01-12&guests=1&currency=KRW"
+    title: "Jin's Paradise on Hostelworld, Mon 11 Jan 2027 search: \"no availability\"; house rules, rating 9.4 (661), atmosphere 9.8, reviews"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Jin-s-Paradise/Seoul/295727?from=2027-01-05&to=2027-01-06&guests=1&currency=KRW"
+    title: "Jin's Paradise on Hostelworld, Tue 5 Jan 2027 search (latest night on sale): Basic 6-bed dorm ₩39,999, Standard ₩42,000"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/295727/availability/?guests=1&num-nights=1&date-start=2027-01-16&currency=KRW&application=web"
+    title: "Hostelworld availability feed (change date-start): read nightly 5 Dec – 21 Jan; no rooms from 6 Jan, free cancellation to 15 days before"
+    checked: 2026-11-12
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/295727/?application=web"
+    title: "Hostelworld property feed, house rules: check-in 14:00–23:00, check-out till 11am, cash on arrival (card +10%)"
+    checked: 2026-11-12
+  - url: https://www.hostelworld.com/hostels/p/295727/jin-s-paradise/
+    title: "Jin's Paradise, Hostelworld property page: map coordinates, free-cancellation rule (15+ days ahead)"
+    checked: 2026-11-10
+  - url: "https://www.openstreetmap.org/?mlat=37.55311&mlon=126.92193#map=17/37.55311/126.92193"
+    title: "OpenStreetMap: Jin's hostel at 92 Eoulmadang-ro, Seogyo-dong"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "No price for the trip nights: on 12 Nov Hostelworld sold nothing for 10–19 Jan, so ₩39,999 is the latest weeknight on sale (Tue 5 Jan); sold out or not yet released is not stated. Feed read with curl (403 to link checker). Lift not listed. Road address from OpenStreetMap, lot address from Hostelworld; station distance measured on the map."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: hongdae-street
+    caption: "A Hongdae shopping street by night. No free photo of the hostel exists"
+    hook: "Rooftop drinks with whoever checked in today, then down the hill into Hongdae's clubs."
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–23:00", detail: "Arriving later? Tell the hostel in advance" }
+      - { label: Vibe, value: Social and relaxed, detail: "Atmosphere 9.8/10 on Hostelworld" }
+      - { label: Curfew, value: None }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "Basic 6-bed mixed dorm · weeknight (Tue 5 Jan)"
+        local: 39999
+        brl: 166.24
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Jin-s-Paradise/Seoul/295727?from=2027-01-05&to=2027-01-06&guests=1&currency=KRW"
+        note: "Latest night on sale on 12 Nov; 10–19 Jan not on sale yet. Same price mid-Dec weeknights"
+      - label: "Standard 6-bed mixed dorm, ensuite · Tue 5 Jan"
+        local: 42000
+        brl: 174.55
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Jin-s-Paradise/Seoul/295727?from=2027-01-05&to=2027-01-06&guests=1&currency=KRW"
+      - label: "Basic 6-bed mixed dorm · a Saturday (Sat 5 Dec)"
+        local: 69000
+        brl: 286.76
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Jin-s-Paradise/Seoul/295727?from=2026-12-05&to=2026-12-06&guests=1&currency=KRW"
+        note: "Weekend rate for comparison: expect Sat 16 Jan to cost more than weeknights"
+    rating:
+      score: 9.4
+      out_of: 10
+      source: Hostelworld
+      reviews: 661
+      atmosphere: 9.8
+      checked: 2026-11-12
+    social:
+      - "**Weekend Korean BBQ**: \"Every weekend you can sign up for a Korean BBQ with people\", says the hostel."
+      - "A **rooftop** with \"entertaining things\", and \"Party with guests\" on the hostel's list of daily events."
+      - "October 2026 review: \"great for solo travelers… you can easily meet other backpackers. We had dinners at night and drinks at the rooftop.\""
+      - "Hostelworld's review summary singles out the host, Jin. Staff walk every new guest to their room."
+    good_to_know:
+      - "Free security lockers and free luggage storage."
+      - "Free coffee and tea 24 hours, free communal laundry, free city maps and tips."
+      - "Leave a contact number when you book: the hostel says it will message you."
+      - "**Pay in cash:** Hostelworld takes a deposit; the rest is paid on arrival in cash, or by card with 10% extra (₩39,999 becomes about ₩44,000)."
+      - "**Day sleep after shifts:** check-out is by 11:00, so on a move-out day you can't sleep in after a 06:00 finish."
+      - "The address says **4F** (fourth floor); a lift is not mentioned."
+      - "No children. Free cancellation only if you book more than 15 days ahead."
+      - "Cleanliness scores lowest of its Hostelworld sub-scores (8.6)."
+  - type: highlights
+    items:
+      - title: Built for meeting people
+        text: "Hostelworld guests score its **atmosphere 9.8/10**, and recent reviews talk about dinners together and drinks on the rooftop."
+      - title: Hongdae on the doorstep
+        text: "It sits in Seogyo-dong, the Hongdae nightlife district. Club Street and NB2 are a few hundred metres away on the map."
+      - title: Cheapest on weeknights
+        text: "The same dorm bed is **₩39,999** on weeknights and **₩69,000** on a Saturday (Hostelworld, December nights seen 12 Nov)."
+  - type: book_ahead
+    steps:
+      - days_before: 30
+        text: "From early December, check Hostelworld for 10–19 Jan: on 12 Nov nothing after Tue 5 Jan was on sale."
+      - days_before: 16
+        text: "Book by **26 Dec** (for a Sun 10 Jan arrival) to keep **free cancellation**: it ends 15 days before each night."
+      - days_before: 1
+        text: "Answer the hostel's message with your arrival time, especially if it is after 23:00."
+      - days_before: 0
+        text: "Check in from 14:00; a staff member walks you to your room."
+  - type: map
+    note: "From Hongik Univ. station, walk south into Seogyo-dong. Check the pin: the hostel is on the 4th floor."
+  - type: tips
+    variant: insider
+    items:
+      - "Weeknights are the cheap ones (₩39,999 against ₩69,000 on a Saturday in December): expect Fri 15 and Sat 16 Jan to cost more."
+      - "Ask at check-in when the next **weekend BBQ** is and sign up early."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Not bookable yet for your dates**: on 12 Nov every night 10–19 Jan showed \"no availability\". Have a backup (Time Travelers Relax or Lazy Cube nearby both had beds)."
+      - "**Work week:** cleanliness is its weakest score (8.6), and no source mentions a desk or an all-night lounge. For the Jan 11–15 shifts, the cleaner Lazy Cube (9.9) or Original Backpackers (10/10, coworking room) may suit better."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry and freezing, some snow
+    note: "January in Seoul averages −5.5 °C at night and 2.1 °C by day, with about seven snowy days. The rooftop is cold at night: dress for it."
+    wear: Padded jacket, hat and gloves for the walk home from the clubs
+  - type: pairs_well
+    items:
+      - id: hongdae-club-night
+        note: "Club Street is a short walk away; go with people from the rooftop"
+      - id: t1-base-camp
+        note: "The T1 PC bang is also in Hongdae"
+      - id: lazy-cube-hongdae
+        note: "Cleaner capsule alternative nearby, beds on sale for 10–19 Jan"
+      - id: time-travelers-relax-hongdae
+        note: "Quieter, cheaper Hongdae alternative"

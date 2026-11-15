@@ -1,0 +1,19 @@
+# Independent review of fuji-q-persona-30th. Written by `./atr review`; do not edit by hand.
+id: fuji-q-persona-30th
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 52679401ddda4cbf20d39b2b95d07aaad8e9857e27e222360387e275aa6c1b0e
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[9].temp_low_c
+    problem: The weather block gives -7 °C / 6 °C as the typical Dec–Jan low/high for Fujiyoshida, but no listed source gives these numbers. The traveler will pack for this trip based on them.
+    evidence: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=49&block_no=47640 is now listed in sources. It gives Kawaguchiko January normals for 1991–2020: daily minimum -5.7 °C, daily maximum 5.5 °C, sunshine 212.3 h. The page's -6 / 6 °C are these values rounded, and its note quotes -5.7 / 5.5 °C and about 210 h."
+rereview_of: 29527a7e6e66e91f03e58fa0013aacbfeb2cacf514a6a96c4e33aefb83f359d8
+summary: "The weather finding is resolved. The page now cites JMA's 1991–2020 normals for Kawaguchiko, and the -6 / 6 °C low and high plus the note's -5.7 / 5.5 °C and about 210 sunshine hours match that source. The new line in hours.winter, \"Fuji-Q says ride hours can change with the weather\", is backed by the Fuji-Q ticket page: \"Attraction operating hours may change depending on weather etc.\" The rechecked schedule facts (10:00–17:00, closed 20/21/27/28 Jan, Takabisha closed 22 Jan, Ferris wheel closed to 31 Jan) still match Fuji-Q's January 2027 calendar. No blockers or shoulds remain."
+model: claude-opus-5-5
+cost_usd: 0.313

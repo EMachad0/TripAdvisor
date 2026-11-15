@@ -1,0 +1,24 @@
+# Independent review of river-vibe-rooftop. Written by `./atr review`; do not edit by hand.
+id: river-vibe-rooftop
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: c41b433c22bd7043ef044a2e2440babe0256c5fa8e0c85dfe7d9f9b72d990379
+facts:
+  supported: 6
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: nit
+    field: location.nearest_transit / blocks[6].note
+    problem: The Mon–Fri Orange-flag schedule is supported. The operator page lists "ธงส้ม … จันทร์ - ศุกร์", effective 9 Nov 2569 (2026). But Ratchawong (N5) is not named anywhere in its text, because the stop list is an image. Nothing on the page shows that no line stops at N5 on weekends, so "Ratchawong pier (N5) on weekdays" is only partly sourced.
+    evidence: "https://www.chaophrayaexpressboat.com/chaophrayaexpressboat (lines in the text: Orange, Yellow, Green-yellow and Red, all Mon–Fri; no Blue-flag tourist boat and no pier list in the text)"
+    fix: Check N5 against the timetable image or ViaBus. Then either say which boat serves N5 at weekends, if one does, or word it as "Orange flag stops at N5 Mon–Fri" without implying no weekend boat.
+resolved:
+  - field: sources / location.address / confidence_note
+    problem: The page says the bar has no website and sits on 'River View Guest House'. The building has an official site that lists River Vibe, under the name River View Residence, with the address and phone numbers. That site is not cited, so the address and phone rest only on aggregators, and a traveler will look for a sign that may no longer say 'Guest House'.
+    evidence: riverviewbkk.com/ and /map-direction/ are now in sources. They say "RIVER VIEW RESIDENCE / RIVER VIBE RESTUARANT AND BAR", "NO. 768 TROK VANICH 2, SONG WAT ROAD, TALAD NOI, SAMPHANTHAWONG, BANGKOK 10100" and "MOBILE. (+66) 99 352 2078". The address, the map note and highlights[2] now name River View Residence, and confidence_note no longer says the bar has no website.
+rereview_of: b3d9eb94cf6e103a63447975375b415aaf9f39db66fbbee7361f23ba423be522
+summary: "The earlier finding is resolved. The official riverviewbkk.com site now backs the building name, address and phone, and the nightlife.run venue listing confirms the new hours, \"Everyday 7:30–10:30, 11:00–23:00\". The only gap left is a nit: the operator page's text does not confirm that N5 is served on weekdays only."
+model: claude-opus-5-5
+cost_usd: 0.495

@@ -1,0 +1,30 @@
+# Independent review of sangenjaya-yongen-jaya-walk. Written by `./atr review`; do not edit by hand.
+id: sangenjaya-yongen-jaya-walk
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: cf09703bee8d081c977bd75e9503475c68834285142d532bba3d5a0e01279325
+facts:
+  supported: 8
+  unsupported: 0
+  contradicted: 1
+issues:
+  - severity: nit
+    field: blocks[weather].note
+    problem: The new note calls January Tokyo's driest stretch, but the JMA normals the page cites give January 59.7 mm of rain against 56.5 mm for February and 57.9 mm for December. January is the sunniest month (192.6 h), not the driest.
+    evidence: https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662 — 1月 59.7 mm / 192.6 h; 2月 56.5 mm; 12月 57.9 mm
+    fix: Say "January is one of Tokyo's driest months and its sunniest" instead of "driest".
+resolved:
+  - field: hours.summary
+    problem: The page says the Carrot Tower 26F deck is open 09:30–23:00 and repeats "open until 23:00" in highlights[3] and tips[0]. Since 1 Oct 2025 the official Setagaya City page lists it as closing at 22:00, and the only listed source for 23:00 is an old Time Out page.
+    evidence: hours.summary, blocks[2].items[3].text and the insider tip now all say 22:00, and no 23:00 is left on the page. The Setagaya City page is listed and says "開放時間：午前9時30分から午後10時" under "開館時間等の変更（令和7年10月1日～）".
+  - field: hours.winter
+    problem: "The page says the deck's year-end hours were not published, but the official page lists them: closed 29–31 Dec and 1 Jan. It also says the second-Wednesday closures \"in the Japan window\" fall on 13 Jan and 10 Feb 2027. Both dates are outside the traveler's Japan days (20 Jan – 4 Feb), so no closure applies on this trip."
+    evidence: hours.closed and hours.winter now give the official closed days. https://www.city.setagaya.lg.jp/02072/8528.html says "休館日 12月29～31日、1月1日、第2水曜日". The 2nd Wednesdays are 13 Jan and 10 Feb 2027, both outside the traveler's Japan dates of 2027-01-20 to 2027-02-04, so "open every day of the trip" is right.
+  - field: blocks[2].items[2].text
+    problem: The claim that the Chiyo no Yu bathhouse is "closed for now" (also in tips[1]) comes from a 2025 listing that is not in sources; the confidence_note says only a search snippet was seen. A traveler would drop or plan a stop based on this.
+    evidence: https://onsen.nifty.com/tokyo/st-sangenjaya/ is now a listed source, opens, and lists "千代の湯（三軒茶屋）（休業中）". The page text and tips[1] now call it temporarily closed, which matches the source, and confidence_note says no reopening date was found.
+rereview_of: 09ae533c7a3e406fb6e8a5656be8e038067d9fcddb0bae43162ace82f3929546
+summary: "All three earlier findings are fixed. The deck hours (09:30–22:00), its closed days and the bathhouse closure now match the listed Setagaya City and Nifty Onsen sources, and the JMA source confirms the January high and low. The only new problem is a nit: the weather note calls January the driest month, which the cited JMA normals contradict."
+model: claude-opus-5-5
+cost_usd: 0.36

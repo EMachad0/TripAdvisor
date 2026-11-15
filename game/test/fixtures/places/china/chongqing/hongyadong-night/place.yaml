@@ -1,0 +1,69 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: hongyadong-night
+name: Hongyadong at Night
+name_local: 洪崖洞
+country: china
+city: chongqing
+area: Yuzhong · Jialing riverside
+category: views
+tags:
+  - cyberpunk
+  - drone-show
+  - night-view
+  - free
+kind: See
+why: "An eleven-storey stilt-house cliff lit gold over the river: the cyberpunk Chongqing postcard."
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+fx:
+  rate: 0.8267
+  date: 2026-11-09
+  source: fixture rate
+time_needed: 2–3 h
+best_time: Weekday morning
+book_ahead:
+  required: false
+  method: walk-in
+hours:
+  summary: Daily 10:00–22:00
+  winter: Weekend drone shows over the river in December.
+location:
+  address: Fixture address, chongqing
+  lat: 31.23
+  lng: 121.49
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture source
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture source 2
+    checked: 2026-11-09
+confidence: low
+confidence_note: Game test fixture, not researched.
+last_updated: 2026-11-09
+blocks:
+  - type: hero
+    hook: Spirited Away on a cliff, with a light show.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Weekday morning
+  - type: highlights
+    items:
+      - title: Fixture highlight
+        text: Test text for **Hongyadong at Night**. Not researched.
+      - title: Second highlight
+        text: Game fixture content, ignored by the real build.
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 11
+    conditions: Foggy, mild
+    note: Fixture weather note.
+    wear: Warm layers
+  - type: tips
+    variant: insider
+    items:
+      - "Fixture tip: go early."

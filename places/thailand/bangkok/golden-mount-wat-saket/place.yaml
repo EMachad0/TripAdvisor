@@ -1,0 +1,114 @@
+id: golden-mount-wat-saket
+name: "Golden Mount (Wat Saket)"
+short_name: Golden Mount
+name_local: ภูเขาทอง วัดสระเกศ
+name_romanized: Phu Khao Thong · Wat Saket
+country: thailand
+city: bangkok
+area: Old town, near Khao San
+category: views
+fame: popular
+tags: [temple, viewpoint, sunset, stairs, cheap]
+kind: See
+why: "344 steps past temple bells to a gold chedi on a 77 m hill: the widest view of old Bangkok, ฿100, open until 19:00."
+cost:
+  local: 100
+  currency: THB
+  brl: 16.49
+  note: "Foreigner fee for the climb, cash. The temple grounds at the foot are free"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–1.5 h
+best_time: Late afternoon, up the hill before sunset
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily, about 07:00–19:00 (one 2026 list says 07:30)"
+  closed: No weekly closing day listed
+  winter: "Dec–Jan are the coolest, driest part of the year (about 23–33 °C): the most comfortable time for the climb. The big temple fair, when the chedi is wrapped in red cloth, is in November around Loy Krathong, so it is over before the trip. No Dec–Jan closures were listed when checked (Nov 2026)."
+
+location:
+  address: "344 Chakkraphatdi Phong Rd, Ban Bat, Pom Prap Sattru Phai, Bangkok 10100"
+  address_local: "ภูเขาทอง วัดสระเกศราชวรมหาวิหาร 344 ถนนจักรพรรดิพงษ์ แขวงบ้านบาตร เขตป้อมปราบศัตรูพ่าย กรุงเทพฯ 10100"
+  lat: 13.75385
+  lng: 100.50669
+  nearest_transit: "Panfa Leelard pier (Saen Saep canal boat), 5–10 min walk"
+
+sources:
+  - url: https://www.visitthailandtoday.com/temples-culture/bangkok/golden-mount-wat-saket
+    title: "Golden Mount Bangkok (Wat Saket): ฿100 Entry & Hours (Visit Thailand Today, updated Oct 2026)"
+    checked: 2026-11-12
+  - url: https://yourthaiguide.com/bangkok-big-list-of-entry-fees/
+    title: "Bangkok Big List of Entry Fees, 2026 (Your Thai Guide)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Price (฿100) agrees in two 2026 lists; opening time is 07:00 (Visit Thailand Today) or 07:30 (Your Thai Guide), both close at 19:00. No official temple page with prices was found. Bangkok sunset time in January is not on a listed source, so the page only says to be up before sunset."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: view-temple-roof
+    focus: "50% 50%"
+    caption: "Wat Saket's halls seen from the top of the Golden Mount"
+    hook: "Bangkok's only hill is man-made, and from its golden top the old town spreads out in tiled roofs."
+  - type: quick_facts
+    time_needed: 1–1.5 h
+    best_time: Late afternoon, up before sunset
+    extra:
+      - { label: Your slot, value: Weekday afternoon, detail: "Closes 19:00; Khao San is a 20 min walk back" }
+      - { label: The climb, value: "344 steps, 10–20 min", detail: "No lift; shaded rest spots on the way" }
+      - { label: Dress code, value: Shoulders + knees covered }
+  - type: highlights
+    items:
+      - title: The spiral climb
+        text: "**344 steps** wind up the 77 m hill past hanging bells, gongs and small shrines. It takes 10–20 minutes at an easy pace."
+      - title: The old town from above
+        text: "The terrace around the gold chedi gives the widest view over **old Bangkok** and its temple roofs, often with a cool breeze."
+      - title: A hill from a failed chedi
+        text: "The hill is what was left when a great chedi begun under **Rama III** collapsed on the soft ground. Locals still come to pray at the top."
+      - title: Cheap and close
+        text: "At ฿100 it costs a tenth of a skyscraper deck ticket, and it is 20 minutes on foot from **Khao San Road**."
+  - type: prose
+    title: The budget skyline
+    dropcap: true
+    text: |-
+      Bangkok's towers charge ฿1,000 and more to look down on the city. This hill costs ฿100 and shows the part of Bangkok you came for: the gold and orange roofs of the old town. Go in the **late afternoon**, when the heat drops and the light turns, and watch the temple lights come on as you walk down.
+
+      It fits a work week well. The gate is open until 19:00 and Khao San is a 20-minute walk away, so you can catch the light at the top and still be at a laptop for a 19:00 start if you leave promptly.
+  - type: gallery
+    images:
+      - { file: mount-street, focus: top, caption: The Golden Mount from the street below }
+  - type: cost_breakdown
+    items:
+      - { label: Climb ticket (foreigners), local: 100, brl: 16.49 }
+      - { label: "Saen Saep canal boat, one way", local: 20, brl: 3.3, estimate: true, optional: true }
+  - type: map
+    note: "The canal boat ends at **Panfa Leelard pier** behind Mahakan Fort, 5–10 min away. MRT Sam Yot is about 15 min on foot."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot:** weekday afternoon. Arrive around 16:30 for the softer light; the gate shuts at 19:00."
+      - "Bring small notes: the ticket desk at the foot of the stairs takes cash."
+      - "The Saen Saep canal boat (฿15–25 by distance) is a fast, local way here from the east of the city."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No lift and no shortcut: 344 steps up and down. Not for bad knees."
+      - "It is an active temple: cover shoulders and knees, and keep your voice down at the chedi."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry and sunny; Dec–Jan are the coolest, driest months"
+    note: "The climb is in the open but partly shaded. In late afternoon the heat eases and there is often a breeze at the top."
+    wear: Light clothes covering shoulders and knees, good walking shoes, water
+  - type: pairs_well
+    items:
+      - { id: grand-palace-wat-phra-kaew, note: "The palace's roofs are part of the view; visit them first" }
+      - { id: wat-pho-and-wat-arun, note: "Another weekday afternoon in the old town" }
+      - { id: nang-loeng-market, note: "Old market a short ride north-east, for lunch before the climb" }
+      - { id: mahanakhon-skywalk, note: "The ฿1,000–1,200 view, if you want the skyscraper side too" }

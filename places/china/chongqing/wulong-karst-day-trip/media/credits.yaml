@@ -1,0 +1,80 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tianfu-post-station
+  title: File:Three Natural Bridges - Sky Dragon Bridge - building.JPG
+  author: Gaius Cornelius
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Three_Natural_Bridges_-_Sky_Dragon_Bridge_-_building.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/15/Three_Natural_Bridges_-_Sky_Dragon_Bridge_-_building.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: This building is near the base of the Sky Dragon Bridge. The building is a replica of a post house that was originally in the valley. It featured in the 2006 film Curse of the Golden Flower.
+  width: 4320
+  height: 3240
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: sinkhole-cliffs
+  title: File:Wulongtianshengsanqiao.JPG
+  author: Brookqi
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File:Wulongtianshengsanqiao.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/33/Wulongtianshengsanqiao.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: One of the three natural bridges at "Sanqiao Tiankeng" Three Natural Bridges. This is formed by roof collapse of a river cave. Located in Wulong ， a provincial-level municipality of Chongqing (part of Sichuan Province prior to 1997).
+  width: 1504
+  height: 1000
+  widths:
+    - 640
+    - 1280
+    - 1504
+  fetched: 2026-11-12
+  origin: commons
+- file: green-dragon-bridge
+  title: File:Three Natural Bridges - Green Dragon Bridge.JPG
+  author: Gaius Cornelius
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Three_Natural_Bridges_-_Green_Dragon_Bridge.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/25/Three_Natural_Bridges_-_Green_Dragon_Bridge.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Green Dragon (Qin Long) bridge is the second of the three.
+  width: 3240
+  height: 4320
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: sky-dragon-arch-lift
+  title: File:Three Natural Bridges - Sky Dragon Bridge - first arch.JPG
+  author: Gaius Cornelius
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Three_Natural_Bridges_-_Sky_Dragon_Bridge_-_first_arch.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Three_Natural_Bridges_-_Sky_Dragon_Bridge_-_first_arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: This bridge is the first of the three, it has two arches. Visitors descend through the first arch via steps and an elevator.
+  width: 3240
+  height: 4320
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+- file: longshuixia-walkway
+  title: File:龙水峡地缝 - Longshuixia Canyon - 2015.04 - panoramio.jpg
+  author: rheins
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E9%BE%99%E6%B0%B4%E5%B3%A1%E5%9C%B0%E7%BC%9D_-_Longshuixia_Canyon_-_2015.04_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/66/%E9%BE%99%E6%B0%B4%E5%B3%A1%E5%9C%B0%E7%BC%9D_-_Longshuixia_Canyon_-_2015.04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Longshuixia Canyon - 2015.04
+  width: 3456
+  height: 4608
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons

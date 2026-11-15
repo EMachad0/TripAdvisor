@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: stairs-below
+  title: File:Suga Shrine, Shinjuku 01.jpg
+  author: Higa4
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Suga_Shrine,_Shinjuku_01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Suga_Shrine%2C_Shinjuku_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 須賀神社 (新宿区)
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: stairs-above
+  title: File:Suga Shrine stairs high-angle 20161113-073454.jpg
+  author: Hisagi
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Suga_Shrine_stairs_high-angle_20161113-073454.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/Suga_Shrine_stairs_high-angle_20161113-073454.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 映画『 君の名は。 』に登場する、四谷須賀神社の階段。
+  width: 1920
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-11
+  origin: commons
+- file: torii
+  title: File:Suga Shrine, Shinjuku 03.jpg
+  author: Higa4
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Suga_Shrine,_Shinjuku_03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/97/Suga_Shrine%2C_Shinjuku_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 須賀神社 (新宿区)
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

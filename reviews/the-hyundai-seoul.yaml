@@ -1,0 +1,16 @@
+# Independent review of the-hyundai-seoul. Written by `./atr review`; do not edit by hand.
+id: the-hyundai-seoul
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 61308ca69f520372ca93897fbe801581b7d7934b50bcaf18642e266a0b11d02e
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 91ab10f6fe12c107be29a17651696c590ee3f5089fa7e04cb9f79877a25328fa
+summary: "The official /about page supports every edit: \"2천여 평의 실내 녹색 공간\" in \"약 8만㎡\" (2,000 pyeong ≈ 6,612 m², so \"over 6,600 m²\" is correct), opened 2021, and maroon columns with dancheong on the architecture page. Creatrip (creatrip.com/en/blog/12640) supports the B2 streetwear wording, the 6F overlook and the queue workaround: \"Download the 'Hyundai Food Museum' app via the QR code on the tablet\". The page validates and the edited sections render cleanly on phone. There were no earlier findings and I found nothing new to fix."
+model: claude-opus-5-5
+cost_usd: 0.394

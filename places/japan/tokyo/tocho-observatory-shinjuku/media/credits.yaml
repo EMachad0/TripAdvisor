@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: night-view
+  title: File:Night view from the Tokyo Metropolitan Government Building, 20101002-004.jpg
+  author: 掬茶
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Night_view_from_the_Tokyo_Metropolitan_Government_Building,_20101002-004.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c3/Night_view_from_the_Tokyo_Metropolitan_Government_Building%2C_20101002-004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 東京都庁舎からの夜景、東京タワー方向
+  width: 3072
+  height: 2304
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: deck-windows
+  title: File:Westward view from Tokyo Metropolitan Government Building 2024-09-05.jpg
+  author: Asanagi
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Westward_view_from_Tokyo_Metropolitan_Government_Building_2024-09-05.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e8/Westward_view_from_Tokyo_Metropolitan_Government_Building_2024-09-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 東京都庁 北展望室 西側の眺望
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: projection
+  title: File:Projection show at the Tokyo Metropolitan Government Building.jpg
+  author: Insightwm
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Projection_show_at_the_Tokyo_Metropolitan_Government_Building.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/00/Projection_show_at_the_Tokyo_Metropolitan_Government_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A projection show projected upon the Tokyo Metropolitan Government Building
+  width: 5184
+  height: 3888
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: twin-towers
+  title: File:TokyoMetropolitanGovernmentOffice.jpg
+  author: Markus Leupold-Löwenthal
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:TokyoMetropolitanGovernmentOffice.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/12/TokyoMetropolitanGovernmentOffice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Metropolitan Government Building in Shinjuku, Tôkyô, Japan
+  width: 3438
+  height: 2292
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

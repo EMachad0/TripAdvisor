@@ -1,0 +1,161 @@
+id: datong-nine-dragon-wall-yungang
+name: "Datong Nine-Dragon Wall and Yungang"
+short_name: Datong day trip
+name_local: 大同 九龙壁 · 云冈石窟
+name_romanized: Dàtóng Jiǔlóngbì · Yúngāng Shíkū
+country: china
+city: beijing
+area: Datong, Shanxi
+category: day-trip
+fame: popular
+must_do: china-dragons
+must_do_note: "Day trip from Beijing to China's largest and oldest dragon wall. Yungang's giant Buddhas fill the rest of the day"
+tags: [dragons, ming-dynasty, unesco, grottoes, buddhist, high-speed-train, real-name-booking]
+kind: Do
+why: "A 45-metre Ming wall of glazed dragons, China's largest, plus 1,500-year-old cliff Buddhas at Yungang. A fast-train day trip from Beijing."
+
+cost:
+  local: 510
+  currency: CNY
+  brl: 432.94
+  note: "Estimate: fast trains ≈ ¥320, Yungang ¥100 (winter), local transport ≈ ¥80, wall free or about ¥10"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Full day (about 12 h door to door)"
+best_time: "Early train; the wall first, then Yungang"
+
+book_ahead:
+  required: true
+  lead_days: 7
+  lead_time: "Yungang: online only, real-name; book when your date opens, 7 days ahead"
+  method: passport-registered
+  links:
+    - label: Trip.com Yungang ticket
+      url: "https://www.trip.com/things-to-do/detail/98358534"
+      note: "An authorised seller named by the guides; book with your passport details"
+    - label: "Train tickets: Beijing ↔ Datong"
+      url: "https://chinafortravelers.com/tools/rail-map/beijing-to-datong/"
+      note: "Times and fares; book on 12306 or Trip.com with your passport"
+  passport: true
+  notes: "Yungang has sold tickets online only since 1 Jan 2025: the \"云冈研究院\" WeChat mini-program, or authorised sellers such as Trip.com. One 2026 guide says to reserve at least 7 days ahead."
+
+hours:
+  summary: "Nine-Dragon Wall 08:30–17:30 (last entry 17:00) per a 2026 guide; city guide says 08:00–18:00. Yungang 08:30–16:30 or 09:00–17:00"
+  winter: "Yungang's low-season price (¥100, down from ¥120) runs 1 Nov 2026 – 31 Mar 2027, all of your China dates. Datong is one of the coldest stops you could make: December averages run from −14 °C to −1 °C. Xinhua says Shanxi heritage sites generally close an hour earlier from 1 Nov, so plan on the shorter hours: wall by 16:30, Yungang last entry around 16:00."
+
+location:
+  address: "Nine-Dragon Wall: Heyang Street, Datong Ancient City, Pingcheng District. Yungang is 16 km west of the city"
+  address_local: 山西省大同市平城区 大同古城 和阳街 九龙壁
+  lat: 40.09183
+  lng: 113.29682
+  nearest_transit: "Datong South (fast trains from Beijing North / Qinghe), then shuttle or taxi"
+
+sources:
+  - url: https://www.dt.gov.cn/english/placestovisit/202501/916d3d6f6ec14655978f5a3212ee06b6.shtml
+    title: "Datong government, Nine-Dragon Wall (2026-03-25): 8 × 45.5 m, early Ming, the largest and oldest dragon wall"
+    checked: 2026-11-13
+  - url: https://dt.gov.cn/english/xhtml/other/num_1/files/basic-html/page26.html
+    title: "Datong Foreign Affairs Office city guide, p. 26: Nine-Dragon Wall, hours 8:00–18:00"
+    checked: 2026-11-13
+  - url: https://www.news.cn/20261101/768be9738eac442d8138599c39cd7d16/c.html
+    title: "Xinhua (2026-11-01): Yungang low-season price ¥100 from 1 Nov 2026 to 31 Mar 2027"
+    checked: 2026-11-13
+  - url: https://m.huanqiu.com/article/4KjW9QkDYkT
+    title: "Huanqiu (Dec 2024): Yungang online real-name booking only from 1 Jan 2025, up to 7 days ahead, no window"
+    checked: 2026-11-13
+  - url: https://ruqintravel.com/china-destination-guides/datong-attraction-tickets/
+    title: "Ruqin Travel, Datong tickets (2026): Yungang online only, Trip.com; Nine-Dragon Wall under free sights, 08:30–17:30"
+    checked: 2026-11-13
+  - url: https://www.chinaservicesinfo.com/s/202501/13/WS6784802e498eec7e1f72d137/10-attractions-in-shanxis-two-cities_3.html
+    title: "China Daily (2025-01-13): Yungang, 252 caves and 51,000 statues, 8:30–16:30"
+    checked: 2026-11-13
+  - url: https://chinafortravelers.com/tools/rail-map/beijing-to-datong/
+    title: "China for Travelers rail map (checked Aug 2026): Beijing–Datong fastest 1 h 40 min, ¥151–170, 45 trains a day"
+    checked: 2026-11-13
+  - url: https://www.chinaxiantour.com/datong-travel-guide/get-to-yungang-grottoes
+    title: "China Xian Tour (2026-02-27): Datong South–Yungang shuttle ¥10, about 40 min; taxi from the centre ¥30–40"
+    checked: 2026-11-13
+  - url: https://english.visitbeijing.com.cn/article/47WQ6KcxXlv
+    title: "Visit Beijing (2022): Beihai Nine Dragons Wall, 25.52 m long, built 1756"
+    checked: 2026-11-13
+  - url: https://www.chinanews.com.cn/cul/2024/02-20/10166394.shtml
+    title: "China News (2024-02-20): Ningshou Palace built 1770–1779; its wall 16 years after Beihai's (about 1772)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Datong
+    title: "Datong, Wikipedia (climate normals; Yungang 16 km west)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Yungang price and booking: Xinhua, Huanqiu. Its winter hours differ (08:30–16:30 vs 09:00–17:00). The wall's price isn't official: one 2026 guide lists it as free, so ¥10 is a cautious estimate. Wall hours differ (08:30–17:30 vs 08:00–18:00). Train fares are a range. The Trip.com Yungang product link came from search results; automated fetches only got a Datong search page, so it is unchecked."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: dragon-detail
+    hook: "The biggest dragon wall in China, built for a Ming prince. Then a cliff of giant Buddhas, 16 km west."
+    caption: "A dragon on the Datong wall, photographed in January 1985"
+  - type: quick_facts
+    time_needed: "Full day, about 12 h"
+    best_time: "Early train; the wall first, then Yungang"
+    extra:
+      - { label: The wall, value: "45.5 m × 8 m", detail: "Nearly twice as long as Beihai's" }
+      - { label: Train, value: "1 h 40 min fastest", detail: "Beijing North / Qinghe → Datong South, ¥151–170 each way" }
+      - { label: Cold, value: "−14 to −1 °C", detail: "December average; everything is outdoors" }
+  - type: highlights
+    items:
+      - title: The largest dragon wall in China
+        text: "Datong's city government calls it the **biggest and oldest** surviving dragon wall in China: **45.5 m long and 8 m high**, with nine glazed dragons. It was built in the early Ming as the screen wall of Prince Zhu Gui's mansion, so the dragons really are the point."
+      - title: More than 600 years old
+        text: "It's from the early Ming; Beihai's wall dates from 1756 and the Forbidden City's about 16 years later. See Beihai's Qing wall too and you can compare the two dynasties side by side."
+      - title: Yungang, the reason to stay all day
+        text: "**252 caves and 51,000 statues** carved into a sandstone cliff in the 5th and 6th centuries. It's UNESCO-listed; Cave 20's seated Buddha sits in the open air. Winter price **¥100**."
+      - title: Cheap to get between them
+        text: "From the old city to Yungang, city buses **3 or 12** cost ¥1–2 and a taxi about ¥30–40. A ¥10 shuttle also runs from Datong South station to Yungang in about 40 minutes."
+  - type: prose
+    title: Is it worth the day?
+    text: |-
+      Few foreign visitors stop in Datong. Here you can see China's largest dragon wall and a UNESCO-listed cliff of Buddhas in one day. A fast train from Beijing takes as little as 1 h 40 min, so you can go and come back without moving your bed.
+
+      On cost: at about **¥510 (R$433)** it's roughly two and a half days of the "everything else" budget. Most of that is the train. To spend less, skip Yungang and take an afternoon train to see only the wall. But Yungang is what turns this from a long ride for one wall into a full day out.
+  - type: gallery
+    images:
+      - { file: yungang-cave-20, caption: "Yungang, Cave 20: the open-air seated Buddha" }
+      - { file: wall-scale, caption: "Dragons on the Datong wall, with a visitor for scale (1985)" }
+      - { file: yungang-cave-5, focus: top, caption: "A painted Buddha inside Cave 5" }
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "Book the **fast train** both ways (12306 or Trip.com, passport). Pick a departure around **07:00–08:00** and a return around 17:00–18:00."
+      - days_before: 7
+        text: "Book **Yungang** on Trip.com or the 云冈研究院 mini-program with your **passport number** as soon as your date opens. Pick a late-morning or midday slot."
+      - days_before: 0
+        text: "Datong South → taxi to the old city → **Nine-Dragon Wall** (opens 08:30) → bus 3/12 or taxi to **Yungang** → taxi back to Datong South."
+    passport_note: "The train and Yungang are both real-name: bring the **same passport** you booked with."
+  - type: cost_breakdown
+    items:
+      - { label: "Fast train Beijing → Datong South", local: 160, brl: 135.82, estimate: true }
+      - { label: "Fast train Datong South → Beijing", local: 160, brl: 135.82, estimate: true }
+      - { label: "Yungang Grottoes, low season", local: 100, brl: 84.89 }
+      - { label: "Shuttle, taxis and buses in Datong", local: 80, brl: 67.92, estimate: true }
+      - { label: "Nine-Dragon Wall (listed free; may be about ¥10)", local: 10, brl: 8.49, estimate: true }
+  - type: map
+    note: "The pin is the Nine-Dragon Wall on Heyang Street in the walled old city. Yungang is 16 km west, about 30–40 min by taxi."
+  - type: tips
+    variant: insider
+    items:
+      - "Do the **wall first**: it's in the old city, opens 08:30 and may stop entry at 17:00. Then spend the middle of the day at Yungang, aiming to be inside before about 16:00."
+      - "To compare: Beihai's wall is 25.52 m long (Visit Beijing) and Datong's is 45.5 m, nearly twice the size."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "There's **no ticket window** at Yungang. Without an online booking you may not get in."
+      - "Don't plan this for **Dec 28–31**: it's a 12-hour day and those are your work nights. Do it before Dec 24."
+  - type: weather
+    temp_low_c: -14
+    temp_high_c: -1
+    conditions: "Dry, sunny and very cold; wind on the open cliff"
+    note: "This is the coldest card in your Beijing set. Both sights are outdoors, so you'll be in the cold most of the day."
+    wear: "Thermals, down jacket, hat, gloves, warm boots; a warm drink between sights"
+  - type: pairs_well
+    items:
+      - { id: beihai-nine-dragon-wall, note: "The double-sided Qing wall in Beijing, to compare" }
+      - { id: forbidden-city-jingshan, note: "Beijing's third nine-dragon screen is in the palace's Treasure Gallery" }

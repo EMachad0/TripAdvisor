@@ -1,0 +1,169 @@
+id: fenghuang-christmas-old-town
+name: "Christmas in Fenghuang Old Town"
+short_name: Fenghuang Christmas
+name_local: 凤凰古城
+name_romanized: Fènghuáng Gǔchéng
+country: china
+city: fenghuang
+area: Old town · Hongqiao
+category: nightlife
+fame: hidden
+tags: [christmas, christmas-option, old-town, bar, river, quiet-season]
+kind: Do
+why: "A lit river town with a bar strip, but no Christmas event, few foreigners and no social hostel. Pretty and probably lonely; one direct train to Chongqing."
+when:
+  dates:
+    - { from: 2026-12-24, to: 2026-12-25 }
+  kind: best
+  label: "Christmas, 24–25 Dec"
+
+cost:
+  local: 321
+  currency: CNY
+  brl: 265.37
+  note: "Shuttle to the station and the 16:38 G3376 to Chongqing East. The old town and the lights are free; drinks not priced"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Christmas Eve + Christmas Day"
+best_time: "Dec 24 from 19:30, when the river lights come on"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Old town free and open all the time. River lights from about 19:30; bar strip quiet hours 23:30, noise to about 1 am"
+  winter: "No Christmas event found for 2024, 2025 or 2026. The town's winter show was on New Year's Day: a lighting ceremony with Miao drums and river shows on Jan 1, 2025. Guides call winter quiet and cold. Dec 24 is a Thursday; no closures announced."
+
+location:
+  address: Hongqiao (Rainbow Bridge), Fenghuang Ancient Town, Fenghuang County, Xiangxi, Hunan
+  address_local: 湖南省湘西州凤凰县 凤凰古城 虹桥
+  lat: 27.9518
+  lng: 109.60184
+  nearest_transit: "Shuttle Line 1 (¥7) from Fenghuang Gucheng station to Qifeng Square"
+
+sources:
+  - url: https://chinafortravelers.com/guides/fenghuang-ancient-town/
+    title: "Fenghuang Ancient Town (China for Travelers, 2026-08-13): bar strip Nanhua Bridge–Hongqiao, quiet hours 23:30, lights 19:30, shuttle ¥7"
+    checked: 2026-11-14
+  - url: https://www.babagoeschina.com/fenghuang-ancient-town/
+    title: "Fenghuang Ancient Town guide (Baba Goes China, 2026-11-03): live-music bars by the water, 'winter is quiet and cold'"
+    checked: 2026-11-14
+  - url: https://cn.chinadaily.com.cn/a/202501/02/WS6776569fa310b59111dac28a.html
+    title: "Fenghuang New Year's Day lighting ceremony, Jan 1, 2025 (China Daily, 2025-01-02, in Chinese): 21 million visitors in 2024"
+    checked: 2026-11-14
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Fenghuang-Hemu-House-Phoenix-Hong-Bridge/Fenghuang-Phoenix-County/299324?from=2026-12-24&to=2026-12-26&guests=1&currency=CNY"
+    title: "Hemu House, Hostelworld, Dec 24–25, 2026: 2-bed dorm ¥78 both nights; 12 reviews since Apr 2024, read via its review feed"
+    checked: 2026-11-14
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Border-Town-International-Youth-Hostel/Fenghuang-Phoenix-County/333604?from=2026-12-24&to=2026-12-25&guests=1&currency=CNY"
+    title: "Border Town Int'l Youth Hostel, Hostelworld, Dec 24, 2026: 4-bed dorm ¥35; 3 reviews (Apr–Oct 2026), two say 'not social'"
+    checked: 2026-11-14
+  - url: "https://www.hostelworld.com/hostels/asia/china/fenghuang-phoenix-county/?from=2026-12-22&to=2026-12-23&guests=1"
+    title: "Hostels in Fenghuang on Hostelworld: three properties listed"
+    checked: 2026-11-12
+  - url: "https://trains.ctrip.com/webapp/train/list?ticketType=0&dStation=%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E&aStation=%E9%87%8D%E5%BA%86&dDate=2026-11-26&rDate=&trainsType=&hubCityName=&highSpeedOnly=0"
+    title: "Fenghuang Gucheng → Chongqing on Ctrip (Nov 26, 2026, read Nov 14): G3376 16:38 → Chongqing East 20:25, 2nd class ¥314"
+    checked: 2026-11-14
+  - url: https://www.trip.com/trains/china/route/fenghuang-to-chongqing/
+    title: "Fenghuang to Chongqing trains (Trip.com): G3376 at 16:38 the only high-speed departure listed; on sale 15 days ahead"
+    checked: 2026-11-14
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/299324/reviews/?sort=newest&allLanguages=true&page=1&monthCount=36&application=web"
+    title: "Hemu House, Hostelworld review feed (JSON, 2 pages): 12 reviews since Apr 2024, owner Veronica, 'not a hostel for solo backpackers'"
+    checked: 2026-11-14
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/333604/reviews/?sort=newest&allLanguages=true&page=1&monthCount=36&application=web"
+    title: "Border Town reviews, Hostelworld review feed (JSON): 3 reviews, Oct 2026 'not particularly social', Jul 2026 'not very social'"
+    checked: 2026-11-14
+  - url: https://trains.ctrip.com/trainbooking/chengdu-chongqing/
+    title: "Chengdu–Chongqing trains on Ctrip: cheapest D trains ¥85, the comparison figure used here"
+    checked: 2026-11-14
+  - url: https://en.wikipedia.org/wiki/Fenghuang_County
+    title: "Fenghuang County (Wikipedia): CMA 1991–2020 normals, December 4.4–11.0 °C, 10.8 wet days, 2 snow days"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Sure that nothing is announced; I could not search Chinese social apps, where a bar's Christmas night would be posted. No December bar-street report found: whether bars are full or half shut on a winter Thursday is unknown. Hostel review counts are my tally of Hostelworld's feed. Train fare is Ctrip's for Nov 26, not Dec 26. Trip.com page read with atr render."
+last_updated: 2026-11-14
+
+blocks:
+  - type: hero
+    image: hongqiao-night
+    caption: "Hongqiao lit up at night, November 2010 (not at Christmas)"
+    hook: Lanterns on black water, a few bars playing to a half-empty strip, and nobody you know.
+  - type: quick_facts
+    time_needed: "Christmas Eve + Christmas Day"
+    best_time: "Dec 24 from 19:30, when the river lights come on"
+    extra:
+      - label: Christmas
+        value: Nothing announced
+        detail: "The town's winter show is on Jan 1"
+      - label: Backpackers
+        value: Very few
+        detail: "2 dorm hostels, 15 reviews since 2024"
+      - label: To Chongqing
+        value: "One direct, 16:38"
+        detail: "G3376, 3 h 47, ¥314 (R$260)"
+  - type: highlights
+    items:
+      - title: The lights don't care what season it is
+        text: "The stilt houses and bridges light up every evening around **19:30**, and entry to the town is free. That part of Fenghuang is the same on Dec 24 as in July."
+      - title: The bar strip still exists
+        text: "Bars between **Nanhua Bridge and Hongqiao** play live music by the water, with posted quiet hours of 23:30 and noise until about 1 am. I found no report of how full they are on a December weeknight."
+      - title: A Chinese tourist town, not a backpacker one
+        text: "Fenghuang had **21 million visitors in 2024**, about 1% from abroad. Hostelworld lists three places; the two with dorms have **15 reviews between them** since 2024, and two of Border Town's three say it is *not social*."
+      - title: The big night is New Year, not Christmas
+        text: "On **Jan 1, 2025** the town held a lighting ceremony with Miao drums, a lion dance and shows on the river. Nothing similar was reported for Christmas."
+  - type: prose
+    title: What Christmas here is honestly like
+    dropcap: true
+    text: |-
+      You guessed right: there is no party hostel. Fenghuang has a bar strip, so you will not be in a silent village. But the bars play to Chinese tourists (about 99% of visitors), and in the cold season the guides describe the town as quiet. Christmas Eve is a Thursday, and I found no bar, inn or church doing anything for it in 2024 or 2025, and nothing announced for 2026.
+
+      The places a foreigner would sleep are small. **Hemu House** has a 10/10 rating and an English-speaking owner who books tickets, but its dorms are two-bed rooms and a Spanish guest wrote it is "not a hostel for solo backpackers". **Border Town** has a rooftop pool table and ¥35 dorm beds on Dec 24, but only three reviews. With so few reviews, you may well be the only foreign guest in either on Dec 24.
+
+      Come for the river and the lit stilt houses, which are lovely and free; go for a beer on the strip and see who is there. If meeting people is the point of Christmas, this is the wrong town. On the 25th, sleep in, walk the town at dawn, and take the 16:38 train to Chongqing on the 26th.
+  - type: gallery
+    images:
+      - file: tuo-river-december
+        caption: "The Tuo River through the old town on 21 December 2016, almost empty"
+  - type: quote
+    variant: vibe
+    text: A lit river, a cover band, and a table for one.
+  - type: cost_breakdown
+    items:
+      - label: Old town, bridges and night lights
+        local: 0
+        brl: 0
+      - label: Shuttle to Fenghuang Gucheng station, Dec 26
+        local: 7
+        brl: 5.79
+      - label: "G3376 to Chongqing East, Dec 26 (2nd class)"
+        local: 314
+        brl: 259.58
+    note: "Christmas itself is free. Leaving costs almost four times Chengdu's ¥85 train, and there is only one direct train a day."
+  - type: map
+    zoom: 16
+    note: "The pin is **Hongqiao**. The bar strip runs upstream from here to Nanhua Bridge. The station is about 7.5 km north: shuttle or taxi."
+  - type: tips
+    variant: insider
+    items:
+      - "If you do come, stay at Hemu House and ask Veronica, the owner, where people go on Christmas Eve: she knows the town and speaks English."
+      - "Watch the lights from Hongqiao first, then drink on the quieter side: below Hongqiao toward Shawan has calmer bars, and above Nanhua Bridge is quietest."
+      - "Book **G3376** when sales open, 15 days ahead (Dec 11): it is the only direct train to Chongqing."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't pick Fenghuang to meet people at Christmas. Pick it for the river, and spend Christmas elsewhere if company matters."
+      - "Ride-hailing barely operates in the old-town core. Plan the trip to the station by shuttle or a metered taxi."
+      - "Riverside rooms on the bar strip are loud until about 1 am."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: Cool, damp and grey; about 11 wet days and 2 snowy days in December
+    note: "CMA normals: 4.4–11.0 °C in December. Not freezing, but the timber houses and stone lanes are unheated and it is cold by the river at night."
+    wear: Warm jacket, rain layer, shoes with grip for wet stone steps
+  - type: pairs_well
+    items:
+      - id: fenghuang-hemu-house
+        note: "The best-rated bed in town; friendly, not social"
+      - id: zhangjiajie-christmas-wulingyuan
+        note: "Back up the line toward Chongqing: at least a social hostel"
+      - id: chengdu-christmas
+        note: "If company matters most: lights, bar streets, trains to Chongqing every few minutes"

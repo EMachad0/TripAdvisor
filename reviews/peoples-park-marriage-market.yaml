@@ -1,0 +1,19 @@
+# Independent review of peoples-park-marriage-market. Written by `./atr review`; do not edit by hand.
+id: peoples-park-marriage-market
+type: place
+reviewed: 2026-11-14
+verdict: pass
+content_hash: a4fe2bc81b161feeddb31e671b93495bd1151ddc84bf252b00775d86f3a1ca13
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[8].items[0]
+    problem: The new text says "one guide even saw ID numbers", but no listed source says this. Stephen Leng mentions an ID prefix only as a stand-in for a Shanghai hukou and says the only private item on a sheet is the phone number. Joelle and Fiona do not mention ID numbers at all.
+    evidence: 'The ID-number clause is gone from blocks[8].items[0]. The remaining text, "real data (phone numbers, salaries)", is supported: https://www.theparisreview.org/blog/2026/05/29/love-in-a-fallen-city-shanghais-marriage-market/ says "name, age, occupation, and contact number, tabulated row after row" and "Annual salaries ranged from fifty thousand to one million yuan". The same page has "No photos!" she exclaimed, wresting the book from me.'
+rereview_of: 21147d6b88088164c63960b7d4c9e46706c66f9934c80169aeec89a9b6dbb00c
+summary: The ID-number claim is gone, so the earlier should is resolved. The new wording, "foreigners' corner for Chinese based outside Shanghai", matches the Paris Review word for word ("the foreigners' corner, for those Chinese based outside Shanghai"), and so do the seniors', divorced, Muslim and old-Shanghai corners. No open blockers or shoulds.
+model: claude-opus-5-5
+cost_usd: 0.413

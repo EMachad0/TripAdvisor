@@ -1,0 +1,118 @@
+id: bang-krachao-bike-day
+name: "Bang Krachao by bike"
+short_name: Bang Krachao
+name_local: บางกะเจ้า
+name_romanized: Bang Kachao
+country: thailand
+city: bangkok
+area: Phra Pradaeng · Samut Prakan
+category: nature
+fame: hidden
+tags: [park, cycling, bike, free, river-crossing, birdwatching]
+kind: Do
+why: "A ฿10 boat across the river from Khlong Toei, a ฿40–100 bike, and shady paths through Bangkok's 'green lung' to a bird-watching tower."
+cost:
+  local: 100
+  currency: THB
+  brl: 16.49
+  note: "Small boat ฿10 each way plus a ฿80 day bike from the pier shop. Park entry is free"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Half a day (4–5 h)
+best_time: Weekend morning; the market is Sat–Sun only
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Sri Nakhon Khuean Khan Park daily 05:00–19:00. Ferries about 06:00–20:00; bike shops about 08:00–18:00"
+  winter: "January is the cool, dry season and the paths are mostly shaded. Bang Nam Phueng floating market runs Sat–Sun 08:00–16:00 only: Sun Jan 3 is your easiest day. Jan 2–3 follow New Year and holiday hours can differ, so check before you cross. Ferries thin out after dark, especially on weekdays."
+
+location:
+  address: "Sri Nakhon Khuean Khan Park, 73 Soi Wat Rat Rangsan, Bang Kachao, Phra Pradaeng, Samut Prakan 10130"
+  address_local: "สวนศรีนครเขื่อนขันธ์ ตำบลบางกะเจ้า อำเภอพระประแดง จังหวัดสมุทรปราการ 10130"
+  lat: 13.6968
+  lng: 100.56684
+  nearest_transit: "Khlong Toei MRT, then taxi or 30 min walk to Wat Khlong Toei Nok Pier"
+
+sources:
+  - url: https://www.bucketlistly.blog/posts/bang-kachao-travel-guide-things-to-do
+    title: "Explore Bang Kachao: A Complete Travel Guide (BucketListly, updated Oct 2026)"
+    checked: 2026-11-12
+  - url: https://theo-courant.com/en/how-to-get-to-bang-kachao/
+    title: "How to Get to Bang Kachao from Bangkok (THéo COurant, June 2026)"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/activities-tours/bangkok/sri-nakhon-khuean-khan-park-and-botanical-garden
+    title: "Visit Thailand Today: Sri Nakhon Khuean Khan Park, daily 05:00–19:00; 73 Soi Wat Rat Rangsan"
+    checked: 2026-11-12
+  - url: https://www.thaiholidayguide.com/attraction/bang-namphueng-floating-market/
+    title: "Thai Holiday Guide (updated Jul 2026): Bang Namphueng Floating Market, Sat–Sun 08:00–16:00 only"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/markets-shopping/bangkok/bang-nam-phueng-floating-market
+    title: "Visit Thailand Today: Bang Nam Phueng Floating Market, Sat–Sun 08:00–16:00"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Bike prices differ: BucketListly (Oct 2026) says ฿80/day at the pier and ฿40 at the park gate; THéo COurant (June 2026) says about ฿50/hour or ฿100/day. Ferry fares (฿10 small boat, ฿20 big boat) agree. Park hours: Visit Thailand Today and BucketListly (one listing says 06:00–20:00)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: bikes
+    hook: "Five minutes by boat from the docks, and you're cycling under trees with no traffic."
+    caption: "Rental bikes on a Bang Krachao path"
+  - type: quick_facts
+    time_needed: 4–5 h
+    best_time: Weekend, start by 09:00
+    extra:
+      - { label: Your slot, value: "Weekend day, or a weekday", detail: "Weekday works if you start by 11:00 and skip the market" }
+      - { label: Terrain, value: "Flat, mostly paved", detail: Some gravel loops around the lake }
+      - { label: Bring, value: Passport or ID, detail: Bike shops may hold it until you return }
+  - type: highlights
+    items:
+      - title: The ferry crossing
+        text: "From **Wat Khlong Toei Nok Pier** a small boat costs **฿10** (big boat ฿20) and crosses in about five minutes. The sign at the kiosk shows the real price in Thai."
+      - title: Sri Nakhon Khuean Khan Park
+        text: "The heart of the peninsula: shaded paths, pavilions, a bridge over the water and more than **100 bird species**. Free to enter."
+      - title: The bird-watching tower
+        text: "The paved path ends at a tower that rises above the tree line. Climb it for the view over the canopy."
+      - title: Bang Nam Phueng floating market
+        text: "**Sat–Sun 08:00–16:00** only: a canal lined with covered stalls of street food and crafts, small and still local. Lunch here before the boat back."
+  - type: prose
+    title: Bangkok's green lung
+    dropcap: true
+    text: |-
+      Bang Krachao is a loop of land in a bend of the Chao Phraya, protected from development and covered in trees, canals and small temples. On a map it looks like a green fist pushed into the city. From the Khlong Toei side you can see it across the water; most visitors to Bangkok never cross.
+
+      The day is cheap and simple. MRT to Khlong Toei, a taxi or a 30-minute walk to the pier, a ฿10 boat, a bike. Bike shops at the pier start at about ฿80 a day; walk to the park gate and one shop there rented for ฿40 at the last report. Then ride the shaded paths at your own pace.
+  - type: gallery
+    images:
+      - { file: bang-nam-phueng, caption: "Bang Nam Phueng, the weekend floating market" }
+  - type: cost_breakdown
+    items:
+      - { label: "Small boat, there and back", local: 20, brl: 3.3 }
+      - { label: Bike for the day (pier shop), local: 80, brl: 13.19 }
+      - { label: Park entry, local: 0, brl: 0 }
+  - type: map
+    note: "The pin is the park. Your boat leaves from **Wat Khlong Toei Nok Pier** on the Bangkok side and lands at **Kamnan Khao Pier**, where the bike shops are."
+  - type: tips
+    variant: insider
+    items:
+      - "**Your slot: weekend day**, best **Sun Jan 3**, to get the floating market (Sat Jan 2 is arrival day; Sat Jan 9 follows a night shift). On a weekday afternoon it still works: start by 11:00 and be back across the river before dark."
+      - "Ride back the same way from the bird tower: the gravel loop around the lake is hard going and there isn't much to see."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The pier kiosk has overcharged visitors before. Pay ฿10 (small boat) or ฿20 (big boat) and no more."
+      - "Ferries run less often after dark, especially on weekdays. Don't leave the crossing to the last minute."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; the cool season
+    note: "Most bike paths are under trees, so even midday is bearable. January is the most comfortable month for this."
+    wear: "Light clothes, sunscreen, mosquito repellent, water"
+  - type: pairs_well
+    items:
+      - { id: lumphini-park-lizards, note: "Same MRT line, for a second dose of green" }

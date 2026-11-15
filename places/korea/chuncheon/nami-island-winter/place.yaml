@@ -1,0 +1,143 @@
+id: nami-island-winter
+name: "Nami Island in Winter"
+short_name: Nami Island
+name_local: 남이섬
+name_romanized: Namiseom
+country: korea
+city: chuncheon
+area: Island · via Gapyeong wharf
+category: day-trip
+fame: popular
+tags: [cold-outdoors, k-drama, island, ferry, tree-lined-walks]
+kind: Do
+why: "The Winter Sonata island: tree-lined avenues and river views a 5-min ferry from Gapyeong, ~1 h by ITX from Seoul. ₩19,000 includes the ferry."
+
+cost:
+  local: 19000
+  currency: KRW
+  brl: 78.96
+  note: "Adult, with return ferry (2026). ₩13,000 if you buy and board before 08:00, or buy after 18:01 Dec–Mar. Train extra"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Full day (half on the island)"
+best_time: "Sun 17 Jan (or Sat 16), on the 09:00 shuttle from Hongdae"
+
+book_ahead:
+  required: false
+  notes: "Admission is sold at the Gapyeong wharf. The official site lists no online price; it links to resellers (Trip.com, KKday, Klook, Trazy, GetYourGuide). The round-trip Seoul shuttle (Ktourstory) is booked through those resellers too."
+
+hours:
+  summary: "Ferries about 08:00–21:00 (every 10–20 min by day, every 30 min early and late). Open every day of the year"
+  winter: "Open all year. Winter ferry times for Jan 2027 are not published; the base timetable is 08:00–21:00. The speedboat crossing runs only April–November. A December Christmas program was posted in 2026; no winter light festival was announced. Snow is never guaranteed: Chuncheon averages −9 °C at night in January."
+
+location:
+  address: "Nami Island ferry wharf, 1024 Bukhangangbyeon-ro, Gapyeong-eup, Gapyeong-gun (island: 1 Namiseom-gil, Chuncheon)"
+  address_local: 경기도 가평군 가평읍 북한강변로 1024 (남이섬 선착장)
+  lat: 37.80335
+  lng: 127.52572
+  nearest_transit: "Gapyeong station (ITX-Cheongchun / Gyeongchun line), 1.5 km"
+
+sources:
+  - url: https://namisum-en.imweb.me/163
+    title: "Nami Island official (English): admission fees with round-trip ferry"
+    checked: 2026-11-12
+  - url: https://namisum-en.imweb.me/165
+    title: "Nami Island official (English): ferry timetable"
+    checked: 2026-11-12
+  - url: https://namisum-en.imweb.me/164
+    title: "Nami Island official (English): directions, ITX times, Seoul shuttle bus, address"
+    checked: 2026-11-12
+  - url: https://namisum-en.imweb.me/157
+    title: "Nami Island official (English): ZIP-WIRE prices and hours"
+    checked: 2026-11-12
+  - url: https://www.namisum.com/36
+    title: "Nami Island official (Korean): events board, 2026 Christmas program"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Winter_Sonata
+    title: Winter Sonata (Wikipedia)
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Namiseom
+    title: Namiseom (Wikipedia)
+    checked: 2026-11-12
+  - url: https://www.ktriptips.com/eng/tourspot/264433
+    title: "K-Trip Tips: Chuncheon Myeongdong Dakgalbi Street (updated 11 Feb 2026)"
+    checked: 2026-11-12
+  - url: https://koreaexperience.com/blog/chuncheon-dakgalbi-street-food-district
+    title: "Korea Experience: Chuncheon dakgalbi street guide (updated Feb 2026; marked awaiting editorial review)"
+    checked: 2026-11-12
+  - url: http://www.narafestival.com/ice_en/
+    title: "Hwacheon Sancheoneo Ice Festival official site: 2027 dates, 9–31 Jan"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Chuncheon
+    title: "Chuncheon climate normals 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Fees and ferries: official 2026 pages, undated; no Jan 2027 timetable. The Seoul shuttle's price is not published, and the ITX fare to Gapyeong is on no source I opened, so both are left out. No Winter Sonata spots on the official site, so I name none. Dakgalbi prices and the 2-portion rule come from one guide awaiting review. The ₩13,000 tier for early and late tickets is my reading of the table."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: ferry
+    caption: "The Gapyeong–Nami ferry, flying the island's own 'Naminara Republic' flags"
+    hook: "A 5-minute ferry to the island where Winter Sonata set off the Korean Wave."
+    focus: "50% 60%"
+  - type: quick_facts
+    time_needed: "Full day (half on the island)"
+    best_time: "Sun 17 or Sat 16 Jan, 09:00 shuttle"
+    extra:
+      - { label: From Seoul, value: "ITX ≈ 1 h + 1.5 km", detail: "Yongsan ~60 min or Cheongnyangni ~42 min to Gapyeong" }
+      - { label: K-drama, value: Winter Sonata (2002), detail: "Filmed mainly on Namiseom and in Seoul" }
+  - type: highlights
+    items:
+      - title: Where the Korean Wave got big
+        text: "**Winter Sonata** (KBS2, 2002) was filmed mainly here. Wikipedia credits it with the second wave of Hallyu, and island visitors jumped from 250,000 to over 650,000 a year after it aired."
+      - title: Bare trees, river, quiet
+        text: "In winter the tree-lined avenues are bare, and snow turns them into the classic postcard shot. The island is open every day of the year."
+      - title: Ferry included
+        text: "**₩19,000** covers entry and the return ferry. The crossing takes about 5 minutes and boats leave every 10–20 minutes by day."
+      - title: Zip-wire in, ferry out
+        text: "The **ZIP-WIRE** flies you onto the island for **₩55,000** (09:00–18:00, ferry back included). It's a splurge, and weather can stop it."
+  - type: prose
+    title: Combining it with Chuncheon and Hwacheon
+    dropcap: true
+    text: |-
+      Nami Island officially belongs to **Chuncheon**, but you reach it from Gapyeong. Chuncheon is about **20 minutes** further up the same ITX line, so **Nami in the morning, dakgalbi in Chuncheon for dinner** is an easy one-day loop. Chuncheon's **Myeongdong Dakgalbi Street** is a 150 m alley of stir-fried chicken places.
+
+      **[Hwacheon's ice festival](http://www.narafestival.com/ice_en/)** (9–31 Jan 2027, per the organiser) is a different matter. From Chuncheon bus terminal it's another bus north, and the festival is a full day on the ice by itself. To do both, sleep in Chuncheon: Nami and dakgalbi on day one, Hwacheon on the first bus the next morning. A same-day triple from Seoul is not realistic.
+  - type: gallery
+    images:
+      - { file: metasequoia-snow, caption: "The metasequoia avenue in falling snow", focus: center }
+      - { file: peacock, caption: Peacocks roam free on the island, focus: "50% 40%" }
+  - type: quote
+    variant: vibe
+    text: "Bare trees, a grey river, a ferry full of K-drama fans in puffer jackets."
+  - type: cost_breakdown
+    items:
+      - { label: "Admission + return ferry", local: 19000, brl: 78.96 }
+      - { label: "ZIP-WIRE onto the island (instead of the ferry in)", local: 55000, brl: 228.58, optional: true }
+      - { label: "Dakgalbi in Chuncheon, 2 portions", local: 30000, brl: 124.68, estimate: true, optional: true }
+    note: "Train to Gapyeong not included. Dakgalbi is a meal, so it doesn't come out of the daily budget."
+  - type: map
+    note: "From **Gapyeong station** it's 1.5 km to the wharf: 20 minutes on foot, or 5 minutes by bus 10-4 or taxi. The Seoul shuttle bus leaves from Hongik Univ. station exit 4, Myeongdong (Namsan Yejang parking) and DDP station exit 9."
+  - type: tips
+    variant: insider
+    items:
+      - "Your full free days are **Sat 16 and Sun 17 Jan**, and Hwacheon wants one of them; Nami fits the other (the shuttle is back in Seoul by 18:00–18:50). **Sun 10 Jan** is your arrival day from Bangkok and only works if you land very early. Work-day mornings (after a night shift) don't fit."
+      - "The **shuttle bus** is round trip only: it departs Hongdae 09:00, Myeongdong (Namsan Yejang) 09:40 and DDP 09:50, and arrives at Nami 11:30. It leaves Nami at 16:30 and is back in Seoul 18:00–18:50."
+      - "For dakgalbi, ride the ITX on to **Chuncheon** (about 20 min from Gapyeong). Restaurants on Myeongdong Dakgalbi Street open from about 10:00–11:00."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Solo diners: one guide says most dakgalbi places **insist on two portions** (about ₩14,000–16,000 each). Check before you sit down."
+      - "The speedboat crossing doesn't run in winter (April–November only)."
+      - "No foreigner rate. The official table lists **₩13,000** for tickets bought and boarded **before 08:00**, or bought after 18:01 Dec–Mar. The first ferry is 08:00, so early bird may not work in winter, and the table is ambiguous: ask at the counter."
+  - type: weather
+    temp_low_c: -9
+    temp_high_c: 2
+    conditions: "Very cold and dry, snow on some days"
+    note: "January normals for Chuncheon (1991–2020), the city the island belongs to. You're outdoors the whole time, on flat paths by the river. Wind on the ferry and the riverbank bites. Snow makes the photos, but it isn't guaranteed."
+    wear: "Down jacket, hat, gloves, waterproof shoes"
+  - type: pairs_well
+    items:
+      - { id: hwacheon-sancheoneo-ice-festival, note: "Next morning from Chuncheon, if you sleep there (9–31 Jan)" }
+      - { id: elysian-gangchon-ski-day, note: "Same Gyeongchun rail line, a few stops away" }

@@ -1,0 +1,194 @@
+id: loushan-pass-battle-reenactment
+name: "Battle of Loushan Pass Reenactment (Watch Only)"
+short_name: Loushan Pass Reenactment
+name_local: 娄山关大捷 实景演出
+name_romanized: Lóushānguān Dàjié
+country: china
+city: chongqing
+area: "Loushan Pass · Zunyi"
+category: shows
+fame: hidden
+tags: [day-trip, reenactment, red-tourism, long-march, outdoor, chinese-only]
+kind: Do
+why: "China's viral Red Army battle reenactment, 1 h by train from Chongqing. Locals charge with the actors; foreigners may only watch until Jan 31."
+
+cost:
+  local: 392
+  currency: CNY
+  brl: 332.77
+  note: "Show ¥108 (2024; group-buy from ¥78) + trains ¥76 + ¥88 + ride to Zunyi ≈¥120. ¥260 if an 11:30 show runs"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Day trip, about 09:30–18:00"
+best_time: "The 13:30 run on a weekend, mid-December"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "Book the day before; check the date is on sale"
+  method: platform
+  links:
+    - label: Trip.com show page
+      url: "https://www.trip.com/travel-guide/attraction/zunyi/loushan-pass-victory-live-battle-show-48562068/"
+      note: "English booking. Found via search; bot-walled here, so its price and dates are unchecked"
+    - label: Chongqing → Loushanguan South trains
+      url: "https://trains.ctrip.com/TrainBooking/chongqing-loushanguannan/gaotie/"
+      note: "Timetable and fares; buy with your passport on Trip.com or 12306"
+    - label: Ctrip listing (Chinese)
+      url: "https://you.ctrip.com/sight/zunyi204/4337375.html"
+      note: "Show's own page: ticket line 18085255577 or 0851-27752000. Call to ask if it runs on your date"
+  rules_changed:
+    date: 2026-11-10
+    note: "New notice on the show's Ctrip page: join-in places are for domestic visitors only; foreigners can buy a ticket and watch. Valid to 31 Jan 2027."
+  notes: "Foreign visitors can buy a ticket and watch, but the show's notice (10 Nov 2026 – 31 Jan 2027) keeps the join-in places for domestic visitors. Booking is also your check that a show runs: no ticket on sale for your date, don't go."
+
+hours:
+  summary: "Show ground 08:30–17:00, closes 12:30 on days with no show (Ctrip). Show daily 13:30 (May 2026 report); 11:30 in 2024 listings"
+  winter: "Not confirmed for December. A ticket site lists the area as open all year, but the show ran 129 times in Jan–Jun 2026, fewer than one a day, so some days in the cold months may have had no show. I found no winter timetable or closure notice. Shows are outdoors; Zunyi averages 5–10 °C in December with rain on about 13 days."
+
+location:
+  address: "Opposite the Loushan Pass visitor centre, Banqiao Town, Huichuan District, Zunyi, Guizhou"
+  address_local: 贵州省遵义市汇川区板桥镇娄山关景区游客服务中心对面
+  lat: 28.02631
+  lng: 106.85358
+  nearest_transit: "Loushanguan South (娄山关南) fast-train station; distance to show unknown"
+  approximate: true
+
+sources:
+  - url: https://you.ctrip.com/sight/zunyi204/4337375.html
+    title: "Ctrip show page: 08:30–17:00, closes 12:30 with no show; notice 10 Nov 2026–31 Jan 2027, join-in for domestic visitors only"
+    checked: 2026-11-13
+  - url: https://news.qq.com/rain/a/20260504A06LVI00
+    title: "Jimu News via Tencent, 4 May 2026: 'Follow the regiment commander' run daily at 13:30, visitors shoulder rifles, 100+ actors"
+    checked: 2026-11-13
+  - url: https://news.qq.com/rain/a/20261019A0CJRK00
+    title: "Tencent News, 19 Oct 2026: two shows a day, 100 visitors on stage with rifles, foreign visitors; Xi'an–Yan'an just over 1 h by train"
+    checked: 2026-11-13
+  - url: https://www.sohu.com/a/1082292882_120952561
+    title: "Cover News via Sohu, 29 Sep 2026: 129 shows in Jan–Jun 2026; 200+ cast, mostly Banqiao villagers; 100+ real period guns"
+    checked: 2026-11-13
+  - url: https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesrae5290621.shtml
+    title: "Sina Finance, 26 Jun 2026: running since 2016, 2 million visitors, 3.5% from overseas, directed by Zhang Qian"
+    checked: 2026-11-13
+  - url: https://www.dahepiao.com/lvyounews1/20240507462636.html
+    title: "Dahe Piao ticket site (2024-05-07): address, open all year 09:00–17:00, shows 11:30 and 15:30, ¥108, nearly 1 h"
+    checked: 2026-11-13
+  - url: https://us.trip.com/moments/poi-loushan-pass-tourist-attraction-79802/
+    title: "Trip.com Moments, Loushan Pass (undated reviews): show daily at 11:30, ¥108, uniform rental ¥30, bus or ~50 min drive from Zunyi"
+    checked: 2026-11-13
+  - url: https://www.sina.cn/weibo/detail/5356517936335046.html
+    title: "Sina, Oct 2026: wear a uniform and carry a rifle; Loushanguan South station on the Chongqing–Guiyang line leads straight to the area"
+    checked: 2026-11-13
+  - url: https://trains.ctrip.com/TrainBooking/chongqing-loushanguannan/gaotie/
+    title: "Ctrip, Chongqing → Loushanguan South (timetable for 15 Nov 2026): 8 trains, 1 h 07 – 1 h 42, 2nd class ¥76 from Chongqing West"
+    checked: 2026-11-13
+  - url: https://trains.ctrip.com/TrainBooking/loushanguannan-chongqing/gaotie/
+    title: "Ctrip, Loushanguan South → Chongqing (15 Nov 2026): direct fast trains 12:13 and 14:36, ¥76 to Chongqing West"
+    checked: 2026-11-13
+  - url: https://trains.ctrip.com/TrainBooking/zunyi-chongqing/gaotie/
+    title: "Ctrip, Zunyi → Chongqing (15 Nov 2026): 61 fast trains, 2nd class ¥88 to Chongqing West"
+    checked: 2026-11-13
+  - url: "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-25&leftTicketDTO.from_station=CXW&leftTicketDTO.to_station=LSE&purpose_codes=ADULT"
+    title: "12306 query, Chongqing West → Loushanguan South, 25 Nov 2026: G1983 09:49 → 10:56, C6039 07:12 → 08:35"
+    checked: 2026-11-13
+  - url: "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-25&leftTicketDTO.from_station=LSE&leftTicketDTO.to_station=CXW&purpose_codes=ADULT"
+    title: "12306 query, Loushanguan South → Chongqing West, 25 Nov 2026: only G3570 12:13 and G3726 14:36"
+    checked: 2026-11-13
+  - url: "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-25&leftTicketDTO.from_station=ZYE&leftTicketDTO.to_station=CXW&purpose_codes=ADULT"
+    title: "12306 query, Zunyi → Chongqing West, 25 Nov 2026: fast trains every 10–30 min from 15:03 to about 22:00"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Loushan_Pass
+    title: "Loushan Pass — Wikipedia: the February 1935 battle, Mao's poem 'Loushan Pass'"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Zunyi
+    title: "Zunyi — Wikipedia: 1991–2020 climate normals (Dec 4.7–9.9 °C, 13.4 rain days)"
+    checked: 2026-11-13
+  - url: https://gulfnews.com/world/explosions-red-flags-chinese-tourists-reenact-communist-victory-2-1.500622548
+    title: "Gulf News (AFP), 28 Jul 2026: 1,000+ visitors in replica uniforms storm the hill in one weekend"
+    checked: 2026-11-13
+  - url: https://zhidao.baidu.com/question/417486090.html
+    title: "Baidu Zhidao (2021 answer): Yan'an's 'Defense of Yan'an' show open 25 Mar – 25 Nov only"
+    checked: 2026-11-13
+  - url: https://finance.sina.cn/2025-05-06/detail-inevqtxh7625444.d.html
+    title: "Sina, 6 May 2025: Yan'an's new 'Defend Yan'an' role-play, 3 shows a day, 45 min; no winter schedule given"
+    checked: 2026-11-13
+confidence: low
+confidence_note: "The foreigner rule, hours and ticket line are from the Ctrip page as read by the reviewer on 13 Nov 2026; it shows me a bot check. Lsgdj.com has expired; Trip.com is bot-walled. Price and times come from a 2024 ticket site, undated reviews and 2026 news. Nothing says if shows run in December. Trains: 12306, 25 Nov 2026."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: battle-relief
+    hook: "A 1935 Long March battle replayed on the real hillside: blasts, smoke and a crowd of locals charging in uniform."
+    caption: "Memorial relief at the 1935 battle site. No free photo of the show itself"
+  - type: quick_facts
+    time_needed: "Day trip, about 09:30–18:00"
+    best_time: "13:30 run, weekend, mid-December"
+    extra:
+      - { label: Language, value: Chinese only, detail: "No English commentary found; the action needs none" }
+      - { label: Your slot, value: "Dec 6–27, daytime", detail: "Back in Chongqing around 17:00–18:00 via Zunyi" }
+      - { label: Join the charge?, value: "No, watch only", detail: "Join-in places are for domestic visitors until 31 Jan 2027" }
+  - type: highlights
+    items:
+      - { title: The crowd joins in, text: "About **100 visitors per show** go on stage in Red Army uniform with a rifle and charge with the actors. For now that is Chinese visitors only; you watch it from the stands." }
+      - { title: Real battlefield, text: "Staged at Loushan Pass, where the Red Army took the pass in February 1935, on the natural hillside where it happened." }
+      - { title: Loud and smoky, text: "More than 100 real period rifles and artillery pieces, 500+ rounds and 100+ shells in one show, with a cast of 200+, most of them local villagers." }
+      - { title: Easy from Chongqing, text: "One fast train, about 1 hour from Chongqing West to Loushanguan South, ¥76 each way." }
+  - type: prose
+    title: What you are signing up for
+    dropcap: true
+    text: |-
+      In February 1935 the Red Army fought its way over Loushan Pass in northern Guizhou and went on to retake Zunyi; Mao wrote a poem about the crossing. Since 2016 the scenic area has replayed the fight as an outdoor show by the director of the TV war series *Drawing Sword*, and visitors can join in: they take a uniform and a prop rifle and run up the hill with the actors through smoke and explosions.
+
+      **The catch for you:** a notice on the show's Ctrip page, valid 10 Nov 2026 to 31 Jan 2027, keeps the join-in places for domestic visitors. Foreigners can buy a normal ticket and watch, and an October 2026 review there is from a foreign visitor who paid for a uniform and was then not allowed to take part. So on your dates this is a show you watch, not one you play in.
+
+      It went viral in 2026: local news counts 180 million views of visitors' clips, and in July AFP reported more than 1,000 people in replica uniforms storming the hill over a single weekend. Only 3.5% of visitors come from overseas. Everything is in Mandarin and it is unashamedly patriotic theatre, but you don't need words to follow a battle.
+
+      The day costs about ¥392 (R$333) with the 13:30 show, or ¥260 if an 11:30 show still runs. That is well over the R$170 daily budget, mostly for transport, for an hour of watching. Go if a big outdoor battle show is worth a day to you; skip it if you only wanted to be in the charge. Also unconfirmed: whether it runs on your date. See the hours box, and only go when a ticket is on sale.
+  - type: gallery
+    feature: false
+    images:
+      - { file: pass-gate, caption: "The stone gate at Loushan Pass" }
+      - { file: battle-site-wall, caption: "Inscriptions at the Red Army battle site" }
+  - type: book_ahead
+    steps:
+      - { days_before: 2, text: "Check the **Trip.com** show page for your date, or call the ticket line (Ctrip link above). No ticket on sale means no show: pick another day." }
+      - { days_before: 1, text: "Buy the show ticket and see which time it is for. **13:30**: take **G1983** (Chongqing West 09:49 → 10:56) and come back via Zunyi. **11:30**: take **C6039** (07:12 → 08:35) and **G3726** (14:36) back." }
+      - { days_before: 0, text: "Head straight to the show ground. I found no distance or shuttle from the station, so budget time for a taxi. You watch; uniforms are for domestic visitors." }
+    passport_note: "Train tickets are tied to your passport; carry the same passport at both stations."
+  - type: cost_breakdown
+    items:
+      - { label: Show ticket, local: 108, brl: 91.68 }
+      - { label: "Fast train Chongqing West → Loushanguan South (2nd class)", local: 76, brl: 64.52 }
+      - { label: "Taxi or ride-hail to Zunyi, about 50 km", local: 120, brl: 101.87, estimate: true, note: "My estimate; no fare found" }
+      - { label: "Fast train Zunyi → Chongqing West (2nd class)", local: 88, brl: 74.7 }
+      - { label: "Sightseeing bus at the pass (if you also visit it)", local: 35, brl: 29.71, optional: true, note: "¥35–50 in Trip.com reviews" }
+  - type: map
+    note: "Pin is the pass itself. The show ground is opposite the **visitor centre**; show the driver **娄山关大捷** if you take a taxi."
+  - type: tips
+    variant: insider
+    items:
+      - "**Which show?** The only 2026 report with a time says **13:30**; 2024 listings say 11:30. The show lasts a bit under an hour."
+      - "**Back via Zunyi:** the last direct train (14:36) is too tight after a 13:30 start. Zunyi is about 50 min by car (Trip.com reviewers); fast trains to Chongqing West run roughly hourly in mid-afternoon (15:03, 15:47, 16:58), then every 10–30 min from about 17:40 to 22:00, ¥88."
+      - "**Cheaper if 11:30 still runs:** C6039 out and G3726 back, both direct, makes the day ¥260 (R$221)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Only **two direct trains** back to Chongqing in the afternoon (12:13 and 14:36). Check 12306 for your date; timetables change in December."
+      - "Don't pay for a uniform: a foreign visitor in October 2026 paid for one and was then kept out of the charge."
+      - "On Dec 28–31 you finish work at 05:00; the 07:12 or 09:49 train after that is a rough day. Better to go before Dec 28."
+  - type: faq
+    title: Reenacting a war in China
+    items:
+      - q: "Isn't the famous war reenactment in Yan'an?"
+        a: "Yan'an has two. The big **Defense of Yan'an** live show opened only **25 Mar – 25 Nov** according to a 2021 answer on Baidu Zhidao (no newer schedule found), so it is probably closed on your dates. The newer **Defend Yan'an** role-play (2025, 3 runs a day, 45 min) has no winter timetable anywhere I looked, and Yan'an is a separate trip (a 2026 report says a bit over an hour from Xi'an by the new fast train). Loushan Pass is the one you can reach as a day trip from Chongqing, but as a foreigner you can only watch it until 31 Jan 2027."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 10
+    conditions: Cool, grey, often drizzly; Zunyi gets about 38 hours of sun in all of December
+    note: "An outdoor show. The pass is higher than Zunyi city, so expect it a bit colder (my estimate)."
+    wear: "Warm layers, waterproof jacket, shoes with grip"
+  - type: pairs_well
+    items:
+      - { id: wulong-karst-day-trip, note: "The other day trip by fast train from Chongqing" }
+      - { id: liziba-station, note: "Back in Chongqing by late afternoon" }

@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: building
+  title: File:快適空間 スパワールド 世界の大温泉 (11378331165).jpg
+  author: ChingHua Chung
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E5%BF%AB%E9%81%A9%E7%A9%BA%E9%96%93_%E3%82%B9%E3%83%91%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89_%E4%B8%96%E7%95%8C%E3%81%AE%E5%A4%A7%E6%B8%A9%E6%B3%89_(11378331165).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5d/%E5%BF%AB%E9%81%A9%E7%A9%BA%E9%96%93_%E3%82%B9%E3%83%91%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89_%E4%B8%96%E7%95%8C%E3%81%AE%E5%A4%A7%E6%B8%A9%E6%B3%89_%2811378331165%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 36 也在2day pass優惠中的スパ一ワ一ルド世界の大温泉(Spa World)，24小時營業，是個分14個主題佈置且佔地8層的溫泉樂園；可眺望通天閣景色，場內亦備餐飲區及住宿客房
+  width: 4000
+  height: 2672
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: tsutenkaku-view
+  title: File:View of Tsutenkaku Tower at night from Spa World Building.jpg
+  author: そらみみ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:View_of_Tsutenkaku_Tower_at_night_from_Spa_World_Building.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/17/View_of_Tsutenkaku_Tower_at_night_from_Spa_World_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: スパワールドより望む通天閣
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: from-tsutenkaku
+  title: File:通天閣 - panoramio (34).jpg
+  author: kanesue
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E9%80%9A%E5%A4%A9%E9%96%A3_-_panoramio_(34).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1d/%E9%80%9A%E5%A4%A9%E9%96%A3_-_panoramio_%2834%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 通天閣
+  width: 3648
+  height: 2736
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons

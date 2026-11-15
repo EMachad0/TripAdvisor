@@ -1,0 +1,19 @@
+# Independent review of k11-musea. Written by `./atr review`; do not edit by hand.
+id: k11-musea
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: fbd07f855130122d441efae818a866d8832ece5d03e80e407a45eebb4f67c021
+facts:
+  supported: 1
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[11].items[1]
+    problem: The new pitfall tells the traveler to eat before they come because "No budget food inside was found". No listed source backs this. The Tourism Board says the mall has eateries from fine dining to "casual eats", and the official visit page links to A Happy Pancake and Chatterbox Café. The pitfall also repeats the line from the item above it that the harbour-view restaurants book out.
+    evidence: The pitfall that said 'No budget food inside was found' is gone from blocks[11]. That list now has only the sourced Lunar New Year booking item and the Symphony of Lights cancellation item, so the repeated booking line is gone too (place.yaml lines 132–136).
+rereview_of: cd50275c91ec25a50fe7d1ca015aab6a21deebcbec677da9f3a247d1bfab91bb
+summary: "Finding 1 is resolved: the unsourced 'no budget food' pitfall and its repeated booking line were removed. The new Greenery detail checks out: the listed KPF page (https://www.kpf.com/project/victoria-dockside) says 'over 50,000 square feet of greenery … inclusive of the interior and exterior'. I found no blockers in the text that did not change."
+model: claude-opus-5-5
+cost_usd: 0.295

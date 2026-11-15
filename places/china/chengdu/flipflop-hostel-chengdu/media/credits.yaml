@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: taikoo-li
+  title: File:Sino-Ocean Taikoo Li Chengdu 9.jpg
+  author: EditQ
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Sino-Ocean_Taikoo_Li_Chengdu_9.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/79/Sino-Ocean_Taikoo_Li_Chengdu_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sino-Ocean Taikoo Li Chengdu
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

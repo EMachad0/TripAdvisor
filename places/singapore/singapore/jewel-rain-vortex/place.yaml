@@ -1,0 +1,158 @@
+id: jewel-rain-vortex
+name: "Jewel Changi: Rain Vortex & Forest Valley"
+short_name: Jewel Rain Vortex
+country: singapore
+city: singapore
+area: Changi Airport · Jewel
+category: views
+fame: iconic
+must_do: jewel-changi
+tags: [waterfall, architecture, indoor-garden, light-show, free, airport]
+kind: See
+why: "A 40 m waterfall pours through a glass dome inside the airport, with nightly light-and-music shows: on your Sunday at 20:00, 21:00 and 22:00. Free."
+
+cost:
+  local: 0
+  currency: SGD
+  brl: 0
+  note: "Waterfall, Forest Valley and the shows are free; left-baggage is extra (see the cost block)"
+fx: { rate: 4.397, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h (with shows)
+best_time: "Daylight look before 19:00, then the 20:00–22:00 shows"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Rain Vortex 10:00–22:00 daily; Sunday shows 20:00, 21:00, 22:00. Forest Valley 24 h"
+  winter: "No Rain Vortex closure announced for January 2027 as of 13 Nov 2026. Jewel posts short switch-offs (events, maintenance) as a banner on the Rain Vortex page: check it the week before. Singapore has no winter: Jan is the wet northeast monsoon, but everything here is indoors."
+
+location:
+  address: "Jewel Changi Airport, 78 Airport Boulevard, Singapore 819666"
+  address_local: "Jewel Changi Airport, 78 Airport Boulevard"
+  lat: 1.36022
+  lng: 103.98967
+  nearest_transit: "Changi Airport MRT (CG2), then the T2/T3 link bridges; direct from T1 arrivals"
+
+sources:
+  - url: https://www.jewelchangiairport.com/en/attractions/rain-vortex.html
+    title: "Jewel Rain Vortex: hours and Light & Music Showcase times (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/forest-valley.html
+    title: "Forest Valley: 24 h, trails, no luggage (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/getting-to-jewel.html
+    title: "Getting to Jewel: T1 link, MRT link bridges, shop hours (official)"
+    checked: 2026-11-13
+  - url: https://www.changiairport.com/en/at-changi/facilities-and-services-directory/baggage-storage.html
+    title: "Changi Airport baggage storage: locations and 24 h hours (official)"
+    checked: 2026-11-13
+  - url: https://nowboarding.changiairport.com/discover-changi/guide-to-baggage-storage-services-at-changi-airport-and-jewel.html
+    title: "Changi Now Boarding: baggage storage guide with rates (May 2024)"
+    checked: 2026-11-13
+  - url: https://www.changiairport.com/en/fly/departure-guide/early-check-in-services.html
+    title: "Changi Airport: Jewel Early Check-in facility, hours and airline windows (official)"
+    checked: 2026-11-13
+  - url: https://www.flyscoot.com/en/manage/get-ready-to-fly/check-in-guide
+    title: "Scoot check-in guide: counter, online and kiosk times"
+    checked: 2026-11-13
+  - url: https://nowboarding.changiairport.com/discover-changi/6-things-to-do-while-in-transit-at-changi-airport.html
+    title: "Changi Now Boarding: things to do in the transit area (cinema, Butterfly Garden)"
+    checked: 2026-11-13
+  - url: https://www.changiairport.com/en/at-changi/facilities-and-services-directory/movie-theatres.html
+    title: "Changi Airport movie theatre, T3 transit (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/Mastercard-canopy-bridge.html
+    title: "Canopy Bridge: S$13.90, 10:00–21:00, last entry 30 min before (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/bouncing-net.html
+    title: "Bouncing Net: S$24.90 (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/canopy-park.html
+    title: "Canopy Park hours (official)"
+    checked: 2026-11-13
+  - url: https://sunrise-sunset.org/sg/singapore/2027/1
+    title: "Sunrise-sunset.org: Singapore, January 2027 sunset times (10 Jan: 19:13)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Climate_of_Singapore
+    title: "Climate of Singapore (Wikipedia): January normals, northeast monsoon"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Hours and show times are from Jewel's official page (13 Nov 2026). Left-baggage rates are from Changi's own May 2024 guide; the official directory page shows locations and 24 h hours only. Sunset 19:13 computed by ./atr sun. Your flight times aren't booked yet, so the timings in the plan are examples."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: rain-vortex-day
+    hook: "Seven storeys of water falling through a glass doughnut, with a forest planted around it. Inside an airport."
+  - type: quick_facts
+    time_needed: 2–3 h (with shows)
+    best_time: "Before 19:00 for daylight, then 20:00–22:00"
+    extra:
+      - { label: Sunday shows, value: "20:00 · 21:00 · 22:00", detail: "Mon–Thu only 20:00 and 21:00" }
+      - { label: Bags, value: "Jewel L1, 24 h", detail: "Smarte Carte counter near the Early Check-in Lounge" }
+      - { label: Sunset Jan 10, value: "19:13", detail: "Daylight through the dome until about 19:00" }
+  - type: highlights
+    items:
+      - title: The world's tallest indoor waterfall
+        text: "Jewel calls it that: water drops **40 m** from the roof oculus to the basement, through seven storeys you can see from every floor."
+      - title: Two looks in one evening
+        text: "By day the sun catches the spray. After dark the falling water becomes a screen for the **Light & Music Showcase**; on a Sunday you get three runs."
+      - title: A forest you walk up through
+        text: "**Forest Valley** wraps the waterfall in trees and shrubs on trails from L1 to L4, open 24 h. Jewel says to allow about 30 min per trail."
+      - title: Five minutes from your check-in
+        text: "Jewel is joined to **Terminal 1's arrival hall** and to T2/T3 by link bridges. You never need a taxi or a train for this stop."
+  - type: prose
+    title: Your Sunday, airport-only
+    dropcap: true
+    text: |-
+      The plan that fits a **15:00–16:00 landing**: clear immigration, leave the suitcase at the Jewel L1 baggage counter, then see the waterfall by daylight from the L1 floor and the Forest Valley trails. Sunset is 19:13, so you get a few hours of natural light through the dome.
+
+      After that: Canopy Park on L5 (S$8 entry, last entry 21:30 on Sundays; bridge, nets and mazes S$13.90–24.90, close 21:00, last entry 20:30), dinner, and the shows at **20:00, 21:00 and 22:00**. Watch one from the basement edge and one from higher up. After the last show you can fit, collect the bag, check in and go airside.
+
+      **Which show you can stay for depends on your departure.** Scoot's counters close 60 min before departure and boarding closes 15 min before. Roughly: the 22:00 show fits a departure at **00:00 or later**, and the 21:00 show one at **23:00 or later**. For an earlier flight, check in at Jewel's Early Check-in (Scoot from 18 h before) or online before the shows, then go airside right after the 20:00 show.
+
+      Is it enough to fill the day? For **about six hours, yes**. The free floor plus the shows is about 3 h, and Canopy Park and dinner fill the rest. If your flight lands around midday, you'd have 9–10 hours here. That's when the city fallback (Gardens by the Bay, back for the 22:00 show) is worth it.
+  - type: gallery
+    images:
+      - { file: vortex-skytrain, caption: "The Skytrain runs right past the falls; seen from Jewel's upper levels" }
+      - { file: vortex-night, focus: center, caption: "After dark, before the Light & Music Showcase" }
+  - type: faq
+    title: Before you book the flight
+    items:
+      - q: "Is a whole day at the airport too boring?"
+        a: "Landside (no check-in needed) you have the Rain Vortex (10:00–22:00), Forest Valley (24 h), Canopy Park on L5 (10:00–22:00 Fri–Sun) and Jewel's shops and restaurants (mostly 10:00–22:00). That fills about **6 h** comfortably. The airside extras, such as the T3 **Butterfly Garden** and the **free 24-h cinema** in T3 transit (closed for maintenance on Thursdays), are only reachable after check-in and immigration. Landing around midday? Go to the city for the afternoon (see the Gardens by the Bay page)."
+      - q: "When can I check in for a red-eye, and does early check-in still exist?"
+        a: "Yes. Jewel's **Early Check-in facility** on L1 is open daily **08:00–23:59**. Scoot uses it from **18 h to 3 h** before departure, Singapore Airlines from 24 h to 3 h. Scoot's T1 counters open **2.5–3 h** before departure (A320 vs 787) and close 60 min before. Online check-in opens 48 h before, and the T1 kiosks 18 h before. With carry-on only, early check-in doesn't take your bags off your hands, so use left-baggage."
+      - q: "Where do I leave my bags, and what does it cost?"
+        a: "Smarte Carte baggage storage at **Jewel L1, near the Early Check-in Lounge**, open **24 h**. There are more counters in T2, T3 and T4 public areas. Rates per 24 h: **S$11 (R$48) per item under 10 kg** (your 8 kg suitcase), S$6 for loose items, S$16 over 10 kg. Changi says every item is searched, so take the laptop out. No self-service lockers are listed on Changi's page; it's a staffed counter."
+  - type: cost_breakdown
+    items:
+      - { label: "Rain Vortex, Forest Valley, shows", local: 0, brl: 0 }
+      - { label: "Left-baggage: 8 kg suitcase, 24 h", local: 11, brl: 48.37, optional: true, note: "Smarte Carte rate, Changi guide May 2024" }
+      - { label: "Left-baggage: backpack too (if under 10 kg)", local: 11, brl: 48.37, optional: true }
+  - type: map
+    note: "From T1 arrivals, follow the **Jewel** signs on Level 1. From the MRT, use the link bridges on **Level 2 of T2 or T3**."
+  - type: tips
+    variant: insider
+    items:
+      - "Forest Valley is off-limits to luggage and wheeled bags, so drop the suitcase **first**, then explore."
+      - "Watch two shows from different heights: from the basement edge you look up into the water, from the upper floors you see the whole dome."
+      - "Sunday is the one day you get a **22:00** show. It's also the last one: the waterfall switches off at 22:00."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The free cinema, Butterfly Garden and other transit-area sights are **airside**: you only get there after check-in and immigration, not while you wait for your counter to open."
+      - "Scoot's counter closes **60 min** before departure. After the 22:00 show, collect your bag and check in before you do anything else."
+  - type: weather
+    temp_low_c: 24
+    temp_high_c: 31
+    conditions: Hot, humid, frequent afternoon showers (northeast monsoon)
+    note: "January averages 24–31 °C with about 13 rainy days (1991–2020 normals). Rain doesn't matter here: Jewel is air-conditioned and fully covered. You'll be cold inside before you're hot."
+    wear: "T-shirt, plus a light layer for the air-con and the overnight flight"
+  - type: pairs_well
+    items:
+      - { id: jewel-canopy-park, note: "Same building, L5: nets, mazes and a bridge 23 m above the waterfall" }
+      - { id: changi-village-hawker-centre, note: "Cheap hawker dinner about 12 min away by taxi" }
+      - { id: supertree-grove-garden-rhapsody, note: "City fallback if you land around midday" }

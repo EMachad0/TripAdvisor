@@ -1,0 +1,137 @@
+id: supertree-grove-garden-rhapsody
+name: "Gardens by the Bay: Supertree Grove & Garden Rhapsody"
+short_name: Supertree Grove
+country: singapore
+city: singapore
+area: Marina Bay
+category: shows
+fame: iconic
+tags: [light-show, gardens, free, architecture, night]
+kind: See
+why: "Free light-and-music show in a grove of 50 m steel 'Supertrees' at 19:45. Your city plan B if the flight lands at midday; back at Jewel for 22:00."
+
+cost:
+  local: 5.6
+  currency: SGD
+  brl: 24.62
+  note: "Show and grove are free; this is the MRT round trip from the airport plus the foreign-card fee"
+fx: { rate: 4.397, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "5–6 h door to door from Changi"
+best_time: "The 19:45 show, then straight back to Jewel"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Supertree Grove daily 05:00–02:00, free. Garden Rhapsody 19:45 and 20:45 nightly; Supertree lights off 23:30"
+  winter: "The festive extra shows end on 3 Jan 2027, so Sun 10 Jan has only the normal 19:45 and 20:45 shows. January is monsoon season: afternoon showers are common, and the grove is open-air."
+
+location:
+  address: "Supertree Grove, Gardens by the Bay, Marina South, Singapore"
+  address_local: "Supertree Grove, Gardens by the Bay"
+  lat: 1.282
+  lng: 103.86394
+  nearest_transit: "Bayfront MRT (CE1/DT16), Exit B, then the underground linkway"
+
+sources:
+  - url: https://www.gardensbythebay.com.sg/en/things-to-do/attractions/supertree-grove.html
+    title: "Supertree Grove: hours, free admission, show times (official)"
+    checked: 2026-11-13
+  - url: https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/garden-rhapsody.html
+    title: "Garden Rhapsody: festive extra shows and dates (official)"
+    checked: 2026-11-13
+  - url: https://www.gardensbythebay.com.sg/en/plan-your-visit/getting-here.html
+    title: "Gardens by the Bay: getting here, Bayfront Exit B (official)"
+    checked: 2026-11-13
+  - url: https://www.changiairport.com/en/airport-guide/transport/leaving-the-airport.html
+    title: "Changi Airport: leaving the airport, MRT route, taxi fares and surcharges (official)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/getting-to-jewel.html
+    title: "Getting to Jewel: Downtown Line via Expo, link bridges (official)"
+    checked: 2026-11-13
+  - url: https://simplygo.com.sg/faqs/cards-and-charms/simplygo/contactless-bank-cards/
+    title: "SimplyGo FAQ: contactless bank cards, S$0.60/day foreign card fee"
+    checked: 2026-11-13
+  - url: https://www.rome2rio.com/s/Bayfront-MRT-Station/Changi-Airport-Terminal-1
+    title: "Rome2rio: Bayfront MRT to Changi Airport T1 (time and fare estimate)"
+    checked: 2026-11-13
+  - url: https://www.jewelchangiairport.com/en/attractions/rain-vortex.html
+    title: "Jewel Rain Vortex Sunday show times (official)"
+    checked: 2026-11-13
+  - url: https://www.changiairport.com/en/at-changi/facilities-and-services-directory/baggage-storage.html
+    title: "Changi Airport baggage storage: Jewel L1, 24 h, rates per 24 h (official)"
+    checked: 2026-11-13
+  - url: https://sunrise-sunset.org/sg/singapore/2027/1
+    title: "Sunrise-sunset.org: Singapore, January 2027 sunset times (10 Jan: 19:13)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Climate_of_Singapore
+    title: "Climate of Singapore (Wikipedia): January normals, northeast monsoon"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Show times, hours and the route are official (13 Nov 2026). MRT time (45–50 min) is Rome2rio's estimate; the ≈S$2.50 card fare per ride is my estimate (no LTA fare table opened), so allow a little more. I couldn't find an official show length; I assume about 15 min (travel guides) for the timings."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: supertrees-mbs
+    hook: "Steel trees up to 50 m tall, wrapped in living plants, light up in time to the music. Free, twice a night."
+  - type: quick_facts
+    time_needed: "5–6 h door to door"
+    best_time: "19:45 show, then MRT back"
+    extra:
+      - { label: Shows Jan 10, value: "19:45 · 20:45", detail: "No 21:35 show after 3 Jan 2027" }
+      - { label: Airport ↔ Bayfront, value: "≈45–50 min by MRT", detail: "CG2 → Expo, change to the Downtown Line for Bayfront" }
+      - { label: Leave the grove by, value: "≈20:05", detail: "For Jewel's 22:00 show (21:00 is too tight)" }
+  - type: highlights
+    items:
+      - title: The Supertrees
+        text: "Twelve of the Gardens' 18 Supertrees stand in the grove, the tallest **about 16 storeys**: vertical gardens of ferns, orchids and bromeliads on steel frames."
+      - title: Garden Rhapsody, free
+        text: "The grove lights up to music at **19:45 and 20:45** every night. Ground-level viewing in the grove costs nothing."
+      - title: Marina Bay all around
+        text: "Gardens by the Bay lists **panoramic views of Marina Bay** from the grove. Come before dark and you'll see the bay by day too."
+      - title: One change from Jewel
+        text: "Changi Airport MRT to Expo, change to the **Downtown Line** for Bayfront: no taxi needed, both ways on a contactless card."
+  - type: prose
+    title: When the city beats the airport
+    dropcap: true
+    text: |-
+      This is **plan B**. If the only cheap Bangkok flight lands around **midday**, you'd have 9–10 hours at Changi. That's too long for Jewel alone, and the city is 45 minutes away.
+
+      The order: land, leave your bags at the **Jewel L1 baggage counter (24 h)**, then take the MRT from Changi Airport station to Expo and change to the Downtown Line for Bayfront, Exit B. Spend the afternoon around Marina Bay and the gardens, have a hawker dinner, and be in Supertree Grove for the **19:45** show. It's dark by then: sunset on 10 Jan is 19:13.
+
+      Then go straight back. Leave around 20:05 and you reach Changi Airport station around 21:00, with time to collect the bag and stand at the Rain Vortex for the **22:00** show, Sunday's last. Stay for the 20:45 Rhapsody and you'll miss it by MRT. A taxi from the city takes about 30 min, at S$25–45 plus Sunday-evening surcharges.
+  - type: gallery
+    images:
+      - { file: rhapsody-show, caption: "Garden Rhapsody in full swing" }
+  - type: cost_breakdown
+    items:
+      - { label: "Supertree Grove + Garden Rhapsody", local: 0, brl: 0 }
+      - { label: "MRT Changi Airport → Bayfront", local: 2.5, brl: 10.99, estimate: true }
+      - { label: "MRT Bayfront → Changi Airport", local: 2.5, brl: 10.99, estimate: true }
+      - { label: "Foreign-card admin fee (once per day)", local: 0.6, brl: 2.64 }
+      - { label: "Left-baggage at Jewel, 1 item < 10 kg", local: 11, brl: 48.37, optional: true }
+  - type: map
+    note: "**Bayfront MRT Exit B**, follow the underground linkway, then cross the Dragonfly or Meadow Bridge into the Gardens."
+  - type: tips
+    variant: insider
+    items:
+      - "Tap the **same contactless card** at every gate. The S$0.60 foreign-card fee is charged once per day, not per ride."
+      - "From Changi Airport station, take the first train to **Expo** (one stop) and change there to the Downtown Line (blue) for Bayfront."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't plan on the 20:45 Rhapsody plus Jewel's 22:00 show by MRT. It doesn't fit. Pick one."
+      - "Don't drag the 8 kg suitcase around the city: the Jewel L1 counter is open 24 h, and you pass it on the way back to check-in anyway."
+      - "Evening taxis (daily 17:00–23:59) cost 25% more than the meter, plus an S$8 surcharge on trips that start at the airport."
+  - type: weather
+    temp_low_c: 24
+    temp_high_c: 31
+    conditions: Hot, humid; frequent afternoon showers in January
+    note: "January averages 24–31 °C, the northeast monsoon season with about 13 rainy days. The grove is open-air: a shower can delay or dampen the evening, so carry a small umbrella."
+    wear: "Light clothes, a compact umbrella, sandals that can get wet"
+  - type: pairs_well
+    items:
+      - { id: jewel-rain-vortex, note: "Back by about 21:00 for the 22:00 Rain Vortex show" }

@@ -1,0 +1,67 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: lol-park-t1
+name: "LoL Park: watch T1 live"
+name_local: 롤파크
+country: korea
+city: seoul
+area: Jongno · Gran Seoul
+category: shows
+tags:
+  - esports
+  - t1
+  - indoor
+kind: Do
+why: Watch an LCK match at the official League of Legends arena; T1 games sell out in minutes.
+cost:
+  local: 20000
+  currency: KRW
+  brl: 78
+fx:
+  rate: 0.0039
+  date: 2026-11-09
+  source: fixture rate
+time_needed: 2–3 h
+best_time: Weekday morning
+book_ahead:
+  required: true
+  lead_days: 7
+  lead_time: Fixture lead time
+  method: app
+  links:
+    - label: Example booking page
+      url: https://example.org/book/lol-park-t1
+hours:
+  summary: Daily 10:00–22:00
+  winter: LCK spring split usually starts mid-January.
+location:
+  address: Fixture address, seoul
+  lat: 37.57
+  lng: 126.99
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture source
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture source 2
+    checked: 2026-11-09
+confidence: low
+confidence_note: Game test fixture, not researched.
+last_updated: 2026-11-09
+blocks:
+  - type: hero
+    hook: Chanting for Faker in a downtown arena.
+    focus: center
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: Weekday morning
+  - type: highlights
+    items:
+      - title: Fixture highlight
+        text: "Test text for **LoL Park: watch T1 live**. Not researched."
+      - title: Second highlight
+        text: Game fixture content, ignored by the real build.
+  - type: tips
+    variant: insider
+    items:
+      - "Fixture tip: go early."

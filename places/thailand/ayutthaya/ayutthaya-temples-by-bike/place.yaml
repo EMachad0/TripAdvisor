@@ -1,0 +1,125 @@
+id: ayutthaya-temples-by-bike
+name: "Ayutthaya Temples by Bike"
+name_local: อุทยานประวัติศาสตร์พระนครศรีอยุธยา
+name_romanized: Ayutthaya Historical Park
+country: thailand
+city: ayutthaya
+area: "Ayutthaya island"
+category: culture
+fame: iconic
+tags: [temple, ruins, unesco, cycling, train]
+kind: Do
+why: "A ฿50 train, a ฿40 bicycle and a ฿300 ticket for seven ruined royal temples, including the Buddha head in the fig roots. About R$76 for the day."
+cost:
+  local: 460
+  currency: THB
+  brl: 75.87
+  note: "Connex train ฿50 each way, bike about ฿40, ferry ฿10 each way (฿20 with a bike), 7-site ticket ฿300. Third class saves about ฿60."
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: "Full day (4–5 h on the island)"
+best_time: "Weekend: the 09:05 Connex out, the 15:00 back"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Temples roughly 08:00–18:00 (Si Sanphet to 19:00, Chaiwatthanaram 08:30–18:30). Ferry to the station stops around 17:30."
+  winter: "The annual World Heritage Fair runs for one week in December, so it is over before you reach Thailand on Jan 2. No January closures listed. Sat Jan 9, 2027 is Thai National Children's Day (2nd Saturday of January). Connex weekend times also apply on public holidays."
+
+location:
+  address: "Wat Mahathat, Chikun Rd, Pratu Chai, Phra Nakhon Si Ayutthaya (the loop starts here)"
+  address_local: "วัดมหาธาตุ ถนนชีกุน ตำบลประตูชัย อำเภอพระนครศรีอยุธยา จังหวัดพระนครศรีอยุธยา"
+  lat: 14.35635
+  lng: 100.56853
+  nearest_transit: "Ayutthaya station (east bank), then the ฿10 ferry"
+
+sources:
+  - url: https://en.wikivoyage.org/wiki/Ayutthaya
+    title: "Wikivoyage: Ayutthaya: trains, bikes ~฿40, ฿300 ticket, temple hours and prices (Aug 2026)"
+    checked: 2026-11-12
+  - url: https://www.bangkokbiznews.com/news/1258673
+    title: "Bangkok Biznews: Bangkok Connex timetable from 1 Nov 2026 (weekend 09:05 → 10:20; back 10:40, 15:00, 17:55, 19:50; fare ฿30–50)"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/guides/ayutthaya-to-bangkok
+    title: "Visit Thailand Today (Nov 2026): Connex back ฿50; 3rd class ~฿20 (No. 8 is 2nd class only); ferry ฿10, ฿20 with bike, last ~17:30"
+    checked: 2026-11-12
+  - url: "https://www.openstreetmap.org/?mlat=14.35635&mlon=100.56853#map=17/14.35635/100.56853"
+    title: "OpenStreetMap: Wat Mahathat, Chikun Road, Pratu Chai (pin and address)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Ayutthaya_Historical_Park
+    title: "Ayutthaya Historical Park (Wikipedia): UNESCO World Heritage Site since 1991"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Public_holidays_in_Thailand
+    title: "Public holidays in Thailand (Wikipedia): National Children's Day is the 2nd Saturday of January"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Phra_Nakhon_Si_Ayutthaya_(city)
+    title: "Phra Nakhon Si Ayutthaya (Wikipedia): January climate normals"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Connex times (09:05 out, 15:00/17:55/19:50 back) from the 1 Nov 2026 timetable in Bangkok Biznews; Wikivoyage still shows the older August times. The Wat Ratchaburana prang stairs were closed in Jan 2020 per Wikivoyage; no newer source says they reopened. The ฿50 fare was a launch promo. Bike price from Wikivoyage (others say ฿50). Ferry fare from the Nov 2026 guide (Wikivoyage still says ฿5)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: ratchaburana-lawn
+    hook: "Pedal between the brick prangs of Siam's old royal capital, stopping wherever a ruin looks good."
+    caption: "Wat Ratchaburana's prang above the lawns"
+  - type: quick_facts
+    time_needed: "Full day"
+    best_time: "Weekend; out by 09:05, back on the 15:00"
+    extra:
+      - { label: Fits your week, value: Weekend day trip, detail: "Best Sun Jan 3; Jan 2 is arrival day, Jan 9 follows a night shift" }
+      - { label: Train out, value: "Connex 09:05 → 10:20", detail: "Weekends, from Krung Thep Aphiwat; ฿50, unreserved" }
+  - type: highlights
+    items:
+      - title: The Buddha head in the roots
+        text: "At **Wat Mahathat** a stone Buddha head sits wrapped in fig-tree roots. Kneel for your photo: Thais treat it as holy."
+      - title: Seven temples, one ticket
+        text: "The **฿300 (R$49.47)** Fine Arts ticket covers seven monuments for seven days; each one alone is ฿80, so it pays off from the fourth."
+      - title: Flat, short and paved
+        text: "Most ruins sit in the island's northwest corner on paved paths with short distances. You don't need to be fit to see them all by bike."
+      - title: Into a prang, maybe
+        text: "**Wat Ratchaburana**'s prang has stairs up to a view and painted crypts, but they were reported closed in 2020 with no reopening date. Ask at the gate."
+  - type: prose
+    title: The day, step by step
+    text: |-
+      **Out.** On a weekend, take the air-conditioned **SRT Bangkok Connex** from **Krung Thep Aphiwat** (Bang Sue) at **09:05**, arriving 10:20, ฿50, seats unreserved, tickets at the station. Cheaper and slower: ordinary third-class trains from **Hua Lamphong** for about ฿15, 80 minutes to 2 hours; or about ฿20 third class on a rapid from Krung Thep Aphiwat.
+
+      **On the island.** The station is on the east bank. Walk across the main road to the pier and take the ferry (฿10, or ฿20 if you bring a bike across); there is a bike shop right opposite the station if you'd rather ride round by the bridge. A good loop: **Wat Mahathat**, **Wat Ratchaburana** across the road, **Wat Phra Ram**, then the three chedis of **Wat Phra Si Sanphet**. With time left, ride off the island to **Wat Chaiwatthanaram**.
+
+      **Back.** The **15:00 Connex** (about 75 minutes, ฿50) gets you to Krung Thep Aphiwat by early evening; later Connex trains leave at **17:55** and **19:50**. Third class on a long-distance train is about ฿20 (15:39, 16:04, 16:41 or No. 102 at 18:59); No. 8 at 16:48 is second-class air-con only and costs more. Ferries stop around **17:30**; after that a tuk-tuk round by the bridge costs about ฿150.
+  - type: gallery
+    images:
+      - { file: cycling-past-walls, caption: "Cycling past temple walls inside the historical park" }
+      - { file: wat-phra-ram, caption: "Wat Phra Ram and its prang" }
+      - { file: view-from-prang, caption: "The view from Wat Ratchaburana's prang, before the stairs closed in 2020" }
+  - type: cost_breakdown
+    items:
+      - { label: "Connex train Krung Thep Aphiwat → Ayutthaya", local: 50, brl: 8.25 }
+      - { label: Ferry across, local: 10, brl: 1.65 }
+      - { label: Bicycle for the day, local: 40, brl: 6.6, estimate: true }
+      - { label: 7-monument ticket, local: 300, brl: 49.47 }
+      - { label: Ferry back, local: 10, brl: 1.65 }
+      - { label: "Connex train back", local: 50, brl: 8.25 }
+  - type: map
+    note: "The pin is Wat Mahathat, start of the loop. The station is across the river to the east: ferry ฿10, or the bridge just to the south."
+  - type: tips
+    variant: insider
+    items:
+      - "**Fits your week:** a weekend day trip, best **Sun Jan 3**. Sat Jan 2 is arrival day; Sat Jan 9 follows the night shift that ends at 04:00. On a weekday you'd need to be on the island by about 11:00 and on the 15:00 Connex back, so only 3–4 hours there."
+      - "Check the bike before you ride off: tyres firm, seat at your height, handlebars tight. Good shops add a lock."
+      - "Ask for a ticket when you pay. Wikivoyage reports sellers who pocket the cash without issuing one."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't take the ฿2,000 tuk-tuk tours offered when a minibus drops you off; official tuk-tuks quote about ฿300 an hour."
+      - "Not every temple takes the 7-site ticket: Wat Thammikarat charges ฿20 separately."
+  - type: weather
+    temp_low_c: 18
+    temp_high_c: 32
+    conditions: Dry and sunny, the coolest month
+    note: "Pleasant cycling in the morning; little shade among the ruins after midday, so carry water."
+    wear: "Light clothes, hat, sunscreen, water"
+  - type: pairs_well
+    items:
+      - { id: wat-paknam-glass-stupa, note: "Another big temple day, but in Bangkok, for a weekday afternoon" }

@@ -1,0 +1,80 @@
+id: koh-samet
+country: thailand
+name: "Koh Samet"
+name_local: เกาะเสม็ด
+region: "Rayong · Gulf of Thailand"
+scope: region
+cities: [koh-samet]
+why: "The closest real beach island to Bangkok: white sand, a fire show on the beach and backpacker bars on Ao Phai, 3.5–5 h away for about ฿190 by bus plus the boat. A weekend buys sea and sand Bangkok can't."
+best_for: [nature, nightlife]
+highlights: ["Hat Sai Kaew's white sand", "Fire show on the beach at night", "Ao Phai backpacker bars", "Quieter coves further south", "Seafood barbecues on the sand"]
+days_suggested: { min: 2, max: 3 }
+cost_level: medium
+fame: popular
+lat: 12.55231
+lng: 101.44828
+getting_there: "Cherdchai bus from Ekkamai 07:00, 09:00 or 11:00 to Ban Phe, ~฿190, 3–4 h (back only at 12:00 and 14:00); then the ferry, ~40 min, ฿50–70. ฿200 park fee on landing."
+getting_around: "Shared songthaews from Na Dan pier: ฿20–60 to Sai Kaew and Ao Phai. Scooters ฿300–500 a day, but roads inside the park are rough. The northern beaches are walkable."
+winter_note: "January is dry, sunny high season (Nov–Feb): about 22 °C at night, 32 °C by day on the Rayong coast. Weekends and public holidays are very busy and cheap bungalows go first, so the New Year weekend (Jan 2–3) will be packed: book a bed ahead."
+image: beach-vendor-baskets
+sources:
+  - url: https://en.wikivoyage.org/wiki/Ko_Samet
+    title: "Wikivoyage: Ko Samet (Oct 2025): ferries, ฿200 park fee, songthaews, beaches, fire show, Ao Phai bars, Cocoon Hostel ฿500–600, one ATM"
+    checked: 2026-11-12
+  - url: https://www.visitthailandtoday.com/guides/bangkok-to-koh-samet
+    title: "Visit Thailand Today (Oct 2026): Cherdchai bus from Ekkamai 07:00/09:00/11:00 ~฿190, ferry ~40 min ฿50–70, ฿200 park fee in cash"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Rayong
+    title: "Rayong (Wikipedia): January climate normals, 22.2–31.9 °C"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Bus times and fares from a guide updated Oct 2026; Ekkamai arrival is that guide's 3–4 h estimate; ferry fares differ slightly between sources (฿50 vs ฿50–70). The hostel price is Wikivoyage's (June 2025), not a live date search for January 2027. Bar names are from Wikivoyage and may have changed."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Crystal sand a morning's bus ride from Ekkamai, fire twirlers after dark, and the noon bus back on Monday."
+    caption: "Food vendors' baskets on a Ko Samet beach"
+  - type: highlights
+    items:
+      - title: The nearest real beach
+        text: "Hat Sai Kaew, \"crystal sand beach\", is 1 km of white sand near the main pier, and the busiest. Further south, coves like **Ao Wong Duean** and **Ao Nuan** get quieter."
+      - title: Fire shows on the sand
+        text: "Fire twirlers work their way along **Hat Sai Kaew and Ao Hin Khok** between 18:00 and 22:30; a donation is appreciated."
+      - title: A backpacker night out
+        text: "**Ao Phai** is where the party crowd ends up: flyers for drink specials on the beach by day, and **Silversand Bar**'s dance floor at the end of the night."
+      - title: Seafood on the beach
+        text: "Restaurants set tables on the sand at night with seafood barbecues; roti stands pop up everywhere from ฿40."
+  - type: prose
+    title: What a weekend here buys
+    text: |-
+      **Versus staying in Bangkok:** Bangkok has no beach. Samet is the closest real one, a national-park island with white-sand beaches, and its Saturday night out is a beach-bar crowd of backpackers and Bangkok weekenders. You give up a Bangkok night and spend about 7–10 hours in transit over the two days.
+
+      **How it fits your week.** The best fit is **Sun Jan 3 → Mon Jan 4**: the **09:00 or 11:00 bus** from Ekkamai on Sunday, a night on Ao Phai, then a late-morning ferry to Ban Phe for the **12:00 Cherdchai bus** back on Monday. At 3–4 hours on the road that puts you in Ekkamai around 15:00–16:00, about three hours before your 19:00 shift; the 14:00 bus (in around 17:00–18:00) is too tight. **Sat Jan 2** is your flight day from China, so a Saturday start only works if you land the night before or very early. Jan 9–10 doesn't work: you fly to Korea on Sun Jan 10 and the buses back leave only at noon and 14:00.
+
+      **What it costs.** Bus about ฿190 each way, ferry ฿50–70 each way, the ฿200 park fee and two songthaew rides at ฿20–60: roughly **฿720–840 (R$119–139)** before food and drinks, well inside two days of your R$100 budget. The bed is separate: a dorm around ฿500–600 (R$82–99) at the Cocoon Hostel near the pier.
+
+      **Where to base.** **Ao Phai** for nights out; **Hat Sai Kaew** is close to the pier and busy; the Cocoon Hostel is a 400 m walk from Na Dan pier.
+  - type: gallery
+    images:
+      - { file: wong-duean, caption: "Ao Wong Duean, quieter and shadier" }
+      - { file: beach-night, caption: "A Ko Samet beach after dark" }
+      - { file: speedboat-shore, caption: "A speedboat off the beach" }
+      - { file: east-coast-view, caption: "Clear water off one of the island's rocky headlands" }
+  - type: tips
+    variant: insider
+    items:
+      - "**Fits your week:** Sun Jan 3 → Mon Jan 4, back on Monday's 12:00 bus from Ban Phe (Ekkamai around 15:00–16:00, before your 19:00 shift)."
+      - "Buy a **one-way** ferry ticket: the return gives no discount, and you can come back from either Ban Phe pier."
+      - "Bring cash: the island has **one ATM** (opposite the Hat Sai Kaew tourist centre), and the park fee is cash only. ATMs at Ban Phe pier charge high fees."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Ticket sellers at the pier may say you must buy the park ticket from them; you can pay at the gate."
+      - "Hat Sai Kaew is noisy with jet skis and crowded on weekends; walk south for calmer water."
+      - "Scooter rentals are everywhere, but inside the park the roads are in poor shape: only for experienced riders."
+  - type: weather
+    temp_low_c: 22
+    temp_high_c: 32
+    conditions: Dry, sunny high season
+    note: "Beach weather all weekend; the dry season makes January one of the island's high seasons."

@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: shugakuin-station
+  title: File:Eiden Shugakuin Station140524NI1.JPG
+  author: Atelier Verde
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Eiden_Shugakuin_Station140524NI1.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5e/Eiden_Shugakuin_Station140524NI1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 京都市左京区山端 叡山電鉄叡山本線 修学院駅 駅すぐ北側の北山通から撮影。左側が出町柳駅行きホームで、左端のマンションの2階に叡山電鉄運輸課があり、定期券や各種乗車券が販売されている。駅に進入中の デオ800系 （815-816）が確認できる。
+  width: 5435
+  height: 3523
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

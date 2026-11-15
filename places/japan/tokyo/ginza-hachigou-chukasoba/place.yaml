@@ -1,0 +1,150 @@
+id: ginza-hachigou-chukasoba
+name: "Ginza Hachigou"
+short_name: Ginza Hachigou
+name_local: 銀座 八五
+name_romanized: Ginza Hachigo
+country: japan
+city: tokyo
+area: Chūō · Higashi-Ginza
+category: food
+fame: popular
+tags: [ramen, chef-driven, bib-gourmand, counter]
+kind: Eat
+why: "A French-trained chef's consommé-clear ramen: no tare, salted with French sea salt. ¥1,200 a bowl at a six-seat Ginza counter, bookable on TableCheck."
+cost:
+  local: 2200
+  currency: JPY
+  brl: 77.88
+  note: "The limited ravioli bowl; the plain chūka soba is ¥1,200. Booking online adds a ¥500 fee"
+fx: { rate: 0.0354, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 30 min seat + the queue
+best_time: "A booked slot from 12:00, or the 11:00 walk-in line"
+
+book_ahead:
+  required: recommended
+  lead_days: 7
+  lead_time: "Slots for the next Tue–Sun open every Saturday at 09:00 (Japan time)"
+  method: platform
+  links:
+    - label: TableCheck (English)
+      url: https://www.tablecheck.com/en/shops/ginza-hachigou/reserve
+      note: "Party of 1 is selectable. ¥500 per-person fee, never refunded"
+  notes: "Booking is TableCheck only (not phone, DM or Tabelog). A card holds the seat. Cancel by the day before: a same-day cancellation or no-show costs ¥2,500, and the ¥500 fee is never refunded. 10+ min late counts as a cancellation."
+
+hours:
+  summary: "From 11:00 for walk-ins, from 12:00 for bookings, until about 16:00 or until the soup runs out"
+  closed: "Mondays; some Tuesdays (check its social media)"
+  winter: "Last New Year it closed Dec 29 – Jan 3 (Tabelog). Your Jan 20 – Feb 4 dates fall after that break; no 2027 notice yet. The queue for walk-ins is outdoors on the street."
+
+location:
+  address: 1F Daiichi Hanabusa Bldg, 3-14-2 Ginza, Chūō-ku, Tokyo
+  address_local: 東京都中央区銀座3-14-2 第一はなぶさビル 1F
+  lat: 35.67061
+  lng: 139.77014
+  nearest_transit: Higashi-Ginza or Shintomichō (Tokyo Metro), 3 min walk
+
+sources:
+  - url: https://www.tablecheck.com/en/shops/ginza-hachigou/reserve
+    title: Ginza Hachigou — TableCheck booking page (Saturday 09:00 release, ¥500 fee, ¥2,500 late-cancel charge, 30-min seat, party size 1–6)
+    checked: 2026-11-13
+  - url: https://katsumoto-japan.com/ginza_hachigou.html
+    title: Ginza Hachigou — official page (menu prices incl. tax, 11:00 walk-ins / 12:00 bookings, address)
+    checked: 2026-11-13
+  - url: https://tabelog.com/en/tokyo/A1301/A130101/13228602/
+    title: Ginza Hachigo — Tabelog (3.92, 6 counter seats, payment methods, closed days, New Year 2025–26 closure)
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/jp/tokyo-region/tokyo/restaurants/bib-gourmand/ramen
+    title: MICHELIN Guide — Tokyo Bib Gourmand ramen list (current Tokyo 2026 selection; Hachigou listed)
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/tokyo-region/tokyo/restaurant/chukasoba-ginza-hachigo
+    title: MICHELIN Guide — Chukasoba Ginza Hachigou (price ¥, "Good for solo dining")
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-tokyo-2022-eng
+    title: MICHELIN Guide Tokyo 2022 — Hachigou promoted from Bib Gourmand to one star
+    checked: 2026-11-13
+  - url: https://www.timeout.com/tokyo/news/tokyos-three-michelin-starred-ramen-restaurants-all-lost-their-stars-in-the-2024-guide-022624
+    title: "Time Out Tokyo (26 Feb 2024): Nakiryu, Konjiki Hototogisu and Ginza Hachigou lose their stars, move to Bib Gourmand"
+    checked: 2026-11-13
+  - url: https://www.timeout.com/tokyo/restaurants/ginza-hachigo
+    title: Ginza Hachigo — Time Out Tokyo (Dec 2024; broth ingredients, French sea salt, chef's French background)
+    checked: 2026-11-13
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-ceremony-tokyo-kyoto-osaka-nara-2027-selection-save-the-date
+    title: MICHELIN Guide — 2027 Tokyo, Kyoto-Osaka and Nara selections to be revealed Feb 16, 2027
+    checked: 2026-11-13
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "JMA: climate normals 1991–2020, Tokyo (January)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Prices, booking rules and hours from the official page, TableCheck and Tabelog (Nov 2026). The official page lists Mon and Tue as closed; TableCheck and Tabelog say Mon closed, Tue irregular. Michelin's restaurant page hides its award text behind a login; Bib status is from Michelin's Tokyo Bib ramen list. Ravioli bowl contents are not published, so I don't describe them."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: entrance
+    caption: "The entrance on a Ginza side street (Dec 2023)"
+    hook: Ramen made like a French consommé, by a chef who cooked French food for 30 years.
+  - type: quick_facts
+    time_needed: 30 min seat + queue
+    best_time: Booked slot from 12:00
+    extra:
+      - { label: Seats, value: 6 at the counter, detail: Tabelog; you eat and go }
+      - { label: Pay, value: "Card, IC or QR", detail: "Tabelog lists Visa/Master/JCB/Amex, Suica-type IC cards and PayPay" }
+      - { label: Out of place?, value: "No", detail: "Michelin: good for solo dining. No dress rule in its house rules" }
+  - type: highlights
+    items:
+      - title: A clear step up from our everyday bowls
+        text: "Time Out lists a broth of **Nagoya Cochin chicken, duck, scallop, dried tomato, shiitake, kombu and cured ham**, seasoned with **French sea salt** instead of tare. It's light gold and clear, a different animal from Fuunji or Kikanbo."
+      - title: Ex-starred, now Bib, still ¥1,200
+        text: "Michelin moved it up from Bib Gourmand to **one star in the 2022 guide**. It lost the star in the **2024** guide (Time Out) and is Bib Gourmand in the current **Tokyo 2026** selection. The 2027 list comes out on **Feb 16, 2027**, after your Japan days."
+      - title: Locals rate it too
+        text: "**3.92 on Tabelog** from about 2,570 reviews."
+      - title: Casual, and honest about it
+        text: "A six-seat counter, one bowl per person, 30 minutes per seat. The only house rules are about time, photos (food only) and phone calls."
+  - type: prose
+    title: Who's behind it
+    text: |-
+      Owner-chef Matsumura spent more than 30 years in French kitchens before opening Hachigou (Time Out). Michelin's 2022 announcement called his bowl a "borderless balance of Japanese and Western elements".
+
+      This is the one ex-starred shop on your list. Nothing about it is formal: it's a ramen counter where you queue or book a 30-minute slot.
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "The **Saturday before** your week, at **09:00 Japan time** (21:00 Friday in Brazil), open TableCheck and pick a slot from 12:00, party of **1**. Pay the ¥500 fee by card."
+      - days_before: 0
+        text: "Arrive on time with the confirmation email; they may ask for ID. You have **30 minutes** from your slot time."
+  - type: menu
+    title: The bowls (tax included)
+    items:
+      - { name: Chūka soba, name_local: 中華そば, price_local: 1200, price_brl: 42.48, note: "The clear signature bowl", tag: signature }
+      - { name: With seasoned egg, name_local: 味玉中華そば, price_local: 1400, price_brl: 49.56 }
+      - { name: Special chūka soba, name_local: 特製中華そば, price_local: 1600, price_brl: 56.64 }
+      - { name: Ravioli Gourmandise chūka soba, name_local: ラビオリグルマンディーズ中華そば, price_local: 2200, price_brl: 77.88, note: "Limited to 30 bowls a day; can sell out", tag: must-try }
+      - { name: Meat rice, name_local: 肉ご飯, price_local: 500, price_brl: 17.70 }
+    note: "Prices from the official page (Nov 2026). One bowl per person; no second bowl."
+  - type: cost_breakdown
+    items:
+      - { label: Ravioli Gourmandise bowl, local: 2200, brl: 77.88 }
+      - { label: TableCheck booking fee, local: 500, brl: 17.70, optional: true }
+      - { label: Meat rice on the side, local: 500, brl: 17.70, optional: true }
+  - type: map
+    note: "3 min from **Higashi-Ginza** or **Shintomichō** stations; 10 min from JR Yūrakuchō."
+  - type: tips
+    variant: insider
+    items:
+      - "Set an alarm for **Saturday 09:00 JST**: TableCheck releases the following Tuesday–Sunday then, and the venue says it can't help if no dates show."
+      - "Walk-ins are taken in order from **11:00**; booked guests get priority from 12:00, so the earlier you queue, the better."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The ravioli bowl is **limited to 30 a day**, and TableCheck warns a booking doesn't guarantee it."
+      - "Arrive **10 minutes late** and the booking counts as cancelled, with the ¥2,500 charge."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "If you walk in rather than book, expect to queue for your turn before 12:00; with a booking the wait is short."
+    wear: Coat for the queue; anything you like inside
+  - type: pairs_well
+    items:
+      - { id: iruka-tokyo-roppongi-porcini-ramen, note: "The other refined bowl: porcini and truffle shoyu in Roppongi" }
+      - { id: ichiki-ginza-lunch-omakase, note: "Ginza's mid-price sushi lunch, a 10-min walk away" }

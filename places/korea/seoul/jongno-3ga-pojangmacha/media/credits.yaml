@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tent-night
+  title: File:Seoul street food 2011 march 20.jpg
+  author: LinasD
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_street_food_2011_march_20.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3c/Seoul_street_food_2011_march_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Pojangmacha - street food stall in Seoul, South Korea
+  width: 3872
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: tents-day
+  title: File:Seoul street food 2011 march 28.jpg
+  author: LinasD
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul_street_food_2011_march_28.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1b/Seoul_street_food_2011_march_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Pojangmacha - street food stalls in Seoul, South Korea
+  width: 3872
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

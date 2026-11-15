@@ -1,0 +1,19 @@
+# Independent review of mahanakhon-skywalk. Written by `./atr review`; do not edit by hand.
+id: mahanakhon-skywalk
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: dcfecd09776e077f0ee2ce9bb9e48ad8f7e61d3555aa78989fac9de3111e73b3
+facts:
+  supported: 9
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.note
+    problem: This is the one over-budget item of the week, and the page gives only the walk-in price. Two listed sources say booking online is usually cheaper, and confidence_note admits nobody checked resellers, so the cheapest way in is still unknown.
+    evidence: "cost.note now gives the walk-in price and marks the online price as not verified. A tip links the official booking page (https://kpmn.welovebooking.net/book/kpmn/home, the 'Get Tickets' target on https://kingpowermahanakhon.co.th/experience/mahanakhon-skywalk) and says to compare it and Klook before paying. The curator's reason holds: I rendered the booking page and it showed no prices, and Klook returned HTTP 403. No cheaper price can be verified, so an honest note and a way to compare is the fix that can actually be made."
+rereview_of: 815b9be449e1533979e19bad9d376903beb99773c2e37cea5b0c993a51e6f33c
+summary: "The earlier should is resolved: the walk-in price is labelled as such, the online price is marked unverified, and the page links the official booking page so the traveler can compare. All new facts check out: phones banned on the glass floor, shoe covers and staff photos (Trvlogue, browser render), online often cheaper (Trvlogue, Thai Holiday Guide), sunset busiest (Thai Holiday Guide), and Dec–Jan coolest and driest (Wikipedia climate table). The tips and weather blocks render cleanly on phone. Nothing is left to fix."
+model: claude-opus-5-5
+cost_usd: 0.739

@@ -1,0 +1,122 @@
+id: talat-noi-so-heng-tai
+name: "Talat Noi and the So Heng Tai mansion"
+short_name: Talat Noi
+name_local: ตลาดน้อย · บ้านโซวเฮงไถ่
+name_romanized: Talat Noi
+country: thailand
+city: bangkok
+area: Samphanthawong
+category: odd-local
+fame: hidden
+tags: [street-art, neighbourhood-walk, free, chinese-heritage, cafe, riverside]
+kind: Do
+why: "Murals between greasy car-parts yards, scrap-metal Transformers and a 200-year-old Hokkien courtyard house with a dive pool in the middle."
+cost:
+  local: 0
+  currency: THB
+  brl: 0
+  note: "Free to wander. So Heng Tai asks you to buy something at its café (no current price found)"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2–3 h
+best_time: "Tue–Sun, late morning (murals photograph best before noon)"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Lanes and murals always open. So Heng Tai Tue–Sun 09:00–18:00"
+  closed: "Mondays: So Heng Tai and Hong Sieng Kong are both closed"
+  winter: "The Talakkia craft market sets up by Phanurangsi Pier on the first Saturday and Sunday of each month, 10:00–18:00, so likely Sat Jan 2 and Sun Jan 3, 2027 (not confirmed). The small Talat Noi Museum was listed as closed in Oct 2026. Many cafés close by early evening."
+
+location:
+  address: "So Heng Tai, 282 Soi Wanit 2, Talat Noi, Samphanthawong, Bangkok 10100"
+  address_local: "บ้านโซวเฮงไถ่ 282 ซอยวานิช 2 แขวงตลาดน้อย เขตสัมพันธวงศ์ กรุงเทพฯ 10100"
+  lat: 13.73362
+  lng: 100.51211
+  nearest_transit: "Hua Lamphong (MRT Blue Line), about 900 m; or Si Phraya pier"
+
+sources:
+  - url: https://www.visitthailandtoday.com/guides/talat-noi-guide
+    title: "Talat Noi Bangkok: Street Art, Cafés and a Walk Through the Old Riverside Quarter (Visit Thailand Today, Oct 2026)"
+    checked: 2026-11-12
+  - url: https://www.phuket101.net/bangkok/talat-noi-in-bangkok/
+    title: "Talat Noi in Bangkok: A Walking Guide (Phuket 101, updated Aug 2026)"
+    checked: 2026-11-12
+  - url: https://www.phuket101.net/bangkok/so-heng-tai-mansion/
+    title: "So Heng Tai Mansion: a Chinese Courtyard Home in Talad Noi (Phuket 101, Jan 2025)"
+    checked: 2026-11-12
+  - url: https://thailandmagazine.com/bangkok/see-do/so-heng-tai-mansion/
+    title: "So Heng Tai Mansion: Historic Courtyard Home and Diving School (Thailand Magazine)"
+    checked: 2026-11-12
+  - url: https://www.expique.com/guide-to-talad-noi-in-bangkok-chinatown/
+    title: "A Guide to Talad Noi in Bangkok's Chinatown (Expique)"
+    checked: 2026-11-12
+  - url: https://www.chaophrayaexpressboat.com/chaophrayaexpressboat?lang=en
+    title: "Boat Service: lines and fares, Yellow Flag ฿24 (Chao Phraya Express Boat, official)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "So Heng Tai: closed Mondays per Phuket 101 (Jan 2025), Expique and Visit Thailand Today; Thailand Magazine says daily. Entry needs a café purchase; other sites mention a ฿50 drink credit, but no page I opened confirms the amount. The January Talakkia dates follow the first-weekend rule; not announced. No free photo of So Heng Tai on Commons; hero is the Rong Kueak shrine nearby."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: rong-kueak-shrine
+    hook: "Old Bangkok that never got polished: engine blocks on the pavement, murals overhead, shrines on the river."
+    caption: "The Rong Kueak shrine on the river, Talat Noi"
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: "Tue–Sun, late morning"
+    extra:
+      - { label: Your slot, value: "Weekday, from late morning", detail: "Tue–Fri; done by mid-afternoon, before cafés close" }
+      - { label: Respect, value: People live and work here, detail: "Don't block workshop doors; cover shoulders at church" }
+  - type: highlights
+    items:
+      - title: So Heng Tai
+        text: "A Hokkien courtyard house over 200 years old, still owned by the same family. In 2004 they put a **scuba-diving pool** in the courtyard. Visit by buying a drink at the café."
+      - title: Murals and car parts
+        text: "Walls painted since the **2016 Bukruk festival**, around Soi Charoen Krung 22 and the alley to the Rong Kueak shrine, between yards stacked with second-hand engine parts."
+      - title: Scrap-metal Transformers
+        text: "Hia Seng, who has traded car parts here since he was 14, welds leftovers into life-size robots: **Bumblebee, Optimus Prime and Megatron** stand on nearby corners."
+      - title: Shrines, a church and a bank
+        text: "The Chow Sue Kong shrine (1804), the Gothic **Holy Rosary Church** (1891–97) and the riverside Siam Commercial Bank branch, Thailand's oldest, opened in 1908."
+  - type: prose
+    title: The other Chinatown
+    dropcap: true
+    text: |-
+      Talat Noi means "small market", but there's no real market here. It's a few riverside lanes just south of Yaowarat where Chinese craftsmen settled. For about 70 years the area has been Bangkok's centre for refurbishing second-hand car parts, and the workshops are still running. Coffee bars have opened in between: one, Mother Roaster, sits up a staircase above a junkyard of engine parts.
+
+      It's free, small and flat, and two or three hours are enough. That makes it an easy weekday outing before your 19:00 shift. Walk in from Hua Lamphong MRT or arrive by express boat, go round the lanes, then walk north to Yaowarat as the street food comes out.
+  - type: cost_breakdown
+    items:
+      - { label: Walking the lanes and murals, local: 0, brl: 0 }
+      - { label: "Express boat to Si Phraya pier (Yellow Flag)", local: 24, brl: 3.96, optional: true }
+  - type: map
+    note: "The pin is **So Heng Tai** on Soi Wanit 2. For a taxi, ask for **Soi Charoen Krung 22**, not just 'Talat Noi'."
+  - type: gallery
+    images:
+      - { file: fish-sauce-mural, caption: "A mural on the wall of a fish-sauce factory in Talat Noi" }
+      - { file: lane-mural, caption: "Photographing a lane mural in Talat Noi" }
+  - type: tips
+    variant: insider
+    items:
+      - "**Your slot: weekday, from late morning** (Tue–Fri). Start around 11:00, finish on Song Wat Road or in Yaowarat, and you're home before 19:00."
+      - "If you're in Bangkok on **Sat Jan 2 or Sun Jan 3**, the Talakkia craft market should be on the riverside lawn at Phanurangsi Pier (10:00–18:00)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Monday** is the wrong day: So Heng Tai and the best-known café, Hong Sieng Kong, are both closed."
+      - "The workshops are real businesses. Don't step inside or stand in their doors for a photo, and keep to the edge of the lanes: motorbikes use them."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; the cool season
+    note: "The lanes are narrow and partly shaded, but there's little air-conditioning except in the cafés. Mornings are cooler and give the best light on the murals."
+    wear: "Light clothes that cover the shoulders (for the church and shrines)"
+  - type: pairs_well
+    items:
+      - { id: yaowarat-street-food, note: "A short walk north, for dinner" }
+      - { id: chao-phraya-express-boat, note: "Arrive by river at Si Phraya or Marine Department pier" }

@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: river-approach
+  title: File:Approaching Iconsiam from Chao Phraya River, Bangkok.jpg
+  author: Slyronit
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Approaching_Iconsiam_from_Chao_Phraya_River,_Bangkok.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/02/Approaching_Iconsiam_from_Chao_Phraya_River%2C_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Approaching Iconsiam from Chao Phraya River, Bangkok
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: sooksiam-boats
+  title: File:SookSiam@ICONSIAM Thailand.jpg
+  author: BunBn
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:SookSiam@ICONSIAM_Thailand.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4c/SookSiam%40ICONSIAM_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sook Siam in ICONSIAM. It is the big Thai traditional market from four parts of Thailand showing on 1st floor of ICONSIAM, Bangkok, Thailand.
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: sooksiam-hall
+  title: File:SookSiam 20220813.jpg
+  author: DMS WIKI
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:SookSiam_20220813.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/21/SookSiam_20220813.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sook Siam in ICONSIAM, Khlong San, Bangkok
+  width: 4032
+  height: 2268
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: atrium-curves
+  title: File:Iconsiam at Day (IV).jpg
+  author: This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images, but please mention me as the author…
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Iconsiam_at_Day_(IV).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Iconsiam_at_Day_%28IV%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Atrium interior of the ICONSIAM shopping mall, Bangkok.
+  width: 5251
+  height: 3501
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

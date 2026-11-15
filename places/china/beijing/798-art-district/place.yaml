@@ -1,0 +1,121 @@
+id: 798-art-district
+name: "798 Art District: Mao Slogans in a Factory"
+short_name: 798 Art District
+name_local: 798艺术区
+name_romanized: Qī Jiǔ Bā Yìshùqū
+country: china
+city: beijing
+area: "Chaoyang · Dashanzi"
+category: culture
+fame: popular
+tags: [communism, art, industrial-heritage, bauhaus, free, galleries]
+kind: See
+why: "Free to walk: an East German-built 1950s factory complex turned art district, old machinery left in place, ¥30–120 only for big shows."
+
+cost:
+  local: 0
+  currency: CNY
+  brl: 0
+  note: "Walking the district and most galleries is free; big ticketed shows ¥30–120"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–4 h"
+best_time: "Tue–Sun afternoon (many galleries shut Mondays)"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Streets open all day; galleries roughly 10:00–18:00. UCCA Tue–Sun 10:00–19:00, last entry 18:30"
+  closed: "Many galleries, and UCCA, closed Mondays"
+  winter: "No winter closure found. UCCA's show in Dec–Jan is Carsten Höller: Two (14 Jul 2026 – 31 Jan 2027). Beijing is below freezing in December, so plan on hopping between heated galleries and cafés."
+
+location:
+  address: "798 Art District, 4 Jiuxianqiao Road, Chaoyang District, Beijing"
+  address_local: 北京市朝阳区酒仙桥路4号 798艺术区
+  lat: 39.98281
+  lng: 116.49048
+  nearest_transit: "Gaojiayuan (Lines 12 and 14), about 550 m"
+  approximate: true
+
+sources:
+  - url: https://www.lonelyplanet.com/points-of-interest/798-art-factory/1541494
+    title: "Lonely Planet, 798 Art Factory: Bauhaus hall, red Maoist slogans on the ceiling, East German-built 718 factory, 1957 (atr render)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/798_Art_Zone
+    title: "798 Art Zone — Wikipedia: Project 157 with East Germany, built 1954–57, Cultural Revolution slogans kept at tenants' request"
+    checked: 2026-11-13
+  - url: https://chinafortravelers.com/guides/798-art-district-beijing/
+    title: "China for Travelers: free to walk, galleries ~10:00–18:00, many closed Mondays, shows ¥30–120, Gaojiayuan 550 m, 2–4 h"
+    checked: 2026-11-13
+  - url: https://ucca.org.cn/en/visit/
+    title: "UCCA Center for Contemporary Art (official): Tue–Sun 10:00–19:00, Carsten Höller show to 31 Jan 2027, no online sales to foreigners"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Beijing — Wikipedia (December climate normals)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "The slogans are described by Lonely Planet's current listing and Wikipedia, but none of them is dated 2026, and whether a given show leaves the hall open to walk in is not stated. UCCA's ticket price is not on its site (it varies by show). Gallery hours vary by gallery."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: slogans-arches
+    hook: "Sawtooth Bauhaus halls from the 1950s, with Cultural Revolution slogans still painted in red overhead."
+    caption: "The 798 Art Factory (798 Space) hall, slogans on the ceiling arches"
+  - type: quick_facts
+    time_needed: "2–4 h"
+    best_time: "Tue–Sun, afternoon"
+    extra:
+      - { label: Closed, value: Mondays (most galleries), detail: "The streets themselves are open every day" }
+      - { label: Your slot, value: "Afternoons, also Dec 29–31", detail: "Fine after a night shift; avoid Monday 28 Dec" }
+  - type: highlights
+    items:
+      - title: The slogan ceiling
+        text: "In the **798 Art Factory** hall, red Maoist slogans painted during the Cultural Revolution still run along the arched concrete ceiling. Artists asked the renovators to keep them."
+      - title: Socialist-bloc engineering
+        text: "The **718 Joint Factory** was designed with East German expertise and opened in 1957: north-facing sawtooth roofs, huge open halls, some of the old machinery left in place."
+      - title: Free to wander
+        text: "Walking the lanes and most galleries costs nothing. Big shows charge **¥30–120**; UCCA, the main museum, sells tickets at the front desk."
+      - title: Mao kitsch, on purpose
+        text: "Wikipedia notes the kept slogans give the galleries an ironic **'Mao kitsch'** touch. In Dec–Jan UCCA shows Carsten Höller's *Two* (to 31 Jan 2027)."
+  - type: prose
+    title: "Socialist factory, contemporary art"
+    dropcap: true
+    text: |-
+      In the early 1950s the new People's Republic asked its allies to build its industry. East Germany sent engineers for a giant electronics works in Dashanzi, north-east Beijing, which ran from 1957 as the 718 Joint Factory and was later split into numbered plants, among them 798. The Germans built to Bauhaus rules: function first, north-facing windows for shadowless light, and earthquake standards the Chinese and Soviet advisers thought excessive.
+
+      During the Cultural Revolution workers painted slogans in praise of Mao and Mao Zedong Thought across the ceilings. Production wound down from the late 1980s, an art academy and then galleries moved into the empty halls from 1995, and when the site was saved from demolition in the 2000s the tenants asked for the slogans to stay. So you get a rare mix: socialist industrial architecture, Cultural Revolution paint and a contemporary art scene in one place.
+
+      The slogans are the reason to come for this list, so check the **798 Art Factory** (enter via the underpass just west of UCCA, per Lonely Planet) first; the hall is used for exhibitions, so what's on the floor changes.
+  - type: gallery
+    images:
+      - { file: winter-street, caption: "A lane in the district in December" }
+      - { file: sign-798, caption: "The 798 sign at an entrance" }
+      - { file: sawtooth-halls, caption: "Old factory halls, with their tall windows", focus: top }
+  - type: cost_breakdown
+    items:
+      - { label: The district and most galleries, local: 0, brl: 0 }
+      - { label: "A ticketed show (UCCA or similar)", local: 80, brl: 67.91, optional: true, estimate: true, note: "Range ¥30–120 per China for Travelers" }
+  - type: map
+    note: "The pin is the district, not the slogan hall (just west of UCCA). From **Gaojiayuan** (Lines 12/14) it's about 550 m to the Jiuxianqiao Road entrance. A taxi from the centre is 30–45 min."
+  - type: tips
+    variant: insider
+    items:
+      - "UCCA's website doesn't sell to international visitors: buy at the front desk (or on its WeChat account)."
+      - "Go Tuesday to Sunday; on Mondays you get the streets but most doors are shut."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It's a long ride from the centre: 30–45 min by taxi, so give it the whole afternoon rather than squeezing it in."
+      - "Gallery hours vary and shows change; check what's on before a special trip."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: "Dry, sunny and freezing"
+    note: "Outdoor lanes between heated galleries and cafés, so it's one of the better cold-day plans in Beijing."
+    wear: "Down jacket, hat, gloves"
+  - type: pairs_well
+    items:
+      - { id: tiananmen-square-mao-mausoleum, note: "The official side of the Mao era" }
+      - { id: panjiayuan-mao-memorabilia, note: "Buy the badges and posters you saw in the art" }

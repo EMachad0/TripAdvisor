@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: akihabara-night
+  title: File:Sotokanda, Akihabara Electric Town at night 20231114.png
+  author: Phineyes
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Sotokanda,_Akihabara_Electric_Town_at_night_20231114.png
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/60/Sotokanda%2C_Akihabara_Electric_Town_at_night_20231114.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: This image depicts Sotokanda, Akihabara Electric Town at night
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

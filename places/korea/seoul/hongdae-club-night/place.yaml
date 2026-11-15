@@ -1,0 +1,178 @@
+id: hongdae-club-night
+name: "Hongdae Club Night: NB2 and Club Street"
+short_name: Hongdae Club Night
+name_local: 홍대 클럽 NB2
+country: korea
+city: seoul
+area: Mapo-gu · Hongdae
+category: nightlife
+fame: popular
+tags: [club, hip-hop, hongdae, late-night, hostel-crew]
+kind: Do
+why: "Seoul's student club district: NB2's hip-hop basement and the clubs around Wausan-ro, ₩15,000-ish covers, dancing until 5–6 AM with your hostel crew."
+
+cost:
+  local: 15000
+  currency: KRW
+  brl: 61.44
+  note: "Weekend cover per AI-drafted 2026 guides, not NB2; weekday from about ₩5,000, often waived before midnight"
+fx: { rate: 0.004096, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 4–6 h
+best_time: "Sun 10 Jan, or Sat 16 Jan if back from Hwacheon"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "NB2 opens 22:00 (Kakao). Guides say Hongdae clubs peak 23:00–02:00 and close 5–6 AM, some 7 AM on weekends"
+  closed: "Closing time and closed days not shown on Kakao Map"
+  winter: "No winter schedule published by any source. Expect to queue outside in sub-zero air on weekends, and budget ₩2,000–3,000 (cash) to check your coat."
+
+location:
+  address: "B1–B2, 72 Wausan-ro, Mapo-gu, Seoul"
+  address_local: 서울특별시 마포구 와우산로 72 지하1-2층 (클럽 NB2)
+  lat: 37.55087
+  lng: 126.92341
+  nearest_transit: "Sangsu station Exit 2, 387 m (6 min walk)"
+
+sources:
+  - url: https://place.map.kakao.com/1600511760
+    title: "클럽nb2 on Kakao Map: address, opens 22:00, Instagram, 2023 review on entry prices after a renewal"
+    checked: 2026-11-10
+  - url: https://korlens.app/blog/hongdae-nightlife-guide
+    title: "Hongdae Nightlife 2026 (KORLENS, checked 4 Oct 2026): NB2, Aura, Made, Club FF, covers, ID, owl buses"
+    checked: 2026-11-10
+  - url: https://blog.namanecard.com/en/hongdae-late-night-guide-en/
+    title: "Hongdae late-night guide (Namane Card blog, 30 Apr 2026): covers, closing times, age rules, coat check, last train"
+    checked: 2026-11-10
+  - url: https://creatrip.com/en/blog/15222
+    title: "Nightlife in Hongdae (Creatrip): Club Street, cover and drink prices, ID, dress"
+    checked: 2026-11-10
+  - url: https://thepartyingtraveler.com/ultimate-guide-hongdae-nightlife-seoul
+    title: "Ultimate guide to Hongdae nightlife (The Partying Traveler): Korean-only clubs, NB2 cover, ID"
+    checked: 2026-11-10
+  - url: https://place.map.kakao.com/27417898
+    title: "사보타지 (Sabotage) on Kakao Map: business-verified listing, opens 22:00"
+    checked: 2026-11-10
+  - url: https://www.esquirekorea.co.kr/article/66925
+    title: "Esquire Korea (3 Jun 2022): Hongdae clubs after COVID; said NB2 had closed and Sabotage caps foreigners at about 20%"
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Seoul
+    title: "Seoul (Wikivoyage): Hongdae's universities and nightlife, owl bus fare"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020"
+    checked: 2026-11-10
+confidence: low
+confidence_note: "NB2's status is not settled: Esquire (2022) said it closed; a 2023 Kakao review says it reopened; Kakao shows only 'opens 22:00'. No 2026 NB2 post or visitor report was found. All 2026 covers, drink prices and closing times come from KORLENS, Namane and Creatrip, which label their guides AI-drafted. No Sunday-specific cover found. No source gives an NB2 foreigner rule."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: hongdae-night
+    caption: "Hongdae's party district at night. No free photo inside NB2 exists"
+    hook: "Hip-hop in a basement on Wausan-ro, a coat-check ticket in your pocket and the first train at 5:30."
+  - type: quick_facts
+    time_needed: 4–6 h
+    best_time: "Sun 10 Jan, or Sat 16 Jan if back from Hwacheon"
+    extra:
+      - { label: Bring, value: Physical passport, detail: "Phone photos and copies are often refused" }
+      - { label: Age, value: "19+ (passport age)", detail: "Some clubs add informal upper limits" }
+      - { label: Music at NB2, value: Hip-hop }
+  - type: highlights
+    items:
+      - title: NB2, the name everyone gives
+        text: "KORLENS calls it \"hip-hop focus, backed by YG Entertainment, big floor. Touristy but legitimately fun.\" It is at 72 Wausan-ro, two basement floors down."
+      - title: A whole street of clubs
+        text: "Creatrip points people to **Club Street** around Wausan-ro 21-gil and 29-gil, with names like M2, Aura, Ocean, B1 and Club FF nearby."
+      - title: Covers with a drink included
+        text: "Covers typically run **₩10,000–20,000 with a drink included**, and many clubs waive it before midnight or with a flyer (KORLENS)."
+      - title: Out until the first train
+        text: "Most clubs run until 5 or 6 AM, some to 7 AM on weekends; the first trains leave around 5:30 AM."
+  - type: prose
+    title: Is NB2 still going?
+    text: |-
+      Esquire Korea called NB2 "Hongdae's representative hip-hop club" when it wrote, in 2022, that it had not survived COVID and had disappeared. A Kakao Map review from October 2023 says it is back after a **renewal**, with Friday entry of ₩15,000 for men and ₩10,000 for women, but also that it was nearly empty inside that night and worse than before.
+
+      Today Kakao Map lists NB2 at 72 Wausan-ro, opening at 22:00, with its Instagram account, and the KORLENS guide, checked in October 2026, still recommends it. Check the Instagram before you go. If NB2 is quiet, **Sabotage** on Wausan-ro 17-gil has a business-verified Kakao listing, but Esquire (2022) reports it stops letting foreigners in once they are about **20% of the crowd**, so a solo foreigner may be turned away late in the night.
+
+      Which night: you work 21:00–06:00 Mon–Fri, and 16–17 January is Hwacheon, so **Sunday 10 January** is the sure free night (Monday's shift starts at 21:00). Expect a thinner crowd and weekday-style covers on a Sunday; no guide gives Sunday prices. **Saturday 16 January** is the full-crowd option only if you are back from Hwacheon that evening.
+
+      The plan that works best: drinks at the hostel first, walk down together before midnight to dodge covers, and stay out until the first train.
+  - type: menu
+    title: What the night costs
+    items:
+      - name: Weekend cover (popular clubs)
+        name_local: 입장료
+        price_local: 15000
+        price_brl: 61.44
+        note: "₩15,000–20,000 on weekends; usually one drink ticket included"
+        tag: signature
+      - name: Weekday cover
+        price_local: 5000
+        price_brl: 20.48
+        note: "From about ₩5,000; often free before 22:00–23:00"
+        tag: cheap
+      - name: A drink at the bar
+        price_local: 5000
+        price_brl: 20.48
+        note: "Commonly ₩5,000–10,000"
+        tag: drink
+      - name: Coat check
+        price_local: 2000
+        price_brl: 8.19
+        note: "₩2,000–3,000 per item, usually cash only"
+      - name: Owl bus home
+        price_local: 2500
+        price_brl: 10.24
+        note: "N-buses run about 23:30–04:00 with T-money"
+    note: "District ranges from AI-drafted 2026 guides (KORLENS, Namane, Creatrip), not a price list from NB2. **Read the sign at the door**: the cover can change by night or by hour."
+  - type: cost_breakdown
+    items:
+      - label: Weekend cover (one drink included)
+        local: 15000
+        brl: 61.44
+      - label: Coat check
+        local: 2000
+        brl: 8.19
+        optional: true
+      - label: Two more drinks
+        local: 10000
+        brl: 40.96
+        estimate: true
+        optional: true
+      - label: Owl bus home
+        local: 2500
+        brl: 10.24
+        optional: true
+  - type: map
+    zoom: 17
+    note: "From Sangsu station Exit 2 it is a 6-minute walk. Club Street (Wausan-ro 21-gil and 29-gil) starts a few blocks north."
+  - type: tips
+    variant: insider
+    items:
+      - "Get in **before midnight**: KORLENS says you will often skip the cover."
+      - "Carry your **physical passport**. Phone photos, scans and copies are often rejected."
+      - "Clean sneakers are fine in Hongdae; closed shoes are the safest choice (Creatrip)."
+      - "Missed the last train (about 1:20 AM on weekdays from Hongdae on Line 2)? Owl N-buses cost ₩2,500, or wait for the first trains around 5:30."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Some clubs **refuse foreigners**: one guide says Hongdae has \"quite a few big clubs that are Korean-only\". Go where your hostel crew has been let in."
+      - "La Bamba, Zen, Zigzagg and Candy Shop have applied **under-30 limits** on some weekend nights; NB2, B1 and Sinkhole are listed as 19+ only (Namane, Apr 2026)."
+      - "Ask what the cover includes before you pay."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing, dry nights
+    note: "January nights average −5.5 °C. Queueing outside and walking home at 5 AM are the cold parts; inside it is hot and crowded."
+    wear: A jacket you can check, not five layers you have to carry
+  - type: pairs_well
+    items:
+      - id: jins-paradise-hongdae
+        note: "Hongdae hostel with rooftop drinks before you go out"
+      - id: t1-base-camp
+        note: "The T1 PC bang is in Hongdae too"
+      - id: g-guesthouse-itaewon
+        note: "Staying in Itaewon? Take the subway across"

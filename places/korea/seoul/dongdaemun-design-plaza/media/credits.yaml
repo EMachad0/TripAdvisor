@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: night-curves
+  title: File:Dongdaemun Design Plaza - DDP2369.jpg
+  author: lumoplank
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Dongdaemun_Design_Plaza_-_DDP2369.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/30/Dongdaemun_Design_Plaza_-_DDP2369.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Dongdaemun Design Plaza illuminated at night, showing its curved aluminium panel facade.
+  width: 5311
+  height: 3541
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: daytime-curve
+  title: File:20240601 144028 Dongdaemun Design Plaza, Seoul 08.jpg
+  author: Dwxn
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:20240601_144028_Dongdaemun_Design_Plaza,_Seoul_08.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c9/20240601_144028_Dongdaemun_Design_Plaza%2C_Seoul_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Dongdaemun Design Plaza, Seoul
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: roof-lawn
+  title: File:Dongdaemun Design Plaza grass.jpg
+  author: Tristan Surtel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Dongdaemun_Design_Plaza_grass.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/13/Dongdaemun_Design_Plaza_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Grass on top of Dongdaemun Design Plaza in Seoul with multiple high-rise buildings visible in the background: Lotte Fitin, Good Morning City, and Migliore Dongdaemun."
+  width: 6016
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: night-panorama
+  title: File:Dongdaemun Design Plaza at night, Seoul, Korea.jpg
+  author: Eugene Lim
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Dongdaemun_Design_Plaza_at_night,_Seoul,_Korea.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8f/Dongdaemun_Design_Plaza_at_night%2C_Seoul%2C_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Dongdaemun Design Plaza at night, Seoul, Korea.
+  width: 3600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

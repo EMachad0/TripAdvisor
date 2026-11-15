@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: central-street-ice
+  title: File:Central Street (Zhongyang Dajie), Harbin 1 Ice sculpture.jpg
+  author: 闫恩铭 / Enming Yan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Central_Street_(Zhongyang_Dajie),_Harbin_1_Ice_sculpture.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/98/Central_Street_%28Zhongyang_Dajie%29%2C_Harbin_1_Ice_sculpture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: To be filledTo be filled
+  width: 4048
+  height: 3036
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: center-gai-rain
+  title: File:Shibuya Center Gai on a rainy afternoon.jpg
+  author: Benlisquare
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shibuya_Center_Gai_on_a_rainy_afternoon.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Shibuya_Center_Gai_on_a_rainy_afternoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Shibuya Center-Gai on a rainy afternoon.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: ginza-line-mark-city
+  title: File:Ginza line train entering Shibuya Mark City 2.jpg
+  author: Syced
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Ginza_line_train_entering_Shibuya_Mark_City_2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/33/Ginza_line_train_entering_Shibuya_Mark_City_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 銀座線渋谷駅の引上げ先、渋谷マークシティ3階にある。
+  width: 4080
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: mural-from-below
+  title: File:Myth of Tomorrow 2.jpg
+  author: Syced
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Myth_of_Tomorrow_2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1a/Myth_of_Tomorrow_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Myth of Tomorrow (日本の東京都渋谷区にある、岡本太郎の壁画作品) Taken in such a way that the copyrightable painting itself is unusable.
+  width: 4080
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: walkway-commuters
+  title: File:Shibuya - Asu no Shinwa - 2016-05-06.jpg
+  author: MathieuMD
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shibuya_-_Asu_no_Shinwa_-_2016-05-06.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e1/Shibuya_-_Asu_no_Shinwa_-_2016-05-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Long exposure of people walking into Shibuya Station (Tokyo), just below the mural Asu no Shinwa ( The Myth of Tomorrow by Tarō Okamoto ).
+  width: 4773
+  height: 1725
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

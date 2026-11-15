@@ -1,0 +1,155 @@
+id: lion-super-club-cheongdam
+name: "Lion Super Club"
+name_local: 라이언 슈퍼클럽
+country: korea
+city: seoul
+area: Gangnam-gu · Cheongdam
+category: nightlife
+fame: popular
+tags: [club, edm, techno, gangnam, late-night]
+kind: Do
+why: "Octagon closed in 2020. Lion, a 700-person EDM room in Cheongdam, is the Seoul club on DJ Mag's 2026 Top 100 (#57). About ₩30,000 at the door."
+
+cost:
+  local: 30000
+  currency: KRW
+  brl: 124.68
+  note: "Regular night at the door, 2 drinks included (NightFlow). ₩25,000 in advance; big guest-DJ nights ₩40,000–70,000"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 4–6 h
+best_time: "Sat 16 Jan, from about midnight"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Thu from 22:00; Fri and Sat from 23:00, until about 06:00 (NightFlow, Techno Airlines)"
+  closed: "Sun–Wed"
+  winter: "No winter schedule published. The January 2027 line-up is not out yet (checked 12 Nov 2026); Techno Airlines lists Lion nights up to 17 Dec 2026. You queue on Dosan-daero at around −5 °C, so bring a jacket you can check."
+
+location:
+  address: "1F–2F, Yonggang Building annex, 535 Dosan-daero, Gangnam-gu, Seoul"
+  address_local: 서울특별시 강남구 도산대로 535 용강빌딩 별관동 1-2층 (라이언 슈퍼클럽)
+  lat: 37.52518
+  lng: 127.05217
+  nearest_transit: "Cheongdam station (Line 7), about 750 m"
+  approximate: true
+
+sources:
+  - url: https://www.technoairlines.com/club/lion-seoul
+    title: "LION SUPER CLUB (Techno Airlines, checked by them 29 Sep 2026): address, Thu–Sat 23:00–06:00, 700 capacity, 19+, prices, DJ Mag #57"
+    checked: 2026-11-12
+  - url: https://nightflow.kr/en/clubs/gangnam/lion-super-club
+    title: "Lion Super Club (NightFlow): Thu 22:00, Fri–Sat 23:00, ₩25,000 advance / ₩30,000 door with 2 drinks, table minimum ₩1,400,000"
+    checked: 2026-11-12
+  - url: https://djmag.com/top100clubs
+    title: "DJ Mag Top 100 Clubs 2026: Lion Seoul at #57, new entry"
+    checked: 2026-11-12
+  - url: https://nightflow.kr/en/blog/octagon-seoul-alternatives
+    title: "Club Octagon Seoul: is it still open? (NightFlow, updated 4 Oct 2026): closed since 2020; Lion cheapest bottle ₩350,000"
+    checked: 2026-11-12
+  - url: https://nightflow.kr/en/club-entry-rules
+    title: "Age, passport and entry rules (NightFlow): physical passport, year-age rule, solo men and group door policy"
+    checked: 2026-11-12
+  - url: https://nightflow.kr/en/dress-code
+    title: "Seoul club dress code (NightFlow): Gangnam is the strictest district; no slippers, shorts or sweatpants for men"
+    checked: 2026-11-12
+  - url: https://m.map.kakao.com/actions/searchView?q=%EB%9D%BC%EC%9D%B4%EC%96%B8%20%ED%81%B4%EB%9F%BD%20%EA%B0%95%EB%82%A8
+    title: "라이언슈퍼클럽 on Kakao Map: 도산대로 535 용강빌딩 별관동 1-2층, hours 23:00–06:00"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals, mean high 2.1 °C, mean low −5.5 °C"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Octagon closure: NightFlow and listing sites, no dated notice. Nights: NightFlow/Techno Airlines say Thu–Sat; Kakao gives 23:00–06:00 (on 12 Nov it also showed Mon–Thu, Sun closed; not repeated here). Prices from NightFlow and Techno Airlines (citing RA, which blocked me). DJ Mag list read via atr render (403 to fetch). No Lion dress code or foreigner rule published. Pin = building (OSM)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Big-room EDM and techno, a Friday guest DJ from abroad, and a 6 AM taxi back across the river."
+  - type: quick_facts
+    time_needed: 4–6 h
+    best_time: "Sat 16 Jan, from midnight"
+    extra:
+      - { label: Bring, value: Physical passport, detail: "Photos and photocopies are not accepted (NightFlow)" }
+      - { label: Age, value: "19+", detail: "Korean year age: in 2027, born 2008 or earlier" }
+      - { label: Music, value: "EDM, techno, trance" }
+  - type: highlights
+    items:
+      - title: The ranked one
+        text: "**DJ Mag's Top 100 Clubs 2026** has Lion at #57, a new entry, and no other club from Seoul. It is the one to pick if you want a famous night."
+      - title: Foreign DJs on Fridays
+        text: "The **GLOBAL CALLING** series brings DJs from abroad (CamelPhat, Danny Avila and Kasablanca were booked for Nov 2026). Other nights go to Korean labels, trance and hard techno."
+      - title: Two drinks in the cover
+        text: "A regular night is **₩30,000 at the door or ₩25,000 in advance, with two drinks included**, according to NightFlow. That is less than one cocktail at many clubs back home."
+      - title: Small enough to dance
+        text: "Techno Airlines gives the capacity as **700**. That is far smaller than Octagon's 3,000, so the room is full, not endless."
+  - type: prose
+    title: What happened to Octagon?
+    text: |-
+      For a decade, the answer to "Seoul's famous club" was **Octagon**, a 3,000-person basement in Nonhyeon-dong that regularly made DJ Mag's list. NightFlow's October 2026 check found that Korean references list it as closed since 2020 and that there is no dated news of a reopening. Promoter pages still sell "Octagon" tables, so ignore them.
+
+      In 2026, Lion is the Seoul club on DJ Mag's list. It is a Gangnam night: dress up a little, carry your passport, and expect bottle tables (NightFlow lists a ₩1,400,000 minimum spend per group) next to a floor where a ticket and two drinks are enough.
+
+      **For your dates:** in your Korea days (10–20 Jan) the club nights are Thu 14, Fri 15 and Sat 16 Jan. Thu 14 and Fri 15 are work nights (your shift runs 21:00–06:00), so **Sat 16 Jan** is the one that works: no shift that night or on Sunday. Check @lionseoul on Instagram for the line-up a week or two before.
+  - type: menu
+    title: What the night costs
+    items:
+      - name: Regular night, at the door
+        name_local: 현장 입장
+        price_local: 30000
+        price_brl: 124.68
+        note: "2 drinks included (NightFlow)"
+        tag: signature
+      - name: Regular night, advance ticket
+        name_local: 사전 예매
+        price_local: 25000
+        price_brl: 103.9
+        note: "2 drinks included (NightFlow)"
+        tag: cheap
+      - name: Big guest night, advance
+        price_local: 40000
+        price_brl: 166.24
+        note: "Early bird for CamelPhat (12 Nov 2026); ₩60,000 general (Techno Airlines)"
+      - name: Big guest night, at the door
+        price_local: 70000
+        price_brl: 290.92
+        note: "CamelPhat night, 12 Nov 2026 (Techno Airlines)"
+      - name: Cheapest bottle (table)
+        price_local: 350000
+        price_brl: 1454.6
+        note: "Only for a group; NightFlow lists a ₩1,400,000 table minimum"
+    note: "Prices from NightFlow and Techno Airlines for autumn 2026. January 2027 nights are not priced yet."
+  - type: cost_breakdown
+    items:
+      - label: Door entry, regular night (2 drinks)
+        local: 30000
+        brl: 124.68
+  - type: map
+    zoom: 16
+    note: "It is on the ground floor of the Yonggang Building annex on Dosan-daero, about 750 m from Cheongdam station (Line 7). Leave before the subway reopens in the morning and it is a taxi home."
+  - type: tips
+    variant: insider
+    items:
+      - "Buy the **advance ticket** if you know your night: ₩25,000 instead of ₩30,000, and on big nights the gap is bigger."
+      - "Gangnam is Seoul's strictest district for dress (NightFlow): a shirt or clean knit with clean sneakers or shoes is safe."
+      - "Bring a **physical passport**. NightFlow says photos and copies are refused because ID checks are a legal duty."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Shorts, slippers and sweatpants** can get men turned away in Gangnam (NightFlow)."
+      - "NightFlow notes that some Seoul doors turn away all-male groups, and that solo men can have a harder time. A ticket bought in advance helps."
+      - "Any site still selling **Octagon** tables is selling a closed club."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: "Freezing, dry nights"
+    note: "January nights average −5.5 °C (Wikipedia). The cold parts are the door queue and waiting for a taxi at 5–6 AM."
+    wear: "A smart jacket you can check, clean shoes"
+  - type: pairs_well
+    items:
+      - id: hongdae-club-night
+        note: "The cheaper, scruffier alternative: Hongdae's club street"
+      - id: hongdae-pub-crawl
+        note: "Meet people on a Hongdae crawl first, then head out together"

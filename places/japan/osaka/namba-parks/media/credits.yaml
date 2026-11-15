@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: garden-terraces
+  title: File:Namba parks04s3872.jpg
+  author: 663highland
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source_url: https://commons.wikimedia.org/wiki/File:Namba_parks04s3872.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c3/Namba_parks04s3872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: At Namba Parks in Osaka , Osaka prefecture , Japan
+  width: 3840
+  height: 2560
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: canyon
+  title: File:150328 Namba Parks Osaka Japan01bs3.jpg
+  author: 663highland
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source_url: https://commons.wikimedia.org/wiki/File:150328_Namba_Parks_Osaka_Japan01bs3.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0a/150328_Namba_Parks_Osaka_Japan01bs3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Namba Parks view from Swissôtel Nankai Osaka in Osaka , Osaka prefecture , Japan
+  width: 3600
+  height: 5400
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: level-2
+  title: File:Namba Parks Level 2 2013.jpg
+  author: Wpcpey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Namba_Parks_Level_2_2013.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Namba_Parks_Level_2_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Namba Parks Level 2
+  width: 2272
+  height: 1704
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

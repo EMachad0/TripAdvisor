@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: xiaomian-bowl
+  title: File:Chongqing Xiaomian with fried eggs.jpg
+  author: 王桁霽
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chongqing_Xiaomian_with_fried_eggs.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4b/Chongqing_Xiaomian_with_fried_eggs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chongqing Xiaomian with fried eggs
+  width: 4032
+  height: 2688
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

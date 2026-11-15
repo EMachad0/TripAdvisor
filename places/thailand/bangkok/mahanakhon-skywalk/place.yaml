@@ -1,0 +1,117 @@
+id: mahanakhon-skywalk
+name: "King Power Mahanakhon SkyWalk"
+short_name: Mahanakhon SkyWalk
+name_local: มหานคร สกายวอล์ค
+name_romanized: Mahanakhon SkyWalk
+country: thailand
+city: bangkok
+area: Silom · Chong Nonsi
+category: views
+fame: popular
+tags: [observation-deck, glass-floor, skyline, skyscraper]
+kind: See
+why: "Stand on a glass floor 310 m above Silom, on Thailand's highest 360° observation deck. ฿1,000 if you enter before 15:30."
+cost:
+  local: 1000
+  currency: THB
+  brl: 164.9
+  note: "Walk-in adult price, entry 10:00–15:30 (฿1,200 from 15:30). Online resellers may be a little cheaper; not verified"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–1.5 h
+best_time: Weekday 11:00–15:30 on the day ticket
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 10:00–midnight, last access 23:00. Ticket prices are listed for 10:00–19:00"
+  closed: No closing day listed
+  winter: "Dec–Jan are the dry season, with fewer rain closures. The glass floor can close for a while in high wind or rain. No Dec–Jan hour changes were listed when checked (Nov 2026)."
+
+location:
+  address: "114 Narathiwas Ratchanakarin Rd, Silom, Bang Rak, Bangkok 10500"
+  address_local: "คิง เพาเวอร์ มหานคร 114 ถนนนราธิวาสราชนครินทร์ แขวงสีลม เขตบางรัก กรุงเทพฯ 10500"
+  lat: 13.72315
+  lng: 100.52808
+  nearest_transit: "Chong Nonsi (BTS Silom Line), Exit 3"
+
+sources:
+  - url: https://kingpowermahanakhon.co.th/experience/mahanakhon-skywalk
+    title: "Mahanakhon SkyWalk: ticket information and hours (official site)"
+    checked: 2026-11-12
+  - url: https://www.thaiholidayguide.com/attraction/mahanakhon-skywalk/
+    title: "Mahanakhon SkyWalk (Thai Holiday Guide, 2026)"
+    checked: 2026-11-12
+  - url: https://www.trvlogue.com/en/mahanakhon-skywalk-bangkok-tickets
+    title: "Bangkok Mahanakhon SkyWalk 2026: Day vs. Sunset Ticket Prices (Trvlogue)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices and hours from the official SkyWalk page (Nov 2026); it lists prices only to 19:00, so the evening price is unknown. Glass-floor wind/rain closures per Thai Holiday Guide. Guides say online is often slightly cheaper, but Klook would not render and the official booking site showed no prices, so no cheaper price is verified."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: sunset-terrace
+    focus: "50% 55%"
+    caption: "Bangkok's towers at sunset, seen from the Mahanakhon terrace"
+    hook: "A glass tray off the 78th floor, and nothing under your shoes but 310 m of air."
+  - type: quick_facts
+    time_needed: 1–1.5 h
+    best_time: Weekday 11:00–15:30 on the day ticket
+    extra:
+      - { label: Your slot, value: Weekday afternoon, detail: "Day ticket (in by 15:30); sunset tier only on a weekend" }
+      - { label: Height, value: 314 m at the top, detail: "Glass floor at 310 m, 63 m²" }
+      - { label: Over budget, value: "R$165 vs R$100/day", detail: "The one paid skyline of the week; see why below" }
+  - type: highlights
+    items:
+      - title: The glass floor
+        text: "A **63 m² glass tray** on the 78th-floor roof, 310 m above the street. You stand on transparent panels over the edge of the building."
+      - title: Two decks in one ticket
+        text: "An indoor 360° deck on the **74th floor** with binoculars and screens naming the landmarks, then the open-air rooftop and **The Peak** at 314 m."
+      - title: Fast lift, odd postbox
+        text: "Video-themed lifts reach the 74th floor in **under 50 seconds**, and Bangkok's highest postbox is up there for a postcard home."
+      - title: Daylight beats sunset here
+        text: "One 2026 reviewer found the glass floor **more striking by day**, and sunset so crowded that a standing spot with a view was hard to find."
+  - type: prose
+    title: Why pay ฿1,000 for a view
+    dropcap: true
+    text: |-
+      We compared three ways to see Bangkok from above. The **Golden Mount** costs ฿100 and shows the old town, but it is a 77 m hill. Rooftop bars charge no entry but need an evening, and the traveler has only three free nights. The SkyWalk is the only true skyscraper view that fits a **weekday afternoon**, it is Thailand's highest 360° observation deck, and the glass floor is the reason people come.
+
+      The cost is R$165, over the R$100 daily budget, which is why it is the one paid skyline on the plan. Use the **10:00–15:30 ticket**: it is ฿200 cheaper than the 15:30–19:00 sunset tier, and the views are just as clear. The sunset tier would also push you past a 19:00 work start, so keep it for a weekend if you want golden hour.
+  - type: gallery
+    images:
+      - { file: skyline-pano, caption: "The view across Bangkok from Mahanakhon" }
+  - type: cost_breakdown
+    items:
+      - { label: "SkyWalk adult ticket, 10:00–15:30", local: 1000, brl: 164.9 }
+      - { label: "Sunset tier instead (15:30–19:00): +฿200", local: 200, brl: 32.98, optional: true }
+  - type: map
+    note: "BTS **Chong Nonsi, Exit 3**. The SkyWalk ticket counter is on the 1st floor of the tower."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot:** weekday afternoon. Arrive by about 14:30 so you are in before the 15:30 price change."
+      - "Sunset is the busiest and dearest slot; a daytime visit avoids both."
+      - "Phones are not allowed on the glass floor itself: staff outside take photos for you, and you wear shoe covers."
+      - "Before paying ฿1,000 at the counter, compare the [official online booking](https://kpmn.welovebooking.net/book/kpmn/home) and Klook the day before: guides say online is often a little cheaper."
+      - "Check the weather before going: in high wind or rain the glass floor can close for a while."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The ticket price jumps ฿200 at 15:30. Don't drift in at 15:35."
+      - "Over budget? The ฿100 Golden Mount is the cheap high view, and it fits the same weekday-afternoon slot."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry and sunny; Dec–Jan are the coolest, driest months"
+    note: "Dec–Jan are the dry season, so rain is unlikely. The wind at 314 m is noticeably stronger than in the street."
+    wear: Normal city clothes; a thin layer for the air-conditioned 74th floor
+  - type: pairs_well
+    items:
+      - { id: golden-mount-wat-saket, note: "The ฿100 view of the old town, for comparison" }
+      - { id: lub-d-bangkok-siam, note: "Siam hostel, a few BTS stops away" }

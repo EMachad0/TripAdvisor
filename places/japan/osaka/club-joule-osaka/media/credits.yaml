@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: amerikamura
+  title: File:Amerikamura (Busy).jpg
+  author: BradBeattie at English Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File:Amerikamura_(Busy).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/21/Amerikamura_%28Busy%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A busy day in Amerikamura .
+  width: 2000
+  height: 1333
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-11
+  origin: commons

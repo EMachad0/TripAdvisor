@@ -1,0 +1,143 @@
+id: cici-park-chongqing
+name: "Cici Park"
+name_local: Cici Park · 开埠遗址公园青年文化空间
+country: china
+city: chongqing
+area: "Nan'an · Longmenhao"
+category: nightlife
+fame: hidden
+must_do: china-clubs
+tags: [club, techno, house, underground, late-night]
+kind: Do
+why: "Chongqing's busiest underground club now: a small room for techno, house and bass under a riverside park, ¥66–88 a ticket, with a NYE party already listed."
+
+cost:
+  local: 88
+  currency: CNY
+  brl: 72.75
+  note: "Door ticket on a paid night (chongqing.guide, Oct 2026). Presale ¥66; some nights free. NYE price not out yet"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–5 h
+best_time: "After midnight; DJ sets start after 22:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Party nights from 22:00 (Techno Airlines listings); the floor fills after midnight. Closing time not published"
+  winter: "Listed so far for Dec 2026 (Techno Airlines, 11 Nov): Sat 12 Dec, Sat 19 Dec, Fri 25 Dec Christmas Pajama Party, and **Thu 31 Dec 'Time Factor - 太妃糖NYE 2027'** from 22:00 with Sunyoung. Nothing is listed yet for 26–30 Dec or 1–2 Jan. NYE ticket price not shown."
+
+location:
+  address: "Youth Cultural Space, 2nd floor, Gate 2 of Opening Port Park (Kaibu Yizhi Park), Longmenhao, Nan'an District, Chongqing"
+  address_local: 重庆市南岸区开埠遗址公园2号门（观光电梯下二楼 青年文化空间）
+  lat: 29.55391
+  lng: 106.58935
+  nearest_transit: "Shangxinjie (Line 6), Exit 2, then an 8–12 min walk"
+  approximate: true
+
+sources:
+  - url: https://chongqing.guide/en/guides/chongqing-nightclubs/
+    title: "Chongqing clubs guide — chongqing.guide (updated 2026-10-27): Cici Park music, tickets, address, Gate 2, metro"
+    checked: 2026-11-11
+  - url: https://www.technoairlines.com/events/chongqing/2026-12
+    title: "Techno events in Chongqing, December 2026 — Techno Airlines (updated 11 Nov): four Cici Park nights incl. NYE"
+    checked: 2026-11-11
+  - url: "https://www.technoairlines.com/event/time-factor-%e5%a4%aa%e5%a6%83%e7%b3%96nye-2027-cici-park-2026-12-31"
+    title: "Time Factor - 太妃糖NYE 2027, Cici Park, Thu 31 Dec 2026 from 22:00 — Techno Airlines"
+    checked: 2026-11-11
+  - url: https://www.technoairlines.com/event/christmas-pajama-party-cici-park-2026-12-25
+    title: "Christmas Pajama Party, Cici Park, Fri 25 Dec 2026 from 22:00 — Techno Airlines"
+    checked: 2026-11-11
+  - url: https://www.technoairlines.com/events/chongqing/2026-11
+    title: "Techno events in Chongqing, November 2026 — Techno Airlines (Open Deck on Wed 11 and 18 Nov, other Cici Park nights)"
+    checked: 2026-11-11
+  - url: https://citiesinsider.com/country/china/chongqing/nightlife/en
+    title: "Nightlife in Chongqing (2026) — Cities Insider: metro stops ~23:00, DiDi ¥15–45 for a 20-min night ride, mobile payment"
+    checked: 2026-11-11
+  - url: https://chongqing.guide/en/guides/yangtze-cableway/
+    title: "Yangtze River Cableway — chongqing.guide (updated 2026-10-07): south station at Shangxinjie, Longmenhao Old Street"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing — Wikipedia (climate table, Dec–Jan normals)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Resident Advisor (ra.co) has the venue's own listings but blocks automated fetches (HTTP 403), so I could not open it: the 18+ rule and 'Open Deck is free on Wednesdays' come from RA search snippets only. Ticket prices are from chongqing.guide, not the venue. Closing time unknown. Pin is the park, not the door. No door policy for foreigners found."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    hook: "A bright little dance room tucked into a cliffside park, where the DJ on the poster decides your night."
+  - type: quick_facts
+    time_needed: 3–5 h
+    best_time: "After midnight"
+    extra:
+      - { label: Music, value: "Techno, house, bass, electro", detail: "Varies by night; check the poster" }
+      - { label: NYE 2026, value: "Listed: 31 Dec, 22:00", detail: "'Time Factor' with Sunyoung (Techno Airlines)" }
+      - { label: Age, value: "18+", detail: "Per RA listings (search snippets only)" }
+  - type: highlights
+    items:
+      - title: The scene's busiest room
+        text: "Techno Airlines lists **four Cici Park nights in December** and eight in November, more than any other Chongqing venue on its calendar."
+      - title: A party on New Year's Eve
+        text: "**'Time Factor - 太妃糖NYE 2027'** is listed for Thursday 31 December from 22:00, with Sunyoung on the lineup. Ticket price not out yet."
+      - title: Good for a solo dancer
+        text: "chongqing.guide calls it a small independent club for people who pick a night by the DJ, with an unpretentious floor for long sets. Craft beer is the main drink."
+      - title: Cheap for a club
+        text: "Paid nights have been **¥66 presale, ¥88 at the door** (R$55–73), and some parties are free."
+  - type: prose
+    title: How it fits a work week
+    text: |-
+      The room is in the **Opening Port Park** on the south bank of the Yangtze, across the river from the hostels in Yuzhong. You walk in through Gate 2, then take the sightseeing lift down two floors to the Youth Cultural Space. By metro it is Line 6 to **Shangxinjie**, Exit 2, then 8–12 minutes on foot. The Yangtze River Cableway lands at the same station, so you can ride over at dusk and come here later.
+
+      Sets start after 22:00 and more dancers arrive after midnight, says chongqing.guide, and Friday nights are busiest. On a quiet night the floor can feel sparse. That makes this a **weekend or holiday** plan: Saturday 26 December (nothing listed yet), New Year's Eve, or New Year's Day if something gets announced. Not the night before the 01:00 call.
+
+      The metro has stopped when you leave, so get a DiDi back across the river. Cities Insider puts a 20-minute night ride in the city core at ¥15–45.
+  - type: cost_breakdown
+    items:
+      - { label: "Door ticket, paid night", local: 88, brl: 72.75 }
+      - { label: "Presale instead (saves)", local: 22, brl: 18.19, optional: true }
+      - { label: "DiDi back to Yuzhong", local: 30, brl: 24.8, estimate: true, optional: true }
+  - type: menu
+    title: Tickets
+    items:
+      - name: Presale ticket, paid night
+        name_local: 预售
+        price_local: 66
+        price_brl: 54.56
+        note: "chongqing.guide, Oct 2026"
+        tag: cheap
+      - name: Door ticket, paid night
+        name_local: 现场
+        price_local: 88
+        price_brl: 72.75
+      - name: NYE 2027 party
+        note: "Listed for 31 Dec from 22:00; price not shown on Techno Airlines"
+    note: "Craft beer is the main drink (chongqing.guide); no bar prices published. Pay with Alipay or WeChat Pay."
+  - type: map
+    note: "Show the driver the Chinese address. Gate 2 is the park's middle-level entrance, beside the car park and the sightseeing lift; the club is two floors down."
+  - type: tips
+    variant: insider
+    items:
+      - "Check the poster first: Techno Airlines' Chongqing page lists each night with its DJs. Pick the one whose sound you like."
+      - "Pair it with the **Yangtze River Cableway**: ride across before last admission (about 20:30 in winter), eat around Longmenhao, then walk to the club."
+      - "In November the venue listed free **Open Deck** nights on Wednesdays (11 and 18 Nov). If one appears on Wed 30 Dec, it is a cheap midweek look."
+      - "Want a darker, harder room? chongqing.guide points to **Inward Club** in Longfor Xinyijie (techno, peaks near 03:00, door ¥99–108)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Arrive after midnight or not at all: before that, chongqing.guide says the floor can be thin."
+      - "Have Alipay or WeChat Pay working: Cities Insider says cash is rarely used at night. No ID rule found for Cici; carry your passport anyway."
+      - "Don't plan this for Monday 28 Dec: the video call is at 01:00 on Tuesday."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp, foggy nights around 6 °C
+    note: "Indoors all night. The cold only matters on the walk from Gate 2 and while you wait for a car home."
+    wear: A light jacket you can carry, shoes with grip for wet park steps
+  - type: pairs_well
+    items:
+      - { id: yangtze-river-cableway-night, note: "Lands at Shangxinjie, the club's metro station: cableway at dusk, club after" }
+      - { id: jiefangbei-nye-countdown, note: "Countdown first, then a DiDi across the river; the NYE party starts at 22:00" }
+      - { id: esmi-night-club-jiangbei, note: "The big-room alternative: EDM and K-pop with stage shows, free entry" }
+      - { id: chongqing-liuhe-youth-hostel, note: "Find people on the hostel terrace and bring them" }

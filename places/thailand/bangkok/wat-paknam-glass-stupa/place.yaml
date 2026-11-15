@@ -1,0 +1,116 @@
+id: wat-paknam-glass-stupa
+name: "Wat Paknam: the Glass Stupa"
+short_name: Wat Paknam
+name_local: วัดปากน้ำภาษีเจริญ
+name_romanized: Wat Paknam Phasi Charoen
+country: thailand
+city: bangkok
+area: Thonburi · Phasi Charoen
+category: culture
+fame: popular
+tags: [temple, free, giant-buddha, photogenic]
+kind: See
+why: "Free: a 69 m bronze Buddha outside, and on the pagoda's top floor an emerald glass stupa under a painted galaxy ceiling."
+cost:
+  local: 0
+  currency: THB
+  brl: 0
+  note: "Grounds, Buddha and pagoda are free; donations welcome"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: Weekday afternoon, in the pagoda by 17:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Pagoda about 08:00–18:00 daily; the grounds are listed 06:00–20:00"
+  closed: No weekly closing day listed
+  winter: "Dec–Jan are Bangkok's coolest, driest months; the glass stupa floor is indoors, so heat matters little. Hall hours can change around major Buddhist holidays; none were found for the trip dates. No Dec–Jan closures listed when checked (Nov 2026)."
+
+location:
+  address: "300 Soi Ratchamongkhon Prasat, Pak Khlong Phasi Charoen, Phasi Charoen, Bangkok 10160"
+  address_local: "วัดปากน้ำภาษีเจริญ เขตภาษีเจริญ กรุงเทพมหานคร 10160"
+  lat: 13.72167
+  lng: 100.47043
+  nearest_transit: "Bang Phai (MRT Blue Line), Exit 1, 10–15 min walk"
+
+sources:
+  - url: https://www.visitthailandtoday.com/temples-culture/bangkok/wat-paknam-phasi-charoen
+    title: "Wat Paknam Bangkok: Free 69 m Buddha & the Glass Stupa (Visit Thailand Today, updated Oct 2026)"
+    checked: 2026-11-12
+  - url: https://www.thaiholidayguide.com/attraction/wat-paknam-phasi-charoen/
+    title: "Wat Paknam Phasi Charoen (Thai Holiday Guide, updated Jul 2026)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Wat_Paknam_Bhasicharoen
+    title: "Wat Paknam Bhasicharoen (Wikipedia)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Free entry agrees across sources. Hours differ: Google lists the grounds 06:00–20:00, guides give 08:00–18:00 for the pagoda (some say 17:00), so the page plans for 17:00. No official page with hours found. English street address from Visit Thailand Today; no listed source prints it in Thai, so the Thai line is name, district, postcode. The ฿100–200 Grab fare is that guide's estimate."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: museum-hall
+    caption: "Inside the pagoda: a hall on the lower floors"
+    hook: "Take the lift to the top of a white pagoda and step into a green-glass universe."
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: Weekday afternoon, in the pagoda by 17:00
+    extra:
+      - { label: Your slot, value: Weekday afternoon, detail: "Free, quiet, back in town well before 19:00" }
+      - { label: Glass stupa, value: "5th (top) floor", detail: "A lift runs up through the museum floors" }
+      - { label: Dress code, value: Shoulders + knees covered, detail: Shoes off inside the pagoda }
+  - type: highlights
+    items:
+      - title: The glass stupa
+        text: "On the pagoda's **fifth and top floor**, a stupa of emerald-green glass about 8 m tall stands under a ceiling painted with blue and violet galaxies and lotus patterns."
+      - title: A 69-metre Buddha
+        text: "**Phra Buddha Dhammakaya Thep Mongkhon**, finished in 2021, is 69 m of bronze. You see it from rooftops and the BTS across this part of Thonburi."
+      - title: A museum on the way up
+        text: "The lower floors of the 80 m **Maharatchamongkhon** pagoda hold Buddhist artefacts, old ceramics and even vintage cars given to the temple."
+      - title: A working temple, not a coach stop
+        text: "Founded in **1610**, it is still a busy local temple, with worshippers, monks and thinner crowds than the riverside icons."
+  - type: prose
+    title: Off the river circuit
+    dropcap: true
+    text: |-
+      Most visitors do the three river temples and stop. This one is a few MRT stops past them on the Thonburi side, free, and the room at the top of the pagoda is one of the strangest in Bangkok: a green-glass stupa in a dark hall painted as the cosmos. Photographs undersell it.
+
+      The giant Buddha outside, finished in 2021, gets people through the gate. Come in the afternoon, look round the museum floors on the way up, and keep the top floor for last. Guides say the stupa lift gets queues and school groups mid-morning, which is one more reason to come later in the day.
+  - type: gallery
+    images:
+      - { file: skyline, focus: "65% 50%", caption: "The 69 m Buddha seen from the BTS Silom line" }
+      - { file: glass-stupa, focus: center, caption: "The emerald glass stupa on the top floor" }
+      - { file: glass-naga, focus: center, caption: Glass naga serpents around the stupa }
+  - type: cost_breakdown
+    items:
+      - { label: "Entry (grounds, Buddha and pagoda)", local: 0, brl: 0 }
+      - { label: Motorbike taxi from MRT Bang Phai, local: 10, brl: 1.65, estimate: true, optional: true }
+  - type: map
+    note: "From **MRT Bang Phai, Exit 1**, walk 10–15 min through residential lanes, or take a motorbike taxi. A Grab from central Bangkok is about ฿100–200; show the driver the map, the name doesn't always land."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot:** weekday afternoon. Be inside the pagoda by 17:00 so you have time for the lift and the top floor."
+      - "Late-afternoon light on the bronze Buddha is the best photo; the statue's colour deepens from gold to copper at sunset."
+      - "No public ferry stops nearby; coming by water means a longtail canal tour."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Floors get slippery after rain; you walk barefoot inside the pagoda."
+      - "Some interior halls ban photos: look for signs, and never pose irreverently with a Buddha image."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry and sunny; Dec–Jan are Bangkok's coolest, driest months"
+    note: "The best part is indoors. The courtyard and the walk from the MRT are in the sun, so carry water."
+    wear: "Light trousers or long skirt, sleeves, sandals you can slip off"
+  - type: pairs_well
+    items:
+      - { id: wat-pho-and-wat-arun, note: "The famous riverside temples, a few MRT stops away" }
+      - { id: wang-lang-market, note: "Thonburi street food on the riverbank" }

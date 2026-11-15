@@ -1,0 +1,163 @@
+id: dayin-hostel-east-nanjing-road
+name: "Dayin Hostel East Nanjing Road & The Bund"
+short_name: Dayin East Nanjing Road
+name_local: 大隐国际青年旅舍（上海南京东路人民广场外滩店）
+name_romanized: Dàyǐn Guójì Qīngnián Lǚshè
+country: china
+city: shanghai
+area: Huangpu · People's Square
+category: stay
+tags: [hostel, social, bar, taproom, central]
+kind: Stay
+why: "Shanghai's busiest backpacker lobby: a beer-tap bar where 2026 reviewers met people to go out with, 320 m from People's Square metro. Dorms ¥158."
+
+cost:
+  local: 157.95
+  currency: CNY
+  brl: 130.58
+  note: "8-bed male or female dorm, each night Dec 6, 7 and 8, 2026, on Hostelworld (read 11 Nov). Shown as taxes not included"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 4
+  lead_time: "Book before Dec 2 to keep free cancellation"
+  method: website
+  links:
+    - label: Hostelworld (Dec 6–7 search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935?from=2026-12-06&to=2026-12-07&guests=1&currency=CNY"
+      note: "Pay at the hostel; the dorm price shown is a 55% promo"
+  notes: "Beds were free on all three nights when I searched. Booking mainly locks in the promo price: the hostel says a cancellation under 3 days before arrival, or a no-show, costs the first night."
+
+hours:
+  summary: "Reception 24 h · check-in 14:00–23:00 (Hostelworld rules) · check-out by 12:00 · no curfew"
+  winter: "Nothing seasonal is listed: no December events, closures or minimum stays on Hostelworld for Dec 6–9. The dorm price was the same ¥157.95 on each of those three nights."
+
+location:
+  address: "98 Liuhe Road, Huangpu District, Shanghai"
+  address_local: 上海市黄浦区六合路98号
+  lat: 31.23835
+  lng: 121.47042
+  nearest_transit: "People's Square (Lines 1/2/8), about 320 m on foot"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935?from=2026-12-06&to=2026-12-07&guests=1&currency=CNY"
+    title: "Dayin Hostel East Nanjing Road on Hostelworld: Dec 6 dorm prices, 8.8 (483 reviews), atmosphere 8.4, house rules, facilities, cancellation"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935?from=2026-12-08&to=2026-12-09&guests=1&currency=CNY"
+    title: "Same page searched for Dec 8: ¥157.95 / ¥178.20 / ¥198 dorm beds (Dec 7 search gave the same)"
+    checked: 2026-11-11
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/312935/reviews/?sort=newest&page=1&monthCount=36&per-page=49"
+    title: "Hostelworld's review feed for the hostel (49 newest reviews, Sep 2025 – Oct 2026), quoted in the social notes"
+    checked: 2026-11-11
+  - url: https://m.ctrip.com/html5/hotel/hoteldetail/83645195.html
+    title: "大隐国际青年旅舍(上海南京东路人民广场外滩店) on Ctrip: opened 2021, bar, café, gym, 4.7/5 from 8,576 reviews, 320 m to People's Square metro"
+    checked: 2026-11-11
+  - url: "https://www.hostelworld.com/hostels/asia/china/shanghai/?from=2026-12-06&to=2026-12-07&guests=1"
+    title: "Hostelworld's Shanghai list (26 properties) used to compare scores, review counts and events"
+    checked: 2026-11-11
+  - url: "https://www.openstreetmap.org/?mlat=31.23835&mlon=121.47042#map=18/31.23835/121.47042"
+    title: "Dayin International Youth Hostel, 98 Liuhe Road — OpenStreetMap (pin)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai — Wikipedia (climate table, December normals)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Promo prices from Hostelworld searches on 11 Nov; they will move. Hostelworld says taxes not included (16%), the hostel says included: expect ¥158–183. No page states the foreign-passport rule; 2026 guests from Australia, the UK and the US stayed. Bag drop at 07:00 is inferred from 24 h reception and free luggage storage. The review feed (API) blocks the checker; I read it with curl."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: east-nanjing-road
+    caption: "East Nanjing Road pedestrian street, 30 m from the hostel; no free photo of the hostel itself"
+    hook: "Beer taps in the lobby, Nanjing Road at the door, and a hostel big enough that someone is always heading out."
+  - type: quick_facts
+    extra:
+      - { label: Vibe, value: "Social bar, not party", detail: "Busy lobby bar; no organised pub crawls found" }
+      - { label: Hostelworld, value: "8.8 / 10", detail: "483 reviews; atmosphere 8.4 (Desti: 8.9)" }
+      - { label: To INS Land, value: "About 2.1 km", detail: "Straight line to Fuxing Park; a short taxi" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 8-bed male or female dorm
+        local: 157.95
+        brl: 130.58
+        note: "Each night Dec 6–8, 2026; promo price, shown without tax"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935?from=2026-12-06&to=2026-12-07&guests=1&currency=CNY"
+      - label: Bed in 6-bed male or female dorm
+        local: 178.2
+        brl: 147.32
+        note: "Each night Dec 6–8, 2026"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935?from=2026-12-08&to=2026-12-09&guests=1&currency=CNY"
+      - label: Bed in 4-bed male or female dorm
+        local: 198
+        brl: 163.69
+        note: "Each night Dec 6–8, 2026"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935?from=2026-12-07&to=2026-12-08&guests=1&currency=CNY"
+    rating:
+      score: 8.8
+      out_of: 10
+      source: Hostelworld
+      reviews: 483
+      atmosphere: 8.4
+      checked: 2026-11-11
+    social:
+      - "The lobby is a **craft beer hall**, café and book bar in one. Reviewers praise the taps and a cheap, well-stocked bar."
+      - "\"Definitely the most social hostel I've stayed at in China\" (July 2026). \"Super social bar area, made great friends\" (Jan 2026)."
+      - "One April 2026 guest \"went out with people from the hostel group chat\"."
+      - "Hostelworld lists a rooftop bar, foosball, board games and game consoles."
+      - "**Honest caveat:** a May 2026 guest found no organised events or group chat, and several reviews mention long-term residents and a dead vibe some nights."
+    good_to_know:
+      - "Separate male and female dorms; card-access lockers; free luggage storage."
+      - "Big: one guest counted 50+ dorms and rooms. Several say the dorms are windowless and compact."
+      - "Some reviewers found the mattresses thin; one asked for a second and got it."
+      - "No page states the foreign-passport rule; 2026 guests came from Australia, the UK and the US."
+  - type: highlights
+    items:
+      - title: The bar is the lobby
+        text: "You walk in through the beer hall. Guests in 2025–26 describe a good vibe every night, \"not rowdy\", and a place to meet people over a beer."
+      - title: Bigger crowd than Desti
+        text: "**483 Hostelworld reviews** against Desti's 139, and 8,576 on Ctrip. More guests means more chances to find a group for INS on a given night."
+      - title: Central for everything else
+        text: "30 m to the Nanjing Road pedestrian street, about 800 m to the Bund (hostel's own figures) and 320 m to People's Square metro."
+      - title: Straight from the airport
+        text: "A 2026 guest says it's a 5-minute walk from the airport metro line, and another had staff help load bags into a taxi at 05:00."
+  - type: prose
+    title: Why this one, and not a party hostel
+    text: |-
+      Shanghai doesn't have a real party hostel. Of the names people still mention, **Meego Yes** is on Hostelworld but its review summary calls it "quiet and not very social". **WeFlow Xintiandi** is the closest to INS Land, but its atmosphere score is 7.2 and cleanliness 6.3. Blue Mountain, The Phoenix, Rock&Wood and Mingtown weren't among Hostelworld's 26 Shanghai listings when I searched on 11 Nov.
+
+      That leaves this Dayin and Desti in Jing'an. Desti scores higher on atmosphere (8.9 against 8.4) and is ¥50 cheaper. Dayin has the bigger crowd, a bar inside the building and the central location. If finding a group for clubbing matters more than a quiet dorm, stay here. If you'd rather save money and have a calmer room, stay at Desti.
+  - type: book_ahead
+    steps:
+      - { days_before: 4, text: "Book on Hostelworld while free cancellation is still open. Choose the 8-bed male or female dorm for the lowest price." }
+      - { days_before: 3, text: "The hostel's rule: after this point a cancellation or no-show costs the first night." }
+      - { days_before: 0, text: "Check in from 14:00 with your **passport**. If you arrive early, leave your bags at the 24 h reception and ask whether a bed is ready." }
+    passport_note: "Bring the passport itself to check in."
+  - type: map
+    note: "From People's Square station walk about 320 m to Liuhe Road, at the west end of the Nanjing Road pedestrian street. For INS Land, take a taxi or DiDi to Fuxing Park (about 2.1 km in a straight line)."
+  - type: tips
+    variant: insider
+    items:
+      - "Landing at 05:10 means reaching the hostel hours before the 14:00 check-in. Drop your bags, go eat, and come back. If you need a bed at 07:00, the only sure way is to also book the night of **Dec 5**."
+      - "On your first evening, sit at the bar and ask who's going to INS. Reviewers who met people did it there, not in the dorms."
+      - "Price check: the same dorm costs about ¥50 less at **Desti** (¥108) if the bar crowd turns out quiet."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Hostelworld shows the price without tax and lists 16%, but the hostel says taxes are included. Budget up to ¥183 a night until you see the bill."
+      - "Cancel at least 3 days ahead, or you pay the first night."
+      - "Dorms can be windowless and tight. Keep your suitcase small or use the luggage room."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "Damp and grey, around 5–11 °C in December"
+    note: "Cold, wet nights push people into the lobby bar. The walk from People's Square station is short."
+    wear: Warm layers and a rain jacket
+  - type: pairs_well
+    items:
+      - { id: ins-land, note: "About 2.1 km south to Fuxing Park; a short taxi at night" }
+      - { id: desti-youth-hostel-jing-an, note: "The calmer, cheaper alternative in Jing'an" }
+      - { id: bund-and-lujiazui-skyline, note: "About 800 m east along Nanjing Road (hostel's figure)" }
+      - { id: shanghai-museum-ancient-americas, note: "On People's Square, a short walk" }
+      - { id: lanxin-jinxian-road, note: "Benbang dinner near INS Land, before you go out" }

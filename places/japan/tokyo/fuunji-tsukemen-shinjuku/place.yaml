@@ -1,0 +1,130 @@
+id: fuunji-tsukemen-shinjuku
+name: "Fuunji"
+name_local: 風雲児 新宿本店
+name_romanized: Fūunji Shinjuku Honten
+country: japan
+city: tokyo
+area: Shinjuku · Yoyogi
+category: food
+fame: popular
+tags: [ramen, tsukemen, tabelog-hyakumeiten, queue]
+kind: Eat
+why: Shinjuku's tsukemen benchmark — thick chicken-and-fish dipping soup, fat noodles, ¥1,000, a ground-floor counter of 15 seats and a queue that moves.
+cost:
+  local: 1000
+  currency: JPY
+  brl: 35.17
+  note: "Tsukemen ¥1,000 on the official menu (checked Nov 2026); the special with egg and pork is ¥1,300"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30 min + the queue
+best_time: Right at 11:00 or 17:00 opening
+
+book_ahead:
+  required: false
+
+hours:
+  summary: Daily 11:00–15:00 and 17:00–21:00; closes early if the soup sells out
+  closed: No regular closing day listed
+  winter: "Open year-round (official site). Last winter it closed only on 1 Jan and shortened 31 Dec; no 2026–27 notice yet (Nov 2026). Your Japan dates (Jan 20 – Feb 4, 2027) are well after the New Year break, so normal hours are expected."
+
+location:
+  address: 1F Hokuto Daiichi Bldg, 2-14-3 Yoyogi, Shibuya-ku, Tokyo
+  address_local: 東京都渋谷区代々木2-14-3 北斗第一ビル 1F
+  lat: 35.68689
+  lng: 139.69669
+  nearest_transit: Shinjuku Sta. (Toei Shinjuku / Keio New Line) 2 min; JR South Exit 6 min
+
+sources:
+  - url: https://fu-unji.com/
+    title: Fuunji official site (menu prices, Shinjuku Honten address 1F, hours, open year-round, no reservations)
+    checked: 2026-11-13
+  - url: https://fu-unji.com/news/change-business-hours25
+    title: "Fuunji: New Year hours 2025–26 (Shinjuku Honten closed 1 Jan only)"
+    checked: 2026-11-13
+  - url: https://tabelog.com/en/tokyo/A1304/A130401/13044091/
+    title: Fuuunji Shinjuku honten — Tabelog (hours, payment, seats, Hyakumeiten 2025)
+    checked: 2026-11-12
+  - url: https://tabelog.com/en/tokyo/A1304/A130401/13044091/dtlmenu/
+    title: Fuuunji — Tabelog food menu (updated 2025-03-07)
+    checked: 2026-11-12
+  - url: https://ramenadventures.com/listing/fuunji-in-shinuku/
+    title: Fuunji in Shinjuku — Ramen Adventures (queue at reopening, closed 15:00–17:00)
+    checked: 2026-11-12
+  - url: https://www.timeout.com/tokyo/restaurants/fu-unji
+    title: Fu-unji — Time Out Tokyo
+    checked: 2026-11-13
+  - url: https://tabelog.com/tokyo/A1304/A130401/13044091/dtlrvwlst/
+    title: 風雲児 新宿本店 口コミ — Tabelog (Ramen TOKYO Hyakumeiten 2025 badge, seen in search results)
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Bowl prices, hours, 1F address and no-reservation rule from the official site (Nov 2026); egg (¥150) and large-noodle (麺特盛 ¥200) prices also from the official menu. Tabelog says B1F; I used the official 1F. Hyakumeiten 2025 is from Tabelog's Japanese review page as seen in search results (bot-blocked)."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: entrance
+    caption: The entrance with its blue noren (older Commons photo)
+    hook: Dip, slurp, repeat — a bowl of chicken-and-fish sludge so thick it clings to every noodle.
+  - type: quick_facts
+    time_needed: 30 min + the queue
+    best_time: 11:00 opening or 17:00 reopening
+    extra:
+      - { label: Style, value: Tsukemen (dipping noodles), detail: "Chicken + fish double soup, thick straight noodles" }
+      - { label: Pay, value: "Card, IC and QR OK", detail: "Tabelog lists credit cards, Suica-type IC cards and QR codes" }
+      - { label: Seats, value: 15 at the counter, detail: Solo-friendly; you eat shoulder to shoulder }
+  - type: highlights
+    items:
+      - title: The dipping soup
+        text: A **double soup of boiled chicken and fish**, thick and creamy without feeling heavy — Time Out calls it *the* place for tsukemen in Shinjuku.
+      - title: Under budget
+        text: "**¥1,000 (R$35)** for the standard tsukemen, about the price of a cheap meal."
+      - title: A Top 100 shop
+        text: Picked for Tabelog's **Ramen Tokyo Hyakumeiten 2025** (the Top 100), and Time Out says repeat customers keep the queue long day and night.
+      - title: Next to everything
+        text: 2 minutes from the Shinjuku subway gates — easy to slot before the Tocho deck or after Shinjuku shopping.
+  - type: prose
+    title: How tsukemen works
+    text: |-
+      Tsukemen arrives as two dishes: a bowl of cold-rinsed, thick noodles and a small bowl of hot, concentrated soup. Dip a mouthful, eat, repeat. The soup is meant to be too strong to drink on its own.
+
+      Ramen Adventures' blogger called it his new favourite tsukemen, ahead of Tokyo heavyweights TETSU and Rokurinsha, for the "layers upon layers of fish flavors". A large portion of noodles (麺特盛) is ¥200 more on the official menu.
+  - type: gallery
+    images:
+      - { file: dipping-soup, caption: "The chicken-and-fish dipping soup with egg and nori (older photo)" }
+      - { file: noodles, caption: "The thick noodles, served apart from the soup" }
+      - { file: counter, caption: "The counter: water, condiments and the kettles behind" }
+  - type: menu
+    items:
+      - { name: Tsukemen, name_local: つけめん, price_local: 1000, price_brl: 35.17, note: The signature — dipping noodles in the chicken-fish soup, tag: must-try }
+      - { name: Special tsukemen, name_local: 得製つけめん, price_local: 1300, price_brl: 45.72, note: "Contents not listed for tsukemen; the special ramen adds egg, nori, menma, green onion, pork and more noodles" }
+      - { name: Ramen, name_local: らーめん, price_local: 950, price_brl: 33.41, note: The same soup as a regular ramen }
+      - { name: Special ramen, name_local: 得製らーめん, price_local: 1250, price_brl: 43.96 }
+      - { name: Seasoned egg, name_local: 味玉, price_local: 150, price_brl: 5.28 }
+      - { name: Large noodles, name_local: 麺特盛, price_local: 200, price_brl: 7.03 }
+    note: "Prices and names from the official menu (Nov 2026; it says some branches differ)."
+  - type: cost_breakdown
+    items:
+      - { label: Tsukemen, local: 1000, brl: 35.17 }
+      - { label: Seasoned egg topping, local: 150, brl: 5.28, optional: true }
+  - type: map
+    note: "In the Hokuto Daiichi building, 1 min from Toei Shinjuku Exit 6 (official site). The queue forms outside on the street."
+  - type: tips
+    variant: insider
+    items:
+      - "Arrive at **11:00** or right as it reopens at **17:00**; the afternoon gap (15:00–17:00) is closed."
+      - "Line up **15–20 min before** the 17:00 reopening; a reviewer found a dozen people already waiting, growing to almost 30."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Turning up between **15:00 and 17:00** finds the shutter down: that gap is soup prep, every day."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: The queue is outdoors on the street; the soup fixes the rest.
+    wear: Coat, gloves while you wait
+  - type: pairs_well
+    items:
+      - { id: tocho-observatory-shinjuku, note: "Free observation deck, ~15 min walk west" }
+      - { id: nine-hours-shinjuku-north, note: Capsule stay on the other side of Shinjuku }

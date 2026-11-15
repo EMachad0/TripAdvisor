@@ -1,0 +1,145 @@
+id: huashi-wanza-mian
+name: "Hua Shi Wan Za Mian: pea-and-pork noodles"
+short_name: Hua Shi Wan Za Mian
+name_local: 花市豌杂面（民生路店）
+name_romanized: Huāshì Wānzá Miàn
+country: china
+city: chongqing
+area: Yuzhong · Jiefangbei
+category: food
+fame: popular
+tags: [xiaomian, noodles, breakfast, cheap-eats, spicy, queue]
+kind: Eat
+why: "Chongqing's breakfast in one bowl: dry noodles under mushy peas and minced pork in chili oil, about ¥17 at the famous Jiefangbei shop near Only Cafe."
+cost:
+  local: 17
+  currency: CNY
+  brl: 14.05
+  note: "Ctrip's user-reported average per person. Cities Insider's 2026 survey puts a bowl of wanza mian at ¥12–18 citywide"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min
+best_time: "Breakfast, 07:00–09:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 07:00–20:00 (Trip.com listing)"
+  winter: "No seasonal hours or New Year closures listed on Trip.com or Ctrip. The shop has no air conditioning, only fans (Ctrip review), so in December you eat in your jacket."
+
+location:
+  address: "85 Minsheng Road, Jiefangbei, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区民生路85号 花市豌杂面
+  lat: 29.56
+  lng: 106.5661
+  approximate: true
+  nearest_transit: "Jiefangbei area; a short walk from Only Cafe (9 Minsheng Rd)"
+
+sources:
+  - url: "https://nz.trip.com/restaurant/china/chongqing/detail/HUA%20SHI%20WAN%20ZA%20MIAN-379002"
+    title: "Huashi Pea & Minced Pork Noodles (Minsheng Road Branch), Trip.com: 85 Minsheng Rd, 07:00–20:00, dishes, reviews"
+    checked: 2026-11-12
+  - url: https://you.ctrip.com/food/158/344272.html
+    title: "花市豌杂面(民生路店), Ctrip: 民生路85号, ¥17 per person, dish list, reviews up to 2026-02-18"
+    checked: 2026-11-12
+  - url: https://www.wanderinchina.com/en/chinese-food/chongqings-spicy-noodles/
+    title: "Discover Chongqing's Spicy Noodles (Wander in China, Nov 2025): wanza mian, ordering glossary, queues at Hua Shi"
+    checked: 2026-11-12
+  - url: https://citiesinsider.com/country/china/chongqing/noodles/en
+    title: "Chongqing local noodles guide (Cities Insider, 2026): prices by noodle type, the liang system, spice levels"
+    checked: 2026-11-12
+  - url: https://touch.travel.qunar.com/dist/poi/5165989
+    title: "秦云老太婆摊摊面(全国总店), Qunar: Xiejiawan address, ¥16 per person, free sour plum drink"
+    checked: 2026-11-12
+  - url: https://www.chinahighlights.com/chongqing/weather/december.htm
+    title: "Chongqing weather in December (China Highlights): 8–12 °C, cloudy and smoggy"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Address, hours, dishes from Trip.com (opened via atr render; blocks the link checker) and Ctrip; a Feb 2026 Ctrip review shows it trading. Address disputed: Wander in China says Minquan Rd, Cities Insider 64 Shaanxi Rd; the China Southern page with 77 Qingnian Rd not found. Pin is Minsheng Rd, not the door. ¥17 is Ctrip's user average; no dish prices."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: xiaomian-bowl
+    caption: "A bowl of Chongqing xiaomian, not taken at Hua Shi; no free photo of the shop itself"
+    hook: Peas cooked to mush, a spoon of pork mince, and chili oil pooling at the bottom of the bowl.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: "Breakfast, 07:00–09:00"
+    extra:
+      - { label: Order, value: 二两 (er liang), detail: "Noodles are sold by dough weight; two liang is a normal bowl" }
+      - { label: Say, value: 干溜 微辣, detail: "Dry (no soup), mild. Mild is still hot here" }
+  - type: highlights
+    items:
+      - title: The fan-favourite bowl
+        text: "**Wan za mian** is xiaomian's richer cousin: soft yellow peas plus a salty minced-pork sauce, usually served **dry** (gan liu) so the sauce coats every noodle."
+      - title: Breakfast, not dinner
+        text: "Xiaomian is what Chongqing eats on the way to work. Wander in China describes the 6:00–9:00 rush of suits and builders on plastic stools."
+      - title: Cheap, even on R$100 a day
+        text: "Ctrip diners put the average at **¥17** (about R$14). One reviewer's two-liang wontons came to fourteen big dumplings."
+      - title: Street-level seating
+        text: "Ctrip's write-up says the shop is always full and eating on the roadside is normal. Wander in China warns you may eat standing outside."
+  - type: prose
+    title: How a Chongqing noodle shop works
+    dropcap: true
+    text: |-
+      The noodles are fresh alkaline wheat noodles, but in Chongqing the sauce is the point: Wander in China counts up to fifteen condiments in one bowl, from chili oil and Sichuan pepper to lard, garlic water and pickled mustard greens. Wan za mian adds two toppings: peas boiled until creamy and *za jiang*, a minced-pork sauce.
+
+      Order by weight, not by size: **er liang** (two liang of dough) is the standard adult bowl, san liang if you are hungry. Then say how you want it: *gan liu* (dry), *wei la* (mild), *jia wo zi* (add a fried egg). A Ctrip regular mixes for a long time, eats half plain, then adds the aged vinegar from the table for the second half.
+  - type: quote
+    variant: vibe
+    text: A plastic stool, a steaming bowl, and the whole street eating breakfast at once.
+  - type: cost_breakdown
+    items:
+      - { label: "Wan za mian, two liang (Ctrip user average)", local: 17, brl: 14.05, estimate: true }
+      - { label: "Fried egg on top (jia wo zi)", local: 2, brl: 1.65, optional: true, estimate: true }
+  - type: menu
+    items:
+      - name: Wan za mian (peas and pork mince)
+        name_local: 花市豌杂面
+        note: "The house noodle. Order it dry (干溜). Cities Insider: ¥12–18 a bowl citywide in 2026"
+        tag: must-try
+      - name: Braised beef noodles
+        name_local: 红烧牛肉面
+        note: Chunks of slow-braised beef in a spicy broth
+        tag: spicy
+      - name: Chili-oil wontons
+        name_local: 红油抄手
+        note: "A Ctrip regular's mum got fourteen in a two-liang bowl"
+        tag: spicy
+      - name: Braised pork-intestine noodles
+        name_local: 红烧肥肠面
+        note: For the adventurous; Wander in China calls the texture addictive
+      - name: Iced cold cake
+        name_local: 冰镇凉糕
+        note: "Rice cake in brown-sugar syrup; a Ctrip reviewer's pick to calm the spice"
+        tag: veg
+    note: "No per-dish prices found online; Ctrip's average spend is ¥17. Pay with Alipay or WeChat Pay."
+  - type: map
+    note: "Show the driver 民生路85号 花市豌杂面. The pin marks Minsheng Road; Only Cafe and Backpacker is at No. 9 on the same road."
+  - type: tips
+    variant: insider
+    items:
+      - "Start **wei la** (微辣, mild). A local on Trip.com calls the bowl very spicy and heavy on lard, and suggests one bowl for two if you have plans for lunch."
+      - "Taste it plain first, then add the aged vinegar from the table. That's a Ctrip regular's trick."
+      - "Want the *A Bite of China* noodles too? Qunar lists **Qin Yun Laotaipo Tantan Mian**'s flagship (秦云老太婆摊摊面) in Xiejiawan at about ¥16, with a free sour plum drink. Its newest Qunar review is from 2020, so check it on Amap first."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Guides give three different addresses for Hua Shi (Minsheng, Minquan and Shaanxi Roads). Trip.com and Ctrip both list **85 Minsheng Road**: search 花市豌杂面 民生路 in Amap before you go."
+      - "Locals don't drink the broth (Cities Insider): it's mostly chili oil and salt."
+      - "**Pang Mei** (胖妹面庄) is the other famous name, but Wander in China and Cities Insider give different addresses for it, so I left it as a side note."
+  - type: weather
+    temp_low_c: 8
+    temp_high_c: 12
+    conditions: Cloudy, damp, often smoggy
+    note: "A hot, oily bowl on a grey morning is exactly what the dish is for. No air conditioning or heating inside: keep your coat on."
+    wear: Warm jacket, layers
+  - type: pairs_well
+    items:
+      - { id: only-cafe-and-backpacker, note: "Same road (No. 9): breakfast on the way out" }
+      - { id: desti-youth-park-hostel-chongqing, note: "Your other Yuzhong base" }
+      - { id: chongqing-liuhe-youth-hostel, note: "Also in Yuzhong" }
+      - { id: hongyadong-qiansimen-night-walk, note: "Noodles by day, Hongyadong lights at night" }
+      - { id: pei-jie-hotpot-hongyadong, note: "The rest of Chongqing's food in one meal" }

@@ -1,0 +1,31 @@
+# Independent review of loushan-pass-battle-reenactment. Written by `./atr review`; do not edit by hand.
+id: loushan-pass-battle-reenactment
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: bdde0da32bb0bd4a6bf675ad82f35254c3425f1bba60f271666f6de8e2d90cbe
+facts:
+  supported: 6
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.local
+    problem: The ¥108 ticket appears only on a 2024 ticket site and in one undated review. The same ticket site lists a cheaper group-buy price from ¥78, and Trip.com reviews give other figures (¥80 adult) plus a ¥35–50 sightseeing bus that the cost breakdown leaves out. The cheapest way in and possible extra costs are missing.
+    evidence: cost.note now says "Show ¥108 (2024; group-buy from ¥78)", which matches https://www.dahepiao.com/lvyounews1/20240507462636.html ("团购价格：78元起"). The cost breakdown lists the ¥35 sightseeing bus as optional, only if the traveler also visits the pass, and the map note puts the show ground opposite the visitor centre.
+  - field: why
+    problem: The whole page sells joining the charge in uniform with a rifle. The show's own notice on the newly linked Ctrip page says only domestic visitors may join, and foreign visitors can only watch. The notice is valid 10 Nov 2026 to 31 Jan 2027, which covers all of the traveler's Dec 6–27 days. A 27 Oct 2026 review from a foreign visitor says they paid for a uniform and were then turned away from joining.
+    evidence: The name, why, hook, quick_facts ('Join the charge? No, watch only'), highlights[0], prose ('The catch for you…'), book_ahead.rules_changed and notes, the pitfalls tip and the FAQ now all say watch-only and give the 10 Nov 2026 – 31 Jan 2027 validity. The uniform-rental cost line is gone, and the prose now weighs ¥392 against 'an hour of watching'. This matches the notice quoted in the earlier review from https://you.ctrip.com/sight/zunyi204/4337375.html. That page is behind a bot check today (./atr render ended at verify.ctrip.com), so I checked against the earlier quote, not a fresh read.
+  - field: hours.summary
+    problem: The page gives the area as 09:00–17:00 or 09:00–18:00. The show's Ctrip page says 08:30–17:00, and on days with no show the area closes at 12:30. The 09:00–18:00 hours on Trip.com belong to the separate Loushan Pass scenic area, not to the show ground.
+    evidence: "hours.summary now reads 'Show ground 08:30–17:00, closes 12:30 on days with no show (Ctrip)', which matches the earlier quote from you.ctrip.com/sight/zunyi204/4337375.html: \"全年 08:30-17:00开放…没有演出12：30闭园\". The 09:00–18:00 hours are removed."
+  - field: book_ahead.links[2].note
+    problem: "The note says the Ctrip page is bot-walled and unchecked, but it loads. It is the most useful channel on the page: it has the official ticket phone numbers, a WeChat mini-program, and the notice that limits who can take part."
+    evidence: book_ahead.links[2].note now gives the ticket lines 18085255577 / 0851-27752000 and says to call and ask whether the show runs on the traveler's date, matching the earlier quote "官方电话 票务咨询 18085255577 ; 0851-27752000". The WeChat mini-program is still not mentioned. That is minor now that the foreigner rule is stated outright.
+  - field: cost.note
+    problem: The cheapest way in is still missing. The ¥78 group-buy price from the ticket site the page already cites is not mentioned.
+    evidence: "cost.note: 'group-buy from ¥78', per https://www.dahepiao.com/lvyounews1/20240507462636.html."
+rereview_of: 4375c642cdd23aaff9dac82ef2c0f94734a2ad865423998eabfd7fe9a9b7952c
+summary: All five earlier findings are fixed. The page now says plainly that foreigners can only watch until 31 Jan 2027, uses the show ground's own hours (08:30–17:00, closing at 12:30 on days with no show), gives the official ticket lines and shows the ¥78 group-buy price. The Ctrip show page is bot-walled today, so I checked these fixes against the quotes in the earlier review, not a fresh read. Whether the show runs in December is still unknown, and the page says so honestly.
+model: claude-opus-5-5
+cost_usd: 0.594

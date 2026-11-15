@@ -1,0 +1,16 @@
+# Independent review of wang-lang-market. Written by `./atr review`; do not edit by hand.
+id: wang-lang-market
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 76248a6dc8e026e7c86ad4c62f916ef1abf088c97d77ab1e30739fac0257e69e
+facts:
+  supported: 1
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 5f8711d27151ef93b399516ca29b7a56864235cada283ccce4ba618071617efa
+summary: The earlier review had no blocker or should findings, so nothing carries over. The weather note now says "Early January" instead of "Late January". That matches the traveler's Thailand dates (2027-01-02 to 2027-01-10 in config/trip.yaml), and the listed Bangkok 1991–2020 climate table supports early January as the cool, dry season with highs in the low 30s. The menu tip now reads "Thai menus" instead of "menus written only in Thai", which only changes the wording. No blockers in the unchanged content, and ./atr validate passes.
+model: claude-opus-5-5
+cost_usd: 0.271

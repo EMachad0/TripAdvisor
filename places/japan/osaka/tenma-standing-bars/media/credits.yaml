@@ -1,0 +1,32 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tenma-ichiba
+  title: File:Tenma Ichiba.jpeg
+  author: Sorrysorry
+  license: Public domain
+  source_url: https://commons.wikimedia.org/wiki/File:Tenma_Ichiba.jpeg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/65/Tenma_Ichiba.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 天満市場（裏天満）- 大阪府大阪市北区池田町
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-11
+  origin: commons
+- file: arcade
+  title: File:Tenjinbashisuji shopping street - panoramio (25).jpg
+  author: DVMG
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tenjinbashisuji_shopping_street_-_panoramio_(25).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/06/Tenjinbashisuji_shopping_street_-_panoramio_%2825%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tenjinbashisuji shopping street
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-11
+  origin: commons

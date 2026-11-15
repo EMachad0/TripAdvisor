@@ -1,0 +1,24 @@
+# Independent review of space-station-game-bar-osaka. Written by `./atr review`; do not edit by hand.
+id: space-station-game-bar-osaka
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 4d82a3a5fcc0bdd72f1b65f372545f71c7187aede52e63fdfb72a58bdead4274
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[8].items[0]
+    problem: The April 17, 2026 review says you can 'ask the staff member for recommendations' without saying what kind. The tip narrows this to games and adds 'they are happy to suggest one', which the review does not say.
+    evidence: 'https://wanderlog.com/place/details/37116/pc-and-retro-bar-space-station — Apr 17, 2026: "if you want you can ask the staff member for recommendations"'
+    fix: Reword to 'An April 2026 review says you can ask the staff for recommendations; the staff are described as super helpful.'
+resolved:
+  - field: hours.summary
+    problem: The 17:00 opening comes only from Wanderlog's copy of the Google listing, which shows a garbled "5PM–2AM, 12–2AM" for each day. GaijinPot, the only source with an editor behind it, still says 19:00. No source says 20:00. With best_time set to "Early evening", the traveler could arrive at 17:00 and find the bar shut.
+    evidence: "The page now says 'Opens 17:00 per Google, 19:00 per GaijinPot: arrive after 19:00'. The unsourced 20:00 is gone, and best_time reads 'After 19:00' in both places. GaijinPot opened through ./atr render: 'HOURS AND FEES 7 p.m. until at least 2 a.m. every night'. Wanderlog still shows 'Sunday: 5PM–2AM, 12–2AM' and the same for the other days. The winter text sends the traveler to Google Maps to check the opening time on the day."
+rereview_of: cf73ed22e1707d353cd8aa9d0a6fa3fd7e683290d5bb876ede1fe39beb0e9d7e
+summary: "Both earlier findings are fixed. The hours now give both opening times, each with its source, and tell the traveler to arrive after 19:00. The unsourced Gin Sonic claim is gone. The new text matches Wanderlog and GaijinPot (GaijinPot read through ./atr render), and the page renders cleanly on phone in light theme and on desktop in dark theme. One nit remains: the tip slightly overstates what the April review says."
+model: claude-opus-5-5
+cost_usd: 0.492

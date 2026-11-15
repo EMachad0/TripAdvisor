@@ -1,0 +1,16 @@
+# Independent review of 1000-trees-shanghai. Written by `./atr review`; do not edit by hand.
+id: 1000-trees-shanghai
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 92e435be9125eb40401f4cb57c988c80069739894ae7ae3c6b9dd12c5c448749
+facts:
+  supported: 0
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 5a1fa22e3d5375a8ea00d88bf7cf56deb2b2c5693642ceb4aa548dae1a6c49a6
+summary: The only change deletes the sentence about Line 13 Jiangning Road from the map note, so the page now states nothing new that needs checking. The same transit fact is still in location.nearest_transit, which cites the OSM source, and `./atr validate` passes. The earlier review left no findings, and I found no new blocker in the unchanged content.
+model: claude-opus-5-5
+cost_usd: 0.252

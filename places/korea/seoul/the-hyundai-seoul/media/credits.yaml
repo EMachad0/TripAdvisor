@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: yeouido-skyline
+  title: File:당산철교에서 촬영한 여의도.jpg
+  author: Ox1997cow
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%EB%8B%B9%EC%82%B0%EC%B2%A0%EA%B5%90%EC%97%90%EC%84%9C_%EC%B4%AC%EC%98%81%ED%95%9C_%EC%97%AC%EC%9D%98%EB%8F%84.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/33/%EB%8B%B9%EC%82%B0%EC%B2%A0%EA%B5%90%EC%97%90%EC%84%9C_%EC%B4%AC%EC%98%81%ED%95%9C_%EC%97%AC%EC%9D%98%EB%8F%84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 당산철교를 달리고 있는 2호선 열차에서 촬영한 여의도의 모습입니다.
+  width: 4032
+  height: 2268
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

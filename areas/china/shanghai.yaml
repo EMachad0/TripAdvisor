@@ -1,0 +1,115 @@
+id: shanghai
+country: china
+name: "Shanghai"
+name_local: 上海
+region: East China coast
+scope: city
+cities: [shanghai]
+why: "Your first China stop: the Bund facing Lujiazui's towers (free to walk), a ¥2 river ferry, shengjian buns fried since 1932, and INS, a building full of clubs. Grey and damp in December, rarely snowy."
+best_for: [views, food, nightlife, culture]
+highlights: ["The Bund at blue hour", "Lujiazui towers", "Shengjian at Da Hu Chun", "INS Land clubs", "Yu Garden", "Wukang Road and the old French Concession"]
+days_suggested: { min: 2, max: 4 }
+cost_level: medium
+fame: iconic
+lat: 31.2325
+lng: 121.4692
+getting_there: "You land at Pudong (PVG). Metro Line 2 runs from about 06:00, ~¥8, 70–90 min downtown; the Maglev starts ~07:00 (¥50, 8 min, then change). Taxi ¥140–260."
+getting_around: "Metro ¥3–5 for most central rides, about 05:30 to 22:30–23:00. Pay with a contactless card, Alipay ride-code or a transport card. After the last train: DiDi or taxi."
+winter_note: "Cool and damp, not freezing: December averages 5–11 °C, about 8 rainy days and 69% humidity, and snow is rare. Many older buildings are unheated. The sun sets around 16:50–17:00, so the skyline lights are on by the time you've had dinner. Winter is the smoggy season: check the AQI before paying for a tower deck."
+image: shanghai-bund-blue-hour
+sources:
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: Shanghai — Wikipedia (coordinates, climate normals 1991–2020, 2013 smog)
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Shanghai
+    title: Shanghai — Wikivoyage (winter, unheated buildings, neighbourhoods)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/pvg-airport-guide/
+    title: PVG Airport Guide — China for Travelers (updated 2026-08-15; Line 2, Maglev, taxi, night bus)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/shanghai-subway-guide/
+    title: Shanghai Subway Guide — China for Travelers (updated 2026-08-15; fares, hours, payment)
+    checked: 2026-11-10
+  - url: "https://api.sunrise-sunset.org/json?lat=31.2325&lng=121.4692&date=2026-12-06&tzid=Asia/Shanghai"
+    title: Sunrise-sunset.org API — Shanghai, 6 Dec 2026 (sunset 16:51)
+    checked: 2026-11-10
+  - url: "https://api.sunrise-sunset.org/json?lat=31.2325&lng=121.4692&date=2026-12-24&tzid=Asia/Shanghai"
+    title: Sunrise-sunset.org API — Shanghai, 24 Dec 2026 (sunset 16:57)
+    checked: 2026-11-10
+  - url: https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250430/8da6e1aab0df4b16a59532affb2e0929.html
+    title: "Shanghai lights up for May Day holiday (Shanghai gov., 2025-04-30): Bund/Lujiazui lights from 18:00"
+    checked: 2026-11-10
+  - url: https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260430/c012ba9f05414f3184be86244a03e950.html
+    title: "Pan-fried pork buns (Shanghai gov., 2026-04-30): Da Hu Chun since 1932, ¥11 per 4"
+    checked: 2026-11-10
+  - url: https://www.smartshanghai.com/venue/28727/ins
+    title: "INS — SmartShanghai venue listing (updated 2026-05-26)"
+    checked: 2026-11-10
+  - url: https://touch.piao.qunar.com/touch/detail_197163289.html
+    title: "INS LAND tickets — Qunar (all-pass ¥168 Tue–Thu/Sun, ¥288 Fri/Sat)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Shanghai_Tower
+    title: Shanghai Tower — Wikipedia (632 m)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/The_Bund
+    title: The Bund — Wikipedia (1.6 km)
+    checked: 2026-11-10
+  - url: https://www.travelofchina.com/shanghai-ferry-fares/
+    title: "Shanghai Ferry Fares 2026 — Travel of China (¥2 public ferry)"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/cityguides/chongqing-to-shanghai.htm
+    title: Shanghai to Chongqing — Travel China Guide (updated 2025-08-05; ~3 h flight, 10.5–13 h train)
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Airport and metro times and fares from two China for Travelers guides (Aug 2026), not the operators. Climate is 1991–2020 normals; the smog note rests on Wikipedia's Dec 2013 account. Shanghai–Chongqing times from one 2025 guide. english.shanghai.gov.cn and Qunar opened by web fetch today but time out in the link checker. sunrise-sunset.org is a JSON API."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: "Art Deco banks on one side of the river, a 632 m tower on the other, and a ¥2 ferry in between."
+    caption: The Bund at blue hour, seen from the Shanghai World Financial Center
+  - type: highlights
+    title: Why start here
+    items:
+      - title: The skyline, for free
+        text: "The Bund promenade runs **1.6 km** along the river, facing Lujiazui and the **632 m Shanghai Tower**. Walking it costs nothing, and the river lights come on around 18:00."
+      - title: Breakfast since 1932
+        text: "**Da Hu Chun** has been frying shengjian, crisp-bottomed pork buns, since 1932. Four buns cost ¥11 (about R$9)."
+      - title: A whole building of clubs
+        text: "**INS Land** by Fuxing Park stacks clubs on several floors: hip hop, trap, house and K-pop under one ticket. It's one of the famous clubs on your list."
+      - title: Old Shanghai on foot
+        text: "Yu Garden's Ming rockeries, then the old French Concession (Wukang Road runs through it), which Wikivoyage says holds much of the city's shopping and nightlife."
+  - type: prose
+    title: What a few days here feel like
+    dropcap: true
+    text: |-
+      Shanghai is where you land, so the first day is about getting into town. A **05:10 arrival at Pudong** beats the trains: Line 2 starts around 06:00 and the Maglev around 07:00. China for Travelers lists a night bus that runs until the last flight lands (about 05:30), plus a 24-hour taxi rank. The cheap plan: wait for the first Line 2 train (about ¥8, 70–90 minutes into town).
+
+      **Base yourself in Jing'an or Huangpu.** The Desti hostel in Jing'an has its own card below. From there the Bund, People's Square and the French Concession are all a few metro stops away. Wikivoyage notes budget travellers spend more time in the older downtown than in Pudong.
+
+      **Two to four days** covers it: one evening on the Bund and the ferry, one morning at Yu Garden and the old city, one day in the French Concession, and one night at INS (its all-pass is ¥168 Sunday–Thursday, ¥288 at weekends). If you come back for **Christmas**, the Bund's Christmas markets have their own card. Chongqing on Dec 26 is about a 3-hour flight; the high-speed train takes 10.5–13 hours.
+  - type: gallery
+    images:
+      - { file: shanghai-nanjing-road-night, caption: "East Nanjing Road at night, the walk down to the Bund" }
+      - { file: shanghai-wukang-mansion, caption: "Wukang Mansion, on a corner of the old French Concession" }
+      - { file: shanghai-dahuchun-shopfront, caption: "Da Hu Chun on South Yunnan Road (\"since 1932\" on the sign)" }
+  - type: quote
+    variant: vibe
+    text: Crisp buns at breakfast, gold-lit banks at dusk, bass on the fourth floor at 01:00.
+  - type: tips
+    variant: insider
+    items:
+      - "Set up **Alipay with your card** (or check your card does contactless) before you fly: the metro, ferries and DiDi all run on it."
+      - "The ¥2 public ferry from Jinling East Road to Pudong is the cheapest river view in town. Its last sailing is in the early evening (see the Bund card)."
+      - "Do the Bund at **dusk** (around 17:00 in December): blue sky, lights coming on, then dinner."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Metro last trains are about 22:30–23:00. Club nights end long after that, so budget a DiDi or taxi home."
+      - "Don't plan the Maglev for a 05:10 landing: it doesn't run until about 07:00."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Cool, damp and often grey; about 8 rainy days in December; snow is rare
+    note: "Not freezing, but the damp cold gets in, and many older buildings and shops have no heating. Dusk is just before 17:00. On a hazy day, skip the paid observation deck and watch from the riverside instead."
+    wear: Warm jacket, a layer for unheated rooms, shoes that handle rain

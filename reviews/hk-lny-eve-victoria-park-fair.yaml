@@ -1,0 +1,19 @@
+# Independent review of hk-lny-eve-victoria-park-fair. Written by `./atr review`; do not edit by hand.
+id: hk-lny-eve-victoria-park-fair
+type: place
+reviewed: 2026-11-14
+verdict: pass
+content_hash: ff0de3d2b76cc30f1f4cdb9672f6540bba1c7758da801122148e9d82ab9e27b2
+facts:
+  supported: 2
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].text
+    problem: The 'Confirmed' paragraph says all 400 Victoria Park stalls were auctioned in October 2026. The cited Standard article (8 Oct 2026) covers only the dry-goods auction and says 78 stalls were still to be auctioned the next day, without reporting the result. HK01 gives only the auction schedule (7–9 Oct).
+    evidence: 'New source https://global.hk01.com/社会新闻/60398099/ (HK01, 2026-10-09): "全部400个摊位均租出" and "维园年宵市场400个摊位由10月7日起公开竞投", with the three-day auction ending 9 Oct. This supports the sentence in blocks[3].text that all 400 Victoria Park stalls were auctioned in October 2026.'
+rereview_of: 525d947e8d2783fbc76439e392957b1e3c37604c692fb96be4b2ebf542a57b07
+summary: Finding 1 is resolved. The new HK01 source (9 Oct 2026) reports that all 400 Victoria Park stalls were leased in the 7–9 Oct auction, and its breakdown (180 wet goods, 216 dry goods, 4 fast food) matches the page. The new pin (22.2813, 114.1892) sits inside Victoria Park, about 70 m from the park centroid I recalled (22.282, 114.189); I did not open a map source or take a screenshot, so it is not in the fact counts. `./atr validate` passes with 0 errors.
+model: claude-opus-5-5
+cost_usd: 0.342

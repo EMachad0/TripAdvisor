@@ -1,0 +1,19 @@
+# Independent review of datong-nine-dragon-wall-yungang. Written by `./atr review`; do not edit by hand.
+id: datong-nine-dragon-wall-yungang
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 453eea2924013a4d668ef45c732869f6c971672555ee3bb7dbc5b6d2c83d5ec1
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[1].best_time
+    problem: The quick-facts card still says "Yungang first, wall after" (visible in the phone shot). best_time, the day plan and the tips now say the wall comes first, so the page gives two opposite orders.
+    evidence: 'place.yaml line 98 now reads best_time: "Early train; the wall first, then Yungang". This matches line 25 and the day-plan step at line 145 ("Do the **wall first**…"), so the page now gives one order everywhere.'
+rereview_of: c92125bcc3213bfc9f8df8dc9ff4edd3226a1b470526692a3c5301aa027a9f5b
+summary: "The quick-facts card now agrees with best_time and the day plan: the wall first, then Yungang. The new date wording is supported by China News: Beihai's wall is from 1756 (\"北海九龙壁建造之时(1756年)\"), the Forbidden City's is 16 years later (\"稍早一些的北海九龙壁\" … \"前后只差16年\"), and Ningshou Palace was built 1770–1779. The article gives no year for the Forbidden City wall, so the source title's \"about 1772\" is worked out from 1756 + 16, and the page text does not state that year. No open blockers or shoulds."
+model: claude-opus-5-5
+cost_usd: 0.302

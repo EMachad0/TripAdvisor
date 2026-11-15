@@ -1,0 +1,190 @@
+id: only-cafe-and-backpacker
+name: "Only Cafe and Backpacker"
+short_name: Only Cafe
+name_local: 弱水咖啡国际青旅
+country: china
+city: chongqing
+area: Yuzhong · Jiefangbei
+category: stay
+tags: [hostel, social, rooftop, dorm-only, jiefangbei]
+kind: Stay
+why: "Chongqing's best-scored hostel (9.7, atmosphere 9.6): a few small dorms and a rooftop on a 31st floor, 5 minutes' walk from Jiefangbei. Dorm beds only."
+
+cost:
+  local: 65
+  currency: CNY
+  brl: 53.74
+  note: "8-bed dorm, nights of 28–30 Dec 2026 on Hostelworld. ¥75 on 26–27 Dec, ¥100 on 31 Dec, ¥150 on 1 Jan"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book 2+ weeks ahead; one booking covers the week"
+  method: website
+  links:
+    - label: "Hostelworld, 26 Dec – 2 Jan"
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-26&to=2027-01-02&guests=1&currency=CNY"
+      note: "The hostel may pre-authorise your card; you pay at the hostel"
+    - label: "Booking.com, 26 Dec – 2 Jan"
+      url: "https://www.booking.com/hotel/cn/ruo-shui-qing-lu-cafe-amp-hostel.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "No prepayment and no card needed to book; has a male-only dorm"
+  notes: "Not sold out on 10 Nov: the mixed dorm had 12–16 beds free on every night from 26 Dec to 1 Jan. But the hostel is small, and the New Year nights already cost more. Both sites cancel for free, so booking early costs nothing."
+
+hours:
+  summary: "Reception 24 h · check-in 14:00–23:00 · check-out by 12:00 · no curfew"
+  winter: "All seven nights from 26 Dec to 2 Jan were bookable on 10 Nov, with no minimum stay shown: a single night on 31 Dec could be booked alone. New Year nights cost more: see the bed list. A December 2025 guest praised the heating. The rooftop closes when it rains."
+
+location:
+  address: "31-11 Yangguang Xingzuo Building, 9 Minsheng Road, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区民生路9号阳光星座31-11号
+  lat: 29.55804
+  lng: 106.57019
+  nearest_transit: "Jiaochangkou (Line 1 / 2), 100–200 m (Hostelworld / Ctrip)"
+
+sources:
+  - url: https://www.hostelworld.com/hostels/p/301757/only-cafe-and-backpacker/
+    title: "Only Cafe And Backpacker on Hostelworld: score, sub-scores, facilities, house rules, directions, reviews (under 'View all reviews')"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 28 Dec 2026: 8-bed dorms at ¥65, no private rooms, 24 h reception, no curfew"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 31 Dec 2026 alone: 8-bed dorms at ¥100"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-26&to=2027-01-02&guests=1&currency=CNY"
+    title: "Hostelworld date search, 26 Dec – 2 Jan: ¥85 a night on average (¥595 for seven nights)"
+    checked: 2026-11-10
+  - url: "https://www.booking.com/hotel/cn/ruo-shui-qing-lu-cafe-amp-hostel.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "弱水咖啡国际青旅 on Booking.com: 9.4 from 323 reviews, wifi 9.5, dorms only, cash only, ¥100 deposit, distances, ¥520 for the week"
+    checked: 2026-11-10
+  - url: https://us.trip.com/hotels/chongqing-hotel-detail-2892685/only-cafe-and-backpacker/review.html
+    title: "Only Cafe and Backpacker on Trip.com: 9.6 from 87 reviews, 8-person rooms only, guest reviews (soundproofing, café, single room nearby)"
+    checked: 2026-11-10
+  - url: https://m.ctrip.com/html5/hotel/hoteldetail/2892685.html
+    title: "重庆弱水咖啡客栈 on Ctrip: address in Chinese, 200 m from Jiaochangkou metro, renovated 2019"
+    checked: 2026-11-10
+  - url: https://www.hostelworld.com/hostels/asia/china/chongqing/
+    title: "Hostelworld's Chongqing list: scores and review counts of all ten hostels, used to compare"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Rooftop-Terrace-Hostel/Chongqing/331717?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+    title: "Chongqing Rooftop Terrace Hostel, Hostelworld date search for 28 Dec 2026: the private-room fallback named in the tips"
+    checked: 2026-11-10
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Desti-Youth-Park-Hostel-Chongqing/Chongqing/306806?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+    title: "Desti Youth Park Hostel, Hostelworld date search for 28 Dec 2026: the alternative named in the tips (from ¥49, atmosphere 8.8)"
+    checked: 2026-11-10
+  - url: "https://www.booking.com/hotel/cn/merica-chongqing-jiefangbei.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Merica Hotel on Booking.com, date search for the night of 28 Dec 2026: private double ¥107, 8.9 from 423 reviews (the call-night room)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals 1991–2020"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Prices are from date searches on 10 Nov and will move. No page states the foreign-passport policy: I infer it from reviewers of 20 countries in 2026. No source says where a 01:00 call can be taken. The 14-day lead is my judgment, not a hostel rule. Review quotes sit under 'View all reviews'. Pin is the OpenStreetMap node 'Only Cafe Hostel'. The Trip.com page opened in a web fetch only."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: "A small family-run hostel at the top of a residential tower, where guests from other hostels come to hang out."
+  - type: quick_facts
+    extra:
+      - { label: Hostelworld, value: "9.7 / 10", detail: "251 reviews; atmosphere 9.6" }
+      - { label: Private room, value: None, detail: "For the 01:00 call: Merica Hotel, ¥107" }
+      - { label: Wifi, value: "Free, scored 9.5", detail: "Booking.com guest score; reviews don't mention it" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 8-bed mixed or female dorm, 28–30 Dec
+        local: 65
+        brl: 53.74
+        note: "Searched for the night of 28 Dec 2026; same on 29 and 30 Dec"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+      - label: Same bed, 26–27 Dec (weekend)
+        local: 75
+        brl: 62
+        note: "Searched for the night of 26 Dec 2026; same on 27 Dec"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-26&to=2026-12-27&guests=1&currency=CNY"
+      - label: Same bed, New Year's Eve
+        local: 100
+        brl: 82.67
+        note: "Searched for the night of 31 Dec 2026 alone"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+      - label: Same bed, 1 Jan
+        local: 150
+        brl: 124.01
+        note: "Searched for the night of 1 Jan 2027"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2027-01-01&to=2027-01-02&guests=1&currency=CNY"
+    rating:
+      score: 9.7
+      out_of: 10
+      source: Hostelworld
+      reviews: 251
+      atmosphere: 9.6
+      checked: 2026-11-10
+    social:
+      - "A November 2026 guest: people staying at other hostels ended up hanging out at this one. \"To meet people, this is the best place.\""
+      - "Small on purpose: a lounge with a kitchen corner, a 20-metre balcony and a **rooftop garden** over the city."
+      - "Free homemade bread every day, a welcome coffee, free tea and filtered water."
+      - "The owners wrote their own Chongqing guidebook and talk you through where to eat and what to see."
+      - "Guests write about going out together: a night out (July 2025), hotpot and a hike with new friends (Sept 2025)."
+      - "**Caveat:** a July 2026 guest says the hostel arranges no activities. Booking.com lists film nights, classes and hikes; no review I read describes one."
+      - "**Winter caveat:** a guest on 2 Jan 2026 found it \"not super social\" with few foreigners in town. A November 2025 guest said the same of the off season."
+    good_to_know:
+      - "**No private rooms.** Hostelworld, Booking.com and Trip.com list only 8-bed dorms (mixed, female or male) with shared bathrooms."
+      - "**24 h reception and no curfew** (Hostelworld). Booking.com asks you to tell the hostel your arrival time."
+      - "**Wifi:** free. Not mentioned in Hostelworld or Trip.com reviews; Booking.com guests score it 9.5 out of 10."
+      - "**Work space:** no desks or coworking listed. Lounge, mini library, balcony; no review mentions working there."
+      - "**Foreign passports:** no page states the policy. In 2026, Hostelworld reviewers came from 20 countries, Brazil included."
+      - "Pay on arrival in cash, WeChat or Alipay (Hostelworld). Booking.com says cash only, plus a ¥100 cash deposit returned at check-out."
+      - "Bunks have curtains and their own sockets. Free lockers, lift. Towels are for hire, and you make your own bed."
+      - "Complaints: thin mattresses, tight and dated bathrooms, a lift one guest waited 10 minutes for, and one April 2026 report of mould in the showers."
+  - type: highlights
+    items:
+      - title: The best-scored hostel in town
+        text: "**9.7 from 251 Hostelworld reviews**, with 9.9 for staff and 9.9 for location. The next hostel on the list has 9.5 from 102. Booking.com guests give it 9.4 across 323 reviews."
+      - title: A short walk from the countdown
+        text: "The hostel says it is **5 minutes on foot** from the Liberation Monument. Booking.com measures 600 m to the monument and 1.2 km to Hongyadong."
+      - title: A rooftop on the 31st floor
+        text: "Reviewers keep coming back to the view from the rooftop garden. One Hostelworld guest called it the best view in the city."
+      - title: Hosts who do the planning with you
+        text: "A guidebook the owners wrote themselves, a map of routes to the sights, and help with Alipay for one first-timer in China."
+  - type: prose
+    title: The remote-work week, honestly
+    text: |-
+      **Working by day.** The listings show free wifi, a common lounge, a mini library and a balcony. They show no desks and no coworking room. No Hostelworld or Trip.com review mentions wifi, a laptop or working here, so the only signal is Booking.com's guest wifi score of 9.5. The hostel also runs a café, but sources disagree on where it is: Hostelworld calls it in-house, Booking.com says top floor, and a Trip.com guest says it is across the street on the ground floor of a Marriott building, with a free-drink voucher at check-in. Ask when you arrive.
+
+      **The 01:00 call on Tue 29 Dec** is the weak point. There is no private room. One Trip.com guest wrote that the rooms are not soundproofed, though Booking.com lists soundproofing as a dorm feature. No source says whether the lounge is free and quiet after midnight. What is confirmed: reception is staffed 24 h and there is no curfew, so you can be up and about. Ask the owners on the first day where you may take a call. One Trip.com reviewer was offered a single room in a nearby building, so ask about that too. If neither works, book one night in a private room: Merica Hotel had one on 28 Dec for ¥107 (R$88) prepaid, or ¥130 to pay later.
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Book 26 Dec – 2 Jan as one stay. On 10 Nov, Hostelworld showed **¥595 (R$492)** for the seven nights in the mixed dorm, and Booking.com **¥520 (R$430)** in the male dorm with nothing to pay up front." }
+      - { days_before: 1, text: "Hostelworld: book more than one day ahead for free cancellation. Booking.com showed free cancellation until 18:00 on check-in day." }
+      - { days_before: 0, text: "Check in between 14:00 and 23:00 and pay the balance in cash, WeChat or Alipay." }
+    passport_note: "Booking.com says guests must show photo ID and a credit card at check-in, and should contact the hostel if arriving after 18:00. Bring the passport itself."
+  - type: map
+    note: "From Jiaochangkou station, the hostel is on the top floor of the Yangguang Xingzuo building (阳光星座). An April 2026 guest: enter on the north-east side and take the first lift to the top. The hostel sends picture directions after you book; several guests still call it hard to find."
+  - type: tips
+    variant: insider
+    items:
+      - "Message the hostel before you book and ask one thing: where can a guest take a video call at 01:00?"
+      - "**A private room for the call night:** Merica Hotel on Xinhua Road had an ensuite double on 28 Dec for **¥107 (R$88)** prepaid with no changes allowed, or **¥130** to pay later (Booking.com, 8.9 from 423 reviews; searched 10 Nov). It has its own card."
+      - "**Cheaper fallback:** Chongqing Rooftop Terrace Hostel, by its own account 5 minutes' walk from Jiaochangkou station, had a private single for ¥125 on 28 Dec, one left on 10 Nov. It scores 7.9 from 16 Hostelworld reviews."
+      - "Read the owners' guidebook on day one. Reviewers call it the best thing in the building after the view."
+      - "Want a bar and a bigger common room with a coworking tag? **Desti Youth Park Hostel** uses the same metro station and costs less, but scores 8.8 for atmosphere."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't count on the rooftop in winter: a November 2025 guest never got up there because it closes in the rain."
+      - "Light sleepers: a Trip.com guest reports no soundproofing and noisy guests at night."
+      - "Bring cash. Booking.com lists the hostel as cash only, with a ¥100 deposit."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, rain on about 10 days a month
+    note: "Mild for a China winter, but grey: December gets about 6% of its possible sunshine. One December 2025 guest called the heating the best of their whole trip; a January 2024 guest found the heater weak and the dorm humid. The rooftop is closed when it rains."
+    wear: Mid-weight jacket and a rain layer
+  - type: pairs_well
+    items:
+      - { id: jiefangbei-nye-countdown, note: "The monument is about 600 m away: walk there and back, no metro needed" }
+      - { id: chongqing-drone-light-show, note: "Hongyadong is 1.2 km away and the Chaotianmen viewing area 2.3 km (Booking.com distances)" }
+      - { id: liziba-station, note: "Line 2 from Jiaochangkou, the station at the door" }
+      - { id: merica-hotel-jiefangbei, note: "A private room for the night of the 01:00 call" }

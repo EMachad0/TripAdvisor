@@ -1,0 +1,105 @@
+id: xian
+country: china
+name: "Xi'an"
+name_local: 西安
+region: Shaanxi · Northwest China
+scope: city
+cities: [xian]
+why: "The Terracotta Army, a 14 km Ming wall you can cycle on top of, and Hui Muslim street food: roujiamo, paomo, lamb skewers. One overnight train from Beijing or Shanghai, 3 h from Chengdu."
+best_for: [food, culture, views, nightlife]
+highlights: ["Terracotta Army", "Cycling the City Wall", "Muslim Quarter food", "Sajinqiao locals' food street", "Bell Tower at night", "Big Wild Goose Pagoda"]
+days_suggested: { min: 2, max: 4 }
+cost_level: medium
+fame: popular
+lat: 34.26111
+lng: 108.94222
+getting_there: "Night trains from Beijing (about 12 h; D-train sleeper ¥350–435) or Shanghai (11–16 h; ¥430–438). Leave on a G-train to Chengdu East: 3–4 h, ¥263–300."
+getting_around: "Metro from ¥2, most central rides ¥2–5, about 06:00–23:00. Line 2 links Xi'an North station and the Bell Tower; Line 4 serves the old Xi'an station. The walled centre is flat and walkable."
+winter_note: "Cold and dry: December averages −3 to 7 °C with about 6 mm of rain, and city snow is rare. Winter is heating season and haze is a real risk: a 2018 winter study measured PM2.5 averaging 68 µg/m³, with frequent days over 100. Low season means fewer crowds; the Terracotta Army closes at 18:00 and the wall's bike rental stops when rain is likely."
+image: bell-tower-night
+sources:
+  - url: https://en.wikipedia.org/wiki/Xi%27an
+    title: "Xi'an — Wikipedia (coordinates; Ming wall 1370; December climate normals 1991–2020)"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/china-trains/beijing-xian-overnight.htm
+    title: "Beijing–Xi'an overnight trains — TravelChinaGuide (updated 2026-07-07): times, sleeper fares"
+    checked: 2026-11-10
+  - url: https://www.travelchinaguide.com/china-trains/shanghai-xian.htm
+    title: "Shanghai–Xi'an trains — TravelChinaGuide (updated 2026-02-05): overnight D/Z/K trains, fares"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/xian-to-chengdu/
+    title: "Xi'an to Chengdu high-speed train — China for Travelers (updated 2026-07-18)"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/xian-subway-guide/
+    title: "Xi'an subway guide — China for Travelers (updated 2026-08-15): fares, hours, lines"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/where-to-stay-in-xian/
+    title: "Where to stay in Xi'an — China for Travelers (updated 2026-08-06)"
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Xi%27an
+    title: "Xi'an — Wikivoyage (City Wall tickets and bikes, Bell Tower, pagoda, food, bars)"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/xian/weather/december.htm
+    title: "Xi'an weather in December — China Highlights (cold, dry, low season, Christmas spots)"
+    checked: 2026-11-10
+  - url: https://www.wanderinchina.com/destinations/xian/terracotta-warriors/transport/
+    title: "Terracotta Warriors transport — Wander in China (2026-07-23): bus-ticket scam at the old station"
+    checked: 2026-11-10
+  - url: https://acp.copernicus.org/articles/22/10139/2022/
+    title: "Duan et al. 2022, ACP: wintertime aerosol in Xi'an, heating season 2018 (PM2.5 average, haze events)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Train times and fares from TravelChinaGuide and China for Travelers, not checked on 12306; which Beijing station each night train uses isn't stated. Climate is 1991–2020 normals for Chang'an district. The haze figure is from one 2018 study; I found no 2026 air-quality data. Wikivoyage prices (wall ¥54, bike ¥40/2 h) are undated."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    hook: "Capital of the Qin, Han and Tang, now a city of night-lit gates, wall-top bikes and lamb steam."
+    caption: The Bell Tower lit up at night, in the middle of the walled city
+  - type: highlights
+    title: Why stop here
+    items:
+      - title: The Terracotta Army
+        text: "Thousands of clay soldiers in Lintong, an hour out by bus. **¥120**, booked online with your passport. It has its own card below."
+      - title: A bike ride on the wall
+        text: "The Ming wall is **13.7 km** around and 15 m wide on top. Wikivoyage lists bike hire at **¥40 for 2 hours** on top of the ¥54 ticket."
+      - title: Hui Muslim street food
+        text: "Wikivoyage puts the best **roujiamo** and **yangrou paomo** in the Hui Muslim Quarter by the Drum Tower. Sajinqiao, on its western edge, has its own card."
+      - title: The Bell Tower after dark
+        text: "The lit Bell Tower sits on a roundabout in the middle of the walled city, on Metro Lines 2 and 6."
+      - title: Bars south of the wall
+        text: "Wikivoyage points to **Defu Xiang** bar street and the clubs along Nandajie, just inside the south gate."
+  - type: prose
+    title: What a few days here feel like
+    dropcap: true
+    text: |-
+      Xi'an was the capital of the Zhou, Qin, Han, Sui and Tang dynasties, and the walled centre still feels like it. A 1370 Ming wall rings a flat grid of streets, with the Bell Tower in the middle and the Hui Muslim Quarter right behind the Drum Tower. Three nights work well: one day for the Terracotta Army, one on the wall and in the food streets, one spare for the Big Wild Goose Pagoda or a bar night.
+
+      **Base yourself inside the wall, near the Bell Tower.** A 2026 neighbourhood guide calls it the default for first-timers: Metro Line 2 runs straight from Xi'an North station. Rooms on the main streets are noisy, and some of the smallest Muslim Quarter guesthouses can't register foreign guests, so check before you book.
+
+      It sits neatly on the route. Arrive on a night train from Beijing or Shanghai, then ride the G-train to Chengdu in about three hours.
+  - type: gallery
+    images:
+      - { file: city-wall, caption: Watchtowers on the Ming city wall }
+      - { file: wild-goose-pagoda, caption: The Big Wild Goose Pagoda }
+      - { file: muslim-quarter-steam, caption: Steaming bread in the Muslim Quarter }
+  - type: quote
+    variant: vibe
+    text: Lamb steam in the lanes, a lit tower on the roundabout, a cold bike ride on top of the wall.
+  - type: tips
+    variant: insider
+    items:
+      - "Overnight D-train sleepers from Beijing leave around 20:30 and arrive about 08:30: a free night's bed and a full first day."
+      - "Book the Terracotta Army online before you arrive: entry is real-name, with your passport number."
+      - "Wikivoyage warns that Muslim Quarter prices can be double elsewhere: look for the long queues, or walk west to Sajinqiao."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Taxi drivers at the railway station can charge many times the normal fare (Wikivoyage): take the metro."
+      - "By the old railway station, anyone in a lanyard selling bus \"tickets\" on the sidewalk is a scammer; the ride ends at a fake museum (Wander in China)."
+  - type: weather
+    temp_low_c: -3
+    temp_high_c: 7
+    conditions: Cold, dry, often grey; haze on some days
+    note: "Below freezing at night. The wall and the Terracotta pits are cold, so plan indoor breaks. Check the air quality before an outdoor day; on a hazy one, save the wall and the views for later."
+    wear: "Down jacket, gloves, scarf; a mask for haze days"

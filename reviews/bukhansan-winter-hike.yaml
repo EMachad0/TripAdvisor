@@ -1,0 +1,22 @@
+# Independent review of bukhansan-winter-hike. Written by `./atr review`; do not edit by hand.
+id: bukhansan-winter-hike
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: fd4c26514601f7f39c2de55d9bf7d294cd7cc862f09c77aa972d01166acf8b2e
+facts:
+  supported: 4
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[1].extra[1].detail
+    problem: The page now tells the traveler to go on Monday 11 or 18 Jan, but the quick facts still say to rent crampons at the Hiking Tourism Center, and the pitfalls say to ask there whether the top is iced. That center is closed every Monday. Only one insider tip mentions the closure, so someone reading the quick-facts card would turn up on a Monday expecting to rent gear.
+    evidence: 'blocks[1].extra[1].detail now says "Rental center shut Mondays: buy slip-ons at shops by the entrance" and blocks[9].items[2] now points to knps.or.kr trail notices instead of the center. https://seoulhiking.or.kr/ says Bukhansan Center is "Closed every Monday". https://koreatodo.com/bukhansan-national-park says "the hiking shops leading to the park entrance ... generally do sell affordable slip-on snow ice crampons".'
+  - field: blocks[8].items[1]
+    problem: The new fallback, "Or go Sat 16 / Sun 17 Jan, early", lands on the two free days the trip plan has already given to Hwacheon. The page does not mention the clash, so the traveler could double-book those days.
+    evidence: 'blocks[8].items[1] now says "Sat 16 – Sun 17 Jan is planned for Hwacheon: a weekend hike means dropping it", which matches config/trip.yaml korea.notes: "free days Jan 10, Jan 16–17 (Hwacheon)".'
+rereview_of: 76bf8c9c6482cae7551c65cc77f67b6f82cc3ccc242fb6ed31304e9098beb0c1
+summary: Both earlier shoulds are fixed. The Monday gear advice now matches seoulhiking.or.kr (closed Mondays) and KoreaToDo (shops by the entrance sell slip-on crampons), and the clash with the Hwacheon weekend is now flagged. The knps.or.kr trail-notice pointer could not be checked because the site refused the connection or rendered empty. It is advice, not a hard fact, so it is not raised as an issue. The page passes.
+model: claude-opus-5-5
+cost_usd: 0.244

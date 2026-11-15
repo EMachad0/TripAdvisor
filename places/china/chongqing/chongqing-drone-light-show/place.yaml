@@ -1,0 +1,155 @@
+id: chongqing-drone-light-show
+name: "Chongqing Drone Light Show over the Two Rivers"
+short_name: Chongqing Drone Show
+name_local: 新韵重庆无人机灯光秀
+name_romanized: Xīnyùn Chóngqìng wúrénjī dēngguāng xiù
+country: china
+city: chongqing
+area: Nan'an · Nanbin Road riverside
+category: shows
+fame: hidden
+tags: [drone-show, nye, free, night, river, skyline, cyberpunk]
+kind: See
+why: "Thousands of drones paint the sky over the Yangtze–Jialing confluence, free, every Saturday at 20:30. On NYE 2025 it was 8,000 drones for 50 minutes."
+when:
+  dates:
+    - { from: 2026-12-12, to: 2026-12-12 }
+    - { from: 2026-12-19, to: 2026-12-19 }
+    - { from: 2026-12-26, to: 2026-12-26 }
+    - { from: 2026-12-31, to: 2027-01-02 }
+  label: "Saturdays 20:30, NYE and New Year"
+  confirmed: false
+cost:
+  local: 6
+  currency: CNY
+  brl: 4.96
+  note: "The show is free. ¥6 is a rough metro round trip (fares go by distance)"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 2 h (arrive 45 min early)
+best_time: Saturday 20:30, or NYE 23:25 if it runs again
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Regular shows Saturdays and public holidays; 20:30 start from Oct 1 to Apr 30, about 20 minutes"
+  closed: "Rain or strong wind; Saturdays that are make-up workdays"
+  winter: "No Dec 2026 schedule yet: Chongqing posts each month's dates at the end of the month before. **NYE 2025 had a special 50-minute, 8,000-drone show at 23:25** (over 300,000 watched). The NYE 2026 show is not announced yet. Fog and drizzle are common in December."
+
+location:
+  address: Changjiahui Shopping Park, Nanbin Road, Nan'an District, Chongqing (riverside, next to the Planning Exhibition Hall)
+  address_local: 重庆市南岸区南滨路 长嘉汇购物公园（重庆市规划展览馆旁）
+  lat: 29.5813
+  lng: 106.5821
+  nearest_transit: Zidanshi (Loop Line), Exit 2, then about 20 min walk
+
+sources:
+  - url: https://m.cq.bendibao.com/news/168218.shtm
+    title: "重庆无人机表演10月时间表 (Chongqing Bendibao, posted 2026-09-28): Saturdays 20:30, Oct 10 cancelled"
+    checked: 2026-11-10
+  - url: http://cq.bendibao.com/xiuxian/20251226/160418.shtm
+    title: "2026重庆跨年夜无人机表演时间表 (Chongqing Bendibao, Dec 2025): NYE 23:25, 20:30 starts Oct–Apr"
+    checked: 2026-11-10
+  - url: http://cq.bendibao.com/xiuxian/2025124/159886.shtm
+    title: "2026重庆跨年夜无人机表演地点 (Chongqing Bendibao, 2025-12-30): viewing spots, metro, control zones"
+    checked: 2026-11-10
+  - url: https://www.ichongqing.info/2025/12/30/chongqing-to-unveil-spectacular-drone-light-show-for-new-years-eve-celebration/amp
+    title: Chongqing to unveil drone light show for New Year's Eve (iChongqing, 2025-12-30)
+    checked: 2026-11-10
+  - url: https://www.yzwb.net/news/yw/202601/t20260106_308098.html
+    title: "Xinhua via Yangtze Evening Post (2026-01-06): 8,000 drones, 50 minutes, over 300,000 watched on NYE"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "The weekly 20:30 Saturday pattern is solid (official posts through Oct 2026), but the Dec 2026 dates and any NYE 2026 show are not published yet. They usually appear a few weeks ahead on Chongqing Bendibao. Weather cancellations are common. Metro fare is an estimate."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: spiral-over-raffles
+    caption: "A regular 2025 show seen from a bar terrace on the Nan'an bank, with Raffles City across the river"
+    hook: Galaxies, spaceships and giant text over Raffles City, floating on the river where Chongqing's two rivers meet.
+    focus: right
+  - type: quick_facts
+    time_needed: 2 h (arrive 45 min early)
+    best_time: Saturday 20:30, or NYE 23:25 if it runs again
+    extra:
+      - label: Show length
+        value: About 20 min
+        detail: NYE 2025 special ran about 50 min
+      - label: Best side
+        value: Nanbin Road
+        detail: Text reads backwards from Chaotianmen
+      - label: Rain plan
+        value: Check that afternoon
+        detail: Cancellations are posted the same day
+  - type: highlights
+    items:
+      - title: The cyberpunk skyline, upgraded
+        text: "The drones fly over the **Liangjiang four-banks** core, right above Raffles City and Hongyadong, so the shapes hang over the city you came to see."
+      - title: Free and every week
+        text: "No ticket, no booking. Shows run **every Saturday and on holidays**; officials counted close to 120 shows by early Oct 2026."
+      - title: NYE goes huge
+        text: "On **Dec 31, 2025** the city flew **8,000 drones for about 50 minutes** from 23:25, with laser and water-show boats on the river. Over 300,000 people watched."
+      - title: Pick your angle
+        text: "**Nanbin Road / Changjiahui** faces the show head-on. **Chaotianmen** has the widest view, but text reads mirrored. **Jiangbeizui** is side-on and calmer."
+  - type: prose
+    title: How a show night goes
+    dropcap: true
+    text: |-
+      Get to the Nan'an riverside by about **19:45** on a Saturday. At 20:30 a swarm rises from the launch pad by the **Planning Exhibition Hall**. Over twenty minutes it draws spinning galaxies, giant Chinese characters and city logos above the towers of Raffles City.
+
+      For **NYE**, multiply everything. In 2025 the city closed roads around the launch site from 17:00, capped the crowd at each viewing area and ran the metro until about 01:30. The 23:25 show ran past midnight, so the countdown happened under the drones.
+
+      The catch is that nothing is certain until shortly before. Monthly dates come out at the end of the month before, and a wet evening can cancel a show on the day. If the drones are a must, keep **two Saturdays** free in Chongqing.
+  - type: gallery
+    images:
+      - file: crowd-on-the-terrace
+        caption: Bar terraces on the Nan'an bank, packed for the show
+      - file: cocktail-glass
+        caption: Shapes change every few seconds
+        focus: top
+      - file: spaceship
+        caption: A drone spaceship beams up the Raffles towers
+        focus: top
+  - type: quote
+    variant: vibe
+    text: The whole riverbank goes silent, then thousands of phones go up at once.
+  - type: cost_breakdown
+    items:
+      - label: The drone show
+        local: 0
+        brl: 0
+      - label: Metro there and back (rough)
+        local: 6
+        brl: 4.96
+    note: "Practically free. Spend the saved budget on hotpot afterwards in the Danzishi old street right behind the riverside."
+  - type: map
+    zoom: 15
+    note: "Ask the taxi for **长嘉汇** (Changjiahui). The launch pad by the Planning Exhibition Hall is closed off; stand on Nanbin Road on either side of it."
+  - type: tips
+    variant: insider
+    items:
+      - "**Check the schedule** on Chongqing Bendibao (重庆本地宝) at the start of the month. Search 重庆无人机表演 时间."
+      - "On a normal Saturday, **45 minutes early** is enough for the railing. On NYE, aim for 21:00 or earlier."
+      - "For a seat, the riverside bars at Changjiahui have terraces facing the show. Buy a drink and you have a front-row table."
+      - "Leave via **Zidanshi** or **Tushan** stations. Thousands leave at once, so taxis are hard to get."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Chaotianmen gives the backwards view.** Characters and words read mirrored from there."
+      - "Rain, drizzle or strong wind can cancel a show **on the day**. December in Chongqing is often foggy and damp."
+      - "Saturdays that are official make-up workdays have **no show**. Oct 10, 2026 was cancelled for this reason."
+      - "Don't fly your own drone: the whole riverside is a no-fly zone on show nights."
+  - type: weather
+    temp_low_c: 7
+    temp_high_c: 12
+    conditions: Grey, damp, often foggy, light drizzle
+    note: "Not freezing, but the river wind at night feels colder than the number. Fog can soften the drones, and rain can cancel the show outright."
+    wear: Warm jacket, a layer underneath, small umbrella
+  - type: pairs_well
+    items:
+      - id: jiefangbei-nye-countdown
+        note: "On NYE choose one: the drones at 23:25 by the river, or the countdown at the monument"
+      - id: liziba-station
+        note: "The other cyberpunk classic: a monorail through an apartment block"

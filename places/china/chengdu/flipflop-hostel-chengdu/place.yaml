@@ -1,0 +1,129 @@
+id: flipflop-hostel-chengdu
+name: "Poshpacker Chengdu Flipflop Hostel"
+short_name: Flipflop Hostel
+country: china
+city: chengdu
+area: Jinjiang · Taikoo Li
+category: stay
+tags: [hostel, social, rooftop-bar, hotpot-party, city-walk]
+kind: Stay
+why: "Social hostel by Taikoo Li: rooftop bar, free hotpot and dumpling parties, a weekly city walk. ¥50 dorm bed, 9.5 for atmosphere on Hostelworld."
+cost:
+  local: 49.5
+  currency: CNY
+  brl: 40.92
+  note: "Male 10-bed dorm, night of Dec 16, 2026 (Hostelworld, searched Nov 10). Female 4-bed ¥59.40"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Check-in 14:00–23:00 · check-out by 12:00 · no curfew"
+  winter: "No Christmas rules or minimum stay shown for Dec 2026. A Dec 24–26 search on Nov 10 still showed beds. The traveler leaves for Chongqing by Dec 26, before the New Year rush."
+
+location:
+  address: "No. 96–98 Dongsheng Street, Jinjiang District, Chengdu"
+  address_local: 成都市锦江区东升街98号
+  lat: 30.6529
+  lng: 104.07561
+  nearest_transit: "Chunxi Road (Lines 2 & 3), Exit E1, about 5 min walk"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/POSHPACKER-Chengdu-Flipflop-Hostel/Chengdu/71994?from=2026-12-16&to=2026-12-17&guests=1&currency=CNY"
+    title: "POSHPACKER Chengdu Flipflop Hostel — Hostelworld (Dec 16–17, 2026 search: prices, rating, events, house rules)"
+    checked: 2026-11-10
+  - url: "https://www.booking.com/hotel/cn/chengdu-tuo-ban-xie-qing-nian-lv-she.en-gb.html?checkin=2026-12-16&checkout=2026-12-17&group_adults=1&selected_currency=CNY"
+    title: "POSHPACKER - Chengdu Flipflop Hostel — Booking.com (Dec 16–17, 2026: address, rooftop bar, 8.7/633 reviews)"
+    checked: 2026-11-10
+  - url: https://www.openstreetmap.org/?mlat=30.6529&mlon=104.07561#map=18/30.6529/104.07561
+    title: Chengdu Flipflop Hostel — OpenStreetMap (98 Dongsheng Street)
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/xian-to-chengdu/
+    title: Xi'an to Chengdu train — China for Travelers (Chengdu East to Chunxi Road by metro)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Chengdu
+    title: Chengdu — Wikipedia (climate normals 1991–2020)
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Prices from dated Hostelworld and Booking searches for Dec 16, 2026; they move. Open now: reviews from stays in Sept–Nov 2026. No source states outright that it registers foreign passports; I inferred it from recent reviews by guests from the USA, England, Peru and France. Address is No. 96 on Hostelworld, No. 98 on Booking and OSM."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: taikoo-li
+    hook: Step out of the door and you're at Taikoo Li; come back up to a rooftop bar full of other backpackers.
+    caption: "Taikoo Li, a minute's walk away. No free photo of the hostel itself"
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–23:00", detail: No curfew; check-out by 12:00 }
+      - { label: Vibe, value: Social, detail: "Bar, pool table and weekly hostel events" }
+      - { label: Payment, value: Cards not accepted, detail: Per Hostelworld house rules; pay online or with a wallet app }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 10-bed male dorm, ensuite
+        local: 49.5
+        brl: 40.92
+        note: "Night of Dec 16, 2026, Hostelworld (10% off ¥55)"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/POSHPACKER-Chengdu-Flipflop-Hostel/Chengdu/71994?from=2026-12-16&to=2026-12-17&guests=1&currency=CNY"
+      - label: Bed in male dorm (Booking.com)
+        local: 54
+        brl: 44.64
+        note: "Night of Dec 16, 2026, Booking.com"
+        url: "https://www.booking.com/hotel/cn/chengdu-tuo-ban-xie-qing-nian-lv-she.en-gb.html?checkin=2026-12-16&checkout=2026-12-17&group_adults=1&selected_currency=CNY"
+      - label: Bed in 4-bed female dorm, ensuite
+        local: 59.4
+        brl: 49.11
+        note: "Night of Dec 16, 2026, Hostelworld; also the 4- and 6-bed male dorms"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/POSHPACKER-Chengdu-Flipflop-Hostel/Chengdu/71994?from=2026-12-16&to=2026-12-17&guests=1&currency=CNY"
+      - label: Single private ensuite (tatami style)
+        local: 119.7
+        brl: 98.96
+        note: "Night of Dec 16, 2026, Hostelworld"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/POSHPACKER-Chengdu-Flipflop-Hostel/Chengdu/71994?from=2026-12-16&to=2026-12-17&guests=1&currency=CNY"
+    rating:
+      score: 9.6
+      out_of: 10
+      source: Hostelworld
+      reviews: 1607
+      atmosphere: 9.5
+      checked: 2026-11-10
+    social:
+      - "Large lounge with a **free pool table** and a bar with coffee and local craft beer"
+      - "**Rooftop garden bar**, praised in reviews (\"nice to meet other people, amazing rooftop\")"
+      - "Free **hotpot and dumpling parties** (listed as weekly)"
+      - "A **city walk** organised every week"
+      - "Tour desk: panda, Leshan Buddha, Sichuan opera, cooking class"
+    good_to_know:
+      - "Dorms are single-sex (male or female); every dorm has its own toilet and shower"
+      - "Lockers, bed curtains, reading lights and USB sockets at each bed"
+      - "Some recent reviews say the mattresses are thin, and one met a long-term guest in his dorm"
+      - "Staff speak English (Booking.com description and reviews)"
+  - type: highlights
+    items:
+      - title: The most central bed in town
+        text: "A minute from **Taikoo Li and Chunxi Road**, five minutes from the metro, walking distance to the Jiuyanqiao bar street and Lan Kwai Fong."
+      - title: Built for meeting people
+        text: "Hostelworld's atmosphere score is **9.5**, and its review summary singles out the dumpling parties as the place to meet other travellers."
+      - title: One train to the pandas
+        text: "Chunxi Road station is on **Line 3**, the Panda Base line, and Line 2 to People's Park and Chengdu East."
+  - type: map
+    note: "From Chengdu East station take Line 2 straight to Chunxi Road (about 25 min, ¥4), Exit E1."
+  - type: tips
+    variant: insider
+    items:
+      - "On Hostelworld the dorm bed was ¥4.50 cheaper than on Booking.com for the same night, with free cancellation if you book more than a day ahead."
+      - "Check the hostel's event days when you arrive and plan the hotpot night around them."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Cool, damp and grey
+    note: "Rooms have air-con (listed for every room type). The rooftop bar is open-air, so evenings up there are chilly in December."
+    wear: A warm layer for the rooftop
+  - type: pairs_well
+    items:
+      - { id: chengdu-christmas, note: "Taikoo Li's Christmas decorations are on your doorstep" }
+      - { id: chengdu-panda-base, note: "Line 3 from Chunxi Road straight to the panda stations" }
+      - { id: heming-teahouse-peoples-park, note: "Two stops on Line 2" }
+      - { id: dujiangyan-zhongshuge-bookstore, note: "Day trip out of town" }

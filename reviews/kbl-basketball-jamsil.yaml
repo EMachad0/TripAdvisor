@@ -1,0 +1,19 @@
+# Independent review of kbl-basketball-jamsil. Written by `./atr review`; do not edit by hand.
+id: kbl-basketball-jamsil
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 353e9df5dc86ca9a1d12bcc47be64ec20e59532800ecc84dc5d1aeb4d2f7b16f
+facts:
+  supported: 10
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: best_time
+    problem: The new pick, Sun 10 Jan at 14:00, falls on the day the traveler moves from Korea to Japan (config/trip.yaml has Korea ending 2027-01-10 and Japan starting 2027-01-10; docs/TRIP.md has 'Korea | Jan 2 – Jan 10' and 'Japan | Jan 10 – Jan 19'). A game that ends around 16:00–16:30 in Jamsil clashes with most flights that day, and neither best_time nor blocks[4].text says so. This is the same kind of clash the earlier finding raised for 22 Jan.
+    evidence: "config/trip.yaml now has Korea 2027-01-10 to 2027-01-20, with free days Jan 10, 16–17 and 20. best_time is now 'Sun 17 Jan, 14:00 (SK vs Daegu KOGAS)', a free weekend afternoon. Sun 10 Jan is flagged as the arrival day ('only works if you land in the morning'). The Hongdae pairing moved to Sat 16 Jan, a night the hongdae-pub-crawl page lists. KBL schedule API (api.kbl.or.kr/match/list, the data behind https://www.kbl.or.kr/match/schedule): gameDate 20270117, gameStart 1400, 서울 SK vs 대구 한국가스공사, 잠실학생."
+rereview_of: 45df3a4fca390aa13b2d98ee7e8180d0cc720898b1532bb561d9e8e183499d0c
+summary: "The earlier finding is resolved: the pick moved to Sun 17 Jan, 14:00, which falls inside the new Korea dates (10–20 Jan) on a free day. Every fixture in the changed text matches the KBL schedule API, the claims about trip days and shifts match config/trip.yaml, and the page renders cleanly on phone, so nothing is left to fix."
+model: claude-opus-5-5
+cost_usd: 0.528

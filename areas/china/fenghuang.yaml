@@ -1,0 +1,129 @@
+id: fenghuang
+country: china
+name: "Fenghuang & Furong"
+name_local: 凤凰古城 · 芙蓉镇
+region: Xiangxi, western Hunan
+scope: region
+cities: [fenghuang]
+why: "A free-to-enter river town of stilt houses and lantern-lit bridges, 1 h by train past Zhangjiajie, with Furong's waterfall town as a stop on the way. In late December: 4–11 °C, the waterfall thin, the town quiet."
+best_for: [culture, views, nightlife]
+highlights: ["Tuojiang stilt houses", "Hongqiao and the night lights", "North Gate stepping stones", "Misty river at dawn", "Furong waterfall town", "Direct train on to Chongqing"]
+days_suggested: { min: 1, max: 2 }
+cost_level: low
+fame: hidden
+lat: 27.9518
+lng: 109.6018
+getting_there: "Zhangjiajie West to Fenghuang Gucheng: 18 trains, 51–66 min, ¥75–93 2nd class (12306, 24 Nov). On to Chongqing: one direct, G3376 16:38 → Chongqing East 20:25, ¥314."
+getting_around: "Station is ~7.5 km north: scenic shuttle ¥7, taxi ~¥25–30, or the maglev. Inside the old town it is lanes and steps on foot; ride-hailing apps don't work there."
+winter_note: "Fenghuang averages 4.4–11 °C in December, with 10.8 wet days, 2 snowy days and about 71 h of sun all month. The town and its night lights run all year. Furong's waterfall is reported to shrink to a trickle Dec–Feb. No winter closures announced; one of the nine ticketed sights (Chongde Hall) is reported shut through 2026."
+image: fenghuang-night
+sources:
+  - url: "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-24&leftTicketDTO.from_station=JXA&leftTicketDTO.to_station=FCA&purpose_codes=ADULT"
+    title: "12306 live query, Zhangjiajie West → Fenghuang Gucheng, 24 Nov 2026: 18 trains 07:05–19:20, 51–66 min, 2nd class ¥75–93"
+    checked: 2026-11-12
+  - url: "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-24&leftTicketDTO.from_station=JXA&leftTicketDTO.to_station=FRA&purpose_codes=ADULT"
+    title: "12306 live query, Zhangjiajie West → Furongzhen, 24 Nov 2026: 11 trains 07:28–19:20, 23–24 min, ¥32–40; Furong → Fenghuang ¥43–53"
+    checked: 2026-11-12
+  - url: "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-24&leftTicketDTO.from_station=FCA&leftTicketDTO.to_station=COE&purpose_codes=ADULT"
+    title: "12306 live query, Fenghuang Gucheng → Chongqing, 24 Nov 2026: one train, G3376 16:38 → Chongqing East 20:25, 2nd class ¥314"
+    checked: 2026-11-12
+  - url: "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-24&leftTicketDTO.from_station=KAQ&leftTicketDTO.to_station=CXW&purpose_codes=ADULT"
+    title: "12306 query, Huaihua South → Chongqing, 24 Nov 2026: G-trains ¥290–393; K1172 23:09 → Chongqing East 08:01, hard sleeper ¥144"
+    checked: 2026-11-12
+  - url: "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-24&leftTicketDTO.from_station=FCA&leftTicketDTO.to_station=KAQ&purpose_codes=ADULT"
+    title: "12306 live query, Fenghuang Gucheng → Huaihua South, 24 Nov 2026: 19 trains 07:58–20:27, 25–35 min, ¥34–42"
+    checked: 2026-11-12
+  - url: https://trains.ctrip.com/trainbooking/zhangjiajie-chongqing/
+    title: "Zhangjiajie–Chongqing trains, Ctrip (14 Nov 2026, 25 trains): G2452 07:30 → Chongqing East 09:51, ¥197; to Chongqing West ¥224"
+    checked: 2026-11-12
+  - url: https://www.trip.com/trains/china/route/zhangjiajie-to-fenghuang/
+    title: "Zhangjiajie to Fenghuang trains — Trip.com (19 daily departures, first G6061 07:05 → 07:56, 156 km)"
+    checked: 2026-11-12
+  - url: https://www.trip.com/trains/china/route/fenghuang-to-chongqing/
+    title: "Fenghuang to Chongqing trains — Trip.com (about 2 a day: G3376 16:38 → Chongqing East 20:25, and G1474 19:53 → 23:25; 348 km)"
+    checked: 2026-11-12
+  - url: https://chinafortravelers.com/guides/fenghuang-ancient-town/
+    title: "Fenghuang Ancient Town — China for Travelers (2026-08-13: free entry, ¥128 nine-sight ticket, lights ~19:30, quiet hours 23:30, shuttle ¥7)"
+    checked: 2026-11-12
+  - url: https://chinafortravelers.com/guides/furong-ancient-town/
+    title: "Furong Ancient Town — China for Travelers (updated 2026-08-16: ¥108 3-day ticket, waterfall a trickle Dec–Feb, lights ~18:30)"
+    checked: 2026-11-12
+  - url: https://unusualnomad.com/fenghuang-ancient-town-travel-guide/
+    title: "Fenghuang guide — Unusual Nomad (2026-08-09: one night, shuttle ¥7, taxi ~¥25, no ride-hailing apps, Nanhua Bridge view)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Fenghuang_County
+    title: "Fenghuang County — Wikipedia (CMA 1991–2020 normals: December 4.4–11.0 °C, 10.8 wet days, 2 snow days, 70.7 h sun)"
+    checked: 2026-11-12
+  - url: https://m.163.com/dy/article/L38ECEVD0556GRK9.html
+    title: "2026 Hunan prices — NetEase (2026-08-01: core town free, nine-sight ticket ¥128, boat ¥158; rooms by the bar street loud until 1 am)"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Trains are 12306 results for 24 Nov 2026; December assumed the same. 12306 query URLs need a session cookie, so link checks may fail. Trip.com lists a second Fenghuang–Chongqing train (G1474) that 12306 did not show. No December river-level or crowd figures found. Furong's winter trickle comes from one publisher. Detour costs are my sums."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: Stilt houses doubled in black water, a lit bridge, and the bar street humming until midnight.
+    caption: Fenghuang's riverfront at night
+  - type: highlights
+    title: What justifies the stop
+    items:
+      - title: A free town on a river
+        text: "Entering Fenghuang costs nothing: the lanes, both bridges, the stepping stones and the night lights are free. A **¥128** (R$106) ticket, valid 3 days, covers nine courtyard sights; you can skip it."
+      - title: The night and the dawn
+        text: "The riverside lights come on around **19:30**. China for Travelers rates the **06:30–08:00** river mist, with empty lanes, as the better hour. One night gets you both."
+      - title: Furong on the way
+        text: "Furong (芙蓉镇) is a Tujia town built over a 60 m waterfall, **23 minutes** from Zhangjiajie West on the same line. It is gated, **¥108** (R$89) for 3 days, and in December the falls are reported as a trickle."
+      - title: It sits on the way to Chongqing
+        text: "**G3376** leaves Fenghuang Gucheng at 16:38 and reaches Chongqing East at 20:25 for **¥314** (R$260). Or go back to Zhangjiajie West, which has 14 trains a day to Chongqing East."
+  - type: prose
+    title: What a night or two here is like in late December
+    dropcap: true
+    text: |-
+      Take a morning train from Zhangjiajie West (G6061 07:05, or anything up to 19:20), a ¥7 shuttle or a ~¥25–30 taxi into town, drop the bag and walk the river in the afternoon. In December the CMA normals give **4–11 °C** and about 11 wet days in the month, so expect a damp, grey chill rather than frost; snow falls on about two days. The town's stone lanes and timber houses are unheated, so evenings by the river are cold.
+
+      After dark the riverfront lights up around 19:30. The stretch between **Nanhua Bridge and Hongqiao** is the bar strip, with posted quiet hours of 23:30, though China for Travelers says the noise runs nearer 1 am. Sleep up- or downstream of it if you want sleep. The ticketed courtyards open roughly 08:30–17:30; one of them, Chongde Hall, is reported closed through 2026. No winter closures of the town or the lights were found.
+
+      **One night** is what both English guides recommend; a second night gives you a slow morning and a day trip. For Chongqing on Dec 26, the cleanest move is a morning in town and the **16:38 G3376**.
+  - type: prose
+    title: The legs, in time and money
+    text: |-
+      All times and fares are 12306 results for 24 Nov 2026 (2nd class); December timetables are assumed the same.
+
+      - **Zhangjiajie West → Fenghuang Gucheng:** 18 trains, 07:05–19:20, 51–66 min, **¥75–93** (R$62–77). E.g. G6061 07:05 → 07:56 ¥84, G6151 09:42 → 10:34 ¥93.
+      - **With a Furong stop:** Zhangjiajie West → Furongzhen 23 min, ¥32–40 (11 trains, e.g. G6151 09:42 → 10:05); Furongzhen → Fenghuang Gucheng 27–40 min, ¥43–53 (e.g. G6097 17:23 → 17:56). Furong's station is ~2.5 km from the gate (~¥3 shuttle).
+      - **Fenghuang → Chongqing, direct:** only **G3376** 16:38 → Chongqing East 20:25, 3h47, **¥314** (R$260).
+      - **Back via Zhangjiajie West:** e.g. G6174 12:43 → 13:42 (¥93), then G2434 14:32 → Chongqing East 17:25 (¥215): **¥308** in all. Zhangjiajie West has 14 trains to Chongqing East from 07:30 to 19:47, 2h05–2h53, ¥197–222.
+      - **Via Huaihua South:** 25–35 min, ¥34–42 from Fenghuang, then G-trains 3h31–5h06 to Chongqing for ¥290–393, or the overnight **K1172** 23:09 → Chongqing East 08:01, hard sleeper ¥144: with G6433 (20:27 → 20:54, ¥38) that is ¥182 and saves a bed.
+      - **The detour:** going straight from Zhangjiajie West to Chongqing East costs ¥197–222. Going via Fenghuang (¥93 in, ¥314 out) costs about **¥185–210 more** (my sum) plus a night's bed; with the Huaihua sleeper out, only about ¥55–80 more and no extra bed.
+  - type: prose
+    title: Fenghuang or Hongcun as "the one old village"?
+    text: |-
+      They are different things. **Hongcun** is a small, ticketed (¥104) Ming-Qing village of white walls around a lake, best for 3–4 hours in the morning, and it costs a detour on the Shanghai–Beijing leg. **Fenghuang** is a free river *town*: bigger, more commercial and lit up at night, with bars, costume-photo studios and souvenir lanes, and it sits on the line from Zhangjiajie to Chongqing.
+
+      In December, Hongcun's guides describe a cold (0–10 °C), quiet village with a chance of snow on the black roofs; Fenghuang is a little milder (4–11 °C) and its draw, the lit river, does not depend on the season. If you want stillness and architecture, Hongcun is closer; if you want an evening with other people on a river, Fenghuang. Both is possible, but if Huangshan is dropped, Fenghuang is the cheaper old town to add because it is already on your way.
+  - type: gallery
+    images:
+      - { file: fenghuang-tuojiang-december, caption: "Houses along the Tuojiang on 21 December 2016" }
+      - { file: furong-panorama, caption: "Furong, the town over the waterfall (photo from 2012)" }
+  - type: quote
+    variant: vibe
+    text: Cold stone steps, a lantern on every eave, and a bar band drifting across the water.
+  - type: tips
+    variant: insider
+    items:
+      - "From Fenghuang Gucheng, the **Line 1** shuttle goes to Qifeng Square near Hongqiao, **Line 2** to Nanhuali at the upstream end (¥7, roughly 07:00–22:00)."
+      - "On a day stop, the Nanhuali visitor centre has free left luggage, open to about 21:30 (China for Travelers)."
+      - "Train sales open about **15 days** ahead: the one direct Fenghuang–Chongqing train is the one to book first."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Touts at the stations steer you to commission-paying inns and cheap **Miao-village tours** that end in a silver and medicine shop; book your bed ahead."
+      - "Riverbank boatmen offering \"¥50 and I'll take you out\" are not the licensed service."
+      - "Ride-hailing apps don't work in Fenghuang (Unusual Nomad): use the shuttle or a metered taxi."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: Cool, damp and grey; about 11 wet days and 2 snowy days in December
+    note: "CMA normals at 350 m: 4.4–11.0 °C in December, 37 mm of rain, 70.7 h of sun in the month. Fine for walking; cold by the river at night. Furong, 1 h away, should be similar (no figures found)."
+    wear: Warm jacket, a rain layer, shoes with grip for wet stone steps

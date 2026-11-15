@@ -1,0 +1,25 @@
+# Independent review of bongeunsa-temple. Written by `./atr review`; do not edit by hand.
+id: bongeunsa-temple
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: c4e0835e37c820ce5079a630e7763a7d4c7531b5c316e0893268fede8dc2f5a1
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[5].steps[1].text
+    problem: The 7-days-before step says that after that point the Thursday fee is only 70% refundable, which suggests a full refund until then. The source gives a full refund only up to 14 days out. From 13 days out it is already 70%.
+    evidence: 'blocks[5].steps[1] is now days_before 14: full refund up to 14 days, 70% from 13 to 7 days, nothing within 6 days. This matches https://www.templestay.com/en/MI000000000000000062/reserve/view.do?templestaySeq=9269&templeBookMarkId=Bongeunsa: "100% refund 14 days before / 70% refund 7 days before / No refund 6 days before".'
+  - field: best_time
+    problem: best_time, quick_facts and the prose ('On the free weekend…') send the traveler to the Sunday program on 17 Jan. config/trip.yaml books the Jan 16–17 weekend for Hwacheon. Sun 10 Jan is a free day that is also a Sunday, and the page never mentions it.
+    evidence: best_time, quick_facts.best_time and the prose now point to Sun 10 Jan 17:00 and say the 16–17 Jan weekend is for Hwacheon. config/trip.yaml has thailand to 2027-01-10 and korea from 2027-01-10, with free days Jan 10 and Jan 16–17 (Hwacheon), so 'the day you land from Bangkok' is correct. templestaySeq=27567 says "held every sunday evening", 17:00–19:00. The page already warns that 2027 dates are not listed yet (the operating period ends 2026-12-27).
+  - field: location.nearest_transit
+    problem: "'Bongeunsa (Line 9), about 5 min walk' is in no listed source. VisitKorea and Templestay give no station or walk time, and confidence_note says the walk time was estimated from the map."
+    evidence: 'The new source https://www.koreatodo.com/bongeunsa-temple says: "Bongeunsa Station (line 9, exit 1). Go straight & turn right to the temple. 3 mins walk." This matches the new nearest_transit, and confidence_note now credits KoreaToDo instead of a map estimate.'
+rereview_of: 68515041b728950b003fc1648b98f0213065db96d63233b93135e8b660107fd6
+summary: All three earlier findings are fixed. The refund step now matches the Templestay refund policy. The Sunday pick is now Sun 10 Jan, which config/trip.yaml shows as a free day, and the page no longer points to the Hwacheon weekend. KoreaToDo, now a listed source, backs the station, exit and walk time. The changed text adds no new problems, and I raised no blockers on the unchanged content.
+model: claude-opus-5-5
+cost_usd: 0.259

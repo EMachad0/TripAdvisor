@@ -1,0 +1,140 @@
+id: changi-village-hawker-centre
+name: "Changi Village Hawker Centre"
+short_name: Changi Village Hawker
+country: singapore
+city: singapore
+area: Changi Village
+category: food
+fame: hidden
+tags: [hawker, nasi-lemak, local-food, cheap-eats, near-airport]
+kind: Eat
+why: "A real hawker centre 12 min from Jewel by taxi: S$4 nasi lemak (Sunday stall opens 17:00), 24-hour Hokkien mee."
+
+cost:
+  local: 4
+  currency: SGD
+  brl: 17.59
+  note: "Nasi lemak chicken set (Eatbook, June 2024); transport there and back is extra"
+fx: { rate: 4.397, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1.5–2.5 h with the trip from Jewel"
+best_time: "Sun 17:00–19:00; check the nasi lemak stall's hours first"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Hours vary by stall; on Sundays the nasi lemak stall is 17:00–23:00 and several stalls are open 24 h"
+  winter: "NEA hawker centres close a few days each quarter for cleaning; the Jan–Mar 2027 dates weren't on the lists I found as of 13 Nov 2026, so check them the week before. The centre was closed 1–15 Oct 2026 for repairs; I found no report confirming the reopening."
+
+location:
+  address: "Blk 2 Changi Village Road, Singapore"
+  address_local: "Changi Village Hawker Centre, Blk 2 Changi Village Road"
+  lat: 1.38942
+  lng: 103.98815
+  nearest_transit: "Changi Village bus terminal (bus 2 from Tanah Merah MRT)"
+
+sources:
+  - url: https://eatbook.sg/changi-village-hawker-centre/
+    title: "Eatbook: 16 Changi Village Hawker Centre stalls, prices and hours (7 June 2024)"
+    checked: 2026-11-13
+  - url: https://nowboarding.changiairport.com/live-local/7-best-supper-places-in-singapore-changi-precinct.html
+    title: "Changi Now Boarding: supper places in the Changi precinct (address, dessert stall)"
+    checked: 2026-11-13
+  - url: https://littlebigreddot.com/hawker-centres-closed-cleaning-october-2026/
+    title: "Little Big Red Dot: Changi Village Blk 2 and 3 Changi Village Road closed 1–15 Oct 2026"
+    checked: 2026-11-13
+  - url: https://alvinology.com/2024/12/16/fairprice-group-launches-first-integrated-food-retail-experience-at-changi-airport-t3/
+    title: "Alvinology: revamped Kopitiam at T3 B2, 24 h (15 selected stalls)"
+    checked: 2026-11-13
+  - url: https://sethlui.com/hawker-centre-renovation-changi-village-singapore-sep-2026/
+    title: "Seth Lui: Changi Village Hawker Centre repairs 1–15 Oct 2026"
+    checked: 2026-11-13
+  - url: https://landtransportguru.net/bus2/
+    title: "Land Transport Guru: bus 2 (Kampong Bahru ↔ Changi Village via Tanah Merah MRT), frequencies"
+    checked: 2026-11-13
+  - url: https://www.rome2rio.com/s/Changi-Airport-Terminal-1/Changi-Village
+    title: "Rome2rio: Changi Airport T1 to Changi Village (taxi estimate)"
+    checked: 2026-11-13
+  - url: https://www.changiairport.com/en/airport-guide/transport/leaving-the-airport.html
+    title: "Changi Airport: MRT to Tanah Merah, taxi surcharges (official)"
+    checked: 2026-11-13
+  - url: https://eatbook.sg/changi-airport-t2-staff-canteen/
+    title: "Eatbook: Changi Airport T2 staff canteen (Foodies' Clan), Sunday hours"
+    checked: 2026-11-13
+  - url: https://nowboarding.changiairport.com/discover-changi/new-restaurants-and-eateries-in-changi-airport-and-jewel-january-2025.html
+    title: "Changi Now Boarding: revamped Kopitiam, T3 Basement 2, open 24 h (Jan 2025)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Climate_of_Singapore
+    title: "Climate of Singapore (Wikipedia): January normals"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Stall prices and hours: Eatbook, June 2024 (may have risen). Taxi S$17–21 before surcharges is a Rome2rio estimate. Bus 2's ride time wasn't findable, so ~1 h each way by MRT+bus is my allowance. Sunday stall hours rest on 2024 data; check that week. Oct 2026 repairs: littlebigreddot."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: hawker-stalls
+    hook: "Nasi lemak, Hokkien mee and fried chicken wings for about S$4–5 a plate, at the quiet far end of the island."
+  - type: quick_facts
+    time_needed: "1.5–2.5 h incl. travel"
+    best_time: "Sun 17:00–19:00"
+    extra:
+      - { label: From Jewel, value: "≈12 min by taxi", detail: "Or MRT to Tanah Merah + bus 2 (allow ~1 h)" }
+      - { label: Sunday dinner, value: "Nasi lemak from 17:00", detail: "Hokkien mee, lor mee: 24 h stalls" }
+  - type: highlights
+    items:
+      - title: Changi's nasi lemak
+        text: "Coconut rice, fried chicken, egg, ikan bilis and a **sambal** people cross the island for: **S$4** at International Muslim Food Stall, Sundays 17:00–23:00."
+      - title: The original Hokkien mee stall
+        text: "Eatbook says the Changi Village Fried Hokkien Mee outlet is the original of a stall you see all over Singapore. Open **24 h**, S$5–8."
+      - title: Real hawker prices
+        text: "Most mains here are **S$4–5**: a full dinner plus dessert for under R$30."
+      - title: Almost no tourists
+        text: "Changi Village sits at the island's far eastern tip, a bus terminal and a hawker centre most visitors never reach."
+  - type: prose
+    title: Why this one, for your Sunday
+    text: |-
+      You asked to stay near the airport, and this is the best cheap meal I found close to Jewel. I checked the on-airport options too. The **T2 staff canteen** (Foodies' Clan) has S$5–8 hawker dishes, but on Sundays it closes at **17:30**, before dinner. The revamped **Kopitiam food court in T3 Basement 2** keeps 15 of its stalls open 24 h and needs no trip, but I couldn't find its current prices.
+
+      For a proper hawker dinner, come here. Leave your bag at Jewel, take a taxi or Grab (about **12 min**), eat between **17:00 and 19:00** when the nasi lemak stall has just opened, and be back at the Rain Vortex for the **20:00** show. If you go by MRT and bus 2, leave by about 16:00.
+  - type: gallery
+    images:
+      - { file: hawker-sign, caption: "The entrance, steps from the Changi Village bus terminal" }
+  - type: menu
+    items:
+      - { name: "Nasi lemak, chicken set", price_local: 4, price_brl: 17.59, note: "International Muslim Food Stall #01-03 · Sun 17:00–23:00", tag: must-try }
+      - { name: "Fried Hokkien mee", price_local: 5, price_brl: 21.99, note: "Changi Village Fried Hokkien Mee #01-53 · 24 h · S$5/6/8" }
+      - { name: "Chicken chop hor fun", price_local: 4, price_brl: 17.59, note: "Weng Kee Ipoh Hor Fun #01-18/19 · Sat–Sun 08:00–24:00" }
+      - { name: "Chicken cutlet lor mee", price_local: 4, price_brl: 17.59, note: "Kampong Lor Mee #01-46 · 24 h" }
+      - { name: "BBQ chicken wings (2)", price_local: 2.8, price_brl: 12.31, note: "Jason's Place #01-66 · S$1.40 each, min. 2 · Thu–Tue 12:00–21:00" }
+      - { name: "Commando Dessert", price_local: 2.3, price_brl: 10.11, note: "Changi V. Dessert House #01-08 · red tea jelly, longan, shaved ice" }
+    note: "Prices from Eatbook's June 2024 guide; expect small rises."
+  - type: cost_breakdown
+    items:
+      - { label: "Nasi lemak chicken set", local: 4, brl: 17.59 }
+      - { label: "Commando Dessert", local: 2.3, brl: 10.11, optional: true }
+      - { label: "Taxi Jewel → village (evening, est.)", local: 32, brl: 140.7, optional: true, estimate: true, note: "S$17–21 meter + 25% evening peak (daily 17:00–23:59) + S$8 airport surcharge" }
+      - { label: "Taxi village → Jewel (est.)", local: 24, brl: 105.53, optional: true, estimate: true, note: "Meter + 25% evening peak; no airport surcharge on the way back" }
+      - { label: "Or MRT + bus 2, round trip (est.)", local: 4, brl: 17.59, optional: true, estimate: true }
+  - type: map
+    note: "Taxi address: **Blk 2 Changi Village Road**. By public transport: Changi Airport MRT → Tanah Merah, Exit 2, then bus 2 to its last stop, **Changi Village Terminal**, next to the hawker centre."
+  - type: tips
+    variant: insider
+    items:
+      - "Eatbook (June 2024) lists the nasi lemak stall as Sun 17:00–23:00; that's 2024 data. Call **8400 6882** or check Google Maps that week; if it's shut, the 24 h Hokkien mee and lor mee stalls are the fallback."
+      - "Bus 2 runs every **12–15 min** on Sunday evenings."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "By taxi the round trip costs about **S$56 (R$246)**, roughly twice your R$120 day budget. The bus costs a few dollars but takes much longer: decide based on how much time you have left before the shows."
+      - "Several stalls close one weekday, but Sunday is fine for every stall listed here. Hours are each stall's own, not the centre's."
+  - type: weather
+    temp_low_c: 24
+    temp_high_c: 31
+    conditions: Hot, humid; frequent afternoon showers in January
+    note: "The hawker centre is roofed but open-sided, with ceiling fans and no air-con. January is the northeast monsoon, so a shower on the walk from the bus is likely."
+    wear: "Light clothes; a compact umbrella"
+  - type: pairs_well
+    items:
+      - { id: jewel-rain-vortex, note: "About 12 min back by taxi for the 20:00, 21:00 or 22:00 show" }

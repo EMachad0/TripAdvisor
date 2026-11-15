@@ -1,0 +1,24 @@
+# Independent review of fenghuang-christmas-old-town. Written by `./atr review`; do not edit by hand.
+id: fenghuang-christmas-old-town
+type: place
+reviewed: 2026-11-14
+verdict: pass
+content_hash: 4e8f280b6e34ec23e53e1798877a320cf933e02d346659fce43f42e005d57c9c
+facts:
+  supported: 6
+  unsupported: 1
+  contradicted: 1
+issues:
+  - severity: nit
+    field: blocks[1].extra[1].detail
+    problem: "'3 hostels on Hostelworld, 15 reviews since 2024' is off by one: the 15 covers only Hemu House (12) and Border Town (3). YunQi ShanJu has one more review, from July 2025."
+    evidence: https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/327062/reviews/?sort=newest&allLanguages=true&page=1&monthCount=36&application=web — totalNumberOfItems 1, dated 2025-07-21
+    fix: Change to '3 hostels on Hostelworld, 16 reviews since 2024', or to '2 dorm hostels, 15 reviews since 2024' to match the highlights block.
+resolved:
+  - field: blocks[6].note
+    problem: The cost note bases its main comparison on "Chengdu's ¥85 train", which no listed source gives. The same goes for "one hour back up the line" to Zhangjiajie in pairs_well. The traveler would use both to choose where to spend Christmas.
+    evidence: https://trains.ctrip.com/trainbooking/chengdu-chongqing/ (now listed) shows D3058, D2224 and D954 Chengdu East to Chongqing North at '二等座 85', startPrice 85, so ¥314 is about 3.7 times that fare. The unsupported 'one hour' is gone from pairs_well. Ctrip's G3376 schedule (https://trains.ctrip.com/trainbooking/trainschedule/G3376) has Fenghuang Gucheng 16:38, then Zhangjiajie West 17:30, then Chongqing East 20:25, so 'back up the line toward Chongqing' is correct.
+rereview_of: b07e171baec41956610b1186926af976e1d06dcd44f859d3ddb661134a83095e
+summary: "Both earlier shoulds are fixed. The review counts match Hostelworld's feeds, and the ¥85 Chengdu–Chongqing fare is on the newly cited Ctrip page. The new ride-hailing wording and the new caption are supported. One nit is left: counting all three hostels gives 16 reviews since 2024, not 15. Nothing blocks."
+model: claude-opus-5-5
+cost_usd: 0.613

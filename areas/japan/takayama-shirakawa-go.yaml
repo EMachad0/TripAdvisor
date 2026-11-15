@@ -1,0 +1,115 @@
+id: takayama-shirakawa-go
+country: japan
+name: "Takayama & Shirakawa-go"
+name_local: 高山・白川郷
+region: Gifu · Japanese Alps
+scope: region
+cities: [takayama, shirakawa-go]
+why: "Real snow on the way from Kyoto to Tokyo: an old wooden town in the Alps, and thatched farmhouses buried in drifts, the village Higurashi's Hinamizawa is based on. Lit up on Jan 11 and 17, 2027."
+best_for: [nature, culture, day-trip]
+highlights: ["Shirakawa-go gassho houses", "Winter light-up (Jan 11 & 17)", "Takayama old town", "Morning markets", "Hinamizawa (Higurashi)", "Takayama Jinya"]
+days_suggested: { min: 2, max: 3 }
+cost_level: medium
+fame: popular
+lat: 36.146
+lng: 137.2522
+getting_there: "From Kyoto: Shinkansen to Nagoya + Hida express, ~3.5–4 h, ~¥9,500. On to Tokyo: Busta Shinjuku bus ~5.5 h, ¥8,000. Takayama ↔ Shirakawa-go bus ¥2,900, ~50 min."
+getting_around: "Takayama is small: japan-guide's suggested day there is a walk. Nohi buses to Shirakawa-go leave from the bus centre next to JR Takayama station; some runs need a reservation (marked R)."
+winter_note: "Takayama averages −4.8 °C at night and 3.2 °C by day in January, with 117 cm of snowfall (1991–2020). Shirakawa-go's 2027 light-up is Jan 11, 17, 24 and 31, 17:30–19:30, reservation only; it can be cancelled if a cold wave disrupts transport."
+image: shirakawa-lit-night
+sources:
+  - url: https://shirakawa-go.gr.jp/events/441/
+    title: "2027 (41st) Shirakawa-go light-up (Shirakawa-go Tourist Association, official): dates, reservation-only entry, last buses"
+    checked: 2026-11-11
+  - url: https://japanbusonline.com/en/CourseDetail/index/12102010119
+    title: "From Takayama: Course B Shirakawa-go Illumination Bus with observatory ticket (Nohi Bus on Japan Bus Online): ¥16,000, times, booking dates"
+    checked: 2026-11-11
+  - url: https://watabi.org/en/articles/shirakawa-go-winter-illumination-guide
+    title: "Shirakawa-go winter illumination 2027 guide (Watabi): ways in, gate at 15:30, non-light-up days need no reservation"
+    checked: 2026-11-11
+  - url: https://todolist-japan.com/en/takayama-to-shirakawago/
+    title: "Takayama to Shirakawa-go by bus (todolist-japan, 21 Oct 2026): ¥2,900 from 1 Dec 2026, ~50 min, R services, last buses"
+    checked: 2026-11-11
+  - url: https://www.japan-guide.com/e/e5908.html
+    title: "Getting to Takayama (japan-guide, Feb 2025): Tokyo by train or Busta Shinjuku bus, Nagoya–Takayama Hida"
+    checked: 2026-11-11
+  - url: https://www.snowmonkeyresorts.com/access/how-to-get-to-takayama-from-tokyo-kyoto-or-osaka/
+    title: "How to get to Takayama from Tokyo, Kyoto or Osaka (Snow Monkey Resorts, Jul 2025): train and bus times and fares"
+    checked: 2026-11-11
+  - url: https://www.japan-guide.com/e/e5900.html
+    title: "Takayama (japan-guide): old town, morning markets, Takayama Jinya"
+    checked: 2026-11-11
+  - url: https://www.japan-guide.com/e/e5950.html
+    title: "Shirakawa-go (japan-guide): Ogimachi, gassho-zukuri, farmhouse minshuku, winter illumination"
+    checked: 2026-11-11
+  - url: "https://en.wikipedia.org/wiki/Takayama,_Gifu"
+    title: "Takayama, Gifu (Wikipedia): coordinates, January climate normals 1991–2020"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Shirakawa-go
+    title: "Shirakawa-gō (Wikipedia): UNESCO site, gasshō-zukuri roofs, heavy snowfall"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Higurashi_When_They_Cry
+    title: "Higurashi When They Cry (Wikipedia): Shirakawa village as the basis for Hinamizawa"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Japan dates are now Jan 4–22, 2027 (not yet in the trip config). Light-up dates are from the official 2027 notice. Whether Nohi's ¥16,000 light-up tour still has seats was not checked (sales opened Oct 2026). Kyoto/Osaka–Takayama fares are approximate, from a July 2025 guide. The Hinamizawa link rests on a Wikipedia photo caption."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    hook: "Thatched roofs under deep snow, lit up after dark on just four winter nights."
+    caption: "Shirakawa-go farmhouses lit at night in winter"
+  - type: highlights
+    items:
+      - title: Hinamizawa in the snow
+        text: "**Ogimachi**, Shirakawa-go's largest village, is a UNESCO site of steep thatched gassho-zukuri farmhouses built for heavy snow. Wikipedia calls Shirakawa village the basis for **Hinamizawa** in Higurashi."
+      - title: The light-up, Jan 11 or 17
+        text: "On four winter evenings the village is lit from **17:30 to 19:30**. Two fall in your dates: Mon **Jan 11** (a holiday) and Sun **Jan 17**. Entry is by reservation only."
+      - title: Takayama's old town
+        text: "A beautifully preserved old town of wooden streets, the former government office at **Takayama Jinya**, and morning markets held daily in two places."
+      - title: Cold you came for
+        text: "Takayama averages **117 cm** of snowfall in January and stays below freezing at night. No skiing needed: the snow is the sight."
+  - type: prose
+    title: Why this one
+    text: |-
+      This is the wildcard for Japan, picked over Kanazawa, the Nagano snow monkeys and Hiroshima. It is the one with **real snow** you can walk through (Osaka, Kyoto and Tokyo barely get any), it is very photogenic, it has the Higurashi village you may know from anime, and it sits between Kyoto and Tokyo, so it costs a detour of a day or two rather than a separate trip.
+
+      A natural route: **Kyoto → Takayama** (Shinkansen to Nagoya, then the Hida limited express), a day trip or one night in **Shirakawa-go**, then **Takayama → Tokyo** by the highway bus to Shinjuku.
+  - type: prose
+    title: Where to base yourself
+    text: |-
+      **Takayama** is the base: the Nohi bus centre is beside the JR station, and japan-guide's suggested day in town is done on foot. No hostel cards have been written for Takayama yet. Expect a quieter, smaller-town night than Osaka or Tokyo; this is a stop for snow and photos, not clubs.
+
+      Japan-guide says the best way to experience Shirakawa-go is a night in one of its farmhouses, many of which now run as minshuku (guesthouses). On light-up nights, though, village beds were allocated by a lottery that closed on Oct 31, 2026.
+  - type: prose
+    title: Getting there and away
+    text: |-
+      **From Kyoto**: Shinkansen to Nagoya (about 35 min), then the JR Hida limited express (about 2 h 20–30 min); about 3.5–4 h and roughly ¥9,500 in total (R$333.45). The Nohi highway bus from Kyoto Station is cheaper, about ¥4,500–5,000 and 5 hours. **From Osaka**: about 4–4.5 h by Shinkansen + Hida (¥10,000–11,000), or 5.5–6 h by Nohi bus (¥5,000–6,000).
+
+      **Takayama ↔ Shirakawa-go**: Nohi bus, about 50 minutes, **¥2,900** one way or ¥5,800 return from Dec 1, 2026 (R$101.79 one way). Services marked R need a reservation, released about a month ahead.
+
+      **On to Tokyo**: highway bus from Takayama to Busta Shinjuku, about 5.5 h for ¥8,000 (R$280.80), or by train via Nagoya, about 4.5 h for ¥16,000.
+  - type: prose
+    title: The light-up, practically
+    text: |-
+      **You can't just take the bus in.** From **15:30** a gate lets in only ticket holders, and the last route bus out of Shirakawa-go leaves between **16:00 and 17:00**, before the lights come on. You need a village bed, a reserved car park, or a tour bus.
+
+      **The tour from Takayama**: Nohi Bus's Course B costs **¥16,000** (R$561.60), about three days of your budget. It leaves Takayama at 15:10, includes the observation-deck ticket, and is back at 20:45. Seats went on sale Oct 13 (for Jan 11) and Oct 19 (for Jan 17), so they may be gone.
+
+      **On a normal day** no reservation is needed: take the Nohi bus and walk the village by daylight. An Oct 2026 guide gives the last buses back to Takayama at about 17:25–17:30; check the winter timetable.
+  - type: gallery
+    images:
+      - { file: ogimachi-snow-view, caption: "Ogimachi under snow, seen from above" }
+      - { file: gassho-blue-sky, caption: "A gassho-zukuri farmhouse on a clear winter day" }
+      - { file: takayama-old-street, caption: "Takayama's old town in winter" }
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The official notice says the light-up may be **cancelled** if a nationwide cold wave causes major transport disruption."
+      - "The walk down from the observation deck gets very slippery with snow: wear shoes with grip."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 3
+    conditions: Freezing, snowy, deep snow on the ground
+    note: "January normals in Takayama: −4.8 °C at night, 3.2 °C by day, 101.9 mm of precipitation and 117 cm of snowfall. The light-up runs after dark, when Nohi warns it can drop below zero."
+    wear: Snow boots with grip, thermal layers, hat, gloves

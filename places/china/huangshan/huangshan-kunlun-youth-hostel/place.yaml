@@ -1,0 +1,146 @@
+id: huangshan-kunlun-youth-hostel
+name: "Huangshan Kunlun International Youth Hostel"
+short_name: Kunlun Youth Hostel
+name_local: 黄山昆仑国际青年旅舍
+country: china
+city: huangshan
+area: Tangkou · south gate
+category: stay
+tags: [hostel, luggage-storage, hiking-base, movie-night, small]
+kind: Stay
+why: "Small Tangkou hostel at the mountain's south gate: ¥94 dorm bed, free bag storage, a nightly hike briefing and film nights. Friendly, quiet nights."
+cost:
+  local: 94
+  currency: CNY
+  brl: 77.71
+  note: "Basic 6-bed male dorm, night of Dec 10, 2026 (Hostelworld, searched Nov 11). Female dorms ¥110"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 7
+  lead_time: "Few beds: Hostelworld showed 'only 2 beds left' per dorm"
+  method: website
+  links:
+    - label: Hostelworld (Dec 10–11 search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633?from=2026-12-10&to=2026-12-11&guests=1&currency=CNY"
+      note: Free cancellation up to 1 day before arrival
+    - label: Booking.com
+      url: "https://www.booking.com/hotel/cn/kunlun-international-youth-hostel.en-gb.html?checkin=2026-12-10&checkout=2026-12-11&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "Showed no availability for Dec 10 on Nov 11; dorms listed for other dates"
+  notes: "Each dorm showed only two beds left for Dec 10 on Hostelworld. Book once the train is fixed; cancellation is free until one day before."
+
+hours:
+  summary: "Check-in 14:00–23:00 · check-out by 11:00 (Hostelworld) or 12:00 (Booking) · no curfew"
+  winter: "No Christmas or New Year rules shown. The traveler's dates (around Dec 9–12) are low season: beds were still on sale for Dec 10 on Nov 11."
+
+location:
+  address: "No. 1, Block 8, Yinxiang, Tangchuan Rd, Tangkou, Huangshan District, Huangshan"
+  address_local: 安徽省黄山市黄山区汤口镇汤川路
+  lat: 30.07615
+  lng: 118.19401
+  approximate: true
+  nearest_transit: "Tangkou: buses from Huangshan North stop at the scenic-area bus station"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633?from=2026-12-10&to=2026-12-11&guests=1&currency=CNY"
+    title: "Huangshan Kunlun International Youth Hostel — Hostelworld (Dec 10–11, 2026 search: dorm prices, rules, free luggage storage, bar, reviews)"
+    checked: 2026-11-11
+  - url: "https://www.booking.com/hotel/cn/kunlun-international-youth-hostel.en-gb.html?checkin=2026-12-10&checkout=2026-12-11&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Kunlun International Youth Hostel — Booking.com (9.5 from 13 reviews, luggage storage, film nights, English-speaking staff, cash only)"
+    checked: 2026-11-11
+  - url: https://chinahighlights.com/huangshan/transportation.htm
+    title: "Huangshan transportation — China Highlights (Huangshan North to the south gate ¥20, 50 min, 06:30–19:30)"
+    checked: 2026-11-11
+  - url: https://en.wikivoyage.org/wiki/Huangshan
+    title: "Huangshan — Wikivoyage (Tangkou as the base; shuttles to the cable cars)"
+    checked: 2026-11-11
+  - url: https://www.hostelworld.com/hostels/p/22758/kunlun-international-youth-hostel-huangshan-city/
+    title: "Kunlun International Youth Hostel (Huangshan City) — Hostelworld (the other Kunlun, in Tunxi by the bus station)"
+    checked: 2026-11-11
+  - url: https://en.wikipedia.org/wiki/Huangshan
+    title: "Huangshan — Wikipedia (December normals at the 1,840 m summit station)"
+    checked: 2026-11-11
+confidence: medium
+confidence_note: "Prices: a dated Hostelworld search; they move. Pin is Hostelworld's map point, not checked on the ground. No source states it registers foreign passports: I inferred it from 2024–26 reviews by guests from Australia, Canada, Ireland, the US, Spain and Argentina. Luggage storage is listed, but not whether it holds bags overnight for a summit stay. Payment and check-out rules differ between sites."
+last_updated: 2026-11-11
+
+blocks:
+  - type: hero
+    image: tangkou-hub
+    hook: Wake up at the foot of the mountain, leave the big bag here, and climb with a daypack.
+    caption: "The Tangkou transfer hub, start of the mountain shuttles. No free photo of the hostel"
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–23:00", detail: "No curfew; check-out 11:00 or 12:00 depending on the site" }
+      - { label: Bags, value: Free storage, detail: Listed on Hostelworld and Booking.com }
+      - { label: Vibe, value: Small and friendly, detail: "Bar, lounge, film nights; few reviews so far" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in basic 6-bed male dorm
+        local: 94
+        brl: 77.71
+        note: "Night of Dec 10, 2026, Hostelworld; 'only 2 beds left'"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633?from=2026-12-10&to=2026-12-11&guests=1&currency=CNY"
+      - label: Bed in 6-bed female dorm, ensuite
+        local: 110
+        brl: 90.94
+        note: "Night of Dec 10, 2026, Hostelworld"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633?from=2026-12-10&to=2026-12-11&guests=1&currency=CNY"
+      - label: Bed in 4-bed female dorm, ensuite
+        local: 120
+        brl: 99.2
+        note: "Night of Dec 10, 2026, Hostelworld"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633?from=2026-12-10&to=2026-12-11&guests=1&currency=CNY"
+      - label: Double room, shared bathroom
+        local: 195
+        brl: 161.21
+        note: "Per room, night of Dec 10, 2026, Hostelworld"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633?from=2026-12-10&to=2026-12-11&guests=1&currency=CNY"
+    rating:
+      score: 9.5
+      out_of: 10
+      source: Booking.com
+      reviews: 13
+      checked: 2026-11-11
+    social:
+      - "A **bar** downstairs (tea, coffee, wine) and lounge spaces a 2026 guest called good \"for chilling or socialising\""
+      - "**Film nights**: a Canadian guest found a movie night \"each night I was there, so you can easily connect\""
+      - "A free **evening briefing** on the Huangshan hike (Hostelworld and Booking reviews)"
+      - "Self-service kitchen for cooking with other guests"
+      - "A Spanish guest called it \"un hostel sociable\". Only 2 + 13 reviews, so this is thin evidence: expect hikers who go to bed early, not a party"
+    good_to_know:
+      - "**Free luggage storage** (Hostelworld; Booking lists luggage storage). Ask whether they hold the bag overnight if you sleep on the summit"
+      - "Booking.com says **cash only**; Hostelworld says cash or cards on arrival. Bring cash"
+      - "Reception speaks English and Chinese (Booking.com); reception hours are limited (Hostelworld)"
+      - "Guests mention borrowing hiking poles and free drinking water"
+  - type: highlights
+    items:
+      - title: Your bag stays at the bottom
+        text: "Sleep here the night before the hike and the night after. The big bag stays in the dorm; after check-out the hostel lists **free luggage storage**."
+      - title: A hike briefing included
+        text: "Guests mention a free evening briefing on the mountain, advice on climbing safely, and borrowed hiking poles."
+      - title: Half the price of the summit
+        text: "A ¥94 bed against roughly ¥200–300 for a summit dorm (Wikivoyage, 2019 prices)."
+  - type: map
+    note: "From Huangshan North, take the bus to the mountain's south gate (¥20, about 50 min, 06:30–19:30), which stops in Tangkou. The pin is Hostelworld's map point: check it against the address in a map app."
+  - type: tips
+    variant: insider
+    items:
+      - "Book **two nights** (around Dec 9–10 or 10–11): arrive, hike the next day, sleep, and leave for Hongcun with the bag on the third morning."
+      - "Ask for the evening hike briefing on arrival: guests rate the staff's mountain advice."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "There are **two Kunlun hostels**: this one in Tangkou and a Kunlun International Youth Hostel in Tunxi (Huangshan city), by the long-distance bus station, about an hour from the mountain. Check the address on the booking."
+  - type: weather
+    temp_low_c: -3
+    temp_high_c: 3
+    conditions: "Summit normals for December; Tangkou, lower down, is milder"
+    note: "Rooms have air conditioning (Booking.com). Dry your hike gear overnight."
+    wear: Warm layers for the evenings
+  - type: pairs_well
+    items:
+      - { id: huangshan-summit-hike, note: "Shuttle to the cable cars leaves from Tangkou" }
+      - { id: hongcun-village, note: "1 h bus from Tangkou with your bag" }

@@ -1,0 +1,132 @@
+id: beihai-nine-dragon-wall
+name: "Beihai Park Nine-Dragon Wall"
+short_name: Nine-Dragon Wall
+name_local: 北海公园 九龙壁
+name_romanized: Běihǎi Gōngyuán Jiǔlóngbì
+country: china
+city: beijing
+area: Xicheng · Beihai north shore
+category: culture
+fame: popular
+must_do: china-dragons
+tags: [dragons, qing-dynasty, glazed-tiles, imperial-garden, cheap]
+kind: See
+why: "1756 wall of seven-colour glazed tiles with nine big dragons on each face and 600-odd small ones. ¥5–15, an hour's visit, a walk past Jingshan from the palace."
+
+cost:
+  local: 15
+  currency: CNY
+  brl: 12.73
+  note: "Winter combo ticket ¥15 (plain park ticket ¥5). Sources disagree on whether the wall needs the combo"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1 h for the wall; 3 h with the park"
+best_time: "Tue–Sun, mid-morning, when sun is on the tiles"
+
+book_ahead:
+  required: false
+  notes: "No booking needed: Beijing's government ticketing page says tickets are sold at the park's ticket office. The park's official site also sells tickets online, but you don't need them."
+
+hours:
+  summary: "Park 06:30–20:00 (last entry 19:30). Inner courtyards and sights 08:30–17:00 (last entry 16:30), Nov–Mar"
+  closed: "Inner gardens (except the Round City) close Mondays, except public holidays"
+  winter: "Low-season hours and prices apply Nov 1 – Mar 31, so every China date is covered. The boats stop for winter every year (the 2025 stop began 10 Nov). A park notice dated 12 Nov 2026 closes the nearby Chanfu Temple area 16–19 Nov 2026 only. No Christmas or New Year closure is listed."
+
+location:
+  address: "North shore of Beihai Park, Xicheng District, Beijing. Use the North Gate on Di'anmen West Street"
+  address_local: 北京市西城区文津街1号 北海公园（北门进）九龙壁
+  lat: 39.93047
+  lng: 116.38134
+  nearest_transit: "Beihai North (Line 6), Exit B or D, then about 6 min to the North Gate"
+
+sources:
+  - url: https://www.beihaipark.com.cn/#/guide
+    title: "Beihai Park official site: hours, prices (¥5, combo ¥15 Nov–Mar), Monday inner-garden closure, boat winter stop (atr render)"
+    checked: 2026-11-13
+  - url: "https://www.beihaipark.com.cn/#/detail/9dfab92e46b84af0ac986f8f7d107382"
+    title: "Beihai Park official notice, 12 Nov 2026: Chanfu Temple and Wanfo Tower ruins closed 16–19 Nov, reopen 20 Nov"
+    checked: 2026-11-13
+  - url: https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753320.html
+    title: "Beihai Park, Beijing government ticketing page (2024): prices, low-season hours, tickets at the ticket office, address 1 Wenjin St"
+    checked: 2026-11-13
+  - url: https://www.chinanews.com.cn/cul/2024/02-20/10166394.shtml
+    title: "China News / Beijing Evening News (2024-02-20): the Beihai and Forbidden City walls, 633 dragons, two fires, seven colours"
+    checked: 2026-11-13
+  - url: https://english.visitbeijing.com.cn/article/47WQ6KcxXlv
+    title: "Visit Beijing (2022-04-08): Nine Dragons Wall, 5.96 × 25.52 m, nine dragons per side, 635 dragons, the only double-sided one of three"
+    checked: 2026-11-13
+  - url: https://www.eastchinatrip.com/?p=28474
+    title: "East China Trip Beihai guide (2026-10-09): combo covers the wall, Monday courtyard closures, North Gate, Line 6"
+    checked: 2026-11-13
+  - url: https://offpeaktrip.com/en/notes/beijing/4000126
+    title: "Off-peak Trip notes (2021): the Forbidden City's Nine-Dragon Screen needs the ¥10 Treasure Gallery ticket"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Beijing, Wikipedia (December climate normals)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Prices and hours are official (park site, read Nov 13 2026). Whether the wall needs the ¥15 combo or only the ¥5 ticket is unclear: one 2026 guide puts it in the combo, so the card uses ¥15. The official rules close the inner gardens on Mondays but don't say whether the wall counts as one. Gate-sale rules for foreigners: 2024 government page only."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: dragons-close
+    focus: "30% 60%"
+    hook: "Nine coiling dragons in seven colours of glaze on each face, still bright after 270 Beijing winters."
+  - type: quick_facts
+    time_needed: "1 h (3 h with the park)"
+    best_time: "Tue–Sun, mid-morning"
+    extra:
+      - { label: Dragons, value: "9 big per side", detail: "Over 600 counting the small ones on the roof and tiles" }
+      - { label: Built, value: "1756", detail: "Qianlong era; outlived two fires" }
+  - type: highlights
+    items:
+      - title: The dragon really is the point
+        text: "This isn't a place that's just *named* after dragons. The wall exists to show them: **nine big dragons** per face playing with pearls over waves, plus small ones on the roof ridges and eaves. Sources count **633 or 635** in all."
+      - title: Two faces, seven colours
+        text: "It's **5.96 m high and 25.52 m long**, faced on both sides with glazed brick in yellow, white, orange, purple, green, blue and sky blue. Of China's three old nine-dragon walls, it's the only one with dragons on both sides."
+      - title: The wall that outlived its temple
+        text: "It was built in 1756 to screen a hall that burned before it was finished. The hall built in its place burned again in 1919. Only the gate and this wall are left."
+      - title: The cheapest imperial sight in Beijing
+        text: "**¥5** gets you into the park in winter, or **¥15** for the combo. Walk on to the White Dagoba on its island while you're there."
+  - type: prose
+    title: Beijing's other dragon wall
+    text: |-
+      The **Forbidden City** has a Nine-Dragon Screen too. It was built about 16 years later, in front of the Ningshou Palace. It has one face and five panels, and its glaze has faded and cracked. A 2024 *Beijing Evening News* piece blames the palace screen's back, set against a wall, for trapping moisture. The Beihai wall stands free, which may be why it stayed brighter.
+
+      To see both, add the **¥10 Treasure Gallery** ticket when you book the palace. The screen is inside that area. Do the palace in the morning and Beihai after lunch: Jingshan, the hill behind the palace, sits between the two.
+  - type: gallery
+    images:
+      - { file: wall-sunny, caption: "The wall on a clear day, with the glazed roof on top" }
+      - { file: wall-front, caption: "The whole wall, end to end" }
+  - type: quote
+    variant: vibe
+    text: "Bare willows, low sun, and nine dragons that never fade."
+  - type: cost_breakdown
+    items:
+      - { label: "Beihai combo ticket, low season", local: 15, brl: 12.73 }
+      - { label: "Metro to Beihai North and back", local: 6, brl: 5.09, estimate: true, optional: true }
+      - { label: "Forbidden City Treasure Gallery, for the second wall", local: 10, brl: 8.49, optional: true }
+  - type: map
+    note: "Come in by the **North Gate** (Line 6, Beihai North, Exit B or D): the wall is on the north shore, a few minutes inside. From the Forbidden City, walk out the palace's north gate, past Jingshan, and west to Beihai."
+  - type: tips
+    variant: insider
+    items:
+      - "Buy the **¥15 combo** at the gate rather than the ¥5 ticket. One 2026 guide says the wall is in the combo, and the difference is under R$9."
+      - "In the low season the inner sights close at **17:00** (last entry 16:30). Get to the wall by mid-afternoon; the sun sets just before 17:00 in December."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Mondays**: the park's own rules close its inner gardens (all but the Round City) on Mondays. It isn't clear whether that includes the wall, so go Tuesday to Sunday."
+      - "Reseller sites sell \"fast-track\" Beihai tickets for far more than the official ¥5–15. You don't need them."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: "Dry, cold and usually sunny"
+    note: "It's all outdoors, but you only need an hour at the wall. Low winter sun makes the glaze glow."
+    wear: "Down jacket, hat and gloves"
+  - type: pairs_well
+    items:
+      - { id: forbidden-city-jingshan, note: "The second nine-dragon screen (Treasure Gallery, ¥10). Jingshan is between the two" }
+      - { id: datong-nine-dragon-wall-yungang, note: "The biggest and oldest dragon wall, 1 h 40 min away by fast train" }
+      - { id: beijing-xingshe-youth-hostel, note: "Also in Xicheng" }

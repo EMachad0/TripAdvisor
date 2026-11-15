@@ -1,0 +1,613 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: chao-phraya-night
+  title: File:Statetower.jpg
+  author: "Flickr user: Swaminathan Gurgaon, India https://www.flickr.com/people/araswami/"
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Statetower.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b0/Statetower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Bangkok Skyline 4, View from Lebua, State Tower in the evening in Bangkok. You can see boats all lit up on the Chao Phraya River. Location: Bangkok"
+  width: 6144
+  height: 4096
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: bangkok
+- file: khao-san-night
+  title: File:ถนนข้าวสารในเวลากลางคืน ๑ - Khaosan Road at night 1.jpg
+  author: Random username 083794703875938
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%99%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%B7%E0%B8%99_%E0%B9%91_-_Khaosan_Road_at_night_1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/28/%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%99%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%B7%E0%B8%99_%E0%B9%91_-_Khaosan_Road_at_night_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Khaosan Road at night, Bangkok, Kingdom of Thailand
+  width: 3365
+  height: 2234
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: bangkok
+- file: yaowarat-neon
+  title: File:Yaowarat at night (32455695783).jpg
+  author: Ninara from Helsinki, Finland
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yaowarat_at_night_(32455695783).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/64/Yaowarat_at_night_%2832455695783%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yaowarat Road, the centre of Bangkok's Chinatown, at night
+  width: 3007
+  height: 1995
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: bangkok
+- file: bts-skytrain
+  title: File:Bangkok skyline at sunset, BTS Skytrain, Bangkok, Thailand.jpg
+  author: Vyacheslav Argenberg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Bangkok_skyline_at_sunset,_BTS_Skytrain,_Bangkok,_Thailand.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4e/Bangkok_skyline_at_sunset%2C_BTS_Skytrain%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Central Bangkok: luxury condominiums, office towers and hotels, with green scenery provided by the horse racecourse of the Royal Bangkok Sports Club. Bangkok, Thailand."
+  width: 3072
+  height: 2048
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: bangkok
+- file: express-boat
+  title: File:Bangkok, Chao Phraya Express Boat (6223565866).jpg
+  author: Fabio Achilli from Milano, Italy
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Bangkok,_Chao_Phraya_Express_Boat_(6223565866).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/da/Bangkok%2C_Chao_Phraya_Express_Boat_%286223565866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Un'imbarcazione della Orange Line pronta ad attraccare al molo di Phra Arthit nel quartiere di Banglamphu. Chao Phraya Express Boat gestisce diverse linee lungo il fiume che rappresentano spesso il modo migliore per raggiungere la zona storica dei templi o Chinatown. An Orange Line Chao Phraya Expre
+  width: 4608
+  height: 2906
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: bangkok
+- file: chaiwatthanaram-dusk
+  title: File:Wat Chai Watthanaram - Ayutthaya.jpg
+  author: JJ Harrison ( https://www.jjharrison.com.au/ )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wat_Chai_Watthanaram_-_Ayutthaya.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/de/Wat_Chai_Watthanaram_-_Ayutthaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wat Chai Watthanaram, Ayutthaya, Thailand
+  width: 2560
+  height: 1706
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: ayutthaya
+- file: si-sanphet-chedis
+  title: File:Three Chedi(s) of Wat Phra Si Sanphet.jpg
+  author: Supanut Arunoprayote
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Three_Chedi(s)_of_Wat_Phra_Si_Sanphet.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c0/Three_Chedi%28s%29_of_Wat_Phra_Si_Sanphet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Wat Phra Si Sanphet - Buddhist temple within the old palace of the Kingdom of Ayutthaya: Phra Nakhon Si Ayutthaya District, Phra Nakhon Si Ayutthaya Province, Thailand."
+  width: 4230
+  height: 2820
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: ayutthaya
+- file: mahathat-buddha-head
+  title: File:Buddha head in bodhi tree, Wat Mahathat.jpg
+  author: Jatoo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Buddha_head_in_bodhi_tree,_Wat_Mahathat.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/40/Buddha_head_in_bodhi_tree%2C_Wat_Mahathat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Buddha Head in Tree Roots at Wat Mahathat, Ayutthaya
+  width: 1989
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1989
+  fetched: 2026-11-12
+  origin: commons
+  area: ayutthaya
+- file: river-kwai-bridge
+  title: File:Bridge over the River Kwai (49798579196).jpg
+  author: Nina R from Africa
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Bridge_over_the_River_Kwai_(49798579196).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3a/Bridge_over_the_River_Kwai_%2849798579196%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Kwai River
+  width: 4083
+  height: 2448
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: kanchanaburi
+- file: erawan-falls
+  title: File:Erawan Waterfall by Don Ramey Logan.jpg
+  author: Don Ramey Logan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Erawan_Waterfall_by_Don_Ramey_Logan.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b9/Erawan_Waterfall_by_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Erawan Waterfall by Don Ramey Logan
+  width: 5037
+  height: 3493
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: kanchanaburi
+- file: wang-pho-viaduct
+  title: File:Wang Pho - Mae Klong.jpg
+  author: PA
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wang_Pho_-_Mae_Klong.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cd/Wang_Pho_-_Mae_Klong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Mae Klong
+  width: 5280
+  height: 2970
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: kanchanaburi
+- file: doi-suthep
+  title: File:Wat Phra That Doi Suthep, Doi Suthep, Thailand.jpg
+  author: Vyacheslav Argenberg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wat_Phra_That_Doi_Suthep,_Doi_Suthep,_Thailand.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Wat_Phra_That_Doi_Suthep%2C_Doi_Suthep%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wat Phra That Doi Suthep is a Theravada Buddhist temple, a sacred site to many Thai people. Doi Suthep, Thailand.
+  width: 3072
+  height: 2048
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: chiang-mai
+- file: city-view
+  title: File:Chiang Mai from Wat Phra That Doi Suthep, January 2025.jpg
+  author: Starfizzure
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chiang_Mai_from_Wat_Phra_That_Doi_Suthep,_January_2025.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/53/Chiang_Mai_from_Wat_Phra_That_Doi_Suthep%2C_January_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chiang Mai seen from Wat Phra That Doi Suthep.
+  width: 5992
+  height: 3992
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: chiang-mai
+- file: sunday-walking-street
+  title: File:Chiang Mai sunday evening walking street.jpg
+  author: Takeaway
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chiang_Mai_sunday_evening_walking_street.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1b/Chiang_Mai_sunday_evening_walking_street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Sunday evening walking street is a market which is held in Chiang Mai on Rachadamnoen road, the main road through the old city which leads from Tapae gate to Wat Phra Singh, and its side streets. The products on sale are mainly handicrafts which are made in and around Chiang Mai. Most of the foo
+  width: 1920
+  height: 853
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+  area: chiang-mai
+- file: wat-chedi-luang
+  title: File:20171105 Wat Chedi Luang Chiang Mai 9897 DxO.jpg
+  author: Jakub Hałun
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:20171105_Wat_Chedi_Luang_Chiang_Mai_9897_DxO.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/20/20171105_Wat_Chedi_Luang_Chiang_Mai_9897_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wat Chedi Luang temple in Chiang Mai
+  width: 3059
+  height: 2948
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: chiang-mai
+- file: khao-soi
+  title: File:Khao soi Chiang Mai.jpg
+  author: Takeaway
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Khao_soi_Chiang_Mai.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6c/Khao_soi_Chiang_Mai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Khao soi (Thai script: ข้าวซอย) is a dish from Northern Thailand with mixed deep-fried egg noodles and cooked egg noodles served in a coconut based curry with meat (most often chicken as with the khao soi in the photo) and served with several condiments such as pickled cabbage, shallots, lime and an"
+  width: 4928
+  height: 3264
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: chiang-mai
+- file: tha-phae-gate
+  title: File:20171105 Tha Phae Gate Chiang Mai 9784 DxO.jpg
+  author: Jakub Hałun
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:20171105_Tha_Phae_Gate_Chiang_Mai_9784_DxO.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e0/20171105_Tha_Phae_Gate_Chiang_Mai_9784_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tha Phae Gate in Chiang Mai
+  width: 4840
+  height: 2564
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: chiang-mai
+- file: pai-canyon
+  title: File:Pai canyon 1.jpg
+  author: Sgroey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Pai_canyon_1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1d/Pai_canyon_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Pai canyon at sunset
+  width: 3840
+  height: 2160
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: pai
+- file: walking-street
+  title: File:Pai Walking Street 4.jpg
+  author: Christophe95
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Pai_Walking_Street_4.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/52/Pai_Walking_Street_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Pai Walking Street in Thailand.
+  width: 5184
+  height: 3888
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: pai
+- file: yun-lai-mist
+  title: File:Yun Lai Viewpoint, Pai (23927068615).jpg
+  author: Visions of Domino
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yun_Lai_Viewpoint,_Pai_(23927068615).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3f/Yun_Lai_Viewpoint%2C_Pai_%2823927068615%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Yun Lai Viewpoint, Pai
+  width: 2500
+  height: 1407
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: pai
+- file: white-buddha
+  title: File:Pai Big Buddha 1.jpg
+  author: Christophe95
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Pai_Big_Buddha_1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Pai_Big_Buddha_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Buddha statue of Wat Phra That Mae Yen near Pai (Thailand).
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: pai
+- file: valley-view
+  title: File:View of Pai 2.jpg
+  author: Christophe95
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:View_of_Pai_2.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/af/View_of_Pai_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: View of Pai from the Big Buddha of Wat Phra That Mae Yen.
+  width: 5184
+  height: 3888
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: pai
+- file: railay-west-longtails
+  title: File:West Rai Leh (3).jpg
+  author: Krzysztof Golik
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:West_Rai_Leh_(3).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/West_Rai_Leh_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: West Rai Leh beach at Rai Leh peninsula, Krabi Province, Thailand
+  width: 5122
+  height: 2988
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: krabi-railay
+- file: railay-viewpoint
+  title: File:Rai Leh Bay.jpg
+  author: Christophe95
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Rai_Leh_Bay.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/81/Rai_Leh_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Rai Leh Bay, Krabi, Thailand.
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: krabi-railay
+- file: haew-suwat
+  title: File:Haew Suwat Waterfall Through the Forest Arch.jpg
+  author: Khajonrat.K
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Haew_Suwat_Waterfall_Through_the_Forest_Arch.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Haew_Suwat_Waterfall_Through_the_Forest_Arch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Haew Suwat Waterfall in Khao Yai National Park, Nakhon Ratchasima, Thailand, viewed through a natural tree arch, showcasing the lush rainforest and its year-round cascading stream.
+  width: 6048
+  height: 4024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: khao-yai
+- file: grasslands
+  title: File:Khao Yai, Thailand, Tropical grasslands.jpg
+  author: Vyacheslav Argenberg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Khao_Yai,_Thailand,_Tropical_grasslands.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c3/Khao_Yai%2C_Thailand%2C_Tropical_grasslands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Khao Yai has a diverse plant community: dry evergreen forests, dry deciduous forests, tropical moist evergreen forests, hill evergreen forests and grasslands. Khao Yai Forest, Thailand."
+  width: 4032
+  height: 2688
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: khao-yai
+- file: beach-vendor-baskets
+  title: File:Ko Samet - Paniers.jpg
+  author: PA
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ko_Samet_-_Paniers.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d8/Ko_Samet_-_Paniers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ko Samet
+  width: 5143
+  height: 3429
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: koh-samet
+- file: speedboat-shore
+  title: File:Ko Samet - Ancrage.jpg
+  author: PA
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ko_Samet_-_Ancrage.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/94/Ko_Samet_-_Ancrage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ko Samet
+  width: 5609
+  height: 3739
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: koh-samet
+- file: wong-duean
+  title: File:Koh Samet,Wong Duean Beach.jpg
+  author: Eltorodeoro
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Koh_Samet,Wong_Duean_Beach.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/49/Koh_Samet%2CWong_Duean_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Thailand, Koh Samet island, Wong Duean beach, early morning.
+  width: 5312
+  height: 2988
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: koh-samet
+- file: koh-tao-coast
+  title: File:Koh Tao Island.JPG
+  author: Myat T. Aung
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Koh_Tao_Island.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b2/Koh_Tao_Island.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: View from top of the mountain - Koh Tao (Thailand)
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+  area: koh-phangan-koh-tao
+- file: haad-rin-aerial
+  title: File:Hat Rin from above.jpg
+  author: zhaffsky (Flickr)
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hat_Rin_from_above.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ee/Hat_Rin_from_above.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Part of the Haad Rin (หาดริ้น) peninsular from above. Ko Pha Ngan, Thailand. The Full Moon Party occurs on the right most beach.
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-12
+  origin: commons
+  area: koh-phangan-koh-tao
+- file: mango-bay
+  title: File:Koh Tao (Mango Bay) - panoramio.jpg
+  author: Nick Steemans
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Koh_Tao_(Mango_Bay)_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Koh_Tao_%28Mango_Bay%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Koh Tao (Mango Bay)
+  width: 2816
+  height: 2112
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+  area: koh-phangan-koh-tao
+- file: haad-rin-sunrise-beach
+  title: File:Koh Phangan, Haad Rin Sunrise Beach (6218403786).jpg
+  author: Fabio Achilli from Milano, Italy
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Koh_Phangan,_Haad_Rin_Sunrise_Beach_(6218403786).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0d/Koh_Phangan%2C_Haad_Rin_Sunrise_Beach_%286218403786%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: La spiaggia di Haad Rin East (Sunrise Beach) a Koh Phangan. Trovi guesthouses ed alberghi sia all'interno del villaggio che lungo la spiaggia, oltre a bar, ristoranti ed un po' di negozietti. Haad Rin East (Sunrise) Beach in Koh Phangan. This is the center of the action, night and day. Info su Koh P
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+  area: koh-phangan-koh-tao
+- file: elephant-herd
+  title: File:Asian elephant herd in Khao Yai National Park.jpg
+  author: Pailoolom
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Asian_elephant_herd_in_Khao_Yai_National_Park.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/18/Asian_elephant_herd_in_Khao_Yai_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: A herd of Asian elephants (Elephas maximus) in Khao Yai National Park, Thailand.
+  width: 2000
+  height: 1333
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+  area: khao-yai
+- file: beach-night
+  title: File:Ko Samet Beach Shore at Night.JPG
+  author: Alex Kovacheva
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ko_Samet_Beach_Shore_at_Night.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/89/Ko_Samet_Beach_Shore_at_Night.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Beach shore at night, Ko Samet island, Thailand.
+  width: 3456
+  height: 1604
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+  area: koh-samet
+- file: east-coast-view
+  title: File:Ko Samet (49437018647).jpg
+  author: kishjar? from Moscow, Russia
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ko_Samet_(49437018647).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6e/Ko_Samet_%2849437018647%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ko Samet
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-12
+  origin: commons
+  area: koh-samet

@@ -1,0 +1,120 @@
+id: jinrui-mina-menrui-osaka
+name: "Jinrui Mina Menrui (main shop)"
+short_name: Jinrui Mina Menrui
+name_local: 人類みな麺類
+name_romanized: Jinrui Mina Menrui
+country: japan
+city: osaka
+area: Yodogawa · Nishinakajima
+category: food
+fame: popular
+tags: [ramen, shoyu, queue-worthy]
+kind: Eat
+why: "Osaka's best-known ramen queue: a sweet soy broth and pork sliced as thick as a steak, one stop from Shin-Osaka."
+cost:
+  local: 1199
+  currency: JPY
+  brl: 42.17
+  note: "Genten with thick-cut pork, as paid in Jun 2025; a 2026 price may be higher"
+fx: { rate: 0.03517, date: 2026-11-12, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–1.5 h incl. queue
+best_time: Weekday 11:00 (opening), or after 14:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 11:00–23:00 (last order); closes early when the pork runs out"
+  closed: None (official site)
+  winter: "No seasonal or holiday closures found for late January; the official site lists no closing day."
+
+location:
+  address: 1-12-15 Nishinakajima, Yodogawa-ku, Osaka
+  address_local: 大阪府大阪市淀川区西中島1-12-15
+  lat: 34.7255
+  lng: 135.49905
+  nearest_transit: Nishinakajima-Minamigata (Midosuji Line), 1 min walk
+
+sources:
+  - url: https://www.jinrui-minamenrui.com/
+    title: 人類みな麺類 — official site (pork and menma)
+    checked: 2026-11-12
+  - url: https://www.jinrui-minamenrui.com/access/
+    title: 人類みな麺類 — official access page (address, hours, closing days, walking times)
+    checked: 2026-11-13
+  - url: https://travel.japanvoyage.jp/travel_destinations/jinrui-mina-menrui
+    title: Jinrui Mina Menrui — Japan Voyage (styles, access, queues, hours)
+    checked: 2026-11-13
+  - url: https://ameblo.jp/heath0723/entry-12903749941.html
+    title: "人類みな麺類＠南方 ② — review, Jun 2025 (Genten price, hours, queue)"
+    checked: 2026-11-13
+  - url: "https://reerac.net/blog/2025/10/02/%E7%B4%841%E6%99%82%E9%96%93%E5%BE%85%E3%81%A1%E3%81%AE%E8%A1%8C%E5%88%97%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%91%E3%81%A9%E7%A2%BA%E3%81%8B%E3%81%AB%E7%BE%8E%E5%91%B3%E3%81%97%E3%81%8B%E3%81%A3%E3%81%9F/"
+    title: "約1時間待ちの行列だった「人類みな麺類」 — reerac.net, Oct 2025 (macro price, queue)"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: Osaka — Wikipedia (climate table)
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Hours, closing days, address and walking times are from the official access page. Prices are from two 2025 reviews (Genten and macro with thick pork, ¥1,199 each); Japan Voyage (undated) lists ¥980–1,050, so prices change. Ordering by QR code on LINE is from a Jun 2025 review and cash-only from an Oct 2025 review. No free photo of the shop or its bowl was found."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: minamigata-station
+    caption: "Nishinakajima-Minamigata station, steps from the shop. No free photo of the shop itself"
+    hook: A ramen shop named "Humanity Is All Noodles", and a queue that proves the point.
+  - type: quick_facts
+    time_needed: 1–1.5 h incl. queue
+    best_time: Weekday 11:00, or after 14:00
+    extra:
+      - { label: Style, value: Sweet shoyu, detail: "Sweet-edged soy sauce on a bonito-led dashi, not pork fat" }
+      - { label: From Shin-Osaka, value: One subway stop, detail: "Midosuji Line to Nishinakajima-Minamigata" }
+  - type: highlights
+    items:
+      - title: Steak-thick pork
+        text: "The shop's signature is **極厚煮豚**, braised pork sliced very thick and soft enough to fall apart."
+      - title: A broth that tastes like nobody else's
+        text: "**Genten** (\"the origin\") is the original bowl: sweet-edged soy over a strong bonito dashi. *Macro* is lighter, on shellfish; *micro* is thicker soy."
+      - title: Fat bamboo shoots
+        text: "The **極太メンマ** are soaked for a long time in soft water. They come as thick as fingers."
+      - title: The queue is the show
+        text: "In 2025 reviewers waited **about an hour** at 16:00 and on an October evening. The line moves faster than its length suggests."
+  - type: prose
+    text: |-
+      Matsumura opened the original shop in Nishinakajima in 2012, and it has been near the top of Osaka's ramen rankings since. The name roughly means "all humanity is noodle-kind": the shop doesn't take itself seriously, but the ramen is taken very seriously. Branches have opened since, but this one is the shop people travel for.
+
+      Come here first: it's the one Osaka ramen worth queueing for on this list. Have the cheap Takaida-style bowl at Menya Jouroku another day.
+  - type: quote
+    variant: vibe
+    text: A queue on a quiet office street, and a slab of pork that covers half the bowl.
+  - type: menu
+    title: What to order
+    items:
+      - { name: "Ramen Genten, thick-cut pork", name_local: らーめん原点（厚切り焼豚）, price_local: 1199, price_brl: 42.17, note: "Sweet soy and bonito, with the steak-thick pork. Jun 2025 price", tag: must-try }
+      - { name: "Macro, thick-cut pork", name_local: らーめん macro（厚切り焼豚のせ）, price_local: 1199, price_brl: 42.17, note: "The lighter shellfish-dashi bowl. Oct 2025 price" }
+      - { name: Seasoned egg, name_local: 煮玉子, price_local: 72, price_brl: 2.53, tag: cheap }
+    note: "Prices from 2025 reviews. A 2025 visitor ordered by scanning a QR code and ordering on LINE, so have mobile data."
+  - type: map
+    note: "From Shin-Osaka take the Midosuji Line one stop south to Nishinakajima-Minamigata, then walk 1 min. Or walk about 11 min south from JR Shin-Osaka. The shop is on a quiet side street with small black-and-white signage."
+  - type: tips
+    variant: insider
+    items:
+      - "Come on a **weekday at 11:00** (opening) or **after 14:00**. Lunch queues run 30–60 min, weekends up to 90."
+      - "Leaving Osaka by Shinkansen? Shin-Osaka is one subway stop away. Eat here last."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It can **close early when the pork runs out**. Don't come at last order."
+      - "Tsukemen isn't served here. It has its own shop of the same name a few minutes away, so check your map says **1-12-15**."
+      - "Reported as **cash only** (Oct 2025), and ordering may be by QR code on LINE: have cash and mobile data."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool and mostly dry
+    note: "The wait is outdoors on the pavement. Late January in Osaka is chilly rather than freezing; the time in line is the cold part."
+    wear: Winter jacket for the queue
+  - type: pairs_well
+    items:
+      - { id: menya-jouroku-namba, note: "The cheap Osaka classic: black Takaida shoyu in Namba" }
+      - { id: tenma-standing-bars, note: "Standing bars a few stops south, for after" }

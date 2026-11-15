@@ -1,0 +1,32 @@
+# Independent review of jewel-canopy-park. Written by `./atr review`; do not edit by hand.
+id: jewel-canopy-park
+type: place
+reviewed: 2026-11-13
+verdict: fix
+content_hash: 1d8ef9ad2686b81da8be9d18ee9b210b1a3e34f20d164f1f15ec695dd2fa6ce1
+facts:
+  supported: 8
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: should
+    field: cost.currency
+    problem: The page still fails `./atr validate` because SGD is not in the schema's currency list, even though Singapore is a trip country.
+    evidence: ./atr validate jewel-canopy-park — error cost.currency (line 15) "SGD" is not an allowed value
+    fix: Add SGD to the schema's allowed currencies, or flag it to the maintainer. Do not change the page's currency.
+  - severity: nit
+    field: book_ahead.notes
+    problem: The edit removed the online option, so the notes now suggest the concierge is the only place to buy. Jewel's pages also link standard-rate tickets to tickets.jewelchangiairport.com.
+    evidence: https://www.jewelchangiairport.com/en/attractions/Mastercard-canopy-bridge.html — the Standard Rate button links to tickets.jewelchangiairport.com; the member rate is "Available at Jewel Concierge Counters (L1 & 5)"
+    fix: Say standard tickets are sold online at tickets.jewelchangiairport.com or at the L1/L5 concierge, and that member rates are concierge-only.
+resolved:
+  - field: blocks[11].items[0]
+    problem: The pitfall sends a traveler with bags to "the Jewel L1 baggage counter". The official pages only say "Please leave your bags at the Baggage Storage" and give no level or location, so the one step this layover traveler must take first has no source.
+    evidence: 'https://www.changiairport.com/en/at-changi/facilities-and-services-directory/baggage-storage.html — "Jewel Level1 (near the Early Check-In Lounge)", "Open 24 Hours", "Daily"; "BAGGAGE STORAGE RATES - PER 24 HOURS (INCLUSIVE OF GST)… Small items (below 10kg): S$11". This matches the new pitfall text.'
+  - field: blocks[12]
+    problem: The weather block (24/31 °C, "the dome is climate-controlled") and the hours.winter line "rain doesn't stop it" have no listed source. The climate-control claim tells the traveler what to wear.
+    evidence: 'The climate-control claim is gone, and the text now says "under the glass roof", as the review asked. https://en.wikipedia.org/wiki/Climate_of_Singapore (1991–2020 normals): January mean min 24.3 °C, mean max 30.6 °C; "cloudy conditions in December and January with frequent afternoon showers". This supports 24/31 °C and the shower line.'
+rereview_of: e873e30a46c4b308c18d13089531ffaffa1b4568f05bedf9838a7cc356b57b0a
+summary: The new baggage-storage line (Jewel L1, 24 h, S$11), the member prices (bridge S$10.70, park S$5.40 at the L1/L5 concierge) and the January climate line all check out against official and climate sources, so findings 2 and 3 are resolved. The page stays at fix only because SGD still fails schema validation (finding 1), which needs a schema change, not a page change.
+model: claude-opus-5-5
+cost_usd: 0.492

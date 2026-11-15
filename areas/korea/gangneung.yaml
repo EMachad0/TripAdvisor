@@ -1,0 +1,94 @@
+id: gangneung
+country: korea
+name: "Gangneung & Pyeongchang"
+name_local: 강릉 · 평창
+region: East coast, Gangwon
+scope: region
+cities: [gangneung, pyeongchang]
+why: "Korea's east coast, 2 h from Seoul by KTX: a beach street of coffee roasters, the station closest to the sea at Jeongdongjin, and the snowy Daegwallyeong pass inland."
+best_for: [views, nature, food, day-trip]
+highlights: ["Anmok Coffee Street", "Gyeongpo Beach and lake", "Jeongdongjin station and Sandglass Park", "Jumunjin Fish Market", "Daegwallyeong pass and sheep ranch", "2018 Olympic ice venues"]
+days_suggested: { min: 1, max: 2 }
+cost_level: medium
+fame: hidden
+lat: 37.7528
+lng: 128.8917
+getting_there: "KTX-Eum from Seoul station about 2 h, ₩27,600 one way; from Cheongnyangni about 1 h 30, ₩26,000. Express bus about 2 h 40, from ~₩20,000."
+getting_around: "City buses ₩1,300 in cash on city routes; taxis start at ₩3,800 (Wikivoyage figures)."
+winter_note: "The coast is mild for Korea: Gangneung's January normals run from −2.7 °C at night to 5.3 °C by day, with about 6 snowy days. Up on the Daegwallyeong pass (832 m) it is −12.2 to −1.8 °C, with snow on about 13 days a month."
+image: jeongdongjin-station
+sources:
+  - url: https://en.wikivoyage.org/wiki/Gangneung
+    title: "Gangneung (Wikivoyage): KTX fares and times, buses, taxis, Gyeongpo, Anmok Coffee Street, Jeongdongjin, Jumunjin, Daegwallyeong"
+    checked: 2026-11-12
+  - url: https://mileasia.com/korea/seoul-to-gangneung/
+    title: "Mileasia, Seoul to Gangneung 2026 (24 Jul 2026): KTX-Eum ₩26,000–27,600, about 1 h 45–2 h; express bus 2 h 40"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Gangneung
+    title: "Gangneung (Wikipedia): coordinates, January climate normals 1991–2020 (KMA)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Daegwallyeong
+    title: "Daegwallyeong (Wikipedia): 832 m pass between Pyeongchang and Gangneung, January climate normals"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Jeongdongjin_station
+    title: "Jeongdongjin station (Wikipedia): the station closest to the beach, sunrise trips, the drama Sandglass"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals for comparison"
+    checked: 2026-11-12
+  - url: http://www.yangtte.co.kr/
+    title: "Daegwallyeong Yangtte (sheep) Ranch, official site (Korean): address and phone"
+    checked: 2026-11-12
+  - url: http://www.yangtte.co.kr/fareinformation
+    title: "Daegwallyeong Yangtte Ranch fare page (official, Korean): adult ₩9,000, child ₩7,000, preferential ₩6,000; tickets 09:00–16:00"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "KTX fares are from Wikivoyage and a July 2026 guide; I could not open Korail's fare page, so check Korail+ for the 2027 fare. The sheep ranch's fare page gives ₩9,000 adult and ticket sales 09:00–16:00 for the day it was checked (12 Nov); it lists no separate winter hours. Taxi and bus fares are from Wikivoyage and may have risen."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Pine-lined beaches, a street of coffee roasters and snowy mountain passes behind them."
+    caption: "Jeongdongjin station, a few steps from the sea south of Gangneung"
+  - type: highlights
+    items:
+      - title: Korea's coffee city
+        text: "Well-known baristas settled along **Anmok Beach**, and the strip became Gangneung Coffee Street, with cafés facing the East Sea."
+      - title: A station on the beach
+        text: "**Jeongdongjin** is the railway station closest to the sea in Korea, famous for sunrise trips since the 1995 drama *Sandglass* (*The Hourglass*). Sandglass Park next to it has a giant hourglass."
+      - title: Snow country inland
+        text: "The **Daegwallyeong** pass, between Gangneung and Pyeongchang, averages −12 °C on January nights and gets snow on about 13 days a month. The sheep ranch sits up there."
+      - title: Fish market and lake
+        text: "**Jumunjin Fish Market** (07:00–22:00) sells raw fish just off the boats; **Gyeongpo Lake** has a 4.3 km shore path next to the beach."
+  - type: prose
+    title: Is it worth a day?
+    text: |-
+      Gangneung is the easiest way to see Korea's east coast: the KTX-Eum takes about two hours from Seoul station, a bit less from Cheongnyangni. A day here is beaches, coffee and seafood: Anmok Coffee Street, the pine path along Gyeongpo Beach, and maybe Jeongdongjin down the coast.
+
+      **Be honest about the cost.** A return KTX ticket is about ₩55,200 (R$229.41), more than a day and a half of your R$140 budget, before anything else. The bus is cheaper but longer.
+
+      **Be honest about the time, too.** Four hours of trains doesn't fit before a 21:00 shift, so this needs one of your free days, the same ones the Hwacheon ice festival wants. Pick Gangneung if a coastline and a calm café day appeal more than ice fishing. If you want both, sleep a night here so the sea at dawn is right outside.
+
+      Pyeongchang's snow country (Daegwallyeong, the sheep ranch, the 2018 Olympic mountains) lies inland between Seoul and the coast. The KTX passes through Pyeongchang on the way.
+  - type: gallery
+    images:
+      - { file: gyeongpo-pines, caption: "The pine path along Gyeongpo Beach (May)" }
+      - { file: anmok-coffee-cup, caption: "A coffee-cup photo frame on Anmok Beach" }
+      - { file: daegwallyeong-sheep-farm, caption: "Daegwallyeong sheep ranch in summer; expect snow up here in January" }
+  - type: tips
+    variant: insider
+    items:
+      - "Trains leave from both **Seoul station** and **Cheongnyangni**; Cheongnyangni is shorter and ₩1,600 cheaper."
+      - "Tickets go on sale a month ahead in the **Korail** app or at the station. Mileasia warns that trains can sell out and are hard to change at the last minute, so book once your day is fixed."
+      - "Gangneung was the venue for the ice sports at the **2018 Winter Olympics**; the skating and curling venues are in the city."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Avoid the **bus on Sundays**: there is one expressway from Seoul, and Wikivoyage warns traffic is heavy into Gangneung on Fridays and back on Sundays."
+      - "The sheep ranch's [fare page](http://www.yangtte.co.kr/fareinformation) lists **₩9,000** for adults and ticket sales **09:00–16:00**, but no separate winter hours. Call **033-335-1966** or check Naver Map before you go up in January."
+  - type: weather
+    temp_low_c: -3
+    temp_high_c: 5
+    conditions: Fairly dry on the coast; snow on about 13 days a month up on the pass
+    note: "The beaches are about 3 °C milder than Seoul by day (5.3 °C vs 2.1 °C). The Daegwallyeong pass, at 832 m, averages −12.2 °C on January nights."
+    wear: Windproof jacket, warm layers; snow boots if you go up to Daegwallyeong

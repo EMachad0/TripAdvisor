@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: view-temple-roof
+  title: File:Golden Hill View of Bangkok P1120968.JPG
+  author: Deror Avi
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Golden_Hill_View_of_Bangkok_P1120968.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d5/Golden_Hill_View_of_Bangkok_P1120968.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: View from Wat Saket - Temple of the Golden Mount, Bangkok, Thailand
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: mount-street
+  title: File:Golden Mount Stupa in Bangkok.jpg
+  author: Bijodes98
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Golden_Mount_Stupa_in_Bangkok.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/32/Golden_Mount_Stupa_in_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: tax relief lawyers
+  width: 3853
+  height: 4816
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

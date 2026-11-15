@@ -1,0 +1,19 @@
+# Independent review of lumphini-park-lizards. Written by `./atr review`; do not edit by hand.
+id: lumphini-park-lizards
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 14887d65fef36fcf53bf2d61ad41da6075a57cc61048ded54a5304577f0b982a
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.winter
+    problem: The new text says the renovation runs 'through 2026' and the map note says fencing may close parts of the gate 'in 2026', but the traveler is in Thailand 2–10 Jan 2027. Portail Asie gives no end date; it only calls the work the '2026 revitalization', and its completion targets (May 2026, early 2026) have already passed. A January 2027 reader may wrongly conclude the fencing no longer applies.
+    evidence: hours.winter now reads 'A renovation was reported under way in late 2026 with no end date announced … fencing … may still be up in January 2027', and blocks[7].note was changed the same way. https://portail-asie.com/en/lumphini-park-bangkok/ says 'Last updated on October 26, 2026', 'Currently undergoing major renovations for its 2026 revitalization, Lumphini Park remains open' and 'Some areas may be temporarily fenced off'. It gives no newer completion date than the passed May 2026 and early 2026 targets.
+rereview_of: e7b38ff0b6471df3f11dd17e6e699b0101b1e06ceebca140fc3ef04d146baaab
+summary: The earlier finding is fixed. The renovation text now describes the works as reported in late 2026 with no end date, and it warns that fencing may still be up in January 2027, which matches Portail Asie (updated 26 Oct 2026). Portail Asie names restoration of the King Rama VI statue area and the entrance gates, so the hedged 'possibly around the main gate and statue' is supported. I found no new problems in the changed text and no blockers in the unchanged content.
+model: claude-opus-5-5
+cost_usd: 0.26

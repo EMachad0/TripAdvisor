@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: national-stadium-bts
+  title: File:202307 Entrance of National Stadium BTS Station.jpg
+  author: Jonashtand
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:202307_Entrance_of_National_Stadium_BTS_Station.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/36/202307_Entrance_of_National_Stadium_BTS_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: An entrance of National Stadium BTS Station, in Bangkok, in July 2023
+  width: 3840
+  height: 2160
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: stadium-sunset
+  title: File:Sunset at National Stadium BTS Skytrain station, Bangkok, Thailand.jpg
+  author: Vyacheslav Argenberg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Sunset_at_National_Stadium_BTS_Skytrain_station,_Bangkok,_Thailand.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/65/Sunset_at_National_Stadium_BTS_Skytrain_station%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Good place to see the sunsets in Bangkok are many BTS Skytrain stations. Bangkok, Krung Thep Maha Nakhon, Thailand.
+  width: 4032
+  height: 2688
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

@@ -1,0 +1,16 @@
+# Independent review of terminal-21-asok. Written by `./atr review`; do not edit by hand.
+id: terminal-21-asok
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 6aa608acebb147b69c85ff41f06f52de2abadd1a650b9061a2f3fc48f23f0251
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 97ee0456a18233086f1cd10cd700d09d7a3aa8f6eb90db2c433a5232cebad9d3
+summary: The listed sources support every changed fact. Travjoy says "most single dishes between THB 40 and THB 90", and the Nation (฿30–50) and Time Out (฿40–150) together cover the "other guides say ฿30–150" range. Travjoy and the Nation both put Pier 21 on the fifth floor. The route to the MahaNakhon Skywalk (Asok to Siam on the Sukhumvit line, then the Silom line to Chong Nonsi) matches the Skywalk page's Chong Nonsi stop. ./atr validate passes, and I found no blocker in the unchanged content.
+model: claude-opus-5-5
+cost_usd: 0.313

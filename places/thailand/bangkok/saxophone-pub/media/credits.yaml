@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: victory-monument
+  title: File:Victory Monument (35571114866).jpg
+  author: aotaro from Yokohama, Japan
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Victory_Monument_(35571114866).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Victory_Monument_%2835571114866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: taken near Victory Monument Station, Bangkok, Thailand
+  width: 5275
+  height: 3517
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

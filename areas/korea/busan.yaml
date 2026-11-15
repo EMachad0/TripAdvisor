@@ -1,0 +1,96 @@
+id: busan
+country: korea
+name: "Busan"
+name_local: 부산
+region: Southeast coast, South Korea
+scope: city
+cities: [busan]
+why: "Six degrees milder than Seoul by day in January, with nights out in Seomyeon and Gwangalli and flights or a ferry onward to Japan. 2.5 h by KTX."
+best_for: [food, odd-local, views, nightlife]
+highlights: ["Jagalchi Fish Market", "Spa Land Centum City", "Haeundae Beach", "Gwangalli and the Gwangan Bridge", "Nampo-dong old downtown"]
+days_suggested: { min: 2, max: 3 }
+cost_level: medium
+fame: popular
+lat: 35.18
+lng: 129.075
+getting_there: "KTX Seoul–Busan about 2 h 30 min, ₩54,400 since the Sep 2026 merger (as reported; check Korail+). Cheaper: ITX-Maum ₩42,600, Mugunghwa ₩28,600, express bus 4 h+ from ₩25,000."
+getting_around: "Metro Lines 1–4: ₩1,400–1,600 a ride, ₩5,000 for a one-day pass. Lines 1 and 2 cross at Seomyeon, the busiest transfer station."
+winter_note: "Busan's January averages run from about −0.1 °C at night to 8.2 °C by day, against −5.5 to 2.1 °C in Seoul (1991–2020 normals). Winters are cool, fairly dry and windy, and snow is rare."
+image: gwangan-bridge-night
+sources:
+  - url: https://en.wikipedia.org/wiki/Busan
+    title: "Busan (Wikipedia): coordinates, January normals 1991–2020 (8.2/−0.1 °C, 1.4 snowy days, 203 h sun), 'cool, comparatively dry, high winds'"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020 (2.1 / −5.5 °C)"
+    checked: 2026-11-12
+  - url: https://www.korea.kr/briefing/policyBriefingView.do?newsId=148970171
+    title: "Korea.kr policy briefing (2026-08-18): KTX–SRT merger from 1 Sep 2026, Seoul–Busan KTX ₩59,800 → ₩54,400"
+    checked: 2026-11-10
+  - url: https://www.metroseoul.co.kr/article/20260901500417
+    title: "Metro Seoul (2026-09-01, the day the merger took effect): Seoul–Busan KTX standard class ₩59,800 → ₩54,400"
+    checked: 2026-11-12
+  - url: https://www.fnnews.com/news/202609050801090640
+    title: "Financial News / Newsis (2026-09-05): Seoul–Busan weekend standard one-way ₩59,800 → ₩53,900"
+    checked: 2026-11-12
+  - url: https://www.creatrip.com/en/blog/1769/From-Busan-to-Seoul-A-101-guide-on-Public-Transportation-Options-in-Korea
+    title: "Creatrip, Seoul ↔ Busan transport guide (updated 2026-07-20): KTX, SRT and express bus times and fares"
+    checked: 2026-11-10
+  - url: https://mbiz.heraldcorp.com/article/10868385
+    title: "Herald Business (2026-09-10): Seoul–Busan Mugunghwa ₩28,600 vs ITX-Maum ₩42,600, Mugunghwa being phased out"
+    checked: 2026-11-10
+  - url: https://en.wikivoyage.org/wiki/Busan
+    title: "Busan (Wikivoyage): metro fares and day pass, districts, ferries to Japan"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Jagalchi_Market
+    title: "Jagalchi Market (Wikipedia): largest fish market in South Korea"
+    checked: 2026-11-10
+  - url: https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008
+    title: "Spa Land, Shinsegae Centum City (official, Korean): ₩26,000 adult entry, 4 hours, ₩5,000 per extra hour, 09:00–22:00 (last entry 21:00)"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Gimhae_International_Airport
+    title: "Gimhae International Airport (Wikipedia): routes to Japan, light-rail access"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Korail's fare page would not load, so the ₩54,400 KTX fare is the announced one, reported on 1 Sep 2026; a 5 Sep Newsis report gives ₩53,900 at weekends. Check Korail+. Times: Creatrip 2 h 30, Wikivoyage 120–150 min. Mugunghwa and ITX-Maum times not found. Flight routes from Wikipedia may have changed."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    hook: "Seafood at the harbour, hot baths in a department store and the Gwangan Bridge lit up over the water."
+  - type: highlights
+    items:
+      - title: Eat what you pick
+        text: "At **Jagalchi**, Korea's largest fish market, you choose live seafood downstairs and a restaurant upstairs cooks it."
+      - title: A bathhouse in a department store
+        text: "**Spa Land** in Shinsegae Centum City: hot-spring baths and themed sauna rooms, ₩26,000 for up to four hours, then ₩5,000 for each extra hour. Open 09:00–22:00."
+      - title: Two beaches, two moods
+        text: "**Haeundae** is the famous beach with the big hotels; **Gwangalli** has cafés, bars and restaurants facing the Gwangan Bridge."
+      - title: Milder than Seoul
+        text: "January days average about **8 °C**, against about 2 °C in Seoul, and snow is rare."
+  - type: prose
+    title: What two or three days feel like
+    text: |-
+      Busan is a harbour city spread along the coast, so a day here tends to be one district: the old downtown of **Nampo-dong** with Jagalchi, the shopping and nightlife of **Seomyeon**, or the beaches of **Gwangalli** and **Haeundae** in the east, with Centum City between them.
+
+      Where to sleep depends on that plan. Seomyeon sits where Metro Lines 1 and 2 cross, in the middle. Haeundae, in the east, puts you by the beach and closer to Spa Land.
+
+      The trip from Seoul is short. The KTX takes about two and a half hours and costs **₩54,400 (R$222.82)** since the KTX and SRT merged in September 2026. That is the fare reported when the merger took effect; one later report gives ₩53,900 at weekends, so check Korail+ for your date. The SRT leaves from Suseo in southern Seoul. On a budget, the Mugunghwa costs ₩28,600 and an express bus starts at ₩25,000, from about four hours.
+  - type: gallery
+    images:
+      - { file: haeundae-beach, caption: "Haeundae Beach and its skyline on a grey day" }
+      - { file: jagalchi-hall, caption: "Inside Jagalchi Fish Market" }
+      - { file: jagalchi-mackerel, caption: "Mackerel (고등어) on a Jagalchi stall" }
+  - type: tips
+    variant: insider
+    items:
+      - "**Flying on to Japan?** Busan's Gimhae airport (PUS) lists direct flights to Fukuoka, Osaka–Kansai, Tokyo–Narita, Nagoya and Sapporo, among others, and a light-rail station at the airport."
+      - "There is also a **ferry to Fukuoka**, about six hours."
+      - "Book KTX and SRT seats on the **Korail+** app, which replaced the separate apps after the merger. Tickets go on sale a month before departure."
+      - "A ₩5,000 metro day pass pays for itself after four rides."
+  - type: weather
+    temp_low_c: 0
+    temp_high_c: 8
+    conditions: Cool, fairly dry and often sunny (about 200 h of sun in Jan), with strong wind
+    note: "Much milder than Seoul. The wind off the sea is the cold part, so harbour and beach walks feel colder than the number."
+    wear: Windproof jacket, warm layers

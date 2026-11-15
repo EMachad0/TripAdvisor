@@ -1,0 +1,139 @@
+id: sajinqiao-food-crawl
+name: "Sajinqiao food crawl"
+short_name: Sajinqiao
+name_local: 洒金桥美食街
+name_romanized: Sǎjīnqiáo
+country: china
+city: xian
+area: Lianhu · Muslim Quarter west
+category: food
+fame: hidden
+tags: [street-food, halal, muslim-quarter, self-guided, breakfast, night-food]
+kind: Eat
+why: "The Muslim Quarter's locals' end: ¥20 roujiamo, ¥10 meatball hulatang, ¥3 persimmon cakes and lamb skewers, a street or two back from the tourist strip."
+cost:
+  local: 60
+  currency: CNY
+  brl: 49.6
+  note: "A crawl of 5–6 snacks; China Xian Tour puts sampling many snacks at ¥60–80+. A sit-down paomo adds ¥28–30"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–2 h
+best_time: "Evening 17:30–22:00, or before 08:00 for breakfast"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Breakfast stalls from about 06:00; restaurants busiest 17:00–22:00; barbecue stalls until about midnight"
+  winter: "No seasonal hours published. December evenings drop to about 1 °C and seats are few, so expect to eat standing at some stalls. The persimmon cake is listed as seasonal; whether it is sold in December isn't stated."
+
+location:
+  address: "Sajinqiao Food Street, Lianhu District, Xi'an"
+  address_local: 陕西省西安市莲湖区洒金桥美食街
+  lat: 34.26797
+  lng: 108.92802
+  nearest_transit: "Sajinqiao (Line 1), Exit B, about 400 m walk"
+
+sources:
+  - url: https://www.chinaxiantour.com/xian-travel-guide/xian-travel-tips/sajinqiao-alley-a-great-place-to-eat-like-xian-locals.html
+    title: "Sajinqiao Alley: eat like Xi'an locals (China Xian Tour, updated 2026-10-02): shops, prices, hours, metro"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/what-to-eat-in-xian/
+    title: "What to eat in Xi'an (China for Travelers, updated 2026-05-29): side lanes vs Beiyuanmen, dish prices, payment"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/where-to-stay-in-xian/
+    title: "Where to stay in Xi'an (China for Travelers, 2026-08-06): Sajinqiao on Line 1, Muslim Quarter's west edge"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/xian/attraction/muslim-street.htm
+    title: "Xi'an Muslim Quarter (China Highlights): Sajinqiao worth a visit, best 10:00–22:00"
+    checked: 2026-11-10
+  - url: https://www.openstreetmap.org/?mlat=34.26797&mlon=108.92802#map=17/34.26797/108.92802
+    title: "Sajinqiao Food Street, Lianhu District — OpenStreetMap"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/xian/weather/december.htm
+    title: "Xi'an weather in December (China Highlights): about 8 °C by day, 1 °C at night"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Shop names and prices come mostly from one agency guide (China Xian Tour, Oct 2026); the others confirm the street and price ranges. I could not check that each shop is open now. The ¥60 total is my sum of their prices plus three skewers at ¥4; dish names in Chinese are standard names, not read off a menu."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: muslim-quarter-night
+    caption: "The main Muslim Quarter strip at night; Sajinqiao is its quieter western end"
+    hook: Walk a street or two past the tourist strip, to where Xi'an's locals eat breakfast and late-night lamb.
+  - type: quick_facts
+    time_needed: 1–2 h
+    best_time: "17:30–22:00, or before 08:00"
+    extra:
+      - { label: Pay with, value: Alipay / WeChat Pay, detail: "Some small stalls don't take foreign cards" }
+      - { label: Diet, value: Halal, detail: "Strict halal: pick shops that label themselves halal" }
+  - type: highlights
+    items:
+      - title: Where locals eat
+        text: "Guides send you one or two streets back from **Beiyuanmen**, which is priced for visitors, to Sajinqiao and Da Pi Yuan, where residents actually eat."
+      - title: Breakfast like a Hui family
+        text: "Stalls open around **06:00**. **Jing gao**, sweet steamed sticky rice with dates, sells out: be there before 08:00."
+      - title: The evening crawl
+        text: "Restaurants fill from 17:00, and the barbecue stalls keep grilling until about midnight: skewers, hulatang and roujiamo, a few yuan each."
+      - title: Cheap even by China standards
+        text: "Most snacks are about **¥10**, roujiamo ¥10–20 and paomo ¥20–40. Six snacks and a few skewers come to about ¥60."
+  - type: prose
+    title: How to crawl it
+    dropcap: true
+    text: |-
+      Take Line 1 to Sajinqiao, leave by Exit B and walk about 400 m into a maze of lanes and small eateries in the Muslim community of Lianhu District. Residents still ride scooters through, so keep to the side.
+
+      Go in the evening and graze: a **sour soup dumpling** at Ma Er (No. 131), a **crispy beef cake** at Lao Ma Jia, a **meatball hulatang** at Lao Li Jia, a **roujiamo** at Yang Tianyu, and skewers from whichever barbecue has the crowd. If you're hungry for a proper meal, sit down for **yangrou paomo** at Liu Xin (No. 129).
+  - type: gallery
+    images:
+      - { file: paomo, caption: "Yangrou paomo: lamb soup poured over torn flatbread" }
+      - { file: sajinqiao-lane, caption: Sajinqiao by day, focus: center }
+      - { file: roujiamo, caption: "A roujiamo (photo from elsewhere in Shaanxi)" }
+  - type: menu
+    title: The crawl, stall by stall
+    items:
+      - { name: Sour soup dumplings, name_local: 酸汤水饺, price_local: 10, price_brl: 8.27, note: "Ma Er, No. 131 Sajinqiao; \"a little over ¥10\"", tag: must-try }
+      - { name: Meatball hulatang, name_local: 丸子胡辣汤, price_local: 10, price_brl: 8.27, note: "Thick peppery beef-meatball soup, Lao Li Jia Mingming", tag: spicy }
+      - { name: Marinated beef roujiamo, name_local: 腊牛肉夹馍, price_local: 20, price_brl: 16.53, note: "Yang Tianyu Marinated Beef and Mutton Shop", tag: signature }
+      - { name: Crispy beef cake, name_local: 牛肉饼, price_local: 5, price_brl: 4.13, note: "Lao Ma Jia", tag: cheap }
+      - { name: Pan-fried persimmon cake, name_local: 柿子饼, price_local: 3, price_brl: 2.48, note: "Liu Ming, No. 144; seasonal", tag: cheap }
+      - { name: Lamb skewers, name_local: 羊肉串, price_local: 4, price_brl: 3.31, note: "¥3–5 each at the barbecue stalls (China for Travelers)" }
+      - { name: Jing gao, name_local: 镜糕, note: "Sweet sticky rice with dates, Ma Wenzhang Pangzi; mornings only, sells out" }
+      - { name: Yangrou paomo, name_local: 羊肉泡馍, price_local: 30, price_brl: 24.8, note: "Sit-down meal at Liu Xin, No. 129; ¥28–30 a head" }
+    note: "Prices from China Xian Tour (Oct 2026) unless marked. Pay with Alipay or WeChat Pay."
+  - type: cost_breakdown
+    items:
+      - { label: Sour soup dumplings, local: 10, brl: 8.27 }
+      - { label: Meatball hulatang, local: 10, brl: 8.27 }
+      - { label: Marinated beef roujiamo, local: 20, brl: 16.53 }
+      - { label: Crispy beef cake, local: 5, brl: 4.13 }
+      - { label: Persimmon cake, local: 3, brl: 2.48 }
+      - { label: Three lamb skewers, local: 12, brl: 9.92, estimate: true }
+      - { label: Sit-down yangrou paomo, local: 30, brl: 24.8, optional: true }
+      - { label: Metro ride, local: 2, brl: 1.65, optional: true, estimate: true }
+  - type: map
+    note: "Line 1 to **Sajinqiao**, Exit B, then about 400–450 m on foot to the food street."
+  - type: tips
+    variant: insider
+    items:
+      - "Judge by the queue, not the decor: the busy plain eateries are the good ones."
+      - "Share dishes rather than ordering a big main each, so you can taste more."
+      - "Useful words: 不辣 (not spicy), 不要香菜 (no coriander), 多少钱 (how much)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Beiyuanmen, the main strip, is priced for visitors; come here to eat and go there to look."
+      - "Most breakfast stalls pack up before 10:00: for jing gao and breakfast, come early."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 8
+    conditions: Cold and dry, mostly cloudy
+    note: "Hot soups are the point in December: hulatang and paomo were made for cold evenings. Seats are limited, so dress to eat outdoors."
+    wear: Warm jacket and gloves you can take off to eat
+  - type: pairs_well
+    items:
+      - { id: terracotta-army, note: "Back from Lintong by evening: dinner here" }
+      - { id: xian-christmas, note: "The Bell Tower and main Muslim Quarter are a short walk east" }
+      - { id: desti-youth-park-hostel-xian, note: Your hostel in town }

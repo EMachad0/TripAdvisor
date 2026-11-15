@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: statue-night
+  title: File:岳麓 橘子洲头之毛泽东青年艺术雕塑 02.jpg
+  author: Liuxingy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%BA%93_%E6%A9%98%E5%AD%90%E6%B4%B2%E5%A4%B4%E4%B9%8B%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%9D%92%E5%B9%B4%E8%89%BA%E6%9C%AF%E9%9B%95%E5%A1%91_02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e5/%E5%B2%B3%E9%BA%93_%E6%A9%98%E5%AD%90%E6%B4%B2%E5%A4%B4%E4%B9%8B%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%9D%92%E5%B9%B4%E8%89%BA%E6%9C%AF%E9%9B%95%E5%A1%91_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​长沙市岳麓区橘子洲头之毛泽东青年艺术雕塑
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: statue-day
+  title: File:Young Mao Zedong statue at Changsha 20110605.jpg
+  author: 1969社论
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Young_Mao_Zedong_statue_at_Changsha_20110605.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/db/Young_Mao_Zedong_statue_at_Changsha_20110605.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​毛泽东青年艺术雕塑，长沙橘子洲头
+  width: 3072
+  height: 2304
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons
+- file: statue-face
+  title: File:岳麓 橘子洲头之毛泽东青年艺术雕塑 03.jpg
+  author: Liuxingy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%BA%93_%E6%A9%98%E5%AD%90%E6%B4%B2%E5%A4%B4%E4%B9%8B%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%9D%92%E5%B9%B4%E8%89%BA%E6%9C%AF%E9%9B%95%E5%A1%91_03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/48/%E5%B2%B3%E9%BA%93_%E6%A9%98%E5%AD%90%E6%B4%B2%E5%A4%B4%E4%B9%8B%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%9D%92%E5%B9%B4%E8%89%BA%E6%9C%AF%E9%9B%95%E5%A1%91_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​长沙市岳麓区橘子洲头之毛泽东青年艺术雕塑
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-13
+  origin: commons

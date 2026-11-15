@@ -1,0 +1,153 @@
+id: ins-land
+name: "INS Land"
+name_local: INS新乐园
+name_romanized: INS Xīn Lèyuán
+country: china
+city: shanghai
+area: Huangpu · Fuxing Park
+category: nightlife
+fame: popular
+must_do: china-clubs
+tags: [club, clubs, hip-hop, techno, k-pop, mega-club, late-night]
+kind: Do
+why: "Six floors of clubs in one building in Fuxing Park: hip hop, trap, techno, K-pop. One pass (¥168 weeknights) covers them all. DJ Mag's No. 12 club of 2026."
+cost:
+  local: 168
+  currency: CNY
+  brl: 138.89
+  note: "All-pass, Tue–Thu and Sun (Qunar). Fri/Sat ¥288; ¥328 with a snack on Fri/Sat/holidays. Drinks extra"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 4–6 h
+best_time: "Arrive 22:00–23:00; peak is 23:00 to 02:00–03:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Open daily (SmartShanghai, Nov 2026). La Fin: 21:00–04:00. Weekends stay busy until 05:00–06:00, one 2026 guide says"
+  winter: "No winter closures announced. DJ Mag says Christmas was one of the two biggest nights last year (80,000+ people through the building). Christmas Day 2026 is a Friday, so expect weekend prices; whether the ¥328 holiday pass applies is not stated. NYE is covered on its own card."
+
+location:
+  address: 109 Yandang Road, inside Fuxing Park, Huangpu, Shanghai
+  address_local: 上海市黄浦区雁荡路109号 INS新乐园
+  lat: 31.21981
+  lng: 121.46568
+  nearest_transit: "Xintiandi area (Lines 10, 13); DiDi works by searching \"INS\""
+
+sources:
+  - url: https://www.smartshanghai.com/venue/28727/ins
+    title: "INS — SmartShanghai venue listing (updated 2026-05-26): six storeys, admission to the building"
+    checked: 2026-11-10
+  - url: https://www.smartshanghai.com/venue/28731/la_fin_ins
+    title: "La Fin (INS) — SmartShanghai (6/F, daily 21:00–04:00, drinks ~¥100)"
+    checked: 2026-11-10
+  - url: https://www.smartshanghai.com/articles/nightlife/the-shanghai-clubbing-guide-november-2026
+    title: "The Shanghai Clubbing Guide, November 2026 — SmartShanghai (INS open daily)"
+    checked: 2026-11-10
+  - url: https://www.smartshanghai.com/articles/nightlife/the-shanghai-clubbing-guide-october-2026
+    title: "The Shanghai Clubbing Guide, October 2026 — SmartShanghai (venues, crowd, cover charge)"
+    checked: 2026-11-10
+  - url: https://touch.piao.qunar.com/touch/detail_197163289.html
+    title: "INS LAND新乐园 tickets — Qunar (all-pass ¥168 Tue–Thu/Sun, ¥288 Fri/Sat, ¥328 with snack)"
+    checked: 2026-11-10
+  - url: https://djmag.com/features/ins-land-mega-club-reimagining-nightlife-shanghai
+    title: "INS LAND: the mega-club reimagining nightlife in Shanghai — DJ Mag (2026; Top 100 No. 12)"
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/INS_Land
+    title: INS Land — Wikipedia (Chinese name, opened June 2023, six floors)
+    checked: 2026-11-10
+  - url: https://www.trvlogue.com/ja/shanghai-club-ins-guide
+    title: "上海INS新楽園 クラブガイド 2026 — TRVLOGUE (updated 2026-10-07; ID check, peak hours)"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Pass prices from Qunar on 2026-11-10 (web fetch; times out in the link checker); no Monday pass listed though SmartShanghai says INS opens daily. Closing time from La Fin's listing and one guide. Passport-copy rule from one guide. DJ Mag and TRVLOGUE opened with ./atr render; they block the checker. Metro station is my map reading. Dec 24–25 prices not out."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: fuxing-park
+    focus: center
+    caption: "Fuxing Park by day, INS's front lawn; no free photo of the building at night"
+    hook: A former karaoke empire turned into a six-floor club tower, where every floor is a new level of the game.
+  - type: quick_facts
+    time_needed: 4–6 h
+    best_time: "Arrive 22:00–23:00"
+    extra:
+      - { label: Floors, value: "Six (staff joke: 6, 7 or 8)", detail: "10 dancefloors and dozens of venues, per DJ Mag" }
+      - { label: At the door, value: ID check, detail: "Passport; one guide says a copy or phone photo was accepted" }
+  - type: highlights
+    items:
+      - title: One ticket, many clubs
+        text: "Wikipedia says one entry covers **10 nightclubs**. Ride the escalators floor by floor: hip hop at La Fin, trap at Hush, house and techno at **Dirty House**, K-pop at Culture Club."
+      - title: Famous for a reason
+        text: "INS entered DJ Mag's Top 100 Clubs at **No. 12** in 2026. SmartShanghai calls it the main commercial clubbing destination in Shanghai."
+      - title: A mixed crowd
+        text: "SmartShanghai's October 2026 guide: the crowd \"leans local, but there's a heavy international contingent\" and is young."
+      - title: Built by gamers
+        text: "The founders come from Hero Esports. Once inside, DJ Mag says, you try to win drink tokens on arcade games; an app that maps the building and lets friends find each other."
+  - type: prose
+    title: How a night works
+    dropcap: true
+    text: |-
+      INS opened in June 2023 inside Fuxing Park, a century-old French-era garden. DJ Mag says the company spent about US$100 million turning a shuttered karaoke empire into 20,000 m² of clubs, bars and odd attractions. On its biggest nights more than 80,000 people pass through.
+
+      You pay once at the ground floor, where your ID and ticket are checked, then work your way up. The **all-pass** is the deal: one 2026 guide puts single-club tickets from about ¥88 on weekdays and says the pass is better value once you visit two or more. On Qunar the pass costs **¥168 Tuesday–Thursday and Sunday** and **¥288 on Friday and Saturday**.
+
+      The metro has stopped by the time you leave, so plan a DiDi home. SmartShanghai says INS is open daily and busy even on weeknights.
+  - type: quote
+    variant: vibe
+    text: Win a drink token on a fighting game, take the escalator up, and lose track of which floor you're on.
+  - type: cost_breakdown
+    items:
+      - { label: "All-pass, Tue–Thu or Sun", local: 168, brl: 138.89 }
+      - { label: "All-pass instead on Fri or Sat (extra)", local: 120, brl: 99.2, optional: true }
+      - { label: "A drink at La Fin", local: 100, brl: 82.67, estimate: true, optional: true }
+  - type: menu
+    title: Passes and drinks
+    items:
+      - name: All-pass, Tue–Thu and Sun
+        name_local: 通票（周二/周三/周四/周日）
+        price_local: 168
+        price_brl: 138.89
+        note: "Qunar, Nov 2026. Bought and used the same day"
+        tag: cheap
+      - name: All-pass, Fri and Sat
+        name_local: 通票（周五/周六）
+        price_local: 288
+        price_brl: 238.09
+      - name: All-pass + late-night snack, Fri/Sat/holidays
+        name_local: 通票+夜宵小食
+        price_local: 328
+        price_brl: 271.16
+      - name: Cocktail at La Fin
+        price_local: 100
+        price_brl: 82.67
+        note: "\"Around 100rmb\" per SmartShanghai; tables are where the money goes"
+        tag: drink
+    note: "Prices from Qunar and SmartShanghai, read 2026-11-10. One Wingon reviewer says each venue poured a free drink with the pass; not confirmed elsewhere."
+  - type: map
+    note: "In DiDi, search \"INS\"; in Amap, 上海INS新乐园. The building stands inside Fuxing Park on Yandang Road."
+  - type: tips
+    variant: insider
+    items:
+      - "Go **Sunday to Thursday** for the ¥168 pass: Fri/Sat is ¥288. Your first Shanghai nights (Sun Dec 6 to Wed Dec 9) are all weeknights."
+      - "Want techno, not Top 40? Dirty House is the small room with good sound, says SmartShanghai."
+      - "Come with your hostel crew: the app lets friends find each other inside, DJ Mag says, and you will get lost."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Bring your **passport**: ID is checked at the ground-floor entrance."
+      - "Qunar lists no pass for **Monday**, although SmartShanghai says INS opens daily. Check the price on the day if you go on Mon Dec 7."
+      - "La Fin is a table club. SmartShanghai: if you're not buying a table package, \"you are probably not the audience\"."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Cold, damp nights, about 5 °C by the time you leave
+    note: "Indoors all night, so winter barely matters until the 03:00 walk to a taxi. Bring a layer you can check or carry."
+    wear: A light jacket over club clothes
+  - type: pairs_well
+    items:
+      - { id: desti-youth-hostel-jing-an, note: "Head out with people from the hostel; DiDi back to Jing'an" }
+      - { id: shanghai-nye-bund-and-clubs, note: "INS on New Year's Eve has its own card" }
+      - { id: shanghai-christmas-markets, note: "Glühwein on the Bund, then INS on Christmas night" }

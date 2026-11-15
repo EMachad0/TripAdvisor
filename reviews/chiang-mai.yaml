@@ -1,0 +1,21 @@
+# Independent review of area chiang-mai. Written by `./atr review`; do not edit by hand.
+id: chiang-mai
+type: area
+reviewed: 2026-11-12
+verdict: pass
+content_hash: efce7d94860a838637f0f4e4070e1702756413b14db40bef1a1c4100e3cbf761
+facts:
+  supported: 11
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[2].text
+    problem: The 'one plan that works' assumes the traveler reaches Krung Thep Aphiwat by 18:40 on Sat 2 Jan, the same day they leave China. Nothing on the page says the China–Bangkok flight has to land early enough to make it.
+    evidence: "config/trip.yaml: china to 2027-01-02, thailand from 2027-01-02"
+    fix: "Add half a sentence: the flight from China must land at BKK/DMK by about mid-afternoon on 2 Jan, or else fly to Chiang Mai that evening."
+resolved: []
+rereview_of: 8b4ba2045564662090e80adc9eb8a0ee34f0f2b539bcc81ede65d5eef5e812b7
+summary: "The earlier date-fit finding is resolved: the page now gives one workable plan that matches the traveler's shifts and the Jan 10 flight. All new facts check out against the sources: songthaew ฿30–40 and ฿50/≤฿80 up Doi Suthep, food 'second only to Bangkok' (Wikivoyage), and the 90-day booking window and lower berths selling out first (visitthailandtoday, updated Sep 25 2026). Only one nit remains."
+model: claude-opus-5-5
+cost_usd: 0.579

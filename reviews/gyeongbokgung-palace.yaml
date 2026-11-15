@@ -1,0 +1,24 @@
+# Independent review of gyeongbokgung-palace. Written by `./atr review`; do not edit by hand.
+id: gyeongbokgung-palace
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: 2100cc09afc4f49ade86ffcbe76f0ca36eee37449686045f0b8f374b18d0361f
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: sources[0].checked
+    problem: "The SBS Biz source has checked: 2026-11-13, which is after today (2026-11-12)."
+    evidence: places/korea/seoul/gyeongbokgung-palace/place.yaml:41
+    fix: Set checked to the date the article was actually opened (2026-11-12 or earlier).
+resolved:
+  - field: cost.note
+    problem: The new note says new palace fees are "due 1 Jan 2027" (confidence_note says the same), citing an August article. A later report says the Korea Heritage Service now lists the increase plan, its announcement and its start date all as undecided, and expects the schedule to slip.
+    evidence: "cost.note now reads 'a rise is planned, timing undecided', confidence_note says timing and amount are undecided and the fee may change, and SBS Biz is listed as a source. The article opened on 2026-11-12 and was dated 2026-10-08. It says: \"국가유산청은 궁·능 관람료 인상안 마련과 발표, 인상안 시행 시점을 모두 '미정'으로 표기했습니다\" and \"일정이 연기될 전망입니다\". It also gives the current Gyeongbokgung adult fee as 3,000 won and proposes no new amount."
+rereview_of: e4865d8711e325d2b0ce642dc1a94593f70c0f3da4283cae6b7fc21386ffe9ab
+summary: "The fee-timing finding is fixed. The note and confidence_note now say a rise is planned with timing and amount undecided, and the SBS Biz article (Oct 2026) that supports this is cited and opens. It also confirms the current ₩3,000 fee. The only thing left is a nit: the new source's checked date is set in the future."
+model: claude-opus-5-5
+cost_usd: 0.285

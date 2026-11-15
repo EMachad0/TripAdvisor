@@ -1,0 +1,149 @@
+id: yangshuo-christmas-west-street
+name: "Christmas in Yangshuo: West Street"
+short_name: Yangshuo Christmas
+name_local: 阳朔西街
+name_romanized: Yangshuo Xi Jie
+country: china
+city: yangshuo
+area: Yangshuo town · West Street
+category: nightlife
+fame: popular
+tags: [christmas, christmas-option, backpacker, bar, live-music, karst]
+kind: Do
+why: "China's old backpacker street: 517 m of bars and live music under karst peaks. A direct train gets you to Chongqing in about 4.5 h on the 26th."
+when:
+  dates:
+    - { from: 2026-12-24, to: 2026-12-25 }
+  kind: best
+  label: "Christmas, 24–25 Dec"
+
+cost:
+  local: 360
+  currency: CNY
+  brl: 297.61
+  note: "West Street is free. ¥360 is the station bus plus the 11:04 train to Chongqing; drinks extra, not priced"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Christmas Eve + Christmas Day"
+best_time: "Dec 24 after dark; the 25th for the karst countryside"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "A public pedestrian street. Bar hours vary and were not checked"
+  winter: "No 2026 Christmas events have been announced and Christmas isn't a public holiday in China, so expect an ordinary bar night. December is Yangshuo's quiet season: cold and windy, and bamboo rafting is no longer pleasant."
+
+location:
+  address: West Street (Xi Jie), Yangshuo town, Yangshuo County, Guilin, Guangxi
+  address_local: 广西桂林市阳朔县阳朔镇西街
+  lat: 24.77817
+  lng: 110.49046
+  nearest_transit: "Yangshuo station (high-speed) is 34 km away: about 1 h by bus"
+
+sources:
+  - url: https://www.chinahighlights.com/yangshuo/attraction/yangshuo-west-street.htm
+    title: "Yangshuo West Street (China Highlights): 517 m long, bars, English-speaking locals, night market"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/china-trains/guilin-yangshuo-railway-station.htm
+    title: "Guilin Yangshuo Railway Station (China Highlights): 34 km from West Street, about 1 h by bus for ¥20"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/yangshuo-chongqing/
+    title: "Yangshuo–Chongqing trains on Ctrip (timetable for 2026-11-12): 12 rows for 10 direct trains, about 4.5–5.5 h, ¥329–497"
+    checked: 2026-11-10
+  - url: https://trains.ctrip.com/trainbooking/guilin-chongqing/
+    title: "Guilin–Chongqing trains on Ctrip (timetable for 2026-11-12): 25 trains, about 4–5 h, ¥303–470"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/guilin/weather/december.htm
+    title: "Guilin weather in December (China Highlights): highs 10–18 °C, lows 2–3 °C, windy, rafting not suitable"
+    checked: 2026-11-10
+  - url: https://www.hostelworld.com/hostels/p/8182/yangshuo-culture-house/
+    title: "Yangshuo Culture House on Hostelworld: family-style Chinese dinner every evening included"
+    checked: 2026-11-10
+confidence: low
+confidence_note: "Nothing confirms Christmas Eve events here for 2026: this card sells a bar street, not a program. Bar hours, drink prices and the 'tour groups by day' remark have no source I could open. Train data is Ctrip's 12 Nov timetable. Reviewer asked for cost 0: the train stays in cost on purpose, as on every Christmas card. The 100% line in the cost block is a known platform bug; 175% is right."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: neon-under-the-peak
+    caption: "The West Street area at dusk under a karst peak (an ordinary evening)"
+    hook: Red lanterns, live folk bands and limestone peaks over the rooftops. The closest China gets to Khao San Road.
+  - type: quick_facts
+    time_needed: "Christmas Eve + Christmas Day"
+    best_time: "Dec 24 after dark; the 25th for the karst countryside"
+    extra:
+      - label: To Chongqing
+        value: "About 4.5 h, direct"
+        detail: "¥340 (R$281) on the 11:04; about 10 trains a day"
+      - label: Station transfer
+        value: "34 km, about 1 h"
+        detail: "Bus ¥20 to Yangshuo station; leave early"
+      - label: Christmas
+        value: Not a holiday
+        detail: An ordinary bar night; no official program
+  - type: highlights
+    items:
+      - title: Bars for every mood
+        text: "China Highlights lists folk bars, live bands and reggae: **Kaya Reggae Bar** and **Xiaoma's Sky Folk Bar** near Shuangyue Bridge, plus cocktails at **Mixology Homebar**. There's a night market too."
+      - title: A street that speaks English
+        text: "West Street has hosted foreign travelers for decades. Guides still say you might hear locals chatting in **English**, which is rare in a Chinese town."
+      - title: Karst all around
+        text: "Limestone peaks rise straight out of the town. Spend Christmas Day cycling or walking the countryside. The rivers are too cold for rafting."
+      - title: A train straight to Chongqing
+        text: "**Yangshuo station** has about **10 direct trains** a day to Chongqing. A morning train on the 26th gets you to Chongqing West by late afternoon."
+  - type: prose
+    title: What Christmas looks like here
+    dropcap: true
+    text: |-
+      Yangshuo was China's backpacker capital, and West Street was its living room. Today it is busier and more commercial, with Chinese tour groups by day. After dark the bars still fill up with music and travelers from the hostels.
+
+      Nobody has announced a Christmas program, and Christmas isn't a holiday in China. So treat it as a bar-street night with travelers. Have dinner at your hostel, then walk the 517 m of West Street. Pick the folk bar with the best singer and stay. On the 25th, rent a bike for the countryside, or stay in town and recover.
+
+      Leave on the 26th. The station is 34 km away, so allow 1.5 h door to door.
+  - type: gallery
+    images:
+      - file: karst-over-the-street
+        caption: The peaks rise right behind the street
+      - file: bar-signs
+        caption: Bars, cafés and English menus on West Street
+  - type: quote
+    variant: vibe
+    text: A folk singer, a cheap beer and a limestone peak at the end of the street.
+  - type: cost_breakdown
+    items:
+      - label: Walking West Street and the night market
+        local: 0
+        brl: 0
+      - label: Bus to Yangshuo station on the 26th
+        local: 20
+        brl: 16.53
+      - label: "G3726 to Chongqing West, 11:04 → 15:43 (Nov timetable)"
+        local: 340
+        brl: 281.08
+    note: "Drinks aren't priced here: I found no recent source for West Street bar prices. The train is the big cost of this option."
+  - type: map
+    zoom: 15
+    note: "The pin is **West Street**. Yangshuo station is 34 km away near Xingping. Take the bus to the station (about 1 h), not a taxi from the street."
+  - type: tips
+    variant: insider
+    items:
+      - "**Getting to Chongqing on the 26th**: in the November timetable, **G3726 leaves Yangshuo at 11:04 and reaches Chongqing West at 15:43 (¥340)**. G2240 leaves 12:39 and arrives 17:05 (¥340). The cheapest, D1838 at 16:34 (¥329), arrives 21:22: too late for the 20:30 drone show."
+      - "Guilin has more trains (25 a day, ¥303–470, about 4 h). That's useful if Yangshuo's trains are sold out."
+      - "**Yangshuo Culture House** includes a family-style Chinese dinner every evening in the price, the closest thing to a Christmas dinner with strangers."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The station is **not in town**. From the bus stop it's another 15 minutes by golf cart to West Street, so allow time."
+      - "Don't come for the river: December is cold and windy, and rafting isn't pleasant."
+      - "Seats on the few direct trains on Dec 26 can sell out. Buy as soon as sales open on 12306 or Trip.com."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 14
+    conditions: Cool and windy, limited sun, occasional light drizzle
+    note: "Pleasant for walking and cycling by day. Nights are chilly in bars with open fronts."
+    wear: Warm jacket, a sweater, a windproof layer
+  - type: pairs_well
+    items:
+      - id: chongqing-drone-light-show
+        note: "The 11:04 train on Dec 26 arrives in time for the 20:30 show, if it runs (dates not posted yet)"

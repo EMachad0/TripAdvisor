@@ -1,0 +1,39 @@
+# Independent review of ayutthaya-temples-by-bike. Written by `./atr review`; do not edit by hand.
+id: ayutthaya-temples-by-bike
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: b4f7b463a9e0ebfe4285602bf5cd8f4c597d998f07ed5944842871f49079ec62
+facts:
+  supported: 11
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[2].items[3].text / blocks[3].images[2].caption
+    problem: Wikivoyage still says you can climb inside the prang for views. Only the staircase down to the crypt rooms is marked closed since Jan 2020. The page's "stairs up to a view … closed" and the caption "before the stairs closed in 2020" read the source more broadly than it says, and nothing shows when the photo was taken.
+    evidence: https://en.wikivoyage.org/wiki/Ayutthaya — "You can climb inside the prang for nice views"; crypt staircase "closed Jan 2020 with no indication on length of closure"
+    fix: Say the crypt staircase was reported closed in 2020 and the climb for views may still be open (ask at the gate), and caption the photo just "The view from Wat Ratchaburana's prang".
+resolved:
+  - field: cost.note / blocks[5].items[1], blocks[5].items[4] / blocks[4].text
+    problem: The page prices the ferry at ฿5 each way. The newest listed source (updated Nov 1, 2026) says ฿10, or ฿20 with a bicycle. That matters here, because the page suggests renting the bike at the shop opposite the station.
+    evidence: 'Ferry is now ฿10 each way (฿20 with a bike) in cost.note, nearest_transit, prose, map note and cost_breakdown. The total is 460 (50+10+40+300+10+50) and R$75.87, which is the sum of the rounded lines. https://www.visitthailandtoday.com/guides/ayutthaya-to-bangkok (Updated Nov 1, 2026): ferry "costs ฿10, or ฿20 with a bicycle".'
+  - field: blocks[4].text (Back paragraph)
+    problem: The 16:48 departure is listed as a third-class train for about ฿20. It is No. 8 Special Express, which sells second-class air-con seats only, so the traveler cannot board it for ฿20.
+    evidence: 'Prose now lists 15:39, 16:04, 16:41 and No. 102 at 18:59 as third class, and marks No. 8 at 16:48 as second-class air-con only. https://www.visitthailandtoday.com/guides/ayutthaya-to-bangkok: "No. 8 Special Express … 2nd-class air-con only"; "18:59 No. 102 Rapid … 2nd and 3rd class".'
+  - field: hours.winter
+    problem: The page puts the World Heritage Fair in late December. The traveler is in China until Jan 2, and the page never says the fair falls outside their Thailand days. The details given (free stages, a light-and-sound show at Wat Mahathat) are also not in any listed source; Wikivoyage only says it runs for a week in December.
+    evidence: hours.winter now says the fair runs one week in December and is over before Jan 2, and the unsourced free-stage and light-show details are gone. Wikivoyage lists the fair under December; config/trip.yaml has Thailand starting 2027-01-02.
+  - field: sources / best_time / blocks[1].extra[1]
+    problem: The 09:05 out and 15:00 back are cited to Wikivoyage and a secondary guide. Wikivoyage still lists the August launch timetable, with weekend returns at 14:40 and 19:45, so it contradicts the page's 15:00 return. Only the 1 Nov 2026 timetable in the Thai press supports the times on the page.
+    evidence: 'Bangkok Biznews is now a source, and the prose gives 17:55 and 19:50. https://www.bangkokbiznews.com/news/1258673, "เริ่ม 1 พฤศจิกายน 2569" (from 1 Nov 2026), weekend and public-holiday table: BNEX 9005 09:05→10:20; returns 10:40, 15:00, 17:55, 19:50; fare 30–50 baht.'
+  - field: blocks[2].items[3] / blocks[3].images[2]
+    problem: The page says you can climb the prang at Wat Ratchaburana, but the only listed source says the staircase rooms closed in Jan 2020 with no reopening date. Whether it is climbable now is not supported.
+    evidence: The highlight no longer promises a climb. It now says the stairs were reported closed in 2020 and to ask at the gate, and confidence_note explains this. https://en.wikivoyage.org/wiki/Ayutthaya has the crypt staircase "closed Jan 2020 with no indication on length of closure".
+  - field: blocks[1].extra[0] / blocks[7].items[0]
+    problem: Sat Jan 2 is offered as a day-trip date, but it is the day the traveler leaves China and arrives in Thailand. Sat Jan 9 comes straight after a night shift that ends at 04:00, which makes the 09:05 train hard to catch.
+    evidence: "quick_facts and the tips now lead with Sun Jan 3, mark Sat Jan 2 as arrival day and say Sat Jan 9 follows the night shift ending at 04:00. This matches config/trip.yaml: Thailand from 2027-01-02, night shifts 19:00–04:00 Mon Jan 4 – Fri Jan 8."
+rereview_of: 101340d3344d05bfb4b4598f72997835df37da9f0d64a7e109ab98ec6298e4b2
+summary: All six earlier findings are fixed, and current sources support the new text. The ferry is ฿10, or ฿20 with a bike (VTT, Nov 2026). The Connex times come from the 1 Nov 2026 timetable (Bangkok Biznews), and the third-class and No. 8 trains are labelled correctly. The fair and the day-fit notes match the trip dates. One nit remains, the Wat Ratchaburana wording, so with no blocker or should open the page passes.
+model: claude-opus-5-5
+cost_usd: 0.526

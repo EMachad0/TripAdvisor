@@ -1,0 +1,22 @@
+# Independent review of sushi-tokyo-ten-shibuya. Written by `./atr review`; do not edit by hand.
+id: sushi-tokyo-ten-shibuya
+type: place
+reviewed: 2026-11-13
+verdict: pass
+content_hash: 7cee16a5f890046240e02904811a264549b17484e046bb8dca15cdae43e60f2f
+facts:
+  supported: 12
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[4].steps[0].text
+    problem: The booking step tells the traveler to pick Dinner → Counter seats → 'All Omakase (with drink)' ¥13,200. TableCheck has no 'Dinner' category and no listing with that name. The two ¥13,200 listings are 'Full Omakase Course' (the drinks course, すべておまかせ) and 'Special Assigned Selection' (the lobster course, 特選おまかせ, no drinks), so the traveler can easily book the wrong one.
+    evidence: https://www.tablecheck.com/en/shops/sushitokyo-ten-shibuya/reserve lists the category selector as "Counter seats" / "Table seats" (there is no Dinner category). It lists "Full Omakase Course" ¥13,200 (すべておまかせコース) and "Special Assigned Selection" ¥13,200 (特選おまかせ). The venue message says Premium/特選 is the course that "includes lobster", and only the 'All' courses are marked お飲み物付き. blocks[4].steps[0] and book_ahead.links[0].note now name 'Full Omakase Course' and warn against 'Special Assigned Selection'.
+  - field: why
+    problem: The page says 'all your drinks', 'all drinks included, so the bill can't creep up' and calls it 'the honest all-in price'. TableCheck only says the course comes with 'your choice of drinks' (お飲み物付き), not all-you-can-drink (飲み放題), and no source says how many drinks it covers.
+    evidence: https://tabelog.com/en/tokyo/A1303/A130301/13225919/party/ lists "All Omakase (with Drinks, All-Inclusive)" at JPY 13,200 with the tag "All you can drink" and the rule "*Last orders for drinks will be taken 30 minutes before the end of your dining time." The page now credits this to Tabelog and drops 'can't creep up' and 'honest all-in price'. The free-flowing claim rests on Tabelog's auto-translated English page; the Japanese page returned 403.
+rereview_of: 80083f0f16b7c758022910b0ff8b420e3546d05b47424b0af60d3e7f69403f2f
+summary: "Both earlier blockers are fixed. The booking step names the right TableCheck listing and tells it apart from the same-price lobster course. The all-you-can-drink claim is now sourced to Tabelog's course page, including its 30-minute drinks last order. The new booking-rule text checks out against TableCheck and Tabelog: same-day changes by phone, no-show after 15 minutes, no booking window published."
+model: claude-opus-5-5
+cost_usd: 0.411

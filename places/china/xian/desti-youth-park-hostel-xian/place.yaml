@@ -1,0 +1,133 @@
+id: desti-youth-park-hostel-xian
+name: "Desti Youth Park Hostel Xi'an"
+short_name: Desti Youth Park
+name_local: 背包十年青年旅舍(西安钟楼店)
+country: china
+city: xian
+area: Bell Tower · North Street
+category: stay
+tags: [hostel, social, bar, pool-table, movie-room, big-hostel]
+kind: Stay
+why: "A 400-bed hostel by the Bell Tower with a bar, pool table, board games and a cinema room. ¥41 dorm bed, 9.6 on Hostelworld, foreigners welcome."
+cost:
+  local: 40.86
+  currency: CNY
+  brl: 33.78
+  note: "12-bed male or female dorm, night of Mon Dec 14, 2026 (Hostelworld, searched Nov 10; 45% off ¥74.29)"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Reception 24 h · check-in 14:00–23:00 · check-out by 12:00 · no curfew"
+  winter: "No Christmas or New Year rules shown for Dec 2026. A Dec 14 search on Nov 10 showed every dorm type still bookable. Your Dec 10–20 dates are well before the New Year rush. Rooms are air-conditioned (Booking.com)."
+
+location:
+  address: "2nd–3rd floor, Jinzhong (Golden Bell) Building, No. 2 North Street, Xi'an"
+  address_local: 西安市北大街2号金钟大厦
+  lat: 34.26285
+  lng: 108.94298
+  nearest_transit: "Bell Tower / Zhonglou (Lines 2 & 6), Exit D"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Xi-an-Desti-Youth-Park-Hostel-Bell-Drum-Tower/Xi-an/306697?from=2026-12-14&to=2026-12-15&guests=1&currency=CNY"
+    title: "Desti Youth Park Hostel Bell & Drum Tower — Hostelworld (Dec 14–15, 2026 search: prices, rating, rules)"
+    checked: 2026-11-10
+  - url: "https://www.booking.com/hotel/cn/xi-an-bei-bao-shi-nian-qing-nian-gong-yuan-qing-nian-lu-she.en-gb.html?checkin=2026-12-14&checkout=2026-12-15&group_adults=1&selected_currency=CNY"
+    title: "Desti Youth Park Hostel — Booking.com (Dec 14–15, 2026: prices, 9.1 from 1,300 reviews, address)"
+    checked: 2026-11-10
+  - url: https://uk.trip.com/hotels/xi-an-hotel-detail-62233200/desti-youth-hostel
+    title: "Desti Youth Hostel (Xi'an Bell Tower) — Trip.com: Chinese name, guests from all countries welcome, 24 h desk"
+    checked: 2026-11-10
+  - url: https://www.openstreetmap.org/?mlat=34.26285&mlon=108.94298#map=18/34.26285/108.94298
+    title: "Jinzhong Building (金钟大厦), 2 North Street — OpenStreetMap"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/xian-subway-guide/
+    title: "Xi'an subway guide — China for Travelers (2026-08-15): Line 2 from Xi'an North to the Bell Tower"
+    checked: 2026-11-10
+  - url: https://www.chinahighlights.com/xian/weather/december.htm
+    title: "Xi'an weather in December (China Highlights): about 8 °C by day, 1 °C at night"
+    checked: 2026-11-10
+confidence: medium
+confidence_note: "Exists and open: dated Hostelworld and Booking searches for Dec 14, 2026 and reviews from Oct 2026 stays by guests from Greece and England. Trip.com says guests from all countries are welcome (page opened with WebFetch; the link checker may be blocked). Hostelworld says 100 m from metro Exit D, Booking 600 m. Chinese address assembled from OSM's building name. Prices move."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: bell-tower-day
+    caption: "The Bell Tower, a stone's throw away. No free photo of the hostel itself"
+    hook: Wake up beside the Bell Tower; come back at night to a bar, a pool table and a few hundred other travellers.
+  - type: quick_facts
+    extra:
+      - { label: Check-in, value: "14:00–23:00", detail: "Reception 24 h, no curfew, check-out by 12:00" }
+      - { label: Vibe, value: Big and social, detail: "Bar, pool table, board games, cinema room" }
+      - { label: Foreigners, value: Welcome, detail: "Trip.com: guests from all countries accepted" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 12-bed male or female dorm
+        local: 40.86
+        brl: 33.78
+        note: "Night of Dec 14, 2026, Hostelworld (45% off ¥74.29)"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Xi-an-Desti-Youth-Park-Hostel-Bell-Drum-Tower/Xi-an/306697?from=2026-12-14&to=2026-12-15&guests=1&currency=CNY"
+      - label: Bed in 8-bed male or female dorm
+        local: 44
+        brl: 36.37
+        note: "Night of Dec 14, 2026, Hostelworld"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Xi-an-Desti-Youth-Park-Hostel-Bell-Drum-Tower/Xi-an/306697?from=2026-12-14&to=2026-12-15&guests=1&currency=CNY"
+      - label: Bed in 12-bed dorm (Booking.com)
+        local: 45
+        brl: 37.2
+        note: "Night of Dec 14, 2026, Booking.com; pay at the property, free cancellation to Dec 13"
+        url: "https://www.booking.com/hotel/cn/xi-an-bei-bao-shi-nian-qing-nian-gong-yuan-qing-nian-lu-she.en-gb.html?checkin=2026-12-14&checkout=2026-12-15&group_adults=1&selected_currency=CNY"
+      - label: Bed in 6-bed male or female dorm
+        local: 62
+        brl: 51.26
+        note: "Night of Dec 14, 2026, Hostelworld"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Xi-an-Desti-Youth-Park-Hostel-Bell-Drum-Tower/Xi-an/306697?from=2026-12-14&to=2026-12-15&guests=1&currency=CNY"
+    rating:
+      score: 9.6
+      out_of: 10
+      source: Hostelworld
+      reviews: 253
+      atmosphere: 9.2
+      checked: 2026-11-10
+    social:
+      - "Over **400 m²** of common space: a craft wine bar, café, board games and a book corner"
+      - "**Pool table** and an in-house **cinema room**"
+      - "The listing says a stage is planned for occasional **folk concerts and stand-up comedy**; no dates found"
+      - "Reviews: \"a great place to relax and meet other travellers\", \"good communal area with a cheap bar\", \"fairly social\""
+      - "The hostel says it plans travel routes for backpackers"
+    good_to_know:
+      - "Nearly **400 beds**: big and busy rather than intimate"
+      - "Dorms are single-sex; slippers, towel, bottled water and a key-card locker come with the bed"
+      - "Pay on arrival by cash or card (Hostelworld); cancel at least a day ahead or pay the first night"
+      - "The hostel asks guests to navigate with Baidu Maps: Google pins can be off"
+      - "Breakfast isn't included; Booking.com lists it at ¥15"
+  - type: highlights
+    items:
+      - title: The Bell Tower on the doorstep
+        text: "Location scores **10.0** on Hostelworld and 9.8 on Booking.com: the Bell Tower, Drum Tower and Muslim Quarter are all a walk away."
+      - title: One metro line from the train
+        text: "Line 2 runs from **Xi'an North** station straight to the Bell Tower stop, by the hostel's Exit D."
+      - title: Cheap for what you get
+        text: "Value for money is **9.7** on Hostelworld, and the bar is called cheap in reviews."
+  - type: map
+    note: "Arriving at Xi'an North, take Line 2 to **Bell Tower (Zhonglou)** and use Exit D. Use Baidu Maps to find the building, as the hostel asks."
+  - type: tips
+    variant: insider
+    items:
+      - "For Dec 14 the dorm was ¥4 cheaper on Hostelworld than on Booking.com; Booking lets you pay at the property instead."
+      - "An 8-bed dorm cost about ¥3 more than a 12-bed for Dec 14; fewer roommates for the price of a skewer."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 8
+    conditions: Cold and dry, mostly cloudy
+    note: "Rooms are air-conditioned. The common areas are indoors, which suits December evenings. The Bell Tower area is the walkable core, so most nights out need no transport."
+    wear: Down jacket for the walk back
+  - type: pairs_well
+    items:
+      - { id: xian-christmas, note: "The Bell Tower is a stone's throw away" }
+      - { id: sajinqiao-food-crawl, note: "Dinner a short metro ride or walk west" }
+      - { id: terracotta-army, note: "Day out by metro and bus 306, or the direct bus from Bell Tower metro" }

@@ -1,0 +1,157 @@
+id: the-yard-hostel-bangkok
+name: "The Yard Hostel Bangkok"
+short_name: The Yard
+name_local: เดอะ ยาร์ด โฮสเทล
+country: thailand
+city: bangkok
+area: Phaya Thai · Ari
+category: stay
+tags: [hostel, social, garden, bts, remote-work, quiet, female-dorm]
+kind: Stay
+why: "The work-week base away from Khao San: a garden hostel in Ari, social but calm (atmosphere 9.6), 24-hour desk, free breakfast. ฿605 a bed."
+
+cost:
+  local: 605
+  currency: THB
+  brl: 99.76
+  note: "Hostelworld, 8-bed mixed dorm, free cancellation, Mon 4 – Wed 6 Jan 2027 (2-night minimum), searched 12 Nov 2026"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 21
+  lead_time: "Book the whole Mon 4 – Sat 9 Jan stay a few weeks ahead"
+  method: website
+  links:
+    - label: Hostelworld (Mon 4 – Sat 9 Jan search)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020?from=2027-01-04&to=2027-01-09&guests=1&currency=THB"
+      note: "Pick a free-cancellation rate while your dates can still move"
+  notes: "On 12 Nov a 4–9 Jan search showed \"Only 4 beds left!\" in the 8-bed dorm, 3 in the 4-bed and 2 in the female dorm, and short stays hit a 2-night minimum. Book all the work nights in one booking."
+
+hours:
+  summary: "24-hour front desk · check-in 14:00–24:00 · check-out by 12:00 · no curfew"
+  winter: "Dec–Jan are Bangkok's cool, dry season (see weather). On a one-night search for 5–6 Jan 2027, Hostelworld required a 2-night minimum; book the whole work week in one go. New Year rules were not checked."
+
+location:
+  address: "51 Soi Phahonyothin 5, Phahonyothin Road, Samsen Nai, Phaya Thai, Bangkok 10400"
+  address_local: "51 ซอยพหลโยธิน 5 ถนนพหลโยธิน แขวงสามเสนใน เขตพญาไท กรุงเทพมหานคร 10400"
+  lat: 13.7767
+  lng: 100.54173
+  nearest_transit: "BTS Ari, a short walk"
+
+sources:
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020?from=2027-01-04&to=2027-01-06&guests=1&currency=THB"
+    title: "The Yard Hostel Bangkok on Hostelworld, 4–6 Jan 2027 search: dorm prices, house rules, rating 9.6 (2,924), atmosphere 9.6, 2026 reviews"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020?from=2027-01-04&to=2027-01-09&guests=1&currency=THB"
+    title: "The Yard on Hostelworld, Mon 4 – Sat 9 Jan 2027 search: 8-bed ฿605 with 4 beds left, 4-bed 3 left, female dorm 2 left"
+    checked: 2026-11-12
+  - url: "https://www.booking.com/hotel/th/the-yard-hostel.en-gb.html?checkin=2027-01-04&checkout=2027-01-06&group_adults=1&selected_currency=THB"
+    title: "The Yard Bangkok Hostel on Booking.com: 9.1 (1,389 reviews), Wi-Fi 9.1, 24-hour front desk, bar, garden and communal area"
+    checked: 2026-11-12
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Luk-Hostel-Chinatown-Songwat/Bangkok/293905?from=2027-01-05&to=2027-01-06&guests=1&currency=THB"
+    title: "Luk Hostel Chinatown on Hostelworld (compared): coworking space, 8.8, atmosphere 7.6, reception 06:00–24:00"
+    checked: 2026-11-12
+  - url: "https://www.booking.com/hotel/th/kinnon-hostel.en-gb.html?checkin=2027-01-05&checkout=2027-01-06&group_adults=1&selected_currency=THB"
+    title: "Kinnon Deluxe Hostel Coworking Cafe, Silom, on Booking.com (compared): 8.8 (850), 'superb' Wi-Fi, dorm ฿490"
+    checked: 2026-11-12
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok (Wikipedia): climate table, January averages"
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Prices are from one Hostelworld search read on 12 Nov 2026 and move often. No source gives Wi-Fi speeds or says where you can sit with a laptop from 19:00 to 04:00: the listings name a communal area, a garden and a bar, and Booking guests rate the Wi-Fi 9.1. Ask the hostel before booking a work week. The Thai name and address are my own renderings."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: ari-bts
+    caption: "BTS Ari, the hostel's station. No free photo of The Yard itself exists"
+    hook: "A green garden in a quiet street of cafés, where a hostel family breakfast replaces the Khao San hangover."
+  - type: quick_facts
+    extra:
+      - { label: Slot, value: Work-week base, detail: "Sleep by day, work 19:00–04:00, afternoons out" }
+      - { label: Vibe, value: Social but calm, detail: "Atmosphere 9.6/10 on Hostelworld" }
+      - { label: Front desk, value: 24 hours, detail: "Check-in 14:00–24:00; check-out by 12:00" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: "8-bed mixed dorm · 4–6 Jan"
+        local: 605
+        brl: 99.76
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020?from=2027-01-04&to=2027-01-06&guests=1&currency=THB"
+        note: "Per night, free cancellation, 2-night minimum; searched 12 Nov"
+      - label: "6-bed mixed dorm"
+        local: 649
+        brl: 107.02
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020?from=2027-01-04&to=2027-01-06&guests=1&currency=THB"
+      - label: "6-bed female dorm"
+        local: 682
+        brl: 112.46
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020?from=2027-01-04&to=2027-01-06&guests=1&currency=THB"
+      - label: "4-bed mixed dorm"
+        local: 715
+        brl: 117.9
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020?from=2027-01-04&to=2027-01-06&guests=1&currency=THB"
+    rating:
+      score: 9.6
+      out_of: 10
+      source: Hostelworld
+      reviews: 2924
+      atmosphere: 9.6
+      checked: 2026-11-12
+    social:
+      - "Founded in 2015 \"to connect people\", say the owners; Hostelworld's review summary calls it **social yet peaceful, perfect for solo travellers**."
+      - "A big **green garden** and communal area, plus an on-site bar (Booking.com)."
+      - "Free homemade breakfast every morning: the easy place to meet people before an afternoon out."
+      - "Honest caveat: a recent guest calls it \"social but not party vibes at all\". For a night out, join the Khao San hostels' crowd on a weekend."
+    good_to_know:
+      - "Dorm beds have a privacy curtain, private locker, reading light and air-con: good for sleeping through the day after a night shift."
+      - "No deposit and no card fees, towels included (owners' note on Hostelworld)."
+      - "24-hour front desk, so coming back at 04:00 is no problem; no curfew."
+      - "Smoking only in designated areas; no children."
+  - type: highlights
+    items:
+      - title: Sleep by day
+        text: "Curtained bunks with a private locker and air-con, in a quiet soi: what a night-shift week needs."
+      - title: A garden to meet people in
+        text: "The owners call their space-per-guest ratio \"one of the largest you'll find in this business\", and guests give it 9.6 for atmosphere from 2,924 reviews."
+      - title: Breakfast included
+        text: "A homemade breakfast set with northern Thai coffee, refilled until you are full. One less meal to budget."
+      - title: Ari, not Khao San
+        text: "A local neighbourhood on the BTS line, a short ride to Chatuchak and the city centre."
+  - type: prose
+    title: Why this one for the work week
+    text: |-
+      I compared three hostels outside Khao San for working São Paulo hours (19:00–04:00 in Bangkok). **Luk Hostel** in Chinatown has a dedicated air-conditioned coworking space and a great location, but its reception closes from midnight to 06:00 and recent reviews say plainly it is *not* a social hostel (atmosphere 7.6). **Kinnon Deluxe Hostel Coworking Cafe** on Silom Soi 6 is built around a coworking café and Booking guests rate its Wi-Fi "superb", but it has fewer reviews and I found no social events listed for it.
+
+      **The Yard** wins on what the rest of the week needs: you sleep through the morning in a curtained bunk, eat a free breakfast, and spend the afternoon with people who are actually there to meet others, in **Ari**, which the owners describe as peaceful, creative and full of local life, rather than a backpacker strip. The trade-off: no coworking room is listed, so check with the hostel where you can sit with a laptop at night. If the answer is "nowhere quiet", Kinnon is the Plan B.
+  - type: cost_breakdown
+    items:
+      - { label: "8-bed dorm bed, one night (free cancellation)", local: 605, brl: 99.76 }
+      - { label: "Breakfast", local: 0, brl: 0 }
+  - type: map
+    note: "From **BTS Ari** it is a short walk; the hostel's own text puts the Old Town temples about 30 minutes away."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: your base for Mon 4 – Fri 8 Jan.** Afternoons out, back by 19:00 to work; weekend nights out are a BTS or taxi ride away."
+      - "Book all the work nights together: a single night on those dates hit a 2-night minimum on Hostelworld, and only a few beds per dorm were left in November."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It is not near the river temples or Khao San: the owners themselves say to stay in the Old Town if those are your main plans."
+      - "Wi-Fi speed is not published anywhere. Run a speed test on night one, and know your Plan B (a coworking day pass or Kinnon on Silom)."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Hot, dry and sunny; the cool, dry season"
+    note: "January averages 23 °C at night and 33 °C by day with little rain: the garden is pleasant in the evening."
+    wear: Light clothes; a layer for the air-con and the BTS
+  - type: pairs_well
+    items:
+      - id: chatuchak-weekend-market
+        note: "A few BTS stops north, for a Saturday or Sunday"
+      - id: or-tor-kor-market
+        note: "Fresh-market lunch near Chatuchak on a weekday"
+      - id: lub-d-bangkok-siam
+        note: "The more central alternative, with its own coworking space"

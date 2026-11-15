@@ -1,0 +1,145 @@
+id: jade-dragon-snow-mountain
+name: "Jade Dragon Snow Mountain"
+short_name: Jade Dragon
+name_local: 玉龙雪山
+name_romanized: Yùlóng Xuěshān
+country: china
+city: dali
+area: "Lijiang, 2 h by train"
+category: nature
+fame: popular
+must_do: china-dragons
+must_do_note: "The dragon is only in the name: you get a 5,596 m snow massif and a cable car to 4,506 m, not dragon art"
+tags: [dragons, snow, glacier, high-altitude, cable-car, cold-outdoors, real-name-booking]
+kind: Do
+why: "Cable car to 4,506 m on a glacier-capped massif, then a boardwalk to 4,680 m. December is the clear, snowy season. Lijiang is 2 h by train from Dali."
+
+cost:
+  local: 400
+  currency: CNY
+  brl: 339.56
+  note: "Entry ¥100 + big cable car ¥140, plus an estimated ¥160 for trains and buses from Dali and back. Oxygen extra"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Full day; easier with a Lijiang night"
+best_time: "Morning cable-car slot on a clear day"
+
+book_ahead:
+  required: true
+  lead_days: 7
+  lead_time: "Cable-car tickets open 7 days ahead at 20:00 (2026 guide)"
+  method: passport-registered
+  links:
+    - label: Trip.com Lijiang bundle tour
+      url: "https://uk.trip.com/things-to-do/detail/89398370"
+      note: "From Lijiang, with cable car and Blue Moon Valley. Price unconfirmed: compare with DIY ¥400"
+    - label: How to book it yourself (guide)
+      url: "https://chinafortravelers.com/guides/jade-dragon-snow-mountain/"
+      note: "WeChat mini-program with passport, Trip.com, or the visitor-centre window"
+  passport: true
+  notes: "The official channels are Chinese-only WeChat mini-programs, which accept a passport if you pick it as the ID type. You can also buy at the visitor-centre window with your passport, but cable-car slots can be gone by then."
+
+hours:
+  summary: "Cable-car hours aren't published in the sources; your booked slot sets the time. Last bus 101 back to Lijiang around 18:00"
+  winter: "December is in the dry season (Nov–Mar), with the clearest views; Dec–Feb has the deepest snow. It's also the coldest time of year, and heavy snow or high wind can shut the cable car for a day, so keep a spare day. Yak Meadow has been closed for rebuilding since March 2026."
+
+location:
+  address: "Glacier Park cable car, Jade Dragon Snow Mountain scenic area, Yulong County, Lijiang (about 30 km north of Lijiang Old Town)"
+  address_local: 云南省丽江市玉龙纳西族自治县 玉龙雪山景区 冰川公园大索道
+  lat: 27.10889
+  lng: 100.21214
+  nearest_transit: "Bus 101 from Zhongyi Market, Lijiang (¥15, about 1 h)"
+  approximate: true
+
+sources:
+  - url: https://chinafortravelers.com/guides/jade-dragon-snow-mountain/
+    title: "China for Travelers, Jade Dragon Snow Mountain 2026 (updated 2026-07-01): prices, booking, bus 101, altitudes, winter"
+    checked: 2026-11-13
+  - url: https://www.travelchinaguide.com/china-trains/dali-lijiang.htm
+    title: "Travel China Guide, Dali–Lijiang trains (2026-07-07): 1 h 36 min – 2 h 39 min, ¥48–80, first 07:00, last back 22:05"
+    checked: 2026-11-13
+  - url: https://chinafortravelers.com/guides/getting-around-yunnan/
+    title: "China for Travelers, getting around Yunnan (2026-06-13): Lijiang Old Town to the cable car by DiDi"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Jade_Dragon_Snow_Mountain
+    title: "Jade Dragon Snow Mountain, Wikipedia: Shanzidou 5,596 m, cable car to 4,506 m, Naxi name"
+    checked: 2026-11-13
+  - url: https://en.wikipedia.org/wiki/Lijiang
+    title: "Lijiang, Wikipedia (December climate normals, 80% sunshine)"
+    checked: 2026-11-13
+  - url: https://uk.trip.com/things-to-do/detail/89398370
+    title: "Trip.com Lijiang bundle day tour: entry, Glacier Park cable car, Blue Moon Valley, Impression Lijiang"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Prices, booking rules and the bus come from one detailed 2026 guide; other sites still list the older ¥120 cable car. The opening hours aren't published there, and the cable-car pin is approximate. Temperatures up on the mountain aren't sourced; the weather block uses Lijiang. The Trip.com tour page was read with a web fetch (atr links is bot-blocked there)."
+last_updated: 2026-11-13
+
+blocks:
+  - type: hero
+    image: snow-ridge
+    hook: "Glacier, black rock and thin air at 4,500 m, an hour above Lijiang's old town."
+  - type: quick_facts
+    time_needed: "Full day from Dali"
+    best_time: "Morning slot, clear day"
+    extra:
+      - { label: Top of the cable car, value: "4,506 m", detail: "Boardwalk on to 4,680 m; the summit is 5,596 m" }
+      - { label: From Dali, value: "1 h 36 min – 2 h 39 min", detail: "Train Dali → Lijiang, ¥48–80, first at 07:00" }
+      - { label: The dragon, value: Just the name, detail: "No dragon carving or statue; the mountain is the show" }
+  - type: highlights
+    items:
+      - title: "Honest note: the dragon is the name"
+        text: "**玉龙** means \"jade dragon\", but nothing up here is a dragon you can see. You come for a **5,596 m** snow massif and a glacier you can stand next to. If you want real carved dragons, see the walls in [Beijing and Datong](https://en.wikipedia.org/wiki/Nine-Dragon_Wall)."
+      - title: A glacier at 4,500 m
+        text: "The Glacier Park cable car goes up to **4,506 m**, and a boardwalk climbs on to **4,680 m**. People carry canned oxygen (about ¥39 at the base)."
+      - title: December is the season
+        text: "December falls in the dry season (Nov–Mar), with the clearest views of the year, and Dec–Feb has the deepest snow. Lijiang gets about **80% of possible sunshine** in December."
+      - title: Blue Moon Valley comes free
+        text: "The park ticket includes **Blue Moon Valley**: milky-turquoise lakes under the peaks, along a flat boardwalk of 2–3 hours. Do it after the cable car if you still have energy."
+  - type: prose
+    title: From Dali, or sleep in Lijiang?
+    text: |-
+      A same-day trip from Dali works, but it's long. Take the **07:00** train to Lijiang, ride bus 101 or a DiDi up to the mountain, do the cable car, and catch the last bus down around 18:00. Then take an evening train back (the last one leaves Lijiang at 22:05).
+
+      It's easier to sleep one night in **Lijiang**. Then you can take the earliest cable-car slot and still have time for Blue Moon Valley. Either way it's a vacation-days trip (before Dec 24), not one for your Dec 28–31 work nights.
+  - type: gallery
+    images:
+      - { file: blue-moon-valley, caption: "A turquoise lake below the massif", focus: center }
+      - { file: from-the-valley, caption: "The massif from the valley floor, February 2026" }
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "At **20:00**, seven days before, big cable-car tickets go on sale: WeChat mini-program (choose \"passport\") or Trip.com. Pick a morning slot."
+      - days_before: 1
+        text: "Book the Dali → Lijiang train. If you're doing it in one day, book the evening train back too."
+      - days_before: 0
+        text: "Bring the passport you booked with: entry is passport plus face scan."
+    passport_note: "Big cable-car tickets are limited to **one purchase per ID every 90 days**, so check the date and slot before you pay."
+  - type: cost_breakdown
+    items:
+      - { label: "Scenic-area entry", local: 100, brl: 84.89 }
+      - { label: "Big cable car to Glacier Park (includes shuttle)", local: 140, brl: 118.85 }
+      - { label: "Train Dali ↔ Lijiang, both ways", local: 130, brl: 110.36, estimate: true }
+      - { label: "Bus 101 Lijiang ↔ mountain, both ways", local: 30, brl: 25.47 }
+      - { label: "Can of oxygen at the base", local: 39, brl: 33.11, optional: true }
+  - type: map
+    note: "The pin is the cable car, about 30 km north of Lijiang. Bus 101 leaves from Zhongyi Market near the old town; a DiDi takes about 45–60 min."
+  - type: tips
+    variant: insider
+    items:
+      - "Buy oxygen in **Lijiang Old Town** (about ¥20) rather than at the base (¥39)."
+      - "Walk slowly on the boardwalk: Lijiang is at about 2,400 m and the top is 4,680 m, a big climb in one day."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't count on a ticket at the window. Slots for the big cable car sell out, and the mountain is pointless without it."
+      - "Keep a **spare day**: snow or wind can shut the cable car for a day."
+  - type: weather
+    temp_low_c: 0
+    temp_high_c: 15
+    conditions: "Dry and sunny in Lijiang (2,400 m); far colder and windy at 4,500 m"
+    note: "These are Lijiang's December figures. At the glacier you're more than 2,000 m higher, in snow and wind."
+    wear: "Down jacket, hat, gloves, sunglasses and sunscreen (strong UV); grip shoes for the boardwalk"
+  - type: pairs_well
+    items:
+      - { id: dali-christmas-old-town, note: "Your base: Dali Old Town, 2 h south by train" }
+      - { id: beihai-nine-dragon-wall, note: "If you want a dragon you can see, Beijing has one" }

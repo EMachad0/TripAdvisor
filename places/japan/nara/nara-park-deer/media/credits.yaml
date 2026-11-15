@@ -1,0 +1,81 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: tobihino-deer
+  title: File:Tobihino 20250829 171441.jpg
+  author: Taufik
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Tobihino_20250829_171441.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/44/Tobihino_20250829_171441.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tobihino di Nara, Jepun
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: nandaimon-deer
+  title: File:Deer in front of Nandaimon at Todaiji.jpg
+  author: Christophe95
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Deer_in_front_of_Nandaimon_at_Todaiji.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/ae/Deer_in_front_of_Nandaimon_at_Todaiji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Deer in front of Nandaimon at Todaiji in Nara.
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: kasuga-lanterns
+  title: File:Nara Kasuga-taisha Lanterns & Deer 06.jpg
+  author: Zairon
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nara_Kasuga-taisha_Lanterns_%26_Deer_06.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a9/Nara_Kasuga-taisha_Lanterns_%26_Deer_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: a Deer between the Lanterns of the Kasuga Shrine, Nara, Prefecture of Nara, Region of Kinki, Japan
+  width: 5180
+  height: 3882
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: yamayaki
+  title: File:110122 Wakakusayama yamayaki.jpg
+  author: 名古屋太郎
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:110122_Wakakusayama_yamayaki.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/22/110122_Wakakusayama_yamayaki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Mountain-burning Wakakusayama seen from the Heijo Palace site. Nara city, Japan. Shooting with extended exposure.
+  width: 3872
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons
+- file: senbei
+  title: File:Shika senbei 2017.jpg
+  author: TR15336300101
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shika_senbei_2017.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9a/Shika_senbei_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 奈良公園の鹿せんべい。
+  width: 3257
+  height: 2443
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-14
+  origin: commons

@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: orange-line
+  title: File:Bangkok, Chao Phraya Express Boat (6223565866).jpg
+  author: Fabio Achilli from Milano, Italy
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Bangkok,_Chao_Phraya_Express_Boat_(6223565866).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/da/Bangkok%2C_Chao_Phraya_Express_Boat_%286223565866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Un'imbarcazione della Orange Line pronta ad attraccare al molo di Phra Arthit nel quartiere di Banglamphu. Chao Phraya Express Boat gestisce diverse linee lungo il fiume che rappresentano spesso il modo migliore per raggiungere la zona storica dei templi o Chinatown. An Orange Line Chao Phraya Expre
+  width: 4608
+  height: 2906
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons
+- file: on-board
+  title: File:Chao Phraya Express Boat Service, Bangkok (7053060009).jpg
+  author: David McKelvey from Brisbane, Australia
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Chao_Phraya_Express_Boat_Service,_Bangkok_(7053060009).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d5/Chao_Phraya_Express_Boat_Service%2C_Bangkok_%287053060009%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: <a href=" http://en.wikipedia.org/wiki/Chao_Phraya_Express_Boat " rel="noreferrer nofollow">The Chao Phraya Express Boat</a> is a transportation service in Thailand that operates on the Chao Phraya River. It provides riverine express transportation between stops in the capital city of Bangkok and to
+  width: 2592
+  height: 1458
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-12
+  origin: commons

@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: spiral-over-raffles
+  title: File:2025 Drone show in Chongqing 03.jpg
+  author: Renek78
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:2025_Drone_show_in_Chongqing_03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f8/2025_Drone_show_in_Chongqing_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Drone show in Chongqing as seen from bar at Riverside Park Mall
+  width: 4000
+  height: 2252
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: crowd-on-the-terrace
+  title: File:2025 Drone show in Chongqing 02.jpg
+  author: Renek78
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:2025_Drone_show_in_Chongqing_02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/45/2025_Drone_show_in_Chongqing_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Drone show in Chongqing as seen from bar at Riverside Park Mall
+  width: 4000
+  height: 2252
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: cocktail-glass
+  title: File:2025 Drone show in Chongqing 05.jpg
+  author: Renek78
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:2025_Drone_show_in_Chongqing_05.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/26/2025_Drone_show_in_Chongqing_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Drone show in Chongqing as seen from bar at Riverside Park Mall
+  width: 2252
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons
+- file: spaceship
+  title: File:2025 Drone show in Chongqing 08.jpg
+  author: Renek78
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:2025_Drone_show_in_Chongqing_08.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/46/2025_Drone_show_in_Chongqing_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Drone show in Chongqing as seen from bar at Riverside Park Mall
+  width: 2252
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-10
+  origin: commons

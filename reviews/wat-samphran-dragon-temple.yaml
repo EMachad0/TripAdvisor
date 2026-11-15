@@ -1,0 +1,28 @@
+# Independent review of wat-samphran-dragon-temple. Written by `./atr review`; do not edit by hand.
+id: wat-samphran-dragon-temple
+type: place
+reviewed: 2026-11-12
+verdict: pass
+content_hash: e9a832def22888cf29e8f6e3db9489ef387f105acca44422690e942625987be8
+facts:
+  supported: 6
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[0].image, blocks[4].images
+    problem: The page has no photos. The media folder is empty, and `./atr validate` reports 4 errors because "tower", "grounds", "dragon-detail" and "full-tower" have no entry in media/credits.yaml. On phone, the hero is a plain gradient and all three gallery tiles show broken-image alt text. For a page whose whole case is a photogenic pink tower, that leaves the traveler nothing to judge it by.
+    evidence: "The curator took the fix's second option and removed the hero image and the gallery. `./atr validate wat-samphran-dragon-temple` now reports '✔ 1 file(s) valid'. In build/shots/wat-samphran-dragon-temple-phone-light-s01.png and -s04.png the hero is a clean gradient with no caption claiming a photo, and no broken images show. confidence_note gives the reason: Commons downloads were rate-limited."
+  - field: blocks[2].items[0].text
+    problem: 'The page says "The old lift is out of order". The cited source says the opposite: there is a working lift that costs a small fee.'
+    evidence: blocks[2].items[0] now says there is a ฿10 lift. https://therestlessbeans.com/wat-sam-phran-dragon-temple/ — "there is a working elevator in Wat Sam Phran from the ground to the upper floors – it costs 10 baht to use." The report that the upper floors are locked on weekdays is now in the pitfalls, marked unverified, and confidence_note says so too.
+  - field: blocks[2].items[1].text
+    problem: The symbolism (80 m for the Buddha's 80 years, 16 storeys for 16 stages of insight, five claws for the five precepts) appears in no listed source. Bookaway says "No one seems to know when the temple was built, whom it was built by and why" and gives 17 storeys, not 16.
+    evidence: "The symbolism item has been replaced. https://bookaway.com/blog/wat-samphran-pink-dragon-temple-outside-bangkok — \"No one seems to know when the temple was built, whom it was built by and why it was built\" and \"the 17-story, whopping 80-meter-high building\". The Restless Beans: \"80-metre-high corkscrew tower\", \"The 16 storeys you ascend\". The page's '16 storeys (one guide counts 17)' matches both."
+  - field: blocks[7].note
+    problem: The page states there is a Grab stand at the north end of the car park for the ride back. A reader comment on the same source page, dated May 2026, says there was none in December, which is the traveler's season. If there is no stand, the traveler could be stuck 38 km out of town.
+    evidence: blocks[7].note now presents the stand as one 2025 guide's report, adds the December reader comment that found none, and tells the traveler to book the return Grab in the app or ask the driver to wait before the first driver leaves. That is the fix that was asked for.
+rereview_of: f7f238bf244312ffb352331c2b09b8ed944dc19792f5e17ebbb7d58d19cd0f0b
+summary: "All four earlier findings are fixed, and the new text matches The Restless Beans and Bookaway. The 244% figure is correct: R$244.05 against Thailand's budget of R$100 a day in config/trip.yaml. Only the reader comment about the 2025 red repaint was checked through a fetched summary rather than the comment's own wording, so that fact is weakly sourced. The weekday locked-floors claim remains unverified, and the page says so."
+model: claude-opus-5-5
+cost_usd: 0.449

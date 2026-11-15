@@ -1,0 +1,147 @@
+id: chengdu-panda-base
+name: "Chengdu Research Base of Giant Panda Breeding"
+short_name: Chengdu Panda Base
+name_local: 成都大熊猫繁育研究基地
+name_romanized: Chéngdū Dàxióngmāo Fányù Yánjiū Jīdì
+country: china
+city: chengdu
+area: Chenghua · north Chengdu
+category: nature
+fame: iconic
+tags: [pandas, red-pandas, morning, real-name-booking]
+kind: See
+why: "Giant pandas at breakfast: ¥55 real-name ticket with your passport, in by 08:00 for feeding time, then red pandas wandering the paths."
+cost:
+  local: 55
+  currency: CNY
+  brl: 45.47
+  note: "Adult ticket, all year; metro and bus there cost a few yuan more"
+fx: { rate: 0.8267, date: 2026-11-09, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 3–4 h
+best_time: Morning slot, at the 08:00 winter opening
+
+book_ahead:
+  required: true
+  lead_days: 2
+  lead_time: "Booking opens 14 days ahead; a weekday is usually fine 1–2 days out"
+  method: passport-registered
+  links:
+    - label: Trip.com (foreigner-friendly)
+      url: "https://www.trip.com/travel-guide/attraction/chengdu/chengdu-research-base-of-giant-panda-breeding-76342?poiType=3&locale=en-US"
+      note: Linked from the base's own ticket page; passport number, foreign card, no Chinese phone
+    - label: Official ticket rules
+      url: "https://www.panda.org.cn/en/service/ticket/"
+      note: Official WeChat mini-program, Meituan, Douyin, Tongcheng also sell
+  passport: true
+  notes: "All visitors must book online with real names (cap 85,000 a day). Unused tickets can be refunded through the same channel within 30 days from 17:00 on the visit day."
+
+hours:
+  summary: "Nov–Feb: morning entry 08:00–12:00, afternoon entry 12:00–16:30; park clears from 17:30"
+  closed: "No closing day; No.6 Panda Villa and the Panda Art Museum shut on Mondays"
+  winter: "Winter timetable runs Nov–Feb (opening 08:00 instead of 07:30). The Bamboo Tower may close in bad weather, and paths get slippery in rain. One 2026 guide says cool winter weather keeps the pandas more active and crowds smaller than in peak months. No Christmas or New Year closure is listed."
+
+location:
+  address: "1375 Panda Avenue, Chenghua District, Chengdu"
+  address_local: 成都市成华区外北熊猫大道1375号
+  lat: 30.74323
+  lng: 104.13293
+  nearest_transit: "Junqu General Hospital (Line 3) Exit B + bus 409 to the West Gate"
+
+sources:
+  - url: https://www.panda.org.cn/en/service/ticket/
+    title: Tickets — Chengdu Research Base of Giant Panda Breeding (official, ¥55 adult, booking rules)
+    checked: 2026-11-10
+  - url: https://www.panda.org.cn/en/service/opentime/
+    title: Opening Hours — Chengdu Panda Base (official)
+    checked: 2026-11-10
+  - url: https://www.panda.org.cn/en/service/transit/
+    title: Transportation — Chengdu Panda Base (official)
+    checked: 2026-11-10
+  - url: https://www.panda.org.cn/en/service/notice/
+    title: "Visitor's Info — Chengdu Panda Base (official: Monday closures, weather)"
+    checked: 2026-11-10
+  - url: https://chinasurvivalkit.com/blog/chengdu-panda-base-guide
+    title: "Chengdu Panda Base 2026: Tickets, Hours & Tips — China Survival Kit (updated 2026-11-07)"
+    checked: 2026-11-10
+  - url: https://chinafortravelers.com/guides/chengdu-subway-guide/
+    title: Chengdu Subway Guide — China for Travelers (Line 3 fares and the two panda stations)
+    checked: 2026-11-10
+  - url: https://en.wikipedia.org/wiki/Chengdu
+    title: Chengdu — Wikipedia (climate normals 1991–2020)
+    checked: 2026-11-10
+confidence: high
+confidence_note: "Price, hours, booking and buses: official site, opened today with ./atr render (the link checker times out on panda.org.cn). Metro ¥4–5 and bus ¥2: one guide. Winter activity and the 08:00–10:00 feeding peak: one 2026 guide. Trip.com link taken from the official ticket page; not opened."
+last_updated: 2026-11-10
+
+blocks:
+  - type: hero
+    image: panda-walking
+    hook: Pandas are morning animals. Get there at eight and they're still eating; at two they're asleep in a tree.
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: Morning slot, at 08:00
+    extra:
+      - { label: Two gates, value: West or South, detail: "2.35 km apart: pick one and get off at the right stop" }
+      - { label: Good in rain, value: Partly, detail: "Indoor enclosures and a museum; most paths are open-air" }
+  - type: highlights
+    items:
+      - title: Breakfast is the show
+        text: "A 2026 guide puts the busiest panda hour at **08:00–10:00**, during morning feeding. By the afternoon slot most are asleep up in the trees."
+      - title: December's small advantage
+        text: "Pandas cope with cold far better than heat. The same guide says winter keeps them more active and the crowds thinner than in peak months."
+      - title: Red pandas up close
+        text: "Red pandas have their own area, stay active longer and draw smaller crowds. Keep **3 m** from them in the walk-through zones, the base asks."
+      - title: Nurseries and teenagers
+        text: "The Sun, Moon and Star nurseries show cubs when they are old enough; the sub-adult yards are the playful ones."
+  - type: prose
+    title: How the morning works
+    text: |-
+      The base sits on a big green campus 10 km north of the centre, with two gates far apart. The **West Gate** (Line 3 to Junqu General Hospital, then shuttle bus 409, about 10 minutes) is where the base sends public-transport arrivals. The **South Gate** (Line 3 to Panda Avenue, Exit A, then shuttle bus 408) is the side with the coach park and the older panda houses.
+
+      Book a **morning slot**: in winter that means entry from 08:00. Walk the adult enclosures first while they eat, then the nurseries, and finish with the red pandas before the midday crowds. You're back in town for lunch.
+  - type: gallery
+    images:
+      - { file: panda-bamboo, caption: A giant panda among the bamboo }
+      - { file: red-panda, caption: A red panda at the base }
+      - { file: panda-cub, caption: A young panda }
+      - { file: gate, caption: The entrance }
+  - type: book_ahead
+    steps:
+      - days_before: 14
+        text: "Booking opens. Book early only if your day is a weekend or holiday."
+      - days_before: 2
+        text: "Book the **morning slot** on Trip.com (or the official WeChat mini-program) with your **passport number**."
+      - days_before: 0
+        text: "Show the passport at the gate. Afternoon-slot holders are asked not to arrive early."
+    passport_note: Bring the **original passport** you booked with; it is checked at entry.
+  - type: cost_breakdown
+    items:
+      - { label: Adult ticket, local: 55, brl: 45.47 }
+      - { label: "Metro from the centre, return (Line 3)", local: 10, brl: 8.27, estimate: true, optional: true }
+      - { label: "Shuttle bus to the gate, return", local: 4, brl: 3.31, estimate: true, optional: true }
+      - { label: Sightseeing bus inside the park, local: 30, brl: 24.8, optional: true }
+  - type: map
+    note: "Coming from Chunxi Road, Line 3 runs straight there: Junqu General Hospital comes first heading north (West Gate), Panda Avenue two stops later (South Gate)."
+  - type: tips
+    variant: insider
+    items:
+      - "Stay near **Chunxi Road**: it is on Line 3, so it's one train to the panda stations with no change."
+      - "Skip the ¥30 internal bus at opening: walking the main enclosures while the pandas are awake beats queuing for a ride."
+      - "Avoid **Mondays** if you want to see No.6 Panda Villa, the busiest area: it is closed that day for the pandas' rest."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "There are no regular ticket windows. Buy online only from the channels the base lists, and ignore paid \"fast entry\" offers."
+      - "Tickets work only at the Chengdu base, not at Dujiangyan Panda Valley, which needs its own booking."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Cool, grey and damp; December gets about 15% of possible sun
+    note: "Fine for pandas, which handle cold better than heat. Early morning is the coldest part of the day and you'll be outside walking for 3 hours."
+    wear: Warm jacket, gloves for the 08:00 start, shoes that grip on wet paths
+  - type: pairs_well
+    items:
+      - { id: heming-teahouse-peoples-park, note: "Back on the metro by noon: an afternoon of tea in People's Park" }
+      - { id: flipflop-hostel-chengdu, note: "Chunxi Road is on Line 3: one train to the base; the hostel also sells a panda tour" }
+      - { id: chengdu-christmas, note: "Pandas in the morning, Taikoo Li lights in the evening" }

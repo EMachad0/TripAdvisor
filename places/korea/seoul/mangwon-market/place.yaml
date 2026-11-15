@@ -1,0 +1,179 @@
+id: mangwon-market
+name: "Mangwon Market"
+name_local: 망원시장
+name_romanized: Mangwon Sijang
+country: korea
+city: seoul
+area: Mapo-gu · Mangwon-dong
+category: food
+fame: hidden
+tags: [market, street-food, cheap-eats, local, near-hongdae]
+kind: Eat
+why: "Hongdae's neighbourhood market: ₩5,000 kalguksu, ₩1,000 croquettes and glazed fried chicken by the cup, eaten among locals doing their shopping."
+cost:
+  local: 10000
+  currency: KRW
+  brl: 41.56
+  note: "A bowl of kalguksu, a croquette and a cup of dakgangjeong. Add stuffed peppers (₩11,000–12,000) to share"
+fx: { rate: 0.004156, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1.5–2 h
+best_time: Weekday 14:00–18:00
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "About 10:00–20:00; each stall sets its own hours (Seoul city listing). Some sources give 07:00–19:00/20:00"
+  closed: "Officially open all year; one 2026 guide says the 2nd and 4th Tuesdays"
+  winter: "No seasonal hours published. If the 2nd/4th-Tuesday closure is real, **Tue 12 Jan** (in your Korea days) would be closed; Jan 26 is after you leave. The market is covered, but the stalls at the entrance are outdoors. Seollal (Feb 2027) falls after the trip."
+
+location:
+  address: 27 Poeun-ro 6-gil, Mapo-gu, Seoul
+  address_local: 서울특별시 마포구 포은로6길 27 (망원시장)
+  lat: 37.55662
+  lng: 126.90605
+  nearest_transit: Mangwon (Line 6), Exit 2, 5 min walk
+
+sources:
+  - url: https://mediahub.seoul.go.kr/archives/2010536
+    title: 고물가 잡으러 전통시장으로! (ft. 망원시장) (Seoul city mediahub, Mar 2024)
+    checked: 2026-11-12
+  - url: https://www.trvlogue.com/ko/mangwon-market-food-guide
+    title: 망원시장의 맛집 솔직한 후기 (TRVLOGUE, updated Oct 2026)
+    checked: 2026-11-12
+  - url: https://mileasia.com/korea/mangwon-market/
+    title: "Mangwon Market Seoul 2026: The Local Market Guide (MileAsia, Jun 2026)"
+    checked: 2026-11-12
+  - url: https://www.ktriptips.com/eng/shopping/2592401
+    title: Mangwon Market (K-Trip Tips listing, updated Nov 2026)
+    checked: 2026-11-12
+confidence: medium
+confidence_note: "Stall prices come from one 2026 food blog (TRVLOGUE, Korean version) and the kalguksu price from a 2024 Seoul city article. Hours and closing days disagree: Seoul's listing says 10:00–20:00 and open all year, MileAsia says 07:00–19/20:00 and closed 2nd/4th Tuesdays. TRVLOGUE blocks `atr links` (HTTP 429) but rendered fine on 2026-11-12. Hero: seafood at Mangwon, per its Commons description."
+last_updated: 2026-11-12
+
+blocks:
+  - type: hero
+    image: seafood-stall
+    hook: Snow crabs on ice, sizzling griddles and a queue for stuffed peppers, one Line 6 stop from Hongdae.
+    caption: A seafood stall in Mangwon Market
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: Weekday 14:00–18:00
+    extra:
+      - label: From Hongdae
+        value: 1 stop on Line 6
+        detail: Or about 20–25 min on foot
+      - label: Payment
+        value: Bring cash
+        detail: Some stalls take cards, many prefer cash
+      - label: Fits a night-shift day
+        value: Yes, afternoon
+        detail: Eat at 15:00–18:00, before a 21:00 shift
+  - type: highlights
+    items:
+      - title: Prices for locals, not tourists
+        text: "A Seoul city reporter found **₩5,000 kalguksu** here in 2024, about half what a bowl costs elsewhere in the city. Croquettes and twisted doughnuts are ₩1,000."
+      - title: Uirak's stuffed peppers
+        text: "The stall that made the market famous in Korea: big fried stuffed chili peppers, **₩11,000–12,000 for 3**, with a cream makgeolli. Expect the longest queue."
+      - title: Glazed fried chicken by the cup
+        text: "Dakgangjeong in a walking cup for **₩4,000**, with a long list of glazes. Larger boxes are ₩9,000–16,000."
+      - title: A neighbourhood, not a sight
+        text: "Banchan by weight, rice cakes, kimchi and fruit for Mapo residents. Mangwon's cafés and the Han River park are a few minutes north."
+  - type: prose
+    title: Why come here instead of Gwangjang
+    dropcap: true
+    text: |-
+      Gwangjang is the market tourists hear about. Mangwon is the one people living in western Seoul actually shop at. It was renovated into a tidy covered market, and young Seoulites cross from Hongdae and Yeonnam-dong for the cheap food.
+
+      Graze instead of sitting down to a meal. Start with a croquette, queue for Uirak's peppers or a cup of chicken, finish with a hotteok. The street-food stalls at the entrance are busiest from about **14:00 to 18:00**.
+
+      Locals carry market food to **Mangwon Hangang Park** and eat it by the river. In January that's a short, cold picnic, but the park is right there.
+  - type: quote
+    variant: vibe
+    text: Steam off a kalguksu pot, a ₩1,000 croquette in a paper bag, and nobody trying to sell you anything.
+  - type: menu
+    title: The Mangwon graze
+    items:
+      - name: Knife-cut noodle soup
+        name_local: 칼국수
+        price_local: 5000
+        price_brl: 20.78
+        note: A full bowl. 2024 price from the Seoul city article.
+        tag: cheap
+      - name: Stuffed fried chili peppers (3)
+        name_local: 고추튀김 (우이락)
+        price_local: 11000
+        price_brl: 45.72
+        note: "₩11,000–12,000 at Uirak. Cream makgeolli is about ₩5,000."
+        tag: must-try
+      - name: Glazed fried chicken, cup
+        name_local: 닭강정 (컵)
+        price_local: 4000
+        price_brl: 16.62
+        note: Small box ₩9,000, large ₩16,000.
+      - name: Grilled short-rib patties (4)
+        name_local: 떡갈비
+        price_local: 12000
+        price_brl: 49.87
+        note: Thick patties off a big iron griddle, mild or spicy.
+      - name: Croquette
+        name_local: 고로케
+        price_local: 1000
+        price_brl: 4.16
+        note: "₩1,000–1,500. A twisted doughnut (꽈배기) is ₩1,000."
+        tag: cheap
+      - name: Fried hotteok
+        name_local: 호떡
+        price_local: 1500
+        price_brl: 6.23
+        note: ₩1,500–2,000, in a basement shop with a queue.
+      - name: Pork cutlet bites
+        name_local: 수제등심돈가스
+        price_local: 3500
+        price_brl: 14.55
+        note: "At Basak Macha, featured on *Culinary Class Wars* season 2. Sauce costs ₩500–1,000 extra."
+    note: Prices from TRVLOGUE's 2026 guide unless noted. They can rise by a few hundred won, so check the board.
+  - type: cost_breakdown
+    items:
+      - label: Kalguksu
+        local: 5000
+        brl: 20.78
+      - label: Croquette
+        local: 1000
+        brl: 4.16
+      - label: Dakgangjeong cup
+        local: 4000
+        brl: 16.62
+      - label: Uirak stuffed peppers (3)
+        local: 11000
+        brl: 45.72
+        optional: true
+  - type: map
+    zoom: 17
+    note: "From **Mangwon Station Exit 2**, walk about 5 minutes. The market's main entrance faces the station side."
+  - type: tips
+    variant: insider
+    items:
+      - "Come **mid-afternoon** on a work day. You'll eat before a 21:00 shift, and the entrance stalls are in full swing."
+      - "Graze small: ₩1,000–4,000 items let you try five things for the price of one restaurant meal."
+      - "After a Hongdae night out, it makes an easy recovery meal one stop away. Seoul's listing gives a 10:00 opening, but the food stalls get going later."
+  - type: tips
+    variant: locals
+    items:
+      - "Buy at the market and walk north to **Mangwon Hangang Park**. That's the classic local combo, even if winter keeps it short."
+      - "Weekend afternoons bring crowds from Hongdae and Yeonnam-dong. Weekdays feel like a real neighbourhood market."
+  - type: weather
+    temp_low_c: -7
+    temp_high_c: 1
+    conditions: Dry, freezing, occasional snow
+    note: "The main lanes are covered, but you eat standing up and the entrance stalls are open to the wind. Hot soup and fried snacks make it bearable. Skip the riverside picnic on windy days."
+    wear: Padded jacket, gloves, warm shoes
+  - type: pairs_well
+    items:
+      - id: hongdae-club-night
+        note: One stop east on Line 6. Cheap dinner before going out
+      - id: jins-paradise-hongdae
+        note: Short metro ride from your Hongdae bed
+      - id: gwangjang-market
+        note: The famous market to compare it with
