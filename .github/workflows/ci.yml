@@ -18,6 +18,10 @@ jobs:
   # reports "skipped", which satisfies a required check. old-site always runs: content is baked into that image.
   changes:
     runs-on: ubuntu-24.04
+    # paths-filter lists a pull request's files through the API, which needs this scope.
+    permissions:
+      contents: read
+      pull-requests: read
     outputs:
       code: ${{ steps.filter.outputs.code }}
     steps:
