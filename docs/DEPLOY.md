@@ -2,6 +2,10 @@
 
 The site runs on a VPS under Coolify, built from the `Dockerfile` at the repo root.
 
+- Site: https://trip.187.53.115.237.sslip.io (owner and guest logins)
+- Coolify dashboard: http://187.53.115.237:8000 (project "Asia Trip", app `trip-site`)
+- Server: `ssh root@187.53.115.237`
+
 ## What lives where
 
 | Data | Lives in | Changes by |
@@ -32,9 +36,23 @@ Curators and the Ask boxes run on the laptop, not on the server. The hosted site
 
 1. Work on a branch, run `npm test`.
 2. Open a pull request against `main` and merge it.
-3. Coolify builds and deploys the merge. The old container keeps serving until the new one passes `/healthz`.
+3. A GitHub webhook tells Coolify, which builds and deploys the merge. The old container keeps serving until the new one is healthy. A build takes a few minutes on this server.
+4. Check it: `curl -s https://trip.187.53.115.237.sslip.io/healthz`.
 
 No direct pushes to `main`.
+
+To deploy again without a merge, or to follow a deploy to the end:
+
+```bash
+ssh root@187.53.115.237 '/root/deploy-trip.sh --wait'
+```
+
+## Notes on this Coolify setup
+
+- Coolify reads the repo with a read-only deploy key.
+- Coolify's own health check is switched off on purpose: it needs `curl` or `wget` in the container and the image has neither. The `HEALTHCHECK` in the `Dockerfile` does the job instead, and rolling updates wait for it.
+- The passwords are set as runtime environment variables in Coolify. To change one, replace its value in the dashboard and redeploy.
+- The live data is the Docker volume mounted at `/data`.
 
 ## Try the image locally
 
