@@ -10,13 +10,13 @@ The site runs on a VPS under Coolify, built from the `Dockerfile` at the repo ro
 
 | Data | Lives in | Changes by |
 |---|---|---|
-| Code, `places/`, `areas/`, `config/` | Git, baked into the image | A merge to `main`, which Coolify deploys |
+| Code, `places/`, `areas/`, `answers/`, `config/` | Git, baked into the image | A merge to `main`, which Coolify deploys |
 | `feedback/` and `trip/` (swipes, notes, route, itinerary, money) | The `/data` volume on the VPS | The site, as the traveler uses it |
 | Map tiles and other caches | `/data/cache` | The site |
 
 The image carries the repo's `feedback/` and `trip/` only as a seed. On the first boot the entrypoint copies them to `/data`; after that the volume is the only live copy and deploys never touch it.
 
-Curators and the Ask boxes run on the laptop, not on the server. The hosted site has `ATR_ASK=off`, so place pages have no Ask box and the Today ask box answers with a short "ask from the laptop" message.
+Curators and Claude Code agents run on the laptop, not on the server. The traveler's questions are answered there and published as answer cards (`answers/*.md`) with `./atr answers publish <file>`: it opens a pull request from a temporary worktree, merges it, follows this deploy and checks `/healthz`. The site URL, SSH login and Coolify app id it uses are in `platform/lib/site.js`.
 
 ## Coolify setup (once)
 
@@ -45,6 +45,12 @@ To deploy again without a merge, or to follow a deploy to the end:
 
 ```bash
 ssh root@187.53.115.237 '/root/deploy-trip.sh --wait'
+```
+
+That script always starts a new deploy. To only watch the deploys a merge started (what `./atr answers publish` does), list them read-only; the token never leaves the server:
+
+```bash
+ssh root@187.53.115.237 'AUTH="Authorization: Bearer $(cat /root/.coolify-token)"; curl -fsS -H "$AUTH" "http://localhost:8000/api/v1/deployments/applications/zoom1ixd7gj2y4snw6oculrb?take=5" | jq -c "[(.deployments // .)[] | {commit, status}]"'
 ```
 
 ## Notes on this Coolify setup

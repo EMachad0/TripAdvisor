@@ -17,7 +17,7 @@ const brl = (n) => (typeof n !== 'number' ? '' : n === 0 ? 'Free' : 'R$ ' + Math
 const fmtDate = (d, o = { day: 'numeric', month: 'short' }) => new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { ...o, timeZone: 'UTC' });
 
 const S = {
-  data: null, byId: new Map(), ratings: new Map(), route: 'today', arg: undefined,
+  data: null, byId: new Map(), ratings: new Map(), route: 'today', arg: undefined, answers: [], answersFilter: 'all',
   undo: [], deckFilter: { place: 'all', area: 'all' }, duelFilter: 'mix', pair: null, duelBusy: false,
   holidayDuel: {}, shownAt: 0, lastIds: null, undone: new Set(),
   callsFilter: { round: 'all', verdict: 'all', country: 'all', noted: false }, deckNote: null,
@@ -29,7 +29,7 @@ const ROUTE_ICON = '<circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.
 const SECTIONS = [
   { id: 'today', label: 'Today', icon: '<circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/>', pages: [{ id: 'today', label: 'Today' }] },
   { id: 'trip', label: 'Trip', icon: ROUTE_ICON, pages: [{ id: 'itinerary', label: 'Itinerary' }, { id: 'calendar', label: 'Calendar' }, { id: 'route', label: 'Map' }] },
-  { id: 'places', label: 'Places', icon: '<path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/>', pages: [{ id: 'places', label: 'Places' }] },
+  { id: 'places', label: 'Places', icon: '<path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/>', pages: [{ id: 'places', label: 'Places' }, { id: 'answers', label: 'Answers' }] },
   { id: 'decide', label: 'Decide', icon: '<rect x="6" y="3" width="12" height="17" rx="2.5" transform="rotate(8 12 12)"/><path d="M3 9l-1 3 1 3M21 9l1 3-1 3"/>', pages: [{ id: 'game', label: 'Overview' }, { id: 'areas', label: 'Areas' }, { id: 'swipe', label: 'Swipe' }, { id: 'duels', label: 'Duels' }, { id: 'board', label: 'Board' }, { id: 'holidays', label: 'Holidays' }, { id: 'calls', label: 'My calls' }] },
   { id: 'money', label: 'Money', icon: '<rect x="3" y="6" width="18" height="13" rx="2.5"/><path d="M3 10h18M7 15h4"/>', pages: [{ id: 'money', label: 'Money' }] },
   { id: 'prep', label: 'Prep', icon: '<path d="M9 6h11M9 12h11M9 18h11"/><path d="M3.5 6l1.2 1.2L7 5M3.5 12l1.2 1.2L7 11M3.5 18l1.2 1.2L7 17"/>', pages: [{ id: 'todo', label: 'To do' }, { id: 'bag', label: 'Bag' }] },
@@ -52,8 +52,9 @@ async function api(url, body) {
 
 async function load({ silent } = {}) {
   const prev = S.lastIds;
-  const [d] = await Promise.all([api('/api/state'), loadTrip()]);
+  const [d, , ans] = await Promise.all([api('/api/state'), loadTrip(), api('/api/answers').catch(() => null)]);
   S.data = d;
+  if (ans) S.answers = ans.answers || [];
   S.byId = new Map(d.places.map((p) => [p.id, p]));
   // Undone cards stay unswiped locally until swiped again (the log is append-only).
   for (const key of S.undone) { const [round, id] = key.split(':'); const it = round === 'area' ? d.areas.find((a) => a.id === id) : S.byId.get(id); if (it) it.verdict = null; }
@@ -126,6 +127,7 @@ async function render(animate) {
   renderTabs();
   const view = $('#view');
   const fn = { today: (v) => viewToday(v, S.arg), itinerary: viewItinerary, calendar: (v) => viewCalendar(v, S.arg), places: (v) => viewPlaces(v, S.arg), money: viewMoney, todo: viewTodo, bag: viewBag,
+    answers: viewAnswers,
     game: viewHome, areas: () => viewDeck('area'), swipe: () => viewDeck('place'), duels: viewDuels, board: viewBoard, holidays: viewHolidays, calls: viewCalls, route: viewRoute }[S.route];
   view.dataset.route = S.route;
   if (animate && !reduced) { view.classList.remove('g-enter'); void view.offsetWidth; view.classList.add('g-enter'); }
@@ -155,7 +157,7 @@ function viewHome(v) {
     ${n.newCount ? `<a class="g-newpill" href="#/swipe">✨ ${n.newCount} new card${n.newCount === 1 ? '' : 's'} from the curator</a>` : ''}
   </header>
   <div class="g-stats">
-    ${[['Must', n.must, 'must'], ['Maybe', n.maybe, 'maybe'], ['Duels', n.duels, 'duel'], ['Questions', S.data.questions, 'q']].map(([l, x, k]) => `<div class="g-stat g-stat--${k}"><b>${x}</b><span>${l}</span></div>`).join('')}
+    ${[['Must', n.must, 'must'], ['Maybe', n.maybe, 'maybe'], ['Duels', n.duels, 'duel']].map(([l, x, k]) => `<div class="g-stat g-stat--${k}"><b>${x}</b><span>${l}</span></div>`).join('')}
   </div>
   <div class="g-homelinks">
     <a class="g-callslink" href="#/calls">${icon(PEN, 18)}<span><b>My calls</b> ${n.swiped + n.areas - n.areasLeft} swiped · ${notedCount()} note${notedCount() === 1 ? '' : 's'}</span><span aria-hidden="true">→</span></a>
@@ -172,7 +174,7 @@ function viewHome(v) {
         <span class="g-step__cta">${s.cta}<span aria-hidden="true">→</span></span>
       </a></li>`).join('')}
   </ol>
-  <p class="g-foot">The game ranks; it never writes a day-by-day schedule. Swipes, duels, notes and questions go to <code>feedback/</code> for the curator.${S.data.fixtures ? ' <b>Test data.</b>' : ''}</p>
+  <p class="g-foot">The game ranks; it never writes a day-by-day schedule. Swipes, duels and notes go to <code>feedback/</code> for the curator.${S.data.fixtures ? ' <b>Test data.</b>' : ''}</p>
 </section>`;
 }
 
@@ -228,7 +230,6 @@ function viewDeck(round) {
       <button class="g-notebtn" data-act="note" aria-expanded="false" aria-keyshortcuts="N">${icon(PEN, 16)}<span>Note</span><kbd>N</kbd></button>
       <button class="g-link" data-act="undo"${S.undo.filter((u) => u.round === round).length ? '' : ' disabled'}>${icon('<path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/>', 16)} Undo <kbd>Z</kbd></button>
       <button class="g-link" data-act="open">Details <kbd>Space</kbd></button>
-      <button class="g-link" data-act="ask">Ask ✦</button>
       <span class="g-left">${items.length} left</span>
     </div>
     <p class="g-hint">Drag the card, or use <kbd>←</kbd> Skip · <kbd>↑</kbd> Maybe · <kbd>→</kbd> Must</p>` : ''}
@@ -238,7 +239,6 @@ function viewDeck(round) {
   $$('[data-verdict]', v).forEach((b) => b.onclick = () => swipeTop(b.dataset.verdict));
   $('[data-act="undo"]', v)?.addEventListener('click', () => undo(round));
   $('[data-act="open"]', v)?.addEventListener('click', () => { const t = topCard(); if (t) openTop(t); });
-  $('[data-act="ask"]', v)?.addEventListener('click', () => { const t = topCard(); if (t) openTop(t, { ask: true }); });
   $('[data-act="note"]', v)?.addEventListener('click', () => toggleDeckNote());
   $$('[data-go]', v).forEach((b) => b.onclick = () => { location.hash = b.dataset.go; });
   bindTopCard();
@@ -809,7 +809,7 @@ async function setLock(hid, id, el) {
 }
 
 // ---------------------------------------------------------------- place sheet
-function openPlace(id, { ask } = {}) {
+function openPlace(id, { hash = '' } = {}) {
   const p = S.byId.get(id);
   if (!p) return;
   closeDeckNote();
@@ -820,17 +820,15 @@ function openPlace(id, { ask } = {}) {
       <button class="g-sheet__close" data-close aria-label="Close (Esc)">${icon('<path d="M6 6l12 12M18 6 6 18"/>')}</button>
       <b class="g-sheet__title">${esc(p.name)}</b>
       <div class="g-seg" role="group" aria-label="Your call">${['skip', 'maybe', 'must'].map((k) => `<button data-sv="${k}" class="g-seg__b g-seg__b--${k}${p.verdict === k ? ' is-on' : ''}">${VERDICTS[k].label}</button>`).join('')}</div>
-      <button class="g-sheet__ask" data-ask>Ask ✦</button>
     </div>
     <div class="g-sheet__note">${noteEditor('place', id, { variant: 'sheet' })}</div>
-    <iframe class="g-sheet__frame" src="/place/${encodeURIComponent(id)}?embed=1${ask ? '#ask' : ''}" title="${esc(p.name)}"></iframe>
+    <iframe class="g-sheet__frame" src="/place/${encodeURIComponent(id)}?embed=1${hash}" title="${esc(p.name)}"></iframe>
   </div>`;
   sheet.hidden = false;
   document.body.classList.add('has-sheet');
   requestAnimationFrame(() => sheet.classList.add('is-open'));
   $$('[data-close]', sheet).forEach((x) => x.onclick = closeSheet);
   bindNotes(sheet);
-  $('[data-ask]', sheet).onclick = () => { const f = $('.g-sheet__frame', sheet); f.contentWindow?.postMessage({ atr: 'ask' }, location.origin); };
   $$('[data-sv]', sheet).forEach((b) => b.onclick = async () => {
     const verdict = b.dataset.sv;
     $$('[data-sv]', sheet).forEach((x) => x.classList.toggle('is-on', x === b));
@@ -842,8 +840,8 @@ function openPlace(id, { ask } = {}) {
   $('.g-sheet__close', sheet).focus();
 }
 
-// Same sheet as a place: the curator's full area page, with your call and Ask in the bar.
-function openArea(id, { ask } = {}) {
+// Same sheet as a place: the curator's full area page, with your call in the bar.
+function openArea(id, { hash = '' } = {}) {
   const a = S.data.areas.find((x) => x.id === id);
   if (!a) return;
   closeDeckNote();
@@ -854,17 +852,15 @@ function openArea(id, { ask } = {}) {
       <button class="g-sheet__close" data-close aria-label="Close (Esc)">${icon('<path d="M6 6l12 12M18 6 6 18"/>')}</button>
       <b class="g-sheet__title">${esc(a.name)}</b>
       <div class="g-seg" role="group" aria-label="Your call">${['skip', 'maybe', 'must'].map((k) => `<button data-sv="${k}" class="g-seg__b g-seg__b--${k}${a.verdict === k ? ' is-on' : ''}">${VERDICTS[k].label}</button>`).join('')}</div>
-      <button class="g-sheet__ask" data-ask>Ask ✦</button>
     </div>
     <div class="g-sheet__note">${noteEditor('area', id, { variant: 'sheet' })}</div>
-    <iframe class="g-sheet__frame" src="/area/${encodeURIComponent(id)}?embed=1${ask ? '#ask' : ''}" title="${esc(a.name)}"></iframe>
+    <iframe class="g-sheet__frame" src="/area/${encodeURIComponent(id)}?embed=1${hash}" title="${esc(a.name)}"></iframe>
   </div>`;
   sheet.hidden = false;
   document.body.classList.add('has-sheet');
   requestAnimationFrame(() => sheet.classList.add('is-open'));
   $$('[data-close]', sheet).forEach((x) => x.onclick = closeSheet);
   bindNotes(sheet);
-  $('[data-ask]', sheet).onclick = () => { $('.g-sheet__frame', sheet).contentWindow?.postMessage({ atr: 'ask' }, location.origin); };
   $$('[data-sv]', sheet).forEach((b) => b.onclick = async () => {
     const verdict = b.dataset.sv;
     $$('[data-sv]', sheet).forEach((x) => x.classList.toggle('is-on', x === b));
@@ -891,7 +887,6 @@ function closeSheet() {
 window.addEventListener('message', (e) => {
   if (e.origin !== location.origin) return;
   if (e.data?.atr === 'close') closeSheet();
-  if (e.data?.atr === 'asked') S.data.questions++;
   if (e.data?.atr === 'open' && e.data.id) openPlace(e.data.id);
 });
 
@@ -1890,6 +1885,47 @@ function refreshPop() {
   pop.setAttribute('aria-label', x.name);
 }
 
+// ---------------------------------------------------------------- answers
+// Answer cards: answers/*.md in the repo, written by Claude Code agents on the laptop and deployed like places.
+// The server renders each card (esc + md, with its country's UTC offset as data-tz); this page filters them.
+const answersSignature = () => JSON.stringify(S.answers.map((a) => [a.id, a.asked, a.updated, a.tldr]));
+function viewAnswers(v) {
+  const all = S.answers;
+  const order = S.data.countries.map((c) => c.id);
+  const byC = {};
+  for (const a of all) { const k = a.country || 'trip'; byC[k] = (byC[k] || 0) + 1; }
+  const opts = [['all', 'All', all.length], ...order.filter((c) => byC[c]).map((c) => [c, `${flag(c)} ${cname(c)}`, byC[c]]), ...Object.keys(byC).filter((c) => c !== 'trip' && !order.includes(c)).map((c) => [c, cname(c), byC[c]]), ...(byC.trip ? [['trip', 'Whole trip', byC.trip]] : [])];
+  if (!opts.some(([id]) => id === S.answersFilter)) S.answersFilter = 'all';
+  const f = S.answersFilter;
+  const shown = all.filter((a) => f === 'all' || (a.country || 'trip') === f);
+  if (!all.length) { v.innerHTML = emptyState('💬', 'No answers yet', 'When Claude Code answers a question about the trip on the laptop, the answer is published here as a card.', '#/places', 'Back to the places'); return; }
+  v.innerHTML = `<section class="wrap g-answers">
+  <header class="g-head"><div><p class="eyebrow">Places · ${plural(all.length, 'answer')}</p><h1 class="g-h1">Answers</h1></div></header>
+  <p class="g-lede">Your questions about the trip and what Claude found, newest first. Open a card for the full answer and its sources.</p>
+  <div class="g-filters" role="group" aria-label="Filter by country">${opts.map(([id, l, n]) => `<button class="g-filter${f === id ? ' is-on' : ''}" data-af="${esc(id)}" aria-pressed="${f === id}">${esc(l)} <span>${n}</span></button>`).join('')}</div>
+  <div class="qa-list g-answers__list">${shown.map((a) => a.card).join('')}</div>
+</section>`;
+  $$('[data-af]', v).forEach((b) => b.onclick = () => { S.answersFilter = b.dataset.af; viewAnswers(v); });
+  bindAnswerLinks(v);
+  // #/answers/<id> opens that card
+  if (S.arg) {
+    const el = document.getElementById(`answer-${S.arg}`);
+    if (!el && S.answersFilter !== 'all' && all.some((a) => a.id === S.arg)) { S.answersFilter = 'all'; viewAnswers(v); return; }
+    if (el) { const d = $('details', el); if (d) d.open = true; el.classList.add('is-target'); requestAnimationFrame(() => el.scrollIntoView({ block: 'start', behavior: reduced ? 'auto' : 'smooth' })); }
+  }
+}
+/** "About <place>" links on answer cards open the place or area sheet instead of leaving the app; a country filters. */
+function bindAnswerLinks(root) {
+  $$('[data-open-kind]', root).forEach((a) => a.addEventListener('click', (e) => {
+    const kind = a.dataset.openKind, id = a.dataset.openId;
+    const ok = kind === 'area' ? S.data.areas.some((x) => x.id === id) : S.byId.has(id);
+    if (!ok || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    e.preventDefault();
+    const hash = `#answer-${a.closest('[data-answer]')?.dataset.answer || ''}`;
+    (kind === 'area' ? openArea : openPlace)(id, { hash });
+  }));
+}
+
 // ---------------------------------------------------------------- bits
 function emptyState(emoji, title, text, href, cta) {
   return `<section class="wrap"><div class="g-empty"><div class="g-empty__art" aria-hidden="true"><span>${emoji}</span></div><h1>${esc(title)}</h1><p>${esc(text)}</p>${href ? `<a class="g-btn" href="${href}">${esc(cta)} →</a>` : ''}</div></section>`;
@@ -1946,18 +1982,20 @@ document.addEventListener('click', (e) => {
 
 // Refresh in the background so new curator content shows up (marked "New").
 async function refresh() {
-  if (document.hidden || !$('#sheet').hidden || tripSheetOpen() || swiping || S.duelBusy || noteBusy() || $('.t-answer.is-live')) return;
+  if (document.hidden || !$('#sheet').hidden || tripSheetOpen() || swiping || S.duelBusy || noteBusy()) return;
   const tripBefore = tripSignature();
+  const answersBefore = answersSignature();
   const before = JSON.stringify([S.data.places.map((p) => p.id), S.data.areas.map((a) => a.id)]);
   try { await load({ silent: true }); } catch { return; }
   const after = JSON.stringify([S.data.places.map((p) => p.id), S.data.areas.map((a) => a.id)]);
+  if (answersBefore !== answersSignature() && (S.route === 'answers' || S.route === 'today')) { render(false); return; }
   if (tripBefore !== tripSignature() && TRIP_PAGES.has(S.route) && !document.activeElement?.closest?.('.t-page input, .t-page textarea, .t-page select')) { render(false); return; }
   if (before !== after) { if (S.route === 'game' || S.route === 'board' || S.route === 'holidays' || S.route === 'calls') render(false); else renderTabs(); }
 }
 setInterval(refresh, 30000);
 window.addEventListener('focus', refresh);
 
-initTrip({ S, api, toast, icon, openPlace, cname, flag, catOf, rerender: () => render(false) });
+initTrip({ S, api, toast, icon, openPlace, cname, flag, catOf, bindAnswerLinks, rerender: () => render(false) });
 watchTimes(); // the timezone beside every time, everywhere
 window.addEventListener('hashchange', route);
 load().then(route).catch((e) => { $('#view').innerHTML = emptyState('⚠️', 'The trip site isn’t answering', e.message, '/', 'Retry'); });

@@ -1,5 +1,5 @@
 // Game tests: Elo, pairing, board maths (cutoff/balance/budget/book-ahead), feedback writing,
-// server API with a stubbed Ask. Uses game/test/fixtures and temp dirs, never real places.
+// the server API and pages. Uses game/test/fixtures and temp dirs, never real places.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -10,7 +10,6 @@ import { computeRatings, update, expected, confidence, SEED } from '../lib/elo.j
 import { pickPair, pairKey } from '../lib/pairing.js';
 import { rankCountry, cutoff, balance, budget, bookAhead, buildBoard, holidayDate, countryOn, addDays, daysFor, holidayOptions, holidayRange, holidayDay, picksMany, HOLIDAYS, LUNAR_NEW_YEAR } from '../lib/board.js';
 import { appendEvent, latestVerdicts, readState, writeState, trackSeen } from '../lib/store.js';
-import { splitTldr, summarize, parseStreamLine, buildPrompt, claudeArgs } from '../lib/ask.js';
 import { readFeedback, loadTripConfig } from '../../platform/lib/index.js';
 import { startServer, holidayFacts } from '../server.js';
 
@@ -253,32 +252,6 @@ test('state: first run is the baseline, later ids are new until swiped', () => {
   assert.deepEqual(readState(file).locks, {}, 'corrupt state falls back to empty');
 });
 
-// ---------------- ask helpers ----------------
-test('ask: TL;DR split, summary, stream parsing, read-only args', () => {
-  const t = 'Yes, open.\n\n- go early\n\nTL;DR: Open on Dec 25; go early.';
-  assert.deepEqual(splitTldr(t), { body: 'Yes, open.\n\n- go early', tldr: 'Open on Dec 25; go early.' });
-  assert.equal(summarize(t), 'Open on Dec 25; go early.');
-  assert.equal(summarize('First **para** with [link](https://x.y).\n\nSecond.'), 'First para with link.');
-  assert.ok(summarize('x'.repeat(900)).length <= 400);
-  assert.deepEqual(parseStreamLine(JSON.stringify({ type: 'stream_event', event: { type: 'content_block_delta', delta: { type: 'text_delta', text: 'Hi' } } })), [{ type: 'delta', text: 'Hi' }]);
-  assert.equal(parseStreamLine(JSON.stringify({ type: 'stream_event', event: { type: 'content_block_start', content_block: { type: 'tool_use', name: 'WebSearch' } } }))[0].text, 'Searching the web…');
-  assert.deepEqual(parseStreamLine(JSON.stringify({ type: 'result', subtype: 'success', result: 'done' })), [{ type: 'result', text: 'done', isError: false }]);
-  assert.deepEqual(parseStreamLine('not json'), []);
-  const args = claudeArgs('q');
-  assert.equal(args[args.indexOf('--tools') + 1], 'Read,Glob,Grep,WebSearch,WebFetch');
-  assert.equal(args[args.indexOf('--effort') + 1], 'medium');
-  assert.ok(args.includes('--disallowedTools'));
-  assert.ok(!args[args.indexOf('--tools') + 1].includes('Write'));
-});
-
-test('ask: prompt contains the place YAML, trip context and the question', () => {
-  const file = path.join(FIX, 'places/china/harbin/harbin-ice-world/place.yaml');
-  const prompt = buildPrompt({ place: { id: 'harbin-ice-world', country: 'china', _meta: { file } }, question: 'Open on Christmas?', cfg: loadTripConfig() });
-  assert.match(prompt, /id: harbin-ice-world/);
-  assert.match(prompt, /Question: Open on Christmas\?/);
-  assert.match(prompt, /R\$170\/day/);
-});
-
 test('holiday facts: cold from weather block, crowd sentence pulled out of winter notes', () => {
   const f = holidayFacts({ tags: ['cold'], hours: { winter: 'Opens Dec 18. Tickets sell out on NYE.' }, blocks: [{ type: 'weather', temp_low_c: -20, temp_high_c: -10, conditions: 'Bitter' }] });
   assert.equal(f.cold, '-20 to -10 °C · Bitter');
@@ -289,12 +262,10 @@ test('holiday facts: cold from weather block, crowd sentence pulled out of winte
 });
 
 // ---------------- server API ----------------
-async function withServer(fn, askStub) {
+async function withServer(fn) {
   const fbDir = tmp();
-  const calls = [];
-  const ask = askStub || (async (prompt, emit) => { calls.push(prompt); emit({ type: 'delta', text: 'Yes.' }); return { text: 'Yes, it is open.\n\nTL;DR: Open daily.', error: null }; });
-  const srv = await startServer({ port: 0, root: FIX, feedbackDir: fbDir, ask, assetsDir: path.join(fbDir, 'assets') });
-  try { await fn({ base: srv.url.replace(/\/$/, ''), fbDir, calls }); } finally { srv.server.close(); }
+  const srv = await startServer({ port: 0, root: FIX, feedbackDir: fbDir, assetsDir: path.join(fbDir, 'assets') });
+  try { await fn({ base: srv.url.replace(/\/$/, ''), fbDir }); } finally { srv.server.close(); }
 }
 const post = (url, body) => fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
 
@@ -329,12 +300,11 @@ test('server: state, swipe, duel, local what-if, pages', async () => {
     assert.equal(st2.places.find((p) => p.id === a.id).verdict, 'must');
     assert.equal(st2.local.days.china, 20);
     const page = await (await fetch(`${base}/place/${a.id}?embed=1`)).text();
-    assert.match(page, /class="g-ask/);
     assert.match(page, /data-embed="1"/);
+    assert.match(page, /\/game\/place\.js/);
     assert.equal((await fetch(`${base}/place/nope`)).status, 404);
-    // areas get the same detail page + Ask box as places
+    // areas get the same detail page as places
     const areaPage = await (await fetch(`${base}/area/${st.areas[0].id}?embed=1`)).text();
-    assert.match(areaPage, /class="block wrap g-ask" id="ask" data-block="ask" data-id="[^"]+" data-kind="area"/);
     assert.match(areaPage, /data-embed="1"/);
     assert.equal((await fetch(`${base}/area/nope`)).status, 404);
     assert.equal((await fetch(`${base}/lib/board.js`)).status, 200);
@@ -344,31 +314,6 @@ test('server: state, swipe, duel, local what-if, pages', async () => {
     // config is never edited by the what-if
     assert.equal(loadTripConfig().countries.find((c) => c.id === 'china').days, 27);
   });
-});
-
-test('server: ask streams, logs the question with a summary, handles errors', async () => {
-  await withServer(async ({ base, fbDir, calls }) => {
-    const st = await (await fetch(`${base}/api/state`)).json();
-    const id = st.places[0].id;
-    const res = await post(`${base}/api/ask`, { id, question: 'Is it open?' });
-    const events = (await res.text()).trim().split('\n').map((l) => JSON.parse(l));
-    assert.ok(events.some((e) => e.type === 'delta'));
-    const done = events.find((e) => e.type === 'done');
-    assert.equal(done.tldr, 'Open daily.');
-    assert.match(done.html, /open/);
-    assert.match(calls[0], /Question: Is it open\?/);
-    const q = readFeedback(fbDir).questions;
-    assert.equal(q.length, 1);
-    assert.equal(q[0].answer_summary, 'Open daily.');
-    assert.equal((await post(`${base}/api/ask`, { id, question: '' })).status, 400);
-  });
-  await withServer(async ({ base, fbDir }) => {
-    const id = (await (await fetch(`${base}/api/state`)).json()).places[0].id;
-    const events = (await (await post(`${base}/api/ask`, { id, question: 'Hello?' })).text()).trim().split('\n').map((l) => JSON.parse(l));
-    assert.equal(events.at(-1).type, 'error');
-    assert.match(events.at(-1).message, /timed out/);
-    assert.match(readFeedback(fbDir).questions[0].answer_summary, /no answer/);
-  }, async () => ({ text: '', error: 'timed out' }));
 });
 
 // ---------------- notes ----------------
@@ -384,17 +329,8 @@ test('notes: appendEvent validates note events; "" is a valid clear, > 2000 char
   assert.equal(fb.notes.length, 2);
 });
 
-test('ask: prompt carries the traveler\'s own note and call, clearly labelled', () => {
-  const file = path.join(FIX, 'places/china/harbin/harbin-ice-world/place.yaml');
-  const prompt = buildPrompt({ place: { id: 'harbin-ice-world', country: 'china', _meta: { file } }, question: 'Open on Christmas?', cfg: loadTripConfig(), note: 'Go at dusk; bring boots.', verdict: 'must' });
-  assert.match(prompt, /The traveler's current call on this place: MUST\./);
-  assert.match(prompt, /The traveler's own note on this place \(written by the traveler, not the curator[^\n]*\n<traveler_note>\nGo at dusk; bring boots\.\n<\/traveler_note>/);
-  assert.ok(prompt.indexOf('<traveler_note>') < prompt.indexOf('Question:'));
-  assert.doesNotMatch(buildPrompt({ place: { id: 'x', country: 'china', _meta: { file } }, question: 'q', cfg: loadTripConfig() }), /traveler_note/);
-});
-
-test('server: /api/note writes, dedupes, clears; notes show in /api/state and in the Ask prompt', async () => {
-  await withServer(async ({ base, fbDir, calls }) => {
+test('server: /api/note writes, dedupes, clears; notes show in /api/state', async () => {
+  await withServer(async ({ base, fbDir }) => {
     const st = await (await fetch(`${base}/api/state`)).json();
     const place = st.places[0], area = st.areas[0];
     assert.ok(st.places.every((p) => p.note === null) && st.areas.every((a) => a.note === null));
@@ -412,11 +348,6 @@ test('server: /api/note writes, dedupes, clears; notes show in /api/state and in
     let st2 = await (await fetch(`${base}/api/state`)).json();
     assert.equal(st2.places.find((p) => p.id === place.id).note, 'Only if it is not raining.');
     assert.equal(st2.areas.find((a) => a.id === area.id).note, 'Must, but only in January.');
-    // Ask sees the note (place and area)
-    await (await post(`${base}/api/ask`, { id: place.id, question: 'Worth it?' })).text();
-    assert.match(calls.at(-1), /<traveler_note>\nOnly if it is not raining\.\n<\/traveler_note>/);
-    await (await post(`${base}/api/ask`, { id: area.id, kind: 'area', question: 'How many days?' })).text();
-    assert.match(calls.at(-1), /own note on this area[^\n]*\n<traveler_note>\nMust, but only in January\./);
     // clearing: "" is logged, the note is gone from state
     const cl = await (await post(`${base}/api/note`, { round: 'place', id: place.id, text: '' })).json();
     assert.equal(cl.note, null);

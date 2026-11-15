@@ -1,5 +1,14 @@
 # Status
 
+## 2026-11-15: answer cards replace the Ask boxes
+The traveler now asks Claude Code agents on the laptop; answers worth keeping become cards on the site.
+
+- **Removed:** the Ask box on place and area pages, the floating Ask button, the Ask buttons in the deck and the sheet, the Today "Ask about the trip" box, the Questions stat, `POST /api/ask` and `/api/trip-ask`, `game/lib/ask.js` and `ATR_ASK`. `feedback/questions.jsonl` stays as curator history.
+- **Answer cards:** `answers/*.md` in git, deployed like places. Place/area pages show "Questions and answers"; **Places › Answers** lists all of them with a country filter; Today shows the three newest. Times in a card get their UTC offset from the card's country (`data-tz`).
+- **CLI:** `./atr answers` (list), `--check`, `--ids`, and `publish <file...> [--remove <file>] [--no-merge] [--dry-run]`.
+- **Skill:** `.claude/skills/trip-answers/SKILL.md` tells agents when and how to write and publish a card.
+- **Migrated:** 34 of the 36 logged questions (2 had no answer: the usage limit was hit).
+
 ## 2026-11-15: the trip page moved into the site
 The traveler asked for the old trip page (a Claude artifact: Pre-trip, Itinerary, Calendar, Money, Bag) to live in the site, with a cleaner menu, and for the site to answer questions on the road ("when is my next flight", "what can only be done today", "where was that ramen shop").
 

@@ -1,4 +1,4 @@
-// Repo paths and data roots. Fixture mode swaps places/areas/feedback for the
+// Repo paths and data roots. Fixture mode swaps places/areas/answers/feedback for the
 // test fixtures (flag --fixtures or env ATR_FIXTURES=1).
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -28,6 +28,7 @@ export function dataRoots(opts = {}) {
     fixtures: fx,
     places: path.join(base, 'places'),
     areas: path.join(base, 'areas'),
+    answers: opts.answersDir ? path.resolve(opts.answersDir) : path.join(base, 'answers'),   // answer cards (answers/*.md), see platform/lib/answers.js
     reviews: opts.reviewsDir ? path.resolve(opts.reviewsDir) : path.join(base, 'reviews'),   // independent reviews: written by `atr review` only
     feedback: opts.feedbackDir ? path.resolve(opts.feedbackDir) : path.join(base, 'feedback'),
     build: opts.buildDir ? path.resolve(opts.buildDir) : path.join(ROOT, 'build'),

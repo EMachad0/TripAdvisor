@@ -41,4 +41,7 @@ export { sessionCost } from './review.js';
 // Route map (game Route tab): config seed + feedback/route.jsonl.
 export { currentRoute, latestRoutes, formatRoute, normalizeConfigRoutes, stopsErrors, nightsBetween, ROUTE_STOP_SPEC, MAX_STOPS, MAX_NIGHTS } from './route.js';
 export { project } from './staticmap.js';
+// Answer cards: answers/*.md (written by Claude Code agents, shown on the site).
+export { loadAnswers, parseAnswer, validateAnswers, checkAnswers, siteAnswers, resolveAbout, findAnswerFiles, byNewest, ANSWER_FIELDS } from './answers.js';
+export { renderAnswerCard, renderAnswersSection, answerDate } from './render/answers.js';
 export { unproject } from './overview.js';

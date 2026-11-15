@@ -555,6 +555,30 @@ a.atr-card:hover { transform: translateY(-3px); }
 .faq dt small { flex-basis: 100%; padding-left: 40px; font: 500 12.5px/1 var(--sans); color: var(--ink-3); }
 .faq dd { margin: 0; padding-left: 40px; color: var(--ink-2); }
 
+/* ---------- Answer cards (answers/*.md: place/area pages and the game's Answers page) ---------- */
+.qa-list { display: grid; gap: 14px; }
+.qa { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--shadow); min-width: 0; scroll-margin-top: 90px; }
+.qa.is-target { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow); }
+.qa__q { display: flex; gap: 12px; align-items: baseline; font: 600 1.18rem/1.35 var(--serif); margin: 0 0 6px; overflow-wrap: anywhere; }
+.qa__mark { flex: none; display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font: 700 13px/1 var(--sans); transform: translateY(-2px); }
+.qa__meta { margin: 0 0 12px; padding-left: 40px; font: 500 12.5px/1.5 var(--sans); color: var(--ink-3); }
+.qa__meta a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.qa__meta a:hover { text-decoration: underline; }
+.qa__meta b { font-weight: 600; color: var(--ink-2); }
+.qa__tldr { margin: 0; padding: 12px 14px; border-radius: var(--radius-sm); background: var(--accent-soft); color: var(--ink); font-size: 15.5px; line-height: 1.5; overflow-wrap: anywhere; }
+.qa__tldr a, .qa__body a { color: var(--accent); }
+.qa__more { margin: 10px 0 0; }
+.qa__more > summary { cursor: pointer; display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 2px; font: 600 14px/1 var(--sans); color: var(--accent); list-style: none; }
+.qa__more > summary::-webkit-details-marker { display: none; }
+.qa__more > summary::before { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform .2s; }
+.qa__more[open] > summary::before { transform: rotate(45deg); }
+.qa__body { margin: 6px 0 0; font-size: 15.5px; overflow-wrap: anywhere; }
+.qa__src { list-style: none; margin: 12px 0 0; padding: 10px 0 0; border-top: 1px solid var(--line); display: grid; gap: 6px; font-size: 14px; }
+.qa__src a { color: var(--ink-2); text-decoration-color: var(--accent-line); overflow-wrap: anywhere; }
+.qa__src small { color: var(--ink-3); }
+/* the UTC offset written beside a clock time (game/public/trip.js watchTimes) */
+.tz { font: 500 .72em/1 var(--sans); letter-spacing: .01em; color: var(--ink-3); white-space: nowrap; font-style: normal; text-transform: none; vertical-align: baseline; }
+
 /* ---------- Index pages ---------- */
 .masthead { padding: clamp(56px, 10vw, 120px) 0 clamp(24px, 4vw, 40px); }
 .masthead h1 { font: 600 clamp(2.6rem, 7vw, 5.4rem)/.98 var(--serif); letter-spacing: -.025em; margin: 0 0 16px; max-width: 16ch; }
@@ -619,6 +643,8 @@ a.atr-card:hover { transform: translateY(-3px); }
   .omap__pin b { width: 26px; height: 26px; font-size: 12.5px; }
   .faq__item { padding: 18px; }
   .faq dd, .faq dt small { padding-left: 0; }
+  .qa { padding: 16px; }
+  .qa__meta { padding-left: 0; }
   .stay__head { padding: 18px; flex-direction: column; align-items: flex-start; }
   .stay__beds { padding: 4px 18px; }
   .stay__col { padding: 18px; }
