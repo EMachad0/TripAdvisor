@@ -53,15 +53,23 @@ const password = process.env['E2E_OWNER_PASSWORD'] ?? '';
 fs.mkdirSync(out, { recursive: true });
 const browser = await chromium.launch();
 try {
-	const login = await browser.newContext();
-	const page = await login.newPage();
-	await page.goto(`${base}/login`);
-	await page.getByLabel('Username').fill(username);
-	await page.getByLabel('Password').fill(password);
-	await page.getByRole('button', { name: /sign in/i }).click();
-	await page.waitForURL((u) => !u.pathname.startsWith('/login'));
-	const state = await login.storageState();
-	await login.close();
+	// The session is kept between runs (.cache is gitignored), so a run does not sign in again.
+	const stateFile = path.join(ROOT, `.cache/shots-session${slot === '' ? '' : `-s${slot}`}.json`);
+	const fresh =
+		fs.existsSync(stateFile) && Date.now() - fs.statSync(stateFile).mtimeMs < 6 * 3_600_000;
+	if (!fresh) {
+		const login = await browser.newContext();
+		const page = await login.newPage();
+		await page.goto(`${base}/login`, { waitUntil: 'networkidle' });
+		await page.getByLabel('Username').fill(username);
+		await page.getByLabel('Password').fill(password);
+		await page.getByRole('button', { name: /sign in/i }).click();
+		await page.waitForURL((u) => !u.pathname.startsWith('/login'));
+		fs.mkdirSync(path.dirname(stateFile), { recursive: true });
+		await login.storageState({ path: stateFile });
+		await login.close();
+	}
+	const state = stateFile;
 
 	for (const name of only) {
 		const device = DEVICES[name];
