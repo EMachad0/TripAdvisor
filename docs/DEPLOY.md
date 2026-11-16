@@ -28,6 +28,7 @@ Curators and Claude Code agents run on the laptop, not on the server. The travel
    - `ATR_OWNER_USER` (optional, default `eliton`): the owner's username.
    - `ATR_GUEST_PASSWORD` (optional): turns on a read-only guest account. Leave it unset and only the owner can sign in.
    - `ATR_GUEST_USER` (optional, default `guest`): the guest's username.
+   - `ATR_READ_ONLY` (optional): set to `1` to refuse every change with a 503 while sign-in and reading keep working. Use it during a data migration or as an emergency brake. Never unset `ATR_OWNER_PASSWORD` to stop writes: that turns sign-in off and opens the site.
 
    Usernames ignore case and spaces. A guest sees everything the owner sees but every change is refused. Sign-ins last 400 days and renew on each visit; changing an account's password signs that account out everywhere.
 5. Domain with HTTPS (Coolify's proxy issues the certificate).

@@ -70,6 +70,9 @@ export function createApp(opts = {}) {
   const session = opts.session || newSessionId();
   // Hosted site: an owner + read-only guest login (ATR_OWNER_PASSWORD, ATR_GUEST_PASSWORD, see lib/auth.js).
   const auth = createAuth(opts.accounts !== undefined ? opts.accounts : accountsFromEnv());
+  // ATR_READ_ONLY=1 (or opts.readOnly) refuses every write while people can still sign in and read: the switch
+  // for a data migration, and the emergency brake. Never unset the owner password for that: it turns sign-in off.
+  const readOnly = opts.readOnly !== undefined ? opts.readOnly : process.env.ATR_READ_ONLY === '1';
   const GUEST_NO = 'Guests can look but not change anything.';
   const assetsDir = opts.assetsDir || path.join(ROOT, '.cache', 'game-assets');
   copyAssets(assetsDir);
@@ -344,7 +347,9 @@ ${themeBoot}
       // The guest account is read-only: no state-changing request gets past here.
       if (who?.role === 'guest' && req.method !== 'GET') return send(res, 403, { error: GUEST_NO });
     }
-    const guest = who?.role === 'guest';
+    if (readOnly && req.method !== 'GET') return send(res, 503, { error: 'The site is read-only right now.' });
+    // Read-only mode also keeps the first-seen bookkeeping in memory, as for a guest.
+    const guest = who?.role === 'guest' || readOnly;
     if (req.method === 'GET') {
       if (p === '/' || p === '/index.html') {
         // Sliding session: every page load starts the 400 days again, so nobody is signed out mid-trip.
@@ -527,6 +532,7 @@ environment (the hosted site, see docs/DEPLOY.md):
   ATR_OWNER_USER      the owner's username (default eliton)
   ATR_GUEST_PASSWORD  optional: turns on a read-only guest account with this password
   ATR_GUEST_USER      the guest's username (default guest)
+  ATR_READ_ONLY       1 refuses every change (503) while sign-in and reading still work
 
 The game re-reads places/ and areas/ on every request: new curator content appears on refresh, marked "New".`);
     return;
