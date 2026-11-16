@@ -13,6 +13,11 @@ Environment=ATR_BACKUP_CONFIG=/root/.config/atr-backup
 ExecStart=/usr/local/lib/atr-backup/backup.sh
 UMask=0077
 PrivateTmp=true
+# The Convex leg bind-mounts its staging dir into a docker container, and the docker daemon cannot see this unit's
+# private /tmp. Stage under /run/atr-backup instead (mode 700, removed when the job ends).
+RuntimeDirectory=atr-backup
+RuntimeDirectoryMode=0700
+Environment=TMPDIR=/run/atr-backup
 Nice=10
 IOSchedulingClass=best-effort
 IOSchedulingPriority=7
