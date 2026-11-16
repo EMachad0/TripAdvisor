@@ -37,21 +37,21 @@
 </script>
 
 <article
-	class="flex flex-col gap-2 rounded-xl border border-border bg-card p-3"
+	class="flex flex-col gap-2.5 panel p-3 md:p-3.5"
 	data-call={`${row.round}:${row.id}`}
 	data-v={row.verdict ?? 'none'}
 	data-cat={row.place?.category}
 	data-has-note={row.note !== '' ? '' : undefined}
 >
-	<div class="flex flex-wrap items-center gap-3">
+	<div class="flex flex-wrap items-center gap-x-3 gap-y-2.5">
 		<button
 			type="button"
-			class="flex min-w-52 flex-1 items-center gap-3 text-left"
+			class="-m-1 flex min-w-0 flex-1 basis-56 items-center gap-3 rounded-xl p-1 text-left transition-colors hover:bg-muted/60"
 			aria-label={`Open ${row.name}`}
 			onclick={onopen}
 		>
 			<span
-				class="relative grid size-12 shrink-0 place-items-center overflow-hidden rounded-lg bg-muted text-2xl"
+				class="relative grid size-12 shrink-0 place-items-center overflow-hidden rounded-xl bg-muted text-2xl md:size-13"
 			>
 				{#if thumb !== null && !thumbFailed}
 					<img
@@ -72,21 +72,28 @@
 					>
 				{/if}
 			</span>
-			<span class="flex min-w-0 flex-col">
-				<b class="truncate">{row.name}</b>
-				<small class="truncate text-muted-foreground">{meta}</small>
+			<span class="flex min-w-0 flex-col gap-0.5">
+				<b class="truncate font-serif text-base leading-tight font-semibold">{row.name}</b>
+				<small class="truncate text-xs text-muted-foreground">{meta}</small>
 			</span>
 		</button>
-		<VerdictSeg
-			value={row.verdict}
-			label={`Your call on ${row.name}`}
-			disabled={readonly}
-			{onpick}
-		/>
+		<div class="ml-auto">
+			<VerdictSeg
+				value={row.verdict}
+				label={`Your call on ${row.name}`}
+				disabled={readonly}
+				{onpick}
+			/>
+		</div>
 	</div>
 	{#if readonly}
 		{#if row.note !== ''}
-			<p class="text-sm text-note" data-note-readonly><TzText text={row.note} offset={tz} /></p>
+			<p
+				class="rounded-xl bg-note/8 px-3 py-2 text-sm leading-relaxed text-note"
+				data-note-readonly
+			>
+				<TzText text={row.note} offset={tz} />
+			</p>
 		{/if}
 	{:else if editing}
 		<NoteEditor
@@ -101,7 +108,7 @@
 			}}
 		/>
 	{:else}
-		<div class="-ml-2">
+		<div class="-my-1 -ml-1.5">
 			<Button
 				variant="ghost"
 				size="sm"

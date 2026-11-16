@@ -123,19 +123,27 @@
 		if (!next) close();
 	}}
 >
-	<Dialog.Content class="max-h-svh overflow-y-auto" onOpenAutoFocus={autoFocus}>
+	<!-- On a phone the sheet sits at the bottom, in reach of the thumb; elsewhere it is centred. -->
+	<Dialog.Content
+		class="max-h-svh overflow-y-auto max-md:top-auto max-md:bottom-3 max-md:translate-y-0 sm:max-w-lg"
+		onOpenAutoFocus={autoFocus}
+	>
 		{#if target !== null && schema !== null}
 			<Dialog.Header>
-				<Dialog.Title>{exists ? 'Edit' : 'Add'} {schema.name}</Dialog.Title>
+				<Dialog.Title>
+					<span class="font-serif text-2xl font-semibold tracking-tight"
+						>{exists ? 'Edit' : 'Add'} {schema.name}</span
+					>
+				</Dialog.Title>
 				<Dialog.Description class="sr-only">
 					{exists ? 'Change the fields and save.' : 'Fill in the fields and save.'}
 				</Dialog.Description>
 			</Dialog.Header>
 			<form bind:this={formEl} tabindex="-1" novalidate class="outline-none" onsubmit={save}>
-				<Field.FieldGroup class="grid sm:grid-cols-2">
+				<Field.FieldGroup class="grid grid-cols-2">
 					{#each schema.fields as f (f.key)}
 						{@const fid = `f-${target.col}-${f.key}`}
-						<Field.Field class={cn(f.full === true && 'sm:col-span-2')}>
+						<Field.Field class={cn(f.full === true && 'col-span-2')}>
 							<Field.FieldLabel for={fid}>{f.label}</Field.FieldLabel>
 							{#if f.type === 'select'}
 								<NativeSelect.Root id={fid} name={f.key} class="w-full" bind:value={values[f.key]}>
@@ -172,9 +180,11 @@
 						{#each categories as c (c)}<option value={c}></option>{/each}
 					</datalist>
 				{/if}
-				<div class="mt-6 flex flex-wrap items-center gap-2">
+				<div class="mt-7 flex flex-wrap items-center gap-2 border-t border-border/70 pt-5">
 					{#if exists && target.col !== 'settings'}
-						<Button type="button" variant="destructive" onclick={remove}>Delete</Button>
+						<Button type="button" variant="destructive" class="max-md:h-11" onclick={remove}
+							>Delete</Button
+						>
 						{#if delArmed}
 							<span class="text-sm text-muted-foreground" role="status"
 								>Tap Delete again to remove it.</span
@@ -182,8 +192,8 @@
 						{/if}
 					{/if}
 					<span class="flex-1"></span>
-					<Button type="button" variant="ghost" onclick={close}>Cancel</Button>
-					<Button type="submit">Save</Button>
+					<Button type="button" variant="ghost" class="max-md:h-11" onclick={close}>Cancel</Button>
+					<Button type="submit" class="min-w-24 max-md:h-11">Save</Button>
 				</div>
 			</form>
 		{/if}

@@ -6,6 +6,11 @@ export const toggleVariants = tv({
 		variant: {
 			default: 'bg-transparent',
 			outline: 'border border-input bg-transparent shadow-xs hover:bg-muted',
+			/** Filter chips: a rounded pill on the card colour; the chosen one is filled with ink. */
+			pill: 'rounded-full border border-border/70 bg-card text-muted-foreground shadow-flat hover:bg-muted hover:text-foreground data-[state=on]:border-transparent data-[state=on]:bg-foreground data-[state=on]:text-background data-[state=on]:hover:bg-foreground data-[state=on]:hover:text-background',
+			/** One option of a segmented control: sits on a pressed-in track; the chosen one is a raised card. */
+			segment:
+				'rounded-full text-muted-foreground hover:bg-transparent hover:text-foreground data-[state=on]:bg-card data-[state=on]:text-foreground data-[state=on]:shadow-flat data-[state=on]:ring-1 data-[state=on]:ring-border/70',
 		},
 		size: {
 			default:
@@ -14,6 +19,8 @@ export const toggleVariants = tv({
 			lg: 'h-10 min-w-10 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2',
 		},
 	},
+	// A pill chip needs a little more room at its round ends than the square sizes give.
+	compoundVariants: [{ variant: 'pill', class: 'px-3' }],
 	defaultVariants: {
 		variant: 'default',
 		size: 'default',

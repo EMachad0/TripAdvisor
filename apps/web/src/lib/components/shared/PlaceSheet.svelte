@@ -185,28 +185,43 @@
 		data-sheet={view === null ? undefined : `${view.kind}:${view.id}`}
 	>
 		<div class="flex min-h-0 flex-1 flex-col">
-			<div class="flex items-center gap-3 border-b border-border bg-card px-3 py-2.5">
+			<!-- On a phone the call gets its own full-width row under the name, so the name is not cut short. -->
+			<div
+				class="flex flex-wrap items-center gap-x-3 gap-y-2.5 border-b border-border/70 bg-card px-3 py-3 md:flex-nowrap md:px-4"
+			>
 				<Button variant="outline" size="icon" aria-label="Close (Esc)" onclick={close}>
 					<XIcon />
 				</Button>
 				<Sheet.Title class="sr-only">{title}</Sheet.Title>
-				<b aria-hidden="true" class="min-w-0 flex-1 truncate font-serif text-lg font-semibold"
+				<b
+					aria-hidden="true"
+					class="min-w-0 flex-1 truncate font-serif text-lg leading-tight font-semibold md:text-xl"
 					>{title}</b
 				>
-				<VerdictSeg value={verdict} disabled={app.isGuest} onpick={(v: Verdict) => void pick(v)} />
+				<div class="w-full md:w-auto">
+					<VerdictSeg
+						value={verdict}
+						block
+						disabled={app.isGuest}
+						onpick={(v: Verdict) => void pick(v)}
+					/>
+				</div>
 			</div>
 			<Sheet.Description class="sr-only">
 				{view?.kind === 'area' ? 'Area' : 'Place'} page, with your call and your note.
 			</Sheet.Description>
 			{#if view !== null && item !== null}
 				{#if !app.isGuest}
-					<div class="border-b border-border bg-card px-3 py-2">
+					<div class="border-b border-border/70 bg-card px-3 py-3 md:px-4">
 						{#key `${view.kind}:${view.id}`}
 							<NoteEditor round={view.kind} id={view.id} name={item.name} variant="sheet" />
 						{/key}
 					</div>
 				{:else if note !== ''}
-					<p class="border-b border-border bg-card px-4 py-2 text-sm text-note" data-note-readonly>
+					<p
+						class="border-b border-border/70 bg-card px-4 py-2.5 text-sm text-note"
+						data-note-readonly
+					>
 						<TzText text={note} offset={item.tz} />
 					</p>
 				{/if}

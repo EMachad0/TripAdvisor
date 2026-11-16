@@ -108,4 +108,5 @@ on unknown classes, and on restyling a `components/ui` component beyond layout c
 `*.variants.ts` instead, or use a plain element). So anything off the scale becomes a token or a `@utility` in
 `layout.css` first. The ones that exist: `text-2xs`, `text-3xs`, `panel`, `panel-lift`, `glass`, `eyebrow`, `nums`,
 `count`, `count-quiet`, `bg-accent-fill`, `shadow-flat`, `shadow-soft`, `shadow-big`, `shadow-inset`, `page`,
-`page-wide`, `page-narrow`, `pt-safe`, `pb-safe`, `bottom-safe`, `no-scrollbar`. Add to the list when you add one.
+`page-wide`, `page-narrow`, `pt-safe`, `pb-safe`, `bottom-safe`, `no-scrollbar`, `duel-stack-h`, `duel-pair-h`, `bottom-dock`, `deck-h`, `board-col-h`. Add
+to the list when you add one.

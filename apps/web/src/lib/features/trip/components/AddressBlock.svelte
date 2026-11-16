@@ -14,36 +14,28 @@
 	let { address, label = 'Address' }: Props = $props();
 </script>
 
-<div class="mt-3 flex flex-col gap-2">
-	<div class="flex items-center gap-3">
-		<span class="grid size-10 shrink-0 place-items-center rounded-xl bg-ok/15 text-ok">
-			<MapPinIcon class="size-5" aria-hidden="true" />
+<div class="flex flex-col gap-2.5">
+	<div class="flex items-start gap-3">
+		<span class="grid size-9 shrink-0 place-items-center rounded-xl bg-ok/12 text-ok">
+			<MapPinIcon class="size-4.5" aria-hidden="true" />
 		</span>
-		<div class="min-w-0 flex-1 text-sm wrap-anywhere">
+		<div class="min-w-0 flex-1 text-sm leading-snug wrap-anywhere">
 			<Label>{label}</Label>
 			{address}
 		</div>
 	</div>
 	<div class="flex flex-wrap gap-1.5">
-		<Button
-			variant="outline"
-			size="sm"
-			href={gmaps(address)}
-			target="_blank"
-			rel="noopener noreferrer">Google Maps</Button
-		>
-		<Button
-			variant="outline"
-			size="sm"
-			href={amaps(address)}
-			target="_blank"
-			rel="noopener noreferrer">Apple Maps</Button
-		>
 		<Button size="sm" href={uberTo(address)} target="_blank" rel="noopener noreferrer"
 			>Uber here</Button
 		>
+		<Button variant="outline" size="sm" href={gmaps(address)} target="_blank" rel="noopener noreferrer"
+			>Google Maps</Button
+		>
+		<Button variant="outline" size="sm" href={amaps(address)} target="_blank" rel="noopener noreferrer"
+			>Apple Maps</Button
+		>
 		<Button
-			variant="outline"
+			variant="ghost"
 			size="sm"
 			onclick={() => {
 				void copyText(address);

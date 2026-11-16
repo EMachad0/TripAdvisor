@@ -27,6 +27,7 @@
 	<Button
 		variant="outline"
 		size="icon"
+		class="size-11 md:size-9"
 		aria-label="One day less"
 		disabled={disabled || days <= 0}
 		onclick={() => {
@@ -36,17 +37,17 @@
 	>
 	<ButtonGroup.Text>
 		<output
-			class="flex min-w-20 items-baseline justify-center gap-1.5 leading-none"
+			class="flex min-w-14 flex-col items-center justify-center gap-0.5 leading-none"
 			aria-live="polite"
 		>
-			<span class="overflow-hidden text-sm text-muted-foreground"
+			<span class="overflow-hidden text-xs text-muted-foreground"
 				>{#key days}<b
 						class="inline-block font-serif text-lg font-semibold text-foreground"
 						in:fly={{ y: dir * 8, duration: reduced ? 0 : 220 }}>{days}</b
 					>{/key}
 				day{days === 1 ? '' : 's'}</span
 			>
-			{#if days !== configDays}<small class="text-xs font-semibold text-warn"
+			{#if days !== configDays}<small class="text-2xs font-semibold text-warn"
 					>plan {configDays}</small
 				>{/if}
 		</output>
@@ -54,6 +55,7 @@
 	<Button
 		variant="outline"
 		size="icon"
+		class="size-11 md:size-9"
 		aria-label="One day more"
 		disabled={disabled || days >= MAX_DAYS}
 		onclick={() => {

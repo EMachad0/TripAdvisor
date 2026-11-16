@@ -7,6 +7,7 @@ import {
 	clocks,
 	countdown,
 	dayArg,
+	firstLine,
 	elsewhere,
 	head,
 	kindLabel,
@@ -349,5 +350,12 @@ describe('the place lists', () => {
 		expect(kindLabel(h)).toBe('Last day');
 		expect(elsewhere(h)).toBe(' · in Osaka, a day trip');
 		expect(elsewhere({ ...h, reach: 'far' })).toBe(' · in Osaka');
+	});
+});
+
+describe('firstLine', () => {
+	it('keeps the first line with text', () => {
+		expect(firstLine('\n  Ordered (Nov 10).  \nTrack it.')).toBe('Ordered (Nov 10).');
+		expect(firstLine('')).toBe('');
 	});
 });

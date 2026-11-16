@@ -7,17 +7,24 @@
 	The guest sees everything; the ticks are disabled and the edit buttons hidden.
 -->
 <script lang="ts">
+	import CalendarDaysIcon from '@lucide/svelte/icons/calendar-days';
+	import CircleDashedIcon from '@lucide/svelte/icons/circle-dashed';
+	import HourglassIcon from '@lucide/svelte/icons/hourglass';
+	import ListChecksIcon from '@lucide/svelte/icons/list-checks';
+	import MapPinnedIcon from '@lucide/svelte/icons/map-pinned';
+	import MessageCircleQuestionIcon from '@lucide/svelte/icons/message-circle-question-mark';
+	import PlaneIcon from '@lucide/svelte/icons/plane';
+	import RouteIcon from '@lucide/svelte/icons/route';
+	import StarIcon from '@lucide/svelte/icons/star';
 	import { offsetOn, stayName } from '@atr/shared/trip';
 	import { goto } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import PlaceRow from '#lib/components/shared/PlaceRow.svelte';
 	import PlaceSheet from '#lib/components/shared/PlaceSheet.svelte';
 	import type { SheetTarget } from '#lib/components/shared/PlaceSheet.types.js';
-	import TimeTz from '#lib/components/shell/TimeTz.svelte';
 	import * as Alert from '#lib/components/ui/alert/index.js';
 	import { Button } from '#lib/components/ui/button/index.js';
 	import * as Empty from '#lib/components/ui/empty/index.js';
-	import { Input } from '#lib/components/ui/input/index.js';
 	import { Skeleton } from '#lib/components/ui/skeleton/index.js';
 	import { getAppData } from '#lib/content/app-data.svelte.js';
 	import { verdictsOf } from '#lib/features/cards/index.js';
@@ -34,14 +41,17 @@
 	import { countryName, fmtDay, or, plural } from '#lib/features/trip/format.js';
 	import { TripData } from '#lib/features/trip/trip-data.svelte.js';
 	import { write } from '#lib/sync/write.js';
+	import { cn } from '#lib/utils.js';
 	import AnswerRow from './AnswerRow.svelte';
 	import Block from './Block.svelte';
 	import CardLink from './CardLink.svelte';
+	import TodayHero from './TodayHero.svelte';
 	import {
 		cityCards,
 		clocks,
 		countdown,
 		elsewhere,
+		firstLine,
 		head,
 		kindLabel,
 		modelFor,
@@ -101,6 +111,8 @@
 	const here = $derived(cityCards(places, m.cities));
 	const stayLabel = $derived(stayName(m.stay));
 	const answers = $derived(app.content.answers);
+	// The places group (dated cards, Musts) shows during the trip, or before it when something dated is ahead.
+	const hasPlaces = $derived(m.phase === 'during' || m.upcoming.length > 0);
 
 	const placesHref = $derived(resolve('/(app)/places/[cities]', { cities: m.cities.join('+') }));
 	const answersHref = resolve('/(app)/places/answers');
@@ -150,69 +162,51 @@
 
 <svelte:head><title>Today · Asia Trip Ranker</title></svelte:head>
 
-<section class="mx-auto flex max-w-5xl flex-col gap-6" data-testid="today" data-day={k}>
+{#snippet emptyNote(text: string)}
+	<p
+		class="flex items-center gap-2.5 rounded-2xl border border-dashed border-border px-4 py-3.5 text-sm text-ink-3"
+	>
+		<CircleDashedIcon class="size-4 shrink-0" aria-hidden="true" />
+		{text}
+	</p>
+{/snippet}
+
+<section class="page-wide flex flex-col gap-8 md:gap-10" data-testid="today" data-day={k}>
 	{#if trip.loading}
-		<div class="flex flex-col gap-3" aria-busy="true" aria-label="Loading today">
-			<Skeleton class="h-4 w-40" />
-			<Skeleton class="h-9 w-64" />
-			<Skeleton class="h-40 w-full" />
-			<Skeleton class="h-40 w-full" />
+		<div class="flex flex-col gap-8" aria-busy="true" aria-label="Loading today">
+			<div class="flex flex-col gap-3">
+				<Skeleton class="h-4 w-40" />
+				<Skeleton class="h-10 w-72 max-w-full" />
+				<Skeleton class="h-4 w-96 max-w-full" />
+			</div>
+			<div class="grid gap-8 md:grid-cols-2 3xl:grid-cols-3">
+				<Skeleton class="h-64" />
+				<Skeleton class="h-64" />
+				<Skeleton class="hidden h-64 3xl:block" />
+			</div>
 		</div>
 	{:else if trip.error}
-		<h1 class="font-serif text-3xl font-semibold">Today</h1>
+		<h1 class="font-serif text-3xl font-semibold tracking-tight md:text-4xl">Today</h1>
 		<Alert.Root variant="destructive">
 			<Alert.Title>The trip data isn’t answering</Alert.Title>
 			<Alert.Description>{trip.error.message}</Alert.Description>
 		</Alert.Root>
 	{:else}
-		<header class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-			<div class="flex min-w-0 flex-col gap-1">
-				<p class="text-xs font-bold tracking-widest text-ink-3 uppercase" data-testid="eyebrow">
-					{h.eyebrow}
-				</p>
-				<h1 class="font-serif text-3xl leading-tight font-semibold text-balance">
-					<span class="sr-only">{pinned ? `${fmtDay(k)}: ` : 'Today: '}</span
-					>{#if h.titleStay}{`${h.title} · `}<em class="text-cat">{h.titleStay}</em
-						>{:else}{h.title}{/if}
-				</h1>
-				{#if h.lede}<p class="max-w-prose text-sm text-ink-2" data-testid="lede">{h.lede}</p>{/if}
-			</div>
-			<div class="flex flex-wrap items-end gap-2">
-				<label class="flex flex-col gap-1 text-xs font-semibold text-ink-3">
-					<span>{pinned ? 'Looking at' : 'Look at another day'}</span>
-					<Input
-						type="date"
-						class="w-auto"
-						value={k}
-						onchange={(e: Event & { currentTarget: HTMLInputElement }) => {
-							pickDay(e.currentTarget.value);
-						}}
-					/>
-				</label>
-				{#if pinned}
-					<Button variant="outline" href={resolve('/(app)')}>Back to today</Button>
-				{/if}
-			</div>
-		</header>
-
-		<p
-			class="-mt-2 flex flex-wrap gap-x-5 gap-y-1 text-sm text-ink-2"
-			data-testid="clocks"
-			aria-label="Local times"
-		>
-			{#each zones as c (c.country)}
-				<span data-clock={c.country}>
-					{c.name}
-					<b class="font-semibold text-ink"
-						>{c.weekday}
-						<TimeTz time={c.time} offset={c.offset} /></b
-					>
-				</span>
-			{/each}
-		</p>
+		<TodayHero
+			head={h}
+			{pinned}
+			day={k}
+			srPrefix={pinned ? `${fmtDay(k)}: ` : 'Today: '}
+			{zones}
+			progress={m.phase === 'during' && m.span && m.dayNumber !== null
+				? { n: m.dayNumber, days: m.span.days, first: m.span.first, last: m.span.last }
+				: null}
+			todayHref={resolve('/(app)')}
+			onpick={pickDay}
+		/>
 
 		{#if m.phase === 'none' && m.tasksTotal === 0}
-			<div class="rounded-lg border border-dashed border-border">
+			<div class="rounded-2xl border border-dashed border-border">
 				<Empty.Root>
 					<Empty.Header>
 						<Empty.Title>No trip dates yet</Empty.Title>
@@ -224,10 +218,19 @@
 			</div>
 		{/if}
 
-		<div class="grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8">
-			<div class="flex min-w-0 flex-col gap-6">
+		<!--
+			Three groups: now (where you are, moves, next flight), places (dated cards and the Musts here) and the
+			rest (tasks, answers). Phone: one column. Fold: now and places full width (the leg cards need the room), tasks and answers side by side.
+			MacBook: two columns, places on the right beside now and the rest. Monitor: the three side by side.
+		-->
+		<div
+			class="grid gap-x-8 gap-y-10 md:grid-cols-2 xl:items-start xl:gap-x-10 3xl:grid-cols-3 3xl:gap-x-12"
+		>
+			<div
+				class="flex min-w-0 flex-col gap-10 md:col-span-2 xl:col-span-1 xl:col-start-1 xl:row-start-1"
+			>
 				{#if m.stay}
-					<Block title="Where you are" testid="where">
+					<Block title="Where you are" testid="where" icon={MapPinnedIcon}>
 						<DayStatus
 							day={m.day}
 							country={m.country ?? undefined}
@@ -236,17 +239,19 @@
 						<LegCard leg={m.stay} {legs} {countries} {places} now {onedit} {ondetail} />
 					</Block>
 				{:else if m.day}
-					<Block title={pinned ? fmtDay(k) : 'Today'} testid="where">
-						<DayStatus
-							day={m.day}
-							country={m.country ?? undefined}
-							fallbackOffset={offsetOn(legs, k)}
-						/>
+					<Block title={pinned ? fmtDay(k) : 'Today'} testid="where" icon={MapPinnedIcon}>
+						<div class="panel px-4 py-4">
+							<DayStatus
+								day={m.day}
+								country={m.country ?? undefined}
+								fallbackOffset={offsetOn(legs, k)}
+							/>
+						</div>
 					</Block>
 				{/if}
 
 				{#if moves.length > 0}
-					<Block title={`${pinned ? 'That day' : 'Today'}: moves`} testid="moves">
+					<Block title={`${pinned ? 'That day' : 'Today'}: moves`} testid="moves" icon={RouteIcon}>
 						<div class="flex flex-col gap-3">
 							{#each moves as l (l.id)}
 								<LegCard leg={l} {legs} {countries} {places} {onedit} {ondetail} />
@@ -255,7 +260,7 @@
 					</Block>
 				{/if}
 
-				<Block title="Next flight" testid="next-flight">
+				<Block title="Next flight" testid="next-flight" icon={PlaneIcon}>
 					{#if m.flight}
 						<LegCard
 							leg={m.flight}
@@ -267,164 +272,195 @@
 							{ondetail}
 						/>
 					{:else}
-						<div class="rounded-2xl border border-dashed border-border px-4 py-5 text-sm">
+						<div class="rounded-2xl border border-dashed border-border px-4 py-4 text-sm">
 							<b class="block font-semibold">No flight ahead</b>
 							<span class="text-ink-3">Every flight in the itinerary has left.</span>
 						</div>
 					{/if}
 				</Block>
-
-				{#if m.tasksTotal > 0}
-					<Block
-						title="To do"
-						small={`${String(m.tasks.length)} open of ${String(m.tasksTotal)}`}
-						testid="tasks"
-					>
-						{#if m.tasks.length > 0}
-							<ul
-								class="flex flex-col divide-y divide-border rounded-xl border border-border bg-card"
-								aria-label="Open tasks"
-							>
-								{#each m.tasks.slice(0, 5) as x (x.id)}
-									<CheckRow
-										id={x.id}
-										title={x.title}
-										note={x.note}
-										checked={x.status === 'done'}
-										indeterminate={x.status === 'doing'}
-										checkLabel={`Mark done: ${x.title}`}
-										{canEdit}
-										busy={busyTask === x.id}
-										ontoggle={() => void toggleTask(x)}
-										onedit={() => (form = { col: 'tasks', id: x.id })}
-									>
-										{#snippet extra()}
-											{#if x.status === 'doing'}<Chip tone="planned">In progress</Chip>{/if}
-											{#if x.suggested}<Chip tone="booked">Suggested</Chip>{/if}
-										{/snippet}
-									</CheckRow>
-								{/each}
-							</ul>
-							{#if m.tasks.length > 5}
-								<CardLink href={resolve('/(app)/prep/todo')}
-									><b>{m.tasks.length - 5} more</b> to do</CardLink
-								>
-							{/if}
-						{:else}
-							<p class="text-sm text-ink-3">Everything is ticked.</p>
-						{/if}
-					</Block>
-				{/if}
 			</div>
 
-			<div class="flex min-w-0 flex-col gap-6">
-				{#if m.phase === 'during'}
-					<Block title="Only today, or ending soon" testid="only-today">
-						{#if happening.length > 0}
-							<ul class="flex flex-col gap-1">
-								{#each happening as x (x.place.id)}
+			{#if hasPlaces}
+				<div
+					class="flex min-w-0 flex-col gap-10 md:col-span-2 xl:col-span-1 xl:col-start-2 xl:row-span-2 xl:row-start-1 3xl:row-span-1"
+				>
+					{#if m.phase === 'during'}
+						<Block title="Only today, or ending soon" testid="only-today" icon={HourglassIcon}>
+							{#if happening.length > 0}
+								<ul class="flex flex-col gap-0.5 panel p-1.5">
+									{#each happening as x (x.place.id)}
+										<PlaceRow
+											place={x.place}
+											visited={visited.has(x.place.id)}
+											verdict={x.place.verdict}
+											note={x.place.note}
+											onopen={openPlace}
+											ontogglevisited={toggleVisited}
+										>
+											{#snippet when()}
+												<b class="font-semibold text-seal">{kindLabel(x)}</b>{elsewhere(x)}
+											{/snippet}
+										</PlaceRow>
+									{/each}
+								</ul>
+							{:else}
+								{@render emptyNote(
+									`Nothing with a date falls on ${pinned ? fmtDay(k) : 'today'} in ${or(
+										countryName(m.country, countries),
+										'this stop',
+									)}.`,
+								)}
+							{/if}
+						</Block>
+					{/if}
+
+					{#if m.upcoming.length > 0}
+						<Block title="Next events you could go to" testid="upcoming" icon={CalendarDaysIcon}>
+							<ul class="flex flex-col gap-0.5 panel p-1.5">
+								{#each m.upcoming as u (u.place.id)}
+									{@const w = upcomingWhen(u, k)}
 									<PlaceRow
-										place={x.place}
-										visited={visited.has(x.place.id)}
-										verdict={x.place.verdict}
-										note={x.place.note}
+										place={u.place}
+										visited={visited.has(u.place.id)}
+										verdict={u.place.verdict}
+										note={u.place.note}
 										onopen={openPlace}
-										ontogglevisited={toggleVisited}
 									>
 										{#snippet when()}
-											<b class="font-semibold text-seal">{kindLabel(x)}</b>{elsewhere(x)}
+											<b class="font-semibold text-seal">{w.date}</b>{w.rest}
 										{/snippet}
 									</PlaceRow>
 								{/each}
 							</ul>
-						{:else}
-							<p class="text-sm text-ink-3">
-								Nothing with a date falls on {pinned ? fmtDay(k) : 'today'} in {or(
-									countryName(m.country, countries),
-									'this stop',
-								)}.
-							</p>
-						{/if}
-					</Block>
-				{/if}
-
-				{#if m.upcoming.length > 0}
-					<Block title="Next events you could go to" testid="upcoming">
-						<ul class="flex flex-col gap-1">
-							{#each m.upcoming as u (u.place.id)}
-								{@const w = upcomingWhen(u, k)}
-								<PlaceRow
-									place={u.place}
-									visited={visited.has(u.place.id)}
-									verdict={u.place.verdict}
-									note={u.place.note}
-									onopen={openPlace}
+							<p class="max-w-prose px-1 text-xs leading-relaxed text-ink-3">
+								Dated cards in a city you sleep in, or a day trip from it, on the days you are
+								there. Skipped cards and whole-season dates are left out.
+								<a
+									class="rounded-sm font-medium text-cat underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+									href={resolve('/(app)/trip/calendar/[[date]]', {})}>Calendar →</a
 								>
-									{#snippet when()}
-										<b class="font-semibold text-seal">{w.date}</b>{w.rest}
-									{/snippet}
-								</PlaceRow>
-							{/each}
-						</ul>
-						<p class="text-xs text-ink-3">
-							Dated cards in a city you sleep in, or a day trip from it, on the days you are there.
-							Skipped cards and whole-season dates are left out.
-							<a
-								class="font-medium text-cat underline underline-offset-2"
-								href={resolve('/(app)/trip/calendar/[[date]]', {})}>Calendar →</a
-							>
-						</p>
-					</Block>
-				{/if}
-
-				{#if m.phase === 'during' && m.cities.length > 0}
-					<Block title={`Still to do in ${stayLabel}`} testid="musts">
-						{#if m.musts.length > 0}
-							<ul class="flex flex-col gap-1">
-								{#each m.musts.slice(0, 6) as p (p.id)}
-									<PlaceRow
-										place={p}
-										visited={visited.has(p.id)}
-										verdict={p.verdict}
-										note={p.note}
-										showCity={m.cities.length > 1}
-										onopen={openPlace}
-										ontogglevisited={toggleVisited}
-									/>
-								{/each}
-							</ul>
-						{:else}
-							<p class="text-sm text-ink-3">
-								{here.must > 0 ? 'Every Must here is ticked.' : 'No Must cards in this city.'}
 							</p>
-						{/if}
-						<CardLink href={placesHref}
-							><b>All {plural(here.n, 'card')}</b> in {stayLabel}{m.musts.length > 6
-								? ` · ${String(m.musts.length - 6)} more Must`
-								: ''}</CardLink
-						>
-					</Block>
-				{/if}
+						</Block>
+					{/if}
 
-				{#if answers.length > 0}
-					<Block title="Latest answers" small={plural(answers.length, 'answer')} testid="answers">
-						<ul
-							class="flex flex-col divide-y divide-border rounded-xl border border-border bg-card px-4 py-3"
+					{#if m.phase === 'during' && m.cities.length > 0}
+						<Block title={`Still to do in ${stayLabel}`} testid="musts" icon={StarIcon}>
+							<div class="flex flex-col panel p-1.5">
+								{#if m.musts.length > 0}
+									<ul class="flex flex-col gap-0.5">
+										{#each m.musts.slice(0, 6) as p (p.id)}
+											<PlaceRow
+												place={p}
+												visited={visited.has(p.id)}
+												verdict={p.verdict}
+												note={p.note}
+												showCity={m.cities.length > 1}
+												onopen={openPlace}
+												ontogglevisited={toggleVisited}
+											/>
+										{/each}
+									</ul>
+								{:else}
+									<p class="px-3 py-3 text-sm text-ink-3">
+										{here.must > 0 ? 'Every Must here is ticked.' : 'No Must cards in this city.'}
+									</p>
+								{/if}
+								<div class="mt-1 border-t border-border/70 pt-1">
+									<CardLink href={placesHref}
+										><b class="font-semibold text-foreground">All {plural(here.n, 'card')}</b> in {stayLabel}{m
+											.musts.length > 6
+											? ` · ${String(m.musts.length - 6)} more Must`
+											: ''}</CardLink
+									>
+								</div>
+							</div>
+						</Block>
+					{/if}
+				</div>
+			{/if}
+
+			{#if m.tasksTotal > 0 || answers.length > 0}
+				<div
+					class={cn(
+						'grid min-w-0 gap-10 md:col-span-2 md:grid-cols-2 md:items-start md:gap-8 xl:col-span-1 xl:grid-cols-1 xl:gap-10 3xl:row-start-1',
+						hasPlaces
+							? 'xl:col-start-1 xl:row-start-2 3xl:col-start-3'
+							: 'xl:col-start-2 xl:row-start-1',
+					)}
+				>
+					{#if m.tasksTotal > 0}
+						<Block
+							title="To do"
+							small={`${String(m.tasks.length)} open of ${String(m.tasksTotal)}`}
+							testid="tasks"
+							icon={ListChecksIcon}
 						>
-							{#each answers.slice(0, 3) as a (a.id)}
-								<AnswerRow
-									answer={a}
-									href={answerHref(a.id)}
-									onopenabout={(kind: SheetTarget['kind'], id: string) => {
-										sheet = { kind, id };
-									}}
-								/>
-							{/each}
-						</ul>
-						<CardLink href={answersHref}><b>All answers</b>, by country</CardLink>
-					</Block>
-				{/if}
-			</div>
+							{#if m.tasks.length > 0}
+								<div class="flex flex-col panel p-1.5">
+									<ul class="flex flex-col divide-y divide-border/70" aria-label="Open tasks">
+										{#each m.tasks.slice(0, 5) as x (x.id)}
+											<CheckRow
+												id={x.id}
+												title={x.title}
+												note={firstLine(x.note)}
+												checked={x.status === 'done'}
+												indeterminate={x.status === 'doing'}
+												checkLabel={`Mark done: ${x.title}`}
+												{canEdit}
+												busy={busyTask === x.id}
+												ontoggle={() => void toggleTask(x)}
+												onedit={() => (form = { col: 'tasks', id: x.id })}
+											>
+												{#snippet extra()}
+													{#if x.status === 'doing'}<Chip tone="planned">In progress</Chip>{/if}
+													{#if x.suggested}<Chip tone="booked">Suggested</Chip>{/if}
+												{/snippet}
+											</CheckRow>
+										{/each}
+									</ul>
+									<div class="mt-1 border-t border-border/70 pt-1">
+										<CardLink href={resolve('/(app)/prep/todo')}
+											>{#if m.tasks.length > 5}<b class="font-semibold text-foreground"
+													>{m.tasks.length - 5} more</b
+												> to do{:else}The whole list{/if}</CardLink
+										>
+									</div>
+								</div>
+							{:else}
+								{@render emptyNote('Everything is ticked.')}
+							{/if}
+						</Block>
+					{/if}
+
+					{#if answers.length > 0}
+						<Block
+							title="Latest answers"
+							small={plural(answers.length, 'answer')}
+							testid="answers"
+							icon={MessageCircleQuestionIcon}
+						>
+							<div class="flex flex-col panel p-1.5">
+								<ul class="flex flex-col divide-y divide-border/70">
+									{#each answers.slice(0, 3) as a (a.id)}
+										<AnswerRow
+											answer={a}
+											href={answerHref(a.id)}
+											onopenabout={(kind: SheetTarget['kind'], id: string) => {
+												sheet = { kind, id };
+											}}
+										/>
+									{/each}
+								</ul>
+								<div class="mt-1 border-t border-border/70 pt-1">
+									<CardLink href={answersHref}
+										><b class="font-semibold text-foreground">All answers</b>, by country</CardLink
+									>
+								</div>
+							</div>
+						</Block>
+					{/if}
+				</div>
+			{/if}
 		</div>
 	{/if}
 </section>

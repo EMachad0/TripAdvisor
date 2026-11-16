@@ -9,6 +9,8 @@
 	interface Props {
 		eyebrow?: string;
 		title: string;
+		/** Read before the title by screen readers only ("Prep: To do"), so a sub-page names its section. */
+		section?: string;
 		/** A second part of the title, set in the italic accent colour. */
 		accent?: string;
 		lede?: string;
@@ -18,7 +20,16 @@
 		class?: string;
 	}
 
-	let { eyebrow, title, accent, lede, children, actions, class: className }: Props = $props();
+	let {
+		eyebrow,
+		title,
+		section,
+		accent,
+		lede,
+		children,
+		actions,
+		class: className,
+	}: Props = $props();
 </script>
 
 <header
@@ -32,7 +43,9 @@
 		<h1
 			class="font-serif text-3xl leading-none font-semibold tracking-tight md:text-4xl 3xl:text-5xl"
 		>
-			{title}{#if accent}&#32;<em class="font-normal text-cat">{accent}</em>{/if}
+			{#if section}<span class="sr-only">{`${section}: `}</span>{/if}{accent
+				? `${title} `
+				: title}{#if accent}<em class="font-normal text-cat">{accent}</em>{/if}
 		</h1>
 		{#if children}
 			<div class="mt-2 max-w-prose text-sm text-muted-foreground md:text-base">

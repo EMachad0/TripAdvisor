@@ -13,7 +13,7 @@
 
 <span
 	class={cn(
-		'mb-0.5 block text-xs font-bold tracking-widest uppercase',
+		'mb-0.5 block text-2xs leading-4 font-semibold tracking-wider uppercase',
 		tone === 'seal' ? 'text-seal' : 'text-ink-3',
 	)}>{@render children()}</span
 >

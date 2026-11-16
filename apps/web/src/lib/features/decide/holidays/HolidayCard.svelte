@@ -73,8 +73,8 @@
 
 <article
 	class={cn(
-		'flex flex-col overflow-hidden rounded-3xl border border-border bg-card shadow-soft transition duration-200 ease-soft hover:-translate-y-0.5 hover:shadow-big',
-		(locked || (many && place.verdict === 'must')) && 'border-must ring-3 ring-must/30',
+		'flex flex-col overflow-hidden panel transition duration-250 ease-soft hover:shadow-soft',
+		(locked || (many && place.verdict === 'must')) && 'border-must/60 ring-3 ring-must/25',
 	)}
 	data-cat={place.category}
 	data-holiday-card={place.id}
@@ -83,11 +83,14 @@
 >
 	<div
 		class={cn(
-			'relative aspect-16/10 overflow-hidden bg-cat/30',
+			'relative aspect-16/10 overflow-hidden bg-cat/20',
 			many && place.verdict === 'skip' && 'opacity-55',
 		)}
 	>
-		<CardImage image={place.card.cover} sizes="(max-width: 640px) 100vw, 420px">
+		<CardImage
+			image={place.card.cover}
+			sizes="(min-width: 1920px) 25vw, (min-width: 1280px) 30vw, (min-width: 704px) 45vw, 100vw"
+		>
 			{#snippet fallback()}
 				<span
 					class="absolute inset-0 grid place-items-center p-6 text-center font-cjk text-4xl font-bold text-cat"
@@ -96,7 +99,7 @@
 			{/snippet}
 		</CardImage>
 		<div
-			class="absolute inset-0 bg-linear-to-t from-scrim/85 to-scrim/0 to-60%"
+			class="absolute inset-0 bg-linear-to-t from-scrim/85 via-scrim/30 via-35% to-scrim/0 to-65%"
 			aria-hidden="true"
 		></div>
 		<div class="absolute inset-x-3 top-3 z-10 flex flex-wrap gap-1.5 text-xs font-bold">
@@ -131,7 +134,10 @@
 	</div>
 
 	<ul
-		class={cn('flex flex-col gap-2 p-4 text-sm', many && place.verdict === 'skip' && 'opacity-55')}
+		class={cn(
+			'flex flex-col gap-2 px-4 pt-4 pb-3 text-sm',
+			many && place.verdict === 'skip' && 'opacity-55',
+		)}
 	>
 		{#if when !== null}{@render row('🗓️', 'When', when)}{/if}
 		{@render line('💰', 'Cost', costValue)}
@@ -149,7 +155,9 @@
 		</p>
 	{/if}
 
-	<div class="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-border p-3">
+	<div
+		class="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-border/70 bg-muted/30 px-3 py-2.5"
+	>
 		<Button variant="ghost" size="sm" onclick={onopen} aria-label={`Details for ${place.name}`}
 			>Details</Button
 		>
@@ -192,7 +200,7 @@
 {#snippet line(icon: string, label: string, value: Snippet)}
 	<li class="flex items-baseline gap-2">
 		<span class="w-5 shrink-0" aria-hidden="true">{icon}</span>
-		<span class="w-18 shrink-0 text-muted-foreground">{label}</span>
+		<span class="w-16 shrink-0 text-muted-foreground">{label}</span>
 		<span class="min-w-0 flex-1">{@render value()}</span>
 	</li>
 {/snippet}

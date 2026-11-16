@@ -53,84 +53,99 @@
 <article
 	id={`answer-${answer.id}`}
 	data-answer={answer.id}
-	class="min-w-0 scroll-mt-24 rounded-2xl border border-border bg-card p-5 text-card-foreground shadow-sm"
+	class="flex min-w-0 scroll-mt-24 flex-col gap-3.5 panel p-5 text-card-foreground md:p-6"
 >
-	<h3 class="flex items-baseline gap-3 font-serif text-lg leading-snug font-semibold wrap-anywhere">
-		<span
-			class="grid size-7 shrink-0 -translate-y-0.5 place-items-center rounded-full bg-cat/15 font-sans text-xs font-bold text-cat"
-			aria-hidden="true">Q</span
-		><span>{answer.question}</span>
-	</h3>
-	<p class="mt-1.5 mb-3 pl-10 text-xs leading-normal font-medium text-ink-3" data-answer-meta>
-		<time datetime={answer.asked}>Asked {answerDate(answer.asked)}</time>
-		{#if answer.updated !== null}
-			<span aria-hidden="true"> · </span><span>Updated {answerDate(answer.updated)}</span>
-		{/if}
-		{#if showAbout}
-			<span aria-hidden="true"> · </span>
-			<span data-answer-about>
-				{#if about.kind === 'trip'}
-					About the whole trip
-				{:else if about.kind === 'country'}
-					About <b class="font-semibold text-ink-2">{about.name}</b>
-				{:else if onopenabout === undefined}
-					About <b class="font-semibold text-ink-2">{about.name}</b>
-				{:else}
-					About
-					<!-- eslint-disable svelte/no-navigation-without-resolve -- aboutHref is built with resolve() above -->
-					<a
-						class="font-semibold text-cat no-underline hover:underline"
-						href={aboutHref}
-						data-open-kind={about.kind}
-						data-open-id={about.id}
-						onclick={openAbout}>{about.name}</a
-					>
-					<!-- eslint-enable svelte/no-navigation-without-resolve -->
-				{/if}
-			</span>
-		{/if}
-	</p>
-	<p class="answer-md rounded-lg bg-cat/10 px-3.5 py-3 text-base leading-normal wrap-anywhere">
+	<div class="flex flex-col gap-1.5">
+		<h3
+			class="flex items-start gap-3 font-serif text-base leading-snug font-semibold wrap-anywhere md:text-lg 3xl:text-xl"
+		>
+			<span
+				class="mt-0.5 grid size-7 shrink-0 place-items-center rounded-full font-sans text-xs font-bold bg-accent-fill shadow-flat"
+				aria-hidden="true">Q</span
+			><span class="min-w-0">{answer.question}</span>
+		</h3>
+		<p class="pl-10 text-xs leading-normal font-medium text-ink-3" data-answer-meta>
+			<time datetime={answer.asked}>Asked {answerDate(answer.asked)}</time>
+			{#if answer.updated !== null}
+				<span aria-hidden="true"> · </span><span>Updated {answerDate(answer.updated)}</span>
+			{/if}
+			{#if showAbout}
+				<span aria-hidden="true"> · </span>
+				<span data-answer-about>
+					{#if about.kind === 'trip'}
+						About the whole trip
+					{:else if about.kind === 'country'}
+						About <b class="font-semibold text-ink-2">{about.name}</b>
+					{:else if onopenabout === undefined}
+						About <b class="font-semibold text-ink-2">{about.name}</b>
+					{:else}
+						About
+						<!-- eslint-disable svelte/no-navigation-without-resolve -- aboutHref is built with resolve() above -->
+						<a
+							class="font-semibold text-cat underline decoration-cat/30 underline-offset-2 transition-colors hover:decoration-cat"
+							href={aboutHref}
+							data-open-kind={about.kind}
+							data-open-id={about.id}
+							onclick={openAbout}>{about.name}</a
+						>
+						<!-- eslint-enable svelte/no-navigation-without-resolve -->
+					{/if}
+				</span>
+			{/if}
+		</p>
+	</div>
+	<p
+		class="answer-md rounded-xl bg-cat/8 px-4 py-3.5 text-base leading-relaxed wrap-anywhere text-foreground"
+	>
 		<!-- eslint-disable-next-line svelte/no-at-html-tags -- platform mdInline output: every text is escaped -->
 		{@html tldr}
 	</p>
 	{#if hasMore}
-		<details class="group mt-2.5" {open}>
+		<details class="group" {open}>
 			<summary
-				class="inline-flex min-h-10 cursor-pointer list-none items-center gap-2 px-0.5 text-sm font-semibold text-cat"
+				class="-ml-3 inline-flex min-h-10 cursor-pointer list-none items-center gap-2.5 rounded-full px-3 text-sm font-semibold text-cat transition-colors outline-none select-none hover:bg-cat/8 focus-visible:ring-3 focus-visible:ring-ring/40"
 			>
 				<span
-					class="size-2 -rotate-45 border-r-2 border-b-2 border-current transition-transform group-open:rotate-45"
+					class="size-2 -translate-y-px -rotate-45 border-r-2 border-b-2 border-current transition-transform duration-200 ease-soft group-open:translate-y-0 group-open:rotate-45"
 					aria-hidden="true"
 				></span>
 				{moreLabel(answer.bodyHtml !== '', answer.sources.length)}
 			</summary>
-			{#if answer.bodyHtml !== ''}
-				<!-- eslint-disable-next-line svelte/no-at-html-tags -- platform md output: every text is escaped -->
-				<div class="answer-md answer-body mt-1.5 wrap-anywhere">{@html body}</div>
-			{/if}
-			{#if answer.sources.length > 0}
-				<ul
-					class="mt-3 flex flex-col gap-1.5 border-t border-border pt-2.5 text-sm"
-					data-answer-sources
-				>
-					{#each answer.sources as s, i (i)}
-						<li>
-							<!-- eslint-disable svelte/no-navigation-without-resolve -- external source URL, not an app route -->
-							<a
-								class="wrap-anywhere text-ink-2 underline decoration-cat/40"
-								href={safeUrl(s.url)}
-								target="_blank"
-								rel="noopener noreferrer">{s.title}</a
-							>
-							<!-- eslint-enable svelte/no-navigation-without-resolve -->
-							{#if hostOf(s.url) !== ''}
-								<small class="text-ink-3">{hostOf(s.url)}</small>
-							{/if}
-						</li>
-					{/each}
-				</ul>
-			{/if}
+			<div class="mt-2 flex flex-col gap-4 motion-safe:animate-in motion-safe:fade-in">
+				{#if answer.bodyHtml !== ''}
+					<div
+						class="answer-md answer-body text-base leading-relaxed wrap-anywhere md:text-sm/relaxed"
+					>
+						<!-- eslint-disable-next-line svelte/no-at-html-tags -- platform md output: every text is escaped -->
+						{@html body}
+					</div>
+				{/if}
+				{#if answer.sources.length > 0}
+					<ul
+						class="flex flex-col gap-1 border-t border-border/70 pt-3 text-sm"
+						data-answer-sources
+					>
+						{#each answer.sources as s, i (i)}
+							<li class="flex min-w-0 items-baseline gap-2">
+								<span class="text-xs text-ink-3 nums" aria-hidden="true">{i + 1}</span>
+								<span class="min-w-0">
+									<!-- eslint-disable svelte/no-navigation-without-resolve -- external source URL, not an app route -->
+									<a
+										class="wrap-anywhere text-ink-2 underline decoration-cat/40 underline-offset-2 transition-colors hover:text-cat hover:decoration-cat"
+										href={safeUrl(s.url)}
+										target="_blank"
+										rel="noopener noreferrer">{s.title}</a
+									>
+									<!-- eslint-enable svelte/no-navigation-without-resolve -->
+									{#if hostOf(s.url) !== ''}
+										<small class="ml-1 text-xs text-ink-3">{hostOf(s.url)}</small>
+									{/if}
+								</span>
+							</li>
+						{/each}
+					</ul>
+				{/if}
+			</div>
 		</details>
 	{/if}
 </article>

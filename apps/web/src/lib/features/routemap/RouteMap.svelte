@@ -123,6 +123,17 @@
 	const overview = $derived(frames['overview'] ?? null);
 	const bare = $derived(overview === null || failed[overview.url] === true);
 	const waiting = $derived(!bare && overview !== null && loaded[overview.url] !== true);
+	/**
+	 * Where the map is wider or taller than the overview image (the monitor), its edges fade into the map's own
+	 * background instead of ending on a hard line.
+	 */
+	const feather = $derived.by(() => {
+		const f = shown.find((x) => x.key === 'overview');
+		if (!f || vb === null) return null;
+		const r = f.rect;
+		const out = vb.x < r.x || vb.y < r.y || vb.x + vb.w > r.x + r.w || vb.y + vb.h > r.y + r.h;
+		return out ? { rect: r, edge: Math.min(r.w, r.h) * 0.06 } : null;
+	});
 
 	// ---------------------------------------------------------------- overlay
 
@@ -215,7 +226,7 @@
 </script>
 
 <div
-	class="map-box relative overflow-hidden rounded-2xl border border-border bg-cool shadow-soft select-none max-md:-mx-2.5"
+	class="map-box relative overflow-hidden rounded-2xl border border-border/80 bg-cool shadow-soft select-none max-md:-mx-2 3xl:rounded-3xl"
 	bind:clientWidth={W}
 	bind:clientHeight={H}
 	data-route-map
@@ -231,6 +242,24 @@
 			preserveAspectRatio="none"
 			aria-hidden="true"
 		>
+			<defs>
+				<linearGradient id="feather-l" x1="0" x2="1" y1="0" y2="0">
+					<stop offset="0" class="feather" />
+					<stop offset="1" class="feather" stop-opacity="0" />
+				</linearGradient>
+				<linearGradient id="feather-r" x1="1" x2="0" y1="0" y2="0">
+					<stop offset="0" class="feather" />
+					<stop offset="1" class="feather" stop-opacity="0" />
+				</linearGradient>
+				<linearGradient id="feather-t" x1="0" x2="0" y1="0" y2="1">
+					<stop offset="0" class="feather" />
+					<stop offset="1" class="feather" stop-opacity="0" />
+				</linearGradient>
+				<linearGradient id="feather-b" x1="0" x2="0" y1="1" y2="0">
+					<stop offset="0" class="feather" />
+					<stop offset="1" class="feather" stop-opacity="0" />
+				</linearGradient>
+			</defs>
 			{#each shown as f (f.key)}
 				<image
 					href={f.url}
@@ -249,6 +278,16 @@
 					}}
 				/>
 			{/each}
+			{#if feather}
+				{@const r = feather.rect}
+				{@const e = feather.edge}
+				<g aria-hidden="true">
+					<rect x={r.x} y={r.y} width={e} height={r.h} fill="url(#feather-l)" />
+					<rect x={r.x + r.w - e} y={r.y} width={e} height={r.h} fill="url(#feather-r)" />
+					<rect x={r.x} y={r.y} width={r.w} height={e} fill="url(#feather-t)" />
+					<rect x={r.x} y={r.y + r.h - e} width={r.w} height={e} fill="url(#feather-b)" />
+				</g>
+			{/if}
 		</svg>
 	{/if}
 	<svg
@@ -373,7 +412,7 @@
 
 	<span
 		class={cn(
-			'pointer-events-none absolute top-3.5 left-1/2 -translate-x-1/2 rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-ink-3 opacity-0 transition-opacity',
+			'pointer-events-none absolute top-3.5 left-1/2 -translate-x-1/2 rounded-full border border-border bg-card/90 px-3 py-1.5 text-xs font-semibold text-muted-foreground opacity-0 shadow-soft backdrop-blur-md transition-opacity',
 			waiting && 'opacity-100',
 		)}
 		aria-hidden="true"
@@ -382,14 +421,15 @@
 	{#if view !== WHOLE_TRIP}
 		<button
 			type="button"
-			class="absolute top-2.5 left-2.5 z-10 inline-flex min-h-10 items-center gap-1 rounded-full border border-border bg-card/95 py-0 pr-3.5 pl-2.5 text-sm font-semibold shadow-soft focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-note pointer-coarse:min-h-11"
+			class="absolute top-3 left-3 z-10 inline-flex min-h-10 items-center gap-1 rounded-full border border-border bg-card/90 py-0 pr-4 pl-2.5 text-sm font-semibold text-foreground shadow-soft backdrop-blur-md transition-transform focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-note active:scale-97 pointer-coarse:min-h-11"
 			data-map-back
 			onclick={() => {
 				onzoom(WHOLE_TRIP);
 			}}><ChevronLeftIcon class="size-4" />Whole trip</button
 		>
 	{/if}
-	<span class="absolute right-0 bottom-0 z-2 rounded-tl-lg bg-card/85 px-2 py-1 text-xs text-ink-2"
+	<span
+		class="absolute right-0 bottom-0 z-2 rounded-tl-xl bg-card/80 px-2 py-0.5 text-2xs text-muted-foreground backdrop-blur-sm"
 		>© <a
 			href="https://www.openstreetmap.org/copyright"
 			target="_blank"
@@ -407,13 +447,31 @@
 		--rt-line: var(--cat);
 		--rt-case: color-mix(in oklab, var(--surface) 88%, transparent);
 		--rt-long: var(--note);
-		height: clamp(340px, min(112vw, 64svh), 640px);
+		/* phone: a tall map, most of the screen (the route runs north to south) */
+		height: clamp(340px, min(140vw, 64svh), 640px);
 		touch-action: manipulation;
 	}
-	@media (min-width: 1024px) {
+	/* Fold inner screen: the head, the chips and the map fill the first screen; the legs follow. */
+	@media (min-width: 44rem) {
+		.map-box {
+			height: clamp(360px, calc(100svh - 18rem), 720px);
+		}
+	}
+	/* laptop and monitor: the map fills the column (RouteView makes the page one window high) */
+	@media (min-width: 80rem) {
 		.map-box {
 			height: clamp(420px, calc(100svh - 300px), 780px);
 		}
+	}
+	@media (min-width: 80rem) and (min-height: 37.5rem) {
+		.map-box {
+			flex: 1;
+			height: auto;
+			min-height: 0;
+		}
+	}
+	.feather {
+		stop-color: var(--cool);
 	}
 	:global(:root[data-theme='dark']) .map-box {
 		--rt-case: color-mix(in oklab, black 62%, transparent);

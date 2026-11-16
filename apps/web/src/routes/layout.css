@@ -465,3 +465,52 @@
 		animation: none;
 	}
 }
+
+/*
+ * The duel pair (decide/duels) fills what the screen has left under the page head: `duel-stack-h` is one of two
+ * cards stacked on a phone (both fit one screen), `duel-pair-h` the side-by-side pair from md up.
+ */
+@utility duel-stack-h {
+	height: max(10.5rem, calc((100dvh - 28.5rem) / 2));
+}
+@utility duel-pair-h {
+	height: clamp(22rem, calc(100dvh - 23rem), 46rem);
+}
+
+/*
+ * A phone dock that floats just above the bottom tab bar (the Places search and filters, the Answers country
+ * chips), so the thumb reaches them. The tab bar sits at `bottom-safe` and is about 4rem tall.
+ */
+@utility bottom-dock {
+	bottom: calc(max(0.625rem, env(safe-area-inset-bottom)) + 4.5rem);
+}
+
+/*
+ * The swipe deck (decide/swipe, decide/areas) is exactly one screen tall under the Decide sub-tabs, so the card and
+ * the verdict buttons fit without scrolling: on a phone the buttons sit just above the floating tab bar.
+ */
+@utility deck-h {
+	height: max(30rem, calc(100dvh - 14rem));
+	@media (width >= 44rem) {
+		height: max(32rem, calc(100dvh - 9rem));
+	}
+	@media (width >= 80rem) {
+		height: max(32rem, calc(100dvh - 9.5rem));
+	}
+	@media (width >= 120rem) {
+		height: clamp(32rem, calc(100dvh - 10rem), 64rem);
+	}
+}
+
+/* A column of the Decide board (decide/board): at most what the screen has left under the page head; it scrolls inside. */
+@utility board-col-h {
+	max-height: max(24rem, calc(100dvh - 21rem));
+}
+
+/* Floating chrome in dark mode: the dark surface, see-through (the light --glass showed as a pale slab on OLED). */
+:root {
+	@variant dark {
+		--glass: rgb(27 24 20 / 0.74);
+		--glass-line: rgb(255 240 220 / 0.09);
+	}
+}

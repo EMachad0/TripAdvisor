@@ -28,7 +28,7 @@
 	data-cat={area.best_for[0] ?? ''}
 	data-area-card={area.id}
 	class={cn(
-		'flex flex-col overflow-hidden rounded-2xl border border-border bg-card text-card-foreground',
+		'flex flex-col overflow-hidden panel text-card-foreground',
 		fill && 'h-full md:flex-row',
 	)}
 >
@@ -49,34 +49,28 @@
 		</CardImage>
 		<div class="absolute inset-x-3 top-3 flex flex-wrap items-center gap-1.5">
 			{#if area.isNew}
-				<span
-					class="rounded-full bg-cat px-2.5 py-1 text-xs font-bold text-primary-foreground shadow-sm"
+				<span class="rounded-full px-2.5 py-1 text-xs font-bold bg-accent-fill shadow-flat"
 					>New</span
 				>
 			{/if}
 			<CardFlags flags={area.flags} />
 		</div>
 		<div
-			class="absolute inset-x-0 bottom-0 flex flex-col gap-0.5 bg-linear-to-t from-background via-background/80 to-transparent px-4 pt-10 pb-3"
+			class="absolute inset-x-0 bottom-0 flex flex-col gap-0.5 bg-linear-to-t from-scrim/75 via-scrim/35 to-transparent px-4 pt-14 pb-3.5 text-on-scrim"
 		>
 			<h3 class="font-serif text-2xl leading-tight font-semibold">
 				{area.name}
 				{#if area.name_local !== null}
-					<span {lang} class="ml-1 text-lg font-normal text-muted-foreground"
-						>{area.name_local}</span
-					>
+					<span {lang} class="ml-1 text-lg font-normal text-on-scrim/80">{area.name_local}</span>
 				{/if}
 			</h3>
-			<p class="text-sm text-ink-2">{area.flag} {area.region ?? ''}</p>
+			<p class="text-sm text-on-scrim/85">{area.flag} {area.region ?? ''}</p>
 		</div>
 	</div>
 	<div class={cn('flex min-h-0 flex-1 flex-col gap-2.5 p-4', fill && 'md:gap-3 md:p-6')}>
 		<ul class="flex flex-wrap gap-1.5" aria-label="Best for">
 			{#each area.best_for as c (c)}
-				<li
-					data-cat={c}
-					class="rounded-full bg-muted px-2.5 py-1 text-xs font-semibold text-cat uppercase"
-				>
+				<li data-cat={c} class="rounded-full bg-cat/12 px-2.5 py-1 text-xs font-semibold text-cat">
 					{categories[c]?.icon ?? ''}
 					{categories[c]?.label ?? c}
 				</li>
@@ -106,13 +100,13 @@
 			</p>
 		{/if}
 		<div class="mt-auto grid grid-cols-2 gap-2">
-			<div class="flex flex-col rounded-lg bg-muted px-3 py-2">
-				<span class="text-xs text-muted-foreground">Suggested</span>
-				<b class="text-sm">{area.daysLabel}</b>
+			<div class="flex flex-col rounded-xl bg-muted/60 px-3 py-2">
+				<span class="eyebrow">Suggested</span>
+				<b class="font-serif text-base font-semibold">{area.daysLabel}</b>
 			</div>
-			<div class="flex flex-col rounded-lg bg-muted px-3 py-2">
-				<span class="text-xs text-muted-foreground">Cost</span>
-				<b class="text-sm">{area.costLabel}</b>
+			<div class="flex flex-col rounded-xl bg-muted/60 px-3 py-2">
+				<span class="eyebrow">Cost</span>
+				<b class="font-serif text-base font-semibold">{area.costLabel}</b>
 			</div>
 		</div>
 		{#if area.winterHtml !== ''}

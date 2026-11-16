@@ -117,16 +117,16 @@
 	<form
 		{@attach focusFirst}
 		novalidate
-		class="flex flex-col gap-4 pb-2"
+		class="flex flex-col gap-5"
 		data-testid="trip-form"
 		data-col={col}
 		onsubmit={submit}
 	>
-		<Field.Group class="grid grid-cols-1 sm:grid-cols-2">
+		<Field.Group class="grid grid-cols-1 md:grid-cols-2">
 			{#each schema.fields as field (field.key)}
 				{@const fid = `f-${col}-${field.key}`}
 				<Field.Field
-					class={cn(field.full && 'sm:col-span-2')}
+					class={cn(field.full && 'md:col-span-2')}
 					hidden={col === 'legs' && !fieldShown(field, legType)}
 				>
 					<Field.Label for={fid}>{field.label}</Field.Label>
@@ -172,7 +172,9 @@
 				{#each categories as c (c)}<option value={c}></option>{/each}
 			</datalist>
 		{/if}
-		<div class="flex flex-wrap items-center gap-2">
+		<div
+			class="sticky bottom-0 z-10 -mx-4 -mb-4 flex flex-wrap items-center gap-2 border-t border-border/70 bg-popover px-4 py-4 md:-mx-6 md:-mb-5 md:px-6 3xl:-mx-8 3xl:px-8"
+		>
 			{#if canDelete}
 				<Button type="button" variant="destructive" disabled={busy} onclick={del}>Delete</Button>
 				{#if delArmed}<span class="text-sm text-destructive" role="status"

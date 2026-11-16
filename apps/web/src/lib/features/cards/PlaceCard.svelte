@@ -28,7 +28,7 @@
 	data-cat={place.category}
 	data-place-card={place.id}
 	class={cn(
-		'flex flex-col overflow-hidden rounded-2xl border border-border bg-card text-card-foreground',
+		'flex flex-col overflow-hidden panel text-card-foreground',
 		fill && 'h-full md:flex-row',
 	)}
 >
@@ -53,12 +53,11 @@
 		<div class="absolute inset-3 flex flex-col justify-between gap-1.5 overflow-hidden">
 			<div class="flex flex-wrap items-center gap-1.5">
 				<span
-					class="inline-flex items-center gap-1 rounded-full bg-background/90 px-2.5 py-1 text-xs font-semibold text-foreground shadow-sm"
+					class="inline-flex items-center gap-1 rounded-full bg-card/90 px-2.5 py-1 text-xs font-semibold text-foreground shadow-flat backdrop-blur-sm"
 					>{card.categoryIcon} {card.categoryLabel}</span
 				>
 				{#if place.isNew}
-					<span
-						class="rounded-full bg-cat px-2.5 py-1 text-xs font-bold text-primary-foreground shadow-sm"
+					<span class="rounded-full px-2.5 py-1 text-xs font-bold bg-accent-fill shadow-flat"
 						>New</span
 					>
 				{/if}
@@ -66,9 +65,9 @@
 					<span
 						title={booking.level === 'recommended' ? 'Booking recommended' : 'Must book ahead'}
 						class={cn(
-							'rounded-full px-2.5 py-1 text-xs font-semibold shadow-sm',
+							'rounded-full px-2.5 py-1 text-xs font-semibold shadow-flat',
 							booking.level === 'recommended'
-								? 'bg-background/90 text-foreground'
+								? 'bg-card/90 text-foreground backdrop-blur-sm'
 								: 'bg-warn text-primary-foreground',
 						)}>📅<span class="hidden @3xs:inline">{` ${booking.badge}`}</span></span
 					>
@@ -76,7 +75,7 @@
 				{#if place.drone}
 					<span
 						title="Drone show"
-						class="rounded-full bg-background/90 px-2.5 py-1 text-xs font-semibold text-foreground shadow-sm"
+						class="rounded-full bg-card/90 px-2.5 py-1 text-xs font-semibold text-foreground shadow-flat backdrop-blur-sm"
 						>🛸 Drone show</span
 					>
 				{/if}
@@ -88,7 +87,7 @@
 					</div>
 				{/if}
 				<span
-					class="rounded-full bg-background/90 px-2.5 py-1 text-xs font-medium text-foreground shadow-sm"
+					class="rounded-full bg-card/90 px-2.5 py-1 text-xs font-medium text-foreground shadow-flat backdrop-blur-sm"
 					>{place.cityName}{place.area === undefined ? '' : ` · ${place.area}`}</span
 				>
 			</div>
@@ -115,7 +114,7 @@
 			class="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted-foreground"
 			data-card-meta
 		>
-			<span class="font-semibold text-foreground"
+			<span class="font-serif text-base font-semibold text-foreground nums"
 				>{place.costLabel}{#if card.stay && place.brl > 0}
 					<small class="font-normal text-muted-foreground"> / night</small>{/if}</span
 			>

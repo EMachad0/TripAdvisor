@@ -11,11 +11,11 @@
 	import AnswerCard from '#lib/components/shared/AnswerCard.svelte';
 	import PlaceSheet from '#lib/components/shared/PlaceSheet.svelte';
 	import type { SheetTarget } from '#lib/components/shared/PlaceSheet.types.js';
+	import PageHeader from '#lib/components/shell/PageHeader.svelte';
 	import { Button } from '#lib/components/ui/button/index.js';
 	import * as Empty from '#lib/components/ui/empty/index.js';
 	import * as ToggleGroup from '#lib/components/ui/toggle-group/index.js';
 	import { getAppData } from '#lib/content/app-data.svelte.js';
-	import PageHead from '#lib/features/money/PageHead.svelte';
 	import { answersFilter as F } from './filters.svelte.ts';
 	import { answerFilters, answerIdFromHash, filterAnswers, plural } from './model.ts';
 
@@ -72,34 +72,43 @@
 		</Empty.Content>
 	</Empty.Root>
 {:else}
-	<section class="mx-auto flex max-w-3xl flex-col" data-answers>
-		<PageHead
+	<section class="page-wide" data-answers>
+		<PageHeader
 			eyebrow={`Places · ${plural(all.length, 'answer')}`}
 			title="Answers"
 			lede="Your questions about the trip and what Claude found, newest first. Open a card for the full answer and its sources."
 		/>
-		<div class="-mx-4 mb-3 overflow-x-auto px-4 pb-1">
-			<ToggleGroup.Root
-				type="single"
-				variant="outline"
-				spacing={2}
-				value={current}
-				onValueChange={(v: string) => {
-					if (v !== '') F.id = v;
-				}}
-				aria-label="Filter by country"
-			>
-				{#each filters as f (f.id)}
-					<ToggleGroup.Item value={f.id} class="shrink-0"
-						>{f.label} <span class="text-muted-foreground">{f.n}</span></ToggleGroup.Item
-					>
-				{/each}
-			</ToggleGroup.Root>
+		<!-- The country chips: a dock above the tab bar on a phone (thumb reach), a row under the head from md up. -->
+		<div
+			class="z-20 mb-5 max-md:fixed max-md:inset-x-2.5 max-md:bottom-dock max-md:mb-0 max-md:rounded-full max-md:p-1.5 max-md:shadow-big max-md:glass md:mb-7"
+		>
+			<div class="no-scrollbar overflow-x-auto max-md:rounded-full">
+				<ToggleGroup.Root
+					type="single"
+					variant="pill"
+					spacing={2}
+					class="w-max"
+					value={current}
+					onValueChange={(v: string) => {
+						if (v !== '') F.id = v;
+					}}
+					aria-label="Filter by country"
+				>
+					{#each filters as f (f.id)}
+						<ToggleGroup.Item value={f.id} class="h-10 shrink-0 xl:h-9"
+							>{f.label} <span class="text-xs nums opacity-60">{f.n}</span></ToggleGroup.Item
+						>
+					{/each}
+				</ToggleGroup.Root>
+			</div>
 		</div>
-		<div class="flex flex-col gap-3.5" bind:this={list}>
+		<div
+			class="grid grid-cols-1 items-start gap-4 md:gap-5 xl:grid-cols-2 xl:gap-6 3xl:grid-cols-3"
+			bind:this={list}
+		>
 			{#each shown as a (a.id)}
 				<div
-					class="rounded-2xl data-target:ring-3 data-target:ring-cat/40"
+					class="min-w-0 rounded-2xl transition-shadow duration-300 data-target:ring-3 data-target:ring-cat/45 data-target:ring-offset-4 data-target:ring-offset-background"
 					data-target={a.id === target ? '' : undefined}
 				>
 					<AnswerCard
@@ -112,6 +121,8 @@
 				</div>
 			{/each}
 		</div>
+		<!-- Room under the last card for the phone's dock. -->
+		<div class="h-16 md:hidden" aria-hidden="true"></div>
 	</section>
 {/if}
 

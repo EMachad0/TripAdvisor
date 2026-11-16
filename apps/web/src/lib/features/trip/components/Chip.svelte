@@ -16,12 +16,12 @@
 <span
 	data-testid={testid}
 	class={cn(
-		'inline-flex items-center gap-1 rounded-md px-1.5 py-1 text-xs leading-none font-bold tracking-wide whitespace-nowrap uppercase',
-		tone === 'ok' && 'bg-ok/15 text-ok',
-		tone === 'amber' && 'bg-amber/15 text-amber',
-		tone === 'accent' && 'bg-cat/15 text-cat',
-		tone === 'strong' && 'bg-surface-2 text-ink',
-		tone === 'quiet' && 'bg-surface-2 text-ink-3',
+		'inline-flex h-6 items-center gap-1 rounded-full px-2.5 text-2xs leading-none font-semibold tracking-wider whitespace-nowrap uppercase',
+		tone === 'ok' && 'bg-ok/12 text-ok',
+		tone === 'amber' && 'bg-amber/12 text-amber',
+		tone === 'accent' && 'bg-cat/12 text-cat',
+		tone === 'strong' && 'bg-foreground/8 text-foreground',
+		tone === 'quiet' && 'bg-foreground/6 text-muted-foreground',
 	)}
 >
 	{@render children()}

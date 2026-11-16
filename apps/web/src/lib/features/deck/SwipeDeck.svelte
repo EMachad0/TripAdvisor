@@ -4,8 +4,12 @@
 	buttons or keys: ← Skip, ↑ Maybe, → Must; Z or Backspace undo (local only); Space or Enter open; N note;
 	Escape closes the note panel. Haptics: 8 ms on Skip, 14 on Must and Maybe. A tap opens the place or area sheet.
 	The guest sees the deck and opens cards; the calls and the note are disabled.
+	Layout: the deck is one screen tall (deck-h), so the card and the buttons (Undo, Skip, Maybe, Must, Note) fit
+	without scrolling; on a phone the buttons sit just above the floating tab bar. From xl up a side panel shows this
+	round's calls, the cards up next and the keys.
 -->
 <script lang="ts">
+	import Info from '@lucide/svelte/icons/info';
 	import PenLine from '@lucide/svelte/icons/pen-line';
 	import Undo2 from '@lucide/svelte/icons/undo-2';
 	import { onDestroy, untrack } from 'svelte';
@@ -13,6 +17,7 @@
 	import { resolve } from '$app/paths';
 	import PlaceSheet from '#lib/components/shared/PlaceSheet.svelte';
 	import type { SheetTarget } from '#lib/components/shared/PlaceSheet.types.js';
+	import PageHeader from '#lib/components/shell/PageHeader.svelte';
 	import { holdRefresh } from '#lib/components/shell/refresh.svelte.js';
 	import { Button } from '#lib/components/ui/button/index.js';
 	import * as Empty from '#lib/components/ui/empty/index.js';
@@ -319,10 +324,11 @@
 		clearTimeout(pressTimer);
 	});
 
+	// The stack: the cards behind peek out a little below the top one.
 	const DEPTH = [
 		'z-30 cursor-grab active:cursor-grabbing',
-		'z-20 translate-y-3.5 scale-95 brightness-97',
-		'z-10 translate-y-7 scale-91 opacity-90 brightness-94',
+		'z-20 translate-y-2 scale-95 brightness-97',
+		'z-10 translate-y-4 scale-90 opacity-80 brightness-94',
 	] as const;
 	const topNote = $derived(top === undefined ? '' : noteOn(top));
 	const next = $derived(
@@ -332,6 +338,26 @@
 				? { href: resolve('/(app)/decide/duels'), label: 'Start the duels' }
 				: { href: resolve('/(app)/decide/board'), label: 'See the board' },
 	);
+	/** This round's calls so far, for the side panel. */
+	const tally = $derived.by(() => {
+		const v = Object.values(verdicts[round]);
+		return (['must', 'maybe', 'skip'] as const).map((k) => ({
+			k,
+			n: v.filter((x) => x === k).length,
+		}));
+	});
+	const upNext = $derived(items.slice(1, 6));
+	const pctDone = $derived(all.length === 0 ? 0 : Math.round((done / all.length) * 100));
+	const SMALL_BTN =
+		'grid size-11 shrink-0 place-items-center rounded-full bg-card/80 text-muted-foreground shadow-flat ring-1 ring-border transition duration-200 ease-spring enabled:hover:text-foreground enabled:active:scale-90 disabled:cursor-not-allowed disabled:opacity-40';
+	const KEYS = [
+		['←', 'Skip'],
+		['↑', 'Maybe'],
+		['→', 'Must'],
+		['Z', 'Undo'],
+		['N', 'Note'],
+		['Space', 'Details'],
+	] as const;
 </script>
 
 <svelte:window {onkeydown} />
@@ -340,21 +366,21 @@
 	<span
 		data-stamp="must"
 		class={cn(
-			'pointer-events-none absolute top-24 left-5 z-10 -rotate-14 rounded-xl border-4 border-current bg-background/90 px-3.5 py-2 text-3xl leading-none font-extrabold tracking-widest text-must uppercase opacity-0 md:top-10',
+			'pointer-events-none absolute top-16 left-5 z-10 -rotate-14 rounded-xl border-4 border-current bg-background/90 px-3.5 py-2 text-3xl leading-none font-extrabold tracking-widest text-must uppercase opacity-0 shadow-soft md:top-10',
 			lean === 'must' && 'opacity-100',
 		)}>Must</span
 	>
 	<span
 		data-stamp="skip"
 		class={cn(
-			'pointer-events-none absolute top-24 right-5 z-10 rotate-14 rounded-xl border-4 border-current bg-background/90 px-3.5 py-2 text-3xl leading-none font-extrabold tracking-widest text-skip uppercase opacity-0 md:top-10',
+			'pointer-events-none absolute top-16 right-5 z-10 rotate-14 rounded-xl border-4 border-current bg-background/90 px-3.5 py-2 text-3xl leading-none font-extrabold tracking-widest text-skip uppercase opacity-0 shadow-soft md:top-10',
 			lean === 'skip' && 'opacity-100',
 		)}>Skip</span
 	>
 	<span
 		data-stamp="maybe"
 		class={cn(
-			'pointer-events-none absolute bottom-1/2 left-1/2 z-10 -translate-x-1/2 -rotate-4 rounded-xl border-4 border-current bg-background/90 px-3.5 py-2 text-3xl leading-none font-extrabold tracking-widest text-maybe uppercase opacity-0',
+			'pointer-events-none absolute bottom-1/2 left-1/2 z-10 -translate-x-1/2 -rotate-4 rounded-xl border-4 border-current bg-background/90 px-3.5 py-2 text-3xl leading-none font-extrabold tracking-widest text-maybe uppercase opacity-0 shadow-soft',
 			lean === 'maybe' && 'opacity-100',
 		)}>Maybe</span
 	>
@@ -389,205 +415,308 @@
 		</Empty.Content>
 	</Empty.Root>
 {:else}
-	<section class="mx-auto flex max-w-3xl flex-col gap-3" data-deck={round}>
-		<header class="flex flex-wrap items-end justify-between gap-x-4 gap-y-2">
-			<div>
-				<p class="text-xs font-semibold tracking-widest text-muted-foreground uppercase">
-					{round === 'area' ? 'Step 1 · regions & cities' : 'Step 2 · attractions'}
-				</p>
-				<h1 class="font-serif text-3xl font-semibold">
-					{round === 'area' ? 'Areas round' : 'Swipe round'}
-				</h1>
-			</div>
-			<div
-				class="flex w-28 flex-col gap-1 sm:w-40"
-				title={`${String(done)} of ${String(all.length)} swiped`}
-				data-deck-progress
-			>
-				<span class="text-right text-sm text-muted-foreground"
-					><b class="text-foreground">{done}</b> / {all.length}</span
+	<section class="page-wide flex deck-h flex-col gap-3 max-md:-mb-6 md:gap-4" data-deck={round}>
+		<PageHeader
+			eyebrow={round === 'area' ? 'Step 1 · Regions & cities' : 'Step 2 · Attractions'}
+			title={round === 'area' ? 'Areas round' : 'Swipe round'}
+			class="mb-0 flex-row items-end justify-between gap-4 md:mb-0"
+		>
+			{#snippet actions()}
+				<div
+					class="flex min-w-28 flex-col items-end gap-1.5 md:min-w-48"
+					title={`${String(done)} of ${String(all.length)} swiped`}
+					data-deck-progress
 				>
-				<Progress value={all.length === 0 ? 0 : Math.round((done / all.length) * 100)} max={100} />
-			</div>
-		</header>
+					<span class="text-sm whitespace-nowrap text-muted-foreground nums"
+						><b class="font-serif text-lg font-semibold text-foreground md:text-xl">{done}</b> / {all.length}
+						<span class="mx-0.5 text-muted-foreground/50" aria-hidden="true">·</span>
+						<span data-deck-left>{items.length} left</span></span
+					>
+					<Progress value={pctDone} max={100} aria-label="Swiped so far" />
+				</div>
+			{/snippet}
+		</PageHeader>
 
-		<div class="-mx-4 overflow-x-auto px-4 pb-1">
-			<ToggleGroup.Root
-				type="single"
-				variant="outline"
-				size="sm"
-				value={filter}
-				onValueChange={setFilter}
-				aria-label="Country"
-			>
-				{#each filters as f (f.id)}
-					<ToggleGroup.Item value={f.id}>
-						{f.label} <span class="text-muted-foreground">{f.count}</span>
-					</ToggleGroup.Item>
-				{/each}
-				{#if filter !== 'all' && !filters.some((f) => f.id === filter)}
-					<ToggleGroup.Item value={filter}>{countryName(filter)} <span>0</span></ToggleGroup.Item>
-				{/if}
-			</ToggleGroup.Root>
-		</div>
-
-		{#if app.isGuest}
-			<p class="text-sm text-muted-foreground">
-				Read only: guests can look through the deck but not make calls.
-			</p>
-		{/if}
-
-		<div class="flex flex-col items-center gap-4">
-			<div
-				class={cn(
-					'relative mx-auto mt-1 mb-7 w-full max-w-95 touch-none select-none',
-					'h-96 sm:h-128',
-					round === 'place' ? 'md:h-108 md:max-w-180' : 'md:h-120 md:max-w-205',
-				)}
-				data-deck-stack
-			>
-				{#if stack.length > 0}
-					{#each stack.toReversed() as c (`${c.round}:${c.item.id}`)}
-						{@const depth = stack.indexOf(c)}
-						<div
-							class={cn(
-								'absolute inset-0 origin-bottom transition duration-300 ease-spring',
-								DEPTH[depth] ?? DEPTH[2],
-								depth === 0 && 'rounded-2xl shadow-big',
-							)}
-							data-deck-card={c.item.id}
-							data-depth={depth}
-							aria-hidden={depth === 0 ? undefined : 'true'}
-							{@attach depth === 0 ? drag(c) : undefined}
+		<div class="flex min-h-0 flex-1 gap-6 3xl:gap-8">
+			<div class="flex min-h-0 min-w-0 flex-1 flex-col gap-3 md:gap-4">
+				<div
+					class={cn('flex items-center gap-2', items.length === 0 && filter === 'all' && 'hidden')}
+				>
+					<div
+						class="-my-1 no-scrollbar min-w-0 flex-1 overflow-x-auto mask-r-from-85% py-1 md:mask-none"
+					>
+						<ToggleGroup.Root
+							type="single"
+							variant="pill"
+							size="sm"
+							spacing={1.5}
+							value={filter}
+							onValueChange={setFilter}
+							aria-label="Country"
 						>
-							{@render cardBody(c, noteOn(c) !== '')}
-							{@render stamps(null)}
-							{#if depth === 0 && noteOpen}
-								<DeckNotePanel
-									round={c.round}
-									id={c.item.id}
-									name={c.item.name}
-									short={c.round === 'place' ? (c.item.short ?? c.item.name) : c.item.name}
-									onclose={() => {
-										noteOpen = false;
-									}}
-								/>
+							{#each filters as f (f.id)}
+								<ToggleGroup.Item value={f.id}>
+									{f.label} <span class="nums opacity-60">{f.count}</span>
+								</ToggleGroup.Item>
+							{/each}
+							{#if filter !== 'all' && !filters.some((f) => f.id === filter)}
+								<ToggleGroup.Item value={filter}
+									>{countryName(filter)} <span class="opacity-60">0</span></ToggleGroup.Item
+								>
+							{/if}
+						</ToggleGroup.Root>
+					</div>
+					{#if stack.length > 0}
+						<Button
+							variant="ghost"
+							size="sm"
+							class="shrink-0"
+							aria-keyshortcuts="Space"
+							onclick={() => {
+								if (top !== undefined) openCard(top);
+							}}
+						>
+							<Info data-icon="inline-start" />Details
+						</Button>
+					{/if}
+				</div>
+
+				{#if app.isGuest}
+					<p class="-mt-1 text-sm text-muted-foreground">
+						Read only: guests can look through the deck but not make calls.
+					</p>
+				{/if}
+
+				<div class="relative mb-4 min-h-0 flex-1 touch-none select-none" data-deck-stack>
+					{#if stack.length > 0}
+						{#each stack.toReversed() as c (`${c.round}:${c.item.id}`)}
+							{@const depth = stack.indexOf(c)}
+							<div
+								class={cn(
+									'absolute inset-0 origin-bottom rounded-2xl transition duration-300 ease-spring',
+									DEPTH[depth] ?? DEPTH[2],
+									depth === 0 ? 'shadow-big' : 'shadow-soft',
+								)}
+								data-deck-card={c.item.id}
+								data-depth={depth}
+								aria-hidden={depth === 0 ? undefined : 'true'}
+								{@attach depth === 0 ? drag(c) : undefined}
+							>
+								{@render cardBody(c, noteOn(c) !== '')}
+								{@render stamps(null)}
+								{#if depth === 0 && noteOpen}
+									<DeckNotePanel
+										round={c.round}
+										id={c.item.id}
+										name={c.item.name}
+										short={c.round === 'place' ? (c.item.short ?? c.item.name) : c.item.name}
+										onclose={() => {
+											noteOpen = false;
+										}}
+									/>
+								{/if}
+							</div>
+						{/each}
+					{:else}
+						<div
+							class="flex h-full flex-col items-center justify-center gap-3 rounded-2xl border border-dashed border-border bg-card/50 p-6 text-center"
+							data-deck-done
+						>
+							<div
+								class="grid size-20 place-items-center rounded-full bg-cat/10 text-4xl motion-safe:animate-in motion-safe:zoom-in-75"
+								aria-hidden="true"
+							>
+								🎉
+							</div>
+							<h2 class="font-serif text-2xl font-semibold md:text-3xl">
+								{filter !== 'all' ? `${countryName(filter)} cleared!` : 'Deck cleared!'}
+							</h2>
+							<p class="max-w-sm text-muted-foreground">
+								{round === 'area'
+									? `${String(counts.mustAreas)} must-go areas.`
+									: `${String(counts.must)} Musts · ${String(counts.maybe)} Maybes so far.`} New cards
+								from the curator land here automatically.
+							</p>
+							<Button href={next.href} class="mt-1">{next.label} →</Button>
+							{#if filter !== 'all'}
+								<Button
+									variant="link"
+									onclick={() => {
+										setFilter('all');
+									}}>Show all countries</Button
+								>
 							{/if}
 						</div>
+					{/if}
+					{#each flying as f (f.key)}
+						<div
+							class="pointer-events-none absolute inset-0 z-40 rounded-2xl shadow-big"
+							aria-hidden="true"
+							{@attach flyOut(f)}
+						>
+							{@render cardBody(f.card, noteOn(f.card) !== '')}
+							{@render stamps(f.verdict)}
+						</div>
 					{/each}
-				{:else}
-					<div
-						class="flex h-full flex-col items-center justify-center gap-3 rounded-2xl border border-dashed border-border p-6 text-center"
-						data-deck-done
-					>
-						<div class="text-5xl" aria-hidden="true">🎉</div>
-						<h2 class="font-serif text-2xl font-semibold">
-							{filter !== 'all' ? `${countryName(filter)} cleared!` : 'Deck cleared!'}
-						</h2>
-						<p class="text-muted-foreground">
-							{round === 'area'
-								? `${String(counts.mustAreas)} must-go areas.`
-								: `${String(counts.must)} Musts · ${String(counts.maybe)} Maybes so far.`} New cards from
-							the curator land here automatically.
-						</p>
-						<Button href={next.href}>{next.label} →</Button>
-						{#if filter !== 'all'}
-							<Button
-								variant="link"
-								onclick={() => {
-									setFilter('all');
-								}}>Show all countries</Button
-							>
-						{/if}
-					</div>
-				{/if}
-				{#each flying as f (f.key)}
-					<div
-						class="pointer-events-none absolute inset-0 z-40 rounded-2xl shadow-big"
-						aria-hidden="true"
-						{@attach flyOut(f)}
-					>
-						{@render cardBody(f.card, noteOn(f.card) !== '')}
-						{@render stamps(f.verdict)}
-					</div>
-				{/each}
-			</div>
+				</div>
 
-			{#if stack.length > 0}
-				<div class="flex items-center gap-5" data-deck-controls>
-					{#each ['skip', 'maybe', 'must'] as const as k (k)}
-						{@const V = VERDICTS[k]}
+				{#if stack.length > 0}
+					<div class="flex shrink-0 items-center justify-center gap-3 md:gap-5" data-deck-controls>
 						<button
 							type="button"
-							data-verdict={k}
-							aria-label={`${V.label} (${V.key})`}
-							aria-keyshortcuts={k === 'skip'
-								? 'ArrowLeft'
-								: k === 'must'
-									? 'ArrowRight'
-									: 'ArrowUp'}
-							disabled={app.isGuest}
-							onclick={() => {
-								swipe(k);
-							}}
-							class={cn(
-								'grid place-items-center content-center gap-1 rounded-full border border-border bg-card pt-0.5 text-xs font-bold tracking-widest uppercase shadow-soft transition duration-200 ease-spring enabled:hover:-translate-y-0.5 enabled:hover:scale-105 enabled:active:scale-90 disabled:cursor-not-allowed disabled:opacity-50',
-								k === 'maybe' ? 'size-16' : 'size-18',
-								k === 'must' &&
-									'text-must enabled:hover:bg-must enabled:hover:text-primary-foreground',
-								k === 'skip' &&
-									'text-skip enabled:hover:bg-skip enabled:hover:text-primary-foreground',
-								k === 'maybe' &&
-									'text-maybe enabled:hover:bg-maybe enabled:hover:text-primary-foreground',
-								pressed === k && 'scale-90 text-primary-foreground',
-								pressed === k && k === 'must' && 'bg-must',
-								pressed === k && k === 'skip' && 'bg-skip',
-								pressed === k && k === 'maybe' && 'bg-maybe',
-							)}
+							class={cn(SMALL_BTN)}
+							disabled={!canUndo(round)}
+							aria-label="Undo (Z)"
+							aria-keyshortcuts="Z"
+							title="Undo (Z)"
+							onclick={undo}
 						>
-							<V.icon class={k === 'maybe' ? 'size-5.5' : 'size-6.5'} aria-hidden="true" />
-							<span>{V.label}</span>
+							<Undo2 class="size-5" aria-hidden="true" />
 						</button>
-					{/each}
+						{#each ['skip', 'maybe', 'must'] as const as k (k)}
+							{@const V = VERDICTS[k]}
+							<button
+								type="button"
+								data-verdict={k}
+								aria-label={`${V.label} (${V.key})`}
+								aria-keyshortcuts={k === 'skip'
+									? 'ArrowLeft'
+									: k === 'must'
+										? 'ArrowRight'
+										: 'ArrowUp'}
+								title={`${V.label} (${V.key})`}
+								disabled={app.isGuest}
+								onclick={() => {
+									swipe(k);
+								}}
+								class={cn(
+									'grid place-items-center content-center gap-0.5 rounded-full bg-card text-2xs font-bold tracking-widest uppercase shadow-soft ring-1 transition duration-200 ease-spring enabled:active:scale-90 disabled:cursor-not-allowed disabled:opacity-50',
+									k === 'maybe' ? 'size-15 md:size-16' : 'size-17 md:size-18',
+									k === 'must' &&
+										'text-must ring-must/30 enabled:hover:bg-must enabled:hover:text-primary-foreground',
+									k === 'skip' &&
+										'text-skip ring-skip/30 enabled:hover:bg-skip enabled:hover:text-primary-foreground',
+									k === 'maybe' &&
+										'text-maybe ring-maybe/30 enabled:hover:bg-maybe enabled:hover:text-primary-foreground',
+									pressed === k && 'scale-90 text-primary-foreground',
+									pressed === k && k === 'must' && 'bg-must',
+									pressed === k && k === 'skip' && 'bg-skip',
+									pressed === k && k === 'maybe' && 'bg-maybe',
+								)}
+							>
+								<V.icon
+									class={k === 'maybe' ? 'size-5.5' : 'size-6.5'}
+									strokeWidth={2.4}
+									aria-hidden="true"
+								/>
+								<span>{V.label}</span>
+							</button>
+						{/each}
+						<button
+							type="button"
+							class={cn(
+								SMALL_BTN,
+								'relative',
+								noteOpen && 'bg-note/12 text-note ring-note/30',
+								topNote !== '' && 'text-note',
+							)}
+							disabled={app.isGuest}
+							aria-expanded={noteOpen}
+							aria-keyshortcuts="N"
+							aria-label={topNote !== '' ? 'Edit your note (N)' : 'Add a note (N)'}
+							title={topNote !== '' ? 'Edit your note (N)' : 'Add a note (N)'}
+							onclick={() => {
+								noteOpen = !noteOpen;
+							}}
+						>
+							<PenLine class="size-5" aria-hidden="true" />
+							{#if topNote !== ''}
+								<span
+									class="absolute top-1.5 right-1.5 size-2 rounded-full bg-note ring-2 ring-card"
+									aria-hidden="true"
+								></span>
+							{/if}
+						</button>
+					</div>
+				{/if}
+			</div>
+
+			<aside
+				class="hidden w-80 shrink-0 flex-col gap-5 overflow-y-auto panel p-5 xl:flex 3xl:w-96 3xl:p-6"
+				aria-label="Round summary"
+			>
+				<div class="flex flex-col gap-3">
+					<p class="eyebrow">Your calls this round</p>
+					<div class="grid grid-cols-3 gap-2">
+						{#each tally as t (t.k)}
+							<div class="flex flex-col items-center rounded-xl bg-muted/60 py-3">
+								<b
+									class={cn(
+										'font-serif text-2xl leading-none font-semibold nums',
+										t.k === 'must' && 'text-must',
+										t.k === 'maybe' && 'text-maybe',
+										t.k === 'skip' && 'text-skip',
+									)}>{t.n}</b
+								>
+								<span class="mt-1 text-xs text-muted-foreground">{VERDICTS[t.k].label}</span>
+							</div>
+						{/each}
+					</div>
+					<p class="text-sm text-muted-foreground">
+						<b class="text-foreground nums">{pctDone}%</b> of the {round === 'area'
+							? 'regions and cities'
+							: 'attractions'} called.
+					</p>
 				</div>
-				<div
-					class="flex flex-wrap items-center justify-center gap-x-1 gap-y-1 text-sm"
-					data-deck-subcontrols
-				>
-					<Button
-						variant={noteOpen ? 'secondary' : 'ghost'}
-						size="sm"
-						disabled={app.isGuest}
-						aria-expanded={noteOpen}
-						aria-keyshortcuts="N"
-						aria-label={topNote !== '' ? 'Edit your note (N)' : 'Add a note (N)'}
-						onclick={() => {
-							noteOpen = !noteOpen;
-						}}
-					>
-						<PenLine data-icon="inline-start" />
-						<span class={cn(topNote !== '' && 'text-note')}>Note</span>
-						<Kbd>N</Kbd>
-					</Button>
-					<Button variant="ghost" size="sm" disabled={!canUndo(round)} onclick={undo}>
-						<Undo2 data-icon="inline-start" />
-						Undo <Kbd>Z</Kbd>
-					</Button>
-					<Button
-						variant="ghost"
-						size="sm"
-						onclick={() => {
-							if (top !== undefined) openCard(top);
-						}}
-					>
-						Details <Kbd>Space</Kbd>
-					</Button>
-					<span class="px-2 text-muted-foreground" data-deck-left>{items.length} left</span>
+
+				{#if upNext.length > 0}
+					<div class="flex flex-col gap-2 border-t border-border/70 pt-5">
+						<p class="eyebrow">Up next</p>
+						<ul class="-mx-2 flex flex-col">
+							{#each upNext as c (`${c.round}:${c.item.id}`)}
+								<li>
+									<button
+										type="button"
+										class="flex w-full items-center gap-3 rounded-xl px-2 py-1.5 text-left transition-colors hover:bg-muted/70"
+										onclick={() => {
+											openCard(c);
+										}}
+									>
+										<span
+											class="grid size-9 shrink-0 place-items-center rounded-lg bg-muted text-lg"
+											aria-hidden="true"
+											>{c.round === 'area' ? c.item.flag || '🗺️' : c.item.card.categoryIcon}</span
+										>
+										<span class="flex min-w-0 flex-col">
+											<span class="truncate text-sm font-medium">{c.item.name}</span>
+											<span class="truncate text-xs text-muted-foreground"
+												>{c.round === 'area'
+													? (c.item.region ?? countryName(c.item.country))
+													: `${c.item.cityName} · ${c.item.card.categoryLabel}`}</span
+											>
+										</span>
+									</button>
+								</li>
+							{/each}
+						</ul>
+					</div>
+				{/if}
+
+				<div class="mt-auto flex flex-col gap-2 border-t border-border/70 pt-5">
+					<p class="eyebrow">Keys</p>
+					<dl class="grid grid-cols-2 gap-x-3 gap-y-1.5 text-sm text-muted-foreground">
+						{#each KEYS as [key, label] (key)}
+							<div class="flex items-center gap-2">
+								<dt><Kbd>{key}</Kbd></dt>
+								<dd>{label}</dd>
+							</div>
+						{/each}
+					</dl>
+					<p class="text-xs text-muted-foreground">
+						Or drag the card: right for Must, left for Skip, up for Maybe. Click it for the details.
+					</p>
 				</div>
-				<p class="hidden text-sm text-muted-foreground md:block">
-					Drag the card, or use <Kbd>←</Kbd> Skip · <Kbd>↑</Kbd> Maybe · <Kbd>→</Kbd> Must
-				</p>
-			{/if}
+			</aside>
 		</div>
 	</section>
 {/if}

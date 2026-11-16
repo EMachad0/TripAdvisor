@@ -147,21 +147,16 @@
 	}));
 </script>
 
-<section class="flex flex-col gap-10" data-holidays>
+<section class="page-wide flex flex-col gap-10 md:gap-12 3xl:gap-14" data-holidays>
 	<header
-		class="relative -mx-4 overflow-hidden bg-linear-140 from-must to-seal px-4 py-10 text-primary-foreground sm:mx-0 sm:rounded-3xl sm:px-8 sm:py-14"
+		class="relative -mx-4 -mt-1 overflow-hidden bg-linear-150 from-scrim via-scrim/95 to-seal px-5 py-8 text-on-scrim shadow-soft md:mx-0 md:mt-0 md:rounded-3xl md:px-8 md:py-10 xl:px-12 xl:py-12 dark:to-seal/45 dark:ring-1 dark:ring-border"
 	>
 		<svg
 			class="pointer-events-none absolute inset-0 size-full motion-reduce:hidden"
 			aria-hidden="true"
 		>
 			{#each snow as f, i (i)}
-				<circle
-					cx="{f.x}%"
-					cy="-5%"
-					r={f.r}
-					class="fill-primary-foreground/70 dark:fill-foreground/80"
-				>
+				<circle cx="{f.x}%" cy="-5%" r={f.r} class="fill-on-scrim/60">
 					<animate
 						attributeName="cy"
 						from="-5%"
@@ -173,36 +168,76 @@
 				</circle>
 			{/each}
 		</svg>
-		<div class="relative flex max-w-3xl flex-col gap-3">
-			<p class="text-xs font-semibold tracking-widest uppercase opacity-90">
-				Step 5 · the big nights
-			</p>
-			<h1 class="font-serif text-5xl leading-none font-semibold sm:text-6xl">Holiday picks</h1>
-			<p class="max-w-prose font-serif text-lg italic opacity-90">
-				Christmas and New Year’s Eve are one night each: compare the options, duel them if you can’t
-				decide, then lock one in. Lunar New Year in Hong Kong runs for days, so there you can say
-				yes to as many as you like.
-			</p>
+		<div class="relative grid gap-8 md:grid-cols-5 md:items-end md:gap-8 xl:gap-12">
+			<div class="flex flex-col gap-3 md:col-span-3">
+				<p class="text-2xs font-semibold tracking-widest uppercase opacity-75">
+					Step 5 · the big nights
+				</p>
+				<h1
+					class="font-serif text-4xl leading-none font-semibold tracking-tight md:text-5xl 3xl:text-6xl"
+				>
+					Holiday picks
+				</h1>
+				<p class="max-w-prose font-serif text-sm leading-relaxed italic opacity-85 md:text-lg">
+					Christmas and New Year’s Eve are one night each: compare the options, duel them if you
+					can’t decide, then lock one in. Lunar New Year in Hong Kong runs for days, so there you
+					can say yes to as many as you like.
+				</p>
+			</div>
+			<nav aria-label="Holidays" class="md:col-span-2">
+				<ul class="flex flex-col gap-1.5">
+					{#each sections as sec (sec.s.holiday.id)}
+						{@const h = sec.s.holiday}
+						{@const status = sec.many
+							? sec.s.opts.length === 0
+								? 'No options yet'
+								: `${String(sec.s.opts.filter((p) => p.verdict === 'must').length)} of ${String(sec.s.opts.length)} Must`
+							: sec.s.locked !== undefined
+								? `🔒 ${sec.s.locked.short ?? sec.s.locked.name}`
+								: `${String(sec.s.opts.length)} options · open`}
+						{@const done = sec.many ? false : sec.s.locked !== undefined}
+						<li>
+							<a
+								href={`#hol-${h.id}`}
+								class="flex min-h-11 items-center gap-3 rounded-xl bg-on-scrim/8 px-3 py-2 ring-1 ring-on-scrim/12 transition-colors hover:bg-on-scrim/14"
+							>
+								<span class="text-xl" aria-hidden="true">{h.emoji}</span>
+								<span class="flex min-w-0 flex-1 flex-col">
+									<span class="text-sm font-semibold">{h.short}</span>
+									<span class={cn('truncate text-xs', done ? 'text-on-scrim' : 'opacity-70')}
+										>{status}</span
+									>
+								</span>
+								<span aria-hidden="true" class="opacity-60">↓</span>
+							</a>
+						</li>
+					{/each}
+				</ul>
+			</nav>
 		</div>
 	</header>
 
 	{#if d.isGuest}
-		<p class="-mt-4 text-sm text-muted-foreground">
+		<p class="-mt-6 text-sm text-muted-foreground">
 			Read only: guests can look at the options but not lock, duel or call them.
 		</p>
 	{/if}
 
 	{#each sections as sec (sec.s.holiday.id)}
 		{@const h = sec.s.holiday}
-		<section id={`hol-${h.id}`} data-holiday={h.id} class="flex flex-col gap-4">
+		<section
+			id={`hol-${h.id}`}
+			data-holiday={h.id}
+			class="flex scroll-mt-24 flex-col gap-4 md:gap-5"
+		>
 			{#if sec.many}
 				{@const m = sec.s}
 				<header>
-					<h2 class="font-serif text-3xl leading-tight font-semibold">
+					<h2 class="font-serif text-2xl leading-tight font-semibold md:text-3xl">
 						<span aria-hidden="true">{h.emoji}</span>
 						{h.title}
 					</h2>
-					<p class="text-sm text-muted-foreground" data-holiday-when>
+					<p class="mt-1 text-sm text-muted-foreground" data-holiday-when>
 						{manyWhenLine(m, country)}
 					</p>
 				</header>
@@ -216,7 +251,7 @@
 							>{manyTally(m.opts)}</span
 						>
 					</p>
-					<div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+					<div class="grid gap-4 md:grid-cols-2 md:gap-5 xl:grid-cols-3 3xl:grid-cols-4">
 						{#each m.opts as p, i (p.id)}
 							<HolidayCard
 								place={p}
@@ -247,11 +282,11 @@
 				{@const lockedId = o.locked?.id}
 				<header class="flex flex-wrap items-end justify-between gap-3">
 					<div>
-						<h2 class="font-serif text-3xl leading-tight font-semibold">
+						<h2 class="font-serif text-2xl leading-tight font-semibold md:text-3xl">
 							<span aria-hidden="true">{h.emoji}</span>
 							{h.title}
 						</h2>
-						<p class="text-sm text-muted-foreground" data-holiday-when>
+						<p class="mt-1 text-sm text-muted-foreground" data-holiday-when>
 							{oneWhenLine(o, country)}
 						</p>
 					</div>
@@ -268,18 +303,18 @@
 				{#if o.locked !== undefined}
 					{@const p = o.locked}
 					<div
-						class="flex items-center gap-3 rounded-2xl border border-must/40 bg-must/10 px-4 py-3"
+						class="flex items-center gap-3 rounded-2xl border border-must/30 bg-must/10 px-4 py-3 md:max-w-2xl"
 						data-locked-banner={h.id}
 					>
 						<span
-							class="grid size-11 shrink-0 place-items-center rounded-full bg-must text-xl"
+							class="grid size-11 shrink-0 place-items-center rounded-full bg-must/20 text-xl"
 							aria-hidden="true">🔒</span
 						>
 						<div class="grid min-w-0 flex-1 gap-0.5">
-							<small class="text-xs font-bold tracking-widest text-must uppercase"
+							<small class="text-2xs font-bold tracking-widest text-must uppercase"
 								>Locked in for {h.short}</small
 							>
-							<b class="truncate">{p.name}</b>
+							<b class="truncate font-serif text-lg leading-tight font-semibold">{p.name}</b>
 							<span class="text-sm text-muted-foreground"
 								>{flag(p.country)} {p.cityName} · {brl(p.brl)}</span
 							>
@@ -311,7 +346,7 @@
 					/>
 				{/if}
 				{#if o.opts.length > 0}
-					<div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+					<div class="grid gap-4 md:grid-cols-2 md:gap-5 xl:grid-cols-3 3xl:grid-cols-4">
 						{#each o.opts as p, i (p.id)}
 							<div animate:flip={{ duration: reduced ? 0 : 420 }} class="grid">
 								<HolidayCard
@@ -348,7 +383,7 @@
 {#snippet empty(emoji: string, short: string, tag: string, how: string)}
 	<div
 		class={cn(
-			'flex items-center gap-4 rounded-2xl border-2 border-dashed border-border p-6 text-ink-2',
+			'flex items-center gap-4 rounded-2xl border-2 border-dashed border-border p-6 text-ink-2 md:max-w-2xl',
 		)}
 		data-holiday-empty
 	>
