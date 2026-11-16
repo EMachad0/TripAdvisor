@@ -89,7 +89,7 @@
 					behavior: behavior(),
 				});
 			// laptop and monitor: the map fills the screen and the plan pane scrolls to that country's card
-			if (v !== WHOLE_TRIP && matchMedia('(min-width: 80rem)').matches)
+			if (v !== WHOLE_TRIP && matchMedia('(min-width: 80rem) and (min-height: 50rem)').matches)
 				planEl
 					?.querySelector(`[data-leg="${v}"]`)
 					?.scrollIntoView({ block: 'nearest', behavior: behavior() });
@@ -511,7 +511,7 @@
 	 * Laptop and monitor (and a window tall enough for it): the page is exactly one window high. The map takes what
 	 * the head leaves; the plan pane scrolls by itself. 9.5rem / 10rem is the shell's padding and the Trip sub-tabs.
 	 */
-	@media (min-width: 80rem) and (min-height: 37.5rem) {
+	@media (min-width: 80rem) and (min-height: 50rem) {
 		.route {
 			height: calc(100svh - 9.5rem);
 		}
@@ -534,7 +534,7 @@
 			mask-image: linear-gradient(to bottom, black calc(100% - 1.5rem), transparent);
 		}
 	}
-	@media (min-width: 120rem) and (min-height: 37.5rem) {
+	@media (min-width: 120rem) and (min-height: 50rem) {
 		.route {
 			height: calc(100svh - 10rem);
 		}

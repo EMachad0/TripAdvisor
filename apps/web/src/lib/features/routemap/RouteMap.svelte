@@ -463,7 +463,7 @@
 			height: clamp(420px, calc(100svh - 300px), 780px);
 		}
 	}
-	@media (min-width: 80rem) and (min-height: 37.5rem) {
+	@media (min-width: 80rem) and (min-height: 50rem) {
 		.map-box {
 			flex: 1;
 			height: auto;
