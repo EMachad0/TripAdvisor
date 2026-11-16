@@ -3,3 +3,10 @@ html[data-embed="1"] .topbar { display: none; }
 html[data-embed="1"] .site-foot { padding-bottom: 96px; }
 .qa-sec { scroll-margin-top: 24px; }
 @media print { .qa__more { display: block; } }
+/* A photo or map still on its way: a sweep of light over its box, until place.js marks it is-loaded. */
+img:not(.is-loaded) { background-image: linear-gradient(100deg, transparent 30%, rgba(160, 150, 135, .28) 50%, transparent 70%); background-size: 200% 100%; background-repeat: no-repeat; animation: atr-sweep 1.3s linear infinite; }
+@keyframes atr-sweep { from { background-position: 200% 0; } to { background-position: -100% 0; } }
+@media (prefers-reduced-motion: reduce) { img:not(.is-loaded) { animation: none; } }
+/* A map that could not be drawn: no broken image, the pin and the link to OpenStreetMap stay. */
+.map__frame--failed img { display: none; }
+.map__frame--failed::after { content: "The map did not load. Tap to open it in OpenStreetMap."; position: absolute; left: 0; right: 0; top: 16px; padding: 0 16px; text-align: center; font: 500 13px/1.4 var(--sans); color: var(--ink-2); }

@@ -147,6 +147,26 @@ test.describe('owner', () => {
 		await expect(sheet).toBeHidden();
 	});
 
+	test('the sheet shows a skeleton until the page has arrived', async ({ page }) => {
+		let release: () => void = () => undefined;
+		const gate = new Promise<void>((r) => {
+			release = r;
+		});
+		// On the context, not the page: the service worker makes this request once it controls the page.
+		await page.context().route(/\/place\/shibuya-sky\?embed=1/, async (route) => {
+			await gate;
+			await route.continue();
+		});
+		await openPlaces(page);
+		await press(row(page, 'shibuya-sky').getByRole('button', { name: /Shibuya Sky/ }));
+		const sheet = page.getByRole('dialog', { name: 'Shibuya Sky' });
+		const skeleton = sheet.getByRole('status', { name: 'Loading the page' });
+		await expect(skeleton).toBeVisible();
+		release();
+		await expect(sheet.frameLocator('iframe').locator('h1')).toBeVisible();
+		await expect(skeleton).toHaveCount(0);
+	});
+
 	test('ticking "been there" counts it and moves it to Been; unticking undoes it', async ({
 		page,
 	}) => {

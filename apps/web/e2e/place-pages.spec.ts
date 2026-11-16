@@ -159,10 +159,13 @@ test.describe('owner', () => {
 		await openInSheet(page, `${PLACE}?embed=1`);
 		const frame = page.frameLocator('iframe');
 		await frame.locator('h1').click();
+		// The page first says its text is there (the sheet's skeleton waits for this).
+		const ready = { atr: 'ready', path: `${PLACE}?embed=1` };
+		await expect.poll(() => messages(page)).toEqual([ready]);
 		await page.keyboard.press('Escape');
-		await expect.poll(() => messages(page)).toEqual([{ atr: 'close' }]);
+		await expect.poll(() => messages(page)).toEqual([ready, { atr: 'close' }]);
 		await frame.locator('.topbar .brand').dispatchEvent('click');
-		await expect.poll(() => messages(page)).toEqual([{ atr: 'close' }, { atr: 'close' }]);
+		await expect.poll(() => messages(page)).toEqual([ready, { atr: 'close' }, { atr: 'close' }]);
 		// the click was turned into a message: the frame did not navigate
 		await expect(frame.locator('h1')).toContainText('Harbin Ice');
 	});

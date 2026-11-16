@@ -1,8 +1,10 @@
 // Embed glue for a place or area page served by the app (no build step; a port of game/public/place.js with the
 // timezone helpers of game/lib/trip.js inlined): timezone labels on the answer cards, #answer-<id> opens its card,
 // and when the page sits in the app's sheet (?embed=1, <html data-embed="1">) the theme follows the app and Escape
-// or the brand link close the sheet. postMessage protocol (plan section 8): {atr:'close'} to the parent,
-// {atr:'theme', theme} from it; only same-origin messages count.
+// or the brand link close the sheet. postMessage protocol (plan section 8): {atr:'close'} and {atr:'ready', path}
+// (the text is on screen; photos may still be loading) to the parent, {atr:'theme', theme} from it; only same-origin
+// messages count. Photos and the map show a sweep of light until they load (place.css), and a map that fails to
+// load is taken out.
 
 // ---------- game/lib/trip.js: tzLabel, tzSpots ----------
 const pad = (n) => String(n).padStart(2, '0');
@@ -65,6 +67,19 @@ function watchTimes(root) {
 const root = document.documentElement;
 const embed = root.dataset.embed === '1';
 const qa = document.getElementById('answers');
+
+// The sheet shows its skeleton until this arrives; a module script runs once the HTML is parsed.
+if (embed && parent !== window) parent.postMessage({ atr: 'ready', path: location.pathname + location.search }, location.origin);
+
+// Photos and the map: mark each one when it has loaded (or failed), so its loading sweep stops.
+for (const img of document.images) {
+  const settle = () => {
+    img.classList.add('is-loaded');
+    if (img.naturalWidth === 0) img.closest('.map__frame--static')?.classList.add('map__frame--failed');
+  };
+  if (img.complete && img.currentSrc !== '') settle();
+  else { img.addEventListener('load', settle, { once: true }); img.addEventListener('error', settle, { once: true }); }
+}
 
 // Answer cards carry their country's UTC offset (data-tz); write it beside every time in them.
 if (qa) watchTimes(qa);
