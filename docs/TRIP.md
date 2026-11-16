@@ -69,13 +69,13 @@ The three flexible stops are not commitments. Fixed: Shanghai on Dec 6, in Chong
 
 ## Trip page
 
-**Timezones.** Every time is local to where it happens and is shown with its UTC offset ("17:10 UTC−3"). The site adds the label itself: flights from their two airports, stays and place cards from their country, transfers from the flight or stay of that day (`legOffsets` in `game/lib/trip.js`; a leg can override with `tz`, or `tzStart` / `tzEnd` on a flight). Task notes and flight notes have no place to take a zone from, so write the offset in the text.
+**Timezones.** Every time is local to where it happens and is shown with its UTC offset ("17:10 UTC−3"). The site adds the label itself: flights from their two airports, stays and place cards from their country, transfers from the flight or stay of that day (`legOffsets` in `packages/shared/src/trip/tz.ts`; a leg can override with `tz`, or `tzStart` / `tzEnd` on a flight). Task notes and flight notes have no place to take a zone from, so write the offset in the text.
 
-The trip page is now part of this site (`./atr game`, http://localhost:4400). It replaced the Claude artifact on 2026-11-15; the artifact (https://claude.ai/artifact/4E3SGCCdrUzfD5JhsGFNtW) is no longer kept up to date.
+The trip page is part of the site (https://trip.187.53.115.237.sslip.io: Today, Trip, Money, Prep). It replaced the Claude artifact on 2026-11-15; the artifact (https://claude.ai/artifact/4E3SGCCdrUzfD5JhsGFNtW) is no longer kept up to date.
 
-- Data: `trip/*.json`, one file per collection, each an array of documents with an `id`: `tasks`, `legs`, `bag`, `budget`, `fixed`, `spend`, `settings`, `days`, `visited`. The site re-reads them on every request, so editing a file by hand (or asking Claude to) shows up on refresh.
+- Data: the site's Convex backend, one collection per kind, each a set of documents with an `id`: `tasks`, `legs`, `bag`, `budget`, `fixed`, `spend`, `settings`, `days`, `visited`. Change it on the site or with `./atr trip set|update|delete <collection> …`; read it with `./atr trip pull` (writes `.cache/trip-live/`). The `trip/*.json` files in git are a snapshot from the cutover (2026-11-16) and nothing reads them.
 - `legs` are flights, stays, transfers and notes. A stay carries `country` and `city` (the ids used by the place cards; `cities` when one stay covers two towns), which is how the site knows which cards are "here".
 - `days` has one document per date (`id` = `YYYY-MM-DD`): `status` (work, vacation, off), `holiday` (Brazilian), `note`.
 - `visited` has one document per place the traveler ticked as been (`id` = place id).
-- Days per country in the Money page come from `config/trip.yaml`, not from `trip/budget.json`.
-- When a booking changes, update `trip/legs.json` (and `trip/tasks.json`, `trip/fixed.json`) together with this file.
+- Days per country in the Money page come from `config/trip.yaml`, not from the `budget` collection.
+- When a booking changes, update `legs` (and `tasks`, `fixed`) with `./atr trip update|set` together with this file.

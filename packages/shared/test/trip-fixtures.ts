@@ -1,4 +1,4 @@
-// Made-up legs and places from game/test/trip.test.js, shared by the ported tests and the parity tests.
+// Made-up legs and places from the old game/test/trip.test.js, used by the ported trip tests.
 import type { Leg, TripPlace } from '../src/trip.ts';
 
 export const LEGS: Leg[] = [

@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   # verify and e2e skip PRs that only touch content (answer cards, curator work); a job skipped by `if:`
-  # reports "skipped", which satisfies a required check. old-site always runs: content is baked into that image.
+  # reports "skipped", which satisfies a required check.
   changes:
     runs-on: ubuntu-24.04
     # paths-filter lists a pull request's files through the API, which needs this scope.
@@ -53,8 +53,8 @@ jobs:
       - run: pnpm format:check
       - run: pnpm lint
       - run: pnpm typecheck
-      - run: pnpm test:ws
-      - run: node --test "game/test/**/*.test.js"
+      # every workspace package's tests: packages/*, apps/web and platform (node --test)
+      - run: pnpm test
 
   # One job per Playwright project, each on its own runner with its own backend (like the local ATR_SLOT slots):
   # the three projects ran one after another in a single job and outgrew its limit. The specs share backend state
@@ -101,21 +101,3 @@ jobs:
           retention-days: 7
       - if: always()
         run: scripts/convex-local.sh reset
-
-  old-site:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 20
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
-        with:
-          node-version: 24
-      - run: npm ci
-      - run: npm test
-      - run: docker build -f Dockerfile -t old:pr .
-      - name: Start the image and check /healthz and /api/trip
-        run: scripts/ci/old-site-smoke.sh old:pr
-      - name: Image file list changes only where this PR changed files
-        run: scripts/ci/old-site-files.sh old:pr

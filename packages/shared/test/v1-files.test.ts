@@ -1,7 +1,6 @@
 // The v1 codecs for trip/<collection>.json and feedback/game-state.json.
 import fs from 'node:fs';
-import path from 'node:path';
-import { beforeAll, describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vitest';
 import { COLLECTIONS } from '../src/trip/constants.ts';
 import {
 	parseGameState,
@@ -11,26 +10,16 @@ import {
 	V1CodecError,
 	type TripLeg,
 } from '../src/v1.ts';
-import { legacy, readText, sampleFile, tmpDir } from './support.ts';
-
-let readCollection: (dir: string, col: string) => unknown[];
-beforeAll(async () => {
-	({ readCollection } = await legacy<{ readCollection: typeof readCollection }>(
-		'game/lib/tripstore.js',
-	));
-});
+import { readText, sampleFile } from './support.ts';
 
 describe('trip files', () => {
 	for (const col of COLLECTIONS) {
-		test(`trip/${col}.json parses, matches the old reader and serialises back byte for byte`, () => {
+		test(`trip/${col}.json parses and serialises back byte for byte`, () => {
 			const text = readText(sampleFile('trip', `${col}.json`));
 			const r = parseTripFile(col, text);
 			if (!r.ok) throw new Error(r.errors.join('; '));
 			expect(r.value.dropped).toBe(0);
 			expect(r.value.nulls).toEqual([]);
-			expect(r.value.docs).toStrictEqual(
-				readCollection(path.dirname(sampleFile('trip', `${col}.json`)), col),
-			);
 			expect(serialiseTripFile(col, r.value.docs)).toBe(text);
 		});
 	}
@@ -155,19 +144,5 @@ describe('game-state.json', () => {
 				extra: { bad: 1 },
 			}),
 		).toThrow(V1CodecError);
-	});
-
-	test('the old writer reads what the codec writes', async () => {
-		const { readState } = await legacy<{ readState: (f: string) => unknown }>('game/lib/store.js');
-		const out = path.join(tmpDir(), 'game-state.json');
-		const record = {
-			v: 1 as const,
-			firstRun: '2026-11-10T17:05:36Z',
-			firstSeen: { a: '2026-11-10T17:05:36Z' },
-			days: { china: 20 },
-			locks: { nye: 'a' },
-		};
-		fs.writeFileSync(out, serialiseGameState(record));
-		expect(readState(out)).toStrictEqual(record);
 	});
 });

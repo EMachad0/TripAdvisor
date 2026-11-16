@@ -9,7 +9,7 @@ atr                      CLI wrapper (./atr …; or npm run atr -- …)
 config/trip.yaml         trip facts for gaps/budgets (orchestrator-owned); `gaps:` thresholds, `areas_wanted` per country
 config/taste.yaml        stated taste: goal, interests, tags, stay, must_do (orchestrator-owned)
 platform/
-  cli/atr.js             command table: new, validate, blocks, fx, media, build, preview, game, shot (places and areas), gaps, taste, next, feedback (--new, --place, --mark-seen), run, links, review (places and areas), geo, render, qr, schema
+  cli/atr.js             command table: new, validate, blocks, fx, media, build, preview, shot (places and areas), gaps, taste, next, feedback (--new, --place, --mark-seen), run, links, review (places and areas), geo, render, qr, schema
   cli/ui.js              colors + fix-it issue formatting
   lib/index.js           PUBLIC API for the game (read-only)
   lib/paths.js           repo root, data roots, fixture mode (--fixtures | ATR_FIXTURES=1 | ATR_DATA_ROOT=<dir>)
@@ -57,7 +57,7 @@ One spec drives four things: validation, **fix-it messages** (path, problem, exp
 2. `lib/render/blocks.js`: add `export function my_block(b, ctx)` that returns HTML, and register it in `RENDERERS`. Escape all content with `esc()`, `mdInline()` or `md()`. Wrap it with `section(inner, { width: 'col' | 'mid' })` or a full-width `<section class="block wrap">`.
 3. Styles go in `lib/render/assets/atr.css`. Use tokens (`--surface`, `--ink-2`, `--accent`, …). Check light, dark and ≤ 560px.
 4. Optional: add cross-checks in `validatePlace`.
-5. `./atr schema --export`, `npm test` (the "every block example renders" test picks it up automatically), then `./atr shot yu-garden --fixtures`.
+5. `./atr schema --export`, `corepack pnpm --filter @atr/platform test` (the "every block example renders" test picks it up automatically), then `./atr shot yu-garden --fixtures`.
 
 ## Public API (`platform/lib/index.js`)
 
@@ -78,11 +78,11 @@ const fb = readFeedback('feedback');         // {swipes, duels, questions, warni
 
 Also exported for the game (2026-11-10): `fmtBRL`, `fmtLocal`, `titleCase`, `countryName`, `catLabel`, `shortName`, `themeBoot`, `themeToggle`, `LANG` (from `render/util.js`) and `staticMap` (from `staticmap.js`).
 
-## The game (`game/`)
+## The site (`apps/web`)
 
-`./atr game` (or `npm run game`) runs `game/server.js`: a plain `node:http` server. `game/lib/{elo,pairing,board}.js` are pure and served to the browser as ES modules (also tested in Node); `game/lib/store.js` appends feedback (validated against `FEEDBACK_SPECS`) and keeps `feedback/game-state.json`. Client: `game/public/` (vanilla JS + `game.css` on top of `atr.css`). Place and area pages are `renderPlacePage` / `renderAreaPage` output plus their answer cards (`renderAnswersSection`) and a little glue (`place.css`, `place.js`).
+The site is the SvelteKit app in `apps/web` with a self-hosted Convex backend (`docs/migration/DEV.md`, `docs/DEPLOY.md`). It imports this platform (`@atr/platform`) to load and render content: place and area pages are `renderPlacePage` / `renderAreaPage` output plus their answer cards (`renderAnswersSection`) and a little glue (`apps/web/embed/place.css`, `place.js`). The pure game logic (Elo, pairing, board, trip maths) is in `packages/shared`. The old plain-`node:http` site (`game/`) was retired after the cutover of 2026-11-16.
 
-Answer cards: `answers/<asked>-<slug>.md` (YAML front matter + Markdown body). `platform/lib/answers.js` loads and validates them (`checkAnswers`, `siteAnswers`; the folder follows `dataRoots().answers`, so fixtures and `ATR_DATA_ROOT` work), `platform/lib/render/answers.js` renders a card, `GET /api/answers` serves them to the Answers page and Today, and `platform/lib/publish.js` is `./atr answers publish`. Screenshots: `node game/tools/shots.js`.
+Answer cards: `answers/<asked>-<slug>.md` (YAML front matter + Markdown body). `platform/lib/answers.js` loads and validates them (`checkAnswers`, `siteAnswers`; the folder follows `dataRoots().answers`, so fixtures and `ATR_DATA_ROOT` work), `platform/lib/render/answers.js` renders a card, and `platform/lib/publish.js` is `./atr answers publish`. Tests: `platform/test/answers.test.js` on `platform/test/site-fixtures/` (the site's test places, areas and answer cards, shared with the e2e content).
 
 - Booking: always go through `bookingLevel(place)` ('required' | 'recommended' | 'none') and `bookingLinks(place)` (handles `links` and legacy `link`); never read `book_ahead.required`/`link` directly. `bookAheadList(places)` gives the game's book-ahead list (required first, then by lead_days).
 - Pass `staticMap: { url, width, height }` to show a map image (`staticMap(lat, lng, { zoom })` from `lib/staticmap.js` makes one; the build does it per place). Pass `cheapMealBrl` (from `config/trip.yaml` `cheap_meal_brl`) for food pages. Helpers: `countsAgainstBudget(place)` (use it for the board's budget check: food places default to false), `bookingLinks(book_ahead)` (normalises `link`/`links`), `gallerySlots`, `factSpans`.

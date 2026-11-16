@@ -1,5 +1,5 @@
-# Build context of apps/web/Dockerfile (context = repo root). BuildKit uses this file instead of the root
-# .dockerignore, which is the old image's and excludes apps/ and packages/. Allow-list: only what the build reads.
+# Build context of apps/web/Dockerfile (context = repo root). BuildKit reads this file next to the Dockerfile.
+# Allow-list: only what the build reads.
 *
 !package.json
 !pnpm-lock.yaml

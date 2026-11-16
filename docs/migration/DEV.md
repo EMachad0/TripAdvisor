@@ -1,6 +1,7 @@
-# Developing the new stack
+# Developing the site
 
-The new app lives in `apps/web` (SvelteKit 3 + Convex), next to the old site, which keeps building with `npm ci`.
+The app lives in `apps/web` (SvelteKit 3 + Convex). The old site (`game/`, built with `npm ci`) was retired after the
+cutover of 2026-11-16.
 Use `corepack pnpm` (the root `packageManager` pins pnpm 12.21.0); plain `pnpm` works in CI.
 
 ## One-time setup
@@ -9,9 +10,6 @@ Use `corepack pnpm` (the root `packageManager` pins pnpm 12.21.0); plain `pnpm` 
 corepack pnpm install --frozen-lockfile
 corepack pnpm --filter @atr/web exec playwright install chromium webkit
 ```
-
-`npm ci` (old site) and `pnpm install` share the root `node_modules`; each one rebuilds it, so run `pnpm install`
-again after an `npm ci`.
 
 ## Local Convex backend
 
@@ -67,7 +65,7 @@ so a URL the backend generates itself (storage URLs, unused by the app) carries 
   index of `packages/migrate/fixtures/e2e/content` through `POST /ops/content-index`. Playwright's backend runs it on
   every start, so every screen has non-empty data. Accounts are separate (`seed`).
 - The content root `packages/migrate/fixtures/e2e/content` is what the app reads under Playwright (`ATR_ROOT`, with
-  `ATR_CONTENT_FIXTURES=1` so `fixture: true` files load). Places and answers link to `game/test/fixtures`; areas
+  `ATR_CONTENT_FIXTURES=1` so `fixture: true` files load). Places and answers link to `platform/test/site-fixtures`; areas
   carry coordinates; `config/trip.yaml` is a frozen copy of the trip shape. Tests never read the real `places/`.
 - The app publishes the content index at boot and whenever content files change (`src/lib/server/content.ts`,
   `content-publish.ts`), with `CONTENT_TOKEN` from `apps/web/.env.tokens.local` (its sha256 is set in Convex by
@@ -97,10 +95,9 @@ content sync, add to `apps/web/.env.local`: `ATR_ROOT=<abs path>/packages/migrat
 corepack pnpm format:check   # Prettier (svelte + tailwind plugins)
 corepack pnpm lint           # svelte-kit sync, then ESLint (typescript-eslint strict, svelte, @shadcn/lint, Convex)
 corepack pnpm typecheck      # svelte-check for apps/web, tsc for packages/*
-corepack pnpm test:ws        # vitest: units (node) and Convex functions (convex-test, edge runtime)
+corepack pnpm test           # every package's tests: vitest (units, Convex functions) and node --test for platform/
 corepack pnpm e2e            # Playwright: starts the backend (deploy + seed) and the built app on :4173
-corepack pnpm verify         # all of the above, plus node --test for game/
-npm ci && npm test           # the old site (platform + game tests), unchanged
+corepack pnpm verify         # all of the above
 ```
 
 Playwright projects: `desktop` (Chrome), `pixel` (Pixel 7), `iphone` (iPhone 15, WebKit); `setup` signs in owner

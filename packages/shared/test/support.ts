@@ -7,8 +7,8 @@ import { pathToFileURL } from 'node:url';
 
 /** The repo (worktree) root. */
 export const ROOT = path.resolve(import.meta.dirname, '../../..');
-/** game/test/fixtures (places, areas, answers; no trip/ and an empty feedback/). */
-export const FIXTURES = path.join(ROOT, 'game/test/fixtures');
+/** platform/test/site-fixtures (places, areas, answers; no trip/ and an empty feedback/). */
+export const FIXTURES = path.join(ROOT, 'platform/test/site-fixtures');
 /**
  * Where the real feedback/ and trip/ files are read from: the repo copies by default, or another snapshot
  * (e.g. the main checkout, or a live pull under .cache/) through ATR_SAMPLE_ROOT.

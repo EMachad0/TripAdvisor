@@ -1,5 +1,5 @@
 // The platform CLI as a client of the new site (slice I): `./atr trip set|update|delete` through trip:adminWrite
-// (lib/trip-cli.js, with a stubbed wrapper script), the old/new site switch (lib/site.js) and the /healthz sha wait
+// (lib/trip-cli.js, with a stubbed wrapper script), the site settings (lib/site.js) and the /healthz sha wait
 // of `./atr answers publish` (lib/publish.js healthz). No backend is started here.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
@@ -8,8 +8,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { PLATFORM } from '../lib/paths.js';
 import { buildRequest, loadTripFields, parseRunOutput, tripWrite, COLLECTIONS, FUNCTION, FROZEN_FUNCTION, ID_RE, LIMITS, TripCliError } from '../lib/trip-cli.js';
-import { ACTIVE_SITE, SITES, activeSiteName, answerLink, answerPageLink, siteSettings } from '../lib/site.js';
-import { followDeploy, healthz, publishAnswers, sh } from '../lib/publish.js';
+import { SITE, answerLink, answerPageLink } from '../lib/site.js';
+import { healthz, publishAnswers, sh } from '../lib/publish.js';
 import { tmpDir } from './helpers.js';
 
 const REPO = path.dirname(PLATFORM);
@@ -157,21 +157,13 @@ test('cli: ./atr trip set --dry-run, bad requests and unknown verbs', () => {
   assert.match(verb.stderr, /say what to do: \.\/atr trip pull \| set \| update \| delete \(not "push"\)/);
 });
 
-// ---------------- the site switch ----------------
-test('site.js: the new app is active since the cutover; ATR_SITE overrides for one command', () => {
-  assert.equal(ACTIVE_SITE, 'new');
-  assert.equal(activeSiteName({}), 'new');
-  assert.equal(activeSiteName({ ATR_SITE: 'old' }), 'old');
-  assert.equal(activeSiteName({ ATR_SITE: 'toString' }), 'new', 'only a real app name');
-  assert.equal(siteSettings({ ATR_SITE: 'old' }), SITES.old);
-  assert.equal(SITES.old.healthSha, false);
-  assert.equal(SITES.new.healthSha, true);
-  assert.equal(SITES.old.coolifyApp, 'zoom1ixd7gj2y4snw6oculrb', 'the old app id is unchanged');
-  assert.equal(answerLink('2026-11-21-a b', SITES.old), `${SITES.old.url}/#/answers/2026-11-21-a%20b`);
-  assert.equal(answerLink('2026-11-21-x', SITES.new), `${SITES.new.url}/places/answers/2026-11-21-x`);
-  assert.equal(answerPageLink({ kind: 'area', id: 'kyoto' }, 'a', SITES.new), `${SITES.new.url}/area/kyoto#answer-a`);
-  assert.equal(answerPageLink({ kind: 'country', id: 'japan' }, 'a', SITES.new), null);
-  assert.match(SITES.new.exportUrl, /^https:\/\/cvx\./);
+// ---------------- the site ----------------
+test('site.js: the new app\'s links and its Convex export origin', () => {
+  assert.equal(SITE.branch, 'main');
+  assert.equal(answerLink('2026-11-21-a b'), `${SITE.url}/places/answers/2026-11-21-a%20b`);
+  assert.equal(answerPageLink({ kind: 'area', id: 'kyoto' }, 'a'), `${SITE.url}/area/kyoto#answer-a`);
+  assert.equal(answerPageLink({ kind: 'country', id: 'japan' }, 'a'), null);
+  assert.match(SITE.exportUrl, /^https:\/\/cvx\./);
 });
 
 // ---------------- /healthz sha wait ----------------
@@ -190,54 +182,46 @@ function healthSeq(seq) {
 }
 const noSleep = async () => {};
 
-test('healthz on the new app waits until /healthz reports the merge commit', async () => {
+test('healthz waits until /healthz reports the merge commit', async () => {
   const h = healthSeq([{ status: 502 }, { status: 200, body: { ok: true, sha: OLD } }, { status: 200, body: { ok: true, sha: SHA } }]);
-  const r = await healthz({ fetchImpl: h.fetchImpl, sleep: noSleep, tries: 10, expectSha: SHA, site: SITES.new });
+  const r = await healthz({ fetchImpl: h.fetchImpl, sleep: noSleep, tries: 10, expectSha: SHA, site: SITE });
   assert.equal(r.ok, true);
   assert.equal(r.shaMatched, true);
   assert.equal(h.calls(), 3);
-  assert.equal(h.urls[0], `${SITES.new.url}/healthz`);
+  assert.equal(h.urls[0], `${SITE.url}/healthz`);
 });
 
-test('healthz on the new app: a site that never reports the sha (or reports none) is not up', async () => {
-  const stale = await healthz({ ...healthSeq([{ status: 200, body: { ok: true, sha: OLD } }]), sleep: noSleep, tries: 4, expectSha: SHA, site: SITES.new });
+test('healthz: a site that never reports the sha (or reports none) is not up', async () => {
+  const stale = await healthz({ ...healthSeq([{ status: 200, body: { ok: true, sha: OLD } }]), sleep: noSleep, tries: 4, expectSha: SHA, site: SITE });
   assert.equal(stale.ok, false);
   assert.equal(stale.sha, OLD);
-  const none = await healthz({ ...healthSeq([{ status: 200, body: { ok: true } }]), sleep: noSleep, tries: 2, expectSha: SHA, site: SITES.new });
+  const none = await healthz({ ...healthSeq([{ status: 200, body: { ok: true } }]), sleep: noSleep, tries: 2, expectSha: SHA, site: SITE });
   assert.equal(none.ok, false);
   assert.equal(none.shaMissing, true);
-  const down = await healthz({ ...healthSeq([new Error('boom')]), sleep: noSleep, tries: 2, expectSha: SHA, site: SITES.new });
+  const down = await healthz({ ...healthSeq([new Error('boom')]), sleep: noSleep, tries: 2, expectSha: SHA, site: SITE });
   assert.deepEqual(down, { ok: false, error: 'boom' });
 });
 
-test('healthz on the old app: 200 is enough ({"ok":true} has no sha), as before', async () => {
-  const r = await healthz({ ...healthSeq([{ status: 200, body: { ok: true } }]), sleep: noSleep, tries: 3, expectSha: SHA, site: SITES.old });
-  assert.equal(r.ok, true);
-  assert.equal(r.shaMatched, false);
-  const plain = await healthz({ fetchImpl: async () => ({ ok: true, status: 200 }), sleep: noSleep, tries: 1, site: SITES.old });
-  assert.equal(plain.ok, true, 'a response without a body still counts on the old app');
+test('healthz without an expected sha: 200 is enough', async () => {
+  const plain = await healthz({ fetchImpl: async () => ({ ok: true, status: 200 }), sleep: noSleep, tries: 1 });
+  assert.equal(plain.ok, true);
+  assert.equal(plain.shaMissing, true);
 });
 
-test('followDeploy without a Coolify app id does not ssh', async () => {
-  const r = await followDeploy(SHA, { run: () => assert.fail('no ssh'), sleep: noSleep, log: () => {}, site: SITES.new });
-  assert.equal(r.status, 'unconfirmed');
-  assert.match(r.detail, /no Coolify app id/);
-});
-
-/** A bare origin and a clone holding the game fixtures (places, areas, answers); gh is stubbed, ssh must not run. */
+/** A bare origin and a clone holding the site fixtures (places, areas, answers); gh is stubbed, ssh must not run. */
 function fakeRepo() {
   const dir = tmpDir();
   const git = (cwd, ...args) => { const r = spawnSync('git', ['-C', cwd, ...args], { encoding: 'utf8' }); assert.equal(r.status, 0, r.stderr); return r.stdout.trim(); };
   const origin = path.join(dir, 'origin.git'), work = path.join(dir, 'work');
   git(dir, 'init', '-q', '--bare', '-b', 'main', origin);
   git(dir, 'clone', '-q', origin, work);
-  for (const d of ['places', 'areas', 'answers']) fs.cpSync(path.join(REPO, 'game/test/fixtures', d), path.join(work, d), { recursive: true });
+  for (const d of ['places', 'areas', 'answers']) fs.cpSync(path.join(PLATFORM, 'test/site-fixtures', d), path.join(work, d), { recursive: true });
   git(work, 'config', 'user.name', 't'); git(work, 'config', 'user.email', 't@t');
   git(work, 'add', '-A'); git(work, 'commit', '-q', '-m', 'seed'); git(work, 'push', '-q', 'origin', 'main');
   const calls = [];
   const run = (cmd, args, o = {}) => {
     calls.push([cmd, ...args]);
-    if (cmd === 'ssh') assert.fail('no Coolify app id: nothing goes over ssh');
+    if (cmd === 'ssh') assert.fail('nothing goes over ssh');
     if (cmd === 'gh') {
       if (args[0] === 'auth') return { code: 0, stdout: '', stderr: '' };
       if (args[1] === 'create') return { code: 0, stdout: 'https://github.com/x/y/pull/9', stderr: '' };
@@ -257,7 +241,7 @@ function fakeRepo() {
   return { dir, origin, work, git, run };
 }
 
-test('publish on the new app: waits for /healthz to report the merge commit, prints the new card link', async () => {
+test('publish: waits for /healthz to report the merge commit, prints the new card link', async () => {
   const r = fakeRepo();
   const file = path.join(r.dir, '2026-11-25-kyoto-temples.md');
   fs.writeFileSync(file, '---\nquestion: Which temples first?\nasked: 2026-11-25\nabout: kyoto\ntldr: Fushimi Inari at 07:00 UTC+9.\n---\n');
@@ -271,28 +255,28 @@ test('publish on the new app: waits for /healthz to report the merge commit, pri
     return { ok: true, status: 200, json: async () => ({ ok: true, sha }) };
   };
   const lines = [];
-  const res = await publishAnswers({ root: r.work, run: r.run, fetchImpl, sleep: noSleep, log: (l) => lines.push(l), dataOpts: { includeFixtures: true }, site: SITES.new, files: [file] });
+  const res = await publishAnswers({ root: r.work, run: r.run, fetchImpl, sleep: noSleep, log: (l) => lines.push(l), dataOpts: { includeFixtures: true }, site: SITE, files: [file] });
   assert.equal(res.ok, true);
   assert.equal(res.live, true);
   assert.equal(res.health.sha, res.sha);
   assert.equal(seen.length, 3);
-  assert.equal(res.deploy.status, 'skipped');
+  assert.equal(res.deploy, undefined, 'no Coolify deploy is followed');
   const out = lines.join('\n');
-  assert.match(out, new RegExp(`waiting until ${SITES.new.url.replaceAll('.', '\\.')}/healthz reports ${res.sha.slice(0, 7)}`));
+  assert.match(out, new RegExp(`waiting until ${SITE.url.replaceAll('.', '\\.')}/healthz reports ${res.sha.slice(0, 7)}`));
   assert.match(out, new RegExp(`the site serves ${res.sha.slice(0, 7)} \\(/healthz 200\\): the card is live\\.`));
-  assert.ok(res.links.includes(`${SITES.new.url}/places/answers/2026-11-25-kyoto-temples`));
+  assert.ok(res.links.includes(`${SITE.url}/places/answers/2026-11-25-kyoto-temples`));
 });
 
-test('publish on the new app: a site stuck on the old commit is reported as not confirmed, never live', async () => {
+test('publish: a site stuck on the old commit is reported as not confirmed, never live', async () => {
   const r = fakeRepo();
   const file = path.join(r.dir, '2026-11-25-kyoto-temples.md');
   fs.writeFileSync(file, '---\nquestion: Which temples first?\nasked: 2026-11-25\nabout: kyoto\ntldr: Fushimi Inari.\n---\n');
   let n = 0;
   const fetchImpl = async () => { n++; return { ok: true, status: 200, json: async () => ({ ok: true, sha: OLD }) }; };
   const lines = [];
-  const res = await publishAnswers({ root: r.work, run: r.run, fetchImpl, sleep: noSleep, log: (l) => lines.push(l), dataOpts: { includeFixtures: true }, site: SITES.new, files: [file], deployTimeoutMs: 60e3 });
+  const res = await publishAnswers({ root: r.work, run: r.run, fetchImpl, sleep: noSleep, log: (l) => lines.push(l), dataOpts: { includeFixtures: true }, site: SITE, files: [file], deployTimeoutMs: 60e3 });
   assert.equal(res.live, false);
   assert.equal(n, 6, 'polls for the whole deploy timeout (60 s / 10 s)');
-  assert.match(lines.join('\n'), /deploy started, not confirmed: .*\/healthz still reports bbbbbbb, not [0-9a-f]{7}/);
+  assert.match(lines.join('\n'), /deploy not confirmed: \/healthz still reports bbbbbbb, not [0-9a-f]{7}/);
   assert.doesNotMatch(lines.join('\n'), /the card is live/);
 });

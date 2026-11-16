@@ -7,8 +7,8 @@ import fs from 'node:fs';
 import http from 'node:http';
 import path from 'node:path';
 import { PLATFORM, ROOT } from '../lib/paths.js';
-import { bundleProblems, exportUrl, missingFiles, pull, pullInfo, pullSource, readToken, writePull, DEFAULT_SOURCE, EXPECTED_FILES, KEYCHAIN_SERVICE, MANIFEST } from '../lib/feedback/pull.js';
-import { SITES } from '../lib/site.js';
+import { bundleProblems, exportUrl, missingFiles, pull, pullInfo, readToken, writePull, DEFAULT_SOURCE, EXPECTED_FILES, KEYCHAIN_SERVICE, MANIFEST } from '../lib/feedback/pull.js';
+import { SITE } from '../lib/site.js';
 import { tmpDir } from './helpers.js';
 
 const TOKEN = randomBytes(18).toString('base64url'); // generated per run, never a real token
@@ -88,28 +88,15 @@ test('trip pull writes trip-live, and ATR_EXPORT_URL is the default URL', async 
   assert.ok(!fs.existsSync(live(root)));
 });
 
-test('the source: --from-convex is the default; --from-backup is not built, so it writes nothing', async () => {
+test('the source: GET /ops/export on the Convex site is the only one, and the default', () => {
   assert.equal(DEFAULT_SOURCE, 'convex');
-  assert.equal(pullSource({}), DEFAULT_SOURCE);
-  assert.equal(pullSource({ fromConvex: true }), 'convex');
-  assert.throws(() => pullSource({ fromConvex: true, fromBackup: true }), /pick one source/);
-  served = bundle();
-  const before = requests.length;
-  for (const args of [['feedback', 'pull', '--from-backup', '--url', base], ['trip', 'pull', '--from-backup'], ['feedback', 'pull', '--from-convex', '--from-backup', '--url', base]]) {
-    const root = tmpDir();
-    const r = await atr(root, args, { ATR_EXPORT_URL: base });
-    assert.equal(r.status, 1, args.join(' '));
-    assert.match(r.stderr, /--from-backup\) is not available|pick one source/);
-    assert.ok(!fs.existsSync(path.join(root, '.cache')), 'nothing written');
-  }
-  assert.equal(requests.length, before, 'nothing fetched');
 });
 
-test('--from-convex defaults to the new site\'s Convex export URL and reports its source', async () => {
+test('--from-convex defaults to the site\'s Convex export URL and reports its source', async () => {
   const seen = [];
   const fetchImpl = async (u) => { seen.push(String(u)); return { ok: true, status: 200, json: async () => bundle() }; };
   const r = await pull({ kind: 'trip', source: 'convex', cacheDir: tmpDir(), env: { ATR_EXPORT_TOKEN: TOKEN }, fetchImpl });
-  assert.equal(seen[0], `${SITES.new.exportUrl}/ops/export`);
+  assert.equal(seen[0], `${SITE.exportUrl}/ops/export`);
   assert.equal(r.source, 'convex');
   assert.equal(r.files.length, EXPECTED_FILES.trip.length);
 });
@@ -214,7 +201,7 @@ test('the keychain is read with security(1), the token never on its command line
   assert.equal(calls.length, 1);
 });
 
-test('after a pull, read-only commands use .cache/feedback-live, ./atr game still writes <root>/feedback', async () => {
+test('after a pull, read-only commands use .cache/feedback-live; dataRoots().feedback stays <root>/feedback', async () => {
   served = bundle({ swipes: 3 });
   const root = tmpDir();
   fs.mkdirSync(path.join(root, 'feedback'));
@@ -228,7 +215,7 @@ test('after a pull, read-only commands use .cache/feedback-live, ./atr game stil
   assert.equal((await atr(root, ['feedback', 'pull', '--from-convex', '--url', base])).status, 0);
   const after = JSON.parse(probe().stdout);
   assert.equal(after.ro, live(root));
-  assert.equal(after.game, path.join(root, 'feedback'), 'dataRoots().feedback (what ./atr game writes) is unchanged');
+  assert.equal(after.game, path.join(root, 'feedback'), 'dataRoots().feedback is unchanged');
   assert.notEqual(after.fx, live(root), 'fixture mode keeps the fixtures');
   assert.equal(JSON.parse(probe({ ATR_FEEDBACK_DIR: '/x/y' }).stdout).ro, '/x/y');
 

@@ -47,7 +47,7 @@ export const liveDirs = () => ({ feedback: path.join(ROOT, '.cache', 'feedback-l
 /**
  * The feedback directory for read-only curator commands (feedback, taste, next, run --auto): --dir, else
  * ATR_FEEDBACK_DIR, else .cache/feedback-live/ when a pull wrote it, else <data root>/feedback. Fixture mode and a
- * custom data root keep their own feedback/. `dataRoots().feedback` (what ./atr game writes) never changes.
+ * custom data root keep their own feedback/. `dataRoots().feedback` (the repo copy) never changes.
  */
 export function readOnlyFeedbackDir(opts = {}) {
   if (opts.dir) return path.resolve(opts.dir);

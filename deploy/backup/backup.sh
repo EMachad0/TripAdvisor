@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 # Nightly backup of the trip site (plan section 13). Runs on the VPS host from atr-backup.timer, or by hand:
 #
-#   deploy/backup/backup.sh                 every leg (old /data, Convex), then the status object
-#   deploy/backup/backup.sh --now           the same, on demand (the cutover snapshot uses exactly this path)
+#   deploy/backup/backup.sh                 the Convex leg (plus the old leg while OLD_DATA_DIR is set), then status
+#   deploy/backup/backup.sh --now           the same, on demand (the cutover snapshot used exactly this path)
 #   deploy/backup/backup.sh --leg old       one leg only: old | convex   (the status object is always written)
 #   deploy/backup/backup.sh --config DIR    another config dir (default /root/.config/atr-backup)
+#
+# The old leg archives the retired old site's /data volume. It runs by default only while OLD_DATA_DIR is set in
+# backup.env; leave OLD_DATA_DIR empty (or remove it) and the nightly job is the Convex leg alone.
 #
 # Objects, named by second (UTC) so a manual run never overwrites the nightly one; "newest" is the greatest key:
 #   old/<ts>.tar.gz.age        old /data feedback/ + trip/ and manifest.json          age: owner + CI
@@ -23,10 +26,10 @@
 set -euo pipefail
 umask 077
 
-usage() { sed -n '2,23p' "$0"; exit 2; }
+usage() { sed -n '2,25p' "$0"; exit 2; }
 
 CONFIG_DIR="${ATR_BACKUP_CONFIG:-/root/.config/atr-backup}"
-LEGS=(old convex)
+LEGS=()
 while [[ $# -gt 0 ]]; do
 	case "$1" in
 		--now) shift ;; # same path as the timer; kept so runbooks read clearly
@@ -70,6 +73,11 @@ RCLONE_CONFIG_FILE="$(conf_get "$CONF" RCLONE_CONFIG)"; RCLONE_CONFIG_FILE="${RC
 STATUS_DISK_PATH="$(conf_get "$CONF" STATUS_DISK_PATH)"; STATUS_DISK_PATH="${STATUS_DISK_PATH:-/}"
 CONVEX_NODE_IMAGE="$(conf_get "$CONF" CONVEX_NODE_IMAGE)"; CONVEX_NODE_IMAGE="${CONVEX_NODE_IMAGE:-node:24-slim}"
 CONVEX_CLI_VERSION=1.50.0
+
+# Default legs: Convex, plus the old /data volume only while OLD_DATA_DIR names it.
+if [[ ${#LEGS[@]} -eq 0 ]]; then
+	if [[ -n "$OLD_DATA_DIR" ]]; then LEGS=(old convex); else LEGS=(convex); fi
+fi
 
 [[ -n "$BACKUP_DEST" ]] || die "BACKUP_DEST is not set in $CONF"
 [[ "$AGE_OWNER_RECIPIENT" == age1* ]] || die "AGE_OWNER_RECIPIENT must be an age public key (age1…)"

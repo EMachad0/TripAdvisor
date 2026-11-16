@@ -1,83 +1,51 @@
 # Deploying the trip site
 
-> **Since the cutover of 2026-11-16** the site at the address below is the new app: `trip-web` (SvelteKit, built from
-> `apps/web/Dockerfile`) with the self-hosted Convex service `convex` (`api.<site>`, `cvx.<site>`). Its resources, env
-> names and backup job are in `deploy/coolify/README.md`; the cutover and rollback steps are in
-> `docs/migration/cutover.md`. The rest of this page describes the old app `trip-site`, which stays up read-only
-> (`ATR_READ_ONLY=1`) at https://old.trip.187.53.115.237.sslip.io as the fallback until it is retired.
-
-The old site runs on a VPS under Coolify, built from the `Dockerfile` at the repo root.
+The site is `trip-web` (the SvelteKit app in `apps/web`, built from `apps/web/Dockerfile`) with its self-hosted Convex
+backend `convex`, both on a VPS under Coolify. The Coolify resources, env names, build settings and the backup job are
+in [`deploy/coolify/README.md`](../deploy/coolify/README.md).
 
 - Site: https://trip.187.53.115.237.sslip.io (owner and guest logins)
-- Coolify dashboard: http://187.53.115.237:8000 (project "Asia Trip", app `trip-site`)
+- Convex: `https://api.<site>` (backend) and `https://cvx.<site>` (HTTP actions, `GET /ops/export`); the dashboard
+  is bound to `127.0.0.1:6791` on the VPS (SSH tunnel only)
+- Coolify dashboard: http://187.53.115.237:8000 (project "Asia Trip")
 - Server: `ssh root@187.53.115.237`
+
+The old app (`trip-site`, `game/server.js`) was retired after the cutover of 2026-11-16; its code is gone from the
+repo (git history has it) and rolling back to it is no longer possible. `docs/migration/cutover.md` is the record of
+the cutover.
 
 ## What lives where
 
 | Data | Lives in | Changes by |
 |---|---|---|
-| Code, `places/`, `areas/`, `answers/`, `config/` | Git, baked into the image | A merge to `main`, which Coolify deploys |
-| `feedback/` and `trip/` (swipes, notes, route, itinerary, money) | The `/data` volume on the VPS | The site, as the traveler uses it |
-| Map tiles and other caches | `/data/cache` | The site |
+| Code, `places/`, `areas/`, `answers/`, `config/` | Git, baked into the `trip-web` image | A merge to `main`, which Coolify deploys |
+| Swipes, duels, notes, route and the trip collections (legs, days, tasks, bag, budget, spend…) | Convex (`convex-data` volume) | The site, as the traveler uses it; `./atr trip set\|update\|delete` |
+| Map tiles and rendered maps | `web-cache` volume (`/data/cache`) | The site |
 
-The image carries the repo's `feedback/` and `trip/` only as a seed. On the first boot the entrypoint copies them to `/data`; after that the volume is the only live copy and deploys never touch it.
+`feedback/` and `trip/` in git are a historical snapshot (see their README). Curators read the live data with
+`./atr feedback pull` and `./atr trip pull`, which write `.cache/feedback-live/` and `.cache/trip-live/`.
 
-Curators and Claude Code agents run on the laptop, not on the server. The traveler's questions are answered there and published as answer cards (`answers/*.md`) with `./atr answers publish <file>`: it opens a pull request from a temporary worktree, merges it, follows this deploy and checks `/healthz`. The site URL, SSH login and Coolify app id it uses are in `platform/lib/site.js`.
-
-## Coolify setup (once)
-
-1. New resource from the private GitHub repo, build pack **Dockerfile**, branch `main`, auto deploy on.
-2. Port: `4400`. Health check path: `/healthz`.
-3. Persistent storage: one volume mounted at `/data`.
-4. Environment variables (type the passwords into Coolify's UI; they never go in the repo):
-   - `ATR_OWNER_PASSWORD` (required): the owner's password, full access. The container refuses to start without it.
-   - `ATR_OWNER_USER` (optional, default `eliton`): the owner's username.
-   - `ATR_GUEST_PASSWORD` (optional): turns on a read-only guest account. Leave it unset and only the owner can sign in.
-   - `ATR_GUEST_USER` (optional, default `guest`): the guest's username.
-   - `ATR_READ_ONLY` (optional): set to `1` to refuse every change with a 503 while sign-in and reading keep working. Use it during a data migration or as an emergency brake. Never unset `ATR_OWNER_PASSWORD` to stop writes: that turns sign-in off and opens the site.
-
-   Usernames ignore case and spaces. A guest sees everything the owner sees but every change is refused. Sign-ins last 400 days and renew on each visit; changing an account's password signs that account out everywhere.
-5. Domain with HTTPS (Coolify's proxy issues the certificate).
+Production Convex commands go through `scripts/convex-prod.sh` (it prints the host and asks first). Backups: the
+nightly `atr-backup.timer` on the VPS (`deploy/backup/`), checked by the `restore-test` and `backup-freshness`
+workflows; restoring is `docs/migration/runbook-restore.md`.
 
 ## How an agent ships a change
 
-1. Work on a branch, run `npm test`.
-2. Open a pull request against `main` and merge it.
-3. A GitHub webhook tells Coolify, which builds and deploys the merge. The old container keeps serving until the new one is healthy. A build takes a few minutes on this server.
-4. Check it: `curl -s https://trip.187.53.115.237.sslip.io/healthz`.
+1. Work on a branch; run `corepack pnpm verify` (format, lint, typecheck, tests, e2e; see `docs/migration/DEV.md`).
+2. Open a pull request against `main`. CI runs `verify` and `e2e` (both skip content-only PRs). Never push to `main`.
+3. A merge to `main` makes Coolify build and deploy `trip-web`; the running container serves until the new one is
+   healthy.
+4. Check it: `curl -s https://trip.187.53.115.237.sslip.io/healthz` reports `{"ok":true,"sha":"<deployed commit>"}`.
 
-No direct pushes to `main`.
-
-To deploy again without a merge, or to follow a deploy to the end:
-
-```bash
-ssh root@187.53.115.237 '/root/deploy-trip.sh --wait'
-```
-
-That script always starts a new deploy. To only watch the deploys a merge started (what `./atr answers publish` does), list them read-only; the token never leaves the server:
-
-```bash
-ssh root@187.53.115.237 'AUTH="Authorization: Bearer $(cat /root/.coolify-token)"; curl -fsS -H "$AUTH" "http://localhost:8000/api/v1/deployments/applications/zoom1ixd7gj2y4snw6oculrb?take=5" | jq -c "[(.deployments // .)[] | {commit, status}]"'
-```
-
-## Notes on this Coolify setup
-
-- Coolify reads the repo with a read-only deploy key.
-- Coolify's own health check is switched off on purpose: it needs `curl` or `wget` in the container and the image has neither. The `HEALTHCHECK` in the `Dockerfile` does the job instead, and rolling updates wait for it.
-- The passwords are set as runtime environment variables in Coolify. To change one, replace its value in the dashboard and redeploy.
-- The live data is the Docker volume mounted at `/data`.
+Answer cards (`answers/*.md`) ship with `./atr answers publish <file>`: it opens a pull request from a temporary
+worktree, merges it and waits until `/healthz` reports the merge commit. The site URL it uses is in
+`platform/lib/site.js`.
 
 ## Try the image locally
 
 ```bash
-docker build -t atr-site .
-read -rsp 'Owner password: ' ATR_OWNER_PASSWORD; echo; read -rsp 'Guest password (empty: no guest): ' ATR_GUEST_PASSWORD; echo
-export ATR_OWNER_PASSWORD ATR_GUEST_PASSWORD
-docker run --rm -p 4400:4400 -v atr-data:/data -e ATR_OWNER_PASSWORD -e ATR_GUEST_PASSWORD atr-site
+docker build -f apps/web/Dockerfile --build-arg GIT_SHA="$(git rev-parse HEAD)" -t trip-web .
 ```
 
-## Not built yet
-
-- Pulling `/data/feedback` and `/data/trip` back to the laptop before a curator run, so curators see what was swiped and noted on the road.
-- Offline use (installable app, cached pages, queued writes).
-- A nightly backup of `/data` off the VPS.
+The image needs a Convex backend and its env (`deploy/coolify/env/trip-web.env.template`); for local work use the dev
+setup in `docs/migration/DEV.md` instead.

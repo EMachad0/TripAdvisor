@@ -8,7 +8,7 @@
 #   https://cvx.<site> (HTTP actions, Better Auth). The dashboard gets NO domain: it is published on the host's
 #   loopback only, reached with `ssh -L 6791:localhost:6791 <vps>` (the template's SERVICE_URL_DASHBOARD_6791 is
 #   removed on purpose).
-# - Memory limits and log rotation on both services, so neither can starve the old site or fill the disk. Tune the
+# - Memory limits and log rotation on both services, so neither can starve the web app or fill the disk. Tune the
 #   backend limit after spike S23 (free -m available >= 1 GB over a backup run plus a full e2e run).
 services:
   backend:

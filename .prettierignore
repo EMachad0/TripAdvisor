@@ -1,6 +1,5 @@
-# Outside the format gate (plan section 9): the old stack, content, generated and vendored files.
+# Outside the format gate (plan section 9): the platform (plain JS), content, generated and vendored files.
 platform/
-game/
 places/
 areas/
 answers/
@@ -22,7 +21,6 @@ playwright-report/
 test-results/
 **/playwright/.auth/
 pnpm-lock.yaml
-package-lock.json
 skills-lock.json
 README.md
 CLAUDE.md

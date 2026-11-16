@@ -13,7 +13,7 @@ import { sessionCost } from './review.js';
 // (loads deferred tools such as WebSearch) need no permission and ran anyway; they are listed so the
 // allow-list matches what a session really uses. Subagents inherit the same allow/deny rules.
 export const ALLOWED_TOOLS = ['Read', 'Write', 'Edit', 'Bash', 'WebSearch', 'WebFetch', 'Glob', 'Grep', 'Agent', 'ToolSearch'];
-const PROTECTED = ['platform', 'docs', 'config', 'feedback', 'game', 'apps', 'packages', 'tooling', 'deploy', 'scripts', 'package.json', 'package-lock.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', 'atr', 'README.md'];
+const PROTECTED = ['platform', 'docs', 'config', 'feedback', 'apps', 'packages', 'tooling', 'deploy', 'scripts', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', 'atr', 'README.md'];
 // Deny rules win over the allow-list, in the main session and in subagents.
 export const DISALLOWED_TOOLS = PROTECTED.flatMap((p) => [`Edit(./${p}/**)`, `Write(./${p}/**)`, `Edit(./${p})`, `Write(./${p})`]);
 const SKIP_SNAPSHOT = new Set(['node_modules', '.git', 'build', 'runs', '.cache', 'places', 'areas']);

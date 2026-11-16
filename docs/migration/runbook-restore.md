@@ -1,9 +1,9 @@
 # Runbook: restore Convex from a backup
 
 Plan section 13. Use it for a lost or corrupted Convex volume, a new VPS, or a bad write that has to be undone. The
-old site's own runbook is `runbook-restore-old.md` (task 2). Steps marked **(owner)** change production: the owner
-confirms each one, and `scripts/convex-prod.sh` asks for the host before every write. You are responsible for every
-command you run here, the same as if you typed it by hand.
+old site is retired; its `/data` archives in `old/` can still be checked with `deploy/backup/restore-check.sh`. Steps
+marked **(owner)** change production: the owner confirms each one, and `scripts/convex-prod.sh` asks for the host
+before every write. You are responsible for every command you run here, the same as if you typed it by hand.
 
 The script is `deploy/backup/restore-convex.sh`, the same one the nightly restore test runs. It was drilled end to
 end on 2026-11-15 (22:51 UTC) on a fresh local backend (spike S15): `migrate verify` 0 differences, 32 tables and 99

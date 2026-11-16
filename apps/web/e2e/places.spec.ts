@@ -1,6 +1,6 @@
 // Places (slice D): find any card by words, city, kind and Which cards; results grouped by city with "N/M been",
 // the place sheet, the "been there" tick, verdict pills, notes and the "New" tag. Runs on the e2e content
-// (game/test/fixtures places, 21 cards) and the e2e trip set (stays in Harbin and Kyoto + Osaka). The tick test
+// (platform/test/site-fixtures places, 21 cards) and the e2e trip set (stays in Harbin and Kyoto + Osaka). The tick test
 // undoes its own write through the UI. No direct Convex calls (each one hits Better Auth's rate-limited JWKS route).
 import { expect, test, type Locator, type Page, type Response } from '@playwright/test';
 import { STORAGE } from './support';

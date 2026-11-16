@@ -1,6 +1,6 @@
 // Answers (slice D): every answer card newest first with the country chips, /places/answers/<id> and #answer-<id>
 // opening one card, the UTC offset after every clock time, the About link opening the place or area sheet on that
-// answer, and the platform's escaping. Runs on game/test/fixtures/answers (4 cards). Read only for everyone.
+// answer, and the platform's escaping. Runs on platform/test/site-fixtures/answers (4 cards). Read only for everyone.
 import { expect, test, type Locator, type Page, type Response } from '@playwright/test';
 import { STORAGE } from './support';
 

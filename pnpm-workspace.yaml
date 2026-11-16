@@ -1,5 +1,5 @@
-# pnpm workspace for the new stack. The root package.json stays npm-compatible for the old image (plain
-# specifiers, never catalog:); every workspace package takes its versions from the catalog below.
+# pnpm workspace. Every workspace package takes its versions from the catalog below; the root package.json
+# keeps plain specifiers.
 packages:
   - platform
   - packages/*
@@ -75,7 +75,7 @@ catalog:
   '@edge-runtime/vm': 5.0.0
   '@playwright/test': 1.65.1
   fake-indexeddb: 6.2.8
-  # platform (same versions as the root package-lock.json)
+  # platform (same versions as the root package.json)
   '@fontsource/fraunces': 5.3.0
   '@fontsource/inter': 5.3.0
   '@fontsource/jetbrains-mono': 5.3.0

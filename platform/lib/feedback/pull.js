@@ -3,9 +3,8 @@
 // .cache/trip-live/ (gitignored), for the read-only curator commands. The bundle format is defined in
 // packages/migrate/src/bundle.ts:
 //   { format: "atr-v1-bundle", version: 1, generatedAt, files: { "<feedback|trip>/<name>": { count, sha256, content } } }
-// Sources (plan section 7): --from-convex is GET /ops/export on the new app's Convex site (this file); --from-backup
-// (the old site's encrypted backup) is not built in this checkout. DEFAULT_SOURCE is 'convex' since the cutover
-// PR flips it to 'convex', so a bare `pull` never silently reads the shadow backend before the cutover.
+// Source (plan section 7): GET /ops/export on the site's Convex backend (--from-convex, also the default). The old
+// site's backup source (--from-backup) went with the old site.
 // Rules:
 // - the token comes from ATR_EXPORT_TOKEN or the macOS keychain (service "atr-export-token"); it is never an
 //   argument, never printed and never written anywhere;
@@ -17,7 +16,7 @@ import { execFileSync } from 'node:child_process';
 import { createHash, randomBytes } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
-import { SITES } from '../site.js';
+import { SITE } from '../site.js';
 
 export const BUNDLE_FORMAT = 'atr-v1-bundle';
 export const MANIFEST = '.pull-manifest.json';
@@ -29,7 +28,7 @@ export const PULL_KINDS = {
   trip: { prefix: 'trip/', dir: 'trip-live' },
 };
 /** Where a pull can come from. */
-export const SOURCES = ['convex', 'backup'];
+export const SOURCES = ['convex'];
 export const DEFAULT_SOURCE = 'convex';
 /** Every file GET /ops/export carries for each kind (@atr/shared v1 exportV1Files); a pull refuses a bundle without one. */
 export const EXPECTED_FILES = {
@@ -128,12 +127,6 @@ export function missingFiles(bundle, kind) {
   return (EXPECTED_FILES[kind] || []).filter((n) => !Object.hasOwn(files, `${PULL_KINDS[kind].prefix}${n}`));
 }
 
-/** The source a pull uses from the CLI flags: --from-convex, --from-backup, else DEFAULT_SOURCE. */
-export function pullSource({ fromConvex = false, fromBackup = false } = {}) {
-  if (fromConvex && fromBackup) throw pullError('pick one source: --from-convex or --from-backup');
-  return fromConvex ? 'convex' : fromBackup ? 'backup' : DEFAULT_SOURCE;
-}
-
 /**
  * Writes the kind's files from a checked bundle into <cacheDir>/<kind>-live through a temp dir and a rename.
  * `complete: true` also requires every file in EXPECTED_FILES[kind] (what GET /ops/export always sends).
@@ -174,14 +167,11 @@ export function writePull({ bundle, kind, cacheDir, source, complete = false, no
 
 /**
  * The whole pull: source, token, fetch, check, write. Returns what writePull returns plus `source`.
- * --from-convex reads --url, else ATR_EXPORT_URL, else the new app's Convex site (site.js SITES.new.exportUrl).
+ * --from-convex reads --url, else ATR_EXPORT_URL, else the site's Convex origin (site.js SITE.exportUrl).
  */
 export async function pull({ kind, url, cacheDir, source = DEFAULT_SOURCE, env = process.env, fetchImpl = fetch, exec = execFileSync, platform = process.platform, now }) {
   if (!SOURCES.includes(source)) throw pullError(`unknown pull source ${source}`);
-  if (source === 'backup') {
-    throw pullError(`the backup source (--from-backup) is not available in this checkout yet. Read the new site's backend with \`./atr ${kind} pull --from-convex\` (before the cutover that is the shadow copy and can lag the live site), or pass --dir <feedback-dir> to the read-only commands.`);
-  }
-  const base = url || env.ATR_EXPORT_URL || SITES.new.exportUrl;
+  const base = url || env.ATR_EXPORT_URL || SITE.exportUrl;
   if (!base) throw pullError('say where to pull from: --url <site> or ATR_EXPORT_URL (the Convex site origin that serves /ops/export)');
   const u = exportUrl(base);
   const token = readToken({ env, platform, exec });

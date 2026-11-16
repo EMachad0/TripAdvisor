@@ -2,7 +2,7 @@
 # /usr/local/lib/atr-backup/backup.sh, config in /root/.config/atr-backup/ (mode 600). Started by atr-backup.timer;
 # `systemctl start atr-backup.service` runs it now (the same path as `backup.sh --now`).
 [Unit]
-Description=Asia Trip Ranker backup (old /data + Convex) to the off-VPS store
+Description=Asia Trip Ranker backup (Convex, plus the old /data while OLD_DATA_DIR is set) to the off-VPS store
 Wants=network-online.target docker.service
 After=network-online.target docker.service
 
@@ -21,6 +21,6 @@ Environment=TMPDIR=/run/atr-backup
 Nice=10
 IOSchedulingClass=best-effort
 IOSchedulingPriority=7
-# The job reads the old volume and talks to docker; it never needs more than this.
+# The job talks to docker (and reads the old volume while OLD_DATA_DIR is set); it never needs more than this.
 MemoryMax=512M
 TimeoutStartSec=30min
