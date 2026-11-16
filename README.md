@@ -1,6 +1,6 @@
 # Asia Trip Ranker
 
-A local web game that helps rank attractions (sights, food, bars, parties, odd local experiences) for a solo, budget-minded trip through China, Korea, Japan, Hong Kong and Thailand (Dec 2026 – Jan 2027).
+A trip-planner site and a curator platform for a solo, budget-minded trip through China, Korea, Japan, Hong Kong and Thailand (Dec 2026 – Feb 2027). The site (`apps/web`, SvelteKit with a self-hosted Convex backend) has Today, Trip, Places, Decide, Money and Prep; its Decide part is a game that ranks attractions (sights, food, bars, parties, odd local experiences).
 
 The game produces a **ranking**, not a schedule. The ranking is the input for deciding, together with Claude, how to split days between places.
 
@@ -19,8 +19,10 @@ The game produces a **ranking**, not a schedule. The ranking is the input for de
 | [docs/DECISIONS.md](docs/DECISIONS.md) | Decisions made while building the platform |
 | [docs/TASTE.md](docs/TASTE.md) | What the traveler said they want; the machine-readable copy is `config/taste.yaml` |
 | [docs/REVIEWER-GUIDE.md](docs/REVIEWER-GUIDE.md) | Brief for the independent reviewer that fact-checks curator pages (`./atr review`) |
+| [docs/DEPLOY.md](docs/DEPLOY.md) | The hosted site: where it runs, what lives where, how a change ships |
+| [docs/migration/DEV.md](docs/migration/DEV.md) | Working on the app: install, local Convex, dev server, tests, e2e |
 
-Quick start: `npm install && ./atr --help`. Open the trip site: `./atr game` (Today, Trip, Places, Decide, Money, Prep). The trip's own data is in `trip/*.json`; see [docs/TRIP.md](docs/TRIP.md).
+Quick start: `corepack pnpm install && ./atr --help`. The site runs at https://trip.187.53.115.237.sslip.io; to run it locally see [docs/migration/DEV.md](docs/migration/DEV.md). The trip's live data is in Convex (`./atr trip pull` copies it to `.cache/trip-live/`; `trip/*.json` is a snapshot from the cutover); see [docs/TRIP.md](docs/TRIP.md).
 
 Questions about the trip are answered by Claude Code agents in this repo and published as answer cards: `answers/*.md`, checked with `./atr answers --check`, shipped with `./atr answers publish <file>` (see `.claude/skills/trip-answers/SKILL.md`).
 | [docs/CURATOR-GUIDE.md](docs/CURATOR-GUIDE.md) | **Curators read this first**: workflow, format, blocks, quality bar |
@@ -31,11 +33,11 @@ Questions about the trip are answered by Claude Code agents in this repo and pub
 ## Platform quick start
 
 ```bash
-npm install
+corepack pnpm install
 ./atr --help                 # every command has --help
 ./atr validate --fixtures    # validate the test fixtures
 ./atr shot yu-garden --fixtures
-npm test
+corepack pnpm test           # every workspace package's tests (platform, packages, apps/web)
 ```
 
 ## Ground rules (short version)

@@ -2,7 +2,7 @@
 //
 // The site is the SvelteKit app (`trip-web`) with its self-hosted Convex backend. Its /healthz answers {ok, sha}, so
 // a publish waits until the site serves the merged commit; the curator export (GET /ops/export) is on the Convex site.
-// The old app (game/server.js, `trip-site`) was retired after the cutover of 2026-11-16.
+// The old app (`trip-site`) was retired after the cutover of 2026-11-16.
 export const SITE = {
   url: 'https://trip.187.53.115.237.sslip.io',
   /** The branch Coolify deploys (`trip-web`, app xbgdnounik78nabmkmecl45d). */

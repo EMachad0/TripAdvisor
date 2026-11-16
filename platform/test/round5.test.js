@@ -504,14 +504,14 @@ test('runner: only files the session itself wrote are violations; the rest is "c
     ev([{ type: 'tool_use', name: 'Write', input: { file_path: path.join(ROOT, 'places/china/x/place.yaml') } }]),
     ev([{ type: 'tool_use', name: 'Edit', input: { file_path: path.join(ROOT, 'docs/CURATOR-GUIDE.md') } }]),
     ev([{ type: 'tool_use', name: 'Write', input: { file_path: 'platform/lib/evil.js' } }], 'toolu_subagent'),
-    ev([{ type: 'tool_use', name: 'Bash', input: { command: 'cd config && sed -i "" s/a/b/ trip.yaml; ./atr validate --all; cat game/server.js | head' } }]),
+    ev([{ type: 'tool_use', name: 'Bash', input: { command: 'cd config && sed -i "" s/a/b/ trip.yaml; ./atr validate --all; cat apps/web/src/hooks.server.ts | head' } }]),
     ev([{ type: 'text', text: 'config/taste.yaml' }]),
-    { type: 'user', message: { content: [{ type: 'tool_result', content: 'game/lib/board.js' }] } },
+    { type: 'user', message: { content: [{ type: 'tool_result', content: 'packages/shared/src/board.ts' }] } },
   ]);
-  const changed = ['config/taste.yaml', 'config/trip.yaml', 'docs/CURATOR-GUIDE.md', 'platform/lib/evil.js', 'game/lib/board.js', 'game/lib/elo.js', 'game/server.js', 'atr', 'package.json'];
+  const changed = ['config/taste.yaml', 'config/trip.yaml', 'docs/CURATOR-GUIDE.md', 'platform/lib/evil.js', 'packages/shared/src/board.ts', 'packages/shared/src/elo.ts', 'apps/web/src/hooks.server.ts', 'atr', 'package.json'];
   const { violations, elsewhere } = attributeChanges(changed, writes);
-  assert.deepEqual(violations, ['config/trip.yaml', 'docs/CURATOR-GUIDE.md', 'platform/lib/evil.js'], 'reading game/server.js with cat is not writing it');
-  assert.deepEqual(elsewhere, ['config/taste.yaml', 'game/lib/board.js', 'game/lib/elo.js', 'game/server.js', 'atr', 'package.json']);
+  assert.deepEqual(violations, ['config/trip.yaml', 'docs/CURATOR-GUIDE.md', 'platform/lib/evil.js'], 'reading a file with cat is not writing it');
+  assert.deepEqual(elsewhere, ['config/taste.yaml', 'packages/shared/src/board.ts', 'packages/shared/src/elo.ts', 'apps/web/src/hooks.server.ts', 'atr', 'package.json']);
   assert.equal(commandTouches('./atr gaps', 'atr'), false);
   assert.equal(commandTouches('echo x > atr', 'atr'), true);
   assert.equal(commandTouches(`echo x >> ${path.join(ROOT, 'config/trip.yaml')}`, 'config/trip.yaml'), true);

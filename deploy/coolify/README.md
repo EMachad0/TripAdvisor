@@ -1,14 +1,17 @@
-# Coolify resources for the new stack
+# Coolify resources for the trip site
 
 Plan section 12. Values never go in the repo: every file under `env/` lists names only. `<site>` is the current site
-host (`docs/DEPLOY.md`); it is an sslip.io name, so `api.<site>`, `cvx.<site>` and `new.<site>` resolve with no DNS
+host (`docs/DEPLOY.md`); it is an sslip.io name, so `api.<site>` and `cvx.<site>` resolve with no DNS
 records (`dig +short api.<site>` to check). Every step here is a production step the owner confirms.
 
 | Resource | Source | Domains | Volume | Env (names) |
 |---|---|---|---|---|
 | `convex` (Docker Compose) | `deploy/coolify/convex.compose.yaml` | backend `:3210` → `https://api.<site>`, `:3211` → `https://cvx.<site>`; dashboard none (`127.0.0.1:6791` only) | `convex-data:/convex/data` | `env/convex.env.template` |
-| `trip-web` (Dockerfile) | repo, branch `mig/next` (then `main`), Dockerfile `apps/web/Dockerfile`, build context `/` (repo root) | `https://new.<site>` → `3000` (cutover: `https://<site>`) | `web-cache:/data/cache` | `env/trip-web.env.template` |
-| `trip-site` (old, unchanged) | root `Dockerfile` | `https://<site>` → `4400` (cutover: `https://old.<site>`) | `/data` | unchanged, plus `ATR_READ_ONLY` |
+| `trip-web` (Dockerfile) | repo, branch `main`, Dockerfile `apps/web/Dockerfile`, build context `/` (repo root) | `https://<site>` → `3000` | `web-cache:/data/cache` | `env/trip-web.env.template` |
+
+The old app `trip-site` (root `Dockerfile`, `game/server.js`, volume `/data`) was retired after the cutover of
+2026-11-16 and its code removed from the repo. The backup job archives its `/data` only while `OLD_DATA_DIR` is set in
+`backup.env`.
 
 Convex deployment env (inside Convex, set with `scripts/convex-prod.sh env set`): `env/convex-deployment.env.template`.
 The admin key file (laptop and VPS): `env/convex-admin.env.template`. Backup job config: `env/backup.env.template`.
@@ -38,17 +41,12 @@ Limits in the compose file: backend `mem_limit: 1g`, dashboard `256m`; both log 
 - Custom Docker options (Coolify → Advanced): `--memory=512m --log-opt max-size=10m --log-opt max-file=3`. At idle
   the app uses about 140 MB.
 - Health check: the image has a `HEALTHCHECK` on `/healthz` (node `fetch`, no curl in the image). Leave Coolify's own
-  check off, as for `trip-site`.
+  check off.
 - Persistent storage: volume `web-cache` mounted at `/data/cache` (map tiles and rendered maps; `/app/content/.cache`
   links there).
 - Build needs on the 1 CPU / 4 GB VPS: `pnpm fetch` + offline install peak about 830 MB, `vite build` about 690 MB
   (measured under a 1 GB, 1 CPU cap); the V8 heap is capped at 1.5 GB by `NODE_OPTIONS`. About 1 minute with a warm
   BuildKit cache. The image is about 510 MB compressed (1.4 GB unpacked: 360 MB of content, 195 MB node_modules).
-
-## Log rotation on `trip-site`
-
-The old app gets the same custom Docker options: `--log-opt max-size=10m --log-opt max-file=3` (no memory limit
-change). It is a redeploy of the unchanged image; the owner confirms it.
 
 ## Backup job
 

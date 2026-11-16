@@ -1,7 +1,12 @@
 # Cutover and rollback runbook
 
+> **History.** The cutover ran on 2026-11-16, and the old site was retired afterwards (plan task 13): `game/`, the
+> root `Dockerfile` and `deploy/entrypoint.sh` are gone from the repo and `trip-site` is stopped. **Rollback to the old
+> site (below) is no longer available**; to undo a bad write or recover data, restore Convex from a backup
+> (`runbook-restore.md`). This page is kept as the record of how the cutover was done.
+
 Plan sections 14 and 15, written as the commands to type, in order. `<site>` is the current site host
-(`trip.187.53.115.237.sslip.io`, `docs/DEPLOY.md`); `<vps>` is the SSH login in `platform/lib/site.js`.
+(`trip.187.53.115.237.sslip.io`, `docs/DEPLOY.md`); `<vps>` is the SSH login (`root@187.53.115.237`).
 
 - **[PROD]** marks a step that changes production. The owner is present and confirms each one. Every Convex command
   goes through `scripts/convex-prod.sh`, which prints `target api.<site>` and asks you to type the host back before any
@@ -144,6 +149,8 @@ rm -rf .cache/snapshot-* .cache/cutover-export-* .cache/owner.agekey
 Check: new objects in `convex/` and `convex-env/`.
 
 ## Rollback
+
+**No longer available: the old site was retired (task 13).** Kept as history.
 
 Trigger: any smoke failure, a data mismatch, an auth lockout, or the traveler asks. Possible until task 13.
 
