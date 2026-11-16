@@ -62,6 +62,17 @@ RUN --mount=type=cache,id=atr-pnpm-store,target=/pnpm/store \
 	cd /prod/web && node --input-type=module -e \
 	"import sharp from 'sharp'; await sharp({create:{width:2,height:2,channels:3,background:'#000'}}).webp().toBuffer(); await import('@atr/platform/maps'); console.log('sharp and platform ok')"
 
+# 5. The Convex functions, so deploy/convex-deploy deploys them from this same image: `docker run --entrypoint node
+#    <image> node_modules/convex/bin/main.js deploy` in /app/web. The convex CLI (and its esbuild),
+#    @convex-dev/better-auth and convex-helpers are prod dependencies already; @atr/shared (TS source, no deps) is a
+#    devDependency, so it is copied in by hand. Tests stay out (the CLI skips them anyway).
+RUN mkdir -p /prod/web/src /prod/web/node_modules/@atr/shared && \
+	cp -r apps/web/src/convex /prod/web/src/convex && \
+	cp apps/web/convex.json /prod/web/convex.json && \
+	find /prod/web/src/convex \( -name '*.test.ts' -o -name 'test.*.ts' \) -delete && \
+	cp -r packages/shared/package.json packages/shared/src /prod/web/node_modules/@atr/shared/ && \
+	cd /prod/web && node node_modules/convex/bin/main.js --version
+
 # ---------------------------------------------------------------- runtime
 FROM ${NODE_IMAGE} AS runtime
 ARG GIT_SHA=

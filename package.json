@@ -12,7 +12,8 @@
   },
   "scripts": {
     "atr": "node atr",
-    "test": "\"$npm_execpath\" -r --if-present test",
+    "test": "\"$npm_execpath\" -r --if-present test && \"$npm_execpath\" test:deploy",
+    "test:deploy": "node --test \"deploy/*/test/*.test.ts\"",
     "schema:export": "node platform/cli/atr.js schema --export",
     "lint": "\"$npm_execpath\" --filter @atr/web exec svelte-kit sync && eslint . --max-warnings 0",
     "format": "prettier --write .",
