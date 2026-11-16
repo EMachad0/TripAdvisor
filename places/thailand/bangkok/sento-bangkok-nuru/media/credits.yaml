@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: ekkamai-corner
+  title: File:Ekkamai Road and Ekkamai Corner.jpg
+  author: Kay3233
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ekkamai_Road_and_Ekkamai_Corner.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/bb/Ekkamai_Road_and_Ekkamai_Corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ekkamai Tai Junction (แยกเอกมัยใต้) and Ekkamai Corner
+  width: 11081
+  height: 6753
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons

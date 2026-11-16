@@ -1,0 +1,26 @@
+# Independent review of bkk-vice-nuru-massage. Written by `./atr review`; do not edit by hand.
+id: bkk-vice-nuru-massage
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 093288c654919169500dd9dae4d1a1dd409907d835d93c8b75d5f5cee614a6f3
+facts:
+  supported: 8
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[0].hook
+    problem: The new hook says the top-end houses "start at ฿4,500". The cited Tokyo Reporter piece says premium sessions "can go up to 4,500 THB or more", which is a ceiling, not a starting price. The venue's own Jacuzzi room is ฿4,000.
+    evidence: https://www.tokyoreporter.com/international/thailand/why-are-so-many-nuru-massage-parlors-opening-in-bangkok/ — "premium experiences can go up to 4,500 THB or more"
+    fix: Reword it to "where premium sessions run to ฿4,500 or more".
+  - severity: nit
+    field: blocks[9].items[0]
+    problem: '"Proposed May 2026" relies only on Khaosod, which blocks automated fetches (HTTP 403). The newly added Pattaya Mail article supports the PM-endorsement status but gives no proposal date.'
+    evidence: https://www.pattayamail.com/thailandnews/thailand-sex-workers-press-government-to-back-landmark-rights-bill-560895 — "requiring formal endorsement from the Prime Minister before it can be submitted to Parliament" (no proposal date given)
+    fix: Cite a source that opens for the May 2026 date, such as Prachatai, or drop the month.
+resolved: []
+rereview_of: 76d09bda265e7cdca2fc1ce201b10f6354f8b107b48a9c635ed8d7b6c2b943ee
+summary: "No earlier blockers or shoulds. The new text checks out: Pattaya Mail supports the PM-endorsement status, trip.yaml supports the Bangkok dates and Sat 9 Jan, Wikipedia supports Dec/Jan as the two coolest months, and the Maps coordinates match the pin. Phone render is clean; the desktop dark shot failed because the page was not built. Two nits remain: the hook's \"start at ฿4,500\" wording, and the May 2026 date, which only the blocked Khaosod source supports."
+model: claude-opus-5-5
+cost_usd: 0.463

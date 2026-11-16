@@ -1,0 +1,151 @@
+id: hakumi-nuru-massage
+name: "Hakumi Nuru Massage"
+short_name: "Hakumi"
+country: thailand
+city: bangkok
+area: "Phrom Phong · Sukhumvit 33"
+category: odd-local
+fame: hidden
+tags: [adult, nuru-massage, premium, weekday-afternoon, weekend-night]
+kind: Do
+why: "Japanese-style nuru on Soi 33, opposite EmSphere: ฿4,000 for 60 min in a private Jacuzzi room, full service in the price, 5 min from BTS Phrom Phong."
+
+cost:
+  local: 4000
+  currency: THB
+  brl: 673.2
+  note: "60 min, VIP Jacuzzi room, full service included (venue's menu, Nov 2026). Tip not on the menu"
+fx: { rate: 0.1683, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "1.5 h with the walk from BTS"
+best_time: "Weekday 13:00–18:00, before a night shift"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "The day before, or that morning; walk-ins are possible"
+  method: app
+  links:
+    - label: "LINE @hakumi"
+      url: "https://lin.ee/M4c0r8l"
+      note: "The venue's own LINE. Telegram @hakumimassage also works"
+    - label: "Official menu and prices"
+      url: "https://www.hakumimassage.com/menu"
+      note: "Price list, address in Thai, directions and the daily lineup link"
+  notes: "The venue \"strongly\" recommends booking because popular masseuses get busy, and it posts who is working each morning. Its site says WhatsApp is unreliable, so use LINE or Telegram. Google reviewers booked a few hours ahead on LINE, or just walked in."
+
+hours:
+  summary: "Every day 10:00–00:00 (official site; Google Maps also shows 10:00)"
+  winter: "No holiday hours published and nothing found for 2–10 Jan 2027. Indoors with air-con. Ask on LINE before a public-holiday visit."
+
+location:
+  address: "4/19 Sukhumvit Soi 33, Khlong Tan Nuea, Watthana, Bangkok 10110 (first alley on the right after UBC II building)"
+  address_local: "4/19 สุขุมวิท 33 ซอย 1 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110"
+  lat: 13.73296
+  lng: 100.56814
+  nearest_transit: "BTS Phrom Phong Exit 5, about 5 min walk (venue's directions)"
+
+sources:
+  - url: https://www.hakumimassage.com/
+    title: "Hakumi official site: hours, contacts, cash/Thai QR only, WhatsApp notice (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://www.hakumimassage.com/menu
+    title: "Hakumi: menu and prices, rooms, booking advice, address in English and Thai, directions (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: "https://www.google.com/maps/place/Hakumi+Nuru+Massage/@13.7329599,100.5681366,17z/data=!4m6!3m5!1s0x30e29fcc0247a953:0x9a575824f158ceb7!8m2!3d13.7329599!4d100.5681366!16s%2Fg%2F11x2j2p39z?hl=en"
+    title: "Hakumi Nuru Massage on Google Maps: 4.8 from 181 reviews, opens 10:00, owner photos 3 days old, newest review a week old (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://gurulist.net/en/bangkok/nuru-massage/hakumi-nuru-massage-23872.htm
+    title: "Hakumi on Gurulist: 1h ฿3,500, 4.8 from 161 ratings, 2025–2026 reviews (directory)"
+    checked: 2026-11-16
+  - url: https://www.tokyoreporter.com/international/thailand/why-are-so-many-nuru-massage-parlors-opening-in-bangkok/
+    title: "Why are so many nuru massage parlors opening in Bangkok? Price ranges and tipping (Tokyo Reporter, 13 Aug 2026)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Prostitution_in_Thailand
+    title: "Prostitution in Thailand: the 1996 Act, how police treat massage venues (Wikipedia)"
+    checked: 2026-11-16
+  - url: https://www.khaosodenglish.com/news/2026/05/28/draft-bill-seeks-labour-rights-for-sex-workers-in-thailand/
+    title: "Draft bill seeks labour rights for sex workers in Thailand (Khaosod English, 28 May 2026)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Prices, hours, payment and booking are from the venue's own site (Nov 2026), which is marketing. Reviews: Google Maps (4.8, 181) and a directory, almost all 5-star, with owner replies; no forum thread found. Tip amount is from a 2026 article, not the venue. Coordinates from the Google Maps listing. No free photo of the shop."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: emsphere
+    caption: "EmSphere mall, across Sukhumvit from Soi 33; no free photo of the shop"
+    hook: "A Japanese-style nuru house in a Phrom Phong side alley, where the upgrade is a room with its own Jacuzzi."
+  - type: quick_facts
+    time_needed: "60–90 min session"
+    best_time: "Weekday 13:00–18:00"
+    extra:
+      - { label: Slot, value: "Weekday afternoon", detail: "Opens 10:00: Wed 6 – Fri 8 Jan before work, or Sat 9 Jan until midnight" }
+      - { label: vs value houses, value: "+฿500–1,500", detail: "Typical 60-min nuru: ฿2,500–3,500 (Tokyo Reporter, 2026)" }
+      - { label: Payment, value: "Cash or Thai QR only", detail: "No cards, per the venue's site" }
+  - type: highlights
+    items:
+      - title: The Jacuzzi room is the point
+        text: "The 60- and 90-min packages come in two room types. The **VIP Jacuzzi** room (฿4,000 for 60 min, ฿5,000 for 90) is the one the venue calls \"luxurious\"; it says its rooms are more spacious than other spas'."
+      - title: Everything in one written price
+        text: "The menu says **every package is full service**, on a proper nuru mattress, with imported Japanese gel. No ladder of add-ons to negotiate in the room."
+      - title: Strong recent reviews
+        text: "**4.8 from 181 Google reviews**, the newest a week old (Nov 2026). Google reviewers mention smooth LINE booking, a receptionist who guided them through choosing, and clean rooms (Gurulist: 4.8 from 161)."
+      - title: Easy between lunch and work
+        text: "**5 minutes from BTS Phrom Phong Exit 5**, opposite EmSphere mall. Open from 10:00 every day, so a 14:00 booking leaves hours before a 19:00 shift."
+  - type: prose
+    title: What the premium buys, and what it doesn't
+    dropcap: true
+    text: |-
+      Tokyo Reporter (Aug 2026) puts a typical 60-minute nuru in Bangkok at **฿2,500–3,500**, with premium sessions at ฿4,500 or more. Hakumi's cheapest 60 minutes (shower room, ฿3,500) sits at the top of that normal range; what makes it a premium booking is the **Jacuzzi room**, ฿500 more, or 90 minutes in it for ฿5,000.
+
+      What you get for that, going by the venue and its reviewers: a bigger private room with its own tub, a menu where "full service" is written into every price, and a "step by step process" the venue pitches at first-timers. What it can't promise is a particular person: the masseuse you pick from the daily lineup matters more than the room, which is why the venue tells you to book.
+
+      Sixty minutes in the Jacuzzi room is about **R$673, nearly seven days of your R$100 "everything else" budget**, before any tip. Do it once if you do it at all.
+  - type: book_ahead
+    steps:
+      - { days_before: 1, text: "Add **LINE @hakumi** and check the daily lineup the venue posts each morning." }
+      - { days_before: 0, text: "Confirm in the chat: **VIP Jacuzzi, 60 min, ฿4,000**, the start time and the masseuse." }
+      - { days_before: 0, text: "Bring **cash in baht** (or a Thai QR app): the venue takes nothing else. Any tip goes to the masseuse at the end." }
+  - type: cost_breakdown
+    items:
+      - { label: "VIP Jacuzzi room, 60 min, full service", local: 4000, brl: 673.2 }
+      - { label: "90 min instead (difference)", local: 1000, brl: 168.3, optional: true }
+      - { label: "Tip to the masseuse (2026 article: ฿500–1,000)", local: 500, brl: 84.15, optional: true, estimate: true }
+  - type: menu
+    title: Price list (official site, Nov 2026)
+    items:
+      - { name: "Deluxe Shower room, 40 min", price_local: 3200, price_brl: 538.56 }
+      - { name: "Deluxe Shower room, 60 min", price_local: 3500, price_brl: 589.05, note: "90 min ฿4,000", tag: cheap }
+      - { name: "VIP Jacuzzi room, 60 min", price_local: 4000, price_brl: 673.2, note: "The premium booking" }
+      - { name: "VIP Jacuzzi room, 90 min", price_local: 5000, price_brl: 841.5 }
+      - { name: "Two masseuses, shower room, 60 min", price_local: 6500, price_brl: 1093.95, note: "Jacuzzi room ฿7,500; 90 min ฿7,500 / ฿8,500" }
+    note: "The venue says every package is full service. Couples packages run ฿7,500–9,000."
+  - type: map
+    note: "From **BTS Phrom Phong Exit 5**, walk to Sukhumvit Soi 33 (opposite EmSphere). Take the **first alley on the right** after the UBC II office building. By Grab or Bolt, search \"Hakumi Nuru Massage\"."
+  - type: tips
+    variant: insider
+    items:
+      - "The 90-min shower room (฿4,000) costs the same as 60 min with the Jacuzzi: decide whether you want more time or the better room."
+      - "Taxi drivers: say **\"UBC 2 office, Sukhumvit Soi 33\"** (the venue's tip)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** a grey area under the 1996 Prostitution Act. Clients are rarely charged, but foreign clients have been caught in raids (Wikipedia). An NGO gave the House a draft bill to repeal the Act on 28 May 2026; it is not law (Khaosod)."
+      - "Book only via the LINE, Telegram or number on **hakumimassage.com** (+66 64 576 4265). The venue itself warns its WhatsApp is unreliable."
+      - "**Cash or Thai QR only**: no cards. Get baht before you go."
+      - "The tip isn't on the menu. Tokyo Reporter (2026) says ฿500–1,000 to the masseuse is customary at nuru houses; decide yours beforehand."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: hot afternoons, warm nights"
+    note: "January is in Bangkok's cool, dry season and rarely rains; it's an indoor, air-conditioned visit 5 min from the BTS."
+    wear: "Anything; there's a shower in the room"
+  - type: pairs_well
+    items:
+      - { id: sento-bangkok-nuru, note: "The other premium pick: longer 80-min sessions, quieter, up Ekkamai Road" }
+      - { id: bkk-vice-nuru-massage, note: "The value option, 3 min away on Soi 39: ฿3,000 for 60 min" }

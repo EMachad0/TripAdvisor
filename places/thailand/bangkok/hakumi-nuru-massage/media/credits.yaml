@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: emsphere
+  title: File:Emsphere, Bangkok, June 2024.jpg
+  author: Leongyy02
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Emsphere,_Bangkok,_June_2024.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Emsphere%2C_Bangkok%2C_June_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Outside view of Emsphere in Bangkok, Thailand, June 2024
+  width: 3701
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons

@@ -1,0 +1,151 @@
+id: psyche-dream-spa
+name: "Psyche Dream Spa"
+name_local: "迷夢 Psyche Dream Spa"
+country: thailand
+city: bangkok
+area: "RCA · Huai Khwang"
+category: odd-local
+fame: hidden
+tags: [adult, role-play-spa, weekday-afternoon, weekend-night]
+kind: Do
+why: "An erotic role-play spa on RCA: pick one of six themed rooms (hospital, gym, classroom, dorm, first class, prison) for a scripted 70-min session."
+
+cost:
+  local: 4800
+  currency: THB
+  brl: 807.84
+  note: "70 min, one B-tier actress (venue's fee table). A ฿5,800, S ฿7,000. \"1 time\" = finish included. A guide's ฿300 coupon may cut it"
+fx: { rate: 0.1683, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1.5–2 h with the trip there"
+best_time: "Weekday 13:00–18:00, before a night shift"
+
+book_ahead:
+  required: recommended
+  lead_days: 0
+  lead_time: "At least 2 hours ahead, on LINE or WeChat"
+  method: app
+  links:
+    - label: "LINE @psychedreamspa"
+      url: "https://line.me/R/ti/p/@psychedreamspa"
+      note: "The venue's own LINE, linked from its site. Confirm actress, time and theme in one message"
+    - label: "Official site: fees and FAQ"
+      url: "https://psychedreamspa.com/#price"
+      note: "Check the price there before you book; WeChat ID TGAJ03, phone +66 82 614 4354"
+  notes: "The site recommends booking **at least two hours ahead** so the actress you want is free. A 2026 Chinese guide says walk-ins aren't guaranteed and posts a **฿300-off coupon** for the desk (confirm on LINE). No deposit is mentioned; the cast list comes on request."
+
+hours:
+  summary: "Every day 13:00–00:00 (official site; Google Maps shows it opening at 13:00)"
+  winter: "No holiday hours published. The 94okay guide says holiday or one-off changes are confirmed when you book, so ask on LINE for your day. Indoors and air-conditioned."
+
+location:
+  address: "21/41-42 RCA Alley (Soi RCA), Bang Kapi, Huai Khwang, Bangkok 10310"
+  address_local: "21/41-42 ซอยอาร์ซีเอ แขวงบางกะปิ เขตห้วยขวาง กรุงเทพฯ 10310"
+  lat: 13.75148
+  lng: 100.5733
+  approximate: true
+  nearest_transit: "MRT Phetchaburi or Phra Ram 9, then a short taxi or Grab into RCA"
+
+sources:
+  - url: https://psychedreamspa.com/
+    title: "Psyche Dream Spa official site: themes, procedure, fee table, FAQ, hours, address, LINE/WeChat"
+    checked: 2026-11-16
+  - url: https://www.google.com/maps/search/PSYCHE+DREAM+SPA+RCA+Bangkok
+    title: "PSYCHE DREAM SPA on Google Maps: 4.9 from 113 reviews, RCA Alley 21/41-42, opens 13:00 (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://www.94okay.com/5473.html
+    title: "泰国曼谷男士梦幻剧本杀 PSYCHE DREAM SPA (泰趣味 / 94okay, Chinese nightlife guide, 2026)"
+    checked: 2026-11-16
+  - url: https://thailandmassagehub.com/venues/psyche-dream/
+    title: "Psyche Dream Spa, Ratchada & RCA (Thailand Massage Hub, paid directory, 2026)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Prostitution_in_Thailand
+    title: "Prostitution in Thailand: the 1996 Act, how massage venues are treated (Wikipedia)"
+    checked: 2026-11-16
+  - url: https://www.khaosodenglish.com/news/2026/05/28/draft-bill-seeks-labour-rights-for-sex-workers-in-thailand/
+    title: "Bill to decriminalise sex work, repeal the 1996 Act, sent to parliament (Khaosod, 28 May 2026; browser only, plain fetch 403)"
+    checked: 2026-11-16
+  - url: https://www.discoverythailand.com/royal-city-avenue-rca
+    title: "Royal City Avenue (RCA) guide: MRT Phra Ram 9 or Phetchaburi, then a short taxi (Discovery Thailand)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Prices, themes, hours, booking and rules are from the venue's own site (read in full 16 Nov 2026), which is marketing. Independent proof is thin: Google Maps 4.9 (113 reviews) and one 2026 Chinese guide; no English forum review found. Nothing on payment method, deposit or tipping. Pin is the venue's own Google Maps link (approximate). No free photo of the spa."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: rca-plaza
+    caption: "RCA Plaza by day; no free photo of the spa itself"
+    hook: "A nurse, a flight attendant or a prison guard, a set built for the part, and a script that escalates."
+  - type: quick_facts
+    time_needed: "70 min session"
+    best_time: "Weekday 13:00–18:00"
+    extra:
+      - { label: Slot, value: "Weekday afternoon", detail: "Opens 13:00: Bangkok weekdays (Tue 5/Wed 6 – Fri 8 Jan), or Sat 9 Jan" }
+      - { label: Themes, value: "6 rooms", detail: "Hospital, gym, classroom, female dorm, first-class cabin, prison" }
+      - { label: Language, value: "Simple English", detail: "Some actresses speak Chinese, Japanese or Korean (venue FAQ)" }
+  - type: highlights
+    items:
+      - title: A story, not a menu
+        text: "The venue sells it as **role-play first**: you pick a scenario, the actress guides you into it from the moment you walk in, and the session escalates step by step to an intimate finish. Its own FAQ says the difference from a massage parlour is the plot and the interaction."
+      - title: Six sets to choose from
+        text: "**Hospital** (nurse), **gym** (personal trainer), **classroom** (teacher plus classmate, a two-actress plot), **female dorm**, **first-class cabin** (flight attendant) and **prison** (guard, light bondage with handcuffs)."
+      - title: Clear prices on the site
+        text: "Actresses are graded **S, A and B**. One actress for 70 min costs ฿7,000 / ฿5,800 / ฿4,800; two actresses for 100 min cost ฿7,000–11,000 by pairing. That beats guessing at a counter."
+      - title: Next to the club strip
+        text: "It sits on **RCA**, Bangkok's club street, in the building opposite the Route 66 club; Onyx is on the same strip. On a free Saturday you can do both in one taxi ride."
+  - type: prose
+    title: How it differs from nuru and soapy places
+    dropcap: true
+    text: |-
+      A **nuru** house is about the technique: a gel body-slide on an air mattress, with little else going on. A **soapy** house on Ratchadaphisek is a bath, a lather and a choice made in a lobby. Psyche Dream Spa sells **the scenario**: a themed room, a costume, a short script. A Chinese guide that visited in 2026 describes the order as shower, story, service, then a massage at the end.
+
+      It is the most expensive of the three types for the time you get (from ฿4,800 for 70 min, about R$808, eight days of your "everything else" budget). The splurge case: nothing else on this trip is like it, the price is published, and it fits a Bangkok weekday afternoon (Tue 5 or Wed 6 to Fri 8 Jan) before a night shift. The B tier is the cheapest way in; the site grades actresses by "comprehensive criteria", and the 94okay guide says higher tiers mean better looks and service.
+  - type: book_ahead
+    steps:
+      - { days_before: 1, text: "Message **@psychedreamspa** on LINE: ask for the cast list, and say the day, arrival time, how many people and the theme." }
+      - { days_before: 0, text: "Book at least **2 hours** before. Confirm the price for the tier you chose, in writing on LINE." }
+      - { days_before: 0, text: "Take a Grab to \"PSYCHE DREAM SPA\" in RCA. No photos or video inside (house rule)." }
+  - type: cost_breakdown
+    items:
+      - { label: "70 min, one B-tier actress", local: 4800, brl: 807.84 }
+      - { label: "Upgrade to A tier instead (difference)", local: 1000, brl: 168.3, optional: true }
+      - { label: "Upgrade to S tier instead (difference)", local: 2200, brl: 370.26, optional: true }
+  - type: menu
+    title: Fee table (official site, Nov 2026)
+    items:
+      - { name: "1 actress, S tier, 70 min", price_local: 7000, price_brl: 1178.1, note: "\"1 time\"" }
+      - { name: "1 actress, A tier, 70 min", price_local: 5800, price_brl: 976.14, note: "\"1 time\"" }
+      - { name: "1 actress, B tier, 70 min", price_local: 4800, price_brl: 807.84, note: "\"1 time\"; the cheapest way in", tag: cheap }
+      - { name: "2 actresses, S+S, 100 min", price_local: 11000, price_brl: 1851.3, note: "\"2 times\"" }
+      - { name: "2 actresses, A+A or S+B, 100 min", price_local: 9000, price_brl: 1514.7, note: "\"2 times\"; S+A ฿10,000, A+B ฿8,000" }
+      - { name: "2 actresses, B+B, 100 min", price_local: 7000, price_brl: 1178.1, note: "\"2 times\"" }
+    note: "Prices as published; the site says nothing about card payment, a deposit or tips. Ask on LINE before you go."
+  - type: map
+    note: "Inside **RCA (Royal City Avenue)**, a short taxi from MRT Phra Ram 9 or Phetchaburi. Search **PSYCHE DREAM SPA** in Grab (94okay guide). It is in the building **opposite Route 66** (official directions)."
+  - type: tips
+    variant: insider
+    items:
+      - "Finding it: inside RCA, look for the **Route 66** club sign, enter the building opposite, turn right and follow the Psyche Dream Spa sign (official directions)."
+      - "You can bring a friend: the FAQ says each of you picks an actress, for themes like the classroom, the gym or the plane."
+      - "The FAQ only says \"security measures\" are used throughout; it never names condoms. Confirm condom use on LINE when you book."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** the 1996 Prostitution Act targets public soliciting and running or profiting from sex work; Wikipedia says buying it for yourself isn't punished, and foreign clients are rarely charged (mostly Pattaya raids). A decriminalisation bill went to parliament in May 2026."
+      - "Book only through the LINE or WeChat IDs on **psychedreamspa.com**, not a number from a directory or ad."
+      - "Agree the tier and price in writing before you arrive, so the price can't change in the room."
+      - "Price and \"comprehensive criteria\" tiers are the venue's own words; reviews in English are scarce, so treat this as a gamble at R$800+."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: hot afternoons, warm nights"
+    note: "Afternoons reach the low 30s °C; you go door to door by Grab, so it barely matters."
+    wear: "Anything; there is a shower first"
+  - type: pairs_well
+    items:
+      - { id: onyx-rca-club, note: "Same RCA strip: the EDM club for a free Saturday night after" }
+      - { id: poseidon-soapy-ratchada, note: "The classic soapy house, if you'd rather skip the script" }

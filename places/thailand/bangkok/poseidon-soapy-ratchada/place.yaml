@@ -1,0 +1,136 @@
+id: poseidon-soapy-ratchada
+name: "Poseidon, Ratchada"
+short_name: Poseidon
+name_local: โพไซดอน
+country: thailand
+city: bangkok
+area: "Ratchadaphisek · Din Daeng"
+category: odd-local
+fame: hidden
+tags: [adult, soapy-massage, themed-rooms, weekday-afternoon, weekend-night]
+kind: Do
+why: "Ratchada's classic soapy house since 1999: an 11-floor tower with a live-music lobby and themed bath suites. 90 min from ฿2,900."
+
+cost:
+  local: 3800
+  currency: THB
+  brl: 639.54
+  note: "90 min full service, tier B (venue's SwanPass price list). Range ฿2,900–8,800 by the woman you pick"
+fx: { rate: 0.1683, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–2.5 h with the trip there"
+best_time: "Weekday 15:00–18:00, before a night shift"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily: 2nd floor from 13:00, 3rd-floor model lobby from 15:00, both to 00:00 (official FAQ; its banner says 12:00–24:00)"
+  winter: "The official FAQ lists six closing days (royal birthdays and Buddhist holy days such as Makha Bucha); none falls between 2 and 10 Jan. Indoors, so the season doesn't matter."
+
+location:
+  address: "209 Ratchadaphisek Rd, Ratchadaphisek, Din Daeng, Bangkok 10400 (the venue writes 10320)"
+  address_local: "โพไซดอน 209 ถนนรัชดาภิเษก แขวงรัชดาภิเษก เขตดินแดง กรุงเทพฯ 10400"
+  lat: 13.78537
+  lng: 100.57355
+  nearest_transit: "MRT Sutthisan (Thanachart Bank exit), a few minutes' walk"
+
+sources:
+  - url: https://poseidon2000.com/
+    title: "Poseidon Entertainment Complex official site: since 1999, lobby, themed suites, FAQ hours and closing days, address"
+    checked: 2026-11-16
+  - url: https://swanpass.com/listing/poseidon-entertainment-complex
+    title: "Poseidon on SwanPass: 90-min price list ฿2,900–8,800, cards, jacuzzi, reviews to Nov 2026"
+    checked: 2026-11-16
+  - url: https://www.google.com/maps/search/Poseidon+Ratchadaphisek+Bangkok
+    title: "Poseidon Entertainment Complex on Google Maps: 3.7 from 291 reviews, opens 12:00 (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://www.openstreetmap.org/?mlat=13.78537&mlon=100.57355#map=17/13.78537/100.57355
+    title: "Poseidon Entertainment Complex, 209 Ratchadaphisek Rd: building on OpenStreetMap"
+    checked: 2026-11-16
+  - url: https://afarangabroad.com/poseidon-entertainment-bangkok/
+    title: "Poseidon Entertainment Bangkok: MRT Sutthisan, Thanachart Bank exit; floors and lobby (A Farang Abroad)"
+    checked: 2026-11-16
+  - url: https://bangkokafterdark.com/what-happens-during-a-soapy-massage-in-bangkok-the-2026-guide/
+    title: "What happens during a soapy massage in Bangkok: the 2026 guide (Bangkok After Dark, 20 Feb 2026)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Prostitution_in_Thailand
+    title: "Prostitution in Thailand: the 1996 Act, soapy massage houses, Ratchadaphisek (Wikipedia)"
+    checked: 2026-11-16
+  - url: https://www.khaosodenglish.com/news/2026/05/28/draft-bill-seeks-labour-rights-for-sex-workers-in-thailand/
+    title: "Bill to decriminalise sex work, repeal the 1996 Act, sent to parliament (Khaosod, 28 May 2026; browser only, plain fetch 403)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Hours and rooms from the official site, which shows no prices. Prices are the venue's SwanPass list (adult directory), not the site; ask at the desk. Reviews are mixed (3.7 on Google and SwanPass): Nov 2026 and Jun 2026 call it dated or rushed. The ground-floor fishbowl closure is from one May 2026 review. Tip range is general, not Poseidon's. No photo of the building."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: ratchada-sutthisan
+    caption: "Ratchadaphisek Road at Sutthisan, a short walk south; no free photo of Poseidon"
+    hook: "A piano trio in the lobby, an Egyptian or Victorian suite upstairs, and a deep tub of warm foam."
+  - type: quick_facts
+    time_needed: "90 min session"
+    best_time: "Weekday 15:00–18:00"
+    extra:
+      - { label: Slot, value: "Weekday afternoon", detail: "Bangkok weekdays (Tue 5/Wed 6 – Fri 8 Jan) 15:00–18:00, or Sat 9 Jan" }
+      - { label: Type, value: "Soapy (ap op nuat)", detail: "Bath, lather and body massage; not a nuru gel house" }
+      - { label: Payment, value: "Cards accepted", detail: "Per SwanPass; carry cash for the tip" }
+  - type: highlights
+    items:
+      - title: The Ratchada original
+        text: "Wikipedia names the **Ratchadaphisek strip** as the home of Bangkok's big \"bathing and massage\" houses. Poseidon Entertainment Complex has run here since **1999**, in an 11-storey building with a restaurant and karaoke as well."
+      - title: Themed suites, no script
+        text: "The rooms on the upper floors are decorated as **Palace, Arabian, Egypt, Africa, Greece, Thai, Victorian** and Modern (official site). It's the décor half of Psyche Dream Spa's idea, without the role-play."
+      - title: You choose in person
+        text: "On the 3rd floor a hotel-style lobby with **live piano, double bass and violin** (official site) is where you meet the women and pick (from 15:00, per the FAQ). A May 2026 visitor says the old ground-floor fishbowl is closed; staff now bring a few women to your sofa."
+      - title: Posted tiers, card OK
+        text: "SwanPass lists 11 prices for 90 min, from **฿2,900** (women numbered 300–399) to **฿8,800**, and says cards are accepted. The May 2026 visitor was offered women at ฿4,000."
+  - type: prose
+    title: How it differs from nuru and from Psyche Dream Spa
+    dropcap: true
+    text: |-
+      Wikipedia describes soapy houses (*ap op nuat*, "bathe, steam, massage") as Thailand's version of the Japanese soapland: a **bath with a lot of foam**, a body wash and a body massage, with sexual services included. A **nuru** shop uses a slippery gel on an air mattress, usually in a small shophouse on Sukhumvit. **Psyche Dream Spa** sells a scripted scene in a costume. Here the attraction is the scale and the ritual: a tower, a lobby, a big tub.
+
+      It's cheaper than Psyche (฿3,800, about R$640, versus ฿4,800 for less time) and you see who you get before paying. What you give up: honest reviews say its best years are behind it. A Nov 2026 reviewer calls it a reminder of "another era" and steep for what you get; a Jun 2026 one found it rushed. Go for the institution, with modest expectations.
+  - type: cost_breakdown
+    items:
+      - { label: "90 min, tier B", local: 3800, brl: 639.54 }
+      - { label: "Tip, if you give one (one 2026 guide: ฿200–500)", local: 300, brl: 50.49, optional: true, estimate: true }
+  - type: menu
+    title: 90-min prices (SwanPass list, Nov 2026)
+    items:
+      - { name: "Women no. 300–399", price_local: 2900, price_brl: 488.07, note: "Cheapest on the list", tag: cheap }
+      - { name: "Women no. 100–199", price_local: 3100, price_brl: 521.73 }
+      - { name: "Women no. 1–99", price_local: 3300, price_brl: 555.39 }
+      - { name: "Tier B", price_local: 3800, price_brl: 639.54, note: "Tiers Q ฿4,100, R ฿4,500" }
+      - { name: "Tier S", price_local: 5000, price_brl: 841.5, note: "A ฿5,500, M ฿5,800, AM ฿6,500" }
+      - { name: "Tier X", price_local: 8800, price_brl: 1481.04, note: "Top of the list" }
+    note: "SwanPass says the list comes from the venue and that tips are not included. The official site shows no prices: confirm at the desk before you go up."
+  - type: map
+    note: "From **MRT Sutthisan** take the Thanachart Bank exit and walk a few minutes south on Ratchadaphisek Road. Show the Thai address to a taxi driver."
+  - type: tips
+    variant: insider
+    items:
+      - "Go after **15:00**: the official FAQ says the 3rd-floor Modeling Lobby opens then, the 2nd-floor \"Venus Showcase\" at 13:00."
+      - "Walk in and tell the door staff you've come for the spa; they take you up to the 3rd-floor lobby (May 2026 visitor). No booking needed."
+      - "Ask the price of the woman you like **before** you go to the room, and pay at reception."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** the 1996 Prostitution Act targets public soliciting and running or profiting from sex work; Wikipedia says buying it for yourself isn't punished, and foreign clients are rarely charged (mostly Pattaya raids). A decriminalisation bill went to parliament in May 2026."
+      - "Mixed reviews: 3.7 on Google (291) and SwanPass (305), with 1-star reviews in Aug and Oct 2026 and a \"rushed\" one in Jun 2026."
+      - "One 2026 guide says reputable houses post prices with no hidden charges; check the total before you go up, so it can't grow in the room."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: hot afternoons, warm nights"
+    note: "Hot outside in the afternoon; a few minutes' walk from the MRT, then all indoors."
+    wear: "Anything; you are bathed there"
+  - type: pairs_well
+    items:
+      - { id: psyche-dream-spa, note: "The role-play spa on RCA, about 4 km south" }
+      - { id: onyx-rca-club, note: "RCA's big club, for a free Saturday night" }

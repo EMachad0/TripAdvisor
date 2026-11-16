@@ -1,0 +1,16 @@
+# Independent review of hakumi-nuru-massage. Written by `./atr review`; do not edit by hand.
+id: hakumi-nuru-massage
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 894e2c9665fa2dafead552c76e50dbab01b41464f6dff3cbb137ae52ad365b2f
+facts:
+  supported: 11
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 9a327b0ca07aee9c5dccaa6076b1878c9e7163112d18ddf3fffa78b38c3b65a9
+summary: "No earlier findings to close. The edited lines match their sources: the room types (40 min is shower room only), \"luxurious\", \"more spacious\", \"step by step process\", Gurulist's 4.8 from 161, the cool, dry January, and the Wikipedia legal line. WebFetch got a 403 from Khaosod; ./atr render confirms the Empower Foundation gave the House a draft bill to repeal the 1996 Act on 28 May 2026. The Google reviewers' receptionist detail is unchecked but is a soft claim. Nothing needs fixing."
+model: claude-opus-5-5
+cost_usd: 0.364

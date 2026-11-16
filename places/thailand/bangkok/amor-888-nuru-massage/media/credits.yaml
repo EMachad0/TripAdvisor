@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: soi-18
+  title: File:Sukhumvit Soi 18 -01.jpg
+  author: Aimaimyi
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Sukhumvit_Soi_18_-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Sukhumvit_Soi_18_-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Sukhumvit Soi 18. This place is located in Watthana , Bangkok , Thailand .
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-16
+  origin: commons

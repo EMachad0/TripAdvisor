@@ -1,0 +1,28 @@
+# Independent review of psyche-dream-spa. Written by `./atr review`; do not edit by hand.
+id: psyche-dream-spa
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 1d5e15ca7a45c6b6f6f34511405f141a73a08388bcafe8e887f4f1acead2133b
+facts:
+  supported: 10
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[10].items[0]
+    problem: "The legal pitfall says sex work is 'technically illegal' under the 1996 Act. The cited source says the opposite on the client side: the act itself is not illegal, and buying sex for yourself is legal. Public soliciting and the venue's role are what the law targets."
+    evidence: "blocks[10].items[0] now says the Act targets soliciting and running or profiting from sex work, that buying it for yourself isn't punished, and that charges are rare and mostly in Pattaya. https://en.wikipedia.org/wiki/Prostitution_in_Thailand says: \"Obtaining sexual services for oneself... remains legal and is not subject to punishment\"; \"Pattaya being the location in which most foreigners have been caught up in a police raid\"."
+  - field: blocks[10].items[0]
+    problem: "'A repeal bill reached parliament in May 2026' has no support. The only source for it, Khaosod English, returned 403, and its headline speaks of a 'draft bill' seeking labour rights, not a repeal bill that reached parliament. The Wikipedia page has nothing from 2026."
+    evidence: "Opened the Khaosod article with ./atr render: \"A foundation advocating for sex workers submitted a draft bill to parliament on Thursday that would decriminalise sex work\"; \"The proposed law would repeal the 1996 act\". This supports 'A decriminalisation bill went to parliament in May 2026'."
+  - field: blocks[9].items[2]
+    problem: "'The FAQ says protection is used throughout' goes further than the venue's FAQ. The FAQ says only that services 'require the use of security measures throughout' and never mentions condoms. The traveler would act on this as a health guarantee."
+    evidence: "blocks[9].items[2] now quotes the FAQ's 'security measures' wording, says the FAQ never names condoms, and tells the traveler to confirm on LINE. https://psychedreamspa.com/ FAQ: \"require the use of security measures throughout\"."
+  - field: cost.note
+    problem: The budget angle leaves out the ฿300 front-desk coupon in the page's own source, 94okay, which is the only discount on the cheapest way in. This matters on a ฿4,800 spend that is 808% of the daily budget, for a traveler who said 'no crazy spending on a single thing'.
+    evidence: The ฿300 coupon is now in cost.note and book_ahead.notes, with 'confirm on LINE'. https://www.94okay.com/5473.html — "店铺优惠卷折扣300泰株，在前台出示即可使用". It is not a line in cost_breakdown, but the budget angle is on the page.
+rereview_of: a8cd513bdae24baf357140c69420c49533387b09649d741f9ecf16ecb844518e
+summary: All four earlier findings are fixed, and each fix is backed by a source. The new Route 66 directions match the official site's 'How to get there' steps. The new Bangkok dates (Tue 5/Wed 6 to Fri 8 Jan, Sat 9 Jan) match config/trip.yaml. The Khaosod source opened in a browser render and confirms the May 2026 bill went to parliament. No new blockers or shoulds.
+model: claude-opus-5-5
+cost_usd: 0.638

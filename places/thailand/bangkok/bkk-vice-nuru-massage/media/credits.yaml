@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: phrom-phong-night
+  title: File:BTS Phrom Phong Station at night.jpg
+  author: NC-MyLifeArm
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:BTS_Phrom_Phong_Station_at_night.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/57/BTS_Phrom_Phong_Station_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: BTS Phrom Phong Station at night
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
