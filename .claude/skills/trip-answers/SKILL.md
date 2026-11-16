@@ -51,7 +51,7 @@ Book on the official mini-program 1–3 days ahead; morning slots open at 08:30 
 
 - Write for the traveler reading on a phone months later: self-contained, tldr first, no "as I said above", no reference to this conversation.
 - **Every clock time carries its UTC offset:** `09:00 UTC+8`. China, Hong Kong and Singapore UTC+8, Thailand UTC+7, Korea and Japan UTC+9, Brazil UTC−3 (none of them changes clocks during the trip).
-- **Prices in the local currency first, then BRL**, the way the site does it: `¥330 (≈ R$ 273)`, `₩12,200 (≈ R$ 45)`, `฿500 (≈ R$ 78)`, `HK$100 (≈ R$ 66)`. Symbols and number format follow `fmtLocal` and `fmtBRL` in `platform/lib/render/util.js` (R$ uses pt-BR digits: R$ 1.234). Get the rate with `./atr fx CNY` (or JPY, KRW, THB, HKD) and say in the body which rate and date you used.
+- **Prices in the local currency first, then BRL**, the way the site does it: `¥330 (≈ R$ 273)`, `₩12,200 (≈ R$ 45)`, `฿500 (≈ R$ 78)`, `HK$100 (≈ R$ 66)`, `S$5.60 (≈ R$ 25)`. Symbols and number format follow `fmtLocal` and `fmtBRL` in `platform/lib/render/util.js` (R$ uses pt-BR digits: R$ 1.234). Get the rate with `./atr fx CNY` (or JPY, KRW, THB, HKD, SGD) and say in the body which rate and date you used.
 - **Dated facts say as of when:** "(as of Nov 2026)", "the 2026 timetable".
 - **Never put secrets or sensitive personal data in a card:** booking references, passport or document numbers, the address of where the traveler sleeps, card details, phone numbers, passwords. The read-only guest login sees every card and git keeps the history forever, even after a delete.
 

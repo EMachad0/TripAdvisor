@@ -2,7 +2,7 @@
 import { esc } from './escape.js';
 import { COUNTRIES, CATEGORIES, BOOK_METHODS } from '../schema/enums.js';
 
-export const SYMBOLS = { CNY: '¥', JPY: '¥', KRW: '₩', HKD: 'HK$', THB: '฿', USD: 'US$', BRL: 'R$' };
+export const SYMBOLS = { CNY: '¥', JPY: '¥', KRW: '₩', HKD: 'HK$', THB: '฿', SGD: 'S$', USD: 'US$', BRL: 'R$' };
 export const LANG = { china: 'zh-Hans', 'hong-kong': 'zh-Hant', japan: 'ja', korea: 'ko', thailand: 'th', singapore: 'en-SG' };
 
 export function fmtBRL(n) {

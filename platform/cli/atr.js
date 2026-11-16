@@ -209,7 +209,7 @@ cmd('fx', {
   examples: ['./atr fx CNY', './atr fx KRW --amount 15000'],
   async run(o, pos) {
     const cur = (pos[0] || '').toUpperCase();
-    if (!/^[A-Z]{3}$/.test(cur)) return fail('give a currency code, e.g. `./atr fx CNY` (CNY, KRW, JPY, HKD, THB)');
+    if (!/^[A-Z]{3}$/.test(cur)) return fail('give a currency code, e.g. `./atr fx CNY` (CNY, KRW, JPY, HKD, THB, SGD)');
     const { getRate, toBRL } = await import('../lib/fx.js');
     const r = await getRate(cur, { date: o.date, noCache: o['no-cache'] });
     const amount = o.amount !== undefined ? Number(o.amount) : undefined;
