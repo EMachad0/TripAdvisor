@@ -4,7 +4,8 @@
 #
 #   backend  scripts/convex-local.sh e2e-prepare (up, deploy, env, accounts, the e2e data set)
 #   build    vite build of apps/web for this slot
-#   browser  the Playwright browser; WebKit also gets its system packages (the runner image has Chromium's)
+#   browser  the Playwright browser; WebKit also gets its system packages (the runner image has Chromium's),
+#            from ATR_APT_ARCHIVES when it holds their .debs
 #
 #   scripts/e2e-prepare.sh <chromium|webkit>
 #
@@ -36,13 +37,31 @@ part_build() {
 		node_modules/.bin/vite build
 }
 
+# WebKit's system packages (about 180). With ATR_APT_ARCHIVES holding their .debs (CI caches them), dpkg installs
+# them with no network, and `install-deps --dry-run` (apt-get's simulation) then fails if any is still missing,
+# say after a Playwright upgrade. Otherwise Playwright's install-deps runs apt-get update and install against the
+# Ubuntu mirror, which has stalled for minutes on CI: each try gets 150 s, and there are two.
+webkit_deps() {
+	local archives="${ATR_APT_ARCHIVES:-}" try
+	if [[ -n "$archives" ]] && compgen -G "$archives/*.deb" >/dev/null; then
+		if sudo dpkg -i "$archives"/*.deb >/dev/null &&
+			node_modules/.bin/playwright install-deps --dry-run webkit; then
+			echo "e2e-prepare: WebKit packages installed from $archives"
+			return 0
+		fi
+		echo "e2e-prepare: the cached packages are not enough; installing from the mirror"
+	fi
+	for try in 1 2; do
+		if timeout 150 node_modules/.bin/playwright install-deps webkit; then return 0; fi
+		echo "e2e-prepare: install-deps try $try failed or timed out"
+	done
+	return 1
+}
+
 part_browser() {
 	cd "$WEB"
-	if [[ "$BROWSER" == webkit ]]; then
-		node_modules/.bin/playwright install --with-deps webkit
-	else
-		node_modules/.bin/playwright install chromium
-	fi
+	if [[ "$BROWSER" == webkit ]]; then webkit_deps; fi
+	node_modules/.bin/playwright install "$BROWSER"
 }
 
 # Each log line starts with the seconds since the script started, so the slow step of a part shows.

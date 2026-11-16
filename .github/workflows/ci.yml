@@ -61,10 +61,13 @@ jobs:
             /*
             !/places/*/*/*/media/
             !/areas/*/media/
+      # The pnpm store cache: restored by every job, saved only here, on pushes to main (each save is a new 143 MB
+      # entry, and 14 jobs per run would push the browser and .deb caches out of the repository's 10 GB).
       - uses: pnpm/setup@731dfb6463bbd11c11fd0ee11fe00ed0e36d48a1 # v3.2.0
         with:
           runtime: node@24
           cache: true
+          save-cache: ${{ github.event_name == 'push' }}
           require-lockfile: true
       - run: pnpm format:check
       - run: pnpm lint
@@ -87,6 +90,7 @@ jobs:
         with:
           runtime: node@24
           cache: true
+          save-cache: false
           require-lockfile: true
       # every workspace package's tests: packages/*, apps/web and platform (node --test)
       - run: pnpm test
@@ -100,7 +104,7 @@ jobs:
     needs: changes
     if: needs.changes.outputs.code == 'true'
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 12
     strategy:
       fail-fast: false
       matrix:
@@ -137,6 +141,7 @@ jobs:
         with:
           runtime: node@24
           cache: true
+          save-cache: false
           require-lockfile: true
       - id: playwright
         run: echo "version=$(pnpm --filter @atr/web exec playwright --version | awk '{print $2}')" >>"$GITHUB_OUTPUT"
@@ -144,27 +149,30 @@ jobs:
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}-${{ matrix.browser }}
-      # WebKit needs about 180 system packages (114 MB; the Ubuntu mirror took 49 s in a slow run). apt keeps their
-      # .debs in a cached directory, dpkg skips fsync and man-db's index rebuild; Playwright's install-deps in
-      # scripts/e2e-prepare.sh still decides what to install. Chromium's libraries are on the runner image.
+      # WebKit needs about 180 system packages. Their .debs are cached per Playwright version: with them,
+      # scripts/e2e-prepare.sh installs with dpkg and never touches the Ubuntu mirror (apt-get update alone took
+      # 30 s, and two runs stalled on it); without them, apt downloads into the cached directory. dpkg skips fsync
+      # and man-db's index rebuild. Chromium's libraries are on the runner image.
       - if: matrix.browser == 'webkit'
-        id: apt
         run: |
-          dir="$HOME/.cache/apt-archives"
-          echo "image=$ImageOS-$ImageVersion" >>"$GITHUB_OUTPUT"
-          mkdir -p "$dir/partial"
-          sudo chown _apt "$dir/partial"
-          echo "Dir::Cache::Archives \"$dir/\";" | sudo tee /etc/apt/apt.conf.d/90atr-archives
+          archives="$HOME/.cache/apt-archives"
+          echo "ATR_APT_ARCHIVES=$archives" >>"$GITHUB_ENV"
+          mkdir -p "$archives/partial"
+          echo "Dir::Cache::Archives \"$archives/\";" | sudo tee /etc/apt/apt.conf.d/90atr-archives
           echo force-unsafe-io | sudo tee /etc/dpkg/dpkg.cfg.d/90atr-unsafe-io
           sudo rm -f /var/lib/man-db/auto-update
       - if: matrix.browser == 'webkit'
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: ~/.cache/apt-archives/*.deb
-          key: webkit-debs-${{ steps.apt.outputs.image }}-${{ steps.playwright.outputs.version }}
+          key: webkit-debs-${{ runner.os }}-${{ steps.playwright.outputs.version }}
+          # an older set is still worth restoring: e2e-prepare.sh checks that nothing is missing after dpkg
+          restore-keys: webkit-debs-
       # Backend (up, deploy, env, accounts, data set), app build and browser at once; see the script.
       - run: scripts/e2e-prepare.sh ${{ matrix.browser }}
-      - env:
+        timeout-minutes: 7
+      - timeout-minutes: 8
+        env:
           ATR_E2E_PREPARED: '1'
         run: |
           files="$(node apps/web/e2e/shards.ts ${{ matrix.project }} ${{ matrix.shard }} ${{ matrix.of }})"

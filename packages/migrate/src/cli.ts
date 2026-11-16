@@ -1,7 +1,7 @@
 // @atr/migrate command line (plan section 14). Run through bin.ts:
 //   dry-run    --src <dir> [--require-nonzero]                 parse + validate, per-table counts, quarantine report
-//   import     --src <dir> --target <t> [--accept-quarantine N] [--parallel N]
-//                                                              load, one atomic replace per table (N at a time)
+//   import     --src <dir> --target <t> [--accept-quarantine N] [--together]
+//                                                              load, one atomic replace per table (or of all, not prod)
 //   export-v1  --target <t> --out <dir> [--bundle <file>]       rebuild the v1 files (the rollback tool)
 //   verify     --src <dir> (--target <t> | --against <dir>)     counts + canonical sha256 per file; exit 0 on no diff
 //   round-trip --src <dir> --target <t> [--out <dir>]           import, export-v1, verify against the source
@@ -45,7 +45,7 @@ const OPTIONS = {
 	bundle: { type: 'string' },
 	report: { type: 'string' },
 	'accept-quarantine': { type: 'string' },
-	parallel: { type: 'string' },
+	together: { type: 'boolean' },
 	'require-nonzero': { type: 'boolean' },
 	'dry-run': { type: 'boolean' },
 	json: { type: 'boolean' },
@@ -60,7 +60,7 @@ class UsageError extends Error {}
 
 const USAGE = `usage: migrate <dry-run|import|export-v1|verify|round-trip> [options]
   dry-run    --src <dir> [--require-nonzero] [--report <dir>]
-  import     --src <dir> --target <${TARGETS.join('|')}> [--accept-quarantine N] [--parallel N] [--dry-run]
+  import     --src <dir> --target <${TARGETS.join('|')}> [--accept-quarantine N] [--together] [--dry-run]
   export-v1  --target <t> --out <dir> [--bundle <file>]
   verify     --src <dir> (--target <t> | --against <dir>)
   round-trip --src <dir> --target <t> [--out <dir>] [--accept-quarantine N]`;
@@ -83,16 +83,6 @@ function acceptQuarantine(o: Options): number {
 	const n = Number(raw);
 	if (!Number.isInteger(n) || n < 0)
 		throw new UsageError('--accept-quarantine takes a whole number');
-	return n;
-}
-
-/** --parallel N: tables replaced at once (default 1). prod keeps one at a time, in table order. */
-function parallelOf(o: Options, target: TargetName): number {
-	const raw = o.parallel;
-	if (raw === undefined) return 1;
-	const n = Number(raw);
-	if (!Number.isInteger(n) || n < 1) throw new UsageError('--parallel takes a whole number from 1');
-	if (n > 1 && target === 'prod') throw new UsageError('--parallel is for test backends, not prod');
 	return n;
 }
 
@@ -161,7 +151,7 @@ async function runImport(
 	await importSnapshot(deployment, snapshot, {
 		acceptQuarantine: acceptQuarantine(o),
 		requireFrozen: target === 'prod',
-		parallel: parallelOf(o, target),
+		together: o.together === true && target !== 'prod',
 		onTable: (table, n) => {
 			io.out(`  ${table.padEnd(13)} ${String(n)}`);
 		},
@@ -173,7 +163,9 @@ async function importCmd(io: Io, o: Options): Promise<number> {
 	if (o['dry-run'] === true) return dryRun(io, o);
 	const src = need(o, 'src');
 	const target = targetOf(o);
-	parallelOf(o, target);
+	if (o.together === true && target === 'prod') {
+		throw new UsageError('--together is for test backends; prod imports one table at a time');
+	}
 	const { snapshot } = await loadSnapshot(src);
 	await writeSnapshotReport(await report(io, o, 'import'), src, snapshot);
 	await runImport(io, o, target, snapshot);

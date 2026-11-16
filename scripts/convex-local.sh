@@ -173,13 +173,13 @@ cmd_seed() {
 	return "$status"
 }
 
-# The e2e data set: feedback and trip tables from packages/migrate/fixtures/e2e (each table replaced atomically,
-# so a rerun starts from the same data; four tables at a time, since specs reseed often), then the content index
-# of its content root through POST /ops/content-index (the same route trip-web uses at boot).
+# The e2e data set: feedback and trip tables from packages/migrate/fixtures/e2e (all replaced in one atomic import,
+# so a rerun starts from the same data; one CLI start, since specs reseed often), then the content index of its
+# content root through POST /ops/content-index (the same route trip-web uses at boot).
 cmd_seed_data() {
 	ensure_tokens_file
 	(cd "$ROOT/packages/migrate" && ATR_SLOT="$SLOT" node src/bin.ts import --src "$E2E_DATA" --target local \
-		--parallel 4 --report "$ROOT/.cache/e2e-seed$SUFFIX")
+		--together --report "$ROOT/.cache/e2e-seed$SUFFIX")
 	(CONTENT_TOKEN="$(token_of CONTENT_TOKEN)" ATR_ROOT="$E2E_DATA/content" \
 		node "$WEB/scripts/content-index.ts" --fixtures --publish "http://127.0.0.1:$SITE_PORT")
 }

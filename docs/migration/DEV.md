@@ -118,9 +118,11 @@ four times slower than on a laptop. `lint` (format, ESLint, typecheck) and `test
   that writes reseeds (`scripts/convex-local.sh seed-data`) before its tests and again after them; a spec that
   only reads, or undoes its own writes, needs neither.
 - `scripts/e2e-prepare.sh <chromium|webkit>` brings up and seeds the backend, builds the app and installs the
-  browser in parallel. `ATR_E2E_PREPARED=1` then makes Playwright start only the built app. `seed-data` imports four
-  tables at a time (`@atr/migrate import --parallel 4`, refused for prod).
-- WebKit's system packages come from a cached apt archive; Chromium's are already on the runner image.
+  browser in parallel. `ATR_E2E_PREPARED=1` then makes Playwright start only the built app. `seed-data` replaces
+  all data tables in one ZIP import (`@atr/migrate import --together`, refused for prod): about 1 s instead of 8.
+- WebKit's system packages are installed with dpkg from cached .debs (`ATR_APT_ARCHIVES`), then checked with
+  `playwright install-deps --dry-run`; only when that fails does apt go to the Ubuntu mirror, with a time limit.
+  Chromium's packages are already on the runner image.
 - CI records a trace only on the retry of a failed test (locally, every failure keeps one).
 - Checkouts leave out `places/**/media/` and `areas/**/media/` (362 MB); no check reads the real photos.
 

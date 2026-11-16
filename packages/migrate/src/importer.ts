@@ -1,5 +1,5 @@
 // import (plan section 14, load step): replace each data table with the snapshot's rows, one atomic replace per
-// table in the fixed order of DATA_TABLES. App-only tables (members, appliedOps, tripChanges, contentIndex,
+// table in the fixed order of DATA_TABLES (or, for test backends, all of them in one atomic replace). App-only tables (members, appliedOps, tripChanges, contentIndex,
 // opsFlags) and the Better Auth tables are never touched.
 import type { Deployment } from './deployment/types.ts';
 import { tableCounts, type Snapshot } from './snapshot.ts';
@@ -12,10 +12,10 @@ export interface ImportOptions {
 	requireFrozen: boolean;
 	onTable?: (table: DataTable, count: number) => void;
 	/**
-	 * Tables replaced at the same time (default 1: one after another, in DATA_TABLES order). Each replace is its
-	 * own atomic CLI import, so this only shortens the wall time; e2e reseeds of a local test backend use it.
+	 * Replace every table in one import instead of one per table (one CLI start instead of sixteen): what the e2e
+	 * reseeds of a local test backend use. prod imports keep one table at a time.
 	 */
-	parallel?: number;
+	together?: boolean;
 }
 
 export async function importSnapshot(
@@ -34,14 +34,16 @@ export async function importSnapshot(
 			`writes are not frozen on ${deployment.label}; run ops:setWritesFrozen '{"value": true}' first`,
 		);
 	}
-	const queue = [...DATA_TABLES];
-	const lane = async (): Promise<void> => {
-		for (let table = queue.shift(); table !== undefined; table = queue.shift()) {
-			const rows = snapshot.rows.get(table) ?? [];
-			await deployment.replaceTable(table, rows);
-			options.onTable?.(table, rows.length);
-		}
-	};
-	await Promise.all(Array.from({ length: Math.max(1, options.parallel ?? 1) }, lane));
+	if (options.together === true) {
+		const tables = new Map(DATA_TABLES.map((table) => [table, snapshot.rows.get(table) ?? []]));
+		await deployment.replaceTables(tables);
+		for (const [table, rows] of tables) options.onTable?.(table, rows.length);
+		return tableCounts(snapshot.rows);
+	}
+	for (const table of DATA_TABLES) {
+		const rows = snapshot.rows.get(table) ?? [];
+		await deployment.replaceTable(table, rows);
+		options.onTable?.(table, rows.length);
+	}
 	return tableCounts(snapshot.rows);
 }
