@@ -55,7 +55,7 @@ export const BOOK_METHOD_IDS = Object.keys(BOOK_METHODS);
 
 export const CONFIDENCE = ['high', 'medium', 'low'];
 export const COST_LEVELS = ['low', 'medium', 'high'];
-export const CURRENCIES = ['CNY', 'KRW', 'JPY', 'HKD', 'THB', 'USD', 'BRL'];
+export const CURRENCIES = ['CNY', 'KRW', 'JPY', 'HKD', 'THB', 'SGD', 'USD', 'BRL'];
 
 export const TIP_VARIANTS = {
   insider: 'Insider tips',

@@ -5,6 +5,8 @@ import path from 'node:path';
 import { validatePlace, validatePlaceFile } from '../lib/validate.js';
 import { toJsonSchema } from '../lib/schema/dsl.js';
 import { placeSpec } from '../lib/schema/specs.js';
+import { COUNTRIES, CURRENCIES } from '../lib/schema/enums.js';
+import { SYMBOLS, fmtLocal } from '../lib/render/util.js';
 import { fixturePlace, fixtureCredits, fixtureMedia, tmpDir } from './helpers.js';
 
 const ctx = () => ({ credits: fixtureCredits(), mediaFiles: fixtureMedia(), fixtureMode: true, now: '2026-11-09', knownIds: new Set(['yu-garden', 'nanxiang-mantou-dian', 'the-bund']) });
@@ -116,4 +118,15 @@ test('JSON Schema export has required fields and block variants', () => {
   const s = toJsonSchema(placeSpec);
   assert.ok(s.required.includes('why'));
   assert.ok(s.properties.blocks.items.oneOf.length >= 14);
+});
+
+test('every trip country\'s currency is an allowed cost.currency with a symbol', () => {
+  for (const [id, c] of Object.entries(COUNTRIES)) {
+    assert.ok(CURRENCIES.includes(c.currency), `${id}: ${c.currency} missing from CURRENCIES`);
+    assert.ok(SYMBOLS[c.currency], `${id}: ${c.currency} missing from SYMBOLS`);
+  }
+  const p = fixturePlace();
+  p.cost = { ...p.cost, local: 5.6, currency: 'SGD' };
+  assert.deepEqual(errors(validatePlace(p, ctx())).filter((i) => i.path === 'cost.currency'), []);
+  assert.equal(fmtLocal(5.6, 'SGD'), 'S$5.60');
 });
