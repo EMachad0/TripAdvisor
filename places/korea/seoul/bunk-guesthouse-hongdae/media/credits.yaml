@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: hongdae-night
+  title: File:Hongdae 3.jpg
+  author: Sgroey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hongdae_3.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Hongdae_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Hongdae
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-15
+  origin: commons
+- file: hongik-entrance
+  title: File:239 A03 K314 Hongik University Station Entrance 20240702 101335.jpg
+  author: ZKang123
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:239_A03_K314_Hongik_University_Station_Entrance_20240702_101335.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/71/239_A03_K314_Hongik_University_Station_Entrance_20240702_101335.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 239 A03 K314 Hongik University Station Entrance 6
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-15
+  origin: commons

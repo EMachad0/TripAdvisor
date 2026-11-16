@@ -1,0 +1,199 @@
+id: bunk-guesthouse-hongdae
+name: "Bunk Guesthouse Hongdae"
+short_name: Bunk Guesthouse
+name_local: 벙크 게스트하우스 홍대
+country: korea
+city: seoul
+area: Hongdae · Mapo-gu
+category: stay
+tags: [hostel, guesthouse, hongdae, budget, free-breakfast, bunk-curtains, quiet-at-night]
+kind: Stay
+why: "₩36,000 a weeknight for a curtained bunk 500 m from Hongik Univ., with free breakfast and daily cleaning. Friendly and cozy, not a party hostel."
+
+cost:
+  local: 36000
+  currency: KRW
+  brl: 152.5
+  note: "Booking.com, 6-bed mixed dorm, Sun–Thu nights 11–19 Jan 2027 (2-night minimum), searched 15 Nov 2026"
+fx: { rate: 0.004236, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 30
+  lead_time: "Book now: free cancellation until 27 Dec; only 2 beds left in the mixed dorm"
+  method: platform
+  links:
+    - label: "Booking.com (11–20 Jan, 1 adult)"
+      url: "https://www.booking.com/hotel/kr/bunk-guesthouse-hongdae.en-gb.html?checkin=2027-01-11&checkout=2027-01-20&group_adults=1&no_rooms=1&group_children=0&selected_currency=KRW"
+      note: "The 9-night price, breakfast included. Signing in to Genius takes 10% off"
+  notes: "Every night 11–19 Jan has a 2-night minimum on Booking.com, so book the whole stay in one go. On 15 Nov the 9-night search showed 2 beds left in the 6-bed mixed dorm and 2 twin-with-bunk private rooms. Hostelworld sells nothing here."
+
+hours:
+  summary: "Check-in 15:00–21:00 UTC+9 (later only with a PIN arranged 3 days ahead) · check-out by 11:00 UTC+9 · bags stored before check-in"
+  winter: "Prices for 11–19 Jan read on 15 Nov 2026: Fri 15 and Sat 16 cost more, other nights the same. Winter reviews mostly say it is warm (floor heating, staff ask if the room is warm enough). One guest on 4 Dec 2025 found the heating weak and slept in thermals. No New Year rules apply to these dates."
+
+location:
+  address: "19-1 Wausan-ro 29ra-gil, Mapo-gu, Seoul 04053"
+  address_local: 서울특별시 마포구 와우산로29라길 19-1
+  lat: 37.55492
+  lng: 126.92712
+  nearest_transit: "Hongik Univ. station (Line 2 / AREX), 500 m: about 4–8 min on foot"
+
+sources:
+  - url: "https://www.booking.com/hotel/kr/bunk-guesthouse-hongdae.en-gb.html?checkin=2027-01-11&checkout=2027-01-20&group_adults=1&no_rooms=1&group_children=0&selected_currency=KRW"
+    title: "Booking.com, 11–20 Jan 2027 search: room prices for 9 nights, rating 8.9 (1,735), house rules, quiet hours, card surcharge, cancellation"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/kr/bunk-guesthouse-hongdae.en-gb.html?checkin=2027-01-15&checkout=2027-01-17&group_adults=1&no_rooms=1&group_children=0&selected_currency=KRW"
+    title: "Booking.com 2-night searches (change dates): 11–13 … 18–20 Jan read one by one for each night's price; 1-night searches need 2+"
+    checked: 2026-11-15
+  - url: "https://www.agoda.com/bunk-guesthouse-hostel/reviews/seoul-kr.html"
+    title: "Agoda guest reviews (9.1, 1,695): 329 reviews read, 2020 – Oct 2026, including Dec 2024 – Feb 2026 winter stays"
+    checked: 2026-11-15
+  - url: "https://www.trip.com/hotels/seoul-hotel-detail-6146424/bunk-guesthouse-hongdae/review.html"
+    title: "Trip.com guest reviews (9.3, 1,775), newest Nov 2026"
+    checked: 2026-11-15
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Bunk-Guest-House/Seoul/265891?from=2027-01-11&to=2027-01-20&guests=1&currency=KRW"
+    title: "Hostelworld 265891: host's own description (pub, rooftop, check-out, self check-in, 10% card fee); no beds on sale"
+    checked: 2026-11-15
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/265891/availability/?guests=1&num-nights=9&date-start=2027-01-11&currency=KRW&application=web"
+    title: "Hostelworld availability feed: no dorms or privates for 1, 2, 3 or 9 nights from 11 Jan, nor in Nov or Dec 2026"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/kr/crossroad-backpackers-hongdae.en-gb.html?checkin=2027-01-11&checkout=2027-01-20&group_adults=1&no_rooms=1&group_children=0&selected_currency=KRW"
+    title: "Booking.com: Bunk Backpackers Guesthouse (ex Crossroad), 11-1 Wausan-ro 29da-gil, 9.4 (903), 11–20 Jan search"
+    checked: 2026-11-15
+  - url: "https://www.openstreetmap.org/?mlat=37.55492&mlon=126.92712#map=17/37.55492/126.92712"
+    title: "OpenStreetMap: 19-1 Wausan-ro 29ra-gil"
+    checked: 2026-11-15
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020"
+    checked: 2026-11-15
+confidence: medium
+confidence_note: "Prices read on Booking.com 15 Nov; nightly prices worked out from 2-night searches add up exactly to the 9-night total. Not confirmed: the lounge open all night, wifi speed (only a 9.4 score), the ground-floor pub (no review mentions it), events (BBQ party only in an old Hostelworld text), cleaning times. Trip.com read via render; Google, Naver, Tripadvisor unreadable."
+last_updated: 2026-11-15
+
+blocks:
+  - type: hero
+    image: hongdae-night
+    caption: "Yanghwa-ro by Hongik Univ. station at night. No free photo of the guesthouse exists"
+    hook: "A spotless curtained bunk in the middle of Hongdae. People chat over breakfast, and it goes quiet at midnight."
+  - type: quick_facts
+    extra:
+      - { label: Vibe, value: "Cozy, quiet after 00:00", detail: "People talk at breakfast and in the lounge; not a party hostel" }
+      - { label: Night shifts, value: Silent laptop only, detail: "House rules: no talking in the lounge after 00:00 UTC+9" }
+      - { label: Check-in, value: "15:00–21:00 UTC+9", detail: "Leave bags from the morning" }
+  - type: stay
+    style: guesthouse
+    beds:
+      - label: "6-bed mixed dorm · Sun–Thu nights"
+        local: 36000
+        brl: 152.5
+        url: "https://www.booking.com/hotel/kr/bunk-guesthouse-hongdae.en-gb.html?checkin=2027-01-11&checkout=2027-01-13&group_adults=1&no_rooms=1&group_children=0&selected_currency=KRW"
+        note: "Booking.com, breakfast included, curtains and a reading light on every bunk. 2-night minimum"
+      - label: "6-bed mixed dorm · Fri 15 and Sat 16 Jan"
+        local: 40000
+        brl: 169.44
+        url: "https://www.booking.com/hotel/kr/bunk-guesthouse-hongdae.en-gb.html?checkin=2027-01-15&checkout=2027-01-17&group_adults=1&no_rooms=1&group_children=0&selected_currency=KRW"
+        note: "9 nights 11–20 Jan: ₩332,000 (R$1,406.35); ₩298,800 with Genius sign-in"
+      - label: "4-bed mixed dorm · Sun–Thu nights"
+        local: 38000
+        brl: 160.97
+        url: "https://www.booking.com/hotel/kr/bunk-guesthouse-hongdae.en-gb.html?checkin=2027-01-11&checkout=2027-01-13&group_adults=1&no_rooms=1&group_children=0&selected_currency=KRW"
+        note: "₩43,000 on Fri 15 and Sat 16; ₩352,000 for the 9 nights"
+      - label: "Twin room with bunk bed, for 1 · Sun–Thu"
+        local: 100000
+        brl: 423.6
+        url: "https://www.booking.com/hotel/kr/bunk-guesthouse-hongdae.en-gb.html?checkin=2027-01-11&checkout=2027-01-13&group_adults=1&no_rooms=1&group_children=0&selected_currency=KRW"
+        note: "The cheapest private room, with its own bathroom. Price is for 1 guest"
+      - label: "Twin room with bunk bed, for 1 · Fri 15 and Sat 16"
+        local: 134000
+        brl: 567.62
+        url: "https://www.booking.com/hotel/kr/bunk-guesthouse-hongdae.en-gb.html?checkin=2027-01-15&checkout=2027-01-17&group_adults=1&no_rooms=1&group_children=0&selected_currency=KRW"
+        note: "9 nights 11–20 Jan: ₩968,000 (R$4,100.45); ₩871,200 with Genius sign-in"
+    rating:
+      score: 8.9
+      out_of: 10
+      source: Booking.com
+      reviews: 1735
+      checked: 2026-11-15
+    social:
+      - "Guests meet at breakfast (08:00–10:00 UTC+9) and in the lounge: \"people socialise during breakfast\" (Oct 2025), \"it never gets lonely\" (Apr 2026)."
+      - "\"Lots of opportunities to socialise with other guests. Not loud at nighttime\" (Irish guest, 6-bed mixed dorm, Oct 2025)."
+      - "Winter 2025–26 reviews call it homey and quiet; Jan 2026: guests chatted happily in the lounge. No review mentions guests going out to clubs together."
+      - "Most reviewers are Asian solo women in the female dorms, so the mixed dorm is a smaller crowd."
+      - "The host's old Hostelworld text lists a Thursday Korean BBQ party (₩25,000) and a Tuesday tour. No 2025–26 review mentions either: ask on arrival."
+      - "Booking.com says there is a pub on the ground floor and a rooftop terrace. No recent review mentions the pub."
+    good_to_know:
+      - "**Quiet hours** 00:00–07:00 UTC+9; rules on the lounge table ask for no talking after midnight (May 2026). Thin walls: rooms hear lounge talk."
+      - "**Day sleep in a dorm** is the weak spot: breakfast 08:00–10:00 UTC+9, check-out 11:00 UTC+9, daily cleaning. Bring earplugs and an eye mask."
+      - "**Wifi:** guests score it 9.4 on Booking.com, but no review describes speed. Keep a phone data plan as backup for calls."
+      - "**Clean:** cleanliness 9.1 (Booking.com and Agoda), daily housekeeping. Complaints: dusty bunks (Apr 2026) and a smelly mixed 4-bed dorm (Dec 2024)."
+      - "**Lockers** are in the room but small: bring your own padlock. Every room door has a code lock."
+      - "**Card surcharge:** Booking.com says up to 5% for an overseas card paid on site; the host's Hostelworld text says 10%. Prepay on Booking.com."
+      - "Two buildings, stairs only, no lift. Wobbly metal bunks in some rooms."
+  - type: prose
+    title: Your 9 nights, priced
+    text: |-
+      Booking.com, 1 adult, read 15 Nov 2026. Dorm bed in the 6-bed mixed dorm and the cheapest private room for one (twin with bunk bed):
+
+      - **Mon 11, Tue 12, Wed 13, Thu 14 Jan:** dorm ₩36,000 (R$152.50) · private ₩100,000 (R$423.60) each night
+      - **Fri 15, Sat 16 Jan:** dorm ₩40,000 (R$169.44) · private ₩134,000 (R$567.62) each night
+      - **Sun 17, Mon 18, Tue 19 Jan:** dorm ₩36,000 · private ₩100,000 each night
+      - **9 nights:** dorm **₩332,000 (R$1,406.35)** · private **₩968,000 (R$4,100.45)**
+
+      The dorm is ₩148,000 (R$626.93) under the ₩480,000 plan; the private room is ₩488,000 (R$2,067.17) over it. Signing in to Booking.com Genius takes 10% off: ₩298,800 and ₩871,200.
+  - type: gallery
+    feature: false
+    images:
+      - file: hongik-entrance
+        caption: "A Hongik Univ. station entrance; the guesthouse is about 500 m from the station"
+  - type: highlights
+    items:
+      - title: Half the old Seoul budget
+        text: "**₩332,000** (R$1,406) for a dorm bed all 9 nights with breakfast, against the ₩480,000 plan."
+      - title: Curtains and daily cleaning
+        text: "Dark curtains, a lamp and a socket on each bunk; recent guests say rooms and showers are cleaned every day."
+      - title: Hongdae on the doorstep
+        text: "Booking.com guests rate the location 9.7. Hongdae's club streets are about 10 min on foot."
+      - title: Straight from the airport
+        text: "The AREX train from Incheon stops at Hongik Univ.; the host says the guesthouse is 4 min from Exit 6."
+  - type: book_ahead
+    steps:
+      - days_before: 57
+        text: "Book all 9 nights (11–20 Jan) in one booking on Booking.com: every night has a 2-night minimum. Pick the free-cancellation rate."
+      - days_before: 15
+        text: "Last day to cancel free is 27 Dec 2026 (free until 28 Dec on the 15 Nov search). Payment is due around 26 Dec."
+      - days_before: 0
+        text: "Land 08:40 UTC+9, take AREX to Hongik Univ. and leave your bag at reception (office from 08:30 UTC+9). Check in from 15:00 UTC+9 with your passport and card."
+  - type: map
+    note: "From Hongik Univ. Exit 6, 7 or 8 walk north into the lanes. Reviewers mention a small slope and uneven pavement with a suitcase."
+  - type: tips
+    variant: insider
+    items:
+      - "**Working 21:00–06:00 UTC+9 here:** silent laptop work in the lounge looks possible, but no source says it stays open all night. A spoken call there is only realistic before 00:00 UTC+9."
+      - "**Mondays and Fridays (you speak):** after midnight take the call in a private room, quietly, or keep the dorm and step outside. Booking.com scores the wifi 9.4; carry mobile data as backup."
+      - "**Sleeping 06:30–14:00 UTC+9:** in a dorm, roommates wake, pack and leave around you until 11:00 UTC+9. A private room is quieter, though a Dec 2025 guest found its walls thin too."
+  - type: tips
+    variant: insider
+    items:
+      - "Departure day (Wed 20): check out by 11:00 UTC+9 and leave your bag; collect it before 21:00 UTC+9. A June 2026 guest was charged ₩5,000 after that."
+      - "Need privacy only on work weeks? Book a private room 11–16 Jan and 18–20 Jan and a dorm bed for 16–18 Jan: about ₩810,000 (R$3,431). Each booking needs at least 2 nights."
+      - "For Saturday 16 Jan, join an organised Hongdae pub crawl: no review shows guests here going out together."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't confuse it with **Bunk Backpackers Guesthouse** (ex Crossroad Backpackers, 11-1 Wausan-ro 29da-gil), a separate listing run by another host. It is a real alternative: Booking.com 9.4 (903 reviews), same ₩332,000 dorm price for the 9 nights."
+      - "The Hostelworld page (id 265891) is dormant: no beds on any date, no rating, newest reviews from 2022."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry and freezing, some snow
+    note: "January in Seoul averages −5.5 °C at night and 2.1 °C by day. Rooms have floor heating; one Dec 2025 guest still found the dorm cool."
+    wear: Padded jacket, hat and gloves; warm socks for the stairs
+  - type: pairs_well
+    items:
+      - id: hongdae-pub-crawl
+        note: "The Saturday crawl meets a short walk away"
+      - id: hongdae-club-night
+        note: "Hongdae clubs, about 10 min on foot"
+      - id: time-travelers-relax-hongdae
+        note: "Another small, social guesthouse up the hill, for comparison"

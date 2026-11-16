@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: hapjeong-sign
+  title: File:Hapjeong Station 20201009 001.jpg
+  author: Mobius6
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hapjeong_Station_20201009_001.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Hapjeong_Station_20201009_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Hapjeong Station, Seoul, South Korea
+  width: 2742
+  height: 1832
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-15
+  origin: commons
