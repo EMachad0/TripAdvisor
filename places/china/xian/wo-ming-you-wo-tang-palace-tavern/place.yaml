@@ -1,0 +1,128 @@
+id: wo-ming-you-wo-tang-palace-tavern
+name: "Wo Ming You Wo: Tang Palace Tavern"
+short_name: Wo Ming You Wo
+name_local: 我命由我·唐宫酒馆中国菜
+name_romanized: Wǒ Mìng Yóu Wǒ
+country: china
+city: xian
+area: Qujiang Creative Valley
+category: nightlife
+fame: hidden
+tags: [guofeng, tang-dynasty, dinner-show, hanfu]
+kind: Eat
+why: "Xi'an's closest thing to a gufeng tavern: a Tang-palace dining hall where hanfu dancers take the stage between plates, about ¥66 a head."
+cost: { local: 66, currency: CNY, brl: 56.03, note: "Ctrip's user-reported average; one Oct 2026 diner paid ¥40. No cover or show fee reported." }
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: 1.5–2 h
+best_time: "Dinner, 18:00–20:00 (UTC+8)"
+
+book_ahead:
+  required: false
+  notes: "No source mentions booking or a minimum spend. Reviews describe a main hall with a central stage plus many private rooms: ask for the hall, or you won't see the show."
+
+hours:
+  summary: "Trip.com: daily 10:00–22:00 (UTC+8). A 2021 listing said 11:30–24:00, so arrive by 20:00 (UTC+8)."
+  winter: "No winter or holiday changes found. Dec 16–18, 2026 is a plain Wed–Fri with no holiday. Show times for those nights are not published; reviews only say shows run at mealtimes."
+
+location:
+  address: "Central Plaza, ground level (L), Qujiang Creative Valley, 3369 Yanxiang Rd, Yanta District, Xi'an"
+  address_local: 西安市雁塔区雁翔路3369号曲江创意谷地上L层(中央广场)
+  lat: 34.21412
+  lng: 109.00797
+  nearest_transit: "Huangqutou (Line 5), Exit B, about 730 m walk"
+  approximate: true
+
+sources:
+  - url: https://you.ctrip.com/food/7/25043078.html
+    title: "我命由我·中国菜(曲江创意谷店) — Ctrip: address, ¥66 average, 88 reviews incl. Aug–Oct 2026 (shows, hanfu dancers)"
+    checked: 2026-11-15
+  - url: https://tw.trip.com/restaurant/china/xi-an/detail/my-fate-my-choicechinese-cuisine-108262694/
+    title: "我命由我·中國菜 — Trip.com: hours 10:00–22:00, card and mobile payment, Jun–Aug 2026 reviews"
+    checked: 2026-11-15
+  - url: https://www.sohu.com/a/482849578_684236
+    title: "Sohu (Aug 2021): 我命由我·唐宫酒馆中国菜 set-menu deal with per-dish list prices"
+    checked: 2026-11-15
+  - url: https://news.qq.com/rain/a/20251016A07SWN00
+    title: "Tencent News (Oct 2025): Qujiang Creative Valley guide, metro Line 5 Huangqutou Exit B ≈728 m"
+    checked: 2026-11-15
+  - url: https://hk.trip.com/restaurant/china/xi-an/detail/restaurant-149909628/
+    title: "三秦古酒館 — Trip.com (runner-up): Xiangzimiao St, 10:00–01:00, rice and yellow wine, May 2026 reviews"
+    checked: 2026-11-15
+  - url: https://hk.trip.com/restaurant/china/xi-an/detail/restaurant-149375407/
+    title: "人籟Empyrean詩酒空間 — Trip.com (runner-up): resident band 21:30, folk and stand-up, 2026 reviews"
+    checked: 2026-11-15
+  - url: https://en.wikipedia.org/wiki/Xi%27an
+    title: "Xi'an — Wikipedia: climate tables (December mean low about −3 to −1 °C, high about 7 °C)"
+    checked: 2026-11-15
+confidence: low
+confidence_note: "Open per Ctrip reviews to 2026-10-22. Trip.com pages opened via WebFetch (link checker blocked). No source names live musicians. Dish prices: 2021 Sohu deal. Snippet only, not opened: a 2025 Douyin post on a late-night tavern mode (~¥70) and all 焰隐庐 facts (Douyin). Pin is the mall."
+last_updated: 2026-11-15
+
+blocks:
+  - type: hero
+    hook: Red walls, lanterns and a star-canopy stage, with water-sleeve dancers going on about every half hour at peak times.
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: "Dinner, 18:00–20:00 (UTC+8)"
+    extra:
+      - { label: Live music, value: Not confirmed, detail: "Reviews describe dance shows; no source mentions live 民乐" }
+      - { label: Payment, value: Card or mobile pay, detail: Trip.com listing }
+  - type: highlights
+    items:
+      - title: A Tang palace, indoors
+        text: "Reviewers describe **Tang-style décor**: red walls, drapes, lanterns, warm dim light and a stage under a starry canopy."
+      - title: Hanfu dancers between plates
+        text: "Ancient-style shows run during meals, including **hanfu** and **water-sleeve (水袖) dances**. An Aug 2026 review counts one about every half hour at peak times."
+      - title: Cheap for a themed room
+        text: "Ctrip puts the average at **¥66** a head; one diner in Oct 2026 paid ¥40. No cover or show fee shows up in any review."
+      - title: Real Shaanxi food
+        text: "Reviews and Trip.com's popular list name **葫芦鸡** gourd chicken, iron-pot chicken with steamed rolls (铁锅土鸡焖花卷), fish with silken tofu (鲜鱼嫩豆腐) and biangbiang noodles."
+  - type: prose
+    title: Why this, and not a music tavern
+    dropcap: true
+    text: |-
+      The traveler asked for a Xi'an version of Chengdu's 听·江湖民乐酒馆: a jianghu-style tavern with live guzheng, pipa, erhu and dizi. The only branch found is on Yulin Road in Chengdu; no Xi'an branch turned up in Chinese searches. Searches on Trip.com, Ctrip, Baidu and 360 for 古风酒馆, 国风酒馆, 民乐酒馆, 唐风酒馆 and 汉服酒馆 also found **no Xi'an bar with a verifiable live traditional-music set** in 2026.
+
+      Wo Ming You Wo is the closest open match. It calls itself a 唐宫酒馆 ("Tang palace tavern"), has gufeng decor and costumed shows, costs no ticket, and has reviews from October 2026. **But it is a restaurant with a stage, not a bar.** Reviews mention a light drink with friends (小酌), yet no source gives a drinks list or drink prices. The shows are dance, and no source says whether the music is played live.
+
+      **Verdict:** this does not earn an evening of a two-night stop on its own. Book it as **dinner** on the free evening, see the show, then go on to a bar. If one night is spent on the sleeper train, skip it unless the Tang-palace look is the thing you want most.
+  - type: cost_breakdown
+    items:
+      - { label: "Dinner, user-reported average", local: 66, brl: 56.03, estimate: true }
+  - type: menu
+    title: Dishes reviewers name
+    items:
+      - { name: Spicy chicken with fresh chillies, name_local: 鲜椒辣子鸡, price_local: 76.8, price_brl: 65.2, note: "2021 list price", tag: spicy }
+      - { name: "\"Lychee\" shrimp-paste fritters", name_local: 腾云驾雾妃子笑, price_local: 49, price_brl: 41.6, note: "2021 list price", tag: signature }
+      - { name: Jellyfish head in aged vinegar, name_local: 陈醋蜇头, price_local: 38, price_brl: 32.26, note: "2021 list price; cold starter" }
+      - { name: Osmanthus cold cake, name_local: 桂花凉糕, price_local: 26, price_brl: 22.07, note: "2021 list price", tag: veg }
+      - { name: Sour plum drink, name_local: 酸梅汤, price_local: 26, price_brl: 22.07, note: "2021 list price", tag: drink }
+      - { name: Fermented-rice ice cream (two portions), name_local: 醪糟冰激凌, price_local: 24, price_brl: 20.37, note: "2021 list price for two, so about ¥12 each", tag: cheap }
+      - { name: Shaanxi gourd chicken, name_local: 陕西葫芦鸡, note: "Named in Trip.com's popular dishes and Aug 2026 reviews; price not found", tag: must-try }
+      - { name: Biangbiang noodles, name_local: Biang Biang面, note: "Named in Oct 2026 reviews; price not found" }
+    note: "Prices are from a 2021 deal listing and have likely changed. Expect a Chinese menu: have a translation app ready."
+  - type: map
+    note: "Take Metro **Line 5 to Huangqutou, Exit B**, then walk about 730 m into Qujiang Creative Valley. The restaurant is on the ground level at the Central Plaza."
+  - type: tips
+    variant: insider
+    items:
+      - "Sit in the **main hall**, not a private room: the stage is in the hall."
+      - "Shows run at **mealtimes**, so arrive around 18:00 (UTC+8) and stay through two or three of them."
+      - "Diners mention a light drink with friends, but no drinks list or prices are published: ask before you order."
+  - type: tips
+    variant: insider
+    title: Runners-up, and why they lost
+    items:
+      - "**Runner-up: 焰隐庐·国风酒馆** (Fengcheng 10th Rd, far north). A guofeng BBQ tavern with dancers that Douyin posts say opened in late 2025 or early 2026. Lost: address, prices and show times can't be checked outside Douyin."
+      - "**Runner-up: 三秦古酒馆** (Xiangzimiao St, old city, 10:00–01:00 UTC+8). Warm osmanthus rice wine and yellow wine, with May 2026 reviews. Lost: no music or gufeng show reported."
+      - "**Runner-up: 人籁 Empyrean 诗酒空间** (Xiying Rd). A resident band plays at 21:30 (UTC+8), with folk and stand-up in 2026. Lost: modern folk, not traditional instruments or gufeng."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Ruled out: the Tang taverns inside **Chang'an Twelve Hours** and **Xi'an Qianguqing** are parts of ticketed theme parks, not bars."
+  - type: weather
+    temp_low_c: -2
+    temp_high_c: 7
+    conditions: Cold and dry, mostly cloudy, below freezing at night
+    note: "Everything happens indoors, so winter doesn't change the visit. The only cold part is the 730 m walk from the metro."
+    wear: Down jacket for the walk from Huangqutou

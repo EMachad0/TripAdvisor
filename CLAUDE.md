@@ -3,3 +3,5 @@
 A Node trip-planner site and curator platform for a solo backpacking trip through China, Korea, Japan, Hong Kong and Thailand (Dec 2026 to Feb 2027). Start with `README.md` and the `docs/` folder.
 
 When the user asks a question about the trip, answer it here, then publish the answer as a card on the site with the `trip-answers` skill (`.claude/skills/trip-answers/SKILL.md`).
+
+When the user asks for a new card (a place, stay or area page under `places/` or `areas/`), ship it without asking: once the curator's page passes `./atr validate`, put it on a branch from `origin/main` (a worktree, only that card's files plus its `reviews/<id>.yaml`), open a pull request, merge it, and check `/healthz` reports the merge commit. The user never reviews cards locally, so a card is not done until it is live. Never push to `main` directly.

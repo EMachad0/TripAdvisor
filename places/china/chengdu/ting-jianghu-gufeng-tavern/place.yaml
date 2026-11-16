@@ -1,0 +1,130 @@
+id: ting-jianghu-gufeng-tavern
+name: "Ting Jianghu Gufeng Tavern"
+short_name: Ting Jianghu
+name_local: 听·江湖古风酒馆（玉林店）
+name_romanized: Tīng Jiānghú Gǔfēng Jiǔguǎn
+country: china
+city: chengdu
+area: Wuhou · Yulin
+category: nightlife
+fame: hidden
+tags: [bar, live-music, guofeng]
+kind: Do
+why: A wuxia-themed tavern in Yulin with ancient-style dance and Chinese folk music. Mandarin songs, local crowd, no English found.
+cost:
+  local: 95
+  currency: CNY
+  brl: 80.65
+  note: "Unconfirmed estimate: ¥93–97 a head, from search snippets of a Mar 2026 report. No cover charge found"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: 2–3 h
+best_time: "An evening after 19:00 (UTC+8)"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Unconfirmed: 19:00–02:00 (UTC+8), from search snippets of a 2026 report. Check Dianping before going"
+  winter: "No Christmas or New Year programme found for 23–26 Dec 2026, and no holiday closure found either. Its Douyin account was posting in Dec 2025, but those posts were tagged for the Qionglai branch, not Yulin."
+
+location:
+  address: "1F, 13 Yulin Middle Road, Wuhou District, Chengdu"
+  address_local: 成都市武侯区玉林中路13号1楼
+  lat: 30.62953
+  lng: 104.05579
+  nearest_transit: "Fangcao Street metro station, about 600 m west"
+  approximate: true
+
+sources:
+  - url: https://www.scribd.com/document/1048483122/
+    title: "听江湖古风酒馆 抖音运营数据分析报告 (Douyin marketing report, dated 17 Mar 2026), Scribd"
+    checked: 2026-11-15
+  - url: https://www.bilibili.com/video/BV1FgspzGEsH/
+    title: "听·江湖古风酒馆 古风舞蹈: visitor video from Yulin Road, Bilibili (posted 24 Oct 2025)"
+    checked: 2026-11-15
+  - url: https://api.fxtwitter.com/status/2106030826987364648
+    title: "X post by @HaibingT48420 recommending 听 江湖古风酒馆 in 玉林 (2 Oct 2026), readable copy via fxtwitter"
+    checked: 2026-11-15
+  - url: https://www.instagram.com/reel/DEH2Tb6IT4O/
+    title: "Hi China Travel reel: new Chinese-style bar, 成都玉林中路 听江湖民谣酒馆, Instagram (28 Dec 2024)"
+    checked: 2026-11-15
+  - url: https://www.qlxww.cn/web/xinwen/guonaxinwen/20251027/18923.html
+    title: "邛崃文脉坊：首店经济… (the Qionglai branch and its 凤求凰 drink), Qionglai News (27 Oct 2025)"
+    checked: 2026-11-15
+  - url: https://www.163.com/dy/article/K9JAKAJM0556F7KO.html
+    title: "音乐房子双品牌入驻邛崃文脉坊 (Music House group's 听·江湖 brand), NetEase (16 Sep 2025)"
+    checked: 2026-11-15
+confidence: low
+confidence_note: "Street number, hours, ¥93–97, nightly acts, 3 drink names, other names (民乐/民谣酒馆): search snippets only (garbled Mar 2026 Scribd report, Douyin, Trip.com listing now 404). Open in 2026: an Oct 2026 X post and a Jan 2026 Douyin snippet; no map listing opened. Payment, English, booking, cover charge: unknown."
+last_updated: 2026-11-15
+
+blocks:
+  - type: hero
+    image: yulin-east-road-night
+    caption: "Yulin East Road at night, a few streets away. No free photo of the tavern exists"
+    hook: Ancient-style dance and Chinese folk music, in a bar themed on the wandering-swordsman world.
+  - type: quick_facts
+    time_needed: 2–3 h
+    best_time: "After 19:00 (UTC+8)"
+    extra:
+      - { label: Language, value: Chinese only, detail: "Songs, menu and staff: no English found in any source" }
+      - { label: Crowd, value: "Young, mostly local", detail: "The report says most customers are young women" }
+  - type: highlights
+    items:
+      - title: A jianghu tavern
+        text: "The theme is the *jianghu*, the wandering-swordsman world of wuxia novels, with Chinese traditional-style décor."
+      - title: Guofeng music
+        text: "The music-bar brand **Music House** (音乐房子), which runs it, pitches 听·江湖 as Chinese-style music with a jianghu theme. Search snippets of a 2026 report add folk songs, classical dance and **pipa** nightly (not confirmed)."
+      - title: Gufeng dance with energy
+        text: "A visitor's video from Yulin Road (Oct 2025) shows *gufeng* (ancient-style) dance, which the poster says was surprisingly high-energy."
+      - title: Drinks named after wuxia
+        text: "Drinks are named after wuxia songs and stories, such as **凤求凰** (Qionglai News) and, per report snippets, **任逍遥**, **笑傲江湖** and **女儿红**."
+  - type: prose
+    title: Is this the place you meant?
+    text: |-
+      There is no English "Tingjianghu Gufeng Wine House" listing. The name matches **听·江湖古风酒馆**, "Listen · Jianghu, ancient-style tavern", at 13 Yulin Middle Road. Douyin posts have also called it 民乐酒馆 (folk-instrument tavern) and 民谣酒馆 (folk-song tavern).
+
+      It has **two branches**, both under Chengdu: this one in **Yulin**, in the city, and a newer **听·江湖古风餐酒馆** at Wenmai Fang in **Qionglai**, a satellite city of Chengdu, open since at least October 2025. No branch in any other city turned up. Yulin is the one to go to.
+
+      **Honest verdict:** worth one of your three free Chengdu evenings only if you want a Chinese costume-drama atmosphere and don't mind not following the lyrics. As a bar for meeting people from the hostel it is a weak pick: the crowd is local, the songs are Mandarin, and no source says anything about foreigners. It's better as a 1–2 hour stop on a Yulin evening than as the whole night.
+  - type: gallery
+    images:
+      - file: yulin-west-north-crossing
+        caption: "Yulin West Road meets Yulin North Road, the bar quarter around the tavern"
+  - type: cost_breakdown
+    items:
+      - { label: "Average spend per person (drinks and snacks)", local: 95, brl: 80.65, estimate: true }
+    note: "No cover charge or minimum spend found in any source, but none rules one out either."
+  - type: menu
+    title: Signature drinks (prices not found)
+    items:
+      - { name: Ren Xiaoyao, name_local: 任逍遥, tag: drink }
+      - { name: Xiao'ao Jianghu, name_local: 笑傲江湖, tag: drink }
+      - { name: Nü'er Hong, name_local: 女儿红, tag: drink }
+      - { name: Feng Qiu Huang, name_local: 凤求凰, note: "Signature at the Qionglai branch, made with local base liquor; not confirmed for Yulin", tag: signature }
+    note: "凤求凰 from Qionglai News; the other three from search snippets of a 2026 report. No menu with prices found. Point at the Chinese name."
+  - type: map
+    note: "Show the taxi driver the Chinese address. The tavern is on the ground floor."
+  - type: tips
+    variant: insider
+    items:
+      - "Make it part of a **Yulin evening at Christmas** (see the Christmas in Chengdu page): walk the bar streets first, then come in for an hour of the show."
+      - "Save the Chinese name **听·江湖古风酒馆（玉林店）** on your phone in case the map apps don't show an English name."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Nothing confirms it is open on **23–26 Dec 2026**. Check its Douyin account (听·江湖古风酒馆) or Dianping that week before you go."
+      - "Payment and English aren't confirmed. Have **Alipay or WeChat Pay** with a foreign card linked, and a translation app open."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Cool, damp and grey
+    note: "It's an indoor bar, so the weather only matters for the walk around Yulin before or after."
+    wear: A warm layer for the walk
+  - type: pairs_well
+    items:
+      - { id: chengdu-christmas, note: "Yulin's Christmas streets are right outside" }
+  - type: sources
+    note: "Street number 13 (玉林中路13号1楼) is from search snippets only: the Trip.com listing (now 404), a Dec 2024 Douyin post, the 2026 report and the company registry (成都口斤江湖餐饮管理有限公司, 玉林中路13号附1号). The Instagram reel confirms Yulin Middle Road."

@@ -1,0 +1,173 @@
+id: shuyanfu-shanghai
+name: "SHUYANFU Shanghai"
+name_local: 蜀宴赋·上海
+name_romanized: Shǔ Yàn Fù
+country: china
+city: shanghai
+area: Pudong · Jinqiao
+category: shows
+fame: hidden
+tags: [dinner-show, hanfu, sichuan-food, splurge]
+kind: Do
+why: A 100-minute Sichuan banquet, one small table per guest, while dancers act out Chinese court history in front of you. Hanfu costume optional.
+
+cost:
+  local: 498
+  currency: CNY
+  brl: 422.75
+  note: "Venue price, standard lunch seat (Oct 2025 list). GetYourGuide sells from R$754; Trip.com showed no price here"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: 3–4 h with the metro
+best_time: Weekday lunch, 12:30 (UTC+8)
+
+book_ahead:
+  required: true
+  lead_days: 7
+  lead_time: "About a week ahead; weekend and holiday dinners fill first"
+  method: platform
+  links:
+    - label: Trip.com ticket (English)
+      url: "https://www.trip.com/things-to-do/detail/105633363"
+      note: "Instant confirmation, Mandarin and English; free cancellation until 11:00 (UTC+8) the day before"
+    - label: GetYourGuide (pay in R$)
+      url: "https://www.getyourguide.com/shanghai-l178/shanghai-royal-cultural-dinner-show-shuyan-t1223382/"
+      note: "From R$754 (checked 16 Nov), well above the ¥498 venue price; free cancellation 24 h ahead"
+    - label: Trip.com venue page
+      url: "https://www.trip.com/travel-guide/attraction/shanghai/shuyanfu-dining-show-152870269/"
+      note: "Venue page with all resellers and reviews"
+  notes: "No walk-in option is mentioned anywhere. Book a **weekday lunch**: Mon 7 or Tue 8 Dec (9 and 11 Dec are Huangshan travel days). Seats for those dates are not checked: the calendars did not load."
+
+hours:
+  summary: "Two shows a day: lunch 12:30, dinner 18:30 or 19:00 (UTC+8; sources differ); about 100 min each"
+  winter: "No December closure found. The venue ran through Spring Festival 2026 with both shows. The menu changes with the seasons, so the December menu will differ from the dishes in older reviews."
+
+location:
+  address: "1F, Building 38, EKA·Tianwu park, 535 Jinqiao Rd, Pudong, Shanghai"
+  address_local: 上海市浦东新区金桥路535号 EKA·天物 38幢1层 蜀宴赋
+  lat: 31.26636
+  lng: 121.57149
+  approximate: true
+  nearest_transit: "Jinqiao Road (Line 6), Exit 3, then a 10–15 min walk"
+
+sources:
+  - url: https://www.trip.com/moments/poi-shuyanfu-dinner-show-152870269/
+    title: "Trip.com Moments: SHUYANFU Dinner Show (Shanghai), 29 visitor posts (undated)"
+    checked: 2026-11-16
+  - url: https://www.trip.com/moments/poi-shuyanfu-154921894/
+    title: "Trip.com Moments: SHUYANFU (Shanghai), visitor posts on prices, show times and booking"
+    checked: 2026-11-16
+  - url: https://www.dahepiao.com/lvyounews1/20251016533947.html
+    title: "Dahepiao: 上海蜀宴赋秋宴 seat tiers, prices and show times (16 Oct 2025)"
+    checked: 2026-11-16
+  - url: https://www.dahepiao.com/lvyounews1/20251016533944.html
+    title: "Dahepiao: 蜀宴赋·上海 ticket tiers and opening hours (16 Oct 2025)"
+    checked: 2026-11-16
+  - url: https://www.getyourguide.com/shanghai-l178/shanghai-royal-cultural-dinner-show-shuyan-t1223382/
+    title: "GetYourGuide: Shanghai Royal Cultural Dinner Show – SHUYANFU (add-on prices, show times)"
+    checked: 2026-11-16
+  - url: https://www.waug.com/en/activities/153931
+    title: "Waug: Shanghai Shuyanfu Royal Cultural Dinner Show (costume packages, passport at entry)"
+    checked: 2026-11-16
+  - url: https://www.trip.com/things-to-do/detail/105633363
+    title: "Trip.com: Shanghai shuyanfu immersive palace banquet ticket (languages, cancellation)"
+    checked: 2026-11-16
+  - url: "https://www.trip.com/global-search/searchlist/search/?keyword=%E8%9C%80%E5%AE%B4%E8%B5%8B%20%E4%B8%8A%E6%B5%B7&locale=en-US&curr=CNY"
+    title: "Trip.com search for 蜀宴赋 上海: venue rating 5.0/5 from 1,653 reviews"
+    checked: 2026-11-16
+  - url: https://www.chinanews.com.cn/sh/2026/04-21/10607625.shtml
+    title: "China News Service: 蜀宴赋 foreign guests over 25%, two shows a day (21 Apr 2026)"
+    checked: 2026-11-16
+  - url: https://www.citynewsservice.cn/articles/cns/misc/icymi/win-a-time-travel-dining-experience-in-shanghai-rkl57v3n
+    title: "City News Service: Win a time-travel dining experience in Shanghai (28 Feb 2026)"
+    checked: 2026-11-16
+  - url: https://www.sohu.com/a/1100658466_122989365
+    title: "Sohu: Shanghai immersive dinner show guide, brand-sponsored (12 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://www.chinahighlights.com/shanghai/weather/december.htm
+    title: "China Highlights: Shanghai weather in December"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Prices: Oct 2025 venue tier list; no foreigner channel at ¥498 confirmed. Dinner 18:30 or 19:00. 7–8 Dec seats unchecked (calendars did not load). Trip.com pages via WebFetch, search and GetYourGuide via atr render; venue page bot-walled. Nothing on men's hair or hats. Last train from a timetable search snippet. No free photo exists."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    hook: Ten Sichuan courses served between acts of Chinese court history, in a 14-metre-high hall in an old Pudong factory.
+  - type: quick_facts
+    time_needed: 3–4 h with the metro
+    best_time: Weekday lunch, 12:30 (UTC+8)
+    extra:
+      - { label: Language, value: Little spoken text, detail: "Music and dance; English on screens and on each dish card" }
+      - { label: Solo seats, value: One table per guest, detail: "Reviewers booked single seats; front rows see best" }
+      - { label: Spice, value: Mild, detail: "Sichuan dishes toned down for Shanghai and foreign guests" }
+  - type: highlights
+    items:
+      - title: Dinner as theatre
+        text: "About **100 minutes**: courses arrive between staged acts, from early dynasties to later court styles, with live music, dancers and projections. It ends with a costume parade."
+      - title: Built for a solo guest
+        text: "Seating is **one person per setting** with its own servings, so you are not squeezed onto a couples' table. Reviewers booked single seats in the third row and front-row centre."
+      - title: Mild Sichuan food
+        text: "The menu draws on Sichuan's classic flavours but is toned down. Reviewers call it \"mild and palatable\", and the house plum wine is refilled at no charge."
+      - title: Dress up if you want
+        text: "Over 200 hanfu outfits for men and women in a separate styling building. It costs extra and you can skip it."
+  - type: prose
+    title: Is it worth R$423?
+    dropcap: true
+    text: |-
+      This is a **splurge**. The cheapest ticket, a standard seat at lunch, is ¥498 (R$423), about two and a half days of your R$170 China budget. A dinner seat is ¥598 (R$508). Those are the venue's own prices from Chinese ticket sites; English resellers charge more (GetYourGuide from R$754), and Trip.com showed no price when checked, so look there first. It counts against the daily budget here: the ticket is mostly the show, and the meal only replaces a cheap dinner you would eat anyway.
+
+      It is worth it if you want **one** big Chinese-history splurge on this trip and nothing else in Shanghai fills that slot. Reviews are close to unanimous: 5.0 out of 5 from 1,653 reviews on Trip.com. Most of the show is music, dance and costume, so not speaking Chinese costs you less than at a play. Skip it if a costumed, photo-heavy show sounds like a tourist trap to you. Normal clothes are fine: the hanfu is a paid extra, not a dress code.
+
+      The cheapest sensible way: **standard seat, weekday lunch, no styling**. If you want the photo, the outfit-only option is ¥198 (R$168).
+  - type: faq
+    title: Your four questions
+    items:
+      - q: Is it open to foreigners?
+        a: "Yes. Foreign tourists are over 25% of daily guests, and over half on the peak day (China News, Apr 2026). English-language tickets are on Trip.com and GetYourGuide. Bring your **passport**: one reseller's voucher terms ask for it at the entrance."
+      - q: How does the dress-up work for men?
+        a: "It is optional and paid. Men can rent the **outfit only** for ¥198 (R$168), or take the **men's basic package** (outfit plus make-up) for ¥298 (R$253). A premium package with hair accessories is ¥598. Styling is in a separate building: arrive **1–1.5 h early**. No source shows a men's hat or hairpiece, so ask at the desk."
+      - q: Are the shows in Chinese only?
+        a: "Mostly there is little to understand: it is music, dance, ritual and costume. The story has **English text on screens**, though one reviewer wanted it nearer the table, and every dish card has an English description. Staff English is limited. Trip.com's ticket lists Mandarin and English service."
+      - q: Will I enjoy it without Chinese?
+        a: "Probably, if you like spectacle. Foreign reviewers on Trip.com rate it highly and nobody says the language spoiled it. You will miss the finer points of the history, so read up on the dynasties beforehand. Sit **in front** and away from pillars, because the back rows struggle to read the screens."
+  - type: book_ahead
+    steps:
+      - days_before: 7
+        text: "Book a **weekday lunch, standard seat** on Trip.com (instant confirmation) or GetYourGuide. Weekend shows go first."
+      - days_before: 7
+        text: "Want the costume? It is a paid extra; reviewers booked the makeover **in advance**."
+      - days_before: 0
+        text: "Metro to Jinqiao Road (Line 6), Exit 3. Arrive by **12:00 (UTC+8)** for the 12:30 (UTC+8) lunch show, or 1–1.5 h earlier if you are getting styled."
+    passport_note: Bring your **passport** with the voucher; a reseller's terms ask for both at the door.
+  - type: cost_breakdown
+    items:
+      - { label: "Standard seat, lunch show", local: 498, brl: 422.75 }
+      - { label: "Dinner instead of lunch (standard seat ¥598)", local: 100, brl: 84.89, optional: true }
+      - { label: "Hanfu outfit only", local: 198, brl: 168.08, optional: true }
+      - { label: "Men's styling (outfit + make-up), instead of outfit", local: 298, brl: 252.97, optional: true }
+    note: "VIP seats are ¥598 lunch / ¥698 dinner, SVIP ¥698 / ¥798 (Oct 2025 list). Bundles with styling run ¥996–1,096."
+  - type: map
+    note: "From East Nanjing Rd: **Line 2** to Century Avenue, change to **Line 6** towards Gangcheng Rd, to Jinqiao Road: about 45 min from People's Square. From Exit 3, walk 10–15 min to Building 38, EKA·Tianwu park. Dinner ends around 20:10 (UTC+8); last Line 6 train ~22:54 (UTC+8, unverified)."
+  - type: tips
+    variant: insider
+    items:
+      - "**Lunch** has better natural light for photos; dinner feels more immersive."
+      - "Ask for the **front rows**. Several reviewers say they see best, and the English screens are hard to read from the back."
+      - "After the show there is a short photo window. Bring a phone light: the hall is dim."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Avoid seats **beside the pillars**: they block part of the stage."
+      - "Reseller prices run well above the venue's: GetYourGuide shows from R$754 (16 Nov) against ¥498 (R$423) for a standard lunch seat. Compare Trip.com before you pay."
+      - "Styling takes time. One reviewer says come 1.5–2 h early; others felt rushed through the meal."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: Cool and often clear; December is Shanghai's driest month
+    note: "All indoors, so weather only matters for the 10–15 min walk from the metro."
+    wear: "A warm jacket"
+  - type: pairs_well
+    items:
+      - { id: bund-and-lujiazui-skyline, note: "On the way home: Line 2 stops at Lujiazui, a lit skyline after a dinner show" }
