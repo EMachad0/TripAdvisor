@@ -25,7 +25,8 @@ the cutover.
 `feedback/` and `trip/` in git are a historical snapshot (see their README). Curators read the live data with
 `./atr feedback pull` and `./atr trip pull`, which write `.cache/feedback-live/` and `.cache/trip-live/`.
 
-Production Convex commands go through `scripts/convex-prod.sh` (it prints the host and asks first). Backups: the
+Production Convex commands go through `scripts/convex-prod.sh` (it prints the host and asks first); its `deploy` is
+the manual path, for when the deploy job is off or a change has to land before the app. Backups: the
 nightly `atr-backup.timer` on the VPS (`deploy/backup/`), checked by the `restore-test` and `backup-freshness`
 workflows; restoring is `docs/migration/runbook-restore.md`.
 
@@ -34,8 +35,14 @@ workflows; restoring is `docs/migration/runbook-restore.md`.
 1. Work on a branch; run `corepack pnpm verify` (format, lint, typecheck, tests, e2e; see `docs/migration/DEV.md`).
 2. Open a pull request against `main`. CI runs `verify` and `e2e` (both skip content-only PRs). Never push to `main`.
 3. A merge to `main` makes Coolify build and deploy `trip-web`; the running container serves until the new one is
-   healthy.
-4. Check it: `curl -s https://trip.187.53.115.237.sslip.io/healthz` reports `{"ok":true,"sha":"<deployed commit>"}`.
+   healthy. Within about a minute after that, `atr-convex-deploy.timer` on the VPS deploys the Convex functions
+   (`apps/web/src/convex`) from that same image; nobody runs a command. For that minute the new app talks to the
+   previous functions, so a breaking schema or API change still needs a person (ship it in steps, or
+   `scripts/convex-prod.sh deploy` by hand). Details: the "Convex functions deploy job" section of
+   [`deploy/coolify/README.md`](../deploy/coolify/README.md).
+4. Check it: `curl -s https://trip.187.53.115.237.sslip.io/healthz` reports `{"ok":true,"sha":"<deployed commit>"}`;
+   on the VPS, `/var/lib/atr-convex-deploy/deployed-sha` holds the same sha once the functions are deployed
+   (`journalctl -u atr-convex-deploy.service` shows the deploy).
 
 Answer cards (`answers/*.md`) ship with `./atr answers publish <file>`: it opens a pull request from a temporary
 worktree, merges it and waits until `/healthz` reports the merge commit. The site URL it uses is in

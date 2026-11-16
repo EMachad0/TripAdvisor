@@ -1,0 +1,13 @@
+# Every minute, a tick of atr-convex-deploy.service (a tick still running when the next one is due is not doubled:
+# systemd does not start an active unit again). A tick with nothing to deploy costs a `docker ps` and two `docker
+# inspect` calls and logs nothing; a failed deploy backs off by itself (1, 2, 4 … 60 minutes).
+[Unit]
+Description=Deploy the live trip-web commit's Convex functions when they change
+
+[Timer]
+OnCalendar=*-*-* *:*:30
+AccuracySec=5s
+Unit=atr-convex-deploy.service
+
+[Install]
+WantedBy=timers.target

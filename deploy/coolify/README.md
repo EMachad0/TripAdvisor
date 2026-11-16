@@ -61,3 +61,59 @@ install -m 644 deploy/backup/atr-backup.service deploy/backup/atr-backup.timer /
 systemctl daemon-reload && systemctl enable --now atr-backup.timer
 systemctl start atr-backup.service && journalctl -u atr-backup.service -n 50
 ```
+
+## Convex functions deploy job
+
+A merge to `main` makes Coolify roll out a new `trip-web`; `atr-convex-deploy.timer` then deploys that build's Convex
+functions (`apps/web/src/convex`) with no one running a command. `deploy/convex-deploy/` holds the script and the
+systemd units.
+
+How it works: every minute the script finds the running `trip-web` containers (named `<APP_UUID>-…`), takes the
+newest, waits while it is not healthy yet (mid-rollout), reads `GIT_SHA` from its image and compares it with
+`/var/lib/atr-convex-deploy/deployed-sha`. When they differ it runs `convex deploy --yes --typecheck disable
+--codegen disable` in a throwaway container of that same image (the image carries `src/convex`, `convex.json`, the
+pinned CLI and `@atr/shared`), so the functions always match the commit the live app was built from, a Coolify
+rollback included. The admin key comes from the backup job's `/root/.config/atr-backup/convex.env` and reaches the
+container by name only (`-e CONVEX_SELF_HOSTED_ADMIN_KEY`); it is never in GitHub, in the `trip-web` image or its
+runtime env, in argv or in the journal. The deploy container joins the `coolify` network, runs read-only as the
+image's `node` user and is capped at `DEPLOY_MEMORY` (768m; a deploy peaks around 340 MB and takes a few seconds).
+A tick with nothing to do logs nothing. A failed deploy records nothing, exits non-zero (the unit shows failed) and
+retries after 1, 2, 4 … 60 minutes; a newer commit retries at once.
+
+Ordering: the functions land within about a minute *after* the new app is live, so for that window the new app talks
+to the previous functions. Additive changes are fine. A breaking change (a schema change existing documents fail, a
+removed or renamed function the old app still calls, an argument change both sides must agree on) still needs a
+person: deploy it in steps (widen, deploy, then narrow) or run `scripts/convex-prod.sh deploy` by hand. If a deploy
+fails on schema validation the timer keeps retrying with backoff until the data or the code is fixed.
+
+Install on the VPS (owner-confirmed), from a checkout of `main` that includes this job, and only once `/healthz`
+reports a commit whose image carries the functions (this PR's merge or later; an older image makes the first run
+fail and back off):
+
+```sh
+install -d -m 700 /root/.config/atr-convex-deploy
+# convex-deploy.env from env/convex-deploy.env.template (mode 600); APP_UUID is the trip-web app's Coolify uuid
+( umask 077; printf 'APP_UUID=xbgdnounik78nabmkmecl45d\n' >/root/.config/atr-convex-deploy/convex-deploy.env )
+# the admin key file is the backup job's: /root/.config/atr-backup/convex.env (mode 600), nothing new to create
+install -D -m 755 deploy/convex-deploy/convex-deploy.sh /usr/local/lib/atr-convex-deploy/convex-deploy.sh
+install -m 644 deploy/convex-deploy/atr-convex-deploy.service deploy/convex-deploy/atr-convex-deploy.timer /etc/systemd/system/
+systemctl daemon-reload
+systemctl start atr-convex-deploy.service; journalctl -u atr-convex-deploy.service -n 30 --no-pager   # first run deploys once
+cat /var/lib/atr-convex-deploy/deployed-sha       # equals the sha in /healthz
+systemctl enable --now atr-convex-deploy.timer
+```
+
+Config keys (`/root/.config/atr-convex-deploy/convex-deploy.env`, names in `env/convex-deploy.env.template`):
+`APP_UUID` (required), `CONVEX_ENV_FILE` (default `/root/.config/atr-backup/convex.env`), `CONVEX_DOCKER_NETWORK`
+(default `coolify`), `DEPLOY_MEMORY` (default `768m`).
+
+- Did it run: `systemctl list-timers atr-convex-deploy.timer`; `systemctl status atr-convex-deploy.service`;
+  `journalctl -u atr-convex-deploy.service --since today` (only deploys, waits and failures are logged);
+  `cat /var/lib/atr-convex-deploy/deployed-sha` against `curl -s https://<site>/healthz`;
+  `/var/lib/atr-convex-deploy/failures` exists only while a commit is failing (`<sha> <attempts> <epoch>`).
+- Run a tick now: `systemctl start atr-convex-deploy.service` (a no-op when the live commit is deployed).
+- Force a deploy of the live commit (also skips a backoff): `/usr/local/lib/atr-convex-deploy/convex-deploy.sh --force`.
+- Disable: `systemctl disable --now atr-convex-deploy.timer`. Deploys are then by hand again:
+  `scripts/convex-prod.sh deploy` from the laptop, which keeps working either way (it does not touch the job's state;
+  the job redeploys only when the live commit changes).
+- Update the job after a change to `deploy/convex-deploy/`: repeat the two `install` lines and `systemctl daemon-reload`.
