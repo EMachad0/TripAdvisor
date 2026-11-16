@@ -1,4 +1,8 @@
 # Merge gate (plan section 9). Actions are pinned by commit SHA; the tag is in the comment.
+#
+# Wall time is the slowest job, so every job is sized to finish in about 3 minutes on a 2-core runner: lint and the
+# unit tests run beside each other, and e2e runs as time-balanced shards, each on its own runner with its own
+# backend (docs/migration/DEV.md, "CI").
 name: ci
 
 on:
@@ -14,8 +18,8 @@ concurrency:
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
-  # verify and e2e skip PRs that only touch content (answer cards, curator work); a job skipped by `if:`
-  # reports "skipped", which satisfies a required check.
+  # lint, test and e2e skip PRs that only touch content (answer cards, curator work); a job skipped by `if:` reports
+  # "skipped", which satisfies a required check.
   changes:
     runs-on: ubuntu-24.04
     # paths-filter lists a pull request's files through the API, which needs this scope.
@@ -25,7 +29,12 @@ jobs:
     outputs:
       code: ${{ steps.filter.outputs.code }}
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      # A pull request's file list comes from the API; only a push diffs commits, which needs the history but no
+      # file contents (sparse checkout implies a blobless clone).
+      - if: github.event_name != 'pull_request'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout: .github
       - id: filter
         uses: dorny/paths-filter@ceb8a2b8f2d89434be7ff52d3de7ec3738c5cc9d # v4.0.3
         with:
@@ -38,13 +47,20 @@ jobs:
               - '!areas/**'
               - '!config/**'
 
-  verify:
+  lint:
     needs: changes
     if: needs.changes.outputs.code == 'true'
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 10
     steps:
+      # Without the place and area photos (362 of the 369 MB): no check reads them.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/places/*/*/*/media/
+            !/areas/*/media/
       - uses: pnpm/setup@731dfb6463bbd11c11fd0ee11fe00ed0e36d48a1 # v3.2.0
         with:
           runtime: node@24
@@ -53,30 +69,70 @@ jobs:
       - run: pnpm format:check
       - run: pnpm lint
       - run: pnpm typecheck
+
+  test:
+    needs: changes
+    if: needs.changes.outputs.code == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/places/*/*/*/media/
+            !/areas/*/media/
+      - uses: pnpm/setup@731dfb6463bbd11c11fd0ee11fe00ed0e36d48a1 # v3.2.0
+        with:
+          runtime: node@24
+          cache: true
+          require-lockfile: true
       # every workspace package's tests: packages/*, apps/web and platform (node --test)
       - run: pnpm test
 
-  # One job per Playwright project, each on its own runner with its own backend (like the local ATR_SLOT slots):
-  # the three projects ran one after another in a single job and outgrew its limit. The specs share backend state
-  # (serial describes), so each job keeps one worker; `setup` runs in every job as the projects' dependency.
+  # Each Playwright project runs as shards of whole spec files, balanced by the seconds each file took on CI
+  # (apps/web/e2e/shards.ts, e2e/durations.json). Every shard has its own runner and backend: the specs share
+  # backend state (serial describes), so a shard keeps one worker, and `setup` runs in every shard as the projects'
+  # dependency. To resize, change `of` and the list together; each shard should stay near 100 s of tests.
   e2e:
     needs: changes
     if: needs.changes.outputs.code == 'true'
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 15
     strategy:
       fail-fast: false
       matrix:
         include:
-          - project: desktop
-            browser: chromium
-          - project: pixel
-            browser: chromium
-          - project: iphone
-            browser: webkit
-    name: e2e (${{ matrix.project }})
+          - { project: desktop, browser: chromium, shard: 1, of: 5 }
+          - { project: desktop, browser: chromium, shard: 2, of: 5 }
+          - { project: desktop, browser: chromium, shard: 3, of: 5 }
+          - { project: desktop, browser: chromium, shard: 4, of: 5 }
+          - { project: desktop, browser: chromium, shard: 5, of: 5 }
+          - { project: pixel, browser: chromium, shard: 1, of: 3 }
+          - { project: pixel, browser: chromium, shard: 2, of: 3 }
+          - { project: pixel, browser: chromium, shard: 3, of: 3 }
+          - { project: iphone, browser: webkit, shard: 1, of: 6 }
+          - { project: iphone, browser: webkit, shard: 2, of: 6 }
+          - { project: iphone, browser: webkit, shard: 3, of: 6 }
+          - { project: iphone, browser: webkit, shard: 4, of: 6 }
+          - { project: iphone, browser: webkit, shard: 5, of: 6 }
+          - { project: iphone, browser: webkit, shard: 6, of: 6 }
+    name: e2e (${{ matrix.project }} ${{ matrix.shard }}/${{ matrix.of }})
     steps:
+      # The e2e content is packages/migrate/fixtures/e2e; the real place and area photos are never read.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/places/*/*/*/media/
+            !/areas/*/media/
+      # Start pulling the pinned backend image now; scripts/e2e-prepare.sh's `up` joins the pull if it is not done.
+      - name: Pull the Convex backend image (background)
+        run: |
+          image="$(sed -n 's/^ *image: \(ghcr\.io\/convex\/convex-backend:[0-9a-f]*\)$/\1/p' deploy/convex-local/compose.yaml)"
+          nohup docker pull --quiet "$image" >/dev/null 2>&1 &
       - uses: pnpm/setup@731dfb6463bbd11c11fd0ee11fe00ed0e36d48a1 # v3.2.0
         with:
           runtime: node@24
@@ -88,16 +144,29 @@ jobs:
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}-${{ matrix.browser }}
-      # With the browser cached this only installs the system libraries.
-      - run: pnpm --filter @atr/web exec playwright install --with-deps ${{ matrix.browser }}
-      # The Playwright webServer starts the pinned self-hosted Convex backend with docker compose
-      # (scripts/convex-local.sh e2e-backend), deploys, seeds generated test accounts and builds the app.
-      - run: pnpm e2e --project=${{ matrix.project }}
+      # Backend (up, deploy, env, accounts, data set), app build and browser at once; see the script.
+      - run: scripts/e2e-prepare.sh ${{ matrix.browser }}
+      - env:
+          ATR_E2E_PREPARED: '1'
+        run: |
+          files="$(node apps/web/e2e/shards.ts ${{ matrix.project }} ${{ matrix.shard }} ${{ matrix.of }})"
+          echo "$files"
+          # one spec path per line: the word splitting is the point
+          # shellcheck disable=SC2086
+          pnpm e2e --project=${{ matrix.project }} $files
       - if: failure()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
-          name: playwright-report-${{ matrix.project }}
+          name: playwright-report-${{ matrix.project }}-${{ matrix.shard }}
           path: apps/web/playwright-report
           retention-days: 7
+      # Per-file durations for e2e/shards.ts update.
+      - if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: e2e-durations-${{ matrix.project }}-${{ matrix.shard }}
+          path: apps/web/test-results/results.json
+          retention-days: 7
+          if-no-files-found: ignore
       - if: always()
         run: scripts/convex-local.sh reset

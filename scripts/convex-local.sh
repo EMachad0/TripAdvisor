@@ -8,7 +8,8 @@
 #   scripts/convex-local.sh seed      seed the owner and guest accounts from apps/web/.env.e2e.local
 #   scripts/convex-local.sh seed-data load the e2e data set: packages/migrate/fixtures/e2e (feedback + trip, replacing
 #                                     those tables) and the content index of its content root (places, areas, legs)
-#   scripts/convex-local.sh e2e-backend  up + deploy + init-env + seed + seed-data, then wait (Playwright webServer)
+#   scripts/convex-local.sh e2e-prepare  up + deploy + init-env + seed + seed-data (CI: scripts/e2e-prepare.sh)
+#   scripts/convex-local.sh e2e-backend  e2e-prepare, then wait (Playwright webServer)
 #   scripts/convex-local.sh convex …  any convex CLI command against the local backend (run, env, logs, …)
 #   scripts/convex-local.sh down      stop it (data kept);  reset: stop and delete the data volume
 #   scripts/convex-local.sh status    print this slot's ports, compose project and files
@@ -185,20 +186,26 @@ cmd_status() {
 		"${TOKENS_FILE#"$ROOT/"}"
 }
 
-# Everything Playwright needs, then stay in the foreground (its webServer stops this process at the end; the
-# container keeps running for the next run).
-cmd_e2e_backend() {
+# Everything the specs need from the backend: running, deployed, configured, with the accounts and the data set.
+cmd_e2e_prepare() {
 	cmd_up
 	cmd_deploy
 	cmd_init_env
 	cmd_seed
 	cmd_seed_data
+}
+
+# The same, then stay in the foreground (Playwright's webServer stops this process at the end; the container keeps
+# running for the next run).
+cmd_e2e_backend() {
+	cmd_e2e_prepare
 	echo "convex-local: e2e backend ready"
 	exec tail -f /dev/null
 }
 
 case "${1:-}" in
 	up) cmd_up ;;
+	e2e-prepare) cmd_e2e_prepare ;;
 	e2e-backend) cmd_e2e_backend ;;
 	key) cmd_key ;;
 	init-env) cmd_init_env ;;
@@ -209,5 +216,5 @@ case "${1:-}" in
 	convex) shift; convex_cli "$@" ;;
 	down) compose down ;;
 	reset) compose down -v; rm -f "$KEY_FILE" ;;
-	*) sed -n '2,24p' "$0"; exit 2 ;;
+	*) sed -n '2,22p' "$0"; exit 2 ;;
 esac

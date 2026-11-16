@@ -104,6 +104,21 @@ Playwright projects: `desktop` (Chrome), `pixel` (Pixel 7), `iphone` (iPhone 15,
 and guest once and saves `apps/web/playwright/.auth/{owner,guest}.json` (gitignored). One spec waits 70 s for the
 60 s test JWT to expire (spike S9).
 
+## CI
+
+`.github/workflows/ci.yml` aims at about 3 minutes of wall time on 2-core runners, where the e2e specs run three to
+four times slower than on a laptop. `lint` (format, ESLint, typecheck) and `test` run side by side. `e2e` runs each
+Playwright project as shards of whole spec files, each shard on its own runner and backend:
+
+- `apps/web/e2e/shards.ts` splits a project's spec files into shards by the seconds each took on CI
+  (`e2e/durations.json`). A new spec counts as the project's mean until the durations are refreshed:
+  `gh run download <run> -p 'e2e-durations-*' -D /tmp/d && node apps/web/e2e/shards.ts update /tmp/d/*/*.json`.
+  Resize a project by changing its `of` count and its rows in the matrix together; aim for about 100 s per shard.
+- `scripts/e2e-prepare.sh <chromium|webkit>` brings up and seeds the backend, builds the app and installs the
+  browser in parallel. `ATR_E2E_PREPARED=1` then makes Playwright start only the built app.
+- CI records a trace only on the retry of a failed test (locally, every failure keeps one).
+- Checkouts leave out `places/**/media/` and `areas/**/media/` (362 MB); no check reads the real photos.
+
 ## Where things are
 
 - Schema: `apps/web/src/convex/schema.ts` and `tables/*.ts` (frozen). Access wrappers: `src/convex/lib/access.ts`

@@ -18,6 +18,8 @@ const BASE_URL = process.env['BASE_URL'] ?? `http://localhost:${String(SLOT.appP
 const CONVEX_URL = `http://127.0.0.1:${String(SLOT.convexPort)}`;
 const CONVEX_SITE_URL = `http://127.0.0.1:${String(SLOT.convexSitePort)}`;
 const CI = process.env['CI'] !== undefined;
+/** CI: scripts/e2e-prepare.sh has already brought up and seeded the slot's backend and built the app. */
+const PREPARED = process.env['ATR_E2E_PREPARED'] === '1';
 /** The e2e content root (packages/migrate/fixtures/e2e/content): tests never depend on the real places/. */
 const CONTENT_ROOT = path.resolve(
 	import.meta.dirname,
@@ -31,10 +33,16 @@ export default defineConfig({
 	forbidOnly: CI,
 	retries: CI ? 1 : 0,
 	workers: 1,
+	// CI also writes a JSON report: its durations balance the shards (e2e/shards.ts update).
 	reporter: CI
-		? [['github'], ['html', { open: 'never', outputFolder: SLOT.reportDir }]]
+		? [
+				['github'],
+				['html', { open: 'never', outputFolder: SLOT.reportDir }],
+				['json', { outputFile: `${SLOT.outputDir}/results.json` }],
+			]
 		: [['list']],
-	use: { baseURL: BASE_URL, trace: 'retain-on-failure' },
+	// Recording a trace for every test costs CPU the 2-core CI runners lack: CI traces the retry of a failed test.
+	use: { baseURL: BASE_URL, trace: CI ? 'on-first-retry' : 'retain-on-failure' },
 	projects: [
 		{ name: 'setup', testMatch: /auth\.setup\.ts/ },
 		{ name: 'desktop', use: { ...devices['Desktop Chrome'] }, dependencies: ['setup'] },
@@ -42,17 +50,21 @@ export default defineConfig({
 		{ name: 'iphone', use: { ...devices['iPhone 15'] }, dependencies: ['setup'] },
 	],
 	webServer: [
-		{
-			name: 'convex',
-			command: '../../scripts/convex-local.sh e2e-backend',
-			wait: { stdout: /convex-local: e2e backend ready/ },
-			timeout: 300_000,
-			stdout: 'ignore',
-			env: { ATR_SLOT: String(SLOT.n), PUBLIC_SITE_URL: BASE_URL },
-		},
+		...(PREPARED
+			? []
+			: [
+					{
+						name: 'convex',
+						command: '../../scripts/convex-local.sh e2e-backend',
+						wait: { stdout: /convex-local: e2e backend ready/ },
+						timeout: 300_000,
+						stdout: 'ignore' as const,
+						env: { ATR_SLOT: String(SLOT.n), PUBLIC_SITE_URL: BASE_URL },
+					},
+				]),
 		{
 			name: 'web',
-			command: `vite build && node ${SLOT.buildDir}`,
+			command: PREPARED ? `node ${SLOT.buildDir}` : `vite build && node ${SLOT.buildDir}`,
 			url: `${BASE_URL}/login`,
 			timeout: 180_000,
 			reuseExistingServer: !CI,
