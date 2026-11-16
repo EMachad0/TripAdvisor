@@ -1,23 +1,23 @@
 {
 	"desktop": {
-		"answers.spec.ts": 8,
-		"auth.spec.ts": 79,
-		"bag.spec.ts": 10,
-		"board.spec.ts": 26,
-		"calendar.spec.ts": 19,
-		"calls.spec.ts": 27,
-		"deck.spec.ts": 38,
-		"duels.spec.ts": 28,
-		"holidays.spec.ts": 34,
+		"answers.spec.ts": 10,
+		"auth.spec.ts": 81,
+		"bag.spec.ts": 12,
+		"board.spec.ts": 18,
+		"calendar.spec.ts": 20,
+		"calls.spec.ts": 18,
+		"deck.spec.ts": 26,
+		"duels.spec.ts": 19,
+		"holidays.spec.ts": 23,
 		"itinerary.spec.ts": 19,
 		"media-maps.spec.ts": 1,
-		"money.spec.ts": 14,
-		"offline.spec.ts": 54,
+		"money.spec.ts": 12,
+		"offline.spec.ts": 39,
 		"place-pages.spec.ts": 4,
-		"places.spec.ts": 12,
-		"routemap.spec.ts": 36,
+		"places.spec.ts": 16,
+		"routemap.spec.ts": 27,
 		"shell.spec.ts": 13,
-		"today.spec.ts": 26,
-		"todo.spec.ts": 10
+		"today.spec.ts": 27,
+		"todo.spec.ts": 13
 	}
 }
