@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: table-spread
+  title: File:Korea-Seoul-Insadong-Sanchon-02.jpg
+  author: Julie
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Korea-Seoul-Insadong-Sanchon-02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2a/Korea-Seoul-Insadong-Sanchon-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Buddhist influenced Korean side dishes, 40,000 won
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: greens-and-tea
+  title: File:Korea-Seoul-Insadong-Sanchon-03.jpg
+  author: Julie
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Korea-Seoul-Insadong-Sanchon-03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Korea-Seoul-Insadong-Sanchon-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sanchon (산촌, literally "a mountain village") is a famous Korean Buddhist temple cuisine restaurant located in the district of Insadong, Seoul, South Korea.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: dining-room
+  title: File:Korea-Seoul-Insadong-Sanchon-01.jpg
+  author: Julie
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Korea-Seoul-Insadong-Sanchon-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Korea-Seoul-Insadong-Sanchon-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sanchon (산촌, literally "a mountain village") is a famous Korean Buddhist temple cuisine restaurant located in the district of Insadong, Seoul, South Korea.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: entrance-hall
+  title: File:Korea-Seoul-Insadong-Sanchon-04.jpg
+  author: Julie
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Korea-Seoul-Insadong-Sanchon-04.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/be/Korea-Seoul-Insadong-Sanchon-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Sanchon (산촌, literally "a mountain village") is a famous Korean Buddhist temple cuisine restaurant located in the district of Insadong, Seoul, South Korea.
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons

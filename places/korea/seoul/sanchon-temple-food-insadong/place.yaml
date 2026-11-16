@@ -1,0 +1,130 @@
+id: sanchon-temple-food-insadong
+name: "Sanchon: temple-food set in Insadong"
+short_name: Sanchon
+name_local: 산촌
+name_romanized: Sanchon
+country: korea
+city: seoul
+area: Jongno · Insadong
+category: food
+fame: popular
+tags: [temple-food, vegan, tasting-menu, hanjeongsik, solo-friendly, lunch, cash-only]
+kind: Eat
+why: "One ₩29,000 set brings about 20 Buddhist temple dishes, from wild-mountain greens to jeon and japchae, to a solo diner's table. No show, no 2-person minimum."
+
+cost:
+  local: 29000
+  currency: KRW
+  brl: 123.95
+  note: "Temple set meal per person, VAT included; same price at lunch and dinner. Drinks extra"
+fx: { rate: 0.004274, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 60–90 min
+best_time: "Weekday lunch at 11:30 (UTC+9), before a night shift"
+
+book_ahead:
+  required: false
+  notes: "Walk in. Catchtable lists Sanchon for phone bookings only (+82 2 735 0312); no review from 2024–2026 mentions needing to book."
+
+hours:
+  summary: "Daily 11:30–22:00 (UTC+9) per its website; Visit Seoul says 21:00, so for dinner arrive by 20:00 (UTC+9)"
+  winter: "The website says it is open all year round. No New Year notice found (Nov 2026); Jan 11–20 has no Korean public holiday. Indoors and heated."
+
+location:
+  address: 30-13 Insadong-gil, Jongno-gu, Seoul (in an alley off Insadong-gil)
+  address_local: 서울특별시 종로구 인사동길 30-13 (산촌)
+  lat: 37.57326
+  lng: 126.9861
+  nearest_transit: "Anguk (Line 3), about 5 min walk"
+
+sources:
+  - url: http://www.sanchon.com/en/sub02/sub02_01.php
+    title: "Sanchon official site (English): set menu, ₩29,000 temple set meal, same price lunch and dinner, VAT included"
+    checked: 2026-11-16
+  - url: http://www.sanchon.com/en/sub06/sub06_01.php
+    title: "Sanchon official site: address, open all year round, 11:30–22:00, Anguk Line 3"
+    checked: 2026-11-16
+  - url: https://english.visitseoul.net/restaurants/Sanchon/ENPuhxkca
+    title: "Visit Seoul: Sanchon (\"Set Course (for 1) ₩29,000\", 11:30–21:00; edited Jun 30, 2026)"
+    checked: 2026-11-16
+  - url: https://www.catchtable.net/shop/Y2F0Y2hfc2I5dUphRWpVWmJ3M2lJVlFnM3JvUT09/menus
+    title: "Catchtable Global: Sanchon menu (set menu ₩29,000; reserve by phone; updated Sep 2025)"
+    checked: 2026-11-16
+  - url: https://www.catchtable.net/shop/Y2F0Y2hfc2I5dUphRWpVWmJ3M2lJVlFnM3JvUT09/info
+    title: "Catchtable Global: Sanchon store info (owner Kim Yeon-sik, a former monk; no chemical additives)"
+    checked: 2026-11-16
+  - url: https://www.happycow.net/reviews/sanchon-seoul-5929
+    title: "HappyCow: Sanchon reviews (solo diners May–Jun 2026; cash-only and early-closing notes Oct 2026)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Climate_of_Seoul
+    title: "Climate of Seoul (Wikipedia, KMA 1991–2020 normals)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Solo verified three ways: the official menu prices the set per person, Visit Seoul calls it \"Set Course (for 1)\", and two HappyCow reviewers ate it alone (May and Jun 2026). Catchtable also lists a ₩33,000 'Mountain Village Temple Cuisine' set (Sep 2025) that the official site does not show. Cash-only rests on one Oct 2026 review. Photos are older Commons shots; the spread changes by season."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: table-spread
+    caption: "A Sanchon spread of temple side dishes (an older photo; the dishes change with the season)"
+    hook: A former monk's mountain-herb table, one tray of little bowls after another, for the price of a cheap dinner.
+  - type: quick_facts
+    time_needed: 60–90 min
+    best_time: "Lunch, 11:30 (UTC+9)"
+    extra:
+      - { label: The meal, value: "~20 dishes", detail: "Water kimchi, wild greens, tofu jelly, deodeok, fritters, rice, stew, tea" }
+      - { label: Solo, value: "Yes, priced per person", detail: "Visit Seoul: \"Set Course (for 1)\"" }
+      - { label: Out of place?, value: "No", detail: "A casual old Insadong room; no dress code listed" }
+  - type: highlights
+    items:
+      - title: The many-small-dishes meal, without the show
+        text: "There's **only one set**, and it comes in waves: water kimchi and starters, then fernbrake and bellflower, tofu jelly, seasoned deodeok, chop suey, fritters and herbs, then rice, stew, tea and yukgwa. Like the Shuyanfu banquet, but quiet."
+      - title: Built for one
+        text: "The website prices the set **per person** (₩29,000), and Visit Seoul calls it **\"Set Course (for 1)\"**. Solo reviewers in 2026 warn you'll eat *a lot*."
+      - title: Real temple roots
+        text: "The owner, **Kim Yeon-sik**, spent years as a Buddhist monk and built the menu on temple cooking: wild herbs and vegetables with no chemical additives, mostly vegan."
+      - title: The cheapest of the three
+        text: "About **R$124**, the same at lunch and dinner. About a quarter of the Korea House royal lunch."
+  - type: prose
+    title: What to expect
+    text: |-
+      Sanchon is old-school Insadong: a wood-and-lantern room off the main street, with low tables and a temple bell. You don't order; you sit, and the dishes keep coming until the table is covered.
+
+      Recent reviews split. Most enjoy tasting so many vegetables in one sitting; some find it **pricey for vegetables** and say service can be rushed. Go hungry, go at opening, and treat it as a tasting, not a feast.
+  - type: gallery
+    images:
+      - { file: greens-and-tea, caption: "Seasoned mountain greens, soup and tea (older photo)" }
+      - { file: dining-room, caption: "The dining room, low tables and a temple bell" }
+      - { file: entrance-hall, caption: "The entrance hall" }
+  - type: menu
+    title: The menu (VAT included)
+    items:
+      - { name: Temple set meal, name_local: 산촌 정식, price_local: 29000, price_brl: 123.95, note: "About 20 dishes; the only course. Same price lunch and dinner", tag: signature }
+      - { name: Bibimbap, name_local: 비빔밥, price_local: 15000, price_brl: 64.11, note: "The one à-la-carte dish, if you want something small", tag: veg }
+    note: "The official site's English page lists the set's dishes in English. Some reviews say a dish or two on the list is sometimes skipped."
+  - type: cost_breakdown
+    items:
+      - { label: Temple set meal, local: 29000, brl: 123.95 }
+  - type: map
+    note: "From **Anguk Station** (Line 3) walk down Insadong-gil; Sanchon is in a side alley, signed in Korean as **산촌**."
+  - type: tips
+    variant: insider
+    items:
+      - "Go at **11:30 (UTC+9)** on a work day: you're done well before the afternoon, and lunch costs the same as dinner."
+      - "Pace yourself through the starters. Solo reviewers say the rice and stew come when you're already full."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Bring **cash**: an October 2026 review says it is cash only and staff did not say so up front."
+      - "It used to stage an evening dance show at 20:00 (UTC+9); the site says it is suspended."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing; dry, with a few snowy days
+    note: "A heated indoor meal, a five-minute walk from the subway. A warm stop between palaces."
+    wear: Warm coat and layers
+  - type: pairs_well
+    items:
+      - { id: flower-blossom-on-the-rice-insadong, note: "Organic coursed lunch, 5 min walk: the next step up" }
+      - { id: korea-house-royal-lunch, note: "Royal-court course, the splurge version" }
+      - { id: changdeokgung-secret-garden, note: "Palace garden, about 10 min walk from Anguk" }

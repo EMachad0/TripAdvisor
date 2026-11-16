@@ -1,0 +1,150 @@
+id: flower-blossom-on-the-rice-insadong
+name: "A Flower Blossom on the Rice"
+short_name: Flower Blossom on the Rice
+name_local: 꽃밥에피다
+name_romanized: Kkotbabe Pida
+country: korea
+city: seoul
+area: Jongno · Insadong
+category: food
+fame: hidden
+tags: [tasting-menu, vegan, organic, korean-course, bib-gourmand, solo-friendly, lunch, weekend-dinner]
+kind: Eat
+why: "An 8-course organic Korean meal, served one course at a time, for ₩62,000. Catchtable books 1 guest. Bib Gourmand 2018–2025, in an Insadong alley."
+
+cost:
+  local: 62000
+  currency: KRW
+  brl: 264.99
+  note: "Vegan Full Course per person (Catchtable menu, Oct 2026). Drinks extra"
+fx: { rate: 0.004274, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: About 90 min (fixed lunch session)
+best_time: "11:30 (UTC+9) lunch, or Sun Jan 17 dinner"
+
+book_ahead:
+  required: true
+  lead_days: 14
+  lead_time: "Dates open in batches on Catchtable; book as soon as January appears"
+  method: app
+  links:
+    - label: Catchtable Global (English)
+      url: https://www.catchtable.net/shop/flower_blossom_on_the_rice
+      note: "Party size starts at 1; lunch slots 11:30, 12:00 and 13:30 (UTC+9)"
+  notes: "Seats run in fixed sessions. The booking is cancelled if you are more than 20 minutes late, and a no-show is not refunded."
+
+hours:
+  summary: "Daily lunch 11:30–15:00 (last order 14:00) and dinner 17:30–21:00 (last order 20:00), all UTC+9"
+  closed: "New Year's Day and Chuseok"
+  winter: "Closed only on New Year's Day (Jan 1), before your Seoul dates. Jan 11–20 should be normal service. Indoors and heated."
+
+location:
+  address: 3-6 Insadong 16-gil, Jongno-gu, Seoul
+  address_local: 서울특별시 종로구 인사동16길 3-6 (꽃밥에피다)
+  lat: 37.57504
+  lng: 126.98419
+  nearest_transit: "Anguk (Line 3), Exit 6, a short walk"
+  approximate: true
+
+sources:
+  - url: https://www.catchtable.net/shop/flower_blossom_on_the_rice/menus
+    title: "Catchtable Global: menu and prices in English (Vegan Full Course ₩62,000, 8 courses; updated Oct 30, 2026)"
+    checked: 2026-11-16
+  - url: https://www.catchtable.net/shop/flower_blossom_on_the_rice/info
+    title: "Catchtable Global: store info (hours, sessions, closing days, address, phone, organic sourcing)"
+    checked: 2026-11-16
+  - url: https://www.catchtable.net/shop/flower_blossom_on_the_rice
+    title: "Catchtable Global: booking page (party size 1 offered lunch slots on Nov 18 and 19, 2026; 4.4 from 3,100 reviews)"
+    checked: 2026-11-16
+  - url: https://www.catchtable.net/shop/flower_blossom_on_the_rice/news
+    title: "Catchtable Global: restaurant notices (timed sessions, 20-min late rule, no refund for no-shows)"
+    checked: 2026-11-16
+  - url: https://goodbabstory.imweb.me/
+    title: "Goodbab Story (the restaurant's company site): Bib Gourmand 2018–2025"
+    checked: 2026-11-16
+  - url: https://guide.michelin.com/kr/en/seoul-capital-area/seoul/restaurant/a-flower-blossom-on-the-rice
+    title: "MICHELIN Guide Korea: 'Restaurant not found' (Nov 2026)"
+    checked: 2026-11-16
+  - url: "https://polle.com/place/5eF7H1/%EA%BD%83%2C%20%EB%B0%A5%EC%97%90%20%ED%94%BC%EB%8B%A4"
+    title: "Polle reviews: vegan half course ordered with the lunch-only bojagi bibimbap"
+    checked: 2026-11-16
+  - url: https://live2makan.com/2026/03/12/a-flower-blossom-on-the-rice-seoul-2025/
+    title: "Gourmet Trips: dinner course review, Aug 2025 (about 15 items, coursed)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Climate_of_Seoul
+    title: "Climate of Seoul (Wikipedia, KMA 1991–2020 normals)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Solo: on Nov 16, Catchtable showed the same lunch slots for 1 guest as for 2 (Nov 18–19). Courses at lunch are not stated; a Polle review implies the half course is served then, and Catchtable says courses run in the evening. Bib Gourmand 2018–2025 is from its own site; Michelin says 'Restaurant not found'. 14 days is a margin. Pin marks the street."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: insadong-gil
+    caption: "Insadong-gil, the main street of the neighbourhood (no free photo of the restaurant)"
+    hook: "Course after course of organic Korean food, brought one plate at a time, down a quiet Insadong alley."
+  - type: quick_facts
+    time_needed: About 90 min
+    best_time: "Lunch, 11:30 (UTC+9)"
+    extra:
+      - { label: The meal, value: 8 courses, detail: "Seasonal vegan dishes, bojagi bibimbap, dessert" }
+      - { label: Solo, value: "Yes, book 1 guest", detail: "Catchtable offered lunch slots for 1" }
+      - { label: Out of place?, value: "No", detail: "No dress code listed; a casual lunch crowd" }
+  - type: highlights
+    items:
+      - title: A coursed tasting, not a full table
+        text: "Where Sanchon lands 20 bowls at once, this one **paces** the meal: 8 courses built around the signature **bojagi bibimbap**, rice wrapped in an egg crepe like a cloth parcel, then dessert."
+      - title: Ingredients are the point
+        text: "Organic rice from named farmers, **wild greens** from Yanggu, soy sauce, doenjang and gochujang aged over a year, and no fish sauce or chemical seasoning."
+      - title: Solo booking in English
+        text: "Catchtable Global's page is in **English**, menu and prices included, and the party-size picker **starts at 1**."
+      - title: The 'almost as good' tier
+        text: "Its own site lists **Bib Gourmand for 2018–2025**, Michelin's value mark, not a star. Michelin's site doesn't list it now (Nov 2026). **4.4 from 3,100** Catchtable reviews."
+  - type: prose
+    title: How it differs from temple food
+    text: |-
+      Everything on the basic menu is vegan, but the restaurant says plainly it is **not temple cuisine**: garlic, onion and the other pungent vegetables are in. Think modern home-style Korean cooking with very good produce.
+
+      Want meat or fish? The **Pulroman grass-fed beef course** (₩120,000) and the **Heuksando rockfish course** (₩85,000) are the same idea with a protein, but both cost more.
+  - type: book_ahead
+    steps:
+      - days_before: 14
+        text: "Open the Catchtable page, choose your January date, **1 guest** and the **11:30 (UTC+9)** session. Ask in the request box (or call +82 2 732 0276) that the **Vegan Full Course** is served at lunch."
+      - days_before: 1
+        text: "To change anything, call **+82 2 732 0276**; a no-show is not refunded."
+      - days_before: 0
+        text: "Arrive on time: the table is released after **20 minutes**. The second lunch session ends at 15:00 (UTC+9)."
+  - type: menu
+    title: Menu (per person)
+    items:
+      - { name: Vegan Full Course, price_local: 62000, price_brl: 264.99, note: "8 courses with the bojagi bibimbap and dessert", tag: signature }
+      - { name: Vegan Half Course, price_local: 45000, price_brl: 192.33, note: "3 courses: wild-green bibimbap, thistle doenjang soup, hangwa", tag: veg }
+      - { name: Bojagi bibimbap set, name_local: 보자기 비빔밥, price_local: 28000, price_brl: 119.67, note: "Lunch only; the one-dish taste of the place", tag: cheap }
+      - { name: Heuksando rockfish course, price_local: 85000, price_brl: 363.29, note: "The vegan courses plus steamed rockfish" }
+    note: "No source says outright that the courses are served at lunch; a Polle reviewer had the half course with the lunch-only bibimbap. Dinner on Sun 17 (Sat 16 is your Hwacheon day) is the sure option. English menu on Catchtable."
+  - type: cost_breakdown
+    items:
+      - { label: Vegan Full Course, local: 62000, brl: 264.99 }
+  - type: map
+    note: "From **Anguk Station** Exit 6, walk into Insadong and turn into **Insadong 16-gil**."
+  - type: tips
+    variant: insider
+    items:
+      - "Book the **11:30 (UTC+9)** session: it runs to 13:20, long enough for eight courses before you rest for a night shift."
+      - "On a tight budget, the lunch-only **bojagi bibimbap set (₩28,000)** gets you the signature dish; the wild-greens rice set (₩26,000) is the cheapest meal."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The kitchen says it can't remove core ingredients such as the five pungent vegetables (garlic, onion and kin), mushrooms or soy. For temple-style cooking, Sanchon is the one."
+      - "Late by more than 20 minutes and the table is gone, with no refund."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing; dry, with a few snowy days
+    note: "A heated room, a short walk from the subway. Pair it with the palaces before the light goes."
+    wear: Warm coat; nothing formal needed
+  - type: pairs_well
+    items:
+      - { id: sanchon-temple-food-insadong, note: "The cheaper, all-at-once temple-food table, 5 min walk" }
+      - { id: korea-house-royal-lunch, note: "Royal-court course, the splurge version" }
+      - { id: changdeokgung-secret-garden, note: "Palace garden, about 10 min walk from Anguk" }

@@ -1,0 +1,151 @@
+id: hantei-nezu-kushiage
+name: "Hantei Nezu: Kushiage Course"
+short_name: Hantei
+name_local: はん亭 根津本店
+name_romanized: Hantei Nezu Honten
+country: japan
+city: tokyo
+area: Bunkyō · Nezu
+category: food
+fame: hidden
+tags: [kushiage, tasting-menu, course, historic-building, lunch, solo-friendly]
+kind: Eat
+why: "Twelve fried skewers brought a few at a time, with small plates, ochazuke and dessert, in a Meiji-era wooden house. ¥7,700 dinner, books for one on TableCheck."
+cost:
+  local: 7700
+  currency: JPY
+  brl: 275.28
+  note: "Dinner Hantei Course, tax included; no service charge listed. Lunch set ¥3,630. Drinks extra"
+fx: { rate: 0.03575, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+time_needed: "2 h dinner (70 min at peak times)"
+best_time: "Dinner from 17:00 (UTC+9); lunch from 11:30 (UTC+9)"
+
+book_ahead:
+  required: recommended
+  lead_days: 3
+  lead_time: "No lead time published; book a few days ahead for a dinner seat"
+  method: platform
+  links:
+    - label: TableCheck (English)
+      url: https://www.tablecheck.com/en/hantei-nezu/reserve
+      note: "Party size starts at 1 adult. The ¥7,700 Hantei Course is sold online only"
+    - label: Japan Food Guide (English)
+      url: https://japan-food.guide/en/restaurants/1547
+      note: "Own versions: ¥8,800 dinner books instantly, lunch is a 48 h request; 50% fee from the day before"
+  notes: "You can't choose your seat. Lunch is 90 min, dinner 120 min (70 min at peak times), from your booked time. Requests typed into the booking form aren't read: call for anything special."
+
+hours:
+  summary: "Tue–Sun 11:30–15:00 (last order 14:15) and 17:00–22:00 (last order 21:00), all UTC+9"
+  closed: "Mondays (Tuesday instead when Monday is a holiday)"
+  winter: "No winter changes on the official site. On Sundays it may close early when ingredients run out. Your Tokyo days (Jan 21–29) have no national holiday (Cabinet Office list), so only Monday Jan 25 is out."
+
+location:
+  address: 2-12-15 Nezu, Bunkyō-ku, Tokyo
+  address_local: 東京都文京区根津2-12-15
+  lat: 35.71727
+  lng: 139.76607
+  nearest_transit: "Nezu (Chiyoda Line), exit toward Shinobazu Pond, 1 min walk"
+  approximate: true
+
+sources:
+  - url: https://www.tablecheck.com/en/hantei-nezu
+    title: "Hantei Nezuhonten — TableCheck (courses: lunch ¥3,630, Yoruzen ¥6,600, Hantei Course ¥7,700, tax included)"
+    checked: 2026-11-16
+  - url: https://www.tablecheck.com/en/hantei-nezu/reserve
+    title: "Hantei — TableCheck booking page (booking policy, cancellation, party size from 1 adult)"
+    checked: 2026-11-16
+  - url: https://www.hantei.co.jp/nedu/nedu_access.html
+    title: "Hantei official site — hours, closing day, access (Japanese)"
+    checked: 2026-11-16
+  - url: https://www.hantei.co.jp/nedu/nedu_tatemono.html
+    title: "Hantei official site — the building: Meiji-era, all-keyaki three-storey house, registered tangible cultural property (Japanese)"
+    checked: 2026-11-16
+  - url: https://www.hantei.co.jp/nedu/nedu_kusiage.html
+    title: "Hantei official site — the kushiage: 30+ kinds of skewer, two palate-cleansers, raw vegetables, house meat miso (Japanese)"
+    checked: 2026-11-16
+  - url: https://japan-food.guide/en/restaurants/1547
+    title: "Hantei — Japan Food Guide (bookable for 1 guest, English menu, tatami and stairs, cards)"
+    checked: 2026-11-16
+  - url: https://tabelog.com/en/tokyo/A1311/A131106/13003577/
+    title: "Hantei Nezu honten — Tabelog (3.57 from 1,042 reviews)"
+    checked: 2026-11-16
+  - url: https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+    title: "Cabinet Office: national holidays of Japan (2027 list)"
+    checked: 2026-11-16
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "JMA: climate normals 1991–2020, Tokyo (January)"
+    checked: 2026-11-13
+confidence: medium
+confidence_note: "Prices, hours and booking rules from Hantei's TableCheck pages and official site (Nov 2026). Japan Food Guide sells different course versions (¥4,180 lunch with a drink, ¥8,800 dinner), so prices depend on the channel. TableCheck gives no cancellation fee amount and no booking lead time. Solo checked on TableCheck's guest picker (1 adult) and Japan Food Guide ('Available from 1 guests')."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: side-lanterns
+    caption: "Hantei's wooden side wall in Nezu (2015)"
+    hook: "Thirty-odd kinds of skewer in rotation, behind iron bars on a Nezu corner."
+  - type: quick_facts
+    time_needed: "2 h dinner, 70 min at peak"
+    best_time: "Dinner 17:00 (UTC+9)"
+    extra:
+      - { label: Course, value: 12 skewers + sides, detail: "Small plates, vegetable sticks, miso, ochazuke, dessert" }
+      - { label: Solo, value: "Yes, 1 guest", detail: "TableCheck's guest picker starts at 1 adult" }
+      - { label: Out of place?, value: "No", detail: "Neighbourhood dinner spot; English menu listed; tatami rooms" }
+  - type: highlights
+    items:
+      - title: The tasting format, without a show
+        text: "The **Hantei Course** brings **12 seasonal skewers** a few at a time, with appetizers, side dishes, raw vegetable sticks and the house miso, then seaweed **ochazuke** and dessert. You stop thinking about what to order and just eat."
+      - title: More than pork and onion
+        text: "The official site says the kitchen rotates **30-odd kinds of skewer**, and TableCheck lists Kyoto carrots, tofu curds and white fish next to the classic pork and lotus root, with salt and miso as well as sauce."
+      - title: The house is the other half
+        text: "A **Meiji-era three-storey wooden house** built entirely of keyaki (zelkova), which survived the 1923 earthquake. It's a registered tangible cultural property. The windows upstairs look over old tiled roofs."
+      - title: Why go over the R$170 day
+        text: "About **R$275** for dinner, or **R$130** for the lunch set with eight skewers. That's the cheapest of the tasting menus on your list, with no service charge listed."
+  - type: gallery
+    images:
+      - { file: iron-lattice, caption: "The street front behind its iron lattice, added when the road was widened" }
+      - { file: entrance, caption: "The entrance and its noren curtain" }
+      - { file: corner-2024, caption: "The house in 2024", focus: top }
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "Open Hantei on **TableCheck**, pick **1 adult**, the date and a time, and choose the **Hantei Course (¥7,700)**. It's only sold online."
+      - days_before: 1
+        text: "Last day to cancel: TableCheck says parties of 1–4 cancel **by the day before**."
+      - days_before: 0
+        text: "Arrive **at** your booked time: there's no waiting area and they can't seat you early. Twenty minutes late without calling and the booking may be cancelled."
+  - type: menu
+    title: The courses on TableCheck (tax included)
+    items:
+      - { name: "Hantei Course (dinner)", name_local: はん亭コース, price_local: 7700, price_brl: 275.28, note: "12 skewers, appetizers, sides, vegetable sticks, miso, ochazuke, dessert; online booking only", tag: signature }
+      - { name: "Yoruzen (dinner)", name_local: よる膳コース, price_local: 6600, price_brl: 235.95, note: "12 skewers, appetizers, sides, vegetable sticks, miso; no ochazuke or dessert" }
+      - { name: "Hiruzen (lunch)", name_local: ひる膳コース, price_local: 3630, price_brl: 129.77, note: "8 skewers, sides, rice and red miso soup or ochazuke, dessert; 90 min" }
+    note: "Drinks are extra; their prices aren't published online."
+  - type: cost_breakdown
+    items:
+      - { label: Hantei Course (dinner), local: 7700, brl: 275.28 }
+    note: "Drink prices aren't published, so they're left out."
+  - type: map
+    note: "One minute from **Nezu Station** (Chiyoda Line), exit toward Shinobazu Pond. The building is on the corner, behind tall iron bars."
+  - type: tips
+    variant: insider
+    items:
+      - "Lunch is the budget way in: the **Hiruzen** set is ¥3,630 with eight skewers, from 11:30 (UTC+9), last order 14:15 (UTC+9)."
+      - "The ¥6,600 **Yoruzen** has the same 12 skewers as the Hantei Course but no ochazuke or dessert, and you can book it too."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Closed Mondays.** On Sundays it may shut early if ingredients run out, so book Sunday for lunch or an early dinner."
+      - "Seating includes **stairs and tatami**; you can't pick your seat. The kitchen fries in shared oil and can't take severe allergies."
+      - "Japan Food Guide sells different course versions at different prices; compare before you book."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold, dry and mostly sunny
+    note: "Indoors the whole meal, a minute from the subway."
+    wear: "Warm layers; socks without holes for the tatami"
+  - type: pairs_well
+    items:
+      - { id: ichiki-ginza-lunch-omakase, note: "The sushi counter version of a tasting lunch" }
+      - { id: sushi-azabu-lunch-omakase, note: "Another solo-friendly lunch course" }

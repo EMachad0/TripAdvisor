@@ -1,0 +1,147 @@
+id: jiangnan-wok-qiantan-set-for-one
+name: "Jiangnan Wok: Huaiyang Set for One"
+short_name: Jiangnan Wok
+name_local: 香聚江南灶
+country: china
+city: shanghai
+area: Pudong · Qiantan
+category: food
+fame: hidden
+tags: [huaiyang-cuisine, tasting-menu, set-for-one, splurge, lunch, hotel-restaurant]
+kind: Eat
+why: "A Huaiyang set menu priced for one person, ¥387, in a hotel dining hall. No show, casual dress; ask the hotel what the set holds."
+
+cost:
+  local: 387
+  currency: CNY
+  brl: 328.52
+  note: "Official set-for-one price, valid to 31 Dec 2026, main hall only. Drinks extra; service charge not stated on the offer"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: 1.5–2 h
+best_time: "Weekday lunch, 11:30–14:30 (UTC+8)"
+
+book_ahead:
+  required: recommended
+  lead_days: 2
+  lead_time: "Suggested, not a hotel rule: email 1–2 days ahead and ask what the set holds"
+  method: website
+  links:
+    - label: Set menu offer (official)
+      url: "https://www.shangri-la.com/shanghai/qiantanshangrila/offer-detail/dining/shangri-la-jiangnan-wok-set-menu/"
+      note: "Lists the ¥387 set for one; 'Book A Table' button, or email reservations.cnsha004@shangri-la.com"
+    - label: Restaurant page (hours, menu)
+      url: "https://www.shangri-la.com/shanghai/qiantanshangrila/dining/restaurants/shangri-la-jiangnan-wok/"
+      note: "Or call the hotel on +86 21 5030 8888, the number the offer page gives"
+  notes: "The offer applies only in the main dining hall, not in private rooms, and not on public holidays. Nothing on the page says walk-ins are refused, but a hotel restaurant with 6 private rooms can fill with banquets, so book."
+
+hours:
+  summary: "Lunch 11:30–14:30, dinner 17:30–22:00 (UTC+8)"
+  winter: "No December closure listed. The set offer runs 31 Dec 2025 – 31 Dec 2026 and excludes public holidays; none falls in your Shanghai days (Dec 6–9, 11–13). Christmas is not a public holiday in China."
+
+location:
+  address: "Level 7, Shangri-La Qiantan, 551 West Haiyang Road, Pudong, Shanghai"
+  address_local: 上海市浦东新区海阳西路551号 前滩香格里拉大酒店7层 香聚江南灶
+  lat: 31.15329
+  lng: 121.47727
+  approximate: true
+  nearest_transit: "Oriental Sports Center (Lines 6, 8, 11), a few minutes' walk"
+
+sources:
+  - url: "https://www.shangri-la.com/shanghai/qiantanshangrila/offer-detail/dining/shangri-la-jiangnan-wok-set-menu/"
+    title: "Shangri-La Qiantan: Jiangnan Wok Set Menu offer (set for one CNY 387, to 31 Dec 2026, main hall only, not on public holidays)"
+    checked: 2026-11-16
+  - url: "https://www.shangri-la.com/cn/shanghai/qiantanshangrila/offer-detail/dining/shangri-la-jiangnan-wok-set-menu/"
+    title: "Same offer, Chinese page (单人套餐 人民币387元; 仅限大厅; 公共节假日期间不适用)"
+    checked: 2026-11-16
+  - url: "https://www.shangri-la.com/shanghai/qiantanshangrila/dining/restaurants/shangri-la-jiangnan-wok/"
+    title: "Shangri-La Jiangnan Wok restaurant page (hours, Level 7 address, dress code casual, awards, chef)"
+    checked: 2026-11-16
+  - url: "https://sitecore-cd.shangri-la.com/-/media/Shangri-La/qiantan_shangrila/dining/Shangri-la-JNW-2026-Menu.pdf"
+    title: "Jiangnan Wok 2026 menu, Chinese/English (dish list; prices include 10% service and taxes; history of the Nanjing original)"
+    checked: 2026-11-16
+  - url: "https://www.shangri-la.com/shanghai/qiantanshangrila/about/map-directions/"
+    title: "Shangri-La Qiantan: map and directions (Oriental Sports Center station, Lines 6/8/11, a few minutes' walk)"
+    checked: 2026-11-16
+  - url: "https://www.shangri-la.com/cn/shanghai/qiantanshangrila/about/"
+    title: "Shangri-La Qiantan: about the hotel (next to Qiantan Taikoo Li and Qiantan Center)"
+    checked: 2026-11-16
+  - url: "https://www.flyert.com.cn/a-517409-1.html?mobile=2"
+    title: "FlyerTalk China forum: 失味江南灶 (negative review of the restaurant, posted 25 Aug 2025, visit Nov 2023)"
+    checked: 2026-11-16
+  - url: "https://en.wikipedia.org/wiki/Shanghai"
+    title: "Wikipedia: Shanghai climate table (Xujiahui, 1991–2020 normals)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Price, set for one, hours, dress code and booking are from the hotel's pages (Nov 2026). Not published: what the set contains or how many courses, whether ¥387 includes service (the à la carte menu says its prices do), payment methods. Pin = Qiantan Center, next to the hotel. Dianping unreadable here, so no recent rating. The Flyert post opened in a web fetch but times out from this machine."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: qiantan-taikoo-li
+    caption: "Qiantan Taikoo Li and Qiantan Center; the hotel is next door (no free photo of the restaurant)"
+    hook: Yangtze-delta cooking as a set for one, a short walk from the metro.
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: "Weekday lunch (UTC+8)"
+    extra:
+      - { label: Solo, value: "Yes: set for one", detail: "The hotel sells separate sets for 1, 2, 4 and 6 people" }
+      - { label: Courses, value: Not published, detail: "Ask when you book; the hotel lists only the price" }
+      - { label: Out of place?, value: "No", detail: "Hotel dress code is casual; English on the menu" }
+  - type: highlights
+    items:
+      - title: The only solo-priced set I found
+        text: "Most Chinese banquet sets start at two people. This hotel prints a **set menu for single at ¥387** next to its sets for 2, 4 and 6. No stage, no costume. The hotel does not publish the dishes, so email first and ask."
+      - title: Huaiyang, not Sichuan
+        text: "Huaiyang is the cooking of Yangzhou and Nanjing: knife work, clear soups, braises, river fish and eel. The 2026 menu has **Yangzhou-style sliced bean curd**, **braised pork meatballs** (lion's head), Nanjing duck soup and boneless eel. A calm contrast to Sichuan later."
+      - title: An almost-as-good pedigree
+        text: "The original Jiangnan Wok in Nanjing has been on Dianping's **Black Pearl** list since 2018 (two diamonds) and in the Michelin Guide in 2025, says the hotel. This Shanghai branch is not on the Michelin star lists I checked."
+      - title: Why go over the R$170 day
+        text: "About **R$329**, roughly **two days of budget**, for one sit-down regional feast. It's under the €100 ceiling, and a weekday lunch keeps the evening free."
+  - type: gallery
+    images:
+      - { file: lions-head, caption: "Lion's head meatball, a Huaiyang classic (photo from another restaurant)" }
+      - { file: dazhu-gansi, caption: "Simmered tofu shreds, a Yangzhou classic (display dish, not this restaurant)" }
+      - { file: eel, caption: "Eel, a Huaiyang staple; this menu has several eel dishes (other restaurant)" }
+    feature: false
+  - type: quote
+    variant: vibe
+    text: A quiet hotel dining room, one set menu, and the chefs at work behind the dim sum counter.
+  - type: book_ahead
+    steps:
+      - days_before: 2
+        text: "Email **reservations.cnsha004@shangri-la.com** in English: date, 12:00 (UTC+8), **1 person**, the **Jiangnan Wok set menu for single (¥387)**, main hall. Ask what it contains and whether service is included."
+      - days_before: 0
+        text: "Take Metro 6, 8 or 11 to **Oriental Sports Center**, walk a few minutes to Shangri-La Qiantan and go up to **Level 7**."
+  - type: menu
+    title: The sets (per the hotel's offer page)
+    items:
+      - { name: Set menu for single, name_local: 单人套餐, price_local: 387, price_brl: 328.52, note: "Main hall only; contents not published", tag: signature }
+      - { name: Set menu for two, name_local: 双人套餐, price_local: 998, price_brl: 847.20, note: "¥499 a head: dearer than the solo set" }
+    note: "The 2026 à la carte menu is in Chinese and English and says its prices include the 10% service charge and taxes."
+  - type: cost_breakdown
+    items:
+      - { label: Set menu for single, local: 387, brl: 328.52 }
+    note: "Drinks extra. Ask whether the ¥387 includes the 10% service charge."
+  - type: map
+    note: "The hotel is beside **Qiantan Taikoo Li** and Qiantan Center; the restaurant is on **Level 7**."
+  - type: tips
+    variant: insider
+    items:
+      - "Book by **email**: you get the answer in writing, and you can ask what the set contains before you go."
+      - "Write in English; the 2026 menu is bilingual, so the staff can point you to the dishes."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Not everyone loves it: one forum post (posted 2025, about a Nov 2023 visit) called the food bland and the service slow, a 2-hour meal. Don't book a tight slot."
+      - "Payment methods aren't listed on the restaurant page. Ask when you book, and keep Alipay ready as a backup."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Cool and often clear
+    note: "All indoors; the metro station is a few minutes away."
+    wear: "A warm jacket; casual is fine inside"
+  - type: pairs_well
+    items:
+      - { id: shuyanfu-shanghai, note: "The banquet with the court show, if you want both" }

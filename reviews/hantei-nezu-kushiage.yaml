@@ -1,0 +1,22 @@
+# Independent review of hantei-nezu-kushiage. Written by `./atr review`; do not edit by hand.
+id: hantei-nezu-kushiage
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 5d605417b60fe9f0d33cb467af8a20631f8122f67c8e99498b5ec46f2c5d0804
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: book_ahead.notes
+    problem: The page says dinner is 120 min from the booked time, and time_needed says '2 h (dinner seat limit)'. TableCheck's booking policy cuts that to 70 min at peak times, so a solo traveler could be rushed out after about an hour.
+    evidence: 'https://www.tablecheck.com/en/hantei-nezu/reserve (rendered) — "Time limits: Lunch: 90 min / Dinner: 120 min (Peak periods: 70 min)." The page now says 70 min at peak times in book_ahead.notes, time_needed and quick_facts.time_needed. Both the phone-light and desktop-dark renders show "2 h dinner, 70 min at peak".'
+  - field: blocks[0].hook
+    problem: The hero hook ('A tasting menu of fried skewers, served in rounds in a Meiji-era house') repeats the first half of `why` ('Twelve fried skewers brought a few at a time… in a Meiji-era wooden house'). The page says the same thing twice, one line apart.
+    evidence: 'The hook now reads "Thirty-odd kinds of skewer in rotation, behind iron bars on a Nezu corner." It no longer repeats `why` (desktop-dark hero shot). Both claims are on the official site: https://www.hantei.co.jp/nedu/nedu_kusiage.html "三十余種の串" and https://www.hantei.co.jp/nedu/nedu_tatemono.html "大きな「鉄の矢来」で被い".'
+rereview_of: 9f3554151a63fa0f7881d27214b83f6a50d83562dc6dd75dff112a19beec4036
+summary: "Both earlier findings are fixed and backed by sources: the 70-minute peak dinner limit and a new hero hook built from the official site. The new Japan Food Guide note checks out on that site: ¥8,800 dinner booked instantly, booking requests answered within 48 h, and a 50% cancellation fee from 1 day before. The Cabinet Office's 2027 holiday list puts no holiday inside Jan 21–29 (Jan 1, Jan 11, Feb 11, Feb 23). Nothing left to fix."
+model: claude-opus-5-5
+cost_usd: 0.596

@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: side-lanterns
+  title: File:Hantei2.JPG
+  author: 江戸村のとくぞう (Edomura no Tokuzo)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hantei2.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2a/Hantei2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: （2015年11月3日撮影）
+  width: 2592
+  height: 1936
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: entrance
+  title: File:Hantei7.JPG
+  author: 江戸村のとくぞう (Edomura no Tokuzo)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hantei7.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/42/Hantei7.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: （2015年11月3日撮影）
+  width: 2592
+  height: 1936
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: iron-lattice
+  title: File:Hantei1.JPG
+  author: 江戸村のとくぞう (Edomura no Tokuzo)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hantei1.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/58/Hantei1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: （2015年11月3日撮影）
+  width: 2592
+  height: 1936
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: corner-2024
+  title: File:Hantei 20240629.jpg
+  author: 皓月旗
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hantei_20240629.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/21/Hantei_20240629.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: はん亭（東京都文京区根津）
+  width: 4284
+  height: 5712
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons

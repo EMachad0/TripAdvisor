@@ -1,0 +1,24 @@
+# Independent review of jiangnan-wok-qiantan-set-for-one. Written by `./atr review`; do not edit by hand.
+id: jiangnan-wok-qiantan-set-for-one
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 479116488b42c676dccedb784c4ff4742d1fae5ea5f2861f15ccaaa5f900d5a9
+facts:
+  supported: 4
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[11].items[0]
+    problem: The new detail '(posted 2025, about a Nov 2023 visit)' could not be checked. The Flyert source did not answer within 60 s through ./atr render, and the curator's confidence_note says it also times out from this machine.
+    evidence: "https://www.flyert.com.cn/a-517409-1.html?mobile=2 (unreachable: 'the site never answered within 60 s')"
+    fix: Keep the dates only if the post can be reopened to confirm them; otherwise say 'one forum post' with no dates.
+resolved:
+  - field: why
+    problem: "The `why` says the ¥387 set is 'many plates of Yangtze-delta cooking', and highlights[0] calls it 'the many-small-courses idea of SHUYANFU'. The hotel publishes only the price of the set, not what is in it, and the page itself says 'Courses: Not published'. The page sells a course count that no source supports."
+    evidence: The `why` no longer says 'many plates'. highlights[0] drops the SHUYANFU 'many-small-courses' comparison and now says the hotel does not publish the dishes. This matches https://www.shangri-la.com/shanghai/qiantanshangrila/offer-detail/dining/shangri-la-jiangnan-wok-set-menu/ (rendered today), which says only "Set menu for single CNY 387 … Applicable only in the main dining hall. Not applicable during public holidays" and lists no dishes or course count.
+rereview_of: 112956157d429a759500c185600b7e7789fab9fda431354cf1aa25384444db60
+summary: "Earlier finding 1 is resolved: the page no longer claims a course count, and the hotel's offer page still shows the ¥387 set for one with no dish list, main hall only, booked by email. The only new problem is a nit: the dates of the forum post could not be checked because Flyert would not load."
+model: claude-opus-5-5
+cost_usd: 0.396

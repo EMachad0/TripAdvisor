@@ -1,0 +1,135 @@
+id: zhong-shui-jiao-peoples-park-snack-set
+name: "Zhong Shui Jiao: Snack Set for One"
+short_name: Zhong Shui Jiao
+name_local: 钟水饺（人民公园总店）
+country: china
+city: chengdu
+area: Qingyang · People's Park
+category: food
+fame: popular
+tags: [sichuan-food, tasting-menu, snacks, set-for-one, cheap-eats, intangible-heritage]
+kind: Eat
+why: "Six Chengdu snacks in one tray, sold as a set for one: dandan noodles, sweet-water noodles, chili-oil wontons. Next to the park teahouse, about ¥124."
+
+cost:
+  local: 124
+  currency: CNY
+  brl: 105.26
+  note: "Trip.com single-person set with tea, 'from' price seen 16 Nov 2026; a second listing starts at ¥225"
+fx: { rate: 0.8489, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45–60 min
+best_time: "Late morning, before or after tea at Heming"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "The Trip.com set is bookable for tomorrow, not same day"
+  method: platform
+  links:
+    - label: Trip.com set for one
+      url: "https://www.trip.com/things-to-do/detail/118539864/"
+      note: "Tea + six-compartment snack set for one; free cancellation to 18:00 (UTC+8) the day before"
+    - label: Trip.com search (both listings, CNY)
+      url: "https://hk.trip.com/global-search/searchlist/search/?keyword=%E9%90%98%E6%B0%B4%E9%A4%83&locale=zh-HK&curr=CNY"
+      note: "Shows the ¥124 and ¥225 versions of the set side by side"
+  notes: "One undated Ctrip review says upstairs seating goes with ordering a set meal; I found no in-shop set price for one person. The Trip.com set is the sure way to get the tray as a solo diner. Otherwise order à la carte, no booking needed."
+
+hours:
+  summary: "Daily 08:30–20:00 (UTC+8), per Ctrip's listing"
+  winter: "No source mentions seasonal hours or a Christmas closure; check the Trip.com calendar for your date. Your Chengdu days are Dec 23–26."
+
+location:
+  address: "Ziwei Pavilion, inside People's Park, 12 Shaocheng Road, Qingyang, Chengdu"
+  address_local: 成都市青羊区少城路12号人民公园内紫薇阁 钟水饺（人民公园总店）
+  lat: 30.65936
+  lng: 104.05585
+  approximate: true
+  nearest_transit: "People's Park (Line 2), Exit B, about 6 min walk"
+
+sources:
+  - url: "https://www.trip.com/things-to-do/detail/118539864/"
+    title: "Trip.com: Zhong Shui Jiao (People's Park flagship) single-person heritage tea + six-compartment snack set"
+    checked: 2026-11-16
+  - url: "https://hk.trip.com/global-search/searchlist/search/?keyword=%E9%90%98%E6%B0%B4%E9%A4%83&locale=zh-HK&curr=CNY"
+    title: "Trip.com search for 鐘水餃 in CNY: the two single-person set listings, from ¥124 and from ¥225"
+    checked: 2026-11-16
+  - url: "https://gs.ctrip.com/html5/you/foods/fooddetail/104/5234159.html"
+    title: "Ctrip: 钟水饺(人民公园总店) (address, hours, ¥32 a head, 4.5/5 from 181 reviews, Line 2 Exit B 463 m / 6 min)"
+    checked: 2026-11-16
+  - url: "https://m.thepaper.cn/baijiahao_6792274"
+    title: "The Paper / Qingyang District (Apr 2020): Heming Teahouse and Zhong Shui Jiao reopen in People's Park"
+    checked: 2026-11-16
+  - url: "https://en.wikipedia.org/wiki/Chengdu"
+    title: "Wikipedia: Chengdu climate table (Shuangliu, 1991–2020 normals)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Set for one, cancellation rule and named snacks: Trip.com listing (web fetch; it blocks link checks). Prices: Trip.com search in Chrome, 16 Nov 2026. Unknown: full tray contents, how the ¥124 and ¥225 versions differ, the tea style, in-shop set prices. Hours, metro exit (463 m, 6 min) and upstairs seating: Ctrip, reviews undated. No English menu confirmed."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: zhong-dumplings
+    focus: center
+    caption: "Zhong-style dumplings in chili oil at a Chengdu restaurant (not this shop)"
+    hook: A tray of the city's classic snacks, one bite of each, in a park full of tea drinkers.
+  - type: quick_facts
+    time_needed: 45–60 min
+    best_time: Late morning
+    extra:
+      - { label: Solo, value: "Yes: set for one", detail: "Trip.com sells it as a single-person (单人) set" }
+      - { label: The meal, value: "6 snacks + tea", detail: "Six-compartment tray; the listing names dandan, sweet-water noodles, wontons" }
+      - { label: Out of place?, value: "Not at all", detail: "A busy old snack shop in a public park" }
+  - type: highlights
+    items:
+      - title: The cheap version of a tasting menu
+        text: "Chengdu's best-known food is its **snacks** (小吃), not banquets. This set puts six of them in one tray for one person, so you taste the range at one table, with tea."
+      - title: The shop that named the dumpling
+        text: "**Zhong Shui Jiao** dates from 1893 and its making method is on Sichuan's provincial intangible heritage list. Its red-oil dumplings are mildly spicy, savoury and a little sweet."
+      - title: In People's Park, next to Heming
+        text: "The flagship sits **inside People's Park, beside Heming Teahouse**. Snacks, then a bowl of tea, or the other way round."
+      - title: Solo without the guesswork
+        text: "The Trip.com voucher is sold as a **single-person** set, paid in advance on Trip.com, so there's nothing to order in Chinese and no doubt about portions for one."
+  - type: gallery
+    images:
+      - { file: zhong-bowl, caption: "Zhong dumplings in a bowl printed 钟水饺 (branch not stated)", focus: center }
+      - { file: park-bridge, caption: People's Park around the corner }
+      - { file: shaocheng-gate, caption: "The Shaocheng gate in People's Park" }
+  - type: book_ahead
+    steps:
+      - days_before: 1
+        text: "Buy the **single-person tea + six-compartment snack set** on Trip.com by the day before. Free cancellation until **18:00 (UTC+8)** the day before your date."
+      - days_before: 0
+        text: "Walk into People's Park from **Exit B** of People's Park metro station, find the shop next to Heming Teahouse and show the voucher."
+  - type: menu
+    title: What the set gives you
+    items:
+      - { name: Snack set for one with tea, name_local: 单人非遗掺茶+六宫格小食套餐, price_local: 124, price_brl: 105.26, note: "Trip.com 'from' price; contents beyond the named snacks not listed", tag: signature }
+      - { name: Dandan noodles, name_local: 担担面, note: Named in the listing }
+      - { name: Sweet-water noodles, name_local: 甜水面, note: Named in the listing }
+      - { name: Chili-oil wontons, name_local: 龙抄手, note: Named in the listing }
+    note: "Ctrip puts the shop's average à la carte spend at **¥32 a head**, so the set costs more than ordering yourself. You pay for the tray and the tea."
+  - type: cost_breakdown
+    items:
+      - { label: "Snack set for one, with tea (Trip.com)", local: 124, brl: 105.26 }
+  - type: map
+    note: "Inside People's Park, in the Ziwei Pavilion next to **Heming Teahouse**. The pin marks the teahouse."
+  - type: tips
+    variant: insider
+    items:
+      - "Pair it with Heming: the teahouse is next door, and the snacks fill the gap tea alone leaves."
+      - "On a budget? Downstairs is ordinary à la carte at around ¥32 a head; the set is for tasting six things at once."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Two Trip.com listings with the same name start at **¥124** and **¥225**; check the package before paying."
+      - "Branches of Zhong Shui Jiao elsewhere in town score lower on Trip.com. This page is about the **People's Park** flagship."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Grey, damp and cool; very little sun
+    note: "You eat indoors; the park walk to it is short."
+    wear: A warm layer
+  - type: pairs_well
+    items:
+      - { id: heming-teahouse-peoples-park, note: "Next door: tea after the snacks" }
