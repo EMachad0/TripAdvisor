@@ -1,0 +1,22 @@
+# Independent review of poseidon-soapy-ratchada. Written by `./atr review`; do not edit by hand.
+id: poseidon-soapy-ratchada
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: fbd60d2e0fe1a151eef516d48dcfdf126f0bed431b21ba7a33a09fdc9ab90eb2
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: The page says you can go from 12:00 and calls 12:00–17:00 the best time. The official site's own FAQ says the 3rd-floor Modeling Lobby, where the page says you choose, opens at 15:00, and the floor-2 Venus Showcase opens at 13:00. The site's '12.00 - 24.00' banner disagrees with its FAQ.
+    evidence: 'hours.summary, best_time, quick_facts and the insider tip now give the FAQ times and point out the banner conflict. https://poseidon2000.com/ (#faqs): "Our place open at 13:00 (floor 2 Venus Showcase) and 15:00 (floor 3 Modeling Lobby) and close at 00:00 both floor everyday"; banner: "Time: 12.00 - 24.00".'
+  - field: blocks[8].items[0]
+    problem: The page offers free nights on Sat 2 and Sun 3 Jan and weekday afternoons Mon 4 – Fri 8 Jan in Bangkok. The trip plan puts the traveler in Chiang Mai on 2–3 Jan (arrival, then the luge) and in Chiang Mai for the first part of 4–8 Jan. Sat 9 Jan is the only free Bangkok day. The same dates appear in quick_facts extra[0].
+    evidence: "Sat 2 and Sun 3 Jan are removed. The slot is now Bangkok weekdays (Tue 5/Wed 6 – Fri 8 Jan) 15:00–18:00, or Sat 9 Jan. That fits config/trip.yaml: the Bangkok move is on Tue 5 or Wed 6 Jan, shifts start at 19:00, and Sat 9 Jan is free in Bangkok."
+rereview_of: 1089410545b158950693f540674b0d605bc0fcb7c5c0574d84dd4753a8ae70f9
+summary: "Both earlier blockers are fixed. Hours now match the official FAQ (13:00 for floor 2, 15:00 for floor 3, close 00:00), and the slots fall only on days the traveler is in Bangkok. The new facts check out against the sources: the FAQ's six closing days (none between 2 and 10 Jan), the venue's own postcode 10320, and Wikipedia's lines on the 1996 Act and clients. No blockers or shoulds remain."
+model: claude-opus-5-5
+cost_usd: 0.271

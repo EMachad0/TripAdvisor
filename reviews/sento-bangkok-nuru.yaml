@@ -1,0 +1,24 @@
+# Independent review of sento-bangkok-nuru. Written by `./atr review`; do not edit by hand.
+id: sento-bangkok-nuru
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 679b55ca594722f277ce594c2736408fb3f8003c59bf1e1ee478f43d99516b5c
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[10].items[0]
+    problem: "'Allow 2 h with the ride each way from BTS Ekkamai' can be read as 2 h per direction. The intended meaning is 2 h in total: an 80-min session plus about 10 min of riding each way."
+    evidence: "place.yaml time_needed: '2 h with the ride from BTS'; blocks[9].note: 'the venue says 10 minutes'"
+    fix: Reword to 'Allow about 2 h in total, including the 10-min ride each way from BTS Ekkamai.'
+resolved:
+  - field: blocks[11].items[0]
+    problem: The legal-status pitfall flatly says 'buying isn't punished'. The cited Wikipedia page says paying is not punished only when there are no aggravating circumstances, and that foreign clients have been charged in police raids, though rarely. Its lead also says prostitution 'is not itself illegal', while a later section calls it 'technically illegal', so the page's 'prostitution is illegal' takes one side of a source that disagrees with itself.
+    evidence: "blocks[11].items[0] now reads 'a grey area under the 1996 Prostitution Act. Clients are rarely charged, but foreign clients have been caught in raids'. https://en.wikipedia.org/wiki/Prostitution_in_Thailand says: 'Although uncommon, cases of foreign clients being charged have happened … most foreigners have been caught up in a police raid'. The lead says prostitution 'is not itself illegal', which conflicts with the 1996 Act being described as criminalising sex work, so 'grey area' is a fair summary of the source."
+rereview_of: fcbed9a03151f9c82d50173e1eb2655f8eab62aa55020652308950d7c09ba0fc
+summary: The one earlier should is fixed. The legal pitfall now calls the 1996 Act a grey area and notes that foreign clients are occasionally charged in raids, which Wikipedia supports. The rewritten Khaosod line (Empower Foundation gave the House a repeal draft on 28 May 2026; it is not law) matches the rendered article. The new Tokyo Reporter '60-minute typical session' text and the 'cool, dry season' weather note are also supported. Only a wording nit remains.
+model: claude-opus-5-5
+cost_usd: 0.541

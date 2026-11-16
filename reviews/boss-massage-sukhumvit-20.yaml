@@ -1,0 +1,21 @@
+# Independent review of boss-massage-sukhumvit-20. Written by `./atr review`; do not edit by hand.
+id: boss-massage-sukhumvit-20
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 8cd49523726596ac097696d7ff5fd93fee8c78f32a6182dd03bf7a1223932f78
+facts:
+  supported: 3
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[9].items[0]
+    problem: The new text cites only Pattaya Mail, which gives no date for the proposal, so '(proposed May 2026)' is not backed by any source a reader can open. Only the 28 May 2026 date in the Khaosod URL points to May, and that page returned 403 at the earlier review.
+    evidence: "https://www.pattayamail.com/thailandnews/thailand-sex-workers-press-government-to-back-landmark-rights-bill-560895: no proposal month given"
+    fix: Cite Khaosod next to Pattaya Mail for 'proposed May 2026', or drop the month.
+resolved: []
+rereview_of: 4be362a22f20d54fcad40f856bcc13275a14706a7696f2b5718845b211268a84
+summary: "I re-checked the legal-status line on boss-massage-sukhumvit-20 against Pattaya Mail (12 Aug 2026), and the earlier finding is fixed. The page no longer says the bill reached the House, and Pattaya Mail supports the new wording: the draft still needed the PM's endorsement in Aug 2026 before going to Parliament, and it is not law. One nit is left: no source on the page that can be opened backs the 'proposed May 2026' date."
+model: claude-opus-5-5
+cost_usd: 0.177

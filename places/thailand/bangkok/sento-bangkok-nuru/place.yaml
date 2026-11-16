@@ -1,0 +1,158 @@
+id: sento-bangkok-nuru
+name: "SENTO Bangkok"
+country: thailand
+city: bangkok
+area: "Ekkamai · Watthana"
+category: odd-local
+fame: hidden
+tags: [adult, nuru-massage, premium, weekday-afternoon, weekend-night]
+kind: Do
+why: "A Japanese-themed nuru spa up Ekkamai Road that books few guests a day: 80-min sessions from ฿3,500, private rooms with their own shower, 4.9 on Google."
+
+cost:
+  local: 4500
+  currency: THB
+  brl: 757.35
+  note: "80 min \"Soft Touch\", the venue's most popular tier, standard room (official menu, Nov 2026). Tip not on the menu"
+fx: { rate: 0.1683, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "2 h with the ride from BTS"
+best_time: "Weekday 13:00–18:00, before a night shift"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "A day ahead for the room and masseuse you want"
+  method: app
+  links:
+    - label: "LINE (SENTO front desk)"
+      url: "https://line.me/R/ti/p/@124kgnfi"
+      note: "The venue's own LINE; front desk in English, Thai and Mandarin"
+    - label: "Official menu and prices"
+      url: "https://sentobkk.com/services/"
+      note: "80 and 120 min prices, room upgrades; WhatsApp +66 64 253 7196 on the site"
+  notes: "The FAQ says it keeps only a few appointments a day so guests don't overlap. Same-day is often possible, but the room and masseuse you want are best reserved a day ahead. A booking counts only once SENTO confirms date, time and treatment back to you."
+
+hours:
+  summary: "Every day 10:00–23:00 (official site; Google Maps also shows 10:00)"
+  winter: "No holiday hours published and nothing found for 2–10 Jan 2027. Indoors with air-con. Ask on LINE before a public-holiday visit."
+
+location:
+  address: "582/25-26 Ekkamai Rd, Khlong Tan Nuea, Watthana, Bangkok 10110 (opposite the Bangchak petrol station)"
+  address_local: "582/25-26 ถนนเอกมัย แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 10110"
+  lat: 13.73805
+  lng: 100.58896
+  nearest_transit: "BTS Ekkamai Exit 3, about 2 km: 10 min by car or motorbike taxi"
+
+sources:
+  - url: https://sentobkk.com/
+    title: "SENTO Bangkok official site: menu, FAQ on booking and inclusions, address, hours, contacts (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://sentobkk.com/services/
+    title: "SENTO: treatment menu, 80 and 120 min prices, room upgrades (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://sentobkk.com/rooms/
+    title: "SENTO: rooms (standard, deluxe with tub, VIP Jacuzzi) and facilities (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://sentobkk.com/guidelines/
+    title: "SENTO: guest guidelines, services list, conduct, ID, recording rules (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://sentobkk.com/terms/
+    title: "SENTO: terms of service, booking confirmation, age 18+ and photo ID (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: "https://www.google.com/maps/place/SENTO+Bangkok+%E2%80%93+Nuru+Massage+%26+Japanese+Spa/@13.7380536,100.588956,17z/data=!4m6!3m5!1s0x30e29f4b708244db:0xcf704df306af0efa!8m2!3d13.7380536!4d100.588956!16s%2Fg%2F11ycq1jlb3?hl=en"
+    title: "SENTO Bangkok on Google Maps: 4.9 from 148 reviews, opens 10:00, newest reviews 2–3 weeks old (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://gurulist.net/en/bangkok/nuru-massage/sento-bangkok-24063.htm
+    title: "SENTO Bangkok on Gurulist: 4.9 from 137 ratings, 2025–2026 reviews, motorbike to the BTS (directory)"
+    checked: 2026-11-16
+  - url: https://www.tokyoreporter.com/international/thailand/why-are-so-many-nuru-massage-parlors-opening-in-bangkok/
+    title: "Why are so many nuru massage parlors opening in Bangkok? Price ranges and tipping (Tokyo Reporter, 13 Aug 2026)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Prostitution_in_Thailand
+    title: "Prostitution in Thailand: the 1996 Act, how police treat massage venues (Wikipedia)"
+    checked: 2026-11-16
+  - url: https://www.khaosodenglish.com/news/2026/05/28/draft-bill-seeks-labour-rights-for-sex-workers-in-thailand/
+    title: "Draft bill seeks labour rights for sex workers in Thailand (Khaosod English, 28 May 2026)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Prices, hours and booking are from the venue's site (Nov 2026), which is marketing: it claims 300+ reviews where Google shows 148, has placeholder (\"demo\") masseuse pages, and doesn't say what separates its three tiers or which payments it takes. Reviews are almost all 5-star, many from new accounts. Distance to BTS measured on the map. Thai address is our rendering of the English one."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: ekkamai-corner
+    caption: "Ekkamai Road at Sukhumvit, about 2 km south of the spa; no free photo of the venue"
+    hook: "Sento is Japanese for public bathhouse; this one is private rooms only, a taxi ride up a quiet Ekkamai Road."
+  - type: quick_facts
+    time_needed: "80 or 120 min session"
+    best_time: "Weekday 13:00–18:00"
+    extra:
+      - { label: Slot, value: "Weekday afternoon", detail: "Opens 10:00: Wed 6 – Fri 8 Jan before work, or Sat 9 Jan until 23:00" }
+      - { label: Shortest session, value: "80 min", detail: "Typical Bangkok sessions are 60 min (Tokyo Reporter)" }
+      - { label: Included, value: "Shower, towels, tea", detail: "Room upgrades extra: deluxe +฿500, Jacuzzi +฿1,000" }
+  - type: highlights
+    items:
+      - title: Longer sessions by default
+        text: "Every treatment is **80 or 120 minutes**, with shower, towels, tea and \"unhurried preparation time\" before and after, per the menu. Tokyo Reporter prices a typical Bangkok session at 60 minutes."
+      - title: Three room types
+        text: "A standard room with an air mattress and queen bed, a **deluxe room with its own soaking tub** (+฿500) and a **VIP room with a private Jacuzzi** (+฿1,000)."
+      - title: Few guests at a time
+        text: "The FAQ says it keeps only **a few appointments a day** so no two guests overlap, with separate entrances, and claims every masseuse has **regular medical blood tests**."
+      - title: Reviewed as a step up
+        text: "**4.9 from 148 Google reviews**, the newest weeks old (Nov 2026). Among the reviews the site quotes, a Japanese guest compared it with Tokyo at about a quarter of the price; one guest says it made places he'd tried before feel poor."
+  - type: prose
+    title: What the premium buys, and what to check
+    dropcap: true
+    text: |-
+      Tokyo Reporter (Aug 2026) puts a typical 60-minute nuru in Bangkok at **฿2,500–3,500**. SENTO's cheapest booking is ฿3,500, but for **80 minutes**, and its popular tier is ฿4,500. You are paying for time, a quieter address away from the Sukhumvit strips, and a house that limits how many guests it sees.
+
+      The site is vaguer than the price list suggests. It names three tiers (Whisper, Soft Touch, Imperial Touch) with one-line descriptions, but doesn't say concretely what changes between them, so **ask on LINE what each includes** before choosing. Its guidelines page lists the services offered, and some are done **without a condom**: an STI risk to weigh, and a reason to ask.
+
+      Eighty minutes at ฿4,500 is about **R$757, more than seven days of your R$100 "everything else" budget**, plus a taxi each way. Worth it only as a one-off.
+  - type: book_ahead
+    steps:
+      - { days_before: 1, text: "Message the front desk on **LINE** in English. Ask what separates the three tiers and which payment methods they take." }
+      - { days_before: 1, text: "Book: tier, **80 min**, room type, masseuse and time. Wait for SENTO to **confirm it back** with date, time and treatment." }
+      - { days_before: 0, text: "Grab from BTS Ekkamai (about 2 km). Bring your passport: the terms say they may ask for photo ID." }
+  - type: cost_breakdown
+    items:
+      - { label: "Soft Touch, 80 min, standard room", local: 4500, brl: 757.35 }
+      - { label: "Deluxe room with tub (upgrade)", local: 500, brl: 84.15, optional: true }
+      - { label: "Tip to the masseuse (2026 article: ฿500–1,000)", local: 500, brl: 84.15, optional: true, estimate: true }
+  - type: menu
+    title: Price list (official site, Nov 2026)
+    items:
+      - { name: "SENTŌ Whisper, 80 min", price_local: 3500, price_brl: 589.05, note: "\"Gentle & relaxing\"; 120 min ฿5,200", tag: cheap }
+      - { name: "Soft Touch, 80 min", price_local: 4500, price_brl: 757.35, note: "Most popular; 120 min ฿6,500" }
+      - { name: "Imperial Touch, 80 min", price_local: 5500, price_brl: 925.65, note: "Deluxe bathroom included; 120 min ฿7,800" }
+      - { name: "Two masseuses, 80 min", price_local: 6000, price_brl: 1009.8, note: "Jacuzzi room included; 120 min ฿8,900" }
+    note: "Room upgrades: deluxe +฿500, VIP Jacuzzi +฿1,000 (Imperial: Jacuzzi +฿500), subject to availability on the day."
+  - type: map
+    note: "On **Ekkamai Road opposite the Bangchak petrol station**, about 2 km north of **BTS Ekkamai** (Exit 3). Take a Grab or motorbike taxi; the venue says 10 minutes."
+  - type: tips
+    variant: insider
+    items:
+      - "Allow **2 h** with the ride each way from BTS Ekkamai."
+      - "A reviewer says staff order a motorbike back to the BTS for you; ask at the desk when you finish."
+      - "You can ask for the same masseuse again by name, per the FAQ."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** a grey area under the 1996 Prostitution Act. Clients are rarely charged, but foreign clients have been caught in raids (Wikipedia). An NGO gave the House a draft bill to repeal the Act on 28 May 2026; it is not law (Khaosod)."
+      - "Book only via the LINE, WhatsApp or number on **sentobkk.com** (+66 64 253 7196)."
+      - "Recording is banned, and the masseuse can end the session with no refund if you push for anything off the list (guidelines and terms)."
+      - "The tip isn't on the menu. Tokyo Reporter (2026) says ฿500–1,000 to the masseuse is customary at nuru houses; decide yours beforehand."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: hot afternoons, warm nights"
+    note: "January is in Bangkok's cool, dry season and rarely rains; it's an indoor, air-conditioned visit, with a taxi from the BTS."
+    wear: "Anything; there's a shower in the room"
+  - type: pairs_well
+    items:
+      - { id: hakumi-nuru-massage, note: "The other premium pick: 5 min from BTS Phrom Phong, 60-min Jacuzzi room ฿4,000" }

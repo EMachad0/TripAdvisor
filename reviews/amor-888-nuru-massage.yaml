@@ -1,0 +1,21 @@
+# Independent review of amor-888-nuru-massage. Written by `./atr review`; do not edit by hand.
+id: amor-888-nuru-massage
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 33e8151ecfdf6cc40ede999e381c718341ae1312e12c1a3a1e3699fc4f96435a
+facts:
+  supported: 9
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[2].items[0].text
+    problem: The new text says you pay "before the session". The site only says you pay at the desk or at reception, never when, and the Google review that used to back "paid up front" was removed.
+    evidence: https://www.amorbkk.com/ — "Our prices are online, in baht, per session, and that's what you pay at the desk." The FAQ (https://www.amorbkk.com/faq/) doesn't say when payment is due.
+    fix: Cut "before the session", or cite a source that says when you pay.
+resolved: []
+rereview_of: 17b27c83e2717df0fa0fe62f41f0a596aaf5adeae2f0ccd47a6fa1222d0f669b
+summary: "No earlier blockers or shoulds. The changed facts check out: Bangkok dates match config/trip.yaml, the new Maps link's pin matches lat/lng, Pattaya Mail backs the PM-endorsement status, the home page backs the May–Aug reviews, the whirlpool photo and who's-working-today, and Wikipedia backs January as one of the two coolest months. Only a nit is left: no source says you pay before the session. The page validates and renders cleanly on phone."
+model: claude-opus-5-5
+cost_usd: 0.428
