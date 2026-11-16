@@ -218,9 +218,9 @@ test('timezones: labels, leg offsets and the times found in free text', async ()
 
 const OWNER = { user: 'eliton', password: 'dummy-owner-pw' };
 const GUEST = { user: 'guest', password: 'dummy-guest-pw' };
-const hosted = async (accounts) => {
+const hosted = async (accounts, extra = {}) => {
   const dir = tmp();
-  const srv = await startServer({ port: 0, root: FIX, feedbackDir: path.join(dir, 'fb'), tripDir: path.join(dir, 'trip'), assetsDir: path.join(dir, 'assets'), accounts });
+  const srv = await startServer({ port: 0, root: FIX, feedbackDir: path.join(dir, 'fb'), tripDir: path.join(dir, 'trip'), assetsDir: path.join(dir, 'assets'), accounts, ...extra });
   const req = (u, o = {}) => fetch(srv.url + u, { redirect: 'manual', ...o });
   const json = (body, cookie) => ({ method: 'POST', headers: { 'Content-Type': 'application/json', ...(cookie ? { cookie } : {}) }, body: JSON.stringify(body) });
   const login = async (username, password) => { const r = await req('login', json({ username, password })); return { status: r.status, set: r.headers.get('set-cookie'), body: await r.json() }; };
@@ -338,4 +338,27 @@ test('hosted mode: no guest password means no guest account; a new password sign
     const st = await (await c.req('api/state')).json();
     assert.equal(st.role, null, 'no owner password: auth is off'); assert.equal(st.user, null);
   } finally { c.srv.server.close(); }
+});
+
+test('read-only mode: the owner signs in and reads, every write gets 503, nothing lands on disk', async () => {
+  const { dir, srv, req, json, login } = await hosted({ owner: OWNER, guest: GUEST }, { readOnly: true });
+  try {
+    const own = await login('eliton', OWNER.password);
+    assert.equal(own.status, 200, 'sign-in still works');
+    const cookie = own.set.split(';')[0];
+    const st = await (await req('api/state', { headers: { cookie } })).json();
+    assert.equal(st.role, 'owner'); assert.ok(st.places.length);
+    assert.equal((await req('api/trip', { headers: { cookie } })).status, 200);
+    const writes = {
+      'api/swipe': { round: 'place', id: st.places[0].id, verdict: 'must' }, 'api/note': { round: 'place', id: st.places[0].id, text: 'x' },
+      'api/trip': { col: 'tasks', op: 'set', id: 'ro', data: { title: 'x' } }, 'api/local': { resetDays: true },
+    };
+    for (const [u, body] of Object.entries(writes)) {
+      const r = await req(u, json(body, cookie));
+      assert.equal(r.status, 503, `owner POST ${u}`);
+      assert.match((await r.json()).error, /read-only/);
+    }
+    assert.equal(fs.existsSync(path.join(dir, 'fb')) ? fs.readdirSync(path.join(dir, 'fb')).length : 0, 0, 'no feedback file, not even the first-seen state');
+    assert.equal(fs.existsSync(path.join(dir, 'trip', 'tasks.json')), false);
+  } finally { srv.server.close(); }
 });
