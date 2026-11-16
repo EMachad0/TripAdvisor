@@ -33,12 +33,17 @@ interface Container {
 	created: string;
 	image: string;
 	health: 'healthy' | 'starting' | 'unhealthy' | 'none';
+	/** The image reference the container was started from (docker's .Config.Image), e.g. `<uuid>:<commit>`. */
+	ref?: string;
 }
 /** The docker world the stub reports: running containers and each image's env. */
 function world(containers: Container[], images: Record<string, string[]>): void {
 	write('docker/ps', containers.map((c) => `${c.id} ${c.name}\n`).join(''));
 	for (const c of containers) {
-		write(`docker/inspect/${c.id}`, `${c.created} /${c.name} ${c.image} ${c.health}\n`);
+		write(
+			`docker/inspect/${c.id}`,
+			`${c.created} /${c.name} ${c.image} ${c.health} ${c.ref ?? ''}\n`,
+		);
 	}
 	for (const [image, env] of Object.entries(images)) {
 		write(`docker/images/${image}`, env.map((e) => `${e}\n`).join(''));
@@ -276,6 +281,23 @@ void test('an image without GIT_SHA fails with backoff and never deploys', () =>
 	assert.match(r.out, /has no usable GIT_SHA/);
 	assert.equal(runs(), 0);
 	assert.deepEqual(run({ now: T0 + 30 }), { status: 0, out: '' });
+});
+
+void test('a Coolify image (GIT_SHA empty in the image) takes the commit from its tag', () => {
+	world([{ ...app('c1', 'sha256:img1', '2026-11-16T10:00:00Z'), ref: `${UUID}:${SHA_A}` }], {
+		'sha256:img1': ['GIT_SHA='],
+	});
+	const r = run();
+	assert.equal(r.status, 0);
+	assert.equal(runs(), 1);
+	assert.equal(read('state/deployed-sha').trim(), SHA_A);
+	// A tag that is not a commit (latest) is not trusted.
+	fs.rmSync(p('state/deployed-sha'));
+	world([{ ...app('c2', 'sha256:img1', '2026-11-16T11:00:00Z'), ref: `${UUID}:latest` }], {
+		'sha256:img1': ['GIT_SHA='],
+	});
+	assert.equal(run().status, 1);
+	assert.equal(runs(), 1);
 });
 
 void test('a held lock skips the run; a stale one is taken over', () => {

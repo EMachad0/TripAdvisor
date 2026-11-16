@@ -8,8 +8,9 @@
 #   deploy/convex-deploy/convex-deploy.sh --state DIR  another state dir (default /var/lib/atr-convex-deploy)
 #
 # One tick: find the running containers named <APP_UUID>-… (Coolify's trip-web), take the newest one, wait while it
-# is not healthy yet (mid-rollout), read GIT_SHA from its IMAGE's env (not the container's: that holds the runtime
-# secrets), and compare it with <state>/deployed-sha. When they differ, run `convex deploy` from that same image
+# is not healthy yet (mid-rollout), read the commit from its IMAGE (GIT_SHA in the image's env, else the image tag:
+# Coolify tags each build <app uuid>:<commit> and sets GIT_SHA only at run time; the container's env is never read,
+# it holds the runtime secrets), and compare it with <state>/deployed-sha. When they differ, run `convex deploy` from that same image
 # (`docker run --rm <image id>`), so the functions always come from the commit the live app was built from. The
 # image carries src/convex, convex.json, the pinned convex CLI and everything the functions import.
 #
@@ -82,7 +83,7 @@ fi
 printf '%s\n' "$$" >"$LOCK/pid"
 trap 'rm -rf "$LOCK"' EXIT
 
-# The newest running <APP_UUID>-… container: "<created> <name> <image id> <health>".
+# The newest running <APP_UUID>-… container: "<created> <name> <image id> <health> <image ref>".
 newest_app_container() {
 	local ids=() id name
 	while read -r id name; do
@@ -90,7 +91,7 @@ newest_app_container() {
 	done < <(docker ps --no-trunc --format '{{.ID}} {{.Names}}')
 	[[ ${#ids[@]} -gt 0 ]] || return 0
 	docker inspect --format \
-		'{{.Created}} {{.Name}} {{.Image}} {{if .State.Health}}{{.State.Health.Status}}{{else}}none{{end}}' \
+		'{{.Created}} {{.Name}} {{.Image}} {{if .State.Health}}{{.State.Health.Status}}{{else}}none{{end}} {{.Config.Image}}' \
 		"${ids[@]}" | sort | tail -n 1
 }
 
@@ -120,7 +121,7 @@ if [[ -z "$line" ]]; then
 	log "no running container named $APP_UUID-…; nothing to do"
 	exit 0
 fi
-read -r _created name image health <<<"$line"
+read -r _created name image health image_ref <<<"$line"
 name="${name#/}"
 case "$health" in
 	healthy | none) ;;
@@ -128,6 +129,8 @@ case "$health" in
 esac
 
 sha="$(image_git_sha "$image")"
+# Coolify builds without the GIT_SHA build argument and tags the image <app uuid>:<commit>.
+if [[ -z "$sha" && "${image_ref:-}" == *:* ]]; then sha="${image_ref##*:}"; fi
 deployed="$(cat "$DEPLOYED_FILE" 2>/dev/null || true)"
 if [[ ! "$sha" =~ ^[0-9a-f]{7,40}$ ]]; then
 	# Keyed by image so a bad image backs off like a failed deploy, and a new image retries at once.
@@ -136,7 +139,7 @@ if [[ ! "$sha" =~ ^[0-9a-f]{7,40}$ ]]; then
 		read -r f_sha f_attempts f_at <"$FAILURES_FILE" || true
 		[[ "$f_sha" == "$key" && $NOW -lt $((f_at + $(backoff_seconds "$f_attempts"))) ]] && exit 0
 	fi
-	record_failure "$key" "image of $name has no usable GIT_SHA (build it with --build-arg GIT_SHA=<commit>)"
+	record_failure "$key" "image of $name has no usable GIT_SHA and no commit in its tag (build it with --build-arg GIT_SHA=<commit>)"
 fi
 
 [[ $FORCE -eq 1 || "$sha" != "$deployed" ]] || exit 0
