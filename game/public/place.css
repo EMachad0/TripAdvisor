@@ -1,5 +1,0 @@
-/* Game additions to a place or area page: embed tweaks. The answer cards are styled in atr.css (.qa). */
-html[data-embed="1"] .topbar { display: none; }
-html[data-embed="1"] .site-foot { padding-bottom: 96px; }
-.qa-sec { scroll-margin-top: 24px; }
-@media print { .qa__more { display: block; } }

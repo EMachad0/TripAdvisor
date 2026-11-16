@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Curator platform (schema, renderer, CLI). Plain JS ESM; the root package.json still installs its dependencies for the old image (npm ci).",
+  "description": "Curator platform (schema, renderer, CLI). Plain JS ESM.",
   "exports": {
     ".": "./lib/index.js",
     "./content": "./lib/load.js",
@@ -11,6 +11,9 @@
     "./publish": "./lib/publish.js",
     "./lib/*": "./lib/*",
     "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\""
   },
   "dependencies": {
     "@fontsource/fraunces": "catalog:",

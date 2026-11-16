@@ -1,5 +1,5 @@
 // Workspace lint gate (plan section 9). Plugins are declared in tooling/package.json and reach this file through
-// pnpm publicHoistPattern. platform/ and game/ stay outside lint until they are retired or ported.
+// pnpm publicHoistPattern. platform/ (plain JS, node --test) stays outside lint.
 import convexPlugin from '@convex-dev/eslint-plugin';
 import js from '@eslint/js';
 import { plugin as shadcn } from '@shadcn/lint';
@@ -30,7 +30,6 @@ export default defineConfig(
 			'**/_generated/**',
 			'**/node_modules/',
 			'platform/**',
-			'game/**',
 			'apps/web/static/**',
 			// the place/area page embed glue: plain no-build browser JS, served by routes/embed (was static/embed)
 			'apps/web/embed/**',

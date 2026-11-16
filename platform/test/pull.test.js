@@ -201,7 +201,7 @@ test('the keychain is read with security(1), the token never on its command line
   assert.equal(calls.length, 1);
 });
 
-test('after a pull, read-only commands use .cache/feedback-live, ./atr game still writes <root>/feedback', async () => {
+test('after a pull, read-only commands use .cache/feedback-live; dataRoots().feedback stays <root>/feedback', async () => {
   served = bundle({ swipes: 3 });
   const root = tmpDir();
   fs.mkdirSync(path.join(root, 'feedback'));
@@ -215,7 +215,7 @@ test('after a pull, read-only commands use .cache/feedback-live, ./atr game stil
   assert.equal((await atr(root, ['feedback', 'pull', '--from-convex', '--url', base])).status, 0);
   const after = JSON.parse(probe().stdout);
   assert.equal(after.ro, live(root));
-  assert.equal(after.game, path.join(root, 'feedback'), 'dataRoots().feedback (what ./atr game writes) is unchanged');
+  assert.equal(after.game, path.join(root, 'feedback'), 'dataRoots().feedback is unchanged');
   assert.notEqual(after.fx, live(root), 'fixture mode keeps the fixtures');
   assert.equal(JSON.parse(probe({ ATR_FEEDBACK_DIR: '/x/y' }).stdout).ro, '/x/y');
 

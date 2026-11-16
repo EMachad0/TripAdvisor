@@ -408,24 +408,6 @@ cmd('preview', {
   },
 });
 
-// ───────────────────────── game ─────────────────────────
-cmd('game', {
-  summary: 'run the trip site locally (today, itinerary, places, answers, the ranking game, money, prep)',
-  usage: './atr game [--port 4400] [--open] [--fixtures] [--root <data dir>] [--feedback <dir>]',
-  details: 'Starts a local server on a free port and prints the URL. Re-reads places/ and areas/ on every request, so new curator content appears on refresh (marked "New"). Writes feedback/*.jsonl (docs/FEEDBACK-FORMAT.md) and feedback/game-state.json.',
-  options: { port: { type: 'string', desc: 'preferred port (default 4400, else any free port)' }, open: { type: 'boolean', desc: 'open the browser' }, root: { type: 'string', desc: 'another data root (places/ areas/ feedback/), e.g. game/test/fixtures' }, feedback: { type: 'string', desc: 'feedback directory (default <data root>/feedback)' } },
-  examples: ['./atr game', './atr game --open', './atr game --root game/test/fixtures --feedback /tmp/atr-fb'],
-  async run(o) {
-    const { main: game } = await import('../../game/server.js');
-    const args = [];
-    if (o.port) args.push('--port', o.port);
-    if (o.open) args.push('--open');
-    if (o.root) args.push('--root', o.root);
-    if (o.feedback) args.push('--feedback', o.feedback);
-    await game(args);
-  },
-});
-
 // ───────────────────────── shot ─────────────────────────
 cmd('shot', {
   summary: 'screenshot a place page (PNG) so you can check it visually',
@@ -573,7 +555,7 @@ cmd('feedback', {
 cmd('run', {
   summary: 'run a headless curator (claude -p) on a task, looping validate → fix until clean',
   usage: './atr run "<task>" [--max-rounds 3] [--dry-run] [--model <m>] [--effort low|medium|high] [--max-budget-usd N] [--fixtures]\n       ./atr run --auto [N] [--country <id>] [--dry-run] …   (top N tasks from ./atr next, default 1)',
-  details: 'Appends docs/CURATOR-GUIDE.md to the system prompt; allows Read, Write, Edit, Bash, WebSearch, WebFetch, Glob, Grep, Agent (subagents) and ToolSearch; denies edits to platform/, docs/, config/, feedback/, game/. After a clean validate it checks the links of the pages the session changed (dead links go back to the session) and runs one independent reviewer session per changed place (./atr review); findings go back to the session once (--review-rounds), then those places are reviewed again. Logs everything to runs/<timestamp>/ (summary.json lists the place/area ids created or changed). Files outside places/ and areas/ that the session itself wrote are reported as violations; files that changed meanwhile for another reason are listed apart.\n--auto runs the top N tasks of ./atr next one after another, each in its own session and runs/ folder, recomputing the list between tasks.',
+  details: 'Appends docs/CURATOR-GUIDE.md to the system prompt; allows Read, Write, Edit, Bash, WebSearch, WebFetch, Glob, Grep, Agent (subagents) and ToolSearch; denies edits to platform/, docs/, config/, feedback/ and the app code. After a clean validate it checks the links of the pages the session changed (dead links go back to the session) and runs one independent reviewer session per changed place (./atr review); findings go back to the session once (--review-rounds), then those places are reviewed again. Logs everything to runs/<timestamp>/ (summary.json lists the place/area ids created or changed). Files outside places/ and areas/ that the session itself wrote are reported as violations; files that changed meanwhile for another reason are listed apart.\n--auto runs the top N tasks of ./atr next one after another, each in its own session and runs/ folder, recomputing the list between tasks.',
   options: { 'no-links': { type: 'boolean', desc: 'skip the link check of changed pages' }, 'no-review': { type: 'boolean', desc: 'skip the independent review of changed places' }, 'review-rounds': { type: 'string', desc: 'times review findings go back to the curator (default 1)' }, auto: { type: 'boolean', desc: 'take the task(s) from ./atr next; optional count as the positional: --auto 3' }, country: { type: 'string', desc: '--auto: only tasks for this country' }, 'max-rounds': { type: 'string', desc: 'max claude rounds (default 3)' }, 'dry-run': { type: 'boolean', desc: 'print the command, run nothing' }, model: { type: 'string', desc: 'claude model alias (e.g. sonnet, opus)' }, effort: { type: 'string', desc: 'effort level (default medium)' }, 'max-budget-usd': { type: 'string', desc: 'per-round spend cap' }, 'timeout-min': { type: 'string', desc: 'per-round timeout in minutes (default 60)' } },
   examples: ['./atr run "add 5 nightlife places in Seoul" --dry-run', './atr run --auto 3 --dry-run', './atr run --auto', './atr run "process new feedback: read ./atr feedback and add 3 places matching the taste"'],
   async run(o, pos) {

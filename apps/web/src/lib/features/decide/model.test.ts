@@ -1,7 +1,4 @@
-// Slice F model: the Decide maths against the old client (game.js counts, viewHome, duels, board, holidays) and,
-// for the pairing, against game/lib/pairing.js itself run with the same random numbers.
-import path from 'node:path';
-import { pathToFileURL } from 'node:url';
+// Slice F model: the Decide maths against the old client (game.js counts, viewHome, duels, board, holidays).
 import { describe, expect, test, vi } from 'vitest';
 import type { ContentCountry } from '#lib/content/types.js';
 import type { VerdictMap } from '#lib/features/cards/model.js';
@@ -36,8 +33,6 @@ import {
 	type DecidePlace,
 	type Duel,
 } from './model.ts';
-
-const ROOT = path.resolve(import.meta.dirname, '../../../../../..');
 
 function place(id: string, over: Partial<DecidePlace> = {}): DecidePlace {
 	return {
@@ -121,7 +116,7 @@ const COUNTRIES: ContentCountry[] = [
 	},
 ];
 
-/** A seeded generator, so the old and the new pickPair see the same numbers. */
+/** A seeded generator, so a pairing test sees the same numbers on every run. */
 function seeded(seed: number): () => number {
 	let s = seed;
 	return () => {
@@ -248,31 +243,6 @@ describe('duels', () => {
 		]);
 		expect(effectiveFilter(pool, 'korea')).toBe('korea');
 		expect(effectiveFilter(pool, 'hong-kong')).toBe('mix');
-	});
-
-	test('nextPair picks exactly what game/lib/pairing.js picks with the same random numbers', async () => {
-		type OldPick = (
-			pool: readonly { id: string; country: string }[],
-			ratings: ReadonlyMap<string, unknown>,
-			history: readonly Duel[],
-			opts: Record<string, unknown>,
-		) => [{ id: string }, { id: string }] | null;
-		const old = (await import(pathToFileURL(path.join(ROOT, 'game/lib/pairing.js')).href)) as {
-			pickPair: OldPick;
-		};
-		const ps = joined(raw, calls, duels);
-		const pool = duelPool(ps);
-		const ratings = ratingsOf(verdictMap(calls), duels);
-		for (const filter of ['mix', 'korea', 'china']) {
-			for (let seed = 1; seed <= 40; seed++) {
-				const mine = nextPair(pool, ratings, duels, filter, seeded(seed));
-				const theirs = old.pickPair(pool, ratings, duels, {
-					rng: seeded(seed),
-					...(filter === 'mix' ? {} : { country: filter }),
-				});
-				expect(mine).toEqual(theirs === null ? null : [theirs[0].id, theirs[1].id]);
-			}
-		}
 	});
 
 	test('a country filter keeps both sides in that country; pairStands follows the pool', () => {
