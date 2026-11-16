@@ -1,55 +1,17 @@
 // Where the hosted trip site lives (docs/DEPLOY.md). The one place the publish and pull commands read it from.
 //
-// Two apps, one switch (docs/MIGRATION-PLAN.md section 7):
-// - `old`: game/server.js on Coolify (`trip-site`). Its /healthz answers {"ok":true}, with no commit sha.
-// - `new`: the SvelteKit app (`trip-web`) with its Convex backend. Its /healthz answers {ok, sha}, so a publish
-//   waits until the site serves the merged commit; the curator export (GET /ops/export) is on the Convex site.
-// ACTIVE_SITE is 'new' since the cutover of 2026-11-16; the old app stays read-only at old.<site> as the fallback. ATR_SITE=old|new overrides it for one command
-// (a dry run or a test); it changes which links are printed and what a publish waits for, nothing else.
-export const SITES = {
-  old: {
-    name: 'old',
-    url: 'https://old.trip.187.53.115.237.sslip.io',
-    /** SSH login on the VPS; used read-only to follow a deploy (never to start one). */
-    ssh: 'root@187.53.115.237',
-    /** Coolify application id of the trip site. */
-    coolifyApp: 'zoom1ixd7gj2y4snw6oculrb',
-    /** The branch Coolify deploys. */
-    branch: 'main',
-    /** /healthz reports the deployed commit sha. */
-    healthSha: false,
-    /** Path of one answer card on the Answers page. */
-    answerPath: (id) => `/#/answers/${encodeURIComponent(id)}`,
-  },
-  new: {
-    name: 'new',
-    url: 'https://trip.187.53.115.237.sslip.io',
-    ssh: 'root@187.53.115.237',
-    // `trip-web` is Coolify app xbgdnounik78nabmkmecl45d. Left null on purpose: /healthz reports the deployed
-    // commit, so a publish follows that and nothing goes over ssh.
-    coolifyApp: null,
-    branch: 'main',
-    healthSha: true,
-    answerPath: (id) => `/places/answers/${encodeURIComponent(id)}`,
-    /** The Convex site origin (HTTP actions) that serves GET /ops/export: cvx.<site> (plan section 12). */
-    exportUrl: 'https://cvx.trip.187.53.115.237.sslip.io',
-  },
+// The site is the SvelteKit app (`trip-web`) with its self-hosted Convex backend. Its /healthz answers {ok, sha}, so
+// a publish waits until the site serves the merged commit; the curator export (GET /ops/export) is on the Convex site.
+// The old app (game/server.js, `trip-site`) was retired after the cutover of 2026-11-16.
+export const SITE = {
+  url: 'https://trip.187.53.115.237.sslip.io',
+  /** The branch Coolify deploys (`trip-web`, app xbgdnounik78nabmkmecl45d). */
+  branch: 'main',
+  /** Path of one answer card on the Answers page. */
+  answerPath: (id) => `/places/answers/${encodeURIComponent(id)}`,
+  /** The Convex site origin (HTTP actions) that serves GET /ops/export: cvx.<site> (plan section 12). */
+  exportUrl: 'https://cvx.trip.187.53.115.237.sslip.io',
 };
-
-/** The app the CLI talks to. A rollback PR changes this one word back to 'old'. */
-export const ACTIVE_SITE = 'new';
-
-/** The active app's name: ATR_SITE when it names an app, else ACTIVE_SITE. */
-export function activeSiteName(env = process.env) {
-  const asked = env.ATR_SITE;
-  return asked && Object.hasOwn(SITES, asked) ? asked : ACTIVE_SITE;
-}
-
-/** The settings of the active app (see SITES). */
-export const siteSettings = (env = process.env) => SITES[activeSiteName(env)];
-
-/** The active app's settings, read once at load. */
-export const SITE = siteSettings();
 
 /** Link to one answer card on the Answers page. */
 export const answerLink = (id, site = SITE) => `${site.url}${site.answerPath(id)}`;

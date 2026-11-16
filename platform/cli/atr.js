@@ -60,15 +60,13 @@ async function readFeedbackDir(o) {
 
 /** ./atr feedback pull, ./atr trip pull: the export bundle from the site into .cache/<kind>-live/ (lib/feedback/pull.js). */
 async function pullCmd(kind, o) {
-  const { pull, pullSource } = await import('../lib/feedback/pull.js');
-  const source = pullSource({ fromConvex: o['from-convex'], fromBackup: o['from-backup'] });
-  const r = await pull({ kind, url: o.url, source, cacheDir: dataRoots().cache });
+  const { pull } = await import('../lib/feedback/pull.js');
+  const r = await pull({ kind, url: o.url, cacheDir: dataRoots().cache });
   out(o, r, `${c.green('✔')} pulled ${r.files.length} file(s) into ${nameOf(r.dir)} (export of ${r.generatedAt ?? 'unknown time'}): ${r.files.map((f) => `${f.name} ${f.count}`).join(', ') || 'none'}`);
 }
 const PULL_OPTION = {
-  'from-convex': { type: 'boolean', desc: 'pull: from the new site\'s backend (GET /ops/export; before the cutover the shadow copy); token from ATR_EXPORT_TOKEN or the keychain' },
-  'from-backup': { type: 'boolean', desc: 'pull: from the old site\'s backup (not available in this checkout)' },
-  url: { type: 'string', desc: 'pull --from-convex: the Convex site that serves /ops/export (default ATR_EXPORT_URL, else the new site\'s)' },
+  'from-convex': { type: 'boolean', desc: 'pull: from the site\'s backend (GET /ops/export; the only source, so the default); token from ATR_EXPORT_TOKEN or the keychain' },
+  url: { type: 'string', desc: 'pull --from-convex: the Convex site that serves /ops/export (default ATR_EXPORT_URL, else the site\'s)' },
 };
 
 // ───────────────────────── new ─────────────────────────
@@ -883,7 +881,7 @@ cmd('answers', {
   usage: './atr answers [--country <c>] [--about <id>]          (list, newest first)\n       ./atr answers --check                              (validate every answer; exit 1 on errors)\n       ./atr answers --ids [--country <c>]                (the ids you can put in about:)\n       ./atr answers publish <file...> [--remove <file>]... [--no-merge] [--dry-run]',
   details: `One Markdown file per answer: answers/<asked>-<short-slug>.md with front matter question, asked (YYYY-MM-DD), about (a place id, an area id, a country id or "trip"), tldr, optional sources [{ title, url }] and updated; the body is the full answer (may be empty). Workflow: .claude/skills/trip-answers/SKILL.md.
 
-publish validates the files, makes a temporary git worktree from a fresh origin/main (your working tree is never touched), copies only those files in (--remove deletes one), commits, pushes a branch, opens a pull request with gh, merges it (merge commit), removes the worktree and the branch, then follows the deploy over SSH (read-only) and checks /healthz; on the new site it waits until /healthz reports the merge commit (platform/lib/site.js picks the site). --no-merge stops after opening the PR; --dry-run only validates and prints the plan.`,
+publish validates the files, makes a temporary git worktree from a fresh origin/main (your working tree is never touched), copies only those files in (--remove deletes one), commits, pushes a branch, opens a pull request with gh, merges it (merge commit), removes the worktree and the branch, then waits until the site's /healthz reports the merge commit (platform/lib/site.js has the site). --no-merge stops after opening the PR; --dry-run only validates and prints the plan.`,
   options: { check: { type: 'boolean', desc: 'validate every answer file; exit 1 on errors' }, ids: { type: 'boolean', desc: 'list place, area and country ids for about:' }, country: { type: 'string', desc: 'only this country' }, about: { type: 'string', desc: 'list: only answers about this id' }, remove: { type: 'string', multiple: true, desc: 'publish: delete this answer from the site (repeatable)' }, 'no-merge': { type: 'boolean', desc: 'publish: stop after opening the pull request' }, 'dry-run': { type: 'boolean', desc: 'publish: validate and show the plan; nothing fetched, written or pushed' } },
   examples: ['./atr answers', './atr answers --check', './atr answers --ids --country japan', './atr answers publish answers/2026-11-21-yu-garden-passport.md', './atr answers publish --remove answers/2026-11-21-yu-garden-passport.md', './atr answers publish answers/2026-11-21-yu-garden-passport.md --dry-run'],
   async run(o, pos) {
