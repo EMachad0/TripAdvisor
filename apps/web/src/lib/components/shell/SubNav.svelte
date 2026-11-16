@@ -3,7 +3,6 @@
 	badge. Scrolls sideways on a phone and keeps the current page in view.
 -->
 <script lang="ts">
-	import { Badge } from '#lib/components/ui/badge/index.js';
 	import { cn } from '#lib/utils.js';
 
 	interface SubNavLink {
@@ -26,21 +25,25 @@
 </script>
 
 <!-- eslint-disable svelte/no-navigation-without-resolve -- the callers pass hrefs built with resolve() -->
-<nav aria-label={label} class="-mx-4 -mt-2 mb-6 overflow-x-auto px-4">
-	<div class="flex w-max min-w-full gap-1 border-b border-border">
+<nav aria-label={label} class="-mx-4 mb-5 no-scrollbar overflow-x-auto px-4 md:mb-7">
+	<div
+		class="inline-flex w-max gap-0.5 rounded-full border border-border/60 bg-muted/70 p-1 shadow-inset"
+	>
 		{#each links as l (l.href)}
 			<a
 				href={l.href}
 				aria-current={l.on ? 'page' : undefined}
 				class={cn(
-					'-mb-px inline-flex shrink-0 items-center gap-1.5 border-b-2 border-transparent px-3 py-2 text-sm font-medium whitespace-nowrap text-muted-foreground hover:text-foreground',
-					l.on && 'border-cat text-foreground',
+					'inline-flex h-8 shrink-0 items-center gap-1.5 rounded-full px-3.5 text-sm font-medium whitespace-nowrap text-muted-foreground transition-colors duration-200 hover:text-foreground',
+					l.on && 'bg-card text-foreground shadow-flat ring-1 ring-border/70',
 				)}
 				{@attach l.on ? keepInView : undefined}
 			>
 				{l.label}
 				{#if (l.badge ?? 0) > 0}
-					<Badge variant="secondary">{(l.badge ?? 0) > 99 ? '99+' : l.badge}</Badge>
+					<span class={cn('count', !l.on && 'count-quiet')}
+						>{(l.badge ?? 0) > 99 ? '99+' : l.badge}</span
+					>
 				{/if}
 			</a>
 		{/each}

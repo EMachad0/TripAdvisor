@@ -5,3 +5,5 @@ A Node trip-planner site and curator platform for a solo backpacking trip throug
 When the user asks a question about the trip, answer it here, then publish the answer as a card on the site with the `trip-answers` skill (`.claude/skills/trip-answers/SKILL.md`).
 
 When the user asks for a new card (a place, stay or area page under `places/` or `areas/`), ship it without asking: once the curator's page passes `./atr validate`, put it on a branch from `origin/main` (a worktree, only that card's files plus its `reviews/<id>.yaml`), open a pull request, merge it, and check `/healthz` reports the merge commit. The user never reviews cards locally, so a card is not done until it is live. Never push to `main` directly.
+
+Before changing anything a person sees in `apps/web`, read `docs/DESIGN.md`: the four target screens (Galaxy Z Fold 8 Ultra inner and cover, MacBook Pro 14, 27 inch 1440p monitor), the breakpoints and the visual language. Never add tests that pin design or one device's layout.

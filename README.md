@@ -18,6 +18,7 @@ The game produces a **ranking**, not a schedule. The ranking is the input for de
 | [docs/FEEDBACK-FORMAT.md](docs/FEEDBACK-FORMAT.md) | JSONL feedback files the game writes (swipes, duels, notes, route; questions is history) |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | Decisions made while building the platform |
 | [docs/TASTE.md](docs/TASTE.md) | What the traveler said they want; the machine-readable copy is `config/taste.yaml` |
+| [docs/DESIGN.md](docs/DESIGN.md) | The four target screens (Fold inner and cover, MacBook, monitor), breakpoints and the visual language |
 | [docs/REVIEWER-GUIDE.md](docs/REVIEWER-GUIDE.md) | Brief for the independent reviewer that fact-checks curator pages (`./atr review`) |
 | [docs/DEPLOY.md](docs/DEPLOY.md) | The hosted site: where it runs, what lives where, how a change ships |
 | [docs/migration/DEV.md](docs/migration/DEV.md) | Working on the app: install, local Convex, dev server, tests, e2e |

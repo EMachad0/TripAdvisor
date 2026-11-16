@@ -37,18 +37,25 @@
 	color-scheme: light;
 
 	/* old site names (atr.css) */
-	--bg: #f8f4ec;
-	--surface: #fffdf9;
-	--surface-2: #f1ebe0;
-	--ink: #1d1a16;
-	--ink-2: #4a443b;
-	--ink-3: #6f675b;
-	--line: #e4dccd;
+	--bg: #f6f1e8;
+	--surface: #fffdfa;
+	--surface-2: #efe8dc;
+	--ink: #1b1814;
+	--ink-2: #453f37;
+	--ink-3: #6b6358;
+	--line: #e3dacb;
 	--cool: #e7eef3;
 	--ok: #2e7d4f;
 	--warn: #a05a00;
-	--elev-1: 0 1px 2px rgb(40 30 10 / 0.05), 0 12px 32px -12px rgb(40 30 10 / 0.18);
+	--elev-0: 0 1px 1px rgb(40 30 10 / 0.04), 0 2px 6px -2px rgb(40 30 10 / 0.06);
+	--elev-1: 0 1px 2px rgb(40 30 10 / 0.05), 0 10px 28px -12px rgb(40 30 10 / 0.16);
 	--elev-2: 0 2px 4px rgb(40 30 10 / 0.06), 0 30px 60px -20px rgb(40 30 10 / 0.28);
+	/* The page backdrop: two soft washes of the accent and a cool note over the paper colour. */
+	--wash-1: rgb(214 126 84 / 0.1);
+	--wash-2: rgb(92 138 170 / 0.08);
+	/* Floating chrome (phone tab bar, sticky bars): the surface, see-through, blurred behind. */
+	--glass: rgb(255 253 250 / 0.78);
+	--glass-line: rgb(60 45 20 / 0.1);
 
 	/* verdicts and notes (game.css) */
 	--must: #2e7d4f;
@@ -91,7 +98,7 @@
 	--chart-3: var(--k3);
 	--chart-4: var(--k4);
 	--chart-5: var(--k5);
-	--radius: 0.75rem;
+	--radius: 0.875rem;
 	--sidebar: var(--surface);
 	--sidebar-foreground: var(--ink);
 	--sidebar-primary: var(--cat);
@@ -205,6 +212,7 @@
 
 	--ease-soft: cubic-bezier(0.2, 0.8, 0.2, 1);
 	--ease-spring: cubic-bezier(0.2, 1.3, 0.4, 1);
+	--shadow-flat: var(--elev-0);
 	--shadow-soft: var(--elev-1);
 	--shadow-big: var(--elev-2);
 
@@ -277,6 +285,25 @@
 	--radius-4xl: calc(var(--radius) * 2.6);
 }
 
+/*
+ * Breakpoints follow the four target screens (docs/DESIGN.md), not Tailwind's defaults:
+ *   base        the Fold's cover screen and other phones (about 360 to 430 px wide)
+ *   md  704 px  the Fold's inner screen (about 750 to 860 px wide, nearly square): icon rail, two columns
+ *   xl  1280 px laptops (MacBook Pro 14 at 1512 px): full sidebar, two or three columns
+ *   3xl 1920 px the 27 inch 1440p monitor (2560 px): wider page, one more column
+ * md is lowered from 768 px so the unfolded phone never falls back to the phone layout.
+ */
+@theme {
+	--breakpoint-md: 44rem;
+	--breakpoint-3xl: 120rem;
+
+	/* Two sizes under text-xs, for tab labels, count bubbles and eyebrows. Nothing a person must read to act. */
+	--text-2xs: 0.6875rem;
+	--text-2xs--line-height: 1rem;
+	--text-3xs: 0.625rem;
+	--text-3xs--line-height: 0.875rem;
+}
+
 @layer base {
 	* {
 		@apply border-border outline-ring/50;
@@ -289,8 +316,152 @@
 	body {
 		@apply bg-background text-foreground antialiased;
 		font-feature-settings: 'ss01', 'cv11';
+		background-image:
+			radial-gradient(60rem 40rem at 100% -10%, var(--wash-1), transparent 70%),
+			radial-gradient(50rem 36rem at -10% 110%, var(--wash-2), transparent 70%);
+		background-attachment: fixed;
+		-webkit-tap-highlight-color: transparent;
+	}
+	h1,
+	h2,
+	h3 {
+		text-wrap: balance;
+	}
+	::selection {
+		background: color-mix(in oklch, var(--cat) 22%, transparent);
 	}
 	:where([lang|='zh'], [lang|='ja'], [lang|='ko'], [lang|='th']) {
 		@apply font-cjk;
+	}
+}
+
+/* ---------------------------------------------------------------- shared recipes (docs/DESIGN.md) */
+
+/* Floating chrome: see-through surface with the page blurred behind it. */
+@utility glass {
+	background: var(--glass);
+	border: 1px solid var(--glass-line);
+	backdrop-filter: blur(18px) saturate(1.5);
+	-webkit-backdrop-filter: blur(18px) saturate(1.5);
+}
+
+/* The standard raised surface: every card, panel and list block. */
+@utility panel {
+	background: var(--card);
+	border: 1px solid color-mix(in oklch, var(--line) 80%, transparent);
+	border-radius: var(--radius-2xl);
+	box-shadow: var(--elev-0);
+}
+
+/* A panel that lifts when hovered or focused (links and buttons that are whole cards). */
+@utility panel-lift {
+	transition:
+		transform 0.25s var(--ease-soft),
+		box-shadow 0.25s var(--ease-soft),
+		border-color 0.25s var(--ease-soft);
+	@media (hover: hover) {
+		&:hover {
+			transform: translateY(-2px);
+			box-shadow: var(--elev-1);
+			border-color: color-mix(in oklch, var(--cat) 35%, var(--line));
+		}
+	}
+	&:active {
+		transform: translateY(0) scale(0.99);
+	}
+}
+
+/* Small caps label above a title or a group. */
+@utility eyebrow {
+	font-size: 0.6875rem;
+	line-height: 1rem;
+	font-weight: 600;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	color: var(--ink-3);
+}
+
+/* Numbers that line up (prices, dates, counts). */
+@utility nums {
+	font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Page widths. `page` is the default reading width; `page-wide` is for boards, maps and dashboards. */
+@utility page {
+	margin-inline: auto;
+	width: 100%;
+	max-width: 72rem;
+}
+@utility page-wide {
+	margin-inline: auto;
+	width: 100%;
+	max-width: 104rem;
+}
+@utility page-narrow {
+	margin-inline: auto;
+	width: 100%;
+	max-width: 46rem;
+}
+
+/* Phone safe areas (notch, gesture bar): padding and offsets that never go under them. */
+@utility pt-safe {
+	padding-top: env(safe-area-inset-top);
+}
+@utility pb-safe {
+	padding-bottom: env(safe-area-inset-bottom);
+}
+@utility bottom-safe {
+	bottom: max(0.625rem, env(safe-area-inset-bottom));
+}
+
+/* A count bubble on a tab or chip (plain element; Badge is for status words). */
+@utility count {
+	display: inline-grid;
+	place-items: center;
+	min-width: 1.125rem;
+	height: 1.125rem;
+	padding-inline: 0.3rem;
+	border-radius: 999px;
+	font-size: 0.625rem;
+	line-height: 1;
+	font-weight: 700;
+	font-variant-numeric: tabular-nums;
+	background: var(--cat);
+	color: var(--primary-foreground);
+}
+@utility count-quiet {
+	background: color-mix(in oklch, var(--foreground) 10%, transparent);
+	color: var(--foreground);
+}
+
+/* The brand tile and other accent fills: the accent, a little darker towards the bottom right. */
+@utility bg-accent-fill {
+	background: linear-gradient(135deg, var(--cat), color-mix(in oklch, var(--cat), black 22%));
+	color: var(--primary-foreground);
+}
+
+/* A pressed-in track (segmented controls, progress tracks). */
+@utility shadow-inset {
+	box-shadow: inset 0 1px 2px rgb(40 30 10 / 0.06);
+}
+
+/* Horizontal scrollers without a visible scrollbar (chip rows, sub navigation). */
+@utility no-scrollbar {
+	scrollbar-width: none;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+/* Route changes cross-fade (src/routes/+layout.svelte starts the view transition). */
+::view-transition-old(root),
+::view-transition-new(root) {
+	animation-duration: 0.14s;
+	animation-timing-function: var(--ease-soft);
+}
+@media (prefers-reduced-motion: reduce) {
+	::view-transition-old(root),
+	::view-transition-new(root) {
+		animation: none;
 	}
 }
