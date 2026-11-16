@@ -224,14 +224,14 @@ test('followDeploy without a Coolify app id does not ssh', async () => {
   assert.match(r.detail, /no Coolify app id/);
 });
 
-/** A bare origin and a clone holding the game fixtures (places, areas, answers); gh is stubbed, ssh must not run. */
+/** A bare origin and a clone holding the site fixtures (places, areas, answers); gh is stubbed, ssh must not run. */
 function fakeRepo() {
   const dir = tmpDir();
   const git = (cwd, ...args) => { const r = spawnSync('git', ['-C', cwd, ...args], { encoding: 'utf8' }); assert.equal(r.status, 0, r.stderr); return r.stdout.trim(); };
   const origin = path.join(dir, 'origin.git'), work = path.join(dir, 'work');
   git(dir, 'init', '-q', '--bare', '-b', 'main', origin);
   git(dir, 'clone', '-q', origin, work);
-  for (const d of ['places', 'areas', 'answers']) fs.cpSync(path.join(REPO, 'game/test/fixtures', d), path.join(work, d), { recursive: true });
+  for (const d of ['places', 'areas', 'answers']) fs.cpSync(path.join(PLATFORM, 'test/site-fixtures', d), path.join(work, d), { recursive: true });
   git(work, 'config', 'user.name', 't'); git(work, 'config', 'user.email', 't@t');
   git(work, 'add', '-A'); git(work, 'commit', '-q', '-m', 'seed'); git(work, 'push', '-q', 'origin', 'main');
   const calls = [];

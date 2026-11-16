@@ -1,7 +1,7 @@
 // The e2e data set (plan section 10, packages/migrate/fixtures/e2e): a believable mid-game state with at least
 // one row in every data table. The feedback part ports seed() from game/tools/shots.js (same ids, verdicts, duels,
 // notes, question and game state, 2026-11-10T09:MM:00Z one minute apart, session s-shots), and adds a route per
-// country, one line with an x_ field and one swipe with ms. Ids match game/test/fixtures. The trip part covers all
+// country, one line with an x_ field and one swipe with ms. Ids match platform/test/site-fixtures. The trip part covers all
 // nine collections. Written by scripts/write-e2e-fixtures.ts; e2e.test.ts checks the files match.
 import { v1 } from '@atr/shared';
 import type { Json, JsonObject } from '../json.ts';

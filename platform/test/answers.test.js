@@ -1,5 +1,6 @@
-// Answer cards: the loader/validator (platform/lib/answers.js), the card renderer, the server (place/area section,
-// /api/answers, guest access, the removed Ask endpoints) and the publish command (temp repos, stubbed gh and ssh).
+// Answer cards: the loader/validator (lib/answers.js), the card renderer (lib/render/answers.js), the publish
+// command (lib/publish.js, on temp repos with gh and ssh stubbed) and `./atr answers`. Moved from the retired old
+// site's game/test/answers.test.js; the fixtures are platform/test/site-fixtures (the site's test places and cards).
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -7,14 +8,13 @@ import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { parseAnswer, validateAnswers, checkAnswers, siteAnswers, resolveAbout, loadAnswers } from '../../platform/lib/answers.js';
-import { renderAnswerCard, renderAnswersSection } from '../../platform/lib/render/answers.js';
-import { publishAnswers, describeChanges, followDeploy, PublishError, COMMIT_TRAILER, PR_FOOTER, sh } from '../../platform/lib/publish.js';
-import { ROOT } from '../../platform/lib/paths.js';
-import { SITES } from '../../platform/lib/site.js';
-import { startServer } from '../server.js';
+import { parseAnswer, validateAnswers, checkAnswers, siteAnswers, resolveAbout, loadAnswers } from '../lib/answers.js';
+import { renderAnswerCard, renderAnswersSection } from '../lib/render/answers.js';
+import { publishAnswers, describeChanges, followDeploy, PublishError, COMMIT_TRAILER, PR_FOOTER, sh } from '../lib/publish.js';
+import { ROOT } from '../lib/paths.js';
+import { SITES } from '../lib/site.js';
 
-const FIX = path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures');
+const FIX = path.join(path.dirname(fileURLToPath(import.meta.url)), 'site-fixtures');
 const tmp = () => fs.mkdtempSync(path.join(os.tmpdir(), 'atr-answers-test-'));
 const FX = { root: FIX, includeFixtures: true };
 const md = (fm, body = '') => `---\n${fm}\n---\n${body}`;
@@ -101,70 +101,6 @@ test('answer card: escapes the question, the body and the sources; folds the ful
   assert.match(renderAnswerCard(siteAnswers(FX)[0]), /Updated 24 Nov 2026/);
   assert.equal(renderAnswersSection([], { name: 'X' }), '');
   assert.match(renderAnswersSection([kyoto], { name: 'Kyoto' }), /<h2 class="h2">One answer about Kyoto<\/h2>/);
-});
-
-// ---------------- server ----------------
-async function withServer(fn, extra = {}) {
-  const dir = tmp();
-  const srv = await startServer({ port: 0, root: FIX, feedbackDir: path.join(dir, 'fb'), tripDir: path.join(dir, 'trip'), assetsDir: path.join(dir, 'assets'), ...extra });
-  try { await fn({ base: srv.url, dir }); } finally { srv.server.close(); }
-}
-
-test('server: place and area pages show their answers; pages without answers have no section; no Ask UI anywhere', async () => {
-  await withServer(async ({ base }) => {
-    const place = await (await fetch(`${base}place/harbin-ice-world`)).text();
-    assert.match(place, /<section class="block wrap qa-sec" id="answers" aria-label="Questions and answers">/);
-    assert.match(place, /<article data-tz="8" class="qa" id="answer-2026-11-20-ice-world-christmas"/, 'the card carries China\'s UTC offset');
-    assert.ok(place.indexOf('id="answers"') < place.indexOf('<p class="site-foot">'), 'the section sits where the Ask box was, before the footer');
-    assert.doesNotMatch(place, /<script>alert/);
-    const area = await (await fetch(`${base}area/kyoto`)).text();
-    assert.match(area, /One answer about Kyoto/);
-    assert.match(area, /<article data-tz="9" class="qa" id="answer-2026-11-21-kyoto-days"/);
-    const plain = await (await fetch(`${base}place/shibuya-sky`)).text();
-    assert.doesNotMatch(plain, /id="answers"|qa-sec/);
-    const shell = await (await fetch(base)).text();
-    for (const html of [place, area, plain, shell]) assert.doesNotMatch(html, /g-ask|t-ask|data-ask|Ask ✦|Got a question\?|Ask about this/);
-    for (const f of ['game/game.js', 'game/trip.js', 'game/place.js']) assert.doesNotMatch(await (await fetch(base + f)).text(), /api\/(trip-)?ask|g-ask|t-ask|data-ask/, f);
-  });
-});
-
-test('server: /api/answers lists every valid answer newest first, with what it is about and a rendered card', async () => {
-  await withServer(async ({ base }) => {
-    const { answers } = await (await fetch(`${base}api/answers`)).json();
-    assert.deepEqual(answers.map((a) => a.id), ['2026-11-23-esim', '2026-11-22-china-visa-free', '2026-11-21-kyoto-days', '2026-11-20-ice-world-christmas']);
-    assert.deepEqual(answers.map((a) => a.country), [null, 'china', 'japan', 'china']);
-    assert.deepEqual(answers[3].about, { kind: 'place', id: 'harbin-ice-world', name: 'Harbin Ice and Snow World' });
-    assert.equal(answers[0].about.kind, 'trip');
-    assert.match(answers[3].card, /^<article data-tz="8" class="qa"/);
-    assert.match(answers[0].card, /^<article class="qa" id=/, 'a whole-trip answer has no timezone to assume');
-    assert.equal(answers[3].tldr, 'Yes, it opens 11:00–21:30 on 25 Dec; tickets are **cheaper before 13:00**.');
-    const st = await (await fetch(`${base}api/state`)).json();
-    assert.equal('questions' in st, false, 'the Questions stat is gone');
-  });
-});
-
-test('server: the Ask endpoints are gone (404), for the owner too', async () => {
-  await withServer(async ({ base, dir }) => {
-    for (const u of ['api/ask', 'api/trip-ask']) {
-      const r = await fetch(base + u, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id: 'harbin-ice-world', question: 'hi' }) });
-      assert.equal(r.status, 404, u);
-    }
-    assert.equal(fs.existsSync(path.join(dir, 'fb', 'questions.jsonl')), false, 'nothing writes questions.jsonl any more');
-  });
-  assert.equal(fs.existsSync(path.join(ROOT, 'game', 'lib', 'ask.js')), false);
-});
-
-test('hosted mode: the guest reads the answers (API and pages); nothing without a login', async () => {
-  const accounts = { owner: { user: 'eliton', password: 'dummy-owner-pw' }, guest: { user: 'guest', password: 'dummy-guest-pw' } };
-  await withServer(async ({ base }) => {
-    assert.equal((await fetch(`${base}api/answers`)).status, 401);
-    const r = await fetch(`${base}login`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ username: 'guest', password: 'dummy-guest-pw' }) });
-    const cookie = r.headers.get('set-cookie').split(';')[0];
-    const { answers } = await (await fetch(`${base}api/answers`, { headers: { cookie } })).json();
-    assert.equal(answers.length, 4);
-    const page = await (await fetch(`${base}place/harbin-ice-world`, { headers: { cookie } })).text();
-    assert.match(page, /id="answer-2026-11-20-ice-world-christmas"/);
-  }, { accounts });
 });
 
 // ---------------- publish ----------------

@@ -67,7 +67,7 @@ so a URL the backend generates itself (storage URLs, unused by the app) carries 
   index of `packages/migrate/fixtures/e2e/content` through `POST /ops/content-index`. Playwright's backend runs it on
   every start, so every screen has non-empty data. Accounts are separate (`seed`).
 - The content root `packages/migrate/fixtures/e2e/content` is what the app reads under Playwright (`ATR_ROOT`, with
-  `ATR_CONTENT_FIXTURES=1` so `fixture: true` files load). Places and answers link to `game/test/fixtures`; areas
+  `ATR_CONTENT_FIXTURES=1` so `fixture: true` files load). Places and answers link to `platform/test/site-fixtures`; areas
   carry coordinates; `config/trip.yaml` is a frozen copy of the trip shape. Tests never read the real `places/`.
 - The app publishes the content index at boot and whenever content files change (`src/lib/server/content.ts`,
   `content-publish.ts`), with `CONTENT_TOKEN` from `apps/web/.env.tokens.local` (its sha256 is set in Convex by
