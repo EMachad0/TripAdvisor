@@ -69,7 +69,7 @@ functions (`apps/web/src/convex`) with no one running a command. `deploy/convex-
 systemd units.
 
 How it works: every minute the script finds the running `trip-web` containers (named `<APP_UUID>-…`), takes the
-newest, waits while it is not healthy yet (mid-rollout), reads `GIT_SHA` from its image and compares it with
+newest, waits while it is not healthy yet (mid-rollout), reads the commit from its image (`GIT_SHA` in the image env, else the image tag, which Coolify sets to the commit) and compares it with
 `/var/lib/atr-convex-deploy/deployed-sha`. When they differ it runs `convex deploy --yes --typecheck disable
 --codegen disable` in a throwaway container of that same image (the image carries `src/convex`, `convex.json`, the
 pinned CLI and `@atr/shared`), so the functions always match the commit the live app was built from, a Coolify
