@@ -98,7 +98,8 @@ jobs:
   # The Playwright suite (Desktop Chrome) runs as shards of whole spec files, balanced by the seconds each file took
   # on CI (apps/web/e2e/shards.ts, e2e/durations.json). Every shard has its own runner and backend: the specs share
   # backend state (serial describes), so a shard keeps one worker, and `setup` runs in every shard as the project's
-  # dependency. To resize, add or remove shard numbers; each shard should stay near 90 s of tests.
+  # dependency. To resize, add or remove shard numbers; each shard should stay near 70 s of tests (auth.spec alone
+  # takes 80 s: one test waits 70 s for a JWT to expire).
   e2e:
     needs: changes
     if: needs.changes.outputs.code == 'true'
@@ -107,7 +108,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        shard: [1, 2, 3, 4, 5]
+        shard: [1, 2, 3, 4, 5, 6]
     name: e2e (${{ matrix.shard }}/${{ strategy.job-total }})
     steps:
       # The e2e content is packages/migrate/fixtures/e2e; the real place and area photos are never read.

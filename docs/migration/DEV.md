@@ -113,7 +113,7 @@ four times slower than on a laptop. `lint` (format, ESLint, typecheck) and `test
 - `apps/web/e2e/shards.ts` splits the spec files into shards by the seconds each took on CI, hooks included
   (`e2e/durations.json`). A new spec counts as the mean until the durations are refreshed:
   `gh run download <run> -p 'e2e-durations-*' -D /tmp/d && node apps/web/e2e/shards.ts update /tmp/d/*/*.json`.
-  Resize by adding or removing shard numbers in the matrix; aim for about 90 s of tests per shard.
+  Resize by adding or removing shard numbers in the matrix; aim for about 70 s of tests per shard.
 - A shard runs any mix of spec files on one backend, so a spec must not depend on what ran before it. A describe
   that writes reseeds (`scripts/convex-local.sh seed-data`) before its tests and again after them; a spec that
   only reads, or undoes its own writes, needs neither.
