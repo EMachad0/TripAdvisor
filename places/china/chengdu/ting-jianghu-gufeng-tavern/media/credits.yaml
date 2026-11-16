@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: yulin-east-road-night
+  title: File:Yulin East Road 20241007195411.jpg
+  author: TurnOnTheNight
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Yulin_East_Road_20241007195411.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d5/Yulin_East_Road_20241007195411.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​玉林东路街景
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-15
+  origin: commons
+- file: yulin-west-north-crossing
+  title: File:Intersection of Yulin West Road and Yulin North Road 20241007194803.jpg
+  author: TurnOnTheNight
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Intersection_of_Yulin_West_Road_and_Yulin_North_Road_20241007194803.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/59/Intersection_of_Yulin_West_Road_and_Yulin_North_Road_20241007194803.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​玉林西路-玉林北路路口
+  width: 5533
+  height: 3689
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-15
+  origin: commons

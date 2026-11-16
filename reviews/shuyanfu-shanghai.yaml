@@ -1,0 +1,39 @@
+# Independent review of shuyanfu-shanghai. Written by `./atr review`; do not edit by hand.
+id: shuyanfu-shanghai
+type: place
+reviewed: 2026-11-16
+verdict: fix
+content_hash: 34ebd47d79ffa15e0789f9a79c800908ce1fdce57fd709096048f6bc80635b15
+facts:
+  supported: 28
+  unsupported: 5
+  contradicted: 0
+issues:
+  - severity: should
+    field: book_ahead.links
+    problem: The page treats ¥498 as the cheapest way in, but none of the booking routes it lists shows that price. ¥498 is the domestic tier price (Dahepiao 团购价格 498元起). The Trip.com ticket page shows no price at all. GetYourGuide shows "From R$754" (about ¥888), which is 78% above the R$423 the page budgets for.
+    evidence: https://www.dahepiao.com/lvyounews1/20251016533947.html — "普通飨席-午宴-常规：498"; https://www.getyourguide.com/shanghai-l178/shanghai-royal-cultural-dinner-show-shuyan-t1223382/ — "From R$754 per person"; https://www.trip.com/things-to-do/detail/105633363 — no price, only "Select package"
+    fix: Say which channel actually sells the ¥498 seat and whether a foreigner can pay there (Dahepiao, Meituan/Dianping or the venue's WeChat mini-program), and give the real price on Trip.com and GetYourGuide, so cost.brl matches the route the traveler will use.
+  - severity: nit
+    field: book_ahead.links[1].note
+    problem: '"From ¥854 for 8 Dec" could not be reproduced. The GetYourGuide page now shows only a date-free "From R$754" (about ¥888), and the same figure is repeated in the pitfalls tip.'
+    evidence: https://www.getyourguide.com/shanghai-l178/shanghai-royal-cultural-dinner-show-shuyan-t1223382/ — "From R$754 per person"
+    fix: Quote the GetYourGuide price as shown with its check date, or drop the date-specific ¥854.
+  - severity: nit
+    field: blocks[0].hook
+    problem: '"Ten Sichuan courses, one per act": City News Service supports 10 courses, but a Trip.com Moments summary describes a "7-act" show, so one course per act is not established.'
+    evidence: https://www.citynewsservice.cn/articles/cns/misc/icymi/win-a-time-travel-dining-experience-in-shanghai-rkl57v3n — "10-course Sichuan feast"; https://www.trip.com/moments/poi-shuyanfu-dinner-show-152870269/ — "100-minute, 7-act grand show" (page summary)
+    fix: Say "courses served between acts" or drop "one per act".
+  - severity: nit
+    field: book_ahead.notes
+    problem: Two of the four suggested lunch dates, Wed 9 Dec and Fri 11 Dec, are the days the traveler leaves for and returns from Huangshan (docs/TRIP.md), so a 12:00 arrival in Jinqiao may not fit.
+    evidence: docs/TRIP.md — "Shanghai | 3 | Dec 6–9", "Shanghai again | 2 | Fri Dec 11 – Sun Dec 13"
+    fix: Suggest Mon 7 or Tue 8 Dec first, and mark 9 and 11 Dec as travel days.
+  - severity: nit
+    field: blocks[0]
+    problem: The page has no photo at all (the media folder is empty), and the hero is text only, which is weak for a show the traveler judges mostly on how it looks.
+    evidence: places/china/shanghai/shuyanfu-shanghai/media is empty; build/shots/shuyanfu-shanghai-phone-light-s01.png
+    fix: Add a captioned photo of the hall or the show.
+summary: "Seat tiers, add-on prices, show times, address, metro route, Trip.com cancellation terms, the 5.0 rating from 1,653 reviews and the December weather all check out against the listed sources, and the pin sits on EKA·Tianwu. One should remains: the ¥498 seat is a domestic-channel price, while the listed booking routes show no price (Trip.com) or about ¥888 (GetYourGuide), so the page's cheapest way in and its R$423 budget figure do not match what the traveler would actually pay."
+model: claude-opus-5-5
+cost_usd: 1.291

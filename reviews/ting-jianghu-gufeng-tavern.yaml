@@ -1,0 +1,44 @@
+# Independent review of ting-jianghu-gufeng-tavern. Written by `./atr review`; do not edit by hand.
+id: ting-jianghu-gufeng-tavern
+type: place
+reviewed: 2026-11-15
+verdict: fix
+content_hash: a4efd5973260a591874c2b195085c0177c8ba7faf3b5c15e5739d07cc569a8d4
+facts:
+  supported: 5
+  unsupported: 10
+  contradicted: 0
+issues:
+  - severity: blocker
+    field: location.address
+    problem: None of the five listed sources gives "13 Yulin Middle Road / 玉林中路13号". Scribd and Bilibili say only that there is a Yulin branch on 玉林路, and a web search for the name plus that address found nothing. The pin is marked approximate, so the address is the only thing the traveler would navigate by, and nothing supports it.
+    evidence: https://www.bilibili.com/video/BV1FgspzGEsH/ — "在成都玉林路的古风酒馆" (no street number); https://www.scribd.com/document/1048483122/ — "拥有玉林店和文脉坊店" (no address)
+    fix: Confirm the street number on an Amap, Dianping or Meituan listing and cite it, or drop the number and say only "on Yulin Road" with a warning to search the Chinese name in Amap.
+  - severity: blocker
+    field: hours.summary
+    problem: '"Daily 19:00–02:00" appears in no listed source. The Scribd page shows only an AI summary and the report body is cut off, and confidence_note says the hours came from garbled search snippets.'
+    evidence: https://www.scribd.com/document/1048483122/ — readable text is the summary only; no hours
+    fix: Cite a map or Dianping listing that shows the hours, or replace them with "hours unconfirmed, check Dianping or Douyin before going".
+  - severity: blocker
+    field: cost.local
+    problem: ¥95 (¥93–97 a head), repeated in why and cost_breakdown.items[0], appears in no readable listed source. Like the hours, it comes from snippets of the garbled Scribd report.
+    evidence: https://www.scribd.com/document/1048483122/ — no 人均 figure in the readable text
+    fix: Cite a Dianping or Meituan 人均 figure, or show the cost as an unconfirmed estimate and remove it from why.
+  - severity: should
+    field: sources[2]
+    problem: The only source showing the Yulin branch is still open in late 2026 is the X post, and it returns HTTP 402, so it cannot be checked. The Bilibili visit (Oct 2025) and the March 2026 report are the newest readable evidence.
+    evidence: https://x.com/HaibingT48420/status/2106030826987364648 — HTTP 402, content not retrievable
+    fix: Add a readable recent source (Dianping or Douyin listing with 2026 activity) that shows the Yulin branch is still trading.
+  - severity: should
+    field: blocks[2].items[1]
+    problem: Nightly folk songs, classical dance and pipa, the drink names 任逍遥, 笑傲江湖 and 女儿红 (blocks[5]), and "dancers who come to your table" are not in any readable listed source. Bilibili confirms only 古风舞蹈 that was "跳的这么HIGH".
+    evidence: https://www.bilibili.com/video/BV1FgspzGEsH/ — description mentions only 古风舞蹈; no 琵琶, 民谣 or drink names
+    fix: Cut the claims down to the gufeng dance the video confirms, or cite a source that lists the acts and drinks.
+  - severity: should
+    field: blocks[4].text
+    problem: The prose calls the Yulin branch "the original". No source says which branch opened first; 163.com only says the brand belongs to 音乐房子 (Music House).
+    evidence: https://www.163.com/dy/article/K9JAKAJM0556F7KO.html — "旗下两大品牌——【听·江湖】与【音乐房子·好港】即将落户" (says nothing about Yulin)
+    fix: Remove "the original" or cite a source for it.
+summary: The page is honest about its low confidence, the hero caption is honest, and it renders cleanly on phone and desktop. Its own verdict (weak for meeting hostel people, fame hidden) fits the traveler. But every fact the traveler would act on (street address, hours, ¥95 spend) is unsupported by any readable source, and the only proof that it is open in 2026 is a blocked X post, so those must be confirmed or downgraded before the traveler relies on them.
+model: claude-opus-5-5
+cost_usd: 0.854

@@ -1,0 +1,38 @@
+# Independent review of wo-ming-you-wo-tang-palace-tavern. Written by `./atr review`; do not edit by hand.
+id: wo-ming-you-wo-tang-palace-tavern
+type: place
+reviewed: 2026-11-15
+verdict: fix
+content_hash: 4142bbe151d45247e50348974ec66a5b8445b0ec56f90404aefde565522d7bcc
+facts:
+  supported: 17
+  unsupported: 4
+  contradicted: 2
+issues:
+  - severity: should
+    field: blocks[2].text
+    problem: The page says no 2026 review mentions alcohol, and the tip says to ask before drinking. The listed Ctrip page has 2026 reviews that describe drinking there, and the 2021 Sohu listing posts an underage-drinking warning on its drinks.
+    evidence: 'https://you.ctrip.com/food/7/25043078.html — 2026-10-21 review: "和朋友小酌"; 2026-08-22 review: "朋友小聚🍻". https://www.sohu.com/a/482849578_684236 — "没有酒怎么能叫酒馆呢对不对~", "未成年人禁止饮酒"'
+    fix: Say that reviews mention light drinking but no source gives a drinks list or prices, and change both the prose and the third insider tip to match.
+  - severity: should
+    field: blocks[9].temp_low_c
+    problem: The 1 °C low has no source on the page, and it runs warmer than Xi'an's December normals, whose mean daily minimum is below 0 °C.
+    evidence: https://en.wikipedia.org/wiki/Xi%27an — climate tables, December mean daily minimum −2.7 °C (Chang'an, 1991–2020) and −0.8 °C (Jinghe, 2015–2024); mean daily maximum 6.6–7.5 °C. These values came from a summarized fetch, not quoted text.
+    fix: Change the range to about −2 to 7 °C and cite a climate source.
+  - severity: nit
+    field: blocks[2].items[3].text
+    problem: Grilled fish and spicy beef shank are given as dishes reviewers keep naming. The reviews and the Trip.com popular-dish list that were read name gourd chicken, biangbiang noodles, 铁锅土鸡焖花卷 and 鲜鱼嫩豆腐, but neither of those two.
+    evidence: "https://you.ctrip.com/food/7/25043078.html; https://tw.trip.com/restaurant/china/xi-an/detail/my-fate-my-choicechinese-cuisine-108262694/ — popular dishes: 鮮魚嫩豆腐, 陝西葫蘆雞, 桂花涼糕, 紅塵妃子笑"
+    fix: Replace those two dishes with ones the sources name, or cite the review that names them.
+  - severity: nit
+    field: blocks[5].items[5]
+    problem: The source lists the ice cream as 2 portions for ¥24, not ¥12 per portion. The phone view also prints this price as "R$ 10,19" with decimals, while every other menu price is rounded.
+    evidence: https://www.sohu.com/a/482849578_684236 — "醪糟冰激凌 2份 24元"
+    fix: Write the price as ¥24 for two (≈¥12 each), and round it like the other prices.
+  - severity: nit
+    field: blocks[8]
+    problem: The three runner-up venues sit under 'Pitfalls to avoid' with red × marks, which reads as a warning against them.
+    fix: Move the runner-ups into their own alternatives tips block, and keep only the ruled-out theme parks under pitfalls.
+summary: "These facts check out against the sources: address, Trip.com hours (10:00–22:00 UTC+8), ¥66 average, half-hourly hanfu shows, the stage in the main hall, metro Line 5 Huangqutou Exit B ≈728 m, the 2021 menu prices, and the no-booking rule. Two things need fixing. The 'no 2026 review mentions alcohol' claim is contradicted by the Ctrip reviews, and the 1 °C December low has no source and runs warm against the climate normals."
+model: claude-opus-5-5
+cost_usd: 0.667
