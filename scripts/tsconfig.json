@@ -1,0 +1,5 @@
+{
+	// Root scripts (check-ownership and friends) run with plain node; this config gives ESLint their types.
+	"extends": "../tooling/tsconfig.base.json",
+	"include": ["*.ts"]
+}

@@ -14,7 +14,14 @@
     "atr": "node atr",
     "test": "node --test \"platform/test/**/*.test.js\" \"game/test/**/*.test.js\"",
     "schema:export": "node platform/cli/atr.js schema --export",
-    "game": "node game/server.js"
+    "game": "node game/server.js",
+    "test:ws": "\"$npm_execpath\" -r --if-present test",
+    "lint": "\"$npm_execpath\" --filter @atr/web exec svelte-kit sync && eslint . --max-warnings 0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "\"$npm_execpath\" -r --if-present typecheck",
+    "e2e": "\"$npm_execpath\" --filter @atr/web e2e",
+    "verify": "\"$npm_execpath\" format:check && \"$npm_execpath\" lint && \"$npm_execpath\" typecheck && \"$npm_execpath\" test:ws && node --test \"game/test/**/*.test.js\" && \"$npm_execpath\" e2e"
   },
   "dependencies": {
     "@fontsource/fraunces": "^5.3.0",
@@ -29,5 +36,13 @@
   },
   "devDependencies": {
     "qrcode": "^1.5.4"
+  },
+  "packageManager": "pnpm@12.21.0",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24.x",
+      "onFail": "error"
+    }
   }
 }

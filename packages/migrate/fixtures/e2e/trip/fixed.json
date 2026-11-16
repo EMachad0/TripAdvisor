@@ -1,0 +1,10 @@
+[
+  {
+    "id": "flights",
+    "title": "Flights",
+    "amount": 9000,
+    "status": "paid",
+    "note": "All long-haul legs.",
+    "order": 1
+  }
+]

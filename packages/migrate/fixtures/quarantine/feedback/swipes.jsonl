@@ -1,0 +1,7 @@
+{"v":1,"ts":"2026-11-10T09:00:00Z","session":"s-q","round":"place","id":"yu-garden","verdict":"must","country":"china"}
+{"v":1,"ts":"2026-11-10T09:01:00Z","session":"s-q","round":"place","id":"yu-garden","verdict":"must"
+
+{"v":1,"ts":"2026-11-10T09:02:00Z","session":"s-q","round":"place","id":"yu-garden","verdict":"must","mood":"happy"}
+{"v":2,"ts":"2026-11-10T09:03:00Z","session":"s-q","round":"place","id":"yu-garden","verdict":"must"}
+{"v":1,"ts":"2026-11-10T09:04:00Z","session":"s-q","round":"place","id":"yu-garden","verdict":"love"}
+{"v":1,"ts":"2026-11-10T09:05:00Z","session":"s-q","round":"area","id":"harbin","verdict":"skip","x_note":{"why":"cold"}}

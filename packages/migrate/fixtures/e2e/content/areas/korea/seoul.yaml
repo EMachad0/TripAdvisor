@@ -1,0 +1,24 @@
+# FIXTURE — e2e test data (packages/migrate/fixtures/e2e/content), not curated content.
+fixture: true
+id: seoul
+country: korea
+name: Seoul
+name_local: 서울
+region: Seoul Capital Area
+scope: city
+cities: [seoul]
+lat: 37.5665
+lng: 126.9780
+why: Fixture city for the e2e content root, so the route map and the area deck have a stop here.
+best_for: [nightlife, food, shopping]
+highlights: ["Fixture highlight one", "Fixture highlight two"]
+days_suggested: { min: 2, max: 4 }
+cost_level: medium
+winter_note: "Fixture winter note: opens 09:00, closes 17:30."
+
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture
+    checked: 2026-11-09
+confidence: low
+last_updated: 2026-11-09

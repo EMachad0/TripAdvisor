@@ -1,0 +1,82 @@
+# Nightly restore test (plan section 13). Downloads the newest old/ and convex/ objects with the read-only key,
+# decrypts them with the CI age identity (never convex-env/, which only the owner can read) and proves both restore:
+#   old:    deploy/backup/restore-check.sh (manifest, the old server on the restored files, sign-in, /api/trip)
+#   convex: a fresh pinned backend (scripts/convex-local.sh), then deploy/backup/restore-convex.sh with a generated
+#           env (fresh BETTER_AUTH_SECRET, so --reset-jwks; ATR_CI_DEPLOYMENT=1) and the ci_restore user; the real
+#           accounts are only checked for presence (vars.BACKUP_PROD_USERNAMES), never signed in or changed.
+# Skipped until the bucket exists (vars.BACKUP_REMOTE). Secrets: BACKUP_BUCKET_READ (rclone.conf, read-only key),
+# BACKUP_AGE_IDENTITY_CI, E2E_OWNER_PASSWORD. Before the cutover merge run it by hand:
+#   gh workflow run restore-test.yml --ref mig/next
+name: restore-test
+
+on:
+  schedule:
+    - cron: '17 17 * * *' # 17:17 UTC (14:17 UTC-3)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  restore:
+    if: vars.BACKUP_REMOTE != ''
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      RCLONE_CONFIG: /tmp/atr-ci/rclone.conf
+      BACKUP_REMOTE: ${{ vars.BACKUP_REMOTE }}
+      IDENTITY: /tmp/atr-ci/ci.agekey
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: pnpm/setup@731dfb6463bbd11c11fd0ee11fe00ed0e36d48a1 # v3.2.0
+        with:
+          runtime: node@24
+          cache: true
+          require-lockfile: true
+      - run: sudo apt-get install -y --no-install-recommends age rclone jq unzip zip
+      - name: Keys (read-only bucket key, CI age identity)
+        env:
+          BUCKET_READ: ${{ secrets.BACKUP_BUCKET_READ }}
+          AGE_IDENTITY: ${{ secrets.BACKUP_AGE_IDENTITY_CI }}
+        run: |
+          umask 077
+          mkdir -p /tmp/atr-ci
+          printf '%s\n' "$BUCKET_READ" > "$RCLONE_CONFIG"
+          printf '%s\n' "$AGE_IDENTITY" > "$IDENTITY"
+
+      - name: Old leg
+        run: deploy/backup/restore-check.sh latest --dest "$BACKUP_REMOTE" --identity "$IDENTITY"
+
+      - name: Convex leg
+        if: hashFiles('deploy/backup/restore-convex.sh') != ''
+        env:
+          E2E_OWNER_PASSWORD: ${{ secrets.E2E_OWNER_PASSWORD }}
+          PROD_USERNAMES: ${{ vars.BACKUP_PROD_USERNAMES }}
+        run: |
+          umask 077
+          mkdir -p .cache/restore-test
+          key="$(rclone lsf --files-only "$BACKUP_REMOTE/convex/" | grep '^20.*\.tar\.age$' | sort | tail -n 1)"
+          [[ -n "$key" ]] || { echo "no convex/ object"; exit 1; }
+          echo "newest convex/ object: $key"
+          rclone copyto "$BACKUP_REMOTE/convex/$key" .cache/restore-test/convex.tar.age
+          scripts/convex-local.sh up
+          {
+            echo "SITE_URL=http://localhost:4173"
+            echo "TRUSTED_ORIGINS=http://127.0.0.1:4173"
+            echo "BETTER_AUTH_SECRET=$(openssl rand -base64 32)"
+            echo "ATR_CI_DEPLOYMENT=1"
+            echo "E2E_OWNER_PASSWORD=$E2E_OWNER_PASSWORD"
+          } > .cache/restore-test/convex.env
+          printf 'USERNAME=ci_restore\nPASSWORD=%s\n' "$E2E_OWNER_PASSWORD" > .cache/restore-test/signin.env
+          deploy/backup/restore-convex.sh --slot 0 \
+            --backup .cache/restore-test/convex.tar.age --identity "$IDENTITY" \
+            --env-file .cache/restore-test/convex.env --reset-jwks --ci-user \
+            ${PROD_USERNAMES:+--expect-users "$PROD_USERNAMES"} \
+            --signin-file .cache/restore-test/signin.env
+
+      - if: always()
+        name: Delete every decrypted file and key
+        run: |
+          rm -rf .cache/restore-test .cache/restore-* .cache/snapshot-*
+          rm -rf /tmp/atr-ci
+          scripts/convex-local.sh reset || true

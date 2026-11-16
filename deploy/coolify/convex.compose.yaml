@@ -1,0 +1,67 @@
+# Convex backend + dashboard for Coolify (plan section 12, task 8). Paste into a Coolify "Docker Compose" resource
+# (project "Asia Trip"), or point the resource at this file. Values come from Coolify's env UI; names are listed in
+# deploy/coolify/env/convex.env.template. Never run this on the laptop; local and CI use deploy/convex-local.
+#
+# - Images: the 40-char commit sha of release precompiled-2026-11-13-e8a049c, the same tag as
+#   deploy/convex-local/compose.yaml (a test keeps the two equal). Never :latest (spike S18).
+# - Domains (Coolify UI, per service): backend port 3210 -> https://api.<site> (API + WebSocket), port 3211 ->
+#   https://cvx.<site> (HTTP actions, Better Auth). The dashboard gets NO domain: it is published on the host's
+#   loopback only, reached with `ssh -L 6791:localhost:6791 <vps>` (the template's SERVICE_URL_DASHBOARD_6791 is
+#   removed on purpose).
+# - Memory limits and log rotation on both services, so neither can starve the old site or fill the disk. Tune the
+#   backend limit after spike S23 (free -m available >= 1 GB over a backup run plus a full e2e run).
+services:
+  backend:
+    image: ghcr.io/convex/convex-backend:e8a049cdc83158304d4b7914858433bc45a32c5d
+    stop_grace_period: 10s
+    stop_signal: SIGINT
+    restart: unless-stopped
+    mem_limit: 1g
+    memswap_limit: 1g
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+    volumes:
+      - convex-data:/convex/data
+    environment:
+      INSTANCE_NAME: ${INSTANCE_NAME:-atr-prod}
+      INSTANCE_SECRET: ${INSTANCE_SECRET:?generate once in Coolify (openssl rand -hex 32) and keep it}
+      CONVEX_CLOUD_ORIGIN: ${CONVEX_CLOUD_ORIGIN:?https://api.<site>}
+      CONVEX_SITE_ORIGIN: ${CONVEX_SITE_ORIGIN:?https://cvx.<site>}
+      DISABLE_BEACON: 'true'
+      DISABLE_METRICS_ENDPOINT: 'true'
+      REDACT_LOGS_TO_CLIENT: 'true'
+      RUST_LOG: ${RUST_LOG:-info}
+    healthcheck:
+      test: curl -f http://localhost:3210/version
+      interval: 10s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+
+  dashboard:
+    image: ghcr.io/convex/convex-dashboard:e8a049cdc83158304d4b7914858433bc45a32c5d
+    stop_grace_period: 10s
+    stop_signal: SIGINT
+    restart: unless-stopped
+    mem_limit: 256m
+    memswap_limit: 256m
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+    # Loopback only: never a public port, never a Coolify domain.
+    ports:
+      - '127.0.0.1:6791:6791'
+    environment:
+      # The browser on the laptop (through the SSH tunnel) talks to the public API origin.
+      NEXT_PUBLIC_DEPLOYMENT_URL: ${CONVEX_CLOUD_ORIGIN:?https://api.<site>}
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  convex-data:

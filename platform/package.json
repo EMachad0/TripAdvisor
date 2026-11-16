@@ -1,0 +1,23 @@
+{
+  "name": "@atr/platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Curator platform (schema, renderer, CLI). Plain JS ESM; the root package.json still installs its dependencies for the old image (npm ci).",
+  "exports": {
+    ".": "./lib/index.js",
+    "./content": "./lib/load.js",
+    "./maps": "./lib/staticmap.js",
+    "./publish": "./lib/publish.js",
+    "./lib/*": "./lib/*",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "catalog:",
+    "@fontsource/inter": "catalog:",
+    "jsqr": "catalog:",
+    "playwright-core": "catalog:",
+    "sharp": "catalog:",
+    "yaml": "catalog:"
+  }
+}

@@ -4,8 +4,11 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import fs from 'node:fs';
 
-export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-export const PLATFORM = path.join(ROOT, 'platform');
+// PLATFORM is where this package's own files are (lib, test fixtures). ROOT is the content root (places/, areas/,
+// answers/, config/, ...): the repo by default, or ATR_ROOT when the platform runs as an installed package
+// (the web image sets ATR_ROOT=/app/content).
+export const PLATFORM = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+export const ROOT = process.env.ATR_ROOT ? path.resolve(process.env.ATR_ROOT) : path.dirname(PLATFORM);
 export const FIXTURES = path.join(PLATFORM, 'test', 'fixtures');
 
 export function isFixtureMode(opts = {}) {
@@ -36,6 +39,22 @@ export function dataRoots(opts = {}) {
     cache: path.join(ROOT, '.cache'),
     runs: path.join(ROOT, 'runs'),
   };
+}
+
+/** Where `./atr feedback pull` and `./atr trip pull` keep the live copies (under the gitignored .cache/). */
+export const liveDirs = () => ({ feedback: path.join(ROOT, '.cache', 'feedback-live'), trip: path.join(ROOT, '.cache', 'trip-live') });
+
+/**
+ * The feedback directory for read-only curator commands (feedback, taste, next, run --auto): --dir, else
+ * ATR_FEEDBACK_DIR, else .cache/feedback-live/ when a pull wrote it, else <data root>/feedback. Fixture mode and a
+ * custom data root keep their own feedback/. `dataRoots().feedback` (what ./atr game writes) never changes.
+ */
+export function readOnlyFeedbackDir(opts = {}) {
+  if (opts.dir) return path.resolve(opts.dir);
+  if (process.env.ATR_FEEDBACK_DIR) return path.resolve(process.env.ATR_FEEDBACK_DIR);
+  const ownRoot = isFixtureMode(opts) || opts.root || process.env.ATR_DATA_ROOT;
+  if (!ownRoot && fs.existsSync(liveDirs().feedback)) return liveDirs().feedback;
+  return dataRoots(opts).feedback;
 }
 
 export const rel = (p) => path.relative(process.cwd(), p) || '.';

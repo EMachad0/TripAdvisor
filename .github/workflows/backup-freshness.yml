@@ -1,0 +1,42 @@
+# Backup freshness (plan section 13): fails, and GitHub emails the owner, when the newest old/ object (and convex/
+# once vars.BACKUP_CONVEX_LEG is 1) is older than 26 h, or the newest status/ object reports under 2 GB free.
+# Skipped until the bucket exists: set vars.BACKUP_REMOTE (an rclone path such as atr:<bucket>/atr) and the secret
+# BACKUP_BUCKET_READ (an rclone.conf with the bucket's READ-ONLY key). Same checks locally: scripts/backup-status.ts.
+name: backup-freshness
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # 18:00 UTC (15:00 UTC-3)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  freshness:
+    if: vars.BACKUP_REMOTE != ''
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: pnpm/setup@731dfb6463bbd11c11fd0ee11fe00ed0e36d48a1 # v3.2.0
+        with:
+          runtime: node@24
+      - run: sudo apt-get install -y --no-install-recommends rclone
+      - name: rclone config (read-only key)
+        env:
+          BUCKET_READ: ${{ secrets.BACKUP_BUCKET_READ }}
+        run: |
+          umask 077
+          printf '%s\n' "$BUCKET_READ" > "$RUNNER_TEMP/rclone.conf"
+      - name: Check the newest objects
+        env:
+          RCLONE_CONFIG: ${{ runner.temp }}/rclone.conf
+          BACKUP_REMOTE: ${{ vars.BACKUP_REMOTE }}
+          CONVEX_LEG: ${{ vars.BACKUP_CONVEX_LEG }}
+        run: |
+          args=(--dest "$BACKUP_REMOTE")
+          [[ "$CONVEX_LEG" == 1 ]] && args+=(--convex)
+          node scripts/backup-status.ts "${args[@]}"
+      - if: always()
+        run: rm -f "$RUNNER_TEMP/rclone.conf"

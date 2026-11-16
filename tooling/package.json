@@ -1,0 +1,29 @@
+{
+	"name": "@atr/tooling",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"description": "Lint and format tooling for the workspace. The root eslint.config.ts and .prettierrc resolve these through publicHoistPattern.",
+	"exports": {
+		"./tsconfig.base.json": "./tsconfig.base.json"
+	},
+	"devDependencies": {
+		"@convex-dev/eslint-plugin": "catalog:",
+		"@eslint/js": "catalog:",
+		"@shadcn/lint": "catalog:",
+		"@sveltejs/load-config": "catalog:",
+		"@types/node": "catalog:",
+		"eslint": "catalog:",
+		"eslint-config-prettier": "catalog:",
+		"eslint-plugin-svelte": "catalog:",
+		"globals": "catalog:",
+		"jiti": "catalog:",
+		"prettier": "catalog:",
+		"prettier-plugin-svelte": "catalog:",
+		"prettier-plugin-tailwindcss": "catalog:",
+		"svelte": "catalog:",
+		"svelte-eslint-parser": "catalog:",
+		"typescript": "catalog:",
+		"typescript-eslint": "catalog:"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"extends": "../../tooling/tsconfig.base.json",
+	"compilerOptions": {
+		// src/ is imported by the browser bundle and the Convex runtime: no Node types, no DOM.
+		"types": []
+	},
+	"include": ["src"]
+}

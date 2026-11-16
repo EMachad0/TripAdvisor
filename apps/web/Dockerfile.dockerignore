@@ -1,0 +1,33 @@
+# Build context of apps/web/Dockerfile (context = repo root). BuildKit uses this file instead of the root
+# .dockerignore, which is the old image's and excludes apps/ and packages/. Allow-list: only what the build reads.
+*
+!package.json
+!pnpm-lock.yaml
+!pnpm-workspace.yaml
+!tooling/package.json
+!tooling/tsconfig.base.json
+!platform/
+!packages/shared/
+!packages/migrate/package.json
+!apps/web/
+!places/
+!areas/
+!answers/
+!config/
+
+# Never: dependencies, builds, local env files and test output.
+**/node_modules
+**/.env
+**/.env.*
+!apps/web/.env.example
+**/.DS_Store
+platform/test
+packages/shared/test
+apps/web/build
+apps/web/build-s*
+apps/web/.svelte-kit
+apps/web/.svelte-kit-s*
+apps/web/test-results*
+apps/web/playwright-report*
+apps/web/playwright
+apps/web/Dockerfile*

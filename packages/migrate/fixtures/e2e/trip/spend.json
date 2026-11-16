@@ -1,0 +1,13 @@
+[
+  {
+    "id": "xm1abc",
+    "date": "2026-12-06",
+    "note": "Metro card",
+    "amount": 50,
+    "currency": "CNY",
+    "amountBRL": 38.5,
+    "category": "other",
+    "country": "china",
+    "order": 1
+  }
+]

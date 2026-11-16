@@ -175,7 +175,9 @@ test('12 shot: pages taller than one capture are shot in pieces; the end of the 
 test('12 CLI: a half-written platform module prints one line, not a stack trace', () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'atr-broken-'));
   try {
-    fs.cpSync(path.join(ROOT, 'platform'), path.join(dir, 'platform'), { recursive: true, filter: (s) => !s.includes(`${path.sep}test${path.sep}`) && !s.endsWith(`${path.sep}test`) });
+    fs.cpSync(path.join(ROOT, 'platform'), path.join(dir, 'platform'), { recursive: true, filter: (s) => !s.includes(`${path.sep}test${path.sep}`) && !s.endsWith(`${path.sep}test`) && !s.split(path.sep).includes('node_modules') });
+    // Under pnpm, platform/ is a workspace package with its own package.json (exports map, "type": "module") and its
+    // own node_modules (skipped above); its dependencies resolve from the root node_modules symlinked below.
     fs.copyFileSync(path.join(ROOT, 'atr'), path.join(dir, 'atr'));
     fs.copyFileSync(path.join(ROOT, 'package.json'), path.join(dir, 'package.json'));
     fs.symlinkSync(path.join(ROOT, 'node_modules'), path.join(dir, 'node_modules'));

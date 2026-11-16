@@ -1,0 +1,35 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: harbin
+country: china
+name: Harbin
+name_local: 哈尔滨
+region: Heilongjiang, Northeast China
+scope: city
+lat: 45.8038
+lng: 126.5349
+cities:
+  - harbin
+why: Ice palaces lit in neon, Russian-era streets and −25 °C nights; winter is the whole point.
+best_for:
+  - nature
+  - odd-local
+  - views
+highlights:
+  - Fixture highlight one
+  - Fixture highlight two
+days_suggested:
+  min: 2
+  max: 3
+cost_level: medium
+winter_note: "Fixture winter note: **cold** but worth it."
+image: snow-sculpture
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture 2
+    checked: 2026-11-09
+confidence: low
+last_updated: 2026-11-09

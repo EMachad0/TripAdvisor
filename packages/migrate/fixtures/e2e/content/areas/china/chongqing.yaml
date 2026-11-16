@@ -1,0 +1,35 @@
+# FIXTURE — game test data, not curated content.
+fixture: true
+id: chongqing
+country: china
+name: Chongqing
+name_local: 重庆
+region: Chongqing municipality
+scope: city
+lat: 29.5630
+lng: 106.5516
+cities:
+  - chongqing
+why: "The cyberpunk mountain city: monorails through buildings, cliffside neon and fiery hotpot."
+best_for:
+  - views
+  - food
+  - nightlife
+highlights:
+  - Fixture highlight one
+  - Fixture highlight two
+days_suggested:
+  min: 3
+  max: 4
+cost_level: low
+winter_note: "Fixture winter note: **cold** but worth it."
+image: rooftops
+sources:
+  - url: https://en.wikipedia.org/wiki/Example
+    title: Fixture
+    checked: 2026-11-09
+  - url: https://example.org/
+    title: Fixture 2
+    checked: 2026-11-09
+confidence: low
+last_updated: 2026-11-09

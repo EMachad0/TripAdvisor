@@ -1,0 +1,115 @@
+# pnpm workspace for the new stack. The root package.json stays npm-compatible for the old image (plain
+# specifiers, never catalog:); every workspace package takes its versions from the catalog below.
+packages:
+  - platform
+  - packages/*
+  - apps/*
+  - tooling
+
+catalogMode: strict
+savePrefix: ''
+minimumReleaseAge: 1440
+strictPeerDependencies: true
+engineStrict: true
+
+# bits-ui 2.21.0 pins runed 0.35.1, whose optional @sveltejs/kit peer says ^2.21.0. runed only reads
+# $app/environment and $app/state, which Kit 3 keeps; accept Kit 3 for that one peer instead of turning
+# strictPeerDependencies off.
+peerDependencyRules:
+  allowedVersions:
+    'runed>@sveltejs/kit': '3'
+
+# @convex-dev/eslint-plugin 5.0.1 depends on typescript ^5.9 and @typescript-eslint/* ~8.58; align them with
+# the workspace copies so typed rules share one TypeScript program (spike S4).
+overrides:
+  '@convex-dev/eslint-plugin>typescript': ~6.0.3
+  '@convex-dev/eslint-plugin>@typescript-eslint/parser': 8.72.2
+  '@convex-dev/eslint-plugin>@typescript-eslint/utils': 8.72.2
+  '@convex-dev/eslint-plugin>@typescript-eslint/types': 8.72.2
+
+# Only packages pnpm reports as needing install scripts.
+allowBuilds:
+  esbuild: true
+  sharp: true
+  '@napi-rs/canvas': true
+
+# The root eslint.config.ts and .prettierrc resolve their plugins from tooling/ through these hoists.
+publicHoistPattern:
+  - eslint
+  - '@eslint/*'
+  - eslint-*
+  - '@eslint-community/*'
+  - typescript-eslint
+  - '@typescript-eslint/*'
+  - globals
+  - prettier
+  - prettier-plugin-*
+  - '@shadcn/lint'
+  - '@convex-dev/eslint-plugin'
+  - '@sveltejs/load-config'
+  - svelte-eslint-parser
+  - jiti
+  - '@types/node'
+
+catalog:
+  # app
+  '@sveltejs/kit': 3.2.0
+  '@sveltejs/adapter-node': 6.0.2
+  '@sveltejs/vite-plugin-svelte': 7.3.1
+  svelte: 5.57.3
+  svelte-check: 4.7.8
+  vite: 8.3.8
+  typescript: ~6.0.3
+  tailwindcss: 4.3.5
+  '@tailwindcss/vite': 4.3.5
+  # backend and auth
+  convex: 1.50.0
+  convex-svelte: 0.15.1
+  convex-helpers: 0.1.135
+  better-auth: 1.7.25
+  '@convex-dev/better-auth': 0.13.0
+  '@mmailaender/convex-better-auth-svelte': 0.10.0
+  # tests
+  vitest: 5.1.0
+  convex-test: 0.0.71
+  '@edge-runtime/vm': 5.0.0
+  '@playwright/test': 1.65.1
+  fake-indexeddb: 6.2.8
+  # platform (same versions as the root package-lock.json)
+  '@fontsource/fraunces': 5.3.0
+  '@fontsource/inter': 5.3.0
+  '@fontsource/jetbrains-mono': 5.3.0
+  jsqr: 1.4.0
+  playwright-core: 1.65.1
+  sharp: 0.35.5
+  yaml: 2.9.1
+  '@types/node': 24.19.2
+  # tooling
+  eslint: 10.15.0
+  '@eslint/js': 10.0.1
+  typescript-eslint: 8.72.2
+  eslint-plugin-svelte: 3.24.1
+  svelte-eslint-parser: 1.10.1
+  eslint-config-prettier: 10.1.8
+  '@shadcn/lint': 0.2.5
+  '@convex-dev/eslint-plugin': 5.0.1
+  '@sveltejs/load-config': 0.2.3
+  globals: 17.14.0
+  jiti: 2.7.0
+  prettier: 3.10.1
+  prettier-plugin-svelte: 4.1.1
+  prettier-plugin-tailwindcss: 0.8.1
+  # ui (shadcn-svelte and its peers)
+  bits-ui: 2.21.0
+  shadcn-svelte: 1.8.1
+  cn: 0.5.2
+  '@internationalized/date': 3.12.4
+  '@lucide/svelte': 1.73.0
+  clsx: 2.1.1
+  tailwind-merge: 3.7.0
+  tailwind-variants: 3.3.1
+  tw-animate-css: 1.4.0
+  vaul-svelte: 1.0.0-next.7
+  svelte-sonner: 1.2.3
+  # offline outbox (slice L)
+  idb: 8.0.4

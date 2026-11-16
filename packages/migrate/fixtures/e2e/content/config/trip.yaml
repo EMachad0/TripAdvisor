@@ -1,0 +1,87 @@
+# FIXTURE — e2e trip config (packages/migrate/fixtures/e2e/content). The shape of config/trip.yaml, frozen so tests
+# never depend on the real config: six legs in trip order, route seeds with area stops, a config-only stop with
+# coordinates (Chengdu, Singapore, Hong Kong) and one without (Huangshan).
+traveler:
+  home: Brazil (Joinville / São Paulo)
+  currency: BRL
+  style: solo budget backpacker (fixture)
+  interests: [culture, food, nightlife, nature, odd-local, views, shopping, shows, day-trip]
+
+countries:
+  - id: china
+    from: 2026-12-06
+    to: 2027-01-02
+    days: 27
+    budget_brl_per_day: 170
+    cheap_meal_brl: 21
+    cities: [shanghai, beijing, harbin, chongqing]
+    route:
+      - { area: shanghai, nights: 4 }
+      - { area: huangshan, name: Huangshan (flexible), nights: 2 }
+      - { area: beijing, nights: 4 }
+      - { area: harbin, nights: 4 }
+      - { area: chengdu, name: Chengdu, lat: 30.5728, lng: 104.0668, nights: 3 }
+      - { area: chongqing, nights: 7 }
+    areas_wanted: 6
+    notes: Fixture notes. Work nights 20:00–05:00 Dec 28–30. Exit Chongqing CKG on Sat Jan 2.
+  - id: thailand
+    from: 2027-01-02
+    to: 2027-01-10
+    days: 8
+    budget_brl_per_day: 100
+    cheap_meal_brl: 10
+    cities: [chiang-mai, bangkok]
+    route:
+      - { area: chiang-mai }
+      - { area: bangkok }
+    notes: Fixture notes. Night shifts 19:00–04:00.
+  - id: singapore
+    from: 2027-01-10
+    to: 2027-01-11
+    days: 1
+    budget_brl_per_day: 120
+    stays: false
+    cheap_meal_brl: 26
+    cities: [singapore]
+    route:
+      - { area: singapore, name: Singapore (Jewel Changi), lat: 1.3602, lng: 103.9894 }
+    notes: Fixture layover day, no bed. Light shows 20:00, 21:00 and 22:00.
+  - id: korea
+    from: 2027-01-11
+    to: 2027-01-20
+    days: 9
+    budget_brl_per_day: 140
+    cheap_meal_brl: 37
+    cities: [seoul]
+    route:
+      - { area: seoul }
+    notes: Fixture notes. Work nights 21:00–06:00.
+  - id: japan
+    from: 2027-01-20
+    to: 2027-02-05
+    days: 16
+    budget_brl_per_day: 170
+    cheap_meal_brl: 31
+    cities: [tokyo, osaka, kyoto]
+    route:
+      - { area: tokyo, nights: 9 }
+      - { area: osaka, nights: 4 }
+      - { area: kyoto, nights: 3 }
+    areas_wanted: 3
+    notes: Fixture notes. All vacation.
+  - id: hong-kong
+    from: 2027-02-05
+    to: 2027-02-09
+    days: 4
+    budget_brl_per_day: 120
+    cheap_meal_brl: 35
+    cities: [hong-kong]
+    route:
+      - { area: hong-kong, name: Hong Kong, lat: 22.2819, lng: 114.1582 }
+    notes: Fixture notes. Home flight bought, leaves HKG Tue Feb 9 23:55.
+
+gaps:
+  stale_source_days: 45
+  options_per_day: 2
+  dominant_category_share: 0.4
+  budget_outlier_share: 1.0

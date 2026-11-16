@@ -1,0 +1,31 @@
+{
+	"name": "@atr/migrate",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"description": "Import, dry run, export-v1, verify and parity scripts for moving feedback/ and trip/ into Convex.",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"scripts": {
+		"migrate": "node src/bin.ts",
+		"dry-run": "node src/bin.ts dry-run",
+		"import": "node src/bin.ts import",
+		"export-v1": "node src/bin.ts export-v1",
+		"verify": "node src/bin.ts verify",
+		"round-trip": "node src/bin.ts round-trip",
+		"scratch-backend": "scripts/scratch-backend.sh",
+		"typecheck": "tsc --noEmit -p tsconfig.json",
+		"test": "vitest run"
+	},
+	"dependencies": {
+		"@atr/shared": "workspace:*",
+		"convex": "catalog:"
+	},
+	"devDependencies": {
+		"@atr/platform": "workspace:*",
+		"@types/node": "catalog:",
+		"typescript": "catalog:",
+		"vitest": "catalog:"
+	}
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "gru-pvg",
+    "type": "flight",
+    "status": "booked",
+    "cabin": "economy",
+    "carrier": "Air China",
+    "flight": "CA908",
+    "from": "GRU",
+    "fromName": "São Paulo",
+    "to": "PVG",
+    "toName": "Shanghai",
+    "start": "2026-12-04T23:55",
+    "end": "2026-12-06T06:10",
+    "duration": "30h 15m",
+    "ref": "ABC123",
+    "note": "Via Madrid.",
+    "order": 1,
+    "tzStart": -3,
+    "tzEnd": 8
+  },
+  {
+    "id": "stay-harbin",
+    "type": "stay",
+    "country": "china",
+    "city": "harbin",
+    "title": "Harbin hostel",
+    "start": "2026-12-20",
+    "end": "2026-12-24",
+    "status": "planned",
+    "host": "Old Town Hostel",
+    "checkIn": "14:00",
+    "checkOut": "12:00",
+    "address": "1 Central Street",
+    "note": "Check in 14:00 (UTC+8).",
+    "order": 2
+  },
+  {
+    "id": "stay-kansai",
+    "type": "stay",
+    "country": "japan",
+    "city": "kyoto",
+    "title": "Kansai base",
+    "start": "2027-01-10",
+    "end": "2027-01-15",
+    "status": "tbd",
+    "cities": [
+      "kyoto",
+      "osaka"
+    ],
+    "order": 3,
+    "tz": "Asia/Tokyo"
+  },
+  {
+    "id": "train-osaka",
+    "type": "transport",
+    "status": "onday",
+    "mode": "train",
+    "title": "Kyoto to Osaka",
+    "start": "2027-01-15T10:00",
+    "fromName": "Kyoto",
+    "toName": "Osaka",
+    "duration": "15m",
+    "plan": "Shinkansen or the JR special rapid at 08:30.",
+    "order": 4
+  },
+  {
+    "id": "note-nye",
+    "type": "note",
+    "title": "New Year in Chongqing",
+    "start": "2026-12-31",
+    "note": "Countdown at Jiefangbei.",
+    "order": 5
+  }
+]

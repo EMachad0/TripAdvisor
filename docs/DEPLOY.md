@@ -1,6 +1,12 @@
 # Deploying the trip site
 
-The site runs on a VPS under Coolify, built from the `Dockerfile` at the repo root.
+> **Since the cutover of 2026-11-16** the site at the address below is the new app: `trip-web` (SvelteKit, built from
+> `apps/web/Dockerfile`) with the self-hosted Convex service `convex` (`api.<site>`, `cvx.<site>`). Its resources, env
+> names and backup job are in `deploy/coolify/README.md`; the cutover and rollback steps are in
+> `docs/migration/cutover.md`. The rest of this page describes the old app `trip-site`, which stays up read-only
+> (`ATR_READ_ONLY=1`) at https://old.trip.187.53.115.237.sslip.io as the fallback until it is retired.
+
+The old site runs on a VPS under Coolify, built from the `Dockerfile` at the repo root.
 
 - Site: https://trip.187.53.115.237.sslip.io (owner and guest logins)
 - Coolify dashboard: http://187.53.115.237:8000 (project "Asia Trip", app `trip-site`)

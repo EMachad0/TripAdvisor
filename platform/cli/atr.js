@@ -5,7 +5,7 @@ import path from 'node:path';
 import http from 'node:http';
 import { c, formatResults, table } from './ui.js';
 import { searchHint, titleCity } from './atr-hint.js';
-import { ROOT, dataRoots, isFixtureMode, localDate } from '../lib/paths.js';
+import { PLATFORM, dataRoots, isFixtureMode, liveDirs, localDate, readOnlyFeedbackDir } from '../lib/paths.js';
 import { validateAll } from '../lib/validate.js';
 import { findPlaceFiles, resolvePlace, resolveArea, loadPlaces, loadAreas } from '../lib/load.js';
 import { BLOCKS, BLOCK_TYPES } from '../lib/schema/blocks.js';
@@ -46,6 +46,30 @@ const out = (opts, data, text) => console.log(opts.json ? JSON.stringify(data, n
 const fail = (msg, code = 1) => { console.error(c.red('✖ ') + msg); process.exitCode = code; };
 const today = () => localDate();
 const nameOf = (f) => path.relative(process.cwd(), f) || '.';
+
+/** The feedback dir for read-only commands (paths.js readOnlyFeedbackDir), warning on stderr when the pull is old. */
+async function readFeedbackDir(o) {
+  const dir = readOnlyFeedbackDir(o);
+  if (dir === liveDirs().feedback) {
+    const { pullInfo } = await import('../lib/feedback/pull.js');
+    const p = pullInfo(dir);
+    if (p?.stale) console.error(c.yellow(`▲ ${nameOf(dir)} was pulled ${Math.round(p.ageHours)} h ago (${p.pulledAt}); run ./atr feedback pull --from-convex`));
+  }
+  return dir;
+}
+
+/** ./atr feedback pull, ./atr trip pull: the export bundle from the site into .cache/<kind>-live/ (lib/feedback/pull.js). */
+async function pullCmd(kind, o) {
+  const { pull, pullSource } = await import('../lib/feedback/pull.js');
+  const source = pullSource({ fromConvex: o['from-convex'], fromBackup: o['from-backup'] });
+  const r = await pull({ kind, url: o.url, source, cacheDir: dataRoots().cache });
+  out(o, r, `${c.green('✔')} pulled ${r.files.length} file(s) into ${nameOf(r.dir)} (export of ${r.generatedAt ?? 'unknown time'}): ${r.files.map((f) => `${f.name} ${f.count}`).join(', ') || 'none'}`);
+}
+const PULL_OPTION = {
+  'from-convex': { type: 'boolean', desc: 'pull: from the new site\'s backend (GET /ops/export; before the cutover the shadow copy); token from ATR_EXPORT_TOKEN or the keychain' },
+  'from-backup': { type: 'boolean', desc: 'pull: from the old site\'s backup (not available in this checkout)' },
+  url: { type: 'string', desc: 'pull --from-convex: the Convex site that serves /ops/export (default ATR_EXPORT_URL, else the new site\'s)' },
+};
 
 // ───────────────────────── new ─────────────────────────
 cmd('new', {
@@ -481,9 +505,9 @@ cmd('gaps', {
 // ───────────────────────── taste ─────────────────────────
 cmd('taste', {
   summary: 'what the traveler said they want: goal, interests, must-do list with status; plus what the game logged',
-  usage: './atr taste [--json]',
-  details: 'Reads config/taste.yaml (stated taste, owned by the orchestrator) and the feedback logs. A place or area claims a must-do item with `must_do: <key>`.',
-  options: {},
+  usage: './atr taste [--dir <feedback-dir>] [--json]',
+  details: 'Reads config/taste.yaml (stated taste, owned by the orchestrator) and the feedback logs (--dir, else ATR_FEEDBACK_DIR, else .cache/feedback-live/ after ./atr feedback pull, else feedback/). A place or area claims a must-do item with `must_do: <key>`.',
+  options: { dir: { type: 'string', desc: 'feedback directory' } },
   async run(o) {
     const { readTaste, mustDoStatus, tasteDisagreements, formatStatedTaste } = await import('../lib/taste.js');
     const { readFeedback, tasteSummary } = await import('../lib/feedback/index.js');
@@ -498,7 +522,7 @@ cmd('taste', {
       return;
     }
     const places = loadPlaces(o), areas = loadAreas(o);
-    const summary = tasteSummary(readFeedback(dataRoots(o).feedback), { places, areas, cfg: loadTripConfig(o) });
+    const summary = tasteSummary(readFeedback(await readFeedbackDir(o)), { places, areas, cfg: loadTripConfig(o) });
     const data = { taste: rt.taste, mustDo: mustDoStatus(rt.taste, places, areas), summary: { totals: summary.totals, categories: summary.categories }, disagreements: tasteDisagreements(rt.taste, summary) };
     out(o, data, formatStatedTaste(data, c) + (rt.issues.length ? `\n\n${rt.issues.map(formatIssue).join('\n')}` : ''));
   },
@@ -507,16 +531,16 @@ cmd('taste', {
 // ───────────────────────── next ─────────────────────────
 cmd('next', {
   summary: 'what to do now: a ranked list of concrete one-line tasks (from gaps + taste), ready for ./atr run',
-  usage: './atr next [--count 5] [--country <id>] [--json]',
+  usage: './atr next [--count 5] [--country <id>] [--dir <feedback-dir>] [--json]',
   details: 'Order: open must-do items (earliest country first) with area cards mixed in, empty fixed cities, stay cards, category deficits by interest, page repairs, new feedback. Each task fits one headless session.',
-  options: { count: { type: 'string', desc: 'how many tasks (default 5)' }, country: { type: 'string', desc: 'only this country (plus must-do items without a country)' } },
+  options: { count: { type: 'string', desc: 'how many tasks (default 5)' }, country: { type: 'string', desc: 'only this country (plus must-do items without a country)' }, dir: { type: 'string', desc: 'feedback directory (default: as ./atr feedback)' } },
   examples: ['./atr next', './atr next --count 10 --country china', './atr run --auto 3'],
   async run(o) {
     const { nextTasks, formatNext } = await import('../lib/next.js');
     if (o.country && !COUNTRY_IDS.includes(o.country)) return fail(`--country must be one of: ${COUNTRY_IDS.join(', ')}${nearest(o.country, COUNTRY_IDS) ? ` (did you mean ${nearest(o.country, COUNTRY_IDS)}?)` : ''}`);
     const count = o.count === undefined ? 5 : Number(o.count);
     if (!Number.isInteger(count) || count < 1) return fail('--count must be a whole number ≥ 1');
-    const r = nextTasks({ ...o, count });
+    const r = nextTasks({ ...o, count, feedbackDir: await readFeedbackDir(o) });
     out(o, r, formatNext(r, c));
   },
 });
@@ -524,14 +548,15 @@ cmd('next', {
 // ───────────────────────── feedback ─────────────────────────
 cmd('feedback', {
   summary: "summarise the traveler's taste from the game's feedback logs",
-  usage: './atr feedback [--since YYYY-MM-DD] [--dir <feedback-dir>] [--json]\n       ./atr feedback --new                 (only what arrived since you last marked it seen, grouped for action)\n       ./atr feedback --place <id>          (every verdict, duel and question for one place or area)\n       ./atr feedback --mark-seen [--upto <ts>]   (after processing: move the cursor)\n       ./atr feedback --mark-seen --place <id>    (only that page\'s feedback is done; the rest stays new)',
+  usage: './atr feedback [--since YYYY-MM-DD] [--dir <feedback-dir>] [--json]\n       ./atr feedback pull --from-convex [--url <site>]   (the live logs into .cache/feedback-live/, which the read-only commands then use)\n       ./atr feedback --new                 (only what arrived since you last marked it seen, grouped for action)\n       ./atr feedback --place <id>          (every verdict, duel and question for one place or area)\n       ./atr feedback --mark-seen [--upto <ts>]   (after processing: move the cursor)\n       ./atr feedback --mark-seen --place <id>    (only that page\'s feedback is done; the rest stays new)',
   details: 'Reads feedback/swipes.jsonl, duels.jsonl, questions.jsonl, notes.jsonl (the traveler\'s own notes on cards) and route.jsonl (the order of cities and nights per country from the game\'s Route tab; shown under "Route", seeded from `route:` in config/trip.yaml); format: docs/FEEDBACK-FORMAT.md. Bad lines are skipped with a warning. The "seen" cursor is places/_feedback-seen.json; --mark-seen sets it to the newest event (or to --upto, the timestamp --new printed, so events that arrived while you worked stay new).',
-  options: { since: { type: 'string', desc: 'only events on/after this date' }, dir: { type: 'string', desc: 'feedback directory' }, new: { type: 'boolean', desc: 'only events after the cursor: questions per place, new musts/skips, area musts' }, place: { type: 'string', desc: 'everything about one place or area id; with --mark-seen: mark only that page\'s feedback as seen' }, 'mark-seen': { type: 'boolean', desc: 'move the cursor (run it after you processed --new)' }, upto: { type: 'string', desc: '--mark-seen: mark seen up to this ISO timestamp' } },
-  examples: ['./atr feedback', './atr feedback --new', './atr feedback --place yu-garden', './atr feedback --mark-seen --upto 2026-11-21T11:10:00Z'],
-  async run(o) {
+  options: { ...PULL_OPTION, since: { type: 'string', desc: 'only events on/after this date' }, dir: { type: 'string', desc: 'feedback directory (default ATR_FEEDBACK_DIR, else .cache/feedback-live/ after a pull, else feedback/)' }, new: { type: 'boolean', desc: 'only events after the cursor: questions per place, new musts/skips, area musts' }, place: { type: 'string', desc: 'everything about one place or area id; with --mark-seen: mark only that page\'s feedback as seen' }, 'mark-seen': { type: 'boolean', desc: 'move the cursor (run it after you processed --new)' }, upto: { type: 'string', desc: '--mark-seen: mark seen up to this ISO timestamp' } },
+  examples: ['./atr feedback pull --from-convex', './atr feedback', './atr feedback --new', './atr feedback --place yu-garden', './atr feedback --mark-seen --upto 2026-11-21T11:10:00Z'],
+  async run(o, pos = []) {
+    if (pos[0] === 'pull') return pullCmd('feedback', o);
     const { readFeedback, tasteSummary, formatTaste, newFeedback, formatNewFeedback, placeFeedback, formatPlaceFeedback, markSeen } = await import('../lib/feedback/index.js');
     const { loadTripConfig } = await import('../lib/config.js');
-    const dir = o.dir ? path.resolve(o.dir) : dataRoots(o).feedback;
+    const dir = await readFeedbackDir(o);
     if (o['mark-seen']) {
       if (o.upto && isNaN(Date.parse(o.upto))) return fail(`--upto must be an ISO timestamp like 2026-11-21T11:10:00Z (./atr feedback --new prints it)`);
       const r = markSeen(readFeedback(dir), { ...o, ts: o.upto, place: o.place });
@@ -569,7 +594,9 @@ cmd('run', {
     if (o.auto) {
       const count = pos.length ? Number(pos[0]) : 1;
       if (pos.length > 1 || !Number.isInteger(count) || count < 1) return fail('--auto takes an optional count: ./atr run --auto 3   (for a task of your own, drop --auto)');
-      const a = await runAuto({ ...common, count, country: o.country });
+      const { nextTasks } = await import('../lib/next.js');
+      const feedbackDir = await readFeedbackDir(o);
+      const a = await runAuto({ ...common, count, country: o.country, next: (no) => nextTasks({ ...no, feedbackDir }) });
       if (o.json) return console.log(JSON.stringify(a, null, 2));
       if (a.dryRun) return;
       for (const r of a.runs) report(r);
@@ -586,6 +613,31 @@ cmd('run', {
     const last = r.rounds.at(-1);
     if (last?.result) console.log(`\n${c.dim('curator report:')}\n${last.result}`);
     if (!r.clean) process.exitCode = 1;
+  },
+});
+
+// ───────────────────────── trip ─────────────────────────
+cmd('trip', {
+  summary: 'trip planner data: pull the live collections (legs, tasks, bag, …), or edit one document',
+  usage: "./atr trip pull --from-convex [--url <site>]\n       ./atr trip set <collection> [id] --data '<json>'      (create, or replace the whole document)\n       ./atr trip update <collection> <id> --data '<json>'  (merge fields; null clears one)\n       ./atr trip delete <collection> <id>\n       add --local to write to the local backend (ATR_SLOT), --dry-run to only print the request",
+  details: `pull writes trip/*.json from the site export into .cache/trip-live/ (gitignored). Same rules as ./atr feedback pull: the token comes from ATR_EXPORT_TOKEN or the macOS keychain (service atr-export-token), checksums are verified, and a target with files newer than the last pull is never replaced.
+
+set, update and delete edit the new site's data through the Convex function trip:adminWrite (the same rules as the trip pages), run by scripts/convex-prod.sh (or scripts/convex-local.sh with --local), which holds the admin key; this command never sees it. Collections: tasks, legs, bag, budget, fixed, spend, settings, days, visited; fields as in docs/TRIP.md. It refuses while writes are frozen (cutover or rollback), and asks before writing to the live data (--yes skips the question after you checked the request). Until the cutover the live site is the old one: change bookings in its trip pages.`,
+  options: { ...PULL_OPTION, data: { type: 'string', desc: "set/update: the fields as a JSON object, e.g. '{\"status\":\"booked\"}'" }, local: { type: 'boolean', desc: 'set/update/delete: write to the local backend of ATR_SLOT instead of prod' }, yes: { type: 'boolean', desc: 'set/update/delete: do not ask before writing to prod (check the request first)' }, 'dry-run': { type: 'boolean', desc: 'set/update/delete: check the request and print it; nothing is sent' } },
+  examples: ['./atr trip pull --from-convex', "./atr trip update tasks visa-china --data '{\"status\":\"done\"}'", "./atr trip set spend --data '{\"date\":\"2026-12-03\",\"amount\":120,\"currency\":\"CNY\",\"what\":\"dumplings\"}' --dry-run", './atr trip delete bag old-adapter --local'],
+  async run(o, pos = []) {
+    const [what, ...rest] = pos;
+    if (what === 'pull') return pullCmd('trip', o);
+    if (!['set', 'update', 'delete'].includes(what)) return fail(`say what to do: ./atr trip pull | set | update | delete${what ? ` (not "${what}")` : ''}`);
+    const { tripWrite, TripCliError } = await import('../lib/trip-cli.js');
+    try {
+      const r = await tripWrite({ op: what, pos: rest, data: o.data, target: o.local ? 'local' : 'prod', yes: !!o.yes, dryRun: !!o['dry-run'], root: path.dirname(PLATFORM) });
+      if (r.dryRun) return out(o, r, `dry run: nothing sent. Would run on ${r.target}:\n  ${r.command.slice(0, -1).join(' ')} '${r.command.at(-1).replaceAll("'", "'\\''")}'`);
+      out(o, r, `${c.green('✔')} ${r.request.op} ${r.request.col}/${r.doc?.id ?? r.request.id} on ${r.target}${r.doc ? `\n${JSON.stringify(r.doc, null, 2)}` : ''}`);
+    } catch (e) {
+      if (e instanceof TripCliError) return fail(e.message);
+      throw e;
+    }
   },
 });
 
@@ -831,7 +883,7 @@ cmd('answers', {
   usage: './atr answers [--country <c>] [--about <id>]          (list, newest first)\n       ./atr answers --check                              (validate every answer; exit 1 on errors)\n       ./atr answers --ids [--country <c>]                (the ids you can put in about:)\n       ./atr answers publish <file...> [--remove <file>]... [--no-merge] [--dry-run]',
   details: `One Markdown file per answer: answers/<asked>-<short-slug>.md with front matter question, asked (YYYY-MM-DD), about (a place id, an area id, a country id or "trip"), tldr, optional sources [{ title, url }] and updated; the body is the full answer (may be empty). Workflow: .claude/skills/trip-answers/SKILL.md.
 
-publish validates the files, makes a temporary git worktree from a fresh origin/main (your working tree is never touched), copies only those files in (--remove deletes one), commits, pushes a branch, opens a pull request with gh, merges it (merge commit), removes the worktree and the branch, then follows the deploy over SSH (read-only) and checks /healthz. --no-merge stops after opening the PR; --dry-run only validates and prints the plan.`,
+publish validates the files, makes a temporary git worktree from a fresh origin/main (your working tree is never touched), copies only those files in (--remove deletes one), commits, pushes a branch, opens a pull request with gh, merges it (merge commit), removes the worktree and the branch, then follows the deploy over SSH (read-only) and checks /healthz; on the new site it waits until /healthz reports the merge commit (platform/lib/site.js picks the site). --no-merge stops after opening the PR; --dry-run only validates and prints the plan.`,
   options: { check: { type: 'boolean', desc: 'validate every answer file; exit 1 on errors' }, ids: { type: 'boolean', desc: 'list place, area and country ids for about:' }, country: { type: 'string', desc: 'only this country' }, about: { type: 'string', desc: 'list: only answers about this id' }, remove: { type: 'string', multiple: true, desc: 'publish: delete this answer from the site (repeatable)' }, 'no-merge': { type: 'boolean', desc: 'publish: stop after opening the pull request' }, 'dry-run': { type: 'boolean', desc: 'publish: validate and show the plan; nothing fetched, written or pushed' } },
   examples: ['./atr answers', './atr answers --check', './atr answers --ids --country japan', './atr answers publish answers/2026-11-21-yu-garden-passport.md', './atr answers publish --remove answers/2026-11-21-yu-garden-passport.md', './atr answers publish answers/2026-11-21-yu-garden-passport.md --dry-run'],
   async run(o, pos) {
@@ -882,7 +934,7 @@ cmd('schema', {
     const { FEEDBACK_SPECS } = await import('../lib/feedback/index.js');
     const { tasteSpec } = await import('../lib/taste.js');
     const { reviewSpec } = await import('../lib/review.js');
-    const dir = path.join(ROOT, 'platform', 'schema');
+    const dir = path.join(PLATFORM, 'schema');
     const files = {
       'place.schema.json': { title: 'Place', ...toJsonSchema(placeSpec) },
       'area.schema.json': { title: 'Area card', ...toJsonSchema(areaSpec) },

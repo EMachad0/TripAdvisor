@@ -1,0 +1,67 @@
+{
+	"name": "@atr/web",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"files": [
+		"build"
+	],
+	"imports": {
+		"#lib": "./src/lib/index.ts",
+		"#lib/*": "./src/lib/*",
+		"#convex/*": "./src/convex/*"
+	},
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "node build",
+		"prepare": "svelte-kit sync || echo ''",
+		"typecheck": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --fail-on-warnings",
+		"test": "vitest run",
+		"e2e": "playwright test"
+	},
+	"dependencies": {
+		"@atr/platform": "workspace:*",
+		"@convex-dev/better-auth": "catalog:",
+		"@fontsource/fraunces": "catalog:",
+		"@fontsource/inter": "catalog:",
+		"@fontsource/jetbrains-mono": "catalog:",
+		"@mmailaender/convex-better-auth-svelte": "catalog:",
+		"better-auth": "catalog:",
+		"convex": "catalog:",
+		"convex-helpers": "catalog:",
+		"convex-svelte": "catalog:",
+		"idb": "catalog:",
+		"sharp": "catalog:"
+	},
+	"devDependencies": {
+		"@atr/shared": "workspace:*",
+		"@edge-runtime/vm": "catalog:",
+		"@internationalized/date": "catalog:",
+		"@lucide/svelte": "^1.73.0",
+		"@playwright/test": "catalog:",
+		"@sveltejs/adapter-node": "catalog:",
+		"@sveltejs/kit": "catalog:",
+		"@sveltejs/vite-plugin-svelte": "catalog:",
+		"@tailwindcss/vite": "catalog:",
+		"@types/node": "catalog:",
+		"bits-ui": "catalog:",
+		"clsx": "catalog:",
+		"cn": "catalog:",
+		"convex-test": "catalog:",
+		"fake-indexeddb": "catalog:",
+		"shadcn-svelte": "catalog:",
+		"svelte": "catalog:",
+		"svelte-check": "catalog:",
+		"svelte-sonner": "catalog:",
+		"tailwind-merge": "catalog:",
+		"tailwind-variants": "^3.3.0",
+		"tailwindcss": "catalog:",
+		"tw-animate-css": "catalog:",
+		"typescript": "catalog:",
+		"vaul-svelte": "catalog:",
+		"vite": "catalog:",
+		"vitest": "catalog:"
+	}
+}
