@@ -4,7 +4,7 @@
 // packages/migrate/src/bundle.ts:
 //   { format: "atr-v1-bundle", version: 1, generatedAt, files: { "<feedback|trip>/<name>": { count, sha256, content } } }
 // Sources (plan section 7): --from-convex is GET /ops/export on the new app's Convex site (this file); --from-backup
-// (the old site's encrypted backup) is not built in this checkout. DEFAULT_SOURCE stays 'backup' until the cutover
+// (the old site's encrypted backup) is not built in this checkout. DEFAULT_SOURCE is 'convex' since the cutover
 // PR flips it to 'convex', so a bare `pull` never silently reads the shadow backend before the cutover.
 // Rules:
 // - the token comes from ATR_EXPORT_TOKEN or the macOS keychain (service "atr-export-token"); it is never an
@@ -28,9 +28,9 @@ export const PULL_KINDS = {
   feedback: { prefix: 'feedback/', dir: 'feedback-live' },
   trip: { prefix: 'trip/', dir: 'trip-live' },
 };
-/** Where a pull can come from; the cutover PR changes DEFAULT_SOURCE to 'convex'. */
+/** Where a pull can come from. */
 export const SOURCES = ['convex', 'backup'];
-export const DEFAULT_SOURCE = 'backup';
+export const DEFAULT_SOURCE = 'convex';
 /** Every file GET /ops/export carries for each kind (@atr/shared v1 exportV1Files); a pull refuses a bundle without one. */
 export const EXPECTED_FILES = {
   feedback: ['duels.jsonl', 'game-state.json', 'notes.jsonl', 'questions.jsonl', 'route.jsonl', 'swipes.jsonl'],

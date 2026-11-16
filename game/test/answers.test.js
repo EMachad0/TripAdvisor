@@ -11,6 +11,7 @@ import { parseAnswer, validateAnswers, checkAnswers, siteAnswers, resolveAbout, 
 import { renderAnswerCard, renderAnswersSection } from '../../platform/lib/render/answers.js';
 import { publishAnswers, describeChanges, followDeploy, PublishError, COMMIT_TRAILER, PR_FOOTER, sh } from '../../platform/lib/publish.js';
 import { ROOT } from '../../platform/lib/paths.js';
+import { SITES } from '../../platform/lib/site.js';
 import { startServer } from '../server.js';
 
 const FIX = path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures');
@@ -210,7 +211,8 @@ function fakeRepo() {
     return sh(cmd, args, o);
   };
   const fetchImpl = async () => ({ ok: true, status: 200 });
-  const opts = { root: work, run, fetchImpl, sleep: async () => {}, log: () => {}, dataOpts: { includeFixtures: true } };
+  // These tests cover the old app's publish (a deploy followed over ssh); trip-cli.test.js covers the new app's.
+  const opts = { site: SITES.old, root: work, run, fetchImpl, sleep: async () => {}, log: () => {}, dataOpts: { includeFixtures: true } };
   return { dir, origin, work, git, calls, opts };
 }
 
@@ -286,11 +288,11 @@ test('publish: --no-merge stops after the PR; the deploy follower never triggers
   // follower: lists deployments only; ssh failure → "unconfirmed"
   const seen = [];
   const run = (cmd, args) => { seen.push(args.at(-1)); return { code: 255, stdout: '', stderr: 'Permission denied' }; };
-  const f = await followDeploy('abc123', { run, log: () => {}, sleep: async () => {} });
+  const f = await followDeploy('abc123', { site: SITES.old, run, log: () => {}, sleep: async () => {} });
   assert.equal(f.status, 'unconfirmed');
   assert.match(f.detail, /could not reach the server over SSH/);
   assert.doesNotMatch(seen[0], /deploy-trip|POST|-X/, 'read-only: it never starts a deploy');
-  const failed = await followDeploy('abc123', { run: () => ({ code: 0, stdout: JSON.stringify([{ commit: 'abc123', status: 'failed' }]) }), log: () => {}, sleep: async () => {} });
+  const failed = await followDeploy('abc123', { site: SITES.old, run: () => ({ code: 0, stdout: JSON.stringify([{ commit: 'abc123', status: 'failed' }]) }), log: () => {}, sleep: async () => {} });
   assert.equal(failed.status, 'failed');
 });
 

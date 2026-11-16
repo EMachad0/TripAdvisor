@@ -158,12 +158,12 @@ test('cli: ./atr trip set --dry-run, bad requests and unknown verbs', () => {
 });
 
 // ---------------- the site switch ----------------
-test('site.js: the old app stays active until the cutover; ATR_SITE overrides for one command', () => {
-  assert.equal(ACTIVE_SITE, 'old', 'the cutover PR flips this to new');
-  assert.equal(activeSiteName({}), 'old');
-  assert.equal(activeSiteName({ ATR_SITE: 'new' }), 'new');
-  assert.equal(activeSiteName({ ATR_SITE: 'toString' }), 'old', 'only a real app name');
-  assert.equal(siteSettings({ ATR_SITE: 'new' }), SITES.new);
+test('site.js: the new app is active since the cutover; ATR_SITE overrides for one command', () => {
+  assert.equal(ACTIVE_SITE, 'new');
+  assert.equal(activeSiteName({}), 'new');
+  assert.equal(activeSiteName({ ATR_SITE: 'old' }), 'old');
+  assert.equal(activeSiteName({ ATR_SITE: 'toString' }), 'new', 'only a real app name');
+  assert.equal(siteSettings({ ATR_SITE: 'old' }), SITES.old);
   assert.equal(SITES.old.healthSha, false);
   assert.equal(SITES.new.healthSha, true);
   assert.equal(SITES.old.coolifyApp, 'zoom1ixd7gj2y4snw6oculrb', 'the old app id is unchanged');

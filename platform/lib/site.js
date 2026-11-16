@@ -4,12 +4,12 @@
 // - `old`: game/server.js on Coolify (`trip-site`). Its /healthz answers {"ok":true}, with no commit sha.
 // - `new`: the SvelteKit app (`trip-web`) with its Convex backend. Its /healthz answers {ok, sha}, so a publish
 //   waits until the site serves the merged commit; the curator export (GET /ops/export) is on the Convex site.
-// ACTIVE_SITE stays 'old' until the cutover PR flips it to 'new'. ATR_SITE=old|new overrides it for one command
+// ACTIVE_SITE is 'new' since the cutover of 2026-11-16; the old app stays read-only at old.<site> as the fallback. ATR_SITE=old|new overrides it for one command
 // (a dry run or a test); it changes which links are printed and what a publish waits for, nothing else.
 export const SITES = {
   old: {
     name: 'old',
-    url: 'https://trip.187.53.115.237.sslip.io',
+    url: 'https://old.trip.187.53.115.237.sslip.io',
     /** SSH login on the VPS; used read-only to follow a deploy (never to start one). */
     ssh: 'root@187.53.115.237',
     /** Coolify application id of the trip site. */
@@ -23,10 +23,10 @@ export const SITES = {
   },
   new: {
     name: 'new',
-    // After the cutover the new app takes over the same host (runbook step 8d); new.<site> is the shadow before it.
     url: 'https://trip.187.53.115.237.sslip.io',
     ssh: 'root@187.53.115.237',
-    // Coolify id of `trip-web`: filled in when task 8 creates the app. Until then a publish follows /healthz only.
+    // `trip-web` is Coolify app xbgdnounik78nabmkmecl45d. Left null on purpose: /healthz reports the deployed
+    // commit, so a publish follows that and nothing goes over ssh.
     coolifyApp: null,
     branch: 'main',
     healthSha: true,
@@ -36,8 +36,8 @@ export const SITES = {
   },
 };
 
-/** The app the CLI talks to. The cutover PR changes this one word to 'new' (and the rollback PR changes it back). */
-export const ACTIVE_SITE = 'old';
+/** The app the CLI talks to. A rollback PR changes this one word back to 'old'. */
+export const ACTIVE_SITE = 'new';
 
 /** The active app's name: ATR_SITE when it names an app, else ACTIVE_SITE. */
 export function activeSiteName(env = process.env) {

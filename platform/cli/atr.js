@@ -67,7 +67,7 @@ async function pullCmd(kind, o) {
 }
 const PULL_OPTION = {
   'from-convex': { type: 'boolean', desc: 'pull: from the new site\'s backend (GET /ops/export; before the cutover the shadow copy); token from ATR_EXPORT_TOKEN or the keychain' },
-  'from-backup': { type: 'boolean', desc: 'pull: from the old site\'s backup (the default until the cutover; not available in this checkout yet)' },
+  'from-backup': { type: 'boolean', desc: 'pull: from the old site\'s backup (not available in this checkout)' },
   url: { type: 'string', desc: 'pull --from-convex: the Convex site that serves /ops/export (default ATR_EXPORT_URL, else the new site\'s)' },
 };
 

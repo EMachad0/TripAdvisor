@@ -88,14 +88,14 @@ test('trip pull writes trip-live, and ATR_EXPORT_URL is the default URL', async 
   assert.ok(!fs.existsSync(live(root)));
 });
 
-test('the source: --from-backup is the default until the cutover and is not built, so a bare pull writes nothing', async () => {
-  assert.equal(DEFAULT_SOURCE, 'backup', 'the cutover PR flips this to convex');
+test('the source: --from-convex is the default; --from-backup is not built, so it writes nothing', async () => {
+  assert.equal(DEFAULT_SOURCE, 'convex');
   assert.equal(pullSource({}), DEFAULT_SOURCE);
   assert.equal(pullSource({ fromConvex: true }), 'convex');
   assert.throws(() => pullSource({ fromConvex: true, fromBackup: true }), /pick one source/);
   served = bundle();
   const before = requests.length;
-  for (const args of [['feedback', 'pull', '--url', base], ['trip', 'pull', '--from-backup'], ['feedback', 'pull', '--from-convex', '--from-backup', '--url', base]]) {
+  for (const args of [['feedback', 'pull', '--from-backup', '--url', base], ['trip', 'pull', '--from-backup'], ['feedback', 'pull', '--from-convex', '--from-backup', '--url', base]]) {
     const root = tmpDir();
     const r = await atr(root, args, { ATR_EXPORT_URL: base });
     assert.equal(r.status, 1, args.join(' '));
