@@ -3,6 +3,8 @@
 	bottom sheet with the platform's full page in an iframe (/place/<id>?embed=1 or /area/<id>?embed=1, slice H),
 	and above it a bar with Close, the name and the Skip / Maybe / Must call, then the note editor.
 	- Shallow routing: opening pushes a history entry, so the phone's Back button closes the sheet.
+	- Until the page's text is there ({atr:'ready'} from the page, or the iframe's load event) a skeleton covers the
+	  iframe, so a slow page never looks like an empty sheet. The bar and the note are usable meanwhile.
 	- Closes on the Close button, Escape (not while typing a note), the backdrop, and the page's {atr:'close'}
 	  postMessage; {atr:'open', id} opens that place in the same sheet. The theme toggle reaches the iframe
 	  ({atr:'theme'}).
@@ -25,6 +27,7 @@
 	import { page } from '$app/state';
 	import { Button } from '#lib/components/ui/button/index.js';
 	import * as Sheet from '#lib/components/ui/sheet/index.js';
+	import { Skeleton } from '#lib/components/ui/skeleton/index.js';
 	import { holdRefresh } from '#lib/components/shell/refresh.svelte.js';
 	import TzText from '#lib/components/shell/TzText.svelte';
 	import { getAppData } from '#lib/content/app-data.svelte.js';
@@ -74,6 +77,9 @@
 	const note = $derived(view === null ? '' : (app.feedback?.notes[view.kind][view.id] ?? ''));
 
 	let frame: HTMLIFrameElement | undefined = $state();
+	/** The src whose page has its text on screen; the skeleton covers the iframe until it matches. */
+	let readySrc = $state('');
+	const loading = $derived(src !== '' && readySrc !== src);
 
 	// ---- shallow routing: opening adds a history entry, Back (popstate) closes the sheet
 	/** The sheet's history entry is in place. */
@@ -125,6 +131,14 @@
 			const data = e.data;
 			if (typeof data !== 'object' || data === null || !('atr' in data)) return;
 			if (data.atr === 'close') close();
+			if (
+				data.atr === 'ready' &&
+				e.source === frame?.contentWindow &&
+				'path' in data &&
+				data.path === src.split('#')[0]
+			) {
+				readySrc = src;
+			}
 			if (data.atr === 'open' && 'id' in data && typeof data.id === 'string') {
 				const id = data.id;
 				if (app.content.places.some((p) => p.id === id)) {
@@ -227,8 +241,41 @@
 				{/if}
 			{/if}
 			{#if view !== null}
-				<iframe bind:this={frame} {src} {title} class="w-full flex-1 border-0 bg-background"
-				></iframe>
+				<div class="relative flex min-h-0 flex-1 flex-col">
+					<iframe
+						bind:this={frame}
+						{src}
+						{title}
+						class="w-full flex-1 border-0 bg-background"
+						aria-busy={loading}
+						onload={() => {
+							readySrc = src;
+						}}
+					></iframe>
+					{#if loading}
+						<div
+							class="absolute inset-0 overflow-hidden bg-background p-3 md:p-4"
+							role="status"
+							aria-label="Loading the page"
+							data-sheet-loading
+						>
+							<Skeleton class="h-64 w-full md:h-96" />
+							<div class="mx-auto flex max-w-3xl flex-col gap-4 py-6">
+								<Skeleton class="h-8 w-2/3" />
+								<Skeleton class="h-4 w-full" />
+								<Skeleton class="h-4 w-11/12" />
+								<Skeleton class="h-4 w-3/4" />
+								<div class="mt-4 grid grid-cols-2 gap-3 md:grid-cols-4">
+									<Skeleton class="h-20" />
+									<Skeleton class="h-20" />
+									<Skeleton class="h-20" />
+									<Skeleton class="h-20" />
+								</div>
+								<Skeleton class="mt-4 h-40 w-full" />
+							</div>
+						</div>
+					{/if}
+				</div>
 			{/if}
 		</div>
 	</Sheet.Content>

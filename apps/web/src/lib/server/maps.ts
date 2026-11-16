@@ -34,8 +34,8 @@ export interface EmbeddedMap {
 
 /** Cache-Control of every map response (old server: max-age=86400). */
 export const MAP_CACHE_CONTROL = 'max-age=86400';
-/** How long a page waits for its map before rendering without one (old server: 6 s). */
-export const MAP_TIMEOUT_MS = 6000;
+/** How many OpenStreetMap tiles one map fetches at a time. */
+const TILE_CONCURRENCY = 4;
 
 // ---------------------------------------------------------------- raw content files
 
@@ -154,6 +154,9 @@ export function mapKey(
 	return `${lat.toFixed(5)}_${lng.toFixed(5)}_${String(z)}_${String(width)}x${String(height)}.webp`;
 }
 
+/** The size of every place and area map. */
+const MAP_SIZE = { width: 1200, height: 720 } as const;
+
 const inflight = new Map<string, Promise<MapImage | null>>();
 
 /**
@@ -166,8 +169,8 @@ export function renderStaticMap(
 	lng: unknown,
 	{
 		zoom = 16,
-		width = 1200,
-		height = 720,
+		width = MAP_SIZE.width,
+		height = MAP_SIZE.height,
 	}: { zoom?: number; width?: number; height?: number } = {},
 	deps: RenderDeps = {},
 ): Promise<MapImage | null> {
@@ -186,16 +189,23 @@ export function renderStaticMap(
 		try {
 			const z = Math.min(19, zoom + 1);
 			const w = tileWindow(lat, lng, z, width, height);
-			const comps: OverlayOptions[] = [];
+			const spots: { x: number; y: number }[] = [];
 			for (let x = w.x0; x <= w.x1; x++) {
-				for (let y = w.y0; y <= w.y1; y++) {
+				for (let y = w.y0; y <= w.y1; y++) spots.push({ x, y });
+			}
+			// A few tiles at a time: one by one, a map nobody has opened yet took several seconds.
+			const comps: OverlayOptions[] = [];
+			let next = 0;
+			const worker = async (): Promise<void> => {
+				for (let spot = spots[next++]; spot !== undefined; spot = spots[next++]) {
 					comps.push({
-						input: await tile(z, x, y, d),
-						left: (x - w.x0) * TILE,
-						top: (y - w.y0) * TILE,
+						input: await tile(z, spot.x, spot.y, d),
+						left: (spot.x - w.x0) * TILE,
+						top: (spot.y - w.y0) * TILE,
 					});
 				}
-			}
+			};
+			await Promise.all(Array.from({ length: TILE_CONCURRENCY }, worker));
 			const big = await sharp({
 				create: { width: w.fullWidth, height: w.fullHeight, channels: 3, background: '#e8e4dc' },
 			})
@@ -296,52 +306,48 @@ export async function routeMap(frame: RouteFrameArgs): Promise<MapImage | null> 
 	return renderStaticMap(lat, lng, { zoom, width, height });
 }
 
-/** The render, or null when it takes longer than `ms` (the render keeps going and fills the cache). */
-async function within<T>(render: Promise<T>, ms: number): Promise<T | null> {
-	let timer: ReturnType<typeof setTimeout> | undefined;
-	const late = new Promise<null>((resolve) => {
-		timer = setTimeout(() => {
-			resolve(null);
-		}, ms);
-	});
-	try {
-		return await Promise.race([render, late]);
-	} catch {
-		return null;
-	} finally {
-		clearTimeout(timer);
-	}
-}
-
-/** embeddedMap over given content files and render options (tests and the live function). */
-export async function embeddedMapOf(
+/**
+ * embeddedMap over given content files and render options (tests and the live function). The page never waits for
+ * the image: a map not in the cache yet starts rendering here and the page's <img> gets it from /map or /area-map
+ * when it is done. Offline with no cached image there is nothing to show, so the page gets no map.
+ */
+export function embeddedMapOf(
 	files: ContentFiles,
 	kind: 'place' | 'area',
 	id: string,
-	deps: RenderDeps & { timeoutMs?: number } = {},
+	deps: RenderDeps = {},
 ): Promise<EmbeddedMap | null> {
-	let render: Promise<MapImage | null>;
+	let point: { lat: unknown; lng: unknown; zoom: number };
 	let url: string;
 	if (kind === 'place') {
 		const p = files.byId.get(id);
 		const block = p === undefined ? null : mapBlock(p);
-		if (p === undefined || block === null || block.embed === false) return null;
-		render = renderStaticMap(p.location?.lat, p.location?.lng, { zoom: placeZoom(p) }, deps);
+		if (p === undefined || block === null || block.embed === false) return Promise.resolve(null);
+		point = { lat: p.location?.lat, lng: p.location?.lng, zoom: placeZoom(p) };
 		url = `/map/${encodeURIComponent(p.id)}.webp`;
 	} else {
 		const a = files.areas.find((x) => x.id === id);
-		if (a === undefined || typeof a.lat !== 'number' || typeof a.lng !== 'number') return null;
-		render = renderStaticMap(a.lat, a.lng, { zoom: areaZoom(a) }, deps);
+		if (a === undefined) return Promise.resolve(null);
+		point = { lat: a.lat, lng: a.lng, zoom: areaZoom(a) };
 		url = `/area-map/${encodeURIComponent(a.id)}.webp`;
 	}
-	const m = await within(render, deps.timeoutMs ?? MAP_TIMEOUT_MS);
-	return m === null ? null : { url, width: m.width, height: m.height };
+	const { lat, lng, zoom } = point;
+	if (typeof lat !== 'number' || typeof lng !== 'number') return Promise.resolve(null);
+	const { width, height } = MAP_SIZE;
+	const cached = fs.existsSync(
+		path.join(deps.cacheDir ?? mapCacheDir(), 'maps', mapKey(lat, lng, zoom, width, height)),
+	);
+	if (!cached) {
+		if (deps.offline ?? process.env['ATR_OFFLINE'] === '1') return Promise.resolve(null);
+		void renderStaticMap(lat, lng, { zoom }, deps);
+	}
+	return Promise.resolve({ url, width, height });
 }
 
 /**
- * A page's embedded map: the image if it renders within MAP_TIMEOUT_MS, else null (the page shows none). A place
- * embeds one only when it has a map block without `embed: false`; an area when it has coordinates.
+ * A page's embedded map: its URL and size, without waiting for the image. A place embeds one only when it has a map
+ * block without `embed: false`; an area when it has coordinates.
  */
-export async function embeddedMap(kind: 'place' | 'area', id: string): Promise<EmbeddedMap | null> {
+export function embeddedMap(kind: 'place' | 'area', id: string): Promise<EmbeddedMap | null> {
 	return embeddedMapOf(contentFiles(), kind, id);
 }

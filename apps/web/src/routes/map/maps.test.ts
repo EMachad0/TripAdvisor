@@ -226,7 +226,7 @@ describe('the maps of places and areas', () => {
 		expect(await embeddedMapOf(files(), 'area', 'nowhere', deps)).toBeNull();
 	});
 
-	test('a slow map is left out of the page after the timeout, and still fills the cache', async () => {
+	test('a page does not wait for a slow map: it embeds the URL at once and the render fills the cache', async () => {
 		const cacheDir = tmpDir();
 		let release: () => void = () => undefined;
 		const gate = new Promise<void>((r) => {
@@ -236,13 +236,31 @@ describe('the maps of places and areas', () => {
 			await gate;
 			return new Response(new Uint8Array(await png()));
 		};
-		const deps = { cacheDir, fetch: slow, offline: false, timeoutMs: 20 };
-		expect(await embeddedMapOf(files(), 'area', 'harbin', deps)).toBeNull();
+		const deps = { cacheDir, fetch: slow, offline: false };
+		expect(await embeddedMapOf(files(), 'area', 'harbin', deps)).toEqual({
+			url: '/area-map/harbin.webp',
+			width: 1200,
+			height: 720,
+		});
+		expect(fs.existsSync(path.join(cacheDir, 'maps'))).toBe(false);
 		release();
 		await vi.waitFor(() => {
 			expect(
 				fs.existsSync(path.join(cacheDir, 'maps', '45.80380_126.53490_11_1200x720.webp')),
 			).toBe(true);
+		});
+	});
+
+	test('offline, a page embeds only a map that is already in the cache', async () => {
+		const cacheDir = tmpDir();
+		const server = tileServer();
+		const offline = { cacheDir, fetch: server.fetch, offline: true };
+		expect(await embeddedMapOf(files(), 'area', 'harbin', offline)).toBeNull();
+		await areaMapOf(files(), 'harbin', { ...offline, offline: false });
+		expect(await embeddedMapOf(files(), 'area', 'harbin', offline)).toEqual({
+			url: '/area-map/harbin.webp',
+			width: 1200,
+			height: 720,
 		});
 	});
 });
