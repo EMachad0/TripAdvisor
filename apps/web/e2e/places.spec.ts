@@ -152,7 +152,8 @@ test.describe('owner', () => {
 		const gate = new Promise<void>((r) => {
 			release = r;
 		});
-		await page.route('**/place/shibuya-sky?embed=1', async (route) => {
+		// On the context, not the page: the service worker makes this request once it controls the page.
+		await page.context().route(/\/place\/shibuya-sky\?embed=1/, async (route) => {
 			await gate;
 			await route.continue();
 		});

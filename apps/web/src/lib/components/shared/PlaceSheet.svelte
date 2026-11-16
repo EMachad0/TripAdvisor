@@ -249,7 +249,8 @@
 						class="w-full flex-1 border-0 bg-background"
 						aria-busy={loading}
 						onload={() => {
-							readySrc = src;
+							// Not the empty document an iframe starts with: that one says nothing about the page.
+							if (frame?.contentWindow?.location.href !== 'about:blank') readySrc = src;
 						}}
 					></iframe>
 					{#if loading}
