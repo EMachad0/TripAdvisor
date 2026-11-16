@@ -93,6 +93,18 @@ test.describe('owner', () => {
 		await expect(page).toHaveURL(/\/decide$/);
 		await expect(page.getByRole('navigation', { name: 'Decide pages' })).toBeVisible();
 	});
+
+	// page.goto resolves at `load`, before hydration ends. On WebKit the next navigation aborts the page's pending
+	// module imports; unpatched Kit then reloaded the old URL and the navigation was "interrupted by another
+	// navigation" (patches/@sveltejs__kit@3.2.0.patch). Back-to-back gotos hit that window on most runs.
+	test('a navigation that starts while the page is still hydrating is not cancelled', async ({
+		page,
+	}) => {
+		for (const path of ['/trip/itinerary', '/places', '/decide/swipe', '/prep/bag', '/places'])
+			await page.goto(path);
+		await expect(page).toHaveURL(/\/places$/);
+		await expect(page.getByRole('navigation', { name: 'Places pages' })).toBeVisible();
+	});
 });
 
 test.describe('guest', () => {

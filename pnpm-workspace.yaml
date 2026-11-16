@@ -113,3 +113,10 @@ catalog:
   svelte-sonner: 1.2.3
   # offline outbox (slice L)
   idb: 8.0.4
+
+# Kit 3.2.0: when a navigation away starts while the page is still hydrating, WebKit aborts the pending module
+# imports and Kit's hydration fallback reloads the current URL, cancelling the navigation the visitor asked for
+# (a link tapped on a slow phone; the iphone e2e flake in shell.spec.ts). The patch gives up quietly instead.
+# Drop it once upstream Kit handles this.
+patchedDependencies:
+  '@sveltejs/kit@3.2.0': patches/@sveltejs__kit@3.2.0.patch
