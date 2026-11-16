@@ -16,6 +16,14 @@ function buildVersion(): string {
 	}
 }
 
+// Kit validates src/env.ts at startup, also under Vitest. A fresh clone (CI) has no gitignored .env.local, so unit
+// tests get the non-secret local defaults of .env.example; a value already set in the environment wins.
+if (process.env['VITEST'] !== undefined) {
+	process.env['PUBLIC_CONVEX_URL'] ??= 'http://127.0.0.1:3210';
+	process.env['PUBLIC_CONVEX_SITE_URL'] ??= 'http://127.0.0.1:3211';
+	process.env['PUBLIC_SITE_URL'] ??= 'http://localhost:5173';
+}
+
 // ATR_SLOT > 0 (parallel e2e slots, e2e/slot.ts) builds into its own directories.
 const { kitOutDir, buildDir } = slot();
 

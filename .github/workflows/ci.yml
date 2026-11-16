@@ -56,11 +56,25 @@ jobs:
       - run: pnpm test:ws
       - run: node --test "game/test/**/*.test.js"
 
+  # One job per Playwright project, each on its own runner with its own backend (like the local ATR_SLOT slots):
+  # the three projects ran one after another in a single job and outgrew its limit. The specs share backend state
+  # (serial describes), so each job keeps one worker; `setup` runs in every job as the projects' dependency.
   e2e:
     needs: changes
     if: needs.changes.outputs.code == 'true'
     runs-on: ubuntu-24.04
     timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - project: desktop
+            browser: chromium
+          - project: pixel
+            browser: chromium
+          - project: iphone
+            browser: webkit
+    name: e2e (${{ matrix.project }})
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: pnpm/setup@731dfb6463bbd11c11fd0ee11fe00ed0e36d48a1 # v3.2.0
@@ -68,14 +82,21 @@ jobs:
           runtime: node@24
           cache: true
           require-lockfile: true
-      - run: pnpm --filter @atr/web exec playwright install --with-deps chromium webkit
+      - id: playwright
+        run: echo "version=$(pnpm --filter @atr/web exec playwright --version | awk '{print $2}')" >>"$GITHUB_OUTPUT"
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}-${{ matrix.browser }}
+      # With the browser cached this only installs the system libraries.
+      - run: pnpm --filter @atr/web exec playwright install --with-deps ${{ matrix.browser }}
       # The Playwright webServer starts the pinned self-hosted Convex backend with docker compose
       # (scripts/convex-local.sh e2e-backend), deploys, seeds generated test accounts and builds the app.
-      - run: pnpm e2e
+      - run: pnpm e2e --project=${{ matrix.project }}
       - if: failure()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
-          name: playwright-report
+          name: playwright-report-${{ matrix.project }}
           path: apps/web/playwright-report
           retention-days: 7
       - if: always()
