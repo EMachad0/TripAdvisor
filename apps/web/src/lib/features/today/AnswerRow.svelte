@@ -19,13 +19,18 @@
 	const about = $derived(answer.about);
 </script>
 
-<li class="flex flex-col gap-1 py-3 first:pt-0 last:pb-0" data-answer={answer.id}>
-	<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -- href is built from resolve() by the parent -->
-	<a {href} class="font-serif text-base leading-snug font-semibold hover:text-cat hover:underline"
+<li class="flex flex-col gap-1.5 px-3 py-3.5" data-answer={answer.id}>
+	<!-- eslint-disable svelte/no-navigation-without-resolve -- href is built from resolve() by the parent -->
+	<a
+		{href}
+		class="rounded-sm font-serif text-base leading-snug font-semibold text-balance transition-colors duration-200 hover:text-cat focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
 		>{answer.question}</a
 	>
-	<p class="text-sm text-ink-2"><TzText text={plainMd(answer.tldr)} offset={answer.tz} /></p>
-	<small class="text-xs text-ink-3">
+	<!-- eslint-enable svelte/no-navigation-without-resolve -->
+	<p class="line-clamp-3 text-sm leading-relaxed text-ink-2">
+		<TzText text={plainMd(answer.tldr)} offset={answer.tz} />
+	</p>
+	<small class="text-xs text-ink-3 nums">
 		{askedLabel(answer)} ·
 		{#if about.kind === 'trip'}
 			Whole trip
@@ -35,7 +40,7 @@
 			{@const kind = about.kind}
 			<button
 				type="button"
-				class="font-medium text-ink-2 underline underline-offset-2 hover:text-cat"
+				class="rounded-sm font-medium text-ink-2 underline decoration-ink-3/40 underline-offset-2 transition-colors hover:text-cat hover:decoration-cat focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
 				onclick={() => {
 					onopenabout(kind, about.id);
 				}}>{about.name}</button

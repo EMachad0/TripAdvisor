@@ -26,8 +26,8 @@
 
 <div
 	class={cn(
-		'absolute inset-x-2 z-20 rounded-2xl border border-border bg-card px-4 py-3.5 shadow-big md:right-auto md:w-90',
-		top ? 'top-2' : 'bottom-2',
+		'pop absolute inset-x-2 z-20 panel px-4 pt-3.5 pb-4 md:inset-x-3 md:right-auto md:w-96',
+		top ? 'top-2 md:top-3' : 'bottom-2 md:bottom-3',
 	)}
 	role="dialog"
 	aria-label={card.name}
@@ -37,56 +37,59 @@
 	<Button
 		variant="ghost"
 		size="icon-lg"
-		class="absolute top-1.5 right-1.5"
+		class="absolute top-2 right-2 pointer-coarse:size-11"
 		aria-label="Close"
 		onclick={onclose}><XIcon /></Button
 	>
-	<p class="mr-10 mb-1 text-xs font-bold tracking-widest text-ink-3 uppercase" data-card-status>
+	<p class="mr-12 mb-1 eyebrow" data-card-status>
 		{card.country.flag}
 		{card.status}
 	</p>
 	<h3
-		class="mr-10 mb-1.5 flex flex-wrap items-center gap-2 font-serif text-2xl leading-tight font-semibold"
+		class="mr-12 mb-1 flex flex-wrap items-center gap-x-2.5 gap-y-1 font-serif text-2xl leading-tight font-semibold tracking-tight"
 	>
 		{card.name}
 		{#if v}
 			<span
 				class={cn(
-					'rounded-full px-2 py-1 font-sans text-xs leading-none font-bold tracking-wider uppercase',
-					v === 'must' && 'bg-must/15 text-must',
-					v === 'maybe' && 'bg-maybe/15 text-maybe',
-					v === 'skip' && 'bg-surface-2 text-ink-3',
+					'rounded-full px-2 py-1 font-sans text-2xs leading-none font-semibold tracking-wider uppercase',
+					v === 'must' && 'bg-must/12 text-must',
+					v === 'maybe' && 'bg-maybe/12 text-maybe',
+					v === 'skip' && 'bg-muted text-muted-foreground',
 				)}>{VERDICT_LABEL[v]}</span
 			>
 		{/if}
 	</h3>
-	<p class="mb-1 text-sm text-ink-2" data-card-when>{card.when}</p>
-	<p class="mb-3 text-sm text-ink-2" data-card-places>
+	<p class="text-sm text-foreground nums" data-card-when>{card.when}</p>
+	<p class="mt-0.5 text-sm text-muted-foreground nums" data-card-places>
 		{#if card.places.total}
-			<b class="text-ink">{card.places.must}</b> must · <b class="text-ink">{card.places.maybe}</b>
+			<b class="font-semibold text-must">{card.places.must}</b> must ·
+			<b class="font-semibold text-maybe">{card.places.maybe}</b>
 			maybe
-			<span class="text-ink-3">of {plural(card.places.total, 'place')} here</span>
+			<span>of {plural(card.places.total, 'place')} here</span>
 		{:else}
-			<span class="text-ink-3">No places researched here yet</span>
+			No places researched here yet
 		{/if}
 	</p>
-	<div class="flex flex-wrap items-center gap-2">
+	<div class="mt-3.5 flex flex-wrap items-center gap-2">
 		{#if card.hasPage}
 			<Button
 				variant="outline"
 				size="lg"
+				class="pointer-coarse:h-11"
 				onclick={() => {
 					onopenarea(card.area);
 				}}>Area page →</Button
 			>
 		{:else}
-			<span class="text-sm text-ink-3">No area page yet</span>
+			<span class="text-sm text-muted-foreground">No area page yet</span>
 		{/if}
 		{#if edit}
 			{#if card.stop}
 				<Button
 					variant="destructive"
 					size="lg"
+					class="pointer-coarse:h-11"
 					data-pop-remove
 					onclick={() => {
 						onremove(card.key);
@@ -95,6 +98,7 @@
 			{:else}
 				<Button
 					size="lg"
+					class="pointer-coarse:h-11"
 					data-pop-add
 					onclick={() => {
 						onadd(card.key);
@@ -104,3 +108,20 @@
 		{/if}
 	</div>
 </div>
+
+<style>
+	.pop {
+		box-shadow: var(--elev-2);
+	}
+	@media (prefers-reduced-motion: no-preference) {
+		.pop {
+			animation: pop-in 0.2s var(--ease-soft);
+		}
+	}
+	@keyframes pop-in {
+		from {
+			opacity: 0;
+			transform: translateY(6px) scale(0.98);
+		}
+	}
+</style>

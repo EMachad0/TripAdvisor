@@ -309,3 +309,10 @@ export const plainMd = (s: string): string =>
 /** "20 Nov 2026" from the asked date. */
 export const askedLabel = (a: Pick<Answer, 'asked'>): string =>
 	`${fmtShort(a.asked)} ${a.asked.slice(0, 4)}`;
+
+/** The first non-empty line of a task note: Today shows a one-line summary, the To do page the whole note. */
+export const firstLine = (s: string): string =>
+	s
+		.split('\n')
+		.map((x) => x.trim())
+		.find((x) => x !== '') ?? '';

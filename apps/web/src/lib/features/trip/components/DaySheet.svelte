@@ -53,16 +53,16 @@
 	subtitle={`${m.position}${m.stay ? ` · ${stayName(m.stay)}` : ''}`}
 	{onclose}
 >
-	<div data-testid="day-sheet" data-day={day} class="flex flex-col gap-3">
+	<div data-testid="day-sheet" data-day={day} class="flex flex-col gap-4">
 		<DayStatus day={m.day} country={m.stay?.country} fallbackOffset={offsetOn(legs, day)} />
 		{#if m.events.length > 0}
-			<div class="grid gap-2.5">
+			<div class="grid gap-3">
 				{#each m.events as l (l.id)}
 					<LegCard leg={l} {legs} {countries} {places} {ondetail} />
 				{/each}
 			</div>
 		{:else if m.day === null}
-			<div class="rounded-lg border border-dashed border-border">
+			<div class="rounded-2xl border border-dashed border-border">
 				<Empty.Root>
 					<Empty.Header>
 						<Empty.Title>Nothing planned</Empty.Title>
@@ -72,10 +72,10 @@
 			</div>
 		{/if}
 		{#if m.dated.length > 0}
-			<h4 class="mt-2 text-xs font-bold tracking-widest text-ink-3 uppercase">
+			<h3 class="mt-2 eyebrow">
 				Dated cards on this day
-			</h4>
-			<ul class="flex flex-col">
+			</h3>
+			<ul class="-mx-2 flex flex-col">
 				{#each m.dated as h (h.place.id)}
 					<PlaceRow place={h.place} verdict={h.place.verdict} onopen={onopenplace}>
 						{#snippet when()}
@@ -93,7 +93,9 @@
 				{/each}
 			</ul>
 		{/if}
-		<div class="flex flex-wrap items-center gap-2 pt-1 pb-2">
+		<div
+			class="sticky bottom-0 z-10 -mx-4 -mb-4 flex flex-wrap items-center gap-2 border-t border-border/70 bg-popover px-4 py-4 md:-mx-6 md:-mb-5 md:px-6 3xl:-mx-8 3xl:px-8"
+		>
 			{#if canEdit}
 				<Button
 					variant="outline"

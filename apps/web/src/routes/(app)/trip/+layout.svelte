@@ -24,5 +24,5 @@
 	]);
 </script>
 
-<SubNav label="Trip" {links} />
+<SubNav label="Trip" {links} full={path.startsWith('/trip/map')} />
 {@render children()}

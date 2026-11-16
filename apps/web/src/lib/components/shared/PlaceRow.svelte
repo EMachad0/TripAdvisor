@@ -2,7 +2,7 @@
 	One place in a list (Today, Places, a calendar day) (FROZEN props), as the old trip.js placeRow: the "been there"
 	tick, the thumb (photo, else the category icon on its colour), the name (struck through once been), city ·
 	category · area and a "New" tag for a card the curator added since the last look, the when line, the note, the
-	verdict pill and the Maps link. A Skip card is dimmed.
+	verdict pill (on the meta line) and the Maps link. A Skip card is dimmed.
 	The tick shows when the parent passes `ontogglevisited`; the guest sees it read only (the old site let the guest
 	press it and refused the write). The parent writes through #lib/sync/write.ts.
 -->
@@ -54,15 +54,15 @@
 	const noteParts = $derived(note === null ? [] : tzSegments(note, place.tz));
 	const readonly = $derived(app.isGuest);
 	const VERDICT_CLASS = {
-		must: 'text-must',
-		maybe: 'text-maybe',
-		skip: 'text-ink-3',
+		must: 'bg-must/12 text-must',
+		maybe: 'bg-maybe/12 text-maybe',
+		skip: 'bg-muted text-ink-3',
 	} as const;
 </script>
 
 <li
 	class={cn(
-		'flex items-center gap-1 rounded-xl py-1 pr-1 pl-1 has-[[data-place-open]:hover]:bg-surface-2',
+		'flex items-center gap-1 rounded-xl py-1 pr-1 pl-1 transition-colors duration-200 has-[[data-place-open]:hover]:bg-muted/60',
 		verdict === 'skip' && 'opacity-55',
 	)}
 	data-place={place.id}
@@ -73,7 +73,7 @@
 	{#if ontogglevisited !== undefined}
 		<button
 			type="button"
-			class="grid size-10 shrink-0 place-items-center rounded-lg disabled:cursor-not-allowed"
+			class="group/check grid size-11 shrink-0 place-items-center rounded-full outline-none disabled:cursor-not-allowed"
 			role="checkbox"
 			aria-checked={visited}
 			aria-label={`${visited ? 'Not been yet' : 'Been there'}: ${place.name}`}
@@ -85,7 +85,7 @@
 		>
 			<span
 				class={cn(
-					'grid size-6 place-items-center rounded-md border-2 border-ink-3 text-transparent',
+					'grid size-6 place-items-center rounded-full border-2 border-ink-3/70 text-transparent transition-colors duration-200 ease-soft group-focus-visible/check:ring-3 group-focus-visible/check:ring-ring/50',
 					visited && 'border-ok bg-ok text-surface',
 				)}
 				aria-hidden="true"
@@ -98,7 +98,7 @@
 		type="button"
 		data-place-open
 		class={cn(
-			'flex min-w-0 flex-1 items-center gap-3 rounded-lg py-0.5 text-left',
+			'flex min-w-0 flex-1 items-center gap-3 rounded-lg py-0.5 text-left outline-none focus-visible:ring-3 focus-visible:ring-ring/40',
 			ontogglevisited === undefined && 'pl-1',
 		)}
 		onclick={() => {
@@ -106,7 +106,7 @@
 		}}
 	>
 		<span
-			class="relative grid size-12 shrink-0 place-items-center overflow-hidden rounded-xl bg-linear-150 from-cat to-cat/40 text-xl"
+			class="relative grid size-14 shrink-0 place-items-center overflow-hidden rounded-xl bg-linear-150 from-cat/80 to-cat/30 text-2xl shadow-flat"
 		>
 			{#if place.thumb !== null && !thumbFailed}
 				<img
@@ -129,7 +129,16 @@
 					visited && 'text-ink-3 line-through decoration-ink-3',
 				)}>{place.name}</b
 			>
-			<small class="flex min-w-0 gap-1 text-xs text-ink-3">
+			<small class="flex min-w-0 items-center gap-1 text-xs text-ink-3">
+				{#if verdict !== null}
+					<span
+						class={cn(
+							'inline-flex shrink-0 items-center gap-1 rounded-full px-1.5 py-0.5 text-2xs leading-none font-bold tracking-wider uppercase before:size-1.5 before:rounded-full before:bg-current',
+							VERDICT_CLASS[verdict],
+						)}
+						data-verdict-pill>{verdict}</span
+					>
+				{/if}
 				<span class="truncate">{meta}</span>
 				{#if place.isNew}
 					<span aria-hidden="true">·</span>
@@ -151,19 +160,10 @@
 			{/if}
 		</span>
 	</button>
-	<span class="flex shrink-0 items-center gap-1.5">
-		{#if verdict !== null}
-			<span
-				class={cn(
-					'rounded-full border-2 border-current px-2 py-1 text-xs leading-none font-bold tracking-widest uppercase',
-					VERDICT_CLASS[verdict],
-				)}
-				data-verdict-pill>{verdict}</span
-			>
-		{/if}
+	<span class="flex shrink-0 items-center">
 		<!-- eslint-disable svelte/no-navigation-without-resolve -- external Google Maps URL, not an app route -->
 		<a
-			class="grid size-10 place-items-center rounded-xl text-ink-3 hover:bg-surface-2 hover:text-cat"
+			class="grid size-11 place-items-center rounded-full text-ink-3 transition-colors hover:bg-muted hover:text-cat md:size-10"
 			href={mapUrl(place)}
 			target="_blank"
 			rel="noopener noreferrer"

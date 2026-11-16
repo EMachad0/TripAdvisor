@@ -25,7 +25,7 @@
 	aria-label={`Note on ${name}`}
 	data-deck-note
 	class={cn(
-		'absolute inset-x-0 bottom-0 z-40 flex animate-in flex-col gap-2 rounded-b-2xl border-t border-border bg-card p-3 shadow-soft fade-in-0 md:inset-y-0 md:right-0 md:rounded-l-none md:rounded-r-2xl md:border-t-0 md:border-l',
+		'absolute inset-x-0 bottom-0 z-40 flex animate-in flex-col gap-2 rounded-b-2xl border-t border-border bg-card p-3 shadow-soft fade-in-0 md:inset-y-0 md:right-0 md:rounded-l-none md:rounded-r-2xl md:border-t-0 md:border-l md:p-4',
 		round === 'area' ? 'top-2/5 md:left-5/12' : 'top-1/2 md:left-1/2',
 	)}
 >

@@ -20,7 +20,7 @@
 	<span
 		title={f.title}
 		class={cn(
-			'inline-flex items-center gap-1 rounded-full bg-background/90 px-2 py-1 text-xs font-semibold text-foreground shadow-sm',
+			'inline-flex items-center gap-1 rounded-full bg-card/90 px-2.5 py-1 text-xs font-semibold text-foreground shadow-flat backdrop-blur-sm',
 			f.kind === 'when' && f.whenKind === 'only' && 'text-warn',
 			f.kind === 'must' && 'text-cat',
 		)}

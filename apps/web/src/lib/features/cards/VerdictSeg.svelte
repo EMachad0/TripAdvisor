@@ -23,7 +23,7 @@
 	role="group"
 	aria-label={label}
 	class={cn(
-		'inline-flex shrink-0 rounded-xl border border-border bg-muted p-0.5',
+		'inline-flex shrink-0 gap-0.5 rounded-full bg-muted/80 p-1 shadow-inset',
 		block && 'flex w-full',
 	)}
 >
@@ -37,9 +37,9 @@
 				if (value !== k) onpick(k);
 			}}
 			class={cn(
-				'rounded-lg px-3 py-2 text-sm leading-none font-semibold text-muted-foreground transition-colors enabled:hover:text-foreground disabled:cursor-not-allowed disabled:opacity-60',
+				'inline-flex h-9 items-center justify-center rounded-full px-3.5 text-sm leading-none font-semibold text-muted-foreground transition-colors duration-200 ease-soft outline-none focus-visible:ring-3 focus-visible:ring-ring/40 enabled:hover:text-foreground disabled:cursor-not-allowed disabled:opacity-60',
 				block && 'flex-1',
-				value === k && 'text-primary-foreground enabled:hover:text-primary-foreground',
+				value === k && 'text-primary-foreground shadow-flat enabled:hover:text-primary-foreground',
 				value === k && k === 'must' && 'bg-must',
 				value === k && k === 'maybe' && 'bg-maybe',
 				value === k && k === 'skip' && 'bg-skip',

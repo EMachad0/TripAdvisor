@@ -13,14 +13,15 @@
 	import { resolve } from '$app/paths';
 	import PlaceSheet from '#lib/components/shared/PlaceSheet.svelte';
 	import type { SheetTarget } from '#lib/components/shared/PlaceSheet.types.js';
+	import PageHeader from '#lib/components/shell/PageHeader.svelte';
 	import { holdRefresh } from '#lib/components/shell/refresh.svelte.js';
 	import { Button } from '#lib/components/ui/button/index.js';
 	import * as Empty from '#lib/components/ui/empty/index.js';
 	import { Kbd } from '#lib/components/ui/kbd/index.js';
 	import { Progress } from '#lib/components/ui/progress/index.js';
 	import { Skeleton } from '#lib/components/ui/skeleton/index.js';
-	import * as ToggleGroup from '#lib/components/ui/toggle-group/index.js';
 	import { haptic } from '#lib/features/cards/haptic.js';
+	import { cn } from '#lib/utils.js';
 	import { DecideData } from './data.svelte.ts';
 	import DuelSide from './DuelSide.svelte';
 	import LiveRanking from './LiveRanking.svelte';
@@ -155,50 +156,63 @@
 		</Empty.Content>
 	</Empty.Root>
 {:else}
-	<section class="mx-auto flex max-w-5xl flex-col gap-4" data-duels>
-		<header class="flex flex-wrap items-end justify-between gap-x-4 gap-y-2">
-			<div>
-				<p class="text-xs font-semibold tracking-widest text-muted-foreground uppercase">
-					Step 3 · this or that
-				</p>
-				<h1 class="font-serif text-3xl font-semibold">Duels</h1>
-			</div>
-			<div
-				class="flex w-44 flex-col gap-1 sm:w-56"
-				title="Ranking confidence: how many duels each pick has had"
-				data-duel-progress
-			>
-				<span class="text-right text-sm text-muted-foreground"
-					><b class="text-foreground">{conf}%</b> confident · {plural(d.duels.length, 'duel')}</span
+	<section class="page-wide flex flex-col" data-duels>
+		<PageHeader
+			eyebrow="Step 3 · this or that"
+			title="Duels"
+			class="mb-4 flex-row items-end justify-between gap-4 md:mb-5"
+		>
+			{#snippet actions()}
+				<div
+					class="flex w-36 flex-col gap-1.5 md:w-56 xl:w-64"
+					title="Ranking confidence: how many duels each pick has had"
+					data-duel-progress
 				>
-				<Progress value={conf} max={100} aria-label="Ranking confidence" />
-			</div>
-		</header>
+					<span class="text-right text-xs text-muted-foreground nums md:text-sm"
+						><b class="font-serif text-base font-semibold text-foreground md:text-lg">{conf}%</b>
+						confident · {plural(d.duels.length, 'duel')}</span
+					>
+					<Progress value={conf} max={100} aria-label="Ranking confidence" />
+				</div>
+			{/snippet}
+		</PageHeader>
 
-		<div class="-mx-4 overflow-x-auto px-4 pb-1">
-			<ToggleGroup.Root
-				type="single"
-				variant="outline"
-				size="sm"
-				value={filter}
-				onValueChange={setFilter}
-				aria-label="Duel filter"
-			>
-				{#each filters as f (f.id)}
-					<ToggleGroup.Item value={f.id}>{f.label}</ToggleGroup.Item>
-				{/each}
-			</ToggleGroup.Root>
-		</div>
+		<div class="flex flex-col gap-6 xl:flex-row xl:items-start xl:gap-8 3xl:gap-10">
+			<div class="flex w-full min-w-0 flex-1 flex-col gap-3 md:gap-4" data-arena>
+				<div
+					role="group"
+					aria-label="Duel filter"
+					class="-mx-4 no-scrollbar flex gap-1.5 overflow-x-auto px-4 md:-mx-6 md:px-6 xl:mx-0 xl:px-0 3xl:flex-wrap"
+				>
+					{#each filters as f (f.id)}
+						{@const on = f.id === filter}
+						<button
+							type="button"
+							role="radio"
+							aria-checked={on}
+							onclick={() => {
+								setFilter(f.id);
+							}}
+							class={cn(
+								'inline-flex h-11 shrink-0 items-center rounded-full border px-4 text-sm font-medium whitespace-nowrap transition-colors duration-200 outline-none focus-visible:ring-3 focus-visible:ring-ring/50 md:h-10 xl:h-9',
+								on
+									? 'border-foreground bg-foreground text-background shadow-flat'
+									: 'border-border bg-card/70 text-muted-foreground hover:border-foreground/30 hover:text-foreground',
+							)}>{f.label}</button
+						>
+					{/each}
+				</div>
 
-		{#if d.isGuest}
-			<p class="text-sm text-muted-foreground">
-				Read only: guests can look at the duels and the ranking but not pick.
-			</p>
-		{/if}
+				{#if d.isGuest}
+					<p class="text-sm text-muted-foreground">
+						Read only: guests can look at the duels and the ranking but not pick.
+					</p>
+				{/if}
 
-		<div class="flex flex-col items-start gap-6 lg:flex-row">
-			<div class="flex w-full min-w-0 flex-1 flex-col gap-4" data-arena>
-				<p class="text-center font-serif text-xl font-semibold" data-duel-question>
+				<p
+					class="text-center font-serif text-lg leading-snug font-semibold text-balance md:text-xl xl:text-2xl"
+					data-duel-question
+				>
 					{#if sameCountry !== null}
 						{d.country(sameCountry).flag} Which is more worth a day in {d.country(sameCountry)
 							.name}?
@@ -206,15 +220,16 @@
 						Which would you rather do?
 					{/if}
 				</p>
+
 				{#if sides === null}
-					<div class="flex gap-4" aria-hidden="true">
-						<Skeleton class="h-80 flex-1" />
-						<Skeleton class="h-80 flex-1" />
+					<div class="grid gap-2 md:grid-cols-2 md:gap-4" aria-hidden="true">
+						<Skeleton class="duel-stack-h md:duel-pair-h" />
+						<Skeleton class="duel-stack-h md:duel-pair-h" />
 					</div>
 				{:else}
 					{#key pairKey}
 						<div
-							class="flex flex-row items-stretch"
+							class="relative grid gap-2 md:grid-cols-2 md:gap-4 3xl:gap-6"
 							data-duel={pairKey}
 							in:fly={{ y: 18, duration: reduced ? 0 : 450 }}
 						>
@@ -232,15 +247,10 @@
 									sheet = { kind: 'place', id: sides[0].id };
 								}}
 							/>
-							<div
-								class="z-30 -mx-3 grid shrink-0 place-items-center self-center font-serif text-lg font-bold text-muted-foreground"
-								aria-hidden="true"
+							<span
+								class="pointer-events-none absolute top-1/2 left-1/2 z-30 grid size-11 -translate-1/2 place-items-center rounded-full border-4 border-background bg-card font-serif text-sm font-bold text-muted-foreground italic shadow-soft md:size-14 md:text-base"
+								aria-hidden="true">vs</span
 							>
-								<span
-									class="grid size-12 place-items-center rounded-full border border-border bg-background shadow-soft"
-									>VS</span
-								>
-							</div>
 							<DuelSide
 								place={sides[1]}
 								side="right"
@@ -258,21 +268,22 @@
 						</div>
 					{/key}
 				{/if}
-				<div class="mt-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-sm">
+
+				<div class="flex items-center justify-center gap-x-5 text-sm">
 					<Button
 						variant="ghost"
-						size="sm"
+						class="h-11 md:h-10 xl:h-9"
 						disabled={busy || sides === null}
 						aria-keyshortcuts="ArrowDown S"
 						onclick={skip}>Can’t decide <Kbd>↓</Kbd></Button
 					>
-					<span class="hidden text-muted-foreground md:inline"
-						><Kbd>←</Kbd> left · <Kbd>→</Kbd> right</span
+					<span class="hidden items-center gap-1.5 text-muted-foreground xl:inline-flex"
+						><Kbd>←</Kbd> left <span aria-hidden="true">·</span> <Kbd>→</Kbd> right</span
 					>
 				</div>
 			</div>
 			{#if rankCountry !== null}
-				<div class="w-full lg:sticky lg:top-24 lg:w-72 lg:shrink-0">
+				<div class="w-full xl:sticky xl:top-9 xl:w-80 xl:shrink-0 3xl:top-11 3xl:w-96">
 					<LiveRanking flag={d.country(rankCountry).flag} places={ranking} {reduced} />
 				</div>
 			{/if}

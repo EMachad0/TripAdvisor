@@ -44,4 +44,4 @@
 	);
 </script>
 
-<SubNav label="Decide pages" {links} />
+<SubNav label="Decide pages" {links} full={path === '/decide/board'} />

@@ -1,6 +1,7 @@
 <!--
-	The live ranking beside the duel (old liveRanking + flipList): a country's six best-rated picks; rows slide to
-	their new place after a pick (FLIP) and a new row fades in.
+	The live ranking beside the duel (old liveRanking + flipList): a country's six best-rated picks with their photo
+	and rating; rows slide to their new place after a pick (FLIP) and a new row fades in. Two columns on the Fold's
+	inner screen, where it sits under the arena; one in the side column from xl.
 -->
 <script lang="ts">
 	import { flip } from 'svelte/animate';
@@ -17,24 +18,42 @@
 	let { flag, places, reduced }: Props = $props();
 </script>
 
-<aside class="rounded-2xl border border-border bg-card p-4 shadow-soft" data-live-ranking>
-	<h2 class="mb-3 font-serif text-lg font-semibold">{flag} Live ranking</h2>
-	<ol class="mb-2 flex flex-col gap-1">
+<aside class="flex flex-col gap-3 panel p-4 md:p-5" data-live-ranking>
+	<div class="flex items-baseline justify-between gap-3">
+		<h2 class="font-serif text-lg font-semibold">{flag} Live ranking</h2>
+		<a
+			href={resolve('/(app)/decide/board')}
+			class="-my-2 inline-flex h-11 shrink-0 items-center rounded-full px-2 text-sm font-medium text-cat hover:underline xl:h-8"
+			>Full board →</a
+		>
+	</div>
+	<ol class="grid gap-1 md:grid-cols-2 md:gap-x-4 xl:grid-cols-1">
 		{#each places as p, i (p.id)}
 			<li
 				data-cat={p.category}
 				data-live-id={p.id}
-				class="flex items-center gap-2 rounded-xl px-2.5 py-2 text-sm first:bg-cat/10"
+				class="flex items-center gap-3 rounded-xl px-2 py-1.5 text-sm first:bg-cat/10"
 				animate:flip={{ duration: reduced ? 0 : 450 }}
 				in:fly={{ x: -8, duration: reduced ? 0 : 300 }}
 			>
-				<span class="w-6 shrink-0 font-serif text-base font-semibold text-cat">{i + 1}</span>
-				<span class="min-w-0 flex-1 truncate font-medium">{p.short ?? p.name}</span>
-				<span class="font-mono text-xs text-muted-foreground">{Math.round(p.rating ?? 1500)}</span>
+				<span class="w-5 shrink-0 text-center font-serif text-base font-semibold text-cat nums"
+					>{i + 1}</span
+				>
+				<span
+					class="grid size-9 shrink-0 place-items-center overflow-hidden rounded-lg bg-cat/15 text-base"
+				>
+					{#if p.thumb !== null}
+						<img src={p.thumb} alt="" loading="lazy" class="size-full object-cover" />
+					{:else}
+						<span aria-hidden="true">{p.card.categoryIcon}</span>
+					{/if}
+				</span>
+				<span class="flex min-w-0 flex-1 flex-col">
+					<span class="truncate font-medium">{p.short ?? p.name}</span>
+					<span class="truncate text-xs text-muted-foreground">{p.cityName}</span>
+				</span>
+				<span class="text-xs text-muted-foreground nums">{Math.round(p.rating ?? 1500)}</span>
 			</li>
 		{/each}
 	</ol>
-	<a href={resolve('/(app)/decide/board')} class="text-sm font-medium text-cat hover:underline"
-		>Full board →</a
-	>
 </aside>

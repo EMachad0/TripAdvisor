@@ -3,9 +3,16 @@
 	country leg, and per leg the ordered stops the traveler builds. The page opens read only; "Edit route" shows the
 	reorder, remove, add, nights and Reset controls. Each edit redraws at once and the whole list for that country is
 	saved through write.ts after a 600 ms pause (RouteEditor). The guest sees everything with editing disabled.
+	Layout: on a phone the map comes first with the zoom chips under it (thumb reach), then the legs; on the Fold's
+	inner screen the chips sit above a map sized to the first screen and the legs follow in two columns; from xl the
+	page fills the window, the map takes the room left of a plan pane that scrolls on its own (two columns of legs
+	on the monitor).
 -->
 <script lang="ts">
+	import CheckIcon from '@lucide/svelte/icons/check';
 	import PencilIcon from '@lucide/svelte/icons/pencil';
+	import PlaneIcon from '@lucide/svelte/icons/plane';
+	import RouteIcon from '@lucide/svelte/icons/route';
 	import { onDestroy, tick } from 'svelte';
 	import { toast } from 'svelte-sonner';
 	import PlaceSheet from '#lib/components/shared/PlaceSheet.svelte';
@@ -81,8 +88,8 @@
 					left: chip.offsetLeft - (chipsEl.clientWidth - chip.offsetWidth) / 2,
 					behavior: behavior(),
 				});
-			// desktop: the map stays put (sticky) and the plan scrolls to that country's card
-			if (v !== WHOLE_TRIP && matchMedia('(min-width: 1024px)').matches)
+			// laptop and monitor: the map fills the screen and the plan pane scrolls to that country's card
+			if (v !== WHOLE_TRIP && matchMedia('(min-width: 80rem) and (min-height: 50rem)').matches)
 				planEl
 					?.querySelector(`[data-leg="${v}"]`)
 					?.scrollIntoView({ block: 'nearest', behavior: behavior() });
@@ -222,31 +229,39 @@
 
 <svelte:window onkeydown={onKeydown} />
 
-<section class="flex flex-col" data-route-view data-edit={edit ? '' : undefined}>
-	<header class="mb-3 flex flex-wrap items-end justify-between gap-3">
-		<div class="min-w-0">
-			<p class="text-xs font-bold tracking-widest text-ink-3 uppercase" data-route-eyebrow>
-				{eyebrow(all)}
-			</p>
-			<h1 class="mt-1 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Route</h1>
-		</div>
-		<div class="flex flex-wrap items-center gap-3">
-			<p class="text-sm text-ink-3" data-route-sum aria-live="polite">
-				<b class="font-serif text-xl text-ink">{totals.placed}</b>
+<section class="route flex flex-col" data-route-view data-edit={edit ? '' : undefined}>
+	<header class="mb-4 md:mb-5 3xl:mb-6">
+		<p class="mb-1 eyebrow nums" data-route-eyebrow>{eyebrow(all)}</p>
+		<div class="flex flex-wrap items-center gap-x-5 gap-y-2">
+			<h1
+				class="mr-auto font-serif text-3xl leading-none font-semibold tracking-tight md:text-4xl 3xl:text-5xl"
+			>
+				Route
+			</h1>
+			<p
+				class="order-3 basis-full text-sm text-muted-foreground md:text-base xl:order-2 xl:basis-auto"
+				data-route-sum
+				aria-live="polite"
+			>
+				<b class="font-serif text-lg font-semibold text-foreground nums md:text-xl"
+					>{totals.placed}</b
+				>
 				{totals.placed === 1 ? 'stop' : 'stops'} in order{#if totals.unplaced}{SEP}<b
-						class="font-serif text-xl text-ink">{totals.unplaced}</b
+						class="font-serif text-lg font-semibold text-cat nums md:text-xl">{totals.unplaced}</b
 					>
 					must {totals.unplaced === 1 ? 'city' : 'cities'} not placed{/if}
 			</p>
 			<Button
 				variant={edit ? 'default' : 'outline'}
+				size="lg"
+				class="order-2 shrink-0 xl:order-3 pointer-coarse:h-11"
 				aria-pressed={edit}
 				disabled={app.isGuest}
 				title={app.isGuest ? GUEST_MESSAGE : undefined}
 				onclick={toggleEdit}
 				data-edit-route
 			>
-				{#if edit}Done editing{:else}<PencilIcon />Edit route{/if}
+				{#if edit}<CheckIcon />Done editing{:else}<PencilIcon />Edit route{/if}
 			</Button>
 		</div>
 	</header>
@@ -261,80 +276,90 @@
 			</Empty.Header>
 		</Empty.Root>
 	{:else}
-		<nav
-			aria-label="Zoom the map"
-			class="-mx-4 mb-3 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0"
-			bind:this={chipsEl}
-			data-route-chips
-		>
-			<button
-				type="button"
-				data-zoom={WHOLE_TRIP}
-				aria-pressed={view === WHOLE_TRIP}
-				class={cn(
-					'shrink-0 rounded-full border border-border bg-card px-4 py-2 text-left text-sm font-semibold',
-					view === WHOLE_TRIP && 'border-ink bg-ink text-background',
-				)}
-				onclick={() => {
-					closePop();
-					zoomTo(WHOLE_TRIP);
-				}}>Whole trip</button
-			>
-			{#each all as c (c.id)}
-				{@const on = view === c.id}
-				<button
-					type="button"
-					data-zoom={c.id}
-					aria-pressed={on}
-					class={cn(
-						'grid shrink-0 gap-0.5 rounded-full border border-border bg-card px-4 py-1.5 text-left',
-						on && 'border-ink bg-ink text-background',
-					)}
-					onclick={() => {
-						closePop();
-						zoomTo(c.id);
-					}}
+		<div class="route-body flex flex-col gap-6 xl:flex-row xl:gap-6 3xl:gap-8">
+			<div class="flex min-w-0 scroll-mt-4 flex-col gap-3 xl:flex-1" bind:this={mapColEl}>
+				<nav
+					aria-label="Zoom the map"
+					class="chips order-2 -mx-4 no-scrollbar flex snap-x scroll-px-4 gap-2 overflow-x-auto px-4 py-0.5 md:order-1 md:mx-0 md:scroll-px-0 md:px-0"
+					bind:this={chipsEl}
+					data-route-chips
 				>
-					<b class="text-sm leading-tight font-semibold"
-						>{c.n}
-						{c.flag}
-						{c.name}</b
+					<button
+						type="button"
+						data-zoom={WHOLE_TRIP}
+						aria-pressed={view === WHOLE_TRIP}
+						class={cn(
+							'chip shrink-0 snap-start px-4 text-sm font-semibold',
+							view === WHOLE_TRIP && 'is-on',
+						)}
+						onclick={() => {
+							closePop();
+							zoomTo(WHOLE_TRIP);
+						}}><RouteIcon class="size-4" />Whole trip</button
 					>
-					<small class={cn('text-xs leading-tight text-ink-3', on && 'text-background/75')}
-						>{fmtDate(c.from)} – {fmtDate(c.to)} · {c.nights}n</small
-					>
-				</button>
-			{/each}
-		</nav>
+					{#each all as c (c.id)}
+						{@const on = view === c.id}
+						<button
+							type="button"
+							data-zoom={c.id}
+							aria-pressed={on}
+							class={cn('chip shrink-0 snap-start gap-2.5 pr-4 pl-1.5', on && 'is-on')}
+							onclick={() => {
+								closePop();
+								zoomTo(c.id);
+							}}
+						>
+							<span
+								class={cn(
+									'grid size-8 place-items-center rounded-full bg-cat/12 font-serif text-sm font-semibold text-cat nums',
+									on && 'bg-background/15 text-background',
+								)}>{c.n}</span
+							>
+							<span class="grid text-left">
+								<b class="text-sm leading-tight font-semibold whitespace-nowrap"
+									>{c.flag}
+									{c.name}</b
+								>
+								<small
+									class={cn(
+										'text-xs leading-tight whitespace-nowrap text-muted-foreground nums',
+										on && 'text-background/70',
+									)}>{fmtDate(c.from)} – {fmtDate(c.to)} · {c.nights}n</small
+								>
+							</span>
+						</button>
+					{/each}
+				</nav>
 
-		<div class="flex flex-col gap-5 lg:flex-row lg:items-start lg:gap-6">
-			<div class="min-w-0 scroll-mt-18 lg:sticky lg:top-18 lg:flex-1" bind:this={mapColEl}>
-				<RouteMap
-					{legs}
-					longHaul={lh}
-					frames={app.route.frames}
-					{view}
-					{zoomSeq}
-					{skipped}
-					{sel}
-					{card}
-					{edit}
-					onselect={(key: string) => {
-						selectCity(key);
-					}}
-					onzoom={(v: MapView) => {
-						closePop();
-						zoomTo(v);
-					}}
-					onclose={closePop}
-					onadd={popAdd}
-					onremove={popRemove}
-					onopenarea={(area: string) => {
-						sheet = { kind: 'area', id: area };
-					}}
-				/>
+				<div class="route-map-wrap order-1 flex flex-col md:order-2">
+					<RouteMap
+						{legs}
+						longHaul={lh}
+						frames={app.route.frames}
+						{view}
+						{zoomSeq}
+						{skipped}
+						{sel}
+						{card}
+						{edit}
+						onselect={(key: string) => {
+							selectCity(key);
+						}}
+						onzoom={(v: MapView) => {
+							closePop();
+							zoomTo(v);
+						}}
+						onclose={closePop}
+						onadd={popAdd}
+						onremove={popRemove}
+						onopenarea={(area: string) => {
+							sheet = { kind: 'area', id: area };
+						}}
+					/>
+				</div>
+
 				<ul
-					class="mx-0.5 mt-2.5 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-ink-3 sm:text-sm"
+					class="order-3 flex flex-wrap items-center gap-x-4 gap-y-1 px-1 text-xs text-muted-foreground md:text-sm"
 					data-route-legend
 				>
 					<li class="inline-flex items-center gap-1.5">
@@ -357,9 +382,9 @@
 							><circle cx="8" cy="8" r="4" class="legend-maybe" /></svg
 						>Maybe
 					</li>
-					<li>
+					<li class="ml-auto">
 						<label
-							class="inline-flex min-h-8 cursor-pointer items-center gap-1.5 pointer-coarse:min-h-11"
+							class="inline-flex min-h-8 cursor-pointer items-center gap-2 rounded-full px-1 font-medium text-foreground pointer-coarse:min-h-11"
 						>
 							<input
 								type="checkbox"
@@ -371,47 +396,67 @@
 						</label>
 					</li>
 				</ul>
-				{#if lh}
-					<p class="mx-0.5 mt-2 text-xs/relaxed text-ink-3 sm:text-sm/relaxed" data-route-fine>
-						Flights: in from {lh.in.from} (lands {fmtWeek(lh.in.date)}) and home to {lh.out.to} around
-						{fmtWeek(lh.out.date)}{lh.out.booked ? '' : ' (not booked)'}. Flights between countries
-						fall on the leg boundary dates. Lines join stops in the order you set; nothing else is
-						assumed.
-					</p>
-				{/if}
-				{#if warnings.length > 0}
-					<p class="mx-0.5 mt-2 text-xs/relaxed text-warn sm:text-sm/relaxed" data-route-warnings>
-						{#each warnings as w, i (i)}{#if i > 0}<br />{/if}{w}{/each}
-					</p>
-				{/if}
 			</div>
 
-			<div class="grid min-w-0 gap-3.5 lg:w-100 lg:shrink-0" bind:this={planEl} data-route-plan>
+			<div class="route-plan min-w-0 xl:w-100 3xl:w-208" bind:this={planEl} data-route-plan>
 				{#if edit}
-					<p class="text-sm text-ink-3" data-edit-hint>
-						Editing: changes save as you make them. Reset puts a country back to the agreed plan.
+					<p
+						class="mb-3 flex items-start gap-2 rounded-xl bg-cat/10 px-3.5 py-2.5 text-sm text-foreground"
+						data-edit-hint
+					>
+						<PencilIcon class="mt-0.5 size-4 shrink-0 text-cat" />
+						<span
+							>Editing: changes save as you make them. Reset puts a country back to the agreed plan.</span
+						>
 					</p>
 				{/if}
-				{#each legs as l (l.c.id)}
-					<LegCard
-						leg={l}
-						on={view === l.c.id}
-						{edit}
-						onzoom={(cid: string) => {
-							closePop();
-							zoomTo(cid);
-						}}
-						oncity={(key: string) => {
-							const [cid] = key.split('/');
-							selectCity(key, { zoom: view !== cid, scroll: true });
-						}}
-						onnights={setNights}
-						onmove={moveStop}
-						onremove={removeStop}
-						onadd={addStop}
-						onreset={resetLeg}
-					/>
-				{/each}
+				<div class={cn('gap-4 xl:columns-1 3xl:columns-2', !edit && 'md:columns-2')}>
+					{#each legs as l (l.c.id)}
+						<div class="mb-4 break-inside-avoid">
+							<LegCard
+								leg={l}
+								on={view === l.c.id}
+								{edit}
+								onzoom={(cid: string) => {
+									closePop();
+									zoomTo(cid);
+								}}
+								oncity={(key: string) => {
+									const [cid] = key.split('/');
+									selectCity(key, { zoom: view !== cid, scroll: true });
+								}}
+								onnights={setNights}
+								onmove={moveStop}
+								onremove={removeStop}
+								onadd={addStop}
+								onreset={resetLeg}
+							/>
+						</div>
+					{/each}
+				</div>
+				{#if lh !== null || warnings.length > 0}
+					<div
+						class="grid gap-2 px-1 pb-1 text-xs/relaxed text-muted-foreground md:text-sm/relaxed"
+					>
+						{#if lh}
+							<p class="flex items-start gap-2" data-route-fine>
+								<PlaneIcon class="mt-0.5 size-3.5 shrink-0 text-note md:mt-1" />
+								<span
+									>Flights: in from {lh.in.from} (lands {fmtWeek(lh.in.date)}) and home to {lh.out
+										.to} around
+									{fmtWeek(lh.out.date)}{lh.out.booked ? '' : ' (not booked)'}. Flights between
+									countries fall on the leg boundary dates. Lines join stops in the order you set;
+									nothing else is assumed.</span
+								>
+							</p>
+						{/if}
+						{#if warnings.length > 0}
+							<p class="text-warn" data-route-warnings>
+								{#each warnings as w, i (i)}{#if i > 0}<br />{/if}{w}{/each}
+							</p>
+						{/if}
+					</div>
+				{/if}
 			</div>
 		</div>
 	{/if}
@@ -425,6 +470,76 @@
 />
 
 <style>
+	/* Zoom chips: pills with the leg number in a disc; the one on the map is filled with ink. */
+	.chip {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		min-height: 2.75rem;
+		border-radius: 999px;
+		border: 1px solid color-mix(in oklch, var(--line) 80%, transparent);
+		background: var(--card);
+		box-shadow: var(--elev-0);
+		transition:
+			background-color 0.2s var(--ease-soft),
+			border-color 0.2s var(--ease-soft),
+			color 0.2s var(--ease-soft);
+	}
+	@media (hover: hover) {
+		.chip:hover {
+			border-color: color-mix(in oklch, var(--cat) 40%, var(--line));
+		}
+	}
+	/* the chip row fades out at the right edge where it scrolls (Fold inner screen and laptop) */
+	@media (min-width: 44rem) {
+		.chips {
+			mask-image: linear-gradient(to right, black calc(100% - 2.5rem), transparent);
+			padding-right: 2.5rem;
+		}
+	}
+	.chip:focus-visible {
+		outline: 2px solid var(--note);
+		outline-offset: 2px;
+	}
+	.chip.is-on {
+		background: var(--foreground);
+		border-color: var(--foreground);
+		color: var(--background);
+	}
+
+	/*
+	 * Laptop and monitor (and a window tall enough for it): the page is exactly one window high. The map takes what
+	 * the head leaves; the plan pane scrolls by itself. 9.5rem / 10rem is the shell's padding and the Trip sub-tabs.
+	 */
+	@media (min-width: 80rem) and (min-height: 50rem) {
+		.route {
+			height: calc(100svh - 9.5rem);
+		}
+		.route-body {
+			flex: 1;
+			min-height: 0;
+		}
+		.route-map-wrap {
+			flex: 1;
+			min-height: 0;
+		}
+		.route-plan {
+			overflow-y: auto;
+			overscroll-behavior: contain;
+			scrollbar-width: thin;
+			scrollbar-color: color-mix(in oklch, var(--ink-3) 35%, transparent) transparent;
+			margin-right: -0.5rem;
+			padding-right: 0.5rem;
+			padding-bottom: 1.5rem;
+			mask-image: linear-gradient(to bottom, black calc(100% - 1.5rem), transparent);
+		}
+	}
+	@media (min-width: 120rem) and (min-height: 50rem) {
+		.route {
+			height: calc(100svh - 10rem);
+		}
+	}
+
 	.legend-land {
 		fill: none;
 		stroke: var(--cat);

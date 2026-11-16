@@ -45,19 +45,20 @@
 			return { h, many: false as const, place: id === undefined ? undefined : byId.get(id) };
 		}),
 	);
-	const panel = 'flex flex-col gap-3 rounded-2xl border border-border bg-card p-4 shadow-soft';
-	const linkClass = 'text-sm font-medium text-cat hover:underline';
+	const panel = 'flex shrink-0 flex-col gap-3 panel p-4';
+	const linkClass =
+		'-my-2 inline-flex h-11 shrink-0 items-center text-sm font-medium text-cat hover:underline md:h-8';
 </script>
 
 <section class={panel} data-panel="balance">
-	<h2 class="font-serif text-lg font-semibold">Balance</h2>
+	<h2 class="font-serif text-lg leading-tight font-semibold">Balance</h2>
 	<MixBar counts={balance.counts} label={(c: string) => category(c).label} size="lg" />
 	<ul class="flex flex-col gap-1.5 text-sm">
 		{#each cats as [c, n] (c)}
 			<li data-cat={c} class="flex items-center gap-2">
 				<i class="size-2.5 shrink-0 rounded-full bg-cat" aria-hidden="true"></i>
 				<span class="min-w-0 flex-1 truncate">{category(c).icon} {category(c).label}</span>
-				<b>{Math.round((n / balance.total) * 100)}%</b>
+				<b class="nums">{Math.round((n / balance.total) * 100)}%</b>
 			</li>
 		{:else}
 			<li class="text-muted-foreground">Nothing above the line yet.</li>
@@ -83,7 +84,7 @@
 </section>
 
 <section class={panel} data-panel="holidays">
-	<h2 class="font-serif text-lg font-semibold">Holidays</h2>
+	<h2 class="font-serif text-lg leading-tight font-semibold">Holidays</h2>
 	<ul class="flex flex-col gap-2 text-sm">
 		{#each lockRows as r (r.h.id)}
 			<li class="flex items-center gap-2" data-lock-row={r.h.id}>
@@ -97,7 +98,7 @@
 					{@const p = r.place}
 					<button
 						type="button"
-						class="max-w-40 truncate rounded-full bg-must/15 px-2.5 py-1 text-xs font-semibold text-must hover:bg-must/25"
+						class="max-w-44 truncate rounded-full bg-must/15 px-2.5 py-1.5 text-xs font-semibold text-must hover:bg-must/25"
 						data-lock-chip={r.h.id}
 						onclick={() => {
 							onopen(p.id);
@@ -112,7 +113,7 @@
 </section>
 
 <section class={panel} data-panel="book">
-	<h2 class="font-serif text-lg font-semibold">Book ahead</h2>
+	<h2 class="font-serif text-lg leading-tight font-semibold">Book ahead</h2>
 	{#if bookAhead.length > 0}
 		<p class="text-xs text-muted-foreground">
 			Latest safe booking date if you went on your first day there (or on the holiday for holiday

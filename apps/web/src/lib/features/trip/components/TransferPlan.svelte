@@ -24,14 +24,16 @@
 	const steps = $derived(parsePlan(l.plan));
 	const o = $derived(l.fromPlace ?? '');
 	const d = $derived(l.toPlace ?? '');
+	/** The time column only when some step has a time. */
+	const timed = $derived(steps.some((s) => s.t !== ''));
 </script>
 
 <div class="flex flex-col gap-4" data-testid="transfer-plan">
 	<div class="flex items-center gap-3.5">
 		{#if timeOf(l.start) !== ''}
-			<div class="shrink-0 rounded-xl bg-seal/10 px-3 py-2 text-center">
+			<div class="shrink-0 rounded-xl bg-seal/10 px-3.5 py-2.5 text-center">
 				<Label tone="seal">Leave by</Label>
-				<b class="font-serif text-2xl leading-none font-semibold text-seal tabular-nums"
+				<b class="font-serif text-2xl leading-none font-semibold text-seal nums"
 					><TimeTz time={l.start ?? ''} offset={off} /></b
 				>
 			</div>
@@ -39,7 +41,7 @@
 		<div class="min-w-0 flex-1 text-sm font-medium wrap-anywhere">
 			{[l.fromName, l.toName].filter((x) => x !== undefined && x !== '').join(' → ')}
 			{#if (l.mode ?? '') !== '' || (l.duration ?? '') !== ''}
-				<small class="mt-0.5 block font-normal text-ink-3"
+				<small class="mt-0.5 block font-normal text-muted-foreground"
 					>{[l.mode, l.duration].filter((x) => x !== undefined && x !== '').join(' · ')}</small
 				>
 			{/if}
@@ -49,22 +51,27 @@
 	{#if steps.length > 0}
 		<ol class="flex flex-col">
 			{#each steps as s, i (i)}
-				<li class={cn('flex items-start gap-2.5 pb-3.5 text-sm', s.key && 'font-bold text-seal')}>
-					<span
-						class={cn(
-							'w-18 shrink-0 text-right whitespace-nowrap tabular-nums',
-							s.key ? 'text-seal' : 'text-ink-2',
-						)}
-						>{#if s.t !== ''}<TzText text={s.t} offset={off} />{/if}</span
-					>
-					<i
-						class={cn(
-							'mt-1 size-2.5 shrink-0 rounded-full border-2',
-							s.key ? 'border-seal bg-seal' : 'border-ok bg-card',
-						)}
-						aria-hidden="true"
-					></i>
-					<span class="min-w-0 flex-1 wrap-anywhere"><LinkedText text={s.text} offset={off} /></span
+				<li class={cn('flex items-stretch gap-3 text-sm', s.key && 'font-semibold text-seal')}>
+					{#if timed}
+						<span
+							class={cn(
+								'w-18 shrink-0 pt-px text-right whitespace-nowrap nums',
+								s.key ? 'text-seal' : 'text-ink-2',
+							)}
+							>{#if s.t !== ''}<TzText text={s.t} offset={off} />{/if}</span
+						>
+					{/if}
+					<span class="flex w-3 shrink-0 flex-col items-center" aria-hidden="true">
+						<i
+							class={cn(
+								'mt-1 size-3 shrink-0 rounded-full border-2',
+								s.key ? 'border-seal bg-seal' : 'border-ok bg-card',
+							)}
+						></i>
+						{#if i < steps.length - 1}<i class="mt-1 w-px flex-1 bg-border"></i>{/if}
+					</span>
+					<span class="min-w-0 flex-1 pb-4 leading-relaxed wrap-anywhere"
+						><LinkedText text={s.text} offset={off} /></span
 					>
 				</li>
 			{/each}
@@ -72,7 +79,7 @@
 	{/if}
 
 	{#if l.note}
-		<div class="rounded-xl bg-surface-2 px-3.5 py-3 text-sm wrap-anywhere whitespace-pre-line">
+		<div class="rounded-xl bg-muted/60 px-4 py-3.5 text-sm leading-relaxed wrap-anywhere whitespace-pre-line">
 			<Label>Good to know</Label>
 			<LinkedText text={l.note} offset={off} />
 		</div>
