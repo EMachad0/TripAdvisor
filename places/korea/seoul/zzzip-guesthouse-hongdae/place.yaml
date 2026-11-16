@@ -1,0 +1,194 @@
+id: zzzip-guesthouse-hongdae
+name: "Zzzip Guesthouse in Hongdae"
+short_name: Zzzip Guesthouse
+name_local: 집게스트하우스
+country: korea
+city: seoul
+area: Mapo-gu · Hapjeong
+category: stay
+tags: [hostel, social, solo-travelers, hongdae, hapjeong, whatsapp-group, free-breakfast, closed-in-winter]
+kind: Stay
+why: "Seoul's most social small hostel (9.8, atmosphere 9.8, a guest WhatsApp group), but it takes a winter break: no beds 10 Jan – 14 Feb 2027 anywhere."
+
+cost:
+  local: 55000
+  currency: KRW
+  brl: 232.98
+  note: "6-bed dorm weeknight, nearest nights on sale: Thu 7 Jan and Mon 15 Feb 2027. Your nights 11–19 Jan are not sold"
+fx: { rate: 0.004236, date: 2026-11-13, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: true
+  lead_days: 60
+  lead_time: "Your dates are blocked; ask the hosts by email now, before giving up"
+  method: platform
+  links:
+    - label: Hostelworld (Mon 11 – Wed 13 Jan)
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zzzip-Guesthouse-in-Hongdae/Seoul/83226?from=2027-01-11&to=2027-01-13&guests=1&currency=KRW"
+      note: "Shows no beds for 11–19 Jan. Two-night minimum: one-night searches never show beds"
+    - label: Booking.com (Mon 11 – Wed 13 Jan)
+      url: "https://www.booking.com/hotel/kr/central-hongdae-pencil-hostel-zzzip.en-gb.html?checkin=2027-01-11&checkout=2027-01-13&group_adults=1&no_rooms=1&selected_currency=KRW"
+      note: "\"No availability\" for the same dates; 7–9 Jan and 15–17 Feb are bookable"
+    - label: Facebook page (contact the hosts)
+      url: "https://www.facebook.com/zzzipguesthouse"
+      note: "Lists zzzipguesthouse@gmail.com and +82 10-2669-3595; no own booking site found"
+  notes: "Not sold out and not \"too early\": the calendar is open to Sep 2027, every room type is on sale on 7–9 Jan and from 15 Feb, and the same 36-night hole is on Hostelworld, Booking.com and Agoda. That is the hosts' winter break."
+
+hours:
+  summary: "Check-in 14:00–23:00 UTC+9 · check-out by 11:00 UTC+9 · office 08:00–22:00 UTC+9 · quiet time 23:00–08:00 UTC+9"
+  closed: "Nights of 10 Jan – 14 Feb 2027 (not on sale anywhere)"
+  winter: "On 15 Nov 2026 nothing was sold for the nights 10 Jan – 14 Feb 2027 on any channel (last night on sale Sat 9 Jan, first Mon 15 Feb). The hosts took breaks before: Hostelworld reviews stop 7 Jan – 11 Feb 2026 and 24 Jan – 11 Feb 2025, and July 2027 is blocked the same way. In open winters (Jan 2025, Feb 2026) reviews still describe group nights out."
+
+location:
+  address: "32-16 Seongji 1-gil, Mapo-gu, Seoul (lot address 366-37 Hapjeong-dong), ground floor"
+  address_local: 서울특별시 마포구 성지1길 32-16 1층 (합정동 366-37)
+  lat: 37.54758
+  lng: 126.91489
+  nearest_transit: "Hapjeong (Lines 2 and 6), Exit 7: 296 m, about 5 min on foot (Kakao Map)"
+
+sources:
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/83226/availability/?guests=1&num-nights=2&date-start=2027-01-08&currency=KRW&application=web"
+    title: "Hostelworld availability feed, probed 16 Nov 2026 – Dec 2027 with 1–9 nights: last night sold Sat 9 Jan, next Mon 15 Feb; no 1-night beds"
+    checked: 2026-11-15
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/83226/availability/?guests=1&num-nights=9&date-start=2027-02-15&currency=KRW&application=web"
+    title: "Hostelworld feed, 9 nights from Mon 15 Feb 2027: dorm total ₩505,000, single ₩900,000, twin ₩70,000 per person × 2"
+    checked: 2026-11-15
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zzzip-Guesthouse-in-Hongdae/Seoul/83226?from=2027-01-11&to=2027-01-13&guests=1&currency=KRW"
+    title: "Zzzip Guesthouse on Hostelworld, Mon 11 – Wed 13 Jan 2027 search: no beds"
+    checked: 2026-11-15
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/83226/?application=web"
+    title: "Hostelworld property feed: 98/100 from 2,529 ratings; house rules (cash only, quiet time, cancellation, breakfast, bag storage)"
+    checked: 2026-11-15
+  - url: "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/83226/reviews/?sort=newest&page=1&monthCount=36&application=web"
+    title: "Hostelworld guest reviews, newest first: all 51 pages (510 reviews, Nov 2023 – Nov 2026) read, dates counted per month"
+    checked: 2026-11-15
+  - url: "https://www.booking.com/hotel/kr/central-hongdae-pencil-hostel-zzzip.en-gb.html?checkin=2027-01-07&checkout=2027-01-09&group_adults=1&no_rooms=1&selected_currency=KRW"
+    title: "Booking.com, 7–9 Jan 2027: dorm ₩115,000 for 2 nights, single ₩200,000; 750 m from Sangsu; 9.6 (384). 11–13 Jan: no availability"
+    checked: 2026-11-15
+  - url: "https://www.agoda.com/zzzip-guesthouse-in-hongdae/hotel/seoul-kr.html?checkIn=2027-01-11&los=2&rooms=1&adults=1&currencyCode=KRW"
+    title: "Agoda, 11–13 Jan 2027: \"Sold out!\"; 7–9 Jan and 15–17 Feb show rooms"
+    checked: 2026-11-15
+  - url: "https://place.map.kakao.com/23278738"
+    title: "Kakao Map: 집게스트하우스, 성지1길 32-16, 296 m (5 min) from Hapjeong Exit 7, links the Facebook page"
+    checked: 2026-11-15
+  - url: "https://www.facebook.com/zzzipguesthouse"
+    title: "ZZZIP Guesthouse in Hongdae on Facebook: email, phone, last post 4 Nov 2026"
+    checked: 2026-11-15
+  - url: "https://www.openstreetmap.org/?mlat=37.54758&mlon=126.91489#map=17/37.54758/126.91489"
+    title: "OpenStreetMap: ZZZIP Guesthouse in Hongdae, 32-16 Seongji 1-gil"
+    checked: 2026-11-15
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals 1991–2020"
+    checked: 2026-11-15
+confidence: medium
+confidence_note: "Closure inferred, not announced: no notice found (own domain did not resolve here, Instagram handle not found, Facebook shows one post). Prices are for 7–9 Jan and 15–24 Feb, not your nights. Wifi speed, room soundproofing and Booking's card terms not confirmed. Review quotes from the Hostelworld feed, read with curl."
+last_updated: 2026-11-15
+
+blocks:
+  - type: hero
+    image: hapjeong-sign
+    caption: "Hapjeong station, 5 minutes away. No free photo of the guesthouse exists"
+    hook: "Breakfast with strangers, a group chat by lunch, a dozen of you heading to Hongdae by night."
+  - type: quick_facts
+    extra:
+      - { label: Your dates, value: Closed 10 Jan – 14 Feb, detail: "Not on sale on Hostelworld, Booking.com or Agoda" }
+      - { label: Vibe, value: Very social, detail: "Quiet 23:00–08:00 UTC+9; common room and terrace shut" }
+      - { label: Min. stay, value: 2 nights, detail: "3 nights on some April dates" }
+  - type: stay
+    style: guesthouse
+    beds:
+      - label: "Deluxe 6-bed mixed dorm, ensuite · weeknight"
+        local: 55000
+        brl: 232.98
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zzzip-Guesthouse-in-Hongdae/Seoul/83226?from=2027-02-15&to=2027-02-17&guests=1&currency=KRW"
+        note: "Thu 7 Jan / Mon 15 Feb 2027; Fri–Sat ₩60,000. 9 nights 15–24 Feb: ₩505,000"
+      - label: "Deluxe 4-bed mixed dorm, ensuite · weeknight"
+        local: 60000
+        brl: 254.16
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zzzip-Guesthouse-in-Hongdae/Seoul/83226?from=2027-02-15&to=2027-02-17&guests=1&currency=KRW"
+        note: "Mon 15 Feb 2027; Fri–Sat ₩63,000–65,000"
+      - label: "Single private room, ensuite"
+        local: 100000
+        brl: 423.6
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zzzip-Guesthouse-in-Hongdae/Seoul/83226?from=2027-02-15&to=2027-02-17&guests=1&currency=KRW"
+        note: "Every night 7–9 Jan and 15–24 Feb; only 1 room. 9 nights: ₩900,000"
+      - label: "Twin or double private, ensuite (solo pays both beds)"
+        local: 140000
+        brl: 593.04
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Zzzip-Guesthouse-in-Hongdae/Seoul/83226?from=2027-02-15&to=2027-02-17&guests=1&currency=KRW"
+        note: "Hostelworld shows ₩70,000 per person; a solo guest pays × 2"
+    rating:
+      score: 9.8
+      out_of: 10
+      source: Hostelworld
+      reviews: 2529
+      atmosphere: 9.8
+      checked: 2026-11-15
+    social:
+      - "Hosts **Bryan and Jina** add you to a **WhatsApp group** at check-in; guests use it to plan dinners, nights out and day trips."
+      - "\"It was very social and we always go out at night\" (Oct 2026). \"Multiple nights … at least 15 of us all out together\" (May 2026)."
+      - "\"Every night there are groups going out for dinner and/or out afterwards\" (Apr 2026). \"They provide event and excursion organisation\" (Aug 2026)."
+      - "Winter: \"constantly people to go on dinners, crazy nights out, day trips\" (Jan 2025); \"met a group … ended up travelling down to Busan together\" (Feb 2026)."
+      - "Free breakfast 08:30–10:30 UTC+9 in a small common room: where people meet. One Feb 2026 guest found it smaller and quieter than expected."
+      - "Social but not a party hostel: \"never brought the party back to the hostel, so you can sleep\" (May 2026)."
+    good_to_know:
+      - "**No bunk curtains**: \"No curtains, though\" (May 2026), \"could perhaps benefit from a curtain\" (May 2026), \"No curtains\" (Jun 2025)."
+      - "**Cash only** on arrival (house rules), so no card surcharge question: bring won. \"Have cash on you!\" (Oct 2026)."
+      - "**Clean**: cleanliness 9.8 on Hostelworld, 9.6 on Booking.com; most 2026 reviews say \"very clean\". One Jun 2026 guest found the beds itchy."
+      - "**Night work**: common room and terrace are closed 23:00–08:00 UTC+9, so after 23:00 the only place to work is your bed or a private room."
+      - "**Day sleep**: staff vacuum \"really early\" and change sheets before 09:00 UTC+9 (Jun 2026 review); rooms are \"air conditioned and dark\" (Sep 2026)."
+      - "**Lockers** are listed (\"Security Lockers\"), but rooms are small: \"not much space to store big luggage\" (Oct 2025)."
+      - "**Wifi**: \"the Wi-Fi & AC works\" (May 2026); Booking.com's wifi score is 10. No speed test found."
+      - "Cancellation: free up to 11 days before on Hostelworld; later you lose the deposit and the first night; hostel rule: 5 days before 50%, 4 days 100%."
+  - type: highlights
+    items:
+      - title: The most social bed in Seoul
+        text: "Atmosphere **9.8/10** from 2,529 ratings, and the WhatsApp group means you have people for Sat 16 Jan's Hongdae night before you even unpack."
+      - title: Breakfast included
+        text: "Free breakfast 08:30–10:30 UTC+9, free coffee and tea, and free bag storage on arrival and departure."
+      - title: Two stations, two lines
+        text: "Hapjeong (Lines 2 and 6) is 5 minutes away; Sangsu (Line 6) about 750 m; the clubs around Wausan-ro about 850 m in a straight line."
+      - title: But not for your dates, and not cheap
+        text: "Closed 10 Jan – 14 Feb 2027. Even when open, 9 dorm nights cost about **₩505,000** (R$2,139), more than your ₩480,000 plan, with no curtains."
+  - type: prose
+    title: Sold out, too early or closed?
+    text: |-
+      **Closed.** Three checks on 15 Nov 2026 point the same way. The calendar is loaded to about Sep 2027, so it is not too early. Every room type is still on sale on 7–9 Jan and from 15 Feb, so it is not a sell-out either: hostels sell out room by room, not all at once for 36 nights in the low season. And Hostelworld, Booking.com and Agoda block exactly the same nights.
+
+      The review history fits: reviews stop between 7 Jan and 11 Feb 2026 and between 24 Jan and 11 Feb 2025, and July 2026 has none. July and early August 2027 are already blocked the same way. No public notice says so, so email the hosts before you rule it out.
+  - type: book_ahead
+    steps:
+      - days_before: 60
+        text: "Email **zzzipguesthouse@gmail.com** (or message the [Facebook page](https://www.facebook.com/zzzipguesthouse)): ask whether any night 11–19 Jan 2027 will open. Expect a no."
+      - days_before: 30
+        text: "No reply or no beds? Book elsewhere. If they do open, book a dorm for at least 2 nights, and the single (₩100,000) on 11, 15 and 18 Jan, when you must speak on calls."
+      - days_before: 11
+        text: "Last day to cancel a Hostelworld booking for free; after that the deposit and first night are charged, and from 4 days out the hostel charges 100%."
+      - days_before: 0
+        text: "Landing 08:40 UTC+9? Drop bags free (office opens 08:00 UTC+9); check-in from 14:00 UTC+9. Email them about early or late arrival. Pay in cash."
+  - type: map
+    note: "From Hapjeong Exit 7: left at Olive Young, left at the first corner, straight past GS25, right at the school, right again (hostel's directions)."
+  - type: tips
+    variant: insider
+    items:
+      - "Searching yourself? Use **2 nights or more**: Zzzip never shows a bed in a 1-night search, so it looks sold out when it is not."
+      - "For work nights, after 23:00 UTC+9 the common room is shut, so a 21:00–06:00 UTC+9 shift means a private room; no review says how well its walls block a spoken call."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Hostelworld prices twins and doubles **per person**: ₩70,000 shown means ₩140,000 for you alone. The single (₩100,000) is the cheaper private."
+      - "It is in Hapjeong, not central Hongdae: Hongik Univ. station is about 1.3 km away in a straight line, so take Line 2 one stop to Hapjeong."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry and freezing, some snow
+    note: "January in Seoul averages −5.5 °C at night and 2.1 °C by day. The walk from Hapjeong is 5 minutes, flat."
+    wear: Padded jacket, hat and gloves
+  - type: pairs_well
+    items:
+      - id: hongdae-club-night
+        note: "About 850 m away in a straight line: the WhatsApp group will be going"
+      - id: hongdae-pub-crawl
+        note: "Sat 16 Jan with people from the hostel"
+      - id: mangwon-market
+        note: "One stop west on Line 6"
