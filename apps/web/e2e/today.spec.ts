@@ -39,7 +39,7 @@ async function open(page: Page, path: string): Promise<void> {
  * Headless WebKit on macOS delivers no pointer input while the session's screen is locked (even a bare
  * `<button>` in setContent fails its hit test with "<html> intercepts pointer events"). Only then, and only in
  * WebKit, the click is dispatched as a DOM event so the rest of the iphone run still checks the screen; Chromium
- * (desktop, pixel) always clicks for real.
+ * (desktop) always clicks for real.
  */
 async function press(target: Locator): Promise<void> {
 	await target.evaluate((el) => {

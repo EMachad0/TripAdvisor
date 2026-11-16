@@ -53,30 +53,58 @@ export function shards(
 	return bins.map((b) => b.files.sort());
 }
 
+interface ReportResult {
+	startTime: string;
+	duration: number;
+}
+
 interface ReportSuite {
 	file?: string;
-	specs?: { tests: { projectName: string; results: { duration: number }[] }[] }[];
+	specs?: { tests: { projectName: string; results: ReportResult[] }[] }[];
 	suites?: ReportSuite[];
 }
 
-/** Seconds per project and spec file (relative to e2e/), every attempt counted, from Playwright JSON reports. */
+interface Report {
+	suites: ReportSuite[];
+	stats: { startTime: string; duration: number };
+}
+
+/**
+ * Seconds per project and spec file (relative to e2e/) from Playwright JSON reports. A test counts from its start to
+ * the next test's start, so a file also carries its hooks (a reseed takes seconds on CI) and the page setup between
+ * tests, which a test's own duration leaves out. Every attempt counts.
+ */
 function fromReports(reports: string[]): Durations {
 	const out: Durations = {};
-	const walk = (suite: ReportSuite, file: string | undefined): void => {
-		const f = suite.file ?? file;
-		for (const spec of suite.specs ?? []) {
-			for (const t of spec.tests) {
-				if (f === undefined || !SPEC.test(f)) continue;
-				const ms = t.results.reduce((a, r) => a + r.duration, 0);
-				const project = (out[t.projectName] ??= {});
-				project[f] = (project[f] ?? 0) + ms / 1000;
-			}
-		}
-		for (const child of suite.suites ?? []) walk(child, f);
-	};
 	for (const report of reports) {
-		const json = JSON.parse(fs.readFileSync(report, 'utf8')) as { suites: ReportSuite[] };
+		const json = JSON.parse(fs.readFileSync(report, 'utf8')) as Report;
+		const runs: { project: string; file: string; start: number; duration: number }[] = [];
+		const walk = (suite: ReportSuite, file: string | undefined): void => {
+			const f = suite.file ?? file;
+			for (const spec of suite.specs ?? []) {
+				for (const t of spec.tests) {
+					if (f === undefined || !SPEC.test(f)) continue;
+					for (const r of t.results) {
+						runs.push({
+							project: t.projectName,
+							file: f,
+							start: Date.parse(r.startTime),
+							duration: r.duration,
+						});
+					}
+				}
+			}
+			for (const child of suite.suites ?? []) walk(child, f);
+		};
 		for (const suite of json.suites) walk(suite, undefined);
+		runs.sort((a, b) => a.start - b.start);
+		const end = Date.parse(json.stats.startTime) + json.stats.duration;
+		runs.forEach((run, i) => {
+			const next = runs[i + 1]?.start ?? end;
+			const ms = Math.max(run.duration, next - run.start);
+			const project = (out[run.project] ??= {});
+			project[run.file] = (project[run.file] ?? 0) + ms / 1000;
+		});
 	}
 	return out;
 }

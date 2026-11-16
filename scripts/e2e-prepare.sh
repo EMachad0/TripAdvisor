@@ -45,12 +45,18 @@ part_browser() {
 	fi
 }
 
+# Each log line starts with the seconds since the script started, so the slow step of a part shows.
+stamp() {
+	local line
+	while IFS= read -r line; do printf '%4d s  %s\n' "$SECONDS" "$line"; done
+}
+
 names=()
 pids=()
 for part in backend build browser; do
 	(
 		start=$SECONDS
-		"part_$part"
+		"part_$part" 2>&1 | stamp
 		echo "e2e-prepare: $part done in $((SECONDS - start)) s"
 	) >"$LOGS/$part.log" 2>&1 &
 	names+=("$part")

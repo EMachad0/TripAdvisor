@@ -100,22 +100,27 @@ corepack pnpm e2e            # Playwright: starts the backend (deploy + seed) an
 corepack pnpm verify         # all of the above
 ```
 
-Playwright projects: `desktop` (Chrome), `pixel` (Pixel 7), `iphone` (iPhone 15, WebKit); `setup` signs in owner
+Playwright projects: `desktop` (Chrome) and `iphone` (iPhone 15, WebKit); `setup` signs in owner
 and guest once and saves `apps/web/playwright/.auth/{owner,guest}.json` (gitignored). One spec waits 70 s for the
 60 s test JWT to expire (spike S9).
 
 ## CI
 
 `.github/workflows/ci.yml` aims at about 3 minutes of wall time on 2-core runners, where the e2e specs run three to
-four times slower than on a laptop. `lint` (format, ESLint, typecheck) and `test` run side by side. `e2e` runs each
-Playwright project as shards of whole spec files, each shard on its own runner and backend:
+four times slower than on a laptop. `lint` (format, ESLint, typecheck) and `test` run side by side. `e2e` runs the
+`desktop` and `iphone` projects as shards of whole spec files, each shard on its own runner and backend:
 
-- `apps/web/e2e/shards.ts` splits a project's spec files into shards by the seconds each took on CI
-  (`e2e/durations.json`). A new spec counts as the project's mean until the durations are refreshed:
+- `apps/web/e2e/shards.ts` splits a project's spec files into shards by the seconds each took on CI, hooks
+  included (`e2e/durations.json`). A new spec counts as the project's mean until the durations are refreshed:
   `gh run download <run> -p 'e2e-durations-*' -D /tmp/d && node apps/web/e2e/shards.ts update /tmp/d/*/*.json`.
-  Resize a project by changing its `of` count and its rows in the matrix together; aim for about 100 s per shard.
+  Resize a project by changing its `of` count and its rows in the matrix together; aim for about 95 s per shard.
+- A shard runs any mix of spec files on one backend, so a spec must not depend on what ran before it. A describe
+  that writes reseeds (`scripts/convex-local.sh seed-data`) before its tests and again after them; a spec that
+  only reads, or undoes its own writes, needs neither.
 - `scripts/e2e-prepare.sh <chromium|webkit>` brings up and seeds the backend, builds the app and installs the
-  browser in parallel. `ATR_E2E_PREPARED=1` then makes Playwright start only the built app.
+  browser in parallel. `ATR_E2E_PREPARED=1` then makes Playwright start only the built app. `seed-data` imports four
+  tables at a time (`@atr/migrate import --parallel 4`, refused for prod).
+- WebKit's system packages come from a cached apt archive; Chromium's are already on the runner image.
 - CI records a trace only on the retry of a failed test (locally, every failure keeps one).
 - Checkouts leave out `places/**/media/` and `areas/**/media/` (362 MB); no check reads the real photos.
 

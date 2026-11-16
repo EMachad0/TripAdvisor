@@ -94,7 +94,8 @@ jobs:
   # Each Playwright project runs as shards of whole spec files, balanced by the seconds each file took on CI
   # (apps/web/e2e/shards.ts, e2e/durations.json). Every shard has its own runner and backend: the specs share
   # backend state (serial describes), so a shard keeps one worker, and `setup` runs in every shard as the projects'
-  # dependency. To resize, change `of` and the list together; each shard should stay near 100 s of tests.
+  # dependency. To resize, change `of` and the list together; each shard should stay near 95 s of tests.
+  # pixel (Pixel 7) is not run: desktop covers Chromium, iphone covers the phone layout and touch, in WebKit.
   e2e:
     needs: changes
     if: needs.changes.outputs.code == 'true'
@@ -109,15 +110,13 @@ jobs:
           - { project: desktop, browser: chromium, shard: 3, of: 5 }
           - { project: desktop, browser: chromium, shard: 4, of: 5 }
           - { project: desktop, browser: chromium, shard: 5, of: 5 }
-          - { project: pixel, browser: chromium, shard: 1, of: 3 }
-          - { project: pixel, browser: chromium, shard: 2, of: 3 }
-          - { project: pixel, browser: chromium, shard: 3, of: 3 }
-          - { project: iphone, browser: webkit, shard: 1, of: 6 }
-          - { project: iphone, browser: webkit, shard: 2, of: 6 }
-          - { project: iphone, browser: webkit, shard: 3, of: 6 }
-          - { project: iphone, browser: webkit, shard: 4, of: 6 }
-          - { project: iphone, browser: webkit, shard: 5, of: 6 }
-          - { project: iphone, browser: webkit, shard: 6, of: 6 }
+          - { project: iphone, browser: webkit, shard: 1, of: 7 }
+          - { project: iphone, browser: webkit, shard: 2, of: 7 }
+          - { project: iphone, browser: webkit, shard: 3, of: 7 }
+          - { project: iphone, browser: webkit, shard: 4, of: 7 }
+          - { project: iphone, browser: webkit, shard: 5, of: 7 }
+          - { project: iphone, browser: webkit, shard: 6, of: 7 }
+          - { project: iphone, browser: webkit, shard: 7, of: 7 }
     name: e2e (${{ matrix.project }} ${{ matrix.shard }}/${{ matrix.of }})
     steps:
       # The e2e content is packages/migrate/fixtures/e2e; the real place and area photos are never read.
@@ -132,6 +131,7 @@ jobs:
       - name: Pull the Convex backend image (background)
         run: |
           image="$(sed -n 's/^ *image: \(ghcr\.io\/convex\/convex-backend:[0-9a-f]*\)$/\1/p' deploy/convex-local/compose.yaml)"
+          echo "pulling ${image:?no backend image in deploy/convex-local/compose.yaml}"
           nohup docker pull --quiet "$image" >/dev/null 2>&1 &
       - uses: pnpm/setup@731dfb6463bbd11c11fd0ee11fe00ed0e36d48a1 # v3.2.0
         with:
@@ -144,6 +144,24 @@ jobs:
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}-${{ matrix.browser }}
+      # WebKit needs about 180 system packages (114 MB; the Ubuntu mirror took 49 s in a slow run). apt keeps their
+      # .debs in a cached directory, dpkg skips fsync and man-db's index rebuild; Playwright's install-deps in
+      # scripts/e2e-prepare.sh still decides what to install. Chromium's libraries are on the runner image.
+      - if: matrix.browser == 'webkit'
+        id: apt
+        run: |
+          dir="$HOME/.cache/apt-archives"
+          echo "image=$ImageOS-$ImageVersion" >>"$GITHUB_OUTPUT"
+          mkdir -p "$dir/partial"
+          sudo chown _apt "$dir/partial"
+          echo "Dir::Cache::Archives \"$dir/\";" | sudo tee /etc/apt/apt.conf.d/90atr-archives
+          echo force-unsafe-io | sudo tee /etc/dpkg/dpkg.cfg.d/90atr-unsafe-io
+          sudo rm -f /var/lib/man-db/auto-update
+      - if: matrix.browser == 'webkit'
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ~/.cache/apt-archives/*.deb
+          key: webkit-debs-${{ steps.apt.outputs.image }}-${{ steps.playwright.outputs.version }}
       # Backend (up, deploy, env, accounts, data set), app build and browser at once; see the script.
       - run: scripts/e2e-prepare.sh ${{ matrix.browser }}
       - env:

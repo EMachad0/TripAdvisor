@@ -41,6 +41,8 @@ test.describe('owner', () => {
 	test.use({ storageState: STORAGE.owner });
 	test.describe.configure({ mode: 'serial' });
 	test.beforeAll(reseed);
+	// Leave the e2e data set as the next spec expects it: a CI shard runs any mix of spec files on one backend.
+	test.afterAll(reseed);
 
 	test('the areas round shows the stack, progress, filters and controls', async ({ page }) => {
 		await openDeck(page, '/decide/areas');

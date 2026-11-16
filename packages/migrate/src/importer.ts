@@ -11,6 +11,11 @@ export interface ImportOptions {
 	/** Refuse unless opsFlags.writesFrozen is on (prod). */
 	requireFrozen: boolean;
 	onTable?: (table: DataTable, count: number) => void;
+	/**
+	 * Tables replaced at the same time (default 1: one after another, in DATA_TABLES order). Each replace is its
+	 * own atomic CLI import, so this only shortens the wall time; e2e reseeds of a local test backend use it.
+	 */
+	parallel?: number;
 }
 
 export async function importSnapshot(
@@ -29,10 +34,14 @@ export async function importSnapshot(
 			`writes are not frozen on ${deployment.label}; run ops:setWritesFrozen '{"value": true}' first`,
 		);
 	}
-	for (const table of DATA_TABLES) {
-		const rows = snapshot.rows.get(table) ?? [];
-		await deployment.replaceTable(table, rows);
-		options.onTable?.(table, rows.length);
-	}
+	const queue = [...DATA_TABLES];
+	const lane = async (): Promise<void> => {
+		for (let table = queue.shift(); table !== undefined; table = queue.shift()) {
+			const rows = snapshot.rows.get(table) ?? [];
+			await deployment.replaceTable(table, rows);
+			options.onTable?.(table, rows.length);
+		}
+	};
+	await Promise.all(Array.from({ length: Math.max(1, options.parallel ?? 1) }, lane));
 	return tableCounts(snapshot.rows);
 }
