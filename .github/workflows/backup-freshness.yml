@@ -1,5 +1,5 @@
-# Backup freshness (plan section 13): fails, and GitHub emails the owner, when the newest old/ object (and convex/
-# once vars.BACKUP_CONVEX_LEG is 1) is older than 26 h, or the newest status/ object reports under 2 GB free.
+# Backup freshness (plan section 13): fails, and GitHub emails the owner, when the newest convex/ object is older than
+# 26 h, or the newest status/ object reports under 2 GB free. old/ (the retired old site's /data) is not checked.
 # Skipped until the bucket exists: set vars.BACKUP_REMOTE (an rclone path such as atr:<bucket>/atr) and the secret
 # BACKUP_BUCKET_READ (an rclone.conf with the bucket's READ-ONLY key). Same checks locally: scripts/backup-status.ts.
 name: backup-freshness
@@ -33,10 +33,6 @@ jobs:
         env:
           RCLONE_CONFIG: ${{ runner.temp }}/rclone.conf
           BACKUP_REMOTE: ${{ vars.BACKUP_REMOTE }}
-          CONVEX_LEG: ${{ vars.BACKUP_CONVEX_LEG }}
-        run: |
-          args=(--dest "$BACKUP_REMOTE")
-          [[ "$CONVEX_LEG" == 1 ]] && args+=(--convex)
-          node scripts/backup-status.ts "${args[@]}"
+        run: node scripts/backup-status.ts --dest "$BACKUP_REMOTE"
       - if: always()
         run: rm -f "$RUNNER_TEMP/rclone.conf"

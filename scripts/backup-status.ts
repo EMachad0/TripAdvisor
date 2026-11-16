@@ -1,11 +1,12 @@
 // Backup freshness (plan section 13): the same checks as .github/workflows/backup-freshness.yml, runnable anywhere.
 //
-//   node scripts/backup-status.ts --dest <dir | remote:path> [--convex] [--max-age-hours 26] [--min-free-gb 2]
+//   node scripts/backup-status.ts --dest <dir | remote:path> [--max-age-hours 26] [--min-free-gb 2]
 //
 // --dest is BACKUP_DEST of deploy/backup/backup.sh: a local directory, or an rclone remote path read with
-// `rclone lsf` / `rclone cat` (a read-only key is enough). It fails (exit 1) when the newest old/ object (and
-// convex/ with --convex) is older than the limit, or when the newest status/ object reports less free disk than
-// the limit. Object keys are `<prefix>/<UTC YYYYMMDDTHHMMSSZ>.<ext>`, so the newest is the greatest key.
+// `rclone lsf` / `rclone cat` (a read-only key is enough). It fails (exit 1) when the newest convex/ object is older
+// than the limit, or when the newest status/ object reports less free disk than the limit. old/ (the retired old
+// site's /data) is not checked: that leg stops once OLD_DATA_DIR is unset. --convex is accepted and ignored (the
+// Convex leg is always checked now), so older runbooks still work. Object keys are `<prefix>/<UTC YYYYMMDDTHHMMSSZ>.<ext>`, so the newest is the greatest key.
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -152,7 +153,7 @@ export function main(argv: readonly string[], now: Date = new Date()): number {
 	const limits: Limits = {
 		maxAgeHours: Number(values['max-age-hours']),
 		minFreeBytes: Number(values['min-free-gb']) * 1e9,
-		prefixes: values.convex === true ? ['old', 'convex'] : ['old'],
+		prefixes: ['convex'],
 	};
 	const store = path.isAbsolute(dest) ? localStore(dest) : rcloneStore(dest);
 	const checks = evaluate(snapshotOf(store, limits.prefixes), limits, now);

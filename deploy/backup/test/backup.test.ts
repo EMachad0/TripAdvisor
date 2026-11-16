@@ -1,6 +1,7 @@
 // node --test deploy/backup/test
 // backup.sh end to end against a local destination, with age and the Convex CLI stubbed (AGE, CONVEX_CLI): what is
-// written where, for which recipients, the old-leg checks, the status object and local retention.
+// written where, for which recipients, the old-leg checks, the Convex-only default once OLD_DATA_DIR is empty, the
+// status object and local retention.
 import assert from 'node:assert/strict';
 import { execFileSync, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -136,6 +137,29 @@ void test('both legs write old/, convex/, convex-env/ and status/ under one UTC 
 	assert.deepEqual(Object.keys(st).sort(), ['diskFreeBytes', 'ts']);
 	assert.ok(!r.out.includes('stub-secret'), 'no env value in the output');
 	assert.ok(!r.out.includes('x|y'), 'no admin key in the output');
+});
+
+void test('with OLD_DATA_DIR empty the job is the Convex leg alone; --leg old then fails clearly', () => {
+	write(
+		'conf/backup.env',
+		[
+			`BACKUP_DEST=${dir}/dest`,
+			'OLD_DATA_DIR=',
+			`AGE_OWNER_RECIPIENT=${OWNER}`,
+			`AGE_CI_RECIPIENT=${CI}`,
+			'',
+		].join('\n'),
+	);
+	const r = run();
+	assert.equal(r.status, 0, r.out);
+	assert.doesNotMatch(r.out, /leg old/);
+	assert.deepEqual(list('old'), []);
+	assert.equal(list('convex').length, 1);
+	assert.equal(list('convex-env').length, 1);
+	assert.equal(list('status').length, 1);
+	const old = run('--leg', 'old');
+	assert.equal(old.status, 1);
+	assert.match(old.out, /OLD_DATA_DIR is not set/);
 });
 
 void test('old/ and convex/ go to owner + CI; convex-env/ to the owner alone', () => {

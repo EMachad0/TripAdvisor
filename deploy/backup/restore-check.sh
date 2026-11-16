@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
-# Check an old/ backup restores (plan section 13, restore test steps 1 and 2): decrypt, check every file against the
-# manifest, boot the OLD server on the restored files, sign in, and compare /api/trip with the files.
+# Check an old/ backup (the retired old site's /data) still restores: decrypt it and check every file against its
+# manifest, and that every JSON and JSONL file parses. (Until the old site was retired this also booted the old
+# server on the restored files; that server is gone. The live data is in Convex: restore-convex.sh.)
 #
 #   deploy/backup/restore-check.sh latest --dest <dir | remote:path> --identity <age identity>
 #   deploy/backup/restore-check.sh <old/<ts>.tar.gz.age> --identity <age identity>
 #
-# Plaintext goes to .cache/snapshot-<ts>/ (mode 700, gitignored); --keep leaves it there (the cutover's step 4 uses
-# it), otherwise it is deleted on exit. The old server runs on 127.0.0.1 with a throwaway password.
+# Plaintext goes to .cache/snapshot-<ts>/ (mode 700, gitignored); --keep leaves it there, otherwise it is deleted on
+# exit.
 set -euo pipefail
 set +x
 umask 077
@@ -14,10 +15,10 @@ umask 077
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 log() { printf 'restore-check: %s\n' "$*"; }
 die() { printf 'restore-check: FAIL: %s\n' "$*" >&2; exit 1; }
-usage() { sed -n '2,10p' "$0"; exit 2; }
+usage() { sed -n '2,9p' "$0"; exit 2; }
 
 WHAT="${1:-}"; [[ -n "$WHAT" ]] || usage; shift
-DEST="" IDENTITY="" KEEP=0 PORT="${OLD_PORT:-4499}"
+DEST="" IDENTITY="" KEEP=0
 while [[ $# -gt 0 ]]; do
 	case "$1" in
 		--dest) DEST="${2:?}"; shift 2 ;;
@@ -34,9 +35,7 @@ TS="$(date -u +%Y%m%dT%H%M%SZ)"
 WORK="$ROOT/.cache/snapshot-$TS"
 mkdir -p "$WORK"
 chmod 700 "$WORK"
-server=""
 cleanup() {
-	[[ -z "$server" ]] || kill "$server" 2>/dev/null || true
 	if [[ $KEEP -eq 0 ]]; then rm -rf "$WORK"; else log "kept $WORK"; fi
 }
 trap cleanup EXIT
@@ -70,25 +69,12 @@ while IFS=$'\t' read -r file sha; do
 done < <(jq -r '.files[] | [.file, .sha256] | @tsv' "$WORK/manifest.json")
 log "manifest: $n file(s) match (backup $(jq -r .ts "$WORK/manifest.json"))"
 
-# 2. the old server on the restored files
-PW="ci-only-$(od -An -N12 -tx1 /dev/urandom | tr -d ' \n')"
-ATR_OWNER_PASSWORD="$PW" ATR_OWNER_USER=ci-owner node "$ROOT/game/server.js" --host 127.0.0.1 --port "$PORT" \
-	--feedback "$WORK/feedback" --trip "$WORK/trip" >"$WORK/server.log" 2>&1 &
-server=$!
-for _ in $(seq 1 30); do curl -fsS "http://127.0.0.1:$PORT/healthz" >/dev/null 2>&1 && break; sleep 1; done
-curl -fsS "http://127.0.0.1:$PORT/healthz" >/dev/null || { cat "$WORK/server.log" >&2; die "old server did not start"; }
-code="$(printf '%s' "$PW" | curl -sS -c "$WORK/cookies" -o /dev/null -w '%{http_code}' \
-	--data-urlencode username=ci-owner --data-urlencode password@- "http://127.0.0.1:$PORT/login")"
-unset PW
-[[ "$code" == 303 ]] || die "sign-in on the old server returned $code"
-curl -fsS -b "$WORK/cookies" "http://127.0.0.1:$PORT/api/trip" >"$WORK/api-trip.json"
-diffs=0
-for f in "$WORK"/trip/*.json; do
-	col="$(basename "$f" .json)"
-	want="$(jq '[.[]? | select(.id | type == "string")] | length' "$f")"
-	got="$(jq --arg c "$col" '.trip[$c] | length' "$WORK/api-trip.json")"
-	if [[ "$want" != "$got" ]]; then log "  trip/$col: file $want, /api/trip $got"; diffs=$((diffs + 1)); fi
+# 2. every JSON and JSONL file parses
+for f in "$WORK"/feedback/* "$WORK"/trip/*; do
+	[[ -f "$f" ]] || continue
+	case "$f" in
+		*.jsonl) jq -c . "$f" >/dev/null 2>&1 || die "${f#"$WORK"/} does not parse" ;;
+		*.json) jq -e . "$f" >/dev/null 2>&1 || die "${f#"$WORK"/} does not parse" ;;
+	esac
 done
-curl -fsS -b "$WORK/cookies" "http://127.0.0.1:$PORT/api/state" >/dev/null || die "/api/state failed"
-[[ $diffs -eq 0 ]] || die "$diffs trip collection(s) differ"
-log "old server on the restored files: /healthz ok, sign-in 303, /api/trip matches $(find "$WORK/trip" -name '*.json' | wc -l | tr -d ' ') collection(s)"
+log "every JSON and JSONL file parses ($(find "$WORK/trip" -name '*.json' | wc -l | tr -d ' ') trip collection(s))"

@@ -99,6 +99,7 @@ void test('a local destination is read the way backup.sh writes it; main exits 0
 		for (const [dir, name, body] of [
 			['old', '20261116T161700Z.tar.gz.age', 'x'],
 			['old', '20261115T161700Z.tar.gz.age', 'x'],
+			['convex', '20261116T161700Z.tar.age', 'x'],
 			['status', '20261115T161700Z.json', '{"ts":"20261115T161700Z","diskFreeBytes":1}'],
 			['status', '20261116T161700Z.json', '{"ts":"20261116T161700Z","diskFreeBytes":9000000000}'],
 		] as const) {
@@ -107,14 +108,23 @@ void test('a local destination is read the way backup.sh writes it; main exits 0
 		}
 		const snap = snapshotOf(localStore(root), ['old', 'convex']);
 		assert.equal(snap.newest['old'], '20261116T161700Z.tar.gz.age');
-		assert.equal(snap.newest['convex'], null);
+		assert.equal(snap.newest['convex'], '20261116T161700Z.tar.age');
 		assert.equal(snap.status?.diskFreeBytes, 9e9);
 		const write = process.stdout.write.bind(process.stdout);
 		process.stdout.write = () => true;
 		try {
 			assert.equal(main(['--dest', root], NOW), 0);
-			assert.equal(main(['--dest', root, '--convex'], NOW), 1);
+			assert.equal(
+				main(['--dest', root, '--convex'], NOW),
+				0,
+				'--convex is accepted and changes nothing',
+			);
 			assert.equal(main(['--dest', root, '--max-age-hours', '1'], NOW), 1);
+			// a stale old/ (the old leg stopped) does not fail the check; a stale convex/ does
+			fs.rmSync(path.join(root, 'old'), { recursive: true });
+			assert.equal(main(['--dest', root], NOW), 0, 'old/ is not checked');
+			fs.rmSync(path.join(root, 'convex'), { recursive: true });
+			assert.equal(main(['--dest', root], NOW), 1, 'no convex/ object fails');
 		} finally {
 			process.stdout.write = write;
 		}
