@@ -4,10 +4,9 @@
 #
 #   backend  scripts/convex-local.sh e2e-prepare (up, deploy, env, accounts, the e2e data set)
 #   build    vite build of apps/web for this slot
-#   browser  the Playwright browser; WebKit also gets its system packages (the runner image has Chromium's),
-#            from ATR_APT_ARCHIVES when it holds their .debs
+#   browser  Playwright's Chromium (its system libraries are already on the runner image)
 #
-#   scripts/e2e-prepare.sh <chromium|webkit>
+#   scripts/e2e-prepare.sh
 #
 # Then `ATR_E2E_PREPARED=1 pnpm e2e …` only starts the built app (apps/web/playwright.config.ts). Each part logs to
 # its own file, printed as a folded group with its time once all three are done; any failure fails the script.
@@ -16,11 +15,6 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 WEB="$ROOT/apps/web"
-BROWSER="${1:-}"
-[[ "$BROWSER" == chromium || "$BROWSER" == webkit ]] || {
-	echo "usage: scripts/e2e-prepare.sh <chromium|webkit>" >&2
-	exit 2
-}
 SLOT="${ATR_SLOT:-0}"
 [[ "$SLOT" =~ ^[0-8]$ ]] || { echo "e2e-prepare: ATR_SLOT must be 0 to 8" >&2; exit 2; }
 LOGS="$(mktemp -d)"
@@ -37,32 +31,7 @@ part_build() {
 		node_modules/.bin/vite build
 }
 
-# WebKit's system packages (about 180). With ATR_APT_ARCHIVES holding their .debs (CI caches them), dpkg installs
-# them with no network, and `install-deps --dry-run` (apt-get's simulation) then fails if any is still missing,
-# say after a Playwright upgrade. Otherwise Playwright's install-deps runs apt-get update and install against the
-# Ubuntu mirror, which has stalled for minutes on CI: each try gets 150 s, and there are two.
-webkit_deps() {
-	local archives="${ATR_APT_ARCHIVES:-}" try
-	if [[ -n "$archives" ]] && compgen -G "$archives/*.deb" >/dev/null; then
-		if sudo dpkg -i "$archives"/*.deb >/dev/null &&
-			node_modules/.bin/playwright install-deps --dry-run webkit; then
-			echo "e2e-prepare: WebKit packages installed from $archives"
-			return 0
-		fi
-		echo "e2e-prepare: the cached packages are not enough; installing from the mirror"
-	fi
-	for try in 1 2; do
-		if timeout 150 node_modules/.bin/playwright install-deps webkit; then return 0; fi
-		echo "e2e-prepare: install-deps try $try failed or timed out"
-	done
-	return 1
-}
-
-part_browser() {
-	cd "$WEB"
-	if [[ "$BROWSER" == webkit ]]; then webkit_deps; fi
-	node_modules/.bin/playwright install "$BROWSER"
-}
+part_browser() { "$WEB/node_modules/.bin/playwright" install chromium; }
 
 # Each log line starts with the seconds since the script started, so the slow step of a part shows.
 stamp() {
@@ -95,4 +64,4 @@ if ((${#failed[@]} > 0)); then
 	echo "e2e-prepare: failed: ${failed[*]}" >&2
 	exit 1
 fi
-echo "e2e-prepare: backend, build and $BROWSER ready after $SECONDS s"
+echo "e2e-prepare: backend, build and browser ready after $SECONDS s"

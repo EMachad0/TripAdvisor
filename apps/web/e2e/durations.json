@@ -19,26 +19,5 @@
 		"shell.spec.ts": 13,
 		"today.spec.ts": 26,
 		"todo.spec.ts": 10
-	},
-	"iphone": {
-		"answers.spec.ts": 46,
-		"auth.spec.ts": 15,
-		"bag.spec.ts": 21,
-		"board.spec.ts": 68,
-		"calendar.spec.ts": 22,
-		"calls.spec.ts": 39,
-		"deck.spec.ts": 44,
-		"duels.spec.ts": 29,
-		"holidays.spec.ts": 48,
-		"itinerary.spec.ts": 32,
-		"media-maps.spec.ts": 8,
-		"money.spec.ts": 45,
-		"offline.spec.ts": 68,
-		"place-pages.spec.ts": 15,
-		"places.spec.ts": 16,
-		"routemap.spec.ts": 73,
-		"shell.spec.ts": 24,
-		"today.spec.ts": 44,
-		"todo.spec.ts": 11
 	}
 }

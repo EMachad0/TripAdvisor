@@ -19,20 +19,18 @@ function reseed(): void {
 	);
 }
 
-/** A page load that waits out one window of the auth rate limit (see the slice reports). */
 /**
- * A click on desktop, a tap on the phone projects (what the traveler does), after scrolling the element to the middle
- * of the screen. In WebKit's iPhone emulation a mouse click on a scrolled page lands under the sticky app bar
- * ("<header> intercepts pointer events"), whatever the target; a tap does not.
+ * Click a control after scrolling it to the middle of the screen: a target at the top edge sits under the sticky
+ * app bar.
  */
 async function press(target: Locator): Promise<void> {
 	await target.evaluate((el) => {
 		el.scrollIntoView({ block: 'center' });
 	});
-	if (test.info().project.name === 'desktop') await target.click();
-	else await target.tap();
+	await target.click();
 }
 
+/** A page load that waits out one window of the auth rate limit (see the slice reports). */
 async function navigate(page: Page, go: () => Promise<Response | null>): Promise<void> {
 	const first = await go();
 	if (first === null || first.ok()) return;

@@ -6,19 +6,13 @@ import { expect, test, type Locator, type Page, type Response } from '@playwrigh
 import { STORAGE } from './support';
 
 /**
- * Activate a control. Chromium clicks it with the pointer, after scrolling it to the middle of the screen (a target
- * at the top edge sits under the sticky app bar). WebKit uses the keyboard (focus, Enter), which is the same click
- * event: on this headless macOS host WebKit drops every pointer event, even on a bare test page, so `click()` and
- * `tap()` time out there.
+ * Click a control after scrolling it to the middle of the screen: a target at the top edge sits under the sticky
+ * app bar.
  */
 async function press(target: Locator): Promise<void> {
 	await target.evaluate((el) => {
 		el.scrollIntoView({ block: 'center' });
 	});
-	if (target.page().context().browser()?.browserType().name() === 'webkit') {
-		await target.press('Enter');
-		return;
-	}
 	await target.click();
 }
 

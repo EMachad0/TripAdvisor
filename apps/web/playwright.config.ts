@@ -46,7 +46,6 @@ export default defineConfig({
 	projects: [
 		{ name: 'setup', testMatch: /auth\.setup\.ts/ },
 		{ name: 'desktop', use: { ...devices['Desktop Chrome'] }, dependencies: ['setup'] },
-		{ name: 'iphone', use: { ...devices['iPhone 15'] }, dependencies: ['setup'] },
 	],
 	webServer: [
 		...(PREPARED

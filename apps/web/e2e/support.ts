@@ -37,7 +37,7 @@ export function credentials(account: Account): { username: string; password: str
 
 /** A distinct fake client IP per project and purpose, so in-memory limiter counts never cross. */
 export function clientIp(project: string, purpose: number): string {
-	const p = ['setup', 'desktop', 'iphone'].indexOf(project) + 1;
+	const p = ['setup', 'desktop'].indexOf(project) + 1;
 	return `10.${String(p)}.${String(purpose)}.1`;
 }
 
