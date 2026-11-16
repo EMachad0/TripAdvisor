@@ -1,0 +1,214 @@
+{
+	"$comment": [
+		"Who may edit what on mig/* branches (plan section 9 and section 17 task 9). Checked by scripts/check-ownership.ts.",
+		"A slice branch may touch only its `owns` paths plus docs/migration/parity/<slice>.md. `shared` paths are edited only on integrator branches.",
+		"mig/next itself (the cutover PR) and branches outside mig/* (answer cards, curators) are not checked.",
+		"Globs: * matches within one path segment, ** across segments."
+	],
+	"shared": [
+		"apps/web/package.json",
+		"pnpm-lock.yaml",
+		"pnpm-workspace.yaml",
+		"tooling/package.json",
+		"apps/web/src/convex/schema.ts",
+		"apps/web/src/convex/tables/**",
+		"apps/web/src/convex/_generated/**"
+	],
+	"integratorBranches": [
+		"mig/integrator",
+		"mig/integrator-*",
+		"mig/integrator/*"
+	],
+	"unchecked": [
+		"mig/next"
+	],
+	"slices": {
+		"A": {
+			"name": "Today",
+			"branches": [
+				"mig/t9-a",
+				"mig/t9-a-*",
+				"mig/t9-*/a",
+				"mig/t9-*/a-*"
+			],
+			"owns": [
+				"apps/web/src/routes/(app)/+page.svelte",
+				"apps/web/src/routes/(app)/today/**",
+				"apps/web/src/lib/features/today/**",
+				"apps/web/e2e/today.spec.ts",
+				"docs/migration/parity/today.md"
+			]
+		},
+		"B": {
+			"name": "Itinerary, Calendar, trip forms",
+			"branches": [
+				"mig/t9-b",
+				"mig/t9-b-*",
+				"mig/t9-*/b",
+				"mig/t9-*/b-*"
+			],
+			"owns": [
+				"apps/web/src/routes/(app)/trip/+page.svelte",
+				"apps/web/src/routes/(app)/trip/itinerary/**",
+				"apps/web/src/routes/(app)/trip/calendar/**",
+				"apps/web/src/lib/features/trip/**",
+				"apps/web/e2e/itinerary.spec.ts",
+				"apps/web/e2e/calendar.spec.ts",
+				"docs/migration/parity/trip.md"
+			]
+		},
+		"C": {
+			"name": "Route map",
+			"branches": [
+				"mig/t9-c",
+				"mig/t9-c-*",
+				"mig/t9-*/c",
+				"mig/t9-*/c-*"
+			],
+			"owns": [
+				"apps/web/src/routes/(app)/trip/map/**",
+				"apps/web/src/lib/features/routemap/**",
+				"apps/web/src/routes/route-map/**",
+				"apps/web/e2e/routemap.spec.ts",
+				"docs/migration/parity/routemap.md"
+			]
+		},
+		"D": {
+			"name": "Places, Answers",
+			"branches": [
+				"mig/t9-d",
+				"mig/t9-d-*",
+				"mig/t9-*/d",
+				"mig/t9-*/d-*"
+			],
+			"owns": [
+				"apps/web/src/routes/(app)/places/**",
+				"apps/web/src/lib/features/places/**",
+				"apps/web/src/lib/components/shared/PlaceRow*",
+				"apps/web/src/lib/components/shared/AnswerCard*",
+				"apps/web/e2e/places.spec.ts",
+				"apps/web/e2e/answers.spec.ts",
+				"docs/migration/parity/places.md"
+			]
+		},
+		"E": {
+			"name": "Deck, Calls, sheet, cards, NoteEditor",
+			"branches": [
+				"mig/t9-e",
+				"mig/t9-e-*",
+				"mig/t9-*/e",
+				"mig/t9-*/e-*"
+			],
+			"owns": [
+				"apps/web/src/routes/(app)/decide/areas/**",
+				"apps/web/src/routes/(app)/decide/swipe/**",
+				"apps/web/src/routes/(app)/decide/calls/**",
+				"apps/web/src/lib/features/deck/**",
+				"apps/web/src/lib/features/cards/**",
+				"apps/web/src/lib/components/shared/PlaceSheet*",
+				"apps/web/e2e/deck.spec.ts",
+				"apps/web/e2e/calls.spec.ts",
+				"docs/migration/parity/deck.md"
+			]
+		},
+		"F": {
+			"name": "Overview, Duels, Board, Holidays",
+			"branches": [
+				"mig/t9-f",
+				"mig/t9-f-*",
+				"mig/t9-*/f",
+				"mig/t9-*/f-*"
+			],
+			"owns": [
+				"apps/web/src/routes/(app)/decide/+page.svelte",
+				"apps/web/src/routes/(app)/decide/duels/**",
+				"apps/web/src/routes/(app)/decide/board/**",
+				"apps/web/src/routes/(app)/decide/holidays/**",
+				"apps/web/src/lib/features/decide/**",
+				"apps/web/e2e/duels.spec.ts",
+				"apps/web/e2e/board.spec.ts",
+				"apps/web/e2e/holidays.spec.ts",
+				"docs/migration/parity/decide.md"
+			]
+		},
+		"G": {
+			"name": "Money, To do, Bag",
+			"branches": [
+				"mig/t9-g",
+				"mig/t9-g-*",
+				"mig/t9-*/g",
+				"mig/t9-*/g-*"
+			],
+			"owns": [
+				"apps/web/src/routes/(app)/money/**",
+				"apps/web/src/routes/(app)/prep/**",
+				"apps/web/src/lib/features/money/**",
+				"apps/web/src/lib/features/prep/**",
+				"apps/web/e2e/money.spec.ts",
+				"apps/web/e2e/todo.spec.ts",
+				"apps/web/e2e/bag.spec.ts",
+				"docs/migration/parity/money-prep.md"
+			]
+		},
+		"H": {
+			"name": "Content pages, embed glue, media, maps",
+			"branches": [
+				"mig/t9-h",
+				"mig/t9-h-*",
+				"mig/t9-*/h",
+				"mig/t9-*/h-*"
+			],
+			"owns": [
+				"apps/web/src/routes/place/**",
+				"apps/web/src/routes/area/**",
+				"apps/web/src/routes/media/**",
+				"apps/web/src/routes/area-media/**",
+				"apps/web/src/routes/map/**",
+				"apps/web/src/routes/area-map/**",
+				"apps/web/embed/**",
+				"apps/web/src/routes/embed/**",
+				"apps/web/src/routes/assets/**",
+				"apps/web/src/lib/server/maps.ts",
+				"apps/web/e2e/place-pages.spec.ts",
+				"apps/web/e2e/media-maps.spec.ts",
+				"docs/migration/parity/content-pages.md"
+			]
+		},
+		"I": {
+			"name": "CLI and export client",
+			"branches": [
+				"mig/t9-i",
+				"mig/t9-i-*",
+				"mig/t9-*/i",
+				"mig/t9-*/i-*"
+			],
+			"owns": [
+				"platform/lib/feedback/pull.js",
+				"platform/lib/trip-cli.js",
+				"platform/cli/atr.js",
+				"platform/lib/publish.js",
+				"platform/test/pull.test.js",
+				"platform/test/trip-cli.test.js",
+				"platform/lib/site.js",
+				".claude/skills/trip-answers/SKILL.md",
+				"docs/CURATOR-GUIDE.md",
+				"docs/migration/parity/cli.md"
+			]
+		},
+		"L": {
+			"name": "Offline",
+			"branches": [
+				"mig/t9-l",
+				"mig/t9-l-*",
+				"mig/t9-*/l",
+				"mig/t9-*/l-*"
+			],
+			"owns": [
+				"apps/web/src/service-worker/**",
+				"apps/web/src/lib/sync/**",
+				"apps/web/e2e/offline.spec.ts",
+				"docs/migration/parity/offline.md"
+			]
+		}
+	}
+}

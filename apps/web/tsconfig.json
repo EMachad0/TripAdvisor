@@ -1,7 +1,12 @@
 {
 	"extends": "$app/tsconfig",
 	"include": ["src", "e2e", "*.config.ts", "scripts"],
-	"exclude": ["src/service-worker"],
+	// platform*.js re-export the plain-JS platform; TypeScript reads the .d.ts beside each instead.
+	"exclude": [
+		"src/service-worker",
+		"src/lib/server/platform.js",
+		"src/lib/server/platform-maps.js"
+	],
 	"compilerOptions": {
 		"types": ["$app/types", "node"],
 		"strict": true,

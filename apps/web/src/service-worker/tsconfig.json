@@ -1,0 +1,18 @@
+{
+	// The service worker runs in a WebWorker scope, not the DOM: its own tsconfig (plan section 9).
+	"extends": "$app/tsconfig/service-worker",
+	"include": ["./**/*.ts", "../lib/sync/db.ts"],
+	"compilerOptions": {
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"allowUnreachableCode": false,
+		"erasableSyntaxOnly": true
+	}
+}

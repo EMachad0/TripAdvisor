@@ -14,6 +14,7 @@ build/
 .cache/
 .claude/
 apps/web/static/
+apps/web/embed/
 **/_generated/
 **/.svelte-kit/
 **/build/

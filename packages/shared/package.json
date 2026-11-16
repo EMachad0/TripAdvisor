@@ -13,6 +13,8 @@
 		"./trip": "./src/trip.ts",
 		"./routemap": "./src/routemap.ts",
 		"./route": "./src/route.ts",
+		"./content": "./src/content.ts",
+		"./routemodel": "./src/routemodel.ts",
 		"./v1": "./src/v1.ts",
 		"./schema/check": "./src/schema/check.ts",
 		"./schema/dsl": "./src/schema/dsl.ts",

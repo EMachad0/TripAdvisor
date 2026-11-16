@@ -278,3 +278,52 @@ describe('internal trip.adminWrite', () => {
 		expect(await countRows(w.t, 'tripTasks')).toBe(1);
 	});
 });
+
+describe('trip.write request limits (the old 64 KB body cap)', () => {
+	test('refuses a request over 64 KB, writing nothing', async () => {
+		// 20 fields of 4,000 characters: each under the field cap, about 80 KB together.
+		const data = Object.fromEntries(
+			Array.from({ length: 20 }, (_, i) => [`f${String(i)}`, 'x'.repeat(4000)]),
+		);
+		const call = write('tasks', 'set', 'big', data);
+		expect(await codeOf(call)).toBe('Invalid');
+		expect(await messageOf(write('tasks', 'set', 'big', data))).toBe('body too large');
+		expect(await countRows(w.t, 'tripTasks')).toBe(0);
+		expect(await countRows(w.t, 'tripChanges')).toBe(0);
+	});
+
+	test('counts UTF-8 bytes, not characters', async () => {
+		// 9 fields of 2,500 three-byte characters: 22,500 characters but about 67 KB.
+		const data = Object.fromEntries(
+			Array.from({ length: 9 }, (_, i) => [`f${String(i)}`, '旅'.repeat(2500)]),
+		);
+		expect(await messageOf(write('tasks', 'set', 'wide', data))).toBe('body too large');
+	});
+
+	test('refuses one string over 10,000 characters, and too many fields or list items', async () => {
+		expect(await messageOf(write('tasks', 'set', 'a', { note: 'n'.repeat(10_001) }))).toBe(
+			'note: too long (max 10000 characters)',
+		);
+		const many = Object.fromEntries(Array.from({ length: 65 }, (_, i) => [`f${String(i)}`, 1]));
+		expect(await messageOf(write('tasks', 'set', 'a', many))).toBe('too many fields (max 64)');
+		const cities = Array.from({ length: 101 }, (_, i) => `c${String(i)}`);
+		expect(await messageOf(write('legs', 'set', 'l', { cities }))).toBe(
+			'cities: too many items (max 100)',
+		);
+		expect(await countRows(w.t, 'tripTasks')).toBe(0);
+	});
+
+	test('accepts a write just under the limits', async () => {
+		const res = await write('tasks', 'set', 'ok', { title: 'T', note: 'n'.repeat(10_000) });
+		expect(res).toMatchObject({ ok: true, doc: { id: 'ok', note: 'n'.repeat(10_000) } });
+	});
+
+	test('adminWrite has the same cap', async () => {
+		const data = { note: 'n'.repeat(10_001) };
+		expect(
+			await codeOf(
+				w.t.mutation(internal.trip.adminWrite, { col: 'tasks', op: 'set', id: 'a', data }),
+			),
+		).toBe('Invalid');
+	});
+});

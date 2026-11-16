@@ -64,7 +64,7 @@ export const seedAccounts = internalAction({
 });
 
 /**
- * The restore test's owner, `ci-restore` (a username never used in prod), with E2E_OWNER_PASSWORD from env.
+ * The restore test's owner, `ci_restore` (a username never used in prod), with E2E_OWNER_PASSWORD from env.
  * Refuses unless the deployment has ATR_CI_DEPLOYMENT=1, so it cannot open a backdoor on prod.
  */
 export const seedCiUser = internalAction({
@@ -72,9 +72,9 @@ export const seedCiUser = internalAction({
 	handler: async (ctx): Promise<SeedResult> => {
 		if (!env.isCiDeployment()) throw new Error('seedCiUser runs only where ATR_CI_DEPLOYMENT=1');
 		return await ensureAccount(ctx, {
-			username: 'ci-restore',
+			username: 'ci_restore',
 			password: env.ciOwnerPassword(),
-			email: 'ci-restore@example.invalid',
+			email: 'ci_restore@example.invalid',
 			role: 'owner',
 		});
 	},

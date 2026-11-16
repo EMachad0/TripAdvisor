@@ -7,7 +7,8 @@ import fs from 'node:fs';
 import http from 'node:http';
 import path from 'node:path';
 import { PLATFORM, ROOT } from '../lib/paths.js';
-import { bundleProblems, exportUrl, pullInfo, readToken, writePull, KEYCHAIN_SERVICE, MANIFEST } from '../lib/feedback/pull.js';
+import { bundleProblems, exportUrl, missingFiles, pull, pullInfo, pullSource, readToken, writePull, DEFAULT_SOURCE, EXPECTED_FILES, KEYCHAIN_SERVICE, MANIFEST } from '../lib/feedback/pull.js';
+import { SITES } from '../lib/site.js';
 import { tmpDir } from './helpers.js';
 
 const TOKEN = randomBytes(18).toString('base64url'); // generated per run, never a real token
@@ -15,20 +16,23 @@ const sha = (s) => createHash('sha256').update(s, 'utf8').digest('hex');
 const file = (content, count) => ({ count, sha256: sha(content), content });
 const swipe = (i) => JSON.stringify({ v: 1, ts: `2026-11-10T09:0${i}:00Z`, session: 's', round: 'place', id: 'yu-garden', verdict: 'must', country: 'china' }) + '\n';
 
+/** A complete bundle, as GET /ops/export sends it: every feedback and trip file (most of them empty). */
 function bundle({ swipes = 2 } = {}) {
   const sw = Array.from({ length: swipes }, (_, i) => swipe(i)).join('');
   const gs = JSON.stringify({ v: 1, firstRun: null, firstSeen: { 'yu-garden': '2026-11-10T09:00:00Z' }, days: {}, locks: {} }, null, 2) + '\n';
   const legs = JSON.stringify([{ id: 'a', type: 'stay', order: 1 }], null, 2) + '\n';
-  return {
-    format: 'atr-v1-bundle', version: 1, generatedAt: '2026-11-15T12:00:00Z',
-    files: {
-      'feedback/swipes.jsonl': file(sw, swipes),
-      'feedback/game-state.json': file(gs, 1),
-      'trip/legs.json': file(legs, 1),
-      'trip/spend.json': file('[]\n', 0),
-    },
-  };
+  const files = {};
+  for (const n of EXPECTED_FILES.feedback) files[`feedback/${n}`] = file('', 0);
+  for (const n of EXPECTED_FILES.trip) files[`trip/${n}`] = file('[]\n', 0);
+  Object.assign(files, {
+    'feedback/swipes.jsonl': file(sw, swipes),
+    'feedback/game-state.json': file(gs, 1),
+    'trip/legs.json': file(legs, 1),
+  });
+  return { format: 'atr-v1-bundle', version: 1, generatedAt: '2026-11-15T12:00:00Z', files };
 }
+const FEEDBACK_NAMES = [MANIFEST, ...EXPECTED_FILES.feedback].sort();
+const TRIP_NAMES = [MANIFEST, ...EXPECTED_FILES.trip].sort();
 
 // The fake site: GET /ops/export with the right Bearer token returns `served`.
 let server, base, served = bundle(), requests = [];
@@ -60,10 +64,10 @@ const live = (root, kind = 'feedback') => path.join(root, '.cache', `${kind}-liv
 test('feedback pull writes the feedback files and a manifest, never the token', async () => {
   served = bundle();
   const root = tmpDir();
-  const r = await atr(root, ['feedback', 'pull', '--url', base]);
+  const r = await atr(root, ['feedback', 'pull', '--from-convex', '--url', base]);
   assert.equal(r.status, 0, r.stderr);
-  assert.match(r.stdout, /pulled 2 file\(s\)/);
-  assert.deepEqual(fs.readdirSync(live(root)).sort(), [MANIFEST, 'game-state.json', 'swipes.jsonl']);
+  assert.match(r.stdout, /pulled 6 file\(s\)/);
+  assert.deepEqual(fs.readdirSync(live(root)).sort(), FEEDBACK_NAMES);
   assert.equal(fs.readFileSync(path.join(live(root), 'swipes.jsonl'), 'utf8'), served.files['feedback/swipes.jsonl'].content);
   const m = JSON.parse(fs.readFileSync(path.join(live(root), MANIFEST), 'utf8'));
   assert.equal(m.source, base);
@@ -75,28 +79,70 @@ test('feedback pull writes the feedback files and a manifest, never the token', 
   assert.deepEqual(fs.readdirSync(path.join(root, '.cache')).sort(), ['feedback-live'], 'no temp dir left behind');
 });
 
-test('trip pull writes trip-live, and ATR_EXPORT_URL is the default source', async () => {
+test('trip pull writes trip-live, and ATR_EXPORT_URL is the default URL', async () => {
   served = bundle();
   const root = tmpDir();
-  const r = await atr(root, ['trip', 'pull'], { ATR_EXPORT_URL: base });
+  const r = await atr(root, ['trip', 'pull', '--from-convex'], { ATR_EXPORT_URL: base });
   assert.equal(r.status, 0, r.stderr);
-  assert.deepEqual(fs.readdirSync(live(root, 'trip')).sort(), [MANIFEST, 'legs.json', 'spend.json']);
+  assert.deepEqual(fs.readdirSync(live(root, 'trip')).sort(), TRIP_NAMES);
   assert.ok(!fs.existsSync(live(root)));
+});
+
+test('the source: --from-backup is the default until the cutover and is not built, so a bare pull writes nothing', async () => {
+  assert.equal(DEFAULT_SOURCE, 'backup', 'the cutover PR flips this to convex');
+  assert.equal(pullSource({}), DEFAULT_SOURCE);
+  assert.equal(pullSource({ fromConvex: true }), 'convex');
+  assert.throws(() => pullSource({ fromConvex: true, fromBackup: true }), /pick one source/);
+  served = bundle();
+  const before = requests.length;
+  for (const args of [['feedback', 'pull', '--url', base], ['trip', 'pull', '--from-backup'], ['feedback', 'pull', '--from-convex', '--from-backup', '--url', base]]) {
+    const root = tmpDir();
+    const r = await atr(root, args, { ATR_EXPORT_URL: base });
+    assert.equal(r.status, 1, args.join(' '));
+    assert.match(r.stderr, /--from-backup\) is not available|pick one source/);
+    assert.ok(!fs.existsSync(path.join(root, '.cache')), 'nothing written');
+  }
+  assert.equal(requests.length, before, 'nothing fetched');
+});
+
+test('--from-convex defaults to the new site\'s Convex export URL and reports its source', async () => {
+  const seen = [];
+  const fetchImpl = async (u) => { seen.push(String(u)); return { ok: true, status: 200, json: async () => bundle() }; };
+  const r = await pull({ kind: 'trip', source: 'convex', cacheDir: tmpDir(), env: { ATR_EXPORT_TOKEN: TOKEN }, fetchImpl });
+  assert.equal(seen[0], `${SITES.new.exportUrl}/ops/export`);
+  assert.equal(r.source, 'convex');
+  assert.equal(r.files.length, EXPECTED_FILES.trip.length);
+});
+
+test('a bundle without one of the kind\'s files is refused by a convex pull', async () => {
+  const b = bundle();
+  delete b.files['feedback/notes.jsonl'];
+  assert.deepEqual(missingFiles(b, 'feedback'), ['notes.jsonl']);
+  assert.deepEqual(missingFiles(b, 'trip'), []);
+  assert.deepEqual(bundleProblems(b), [], 'every file it has is sound');
+  served = b;
+  const root = tmpDir();
+  const r = await atr(root, ['feedback', 'pull', '--from-convex', '--url', base]);
+  assert.equal(r.status, 1);
+  assert.match(r.stderr, /feedback\/notes\.jsonl: missing from the bundle/);
+  assert.ok(!fs.existsSync(live(root)));
+  // a trip pull of the same bundle is fine: the trip files are all there
+  assert.equal((await atr(root, ['trip', 'pull', '--from-convex', '--url', base])).status, 0);
 });
 
 test('a second pull replaces the copy; a file newer than the last pull blocks it and is named', async () => {
   served = bundle();
   const root = tmpDir();
-  assert.equal((await atr(root, ['feedback', 'pull', '--url', base])).status, 0);
+  assert.equal((await atr(root, ['feedback', 'pull', '--from-convex', '--url', base])).status, 0);
   served = bundle({ swipes: 3 });
-  assert.equal((await atr(root, ['feedback', 'pull', '--url', base])).status, 0);
+  assert.equal((await atr(root, ['feedback', 'pull', '--from-convex', '--url', base])).status, 0);
   assert.equal(fs.readFileSync(path.join(live(root), 'swipes.jsonl'), 'utf8').split('\n').filter(Boolean).length, 3);
 
   const local = path.join(live(root), 'swipes.jsonl');
   fs.appendFileSync(local, swipe(9));
   const later = new Date(Date.now() + 60_000);
   fs.utimesSync(local, later, later);
-  const r = await atr(root, ['feedback', 'pull', '--url', base]);
+  const r = await atr(root, ['feedback', 'pull', '--from-convex', '--url', base]);
   assert.equal(r.status, 1);
   assert.match(r.stderr, /refusing to replace .*feedback-live/);
   assert.match(r.stderr, /swipes\.jsonl is newer than the last pull/);
@@ -115,8 +161,8 @@ test('an edited file with an old mtime, a stray file, or a dir no pull wrote als
 
   const c2 = tmpDir();
   writePull({ bundle: bundle(), kind: 'feedback', cacheDir: c2, source: 'x' });
-  fs.writeFileSync(path.join(c2, 'feedback-live', 'notes.jsonl'), '');
-  assert.throws(() => writePull({ bundle: bundle(), kind: 'feedback', cacheDir: c2, source: 'x' }), /notes\.jsonl is not from the last pull/);
+  fs.writeFileSync(path.join(c2, 'feedback-live', 'stray.jsonl'), '');
+  assert.throws(() => writePull({ bundle: bundle(), kind: 'feedback', cacheDir: c2, source: 'x' }), /stray\.jsonl is not from the last pull/);
 
   const c3 = tmpDir();
   fs.mkdirSync(path.join(c3, 'feedback-live'));
@@ -138,7 +184,7 @@ test('a bad bundle writes nothing: checksum, count, file names, format', async (
 
   served = b;
   const root = tmpDir();
-  const r = await atr(root, ['feedback', 'pull', '--url', base]);
+  const r = await atr(root, ['feedback', 'pull', '--from-convex', '--url', base]);
   assert.equal(r.status, 1);
   assert.match(r.stderr, /bad export bundle, nothing written/);
   assert.ok(!fs.existsSync(live(root)));
@@ -147,12 +193,12 @@ test('a bad bundle writes nothing: checksum, count, file names, format', async (
 test('a wrong token, a missing token or a missing URL fail with a clear message and no secret in it', async () => {
   served = bundle();
   const root = tmpDir();
-  const wrong = await atr(root, ['feedback', 'pull', '--url', base], { ATR_EXPORT_TOKEN: 'not-the-token' });
+  const wrong = await atr(root, ['feedback', 'pull', '--from-convex', '--url', base], { ATR_EXPORT_TOKEN: 'not-the-token' });
   assert.equal(wrong.status, 1);
   assert.match(wrong.stderr, /refused the export token \(HTTP 401\)/);
   assert.ok(!wrong.stderr.includes('not-the-token'));
-  const noUrl = await atr(root, ['feedback', 'pull']);
-  assert.match(noUrl.stderr, /--url <site> or ATR_EXPORT_URL/);
+  const notUrl = await atr(root, ['feedback', 'pull', '--from-convex', '--url', 'nope']);
+  assert.match(notUrl.stderr, /--url is not a URL/);
   assert.throws(() => readToken({ env: {}, platform: 'linux' }), /set ATR_EXPORT_TOKEN/);
   assert.throws(() => exportUrl('http://example.com'), /only allowed for a local server/);
   assert.equal(exportUrl('https://cvx.example/').href, 'https://cvx.example/ops/export');
@@ -179,7 +225,7 @@ test('after a pull, read-only commands use .cache/feedback-live, ./atr game stil
   const before = JSON.parse(probe().stdout);
   assert.equal(before.ro, path.join(root, 'feedback'));
 
-  assert.equal((await atr(root, ['feedback', 'pull', '--url', base])).status, 0);
+  assert.equal((await atr(root, ['feedback', 'pull', '--from-convex', '--url', base])).status, 0);
   const after = JSON.parse(probe().stdout);
   assert.equal(after.ro, live(root));
   assert.equal(after.game, path.join(root, 'feedback'), 'dataRoots().feedback (what ./atr game writes) is unchanged');
@@ -196,7 +242,7 @@ test('after a pull, read-only commands use .cache/feedback-live, ./atr game stil
 test('an old pull warns once on stderr', async () => {
   served = bundle();
   const root = tmpDir();
-  assert.equal((await atr(root, ['feedback', 'pull', '--url', base])).status, 0);
+  assert.equal((await atr(root, ['feedback', 'pull', '--from-convex', '--url', base])).status, 0);
   const m = path.join(live(root), MANIFEST);
   const old = JSON.parse(fs.readFileSync(m, 'utf8'));
   old.pulledAt = new Date(Date.now() - 30 * 3_600_000).toISOString();

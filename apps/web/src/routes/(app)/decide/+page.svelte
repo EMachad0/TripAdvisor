@@ -1,5 +1,7 @@
 <script lang="ts">
-	import SectionPlaceholder from '#lib/components/shell/SectionPlaceholder.svelte';
+	import Overview from '#lib/features/decide/Overview.svelte';
 </script>
 
-<SectionPlaceholder title="Decide" slice="E and F" />
+<svelte:head><title>Decide · Asia Trip</title></svelte:head>
+
+<Overview />

@@ -1,6 +1,8 @@
 // `./atr answers publish`: ship answer files to the hosted site without touching the working tree.
 // validate → temp worktree from fresh origin/main → copy (or remove) only those files → commit → push a branch →
 // PR with gh → merge (merge commit) → clean up → wait for the deploy (read-only over SSH) → check /healthz.
+// On the new app (site.js SITES.new, after the cutover) /healthz reports the deployed commit, so the publish waits
+// until it equals the merge commit: that, not Coolify's status, is what proves the card is live.
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -9,6 +11,8 @@ import { ROOT } from './paths.js';
 import { parseAnswer, checkAnswers, resolveAbout, FILE_RE } from './answers.js';
 import { loadPlaces, loadAreas } from './load.js';
 import { SITE, answerLink, answerPageLink } from './site.js';
+
+const MIN = 60e3;
 
 export const COMMIT_TRAILER = 'Co-Authored-By: Claude <noreply@anthropic.com>';
 export const PR_FOOTER = '🤖 Generated with [Claude Code](https://claude.com/claude-code)';
@@ -63,7 +67,8 @@ function precheck(files, dataOpts) {
  * Throws PublishError with a clear message when something is wrong (nothing half-done is left behind locally).
  */
 export async function publishAnswers(opts = {}) {
-  const { files = [], remove = [], merge = true, dryRun = false, root = ROOT, run = sh, log = console.log, remote = 'origin', base = SITE.branch } = opts;
+  const site = opts.site || SITE;
+  const { files = [], remove = [], merge = true, dryRun = false, root = ROOT, run = sh, log = console.log, remote = 'origin', base = site.branch } = opts;
   const fetchImpl = opts.fetchImpl || fetch;
   const sleep = opts.sleep || ((ms) => new Promise((r) => setTimeout(r, ms)));
   const dataOpts = opts.dataOpts || {};
@@ -99,9 +104,9 @@ export async function publishAnswers(opts = {}) {
     const plan = [
       `dry run: nothing fetched, written or pushed. Compared with the local ${remote}/${base} (as of your last fetch).`,
       ...changes.map((c) => `  ${c.status.padEnd(8)} answers/${c.name}${c.status === 'missing' ? `  ← not on ${remote}/${base}: --remove would fail` : ''}`),
-      `would: fetch ${remote}/${base}, make a temp worktree, branch ${branch}, commit "${d.title}", push, open a PR to ${base}${merge ? ', merge it (merge commit), wait for the deploy and check /healthz' : ' and stop (--no-merge)'}.`,
+      `would: fetch ${remote}/${base}, make a temp worktree, branch ${branch}, commit "${d.title}", push, open a PR to ${base}${merge ? `, merge it (merge commit), ${site.healthSha ? 'wait until /healthz reports the merge commit' : 'wait for the deploy and check /healthz'}` : ' and stop (--no-merge)'}.`,
       ...(ghProblem ? [`warning: ${ghProblem}; a real publish would stop there.`] : []),
-      ...pre.parsed.map((a) => `card: ${answerLink(a.id)}`),
+      ...pre.parsed.map((a) => `card: ${answerLink(a.id, site)}`),
     ];
     for (const l of plan) log(l);
     return { ok: !changes.some((c) => c.status === 'missing'), dryRun: true, branch, changes, title: d.title, ghProblem };
@@ -129,7 +134,7 @@ export async function publishAnswers(opts = {}) {
     const st = must(git(['status', '--porcelain', '--', 'answers'], tmp), 'git status').stdout;
     if (!st) {
       log(`nothing to publish: ${remote}/${base} already has these exact files.`);
-      for (const a of pre.parsed) result.links.push(answerLink(a.id));
+      for (const a of pre.parsed) result.links.push(answerLink(a.id, site));
       return Object.assign(result, { ok: true, unchanged: true });
     }
     const byName = new Map(pre.parsed.map((a) => [path.basename(a.file), a]));
@@ -143,7 +148,7 @@ export async function publishAnswers(opts = {}) {
     const pr = must(run('gh', ['pr', 'create', '--base', base, '--head', branch, '--title', d.title, '--body', d.prBody], { cwd: tmp }), 'gh pr create');
     result.pr = pr.stdout.split('\n').filter((l) => /^https?:\/\//.test(l)).pop() || pr.stdout;
     log(`pull request: ${result.pr}`);
-    for (const a of pre.parsed) result.links.push(answerLink(a.id), ...(answerPageLink(a.target, a.id) ? [answerPageLink(a.target, a.id)] : []));
+    for (const a of pre.parsed) result.links.push(answerLink(a.id, site), ...(answerPageLink(a.target, a.id, site) ? [answerPageLink(a.target, a.id, site)] : []));
     if (!merge) {
       log('stopped before merging (--no-merge): merge the pull request to put the card live.');
       for (const l of result.links) log(`card (after the merge and deploy): ${l}`);
@@ -166,13 +171,24 @@ export async function publishAnswers(opts = {}) {
     git(['worktree', 'prune']);
   }
 
-  // 6. wait for the deploy of that merge commit, then check the site answers
-  result.deploy = opts.followDeploy === false ? { status: 'skipped' } : await followDeploy(result.sha, { run, log, sleep, timeoutMs: opts.deployTimeoutMs ?? 15 * 60e3 });
-  const health = await healthz({ fetchImpl, sleep, tries: result.deploy.status === 'finished' ? 3 : 10 });
+  // 6. wait for the deploy of that merge commit, then check the site answers (on the new app: with that sha)
+  const deployTimeoutMs = opts.deployTimeoutMs ?? 15 * MIN;
+  result.deploy = opts.followDeploy === false ? { status: 'skipped' }
+    : site.coolifyApp ? await followDeploy(result.sha, { run, log, sleep, timeoutMs: deployTimeoutMs, site })
+    : { status: 'skipped', detail: 'no Coolify app id for this site (site.js); following /healthz only' };
+  const finished = result.deploy.status === 'finished';
+  const every = 10e3;
+  const tries = result.deploy.status === 'failed' ? 1
+    : site.healthSha && result.sha ? Math.max(3, Math.ceil((finished ? 3 * MIN : deployTimeoutMs) / every))
+    : finished ? 3 : 10;
+  if (site.healthSha && result.sha && !finished && result.deploy.status !== 'failed') log(`waiting until ${site.url}/healthz reports ${result.sha.slice(0, 7)}…`);
+  const health = await healthz({ fetchImpl, sleep, tries, every, expectSha: result.sha, site });
   result.health = health;
-  if (result.deploy.status === 'finished' && health.ok) log(`deploy finished and the site is up (/healthz ${health.status}): the card is live.`);
+  const live = health.ok && (health.shaMatched || (finished && !site.healthSha));
+  if (live) log(health.shaMatched ? `the site serves ${result.sha.slice(0, 7)} (/healthz ${health.status}): the card is live.` : `deploy finished and the site is up (/healthz ${health.status}): the card is live.`);
   else if (result.deploy.status === 'failed') log(`the deploy FAILED (Coolify status ${result.deploy.detail}). The card is merged but not live; look at the Coolify dashboard.`);
-  else log(`deploy started, not confirmed: ${result.deploy.detail || 'could not follow it'}. /healthz ${health.ok ? `answers ${health.status}` : `did not answer (${health.error || health.status})`}. Check again in a few minutes.`);
+  else log(`deploy started, not confirmed: ${result.deploy.detail || 'could not follow it'}. /healthz ${healthSummary(health, result.sha)}. Check again in a few minutes.`);
+  result.live = live;
   // Your copy of a published file is now also on main: a later `git pull` refuses to overwrite a local copy, so say how to drop it.
   result.tidy = [];
   for (const f of abs) {
@@ -187,6 +203,15 @@ export async function publishAnswers(opts = {}) {
   return result;
 }
 
+/** One phrase for the deploy-not-confirmed line. */
+function healthSummary(h, sha) {
+  if (h.error) return `did not answer (${h.error})`;
+  if (!h.ok && !h.status) return 'did not answer';
+  if (h.sha && sha && h.sha !== sha) return `still reports ${h.sha.slice(0, 7)}, not ${sha.slice(0, 7)}`;
+  if (h.status === 200 && h.shaMissing) return 'answers 200 but reports no commit sha';
+  return `answers ${h.status}`;
+}
+
 /** Remote (read-only) command: the latest Coolify deployments of the app as [{ commit, status }]. The token stays on the server. */
 export const deploymentsCommand = (app = SITE.coolifyApp) => `AUTH="Authorization: Bearer $(cat /root/.coolify-token)"; curl -fsS -H "$AUTH" "http://localhost:8000/api/v1/deployments/applications/${app}?take=10" | jq -c '[(.deployments // .)[] | {commit, status}]'`;
 
@@ -194,12 +219,13 @@ export const deploymentsCommand = (app = SITE.coolifyApp) => `AUTH="Authorizatio
  * Follow the Coolify deployment of `sha` over SSH (read-only: it lists deployments, it never starts one).
  * → { status: finished | failed | unconfirmed, detail }
  */
-export async function followDeploy(sha, { run = sh, log = console.log, sleep, timeoutMs = 15 * 60e3, every = 15e3 } = {}) {
+export async function followDeploy(sha, { run = sh, log = console.log, sleep, timeoutMs = 15 * 60e3, every = 15e3, site = SITE } = {}) {
   if (!sha) return { status: 'unconfirmed', detail: 'no merge commit id to look for' };
+  if (!site.coolifyApp) return { status: 'unconfirmed', detail: 'no Coolify app id for this site (site.js)' };
   const t0 = Date.now();
   let last = null, seen = false;
   while (Date.now() - t0 < timeoutMs) {
-    const r = run('ssh', ['-o', 'BatchMode=yes', '-o', 'ConnectTimeout=10', SITE.ssh, deploymentsCommand()]);
+    const r = run('ssh', ['-o', 'BatchMode=yes', '-o', 'ConnectTimeout=10', site.ssh, deploymentsCommand(site.coolifyApp)]);
     if (r.code !== 0) return { status: 'unconfirmed', detail: `could not reach the server over SSH (${(r.stderr || `exit ${r.code}`).split('\n')[0]})` };
     let list = [];
     try { list = JSON.parse(r.stdout); } catch { return { status: 'unconfirmed', detail: 'the server answered something that is not a deployment list' }; }
@@ -215,14 +241,25 @@ export async function followDeploy(sha, { run = sh, log = console.log, sleep, ti
   return { status: 'unconfirmed', detail: `still ${last} after ${Math.round(timeoutMs / 60e3)} min` };
 }
 
-/** GET <site>/healthz until it answers 200 (a few tries). */
-export async function healthz({ fetchImpl = fetch, sleep, tries = 3, every = 10e3 } = {}) {
+/**
+ * GET <site>/healthz until it is up: HTTP 200 and, when `expectSha` is given and the site reports a sha, that sha.
+ * A site with `healthSha` (the new app) must report it; the old app answers {"ok":true} and 200 is enough there.
+ * → { ok, status, sha, shaMatched, shaMissing } or { ok: false, error }
+ */
+export async function healthz({ fetchImpl = fetch, sleep, tries = 3, every = 10e3, expectSha = null, site = SITE } = {}) {
   let last = {};
   for (let i = 0; i < tries; i++) {
     try {
-      const r = await fetchImpl(`${SITE.url}/healthz`, { signal: AbortSignal.timeout(10e3) });
-      last = { ok: r.ok, status: r.status };
-      if (r.ok) return last;
+      const r = await fetchImpl(`${site.url}/healthz`, { signal: AbortSignal.timeout(10e3), headers: { accept: 'application/json' } });
+      let sha = null;
+      if (typeof r.json === 'function') {
+        try { const body = await r.json(); if (body && typeof body.sha === 'string' && body.sha) sha = body.sha; } catch { /* not JSON: no sha */ }
+      }
+      const shaMatched = !!(expectSha && sha && sha === expectSha);
+      const shaMissing = !sha;
+      last = { ok: false, status: r.status, sha, shaMatched, shaMissing };
+      const up = r.ok && (!expectSha || shaMatched || (shaMissing && !site.healthSha));
+      if (up) return { ...last, ok: true };
     } catch (e) { last = { ok: false, error: e.cause?.code || e.message }; }
     if (i < tries - 1) await sleep(every);
   }

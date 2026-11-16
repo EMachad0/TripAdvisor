@@ -208,6 +208,9 @@
 	--shadow-soft: var(--elev-1);
 	--shadow-big: var(--elev-2);
 
+	/* Text over a photo (old .g-hc__media::after and .g-hc__title): the same dark shade and white in both themes. */
+	--color-scrim: #0a0805;
+	--color-on-scrim: #ffffff;
 	--color-surface: var(--surface);
 	--color-surface-2: var(--surface-2);
 	--color-ink: var(--ink);

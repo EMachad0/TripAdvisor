@@ -15,3 +15,11 @@ apps/web/static/assets/
 .svelte-kit/
 test-results/
 playwright-report/
+# parallel e2e slots (ATR_SLOT, docs/migration/DEV.md)
+build-s[0-9]/
+.svelte-kit-s[0-9]/
+test-results-s[0-9]/
+playwright-report-s[0-9]/
+**/playwright/.auth-s[0-9]/
+# playwright-cli sessions (agents and manual checks)
+.playwright-cli/

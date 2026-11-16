@@ -12,6 +12,7 @@ import {
 	maxOrder,
 	normalizeTripFields,
 	storable,
+	tripWriteSizeError,
 	TripWriteError,
 	type TripDoc,
 	type TripWriteRequest,
@@ -81,6 +82,8 @@ export async function writeTripDoc(
 	req: TripWriteRequest,
 	who: TripWriter,
 ): Promise<{ doc: TripDoc | null }> {
+	const tooLarge = tripWriteSizeError(req);
+	if (tooLarge !== null) throw invalid(tooLarge);
 	let id: string | null;
 	try {
 		id = checkTripWrite(req);

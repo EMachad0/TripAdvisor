@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SectionPlaceholder from '#lib/components/shell/SectionPlaceholder.svelte';
+	import TodoPage from '#lib/features/prep/TodoPage.svelte';
 </script>
 
-<SectionPlaceholder title="Prep" slice="G" />
+<TodoPage />

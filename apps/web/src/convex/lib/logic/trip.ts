@@ -30,6 +30,42 @@ export function newTripId(now: number = Date.now(), random: () => number = Math.
 	return `x${now.toString(36)}${random().toString(36).slice(2, 6)}`;
 }
 
+/**
+ * Request limits. The old server refused any request body over 64 KB (413 "body too large"); Convex accepts far
+ * more, so trip writes carry the same cap here, plus per-field limits no real form comes near.
+ */
+export const TRIP_WRITE_LIMITS = {
+	/** UTF-8 bytes of the JSON request ({ col, op, id, data }), the old body cap. */
+	maxBytes: 65_536,
+	/** Characters in one string field (or one list item). The longest real field (a leg plan) is under 3,000. */
+	maxString: 10_000,
+	/** Fields in `data`. The widest document (a leg) has under 40. */
+	maxFields: 64,
+	/** Items in a list field (legs.cities). */
+	maxList: 100,
+} as const;
+
+const utf8Bytes = (s: string): number => new TextEncoder().encode(s).length;
+
+/** Why a write is too large (the old 413 message first), or null when it fits. */
+export function tripWriteSizeError(req: TripWriteRequest): string | null {
+	const L = TRIP_WRITE_LIMITS;
+	if (utf8Bytes(JSON.stringify(req)) > L.maxBytes) return 'body too large';
+	const entries = Object.entries(req.data ?? {});
+	if (entries.length > L.maxFields) return `too many fields (max ${String(L.maxFields)})`;
+	for (const [key, value] of entries) {
+		if (key.length > 64) return `field name too long: ${key.slice(0, 64)}…`;
+		const strings = Array.isArray(value) ? value : typeof value === 'string' ? [value] : [];
+		if (Array.isArray(value) && value.length > L.maxList) {
+			return `${key}: too many items (max ${String(L.maxList)})`;
+		}
+		if (strings.some((s) => s.length > L.maxString)) {
+			return `${key}: too long (max ${String(L.maxString)} characters)`;
+		}
+	}
+	return null;
+}
+
 /** The request checks writeDoc ran before touching a file. Returns the id to look up, or null for a new doc. */
 export function checkTripWrite(req: TripWriteRequest): string | null {
 	const id = req.id ?? null;

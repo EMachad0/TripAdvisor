@@ -9,10 +9,19 @@ export type TargetName = (typeof TARGETS)[number];
 
 export const REPO_ROOT = path.resolve(import.meta.dirname, '../../..');
 
-const ENV_FILES: Partial<Record<TargetName, string>> = {
-	local: path.join(REPO_ROOT, 'apps/web/.env.convex-local'),
-	scratch: path.join(REPO_ROOT, 'packages/migrate/.env.scratch'),
-};
+/** `local` follows ATR_SLOT (scripts/convex-local.sh): slot n > 0 uses apps/web/.env.convex-local.s<n>. */
+export function localEnvFile(env: NodeJS.ProcessEnv = process.env): string {
+	const slot = env['ATR_SLOT'] ?? '';
+	if (slot !== '' && !/^[0-8]$/.test(slot)) throw new Error('ATR_SLOT must be 0 to 8');
+	const suffix = slot === '' || slot === '0' ? '' : `.s${slot}`;
+	return path.join(REPO_ROOT, `apps/web/.env.convex-local${suffix}`);
+}
+
+function envFileOf(name: TargetName, env: NodeJS.ProcessEnv): string | undefined {
+	if (name === 'local') return localEnvFile(env);
+	if (name === 'scratch') return path.join(REPO_ROOT, 'packages/migrate/.env.scratch');
+	return undefined;
+}
 
 /** KEY=value or KEY='value' lines (the format scripts/convex-local.sh writes). */
 export function parseEnvFile(text: string): Map<string, string> {
@@ -35,7 +44,7 @@ export function resolveTarget(
 	name: TargetName,
 	env: NodeJS.ProcessEnv = process.env,
 ): ConvexTarget {
-	const file = ENV_FILES[name];
+	const file = envFileOf(name, env);
 	const vars =
 		file === undefined
 			? null

@@ -21,11 +21,19 @@ export default defineConfig(
 		ignores: [
 			'**/build/',
 			'**/.svelte-kit/',
+			// per-slot build output and Playwright directories (ATR_SLOT, apps/web/e2e/slot.ts)
+			'**/build-s[0-9]/',
+			'**/.svelte-kit-s[0-9]/',
+			'**/test-results-s[0-9]/',
+			'**/playwright-report-s[0-9]/',
+			'**/playwright/.auth-s[0-9]/',
 			'**/_generated/**',
 			'**/node_modules/',
 			'platform/**',
 			'game/**',
 			'apps/web/static/**',
+			// the place/area page embed glue: plain no-build browser JS, served by routes/embed (was static/embed)
+			'apps/web/embed/**',
 			'**/playwright-report/',
 			'**/test-results/',
 			'**/playwright/.auth/',
@@ -145,5 +153,11 @@ export default defineConfig(
 			'svelte/button-has-type': 'error',
 			'svelte/no-target-blank': 'error',
 		},
+	},
+	{
+		// Plain JS has no type information: the type-aware rules switched on just above cannot run on it (the few JS
+		// files are re-export shims such as apps/web/src/lib/server/platform.js).
+		files: ['**/*.js', '**/*.mjs', '**/*.cjs'],
+		extends: [ts.configs.disableTypeChecked],
 	},
 );

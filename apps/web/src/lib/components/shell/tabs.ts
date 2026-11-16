@@ -1,14 +1,20 @@
-// The six sections of the app (plan section 8), in tab order. `route` is the SvelteKit route id for resolve().
+// The six sections of the app (plan section 8), in tab order. `route` is the SvelteKit route id for resolve(): the
+// section's first page (Trip opens on the Itinerary, as the old #/itinerary did).
 export interface Tab {
 	route:
-		'/(app)' | '/(app)/trip' | '/(app)/places' | '/(app)/decide' | '/(app)/money' | '/(app)/prep';
+		| '/(app)'
+		| '/(app)/trip/itinerary'
+		| '/(app)/places'
+		| '/(app)/decide'
+		| '/(app)/money'
+		| '/(app)/prep';
 	path: '/' | '/trip' | '/places' | '/decide' | '/money' | '/prep';
 	label: string;
 }
 
 export const TABS: readonly Tab[] = [
 	{ route: '/(app)', path: '/', label: 'Today' },
-	{ route: '/(app)/trip', path: '/trip', label: 'Trip' },
+	{ route: '/(app)/trip/itinerary', path: '/trip', label: 'Trip' },
 	{ route: '/(app)/places', path: '/places', label: 'Places' },
 	{ route: '/(app)/decide', path: '/decide', label: 'Decide' },
 	{ route: '/(app)/money', path: '/money', label: 'Money' },
@@ -22,3 +28,6 @@ export function activeTab(pathname: string): Tab['path'] {
 	);
 	return match?.path ?? '/';
 }
+
+/** Count badges on the section tabs (old secBadge): Decide is what is left to call, Prep the open tasks. */
+export type TabBadges = Partial<Record<Tab['path'], number>>;

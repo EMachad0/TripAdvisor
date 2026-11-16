@@ -129,7 +129,7 @@ flowchart LR
     src/lib/               #lib: components/ui (shadcn), components/shared, components/shell, features/<slice>/,
                            sync/, server/ (platform imports, maps.ts)
     src/service-worker/
-    static/embed/          place.css, place.js (no-build port of game/public/place.*, slice H)
+    embed/                 place.css, place.js (no-build port of game/public/place.*, slice H; served by routes/embed)
     static/assets/         atr.css and fonts, written by copyAssets at build time (gitignored)
     e2e/                   Playwright specs, auth.setup.ts
   packages/shared/         @atr/shared: strict TS ports of game/lib elo, pairing, board, routemap, trip (tzSpots);
@@ -313,14 +313,14 @@ Lint enforcement:
 | `/media/*`, `/area-media/*`, `/map/*`, `/area-map/*` | `+server.ts` each | SvelteKit | sharp via `src/lib/server/maps.ts`, cache under `ATR_CACHE_DIR`, 6 s map fallback, same Cache-Control values |
 | `/route-map/:key.webp` | `routes/route-map/[key]/+server.ts` | SvelteKit | Reads `route.current` through `createConvexHttpClient` with the user's token; renders with `src/lib/server/maps.ts` |
 | `/assets/*` | `apps/web/static/assets/` | build | `atr.css` and `fonts/*.woff2` written by `copyAssets` (`platform/lib/render/assets.js`) at build time, for the iframe pages only |
-| `/game/place.css`, `/game/place.js` | `apps/web/static/embed/place.{css,js}` | static | A no-build port of `game/public/place.js` with `tzSpots` inlined: theme sync, Escape and the brand link close the sheet, `#answer-<id>` opens its card, time labels on answer cards. Slice H |
+| `/game/place.css`, `/game/place.js` | `apps/web/embed/place.{css,js}`, served by `routes/embed/[file]` (signed in, `Cache-Control: no-cache` as before) | server route | A no-build port of `game/public/place.js` with `tzSpots` inlined: theme sync, Escape and the brand link close the sheet, `#answer-<id>` opens its card, time labels on answer cards. Slice H |
 | `/game/*`, `/lib/*` (app code) | Vite bundle, fonts from `@fontsource/*` | build | |
 | (new) content sync | `http.ts POST /ops/content-index` → `internal.content.publish` | HTTP action | Bearer `CONTENT_TOKEN`, compared by sha256 with `CONTENT_TOKEN_SHA256`. A no-op when the sha is unchanged. Called by trip-web at boot |
 | (new) curator export | `http.ts GET /ops/export` → `internal.exporter.bundle` | HTTP action, read-only | Bearer `EXPORT_TOKEN` (hash in env). Returns the 5 JSONL files, game-state.json (firstRun, firstSeen, days, locks), the 9 trip JSON files and a manifest with counts and sha256 |
 | (new) hand trip edits | `internal.trip.adminWrite` | internalMutation | Same rules as `trip.write`. Refuses when `opsFlags.writesFrozen` is true, unless called with `force: true` (owner only, never from agents). `./atr trip` runs it through `scripts/convex-prod.sh run` and prints the refusal |
 | (new) ops | `internal.ops.setWritesFrozen({value})`, `internal.ops.clearRateLimit` | internalMutation | `scripts/convex-prod.sh run` from the laptop |
 | (new) seed | `internal.admin.seedAccounts` | internalAction | Section 6 |
-| (new) CI seed | `internal.admin.seedCiUser` | internalAction | Creates user `ci-restore` (a username never used in prod) with `E2E_OWNER_PASSWORD` from env and an owner `members` row. Refuses unless the deployment env has `ATR_CI_DEPLOYMENT=1`, so it cannot open a backdoor on prod. Restore test only (section 13) |
+| (new) CI seed | `internal.admin.seedCiUser` | internalAction | Creates user `ci_restore` (a username never used in prod) with `E2E_OWNER_PASSWORD` from env and an owner `members` row. Refuses unless the deployment env has `ATR_CI_DEPLOYMENT=1`, so it cannot open a backdoor on prod. Restore test only (section 13) |
 
 Module ownership (file → functions): `feedback.ts`, `decide.ts`, `route.ts`, `trip.ts`, `tripBag.ts`, `members.ts`, `content.ts`, `exporter.ts`, `ops.ts`, `admin.ts`, `http.ts`, `auth.ts`. `http.ts` belongs to task 7 item (f). Item (e) delivers `registerAuthRoutes(http)` in `auth.ts`, and `http.ts` calls it.
 
@@ -401,7 +401,7 @@ Rules:
   - diff content ids before and after the invalidate and show the toast when new ones appear.
   This lives in the task 7 shell (item h).
 - Deck, board and call cards become Svelte components built from structured data. The `{@html}` plus regex patching goes away, and atr.css never enters the app.
-- Place and area full pages stay platform HTML inside an iframe sheet. The sheet opens with shallow routing (`pushState`) in a Drawer. This keeps atr.css away from Tailwind preflight. The postMessage protocol (`{atr:'close'}`, `{atr:'open'}`, `{atr:'theme'}`) is kept, and `static/embed/place.js` is its sender inside the iframe.
+- Place and area full pages stay platform HTML inside an iframe sheet. The sheet opens with shallow routing (`pushState`) in a Drawer. This keeps atr.css away from Tailwind preflight. The postMessage protocol (`{atr:'close'}`, `{atr:'open'}`, `{atr:'theme'}`) is kept, and `embed/place.js` (served at `/embed/place.js`) is its sender inside the iframe.
 - Every clock time carries its offset:
   - `TimeTz` renders structured times (flight times, check-in fields) from time plus offset;
   - `TzText {text, offset}` renders free text (notes, leg plans, tips, place card text, day notes, check-in hours, answer bodies) and adds the label at each spot `tzSpots` from `@atr/shared` finds, as `watchTimes` does today (`trip.js:68-104`);
@@ -432,7 +432,7 @@ Rules:
 | Holidays | `/decide/holidays` | HolidayPicker, MiniDuel, Confetti | setLock, duel, swipe | F |
 | Money | `/money` | Collapsible, Dialog; StackBar, SplitBar, BudgetCard, PriceCheck, SpendLog | trip.all, trip.write | G |
 | To do, Bag | `/prep/todo`, `/prep/bag` | Checkbox, AlertDialog, Combobox (category) | trip.write, trip.bagUntickAll | G |
-| Place / area pages, embed glue, media, maps, healthz | `place/[id]`, `area/[id]`, `static/embed/`, `media/`, `area-media/`, `map/`, `area-map/`, `healthz/` | server routes; `src/lib/server/maps.ts` (stub from task 7 h) | content, route.current | H |
+| Place / area pages, embed glue, media, maps, healthz | `place/[id]`, `area/[id]`, `embed/[file]` (files in `apps/web/embed/`), `media/`, `area-media/`, `map/`, `area-map/`, `healthz/` | server routes; `src/lib/server/maps.ts` (stub from task 7 h) | content, route.current | H |
 
 - Design tokens from `platform/lib/render/assets/atr.css`, `game.css` and `trip.css` go into the Tailwind v4 `@theme` in `src/routes/layout.css`. That covers the light and dark palettes, verdict colours, country palette k1–k7, radii, easing and fonts.
 - The per-category accent cascades through `[data-cat]` as a scoped CSS variable.
@@ -683,7 +683,7 @@ This is task 1, owner-confirmed, and the gate before any change on the server. O
 **Restore test** (`.github/workflows/restore-test.yml`, nightly at 17:17 UTC (14:17 UTC−3), and on demand):
 1. Download the newest `old/` and `convex/` objects with `BACKUP_BUCKET_READ` and decrypt them with `BACKUP_AGE_IDENTITY_CI`. It never downloads `convex-env/`.
 2. Old: untar and check against the manifest. Then boot the old server on the restored files: `node game/server.js --port 4400 --feedback <restored>/feedback --trip <restored>/trip` with a CI-only `ATR_OWNER_PASSWORD`, check `/healthz`, sign in, and compare the counts from `GET /api/trip` and `GET /api/state` with the manifest. When the workflow runs from a ref that has `packages/migrate` (by hand with `gh workflow run restore-test.yml --ref mig/next` before the cutover merge, every night after it), it also runs `@atr/migrate import --dry-run` into a service-container Convex, then `verify` (round trip plus derived parity). That is the parity run on live data, and it needs no laptop or VPS access.
-3. Convex (from task 8; from `mig/next` by hand until the cutover merge): start a fresh backend and run `deploy/backup/restore-convex.sh` with a generated env file (a fresh random `BETTER_AUTH_SECRET`, `ATR_CI_DEPLOYMENT=1`, `E2E_OWNER_PASSWORD` from the Actions secret, a CI `SITE_URL`). Then run `internal.admin.seedCiUser`, assert through a count query that the prod usernames still exist, and run `pnpm e2e --grep @smoke --project desktop` signed in as `ci-restore`. The real accounts are never touched.
+3. Convex (from task 8; from `mig/next` by hand until the cutover merge): start a fresh backend and run `deploy/backup/restore-convex.sh` with a generated env file (a fresh random `BETTER_AUTH_SECRET`, `ATR_CI_DEPLOYMENT=1`, `E2E_OWNER_PASSWORD` from the Actions secret, a CI `SITE_URL`). Then run `internal.admin.seedCiUser`, assert through a count query that the prod usernames still exist, and run `pnpm e2e --grep @smoke --project desktop` signed in as `ci_restore`. The real accounts are never touched.
 4. A final step with `if: always()` deletes every decrypted file.
 
 `deploy/backup/restore-check.sh latest` runs steps 1 and 2 on the laptop with the owner identity.
@@ -991,7 +991,7 @@ Tasks 1, 2 and 5 start at once. Tasks 3 and 4 run beside 6, 7 and 9, so they are
   - `curl -s -o /dev/null -w '%{http_code}' https://dashboard.<site>` does not return 200, and `ss -ltn | grep 127.0.0.1:6791` on the VPS shows the dashboard bound to localhost only;
   - `curl -fsS https://new.<site>/healthz?deep=1` shows the `mig/next` head sha;
   - `curl -fsS https://<site>/healthz` is still `{"ok":true}`;
-  - `gh workflow run restore-test.yml --ref mig/next`, then the run's Convex leg is green as `ci-restore`;
+  - `gh workflow run restore-test.yml --ref mig/next`, then the run's Convex leg is green as `ci_restore`;
   - `rclone lsf <remote>:<bucket>/convex/ | wc -l` prints at least 1;
   - `spikes-recorded S16 S18 S19 S20 S21 S22 S23`.
 - **Owner confirms:** every production step: creating the services, domains, env vars and volumes, generating the admin key, the Convex env vars, `scripts/convex-prod.sh deploy`, and the timer change.
@@ -1011,7 +1011,7 @@ Tasks 1, 2 and 5 start at once. Tasks 3 and 4 run beside 6, 7 and 9, so they are
 | E Deck, Calls, sheet, cards, NoteEditor | `(app)/decide/{areas,swipe,calls}/**`, `features/deck/**`, `features/cards/**`, `components/shared/PlaceSheet*` | `e2e/deck.spec.ts`, `e2e/calls.spec.ts` | 7 |
 | F Overview, Duels, Board, Holidays | `(app)/decide/+page.svelte`, `(app)/decide/{duels,board,holidays}/**`, `features/decide/**` | `e2e/duels.spec.ts`, `e2e/board.spec.ts`, `e2e/holidays.spec.ts` | 7; E's `features/cards` (stub until E merges) |
 | G Money, To do, Bag | `(app)/money/**`, `(app)/prep/**`, `features/money/**`, `features/prep/**` | `e2e/money.spec.ts`, `e2e/todo.spec.ts`, `e2e/bag.spec.ts` | 7 |
-| H Content pages, embed glue, media, maps | `routes/{place,area,media,area-media,map,area-map}/**`, `static/embed/**`, `src/lib/server/maps.ts` (fills the stub) | `e2e/place-pages.spec.ts`, `e2e/media-maps.spec.ts` | 7 |
+| H Content pages, embed glue, media, maps | `routes/{place,area,embed,media,area-media,map,area-map}/**`, `apps/web/embed/**`, `src/lib/server/maps.ts` (fills the stub) | `e2e/place-pages.spec.ts`, `e2e/media-maps.spec.ts` | 7 |
 | I CLI and export client | `platform/lib/feedback/pull.js` (`--from-convex`), `platform/lib/trip-cli.js`, `platform/cli/atr.js` (trip commands), `platform/lib/publish.js` (sha check), `platform/test/{pull,trip-cli}.test.js` | (node tests) | 7 |
 | L Offline | `src/service-worker/**`, `src/lib/sync/**` (internals; signature frozen) | `e2e/offline.spec.ts` | 7; B and E for write paths. Settles S25 |
 

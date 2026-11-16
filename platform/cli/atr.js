@@ -53,18 +53,23 @@ async function readFeedbackDir(o) {
   if (dir === liveDirs().feedback) {
     const { pullInfo } = await import('../lib/feedback/pull.js');
     const p = pullInfo(dir);
-    if (p?.stale) console.error(c.yellow(`▲ ${nameOf(dir)} was pulled ${Math.round(p.ageHours)} h ago (${p.pulledAt}); run ./atr feedback pull`));
+    if (p?.stale) console.error(c.yellow(`▲ ${nameOf(dir)} was pulled ${Math.round(p.ageHours)} h ago (${p.pulledAt}); run ./atr feedback pull --from-convex`));
   }
   return dir;
 }
 
 /** ./atr feedback pull, ./atr trip pull: the export bundle from the site into .cache/<kind>-live/ (lib/feedback/pull.js). */
 async function pullCmd(kind, o) {
-  const { pull } = await import('../lib/feedback/pull.js');
-  const r = await pull({ kind, url: o.url, cacheDir: dataRoots().cache });
+  const { pull, pullSource } = await import('../lib/feedback/pull.js');
+  const source = pullSource({ fromConvex: o['from-convex'], fromBackup: o['from-backup'] });
+  const r = await pull({ kind, url: o.url, source, cacheDir: dataRoots().cache });
   out(o, r, `${c.green('✔')} pulled ${r.files.length} file(s) into ${nameOf(r.dir)} (export of ${r.generatedAt ?? 'unknown time'}): ${r.files.map((f) => `${f.name} ${f.count}`).join(', ') || 'none'}`);
 }
-const PULL_OPTION = { url: { type: 'string', desc: 'pull: the site that serves /ops/export (default ATR_EXPORT_URL); token from ATR_EXPORT_TOKEN or the keychain' } };
+const PULL_OPTION = {
+  'from-convex': { type: 'boolean', desc: 'pull: from the new site\'s backend (GET /ops/export; before the cutover the shadow copy); token from ATR_EXPORT_TOKEN or the keychain' },
+  'from-backup': { type: 'boolean', desc: 'pull: from the old site\'s backup (the default until the cutover; not available in this checkout yet)' },
+  url: { type: 'string', desc: 'pull --from-convex: the Convex site that serves /ops/export (default ATR_EXPORT_URL, else the new site\'s)' },
+};
 
 // ───────────────────────── new ─────────────────────────
 cmd('new', {
@@ -543,10 +548,10 @@ cmd('next', {
 // ───────────────────────── feedback ─────────────────────────
 cmd('feedback', {
   summary: "summarise the traveler's taste from the game's feedback logs",
-  usage: './atr feedback [--since YYYY-MM-DD] [--dir <feedback-dir>] [--json]\n       ./atr feedback pull [--url <site>]       (the live logs into .cache/feedback-live/, which the read-only commands then use)\n       ./atr feedback --new                 (only what arrived since you last marked it seen, grouped for action)\n       ./atr feedback --place <id>          (every verdict, duel and question for one place or area)\n       ./atr feedback --mark-seen [--upto <ts>]   (after processing: move the cursor)\n       ./atr feedback --mark-seen --place <id>    (only that page\'s feedback is done; the rest stays new)',
+  usage: './atr feedback [--since YYYY-MM-DD] [--dir <feedback-dir>] [--json]\n       ./atr feedback pull --from-convex [--url <site>]   (the live logs into .cache/feedback-live/, which the read-only commands then use)\n       ./atr feedback --new                 (only what arrived since you last marked it seen, grouped for action)\n       ./atr feedback --place <id>          (every verdict, duel and question for one place or area)\n       ./atr feedback --mark-seen [--upto <ts>]   (after processing: move the cursor)\n       ./atr feedback --mark-seen --place <id>    (only that page\'s feedback is done; the rest stays new)',
   details: 'Reads feedback/swipes.jsonl, duels.jsonl, questions.jsonl, notes.jsonl (the traveler\'s own notes on cards) and route.jsonl (the order of cities and nights per country from the game\'s Route tab; shown under "Route", seeded from `route:` in config/trip.yaml); format: docs/FEEDBACK-FORMAT.md. Bad lines are skipped with a warning. The "seen" cursor is places/_feedback-seen.json; --mark-seen sets it to the newest event (or to --upto, the timestamp --new printed, so events that arrived while you worked stay new).',
   options: { ...PULL_OPTION, since: { type: 'string', desc: 'only events on/after this date' }, dir: { type: 'string', desc: 'feedback directory (default ATR_FEEDBACK_DIR, else .cache/feedback-live/ after a pull, else feedback/)' }, new: { type: 'boolean', desc: 'only events after the cursor: questions per place, new musts/skips, area musts' }, place: { type: 'string', desc: 'everything about one place or area id; with --mark-seen: mark only that page\'s feedback as seen' }, 'mark-seen': { type: 'boolean', desc: 'move the cursor (run it after you processed --new)' }, upto: { type: 'string', desc: '--mark-seen: mark seen up to this ISO timestamp' } },
-  examples: ['./atr feedback pull', './atr feedback', './atr feedback --new', './atr feedback --place yu-garden', './atr feedback --mark-seen --upto 2026-11-21T11:10:00Z'],
+  examples: ['./atr feedback pull --from-convex', './atr feedback', './atr feedback --new', './atr feedback --place yu-garden', './atr feedback --mark-seen --upto 2026-11-21T11:10:00Z'],
   async run(o, pos = []) {
     if (pos[0] === 'pull') return pullCmd('feedback', o);
     const { readFeedback, tasteSummary, formatTaste, newFeedback, formatNewFeedback, placeFeedback, formatPlaceFeedback, markSeen } = await import('../lib/feedback/index.js');
@@ -613,14 +618,26 @@ cmd('run', {
 
 // ───────────────────────── trip ─────────────────────────
 cmd('trip', {
-  summary: 'trip planner data: pull the live collections (legs, tasks, bag, …) for reading',
-  usage: './atr trip pull [--url <site>]',
-  details: 'Writes trip/*.json from the site export into .cache/trip-live/ (gitignored). Same rules as ./atr feedback pull: the token comes from ATR_EXPORT_TOKEN or the macOS keychain (service atr-export-token), checksums are verified, and a target with files newer than the last pull is never replaced.',
-  options: { ...PULL_OPTION },
-  examples: ['./atr trip pull', 'ATR_EXPORT_URL=https://cvx.example ./atr trip pull'],
+  summary: 'trip planner data: pull the live collections (legs, tasks, bag, …), or edit one document',
+  usage: "./atr trip pull --from-convex [--url <site>]\n       ./atr trip set <collection> [id] --data '<json>'      (create, or replace the whole document)\n       ./atr trip update <collection> <id> --data '<json>'  (merge fields; null clears one)\n       ./atr trip delete <collection> <id>\n       add --local to write to the local backend (ATR_SLOT), --dry-run to only print the request",
+  details: `pull writes trip/*.json from the site export into .cache/trip-live/ (gitignored). Same rules as ./atr feedback pull: the token comes from ATR_EXPORT_TOKEN or the macOS keychain (service atr-export-token), checksums are verified, and a target with files newer than the last pull is never replaced.
+
+set, update and delete edit the new site's data through the Convex function trip:adminWrite (the same rules as the trip pages), run by scripts/convex-prod.sh (or scripts/convex-local.sh with --local), which holds the admin key; this command never sees it. Collections: tasks, legs, bag, budget, fixed, spend, settings, days, visited; fields as in docs/TRIP.md. It refuses while writes are frozen (cutover or rollback), and asks before writing to the live data (--yes skips the question after you checked the request). Until the cutover the live site is the old one: change bookings in its trip pages.`,
+  options: { ...PULL_OPTION, data: { type: 'string', desc: "set/update: the fields as a JSON object, e.g. '{\"status\":\"booked\"}'" }, local: { type: 'boolean', desc: 'set/update/delete: write to the local backend of ATR_SLOT instead of prod' }, yes: { type: 'boolean', desc: 'set/update/delete: do not ask before writing to prod (check the request first)' }, 'dry-run': { type: 'boolean', desc: 'set/update/delete: check the request and print it; nothing is sent' } },
+  examples: ['./atr trip pull --from-convex', "./atr trip update tasks visa-china --data '{\"status\":\"done\"}'", "./atr trip set spend --data '{\"date\":\"2026-12-03\",\"amount\":120,\"currency\":\"CNY\",\"what\":\"dumplings\"}' --dry-run", './atr trip delete bag old-adapter --local'],
   async run(o, pos = []) {
-    if (pos[0] !== 'pull') return fail('say what to do: ./atr trip pull');
-    return pullCmd('trip', o);
+    const [what, ...rest] = pos;
+    if (what === 'pull') return pullCmd('trip', o);
+    if (!['set', 'update', 'delete'].includes(what)) return fail(`say what to do: ./atr trip pull | set | update | delete${what ? ` (not "${what}")` : ''}`);
+    const { tripWrite, TripCliError } = await import('../lib/trip-cli.js');
+    try {
+      const r = await tripWrite({ op: what, pos: rest, data: o.data, target: o.local ? 'local' : 'prod', yes: !!o.yes, dryRun: !!o['dry-run'], root: path.dirname(PLATFORM) });
+      if (r.dryRun) return out(o, r, `dry run: nothing sent. Would run on ${r.target}:\n  ${r.command.slice(0, -1).join(' ')} '${r.command.at(-1).replaceAll("'", "'\\''")}'`);
+      out(o, r, `${c.green('✔')} ${r.request.op} ${r.request.col}/${r.doc?.id ?? r.request.id} on ${r.target}${r.doc ? `\n${JSON.stringify(r.doc, null, 2)}` : ''}`);
+    } catch (e) {
+      if (e instanceof TripCliError) return fail(e.message);
+      throw e;
+    }
   },
 });
 
@@ -866,7 +883,7 @@ cmd('answers', {
   usage: './atr answers [--country <c>] [--about <id>]          (list, newest first)\n       ./atr answers --check                              (validate every answer; exit 1 on errors)\n       ./atr answers --ids [--country <c>]                (the ids you can put in about:)\n       ./atr answers publish <file...> [--remove <file>]... [--no-merge] [--dry-run]',
   details: `One Markdown file per answer: answers/<asked>-<short-slug>.md with front matter question, asked (YYYY-MM-DD), about (a place id, an area id, a country id or "trip"), tldr, optional sources [{ title, url }] and updated; the body is the full answer (may be empty). Workflow: .claude/skills/trip-answers/SKILL.md.
 
-publish validates the files, makes a temporary git worktree from a fresh origin/main (your working tree is never touched), copies only those files in (--remove deletes one), commits, pushes a branch, opens a pull request with gh, merges it (merge commit), removes the worktree and the branch, then follows the deploy over SSH (read-only) and checks /healthz. --no-merge stops after opening the PR; --dry-run only validates and prints the plan.`,
+publish validates the files, makes a temporary git worktree from a fresh origin/main (your working tree is never touched), copies only those files in (--remove deletes one), commits, pushes a branch, opens a pull request with gh, merges it (merge commit), removes the worktree and the branch, then follows the deploy over SSH (read-only) and checks /healthz; on the new site it waits until /healthz reports the merge commit (platform/lib/site.js picks the site). --no-merge stops after opening the PR; --dry-run only validates and prints the plan.`,
   options: { check: { type: 'boolean', desc: 'validate every answer file; exit 1 on errors' }, ids: { type: 'boolean', desc: 'list place, area and country ids for about:' }, country: { type: 'string', desc: 'only this country' }, about: { type: 'string', desc: 'list: only answers about this id' }, remove: { type: 'string', multiple: true, desc: 'publish: delete this answer from the site (repeatable)' }, 'no-merge': { type: 'boolean', desc: 'publish: stop after opening the pull request' }, 'dry-run': { type: 'boolean', desc: 'publish: validate and show the plan; nothing fetched, written or pushed' } },
   examples: ['./atr answers', './atr answers --check', './atr answers --ids --country japan', './atr answers publish answers/2026-11-21-yu-garden-passport.md', './atr answers publish --remove answers/2026-11-21-yu-garden-passport.md', './atr answers publish answers/2026-11-21-yu-garden-passport.md --dry-run'],
   async run(o, pos) {

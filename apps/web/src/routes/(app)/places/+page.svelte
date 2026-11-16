@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SectionPlaceholder from '#lib/components/shell/SectionPlaceholder.svelte';
+	import PlacesView from '#lib/features/places/PlacesView.svelte';
 </script>
 
-<SectionPlaceholder title="Places" slice="D" />
+<PlacesView />

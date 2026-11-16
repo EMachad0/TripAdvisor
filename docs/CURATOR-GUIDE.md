@@ -32,8 +32,16 @@ The budget covers attractions, local transport and nightlife (not beds, not dail
 
 Run everything from the repo root. Every command has `--help`.
 
+The traveler's feedback is live on the site, not in the repo. `./atr feedback pull --from-convex` copies it into
+`.cache/feedback-live/` (needs the export token in `ATR_EXPORT_TOKEN` or the macOS keychain, service
+`atr-export-token`; it is never printed). After that, `./atr next`, `./atr taste` and `./atr feedback` read the
+pulled copy and warn when it is older than 26 hours. Before the cutover `--from-convex` reads the new site's shadow
+backend, which can lag the live site; without a pull the commands read `feedback/` in the repo. A bare
+`./atr feedback pull` (the old site's backup) is not available yet and says so.
+
 ```bash
 # 0. What's needed?
+./atr feedback pull --from-convex  # the latest feedback from the site (once per session)
 ./atr next                         # ranked to-do list: one-line tasks, most important first
 ./atr taste                        # what the traveler said: interests, must-do list (✔ covered / ✗ open)
 ./atr gaps                         # every gap: coverage vs days, interest targets, fame mix, stays, weak pages

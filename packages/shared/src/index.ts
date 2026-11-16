@@ -8,6 +8,8 @@ export * as feedback from './feedback.ts';
 export * as trip from './trip.ts';
 export * as routemap from './routemap.ts';
 export * as route from './route.ts';
+export * as content from './content.ts';
+export * as routemodel from './routemodel.ts';
 export * as v1 from './v1.ts';
 export * from './schema/check.ts';
 export * from './schema/dsl.ts';

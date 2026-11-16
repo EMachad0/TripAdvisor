@@ -1,24 +1,39 @@
 // End-to-end tests against the local self-hosted Convex (scripts/convex-local.sh) and the built app.
+// ATR_SLOT=<1..8> runs on its own backend, port and directories (e2e/slot.ts, docs/migration/DEV.md).
 import fs from 'node:fs';
+import path from 'node:path';
 import { defineConfig, devices } from '@playwright/test';
+import { ensureTokensFile, slot } from './e2e/slot.ts';
 
-// Generated local test accounts (scripts/convex-local.sh seed writes them; CI generates its own the same way).
-const accountsFile = new URL('./.env.e2e.local', import.meta.url);
-if (fs.existsSync(accountsFile)) process.loadEnvFile(accountsFile);
+const SLOT = slot();
+ensureTokensFile(import.meta.dirname, SLOT);
 
-const PORT = 4173;
-const BASE_URL = process.env['BASE_URL'] ?? `http://localhost:${String(PORT)}`;
-const CONVEX_URL = 'http://127.0.0.1:3210';
-const CONVEX_SITE_URL = 'http://127.0.0.1:3211';
+// Generated local test accounts and tokens (scripts/convex-local.sh writes them; CI generates its own the same way).
+for (const name of [SLOT.accountsFile, SLOT.tokensFile]) {
+	const file = new URL(`./${name}`, import.meta.url);
+	if (fs.existsSync(file)) process.loadEnvFile(file);
+}
+
+const BASE_URL = process.env['BASE_URL'] ?? `http://localhost:${String(SLOT.appPort)}`;
+const CONVEX_URL = `http://127.0.0.1:${String(SLOT.convexPort)}`;
+const CONVEX_SITE_URL = `http://127.0.0.1:${String(SLOT.convexSitePort)}`;
 const CI = process.env['CI'] !== undefined;
+/** The e2e content root (packages/migrate/fixtures/e2e/content): tests never depend on the real places/. */
+const CONTENT_ROOT = path.resolve(
+	import.meta.dirname,
+	'../../packages/migrate/fixtures/e2e/content',
+);
 
 export default defineConfig({
 	testDir: 'e2e',
+	outputDir: SLOT.outputDir,
 	timeout: 30_000,
 	forbidOnly: CI,
 	retries: CI ? 1 : 0,
 	workers: 1,
-	reporter: CI ? [['github'], ['html', { open: 'never' }]] : [['list']],
+	reporter: CI
+		? [['github'], ['html', { open: 'never', outputFolder: SLOT.reportDir }]]
+		: [['list']],
 	use: { baseURL: BASE_URL, trace: 'retain-on-failure' },
 	projects: [
 		{ name: 'setup', testMatch: /auth\.setup\.ts/ },
@@ -33,20 +48,26 @@ export default defineConfig({
 			wait: { stdout: /convex-local: e2e backend ready/ },
 			timeout: 300_000,
 			stdout: 'ignore',
+			env: { ATR_SLOT: String(SLOT.n), PUBLIC_SITE_URL: BASE_URL },
 		},
 		{
 			name: 'web',
-			command: 'vite build && node build',
+			command: `vite build && node ${SLOT.buildDir}`,
 			url: `${BASE_URL}/login`,
 			timeout: 180_000,
 			reuseExistingServer: !CI,
 			env: {
-				PORT: String(PORT),
+				ATR_SLOT: String(SLOT.n),
+				PORT: String(SLOT.appPort),
 				HOST: '127.0.0.1',
 				ORIGIN: BASE_URL,
 				PUBLIC_CONVEX_URL: CONVEX_URL,
 				PUBLIC_CONVEX_SITE_URL: CONVEX_SITE_URL,
 				PUBLIC_SITE_URL: BASE_URL,
+				// Test content, published to the slot's backend at boot with the slot's content token.
+				ATR_ROOT: CONTENT_ROOT,
+				ATR_CONTENT_FIXTURES: '1',
+				CONTENT_TOKEN: process.env['CONTENT_TOKEN'] ?? '',
 				// Lets the specs act as different client IPs (spike S12); behind Traefik this is set for real.
 				ADDRESS_HEADER: 'X-Forwarded-For',
 				XFF_DEPTH: '1',

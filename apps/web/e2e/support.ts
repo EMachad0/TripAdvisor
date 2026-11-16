@@ -3,19 +3,23 @@ import fs from 'node:fs';
 import type { APIRequestContext } from '@playwright/test';
 import { ConvexHttpClient } from 'convex/browser';
 import { ConvexError } from 'convex/values';
+import { slot } from './slot';
+
+const SLOT = slot();
 
 export type Account = 'owner' | 'guest';
 
 export const STORAGE = {
-	owner: 'playwright/.auth/owner.json',
-	guest: 'playwright/.auth/guest.json',
+	owner: `${SLOT.authDir}/owner.json`,
+	guest: `${SLOT.authDir}/guest.json`,
 } as const;
 
-export const CONVEX_URL = 'http://127.0.0.1:3210';
+export const CONVEX_URL = `http://127.0.0.1:${String(SLOT.convexPort)}`;
+export const CONVEX_SITE_URL = `http://127.0.0.1:${String(SLOT.convexSitePort)}`;
 
 /** The accounts file is written by the backend webServer (seed), possibly after the config was loaded. */
 function loadAccounts(): void {
-	const file = new URL('../.env.e2e.local', import.meta.url);
+	const file = new URL(`../${SLOT.accountsFile}`, import.meta.url);
 	if (process.env['E2E_OWNER_PASSWORD'] === undefined && fs.existsSync(file))
 		process.loadEnvFile(file);
 }

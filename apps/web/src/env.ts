@@ -18,6 +18,17 @@ export const variables = defineEnvVars({
 		description: 'Convex HTTP actions origin (:3211), where Better Auth runs',
 		schema: url('PUBLIC_CONVEX_SITE_URL'),
 	},
+	CONTENT_TOKEN: {
+		description:
+			'Bearer token for POST /ops/content-index (its sha256 is CONTENT_TOKEN_SHA256 in Convex); unset turns content sync off',
+		schema: (value: string | undefined) =>
+			value === undefined || value === '' ? undefined : value,
+	},
+	GIT_SHA: {
+		description: 'Commit this build runs (GET /healthz); defaults to the build-time version name',
+		schema: (value: string | undefined) =>
+			value === undefined || value === '' ? undefined : value,
+	},
 	PUBLIC_SITE_URL: {
 		public: true,
 		description: 'This app’s public origin; equals Convex SITE_URL',

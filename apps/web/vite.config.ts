@@ -1,7 +1,23 @@
+import { execFileSync } from 'node:child_process';
 import adapter from '@sveltejs/adapter-node';
 import { sveltekit } from '@sveltejs/kit/vite';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vitest/config';
+import { slot } from './e2e/slot.ts';
+
+/** The commit this build runs: GIT_SHA or Coolify's SOURCE_COMMIT, else git, else a build timestamp. */
+function buildVersion(): string {
+	const fromEnv = process.env['GIT_SHA'] ?? process.env['SOURCE_COMMIT'];
+	if (fromEnv !== undefined && fromEnv !== '') return fromEnv;
+	try {
+		return execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).trim();
+	} catch {
+		return `build-${String(Date.now())}`;
+	}
+}
+
+// ATR_SLOT > 0 (parallel e2e slots, e2e/slot.ts) builds into its own directories.
+const { kitOutDir, buildDir } = slot();
 
 export default defineConfig({
 	plugins: [
@@ -12,9 +28,11 @@ export default defineConfig({
 				runes: ({ filename }) =>
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true,
 			},
-			adapter: adapter(),
-			// Content pages and maps come from the platform at runtime; poll for new deploys (plan section 8).
-			version: { pollInterval: 60_000 },
+			adapter: adapter({ out: buildDir }),
+			outDir: kitOutDir,
+			// Content pages and maps come from the platform at runtime; poll for new deploys (plan section 8). The
+			// version name is the commit, which GET /healthz reports.
+			version: { name: buildVersion(), pollInterval: 60_000 },
 		}),
 	],
 	ssr: {
@@ -34,6 +52,8 @@ export default defineConfig({
 					// *.node.test.ts under src/convex read files (sample data) and need Node, not the Convex runtime.
 					include: ['src/**/*.test.ts'],
 					exclude: ['src/convex/**/!(*.node).test.ts', 'src/**/*.svelte.test.ts'],
+					// routes/embed imports the embed glue's place.css?raw; Vitest stubs CSS it does not include.
+					css: { include: [/\/embed\/place\.css/] },
 				},
 			},
 			{

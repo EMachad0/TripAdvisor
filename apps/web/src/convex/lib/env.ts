@@ -61,7 +61,7 @@ export function isCiDeployment(): boolean {
 	return optional('ATR_CI_DEPLOYMENT') === '1';
 }
 
-/** Password of the CI-only `ci-restore` owner (restore test, section 13). */
+/** Password of the CI-only `ci_restore` owner (restore test, section 13). */
 export function ciOwnerPassword(): string {
 	return required('E2E_OWNER_PASSWORD');
 }

@@ -1,0 +1,5 @@
+{
+	// The backup tests run with plain node (node --test deploy/backup/test); this config gives ESLint their types.
+	"extends": "../../tooling/tsconfig.base.json",
+	"include": ["test/*.ts"]
+}

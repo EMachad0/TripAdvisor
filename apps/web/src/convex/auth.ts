@@ -59,7 +59,15 @@ function authOptions(ctx: GenericCtx<DataModel>) {
 		rateLimit: {
 			enabled: true,
 			storage: 'database',
-			customRules: { '/sign-in/username': { window: 60, max: env.signInLimitPerMinute() } },
+			customRules: {
+				'/sign-in/username': { window: 60, max: env.signInLimitPerMinute() },
+				// The public JWKS: Convex fetches it to check every JWT, so the default limit (100 per 10 s) throttled
+				// ordinary page loads. It only serves public keys.
+				'/convex/jwks': false,
+				// The JWT for a signed-in session: every page load and the browser client ask for it, and behind the
+				// proxy all of them share one bucket. It needs a valid session cookie, so there is nothing to guess.
+				'/convex/token': false,
+			},
 		},
 		hooks: {
 			before: createAuthMiddleware(async (mctx) => {

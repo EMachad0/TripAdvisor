@@ -1,5 +1,6 @@
 # Self-hosted Convex for local development and CI (the same image the VPS runs, plan section 12).
-# Start, key and deploy through scripts/convex-local.sh; never run it on the VPS.
+# Start, key and deploy through scripts/convex-local.sh; never run it on the VPS. The script passes the compose
+# project (-p), ports and INSTANCE_NAME per test slot (ATR_SLOT); the defaults below are slot 0.
 # The image tag is the 40-char commit sha of release precompiled-2026-11-13-e8a049c (never :latest).
 name: atr-convex-local
 
@@ -16,8 +17,11 @@ services:
     environment:
       INSTANCE_NAME: ${INSTANCE_NAME:-atr-local}
       INSTANCE_SECRET: ${INSTANCE_SECRET:?run scripts/convex-local.sh up, which generates it}
-      CONVEX_CLOUD_ORIGIN: http://127.0.0.1:${CONVEX_PORT:-3210}
-      CONVEX_SITE_ORIGIN: http://127.0.0.1:${CONVEX_SITE_PORT:-3211}
+      # The origins the backend calls itself on (Better Auth's JWKS check fetches CONVEX_SITE_URL/...): always the
+      # container's own ports, which run_backend.sh fixes at 3210/3211. Host ports differ per test slot, and from
+      # inside the container 127.0.0.1:<host port> is nothing. Clients use the published host ports directly.
+      CONVEX_CLOUD_ORIGIN: http://127.0.0.1:3210
+      CONVEX_SITE_ORIGIN: http://127.0.0.1:3211
       DISABLE_BEACON: 'true'
       DISABLE_METRICS_ENDPOINT: 'true'
       REDACT_LOGS_TO_CLIENT: 'true'
@@ -34,7 +38,7 @@ services:
     stop_grace_period: 10s
     stop_signal: SIGINT
     ports:
-      - '127.0.0.1:6791:6791'
+      - '127.0.0.1:${DASHBOARD_PORT:-6791}:6791'
     environment:
       NEXT_PUBLIC_DEPLOYMENT_URL: http://127.0.0.1:${CONVEX_PORT:-3210}
     depends_on:

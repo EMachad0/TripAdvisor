@@ -3,6 +3,9 @@
 // .cache/trip-live/ (gitignored), for the read-only curator commands. The bundle format is defined in
 // packages/migrate/src/bundle.ts:
 //   { format: "atr-v1-bundle", version: 1, generatedAt, files: { "<feedback|trip>/<name>": { count, sha256, content } } }
+// Sources (plan section 7): --from-convex is GET /ops/export on the new app's Convex site (this file); --from-backup
+// (the old site's encrypted backup) is not built in this checkout. DEFAULT_SOURCE stays 'backup' until the cutover
+// PR flips it to 'convex', so a bare `pull` never silently reads the shadow backend before the cutover.
 // Rules:
 // - the token comes from ATR_EXPORT_TOKEN or the macOS keychain (service "atr-export-token"); it is never an
 //   argument, never printed and never written anywhere;
@@ -14,6 +17,7 @@ import { execFileSync } from 'node:child_process';
 import { createHash, randomBytes } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
+import { SITES } from '../site.js';
 
 export const BUNDLE_FORMAT = 'atr-v1-bundle';
 export const MANIFEST = '.pull-manifest.json';
@@ -23,6 +27,14 @@ export const STALE_HOURS = 26;
 export const PULL_KINDS = {
   feedback: { prefix: 'feedback/', dir: 'feedback-live' },
   trip: { prefix: 'trip/', dir: 'trip-live' },
+};
+/** Where a pull can come from; the cutover PR changes DEFAULT_SOURCE to 'convex'. */
+export const SOURCES = ['convex', 'backup'];
+export const DEFAULT_SOURCE = 'backup';
+/** Every file GET /ops/export carries for each kind (@atr/shared v1 exportV1Files); a pull refuses a bundle without one. */
+export const EXPECTED_FILES = {
+  feedback: ['duels.jsonl', 'game-state.json', 'notes.jsonl', 'questions.jsonl', 'route.jsonl', 'swipes.jsonl'],
+  trip: ['bag.json', 'budget.json', 'days.json', 'fixed.json', 'legs.json', 'settings.json', 'spend.json', 'tasks.json', 'visited.json'],
 };
 const NAME_RE = /^(feedback|trip)\/[a-z][a-z-]*\.(jsonl|json)$/;
 
@@ -110,11 +122,27 @@ export function targetProblems(dir) {
   return problems;
 }
 
-/** Writes the kind's files from a checked bundle into <cacheDir>/<kind>-live through a temp dir and a rename. */
-export function writePull({ bundle, kind, cacheDir, source, now = () => new Date() }) {
+/** The kind's expected files the bundle lacks (`[]` when it has them all). */
+export function missingFiles(bundle, kind) {
+  const files = (bundle && typeof bundle.files === 'object' && bundle.files) || {};
+  return (EXPECTED_FILES[kind] || []).filter((n) => !Object.hasOwn(files, `${PULL_KINDS[kind].prefix}${n}`));
+}
+
+/** The source a pull uses from the CLI flags: --from-convex, --from-backup, else DEFAULT_SOURCE. */
+export function pullSource({ fromConvex = false, fromBackup = false } = {}) {
+  if (fromConvex && fromBackup) throw pullError('pick one source: --from-convex or --from-backup');
+  return fromConvex ? 'convex' : fromBackup ? 'backup' : DEFAULT_SOURCE;
+}
+
+/**
+ * Writes the kind's files from a checked bundle into <cacheDir>/<kind>-live through a temp dir and a rename.
+ * `complete: true` also requires every file in EXPECTED_FILES[kind] (what GET /ops/export always sends).
+ */
+export function writePull({ bundle, kind, cacheDir, source, complete = false, now = () => new Date() }) {
   const spec = PULL_KINDS[kind];
   if (!spec) throw pullError(`unknown pull kind ${kind}`);
   const problems = bundleProblems(bundle);
+  if (!problems.length && complete) for (const n of missingFiles(bundle, kind)) problems.push(`${spec.prefix}${n}: missing from the bundle`);
   if (problems.length) throw pullError(`bad export bundle, nothing written:\n  ${problems.join('\n  ')}`);
   const target = path.join(cacheDir, spec.dir);
   const blocked = targetProblems(target);
@@ -144,14 +172,21 @@ export function writePull({ bundle, kind, cacheDir, source, now = () => new Date
   }
 }
 
-/** The whole pull: token, fetch, check, write. Returns what writePull returns. */
-export async function pull({ kind, url, cacheDir, env = process.env, fetchImpl = fetch, exec = execFileSync, platform = process.platform, now }) {
-  const base = url || env.ATR_EXPORT_URL;
+/**
+ * The whole pull: source, token, fetch, check, write. Returns what writePull returns plus `source`.
+ * --from-convex reads --url, else ATR_EXPORT_URL, else the new app's Convex site (site.js SITES.new.exportUrl).
+ */
+export async function pull({ kind, url, cacheDir, source = DEFAULT_SOURCE, env = process.env, fetchImpl = fetch, exec = execFileSync, platform = process.platform, now }) {
+  if (!SOURCES.includes(source)) throw pullError(`unknown pull source ${source}`);
+  if (source === 'backup') {
+    throw pullError(`the backup source (--from-backup) is not available in this checkout yet. Read the new site's backend with \`./atr ${kind} pull --from-convex\` (before the cutover that is the shadow copy and can lag the live site), or pass --dir <feedback-dir> to the read-only commands.`);
+  }
+  const base = url || env.ATR_EXPORT_URL || SITES.new.exportUrl;
   if (!base) throw pullError('say where to pull from: --url <site> or ATR_EXPORT_URL (the Convex site origin that serves /ops/export)');
   const u = exportUrl(base);
   const token = readToken({ env, platform, exec });
   const bundle = await fetchBundle({ url: u, token, fetchImpl });
-  return writePull({ bundle, kind, cacheDir, source: u.origin, now });
+  return { ...writePull({ bundle, kind, cacheDir, source: u.origin, complete: true, now }), source };
 }
 
 /** { pulledAt, ageHours, stale } for a pulled dir, or null when it was not written by a pull. */

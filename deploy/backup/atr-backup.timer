@@ -1,0 +1,13 @@
+# 16:17 UTC every night: 13:17 UTC-3, 23:17 UTC+7, 00:17 UTC+8, 01:17 UTC+9 (night in the trip's time zones, off
+# the hour on purpose). Persistent: a run missed while the VPS was down happens at the next boot.
+[Unit]
+Description=Nightly Asia Trip Ranker backup
+
+[Timer]
+OnCalendar=*-*-* 16:17:00 UTC
+Persistent=true
+AccuracySec=1min
+Unit=atr-backup.service
+
+[Install]
+WantedBy=timers.target

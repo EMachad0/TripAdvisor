@@ -1,5 +1,6 @@
+<!-- Today (/): the real today. Old hash links (#/today/<date> and the rest) are mapped in (app)/+layout.svelte. -->
 <script lang="ts">
-	import SectionPlaceholder from '#lib/components/shell/SectionPlaceholder.svelte';
+	import TodayView from '#lib/features/today/TodayView.svelte';
 </script>
 
-<SectionPlaceholder title="Today" slice="A" />
+<TodayView day={null} />
