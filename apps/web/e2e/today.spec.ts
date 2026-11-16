@@ -35,27 +35,13 @@ async function open(page: Page, path: string): Promise<void> {
 }
 
 /**
- * Click after centring the element: on a phone the sticky bar and the bottom tabs can cover the edges.
- * Headless WebKit on macOS delivers no pointer input while the session's screen is locked (even a bare
- * `<button>` in setContent fails its hit test with "<html> intercepts pointer events"). Only then, and only in
- * WebKit, the click is dispatched as a DOM event so the rest of the iphone run still checks the screen; Chromium
- * (desktop, pixel) always clicks for real.
+ * Click a control after scrolling it to the middle of the screen: a target at the top edge sits under the sticky
+ * app bar.
  */
 async function press(target: Locator): Promise<void> {
 	await target.evaluate((el) => {
 		el.scrollIntoView({ block: 'center' });
 	});
-	const webkit = target.page().context().browser()?.browserType().name() === 'webkit';
-	if (webkit) {
-		const reachable = await target
-			.click({ trial: true, timeout: 2000 })
-			.then(() => true)
-			.catch(() => false);
-		if (!reachable) {
-			await target.dispatchEvent('click');
-			return;
-		}
-	}
 	await target.click();
 }
 

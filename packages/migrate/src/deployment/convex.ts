@@ -1,7 +1,8 @@
 // A real Convex deployment, reached with its admin key (plan section 14: atomic per table).
 // - Reads page through the backend's system query `_system/cli/tableData` over HTTP (what `npx convex data`
 //   uses), in creation order.
-// - Writes run `convex import --table <t> --replace` (the CLI's admin import, one atomic replace per table) with
+// - Writes run `convex import --table <t> --replace` (the CLI's admin import, one atomic replace per table), or one
+//   `convex import --replace` of a ZIP snapshot for several tables at once, with
 //   the URL and key passed in the child's environment only. The rows file lives in a private temp dir (mode 700)
 //   that is deleted right after.
 // The key is never logged, printed or put on a command line.
@@ -14,8 +15,12 @@ import { promisify } from 'node:util';
 import { isObject, prop, type Json, type JsonObject } from '../json.ts';
 import type { DataTable } from '../tables.ts';
 import type { Deployment } from './types.ts';
+import { storedZip } from './zip.ts';
 
 const run = promisify(execFile);
+
+const jsonLines = (rows: readonly JsonObject[]): string =>
+	rows.map((row) => `${JSON.stringify(row)}\n`).join('');
 const PAGE = 1000;
 
 export interface ConvexTarget {
@@ -96,6 +101,34 @@ export class ConvexAdmin implements Deployment {
 	}
 
 	async replaceTable(table: DataTable, rows: readonly JsonObject[]): Promise<void> {
+		await this.cliImport(
+			`${table}.jsonl`,
+			Buffer.from(jsonLines(rows)),
+			['--table', table, '--format', 'jsonLines'],
+			table,
+		);
+	}
+
+	/** Every given table in one `convex import` of a ZIP snapshot: one atomic replace, one CLI start. */
+	async replaceTables(tables: ReadonlyMap<DataTable, readonly JsonObject[]>): Promise<void> {
+		const entries = [...tables].map(
+			([table, rows]) => [`${table}/documents.jsonl`, Buffer.from(jsonLines(rows))] as const,
+		);
+		await this.cliImport(
+			'tables.zip',
+			storedZip(entries),
+			['--format', 'zip'],
+			[...tables.keys()].join(', '),
+		);
+	}
+
+	/** `convex import --replace` of one file, written to a private temp dir that is deleted right after. */
+	private async cliImport(
+		name: string,
+		content: Buffer,
+		args: string[],
+		what: string,
+	): Promise<void> {
 		const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'atr-migrate-'));
 		try {
 			// The CLI insists on running from a project root; a package.json that names convex is enough.
@@ -103,38 +136,22 @@ export class ConvexAdmin implements Deployment {
 				path.join(dir, 'package.json'),
 				'{"private":true,"dependencies":{"convex":"*"}}\n',
 			);
-			const file = path.join(dir, `${table}.jsonl`);
-			await fs.writeFile(file, rows.map((row) => `${JSON.stringify(row)}\n`).join(''), {
-				mode: 0o600,
-			});
-			await run(
-				process.execPath,
-				[
-					convexCli(),
-					'import',
-					'--table',
-					table,
-					'--replace',
-					'--yes',
-					'--format',
-					'jsonLines',
-					file,
-				],
-				{
-					cwd: dir,
-					env: {
-						PATH: process.env['PATH'] ?? '',
-						HOME: process.env['HOME'] ?? dir,
-						CONVEX_SELF_HOSTED_URL: this.target.url,
-						CONVEX_SELF_HOSTED_ADMIN_KEY: this.target.adminKey,
-					},
-					maxBuffer: 16 * 1024 * 1024,
+			const file = path.join(dir, name);
+			await fs.writeFile(file, content, { mode: 0o600 });
+			await run(process.execPath, [convexCli(), 'import', ...args, '--replace', '--yes', file], {
+				cwd: dir,
+				env: {
+					PATH: process.env['PATH'] ?? '',
+					HOME: process.env['HOME'] ?? dir,
+					CONVEX_SELF_HOSTED_URL: this.target.url,
+					CONVEX_SELF_HOSTED_ADMIN_KEY: this.target.adminKey,
 				},
-			).catch((error: unknown) => {
+				maxBuffer: 16 * 1024 * 1024,
+			}).catch((error: unknown) => {
 				const stderr = prop(error, 'stderr');
 				const tail =
 					typeof stderr === 'string' ? stderr.trim().split('\n').slice(-3).join(' ') : '';
-				throw new Error(`import of ${table} into ${this.label} failed: ${tail}`);
+				throw new Error(`import of ${what} into ${this.label} failed: ${tail}`);
 			});
 		} finally {
 			await fs.rm(dir, { recursive: true, force: true });

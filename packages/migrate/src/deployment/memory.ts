@@ -23,6 +23,10 @@ export class MemoryDeployment implements Deployment {
 		return Promise.resolve();
 	}
 
+	async replaceTables(tables: ReadonlyMap<DataTable, readonly JsonObject[]>): Promise<void> {
+		for (const [table, rows] of tables) await this.replaceTable(table, rows);
+	}
+
 	/** Inserts one document the way the new app would (no seq), after everything already stored. */
 	insert(table: DataTable, row: JsonObject): void {
 		const docs = this.tables.get(table) ?? [];

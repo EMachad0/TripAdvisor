@@ -8,7 +8,8 @@
 #   scripts/convex-local.sh seed      seed the owner and guest accounts from apps/web/.env.e2e.local
 #   scripts/convex-local.sh seed-data load the e2e data set: packages/migrate/fixtures/e2e (feedback + trip, replacing
 #                                     those tables) and the content index of its content root (places, areas, legs)
-#   scripts/convex-local.sh e2e-backend  up + deploy + init-env + seed + seed-data, then wait (Playwright webServer)
+#   scripts/convex-local.sh e2e-prepare  up + deploy + init-env + seed + seed-data (CI: scripts/e2e-prepare.sh)
+#   scripts/convex-local.sh e2e-backend  e2e-prepare, then wait (Playwright webServer)
 #   scripts/convex-local.sh convex …  any convex CLI command against the local backend (run, env, logs, …)
 #   scripts/convex-local.sh down      stop it (data kept);  reset: stop and delete the data volume
 #   scripts/convex-local.sh status    print this slot's ports, compose project and files
@@ -99,8 +100,10 @@ cmd_up() {
 	echo "convex-local: slot $SLOT backend on http://127.0.0.1:$PORT (HTTP actions on :$SITE_PORT)"
 }
 
-set_env() { # name, value from stdin
-	(load_key; cd "$WEB" && node "$CONVEX_BIN" env set "$1" >/dev/null)
+# Several variables in one CLI call (each call is a Node start): a .env document on stdin, NAME="value" per line,
+# so values never reach a command line.
+set_envs() {
+	(load_key; cd "$WEB" && node "$CONVEX_BIN" env set --force >/dev/null)
 }
 
 # CONTENT_TOKEN and EXPORT_TOKEN for this slot (apps/web/e2e/slot.ts ensureTokensFile writes the same file).
@@ -114,20 +117,25 @@ token_of() { sed -n "s/^$1=//p" "$TOKENS_FILE"; }
 sha256_stdin() { node -e 'let s="";process.stdin.on("data",(d)=>s+=d).on("end",()=>process.stdout.write(require("node:crypto").createHash("sha256").update(s).digest("hex")))'; }
 
 cmd_init_env() {
-	local names
+	local names secret='' content_sha export_sha
 	names="$(load_key; cd "$WEB" && node "$CONVEX_BIN" env list --names-only 2>/dev/null || true)"
-	printf '%s' "$APP_ORIGIN" | set_env SITE_URL
-	printf '%s' "${TRUSTED_ORIGINS:-http://127.0.0.1:4173,http://localhost:5173,http://127.0.0.1:5173}" | set_env TRUSTED_ORIGINS
-	if ! grep -qx 'BETTER_AUTH_SECRET' <<<"$names"; then rand 32 base64 | set_env BETTER_AUTH_SECRET; fi
-	# Test-deployment switches (never set on prod): the CI-only probes, a short JWT for spike S9, and a sign-in
-	# backstop high enough for a Playwright run.
-	printf '1' | set_env ATR_CI_DEPLOYMENT
-	printf '%s' "${JWT_EXPIRATION_SECONDS:-60}" | set_env JWT_EXPIRATION_SECONDS
-	printf '%s' "${AUTH_SIGNIN_LIMIT_PER_MINUTE:-200}" | set_env AUTH_SIGNIN_LIMIT_PER_MINUTE
+	if ! grep -qx 'BETTER_AUTH_SECRET' <<<"$names"; then secret="$(rand 32 base64)"; fi
 	# Only the hashes go to Convex; the tokens stay in apps/web/.env.tokens.local$SUFFIX.
 	ensure_tokens_file
-	token_of CONTENT_TOKEN | tr -d '\n' | sha256_stdin | set_env CONTENT_TOKEN_SHA256
-	token_of EXPORT_TOKEN | tr -d '\n' | sha256_stdin | set_env EXPORT_TOKEN_SHA256
+	content_sha="$(token_of CONTENT_TOKEN | tr -d '\n' | sha256_stdin)"
+	export_sha="$(token_of EXPORT_TOKEN | tr -d '\n' | sha256_stdin)"
+	{
+		printf 'SITE_URL="%s"\n' "$APP_ORIGIN"
+		printf 'TRUSTED_ORIGINS="%s"\n' "${TRUSTED_ORIGINS:-http://127.0.0.1:4173,http://localhost:5173,http://127.0.0.1:5173}"
+		if [[ -n "$secret" ]]; then printf 'BETTER_AUTH_SECRET="%s"\n' "$secret"; fi
+		# Test-deployment switches (never set on prod): the CI-only probes, a short JWT for spike S9, and a sign-in
+		# backstop high enough for a Playwright run.
+		printf 'ATR_CI_DEPLOYMENT="1"\n'
+		printf 'JWT_EXPIRATION_SECONDS="%s"\n' "${JWT_EXPIRATION_SECONDS:-60}"
+		printf 'AUTH_SIGNIN_LIMIT_PER_MINUTE="%s"\n' "${AUTH_SIGNIN_LIMIT_PER_MINUTE:-200}"
+		printf 'CONTENT_TOKEN_SHA256="%s"\n' "$content_sha"
+		printf 'EXPORT_TOKEN_SHA256="%s"\n' "$export_sha"
+	} | set_envs
 	echo "convex-local: SITE_URL, TRUSTED_ORIGINS, BETTER_AUTH_SECRET, token hashes and the test switches set"
 }
 
@@ -155,10 +163,8 @@ cmd_seed() {
 	# shellcheck disable=SC1090 # generated file with the local test accounts
 	. "$E2E_FILE"
 	set +a
-	printf '%s' "$E2E_OWNER_USERNAME" | set_env SEED_OWNER_USERNAME
-	printf '%s' "$E2E_OWNER_PASSWORD" | set_env SEED_OWNER_PASSWORD
-	printf '%s' "$E2E_GUEST_USERNAME" | set_env SEED_GUEST_USERNAME
-	printf '%s' "$E2E_GUEST_PASSWORD" | set_env SEED_GUEST_PASSWORD
+	printf 'SEED_OWNER_USERNAME="%s"\nSEED_OWNER_PASSWORD="%s"\nSEED_GUEST_USERNAME="%s"\nSEED_GUEST_PASSWORD="%s"\n' \
+		"$E2E_OWNER_USERNAME" "$E2E_OWNER_PASSWORD" "$E2E_GUEST_USERNAME" "$E2E_GUEST_PASSWORD" | set_envs
 	local status=0
 	(load_key; cd "$WEB" && node "$CONVEX_BIN" run admin:seedAccounts '{}') || status=$?
 	for n in SEED_OWNER_USERNAME SEED_OWNER_PASSWORD SEED_GUEST_USERNAME SEED_GUEST_PASSWORD; do
@@ -167,13 +173,13 @@ cmd_seed() {
 	return "$status"
 }
 
-# The e2e data set: feedback and trip tables from packages/migrate/fixtures/e2e (each table replaced atomically,
-# so a rerun starts from the same data), then the content index of its content root through POST
-# /ops/content-index (the same route trip-web uses at boot).
+# The e2e data set: feedback and trip tables from packages/migrate/fixtures/e2e (all replaced in one atomic import,
+# so a rerun starts from the same data; one CLI start, since specs reseed often), then the content index of its
+# content root through POST /ops/content-index (the same route trip-web uses at boot).
 cmd_seed_data() {
 	ensure_tokens_file
 	(cd "$ROOT/packages/migrate" && ATR_SLOT="$SLOT" node src/bin.ts import --src "$E2E_DATA" --target local \
-		--report "$ROOT/.cache/e2e-seed$SUFFIX")
+		--together --report "$ROOT/.cache/e2e-seed$SUFFIX")
 	(CONTENT_TOKEN="$(token_of CONTENT_TOKEN)" ATR_ROOT="$E2E_DATA/content" \
 		node "$WEB/scripts/content-index.ts" --fixtures --publish "http://127.0.0.1:$SITE_PORT")
 }
@@ -185,20 +191,26 @@ cmd_status() {
 		"${TOKENS_FILE#"$ROOT/"}"
 }
 
-# Everything Playwright needs, then stay in the foreground (its webServer stops this process at the end; the
-# container keeps running for the next run).
-cmd_e2e_backend() {
+# Everything the specs need from the backend: running, deployed, configured, with the accounts and the data set.
+cmd_e2e_prepare() {
 	cmd_up
 	cmd_deploy
 	cmd_init_env
 	cmd_seed
 	cmd_seed_data
+}
+
+# The same, then stay in the foreground (Playwright's webServer stops this process at the end; the container keeps
+# running for the next run).
+cmd_e2e_backend() {
+	cmd_e2e_prepare
 	echo "convex-local: e2e backend ready"
 	exec tail -f /dev/null
 }
 
 case "${1:-}" in
 	up) cmd_up ;;
+	e2e-prepare) cmd_e2e_prepare ;;
 	e2e-backend) cmd_e2e_backend ;;
 	key) cmd_key ;;
 	init-env) cmd_init_env ;;
@@ -209,5 +221,5 @@ case "${1:-}" in
 	convex) shift; convex_cli "$@" ;;
 	down) compose down ;;
 	reset) compose down -v; rm -f "$KEY_FILE" ;;
-	*) sed -n '2,24p' "$0"; exit 2 ;;
+	*) sed -n '2,22p' "$0"; exit 2 ;;
 esac

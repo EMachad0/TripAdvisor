@@ -16,15 +16,28 @@ import { verifySnapshots } from './verify.ts';
 const target = process.env['MIGRATE_BACKEND_TARGET'];
 
 describe.skipIf(target === undefined)(`round trip on the ${target ?? '(unset)'} backend`, () => {
-	test('e2e fixtures: zero differences, byte-identical files', { timeout: 120_000 }, async () => {
-		if (target !== 'scratch' && target !== 'ci')
-			throw new Error('MIGRATE_BACKEND_TARGET must be scratch or ci');
-		const files = await readV1Dir(path.resolve(import.meta.dirname, '../fixtures/e2e'));
-		const snapshot = parseSnapshot(files, await loadTableValidators());
-		const deployment = new ConvexAdmin(resolveTarget(target));
-		await importSnapshot(deployment, snapshot, { acceptQuarantine: 0, requireFrozen: false });
-		const exported = await exportV1(deployment);
-		expect(verifySnapshots(files, exported).ok).toBe(true);
-		for (const [rel, text] of files) expect(exported.get(rel), rel).toBe(text);
-	});
+	// one table at a time (the import), then all tables in one ZIP import (--together, the e2e reseed)
+	for (const together of [false, true]) {
+		test(
+			`e2e fixtures${together ? ', all tables together' : ''}: zero differences, byte-identical files`,
+			{
+				timeout: 120_000,
+			},
+			async () => {
+				if (target !== 'scratch' && target !== 'ci')
+					throw new Error('MIGRATE_BACKEND_TARGET must be scratch or ci');
+				const files = await readV1Dir(path.resolve(import.meta.dirname, '../fixtures/e2e'));
+				const snapshot = parseSnapshot(files, await loadTableValidators());
+				const deployment = new ConvexAdmin(resolveTarget(target));
+				await importSnapshot(deployment, snapshot, {
+					acceptQuarantine: 0,
+					requireFrozen: false,
+					together,
+				});
+				const exported = await exportV1(deployment);
+				expect(verifySnapshots(files, exported).ok).toBe(true);
+				for (const [rel, text] of files) expect(exported.get(rel), rel).toBe(text);
+			},
+		);
+	}
 });

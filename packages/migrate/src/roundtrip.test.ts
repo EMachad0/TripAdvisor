@@ -39,6 +39,20 @@ describe('e2e fixture set', () => {
 		for (const [rel, text] of files) expect(exported.get(rel), rel).toBe(text);
 	});
 
+	test('an import of all tables together exports the same files as one table at a time', async () => {
+		const { snapshot, exported } = await roundTrip(path.join(FIXTURES, 'e2e'));
+		const deployment = new MemoryDeployment();
+		const replaced: string[] = [];
+		await importSnapshot(deployment, snapshot, {
+			acceptQuarantine: 0,
+			requireFrozen: false,
+			together: true,
+			onTable: (table) => replaced.push(table),
+		});
+		expect(replaced).toEqual(DATA_TABLES);
+		expect(await exportV1(deployment)).toEqual(exported);
+	});
+
 	test('an export is stable: exporting twice gives the same files', async () => {
 		const { deployment, exported } = await roundTrip(path.join(FIXTURES, 'e2e'));
 		expect(await exportV1(deployment)).toEqual(exported);
@@ -190,5 +204,8 @@ describe('cli', () => {
 		const a = io();
 		expect(await main(['import', '--src', 'x', '--target', 'nowhere'], a)).toBe(2);
 		expect(await main(['bogus'], a)).toBe(2);
+		// prod imports one table at a time
+		const src = path.join(FIXTURES, 'e2e');
+		expect(await main(['import', '--src', src, '--target', 'prod', '--together'], a)).toBe(2);
 	});
 });

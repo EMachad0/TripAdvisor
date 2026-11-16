@@ -10,6 +10,8 @@ export interface Deployment {
 	readTable(table: DataTable): Promise<JsonObject[]>;
 	/** Replaces the whole table with `rows` in one atomic step, inserting them in the given order. */
 	replaceTable(table: DataTable, rows: readonly JsonObject[]): Promise<void>;
+	/** Replaces every given table the same way, all in one atomic step. */
+	replaceTables(tables: ReadonlyMap<DataTable, readonly JsonObject[]>): Promise<void>;
 	/** opsFlags.writesFrozen (false when the flag row does not exist). */
 	writesFrozen(): Promise<boolean>;
 }

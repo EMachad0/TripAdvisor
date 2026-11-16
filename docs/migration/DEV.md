@@ -8,7 +8,7 @@ Use `corepack pnpm` (the root `packageManager` pins pnpm 12.21.0); plain `pnpm` 
 
 ```sh
 corepack pnpm install --frozen-lockfile
-corepack pnpm --filter @atr/web exec playwright install chromium webkit
+corepack pnpm --filter @atr/web exec playwright install chromium
 ```
 
 ## Local Convex backend
@@ -100,9 +100,28 @@ corepack pnpm e2e            # Playwright: starts the backend (deploy + seed) an
 corepack pnpm verify         # all of the above
 ```
 
-Playwright projects: `desktop` (Chrome), `pixel` (Pixel 7), `iphone` (iPhone 15, WebKit); `setup` signs in owner
+Playwright runs one project, `desktop` (Desktop Chrome); phones and WebKit are not tested. `setup` signs in owner
 and guest once and saves `apps/web/playwright/.auth/{owner,guest}.json` (gitignored). One spec waits 70 s for the
 60 s test JWT to expire (spike S9).
+
+## CI
+
+`.github/workflows/ci.yml` aims at under 3 minutes of wall time on 2-core runners, where the e2e specs run three to
+four times slower than on a laptop. `lint` (format, ESLint, typecheck) and `test` run side by side. `e2e` runs the
+`desktop` project as shards of whole spec files, each shard on its own runner and backend:
+
+- `apps/web/e2e/shards.ts` splits the spec files into shards by the seconds each took on CI, hooks included
+  (`e2e/durations.json`). A new spec counts as the mean until the durations are refreshed:
+  `gh run download <run> -p 'e2e-durations-*' -D /tmp/d && node apps/web/e2e/shards.ts update /tmp/d/*/*.json`.
+  Resize by adding or removing shard numbers in the matrix; aim for about 70 s of tests per shard.
+- A shard runs any mix of spec files on one backend, so a spec must not depend on what ran before it. A describe
+  that writes reseeds (`scripts/convex-local.sh seed-data`) before its tests and again after them; a spec that
+  only reads, or undoes its own writes, needs neither.
+- `scripts/e2e-prepare.sh` brings up and seeds the backend, builds the app and installs Chromium in parallel.
+  `ATR_E2E_PREPARED=1` then makes Playwright start only the built app. `seed-data` replaces all data tables in one
+  ZIP import (`@atr/migrate import --together`, refused for prod): about 1 s instead of 8.
+- CI records a trace only on the retry of a failed test (locally, every failure keeps one).
+- Checkouts leave out `places/**/media/` and `areas/**/media/` (362 MB); no check reads the real photos.
 
 ## Where things are
 
