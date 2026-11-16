@@ -4,6 +4,7 @@
 !package.json
 !pnpm-lock.yaml
 !pnpm-workspace.yaml
+!patches/
 !tooling/package.json
 !tooling/tsconfig.base.json
 !platform/

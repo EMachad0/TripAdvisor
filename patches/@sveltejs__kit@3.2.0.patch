@@ -1,0 +1,34 @@
+diff --git a/src/runtime/client/client.js b/src/runtime/client/client.js
+index 5e491ae8cc9e1ad26720ae492f8a77d32765fe8e..217151604ae04b009b7129a49760479cfc743523 100644
+--- a/src/runtime/client/client.js
++++ b/src/runtime/client/client.js
+@@ -3569,6 +3569,13 @@ async function _hydrate(
+ 			route: parsed_route ?? null
+ 		});
+ 	} catch (error) {
++		// A full-page navigation away can start before hydration finishes (a tap on a link that is still a
++		// plain <a>, the back button, a typed URL). WebKit then aborts this document's pending module imports,
++		// so hydration throws, and the fallback below would reload *this* URL, cancelling the navigation the
++		// visitor asked for. The inline boot script flags `beforeunload` (render.js); when it fired, let the
++		// navigation win: no reload, no error page, and a promise that never settles, as with native_navigation.
++		if (/** @type {any} */ (window)[Symbol.for('sveltekit.leaving')]) return new Promise(noop);
++
+ 		if (error instanceof Redirect) {
+ 			// this is a real edge case — `load` would need to return
+ 			// a redirect but only in the browser
+diff --git a/src/runtime/server/page/render.js b/src/runtime/server/page/render.js
+index 474a747bdbfb85388ca1fbe554492dc3ebcd3e3e..fb12c0b3d0946a0c94cc81967314f5529234ad3d 100644
+--- a/src/runtime/server/page/render.js
++++ b/src/runtime/server/page/render.js
+@@ -447,6 +447,11 @@ export async function render_response({
+ 
+ 		const args = ['element'];
+ 
++		// Flag a navigation away that starts before hydration ends; _hydrate (client.js) then skips its reload.
++		blocks.push(
++			"addEventListener('beforeunload', function () { window[Symbol.for('sveltekit.leaving')] = true; });"
++		);
++
+ 		blocks.push('const element = document.currentScript.parentElement;');
+ 
+ 		if (page_config.ssr) {

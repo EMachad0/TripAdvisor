@@ -22,8 +22,10 @@ WORKDIR /repo
 COPY package.json ./
 RUN corepack enable && corepack install
 
-# 1. Download every package the lockfile names. This layer only changes with the lockfile.
+# 1. Download every package the lockfile names. This layer only changes with the lockfile (and the dependency
+#    patches that pnpm-workspace.yaml lists under patchedDependencies).
 COPY pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY patches patches
 RUN --mount=type=cache,id=atr-pnpm-store,target=/pnpm/store \
 	pnpm config set store-dir /pnpm/store --location project && \
 	pnpm fetch
