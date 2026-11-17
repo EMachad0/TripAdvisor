@@ -1,6 +1,7 @@
 // The trip store on Convex: one table per collection (TRIP_TABLES), with writeDoc semantics from
 // lib/logic/trip.ts. Shared by trip.write (the owner, through the outbox) and internal.trip.adminWrite
 // (`./atr trip`), so both follow the same rules.
+import { statusFromSteps, type TaskState } from '@atr/shared/trip';
 import { validate, ValidationError } from 'convex-helpers/validators';
 import type { DatabaseReader, DatabaseWriter } from '../_generated/server';
 import * as tripTables from '../tables/trip';
@@ -97,6 +98,10 @@ export async function writeTripDoc(
 		if (row !== null) {
 			await db.delete(table, row._id);
 			await db.insert('tripChanges', { col: req.col, op: 'delete', id: row.id, ...who });
+			if (req.col === 'tasks') {
+				await deleteSteps(db, row.id, who);
+				await syncTaskStatus(db, [parentOf(existing)], who);
+			}
 		}
 		return { doc: null };
 	}
@@ -115,10 +120,68 @@ export async function writeTripDoc(
 	if (written === null) return { doc: null };
 	const doc = storable(req.col, written);
 	checkStorable(req.col, doc);
+	if (req.col === 'tasks') await checkStep(db, doc);
 	if (row === null) await db.insert(table, doc);
 	else await db.replace(table, row._id, doc);
 	await db.insert('tripChanges', { col: req.col, op: req.op, id: doc.id, data: fields, ...who });
+	if (req.col === 'tasks') await syncTaskStatus(db, [parentOf(existing), parentOf(doc)], who);
 	return { doc };
+}
+
+/** The id of the task a task is a step of ('' when it is not a step). */
+function parentOf(doc: TripDoc | null): string {
+	const parent = doc?.['parent'];
+	return typeof parent === 'string' ? parent : '';
+}
+
+function taskState(doc: TripDoc): TaskState {
+	const s = doc['status'];
+	if (s === 'todo' || s === 'doing' || s === 'done') return s;
+	return doc['done'] === true ? 'done' : 'todo';
+}
+
+/** Steps are one level deep: a step belongs to a stored task that is not a step itself, and has no steps. */
+async function checkStep(db: DatabaseReader, doc: TripDoc): Promise<void> {
+	const parent = parentOf(doc);
+	if (parent === '') return;
+	if (parent === doc.id) throw invalid('a task cannot be a step of itself');
+	const tasks = await readCollection(db, 'tasks');
+	const task = tasks.find((t) => t.id === parent);
+	if (task === undefined) throw invalid(`no tasks document "${parent}"`);
+	if (parentOf(task) !== '') throw invalid('a step cannot have steps of its own');
+	if (tasks.some((t) => parentOf(t) === doc.id)) {
+		throw invalid('a task with steps cannot become a step');
+	}
+}
+
+/** Deleting a task deletes its steps. */
+async function deleteSteps(db: DatabaseWriter, id: string, who: TripWriter): Promise<void> {
+	const rows = await allRows(db, 'tripTasks');
+	for (const step of rows.filter((r) => r.parent === id)) {
+		await db.delete('tripTasks', step._id);
+		await db.insert('tripChanges', { col: 'tasks', op: 'delete', id: step.id, ...who });
+	}
+}
+
+/** A task with steps takes its status from them (statusFromSteps), after any write to one of its steps. */
+async function syncTaskStatus(
+	db: DatabaseWriter,
+	parents: readonly string[],
+	who: TripWriter,
+): Promise<void> {
+	for (const id of new Set(parents)) {
+		if (id === '') continue;
+		const rows = await allRows(db, 'tripTasks');
+		const row = rows.find((r) => r.id === id);
+		if (row === undefined) continue;
+		const task = toTripDoc(row);
+		const steps = rows.map(toTripDoc).filter((t) => parentOf(t) === id);
+		const status = statusFromSteps(taskState(task), steps.map(taskState));
+		if (status === null) continue;
+		const data = { status, done: status === 'done' };
+		await db.replace('tripTasks', row._id, { ...task, ...data });
+		await db.insert('tripChanges', { col: 'tasks', op: 'update', id, data, ...who });
+	}
 }
 
 async function readOrders(db: DatabaseReader, col: TripCollection): Promise<{ order?: number }[]> {

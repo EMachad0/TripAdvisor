@@ -141,7 +141,7 @@ const LEG_ORDER: Readonly<Record<string, readonly string[]>> = {
 
 /** Key order of each collection's documents: the dominant order in the real files. */
 export const TRIP_KEY_ORDER: Readonly<Record<Collection, readonly string[]>> = {
-	tasks: ['id', 'title', 'suggested', 'status', 'note', 'order', 'done'],
+	tasks: ['id', 'parent', 'title', 'suggested', 'status', 'opens', 'due', 'note', 'order', 'done'],
 	legs: STAY_ORDER,
 	bag: ['id', 'category', 'item', 'note', 'qty', 'packed', 'order'],
 	budget: ['id', 'country', 'currency', 'bed', 'food', 'other', 'pay', 'order'],

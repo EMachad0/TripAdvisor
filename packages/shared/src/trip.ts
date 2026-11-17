@@ -6,6 +6,7 @@ export * from './trip/events.ts';
 export * from './trip/legs.ts';
 export * from './trip/money.ts';
 export * from './trip/search.ts';
+export * from './trip/tasks.ts';
 export * from './trip/today.ts';
 export * from './trip/tz.ts';
 export type * from './trip/types.ts';

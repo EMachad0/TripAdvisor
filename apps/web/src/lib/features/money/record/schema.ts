@@ -13,6 +13,8 @@ export interface RecordTarget {
 	col: RecordCol;
 	/** The document to edit; null adds one (settings always edits "main"). */
 	id: string | null;
+	/** Fields a new document gets besides the form's (a step's `parent`). */
+	preset?: Record<string, string>;
 }
 
 export interface SelectOption {
@@ -24,6 +26,8 @@ export interface FieldDef {
 	key: string;
 	label: string;
 	type: 'text' | 'textarea' | 'number' | 'date' | 'select';
+	/** A line under the field. */
+	hint?: string;
 	/** Takes the whole row of the form grid. */
 	full?: boolean;
 	options?: readonly SelectOption[];
@@ -67,12 +71,20 @@ export function recordSchema(col: RecordCol, countries: readonly ContentCountry[
 				required: { key: 'title', message: NAME_FIRST },
 				fields: [
 					{ key: 'title', label: 'Task', type: 'text', full: true },
-					{ key: 'note', label: 'Notes', type: 'textarea', full: true },
 					{
 						key: 'status',
 						label: 'Status',
 						type: 'select',
 						options: parse('todo=To do,doing=In progress,done=Done'),
+					},
+					{ key: 'opens', label: 'Opens on (first day)', type: 'date' },
+					{ key: 'due', label: 'Do by (last day)', type: 'date' },
+					{
+						key: 'note',
+						label: 'Notes',
+						type: 'textarea',
+						full: true,
+						hint: 'Start a line with - for a list. `PN6595` makes a code you can copy, **words** stand out.',
 					},
 				],
 			};

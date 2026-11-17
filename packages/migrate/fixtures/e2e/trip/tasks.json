@@ -20,5 +20,22 @@
     "title": "Decide on the JR pass",
     "status": "doing",
     "order": 3
+  },
+  {
+    "id": "jr-price",
+    "parent": "jr-pass",
+    "title": "Price the 7-day pass",
+    "status": "done",
+    "note": "JPY 50,000 on `JR-EAST-7`.",
+    "order": 4,
+    "done": true
+  },
+  {
+    "id": "jr-buy",
+    "parent": "jr-pass",
+    "title": "Buy it online",
+    "status": "todo",
+    "due": "2030-01-05",
+    "order": 5
   }
 ]

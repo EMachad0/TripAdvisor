@@ -4,6 +4,7 @@ import { SHIFT } from './constants.ts';
 import { dayKey, diffDays, localKey, localStamp } from './dates.ts';
 import { onDay, upcomingEvents, type OnDay, type Upcoming } from './events.ts';
 import { hereOn, legsSorted, nextFlight, stayCities, stayOn, tripSpan } from './legs.ts';
+import { byUrgency, stepsOf, taskDates, topLevelTasks } from './tasks.ts';
 import type { DayDoc, IdDoc, Leg, Task, TripPlace } from './types.ts';
 
 export interface TodayInput<L extends Leg, P extends TripPlace, T extends Task, D extends DayDoc> {
@@ -89,13 +90,11 @@ export function todayModel<L extends Leg, P extends TripPlace, T extends Task, D
 				!listed.has(p.id),
 		)
 		.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
-	const open = tasks
+	// steps show under their task on the To do page; here a task stands for them
+	const top = topLevelTasks(tasks);
+	const open = top
 		.filter((t) => taskStatus(t) !== 'done')
-		.sort(
-			(a, b) =>
-				Number(taskStatus(b) === 'doing') - Number(taskStatus(a) === 'doing') ||
-				(a.order ?? 0) - (b.order ?? 0),
-		);
+		.sort(byUrgency(today, (t) => taskDates(t, stepsOf(tasks, t.id))));
 	return {
 		today,
 		phase,
@@ -125,6 +124,6 @@ export function todayModel<L extends Leg, P extends TripPlace, T extends Task, D
 		),
 		musts,
 		tasks: open,
-		tasksTotal: tasks.length,
+		tasksTotal: top.length,
 	};
 }

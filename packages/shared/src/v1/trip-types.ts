@@ -26,6 +26,9 @@ export const TRIP_FIELDS = {
 		order: N,
 		suggested: B,
 		done: B,
+		parent: S,
+		opens: S,
+		due: S,
 	},
 	legs: {
 		type: { enum: ['flight', 'stay', 'transport', 'note'] },

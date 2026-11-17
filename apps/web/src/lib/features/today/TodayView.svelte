@@ -16,7 +16,7 @@
 	import PlaneIcon from '@lucide/svelte/icons/plane';
 	import RouteIcon from '@lucide/svelte/icons/route';
 	import StarIcon from '@lucide/svelte/icons/star';
-	import { offsetOn, stayName } from '@atr/shared/trip';
+	import { offsetOn, stayName, stepsOf, taskDates } from '@atr/shared/trip';
 	import { goto } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import PlaceRow from '#lib/components/shared/PlaceRow.svelte';
@@ -30,7 +30,7 @@
 	import { verdictsOf } from '#lib/features/cards/index.js';
 	import Chip from '#lib/features/money/Chip.svelte';
 	import CheckRow from '#lib/features/prep/CheckRow.svelte';
-	import { toggleTaskFields } from '#lib/features/prep/model.js';
+	import { toggleTaskFields, whenOf } from '#lib/features/prep/model.js';
 	import { setVisited } from '#lib/features/trip/actions.js';
 	import DayStatus from '#lib/features/trip/components/DayStatus.svelte';
 	import LegCard from '#lib/features/trip/components/LegCard.svelte';
@@ -399,7 +399,11 @@
 								<div class="flex flex-col panel p-1.5">
 									<ul class="flex flex-col divide-y divide-border/70" aria-label="Open tasks">
 										{#each m.tasks.slice(0, 5) as x (x.id)}
+											{@const steps = stepsOf(tasks, x.id)}
+											{@const when = whenOf(taskDates(x, steps), m.today)}
 											<CheckRow
+												titleTicks={false}
+												locked={steps.length > 0}
 												id={x.id}
 												title={x.title}
 												note={firstLine(x.note)}
@@ -412,7 +416,26 @@
 												onedit={() => (form = { col: 'tasks', id: x.id })}
 											>
 												{#snippet extra()}
-													{#if x.status === 'doing'}<Chip tone="planned">In progress</Chip>{/if}
+													{#if when !== null}
+														<span
+															class={cn(
+																'text-xs font-medium nums',
+																when.tone === 'late' && 'text-destructive',
+																when.tone === 'soon' && 'text-amber',
+																when.tone === 'open' && 'text-ink-2',
+																when.tone === 'wait' && 'text-muted-foreground',
+															)}
+															data-testid="when">{when.label}</span
+														>
+													{/if}
+													{#if steps.length > 0}
+														<span class="text-xs text-muted-foreground nums"
+															>{steps.filter((s) => s.status === 'done').length} of {steps.length} steps</span
+														>
+													{/if}
+													{#if x.status === 'doing' && steps.length === 0}<Chip tone="planned"
+															>In progress</Chip
+														>{/if}
 													{#if x.suggested}<Chip tone="booked">Suggested</Chip>{/if}
 												{/snippet}
 											</CheckRow>
