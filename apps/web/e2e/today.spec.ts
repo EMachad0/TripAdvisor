@@ -127,7 +127,13 @@ test.describe('owner @readonly', () => {
 			await expect(title(page, 'tasks')).toHaveText(/To do\s*2 open of 3/);
 			await expect(tasks.getByTestId('check-row')).toHaveCount(2);
 			await expect(tasks).toContainText('Decide on the JR pass');
-			await expect(tasks).toContainText('In progress');
+			// A task with steps shows how many are done and when it is due; its box is locked (it follows its steps).
+			await expect(tasks).toContainText('1 of 2 steps');
+			await expect(tasks.getByTestId('when')).toHaveText(/^By Sat 5 Jan · \d+ days left$/);
+			await expect(
+				tasks.getByRole('checkbox', { name: 'Mark done: Decide on the JR pass' }),
+			).toBeDisabled();
+			await expect(tasks).not.toContainText('Price the 7-day pass');
 			await expect(tasks).toContainText('Suggested');
 			await expect(tasks).not.toContainText('Check China visa-free entry');
 
