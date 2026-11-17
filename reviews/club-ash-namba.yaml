@@ -1,0 +1,24 @@
+# Independent review of club-ash-namba. Written by `./atr review`; do not edit by hand.
+id: club-ash-namba
+type: place
+reviewed: 2026-11-17
+verdict: pass
+content_hash: eb2c39f92f161e9dae0295233994402c69d5038c20155f7254dcc9f3ebe61dc8
+facts:
+  supported: 12
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: why
+    problem: '`why` says "60 min from ¥20,000", but the official list has 60 min for ¥15,000 (06:01–09:59). It also lists a 会員様 (member) price of ¥18,000 for 10:00–23:59 with a free 入会金 (joining fee), and a web-only coupon off the regular price. The page mentions neither of the last two.'
+    evidence: "https://www.club-h.net/system/: 60min 早朝 ¥15,000 / 通常 ¥20,000 / 会員様 ¥18,000; 入会金 無料; 「WEB限定!!HP割引クーポン…通常料金からの割引となります」"
+    fix: Say "from ¥15,000 (early morning)" in `why`, and add a menu line for the ¥18,000 member price and the HP coupon, noting that the site does not say what membership requires.
+resolved:
+  - field: book_ahead.links / menu.note / blocks[3].text
+    problem: The page tells the traveler to book through the English page at ¥30,000. The official price page says phone bookings get the regular price, which is ¥20,000 for 60 min, or ¥15,000 from 06:01 to 09:59. The cheapest way in is buried in a menu note, and the page pushes the ¥10,000-dearer route for a traveler who asked for no crazy spending on one thing.
+    evidence: 'The page now leads with the phone booking at ¥20,000: cost.local, method: phone, book_ahead.links[0] (tel:), the book_ahead step and the cost_breakdown. The English page is the fallback, marked +¥10,000, and the menu has its own ¥15,000 06:01–09:59 row. https://www.club-h.net/system/ says 電話予約 「通常料金が適用」, 60minシャワーパンスト 通常 ¥20,000 / 早朝(6:01～9:59) ¥15,000, TEL 06-6212-9111. https://yoasobi-heaven.com/en/osaka/YA2702/club_h/ says "60 min: 30,000 yen".'
+rereview_of: 0a4473230dad3b36cc99190cd821f710ad8181951bea0ba4aede6e5d9259ae50
+summary: "Both earlier shoulds are fixed. The page now leads with the ¥20,000 phone booking, keeps the ¥30,000 English page as the marked fallback, and `why` no longer repeats the hero. Every new price and booking rule matches the official system page and the YOASOBI HEAVEN page. Only a nit is left: the cheaper member price and the web coupon are missing. The desktop dark screenshot did not run because the page had not been built (--no-build)."
+model: claude-opus-5-5
+cost_usd: 0.361

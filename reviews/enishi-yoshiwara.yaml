@@ -1,0 +1,24 @@
+# Independent review of enishi-yoshiwara. Written by `./atr review`; do not edit by hand.
+id: enishi-yoshiwara
+type: place
+reviewed: 2026-11-17
+verdict: pass
+content_hash: 4cf3b14cdd9929c2ad7968d22e32ba707f345ac5d88bc40b99e31ca213504b86
+facts:
+  supported: 11
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: book_ahead.links[0].note
+    problem: The note says the chat 'opens only from' the venue page. The venue page links the chat directly at heaven-chat/shop?id=1210057091&lang=en, and it also offers WhatsApp.
+    evidence: "https://yoasobi-heaven.com/en/tokyo/YA1304/enishi/?of=y: the 'Multilingual Chat' button links to https://yoasobi-heaven.com/heaven-chat/shop?id=1210057091&lang=en"
+    fix: Remove 'the chat opens only from there', or add the direct chat URL as its own link.
+resolved:
+  - field: cost
+    problem: "The headline cost is the ¥60,000 90-min course: R$2,145, shown as '1262% of daily budget'. The traveler's taste file says 'no crazy spending on a single thing'. The venue itself suggests the 60-min course for a first visit, but the page only mentions it in the prose and the menu."
+    evidence: "cost.local is now 40000 (60 min), R$1,430, and the 90 min course is in the note and listed as an optional extra in cost_breakdown. `why` says 'a big splurge, R$1,430'; the prose says 'over eight days of your R$170 budget' (1430/170 = 8.4). https://yoasobi-heaven.com/en/tokyo/YA1304/enishi/?of=y: '60 min 40,000 yen', 'please try the 60-minute corse', 'Costume-play is included free of charge with courses of 90 minutes or longer'."
+rereview_of: 82a0b4843a390259f28253acaeb3e5d637175df55e417d1eb5526d7f09ed31c5
+summary: "Earlier budget finding resolved: the 60-min ¥40,000 course is now the headline cost, as the venue's first-visit pick, and the 90 min course is an optional add-on. The page calls it a big splurge against the R$170/day budget. The new numbers match their sources (R$1,430, ¥3,000 under Soapland Max, about 1.8× Psyche, Osaka from Fri 29 Jan, reviewer countries). Unsupported: the venue never says same-day booking works. One nit is left on the chat link note."
+model: claude-opus-5-5
+cost_usd: 0.379

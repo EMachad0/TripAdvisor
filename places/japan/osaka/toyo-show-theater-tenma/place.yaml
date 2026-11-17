@@ -1,0 +1,143 @@
+id: toyo-show-theater-tenma
+name: "Toyo Show Theater"
+name_local: 東洋ショー劇場
+name_romanized: Toyo Sho Gekijo
+country: japan
+city: osaka
+area: "Tenma · Kita-ku"
+category: odd-local
+fame: hidden
+tags: [adult, strip-theater, value, weekday-afternoon, weekend-afternoon]
+kind: Do
+why: "A 129-seat strip theater by JR Tenma with a revolving stage and its own bar: ¥5,000 buys the whole day, ¥3,000 if you walk in after 20:45."
+
+cost:
+  local: 5000
+  currency: JPY
+  brl: 178.75
+  note: "Entry, valid all day (official fee page). ¥3,000 from 20:45. Drinks and souvenir photos ¥500 each"
+fx: { rate: 0.03575, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–3 h (shows 2 h 20 min; last one 2 h)"
+best_time: "Mon 1 Feb from 12:00, or Fri 29 Jan at 20:45"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "11:30–22:00, no closed days listed. Four shows of five dancers: 12:00, 14:40, 17:20, 20:00. Cheaper late entry from 20:45"
+  winter: "No closed days listed for Dec 2026 – Jan 2027. Programs change every 10 days: the 21–31 Jan 2027 lineup is posted as provisional, and 1–10 Feb isn't listed yet. Indoors, so the cold doesn't matter."
+
+location:
+  address: "3F, 11-1 Ikedacho, Kita-ku, Osaka 530-0033 (above the Gyomu Super)"
+  address_local: "〒530-0033 大阪市北区池田町11-1 3階 東洋ショー劇場"
+  lat: 34.70768
+  lng: 135.5136
+  nearest_transit: "JR Tenma (Osaka Loop Line), 5 min; Tenjimbashisuji 6-chome Exit 1"
+
+sources:
+  - url: https://www.toyo-show.com/?page_id=350
+    title: "Toyo Show Theater official English page: hours, ¥5,000 all-day entry, drinks, show times, access"
+    checked: 2026-11-17
+  - url: https://www.toyo-show.com/?page_id=191
+    title: "東洋ショー劇場 入場料金 (official): ¥5,000, late entry from 20:45 ¥3,000, drinks and photos ¥500"
+    checked: 2026-11-17
+  - url: https://www.toyo-show.com/?page_id=194
+    title: "東洋ショー劇場 営業時間、公演時間 (official): 11:30–22:00, four shows, directions"
+    checked: 2026-11-17
+  - url: https://www.toyo-show.com/?page_id=216
+    title: "東洋ショー劇場 アクセス (official): address, phone, directions from JR Tenma and Tenjimbashisuji 6-chome"
+    checked: 2026-11-17
+  - url: https://www.toyo-show.com/?post_type=facility
+    title: "東洋ショー劇場 施設案内 (official): 129 seats, revolving stage, bar CHACO, photo time, go-out ticket"
+    checked: 2026-11-17
+  - url: http://asakusa-rockza.com/?lang=en
+    title: "Asakusa Rockza official site (English): ¥6,000 general admission, for comparison"
+    checked: 2026-11-17
+  - url: https://strip-marks.com/theaters/13/
+    title: "東洋ショー劇場 (ストMarks): 10-day programs to 31 Jan 2027"
+    checked: 2026-11-17
+  - url: https://times.abema.tv/articles/-/10152888
+    title: "大阪・天満東洋ショー劇場を摘発、10人逮捕 (ABEMA TIMES, 27 Nov 2024)"
+    checked: 2026-11-17
+  - url: https://ja.wikipedia.org/wiki/性風俗関連特殊営業
+    title: "性風俗関連特殊営業 (Wikipedia ja): strip theaters as a store-type sex-related business, notification, zoning"
+    checked: 2026-11-17
+  - url: https://www.bengo4.com/c_18/n_13147/
+    title: "上野のストリップ摘発 (弁護士ドットコム, 5 Jun 2021): 60+ theaters raided, 450+ arrested since 1998"
+    checked: 2026-11-17
+  - url: https://bunshun.jp/articles/-/88909
+    title: "ストリップ劇場は全国15軒に (文春オンライン / 共同通信, 25 May 2026)"
+    checked: 2026-11-17
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: "Osaka (Wikipedia): climate table, January normals 1991–2020"
+    checked: 2026-11-17
+confidence: medium
+confidence_note: "Prices, hours and house rules from the official site (read 17 Nov 2026); it posts Nov 2026 lineups, so it is open. Police raided it in Nov 2024 for public indecency (no coercion or minors reported); no report on how it reopened. No independent English review found. Bengo4 opened via WebFetch; it bot-blocks link checks. The Japanese and English pages say doors 11:30; the Chinese page says 12:00."
+last_updated: 2026-11-17
+
+blocks:
+  - type: hero
+    hook: "Five dancers, four shows a day, a revolving stage under moving lights, and one ticket good until closing."
+  - type: quick_facts
+    time_needed: "2 h–2 h 20 min a show"
+    best_time: "Mon 1 Feb from 12:00"
+    extra:
+      - { label: Slot, value: "Fri 29 Jan – Mon 1 Feb", detail: "Daytime Sat 30 / Sun 31 before Ado; Fri 29 late entry from 20:45" }
+      - { label: Language, value: "None needed", detail: "Music, no dialogue; the site has English and Chinese pages" }
+      - { label: Late entry, value: "¥3,000 from 20:45", detail: "Catches the end of the last show (20:00–22:00)" }
+  - type: highlights
+    items:
+      - title: One ticket, all day
+        text: "**¥5,000** gets you in for the whole day, and you can walk in mid-show. The theater calls it the lowest entry price in the business. After **20:45** it drops to ¥3,000."
+      - title: A big stage for the genre
+        text: "**129 seats**, a revolving stage, moving lights and projectors: the theater calls itself one of the largest in western Japan. Each of the four daily shows has five dancers."
+      - title: A bar between acts
+        text: "The standing bar **CHACO** next to the hall serves soft drinks and alcohol at ¥500 each, and its decor changes with the season and events."
+      - title: Written for visitors
+        text: "The official site has **English and Chinese** pages with prices and show times. The show itself is music and dance, so no Japanese is needed."
+  - type: prose
+    title: The value pick, with a history
+    dropcap: true
+    text: |-
+      Toyo Show is the Osaka counterpart to Tokyo's Asakusa Rock-za, and cheaper: ¥5,000 (about R$179) for a whole day, against ¥6,000 general admission in Asakusa. After the third and fifth dancer there's a **photo time**: you queue for the dancer you want, staff hand you a camera, and the printed souvenir photo costs ¥500.
+
+      Know before you go: in November 2024 Osaka police raided it and arrested **10 people**, the operator, staff and dancers, for public indecency. Police cited extreme staging, including long lighting of dancers and filming with cameras the theater provided. No coercion or minors were reported. In November 2026 the theater is open, posting lineups and photo-session days. Bunshun counted only 15 strip theaters left in Japan in May 2026.
+  - type: cost_breakdown
+    items:
+      - { label: "Entry, valid all day", local: 5000, brl: 178.75 }
+      - { label: "A drink at bar CHACO", local: 500, brl: 17.88, optional: true }
+      - { label: "One souvenir photo at photo time", local: 500, brl: 17.88, optional: true }
+  - type: menu
+    title: Price list (official site, Nov 2026)
+    items:
+      - { name: "Entry, all day", name_local: 入場料金, price_local: 5000, price_brl: 178.75, note: "One entry, watch until closing" }
+      - { name: "Late entry from 20:45", name_local: 深夜入場, price_local: 3000, price_brl: 107.25, note: "The end of the last show", tag: cheap }
+      - { name: "Drink (soft or alcohol)", name_local: ドリンク, price_local: 500, price_brl: 17.88 }
+      - { name: "Souvenir photo with a dancer", name_local: 撮影, price_local: 500, price_brl: 17.88, note: "Per photo, at photo time" }
+      - { name: "Stage photo by the house photographer", name_local: ステージ写真, price_local: 500, price_brl: 17.88 }
+    note: "The official price pages list no foreigner surcharge and say nothing about card payment: bring cash to be safe."
+  - type: map
+    note: "From **JR Tenma**, turn left out of the gate onto Tenma-ekimae Hondori, turn right at the Times parking, and look for the **Gyomu Super** on your left: the theater is on its 3rd floor (official directions)."
+  - type: tips
+    variant: insider
+    items:
+      - "Want to step out for food? Ask the front desk for a **go-out ticket** (外出券) so you can come back on the same entry."
+      - "Monday 1 Feb is your only full Osaka day without an Ado evening: come for the 12:00 show and stay as long as you like."
+      - "Programs run about 10 days. Fri 29 – Sun 31 Jan falls in the 21–31 Jan program (provisional lineup posted); Mon 1 Feb likely starts a new one, not listed yet."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** the Entertainment Business Act (風営法) lists strip theaters as store-type sex-related businesses: notified to the safety commission, commercial zones only. Police still raid them for public indecency: **60+ theaters** and **450+ people**, customers included, 1998–2021 (Bengo4)."
+      - "This theater was one of them, in **Nov 2024** (10 arrested, ABEMA TIMES). A former police official quoted there called it a possible warning before Expo 2025. Customers weren't reported arrested, but a raid during your visit is a real, small risk."
+      - "**Phones are banned** inside the hall, and chatting during shows is discouraged. Only take photos at photo time, with the staff's camera."
+      - "Under-18s are refused. Carry your passport in case staff ask your age."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: "Cool, mostly dry"
+    note: "Osaka in January averages 3 °C at night and 10 °C by day, with little rain and no snow on average. Indoors the whole time."
+    wear: "A winter jacket for the walk from Tenma"
+  - type: pairs_well
+    items:
+      - { id: tenma-standing-bars, note: "Tenma's standing bars, a few minutes' walk south: drinks after the late entry" }

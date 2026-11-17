@@ -1,0 +1,160 @@
+id: club-ash-namba
+name: "OL no Hinkaku Club Ash"
+short_name: Club Ash
+name_local: "OLの品格 クラブアッシュ"
+name_romanized: "OL no Hinkaku Kurabu Asshu"
+country: japan
+city: osaka
+area: "Nishi-Shinsaibashi · Namba"
+category: odd-local
+fame: hidden
+tags: [adult, imekura, fashion-health, premium, weekend-afternoon, weekday-afternoon]
+kind: Do
+why: "One of the few store-based health shops left in Osaka, with an office theme, a written welcome for foreigners and booking in English. 60 min from ¥20,000."
+
+cost:
+  local: 20000
+  currency: JPY
+  brl: 715
+  note: "60 min, regular price for phone bookings (official site). English page: ¥30,000. Nomination ¥2,000 extra"
+fx: { rate: 0.03575, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "About 1.5 h with the walk from Namba"
+best_time: "Sat 30 or Sun 31 Jan before the Ado show, or Mon 1 Feb"
+
+book_ahead:
+  required: recommended
+  lead_days: 2
+  lead_time: "Phone or web booking opens two days ahead"
+  method: phone
+  links:
+    - label: "Call 06-6212-9111"
+      url: "tel:+81 6 6212 9111"
+      note: "Official number; phone bookings pay the regular price (¥20,000 for 60 min). Japanese needed"
+    - label: "English page (¥30,000 for 60 min)"
+      url: "https://yoasobi-heaven.com/en/osaka/YA2702/club_h/"
+      note: "The shop's YOASOBI HEAVEN page: \"Foreign visitors are welcome\", web booking, chat"
+    - label: "Official price list"
+      url: "https://www.club-h.net/system/"
+      note: "Japanese price list, rules and booking terms"
+  notes: "The official site takes bookings **two days ahead**, says phone bookings pay the **regular price**, and asks for a confirmation call **one hour before**; hidden numbers are refused. No Japanese? The English page has a web request and chat (LINE, WeChat, Kakao, WhatsApp) at ¥30,000."
+
+hours:
+  summary: "Every day 06:01–23:59 (official site and YOASOBI HEAVEN, \"open all year round\")"
+  winter: "No seasonal changes are listed; the English page says it is open all year round. Osaka's ordinance keeps store-based shops closed from midnight to 06:00 (Fuzoku Concierge), so there is no late-night slot after the Ado show."
+
+location:
+  address: "2-14-2 Nishi-Shinsaibashi, Chuo-ku, Osaka"
+  address_local: "大阪府大阪市中央区西心斎橋2-14-2"
+  lat: 34.66955
+  lng: 135.49795
+  approximate: true
+  nearest_transit: "Namba Station (Osaka Metro), Exit 25: about 3–5 min on foot"
+
+sources:
+  - url: https://yoasobi-heaven.com/en/osaka/YA2702/club_h/
+    title: "OL no Hinkaku Club H on YOASOBI HEAVEN: \"Foreign visitors are welcome\", English prices, address, hours, reviews to Nov 2026"
+    checked: 2026-11-17
+  - url: https://www.club-h.net/system/
+    title: "OLの品格 クラブアッシュ official site: Japanese price list, cards with 0% fee, booking 2 days ahead, rules"
+    checked: 2026-11-17
+  - url: https://www.club-h.net/
+    title: "OLの品格 クラブアッシュ official site: office-lady image play (イメクラ) concept, Namba/Nipponbashi"
+    checked: 2026-11-17
+  - url: https://yoasobi-heaven.com/en/osaka/shop-list/
+    title: "YOASOBI HEAVEN, Osaka foreigner-friendly shops: no soaplands in Osaka; health clubs only in some areas"
+    checked: 2026-11-17
+  - url: https://fuzoku-concierge.com/osaka-fashion-health/
+    title: "Osaka fashion health (Fuzoku Concierge, paid booking service, Oct 2026): ban, 15 shops left, English-page prices, hours, touts"
+    checked: 2026-11-17
+  - url: https://en.wikipedia.org/wiki/Prostitution_in_Japan
+    title: "Prostitution in Japan: 1956 Anti-Prostitution Law, fūzoku, many shops refuse foreigners (Wikipedia)"
+    checked: 2026-11-17
+  - url: https://en.friday.news/article/34475
+    title: "Japan's first inbound-oriented prostitution bust: Kabukicho men's esthe, Feb 2025 (FRIDAY Digital)"
+    checked: 2026-11-17
+  - url: https://www.city.osaka.lg.jp/hodoshiryo/shimin/0000687229.html
+    title: "Osaka City names touts who broke its touting ordinance in Dotonbori and Shinsaibashi-suji (press release, 28 Sep 2026)"
+    checked: 2026-11-17
+  - url: https://en.wikipedia.org/wiki/Osaka
+    title: "Osaka: climate table (Wikipedia)"
+    checked: 2026-11-17
+confidence: medium
+confidence_note: "Prices, hours and the foreigner welcome come from the shop's own pages (marketing). The official site says phone bookings pay the regular ¥20,000 for 60 min; it doesn't say whether a foreign caller gets it, and the English page charges ¥30,000. English reviews: a few, latest Oct–Nov 2026. Pin is block level. No free photo (Commons was rate-limited)."
+last_updated: 2026-11-17
+
+blocks:
+  - type: hero
+    hook: "A suit, pantyhose and a pretend office: Osaka's take on the role-play room, one theme done properly."
+  - type: quick_facts
+    time_needed: "60 min session"
+    best_time: "Afternoon, before an Ado night"
+    extra:
+      - { label: Slot, value: "Sat 30 / Sun 31 Jan", detail: "Daytime before the Ado shows, or free Mon 1 Feb; shuts 23:59" }
+      - { label: Type, value: "Imekura (image play)", detail: "A store-based fashion health with an office theme; not a soapland" }
+      - { label: Language, value: "Japanese, or English page", detail: "English, Chinese and Korean speakers registered (English page)" }
+  - type: highlights
+    items:
+      - title: The office as a set
+        text: "The shop's concept is the **office lady (OL)**: the women wear suits and pantyhose, and the Japanese site calls it office-romance **image play (イメクラ)**. It's the closest thing in Osaka to Bangkok's themed role-play rooms, with one theme done well."
+      - title: Foreigners welcome, in writing
+        text: "The shop's English page on YOASOBI HEAVEN is headed **\"Foreign visitors are welcome\"**, lists English, Chinese and Korean speakers, and gives **free pantyhose to guests from overseas**. Wikipedia notes many Japanese shops refuse foreigners outright."
+      - title: Rare and legal
+        text: "Osaka bans new store-based health shops across the prefecture; the ones still open were notified before the ban, and one booking listing showed only **about 15** in Oct 2026. Club Ash is a store-based shop still operating: you go to the shop, not a hotel."
+      - title: Card OK, no fee
+        text: "The official site takes **all major credit cards** and says it charges **no card fee** (0%). It's a 3–5 min walk from Namba Station, Exit 25."
+  - type: prose
+    title: What you're paying for
+    dropcap: true
+    text: |-
+      **Fashion health** is a store-based fūzoku type: Wikipedia calls these shops notionally massage parlours, and they sell non-coital services. **Imekura** ("image club") adds a scenario. Club Ash's is the office: she plays the office lady, and the Japanese site sells the pantyhose as part of the act.
+
+      The official site says phone bookings pay the regular price: **¥20,000 for 60 min** (about R$715), or **¥15,000** from 06:01 to 09:59. The English page charges **¥30,000** for the same hour; Fuzoku Concierge, a paid booking service, found that split at five Osaka shops and says to ask which price applies. Either way it's a splurge, four days or more of your Japan "everything else" budget. Its case: a real Osaka store, a clear theme, and a free afternoon on Sat 30 or Sun 31 Jan before the Ado show, or Mon 1 Feb.
+  - type: book_ahead
+    steps:
+      - { days_before: 2, text: "Booking opens: **call 06-6212-9111** (number shown, not hidden) for the regular price. Without Japanese, send a request on the **English page** and confirm in its chat (¥30,000)." }
+      - { days_before: 0, text: "Call or message to **confirm one hour before**, as the official site asks." }
+      - { days_before: 0, text: "Walk from Namba Exit 25 to the shop. No photos or recordings inside (house rules)." }
+  - type: cost_breakdown
+    items:
+      - { label: "60 min, regular price (phone booking)", local: 20000, brl: 715 }
+      - { label: "Booking via the English page instead (difference)", local: 10000, brl: 357.5, optional: true }
+      - { label: "Nomination fee (pick a named woman)", local: 2000, brl: 71.5, optional: true }
+      - { label: "One option (e.g. full-body net tights)", local: 2000, brl: 71.5, optional: true }
+  - type: menu
+    title: Prices (English page and official site, Nov 2026)
+    items:
+      - { name: "60 min (English page)", name_local: "60分", price_local: 30000, price_brl: 1072.5, note: "Foreign guests get free pantyhose" }
+      - { name: "75 min (English page)", name_local: "75分", price_local: 38000, price_brl: 1358.5 }
+      - { name: "90 min (English page)", name_local: "90分", price_local: 45000, price_brl: 1608.75 }
+      - { name: "60 min, regular price, 10:00–23:59", name_local: "60分 通常", price_local: 20000, price_brl: 715, note: "Phone bookings pay this" }
+      - { name: "60 min, early morning 06:01–09:59", name_local: "60分 早朝", price_local: 15000, price_brl: 536.25, note: "Cheapest hour on the list" }
+      - { name: "30 min, regular price", name_local: "30分 通常", price_local: 11000, price_brl: 393.25, note: "Shortest course", tag: cheap }
+      - { name: "Nomination fee", name_local: "指名料", price_local: 2000, price_brl: 71.5 }
+    note: "The official site says phone bookings pay the regular price. The English page lists only 60/75/90 min at higher prices. Confirm the total when you book."
+  - type: map
+    note: "Walk from **Namba Station Exit 25** (Osaka Metro) for 3–5 min. Show the Japanese address; it's in Nishi-Shinsaibashi."
+  - type: tips
+    variant: insider
+    items:
+      - "The official site lets you book **two days ahead** and asks for a confirmation call **one hour before**; withheld numbers are refused."
+      - "From 60 min, pantyhose come free (black or beige); the English page gives them free to overseas guests anyway."
+      - "Osaka's store-based shops can't open from **midnight to 06:00** (Fuzoku Concierge): plan it before the Ado show, not after."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** the 1956 Anti-Prostitution Law bans prostitution (intercourse) but sets **no penalty** for the act itself; it punishes soliciting, procuring, providing a place. Fashion health sells non-coital services under the entertainment business law. Asking for intercourse breaks the rules."
+      - "**Enforcement, 2025:** Tokyo police made Japan's first arrests at a shop aimed at foreign tourists, a Kabukicho men's esthe, in Feb 2025 (operator and six men; no customers reported charged). Stick to notified shops like this one."
+      - "**Touts:** Osaka City bans touting in parts of Minami and still names violators in Dotonbori (2026). Fuzoku Concierge says store shops may not tout: anyone offering health on the street doesn't work for one."
+      - "Two price lists: the English page is ¥10,000 dearer for 60 min than a phone booking. Confirm the total before you go."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: "Cold, mostly dry winter days"
+    note: "A few minutes' walk from the metro, then indoors."
+    wear: "Coat; you shower there"
+  - type: pairs_well
+    items:
+      - { id: hostel-chillax-namba, note: "A Namba hostel, a short walk away" }
+      - { id: den-den-town-retro-games, note: "Nipponbashi's retro game shops, the next district east" }
+      - { id: namba-parks, note: "South of Namba Station, for a walk after" }

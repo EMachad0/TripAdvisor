@@ -1,0 +1,16 @@
+# Independent review of toyo-show-theater-tenma. Written by `./atr review`; do not edit by hand.
+id: toyo-show-theater-tenma
+type: place
+reviewed: 2026-11-17
+verdict: pass
+content_hash: 567d861889e8e363d36832037f0d4141f7b19c3f3de9ef955e5308aa667ccc3d
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: f59d5466b5430d67b75f924ee58d19ee1278d96a1a6586fc4845141426451c6f
+summary: "Every changed line checks out against a source, so the page passes. Show lengths and '11:30–22:00, no closed days listed' match the official timetable (toyo-show.com page_id=194/350). The Rockza site gave a TLS error on direct fetch, but ./atr render showed '6,000 YEN' for adults. The reworded raid sentence matches ABEMA ('劇場側が用意したデジタルカメラ'). The earlier review had no findings, and I found no new blockers. No new screenshots: this edit changed text only."
+model: claude-opus-5-5
+cost_usd: 0.274
