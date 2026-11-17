@@ -1,8 +1,8 @@
 <!--
 	One row of the Bag list and of Today's tasks (old trip.js taskRow and the bag rows): the tick box, the title with
-	its chips, the note, and ⋯ to edit. The box shows the stored state; a tap asks the parent to write the other
+	its chips, the note, and the pen to edit. The box shows the stored state; a tap asks the parent to write the other
 	one. In the Bag the title is the box's label too, so the whole line is a big tap target; a task's title is plain
-	text (`titleTicks` false), so only the box ticks it. The guest sees the box disabled and no ⋯.
+	text (`titleTicks` false), so only the box ticks it. The guest sees the box disabled and no pen.
 -->
 <script lang="ts">
 	import type { Snippet } from 'svelte';

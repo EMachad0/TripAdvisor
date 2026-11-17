@@ -11,7 +11,7 @@
 	import ArrowRightIcon from '@lucide/svelte/icons/arrow-right';
 	import ArrowUpRightIcon from '@lucide/svelte/icons/arrow-up-right';
 	import BedDoubleIcon from '@lucide/svelte/icons/bed-double';
-	import EllipsisIcon from '@lucide/svelte/icons/ellipsis';
+	import PencilIcon from '@lucide/svelte/icons/pencil';
 	import PlaneIcon from '@lucide/svelte/icons/plane';
 	import { dayKey, diffDays, legOffsets, stayCities, timeOf } from '@atr/shared/trip';
 	import { resolve } from '$app/paths';
@@ -126,7 +126,7 @@
 					aria-label="Edit"
 					onclick={() => {
 						onedit(l.id);
-					}}><EllipsisIcon /></Button
+					}}><PencilIcon /></Button
 				>
 			{/if}
 		</div>

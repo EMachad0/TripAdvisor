@@ -163,11 +163,19 @@ test.describe('owner', () => {
 		await expect(r).toContainText('In progress');
 
 		// A step: added under the task, which then follows it.
-		await r.getByRole('button', { name: 'Add step' }).click();
-		const addStep = page.getByRole('dialog', { name: 'Add step' });
-		await addStep.getByLabel('Task').fill('Pick the dates');
-		await addStep.getByRole('button', { name: 'Save' }).click();
-		await expect(r.getByTestId('step')).toHaveText([/Pick the dates/]);
+		// Steps are added in the edit sheet; the card has no button for it.
+		await expect(r.getByRole('button', { name: 'Add step' })).toHaveCount(0);
+		await r.getByRole('button', { name: `Edit: ${title}` }).click();
+		await edit.getByLabel('New step').fill('Pick the dates');
+		await edit.getByRole('button', { name: 'Add step' }).click();
+		await expect(edit.getByTestId('record-step')).toHaveText([/Pick the dates/]);
+		await expect(edit.getByLabel('New step')).toHaveValue('');
+		// The step's pen opens the step itself, for its notes and dates.
+		await edit.getByRole('button', { name: 'Edit step: Pick the dates' }).click();
+		const editStep = page.getByRole('dialog', { name: 'Edit step' });
+		await editStep.getByLabel('Notes').fill('Any weekend in January.');
+		await editStep.getByRole('button', { name: 'Save' }).click();
+		await expect(r.getByTestId('step')).toHaveText([/Pick the dates\s*Any weekend in January\./]);
 		await expect(r.getByTestId('steps-count')).toHaveText('0 of 1 steps');
 		await expect(page.getByTestId('eyebrow')).toHaveText('3 open · 1 done');
 
