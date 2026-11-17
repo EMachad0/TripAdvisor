@@ -1,7 +1,8 @@
 <!--
-	One row of the To do and Bag lists (old trip.js taskRow and the bag rows): the tick box, the title with its chips,
-	the note, and ⋯ to edit. The box shows the stored state; a tap asks the parent to write the other one. The title
-	is the box's label too, so the whole line is a big tap target. The guest sees the box disabled and no ⋯.
+	One row of the Bag list and of Today's tasks (old trip.js taskRow and the bag rows): the tick box, the title with
+	its chips, the note, and ⋯ to edit. The box shows the stored state; a tap asks the parent to write the other
+	one. In the Bag the title is the box's label too, so the whole line is a big tap target; a task's title is plain
+	text (`titleTicks` false), so only the box ticks it. The guest sees the box disabled and no ⋯.
 -->
 <script lang="ts">
 	import type { Snippet } from 'svelte';
@@ -21,6 +22,10 @@
 		checkLabel: string;
 		canEdit: boolean;
 		busy?: boolean;
+		/** The title is the box's label: a tap on it ticks the row (the Bag). False for tasks. */
+		titleTicks?: boolean;
+		/** The box cannot be ticked here (a task that follows its steps). */
+		locked?: boolean;
 		/** Chips and the quantity after the title. */
 		extra?: Snippet;
 		/** Extra classes for the row (a card of its own in a masonry list). */
@@ -38,6 +43,8 @@
 		checkLabel,
 		canEdit,
 		busy = false,
+		titleTicks = true,
+		locked = false,
 		extra,
 		class: className,
 		ontoggle,
@@ -61,7 +68,7 @@
 			id={boxId}
 			aria-label={checkLabel}
 			class="size-5"
-			disabled={!canEdit || busy}
+			disabled={!canEdit || busy || locked}
 			bind:checked={
 				() => checked,
 				() => {
@@ -78,14 +85,23 @@
 	</div>
 	<div class="flex min-w-0 flex-1 flex-col gap-1">
 		<div class="flex flex-wrap items-center gap-x-2 gap-y-1">
-			<label
-				for={boxId}
-				class={cn(
-					'leading-6 font-medium transition-colors duration-200',
-					canEdit && !busy && 'cursor-pointer',
-					checked && 'text-muted-foreground line-through decoration-ink-3/40',
-				)}>{title}</label
-			>
+			{#if titleTicks}
+				<label
+					for={boxId}
+					class={cn(
+						'leading-6 font-medium transition-colors duration-200',
+						canEdit && !busy && 'cursor-pointer',
+						checked && 'text-muted-foreground line-through decoration-ink-3/40',
+					)}>{title}</label
+				>
+			{:else}
+				<span
+					class={cn(
+						'leading-6 font-medium transition-colors duration-200',
+						checked && 'text-muted-foreground line-through decoration-ink-3/40',
+					)}>{title}</span
+				>
+			{/if}
 			{@render extra?.()}
 		</div>
 		{#if note}

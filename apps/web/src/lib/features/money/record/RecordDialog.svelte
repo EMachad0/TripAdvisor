@@ -16,6 +16,7 @@
 	import { Textarea } from '#lib/components/ui/textarea/index.js';
 	import { write } from '#lib/sync/write.js';
 	import { cn } from '#lib/utils.js';
+	import { plural } from '../model.ts';
 	import type { TripData } from '../trip-docs.ts';
 	import {
 		bagCategories,
@@ -50,6 +51,18 @@
 		return trip[target.col].find((d) => d.id === id) ?? null;
 	});
 	const exists = $derived(doc !== null);
+	// A task that belongs to another one is a step.
+	const isStep = $derived(
+		target?.col === 'tasks' &&
+			(target.preset?.['parent'] !== undefined ||
+				(typeof doc?.['parent'] === 'string' && doc['parent'] !== '')),
+	);
+	const stepCount = $derived(
+		target?.col === 'tasks' && doc !== null
+			? trip.tasks.filter((t) => t['parent'] === doc.id).length
+			: 0,
+	);
+	const noun = $derived(isStep ? 'step' : (schema?.name ?? ''));
 	const categories = $derived(target?.col === 'bag' ? bagCategories(trip.bag) : []);
 	const listId = 'record-bag-categories';
 
@@ -78,7 +91,7 @@
 		event.preventDefault();
 		if (target === null || schema === null) return;
 		// Read everything before close(): closing clears `target`, and `exists` with it.
-		const { col } = target;
+		const { col, preset } = target;
 		const editing = exists;
 		const id = col === 'settings' ? 'main' : editing ? target.id : null;
 		const result = submitData(schema, values, editing ? initial : null);
@@ -91,7 +104,7 @@
 		const outcome = await write('trip.write', {
 			col,
 			op: editing ? 'update' : 'set',
-			data: result.data,
+			data: editing ? result.data : { ...result.data, ...preset },
 			...(id === null ? {} : { id }),
 		});
 		if (outcome.ok) toast.success(editing ? 'Saved' : 'Added');
@@ -132,7 +145,7 @@
 			<Dialog.Header>
 				<Dialog.Title>
 					<span class="font-serif text-2xl font-semibold tracking-tight"
-						>{exists ? 'Edit' : 'Add'} {schema.name}</span
+						>{exists ? 'Edit' : 'Add'} {noun}</span
 					>
 				</Dialog.Title>
 				<Dialog.Description class="sr-only">
@@ -172,6 +185,9 @@
 									bind:value={values[f.key]}
 								/>
 							{/if}
+							{#if f.hint !== undefined}
+								<Field.FieldDescription>{f.hint}</Field.FieldDescription>
+							{/if}
 						</Field.Field>
 					{/each}
 				</Field.FieldGroup>
@@ -187,7 +203,9 @@
 						>
 						{#if delArmed}
 							<span class="text-sm text-muted-foreground" role="status"
-								>Tap Delete again to remove it.</span
+								>{stepCount > 0
+									? `Tap Delete again to remove it and its ${plural(stepCount, 'step')}.`
+									: 'Tap Delete again to remove it.'}</span
 							>
 						{/if}
 					{/if}

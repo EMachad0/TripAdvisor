@@ -230,6 +230,56 @@ describe('trip.write (form shaping)', () => {
 	});
 });
 
+describe('trip.write (task steps)', () => {
+	const statusOf = async (id: string) =>
+		(await w.owner.query(api.trip.all, {})).tasks.find((t) => t.id === id)?.['status'];
+
+	test('a task takes its status from its steps', async () => {
+		await write('tasks', 'set', 'visa', { title: 'Visa', opens: '2026-12-30', due: '2027-01-02' });
+		await write('tasks', 'set', 's1', { title: 'Form', parent: 'visa' });
+		await write('tasks', 'set', 's2', { title: 'Screenshot', parent: 'visa' });
+		expect(await statusOf('visa')).toBeUndefined();
+		await write('tasks', 'update', 's1', { status: 'done' });
+		expect(await statusOf('visa')).toBe('doing');
+		await write('tasks', 'update', 's2', { status: 'done' });
+		expect(await statusOf('visa')).toBe('done');
+		expect(
+			(await w.owner.query(api.trip.all, {})).tasks.find((t) => t.id === 'visa'),
+		).toMatchObject({ done: true, opens: '2026-12-30', due: '2027-01-02' });
+		await write('tasks', 'update', 's2', { status: 'todo' });
+		expect(await statusOf('visa')).toBe('doing');
+		await write('tasks', 'delete', 's2');
+		expect(await statusOf('visa')).toBe('done');
+	});
+
+	test('deleting a task deletes its steps', async () => {
+		await write('tasks', 'set', 'a', { title: 'A' });
+		await write('tasks', 'set', 'a1', { title: 'A1', parent: 'a' });
+		await write('tasks', 'set', 'b', { title: 'B' });
+		await write('tasks', 'delete', 'a');
+		expect((await w.owner.query(api.trip.all, {})).tasks.map((t) => t.id)).toEqual(['b']);
+	});
+
+	test('steps are one level deep and need their task', async () => {
+		await write('tasks', 'set', 'a', { title: 'A' });
+		await write('tasks', 'set', 'a1', { title: 'A1', parent: 'a' });
+		expect(await messageOf(write('tasks', 'set', 'x', { title: 'X', parent: 'gone' }))).toBe(
+			'no tasks document "gone"',
+		);
+		expect(await messageOf(write('tasks', 'set', 'x', { title: 'X', parent: 'a1' }))).toBe(
+			'a step cannot have steps of its own',
+		);
+		expect(await messageOf(write('tasks', 'update', 'a', { parent: 'a' }))).toBe(
+			'a task cannot be a step of itself',
+		);
+		await write('tasks', 'set', 'b', { title: 'B' });
+		expect(await messageOf(write('tasks', 'update', 'a', { parent: 'b' }))).toBe(
+			'a task with steps cannot become a step',
+		);
+		expect(await countRows(w.t, 'tripTasks')).toBe(3);
+	});
+});
+
 describe('trip.bagUntickAll', () => {
 	test('unpacks every packed item in one call', async () => {
 		await write('bag', 'set', 'a', { item: 'A', packed: true });

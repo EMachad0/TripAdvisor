@@ -43,6 +43,10 @@ export interface TodayTask {
 	done: boolean;
 	order: number;
 	suggested: boolean;
+	/** The task this one is a step of ('' for a task). */
+	parent: string;
+	opens: string;
+	due: string;
 }
 
 export type Model = TodayModel<TripLeg, TodayPlace, TodayTask, TripDay>;
@@ -59,6 +63,9 @@ export function todayTasks(docs: readonly TripDoc[]): TodayTask[] {
 			done: status === 'done',
 			order: num(x, 'order'),
 			suggested: flag(x, 'suggested'),
+			parent: str(x, 'parent'),
+			opens: str(x, 'opens'),
+			due: str(x, 'due'),
 		};
 	});
 }

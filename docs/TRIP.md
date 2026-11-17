@@ -79,3 +79,8 @@ The trip page is part of the site (https://trip.187.53.115.237.sslip.io: Today, 
 - `visited` has one document per place the traveler ticked as been (`id` = place id).
 - Days per country in the Money page come from `config/trip.yaml`, not from the `budget` collection.
 - When a booking changes, update `legs` (and `tasks`, `fixed`) with `./atr trip update|set` together with this file.
+- Tasks (the To do page). Fields: `title`, `note`, `status` (`todo`, `doing`, `done`), `opens` and `due` (`YYYY-MM-DD`: the first day it can be done and the last day to do it), `parent`, `suggested`, `order`. How to write one:
+  - Give every task with a deadline a `due`, and an `opens` when it cannot be done earlier (a form that only opens days before a flight). The page sorts open tasks by these dates and shows "Due Sat 21 Nov · 4 days left" or "Opens Wed 30 Dec, until Sat 2 Jan".
+  - A task with more than one thing to do gets steps: one task per step, with `parent` set to the task's id (`./atr trip set tasks tdac-fill --data '{"parent":"tdac","title":"Fill in the form"}'`). Steps are one level deep. The task takes its status from its steps, so never set the status of a task that has steps. Deleting a task deletes its steps.
+  - Titles say what to do, short ("Send the Thailand arrival card (TDAC)"). The date goes in `opens` and `due`, not in the title.
+  - Notes are short lines. Start a line with `- ` for a list. Put every code to copy in backticks (flight numbers, booking references, approval numbers, phone numbers); the page shows it as a chip that copies on a tap. `**words**` stand out. Write dates as the site does ("Sat 2 Jan", "17 Nov") and every clock time with its UTC offset ("17:15 UTC+7"); the page sets dates, times and amounts of money apart by itself.

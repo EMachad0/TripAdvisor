@@ -50,6 +50,11 @@ export interface Task {
 	readonly status?: string | undefined;
 	readonly done?: boolean | undefined;
 	readonly order?: number | undefined;
+	/** The task this one is a step of. */
+	readonly parent?: string | undefined;
+	/** YYYY-MM-DD: first day it can be done, and the last day to do it. */
+	readonly opens?: string | undefined;
+	readonly due?: string | undefined;
 }
 
 export interface DayDoc {

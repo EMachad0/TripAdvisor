@@ -21,6 +21,12 @@ export const tripTasks = defineTable({
 	suggested: bool(),
 	/** Mirrors status === 'done' (written by the form). */
 	done: bool(),
+	/** The id of the task this one is a step of. A task with steps takes its status from them. */
+	parent: str(),
+	/** YYYY-MM-DD: the first day it can be done (a form that only opens days before a flight). */
+	opens: str(),
+	/** YYYY-MM-DD: the last day to do it. */
+	due: str(),
 }).index('by_doc_id', ['id']);
 
 export const tripLegs = defineTable({

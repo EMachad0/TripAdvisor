@@ -62,8 +62,10 @@ export function tripSchema(
 			name: 'task',
 			fields: [
 				f('title', 'Task', 'text', { full: true }),
-				f('note', 'Notes', 'textarea', { full: true }),
 				f('status', 'Status', 'select', { options: opts('todo=To do,doing=In progress,done=Done') }),
+				f('opens', 'Opens on (first day)', 'date'),
+				f('due', 'Do by (last day)', 'date'),
+				f('note', 'Notes', 'textarea', { full: true }),
 			],
 		},
 		legs: {
