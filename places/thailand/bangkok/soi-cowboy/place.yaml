@@ -137,5 +137,7 @@ blocks:
     wear: "Shorts or light trousers, T-shirt, closed shoes or decent sandals"
   - type: pairs_well
     items:
+      - { id: nana-plaza, note: "One BTS stop west: the enclosed three-floor version, denser and more varied" }
       - { id: patpong-night-market, note: "Second red-light strip, with a market for cover" }
       - { id: khao-san-road-night, note: "The backpacker party street, for another weekend night" }
+      - { id: thermae-cafe, note: "About 500 m west: a basement freelancer bar, no stage and no bar fine" }

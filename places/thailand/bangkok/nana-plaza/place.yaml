@@ -1,0 +1,155 @@
+id: nana-plaza
+name: "Nana Plaza"
+name_local: นานาพลาซ่า
+name_romanized: Nana Phlaza
+country: thailand
+city: bangkok
+area: "Nana · Sukhumvit Soi 4"
+category: nightlife
+fame: popular
+must_do: red-light-district
+must_do_note: "The third strip on your list, next to Soi Cowboy and Patpong: an enclosed three-floor plaza, not a street"
+tags: [red-light-district, go-go-bar, ladyboy-bar, neon, weekend-night]
+kind: Do
+why: "A three-floor horseshoe of around 30 go-go bars round a beer-bar courtyard, 300 m from BTS Nana. Denser and louder than Soi Cowboy, with no street to step into."
+
+cost:
+  local: 160
+  currency: THB
+  brl: 26.38
+  note: "One beer in a go-go bar (2026 guides: ฿150–200). Entry is free; ฿99–110 happy-hour beers at some bars"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1–1.5 h"
+best_time: "Sat 9 Jan, 20:30–22:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Most bars 19:00–03:00, every night (some 20:00–02:00); busiest 22:00–midnight. The building closes at 03:00"
+  winter: "January is high season (a Nov 2026 report says the bars are “roaring”). No seasonal closures found. Several bars are closed or being merged and refitted in late 2026, so expect a few dark doorways."
+
+location:
+  address: "3-3/1 Sukhumvit Soi 4 (Soi Nana), Khlong Toei, Bangkok 10110"
+  address_local: "นานาพลาซ่า 3-3/1 ซอยสุขุมวิท 4 (ซอยนานา) แขวงคลองเตย เขตคลองเตย กรุงเทพฯ 10110"
+  lat: 13.74148
+  lng: 100.55303
+  nearest_transit: "BTS Nana Exit 3, about 5 min (300 m) down Soi 4"
+
+sources:
+  - url: https://en.wikipedia.org/wiki/Nana_Plaza
+    title: "Nana Plaza: building, history, owners, 03:00 closing (Wikipedia)"
+    checked: 2026-11-16
+  - url: https://www.southeastasiasimplified.com/blog/entertainment-11/nana-plaza-bangkok-what-to-know-before-you-visit-2026-143
+    title: "Nana Plaza Bangkok: what to know before you visit, 2026 (Southeast Asia Simplified)"
+    checked: 2026-11-16
+  - url: https://theo-courant.com/en/bangkok-nana-plaza-red-light-district/
+    title: "Nana Plaza Bangkok: hours and prices (Theo Courant, 8 Mar 2026)"
+    checked: 2026-11-16
+  - url: https://davetheravebangkok.com/nana-plaza-bars-2026-27/
+    title: "High season 2026: Nana Plaza bars expanding, new owners (Dave the Rave, 7 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://davetheravebangkok.com/no-photos-and-video/
+    title: "Nana Plaza, Soi Cowboy crack down on photos and video (Dave the Rave, 30 Jun 2023)"
+    checked: 2026-11-16
+  - url: https://www.khaosanroad.com/articles/party-streets-in-bangkok-khao-san-sukhumvit-rca-patpong
+    title: "Top party streets in Bangkok: Nana Plaza vs Soi Cowboy (khaosanroad.com, 15 Mar 2026)"
+    checked: 2026-11-16
+  - url: https://thaiest.com/thailand/bangkok/nana-plaza
+    title: "Nana Plaza: floors, bars and ladyboy bars (Thaiest, updated 6 Nov 2025)"
+    checked: 2026-11-16
+  - url: https://www.thaiholidayguide.com/bangkok-nightlife/
+    title: "Bangkok nightlife: scams to avoid around Nana and Patpong (Thai Holiday Guide)"
+    checked: 2026-11-16
+  - url: https://thethaiger.com/news/bangkok/fifteen-women-arrested-in-bangkok-raid-on-prostitution-charges
+    title: "Police raid on Sukhumvit Soi 4, 28 May 2025 (The Thaiger)"
+    checked: 2026-11-16
+  - url: https://www.nationthailand.com/news/general/40072609
+    title: "Tourist Police hotline 1155, 24 h, eight languages (Nation Thailand)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Prices are from 2026 guides and differ by bar (beer ฿150–220); happy-hour prices are from one Nov 2026 report. The photo ban and bag checks are from a 2023 report; 2026 guides still say no photos. Hours differ per bar. Nothing specific to Sat 9 Jan 2027."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: courtyard-2025
+    hook: "Three storeys of neon wrapped round one courtyard: every doorway is a bar, and the only way out is the way you came in."
+    caption: "The courtyard from an upper walkway, November 2025"
+  - type: quick_facts
+    time_needed: "1–1.5 h"
+    best_time: "Sat 9 Jan, 20:30–22:00"
+    extra:
+      - { label: Slot, value: "Sat 9 Jan only", detail: "Work nights Mon–Fri 19:00–04:00; Jan 2–3 are Chiang Mai" }
+      - { label: Size, value: "3 floors, ~30 bars", detail: "Beer bars downstairs, go-go bars above, a rooftop bar" }
+      - { label: Entry, value: "Free", detail: "You pay per drink; no cover found in 2026 guides" }
+  - type: highlights
+    items:
+      - title: Bigger and denser than Soi Cowboy
+        text: "Soi Cowboy is one open 150 m lane. Nana is a **closed, U-shaped building** with about 30 go-go bars on three floors round a courtyard of beer bars, so the bars are stacked, not lined up."
+      - title: The most varied of the three strips
+        text: "Ground-floor beer bars, go-go bars upstairs, a rooftop bar (Billboard), and the city's **biggest choice of ladyboy bars**. A new ladyboy go-go (Rainbow 2) is due to reopen in late November 2026."
+      - title: Watch from the courtyard
+        text: "The ground-floor beer bars are where the pressure is lowest: sit with one drink and look up at three floors of neon. You don't need to climb the stairs at all."
+      - title: Changing as you read
+        text: "A November 2026 report has bars changing hands, two bars being knocked into one, and a rename (Mandarin is now Red Dragon). It started as a shopping centre in 1983."
+  - type: prose
+    title: Nana or Soi Cowboy?
+    dropcap: true
+    text: |-
+      You have **one free night in Bangkok, Saturday 9 January**: you arrive around Tue 5 or Wed 6 Jan, every weeknight is a work night from 19:00 to 04:00, and the weekend of 2–3 January is in Chiang Mai. So this is a one-shot plan.
+
+      If you only do one, the 2026 guides point to **Soi Cowboy**: Southeast Asia Simplified calls it "smaller and easier", the gentler first look, while khaosanroad.com sums up Nana as "people-watching on hard mode". Soi Cowboy is an open street you can walk through and leave. At Nana, hostesses work the stairwells between floors and the enclosed courtyard makes the drink pitch harder to avoid. Pick Nana instead if you are going with people from your hostel and want the bigger, more varied version, ladyboy bars included.
+
+      You don't have to choose: they are **one BTS stop apart** (Nana to Asok). Do Nana first at happy hour, around 20:30, then ride one stop to Soi Cowboy before 22:00. Your flight to Singapore is the next afternoon.
+
+      Inside a go-go bar, staff will suggest a **lady drink**, a drink you buy for a hostess. It is optional and saying no is normal. You will also see **bar fines** on price boards: a fee paid to the bar (from about ฿600, sometimes over ฿1,000) so a staff member can leave work early with a customer. A watcher never pays one.
+  - type: gallery
+    images:
+      - { file: entrance-sign, caption: "The entrance sign on Soi 4, with the Lumpini police safety-zone board" }
+      - { file: enter-sign, caption: "An upper walkway by day" }
+      - { file: shrine-daytime, caption: "The courtyard shrine, before opening time" }
+  - type: cost_breakdown
+    items:
+      - { label: "Entry to the plaza", local: 0, brl: 0 }
+      - { label: "One beer in a go-go bar", local: 160, brl: 26.38, estimate: true }
+      - { label: "A second beer", local: 160, brl: 26.38, optional: true, estimate: true }
+      - { label: "A lady drink, if you buy one", local: 200, brl: 32.98, optional: true, estimate: true }
+  - type: menu
+    title: What things cost (2026)
+    items:
+      - { name: "Beer, typical go-go bar", price_local: 160, price_brl: 26.38, note: "฿150–200; ฿160 posted at Billboard", tag: drink }
+      - { name: "Happy-hour local beer", price_local: 99, price_brl: 16.33, note: "Tycoon a-Go-Go until 23:00; ฿100–110 at Orbit", tag: cheap }
+      - { name: "Soft drink", price_local: 140, price_brl: 23.09, note: "฿120–165", tag: drink }
+      - { name: "Lady drink", price_local: 200, price_brl: 32.98, note: "฿150–250 by venue, always optional", tag: drink }
+    note: "Check the price board before you sit and pay per round. Bar fines (from ~฿600) are paid to the bar, not the person."
+  - type: map
+    note: "From **BTS Nana**, take Exit 3 and walk about 5 min (300 m) down **Sukhumvit Soi 4**. **Soi Cowboy** is one BTS stop east (Asok)."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: Sat 9 Jan**, your only free night in Bangkok."
+      - "Go at **20:30**: happy-hour beers (฿99–110 at some bars until 23:00) and room to sit before the 22:00 crowd."
+      - "Not Soi Nana in Chinatown: tell drivers **Nana Plaza, Sukhumvit Soi 4**."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**No photos or video anywhere in the plaza**, not just inside the bars. Signs are posted and bags have been checked at the gate; one 2026 guide says trying will cause \"a direct confrontation\". Take your photo of the entrance sign from Soi 4."
+      - "Anyone outside offering **\"free drinks\" or a \"special show\"** is running a scam; Thai Holiday Guide reports bills of **฿5,000–20,000**. Don't follow anyone \"somewhere better\"."
+      - "Soi 4 outside the plaza has street sex work and police sweeps (e.g. 15 detained on 28 May 2025). Say no firmly and keep walking."
+      - "Trouble with a bill? Call the **Tourist Police on 1155** (24 h, English)."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: warm, clear nights"
+    note: "January evenings are the most comfortable of the year, in the mid-20s °C. Rain is unlikely."
+    wear: "Shorts or light trousers, T-shirt, closed shoes or decent sandals"
+  - type: pairs_well
+    items:
+      - { id: soi-cowboy, note: "The open-street strip, one BTS stop away: do both on Sat 9 Jan" }
+      - { id: thermae-cafe, note: "Sukhumvit Soi 15, about 10 min away" }
+      - { id: patpong-night-market, note: "The third strip, in Silom, with a night market" }

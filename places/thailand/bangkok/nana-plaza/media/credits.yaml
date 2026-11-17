@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: courtyard-2025
+  title: File:Nana Plaza Bangkok November 2025.jpg
+  author: Srspdx
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nana_Plaza_Bangkok_November_2025.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Nana_Plaza_Bangkok_November_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nana Plaza in the red light district at night in November 2025
+  width: 4096
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: entrance-sign
+  title: File:Nana Plaza entrance sign Bangkok 2017.jpg
+  author: FritzDaCat
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nana_Plaza_entrance_sign_Bangkok_2017.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4f/Nana_Plaza_entrance_sign_Bangkok_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nana Plaza entrance sign
+  width: 5344
+  height: 3008
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: enter-sign
+  title: File:Nana Plaza, Bangkok (45328669962).jpg
+  author: Blemished Paradise
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nana_Plaza,_Bangkok_(45328669962).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9b/Nana_Plaza%2C_Bangkok_%2845328669962%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Early monday afternoon, outside opening hours at "The World's Largest Adult Playground".
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: shrine-daytime
+  title: File:Nana Plaza, Bangkok (43562402000).jpg
+  author: Blemished Paradise
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nana_Plaza,_Bangkok_(43562402000).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/45/Nana_Plaza%2C_Bangkok_%2843562402000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Early monday afternoon, outside opening hours at "The World's Largest Adult Playground".
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
