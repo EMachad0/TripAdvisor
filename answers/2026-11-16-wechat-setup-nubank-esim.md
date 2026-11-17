@@ -1,38 +1,55 @@
 ---
 question: "How do I set up WeChat on my Galaxy Fold when I have a Nubank eSIM, Chinese pages time out and I can't send or receive SMS with China?"
 asked: 2026-11-16
+updated: 2026-11-17
 about: china
-tldr: "The Nubank eSIM is the blocker, not the phone: the travel eSIM is data only (no number), and the NuCel line is reported to have no service outside Brazil. Sign up in Brazil, on Wi-Fi, with a number that does get foreign SMS (a prepaid chip from another carrier works), then have an existing WeChat user scan the sign-up QR code. Finish before flying (as of Nov 2026)."
+tldr: "Solved with a Vivo prepaid chip in the physical SIM tray: WeChat sent its code to that number and sign-up worked in Brazil (Nov 2026). Travel eSIMs, including Nubank's NuRoaming, Holafly and CUniq travel cards, are data only and have no number. Keep the number on the chip and the data on eSIMs."
 sources:
-  - title: "WeChat Help Center: not receiving the SMS verification code"
-    url: https://cs.help.wechat.com/hc/en-us/articles/11917211993487-What-should-I-do-if-I-don-t-receive-the-SMS-verification-code-when-logging-in
+  - title: "Vivo: international roaming (SMS received abroad is free)"
+    url: https://vivo.com.br/para-voce/produtos-e-servicos/para-o-celular/roaming-internacional
+  - title: "CUniq HK eSIM store (travel cards)"
+    url: https://esim.cuniq.com/en
+  - title: "Holafly: eSIM China (no phone number included)"
+    url: https://esim.holafly.com/esim-china/
+  - title: "Nubank: Ultravioleta travel eSIM, 10 GB"
+    url: https://international.nubank.com.br/pt-br/consumidores/nubank-ultravioleta-amplia-beneficio-do-esim-de-viagem-com-10-gb-que-nao-expiram-e-renovacao-anual-automatica/
   - title: "Tecnoblog: how NuCel works (no international roaming)"
     url: https://tecnoblog.net/responde/como-funciona-a-nucel-o-que-voce-precisa-saber-antes-de-contratar/
-  - title: "Nubank: travel eSIM (eSIM internacional)"
-    url: https://nubank.com.br/ultravioleta/conta-global/esim-internacional
-  - title: "Sinorbis: how to sign up for a WeChat personal account (helper rules)"
-    url: https://www.sinorbis.com/how-to-sign-up-for-a-wechat-personal-account
-  - title: "RealChinaTrip: WeChat setup guide for tourists (2026)"
-    url: https://realchinatrip.com/blogs/tips/wechat-setup-guide-tourists
+  - title: "SamMobile: Galaxy Z8 series SIM support"
+    url: https://www.sammobile.com/news/galaxy-z8-series-does-not-support-dual-physical-sim-cards/
+  - title: "ChinaNeighbor: China eSIM with phone number (2026)"
+    url: https://chinaneighbor.com/guide/essentials/china-esim-with-phone-number/
+  - title: "WeChat Help Center: not receiving the SMS verification code"
+    url: https://cs.help.wechat.com/hc/en-us/articles/11917211993487-What-should-I-do-if-I-don-t-receive-the-SMS-verification-code-when-logging-in
 ---
-**Why it fails.** WeChat ties the account to a phone number and checks it by SMS: usually a code sent to you, sometimes a text you must send to a Chinese number. Nubank has two eSIMs and neither is good at this:
+**What worked.** WeChat ties the account to a phone number and checks it by SMS. A Vivo prepaid chip, bought in Brazil and put in the Fold's nano-SIM tray, received the code and the sign-up went through on Nov 17, 2026. The two Nubank lines could not do it: NuRoaming (the Ultravioleta travel eSIM) is data only with no number, and SMS with China did not work on the Nubank setup.
 
-- **Travel eSIM (Conta Global / Ultravioleta):** data only. It has no phone number, so no SMS in either direction, ever.
-- **NuCel (the Brazilian line):** Tecnoblog reports it has no international roaming, so calls, SMS and data stop outside Brazil. Whether it blocks SMS to and from foreign numbers while in Brazil is not confirmed; ask Nubank support in the app.
+**Why a chip and not an eSIM.** Almost no travel eSIM comes with a number:
 
-**Steps, in Brazil, before the flight.**
+- **Holafly:** its China page says the eSIM does not include a phone number for calls or texts. About US$76.50 for 30 days.
+- **CUniq travel cards (China Unicom Hong Kong):** the product page lists "Voice/SMS: N/A".
+- **Mainland +86 SIM:** needs the passport and a face scan in person in China, so it cannot be bought from Brazil.
 
-1. Use home Wi-Fi, not the eSIM. Turn off any VPN, and set Settings › Connections › More connection settings › Private DNS to Automatic (ad-blocking DNS often breaks Chinese domains). This is the likely fix for the pages that time out, but it is a guess until tested.
-2. Install WeChat from the Play Store (publisher: WeChat International). Give it the SMS and phone permissions when asked.
-3. Sign up with a +55 number that receives foreign SMS. If the Nubank line does not, put a prepaid chip from Claro, Vivo or TIM in the physical SIM tray; the Fold takes one nano-SIM next to the eSIM.
-4. No code after a minute? Look in Messages › Settings › Block numbers and spam, then wait for the "voice call" option: WeChat's help page says the code can come by automated call.
-5. If WeChat asks you to *send* a text to a Chinese number and the line refuses, go back and start again on another network or the other SIM. The flow is not the same every time.
-6. Security check: WeChat shows a QR code that an existing user must scan from their own app. Guides disagree on the rules for that helper (account at least 1 month old for foreign accounts or 6 months for Chinese ones, and not having helped anyone else recently). Anyone you know with WeChat works.
-7. Straight after: Me › Settings › Account Security. Set a password and link an email, so later logins do not need an SMS.
-8. WeChat Pay: Me › Services › Wallet › Cards. Add the card and do the passport check. It can ask for an SMS code again, one more reason to finish at home.
+**The phone layout.** The Fold 8 Ultra takes one nano-SIM plus two eSIM profiles.
 
-**If it still fails.** Do the QR step in China: hotel front desk staff do this for guests all the time. Alipay covers payments in the meantime, so WeChat is not a blocker for arrival day.
+- **Nano-SIM tray:** Vivo prepaid, the number for WeChat, Alipay and any app that wants an SMS.
+- **eSIM 1:** NuCel, the Brazilian line. Tecnoblog reports it has no service abroad; keep it installed and switched off, never delete it.
+- **eSIM 2:** the data eSIM for wherever you are. NuRoaming at home and after China; a China data eSIM from Dec 6 to Jan 2.
 
-**What to remember for the trip.** With a Nubank line as the only number, no SMS code reaches the phone anywhere abroad. Do every SMS-dependent setup before leaving: WeChat, Alipay, bank and card 2FA. The data eSIM for the trip does not change this. Keep the prepaid chip topped up if it becomes the WeChat number, or the line expires.
+**Keep the Vivo line alive.** Vivo says SMS received abroad is free and that prepaid lines can be used outside Brazil; reception in China or Japan was not tested. Ask Vivo to enable international roaming before leaving and top up just before the flight so the line does not lapse. In WeChat, go to Me › Settings › Account Security, set a password and link an email, so a later login does not depend on an SMS.
 
-Avoid paid "virtual number" sites for the code: the number is shared or recycled, so someone else can take the account later.
+**Data in China: CUniq "Chinese Mainland and Macau" card.** Roaming data leaves China before it reaches the internet, so the firewall does not apply and no VPN is needed. Prices seen on Nov 16, 2026 (1 HKD = R$ 0,7271, ECB reference rate of Nov 16):
+
+- 20 GB, 30 days: HK$160 (≈ R$ 116)
+- 24 GB, 180 days: HK$110 (≈ R$ 80)
+- 50 GB, 90 days: HK$226 (≈ R$ 164), the pick if the laptop is tethered on work nights
+- 50 GB, 180 days: HK$250 (≈ R$ 182)
+
+Rules on its product page:
+
+- It cannot be topped up, and it cannot be activated inside mainland China. Activate it in a listed region first; Brazil is on the list. Once in China there is no way to add data or start a second card, so buy enough.
+- Activating early does not start the validity. The count begins on first data use in China, or by itself 30 days after activation. For a Dec 6 landing, activate on or after Nov 7.
+
+**Data in the other countries.** NuRoaming gives 10 GB across 150+ countries, usable over 12 months; extra packages are paid. Jan 2 to Feb 9 is 38 days, about 260 MB a day: enough for maps and messages when work runs on lodging Wi-Fi, not enough for tethering. Before removing NuRoaming to make room for the China eSIM, check in the Nubank app that it can be reinstalled with the balance intact (not confirmed). CUniq's "Asia" card (10 GB, 30 days, HK$94 ≈ R$ 68) covers Japan, Korea, Singapore and Thailand but not mainland China or Hong Kong. A physical tourist SIM is no longer an easy fallback, because the tray holds the Vivo chip.
+
+**Still to do.** WeChat Pay: Me › Services › Wallet › Cards, add a card and do the passport check. Do Alipay with the same Vivo number while still in Brazil.
