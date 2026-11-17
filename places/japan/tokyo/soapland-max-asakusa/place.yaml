@@ -1,0 +1,156 @@
+id: soapland-max-asakusa
+name: "Soapland MAX, Asakusa"
+short_name: MAX Asakusa
+name_local: ソープランドMAX 浅草
+country: japan
+city: tokyo
+area: "Asakusa · Rokku"
+category: odd-local
+fame: hidden
+tags: [adult, soapland, value, weekday-afternoon, weekend-night]
+kind: Do
+why: "The value way into a Japanese soapland: 60 min for ¥37,000 a short walk from Senso-ji, on the foreigner-welcome portal, with Oct–Nov 2026 reviews."
+
+cost:
+  local: 37000
+  currency: JPY
+  brl: 1322.75
+  note: "60 min, the venue's listed fare. 80 min ¥49,000. No nomination fee or surcharge listed: confirm the total in chat"
+fx: { rate: 0.03575, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1.5–2 h with the walk"
+best_time: "Weekday afternoon, after Senso-ji"
+
+book_ahead:
+  required: recommended
+  lead_days: 0
+  lead_time: "Message the venue before you walk over"
+  method: app
+  links:
+    - label: "Venue page: Multilingual Chat button"
+      url: "https://yoasobi-heaven.com/en/tokyo/YA1303/max-as/?of=y"
+      note: "Tap Multilingual Chat on the venue's page (the chat opens only from there); write in English"
+    - label: "MAX Asakusa on LINE"
+      url: "https://lin.ee/xU3lAMd"
+      note: "The LINE link on the venue's page; KakaoTalk ID soaplandmax"
+  notes: "The venue's page lists chat, LINE, KakaoTalk and mail as contacts and says nothing about walk-ins, so message first to check who is working and confirm the total."
+
+hours:
+  summary: "Daily 08:00–23:59, open all year (venue's page)"
+  winter: "The venue says it is open all year round and lists no holiday hours, so your Tokyo days (Wed 20 – Thu 28 Jan) are normal days. Indoors, a couple of minutes from the station."
+
+location:
+  address: "2-11-14 Asakusa, Taito-ku, Tokyo"
+  address_local: "東京都台東区浅草2-11-14"
+  lat: 35.7139
+  lng: 139.79288
+  approximate: true
+  nearest_transit: "Asakusa (Tsukuba Express), Exit A1, about 2 min on foot (by map)"
+
+sources:
+  - url: https://yoasobi-heaven.com/en/tokyo/YA1303/max-as/?of=y
+    title: "SOAP LAND MAX on YOASOBI HEAVEN (foreigner-welcome listing): prices, hours, address, payment, chat and LINE"
+    checked: 2026-11-17
+  - url: https://yoasobi-heaven.com/en/tokyo/YA1303/max-as/review/?of=y
+    title: "SOAP LAND MAX reviews on YOASOBI HEAVEN: visits by foreign customers, Oct–Nov 2026"
+    checked: 2026-11-17
+  - url: https://www.max-as.com/
+    title: "ソープランドMAX 浅草 official site (age gate linking to its English, Chinese and Korean YOASOBI HEAVEN pages)"
+    checked: 2026-11-17
+  - url: https://camikaze.cc/soapland/foreigner-friendly-soaplands-tokyo/
+    title: "Foreigner-friendly soaplands in Tokyo: MAX Asakusa behind Asakusa Don Quijote (Camikaze, updated Jul 2026)"
+    checked: 2026-11-17
+  - url: https://www.openstreetmap.org/?mlat=35.71355&mlon=139.79257#map=17/35.71355/139.79257
+    title: "Tsukuba Express Asakusa station, Exit A1 (OpenStreetMap)"
+    checked: 2026-11-17
+  - url: https://unseen-japan.com/soaplands-japan-legal-foreigners/
+    title: "Soaplands explained: are they legal, and can foreigners go? (Unseen Japan, Aug 2026)"
+    checked: 2026-11-17
+  - url: https://en.wikipedia.org/wiki/Prostitution_in_Japan
+    title: "Prostitution in Japan: the 1956 law, the Entertainment Business Act, foreigner bans (Wikipedia)"
+    checked: 2026-11-17
+  - url: https://coki.jp/article/column/87798/
+    title: "吉原高級ソープ「ルーブル」摘発、5人逮捕 (coki, 24 Jun 2026)"
+    checked: 2026-11-17
+  - url: https://www.hrw.org/news/2026/10/24/japan-should-stop-punishing-sex-workers
+    title: "Japan should stop punishing sex workers: the 2026 Justice Ministry panel and an expected reform bill (Human Rights Watch, 24 Oct 2026)"
+    checked: 2026-11-17
+  - url: https://www.gov.uk/foreign-travel-advice/japan/safety-and-security
+    title: "Japan travel advice, safety and security: drink spiking, Kabukicho, street touts (UK FCDO)"
+    checked: 2026-11-17
+  - url: https://yoasobi-heaven.com/en/tokyo/shop-list/biz4/?of=y
+    title: "YOASOBI HEAVEN: the 48 Tokyo soaplands listed as foreigner-friendly (Shinkaigyo in Kabukicho posts 60 min at ¥37,000)"
+    checked: 2026-11-17
+  - url: https://max-s.world/
+    title: "MAX Shinjuku, the Kabukicho branch: English site, 60 min ¥40,000"
+    checked: 2026-11-17
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals"
+    checked: 2026-11-17
+confidence: medium
+confidence_note: "Price, hours and payment icons from the venue's YOASOBI HEAVEN page (CityHeaven's foreigner portal; the official site only links there). The page lists no nomination fee and no foreigner surcharge but doesn't say there are none. Reviews there are the venue's own platform. Pin is the street address (block level). No free photo of the venue."
+last_updated: 2026-11-17
+
+blocks:
+  - type: hero
+    image: asakusa-rokku
+    caption: "Asakusa's Rokku entertainment blocks, around the corner (2009); no free photo of MAX"
+    hook: "Temple in the morning, bath house in the afternoon: Asakusa's one soapland is a short walk from Senso-ji."
+  - type: quick_facts
+    time_needed: "60 min session"
+    best_time: "Weekday afternoon"
+    extra:
+      - { label: Slot, value: "Any Tokyo day", detail: "Open 08:00–23:59 daily: Wed 20 – Thu 28 Jan (Osaka from Fri 29)" }
+      - { label: Type, value: "Soapland, value", detail: "Private bath and body massage, short course" }
+      - { label: Payment, value: "Cash or card", detail: "Both icons on the venue's page; card brands not listed" }
+  - type: highlights
+    items:
+      - title: A low posted price
+        text: "**¥37,000 for 60 minutes** (about R$1,323), tied with Shinkaigyo in Kabukicho for the lowest 60-min fare on the foreigner portal's Tokyo soapland list. Yoshiwara's high-end houses ask ¥60,000 and up for 90 min (Enishi)."
+      - title: Used to foreign first-timers
+        text: "Recent reviews from foreign visitors (Oct–Nov 2026: Mexico, Denmark, the US, the UK, Malaysia, Australia, Hong Kong and more) mention staff with **explanations in several languages**, a woman with the rules ready in English, translation apps for the rest."
+      - title: 25 years in Asakusa
+        text: "The venue calls itself **the only soapland in Asakusa**, open there for 25 years, on a back street behind the Don Quijote store (Camikaze)."
+      - title: No Kabukicho detour
+        text: "It's in the sightseeing district, steps from the **Tsukuba Express** exit, so it fits a Senso-ji day without a night in Kabukicho."
+  - type: prose
+    title: What a soapland is, and how this one compares
+    dropcap: true
+    text: |-
+      A soapland is a private bath room where a woman washes you and gives a body massage; Wikipedia files it under Japan's licensed, store-based sex businesses. Unseen Japan puts the average at about ¥30,000 for 70 minutes, with luxury houses at ¥85,000 or more for 120. Unseen Japan also says foreigner-friendly shops often add a "foreigner tax"; MAX's page lists none, so confirm.
+
+      At ¥37,000 it is still about eight days of your "everything else" budget, about one and a half times what Psyche Dream Spa cost in Bangkok. What you give up against Enishi in Yoshiwara: the costume, the longer session and the old pleasure quarter. What you get: a posted price, a central location and recent reviews from foreign first-timers.
+  - type: cost_breakdown
+    items:
+      - { label: "60 min course (listed fare)", local: 37000, brl: 1322.75 }
+      - { label: "80 min instead (difference)", local: 12000, brl: 429, optional: true }
+  - type: menu
+    title: Fares (venue page, Nov 2026)
+    items:
+      - { name: "60 min", price_local: 37000, price_brl: 1322.75, tag: cheap }
+      - { name: "80 min", price_local: 49000, price_brl: 1751.75, note: "A reviewer (Oct 2026) called 80 min plenty and the price reasonable" }
+    note: "The page shows no nomination fee or foreigner surcharge, but doesn't rule them out. Ask for the total in the chat before you go."
+  - type: map
+    note: "Tsukuba Express **Asakusa** station, Exit A1, is about 2 minutes away on the map; from Senso-ji it is a short walk west. Show the Japanese address to a taxi driver."
+  - type: tips
+    variant: insider
+    items:
+      - "Reviewers say the women use translation apps; one speaks English well. Ask in chat if language matters to you."
+      - "Unseen Japan says workers at many foreigner-friendly shops ask for a condom from the start, and Tokyo syphilis cases have risen four years running. Expect it."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** the 1956 Anti-Prostitution Act bans intercourse for payment but sets no penalty for the act; it punishes soliciting, procuring and providing a place. Soaplands are licensed under the Entertainment Business Act and sit in a tolerated grey zone."
+      - "**Enforcement hits shops:** police arrested five people at Yoshiwara's **Louvre** in June 2026 for providing a place for prostitution. A 2026 Justice Ministry panel backed rules on people who solicit to buy sex, and HRW says a reform bill is expected; clients face no penalty today."
+      - "Wikipedia says many shops refuse foreigners. Book here; don't try other doors on the way."
+      - "**MAX's Kabukicho branch** (¥40,000 for 60 min) is in the area the UK government says most British drink-spiking victims were targeted, often by English-speaking street touts. Never follow a tout to any venue."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold and dry
+    note: "Tokyo's January averages about 1 °C at night and 10 °C by day. Two minutes from the station, then indoors."
+    wear: "A warm jacket"
+  - type: pairs_well
+    items:
+      - { id: enishi-yoshiwara, note: "The premium option, about 1.2 km north in Yoshiwara" }
+      - { id: nui-hostel-kuramae, note: "Hostel base about 1.1 km south" }

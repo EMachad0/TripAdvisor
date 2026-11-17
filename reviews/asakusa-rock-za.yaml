@@ -1,0 +1,24 @@
+# Independent review of asakusa-rock-za. Written by `./atr review`; do not edit by hand.
+id: asakusa-rock-za
+type: place
+reviewed: 2026-11-17
+verdict: pass
+content_hash: a315f8afa31743e42b76cfa0c36b4a8c7e31899d3f542f8f2fdd6644e46b79a1
+facts:
+  supported: 7
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: location.nearest_transit
+    problem: The official page lists both stations, so they are right. No listed source gives the '5 min' walking time, and Asakusa Sta. (Tsukuba Express) is closer than Tawaramachi, so one time for both is a guess.
+    evidence: 'http://asakusa-rockza.com/?lang=en: "Tsukuba Express Line, Asakusa Line, Toubu Isesaki Line : Asakusa Sta. Tokyo Metro Ginza Line : Tawaramachi Sta." (no walking times)'
+    fix: Drop the minutes, or give a separate measured walking time for each station.
+resolved:
+  - field: blocks[2].items[0].title
+    problem: The title 'Where Japanese striptease began' and the prose line 'this is the theater that started the art form' are wrong. Japanese striptease began at Teito-za in Shinjuku in January 1947, and the first dance-based strip show was at Tokiwa-za. Rock-za is only the oldest theater still running.
+    evidence: "blocks[2].items[0].title is now 'The oldest strip theater still running', and blocks[3] now says 'this is the oldest strip theater still open'. Both match https://ja.wikipedia.org/wiki/浅草ロック座: \"現存するストリップ劇場では最大手にして最古である\"."
+rereview_of: 5e5f2708ba9eb117fe48fcf85facc9b6acee08f356295cd3215c8b72a6a15892
+summary: The earlier finding is fixed. The new contact-page source supports the 'strip club in a foreign movie' line and the dance styles. The Dana Yao review supports the AV-actress line and the ¥4,000 student rate with ID, and the official note 'Seniors and student need proof upon entry' backs up the student row. The only open point is the unsourced '5 min' walk, a nit, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.346

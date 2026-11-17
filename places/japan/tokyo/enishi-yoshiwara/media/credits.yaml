@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: yoshiwara-street
+  title: File:Modern Yoshiwara Tokyo.jpg
+  author: Chris 73
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Modern_Yoshiwara_Tokyo.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c9/Modern_Yoshiwara_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Modern day Yoshiwara (吉原), formerly a famous Akasen district (red-light district) in Tōkyō, Japan. Today, Yoshiwara roughly corresponds to Tokyo Taito-ku Senzoku 4 Chome (東京都台東千束４丁目, Tokyo Taito-ku Senzoku 4 Chome?).
+  width: 2592
+  height: 1944
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-17
+  origin: commons

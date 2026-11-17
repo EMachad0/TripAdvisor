@@ -1,0 +1,155 @@
+id: mitsuran-honkan-kyoto
+name: "Mitsuran Honkan"
+name_local: "三つ乱本館"
+name_romanized: "Mitsuran Honkan"
+country: japan
+city: kyoto
+area: "Kiyamachi · Kawaramachi"
+category: odd-local
+fame: hidden
+tags: [adult, fashion-health, imekura, premium, weekday-afternoon, weekday-night]
+kind: Do
+why: "Kyoto's kimono-themed health on Kiyamachi: meet the women in kimono, then pick. 50 min from ¥30,000 on the English page; ¥15,000 in Japanese."
+
+cost:
+  local: 30000
+  currency: JPY
+  brl: 1072.5
+  note: "50 min, one woman, English page (YOASOBI HEAVEN), cash. Japanese list: 55 min rotation ¥15,000. Nomination ¥3,000"
+fx: { rate: 0.03575, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "About 1.5 h, a minute from the station"
+best_time: "Tue 2 or Thu 4 Feb (Kyoto days; not Setsubun)"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "Non-members can phone-book from the day before"
+  method: platform
+  links:
+    - label: "YOASOBI HEAVEN English page"
+      url: "https://yoasobi-heaven.com/en/kyoto/A2601/mitsuran/"
+      note: "Linked as \"English\" from the official site: prices, web booking, multilingual chat"
+    - label: "Official site (Japanese)"
+      url: "https://mitsuonomise.com/system.php"
+      note: "Booking rules, house rules, STD testing; phone 075-241-0338"
+  notes: "The official site takes phone bookings from **the day before** for non-members and answers the phone from an hour before opening. The English page has a web request and a multilingual chat (LINE, WeChat, Kakao, WhatsApp)."
+
+hours:
+  summary: "Every day 06:00–24:00 (official site; English page: \"open all year round\")"
+  winter: "No seasonal changes listed; the English page says it is open all year round. Setsubun (Wed 3 Feb) isn't mentioned: the shop is open daily, but that day is better left to the festival."
+
+location:
+  address: "Top Hat Building 6F, 96-5 Shincho, Kiyamachi-dori Shijo-agaru, Shimogyo-ku, Kyoto"
+  address_local: "京都市下京区木屋町通四条上る真町96番地5 トップハットビル6階"
+  lat: 35.00397
+  lng: 135.76988
+  approximate: true
+  nearest_transit: "Hankyu Kyoto-Kawaramachi, about a minute; Keihan Gion-Shijo"
+
+sources:
+  - url: https://yoasobi-heaven.com/en/kyoto/A2601/mitsuran/
+    title: "Mitsuran Honkan on YOASOBI HEAVEN (the shop's English page): prices, cash only, STD testing, hours, address, reviews to Nov 2026"
+    checked: 2026-11-17
+  - url: https://mitsuonomise.com/
+    title: "三つ乱本館 official site: links its English, Chinese and Korean pages to YOASOBI HEAVEN"
+    checked: 2026-11-17
+  - url: https://mitsuonomise.com/system.php
+    title: "三つ乱本館 official site: booking rules, cards with ID check, house rules, monthly STD tests"
+    checked: 2026-11-17
+  - url: https://mitsuonomise.com/access.php
+    title: "三つ乱本館 official site: address, routes from Hankyu Kyoto-Kawaramachi (exit A) and Keihan Gion-Shijo"
+    checked: 2026-11-17
+  - url: https://fujoho.jp/index.php?p=shop&id=6569
+    title: "三つ乱本館 on 口コミ風俗情報局 (fujoho): Kiyamachi fashion health, kimono and rotation concept, Japanese price list"
+    checked: 2026-11-17
+  - url: https://yoasobi-heaven.com/en/kyoto/
+    title: "YOASOBI HEAVEN, Kyoto: no soaplands in Kyoto; store shops cluster in Kawaramachi and Kiyamachi"
+    checked: 2026-11-17
+  - url: https://en.friday.news/article/28949
+    title: "Overtourism and Kyoto's adult venues: Kiyamachi touts, health shops accept tourists (FRIDAY Digital, Aug 2024)"
+    checked: 2026-11-17
+  - url: https://en.wikipedia.org/wiki/Prostitution_in_Japan
+    title: "Prostitution in Japan: 1956 Anti-Prostitution Law, fūzoku, many shops refuse foreigners (Wikipedia)"
+    checked: 2026-11-17
+  - url: https://en.friday.news/article/34475
+    title: "Japan's first inbound-oriented prostitution bust: Kabukicho men's esthe, Feb 2025 (FRIDAY Digital)"
+    checked: 2026-11-17
+  - url: https://en.wikipedia.org/wiki/Kyoto
+    title: "Kyoto: climate table (Wikipedia)"
+    checked: 2026-11-17
+confidence: medium
+confidence_note: "Prices, cash rule and concept are from the shop's English page, which its own site links. Japanese prices are from fujoho (the official site shows them only as images); no source says a foreign caller gets them. The English page says cash only; the Japanese site takes cards with ID. English reviews Sep–Nov 2026. Pin is block level; no free photo (Commons rate-limited)."
+last_updated: 2026-11-17
+
+blocks:
+  - type: hero
+    hook: "Three women in kimono, five minutes each, then you choose: Kyoto's one fūzoku shop built on the kimono."
+  - type: quick_facts
+    time_needed: "50–60 min session"
+    best_time: "Tue 2 or Thu 4 Feb"
+    extra:
+      - { label: Type, value: "Fashion health, kimono", detail: "Store-based health with a rotation format; Kyoto has no soaplands" }
+      - { label: Payment, value: "Cash (English page)", detail: "The Japanese site takes cards with an ID check; bring cash" }
+  - type: highlights
+    items:
+      - title: The kimono theme
+        text: "The English page calls it **the one shop in Kyoto built on the kimono**: the women dress in kimono, and fujoho describes the old \"rotation\" health format brought back. It's a Kyoto version of the themed role-play room."
+      - title: You meet them first
+        text: "The **Triple Rotation** course has you meet three women, five minutes each, then pick one; a two-woman version costs ¥40,000. The basic course is one woman you choose from the list."
+      - title: Foreigners welcome
+        text: "The official site's **English** button goes straight to its YOASOBI HEAVEN page, with English-speaking staff registered and reviews in English and Chinese from Sep to Nov 2026."
+      - title: Clear rules on health
+        text: "The shop says every woman is tested **at least monthly** for chlamydia, gonorrhoea, trichomonas, candida, HIV and syphilis, and uses medicated body soap. The English page says no charge beyond course and nomination fees, plus options (¥1,000–3,000) if you ask."
+  - type: prose
+    title: Kyoto's kind of adult night
+    dropcap: true
+    text: |-
+      YOASOBI HEAVEN says Kyoto has **no soaplands**: its store-based adult shops are fashion health parlours, clustered in **Kawaramachi and Kiyamachi**, west of the Shijo bridge. A 2024 FRIDAY report quotes a Kiyamachi tout saying health shops everywhere there take tourists, while many cabarets and oppa-bars refuse them.
+
+      Mitsuran Honkan is the themed pick: kimono and a meet-then-choose format. It is not cheap. The English page starts at **¥30,000 for 50 min** (about R$1,073; ¥35,000 for 60), six days of your Japan "everything else" budget. The Japanese list on fujoho is far lower: **¥15,000** for the basic 55 min rotation course (¥13,000 for new customers or 06:00–09:00), but booking at that price means calling in Japanese, and no source says a foreigner gets it. The case for it is the theme, a booking you can make in English, and a slot on Tue 2 or Thu 4 Feb. If you'd rather a different shop, Osaka's store shops near Namba are a train ride away.
+  - type: book_ahead
+    steps:
+      - { days_before: 1, text: "Send a request on the **English page** (orange button) and message the course and time in the multilingual chat." }
+      - { days_before: 0, text: "Bring **cash** for the course and nomination fee; the English page says no other charges." }
+      - { days_before: 0, text: "Go to the **6th-floor reception** of the Top Hat Building on Kiyamachi-dori, north of Shijo. No secret filming or recording (house rules)." }
+  - type: cost_breakdown
+    items:
+      - { label: "50 min, one woman (English page)", local: 30000, brl: 1072.5 }
+      - { label: "60 min instead, the shop's recommended course (difference)", local: 5000, brl: 178.75, optional: true }
+      - { label: "Nomination fee", local: 3000, brl: 107.25, optional: true }
+  - type: menu
+    title: Prices (English page, Nov 2026)
+    items:
+      - { name: "50 min, one woman", price_local: 30000, price_brl: 1072.5, note: "Shortest English-page course" }
+      - { name: "60 min, one woman", price_local: 35000, price_brl: 1251.25, note: "The shop's recommended course" }
+      - { name: "90 min, one woman", price_local: 50000, price_brl: 1787.5 }
+      - { name: "Two-woman rotation, 60 min", price_local: 40000, price_brl: 1430, note: "30 min each, then you pick one" }
+      - { name: "Triple rotation, 55 min", price_local: 50000, price_brl: 1787.5, note: "Meet three, 5 min each, then choose" }
+      - { name: "Nomination fee", name_local: "指名料", price_local: 3000, price_brl: 107.25, note: "Extension: ¥22,000 per 30 min" }
+      - { name: "Japanese list: 55 min rotation, regular", name_local: "基本55分 通常", price_local: 15000, price_brl: 536.25, note: "fujoho; 3 rotations + 40 min. 45 min trial ¥12,500", tag: cheap }
+    note: "English-page prices are cash only. The Japanese list (fujoho) is ¥12,500–15,000 regular, less 06:00–09:00 and for new customers; nothing says foreigners can book at it."
+  - type: map
+    note: "About a minute from **Hankyu Kyoto-Kawaramachi** (English page); the official site also gives a route from **Keihan Gion-Shijo** via the Shijo bridge exits. Reception is on the 6th floor."
+  - type: tips
+    variant: insider
+    items:
+      - "Non-members can phone-book only from **the day before** (official site); fujoho says the line opens at 05:00."
+      - "The English page suggests the **60 min** course as its recommended one."
+      - "Kyoto days are short: Setsubun (Wed 3 Feb) and the KIX flight (Fri 5 Feb) leave Tue 2 or Thu 4 Feb."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** the 1956 Anti-Prostitution Law bans prostitution (intercourse) but sets **no penalty** for the act itself; it punishes soliciting, procuring, providing a place. Fashion health sells non-coital services under the entertainment business law. Asking for intercourse breaks the rules."
+      - "**Enforcement, 2025:** Tokyo police made Japan's first arrests at a shop aimed at foreign tourists, a Kabukicho men's esthe, in Feb 2025 (operator and six men; no customers reported charged)."
+      - "**Touts:** Kiyamachi has street touts (FRIDAY, 2024). Book on the shop's own page and walk in yourself; don't follow anyone from the street."
+      - "Two prices: the English page is about double fujoho's Japanese list. Confirm the total in the chat before you go."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 9
+    conditions: "Cold, mostly dry winter days"
+    note: "A minute from the station, then indoors."
+    wear: "Coat; there's a shower inside"
+  - type: pairs_well
+    items:
+      - { id: honke-tankuma-takashimaya-kyoto, note: "Dinner in Takashimaya, at the same Shijo-Kawaramachi crossing" }

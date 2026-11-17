@@ -1,0 +1,140 @@
+id: asakusa-rock-za
+name: "Asakusa Rock-za"
+name_local: 浅草ロック座
+name_romanized: Asakusa Rokkuza
+country: japan
+city: tokyo
+area: "Asakusa · Rokku (Taito)"
+category: odd-local
+fame: hidden
+tags: [adult, strip-theater, weekday-afternoon, weekend-night]
+kind: Do
+why: "Japan's oldest strip theater (1947), a 129-seat revue in Asakusa's old show district: choreographed themed acts on a round stage, ¥6,000 at the door."
+
+cost:
+  local: 6000
+  currency: JPY
+  brl: 214.5
+  note: "General admission at the door, cash only. Women ¥5,000, over-65s ¥4,000 (official fee table)"
+fx: { rate: 0.03575, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "About 2 h (one show runs 1 h 50 min)"
+best_time: "Doors 13:30, for the 14:00 show"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Every day: doors 13:30; shows 14:00, 16:10, 18:20 and 20:30, each about 1 h 50 min; closes 22:30"
+  closed: "31 Dec (2026 schedule)"
+  winter: "The theater runs programs of about 20 days (Re 1st season 1–20 Nov, Re 2nd 21 Nov – 10 Dec, Re 3rd 11–30 Dec 2026; closed 31 Dec). January 2027 is only provisionally listed, with no title or cast yet. Indoors and heated, so the cold doesn't matter."
+
+location:
+  address: "2-10-12 Asakusa, Taito-ku, Tokyo 111-0032"
+  address_local: "東京都台東区浅草2-10-12 浅草ロック座"
+  lat: 35.71419
+  lng: 139.793
+  nearest_transit: "Asakusa Sta. (Tsukuba Express) or Tawaramachi (Ginza Line), 5 min"
+
+sources:
+  - url: http://asakusa-rockza.com/?lang=en
+    title: "Asakusa Rockza official site (English): hours, show times, entrance fees, admittance rules, address"
+    checked: 2026-11-17
+  - url: http://asakusa-rockza.com/contact?lang=en
+    title: "Asakusa Rockza official About Us page: compares the show to a strip club in a foreign movie, its dance styles"
+    checked: 2026-11-17
+  - url: http://asakusa-rockza.com/schedule?lang=ja
+    title: "浅草ロック座 公演日程: current programs, Nov–Dec 2026 (official)"
+    checked: 2026-11-17
+  - url: https://lit.link/en/asakusa693
+    title: "浅草ロック座 official link page: English and Chinese guide videos, 18+ notice"
+    checked: 2026-11-17
+  - url: https://strip-marks.com/theaters/1/
+    title: "浅草ロック座 (ストMarks): founded 1947, 129 seats, revue format, programs to Jan 2027, 31 Dec closed"
+    checked: 2026-11-17
+  - url: https://danayao.com/guide-to-asakusa-rockza-an-adult-burlesque-strip-show-in-tokyo/
+    title: "Asakusa Rockza review: an adult burlesque strip show in Tokyo (Dana Yao, updated 23 Jan 2026)"
+    checked: 2026-11-17
+  - url: https://bunshun.jp/articles/-/88909
+    title: "ストリップ劇場は全国15軒に (文春オンライン / 共同通信, 25 May 2026): young, female and foreign audiences"
+    checked: 2026-11-17
+  - url: https://ja.wikipedia.org/wiki/性風俗関連特殊営業
+    title: "性風俗関連特殊営業 (Wikipedia ja): strip theaters as a store-type sex-related business, notification, zoning"
+    checked: 2026-11-17
+  - url: https://www.bengo4.com/c_18/n_13147/
+    title: "上野のストリップ摘発 (弁護士ドットコム, 5 Jun 2021): 60+ theaters raided, 450+ arrested since 1998"
+    checked: 2026-11-17
+  - url: https://times.abema.tv/articles/-/10152888
+    title: "大阪・天満東洋ショー劇場を摘発、10人逮捕 (ABEMA TIMES, 27 Nov 2024)"
+    checked: 2026-11-17
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals"
+    checked: 2026-11-17
+confidence: medium
+confidence_note: "Fees, show times and rules from the official site (read 17 Nov 2026). January 2027 program not announced yet. Cash-only and the seating details come from one 2026 English review; I found no police action against Rock-za itself, only against other theaters. Bengo4 opened via WebFetch; it bot-blocks link checks."
+last_updated: 2026-11-17
+
+blocks:
+  - type: hero
+    image: rokku-broadway-1930
+    caption: "Rokku Broadway around 1930, the show street Rock-za still stands on; no free photo of the theater"
+    hook: "Kimono, ballet, hip-hop: each act is a short story set to music, and the costume comes off as the story ends."
+  - type: quick_facts
+    time_needed: "1 h 50 min show"
+    best_time: "Doors 13:30 for the 14:00 show"
+    extra:
+      - { label: Slot, value: "Any Tokyo day", detail: "Four shows daily; you're in Tokyo Wed 20 – Fri 29 Jan" }
+      - { label: Language, value: "None needed", detail: "Music, no dialogue; the site and a guide video are in English" }
+      - { label: Seats, value: "129", detail: "Around a round stage; first come, first served" }
+  - type: highlights
+    items:
+      - title: The oldest strip theater still running
+        text: "Rock-za opened in **1947** and is the oldest strip theater still running. The industry is shrinking: Bunshun counted only **15 theaters** left in Japan in May 2026, down from over 300 at the peak."
+      - title: A revue, not a club
+        text: "The official site describes a **revue**: each scene has a main dancer plus back-up dancers, in styles from Japanese dance and ballet to rock, jazz, hip-hop and cosplay. A 2026 review counts up to ten acts with a short interval."
+      - title: Foreigners are expected
+        text: "The site has **English and Chinese** versions, and the theater's link page has an English guide video. A 2026 English review describes a respectful, quiet crowd that claps along and throws ribbons at key moments."
+      - title: Strict, simple rules
+        text: "No touching or talking to the dancers, no phones out, cameras left at the desk. The theater says plainly that it is **a show to watch, not a place for sex acts**."
+  - type: prose
+    title: What you're buying
+    dropcap: true
+    text: |-
+      The theater itself compares Japanese strip to the strip club in a foreign movie, then says it grew into its own mix of Japanese dance, ballet, rock, jazz and cosplay. Nobody touches or talks to the dancers. You sit in a 129-seat hall around a circular stage, and the dancers rotate through themed numbers that start fully dressed and finish nude. The cast changes with each program of about 20 days, and a 2026 review says it sometimes includes AV actresses.
+
+      At ¥6,000 (about R$215, over one day of your "everything else" budget) it is one evening or afternoon, not a habit. The case for it: this is the oldest strip theater still open, it is listed in English, and it still sits in Asakusa's old Rokku show district, the street in the photo above.
+  - type: cost_breakdown
+    items:
+      - { label: "General admission (men)", local: 6000, brl: 214.5 }
+  - type: menu
+    title: Entrance fees (official site, Nov 2026)
+    items:
+      - { name: "General admission", name_local: 一般, price_local: 6000, price_brl: 214.5, note: "Men; what most visitors pay" }
+      - { name: "Women", name_local: 女性, price_local: 5000, price_brl: 178.75 }
+      - { name: "Seniors, 65 and over", name_local: シニア, price_local: 4000, price_brl: 143, note: "Proof of age required" }
+      - { name: "Students", name_local: 学生, price_local: 4000, price_brl: 143, note: "Valid student ID (2026 review; the official site asks for proof)" }
+    note: "Cash only (2026 review). The official table lists no foreigner surcharge and no card payment."
+  - type: map
+    note: "In Asakusa's **Rokku** entertainment block. Tawaramachi Station (Ginza Line) is about 5 min away. Lost? The theater asks you to phone **03-3844-0693**."
+  - type: tips
+    variant: insider
+    items:
+      - "Come at **13:30** for the first show: seats are first come, first served, and the ones next to the round stage go first (2026 review)."
+      - "Bring **cash** in yen. Leave any camera at the front desk; the theater holds it until you leave."
+      - "Smoking is only in the lobby. Talking happens in the lobby too: inside, the theater asks for cinema manners."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** the Entertainment Business Act (風営法) lists strip theaters as store-type sex-related businesses: notified to the safety commission, commercial zones only. Police still raid them for public indecency: **60+ theaters** and **450+ people**, customers included, 1998–2021 (Bengo4)."
+      - "Recent raids hit other theaters: Theater Ueno (2021) and Osaka's Tenma Toyo Show (Nov 2024, 10 arrested, police citing extreme staging). I found no news of a raid on Rock-za itself."
+      - "**Phones stay in your pocket.** Taking one out inside is banned outright because of the camera, and staff walk the aisles. Secret filming is a crime in Japan."
+      - "Drunk visitors are refused, and anyone who gets drunk inside is dealt with. ID may be checked for the 18+ rule, so carry your passport."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: "Cold, dry, mostly sunny"
+    note: "January in Tokyo is around 1 °C at night and 10 °C by day. It's an indoor visit, so the weather only matters on the walk from the station."
+    wear: "Your normal winter coat; leave it on your lap or seat"
+  - type: pairs_well
+    items:
+      - { id: nui-hostel-kuramae, note: "Kuramae hostel about 1.2 km south: walk back after the 20:30 show" }

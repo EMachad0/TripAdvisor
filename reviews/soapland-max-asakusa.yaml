@@ -1,0 +1,19 @@
+# Independent review of soapland-max-asakusa. Written by `./atr review`; do not edit by hand.
+id: soapland-max-asakusa
+type: place
+reviewed: 2026-11-17
+verdict: pass
+content_hash: 004774d6aa008c8b0701a430465d6b99fb2e9a2212175bc662585349e98677ed
+facts:
+  supported: 9
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: book_ahead
+    problem: The page says booking is not needed and you can walk in, and the hero badge shows 'No booking needed'. The venue page says nothing about walk-ins. It only lists Multilingual Chat, LINE, Kakao and mail as contact options. The page's own tip also tells the traveler to message before walking over, so the booking fact disagrees with the advice.
+    evidence: 'book_ahead is now required: recommended, method app, with the Multilingual Chat and LINE links. https://yoasobi-heaven.com/en/tokyo/YA1303/max-as/?of=y lists Multilingual Chat, LINE (https://lin.ee/xU3lAMd), "KakaoTalk ID soaplandmax" and MAIL, has no WEB Reservation button and nothing about walk-ins, which matches the new notes. The old conflicting tip is gone.'
+rereview_of: 457a63778781c4a20f76ef0e5e3eb65316e06bb9658619ffe210b8f89e75ccbd
+summary: "The booking finding is fixed: the page now says to message first, and the chat, LINE and Kakao contacts match the venue page. The changed text checks out against the venue page, the review page, the foreigner list (only ¥37,000 and ¥40,000 60-min fares are posted, so 'tied for lowest' holds), config/trip.yaml (Tokyo Jan 20–29) and the map (pin about 50 m from Exit A1). No blockers or shoulds remain."
+model: claude-opus-5-5
+cost_usd: 0.605

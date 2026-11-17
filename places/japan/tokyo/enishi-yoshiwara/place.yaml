@@ -1,0 +1,154 @@
+id: enishi-yoshiwara
+name: "Enishi, Yoshiwara"
+short_name: Enishi
+name_local: 縁
+name_romanized: Enishi
+country: japan
+city: tokyo
+area: "Yoshiwara · Senzoku, Taito"
+category: odd-local
+fame: hidden
+tags: [adult, soapland, premium, costume-play, weekday-afternoon, weekend-night]
+kind: Do
+why: "A high-end Yoshiwara soapland with one all-in price for foreigners and English-speaking staff. 60 min ¥40,000: a big splurge, R$1,430."
+
+cost:
+  local: 40000
+  currency: JPY
+  brl: 1430
+  note: "60 min, the venue's pick for a first visit; listed total, nomination free, no foreigner surcharge. 90 min ¥60,000 adds the costume"
+fx: { rate: 0.03575, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–2.5 h with the trip there"
+best_time: "Weekday afternoon, booked by chat"
+
+book_ahead:
+  required: recommended
+  lead_days: 0
+  lead_time: "Book by chat or LINE before you go"
+  method: app
+  links:
+    - label: "Venue page: Multilingual Chat button"
+      url: "https://yoasobi-heaven.com/en/tokyo/YA1304/enishi/?of=y"
+      note: "Tap Multilingual Chat on the venue's page (the chat opens only from there); write in English"
+    - label: "Enishi on LINE"
+      url: "https://line.me/ti/p/eqyPXKDbuZ"
+      note: "The LINE link on the venue's page; ask for Chinese help here too"
+  notes: "The venue says to book through social media or chat and to come to the shop at the time you booked. The FAQ says it only takes **Japanese credit cards**, so foreigners pay **cash**."
+
+hours:
+  summary: "Daily 09:00–24:00, no regular closing day (venue's page)"
+  winter: "The venue lists no closing days and no holiday hours, so your Tokyo days (Wed 20 – Thu 28 Jan) are normal days. Indoors; only the walk from Minowa station is cold."
+
+location:
+  address: "4-48-4 Senzoku, Taito-ku, Tokyo"
+  address_local: "東京都台東区千束4-48-4"
+  lat: 35.72487
+  lng: 139.79421
+  approximate: true
+  nearest_transit: "Minowa (Hibiya Line), Exit 1a, about 10 min on foot"
+
+sources:
+  - url: https://yoasobi-heaven.com/en/tokyo/YA1304/enishi/?of=y
+    title: "Enishi on YOASOBI HEAVEN (foreigner-welcome listing): prices, no foreigner surcharge, FAQ, hours, address, LINE"
+    checked: 2026-11-17
+  - url: https://yoasobi-heaven.com/en/tokyo/shop-list/biz4/?of=y
+    title: "YOASOBI HEAVEN: the 48 Tokyo soaplands listed as foreigner-friendly, Enishi among them"
+    checked: 2026-11-17
+  - url: https://yoasobi-heaven.com/en/tokyo/shop-list/?of=y
+    title: "YOASOBI HEAVEN Tokyo page: Yoshiwara is about 10 min on foot southwest of Minowa Exit 1a"
+    checked: 2026-11-17
+  - url: https://unseen-japan.com/soaplands-japan-legal-foreigners/
+    title: "Soaplands explained: are they legal, and can foreigners go? (Unseen Japan, Aug 2026)"
+    checked: 2026-11-17
+  - url: https://en.wikipedia.org/wiki/Prostitution_in_Japan
+    title: "Prostitution in Japan: the 1956 law, the Entertainment Business Act, foreigner bans (Wikipedia)"
+    checked: 2026-11-17
+  - url: https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%83%97%E3%83%A9%E3%83%B3%E3%83%89
+    title: "ソープランド (Japanese Wikipedia): store-based sex business under the 風適法; Yoshiwara about 160 shops"
+    checked: 2026-11-17
+  - url: https://coki.jp/article/column/87798/
+    title: "吉原高級ソープ「ルーブル」摘発、5人逮捕 (coki, 24 Jun 2026)"
+    checked: 2026-11-17
+  - url: https://www.hrw.org/news/2026/10/24/japan-should-stop-punishing-sex-workers
+    title: "Japan should stop punishing sex workers: the 2026 Justice Ministry panel and an expected reform bill (Human Rights Watch, 24 Oct 2026)"
+    checked: 2026-11-17
+  - url: https://en.wikipedia.org/wiki/Tokyo
+    title: "Tokyo (Wikipedia): climate table, January normals"
+    checked: 2026-11-17
+confidence: medium
+confidence_note: "Slot ends Thu 28 Jan: you leave for Osaka the morning of Fri 29. Price, hours, payment and the no-surcharge promise are the venue's own words on its YOASOBI HEAVEN page (CityHeaven's foreigner portal; the shop's own site is not reachable from here). Only 31 reviews there, all positive. Costume list not published. Pin is the street address (block level). No free photo of the venue."
+last_updated: 2026-11-17
+
+blocks:
+  - type: hero
+    image: yoshiwara-street
+    caption: "A Yoshiwara street (the signs are other shops); no free photo of Enishi"
+    hook: "Japan's biggest soapland district, where many doors turn foreigners away. This one posts its prices in English."
+  - type: quick_facts
+    time_needed: "60 min session"
+    best_time: "Weekday afternoon"
+    extra:
+      - { label: Slot, value: "Any Tokyo day", detail: "Open 09:00–24:00 daily: Wed 20 – Thu 28 Jan (Osaka from Fri 29)" }
+      - { label: Type, value: "Soapland, premium", detail: "Private bath and massage; costume play included from 90 min" }
+      - { label: Payment, value: "Cash only for you", detail: "The venue takes only Japanese credit cards" }
+  - type: highlights
+    items:
+      - title: The same price as locals
+        text: "Unseen Japan says shops that let foreigners in often add a **\"foreigner tax\"** (about ¥3,100, sometimes more). Enishi writes that foreign guests pay **no extra charge**, nomination is free, and the listed price is the total."
+      - title: Costume play, the Psyche link
+        text: "From **90 minutes** a costume is included at no charge, and there are free drinks in the salon (venue FAQ). It's the closest a Yoshiwara bath house gets to Psyche Dream Spa's themed sessions, without a script."
+      - title: Staff who can talk to you
+        text: "The listing says it has staff who speak **English** and **Chinese**. The most recent reviewers (Nov 2026) are from Taiwan, New Zealand and Singapore."
+      - title: Yoshiwara, the real one
+        text: "Japanese Wikipedia calls Yoshiwara, a former red-light district, **Japan's largest soapland district** (about 160 shops). Most of them turn foreigners away; this one is on the official foreigner-welcome portal."
+  - type: prose
+    title: How it compares, and why it's a splurge
+    dropcap: true
+    text: |-
+      A soapland is a private bath room where a woman washes you and gives a body massage; Japanese Wikipedia classes it as a store-based sex business under the Entertainment Business Act. Enishi is in the high-end tier: Unseen Japan puts the average soapland at about ¥30,000 for 70 minutes and luxury houses at ¥85,000 or more for 120.
+
+      Be clear about the money: even the **60-minute course at ¥40,000 (about R$1,430)** is over eight days of your R$170 "everything else" budget, nearly double Psyche Dream Spa, for one hour. The venue itself suggests 60 minutes for a first visit. The 90-minute course (¥60,000, about R$2,145) adds the free costume; only take it if this is the one splurge of Japan. The case for Enishi: one transparent price, staff who speak English, in Japan's biggest soapland district. The value soapland in Asakusa is ¥3,000 cheaper for the same hour.
+  - type: book_ahead
+    steps:
+      - { days_before: 0, text: "Open the venue's YOASOBI HEAVEN page, check who is working, and message through the **multilingual chat** or LINE with the day, time and course." }
+      - { days_before: 0, text: "Take out **¥40,000 in cash** (60 min; ¥60,000 for 90); the venue says foreign cards don't work at the desk." }
+      - { days_before: 0, text: "Hibiya Line to **Minowa**, Exit 1a, then walk about 10 minutes southwest. Pay at the front desk." }
+  - type: cost_breakdown
+    items:
+      - { label: "60 min course, all-in", local: 40000, brl: 1430 }
+      - { label: "90 min instead, costume included (difference)", local: 20000, brl: 715, optional: true }
+      - { label: "Metro to Minowa and back (rough)", local: 400, brl: 14.3, optional: true, estimate: true }
+  - type: menu
+    title: Price list (venue page, Nov 2026)
+    items:
+      - { name: "60 min", price_local: 40000, price_brl: 1430, note: "The venue's pick for a nervous first visit", tag: cheap }
+      - { name: "90 min", price_local: 60000, price_brl: 2145, note: "Costume play included" }
+      - { name: "120 min", price_local: 80000, price_brl: 2860, note: "Costume play included" }
+      - { name: "Nomination", price_local: 0, price_brl: 0, note: "Free" }
+    note: "The venue says these are totals, with no extra charge for foreign guests. Cash only for foreign customers."
+  - type: map
+    note: "Yoshiwara is about **10 minutes on foot** southwest of **Minowa** station (Hibiya Line, Exit 1a). Show the Japanese address to a taxi driver if you come from Asakusa."
+  - type: tips
+    variant: insider
+    items:
+      - "Book in the venue's own chat or LINE, not through anyone on the street or an agency."
+      - "Ask in chat which costumes are available; the page doesn't list them."
+      - "Unseen Japan says workers at many foreigner-friendly shops ask for a condom from the start, and Tokyo syphilis cases have risen four years running. Expect it."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** the 1956 Anti-Prostitution Act bans intercourse for payment but sets no penalty for the act; it punishes soliciting, procuring and providing a place. Soaplands are licensed under the Entertainment Business Act and sit in a tolerated grey zone."
+      - "**Enforcement is real for shops:** in June 2026 police arrested five people at **Louvre**, a high-end Yoshiwara soapland, for providing a place for prostitution (coki, Unseen Japan). Unseen Japan calls the risk small but non-zero."
+      - "**The law may change:** a 2026 Justice Ministry panel backed rules on people who solicit to buy sex, and HRW (Oct 2026) says a reform bill is expected. Today clients face no penalty."
+      - "Most Yoshiwara shops refuse foreigners (Wikipedia, Unseen Japan). Don't walk door to door; go to the one you booked."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: Cold and dry
+    note: "Tokyo's January averages about 1 °C at night and 10 °C by day. Ten minutes on foot from the station, then indoors."
+    wear: "A warm jacket for the walk"
+  - type: pairs_well
+    items:
+      - { id: soapland-max-asakusa, note: "The value soapland, about 1.2 km south in Asakusa" }
+      - { id: nui-hostel-kuramae, note: "Hostel base about 2.5 km south" }
