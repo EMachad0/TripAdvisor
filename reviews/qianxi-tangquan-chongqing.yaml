@@ -1,0 +1,22 @@
+# Independent review of qianxi-tangquan-chongqing. Written by `./atr review`; do not edit by hand.
+id: qianxi-tangquan-chongqing
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 914a3e792a53c47f94a9b8716bf6fec4656d051bb9cfb4639da8c0d34be5d78a
+facts:
+  supported: 8
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.local
+    problem: The ¥199 headline comes from a reseller (240 Hours in China) that shows one price for six packages and does not say which pass it buys. The page tells the traveler to book on Trip.com and take the 16 h overnight pass, but it never gives the Trip.com price, which is higher than ¥199. No source gives a price for the 16 h overnight pass.
+    evidence: cost.note, book_ahead.links[0].note, prose and cost_breakdown now say ¥199 is 240 Hours' price for an unnamed pass, give Trip.com's price, say the 16 h price is unconfirmed, and name the 8 h ¥149 pass as the cheapest way in. https://uk.trip.com/guide/china/chongqing-24-hours-spa.html says "From £30.62", and £30.62 × 8.7987 (frankfurter, 2026-11-16) = ¥269. https://weibo.com/2/detail/comos:nirvqsk9127183 says "浅溪汤泉149元起（含8小时门票+果饮自由）".
+  - field: blocks[1].extra[2]
+    problem: '"Swimsuit: Not needed" is not in any listed source. 240 Hours says only that bathing areas are gender-separated, and the sister listing for Lanyue says guests must bring their own swimwear.'
+    evidence: "blocks[1].extra[2] now reads \"Swimsuit: Pack one — Bathing areas are single-sex; swimsuit rule unconfirmed\", and the weather block's wear line matches it. That is the fix the first review asked for."
+rereview_of: 2ab3fc803ec331a1cfdaa86c2aa09fdbd4de12edefc7378d687326257a0dc7a2
+summary: "Both earlier findings are fixed. The prices are labelled honestly: ¥199 from 240 Hours for an unnamed pass, Trip.com from £30.62 (≈¥269), 8 h from ¥149 on Weibo, and the 16 h price marked unconfirmed. The swimsuit line now says to pack one. The new facts check out against the listed sources: Lanyue £8.60 (≈¥76) and its basement address in Jiangnan Gymnasium, the foot massage at about US$16, and the Wikipedia climate figures. Note: the Trip.com guide gives Lanyue's address as \\\"Ground Floor\\\", but the Klook copy says basement."
+model: claude-opus-5-5
+cost_usd: 0.314

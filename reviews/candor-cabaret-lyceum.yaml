@@ -1,0 +1,27 @@
+# Independent review of candor-cabaret-lyceum. Written by `./atr review`; do not edit by hand.
+id: candor-cabaret-lyceum
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 393301f4bb922928f37d78b71666a04263a0d63331f5f4c85eef1c4cbeefe5f0
+facts:
+  supported: 10
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[3].items[3].text
+    problem: The new wording "one of Shanghai's oldest Western-style theatres" has no listed source. SmartShanghai, the only source quoted, says just "the oldest theatre in China".
+    evidence: https://www.smartshanghai.com/venue/28475/candor_lyceum_theater — "the oldest theatre in China, the Lyceum Theatre"
+    fix: Cite a source for the Western-style claim (e.g. the Lyceum's own page or Wikipedia), or keep only the attributed SmartShanghai quote.
+resolved:
+  - field: blocks[1].extra[0]
+    problem: The Slot list, the prose ("Sun 6 or 13 Dec at 19:00") and the tip "Pick the Sunday 19:00 show… before moving on" all offer Sun 13 Dec. The trip plan has the traveler leaving Shanghai on 13 Dec on the Fuxing train and arriving in Beijing that day. The traveler could buy a ¥200 ticket for a night they won't be in Shanghai.
+    evidence: "Sun 13 Dec is gone from the Slot (blocks[1].extra[0] is now \"Fri 11 / Sat 12 Dec\", backup Sun 6 Dec 19:00), from best_time and from the Sunday tip. The prose now says \"Sun 13 Dec is out: that's your train to Beijing\". This matches config/trip.yaml (Shanghai Dec 6–9; shanghai-weekend Fri Dec 11 – Sun Dec 13; Beijing from Dec 13). SmartShanghai ticket page: \"Wednesday–Saturday: Show starts at 8pm\", \"Sunday: Show starts at 7pm\", \"Daily except Mon & Tue\"."
+  - field: why
+    problem: "`why` and the hero `hook` say almost the same thing: both are \"1920s-style burlesque … upstairs in China's oldest theatre\", so the page repeats itself in its first two lines."
+    evidence: '`why` now covers price and spend (¥200 entry, the new After Babylon show, tables and ¥100 cocktails). The hook keeps the image of the room and the theatre. The two lines no longer repeat each other. SmartShanghai ticket page: "Tickets: 200rmb/person", "The new cabaret brings new characters". Venue page: "craft cocktails, in the 100rmb range".'
+rereview_of: 66e7dc0ab1a29d64db3b4b59adddecb875c8e10fe46678031493b4ece2f56d4c
+summary: "Both earlier shoulds are fixed. Every slot now falls on days the traveler is in Shanghai, and why and the hook take different angles. The changed facts all match SmartShanghai's 2026 ticket and venue pages: the ¥200 ticket, show times Wed–Sat 20:00 and Sun 19:00, the ¥500 table minimum, about ¥100 a cocktail, the authorized seller, and the new After Babylon show. What's left is one nit on an uncited \"Western-style theatre\" phrase."
+model: claude-opus-5-5
+cost_usd: 0.326

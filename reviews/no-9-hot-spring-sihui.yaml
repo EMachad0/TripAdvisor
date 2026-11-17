@@ -1,0 +1,32 @@
+# Independent review of no-9-hot-spring-sihui. Written by `./atr review`; do not edit by hand.
+id: no-9-hot-spring-sihui
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 4e2edad3266bd966601f46c0d36966ebc20829321e8a685409178cbd097aa465
+facts:
+  supported: 8
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[4].text
+    problem: The new sentence 'Meituan or Dianping may be cheaper' has no listed source. The confidence_note says both sites were bot-walled, and neither name appears in the Trip.com page text.
+    evidence: 'https://www.trip.com/moments/poi-no-9-hot-spring-lifestyle-pavilion-136010176/: only "showed up, paid on the spot", no Meituan or Dianping'
+    fix: Change it to 'check Meituan or Dianping for the current price' so the page does not claim it is cheaper.
+  - severity: nit
+    field: blocks[3].items[3].text
+    problem: The Economic Observer describes a long lobby queue and a child running in holding a parent's hand. It does not say that parents with children were the ones queueing.
+    evidence: https://www.36kr.com/p/3648468196855684 — "大堂排起长队，有小孩牵着父母的手往里跑"
+    fix: Write 'the Economic Observer saw a long lobby queue and children arriving with parents'.
+resolved:
+  - field: blocks[0].hook
+    problem: The hook says you 'soak in 48 °C spring water outdoors', and highlights[0] says 'water at 48 °C'. 48 °C is how hot the well water comes out (36Kr). A reviewer gives the open-air pools themselves as 36–40 °C, so the traveler would expect pools they couldn't actually sit in.
+    evidence: The hook now reads '36–40 °C spring pools' and highlights[0] reads 'fed by 48 °C well water … open-air pools at 36–40 °C'. https://www.36kr.com/p/3648468196855684 says "深井，出水温度达到48℃" and https://www.trip.com/moments/detail/beijing-1-146703636/ says "Open-air pools (36-40°C). Swimsuits are mandatory".
+  - field: blocks[6].items[2]
+    problem: No listed source shows the ¥138 basic body massage price, which also appears in highlights[3] and in sources[0].title. The Trip.com page text only says massages cost extra and are 'significantly more expensive than I expected'. ¥138 turns up only in an auto-summary and could not be found in the page itself.
+    evidence: ¥138 has been removed from highlights[3], cost_breakdown and sources[0].title. The pitfall now quotes the reviewer's "significantly more expensive", which is verbatim on https://www.trip.com/moments/poi-no-9-hot-spring-lifestyle-pavilion-136010176/.
+rereview_of: 6d0631e0c74d7792692a9a0ce6d85403e8e592b1c079a5de980e4b73b371d2f7
+summary: Both earlier shoulds are resolved. The pool temperature now separates the 48 °C well water from the 36–40 °C pools, and the unsupported ¥138 massage price is gone; both changes match the 36Kr and Trip.com sources. The new text adds only two small unsourced or loosely paraphrased phrases (nits), and I found no blockers in the unchanged content.
+model: claude-opus-5-5
+cost_usd: 0.279
