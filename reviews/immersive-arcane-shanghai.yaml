@@ -1,0 +1,22 @@
+# Independent review of immersive-arcane-shanghai. Written by `./atr review`; do not edit by hand.
+id: immersive-arcane-shanghai
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: d0f7a90323c6b825f9f7c051cbfcdf3f24b4b722baa9cf787776a83ee65672d8
+facts:
+  supported: 3
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: book_ahead.links[0].url
+    problem: Trip.com, the only booking link for foreign cards, redirects to a bot check (302 to verify.trip.com). Nobody has confirmed that it is this show's page or that it sells December dates. The page also never names the WeChat mini-program it tells the traveler to use.
+    evidence: "book_ahead.notes now names the mini-program 双城之哉Arcane as CNS prints it, and says to search 双城之战. links[0] is the 票星球 ticket page (m.piaoxingqiu.com/?lssId=33cea071ff5e9e1d). The Trip.com link is gone. 票星球's own Weibo post (https://weibo.com/2/detail/5364435753633337) confirms 票星球 is the sales channel: \"预约🔗戳：网页链接 … 2026-11-12 15:00开售\". The ticket page itself still returns HTTP 469 (\"你的操作太快了\") to ./atr render. The confidence_note says so honestly."
+  - field: book_ahead.links[2].url
+    problem: The Trip.com listing is still offered as a booking link. Nobody has seen it in a browser, and it still hits a bot check, so it is unknown whether it is this show's page or sells December dates.
+    evidence: The diff removes the Trip.com listing from book_ahead.links, and confidence_note now records that it was dropped as bot-walled and unconfirmed.
+rereview_of: 2506e611253cacc4ea44997306a4865abca8bd408e5b98909f3cb30d9a607b3e
+summary: "Both earlier findings are resolved. The unverified Trip.com link is gone, the WeChat mini-program is named, and 票星球 is the booking channel. 票星球's Weibo post still confirms the December round: 28 shows from 2 Dec 2026 to 3 Jan 2027, and ¥380 early-bird matinees on Wed/Thu/Sun with 100 tickets per show. The 票星球 ticket page still rate-limits automated visits, and the page says so."
+model: claude-opus-5-5
+cost_usd: 0.257

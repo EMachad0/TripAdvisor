@@ -1,0 +1,145 @@
+id: immersive-arcane-shanghai
+name: "Immersive Arcane"
+name_local: "浸入式音乐秀《双城之战》"
+country: china
+city: shanghai
+area: "Jing'an · Shanghai Hotel"
+category: odd-local
+fame: hidden
+tags: [immersive-theatre, role-play, premium, weekend-night]
+kind: Do
+why: "Sleep No More closed; its heir is Punchdrunk's masked, walk-anywhere show of League of Legends' Arcane: two floors of Piltover and Zaun in Jing'an."
+cost:
+  local: 588
+  currency: CNY
+  brl: 503.21
+  note: "Last season's standard ticket (spring run; tiers ¥499/588/688). Dec tiers unpublished except ¥380 early-bird matinees"
+fx: { rate: 0.8558, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "About 2 h, standing"
+best_time: "A Dec evening show at 19:30, or an early-bird matinee"
+
+book_ahead:
+  required: true
+  lead_days: 7
+  lead_time: "On sale since 12 Nov; book once your Shanghai days are set"
+  method: app
+  links:
+    - label: "票星球 ticket page (Dec round)"
+      url: "https://m.piaoxingqiu.com/?lssId=33cea071ff5e9e1d"
+      note: "Linked from 票星球's on-sale post; pick date and tier. Chinese only; foreign cards unconfirmed"
+    - label: "On-sale post (Weibo)"
+      url: "https://weibo.com/2/detail/5364435753633337"
+      note: "28 shows 2 Dec – 3 Jan, ¥380 early-bird matinees"
+  notes: "City News Service says tickets sell through the official WeChat mini-program **双城之哉Arcane** (as printed; search 双城之战 in WeChat) and that booking ahead is necessary; the January preview sold out in a minute (Jing'an government). No age limit or ID rule was found in any source."
+
+hours:
+  summary: "Evening shows start 19:30 (spring run); Dec round adds Wed, Thu and Sun matinees. 28 shows from 2 Dec to 3 Jan"
+  winter: "The current round runs 2 Dec 2026 – 3 Jan 2027 with 28 shows (票星球, 12 Nov), so not every day has one: check the calendar for Dec 6–9 and 11–13 before you plan around it. No Christmas or New Year schedule found. Indoors."
+
+location:
+  address: "Shanghai Hotel annex, 505 Wulumuqi Road North, Jing'an, Shanghai"
+  address_local: "上海市静安区乌鲁木齐北路505号 上海宾馆辅楼"
+  lat: 31.22008
+  lng: 121.4398
+  approximate: true
+  nearest_transit: "Jing'an Temple (Lines 2/7/14), about a 10-min walk by map"
+
+sources:
+  - url: https://www.citynewsservice.cn/events/stage/reviewed-arcane-league-of-legends-immersive-theater-performance-debuts-in-shanghai-rkl3e3ko
+    title: "[Reviewed] Arcane immersive theater debuts in Shanghai (City News Service, Mar 2026): ¥588, 19:30, masks, Chinese only, WeChat booking"
+    checked: 2026-11-16
+  - url: https://weibo.com/2/detail/5364435753633337
+    title: "票星球 on Weibo, 12 Nov 2026: Immersive Arcane on sale, 28 shows 2 Dec 2026 – 3 Jan 2027, ¥380 early-bird matinees"
+    checked: 2026-11-16
+  - url: https://www.shanghai.gov.cn/nw4411/20260311/e5de21200ea4489d88b17fa28744749c.html
+    title: "浸入式音乐秀《双城之战》首演 (Shanghai government, 11 Mar 2026): Shanghai Hotel annex, 505 Wulumuqi N Rd, Punchdrunk co-production"
+    checked: 2026-11-16
+  - url: https://www.meet-in-shanghai.net/en/immersive-experience/immersive-arcane-based-on-the-roit-games-television-series-arcane-league-of-legends-778553/
+    title: "Immersive Arcane on Meet in Shanghai (official tourism site): ¥499/588/688, Apr–May 2026 dates"
+    checked: 2026-11-16
+  - url: https://den.nl/en/knowledge-and-inspiration/how-gaming-transforms-theater-the-lessons-of-immersive-arcane
+    title: "How gaming transforms theater: the lessons of Immersive Arcane (DEN, 28 Apr 2026): raven mask, room to room, one-on-ones"
+    checked: 2026-11-16
+  - url: https://global.chinadaily.com.cn/a/202604/17/WS69e161dda310d6866eb43e14.html
+    title: "Immersive production of animated series draws enthusiastic fans (China Daily, 17 Apr 2026): 30+ performers, two levels, 120 min"
+    checked: 2026-11-16
+  - url: https://news.qq.com/rain/a/20260527A09L3S00
+    title: "《不眠之夜》上海版8月底收官 (Jiefang Daily via Tencent News, 27 May 2026): Sleep No More's last Shanghai show on 30 Aug 2026"
+    checked: 2026-11-16
+  - url: https://m.gmw.cn/2026-09/02/content_38981008.htm
+    title: "告别《不眠之夜》 (Wenhui Daily via Guangming, 2 Sep 2026): the McKinnon Hotel run has ended"
+    checked: 2026-11-16
+  - url: https://www.jingan.gov.cn/rmtzx/003001/20260107/bbc167cb-9513-4beb-8e93-c34f09baff82.html
+    title: "6场1分钟售罄 (Jing'an government, 7 Jan 2026): preview shows sold out in a minute"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai (Wikipedia): climate table, December normals"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "SNM closure: two papers. Arcane's Dec round (28 shows, ¥380) rests on one 票星球 post; Dec tiers, show days, age/ID rules not found; 票星球 ticket page rate-limits automated visits (HTTP 469), so not opened. ¥588 is last season's. Trip.com listing dropped: bot-walled, not confirmed. shanghai.gov.cn opened via web fetch only. Pin: Shanghai Hotel (OSM)."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: wulumuqi-road-winter
+    caption: "Wulumuqi Middle Rd at Anfu Rd, ~1.5 km south of the venue; no free photo of the show"
+    hook: "Put on a mask, pick a character and follow them up the stairs from Piltover into Zaun."
+  - type: quick_facts
+    time_needed: "About 2 h, standing"
+    best_time: "19:30 show or a matinee"
+    extra:
+      - { label: Slot, value: "Shanghai Dec 6–9, 11–13", detail: "Only on the show days in the 2 Dec – 3 Jan round: check the calendar" }
+      - { label: Language, value: "Chinese only", detail: "Songs and dialogue in Mandarin (City News Service)" }
+      - { label: "Dec price", value: "From ¥380 (matinee)", detail: "¥588 is last season's standard; Dec tiers unpublished" }
+  - type: highlights
+    items:
+      - title: The Sleep No More format, rebuilt
+        text: "Made with **Punchdrunk**, the company behind Sleep No More. You get a **mask**, roam two floors that stand in for Piltover and Zaun, and choose which character to follow (City News Service)."
+      - title: Rare one-on-ones
+        text: "The creative director says a character might **take you to a small room, lock the door, maybe take off your mask, and whisper their deepest secret in your ear** (DEN interview). Few guests get one, so treat it as luck, not a promise."
+      - title: A big cast, up close
+        text: "Over **30 performers** do songs, dances, fights and acrobatics around you across a two-level space (China Daily)."
+      - title: Cheaper than Sleep No More was
+        text: "The spring run sold tickets at **¥499 / ¥588 / ¥688**, and the December round has **¥380** early-bird matinees on Wednesdays, Thursdays and Sundays, 100 a show (票星球)."
+  - type: prose
+    title: Why this, now that Sleep No More is gone
+    dropcap: true
+    text: |-
+      **Sleep No More Shanghai is over.** Its owner announced in May 2026 that the McKinnon Hotel run would end on **30 August 2026** after its 2,670th show, and Wenhui Daily wrote its farewell in September. The Punchdrunk team's next China show, in Shenzhen, is due in 2027.
+
+      The closest thing left in Shanghai is **Immersive Arcane**, co-produced by the same company in the annex of the Shanghai Hotel in Jing'an. It keeps the mask, the free roaming and the private one-on-ones; the story is the animated series, not Macbeth. It is fully legal: it is theatre, and nothing beyond the show is sold. The catch for you is language: everything is in Mandarin, so watch the series before you go, as the City News reviewer advises.
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Open the **票星球** ticket page or the show's WeChat mini-program (search 双城之战) and check which of **Dec 6–9 and 11–13** have a show." }
+      - { days_before: 7, text: "Buy the ticket: an early-bird **¥380** matinee (Wed, Thu, Sun) or an evening show." }
+      - { days_before: 0, text: "Come in comfortable shoes; you stand for two hours. Your phone goes into a sealed pouch at the door." }
+  - type: cost_breakdown
+    items:
+      - { label: "Standard ticket (last season's price)", local: 588, brl: 503.21 }
+      - { label: "Cheapest: Dec early-bird matinee (Wed/Thu/Sun, 100 a show)", local: 380, brl: 325.2, optional: true }
+      - { label: "Or the spring run's lowest tier, if offered", local: 499, brl: 427.04, optional: true }
+  - type: map
+    note: "In the **annex of the Shanghai Hotel** (上海宾馆辅楼), just south of the Yan'an elevated road. Show the driver the Chinese address."
+  - type: tips
+    variant: insider
+    items:
+      - "Rewatch **Arcane** first: the City News reviewer says fans can follow it without Chinese, newcomers may struggle."
+      - "Following one character closely is how a guest ends up alone with them in the director's description, but it is never guaranteed."
+      - "The December round has only 28 shows in 33 days, so check the calendar before you fix your Huangshan days (Dec 9–11)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** a licensed theatre production, announced by the Shanghai government at its premiere; nothing beyond the ticket is sold."
+      - "Buy only on the official channels (the WeChat mini-program or 票星球); the preview sold out in a minute, which invites resellers."
+      - "December prices beyond the ¥380 matinee are not published yet; check the tier before paying."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: "Cool, damp and grey"
+    note: "All indoors. You stand and walk for two hours, so dress for a warm room, not the street."
+    wear: "Light layers and comfortable shoes"
+  - type: pairs_well
+    items:
+      - { id: candor-cabaret-lyceum, note: "The burlesque cabaret at the Lyceum, a short taxi east" }
+      - { id: desti-youth-hostel-jing-an, note: "Jing'an hostel base" }

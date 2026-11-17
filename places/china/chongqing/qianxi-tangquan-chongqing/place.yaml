@@ -1,0 +1,156 @@
+id: qianxi-tangquan-chongqing
+name: "Qianxi Hot Spring: a night in a Chongqing bathhouse"
+short_name: Qianxi Hot Spring
+name_local: 浅溪·汤泉
+name_romanized: Qiǎnxī Tāngquán
+country: china
+city: chongqing
+area: "Jiulongpo · Chenjiaping"
+category: odd-local
+fame: hidden
+tags: [adult, xiyu-bathhouse, bathhouse, 24-hours, sauna, overnight, premium, weekend-night, late-night, daytime]
+kind: Do
+why: "A 16,000 m² 24-hour bathhouse by Chenjiaping metro: pools, saunas, salt and mugwort steam rooms, unlimited fruit drinks, recliners for the night. About ¥199."
+
+cost:
+  local: 199
+  currency: CNY
+  brl: 170.3
+  note: "240 Hours in China price, pass not named. 8 h from ¥149 (Weibo guide); Trip.com from £30.62 (≈¥269). 16 h overnight price unconfirmed"
+fx: { rate: 0.8558, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "6–8 h, or overnight"
+best_time: "Arrive 18:00–20:00 on a free night and stay over"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "Walk in on normal nights; book a day ahead for 31 Dec or 1 Jan"
+  method: platform
+  links:
+    - label: "Trip.com: Qianxi Hot Spring ticket"
+      url: "https://uk.trip.com/things-to-do/detail/102632758"
+      note: "From £30.62 (≈¥269). Next-day booking; free cancellation until 00:00 three days before"
+    - label: "240 Hours in China: packages"
+      url: "https://www.240hoursinchina.com/en-us/chongqing/guide/24hour-spa"
+      note: "Lists 8, 16 and 24 h passes; no payment up front, they contact you after you order"
+  notes: "No source says it sells out. Booking matters only on **New Year's Eve and 1 Jan**, when Chinese bathhouses fill with families and groups; on other nights walk in and pay at the desk."
+
+hours:
+  summary: "Open 24 hours, every day (240 Hours in China; a Sept 2026 guide)"
+  winter: "No holiday closures found. New Year's Eve and 1 Jan are likely busier and may cost more: not confirmed. All indoors, so the cold, damp Chongqing winter is the best reason to go."
+
+location:
+  address: "209 Longteng Avenue (Tongyong Jingcheng complex), Jiulongpo District, Chongqing"
+  address_local: 重庆市九龙坡区龙腾大道209号 通用晶城 浅溪·汤泉
+  lat: 29.52569
+  lng: 106.49098
+  approximate: true
+  nearest_transit: "Chenjiaping metro, Exit 4A, 270 m walk"
+
+sources:
+  - url: https://www.240hoursinchina.com/en-us/chongqing/guide/24hour-spa
+    title: "Qianxi Hot Spring: 24-hour spa guide (240 Hours in China, 2026): 浅溪汤泉, 209 Longteng Ave, 24 h, 8/16/24 h passes, ¥199, rest areas"
+    checked: 2026-11-16
+  - url: https://uk.trip.com/guide/china/chongqing-24-hours-spa.html
+    title: "Chongqing 24-hour spas guide (Trip.com, 2026-10-05): Qianxi Hot Springs, 270 m from Chenjiaping Exit 4A; Lan Yue Hot Springs 24 h, Nan'an"
+    checked: 2026-11-16
+  - url: https://uk.trip.com/things-to-do/detail/102632758
+    title: "Chongqing Qianxi Hot Spring ticket (Trip.com product page): unlimited fruit drinks, sauna, steam, optional foot massage; cancellation terms"
+    checked: 2026-11-16
+  - url: https://weibo.com/2/detail/comos:nirvqsk9127183
+    title: "重庆温泉乐园停车攻略 (Weibo article, updated 2026-09-15): 浅溪汤泉 24 h, 16,000 m², from ¥149 for 8 h with fruit drinks, heated municipal water"
+    checked: 2026-11-16
+  - url: https://www.maigoo.com/top/440504.html
+    title: "重庆十大洗浴中心 [2026] (Maigoo): 浅溪·汤泉 No. 2, 16,000 m², salt and mugwort steam rooms, seafood buffet, cinema; 金色湖畔 and 岚悦汤泉 also listed"
+    checked: 2026-11-16
+  - url: https://localtours.uz/tours/chongqing-lanyue-hot-spring-ticket
+    title: "Lanyue Hot Spring ticket (reseller copy of Klook listing): 24 h, buffets, 4.7 from 343 reviews; ID registration after midnight"
+    checked: 2026-11-16
+  - url: https://chinasurvivalkit.com/blog/chinese-massage-spa-guide-foreigners
+    title: "Chinese massage and spa guide (China Survival Kit, updated 2026-11-05): Alipay/WeChat Pay, spotting legit venues, no tipping"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, Shapingba 1991–2020 normals, Dec 8.0–11.7 °C, Jan 6.4–10.4 °C"
+    checked: 2026-11-16
+  - url: https://gaj.beijing.gov.cn/wsgs/2024zcwj/zcfg/202506/t20250630_4134266.html
+    title: "治安管理处罚法 (2025 revision, in force 1 Jan 2026), full text: Art. 10 (foreigners expelled), Art. 78 (卖淫、嫖娼) (Beijing police)"
+    checked: 2026-11-16
+  - url: https://zh.wikisource.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%87%BA%E5%A2%83%E5%85%A5%E5%A2%83%E7%AE%A1%E7%90%86%E6%B3%95
+    title: "中华人民共和国出境入境管理法, full text: Art. 81 (order to leave, deportation, 10-year re-entry ban) (Wikisource)"
+    checked: 2026-11-16
+  - url: https://www.state.gov/reports/2026-trafficking-in-persons-report/china
+    title: "2026 Trafficking in Persons Report: China (US State Dept): police detain foreigners on prostitution suspicion, then deport them"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Prices: ¥199 (240 Hours, pass not named), ¥149 for 8 h (Weibo, Sept 2026), Trip.com from £30.62. Trip.com product page showed no prices; Dianping bot-walled, so no review count. Trip.com pages read with WebFetch. No raid or vice news found. ID rule is Chongqing-wide (Lanyue listing). State Dept TIP page returns 403 to plain fetches; opens in a browser. Pin is the Tongyong Jingcheng complex."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    hook: Soak, sweat in a salt room, drink fruit tea, sleep on a recliner, repeat.
+  - type: quick_facts
+    time_needed: "6–8 h, or overnight"
+    best_time: "From 18:00 on a free night"
+    extra:
+      - { label: Slot, value: "Dec 26, 27, 31, Jan 1", detail: "Free nights. On work days (28–30 Dec) go in the daytime, out by 19:00" }
+      - { label: Bring, value: Passport, detail: "Chongqing registers guests' ID after midnight" }
+      - { label: Swimsuit, value: Pack one, detail: "Bathing areas are single-sex; swimsuit rule unconfirmed" }
+  - type: highlights
+    items:
+      - title: One of the biggest
+        text: "About **16,000 m²** (Maigoo, Weibo guide): hot and cold pools, saunas, salt and mugwort steam rooms, a cinema, an esports area and PS5s."
+      - title: Fruit drinks all night
+        text: "Every pass includes unlimited fruit drinks; some add one buffet meal (240 Hours in China). Maigoo lists a seafood buffet; the Weibo guide says it is limited unless you pay more."
+      - title: A bed for the night
+        text: "Shared rest areas with individual lounge beds, blankets and chargers. The 16 and 24 h passes include the overnight fee."
+      - title: The legal option
+        text: "A family bathhouse on public booking sites. Paid extras are foot massage and scrubs on your wristband, nothing else."
+  - type: prose
+    title: Why this one, and which night
+    dropcap: true
+    text: |-
+      Chinese 24-hour bathhouses (汤泉, *tāngquán*) are where locals spend a whole evening: soak, sweat, eat, nap, watch a film, then sleep on a recliner. Qianxi is one of the biggest in Chongqing and the easiest to reach: the Trip.com guide puts it **270 m from Exit 4A of Chenjiaping metro station**. 240 Hours in China recommends it over Golden Lakeside (金色湖畔) for a first visit: newer, better rest areas, disposable underwear. Golden Lakeside has bigger pools and more saunas.
+
+      **Free nights: Sat 26 Dec, Sun 27 Dec, New Year's Eve and 1 Jan.** Come in the evening and take a 16 h pass to stay over (its price is unconfirmed: ask at the desk). The cheapest way in is the 8 h pass, from ¥149 (Weibo guide). On 28–30 Dec you work 20:00–05:00, so only an 8 h daytime pass fits, out by 19:00. A daytime soak after a night shift, before sleep, also works.
+
+      **Runner-up:** Lanyue Hot Spring (岚悦汤泉), in the basement of Jiangnan Gymnasium in Nan'an. Its 24 h ticket includes the buffets and overnight fee: about US$33 on Klook (4.7 from 343 reviews); Trip.com's guide says from £8.60 (≈¥76). Cheaper all-in, but harder to reach by metro.
+
+      This card is the legal option. China punishes buying sex with detention and expulsion, and a mainstream bathhouse like this one sells pools, food and a bed, not "extras".
+  - type: quote
+    variant: vibe
+    text: A glass of mango juice, a warm recliner, and fog over Chongqing outside.
+  - type: cost_breakdown
+    items:
+      - { label: "Pass (¥199 per 240 Hours; 8 h from ¥149)", local: 199, brl: 170.3, estimate: true }
+      - { label: "Metro to Chenjiaping and back", local: 8, brl: 6.85, estimate: true, optional: true }
+      - { label: "Foot massage, guess (Lanyue charges ~US$16)", local: 100, brl: 85.58, estimate: true, optional: true }
+  - type: map
+    note: "Search **浅溪汤泉** in Amap or Didi. From Chenjiaping station take **Exit 4A**."
+  - type: tips
+    variant: insider
+    items:
+      - "Pick the pass by how long you stay: 8 h (no overnight), 16 h or 24 h (overnight fee included). Staying past your time costs extra (240 Hours in China)."
+      - "Phones aren't allowed in the bathing areas, and hair caps are needed in the pools."
+      - "Bring a power bank, and get to the late-night snacks early (240 Hours in China)."
+      - "The water is heated city water, not a natural spring (Weibo guide). Go for the bathhouse life, not mineral water."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** Since 1 Jan 2026, Art. 78 of China's revised Public Security Administration Punishments Law gives 10–15 days' detention and up to ¥5,000 fine for buying sex; foreigners can be expelled (Art. 10) and barred 10 years. This card is the legal option: no extras are sold or asked for."
+      - "**Passport:** carry the real one. Chongqing registers guests' ID after midnight, and the Lanyue listing says this is strictly enforced."
+      - "**Payment:** Alipay or WeChat Pay at the desk; foreign cards are reliable only at big chains (China Survival Kit). Booking on Trip.com avoids the problem."
+      - "Paid extras go on your wristband. Ask the price before you say yes, and settle at the desk when you leave."
+      - "Walk out of any place that offers a 'special' massage in a private room. Signs of a legit venue: public prices, uniformed staff, bright rooms (China Survival Kit)."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp, grey, often foggy
+    note: "All indoors. A damp 8 °C evening is exactly when a hot pool and a recliner make sense."
+    wear: Warm layers for the trip there; pack a swimsuit just in case
+  - type: pairs_well
+    items:
+      - { id: merica-hotel-jiefangbei, note: "Skip a hotel night on 26 or 27 Dec, or come back for a real bed" }
+      - { id: jiefangbei-nye-countdown, note: "Countdown first, then a taxi to the pools after midnight" }
+      - { id: huashi-wanza-mian, note: "A bowl of wanza noodles before you go" }

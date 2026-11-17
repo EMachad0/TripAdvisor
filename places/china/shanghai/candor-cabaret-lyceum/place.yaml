@@ -1,0 +1,142 @@
+id: candor-cabaret-lyceum
+name: "Candor Cabaret"
+name_local: "Candor · 兰心大戏院"
+country: china
+city: shanghai
+area: "Maoming Road · Lyceum"
+category: odd-local
+fame: hidden
+tags: [adult, burlesque, cabaret, value, weekend-night, late-night]
+kind: Do
+why: "¥200 gets you into \"After Babylon\", the house's new 2026 burlesque and cabaret revue; tables and ¥100 cocktails are where the bill grows."
+cost:
+  local: 200
+  currency: CNY
+  brl: 171.16
+  note: "Standing or shared-table ticket (SmartShanghai, official tickets). Front tables ¥500 minimum spend; drinks extra, about ¥100 a cocktail"
+fx: { rate: 0.8558, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2 h show, plus drinks"
+best_time: "Fri 11 or Sat 12 Dec at 20:00"
+
+book_ahead:
+  required: recommended
+  lead_days: 2
+  lead_time: "A few days ahead for a weekend; call for a table after buying"
+  method: platform
+  links:
+    - label: "SmartShanghai (authorized seller)"
+      url: "https://www.smartshanghai.com/event/candor-cabaret-presents-the-second-chapter-of-babylon-after-babylon"
+      note: "\"Official tickets authorized by Candor Cabaret\"; pick the date there or in the app"
+  notes: "The ticket page says front tables carry a separate **¥500 minimum spend** not included in the ticket, and that **standing room may be required** if you have no table. Candor's WeChat account **CandorShanghai** also takes bookings (That's Shanghai)."
+
+hours:
+  summary: "Wed–Sun 18:00–01:00; show Wed–Sat at 20:00, Sun at 19:00. Closed Mon and Tue"
+  closed: "Mondays and Tuesdays"
+  winter: "No December schedule changes found. The ticket page says schedules may vary on public holidays and to check the booking page; none fall on your Shanghai dates. Indoors."
+
+location:
+  address: "2–3F, Lyceum Theatre, 57 South Maoming Road, near Changle Road, Shanghai"
+  address_local: "上海市茂名南路57号 兰心大戏院2-3楼（近长乐路）"
+  lat: 31.22289
+  lng: 121.45597
+  nearest_transit: "South Shaanxi Road (Lines 1/10/12), about 5 min walk"
+
+sources:
+  - url: https://www.smartshanghai.com/event/candor-cabaret-presents-the-second-chapter-of-babylon-after-babylon
+    title: "Candor Cabaret presents After Babylon (SmartShanghai ticket page, 2026): show times, ¥200, ¥500 table minimum, 2 h"
+    checked: 2026-11-16
+  - url: https://www.smartshanghai.com/venue/28475/candor_lyceum_theater
+    title: "Candor (Lyceum Theatre) on SmartShanghai (updated 31 Aug 2026): hours Wed–Sun 18:00–01:00, burlesque, drag, cocktails ¥100"
+    checked: 2026-11-16
+  - url: https://www.thatsmags.com/shanghai/post/36083/showstopper-cabaret-lounge-candor-returns-it-s-sexier-than-ever
+    title: "Cabaret Lounge Candor is Back... and Sexier Than Ever! (That's Shanghai, 20 Jun 2023): 1920s burlesque, floors, WeChat booking"
+    checked: 2026-11-16
+  - url: https://rachelgouk.com/cabaret-lounge-candor-reopens-burlesque-cocktails-bites/
+    title: "Cabaret Lounge Candor Reopens: Burlesque, Cocktails & Bites (Nomfluence, 24 Apr 2023): review, menu prices"
+    checked: 2026-11-16
+  - url: https://gaj.beijing.gov.cn/wsgs/2024zcwj/zcfg/202506/t20250630_4134266.html
+    title: "治安管理处罚法 (2025 revision, in force 1 Jan 2026), full text: Art. 10 (foreigners expelled), Art. 78 (卖淫、嫖娼) (Beijing police)"
+    checked: 2026-11-16
+  - url: https://zh.wikisource.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%87%BA%E5%A2%83%E5%85%A5%E5%A2%83%E7%AE%A1%E7%90%86%E6%B3%95
+    title: "中华人民共和国出境入境管理法, full text: Art. 81 (order to leave, deportation, 10-year re-entry ban) (Wikisource)"
+    checked: 2026-11-16
+  - url: https://www.state.gov/reports/2026-trafficking-in-persons-report/china
+    title: "2026 Trafficking in Persons Report: China (US State Dept): police detain foreigners on prostitution suspicion, then deport them"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai (Wikipedia): climate table, December normals"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Show, times, prices and booking: SmartShanghai's 2026 ticket page and venue listing (updated Aug 2026). Room and burlesque reviews are from 2023; no 2025–2026 independent review. A stale Foursquare page says \"closed\". No age limit or dress code published. The State Dept TIP page returns 403 to plain fetches and opens only in a browser (atr links ok via Chrome)."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: lyceum-corner
+    caption: "The Lyceum Theatre on Maoming Road; Candor is on its 2nd and 3rd floors (no free photo inside)"
+    hook: "Cocktails and a 1920s-style burlesque revue in a tight room upstairs in a historic Shanghai theatre."
+  - type: quick_facts
+    time_needed: "2 h show, 2 intermissions"
+    best_time: "Fri 11 / Sat 12 Dec, 20:00"
+    extra:
+      - { label: Slot, value: "Fri 11 / Sat 12 Dec", detail: "Backup Sun 6 Dec at 19:00; Wed 9 only if Huangshan moves" }
+      - { label: Show, value: "After Babylon", detail: "Second chapter of the house's Babylon revue" }
+      - { label: Language, value: "Mostly visual", detail: "Song, dance, burlesque; no language listed on the ticket page" }
+  - type: highlights
+    items:
+      - title: Burlesque, legally and up close
+        text: "SmartShanghai lists **showgirl, drag and burlesque** nights and original cabaret productions; That's Shanghai calls the theme **1920s burlesque glamour**. The room is tight and close-up (Nomfluence), with tables around a small stage."
+      - title: A new show for 2026
+        text: "**After Babylon** is the second chapter of the house's Babylon production, with new characters, costumes and choreography (SmartShanghai), two hours with two intermissions."
+      - title: Cheap for what it is
+        text: "**¥200** gets you in (about R$171). Reviewers in 2023 called the same price a good deal; the catch is the drinks, about **¥100** a cocktail."
+      - title: Inside a historic theatre
+        text: "Candor fills the 2nd and 3rd floors of the **Lyceum Theatre**, one of Shanghai's oldest Western-style theatres (SmartShanghai calls it \"the oldest theatre in China\"): a piano lounge below, the stage above."
+  - type: prose
+    title: The legal version of a themed night
+    dropcap: true
+    text: |-
+      What you liked about Psyche was the costume, the set and the act. In China the version that stays legal is a show: Candor is a cabaret and burlesque lounge, with a bar, a stage and ticketed seats. Nothing beyond the show and the drinks is on sale, and you're a paying audience member, not a client.
+
+      It suits a weekend night in Shanghai: **Fri 11 or Sat 12 Dec at 20:00**. The backup is **Sun 6 Dec at 19:00**, your first day in town; Wednesday the 9th works only if you push Huangshan back. Sun 13 Dec is out: that's your train to Beijing. Buy a standing or shared-table ticket online, then call if you want a table; a ¥500 minimum spend applies to the front tables.
+  - type: book_ahead
+    steps:
+      - { days_before: 3, text: "Buy the ¥200 ticket on the **SmartShanghai** page (or app) for your night." }
+      - { days_before: 2, text: "Want to sit? Call **021-5418 8806** during opening hours with your ticket; front tables have a ¥500 minimum spend." }
+      - { days_before: 0, text: "Arrive before the start (20:00 Wed–Sat, 19:00 Sun) and go up to the 2nd floor of the Lyceum." }
+  - type: cost_breakdown
+    items:
+      - { label: "Standing or shared-table ticket", local: 200, brl: 171.16 }
+      - { label: "One cocktail", local: 100, brl: 85.58, optional: true, estimate: true }
+      - { label: "Metro there and back", local: 6, brl: 5.13, optional: true, estimate: true }
+  - type: menu
+    title: Tickets and drinks
+    items:
+      - { name: "Standing / shared table", price_local: 200, price_brl: 171.16, note: "Per person (2026 ticket page)", tag: cheap }
+      - { name: "Front table", price_local: 500, price_brl: 427.9, note: "Minimum spend per table, on top of tickets" }
+      - { name: "Craft cocktail", price_local: 100, price_brl: 85.58, note: "\"Roughly ¥100\" (SmartShanghai); ¥98–128 in 2023" }
+    note: "Prices from SmartShanghai's 2026 pages; 2023 reviews list the same ¥200 entry."
+  - type: map
+    note: "Enter the **Lyceum Theatre** (兰心大戏院) at the corner of Maoming Road and Changle Road and go up to the 2nd floor. About 5 min from South Shaanxi Road metro."
+  - type: tips
+    variant: insider
+    items:
+      - "Go Friday or Saturday: That's Shanghai says the 2nd-floor piano lounge has live piano those nights, before or after the show."
+      - "On Sun 6 Dec the show starts earlier, at 19:00: an easy first night after arriving."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** a licensed cabaret show; nothing beyond the ticket and drinks is sold. For context, buying sex in China carries 10–15 days' detention, up to ¥5,000 fine and expulsion for foreigners (Art. 78, Art. 10 of the 2026 law)."
+      - "The ticket doesn't guarantee a seat: without a table booking you may stand for two hours."
+      - "Drinks are extra: at about ¥100 each, two or three cocktails roughly double the night's cost. The front-table minimum spend is separate from the ticket."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: "Cool, damp and grey"
+    note: "Indoors at night. A cold walk from the metro, then a warm room."
+    wear: "A coat over something you'd go out in"
+  - type: pairs_well
+    items:
+      - { id: immersive-arcane-shanghai, note: "Punchdrunk's masked Arcane show, a short taxi west" }
+      - { id: shanghai-nye-bund-and-clubs, note: "More Shanghai nightlife" }

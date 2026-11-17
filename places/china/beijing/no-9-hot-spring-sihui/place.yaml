@@ -1,0 +1,142 @@
+id: no-9-hot-spring-sihui
+name: "No. 9 Hot Spring: Beijing's 24h bathhouse"
+short_name: No. 9 Hot Spring
+name_local: 九号温泉生活馆
+name_romanized: Jiǔhào Wēnquán Shēnghuóguǎn
+country: china
+city: beijing
+area: "Chaoyang · Sihui"
+category: odd-local
+fame: hidden
+tags: [adult, xiyu-bathhouse, premium, overnight, late-night, buffet, sauna]
+kind: Do
+why: "Beijing's big 24-hour bathhouse: hot pools, saunas, a seafood buffet, Häagen-Dazs and a sleep capsule, from about ¥399 for 18 hours, while it's −5 °C outside."
+
+cost:
+  local: 458
+  currency: CNY
+  brl: 391.96
+  note: "18-h weekday ticket ¥399 with one buffet meal, plus ¥59 to stay 02:00–06:00 (Trip.com reviewers). Weekends ¥499–539"
+fx: { rate: 0.8558, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "Overnight, 12–18 h"
+best_time: "Arrive 17:00 on a weekday, leave after breakfast"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Open 24 hours, every day (Trip.com FAQ, reseller listing). 18-hour and 6-hour tickets"
+  winter: "No winter closures found. Reviewers say the outdoor pools, salt room and stone room may close around 22:00, so soak outside first. Business was strong in mid-January 2026, with a queue in the lobby (Economic Observer). Weekend and holiday tickets cost more."
+
+location:
+  address: "No. 9 Tonghui Riverside, east of Sihui Bridge, Chaoyang District, Beijing"
+  address_local: "北京市朝阳区四惠桥东 通惠河畔 九号温泉生活馆"
+  lat: 39.90369
+  lng: 116.49577
+  approximate: true
+  nearest_transit: "Sihui (Line 1 / Batong Line), Exit B, then a 15–20 min walk or a short Didi"
+
+sources:
+  - url: https://www.trip.com/moments/poi-no-9-hot-spring-lifestyle-pavilion-136010176/
+    title: "No. 9 Hot Spring (Trip.com reviews): 18-h ¥378–439 weekday, ¥499–539 weekend; buffet; ¥59 02:00–06:00; massages extra; Sihui Exit B"
+    checked: 2026-11-16
+  - url: https://www.trip.com/moments/detail/beijing-1-146703636/
+    title: "18 Hours of Paradise (Trip.com post on No. 9): ¥399 weekday, open-air pools 36–40 °C, swimsuit, 3rd-floor capsules, passport"
+    checked: 2026-11-16
+  - url: https://intochinatrip.com/chinese-bathhouse-guide-2026/
+    title: "Chinese Bathhouse Guide 2026 (IntoChinaTrip): No. 9, 18 h from ¥399 with buffet; foreign passports check in, overnight too"
+    checked: 2026-11-16
+  - url: https://www.36kr.com/p/3648468196855684
+    title: "Beijing bathhouse boom (Economic Observer via 36Kr, 21 Jan 2026): No. 9 40,000 m², seafood buffet, well water at 48 °C"
+    checked: 2026-11-16
+  - url: https://www.waug.com/en/activities/161870
+    title: "No.9 Hot Spring ticket (WAUG reseller): No. 9 Tonghui Riverside, east of Sihui Bridge; open 24 h; massages extra"
+    checked: 2026-11-16
+  - url: https://www.openstreetmap.org/?mlat=39.90369&mlon=116.49577#map=18/39.90369/116.49577
+    title: "九号温泉生活馆 on OpenStreetMap (node at the venue)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Beijing: climate table (Wikipedia)"
+    checked: 2026-11-16
+  - url: https://gaj.beijing.gov.cn/wsgs/2024zcwj/zcfg/202506/t20250630_4134266.html
+    title: "治安管理处罚法 (2025 revision, in force 1 Jan 2026), full text: Art. 10 (foreigners expelled), Art. 78 (卖淫、嫖娼) (Beijing police)"
+    checked: 2026-11-16
+  - url: https://zh.wikisource.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%87%BA%E5%A2%83%E5%85%A5%E5%A2%83%E7%AE%A1%E7%90%86%E6%B3%95
+    title: "中华人民共和国出境入境管理法, full text: Art. 81 (order to leave, deportation, 10-year re-entry ban) (Wikisource)"
+    checked: 2026-11-16
+  - url: https://www.state.gov/reports/2026-trafficking-in-persons-report/china
+    title: "2026 Trafficking in Persons Report: China (US State Dept): police detain foreigners on prostitution suspicion, then deport them"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Prices are from Trip.com reviewers and a 2026 guide, not the venue's own list: Dianping, Meituan, Klook were bot-walled. Reviewer posts are undated. Compared with Shuiguo Gaobeidian (no meals in ticket) and Qushui Lanting (over ¥1,000). No prostitution news found for No. 9. Pin is the OSM node. Trip.com posts read via WebFetch. State Dept TIP page: 403 to plain fetches, opens in a browser."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: tonghui-river
+    caption: "The Tonghui River in Chaoyang, near Sihui; no free photo of the bathhouse itself"
+    hook: "Soak outdoors in 36–40 °C spring pools, eat crab in pajamas, sleep in a capsule while Beijing freezes."
+  - type: quick_facts
+    time_needed: "Overnight, 12–18 h"
+    best_time: "Weekday, from 17:00"
+    extra:
+      - { label: Slot, value: "Mon 14 or Tue 15 Dec night", detail: "Any Beijing night (13–15 Dec) works; Sun 13 is likely the weekend price" }
+      - { label: Bring, value: "Passport + swimsuit", detail: "Passport to register; swimsuit for outdoor pools (or buy one there)" }
+      - { label: Sleep, value: "Capsule or recliner", detail: "In shared rest areas; private rooms cost extra" }
+  - type: highlights
+    items:
+      - title: The biggest one on the strip
+        text: "The Economic Observer (Jan 2026) counts four bathhouses on one street; No. 9 is the biggest at **40,000 m²**, and the only one with a natural outdoor spring: 2,000 m² of pools fed by 48 °C well water. A reviewer puts the open-air pools at **36–40 °C**, swimsuit required."
+      - title: Dinner is in the ticket
+        text: "Reviewers list breakfast 07:00–09:00, lunch **or** dinner buffet, and a late-night snack around 23:30–01:30. The buffet has oysters, crab and Peking duck; fruit, drinks, yogurt and Häagen-Dazs are unlimited. A second main meal is ¥99."
+      - title: A cheap, warm bed
+        text: "Stay from 02:00 to 06:00 for ¥59 more and sleep in a capsule or recliner in the rest areas. On a −5 °C night, a hot soak and a capsule cost about what a hostel bed plus dinner would."
+      - title: The legal option
+        text: "This is a family bathhouse: the Economic Observer saw parents with children queueing in the lobby. Massage here is a priced body massage added to your wristband, nothing else."
+  - type: prose
+    title: How a night goes
+    dropcap: true
+    text: |-
+      **Check in.** Show your passport at the desk. You get a wristband that opens your locker, and anything extra goes on it. You settle the wristband when you leave. Reviewers describe buying the ticket at the desk; Meituan or Dianping may be cheaper.
+
+      **Soak.** As is typical of Chinese bathhouses, the indoor bathing areas are single-sex and nude. Shower, then go outside first while the outdoor pools are open, then the saunas (up to 90 °C).
+
+      **Eat and lounge.** Change into the pajamas and go up to the buffet and the mixed lounges: games, films, billiards (some reviewers paid extra for billiards and PlayStation).
+
+      **Sleep.** Pick a capsule on the 3rd floor or a recliner. You pay the ¥59 night fee if you are still inside between 02:00 and 06:00. Breakfast is from 07:00, then a last soak. Beijing is fixed on your route, so any of the nights of **13, 14 or 15 Dec** works; Mon 14 or Tue 15 get the weekday price.
+  - type: quote
+    variant: vibe
+    text: "Steam rising off an outdoor pool at midnight, minus five in the air, a plate of crab waiting inside."
+  - type: cost_breakdown
+    items:
+      - { label: "18-hour ticket, weekday (with one buffet meal)", local: 399, brl: 341.46 }
+      - { label: "Night fee, inside 02:00–06:00", local: 59, brl: 50.49 }
+      - { label: "Second main meal", local: 99, brl: 84.72, optional: true }
+  - type: map
+    note: "Search **九号温泉生活馆** in Amap or Didi. Reviewers say the walk from Sihui Exit B takes 15–20 min, and most take a short taxi."
+  - type: tips
+    variant: insider
+    items:
+      - "Go on a **weekday**: reviewers paid ¥378–439 Monday to Thursday and ¥499–539 on weekends and holidays."
+      - "Pick dinner as your included meal (18:00–21:00); the late-night snack and breakfast come after it."
+      - "A 6-hour ticket exists (reviewers: ¥369 weekdays) but costs almost as much as 18 hours. Take the 18."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** Since 1 Jan 2026, Art. 78 of China's revised Public Security Administration Punishments Law gives 10–15 days' detention and up to ¥5,000 fine for buying sex; foreigners can be expelled (Art. 10) and barred 10 years. This card is the legal option: no extras are sold or asked for."
+      - "Massages, scrubs, alcohol, private rooms and some games are **extra** and go on the wristband. Massages are often pricier than expected (one reviewer: \"significantly more expensive\"), so ask the price first."
+      - "Bring the **physical passport**: it is needed to register, overnight included."
+      - "Reviewer prices are undated and can change. Check the current ticket on Meituan or Dianping before you go."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: "Dry, sunny and below freezing"
+    note: "The cold is the point: 36–40 °C outdoor pools on a freezing night, then a warm capsule. You only walk to and from the taxi."
+    wear: "Down jacket for the trip; pajamas, towels and toiletries are provided"
+  - type: pairs_well
+    items:
+      - { id: panjiayuan-mao-memorabilia, note: "Same district: the weekend antiques market by day" }
+      - { id: 798-art-district, note: "Chaoyang galleries in the afternoon, the pools at night" }
+      - { id: beijing-xingshe-youth-hostel, note: "Skip one hostel night, or leave your bag there" }
