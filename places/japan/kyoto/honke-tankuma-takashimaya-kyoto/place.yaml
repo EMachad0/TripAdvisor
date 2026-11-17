@@ -1,0 +1,143 @@
+id: honke-tankuma-takashimaya-kyoto
+name: "Honke Tankuma: Kaiseki at Takashimaya"
+short_name: Honke Tankuma
+name_local: 本家 たん熊 京都高島屋店
+name_romanized: Honke Tankuma Kyoto Takashimaya-ten
+country: japan
+city: kyoto
+area: Shimogyō · Shijō-Kawaramachi
+category: food
+fame: hidden
+tags: [kaiseki, tasting-menu, kyoto-cuisine, course, lunch, solo-friendly]
+kind: Eat
+why: "A nine-dish Kyoto kaiseki from a century-old house for ¥9,900, lunch or dinner, on the 7th floor of Takashimaya. TableCheck books it for one."
+cost:
+  local: 9900
+  currency: JPY
+  brl: 353.93
+  note: "Wakamurasaki kaiseki, tax incl., via TableCheck; no service charge listed. Drinks extra"
+fx: { rate: 0.03575, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+time_needed: 1.5–2 h
+best_time: "Lunch, kaiseki last order 13:30 (UTC+9)"
+
+book_ahead:
+  required: true
+  lead_days: 1
+  lead_time: "Book at least one day ahead; only the kaiseki can be reserved"
+  method: platform
+  links:
+    - label: TableCheck (English)
+      url: https://www.tablecheck.com/en/shops/tankuma-kyototakashimaya/reserve
+      note: "Adults from 1; each kaiseki can be ordered for 1–9 people"
+  notes: "Your card is held at booking, not charged; it must support 3-D Secure. You pay on the day. Only the kaiseki can be booked online."
+
+hours:
+  summary: "Daily 11:00–15:30 and 17:00–21:30 (UTC+9); kaiseki last order 13:30 at lunch, 19:30 at dinner"
+  closed: "January 1 and 2"
+  winter: "Closed only Jan 1–2, and Dec 31 runs short hours, all before your Kyoto days (about Feb 2–5). No closures are listed for early February."
+
+location:
+  address: "7F Kyoto Takashimaya, 52 Shinchō, Shijō-dōri Kawaramachi Nishi-iru, Shimogyō-ku, Kyoto"
+  address_local: 京都府京都市下京区四条通河原町西入ル真町52 京都タカシマヤ7階
+  lat: 35.00307
+  lng: 135.76843
+  nearest_transit: "Kyoto-kawaramachi (Hankyu), direct underground link"
+  approximate: true
+
+sources:
+  - url: https://www.tablecheck.com/en/shops/tankuma-kyototakashimaya/reserve
+    title: "Honke Tankuma Kyoto Takashimaya — TableCheck booking (hours, cancellation, adults from 1, kaiseki ¥9,900–14,300 tax incl.)"
+    checked: 2026-11-16
+  - url: https://www.tablecheck.com/en/tankuma-kyototakashimaya
+    title: "Honke Tankuma Kyoto Takashimaya — TableCheck restaurant page (course contents, 9–10 dishes)"
+    checked: 2026-11-16
+  - url: https://tankuma.jp/en/takashimaya/
+    title: "Honke Tankuma official site — Kyoto Takashimaya branch (seating, access, hours, not Tankuma Kitamise)"
+    checked: 2026-11-16
+  - url: https://tankuma.jp/
+    title: "Honke Tankuma official site (Japanese): 100 years since founding, fourth-generation owner from Sept 2026"
+    checked: 2026-11-16
+  - url: https://www.takashimaya.co.jp/kyoto/specialtystores/restaurant/shop/70002
+    title: "Kyoto Takashimaya SC — Honke Tankuma shop page (7F, 58 table seats, hours)"
+    checked: 2026-11-16
+  - url: https://myconciergejapan.com/restaurants/honke-tankuma-takashimaya/
+    title: "My Concierge Japan — Honke Tankuma Takashimaya (tagged 'Solo Diner Accepted', no counter)"
+    checked: 2026-11-16
+  - url: https://tabelog.com/en/kyoto/A2601/A260201/26004852/
+    title: "Honke Tankuma Kyoto Takashimaya — Tabelog (3.42 from 77 reviews)"
+    checked: 2026-11-16
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=61&block_no=47759"
+    title: "JMA: climate normals 1991–2020, Kyoto (January–February)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Prices and rules from TableCheck (courses valid from Sep 1); no Michelin listing found for this branch. The official English page still shows older prices (¥8,800/¥11,000). No source mentions a service charge for this branch; TableCheck marks the prices 'Tax incl.' only. Solo: TableCheck accepts 1 adult and 1 course, and My Concierge Japan tags it solo-friendly. No English menu is mentioned."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: takashimaya
+    caption: "Kyoto Takashimaya; the restaurant is on the 7th floor (no free photo inside)"
+    hook: Course after course of Kyoto kaiseki, above the Shijo crossing.
+  - type: quick_facts
+    time_needed: 1.5–2 h
+    best_time: "Lunch, by 13:30 (UTC+9)"
+    extra:
+      - { label: Course, value: 9 dishes, detail: "Appetizer, sashimi, soup, stew, steamed, fried, rice set, dessert" }
+      - { label: Solo, value: "Yes, 1 adult", detail: "TableCheck's picker starts at 1 and each course at 1" }
+      - { label: Out of place?, value: A little, detail: "A calm table room in a department store; no counter" }
+  - type: highlights
+    items:
+      - title: Kaiseki as a tasting menu
+        text: "The **Wakamurasaki** course is **nine dishes** in order: appetizer, sashimi, clear soup, a simmered dish, a steamed dish, something fried, rice with pickles and soup, then dessert. The ¥12,100 and ¥14,300 courses add grilled and vinegared dishes."
+      - title: The almost-as-good tier
+        text: "This is the department-store branch of **Honke Tankuma**, a Kyoto restaurant that counts **100 years** since its founding. Its own pages call the founder the 'god of Kyoto cuisine'. I found no Michelin listing for this branch: you pay for the cooking, not for prestige."
+      - title: Same price at lunch and dinner
+        text: "The kaiseki costs the same all day, so take it at lunch and spend the evening elsewhere. The branch has served its **oyakodon** for over 60 years, if you want the cheap walk-in version."
+      - title: Why go over the R$170 day
+        text: "About **R$354**, two days of budget, for the full kaiseki sequence in Kyoto, booked online in English, at a table of your own."
+  - type: gallery
+    images:
+      - { file: shijo-kawaramachi, caption: "The Shijō-Kawaramachi crossing outside Takashimaya" }
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "On **TableCheck**, choose **1 adult**, a time before the kaiseki last order and the **Wakamurasaki** course (qty 1)."
+      - days_before: 2
+        text: "From 72 hours before, cancelling costs **30%**; from 48 hours, **50%**; within 24 hours, **100%**."
+      - days_before: 0
+        text: "Go to **Takashimaya 7F** and pay at the end of the meal."
+  - type: menu
+    title: The kaiseki courses (tax included)
+    items:
+      - { name: Wakamurasaki, name_local: 若紫, price_local: 9900, price_brl: 353.93, note: "9 dishes", tag: signature }
+      - { name: Matsukaze, name_local: 松風, price_local: 12100, price_brl: 432.58, note: "10 dishes, adds grilled and vinegared" }
+      - { name: Aoi, name_local: 葵, price_local: 14300, price_brl: 511.23, note: "10 dishes, with a side dish instead of the fried one" }
+    note: "Same price at lunch and dinner. Drinks are extra and not priced online."
+  - type: cost_breakdown
+    items:
+      - { label: Wakamurasaki kaiseki, local: 9900, brl: 353.93 }
+    note: "No service charge is listed for this branch. Book on TableCheck: My Concierge Japan adds its own ¥1,650 seating fee. Drinks not included."
+  - type: map
+    note: "Inside **Kyoto Takashimaya**, 7th floor. Reached underground from **Kyoto-kawaramachi** (Hankyu) or 5 min on foot from Gion-Shijō (Keihan)."
+  - type: tips
+    variant: insider
+    items:
+      - "Lunch and dinner kaiseki cost the same, so a **12:00 (UTC+9)** booking leaves the whole afternoon free."
+      - "For the cheaper dishes, like the oyakodon, just walk in; there's no booking for them. Tabelog reviewers report spending ¥3,000–4,000 on average."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Tankuma Kitamise** is a different restaurant group nearby. Booking here and eating there counts as a no-show."
+      - "No halal, vegetarian, kosher or gluten-free menu at this branch; the main shop handles those."
+      - "Kaiseki last order is **13:30 (UTC+9)** at lunch and **19:30 (UTC+9)** at dinner, well before closing."
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 10
+    conditions: Cold and mostly dry
+    note: "Indoors the whole time, linked to the station underground."
+    wear: "Smart casual, no strong perfume (My Concierge Japan's rule)"
+  - type: pairs_well
+    items:
+      - { id: kiyomizu-dera, note: "Kyoto's postcard temple for the afternoon" }
+      - { id: ramen-touhichi-shugakuin, note: "Kyoto's clear chicken ramen for a cheap dinner" }

@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: qiantan-taikoo-li
+  title: File:Taikoo Li Qiantan.jpg
+  author: 钉钉
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Taikoo_Li_Qiantan.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/22/Taikoo_Li_Qiantan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Taikoo Li Qiantan
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: lions-head
+  title: File:狮子楼狮子头.jpg
+  author: 三猎
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E7%8B%AE%E5%AD%90%E6%A5%BC%E7%8B%AE%E5%AD%90%E5%A4%B4.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/15/%E7%8B%AE%E5%AD%90%E6%A5%BC%E7%8B%AE%E5%AD%90%E5%A4%B4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​扬州狮子楼的狮子头。
+  width: 5120
+  height: 3296
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: dazhu-gansi
+  title: File:Braised Shredded Chicken with Ham and Dried Tofu 2011-04.JPG
+  author: 猫猫的日记本
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Braised_Shredded_Chicken_with_Ham_and_Dried_Tofu_2011-04.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e6/Braised_Shredded_Chicken_with_Ham_and_Dried_Tofu_2011-04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​大煮干丝，淮扬菜代表之一，摄于扬州淮扬菜博物馆。
+  width: 4320
+  height: 3240
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: eel
+  title: File:Ricefield eel tail with grated garlic.jpg
+  author: Zheng Zhou
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ricefield_eel_tail_with_grated_garlic.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Ricefield_eel_tail_with_grated_garlic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ricefield eel tail with grated garlic
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons

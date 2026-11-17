@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: insadong-gil
+  title: File:Seoul, Jongno District, Insa-dong, Insadong-gil.jpg
+  author: Dr. Thomas Liptak
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Seoul,_Jongno_District,_Insa-dong,_Insadong-gil.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Seoul%2C_Jongno_District%2C_Insa-dong%2C_Insadong-gil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Seoul : Jongno District , Insa-dong , Insadong-gil"
+  width: 6000
+  height: 3375
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons

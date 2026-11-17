@@ -1,0 +1,29 @@
+# Independent review of sanchon-temple-food-insadong. Written by `./atr review`; do not edit by hand.
+id: sanchon-temple-food-insadong
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: a8239c9758a940955964131b69bd37c5d67b58b0e71459b34f55c92ac4dea111
+facts:
+  supported: 13
+  unsupported: 4
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[2].items[0].text
+    problem: The dish sequence (porridge, crispy seaweed, 'seven kinds of mountain vegetables') matches Catchtable's description of the ₩33,000 'Mountain Village Temple Cuisine' set. The official site lists different dishes for the ₩29,000 set (water kimchi, bing, tofu jelly, deodeok, chop suey, fries, rice, stew, tea, yukwa), and quick_facts extra[0] repeats the Catchtable list.
+    evidence: http://www.sanchon.com/en/sub02/sub02_01.php — "Sanchon Set Menu Appitizer Water kimchi Bing All kind of vegetables Kimchi … Bibimbap 15,000won / Temple set meal 29,000won"; https://www.catchtable.net/shop/Y2F0Y2hfc2I5dUphRWpVWmJ3M2lJVlFnM3JvUT09/menus — "Mountain Village Temple Cuisine … Assorted mountain vegetables (7 kinds) … ₩ 33,000"
+    fix: Describe the ₩29,000 set with the official site's dish list, or say the porridge and seven-greens line-up belongs to the ₩33,000 Catchtable set.
+  - severity: nit
+    field: hours.summary
+    problem: "The page gives both closing times, but a recent review backs the earlier one: an Oct 2026 HappyCow reviewer says it closed about an hour before the listed 22:00. That matches Visit Seoul's 21:00."
+    evidence: 'https://www.happycow.net/reviews/sanchon-seoul-5929 — AntKochevnik, 02 Oct 2026: "closed a good hour earlier than the time listed here on HC"'
+    fix: "Add one line: for dinner, arrive by 20:00 (UTC+9), because it may close at 21:00 (UTC+9)."
+  - severity: nit
+    field: blocks[8].items[1]
+    problem: "'It was only ever at 20:00' rests only on a HappyCow photo caption. The official site says only that the evening performance stopped because of COVID-19."
+    evidence: http://www.sanchon.com/en/sub02/sub02_01.php — "We're stopping the evening performance because of the covid 19."
+    fix: Drop 'It was only ever at 20:00' and keep the line that the evening show is suspended.
+summary: "Official site supports the ₩29,000 set (VAT in, same at lunch and dinner), ₩15,000 bibimbap, 11:30–22:00 (UTC+9) all year, the address, Anguk and phone-only booking. Other sources back solo, cash-only, monk owner and weather. Official site and Catchtable opened only via ./atr render, and the desktop dark shot failed because the page was not built. Only nits remain: dish list, likely 21:00 close, show line."
+model: claude-opus-5-5
+cost_usd: 0.904

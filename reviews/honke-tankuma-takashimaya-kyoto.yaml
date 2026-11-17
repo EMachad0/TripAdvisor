@@ -1,0 +1,29 @@
+# Independent review of honke-tankuma-takashimaya-kyoto. Written by `./atr review`; do not edit by hand.
+id: honke-tankuma-takashimaya-kyoto
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 685cf30b4517ffedd552f56d4ff79d65a401474547cbc9f969b27f07cf9c192d
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[13].wear
+    problem: The edit removed 'no perfume'. The source this line now cites also says "Guests wearing strong perfume or cologne will be denied entry."
+    evidence: 'https://myconciergejapan.com/restaurants/honke-tankuma-takashimaya/ — Dresscode row: "Smart Casual required" … "Guests wearing strong perfume or cologne will be denied entry."'
+    fix: Change to 'Smart casual, no strong perfume (My Concierge Japan's rule)'.
+  - severity: nit
+    field: blocks[9].items[1]
+    problem: Tabelog's ¥3,000–3,999 is the average spend across all reviews, kaiseki diners included, not the cost of the walk-in dishes. Placed next to the oyakodon, it reads as the price of those dishes.
+    evidence: 'https://tabelog.com/en/kyoto/A2601/A260201/26004852/ — "Average price (Based on reviews): JPY 3,000 - JPY 3,999"'
+    fix: Say 'Tabelog reviewers report spending ¥3,000–4,000 on average' so it is not read as the walk-in menu price.
+resolved:
+  - field: cost.note
+    problem: The page says no service charge is listed and confidence_note says no source mentions one. But My Concierge Japan, a listed source, shows a ¥1,650 per-person seating charge, and the page never explains it. That is a 17% gap on the headline price, and the page does not say whether the charge applies to a TableCheck booking.
+    evidence: "cost_breakdown.note now says to book on TableCheck because My Concierge Japan adds its own ¥1,650 seating fee. The source supports this: https://myconciergejapan.com/restaurants/honke-tankuma-takashimaya/ has a row labelled 'Concierge Service Fee' that reads \"Seating charge of ¥1,650 per person\". Neither TableCheck page (https://www.tablecheck.com/en/shops/tankuma-kyototakashimaya/reserve or https://www.tablecheck.com/en/tankuma-kyototakashimaya) mentions a service, seating or cover charge, and both label the prices only \"Tax incl.\". cost.note now says 'via TableCheck'."
+rereview_of: 0308b5e99e4b0de182fe292e21976f1cbed9644f41dbe3dbacbb670518f89008
+summary: "The earlier should on the ¥1,650 My Concierge Japan fee is resolved: the page now tells the traveler to book on TableCheck, and both TableCheck pages show tax-included prices with no service charge. All the new text checks out against its sources. Only two wording nits are left. One unchanged line is now out of date: confidence_note still says no source mentions a service charge. The fix belongs there, but this re-review does not raise it as an issue."
+model: claude-opus-5-5
+cost_usd: 0.472

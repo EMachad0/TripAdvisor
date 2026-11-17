@@ -1,0 +1,137 @@
+id: yakitori-matsuoka-osaka
+name: "Yakitori Matsuoka: Black Chicken Omakase"
+short_name: Yakitori Matsuoka
+name_local: やきとり松岡
+name_romanized: Yakitori Matsuoka
+country: japan
+city: osaka
+area: Chūō · Tōhei (Uehommachi)
+category: food
+fame: hidden
+tags: [yakitori, omakase, tasting-menu, counter, michelin-selected, solo-friendly]
+kind: Eat
+why: "About 20 courses of one rare black Satsuma chicken, grilled over binchōtan at a 9-seat counter. ¥12,936 with service; TableCheck takes a booking for one."
+cost:
+  local: 12936
+  currency: JPY
+  brl: 462.46
+  note: "¥12,320 omakase incl. tax + 5% service; drinks extra"
+fx: { rate: 0.03575, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+time_needed: 2 h (seat limit)
+best_time: "18:00 (UTC+9) seating"
+
+book_ahead:
+  required: true
+  lead_days: 45
+  lead_time: "Book as soon as your Osaka dates are fixed; they're already on sale"
+  method: platform
+  links:
+    - label: TableCheck (English)
+      url: https://www.tablecheck.com/en/yakitori-matsuoka/reserve
+      note: "Party size starts at 1. Up to 9 guests online"
+  notes: "The cancellation fee appears only once you pick a course on TableCheck; it isn't published anywhere else. No children under 15 (official site)."
+
+hours:
+  summary: "Two seatings: 18:00 and 20:30 (UTC+9), 2 h each"
+  closed: "Mondays and some irregular days"
+  winter: "No winter notice on the official site. Your Osaka days (about Jan 29 – Feb 2) have no national holiday; Monday Feb 1 is the regular closing day. The chicken can't be delivered in bad weather, and the restaurant warns it may close then."
+
+location:
+  address: "102 Uemachidai Yoshizumi Heights, 1-4-17 Tōhei, Chūō-ku, Osaka"
+  address_local: 大阪府大阪市中央区東平1-4-17 上町台吉住ハイツ102
+  lat: 34.66995
+  lng: 135.51833
+  nearest_transit: "Tanimachi 6-chōme or 9-chōme (Tanimachi Line), 7 min walk"
+  approximate: true
+
+sources:
+  - url: https://www.yakitori-matsuoka.com/
+    title: "Yakitori Matsuoka official site (¥12,320 course, ~20 dishes, 5% service, 9 seats, hours, Michelin 2025–26, May 2026 price rise)"
+    checked: 2026-11-16
+  - url: https://www.tablecheck.com/en/yakitori-matsuoka
+    title: "Yakitori Matsuoka — TableCheck (20-course Yakitori OMAKASE, ¥12,320 and ¥13,200, Svc excl.)"
+    checked: 2026-11-16
+  - url: https://www.tablecheck.com/en/yakitori-matsuoka/reserve
+    title: "Yakitori Matsuoka — TableCheck booking page (120 days ahead, up to 9 guests, party size from 1, simultaneous start)"
+    checked: 2026-11-16
+  - url: https://guide.michelin.com/en/osaka-region/osaka/restaurant/yakitori-matsuoka
+    title: "MICHELIN Guide — Yakitori Matsuoka (listed, ¥¥¥, 'Good for: Solo dining')"
+    checked: 2026-11-16
+  - url: https://tabelog.com/en/osaka/A2701/A270205/27134629/
+    title: "Yakitori Matsuoka — Tabelog (3.69, Yakitori WEST Tabelog 100 2024–2026, English menu, opened 2023)"
+    checked: 2026-11-16
+  - url: https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+    title: "Cabinet Office: national holidays of Japan (2027 list)"
+    checked: 2026-11-16
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=62&block_no=47772"
+    title: "JMA: climate normals 1991–2020, Osaka (January–February)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Price: the homepage shows ¥12,320 now (its May 2026 notice said ¥12,100; Tabelog still ¥11,000); TableCheck also lists ¥13,200. Solo: TableCheck's guest picker lists party size 1–9 once opened (./atr render, click '2 Guests'); Michelin's page renders in Chrome, not WebFetch, and shows 'Good for: Solo dining'. Cancellation fee not readable. Lead time is my margin."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    hook: One chicken breed, about twenty courses, and a counter of nine.
+  - type: quick_facts
+    time_needed: 2 h seating
+    best_time: "18:00 (UTC+9)"
+    extra:
+      - { label: Course, value: About 20 dishes, detail: "Skewers of every cut plus soup, salad and dessert" }
+      - { label: Solo, value: "Yes, 1 guest", detail: "TableCheck party size starts at 1; Michelin: good for solo" }
+      - { label: Out of place?, value: "No", detail: "Small hidden counter; English menu; no dress rule listed" }
+  - type: highlights
+    items:
+      - title: A tasting menu built on one bird
+        text: "The whole course uses **Kuro-Ou**, a black Satsuma chicken, with the rare parts too: heart, gizzard, tail, wing and shoulder. The official site counts **about 20 dishes**; Tabelog's listing adds soup, salad and dessert."
+      - title: Everyone starts together
+        text: "Nine counter seats and **two seatings a night**, at 18:00 and 20:30 (UTC+9). The chef grills over Kishu binchōtan for the whole counter at once, so it feels like a dinner course, not an izakaya."
+      - title: The almost-as-good tier
+        text: "In the **Michelin Guide Kyoto–Osaka 2025 and 2026** without a star, and on Tabelog's **Yakitori WEST top 100** for 2024–2026 (3.69)."
+      - title: Why go over the R$170 day
+        text: "About **R$462** with the 5% service: close to three days of budget, for the one yakitori dinner that tastes a single chicken from end to end."
+  - type: quote
+    variant: vibe
+    text: Charcoal smoke, nine stools, and the next skewer already on the grill.
+  - type: book_ahead
+    steps:
+      - days_before: 45
+        text: "Book now: open Matsuoka on **TableCheck**, set **party size 1**, and pick the 18:00 or 20:30 (UTC+9) seating. TableCheck opens **120 days** ahead, so your dates are on sale. Only 9 seats."
+      - days_before: 1
+        text: "Check the cancellation terms TableCheck shows when you book. Fully booked? Watch the restaurant's Instagram stories for freed seats."
+      - days_before: 0
+        text: "Arrive before your seating: the course starts for everyone at once."
+  - type: menu
+    title: The course (tax included)
+    items:
+      - { name: Kuro-Ou Yakitori Omakase, name_local: 黒王 焼鳥おまかせコース, price_local: 12320, price_brl: 440.44, note: "About 20 dishes; 5% service added", tag: signature }
+    note: "Drinks are extra; TableCheck mentions rare sake such as Jūyondai, but drink prices aren't online. TableCheck also lists a ¥13,200 version without saying why."
+  - type: cost_breakdown
+    items:
+      - { label: Kuro-Ou omakase course, local: 12320, brl: 440.44 }
+      - { label: 5% service charge, local: 616, brl: 22.02 }
+    note: "Drinks not included."
+  - type: map
+    note: "A quiet residential block, about **7 min** on foot from Tanimachi 6-chōme or 9-chōme (Tanimachi Line) and from Kintetsu Osaka-Uehommachi."
+  - type: tips
+    variant: insider
+    items:
+      - "Take the **18:00 (UTC+9)** seating: the 2-hour seat ends at 20:00 (UTC+9), with the evening still ahead."
+      - "The restaurant posts cancelled seats on **Instagram stories**; useful if TableCheck shows your night full."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Closed Mondays** and some irregular days; check the calendar for Feb 1."
+      - "No vegetarian or gluten-free menu, and guests with two or more allergies get fewer dishes."
+      - "Late arrivals join the course in the middle and miss what's already been served."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: Cool and mostly dry
+    note: "Indoors at the grill; a 7 min walk from the subway."
+    wear: Warm coat; clothes that can take some charcoal smoke
+  - type: pairs_well
+    items:
+      - { id: aka-to-shiro-kitashinchi, note: "Osaka's sushi counter version of a course dinner" }
+      - { id: tenma-standing-bars, note: "Cheap drinks after, if you want the night to go on" }

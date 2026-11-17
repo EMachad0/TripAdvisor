@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: takashimaya
+  title: File:Takashimaya-Kyoto-01.jpg
+  author: J o
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source_url: https://commons.wikimedia.org/wiki/File:Takashimaya-Kyoto-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/89/Takashimaya-Kyoto-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Photograph of Takashimaya Kyoto store in Shimogyo-ku, Kyoto, Kyoto Prefecture, Japan.
+  width: 2669
+  height: 1779
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons
+- file: shijo-kawaramachi
+  title: File:Takashimaya Kyoto 20200405120216.jpg
+  author: inunami
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Takashimaya_Kyoto_20200405120216.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9b/Takashimaya_Kyoto_20200405120216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: View of the Shijo Kawaramachi intersection and Takashimaya Kyoto department store
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-16
+  origin: commons

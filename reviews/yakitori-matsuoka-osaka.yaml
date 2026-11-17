@@ -1,0 +1,19 @@
+# Independent review of yakitori-matsuoka-osaka. Written by `./atr review`; do not edit by hand.
+id: yakitori-matsuoka-osaka
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: a6ec8b302edd6036496aef3c252bf3513168d5086ecfe08844c2e4640d363510
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[5].steps[0].text
+    problem: The new text says booking opens '90–120 days ahead (the official site and TableCheck differ)'. No listed source gives 90 days. The official homepage, its call-reservation page and its Michelin 2026 post state no booking window, and TableCheck says only 120 days.
+    evidence: "The 90-day figure is gone. blocks[5].steps[0].text now says 'TableCheck opens 120 days ahead', which matches https://www.tablecheck.com/en/yakitori-matsuoka/reserve: \"Reservations can be made up to 4 months (120 days) in advance\"."
+rereview_of: 2eda9fcc41923cfe6509112aebe8469b248f66cc1ac5a2e218683b400aea0503
+summary: "The one earlier finding is resolved. The booking step now gives the 120-day window from TableCheck, and the 18:00/20:30 (UTC+9) seatings match that page (\"1st seating: 6:00 PM\", \"2nd seating: 8:30 PM\"). A 120-day window from 2026-11-16 runs to mid-March 2027, so the traveler's Japan dates are already bookable. The edit added no unsupported fact."
+model: claude-opus-5-5
+cost_usd: 0.261

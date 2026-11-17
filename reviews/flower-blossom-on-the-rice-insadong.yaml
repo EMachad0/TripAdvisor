@@ -1,0 +1,32 @@
+# Independent review of flower-blossom-on-the-rice-insadong. Written by `./atr review`; do not edit by hand.
+id: flower-blossom-on-the-rice-insadong
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: a9d43590bbb64c17e6243244914f570477306a55332f8bcd72a5c8a542605b87
+facts:
+  supported: 5
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: sources
+    problem: The new highlight says Michelin's site doesn't list it (Nov 2026), but the Michelin page is not among the sources. It does say 'Restaurant not found' when rendered.
+    fix: Add https://guide.michelin.com/kr/en/seoul-capital-area/seoul/restaurant/a-flower-blossom-on-the-rice to sources with the note 'Restaurant not found, Nov 2026'.
+    evidence: https://guide.michelin.com/kr/en/seoul-capital-area/seoul/restaurant/a-flower-blossom-on-the-rice — "Restaurant not found"
+  - severity: nit
+    field: blocks[6].note
+    problem: It calls Sat 16 'your free' evening, but trip/days.json plans a Hwacheon day trip that day, so a dinner then is tight.
+    fix: Name Sun 17 as the easy dinner, or note that Sat 16 is the Hwacheon day.
+    evidence: 'trip/days.json 2027-01-16: "Free weekend: Hwacheon day trip."'
+resolved:
+  - field: blocks[6].title
+    problem: "The menu block is titled 'Lunch options', and the booking step says to order the Vegan Full Course at 11:30, but no source says the ₩62,000 course or the ₩85,000 rockfish course is served at lunch. Catchtable's store info points the other way: \"In the evening, guests can enjoy a variety of dishes and pairings, including vegetarian course meals\". Only the bojagi bibimbap set is marked \"[Lunch only]\". The doubt is only in confidence_note, which the traveler does not see."
+    evidence: "The menu block is now titled 'Menu (per person)'. Its note says no source confirms courses at lunch and offers dinner on Sat 16 or Sun 17 as the sure option, and the booking step says to ask in the request box or call +82 2 732 0276. Polle (https://polle.com/place/5eF7H1/...) has @skymin94: \"저흰 비건 하프코스에 식사는 보자기비빔밥으로 주문했어요\" (half course ordered with the bojagi bibimbap). Catchtable /menus still marks only the bibimbap \"[Lunch only]\"."
+  - field: why
+    problem: "'A Bib Gourmand pick' is stated as current fact. The only source is the restaurant's own site, which says \"Bib Gourmand for 8 consecutive years (2018 - 2025)\", and the curator's note says Michelin returned 'Restaurant not found'. Nothing confirms the 2026 guide."
+    evidence: why now says 'Bib Gourmand 2018–2025'. ./atr render of https://guide.michelin.com/kr/en/seoul-capital-area/seoul/restaurant/a-flower-blossom-on-the-rice shows "Restaurant not found … Restaurant details are not available in the MICHELIN Guide South Korea", which matches the new highlight line.
+rereview_of: b15f23145968257fddb973ddf15c191a648661c97c4dad3b42e71da800c72ddd
+summary: Both earlier findings are resolved. The menu block is retitled and says on the page that lunch courses are unconfirmed, with dinner as the fallback. The Bib Gourmand claim is now dated 2018–2025, and Michelin's own page confirms the restaurant is not listed now. The new ₩26,000 wild-greens set and the Polle quote check out on Catchtable and Polle. Only two nits remain.
+model: claude-opus-5-5
+cost_usd: 0.447

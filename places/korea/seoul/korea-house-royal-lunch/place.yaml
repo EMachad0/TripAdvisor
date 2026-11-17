@@ -1,0 +1,153 @@
+id: korea-house-royal-lunch
+name: "Korea House: royal-court lunch course"
+short_name: Korea House
+name_local: 한국의집
+name_romanized: Hanguk-ui Jip
+country: korea
+city: seoul
+area: Jung-gu · Pil-dong
+category: food
+fame: popular
+tags: [tasting-menu, royal-cuisine, hanjeongsik, korean-course, hanok, splurge, lunch, solo-friendly]
+kind: Eat
+why: "A 9-course Joseon royal-court lunch in a government-run hanok, menu by chef Cho Hee-sook. ₩120,000, and Catchtable books one guest."
+
+cost:
+  local: 120000
+  currency: KRW
+  brl: 512.88
+  note: "Main-hall lunch course per person (2026 notice). Drinks extra"
+fx: { rate: 0.004274, date: 2026-11-16, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: About 2 h
+best_time: "Tue–Sat lunch, 12:00 (UTC+9) seating"
+
+book_ahead:
+  required: true
+  lead_days: 14
+  lead_time: "Book once January dates open on Catchtable; a ₩50,000 deposit is taken"
+  method: app
+  links:
+    - label: Catchtable Global (English)
+      url: https://www.catchtable.net/shop/koreahouse
+      note: "Party size 1 offered 12:00, 12:30 and 13:00 (UTC+9) lunch slots"
+    - label: Korea House notice (Korean)
+      url: "https://www.kh.or.kr/brd/board/644/L/SITES/200/menu/558?brdType=R&bbIdx=119820"
+      note: "Prices, deposit rule; phone booking on +82 2 3011 9200"
+  notes: "Catchtable charges a ₩50,000 deposit per person for lunch. It is refunded at the restaurant and you pay the full bill there. Cancellation fees may apply."
+
+hours:
+  summary: "Lunch Tue–Sat 12:00–15:00 (last order 13:00), dinner 18:00–22:00 (last order 19:30), all UTC+9"
+  closed: "Sundays, Mondays, Seollal and Chuseok"
+  winter: "Closed Sun Jan 17 and Mon Jan 11 and 18. Tue Jan 12 – Sat Jan 16 and Tue Jan 19 are open for lunch. The menu listed here is the autumn menu (from Sep 15, 2026); expect a seasonal change by January."
+
+location:
+  address: 10 Toegye-ro 36-gil, Jung-gu, Seoul
+  address_local: 서울특별시 중구 퇴계로36길 10 (한국의집)
+  lat: 37.56024
+  lng: 126.99488
+  nearest_transit: "Chungmuro (Lines 3 / 4), Exit 3, 3 min walk"
+
+sources:
+  - url: "https://www.kh.or.kr/brd/board/644/L/SITES/200/menu/558?brdType=R&bbIdx=119820"
+    title: "Korea House notice, Sep 14, 2026: royal-cuisine dining autumn menu (lunch ₩120,000, Tue–Sat, Catchtable deposit, transit)"
+    checked: 2026-11-16
+  - url: https://www.kh.or.kr/combine/content/list/535
+    title: "Korea House: traditional Korean dining page (hours, closing days; advisor Cho Hee-sook, 2019 Michelin star at Hansikgonggan)"
+    checked: 2026-11-16
+  - url: https://www.kh.or.kr/jnrepo/namo/file/files/000004/20260914083608166_ULFKSUJL.pdf
+    title: "Korea House autumn lunch menu (PDF, Korean and English)"
+    checked: 2026-11-16
+  - url: https://www.catchtable.net/shop/koreahouse/info
+    title: "Catchtable Global: Korea House (about, hours, deposit system; party size 1 offered lunch slots on Nov 19, 2026)"
+    checked: 2026-11-16
+  - url: "https://www.kh.or.kr/brd/board/644/L/SITES/200/menu/558?brdType=R&bbIdx=119819"
+    title: "Korea House notice, Sep 14, 2026: Gohojae royal tea room, one-person dessert tray ₩30,000, booked on Catchtable"
+    checked: 2026-11-16
+  - url: https://www.koreatimes.co.kr/amp/lifestyle/travel-food/20241024/seouls-6-eateries-including-k-royal-cuisine-recognized-in-2025-blue-ribbon-survey
+    title: "Korea Times, Oct 2024: Korea House gets three ribbons in the 2025 Blue Ribbon Survey"
+    checked: 2026-11-16
+  - url: https://www.kh.or.kr/combine/content/list/550
+    title: "Korea House: traditional performance page (the troupe performs on request, no regular show listed)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Climate_of_Seoul
+    title: "Climate of Seoul (Wikipedia, KMA 1991–2020 normals)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Solo check (Nov 16): picking 1 guest for Thu Nov 19 on Catchtable showed the same lunch slots as 2 guests. No solo review found. Price and deposit are from the Sep 2026 notice; the January menu will be a new seasonal one, price unannounced. No Michelin listing found. 14 days is a margin, not a stated rule."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: main-hall
+    focus: "50% 65%"
+    caption: "Korea House's main hanok hall (an older photo)"
+    hook: Nine courses from the Joseon palace kitchen, eaten in a hanok at a quiet midday table, with no stage in sight.
+  - type: quick_facts
+    time_needed: About 2 h
+    best_time: "Tue–Sat, 12:00 (UTC+9)"
+    extra:
+      - { label: The meal, value: 9 courses, detail: "Porridge, abalone jeon, tteokgalbi, noodle hot pot, rib soup, hangwa" }
+      - { label: Solo, value: "Yes, book 1 guest", detail: "Catchtable offered lunch slots for 1" }
+      - { label: Out of place?, value: A little, detail: "A refined hanok dining room; neat casual is fine, no dress code published" }
+  - type: highlights
+    items:
+      - title: Why go over the R$140 day
+        text: "About **R$513**, almost four days of budget, for the one royal-court meal on this list. Dinner is ₩200,000, so lunch is the way in."
+      - title: The court menu, course by course
+        text: "The autumn lunch: pumpkin milk porridge, **abalone and shrimp jeon**, chicken and mung bean, seafood kimchi, **tteokgalbi**, a royal noodle hot pot, beef-rib soup with rice and side dishes, hazelnut sorbet, then **hangwa and tea**."
+      - title: Serious food, no star price
+        text: "Advisor chef **Cho Hee-sook** earned a Michelin star at her own Hansikgonggan; Korea House is one of six Seoul restaurants with **three Blue Ribbons** in the 2025 survey, and has no star."
+      - title: No show at the table
+        text: "Korea House is known for its dance troupe, but the dining page sells a meal only. The troupe performs on request, and no regular show is listed."
+  - type: prose
+    title: What it is
+    text: |-
+      Korea House is a government-run hanok complex in central Seoul. Its hanjeongsik follows Joseon **royal court** recipes, mixed with dishes from noble and common households, and is served course by course in a modern way.
+
+      The menu changes each season. The PDF menu has **English** names for every dish, so you know what each plate is.
+  - type: book_ahead
+    steps:
+      - days_before: 14
+        text: "On Catchtable, choose a **Tue–Sat** January date, **1 guest**, and 12:00 (UTC+9). Pay the **₩50,000 deposit**; note any allergies in the request box."
+      - days_before: 0
+        text: "Arrive by 12:00 (UTC+9); the last lunch order is 13:00. The deposit is refunded on the spot and you pay the full ₩120,000."
+  - type: menu
+    title: Autumn 2026 lunch course (changes by season)
+    items:
+      - { name: Pumpkin milk porridge, name_local: 호박타락죽, note: "With dried side dish and jang kimchi" }
+      - { name: Pan-fried abalone and shrimp, name_local: 전복새우지짐적, tag: must-try }
+      - { name: Grilled beef patties, name_local: 떡갈비, note: Tteokgalbi, tag: signature }
+      - { name: Royal court noodle hot pot, name_local: 면전탕 }
+      - { name: Beef rib soup with rice and side dishes, name_local: 가리국 반상 }
+      - { name: Hangwa and signature tea, name_local: 한과와 시그니처 차, note: "Tea: 'Wind of Damyang'" }
+      - { name: Lunch course (main hall), price_local: 120000, price_brl: 512.88, note: "All 9 courses; private annex ₩170,000" }
+    note: "Also on the menu: braised chicken with mung beans, seafood kimchi, hazelnut sorbet. Drinks extra; wine corkage ₩100,000."
+  - type: cost_breakdown
+    items:
+      - { label: "Lunch course, main hall", local: 120000, brl: 512.88 }
+    note: "The ₩50,000 Catchtable deposit is refunded on site, not added."
+  - type: map
+    note: "From **Chungmuro** Exit 3 it's about three minutes on foot."
+  - type: tips
+    variant: insider
+    items:
+      - "Your free weekend days don't help here: it's **closed Sunday and Monday**. Use a work-day lunch: Tue Jan 12 – Fri Jan 15 or Tue Jan 19 (Sat 16 is your Hwacheon day)."
+      - "Want a cheaper taste of Korea House? Its **Gohojae** tea room serves a one-person royal dessert tray for ₩30,000, booked on Catchtable."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Same-day changes are hard: the restaurant asks for allergies **in advance** and says substitutions on the day are difficult."
+      - "Order by **13:00 (UTC+9)**; that's the last lunch order."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Freezing; dry, with a few snowy days
+    note: "A heated dining room; the hanok courtyards outside are bare in January."
+    wear: Warm coat over neat casual clothes
+  - type: pairs_well
+    items:
+      - { id: sanchon-temple-food-insadong, note: "The ₩29,000 temple-food table, the budget version" }
+      - { id: flower-blossom-on-the-rice-insadong, note: "Organic coursed lunch, the middle option" }
+      - { id: namsan-n-seoul-tower, note: "Also on Namsan, for the view after lunch" }
