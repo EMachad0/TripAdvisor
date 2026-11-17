@@ -1,0 +1,144 @@
+id: thermae-cafe
+name: "Thermae Cafe"
+short_name: "Thermae"
+name_local: "เทอร์เม่บาร์"
+name_romanized: "Thoem Ba"
+country: thailand
+city: bangkok
+area: "Sukhumvit Soi 15"
+category: nightlife
+fame: hidden
+tags: [red-light-district, freelancer-bar, basement-bar, weekend-night]
+kind: Do
+why: "A plain basement bar under the Ruamchitt building on Sukhumvit: no stage, no music, ฿100–150 beers and freelancers who negotiate for themselves. Open in 2026."
+
+cost:
+  local: 150
+  currency: THB
+  brl: 24.74
+  note: "One beer, top of the 2026 range (Nightdiveer: ฿100–150; one Oct 2026 review: ฿130). A drink is expected; no cover"
+fx: { rate: 0.1649, date: 2026-11-11, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "30 min – 1 h"
+best_time: "Sat 9 Jan, 22:00–00:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Every night 20:00–02:00 (Google Maps, Apple Maps); busiest 22:00–00:00"
+  winter: "No seasonal changes listed: Google Maps shows the same 20:00–02:00 every day of the week. Nothing found specific to 2–10 Jan 2027."
+
+location:
+  address: "Basement, Ruamchitt building, 199 Sukhumvit Rd (corner of Soi 15), Khlong Toei Nuea, Watthana, Bangkok 10110"
+  address_local: "ชั้นใต้ดิน อาคารร่วมจิตต์ 199 ถนนสุขุมวิท (ปากซอยสุขุมวิท 15) แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพฯ 10110"
+  lat: 13.73897
+  lng: 100.55799
+  nearest_transit: "BTS Asok or BTS Nana, about 5 min walk"
+
+sources:
+  - url: "https://www.google.com/maps/place/Thermae/@13.7389663,100.5579857,17z/data=!3m1!4b1!4m6!3m5!1s0x30e29ee3ff1cb4eb:0x2190be8b76e6a661!8m2!3d13.7389663!4d100.5579857!16s%2Fg%2F1yg4fd4g2?hl=en"
+    title: "Thermae on Google Maps: 4.0 from 1,475 reviews, 20:00–02:00 daily; one review 'a month ago': ฿130 beer, ฿20 toilet (read 16 Nov 2026)"
+    checked: 2026-11-16
+  - url: https://maps.apple.com/place?place-id=I563F4C24A295B85B
+    title: "Thermae Bar and Coffee House on Apple Maps: 11/1 Soi Sukhumvit 15, 20:00–02:00 daily"
+    checked: 2026-11-16
+  - url: https://nightdiveer.com/en/2295/
+    title: "Thermae Cafe Bangkok: how it works, prices, location (Nightdiveer, 20 May 2026)"
+    checked: 2026-11-16
+  - url: https://guestfriendlyhotelsthailand.com/thermae-bar-bangkok/
+    title: "Thermae Bar Bangkok: freelancers, hours, beer prices, hotels (Guest Friendly Hotels Thailand, updated 26 Nov 2025)"
+    checked: 2026-11-16
+  - url: https://theo-courant.com/en/bangkok-nana-plaza-red-light-district/
+    title: "Nana Plaza Bangkok: bar fines and lady drinks (Theo Courant, 2026)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Prostitution_in_Thailand
+    title: "Prostitution in Thailand: the 1996 Act, buying not punished, freelancers in bars (Wikipedia)"
+    checked: 2026-11-16
+  - url: https://www.pattayamail.com/thailandnews/thailand-sex-workers-press-government-to-back-landmark-rights-bill-560895
+    title: "Sex-worker rights bill still needs the PM's endorsement before Parliament (Pattaya Mail, 12 Aug 2026)"
+    checked: 2026-11-16
+  - url: https://www.gov.uk/foreign-travel-advice/thailand/safety-and-security
+    title: "Thailand safety: drink spiking in tourist areas (UK FCDO)"
+    checked: 2026-11-16
+  - url: https://www.nationthailand.com/news/general/40072609
+    title: "Tourist Police step up support for international visitors: hotline 1155 (Nation Thailand)"
+    checked: 2026-11-16
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-16
+confidence: medium
+confidence_note: "Open: Google Maps lists it with daily hours and a review from Oct 2026; two 2025–26 guides describe it as running. No official site, no news, Reddit blocked here. Hours: Google/Apple 02:00, one guide 01:00 'often later'; the old 04:00 reputation is in no current source. Negotiated prices are one guide's figures. ฿130 beer, ฿20 toilet, '30 years' regular: one Google review, seen via ./atr render."
+last_updated: 2026-11-16
+
+blocks:
+  - type: hero
+    image: sukhumvit-asok-night
+    caption: "Sukhumvit Road at Asok, a few minutes east of Soi 15. No free photo of Thermae itself"
+    hook: "Down a staircase off Sukhumvit: a dated, music-less basement where the whole room is the negotiation."
+  - type: quick_facts
+    time_needed: "30 min – 1 h"
+    best_time: "Sat 9 Jan, 22:00–00:00"
+    extra:
+      - { label: Slot, value: Weekend night, detail: "Sat 9 Jan; it closes at 02:00, before a work shift ends at 04:00" }
+      - { label: Type, value: "Freelancer bar", detail: "No go-go stage, no bar fine; women work for themselves" }
+      - { label: Toilet, value: "Paid, ~฿20", detail: "One 2026 Google review: '20 baht for a pee'" }
+  - type: highlights
+    items:
+      - title: The other side of Sukhumvit nightlife
+        text: "Soi Cowboy and Nana Plaza are go-go bars run by the bar. Thermae is just a **basement bar**: the women are freelancers who work for themselves, sit around the room and wait to be approached (Guest Friendly Hotels Thailand)."
+      - title: Cheap, by strip standards
+        text: "Beer runs **฿100–150** (Nightdiveer, May 2026; one Google review in Oct 2026 paid ฿130). No cover charge and no stage show."
+      - title: An old fixture that's still there
+        text: "It still has **4.0 from 1,475 Google reviews**, and one reviewer who says he was a regular 30 years ago wrote in 2026 that it \"hasn't changed a bit\"."
+      - title: Easy to fold into a Sukhumvit night
+        text: "On Sukhumvit Road at Soi 15, about 5 minutes on foot from BTS Asok or Nana, so it sits between **Soi Cowboy** and **Nana Plaza**."
+  - type: prose
+    title: What it actually is
+    dropcap: true
+    text: |-
+      Thermae is not a show. You walk down a staircase beside the Ruamchitt Plaza Hotel sign into a basement, buy a drink, and that drink is effectively your entry (Nightdiveer: staying without ordering "is generally not okay"). Reviewers describe a dated room with **no music**, more women than seats, and men doing slow laps around the room. One called the atmosphere "very awkward".
+
+      It works differently from the go-go strips. At **Nana Plaza** or **Soi Cowboy** the women work for the bar: you buy them lady drinks and, to leave with one, pay the bar a **bar fine** (at Nana Plaza: lady drinks ฿150–200, bar fines ฿600–800, per Theo Courant). At Thermae there is neither: the women are freelancers, you approach them and agree everything directly, usually in English. Nightdiveer gives ฿2,000–3,000 for a short stay and ฿5,000–8,000 overnight. Ladyboys tend to wait outside the entrance rather than inside.
+
+      **Legal status:** Wikipedia says selling sex is not itself a crime in Thailand, but the 1996 Prevention and Suppression of Prostitution Act makes public soliciting and running a venue offences; buying sex for yourself isn't punished, and the law is rarely enforced in private places. A bill to repeal the Act still needed the Prime Minister's endorsement in Aug 2026 before it could reach Parliament, so it is **not law** (Pattaya Mail).
+
+      Honest verdict for a watcher: Soi Cowboy is the better sight. Thermae is worth one beer only if you're curious how the freelance side works, and there's nothing to watch except people deciding.
+  - type: cost_breakdown
+    items:
+      - { label: "One beer (your entry, in effect)", local: 150, brl: 24.74, estimate: true }
+      - { label: "A second beer", local: 150, brl: 24.74, optional: true, estimate: true }
+      - { label: "Toilet (one review)", local: 20, brl: 3.3, optional: true, estimate: true }
+  - type: menu
+    title: What things cost (2025–26)
+    items:
+      - { name: "Beer", price_local: 150, price_brl: 24.74, note: "฿100–150 (Nightdiveer, May 2026); ฿130 in one Oct 2026 Google review", tag: drink }
+      - { name: "Toilet", price_local: 20, price_brl: 3.3, note: "Per one 2026 Google review", tag: cheap }
+    note: "No cover charge and no bar fine. Any arrangement with a freelancer is between the two of you; Nightdiveer gives ฿2,000–3,000 short stay, ฿5,000–8,000 overnight (May 2026)."
+  - type: map
+    note: "On **Sukhumvit Road at the corner of Soi 15**: look for the Ruamchitt Plaza Hotel; the staircase down is next to its sign, separate from the hotel entrance. Soi Cowboy is about 500 m east, Nana Plaza about 600 m west."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: Sat 9 Jan.** It closes at **02:00** (Google Maps), so dropping in after the Fri 8 Jan shift (which ends at 04:00) doesn't work. It's not a fit for Sat 2 or Sun 3 Jan either: you're in Chiang Mai."
+      - "Go **22:00–00:00** for the busiest room (Nightdiveer); before 21:00 it's still filling up."
+      - "Combine it: Soi Cowboy first for the neon, Thermae for one beer, then Nana Plaza, all on foot along Sukhumvit."
+      - "No photos or video inside: reviewers ask for privacy."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Agree the price and what it covers before you leave the bar** (Guest Friendly Hotels Thailand). Prices vary by person and hour."
+      - "**Hostel reality:** the advice is to go to *your own* room, not hers, and some hotels charge a **joiner fee** for a visitor. A dorm bed is not a room, so ask your hostel's rules first."
+      - "**Drink spiking** happens in Thai tourist areas, with male and female victims (UK FCDO): don't leave your drink or accept one from a stranger. Comments on the Guest Friendly guide warn of drugged drinks and robbery, so keep your passport and cash locked away."
+      - "A ladyboy may approach you outside; Nightdiveer suggests simply asking, and walking off if the answer dodges."
+      - "Trouble with a bill or theft? **Tourist Police 1155** (24 h, English)."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: warm, clear nights"
+    note: "January evenings are the most comfortable of the year, and the bar is indoors anyway. Rain is unlikely."
+    wear: "Shorts or light trousers, T-shirt, closed shoes or decent sandals"
+  - type: pairs_well
+    items:
+      - { id: soi-cowboy, note: "About 500 m east: the neon go-go strip, the better sight" }
+      - { id: nana-plaza, note: "About 600 m west: three floors of go-go bars, bar fines on the board" }

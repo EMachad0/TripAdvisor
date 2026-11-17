@@ -1,0 +1,32 @@
+# Independent review of thermae-cafe. Written by `./atr review`; do not edit by hand.
+id: thermae-cafe
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 5a1abb727eb78edf5d8c5d30ece3289aaa2e6957d9df65d885a954048e7414b2
+facts:
+  supported: 12
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[1].extra[2].detail
+    problem: The toilet detail and the menu note both say "Google tags it 'paid restrooms'". The rendered Google Maps listing shows no such amenity tag; only the one review mentions the ฿20 charge.
+    evidence: "https://www.google.com/maps/place/Thermae/… rendered via ./atr render: no 'paid'/'restroom' text found; the review says \"20 baht for a pee\"."
+    fix: Drop the 'paid restrooms' tag claim and keep "one 2026 review says ฿20".
+  - severity: nit
+    field: blocks[8].items[2]
+    problem: The new wording says the "author and readers" of the Guest Friendly guide warn of drugged drinks. The article body never mentions spiking or robbery. The warnings are in comments, one by a commenter named "Charlie" who may or may not be the author.
+    evidence: "https://guestfriendlyhotelsthailand.com/thermae-bar-bangkok/ — the body's only caution is \"not all of them are trustworthy\"; comments: \"slip something in your drink\" (Charlie), \"her boyfriend and 2 of his buddys will rob you\" (v)."
+    fix: Say "comments on the Guest Friendly guide warn of drugged drinks and robbery".
+resolved:
+  - field: cost.local
+    problem: The headline ฿130 comes from one Oct 2026 Google review that the cited listing does not show (the rendered Maps page has no such review in view). The listed guides say ฿100–150 (Nightdiveer) and about ฿100 (Guest Friendly), and one Maps review calls the drink price 'on the higher side'.
+    evidence: 'cost.local is now 150 with the ฿100–150 range in why, the cost note, highlights and menu, cited to Nightdiveer (20 May 2026): "Prices run around 100–150 baht". The ฿130 review now appears only as a supporting note, and it shows on the rendered Google Maps page: "Was a regular here 30 years ago… 20 baht for a pee is ridiculous. Beers are 130." (a month ago).'
+  - field: blocks[3].text
+    problem: "The prose says 'prostitution is illegal under the 1996 Act', but the cited Wikipedia article says prostitution is not itself illegal: the Act punishes soliciting, procuring and running a venue, and buying sex for yourself is legal."
+    evidence: 'blocks[3].text now says selling sex is not itself a crime, that the 1996 Act makes public soliciting and running a venue offences, and that buyers are not punished. This matches https://en.wikipedia.org/wiki/Prostitution_in_Thailand: "is not itself illegal"; "Obtaining sexual services for oneself … remains legal and is not subject to punishment"; "not usually enforced against prostitution in private places".'
+rereview_of: 6e974bd2b1bed243b73a80a632dec1a396ad139ce6b939560f72569654166a42
+summary: Both earlier shoulds are fixed. The beer price is now the sourced ฿100–150 range, with ฿150 as the budget figure, and the legal-status text matches Wikipedia. The ฿130 review, the toilet price and the Nana Plaza prices all check out against their sources. Two small attribution nits remain, and neither blocks the page. The desktop dark screenshot could not be taken because the page was not built, and building it would have written files.
+model: claude-opus-5-5
+cost_usd: 0.381

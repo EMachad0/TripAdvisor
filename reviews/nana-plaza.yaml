@@ -1,0 +1,16 @@
+# Independent review of nana-plaza. Written by `./atr review`; do not edit by hand.
+id: nana-plaza
+type: place
+reviewed: 2026-11-16
+verdict: pass
+content_hash: 820f9ec87b263e85c18626a5a6e3c10ea3562fd8d5f05dd3b570a35e44c89b1c
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 04da546322018daaeb5fcdc16cc395b6a7b331d86431d7e85cfc5ca8da74bb3b
+summary: I checked all four facts the edit changed against the listed sources, and each one holds. Dave the Rave (7 Nov 2026) says "Nana Plaza bars are roaring with more on the way". Southeast Asia Simplified gives "Nana Station, Exit 3 (5-minute walk)". Wikipedia and Thaiest both give about 300 m from BTS Nana. There were no earlier findings to close, and I found no new blockers in the unchanged text, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.231
