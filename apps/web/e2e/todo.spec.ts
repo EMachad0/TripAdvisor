@@ -45,7 +45,7 @@ test.describe('owner', () => {
 		);
 		const any = page.getByRole('list', { name: 'Any time tasks' });
 		await expect(any.getByTestId('check-row')).toHaveText([/Buy an eSIM/]);
-		await expect(row(page, 'Buy an eSIM')).toContainText('Suggested');
+		await expect(row(page, 'Buy an eSIM')).not.toContainText('Suggested');
 		const done = page.getByRole('list', { name: 'Done tasks' });
 		await expect(done.getByTestId('check-row')).toHaveText([/Check China visa-free entry/]);
 		await expect(

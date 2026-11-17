@@ -134,7 +134,7 @@ test.describe('owner @readonly', () => {
 				tasks.getByRole('checkbox', { name: 'Mark done: Decide on the JR pass' }),
 			).toBeDisabled();
 			await expect(tasks).not.toContainText('Price the 7-day pass');
-			await expect(tasks).toContainText('Suggested');
+			await expect(tasks).not.toContainText('Suggested');
 			await expect(tasks).not.toContainText('Check China visa-free entry');
 
 			const answers = block(page, 'answers');

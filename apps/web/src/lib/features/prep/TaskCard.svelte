@@ -145,7 +145,7 @@
 					)}>{task.title}</span
 				>
 			{/if}
-			{#if task.when !== null || hasSteps || task.status === 'doing' || task.suggested}
+			{#if task.when !== null || hasSteps || task.status === 'doing'}
 				<div class="flex flex-wrap items-center gap-x-3 gap-y-1">
 					{#if task.when !== null}{@render when(task.when)}{/if}
 					{#if hasSteps}
@@ -154,7 +154,6 @@
 						>
 					{/if}
 					{#if task.status === 'doing' && !hasSteps}<Chip tone="planned">In progress</Chip>{/if}
-					{#if task.suggested}<Chip tone="booked">Suggested</Chip>{/if}
 				</div>
 			{/if}
 		</div>

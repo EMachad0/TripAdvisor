@@ -436,7 +436,6 @@
 													{#if x.status === 'doing' && steps.length === 0}<Chip tone="planned"
 															>In progress</Chip
 														>{/if}
-													{#if x.suggested}<Chip tone="booked">Suggested</Chip>{/if}
 												{/snippet}
 											</CheckRow>
 										{/each}
