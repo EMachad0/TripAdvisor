@@ -1,6 +1,6 @@
-<!-- The ⋯ button that opens a row's edit sheet (old trip.js editBtn). The guest never sees it. -->
+<!-- The pen button that opens a row's edit sheet (old trip.js editBtn). The guest never sees it. -->
 <script lang="ts">
-	import EllipsisIcon from '@lucide/svelte/icons/ellipsis';
+	import PencilIcon from '@lucide/svelte/icons/pencil';
 	import { Button } from '#lib/components/ui/button/index.js';
 
 	interface Props {
@@ -21,5 +21,5 @@
 	title="Edit"
 	{onclick}
 >
-	<EllipsisIcon />
+	<PencilIcon />
 </Button>

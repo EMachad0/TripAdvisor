@@ -5,6 +5,8 @@
 	refreshes are held while it is open.
 -->
 <script lang="ts">
+	import PencilIcon from '@lucide/svelte/icons/pencil';
+	import PlusIcon from '@lucide/svelte/icons/plus';
 	import { toast } from 'svelte-sonner';
 	import { holdRefresh } from '#lib/components/shell/refresh.svelte.js';
 	import type { ContentCountry } from '#lib/content/types.js';
@@ -17,7 +19,7 @@
 	import { write } from '#lib/sync/write.js';
 	import { cn } from '#lib/utils.js';
 	import { plural } from '../model.ts';
-	import type { TripData } from '../trip-docs.ts';
+	import { sortedByOrder, str, type TripData } from '../trip-docs.ts';
 	import {
 		bagCategories,
 		initialValues,
@@ -33,10 +35,12 @@
 		trip: TripData;
 		countries: readonly ContentCountry[];
 		spendDefaults: NewSpendDefaults;
+		/** Open the sheet on another document (a task's step); without it the steps cannot be edited from here. */
+		onretarget?: (target: RecordTarget) => void;
 		onclose: () => void;
 	}
 
-	let { target, trip, countries, spendDefaults, onclose }: Props = $props();
+	let { target, trip, countries, spendDefaults, onretarget, onclose }: Props = $props();
 
 	let values: FormValues = $state({});
 	let initial: FormValues = $state({});
@@ -62,6 +66,29 @@
 			? trip.tasks.filter((t) => t['parent'] === doc.id).length
 			: 0,
 	);
+	// The steps of the task being edited, in order; added and opened from this sheet.
+	const steps = $derived(
+		target?.col === 'tasks' && doc !== null && !isStep
+			? sortedByOrder(trip.tasks.filter((t) => t['parent'] === doc.id))
+			: [],
+	);
+	const canHaveSteps = $derived(target?.col === 'tasks' && doc !== null && !isStep);
+	let newStep = $state('');
+	let addingStep = $state(false);
+
+	async function addStep(): Promise<void> {
+		const title = newStep.trim();
+		if (doc === null || title === '' || addingStep) return;
+		addingStep = true;
+		const outcome = await write('trip.write', {
+			col: 'tasks',
+			op: 'set',
+			data: { title, status: 'todo', parent: doc.id },
+		});
+		addingStep = false;
+		if (outcome.ok) newStep = '';
+	}
+
 	const noun = $derived(isStep ? 'step' : (schema?.name ?? ''));
 	const categories = $derived(target?.col === 'bag' ? bagCategories(trip.bag) : []);
 	const listId = 'record-bag-categories';
@@ -72,6 +99,7 @@
 		if (target === filledFor) return;
 		filledFor = target;
 		delArmed = false;
+		newStep = '';
 		if (target === null || schema === null) return;
 		const v = initialValues(schema, target.col, doc, spendDefaults);
 		values = { ...v };
@@ -191,6 +219,66 @@
 						</Field.Field>
 					{/each}
 				</Field.FieldGroup>
+				{#if canHaveSteps}
+					<section class="mt-6 flex flex-col gap-2" aria-labelledby="record-steps">
+						<h3 id="record-steps" class="eyebrow">Steps</h3>
+						{#if steps.length > 0}
+							<ul
+								class="flex flex-col divide-y divide-border/70 rounded-xl border border-border/80"
+							>
+								{#each steps as s (s.id)}
+									<li class="flex items-center gap-2 py-1 pr-1 pl-3" data-testid="record-step">
+										<span
+											class={cn(
+												'min-w-0 flex-1 text-sm',
+												s['status'] === 'done' && 'text-muted-foreground line-through',
+											)}>{str(s, 'title')}</span
+										>
+										{#if onretarget !== undefined}
+											<Button
+												type="button"
+												variant="ghost"
+												size="icon"
+												class="size-9 shrink-0"
+												aria-label={`Edit step: ${str(s, 'title')}`}
+												title="Edit step"
+												onclick={() => {
+													onretarget({ col: 'tasks', id: s.id });
+												}}
+											>
+												<PencilIcon />
+											</Button>
+										{/if}
+									</li>
+								{/each}
+							</ul>
+						{/if}
+						<div class="flex gap-2">
+							<Input
+								aria-label="New step"
+								placeholder="Add a step"
+								bind:value={newStep}
+								onkeydown={(e: KeyboardEvent) => {
+									if (e.key !== 'Enter') return;
+									e.preventDefault();
+									void addStep();
+								}}
+							/>
+							<Button
+								type="button"
+								variant="secondary"
+								disabled={newStep.trim() === '' || addingStep}
+								onclick={() => void addStep()}
+							>
+								<PlusIcon data-icon="inline-start" />Add step
+							</Button>
+						</div>
+						<p class="text-xs text-muted-foreground">
+							A task with steps is done when all of them are. Open a step with its pen to give it
+							notes or dates.
+						</p>
+					</section>
+				{/if}
 				{#if categories.length > 0}
 					<datalist id={listId}>
 						{#each categories as c (c)}<option value={c}></option>{/each}

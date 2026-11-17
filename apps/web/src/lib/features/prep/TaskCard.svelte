@@ -2,13 +2,12 @@
 	One task on the To do page. Closed, it is one scannable line: the tick box, the title, when it has to be done
 	and how many steps are done. The title only opens and closes the task (it never ticks it); open, the task shows
 	its notes and its steps, each with a box of its own. A task with steps has no box: it follows its steps, so the
-	place of the box shows how many are done. The guest sees the boxes disabled and no ⋯ or "Add step".
+	place of the box shows how many are done. Steps are added in the
+	task's edit sheet (the pen). The guest sees the boxes disabled and no pen.
 -->
 <script lang="ts">
 	import CalendarClockIcon from '@lucide/svelte/icons/calendar-clock';
 	import ChevronDownIcon from '@lucide/svelte/icons/chevron-down';
-	import PlusIcon from '@lucide/svelte/icons/plus';
-	import { Button } from '#lib/components/ui/button/index.js';
 	import { Checkbox } from '#lib/components/ui/checkbox/index.js';
 	import { cn } from '#lib/utils.js';
 	import Chip from '../money/Chip.svelte';
@@ -26,14 +25,13 @@
 		onopen: (open: boolean) => void;
 		/** Edit the task or one of its steps. */
 		onedit: (id: string) => void;
-		onaddstep: () => void;
 	}
 
-	let { task, open, canEdit, busy, ontoggle, onopen, onedit, onaddstep }: Props = $props();
+	let { task, open, canEdit, busy, ontoggle, onopen, onedit }: Props = $props();
 
 	const done = $derived(task.status === 'done');
 	const hasSteps = $derived(task.steps.length > 0);
-	const hasMore = $derived(task.note !== '' || hasSteps || canEdit);
+	const hasMore = $derived(task.note !== '' || hasSteps);
 	const bodyId = $derived(`task-body-${task.id}`);
 	const stepsLabel = $derived(
 		`${String(task.stepsDone)} of ${String(task.steps.length)} steps done`,
@@ -225,13 +223,6 @@
 						</li>
 					{/each}
 				</ul>
-			{/if}
-			{#if canEdit}
-				<div>
-					<Button type="button" variant="ghost" size="sm" class="-ml-2.5" onclick={onaddstep}>
-						<PlusIcon data-icon="inline-start" />Add step
-					</Button>
-				</div>
 			{/if}
 		</div>
 	{/if}

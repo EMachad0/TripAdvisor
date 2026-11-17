@@ -2,7 +2,7 @@
 	The To do screen: what is left before and during the trip, the most pressing first. Open tasks come in up to
 	three groups (model.ts): the ones with a last day, the ones for any time, and the ones that cannot be done yet.
 	Then the done ones, with progress. A tap on a title opens the task's notes and steps; only the box ticks it
-	(an in-progress one too) or back; ⋯ edits it. Writes are pessimistic (old save()).
+	(an in-progress one too) or back; the pen edits it. Writes are pessimistic (old save()).
 
 	Layout: one column on a phone and the Fold; on a laptop the open tasks fill the left and the progress and the
 	done list sit in a column on the right.
@@ -91,10 +91,6 @@
 			setOpen(x.id, open);
 		}}
 		onedit={(id: string) => (editing = { col: 'tasks', id })}
-		onaddstep={() => {
-			setOpen(x.id, true);
-			editing = { col: 'tasks', id: null, preset: { parent: x.id } };
-		}}
 	/>
 {/snippet}
 
@@ -189,6 +185,7 @@
 		{trip}
 		{countries}
 		spendDefaults={{ today, country: '', currency: 'BRL' }}
+		onretarget={(t: RecordTarget) => (editing = t)}
 		onclose={() => (editing = null)}
 	/>
 {/if}
