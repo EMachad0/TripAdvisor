@@ -10,6 +10,15 @@ sources:
     url: https://cbgc.scol.com.cn/news/6614066
   - title: "China Daily: Capturing the most candid moments, Beijing travel photographers (2025-10-06)"
     url: https://www.chinadaily.com.cn/a/202510/06/WS68e31bd1a310f735438b3a0d.html
+  - title: "China Explorer Tour: Ming dynasty photoshoot gallery, with men's sets"
+    url: https://chinaexplorertour.com/ming-dynasty-photoshoot-collection/
+  - title: "China Explorer Tour: other dynasties gallery, solo portraits of men and women"
+    url: https://chinaexplorertour.com/other-dynasty-photoshoot-collection/
+  - title: "People's Daily: Brazilian vlogger Rian Neves and his hanfu videos in Xi'an (2023-01-10)"
+    url: https://en.people.cn/n3/2023/0110/c90000-10194206.html
+  - title: "Wikimedia Commons: a young man in hanfu walking in the snow, Changsha (2024)"
+    url: https://commons.wikimedia.org/wiki/File:Snow_in_Changsha_2024012204.jpg
+updated: 2026-11-16
 ---
 There are two kinds, and both take men.
 
@@ -25,6 +34,17 @@ There are two kinds, and both take men.
 - Chongqing's Liziba station has roadside photographers at about ¥20 (≈ R$ 17) a shot. For Hongyadong at night or the New Year's Eve crowd, a follow photographer does better.
 
 **How to find one.** Search Xiaohongshu (RED) for the city plus 男生旅拍 (men's travel shoot) or 男士跟拍, for example 重庆 男生旅拍, and pick someone whose portfolio has men in it. Dianping lists studios with reviews. Trip.com and Klook sell English-language packages at higher prices. In a DM, send 可以拍男生吗？ (do you shoot men?) and 多少钱一小时，几张精修？ (how much an hour, how many edited photos?).
+
+**Where to see men's samples.** China Explorer Tour's Ming and "other dynasties" galleries show male customers at the Forbidden City, Zhongshan Park and Xi'an, with a fan or a sword in hand. On Xiaohongshu, search 男生旅拍, 男生汉服写真 or 氛围感男生 (atmospheric candid shots of men), with the city in front. Rian Neves, a Brazilian living in Xi'an, posts hanfu videos as An An.
+
+**If you're shy and need a lot of direction.**
+
+- Ask for candid shots (抓拍). The photographer shoots you walking, looking at the view or drinking tea, so you never hold a pose or stare into the lens.
+- Pick a photographer whose posts say 全程引导 (guides you the whole time) or 不会摆pose也没关系 (fine if you can't pose).
+- Save 5–10 photos of men you like and send them before the day. Chinese clients do this all the time, and the photographer copies the poses.
+- Give your hands a job: a fan, a sword, an umbrella, a cup of tea, a scarf. In winter, ask for a cloak (斗篷) over the robes.
+- Go early, before the crowds, and warm up in a quiet corner. Ask to see the screen after the first few shots.
+- Say 我不太会摆pose，需要你多指导 (I can't pose, please guide me a lot), 我比较害羞，可以多拍自然的抓拍吗？ (I'm shy, can we do mostly candid shots?) and 照着这几张的感觉拍可以吗？ (can we shoot like these photos?).
 
 Agree on the hours, the number of raw and edited photos and the delivery date before you start. The Chengdu article reports surcharges for extra retouching, and these photographers need no licence.
 
