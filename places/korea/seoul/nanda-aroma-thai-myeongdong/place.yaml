@@ -1,0 +1,148 @@
+id: nanda-aroma-thai-myeongdong
+name: "Nanda Aroma: Myeongdong Thai and oil massage"
+short_name: Nanda Aroma Myeongdong
+name_local: 난다아로마 타이마사지 명동
+country: korea
+city: seoul
+area: "Jung-gu · Myeongdong"
+category: odd-local
+fame: hidden
+tags: [adult, thai-massage, aroma-massage, oil-massage, value, weekday-afternoon, weekend-day]
+kind: Do
+why: "A 60-min Thai massage for ₩80,000, or ₩110,000 with aroma oil, in a Myeongdong shop open since 2009: fixed menu, private rooms, no 'extras'."
+
+cost:
+  local: 80000
+  currency: KRW
+  brl: 346.16
+  note: "Full Body Thai Massage, 60 min (Seoul Travel Pass list, Nov 2026). Full Body Aroma Oil Therapy, 60 min: ₩110,000"
+fx: { rate: 0.004327, date: 2026-11-17, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "1.5 h with the foot bath"
+best_time: "A work-day afternoon, 14:00–18:00"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "Call a day ahead; the shop works by reservation"
+  method: phone
+  links:
+    - label: "Call Nanda Aroma"
+      url: "tel:+8227771417"
+      note: "+82 2-777-1417, the number on the shop's Google Maps listing"
+    - label: "Seoul Travel Pass voucher"
+      url: "https://www.seoultravelpass.com/en/products/1808-seoul-nanda-thai-massage-k-beauty-skin-body-care-in-myeongdong"
+      note: "₩80,000 / ₩110,000. Confirmed within 24 h; full refund until 23:59 the day before"
+  notes: "The ₩80,000 and ₩110,000 prices are the **Seoul Travel Pass voucher** prices; a phone booking may cost a different amount, so ask. The voucher says all services run by reservation and a booking is cancelled if you are **more than 15 minutes late**. A 2023 Trazy reviewer got in as a walk-in."
+
+hours:
+  summary: "Every day 10:00–22:00, last booking 21:00 (Seoul Travel Pass, Trazy)"
+  winter: "No holiday closures listed for December or January. Indoors; the January cold only matters on the 5-minute walk from Myeongdong station."
+
+location:
+  address: "2F, 25-6 Myeongdong-gil, Jung-gu, Seoul"
+  address_local: "서울 중구 명동길 25-6 2층 난다아로마"
+  lat: 37.56394
+  lng: 126.98381
+  nearest_transit: "Myeongdong (Line 4), Exit 6, or Euljiro 1-ga (Line 2), Exit 6"
+
+sources:
+  - url: https://www.seoultravelpass.com/en/products/1808-seoul-nanda-thai-massage-k-beauty-skin-body-care-in-myeongdong
+    title: "Nanda Thai Massage & K-Beauty in Myeongdong (Seoul Travel Pass, Nov 2026): menu and prices, since 2009, 10:00–22:00, reservation rules"
+    checked: 2026-11-18
+  - url: https://www.trazy.com/experience/detail/nanda-thai-massage-k-beauty-skin-body-care
+    title: "Nanda Aroma Thai Massage & K-Beauty (Trazy): private rooms, couples, families and friends, opened 2009"
+    checked: 2026-11-18
+  - url: https://www.google.com/maps/search/Nanda+Aroma+Thai+Massage+Myeongdong
+    title: "Nanda Aroma Thai Massage & Facial Spa, Myeongdong (Google Maps): 4.9 from 462, phone +82 2-777-1417, 25-6 Myeongdong-gil 2F (18 Nov 2026)"
+    checked: 2026-11-18
+  - url: https://www.trazy.com/spot/1166/nanda-thai-massage-난다-타이마사지
+    title: "Nanda Thai Massage (Trazy spot page): phone, older price list, walk-in review"
+    checked: 2026-11-18
+  - url: https://www.koreatimes.co.kr/southkorea/society/20250807/explainer-why-tipping-culture-remains-controversial-in-korea
+    title: "Why tipping culture remains controversial in Korea (Korea Times, 7 Aug 2025): Korea's tip-free culture"
+    checked: 2026-11-18
+  - url: https://www.law.go.kr/법령/성매매알선등행위의처벌에관한법률
+    title: "성매매알선 등 행위의 처벌에 관한 법률 (in force 2 Oct 2026), full text: Art. 2 (sex trade includes 유사 성교행위), Art. 21 (buyer: up to 1 year or ₩3M fine)"
+    checked: 2026-11-18
+  - url: https://www.law.go.kr/LSW//precInfoP.do?precSeq=127040
+    title: "Supreme Court 2005도8130 (26 Oct 2006): manual relief at a massage parlour counts as 유사성교행위 (law.go.kr)"
+    checked: 2026-11-18
+  - url: https://seoullawgroup.com/south-korea-deportation-rules/
+    title: "South Korea deportation rules (Seoul Law Group): immigration sometimes issues departure orders when a fine is over ₩3M"
+    checked: 2026-11-18
+  - url: https://klawguru.com/2026/07/03/south-korea-re-entry-bans-for-foreign-nationals-a-practical-overview/
+    title: "South Korea re-entry bans for foreign nationals (KLawGuru, 3 Jul 2026): entry-ban periods set by fine amount in MoJ guidelines"
+    checked: 2026-11-18
+  - url: https://www.koreajoongangdaily.com/korea/police-nab-1666-as-koreas-prostitution-rings-go-deeper-online-darker-offline/12817117
+    title: "Police nab 1,666 as Korea's prostitution rings go deeper online (JoongAng Daily, 10 Aug 2026): massage parlours 152 cases, 331 arrests"
+    checked: 2026-11-18
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-18
+confidence: medium
+confidence_note: "Prices are Seoul Travel Pass voucher prices (Nov 2026); the phone price and whether the old Trazy courses (₩35,000/₩55,000) still exist are unconfirmed. No official site. Google rating read with ./atr render, 18 Nov 2026; reviewers are mostly women, and men being welcome rests on Trazy's couples line, not the shop. No raid or vice news found. Pin from the Google plus code."
+last_updated: 2026-11-18
+
+blocks:
+  - type: hero
+    image: myeongdong-theater
+    caption: "Myeongdong Theater on Myeongdong-gil; the shop is a few doors away (no free photo of it)"
+    hook: "A warm foot bath, then an hour of Thai stretching or slow aroma oil, two floors above Myeongdong's street-food crowd."
+  - type: quick_facts
+    time_needed: "1.5 h with the foot bath"
+    best_time: "Work day, 14:00–18:00"
+    extra:
+      - { label: Slot, value: "Afternoon, done by 18:00", detail: "Work days 11–15, 18, 19 Jan. Sun 17 Jan any time; last booking 21:00" }
+      - { label: Oil or not, value: "Thai dry, or aroma oil", detail: "Thai ₩80,000; Aroma Oil Therapy ₩110,000, both 60 min" }
+      - { label: Tip, value: "None", detail: "Korea's culture is tip-free (Korea Times)" }
+  - type: highlights
+    items:
+      - title: Two kinds of hour
+        text: "**Thai** (₩80,000): foot bath, stretching, full-body hand massage, scalp. **Aroma Oil Therapy** (₩110,000): foot bath, full-body aroma lymphatic massage, scalp, stretch. The oil one is the closer cousin of what you liked in Bangkok."
+      - title: Fifteen-plus years on one street
+        text: "The venue says it has run in central Myeongdong **since 2009** and renovated in 2025. On Google it held **4.9 from 462 reviews** on 18 Nov 2026, with the owner replying to them."
+      - title: Fixed menu, no back-room upsell
+        text: "Every course and price is on a public list, and staff languages are listed as Korean, English, Japanese and Chinese. Extras added on site are paid at the shop, so ask the price first."
+      - title: Private rooms
+        text: "Trazy's listing says there are **private treatment rooms** and rooms for two, and that it suits couples, families and friends."
+  - type: prose
+    title: The legal hour, and the cheapest way in
+    dropcap: true
+    text: |-
+      In Korea the body-to-body and "happy ending" shops you liked in Thailand are illegal for the client: the 2004 sex-trade Act punishes the buyer, and the Supreme Court counts manual relief at a massage parlour as a "similar sex act". In the summer 2026 crackdown, massage parlours were the biggest offline category: **152 cases, 331 arrests** (JoongAng Daily). So the "Swedish", 건마 and one-person aroma shops are out.
+
+      What's left is the massage itself. Nanda is a Thai-and-skincare shop in the tourist centre, priced on a public menu; the venue says locals and tourists both use it. Pick the **aroma oil hour** (₩110,000, about R$476) if you want the slow, warm, full-body part of a nuru session. Pick the **Thai hour** (₩80,000, about R$346) if your back needs stretching after a night shift. That is 2.5 to 3.4 days of your R$140 budget. The cheapest ways in: an older Trazy menu lists a **40-min foot massage at ₩35,000** and a **60-min body massage at ₩55,000**; ask on the phone whether they still exist. Or skip the shop and take a ₩10,000 jjimjilbang night at Sparex (separate card).
+
+      **Which day:** any work-day afternoon (11–15, 18 or 19 Jan) from 14:00, done by 18:00, home before your 21:00 shift. Mon 11 Jan, after the morning landing, works well. On Sun 17 Jan any time fits. Sat 16 is the Hwacheon trip; the last booking is 21:00 if you are back in time.
+  - type: cost_breakdown
+    items:
+      - { label: "Full Body Thai Massage, 60 min", local: 80000, brl: 346.16 }
+      - { label: "Aroma Oil Therapy instead (difference)", local: 30000, brl: 129.81, optional: true }
+  - type: map
+    note: "Search **난다아로마** in Naver Map or Kakao Map. Walk from Myeongdong station Exit 6 toward the **Myeongdong Police Box**; the shop is on the 2nd floor, in the alley near the NANTA theatre (Seoul Travel Pass)."
+  - type: tips
+    variant: insider
+    items:
+      - "Arrive **15 minutes early**: the shop asks for it, and more than 15 minutes late cancels the booking with no refund (Seoul Travel Pass)."
+      - "Say **\"aroma oil, 60 minutes\"** (아로마 오일 60분) when you call if you want the oil course; the cheapest headline price is the dry Thai one."
+      - "A 2023 Trazy reviewer was taken on a walk-in and given tea on arrival; they found it through Naver."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** Korea's Act on the Punishment of Acts of Arranging Sexual Traffic (Art. 21) punishes the *buyer*: up to 1 year in prison or a ₩3M fine. It covers manual and body 'extras' (Supreme Court, 2005도8130), so 'Swedish', 건마 and one-person aroma shops that sell them are out."
+      - "**Foreigners** get no pass: on top of a fine, immigration can issue a departure order or an entry ban (Seoul Law Group, KLawGuru)."
+      - "**Why this one is legal:** a long-running tourist shop with a public menu of massages and facials, listed on mainstream booking sites, with no 'extras' on offer. If anyone offers one, leave."
+      - "**Price:** listings disagree (₩80,000 on Seoul Travel Pass, older Trazy page ₩55,000). Confirm the price on the phone, and add-ons are paid at the shop."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: "Dry and freezing; snow possible"
+    note: "January in Seoul averages about 2 °C by day and −5 °C at night. All indoors; a hot foot bath is the best answer to a Myeongdong afternoon at −5 °C."
+    wear: "Coat for the street; the shop gives you clothes to change into"
+  - type: pairs_well
+    items:
+      - { id: namsan-n-seoul-tower, note: "Walk up Namsan from Myeongdong before or after" }
+      - { id: inspa-four-points-gangnam, note: "The hotel-spa version, if you want to spend more" }
+      - { id: sparex-dongdaemun, note: "The cheapest heat-and-rest option: a jjimjilbang for about ₩10,000" }

@@ -1,0 +1,22 @@
+# Independent review of inspa-four-points-gangnam. Written by `./atr review`; do not edit by hand.
+id: inspa-four-points-gangnam
+type: place
+reviewed: 2026-11-18
+verdict: pass
+content_hash: b73a94bc5d73a57aa3b27ffc4ef62d253f1014f9b7bc1a7e4fd6076e09449dda
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[0]
+    problem: The hero still has no photo and the media folder is empty, so the hero does not show the spa or the hotel.
+    evidence: "confidence_note now explains the text hero: no free photo of the spa exists, and Commons rate-limited the street photo for 90+ min. docs/CURATOR-GUIDE.md 'No free photo?' option 2 allows leaving out hero.image and using the typographic hero, and says 'This is fine; don't use a misleading photo.' A text hero shows nothing false."
+  - field: cost.note
+    problem: The page calls the WAUG price of US$120.95 (≈₩161,600) the cheapest way to pay. On WAUG that figure is US$124.69 minus a 3% 'Early Winter Super Sale' coupon with no end date shown. The listing also does not say which option (60 or 90 min) the 'from' price buys, because the options only load after you pick a date. The same claim appears in book_ahead.links[2].note, blocks[3] and blocks[7].items[1].
+    evidence: https://www.waug.com/en/activities/116420 shows "US$ 124.69" then "US$ 120.95~", plus "Early Winter Super Sale 3% Off Coupon" with no end date, and does not say whether the price buys 60 or 90 min ("Aroma Full Body Massage (60/90 minutes)"). cost.note, book_ahead.links[2], blocks[3] and blocks[7].items[1] now quote the US$124.69 base, say the coupon may end and the length is not shown, and drop the 'cheapest' claim. Refund 'until 17:00 the day before' matches "100% cancellation and refund available until 17:00, 1 day prior".
+rereview_of: e6ecc9055eac8bfd648335abde5222fd4e60a22fde683c1fd423d725752508f2
+summary: "Both earlier findings are resolved. The WAUG text now matches the live listing: US$124.69 base, a 3% coupon with no end date, and no length stated. The conversions add up (₩166,600 ≈ R$721, about ₩8,400 under the desk price), and the text hero is a choice the guide allows. The page validates cleanly and nothing new is open."
+model: claude-opus-5-5
+cost_usd: 0.276

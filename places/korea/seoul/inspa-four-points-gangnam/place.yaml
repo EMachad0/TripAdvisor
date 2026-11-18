@@ -1,0 +1,171 @@
+id: inspa-four-points-gangnam
+name: "IN SPA Gangnam: a hotel-spa massage"
+short_name: IN SPA Gangnam
+name_local: 인스파 포포인츠 바이 쉐라톤 서울 강남
+country: korea
+city: seoul
+area: "Gangnam · Sinsa-dong"
+category: odd-local
+fame: hidden
+tags: [adult, aroma-massage, hotel-spa, premium, weekday-afternoon, weekend-day]
+kind: Do
+why: "A 60-min Aroma Korean, Swedish or deep-tissue massage in a Gangnam hotel spa: ₩175,000 on a published list, strict house rules, no 'extras'."
+
+cost:
+  local: 175000
+  currency: KRW
+  brl: 757.23
+  note: "Any full-body style, 60 min (official menu, VAT incl.). WAUG lists US$124.69 (≈₩166,600), option not shown; a 3% coupon may end"
+fx: { rate: 0.004327, date: 2026-11-17, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "1.5 h with changing"
+best_time: "Sun 17 Jan, or a work-day afternoon by 18:00"
+
+book_ahead:
+  required: recommended
+  lead_days: 2
+  lead_time: "A couple of days ahead by KakaoTalk, WhatsApp or email"
+  method: app
+  links:
+    - label: "Official site: Four Points branch"
+      url: "https://www.inspa.kr/64"
+      note: "Phone +82-2-563-0553, WhatsApp 82-10-4276-0553, KakaoTalk inspadesk, inspa-desk@naver.com"
+    - label: "Official online deposit page"
+      url: "https://www.inspa.kr/69"
+      note: "US$40 deposit after the spa confirms your slot; US$133 pays a 60-min massage online"
+    - label: "WAUG voucher"
+      url: "https://www.waug.com/en/activities/116420"
+      note: "US$124.69 base; length not shown. Book the slot with the spa. Refund until 17:00 the day before"
+  notes: "The spa's page says to pay the deposit **only once your reservation is confirmed**. Its etiquette page charges **100% for a no-show or a cancellation within 24 hours**. No source says it sells out; book ahead so you get the hour you want."
+
+hours:
+  summary: "Every day 10:00–22:00 (official site)"
+  winter: "No holiday closures listed on the official site for December or January. A hotel booking site's notice says IN SPA runs daily from 15 Sep 2026. All indoors and heated, so the January cold only matters on the walk from the station."
+
+location:
+  address: "6F, Four Points by Sheraton Seoul Gangnam, 203 Dosan-daero, Sinsa-dong, Gangnam-gu, Seoul"
+  address_local: "서울 강남구 도산대로 203 포포인츠 바이 쉐라톤 서울 강남 6층 인스파"
+  lat: 37.52028
+  lng: 127.02852
+  nearest_transit: "Apgujeong (Line 3), Exit 2, about 750 m south on foot"
+
+sources:
+  - url: https://www.inspa.kr/FullBodyMassages
+    title: "IN SPA official site: Full Body Massages menu, 60 min ₩175,000, 90 min ₩264,000, prices include 10% VAT"
+    checked: 2026-11-18
+  - url: https://www.inspa.kr/64
+    title: "IN SPA official site: Four Points by Sheraton Gangnam branch, 6F, daily 10:00–22:00, phone, WhatsApp, KakaoTalk, email"
+    checked: 2026-11-18
+  - url: https://www.inspa.kr/37
+    title: "IN SPA official site: Spa Etiquettes: 10 min early, 24 h cancellation, therapist may stop the treatment, robes and disposable underwear"
+    checked: 2026-11-18
+  - url: https://www.inspa.kr/69
+    title: "IN SPA official site: online reservation for Four Points, US$40 deposit after confirmation, 60 min US$133"
+    checked: 2026-11-18
+  - url: https://www.inspa.kr/
+    title: "IN SPA official site, home: running since 2010, Four Points Gangnam 6–7F and Westin Seoul Parnas branches, business registration"
+    checked: 2026-11-18
+  - url: https://www.marriott.com/ko/hotels/selfg-four-points-seoul-gangnam/experiences/in-spa/
+    title: "인스파 (Four Points by Sheraton Seoul Gangnam, Marriott): hotel's own spa page, since 2010, Swedish full-body massage, 10:00–22:00"
+    checked: 2026-11-18
+  - url: https://www.waug.com/en/activities/116420
+    title: "Four Points Seoul Gangnam 'INSPA' (WAUG): from US$120.95, 4.9 from 26 reviews (incl. Oct 2026, a husband's birthday), booking steps"
+    checked: 2026-11-18
+  - url: https://nol.yanolja.com/stay/domestic/10065938
+    title: "Four Points Seoul Gangnam on NOL (Yanolja): notice that IN SPA runs daily from 15 Sep 2026"
+    checked: 2026-11-18
+  - url: https://www.openstreetmap.org/?mlat=37.52712&mlon=127.02872#map=16/37.5237/127.0286
+    title: "OpenStreetMap: Apgujeong station Exit 2 (37.52712, 127.02872), about 750 m north of the hotel at 203 Dosan-daero"
+    checked: 2026-11-18
+  - url: https://www.koreatimes.co.kr/southkorea/society/20250807/explainer-why-tipping-culture-remains-controversial-in-korea
+    title: "Why tipping culture remains controversial in Korea (Korea Times, 7 Aug 2025): Korea's tip-free culture"
+    checked: 2026-11-18
+  - url: https://www.law.go.kr/법령/성매매알선등행위의처벌에관한법률
+    title: "성매매알선 등 행위의 처벌에 관한 법률 (in force 2 Oct 2026), full text: Art. 2 (sex trade includes 유사 성교행위), Art. 21 (buyer: up to 1 year or ₩3M fine)"
+    checked: 2026-11-18
+  - url: https://www.law.go.kr/LSW//precInfoP.do?precSeq=127040
+    title: "Supreme Court 2005도8130 (26 Oct 2006): manual relief at a massage parlour counts as 유사성교행위 (law.go.kr)"
+    checked: 2026-11-18
+  - url: https://seoullawgroup.com/south-korea-deportation-rules/
+    title: "South Korea deportation rules (Seoul Law Group): immigration sometimes issues departure orders when a fine is over ₩3M"
+    checked: 2026-11-18
+  - url: https://klawguru.com/2026/07/03/south-korea-re-entry-bans-for-foreign-nationals-a-practical-overview/
+    title: "South Korea re-entry bans for foreign nationals (KLawGuru, 3 Jul 2026): entry-ban periods set by fine amount in MoJ guidelines"
+    checked: 2026-11-18
+  - url: https://www.koreaherald.com/article/10910439
+    title: "Gangnam prostitution ring arranged over 2,800 meetings in just over 40 days (Korea Herald, 21 Oct 2026): fake 'Swedish massage', 33 studios"
+    checked: 2026-11-18
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-18
+confidence: medium
+confidence_note: "Prices, hours, rules and booking are from the spa's own site (read 18 Nov 2026). Independent reviews are thin: WAUG 4.9 from 26 (2024–2026). No source names therapist gender. No raid or vice news found for IN SPA. Walk distance measured on OpenStreetMap. Text hero on purpose (guide: No free photo): no free photo of the spa exists, and Commons rate-limited the street photo for 90+ min."
+last_updated: 2026-11-18
+
+blocks:
+  - type: hero
+    hook: "A robe, a quiet room on the sixth floor of a Gangnam hotel, and 60 to 90 minutes of nobody needing you."
+  - type: quick_facts
+    time_needed: "1.5 h with changing"
+    best_time: "Sun 17 Jan, any hour"
+    extra:
+      - { label: Slot, value: "Afternoon, done by 20:00", detail: "Work days 11–15, 18, 19 Jan: start by 18:00. Sun 17 Jan: 10:00–22:00" }
+      - { label: Choose, value: "Korean, Swedish, deep tissue", detail: "Aroma Korean, Swedish or Lux Deep Tissue, all the same price" }
+      - { label: Tip, value: "None", detail: "Korea's culture is tip-free (Korea Times)" }
+  - type: highlights
+    items:
+      - title: A real full-body massage
+        text: "Three styles on the menu: **Aroma Korean** works points along the meridians; **Swedish** uses \"long and smooth strokes\" for relaxation; **Lux Deep Tissue**, the house signature, mixes acupressure with deep-tissue work on knotted muscles."
+      - title: Published price, VAT in
+        text: "**₩175,000 for 60 min, ₩264,000 for 90 min**, the same for every style, and the site says all prices include 10% VAT. No menu handed over in a back room."
+      - title: A hotel spa since 2010
+        text: "IN SPA has run since 2010 and sits on the 6th floor of the **Four Points by Sheraton** in Sinsa-dong; the hotel lists it as its own spa. Its Westin Seoul Parnas branch is closed; the site says it is reopening soon."
+      - title: Couples and men welcome
+        text: "A WAUG review from Oct 2026 is a couple who came **for the husband's birthday**. Nothing on IN SPA's site limits it to women."
+  - type: prose
+    title: The legal version of what you liked in Bangkok
+    dropcap: true
+    text: |-
+      In Bangkok you had nuru and soapy houses. Korea's equivalents are the **"Swedish" (스웨디시), 건마 and one-person aroma shops** that sell a sexual finish after the oil. In Korea that is prostitution for the client too: the Supreme Court counts manual relief at a massage parlour as a "similar sex act" under the 2004 Act. In 2026 police broke up exactly this kind of operation: a ring selling sex as "Swedish massage" from 33 Gangnam studios (Korea Herald, Oct 2026).
+
+      So this card is what is left when you take the "extras" out: the best part of a nuru session that you can legally buy. A long full-body massage in a private room in a proper hotel spa. For the closest thing to the warm-oil part, ask for the **Aroma Korean** style.
+
+      **Which day:** Sun 17 Jan is the easy pick, any time from 10:00. On a work day (11–15, 18 or 19 Jan) take a 60-minute slot that starts by 18:00, so you are home well before your 21:00 shift. It also works as a jet-lag fix on the afternoon of Mon 11 Jan, the day you land. Sat 16 is the Hwacheon day trip; the spa is open until 22:00, but no source gives a last booking time.
+
+      **This is a one-off splurge.** At ₩175,000 (about R$757) one hour costs more than five days of your R$140 "everything else" budget. The **WAUG voucher lists US$124.69 (about R$721, ≈₩166,600)** before a 3% coupon that may end before January, and it doesn't show which length that buys, so confirm the 60-min price for your date; the spa's own online price is US$133 (R$769), and paying at the desk is ₩175,000. For ₩65,000 less, take the **Nanda Aroma** card in Myeongdong (aroma oil 60 min, ₩110,000).
+  - type: book_ahead
+    steps:
+      - { days_before: 3, text: "Message IN SPA on **KakaoTalk (inspadesk)** or **WhatsApp (82-10-4276-0553)**: day, time, 60 or 90 min, and which style (Korean, Swedish, Lux Deep Tissue)." }
+      - { days_before: 2, text: "Once they confirm, pay the **US$40 deposit** on the official reservation page, or pay the 60-min massage (US$133) there." }
+      - { days_before: 0, text: "Arrive **10 minutes early** at the 6th floor. You change into a robe and disposable underwear the spa provides." }
+  - type: cost_breakdown
+    items:
+      - { label: "Full-body massage, 60 min, at the desk (VAT incl.)", local: 175000, brl: 757.23 }
+      - { label: "90 min instead (difference)", local: 89000, brl: 385.1, optional: true }
+  - type: map
+    note: "Search **포포인츠 바이 쉐라톤 서울 강남** in Naver Map or Kakao Map; take the lift to the **6th floor**. The hotel is at the north end of Garosu-gil."
+  - type: tips
+    variant: insider
+    items:
+      - "All three styles cost the same, so pick by feel: **Aroma Korean** for the aroma-oil hour, **Swedish** for long, smooth strokes, **Lux Deep Tissue** if your back is wrecked from night shifts."
+      - "Check the **WAUG voucher** (US$124.69 base, about ₩8,000 under the desk price if it covers 60 min) before paying ₩175,000 at the desk; then book your slot with the spa by phone, KakaoTalk or email, as the voucher instructs."
+      - "Leave the phone in the locker: the house rules ban phones, cameras and tablets during your visit."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** Korea's Act on the Punishment of Acts of Arranging Sexual Traffic (Art. 21) punishes the *buyer*: up to 1 year in prison or a ₩3M fine. It covers manual and body 'extras' (Supreme Court, 2005도8130), so 'Swedish', 건마 and one-person aroma shops that sell them are out."
+      - "**Foreigners** get no pass: on top of a fine, immigration can issue a departure order or an entry ban (Seoul Law Group, KLawGuru)."
+      - "**Why this one is legal:** a hotel spa with a public price list that sells massage only. Its own rules say the therapist will stop the treatment if a guest behaves inappropriately."
+      - "**Cancellation:** a no-show or cancelling within 24 hours costs 100% of the treatment (spa's etiquette page)."
+      - "**Book only on the spa's own channels** (site, KakaoTalk, WhatsApp, phone). Online listings for 'Swedish' and aroma rooms in Gangnam are how the ring the police broke up in 2026 found clients (Korea Herald)."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: "Dry and freezing; snow possible"
+    note: "January in Seoul averages about 2 °C by day and −5 °C at night. The spa is indoors and heated; the cold only hits on the 750 m walk from Apgujeong station."
+    wear: "A warm coat for the walk; the spa gives you a robe"
+  - type: pairs_well
+    items:
+      - { id: lion-super-club-cheongdam, note: "Same side of the river, if Sat 16 or Sun 17 turns into a night out" }
+      - { id: sparex-dongdaemun, note: "The cheap Korean version: a 24-hour jjimjilbang soak for about ₩10,000" }

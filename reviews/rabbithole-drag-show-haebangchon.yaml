@@ -1,0 +1,19 @@
+# Independent review of rabbithole-drag-show-haebangchon. Written by `./atr review`; do not edit by hand.
+id: rabbithole-drag-show-haebangchon
+type: place
+reviewed: 2026-11-18
+verdict: pass
+content_hash: b1980583168a3b6f7848fcde42b8b282e140cf23b114f87e19d57568f94d6c03
+facts:
+  supported: 1
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[6].note
+    problem: 'The menu note and cost.note now date the Kakao menu to "April 2024". The Kakao page shows no date for its menu: the menu tab carries only the prices and "운영상황에 따라 정보가 달라질 수 있습니다". The only dates on the page are review dates (2024.07.19, 2024.09.30, 2024.10.05) and the visitor-data date (2026.11.18). So this new date has no source.'
+    evidence: "All three spots now call the Kakao menu undated: cost.note (line 18) reads \"Kakao menu, undated\", confidence_note (line 71) reads \"Kakao's menu prices are undated\", and blocks[6].note (line 118) reads \"undated, so they may have risen\". A search of place.yaml finds no \"April 2024\" or \"Apr 2024\" left. This matches the earlier reading of https://place.map.kakao.com/855948628#menuInfo, where the menu tab shows prices with no update date. ./atr validate passes."
+rereview_of: b2447862b1136ec38f37dd3bcd79ccb7fdb3d365726bbbb9fd96881c0e44d7db
+summary: 'The one earlier should is fixed: every mention of the Kakao menu now calls it undated, which is what the source shows. The other change only removed the unsourced "about 45 minutes" transfer time and added no new fact. I found no blockers in the unchanged content.'
+model: claude-opus-5-5
+cost_usd: 0.176

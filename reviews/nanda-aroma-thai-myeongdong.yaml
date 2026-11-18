@@ -1,0 +1,22 @@
+# Independent review of nanda-aroma-thai-myeongdong. Written by `./atr review`; do not edit by hand.
+id: nanda-aroma-thai-myeongdong
+type: place
+reviewed: 2026-11-18
+verdict: pass
+content_hash: ab05dd58bb73cf19da26a73c8fcf669297e9f56da7accb57c7d080bcca8fd045
+facts:
+  supported: 9
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].text
+    problem: The page calls the hour "cheap" and tags it `value`, but ₩80,000 (R$346) is 247% of the traveler's Korea daily budget. The page gives no cheaper way in, no comparison with other Myeongdong Thai shops, and no free alternative. The only cheaper figure it shows is the ₩55,000 60-min body massage on the older Trazy page.
+    evidence: The word 'cheap' is gone from the prose title and text. The prose now gives the cost as 2.5 to 3.4 days of the R$140 budget (346/140 and 476/140 check out). It names cheaper courses from the Trazy spot page, which says "Foot Massage (40 mins) - 35,000won" and "Body Massage (60 mins) - 55,000won", and says to confirm them by phone. It adds a Sparex jjimjilbang at about ₩10,000 as a free-ish alternative (the Sparex card has ₩10,150) and a pairs_well link to it.
+  - field: book_ahead.links
+    problem: The ₩80,000/₩110,000 prices and the rules on reservations, arriving 15 minutes early and lateness come from the Seoul Travel Pass voucher. That voucher has its own booking flow, 24 h confirmation and a refund cut-off of 23:59 the day before. The page tells the traveler to phone instead, and does not say whether the phone price matches or whether those voucher rules apply to a phone booking.
+    evidence: book_ahead.links now includes the Seoul Travel Pass product page. That page says "Confirmation within 24 Hours" and "100% refund if canceled by 23:59 (KST), 1 day(s) before travel date", which matches the link note. book_ahead.notes now says the ₩80,000/₩110,000 prices are voucher prices and that a phone booking may cost a different amount.
+rereview_of: 9a1438969622a669299daafa4aad9b342a351fb255e67cd805e873400866d3bf
+summary: "Both earlier findings are fixed. The new budget angle (older Trazy ₩35,000/₩55,000 courses, Sparex alternative), the voucher link and its terms, and the Korea Times tip-free source all match their sources. One new fact could not be checked: the Google 4.9/462 rating, which comes from Google Maps. The phone render shows nothing broken."
+model: claude-opus-5-5
+cost_usd: 0.38

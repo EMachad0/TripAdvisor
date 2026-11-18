@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: haebangchon-sign
+  title: File:Haebangchon (55192500970).jpg
+  author: Lee Jeong Woo (이정우)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Haebangchon_(55192500970).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8c/Haebangchon_%2855192500970%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Haebangchon April 6, 2026 Haebangchon, Seoul Ministry of culture, sports and Tourism Official Photographer : Lee jeong woo All photographs in the official Flickr account of the Republic of Korea are available only for publication by news organizations and/or for public purposes with proper attributi"
+  width: 3868
+  height: 2579
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-18
+  origin: commons

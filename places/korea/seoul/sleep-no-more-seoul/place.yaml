@@ -1,0 +1,159 @@
+id: sleep-no-more-seoul
+name: "Sleep No More Seoul"
+name_local: "슬립노모어 서울 · 매키탄 호텔"
+country: korea
+city: seoul
+area: "Chungmuro · Jung-gu"
+category: shows
+fame: hidden
+tags: [adult, immersive-theater, role-play, premium, weekend-afternoon]
+kind: Do
+why: "Punchdrunk's masked, 19+ Macbeth fills seven floors of an old Chungmuro cinema: follow any actor for 3 hours, no words, no seats."
+
+cost:
+  local: 200000
+  currency: KRW
+  brl: 865.4
+  note: "Guest ticket, 1st entry (NOL World, Nov 2026). Later entries ₩190k–160k; Ruby's Guest ₩240k. Jan 2027 prices not out yet"
+fx: { rate: 0.004327, date: 2026-11-17, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "Up to 3 h inside, standing and walking"
+best_time: "Sun 17 Jan, 15:00 show, first entry"
+
+book_ahead:
+  required: true
+  lead_days: 14
+  lead_time: "Jan 2027 dates aren't on sale yet; book as soon as they open"
+  method: platform
+  links:
+    - label: "NOL World (official seller, English)"
+      url: "https://world.nol.com/en/ticket/places/25000677/products/25008376"
+      note: "The site's BOOK NOW link. Pick date and entry time; prices in ₩"
+    - label: "Official site: rules and FAQ"
+      url: "https://mckithanhotel.com/eng/sleepnomore/index.php"
+      note: "Read before buying: the venue says not knowing the rules is no ground for a refund"
+  notes: "The run is sold in blocks of **1–2 months** (Edaily, Jul 2026); the official seller lists dates only to **31 Dec 2026** so far. The producer also sells abroad through Trip.com and Klook. After the cancellation deadline there are no refunds or changes (official site)."
+
+hours:
+  summary: "As of Jan 2026: Wed–Fri 19:00, Sat 14:00 and 19:00, Sun 15:00, no shows Mon–Tue; entry in waves from 15 min before"
+  closed: "Mondays and Tuesdays"
+  winter: "Open run since Jul 2025, but the official seller lists shows only to **31 Dec 2026**; January 2027 is not announced. Check NOL World in December before you plan around it. Indoors and heated; you hand in your coat."
+
+location:
+  address: "The McKithan Hotel (former Daehan Cinema), 212 Toegye-ro, Jung-gu, Seoul"
+  address_local: "서울 중구 퇴계로 212 매키탄 호텔 (구 대한극장)"
+  lat: 37.56116
+  lng: 126.99532
+  nearest_transit: "Chungmuro (Lines 3/4): the building has an entrance in the station"
+
+sources:
+  - url: https://mckithanhotel.com/eng/sleepnomore/index.php
+    title: "Sleep No More Seoul official site: non-verbal show, free roaming, cloakroom rule, no refunds after the deadline"
+    checked: 2026-11-18
+  - url: https://mckithanhotel.com/eng/contact/index.php
+    title: "The McKithan Hotel FAQ: address, up to 3 h from first entry, no re-entry, mask on at all times except the bar"
+    checked: 2026-11-18
+  - url: https://mckithanhotel.com/eng/entertainment/index.php
+    title: "The McKithan Hotel: Manderley Bar, live jazz and cocktails (official site)"
+    checked: 2026-11-18
+  - url: https://vanillahai.com/300
+    title: "슬립노모어 일정·티켓·관람꿀팁 (Vanilla Hai, Sep 2025): ID, mask, comfortable shoes for stairs, Ruby's/Maximilian's bar seats"
+    checked: 2026-11-18
+  - url: https://world.nol.com/en/ticket/places/25000677/products/25008376
+    title: "Sleep No More Seoul on NOL World (official seller): Jul 24 2025 – Dec 31 2026, 19+, 3 h, price per entry time"
+    checked: 2026-11-18
+  - url: https://www.sctoday.co.kr/news/articleView.html?idxno=46887
+    title: "슬립노모어 서울, 입장 시간대별 차등 가격제 도입 (Seoul Culture Today, Jan 2026): Wed–Fri 19:00, Sat 14:00/19:00, Sun 15:00"
+    checked: 2026-11-18
+  - url: https://v.daum.net/v/4bh0OXGhwQ
+    title: "슬립노모어 서울 개막 1주년 (Edaily via Daum, 23 Jul 2026): long run, dates opened 1–2 months at a time, ~100,000 guests"
+    checked: 2026-11-18
+  - url: https://www.abcn.kr/news/articleView.html?idxno=85756
+    title: "‘마지막 숨’으로 다시 붙다, 슬립노모어 서울 (ABC News, 7 Jan 2026): Korea's only open-run immersive show, seven-floor hotel"
+    checked: 2026-11-18
+  - url: https://koreatravelplanning.substack.com/p/the-show-that-sold-out-in-new-york
+    title: "The show that sold out in New York and London just opened in Seoul (Korea Travel Planning, 17 May 2026): nudity, violence, phone pouch"
+    checked: 2026-11-18
+  - url: https://www.waug.com/en/activities/161493
+    title: "Sleep No More Seoul on WAUG: 19+, passport or photo ID required, phones in a locking pouch, coats to the cloakroom"
+    checked: 2026-11-18
+  - url: https://en.wikipedia.org/wiki/Daehan_Cinema
+    title: "Daehan Cinema (Wikipedia): Chungmuro, Lines 3 and 4, entrance inside the station"
+    checked: 2026-11-18
+  - url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%84%B1%EB%A7%A4%EB%A7%A4%EC%95%8C%EC%84%A0%EB%93%B1%ED%96%89%EC%9C%84%EC%9D%98%EC%B2%98%EB%B2%8C%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0"
+    title: "성매매알선 등 행위의 처벌에 관한 법률, Art. 21(1): up to 1 year prison or a fine up to ₩3M (law.go.kr)"
+    checked: 2026-11-18
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
+    checked: 2026-11-18
+confidence: medium
+confidence_note: "Show, rules and prices: official site and seller, read 18 Nov 2026. The big unknown: Jan 2027 shows are not on sale and no closing or extension is announced; a Jul 2026 blog said the run would end that July, but it didn't. Weekly times are from a Jan 2026 article. Klook and Trip.com pages are bot-walled, not opened."
+last_updated: 2026-11-18
+
+blocks:
+  - type: hero
+    image: daehan-cinema-entrance
+    caption: "Daehan Cinema in 2017, before it became the McKithan Hotel; no free photo of the show"
+    hook: "Put on a white mask, lose your friends, and chase Lady Macbeth up the stairs of a hotel built for the play."
+  - type: quick_facts
+    time_needed: "Up to 3 h, on your feet"
+    best_time: "Sun 17 Jan, 15:00 show"
+    extra:
+      - { label: Slot, value: "Sun 17 Jan afternoon", detail: "Weeknight shows end near 22:00, after your 21:00 shift; Sat 16 is Hwacheon" }
+      - { label: Language, value: "None needed", detail: "Non-verbal: dance, music and set, no dialogue (official site)" }
+      - { label: Age, value: "19+, ID checked", detail: "Bring your passport (WAUG, NOL World)" }
+  - type: highlights
+    items:
+      - title: The costume is yours
+        text: "Everyone gets a **white Punchdrunk mask** and stays silent; only the actors show their faces. You are a ghost in the hotel, free to go anywhere (official FAQ)."
+      - title: A seven-floor set
+        text: "The old **Daehan Cinema** was rebuilt as the **McKithan Hotel**, seven floors you roam at will: the largest Sleep No More set so far (ABC News)."
+      - title: One-on-ones
+        text: "Some guests get pulled into a **private scene** with an actor and handed an object to keep; others never do (Korea Travel Planning). Follow one character closely and keep moving."
+      - title: Adults only, for a reason
+        text: "Strictly **19+**: the review lists blood, violence and nudity among the scenes. It is still theatre, choreographed and with no dialogue."
+  - type: prose
+    title: Why this is the legal Psyche Dream Spa
+    dropcap: true
+    text: |-
+      What you liked in Bangkok was the **costume, the themed set and the script** you step into. Sleep No More sells exactly that, minus anything sexual: a hotel built for the part, a cast who act around you and sometimes with you, and a story (Macbeth, told in film-noir style) that you assemble by choosing whom to follow. The Seoul version opened in July 2025 in a former cinema in Chungmuro and drew about 100,000 guests in its first year.
+
+      It is a splurge: **₩200,000 (about R$865)** for the first entry, six days of your Korea budget. The case for it: nothing else in Seoul is like it, it needs no Korean, and it fits your only free afternoon. The catch is the calendar. The official seller lists shows only to **31 December 2026**, and dates are released one or two months at a time, so check in December whether January is on sale.
+  - type: book_ahead
+    steps:
+      - { days_before: 30, text: "In December, open **NOL World** and check whether **Sun 17 Jan** (or Sat 16) is on sale, and that Sunday shows still run. Dates open in 1–2 month blocks." }
+      - { days_before: 14, text: "Buy a **Guest** ticket for the **first entry** (14:45 on a Sunday): it gives you the full three hours." }
+      - { days_before: 0, text: "Arrive early with your **passport**. Coat and bag go to the cloakroom, the phone into a locked pouch, the mask on." }
+  - type: cost_breakdown
+    items:
+      - { label: "Guest ticket, 1st entry (full 3 h)", local: 200000, brl: 865.4 }
+      - { label: "Cheaper: Guest, 5th entry (an hour less inside)", local: 160000, brl: 692.32, optional: true }
+      - { label: "Ruby's Guest instead (reserved seat in the bar)", local: 240000, brl: 1038.48, optional: true }
+  - type: map
+    note: "In the **former Daehan Cinema** on Toegye-ro, with an entrance inside **Chungmuro station** (Lines 3/4)."
+  - type: tips
+    variant: insider
+    items:
+      - "Take the **first entry**: you get the full three hours, and the Korea Travel Planning reviewer still found three hours too short."
+      - "Go alone in spirit: entry times and starting floors differ, so friends split up anyway. Pick one actor and follow them."
+      - "Wear comfortable shoes: you climb stairs across several floors (Vanilla Hai guide). Contacts beat glasses under the mask."
+      - "The **Manderley Bar** is the one place you may use your phone (Korea Travel Planning review). The venue says it has live jazz and cocktails."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** a theatre production by a registered company (Ms. Jackson, Inc.), sold through NOL Ticket. Only the ticket and bar drinks are sold. Korea punishes buying sex: up to **1 year in prison or a ₩3M fine** (Act on the Punishment of Acts of Arranging Sexual Traffic, Art. 21)."
+      - "**19+ and ID:** WAUG says a passport or government photo ID is required; under-19s are refused. Bring your passport."
+      - "No refunds or changes after the cancellation deadline, including for missing the rules (official site)."
+      - "Arrive before your entry time: the official FAQ covers late arrivals and re-entry, but its answers would not open for us, so ask NOL World or the box office."
+      - "Buy via NOL World (the official site's BOOK NOW link) or the producer's named overseas sellers, Trip.com and Klook (Edaily)."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: "Dry and freezing"
+    note: "Seoul's January averages are about 2 °C by day and −5.5 °C at night. You hand in your coat and walk around inside for three hours, so it's the walk from the metro that's cold."
+    wear: "A warm coat for outside, light layers and flat shoes inside"
+  - type: pairs_well
+    items:
+      - { id: euljiro-nogari-alley, note: "Euljiro's beer alley, under 1 km north-west, for after the show" }
+      - { id: dongdaemun-design-plaza, note: "DDP, about 1.5 km north-east" }
