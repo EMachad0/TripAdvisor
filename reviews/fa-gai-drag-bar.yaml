@@ -1,0 +1,22 @@
+# Independent review of fa-gai-drag-bar. Written by `./atr review`; do not edit by hand.
+id: fa-gai-drag-bar
+type: place
+reviewed: 2026-11-18
+verdict: pass
+content_hash: d6841a9a98029fe9cd7897d1cb64ab09454b58eed267cb41d907e95e1ca96003
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.local
+    problem: "The headline cost (HK$250, shown on the page as R$185 and \"154% of daily budget\") is the price of one ticketed show on 12 Dec 2026. The page itself says regular Fri/Sat drag nights publish no cover, so the over-budget warning describes a night the traveler won't get. The budget angle is also missing: there's no drink price, no cheapest way in and no happy-hour price."
+    evidence: 'cost.local is now HK$240 (R$177.96 = 240 × 0.7415): no cover on a regular Fri/Sat night plus two cocktails, flagged as an estimate. The HK$250 and HK$450 shows are now optional lines in cost_breakdown. The budget angle is on the page in the pitfalls tips: the cocktail price range and the Tue–Thu 15:00–20:00 happy hour as the cheapest way in, which The Gay Passport supports ("3 pm - 8 pm").'
+  - field: cost_breakdown.items[1]
+    problem: The drinks line says HK$0 and is flagged as an estimate, but HK$0 is not an estimate. So a bar night that counts against the budget adds HK$0 to the trip total, and the budget angle (what a round costs, how to drink cheaply) is still missing.
+    evidence: 'https://www.afoodieworld.com/blog/2025/02/21/expensive-cocktails-in-hk/ (21 Feb 2025) says: "HKD120 is the go-to rate for new concept bars in Soho" and "HKD150 to even HKD180 cocktails are the norm for the glitzier spots". The drinks line is now 2 × HK$120 = HK$240, flagged as an estimate, and the page shows it as the total (phone shot: HK$240 / R$178, 148% of the daily budget).'
+rereview_of: 17a89e292a7596f3767bfdf80b9d5df120d87552a177d1ac7d9ba86067c239c6
+summary: "Both earlier shoulds are resolved. The cost is now a regular Fri/Sat night with two cocktails at HK$120, a flagged estimate that the A Foodie World source supports, and the budget angle is on the page: the price range and the Tue–Thu happy hour as the cheapest way in. The new text adds nothing unsupported, the page validates and renders cleanly, and no blockers remain."
+model: claude-opus-5-5
+cost_usd: 0.265

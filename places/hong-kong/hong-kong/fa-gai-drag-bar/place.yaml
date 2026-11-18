@@ -1,0 +1,135 @@
+id: fa-gai-drag-bar
+name: "Fa Gai"
+short_name: "Fa Gai"
+country: hong-kong
+city: hong-kong
+area: "Central · Wyndham Street"
+category: shows
+fame: hidden
+tags: [adult, drag, cabaret, lgbtq-friendly, weekend-night, late-night]
+kind: Do
+why: "Central's drag bar on Wyndham Street: drag shows and DJs every Friday and Saturday, ticketed RuPaul's Drag Race guests, open late. Fri 5 Feb fits."
+
+cost:
+  local: 240
+  currency: HKD
+  brl: 177.96
+  note: "Estimate: no cover published for Fri/Sat drag nights, plus two cocktails at HK$120, the usual Soho bar price (A Foodie World, 2025)"
+fx: { rate: 0.7415, date: 2026-11-18, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "2–3 h"
+best_time: "Fri 5 Feb, late evening"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Tue–Sun 15:00–02:00 (Instagram, newer than a 2025 listing of 11:00); late bar to 04:00. Drag Fri–Sat"
+  closed: "Mondays (not in its listed hours)"
+  winter: "Nothing posted for February 2027 yet. It ran a Year of the Horse drag trivia afternoon on 22 Feb 2026 (HK$150), so it trades in the New Year season, but 2027 holiday hours are unknown. Mon 8 Feb is a closed day. Indoors."
+
+location:
+  address: "G/F, Wyndham Mansion, 32 Wyndham Street, Central, Hong Kong Island"
+  address_local: "香港中環雲咸街30-32號雲咸大廈地下3-5號舖"
+  lat: 22.2799103
+  lng: 114.1552917
+  nearest_transit: "Central MTR"
+
+sources:
+  - url: https://www.instagram.com/fagaihk/
+    title: "Fa Gai (official Instagram): 3pm–2am Tuesday to Sunday, 32 Wyndham Street, late bar @fagai_afterdark, ticket link"
+    checked: 2026-11-18
+  - url: https://www.instagram.com/fagai_afterdark/
+    title: "Fa Gai After Dark (official Instagram): drinks, dancing, DJs, open until 4am"
+    checked: 2026-11-18
+  - url: https://www.fa-gai.com/
+    title: "Fa Gai official site: G/F 32 Wyndham Street, Central; gallery and contact form, no hours or prices"
+    checked: 2026-11-18
+  - url: https://www.yourtessera.com/o/fagaihk
+    title: "Fa Gai on Tessera (its ticket page): Lady Gagita's Art Pop Ball, 12 Dec 2026, HKD 250"
+    checked: 2026-11-18
+  - url: https://thegaypassport.com/venue/fa-gai/
+    title: "Fa Gai (The Gay Passport, updated 25 Sep 2025): drag shows and live DJ Fri and Sat, happy hour, Chinese address"
+    checked: 2026-11-18
+  - url: "https://www.google.com/maps/place/Fa+Gai/@22.2799103,114.1552917,17z/data=!3m1!4b1!4m6!3m5!1s0x3404010062fcd647:0x6f1fef4518cc3aa1!8m2!3d22.2799103!4d114.1552917!16s%2Fg%2F11y016vy_3?hl=en"
+    title: "Fa Gai on Google Maps: 4.9 from 74 reviews, G/F Wyndham Mansion, reviews 1–5 months old (read 18 Nov 2026)"
+    checked: 2026-11-18
+  - url: https://thebeat.asia/hong-kong/the-list/nightlife/jason-mraz-asia-tour-2026-kandy-muse-at-fa-gai-more
+    title: "Kandy Muse at Fa Gai, 6 Nov 2026: HK$350 early bird, HK$450 (The Beat)"
+    checked: 2026-11-18
+  - url: https://thebeat.asia/hong-kong/the-list/events/year-of-the-horse-trivia
+    title: "Year of the Horse Trivia at Fa Gai, Sun 22 Feb 2026, 16:00–19:00, HK$150 (The Beat)"
+    checked: 2026-11-18
+  - url: https://www.elegislation.gov.hk/hk/cap200
+    title: "Crimes Ordinance Cap. 200, Part XII: vice establishment (s.139) and soliciting (s.147)"
+    checked: 2026-11-18
+  - url: https://www.afoodieworld.com/blog/2025/02/21/expensive-cocktails-in-hk/
+    title: "Expensive cocktails in HK (A Foodie World, 21 Feb 2025): HK$120 the go-to price at new Soho concept bars, HK$150–180 at glitzier spots"
+    checked: 2026-11-18
+  - url: https://www.gov.hk/en/about/abouthk/holiday/2027.htm
+    title: "General holidays for 2027 (GovHK): Lunar New Year Sat 6, Mon 8 and Tue 9 Feb"
+    checked: 2026-11-18
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Monthly climate normals 1991–2020 (Hong Kong Observatory)"
+    checked: 2026-11-18
+confidence: medium
+confidence_note: "Hours and the Fri/Sat drag schedule are from its Instagram and The Gay Passport (2025); Google reviews 1–5 months old show it open. Weak: no published cover or drinks menu, cost is a 2025 Soho price estimate; nothing posted for Feb 2027 or Lunar New Year. fa-gai.com lists only the address. Nearest station off the map. Text hero: Commons rate-limited the street photo. No police news found."
+last_updated: 2026-11-18
+
+blocks:
+  - type: hero
+    hook: "Lip-sync, sequins and DJs on Wyndham Street: the Hong Kong counterpart to Seoul's weekend drag night."
+  - type: quick_facts
+    time_needed: "2–3 h"
+    best_time: "Fri 5 Feb, late"
+    extra:
+      - { label: Slot, value: "Fri 5 or Sat 6 Feb", detail: "Drag nights are Fri–Sat; Sat 6 is New Year's Day, hours unconfirmed" }
+      - { label: Crowd, value: "Gay bar, all welcome", detail: "\"Love is Love\" (its ticket page); reviews call it LGBTQ+ friendly" }
+      - { label: Late bar, value: "Until 04:00", detail: "Fa Gai After Dark, per its Instagram" }
+  - type: highlights
+    items:
+      - title: Drag every weekend
+        text: "The Gay Passport lists **drag shows and live DJs on Friday and Saturday**; the rest of the week is happy hour (Tue–Thu 15:00–20:00) and dinner."
+      - title: Big-name guests
+        text: "It brings **RuPaul's Drag Race** queens to Hong Kong: Kandy Muse played on 6 Nov 2026 (HK$350–450, The Beat), and Lady Gagita's Art Pop Ball is on 12 Dec (HK$250)."
+      - title: Liked by its regulars
+        text: "**4.9 from 74 Google reviews**, the newest a month old, mostly about friendly staff, DJs and drag queens. One mentions board games on quiet nights."
+      - title: Open late in Central
+        text: "The bar side, **Fa Gai After Dark**, says it is open **until 4 am**."
+  - type: prose
+    title: The adult-adjacent night that's simply legal
+    dropcap: true
+    text: |-
+      Hong Kong has no legal equivalent of Psyche Dream Spa: anything selling a role-play experience with sex would be an unlicensed or vice operation. What it does have, like Seoul's Rabbithole, is drag: a gay bar in Central with a stage, a DJ and queens on Friday and Saturday nights. It sells drinks and, on some nights, show tickets, nothing more.
+
+      Your best chance is **Fri 5 Feb**, the night you land (17:15), which is the eve of Lunar New Year. **Sat 6** is New Year's Day: the bar traded through the 2026 New Year season, but its 2027 holiday hours aren't out. **Mon 8** is its weekly closed day. Check Instagram the week before for a ticketed show.
+  - type: cost_breakdown
+    items:
+      - { label: "Entry on a regular Fri/Sat drag night (no cover published)", local: 0, brl: 0 }
+      - { label: "Two cocktails at a typical Soho price (HK$120 each)", local: 240, brl: 177.96, estimate: true }
+      - { label: "Ticketed drag night instead (12 Dec 2026 price)", local: 250, brl: 185.38, optional: true }
+      - { label: "Big-name Drag Race show instead (Nov 2026, GA)", local: 450, brl: 333.68, optional: true }
+  - type: map
+    note: "On the ground floor of **Wyndham Mansion**, 32 Wyndham Street, Central."
+  - type: tips
+    variant: insider
+    items:
+      - "Ticketed shows sell on **Tessera** (yourtessera.com/o/fagaihk), linked from its Instagram. Regular Fri/Sat drag nights list no ticket."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** a bar with a stage show; it sells drinks and tickets, nothing else, so Hong Kong's vice laws (Crimes Ordinance s.139, s.147) don't come into it."
+      - "**Closed Mondays**, and Mon 8 Feb is a public holiday too; don't plan it for that night."
+      - "No drinks prices are published; ask at the bar before a round. A 2025 guide puts new Soho concept bars at **HK$120** a cocktail and glitzier spots at HK$150–180."
+      - "Cheapest way in: the **Tue–Thu happy hour, 15:00–20:00** (The Gay Passport), but there's no drag show then."
+      - "No February 2027 programme yet. A big-name show costs more (HK$350–450 in Nov 2026)."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: Mild and humid, with little sunshine; about 39 mm of rain in the month
+    note: "February averages 15–19 °C. It's an indoor night; only the walk from the MTR is outside."
+    wear: "A light jacket for the walk home"
+  - type: pairs_well
+    items:
+      - { id: hk-lny-night-parade, note: "Sat 6 Feb: the New Year parade in TST, before a late drink here" }

@@ -1,0 +1,19 @@
+# Independent review of oriental-palm-spring-tst-east. Written by `./atr review`; do not edit by hand.
+id: oriental-palm-spring-tst-east
+type: place
+reviewed: 2026-11-18
+verdict: pass
+content_hash: f2fce3d76e60824e73229c565355bace2d6cea17c02edb276b2a35c5358228ac
+facts:
+  supported: 7
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].text
+    problem: "The prose calls this branch \"the cheapest published men's menu we found\" and compares only the standard session (HK$456 vs HK$526). The page's own advice is to arrive after 21:00 for the double-massage deal, and for that deal the Causeway Bay branch's 2026 note is cheaper: HK$538 in the discount window instead of HK$598, and HK$368 after 01:00 instead of HK$498. It also offers one person free when three go together."
+    evidence: "blocks[3].text now says this branch has the cheapest published **single-massage** session and that Causeway Bay's 2026 late double-massage prices are lower (HK$538 in the discount window, HK$368 after 01:00). Checked against http://www.orientalsaunaspa.com.hk/hongkongshop.php (opened with curl -k because the TLS certificate has expired): \"桑拿+單鐘（45分鐘） $526\" and \"由1月1日2026年起, 惠顧香港銅鑼灣店特價時段雙鍾按摩HK538深夜時段雙鍾按摩HK368\"."
+rereview_of: bda0743b24374933b22c9bb82e6152b0d2bd43ed48c65e78266ee7cb6c29833f
+summary: "The earlier finding is fixed: the 'cheapest' claim now covers only the single-massage session, and the Causeway Bay prices it quotes (HK$526, HK$538, HK$368) match that branch's official page. The rewritten raid line matches Dimsum Daily (3–17 Dec 2024 in Yau Tsim Mong, 83 arrested 'including clients', a forced entry at James S. Lee Mansion in TST). The removed review line takes out no fact, the page passes validate, and nothing is still open."
+model: claude-opus-5-5
+cost_usd: 0.281

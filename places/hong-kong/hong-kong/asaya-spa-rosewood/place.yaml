@@ -1,0 +1,156 @@
+id: asaya-spa-rosewood
+name: "Asaya Spa by Guerlain, Rosewood"
+short_name: "Asaya Spa"
+name_local: "香港瑰麗酒店 Asaya Spa"
+country: hong-kong
+city: hong-kong
+area: "TST · Victoria Dockside"
+category: odd-local
+fame: hidden
+tags: [adult, aroma-massage, hotel-spa, premium, weekend-day, holiday]
+kind: Do
+why: "The legal premium answer in a city with no nuru houses: Guerlain's signature oil massage in the Rosewood, 60 min HK$2,280 + 10%, a private bath extra."
+
+cost:
+  local: 2508
+  currency: HKD
+  brl: 1859.68
+  note: "60-min Imperial Relaxing Massage at the Fri–Sun rate, which also covers public holidays (official menu), plus 10% service charge"
+fx: { rate: 0.7415, date: 2026-11-18, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: "2 h (arrive 30–45 min early)"
+best_time: "Any day 09:00–22:00; the price is the same all week"
+
+book_ahead:
+  required: recommended
+  lead_days: 2
+  lead_time: "A few days ahead; a credit card holds the booking"
+  method: phone
+  links:
+    - label: "Call the wellness concierge"
+      url: "tel:+85238918588"
+      note: "Asaya's own line; email hongkong.asaya@rosewoodhotels.com"
+    - label: "Book online (Reserve a Treatment)"
+      url: "https://ap.spatime.com/rhk18/4800371/offering/4800600?types=1,0,4,8"
+      note: "The SpaTime page behind the spa page's Reserve a Treatment button"
+  notes: "The menu recommends booking ahead and needs a **credit card** to confirm. Cancelling or rescheduling within **24 hours**, or not showing up, is charged **100%**. Arrive late and the treatment is cut short."
+
+hours:
+  summary: "Daily 09:00–22:00 (Rosewood spa page)"
+  winter: "No Lunar New Year notice. The menu charges public holidays at the Fri–Sun rate, so all of Fri 5 – Tue 9 Feb pays it. The Asaya swimming pool is closed 2 Jan – 10 Mar 2027 for works; the spa page still lists the sauna, steam room and vitality pool."
+
+location:
+  address: "6/F, Rosewood Hong Kong, Victoria Dockside, 18 Salisbury Road, Tsim Sha Tsui, Kowloon"
+  address_local: "九龍尖沙咀梳士巴利道18號 香港瑰麗酒店 6樓"
+  lat: 22.29472
+  lng: 114.17583
+  nearest_transit: "East Tsim Sha Tsui MTR, Exit J1 or J2 (Victoria Dockside)"
+
+sources:
+  - url: https://www.rosewoodhotels.com/en/hong-kong/wellness/spa
+    title: "Asaya Spa by Guerlain (Rosewood HK): hours 9 am–10 pm daily, phone, email, Relaxation Sanctuary, pool closure notice"
+    checked: 2026-11-18
+  - url: https://www.rosewoodhotels.com/content/dam/rosewoodhotels/property/hong-kong/en/documents/wellness/asaya-treatment-menu-en-final.pdf
+    title: "Asaya treatment menu (PDF, undated): massage prices, private bath, holiday rate, 10% service charge, booking and cancellation"
+    checked: 2026-11-18
+  - url: https://www.rosewoodhotels.com/en/hong-kong/wellness/treatment-menu
+    title: "Rosewood HK exclusive treatments page (same Mon–Thu / Fri–Sun price structure)"
+    checked: 2026-11-18
+  - url: https://www.k11musea.com/visit/
+    title: "K11 Musea, Victoria Dockside, getting around: East Tsim Sha Tsui MTR Exit J1 & J2, Tsim Sha Tsui Exit E"
+    checked: 2026-11-18
+  - url: https://www.wikidata.org/wiki/Q64584936
+    title: "Rosewood Hong Kong (Wikidata): coordinates"
+    checked: 2026-11-18
+  - url: https://www.elegislation.gov.hk/hk/cap266
+    title: "Massage Establishments Ordinance Cap. 266: licence needed for opposite-sex full-body massage; hotels not exempt"
+    checked: 2026-11-18
+  - url: "https://www.police.gov.hk/info/doc/licensing/general/en/gls_mel_Guideline(e).pdf"
+    title: "Guide to applying for a Massage Establishments Licence (HK Police, rev. 08/2021): door windows, no locks, no vice"
+    checked: 2026-11-18
+  - url: https://www.elegislation.gov.hk/hk/cap200
+    title: "Crimes Ordinance Cap. 200, Part XII: vice establishment (s.117(3), s.139), soliciting (s.147)"
+    checked: 2026-11-18
+  - url: https://www.gov.hk/en/about/abouthk/holiday/2027.htm
+    title: "General holidays for 2027 (GovHK): Lunar New Year Sat 6, Mon 8 and Tue 9 Feb"
+    checked: 2026-11-18
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Monthly climate normals 1991–2020 (Hong Kong Observatory)"
+    checked: 2026-11-18
+confidence: medium
+confidence_note: "Prices, rules and hours are from Rosewood's own pages (read 18 Nov 2026), but the menu PDF is undated. No Lunar New Year notice yet. No source says whether you can choose the therapist's gender. Licence not checked: there is no public register, and the page says what that means for the therapist. Chinese address is ours, built from the English one."
+last_updated: 2026-11-18
+
+blocks:
+  - type: hero
+    image: victoria-dockside
+    caption: "Victoria Dockside; the Rosewood is the tall tower. No free photo of the spa"
+    hook: "No legal nuru house exists in Hong Kong. The honest splurge: a sense-led oil ritual six floors above the harbour."
+  - type: quick_facts
+    time_needed: "60 or 90 min treatment"
+    best_time: "Any day, 09:00–22:00"
+    extra:
+      - { label: Slot, value: "Fri 5 Feb evening", detail: "The one non-holiday day; land 17:15, spa open to 22:00" }
+      - { label: Before you go, value: "Arrive 30–45 min early", detail: "For the consultation, then sauna and steam (menu)" }
+      - { label: Licence, value: "Not verified", detail: "No public register; it decides the therapist's gender (Pitfalls)" }
+  - type: highlights
+    items:
+      - title: Guerlain's signature massage
+        text: "The **Imperial Relaxing Massage** pays tribute to Eau de Cologne Impériale; Guerlain's own menu says it \"arouses all the senses\". 60 min HK$2,280, 90 min HK$2,780 at the weekend and holiday rate."
+      - title: A private bath, if you want one
+        text: "Add **30 minutes of private bath** in a 6/F treatment room for HK$980, or in a **7/F Spa Duet Suite** for HK$1,980 (menu add-ons)."
+      - title: Sauna and steam first
+        text: "The spa page lists a **Relaxation Sanctuary** with sauna, steam room and vitality pool, and the menu asks you to come **30–45 min early** to use it."
+      - title: Clear rules
+        text: "Published prices, a 10% service charge, a credit card to hold the slot, and a **100% charge** if you cancel within 24 hours. No surprises in the room."
+  - type: prose
+    title: Why a hotel spa is on this list
+    dropcap: true
+    text: |-
+      Hong Kong licenses every place where a man gets a full-body massage from a woman (Cap. 266 s.3), and the police licensing guide is strict: a see-through window in each massage-room door (paras 2.1–2.3), doors never locked (1.5), no dimmers (3.2), and no vice on the premises (Annex H). That's why no legal Bangkok-style nuru or role-play spa exists here. The one online "nuru" menu we found listed no address and no licence, so it is out.
+
+      What's left at the top end is luxury: a Guerlain ritual in the Rosewood, with steam, sauna and an optional private bath. It is **not** sexual, and the menu treats it as wellness. It is also expensive: the 60-minute massage with service is **HK$2,508, about R$1,860**, more than 15 days of your R$120 budget. That's over the "no crazy spending" line unless this is your one splurge in Hong Kong.
+  - type: book_ahead
+    steps:
+      - { days_before: 2, text: "Call **+852 3891 8588** or email the spa (address above); ask for the Imperial Relaxing Massage and whether you can choose your therapist." }
+      - { days_before: 2, text: "Give a **credit card** to confirm. Changes inside 24 hours cost the full price." }
+      - { days_before: 0, text: "Arrive **30–45 min early** at the 6th floor of the Rosewood for the consultation and the sauna." }
+  - type: cost_breakdown
+    items:
+      - { label: "Imperial Relaxing Massage, 60 min (Fri–Sun / holiday rate)", local: 2280, brl: 1690.62 }
+      - { label: "10% service charge", local: 228, brl: 169.06 }
+      - { label: "Private bath, 30 min, 6/F room (add-on)", local: 980, brl: 726.67, optional: true }
+  - type: menu
+    title: Massages (official menu, Fri–Sun and holidays)
+    items:
+      - { name: "Imperial Relaxing Massage, 60 min", price_local: 2280, price_brl: 1690.62, note: "Signature; 90 min HK$2,780" }
+      - { name: "Muscular Energy (men's menu), 60 min", price_local: 2280, price_brl: 1690.62, note: "90 min HK$2,780" }
+      - { name: "Deep Muscular Massage, 60 min", price_local: 2580, price_brl: 1913.07, note: "90 min HK$3,080" }
+      - { name: "Intensive Body Therapy, 120 min", price_local: 3380, price_brl: 2506.27, note: "Scrub plus massage" }
+    note: "Mon–Thu prices are HK$300 lower, but every day of your stay is Fri–Sun or a public holiday. Add 10% service charge."
+  - type: map
+    note: "In the **Rosewood Hong Kong** at Victoria Dockside, on Salisbury Road by the harbour; the spa is on the **6th floor**."
+  - type: tips
+    variant: insider
+    items:
+      - "Every day of your stay is billed at the Fri–Sun rate, so the day doesn't change the price. Only **Fri 5 Feb** isn't a general holiday (GovHK counts every Sunday), but you land at 17:15 and the spa shuts at 22:00."
+      - "Bring swimwear or shorts for the sauna and steam: the etiquette section of the menu recommends them."
+      - "The swimming pool is shut until 10 Mar 2027; don't plan around it."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** buying sex from an adult isn't a crime in Hong Kong; premises used by 2+ people for it are vice establishments (Crimes Ordinance s.117(3), s.139). This is a massage menu only; asking for more would be out of line."
+      - "**Therapist:** a spa without a Cap. 266 licence may only give full-body massage by a therapist of the **same sex** (s.3(f)). We couldn't check Asaya's licence, so ask who will do your massage when you book."
+      - "**Cancellation:** within 24 hours or a no-show is charged **100%** (menu)."
+      - "The price on the menu isn't the total: add **10% service charge**."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: Mild and humid, with little sunshine; about 39 mm of rain in the month
+    note: "February averages 15–19 °C. Indoors from door to door: a good rainy-day plan."
+    wear: "Anything; robe and slippers are provided"
+  - type: pairs_well
+    items:
+      - { id: k11-musea, note: "Same Victoria Dockside complex, steps away" }
+      - { id: oriental-palm-spring-tst-east, note: "The local, cheaper way: a men's sauna in TST East" }
