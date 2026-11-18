@@ -1,0 +1,16 @@
+# Independent review of sleep-no-more-seoul. Written by `./atr review`; do not edit by hand.
+id: sleep-no-more-seoul
+type: place
+reviewed: 2026-11-18
+verdict: pass
+content_hash: fedba1c7e45d58986daca0ff4a90fc08c9c76017ef8bed124315748863fc64ed
+facts:
+  supported: 2
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 1b7c0821ee8810a6fb8ea3b5924bf6681b55aa376ecd26e16bdb0219799f0c38
+summary: The edit drops the unsupported claim that you may take the mask off in the bar. Both remaining claims check out. Korea Travel Planning says phones go into a sealed pouch and "The bar is the one exception". McKithan's official entertainment page says "At Manderley Bar, you can enjoy live jazz performances and cocktails." The earlier review had no blockers or shoulds, and I found no new problems, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.169

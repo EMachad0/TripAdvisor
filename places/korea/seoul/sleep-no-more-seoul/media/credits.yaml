@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: daehan-cinema-entrance
+  title: File:Entrance of Daehan Cinema in Chungmuro.jpg
+  author: Christian Bolz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Entrance_of_Daehan_Cinema_in_Chungmuro.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/72/Entrance_of_Daehan_Cinema_in_Chungmuro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Der Eingang des Daehan Cinema in Chungmuro, Seoul.
+  width: 4160
+  height: 2340
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-18
+  origin: commons

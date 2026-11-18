@@ -1,0 +1,142 @@
+id: rabbithole-drag-show-haebangchon
+name: "Rabbithole Drag Show"
+name_local: "래빗홀 아케이드 펍"
+country: korea
+city: seoul
+area: "Yongsan · Haebangchon"
+category: shows
+fame: hidden
+tags: [adult, drag, cabaret, value, weekend-night, late-night, lgbtq-friendly]
+kind: Do
+counts_against_budget: true
+why: "About ₩10,000 at the door for Seoul's weekly drag revue in a basement arcade bar on the HBC hill: queens, kings, lip-sync, audience games on Saturdays."
+
+cost:
+  local: 10000
+  currency: KRW
+  brl: 43.27
+  note: "Estimate: about ₩10,000 at the door (Qlist, Oct 2025); the bar publishes no price. Drinks ₩5,000–12,000 (Kakao menu, undated)"
+fx: { rate: 0.004327, date: 2026-11-17, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–3 h"
+best_time: "Sat 16 Jan, show from about 21:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Thu–Fri 20:00–04:00, Sat 19:00–04:00 (Kakao). Drag shows Fri and Sat only: about 22:00 Fri, 21:00 Sat"
+  closed: "Mon–Wed (Kakao); Sunday hours not listed"
+  winter: "No winter schedule published. The Facebook page was posting events on 18 Nov 2026 and Kakao visitor data was updated the same day, so the bar is open now; the January 2027 line-up isn't out yet. Indoors, in a basement; the cold part is the uphill walk from Noksapyeong."
+
+location:
+  address: "B1, 37 Sinheung-ro, Yongsan-gu, Seoul (Haebangchon)"
+  address_local: "서울 용산구 신흥로 37 지하1층 (래빗홀)"
+  lat: 37.54179
+  lng: 126.98718
+  nearest_transit: "Noksapyeong (Line 6), Exit 2, about 730 m uphill (12 min)"
+
+sources:
+  - url: https://www.facebook.com/rabbitholehbc/
+    title: "Rabbithole Arcade Pub (official Facebook page, post of 18 Nov 2026): \"Friday & Saturday: Drag shows\", address, phone"
+    checked: 2026-11-18
+  - url: https://place.map.kakao.com/855948628
+    title: "래빗홀 on Kakao Map: 신흥로 37 지하1층, Thu–Fri 20:00–04:00, Sat 19:00–04:00, closed Mon–Wed, 14-item drinks menu with prices"
+    checked: 2026-11-18
+  - url: https://qlist.app/events/Seoul/Rabbithole-Arcade-Pub-Weekend-Drag-Shows/8037
+    title: "Rabbithole weekend drag shows (Qlist, updated 24 Oct 2025): about ₩10,000 at the door, Fri ~22:00, Sat ~21:00, kings, burlesque"
+    checked: 2026-11-18
+  - url: https://koreatimes.co.kr/www/nation/2023/11/113_353728.html
+    title: "Rabbithole's drag shows welcome all, but watch your liver (Korea Times, 27 Jun 2023): opened Dec 2016, sets per night"
+    checked: 2026-11-18
+  - url: https://www.getyourguide.com/seoul-l197/rabbithole-drag-show-entry-ticket-t1283999/
+    title: "Seoul: Rabbithole Drag Show Entry Ticket (GetYourGuide, reseller \"Seoul Night Life\"): from R$68 with one cocktail; review of 25 Oct 2026"
+    checked: 2026-11-18
+  - url: https://nightflow.kr/en/club-entry-rules
+    title: "Age, passport and entry rules (NightFlow): Korean year-age rule, physical passport required, photos and copies refused"
+    checked: 2026-11-18
+  - url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%8B%9D%ED%92%88%EC%9C%84%EC%83%9D%EB%B2%95/%EC%A0%9C44%EC%A1%B0"
+    title: "식품위생법 제44조③ (law.go.kr): bans 접객행위 outside licensed 유흥 venues, \"공연을 목적으로 하는 가수, 악사, 댄서, 무용수 등이 하는 행위는 제외\""
+    checked: 2026-11-18
+  - url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%84%B1%EB%A7%A4%EB%A7%A4%EC%95%8C%EC%84%A0%EB%93%B1%ED%96%89%EC%9C%84%EC%9D%98%EC%B2%98%EB%B2%8C%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0/%EC%A0%9C21%EC%A1%B0"
+    title: "성매매처벌법 제21조① (law.go.kr): \"성매매를 한 사람은 1년 이하의 징역이나 300만원 이하의 벌금ㆍ구류 또는 과료에 처한다\""
+    checked: 2026-11-18
+  - url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B6%9C%EC%9E%85%EA%B5%AD%EA%B4%80%EB%A6%AC%EB%B2%95/%EC%A0%9C46%EC%A1%B0"
+    title: "출입국관리법 제46조 and 제11조 (law.go.kr): deportation; entry refused to \"강제퇴거명령을 받고 출국한 후 5년이 지나지 아니한 사람\""
+    checked: 2026-11-18
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul (Wikipedia): January climate normals, mean high 2.1 °C, mean low −5.5 °C"
+    checked: 2026-11-18
+confidence: medium
+confidence_note: "Show nights from the bar's own Facebook page (active Nov 2026). Show start times and the ₩10,000 cover come from Qlist (Oct 2025) and the 2023 Korea Times piece: no price from the bar, so the cover is an estimate. Kakao's menu prices are undated and Kakao doesn't list Sunday hours. Its listed website doesn't resolve; Instagram shows unavailable. GetYourGuide read via atr render."
+last_updated: 2026-11-18
+
+blocks:
+  - type: hero
+    image: haebangchon-sign
+    caption: "Haebangchon, the hillside neighbourhood below Namsan Tower (no free photo of the bar)"
+    hook: "Lip-sync, sequins and loud audience games in a basement arcade bar on the hill under Namsan Tower."
+  - type: quick_facts
+    time_needed: "2–3 h"
+    best_time: "Sat 16 Jan, from 21:00"
+    extra:
+      - { label: Fits, value: "Sat 16 Jan only", detail: "Shows are Fri/Sat; Fri 15 is a work night, Sun 17 has no show" }
+      - { label: Bring, value: Physical passport, detail: "Korean bars check ID; photos and copies refused (NightFlow)" }
+      - { label: Language, value: "Mostly visual", detail: "Lip-sync and dance; Korean and international performers" }
+  - type: highlights
+    items:
+      - title: The legal version of a cabaret night
+        text: "We found no strip theatre or regular burlesque club open in Seoul. What there is: a **weekly drag revue** with queens, kings, burlesque and voguing numbers and audience games (Qlist), on Friday and Saturday nights."
+      - title: Cheap for a show
+        text: "About **₩10,000** at the door (R$43, Qlist; the bar posts no price), with drinks from **₩5,000** for a shot. Cover plus two drinks stays under your R$140 day."
+      - title: Running since 2016
+        text: "Rabbithole opened in **December 2016**. On Saturdays there are roughly twice as many performers as on Fridays, over **three sets** (Korea Times). GetYourGuide's latest reviewer (Oct 2026) called it \"amazing atmosphere, excellent performers\"."
+      - title: Open to everyone
+        text: "The bar calls itself a gay bar that **opens its doors to everyone**, and its manager says the crowd is very mixed (Korea Times). The latest reviewer praised the crowd and the performers alike (GetYourGuide)."
+  - type: prose
+    title: What it is, and what it isn't
+    dropcap: true
+    text: |-
+      In Bangkok the costume and the act came with the massage. In Korea, where buying sex is a crime for both sides, the legal version is a stage show: you pay the cover, buy drinks and watch. Rabbithole is a small basement arcade bar in Haebangchon (HBC), the hillside village between Itaewon and Namsan, and its weekend drag revue (lip-sync, dance, comedy and audience interaction, says the reseller's listing) is the best-documented regular adult stage show we found open in Seoul now. It's a comic cabaret, not an erotic show.
+
+      Only one night fits: **Saturday 16 January**, after you're back from Hwacheon. The Saturday show starts at about 21:00 and runs in sets through the evening. Friday the 15th is a work night, and Sunday the 17th has no drag (shows are Friday and Saturday only). Take a Hwacheon → Dong Seoul bus by about **17:30** (2 h 35, per the Hwacheon page), then cross town to HBC. Walk in and pay at the door; Qlist says there's no online ticketing from the bar itself.
+  - type: cost_breakdown
+    items:
+      - { label: "Door cover (about, per Qlist)", local: 10000, brl: 43.27, estimate: true }
+      - { label: "Long Island iced tea", local: 12000, brl: 51.92, optional: true }
+      - { label: "Beer (Tsingtao, Heineken or Corona)", local: 7000, brl: 30.29, optional: true }
+  - type: menu
+    title: Drinks (Kakao menu)
+    items:
+      - { name: "Long Island iced tea", name_local: "롱-아일랜드 아이스티", price_local: 12000, price_brl: 51.92, tag: drink }
+      - { name: "AMF (Adios) cocktail", name_local: "아디오스 머더퍼커", price_local: 12000, price_brl: 51.92, tag: drink }
+      - { name: "Vodka (double)", name_local: "보드카 (double)", price_local: 10000, price_brl: 43.27, tag: drink }
+      - { name: "Jeju Pale Ale", name_local: "제주 페일 에일", price_local: 9000, price_brl: 38.94, tag: drink }
+      - { name: "Tsingtao, Heineken, Corona, PBR", name_local: "칭타오 · 하이네켄 · 코로나 · PBR", price_local: 7000, price_brl: 30.29, tag: drink }
+      - { name: "Tequila or lemon-drop shot", name_local: "데킬라 샷 · 레몬 드랍 샷", price_local: 5000, price_brl: 21.64, tag: cheap }
+      - { name: "Bundaberg (alcohol-free)", name_local: "분다버그 (0% 알코올)", price_local: 6000, price_brl: 25.96 }
+    note: "Prices from the bar's Kakao Map menu (undated, so they may have risen). The reseller ticket includes one of the bar's Pokémon-themed cocktails; their menu price isn't listed."
+  - type: map
+    note: "From **Noksapyeong** Exit 2 it's about 12 minutes on foot, uphill into Haebangchon. The bar is in the **basement of 37 Sinheung-ro** (신흥로 37 지하1층)."
+  - type: tips
+    variant: insider
+    items:
+      - "Go on the **Saturday**: the Korea Times says Saturdays have about twice the performers of Fridays, over three sets."
+      - "A reseller sells a ticket with one cocktail on GetYourGuide (from R$68). The door is cheaper only if you drink nothing: cover plus a ₩7,000 beer is about R$73, so if you want a drink the ticket wins. Check it sells Sat 16 Jan."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Legal status:** a bar (술집 on Kakao; licence type not published) with a stage show. Korean law bans bar staff from drinking with or entertaining customers but exempts performers giving a show (Food Sanitation Act Art. 44(3)), so the show is legal; only the cover and drinks are sold."
+      - "Buying or selling sex in Korea is a crime for both sides: up to **1 year in prison or a ₩3,000,000 fine** (Art. 21, sex-trade punishment act). Foreigners can also be deported (Immigration Act Art. 46) and refused re-entry for 5 years (Art. 11)."
+      - "Bring your **physical passport**: Korean bars check ID, and photos or photocopies are refused (NightFlow)."
+      - "The sign above the door warns you to **watch your liver** (Korea Times): drinks are strong and the shots are ₩5,000."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: "Dry, freezing nights"
+    note: "Indoors in a basement. The uphill walk from the metro, and the walk back after midnight, is around −5 °C."
+    wear: "A warm coat you can hold on your lap; boots with grip for the hill"
+  - type: pairs_well
+    items:
+      - { id: namsan-n-seoul-tower, note: "The tower above Haebangchon: go up at sunset, walk down to the show" }
+      - { id: g-guesthouse-itaewon, note: "Stay nearby in Itaewon" }
