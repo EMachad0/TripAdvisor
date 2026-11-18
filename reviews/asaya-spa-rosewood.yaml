@@ -1,0 +1,25 @@
+# Independent review of asaya-spa-rosewood. Written by `./atr review`; do not edit by hand.
+id: asaya-spa-rosewood
+type: place
+reviewed: 2026-11-18
+verdict: pass
+content_hash: 51b53793deb60b829012cd0034ac03e4b32f84964444a29fa4f71971549524ef
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: best_time
+    problem: "best_time, blocks[1].best_time and the first insider tip say Sun 7 Feb is 'the one day that isn't a public holiday'. Fri 5 Feb isn't one either: GovHK lists only Sat 6, Mon 8 and Tue 9. The price is the same every day, so the page gives no real reason to pick Sun 7."
+    evidence: The 'one day that isn't a public holiday' claim is gone. Top-level best_time now reads "Any day 09:00–22:00; the price is the same all week" and blocks[1].best_time reads "Any day, 09:00–22:00". The insider tip now names Fri 5 Feb, which matches https://www.gov.hk/en/about/abouthk/holiday/2027.htm (Sat 6, Mon 8 and Tue 9 Feb are holidays, and so is every Sunday).
+  - field: blocks[1].extra[0]
+    problem: The Slot chip and blocks[11].items[0] say Sun 7 Feb is not a public holiday. GovHK makes every Sunday a general holiday, and 7 Feb 2027 is also the second day of Lunar New Year, so Fri 5 Feb is the only non-holiday day of the stay.
+    evidence: The Slot chip now reads "Fri 5 Feb evening — The one non-holiday day; land 17:15, spa open to 22:00". blocks[11].items[0] now says only Fri 5 Feb isn't a general holiday because GovHK counts every Sunday. This matches https://www.gov.hk/en/about/abouthk/holiday/2027.htm ("Every Sunday"; LNY Sat 6, Mon 8 and Tue 9 Feb). The 'same price every day' line still holds, because Friday is billed at the Fri–Sun rate.
+  - field: location.nearest_transit
+    problem: The new text 'East Tsim Sha Tsui MTR, next to Victoria Dockside' has no listed source. The Rosewood spa page gives only the street address and names no MTR station or exit.
+    evidence: "The curator added the K11 Musea visit page (Victoria Dockside, 18 Salisbury Road, the same complex as Rosewood) as a source: https://www.k11musea.com/visit/. A render of that page showed its 'Getting Around > MTR' section, but the section was collapsed. Later renders came back blank, so I could not read the exit text directly. The web search snippet of that page reads \"East Tsim Sha Tsui MTR Station, Exit J1 & J2\", which supports 'Exit J1 or J2 (Victoria Dockside)'."
+rereview_of: 820cdc54ac670386359788f780598c3134a1c241e8225f53260395a1e76d3134
+summary: All three earlier findings are fixed. The holiday and slot text now says Fri 5 Feb is the only non-holiday day, which matches GovHK, and the J1/J2 exit claim is backed by the K11 Musea page that was added as a source (its text was read through a search snippet, because the page rendered blank). I found no blockers in the unchanged content, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.443

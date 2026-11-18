@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: victoria-dockside
+  title: File:Victoria Dockside 202007.jpg
+  author: Wpcpey
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Victoria_Dockside_202007.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c7/Victoria_Dockside_202007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Victoria Dockside in Tsim Sha Tsui, Hong Kong
+  width: 2259
+  height: 2082
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-18
+  origin: commons
