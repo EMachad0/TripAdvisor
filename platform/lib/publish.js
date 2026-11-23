@@ -1,7 +1,8 @@
 // `./atr answers publish`: ship answer files to the hosted site without touching the working tree.
 // validate → temp worktree from fresh origin/main → copy (or remove) only those files → commit → push a branch →
 // PR with gh → merge (merge commit) → clean up → wait until /healthz reports the merge commit. That, not Coolify's
-// deploy status, is what proves the card is live (site.js has the site).
+// deploy status, is what proves the deploy landed (site.js has the site). Then the card's own pages are opened as
+// the read-only guest (site-session.js) to see the card on them; without a guest login that step is skipped, and said so.
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -10,6 +11,7 @@ import { ROOT } from './paths.js';
 import { parseAnswer, checkAnswers, resolveAbout, FILE_RE } from './answers.js';
 import { loadPlaces, loadAreas } from './load.js';
 import { SITE, answerLink, answerPageLink } from './site.js';
+import { openSiteSession, answerPageProblem, SiteSessionError, GUEST_SETUP } from './site-session.js';
 
 const MIN = 60e3;
 
@@ -62,7 +64,9 @@ function precheck(files, dataOpts) {
 
 /**
  * Publish answer files. opts: { files, remove, merge = true, dryRun, root = ROOT, run = sh, log, fetchImpl, sleep,
- * remote = 'origin', base = SITE.branch, deployTimeoutMs, dataOpts, site = SITE } → result object.
+ * remote = 'origin', base = SITE.branch, deployTimeoutMs, dataOpts, site = SITE, guestLogin } → result object.
+ * `guestLogin`: { username, password } to open the published pages with (the CLI passes readGuestLogin()); null when
+ * there is none (said in the log); left out, the pages are not opened at all.
  * Throws PublishError with a clear message when something is wrong (nothing half-done is left behind locally).
  */
 export async function publishAnswers(opts = {}) {
@@ -181,6 +185,18 @@ export async function publishAnswers(opts = {}) {
   if (live) log(`the site serves ${result.sha.slice(0, 7)} (/healthz ${health.status}): the card is live.`);
   else log(`deploy not confirmed: /healthz ${healthSummary(health, result.sha)}. Check again in a few minutes.`);
   result.live = live;
+  // 7. open each published card's pages as the guest: the deploy landing does not prove the page shows the card
+  let pagesOk = true;
+  if (live && pre.parsed.length) {
+    const checked = await checkPages({ answers: pre.parsed, site, fetchImpl, login: opts.guestLogin });
+    result.pages = checked.pages;
+    result.pagesSkipped = checked.skipped || null;
+    if (opts.guestLogin === undefined) result.pagesSkipped = null;
+    else if (checked.skipped) log(`pages not opened: ${checked.skipped}`);
+    for (const p of checked.pages) log(p.ok ? `opened as guest, the card is on it: ${p.url}` : `PROBLEM on ${p.url}: ${p.problem}`);
+    pagesOk = checked.pages.every((p) => p.ok);
+    if (!pagesOk) log('the card is merged and deployed but a page does not show it: look into it before telling anyone it is live.');
+  }
   // Your copy of a published file is now also on main: a later `git pull` refuses to overwrite a local copy, so say how to drop it.
   result.tidy = [];
   for (const f of abs) {
@@ -191,8 +207,36 @@ export async function publishAnswers(opts = {}) {
   }
   if (result.tidy.length) log(`your local copy is on ${base} now; drop it so the next pull brings the merged one: ${result.tidy.join(' && ')}`);
   for (const l of result.links) log(`card: ${l}`);
-  result.ok = true;
+  result.ok = pagesOk;
   return result;
+}
+
+/**
+ * Open the Answers page of each answer, and its place or area page, as the guest.
+ * → { pages: [{ id, url, ok, status, problem }], skipped: reason or undefined }
+ */
+export async function checkPages({ answers, site = SITE, fetchImpl = fetch, login }) {
+  if (!login) return { pages: [], skipped: `no guest login (${GUEST_SETUP})` };
+  let session;
+  try { session = await openSiteSession({ login, site, fetchImpl }); } catch (e) {
+    if (e instanceof SiteSessionError) return { pages: [], skipped: e.message };
+    throw e;
+  }
+  const pages = [];
+  try {
+    for (const a of answers) {
+      const paths = [site.answerPath(a.id), ...(a.target && (a.target.kind === 'place' || a.target.kind === 'area') ? [`/${a.target.kind}/${encodeURIComponent(a.target.id)}`] : [])];
+      for (const p of paths) {
+        let page, problem;
+        try { page = await session.get(p); problem = answerPageProblem(page, a.id); } catch (e) {
+          if (!(e instanceof SiteSessionError)) throw e;
+          problem = e.message;
+        }
+        pages.push({ id: a.id, url: `${site.url}${p}`, ok: !problem, status: page?.status ?? null, problem: problem || null });
+      }
+    }
+  } finally { await session.close(); }
+  return { pages };
 }
 
 /** One phrase for the deploy-not-confirmed line. */

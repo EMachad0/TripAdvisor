@@ -212,6 +212,45 @@ test('publish: worktree from origin/main, only the answer files, PR, merge, clea
   assert.equal(again.unchanged, true);
 });
 
+test('publish: opens the card pages as the guest; a page without the card fails the publish', async () => {
+  const site = (pages) => async (url, init = {}) => {
+    const u = new URL(url), cookie = init.headers?.cookie || '';
+    const res = (status, body = '', headers = {}) => ({ ok: status >= 200 && status < 300, status, headers: { get: (n) => headers[n] ?? null, getSetCookie: () => headers.cookies || [] }, text: async () => body, json: async () => JSON.parse(body) });
+    if (u.pathname === '/healthz') return res(200, JSON.stringify({ ok: true, sha: pages.sha() }));
+    if (u.pathname === '/api/auth/sign-in/username') return JSON.parse(init.body).password === 'pw' ? res(200, '{}', { cookies: ['__Secure-better-auth.session_token=s1; Path=/; HttpOnly'] }) : res(401);
+    if (u.pathname === '/api/auth/sign-out') { pages.signedOut = true; return res(200, '{}'); }
+    if (!cookie.includes('session_token=s1')) return res(303, '', { location: '/login' });
+    pages.opened.push(u.pathname);
+    return res(200, pages.html(u.pathname));
+  };
+  const publish = async (name, html, login = { username: 'guest', password: 'pw' }) => {
+    const r = fakeRepo(), lines = [];
+    const pages = { opened: [], sha: () => r.git(r.origin, 'rev-parse', 'main'), html };
+    const good = path.join(r.work, 'answers', `${name}.md`);
+    fs.writeFileSync(good, md('question: Which temples first?\nasked: 2026-11-25\nabout: kyoto\ntldr: Fushimi Inari at 07:00.'));
+    const res = await publishAnswers({ ...r.opts, fetchImpl: site(pages), guestLogin: login, log: (l) => lines.push(l), files: [good] });
+    return { res, pages, lines };
+  };
+  const id = '2026-11-25-kyoto-temples';
+  const ok = await publish(id, () => `<article id="answer-${id}">…</article>`);
+  assert.equal(ok.res.ok, true);
+  assert.deepEqual(ok.pages.opened, [`/places/answers/${id}`, '/area/kyoto']);
+  assert.ok(ok.res.pages.every((p) => p.ok && p.status === 200));
+  assert.equal(ok.pages.signedOut, true, 'the guest session is signed out afterwards');
+  assert.ok(!ok.lines.join('\n').includes('pw'));
+  // the area page does not show the card
+  const bad = await publish(id, (p) => (p.startsWith('/area/') ? '<p>nothing here</p>' : `<article id="answer-${id}">`));
+  assert.equal(bad.res.ok, false);
+  assert.equal(bad.res.live, true);
+  assert.deepEqual(bad.res.pages.map((p) => p.ok), [true, false]);
+  assert.match(bad.lines.join('\n'), /PROBLEM on .*\/area\/kyoto: the page opens but the card is not on it/);
+  // a wrong password: the check is skipped and said so, the publish itself stands
+  const wrong = await publish(id, () => '', { username: 'guest', password: 'nope' });
+  assert.equal(wrong.res.ok, true);
+  assert.match(wrong.res.pagesSkipped, /refused the guest login/);
+  assert.match(wrong.lines.join('\n'), /pages not opened: /);
+});
+
 test('publish: --no-merge stops after the PR', async () => {
   const r = fakeRepo();
   const good = path.join(r.dir, '2026-11-25-good.md');

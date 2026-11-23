@@ -863,15 +863,16 @@ cmd('answers', {
   usage: './atr answers [--country <c>] [--about <id>]          (list, newest first)\n       ./atr answers --check                              (validate every answer; exit 1 on errors)\n       ./atr answers --ids [--country <c>]                (the ids you can put in about:)\n       ./atr answers publish <file...> [--remove <file>]... [--no-merge] [--dry-run]',
   details: `One Markdown file per answer: answers/<asked>-<short-slug>.md with front matter question, asked (YYYY-MM-DD), about (a place id, an area id, a country id or "trip"), tldr, optional sources [{ title, url }] and updated; the body is the full answer (may be empty). Workflow: .claude/skills/trip-answers/SKILL.md.
 
-publish validates the files, makes a temporary git worktree from a fresh origin/main (your working tree is never touched), copies only those files in (--remove deletes one), commits, pushes a branch, opens a pull request with gh, merges it (merge commit), removes the worktree and the branch, then waits until the site's /healthz reports the merge commit (platform/lib/site.js has the site). --no-merge stops after opening the PR; --dry-run only validates and prints the plan.`,
+publish validates the files, makes a temporary git worktree from a fresh origin/main (your working tree is never touched), copies only those files in (--remove deletes one), commits, pushes a branch, opens a pull request with gh, merges it (merge commit), removes the worktree and the branch, then waits until the site's /healthz reports the merge commit (platform/lib/site.js has the site) and opens each card's pages as the read-only guest to see the card on them (login: see ./atr site --help; without one that step is skipped and said so; a page without the card is exit 1). --no-merge stops after opening the PR; --dry-run only validates and prints the plan.`,
   options: { check: { type: 'boolean', desc: 'validate every answer file; exit 1 on errors' }, ids: { type: 'boolean', desc: 'list place, area and country ids for about:' }, country: { type: 'string', desc: 'only this country' }, about: { type: 'string', desc: 'list: only answers about this id' }, remove: { type: 'string', multiple: true, desc: 'publish: delete this answer from the site (repeatable)' }, 'no-merge': { type: 'boolean', desc: 'publish: stop after opening the pull request' }, 'dry-run': { type: 'boolean', desc: 'publish: validate and show the plan; nothing fetched, written or pushed' } },
   examples: ['./atr answers', './atr answers --check', './atr answers --ids --country japan', './atr answers publish answers/2026-11-21-yu-garden-passport.md', './atr answers publish --remove answers/2026-11-21-yu-garden-passport.md', './atr answers publish answers/2026-11-21-yu-garden-passport.md --dry-run'],
   async run(o, pos) {
     const { checkAnswers, byNewest } = await import('../lib/answers.js');
     if (pos[0] === 'publish') {
       const { publishAnswers, PublishError } = await import('../lib/publish.js');
+      const { readGuestLogin } = await import('../lib/site-session.js');
       try {
-        const r = await publishAnswers({ files: pos.slice(1), remove: o.remove || [], merge: !o['no-merge'], dryRun: !!o['dry-run'], log: o.json ? () => {} : (l) => console.log(l) });
+        const r = await publishAnswers({ guestLogin: readGuestLogin(), files: pos.slice(1), remove: o.remove || [], merge: !o['no-merge'], dryRun: !!o['dry-run'], log: o.json ? () => {} : (l) => console.log(l) });
         if (o.json) console.log(JSON.stringify(r, null, 2));
         if (!r.ok) process.exitCode = 1;
       } catch (e) {
@@ -902,6 +903,34 @@ publish validates the files, makes a temporary git worktree from a fresh origin/
     out(o, list.map(({ errors, ...a }) => ({ ...a, file: nameOf(a.file), valid: !bad.has(a.file) })), list.length
       ? list.map((a) => `${a.asked}  ${c.dim((a.target ? `${a.target.kind} ${a.target.id}` : `? ${a.about}`).padEnd(40))} ${a.question}${bad.has(a.file) ? c.red('  ✖ invalid (./atr answers --check)') : ''}\n            ${c.dim(nameOf(a.file))}`).join('\n') + `\n${c.dim(`${list.length} answer${list.length === 1 ? '' : 's'}`)}`
       : 'no answers yet (answers/*.md). Write one with the trip-answers skill.');
+  },
+});
+
+// ───────────────────────── site ─────────────────────────
+cmd('site', {
+  summary: 'open a page of the hosted site as the read-only guest and print what it shows',
+  usage: './atr site get <path> [--html] [--json]',
+  details: `Every page of the hosted site except /healthz redirects to the sign-in page without a session, so plain curl or a web fetch only ever sees the login form. get signs in as the read-only guest (it sees what the owner sees; every change is refused), fetches the path, prints the HTTP status, the page title and the page's text (--html: the raw HTML), then signs out. Exit 1 when the page does not answer 200.
+
+The login comes from ATR_GUEST_USERNAME / ATR_GUEST_PASSWORD or the macOS keychain (service atr-guest-login, the account name is the username); it is never an argument and never printed. Paths: /place/<id>, /area/<id>, /places/answers/<id>, /today, /trip, … (platform/lib/site.js has the site). App pages (/today, /trip, /places, …) are rendered on the server with the data of that moment; what only appears after a click is not in the text.`,
+  options: { html: { type: 'boolean', desc: 'print the raw HTML instead of the text' } },
+  examples: ['./atr site get /place/yu-garden', './atr site get /places/answers/2026-11-21-yu-garden-passport', './atr site get /today --html'],
+  async run(o, pos = []) {
+    if (pos[0] !== 'get' || !pos[1] || pos.length > 2) return fail('say what to open: ./atr site get <path>, e.g. ./atr site get /place/yu-garden');
+    const { readGuestLogin, openSiteSession, htmlText, htmlTitle, SiteSessionError } = await import('../lib/site-session.js');
+    let session;
+    try {
+      session = await openSiteSession({ login: readGuestLogin() });
+      const page = await session.get(pos[1]);
+      const ok = page.status === 200 && !page.signedOut;
+      const title = htmlTitle(page.html);
+      const head = `${ok ? c.green('✔') : c.red('✖')} ${page.signedOut ? 'sent back to the sign-in page' : `HTTP ${page.status}`} · ${page.url}${page.location ? ` → ${page.location}` : ''}${title ? ` · ${title}` : ''}`;
+      out(o, { ok, status: page.status, url: page.url, title, signedOut: page.signedOut, ...(o.html ? { html: page.html } : { text: htmlText(page.html) }) }, `${head}\n${o.html ? page.html : htmlText(page.html)}`);
+      if (!ok) process.exitCode = 1;
+    } catch (e) {
+      if (e instanceof SiteSessionError) return fail(e.message);
+      throw e;
+    } finally { await session?.close(); }
   },
 });
 

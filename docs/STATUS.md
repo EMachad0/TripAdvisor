@@ -5,7 +5,7 @@ The traveler now asks Claude Code agents on the laptop; answers worth keeping be
 
 - **Removed:** the Ask box on place and area pages, the floating Ask button, the Ask buttons in the deck and the sheet, the Today "Ask about the trip" box, the Questions stat, `POST /api/ask` and `/api/trip-ask`, `game/lib/ask.js` and `ATR_ASK`. `feedback/questions.jsonl` stays as curator history.
 - **Answer cards:** `answers/*.md` in git, deployed like places. Place/area pages show "Questions and answers"; **Places › Answers** lists all of them with a country filter; Today shows the three newest. Times in a card get their UTC offset from the card's country (`data-tz`).
-- **CLI:** `./atr answers` (list), `--check`, `--ids`, and `publish <file...> [--remove <file>] [--no-merge] [--dry-run]`.
+- **CLI:** `./atr answers` (list), `--check`, `--ids`, and `publish <file...> [--remove <file>] [--no-merge] [--dry-run]`. A publish opens the card's pages as the read-only guest; `./atr site get <path>` reads any page of the hosted site the same way (`platform/lib/site-session.js`).
 - **Skill:** `.claude/skills/trip-answers/SKILL.md` tells agents when and how to write and publish a card.
 - **Migrated:** 34 of the 36 logged questions (2 had no answer: the usage limit was hit).
 

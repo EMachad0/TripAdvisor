@@ -48,6 +48,8 @@ Answer cards (`answers/*.md`) ship with `./atr answers publish <file>`: it opens
 worktree, merges it and waits until `/healthz` reports the merge commit. The site URL it uses is in
 `platform/lib/site.js`.
 
+Pages need a sign-in, so `curl` only ever gets the login form. Agents read a page with `./atr site get <path>` (for example `./atr site get /place/yu-garden`): it signs in as the read-only guest, prints the status, title and text of the page, and signs out. A publish uses the same sign-in to open each new card's pages. The guest login comes from `ATR_GUEST_USERNAME` / `ATR_GUEST_PASSWORD` or the macOS keychain, stored once with `security add-generic-password -s atr-guest-login -a <guest username> -w` (it prompts for the password; add `-U` to replace it). Without it a publish still works and says the pages were not opened.
+
 ## Try the image locally
 
 ```bash
