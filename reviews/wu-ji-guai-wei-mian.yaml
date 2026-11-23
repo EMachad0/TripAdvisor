@@ -1,0 +1,22 @@
+# Independent review of wu-ji-guai-wei-mian. Written by `./atr review`; do not edit by hand.
+id: wu-ji-guai-wei-mian
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: c719acb610342e12da3a7d7895ea83ed745230f78f46286bd34226636713e138
+facts:
+  supported: 8
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: why / blocks[2].items[0] / blocks[2].items[1] / blocks[1].extra[1] / blocks[3].text
+    problem: "Several details come only from ViaMichelin, which returns 403 to both WebFetch and ./atr render: the shiitake-pork sauce, the line 'Michelin calls mildly hot, sweet and numbing', the founder being in his 70s, the son running the shop, the first shop 'down the road', and the beef noodles in spicy bean sauce with bamboo shoots. Michelin's own page cuts its review short, so none of these can be checked, yet `why` opens with the shiitake sauce."
+    evidence: "The shiitake, 'mildly hot', 70s, son, 'down the road' and bamboo-shoot lines are gone from why, the hero hook, quick_facts, highlights, prose and menu. The history now rests on https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/wu-ji-guai-wei-mian-jinjiang: \"此面馆始创于1989年，如今虽由第二代继承，创始人吴老先生仍坚持亲自炒哨子\"."
+  - field: why / blocks[0].hook / blocks[1].extra[1] / blocks[2].items / blocks[3].text / blocks[5].items
+    problem: "These details come only from ViaMichelin, which returns 403, so they cannot be checked: the shiitake-pork sauce, 'mildly hot, sweet and numbing', the founder in his 70s, his son running the shop, the first shop 'down the road', and the beef noodles in spicy bean sauce with bamboo shoots. The only change was a new source label that admits the site blocks bots, and `why` and the hook still rely on these lines."
+    evidence: 'The flavour lines now rest on a Ctrip review at https://gs.ctrip.com/html5/you/foods/fooddetail/104/148891436.html: "怪味面真是他家招牌！那个臊子给得巨多，一口下去咸甜麻辣全在嘴里蹦跶，酸味还特别提鲜". The 1989 / second-generation / founder-fries-the-topping lines rest on the Michelin Chinese page. No text still relies on ViaMichelin.'
+rereview_of: 97a8d33b3e6d636658add5ccbaad1395a8d4fff7b9e4602c0d8ac3fc4a4152dd
+summary: Both earlier findings are resolved. The flavour, history and dish lines that changed now rest on sources that open. The Michelin Chinese page backs 1989, the second generation and the founder frying the topping. Ctrip backs salty, sweet, spicy, numbing and sour, the generous topping, the mild seafood noodles and the beef and zajiang noodles on its dish list. Nothing open.
+model: claude-opus-5-5
+cost_usd: 0.352

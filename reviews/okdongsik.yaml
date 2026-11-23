@@ -1,0 +1,16 @@
+# Independent review of okdongsik. Written by `./atr review`; do not edit by hand.
+id: okdongsik
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 0e6fd046ce733f081e5a1b89f9d27ef38e8a8fa2ebd2aa923cee139dc5a9beac
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: fa9078186db9a2f4405b2e35f85527f0f6dcf75b8471f19ab638c5942f0c2605
+summary: No earlier findings were open. Every changed line matches the listed Naver blogs. multimillionaire1 (Oct 2026) gives ₩14,000 for a bowl, ₩7,000 for mandu, a ₩21,000 solo total and '34명' (34 people) waiting in Dec 2025. sodamtable_ (Nov 2026) says about 10 bar seats face the open kitchen and 1–2 people get a bar seat faster than a table. The BRL figures match the rate, Bunk Guesthouse is about 1 km away in Hongdae, and the phone render is clean. The desktop dark shot failed because the page was not built, so that view was not checked.
+model: claude-opus-5-5
+cost_usd: 0.509

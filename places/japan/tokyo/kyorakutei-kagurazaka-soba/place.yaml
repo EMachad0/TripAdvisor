@@ -1,0 +1,131 @@
+id: kyorakutei-kagurazaka-soba
+name: "Kyorakutei: Kagurazaka soba"
+short_name: Kyorakutei
+name_local: 石臼挽き手打 蕎楽亭
+name_romanized: Ishiusubiki Teuchi Kyōrakutei
+country: japan
+city: tokyo
+area: Shinjuku · Kagurazaka
+category: food
+fame: hidden
+tags: [soba, lunch, michelin-bib-gourmand, cash-only, queue, kagurazaka]
+kind: Eat
+why: "Kagurazaka's Bib Gourmand soba house: stone-milled, hand-cut noodles served two ways in one tray, ¥1,400 at lunch. Write your name on the list and wait."
+
+cost:
+  local: 1400
+  currency: JPY
+  brl: 52.4
+  note: "Two-colour soba (２色そば), as paid by Tabelog reviewers in Sep–Oct 2026"
+fx: { rate: 0.03743, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "45 min (plus the wait)"
+best_time: "Weekday at the 11:30 (UTC+9) opening"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Tue–Sat 11:30–14:00 and 17:00–20:00 (UTC+9); may close on other irregular days"
+  closed: "Sundays, Mondays and public holidays"
+  winter: "No winter hours listed. Japan has no public holiday between Jan 20 and Feb 5, 2027, so in the Tokyo window (you land after midnight on Jan 21) it should be open Thu Jan 21 – Sat Jan 23 and Tue Jan 26 – Fri Jan 29, barring the irregular closures Tabelog warns about."
+
+location:
+  address: "Kagurazaka-kan 1F, 3-6 Kagurazaka, Shinjuku-ku, Tokyo"
+  address_local: 東京都新宿区神楽坂3-6 神楽坂館 1F
+  lat: 35.70101
+  lng: 139.73962
+  nearest_transit: "Iidabashi station, then walk up Kagurazaka-dōri"
+  approximate: true
+
+sources:
+  - url: https://guide.michelin.com/en/tokyo-region/tokyo/restaurant/kyorakutei
+    title: "Kyorakutei — MICHELIN Guide (address, ¥ price band, 'Solo dining', 'Eat like a local', queue before opening)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/jp/tokyo-region/tokyo/restaurants/bib-gourmand/soba
+    title: "MICHELIN Guide Tokyo — Bib Gourmand soba list (current 2026 selection; Kyorakutei listed)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/tokyo/A1309/A130905/13000479/
+    title: "Ishiusuhiki Teuchi Kyorakutei — Tabelog (hours, closing days, 27 seats incl. 9 counter, no cards/e-money/QR)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/tokyo/A1309/A130905/13000479/dtlrvwlst/
+    title: "Kyorakutei reviews — Tabelog (Sep–Nov 2026: two-colour soba ¥1,400, mugimeoto ¥1,500, waits, name list)"
+    checked: 2026-11-23
+  - url: https://www.hotpepper.jp/strJ000104319/
+    title: "蕎楽亭 — HOT PEPPER Gourmet (two-colour soba of black and regular soba, tempura of live shrimp and conger eel; page dated 2020)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-ceremony-tokyo-kyoto-osaka-nara-2027-selection-save-the-date
+    title: "MICHELIN Guide — 2027 Tokyo, Kyoto-Osaka and Nara selections unveiled Feb 16, 2027"
+    checked: 2026-11-23
+  - url: https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+    title: "Cabinet Office Japan — national holidays 2027 (Jan 1, Jan 11, Feb 11, Feb 23)"
+    checked: 2026-11-23
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "JMA — climate normals 1991–2020, Tokyo (January: max 9.8 °C, min 1.2 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status from Michelin's Tokyo Bib soba list (2026 guide). Tabelog's menu tab is from 2011, so prices are from Sep–Oct 2026 Tabelog reviews; HOT PEPPER (2020) has older prices and hours, not used. No free photo of the shop or dish exists on Commons; a Kagurazaka street photo is queued behind Commons rate limits. Directions are mine; pin is block-level."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    hook: "Stone-milled, hand-cut soba, as the shop's full name (石臼挽き手打) says, tucked down a Kagurazaka side alley."
+  - type: quick_facts
+    time_needed: "45 min (plus the wait)"
+    best_time: "At the 11:30 (UTC+9) opening"
+    extra:
+      - { label: Order, value: Two-colour soba, detail: "Black and regular soba on one tray, ¥1,400" }
+      - { label: Pay, value: Cash only, detail: "Tabelog: no cards, e-money or QR codes" }
+  - type: highlights
+    items:
+      - title: Two soba, one tray
+        text: "The **two-colour soba** pairs a dark, rustic black soba with the regular kind (HOT PEPPER). Reviewers paid **¥1,400** in autumn 2026."
+      - title: Bib Gourmand, and it shows
+        text: "Michelin's current Tokyo Bib soba list includes it. Its note opens with the queue that forms before the doors open."
+      - title: Solo is fine
+        text: "Michelin tags it \"Solo dining\". Tabelog lists 9 counter seats among the 27."
+      - title: Kagurazaka
+        text: "Tabelog reviewers describe it as tucked away in a narrow side alley of Kagurazaka, off the main street at 3-chōme."
+  - type: menu
+    items:
+      - name: Two-colour soba
+        name_local: ２色そば
+        price_local: 1400
+        price_brl: 52.4
+        note: Black and regular soba together; the one to order
+        tag: must-try
+      - name: Mugimeoto (soba and cold udon)
+        price_local: 1500
+        price_brl: 56.14
+        note: "Assorted soba with cold udon, per an Oct 2026 review"
+      - name: Beef tendon stew, half
+        name_local: 牛すじ煮込み
+        price_local: 800
+        price_brl: 29.94
+        note: "Photo caption, Oct 2026"
+      - name: Tempura (live shrimp, conger eel)
+        name_local: 天ぷら
+        note: "Current price not found; the dearest thing on the plan"
+    note: "Prices from Tabelog reviews of Sep–Oct 2026 visits; Tabelog's menu tab is from 2011. Cash only."
+  - type: cost_breakdown
+    items:
+      - { label: "Two-colour soba (２色そば)", local: 1400, brl: 52.4 }
+      - { label: "Beef tendon stew, half", local: 800, brl: 29.94, optional: true }
+  - type: map
+    note: "Walk up Kagurazaka-dōri to 3-chōme and look for the Kagurazaka-kan building in a side alley; search the Japanese address in your map app."
+  - type: tips
+    variant: insider
+    items:
+      - "There is a waiting list: an Oct 2026 reviewer wrote their name down and waited in the drizzle. Waits in Sep–Nov 2026 reviews ran from 5 to about 15 min."
+      - "Dinner seat bookings are limited to three groups a day (Tabelog), so lunch walk-in is the realistic plan."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Cash only.** Closed Sundays, Mondays and public holidays, and lunch ends at 14:00 (UTC+9)."
+      - "The tempura is the splurge; the two-colour soba alone is the budget meal."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: "Cold: January averages 1–10 °C"
+    note: "The waiting list means standing outside in the cold; inside it's warm."
+    wear: Warm coat and an umbrella for the wait

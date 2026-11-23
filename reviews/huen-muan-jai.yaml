@@ -1,0 +1,22 @@
+# Independent review of huen-muan-jai. Written by `./atr review`; do not edit by hand.
+id: huen-muan-jai
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: c949aaca3b3fabbb890cf4d8fcf4e5c62d5295c1cbf44b36214f68eff2aa35eb
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: book_ahead / blocks[1].extra[0]
+    problem: The page says firmly that it is walk-in only with no reservations, based on one March 2026 Wongnai review. Michelin's own page for the restaurant tells diners to phone the restaurant to book. The traveler could lose a dinner slot by not calling, especially on the tight Sat Jan 2 arrival evening.
+    evidence: "book_ahead.notes and blocks[1].extra[0] now say 'Mostly walk-in', that Michelin says to phone, and that a Mar 2026 Wongnai review says walk-ins only. The number 053-404-998 is in the tel: link and in the tips. Michelin page (via ./atr render): \"Please contact the restaurant directly to book a table.\" Wongnai: \"เบอร์โทร : 053-404-998\"; review by Littaaa, 22 Mar 2026: \"ไม่รับจอง walk-ins only\"."
+  - field: book_ahead
+    problem: "book_ahead.required: false makes the page show 'No booking needed' in the hero and 'Booking: Not needed' in quick facts. The same page then says Michelin tells diners to phone, and the tips tell the traveler to call about the Sat Jan 2 arrival dinner. The page contradicts itself, and the badge contradicts Michelin."
+    evidence: "book_ahead.required is now 'recommended' with method phone. The phone screenshot shows 'Booking recommended · same day' in the hero and 'Booking: Recommended, same day · Phone booking' in quick facts, which matches the tips and Michelin's \"contact the restaurant directly to book\"."
+rereview_of: 4f9f5004055a7725e76dd56d8dbe9c9bb30d80c59134ce6164e6471b0f922847
+summary: Both earlier findings are resolved. The booking badge, quick facts and notes now agree that you should phone ahead. Michelin's page supports this, and so does the Wongnai phone number 053-404-998 (tel:+6653404998). The page also keeps the Mar 2026 walk-in-only review as a caveat. The changed text adds no new unsupported facts.
+model: claude-opus-5-5
+cost_usd: 0.384

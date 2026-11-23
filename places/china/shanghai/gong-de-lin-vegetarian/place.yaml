@@ -1,0 +1,164 @@
+id: gong-de-lin-vegetarian
+name: "Gong De Lin: Vegetarian Since 1922"
+short_name: Gong De Lin
+name_local: 功德林（南京西路店）
+name_romanized: Gōngdélín
+country: china
+city: shanghai
+area: Huangpu · West Nanjing Road
+category: food
+fame: popular
+tags: [vegetarian, laozihao, michelin-listed, shanghainese, breakfast]
+kind: Eat
+why: "Sweet-and-sour 'pork' made of lotus root and 'eel' made of mushroom: Shanghai's 1922 vegetarian institution, a Bib Gourmand, ¥56 for noodles plus a dish."
+cost:
+  local: 56
+  currency: CNY
+  brl: 49.8
+  note: "Vegetarian noodles plus sweet-and-sour mock ribs (Trip.com menu). Ctrip puts the average spend at ¥73"
+fx: { rate: 0.8892, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45 min–1 h
+best_time: "Lunch from 11:00 UTC+8, before the tables fill"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 06:30–09:30, 11:00–14:00 and 17:00–19:30 UTC+8 (Ctrip and Trip.com)"
+  closed: "Between sittings: 09:30–11:00 and 14:00–17:00"
+  winter: "No winter hours or Christmas/New Year closures found; both listings show the same three sittings every day. Dinner ends at 19:30, so come early."
+
+location:
+  address: 445 West Nanjing Road (near North Chengdu Road), Huangpu, Shanghai
+  address_local: 上海市黄浦区南京西路445号
+  lat: 31.23272
+  lng: 121.46408
+  nearest_transit: "People's Square (Lines 1, 2, 8), about 700 m"
+
+sources:
+  - url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/gong-de-lin-jingan
+    title: "Gong De Lin — MICHELIN Guide: Bib icon, ¥; \"institution of Shanghainese vegan cooking… since 1922\"; annexed shop, mugwort rice dumplings"
+    checked: 2026-11-23
+  - url: https://gs.ctrip.com/html5/you/foods/shanghai2/5030113.html
+    title: "功德林(南京西路店) — Ctrip (人均¥73; 06:30–09:30, 11:00–14:00, 17:00–19:30; 南京西路441、445号; recommended dishes)"
+    checked: 2026-11-23
+  - url: https://www.trip.com/restaurant/china/shanghai/detail/shanghai-gongdelin-11179114/
+    title: "ShangHai GongDeLin — Trip.com (hours; dish prices in USD under Popular dishes > Show all, RMB in page data; cards accepted)"
+    checked: 2026-11-23
+  - url: https://english.shanghai.gov.cn/en-Restaurants/20240614/7b5bcc20630c427f9414e72714bece10.html
+    title: "Michelin Bib Gourmand restaurants in Huangpu — Shanghai gov. (2024): Godly, 411 and 445 West Nanjing Road"
+    checked: 2026-11-23
+  - url: https://www.trip.com/guide/info/alipay-vs-wechat-pay.html
+    title: "Alipay vs WeChat Pay for foreign tourists — Trip.com guide (2026-10-10)"
+    checked: 2026-11-23
+  - url: https://www.viamichelin.com/maps/restaurants/poi/shanghai-_-yinkjvk3
+    title: "Gong De Lin (West Nanjing Road) — ViaMichelin (states \"Bib Gourmand\" in text; Michelin's description)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai — Wikipedia (climate table, Xujiahui 1991–2020: December mean 5.3–11.3 °C)"
+    checked: 2026-11-23
+  - url: https://www.openstreetmap.org/?mlat=31.23272&mlon=121.46408#map=18/31.23272/121.46408
+    title: Godly, West Nanjing Road — OpenStreetMap (pin)
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status: icon on Michelin's page; full text read in Chrome with the cookie banner dismissed, 2026-11-23 (shows ¥; some snippets said ¥¥). Prices: Trip.com menu data, undated (read in Chrome; link checker blocked). No price for the shop's snacks; no source on Alipay/WeChat (Trip.com says cards accepted) or an English menu I could open. Metro distance is my straight-line measure."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: shopfront
+    caption: "Gong De Lin's entrance at 441 West Nanjing Road (2022)"
+    hook: The eel is mushroom, the pork ribs are lotus root, and the recipes go back to 1922.
+  - type: quick_facts
+    time_needed: 45 min–1 h
+    best_time: Lunch from 11:00
+    extra:
+      - { label: Diet, value: Meat-free, detail: "Mock meat from veg, soy and mushroom (Michelin)" }
+      - { label: Pay, value: Cards accepted, detail: "Per Trip.com's listing" }
+      - { label: Solo?, value: "Yes, order small", detail: "Plates are for sharing; pair one with noodles" }
+  - type: highlights
+    items:
+      - title: Food in disguise
+        text: "Michelin: sweet-and-sour pork and fried shredded eel are on the menu, and **all of it** is made from vegetables, soy or mushrooms."
+      - title: A 1922 institution
+        text: "Michelin calls it the institution of Shanghai's plant-based cooking, serving \"dishes in disguise since 1922\"."
+      - title: Cheap for a Bib
+        text: "**Vegetarian noodles ¥30**, sweet-and-sour mock ribs ¥26 and vegetarian duck ¥25 on Trip.com's menu: about R$50 for a full meal."
+      - title: The snack shop next door
+        text: "The annexed shop sells cakes and snacks made in-house, like the **mugwort rice dumplings** Michelin recommends."
+  - type: prose
+    title: Shanghai cooking without the meat
+    text: |-
+      Gong De Lin's menu copies the classics of Shanghai cooking without meat. A Trip.com reviewer describes the "fragrant oil eel shreds" as an imitation of the city's stir-fried eel, slightly crisp and a little sweet, and the sweet-and-sour "ribs" as having bones made of lotus root.
+
+      It sits on West Nanjing Road a few minutes' walk from People's Square, with a restaurant over two floors and a shop for cakes and snacks. Michelin gives it a Bib Gourmand and a single ¥ for price.
+  - type: quote
+    variant: vibe
+    text: The menu reads like a butcher's list, and there's nothing on it but tofu, mushroom and lotus root.
+  - type: cost_breakdown
+    items:
+      - { label: "Arhat vegetarian noodles", local: 30, brl: 26.68 }
+      - { label: "Sweet-and-sour mock ribs", local: 26, brl: 23.12 }
+      - { label: "Mock eel in fragrant oil, instead or as well", local: 46, brl: 40.9, optional: true }
+  - type: menu
+    items:
+      - name: Mock eel in fragrant oil
+        name_local: 香油鳝丝
+        price_local: 46
+        price_brl: 40.9
+        note: The "fried shredded eel" Michelin mentions, made without eel.
+        tag: signature
+      - name: Sweet-and-sour mock ribs
+        name_local: 糖醋排条
+        price_local: 26
+        price_brl: 23.12
+        note: "Lotus root for bones, says a Trip.com reviewer."
+        tag: must-try
+      - name: Arhat vegetarian noodles
+        name_local: 罗汉上素面
+        price_local: 30
+        price_brl: 26.68
+        note: The easy solo base for a meal.
+        tag: cheap
+      - name: Vegetarian duck (tofu skin)
+        name_local: 功德素鸭
+        price_local: 25
+        price_brl: 22.23
+        tag: veg
+      - name: Mock crab roe
+        name_local: 功德素蟹粉
+        price_local: 48
+        price_brl: 42.68
+        note: Shanghai's crab-roe dish, made meat-free.
+        tag: signature
+      - name: Four-treasure braised gluten
+        name_local: 四喜烤麸
+        price_local: 24
+        price_brl: 21.34
+        tag: veg
+    note: "Prices in RMB from Trip.com's menu data (undated; the page shows USD by default). Point at the Chinese names if needed."
+  - type: map
+    note: "From People's Square station, walk west along Nanjing Road about 700 m; the restaurant is near North Chengdu Road."
+  - type: tips
+    variant: insider
+    items:
+      - "Pair one sharing plate with a bowl of noodles: that's a full solo meal for about ¥56."
+      - "Before or after, check the snack shop next door for the mugwort rice dumplings Michelin likes."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It shuts between sittings (09:30–11:00 and 14:00–17:00) and dinner ends at **19:30**."
+      - "A Trip.com reviewer says it gets crowded on the **1st and 15th of the lunar month**. To hold a table, call +86 21 6327 0218 (Trip.com listing)."
+      - "Trip.com lists cards as accepted. If you pay by QR code instead, some merchant codes reject foreign cards (Trip.com, Oct 2026), so carry a backup."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "December averages: cool, damp, often grey"
+    note: "All indoors. A warm stop on a Nanjing Road walk."
+    wear: Warm jacket
+  - type: pairs_well
+    items:
+      - { id: peoples-park-marriage-market, note: "Just east, in People's Park; weekend afternoons" }
+      - { id: lai-lai-xiao-long-tianjin-road, note: "Another Bib, about 1 km east" }
+      - { id: desti-youth-hostel-jing-an, note: "Your Jing'an base, a metro ride west" }

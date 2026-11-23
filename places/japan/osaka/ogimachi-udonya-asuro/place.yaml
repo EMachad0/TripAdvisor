@@ -1,0 +1,135 @@
+id: ogimachi-udonya-asuro
+name: "Ogimachi Udonya Asuro"
+short_name: Asuro
+name_local: 扇町うどん屋 あすろう
+name_romanized: Ogimachi Udon-ya Asuro
+country: japan
+city: osaka
+area: Kita · Tenma (Ogimachi)
+category: food
+fame: hidden
+tags: [udon, lunch, michelin-bib-gourmand, cash-only, queue, tenjinbashisuji]
+kind: Eat
+why: "Bib Gourmand udon just off the Tenjinbashi-suji shopping street: chewy noodles with chicken and chikuwa tempura for about ¥1,350. Join the line; cash only."
+
+cost:
+  local: 1350
+  currency: JPY
+  brl: 50.53
+  note: "Chicken and sea-bream-chikuwa tempura with onsen-egg bukkake udon, as paid in Oct 2026 (Tabelog review)"
+fx: { rate: 0.03743, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "40 min (plus the line)"
+best_time: "Weekday at the 11:00 (UTC+9) opening"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Tue–Sat 11:00–16:00 (UTC+9), or until the noodles sell out"
+  closed: "Sundays, Mondays and public holidays"
+  winter: "No winter hours listed. In your Osaka window (Jan 29 – Feb 2, 2027) it is open Fri Jan 29, Sat Jan 30 and Tue Feb 2; Japan has no public holiday in those days."
+
+location:
+  address: "Machisu Bldg 1F, 3-8-3 Tenjinbashi, Kita-ku, Osaka"
+  address_local: 大阪府大阪市北区天神橋3-8-3 マチスビル 1F
+  lat: 34.70176
+  lng: 135.5112
+  nearest_transit: "Ogimachi (Sakaisuji Line), about 220 m"
+  approximate: true
+
+sources:
+  - url: https://guide.michelin.com/en/osaka-region/osaka/restaurant/ogimachi-udonya-asuro
+    title: "Ogimachi Udonya Asuro — MICHELIN Guide (address, ¥ price band, 'Worth Queueing For', 'Solo dining')"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/jp/osaka-region/osaka/restaurants/bib-gourmand/udon
+    title: "MICHELIN Guide Kyoto-Osaka — Osaka Bib Gourmand udon list (current 2026 selection; Asuro listed)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/osaka/A2701/A270103/27110013/
+    title: "Ougimachi Udonya Asurou — Tabelog (hours, closing days, 18 seats, no reservations, no cards, English menu, opened 2019)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/osaka/A2701/A270103/27110013/dtlrvwlst/
+    title: "Asuro reviews — Tabelog (Oct–Nov 2026 visits: ¥1,350 order, 13 in line at 12:20, dishes)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/osaka/A2701/A270103/27110013/dtlrvwlst/B440596216/
+    title: "Asuro review — Tabelog (2021–2023 visits: hiyakake ¥650→¥750, order taken while in line)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-ceremony-tokyo-kyoto-osaka-nara-2027-selection-save-the-date
+    title: "MICHELIN Guide — 2027 Tokyo, Kyoto-Osaka and Nara selections unveiled Feb 16, 2027"
+    checked: 2026-11-23
+  - url: https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+    title: "Cabinet Office Japan — national holidays 2027 (Jan 1, Jan 11, Feb 11, Feb 23)"
+    checked: 2026-11-23
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=62&block_no=47772"
+    title: "JMA — climate normals 1991–2020, Osaka (January: max 9.7 °C, min 3.0 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status from Michelin's Osaka Bib udon list (2026 Kyoto-Osaka guide). No menu on Tabelog's menu tab or an official site; prices (¥1,350 bowl, hiyakake ¥900, kamatama ¥980) are from Oct 2026 Tabelog reviews. Ordering while in line is from 2021–2023 reviews. Pin is block-level."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    hook: "Smooth, chewy udon under a cold or hot broth, with sea-bream chikuwa tempura on the side."
+  - type: quick_facts
+    time_needed: "40 min (plus the line)"
+    best_time: "11:00 (UTC+9), weekday"
+    extra:
+      - { label: Menu, value: English menu, detail: "Tabelog lists a multilingual menu in English" }
+      - { label: Pay, value: Cash only, detail: "Tabelog: no cards, e-money or QR codes" }
+  - type: highlights
+    items:
+      - title: Bib Gourmand udon
+        text: "In Michelin's current Osaka Bib Gourmand udon list, ¥ price band, tagged \"Worth Queueing For\" and \"Solo dining\"."
+      - title: Tempura to add
+        text: "Reviewers order **chicken tempura**, **sea-bream chikuwa tempura** and an onsen egg on bukkake udon. That combination cost ¥1,350 in Oct 2026."
+      - title: Hot or cold
+        text: "Besides the cold **hiyakake** and nama-shōyu, reviewers ordered kamatama and curry udon. Hot bowls suit a February day."
+      - title: Ordered in the line
+        text: "Earlier reviewers say staff take your order while you wait, so the bowl comes soon after you sit."
+  - type: menu
+    items:
+      - name: Chicken tempura + chikuwa tempura + onsen-egg bukkake
+        price_local: 1350
+        price_brl: 50.53
+        note: "Price of this bowl in an Oct 2026 review"
+        tag: must-try
+      - name: Hiyakake (cold broth udon)
+        name_local: ひやかけ
+        price_local: 900
+        price_brl: 33.69
+        note: "Oct 2026 review; it was ¥650 in 2021 and ¥750 in 2023"
+        tag: cheap
+      - name: Curry udon with chicken tempura
+        note: "Ordered in Nov 2026; price not found"
+      - name: Kamatama udon
+        price_local: 980
+        price_brl: 36.68
+        note: "Oct 2026 review"
+      - name: Maitake tempura (1 piece)
+        price_local: 200
+        price_brl: 7.49
+        note: "Cheap add-on, Oct 2026 review"
+    note: "No current full menu online; prices from dated Tabelog reviews. Cash only."
+  - type: cost_breakdown
+    items:
+      - { label: "Udon with two tempura and onsen egg", local: 1350, brl: 50.53 }
+  - type: map
+    note: "From Ogimachi station walk to Tenjinbashi-suji arcade; the shop is one street off it."
+  - type: tips
+    variant: insider
+    items:
+      - "Lines form even on weekdays: a reviewer counted **13 people at 12:20** in Oct 2026. Be there at 11:00 (UTC+9) or after the lunch rush."
+      - "It closes when the noodles run out, and side dishes sell out later in the day, so don't leave it to 15:30."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Cash only.** No bookings. Closed Sundays and Mondays: in your Osaka window that means Sun Jan 31 and Mon Feb 1."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: "Cool: January averages 3–10 °C"
+    note: "The line is on the street. Order a hot bowl if the wait chilled you."
+    wear: Warm jacket
+  - type: pairs_well
+    items:
+      - { id: tenma-standing-bars, note: "Same Tenma neighbourhood: udon at lunch, standing bars at night" }

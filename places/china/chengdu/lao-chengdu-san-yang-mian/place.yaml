@@ -1,0 +1,140 @@
+id: lao-chengdu-san-yang-mian
+name: "San Yang Mian: Noodles by Kuanzhai"
+short_name: San Yang Mian
+name_local: 老成都逸城鲜三样面（过街楼街店）
+name_romanized: Lǎo Chéngdū Sānyàng Miàn
+country: china
+city: chengdu
+area: Qingyang · Kuanzhai Alley
+category: food
+fame: hidden
+tags: [noodles, chao-shou, sichuan-food, breakfast, michelin-listed, bib-gourmand, cheap-eats, fly-restaurant]
+kind: Eat
+why: "A hole-in-the-wall noodle shop near Kuanzhai Alley: zajiang noodles in spicy meat sauce, red-oil wontons, icy tofu pudding. Michelin Bib Gourmand."
+
+cost:
+  local: 19
+  currency: CNY
+  brl: 16.89
+  note: "Ctrip's average from only 2 reviews, about one bowl. Noodles + wontons + dessert will cost more; no per-dish prices found"
+fx: { rate: 0.8892, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30 min
+best_time: "Breakfast, from 07:30, before Kuanzhai fills up"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "07:30–14:30 and 17:30–20:00 (UTC+8) per Ctrip and Trip.com; closed days not confirmed"
+  closed: "Afternoons 14:30–17:30 (UTC+8)"
+  winter: "No winter hours or Christmas closure found. Your Chengdu stop is Dec 23–26 (flexible); Check the Ctrip listing on the day."
+
+location:
+  address: "6–8, No. 46 Guojielou Street, Qingyang, Chengdu (opposite the Furong Hotel)"
+  address_local: 成都市青羊区过街楼街46号附6号、附8号（芙蓉饭店正对面）
+  lat: 30.6725
+  lng: 104.0561
+  approximate: true
+  nearest_transit: "Bus 4, Dongchenggen Xiajie North stop, 271 m (Ctrip)"
+
+sources:
+  - url: https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurants/bib-gourmand
+    title: "MICHELIN Guide: Chengdu Bib Gourmand list (32 restaurants), shows 老成都逸城鲜三样面, ¥ · noodles"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/chengdu-municipality/chengdu/restaurant/lao-chengdu-san-yang-mian
+    title: "MICHELIN Guide: Lao Chengdu Yi Cheng Xian San Yang Mian"
+    checked: 2026-11-23
+  - url: https://www.viamichelin.com/maps/restaurants/poi/chengdu-_-19541aad
+    title: "ViaMichelin: Michelin's review (Bib Gourmand; old/new/more noodle menu, spicy meat sauce with string beans, shared tables, address)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/article/michelin-guide-ceremony/michelin-stars-chengdu-2027
+    title: "MICHELIN Guide Chengdu 2027 (2 Sep 2026): current edition, 32 Bib Gourmand"
+    checked: 2026-11-23
+  - url: https://gs.ctrip.com/html5/you/foods/fooddetail/104/15994116.html
+    title: "Ctrip: 老成都三样面(过街楼街店), hours, ¥19 a head, English menu, dishes, 271 m from bus 4 stop"
+    checked: 2026-11-23
+  - url: https://hk.trip.com/restaurant/china/chengdu/detail/lao-chengdu-san-yang-mian-31559275/
+    title: "Trip.com: 老成都三樣面(過街樓街店), Kuanzhai area, English menu, hours, review dated 10 Jul 2026"
+    checked: 2026-11-23
+  - url: https://english.beijing.gov.cn/latest/specials/essentialtipsfornewarrivals/paymentservices/202408/t20240830_3785647.html
+    title: "Beijing government: Payment services for new arrivals (foreign cards on Alipay / WeChat Pay; merchants in China must accept cash)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Chengdu
+    title: "Wikipedia: Chengdu climate table (Shuangliu, 1991–2020; December 11.2 / 4.9 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status: Michelin's Chengdu list, rendered 23 Nov 2026; review text via ViaMichelin (read in Chrome; blocks link checks). Cost is Ctrip's ¥19 average; no per-dish prices found. Hours, English menu: Ctrip and Trip.com (Trip.com blocks link checks). Not confirmed: pay apps, queue length, spice of each dish. Pin is the street."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    hook: Locals at shared tables from 07:30, slurping noodles from three menus called old, new and more.
+  - type: quick_facts
+    time_needed: 30 min
+    best_time: Breakfast, from 07:30
+    extra:
+      - { label: Solo, value: "Yes: shared tables", detail: "Michelin: expect to share a table or sit outside" }
+      - { label: Spice, value: Choose your bowl, detail: "Spicy zajiang and red-oil wontons; tomato beef noodles if you want none" }
+      - { label: English menu, value: "Yes (Ctrip, Trip.com)" }
+  - type: highlights
+    items:
+      - title: Three menus of noodles
+        text: "Michelin says the noodles come in three sections, **old, new and more**. The most popular is from the old one: blanched noodles in a spicy meat sauce with diced string beans."
+      - title: Chao shou too
+        text: "**Red-oil wontons** (红油抄手) are on Ctrip's list of recommended dishes, so you get Chengdu's other classic in the same stop."
+      - title: The cold finish
+        text: "Michelin's tip after the chilli: **chilled tofu pudding with red bean** (红沙冰豆花)."
+      - title: Near Kuanzhai, for about ¥19
+        text: "Trip.com places it in the **Kuanzhai Alley** area. Ctrip's users average **¥19** (R$17) a head, roughly one bowl (only 2 reviews)."
+  - type: prose
+    title: A fly restaurant with a Bib
+    text: |-
+      Chengdu calls its tiny, plain neighbourhood eateries *cangying guanzi*, "fly restaurants". Michelin's words for this one are a no-frills "hole in the wall" where locals come for time-honoured flavours, and you will probably share a table or eat outside.
+
+      The menu splits soup and dry noodles into the old, new and more sections. Ctrip's dish list adds tomato beef-brisket noodles, braised beef noodles, sesame-oil dan dan noodles and seafood squid noodles, so there is a mild bowl if the chilli gets too much.
+  - type: quote
+    variant: vibe
+    text: Elbow to elbow at a shared table, a bowl of red chilli oil, and the Kuanzhai crowds still asleep.
+  - type: cost_breakdown
+    items:
+      - { label: "Average spend per head (Ctrip)", local: 19, brl: 16.89, estimate: true }
+  - type: menu
+    items:
+      - name: Zajiang noodles (spicy meat sauce, string beans)
+        name_local: 素椒杂酱面
+        note: "Michelin's most popular item; price not found"
+        tag: must-try
+      - name: Red-oil wontons
+        name_local: 红油抄手
+        note: "Chengdu's chao shou in chilli oil; price not found"
+        tag: signature
+      - name: Tomato beef-brisket noodles
+        name_local: 番茄牛腩面
+        note: "A non-spicy option on Ctrip's dish list; price not found"
+      - name: Chilled tofu pudding with red bean
+        name_local: 红沙冰豆花
+        note: "Michelin's dessert pick; price not found"
+    note: "No per-dish prices found; budget Ctrip's ¥19 average. English menu reported by Ctrip and Trip.com."
+  - type: map
+    note: "Opposite the Furong Hotel on Guojielou Street; look for No. 46."
+  - type: tips
+    variant: insider
+    items:
+      - "**Paying:** no source says which apps the shop takes. Beijing's official payment guide says Visa and Mastercard can be linked to **Alipay** and **WeChat Pay**, and that merchants in China must accept RMB cash."
+      - "It shuts 14:30–17:30 (UTC+8). Breakfast or lunch is the plan; dinner ends at 20:00."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Other noodle shops use the name 三样面. The Bib one is **46 Guojielou Street**."
+      - "Zajiang here is Sichuan-style and spicy, not Beijing's sweet bean-paste zhajiangmian."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Grey, damp and cool
+    note: "The shop is small and some seats are outside, so a cold, damp morning makes the hot soup bowls welcome."
+    wear: A warm layer
+  - type: pairs_well
+    items:
+      - { id: heming-teahouse-peoples-park, note: "About 1.5 km south: noodles, then tea in People's Park" }
+      - { id: zhong-shui-jiao-peoples-park-snack-set, note: "The other classic snack stop, in People's Park" }

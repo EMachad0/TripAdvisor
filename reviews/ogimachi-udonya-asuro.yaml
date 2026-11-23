@@ -1,0 +1,22 @@
+# Independent review of ogimachi-udonya-asuro. Written by `./atr review`; do not edit by hand.
+id: ogimachi-udonya-asuro
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: e1d71fe8fd8486885f1e14cafc64ca8f67cfb3b616d78af5c121cea8a4b214a2
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].items[1].price_local
+    problem: The menu lists hiyakake, tagged as the cheap pick, at ¥750, a 2023 price. The page's own listed Tabelog source shows an Oct 2026 review with hiyakake at ¥900, so the cheapest bowl is stated about 20% too low.
+    evidence: 'Hiyakake is now ¥900 (R$33.69 = 900 × 0.03743) with the note "Oct 2026 review". https://tabelog.com/en/osaka/A2701/A270103/27110013/dtlrvwlst/B538364792/ (cucu109, visited Oct 2026): "Hiyakake JPY 900".'
+  - field: blocks[3].items[3].note
+    problem: Kamatama udon says "price not found", but the same Oct 2026 Tabelog review gives ¥980. Maitake tempura at ¥200 is also listed there, which would show a cheap add-on.
+    evidence: 'Kamatama is now ¥980 (R$36.68) and maitake tempura ¥200 (R$7.49) has been added as a cheap add-on. The confidence_note no longer says there are no current prices. Same cucu109 Oct 2026 review: "Kamatama JPY 980", "Maitake Tempura (1 piece) JPY 200".'
+rereview_of: b2a6663e12e4895e4a37acbd34618479492e0b28ed953640d8364159c8f796e8
+summary: "Both earlier findings are fixed. The hiyakake (¥900), kamatama (¥980) and maitake tempura (¥200) prices match cucu109's Oct 2026 Tabelog review, and the BRL figures use the page's FX rate. The ¥1,350 bowl note matches a second Oct 2026 review's preview: \"ordered the Tori Tempura, Tai Chikuwa Tempura, and Onsen Tamago Bukkake for JPY 1,350\". The other edits (romanization, hook wording) introduce no new facts. The page validates and has no open issues."
+model: claude-opus-5-5
+cost_usd: 0.353

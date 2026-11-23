@@ -1,0 +1,138 @@
+id: fangzhuanchang-69-zhajiangmian
+name: "No. 69 Zhajiangmian: Noodles in a Hutong"
+short_name: Fangzhuanchang No. 69
+name_local: 方砖厂69号炸酱面（方砖厂胡同）
+name_romanized: Fāngzhuānchǎng Zhájiàngmiàn
+country: china
+city: beijing
+area: Dongcheng · Nanluoguxiang
+category: food
+fame: popular
+tags: [zhajiangmian, noodles, hutong, michelin-listed, bib-gourmand, cheap-eats, queue]
+kind: Eat
+why: "Old Beijing's noodle dish, done in a hutong shop that sells almost nothing else: about ¥38 a bowl, noodles and sauce refilled free. Michelin Bib Gourmand."
+
+cost:
+  local: 38
+  currency: CNY
+  brl: 33.79
+  note: "Signature black-pork zhajiangmian, ¥38 (Winshang, May 2026). Ctrip users put the average at ¥28 a head"
+fx: { rate: 0.8892, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min
+best_time: "Right at the 10:00 opening, or mid-afternoon"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "10:00–19:00 (UTC+8) per Ctrip; closed days not confirmed"
+  winter: "No source lists winter hours or a Christmas/New Year closure for this shop. You are in Beijing Dec 13–16, Sunday to Wednesday. It closes at 19:00, so this is lunch or an early dinner."
+
+location:
+  address: "1 Fangzhuanchang Hutong, Dongcheng, Beijing"
+  address_local: 北京市东城区方砖厂胡同1号 方砖厂69号炸酱面
+  lat: 39.93671
+  lng: 116.39175
+  approximate: true
+  nearest_transit: "Shichahai (Line 8), Exit C, 573 m / 8 min walk (Ctrip)"
+
+sources:
+  - url: https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurants/bib-gourmand
+    title: "MICHELIN Guide: Beijing Bib Gourmand list (32 restaurants), shows 方砖厂69号炸酱面 (方砖厂胡同), ¥ · noodles"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/beijing-municipality/beijing/restaurant/no-69-fangzhuanchang-zhajiangmian
+    title: "MICHELIN Guide: No. 69 Fangzhuanchang Zhajiangmian (Fangzhuanchang Hutong), address, ¥, noodles"
+    checked: 2026-11-23
+  - url: https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-the-2027-beijing-tianjin-selection
+    title: "Michelin: Beijing & Tianjin 2027 selection released 28 Oct 2026 (current edition)"
+    checked: 2026-11-23
+  - url: https://gs.ctrip.com/html5/you/foods/fooddetail/1/13352507.html
+    title: "Ctrip: 方砖厂69号炸酱面(方砖厂胡同店), hours 10:00–19:00, ¥28 a head, 573 m from Shichahai Exit C, reviews"
+    checked: 2026-11-23
+  - url: https://m.winshang.com/news740190.html
+    title: "Winshang (20 May 2026): signature black-pork zhajiangmian ¥38, free noodle and sauce refills, 40+ Beijing branches"
+    checked: 2026-11-23
+  - url: https://www.visitbeijing.com.cn/article/4PMdyy2PTnF
+    title: "Visit Beijing (1 Dec 2025): Bib Gourmand for the 6th year, one dish only, free refills and laba garlic, moved from No. 69 to No. 1"
+    checked: 2026-11-23
+  - url: https://english.beijing.gov.cn/latest/specials/essentialtipsfornewarrivals/paymentservices/202408/t20240830_3785647.html
+    title: "Beijing government: Payment services for new arrivals (foreign cards on Alipay / WeChat Pay; merchants must accept cash)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Wikipedia: Beijing climate table (1991–2020 normals; December 3.7 / −5.0 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status: Michelin's Beijing list, rendered 23 Nov 2026. Price from Winshang (May 2026); Ctrip's ¥28 average is lower. Hours: Ctrip only; Michelin's page showed none. Not confirmed: which pay apps it takes, an English or picture menu, holiday hours. The pin is the hutong, not the door."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    hook: One dish, served since the family sold it at the gate of No. 69, in a hutong off Nanluoguxiang.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: At 10:00 opening
+    extra:
+      - { label: Solo, value: "Yes: one bowl is a meal", detail: "Visit Beijing: a bowl holds over 4 liang (200 g+) of noodles" }
+      - { label: Refills, value: Free noodles and sauce, detail: "Winshang (May 2026) and Visit Beijing (Dec 2025)" }
+  - type: highlights
+    items:
+      - title: Bib Gourmand, sixth year running
+        text: "Visit Beijing says the Fangzhuanchang Hutong shop made Michelin's Bib list for the **sixth year** in the 2026 guide, and it is on the current 2027 Beijing list too."
+      - title: A one-dish shop
+        text: "This branch sells **zhajiangmian**: wheat noodles, a dark fried soybean-and-pork sauce and a plate of raw vegetable toppings you mix in yourself."
+      - title: Eat until you stop
+        text: "Refills of **noodles and sauce are free**, and every table has a jar of vinegar-pickled laba garlic, also free."
+      - title: Old Beijing, cheap
+        text: "About **¥38** (R$34) for the signature bowl. Ctrip's users average ¥28 a head."
+  - type: prose
+    title: From courtyard No. 69 to No. 1
+    text: |-
+      The name is an address. Visit Beijing's December 2025 profile says the business started with the family selling noodles at the gate of **No. 69 Fangzhuanchang Hutong**, tables set out in the lane, and now trades from No. 1, the shop Michelin lists. It has grown into a chain of 40-plus branches across Beijing (Winshang counts them, May 2026), from Qianmen to Daxing Airport, but the Bib Gourmand goes to the hutong shop only.
+
+      Zhajiangmian is the city's everyday noodle dish: thick wheat noodles, a salty-sweet fried bean paste with pork, and cucumber, radish and beans on the side. Mix everything, add a clove of the green laba garlic, and order a second round of noodles if you're still hungry.
+  - type: quote
+    variant: vibe
+    text: Grey hutong walls, a queue in puffer jackets, and a bowl you stir until it turns brown all through.
+  - type: cost_breakdown
+    items:
+      - { label: "Signature black-pork zhajiangmian", local: 38, brl: 33.79 }
+  - type: menu
+    items:
+      - name: Signature black-pork zhajiangmian
+        name_local: 招牌黑猪肉炸酱面
+        price_local: 38
+        price_brl: 33.79
+        note: "The bowl Winshang priced in May 2026. Noodles and sauce refilled free."
+        tag: must-try
+      - name: Laba garlic
+        name_local: 腊八蒜
+        note: "Green vinegar-pickled garlic on every table, free (Visit Beijing)"
+      - name: Noodle soup
+        name_local: 面汤
+        note: "Listed among Ctrip users' recommended dishes; price not found"
+    note: "Only the signature bowl has a current price. A 2023 Dianping note from another branch listed a simpler ¥32 bowl; this shop's full menu and prices were not found."
+  - type: map
+    note: "Fangzhuanchang Hutong runs west off Nanluoguxiang. The pin marks the hutong, not the shop door; look for No. 1."
+  - type: tips
+    variant: insider
+    items:
+      - "**Paying:** no source says which apps this shop takes. Beijing's official guide says Visa and Mastercard can be linked to **Alipay** and **WeChat Pay**, and every merchant must accept RMB cash; carry small notes as a backup."
+      - "Ctrip reviews mention queuing in the hutong. Go at opening or between meals."
+      - "Ask for a refill rather than ordering a second bowl: it's free."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "There are 40-plus branches, many with the same sign. The **Fangzhuanchang Hutong** shop is the Bib Gourmand one."
+      - "No English menu confirmed. With one dish on offer, pointing at the next table's bowl works."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: Dry and freezing
+    note: "Queues form outside in the hutong. A hot bowl of noodles is the right lunch after a cold morning at the Drum Tower."
+    wear: "Warm coat, hat and gloves for the queue"
+  - type: pairs_well
+    items:
+      - { id: beijing-xingshe-youth-hostel, note: "Your base, about 2 km west at Xinjiekou" }
+      - { id: beihai-nine-dragon-wall, note: "West across the Shichahai lakes after lunch" }
+      - { id: forbidden-city-jingshan, note: "Jingshan Park is south of the Drum Tower hutongs" }

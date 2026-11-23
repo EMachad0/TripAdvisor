@@ -1,0 +1,147 @@
+id: okdongsik
+name: "Okdongsik: clear pork gomtang"
+short_name: Okdongsik
+name_local: 옥동식
+name_romanized: Okdongsik
+country: korea
+city: seoul
+area: Mapo-gu · Hapjeong
+category: food
+fame: popular
+tags: [gomtang, gukbap, pork, michelin-listed, bib-gourmand, cheap-eats, solo-friendly, queue]
+kind: Eat
+why: "A Bib Gourmand pork soup so clear it looks like consommé: ₩14,000 a bowl at a 10-seat bar counter, a short walk from Hapjeong station."
+cost:
+  local: 14000
+  currency: KRW
+  brl: 62.06
+  note: "One regular bowl, plenty for one. With kimchi mandu (₩7,000) it is ₩21,000 (about R$93)"
+fx: { rate: 0.004433, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min (plus the queue)
+best_time: "Weekday 11:00 UTC+9 opening, or 14:00–15:00 before the break"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Fri 11:00–15:00 and 17:00–22:00 UTC+9; Sat–Sun 11:00–20:30 (Michelin). Weekday last order 21:30"
+  winter: "No regular closing day is listed by Michelin or the 2026 reviews, and no January closure was found. There is no public holiday during the Seoul dates (Jan 11–20, 2027). About 100 bowls a day, so late in the day it can sell out."
+
+location:
+  address: 44-10 Yanghwa-ro 7-gil, Mapo-gu, Seoul 04035 (ground floor of a residential villa)
+  address_local: 서울 마포구 양화로7길 44-10
+  lat: 37.55265
+  lng: 126.91449
+  nearest_transit: "Hapjeong (Lines 2, 6), Exit 2, about 300 m"
+
+sources:
+  - url: https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurant/okdongsik
+    title: "Okdongsik — MICHELIN Guide Seoul (address, ₩ band, hours per day, toryeom, Jirisan black pork)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurants/bib-gourmand
+    title: "Seoul Bib Gourmand list — MICHELIN Guide (Okdongsik listed, Dwaeji-gukbap)"
+    checked: 2026-11-23
+  - url: https://hotplacehunter.co.kr/sns/article/88869/amp/
+    title: "돼지곰탕 맛집 BEST5 — Siksin Hot Place Hunter (2026-07-07): prices, hours, break, last order"
+    checked: 2026-11-23
+  - url: https://m.blog.naver.com/multimillionaire1/224460110437
+    title: "옥동식 본점 2026 가격·웨이팅 총정리 — Naver blog (2026-10-31): ₩14,000/₩19,000/₩7,000, CatchTable, Exit 2"
+    checked: 2026-11-23
+  - url: https://m.blog.naver.com/sodamtable_/224463325126
+    title: "합정 옥동식 혼밥 웨이팅 솔직후기 — Naver blog (2026-11-03): solo visit, 10 bar seats, CatchTable on-site queue"
+    checked: 2026-11-23
+  - url: https://linkppl.mycafe24.com/?p=147
+    title: "Okdongsik (Seogyo, Hapjeong): Clear Pork Gomtang Worth the Wait (2026-01-15): counter, no reservations, remote wait"
+    checked: 2026-11-23
+  - url: "https://m.search.naver.com/search.naver?query=%EC%98%A5%EB%8F%99%EC%8B%9D+%EB%B3%B8%EC%A0%90"
+    title: "옥동식 본점 — Naver search (rendered): Exit 2, ~10 bar seats, solo-friendly, separate Songpa-Hanam branch"
+    checked: 2026-11-23
+  - url: https://www.openstreetmap.org/?mlat=37.55265&mlon=126.91449#map=18/37.55265/126.91449
+    title: "옥동식, 44-10 Yanghwa-ro 7-gil — OpenStreetMap (pin)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status from the Michelin Seoul Bib list (rendered 2026-11-23). Prices from two 2026 Korean sources (Jul, Oct); a Nov 2026 blog says ₩10,000/₩6,000, which I think is out of date. No source states payment methods. Michelin gives weekend close as 20:30, Siksin 21:00 with last order 20:30. Naver Place needs a login; not read. Hero is the dish at another restaurant."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: dwaeji-gomtang-bowl
+    caption: "Dwaeji-gomtang in a brass bowl at another Seoul restaurant (2018); no free photo of Okdongsik"
+    hook: Thin pink pork slices, rice soaked in hot broth, and a soup clear enough to read through.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: Weekday 11:00 or 14:00 (UTC+9)
+    extra:
+      - { label: Seats, value: About 10, detail: "Bar seats facing the open kitchen" }
+      - { label: Queue, value: CatchTable, detail: "Remote or on-site queue in the CatchTable app" }
+      - { label: Payment, value: Not confirmed, detail: "No source says; carry a card and some cash" }
+  - type: highlights
+    items:
+      - title: Pork soup that looks like beef gomtang
+        text: "Michelin calls it a refined dwaeji-gukbap with a **light, clean broth reminiscent of gomtang**, made from the ham and foreleg of black pigs raised on Jirisan."
+      - title: Made for one
+        text: "About ten bar seats face the open kitchen. A November 2026 solo reviewer says one or two people usually get a bar seat faster than a table."
+      - title: The toryeom trick
+        text: "Hot broth is poured over the rice again and again (**toryeom**) before it reaches you, so the rice warms through without going mushy."
+      - title: Bib Gourmand price
+        text: "**₩14,000** for a regular bowl (about R$62). The large adds more meat for ₩19,000; kimchi mandu are ₩7,000."
+  - type: prose
+    title: One dish, a hundred bowls
+    text: |-
+      Okdongsik serves one thing: pork gomtang in a brass bowl, with pork cooked about 80% and sliced thin, then finished by the hot broth (Siksin). The broth is clear, not the milky pork soup most people picture. Michelin's inspectors list it as a Bib Gourmand and tag it "worth queueing for."
+
+      The original shop sits on the ground floor of a residential villa in Seogyo-dong, between Hapjeong and Hongdae. Reviews put the daily output at about 100 bowls, and the chef's turn on the TV cooking contest 흑백요리사 (season 2) made the queue longer: a 2026 blog cites a December 2025 report of 34 people waiting on CatchTable at lunch.
+  - type: quote
+    variant: vibe
+    text: Steam off a brass bowl, a seat at the counter, Seoul below freezing outside.
+  - type: cost_breakdown
+    items:
+      - { label: "Dwaeji-gomtang, regular", local: 14000, brl: 62.06 }
+      - { label: "Kimchi mandu", local: 7000, brl: 31.03, optional: true }
+      - { label: "Upgrade to the large bowl (more meat)", local: 5000, brl: 22.17, optional: true }
+  - type: menu
+    items:
+      - name: Pork gomtang, regular
+        name_local: 돼지곰탕 (보통)
+        price_local: 14000
+        price_brl: 62.06
+        note: The one dish. Clear broth, thin pork, rice soaked in broth.
+        tag: must-try
+      - name: Pork gomtang, large
+        name_local: 돼지곰탕 (특)
+        price_local: 19000
+        price_brl: 84.23
+        note: Same soup, more meat. Reviewers say the regular is plenty for one.
+      - name: Kimchi dumplings
+        name_local: 김치만두
+        price_local: 7000
+        price_brl: 31.03
+        note: The usual side; spicy against the mild soup.
+        tag: signature
+    note: "Prices from Siksin (Jul 2026) and a Naver blog (Oct 2026). No English menu was mentioned in the sources; point at the Korean names."
+  - type: map
+    note: "From Hapjeong Exit 2, walk into Yanghwa-ro 7-gil; the shop is about 300 m along, in a quiet residential lane."
+  - type: tips
+    variant: insider
+    items:
+      - "Register on **CatchTable** (remote queue) before you leave the hostel, keep notifications on, and don't miss your call."
+      - "A November 2026 solo reviewer arrived at 11:40 UTC+9 on a weekday and found a queue; their tip is to go in the 14:00 hour, just before the 15:00 break."
+      - "Taste the broth plain first: the solo reviewer found a pinch of salt and pepper was all it needed."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "No reservations in the normal sense: it's a queue, and about 100 bowls a day can run out."
+      - "There is also a **Songpa-Hanam** Okdongsik with grilled meat; the Bib Gourmand is this Seogyo-dong original."
+      - "On work days (Jan 11–15, 18–19) the 17:00–22:00 UTC+9 dinner slot is tight before a 21:00 shift; lunch is the safe bet."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry, very cold, often clear
+    note: "The queue is outside in a residential lane, so the wait is the cold part. Use the CatchTable remote queue and wait in a café."
+    wear: Down jacket, gloves, hat
+  - type: pairs_well
+    items:
+      - { id: mangwon-market, note: "A short hop on Line 6: market snacks and a walk after lunch" }
+      - { id: zzzip-guesthouse-hongdae, note: "Hongdae base nearby" }
+      - { id: bunk-guesthouse-hongdae, note: "Another Hongdae base nearby" }

@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: sinan-road
+  title: File:上海思南路建筑1.JPG
+  author: Cyf1984326 陈飞
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E6%80%9D%E5%8D%97%E8%B7%AF%E5%BB%BA%E7%AD%911.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a0/%E4%B8%8A%E6%B5%B7%E6%80%9D%E5%8D%97%E8%B7%AF%E5%BB%BA%E7%AD%911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: an old building on the corner of Middle Jianguo road and Sinan Road in Shanghai
+  width: 3648
+  height: 2056
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-23
+  origin: commons

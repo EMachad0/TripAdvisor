@@ -1,0 +1,22 @@
+# Independent review of kyogoku-kaneyo-unagi. Written by `./atr review`; do not edit by hand.
+id: kyogoku-kaneyo-unagi
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 32b13c5b29db32fbae24a2eb0f63c9d4829ddcf14decd348b6b391fc57323fdb
+facts:
+  supported: 9
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[5].items[2].note
+    problem: "The page says the menu doesn't list what is in the ¥2,400 weekday set. The official English menu does: a small kinshi-don, a grilled eel and cucumber vinegar salad, pickles and a small clear soup. A miso soup version costs the same, and a sake version is ¥2,700."
+    evidence: 'The note at blocks[5].items[2] now lists the small kinshi-don, eel-cucumber vinegar salad, pickles and small clear soup, marks the set weekdays-only, and gives the miso ¥2,400 and sake ¥2,700 versions. This matches https://kyogoku-kaneyo.co.jp/english-menu/: "Short Break-Clear soup Set【Weekday limited menu】 ￥2,400 … Kinshi-don(small), Grilled eel and cucumber salad with vinegar, Japanese pickles, a Clear soup(small)", the Miso soup Set at ￥2,400 and the Sake Set at ￥2,700.'
+  - field: cost
+    problem: "Both suggested visit days are weekdays (Tue Feb 2 and Thu Feb 4). On those days the ¥2,400 set includes the small kinshi-don plus three sides, so it costs less than ordering the bowl alone for ¥3,000. The page misses this: `cost`, `why`, the cost_breakdown and the 'Bib Gourmand eel at ¥3,000' highlight all treat ¥3,000 as the price to pay."
+    evidence: cost.local is now 2400 (89.83 BRL, which is 2400 × 0.03743). why, quick_facts Order, the highlight and cost_breakdown all point to the weekday set, and the bowl alone is noted at ¥3,000. The pitfall says the menu does not state whether the set is served at dinner and gives 075-221-0669, which is the TEL on https://kyogoku-kaneyo.co.jp/shop/access/. The English menu only says "【Weekday limited menu】", so the caveat is accurate. The phone screenshot shows ¥2,400 / R$ 90 rendered correctly.
+rereview_of: 9423c34ce92a0207a89f3be6d95a6211e58b4dba968735d4149f03b589e0ccaf
+summary: Both earlier findings are fixed. The weekday short-break set (¥2,400) is now the order and the cost, and its contents, the miso and sake versions, the ¥3,000 bowl-alone price, the "popular" wording and the phone number all match the official menu and access page. No new issues in the changed text.
+model: claude-opus-5-5
+cost_usd: 0.41

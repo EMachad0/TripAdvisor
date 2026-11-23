@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: castle-night
+  title: File:Shanghai Disneyland Castle Night.jpg
+  author: Memm
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shanghai_Disneyland_Castle_Night.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/02/Shanghai_Disneyland_Castle_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Shanghai Disneyland Castle
+  width: 3681
+  height: 5522
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-23
+  origin: commons
+- file: castle-day
+  title: File:Enchanted Storybook Castle (125424).jpg
+  author: Riku Lu
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Enchanted_Storybook_Castle_(125424).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/41/Enchanted_Storybook_Castle_%28125424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Enchanted Storybook Castle at Shanghai Disneyland
+  width: 4698
+  height: 2640
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-23
+  origin: commons

@@ -1,0 +1,19 @@
+# Independent review of pae-brass-pot-porridge. Written by `./atr review`; do not edit by hand.
+id: pae-brass-pot-porridge
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 3c797d1b74183de67fe243c42183b431f02b97d608ff926d9bd5e8ff5f68f278
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[1].extra[1]
+    problem: The page says card or QR payment is "not confirmed" and also appears to be in confidence_note. The page's own Wongnai source lists credit cards as accepted.
+    evidence: "blocks[1].extra[1] now reads 'Cash or card — Wongnai lists credit cards; QR not confirmed', and confidence_note says the same. https://www.wongnai.com/restaurants/8371Ad lists under facilities: \"รับบัตรเครดิต\". The page mentions no QR or PromptPay payment."
+rereview_of: 3bc232cf1dc5b73f3adb2fb14eb4ac4699d9afa9fea28081121d6d0e4d26782c
+summary: "The payment finding is fixed: the page and confidence_note both match Wongnai's credit-card listing. The new snapper porridge entry checks out: ฿90 appears in an 8 Aug 2025 Wongnai review (\"ข้าวต้มปลากระพง 90฿\"), the fried garlic and soybean sauce are in Michelin's 2021 article, and R$15.76 matches the stated FX rate. The new map note fits Michelin's line that the cart stood \"in front of Bang Pho market\"."
+model: claude-opus-5-5
+cost_usd: 0.405

@@ -1,0 +1,168 @@
+id: lao-di-fang-noodles-sinan-road
+name: "Lao Di Fang: Topping Noodles on Sinan Road"
+short_name: Lao Di Fang
+name_local: 老地方面馆（思南路店）
+name_romanized: Lǎo Dìfang Miànguǎn
+country: china
+city: shanghai
+area: Huangpu · Sinan Road
+category: food
+fame: hidden
+tags: [noodles, breakfast, benbang, michelin-listed, cheap-eats, queue]
+kind: Eat
+why: "A 30-year-old Shanghai noodle shop with 30+ toppings fried to order: cuttlefish and pickled greens ¥28, scallion oil ¥11, free extra noodles."
+cost:
+  local: 33
+  currency: CNY
+  brl: 29.35
+  note: "Cuttlefish noodles plus a tofu-skin pork roll (Trip.com menu). Ctrip puts the average spend at ¥45"
+fx: { rate: 0.8892, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min (plus any queue)
+best_time: "Breakfast from 07:00, or lunch from 11:00 (UTC+8)"
+
+book_ahead:
+  required: false
+  notes: "Walk-in noodle shop: no booking, expect to queue at meal times. Phone +86 187 1792 2234 (on Trip.com's listing) if in doubt."
+
+hours:
+  summary: "Daily 07:00–10:00 and 11:00–14:00 UTC+8 (Trip.com). 2023 reports also listed weekday dinner 17:00–19:30"
+  closed: "10:00–11:00 every day; no dinner at weekends"
+  winter: "No winter hours or Christmas/New Year closures found. Trip.com now lists breakfast and lunch only, so don't count on dinner. The 2023 reports said there is no dinner at weekends or on public holidays."
+
+location:
+  address: 107 Sinan Road, Huangpu, Shanghai
+  address_local: 上海市黄浦区思南路107号
+  lat: 31.21139
+  lng: 121.46598
+  nearest_transit: "Dapuqiao (Line 9), about 400 m"
+
+sources:
+  - url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/lao-di-fang-mian-guan
+    title: "Lao Di Fang Mian Guan — MICHELIN Guide (Bib Gourmand icon, ¥, 107 Sinan Road, cuttlefish noodles, toppings cooked to order)"
+    checked: 2026-11-23
+  - url: https://www.trip.com/restaurant/china/shanghai/detail/restaurant-11143594/
+    title: "老地方面馆(思南路店) — Trip.com (07:00–10:00, 11:00–14:00; phone; menu prices, USD on page, RMB in page data)"
+    checked: 2026-11-23
+  - url: https://news.qq.com/rain/a/20230624A031V100
+    title: "老地方面馆 moves to 107 Sinan Road — Tencent News (2023-06-24: hours, counter or table-QR ordering, 32 seats)"
+    checked: 2026-11-23
+  - url: https://www.thepaper.cn/newsDetail_forward_24449937
+    title: "老地方面馆 on Sinan Road — The Paper (2023-09-04: hours, 3 liang a bowl with free extra noodles, 30+ toppings)"
+    checked: 2026-11-23
+  - url: https://www.163.com/dy/article/IPCDH0UM0542A3KK.html
+    title: "老地方面馆 — NetEase food blog (2024-01-26): \"从开业到今天，30年都在排队\", toppings, cuttlefish noodles"
+    checked: 2026-11-23
+  - url: https://you.ctrip.com/food/2/4994814.html
+    title: "老地方面馆(思南路店) — Ctrip (人均 ¥45; reviews of half-hour queues)"
+    checked: 2026-11-23
+  - url: https://www.trip.com/guide/info/alipay-vs-wechat-pay.html
+    title: "Alipay vs WeChat Pay for foreign tourists — Trip.com guide (2026-10-10)"
+    checked: 2026-11-23
+  - url: https://www.viamichelin.com/maps/restaurants/poi/shanghai-_-a3402c38
+    title: "Lao Di Fang Mian Guan — ViaMichelin (states \"Bib Gourmand\" in text; Michelin's description)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai — Wikipedia (climate table, Xujiahui 1991–2020: December mean 5.3–11.3 °C)"
+    checked: 2026-11-23
+  - url: https://www.openstreetmap.org/?mlat=31.21139&mlon=121.46598#map=18/31.21139/121.46598
+    title: Lao Di Fang Mian Guan, 107 Sinan Road — OpenStreetMap (pin)
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status: icon on Michelin's page; its full text read in Chrome with the cookie banner dismissed (2026-11-23). Prices: Trip.com menu data, undated (read in Chrome; link checker blocked). Trip.com shows breakfast and lunch only; 2023 news added weekday dinner, and I can't tell which is current. No source on payment apps or an English menu. Metro distance is my straight-line measure."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: sinan-road
+    caption: "Sinan Road's old villas; no free photo of the noodle shop itself"
+    hook: Pick a topping, watch it hit the wok, and ask for more noodles for free.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: Breakfast from 07:00
+    extra:
+      - { label: Order, value: Counter or table QR code, detail: "Both work, per Tencent News (2023)" }
+      - { label: Bowl, value: 3 liang of noodles, detail: "More noodles free if you're still hungry" }
+      - { label: Solo?, value: Yes, detail: "A noodle counter; one bowl is a meal" }
+  - type: highlights
+    items:
+      - title: Cooked to order
+        text: "More than **30 toppings**, each stir-fried when you order it. Michelin says all of them are cooked à la minute, so expect to wait a little."
+      - title: The cuttlefish bowl
+        text: "Michelin's pick: **cuttlefish with pickled greens**, chewy and crunchy, ¥28. Or go cheap with scallion-oil noodles at ¥11."
+      - title: Free refills
+        text: "A bowl is 3 liang (150 g) of custom-made noodles, and The Paper says you can ask for more noodles **for free**."
+      - title: By the French Concession
+        text: "On Sinan Road, about 400 m from Dapuqiao station and about 1 km south of INS Land."
+  - type: prose
+    title: Thirty years of queues
+    text: |-
+      Lao Di Fang spent about thirty years on South Xiangyang Road. A January 2024 NetEase food blog put it simply: "30 years of queues, from opening day until today". In June 2023 it moved to 107 Sinan Road, a bigger room with 32 seats. Michelin says the menu and flavours did not change.
+
+      You pick a topping (*jiaotou*) and it is cooked when you order it. Besides the cuttlefish, Michelin points to dark-soy braised pork belly and pork wrapped in tofu skin. Ctrip reviewers on the old site waited about half an hour at lunch.
+  - type: quote
+    variant: vibe
+    text: Wok hiss behind the counter, a bowl of noodles, and nobody in any hurry.
+  - type: cost_breakdown
+    items:
+      - { label: "Cuttlefish and pickled-greens noodles", local: 28, brl: 24.9 }
+      - { label: "Tofu-skin pork roll", local: 5, brl: 4.45 }
+      - { label: "Fried pork cutlet", local: 20, brl: 17.78, optional: true }
+  - type: menu
+    items:
+      - name: Cuttlefish and pickled-greens noodles
+        name_local: 青咸菜目鱼面
+        price_local: 28
+        price_brl: 24.9
+        note: Michelin's pick, chewy cuttlefish with crunchy pickled greens.
+        tag: must-try
+      - name: Scallion-oil noodles
+        name_local: 葱油拌面
+        price_local: 11
+        price_brl: 9.78
+        note: The cheapest bowl on the menu.
+        tag: cheap
+      - name: Spicy pork noodles
+        name_local: 辣肉面
+        price_local: 21
+        price_brl: 18.67
+        tag: spicy
+      - name: "\"Three-fry\" noodles: liver, kidney, pork"
+        name_local: 爆三样面
+        price_local: 35
+        price_brl: 31.12
+        note: Three toppings stir-fried together.
+        tag: signature
+      - name: Tofu-skin pork roll
+        name_local: 豆腐衣包肉
+        price_local: 5
+        price_brl: 4.45
+        note: The side Michelin calls a local favourite.
+      - name: Fried pork cutlet
+        name_local: 炸排块
+        price_local: 20
+        price_brl: 17.78
+    note: "Prices in RMB from Trip.com's menu data (undated; the page shows USD by default). Point at the Chinese names if there's no English."
+  - type: map
+    note: "From Dapuqiao station (Line 9), walk north about 400 m."
+  - type: tips
+    variant: insider
+    items:
+      - "Go for **breakfast**: it opens at 07:00 and Trip.com lists no dinner service at all."
+      - "Finished your noodles and still hungry? Ask for more noodles. The Paper says they're free."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It **closes 10:00–11:00** every day to prepare for lunch (Tencent News, 2023)."
+      - "If you order by table QR code, it may need **WeChat** (Trip.com, Oct 2026); ordering at the counter is the fallback."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "December averages: cool, damp, often grey"
+    note: "Ctrip reviewers at the old shop queued outdoors; dress for a wait in the damp."
+    wear: Warm jacket
+  - type: pairs_well
+    items:
+      - { id: ins-land, note: "About 1 km north: noodles first, then the clubs" }
+      - { id: lanxin-jinxian-road, note: "Another Bib, Shanghai home cooking, 1.7 km north" }
+      - { id: jingmei-wuxi-noodles-yanping-road, note: "Compare with Wuxi's sweet rib noodles in Jing'an" }

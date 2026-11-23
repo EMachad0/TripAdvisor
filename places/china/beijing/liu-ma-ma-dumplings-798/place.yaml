@@ -1,0 +1,137 @@
+id: liu-ma-ma-dumplings-798
+name: "Liu Ma Ma: Seafood Dumplings in 798"
+short_name: Liu Ma Ma Dumplings
+name_local: 胶东刘妈妈肉汁饺子（798艺术区店）
+name_romanized: Liú Māma Ròuzhī Jiǎozi
+country: china
+city: beijing
+area: Chaoyang · 798 Art District
+category: food
+fame: hidden
+tags: [dumplings, jiaozi, seafood, shandong, michelin-listed, bib-gourmand, cheap-eats]
+kind: Eat
+why: "Palm-sized Shandong dumplings stuffed with Spanish mackerel and chive, made in an open kitchen in a 798 alley. About ¥57 a head. Michelin Bib Gourmand."
+
+cost:
+  local: 57
+  currency: CNY
+  brl: 50.68
+  note: "Ctrip users' average spend per head (Nov 2026); Visit Beijing (Jan 2026) says about ¥55"
+fx: { rate: 0.8892, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45–60 min
+best_time: "Lunch during a day at 798"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Fri 10:30–14:00 and 16:30–20:30; Sat–Sun 09:00–21:00 (UTC+8), per Visit Beijing (Jan 2026)"
+  closed: "Weekdays 14:00–16:30 (UTC+8)"
+  winter: "No winter hours or holiday closures found. Your Beijing days are Sun Dec 13 (weekend hours) to Wed Dec 16 (weekday hours, with the afternoon break). Ctrip showed the same weekday hours on 23 Nov 2026."
+
+location:
+  address: "Building 3818, 798 Art District, 2 Jiuxianqiao Road, Chaoyang, Beijing (alley to the left of Taike Tea Garden)"
+  address_local: 北京市朝阳区酒仙桥路2号798艺术区3818库 胶东刘妈妈肉汁饺子
+  lat: 39.98281
+  lng: 116.49048
+  approximate: true
+  nearest_transit: "Gaojiayuan (Line 12) Exit B, 1.3 km (Ctrip); or Wangjing South (Line 14)"
+
+sources:
+  - url: https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurants/bib-gourmand
+    title: "MICHELIN Guide: Beijing Bib Gourmand list (32 restaurants), shows 刘妈妈肉汁饺子 (朝阳), ¥ · dumplings"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/beijing-municipality/beijing/restaurant/liu-ma-ma-dumplings-chaoyang
+    title: "MICHELIN Guide: Liu Ma Ma Dumplings (Chaoyang), Building 3818, 798 Art District"
+    checked: 2026-11-23
+  - url: https://www.viamichelin.com/maps/restaurants/poi/beijing-_-28c7be76
+    title: "ViaMichelin (403 to bots): giant dumpling sign, kitchen window, mackerel and chive; seasonal kelp, dried shrimp, shepherd's purse"
+    checked: 2026-11-23
+  - url: https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-the-2027-beijing-tianjin-selection
+    title: "Michelin: Beijing & Tianjin 2027 selection released 28 Oct 2026 (current edition)"
+    checked: 2026-11-23
+  - url: https://www.visitbeijing.com.cn/article/4PsGqqxvhOg
+    title: "Visit Beijing (8 Jan 2026): Liu Ma Ma 798 branch hours, about ¥55 a head, mackerel dumplings"
+    checked: 2026-11-23
+  - url: https://gs.ctrip.com/html5/you/foods/fooddetail/1/150010704.html
+    title: "Ctrip: 胶东刘妈妈肉汁饺子(798艺术区店), ¥57 a head, hours, dishes, free condiment bar in reviews"
+    checked: 2026-11-23
+  - url: https://english.beijing.gov.cn/latest/specials/essentialtipsfornewarrivals/paymentservices/202408/t20240830_3785647.html
+    title: "Beijing government: Payment services for new arrivals (foreign cards on Alipay / WeChat Pay; merchants must accept cash)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Wikipedia: Beijing climate table (1991–2020 normals; December 3.7 / −5.0 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status: Michelin's Beijing list, rendered 23 Nov 2026; review text via ViaMichelin (read in Chrome; blocks link checks). Cost is an average (Ctrip ¥57, Visit Beijing ¥55); no per-plate prices found. Hours: Visit Beijing, weekdays matched by Ctrip. Not confirmed: pay apps, English menu, queue. Pinned to 798 as a whole."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    hook: A giant dumpling on chopsticks sticks out of the wall; behind the window, the aunties are folding.
+  - type: quick_facts
+    time_needed: 45–60 min
+    best_time: Lunch at 798
+    extra:
+      - { label: Solo, value: "Yes: one plate is a meal", detail: "Ctrip lists the mackerel dumplings as 4 palm-sized pieces, 240 g" }
+      - { label: Style, value: Jiaodong (Shandong coast), detail: "Big dumplings, seafood fillings" }
+  - type: highlights
+    items:
+      - title: Spanish mackerel and chive
+        text: "The filling Michelin tells you to order: juicy, tender **mackerel and chive**, from the seafood side of the menu that's the most popular."
+      - title: Made in front of you
+        text: "Michelin and Ctrip reviewers both mention the **open kitchen**: you watch the dumplings being wrapped and boiled."
+      - title: Free sides bar
+        text: "A Ctrip reviewer lists a free station with **corn porridge**, a water-chestnut drink, laba garlic and dipping sauces."
+      - title: Lunch inside 798
+        text: "It's in the art district itself, so it slots into an afternoon of galleries. About **¥57** (R$51) a head."
+  - type: prose
+    title: Shandong on a plate
+    text: |-
+      Jiaodong is the peninsula on Shandong's coast, and its dumplings are big and full of seafood. Visit Beijing's January 2026 guide recommends the mackerel, the **chive with two kinds of shrimp** (韭菜双虾) and the **scallop with octopus** (干贝八蛸). Michelin adds seasonal fillings such as kelp, dried shrimp and shepherd's purse.
+
+      One plate of the mackerel dumplings is four palm-sized pieces, so a solo eater can try one filling and stop, or order a second plate to compare.
+  - type: quote
+    variant: vibe
+    text: Steam from the pots, vinegar and garlic on the table, and gallery maps folded next to the plates.
+  - type: cost_breakdown
+    items:
+      - { label: "Average spend per head (Ctrip)", local: 57, brl: 50.68, estimate: true }
+  - type: menu
+    items:
+      - name: Spanish mackerel dumplings (4 pieces, 240 g)
+        name_local: 胶东鲅鱼水饺
+        note: "Michelin's pick and Visit Beijing's; price not found"
+        tag: must-try
+      - name: Chive and two-shrimp dumplings
+        name_local: 韭菜双虾
+        note: "Recommended by Visit Beijing; price not found"
+      - name: Scallop and octopus dumplings
+        name_local: 干贝八蛸
+        note: "Recommended by Visit Beijing; price not found"
+      - name: Shrimp potstickers, 4 pieces
+        name_local: 大虾煎饺
+        note: "Dinner only, per Ctrip's dish list; price not found"
+    note: "No per-plate prices found; budget the ¥55–57 average from Visit Beijing and Ctrip."
+  - type: map
+    note: "Inside 798: Building 3818, in the small alley to the left of Taike Tea Garden (Ctrip). Look for the giant dumpling on chopsticks over the entrance. The pin marks 798, not the door."
+  - type: tips
+    variant: insider
+    items:
+      - "**Paying:** no source says which apps the shop takes. Beijing's official guide says Visa and Mastercard can be linked to **Alipay** and **WeChat Pay**, and every merchant must accept RMB cash."
+      - "On a weekday, arrive before 14:00 (UTC+8): the kitchen breaks until 16:30."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Liu Ma Ma has another Beijing branch at Dazhongsi (1733 mall, Haidian). The Bib Gourmand one is **the 798 shop**."
+      - "No English menu confirmed. Show the Chinese names above or point at the open kitchen."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: Dry and freezing
+    note: "798 is a lot of walking between galleries in the cold; this is the warm stop in the middle."
+    wear: "Warm coat, hat and gloves"
+  - type: pairs_well
+    items:
+      - { id: 798-art-district, note: "It's inside 798: galleries before and after" }

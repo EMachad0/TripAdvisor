@@ -1,0 +1,145 @@
+id: kushikatsu-gojoya-tenmabashi
+name: "Kushikatsu Gojoya: Tenmabashi"
+short_name: Gojoya
+name_local: 串かつ 五條家
+name_romanized: Kushikatsu Gojōya
+country: japan
+city: osaka
+area: Chuo · Tenmabashi
+category: food
+fame: hidden
+tags: [kushikatsu, dinner, michelin-bib-gourmand, counter, cash-only, omakase]
+kind: Eat
+why: "Osaka's fried skewers as a Bib Gourmand counter omakase: creative seasonal kushikatsu at ¥180 each until you say stop. Fifteen skewers come to ¥2,700."
+
+cost:
+  local: 2700
+  currency: JPY
+  brl: 101.06
+  note: "15 skewers at the 2027 price (¥180 each); drinks and sides extra"
+fx: { rate: 0.03743, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1–1.5 h
+best_time: "17:00 (UTC+9) opening, Mon–Sat"
+
+book_ahead:
+  required: recommended
+  lead_days: 3
+  lead_time: "Call a few days ahead, or try at 17:00 (UTC+9)"
+  method: phone
+  links:
+    - label: Call Gojoya
+      url: "tel:+81-6-6945-5045"
+      note: "Tabelog: phone may be Japanese only; ask your hostel to call"
+  notes: "Phone is the only booking channel I found (no TableCheck, Omakase or online Tabelog booking). Tabelog says walk-ins may be possible and same-day seats are handled by phone. A 2026 reviewer called it crowded lately."
+
+hours:
+  summary: "Mon–Sat 17:00–23:00 (UTC+9)"
+  closed: "Sundays and public holidays"
+  winter: "No winter closures listed. The skewer price goes from ¥150 to ¥180 on Jan 1, 2027 (Tabelog menu). In your Osaka window (Jan 29 – Feb 2) it is open Fri, Sat and Mon; closed Sun Jan 31."
+
+location:
+  address: "Primiore, 2-1-11 Uchihiranomachi, Chuo-ku, Osaka"
+  address_local: 大阪府大阪市中央区内平野町2-1-11 プリミオーレ
+  lat: 34.68722
+  lng: 135.5136
+  nearest_transit: "Tenmabashi (Tanimachi Line / Keihan Line), about 400 m"
+  approximate: true
+
+sources:
+  - url: https://guide.michelin.com/en/osaka-region/osaka/restaurant/kushikatsu-gojoya
+    title: "Kushikatsu Gojoya — MICHELIN Guide (address, ¥ price band, 'Solo dining', 'Eat like a local', books its own tables)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/jp/osaka-region/osaka/restaurants/bib-gourmand/kushiage
+    title: "MICHELIN Guide Kyoto-Osaka — Osaka Bib Gourmand kushiage list (current 2026 selection; Gojoya listed)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/osaka/A2701/A270104/27011721/
+    title: "Tenmanbashi Kushikatsu Gojoya — Tabelog (hours, closing days, 12 counter + 6 table seats, phone bookings, no cards)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/osaka/A2701/A270104/27011721/dtlmenu/
+    title: "Gojoya menu — Tabelog (updated 2026-09-09: omakase stop course ¥150 a skewer, ¥180 from Jan 1, 2027; sides)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/osaka/A2701/A270104/27011721/dtlrvwlst/
+    title: "Gojoya reviews — Tabelog (Jul–Nov 2026: stop-when-you-want omakase, spend, 'crowded lately')"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-ceremony-tokyo-kyoto-osaka-nara-2027-selection-save-the-date
+    title: "MICHELIN Guide — 2027 Tokyo, Kyoto-Osaka and Nara selections unveiled Feb 16, 2027"
+    checked: 2026-11-23
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=62&block_no=47772"
+    title: "JMA — climate normals 1991–2020, Osaka (January: max 9.7 °C, min 3.0 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status from Michelin's Osaka Bib kushiage list (2026 guide). Prices from Tabelog's menu (Sep 2026), which gives only the new 1-skewer price (¥180) for 2027; the 15-skewer total is my multiplication. Drink prices not found. Most 2026 reviewers spent ¥5,000–8,000 with drinks. Whether staff speak English: not found. Lead time is my margin."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: tenmabashi-bridge
+    caption: "Tenmabashi, the bridge the area is named for; no free photo of Gojoya"
+    hook: "Skewer after skewer from the fryer, each one different, until you tell the cook to stop."
+  - type: quick_facts
+    time_needed: 1–1.5 h
+    best_time: "17:00 (UTC+9) opening"
+    extra:
+      - { label: Format, value: Omakase until you stop, detail: "Seasonal creative skewers, ¥180 each from 2027" }
+      - { label: Pay, value: Cash only, detail: "Tabelog: no cards, e-money or QR codes" }
+  - type: highlights
+    items:
+      - title: Kushikatsu, Osaka's own
+        text: "In Michelin's current Osaka Bib Gourmand kushiage list, ¥ price band, tagged \"Solo dining\" and \"Eat like a local\"."
+      - title: You set the bill
+        text: "The **omakase stop course** keeps bringing seasonal skewers until you ask them to stop (Oct 2026 review). At ¥180 a skewer you know the bill as you go."
+      - title: Not the ¥100 stall kind
+        text: "Autumn 2026 skewers on the menu included a *Peking-duck-style choux* and *anago rice in foil*. A reviewer called each one \"small but beautifully crafted\"."
+      - title: A counter for one
+        text: "Twelve of the eighteen seats are at the counter, and Tabelog tags it solo-friendly."
+  - type: book_ahead
+    steps:
+      - days_before: 3
+        text: "Ask your hostel or hotel front desk to call **06-6945-5045** for a counter seat at 17:00 (UTC+9)."
+      - days_before: 0
+        text: "No booking? Turn up at the 17:00 (UTC+9) opening and ask for a seat for one."
+  - type: cost_breakdown
+    items:
+      - { label: "Omakase skewers ×15 (¥180 each from 2027)", local: 2700, brl: 101.06 }
+      - { label: "Salmon rice ball", local: 380, brl: 14.22, optional: true }
+  - type: menu
+    items:
+      - name: Creative kushikatsu omakase, per skewer
+        price_local: 180
+        price_brl: 6.74
+        note: "Price from Jan 1, 2027 (¥150 in 2026). Say stop when full"
+        tag: must-try
+      - name: Cabbage stick salad
+        price_local: 250
+        price_brl: 9.36
+        note: "Tabelog lists ¥250 but marks it \"Included\"; probably comes with the course"
+      - name: Lightly pickled cucumbers
+        price_local: 450
+        price_brl: 16.84
+      - name: Salmon rice ball
+        price_local: 380
+        price_brl: 14.22
+      - name: Salmon chazuke
+        price_local: 450
+        price_brl: 16.84
+    note: "Tabelog menu, updated 2026-09-09. Side-dish prices may be before tax. Cash only."
+  - type: map
+    note: "Tabelog puts it about 400 m from Tenmabashi station (subway and Keihan)."
+  - type: tips
+    variant: insider
+    items:
+      - "Decide your number before you start: 15 skewers at ¥180 is ¥2,700. Most 2026 reviewers ate more and drank, and paid ¥5,000–8,000."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Cash only**, and closed **Sundays** and public holidays."
+  - type: weather
+    temp_low_c: 3
+    temp_high_c: 10
+    conditions: "Cool: January averages 3–10 °C"
+    note: "An indoor dinner by the fryer; only the walk from the station is cold."
+    wear: Warm jacket
+  - type: pairs_well
+    items:
+      - { id: tenma-standing-bars, note: "A short ride north for a standing-bar crawl after" }

@@ -1,0 +1,139 @@
+id: tonkatsu-hinata-takadanobaba
+name: "Tonkatsu Hinata: Takadanobaba"
+short_name: Tonkatsu Hinata
+name_local: とんかつひなた
+name_romanized: Tonkatsu Hinata
+country: japan
+city: tokyo
+area: Shinjuku · Takadanobaba
+category: food
+fame: hidden
+tags: [tonkatsu, lunch, michelin-bib-gourmand, counter, cards-ok, queue]
+kind: Eat
+why: "Michelin Bib tonkatsu in a 14-seat student-town counter: a 130 g loin set for ¥1,450 with rice and cabbage refills. Cards and Suica accepted."
+
+cost:
+  local: 1450
+  currency: JPY
+  brl: 54.27
+  note: "Loin cutlet set (130 g), Tabelog menu; reviewers paid ¥1,450 in Oct–Nov 2026"
+fx: { rate: 0.03743, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "45 min (plus the queue)"
+best_time: "Weekday, 10 min before 11:00 (UTC+9), or after 14:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Tue–Sat 11:00–14:30 and 17:00–20:00, last orders at closing (UTC+9)"
+  closed: "Sundays and Mondays"
+  winter: "No winter hours listed. Japan has no public holiday between Jan 20 and Feb 5, 2027, so in the Tokyo window it is open Thu Jan 21 – Sat Jan 23 and Tue Jan 26 – Fri Jan 29 (your flight lands after midnight on Jan 21)."
+
+location:
+  address: "Suzuki Bldg 1F, 2-13-9 Takadanobaba, Shinjuku-ku, Tokyo"
+  address_local: 東京都新宿区高田馬場2-13-9 鈴木ビル1階
+  lat: 35.71294
+  lng: 139.70746
+  nearest_transit: "Takadanobaba (Tozai Line) Exit 7, 2 min; JR Waseda Exit, 5 min"
+  approximate: true
+
+sources:
+  - url: https://guide.michelin.com/en/tokyo-region/tokyo/restaurant/tonkatsu-hinata
+    title: "Tonkatsu Hinata — MICHELIN Guide (address, ¥ price band, 'Worth Queueing For', 'Solo dining')"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/jp/tokyo-region/tokyo/restaurants/bib-gourmand/tonkatsu
+    title: "MICHELIN Guide Tokyo — Bib Gourmand tonkatsu list (current 2026 selection; Tonkatsu Hinata listed)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/tokyo/A1305/A130503/13204289/
+    title: "Tonkatsu Hinata — Tabelog (hours, Sun/Mon closing, 14 counter seats, cards and e-money, course-only bookings)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/tokyo/A1305/A130503/13204289/dtlmenu/
+    title: "Tonkatsu Hinata menu — Tabelog (last updated 2025-09-01: loin set ¥1,450, refills)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/tokyo/A1305/A130503/13204289/dtlrvwlst/
+    title: "Tonkatsu Hinata reviews — Tabelog (Oct–Nov 2026 visits: ¥1,450 loin set, queue at opening)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-ceremony-tokyo-kyoto-osaka-nara-2027-selection-save-the-date
+    title: "MICHELIN Guide — 2027 Tokyo, Kyoto-Osaka and Nara selections unveiled Feb 16, 2027"
+    checked: 2026-11-23
+  - url: https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+    title: "Cabinet Office Japan — national holidays 2027 (Jan 1, Jan 11, Feb 11, Feb 23)"
+    checked: 2026-11-23
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "JMA — climate normals 1991–2020, Tokyo (January: max 9.8 °C, min 1.2 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status from Michelin's Tokyo Bib tonkatsu list (2026 guide; the 2027 one comes out Feb 16, after the trip). Menu prices are from Tabelog's menu page (Sep 2025); Oct–Nov 2026 reviewers confirm ¥1,450 for the loin set. Queue times are from Nov 2026 reviews. I found no source on how orders are taken (ticket machine or at the counter). Pin is block-level."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: takadanobaba-waseda-exit
+    caption: "Takadanobaba station's Waseda exit, 5 min away; no free photo of the shop"
+    hook: "Fourteen counter seats and pork cuts most tonkatsu shops never put on the menu."
+  - type: quick_facts
+    time_needed: "45 min (plus the queue)"
+    best_time: "10 min before 11:00 (UTC+9)"
+    extra:
+      - { label: Seats, value: 14 at the counter, detail: "Counter only, no private rooms" }
+      - { label: Pay, value: Cards and Suica, detail: "Visa, Master, JCB, Amex, Diners; IC cards; no QR" }
+  - type: highlights
+    items:
+      - title: Bib Gourmand at ¥1,450
+        text: "In Michelin's current Tokyo Bib Gourmand tonkatsu list, ¥ price band, tagged \"Worth Queueing For\" and \"Solo dining\"."
+      - title: Cuts you won't see elsewhere
+        text: "Besides loin and fillet the menu lists two rare cuts: **rump** as a set (¥2,100) and **shikinbo** à la carte (70 g for ¥600)."
+      - title: Refills included
+        text: "Rice and cabbage come with **one free refill**; after that each refill is ¥150 (Tabelog menu)."
+      - title: Tabelog 100
+        text: "Rated 3.71 on Tabelog from about 2,600 reviews and picked for its 2026 tonkatsu \"Tabelog 100\"."
+  - type: menu
+    items:
+      - name: Loin cutlet set (130 g)
+        price_local: 1450
+        price_brl: 54.27
+        note: "The standard order. The menu lists refills for rice, cabbage and pork miso soup"
+        tag: must-try
+      - name: Premium loin cutlet set (190 g)
+        price_local: 2100
+        price_brl: 78.6
+      - name: Rump set (rare cut, 180 g)
+        price_local: 2100
+        price_brl: 78.6
+        tag: signature
+      - name: Shikinbo katsu à la carte (70 g)
+        price_local: 600
+        price_brl: 22.46
+        note: Rare cut; add it to a set to compare
+      - name: Premium fillet cutlet set (140 g)
+        price_local: 3000
+        price_brl: 112.29
+      - name: Loin cutlet curry (130 g)
+        price_local: 1750
+        price_brl: 65.5
+    note: "Prices from Tabelog's English menu page (updated 2025-09-01). Rice and cabbage: one free refill, then ¥150."
+  - type: cost_breakdown
+    items:
+      - { label: "Loin cutlet set (130 g)", local: 1450, brl: 54.27 }
+      - { label: "Shikinbo add-on (70 g)", local: 600, brl: 22.46, optional: true }
+  - type: map
+    note: "From the Tozai Line take **Exit 7**; from the JR/Seibu side use the **Waseda Exit**."
+  - type: tips
+    variant: insider
+    items:
+      - "Arrive about 10 min before the 11:00 (UTC+9) opening: Nov 2026 reviewers who did got a first-round seat. One who came at 10:50 had 9 people ahead."
+      - "Or come late: a reviewer around 14:00 found it half full."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Closed **Sunday and Monday**. Bookings are only for the evening tasting courses, so lunch is walk-in."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: "Cold: January averages 1–10 °C"
+    note: "The queue is outside. Once in, you sit facing the fryer."
+    wear: Warm coat for the wait
+  - type: pairs_well
+    items:
+      - { id: mikado-game-center-takadanobaba, note: "Same neighbourhood: tonkatsu at lunch, retro arcade after" }

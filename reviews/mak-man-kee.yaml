@@ -1,0 +1,19 @@
+# Independent review of mak-man-kee. Written by `./atr review`; do not edit by hand.
+id: mak-man-kee
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 97390112c2fc562114144d87e95f2c0e9c11e5cafa590fa8799476082549b2a1
+facts:
+  supported: 3
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[1].extra[0]
+    problem: '"Cash only" is shown as a fact in quick_facts and the pitfalls, but the only source is Trip.com user posts, which the link checker cannot open. The "no Octopus" claim comes from a single Thai review and was not in the verbatim page text. The official site and the Michelin page say nothing about payment.'
+    evidence: "The curator used the fallback the earlier review asked for. quick_facts now says 'Bring HK$ cash' with the detail 'Trip.com traveler posts say cash only; not confirmed by the shop'. The pitfall says neither the shop nor Michelin lists payment methods. The Octopus claim is gone from every visible block and from the cash-only tag. The 'Cash.' notes are removed from cost.note and menu.note. confidence_note marks Octopus as unconfirmed. The Trip.com source is still bot-walled (./atr render: HTTP 432 whaleguard), but the page now presents payment as advice with its source named, not as a fact."
+rereview_of: fc4a162fc95238e1e0b1437b0b744ad9970b4b0f227ab173eda5ed4fa0267441
+summary: "The earlier payment finding is resolved: the page now says \"bring HK$ cash\" as hedged advice, names Trip.com as the only source, and drops the Octopus claim. The new `why` is supported by https://www.mmk.hk/about-mmk: it started as a lane stall (巷仔檔), \"only one Mak Man Kee in Hong Kong and the world\", and the noodles are made in the shop's own workshop. No open blockers or shoulds."
+model: claude-opus-5-5
+cost_usd: 0.383

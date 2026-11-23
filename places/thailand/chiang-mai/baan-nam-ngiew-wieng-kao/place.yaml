@@ -1,0 +1,137 @@
+id: baan-nam-ngiew-wieng-kao
+name: "Baan Nam Ngiew Wieng Kao"
+short_name: Baan Nam Ngiew
+name_local: บ้านน้ำเงี้ยวเวียงเก่า
+name_romanized: Ban Nam Ngiao Wiang Kao
+country: thailand
+city: chiang-mai
+area: East Chiang Mai
+category: food
+fame: hidden
+tags: [nam-ngiao, noodles, northern-thai, chiang-rai-style, bib-gourmand, michelin, new-2027, cheap-eats, lunch]
+kind: Eat
+why: "Chiang Rai-style nam ngiao, the tangy tomato-and-pork noodle soup of the north, ฿45 a bowl at a garden shop Michelin made a Bib Gourmand for 2027."
+cost:
+  local: 45
+  currency: THB
+  brl: 7.88
+  note: "One khanom jeen nam ngiao with pork (Wongnai review, Aug 2025). Beef and side-dish prices not found"
+fx: { rate: 0.1751, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min (plus the ride)
+best_time: "Weekday lunch, 11:00–14:00 UTC+7"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Fri 09:00–17:00 UTC+7 (Wongnai)"
+  closed: "Saturdays and Sundays (no weekend hours on Wongnai)"
+  winter: "No New Year closure found. On the trip, only Mon Jan 4 and Tue Jan 5 (and Wed Jan 6 if you are still in Chiang Mai) fit; Sat Jan 2 and Sun Jan 3 do not. Hours are from one listing, so call +66 83 007 7888 before you go."
+
+location:
+  address: "Soi Business Park 2, east Chiang Mai (Michelin: 99/4 Mu 5, Nong Pa Khrang, Mueang Chiang Mai 50000)"
+  address_local: "บ้านน้ำเงี้ยวเวียงเก่า (ยายแอ๋ว) ซอยบิสสิเนส พาร์ค 2 ติดบริค โฮเทล อ.เมืองเชียงใหม่"
+  lat: 18.76244
+  lng: 99.02471
+  nearest_transit: "No metro: Grab from the old city"
+  approximate: true
+
+sources:
+  - url: https://guide.michelin.com/th/en/article/michelin-guide-ceremony/bib-gourmand-thailand-2027
+    title: "26 New Bib Gourmands Join the MICHELIN Guide Thailand 2027 (3 Nov 2026): Baan Nam Ngiew Wieng Kao"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/baan-nam-ngiew-wieng-kao
+    title: "Baan Nam Ngiew Wieng Kao: MICHELIN Guide (address, ฿, noodles)"
+    checked: 2026-11-23
+  - url: https://www.thairath.co.th/lifestyle/food/2970113
+    title: "Thairath (3 Nov 2026): 2027 Bib Gourmand newcomers, Thai name บ้านน้ำเงี้ยวเวียงเก่า"
+    checked: 2026-11-23
+  - url: https://www.wongnai.com/restaurants/1280335aQ
+    title: "บ้านน้ำเงี้ยวเวียงเก่า (ยายแอ๋ว): Wongnai (Mon–Fri 09:00–17:00, phone, reviews 2024–2025, ฿45 bowl)"
+    checked: 2026-11-23
+  - url: https://sg.trip.com/guide/transport/chiang-mai-transport.html
+    title: "Chiang Mai Transport Guide 2026: Trip.com (12 Feb 2026; songthaew ฿30–60, Grab Old City–Nimman S$3–5)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Chiang_Mai
+    title: "Chiang Mai: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-23
+confidence: low
+confidence_note: "Bib Gourmand confirmed (Michelin 2027 newcomer and Chiang Mai lists). Weak: hours and price come only from Wongnai (฿45 bowl: Aug 2025). The addresses disagree: Michelin gives Nong Pa Khrang, Wongnai Tha Sala, reviews 'Business Park Soi 2 next to the Brick hotel'. Pin is Wongnai's. Payment, queue not found. Trip.com fares read by web fetch (bot-blocked for the link checker)."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: khanom-jeen-nam-ngiao
+    caption: "Khanom jeen nam ngiao, photographed elsewhere; no free photo of this shop"
+    focus: center
+    hook: Rice noodles in a sour, tomato-red pork broth with dried kapok flowers (dok ngiu), the Chiang Rai way.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: "Weekday, 11:00–14:00 UTC+7"
+    extra:
+      - { label: Solo diner, value: "Yes", detail: "One bowl is one meal" }
+      - { label: Payment, value: Bring cash, detail: "Card or QR not confirmed" }
+      - { label: Before a 19:00 shift?, value: "Yes", detail: "It closes at 17:00 UTC+7" }
+  - type: highlights
+    items:
+      - title: New Bib Gourmand for 2027
+        text: "One of only **three Chiang Mai newcomers** on Michelin's 2027 Bib Gourmand list, announced 3 Nov 2026."
+      - title: The other northern noodle soup
+        text: "Everyone eats khao soi. **Nam ngiao** is the tangy, tomato-red one. Thairath says this shop cooks it Chiang Rai style, with dried kapok flowers (**dok ngiu**) in a thick broth."
+      - title: Pork or beef, ฿45 a bowl
+        text: "Choose pork or beef (Michelin). A Wongnai reviewer paid **฿45** for the pork bowl with minced pork and blood in August 2025."
+      - title: A shady garden
+        text: "A 2024 Wongnai reviewer describes a garden under trees and a friendly owner who explains the dishes."
+  - type: prose
+    title: What to order
+    text: |-
+      Michelin describes generous bowls of rich, tangy broth with pork or beef, tomato and herbs, also available with sides and vegetables. On Wongnai, reviewers order **khanom jeen nam ngiao** (with rice noodles) or **kao lao nam ngiao** (the soup without noodles) with a side of **khao kan jin**, northern rice steamed with blood, and pork crackling to drop into the bowl.
+
+      The shop also sells som tam. A 2025 reviewer noted a sign listing the steps to follow when you order.
+  - type: quote
+    variant: vibe
+    text: Sour broth, a handful of crackling, and a quiet garden off a back street.
+  - type: cost_breakdown
+    items:
+      - { label: Khanom jeen nam ngiao (pork), local: 45, brl: 7.88 }
+  - type: menu
+    items:
+      - name: Khanom jeen nam ngiao, pork
+        name_local: ขนมจีนน้ำเงี้ยวหมู
+        price_local: 45
+        price_brl: 7.88
+        note: "Rice noodles, minced pork and blood in the Chiang Rai-style broth (Wongnai, Aug 2025)."
+        tag: must-try
+      - name: Nam ngiao, beef
+        name_local: น้ำเงี้ยวเนื้อ
+        note: "The dish Wongnai reviewers name most; price not found."
+        tag: signature
+      - name: Kao lao nam ngiao (no noodles)
+        name_local: เกาเหลาน้ำเงี้ยว
+        note: "The soup on its own, to eat with rice; price not found."
+      - name: Khao kan jin
+        name_local: ข้าวกั้นจิ้น
+        note: "Northern blood rice, a side a 2024 reviewer paired with the soup; price not found."
+    note: "Only one price was published. Bring cash; under ฿100 a person per Wongnai."
+  - type: map
+    note: "Wongnai reviewers: turn into Business Park Soi 2; the shop is next to the Brick hotel, with street parking in front. The pin is Wongnai's and the addresses disagree, so send the Thai name to your Grab driver."
+  - type: tips
+    variant: insider
+    items:
+      - "Make it a **Monday or Tuesday lunch** (Jan 4–5): it closes at 17:00 UTC+7 and on weekends."
+      - "Add pork crackling to the bowl, as Wongnai reviewers do."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "It is about 4 km east of Tha Phae Gate (straight line on the map). Trip.com's 2026 guide puts short red-songthaew rides at ฿30–60 and a Grab from the Old City to Nimman, a shorter ride, at S$3–5; check the Grab app's quote, which may cost more than the bowl."
+      - "The Michelin address and the shop's own Wongnai address differ. Use the Thai name and the phone number (+66 83 007 7888) if the driver is unsure."
+  - type: weather
+    temp_low_c: 16
+    temp_high_c: 30
+    conditions: Cool, dry season; sunny days, fresh evenings
+    note: "January averages 30 °C by day and 16 °C at night, with about one rainy day. A hot sour soup at lunch in the garden is comfortable in this weather."
+    wear: Light clothes; a layer for the morning
+  - type: pairs_well
+    items:
+      - { id: huen-muan-jai, note: "Northern Bib Gourmand dinner in town" }

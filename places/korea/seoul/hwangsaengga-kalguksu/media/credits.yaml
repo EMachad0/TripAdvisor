@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: samcheong-dong-street
+  title: File:Samcheong-dong.jpg
+  author: travel oriented
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Samcheong-dong.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Samcheong-dong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Samcheong-dong
+  width: 3232
+  height: 2160
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-23
+  origin: commons
+- file: kalguksu-bowl
+  title: File:Korean.noodle-Kalguksu-01.jpg
+  author: jslander
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Korean.noodle-Kalguksu-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b8/Korean.noodle-Kalguksu-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Kalguksu, a korean noodle dish in hot soup.
+  width: 3872
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-23
+  origin: commons
+- file: hanok-rooftops
+  title: File:Korea-Seoul-Hanok rooftops.jpg
+  author: hojusaram
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Korea-Seoul-Hanok_rooftops.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7e/Korea-Seoul-Hanok_rooftops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Looking down on hanok rooftops, Samcheong-dong.
+  width: 3456
+  height: 2304
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-23
+  origin: commons

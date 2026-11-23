@@ -1,0 +1,138 @@
+id: wu-ji-guai-wei-mian
+name: "Wu Ji: Chengdu's Weird-Taste Noodles"
+short_name: Wu Ji Guai Wei Mian
+name_local: 吴记怪味面（牛王庙店）
+name_romanized: Wújì Guàiwèi Miàn
+country: china
+city: chengdu
+area: Jinjiang · Niuwangmiao
+category: food
+fame: hidden
+tags: [noodles, dan-dan, sichuan-food, mala, michelin-listed, bib-gourmand, cheap-eats, fly-restaurant]
+kind: Eat
+why: "'Weird taste' noodles: salty, sweet, spicy, numbing and a little sour in one bowl, from a 1989 family shop by a Line 2 exit. About ¥16. Michelin Bib Gourmand."
+
+cost:
+  local: 16
+  currency: CNY
+  brl: 14.23
+  note: "Ctrip users' average spend per head, Nov 2026. No per-bowl prices found"
+fx: { rate: 0.8892, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 20–30 min
+best_time: "Early, before the meal-time rush"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "07:30–21:00 (UTC+8) per Ctrip; closed days not confirmed"
+  winter: "No winter hours or Christmas closure found. Your Chengdu stop is Dec 23–26 (flexible); check the Ctrip listing on the day."
+
+location:
+  address: "108-11, Section 5, Yihuan East Road (East 1st Ring Road), Jinjiang, Chengdu"
+  address_local: 成都市锦江区一环路东五段108号附11号 吴记怪味面
+  lat: 30.64762
+  lng: 104.09185
+  approximate: true
+  nearest_transit: "Niuwangmiao (Line 2), Exit A, 187 m / 2 min walk (Ctrip)"
+
+sources:
+  - url: https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurants/bib-gourmand
+    title: "MICHELIN Guide: Chengdu Bib Gourmand list (32 restaurants), shows 吴记怪味面, ¥ · noodles"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/chengdu-municipality/chengdu/restaurant/wu-ji-guai-wei-mian-jinjiang
+    title: "MICHELIN Guide: Wu Ji Guai Wei Mian, 108-11 Section 5 Yihuan East Road"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/wu-ji-guai-wei-mian-jinjiang
+    title: "MICHELIN Guide (中文): 始创于1989年，由第二代继承，创始人吴老先生仍亲自炒臊子"
+    checked: 2026-11-23
+  - url: https://www.viamichelin.com/maps/restaurants/poi/chengdu-_-cd024865
+    title: "ViaMichelin: Michelin's review of Wu Ji Guai Wei Mian (Bib Gourmand); blocks automated checks"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/article/michelin-guide-ceremony/michelin-stars-chengdu-2027
+    title: "MICHELIN Guide Chengdu 2027 (2 Sep 2026): current edition, 32 Bib Gourmand"
+    checked: 2026-11-23
+  - url: https://gs.ctrip.com/html5/you/foods/fooddetail/104/148891436.html
+    title: "Ctrip: 吴记怪味面(牛王庙店), hours 07:30–21:00, ¥16 a head, 187 m from Niuwangmiao Exit A, dishes and reviews"
+    checked: 2026-11-23
+  - url: https://english.beijing.gov.cn/latest/specials/essentialtipsfornewarrivals/paymentservices/202408/t20240830_3785647.html
+    title: "Beijing government: Payment services for new arrivals (foreign cards on Alipay / WeChat Pay; merchants in China must accept cash)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Chengdu
+    title: "Wikipedia: Chengdu climate table (Shuangliu, 1991–2020; December 11.2 / 4.9 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status: Michelin's Chengdu list, rendered 23 Nov 2026; history from Michelin's Chinese page; flavour from a Ctrip review. Cost and hours: Ctrip only (¥16 average, undated reviews); no per-bowl prices found. Not confirmed: pay apps, English or picture menu. Pin is Niuwangmiao station, 187 m away."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    hook: Salty, sweet, spicy and numbing in one bowl, topped with pork the founder still fries himself.
+  - type: quick_facts
+    time_needed: 20–30 min
+    best_time: Early, before meal times
+    extra:
+      - { label: Solo, value: "Yes: one bowl is a meal", detail: "A noodle shop; order a bowl and go" }
+      - { label: Spice, value: "Spicy and numbing", detail: "Seafood noodles in clear broth are the mild bowl" }
+  - type: highlights
+    items:
+      - title: The signature bowl
+        text: "**Guai wei mian**, 'weird taste' noodles. A Ctrip reviewer: salty, sweet, spicy and numbing at once, with sourness to lift it, and plenty of pork topping."
+      - title: Same family since 1989
+        text: "Michelin says the shop opened in **1989**; the second generation runs it now, but founder Mr Wu still fries the **pork topping** (臊子) himself."
+      - title: Two minutes from Line 2
+        text: "Exit A of **Niuwangmiao** station is 187 m away on Line 2."
+      - title: About ¥16
+        text: "Ctrip users average **¥16** (R$14) a head."
+  - type: prose
+    title: What weird taste means
+    text: |-
+      *Guaiwei* means "weird taste". It is the house signature, and the one to order first.
+
+      For a second bowl, Ctrip's dish list has **beef noodles** (牛肉多味面) and zajiang noodles. A reviewer who wanted something gentle liked the **seafood noodles** in a clear broth with dried squid and dried shellfish (仙贝). Others order the dan dan noodles.
+  - type: quote
+    variant: vibe
+    text: A two-minute walk from the metro, a bowl that hits every taste bud at once, and back underground.
+  - type: cost_breakdown
+    items:
+      - { label: "Average spend per head (Ctrip)", local: 16, brl: 14.23, estimate: true }
+  - type: menu
+    items:
+      - name: Weird-taste noodles
+        name_local: 怪味面
+        note: "The signature: salty, sweet, spicy, numbing; price not found"
+        tag: must-try
+      - name: Beef noodles
+        name_local: 牛肉多味面
+        note: "On Ctrip's dish list; price not found"
+        tag: signature
+      - name: Seafood noodles
+        name_local: 海味面
+        note: "Clear broth with dried squid and dried shellfish: the mild option; price not found"
+      - name: Zajiang noodles
+        name_local: 素椒杂酱面
+        note: "On Ctrip's dish list; price not found"
+    note: "No per-bowl prices found; budget Ctrip's ¥16 average."
+  - type: map
+    note: "The pin is Niuwangmiao station (Line 2); leave by Exit A and the shop is about 187 m away on Section 5 of the East 1st Ring Road."
+  - type: tips
+    variant: insider
+    items:
+      - "Two Ctrip reviewers say it is busy at meal times and you may wait: go a little early."
+      - "**Paying:** no source says which apps the shop takes. Beijing's official payment guide says Visa and Mastercard can be linked to **Alipay** and **WeChat Pay**, and that merchants in China must accept RMB cash."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Check the address: the Michelin-listed shop is **108-11 Yihuan East Road, Section 5**, by Niuwangmiao."
+      - "No English menu confirmed. Show the Chinese names above."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: Grey, damp and cool
+    note: "Indoors and quick. A numbing hot bowl is a good start to a damp Chengdu morning."
+    wear: A warm layer
+  - type: pairs_well
+    items:
+      - { id: chengdu-christmas, note: "Taikoo Li's Christmas lights, about 1 km west" }
+      - { id: flipflop-hostel-chengdu, note: "Your Taikoo Li base, under 2 km away" }

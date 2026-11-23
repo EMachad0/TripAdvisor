@@ -1,0 +1,150 @@
+id: jingmei-wuxi-noodles-yanping-road
+name: "Jingmei Wuxi Noodles: Rib Noodles and Wontons"
+short_name: Jingmei Wuxi Noodles
+name_local: 井梅无锡面馆·私房面（延平路店）
+name_romanized: Jǐngméi Wúxī Miànguǎn
+country: china
+city: shanghai
+area: Jing'an · Yanping Road
+category: food
+fame: hidden
+tags: [noodles, wontons, xiaolongbao, wuxi, michelin-listed, cheap-eats, queue]
+kind: Eat
+why: "Sweet soy-braised Wuxi pork ribs on scallion-oil noodles, ¥42, plus three-fish wontons, at a cramped Bib Gourmand shop in Jing'an."
+cost:
+  local: 56
+  currency: CNY
+  brl: 49.8
+  note: "Rib noodles plus 4 Wuxi xiaolongbao, prices from a June 2024 Ctrip review; average spend there is ¥53"
+fx: { rate: 0.8892, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45 min–1 h
+best_time: "Before noon or after 13:30, outside the meal-time queue"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "10:00–21:30 UTC+8, listed Mon–Sun in Trip.com's page data; aim to arrive by 21:00 (UTC+8)"
+  winter: "No winter hours or Christmas/New Year closures found. Trip.com's page data lists one set of hours for Mon–Sun; no closing day is given anywhere I looked."
+
+location:
+  address: 128 Yanping Road, Jing'an, Shanghai
+  address_local: 上海市静安区延平路128号
+  lat: 31.23093
+  lng: 121.43661
+  nearest_transit: "Changping Road (Line 7), about 550 m"
+
+sources:
+  - url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/jing-mei-wu-xi-si-fang-mian-guan
+    title: "Jingmei Wuxi Noodles (Yanping Road) — MICHELIN Guide (Bib Gourmand icon, ¥, rib noodles, three-white wontons)"
+    checked: 2026-11-23
+  - url: https://www.viamichelin.com/maps/restaurants/poi/shanghai-_-0beb2170
+    title: "Jingmei Wuxi Noodles — ViaMichelin (Michelin's full description, readable without the cookie wall)"
+    checked: 2026-11-23
+  - url: https://you.ctrip.com/food/2/134016842.html
+    title: "井梅无锡面馆·私房面(延平路店) — Ctrip (人均¥53; reviews with prices, scan-to-order, queue, shared tables)"
+    checked: 2026-11-23
+  - url: https://www.trip.com/restaurant/china/shanghai/detail/jingmei-wuxi-noodles-134016842
+    title: "Jingmei Wuxi Noodles (Yanping Road) — Trip.com (daily 10:00–21:30, self-service ordering)"
+    checked: 2026-11-23
+  - url: https://rachelgouk.com/listings/jing-mei-wuxi-noodle-jumen-road/
+    title: "Jing Mei Wuxi Noodle Shop — Rachel Gouk (Bib since 2023; Yanping Lu room small and cramped; sweet)"
+    checked: 2026-11-23
+  - url: https://www.trip.com/guide/info/alipay-vs-wechat-pay.html
+    title: "Alipay vs WeChat Pay for foreign tourists — Trip.com guide (2026-10-10)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai — Wikipedia (climate table, Xujiahui 1991–2020: December mean 5.3–11.3 °C)"
+    checked: 2026-11-23
+  - url: https://www.openstreetmap.org/?mlat=31.23093&mlon=121.43661#map=18/31.23093/121.43661
+    title: Kingmei Wuxi Noodles, 128 Yanping Road — OpenStreetMap (pin)
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status: icon on Michelin's page; its full description read in Chrome with the cookie banner dismissed (2026-11-23). Prices from one Ctrip review of 2 June 2024, nothing newer; no price for soup noodles or soup wontons. Hours only from Trip.com (read in Chrome; link checker blocked). No source on an English menu or which apps the QR ordering uses. Metro distance is my straight-line measure."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: wuxi-ribs
+    caption: "Wuxi soy-braised ribs at Lugaojian in Wuxi; no free photo of Jingmei itself"
+    hook: Wuxi's sweet, sticky braised ribs on a bowl of scallion-oil noodles, at a stall Michelin calls unstuffy.
+  - type: quick_facts
+    time_needed: 45 min–1 h
+    best_time: Before noon or after 13:30
+    extra:
+      - { label: Order, value: Scan the table QR code, detail: "\"自助扫码点单\": self-service, per 2024 reviews" }
+      - { label: Taste, value: Sweet, detail: "Wuxi cooking leans sweet (Rachel Gouk)" }
+      - { label: Solo?, value: Yes, detail: "Small room, shared tables, fast turnover" }
+  - type: highlights
+    items:
+      - title: The rib noodles
+        text: "Michelin's must-try: **Wuxi pork ribs braised in soy paste**, falling off the bone, on noodle soup or scallion-oil noodles. ¥42 in a 2024 review."
+      - title: Three-white wontons
+        text: "Michelin: big wontons filled with **white fish, white shrimp and whitebait**, with Sichuan pepper in the dip. ¥39 for the dressed version."
+      - title: Wuxi xiaolongbao
+        text: "Michelin says the xiaolongbao are worth the wait. **Four for ¥14**, so add them to any bowl."
+      - title: Near the Jing'an hostels
+        text: "About 850 m from Desti Youth Hostel and 550 m from Changping Road station on Line 7."
+  - type: prose
+    title: Wuxi on a Jing'an back street
+    text: |-
+      Jingmei's menu centres on Wuxi-style pork ribs braised in soy paste. Michelin calls this an "unstuffy stall" serving Wuxi dishes and dim sum as well as noodles, and says the ribs are "loaded in flavour".
+
+      Rachel Gouk's guide says the Yanping Road room is "small and a little cramped but brimming with character", and that the food runs sweet. Ctrip reviewers in 2024 still found a queue at lunch. They also said tables turn over fast and people share them. Be warned that the few Ctrip and Trip.com ratings are low (2.0–2.3 out of 5), and one reviewer called the take-a-number system chaotic.
+  - type: quote
+    variant: vibe
+    text: Three ribs, a tangle of scallion-oil noodles, and a stranger's elbow at your table.
+  - type: cost_breakdown
+    items:
+      - { label: "Wuxi braised rib noodles, dry with scallion oil", local: 42, brl: 37.35 }
+      - { label: "Wuxi xiaolongbao (4)", local: 14, brl: 12.45 }
+      - { label: "Three-white wontons, dressed", local: 39, brl: 34.68, optional: true }
+    note: "Prices from a 2 June 2024 Ctrip review."
+  - type: menu
+    items:
+      - name: Wuxi braised rib noodles (dry, scallion oil)
+        name_local: 特色无锡酱排骨拌面
+        price_local: 42
+        price_brl: 37.35
+        note: "Three ribs on the 2024 reviewer's bowl. Also comes as soup noodles (price not found)."
+        tag: must-try
+      - name: Three-white wontons, dressed
+        name_local: 太湖三白拌馄饨
+        price_local: 39
+        price_brl: 34.68
+        note: White fish, white shrimp, whitebait, per Michelin. Soup version's price not found.
+        tag: signature
+      - name: Wuxi xiaolongbao (4)
+        name_local: 无锡小笼包
+        price_local: 14
+        price_brl: 12.45
+        note: Made to order; Michelin says worth the wait.
+        tag: cheap
+      - name: Yulan cake
+        name_local: 玉兰饼
+        note: Dim sum Michelin says is worth the wait; price not found.
+    note: "Prices from a June 2024 Ctrip review. Show the Chinese names if the QR menu has no English."
+  - type: map
+    note: "From Changping Road station (Line 7), walk south about 550 m to Yanping Road."
+  - type: tips
+    variant: insider
+    items:
+      - "2024 Ctrip reviewers found a queue at lunch, so **arrive early**."
+      - "Pick the dry scallion-oil version (拌面) of the rib noodles: that's the bowl the 2024 reviewers priced and praised."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Ordering is by QR code at the table. Restaurant QR codes often need **WeChat**, and some reject foreign cards (Trip.com, Oct 2026). Set up WeChat Pay and Alipay with your card before you arrive, and ask at the counter if the code fails."
+      - "If you don't like sweet food, Wuxi cooking may not suit you. Rachel Gouk says the dishes \"tend to be on the sweet side\"."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "December averages: cool, damp, often grey"
+    note: "Any queue is on the pavement; a hot bowl of noodle soup fits a grey December day."
+    wear: Warm jacket
+  - type: pairs_well
+    items:
+      - { id: desti-youth-hostel-jing-an, note: "About 850 m away, in Jing'an" }
+      - { id: gong-de-lin-vegetarian, note: "Another Bib, 2.6 km east on Nanjing West Road" }
+      - { id: huxi-laolongtang-scallion-noodles, note: "Compare with Shanghai's own ¥7 scallion noodles" }

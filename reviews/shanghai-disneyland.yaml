@@ -1,0 +1,30 @@
+# Independent review of shanghai-disneyland. Written by `./atr review`; do not edit by hand.
+id: shanghai-disneyland
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 477bbfefa13a34e39970e9b8ea95e33d993854cd1dd316d2f760fa09caa04ec7
+facts:
+  supported: 7
+  unsupported: 2
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[5].text
+    problem: The page does not say that the ¥88 coupon has to be claimed in the park. The official page says guests must bind their park ticket after entering, by scanning the QR code on the back of the ticket in the official app (Me → Scan) or in WeChat. Without that step there is no coupon.
+    evidence: https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-china-international-import-expo-ticket/ThemePark/booth?groupID=ticket-shdr-china-international-import-expo-ticket&categoryId=ThemePark — "guests must bind their park ticket after they have entered the park … scan the QR Code on the back of their ticket to get the coupon"
+    fix: "Add one clause to the dinner-coupon ticket text or the day-0 book_ahead step: after entering, scan the ticket QR in the app (Me → Scan) to get the coupon."
+resolved:
+  - field: hours.summary
+    problem: The page says late-Nov to 5 Dec hours are 08:30–20:30 on Mon–Thu and 21:30 only on Fri–Sun. The official calendar for Monday 23 Nov 2026 shows the park open until 21:30, with ILLUMINATE! at 21:15. The 'earlier-closing' pattern repeated in tips[0].items[4] (20:30 on 1 Dec) therefore cannot be trusted either.
+    evidence: The Mon–Thu/Fri–Sun pattern is gone. On https://www.shanghaidisneyresort.com/en/park-calendar/ (rendered 23 Nov) 23 Nov reads "8:30 to 21:30" with ILLUMINATE! at 21:15, 29 Nov reads "8:30 to 21:30" and 30 Nov reads "8:30 to 20:30". This matches the new hours.summary. The 1 Dec / 20:30 claim was removed from tips[0]. The calendar would not render 1–5 Dec, so that part was not re-read.
+  - field: blocks[6].items
+    problem: The official store sells a '1-Day Ticket with [Free] ¥88 Combo Dinner Coupon', starting from ¥475, the same price as the plain ticket. The page never mentions it, but budgets about ¥100 for a meal on top of the ¥475 ticket.
+    evidence: 'The page now names the ¥475 ticket with the free ¥88 dinner coupon as the pick, with its terms, next to the plain ¥475 ticket and the ¥425 Early Bird. Official product page: "can be used to purchase a combo meal after 16:00", "cannot be transferred, cancelled or refunded", "can only be exchanged twice … 48 hours prior", "Validity Period From October 1, 2026 through January 3, 2027", "Starting from ¥475.00".'
+  - field: blocks[7].text
+    problem: "'Shanghai is the cheapest Disney day you will find on this trip' is not backed by any listed source. Tokyo's 1-Day Passport starts around ¥7,900 JPY (from memory, not checked: the Tokyo Disney Resort site timed out), which may be cheaper than ¥475 CNY."
+    evidence: The 'cheapest Disney day' comparison was removed from blocks[7].text. The new line ('only park with this TRON's original and this Pirates ride') rests on the listed Wikipedia sources.
+rereview_of: 51960b4a722c7594eab7941f5776fa4f4d9e7eb3de3d8b15b4b488e24f69e76d
+summary: "All three earlier findings are fixed: hours match the official calendar on 23, 29 and 30 Nov; the ¥88 dinner-coupon ticket is named with terms that match the official page; the unsupported price comparison is gone. Unsupported because the date pickers would not render: the 1–5 Dec hours and the coupon ticket's 7 Dec price (the page shows \"starting from ¥475\"). One nit: say the coupon is claimed in the app after entry. Desktop dark shot did not run (page not built); phone light slices looked correct."
+model: claude-opus-5-5
+cost_usd: 1.169

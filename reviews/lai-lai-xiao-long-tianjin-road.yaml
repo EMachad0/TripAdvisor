@@ -1,0 +1,29 @@
+# Independent review of lai-lai-xiao-long-tianjin-road. Written by `./atr review`; do not edit by hand.
+id: lai-lai-xiao-long-tianjin-road
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: dc9cb690538cc183392efbdd1e6d98fe938db443569d011893aeaec034ccdaee
+facts:
+  supported: 14
+  unsupported: 3
+  contradicted: 0
+issues:
+  - severity: nit
+    field: why
+    problem: The `why` calls the ¥33 basket "pork xiaolongbao", but the source item is pork with matsutake (松茸鮮肉小籠). The Trip.com review the page quotes says baskets start at ¥28, so a cheaper plain-pork basket probably exists and is the real cheapest way in.
+    evidence: 'https://www.trip.com/restaurant/china/shanghai/detail/qiao-ai-lai-lai-xiao-long-15768041/ — menu data "Matsutake Mushroom and Pork Soup Dumplings … price 4.58 USD"; review: "Prices for xiaolongbao 4-8 pieces range from 28 yuan to 158 yuan"'
+    fix: Say "pork-and-matsutake xiaolongbao ¥33" in `why`, and note that smaller or plain-pork baskets may start around ¥28.
+  - severity: nit
+    field: best_time
+    problem: The two sources disagree on opening time (09:00 vs 08:00 UTC+8) and on closing (21:00 vs 20:00), so "Right at opening" doesn't give the traveler a clock time.
+    evidence: https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260316/00b0c6d1698d406c8d532a6e169e1a1e.html — "8 am to 2 pm, 3 pm to 8 pm"; Trip.com — "09:00-14:30, 15:30-21:00"
+    fix: Advise arriving around 09:00 (UTC+8), and for dinner coming before 20:00 (UTC+8), which works under either set of hours.
+  - severity: nit
+    field: blocks[7].items[2]
+    problem: Shanghai Daily says the queue persists despite scaffolding. It does not say the scaffolding slows the queue. The article (dated Oct 2025, photos 2026-03) may also be out of date by December.
+    evidence: https://www.meet-in-shanghai.net/en/news/global-tourists-follow-ai-social-media-to-shanghais-neighborhood-dumpling-shops-378047 — "despite ongoing renovations and scaffolding outside"; "A fourth location is scheduled to open on Tianjin Road in May on the opposite side"
+    fix: Reword to "spring 2026 reports mention scaffolding outside and a new branch planned across the road".
+summary: "The facts the traveler will act on check out: the address (506 Tianjin Road), the Bib Gourmand listing (city guide: 2024 and 2025), both sets of hours with their midday break, all four menu prices (Trip.com USD data converts to ¥33/13/78/42), the 203 m to Dayin Hostel, and the queue, size and foreign-diner details from Shanghai Daily. I couldn't verify the Michelin description text: the site blocks bots and only showed a truncated preview. I didn't open the weather and payment sources. The rest is wording polish, and nothing blocks the page."
+model: claude-opus-5-5
+cost_usd: 0.992
