@@ -1,0 +1,174 @@
+id: mak-man-kee
+name: "Mak Man Kee: Jordan Wonton Noodles"
+short_name: Mak Man Kee
+name_local: 麥文記麵家
+name_romanized: Mak6 Man4 Gei3 Min6 Gaa1
+country: hong-kong
+city: hong-kong
+area: Kowloon · Jordan
+category: food
+fame: popular
+tags: [wonton-noodles, michelin-listed, bib-gourmand, cheap-eats, late-night, queue]
+kind: Eat
+why: "Shrimp wontons and house-made egg noodles for HK$46 at a Bib Gourmand shop that started as a Jordan street stall and never opened a branch."
+
+cost:
+  local: 73
+  currency: HKD
+  brl: 55.3
+  note: "Wonton noodles in soup (HK$46) plus a plate of greens (HK$27), from the shop's own menu."
+fx: { rate: 0.7575, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min
+best_time: "Fri Feb 5 evening or Tue Feb 9 (shut Feb 6–8)"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 12:00–00:30 (UTC+8)"
+  closed: "Lunar New Year days 1–3 (Feb 6–8, 2027), Dragon Boat and Mid-Autumn"
+  winter: "The shop's own site lists its closing days as the 1st, 2nd and 3rd days of the Lunar New Year. In 2027 those are **Sat Feb 6, Sun Feb 7 and Mon Feb 8**. It should be open Fri Feb 5 (New Year's Eve) and Tue Feb 9, but I found no notice of shorter hours on the eve: if you go that night, go early. No 2027 notice yet."
+
+location:
+  address: "G/F, 51 Parkes Street, Jordan, Kowloon, Hong Kong"
+  address_local: 九龍佐敦白加士街51號地下
+  lat: 22.30468
+  lng: 114.1706
+  approximate: true
+  nearest_transit: "Jordan (Tsuen Wan Line), Exit C2"
+
+sources:
+  - url: https://guide.michelin.com/hk/en/hong-kong-region/hong-kong/restaurant/mak-man-kee
+    title: "Mak Man Kee — MICHELIN Guide Hong Kong (Bib Gourmand icon, 51 Parkes Street, $ price band, \"Worth Queueing For\")"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/hk/en/hong-kong-region/hong-kong/restaurants/bib-gourmand
+    title: "Hong Kong Bib Gourmand restaurants — MICHELIN Guide (Mak Man Kee listed, \"$ · Noodles\")"
+    checked: 2026-11-23
+  - url: https://www.mmk.hk/contact-mmk
+    title: "聯絡麥文記 — Mak Man Kee official site (address, Jordan Exit C2, 12:00–00:30, closed LNY days 1–3, Dragon Boat, Mid-Autumn)"
+    checked: 2026-11-23
+  - url: https://www.mmk.hk/menu-mmk
+    title: "麥文記主菜 — Mak Man Kee official menu (picture menu with HK$ prices; mentions Bib Gourmand 2018–2024)"
+    checked: 2026-11-23
+  - url: https://www.mmk.hk/about-mmk
+    title: "關於麥文記 — Mak Man Kee official site (history, one shrimp per wonton, noodles made in-house, soup base)"
+    checked: 2026-11-23
+  - url: https://www.trip.com/moments/theme/poi-mak-man-kee-noodle-shop-11741109-guides-993135/
+    title: "Mak Man Kee Noodle Shop — Trip.com Moments guides (updated Nov 2026: HK$46 wonton noodles, cash only, shared tables, short waits)"
+    checked: 2026-11-23
+  - url: "https://www.openstreetmap.org/?mlat=22.30468&mlon=114.1706#map=18/22.30468/114.1706"
+    title: "Parkes Street at Jordan Road — OpenStreetMap (pin on the block beside Australia Dairy Company, 47 Parkes St)"
+    checked: 2026-11-23
+  - url: https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2027e.txt
+    title: "Gregorian-Lunar Calendar 2027 — Hong Kong Observatory (1st lunar month starts Sat Feb 6)"
+    checked: 2026-11-23
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Climatological normals 1991–2020 — Hong Kong Observatory (February 15.3–19.4 °C, 38.9 mm)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib: HK Bib list and restaurant page (Bib icon) on guide.michelin.com, rendered 2026-11-23. Prices from the shop's undated menu (mentions Bib 2018–2024); Trip.com posts (opened by web fetch, bot-walled for the link checker) give HK$45–46. Cash only rests on those posts; Octopus unconfirmed. LNY closure is the shop's standing rule; no 2027 notice or eve hours found."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: parkes-street
+    caption: "Parkes Street, Jordan (2023): no free photo of the noodle shop itself"
+    hook: One shrimp in every wonton and noodles made in-house, served at the same Parkes Street shop for over sixty years.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: Fri Feb 5 evening or Tue Feb 9
+    extra:
+      - { label: Pay with, value: Bring HK$ cash, detail: "Trip.com traveler posts say cash only; not confirmed by the shop" }
+      - { label: Solo diner, value: Easy, detail: "Small shared tables; one bowl is a normal order" }
+      - { label: LNY closure, value: Feb 6–8 shut, detail: "Days 1–3 of the Lunar New Year, per the shop" }
+  - type: highlights
+    items:
+      - title: The Bib Gourmand bowl
+        text: "Michelin lists Mak Man Kee as a Bib Gourmand and tags it **Worth Queueing For**. The basic bowl is HK$46 (about R$35)."
+      - title: One shrimp per wonton
+        text: "The shop says every wonton holds a whole shrimp. The broth is made from dried flounder, pork bones and luo han guo."
+      - title: Only one shop, anywhere
+        text: "It started as a lane-side stall, moved into 51 Parkes Street, and never opened a branch. The second generation of the Mak family runs it now."
+      - title: Open until 00:30
+        text: "Daily from 12:00 to 00:30 (UTC+8). That fits a late arrival from the airport, or a last meal before a midnight flight."
+  - type: prose
+    title: Plan around the New Year
+    text: |-
+      Mak Man Kee closes for the **first three days of the Lunar New Year**, as its website states. In 2027 that is Saturday Feb 6 to Monday Feb 8, three of your four full days in Hong Kong.
+
+      That leaves two chances. On **Fri Feb 5**, New Year's Eve, you land at 17:15 (UTC+8). A bowl here before the Victoria Park fair works, as long as the shop keeps normal hours that night (I found no notice either way). On **Tue Feb 9**, the 4th day, it should be open all day, and your flight leaves at 23:55.
+  - type: gallery
+    images:
+      - { file: neon-signs, caption: "Mak Man Kee's neon sign above Parkes Street, next to Australia Dairy Company (2011)", focus: top }
+    feature: false
+  - type: quote
+    variant: vibe
+    text: Egg noodles, a ladle of clear broth, shrimp wontons hiding underneath.
+  - type: cost_breakdown
+    items:
+      - { label: "Wonton noodles in soup (上湯雲吞麵)", local: 46, brl: 34.85 }
+      - { label: "Plate of seasonal greens", local: 27, brl: 20.45 }
+      - { label: "Soft drink", local: 14, brl: 10.61, optional: true }
+  - type: menu
+    items:
+      - name: Wonton noodles in soup
+        name_local: 上湯雲吞麵
+        price_local: 46
+        price_brl: 34.85
+        note: The classic. Shrimp wontons and thin egg noodles in clear broth.
+        tag: must-try
+      - name: Wonton dry noodles
+        name_local: 雲吞撈麵
+        price_local: 51
+        price_brl: 38.63
+        note: The same wontons, noodles tossed dry, broth on the side.
+      - name: Noodles with pig's knuckle in red bean curd
+        name_local: 南乳豬手麵
+        price_local: 48
+        price_brl: 36.36
+        note: Pig's knuckle braised in fermented red bean curd, in soup.
+        tag: signature
+      - name: Beef brisket noodles in soup
+        name_local: 柱候牛腩麵
+        price_local: 48
+        price_brl: 36.36
+        note: Brisket braised in chu hou sauce.
+      - name: Dry noodles with shrimp roe
+        name_local: 蝦子撈麵
+        price_local: 55
+        price_brl: 41.66
+        note: Dry noodles with dried shrimp roe.
+      - name: Shrimp wontons in soup, no noodles
+        name_local: 首創全蝦雲吞
+        price_local: 51
+        price_brl: 38.63
+        note: A bowl of wontons only, to add on if the noodle bowl is too small.
+      - name: Seasonal greens
+        price_local: 27
+        price_brl: 20.45
+        note: "Gai lan, choy sum or tender scallion. Oyster sauce is HK$1 extra."
+        tag: veg
+    note: "Prices from the shop's own picture menu (English, Japanese and Thai on it too)."
+  - type: map
+    note: "Take Jordan MTR **Exit C2** (as the shop's site says); then walk to 51 Parkes Street."
+  - type: tips
+    variant: insider
+    items:
+      - "Trip.com posts say queues are real at lunch and suggest coming after 21:00 (UTC+8); others waited 5–10 minutes."
+      - "Hungry? Add the knuckle or a plate of greens rather than a second noodle bowl."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Bring **cash** in Hong Kong dollars: traveler posts on Trip.com say it is cash only. Neither the shop nor Michelin lists payment methods."
+      - "Don't plan it for **Feb 6, 7 or 8**: the shop's own site lists those New Year days as closed."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: "Mild and humid; about 8 days with some rain in an average February"
+    note: "February averages 15.3–19.4 °C. A hot bowl of broth feels right, and the queue is outdoors on the pavement."
+    wear: Light jacket
+  - type: pairs_well
+    items:
+      - { id: hk-lny-eve-victoria-park-fair, note: "Fri Feb 5: a bowl here first, then the all-night fair" }
+      - { id: harbour-city-ocean-terminal-deck, note: "A short MTR hop to Tsim Sha Tsui for the harbour view after" }

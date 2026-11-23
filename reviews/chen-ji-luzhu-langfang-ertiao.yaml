@@ -1,0 +1,16 @@
+# Independent review of chen-ji-luzhu-langfang-ertiao. Written by `./atr review`; do not edit by hand.
+id: chen-ji-luzhu-langfang-ertiao
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: f0c8e1eed0efe713ddbe7810260e1af2e14d2d5b12c6f898e73fb0a8073570db
+facts:
+  supported: 2
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: d1f9c6c359fe2f38a140614634b78e79075312e71f833327af6e888ff2e9a3dc
+summary: 'The earlier review had no blockers or shoulds. Both factual changes in the diff check out. The ¥36 figure in cost.note matches Ctrip ("人均¥36小吃"). For hours.summary, Ctrip shows "明日09:00-20:00" and SMZDM (2021) says "营业时间：09：00-20：00"; neither source lists closed days, so the new "closed days not confirmed" wording is accurate. The new quote in the ViaMichelin source title could not be checked: ViaMichelin returns 403 and the Michelin Guide page returned an empty body. It is only a label on a source and repeats text the first review accepted, so no new issue is raised.'
+model: claude-opus-5-5
+cost_usd: 0.363

@@ -1,0 +1,22 @@
+# Independent review of fangzhuanchang-69-zhajiangmian. Written by `./atr review`; do not edit by hand.
+id: fangzhuanchang-69-zhajiangmian
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 1252fcf1adb76a0182ee6b473afe03beb7f9d046057ebe23fa76dc8f70bc6a8e
+facts:
+  supported: 6
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.summary
+    problem: The page says the shop is open daily 10:00–19:00, but the only source is Ctrip, and Ctrip shows a single day's hours ('明日10:00-19:00') with no weekly schedule or closed day. Nothing supports 'daily'.
+    evidence: hours.summary now reads '10:00–19:00 (UTC+8) per Ctrip; closed days not confirmed'. This matches https://gs.ctrip.com/html5/you/foods/fooddetail/1/13352507.html, which shows only '明日10:00-19:00' and no weekly schedule. 'Daily' has been removed.
+  - field: fame
+    problem: "`hidden` does not fit a Bib Gourmand shop that has held the award for six years, has 40+ branches in Beijing, has 1,208 favourites on Michelin's page and sits on Nanluoguxiang, Beijing's busiest tourist hutong. The page also describes queues."
+    evidence: fame is now `popular`. Under docs/CURATOR-GUIDE.md that tier means 'well known to anyone who researched the city' and adds no 'Hidden gem' chip, which fits a six-year Bib Gourmand shop with 40+ branches on Nanluoguxiang.
+rereview_of: aec55e9ba848bd06c3bd214fd4e560925b84e366ad68569f6029935319efe480
+summary: "Both earlier shoulds are fixed. The hours now cite Ctrip only and leave closed days unconfirmed, and fame is `popular`. The new origin text matches Visit Beijing: a stall at the gate of No. 69 with tables in the lane, moved to No. 1 in 2017. Dec 13–16, 2026 does run Sunday to Wednesday, and Ctrip reviews mention queues (BH Johnson: '排起长队等待'). The only new fact no source states is 'wheat noodles', and that is a generic description of the dish. Nothing blocks this page."
+model: claude-opus-5-5
+cost_usd: 0.373

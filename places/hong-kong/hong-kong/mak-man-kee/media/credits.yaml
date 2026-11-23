@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: parkes-street
+  title: File:HK Jordan Parkes Street Nanking Street April 2023 Px3 05.jpg
+  author: TOAUDBPSUKE Russemal
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:HK_Jordan_Parkes_Street_Nanking_Street_April_2023_Px3_05.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/23/HK_Jordan_Parkes_Street_Nanking_Street_April_2023_Px3_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: HK Jordan Parkes Street Nanking Street in April 2023
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-23
+  origin: commons
+- file: neon-signs
+  title: File:澳洲牛奶公司 麥文記麵家 霓虹招牌, 2011.jpg
+  author: Kiwi He
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E6%BE%B3%E6%B4%B2%E7%89%9B%E5%A5%B6%E5%85%AC%E5%8F%B8_%E9%BA%A5%E6%96%87%E8%A8%98%E9%BA%B5%E5%AE%B6_%E9%9C%93%E8%99%B9%E6%8B%9B%E7%89%8C,_2011.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/38/%E6%BE%B3%E6%B4%B2%E7%89%9B%E5%A5%B6%E5%85%AC%E5%8F%B8_%E9%BA%A5%E6%96%87%E8%A8%98%E9%BA%B5%E5%AE%B6_%E9%9C%93%E8%99%B9%E6%8B%9B%E7%89%8C%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Neon signs of Australia Dairy Company and Mak Man Kee Noodle Shop in Parkes Street, Jordan
+  width: 2736
+  height: 3648
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-23
+  origin: commons

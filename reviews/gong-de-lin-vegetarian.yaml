@@ -1,0 +1,24 @@
+# Independent review of gong-de-lin-vegetarian. Written by `./atr review`; do not edit by hand.
+id: gong-de-lin-vegetarian
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 10e46eb64a2239dae7ec69192d88314b3dda2611188559e8bc786942e331220d
+facts:
+  supported: 12
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[9].items[1]
+    problem: The page credits the phone number +86 21 6327 0218 to Michelin. The rendered Michelin page does not show it; it only says "Please contact the restaurant directly". The number does appear in Trip.com and Ctrip's page data.
+    evidence: https://www.trip.com/restaurant/china/shanghai/detail/shanghai-gongdelin-11179114/ — "telephone":"+862163270218"; https://gs.ctrip.com/html5/you/foods/shanghai2/5030113.html — "BookTelList":["+862163270218"]
+    fix: Credit the phone number to Trip.com/Ctrip, not Michelin.
+resolved:
+  - field: cost.local
+    problem: The ¥56 meal cost and all six menu prices (¥30 noodles, ¥26 ribs, ¥46 eel, ¥25 duck, ¥48 crab roe, ¥24 gluten) come only from undated Trip.com 'menu data'. The rendered Trip.com page shows no prices at all, only four 'Popular dishes' and a '$' tier. Ctrip, the only source with a number I could check, gives ¥73 per person.
+    evidence: "The Trip.com page data (https://www.trip.com/restaurant/china/shanghai/detail/shanghai-gongdelin-11179114/) has a structured menu in USD: 羅漢上素麵 4.17, 糖醋排條 3.61, 香油鱔絲 6.39, 功德素鴨 3.47, 功德素蟹粉 6.67, 四喜鮮烤麩 3.33. At about 7.2 CNY/USD these come to ¥30/26/46/25/48/24, which matches every price on the page. The source title now says where to find them. The page also says the prices are undated, and cost.note gives Ctrip's 人均¥73 (verified at https://gs.ctrip.com/html5/you/foods/shanghai2/5030113.html)."
+rereview_of: dbb5178ea896f7558674b3020906181cb68b0a629a47edca98099cee4b1c135f
+summary: "The earlier price finding is resolved: Trip.com's menu data, in USD, converts to every RMB price on the page, and the page already marks those prices as undated next to Ctrip's ¥73 average. The new facts check out: the lunar 1st/15th crowding comes from a Trip.com review, the phone number is on Trip.com and Ctrip, and ViaMichelin's text says Bib Gourmand. `fame: popular` is plausible. Only a nit is left, the phone number credited to Michelin."
+model: claude-opus-5-5
+cost_usd: 0.52

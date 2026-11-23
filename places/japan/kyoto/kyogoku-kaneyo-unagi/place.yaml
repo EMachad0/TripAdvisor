@@ -1,0 +1,146 @@
+id: kyogoku-kaneyo-unagi
+name: "Kyogoku Kaneyo: kinshi-don"
+short_name: Kyogoku Kaneyo
+name_local: 京極かねよ
+name_romanized: Kyōgoku Kaneyo
+country: japan
+city: kyoto
+area: Nakagyo · Shinkyogoku
+category: food
+fame: popular
+tags: [unagi, eel, lunch, michelin-bib-gourmand, meiji-era, cards-ok]
+kind: Eat
+why: "Meiji-era eel house in the Shinkyogoku arcade, Michelin Bib: kinshi-don hides grilled eel under a Kyoto omelette. Weekday set with the small bowl: ¥2,400."
+
+cost:
+  local: 2400
+  currency: JPY
+  brl: 89.83
+  note: "Weekday short-break set with a small kinshi-don (official English menu; tax status not stated). Bowl alone ¥3,000"
+fx: { rate: 0.03743, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 1 h
+best_time: "Lunch, from 11:30 (UTC+9), Thu Feb 4"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Lunch 11:30–15:30 (last order 15:00), dinner 17:00–20:30 (last order 20:00), UTC+9"
+  closed: "Wednesdays"
+  winter: "In your Kyoto window it is closed Wed Feb 3. Open Tue Feb 2 for lunch; the shop's notice says Tuesday dinner resumed in July 2026, but its English booking page still says closed Tuesday evenings. It may also close for bad weather or repairs."
+
+location:
+  address: "456 Matsugae-cho, Rokkaku-dori Shinkyogoku Higashi-iru, Nakagyo-ku, Kyoto"
+  address_local: 京都府京都市中京区六角通新京極東入松ヶ枝町456
+  lat: 35.00759
+  lng: 135.76796
+  nearest_transit: "Kyoto Shiyakusho-mae (Tozai Line), about 5–7 min walk"
+  approximate: true
+
+sources:
+  - url: https://guide.michelin.com/en/kyoto-region/kyoto/restaurant/kyogoku-kaneyo
+    title: "Kyogoku Kaneyo — MICHELIN Guide (address, ¥ price band, 'Solo dining', seven generations)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/jp/kyoto-region/kyoto/restaurants/bib-gourmand/unagi-freshwater-eel
+    title: "MICHELIN Guide Kyoto-Osaka — Kyoto Bib Gourmand unagi list (current 2026 selection; Kyogoku Kaneyo listed)"
+    checked: 2026-11-23
+  - url: https://kyogoku-kaneyo.co.jp/english-menu/
+    title: "Kyogoku Kaneyo — official English menu (kinshi-don small ¥3,000, unagi-don small ¥3,200, sides, drinks)"
+    checked: 2026-11-23
+  - url: https://kyogoku-kaneyo.co.jp/shop/access/
+    title: "Kyogoku Kaneyo — official access page (address, lunch/dinner hours, closed Wednesdays)"
+    checked: 2026-11-23
+  - url: https://kyogoku-kaneyo.co.jp/en-booking/
+    title: "Kyogoku Kaneyo — English booking page (HOT PEPPER / AutoReserve / Tabelog, seat-only bookings)"
+    checked: 2026-11-23
+  - url: https://kyogoku-kaneyo.co.jp/
+    title: "Kyogoku Kaneyo — official site (founded in the Meiji era, kinshi-don, cancellation fees, Michelin 2026)"
+    checked: 2026-11-23
+  - url: "https://kyogoku-kaneyo.co.jp/%e5%ae%9a%e4%bc%91%e6%97%a5%e5%b0%8e%e5%85%a5%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
+    title: "Kyogoku Kaneyo — closing-days notice (Wednesdays; Tuesday dinner resumed from July 2026)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/kyoto/A2601/A260201/26001330/
+    title: "Kyogoku Kaneyo — Tabelog (cards and PayPay, 40 seats, overseas guests book via the website)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-ceremony-tokyo-kyoto-osaka-nara-2027-selection-save-the-date
+    title: "MICHELIN Guide — 2027 Tokyo, Kyoto-Osaka and Nara selections unveiled Feb 16, 2027"
+    checked: 2026-11-23
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=61&block_no=47759"
+    title: "JMA — climate normals 1991–2020, Kyoto (February: max 10.0 °C, min 1.6 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status from Michelin's Kyoto Bib unagi list (2026 guide). Prices from the official English menu, which doesn't say whether tax is included and shows no date. Payment methods are from Tabelog; the official site doesn't list them. Walk-in policy and queue length: not found. Tuesday-dinner status conflicts between two official pages."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: shinkyogoku-arcade
+    caption: "The Shinkyogoku arcade, where Kaneyo sits; not a photo of the shop"
+    hook: "Lift the yellow blanket of dashimaki omelette and the glazed eel is underneath."
+  - type: quick_facts
+    time_needed: 1 h
+    best_time: "Lunch from 11:30 (UTC+9)"
+    extra:
+      - { label: Order, value: Weekday short-break set, detail: "Small kinshi-don, eel-cucumber salad, pickles, soup: ¥2,400" }
+      - { label: Pay, value: Cards and PayPay, detail: "Visa, Master, JCB, Amex, Diners (Tabelog)" }
+  - type: highlights
+    items:
+      - title: The kinshi-don
+        text: "The shop's own description: an **unagi bowl topped with Kyoto-style dashimaki** omelette, one of its popular dishes."
+      - title: Bib Gourmand eel for ¥2,400
+        text: "On weekdays the **short-break set** brings a small kinshi-don with grilled eel and cucumber salad, pickles and soup, cheaper than the ¥3,000 bowl alone. Michelin lists the shop as Bib Gourmand, ¥ band, \"Solo dining\"."
+      - title: Meiji-era house
+        text: "Founded in the Meiji era; the official site points to a **Taisho-era interior** and the same taste for a hundred years. Michelin says seven generations."
+      - title: Right in the centre
+        text: "On Rokkaku-dōri at the heart of the Shinkyogoku arcade, an easy lunch between Kyoto sights."
+  - type: menu
+    items:
+      - name: Kinshi-don, small
+        name_local: きんし丼
+        price_local: 3000
+        price_brl: 112.29
+        note: "Medium ¥4,000, large ¥6,100"
+        tag: must-try
+      - name: Unagi-don, small
+        name_local: うなぎ丼
+        price_local: 3200
+        price_brl: 119.78
+      - name: Short-break set, clear soup (weekdays)
+        price_local: 2400
+        price_brl: 89.83
+        note: "Small kinshi-don, eel-cucumber vinegar salad, pickles, small clear soup. Miso version ¥2,400, sake ¥2,700"
+        tag: cheap
+      - name: Kimo-sui (soup)
+        price_local: 500
+        price_brl: 18.71
+      - name: Draft beer, small
+        price_local: 500
+        price_brl: 18.71
+        tag: drink
+    note: "Official English menu; tax status not stated."
+  - type: cost_breakdown
+    items:
+      - { label: "Short-break set with small kinshi-don (weekdays)", local: 2400, brl: 89.83 }
+      - { label: "Kimo-sui (soup)", local: 500, brl: 18.71, optional: true }
+  - type: map
+    note: "In the Shinkyogoku arcade at Rokkaku-dōri. Kyoto Shiyakusho-mae station (Tozai Line) is the closest."
+  - type: tips
+    variant: insider
+    items:
+      - "Booking is optional. The English booking page sends you to HOT PEPPER, AutoReserve or Tabelog and suggests booking **seat only** if unsure."
+      - "Seat-only bookings cancelled the same day cost ¥3,000 per person; the day before is free (official site)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Closed **Wednesdays**, which is Feb 3 in your Kyoto stay. Go Tue Feb 2 at lunch or Thu Feb 4."
+      - "The menu says nothing about tax, nor whether the weekday set is served at dinner. Ask, or call 075-221-0669."
+  - type: weather
+    temp_low_c: 2
+    temp_high_c: 10
+    conditions: "Cold: February averages 2–10 °C"
+    note: "Indoors, and the arcade is covered, so the walk there is sheltered too."
+    wear: Warm coat
+  - type: pairs_well
+    items:
+      - { id: kiyomizu-dera, note: "Lunch in central Kyoto, then east to the temple" }

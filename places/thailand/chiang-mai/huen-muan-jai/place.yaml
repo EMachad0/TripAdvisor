@@ -1,0 +1,161 @@
+id: huen-muan-jai
+name: "Huen Muan Jai: Lanna House Kitchen"
+short_name: Huen Muan Jai
+name_local: เฮือนม่วนใจ๋
+name_romanized: Huean Muan Chai
+country: thailand
+city: chiang-mai
+area: Chang Phueak
+category: food
+fame: popular
+tags: [northern-thai, sai-ua, khao-soi, lanna, bib-gourmand, michelin, walk-in]
+kind: Eat
+why: "Chiang Mai's Bib Gourmand northern kitchen in a wooden Lanna house: sai ua sausage ฿115, khao soi ฿90, chilli dips. Closed Wednesdays."
+cost:
+  local: 205
+  currency: THB
+  brl: 35.9
+  note: "Khao soi gai (฿90) plus sai ua (฿115), prices on Wongnai's menu tags. Sticky rice and drinks extra"
+fx: { rate: 0.1751, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45 min–1 h
+best_time: "Lunch at 11:00 UTC+7, when it opens"
+
+book_ahead:
+  required: recommended
+  lead_days: 0
+  lead_time: "Phone ahead, e.g. for the Sat Jan 2 arrival dinner"
+  method: phone
+  links:
+    - label: Call the restaurant
+      url: "tel:+6653404998"
+      note: "053-404-998 (Wongnai). A Mar 2026 review says walk-ins only"
+  notes: "Michelin says to contact the restaurant directly to book; a March 2026 Wongnai review says it takes walk-ins only. Calling settles it."
+
+hours:
+  summary: "11:00–15:00 and 17:00–21:00 UTC+7 (two sittings, per Time Out and a 2026 Wongnai review)"
+  closed: "Wednesdays (Wongnai; Time Out says open daily)"
+  winter: "No New Year closure found. On the trip it fits Sat Jan 2 (land 17:15 UTC+7, dinner until 21:00), Sun Jan 3 and the Mon–Tue lunches. Wed Jan 6 is closed. Wongnai reviewers mention queues at busy times."
+
+location:
+  address: "24 Soi Ratchaphruek, Ratchaphruek Road, Chang Phueak, Mueang Chiang Mai 50300"
+  address_local: "เฮือนม่วนใจ๋ 24 ซ.ราชพฤกษ์ ถ.ราชพฤกษ์ ต.ช้างเผือก อ.เมือง จ.เชียงใหม่ 50300"
+  lat: 18.79982
+  lng: 98.97547
+  nearest_transit: "No metro: Grab or a red songthaew, about 1.2 km north-west of Chang Phueak Gate"
+
+sources:
+  - url: https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurants/bib-gourmand
+    title: "Chiang Mai Bib Gourmand restaurants: MICHELIN Guide Thailand (lists Huen Muan Jai)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/huen-muan-jai
+    title: "Huen Muan Jai: MICHELIN Guide (address, ฿฿, Northern Thai, Lanna-style wooden house)"
+    checked: 2026-11-23
+  - url: https://www.wongnai.com/restaurants/huenmuanjai
+    title: "เฮือนม่วนใจ๋: Wongnai (closed Wed; dish prices; Mar 2026 review: walk-ins only, two sittings)"
+    checked: 2026-11-23
+  - url: https://www.timeout.com/chiang-mai/restaurants/huen-muan-jai
+    title: "Huen Muan Jai: Time Out Chiang Mai (20 Dec 2024; chef Charan Thipeung, sai oua, 11:00–15:00 and 17:00–21:00)"
+    checked: 2026-11-23
+  - url: https://silverkris.singaporeair.com/guide/thailand/cnx/eat-chiang-mai/huen-muan-jai/
+    title: "Huen Muan Jai: SilverKris (chilli dips with sai oua, gaeng hang lae)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Chiang_Mai
+    title: "Chiang Mai: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib Gourmand confirmed on Michelin's current Chiang Mai list. Prices are Wongnai's member-tagged menu prices, not an official menu; sticky rice price not found. Hours: Wongnai lists 11:00–21:00 except Wed; Time Out and a Mar 2026 review describe a lunch and a dinner sitting. Wongnai lists credit cards; carry some cash. Distance to the gate measured on the map."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    hook: Grilled chilli dips, herb-packed sausage and pork-belly curry, served fast in a wooden Lanna house.
+  - type: quick_facts
+    time_needed: 45 min–1 h
+    best_time: "11:00 UTC+7, at opening"
+    extra:
+      - { label: Tables, value: Mostly walk-in, detail: "Michelin says phone; number from Wongnai" }
+      - { label: Solo diner, value: "Yes, order 2 dishes", detail: "Sharing plates; khao soi works as a solo main" }
+      - { label: Before a 19:00 shift?, value: "Yes, at lunch", detail: "Lunch sitting 11:00–15:00 UTC+7" }
+  - type: highlights
+    items:
+      - title: The northern classics on one menu
+        text: "**Sai ua** (herb sausage), **nam prik num** (green chilli dip), **gaeng hang lay** (pork-belly curry) and khao soi on one menu."
+      - title: A TV chef's kitchen
+        text: "Time Out says it is run by former TV chef **Charan Thipeung** and has served northern food for over a decade, in a traditional **Lanna-style** wooden house."
+      - title: Bib Gourmand, still
+        text: "On Michelin's **Bib Gourmand** list for Chiang Mai in the current guide, at the ฿฿ level."
+      - title: Fast once you sit
+        text: "A March 2026 Wongnai reviewer says the food comes out very quickly. The wait, if any, is for a table: a 2026 reviewer says it is **walk-in only**, though Michelin says to phone the restaurant."
+  - type: prose
+    title: Eating it alone
+    text: |-
+      Much of this menu is plates to share, which is awkward at a table for one. Keep it to two plates: a **khao soi gai** (฿90) as your main and a **sai ua** (฿115) to pick at, with sticky rice. That is about ฿205.
+
+      Groups order the **ออเดิร์ฟเมือง** (northern hors d'oeuvres, ฿305), a platter of dips, sausage, pork crackling and curry. Wongnai reviewers name it the dish to get, but it is a lot for one.
+  - type: quote
+    variant: vibe
+    text: Wood floors, a fan overhead, and a basket of sticky rice to tear by hand.
+  - type: cost_breakdown
+    items:
+      - { label: Khao soi gai, local: 90, brl: 15.76 }
+      - { label: Sai ua (northern sausage), local: 115, brl: 20.14 }
+      - { label: Nam prik num (green chilli dip), local: 115, brl: 20.14, optional: true }
+  - type: menu
+    items:
+      - name: Sai ua (northern sausage)
+        name_local: ไส้อั่ว
+        price_local: 115
+        price_brl: 20.14
+        note: "Herb-laced pork sausage; Time Out's top pick here."
+        tag: must-try
+      - name: Khao soi gai
+        name_local: ข้าวซอยไก่
+        price_local: 90
+        price_brl: 15.76
+        note: "Curry noodle soup with chicken: the easy solo main."
+        tag: signature
+      - name: Nam prik num
+        name_local: น้ำพริกหนุ่ม
+        price_local: 115
+        price_brl: 20.14
+        note: "Roasted green chilli dip with vegetables."
+      - name: Gaeng hang lay
+        name_local: แกงฮังเล
+        price_local: 165
+        price_brl: 28.89
+        note: "Pork-belly curry with ginger (SilverKris)."
+      - name: Khanom jeen nam ngiao
+        name_local: ขนมจีนน้ำเงี้ยว
+        price_local: 75
+        price_brl: 13.13
+        note: "The cheapest dish on the tagged menu."
+        tag: cheap
+      - name: Northern hors d'oeuvres platter
+        name_local: ออเดิร์ฟเมือง
+        price_local: 305
+        price_brl: 53.41
+        note: "Dips, sausage, crackling and curry. Best for 2+."
+    note: "Prices are those tagged on Wongnai's menu (2026); there may be small changes."
+  - type: map
+    note: "On Soi Ratchaphruek off Ratchaphruek Road, north-west of the old city; Wongnai reviewers note parking opposite. Take a Grab."
+  - type: tips
+    variant: insider
+    items:
+      - "Arrive at **11:00 UTC+7** for lunch or **17:00 UTC+7** for dinner: it runs two sittings, and a March 2026 reviewer says it takes no bookings (Michelin says to phone)."
+      - "On Sat Jan 2 your flight lands at **17:15 UTC+7**; this is a good first dinner if you drop bags in time. It closes at 21:00 UTC+7, so arrive by about 20:00, and phone 053-404-998 to ask about a table."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Closed on Wednesdays** (Wongnai)."
+      - "Wongnai reviewers mention waiting for a table when it is busy. Come at opening."
+  - type: weather
+    temp_low_c: 16
+    temp_high_c: 30
+    conditions: Cool, dry season; sunny days, fresh evenings
+    note: "January averages 30 °C by day and 16 °C at night, with about one rainy day all month. A 2025 Wongnai review describes open-air seating with fans plus an air-conditioned room; outside, evenings can feel cool."
+    wear: A light layer for dinner
+  - type: pairs_well
+    items:
+      - { id: baan-nam-ngiew-wieng-kao, note: "The other Bib Gourmand noodle stop for a weekday lunch" }
+      - { id: skyline-jungle-luge, note: "Your must-do downhill carts; a separate half-day" }

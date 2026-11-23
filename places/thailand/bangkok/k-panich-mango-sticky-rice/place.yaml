@@ -1,0 +1,146 @@
+id: k-panich-mango-sticky-rice
+name: "K. Panich: Mango Sticky Rice since 1932"
+short_name: K. Panich
+name_local: ก.พานิช
+name_romanized: Kor Panich
+country: thailand
+city: bangkok
+area: Phra Nakhon · Giant Swing
+category: food
+fame: popular
+tags: [mango-sticky-rice, dessert, bib-gourmand, michelin, cheap-eats, takeaway, old-town]
+kind: Eat
+why: "Bangkok's benchmark mango sticky rice, a Bib Gourmand pick in a 1932 shophouse near the Giant Swing: ฿140 a box, eaten on a pavement stool."
+cost:
+  local: 140
+  currency: THB
+  brl: 24.51
+  note: "One mango sticky rice (Phuket101, Sep 2026). A Wongnai review paid ฿130 for the same box in May 2025"
+fx: { rate: 0.1751, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 15–30 min
+best_time: "Weekday early afternoon, 13:00 UTC+7"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "07:00–18:00 UTC+7; Wongnai has Fri closing at 17:00"
+  closed: "Sundays from July to December only (Wongnai)"
+  winter: "Wongnai: open every day from January to June, closed Sundays July–December (Phuket101's 'closed Sundays' is that rule). So the Bangkok weekdays (Jan 5/6–8) and Sat Jan 9 are open. No New Year closure found."
+
+location:
+  address: "431-433 Tanao Road, Sao Chingcha, Phra Nakhon, Bangkok 10200"
+  address_local: "ก.พานิช 431-433 ถนนตะนาว แขวงเสาชิงช้า เขตพระนคร กรุงเทพฯ 10200"
+  lat: 13.75208
+  lng: 100.49838
+  nearest_transit: "Sam Yot (MRT Blue Line), about 1 km walk"
+
+sources:
+  - url: https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurants/bib-gourmand
+    title: "Bangkok Bib Gourmand restaurants: MICHELIN Guide Thailand (lists K. Panich)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/k-panich
+    title: "K. Panich: MICHELIN Guide (address, ฿ price band, street food)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/th/en/article/michelin-guide-ceremony/bib-gourmand-thailand-2027
+    title: "26 New Bib Gourmands Join the MICHELIN Guide Thailand 2027 (3 Nov 2026; 151 Bib in total)"
+    checked: 2026-11-23
+  - url: https://www.phuket101.net/bangkok/k-panich-sticky-rice/
+    title: "K. Panich Sticky Rice: Phuket101 (updated 21 Sep 2026; ฿140, 07:00–18:00, closed Sundays, cash only, stools)"
+    checked: 2026-11-23
+  - url: https://www.wongnai.com/restaurants/5266Lq
+    title: "ก.พานิช ถนนตะนาว: Wongnai (hours, ฿130 set May 2025, ฿60 custard sticky rice, reviews to Jul 2026)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Kor_Panich
+    title: "Kor Panich: Wikipedia (founded 1932, Chiang Rai rice, Nam Dok Mai mangoes)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib Gourmand confirmed on Michelin's current Bangkok Bib list (2027 guide). Michelin's page no longer shows hours or payment. Phuket101 (Sep 2026) gives ฿140, 07:00–18:00, cash only. Wongnai: Mon–Thu 07:00–18:00, Fri to 17:00, open daily Jan–Jun and closed Sundays Jul–Dec; Saturday closing time not stated. Walking distance from Sam Yot is Phuket101's."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: tanao-road
+    caption: "Shophouses on Tanao Road, K. Panich's street; no free photo of the shop itself"
+    hook: Coconut-cream sticky rice, a sliced ripe mango and a sprinkle of crisp mung beans, on Tanao Road since 1932.
+  - type: quick_facts
+    time_needed: 15–30 min
+    best_time: "Weekday, 13:00 UTC+7"
+    extra:
+      - { label: Payment, value: Cash only, detail: "Per Phuket101, Sep 2026" }
+      - { label: Seating, value: A few stools, detail: "Mostly takeaway; stools on the pavement" }
+      - { label: Before a 19:00 shift?, value: "Yes", detail: "Closes 18:00 UTC+7 (17:00 on Fri per Wongnai)" }
+  - type: highlights
+    items:
+      - title: The reference version
+        text: "Founded in **1932** by Kab and Sarapee Chiabchalard on Tanao Road, per Wikipedia. Michelin keeps it on its **Bib Gourmand** list in the 2027 guide."
+      - title: Ingredients with an address
+        text: "Wikipedia says the sticky rice comes from **Chiang Rai**, the coconuts from Chumphon, and the mangoes are **Nam Dok Mai** and Ok Rong."
+      - title: A cheap Michelin dessert
+        text: "**฿140** (about R$25) for a box of mango sticky rice in Sep 2026. It is a snack stop, not a meal, so it fits between temples."
+      - title: Fits a work day
+        text: "It closes at 18:00 UTC+7, so it is a lunch or afternoon stop. Phuket101 found no crowd at 13:00 on a weekday, with people walking in all the time."
+  - type: prose
+    title: How it works
+    text: |-
+      K. Panich is a counter, not a restaurant. You point at what you want, pay cash and take a box. Phuket101 found a few wooden stools on the pavement for eating on the spot; most people take it away.
+
+      A Wongnai reviewer (May 2025) says foreign visitors can carry their box across the road and eat it at the noodle shop opposite. Sticky rice is also sold by the bag, so you can try the custard topping or the plain coconut rice for later.
+  - type: gallery
+    feature: false
+    images:
+      - file: plaque
+        caption: "The shop's plaque; its 07:00–19:00 hours are out of date (now 18:00 UTC+7, Fri 17:00)"
+        focus: center
+  - type: quote
+    variant: vibe
+    text: Warm rice, cold mango, and a pavement stool in the old town.
+  - type: cost_breakdown
+    items:
+      - { label: Mango sticky rice (one box), local: 140, brl: 24.51 }
+      - { label: Sticky rice with Thai custard (sangkhaya), local: 60, brl: 10.51, optional: true }
+  - type: menu
+    items:
+      - name: Mango sticky rice
+        name_local: ข้าวเหนียวมะม่วง
+        price_local: 140
+        price_brl: 24.51
+        note: "Sticky rice, coconut cream, mung beans and a ripe mango. ฿140 per Phuket101 (Sep 2026)."
+        tag: must-try
+      - name: Sticky rice with Thai custard
+        name_local: ข้าวเหนียวสังขยา
+        price_local: 60
+        price_brl: 10.51
+        note: "Smooth egg-and-coconut custard on the same rice (Wongnai review, 2026)."
+      - name: Sticky rice by the kilo (to take home)
+        price_local: 250
+        price_brl: 43.78
+        note: "From the sign over the counter (Phuket101). A Wongnai review paid ฿360 for three half-kilo bags (May 2025)."
+    note: "Cash only. Prices from Phuket101 (Sep 2026) and Wongnai reviews; they drift up a few baht a year."
+  - type: map
+    note: "On Tanao Road just before the Sao Ching Cha (Giant Swing) junction, opposite Soi Phraeng Phuthon (Wongnai). Phuket101 puts Sam Yot MRT about 1 km away and the Grand Palace about 10 minutes on foot."
+  - type: tips
+    variant: insider
+    items:
+      - "Pair it with a pad thai lunch at **Mae Thum Padthai Kheng**, also a Bib Gourmand pick and a few minutes away near City Hall."
+      - "Bring **small notes**: it is cash only."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Phuket101 says **closed Sundays**; per Wongnai that is the July–December rule, and January Sundays are open. Sun Jan 10 is your flight day anyway."
+      - "Friday closing may be **17:00 UTC+7** (Wongnai), an hour earlier than other days."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry season, warm and sunny
+    note: "January is dry season in Bangkok (about 2 rainy days, 23–33 °C). The pavement stools are in the open, so eat in the shade or take the box away."
+    wear: Light clothes; cover shoulders and knees if you go on to the temples
+  - type: pairs_well
+    items:
+      - { id: mae-thum-padthai-kheng, note: "Pad thai first, mango sticky rice after" }
+      - { id: golden-mount-wat-saket, note: "Old-town temple a short walk east" }
+      - { id: grand-palace-wat-phra-kaew, note: "About 10 min on foot (Phuket101)" }

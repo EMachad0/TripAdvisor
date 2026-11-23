@@ -1,0 +1,16 @@
+# Independent review of kwan-kee-clay-pot-rice. Written by `./atr review`; do not edit by hand.
+id: kwan-kee-clay-pot-rice
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 73cd450ded45864e09c11e40df5fc2a35e944bcb71e128de14d98b27f7c1edf0
+facts:
+  supported: 1
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 6866c1757b48e8cce01a9c4001cba5e5214217493d68f2ce9d74c4b780226743
+summary: The earlier review left no findings open. The diff makes two edits. It drops the 17:30 opening time from the sentence that cites HK01, which only removes an attribution. It says the eel pot was HK$135 in Feb 2026, and the ewithu post (published 2026-02-03) supports this with the menu line "白鱔滑雞煲仔飯 135". The page validates and has no new blockers or shoulds.
+model: claude-opus-5-5
+cost_usd: 0.344

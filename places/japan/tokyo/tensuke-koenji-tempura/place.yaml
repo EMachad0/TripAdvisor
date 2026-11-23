@@ -1,0 +1,141 @@
+id: tensuke-koenji-tempura
+name: "Tensuke: egg tempura in Koenji"
+short_name: Tensuke
+name_local: 天すけ
+name_romanized: Tensuke
+country: japan
+city: tokyo
+area: Suginami · Koenji
+category: food
+fame: popular
+tags: [tempura, lunch, michelin-bib-gourmand, counter, cash-only, queue]
+kind: Eat
+why: "A 12-seat Koenji tempura counter, Michelin Bib Gourmand, where the egg lunch (¥1,900) brings a battered egg that runs over your rice. Lunch only, cash only."
+
+cost:
+  local: 1900
+  currency: JPY
+  brl: 71.12
+  note: "Egg lunch (玉子ランチ), Tabelog menu updated 2026-05-31. Lunch A is ¥1,600"
+fx: { rate: 0.03743, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1 h (plus the queue)"
+best_time: "Weekday, in line before 12:00 (UTC+9) opening"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Lunch only: Tue–Fri 12:00–14:45, Sat–Sun 12:00–15:00 (UTC+9)"
+  closed: "Mondays (and the Tuesday after a Monday holiday)"
+  winter: "No winter hours listed on Tabelog. Japan has no public holiday between Jan 20 and Feb 5, 2027, so in the Tokyo window (Jan 21–29) it is open every day except Mon Jan 25. No evening service at all."
+
+location:
+  address: "Plaza Koenji 1F, 3-22-7 Koenji-kita, Suginami-ku, Tokyo"
+  address_local: 東京都杉並区高円寺北3-22-7 プラザ高円寺 1F
+  lat: 35.70589
+  lng: 139.64876
+  nearest_transit: "Koenji (JR Chuo/Sobu Line), North Exit"
+  approximate: true
+
+sources:
+  - url: https://guide.michelin.com/en/tokyo-region/tokyo/restaurant/tensuke
+    title: "Tensuke — MICHELIN Guide (address, ¥ price band, 'Worth Queueing For')"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/jp/tokyo-region/tokyo/restaurants/bib-gourmand/tempura
+    title: "MICHELIN Guide Tokyo — Bib Gourmand tempura list (current 2026 selection; Tensuke listed)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/tokyo/A1319/A131904/13010553/
+    title: "Ten Suke — Tabelog (hours, Monday closing, 12 counter seats, no reservations, no cards/e-money/QR)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/tokyo/A1319/A131904/13010553/dtlmenu/
+    title: "Ten Suke menu — Tabelog (last updated 2026-05-31: egg lunch ¥1,900, Lunch A ¥1,600, tendon ¥1,800)"
+    checked: 2026-11-23
+  - url: https://tabelog.com/en/tokyo/A1319/A131904/13010553/dtlrvwlst/
+    title: "Ten Suke reviews — Tabelog (Jul–Nov 2026 visits: queue sizes and times)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/article/news-and-views/michelin-guide-ceremony-tokyo-kyoto-osaka-nara-2027-selection-save-the-date
+    title: "MICHELIN Guide — 2027 Tokyo, Kyoto-Osaka and Nara selections unveiled Feb 16, 2027"
+    checked: 2026-11-23
+  - url: https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+    title: "Cabinet Office Japan — national holidays 2027 (Jan 1, Jan 11, Feb 11, Feb 23)"
+    checked: 2026-11-23
+  - url: "https://www.data.jma.go.jp/obd/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662"
+    title: "JMA — climate normals 1991–2020, Tokyo (January: max 9.8 °C, min 1.2 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status from Michelin's Tokyo Bib tempura list (2026 guide). The Feb 16, 2027 date for the next guide is from Michelin's article, readable only via ./atr render. Prices from Tabelog's menu (May 2026); Michelin's text is behind a login. Queues from Jul–Nov 2026 Tabelog reviews. Block-level pin. How orders are taken: not found."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: koenji-station-area
+    caption: "Koenji, near the station; no free photo of Tensuke itself"
+    hook: "Twelve stools, a line on the pavement, and an egg in batter that breaks open over your rice."
+  - type: quick_facts
+    time_needed: "1 h (plus the queue)"
+    best_time: "Weekday, before 12:00 (UTC+9)"
+    extra:
+      - { label: Seats, value: 12 at the counter, detail: "No tables, no private rooms" }
+      - { label: Pay, value: Cash only, detail: "Tabelog: no cards, e-money or QR codes" }
+  - type: highlights
+    items:
+      - title: The egg
+        text: "The battered egg comes in the **egg lunch** (¥1,900), the set reviewers order, or on the **egg tempura rice bowl** (also ¥1,900)."
+      - title: Bib Gourmand for ¥1,900
+        text: "Listed in Michelin's current Tokyo Bib Gourmand tempura selection, ¥ price band, tagged \"Worth Queueing For\"."
+      - title: A counter seat solo
+        text: "All **12 seats** face the fryer. There are no tables, so you won't be taking up a table for four."
+      - title: Koenji around it
+        text: "The shop is a short walk from Koenji's North Exit. Eat at noon and the afternoon is yours."
+  - type: menu
+    items:
+      - name: Egg lunch
+        name_local: 玉子ランチ
+        price_local: 1900
+        price_brl: 71.12
+        note: "Tempura set with the battered egg"
+        tag: must-try
+      - name: Lunch A
+        price_local: 1600
+        price_brl: 59.89
+        note: Cheapest set
+        tag: cheap
+      - name: Lunch B
+        price_local: 1800
+        price_brl: 67.37
+      - name: Tempura rice bowl
+        name_local: 天丼
+        price_local: 1800
+        price_brl: 67.37
+      - name: Egg tempura rice bowl
+        price_local: 1900
+        price_brl: 71.12
+      - name: Shrimp tempura rice bowl
+        price_local: 2100
+        price_brl: 78.6
+      - name: Assorted set meal
+        price_local: 2000
+        price_brl: 74.86
+    note: "Prices from Tabelog's menu page, last updated 2026-05-31. Cash only."
+  - type: cost_breakdown
+    items:
+      - { label: "Egg lunch (玉子ランチ)", local: 1900, brl: 71.12 }
+  - type: map
+    note: "From Koenji station take the **North Exit**; the shop is on the ground floor of Plaza Koenji."
+  - type: tips
+    variant: insider
+    items:
+      - "Get in line before the 12:00 (UTC+9) opening. In Oct 2026 one reviewer found about 10 people waiting at 11:40."
+      - "Later is not always shorter. Reviewers found about 10 people at 13:00 on a Friday and a 15–30 min wait just before 14:00."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Cash only.** No cards, no e-money, no QR payments (Tabelog). Bring yen."
+      - "Closed on **Mondays** and open for lunch only. In your Tokyo window that rules out Mon Jan 25."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 10
+    conditions: "Cold: January averages 1–10 °C"
+    note: "The queue is outdoors on the pavement, so a cold wait before you get to the warm counter."
+    wear: Coat and gloves for the queue

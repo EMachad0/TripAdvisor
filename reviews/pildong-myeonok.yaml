@@ -1,0 +1,21 @@
+# Independent review of pildong-myeonok. Written by `./atr review`; do not edit by hand.
+id: pildong-myeonok
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: b4e96758a4f2f693d08eeaea84057ca3a586f011c103a66f3b4c37bd35460c8c
+facts:
+  supported: 6
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: hours.summary
+    problem: The page still says "Michelin says 20:00", but I could not confirm it. `./atr render` on the Michelin restaurant page returned no text with hours in it.
+    evidence: https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurant/pildong-myeonok — render returned no hours text
+    fix: Either drop the Michelin clause and keep the 19:50 time with the arrive-by-19:30 advice, or keep it only if a rendered capture shows 20:00.
+resolved: []
+rereview_of: dcfa0b2d04ca0d985e422d1c8e3b131666b49cf03ac39161ebd616b0f41300fa
+summary: "The evening closing time is fixed: 19:50 per the ktriptips page updated 2026-11-11, with advice to arrive by 19:30. The new holiday claim checks out: Office Holidays lists only Jan 1 in January 2027 and Seollal on Feb 6–9, so none of Jan 11–20 is a holiday. One nit remains: the Michelin 20:00 time could not be confirmed."
+model: claude-opus-5-5
+cost_usd: 0.371

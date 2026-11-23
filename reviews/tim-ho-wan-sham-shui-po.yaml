@@ -1,0 +1,22 @@
+# Independent review of tim-ho-wan-sham-shui-po. Written by `./atr review`; do not edit by hand.
+id: tim-ho-wan-sham-shui-po
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: c7766d2054b5c1b0166d56523f40fd7de57941888cf2de2cf057e278a4bfec69
+facts:
+  supported: 4
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.winter
+    problem: The traveler's four Hong Kong days (Feb 5–9, 2027) fall on Lunar New Year, but the page's 3-day closure over Feb 6–8 has no listed source. The confidence_note says it comes from a search snippet of a MICHELIN page that now redirects. The official store page, WeekendHK, Carol's blog and Trip.com say nothing about a holiday closure.
+    evidence: hours.winter, the LNY quick_fact and the pitfall tip now all say that opening on Feb 6–8, 2027 is unknown, with no holiday notice found. They advise Fri Feb 5 or Tue Feb 9 and calling +852 2788 1226. This is the fix that was asked for. The unsourced 3-day closure is no longer stated as fact, and confidence_note now mentions it only as an unverified snippet.
+  - field: confidence_note
+    problem: "`./atr validate` fails: confidence_note is 420 characters and the limit is 400."
+    evidence: './atr validate tim-ho-wan-sham-shui-po now passes: "✔ places/hong-kong/hong-kong/tim-ho-wan-sham-shui-po/place.yaml ✔ 1 file(s) valid".'
+rereview_of: 171a10c67c842684842707dd62e6c8aaa72e7f70efdc1aa9c58dda5bc314227a
+summary: Both earlier findings are resolved. The page now says plainly that Lunar New Year opening is unknown and tells the traveler to call. confidence_note passes validation. The new payment and wait-time wording matches the Trip.com page (「支付因店而異，建議備現金」, 「部分分店不接受刷卡」, 「等位常見30–60分鐘」), and the phone render shows the changed text with nothing broken. The only fact that could not be checked is the curator's own claim that no 2025–2027 holiday notice exists. The page says this openly, so it is not an issue.
+model: claude-opus-5-5
+cost_usd: 0.391

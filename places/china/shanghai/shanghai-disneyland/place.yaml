@@ -1,0 +1,242 @@
+id: shanghai-disneyland
+name: "Shanghai Disneyland"
+name_local: 上海迪士尼乐园
+name_romanized: Shànghǎi Díshìní Lèyuán
+country: china
+city: shanghai
+area: Pudong · Chuansha
+category: shows
+fame: popular
+tags: [theme-park, roller-coaster, night-show, christmas, fireworks]
+kind: Do
+why: "The first TRON coaster, a pirate ride no other Disney park has, a Zootopia land and the biggest Disney castle. Mon 7 Dec is ¥475 (¥425 early bird)."
+
+cost:
+  local: 495
+  currency: CNY
+  brl: 440.15
+  note: "¥475 ticket for Mon 7 Dec (the one with a free ¥88 dinner coupon) + metro. Early bird ¥425 if bought by 27 Nov"
+fx: { rate: 0.8892, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "Full day, 08:30 to the night show"
+best_time: "Mon 7 Dec, at the gate by 08:00 UTC+8"
+
+book_ahead:
+  required: recommended
+  deadline: 2026-11-27
+  lead_time: "¥425 early-bird price for Mon 7 Dec ends Fri 27 Nov; ¥475 after"
+  method: passport-registered
+  links:
+    - label: Official site, ticket + ¥88 dinner
+      url: "https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-china-international-import-expo-ticket/ThemePark/booth?groupID=ticket-shdr-china-international-import-expo-ticket&categoryId=ThemePark"
+      note: "¥475 on 7–9 Dec plus a free ¥88 dinner coupon. No refunds; two date changes allowed"
+    - label: Official site, early bird
+      url: "https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-theme-park-early-bird-1d/ThemePark/booth?groupID=ticket-group-shdr-theme-park-early-bird-1d&categoryId=ThemePark"
+      note: "¥425 on 7–9 Dec. At least 10 days ahead. No refunds or date changes"
+    - label: Official site, 1-day ticket
+      url: "https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-theme-park-tickets/ThemePark/booth?groupID=ticket-group-shdr-theme-park-tickets-one-day-ticket-hybrid&categoryId=ThemePark"
+      note: "¥475 on 7–9 Dec. Free refund up to 7 days before, ¥80 fee after"
+  passport: true
+  notes: "Tickets are dated and sold about 30 days ahead; on 23 Nov every date from 7 to 13 Dec was on sale. Trip.com (Ctrip) is on Disney's official partner list; Klook is not. Partner orders follow the partner's refund rules."
+
+hours:
+  summary: "Hours from 6 Dec not out yet. Published: 08:30–21:30 UTC+8 to 29 Nov and 4–5 Dec; 08:30–20:30 UTC+8 on 30 Nov – 3 Dec"
+  winter: "Disney Winter Frostival runs 19 Nov 2026 – 20 Feb 2027: winter parade at 14:15 and 18:15 UTC+8, Mickey's Snow Magic on Mickey Avenue, an Olaf show at the castle, Christmas outfits 1 Dec – 3 Jan. **Roaring Rapids and Explorer Canoes are closed for refurbishment on every trip date.** On 8–10 Dec the Pixar Adventurous Journey exhibit and Mickey's Storybook Adventure are also off."
+
+location:
+  address: 753 North Shendi Road, Chuansha, Pudong, Shanghai
+  address_local: 上海市浦东新区申迪北路753号 上海迪士尼乐园
+  lat: 31.14625
+  lng: 121.65628
+  nearest_transit: "Disney Resort station (Line 11 terminus), Exit 1 or 4, 5–10 min walk"
+
+sources:
+  - url: "https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-theme-park-tickets/ThemePark/booth?groupID=ticket-group-shdr-theme-park-tickets-one-day-ticket-hybrid&categoryId=ThemePark"
+    title: "Official 1-day ticket: calendar (¥499 Sun 6, ¥475 Mon 7–Thu 10, ¥499 Fri 11, ¥569 Sat 12, ¥499 Sun 13 Dec), refund terms"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-theme-park-early-bird-1d/ThemePark/booth?groupID=ticket-group-shdr-theme-park-early-bird-1d&categoryId=ThemePark"
+    title: "Official Early Bird 1-day ticket: ¥425 Mon 7–Thu 10 Dec, ¥449 Fri 11 and Sun 13, ¥519 Sat 12; 10 days ahead; no refunds; sales end 21 Dec"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-china-international-import-expo-ticket/ThemePark/booth?groupID=ticket-shdr-china-international-import-expo-ticket&categoryId=ThemePark"
+    title: "Official 1-day ticket with free ¥88 combo dinner coupon: ¥475 on 7–9 Dec; coupon after 16:00; no refunds, two date changes"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/commerce/product?id=ThemePark"
+    title: "Official ticket store: Premier Access bundles (¥655 with Zootopia + Pooh, Carefree 8 ¥1,574 on 7–9 Dec; sets of 3 from ¥870)"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/park-calendar/"
+    title: "Official Park Hours and Show Time calendar: hours to 5 Dec, show times, refurbishment closures by date"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/disney-premier-access-terms-conditions"
+    title: "Disney Premier Access terms: price by date, sold in the official app, single experiences only after entering the park, passport photo match"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/legal/park-rules/"
+    title: "Shanghai Disneyland Rules and Regulations: outside food allowed, bag size limit 56 × 36 × 23 cm, no wheeled luggage, no selfie sticks"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/guest-services/luggage-storage/"
+    title: "Official luggage storage: ¥80 per item per day, ¥10 small items, opposite Wishing Star Park West Gate"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/guest-services/rail"
+    title: "Official metro page: Line 11 first train 07:08 and last 23:39 arriving Disney; last trains back 22:00–22:30"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/information/transportation"
+    title: "Official Getting Here page: Pudong Airport about 30 km, taxi 30–50 min, metro 80–90 min"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/faq?fid=ticket-purchase"
+    title: "Official FAQ: ticket channels and travel partners (incl. Shanghai Ctrip), ID rule, Disneytown free without a ticket"
+    checked: 2026-11-23
+  - url: "https://static.shanghaidisneyresort.com/web-img-gallery/20261123-shdr-theme-park-tickets-detailpage-en.jpg"
+    title: "Official ticket graphic (2026-11-23): winter shows and dates (tree lighting 1 Dec – 3 Jan), rides with heights, Line 11 directions"
+    checked: 2026-11-23
+  - url: "https://kyodonewsprwire.jp/release/202611049406"
+    title: "Shanghai Disney Resort press release, 4 Nov 2026: Disney Winter Frostival 19 Nov 2026 – 20 Feb 2027, shows, Disneytown Christmas Market"
+    checked: 2026-11-23
+  - url: "https://www.laughingplace.com/disney-parks/shanghai-disney-resort-winter-frostival-2026/"
+    title: "Laughing Place, 4 Nov 2026: Disney Winter Frostival 2026 details"
+    checked: 2026-11-23
+  - url: "https://www.trip.com/guide/attraction/shanghai-disneyland-tickets-for-foreigners.html"
+    title: "Trip.com, Shanghai Disneyland tickets for foreigners (13 Oct 2026): passport number, original passport at manual turnstiles"
+    checked: 2026-11-23
+  - url: "https://www.chinaxiantour.com/shanghai-travel-guide/how-to-buy-disneyland-tickets"
+    title: "China Xian Tour, how to buy Disneyland tickets (8 May 2026): app takes international cards, SMS may need a Chinese number"
+    checked: 2026-11-23
+  - url: "https://english.shanghai.gov.cn/en-FestivalsCelebrations/20251211/d005d2b2520946d590ca8ca099cf1cd0.html"
+    title: "Shanghai government, 11 Dec 2025: tiered refund policy from 12 Jan 2026"
+    checked: 2026-11-23
+  - url: "https://queue-times.com/parks/30/calendar/2025/12"
+    title: "Queue-Times crowd calendar, December 2025 (weekday vs weekend crowd levels)"
+    checked: 2026-11-23
+  - url: "https://queue-times.com/parks/30/queue_times"
+    title: "Queue-Times ride list: single rider queues for Seven Dwarfs Mine Train and Zootopia: Hot Pursuit"
+    checked: 2026-11-23
+  - url: "https://en.wikipedia.org/wiki/Shanghai_Disneyland"
+    title: "Shanghai Disneyland — Wikipedia (castle, Mickey Avenue, Zootopia opened 20 Dec 2023, Soaring scenes)"
+    checked: 2026-11-23
+  - url: "https://en.wikipedia.org/wiki/Tron_Lightcycle_Power_Run"
+    title: "TRON Lightcycle Power Run — Wikipedia (first opened in Shanghai 16 Jun 2016)"
+    checked: 2026-11-23
+  - url: "https://en.wikipedia.org/wiki/Shanghai"
+    title: "Shanghai — Wikipedia climate table (December mean 5.3–11.3 °C, Xujiahui 1991–2020)"
+    checked: 2026-11-23
+  - url: "https://magic-tips.app/en/guide/shanghai-disney-resort/shanghai-disneyland-restaurants-where-to-eat"
+    title: "Magic Tips, where to eat at Shanghai Disneyland (updated Oct 2026; prices from official pages checked 22 Sep 2026)"
+    checked: 2026-11-23
+  - url: "https://wanderinchina.com/zh/destinations/shanghai/disneyland/transport/"
+    title: "Wander in China, Disney transport guide (Jul 2026): metro 40–60 min from downtown, ¥3–10 by distance"
+    checked: 2026-11-23
+  - url: "https://www.shanghaidisneyresort.com/en/legal/wishing-star-park-rules/"
+    title: "Wishing Star Park Rules and Regulations (official): admission tickets 'may be required' by operations arrangement"
+    checked: 2026-11-23
+  - url: "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_Battle_for_the_Sunken_Treasure"
+    title: "Pirates of the Caribbean: Battle for the Sunken Treasure — Wikipedia (new storyline, magnetic dark ride, opened 16 Jun 2016)"
+    checked: 2026-11-23
+  - url: "https://www.rome2rio.com/s/Jingan-Temple/Shanghai-Disney-Resort"
+    title: "Rome2Rio, Jing'an Temple to Shanghai Disney Resort: Line 2 → Line 11, about 55 min"
+    checked: 2026-11-23
+  - url: "https://www.asiaodysseytravel.com/shanghai/how-to-get-to-disneyland.html"
+    title: "Asia Odyssey Travel, getting to Disneyland (updated 6 May 2026): Nanjing East Rd Line 2 → 16 → 11, 50–60 min; PVG metro ¥11"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Prices, closures and show times read 23 Nov from the official calendar data in a browser. They show only after the date picker on the ticket pages. Hours/shows from 6 Dec unpublished. Exact metro fare not found (guides: ¥3–10). Official-site foreign-card payment untested. Locker prices not shown. Rules silent on power banks. Trip.com guide read by web fetch (blocks the checker)."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: castle-day
+    caption: Enchanted Storybook Castle, the largest castle in any Disney park
+    hook: Ride the lightcycle where it first launched, then watch the castle light up in winter costume.
+  - type: quick_facts
+    time_needed: "Full day, 08:30 to the night show"
+    best_time: "Mon 7 Dec, at the gate by 08:00 UTC+8"
+    extra:
+      - { label: Your dates, value: "¥475 Mon–Wed 7–9 Dec", detail: "¥499 Sun 6, Fri 11, Sun 13 · ¥569 Sat 12" }
+      - { label: Bring, value: Original passport, detail: "No copies or phone photos; the ticket is tied to its number" }
+      - { label: Night show, value: "ILLUMINATE! at the castle", detail: "21:15 UTC+8 on late-Nov days that close at 21:30" }
+  - type: highlights
+    items:
+      - title: TRON started here
+        text: "The motorbike-seat **TRON Lightcycle Power Run** first opened in Shanghai on 16 June 2016; Florida got its copy only in 2023. You need to be 122 cm or taller."
+      - title: A pirate ride only Shanghai has
+        text: "**Pirates of the Caribbean: Battle for the Sunken Treasure** has its own storyline and a magnetic boat system the older Pirates rides never used: Davy Jones, the Kraken, a sea battle and a backwards drop."
+      - title: Zootopia and the big castle
+        text: "**Zootopia** opened as the eighth land on 20 Dec 2023, with the chase ride **Hot Pursuit**. The 60 m Enchanted Storybook Castle is the largest in any Disney park."
+      - title: Winter Frostival
+        text: "Snow falls on **Mickey Avenue** in *Mickey's Snow Magic*, a winter parade runs twice a day, and Mickey's tree-lighting ceremony runs in the Gardens of Imagination from 1 Dec to 3 Jan."
+  - type: gallery
+    feature: false
+    images:
+      - { file: castle-night, caption: "The castle lit at night, where ILLUMINATE! plays", focus: center }
+  - type: prose
+    title: Which day, and why Monday 7 December
+    dropcap: true
+    text: |-
+      Prices on the official calendar on 23 Nov: **Mon 7, Tue 8, Wed 9 Dec: ¥475 (R$422.37)**, the base tier and the store's "starting from" price. **Sun 6, Fri 11, Sun 13: ¥499 (R$443.71)**. **Sat 12: ¥569 (R$505.95)**, the dearest of your dates. Buy the **Early Bird** ticket at least 10 days ahead and those drop to ¥425 (R$377.91), ¥449 (R$399.25) and ¥519 (R$461.49).
+
+      Pick **Monday 7 December**. It is a ¥475 day, you have had Sunday to recover from the 05:10 UTC+8 landing, and on the official closure list only Roaring Rapids and Explorer Canoes are shut that day (they are shut on every date you are in town). Tuesday and Wednesday cost the same but also lose the Pixar exhibit and the Mickey's Storybook Adventure stage show, and on Wednesday you leave for Huangshan.
+
+      Do not count on weekday crowds being much thinner. Queue-Times' crowd calendar for December 2025 shows Mon–Thu in the first half of the month about as busy as the weekends. In December weather will matter more than the day of the week, so check the forecast and swap between the 7th and 8th if one of them looks rainy: the ¥475 tickets allow two date changes up to 48 hours before (on the plain ticket a date change ends any refund).
+  - type: prose
+    title: Buying as a foreigner
+    text: |-
+      Tickets are **real-name**: you type your **passport number** when you buy, it cannot be changed later, and at the gate staff check the **original passport** at the manual turnstiles. Copies and digital versions are refused. Buy on the official English site or app, or from a company on Disney's official partner list, which includes Shanghai Ctrip (Trip.com). Klook was not on that list on 23 Nov.
+
+      One May 2026 guide says the official app takes international credit cards but that payment can ask for an SMS code that some foreign numbers never receive. If that happens, use Trip.com. Dated tickets go on sale about 30 days ahead: on 23 Nov the calendar ran to 22 Dec, and every one of your dates was available.
+
+      **Three tickets for 7 Dec.** The **¥475 ticket with a free ¥88 dinner coupon** (one combo meal after 16:00 UTC+8 at selected counters): no refund, but two date changes. This is the pick: you will eat dinner in the park anyway. The **¥425 Early Bird**: buy by 27 Nov, never refunded or moved. The plain **¥475 ticket**: free refund online until 23:59 UTC+8 on 30 Nov (21:00 UTC+8 by phone), ¥80 fee after, none on the day.
+  - type: book_ahead
+    steps:
+      - { days_before: 10, text: "**Fri 27 Nov** is the last day to buy the ¥425 Early Bird ticket for Mon 7 Dec (official site, passport number, no refunds)." }
+      - { days_before: 7, text: "Or buy the ¥475 ticket with the free **¥88 dinner coupon** (two date changes, no refund) any time before the day." }
+      - { days_before: 1, text: "Install the **Shanghai Disney Resort app** and add your ticket: wait times, show times and Premier Access are all in it." }
+      - { days_before: 0, text: "Take Line 11 to Disney Resort, show the **original passport** at the manual turnstile, and let them take your entry photo; refusing it blocks Premier Access and re-entry." }
+    passport_note: "Bring the **same physical passport** you typed in when you bought the ticket. A screenshot of the order helps; it does not replace the passport."
+  - type: cost_breakdown
+    items:
+      - { label: "1-day ticket, Mon 7 Dec", local: 475, brl: 422.37 }
+      - { label: "Metro there and back (¥3–10 each way)", local: 20, brl: 17.78, estimate: true }
+      - { label: "Quick-service lunch (¥51–100 counters)", local: 100, brl: 88.92, optional: true, estimate: true }
+      - { label: "Snack from a cart (popcorn, churro)", local: 40, brl: 35.57, optional: true, estimate: true }
+      - { label: "Premier Access: Zootopia + free Pooh (7–9 Dec)", local: 180, brl: 160.06, optional: true }
+      - { label: "Luggage storage, if you bring the big bag", local: 80, brl: 71.14, optional: true }
+  - type: prose
+    title: What the day costs, said plainly
+    text: |-
+      Ticket and metro come to about **¥495, R$440**: two and a half days of the R$170 "everything else" budget in one go. With the ¥425 Early Bird it is ¥445, R$396. Food is budgeted separately, but count on ¥150–220 for two quick meals and a snack in the park, so the full day is roughly **¥645–715, R$575–635**.
+
+      Shanghai is the only park with this TRON's original and this Pirates ride. It is worth one splurge day, and only one. The dinner coupon takes about ¥88 off the food side. Skip the big Premier Access sets: the Carefree Set of 8 makes the ticket **¥1,574 (R$1,399.60)**, more than eight days of budget.
+  - type: tips
+    variant: insider
+    title: One day, in this order
+    items:
+      - "Be at the gate before the 08:30 UTC+8 opening (late-Nov hours; check the app for 7 Dec) and walk straight to **TRON** in Tomorrowland before its queue builds."
+      - "Then **Zootopia: Hot Pursuit**; use its **single rider** line if the main queue is long. **Seven Dwarfs Mine Train** has a single rider line too."
+      - "Late morning: **Soaring Over the Horizon** (Great Wall and Shanghai skyline in the film), then **Pirates** in Treasure Cove; the stunt show *Eye of the Storm* plays there most of the day."
+      - "Afternoon: Peter Pan's Flight and Seven Dwarfs in Fantasyland, the 14:15 UTC+8 winter parade if you want it. Eat at a ¥51–100 counter (Barbossa's Bounty, Stargazer Grill)."
+      - "Dusk: *Mickey's Snow Magic* on Mickey Avenue (17:45 and 19:15 UTC+8 in late Nov), then hold a spot at the castle for **ILLUMINATE!**, listed at 21:15 UTC+8 on late-Nov evenings; check the app for 7 Dec."
+  - type: tips
+    variant: pitfalls
+    title: Premier Access and other traps
+    items:
+      - "**Premier Access** (paid skip-the-line) is sold only on Disney's own site, app, WeChat and Fliggy; single rides only once inside. Cheapest on 7–9 Dec: the ¥655 bundle, **¥180** over the ticket for Zootopia plus a free Pooh. **Skip it**: Zootopia has a single rider line."
+      - "Bag limit **56 × 36 × 23 cm**, and no wheeled luggage of any size. A 40 L backpack may be too deep: leave it at the hostel or pay ¥80 at the luggage storage opposite Wishing Star Park's West Gate."
+      - "Outside food is allowed if it needs no heating or cooling and doesn't smell: no instant noodles, no durian. **No alcohol, cans or glass bottles, no selfie sticks or tripods.**"
+      - "Park counters run on Alipay or WeChat Pay; one guide says foreign cards are rarely taken inside. Set up Alipay with your card before the day."
+  - type: faq
+    title: Arriving at 05:10 on Sunday 6 Dec?
+    items:
+      - q: Can I go straight from Pudong Airport to Disney on the arrival morning?
+        a: "Possible, not sensible. The official site gives 30–50 min by taxi or 80–90 min by metro from PVG, and Line 11's first train reaches Disney at 07:08 UTC+8, so you could be at the gate for an 08:30 UTC+8 opening. But Sunday is a ¥499 day, you would carry your 40 L bag (¥80 at the luggage storage; wheeled bags are banned) and spend 13 hours on your feet after a long-haul night flight. Sleep, and go on Monday at ¥475."
+      - q: How do I get there from East Nanjing Road or Jing'an, and back?
+        a: "Metro: Line 2 to Longyang Road, Line 16 to Luoshan Road, Line 11 to Disney Resort, about 50–60 min from East Nanjing Road; one guide says ¥3–10 each way, by distance. From Jing'an Temple it is the same Line 2 route, about 55 min (Rome2Rio). Last Line 11 trains leave Disney at 22:00–22:30 UTC+8 depending on the branch, so you can stay for the night show."
+  - type: map
+    note: "Line 11 ends at **Disney Resort**: Exit 1 or 4, 5–10 min walk. Taxis stop at the **West Public Transportation Hub**. **Free, no ticket:** Disneytown (Christmas Market this winter) and lakeside Wishing Star Park (10:00–17:00 UTC+8 on late-Nov weekdays)."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "Cool, often grey; about 8 rainy days in December"
+    note: "December averages 5–11 °C, and you are outdoors and standing in queues for 12 hours, colder once the sun sets around the night show. Shows can be delayed or cancelled for rain, wind, fog or poor air, so check the forecast and use a date change (up to 48 h before) if 7 Dec looks wet."
+    wear: "Warm layers, a windproof jacket, gloves for the evening; light rain jacket"
+  - type: pairs_well
+    items:
+      - { id: dayin-hostel-east-nanjing-road, note: "East Nanjing Road: Line 2 → 16 → 11, about an hour to the gate" }
+      - { id: shanghai-maglev, note: "Maglev from PVG to Longyang Road, then Line 16 → 11" }
+      - { id: shanghai-christmas-markets, note: "Disneytown has its own Christmas Market and tree trail this winter" }

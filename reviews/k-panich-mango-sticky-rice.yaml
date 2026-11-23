@@ -1,0 +1,25 @@
+# Independent review of k-panich-mango-sticky-rice. Written by `./atr review`; do not edit by hand.
+id: k-panich-mango-sticky-rice
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 61baba57f2515ca2ebab20f4f999f2c0853f73288fe1ef8d687357e80d40d5ec
+facts:
+  supported: 8
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved:
+  - field: hours.closed
+    problem: The page says Wongnai lists no Saturday or Sunday hours and tells the traveler to avoid Sundays. Wongnai's hours section has a seasonal note saying the shop is open every day from January to June and closed on Sundays only from July to December. In January that means Saturday and Sunday are open, and the 'sources disagree on the weekend' hedge in hours.winter and the pitfalls block comes from misreading the source.
+    evidence: hours.closed, hours.winter and the Sunday pitfall now follow Wongnai's seasonal rule. Rendered https://www.wongnai.com/restaurants/5266Lq says "เดือนมกราคม-มิถุนายน เปิดขายทุกวัน เดือนกรกฎาคม-ธันวาคม ปิดวันอาทิตย์" (Jan–Jun open daily, Jul–Dec closed Sundays). The page now says Sat Jan 9 is open and Sun Jan 10 is the flight day (config/trip.yaml).
+  - field: blocks[4].images[0]
+    problem: The only photo of the shop is a plaque that reads 'At 07.00 - 19.00 hours, daily', which conflicts with the 07:00–18:00 (Fri 17:00 UTC+7) hours on the page. The caption does not mention this, so a reader could plan around the wrong closing time.
+    evidence: The plaque caption now says its 07:00–19:00 hours are out of date and gives 18:00 UTC+7 (Fri 17:00). This matches Wongnai's "จันทร์ - พฤหัสบดี 07:00 - 18:00 / ศุกร์ 07:00 - 17:00" and Phuket101's "7 am – 6 pm".
+  - field: blocks[10].note
+    problem: The note says January is Bangkok's driest and mildest month. The cited climate table shows December is both drier and cooler.
+    evidence: blocks[10].note no longer says 'driest, mildest'. It now says 'dry season … about 2 rainy days', which matches the 1.9 January rain days in the Wikipedia climate table cited in the earlier review (https://en.wikipedia.org/wiki/Bangkok).
+rereview_of: 56c3754355038ea77888eb562c7facbf0f79967cf04a3596c4c91a84d803f8ca
+summary: All three earlier findings are fixed and backed by the sources. The new January hours match Wongnai's seasonal note word for word. The new per-kilo item matches Phuket101 ("250 baht per kilo") and a Wongnai review from 1 May 2025 ("ข้าวเหนียวถุงละครึ่งโล 3 ถุง 360฿"). I did not re-open the climate table to check the 23–33 °C range again, but that range was already on the page before this edit. No blocker or should is open.
+model: claude-opus-5-5
+cost_usd: 0.438

@@ -1,0 +1,137 @@
+id: pae-brass-pot-porridge
+name: "Pae Brass Pot Porridge 38 Years"
+short_name: Pae Brass Pot Porridge
+name_local: แป๊ะโจ๊ก ๓๘ ปี
+name_romanized: Pae Jok Mo Thong Lueang 38 Pi
+country: thailand
+city: bangkok
+area: Bang Sue · Bang Pho
+category: food
+fame: hidden
+tags: [jok, congee, teochew, bib-gourmand, michelin, cheap-eats, solo-friendly, shophouse]
+kind: Eat
+why: "Teochew rice congee cooked to order, one bowl at a time in a brass pot, since 1962. A Bib Gourmand pick by MRT Bang Pho, ฿60 with egg."
+cost:
+  local: 60
+  currency: THB
+  brl: 10.51
+  note: "Pork congee with egg, as a Wongnai reviewer paid in Mar 2026. Seafood congee ฿80"
+fx: { rate: 0.1751, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min
+best_time: "Any day; a late lunch or a 17:00 UTC+7 meal before work"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 06:00–21:00 UTC+7 (Wongnai)"
+  winter: "No New Year closure found; Wongnai lists it open every day. Sun Jan 10 is your flight morning. Call 02-586-8852 if you go on a holiday."
+
+location:
+  address: "320 Pracha Rat Sai 1 Road, Bang Sue, Bangkok 10800"
+  address_local: "แป๊ะโจ๊กหม้อทองเหลือง ๓๘ ปี 320 ถนนประชาราษฎร์สาย 1 เขตบางซื่อ กรุงเทพฯ 10800"
+  lat: 13.80742
+  lng: 100.52175
+  nearest_transit: "Bang Pho (MRT Blue Line), about 150 m"
+
+sources:
+  - url: https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurants/bib-gourmand
+    title: "Bangkok Bib Gourmand restaurants: MICHELIN Guide Thailand (lists Pae Brass Pot Porridge 38 Years)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/pae-jok-38-years
+    title: "Pae Brass Pot Porridge 38 Years: MICHELIN Guide (address, ฿, congee; 'Good for: Solo dining')"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/th/en/article/dining-out/behind-the-bib-pae-bronze-pot-porridge-38-years
+    title: "Behind The Bib: Pae Bronze Pot Porridge 38 Years (MICHELIN Guide, 10 Sep 2021; history, dishes, method)"
+    checked: 2026-11-23
+  - url: https://www.wongnai.com/restaurants/8371Ad
+    title: "แป๊ะโจ๊กหม้อทองเหลือง ๓๘ ปี: Wongnai (daily 06:00–21:00; prices; reviews Mar and Jul 2026)"
+    checked: 2026-11-23
+  - url: https://www.openstreetmap.org/?mlat=13.80641&mlon=100.52103#map=17/13.80641/100.52103
+    title: "Bang Pho MRT station: OpenStreetMap"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib Gourmand confirmed on Michelin's current Bangkok Bib list. Hours from Wongnai (daily 06:00–21:00); Michelin's 2021 article said 06:00–22:00. Prices from Wongnai: ฿60 in a Mar 2026 review, ฿80 and ฿90 on member-tagged dishes, so treat them as approximate. Wongnai lists credit cards; QR not confirmed. Pin from Wongnai's coordinates; the 150 m to Bang Pho MRT is measured on the map."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    hook: Congee stock boiled again for every bowl in its own brass pot, so it stays piping hot to the last spoonful.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: "Late lunch, or 17:00 UTC+7"
+    extra:
+      - { label: Solo diner, value: "Yes", detail: "Michelin tags it 'Good for: Solo dining'" }
+      - { label: Payment, value: Cash or card, detail: "Wongnai lists credit cards; QR not confirmed" }
+      - { label: Before a 19:00 shift?, value: "Yes", detail: "Open until 21:00 UTC+7, every day" }
+  - type: highlights
+    items:
+      - title: A 1962 congee cart, now a shophouse
+        text: "Michelin's 2021 *Behind the Bib* article: the grandfather sold Teochew congee from a cart outside Bang Pho market; the family now runs it in the **third generation**."
+      - title: One pot per bowl
+        text: "Each order is boiled again with fresh stock in a **brass pot**, which Michelin says keeps it from sticking and keeps it 'piping hot until the last bite'."
+      - title: Pork they mince themselves
+        text: "The family buys pork loin in slices and grinds it in-house. The congee base is jasmine rice soaked 4–5 hours and cooked in bone broth (Michelin)."
+      - title: Michelin says solo is fine
+        text: "Its Michelin page lists it as good for **solo dining**, and a bowl with egg was **฿60** (about R$11) in March 2026."
+  - type: prose
+    title: What the name means
+    text: |-
+      The "38" is not the shop's age. Michelin's inspectors say it was the founder's lucky number; the business dates from **1962**. Pae is the father's name, and the grandfather's first pots were made from scrap warship propellers before the family switched to brass (Michelin, 2021).
+
+      The menu has grown beyond pork congee: seafood congee, rice porridge with white snapper, fish maw soup, and wide rice noodles stir-fried crisp with chicken and squid. A Wongnai review from July 2026 says there are only a few seats and many people take their order away.
+  - type: quote
+    variant: vibe
+    text: Steam off a brass pot, white pepper, and a crisp patongko to dip.
+  - type: cost_breakdown
+    items:
+      - { label: Pork congee with egg, local: 60, brl: 10.51 }
+      - { label: "Or: seafood congee", local: 80, brl: 14.01, optional: true }
+      - { label: Wide noodles with chicken and crispy squid, local: 90, brl: 15.76, optional: true }
+  - type: menu
+    items:
+      - name: Pork congee with egg
+        name_local: โจ๊กหมูใส่ไข่
+        price_local: 60
+        price_brl: 10.51
+        note: "House-minced pork, egg stirred in while it cooks. ฿60 in a Mar 2026 Wongnai review."
+        tag: must-try
+      - name: Seafood congee
+        name_local: โจ๊กทะเล
+        price_local: 80
+        price_brl: 14.01
+        note: "Michelin's other recommendation; smooth, with fresh seafood. Price from Wongnai."
+        tag: signature
+      - name: Wide rice noodles with chicken and crispy squid
+        name_local: เส้นใหญ่คั่วไก่และปลาหมึกกรอบ
+        price_local: 90
+        price_brl: 15.76
+        note: "Noodles fried crisp, then wok-tossed with egg (Michelin). Price from Wongnai."
+      - name: Rice porridge with white snapper
+        name_local: ข้าวต้มปลากะพง
+        price_local: 90
+        price_brl: 15.76
+        note: "Khao tom with fried garlic and a soybean dip (Michelin, 2021). ฿90 in an Aug 2025 Wongnai review."
+    note: "Add a century egg, a salted egg or patongko (fried dough), as Michelin suggests. Prices from Wongnai, 2026."
+  - type: map
+    note: "On Pracha Rat Sai 1 Road in the old Bang Pho market neighbourhood, where the family's first congee cart stood (Michelin, 2021)."
+  - type: tips
+    variant: insider
+    items:
+      - "Order **one dish, eat, then order more**: each bowl is cooked to order in its own pot."
+      - "Open **every day from 06:00 UTC+7**, so it also works as breakfast after a 04:00 UTC+7 finish, before you sleep."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Seating is limited (Wongnai, Jul 2026). Many people take their order away."
+      - "It is in **Bang Sue**, north of the centre: plan it with the MRT, not as a walk from the old town."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry season, warm and sunny
+    note: "Hot congee at 33 °C: go early or late in the day. January is dry season in Bangkok (about 2 rainy days)."
+    wear: Light clothes

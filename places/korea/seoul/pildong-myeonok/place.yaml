@@ -1,0 +1,173 @@
+id: pildong-myeonok
+name: "Pildong Myeonok: Pyongyang cold noodles"
+short_name: Pildong Myeonok
+name_local: 필동면옥
+name_romanized: Pildong Myeonok
+country: korea
+city: seoul
+area: Jung-gu · Pil-dong
+category: food
+fame: hidden
+tags: [naengmyeon, pyongyang-naengmyeon, noodles, michelin-listed, bib-gourmand, cheap-eats, solo-friendly, queue]
+kind: Eat
+why: "A Bib Gourmand bowl of Pyongyang buckwheat noodles in a faint, beefy cold broth: ₩15,000, Michelin-rated good for solo diners, a short walk from Chungmuro."
+
+cost:
+  local: 15000
+  currency: KRW
+  brl: 66.5
+  note: "One bowl of mul-naengmyeon, the whole meal for most solo diners. Dumplings add ₩15,000"
+fx: { rate: 0.004433, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–60 min
+best_time: "Weekday lunch at 11:00 (UTC+9), before the noon queue"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Sat 11:00–15:00 and 17:00–19:50 (UTC+9); Michelin says 20:00. Arrive by 19:30"
+  closed: Sundays
+  winter: "No winter hours or holiday closures found. Korea's 2027 public holidays skip Jan 11–20 (Seollal is Feb 6–9), so the normal Mon–Sat hours should apply. It is shut on Sunday Jan 17, one of your free days, so go on a weekday or on Saturday Jan 16."
+
+location:
+  address: 26 Seoae-ro, Jung-gu, Seoul 04624
+  address_local: 서울특별시 중구 서애로 26
+  lat: 37.56039
+  lng: 126.99693
+  nearest_transit: "Chungmuro (Lines 3, 4), a few minutes' walk south"
+
+sources:
+  - url: https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurant/pildong-myeonok
+    title: "Pildong Myeonok — MICHELIN Guide Seoul (address, ₩ band, hours, Sunday closed, 'Worth queueing for', 'Solo dining')"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurants/bib-gourmand
+    title: "Seoul Bib Gourmand list — MICHELIN Guide (Pildong Myeonok listed, ₩ · Naengmyeon)"
+    checked: 2026-11-23
+  - url: https://polle.com/place/2amGCQ/%ED%95%84%EB%8F%99%EB%A9%B4%EC%98%A5
+    title: "필동면옥 — Polle (menu with prices; reviews from solo diners)"
+    checked: 2026-11-23
+  - url: https://segye.com/newsView/20260603500566
+    title: "세계일보, 2026-06-03 (필동면옥 naengmyeon about ₩15,000)"
+    checked: 2026-11-23
+  - url: https://www.ktriptips.com/kor/food/403081
+    title: "필동면옥 — ktriptips (updated 2026-11-11: 11:00–19:50, prep break 15:00–17:00, closed Sundays, menu list)"
+    checked: 2026-11-23
+  - url: https://www.officeholidays.com/countries/south-korea/2027
+    title: "South Korea public holidays 2027 — Office Holidays (only Jan 1 in January; Seollal Feb 6–9)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Naengmyeon
+    title: "Naengmyeon — Wikipedia (historically a winter dish)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul — Wikipedia (January climate normals 1991–2020)"
+    checked: 2026-11-23
+  - url: https://www.openstreetmap.org/?mlat=37.56039&mlon=126.99693#map=18/37.56039/126.99693
+    title: "Pildong Myeonok, 26 Seoae-ro — OpenStreetMap (pin)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status (2026 Seoul list), hours and Sunday closing from Michelin, whose pages load only in a browser (./atr render, 2026-11-23). Prices from Polle's undated menu; Segye (June 2026) gives about ₩15,000 for the noodles. Not found: cards vs cash, half portions, holiday closures, last order. Closing is 19:50 per ktriptips, 20:00 per Michelin."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: pyongyang-naengmyeon
+    caption: "Pyongyang naengmyeon at another Seoul shop; no free photo of Pildong Myeonok"
+    hook: Buckwheat noodles in a cold, delicate beef broth that Seoul's noodle nerds still argue about.
+  - type: quick_facts
+    time_needed: 30–60 min
+    best_time: Weekday at 11:00 (UTC+9)
+    extra:
+      - { label: Solo, value: Yes, detail: "Michelin tags it good for solo dining" }
+      - { label: Style, value: Pyongyang naengmyeon, detail: "Buckwheat noodles in chilled beef broth" }
+  - type: highlights
+    items:
+      - title: A Pil-dong landmark
+        text: "Michelin calls it a neighbourhood landmark that has served Pyongyang cold buckwheat noodles **for decades**, next to Namsangol Hanok Village."
+      - title: The divisive broth
+        text: "The chilled broth has a *delicate* beef flavour. Michelin says its subtlety is **both loved and disputed** among naengmyeon fans, so decide for yourself."
+      - title: Fine for one
+        text: "Michelin lists it as good for **solo dining**, and Polle reviewers write about eating there alone. One bowl is a full lunch."
+      - title: A winter dish, really
+        text: "Cold noodles in January sound wrong, but Wikipedia notes mul-naengmyeon was **historically a winter dish**; the summer craze came later."
+  - type: prose
+    title: Why cold noodles in a Seoul winter
+    text: |-
+      Pyongyang-style naengmyeon means buckwheat noodles in a chilled beef broth. Pildong Myeonok is one of the old Seoul houses for it, and Michelin keeps it in the Bib Gourmand list as a **₩**-band, worth-queueing-for shop.
+
+      The taste is the point and the argument. Michelin says the broth's subtlety is loved and disputed in equal measure. Pair the noodles with the house **boiled pork**, which Michelin calls buttery and tender, cut in thick slices with a dipping sauce, if you can find someone to split a plate.
+  - type: quote
+    variant: vibe
+    text: A cold bowl, a hot room, and a row of old regulars slurping alone.
+  - type: cost_breakdown
+    items:
+      - { label: "Mul-naengmyeon (물냉면)", local: 15000, brl: 66.5 }
+      - { label: "Plate of dumplings (접시만두)", local: 15000, brl: 66.5, optional: true }
+  - type: menu
+    items:
+      - name: Mul-naengmyeon
+        name_local: 물냉면
+        price_local: 15000
+        price_brl: 66.5
+        note: Buckwheat noodles in cold beef broth. The reason to come.
+        tag: must-try
+      - name: Bibim-naengmyeon
+        name_local: 비빔
+        price_local: 15000
+        price_brl: 66.5
+        note: Noodles with sauce, no broth
+      - name: On-myeon (warm noodles)
+        name_local: 온면
+        price_local: 15000
+        price_brl: 66.5
+        note: The hot-broth version for a freezing day
+      - name: Dumpling soup
+        name_local: 만두국
+        price_local: 15000
+        price_brl: 66.5
+        note: Homemade dumplings, which Michelin says are popular
+      - name: Plate of dumplings
+        name_local: 접시만두
+        price_local: 15000
+        price_brl: 66.5
+        note: Piece count not found
+        tag: signature
+      - name: Extra noodles
+        name_local: 사리
+        price_local: 9000
+        price_brl: 39.9
+        tag: cheap
+      - name: Boiled pork slices (jeyuk)
+        name_local: 제육
+        price_local: 30000
+        price_brl: 132.99
+        note: "Michelin's buttery, thick-cut pork; a solo regular on Polle says he never gets to order it alone"
+      - name: Suyuk (boiled meat slices)
+        name_local: 수육
+        price_local: 33000
+        price_brl: 146.29
+        note: Full plate, better shared
+    note: "Prices from Polle's menu (undated); Segye put the noodles at about ₩15,000 in June 2026. No half portions found."
+  - type: map
+    note: "From Chungmuro station, walk south toward Namsangol Hanok Village; the shop is on Seoae-ro."
+  - type: tips
+    variant: insider
+    items:
+      - "Solo: order one naengmyeon, or noodles plus a plate of dumplings. The ₩30,000+ meat plates are full plates; a solo regular on Polle says he never gets to order one."
+      - "On a work day (shift 21:00–06:00 UTC+9), 11:00 lunch or the 17:00 reopening both fit before you sleep or log on."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Closed Sundays** and 15:00–17:00 every day (UTC+9); evening service ends 19:50. Don't plan it for Sunday Jan 17."
+      - "Michelin marks it worth queueing for: expect a line at lunch."
+      - "Payment method not confirmed. Carry some cash in case cards are refused."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: Dry, sharp cold, occasional snow
+    note: "Seoul's January normals are about 2 °C by day and −5.5 °C at night. Any queue is outdoors. If ice-cold broth is too much, the warm on-myeon is on the same menu."
+    wear: Padded jacket, hat and gloves for the queue
+  - type: pairs_well
+    items:
+      - { id: namsan-n-seoul-tower, note: "Noodles first, then up Namsan" }
+      - { id: euljiro-nogari-alley, note: "About 1 km north, for an early-evening beer" }

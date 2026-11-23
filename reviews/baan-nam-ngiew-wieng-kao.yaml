@@ -1,0 +1,16 @@
+# Independent review of baan-nam-ngiew-wieng-kao. Written by `./atr review`; do not edit by hand.
+id: baan-nam-ngiew-wieng-kao
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: f21d5c8b2f928859ce6cdb9a94e98c41b0b68f37db2dd20a3de83bc93592b30d
+facts:
+  supported: 2
+  unsupported: 1
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 95a19e05998514df808b0b927d98550d4739417c5e0dc4641fffb157ec7e4cdf
+summary: 'No earlier blockers or shoulds to close. The only change adds "a shorter ride" to the transport pitfall. Trip.com (12 Feb 2026) still supports both prices: "Old City → Nimman: S$3–5" (Grab) and "Short city rides usually cost 30–60 baht" (songthaew). The source does not say Nimman is closer; I counted that unsupported but raise no issue, since the map shows it (Nimman is about 2–3 km from the Old City, the restaurant about 4 km east of Tha Phae Gate). No new blockers in unchanged text.'
+model: claude-opus-5-5
+cost_usd: 0.34

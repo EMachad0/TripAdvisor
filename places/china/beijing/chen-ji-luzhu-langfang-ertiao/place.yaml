@@ -1,0 +1,141 @@
+id: chen-ji-luzhu-langfang-ertiao
+name: "Chen Ji Lu Zhu: Qianmen Offal Stew"
+short_name: Chen Ji Lu Zhu
+name_local: 陈记卤煮小肠
+name_romanized: Chénjì Lǔzhǔ Xiǎocháng
+country: china
+city: beijing
+area: Xicheng · Dashilar / Qianmen
+category: food
+fame: hidden
+tags: [luzhu, beijing-snacks, offal, michelin-listed, bib-gourmand, cheap-eats, queue, laozihao]
+kind: Eat
+why: "Beijing's working-class winter bowl: pork offal, tofu and flatbread stewed in spiced broth. Nine tables in a Qianmen alley, about ¥36. Michelin Bib Gourmand."
+
+cost:
+  local: 36
+  currency: CNY
+  brl: 32.01
+  note: "Ctrip users' average spend per head, read 23 Nov 2026. In 2021 a bowl was ¥30 plus ¥1 per flatbread (SMZDM)"
+fx: { rate: 0.8892, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–60 min with the queue
+best_time: "Mid-morning or mid-afternoon, away from meal times"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "09:00–20:00 (UTC+8) per Ctrip and SMZDM (2021); closed days not confirmed"
+  winter: "No winter hours or holiday closures found. You are in Beijing Dec 13–16; nothing special falls on those days. Luzhu is a cold-weather dish, so expect locals in the queue."
+
+location:
+  address: "82–84 Langfang Ertiao, Beijing Fun, Xicheng, Beijing (near Qianmen / Dashilar)"
+  address_local: 北京市西城区廊房二条82号 陈记卤煮小肠
+  lat: 39.89569
+  lng: 116.3898
+  approximate: true
+  nearest_transit: "Qianmen (Line 2), Exit C (south-west), about 550 m"
+
+sources:
+  - url: https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurants/bib-gourmand
+    title: "MICHELIN Guide: Beijing Bib Gourmand list (32 restaurants), shows 陈记卤煮小肠, ¥ · snacks"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/en/beijing-municipality/beijing/restaurant/chen-ji-lu-zhu-xiao-chang
+    title: "MICHELIN Guide: Chen Ji Lu Zhu Xiao Chang"
+    checked: 2026-11-23
+  - url: https://www.viamichelin.com/maps/restaurants/poi/beijing-_-574479f7
+    title: "ViaMichelin (403 to bots): 'Since 1982 … third generation … only nine tables, so expect to share your table at mealtimes'"
+    checked: 2026-11-23
+  - url: https://www.michelin.com/en/publications/products-and-services/michelin-guide-unveils-the-2027-beijing-tianjin-selection
+    title: "Michelin: Beijing & Tianjin 2027 selection released 28 Oct 2026 (current edition)"
+    checked: 2026-11-23
+  - url: https://gs.ctrip.com/html5/you/foods/fooddetail/1/4938547.html
+    title: "Ctrip: 陈记卤煮小肠, 廊房二条82号, hours 09:00–20:00, ¥36 a head, dishes, queue in reviews"
+    checked: 2026-11-23
+  - url: https://post.smzdm.com/p/apx5rr00/
+    title: "SMZDM (Apr 2021): luzhu ¥30, flatbread ¥1 each, 09:00–20:00, ~30 min queue, Qianmen Exit C ~550 m"
+    checked: 2026-11-23
+  - url: https://english.beijing.gov.cn/latest/specials/essentialtipsfornewarrivals/paymentservices/202408/t20240830_3785647.html
+    title: "Beijing government: Payment services for new arrivals (foreign cards on Alipay / WeChat Pay; merchants must accept cash)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Beijing
+    title: "Wikipedia: Beijing climate table (1991–2020 normals; December 3.7 / −5.0 °C)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status: Michelin's Beijing list, rendered 23 Nov 2026; review text via ViaMichelin (read in Chrome; blocks link checks). Cost is Ctrip's ¥36 average; item prices are from 2021 and may have risen. Hours: Ctrip and a 2021 post agree. Not confirmed: pay apps, English menu, how ordering works. Pin is the alley."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    hook: A family pot of spiced broth since 1982, ladled over offal, tofu and torn flatbread.
+  - type: quick_facts
+    time_needed: 30–60 min
+    best_time: Off-peak, mid-morning
+    extra:
+      - { label: Solo, value: "Yes: shared tables", detail: "Nine tables; Michelin says expect to share at meal times" }
+      - { label: In the bowl, value: "Intestine, lung, pork", detail: "Plus tofu and flatbread in the broth" }
+  - type: highlights
+    items:
+      - title: The dish Beijing eats in winter
+        text: "**Luzhu**: braised pork and pork offal in a savoury spiced marinade, with silky tofu and chewy unleavened flatbread that soaks up the broth (Michelin's description)."
+      - title: Family-run since 1982
+        text: "Michelin says the third generation now runs it. The shop has **nine tables**."
+      - title: In the Qianmen lanes
+        text: "Langfang Ertiao is near **Qianmen and Dashilar** (SMZDM), so it fits a day around Tiananmen and the old shopping streets."
+      - title: Bib for about ¥36
+        text: "Ctrip's average spend is **¥36** (R$32) a head; Michelin rates it ¥, its cheapest band."
+  - type: prose
+    title: What's in the bowl
+    text: |-
+      A Ctrip reviewer ordered "one base, three flatbreads plus intestine" and found **tofu, white pork and lung** in the bowl too, with a thick, fragrant broth and dense flatbread that stays chewy. You build the bowl by flatbread count: Ctrip's dish list has a small bowl, a base with one flatbread, and extra white pork.
+
+      This is offal, and proud of it. If intestine is a step too far, ask for more white pork (加白肉) and fewer innards.
+  - type: quote
+    variant: vibe
+    text: Steam on the window, a stranger's elbow at your table, and the smell of spiced marinade out in the alley.
+  - type: cost_breakdown
+    items:
+      - { label: "Average spend per head (Ctrip)", local: 36, brl: 32.01, estimate: true }
+  - type: menu
+    items:
+      - name: Luzhu with flatbread
+        name_local: 卤煮（一底一火烧）
+        price_local: 30
+        price_brl: 26.68
+        note: "Price from an April 2021 post; likely higher now"
+        tag: must-try
+      - name: Extra flatbread
+        name_local: 火烧
+        price_local: 1
+        price_brl: 0.89
+        note: "Each, in 2021. Two is the usual order"
+      - name: Small bowl
+        name_local: 小碗卤煮
+        note: "On Ctrip's dish list; price not found"
+      - name: Add white pork
+        name_local: 加白肉
+        note: "For less offal and more meat; price not found"
+    note: "Only 2021 prices found; Ctrip's ¥36 average is the safer budget."
+  - type: map
+    note: "About 550 m from Qianmen station Exit C (SMZDM, 2021). The pin marks the alley, not the door: look for No. 82."
+  - type: tips
+    variant: insider
+    items:
+      - "**Paying:** no source says which apps the shop takes. Beijing's official guide says Visa and Mastercard can be linked to **Alipay** and **WeChat Pay**, and every merchant must accept RMB cash."
+      - "A Ctrip reviewer still queued at 14:00 (UTC+8); a 2021 post waited about 30 minutes behind 20 people. Ordering and serving are fast once inside."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Several Beijing shops are called 陈记卤煮. The Bib Gourmand one is at **82 Langfang Ertiao**; check the address."
+      - "No English menu confirmed: show the Chinese names in the menu above."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: Dry and freezing
+    note: "The queue is outside. Inside, the hot broth is the point of this dish in December."
+    wear: "Warm coat, hat and gloves for the queue"
+  - type: pairs_well
+    items:
+      - { id: tiananmen-square-mao-mausoleum, note: "About 800 m north, past the Qianmen gate" }
+      - { id: niujie-muslim-food-street, note: "Beijing's other snack street, for a second round" }

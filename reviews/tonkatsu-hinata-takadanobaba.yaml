@@ -1,0 +1,16 @@
+# Independent review of tonkatsu-hinata-takadanobaba. Written by `./atr review`; do not edit by hand.
+id: tonkatsu-hinata-takadanobaba
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 39501d5ad712ea32fc04eef008f51b2dd3a7964af043a3e638b44543b27c72cd
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: e00ceb1cb8b3c4c73c6850f0ea5785ea454844516f981d523b9391d68860d9fc
+summary: The three edited lines check out. Tabelog's menu (https://tabelog.com/en/tokyo/A1305/A130503/13204289/dtlmenu/) lists "Lamp Set Meal (Rare Cuts) (180g) JPY 2,100" and "Shikinbo Katsu (A la carte, Rare Cut) (70g) JPY 600", with no shikinbo set. docs/TRIP.md has the flight landing at 00:55 Thu Jan 21, so the note and open days are right. The new hook contradicts nothing; its 14 seats rest on the earlier review and are not counted. No earlier findings, and no new blocker or should.
+model: claude-opus-5-5
+cost_usd: 0.445

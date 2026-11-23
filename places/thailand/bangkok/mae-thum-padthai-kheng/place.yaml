@@ -1,0 +1,136 @@
+id: mae-thum-padthai-kheng
+name: "Mae Thum Padthai Kheng"
+short_name: Mae Thum Padthai
+name_local: แม่ทุมผัดไทยเข่ง
+name_romanized: Mae Thum Phat Thai Kheng
+country: thailand
+city: bangkok
+area: Phra Nakhon · City Hall
+category: food
+fame: hidden
+tags: [pad-thai, noodles, bib-gourmand, michelin, new-2027, cheap-eats, shophouse, lunch]
+kind: Eat
+why: "A 20-seat pad thai shop by City Hall that joined Michelin's Bib Gourmand list for 2027. Six pad thais only; get the crispy one. About ฿120."
+cost:
+  local: 120
+  currency: THB
+  brl: 21.01
+  note: "One reviewer's shrimp pad thai (via Visit Thailand Today), who found it poor value. Unconfirmed; Why Bangkok: under ฿200"
+fx: { rate: 0.1751, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 30–45 min
+best_time: "Weekday mid-afternoon, about 14:00–16:00 UTC+7"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Mon–Sat 10:00–20:00 UTC+7"
+  closed: Sundays
+  winter: "No New Year closure found. On the trip, the Bangkok weekdays (Jan 5/6–8) and Sat Jan 9 fall on open days; Sun Jan 10 does not. Visit Thailand Today warns that hours can change on Thai public holidays."
+
+location:
+  address: "6/3 Siriphong Road, Samran Rat, Phra Nakhon, Bangkok 10200"
+  address_local: "แม่ทุมผัดไทยเข่ง 6/3 ถนนศิริพงษ์ แขวงสำราญราษฎร์ เขตพระนคร กรุงเทพฯ 10200"
+  lat: 13.75367
+  lng: 100.50237
+  nearest_transit: "Sam Yot (MRT Blue Line), about 9 min walk"
+
+sources:
+  - url: https://guide.michelin.com/th/en/article/michelin-guide-ceremony/bib-gourmand-thailand-2027
+    title: "26 New Bib Gourmands Join the MICHELIN Guide Thailand 2027 (3 Nov 2026): Mae Thum Padthai Kheng"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mae-thum-padthai-kheng
+    title: "Mae Thum Padthai Kheng: MICHELIN Guide (address, ฿ price band, noodles)"
+    checked: 2026-11-23
+  - url: https://www.thairath.co.th/lifestyle/food/2970113
+    title: "Thairath (3 Nov 2026): 2027 Bib Gourmand newcomers, Thai name แม่ทุมผัดไทยเข่ง"
+    checked: 2026-11-23
+  - url: https://www.visitthailandtoday.com/restaurants/bangkok/maethum-padthai
+    title: "MaeThum Padthai: Visit Thailand Today (updated Nov 2026; hours, ฿120 shrimp pad thai, cash, lunch crowd)"
+    checked: 2026-11-23
+  - url: https://whybangkok.com/restaurants/mae-thum-padthai-kheng/
+    title: "Mae Thum Padthai Kheng: Why Bangkok (updated 17 Jul 2026; Mon–Sat 10:00–20:00, under ฿200)"
+    checked: 2026-11-23
+  - url: https://wanderlog.com/place/details/5857118
+    title: "MaeThum Padthai: Wanderlog (Mon–Sat 10:00–20:00; May 2026 review: about 20 seats, fans, no AC)"
+    checked: 2026-11-23
+  - url: https://www.openstreetmap.org/?mlat=13.75367&mlon=100.50237#map=18/13.75367/100.50237
+    title: "Maethum Padthai Keng, 6/3 Siriphong Road: OpenStreetMap (pin)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib Gourmand status is from Michelin's 2027 newcomer list and its current Bangkok Bib list. The only baht price I found is one reviewer's ฿120 shrimp pad thai, quoted by Visit Thailand Today; no menu prices found, so the crispy pad thai's price is unknown. Hours agree across three listings. Payment: Visit Thailand Today says bring cash; QR not confirmed."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: giant-swing
+    caption: "The Giant Swing, a few minutes' walk away; no free photo of the shop itself"
+    hook: Six pad thais and nothing else, cooked to order in a small fan-cooled room near City Hall.
+  - type: quick_facts
+    time_needed: 30–45 min
+    best_time: "Weekday, 14:00–16:00 UTC+7"
+    extra:
+      - { label: Payment, value: Bring cash, detail: "Visit Thailand Today; QR not confirmed" }
+      - { label: Seats, value: About 20, detail: "Fans, no air-con (Wanderlog review, May 2026)" }
+      - { label: Before a 19:00 shift?, value: "Yes", detail: "Lunch or mid-afternoon; open to 20:00 UTC+7" }
+  - type: highlights
+    items:
+      - title: New on the 2027 list
+        text: "One of **nine newcomers in Bangkok and the surrounding provinces** on the Bib Gourmand list in the 2027 MICHELIN Guide Thailand (announced 3 Nov 2026)."
+      - title: Just six dishes
+        text: "Michelin and Thairath both say the menu is **six pad thais**, each aromatic and well balanced."
+      - title: Order the crispy one
+        text: "The inspectors' pick is the **crispy version**: deep-fried egg noodles in the pad thai sauce with a squeeze of lime."
+      - title: Price, unconfirmed
+        text: "The only price found: one diner paid **฿120** for a shrimp pad thai (about R$21) and thought it poor value (tiny shrimp, greasy noodles). Why Bangkok puts a meal under ฿200 a person."
+  - type: prose
+    title: A small room with a short menu
+    text: |-
+      Mae Thum is a small, calm room with about 20 seats (Wanderlog review, May 2026), and Michelin only added it to the Bib Gourmand list in November 2026, so it is not yet on the usual tourist pad thai lists.
+
+      Visit Thailand Today says the room fills at lunch and mid-afternoon is easier. It also says the pad thai runs sweet; you can ask for less. Say *mai pet* for no chilli or *pet nit noi* for a little.
+  - type: quote
+    variant: vibe
+    text: Wok noise, a fan turning overhead, and a lime wedge on the side.
+  - type: cost_breakdown
+    items:
+      - { label: Shrimp pad thai, local: 120, brl: 21.01 }
+  - type: menu
+    items:
+      - name: Crispy pad thai
+        name_local: ผัดไทยหมี่กรอบ
+        note: "Deep-fried egg noodles in pad thai sauce, with lime. Michelin's recommended dish; price not found."
+        tag: must-try
+      - name: Shrimp pad thai
+        name_local: ผัดไทยกุ้ง
+        price_local: 120
+        price_brl: 21.01
+        note: "The traditional version; ฿120 per one reviewer quoted by Visit Thailand Today, who found it poor value. Call +66 88 951 6145 to check."
+        tag: signature
+    note: "Six pad thais in all. The crispy pad thai's price was not published anywhere I could open."
+  - type: map
+    note: "On Siriphong Road near Bangkok City Hall and the Giant Swing. Sam Yot MRT is about 9 minutes on foot (Visit Thailand Today)."
+  - type: tips
+    variant: insider
+    items:
+      - "Come **mid-afternoon** on a weekday: Visit Thailand Today says the small room fills at lunch."
+      - "Walk on to **K. Panich** on Tanao Road for mango sticky rice; both are Bib Gourmand picks in the same old-town block."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Closed on Sundays**, so not on Sun Jan 10, your flight day anyway."
+      - "No air-con (May 2026 review on Wanderlog): in the midday heat, sit near a fan."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry season, warm and sunny
+    note: "January is dry season in Bangkok (about 2 rainy days). The shop is fan-cooled, so a hot wok lunch here is warm; mid-afternoon is no cooler outside, but quieter inside."
+    wear: Light clothes
+  - type: pairs_well
+    items:
+      - { id: k-panich-mango-sticky-rice, note: "Mango sticky rice for dessert, a short walk west" }
+      - { id: golden-mount-wat-saket, note: "Old-town temple nearby" }

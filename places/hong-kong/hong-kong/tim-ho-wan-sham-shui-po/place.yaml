@@ -1,0 +1,156 @@
+id: tim-ho-wan-sham-shui-po
+name: "Tim Ho Wan (Sham Shui Po)"
+short_name: Tim Ho Wan
+name_local: 添好運點心專門店（深水埗）
+name_romanized: Tim Ho Wan
+country: hong-kong
+city: hong-kong
+area: Sham Shui Po
+category: food
+fame: popular
+tags: [dim-sum, michelin-listed, bib-gourmand, cheap-eats, queue, solo-friendly]
+kind: Eat
+why: "The once 'cheapest Michelin star' dim sum chain at its old Fuk Wing Street shop: crackly baked char siu buns, take a ticket, eat for about HK$100."
+
+cost:
+  local: 100
+  currency: HKD
+  brl: 75.75
+  note: "Buns HK$35 (2025 price) + HK$5 tea + about two more baskets. Trip.com puts a meal at HK$60–120 per person"
+fx: { rate: 0.7575, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45 min–1 h
+best_time: "At opening (09:00–10:00 UTC+8), or mid-afternoon"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily to 22:00 UTC+8, last order 21:30. Opens 10:00 weekdays, 09:00 weekends (WeekendHK 2026); the chain's site says 08:00"
+  winter: "Lunar New Year 2027 (Sat Feb 6): no holiday notice found for this branch, from the chain or the press, for 2025, 2026 or 2027, so whether it opens Feb 6–8 is unknown. Safest plan: Fri Feb 5 or Tue Feb 9, and call +852 2788 1226 before going on Feb 6–8. No holiday surcharge found."
+
+location:
+  address: "G/F & M/F, Ka Wui Building, 9-11 Fuk Wing Street, Sham Shui Po, Kowloon"
+  address_local: 九龍深水埗福榮街9-11號嘉匯大廈地下及閣樓
+  lat: 22.32894
+  lng: 114.16635
+  nearest_transit: "Sham Shui Po or Prince Edward MTR, each about 500 m away"
+
+sources:
+  - url: https://guide.michelin.com/hk/en/hong-kong-region/hong-kong/restaurant/tim-ho-wan-sham-shui-po
+    title: "Tim Ho Wan (Sham Shui Po) — MICHELIN Guide Hong Kong (address, $ price band, Dim Sum, 'Worth Queueing For')"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/hk/en/hong-kong-region/hong-kong/restaurants/bib-gourmand
+    title: "Hong Kong Bib Gourmand restaurants — MICHELIN Guide (lists Tim Ho Wan (Sham Shui Po), $ · Dim Sum)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/tim-ho-wan-sham-shui-po
+    title: "添好運（深水埗）— 米芝蓮指南 (20+ dim sum, some rotated every 2–3 months; 蝦餃, 酥皮焗叉燒包, 陳皮牛肉球)"
+    checked: 2026-11-23
+  - url: https://www.timhowan.com/stores/hong-kong
+    title: "Tim Ho Wan — Hong Kong stores (official: Ka Wui Bldg, 9-11 Fuk Wing St, +852 2788 1226, 8:00 AM–10:00 PM)"
+    checked: 2026-11-23
+  - url: https://weekendhk.com/restaurant/%E6%B7%BB%E5%A5%BD%E9%81%8B%E9%BB%9E%E5%BF%83%E5%B0%88%E9%96%80%E5%BA%97-%E6%B7%B1%E6%B0%B4%E5%9F%97-%E4%B8%AD%E8%8F%9C-%E9%BB%9E%E5%BF%83-%E4%B8%8B%E5%8D%88%E8%8C%B6-%E5%8D%88%E9%A4%90-%E6%99%9A-2691408
+    title: "添好運點心專門店 深水埗 — WeekendHK (2026-06-30: Mon–Fri 10:00–22:00, Sat–Sun 09:00–22:00, HK$51–100 per person)"
+    checked: 2026-11-23
+  - url: https://carolblog.tw/tim-ho-wan-hongkong/
+    title: "香港添好運 — Carol's blog (Sham Shui Po visit; updated 2026-05-15: buns HK$35 in 2025, HK$5 tea, ticket machine, last order 21:30)"
+    checked: 2026-11-23
+  - url: https://hk.trip.com/moments/poi-tim-ho-wan-13588817/
+    title: "添好運點心專門店 (深水埗) — Trip.com Moments (HK$60–120 per person, 30–60 min waits, bring cash)"
+    checked: 2026-11-23
+  - url: https://www.discoverhongkong.com/us/interactive-map/tim-ho-wan.html
+    title: "Tim Ho Wan — Hong Kong Tourism Board (G/F, 9-11 Fuk Wing Street, Sham Shui Po)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Tim_Ho_Wan
+    title: "Tim Ho Wan — Wikipedia (founded 2009 in Mong Kok, star within a year, 'world's cheapest Michelin-star restaurant')"
+    checked: 2026-11-23
+  - url: "https://www.als.gov.hk/lookup?q=9-11%20Fuk%20Wing%20Street"
+    title: "Address Lookup Service, HK Government (Ka Wui Building 嘉匯大廈, 9-11 Fuk Wing St: 22.32894, 114.16635)"
+    checked: 2026-11-23
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Hong Kong Observatory climate normals 1991–2020 (February: 15.3–19.4 °C, 79% humidity)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status from MICHELIN's Hong Kong Bib list (rendered 2026-11-23). Only the buns (HK$35, 2025) and tea (HK$5) have a dated price; the rest is estimated. Opening time differs by source. Lunar New Year opening unknown: no notice found (a search snippet of an old MICHELIN page mentioned a 3-day closure; that page now redirects). Octopus/cards not confirmed. Trip.com read by web fetch."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: shopfront
+    caption: "The Fuk Wing Street shop (photo: Mk2010, CC BY-SA 3.0)"
+    hook: The chain that won a Michelin star for dim sum, its famous bun, and a ticket machine at the door.
+  - type: quick_facts
+    time_needed: 45 min–1 h
+    best_time: "Opening time, or mid-afternoon"
+    extra:
+      - { label: Solo, value: Yes, detail: "The ticket machine has a 1–2 person queue" }
+      - { label: Pay, value: Bring cash, detail: "Cards and Octopus not confirmed at this branch" }
+      - { label: LNY 2027, value: Feb 5 or 9, detail: "Feb 6–8 opening unknown; call to check" }
+  - type: highlights
+    items:
+      - title: The baked char siu bun
+        text: "**酥皮焗叉燒包**: a crackly, sweet crust over sticky barbecue pork. Every source names it first; HK$35 for three in 2025."
+      - title: Dim sum made to order
+        text: "MICHELIN counts 20-plus dim sum here, some swapped every two or three months. Its picks: har gow, the baked buns and tangerine-peel beef balls."
+      - title: Michelin, cheaply
+        text: "The chain won a star within a year of opening in 2009. This shop is on MICHELIN's current Hong Kong **Bib Gourmand** list."
+      - title: Easy alone
+        text: "Take a number at the self-service machine at the door. It sorts parties by size, with a separate queue for 1–2 people."
+  - type: prose
+    title: From star to Bib
+    text: |-
+      Tim Ho Wan opened in 2009 as a 20-seat shop in Mong Kok. Within a year it had a Michelin star, and the press called it the world's cheapest Michelin-star restaurant. It now has branches in Hong Kong, mainland China, Singapore and the US, and the Fuk Wing Street shop in Sham Shui Po is one of its early branches.
+
+      Today MICHELIN lists this branch as a **Bib Gourmand**, its label for good cooking at a low price, with the tags "Worth Queueing For" and "Eat like a local". Prices have risen: a 2025 visitor paid HK$35 for the buns, about HK$10 more than older menus. It is still one of the cheapest Michelin-listed meals in the city.
+  - type: gallery
+    images:
+      - { file: queue-2019, caption: "The queue outside, January 2019" }
+      - { file: har-gow, caption: "Har gow (蝦餃), shrimp dumplings" }
+      - { file: turnip-cake, caption: "Pan-fried turnip cake (蘿蔔糕)" }
+      - { file: beef-balls, caption: "Steamed beef balls" }
+  - type: quote
+    variant: vibe
+    text: Paper ticket in hand, a basket of buns, the market racket of Sham Shui Po outside.
+  - type: cost_breakdown
+    items:
+      - { label: "Baked BBQ pork buns (3)", local: 35, brl: 26.51 }
+      - { label: Tea charge per person, local: 5, brl: 3.79 }
+      - { label: "About two more baskets", local: 60, brl: 45.45, estimate: true }
+  - type: menu
+    items:
+      - name: Baked BBQ pork buns (3)
+        name_local: 酥皮焗叉燒包
+        price_local: 35
+        price_brl: 26.51
+        note: "The signature. 2025 price from a blog visit to this branch"
+        tag: must-try
+      - name: Shrimp dumplings (har gow)
+        name_local: 蝦餃
+        note: "A MICHELIN pick; no recent price found"
+        tag: signature
+      - name: Tangerine-peel beef balls
+        name_local: 陳皮牛肉球
+        note: "A MICHELIN pick; no recent price found"
+        tag: signature
+      - name: Pan-fried turnip cake
+        name_local: 香煎蘿蔔糕
+        note: "On the chain's signature list; no recent price found"
+    note: "Some dishes rotate every 2–3 months (MICHELIN). Tea is HK$5 per person (2025)."
+  - type: map
+    note: "Shop on the ground floor of Ka Wui Building (嘉匯大廈). Show the Chinese address to a taxi driver."
+  - type: tips
+    variant: insider
+    items:
+      - "Waits of 30–60 minutes are common (Trip.com's summary). WeekendHK says skip peak meal times; one reviewer found no queue at 16:00 UTC+8."
+      - "It is noisy inside, so stay near the door to hear your number called (Carol's blog)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Lunar New Year**: opening on Feb 6–8 is unknown. Plan for Fri Feb 5 or Tue Feb 9, or call **+852 2788 1226** first."
+      - "Bring cash. Trip.com's summary says payment varies by branch; one reviewer says some branches don't take cards."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: Mild, humid, often grey; little rain
+    note: "February averages 15.3–19.4 °C with 79% humidity (HKO normals). Queuing outside is comfortable."
+    wear: Light jacket or sweater

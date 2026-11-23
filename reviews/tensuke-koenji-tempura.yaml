@@ -1,0 +1,19 @@
+# Independent review of tensuke-koenji-tempura. Written by `./atr review`; do not edit by hand.
+id: tensuke-koenji-tempura
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 430d44ca57e79ab3a97dd0ae51bce4b9336636a9ae4b65a5ddb46411061fa3d3
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[2].items[0].text
+    problem: The 'The egg' highlight says the egg tempura comes only with the egg lunch. The page's own menu block, taken from Tabelog's menu page, also lists an 'Egg tempura rice bowl' at ¥1,900. The claim rests on one reviewer's photo caption, and the listed menu source contradicts it.
+    evidence: "blocks[2].items[0].text no longer says 'only'. It now gives both the egg lunch (¥1,900) and the egg tempura rice bowl (¥1,900), which matches https://tabelog.com/en/tokyo/A1319/A131904/13010553/dtlmenu/: \"Egg Lunch JPY 1,900\" and \"Egg Tempura Rice Bowl JPY 1,900\" (last updated 2026/05/31)."
+rereview_of: 841b86250806a205185f5ecb15db60953a8bdefbcde7b59d88d5d87bd012ce8b
+summary: "Finding 1 is fixed. The egg highlight now agrees with the Tabelog menu: both egg dishes cost ¥1,900. 'The set reviewers order' matches an Oct 2026 Tabelog review that opens with \\\"Egg Lunch JPY 1,900\\\". The confidence_note's Feb 16, 2027 date for the next guide is confirmed by the Michelin article opened with ./atr render. No open blockers or shoulds."
+model: claude-opus-5-5
+cost_usd: 0.349

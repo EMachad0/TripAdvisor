@@ -1,0 +1,16 @@
+# Independent review of hwangsaengga-kalguksu. Written by `./atr review`; do not edit by hand.
+id: hwangsaengga-kalguksu
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 8b4a17f82eb3f557e044fc5d740ca2e2425cc77cff759d04c86301459d348f00
+facts:
+  supported: 6
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: c047cb7b8d960e29ae2bafe3e711422088efb6e364e783faadbcd8480fb62391
+summary: The edits are supported. Wikipedia's Seoul climate table (1991–2020) gives January as −5.5 to 2.1 °C with 16.8 mm, which matches the weather block's −6/2 °C and 17 mm. On reservations, Michelin's page (opened with ./atr render) says "Please contact the restaurant directly to book a table" and lists +82 2-739-6334. Taste Korean Food says "No reservations accepted—first-come, first-served", so the page is right that the sources disagree, and the walk-in-first advice holds. There were no earlier findings and nothing new to fix.
+model: claude-opus-5-5
+cost_usd: 0.66

@@ -1,0 +1,22 @@
+# Independent review of jingmei-wuxi-noodles-yanping-road. Written by `./atr review`; do not edit by hand.
+id: jingmei-wuxi-noodles-yanping-road
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 8785baee8964085e8a38eb20dd7690b09538de0485544332ea64776b17d4cf5f
+facts:
+  supported: 8
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].items / blocks[4].text / blocks[7].items[2,3] / blocks[8].items[0]
+    problem: 'The page quotes Michelin several times: "loaded in flavour", xiaolongbao and yulan cake "worth the wait", "usually a queue at meal times", and a current Bib Gourmand. The Michelin page does not show its description to a fetch. The render cuts off at "As well as noodles, this unstuffy..." and shows no Bib label. Only "unstuffy", the address and the ¥ price could be checked. Rachel Gouk confirms only a Bib in 2023.'
+    evidence: https://www.viamichelin.com/maps/restaurants/poi/shanghai-_-0beb2170 is now in sources. WebFetch got 403, so I read it with ./atr render. It shows "Bib Gourmand" and says the stall is "unstuffy", the ribs are "loaded in flavour" and "xiao long bao and yu lan cake are worth the wait". It also confirms the three-white wonton filling. Every Michelin quote still on the page matches, and the "usually a queue" claim is gone.
+  - field: blocks[8].items[0]
+    problem: The tip says Michelin reports a queue at meal times. Michelin's full description, as shown on ViaMichelin, says nothing about a queue. Only the 2024 Ctrip reviews mention one.
+    evidence: The tip now credits the queue to Ctrip, not Michelin. https://you.ctrip.com/food/2/134016842.html has a 2024-01-28 review, "临近中午 门口已经开始有人陆续等位了" (people waiting at the door near noon), and a 2024-06-02 review, "还是排队等了会" (still queued a while).
+rereview_of: bfd0ae1800b6e7e2c688279b52735486961f64d22bd997fdee2b0f901bff17ef
+summary: Both earlier findings are resolved. The ViaMichelin copy, now in the sources, confirms the current Bib Gourmand and every Michelin quote on the page. The 2024 Ctrip reviews confirm the lunchtime queue. The changes add no new problems, and I found no blockers in the text that did not change.
+model: claude-opus-5-5
+cost_usd: 0.502

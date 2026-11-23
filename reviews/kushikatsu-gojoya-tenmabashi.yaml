@@ -1,0 +1,19 @@
+# Independent review of kushikatsu-gojoya-tenmabashi. Written by `./atr review`; do not edit by hand.
+id: kushikatsu-gojoya-tenmabashi
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 996ef7d1a7440dc4732bb62084c900faf296065c3193f8c6be90863c0e56641e
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.local
+    problem: The ¥2,950 total and the cost_breakdown/menu line charge ¥250 for the cabbage stick salad. Tabelog's menu marks that item "Included", so it is probably part of the omakase, and the source does not support it as an extra charge.
+    evidence: 'The ¥250 cabbage line is gone from cost.local (now 2700), cost.note, cost_breakdown and why. The menu row now notes that Tabelog marks the salad "Included". https://tabelog.com/en/osaka/A2701/A270104/27011721/dtlmenu/ shows "Chunky Cabbage Stick Salad Included … JPY 250" and "Price revision effective January 1, 2027: 1 stick: JPY 180 (tax included)", so 15 × ¥180 = ¥2,700 is right.'
+rereview_of: 3aa4f6e7d1221b84c35e505d62cbbea0f1037da750983a220be460e94a58e2ca
+summary: The earlier finding is resolved. The page drops the ¥250 salad charge, and the new ¥2,700 total (15 × ¥180, the 2027 price Tabelog gives) and its BRL figure of 101.06 at the stated rate are correct. The salad's menu note matches Tabelog's "Included" marker, and the page passes ./atr validate. No issues are open.
+model: claude-opus-5-5
+cost_usd: 0.347

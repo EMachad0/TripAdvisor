@@ -1,0 +1,19 @@
+# Independent review of lao-chengdu-san-yang-mian. Written by `./atr review`; do not edit by hand.
+id: lao-chengdu-san-yang-mian
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: a0240d9815bcdfe4258a602a5974083564171b6d57723fced3b07d8a1930ba3e
+facts:
+  supported: 5
+  unsupported: 2
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost.local
+    problem: The ¥19 a head is the only price on the page, and it comes from a Ctrip average built on 2 reviews. The `why` lists noodles, wontons and a dessert next to "About ¥19 a head", which reads as if all three cost ¥19 together. No source supports that.
+    evidence: "`why` no longer shows ¥19 beside the three dishes. cost.note and the highlights item now say the figure is Ctrip's average from only 2 reviews and is roughly one bowl. cost.note also says noodles + wontons + dessert will cost more. Ctrip still shows \"人均¥19\" from \"2条点评\" and gives no per-dish prices, so the page states the weakness openly instead of overclaiming: https://gs.ctrip.com/html5/you/foods/fooddetail/104/15994116.html"
+rereview_of: 49798595207891d42c3d4edbaa47e023bbbdd6cf3cda6aef1e4d51fcabdebd7c
+summary: 'The earlier cost finding is fixed: ¥19 is now labelled as a 2-review Ctrip average of about one bowl, and the page says a full meal costs more. The changed hours text and the 07:30 in the hook match Ctrip ("07:30-14:30, 17:30-20:00"). The page itself still flags the map pin as approximate. ViaMichelin returned 403, so the wording "spicy meat sauce" could not be checked again. The desktop dark screenshot did not run because the page was not built (--no-build); the phone screenshots rendered cleanly.'
+model: claude-opus-5-5
+cost_usd: 0.446

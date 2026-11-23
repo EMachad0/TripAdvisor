@@ -1,0 +1,24 @@
+# Independent review of kyorakutei-kagurazaka-soba. Written by `./atr review`; do not edit by hand.
+id: kyorakutei-kagurazaka-soba
+type: place
+reviewed: 2026-11-23
+verdict: fix
+content_hash: 371cf3881bbd01d34d4c3128cb95e51ad258e3980596f3fd22f6e195408d433f
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues:
+  - severity: should
+    field: blocks[0] (hero) / media
+    problem: "The page still has no photos: the media folder is empty and the hero is a gradient. The traveler never sees the shop front or the two-colour tray, and the page itself says the shop is hard to find in a side alley."
+    evidence: places/japan/tokyo/kyorakutei-kagurazaka-soba/media/ (empty); build/shots/kyorakutei-kagurazaka-soba-phone-light-s01.png
+    fix: Add a photo of the shop or the ２色そば tray from a source whose licence allows it, with credit. If you use the queued street photo instead, caption it as Kagurazaka, not as the shop.
+resolved:
+  - field: blocks[7].note (map)
+    problem: 'The new map note says "follow the map pin, not the main street", but location.approximate is true and the same map card says "The pin is approximate: it marks the block or complex, not the door. Use the address." The card gives two opposite instructions for finding a shop in an alley.'
+    evidence: blocks[7].note no longer says to follow the pin. It now says to walk up Kagurazaka-dōri to 3-chōme, find the Kagurazaka-kan building in a side alley and search the Japanese address, which fits the 'pin is approximate… Use the address' line (build/shots/kyorakutei-kagurazaka-soba-phone-light-s05.png). Tabelog https://tabelog.com/en/tokyo/A1309/A130905/13000479/ lists '東京都新宿区神楽坂3-6 神楽坂館 1F', and its reviews (…/dtlrvwlst/) say 'tucked away in a side alley on the [Kagurazaka slope]'.
+rereview_of: db67165237318c01de88530702164c9ecc5e1c262aac4af495bcf345b65c83a0
+summary: "The new map note is supported by Tabelog's address and reviews (3-6 Kagurazaka, Kagurazaka-kan 1F, in a side alley) and no longer contradicts the approximate-pin warning, so finding 2 is resolved. Finding 1 is still open: the page has no photo of the shop or the dish."
+model: claude-opus-5-5
+cost_usd: 0.38

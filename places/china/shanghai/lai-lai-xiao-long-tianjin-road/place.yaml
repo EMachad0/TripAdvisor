@@ -1,0 +1,154 @@
+id: lai-lai-xiao-long-tianjin-road
+name: "Lai Lai Xiao Long: Crab Soup Dumplings"
+short_name: Lai Lai Xiao Long
+name_local: 莱莱小笼·乔艾（天津路店）
+name_romanized: Láilái Xiǎolóng
+country: china
+city: shanghai
+area: Huangpu · Tianjin Road
+category: food
+fame: popular
+tags: [xiaolongbao, soup-dumplings, crab, michelin-listed, cheap-eats, queue]
+kind: Eat
+why: "Bib Gourmand soup dumplings in a tiny lane shop just off Nanjing Road: pork-and-matsutake xiaolongbao ¥33, crab roe ¥78 for eight."
+cost:
+  local: 46
+  currency: CNY
+  brl: 40.9
+  note: "One basket of pork-and-matsutake xiaolongbao plus blood soup (Trip.com menu). Average spend per person is ¥57–58"
+fx: { rate: 0.8892, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45–90 min with the queue
+best_time: "Around 09:00 UTC+8, or dinner before 20:00 UTC+8"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 09:00–14:30 and 15:30–21:00 UTC+8 (Trip.com); the city's 2026 guide says 08:00–14:00 and 15:00–20:00"
+  winter: "No winter hours or Christmas/New Year closures found. Both sources list it open every day with a break in the middle of the afternoon (UTC+8). Michelin says the crowd grows in hairy-crab season, and to expect to share a table."
+
+location:
+  address: 506 Tianjin Road, Huangpu, Shanghai
+  address_local: 上海市黄浦区天津路506号
+  lat: 31.23811
+  lng: 121.47264
+  nearest_transit: "People's Square (Lines 1, 2, 8), about 500 m"
+
+sources:
+  - url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/qiao-ai-lai-lai-xiao-long-huangpu
+    title: "Qiao Ai Lai Lai Xiao Long (Huangpu) — MICHELIN Guide (Bib Gourmand icon, ¥, 506 Tianjin Road, crab roe xiaolongbao)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/qiao-ai-lai-lai-xiao-long-huangpu
+    title: "莱莱小笼·乔艾 — MICHELIN Guide, Chinese text (中午休店一小时，人多时须拼桌; cheap pork xiaolongbao too)"
+    checked: 2026-11-23
+  - url: https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260316/00b0c6d1698d406c8d532a6e169e1a1e.html
+    title: "'Xiaolongbao': A small dumpling with a big story — Shanghai gov. (2026-03-16): 08:00–14:00, 15:00–20:00, about ¥58 per person"
+    checked: 2026-11-23
+  - url: https://www.trip.com/restaurant/china/shanghai/detail/qiao-ai-lai-lai-xiao-long-15768041/
+    title: "Qiao Ai Lai Lai Xiao Long — Trip.com (hours 09:00–14:30, 15:30–21:00; menu prices; English menu; June 2026 review on ordering and queue)"
+    checked: 2026-11-23
+  - url: https://www.meet-in-shanghai.net/en/news/global-tourists-follow-ai-social-media-to-shanghais-neighborhood-dumpling-shops-378047
+    title: "Tourists follow AI to Shanghai's dumpling shops — Shanghai Daily via Meet in Shanghai (50+ queue, 80% foreign diners)"
+    checked: 2026-11-23
+  - url: https://www.trip.com/guide/info/alipay-vs-wechat-pay.html
+    title: "Alipay vs WeChat Pay for foreign tourists — Trip.com guide (2026-10-10)"
+    checked: 2026-11-23
+  - url: https://www.viamichelin.com/maps/restaurants/poi/shanghai-_-391528c9
+    title: "Qiao Ai Lai Lai Xiao Long (Huangpu) — ViaMichelin (states \"Bib Gourmand\" in text; Michelin's description)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai — Wikipedia (climate table, Xujiahui 1991–2020: December mean 5.3–11.3 °C)"
+    checked: 2026-11-23
+  - url: https://www.openstreetmap.org/?mlat=31.23811&mlon=121.47264#map=18/31.23811/121.47264
+    title: Lai Lai Xiao Long, 506 Tianjin Road — OpenStreetMap (pin)
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status: icon on Michelin's page; its full text read in Chrome with the cookie banner dismissed (2026-11-23). Prices: Trip.com menu data, undated; no pork-only price found. Trip.com and the city's 2026 guide give different hours; both shown. No source names payment apps. Trip.com pages read in Chrome (./atr render); the link checker is blocked there. Metro distance: my straight-line measure."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    hook: Thirty square metres, three floors, and a queue down Tianjin Road for crab-roe soup dumplings.
+  - type: quick_facts
+    time_needed: 45–90 min with the queue
+    best_time: Around 09:00, or before 20:00
+    extra:
+      - { label: Order, value: At the counter first, detail: "Order at the front of the queue, then sit" }
+      - { label: Menu, value: English menu, detail: "Listed as a feature on Trip.com" }
+      - { label: Solo?, value: Yes, detail: "Shared small tables; one basket is a meal" }
+  - type: highlights
+    items:
+      - title: Crab roe, all day
+        text: "Michelin says the **crab roe xiaolongbao** is the one most people come for. The full crab-paste basket is ¥78 for eight on Trip.com's menu."
+      - title: A cheaper basket
+        text: "Pork with matsutake mushroom is **¥33** a basket. With a ¥13 bowl of chicken-and-duck blood soup, that's lunch for about R$41."
+      - title: A block off Nanjing Road
+        text: "506 Tianjin Road is about 200 m from Dayin Hostel and a short walk from Nanjing Road and People's Square."
+      - title: Elbow to elbow
+        text: "Shanghai Daily counts about **80% foreign diners** now, all squeezed onto small shared tables across three tiny floors."
+  - type: prose
+    title: Thirty years on one lane
+    text: |-
+      Lai Lai started in 1994 selling ordinary Shanghai snacks and only later went all in on crab roe, Shanghai Daily reports. Michelin describes cooks making xiaolongbao non-stop in a shop "tucked away in a bustling alley", and in crab season putting crab into the wontons, spring rolls and soups too.
+
+      It is famous now. The line often runs dozens of metres, and the shop took the unit next door for overflow seating. A Trip.com reviewer in June 2026 waited about 20 minutes. Go early, order at the counter, and share a table.
+  - type: quote
+    variant: vibe
+    text: Bite a hole, sip the broth, then the crab, at a table you share with three strangers.
+  - type: cost_breakdown
+    items:
+      - { label: "Pork and matsutake xiaolongbao (1 basket)", local: 33, brl: 29.34 }
+      - { label: "Chicken and duck blood soup", local: 13, brl: 11.56 }
+      - { label: "Crab-paste xiaolongbao (8), instead or as well", local: 78, brl: 69.36, optional: true }
+  - type: menu
+    items:
+      - name: Crab-paste xiaolongbao (8)
+        name_local: 蟹膏小笼
+        price_local: 78
+        price_brl: 69.36
+        note: The crab roe dumplings Michelin says most diners order.
+        tag: must-try
+      - name: Pork and matsutake xiaolongbao
+        name_local: 松茸鲜肉小笼
+        price_local: 33
+        price_brl: 29.34
+        note: The cheaper basket; a solo meal with soup.
+        tag: cheap
+      - name: Chicken and duck blood soup
+        name_local: 鸡鸭血汤
+        price_local: 13
+        price_brl: 11.56
+        note: The classic Shanghai side to xiaolongbao.
+      - name: Crab and vegetable rice soup
+        name_local: 蟹粉菜泡饭
+        price_local: 42
+        price_brl: 37.35
+        note: Rice in crab-and-greens broth, if one basket isn't enough.
+        tag: signature
+    note: "Prices in RMB from Trip.com's menu data (undated; the page shows USD by default). A June 2026 review there says baskets of 4–8 run from ¥28 to ¥158."
+  - type: map
+    note: "From People's Square station, walk north towards Nanjing Road; Tianjin Road runs parallel, one block north."
+  - type: tips
+    variant: insider
+    items:
+      - "You order at the counter **before** you sit, as a Trip.com reviewer describes. Decide while you queue."
+      - "The city guide's tip: try the first dumpling without vinegar, then dip the next one and compare."
+      - "Spring 2026 reports mention scaffolding outside and a new branch planned across the road, so look on both sides of Tianjin Road."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Restaurant QR codes in China often only work in WeChat, and some merchant codes reject foreign cards (Trip.com, Oct 2026). Set up both Alipay and WeChat Pay with your card before Dec 6."
+      - "The shop closes for **one hour** between the lunch and dinner sittings (Michelin). Don't turn up in the gap."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "December averages: cool, damp, often grey"
+    note: "The queue is outside on the street. A hot basket on a cold grey day is the point."
+    wear: Warm jacket
+  - type: pairs_well
+    items:
+      - { id: dayin-hostel-east-nanjing-road, note: "About 200 m away: breakfast-to-bed in one block" }
+      - { id: peoples-park-marriage-market, note: "Ten minutes south-west; weekend afternoons" }
+      - { id: da-hu-chun-shengjian, note: "The other Shanghai bun, by the Bund" }
+      - { id: gong-de-lin-vegetarian, note: "About 1 km west on Nanjing West Road" }

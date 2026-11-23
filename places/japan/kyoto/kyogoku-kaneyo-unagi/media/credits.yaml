@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: shinkyogoku-arcade
+  title: File:Shinkyogoku shopping arcade, Kyoto, August 2019.jpg
+  author: NevinThompson
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Shinkyogoku_shopping_arcade,_Kyoto,_August_2019.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Shinkyogoku_shopping_arcade%2C_Kyoto%2C_August_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Shinkyōgoku shopping arcade, Kyoto, Japan.
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-23
+  origin: commons

@@ -1,0 +1,159 @@
+id: hwangsaengga-kalguksu
+name: "Hwangsaengga Kalguksu"
+short_name: Hwangsaengga
+name_local: 황생가칼국수
+name_romanized: Hwangsaengga Kalguksu
+country: korea
+city: seoul
+area: Jongno · Bukchon
+category: food
+fame: popular
+tags: [kalguksu, mandu, michelin-listed, bib-gourmand, cheap-eats, queue, solo-friendly]
+kind: Eat
+why: "Michelin Bib Gourmand knife-cut noodles in beef-bone broth for ₩13,000, with fist-sized dumplings folded at the door, a short walk from Gyeongbokgung."
+cost:
+  local: 13000
+  currency: KRW
+  brl: 57.63
+  note: "One bowl of sagol kalguksu, 2026 menu price. Add a plate of king mandu (₩13,000) if you are hungry"
+fx: { rate: 0.004433, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 45 min–1.5 h with the queue
+best_time: "Weekday 14:30–17:00 UTC+9, between the rushes"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 11:00–21:30 UTC+9, last order 20:30 UTC+9, no break time"
+  closed: "Seollal and Chuseok days"
+  winter: "No winter hours announced; Michelin lists the same 11:00–21:30 UTC+9 every day. Closed on Seollal (Lunar New Year) and Chuseok, which falls after you leave Seoul (Jan 11–20). Kongguksu (cold soy noodles) is summer only."
+
+location:
+  address: "78 Bukchon-ro 5-gil, Jongno-gu, Seoul 03053"
+  address_local: 서울특별시 종로구 북촌로5길 78
+  lat: 37.58014
+  lng: 126.98068
+  nearest_transit: "Anguk (Line 3), then 10–15 min walk north toward MMCA"
+
+sources:
+  - url: https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurant/hwangsaengga-kalguksu
+    title: "Hwangsaengga Kalguksu — MICHELIN Guide Seoul (address, ₩ band, daily 11:00–21:30, queues, mandu made at the door)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurants/bib-gourmand
+    title: "Seoul Bib Gourmand restaurants — MICHELIN Guide (lists Hwangsaengga Kalguksu, ₩ · Kalguksu)"
+    checked: 2026-11-23
+  - url: https://polle.com/place/4GpNip/%ED%99%A9%EC%83%9D%EA%B0%80%20%EC%B9%BC%EA%B5%AD%EC%88%98
+    title: "황생가 칼국수 본점 — Polle (menu with prices: 사골칼국수 ₩13,000, 왕만두 ₩13,000, 수육/보쌈 R/L sizes)"
+    checked: 2026-11-23
+  - url: https://wheretoeatseoul.blogspot.com/2026/02/blog-post_22.html
+    title: "The Soul of Bukchon: Hwangsaengga Kalguksu 2026 Guide — Where to Eat Seoul (2026-02-26; ₩13,000 noodles and mandu, Anguk walk, waitlist)"
+    checked: 2026-11-23
+  - url: https://www.ktriptips.com/kor/food/837020
+    title: "황생가칼국수 — K-Trip Tips (updated 2026-09-18; 11:00–21:30, last order 20:30, closed Seollal and Chuseok)"
+    checked: 2026-11-23
+  - url: https://www.tastekoreanfood.com/eatout/hwangsaengga-kalguksu-seouls-michelin-korean-knife-cut-noodles
+    title: "Hwangsaengga Kalguksu — Taste Korean Food (no break time, cards accepted, one main per person, wait times by hour)"
+    checked: 2026-11-23
+  - url: https://www.openstreetmap.org/?mlat=37.58014&mlon=126.98068#map=18/37.58014/126.98068
+    title: "Hwang Saeng Ga Noodles Soup, 78 Bukchon-ro 5-gil — OpenStreetMap (pin)"
+    checked: 2026-11-23
+  - url: https://en.wikipedia.org/wiki/Seoul
+    title: "Seoul — Wikipedia (climate data 1991–2020: January mean −5.5 °C to 2.1 °C, 16.8 mm)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status from the Michelin Seoul Bib list (rendered 2026-11-23). ₩13,000 from Polle's menu and a Feb 2026 blog; older reviews say ₩12,000, so it may move again. Cards, no break time, the one-main-per-person rule and wait times only from Taste Korean Food (undated, images Dec 2025). No source says outright that solo diners are seated. Mandu count per plate not confirmed."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: samcheong-dong-street
+    caption: "Samcheong-dong, a few minutes' walk away; no free photo of the shop itself"
+    hook: A clean beef-bone broth, soft hand-cut noodles and giant dumplings pleated at the entrance while you wait.
+  - type: quick_facts
+    time_needed: 45 min–1.5 h with the queue
+    best_time: "Weekday 14:30–17:00 UTC+9"
+    extra:
+      - { label: Solo, value: One main each, detail: "Each person orders at least one main, so a bowl of noodles is enough" }
+      - { label: Payment, value: Cash or card, detail: "Visa, Mastercard and AmEx per Taste Korean Food" }
+  - type: highlights
+    items:
+      - title: Bib Gourmand for ₩13,000
+        text: "On the MICHELIN Guide Seoul **Bib Gourmand** list in the cheapest ₩ band. A bowl of sagol kalguksu is ₩13,000 (about R$58)."
+      - title: Dumplings made at the door
+        text: "Michelin's inspectors note staff at the entrance folding **oversized mandu** from fresh market ingredients. You watch them while you queue."
+      - title: Hot broth on a frozen day
+        text: "The highlight, says Michelin, is the soft kalguksu in a **deeply comforting beef-bone broth**. In a Seoul January that is the whole point."
+      - title: A palace lunch
+        text: "It sits by MMCA Seoul, across from the National Folk Museum, so it fits a morning at Gyeongbokgung before your night shift."
+  - type: prose
+    title: Kalguksu, Bukchon style
+    text: |-
+      Kalguksu means "knife noodles": wheat noodles cut with a knife rather than pulled. Hwangsaengga makes the **sagol** version, in a beef-bone broth, and the Where to Eat Seoul guide lists fresh geotjeori kimchi on the side.
+
+      Michelin keeps it on the Seoul Bib Gourmand list for value and calls it a beloved noodle and dumpling specialist with long queues throughout the day. Its own advice is to come outside peak hours.
+  - type: gallery
+    images:
+      - { file: kalguksu-bowl, caption: "A bowl of kalguksu (not at Hwangsaengga)" }
+      - { file: hanok-rooftops, caption: "Bukchon hanok roofs, the neighbourhood around the shop" }
+  - type: quote
+    variant: vibe
+    text: Fogged windows, a queue in puffer jackets, and a bowl too hot to rush.
+  - type: cost_breakdown
+    items:
+      - { label: "Sagol kalguksu (사골칼국수)", local: 13000, brl: 57.63 }
+      - { label: "King mandu (왕만두), to share with no one", local: 13000, brl: 57.63, optional: true }
+  - type: menu
+    items:
+      - name: Beef-bone broth kalguksu
+        name_local: 사골칼국수
+        price_local: 13000
+        price_brl: 57.63
+        note: The signature. One bowl is a full solo meal.
+        tag: must-try
+      - name: King mandu
+        name_local: 왕만두
+        price_local: 13000
+        price_brl: 57.63
+        note: "Big handmade dumplings, a plate. Fine for one if hungry; good to split"
+        tag: signature
+      - name: King mandu soup
+        name_local: 왕만두국
+        price_local: 13000
+        price_brl: 57.63
+        note: The dumplings in the same broth, if you want both in one bowl
+      - name: Mushroom hot pot
+        name_local: 버섯전골
+        price_local: 22000
+        price_brl: 97.53
+        note: A hot pot; likely meant for two or more
+      - name: Boiled beef / pork (suyuk, bossam)
+        name_local: 수육 / 보쌈
+        price_local: 44000
+        price_brl: 195.05
+        note: "From ₩44,000 (bossam R) to ₩65,000 (baek-suyuk L): sharing plates, too big for one"
+    note: "Prices from Polle's menu listing, matching the Feb 2026 blog for noodles and mandu. Kongguksu (₩16,000) is summer only."
+  - type: map
+    note: "From Anguk Station walk north toward MMCA Seoul; the shop is in the alley across from the National Folk Museum, toward Jeongdok Library."
+  - type: tips
+    variant: insider
+    items:
+      - "Go **14:30–17:00 UTC+9** on a weekday: Taste Korean Food puts that wait at 15–30 min, against 30–60 min at 12:00–13:30 and 18:00–19:30."
+      - "On work days (Jan 11–15, 18–19) a late lunch here still leaves hours before your 21:00 UTC+9 shift."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Plan on the walk-in waiting list at the door. Sources disagree on reservations (Michelin says to contact the shop); to try, call +82 2-739-6334."
+      - "Last order is **20:30 UTC+9**, an hour before closing."
+      - "Older reviews and guides say ₩12,000; the 2026 menu says ₩13,000."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 2
+    conditions: "Freezing and dry: January averages −5.5 to 2.1 °C, 17 mm precipitation"
+    note: "The queue is outdoors, so the wait is the cold part. Inside, the broth does the rest."
+    wear: Down jacket, hat and gloves for the line
+  - type: pairs_well
+    items:
+      - { id: gyeongbokgung-palace, note: "A short walk west: the palace in the morning, noodles after" }
+      - { id: changdeokgung-secret-garden, note: "Walk east through Bukchon to the next palace" }
+      - { id: sanchon-temple-food-insadong, note: "Insadong's temple-food option, south past Anguk" }

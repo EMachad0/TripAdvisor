@@ -1,0 +1,16 @@
+# Independent review of liu-ma-ma-dumplings-798. Written by `./atr review`; do not edit by hand.
+id: liu-ma-ma-dumplings-798
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: 333ca46f5d9405009d5e6d011f796d5b3dc9d0eadf8d3784edf41d59d1dbfa89
+facts:
+  supported: 2
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: bc5add771bcef0f0d6bfad6a8b04b292065b243262ecd128dd9d0e2fa541b057
+summary: Both stations in the edited nearest_transit are backed by listed sources. Ctrip gives Gaojiayuan (Line 12) Exit B at 1.3 km ('距地铁12号线高家园站(B口)1.3km'), and Visit Beijing names Wangjing South for the 798 shop ('交通：地铁14号线望京南站'). The ViaMichelin title change is only a source label, and the unchanged content has no blockers, so nothing needs fixing.
+model: claude-opus-5-5
+cost_usd: 0.375

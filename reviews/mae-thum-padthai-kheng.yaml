@@ -1,0 +1,22 @@
+# Independent review of mae-thum-padthai-kheng. Written by `./atr review`; do not edit by hand.
+id: mae-thum-padthai-kheng
+type: place
+reviewed: 2026-11-23
+verdict: pass
+content_hash: e9d2dc00837183d08cb874047f98b3a4d5bf72d983e4014b5ac28824096d9ba0
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: cost
+    problem: The only price on the page, ฿120, comes from one diner's complaint as quoted on an aggregator. The source also says that diner found it overpriced, with tiny shrimp and greasy noodles. The page drops that warning and presents ฿120 as the plain cost, with no cheaper option or way to check the price.
+    evidence: cost.note, blocks[3].items[3] and the shrimp pad thai note in blocks[6] now say ฿120 is one diner's figure, that the diner found it poor value (tiny shrimp, greasy noodles), and that the price is unconfirmed, with a phone number to call. https://www.visitthailandtoday.com/restaurants/bangkok/maethum-padthai — "One diner paid 120 baht for a shrimp version and thought the shrimp were tiny and the noodles greasy"; the same page lists Phone "+66 88 951 6145".
+  - field: blocks[6].items[2]
+    problem: '"Pad thai wrapped in egg" is credited to "Pearl (Nov 2026)", but no Pearl source appears in sources, so the dish cannot be checked.'
+    evidence: The 'Pad thai wrapped in egg' item credited to Pearl has been removed from blocks[6].items, so no fact is left without a source.
+rereview_of: 68ed36950c8b4c526d72d946a299634be5d20280a116f9fa00f93f79468fd52e
+summary: Both earlier shoulds are fixed. The ฿120 price is now labelled as one unhappy diner's unconfirmed figure, with the shop's phone number, which Visit Thailand Today lists. The Pearl dish is gone. The revised newcomer line matches Michelin's article, which says "Among the newcomers, 9 are in Bangkok & Surrounding Provinces". Michelin's restaurant page does not show the phone number, but a listed source does. No blockers or shoulds remain.
+model: claude-opus-5-5
+cost_usd: 0.412

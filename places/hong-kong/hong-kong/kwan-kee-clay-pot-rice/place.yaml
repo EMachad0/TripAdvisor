@@ -1,0 +1,173 @@
+id: kwan-kee-clay-pot-rice
+name: "Kwan Kee Clay Pot Rice"
+short_name: Kwan Kee
+name_local: 坤記煲仔小菜
+name_romanized: Kwan Kee Bou Jai Siu Choi
+country: hong-kong
+city: hong-kong
+area: Sai Ying Pun
+category: food
+fame: popular
+tags: [claypot-rice, cantonese, michelin-listed, bib-gourmand, cheap-eats, queue, cash-only, dinner]
+kind: Eat
+why: "Bib Gourmand claypot rice in Sai Ying Pun: one pot of white eel and chicken rice for HK$135, cooked to order, with a scorched crust at the bottom."
+
+cost:
+  local: 135
+  currency: HKD
+  brl: 102.26
+  note: "One white eel and chicken claypot rice (HK$135, Feb 2026 blog). Minimum spend HK$100 per person. Cash only"
+fx: { rate: 0.7575, date: 2026-11-20, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "1.5–2 h (queue + 30–60 min cook)"
+best_time: "Queue before 17:30 (UTC+8) opening"
+
+book_ahead:
+  required: recommended
+  lead_days: 1
+  lead_time: "Call the day before or that afternoon; sources disagree on bookings"
+  method: phone
+  links:
+    - label: "Call Kwan Kee"
+      url: "tel:+85228037209"
+      note: "Cantonese-speaking staff; ask for a seat at 17:30 (UTC+8)"
+  notes: "Michelin says the shop manages its own bookings and to contact it directly; HK01 (Nov 2026) says to phone to reserve or come early. A 2026 Taiwanese blog says no reservations. If the call fails, queue before opening."
+
+hours:
+  summary: "Daily 17:30–22:30 (UTC+8) per HK01; one Oct 2026 blog also lists lunch 11:00–14:30, so call to check"
+  winter: "Claypot rice is Hong Kong's cold-season dish, so January–February is peak demand. Lunar New Year 2027 (Sat Feb 6): I found no holiday notice from Kwan Kee for this or past years (2025, 2026) on its listings or in news. Call +852 2803 7209 before going on Feb 5–8; Tue Feb 9 is the safest bet."
+
+location:
+  address: "Shop 1, G/F, Wo Yick Mansion, 263 Queen's Road West, Sai Ying Pun, Hong Kong"
+  address_local: 香港西營盤皇后大道西263號和益大廈地下1號舖
+  lat: 22.28704
+  lng: 114.14313
+  nearest_transit: "Sai Ying Pun MTR (Island Line), about 200 m"
+
+sources:
+  - url: https://guide.michelin.com/hk/en/hong-kong-region/hong-kong/restaurants/bib-gourmand
+    title: "Hong Kong Bib Gourmand restaurants — MICHELIN Guide (lists Kwan Kee Clay Pot Rice (Queen's Road West), $ · Cantonese)"
+    checked: 2026-11-23
+  - url: https://guide.michelin.com/hk/en/hong-kong-region/hong-kong/restaurant/kwan-kee-clay-pot-rice-queen-s-road-west
+    title: "Kwan Kee Clay Pot Rice (Queen's Road West) — MICHELIN Guide (address, $ price, \"manages its own bookings\")"
+    checked: 2026-11-23
+  - url: "https://www.hk01.com/食玩買/60396371/天文台料周六分區11-c-煲仔飯24推介-廟街炭爐燒-港島黃金飯焦"
+    title: "煲仔飯24推介 — HK01 (2026-11-16; Kwan Kee hours 17:30–22:30 daily, phone 2803 7209, call to book or go early)"
+    checked: 2026-11-23
+  - url: https://ewithu.app/%E9%A6%99%E6%B8%AF%E7%BE%8E%E9%A3%9F/2772/
+    title: "香港西環｜坤記煲仔小菜 — ewithu (2026-02-03; white eel and chicken rice HK$135, HK$100 minimum, cash only, 17:30–22:00)"
+    checked: 2026-11-23
+  - url: https://icecreamcat.tw/kwan-kee/
+    title: "坤記煲仔小菜 — 冰淇淋貓 (2026-10-08; preserved meat and spare rib rice HK$115, pork bone pot ~HK$248, cash only, no e-payment)"
+    checked: 2026-11-23
+  - url: https://wanderlog.com/place/details/171455
+    title: "Kwan Kee Claypot Rice — Wanderlog (Google reviews Mar–Oct 2026: cash only, HK$100 minimum, shared round tables, waits)"
+    checked: 2026-11-23
+  - url: https://suni.tw/hongkong-food2/
+    title: "坤記煲仔小菜 — 欣晴 (Nov 2024; claypot rice HK$95–110, pork bone pot HK$248 to share, ~200 m from Sai Ying Pun MTR)"
+    checked: 2026-11-23
+  - url: https://www.als.gov.hk/lookup?q=263%20Queen%27s%20Road%20West
+    title: "HK Government Address Lookup Service — Wo Yick Mansion, 263 Queen's Road West (WGS84 coordinates)"
+    checked: 2026-11-23
+  - url: https://www.hko.gov.hk/en/cis/normal/1991_2020/normals.htm
+    title: "Hong Kong Observatory climate normals 1991–2020 (February)"
+    checked: 2026-11-23
+confidence: medium
+confidence_note: "Bib status from Michelin's current HK Bib list (rendered 2026-11-23); its restaurant page showed no hours, so hours are from HK01 (to 22:30) and ewithu/Trip.com (22:00). An Oct 2026 blog also lists lunch. Prices from 2026 blogs, not a menu. No Lunar New Year notice found for any year. Octopus unconfirmed (one blog: no e-payment). Sources disagree on bookings."
+last_updated: 2026-11-23
+
+blocks:
+  - type: hero
+    image: shopfront-evening
+    focus: top
+    caption: "The red Kwan Kee sign on the Kwai Heung Street side, Feb 2021"
+    hook: Rice cooked to order in its own pot, the crust at the bottom scraped out last.
+  - type: quick_facts
+    time_needed: "1.5–2 h"
+    best_time: "In line before 17:30 (UTC+8)"
+    extra:
+      - { label: Pay, value: Cash only, detail: "No cards or e-payment per a 2026 blog; bring HK$ notes" }
+      - { label: Minimum, value: HK$100 per person, detail: "One claypot rice already passes it" }
+      - { label: Solo, value: Yes, detail: "Shared round tables; order one pot for yourself" }
+  - type: highlights
+    items:
+      - title: The crust
+        text: "Each claypot rice is cooked to order, so every pot comes with its own scorched layer of rice at the bottom. Scrape it out last."
+      - title: White eel is the order
+        text: "The **white eel and chicken** pot (白鱔滑雞煲仔飯) is the one reviewers single out. A Feb 2026 blog paid **HK$135** (about R$102)."
+      - title: Fine alone
+        text: "A HK$100 minimum per head is the only rule, and one pot clears it. Staff seat you at shared round tables, so a solo diner gets a seat."
+      - title: Old Sai Ying Pun
+        text: "Michelin notes the red sign and basic interior: a plain room on Queen's Road West, on Michelin's Bib Gourmand list for good, cheap cooking."
+  - type: prose
+    title: Why claypot rice in February
+    text: |-
+      Kwan Kee's claypot rice comes with chicken, white eel or **lap mei** (Cantonese cured meat and sausage), each cooked in its own pot. HK01's advice for skipping the queue: phone ahead or come early.
+
+      Staff ask for your order as soon as you sit, because the rice takes long: 2026 reviews describe 25 minutes to over an hour between ordering and the pot arriving. An Oct 2026 blog puts the stir-fries and steamed dishes at about HK$70–120 each if you want a side.
+  - type: gallery
+    images:
+      - { file: queue-outside, caption: "The queue outside before opening, Sept 2022" }
+      - { file: kwai-heung-street-night, caption: "Kwai Heung Street at night; Kwan Kee's lit sign on the left" }
+  - type: quote
+    variant: vibe
+    text: Cash on the table, a lid lifted off a black pot, and a spoon scraping the crust.
+  - type: book_ahead
+    steps:
+      - { days_before: 1, text: "Phone **+852 2803 7209** and ask for a table at 17:30 (UTC+8). Ask if they are open during Lunar New Year." }
+      - { days_before: 0, text: "No booking? Join the queue before 17:30 and order the claypot rice as soon as you sit." }
+  - type: cost_breakdown
+    items:
+      - { label: "White eel and chicken claypot rice", local: 135, brl: 102.26 }
+      - { label: "Steamed spare ribs in black bean sauce", local: 95, brl: 71.96, optional: true }
+  - type: menu
+    items:
+      - name: White eel and chicken claypot rice
+        name_local: 白鱔滑雞煲仔飯
+        price_local: 135
+        price_brl: 102.26
+        note: "The house favourite. Price from a Feb 2026 blog."
+        tag: must-try
+      - name: Preserved meat and spare rib claypot rice
+        name_local: 臘味排骨煲仔飯
+        price_local: 115
+        price_brl: 87.11
+        note: "The winter classic with Chinese sausage. Price from an Oct 2026 blog."
+        tag: signature
+      - name: Pork bone pot
+        name_local: 招牌豬骨煲
+        price_local: 248
+        price_brl: 187.86
+        note: "Bones, corn, radish and white pepper. Sized for a group, not one person."
+      - name: Steamed spare ribs in black bean sauce
+        name_local: 豉汁蒸肉排
+        price_local: 95
+        price_brl: 71.96
+        note: "A side to eat while the rice cooks. Feb 2026 price."
+      - name: Salt and pepper Bombay duck
+        name_local: 椒鹽九肚魚
+        note: "Popular stir-fry; stir-fries run about HK$70–120 each"
+    note: "Prices from 2025–2026 blogs, not an official menu. Cash only, HK$100 minimum per person."
+  - type: map
+    note: "From Sai Ying Pun MTR walk about 200 m to Queen's Road West. The shop sits on the Kwai Heung Street corner."
+  - type: tips
+    variant: insider
+    items:
+      - "Order the claypot rice **the moment you sit**: 2026 diners waited 25 minutes to an hour for the pot."
+      - "Queue before 17:30 (UTC+8). An Oct 2026 blogger got in first by arriving 30 minutes early."
+      - "**Cheapest way in:** the preserved meat and spare rib pot, **HK$115** (about R$87, Oct 2026 price), still clears the HK$100 minimum. The eel pot was HK$135 in Feb 2026."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Cash only.** Bring at least HK$150 in notes; one blog says no cards or e-payment."
+      - "**Lunar New Year:** no holiday notice found. Call before going on Feb 5–8, 2027."
+      - "Two addresses circulate (263 Queen's Road West and 268 Des Voeux Road West). Michelin's Bib listing is the Queen's Road West shop."
+  - type: weather
+    temp_low_c: 15
+    temp_high_c: 19
+    conditions: Mild, often cloudy and humid
+    note: "Hong Kong Observatory February normals: 15.3 °C low, 19.4 °C high, about 39 mm of rain. Cool enough for a hot claypot, and the queue is outdoors on the pavement."
+    wear: A light jacket
+  - type: pairs_well
+    items:
+      - { id: ifc-mall-rooftop-garden, note: "Two MTR stops east in Central: harbour view before dinner" }

@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: wuxi-ribs
+  title: File:Spareribs of Wuxi Lugaojian.jpg
+  author: Wxxw123
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Spareribs_of_Wuxi_Lugaojian.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Spareribs_of_Wuxi_Lugaojian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​无锡陆稿荐所制的一份酱排骨
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-23
+  origin: commons
