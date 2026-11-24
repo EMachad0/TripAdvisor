@@ -8,7 +8,7 @@ Route updated 2026-11-14 (Japan 16 days to Feb 5, Hong Kong 4 days from Feb 5; d
 - Budget-minded: hostels, local food, fine with overnight trains and buses, wants to try capsule/pod hotels.
 - Wants a **balanced mix**: culture, food, nightlife, nature, odd local experiences, etc.
 - Bars, parties, nightlife and restaurants count as attractions.
-- **Luggage:** one 40 L bag plus a daily backpack (told by the traveler 2026-11-14; weight not known). Low-cost fares with a cabin-only allowance are a risk; check the weight limit before booking.
+- **Luggage:** a 40 L backpack, the Decathlon Forclaz Travel 500 in black (Decathlon Brazil ref 8735937, 55 × 32 × 27 cm, padlock-compatible main zip; bought 2026-11-14, arrived 2026-11-24 and the traveler is keeping it), plus a daily backpack as the personal item. Packed weight not known yet. Low-cost fares with a cabin-only allowance are a risk; check the weight limit before booking.
 
 ## Route
 
