@@ -1,8 +1,9 @@
 ---
 question: "First 3 nights in Shanghai in a hostel dorm: is Dayin well located for what I plan to do, should I book through Trip.com, and are there better options?"
 asked: 2026-11-23
+updated: 2026-11-24
 about: shanghai
-tldr: "Dayin East Nanjing Road is the best-placed social hostel for the plan: 320 m from People's Square metro, 1.5 km from the Bund. Compare your dorm's price signed in on Trip.com against Hostelworld's ¥474 (≈ R$ 421) for 3 nights, and cancel free on Hostelworld until 2 Dec (as of 23 Nov 2026)."
+tldr: "Dayin East Nanjing Road is the best-placed social hostel for the plan: 320 m from People's Square metro, 1.5 km from the Bund. Book it on Trip.com: ¥319 (≈ R$ 284) for the 3 nights against ¥474 (≈ R$ 421) on Hostelworld (as of 24 Nov 2026)."
 sources:
   - title: "Hostelworld, Dayin Hostel East Nanjing Road, 6–9 Dec 2026 (read 23 Nov 2026)"
     url: "https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935?from=2026-12-06&to=2026-12-09&guests=1&currency=CNY"
@@ -26,10 +27,10 @@ sources:
 **Trip.com or Hostelworld?** Prices for 6–9 Dec 2026, one bed, read 23 Nov 2026:
 
 - **Dayin on Hostelworld:** ¥157.95 a night in the 8-bed male or female dorm, ¥474 (≈ R$ 421) for 3 nights. 18% deposit by card, the rest at the hostel. Free cancellation until 23:59 UTC+8 on 2 Dec; after that you lose the deposit and pay the first night.
-- **Dayin on Trip.com:** from ¥355 (≈ R$ 316) for 3 nights with taxes, but the one bed shown without a sign-in was in a female 6-bed dorm with a "first stay" discount. The other dorm prices, the cancellation deadline and whether you prepay are behind the sign-in.
+- **Dayin on Trip.com:** ¥319 (≈ R$ 284) for 3 nights, taxes included, for a bed in the 6-bed male dorm, signed in on 24 Nov 2026 with a first-booking promo code. Prepaid online; free cancellation until 18:00 UTC+8 on 6 Dec. Without a sign-in the page showed only a female-dorm bed from ¥355.
 - **Desti on Hostelworld:** ¥334 (≈ R$ 297). **Desti on Trip.com:** ¥336 (≈ R$ 299). No difference, so Hostelworld is the simpler one there.
 
-Sign in on Trip.com, search the same dates and look at the bed in your dorm. Book there if it is cheaper than Hostelworld and the rate says free cancellation. Trip.com also states that guests from all countries are accepted at both hostels, and the flights are already in that account. If the price is the same, Hostelworld has the smaller deposit and a known deadline.
+So Trip.com wins for Dayin: sign in, search the same dates and pick the single bed in your dorm. It also states that guests from all countries are accepted at both hostels. Paying by card on Trip.com avoids the 3% fee WeChat Pay adds to foreign-card payments over ¥200.
 
 **Other options checked (about 20 hostels):**
 
