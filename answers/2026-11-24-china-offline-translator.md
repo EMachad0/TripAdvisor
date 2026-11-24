@@ -49,7 +49,7 @@ sources:
 
 - Put the buds in and open Interpreter. You hear the other person's translation in your ears; your translation plays from the phone speaker for them.
 - Conversation mode waits for the speaker to pause before it translates.
-- For a guide, an announcement or a talk, Samsung documents a one-way Listening mode (the single chat bubble) that translates continuously into the buds. It is documented for the Buds3; not confirmed on the Buds2 Pro.
+- For a guide, an announcement or a talk, use Listening mode: tap the single chat bubble, then the microphone. It translates continuously into the buds, one way. Confirmed working on the Buds2 Pro.
 - Airplane mode switches Bluetooth off: turn Bluetooth back on.
 
 **Not tested**
