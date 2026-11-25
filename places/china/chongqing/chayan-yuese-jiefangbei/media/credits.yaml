@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: street-kiosk
+  title: File:Cha Yan Yue Se 2024070302.jpg
+  author: Huangdan2060
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Cha_Yan_Yue_Se_2024070302.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a8/Cha_Yan_Yue_Se_2024070302.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Cha Yan Yue Se , the milk tea chain shop on Changsha Pedestrian Street, in Changsha, Hunan, China.
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
+- file: snow-orange-isle
+  title: File:Cha Yan Yue Se, Changsha, China 2021122603.jpg
+  author: Huangdan2060
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Cha_Yan_Yue_Se,_Changsha,_China_2021122603.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/bb/Cha_Yan_Yue_Se%2C_Changsha%2C_China_2021122603.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Cha Yan Yue Se , the milk tea chain shop on Orange Isle, in Yuelu District of Changsha, Hunan, China.
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
+- file: mall-queue
+  title: File:Cha Yan Yue Se in Uni Park, Changsha 20211210.jpg
+  author: Huangdan2060
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Cha_Yan_Yue_Se_in_Uni_Park,_Changsha_20211210.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cf/Cha_Yan_Yue_Se_in_Uni_Park%2C_Changsha_20211210.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Cha Yan Yue Se in Uni Park, Tianxin District of Changsha, Hunan, China.
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
+- file: counter
+  title: File:Cha Yan Yue Se, Changsha, China, 21 May 2021C.jpg
+  author: Huangdan2060
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Cha_Yan_Yue_Se,_Changsha,_China,_21_May_2021C.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a9/Cha_Yan_Yue_Se%2C_Changsha%2C_China%2C_21_May_2021C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Cha Yan Yue Se , the milk tea chain shop in Tianxin District of Changsha, Hunan, China.
+  width: 3968
+  height: 2976
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons

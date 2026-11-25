@@ -1,0 +1,145 @@
+id: chatramue-siam-paragon
+name: "ChaTraMue: Thai milk tea with pearls"
+short_name: ChaTraMue
+name_local: "ชาตรามือ"
+name_romanized: Cha Tra Mue
+country: thailand
+city: bangkok
+area: "Siam · Pathum Wan"
+category: food
+fame: popular
+tags: [thai-tea, bubble-tea, dessert, cheap]
+kind: Eat
+why: "The 1945 brand behind Bangkok's orange Thai milk tea: ฿45 a cup, pearls for ฿10 more, and Thai-tea soft serve, in Paragon's food hall."
+cost:
+  local: 55
+  currency: THB
+  brl: 9.51
+  note: "Thai tea ฿45 plus a ฿10 pearl topping (delivery-menu price; check the counter)"
+fx: { rate: 0.173, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
+time_needed: "15–30 min"
+best_time: "Weekday afternoon, any day 10:00–21:30 (UTC+7)"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 10:00–21:30 (UTC+7), per Wongnai"
+  winter: "No seasonal hours or January closures listed. On Mon Jan 4 – Fri Jan 8 you work 19:00–04:00 (UTC+7), so go in the afternoon; Sat Jan 9 is free all day."
+
+location:
+  address: "G floor (food hall), Siam Paragon, 991/1 Rama I Rd, Pathum Wan, Bangkok 10330"
+  address_local: "ชาตรามือ ชั้น G สยามพารากอน 991/1 ถนนพระรามที่ 1 ปทุมวัน กรุงเทพฯ 10330"
+  lat: 13.74678
+  lng: 100.53495
+  nearest_transit: "BTS Siam (Sukhumvit and Silom lines), walkway into the mall"
+  approximate: true
+
+sources:
+  - url: "https://www.wongnai.com/restaurants/276685CV-%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD-%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99-g-%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%AD%E0%B8%99"
+    title: "ChaTraMue Siam Paragon: hours, G floor, prices, card payment (Wongnai, latest review May 2026)"
+    checked: 2026-11-24
+  - url: "https://www.cha-thai.com/content/25141/"
+    title: "ChaTraMue official branch list (Siam Paragon, MBK 7F, Chiang Mai branches)"
+    checked: 2026-11-24
+  - url: "https://www.cha-thai.com/recommendedmenu"
+    title: "ChaTraMue official recommended menu (Thai tea, rose milk tea, pearl milk tea, soft serve)"
+    checked: 2026-11-24
+  - url: "https://www.cha-thai.com/en/history"
+    title: "ChaTraMue official history (brand name from 1945, Yaowarat shop from 1925)"
+    checked: 2026-11-24
+  - url: "https://www.wongnai.com/delivery/businesses/1014643eG/order"
+    title: "ChaTraMue Big C Rama 2 delivery menu: Thai tea ฿45, pearl toppings ฿10 (Wongnai × LINE MAN)"
+    checked: 2026-11-24
+  - url: "https://www.wongnai.com/restaurants/197012KD-%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD-terminal-21"
+    title: "ChaTraMue Terminal 21: menu incl. Thai tea soft serve, reviewer price ฿45 (Wongnai)"
+    checked: 2026-11-24
+  - url: "https://www.marketingoops.com/news/brand-move/chatramue-1zero2low"
+    title: "ChaTraMue '1 ศูนย์ 2 ต่ำ': 0% added sugar, low calorie, low fat (Marketing Oops, Oct 2019)"
+    checked: 2026-11-24
+  - url: "https://en.thairath.co.th/lifestyle/food/2955370"
+    title: "Sweetness levels for Thai tea: 50% is the safe pick (Thairath, Aug 2026)"
+    checked: 2026-11-24
+  - url: "https://www.grab.com/th/food-blog/%e0%b8%a3%e0%b9%89%e0%b8%b2%e0%b8%99%e0%b8%8a%e0%b8%b2%e0%b8%99%e0%b8%a1/"
+    title: "30 bubble tea shops in Bangkok, updated Sep 2026 (Grab food blog, Thai)"
+    checked: 2026-11-24
+  - url: "https://commons.wikimedia.org/wiki/File:Pay_with_QR_code_at_ChaTraMue,_One_Bangkok_(2026).jpg"
+    title: "Photo: Thai QR payment and picture menu at a ChaTraMue counter, One Bangkok (Commons, 2026)"
+    checked: 2026-11-24
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
+    checked: 2026-11-24
+confidence: medium
+confidence_note: "Paragon hours and ฿45/฿55 prices: Wongnai (latest review May 2026). Wongnai puts the counter on G floor; the brand lists a 3rd-floor Paragon branch. Pearl ฿10 is from another branch's menu; soft serve ฿45 is a 2017 review price. Not verified: cup sizes, cash (assumed), foreign QR apps, BTS exit, any airport branch."
+last_updated: 2026-11-24
+
+blocks:
+  - type: hero
+    image: mega-bangna-counter
+    caption: "A ChaTraMue counter at Mega Bangna; no free photo of the Paragon one, which looks alike"
+    hook: "Bangkok's own Thai-tea brand: orange milk tea, rose tea and Thai-tea soft serve, poured since 1945."
+  - type: quick_facts
+    time_needed: "15–30 min"
+    best_time: "Weekday afternoon"
+    extra:
+      - { label: Pearls, value: "Yes, +฿10", detail: "Emerald, brown-sugar or konjac pearls as a topping" }
+      - { label: Fits, value: "Weekday afternoon", detail: "Open 10:00–21:30 (UTC+7) every day" }
+  - type: highlights
+    items:
+      - title: The original orange tea
+        text: "ChaTraMue (\"Number One Brand\") started as a tea shop on Yaowarat Road in 1925 and took the name in **1945**. Its orange **ชาไทย** is the signature drink."
+      - title: Bubble tea, Thai style
+        text: "Add **pearls** to any drink for about **฿10**, or order the ready-made **Assam milk tea with pearls and brown-sugar jelly** (฿55)."
+      - title: Thai-tea soft serve
+        text: "The **ซอฟต์เสิร์ฟชาไทย** is on the brand's dessert menu: the same tea frozen. A 2017 review paid **฿45**; expect a little more now."
+      - title: Pocket money prices
+        text: "A Thai tea is **฿45 (R$ 7.78)**; rose milk tea and the Thai tea latte are ฿55 (R$ 9.51)."
+  - type: prose
+    title: Why this branch
+    text: |-
+      ChaTraMue has dozens of counters around Bangkok. The one in **Siam Paragon's G-floor food hall** is the easiest: it is a short walk from BTS Siam, it opens every day from 10:00 to 21:30 (UTC+7), and you pass it anyway if you visit Paragon or Siam Square. The brand's own branch list names a Paragon counter on the **3rd floor** instead, so if the G-floor one has moved, try upstairs. The brand also lists a counter on **MBK's 7th floor**, one BTS stop west at National Stadium.
+
+      You will see it again further north: the brand lists Chiang Mai counters at **Nimman Soi 9**, **Warorot Market**, **Maya (B1)** and **Central Chiang Mai Airport** (a mall near the airport, not inside the terminal), so you can try it there first.
+  - type: menu
+    title: What to order
+    items:
+      - { name: Thai milk tea (iced), name_local: ชาไทย, price_local: 45, price_brl: 7.78, note: "The orange classic. Sweet unless you ask for less.", tag: must-try }
+      - { name: Pearl topping, name_local: ไข่มุก, price_local: 10, price_brl: 1.73, note: "Emerald or brown-sugar pearls; konjac pearls (มุกบุก) also ฿10.", tag: signature }
+      - { name: Assam milk tea with pearls and brown-sugar jelly, name_local: ชานมอัสสัมไข่มุกบราวน์ชูการ์, price_local: 55, price_brl: 9.51, note: "Their ready-made bubble tea.", tag: signature }
+      - { name: Rose milk tea, name_local: ชากุหลาบนม, price_local: 55, price_brl: 9.51, note: "One of the brand's recommended drinks.", tag: drink }
+      - { name: Thai tea latte, name_local: ชาไทยลาเต้, price_local: 55, price_brl: 9.51, note: "On the brand's recommended menu.", tag: drink }
+      - { name: "Thai tea, zero added sugar", name_local: "ชาไทย 1 ศูนย์ 2 ต่ำ", price_local: 50, price_brl: 8.65, note: "0% sugar, low fat. Price from a Chiang Mai delivery menu.", tag: drink }
+      - { name: Thai-tea soft serve, name_local: ซอฟต์เสิร์ฟชาไทย, price_local: 45, price_brl: 7.78, note: "฿45 is from a 2017 Terminal 21 review; likely higher now.", tag: must-try }
+    note: "Drink prices from Wongnai's Paragon listing; topping prices from a Bangkok delivery menu. Order and pay at the counter."
+  - type: cost_breakdown
+    items:
+      - { label: Thai milk tea, local: 45, brl: 7.78 }
+      - { label: Pearl topping, local: 10, brl: 1.73 }
+      - { label: Thai-tea soft serve, local: 45, brl: 7.78, optional: true, estimate: true }
+  - type: gallery
+    feature: false
+    images:
+      - { file: qr-pay-counter, caption: "Paying by Thai QR at the One Bangkok counter; the menu card has photos and prices", focus: center }
+  - type: map
+    note: "From BTS Siam, follow the signs into Siam Paragon and go down to the **G-floor food hall**. Wongnai puts the counter next to Potato Corner. Not there? The brand lists a 3rd-floor Paragon branch."
+  - type: tips
+    variant: insider
+    items:
+      - "Thai tea comes **very sweet**. Ask for **หวานน้อย** (*waan noi*, less sweet) or a percentage: Thairath calls **50%** the safe pick. For no sugar at all, order the **1 ศูนย์ 2 ต่ำ** version."
+      - "The menu card has photos and prices, so you can point. Say **ใส่ไข่มุก** (*sai khai muk*) to add pearls."
+      - "Wongnai lists **credit cards** as accepted. Counters also show a Thai QR code (photo below); whether foreign wallet apps can pay it is unverified, so carry a little cash too."
+  - type: tips
+    variant: locals
+    items:
+      - "Want brown-sugar boba instead? Grab's Sep 2026 list picks **Bearhouse** in Siam Square (brown-sugar milk tea is its signature) and **Xing Fu Tang**."
+      - "For Thai tea with pearls from a smaller local shop, the same list recommends **Nom Jo (นมโจ)** and its ชาไทยไข่มุก."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Dry and sunny; the cool season
+    note: "The food hall is air-conditioned. An iced Thai tea is the point on a 33 °C afternoon."
+    wear: "Light clothes, plus a thin layer for the mall air-conditioning"
+  - type: pairs_well
+    items:
+      - { id: siam-paragon-skywalk, note: "Same mall: drink in hand, walk the skywalks" }
+      - { id: lub-d-bangkok-siam, note: "Social hostel near MBK, a short walk away" }

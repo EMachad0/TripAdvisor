@@ -1,0 +1,21 @@
+# Independent review of chagee-global-harbor. Written by `./atr review`; do not edit by hand.
+id: chagee-global-harbor
+type: place
+reviewed: 2026-11-24
+verdict: pass
+content_hash: 815066d059d3de542693849ed297ab3682aeb70c1d76f165c20d68091b0f8bf4
+facts:
+  supported: 0
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[2].items[0].text
+    problem: The new text calls Boya Juexian 'Chagee's top seller', but no listed source I opened says so. The Chagee media-center article (2023) and the itiger article do not rank any product.
+    evidence: "https://chagee.us/media-center/article/76cc2a57-3e56-4579-9638-d4a88365dec9 and https://www.itiger.com/news/1104700075: neither names Boya Juexian as the best seller"
+    fix: Cite a readable source that ranks it as the top seller, such as Chagee's IPO prospectus coverage, or change the line to 'the signature cup'.
+resolved: []
+rereview_of: b64c4a10879193ae24204d0b3d77ba94e9b1f84d250db9569ea0f8ebda16e572
+summary: "Earlier finding 1 is resolved: the unsupported 230M-cups figure was removed. The replacement 'top seller' wording is still uncited. That is minor and does not block the page, and no blockers were found."
+model: claude-opus-5-5
+cost_usd: 0.305

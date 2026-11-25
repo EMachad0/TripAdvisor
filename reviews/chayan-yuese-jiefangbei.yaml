@@ -1,0 +1,33 @@
+# Independent review of chayan-yuese-jiefangbei. Written by `./atr review`; do not edit by hand.
+id: chayan-yuese-jiefangbei
+type: place
+reviewed: 2026-11-24
+verdict: pass
+content_hash: a4c1301e00d04f54053dfa0164302a71833113d776452572b34e345fa943538d
+facts:
+  supported: 10
+  unsupported: 1
+  contradicted: 0
+issues:
+  - severity: nit
+    field: blocks[3].items[1].text
+    problem: The rewritten line says staff tell you to try the cream first and then stir, and that guides say to mix the rest. No listed source says staff do this, and none says to stir. The China Travel Places guide only describes drinking through the layers, and the NBD and 36Kr articles do not mention how to drink it.
+    evidence: https://www.chinatravelplaces.com/chayan-yuese-cha-yan-yue-se-chinas-milk-tea-chain-and-what-to-order/ — "You drink the first centimetre through the foam, get salt and cream, then hit the tannic tea underneath, and finish with the crunch of nuts"
+    fix: "Either cite a source for the staff instruction and the stirring, or reword it to match the guide: drink through the cream and pecan top first, then the tea underneath."
+resolved:
+  - field: hours.summary
+    problem: The page says this branch's hours are not published online. Baidu Maps' listing for 茶颜悦色(八一路好吃街店) gives them as 09:00–24:00 daily.
+    evidence: https://map.baidu.com/?qt=s&wd=%E8%8C%B6%E9%A2%9C%E6%82%A6%E8%89%B2%E5%85%AB%E4%B8%80%E8%B7%AF&c=132 (rendered with ./atr render) — 茶颜悦色(八一路店), "渝中区八一路好吃街168号临街商铺（渝都大厦入口旁）", business_time "09:00-24:00" every weekday 1–7. The page now says Daily 09:00–24:00 (UTC+8) and cites this listing.
+  - field: cost.local
+    problem: The ¥18 price, ¥16 for 声声乌龙 and +¥2 for extra pecans all come from a Sina page whose footer says "内容由AI生成" (AI-generated). The same page gives the pecan add-on as both +2 and 2–3 元. The only human-written guide gives a range, not a price per drink.
+    evidence: The AI-written Sina source and the per-drink figures that only it gave (¥16 声声乌龙, +¥2 pecans) are gone. ¥18 is backed by a 2025-01-03 review on https://map.baidu.com/?qt=s&wd=%E8%8C%B6%E9%A2%9C%E6%82%A6%E8%89%B2%E6%B4%AA%E5%B4%96%E6%B4%9E&c=132 — "性价比：18一杯，还是比较贵的，而且杯子也不大", and the ¥15–20 range by https://www.chinatravelplaces.com/chayan-yuese-cha-yan-yue-se-chinas-milk-tea-chain-and-what-to-order/ — "most cups fall between 15 and 20 yuan".
+  - field: blocks[3].text
+    problem: '"On this trip, Chongqing and Zhangjiajie are the only stops that have it" (repeated in the FAQ) has no source. Fenghuang, also on the China route, is in Hunan, where over half the shops are. NBD lists Sichuan, where Chengdu is, among the provinces with shops.'
+    evidence: blocks[4].text now says "Chongqing and Zhangjiajie are the confirmed stops that have it", which is the softer wording the first review asked for. The FAQ now names only Chongqing and Zhangjiajie, with no 'only' claim.
+  - field: blocks[7].note
+    problem: The backup 洪崖洞店 at 嘉滨路86号 and the "10+ shops in central Yuzhong" (highlights and FAQ) could not be verified. The cited Baidu search URL returns an empty JavaScript shell, and the readable Baidu listing showed the Bayi Road and Longhu Xinyijie shops but not a Hongyadong one.
+    evidence: https://map.baidu.com/?qt=s&wd=%E8%8C%B6%E9%A2%9C%E6%82%A6%E8%89%B2%E6%B4%AA%E5%B4%96%E6%B4%9E&c=132 — 茶颜悦色(洪崖洞店), "解放碑街道嘉滨路86号一楼", hours "周一至周四 10:00-24:00 周五至周日 09:00-24:00". The "10+ shops" claim is gone; the replacement ("重庆店铺还挺多的，就是大部分都有排队") is in the same review.
+rereview_of: 833a9d5a49ff1ac4af8c30af5b27fd99d6ad615b9378aec82b6ac1cef46a959b
+summary: "All four earlier findings are resolved. The listed Baidu listings support both branches' hours and addresses and the ¥18 Jan 2025 review. The 700–900+ store count matches 36Kr (734) and NBD (923). One nit is left: no listed source supports the new 'staff tell you to stir' wording."
+model: claude-opus-5-5
+cost_usd: 0.677

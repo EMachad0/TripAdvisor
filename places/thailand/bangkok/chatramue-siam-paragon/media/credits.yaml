@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: mega-bangna-counter
+  title: File:Cha Tra Mue at Mega Bangna.jpg
+  author: Sry85
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Cha_Tra_Mue_at_Mega_Bangna.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/40/Cha_Tra_Mue_at_Mega_Bangna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Cha Tra Mue at Mega Bangna
+  width: 3968
+  height: 2976
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
+- file: qr-pay-counter
+  title: File:Pay with QR code at ChaTraMue, One Bangkok (2026).jpg
+  author: Chainwit
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Pay_with_QR_code_at_ChaTraMue,_One_Bangkok_(2026).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/29/Pay_with_QR_code_at_ChaTraMue%2C_One_Bangkok_%282026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Pay with QR code at ChaTraMue, One Bangkok
+  width: 4284
+  height: 5712
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
