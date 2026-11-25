@@ -70,17 +70,18 @@ export async function downloadImage(url, { referer, fetchImpl = fetch, timeoutMs
 }
 
 /** The images a visitor sees on a page (rendered in Chrome): <img> at its largest srcset candidate, og:image, CSS backgrounds. */
-export async function scoutPage(url, { minWidth = 500, waitMs = 2500, timeoutMs = 45_000, fetchImpl = fetch } = {}) {
+export async function scoutPage(url, { minWidth = 500, waitMs = 2500, timeoutMs = 45_000 } = {}) {
   // Hostelworld pages draw their gallery late and show one photo to a scripted browser; its property API lists them all.
   const { hostelId: propertyId } = await import('../hostelprices.js');
   const hw = /hostelworld\.com/.test(String(url)) ? propertyId(url) : null;
   if (hw) {
-    const res = await fetchImpl(`https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/${hw}/?application=web`, { headers: { 'User-Agent': BROWSER_UA }, signal: AbortSignal.timeout(30_000) });
-    if (res.ok) {
-      const d = await res.json();
+    try {
+      const { httpsGet } = await import('../net.js'); // Node's fetch is refused (403) by this API; the plain https client is not
+      const res = await httpsGet(`https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/${hw}/?application=web`, { headers: { Accept: 'application/json' }, timeoutMs: 30_000 });
+      const d = res.status === 200 ? JSON.parse(res.body.toString('utf8')) : {};
       const images = (d.images || []).map((i) => ({ image_url: `https://${i.prefix}${i.suffix}`, page_url: url, title: d.name || 'Hostelworld', kind: 'hostelworld' }));
       if (images.length) return { title: `${d.name || 'Hostel'} (Hostelworld, ${images.length} photos)`, finalUrl: url, images };
-    }
+    } catch { /* fall back to the rendered page */ }
   }
   const { launch } = await import('../shot.js');
   const browser = await launch();
