@@ -1,0 +1,153 @@
+id: cet-hanfu-costume-photoshoot-beijing
+name: "Men's Costume Photoshoot by CET"
+short_name: Costume photoshoot by CET
+name_local: 北京汉服·清宫旅拍
+area: Dongcheng · Forbidden City
+country: china
+city: beijing
+category: odd-local
+fame: hidden
+tags: [photo-studio, mens-portrait, hanfu, qing-dynasty, ming-dynasty, english-friendly]
+kind: Do
+why: "A guided men's costume shoot by the Forbidden City walls: Ming guard or Qing prince robes, hair and makeup done, English booking, every original the same day."
+
+cost:
+  local: 180
+  currency: USD
+  brl: 1056.6
+  note: "US$135 winter package + US$45 English companion, about ¥1,200 at 24 Nov ECB rates. Extra retouched photos and looks: price not published"
+fx: { rate: 5.87, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: 3–4 h
+best_time: Morning start, so the shoot is in midday light
+
+book_ahead:
+  required: true
+  lead_days: 7
+  lead_time: No lead time published; book a week ahead to be safe
+  method: website
+  links:
+    - label: CET booking page (English)
+      url: "https://chinaexplorertour.com/trip/beijing-hanfu-photoshoot-experience-discover-traditional-chinese-culture-in-iconic-landmarks/"
+      note: Pick date and package on the page, or use its enquiry form
+    - label: WhatsApp CET
+      url: "https://wa.me/8618312510689"
+      note: "English chat with the agency; email info@chinaexplorertour.com also works"
+  notes: "CET is an English-speaking agency that books a partner costume studio near the Forbidden City. The studio staff speak mainly Chinese, so add the US$45 English companion. Booking runs on the English site, email or WhatsApp; the page does not say how you pay, so ask before you book."
+
+hours:
+  summary: "By appointment; you get the start time when you book. Daylight on 14 Dec is 07:28–16:50 (UTC+8)"
+  winter: "The shoot is outdoors at −5 to 4 °C. Winter price is US$135 instead of US$120 because a cloak is added. CET lists only outdoor locations: styling is indoors, the 40+ min shoot outside. CET can reschedule for heavy rain; ask what it does for snow or hard frost."
+
+location:
+  address: Studio near the Forbidden City; exact address sent on booking. Shoots by the palace walls or at the Imperial Ancestral Temple
+  address_local: 北京市东城区 故宫周边（太庙 / 故宫外围）
+  lat: 39.90998
+  lng: 116.39363
+  approximate: true
+  nearest_transit: "Tian'anmen East (Line 1); the companion meets you at the nearest station"
+
+sources:
+  - url: "https://chinaexplorertour.com/trip/beijing-hanfu-photoshoot-experience-discover-traditional-chinese-culture-in-iconic-landmarks/"
+    title: "CET: Half-Day Beijing Hanfu Photoshoot (packages, prices, itinerary, FAQ, 43 reviews)"
+    checked: 2026-11-24
+  - url: "https://chinaexplorertour.com/ming-dynasty-photoshoot-collection/"
+    title: "CET: Ming Dynasty collection, men's Scholar and Imperial Guard samples"
+    checked: 2026-11-24
+  - url: "https://chinaexplorertour.com/qing-dynasty-photoshoot-collection/"
+    title: "CET: Qing Dynasty collection, men's Emperor and Prince samples"
+    checked: 2026-11-24
+  - url: "https://pelago.com/en/activity/p6ntdptm1-qing-dynasty-costumes-photo-shoot-at-beijing-heritage-sites-beijing"
+    title: "Pelago: Qing costume shoot in Beijing (notes photographers may not shoot inside the Forbidden City)"
+    checked: 2026-11-24
+  - url: "https://www.waug.com/en/activities/161884"
+    title: "WAUG: Forbidden City hanfu shoot listing with cheaper alternatives (US$60–437)"
+    checked: 2026-11-24
+  - url: "https://sunrise-sunset.org/search?location=Beijing"
+    title: "Sunrise-sunset.org: Beijing (14 Dec sunrise 07:28, sunset 16:50; matches ./atr sun)"
+    checked: 2026-11-24
+  - url: "https://en.wikipedia.org/wiki/Beijing#Climate"
+    title: "Wikipedia: Beijing climate (December averages)"
+    checked: 2026-11-24
+  - url: "https://thesmartlocal.com/read/china-photoshoot-experiences/"
+    title: "TheSmartLocal: China photoshoot studios and how they are booked (Aug 2025)"
+    checked: 2026-11-24
+confidence: medium
+confidence_note: "Prices, inclusions, timings and men's costume list are from CET's own page. The men's sample photos would not load here: I saw their captions (men in Beijing at Zhongshan Park and the Forbidden City), not the images. Every review is on CET's own site; Tripadvisor was bot-walled. Retouch delivery time and extra-photo prices are not published."
+last_updated: 2026-11-24
+
+blocks:
+  - type: hero
+    image: taimiao-main-hall
+    caption: "The Imperial Ancestral Temple, one of the shoot locations. Studio sample photos are not free to show"
+    hook: Two hours in the makeup chair, forty minutes as a Ming imperial guard, every raw frame on your phone by evening.
+  - type: quick_facts
+    time_needed: 3–4 h
+    best_time: Morning start, shoot near midday
+    extra:
+      - { label: Language, value: "Chinese studio, English aide", detail: "Companion US$45; without it, a WeChat group with CET" }
+      - { label: Photos, value: "30+ originals, ~5 retouched", detail: All originals the same day }
+      - { label: Men's looks, value: "Ming guard, Qing prince", detail: "Also scholar, A Ge, Emperor and more" }
+  - type: highlights
+    items:
+      - title: Men's costumes, with men's samples
+        text: "Wear the Ming guard's **Feiyu robe** (飞鱼服), scholar robes, or Qing **prince and emperor** robes. Check the men's [Ming](https://chinaexplorertour.com/ming-dynasty-photoshoot-collection/) and [Qing](https://chinaexplorertour.com/qing-dynasty-photoshoot-collection/) samples."
+      - title: Fully guided, made for non-models
+        text: "CET says the photographer and staff direct poses, walking shots and seated portraits, and that no modelling experience is needed. A guest who wrote that she \"doesn't know how to pose\" said 90% of the raw frames were already good."
+      - title: Hair, makeup and costume included
+        text: "90–120 minutes of styling: makeup, hair with hairpieces, costume, cloak in winter, plus props such as armour, a fan, flute or book."
+      - title: Bookable in English
+        text: "Book on CET's English site, by email or WhatsApp. An English-speaking companion meets you at the metro, translates at the studio and stays through the shoot."
+  - type: prose
+    title: How the day runs
+    text: |-
+      You arrive at the studio at your booked time and pick a costume and colours. Styling takes about two hours. Then you walk to the location the photographer picks for the light and the crowds: the Forbidden City's outer walls or the Imperial Ancestral Temple (太庙). Shooting is "from approximately 40 minutes". You go back to the studio, change, and get **all unedited photos the same day**; the retouched set follows.
+
+      CET is an English-speaking travel agency, not the studio itself. It books a partner costume studio and photographer. That is what makes it workable without Chinese: the studio staff speak mainly Chinese, and the companion bridges it.
+
+      CET itself says it is "not the cheapest option". A [WAUG listing](https://www.waug.com/en/activities/161884) shows cheaper Beijing alternatives, the closest being a US$149.87 Forbidden City costume shoot with an English guide, but that listing shows no men's samples or men's costume list, so it does not clear the bar for a men's shoot. It costs about six days of the daily budget. It is worth it because you keep the photos for good, the men's looks here (imperial guard, prince) only exist in this setting, and you get every raw frame, not a pay-per-photo menu.
+  - type: gallery
+    images:
+      - { file: corner-tower-moat, caption: "The Forbidden City's corner tower and moat, a typical outer-wall backdrop" }
+      - { file: taimiao-red-wall, caption: "Red walls and white marble at the Imperial Ancestral Temple" }
+  - type: book_ahead
+    steps:
+      - days_before: 14
+        text: "Look at the men's sections of the Ming and Qing collections. Then email or WhatsApp CET with your date, **Standard winter package (US$135) + English companion (US$45)**, and the look you want."
+      - days_before: 7
+        text: "Get it **in writing**: start time, studio address, which location, how many retouched photos, the price of each extra retouched photo or second look, and how the retouched files reach you once you've left Beijing."
+      - days_before: 3
+        text: "Check the forecast with CET. Ask what happens if it snows or is far below freezing: reschedule to another of your Beijing days (13–16 Dec), or shoot shorter."
+      - days_before: 0
+        text: "Meet the companion at the metro station they name. Pick the outfit, sit for hair and makeup, shoot, then copy all originals before you leave the studio."
+  - type: cost_breakdown
+    items:
+      - { label: "Standard package, winter rate", local: 135, brl: 792.45, note: "Costume + cloak, hair, makeup, props, photographer, 30+ originals, ~5 retouched" }
+      - { label: English-speaking companion (1–2 guests), local: 45, brl: 264.15 }
+    note: "Extra retouched photos, a second costume, hotel transport and any site entry ticket cost extra; CET does not publish those prices, so ask before paying."
+  - type: map
+    note: "The studio address comes with the booking confirmation. The pin is the Imperial Ancestral Temple, one of the two shoot locations, just east of Tian'anmen."
+  - type: tips
+    variant: insider
+    items:
+      - "Ask for a **morning start**: with two hours of styling, a 09:00 (UTC+8) start puts the shoot around noon, the warmest and brightest hour. Sunset on 14 Dec is 16:50 (UTC+8)."
+      - "Say up front that you are not used to the camera and want the photographer to direct every pose. That is what the package says it does."
+      - "Bring a USB-C cable or ask for a download link so you leave with **all originals** on your phone the same day."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The trap is **extra retouched photos**: about 5 are included and the rest are extra at a price CET does not publish. Agree the per-photo price before the shoot, not when you see the gallery."
+      - "Without the English companion you rely on a WeChat group with CET while the studio talks Chinese. For a shy first shoot, pay the US$45."
+      - "Photographers may not shoot inside the Forbidden City; the shoot is outside the walls. Don't buy a palace ticket for it."
+      - "You leave China on 2 Jan: make sure the retouched set is promised before then, by email or a cloud link."
+  - type: weather
+    temp_low_c: -5
+    temp_high_c: 4
+    conditions: Dry, sunny and freezing in December
+    note: "You are outdoors in a costume for 40+ minutes. The winter package adds a cloak; keep your own coat on between shots. CET lists no indoor set, so on a bitter, windy day expect shorter outdoor time."
+    wear: "Thermal base layer under the robe, warm socks, gloves until the shot"
+  - type: pairs_well
+    items:
+      - { id: forbidden-city-jingshan, note: Same walls; visit the palace on another day }
+      - { id: siji-minfu-forbidden-city, note: Roast duck by the palace after you change }
