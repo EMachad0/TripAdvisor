@@ -1,0 +1,168 @@
+id: atour-jiefangbei-raffles-city-riverview
+name: "Atour Hotel Jiefangbei Raffles City Riverview"
+short_name: Atour Raffles City
+name_local: 重庆解放碑来福士广场江景亚朵酒店
+country: china
+city: chongqing
+area: Yuzhong · Xiaoshizi
+category: stay
+tags: [hotel, private-room, work-nights, call-night, blackout-curtains, late-check-out, jiefangbei, not-social]
+kind: Stay
+why: "Not social: a 25 m² high-floor room with a desk and blackout curtains, late check-out on 31 Dec included, ¥1,380 (R$1,215) for the 3 work nights."
+
+cost:
+  local: 460
+  currency: CNY
+  brl: 405.12
+  note: "Superior Double, city view, 28–31 Dec ÷ 3, taxes and late check-out in. Booking.com, 24 Nov"
+fx: { rate: 0.8807, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book now; free cancellation until 14:00 (UTC+8) on 28 Dec"
+  method: platform
+  links:
+    - label: "Booking.com, 3 work nights 28–31 Dec"
+      url: "https://www.booking.com/hotel/cn/atour-chongqing-jiefangbei-raffles-city-riverview.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "My pick: ¥1,380 with late check-out, pay at the hotel; ¥1,242 signed in"
+    - label: "Booking.com, whole week 26 Dec – 2 Jan"
+      url: "https://www.booking.com/hotel/cn/atour-chongqing-jiefangbei-raffles-city-riverview.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "¥4,072, but paid to the hotel before arrival"
+    - label: "Trip.com hotel page"
+      url: "https://www.trip.com/hotels/chongqing-hotel-detail-744324/sheng-ming-hotel/"
+      note: "Prices and terms show only after signing in"
+  notes: "Only the 28–31 Dec rate on Booking.com is paid at the hotel; the week rate says 'pay the property before arrival'. Booking.com's house rules ask for photo ID and a credit card at check-in and say cash is not accepted."
+
+hours:
+  summary: "Front desk 24 h · check-in from 15:00 (Booking.com) · check-out 12:00 on Booking.com, 14:00 on Trip.com (UTC+8)"
+  winter: "Booking.com on 24 Nov, cheapest room each night, taxes in: 26 Dec ¥729, 27 Dec ¥454, 28–29 Dec ¥560, 30 Dec ¥472, NYE ¥875, 1 Jan ¥820. A Nov 2026 guest found the room 'extremely hot at night': the heating works, ask how to turn it down."
+
+location:
+  address: "17–26/F, 45–47 Xinhua Road, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区新华路45-47号26楼
+  lat: 29.56182
+  lng: 106.57919
+  nearest_transit: "Xiaoshizi (Lines 1/6), 120 m (Trip.com)"
+  approximate: true
+
+sources:
+  - url: "https://www.booking.com/hotel/cn/atour-chongqing-jiefangbei-raffles-city-riverview.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 28–31 Dec 2026: ¥1,380 Superior Double 25 m², late check-out included, pay at the hotel"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/atour-chongqing-jiefangbei-raffles-city-riverview.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 26 Dec – 2 Jan: ¥4,072; 8.8 from 46 reviews (Wi-Fi 8.3); work desks; ID and credit card at check-in"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/atour-chongqing-jiefangbei-raffles-city-riverview.html?checkin=2026-12-31&checkout=2027-01-01&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, night of 31 Dec 2026: cheapest room ¥875"
+    checked: 2026-11-24
+  - url: "https://www.trip.com/hotels/chongqing-hotel-detail-744324/sheng-ming-hotel/"
+    title: "Trip.com: opened 2020, 189 rooms on floors 17–25, 'guests from all countries/regions are welcome', Xiaoshizi 120 m, check-out 14:00"
+    checked: 2026-11-24
+  - url: "https://www.trip.com/hotels/chongqing-hotel-detail-744324/sheng-ming-hotel/review.html"
+    title: "Trip.com reviews, Nov 2026: blackout curtains, a room too hot at night, cableway view, 9.5 from 6,669 reviews"
+    checked: 2026-11-24
+  - url: "https://www.openstreetmap.org/?mlat=29.56182&mlon=106.57919#map=17/29.56182/106.57919"
+    title: "OpenStreetMap: Xiaoshizi station (the map pin)"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/atour-chongqing-jiefangbei-raffles-city-riverview.html?lang=en-us"
+    title: "Booking.com reviews, 2024–2026 (Read all reviews): fixed hot air conditioning (Dec 2025), early traffic noise, two slow lifts"
+    checked: 2026-11-24
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals"
+    checked: 2026-11-24
+confidence: medium
+confidence_note: "Prices: Booking.com date searches on 24 Nov. Trip.com pages were read by web fetch (link checks are blocked); it hides prices and cancellation behind sign-in; Agoda and Google Hotels gave none. Check-out time differs between Booking.com (12:00) and Trip.com (14:00); the 28–31 Dec rate includes late check-out but not to what hour. Pin is Xiaoshizi station, 120 m away. No review mentions calls."
+last_updated: 2026-11-24
+
+blocks:
+  - type: hero
+    image: raffles-city-night
+    caption: "Raffles City from the river. The hotel is in a tower on Xinhua Road nearby"
+    hook: "Three work nights on the 20th floor: desk, blackout curtains, and no rush on the morning of the 31st."
+  - type: quick_facts
+    extra:
+      - { label: Booking.com, value: "8.8 / 10", detail: "46 reviews; location 9.5, Wi-Fi 8.3" }
+      - { label: Room, value: "25 m² queen", detail: "High floor, city view, soundproofed" }
+      - { label: Social, value: "No", detail: "Lobby bar on the 26th floor, but a quiet hotel" }
+  - type: stay
+    style: hotel
+    beds:
+      - label: "Superior Double, 3 work nights 28–31 Dec"
+        local: 460
+        brl: 405.12
+        note: "¥1,380 (R$1,215) in total, late check-out included; ¥1,242 signed in"
+        url: "https://www.booking.com/hotel/cn/atour-chongqing-jiefangbei-raffles-city-riverview.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: "Superior Double, 5 nights 28 Dec – 2 Jan"
+        local: 610.2
+        brl: 537.4
+        note: "¥3,051 (R$2,687) in total, paid before arrival"
+        url: "https://www.booking.com/hotel/cn/atour-chongqing-jiefangbei-raffles-city-riverview.html?checkin=2026-12-28&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: "Superior Double, whole week 26 Dec – 2 Jan"
+        local: 581.71
+        brl: 512.31
+        note: "¥4,072 (R$3,586) in total, paid before arrival"
+        url: "https://www.booking.com/hotel/cn/atour-chongqing-jiefangbei-raffles-city-riverview.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    rating:
+      score: 8.8
+      out_of: 10
+      source: Booking.com
+      reviews: 46
+      checked: 2026-11-24
+    social:
+      - "**Not social.** A 189-room chain hotel. Guests mention the 26th-floor lobby bar and its view, not meeting people."
+    good_to_know:
+      - "**Foreign guests:** Trip.com: 'guests from all countries/regions are welcome'. Guests came from Singapore, the UK, Australia, Argentina and Spain."
+      - "**Payment:** Booking.com wants photo ID and a credit card at check-in and says cash is not accepted. Trip.com lists cash. Bring a card."
+      - "**Desk and Wi-Fi:** Booking.com lists work desks; guests score the Wi-Fi 8.3, the lowest of its scores. Test it on the first evening."
+      - "**Free laundry room**, praised by guests from Singapore and Spain."
+      - "**Distance:** the hotel's own reply to a Nov 2026 review puts it 800 m from the Liberation Monument pedestrian street."
+  - type: highlights
+    items:
+      - title: Blackout curtains that work
+        text: "A guest in Nov 2026 wrote that the blackout curtains 'worked wonderfully, making it easy to sleep in without being disturbed by the morning sun'."
+      - title: Late check-out on the 31st
+        text: "The 28–31 Dec rate says **'includes late check-out'**, and Trip.com lists check-out at 14:00 (UTC+8). Your sleep ends about 13:00."
+      - title: Pay at the desk
+        text: "The 28–31 Dec rate is **paid at the hotel**, free to cancel until **14:00 (UTC+8) on 28 Dec**."
+      - title: Metro at the door
+        text: "Xiaoshizi station is **120 m** away (Trip.com), and the hotel says the Liberation Monument street is 800 m away."
+  - type: prose
+    title: Work nights or the whole week
+    text: |-
+      You work **20:00–05:00 (UTC+8)** on 28, 29 and 30 December and sleep about 05:30–13:00 on 29, 30 and 31 December. This room is built for that: 25 m², a desk, blackout curtains and a late check-out on the last morning. Booking.com, 24 Nov, taxes in:
+
+      - **Work nights, 28–31 Dec:** ¥1,380 (R$1,215), ¥460 a night, paid at the hotel.
+      - **Whole week, 26 Dec – 2 Jan:** ¥4,072 (R$3,586), ¥582 a night, paid before arrival.
+
+      **It is the runner-up, not my pick.** It costs ¥285 (R$251) more than the Atour Light by Jiaochangkou for the same three nights, and two winter guests found the room too hot with the air conditioning fixed by the hotel: in December 2025 they slept with the window open. Take it over the Atour Light only if the late check-out on the 31st matters more to you than a cooler, cheaper room. For the whole week it is ¥882 more than the Atour Light and must be prepaid.
+  - type: map
+    note: "The pin is **Xiaoshizi** station; the hotel is 120 m away on Xinhua Road, with reception on the **26th floor**. Show taxi drivers the Chinese address."
+  - type: tips
+    variant: insider
+    items:
+      - "Sign in to Booking.com (free account) before booking: 28–31 Dec drops from ¥1,380 to **¥1,242**."
+      - "At check-in ask what time the 'late check-out' on 31 Dec runs to, and to skip housekeeping until 13:00 (UTC+8)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Too hot:** a UK guest in Dec 2025 could not change the temperature ('the air condition set is fixed in the hotel') and opened the window; a Nov 2026 guest found it 'extremely hot at night'."
+      - "A Singapore guest (Apr 2025) heard traffic in the early morning, when you go to sleep. Ask for a high floor away from the road."
+      - "Only two lifts: guests in Sept and Oct 2026 waited up to 10 minutes at busy times."
+      - "The whole-week and 5-night rates are paid before arrival. If arrival may slip, book 28–31 Dec only."
+  - type: book_ahead
+    steps:
+      - { days_before: 32, text: "Book **28–31 Dec** on Booking.com, signed in. Nothing is charged; you pay at the hotel." }
+      - { days_before: 0, text: "Free cancellation ends at **14:00 (UTC+8) on 28 Dec**. Check in from 15:00 with passport and card, well before the 20:00 shift." }
+    passport_note: "Booking.com asks for photo ID and a credit card at check-in. Bring the passport itself."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, often drizzly
+    note: "Mild for China in winter but grey. Inside, the problem is the opposite: guests in Dec 2025 and Nov 2026 found the rooms too hot."
+    wear: Mid-weight jacket and a rain layer
+  - type: pairs_well
+    items:
+      - { id: atour-light-jiefangbei-jiaochangkou, note: "The pick for the whole week" }
+      - { id: jiefangbei-nye-countdown, note: "The countdown on 31 Dec" }
+      - { id: yangtze-river-cableway-night, note: "The cableway guests see from their rooms" }

@@ -1,0 +1,33 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: dongshuimen-view
+  title: File:View of Dongshuimen bridge from Baixiang Ju Chongqing.jpg
+  author: Marym1718
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:View_of_Dongshuimen_bridge_from_Baixiang_Ju_Chongqing.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4c/View_of_Dongshuimen_bridge_from_Baixiang_Ju_Chongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: View of Dongshuimen bridge from Baixiang Ju Chongqing
+  width: 4096
+  height: 3072
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
+- file: baixiang-street
+  title: File:白象街.jpg
+  author: 重庆轨交18
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E7%99%BD%E8%B1%A1%E8%A1%97.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e5/%E7%99%BD%E8%B1%A1%E8%A1%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 白象街
+  width: 3456
+  height: 4608
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
