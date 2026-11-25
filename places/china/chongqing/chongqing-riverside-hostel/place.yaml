@@ -1,0 +1,207 @@
+id: chongqing-riverside-hostel
+name: "Chongqing Riverside Hostel"
+short_name: Riverside Hostel
+name_local: 阅江老院青年旅舍
+name_romanized: Yuèjiāng Lǎoyuàn
+country: china
+city: chongqing
+area: Yuzhong · Baixiang Street
+category: stay
+tags: [hostel, private-room, ensuite, remote-work, quiet, jiefangbei]
+kind: Stay
+why: "Ensuite doubles from ¥188 a night in a courtyard hostel 700 m from Jiefangbei, with 24 h reception and wifi scored 9.4. Friendly, but not a party hostel."
+
+cost:
+  local: 42
+  currency: CNY
+  brl: 36.99
+  note: "12-bed male dorm, nights of 26–30 Dec 2026 on Hostelworld. Ensuite double ¥188; ¥55 / ¥298 on 31 Dec and 1 Jan"
+fx: { rate: 0.8807, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book 2+ weeks ahead; only 2–3 private doubles are on sale"
+  method: platform
+  links:
+    - label: "Booking.com, 28–31 Dec (work nights)"
+      url: "https://www.booking.com/hotel/cn/zhong-qing-yue-jiang-lao-yuan-guo-ji-qing-nian-lu-she.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "Deluxe Queen ¥594 for 3 nights; pay at the hostel; free cancellation until 18:00 on 28 Dec"
+    - label: "Booking.com, 26 Dec – 2 Jan"
+      url: "https://www.booking.com/hotel/cn/zhong-qing-yue-jiang-lao-yuan-guo-ji-qing-nian-lu-she.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "Deluxe Queen ¥1,566 for 7 nights, nothing to pay up front"
+    - label: "Hostelworld, 26 Dec – 2 Jan"
+      url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Riverside-Hostel/Chongqing/318745?from=2026-12-26&to=2027-01-02&guests=1&currency=CNY"
+      note: "Ensuite double ¥1,536 for 7 nights; 15% deposit by card when you book"
+  notes: "On 24 Nov, Booking.com had 2 Deluxe Queen rooms left and Hostelworld 2–3 ensuite doubles. Dorm beds were plentiful. New Year nights cost more on both sites; neither showed a minimum stay."
+
+hours:
+  summary: "Reception 24 h (Hostelworld; Trip.com says 09:00–01:00) · check-in 15:00–00:00 · check-out by 12:00 (all UTC+8)"
+  winter: "All seven nights from 26 Dec to 2 Jan were on sale on 24 Nov with no minimum stay. New Year costs more: on Hostelworld the ensuite double is ¥188 on 26–30 Dec and ¥298 on 31 Dec and 1 Jan; the 12-bed dorm ¥42, then ¥55. The listings give central air conditioning, not radiators."
+
+location:
+  address: "No. 259-35 Baixiang Street (Rongchuang Baixiang Street), Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区融创白象街259号附35号 阅江老院青年旅舍
+  lat: 29.55402
+  lng: 106.5761
+  nearest_transit: "Jiaochangkou (Line 1 / 2), Exit 10A, then the Kaixuan Road lift; about 790 m"
+  approximate: true
+
+sources:
+  - url: https://www.hostelworld.com/hostels/p/318745/chongqing-riverside-hostel/
+    title: "Riverside Hostel on Hostelworld: 8.8 from 63 reviews, sub-scores, privates in building No. 2, 24 h reception, rules, directions"
+    checked: 2026-11-24
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Riverside-Hostel/Chongqing/318745?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 28 Dec 2026: 12-bed male dorm ¥42, ensuite double ¥188 (same on 26, 27, 29, 30 Dec)"
+    checked: 2026-11-24
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Riverside-Hostel/Chongqing/318745?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+    title: "Hostelworld date search, night of 31 Dec 2026: dorm ¥55, ensuite double ¥298 (same on 1 Jan)"
+    checked: 2026-11-24
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Riverside-Hostel/Chongqing/318745?from=2026-12-26&to=2027-01-02&guests=1&currency=CNY"
+    title: "Hostelworld date search, 26 Dec – 2 Jan: dorm ¥320, ensuite double ¥1,536 for 7 nights; 15% deposit, free cancellation until 25 Dec 23:59"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-yue-jiang-lao-yuan-guo-ji-qing-nian-lu-she.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 28–31 Dec: Deluxe Queen ¥594, male dorm ¥126; 8.8 from 257 reviews, wifi 9.4, house rules, reviews"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-yue-jiang-lao-yuan-guo-ji-qing-nian-lu-she.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 26 Dec – 2 Jan: Deluxe Queen ¥1,566, male dorm ¥320, free cancellation until 18:00 on 26 Dec"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-yue-jiang-lao-yuan-guo-ji-qing-nian-lu-she.html?checkin=2026-12-31&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 31 Dec – 2 Jan: Deluxe Queen ¥576, male dorm ¥110 for the two nights"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-yue-jiang-lao-yuan-guo-ji-qing-nian-lu-she.html?checkin=2026-12-26&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 26–28 Dec: Deluxe Queen ¥396, male dorm ¥84 for the two nights"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-hou-lai-wu-ding-lu-tai-qing-nian-lu-she.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Chongqing Houlai Rooftop Terrace hostel on Booking.com, 28–31 Dec: guest wifi score 6.3, used for comparison"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/smileys-long-time-no-see-hostel.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Smile Inn Long Time No See Cat Café Hostel on Booking.com, 28–31 Dec: guest wifi score 8.8, used for comparison"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/ruo-shui-qing-lu-cafe-amp-hostel.html?checkin=2026-12-26&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Only Cafe and Backpacker on Booking.com, 26–28 Dec: male 8-bed dorm ¥150 (split plan in the tips)"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/ruo-shui-qing-lu-cafe-amp-hostel.html?checkin=2026-12-31&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Only Cafe and Backpacker on Booking.com, 31 Dec – 2 Jan: male 8-bed dorm ¥175 (split plan in the tips)"
+    checked: 2026-11-24
+  - url: https://sa.trip.com/hotels/chongqing-hotel-detail-75841680/walking-moker-youth-hostel
+    title: "阅江老院青年旅舍 on Trip.com: 9.6 from 345 reviews, all countries welcome, desk 09:00–01:00, restaurant hours, 790 m to metro"
+    checked: 2026-11-24
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Only-Cafe-And-Backpacker/Chongqing/301757?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+    title: "Only Cafe And Backpacker, Hostelworld date search for 31 Dec 2026: the social dorm named in the tips (¥100)"
+    checked: 2026-11-24
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals 1991–2020"
+    checked: 2026-11-24
+confidence: medium
+confidence_note: "Prices are date searches on 24 Nov and will move. Trip.com hides room prices behind sign-in, so none are quoted; its page opened in a web fetch only. Pin is Hostelworld's map pin converted from the Chinese GCJ-02 grid; it sits on Baixiang Street. No review says what the private rooms have beyond a queen bed and own bathroom; the river-view window is from Trip.com. Desk, size, heating unconfirmed."
+last_updated: 2026-11-24
+
+blocks:
+  - type: hero
+    image: dongshuimen-view
+    hook: "An old courtyard hostel above the Yangtze, where the private rooms sit in their own building away from the dorms."
+    caption: "The Yangtze and Dongshuimen Bridge seen from Baixiang Street; no free photo of the hostel itself"
+  - type: quick_facts
+    extra:
+      - { label: Private double, value: "¥188 (R$166)", detail: "Ensuite, 26–30 Dec on Hostelworld; ¥298 on 31 Dec and 1 Jan" }
+      - { label: Wifi, value: "Scored 9.4", detail: "Booking.com guest score, 257 reviews" }
+      - { label: Atmosphere, value: "8.2 / 10", detail: "Hostelworld; friendly owners, not a party hostel" }
+  - type: stay
+    style: hostel
+    beds:
+      - label: Bed in 12-bed male dorm, 26–30 Dec
+        local: 42
+        brl: 36.99
+        note: "Searched for each night; 9-bed male dorm also ¥42"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Riverside-Hostel/Chongqing/318745?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+      - label: Same dorm, 31 Dec and 1 Jan
+        local: 55
+        brl: 48.44
+        note: "Searched for the night of 31 Dec 2026; same on 1 Jan"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Riverside-Hostel/Chongqing/318745?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+      - label: Ensuite double (private), 26–30 Dec
+        local: 188
+        brl: 165.57
+        note: "Hostelworld, per room; Booking.com's Deluxe Queen is ¥198 a night on 26–30 Dec"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Riverside-Hostel/Chongqing/318745?from=2026-12-28&to=2026-12-29&guests=1&currency=CNY"
+      - label: Ensuite double, 31 Dec and 1 Jan
+        local: 298
+        brl: 262.45
+        note: "Hostelworld, per room; Booking.com ¥288 a night"
+        url: "https://www.hostelworld.com/pwa/hosteldetails.php/Chongqing-Riverside-Hostel/Chongqing/318745?from=2026-12-31&to=2027-01-01&guests=1&currency=CNY"
+    rating:
+      score: 8.8
+      out_of: 10
+      source: Booking.com
+      reviews: 257
+      checked: 2026-11-24
+    social:
+      - "A public activity area the hostel puts at over 200 m², a lobby bar with a view and its own restaurant (Trip.com)."
+      - "A Chongqing-style buffet for **¥15** that guests rave about (Oct 2026)."
+      - "\"Nice common area\" and very friendly staff (a German guest, Aug 2026); \"the owners' family vibes\" (Booking.com)."
+      - "**Honest caveat:** Hostelworld's atmosphere score is 8.2, and its review summary mentions a lack of atmosphere. No review describes a night out or events."
+      - "For people to go out with, the social dorm is **Only Cafe**, about 700 m away (atmosphere 9.5)."
+    good_to_know:
+      - "**Private rooms are in building No. 2**, the dorms and reception in No. 3 (Hostelworld). Trip.com lists a river-view double with window and own bathroom."
+      - "**Wifi** scored 9.4 by 257 Booking.com guests, the best of the Chongqing hostels I checked."
+      - "**Foreign passports:** Trip.com says guests of all countries are welcome. 2026 reviewers came from the UK, Austria, Germany, Canada and Australia."
+      - "Quiet hours 00:00–08:00 UTC+8 (Trip.com). An August 2026 guest found it \"a bit noisy at night\" in a dorm."
+      - "The on-site restaurant opens 11:00–21:30 UTC+8; ask for a private room away from it if you sleep late."
+      - "Booking.com: no cash, pay by card at the hostel. Hostelworld: cash or card on arrival, first night pre-authorised."
+      - "An October 2026 Hostelworld guest was put in an apartment 5 minutes away instead. Confirm the room in writing."
+      - "Ages 18–65 only (Booking.com). Luggage storage listed."
+  - type: highlights
+    items:
+      - title: A real room for night shifts
+        text: "Ensuite doubles from **¥188 (R$166)** a night, in a separate building from the dorms. On Booking.com, **¥594 (R$523)** covers 28–31 Dec with nothing to pay up front."
+      - title: Wifi you can work on
+        text: "Booking.com guests score the wifi **9.4**, against 6.3 at the Rooftop Terrace hostel and 8.8 at Smile Inn. Hostelworld lists 24 h reception."
+      - title: Walk to the countdown
+        text: "The map pin is about **700 m** in a straight line from the Liberation Monument. The hostel puts Chaotianmen, Hongyadong and Shibati about 10 minutes away on foot."
+      - title: Free to cancel late
+        text: "Booking.com lets you cancel for free until **18:00 UTC+8 on the day you arrive**, and you pay at the hostel. Useful if your arrival slips to 27 or 28 Dec."
+  - type: prose
+    title: The work nights, honestly
+    text: |-
+      **Why this one for 28–31 Dec.** Calls run from 20:00 to 05:00 UTC+8 on 28, 29 and 30 Dec, then sleep until about 13:00. That needs a door and quiet daytime. Here the private rooms are in their own building, the wifi is the best-scored in town, and reception is listed as 24 h on Hostelworld. Trip.com gives front-desk hours of 09:00–01:00 and quiet hours from midnight to 08:00, so you would be taking calls in your own room, not in the lounge.
+
+      **What is not known.** No listing or review says whether the double has a desk, how big it is, or how warm it gets: there is central air conditioning, nothing about radiators. The restaurant opens at 11:00 UTC+8, two hours before you wake. Ask the hostel by message before you book: a room with a table, away from the restaurant and the street.
+
+      **The social side.** Guests love the owners and the ¥15 buffet, but this is a calm hostel. For 26–27 Dec and New Year's Eve, a dorm at Only Cafe, about 700 m away, is where people go out together.
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Book the work nights now: **Booking.com, Deluxe Queen, 28–31 Dec, ¥594 (R$523)**, nothing to pay up front. Book other nights as a separate reservation, so a late arrival does not touch this one." }
+      - { days_before: 1, text: "Hostelworld bookings: free cancellation ends at 23:59 UTC+8 the day before arrival (25 Dec for a 26 Dec start). After that you lose the 15% deposit and pay the first night." }
+      - { days_before: 0, text: "Booking.com bookings cancel for free until **18:00 UTC+8** on arrival day. Check in 15:00–00:00 UTC+8 and tell the hostel your arrival time." }
+    passport_note: "Bring the passport itself; Trip.com states that guests from all countries are welcome. Booking.com takes no cash at this hostel."
+  - type: map
+    note: "From Jiaochangkou station, Exit 10A: walk 2 minutes to the Kaixuan Road lift (¥1; after 22:00 UTC+8 take the steps opposite it), go down, then follow the hostel's photo directions from the restaurant 山城赵二火锅. Taxis: give that restaurant's name. The hostel sends a map on WeChat after you book."
+  - type: tips
+    variant: insider
+    items:
+      - "Message the hostel before booking: does the double have a table, and can it be away from the restaurant? You will sleep until 13:00."
+      - "**Split plan:** dorm at **Only Cafe** for 26–27 Dec and 31 Dec – 1 Jan, this double for 28–31 Dec. On Booking.com that is about ¥919 (R$809) for the week."
+      - "No move at all: this hostel's male dorm on the other nights costs ¥194 (R$171) for the four of them, so ¥788 (R$694) for the week on Booking.com."
+      - "Eat the ¥15 buffet at least once; guests rank it among the best things here."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't book the whole week as one reservation if your arrival might slip: a no-show on the first night can cancel the rest."
+      - "The Kaixuan Road lift closes at 22:00 UTC+8, so the walk home from the countdown ends on stairs."
+      - "One Hostelworld guest (Oct 2026) was moved to an apartment nearby. Ask for the room you booked."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, rain on about 10 days a month
+    note: "Mild for a China winter, but grey and damp. The hostel lists central air conditioning and a fresh-air system; no review says how warm the rooms are in December."
+    wear: Mid-weight jacket and a rain layer
+  - type: gallery
+    images:
+      - { file: baixiang-street, caption: "Baixiang Street, the restored old street the hostel is on", focus: center }
+  - type: pairs_well
+    items:
+      - { id: only-cafe-and-backpacker, note: "The social dorm for the non-work nights, about 700 m away" }
+      - { id: jiefangbei-nye-countdown, note: "About 700 m from the hostel in a straight line" }
+      - { id: chongqing-drone-light-show, note: "The hostel puts Chaotianmen about 10 minutes away on foot" }
+      - { id: hongyadong-qiansimen-night-walk, note: "Hongyadong is about 10 minutes away, by the hostel's account" }

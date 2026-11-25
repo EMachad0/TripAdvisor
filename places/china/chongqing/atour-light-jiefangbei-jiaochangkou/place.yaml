@@ -1,0 +1,186 @@
+id: atour-light-jiefangbei-jiaochangkou
+name: "Atour Light Hotel Jiefangbei Jiaochangkou"
+short_name: Atour Light Jiaochangkou
+name_local: 重庆解放碑较场口地铁站轻居酒店
+country: china
+city: chongqing
+area: Yuzhong · Jiefangbei
+category: stay
+tags: [hotel, private-room, work-nights, call-night, jiefangbei, nye, not-social]
+kind: Stay
+why: "Not social: a quiet 2025 hotel room with a desk, 300 m from the NYE countdown, ¥3,190 (R$2,809) for all 7 nights, paid at the desk."
+
+cost:
+  local: 354
+  currency: CNY
+  brl: 311.77
+  note: "Comfort Queen (18 m²), one night on 27, 28 or 29 Dec, Booking.com on 24 Nov, taxes in. NYE alone ¥696"
+fx: { rate: 0.8807, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book now; free cancellation until 18:00 (UTC+8) on check-in day"
+  method: platform
+  links:
+    - label: "Booking.com, whole week 26 Dec – 2 Jan"
+      url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "My pick: ¥3,190 Standard Queen, pay at the hotel; ¥2,871 if you sign in"
+    - label: "Booking.com, 3 work nights 28–31 Dec"
+      url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+      note: "¥1,095 Comfort Queen, pay at the hotel; ¥986 if you sign in"
+    - label: "Trip.com hotel page"
+      url: "https://au.trip.com/hotels/chongqing-hotel-detail-128479765/chongqing-jiefangbei-jiaochangkou-subway-station-atour-light-hotel"
+      note: "Prices and terms show only after signing in"
+  notes: "On 24 Nov Booking.com had 6 Comfort Queens left for 28–31 Dec. The 'members-only' prices need a free Booking.com account. NYE sells first: on its own, 31 Dec already had no queen room left, only twins from ¥696."
+
+hours:
+  summary: "Front desk 24 h · check-in from 14:00, check-out by 12:00 (UTC+8) · 5th floor of the ONEMALL (Wanmo) mall"
+  winter: "Booking.com on 24 Nov, cheapest room each night, taxes in: Sat 26 Dec ¥448, 27–29 Dec ¥354, 30 Dec ¥388, NYE ¥696 (twin only), 1 Jan ¥664. The 7-night price (¥3,190) is below the sum of the nights. Rooms have air conditioning; no source says how they are heated."
+
+location:
+  address: "5/F, ONEMALL (Wanmo Shopping Center), 77 Qingnian Road, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区青年路77号万魔购物中心5楼
+  lat: 29.55857
+  lng: 106.57046
+  nearest_transit: "Jiaochangkou (Lines 1/2), 270 m (Trip.com)"
+  approximate: true
+
+sources:
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 26 Dec 2026 – 2 Jan 2027: ¥3,190 Standard Queen 21 m², pay at the hotel, free cancellation until 18:00 on 26 Dec"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 28–31 Dec 2026: ¥1,095 Comfort Queen 18 m², 6 left; 9.3 (89 reviews); facilities (desk, soundproofing); house rules"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-26&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 26–28 Dec 2026: ¥802 Comfort or Standard Queen, pay at the hotel"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-28&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, 28 Dec 2026 – 2 Jan 2027: ¥2,388 Standard Queen, pay at the hotel"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, night of 27 Dec 2026: ¥354 Comfort Queen (same on 28 and 29 Dec)"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-31&checkout=2027-01-01&group_adults=1&no_rooms=1&selected_currency=CNY"
+    title: "Booking.com, night of 31 Dec 2026: no queen left, Standard Twin ¥696"
+    checked: 2026-11-24
+  - url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?lang=en-us"
+    title: "Booking.com reviews, Oct–Nov 2026: quiet room, courtyard window, mall address, laundry, guests from Australia, US, Belgium, UK"
+    checked: 2026-11-24
+  - url: "https://au.trip.com/hotels/chongqing-hotel-detail-128479765/chongqing-jiefangbei-jiaochangkou-subway-station-atour-light-hotel"
+    title: "Trip.com: opened 2025, 106 rooms, 'guests from all countries/regions are welcome', no deposit, hallway window, 9.7 (1,283 reviews)"
+    checked: 2026-11-24
+  - url: "https://my.trip.com/hotels/chongqing-hotel-detail-128479765/chongqing-jiefangbei-jiaochangkou-subway-station-atour-light-hotel/review.html"
+    title: "Trip.com reviews, Nov 2026: free laundry, luggage help, a hot-pot smell from the mall in one courtyard room"
+    checked: 2026-11-24
+  - url: "https://www.openstreetmap.org/?mlat=29.55857&mlon=106.57046#map=17/29.55857/106.57046"
+    title: "OpenStreetMap: ONEMALL, Jiefangbei (the map pin)"
+    checked: 2026-11-24
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals"
+    checked: 2026-11-24
+confidence: medium
+confidence_note: "Prices: Booking.com date searches on 24 Nov; they will move. Trip.com pages were read by web fetch (link checks are blocked); it hides prices, payment and cancellation behind sign-in; Agoda and Google Hotels gave no listing. No review rates the Wi-Fi or mentions calls or a chair. Pin is the mall (OpenStreetMap), not the door. Heating, skipping housekeeping, late check-out unconfirmed."
+last_updated: 2026-11-24
+
+blocks:
+  - type: hero
+    image: jiefangbei-street
+    caption: "Jiefangbei's towers, a few minutes' walk away. No free photo of the hotel"
+    hook: "A new room with a desk in the mall block next to the monument: work three nights, then walk to the countdown."
+  - type: quick_facts
+    extra:
+      - { label: Booking.com, value: "9.3 / 10", detail: "89 reviews; location 9.7, comfort 9.6" }
+      - { label: Room, value: "18–21 m² queen", detail: "Courtyard or hallway window: dim in the day" }
+      - { label: Social, value: "No", detail: "A quiet chain hotel; meet people at a hostel bar" }
+  - type: stay
+    style: hotel
+    beds:
+      - label: "Comfort Queen, one night (27, 28 or 29 Dec)"
+        local: 354
+        brl: 311.77
+        note: "18 m², window onto the hallway (Trip.com). Pay at the hotel"
+        url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: "Comfort Queen, 3 work nights 28–31 Dec"
+        local: 365
+        brl: 321.46
+        note: "¥1,095 (R$964) in total; ¥986 signed in. 6 left on 24 Nov"
+        url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: "Standard Queen, whole week 26 Dec – 2 Jan"
+        local: 455.71
+        brl: 401.34
+        note: "¥3,190 (R$2,809) in total, 21 m²; ¥2,871 (R$2,528) signed in"
+        url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-26&checkout=2027-01-02&group_adults=1&no_rooms=1&selected_currency=CNY"
+      - label: "Standard Twin, New Year's Eve alone"
+        local: 696
+        brl: 612.97
+        note: "No queen left for 31 Dec on its own on 24 Nov"
+        url: "https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-jiao-chang-kou-di-tie-zhan-qing-ju-jiu-dian.html?checkin=2026-12-31&checkout=2027-01-01&group_adults=1&no_rooms=1&selected_currency=CNY"
+    rating:
+      score: 9.3
+      out_of: 10
+      source: Booking.com
+      reviews: 89
+      checked: 2026-11-24
+    social:
+      - "**Not social.** A 106-room chain hotel on the 5th floor of a mall. Reviews talk about laundry and breakfast, not about meeting people."
+    good_to_know:
+      - "**Foreign guests:** Trip.com says 'guests from all countries/regions are welcome'. Reviewers in Oct–Nov 2026 came from Australia, the US, Belgium and the UK."
+      - "**Payment:** the week and 28–31 Dec rates are paid at the hotel. Booking.com lists only cash; Trip.com shows card icons and says no deposit."
+      - "**Desk:** Booking.com lists a desk and soundproof rooms. No review rates the Wi-Fi or mentions calls: test it on the first evening."
+      - "**Free laundry**, overnight laundry service and help with Taobao parcels, say guests in Nov 2026. Breakfast ¥38."
+      - "**Finding it:** a Nov 2026 guest says the map address is wrong; look for the ONEMALL / Wanmo mall and take the lift on the left to the 5th floor."
+  - type: highlights
+    items:
+      - title: Dim, quiet rooms for day sleep
+        text: "The cheapest rooms look onto the hallway or a small courtyard, not the street. A Belgian guest in Nov 2026 found the room 'spacious and very quiet'."
+      - title: The countdown on foot
+        text: "The mall is about **300 m** from the Liberation Monument. On NYE 2025 police barred cars around it from 18:00 (UTC+8), so being able to walk home matters."
+      - title: Pay at the desk, cancel late
+        text: "The week and the work-night rates are **paid at the hotel**, and free cancellation runs to **18:00 (UTC+8) on check-in day**."
+      - title: A week for less than the nights
+        text: "Booked one by one, the seven nights add up to ¥3,258. As one stay they cost **¥3,190 (R$2,809)**, ¥456 a night with New Year included."
+  - type: prose
+    title: Whole week or work nights
+    text: |-
+      You are in Chongqing from Saturday 26 December to Saturday 2 January and work **20:00–05:00 (UTC+8)** on 28, 29 and 30 December, so you sleep from about 05:30 to 13:00 on 29, 30 and 31 December. Prices on Booking.com, 24 Nov, taxes in:
+
+      - **Whole week, 26 Dec – 2 Jan:** ¥3,190 (R$2,809) in a 21 m² Standard Queen. Check-out on 2 Jan is 12:00 (UTC+8), in time for the 15:25 flight.
+      - **Work nights only, 28–31 Dec:** ¥1,095 (R$964) in an 18 m² Comfort Queen. Check-out on 31 Dec is 12:00 (UTC+8), an hour before your sleep would end.
+
+      **Book the whole week here if you want one bed for the trip.** It costs ¥456 a night with New Year's Eve and 1 January inside it, nights that cost ¥696 and ¥664 on their own. If arrival slips, you lose nothing up to 18:00 (UTC+8) on 26 Dec: cancel and rebook from 27 or 28 Dec.
+
+      **For the work nights alone it is also my pick**: ¥285 (R$251) cheaper than the Atour by Raffles City, whose guests found the rooms too hot in Dec 2025 and Nov 2026. That one includes a late check-out on the 31st; here you have to ask for it.
+  - type: map
+    note: "The pin is the **ONEMALL (Wanmo)** mall on OpenStreetMap; the hotel is on its **5th floor**. Jiaochangkou station is 270 m away (Trip.com). Show taxi drivers the Chinese address, and on NYE walk in: in 2025 the roads closed to cars from 18:00 (UTC+8)."
+  - type: tips
+    variant: insider
+    items:
+      - "Sign in to Booking.com (free account) before booking: the week drops from ¥3,190 to **¥2,871**, the work nights from ¥1,095 to **¥986**."
+      - "**Split the week into two bookings at the same price:** 26–28 Dec (¥802) plus 28 Dec – 2 Jan (¥2,388) = ¥3,190. If arrival slips, cancel only the first one."
+      - "On 31 Dec ask for check-out at 13:00 or 14:00 (UTC+8) at the desk the day before. No source lists a late check-out price."
+      - "Write in the special-requests box that you sleep in the daytime and want no housekeeping before 13:00 (UTC+8)."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "A Nov 2026 guest smelled hot pot from the mall in a courtyard room. Ask for a room away from the restaurant side."
+      - "An Italian guest (Nov 2026) found the air conditioning always on and the air dry. Bring a water bottle for the shift."
+      - "Don't book NYE on its own later: on 24 Nov the queens for 31 Dec were already gone."
+  - type: book_ahead
+    steps:
+      - { days_before: 32, text: "Book the **whole week** (or 28–31 Dec) on Booking.com signed in. Nothing is charged; you pay at the hotel." }
+      - { days_before: 1, text: "Free cancellation ends at **18:00 (UTC+8) on check-in day**. If arrival slips to 27 or 28 Dec, cancel before then and rebook the new dates." }
+      - { days_before: 0, text: "Check in from **14:00 (UTC+8)** with your passport. Test the Wi-Fi and the desk socket before the 20:00 shift." }
+    passport_note: "Bring the passport itself. Trip.com says no deposit is required."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, often drizzly
+    note: "Mild for China in winter but grey. You will be indoors most of the day; the countdown means hours standing outside."
+    wear: Mid-weight jacket and a rain layer
+  - type: pairs_well
+    items:
+      - { id: jiefangbei-nye-countdown, note: "300 m away: the countdown on 31 Dec" }
+      - { id: merica-hotel-jiefangbei, note: "The cheaper windowless option for the work nights" }
+      - { id: only-cafe-and-backpacker, note: "The social hostel, if you split the week" }
