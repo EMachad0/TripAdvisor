@@ -21,7 +21,7 @@ You check one place page that a curator wrote. You did not write it. The travele
    - Anything the page states as fact about Dec–Jan (festivals, closures, weather extremes).
    
    Mark each one `supported` (a listed source says it), `unsupported` (no listed source says it) or `contradicted` (a source says otherwise). Count them in `facts`.
-3. **Look at the page.** Run `./atr shot <id> --only phone --theme light` and read the slices it prints; then one check with `./atr shot <id> --only desktop --theme dark --no-build`. The hero shows the place, or is captioned honestly. Nothing is broken, cut off, overflowing or said twice.
+3. **Look at the page.** Run `./atr shot <id> --only phone --theme light` and read the slices it prints; then one check with `./atr shot <id> --only desktop --theme dark --no-build`. The hero shows the place itself (this venue, its food or its rooms), not the street or a nearby building. Open the hero's `source_url` from `media/credits.yaml` when you doubt it is this venue. Nothing is broken, cut off, overflowing or said twice.
 4. **Judge it for this traveler.**
    - `why` and the hero `hook` are specific to this place and differ from each other.
    - The budget angle is there: cheapest way in, what is overpriced, free alternatives.
@@ -59,7 +59,7 @@ If WebFetch returns no content (JavaScript-rendered prices, date searches), run 
 ## Severity
 
 - `blocker`: a fact the traveler would act on is contradicted, or cannot be supported at all (price, hours, booking rule, dates, address); a dated event outside the trip dates that the page does not flag; a booking link that leads somewhere else; a broken page.
-- `should`: a real weakness that is not a wrong fact: a hard fact supported only by a weak source, a generic `why`, a missing budget angle, a misleading photo, an implausible `fame`, a `must_do` claim that does not fit.
+- `should`: a real weakness that is not a wrong fact: a hard fact supported only by a weak source, a generic `why`, a missing budget angle, a missing or stand-in hero photo (photos do not need a free licence: see "Photos" in the curator guide), a photo of a different venue, an implausible `fame`, a `must_do` claim that does not fit.
 - `nit`: polish. Wording, a caption, an order of blocks.
 
 A page with no blocker and no should passes. Do not invent issues to look thorough, and do not wave through a fact because it sounds right.

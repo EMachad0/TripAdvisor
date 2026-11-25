@@ -83,7 +83,8 @@
       "origin": {
         "enum": [
           "commons",
-          "local"
+          "local",
+          "web"
         ]
       },
       "area": {

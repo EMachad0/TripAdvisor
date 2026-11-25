@@ -246,7 +246,7 @@ export async function processImage(buf, mediaDir, name, { widths = WIDTHS, quali
   return { widths: targets, width: ow, height: oh };
 }
 
-function upsertCredit(mediaDir, entry, extra = {}) {
+export function upsertCredit(mediaDir, entry, extra = {}) {
   const credits = readCredits(mediaDir).filter((c) => c.file !== entry.file);
   credits.push(entry);
   writeCredits(mediaDir, credits);

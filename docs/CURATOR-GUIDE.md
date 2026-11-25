@@ -62,7 +62,15 @@ that no longer changes.
 ./atr fx CNY                       # prints a line to paste into fx:
 ./atr fx CNY --amount 40           # converts an amount too (the R$ amount is the first line)
 
-# 4. Photos (Wikimedia Commons, free licenses only; credits recorded automatically)
+# 4. Photos: every card opens with a photo of the place itself (see "Photos" below). Credits are recorded automatically.
+#    The site is personal, so a photo does NOT need a free licence. Use whichever source shows the real place best.
+./atr media web "Kwan Kee Claypot Rice Hong Kong"   # web image search: numbered contact-sheet.jpg (open with Read) + image and page URLs
+./atr media web "坤記煲仔小菜"                        # search the local-script name too; --any-size when nothing large turns up
+./atr media scout "https://www.hostelworld.com/…"   # the photos on one page: the venue's own site, its Hostelworld/Booking/Trip.com/Tabelog page
+./atr media grab kwan-kee "https://…/photo.jpg" --from "https://page-it-is-on" --as claypot-rice --credit "Kwan Kee"
+#    grab refuses images under 1000 px wide (--force for a gallery photo you really want). Many sites take the
+#    size in the image URL (w=1920, =s2048, /1600x/): ask for the big one.
+#    Wikimedia Commons (best for landmarks, parks, temples, streets, skylines):
 ./atr media preview "Yu Garden Shanghai"         # downloads previews + contact-sheet.jpg → open it with Read
 ./atr media search "Yu Garden Shanghai"          # text list: title, size, orientation, license
 ./atr media preview "File:Shanghai - Yu Garden - 0035.jpg" "File:B.jpg"   # one or more files, bigger, with a contact sheet
@@ -71,8 +79,9 @@ that no longer changes.
 ./atr media list yu-garden                        # names to use in place.yaml
 ./atr media remove yu-garden old-photo            # delete one photo (files + credits entry)
 ./atr media prune yu-garden [--yes]               # list (then delete) photos the page doesn't use
-#    Hero: landscape, ≥ 1600 px wide (2000+ ideal). Fetch 3–5 photos if they exist.
-#    Don't WebFetch image URLs (it returns binary); use `media preview` and Read.
+#    Hero: landscape, ≥ 1600 px wide (2000+ ideal); 1200–1599 px is accepted when it is the best photo of the
+#    real place. Save 3–5 photos: the place from outside, inside, and what you go there for (the dish, the room, the view).
+#    Don't WebFetch image URLs (it returns binary); look at the contact sheet or the NN.jpg previews with Read.
 #    Commons rate limits are shared by every session on this machine: the CLI queues and waits
 #    for all of them (up to 2 min per call). A file it still can't get is queued: the next
 #    `media fetch` for the same place fetches it, or run `./atr media fetch <id> --queued --patient`
@@ -171,7 +180,7 @@ One folder per place: `places/<country>/<city>/<id>/place.yaml` plus `media/` (m
 
 | Block | Use it for |
 |---|---|
-| `hero` | **First.** Big photo (landscape ≥ 1600 px), title, local name, one-line `hook`, chips and book-ahead badge (automatic). Optional `caption`. `focus` keeps the subject in frame when the photo is cropped: `center/top/bottom/left/right`, or a focal point `"20% 60%"` (from the left, from the top), which also works on gallery images. Without `image`, you get a typographic hero (see "No free photo") |
+| `hero` | **First.** Big photo of the place itself (landscape ≥ 1600 px; see "Photos"), title, local name, one-line `hook`, chips and book-ahead badge (automatic). Optional `caption`. `focus` keeps the subject in frame when the photo is cropped: `center/top/bottom/left/right`, or a focal point `"20% 60%"` (from the left, from the top), which also works on gallery images. Without `image`, you get a typographic hero (a last resort: see "Photos") |
 | `quick_facts` | Time needed and best time (cost, booking, transit and hours are automatic); up to 3 `extra` facts `{label, value, detail?}`. Keep `value` short and put the rest in `detail`. Don't repeat the automatic labels. The grid balances itself |
 | `highlights` | "Why you'll love it": 2–6 concrete reasons (4 or 2 look best) |
 | `prose` | 1–4 short paragraphs of story; `dropcap: true` for magazine style |
@@ -306,14 +315,28 @@ The card and hero show the dates, and validate checks them against the days the 
 - **New Year**: Dec 30 – Jan 2 sells out and often has a minimum stay. Use `book_ahead` (`required: recommended` or `true`, `lead_days`, the booking link) and put the New Year rules in `hours.winter`.
 - `hours.summary` holds reception, check-in and check-out times. `good_to_know`: lockers, curfew, lift, deposit, noise, whether foreigners can check in (in China some hostels can't register foreign passports: check).
 
-### No free photo?
+### Photos
 
-This is common for bars, small restaurants and anything at night. In order of preference:
-1. Use a free photo of the **immediate surroundings** (the street, the alley, the market hall) as the hero, and say so honestly in `hero.caption`: `"Euljiro 3-ga by day — no free photo of the bars themselves"`.
-2. If there isn't even that, **omit `hero.image`**. The page then gets a typographic hero in the category colour, with the local-script name large. The swipe card does the same. This is fine; don't use a misleading photo.
-3. Leave out `gallery` when you have nothing good. A gallery isn't required.
+**Every card opens with a photo of the place itself**: this restaurant's room or its signature dish as served here, this hostel's dorm or common room, this bar, this shop floor, this view. The site is private to one traveler, so copyright is not a reason to skip a photo. A photo you can't verify is.
 
-Never use a photo of a different venue as if it were this one, and never use a non-free image.
+Where to look, in order:
+1. **The venue's own pages**: official site, its page on Hostelworld / Booking.com / Trip.com / Agoda (stays), Tabelog / OpenRice / Dianping / Catchtable / Wongnai / Google Maps (food), Klook / KKday / the operator (activities). `./atr media scout <url>` lists the photos on a page.
+2. **Web image search**: `./atr media web "<name + city>"`, in English and in local script. Open the result's page (or check its title and host) before you save anything.
+3. **Wikimedia Commons** (`media preview` / `media fetch`): still the best source for landmarks, nature, temples, streets and skylines.
+
+Rules:
+- **Verify it is this venue.** The page the photo sits on must be about this place (same name, same branch, same address or city). Chains: the same branch when one exists, otherwise another branch of the same chain, captioned as such ("The chain's Shibuya branch; this one looks the same"). A dish photo must be this restaurant's dish, not a stock photo of the dish.
+- **Look at every photo before saving it** (Read the contact sheet, then the full preview). Reject watermarked stock, collages, maps, logos, menus as hero, photos with large text overlays, AI-generated images, and anything blurry or under 1000 px.
+- **Hero**: landscape, sharp, ≥ 1600 px wide when one exists (≥ 1200 px accepted for a real photo of the place). It should show what the traveler will see: for food the dish or the room, for a stay the room or common area, for nightlife the venue at night.
+- **Gallery**: 2–5 more photos that add something (inside, outside, the food, the detail), each captioned with what it shows.
+- **Captions say what the photo shows**, never an apology. Don't write "no free photo of…".
+- **Credit** is automatic: `grab` records the page it came from. Pass `--credit "<venue or site name>"` when the host name is not a good credit.
+
+Last resorts, only after all three sources came up empty (say which searches you ran in `confidence_note`):
+1. A photo of the **immediate surroundings** (the alley, the building, the market hall), with a caption that says what it is.
+2. No `hero.image`: the page gets a typographic hero. `./atr validate` warns about both, on purpose.
+
+Never use a photo of a different venue as if it were this one.
 
 ## 5. Quality bar
 
@@ -355,11 +378,11 @@ What reviewers caught on real pages so far. Check your page for each before you 
 Check this against your screenshots before you call a place done:
 
 - [ ] `./atr validate` shows 0 errors, and you understand every warning (fix them unless you have a reason).
-- [ ] The hero is sharp in `-phone-<theme>-top.png`, landscape, and shows the place (or its surroundings, with an honest `caption`). If no free photo exists, use the typographic hero. The title is readable over it (use `focus:` if the crop is bad).
+- [ ] The hero is sharp in `-phone-<theme>-top.png`, landscape, and shows the place itself: a photo you checked is this venue (see "Photos"). `./atr validate` shows no "stand-in" or "no photo" warning. The title is readable over it (use `focus:` if the crop is bad).
 - [ ] `fame` is set honestly, and `must_do` is set if the place is on the traveler's list.
 - [ ] `why` and `hook` are specific (no "a must-see for everyone"), and they differ from each other.
 - [ ] Quick facts show cost in R$ + local, time needed, best time, booking and transit.
-- [ ] 3–6 highlights, a map with the local-script address (and the pin on the right spot), at least one tips block, and a weather block. Add a gallery when good free photos exist; validate shows no image-size or crop warnings.
+- [ ] 3–6 highlights, a map with the local-script address (and the pin on the right spot), at least one tips block, and a weather block. Add a gallery of 2–5 real photos of the place; validate shows no image-size or crop warnings.
 - [ ] Quick facts fit on one or two lines each (no value-length warnings) and repeat nothing that's automatic.
 - [ ] Book-ahead places have a timeline with lead time, method and the exact booking link(s), plus the passport note if relevant. Nothing is said twice. `rules_changed` is set if the rules changed recently.
 - [ ] Eat and nightlife places have a menu block with local names and prices. Stay places have a `stay` block with beds, a dated rating and what makes them social.
