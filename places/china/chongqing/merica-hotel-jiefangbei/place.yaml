@@ -14,7 +14,7 @@ cost:
   local: 159
   currency: CNY
   brl: 140.03
-  note: "Windowless queen, ¥525 for 28–31 Dec, Booking.com 24 Nov (¥459 signed in), up from ¥389 on 15 Nov. Cheapest night: 28 Dec ¥159; 29–30 Dec ¥183"
+  note: "Windowless queen, ¥525 for 28–31 Dec, Booking.com 24 Nov (¥459 signed in), up from ¥389 on 15 Nov. 28 Dec ¥159, 29–30 Dec ¥183"
 fx: { rate: 0.8807, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
 
 book_ahead:
