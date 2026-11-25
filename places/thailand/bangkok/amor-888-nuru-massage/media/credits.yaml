@@ -1,17 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: soi-18
-  title: File:Sukhumvit Soi 18 -01.jpg
-  author: Aimaimyi
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Sukhumvit_Soi_18_-01.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Sukhumvit_Soi_18_-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: The Sukhumvit Soi 18. This place is located in Watthana , Bangkok , Thailand .
+- file: reception
+  title: og.jpg
+  author: Amor 888
+  license: All rights reserved (personal use)
+  source_url: https://www.amorbkk.com/
+  original_url: https://www.amorbkk.com/og.jpg
+  width: 1200
+  height: 630
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: amor-888-entrance-sukhumvit-soi-18.BdpRtLJO_Z2jglfA.webp
+  author: Amor 888
+  license: All rights reserved (personal use)
+  source_url: https://www.amorbkk.com/
+  original_url: https://www.amorbkk.com/_astro/amor-888-entrance-sukhumvit-soi-18.BdpRtLJO_Z2jglfA.webp
   width: 1600
-  height: 1200
+  height: 2133
   widths:
     - 640
     - 1280
     - 1600
-  fetched: 2026-11-16
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: massage-room
+  title: amor-888-massage-room.D70FPyI7_17CEkb.webp
+  author: Amor 888
+  license: All rights reserved (personal use)
+  source_url: https://www.amorbkk.com/
+  original_url: https://www.amorbkk.com/_astro/amor-888-massage-room.D70FPyI7_17CEkb.webp
+  width: 1000
+  height: 1333
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

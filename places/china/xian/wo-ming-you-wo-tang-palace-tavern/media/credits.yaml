@@ -1,0 +1,40 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: prawns
+  title: wm.jpg
+  author: Trip.com
+  license: All rights reserved (personal use)
+  source_url: https://tw.trip.com/restaurant/china/xi-an/detail/my-fate-my-choicechinese-cuisine-108262694/
+  width: 827
+  height: 514
+  widths:
+    - 640
+    - 827
+  fetched: 2026-11-25
+  origin: web
+- file: qujiang-creative-valley-dusk
+  title: 8a7632a4bde3e465.jpg
+  author: Qujiang Creative Valley architects
+  license: All rights reserved (personal use)
+  source_url: https://www.ovalpartnership.com/zh/project/Qujiang-Creative-Circle
+  original_url: https://www.ovalpartnership.com/images/projects/key/8a7632a4bde3e465.jpg
+  width: 2000
+  height: 1333
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: qujiang-creative-valley-plaza
+  title: 01f2-cf112078532648ad225993dc003b20bf.jpg
+  author: Sina News
+  license: All rights reserved (personal use)
+  source_url: https://k.sina.com.cn/article_2202972280_834eb07804000x13d.html
+  original_url: http://n.sinaimg.cn/sinakd20210909ac/388/w1280h708/20210909/01f2-cf112078532648ad225993dc003b20bf.jpg
+  width: 1280
+  height: 708
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

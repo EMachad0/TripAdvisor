@@ -102,8 +102,8 @@ last_updated: 2026-11-15
 
 blocks:
   - type: hero
-    image: yuzhong-night-above
-    caption: "Yuzhong from high up at night. Not taken from the hotel: no free photo of it exists"
+    image: room-view
+    caption: "A Westin twin room: desk and sofa by a full-width window over the city"
     hook: "One night high above Jiefangbei, Chongqing's towers lit in the window, before three nights of night shifts."
   - type: quick_facts
     time_needed: "One night, 15:00 Sun–12:00 Mon (UTC+8)"
@@ -171,6 +171,10 @@ blocks:
       The short answer to the videos: Chongqing's top hotels are cheap next to Europe, but not ¥350–600. The top international five-stars ran **¥1,018–2,030** a night on 27 Dec. ¥440–770 buys a five-star from a big chain, but its cheapest room is sold as city view (Kempinski, JW Marriott), with no view named (Hyatt Regency) or with river view as a separate room (Sheraton). Their prices are in the tips below.
   - type: gallery
     images:
+      - file: rooftop-pool-night
+        caption: "The lit Westin sign high up the tower, Yuzhong's skyline below at night"
+      - file: tower-at-night
+        caption: "The hotel tower and its Westin crown at night"
       - file: jiefangbei-monument-night
         caption: "The Liberation Monument at night, 320 m from the hotel"
   - type: book_ahead

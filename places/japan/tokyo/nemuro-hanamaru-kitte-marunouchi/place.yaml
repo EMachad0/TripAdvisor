@@ -53,8 +53,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: kitte-atrium
-    caption: "KITTE's atrium. The sushi bar is on the 5th floor"
+    image: sushi-counter
+    caption: "Hanamaru's long sushi counter in KITTE, before opening"
     hook: "The queue is part of the plan: take a ticket and let LINE call you back."
   - type: quick_facts
     time_needed: 1 h + wait
@@ -72,6 +72,10 @@ blocks:
         text: "Take a numbered ticket from the machine and scan its **QR code**. The store page says you'll get a **LINE or email** alert, and you have 15 minutes to come back."
       - title: Next to Tokyo Station
         text: "It's on the 5th floor of the **KITTE** mall, next to Tokyo Station. Spend the wait exploring the mall."
+  - type: gallery
+    images:
+      - { file: shopfront, caption: "The entrance on KITTE's 5th floor" }
+      - { file: conveyor, caption: "Plates on the belt in front of the chefs (2013)" }
   - type: menu
     title: Plate prices
     items:

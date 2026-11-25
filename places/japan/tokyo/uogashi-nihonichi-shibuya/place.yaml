@@ -54,6 +54,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: shopfront
+    caption: "The Dōgenzaka shop front: 立喰い寿司, standing sushi"
     hook: Two pieces at a time, straight from the chef's hands. Eat, point at the next fish, and you're out in half an hour.
   - type: quick_facts
     time_needed: 30–45 min
@@ -71,6 +73,10 @@ blocks:
         text: "2025–26 reviewers keep reordering the **grilled squid tentacle with mayo**, at ¥75."
       - title: A cheap hour in Shibuya
         text: "It's 5 minutes from the Scramble, so it fits between Shibuya Sky and a night out. Most reviewers spent ¥1,000–1,999."
+  - type: gallery
+    images:
+      - { file: dogenzaka-street, caption: "The shop on its Dōgenzaka block, under the fish-and-bowl mural" }
+      - { file: counter, caption: "The standing counter, chef working behind the fish case" }
   - type: menu
     title: What to point at
     items:

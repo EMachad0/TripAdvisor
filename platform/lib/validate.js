@@ -261,7 +261,10 @@ export function validatePlace(data, ctx = {}) {
       if (c) {
         const w = served(c, files);
         if (isPortrait(c)) issues.push(issue('warning', ['blocks', i, 'image'], `hero "${b.image}" is portrait (${c.width}×${c.height}); the hero is a wide landscape crop and will cut most of it`, 'a landscape photo (wider than tall), or set `focus:` to keep the key part', 'focus: top'));
-        else if (w && w < 1600) issues.push(issue('warning', ['blocks', i, 'image'], `hero "${b.image}" is only ${w} px wide; it is shown full-screen and will look soft`, 'a photo ≥ 1600 px wide (≥ 2000 ideal)', undefined, 'search for a larger version, or move this photo to the gallery'));
+        else if (w && w < 1600) issues.push(issue(w < 1200 ? 'warning' : 'info', ['blocks', i, 'image'], `hero "${b.image}" is only ${w} px wide; it is shown full-screen and will look soft`, 'a photo ≥ 1600 px wide (≥ 2000 ideal)', undefined, w < 1200 ? 'search for a larger version (`./atr media web`, `./atr media scout <venue page>`), or move this photo to the gallery' : 'fine when it is the best photo of the real place; a larger version is better (`./atr media web`, `./atr media scout <venue page>`)'));
+        if (typeof b.caption === 'string' && /no free (photo|image)|no (photo|image) of (the|this)|not (the|this) (venue|bar|restaurant|hotel|hostel|shop|caf[eé]|club|place)\b/i.test(b.caption)) issues.push(issue('warning', ['blocks', i, 'image'], `the hero is a stand-in (caption: "${b.caption.slice(0, 80)}"); a card should open with a photo of the place itself`, 'a photo of this venue, its food or its rooms', undefined, '`./atr media web "<name + city>"` (try the local-script name), or `./atr media scout <url>` on the venue\'s site or booking page, then `./atr media grab`. Photos do not need a free licence'));
+      } else if (!b.image) {
+        issues.push(issue('warning', ['blocks', i], 'the hero has no photo; a card should open with a photo of the place itself', 'hero.image: a photo of this venue, its food or its rooms', undefined, '`./atr media web "<name + city>"` (try the local-script name), or `./atr media scout <url>` on the venue\'s site or booking page, then `./atr media grab <place> <image-url> --from <page-url>`. Photos do not need a free licence'));
       }
     }
     if (b.type === 'quick_facts' && !stay) {

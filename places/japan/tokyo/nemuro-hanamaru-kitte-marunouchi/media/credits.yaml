@@ -1,17 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: kitte-atrium
-  title: File:KITTE Marunouchi Atrium 201912.jpg
-  author: Wpcpey
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:KITTE_Marunouchi_Atrium_201912.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/1/11/KITTE_Marunouchi_Atrium_201912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: KITTE Marunouchi Atrium
-  width: 4032
-  height: 3024
+- file: sushi-counter
+  title: photo02.jpg
+  author: Daiko Electric (lighting case study)
+  license: All rights reserved (personal use)
+  source_url: https://www2.lighting-daiko.co.jp/case/public/case37.html
+  original_url: https://www2.lighting-daiko.co.jp/case/public/img/case37/photo02.jpg
+  width: 1680
+  height: 1000
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
+    - 1680
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: s11.jpg
+  author: Nemuro Hanamaru
+  license: All rights reserved (personal use)
+  source_url: https://www.sushi-hanamaru.com/store/details/s11.html
+  original_url: https://www.sushi-hanamaru.com/store/files/s11.jpg
+  width: 1000
+  height: 665
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: conveyor
+  title: 761ce53fbcbc24a48a7303295fc6c23d-1024x768.jpg
+  author: Mainichi Beer
+  license: All rights reserved (personal use)
+  source_url: https://mainichibeer.jp/archives/1832/
+  original_url: https://mainichibeer.jp/wp-content/uploads/2013/11/761ce53fbcbc24a48a7303295fc6c23d-1024x768.jpg
+  width: 1024
+  height: 768
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web

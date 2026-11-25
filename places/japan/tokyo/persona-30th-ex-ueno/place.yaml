@@ -117,6 +117,7 @@ blocks:
       Plan it for a **weekday after 22 Jan**. The ¥2,700 weekday ticket works on any weekday except the 21st and 22nd, so you don't need to commit to a date. Weekend and opening-day entry is in timed slots.
   - type: gallery
     images:
+      - { file: key-visual, caption: "The show's key visual: Joker from Persona 5, with the dates and the museum's name" }
       - { file: ameyoko-entrance, caption: "Ameyoko market, by Ueno Station: street food after the show" }
   - type: book_ahead
     steps:

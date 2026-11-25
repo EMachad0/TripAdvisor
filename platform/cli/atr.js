@@ -223,8 +223,12 @@ cmd('fx', {
 
 // ───────────────────────── media ─────────────────────────
 cmd('media', {
-  summary: 'find, fetch and list licensed photos (Wikimedia Commons) with automatic credits',
-  usage: `./atr media search "<query>" [--limit N] [--all]
+  summary: 'find and save photos of the real place (web image search, the venue\'s own page, Wikimedia Commons) with automatic credits',
+  usage: `./atr media web "<venue name + city>" [--limit N] [--any-size]   (web image search: numbered contact sheet + image and page URLs)
+       ./atr media scout <page-url>                       (the photos on one page: the venue's site, its Hostelworld/Booking/Tabelog page)
+       ./atr media grab <place-id|path> <image-url> --from <page-url> [--as <name>] [--credit "Venue or site name"] [--force]
+       ./atr media grab --area <area-id> <image-url> --from <page-url> [--as <name>]
+       ./atr media search "<query>" [--limit N] [--all]   (Wikimedia Commons)
        ./atr media fetch <place-id|path> "File:Name.jpg"|<commons-url> [--as <name>]
        ./atr media fetch <place-id|path> "File:A.jpg" --as a "File:B.jpg" --as b   (several at once, paced; the n-th --as names the n-th file)
        ./atr media fetch --area <area-id> "File:Name.jpg" [--as <name>]   (recorded for that area in the shared credits.yaml)
@@ -236,8 +240,8 @@ cmd('media', {
        ./atr media remove <place-id|path> <name>          (deletes its WebP files + credits entry)
        ./atr media prune <place-id|path> [--yes]          (lists media place.yaml doesn't use; --yes deletes them)
        ./atr media prune --area <area-id> [--yes]         (only photos fetched for that area that its card and page don't use)`,
-  details: 'fetch downloads a 1920 px copy (or the original when smaller), stores WebP at 640/1280/1920 px in <place>/media/ and writes media/credits.yaml (author, license, URLs; the author is trimmed to the name). Non-free licenses (NC/ND/fair use) are rejected. Use the printed `name` in place.yaml (hero.image, gallery.images[].file, cover).\nCommons rate limits: every session on this machine shares one queue and one cooldown (.cache/commons-cooldown.json), and a 429 with Retry-After makes them all wait that long. Waits are printed on stderr. A call waits up to 2 min (--patient: 45 min, run it in the background); a file that still cannot be fetched is queued, and the next `media fetch` for the same place (or `--queued`) fetches it.',
-  options: { as: { type: 'string', multiple: true, desc: 'media name to save as (default: from the file title); with several files, repeat it in the same order' }, area: { type: 'string', desc: 'target an area card instead of a place' }, limit: { type: 'string', desc: 'search results (default 12)' }, all: { type: 'boolean', desc: 'search: also show non-free results' }, author: { type: 'string' }, license: { type: 'string' }, 'license-url': { type: 'string' }, 'source-url': { type: 'string' }, description: { type: 'string' }, yes: { type: 'boolean', desc: 'prune: actually delete' }, patient: { type: 'boolean', desc: 'fetch/preview: wait up to 45 min for Commons rate limits to clear (run in the background)' }, queued: { type: 'boolean', desc: 'fetch: fetch the files queued for this place/area (all of them with no target)' } },
+  details: 'web / scout / grab: the site is personal, so a photo only has to show the real place; copyright is not a blocker. `web` searches the open web for large landscape photos, `scout` lists the photos shown on one page (rendered in Chrome). Both download the candidates, print their real pixel size and write a numbered contact sheet to open with Read. `grab` saves one image (WebP 640/1280/2048) and records the page it came from as the credit; it refuses images under 1000 px wide unless --force.\nfetch downloads a 1920 px copy (or the original when smaller), stores WebP at 640/1280/1920 px in <place>/media/ and writes media/credits.yaml (author, license, URLs; the author is trimmed to the name). Non-free licenses (NC/ND/fair use) are rejected. Use the printed `name` in place.yaml (hero.image, gallery.images[].file, cover).\nCommons rate limits: every session on this machine shares one queue and one cooldown (.cache/commons-cooldown.json), and a 429 with Retry-After makes them all wait that long. Waits are printed on stderr. A call waits up to 2 min (--patient: 45 min, run it in the background); a file that still cannot be fetched is queued, and the next `media fetch` for the same place (or `--queued`) fetches it.',
+  options: { as: { type: 'string', multiple: true, desc: 'media name to save as (default: from the file title); with several files, repeat it in the same order' }, area: { type: 'string', desc: 'target an area card instead of a place' }, limit: { type: 'string', desc: 'search results (default 12)' }, all: { type: 'boolean', desc: 'search: also show non-free results' }, author: { type: 'string' }, license: { type: 'string' }, 'license-url': { type: 'string' }, 'source-url': { type: 'string' }, description: { type: 'string' }, yes: { type: 'boolean', desc: 'prune: actually delete' }, patient: { type: 'boolean', desc: 'fetch/preview: wait up to 45 min for Commons rate limits to clear (run in the background)' }, queued: { type: 'boolean', desc: 'fetch: fetch the files queued for this place/area (all of them with no target)' }, from: { type: 'string', desc: 'grab: the page the photo is shown on (becomes the credit link)' }, credit: { type: 'string', desc: 'grab: who to credit (default: the page\'s host name)' }, force: { type: 'boolean', desc: 'grab: accept an image under 1000 px wide' }, 'any-size': { type: 'boolean', desc: 'web: do not limit the search to large landscape photos' } },
   examples: ['./atr media search "Yu Garden Shanghai"', './atr media preview "Yu Garden Shanghai"', './atr media fetch yu-garden "File:Yu Garden 1.jpg" --as main-hall', './atr media list yu-garden'],
   async run(o, pos) {
     const m = await import('../lib/media/index.js');
@@ -249,6 +253,29 @@ cmd('media', {
       if (!p) throw new Error(`place "${ref}" not found — pass an id (folder name) or a path. Create it first with \`./atr new place\`.`);
       return { mediaDir: path.join(p.dir, 'media'), label: p.id };
     };
+    if (sub === 'web' || sub === 'scout') {
+      const w = await import('../lib/media/web.js');
+      const q = pos.slice(1).join(' ');
+      if (!q) return fail(sub === 'web' ? 'give a search, e.g. `./atr media web "Kwan Kee Claypot Rice Hong Kong"` (try the local-script name too)' : 'give a page URL, e.g. `./atr media scout https://www.hostelworld.com/…`');
+      let cands, head = '';
+      if (sub === 'web') cands = await w.searchWeb(q, { limit: 35, large: !o['any-size'] });
+      else { const r = await w.scoutPage(q); cands = r.images; head = `${c.dim(`# ${r.title || '(no title)'} — ${r.finalUrl}`)}\n`; }
+      const pv = await w.previewWeb(cands, q, { minWidth: sub === 'scout' ? 500 : o['any-size'] ? 0 : 900, max: Number(o.limit || 12) });
+      const ok = pv.items.filter((x) => x.file);
+      if (o.json) return console.log(JSON.stringify(pv, null, 2));
+      if (!ok.length) return console.log(`${head}0 usable images for "${q}"${pv.items.length ? ` (${pv.items.length} could not be downloaded)` : ''}. ${sub === 'web' ? 'Try the local-script name, add the city or the dish, or `./atr media scout <page-url>` on the venue\'s own page.' : 'The page may be bot-walled or draw its photos late: try `./atr render <url> --shot`, another page of the venue, or `./atr media web "<name>"`.'}`);
+      console.log(`${head}${ok.map((x) => `${c.bold(String(x.n).padStart(2))}. ${x.width}×${x.height} ${x.height > x.width ? 'portrait' : 'landscape'}${x.width < w.MIN_WIDTH ? c.red(' (too small)') : x.width < 1600 ? c.yellow(' (gallery only: a hero needs 1600 px)') : ''} · ${c.cyan(String(x.title || '').slice(0, 90))}\n    image: ${x.image_url}\n    page:  ${x.page_url || '(unknown)'}`).join('\n')}`);
+      console.log(`\n${c.green('✔')} contact sheet (open with Read): ${pv.sheet}\n${c.dim(`one preview at full size: ${pv.dir}/NN.jpg\nopen the page to check the photo really shows this venue, then:\n  ./atr media grab <place-id> "<image url>" --from "<page url>" --as <short-name>`)}`);
+      return;
+    }
+    if (sub === 'grab') {
+      const w = await import('../lib/media/web.js');
+      const t = target();
+      const url = o.area ? pos[1] : pos[2];
+      if (!url) return fail('usage: ./atr media grab <place-id> <image-url> --from <page-url> [--as <name>]');
+      const cr = await w.grabWeb(url, t.mediaDir, { name: o.as?.[0], pageUrl: o.from || o['source-url'], credit: o.credit || o.author, description: o.description, force: o.force, area: o.area ? resolveArea(o.area, o).id : undefined });
+      return out(o, cr, `${c.green('✔')} ${t.label}: saved "${cr.file}" (${cr.width}×${cr.height}, ${cr.widths.join('/')} px WebP) · credit: ${cr.author} · ${cr.source_url}${cr.width < 1600 ? c.yellow('\n  under 1600 px wide: fine for the gallery, too soft for the hero') : ''}${cr.height > cr.width ? c.yellow('\n  portrait: fine for the gallery, not for the hero') : ''}\n  use it in place.yaml as: ${cr.file}`);
+    }
     if (sub === 'search') {
       const q = pos.slice(1).join(' ');
       if (!q) return fail('give a search query, e.g. `./atr media search "Yu Garden"`');
@@ -369,7 +396,7 @@ cmd('media', {
       for (const n of unused) m.removeMedia(t.mediaDir, n);
       return out(o, { removed: unused }, `${c.green('✔')} ${t.label}: removed ${unused.join(', ')}`);
     }
-    fail('subcommand: search | preview | fetch | add | list | remove | prune (see ./atr media --help)');
+    fail('subcommand: web | scout | grab | search | preview | fetch | add | list | remove | prune (see ./atr media --help)');
   },
 });
 

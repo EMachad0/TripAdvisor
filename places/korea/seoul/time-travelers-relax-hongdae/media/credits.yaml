@@ -1,17 +1,53 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: hongik-exit-6
-  title: File:Korail-K314-Hongik-university-station-entrance-6-20191023-081240.jpg
-  author: LERK
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Korail-K314-Hongik-university-station-entrance-6-20191023-081240.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Korail-K314-Hongik-university-station-entrance-6-20191023-081240.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: The no.6 entrance to Hongik University Station on the Gyeongui-Jungang Line, AREX and Seoul Metro Line 2 in Mapo-gu, Seoul, Republic of Korea(South Korea)
-  width: 4000
-  height: 2250
+- file: common-room
+  title: 599bb5eece2556.96651562.jpg
+  author: Yanolja (NOL)
+  license: All rights reserved (personal use)
+  source_url: https://nol.yanolja.com/stay/domestic/3010819
+  original_url: https://yaimg.yanolja.com/v5/2017/08/22/13/1280/599bb5eece2556.96651562.jpg
+  width: 1280
+  height: 800
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: private-room
+  title: 599bb5976a1345.14408591.JPG
+  author: Yanolja (NOL)
+  license: All rights reserved (personal use)
+  source_url: https://nol.yanolja.com/stay/domestic/3010819
+  original_url: https://yaimg.yanolja.com/v5/2017/08/22/13/1280/599bb5976a1345.14408591.JPG
+  width: 1280
+  height: 800
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: trick-art-gate
+  title: budget-seoul-hostels-time-travelers-relax-guesthouse-trick-art.png
+  author: TheSmartLocal
+  license: All rights reserved (personal use)
+  source_url: https://thesmartlocal.com/read/hostels-in-seoul/
+  original_url: https://thesmartlocal.com/wp-content/uploads/2023/06/budget-seoul-hostels-time-travelers-relax-guesthouse-trick-art.png
+  width: 1316
+  height: 964
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: 22.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Time-Travelers-Relax-Guesthouse-Seoul/Seoul/273421
+  original_url: https://a.hwstatic.com/propertyimages/2/273421/22.jpg
+  width: 800
+  height: 533
+  widths:
+    - 640
+    - 800
+  fetched: 2026-11-25
+  origin: web

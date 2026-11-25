@@ -86,8 +86,8 @@ last_updated: 2026-11-24
 
 blocks:
   - type: hero
-    image: jiefangbei-street
-    caption: "Jiefangbei's towers, a few minutes' walk away. No free photo of the hotel"
+    image: building-dusk
+    caption: "The ONEMALL block at dusk with the Atour Light sign; the hotel is on the 5th floor"
     hook: "A new room with a desk in the mall block next to the monument: work three nights, then walk to the countdown."
   - type: quick_facts
     extra:
@@ -141,6 +141,12 @@ blocks:
         text: "The week and the work-night rates are **paid at the hotel**, and free cancellation runs to **18:00 (UTC+8) on check-in day**."
       - title: A week for less than the nights
         text: "Booked one by one, the seven nights add up to ¥3,258. As one stay they cost **¥3,190 (R$2,809)**, ¥456 a night with New Year included."
+  - type: gallery
+    images:
+      - file: double-room
+        caption: "A double room: queen bed, grey-and-white finish"
+      - file: room-window
+        caption: "A room with a window onto the towers outside"
   - type: prose
     title: Whole week or work nights
     text: |-

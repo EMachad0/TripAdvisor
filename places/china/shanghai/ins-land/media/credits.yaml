@@ -15,3 +15,57 @@
     - 2048
   fetched: 2026-11-10
   origin: commons
+- file: tower-night
+  title: b544e2f3-1aa6-4ecd-9526-02d1444dc14c.jpg
+  author: SmartShanghai
+  license: All rights reserved (personal use)
+  source_url: https://www.smartshanghai.com/venue/28727/ins
+  original_url: https://images.smartshanghai.com.cn/uploads/repository/2023/07/06/b544e2f3-1aa6-4ecd-9526-02d1444dc14c.jpg
+  width: 1400
+  height: 933
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: ins-sign
+  title: yx07-scaled.jpg
+  author: GameLook
+  license: All rights reserved (personal use)
+  source_url: http://www.gamelook.com.cn/2024/01/535388/
+  original_url: http://www.gamelook.com.cn/wp-content/uploads/2024/01/yx07-scaled.jpg
+  width: 2560
+  height: 1707
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: la-fin-crowd
+  title: 47075274.jpg
+  author: mpctrip.com
+  license: All rights reserved (personal use)
+  source_url: https://www.mpctrip.com/productinfo/2382005.html
+  original_url: https://nwzimg.wezhan.cn/contents/sitefiles2006/10033728/images/47075274.jpg
+  width: 1080
+  height: 721
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: club-crowd
+  title: INS-LAND-HEADER.jpg.webp
+  author: DJ Mag
+  license: All rights reserved (personal use)
+  source_url: https://djmag.com/features/ins-land-mega-club-reimagining-nightlife-shanghai
+  original_url: https://djmag.com/sites/default/files/styles/djm_23_1920x1080/public/2026-11/INS-LAND-HEADER.jpg.webp?itok=ZWC6OKCl
+  width: 1920
+  height: 1080
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web

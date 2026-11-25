@@ -1,17 +1,43 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: shinkyogoku-arcade
-  title: File:Shinkyogoku shopping arcade, Kyoto, August 2019.jpg
-  author: NevinThompson
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Shinkyogoku_shopping_arcade,_Kyoto,_August_2019.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Shinkyogoku_shopping_arcade%2C_Kyoto%2C_August_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Shinkyōgoku shopping arcade, Kyoto, Japan.
-  width: 4032
-  height: 3024
+- file: kinshi-don
+  title: ffb7e67bf8e7969cfcd51987d72952d8ec09a2a6.jpg
+  author: Cool Japan Video
+  license: All rights reserved (personal use)
+  source_url: https://cooljapan-videos.com/jp/articles/sbctlmi2
+  original_url: https://img.cooljapan-videos.com/files/articles/sbctlmi2/thumbnail/ffb7e67bf8e7969cfcd51987d72952d8ec09a2a6.jpg?202408091727
+  width: 2000
+  height: 1333
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-23
-  origin: commons
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: Frame-7.png
+  author: Kyogoku Kaneyo
+  license: All rights reserved (personal use)
+  source_url: https://kyogoku-kaneyo.co.jp/
+  original_url: https://kyogoku-kaneyo.co.jp/wp-content/uploads/2023/06/Frame-7.png
+  width: 1450
+  height: 630
+  widths:
+    - 640
+    - 1280
+    - 1450
+  fetched: 2026-11-25
+  origin: web
+- file: kinshi-don-open
+  title: DSC_3227-scaled.jpg
+  author: はらがへっては (blog)
+  license: All rights reserved (personal use)
+  source_url: https://parallel-careers.com/kaneyo/7801/
+  original_url: https://parallel-careers.com/wp-content/uploads/2023/07/DSC_3227-scaled.jpg
+  width: 2560
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

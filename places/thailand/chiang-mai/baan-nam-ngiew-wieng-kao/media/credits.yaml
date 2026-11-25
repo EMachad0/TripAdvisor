@@ -1,17 +1,43 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: khanom-jeen-nam-ngiao
-  title: File:Khanom chin nam ngiao supoe.jpg
-  author: Takeaway
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Khanom_chin_nam_ngiao_supoe.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b4/Khanom_chin_nam_ngiao_supoe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: 'Khanom chin nam ngiao supoe (Thai script: ขนมจีนน้ำเงี้ยวซูเปอร์). This particular version also contains chicken feet, hence the suffix supoe (the Thai pronunciation of the English "super"). The very dark brown sliver at the top of the image is the dried core of the Bombax ceiba flower, used as a fl'
-  width: 2500
-  height: 2483
+- file: nam-ngiao-bowl
+  title: ba41498e34b2416797876203e11900c2.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/126323f395b54d74a48c13fa85687f53
+  original_url: https://img.wongnai.com/p/1920x0/2024/12/29/ba41498e34b2416797876203e11900c2.jpg
+  width: 1920
+  height: 1440
   widths:
     - 640
     - 1280
     - 1920
-  fetched: 2026-11-23
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: shop-sign
+  title: d66e3fe5706345d383371bb30e4f6e54.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/588e704ee81949c2aa3e003012645c04
+  original_url: https://img.wongnai.com/p/1920x0/2022/05/14/d66e3fe5706345d383371bb30e4f6e54.jpg
+  width: 1920
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: dining-room
+  title: 3d2960793312405789d2b5af15d0531c.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/bbf8bb94f3d549c2a866a27aa85f9437
+  original_url: https://img.wongnai.com/p/1920x0/2021/01/10/3d2960793312405789d2b5af15d0531c.jpg
+  width: 1920
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web

@@ -53,9 +53,9 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: wulingyuan-gate
+    image: common-room
     hook: Come back from the pillars to pizza, craft beer and a pool table full of other backpackers.
-    caption: "Wulingyuan's park gate square, near the hostel. No free photo of the hostel itself"
+    caption: "Guests around the tables in the book-lined common room"
   - type: quick_facts
     extra:
       - { label: Check-in, value: "08:00–23:00", detail: No curfew; check-out by 12:00 }
@@ -106,6 +106,14 @@ blocks:
         text: "The Grand Canyon glass bridge is about 27 km away, with a coach from Wulingyuan bus station."
       - title: Tianmen is not
         text: "Tianmen Mountain is at the city's edge: a guide puts it at 50–70 minutes and ¥80–120 by taxi from Wulingyuan. Fine for one day trip; if Tianmen is your only stop, sleep in the city instead."
+  - type: gallery
+    images:
+      - file: entrance
+        caption: "The hostel's wooden, lantern-hung entrance"
+      - file: pool-room
+        caption: "The games room: pool table, darts and table football"
+      - file: twin-room
+        caption: A private twin room
   - type: map
     note: "Show the driver **张家界集结号公馆**. The pin is approximate."
   - type: tips

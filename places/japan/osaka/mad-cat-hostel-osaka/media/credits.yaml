@@ -1,17 +1,54 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: matsumushi-tram
-  title: File:Hankai 601 at Matsumushi.jpg
-  author: Mr.ちゅらさん
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Hankai_601_at_Matsumushi.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/6/66/Hankai_601_at_Matsumushi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Hankai 602 at Matsumushi
-  width: 4320
-  height: 3240
+- file: lounge-cats
+  title: 209004696.jpg
+  author: Booking.com
+  license: All rights reserved (personal use)
+  source_url: https://layla.ai/zh/hotels/hotels-in-osaka-and-okinawa-for-food-lovers-(2024)
+  original_url: https://q-xx.bstatic.com/xdata/images/hotel/max1920/209004696.jpg?k=dced08be7defc071511b18d138cd8907bf2b3e0551ab53dfa50d93b33ca087e5&o=
+  width: 1920
+  height: 1440
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-11
-  origin: commons
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: bar
+  title: 1621489087_b.jpg
+  author: あべの経済新聞
+  license: All rights reserved (personal use)
+  source_url: https://abeno.keizai.biz/photoflash/9448/
+  original_url: https://images.keizai.biz/abeno_keizai/photonews/1621489087_b.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: frontage
+  title: 177008.jpg
+  author: Rakuten Travel
+  license: All rights reserved (personal use)
+  source_url: https://hotelyadonavi.com/osaka/96945/
+  original_url: https://img.travel.rakuten.co.jp/share/HOTEL/177008/177008.jpg
+  width: 1124
+  height: 843
+  widths:
+    - 640
+    - 1124
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: 215408321.jpg
+  author: Booking.com
+  license: All rights reserved (personal use)
+  source_url: https://layla.ai/zh/hotels/hotels-in-osaka-and-okinawa-for-food-lovers-(2024)
+  original_url: https://q-xx.bstatic.com/xdata/images/hotel/max1920/215408321.jpg?k=2e95383e393137438eec5614d7fa2563ae32134e1a1e37d15c9ae52ac237951f&o=
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

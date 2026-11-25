@@ -1,0 +1,41 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: storefront
+  title: IMG_3823.jpg
+  author: Naver blog (roah-)
+  license: All rights reserved (personal use)
+  source_url: https://m.blog.naver.com/roah-/223505993232
+  original_url: https://blogfiles.pstatic.net/MjAyNDA3MDhfMjI0/MDAxNzIwNDMzMjQ3ODkz.EbojHpFZd8ypkLBhv5sfHdOioG49c8u_quho19ONq5kg.wSVHOw6_48YSWdZBhgU0h44OR6WONSBMsBwZNENljlwg.JPEG/IMG_3823.jpg
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: solo-booth
+  title: 4.혼고집-pinkpink.223님-인스타그램.jpg
+  author: Hot Place Hunter
+  license: All rights reserved (personal use)
+  source_url: https://hotplacehunter.co.kr/sns/article/86207/
+  original_url: https://cdn.hotplacehunter.co.kr/hotplacehunter/2023/07/20112758/4.%ED%98%BC%EA%B3%A0%EC%A7%91-pinkpink.223%EB%8B%98-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8.jpg
+  width: 1080
+  height: 1350
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: three-cut-set
+  title: 4.혼고집-realhwan84님-인스타그램-5.jpg
+  author: Hot Place Hunter
+  license: All rights reserved (personal use)
+  source_url: https://hotplacehunter.co.kr/sns/article/86207/
+  original_url: https://cdn.hotplacehunter.co.kr/hotplacehunter/2023/07/20112800/4.%ED%98%BC%EA%B3%A0%EC%A7%91-realhwan84%EB%8B%98-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-5.jpg
+  width: 1440
+  height: 1440
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

@@ -1,0 +1,56 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: entrance-night
+  title: P1011483.jpg
+  author: Trippino Chiang Mai
+  license: All rights reserved (personal use)
+  source_url: https://trippino-chiangmai.com/discover/huen-muan-jai/
+  original_url: https://trippino-chiangmai.com/_sys/wp-content/uploads/2019/08/P1011483.jpg
+  width: 4608
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: gate
+  title: chiang-mai-huan-muan-jai-18953.JPG
+  author: Chiang Mai Locator
+  license: All rights reserved (personal use)
+  source_url: https://www.chiangmailocator.com/chiang-mai-restaurants-5560:huen-muan-jai
+  original_url: https://www.chiangmailocator.com/design/photosbiz3/chiang-mai-huan-muan-jai-18953.JPG
+  width: 2048
+  height: 1372
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: dishes
+  title: Huen-Muan-Jai-Chiang-Mai-City-Guide-SilverKris.jpg
+  author: SilverKris
+  license: All rights reserved (personal use)
+  source_url: https://silverkris.singaporeair.com/guide/thailand/cnx/eat-chiang-mai/huen-muan-jai/
+  original_url: https://silverkris.singaporeair.com/wp-content/uploads/2025/04/Huen-Muan-Jai-Chiang-Mai-City-Guide-SilverKris.jpg
+  width: 1280
+  height: 805
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: garden-terrace
+  title: photo4jpg.jpg
+  author: Tripadvisor
+  license: All rights reserved (personal use)
+  source_url: https://www.tripadvisor.com/Restaurant_Review-g293917-d3492119-Reviews-Huen_Muan_Jai-Chiang_Mai.html
+  original_url: https://media-cdn.tripadvisor.com/media/daodao/photo-o/0f/e4/06/b8/photo4jpg.jpg
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

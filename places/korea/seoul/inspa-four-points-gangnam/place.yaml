@@ -100,11 +100,13 @@ sources:
     title: "Seoul: climate table, 1991–2020 normals (Wikipedia)"
     checked: 2026-11-18
 confidence: medium
-confidence_note: "Prices, hours, rules and booking are from the spa's own site (read 18 Nov 2026). Independent reviews are thin: WAUG 4.9 from 26 (2024–2026). No source names therapist gender. No raid or vice news found for IN SPA. Walk distance measured on OpenStreetMap. Text hero on purpose (guide: No free photo): no free photo of the spa exists, and Commons rate-limited the street photo for 90+ min."
+confidence_note: "Prices, hours, rules and booking are from the spa's own site (read 18 Nov 2026). Independent reviews are thin: WAUG 4.9 from 26 (2024–2026). No source names therapist gender. No raid or vice news found for IN SPA. Walk distance measured on OpenStreetMap."
 last_updated: 2026-11-18
 
 blocks:
   - type: hero
+    image: treatment-room
+    caption: "A single treatment room at IN SPA, sixth floor of the Four Points"
     hook: "A robe, a quiet room on the sixth floor of a Gangnam hotel, and 60 to 90 minutes of nobody needing you."
   - type: quick_facts
     time_needed: "1.5 h with changing"
@@ -134,6 +136,14 @@ blocks:
       **Which day:** Sun 17 Jan is the easy pick, any time from 10:00. On a work day (11–15, 18 or 19 Jan) take a 60-minute slot that starts by 18:00, so you are home well before your 21:00 shift. It also works as a jet-lag fix on the afternoon of Mon 11 Jan, the day you land. Sat 16 is the Hwacheon day trip; the spa is open until 22:00, but no source gives a last booking time.
 
       **This is a one-off splurge.** At ₩175,000 (about R$757) one hour costs more than five days of your R$140 "everything else" budget. The **WAUG voucher lists US$124.69 (about R$721, ≈₩166,600)** before a 3% coupon that may end before January, and it doesn't show which length that buys, so confirm the 60-min price for your date; the spa's own online price is US$133 (R$769), and paying at the desk is ₩175,000. For ₩65,000 less, take the **Nanda Aroma** card in Myeongdong (aroma oil 60 min, ₩110,000).
+  - type: gallery
+    images:
+      - file: spa-lounge
+        caption: "The spa lounge, where you wait and have tea"
+      - file: entrance
+        caption: "The IN SPA door, with its 10:00–22:00 (UTC+9) hours"
+      - file: welcome-tea
+        caption: "Welcome tea and warm towels"
   - type: book_ahead
     steps:
       - { days_before: 3, text: "Message IN SPA on **KakaoTalk (inspadesk)** or **WhatsApp (82-10-4276-0553)**: day, time, 60 or 90 min, and which style (Korean, Swedish, Lux Deep Tissue)." }

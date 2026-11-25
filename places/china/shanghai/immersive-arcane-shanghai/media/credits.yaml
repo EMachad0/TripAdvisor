@@ -1,17 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: wulumuqi-road-winter
-  title: File:Wulumuqi Rd. (M), Shanghai 20251228 01.jpg
-  author: Vesekskiy
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Wulumuqi_Rd._(M),_Shanghai_20251228_01.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a4/Wulumuqi_Rd._%28M%29%2C_Shanghai_20251228_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: ​上海乌鲁木齐中路与安福路的路口
-  width: 4096
-  height: 3072
+- file: piltover-set
+  title: 8c7e04a9-42b8-459f-af33-0714b988262e_0.jpg
+  author: City News Service
+  license: All rights reserved (personal use)
+  source_url: https://www.citynewsservice.cn/events/stage/reviewed-arcane-league-of-legends-immersive-theater-performance-debuts-in-shanghai-rkl3e3ko
+  original_url: https://obj.shine.cn/files/2026/04/08/8c7e04a9-42b8-459f-af33-0714b988262e_0.jpg
+  width: 1280
+  height: 853
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-16
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: powder-drawing
+  title: G_GraLNXsAAEoj4
+  author: Immersive Arcane on X
+  license: All rights reserved (personal use)
+  source_url: https://x.com/ImmersiveArcane
+  original_url: https://pbs.twimg.com/media/G_GraLNXsAAEoj4?format=webp&name=large
+  width: 2048
+  height: 1366
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: stair-scene
+  title: 1773824926_423825_png_r.webp
+  author: 3DM
+  license: All rights reserved (personal use)
+  source_url: https://www.3dmgame.com/original/3746007.html
+  original_url: https://img.3dmgame.com/uploads/images/news/20260318/1773824926_423825_png_r.webp
+  width: 1080
+  height: 607
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web

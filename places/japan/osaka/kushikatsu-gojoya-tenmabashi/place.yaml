@@ -74,8 +74,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: tenmabashi-bridge
-    caption: "Tenmabashi, the bridge the area is named for; no free photo of Gojoya"
+    image: skewers
+    caption: "A round of skewers on the rack with the dipping sauces and salt"
     hook: "Skewer after skewer from the fryer, each one different, until you tell the cook to stop."
   - type: quick_facts
     time_needed: 1–1.5 h
@@ -93,6 +93,11 @@ blocks:
         text: "Autumn 2026 skewers on the menu included a *Peking-duck-style choux* and *anago rice in foil*. A reviewer called each one \"small but beautifully crafted\"."
       - title: A counter for one
         text: "Twelve of the eighteen seats are at the counter, and Tabelog tags it solo-friendly."
+  - type: gallery
+    images:
+      - { file: counter, caption: "The wooden counter, where most of the 18 seats are" }
+      - { file: frying, caption: "A shrimp skewer coming out of the fryer" }
+      - { file: entrance, caption: "The 94KATU 5JYOYA sign at the door" }
   - type: book_ahead
     steps:
       - days_before: 3

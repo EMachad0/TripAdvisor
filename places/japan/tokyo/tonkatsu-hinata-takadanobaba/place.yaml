@@ -69,8 +69,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: takadanobaba-waseda-exit
-    caption: "Takadanobaba station's Waseda exit, 5 min away; no free photo of the shop"
+    image: loin-set
+    caption: "A loin cutlet set at Hinata: cabbage, rice, miso soup and pickles"
     hook: "Fourteen counter seats and pork cuts most tonkatsu shops never put on the menu."
   - type: quick_facts
     time_needed: "45 min (plus the queue)"
@@ -88,6 +88,10 @@ blocks:
         text: "Rice and cabbage come with **one free refill**; after that each refill is ¥150 (Tabelog menu)."
       - title: Tabelog 100
         text: "Rated 3.71 on Tabelog from about 2,600 reviews and picked for its 2026 tonkatsu \"Tabelog 100\"."
+  - type: gallery
+    images:
+      - { file: cutlet-close, caption: "The loin cutlet, pink in the middle" }
+      - { file: on-rice, caption: "A slice on rice with Japanese mustard" }
   - type: menu
     items:
       - name: Loin cutlet set (130 g)

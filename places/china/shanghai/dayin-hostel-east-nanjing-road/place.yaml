@@ -68,8 +68,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: east-nanjing-road
-    caption: "East Nanjing Road pedestrian street, 30 m from the hostel; no free photo of the hostel itself"
+    image: taproom-lounge
+    caption: "The lobby taproom: leather sofas, beer fridges and the tap wall"
     hook: "Beer taps in the lobby, Nanjing Road at the door, and a hostel big enough that someone is always heading out."
   - type: quick_facts
     extra:
@@ -128,6 +128,12 @@ blocks:
       Shanghai doesn't have a real party hostel. Of the names people still mention, **Meego Yes** is on Hostelworld but its review summary calls it "quiet and not very social". **WeFlow Xintiandi** is the closest to INS Land, but its atmosphere score is 7.2 and cleanliness 6.3. Blue Mountain, The Phoenix, Rock&Wood and Mingtown weren't among Hostelworld's 26 Shanghai listings when I searched on 11 Nov.
 
       That leaves this Dayin and Desti in Jing'an. Desti scores higher on atmosphere (8.9 against 8.4) and is ¥50 cheaper. Dayin has the bigger crowd, a bar inside the building and the central location. If finding a group for clubbing matters more than a quiet dorm, stay here. If you'd rather save money and have a calmer room, stay at Desti.
+  - type: gallery
+    images:
+      - { file: entrance, caption: "The Dayin Hostel and Ease Taproom entrance" }
+      - { file: common-room, caption: "Common room with a projector screen and long tables" }
+      - { file: taproom-bar, caption: "The taproom bar and its tap list" }
+      - { file: east-nanjing-road, caption: "East Nanjing Road pedestrian street, 30 m from the hostel" }
   - type: book_ahead
     steps:
       - { days_before: 4, text: "Book on Hostelworld while free cancellation is still open. Choose the 8-bed male or female dorm for the lowest price." }

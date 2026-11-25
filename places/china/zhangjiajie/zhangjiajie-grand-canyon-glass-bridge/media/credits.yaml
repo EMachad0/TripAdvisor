@@ -31,3 +31,35 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
+- file: glass-floor
+  title: File:Zhangjiajie Glass Bridge 20190726.jpg
+  author: Sunyiming
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Zhangjiajie_Glass_Bridge_20190726.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Zhangjiajie_Glass_Bridge_20190726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​张家界 大峡谷 玻璃桥
+  width: 4608
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: on-the-glass
+  title: File:Zhangjiajie Glass Bridge 04.jpg
+  author: Codas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Zhangjiajie_Glass_Bridge_04.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/98/Zhangjiajie_Glass_Bridge_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Zhangjiajie Glass Bridge
+  width: 5712
+  height: 4284
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

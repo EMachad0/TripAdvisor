@@ -14,3 +14,43 @@
     - 1920
   fetched: 2026-11-17
   origin: commons
+- file: rockza-facade
+  title: 20231230_IMG_O0547L.jpg
+  author: visual.information.jp
+  license: All rights reserved (personal use)
+  source_url: https://visual.information.jp/geography/pg507044/
+  original_url: https://visual.information.jp/Images2/2023/20231230_IMG_O0547L.jpg
+  width: 1680
+  height: 1260
+  widths:
+    - 640
+    - 1280
+    - 1680
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: img_f6ab4dfae21be6f790c1ede17aa6d546579923.jpg
+  author: Toyo Keizai
+  license: All rights reserved (personal use)
+  source_url: https://toyokeizai.net/articles/-/928997
+  original_url: https://tk.ismcdn.jp/mwimgs/f/6/1140/img_f6ab4dfae21be6f790c1ede17aa6d546579923.jpg
+  width: 1140
+  height: 641
+  widths:
+    - 640
+    - 1140
+  fetched: 2026-11-25
+  origin: web
+- file: facade-night
+  title: o1080060714838489175.jpg
+  author: Ichikawa Haruki's blog
+  license: All rights reserved (personal use)
+  source_url: https://ameblo.jp/ichikawa-haruki/entry-12632560657.html
+  original_url: https://stat.ameba.jp/user_images/20201021/21/ichikawa-haruki/6b/ed/j/o1080060714838489175.jpg
+  width: 1080
+  height: 607
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web

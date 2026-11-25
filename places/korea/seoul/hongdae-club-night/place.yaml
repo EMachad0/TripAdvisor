@@ -70,8 +70,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: hongdae-night
-    caption: "Hongdae's party district at night. No free photo inside NB2 exists"
+    image: nb2-dancefloor
+    caption: "NB2's packed dance floor under red lasers"
     hook: "Hip-hop in a basement on Wausan-ro, a coat-check ticket in your pocket and the first train at 5:30."
   - type: quick_facts
     time_needed: 4–6 h
@@ -100,6 +100,13 @@ blocks:
       Which night: you work 21:00–06:00 Mon–Fri, and 16–17 January is Hwacheon, so **Sunday 10 January** is the sure free night (Monday's shift starts at 21:00). Expect a thinner crowd and weekday-style covers on a Sunday; no guide gives Sunday prices. **Saturday 16 January** is the full-crowd option only if you are back from Hwacheon that evening.
 
       The plan that works best: drinks at the hostel first, walk down together before midnight to dodge covers, and stay out until the first train.
+  - type: gallery
+    feature: false
+    images:
+      - file: nb2-main-floor
+        caption: "NB2's main room from the balcony, with the DJ booth and screen"
+      - file: nb2-entrance
+        caption: "The NB2 and Noise Basement signs on the street (2011)"
   - type: menu
     title: What the night costs
     items:

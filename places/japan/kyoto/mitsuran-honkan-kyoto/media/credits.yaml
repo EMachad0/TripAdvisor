@@ -1,0 +1,45 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: kiyamachi-dusk
+  title: File:木屋町 - panoramio (2).jpg
+  author: gorian21
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E6%9C%A8%E5%B1%8B%E7%94%BA_-_panoramio_(2).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6e/%E6%9C%A8%E5%B1%8B%E7%94%BA_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 木屋町
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: commons
+- file: route-lane
+  title: 04.jpg
+  author: Mitsuran Honkan
+  license: All rights reserved (personal use)
+  source_url: https://mitsuonomise.com/access.php
+  original_url: https://mitsuonomise.com/pc/images_design/access/kawaramachi/04.jpg
+  width: 600
+  height: 450
+  widths:
+    - 600
+  fetched: 2026-11-25
+  origin: web
+- file: takase-canal-night
+  title: File:Kiyamachi Café.jpg
+  author: Japanexperterna.se
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Kiyamachi_Caf%C3%A9.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c9/Kiyamachi_Caf%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Times II Building, Ando Tadao, Kyoto.
+  width: 5184
+  height: 3456
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

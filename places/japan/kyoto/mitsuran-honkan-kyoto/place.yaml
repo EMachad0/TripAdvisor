@@ -79,11 +79,13 @@ sources:
     title: "Kyoto: climate table (Wikipedia)"
     checked: 2026-11-17
 confidence: medium
-confidence_note: "Prices, cash rule and concept are from the shop's English page, which its own site links. Japanese prices are from fujoho (the official site shows them only as images); no source says a foreign caller gets them. The English page says cash only; the Japanese site takes cards with ID. English reviews Sep–Nov 2026. Pin is block level; no free photo (Commons rate-limited)."
+confidence_note: "Prices, cash rule and concept are from the shop's English page, which its own site links. Japanese prices are from fujoho (the official site shows them only as images); no source says a foreign caller gets them. The English page says cash only; the Japanese site takes cards with ID. English reviews Sep–Nov 2026. Pin is block level. Hero shows the street: the shop posts only staff and route photos."
 last_updated: 2026-11-17
 
 blocks:
   - type: hero
+    image: kiyamachi-dusk
+    caption: "Kiyamachi-dōri at dusk, the bar street the Top Hat Building stands on"
     hook: "Three women in kimono, five minutes each, then you choose: Kyoto's one fūzoku shop built on the kimono."
   - type: quick_facts
     time_needed: "50–60 min session"
@@ -108,6 +110,10 @@ blocks:
       YOASOBI HEAVEN says Kyoto has **no soaplands**: its store-based adult shops are fashion health parlours, clustered in **Kawaramachi and Kiyamachi**, west of the Shijo bridge. A 2024 FRIDAY report quotes a Kiyamachi tout saying health shops everywhere there take tourists, while many cabarets and oppa-bars refuse them.
 
       Mitsuran Honkan is the themed pick: kimono and a meet-then-choose format. It is not cheap. The English page starts at **¥30,000 for 50 min** (about R$1,073; ¥35,000 for 60), six days of your Japan "everything else" budget. The Japanese list on fujoho is far lower: **¥15,000** for the basic 55 min rotation course (¥13,000 for new customers or 06:00–09:00), but booking at that price means calling in Japanese, and no source says a foreigner gets it. The case for it is the theme, a booking you can make in English, and a slot on Tue 2 or Thu 4 Feb. If you'd rather a different shop, Osaka's store shops near Namba are a train ride away.
+  - type: gallery
+    images:
+      - { file: takase-canal-night, caption: "The Takase canal along Kiyamachi-dōri on a spring night" }
+      - { file: route-lane, caption: "The lane from Hankyu exit A towards the Top Hat Building, from the shop's own route guide" }
   - type: book_ahead
     steps:
       - { days_before: 1, text: "Send a request on the **English page** (orange button) and message the course and time in the multilingual chat." }

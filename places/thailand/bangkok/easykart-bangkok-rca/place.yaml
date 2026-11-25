@@ -67,9 +67,9 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: rca-plaza
+    image: on-track
     hook: "Full-face helmet on, lights go green, and a timing screen tells you exactly how slow you were."
-    caption: "RCA Plaza, home of the track (2nd floor). No free photo of the track itself"
+    caption: "Drivers in full-face helmets on the indoor track at RCA Plaza"
   - type: quick_facts
     time_needed: "1–1.5 h"
     best_time: "Weekday, 13:00–17:00"
@@ -93,6 +93,12 @@ blocks:
       Motor karts on a flat indoor track, in the middle of Bangkok, open from 13:00: a race you drive yourself that fits a work-day afternoon. It is **not** a gravity kart. For a no-motor luge cart down a mountain, see Thongsomboon Club near Khao Yai (a weekend day trip) or Skyline Jungle Luge near Chiang Mai (a weekend up north).
 
       **Is it worth R$117, more than a whole day's budget?** It's an 8-minute race. Do it once, in the regular kart, as the day's one thing, and keep the rest of the day to free sights. If the first race hooks you, the 3-race pack (with a T-shirt) works out cheaper per race than buying them one at a time.
+  - type: gallery
+    feature: false
+    images:
+      - { file: track-overview, caption: "The track under the BFGoodrich start gantry, karts lined up in the pit lane" }
+      - { file: kart-line, caption: "Karts waiting in the pit lane between sessions" }
+      - { file: rca-plaza, caption: "RCA Plaza from outside; the track is on the 2nd floor" }
   - type: cost_breakdown
     items:
       - { label: "1 race, regular kart (8 min)", local: 699, brl: 116.73 }

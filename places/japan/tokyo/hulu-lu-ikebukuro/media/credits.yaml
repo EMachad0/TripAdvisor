@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: cafe-room
+  title: main-vis01.jpg
+  author: Menya Hulu-lu
+  license: All rights reserved (personal use)
+  source_url: https://www.hulu-lu.net/
+  original_url: https://www.hulu-lu.net/images/top/main-vis01.jpg
+  width: 1423
+  height: 930
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: IMG_20190317_125051.jpg
+  author: Ramen Guide Japan
+  license: All rights reserved (personal use)
+  source_url: https://www.ramenguidejapan.com/reviews/menyahululu
+  original_url: https://images.squarespace-cdn.com/content/v1/5bb430e47980b379b65a09b8/1575374281254-PSUB6HJQJL9OIQFV2MJN/IMG_20190317_125051.jpg
+  width: 2500
+  height: 1875
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: shoyu-bowl
+  title: IMG_20190317_125906.jpg
+  author: Ramen Guide Japan
+  license: All rights reserved (personal use)
+  source_url: https://www.ramenguidejapan.com/reviews/menyahululu
+  original_url: https://images.squarespace-cdn.com/content/v1/5bb430e47980b379b65a09b8/1575538742517-QXDV0865U2G2ZH9X9J4Y/IMG_20190317_125906.jpg
+  width: 2500
+  height: 1875
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

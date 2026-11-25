@@ -165,6 +165,8 @@ blocks:
     feature: false
     images:
       - { file: castle-night, caption: "The castle lit at night, where ILLUMINATE! plays", focus: center }
+      - { file: tron-canopy-night, caption: "TRON Lightcycle Power Run's canopy glowing after dark" }
+      - { file: tron-train, caption: "A lightcycle train racing under the lit canopy" }
   - type: prose
     title: Which day, and why Monday 7 December
     dropcap: true

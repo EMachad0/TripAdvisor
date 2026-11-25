@@ -53,8 +53,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: tha-phae-gate
-    caption: "Tha Phae Gate, about 500 m away. No free photo of the hostel itself exists"
+    image: pool-courtyard
+    caption: "The pool courtyard seen from the dorm walkways"
     hook: "A pool, a bar and a crowd heading out every night, ten minutes on foot from the old city walls."
   - type: quick_facts
     extra:
@@ -106,6 +106,11 @@ blocks:
         text: "Tha Phae Gate (about 500 m), the Night Bazaar and Wat Chedi Luang are listed as nearby: the old city is a walk, not a ride."
       - title: Work if you must
         text: "A co-working space on site makes it a workable base if you bring the laptop for the Mon–Fri nights."
+  - type: gallery
+    images:
+      - { file: bar, caption: "The hostel bar, where the nightly meet-up starts" }
+      - { file: lounge, caption: "Daytime lounge by the courtyard" }
+      - { file: pool-table, caption: "Pool table in the bar area" }
   - type: cost_breakdown
     items:
       - { label: "12-bed dorm bed, one night (non-refundable)", local: 671.37, brl: 110.71 }

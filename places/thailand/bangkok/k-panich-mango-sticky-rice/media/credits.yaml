@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: tanao-road
-  title: File:(2020) ตึกแถวริมถนนตะนาว ช่วงที่ 1 เขตพระนคร กรุงเทพมหานคร (4).jpg
-  author: กสิณธร ราชโอรส
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:(2020)_%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B9%81%E0%B8%96%E0%B8%A7%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%95%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7_%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88_1_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(4).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3e/%282020%29_%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B9%81%E0%B8%96%E0%B8%A7%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%95%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7_%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88_1_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: This is a photo of a monument in Thailand identified by the ID
-  width: 4592
-  height: 3448
-  widths:
-    - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-23
-  origin: commons
 - file: plaque
   title: File:Kor Panich Information Plaque.jpg
   author: Crcolas
@@ -31,3 +15,45 @@
     - 1920
   fetched: 2026-11-23
   origin: commons
+- file: mango-sticky-rice
+  title: 8804bf25769147d88a0229bb002fcbce.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/b855e31642c64c9995e647a1772f0946
+  original_url: https://img.wongnai.com/p/1920x0/2020/03/23/8804bf25769147d88a0229bb002fcbce.jpg
+  width: 1920
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: e6e74eb7fc7c4c109939a5c1ea2e5335.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/e643d2fc4fd548648a1eacefc6082e36
+  original_url: https://img.wongnai.com/p/1920x0/2025/04/22/e6e74eb7fc7c4c109939a5c1ea2e5335.jpg
+  width: 1920
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: takeaway-box
+  title: 81119b485d1f4cc7b37e9046fd62df45.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/553512594bd94896b396c3ac5f26fa06
+  original_url: https://img.wongnai.com/p/1920x0/2020/11/07/81119b485d1f4cc7b37e9046fd62df45.jpg
+  width: 1920
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web

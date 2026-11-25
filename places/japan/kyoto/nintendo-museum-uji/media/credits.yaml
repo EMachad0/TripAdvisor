@@ -30,3 +30,30 @@
     - 1920
   fetched: 2026-11-12
   origin: commons
+- file: atrium-floor
+  title: Nintendo_Museum_Kyoto_inside.jpg
+  author: Tabimania Japan
+  license: All rights reserved (personal use)
+  source_url: https://tabimaniajapan.com/culture/manga-anime-game/nintendo-museum-kyoto-how-to-reserve-what-to-see-how-to-get-there
+  original_url: https://tabimaniajapan.com/wp-content/uploads/2025/07/Nintendo_Museum_Kyoto_inside.jpg
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: console-wall
+  title: 240820-nintendo-museum-2.jpg
+  author: Leaf KYOTO
+  license: All rights reserved (personal use)
+  source_url: https://www.leafkyoto.net/en/240925-kyoto-nintendo/
+  original_url: https://www.leafkyoto.net/leaf/wp-content/uploads/2024/08/240820-nintendo-museum-2.jpg
+  width: 1280
+  height: 853
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

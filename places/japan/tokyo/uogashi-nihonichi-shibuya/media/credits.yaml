@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: shopfront
+  title: 20240318063909_47493596.jpg
+  author: Ekiten
+  license: All rights reserved (personal use)
+  source_url: https://www.ekiten.jp/shop_7091556/
+  original_url: https://image.ekiten.jp/contribution/7091556/20240318063909_47493596.jpg
+  width: 2432
+  height: 1330
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: dogenzaka-street
+  title: IMG_5056.jpg
+  author: Tokyo Cheapo
+  license: All rights reserved (personal use)
+  source_url: https://tokyocheapo.com/restaurant/uogashi-nihon-ichi/
+  original_url: https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2024/12/IMG_5056.jpg
+  width: 3594
+  height: 2701
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: counter
+  title: 10.jpg
+  author: Let's Enjoy Tokyo
+  license: All rights reserved (personal use)
+  source_url: https://www.enjoytokyo.jp/article/109965/
+  original_url: https://rstatic.enjoytokyo.jp/assets/images/o_article/solo/sites/solo/files/upimages/1030/10.jpg
+  width: 900
+  height: 661
+  widths:
+    - 640
+    - 900
+  fetched: 2026-11-25
+  origin: web

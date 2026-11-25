@@ -60,6 +60,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
+    image: shopfront
+    caption: "The one-room shophouse under its red sign, with the Bib Gourmand plaques by the stove"
     hook: Congee stock boiled again for every bowl in its own brass pot, so it stays piping hot to the last spoonful.
   - type: quick_facts
     time_needed: 30–45 min
@@ -78,6 +80,12 @@ blocks:
         text: "The family buys pork loin in slices and grinds it in-house. The congee base is jasmine rice soaked 4–5 hours and cooked in bone broth (Michelin)."
       - title: Michelin says solo is fine
         text: "Its Michelin page lists it as good for **solo dining**, and a bowl with egg was **฿60** (about R$11) in March 2026."
+  - type: gallery
+    images:
+      - file: brass-pot
+        caption: "Congee reboiled in its own brass pot over the flame"
+      - file: dishes
+        caption: "Congee, fish maw soup and stir-fried noodles from the menu"
   - type: prose
     title: What the name means
     text: |-

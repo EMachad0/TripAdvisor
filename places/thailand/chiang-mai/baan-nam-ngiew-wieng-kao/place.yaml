@@ -62,8 +62,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: khanom-jeen-nam-ngiao
-    caption: "Khanom jeen nam ngiao, photographed elsewhere; no free photo of this shop"
+    image: nam-ngiao-bowl
+    caption: "A bowl of nam ngiao with pork rib, as served here"
     focus: center
     hook: Rice noodles in a sour, tomato-red pork broth with dried kapok flowers (dok ngiu), the Chiang Rai way.
   - type: quick_facts
@@ -89,6 +89,10 @@ blocks:
       Michelin describes generous bowls of rich, tangy broth with pork or beef, tomato and herbs, also available with sides and vegetables. On Wongnai, reviewers order **khanom jeen nam ngiao** (with rice noodles) or **kao lao nam ngiao** (the soup without noodles) with a side of **khao kan jin**, northern rice steamed with blood, and pork crackling to drop into the bowl.
 
       The shop also sells som tam. A 2025 reviewer noted a sign listing the steps to follow when you order.
+  - type: gallery
+    images:
+      - { file: shop-sign, caption: "The shop's sign by the gate" }
+      - { file: dining-room, caption: "The open-sided dining room and chalkboard menu" }
   - type: quote
     variant: vibe
     text: Sour broth, a handful of crackling, and a quiet garden off a back street.

@@ -30,3 +30,45 @@
     - 1600
   fetched: 2026-11-11
   origin: commons
+- file: ginzaya-front
+  title: IMG_2919-scaled.jpg
+  author: グッチジャパンの京都最新グルメ
+  license: All rights reserved (personal use)
+  source_url: https://gcjapan-kyoto.com/ginzaya-tenma/
+  original_url: http://gcjapan-kyoto.com/wp-content/uploads/2026/01/IMG_2919-scaled.jpg
+  width: 2560
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: ginzaya-counter
+  title: IMG_2911-scaled.jpg
+  author: グッチジャパンの京都最新グルメ
+  license: All rights reserved (personal use)
+  source_url: https://gcjapan-kyoto.com/ginzaya-tenma/
+  original_url: http://gcjapan-kyoto.com/wp-content/uploads/2026/01/IMG_2911-scaled.jpg
+  width: 2560
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: toraya-drinks
+  title: 2d6aee53.jpg
+  author: やまでらのぶらりグルメと日記
+  license: All rights reserved (personal use)
+  source_url: https://ameblo.jp/yamaderayamadera/entry-12223185693.html
+  original_url: http://livedoor.blogimg.jp/yosiyosi128128/imgs/2/d/2d6aee53.jpg
+  width: 1600
+  height: 1195
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web

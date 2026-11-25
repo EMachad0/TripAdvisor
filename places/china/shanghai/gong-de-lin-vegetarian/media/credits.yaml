@@ -15,3 +15,42 @@
     - 1920
   fetched: 2026-11-23
   origin: commons
+- file: sweet-sour-dish
+  title: 01e9c0de1005455cb27eaf55f4ab37f1.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/gong-de-lin-jingan
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/01e9c0de1005455cb27eaf55f4ab37f1.jpeg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: vegetable-bun
+  title: b60aaae10c054d2d8b724eee25489770.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/gong-de-lin-jingan
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/b60aaae10c054d2d8b724eee25489770.jpeg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: private-room
+  title: 757ad154a7f745fe9a1e61553754c133.jpg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/gong-de-lin-jingan
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/757ad154a7f745fe9a1e61553754c133.jpg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

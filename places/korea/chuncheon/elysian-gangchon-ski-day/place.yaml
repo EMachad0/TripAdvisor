@@ -76,10 +76,9 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
-    image: baegyangri-station
+    image: slopes-aerial
     hook: Ride the Seoul subway until the river valley turns white, then get off at the ski resort's own station.
-    caption: Baegyang-ri station in summer. No free photo of the slopes exists
-    focus: center
+    caption: "Elysian Gangchon's slopes from above, the base lodge at the bottom left"
   - type: quick_facts
     time_needed: Full day (4 h on snow plus travel)
     best_time: "Mon 11 / Mon 18 Jan, done by 16:00"
@@ -119,6 +118,10 @@ blocks:
   - type: quote
     variant: vibe
     text: Rented jacket, rented skis, a hill of other beginners, and the train home waiting at the bottom.
+  - type: gallery
+    images:
+      - { file: opening-day-run, caption: "A groomed run under the chairlift on the resort's opening day" }
+      - { file: baegyangri-station, caption: "Baegyang-ri station on the Gyeongchun Line, the resort's own stop, in summer" }
   - type: cost_breakdown
     items:
       - label: Lift pass, 4 hours, weekday

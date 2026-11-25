@@ -50,13 +50,13 @@ sources:
     title: "Climate of Seoul (Wikipedia, KMA 1991–2020 normals)"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Prices: Jangsu Galmaegi ₩17,000/200 g and ₩2,000 yeolmu-guksu (Arukikata, May 2025); alley-wide 'mid-to-high ₩10,000s' (Seoul Shinmun, Jan 2025). No source says whether these shops serve one person, so the page plans for 2 servings or company. Jangsu hours 10:30–23:30 from Arukikata (May 2025), no closed day given; other shops not checked. Hero: Mapo-daero at night, not the alley."
+confidence_note: "Prices: Jangsu Galmaegi ₩17,000/200 g and ₩2,000 yeolmu-guksu (Arukikata, May 2025); alley-wide 'mid-to-high ₩10,000s' (Seoul Shinmun, Jan 2025). No source says whether these shops serve one person, so the page plans for 2 servings or company. Jangsu hours 10:30–23:30 from Arukikata (May 2025), no closed day given; other shops not checked."
 last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: mapo-daero-night
-    caption: Mapo-daero at night from Dohwa-dong. No free photo of the alley exists
+    image: galmaegisal-grill
+    caption: Galmaegisal on the grill at Jangsu Galmaegi, kimchi and beaten egg in the moat around it
     hook: Coal in a tin drum, beaten egg poured into the grill's moat, and soju with half of Mapo's offices.
   - type: quick_facts
     time_needed: 1.5–2 h
@@ -90,6 +90,12 @@ blocks:
       **The honest solo answer:** no source we found says whether these shops serve one person. Seoul BBQ places usually want **two portions** at least, and this is a group-dinner street. Two ways to go: bring people from the hostel (a Saturday works, and it's a cheap pre-game before Hongdae), or go alone early on a weeknight and ask *"1인분 돼요?"* ("Can I order one serving?"). If not, two servings are ₩34,000 (about R$141). For a guaranteed solo version, see the Hongojib page: a solo-BBQ restaurant near Hongdae with a galmaegisal set.
 
       **How to eat it:** grill it yourself and turn it often, which is what locals told Arukikata's writer. Cut it with the scissors, wrap it in lettuce or perilla with ssamjang and garlic, and finish with a bowl of cold **yeolmu-guksu** (radish-kimchi noodles, ₩2,000).
+  - type: gallery
+    images:
+      - file: table-setting
+        caption: A full table at Jangsu Galmaegi, egg ring setting round the meat
+      - file: grill-garlic
+        caption: Galmaegisal and whole garlic cloves on Jangsu Galmaegi's grill
   - type: quote
     variant: vibe
     text: Tin drums, coal smoke, loosened ties and a ring of egg setting round the grill.

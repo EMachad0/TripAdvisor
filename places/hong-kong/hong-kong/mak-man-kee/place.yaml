@@ -72,8 +72,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: parkes-street
-    caption: "Parkes Street, Jordan (2023): no free photo of the noodle shop itself"
+    image: wonton-noodles
+    caption: "Mak Man Kee's shrimp wonton noodles, with the pork knuckle behind (2025)"
     hook: One shrimp in every wonton and noodles made in-house, served at the same Parkes Street shop for over sixty years.
   - type: quick_facts
     time_needed: 30–45 min
@@ -100,8 +100,10 @@ blocks:
       That leaves two chances. On **Fri Feb 5**, New Year's Eve, you land at 17:15 (UTC+8). A bowl here before the Victoria Park fair works, as long as the shop keeps normal hours that night (I found no notice either way). On **Tue Feb 9**, the 4th day, it should be open all day, and your flight leaves at 23:55.
   - type: gallery
     images:
-      - { file: neon-signs, caption: "Mak Man Kee's neon sign above Parkes Street, next to Australia Dairy Company (2011)", focus: top }
-    feature: false
+      - { file: shopfront, caption: "The yellow shopfront at 51 Parkes Street, next to Australia Dairy Company (2025)" }
+      - { file: wontons-strainer, caption: "Wontons lifted from the pot in a wire strainer" }
+      - { file: dining-room, caption: "The narrow dining room with its shared tables" }
+      - { file: neon-signs, caption: "The old neon sign above Parkes Street (2011)", focus: top }
   - type: quote
     variant: vibe
     text: Egg noodles, a ladle of clear broth, shrimp wontons hiding underneath.

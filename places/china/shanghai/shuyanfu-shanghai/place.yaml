@@ -89,11 +89,13 @@ sources:
     title: "China Highlights: Shanghai weather in December"
     checked: 2026-11-16
 confidence: medium
-confidence_note: "Prices: Oct 2025 venue tier list; no foreigner channel at ¥498 confirmed. Dinner 18:30 or 19:00. 7–8 Dec seats unchecked (calendars did not load). Trip.com pages via WebFetch, search and GetYourGuide via atr render; venue page bot-walled. Nothing on men's hair or hats. Last train from a timetable search snippet. No free photo exists."
+confidence_note: "Prices: Oct 2025 venue tier list; no foreigner channel at ¥498 confirmed. Dinner 18:30 or 19:00. 7–8 Dec seats unchecked (calendars did not load). Trip.com pages via WebFetch, search and GetYourGuide via atr render; venue page bot-walled. Nothing on men's hair or hats. Last train from a timetable search snippet."
 last_updated: 2026-11-16
 
 blocks:
   - type: hero
+    image: banquet-hall
+    caption: "The long banquet hall in Shanghai, tables lined up along the stage"
     hook: Ten Sichuan courses served between acts of Chinese court history, in a 14-metre-high hall in an old Pudong factory.
   - type: quick_facts
     time_needed: 3–4 h with the metro
@@ -121,6 +123,12 @@ blocks:
       It is worth it if you want **one** big Chinese-history splurge on this trip and nothing else in Shanghai fills that slot. Reviews are close to unanimous: 5.0 out of 5 from 1,653 reviews on Trip.com. Most of the show is music, dance and costume, so not speaking Chinese costs you less than at a play. Skip it if a costumed, photo-heavy show sounds like a tourist trap to you. Normal clothes are fine: the hanfu is a paid extra, not a dress code.
 
       The cheapest sensible way: **standard seat, weekday lunch, no styling**. If you want the photo, the outfit-only option is ¥198 (R$168).
+  - type: gallery
+    feature: false
+    images:
+      - { file: costume-procession, caption: "Performers in court costume walking the runway between the tables" }
+      - { file: court-cast, caption: "The cast lined up in historical court dress" }
+      - { file: table-setting, caption: "Place settings at the curved tables" }
   - type: faq
     title: Your four questions
     items:

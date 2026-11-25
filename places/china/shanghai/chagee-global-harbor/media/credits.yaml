@@ -31,19 +31,30 @@
     - 1920
   fetched: 2026-11-24
   origin: commons
-- file: chagee-storefront
-  title: File:20240817 Chagee at 360 Shopping Plaza (Greenland Metropolis).jpg
-  author: Windmemories
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:20240817_Chagee_at_360_Shopping_Plaza_(Greenland_Metropolis).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cc/20240817_Chagee_at_360_Shopping_Plaza_%28Greenland_Metropolis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Chagee at 360 Shopping Plaza (Greenland Metropolis)
-  width: 1800
-  height: 1200
+- file: flagship-counter
+  title: 0b136de8-1a2f-48ba-b5b7-eb4f7945ee9f.jpg
+  author: CHAGEE
+  license: All rights reserved (personal use)
+  source_url: https://chagee.us/media-center/article/76cc2a57-3e56-4579-9638-d4a88365dec9
+  original_url: https://prod-us-web.s3.us-west-1.amazonaws.com/uploads/legacy/0b136de8-1a2f-48ba-b5b7-eb4f7945ee9f.jpg
+  width: 6000
+  height: 4000
   widths:
     - 640
     - 1280
-    - 1800
-  fetched: 2026-11-24
-  origin: commons
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: boya-cups
+  title: 20240914213848.jpg
+  author: mochikoAsTech (blog)
+  license: All rights reserved (personal use)
+  source_url: https://mochikoastech.hatenablog.com/entry/2024/09/14/220031
+  original_url: https://cdn-ak.f.st-hatena.com/images/fotolife/m/mochikoAsTech/20240914/20240914213848.jpg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

@@ -1,17 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: pyongyang-naengmyeon
-  title: File:Pyongyang Naengmyeon 20190608 001.jpg
-  author: Mobius6
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Pyongyang_Naengmyeon_20190608_001.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/6/62/Pyongyang_Naengmyeon_20190608_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: South Korean style Pyongyang Naengmyeon
-  width: 2535
-  height: 1759
+- file: mul-naengmyeon
+  title: hvI1TP6DL45zNsWEP_dlUrvI0Vo.jpg
+  author: Brunch (@wonjue)
+  license: All rights reserved (personal use)
+  source_url: https://brunch.co.kr/@wonjue/1604
+  original_url: http://t1.daumcdn.net/brunch/service/user/5bNS/image/hvI1TP6DL45zNsWEP_dlUrvI0Vo.jpg
+  width: 1600
+  height: 901
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-23
-  origin: commons
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: fefbd37391de4095974620ee06a56692.jpg
+  author: TasteAtlas
+  license: All rights reserved (personal use)
+  source_url: https://www.tasteatlas.com/pildong-myeonok
+  original_url: https://cdn.tasteatlas.com/images/restaurants/fefbd37391de4095974620ee06a56692.jpg?m=facebook
+  width: 1200
+  height: 630
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: building
+  title: naengmyeon-04-pildong-myeonok.jpg
+  author: 82 Crafted
+  license: All rights reserved (personal use)
+  source_url: https://82crafted.com/food/best-naengmyeon-seoul
+  original_url: https://82crafted.com/images/naengmyeon-04-pildong-myeonok.jpg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

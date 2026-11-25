@@ -86,7 +86,8 @@ blocks:
       **Morning.** Set an alarm for 06:30. China for Travelers says the mist on the river until about 08:00, with locals washing and fishing below the stilt houses, is what Chinese photographers rate above the lights. Then breakfast, a last walk, and the 16:38 G3376 to Chongqing, or an earlier train back to Zhangjiajie West.
   - type: gallery
     images:
-      - { file: hongqiao-night, caption: "Hongqiao lit up at night" }
+      - { file: old-town-night, caption: "The riverside lanes and stilt houses lit up at night" }
+      - { file: hongqiao-night-2, caption: "Hongqiao lit up at night", focus: "50% 62%" }
   - type: quote
     variant: vibe
     text: River mist at dawn, lanterns at dusk, and stone steps cold underfoot in between.

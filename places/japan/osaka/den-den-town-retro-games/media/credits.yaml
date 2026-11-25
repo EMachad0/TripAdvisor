@@ -15,3 +15,29 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: super-potato-entrance
+  title: osaka-super-potato-1.jpg
+  author: Martin Lindell
+  license: All rights reserved (personal use)
+  source_url: https://martinlindell.com/2017/11/17/retrospelsbutiker-runtom-i-varlden/osaka-super-potato-1/
+  original_url: https://martinlindell.com/wp-content/uploads/2017/11/osaka-super-potato-1.jpg
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: super-potato-front
+  title: SuperPotatoes-Osaka-1-1024x683-1.jpg
+  author: Voyapon
+  license: All rights reserved (personal use)
+  source_url: https://voyapon.com/fr/jeux-video-retro-japon/
+  original_url: https://s3.voyapon.com/wp-content/uploads/sites/2/2020/09/29173930/SuperPotatoes-Osaka-1-1024x683-1.jpg
+  width: 1024
+  height: 683
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web

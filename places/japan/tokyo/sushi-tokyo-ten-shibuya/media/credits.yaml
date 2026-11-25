@@ -1,17 +1,42 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: shibuya-stream-atrium
-  title: File:Shibuya Stream-2e.jpg
-  author: 江戸村のとくぞう
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Shibuya_Stream-2e.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/Shibuya_Stream-2e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: 渋谷ストリーム
-  width: 4496
-  height: 3000
+- file: uni-toro-ikura
+  title: image.jpg
+  author: Time Out Tokyo
+  license: All rights reserved (personal use)
+  source_url: https://www.timeout.com/tokyo/restaurants/sushi-tokyo-ten-shibuya
+  original_url: https://media.timeout.com/images/105504451/image.jpg
+  width: 3000
+  height: 2000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: 129ae0afebbc4afb803c7664adee107e.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/39c88488f320432d93370a1b737d20e5
+  original_url: https://img.wongnai.com/p/1920x0/2023/03/06/129ae0afebbc4afb803c7664adee107e.jpg
+  width: 1920
+  height: 1440
   widths:
     - 640
     - 1280
     - 1920
-  fetched: 2026-11-13
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: nigiri-board
+  title: a242bdfd.jpg
+  author: Shibuya Stream
+  license: All rights reserved (personal use)
+  source_url: https://shibuyastream.jp/shop/detail/?scd=000067
+  original_url: https://shibuyastream.jp/uploads/images/resized/1000x0/stream/000002/000002/a242bdfd.jpg
+  width: 1000
+  height: 666
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

@@ -1,17 +1,42 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: market-gate
-  title: File:Osaka Municipal Central Wholesale Market Honjo Inui-Mon.jpg
-  author: Suikotei
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Osaka_Municipal_Central_Wholesale_Market_Honjo_Inui-Mon.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7e/Osaka_Municipal_Central_Wholesale_Market_Honjo_Inui-Mon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: 大阪市中央卸売市場 本場 乾門
-  width: 4199
-  height: 3150
+- file: jo-maze-plate
+  title: IMG_2419.jpeg
+  author: 老舗食堂 (shinise.tv)
+  license: All rights reserved (personal use)
+  source_url: https://shinise.tv/endo-osaka/
+  original_url: https://shinise.tv/wp-content/uploads/2023/08/IMG_2419.jpeg
+  width: 4032
+  height: 3024
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: ChIJ0RFQL0XmAGARzPLLx2sNlm4-0
+  author: LavieTaste
+  license: All rights reserved (personal use)
+  source_url: https://lavietaste.ai/zh/osaka-sushi-ranking
+  original_url: https://img.lavietaste.com/gmap/ChIJ0RFQL0XmAGARzPLLx2sNlm4-0
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: second-plate
+  title: picture_pc_c0aefba4ca6ae5199887b16c0d490f1b.jpg
+  author: 林文臣 (note)
+  license: All rights reserved (personal use)
+  source_url: https://note.com/frendship/n/n9fada41b5192
+  original_url: https://assets.st-note.com/production/uploads/images/72871608/picture_pc_c0aefba4ca6ae5199887b16c0d490f1b.jpg?width=1200
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

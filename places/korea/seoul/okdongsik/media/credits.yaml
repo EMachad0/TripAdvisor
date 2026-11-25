@@ -1,17 +1,52 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: dwaeji-gomtang-bowl
-  title: File:Dwaeji-gomtang.jpg
-  author: lazy fri13th
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Dwaeji-gomtang.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Dwaeji-gomtang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Dwaeji-gomtang (pork bone soup)
-  width: 4032
-  height: 3024
+- file: gomtang-bowl
+  title: bowl-crop.jpg
+  author: Menupan (Naver blog photo)
+  license: All rights reserved (personal use)
+  source_url: https://www.menupan.com/Restaurant/GoodRest/GoodRest_View.asp?ID=180299
+  width: 1600
+  height: 897
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-23
-  origin: commons
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: exterior
+  title: 2f352b49da254a6f9f17e28e74faa644.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurant/okdongsik
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/2f352b49da254a6f9f17e28e74faa644.jpeg?format=jpeg&w=1000&h=1000
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: counter
+  title: 59c139b192c84f209a04bba040bd46f0.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurant/okdongsik
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/59c139b192c84f209a04bba040bd46f0.jpeg?format=jpeg&w=1000&h=1000
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: counter-set
+  title: vk.jpg
+  author: Korea Tourism Organization
+  license: All rights reserved (personal use)
+  source_url: https://www.koreatriptips.com/dining/2871220.html
+  width: 1148
+  height: 845
+  widths:
+    - 640
+    - 1148
+  fetched: 2026-11-25
+  origin: web

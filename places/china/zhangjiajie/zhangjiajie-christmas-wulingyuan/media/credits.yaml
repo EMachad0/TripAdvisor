@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: suoxi-dusk
-  title: File:Wulingyuan bridge.jpg
-  author: Codas
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Wulingyuan_bridge.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Wulingyuan_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Wulingyuan bridge
-  width: 5712
-  height: 4284
-  widths:
-    - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-14
-  origin: commons
 - file: tianzi-snow
   title: File:Belvédère enneigé des monts Tianzi, Zhangjiajie (2026).jpg
   author: ICOLEF
@@ -31,3 +15,44 @@
     - 1920
   fetched: 2026-11-14
   origin: commons
+- file: xibu-street-night
+  title: f8cf3a126d5a73bc606c25e3a3534bdf06eb7cd11586397711.jpg
+  author: Hunan Today (hunantoday.cn)
+  license: All rights reserved (personal use)
+  source_url: https://www.hunantoday.cn/news/xhn/202004/17359187.html
+  original_url: https://img2.voc.com.cn/2020/04/09/f8cf3a126d5a73bc606c25e3a3534bdf06eb7cd11586397711.jpg
+  width: 4000
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: xibu-lane-night
+  title: 25168518_25168518_1378090574140.jpg
+  author: PConline photo community
+  license: All rights reserved (personal use)
+  source_url: https://dp.pconline.com.cn/dphoto/2530701.html
+  original_url: http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1309/02/c2/25168518_25168518_1378090574140.jpg
+  width: 1200
+  height: 797
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: jijiehao-common-room
+  title: syiyldjh6v3kmchjjdg2.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Zhangjiajie-Jijiehao-Hostel/Zhangjiajie/331131
+  original_url: https://a.hwstatic.com/propertyimages/3/331131/syiyldjh6v3kmchjjdg2.jpg
+  width: 5712
+  height: 4284
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

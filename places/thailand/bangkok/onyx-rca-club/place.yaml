@@ -54,13 +54,13 @@ sources:
     title: "Bangkok: climate table (Wikipedia)"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Price, hours and layout from one detailed 2026 review (TRVLOGUE, read in a browser 12 Nov 2026); InTravel confirms ฿400 with a drink and 21:00–04:00. Official site refused the connection. No free photo of the club: hero is RCA by day. Pin = OSM node for Onyx (checked 13 Nov 2026); MRT stations from Discovery Thailand, which gives no walking distance."
+confidence_note: "Price, hours and layout from one detailed 2026 review (TRVLOGUE, read in a browser 12 Nov 2026); InTravel confirms ฿400 with a drink and 21:00–04:00. Official site refused the connection. Pin = OSM node for Onyx (checked 13 Nov 2026); MRT stations from Discovery Thailand, which gives no walking distance."
 last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: rca-plaza
-    caption: "RCA Plaza by day; no free photo of the club itself"
+    image: main-room
+    caption: "Onyx's main room: LED screens wrap the stage, with the balcony above the dance floor"
     hook: "Laser shows, a main stage ringed by a second-floor balcony, and EDM until four in the morning."
   - type: quick_facts
     time_needed: 3–4 h
@@ -78,6 +78,12 @@ blocks:
         text: "Mostly Western visitors plus tourists from Hong Kong and China, according to the reviewer, who ended up partying with a group she met inside."
       - title: Route 66 next door
         text: "RCA's other mega-club is a few steps away: ฿200 with a drink, cash only, hip-hop main room. The same reviewer preferred Onyx."
+  - type: gallery
+    images:
+      - file: entrance
+        caption: "The Onyx entrance on RCA at night"
+      - file: stage
+        caption: "A red light show on the main stage"
   - type: menu
     title: Getting in
     items:

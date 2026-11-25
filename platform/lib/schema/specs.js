@@ -143,7 +143,7 @@ export const creditSpec = t.object({
   height: t.opt(t.int({ min: 1 })),
   widths: t.array(t.int({ min: 1 }), { min: 1, example: [640, 1280] }),
   fetched: t.date(),
-  origin: t.opt(t.enum(['commons', 'local'])),
+  origin: t.opt(t.enum(['commons', 'local', 'web'])),
   area: t.opt(t.slug({ desc: 'Area media only: the area card this photo was fetched for (`--area <id>`). Areas of one country share a media folder.', example: 'harbin' })),
 });
 export const creditsSpec = t.array(creditSpec);

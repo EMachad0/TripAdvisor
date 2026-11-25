@@ -1,0 +1,57 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: bar-lounge
+  title: m7rgc6tsxnkqbh6jluou
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/335239/shanghai-desti-youth-hostel-jing-an-temple/
+  original_url: https://a.hwstatic.com/image/upload/f_jpg,q_auto/v1/propertyimages/3/335239/m7rgc6tsxnkqbh6jluou
+  width: 6581
+  height: 4416
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: entrance-night
+  title: mq6nwqzrbjm9qwxon4in
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/335239/shanghai-desti-youth-hostel-jing-an-temple/
+  original_url: https://a.hwstatic.com/image/upload/f_jpg,q_auto/v1/propertyimages/3/335239/mq6nwqzrbjm9qwxon4in
+  width: 6720
+  height: 4480
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: pod-dorm
+  title: kg58pfpm5fgviointbil
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/335239/shanghai-desti-youth-hostel-jing-an-temple/
+  original_url: https://a.hwstatic.com/image/upload/f_jpg,q_auto/v1/propertyimages/3/335239/kg58pfpm5fgviointbil
+  width: 6720
+  height: 4480
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: event-room
+  title: c2lohwdvqrzvloojxmm9
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/335239/shanghai-desti-youth-hostel-jing-an-temple/
+  original_url: https://a.hwstatic.com/image/upload/f_jpg,q_auto/v1/propertyimages/3/335239/c2lohwdvqrzvloojxmm9
+  width: 6720
+  height: 4177
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

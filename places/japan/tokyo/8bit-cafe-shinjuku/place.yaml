@@ -59,8 +59,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: sanchome-night
-    caption: "Shinjuku 3-chōme at night, the bar's neighbourhood. No free photo of the bar itself"
+    image: gameboy-corner
+    caption: "Inside 8bit Cafe: the giant Game Boy display, Famicom boxes and shelves of retro toys"
     hook: "Up a steep staircase to a room where everyone grew up on a Famicom."
   - type: quick_facts
     time_needed: 1–3 h
@@ -92,6 +92,10 @@ blocks:
       8bit Cafe is a small bar run by owner **Nao Fukuda**, who has filled it with the consoles, figurines and manga of the '80s and '90s. Chiptune plays, and the light comes from LEDs and the glow of the TVs.
 
       It's tiny: about 30 seats up a steep, narrow staircase in an office building, so it fills fast. On some nights musicians play live for the crowd.
+  - type: gallery
+    images:
+      - { file: bar-room, caption: "The room before opening: sofas, low tables and the long bar counter" }
+      - { file: bar-counter, caption: "The bar counter, lined with figures and the 8bit Cafe sign (2015)" }
   - type: quote
     variant: vibe
     text: Strangers shouting over a co-op Pico Park level, chiptune on the speakers, a beaker of something green.

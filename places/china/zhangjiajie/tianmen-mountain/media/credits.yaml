@@ -1,19 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: tianmen-cave-haze
-  title: File:Tian Menshan Mountain 10.jpg
-  author: huangdan2060
-  license: Public domain
-  source_url: https://commons.wikimedia.org/wiki/File:Tian_Menshan_Mountain_10.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/31/Tian_Menshan_Mountain_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Tian Menshan Mountain,Zhangjiajie famous mountains, national forest park.
-  width: 4000
-  height: 3000
-  widths:
-    - 640
-    - 1280
-    - 2048
-  fetched: 2026-11-10
-  origin: commons
 - file: cliff-walkway
   title: File:Tianmen Mountain 38218-Zhangjiajie (48757756147).jpg
   author: xiquinhosilva
@@ -28,22 +13,6 @@
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-10
-  origin: commons
-- file: steps-999
-  title: File:Tianmen 38334-Zhangjiajie (49046809583).jpg
-  author: xiquinhosilva
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Tianmen_38334-Zhangjiajie_(49046809583).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Tianmen_38334-Zhangjiajie_%2849046809583%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Tianmen Cave (Heaven’s Door Cave | Heaven’s Gate Cave | 天 门) is the world’s highest cave of its kind. It was formed naturally as a result of soil erosion. It’s alleged that in the year of 263, a large chunk of the mountain just fell off, creating a huge cavity.
-  width: 2002
-  height: 3000
-  widths:
-    - 640
-    - 1280
-    - 2002
   fetched: 2026-11-10
   origin: commons
 - file: escalator
@@ -78,3 +47,17 @@
     - 2048
   fetched: 2026-11-10
   origin: commons
+- file: heavens-gate-steps
+  title: zhangjiajie-china-15-october-2018-heaven-gate-cave-of-tianmen-mountain-national-park-at-zhangjiajie-city-china-tianmen-mountain-the-travel-destination-of-hunan-zhangjiajie-city-china-free-photo.jpg
+  author: Vecteezy
+  license: All rights reserved (personal use)
+  source_url: https://www.vecteezy.com/photo/11247937-zhangjiajie-china-15-october-2018-heaven-gate-cave-of-tianmen-mountain-national-park-at-zhangjiajie-city-china-tianmen-mountain-the-travel-destination-of-hunan-zhangjiajie-city-china
+  original_url: https://static.vecteezy.com/system/resources/previews/011/247/937/large_2x/zhangjiajie-china-15-october-2018-heaven-gate-cave-of-tianmen-mountain-national-park-at-zhangjiajie-city-china-tianmen-mountain-the-travel-destination-of-hunan-zhangjiajie-city-china-free-photo.jpg
+  width: 2610
+  height: 1960
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

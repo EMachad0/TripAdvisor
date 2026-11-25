@@ -15,22 +15,6 @@
     - 2048
   fetched: 2026-11-10
   origin: commons
-- file: hand-cut-lamb
-  title: File:Hand-cut lamb slices for hotpot.jpg
-  author: ZhengZhou
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Hand-cut_lamb_slices_for_hotpot.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/7/78/Hand-cut_lamb_slices_for_hotpot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Hand-cut lamb slices for hotpot
-  width: 3880
-  height: 2909
-  widths:
-    - 640
-    - 1280
-    - 2048
-  fetched: 2026-11-10
-  origin: commons
 - file: mosque
   title: File:Niujie Mosque - CIMG3716.JPG
   author: User:Vmenkov
@@ -47,3 +31,42 @@
     - 2048
   fetched: 2026-11-10
   origin: commons
+- file: cooked-meat-counter
+  title: Niujie-Ox-Muslim-Halal-Food-Street-in-Beijing-3.jpg
+  author: China Dragon Tours
+  license: All rights reserved (personal use)
+  source_url: https://www.chinadragontours.com/muslim/niujie-muslim-snack-street-in-beijing
+  original_url: https://www.chinadragontours.com/wp-content/uploads/2019/05/Niujie-Ox-Muslim-Halal-Food-Street-in-Beijing-3.jpg
+  width: 1000
+  height: 680
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: halal-shop-dusk
+  title: Niujie-Ox-Muslim-Halal-Food-Street-in-Beijing-1.jpg
+  author: China Dragon Tours
+  license: All rights reserved (personal use)
+  source_url: https://www.chinadragontours.com/muslim/niujie-muslim-snack-street-in-beijing
+  original_url: https://www.chinadragontours.com/wp-content/uploads/2019/05/Niujie-Ox-Muslim-Halal-Food-Street-in-Beijing-1.jpg
+  width: 1000
+  height: 685
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: pastry-case
+  title: Niujie-Ox-Muslim-Halal-Food-Street-in-Beijing-11.jpg
+  author: China Dragon Tours
+  license: All rights reserved (personal use)
+  source_url: https://www.chinadragontours.com/muslim/niujie-muslim-snack-street-in-beijing
+  original_url: https://www.chinadragontours.com/wp-content/uploads/2019/05/Niujie-Ox-Muslim-Halal-Food-Street-in-Beijing-11.jpg
+  width: 1000
+  height: 750
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

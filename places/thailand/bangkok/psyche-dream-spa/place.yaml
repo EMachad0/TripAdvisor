@@ -72,13 +72,13 @@ sources:
     title: "Bangkok: climate table (Wikipedia)"
     checked: 2026-11-16
 confidence: medium
-confidence_note: "Prices, themes, hours, booking and rules are from the venue's own site (read in full 16 Nov 2026), which is marketing. Independent proof is thin: Google Maps 4.9 (113 reviews) and one 2026 Chinese guide; no English forum review found. Nothing on payment method, deposit or tipping. Pin is the venue's own Google Maps link (approximate). No free photo of the spa."
+confidence_note: "Prices, themes, hours, booking and rules are from the venue's own site (read in full 16 Nov 2026), which is marketing. Independent proof is thin: Google Maps 4.9 (113 reviews) and one 2026 Chinese guide; no English forum review found. Nothing on payment method, deposit or tipping. Pin is the venue's own Google Maps link (approximate)."
 last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: rca-plaza
-    caption: "RCA Plaza by day; no free photo of the spa itself"
+    image: shopfront
+    caption: "The Psyche Dream Spa shopfront inside the RCA building opposite Route 66"
     hook: "A nurse, a flight attendant or a prison guard, a set built for the part, and a script that escalates."
   - type: quick_facts
     time_needed: "70 min session"
@@ -97,6 +97,15 @@ blocks:
         text: "Actresses are graded **S, A and B**. One actress for 70 min costs ฿7,000 / ฿5,800 / ฿4,800; two actresses for 100 min cost ฿7,000–11,000 by pairing. That beats guessing at a counter."
       - title: Next to the club strip
         text: "It sits on **RCA**, Bangkok's club street, in the building opposite the Route 66 club; Onyx is on the same strip. On a free Saturday you can do both in one taxi ride."
+  - type: gallery
+    feature: false
+    images:
+      - file: flight-room
+        caption: "The first-class airplane theme room"
+      - file: classroom
+        caption: "The classroom theme room"
+      - file: hospital-room
+        caption: "The hospital theme room"
   - type: prose
     title: How it differs from nuru and soapy places
     dropcap: true

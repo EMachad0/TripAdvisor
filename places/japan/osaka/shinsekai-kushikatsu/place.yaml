@@ -68,9 +68,9 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: shinsekai-night
-    focus: center
-    caption: "Shinsekai's main street and Tsutenkaku at night, not the Daruma shop itself"
+    image: sohonten-rain
+    focus: "40% 50%"
+    caption: "Daruma's main shop, the 発祥の地 (birthplace) sign over its awning, on a rainy evening"
     hook: "Puffer-fish lanterns, a 103 m neon tower and the counter where breaded beef on a stick began in 1929."
   - type: quick_facts
     time_needed: 1–1.5 h with a walk round Shinsekai
@@ -106,8 +106,12 @@ blocks:
       The main shop has only 12 seats and takes no bookings. If the queue is long, Daruma's **Janjan branch** nearby has the same hours and takes reservations for two or more, and there's a Tsutenkaku branch too.
   - type: gallery
     images:
-      - file: kushikatsu-plate
-        caption: A Shinsekai kushikatsu spread
+      - file: skewers-rack
+        caption: "Lotus root, shrimp and more on the rack, under the no-double-dipping sign"
+      - file: chef-statue
+        caption: The scowling chef figure leaning out of the upstairs window
+      - file: doteyaki
+        caption: Doteyaki (miso-stewed beef tendon) and a beer at the counter
       - file: side-street
         caption: Shinsekai's food streets with Tsutenkaku behind
   - type: quote

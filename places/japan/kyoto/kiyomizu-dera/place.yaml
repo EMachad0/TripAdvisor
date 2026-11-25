@@ -91,6 +91,10 @@ blocks:
     images:
       - file: snow
         caption: Kiyomizu-dera under snow
+      - file: niomon-gate
+        caption: The vermilion Niōmon gate, with the three-storey pagoda behind
+      - file: otowa-waterfall
+        caption: Queueing to drink from the three streams of the Otowa waterfall
   - type: quote
     variant: vibe
     text: Cold boards underfoot, mist over Kyoto, and nobody else on the stage at 06:30.

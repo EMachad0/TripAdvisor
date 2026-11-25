@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: market-hall
+  title: food-nang-loeng-market.jpg
+  author: tldrlss
+  license: All rights reserved (personal use)
+  source_url: https://tldrlss.com/th/article/2024/07/thailand-bangkok-attractions-night-market-shopping-food-transporation/
+  original_url: https://tldrlss.com/global/article/2024/07/thailand-bangkok-attractions-night-market-shopping-food-transporation/food-nang-loeng-market.jpg
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: entrance-arch
+  title: Travelerweb14_H297TA.jpg
+  author: Condé Nast Traveler
+  license: All rights reserved (personal use)
+  source_url: https://www.cntraveler.com/shops/bangkok/nang-loeng-market
+  original_url: https://media.cntraveler.com/photos/5b992e9859ff057868b4ea5b/16:9/w_2560%2Cc_limit/Travelerweb14_H297TA.jpg
+  width: 2560
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: street-front
+  title: nang-loeng-market.webp
+  author: Thai Holiday Guide
+  license: All rights reserved (personal use)
+  source_url: https://www.thaiholidayguide.com/attraction/nang-loeng-market/
+  original_url: https://images.thaiholidayguide.com/images/attractions/nang-loeng-market.webp
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

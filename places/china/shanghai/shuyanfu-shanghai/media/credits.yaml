@@ -1,0 +1,53 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: banquet-hall
+  title: 2025092012202148.jpg
+  author: BANG! (bangcity.cn)
+  license: All rights reserved (personal use)
+  source_url: https://www.bangcity.cn/index.php/shanghaishougechenjinshihanwenhuadadixunlixiuchangxianshengzhanfang-jishuyanfushanghaihuadongshoudianzaiqiannian/
+  original_url: https://www.bangcity.cn/wp-content/uploads/2025/09/2025092012202148.jpg
+  width: 1400
+  height: 933
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: costume-procession
+  title: 2025092012202688-1024x683.jpg
+  author: BANG! (bangcity.cn)
+  license: All rights reserved (personal use)
+  source_url: https://www.bangcity.cn/index.php/shanghaishougechenjinshihanwenhuadadixunlixiuchangxianshengzhanfang-jishuyanfushanghaihuadongshoudianzaiqiannian/
+  original_url: https://www.bangcity.cn/wp-content/uploads/2025/09/2025092012202688-1024x683.jpg
+  width: 1024
+  height: 683
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: table-setting
+  title: DJI_20250917071001_0317_D.jpg
+  author: BANG! (bangcity.cn)
+  license: All rights reserved (personal use)
+  source_url: https://www.bangcity.cn/index.php/shanghaishougechenjinshihanwenhuadadixunlixiuchangxianshengzhanfang-jishuyanfushanghaihuadongshoudianzaiqiannian/
+  original_url: https://www.bangcity.cn/wp-content/uploads/2025/09/DJI_20250917071001_0317_D.jpg
+  width: 1400
+  height: 787
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: court-cast
+  title: ae8fe6d235e811c1107a4f35426790f144b95beac6e9d4cd0038f66748f748ad.jpeg
+  author: GetYourGuide
+  license: All rights reserved (personal use)
+  source_url: https://www.getyourguide.com/shanghai-l178/shanghai-royal-cultural-dinner-show-shuyan-t1223382/
+  original_url: https://cdn.getyourguide.com/image/fit=crop,width=1200,height=630/tour_img/ae8fe6d235e811c1107a4f35426790f144b95beac6e9d4cd0038f66748f748ad.jpeg
+  width: 1200
+  height: 630
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

@@ -55,9 +55,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: sunset-terrace
-    focus: "50% 55%"
-    caption: "Bangkok's towers at sunset, seen from the Mahanakhon terrace"
+    image: glass-tray-sunset
+    caption: "Visitors on the glass tray of the rooftop SkyWalk late in the afternoon"
     hook: "A glass tray off the 78th floor, and nothing under your shoes but 310 m of air."
   - type: quick_facts
     time_needed: 1–1.5 h
@@ -85,6 +84,8 @@ blocks:
       The cost is R$165, over the R$100 daily budget, which is why it is the one paid skyline on the plan. Use the **10:00–15:30 ticket**: it is ฿200 cheaper than the 15:30–19:00 sunset tier, and the views are just as clear. The sunset tier would also push you past a 19:00 work start, so keep it for a weekend if you want golden hour.
   - type: gallery
     images:
+      - { file: glass-floor, caption: "Standing on the glass floor, with the city 310 m below" }
+      - { file: sunset-terrace, caption: "Bangkok's towers at sunset, seen from the Mahanakhon terrace" }
       - { file: skyline-pano, caption: "The view across Bangkok from Mahanakhon" }
   - type: cost_breakdown
     items:

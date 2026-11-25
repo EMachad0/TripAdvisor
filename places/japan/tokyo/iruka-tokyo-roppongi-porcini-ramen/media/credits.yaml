@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: porcini-shoyu
+  title: IMG_20220917_144502.jpg
+  author: Ramen Guide Japan
+  license: All rights reserved (personal use)
+  source_url: https://www.ramenguidejapan.com/reviews/irukatokyoroppongi
+  original_url: https://images.squarespace-cdn.com/content/v1/5bb430e47980b379b65a09b8/ccd1aad8-ba97-4627-b889-1a459d890914/IMG_20220917_144502.jpg
+  width: 2500
+  height: 1146
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: IMG_20220702_125054.jpg
+  author: Ramen Guide Japan
+  license: All rights reserved (personal use)
+  source_url: https://www.ramenguidejapan.com/reviews/irukatokyoroppongi
+  original_url: https://images.squarespace-cdn.com/content/v1/5bb430e47980b379b65a09b8/90474db6-bed6-4963-9dc4-ecdd5b76c404/IMG_20220702_125054.jpg
+  width: 2500
+  height: 1146
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: special-bowl
+  title: img_0571-e1762487019167.jpg
+  author: Ramen Japan Guide
+  license: All rights reserved (personal use)
+  source_url: https://ramenjapanguide.com/iruca-tokyo-roppongi/
+  original_url: https://ramenjapanguide.com/wp-content/uploads/2025/11/img_0571-e1762487019167.jpg
+  width: 1150
+  height: 900
+  widths:
+    - 640
+    - 1150
+  fetched: 2026-11-25
+  origin: web

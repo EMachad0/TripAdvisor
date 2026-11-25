@@ -66,9 +66,8 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
-    image: fuxing-park
-    focus: center
-    caption: "Fuxing Park by day, INS's front lawn; no free photo of the building at night"
+    image: tower-night
+    caption: "The INS Land building lit up at night on the edge of Fuxing Park"
     hook: A former karaoke empire turned into a six-floor club tower, where every floor is a new level of the game.
   - type: quick_facts
     time_needed: 4–6 h
@@ -95,6 +94,12 @@ blocks:
       You pay once at the ground floor, where your ID and ticket are checked, then work your way up. The **all-pass** is the deal: one 2026 guide puts single-club tickets from about ¥88 on weekdays and says the pass is better value once you visit two or more. On Qunar the pass costs **¥168 Tuesday–Thursday and Sunday** and **¥288 on Friday and Saturday**.
 
       The metro has stopped by the time you leave, so plan a DiDi home. SmartShanghai says INS is open daily and busy even on weeknights.
+  - type: gallery
+    images:
+      - { file: ins-sign, caption: "The INS sign over the entrance" }
+      - { file: club-crowd, caption: "A packed dance floor inside INS (DJ Mag)" }
+      - { file: la-fin-crowd, caption: "Phones up at La Fin, one of the clubs in the building" }
+      - { file: fuxing-park, caption: "Fuxing Park by day, INS's front lawn" }
   - type: quote
     variant: vibe
     text: Win a drink token on a fighting game, take the escalator up, and lose track of which floor you're on.

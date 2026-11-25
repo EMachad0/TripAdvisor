@@ -62,3 +62,17 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: stupa-hall
+  title: rh3xvllfkahaVDy8w7v-o.jpg
+  author: Pantip
+  license: All rights reserved (personal use)
+  source_url: https://pantip.com/topic/41600119
+  original_url: https://f.ptcdn.info/248/078/000/rh3xvllfkahaVDy8w7v-o.jpg
+  width: 1500
+  height: 1000
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web

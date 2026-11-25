@@ -31,3 +31,35 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
+- file: niomon-gate
+  title: File:Nioumon, Kiyomizu-dera 20130923.jpg
+  author: Suicasmo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nioumon,_Kiyomizu-dera_20130923.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/57/Nioumon%2C_Kiyomizu-dera_20130923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nioumon, Kiyomizu-dera
+  width: 3872
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: otowa-waterfall
+  title: File:Otowa waterfall at Kiyomizu-dera.jpg
+  author: Hu Totya
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Otowa_waterfall_at_Kiyomizu-dera.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/ff/Otowa_waterfall_at_Kiyomizu-dera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Otowa waterfall at the en:Kiyomizu-dera Buddhist temple in Kyoto.
+  width: 2816
+  height: 2112
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

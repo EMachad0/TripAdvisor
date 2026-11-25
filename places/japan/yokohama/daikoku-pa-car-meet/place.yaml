@@ -81,8 +81,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: night-panorama
-    caption: "Daikoku PA at night under the expressway ramps. No free photo of a meet itself"
+    image: meet-night
+    caption: "A night meet at Daikoku PA, the junction ramps lit up overhead"
     hook: A car park inside an expressway junction, ringed by spiralling ramps, where Japan's tuned cars gather after dark.
     focus: center
   - type: quick_facts
@@ -119,8 +119,9 @@ blocks:
       Be picky about tours. In September 2026 LIVE JAPAN wrote that most "JDM Night Tours" on booking sites are "highly likely to be illegal". In July 2026 a man in Shibuya was arrested for allegedly running an unlicensed taxi after offering tourists a ¥5,000 GT-R "driving tour" that crashed. Choose an operator that drives legally and ask whether it's licensed for paying passengers.
   - type: gallery
     images:
+      - { file: rx7-lineup, caption: "Tuned cars lined up under the ramps while owners and visitors walk the rows" }
+      - { file: night-panorama, caption: "Daikoku PA at night under the expressway ramps" }
       - { file: junction-loops, caption: "The ramps of Daikoku Junction curling over the car park, by day" }
-      - { file: parking-lot, caption: "The car park by day; the meets happen on Friday and Saturday nights" }
   - type: quote
     variant: vibe
     text: Sodium lights, ramps curling overhead, and engines ticking as they cool, until the police decide it's time to go.

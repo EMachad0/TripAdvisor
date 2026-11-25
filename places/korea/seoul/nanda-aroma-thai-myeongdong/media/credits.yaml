@@ -1,17 +1,37 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: myeongdong-theater
-  title: File:Myeongdong, Seoul - Myeongdong3165.jpg
-  author: lumoplank
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Myeongdong,_Seoul_-_Myeongdong3165.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0a/Myeongdong%2C_Seoul_-_Myeongdong3165.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: The façade of Myeongdong Theater (명동예술극장) at dusk.
-  width: 5215
-  height: 3476
+- file: reception
+  title: reception-crop.jpg
+  author: Nanda Aroma (Tripadvisor)
+  license: All rights reserved (personal use)
+  source_url: https://www.tripadvisor.co.uk/Attraction_Review-g294197-d17596455-Reviews-Nanda_Thai_Esthe-Seoul.html
+  width: 1050
+  height: 700
   widths:
     - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-18
-  origin: commons
+    - 1050
+  fetched: 2026-11-25
+  origin: web
+- file: massage-room
+  title: rooms-crop.jpg
+  author: Nanda Aroma (Klook)
+  license: All rights reserved (personal use)
+  source_url: https://www.klook.com/en-PH/activity/211051-nanda-thai-massage-k-beauty-skin-body-care-in-myeongdong-seoul/
+  width: 734
+  height: 720
+  widths:
+    - 640
+    - 734
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: ext.jpg
+  author: Naver blog (fwfn30725)
+  license: All rights reserved (personal use)
+  source_url: https://blog.naver.com/fwfn30725/224289661817
+  width: 1050
+  height: 1244
+  widths:
+    - 640
+    - 1050
+  fetched: 2026-11-25
+  origin: web

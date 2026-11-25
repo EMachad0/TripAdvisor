@@ -1,17 +1,43 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: amerikamura
-  title: File:Amerikamura (Busy).jpg
-  author: BradBeattie at English Wikipedia
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source_url: https://commons.wikimedia.org/wiki/File:Amerikamura_(Busy).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/2/21/Amerikamura_%28Busy%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: A busy day in Amerikamura .
+- file: dancefloor-lasers
+  title: KAT_1240-1-scaled.jpg
+  author: clubJOULE
+  license: All rights reserved (personal use)
+  source_url: https://club-joule.com/ja/2025/12/15/intention-after-report-vol-1/
+  original_url: https://club-joule.com/wp-content/uploads/2025/12/KAT_1240-1-scaled.jpg
+  width: 2560
+  height: 1707
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: main-floor
+  title: joule-2.jpg
+  author: Tripadvisor
+  license: All rights reserved (personal use)
+  source_url: https://www.tripadvisor.com/Attraction_Review-g14127623-d11641786-Reviews-Club_Joule-Chuo_Osaka_Osaka_Prefecture_Kinki.html
+  original_url: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/89/a5/22/joule-2.jpg?w=2000&h=-1&s=1
   width: 2000
-  height: 1333
+  height: 1335
   widths:
     - 640
     - 1280
     - 2000
-  fetched: 2026-11-11
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: from-above
+  title: 1_465dt1pr54753i5g12ngx.jpg
+  author: iFLYER
+  license: All rights reserved (personal use)
+  source_url: https://iflyer.tv/article/2024/07/31/clubjoule-25th/
+  original_url: https://images.iflyer.tv/1_465dt1pr54753i5g12ngx.jpg
+  width: 1500
+  height: 1001
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web

@@ -1,0 +1,57 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: bar
+  title: dckabjs8mj9slpcmsjla.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/306806/desti-youth-park-hostel-chongqing/
+  original_url: https://a.hwstatic.com/propertyimages/3/306806/dckabjs8mj9slpcmsjla.jpg
+  width: 2306
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: hoq8sn3i00uetxzpdczm.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/306806/desti-youth-park-hostel-chongqing/
+  original_url: https://a.hwstatic.com/propertyimages/3/306806/hoq8sn3i00uetxzpdczm.jpg
+  width: 6720
+  height: 4480
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: lounge-cat
+  title: geecif3idl3nhttf3bb5.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/306806/desti-youth-park-hostel-chongqing/
+  original_url: https://a.hwstatic.com/propertyimages/3/306806/geecif3idl3nhttf3bb5.jpg
+  width: 6051
+  height: 4034
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: house-beers
+  title: km6201juafi7f6rc7sxf.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/306806/desti-youth-park-hostel-chongqing/
+  original_url: https://a.hwstatic.com/propertyimages/3/306806/km6201juafi7f6rc7sxf.jpg
+  width: 6720
+  height: 4480
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

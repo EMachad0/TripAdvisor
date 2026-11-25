@@ -101,10 +101,9 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: tianmen-cave-haze
+    image: heavens-gate-steps
     hook: A doorway in the sky, 131 metres tall, reached by a cable car and 999 steps you can climb yourself.
-    caption: Tianmen cave seen through haze from the approach
-    focus: "70% 45%"
+    caption: "Tianmen Cave above the 999 steps, seen from the square at their foot"
   - type: quick_facts
     time_needed: 5–8 h
     best_time: A clear day; late morning once fog lifts
@@ -152,7 +151,6 @@ blocks:
   - type: gallery
     images:
       - { file: cliff-walkway, caption: "A walkway bolted to the summit cliff (summer photo)" }
-      - { file: steps-999, caption: "The 999 steps from Tianmen Cave Square", focus: center }
       - { file: escalator, caption: "The escalators inside the mountain" }
       - { file: cloud-sea, caption: "Above the cloud in March 2018, from the old cableway" }
   - type: quote

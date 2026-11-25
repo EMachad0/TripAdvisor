@@ -70,8 +70,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: shinjuku-3chome
-    caption: "Shinjuku 3-chōme at night, the district the café is in. No free photo of the café itself"
+    image: stained-glass-room
+    caption: "The café floor: booths under stained-glass windows (pre-opening, May 2026)"
     hook: "A Slime you can eat, a Potion in a bottle, and a random coaster from four Square Enix worlds."
   - type: quick_facts
     time_needed: 90 min
@@ -102,6 +102,11 @@ blocks:
       Square Enix's Akihabara café closed in March 2025 after eight years. In **June 2026** a new permanent one opened in Shinjuku, run by **Newton** (ニュートン), with a fixed menu across four series and limited collaborations on top.
 
       For more goods, **ARTNIA** in Higashi-Shinjuku is Square Enix's official shop with a café & bar area, open 11:00–21:00 (closed on irregular days), switching to bar time at 17:00.
+  - type: gallery
+    images:
+      - { file: facade, caption: "The Paselabo Tower front: Dragon Quest, Final Fantasy, NieR and Fullmetal Alchemist" }
+      - { file: moogle-buns, caption: "The Chocobo & Friends burger plate, buns stamped with faces" }
+      - { file: potion-drink, caption: "A Potion, served in its bottle" }
   - type: quote
     variant: vibe
     text: Chocobo plushies at the next table, and everyone photographing their latte before the first sip.

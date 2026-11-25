@@ -74,9 +74,9 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: facade
+    image: fight-night
+    caption: "A packed fight night at Rajadamnern, the ring lit under the domed roof"
     hook: "A drum-and-pipe orchestra, a betting pit roaring every exchange, and elbows thrown under a 1950s roof."
-    focus: "50% 55%"
   - type: quick_facts
     time_needed: 3–3.5 h
     best_time: "Sat 2 or 9 Jan, 19:00"
@@ -102,10 +102,12 @@ blocks:
       Seat prices only buy comfort and closeness. Ringside (฿2,500–3,500) puts you at the ropes; the VIP balconies add free drinks. For a budget traveller the Third Class bench is the honest choice. It costs about **twice** your daily R$100 budget (198%), so the budget bar below shows it maxed out. Make it your one splurge in Bangkok, then keep the rest of that weekend free, with Channel 7's Sunday fights at no cost.
   - type: gallery
     images:
+      - file: hall
+        caption: "The renovated hall, seen from the upper seats"
+      - file: facade
+        caption: "The yellow facade on Ratchadamnoen Nok Road"
       - file: fight
         caption: "A bout at Rajadamnern (2007 photo; the hall has been renovated since)"
-      - file: ringside-crowd
-        caption: "Spectators at the ringside rail, Rajadamnern, 2007"
   - type: book_ahead
     steps:
       - days_before: 3

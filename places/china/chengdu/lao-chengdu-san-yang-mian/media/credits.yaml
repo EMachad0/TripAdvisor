@@ -1,0 +1,40 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: san-yang-noodles
+  title: sanyang-hero.jpg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/chengdu-municipality/chengdu/restaurant/lao-chengdu-san-yang-mian
+  width: 2268
+  height: 1512
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: beans-and-pork
+  title: 2c229ea71d0849c6a467517bc7c6cd81.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/chengdu-municipality/chengdu/restaurant/lao-chengdu-san-yang-mian
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/2c229ea71d0849c6a467517bc7c6cd81.jpeg
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: wontons
+  title: 997cc61343554d2fbec2d7a3a834a92a.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/chengdu-municipality/chengdu/restaurant/lao-chengdu-san-yang-mian
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/997cc61343554d2fbec2d7a3a834a92a.jpeg
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

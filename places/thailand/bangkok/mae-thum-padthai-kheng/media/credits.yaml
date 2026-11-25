@@ -1,17 +1,42 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: giant-swing
-  title: File:Giant Swing, Bangkok.jpg
-  author: Preecha.MJ
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Giant_Swing,_Bangkok.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Giant_Swing%2C_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: This is a photo of a monument in Thailand identified by the ID
-  width: 4256
-  height: 2832
+- file: shrimp-pad-thai
+  title: c21de1e2e1d64a72ab19206b33b234cc.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/899e4c946097463e96c60edc6d2d6fd5
+  original_url: https://img.wongnai.com/p/1920x0/2023/08/02/c21de1e2e1d64a72ab19206b33b234cc.jpg
+  width: 1920
+  height: 1440
   widths:
     - 640
     - 1280
     - 1920
-  fetched: 2026-11-23
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: แม่ทุมผัดไทยเข่ง-1.jpg
+  author: The Spoon
+  license: All rights reserved (personal use)
+  source_url: https://thespoon.heliconiahgroup.com/2024/08/26/mae_tum_pad_thai/
+  original_url: https://thespoon.heliconiahgroup.com/wp-content/uploads/2024/08/แม่ทุมผัดไทยเข่ง-1.jpg
+  width: 2000
+  height: 1335
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: basket-plate
+  title: 1738250666253.png
+  author: Bangkok Design Week
+  license: All rights reserved (personal use)
+  source_url: https://www.bangkokdesignweek.com/bkkdw2025/program/126804
+  original_url: https://cea-design-week-cdn.5lab.co/wp-content/uploads/2025/01/1738250666253.png
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

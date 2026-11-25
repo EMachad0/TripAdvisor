@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: qinyu-shopfront
+  title: afdd84feeb165ed04f6dc218b6fff4a2.jpg
+  author: Qunar traveller review
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/6088450?bd_source=baidupz1
+  original_url: https://tr-osdcp.qunarzz.com/tr-osd-tr-mapi/img/afdd84feeb165ed04f6dc218b6fff4a2.jpg
+  width: 3200
+  height: 2400
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: qinyu-roujiamo
+  title: e24d971f853d4401cd8e317962b27e15.jpg
+  author: Qunar traveller review
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/6088450?bd_source=baidupz1
+  original_url: https://tr-osdcp.qunarzz.com/tr-osd-tr-mapi/img/e24d971f853d4401cd8e317962b27e15.jpg
+  width: 2400
+  height: 3200
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: lao-li-jia-sign
+  title: dbbefabb92ee497f9dbbca4011bc2bba_th.jpg
+  author: Sohu
+  license: All rights reserved (personal use)
+  source_url: https://www.sohu.com/a/116600204_475732
+  original_url: http://img.mp.itc.cn/upload/20161020/dbbefabb92ee497f9dbbca4011bc2bba_th.jpg
+  width: 1237
+  height: 928
+  widths:
+    - 640
+    - 1237
+  fetched: 2026-11-25
+  origin: web

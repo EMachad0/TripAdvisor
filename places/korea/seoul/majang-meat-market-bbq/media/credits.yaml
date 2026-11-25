@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: butcher-counter
+  title: 1000017264.jpg
+  author: choice-guide (Tistory)
+  license: All rights reserved (personal use)
+  source_url: https://choice-guide.tistory.com/4
+  original_url: https://ldb-phinf.pstatic.net/20250317_124/17422032917440p76M_JPEG/1000017264.jpg
+  width: 2560
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: market-lane
+  title: majang_meat_market_seoul.jpg
+  author: The Seoul Guide
+  license: All rights reserved (personal use)
+  source_url: https://www.theseoulguide.com/majang-meat-market/
+  original_url: https://www.theseoulguide.com/wp-content/uploads/2024/02/majang_meat_market_seoul.jpg
+  width: 1200
+  height: 750
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: west-gate
+  title: majang-market.jpg
+  author: Cattour
+  license: All rights reserved (personal use)
+  source_url: https://cattour.vn/blog/cho-thit-han-quoc-majang-market-1570.html
+  original_url: https://cattour.vn/images/upload/images/Han-Quoc/cho-thit-majang-market/majang-market.jpg
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web

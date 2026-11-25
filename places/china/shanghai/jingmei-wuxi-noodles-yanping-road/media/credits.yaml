@@ -1,17 +1,40 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: wuxi-ribs
-  title: File:Spareribs of Wuxi Lugaojian.jpg
-  author: Wxxw123
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Spareribs_of_Wuxi_Lugaojian.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Spareribs_of_Wuxi_Lugaojian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: ​无锡陆稿荐所制的一份酱排骨
-  width: 4032
-  height: 3024
+- file: noodle-spread
+  title: 3f0265ea5c364f788c4aa11218eb8781.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/jing-mei-wu-xi-si-fang-mian-guan
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/3f0265ea5c364f788c4aa11218eb8781.jpeg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
   widths:
     - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-23
-  origin: commons
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: wonton-bowl
+  title: 55a46fdc7c9145328219fda1ff829a2c.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/jing-mei-wu-xi-si-fang-mian-guan
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/55a46fdc7c9145328219fda1ff829a2c.jpeg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: green-rice-dessert
+  title: 9f81c067abf04930931cbd0e6ef40265.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/jing-mei-wu-xi-si-fang-mian-guan
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/9f81c067abf04930931cbd0e6ef40265.jpeg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

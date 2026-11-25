@@ -73,8 +73,8 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: lyceum-corner
-    caption: "The Lyceum Theatre on Maoming Road; Candor is on its 2nd and 3rd floors (no free photo inside)"
+    image: show-room
+    caption: "Candor's show room: café tables facing the ring-lit stage"
     hook: "Cocktails and a 1920s-style burlesque revue in a tight room upstairs in a historic Shanghai theatre."
   - type: quick_facts
     time_needed: "2 h show, 2 intermissions"
@@ -100,6 +100,11 @@ blocks:
       What you liked about Psyche was the costume, the set and the act. In China the version that stays legal is a show: Candor is a cabaret and burlesque lounge, with a bar, a stage and ticketed seats. Nothing beyond the show and the drinks is on sale, and you're a paying audience member, not a client.
 
       It suits a weekend night in Shanghai: **Fri 11 or Sat 12 Dec at 20:00**. The backup is **Sun 6 Dec at 19:00**, your first day in town; Wednesday the 9th works only if you push Huangshan back. Sun 13 Dec is out: that's your train to Beijing. Buy a standing or shared-table ticket online, then call if you want a table; a ¥500 minimum spend applies to the front tables.
+  - type: gallery
+    images:
+      - { file: lounge-bar, caption: "Candor's lounge bar, red velvet and fringed lamps" }
+      - { file: cocktail, caption: "One of Candor's house cocktails" }
+      - { file: lyceum-corner, caption: "The Lyceum Theatre on Maoming Road; Candor is on its 2nd and 3rd floors" }
   - type: book_ahead
     steps:
       - { days_before: 3, text: "Buy the ¥200 ticket on the **SmartShanghai** page (or app) for your night." }

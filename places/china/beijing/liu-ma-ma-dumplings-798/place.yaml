@@ -69,6 +69,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
+    image: mackerel-dumplings
+    caption: "Liu Ma Ma's palm-sized dumplings, one opened to show the filling"
     hook: A giant dumpling on chopsticks sticks out of the wall; behind the window, the aunties are folding.
   - type: quick_facts
     time_needed: 45–60 min
@@ -92,6 +94,10 @@ blocks:
       Jiaodong is the peninsula on Shandong's coast, and its dumplings are big and full of seafood. Visit Beijing's January 2026 guide recommends the mackerel, the **chive with two kinds of shrimp** (韭菜双虾) and the **scallop with octopus** (干贝八蛸). Michelin adds seasonal fillings such as kelp, dried shrimp and shepherd's purse.
 
       One plate of the mackerel dumplings is four palm-sized pieces, so a solo eater can try one filling and stop, or order a second plate to compare.
+  - type: gallery
+    images:
+      - { file: dining-room, caption: "The small dining room from above, with the kitchen window at the back" }
+      - { file: cold-dish, caption: "A cold dish of peanuts, prawns, cucumber and wood-ear fungus" }
   - type: quote
     variant: vibe
     text: Steam from the pots, vinegar and garlic on the table, and gallery maps folded next to the plates.

@@ -15,3 +15,29 @@
     - 1920
   fetched: 2026-11-16
   origin: commons
+- file: storefront
+  title: be227bd6aa3d5f2750729300fb8160fd.jpg
+  author: Boss Massage
+  license: All rights reserved (personal use)
+  source_url: https://www.boss26massage.com/en/branches
+  original_url: https://www.boss26massage.com/uploads/branches/be227bd6aa3d5f2750729300fb8160fd.jpg
+  width: 1024
+  height: 765
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: lounge
+  title: ba8cb5435225aefec3b57262bf175860.jpg
+  author: Boss Massage
+  license: All rights reserved (personal use)
+  source_url: https://www.boss26massage.com/
+  original_url: https://www.boss26massage.com/uploads/ambiance/ba8cb5435225aefec3b57262bf175860.jpg
+  width: 887
+  height: 1182
+  widths:
+    - 640
+    - 887
+  fetched: 2026-11-25
+  origin: web

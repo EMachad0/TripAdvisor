@@ -75,8 +75,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: shinkyogoku-arcade
-    caption: "The Shinkyogoku arcade, where Kaneyo sits; not a photo of the shop"
+    image: kinshi-don-open
+    caption: "Kaneyo's kinshi-don with the omelette folded back over the grilled eel"
     hook: "Lift the yellow blanket of dashimaki omelette and the glazed eel is underneath."
   - type: quick_facts
     time_needed: 1 h
@@ -94,6 +94,10 @@ blocks:
         text: "Founded in the Meiji era; the official site points to a **Taisho-era interior** and the same taste for a hundred years. Michelin says seven generations."
       - title: Right in the centre
         text: "On Rokkaku-dōri at the heart of the Shinkyogoku arcade, an easy lunch between Kyoto sights."
+  - type: gallery
+    images:
+      - { file: kinshi-don, caption: "The kinshi-don as it arrives: a sheet of dashimaki covering the bowl" }
+      - { file: shopfront, caption: "Kaneyo's old wooden front with its paper lanterns, on Rokkaku-dōri" }
   - type: menu
     items:
       - name: Kinshi-don, small

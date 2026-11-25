@@ -53,9 +53,9 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
-    image: xinjiekou-street
+    image: front-dusk
     hook: "A clean bed on a local Xicheng street of music shops, with a rooftop tea room upstairs."
-    caption: "Xinjiekou South Street, the hostel's street, in summer. No free photo of the hostel itself"
+    caption: "The hostel's front at dusk"
   - type: quick_facts
     extra:
       - { label: Check-in, value: "14:00–23:00", detail: "No curfew; check-out by 12:00" }
@@ -110,6 +110,11 @@ blocks:
         text: "A Booking.com reviewer says the area feels local, with lots of music shops. Prince Gong's Mansion is 1.4 km away and the Drum Tower 2.5 km."
       - title: Cheap for the centre
         text: "¥85 (R$70) for a dorm bed on mid-December nights, with free cancellation on Hostelworld."
+  - type: gallery
+    images:
+      - { file: rooftop-dinner, caption: "A shared dinner on the roof terrace, summer" }
+      - { file: rooftop-terrace, caption: "The roof terrace, with its pavilion and long table" }
+      - { file: pod-bed, caption: "A curtained pod bed in a dorm" }
   - type: map
     note: "The pin marks Xinjiekou South Street, not the door: show the driver the Chinese address."
   - type: tips

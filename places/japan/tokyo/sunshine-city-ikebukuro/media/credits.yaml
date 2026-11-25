@@ -47,3 +47,17 @@
     - 1920
   fetched: 2026-11-13
   origin: commons
+- file: tenbou-park-lawn
+  title: 636586_sunshine60_observatory_tenbou-park_02.jpg
+  author: iF Design (Nomura Co.)
+  license: All rights reserved (personal use)
+  source_url: https://ifdesign.com/en/winner-ranking/project/sunshine60-observatory-tenbou-park/636586
+  original_url: https://ifdalivestorage.blob.core.windows.net/user-uploads/1120040/636586/5f44eaa2-fe5e-498b-8fb2-f7c0e2b71e4b/636586_sunshine60_observatory_tenbou-park_02.jpg
+  width: 3277
+  height: 1843
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

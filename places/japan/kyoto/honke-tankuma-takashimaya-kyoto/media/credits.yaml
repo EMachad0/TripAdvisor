@@ -15,19 +15,42 @@
     - 1920
   fetched: 2026-11-16
   origin: commons
-- file: shijo-kawaramachi
-  title: File:Takashimaya Kyoto 20200405120216.jpg
-  author: inunami
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Takashimaya_Kyoto_20200405120216.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9b/Takashimaya_Kyoto_20200405120216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: View of the Shijo Kawaramachi intersection and Takashimaya Kyoto department store
-  width: 4032
-  height: 3024
+- file: lunch-tray
+  title: s_0n6c.jpg
+  author: Honke Tankuma (TableCheck)
+  license: All rights reserved (personal use)
+  source_url: https://www.tablecheck.com/en/tankuma-kyototakashimaya
+  original_url: https://cdn0.tablecheck.com/images/5e1eb6394b880cdb2100113d/images/original/s_0n6c.jpg
+  width: 1280
+  height: 720
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-16
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: dining-room
+  title: takashimaya-01.jpg
+  author: Honke Tankuma
+  license: All rights reserved (personal use)
+  source_url: https://tankuma.jp/en/takashimaya/
+  original_url: https://tankuma.jp/dwp/wp-content/uploads/2022/01/takashimaya-01.jpg
+  width: 1110
+  height: 650
+  widths:
+    - 640
+    - 1110
+  fetched: 2026-11-25
+  origin: web
+- file: window-tables
+  title: s_0035.jpg
+  author: Honke Tankuma (TableCheck)
+  license: All rights reserved (personal use)
+  source_url: https://www.tablecheck.com/en/tankuma-kyototakashimaya
+  original_url: https://cdn1.tablecheck.com/images/5e1eb6456e731dd6010011ed/images/original/s_0035.jpg
+  width: 900
+  height: 506
+  widths:
+    - 640
+    - 900
+  fetched: 2026-11-25
+  origin: web

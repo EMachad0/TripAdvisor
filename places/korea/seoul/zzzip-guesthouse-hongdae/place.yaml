@@ -86,8 +86,8 @@ last_updated: 2026-11-15
 
 blocks:
   - type: hero
-    image: hapjeong-sign
-    caption: "Hapjeong station, 5 minutes away. No free photo of the guesthouse exists"
+    image: common-room-night
+    caption: "Guests round the common-room table, under the wall of polaroids"
     hook: "Breakfast with strangers, a group chat by lunch, a dozen of you heading to Hongdae by night."
   - type: quick_facts
     extra:
@@ -168,6 +168,15 @@ blocks:
         text: "Landing 08:40 UTC+9? Drop bags free (office opens 08:00 UTC+9); check-in from 14:00 UTC+9. Email them about early or late arrival. Pay in cash."
   - type: map
     note: "From Hapjeong Exit 7: left at Olive Young, left at the first corner, straight past GS25, right at the school, right again (hostel's directions)."
+  - type: gallery
+    images:
+      - file: lounge
+        caption: The lounge with sofas and laptop desks
+      - file: dorm
+        caption: A dorm with wooden bunks
+      - file: terrace
+        caption: The small front terrace with camping chairs
+        focus: center
   - type: tips
     variant: insider
     items:

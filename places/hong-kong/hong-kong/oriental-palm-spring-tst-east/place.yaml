@@ -74,11 +74,13 @@ sources:
     title: "Monthly climate normals 1991–2020 (Hong Kong Observatory)"
     checked: 2026-11-18
 confidence: medium
-confidence_note: "Prices are from the venue's own price page (a note on it is dated 1 Jan 2026). Weak spots: the site's hours read \"12:00 am\" (Google says 11:00–06:00); no Lunar New Year notice; no payment methods. Reviews are thin and 1–4 years old; Google lists it open. No public licence register. No raid or abuse news found. Nearest station off the map. Text hero: Commons rate-limited the street photo."
+confidence_note: "Prices are from the venue's own price page (a note on it is dated 1 Jan 2026). Weak spots: the site's hours read \"12:00 am\" (Google says 11:00–06:00); no Lunar New Year notice; no payment methods. Reviews are thin and 1–4 years old; Google lists it open. No public licence register. No raid or abuse news found. Nearest station off the map."
 last_updated: 2026-11-18
 
 blocks:
   - type: hero
+    image: hot-pools
+    caption: "The jacuzzi pools under lit water spouts, from the TST East branch's own page"
     hook: "Change into shorts, cycle the hot and cold baths and steam room, then a massage room, all on a printed menu."
   - type: quick_facts
     time_needed: "3–4 h"
@@ -104,6 +106,15 @@ blocks:
       In Bangkok you got nuru and soapy houses. In Hong Kong the law draws a hard line: one person selling sex from her own flat is legal, but any premises used by **two or more** people for it is a "vice establishment", and its keeper faces up to 10 years. The police licensing guide for massage rooms asks for a see-through window in each door (paras 2.1–2.3), doors never locked (1.5) and no dimmers (3.2), and bans vice on the premises (Annex H). So the legal adult-adjacent night here is the old-school men's sauna, which is mostly a bath house: hot and cold pools, steam, a lounge, and a massage.
 
       This TST East branch of the 東方棕泉 group has the cheapest published **single-massage** session we found (Causeway Bay charges HK$526). For the late double-massage deals, though, the Causeway Bay branch's 2026 prices are lower: HK$538 in the discount window and HK$368 after 01:00. It is not glamorous: Google rates it **3.4 from 24 reviews**, with praise for the massage and a note that it could be cleaner. With the 10% charge the standard visit is about **R$372**, three days of your R$120 "everything else" budget, before any tip.
+  - type: gallery
+    feature: false
+    images:
+      - file: reception
+        caption: "The reception and its neon 東方棕泉 sign"
+      - file: sauna
+        caption: "The sauna benches, with a plunge pool beyond the glass"
+      - file: locker-lounge
+        caption: "The locker room and its lounge benches"
   - type: cost_breakdown
     items:
       - { label: "Sauna + one 45-min massage (men)", local: 456, brl: 338.12 }

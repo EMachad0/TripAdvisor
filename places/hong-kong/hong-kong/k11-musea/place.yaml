@@ -71,8 +71,8 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: dockside-aerial
-    caption: Victoria Dockside from above; K11 MUSEA is the terraced, planted podium at the foot of the tower
+    image: atrium
+    caption: The main atrium, wrapped in brass-toned ribbons (July 2026)
     hook: A brass opera house of an atrium with a golden sphere floating in it, and the harbour a few steps away.
   - type: quick_facts
     time_needed: 1.5–2 h
@@ -106,8 +106,8 @@ blocks:
       **On your dates**: Lunar New Year is Saturday Feb 6 and the holiday runs to Tuesday Feb 9. In 2026 K11 had its busiest New Year week since opening, with a lion dance and harbour-view restaurants nearly full for the fireworks. The 2027 programme isn't out yet. Go on a weekday afternoon if you can (Fri Feb 5), and expect crowds over the holiday.
   - type: gallery
     images:
-      - file: atrium
-        caption: The main atrium, wrapped in brass-toned ribbons
+      - file: dockside-aerial
+        caption: Victoria Dockside from above; K11 MUSEA is the terraced, planted podium at the foot of the tower
       - file: exterior
         caption: The ribbon façade from Salisbury Road
       - file: peacock-playground

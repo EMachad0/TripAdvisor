@@ -55,6 +55,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: bar-counter
+    caption: "Guests gaming at the red-lit counter, consoles and screens all round"
     hook: "Up the LED Space Invaders stairs: a bar shaped like the Famicom logo, cartridges behind the counter."
   - type: quick_facts
     time_needed: 2–3 h
@@ -86,6 +88,10 @@ blocks:
       Osaka has dozens of game bars, and GaijinPot says the owner prides himself on being the one without a cover charge. **Space Station** opened in 2011 as one of the first in the city and runs on a simple deal: buy a drink and play anything on the shelf.
 
       It's small: one recent review notes the room is tight, which, as that reviewer says, makes it easy to make friends with your neighbour. Arrive early if you want a particular console.
+  - type: gallery
+    images:
+      - { file: consoles, caption: "A Super Famicom hooked up to a screen behind the bar" }
+      - { file: green-room, caption: "The green-lit back corner with a cocktail-cabinet arcade table" }
   - type: quote
     text: "Amazing bar with retro games that you can play… English speaking staff and you meet wonderful people. If you are solo traveler i highly recommend this place."
     attribution: "Google review, September 2026 (via Wanderlog)"

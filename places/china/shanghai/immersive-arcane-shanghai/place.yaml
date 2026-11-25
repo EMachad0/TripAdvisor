@@ -82,8 +82,9 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: wulumuqi-road-winter
-    caption: "Wulumuqi Middle Rd at Anfu Rd, ~1.5 km south of the venue; no free photo of the show"
+    image: piltover-set
+    caption: "The Piltover street set inside the venue, lit through the haze"
+    focus: "40% 60%"
     hook: "Put on a mask, pick a character and follow them up the stairs from Piltover into Zaun."
   - type: quick_facts
     time_needed: "About 2 h, standing"
@@ -109,6 +110,10 @@ blocks:
       **Sleep No More Shanghai is over.** Its owner announced in May 2026 that the McKinnon Hotel run would end on **30 August 2026** after its 2,670th show, and Wenhui Daily wrote its farewell in September. The Punchdrunk team's next China show, in Shenzhen, is due in 2027.
 
       The closest thing left in Shanghai is **Immersive Arcane**, co-produced by the same company in the annex of the Shanghai Hotel in Jing'an. It keeps the mask, the free roaming and the private one-on-ones; the story is the animated series, not Macbeth. It is fully legal: it is theatre, and nothing beyond the show is sold. The catch for you is language: everything is in Mandarin, so watch the series before you go, as the City News reviewer advises.
+  - type: gallery
+    images:
+      - { file: powder-drawing, caption: "A prop close-up: Powder's crayon drawing on a workbench" }
+      - { file: stair-scene, caption: "A performer on the stairs of the set" }
   - type: book_ahead
     steps:
       - { days_before: 14, text: "Open the **票星球** ticket page or the show's WeChat mini-program (search 双城之战) and check which of **Dec 6–9 and 11–13** have a show." }

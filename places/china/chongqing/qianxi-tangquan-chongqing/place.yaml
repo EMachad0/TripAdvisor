@@ -89,6 +89,8 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
+    image: pool
+    caption: "The indoor pool at Qianxi, loungers along the wall and sauna doors behind"
     hook: Soak, sweat in a salt room, drink fruit tea, sleep on a recliner, repeat.
   - type: quick_facts
     time_needed: "6–8 h, or overnight"
@@ -118,6 +120,12 @@ blocks:
       **Runner-up:** Lanyue Hot Spring (岚悦汤泉), in the basement of Jiangnan Gymnasium in Nan'an. Its 24 h ticket includes the buffets and overnight fee: about US$33 on Klook (4.7 from 343 reviews); Trip.com's guide says from £8.60 (≈¥76). Cheaper all-in, but harder to reach by metro.
 
       This card is the legal option. China punishes buying sex with detention and expulsion, and a mainstream bathhouse like this one sells pools, food and a bed, not "extras".
+  - type: gallery
+    images:
+      - file: recliner-lounge
+        caption: "The recliner lounge, where guests in house pyjamas watch films and nap"
+      - file: buffet
+        caption: "The buffet counter"
   - type: quote
     variant: vibe
     text: A glass of mango juice, a warm recliner, and fog over Chongqing outside.

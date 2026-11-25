@@ -31,3 +31,45 @@
     - 1920
   fetched: 2026-11-10
   origin: commons
+- file: arched-stairs
+  title: 002.jpg
+  author: ArchDaily / X+Living
+  license: All rights reserved (personal use)
+  source_url: https://www.archdaily.cn/cn/948543/du-jiang-yan-zhong-shu-ge-wei-xiang-guo-ji/5f70d4dc63c017617700034e-du-jiang-yan-zhong-shu-ge-wei-xiang-guo-ji-zhao-pian
+  original_url: https://images.adsttc.com/media/images/5f70/d4dc/63c0/1761/7700/034e/large_jpg/002.jpg?1601230030
+  width: 2000
+  height: 1333
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: reading-corner
+  title: 20201001000821HB0NXow.jpg
+  author: 2008php.com
+  license: All rights reserved (personal use)
+  source_url: https://www.2008php.com/tuku/989733.html
+  original_url: https://www.2008php.com/2020_Website_appreciate/2020-10-01/20201001000821HB0NXow.jpg
+  width: 1500
+  height: 1000
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web
+- file: book-towers
+  title: 131358j6xgr66rw2rib6zz.jpg
+  author: Mala Forum (mala.cn)
+  license: All rights reserved (personal use)
+  source_url: https://www.mala.cn/thread-16040295-1-1.html
+  original_url: https://img.mala.cn/forum/202011/17/131358j6xgr66rw2rib6zz.jpg
+  width: 1600
+  height: 1066
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web

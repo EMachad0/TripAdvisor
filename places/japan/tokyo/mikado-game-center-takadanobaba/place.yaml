@@ -65,8 +65,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: storefront-2018
-    caption: "The Oasis Plaza entrance in 2018. No free photos of the cabinets inside"
+    image: cabinet-rows
+    caption: "Rows of retro arcade cabinets inside Mikado Takadanobaba (2017)"
     hook: "Rows of humming CRT cabinets, and a 40-year-old regular who will beat you at Street Fighter II without looking up."
   - type: quick_facts
     time_needed: 1–2 h
@@ -97,6 +97,11 @@ blocks:
       Mikado is a one-owner arcade with a point of view. Owner **Minoru Ikeda**, an arcade worker since the mid-'90s, opened it in Kabukichō in 2006 and moved it to Takadanobaba in 2009. He chose to fill it with the cabinets that defined the '80s and '90s.
 
       It almost didn't survive Covid: crowdfunding kept it alive. Today players around forty share the sticks with people half their age, and the line-up rotates with tournaments.
+  - type: gallery
+    images:
+      - { file: player, caption: "A player on a candy cabinet in the blue arcade light" }
+      - { file: cabinets-2018, caption: "Shooter and fighting-game cabinets side by side (2018)" }
+      - { file: storefront-2018, caption: "The street entrance in 2018" }
   - type: quote
     variant: vibe
     text: Clattering joysticks, chiptune from every direction, and a stranger's coin dropping into the other side of your cabinet.

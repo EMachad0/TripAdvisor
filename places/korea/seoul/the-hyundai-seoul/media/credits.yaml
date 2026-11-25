@@ -1,17 +1,43 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: yeouido-skyline
-  title: File:당산철교에서 촬영한 여의도.jpg
-  author: Ox1997cow
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:%EB%8B%B9%EC%82%B0%EC%B2%A0%EA%B5%90%EC%97%90%EC%84%9C_%EC%B4%AC%EC%98%81%ED%95%9C_%EC%97%AC%EC%9D%98%EB%8F%84.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/33/%EB%8B%B9%EC%82%B0%EC%B2%A0%EA%B5%90%EC%97%90%EC%84%9C_%EC%B4%AC%EC%98%81%ED%95%9C_%EC%97%AC%EC%9D%98%EB%8F%84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: 당산철교를 달리고 있는 2호선 열차에서 촬영한 여의도의 모습입니다.
-  width: 4032
-  height: 2268
+- file: sounds-forest
+  title: UT_4588-HDR-copy.jpg
+  author: Hong x Kim
+  license: All rights reserved (personal use)
+  source_url: https://hongxkim.com/the-hyundai-seoul-1st-anniversary-sound-of-the-future-5/
+  original_url: http://hongxkim.com/wp-content/uploads/2022/03/UT_4588-HDR-copy.jpg
+  width: 2400
+  height: 1600
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-13
-  origin: commons
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: atrium-voids
+  title: IMG_3137.jpeg
+  author: SeommerDays
+  license: All rights reserved (personal use)
+  source_url: https://seommerdays.com/best-shopping-mall-in-seoul-the-hyundai-seoul/
+  original_url: https://seommerdays.com/wp-content/uploads/2025/01/IMG_3137.jpeg
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: tree-islands
+  title: 346946944303197.jpeg
+  author: RBC Style
+  license: All rights reserved (personal use)
+  source_url: https://style.rbc.ru/impressions/6502c1539a79474c7cbb4b45
+  original_url: https://s0.rbk.ru/v6_top_pics/media/img/7/19/346946944303197.jpeg
+  width: 1500
+  height: 1125
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web

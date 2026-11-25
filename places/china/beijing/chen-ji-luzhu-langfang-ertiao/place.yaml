@@ -68,6 +68,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
+    image: luzhu-bowls
+    caption: "Bowls of luzhu at Chen Ji: offal, tofu and flatbread in the spiced broth"
     hook: A family pot of spiced broth since 1982, ladled over offal, tofu and torn flatbread.
   - type: quick_facts
     time_needed: 30–60 min
@@ -91,6 +93,10 @@ blocks:
       A Ctrip reviewer ordered "one base, three flatbreads plus intestine" and found **tofu, white pork and lung** in the bowl too, with a thick, fragrant broth and dense flatbread that stays chewy. You build the bowl by flatbread count: Ctrip's dish list has a small bowl, a base with one flatbread, and extra white pork.
 
       This is offal, and proud of it. If intestine is a step too far, ask for more white pork (加白肉) and fewer innards.
+  - type: gallery
+    images:
+      - { file: shopfront, caption: "The red shopfront and signboard on Langfang Ertiao" }
+      - { file: luzhu-bowl-michelin, caption: "A bowl topped with garlic and coriander" }
   - type: quote
     variant: vibe
     text: Steam on the window, a stranger's elbow at your table, and the smell of spiced marinade out in the alley.

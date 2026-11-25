@@ -1,0 +1,41 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: two-soba
+  title: 1ba6d10939270ec3bdd1e77af6329155.jpg
+  author: Santatsu
+  license: All rights reserved (personal use)
+  source_url: https://san-tatsu.jp/spots/88823/
+  original_url: https://san-tatsu.jp/assets/uploads/2021/06/07143203/1ba6d10939270ec3bdd1e77af6329155.jpg
+  width: 1500
+  height: 1004
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: 20251120164954f20.jpg
+  author: Tsurezure Soba blog
+  license: All rights reserved (personal use)
+  source_url: https://chibiyukarin.jp/blog-entry-5967.html
+  original_url: https://blog-imgs-168.fc2.com/c/h/i/chibiyukarin/20251120164954f20.jpg
+  width: 1024
+  height: 768
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: zaru-tempura
+  title: 35475814.jpg
+  author: Retty
+  license: All rights reserved (personal use)
+  source_url: https://retty.me/area/PRE13/ARE6/SUB604/100000455829/
+  original_url: https://ximg.retty.me/crop/s1200x900/-/retty/img_repo/2l/01/35475814.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

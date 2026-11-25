@@ -97,6 +97,8 @@ blocks:
   - type: gallery
     images:
       - { file: petal-garden, caption: "The Petal Garden under the dome, part of the S$8 park ticket" }
+      - { file: canopy-bridge, caption: "The glass panels of the Canopy Bridge floor, 23 m above the valley" }
+      - { file: discovery-slide, caption: "A yellow chute of the Discovery Slides inside its mirrored sculpture" }
   - type: prose
     title: Worth it, or stay on the free floor?
     text: |-

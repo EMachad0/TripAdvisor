@@ -69,9 +69,8 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: zhong-dumplings
-    focus: center
-    caption: "Zhong-style dumplings in chili oil at a Chengdu restaurant (not this shop)"
+    image: ziwei-pavilion
+    caption: "Zhong Shui Jiao in the Ziwei Pavilion, inside People's Park"
     hook: A tray of the city's classic snacks, one bite of each, in a park full of tea drinkers.
   - type: quick_facts
     time_needed: 45–60 min
@@ -92,9 +91,9 @@ blocks:
         text: "The Trip.com voucher is sold as a **single-person** set, paid in advance on Trip.com, so there's nothing to order in Chinese and no doubt about portions for one."
   - type: gallery
     images:
-      - { file: zhong-bowl, caption: "Zhong dumplings in a bowl printed 钟水饺 (branch not stated)", focus: center }
       - { file: park-bridge, caption: People's Park around the corner }
-      - { file: shaocheng-gate, caption: "The Shaocheng gate in People's Park" }
+      - { file: snack-set, caption: "A snack set here: cold dishes, buns, dumplings and soup on one tray" }
+      - { file: zhong-dumplings-here, caption: "Zhong dumplings in sweet soy and chili oil, in the house bowl" }
   - type: book_ahead
     steps:
       - days_before: 1

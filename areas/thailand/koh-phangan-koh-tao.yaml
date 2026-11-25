@@ -16,7 +16,7 @@ lng: 99.98638
 getting_there: "No airport. Lomprayah from Bangkok (Khao San or Pinklao pickup): 21:30 bus+ferry, Tao 08:15 ฿850, Phangan 10:30 ฿1,150; 22:00 catamaran ฿1,250/1,350. Or fly Surat Thani ~฿1,300 + ฿600–950 bus+ferry."
 getting_around: "Phangan: songthaews from Thong Sala pier to Haad Rin and Ban Tai, about ฿100–200 a person. Tao: walk Sairee's beach path; taxis start around ฿300, longtails ฿100–200."
 winter_note: "The Gulf's rainy season runs October–December and rough seas can stop the boats for a day or two; January is the tail of it: about 24–29 °C and roughly 127 mm of rain on Samui (1991–2020). The Dec 24 and Dec 31 parties fall while you are in China, and the next one, Fri 22 Jan 2027, is after you have left for Korea."
-image: koh-tao-coast
+image: koh-nang-yuan
 sources:
   - url: https://www.visitthailandtoday.com/guides/full-moon-party-koh-phangan
     title: "Visit Thailand Today (2026-10-24): Full Moon Party dates 2026–27 (22 Jan 2027), ฿200 entry, Halfmoon and other parties, boats"
@@ -46,7 +46,7 @@ last_updated: 2026-11-12
 blocks:
   - type: hero
     hook: "Halfmoon raves and Haad Rin bar nights on Phangan, snorkel bays on Tao. The Full Moon Party misses your dates."
-    caption: "Koh Tao from a hilltop viewpoint"
+    caption: "Koh Nang Yuan's sandbar from the viewpoint, off Koh Tao's north-west coast"
   - type: highlights
     items:
       - title: Parties that can fit early January

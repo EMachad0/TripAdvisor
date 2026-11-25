@@ -60,8 +60,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: sushi-queue
-    caption: A queue at a Wang Lang sushi counter (2017)
+    image: market-lane
+    caption: "A busy Wang Lang lane: snack carts, shoppers and the sushi counter under red lanterns"
     hook: Nurses in uniform, students and a queue for few-baht sushi, one river crossing from the palace crowds.
     focus: center
   - type: quick_facts

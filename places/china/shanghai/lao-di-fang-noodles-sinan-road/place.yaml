@@ -74,8 +74,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: sinan-road
-    caption: "Sinan Road's old villas; no free photo of the noodle shop itself"
+    image: shopfront-107
+    caption: "The shop at 107 Sinan Road, its name in red on the glass"
     hook: Pick a topping, watch it hit the wok, and ask for more noodles for free.
   - type: quick_facts
     time_needed: 30–45 min
@@ -100,6 +100,12 @@ blocks:
       Lao Di Fang spent about thirty years on South Xiangyang Road. A January 2024 NetEase food blog put it simply: "30 years of queues, from opening day until today". In June 2023 it moved to 107 Sinan Road, a bigger room with 32 seats. Michelin says the menu and flavours did not change.
 
       You pick a topping (*jiaotou*) and it is cooked when you order it. Besides the cuttlefish, Michelin points to dark-soy braised pork belly and pork wrapped in tofu skin. Ctrip reviewers on the old site waited about half an hour at lunch.
+  - type: gallery
+    feature: false
+    images:
+      - { file: noodle-soup, caption: "Noodles in clear broth with a seafood-and-greens topping" }
+      - { file: braised-pork, caption: "A slab of red-braised pork, served as a topping" }
+      - { file: sinan-road, caption: "Old villas along Sinan Road" }
   - type: quote
     variant: vibe
     text: Wok hiss behind the counter, a bowl of noodles, and nobody in any hurry.

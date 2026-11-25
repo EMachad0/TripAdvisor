@@ -1,2 +1,40 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-[]
+- file: party-floor
+  title: nightclub-cici-party-1280.avif
+  author: chongqing.guide
+  license: All rights reserved (personal use)
+  source_url: https://chongqing.guide/en/guides/chongqing-nightclubs/
+  original_url: https://chongqing.guide/images/nightclub-cici-party-1280.avif
+  width: 1280
+  height: 853
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: park-at-night
+  title: 66a0551d3d376172178358126517.gif
+  author: ela.cn
+  license: All rights reserved (personal use)
+  source_url: http://www.ela.cn/index.php?g=ela&m=index&a=works&id=157180
+  original_url: http://www.ela.cn/uploadWX/20240724/66a0551d3d376172178358126517.gif
+  width: 1080
+  height: 719
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: park-terraces
+  title: 66a0551d377e8172178358137795.gif
+  author: ARCHINA
+  license: All rights reserved (personal use)
+  source_url: http://www.archina.com/index.php?g=works&m=index&a=show&id=157180
+  original_url: http://www.archina.com/uploadWX/20240724/66a0551d377e8172178358137795.gif
+  width: 1080
+  height: 719
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web

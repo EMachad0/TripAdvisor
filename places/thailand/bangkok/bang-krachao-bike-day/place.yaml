@@ -60,9 +60,9 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: bikes
+    image: jungle-path
     hook: "Five minutes by boat from the docks, and you're cycling under trees with no traffic."
-    caption: "Rental bikes on a Bang Krachao path"
+    caption: "Cycling a raised path through the nipa palms of Bang Krachao"
   - type: quick_facts
     time_needed: 4–5 h
     best_time: Weekend, start by 09:00
@@ -89,6 +89,8 @@ blocks:
       The day is cheap and simple. MRT to Khlong Toei, a taxi or a 30-minute walk to the pier, a ฿10 boat, a bike. Bike shops at the pier start at about ฿80 a day; walk to the park gate and one shop there rented for ฿40 at the last report. Then ride the shaded paths at your own pace.
   - type: gallery
     images:
+      - { file: bikes, caption: "Rental bikes parked beside a Bang Krachao path" }
+      - { file: boardwalk, caption: "Two riders on a concrete path through the jungle" }
       - { file: bang-nam-phueng, caption: "Bang Nam Phueng, the weekend floating market" }
   - type: cost_breakdown
     items:

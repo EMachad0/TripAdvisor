@@ -1,0 +1,43 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: cafe-room
+  title: vcdn8il15dwfxbgyu96x.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/301757/only-cafe-and-backpacker/
+  original_url: https://a.hwstatic.com/propertyimages/3/301757/vcdn8il15dwfxbgyu96x.jpg
+  width: 6720
+  height: 4480
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: balcony-sunset
+  title: b5fautctmjz5oh55wo5d.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/301757/only-cafe-and-backpacker/
+  original_url: https://a.hwstatic.com/propertyimages/3/301757/b5fautctmjz5oh55wo5d.jpg
+  width: 5976
+  height: 3987
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: cap3rvznb0xrlgrxbqhn.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/301757/only-cafe-and-backpacker/
+  original_url: https://a.hwstatic.com/propertyimages/3/301757/cap3rvznb0xrlgrxbqhn.jpg
+  width: 7568
+  height: 5045
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

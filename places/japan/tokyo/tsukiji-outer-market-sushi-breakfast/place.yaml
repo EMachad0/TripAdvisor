@@ -86,6 +86,10 @@ blocks:
       **Tsukiji** is where you eat: an open grid of food stalls and sushi counters. It's busiest between 9:00 and 13:00 and quiet after the shops close in the afternoon.
 
       **Toyosu** is the working wholesale market, open 5:00–17:00 except Sundays, holidays and market closed days. The close-up **tuna auction deck** runs 5:45–6:25 and is free, but places are drawn by lottery: 100 people a day, and you show your passport at the 5:30 meeting. For **January 2027** tours, entries are open **Dec 2–8, 2026**, with results on Dec 17. The February 2027 dates weren't out yet. If you lose the draw, the 2nd-floor walkway doesn't justify a 5 a.m. alarm. Spend that morning here instead.
+  - type: gallery
+    images:
+      - { file: zanmai-honten, caption: "The Sushi Zanmai flagship (honten), open 24 hours" }
+      - { file: market-lane, caption: "Morning crowds in the outer-market lanes, past a tuna shop" }
   - type: menu
     title: Sushi Zanmai, per piece
     items:

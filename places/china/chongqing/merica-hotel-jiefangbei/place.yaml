@@ -92,6 +92,8 @@ last_updated: 2026-11-24
 
 blocks:
   - type: hero
+    image: room-night-view
+    caption: "A Merica room at night: twin beds and a full-height window over the lit towers"
     hook: "A dark room with a door for the night shifts of 28–30 December and the 01:00 (UTC+8) call."
   - type: quick_facts
     extra:
@@ -167,6 +169,12 @@ blocks:
       **I would book the three work nights.** They are the nights a dorm fails you: you sleep from about 06:00 to 14:00 (UTC+8), when a dorm is checking people out and in. For R$55 a day you get a dark room, a door and a table. Spend 26–27 December and New Year at a hostel: those are the nights for meeting people, and the countdown and drone show are better with company. A whole week here gives up all of that.
 
       The catch is the morning of the 31st. Check-out is 12:00 (UTC+8) and your shift ends at 05:00, so ask for a late check-out. If they say no and sleep matters more, take the four-night stay: keeping the room for New Year's Eve adds ¥347 (R$295) to the same booking.
+  - type: gallery
+    images:
+      - file: twin-room
+        caption: "A twin room with a desk along the window"
+      - file: room-entry
+        caption: "A room seen from the door end, from a video review"
   - type: book_ahead
     steps:
       - { days_before: 14, text: "Book **28–31 Dec** in the windowless queen and write your arrival time in the special-requests box. Nothing is charged until 26 Dec." }

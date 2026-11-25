@@ -85,6 +85,8 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
+    image: cafe-room
+    caption: "The café on the top floor: wooden booths, patterned rugs and windows over the towers"
     hook: "A small family-run hostel at the top of a residential tower, where guests from other hostels come to hang out."
   - type: quick_facts
     extra:
@@ -154,6 +156,12 @@ blocks:
       **Working by day.** The listings show free wifi, a common lounge, a mini library and a balcony. They show no desks and no coworking room. No Hostelworld or Trip.com review mentions wifi, a laptop or working here, so the only signal is Booking.com's guest wifi score of 9.5. The hostel also runs a café, but sources disagree on where it is: Hostelworld calls it in-house, Booking.com says top floor, and a Trip.com guest says it is across the street on the ground floor of a Marriott building, with a free-drink voucher at check-in. Ask when you arrive.
 
       **The 01:00 call on Tue 29 Dec** is the weak point. There is no private room. One Trip.com guest wrote that the rooms are not soundproofed, though Booking.com lists soundproofing as a dorm feature. No source says whether the lounge is free and quiet after midnight. What is confirmed: reception is staffed 24 h and there is no curfew, so you can be up and about. Ask the owners on the first day where you may take a call. One Trip.com reviewer was offered a single room in a nearby building, so ask about that too. If neither works, book one night in a private room: Merica Hotel had one on 28 Dec for ¥107 (R$88) prepaid, or ¥130 to pay later.
+  - type: gallery
+    images:
+      - file: dorm
+        caption: "The eight-bed dorm: bunks with curtains and lockers"
+      - file: balcony-sunset
+        caption: "Sunset over the towers from the hostel balcony"
   - type: book_ahead
     steps:
       - { days_before: 14, text: "Book 26 Dec – 2 Jan as one stay. On 10 Nov, Hostelworld showed **¥595 (R$492)** for the seven nights in the mixed dorm, and Booking.com **¥520 (R$430)** in the male dorm with nothing to pay up front." }

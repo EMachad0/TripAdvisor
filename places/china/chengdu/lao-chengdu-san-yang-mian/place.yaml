@@ -69,6 +69,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
+    image: san-yang-noodles
+    caption: "A bowl of noodles under minced pork and chopped long beans, as served here"
     hook: Locals at shared tables from 07:30, slurping noodles from three menus called old, new and more.
   - type: quick_facts
     time_needed: 30 min
@@ -93,6 +95,12 @@ blocks:
       Chengdu calls its tiny, plain neighbourhood eateries *cangying guanzi*, "fly restaurants". Michelin's words for this one are a no-frills "hole in the wall" where locals come for time-honoured flavours, and you will probably share a table or eat outside.
 
       The menu splits soup and dry noodles into the old, new and more sections. Ctrip's dish list adds tomato beef-brisket noodles, braised beef noodles, sesame-oil dan dan noodles and seafood squid noodles, so there is a mild bowl if the chilli gets too much.
+  - type: gallery
+    images:
+      - file: beans-and-pork
+        caption: Long beans and crispy minced pork over plain noodles, ready to toss
+      - file: wontons
+        caption: Wontons in clear broth with pickled vegetables
   - type: quote
     variant: vibe
     text: Elbow to elbow at a shared table, a bowl of red chilli oil, and the Kuanzhai crowds still asleep.

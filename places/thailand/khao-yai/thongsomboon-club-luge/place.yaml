@@ -81,7 +81,8 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: luge-and-chairlift
+    image: rainbow-luge
+    caption: "Luge karts on the rainbow track, under the chairlift station"
     focus: center
     hook: "Hairpin bends on a hillside, two karts racing side by side, and a chairlift humming overhead to take you up again."
   - type: quick_facts
@@ -112,6 +113,10 @@ blocks:
       **Make it a weekend?** Pak Chong is the base town for Khao Yai National Park, so the luge can fit into a Khao Yai weekend (see the Khao Yai area card).
 
       **What ฿399 buys is unclear.** In 2024 the ฿399 ticket covered one ride plus free activities, and single rides cost ฿150–200. A March 2026 guide says ฿399 is a 3-hour unlimited wristband covering 13 activities. Neither says if the luge is in it. Ask at the counter. The other current tiers are ฿499 (with an ATV ride) and ฿999 (17 activities, 4 hours); a March 2026 visitor saw ฿339/559/999 boards.
+  - type: gallery
+    images:
+      - { file: chairlift-over-track, caption: "The chairlift back up runs over the rainbow track" }
+      - { file: luge-and-chairlift, caption: "Karts on the hillside track below the chairlift" }
   - type: cost_breakdown
     items:
       - { label: "Starter ticket (luge inclusion unconfirmed)", local: 399, brl: 66.63 }

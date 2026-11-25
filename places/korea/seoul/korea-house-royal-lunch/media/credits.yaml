@@ -14,3 +14,45 @@
     - 1920
   fetched: 2026-11-16
   origin: commons
+- file: round-table-room
+  title: f80abc98b1344c529be3df544c6d38f0
+  author: Korea House (Catchtable)
+  license: All rights reserved (personal use)
+  source_url: https://www.catchtable.net/shop/koreahouse
+  original_url: https://ugc-images.catchtable.co.kr/shop/manager/images/f80abc98b1344c529be3df544c6d38f0
+  width: 2000
+  height: 1335
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: long-table-room
+  title: c875c7b2104f4379b41e59690784a6f3
+  author: Korea House (Catchtable)
+  license: All rights reserved (personal use)
+  source_url: https://www.catchtable.net/shop/koreahouse
+  original_url: https://ugc-images.catchtable.co.kr/shop/manager/images/c875c7b2104f4379b41e59690784a6f3
+  width: 2000
+  height: 1335
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: course-plates
+  title: 6be6365a60c94689a42e2fea316a2a7a
+  author: Korea House (Catchtable)
+  license: All rights reserved (personal use)
+  source_url: https://www.catchtable.net/shop/koreahouse
+  original_url: https://ugc-images.catchtable.co.kr/shop/manager/images/6be6365a60c94689a42e2fea316a2a7a
+  width: 2000
+  height: 2501
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web

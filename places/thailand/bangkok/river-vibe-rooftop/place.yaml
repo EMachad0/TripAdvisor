@@ -66,13 +66,13 @@ sources:
     title: "Bangkok: climate table (Wikipedia)"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Beer price differs between two 2026 guides (฿110 vs ฿120–160); the card uses ฿110. Hours from the nightlife.run venue listing and Trip.com; riverviewbkk.com lists no hours. Taksin Bridge view is from Time Out's 2018 list. Guides say 8th floor; one Trip.com reviewer says 8th–9th. Photos: views from a Talat Noi high-rise, not the bar. Trip.com read in a browser (blocks link checkers)."
+confidence_note: "Beer price differs between two 2026 guides (฿110 vs ฿120–160); the card uses ฿110. Hours from the nightlife.run venue listing and Trip.com; riverviewbkk.com lists no hours. Taksin Bridge view is from Time Out's 2018 list. Guides say 8th floor; one Trip.com reviewer says 8th–9th. Trip.com read in a browser (blocks link checkers)."
 last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: talat-noi-sunset
-    caption: "Sunset over the Chao Phraya from a Talat Noi high-rise, not the bar itself"
+    image: terrace-sunset
+    caption: "Sunset over the Chao Phraya from River Vibe's open roof terrace"
     hook: "Barges sliding past below, the river bending downstream towards Taksin Bridge, and a cold Chang on a hotel roof."
   - type: quick_facts
     time_needed: 1.5–2 h
@@ -92,8 +92,10 @@ blocks:
         text: "Getting there means a walk through the alleys of Talat Noi, the riverside end of Chinatown. River View was the first hotel in the neighbourhood."
   - type: gallery
     images:
-      - file: talat-noi-day
-        caption: "The same stretch of river by day, from Talat Noi"
+      - file: bar-room
+        caption: "The covered bar floor, open to the river"
+      - file: sign-night
+        caption: "The River Vibe sign on the roof after dark"
   - type: menu
     items:
       - { name: "Local beer", price_local: 110, price_brl: 18.14, note: "nightlife.run 2026", tag: cheap }

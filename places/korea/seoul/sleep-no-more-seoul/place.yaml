@@ -93,8 +93,8 @@ last_updated: 2026-11-18
 
 blocks:
   - type: hero
-    image: daehan-cinema-entrance
-    caption: "Daehan Cinema in 2017, before it became the McKithan Hotel; no free photo of the show"
+    image: masked-audience
+    caption: "Masked audience members crowd round a scene inside the McKithan Hotel"
     hook: "Put on a white mask, lose your friends, and chase Lady Macbeth up the stairs of a hotel built for the play."
   - type: quick_facts
     time_needed: "Up to 3 h, on your feet"
@@ -132,6 +132,14 @@ blocks:
       - { label: "Ruby's Guest instead (reserved seat in the bar)", local: 240000, brl: 1038.48, optional: true }
   - type: map
     note: "In the **former Daehan Cinema** on Toegye-ro, with an entrance inside **Chungmuro station** (Lines 3/4)."
+  - type: gallery
+    images:
+      - file: mirror-duet
+        caption: A duet in front of a gilded mirror
+      - file: card-table
+        caption: A card game under a single lamp, the audience in the shadows
+      - file: apothecary
+        caption: Two performers in front of a wall of small wooden drawers
   - type: tips
     variant: insider
     items:

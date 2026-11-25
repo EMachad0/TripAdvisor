@@ -1,17 +1,56 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: minamigata-station
-  title: File:Nishinakajima-minamigata Station - Nov 23 2019 various 16 48 22 745000.jpeg
-  author: Nesnad
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Nishinakajima-minamigata_Station_-_Nov_23_2019_various_16_48_22_745000.jpeg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9a/Nishinakajima-minamigata_Station_-_Nov_23_2019_various_16_48_22_745000.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: 西中島南方駅 (Nishinakajima-minamigata Station)
-  width: 4032
-  height: 3024
+- file: genten-bowl
+  title: 0626.jpg
+  author: Jinrui Mina Menrui
+  license: All rights reserved (personal use)
+  source_url: https://www.jinrui-minamenrui.com/
+  original_url: https://www.jinrui-minamenrui.com/wp-content/uploads/tcd-w/0626.jpg
+  width: 1700
+  height: 1134
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
+    - 1700
+  fetched: 2026-11-25
+  origin: web
+- file: thick-pork
+  title: 20240406055742.jpg
+  author: 昔行ったあの場所は今… (Hatena blog)
+  license: All rights reserved (personal use)
+  source_url: https://escapismo.hatenablog.com/entry/2024/04/06/210000
+  original_url: https://cdn-ak.f.st-hatena.com/images/fotolife/e/escapismo/20240406/20240406055742.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: counter
+  title: ph_jinrui.jpg
+  author: Jinrui Mina Menrui
+  license: All rights reserved (personal use)
+  source_url: https://www.jinrui-minamenrui.com/
+  original_url: https://www.jinrui-minamenrui.com/wp-content/uploads/tcd-w/ph_jinrui.jpg
+  width: 1700
+  height: 1700
+  widths:
+    - 640
+    - 1280
+    - 1700
+  fetched: 2026-11-25
+  origin: web
+- file: noren
+  title: ph_jm_n.jpg
+  author: Jinrui Mina Menrui
+  license: All rights reserved (personal use)
+  source_url: https://www.jinrui-minamenrui.com/
+  original_url: http://www.jinrui-minamenrui.com/wp-content/uploads/tcd-w/ph_jm_n.jpg
+  width: 1600
+  height: 1600
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web

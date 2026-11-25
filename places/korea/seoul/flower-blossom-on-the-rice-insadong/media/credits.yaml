@@ -1,17 +1,55 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: insadong-gil
-  title: File:Seoul, Jongno District, Insa-dong, Insadong-gil.jpg
-  author: Dr. Thomas Liptak
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Seoul,_Jongno_District,_Insa-dong,_Insadong-gil.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Seoul%2C_Jongno_District%2C_Insa-dong%2C_Insadong-gil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: "Seoul : Jongno District , Insa-dong , Insadong-gil"
-  width: 6000
-  height: 3375
+- file: dining-room
+  title: d710ddf3c2ab4fa0b81905c1e91d4e9a
+  author: A Flower Blossom on the Rice (Catchtable)
+  license: All rights reserved (personal use)
+  source_url: https://www.catchtable.net/shop/flower_blossom_on_the_rice
+  original_url: https://ugc-images.catchtable.co.kr/shop/manager/images/d710ddf3c2ab4fa0b81905c1e91d4e9a
+  width: 7008
+  height: 4672
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-16
-  origin: commons
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: frontage
+  title: 5adc3795ada94ccc82393251ed0d24b4
+  author: A Flower Blossom on the Rice (Catchtable)
+  license: All rights reserved (personal use)
+  source_url: https://www.catchtable.net/shop/flower_blossom_on_the_rice
+  original_url: https://ugc-images.catchtable.co.kr/shop/manager/images/5adc3795ada94ccc82393251ed0d24b4
+  width: 7008
+  height: 4672
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: jeon-plating
+  title: a789dc2e57774d1e8730ebabf9af7920
+  author: A Flower Blossom on the Rice (Catchtable)
+  license: All rights reserved (personal use)
+  source_url: https://www.catchtable.net/shop/flower_blossom_on_the_rice
+  original_url: https://ugc-images.catchtable.co.kr/shop/manager/images/a789dc2e57774d1e8730ebabf9af7920
+  width: 1280
+  height: 853
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: banchan-set
+  title: aef0e1a0a5aa4bcd82f1fd0250288e55
+  author: A Flower Blossom on the Rice (Catchtable)
+  license: All rights reserved (personal use)
+  source_url: https://www.catchtable.net/shop/flower_blossom_on_the_rice
+  original_url: https://ugc-images.catchtable.co.kr/shop/manager/images/aef0e1a0a5aa4bcd82f1fd0250288e55
+  width: 1280
+  height: 852
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

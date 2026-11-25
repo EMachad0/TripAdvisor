@@ -1,0 +1,57 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: pingpong-lounge
+  title: r41k1ebyjvfxshxvthzv.jpg
+  author: NOMADX Stay (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/330679/nomad-live-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/330679/r41k1ebyjvfxshxvthzv.jpg
+  width: 3390
+  height: 2543
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: window-beanbags
+  title: e4lmd5iuivbhawdxhotf.jpg
+  author: NOMADX Stay (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/330679/nomad-live-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/330679/e4lmd5iuivbhawdxhotf.jpg
+  width: 3390
+  height: 2543
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: dining-tables
+  title: yushzr6oyg5mycddm7xv.jpg
+  author: NOMADX Stay (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/330679/nomad-live-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/330679/yushzr6oyg5mycddm7xv.jpg
+  width: 2951
+  height: 2214
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: washroom
+  title: kkkofm6p83nsoxpakf97.jpg
+  author: NOMADX Stay (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/330679/nomad-live-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/330679/kkkofm6p83nsoxpakf97.jpg
+  width: 3390
+  height: 2543
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

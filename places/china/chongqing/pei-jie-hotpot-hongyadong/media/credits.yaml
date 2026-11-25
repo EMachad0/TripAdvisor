@@ -1,17 +1,43 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: nine-grid-pot
-  title: File:3x3 hot pot in Chongqing (20180217161707).jpg
-  author: N509FZ
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:3x3_hot_pot_in_Chongqing_(20180217161707).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c6/3x3_hot_pot_in_Chongqing_%2820180217161707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Three different levels of heat.
-  width: 4252
-  height: 2834
+- file: hotpot-pot
+  title: dbd03c9834134db1831a9bdba3f070f9
+  author: 重庆游品
+  license: All rights reserved (personal use)
+  source_url: http://www.chongqingyoupin.com/index.php/2021/03/19/%E9%87%8D%E5%BA%86%E6%B4%AA%E5%B4%96%E6%B4%9E%E7%9A%84%E7%8F%AE%E5%A7%90%E8%80%81%E7%81%AB%E9%94%85%EF%BC%8C%E6%8E%92%E5%90%8D%E5%89%8D%E5%8D%81%E7%9A%84%E7%BD%91%E7%BA%A2%E5%BA%97%EF%BC%8C%E7%9C%9F/
+  original_url: https://p1-tt.byteimg.com/origin/pgc-image/dbd03c9834134db1831a9bdba3f070f9?from=pc
+  width: 1800
+  height: 1500
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
+    - 1800
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: 5c034dc044f8435ba321bb0015cb8f54
+  author: 重庆游品
+  license: All rights reserved (personal use)
+  source_url: http://www.chongqingyoupin.com/index.php/2021/03/19/%E9%87%8D%E5%BA%86%E6%B4%AA%E5%B4%96%E6%B4%9E%E7%9A%84%E7%8F%AE%E5%A7%90%E8%80%81%E7%81%AB%E9%94%85%EF%BC%8C%E6%8E%92%E5%90%8D%E5%89%8D%E5%8D%81%E7%9A%84%E7%BD%91%E7%BA%A2%E5%BA%97%EF%BC%8C%E7%9C%9F/
+  original_url: https://p1-tt.byteimg.com/origin/pgc-image/5c034dc044f8435ba321bb0015cb8f54?from=pc
+  width: 1800
+  height: 1500
+  widths:
+    - 640
+    - 1280
+    - 1800
+  fetched: 2026-11-25
+  origin: web
+- file: dining-room
+  title: ecda73703b294cea8e5fde0aeb934715
+  author: 重庆游品
+  license: All rights reserved (personal use)
+  source_url: http://www.chongqingyoupin.com/index.php/2021/03/19/%E9%87%8D%E5%BA%86%E6%B4%AA%E5%B4%96%E6%B4%9E%E7%9A%84%E7%8F%AE%E5%A7%90%E8%80%81%E7%81%AB%E9%94%85%EF%BC%8C%E6%8E%92%E5%90%8D%E5%89%8D%E5%8D%81%E7%9A%84%E7%BD%91%E7%BA%A2%E5%BA%97%EF%BC%8C%E7%9C%9F/
+  original_url: https://p1-tt.byteimg.com/origin/pgc-image/ecda73703b294cea8e5fde0aeb934715?from=pc
+  width: 1800
+  height: 1500
+  widths:
+    - 640
+    - 1280
+    - 1800
+  fetched: 2026-11-25
+  origin: web

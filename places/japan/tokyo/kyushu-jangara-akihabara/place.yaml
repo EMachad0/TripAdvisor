@@ -61,8 +61,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: akihabara-night
-    caption: Sotokanda (Akihabara Electric Town) at night. The shop is a block off this strip
+    image: shopfront-night
+    caption: "The Akihabara Honten at night: neon sign, lanterns and a wall of menu posters"
     hook: The 1984 shop that brought Kyushu-style pork-bone ramen to Electric Town, open late and cheap.
   - type: quick_facts
     time_needed: 30 min
@@ -81,6 +81,10 @@ blocks:
         text: "Here for **nearly 42 years** (the shop's own words in Sept 2026), so since about 1984, long before Akihabara turned anime."
       - title: The vegan bowl
         text: The main branch's **dark-soy vegan ramen** uses no animal products or chemical seasonings. It was once served on JAL flights.
+  - type: gallery
+    images:
+      - { file: tonkotsu-bowl, caption: "The house standard, Kyushu Jangara: a light tonkotsu bowl (2020)" }
+      - { file: shopfront-day, caption: "The queue outside by day (2021)" }
   - type: menu
     items:
       - { name: Kyushu Jangara (mild tonkotsu), name_local: 九州じゃんがら, price_local: 890, price_brl: 31.30, note: "The house bowl. Price from the Akasaka listing", tag: cheap }

@@ -73,6 +73,9 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
+    image: skewer
+    caption: "A grilled skewer of Kuro-Ou chicken set on the counter"
+    focus: "60% 60%"
     hook: One chicken breed, about twenty courses, and a counter of nine.
   - type: quick_facts
     time_needed: 2 h seating
@@ -91,6 +94,12 @@ blocks:
         text: "In the **Michelin Guide Kyoto–Osaka 2025 and 2026** without a star, and on Tabelog's **Yakitori WEST top 100** for 2024–2026 (3.69)."
       - title: Why go over the R$170 day
         text: "About **R$462** with the 5% service: close to three days of budget, for the one yakitori dinner that tastes a single chicken from end to end."
+  - type: gallery
+    feature: false
+    images:
+      - { file: counter-room, caption: "The wood counter facing the grill" }
+      - { file: entrance, caption: "The white noren at the door", focus: center }
+      - { file: sushi-course, caption: "A small rice course with salmon roe, one of the side dishes" }
   - type: quote
     variant: vibe
     text: Charcoal smoke, nine stools, and the next skewer already on the grill.

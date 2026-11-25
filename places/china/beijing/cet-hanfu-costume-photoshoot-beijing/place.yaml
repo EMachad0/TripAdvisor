@@ -79,8 +79,9 @@ last_updated: 2026-11-24
 
 blocks:
   - type: hero
-    image: taimiao-main-hall
-    caption: "The Imperial Ancestral Temple, one of the shoot locations. Studio sample photos are not free to show"
+    image: ming-guard-sample
+    caption: "One of CET's men's samples in Beijing: a black Ming-style robe, bamboo hat and sabre"
+    focus: top
     hook: Two hours in the makeup chair, forty minutes as a Ming imperial guard, every raw frame on your phone by evening.
   - type: quick_facts
     time_needed: 3–4 h
@@ -111,6 +112,7 @@ blocks:
     images:
       - { file: corner-tower-moat, caption: "The Forbidden City's corner tower and moat, a typical outer-wall backdrop" }
       - { file: taimiao-red-wall, caption: "Red walls and white marble at the Imperial Ancestral Temple" }
+      - { file: red-robe-corner-tower, caption: "A CET guest in a red official's robe under the Forbidden City's corner tower", focus: top }
   - type: book_ahead
     steps:
       - days_before: 14

@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: night-view
-  title: File:Night view from the Tokyo Metropolitan Government Building, 20101002-004.jpg
-  author: 掬茶
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Night_view_from_the_Tokyo_Metropolitan_Government_Building,_20101002-004.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c3/Night_view_from_the_Tokyo_Metropolitan_Government_Building%2C_20101002-004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: 東京都庁舎からの夜景、東京タワー方向
-  width: 3072
-  height: 2304
-  widths:
-    - 640
-    - 1280
-    - 2048
-  fetched: 2026-11-11
-  origin: commons
 - file: deck-windows
   title: File:Westward view from Tokyo Metropolitan Government Building 2024-09-05.jpg
   author: Asanagi
@@ -63,3 +47,15 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
+- file: dusk-towers
+  title: dusk-crop.jpg
+  author: Tokyo Nightscape (nightscape.tokyo)
+  license: All rights reserved (personal use)
+  source_url: https://nightscape.tokyo/en/shinjuku/metropolitan-government-observatory/
+  width: 1200
+  height: 728
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

@@ -16,7 +16,7 @@ lng: 121.4692
 getting_there: "You land at Pudong (PVG). Metro Line 2 runs from about 06:00, ~¥8, 70–90 min downtown; the Maglev starts ~07:00 (¥50, 8 min, then change). Taxi ¥140–260."
 getting_around: "Metro ¥3–5 for most central rides, about 05:30 to 22:30–23:00. Pay with a contactless card, Alipay ride-code or a transport card. After the last train: DiDi or taxi."
 winter_note: "Cool and damp, not freezing: December averages 5–11 °C, about 8 rainy days and 69% humidity, and snow is rare. Many older buildings are unheated. The sun sets around 16:50–17:00, so the skyline lights are on by the time you've had dinner. Winter is the smoggy season: check the AQI before paying for a tower deck."
-image: shanghai-bund-blue-hour
+image: pudong-skyline-night
 sources:
   - url: https://en.wikipedia.org/wiki/Shanghai
     title: Shanghai — Wikipedia (coordinates, climate normals 1991–2020, 2013 smog)
@@ -67,7 +67,7 @@ last_updated: 2026-11-10
 blocks:
   - type: hero
     hook: "Art Deco banks on one side of the river, a 632 m tower on the other, and a ¥2 ferry in between."
-    caption: The Bund at blue hour, seen from the Shanghai World Financial Center
+    caption: "Pudong's towers at night across the Huangpu, framed by the Bund's old buildings"
   - type: highlights
     title: Why start here
     items:
@@ -90,6 +90,7 @@ blocks:
       **Two to four days** covers it: one evening on the Bund and the ferry, one morning at Yu Garden and the old city, one day in the French Concession, and one night at INS (its all-pass is ¥168 Sunday–Thursday, ¥288 at weekends). If you come back for **Christmas**, the Bund's Christmas markets have their own card. Chongqing on Dec 26 is about a 3-hour flight; the high-speed train takes 10.5–13 hours.
   - type: gallery
     images:
+      - { file: shanghai-bund-blue-hour, caption: "The Bund at blue hour, seen from the Shanghai World Financial Center" }
       - { file: shanghai-nanjing-road-night, caption: "East Nanjing Road at night, the walk down to the Bund" }
       - { file: shanghai-wukang-mansion, caption: "Wukang Mansion, on a corner of the old French Concession" }
       - { file: shanghai-dahuchun-shopfront, caption: "Da Hu Chun on South Yunnan Road (\"since 1932\" on the sign)" }

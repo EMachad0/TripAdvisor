@@ -89,6 +89,14 @@ blocks:
       Graze instead of sitting down to a meal. Start with a croquette, queue for Uirak's peppers or a cup of chicken, finish with a hotteok. The street-food stalls at the entrance are busiest from about **14:00 to 18:00**.
 
       Locals carry market food to **Mangwon Hangang Park** and eat it by the river. In January that's a short, cold picnic, but the park is right there.
+  - type: gallery
+    images:
+      - file: entrance
+        caption: The street entrance, fruit and snack stalls spilling onto the pavement
+      - file: covered-lane
+        caption: The covered main lane, produce and fish counters on both sides
+      - file: busy-lane
+        caption: A busy afternoon under the arcade roof
   - type: quote
     variant: vibe
     text: Steam off a kalguksu pot, a ₩1,000 croquette in a paper bag, and nobody trying to sell you anything.

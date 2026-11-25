@@ -73,8 +73,8 @@ last_updated: 2026-11-18
 
 blocks:
   - type: hero
-    image: haebangchon-sign
-    caption: "Haebangchon, the hillside neighbourhood below Namsan Tower (no free photo of the bar)"
+    image: drag-show
+    caption: "A drag set on Rabbithole's small stage, the crowd on stools a few feet away"
     hook: "Lip-sync, sequins and loud audience games in a basement arcade bar on the hill under Namsan Tower."
   - type: quick_facts
     time_needed: "2–3 h"
@@ -100,6 +100,12 @@ blocks:
       In Bangkok the costume and the act came with the massage. In Korea, where buying sex is a crime for both sides, the legal version is a stage show: you pay the cover, buy drinks and watch. Rabbithole is a small basement arcade bar in Haebangchon (HBC), the hillside village between Itaewon and Namsan, and its weekend drag revue (lip-sync, dance, comedy and audience interaction, says the reseller's listing) is the best-documented regular adult stage show we found open in Seoul now. It's a comic cabaret, not an erotic show.
 
       Only one night fits: **Saturday 16 January**, after you're back from Hwacheon. The Saturday show starts at about 21:00 and runs in sets through the evening. Friday the 15th is a work night, and Sunday the 17th has no drag (shows are Friday and Saturday only). Take a Hwacheon → Dong Seoul bus by about **17:30** (2 h 35, per the Hwacheon page), then cross town to HBC. Walk in and pay at the door; Qlist says there's no online ticketing from the bar itself.
+  - type: gallery
+    images:
+      - file: stage
+        caption: The basement room before the show, stage and sequin curtain at the back
+      - file: street-door
+        caption: The street entrance on Sinheung-ro, under the rabbit sign
   - type: cost_breakdown
     items:
       - { label: "Door cover (about, per Qlist)", local: 10000, brl: 43.27, estimate: true }

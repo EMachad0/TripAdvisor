@@ -64,8 +64,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: tanao-road
-    caption: "Shophouses on Tanao Road, K. Panich's street; no free photo of the shop itself"
+    image: mango-sticky-rice
+    caption: "K. Panich's mango sticky rice: sliced mango, coconut cream on the side, crisp mung beans on top"
     hook: Coconut-cream sticky rice, a sliced ripe mango and a sprinkle of crisp mung beans, on Tanao Road since 1932.
   - type: quick_facts
     time_needed: 15–30 min
@@ -93,6 +93,10 @@ blocks:
   - type: gallery
     feature: false
     images:
+      - file: shopfront
+        caption: "The shopfront at 431-433 Tanao Road, under the gold ก.พานิช sign (Wongnai reviewer, 2025)"
+      - file: takeaway-box
+        caption: "The takeaway box: mango on one side, sticky rice and a pot of coconut cream on the other"
       - file: plaque
         caption: "The shop's plaque; its 07:00–19:00 hours are out of date (now 18:00 UTC+7, Fri 17:00)"
         focus: center

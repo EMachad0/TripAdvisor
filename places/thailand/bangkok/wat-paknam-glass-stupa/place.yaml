@@ -55,8 +55,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: museum-hall
-    caption: "Inside the pagoda: a hall on the lower floors"
+    image: stupa-hall
+    caption: "The emerald glass stupa on the top floor, under the painted dome and gold pillars"
     hook: "Take the lift to the top of a white pagoda and step into a green-glass universe."
   - type: quick_facts
     time_needed: 1.5–2 h
@@ -87,6 +87,7 @@ blocks:
       - { file: skyline, focus: "65% 50%", caption: "The 69 m Buddha seen from the BTS Silom line" }
       - { file: glass-stupa, focus: center, caption: "The emerald glass stupa on the top floor" }
       - { file: glass-naga, focus: center, caption: Glass naga serpents around the stupa }
+      - { file: museum-hall, caption: "A gilded hall on the pagoda's lower floors" }
   - type: cost_breakdown
     items:
       - { label: "Entry (grounds, Buddha and pagoda)", local: 0, brl: 0 }

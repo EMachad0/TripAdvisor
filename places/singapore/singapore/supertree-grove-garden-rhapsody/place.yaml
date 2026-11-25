@@ -106,6 +106,8 @@ blocks:
   - type: gallery
     images:
       - { file: rhapsody-show, caption: "Garden Rhapsody in full swing" }
+      - { file: skyway-day, caption: "The Supertrees by day, with the OCBC Skyway walkway strung between them" }
+      - { file: grove-from-above, caption: "The grove from above: the plaza where you stand for the show" }
   - type: cost_breakdown
     items:
       - { label: "Supertree Grove + Garden Rhapsody", local: 0, brl: 0 }

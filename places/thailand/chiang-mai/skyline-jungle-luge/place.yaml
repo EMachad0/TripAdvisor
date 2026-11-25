@@ -86,10 +86,10 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: pa-miang-hills
+    image: luge-track
     focus: center
     hook: "Two kilometres of hairpins through the jungle, no motor, your hand on the brake."
-    caption: "Ban Pa Miang in the same Doi Saket hills. No free photo of the luge track exists"
+    caption: "Luge karts on the jungle track, between tyre-wall bends"
   - type: quick_facts
     time_needed: "Up to 5 h incl. transfers"
     best_time: "Sun Jan 3, from a morning pickup"
@@ -116,6 +116,10 @@ blocks:
       **Sat 9 Jan (possible, but brutal).** Your shift ends at 04:00. You'd catch an early flight north, take a late-morning pickup, fly back that evening and fly to Seoul on Sunday. That's a 1h10 flight each way, a luge run and no sleep. Children's Day is that Saturday too.
 
       **Is it worth about R$670, nearly seven days' budget?** It's the exact ride you named, and nothing like it exists near Bangkok except a much shorter run at Thongsomboon Club near Khao Yai (see its page). But the luge itself is about 15 minutes. You're really paying for a zipline morning with a gravity kart at the end. The reseller's ฿370 luge-only ticket looks cheap, but it has no transfer, so a round trip into the hills could cost you more than you save. Flights are an alternative to the train (฿700–1,500 each way when booked 2–4 weeks out), but the New Year weeks can triple fares, so book early either way.
+  - type: gallery
+    images:
+      - { file: zipline-valley, caption: "A zipline line over the Doi Saket valley" }
+      - { file: sky-bridge, caption: "Rope sky bridge between treetop platforms" }
   - type: book_ahead
     steps:
       - { days_before: 30, text: "Book the train early: **sleeper No. 13** on Sat Jan 2 (2nd-class upper ฿771) on SRT D-Ticket, or a flight." }

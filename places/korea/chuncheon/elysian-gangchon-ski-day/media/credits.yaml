@@ -15,3 +15,30 @@
     - 2048
   fetched: 2026-11-10
   origin: commons
+- file: slopes-aerial
+  title: SSC_20250121141737.jpg.webp
+  author: Seoul Shinmun
+  license: All rights reserved (personal use)
+  source_url: https://www.seoul.co.kr/news/life/travel-news/2025/01/21/20250121500110
+  original_url: https://img.seoul.co.kr/img/upload/2025/01/21/SSC_20250121141737.jpg.webp
+  width: 4000
+  height: 2667
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: opening-day-run
+  title: AKR20221207121300062_01_i_P4.jpg
+  author: Yonhap News
+  license: All rights reserved (personal use)
+  source_url: https://www.yna.co.kr/view/AKR20221207121300062
+  original_url: https://img1.yna.co.kr/etc/inner/KR/2022/12/07/AKR20221207121300062_01_i_P4.jpg
+  width: 1024
+  height: 705
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web

@@ -15,19 +15,41 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
-- file: danneramit-2023
-  title: File:Jodd Fairs DanNeramit 2023-05-03.jpg
-  author: นพพร ลองไปเรื่อย Nopporn Long Pai Ruai
-  license: CC BY 3.0
-  license_url: https://creativecommons.org/licenses/by/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Jodd_Fairs_DanNeramit_2023-05-03.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/a/aa/Jodd_Fairs_DanNeramit_2023-05-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Jodd Fairs DanNeramit night market in Bangkok
-  width: 1920
-  height: 1080
+- file: big-c-dusk
+  title: jodd-crop.jpg
+  author: hanblog.tw
+  license: All rights reserved (personal use)
+  source_url: https://hanblog.tw/jodd-fair-ratchada/
+  width: 1200
+  height: 688
   widths:
     - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-12
-  origin: commons
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: aerial
+  title: 01k7c7926x693tmvdmjedr1fnh.jpeg
+  author: Traveloka
+  license: All rights reserved (personal use)
+  source_url: https://www.traveloka.com/en-sg/explore/activities/jodd-fairs-night-market-bangkok-ta/1002316
+  original_url: https://img.cnt.traveloka.com/tvlk/dam/i/01k7c7926x693tmvdmjedr1fnh.jpeg
+  width: 1000
+  height: 667
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: tables
+  title: 2616.jpeg
+  author: Gurulist
+  license: All rights reserved (personal use)
+  source_url: https://gurulist.net/en/bangkok/night-markets/jodd-fairs-ratchada-19360.htm
+  original_url: https://gurulist.net/img/address/2616.jpeg
+  width: 1024
+  height: 640
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web

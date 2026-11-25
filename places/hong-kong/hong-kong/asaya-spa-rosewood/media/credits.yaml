@@ -1,17 +1,43 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: victoria-dockside
-  title: File:Victoria Dockside 202007.jpg
-  author: Wpcpey
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Victoria_Dockside_202007.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c7/Victoria_Dockside_202007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Victoria Dockside in Tsim Sha Tsui, Hong Kong
-  width: 2259
-  height: 2082
+- file: treatment-room
+  title: Asaya_Spa_at_Rosewood_Hong_Kong-Asaya_Lodge_Treatment_Room-Credit_Asaya_Spa_Rosewood_Hong_Kong-2.jpg
+  author: Asaya Spa, Rosewood Hong Kong (via Cathay)
+  license: All rights reserved (personal use)
+  source_url: https://www.cathaypacific.com/cx/en_HK/inspiration/membership/cathay-reviews-asaya-spa-guerlain-rosewood-hong-kong.html
+  original_url: https://www.cathaypacific.com/content/dam/focal-point/cx/inspiration/2026/01/Asaya_Spa_at_Rosewood_Hong_Kong-Asaya_Lodge_Treatment_Room-Credit_Asaya_Spa_Rosewood_Hong_Kong-2.jpg
+  width: 2400
+  height: 1600
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-18
-  origin: commons
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: level-7-bath
+  title: rwhkg-asaya-level-7-double-treatment-room-wet-room-1-1634566355.jpg
+  author: Rosewood Hong Kong (via Harper's Bazaar)
+  license: All rights reserved (personal use)
+  source_url: https://www.harpersbazaar.com/culture/travel-dining/g37983934/hotel-spas/
+  original_url: https://hips.hearstapps.com/hmg-prod/images/rwhkg-asaya-level-7-double-treatment-room-wet-room-1-1634566355.jpg
+  width: 1772
+  height: 1342
+  widths:
+    - 640
+    - 1280
+    - 1772
+  fetched: 2026-11-25
+  origin: web
+- file: double-treatment
+  title: RWHKG_3-0_Brand-com_Assets_Facilities_Wellness_Asaya_Double-Treatment-Room-5
+  author: Rosewood Hong Kong
+  license: All rights reserved (personal use)
+  source_url: https://www.rosewoodhotels.com/en/hong-kong/wellness/spa
+  original_url: https://picasso.rosewoodhotelgroup.com/transform/d280507f-454b-49f5-8bcc-7923de06ba7c/RWHKG_3-0_Brand-com_Assets_Facilities_Wellness_Asaya_Double-Treatment-Room-5
+  width: 2000
+  height: 1334
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web

@@ -63,6 +63,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: rest-hall
+    caption: The hanok-style rest hall, with sleeping cubbies under the gallery
     hook: Sweat in a hot room, cool down in an ice room, then doze off in the sleeping hall while it is −5 °C outside.
   - type: quick_facts
     time_needed: 3–5 h, or overnight
@@ -96,6 +98,14 @@ blocks:
       Pay at the counter, or scan a voucher at the kiosk and hand the printed slip to the staff. You get a **locker key** and a set of **jjimjilbang clothes**, plus a towel. Baths and showers are separate for men and women. The heated rooms, food court and sleeping hall are shared, and there you wear the clothes you were given.
 
       From 1 December 2026, tickets are sold as **day (05:00–19:00)** or **night (19:00–05:00)**; before that the switch was at 20:00. Creatrip says that if you buy a day pass and visit during night hours, you pay an additional fee on site. Once you leave you can't come back in.
+  - type: gallery
+    images:
+      - file: entrance
+        caption: The lift lobby on B3 of Goodmorning City, the way in
+      - file: kiln-saunas
+        caption: Stone kiln saunas in the shared area
+      - file: bath
+        caption: A hot pool in the baths
   - type: quote
     variant: vibe
     text: Borrowed pyjamas, a roasted egg, a slushy rice drink, and a sleeping hall full of strangers at 2 a.m.

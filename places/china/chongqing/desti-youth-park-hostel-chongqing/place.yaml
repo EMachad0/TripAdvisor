@@ -90,6 +90,8 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
+    image: bar
+    caption: "The hostel's bar: brick walls, beer taps and a long wooden counter"
     hook: "The practical pick for a work week: a common floor with coffee and craft beer, kept apart from the dorms."
   - type: quick_facts
     extra:
@@ -163,6 +165,14 @@ blocks:
       **Working by day.** This is the stronger of the two Chongqing hostels for it. Hostelworld's facility list includes a coworking space, and the hostel describes high-speed wifi across the building and a large 4th-floor common area with a coffee bar. A 2025 guest wrote that the place is quiet during the day. Still, no Hostelworld review mentions wifi, a laptop or working here, and Booking.com guests score the wifi 8.5 out of 10.
 
       **The 01:00 call on Tue 29 Dec** needs a question before you book. There is no private room. Reception closes at 01:00, Trip.com lists quiet hours from 23:00 to 08:00, and one May 2025 guest found the front door locked at 00:30. The common area is on its own floor, away from the dorms, and the hostel lists a private screening room, but no source says either is open after 01:00. Ask the hostel in writing whether you can use one of them for a call at that hour. If the answer is no or vague, book one night in a private room: Merica Hotel had one on 28 Dec for ¥107 (R$88) prepaid, or ¥130 to pay later.
+  - type: gallery
+    images:
+      - file: dorm
+        caption: "A dorm: wooden pod bunks with curtains and their own lights"
+      - file: lounge-cat
+        caption: "The house cat in the lounge, decorated for the New Year"
+      - file: house-beers
+        caption: "The hostel's own-label beers at the bar"
   - type: book_ahead
     steps:
       - { days_before: 14, text: "Book 26 Dec – 2 Jan as one stay. On 10 Nov the male 6-bed dorm was **¥443 (R$366)** for the seven nights on Hostelworld and **¥435 (R$360)** on Booking.com, both with a 30% promotion." }

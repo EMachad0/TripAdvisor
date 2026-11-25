@@ -72,6 +72,9 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
+    image: counter
+    caption: "The pale-wood counter and shoji-screened private rooms under bare concrete"
+    focus: "70% 50%"
     hook: "Red rice for the tuna, white rice for the bream. Two cities' sushi traditions on one counter."
   - type: quick_facts
     time_needed: 2 h seating
@@ -90,6 +93,12 @@ blocks:
         text: "8–10 counter seats and two small semi-private rooms. The site asks for **smart casual**, so pack one neat outfit for this night."
       - title: What locals say
         text: "Only **3.43 on Tabelog** from 121 reviews, so locals rate it as good value rather than a destination. Michelin is the stronger signal here."
+  - type: gallery
+    feature: false
+    images:
+      - { file: starters, caption: "The opening tray of small appetisers" }
+      - { file: shrimp-nigiri, caption: "Kuruma-ebi nigiri on the counter" }
+      - { file: uni, caption: "Sea urchin and salmon roe over rice" }
   - type: book_ahead
     steps:
       - days_before: 3

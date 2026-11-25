@@ -64,8 +64,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: roast-duck
-    caption: "Peking duck at a Siji Minfu branch (the photographer doesn't say which one)"
+    image: duck-gugong
+    caption: "Sliced Peking duck at the Forbidden City (Gugong) branch"
     hook: "Lacquered skin, thin pancakes, and the palace walls a short walk up the street."
   - type: quick_facts
     time_needed: "1–1.5 h, plus the queue"
@@ -92,6 +92,8 @@ blocks:
       The queue can be serious. In Golden Week 2025, Times Weekly reported that this branch had **closed online queuing**, so people took numbers inside the shop. At 12:40 on 7 October, 165 small tables (1–2 people) were waiting, and one visitor queued for three hours. That was China's busiest holiday; mid-December should be calmer, but I found no report from that time of year. On a normal day a 2026 reviewer at another branch took a queue number by WeChat on arrival and went shopping until the alert came.
   - type: gallery
     images:
+      - { file: lantern-dining-room, caption: "The upstairs dining room under paper lanterns, the palace's red wall through the window" }
+      - { file: queue-outside, caption: "The queue on stools outside the door before opening" }
       - { file: duck-condiments, caption: "The sides: pancakes, scallion, cucumber and sauce" }
       - { file: zhajiang-noodles, caption: "Siji Minfu's zhajiang noodles" }
   - type: cost_breakdown

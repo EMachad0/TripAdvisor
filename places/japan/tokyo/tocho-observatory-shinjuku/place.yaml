@@ -58,8 +58,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: night-view
-    focus: center
+    image: dusk-towers
+    caption: "Dusk from the observatory: the Park Hyatt towers and the city running west"
     hook: "Tokyo's lights run to the horizon in every direction, 202 metres up, and you pay nothing to see them."
   - type: quick_facts
     time_needed: 1–1.5 h (plus the queue)

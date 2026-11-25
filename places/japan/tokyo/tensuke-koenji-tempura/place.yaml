@@ -69,8 +69,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: koenji-station-area
-    caption: "Koenji, near the station; no free photo of Tensuke itself"
+    image: egg-tendon
+    caption: "The egg tempura bowl at Tensuke, yolk running into the rice"
     hook: "Twelve stools, a line on the pavement, and an egg in batter that breaks open over your rice."
   - type: quick_facts
     time_needed: "1 h (plus the queue)"
@@ -88,6 +88,10 @@ blocks:
         text: "All **12 seats** face the fryer. There are no tables, so you won't be taking up a table for four."
       - title: Koenji around it
         text: "The shop is a short walk from Koenji's North Exit. Eat at noon and the afternoon is yours."
+  - type: gallery
+    images:
+      - { file: chef-egg, caption: "The chef at the fryer, egg in hand: part of the show" }
+      - { file: tempura-bowl, caption: "A tempura bowl at the counter" }
   - type: menu
     items:
       - name: Egg lunch

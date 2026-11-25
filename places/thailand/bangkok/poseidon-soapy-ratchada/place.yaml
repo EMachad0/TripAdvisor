@@ -64,13 +64,13 @@ sources:
     title: "Bangkok: climate table (Wikipedia)"
     checked: 2026-11-16
 confidence: medium
-confidence_note: "Hours and rooms from the official site, which shows no prices. Prices are the venue's SwanPass list (adult directory), not the site; ask at the desk. Reviews are mixed (3.7 on Google and SwanPass): Nov 2026 and Jun 2026 call it dated or rushed. The ground-floor fishbowl closure is from one May 2026 review. Tip range is general, not Poseidon's. No photo of the building."
+confidence_note: "Hours and rooms from the official site, which shows no prices. Prices are the venue's SwanPass list (adult directory), not the site; ask at the desk. Reviews are mixed (3.7 on Google and SwanPass): Nov 2026 and Jun 2026 call it dated or rushed. The ground-floor fishbowl closure is from one May 2026 review. Tip range is general, not Poseidon's."
 last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: ratchada-sutthisan
-    caption: "Ratchadaphisek Road at Sutthisan, a short walk south; no free photo of Poseidon"
+    image: facade
+    caption: "Poseidon's red facade on Ratchadaphisek Road, with the sea-god statue over the entrance"
     hook: "A piano trio in the lobby, an Egyptian or Victorian suite upstairs, and a deep tub of warm foam."
   - type: quick_facts
     time_needed: "90 min session"
@@ -89,6 +89,12 @@ blocks:
         text: "On the 3rd floor a hotel-style lobby with **live piano, double bass and violin** (official site) is where you meet the women and pick (from 15:00, per the FAQ). A May 2026 visitor says the old ground-floor fishbowl is closed; staff now bring a few women to your sofa."
       - title: Posted tiers, card OK
         text: "SwanPass lists 11 prices for 90 min, from **฿2,900** (women numbered 300–399) to **฿8,800**, and says cards are accepted. The May 2026 visitor was offered women at ฿4,000."
+  - type: gallery
+    images:
+      - file: palace-suite
+        caption: "The Palace, one of the themed suites (venue photo)"
+      - file: lobby
+        caption: "A lounge with round sofas inside (venue photo)"
   - type: prose
     title: How it differs from nuru and from Psyche Dream Spa
     dropcap: true

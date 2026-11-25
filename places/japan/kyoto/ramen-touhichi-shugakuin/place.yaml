@@ -74,8 +74,8 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: shugakuin-station
-    caption: "Shugakuin Station on the Eizan line, about 100 m from the shop (no free photo of it)"
+    image: tori-shoyu-bowl
+    caption: "Touhichi's chicken shoyu ramen: clear golden soup, pink chashu, menma"
     hook: A bowl of clear golden chicken soup worth a ride out of central Kyoto.
   - type: quick_facts
     time_needed: 1 h incl. the train
@@ -100,6 +100,10 @@ blocks:
       Touhichi moved to Shugakuin, in Kyoto's northern Sakyō ward, in April 2022. It sits a few steps from Shugakuin Station on the little Eizan Railway, which starts at Demachiyanagi.
 
       There's no dining room to dress for: eight counter seats, a few tables, and cash in your pocket.
+  - type: gallery
+    images:
+      - { file: counter-room, caption: "The counter around the open kitchen" }
+      - { file: shopfront, caption: "The shop front near Shugakuin Station" }
   - type: menu
     title: The bowls (from recent reviews)
     items:

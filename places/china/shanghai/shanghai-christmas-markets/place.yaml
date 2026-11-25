@@ -66,8 +66,8 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
-    image: yuanmingyuan-road
-    caption: Yuanmingyuan Road, home of the Bund market. No free photo of the market exists
+    image: bund-market-aerial
+    caption: "The Christkindlmarkt on the Bund from above, Pudong lit up behind it (2023)"
     hook: Brick 1920s lanes behind the Bund, filled with wooden huts, sausages and mulled wine.
   - type: quick_facts
     time_needed: "3–4 h, afternoon to evening"
@@ -103,13 +103,14 @@ blocks:
       Then go back to the hostel. A shared Christmas with dorm-mates from half a dozen countries is a backpacker classic. **Ask at check-in** whether they're doing a dinner, a party or a pub crawl. None are confirmed for 2026.
   - type: gallery
     images:
+      - file: union-church-stalls
+        caption: "Crowds between the huts, the old Union Church and a Christmas pyramid behind (2023)"
+      - file: market-tree
+        caption: "The big tree among the stalls at the Bund market"
       - file: rockbund-apartments
         caption: The Rockbund's restored 1920s apartment blocks frame the market streets
-      - file: metro-christmas-tree
-        caption: A Christmas tree in the People's Square metro concourse (2015)
-      - file: arcade-christmas-tree
-        caption: Christmas trees appear in Shanghai's malls and arcades from late November
-        focus: bottom
+      - file: yuanmingyuan-road
+        caption: "Yuanmingyuan Road, where the Bund market sets up"
   - type: quote
     variant: vibe
     text: Cinnamon steam, fairy lights on red brick, and the Bund glowing two minutes away.

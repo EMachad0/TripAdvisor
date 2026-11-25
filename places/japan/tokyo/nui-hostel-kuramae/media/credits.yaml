@@ -1,17 +1,56 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: kuramae-bridge
-  title: File:Kuramae Bridge 20050520.jpg
-  author: Smanabu
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source_url: https://commons.wikimedia.org/wiki/File:Kuramae_Bridge_20050520.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/9/9a/Kuramae_Bridge_20050520.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: "*撮影日：2005年5月20日 撮影場所： ja:蔵前橋 の付近から撮影 撮影者：投稿者と同じ（Smanabu）"
-  width: 2816
-  height: 2112
+- file: bar-lounge
+  title: image.jpg
+  author: Time Out Tokyo
+  license: All rights reserved (personal use)
+  source_url: https://www.timeout.com/tokyo/hotels/nui-hostel-bar-lounge
+  original_url: https://media.timeout.com/images/102845612/image.jpg
+  width: 3000
+  height: 2000
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-12
-  origin: commons
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: facade-dusk
+  title: Nui.-Hostel-&-Bar-Lounge_2018_11.jpg
+  author: Condé Nast Traveler
+  license: All rights reserved (personal use)
+  source_url: https://www.cntraveler.com/hotels/tokyo/nui-hostel-and-bar-lounge
+  original_url: https://media.cntraveler.com/photos/5a9330dba876ae5cfa61c87d/16:9/w_2560,c_limit/Nui.-Hostel-&-Bar-Lounge_2018_11.jpg
+  width: 2560
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: f800aa8a7c41f2dcbafc1cc4715f72d4.jpg
+  author: Agoda
+  license: All rights reserved (personal use)
+  source_url: https://www.agoda.com/nui-hostel-bar-lounge/hotel/tokyo-jp.html
+  original_url: https://pix10.agoda.net/hotelImages/398868/-1/f800aa8a7c41f2dcbafc1cc4715f72d4.jpg?ca=13&ce=1&s=1600x1200
+  width: 1600
+  height: 1066
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: lounge-evening
+  title: topLounge01.jpg
+  author: Nui. Hostel
+  license: All rights reserved (personal use)
+  source_url: https://backpackersjapan.co.jp/nuihostel/story
+  original_url: https://backpackersjapan.co.jp/nuihostel/wp/wp-content/themes/Nui2019/images/top/topLounge01.jpg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

@@ -85,9 +85,8 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
-    image: spiral-staircase
-    focus: "50% 45%"
-    caption: The spiral staircase under the mirrored ceiling
+    image: book-towers
+    caption: Arches and towers of shelves rising to the mirrored ceiling
     hook: A spiral staircase of books climbing into a mirrored ceiling, so the shelves seem to go up forever.
   - type: quick_facts
     time_needed: 1–1.5 h inside
@@ -118,6 +117,12 @@ blocks:
       - file: mirrored-aisle
         caption: Curved shelves and a polished black floor double everything
         focus: center
+      - file: spiral-staircase
+        caption: The spiral staircase under the mirrored ceiling
+      - file: arched-stairs
+        caption: Arched doorways and an iron-railed staircase between book towers
+      - file: reading-corner
+        caption: A small reading table tucked under the curving shelves
   - type: cost_breakdown
     items:
       - { label: Entry, local: 0, brl: 0 }

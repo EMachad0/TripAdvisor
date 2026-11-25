@@ -67,8 +67,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: samcheong-dong-street
-    caption: "Samcheong-dong, a few minutes' walk away; no free photo of the shop itself"
+    image: noodle-lift
+    caption: "Hand-cut noodles in beef-bone broth, with mandu and kimchi on the side"
     hook: A clean beef-bone broth, soft hand-cut noodles and giant dumplings pleated at the entrance while you wait.
   - type: quick_facts
     time_needed: 45 min–1.5 h with the queue
@@ -94,8 +94,8 @@ blocks:
       Michelin keeps it on the Seoul Bib Gourmand list for value and calls it a beloved noodle and dumpling specialist with long queues throughout the day. Its own advice is to come outside peak hours.
   - type: gallery
     images:
-      - { file: kalguksu-bowl, caption: "A bowl of kalguksu (not at Hwangsaengga)" }
-      - { file: hanok-rooftops, caption: "Bukchon hanok roofs, the neighbourhood around the shop" }
+      - { file: kalguksu-bowl-frieze, caption: "Hwangsaengga's kalguksu with egg and courgette" }
+      - { file: dining-room, caption: "The wood-panelled dining room" }
   - type: quote
     variant: vibe
     text: Fogged windows, a queue in puffer jackets, and a bowl too hot to rush.

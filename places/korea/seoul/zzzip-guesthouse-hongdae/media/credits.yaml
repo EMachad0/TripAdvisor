@@ -1,17 +1,56 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: hapjeong-sign
-  title: File:Hapjeong Station 20201009 001.jpg
-  author: Mobius6
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Hapjeong_Station_20201009_001.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Hapjeong_Station_20201009_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Hapjeong Station, Seoul, South Korea
-  width: 2742
-  height: 1832
+- file: common-room-night
+  title: zyoqlsigjwahqv9ok3ye.jpg
+  author: Zzzip Guesthouse (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Zzzip-Guesthouse-in-Hongdae/Seoul/83226
+  original_url: https://a.hwstatic.com/propertyimages/8/83226/zyoqlsigjwahqv9ok3ye.jpg
+  width: 4032
+  height: 3024
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-15
-  origin: commons
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: lounge
+  title: s9t2avbypzzuzs0lbg6z.jpg
+  author: Zzzip Guesthouse (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Zzzip-Guesthouse-in-Hongdae/Seoul/83226
+  original_url: https://a.hwstatic.com/propertyimages/8/83226/s9t2avbypzzuzs0lbg6z.jpg
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: 100.JPG
+  author: Zzzip Guesthouse (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Zzzip-Guesthouse-in-Hongdae/Seoul/83226
+  original_url: https://a.hwstatic.com/propertyimages/8/83226/100.JPG
+  width: 800
+  height: 533
+  widths:
+    - 640
+    - 800
+  fetched: 2026-11-25
+  origin: web
+- file: terrace
+  title: mlsdlwrtbf2wjkbwo1l3.jpg
+  author: Zzzip Guesthouse (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Zzzip-Guesthouse-in-Hongdae/Seoul/83226
+  original_url: https://a.hwstatic.com/propertyimages/8/83226/mlsdlwrtbf2wjkbwo1l3.jpg
+  width: 3024
+  height: 4032
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

@@ -24,7 +24,7 @@ Made AFK by the orchestrator while building the curator platform. Change them if
 
 ## Media
 - Wikimedia Commons first (API search + exact file). Author, license, license URL and source URL captured automatically into `media/credits.yaml`. Images resized to WebP at several widths for `srcset`.
-- Non-free images are rejected by the fetcher.
+- Non-free images are rejected by the Commons fetcher. **Superseded 2026-11-25:** photos no longer need a free licence (see "Photos from the web" at the end).
 
 ## Rendering
 - Pure function `renderPlacePage(place) → HTML` in `platform/lib/`, so the game can reuse it. Fonts bundled locally (no CDN needed at view time). Light/dark via `prefers-color-scheme` plus a toggle.
@@ -221,3 +221,10 @@ Small refinements and deviations, each with the reason:
 - **Phone tab bar:** 8 tabs don't fit (labels cut at 390 px). Hid My calls from the phone bar (it has its own link on Home, and Home is lit while it is open). The Route tab stays, since it is what the traveler asked for.
 - **Touch targets:** 44 px on coarse pointers for the stepper, move/remove buttons, add chips, the "Whole trip" button and the Show skipped toggle; every pin has an invisible 22 px-radius hit circle, and labels are tappable too.
 - **Not done:** drag to reorder, pinch/pan, adding a city with no area file from the game.
+
+## Photos from the web (2026-11-25)
+- **Why.** With Commons as the only source, 39 of 289 cards had no photo and 99 more opened with a stand-in (the street, the station, the building next door), because Commons has almost nothing for small restaurants, hostels and bars. The traveler decided: the site is personal, so copyright is not a constraint; a card must show the real place.
+- **Rule.** Every card opens with a photo of the place itself. Sources in order: the venue's own pages, web image search, Commons. Stand-in and typographic heroes are last resorts and `./atr validate` warns about both. The rule lives in "Photos" in the curator guide; the reviewer treats a missing or stand-in hero as a `should`.
+- **Tools.** `media web` (Bing Images, loaded in Chrome with its own User-Agent: plain HTTP requests and an overridden User-Agent get an empty or decoy page), `media scout <page>` (the images a page shows, at their largest `srcset` size) and `media grab <place> <image-url> --from <page-url>`. Credits get `license: All rights reserved (personal use)`, `origin: web`, the page as `source_url` and the host or `--credit` as author. Code in `platform/lib/media/web.js`.
+- **Sizes.** `grab` refuses under 1000 px. A hero between 1200 and 1599 px is now an `info`, not a warning: a real photo of a small venue beats a sharp photo of something else.
+- **If the site ever goes public,** the `origin: web` photos have to go first: `grep -l "origin: web" places/*/*/*/media/credits.yaml`.

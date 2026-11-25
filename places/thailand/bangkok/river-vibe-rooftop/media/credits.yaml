@@ -1,33 +1,43 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: talat-noi-sunset
-  title: File:Sunset View of Chao Phraya River from Talat Noi, Bangkok, Thailand.jpg
-  author: Linh Anh Moreau
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Sunset_View_of_Chao_Phraya_River_from_Talat_Noi,_Bangkok,_Thailand.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/6/65/Sunset_View_of_Chao_Phraya_River_from_Talat_Noi%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Sunset view of the Chao Phraya River in Bangkok, taken from a high-rise in Talat Noi Sub-district, Samphanthawong District.
-  width: 4032
-  height: 3024
+- file: terrace-sunset
+  title: 1663143454_d0096ec6c83575373e3a21d129ff8fef.jpg
+  author: Ryoii Review
+  license: All rights reserved (personal use)
+  source_url: https://www.ryoiireview.com/restaurant/view/3610
+  original_url: https://www.ryoiireview.com/upload/article/202209/1663143454_d0096ec6c83575373e3a21d129ff8fef.jpg
+  width: 2048
+  height: 1536
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
-- file: talat-noi-day
-  title: File:View of Chao Phraya River from Talat Noi, Bangkok, Thailand.jpg
-  author: Linh Anh Moreau
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:View_of_Chao_Phraya_River_from_Talat_Noi,_Bangkok,_Thailand.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/6/61/View_of_Chao_Phraya_River_from_Talat_Noi%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Day time view of the Chao Phraya River in Bangkok, taken from a high-rise in Talat Noi Sub-district, Samphanthawong District.
-  width: 4032
-  height: 3024
+  fetched: 2026-11-25
+  origin: web
+- file: bar-room
+  title: River-Vibe-Bar-Restaurant-pic-4.jpg
+  author: The Beat Asia
+  license: All rights reserved (personal use)
+  source_url: https://thebeat.asia/bangkok/nomads/neighborhood-guide/bangkok-riverside/drink/river-vibe-bar-restaurant
+  original_url: https://d1ef7ke0x2i9g8.cloudfront.net/global/River-Vibe-Bar-Restaurant-pic-4.jpg
+  width: 2560
+  height: 1707
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: sign-night
+  title: river-vibe-rooftop-bar.jpg
+  author: Upplevelsebloggen
+  license: All rights reserved (personal use)
+  source_url: https://www.upplevelsebloggen.se/2019/11/tre-harliga-takbarer-i-bangkok/
+  original_url: https://www.upplevelsebloggen.se/wp-content/uploads/2019/11/river-vibe-rooftop-bar.jpg
+  width: 1402
+  height: 935
+  widths:
+    - 640
+    - 1280
+    - 1402
+  fetched: 2026-11-25
+  origin: web

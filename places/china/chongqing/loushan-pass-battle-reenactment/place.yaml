@@ -118,9 +118,9 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: battle-relief
+    image: battle-smoke
     hook: "A 1935 Long March battle replayed on the real hillside: blasts, smoke and a crowd of locals charging in uniform."
-    caption: "Memorial relief at the 1935 battle site. No free photo of the show itself"
+    caption: "The reenactment on the hillside: smoke, red flags and the cast charging the pass, 2017"
   - type: quick_facts
     time_needed: "Day trip, about 09:30–18:00"
     best_time: "13:30 run, weekend, mid-December"
@@ -149,7 +149,7 @@ blocks:
     feature: false
     images:
       - { file: pass-gate, caption: "The stone gate at Loushan Pass" }
-      - { file: battle-site-wall, caption: "Inscriptions at the Red Army battle site" }
+      - { file: cast-in-uniform, caption: "The cast in Red Army uniform before the battle scene" }
   - type: book_ahead
     steps:
       - { days_before: 2, text: "Check the **Trip.com** show page for your date, or call the ticket line (Ctrip link above). No ticket on sale means no show: pick another day." }

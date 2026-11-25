@@ -31,3 +31,35 @@
     - 2048
   fetched: 2026-11-10
   origin: commons
+- file: pit-1-hall
+  title: File:Terracotta Army - Pit 1 20240806 16.jpg
+  author: 沈澄心
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Terracotta_Army_-_Pit_1_20240806_16.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/be/Terracotta_Army_-_Pit_1_20240806_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Terracotta Army - Pit 1
+  width: 3904
+  height: 2928
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: pit-1-dig
+  title: File:Terracotta Army - Pit 1 20240806 06.jpg
+  author: 沈澄心
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Terracotta_Army_-_Pit_1_20240806_06.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/8f/Terracotta_Army_-_Pit_1_20240806_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Terracotta Army - Pit 1
+  width: 12032
+  height: 9024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

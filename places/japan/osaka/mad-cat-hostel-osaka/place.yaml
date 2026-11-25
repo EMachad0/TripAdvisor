@@ -66,8 +66,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: matsumushi-tram
-    caption: "A Hankai tram at Matsumushi, about a minute from the door. No free photo of the hostel exists"
+    image: lounge-cats
+    caption: "The lounge, with the hostel's two cats on the floor cushions"
     hook: "Welcome drink at the beach-style bar downstairs, two hostel cats, then out with whoever is at the counter."
   - type: quick_facts
     extra:
@@ -119,6 +119,11 @@ blocks:
         text: "**¥3,600** a dorm bed on Mon 4 and Tue 5 Jan, ¥4,500 on Sat 9 Jan, all with free cancellation on 11 Nov."
       - title: Lazy mornings
         text: "Check-out is at **12:00**, an hour later than most hostels, after a late night out."
+  - type: gallery
+    images:
+      - { file: bar, caption: "The ground-floor bar under its straw-thatch trim" }
+      - { file: frontage, caption: "The open frontage on the street, flags strung across the windows" }
+      - { file: dorm, caption: "A dorm with curtained wooden bunks" }
   - type: map
     note: "Hankai tram to Matsumushi (about 1 minute away), or the Midosuji Line to Showacho and walk about 7 minutes."
   - type: tips

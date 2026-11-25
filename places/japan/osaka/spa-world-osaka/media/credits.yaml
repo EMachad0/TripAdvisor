@@ -15,35 +15,59 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
-- file: tsutenkaku-view
-  title: File:View of Tsutenkaku Tower at night from Spa World Building.jpg
-  author: そらみみ
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:View_of_Tsutenkaku_Tower_at_night_from_Spa_World_Building.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/1/17/View_of_Tsutenkaku_Tower_at_night_from_Spa_World_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: スパワールドより望む通天閣
-  width: 4032
-  height: 3024
+- file: roman-bath
+  title: SpaWorld.jpg
+  author: Klook
+  license: All rights reserved (personal use)
+  source_url: https://www.klook.com/activity/3090-spa-world-osaka/
+  original_url: https://res.klook.com/images/fl_lossy.progressive,q_85/activities/yf6dobjpy4iyzvw9njso/SpaWorld.jpg
+  width: 2480
+  height: 1653
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-11
-  origin: commons
-- file: from-tsutenkaku
-  title: File:通天閣 - panoramio (34).jpg
-  author: kanesue
-  license: CC BY 3.0
-  license_url: https://creativecommons.org/licenses/by/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:%E9%80%9A%E5%A4%A9%E9%96%A3_-_panoramio_(34).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1d/%E9%80%9A%E5%A4%A9%E9%96%A3_-_panoramio_%2834%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: 通天閣
-  width: 3648
-  height: 2736
+  fetched: 2026-11-25
+  origin: web
+- file: islamic-bath
+  title: hlt6angckhcl69trqcws.jpg
+  author: Klook
+  license: All rights reserved (personal use)
+  source_url: https://www.klook.com/en-US/blog/spas-in-osaka/
+  original_url: https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_2000/v1782960558/hlt6angckhcl69trqcws.jpg
+  width: 2000
+  height: 1194
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-11
-  origin: commons
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: finnish-bath
+  title: 253490ab-2d8c-4587-a020-dcdfd2ea7c93-11705-osaka-spa-world-osaka-02.jpeg
+  author: Headout
+  license: All rights reserved (personal use)
+  source_url: https://www.osaka-tickets.com/ru/spa-world/
+  original_url: https://cdn-imgix.headout.com/tour/22216/TOUR-IMAGE/253490ab-2d8c-4587-a020-dcdfd2ea7c93-11705-osaka-spa-world-osaka-02.jpeg
+  width: 1598
+  height: 999
+  widths:
+    - 640
+    - 1280
+    - 1598
+  fetched: 2026-11-25
+  origin: web
+- file: open-air-bath
+  title: Figure-1-1.jpg
+  author: JAPAN Forward
+  license: All rights reserved (personal use)
+  source_url: https://featured.japan-forward.com/japan2earth/2025/03/9208/
+  original_url: https://featured.japan-forward.com/japan2earth/wp-content/uploads/sites/7/2025/03/Figure-1-1.jpg
+  width: 1704
+  height: 1142
+  widths:
+    - 640
+    - 1280
+    - 1704
+  fetched: 2026-11-25
+  origin: web

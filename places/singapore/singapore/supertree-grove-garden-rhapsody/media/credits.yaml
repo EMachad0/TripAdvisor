@@ -31,3 +31,35 @@
     - 1920
   fetched: 2026-11-13
   origin: commons
+- file: skyway-day
+  title: File:Singapore Supertree-Grove-in-The-Gardens-01.jpg
+  author: CEphoto, Uwe Aranas
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Singapore_Supertree-Grove-in-The-Gardens-01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/0e/Singapore_Supertree-Grove-in-The-Gardens-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Singapore: Supertree Grove in The Gardens by the Bay"
+  width: 5760
+  height: 3389
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: grove-from-above
+  title: File:Singapore Supertree-Grove-in-The-Gardens-02.jpg
+  author: CEphoto, Uwe Aranas
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Singapore_Supertree-Grove-in-The-Gardens-02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3b/Singapore_Supertree-Grove-in-The-Gardens-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: "Singapore: Supertree Grove in The Gardens by the Bay"
+  width: 4745
+  height: 3163
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

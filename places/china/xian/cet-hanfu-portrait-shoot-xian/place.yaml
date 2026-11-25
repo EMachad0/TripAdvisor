@@ -78,7 +78,7 @@ blocks:
   - type: hero
     image: xingqing-south-gate
     hook: "You get dressed, made up and posed by people who do this daily, in the park that was a Tang emperor's palace."
-    caption: "Xingqing Palace Park, one of the two shoot spots. Studio sample photos aren't free to show"
+    caption: "The south gate of Xingqing Palace Park, one of the two shoot spots"
   - type: quick_facts
     time_needed: About 5 h, make-up included
     best_time: "Start by 10:00 (UTC+8)"
@@ -109,6 +109,8 @@ blocks:
       **Men's samples:** see the men's sections of the [Tang collection](https://chinaexplorertour.com/tang-dynasty-photoshoot-collection/) ("The Scholar-Official"), the [other-dynasty collection](https://chinaexplorertour.com/other-dynasty-photoshoot-collection/) ("Male" tabs) and [solo men's portraits](https://chinaexplorertour.com/hanfu-photoshoot-experience-for-every-traveler/). **The honest gap:** these are real male clients, but the captions I could read say Beijing. The studio in Xi'an is not named. Before booking, ask for **three or four Xi'an men's sets** from the last few months. If they can't send them, don't book.
   - type: gallery
     images:
+      - { file: hanfu-bridge, caption: "A Tang-style hanfu portrait on a stone bridge, at a hanfu festival across the road from the park" }
+      - { file: hanfu-parasol, caption: "Another portrait from the same festival: the look a shoot like this goes for" }
       - { file: xingqing-aerial, caption: "Xingqing Palace Park from above: lakes and Tang-style halls in the middle of the city" }
       - { file: chenxiang-pavilion, caption: "Chenxiang Pavilion, the kind of backdrop the shoot uses (photo from June 2010)" }
   - type: book_ahead

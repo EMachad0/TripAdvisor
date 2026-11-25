@@ -16,7 +16,7 @@ lng: 116.3975
 getting_there: "From Shanghai: 4–4.5 h on the fastest trains to Beijing South, about ¥600 in 2nd class; a slow hard sleeper is about ¥300. Harbin is about 4.5 h on the fastest train from Beijing Chaoyang, ¥600–648."
 getting_around: "Subway: ¥3–10 a ride, about 05:15–22:45, and it reaches every big sight in the city. Buses from ¥2. The Great Wall needs a bus or coach out of town. Taxis can't enter the Gulou hutongs."
 winter_note: "Below freezing most of the time: average lows of −5 to −7 °C and highs of 2–4 °C in Dec–Jan, and nights can drop below −10 °C. It is dry and sunny, with snow on about 3 days a month. The Forbidden City runs winter hours (08:30–16:30, last entry 15:30, closed Mondays) at the low-season price. Lake skating depends on the ice: Houhai opened on 20 Jan in 2026, so check the 2026–27 date in December."
-image: forbidden-city-snow
+image: forbidden-city-snow-close
 sources:
   - url: https://en.wikipedia.org/wiki/Beijing
     title: Beijing — Wikipedia (coordinates, climate normals 1991–2020, UNESCO sites, hutongs)
@@ -68,7 +68,7 @@ blocks:
   - type: hero
     hook: Six centuries of palace roofs under snow, seen from the hill the emperors built behind it.
     caption: The Forbidden City after snow, January 2020
-    focus: "50% 75%"
+    focus: "50% 55%"
   - type: highlights
     title: What earns the days
     items:

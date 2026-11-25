@@ -1,36 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: shinsekai-night
-  title: File:Osaka Shinsekai yoru 02.jpg
-  author: Sakai Yayoi
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Osaka_Shinsekai_yoru_02.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/8/83/Osaka_Shinsekai_yoru_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Shinsekai at night, Osaka
-  width: 5707
-  height: 3805
-  widths:
-    - 640
-    - 1280
-    - 2048
-  fetched: 2026-11-11
-  origin: commons
-- file: kushikatsu-plate
-  title: File:Kushikatsu - Shinsekai (28289215848).jpg
-  author: Ajay Suresh from New York, NY, USA
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Kushikatsu_-_Shinsekai_(28289215848).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3f/Kushikatsu_-_Shinsekai_%2828289215848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: OLYMPUS DIGITAL CAMERA
-  width: 4368
-  height: 3276
-  widths:
-    - 640
-    - 1280
-    - 2048
-  fetched: 2026-11-11
-  origin: commons
 - file: side-street
   title: File:Shinsekai Tsutenkaku at night 2022-04-23.jpg
   author: Dick Thomas Johnson
@@ -47,3 +15,56 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
+- file: sohonten-rain
+  title: de7d5d07.jpg
+  author: 本店の旅 (1goten.jp)
+  license: All rights reserved (personal use)
+  source_url: https://1goten.jp/archives/52102757.html
+  original_url: https://1goten.jp/wp-content/uploads/imgs/d/e/de7d5d07.jpg
+  width: 1600
+  height: 1067
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: skewers-rack
+  title: P_20230121_124245_R.jpg
+  author: usuimayu.com
+  license: All rights reserved (personal use)
+  source_url: https://usuimayu.com/kushikatu-daruma/
+  original_url: https://usuimayu.com/wp-content/uploads/2023/01/P_20230121_124245_R.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: chef-statue
+  title: P_20230121_121306cp_R.jpg
+  author: usuimayu.com
+  license: All rights reserved (personal use)
+  source_url: https://usuimayu.com/kushikatu-daruma/
+  original_url: https://usuimayu.com/wp-content/uploads/2023/01/P_20230121_121306cp_R.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: doteyaki
+  title: P_20230121_123846_R.jpg
+  author: usuimayu.com
+  license: All rights reserved (personal use)
+  source_url: https://usuimayu.com/kushikatu-daruma/
+  original_url: https://usuimayu.com/wp-content/uploads/2023/01/P_20230121_123846_R.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

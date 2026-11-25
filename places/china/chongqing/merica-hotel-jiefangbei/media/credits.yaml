@@ -1,0 +1,40 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: room-night-view
+  title: 131927a1.jpg
+  author: Expedia
+  license: All rights reserved (personal use)
+  source_url: https://www.expedia.com/Chongqing-Hotels-Merica-Hotel-Chongqing-Jiefangbei.h113433481.Hotel-Information
+  original_url: https://images.trvl-media.com/lodging/114000000/113440000/113433500/113433481/131927a1.jpg
+  width: 1280
+  height: 853
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: twin-room
+  title: 4ce30253.jpg
+  author: Expedia
+  license: All rights reserved (personal use)
+  source_url: https://www.expedia.com/Chongqing-Hotels-Merica-Hotel-Chongqing-Jiefangbei.h113433481.Hotel-Information
+  original_url: https://images.trvl-media.com/lodging/114000000/113440000/113433500/113433481/4ce30253.jpg
+  width: 1280
+  height: 815
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: room-entry
+  title: maxresdefault.jpg
+  author: YouTube hotel review
+  license: All rights reserved (personal use)
+  source_url: https://www.youtube.com/watch?v=T8SLCyVNPiU
+  original_url: https://i.ytimg.com/vi/T8SLCyVNPiU/maxresdefault.jpg
+  width: 1280
+  height: 720
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

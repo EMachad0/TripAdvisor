@@ -56,13 +56,13 @@ sources:
     title: Osaka — Wikipedia (climate table)
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Hours, closing days, address and walking times are from the official access page. Prices are from two 2025 reviews (Genten and macro with thick pork, ¥1,199 each); Japan Voyage (undated) lists ¥980–1,050, so prices change. Ordering by QR code on LINE is from a Jun 2025 review and cash-only from an Oct 2025 review. No free photo of the shop or its bowl was found."
+confidence_note: "Hours, closing days, address and walking times are from the official access page. Prices are from two 2025 reviews (Genten and macro with thick pork, ¥1,199 each); Japan Voyage (undated) lists ¥980–1,050, so prices change. Ordering by QR code on LINE is from a Jun 2025 review and cash-only from an Oct 2025 review."
 last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: minamigata-station
-    caption: "Nishinakajima-Minamigata station, steps from the shop. No free photo of the shop itself"
+    image: genten-bowl
+    caption: "Ramen Genten: soy broth, thick-cut pork and finger-thick menma (the shop's photo)"
     hook: A ramen shop named "Humanity Is All Noodles", and a queue that proves the point.
   - type: quick_facts
     time_needed: 1–1.5 h incl. queue
@@ -85,6 +85,12 @@ blocks:
       Matsumura opened the original shop in Nishinakajima in 2012, and it has been near the top of Osaka's ramen rankings since. The name roughly means "all humanity is noodle-kind": the shop doesn't take itself seriously, but the ramen is taken very seriously. Branches have opened since, but this one is the shop people travel for.
 
       Come here first: it's the one Osaka ramen worth queueing for on this list. Have the cheap Takaida-style bowl at Menya Jouroku another day.
+  - type: gallery
+    feature: false
+    images:
+      - { file: thick-pork, caption: "The thick-cut pork lifted from a Genten bowl at the Minamigata shop, 2024" }
+      - { file: counter, caption: "Wooden counter and open kitchen (the chain's own photo)" }
+      - { file: noren, caption: "Hanging the noren at opening time (the chain's own photo)" }
   - type: quote
     variant: vibe
     text: A queue on a quiet office street, and a slab of pork that covers half the bowl.

@@ -15,3 +15,44 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
+- file: cabinet-rows
+  title: DSC_2216.jpg
+  author: Parent Galactique
+  license: All rights reserved (personal use)
+  source_url: https://www.parentgalactique.fr/2017/07/mikado-takadanobaba-salle-darcade-vintage/
+  original_url: https://i0.wp.com/www.parentgalactique.fr/wp-content/uploads/2017/07/DSC_2216.jpg?ssl=1
+  width: 2000
+  height: 1125
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: player
+  title: DSC_2421-e1498985303454.jpg
+  author: Parent Galactique
+  license: All rights reserved (personal use)
+  source_url: https://www.parentgalactique.fr/2017/07/mikado-takadanobaba-salle-darcade-vintage/
+  original_url: https://i0.wp.com/www.parentgalactique.fr/wp-content/uploads/2017/07/DSC_2421-e1498985303454.jpg?ssl=1
+  width: 1585
+  height: 1125
+  widths:
+    - 640
+    - 1280
+    - 1585
+  fetched: 2026-11-25
+  origin: web
+- file: cabinets-2018
+  title: Cabinets.jpg
+  author: IGN
+  license: All rights reserved (personal use)
+  source_url: https://www.ign.com/articles/2018/12/30/inside-game-center-mikado-one-of-the-best-arcades-in-japan
+  original_url: https://oyster.ignimgs.com/wordpress/stg.ign.com/2018/12/Cabinets.jpg
+  width: 1280
+  height: 720
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

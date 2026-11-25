@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: sushi-queue
-  title: File:Rear Palace Sushi - 2017-02-25 (001).jpg
-  author: Iudexvivorum
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Rear_Palace_Sushi_-_2017-02-25_(001).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7c/Rear_Palace_Sushi_-_2017-02-25_%28001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: A popular sushi shop at Wang Lang (วังหลัง; "Rear Palace"), Bangkok , Thailand .
-  width: 4032
-  height: 3024
-  widths:
-    - 640
-    - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
 - file: street-stalls
   title: File:Street food at Wang Lung.jpg
   author: Sry85
@@ -79,3 +63,16 @@
     - 1920
   fetched: 2026-11-12
   origin: commons
+- file: market-lane
+  title: Wang-Lang-Market-2.jpg
+  author: Live Enhanced
+  license: All rights reserved (personal use)
+  source_url: https://www.liveenhanced.com/places-for-shopping-and-street-food-in-bangkok/
+  original_url: https://www.liveenhanced.com/wp-content/uploads/2020/05/Wang-Lang-Market-2.jpg
+  width: 1280
+  height: 853
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

@@ -63,8 +63,8 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: shibuya-stream-atrium
-    caption: "Inside Shibuya Stream, home of the restaurant (3F). No free photo of the counter"
+    image: uni-toro-ikura
+    caption: "Uni, toro and an ikura cup on slate at the Shibuya counter"
     hook: "Omakase without the hush: sushi and sake for one fixed price, upstairs from Shibuya Station."
   - type: quick_facts
     time_needed: About 2 h
@@ -83,6 +83,10 @@ blocks:
         text: "**TableCheck in English**, party of one at the counter, card on file. Prices shown already include tax."
       - title: What locals say
         text: "**3.57 on Tabelog** from about 400 reviews. Not a Michelin or Tabelog award winner: it's here for value and ease, not prestige."
+  - type: gallery
+    images:
+      - { file: entrance, caption: "The noren entrance on Shibuya Stream 3F" }
+      - { file: nigiri-board, caption: "A board of the course's nigiri" }
   - type: book_ahead
     steps:
       - days_before: 3

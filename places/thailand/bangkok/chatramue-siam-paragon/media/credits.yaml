@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: mega-bangna-counter
-  title: File:Cha Tra Mue at Mega Bangna.jpg
-  author: Sry85
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Cha_Tra_Mue_at_Mega_Bangna.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/4/40/Cha_Tra_Mue_at_Mega_Bangna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Cha Tra Mue at Mega Bangna
-  width: 3968
-  height: 2976
-  widths:
-    - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-24
-  origin: commons
 - file: qr-pay-counter
   title: File:Pay with QR code at ChaTraMue, One Bangkok (2026).jpg
   author: Chainwit
@@ -31,3 +15,45 @@
     - 1920
   fetched: 2026-11-24
   origin: commons
+- file: paragon-counter
+  title: cca1d2940516484cb1aa276ad3f10907.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/073db0007fa643719fef9e4845403753
+  original_url: https://img.wongnai.com/p/1920x0/2022/09/06/cca1d2940516484cb1aa276ad3f10907.jpg
+  width: 1885
+  height: 869
+  widths:
+    - 640
+    - 1280
+    - 1885
+  fetched: 2026-11-25
+  origin: web
+- file: paragon-queue
+  title: 0f6429f15099439eb6942e8b379abba0.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/81ce1ef80c94421ea2c34b3ab9d2f774
+  original_url: https://img.wongnai.com/p/1920x0/2024/08/25/0f6429f15099439eb6942e8b379abba0.jpg
+  width: 1920
+  height: 1080
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: thai-tea-pearls
+  title: 1c0bbcc29fb6477a86f41ba5206e534e.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/05d19e6816604d138b02ab41437bd608
+  original_url: https://img.wongnai.com/p/1920x0/2017/12/27/1c0bbcc29fb6477a86f41ba5206e534e.jpg
+  width: 1477
+  height: 1108
+  widths:
+    - 640
+    - 1280
+    - 1477
+  fetched: 2026-11-25
+  origin: web

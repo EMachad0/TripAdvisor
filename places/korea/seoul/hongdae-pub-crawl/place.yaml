@@ -74,8 +74,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: hongdae-night-crossing
-    caption: "Hongdae at night. No free photo of the crawl itself exists"
+    image: crawl-street
+    caption: "A Seoul Pub Crawl group spilling into a Hongdae street between bars"
     hook: "Wristband on, a shot in every bar, and by the time you reach the club you are out with a crew."
   - type: quick_facts
     time_needed: "4–5 h"
@@ -102,11 +102,12 @@ blocks:
       Sunday 10 Jan, your arrival day, has no crawl (they only run Fridays and Saturdays). If the Hwacheon ice festival also lands on Sat 16 Jan, take a mid-afternoon bus back: the Hwacheon page has the bus times, and check-in closes at 21:40.
   - type: gallery
     images:
-      - file: hongdae-night-street
-        caption: "Hongdae's main road after dark"
-      - file: hongdae-alley
-        caption: "A side street off the main drag"
-        focus: "50% 60%"
+      - file: crawl-bar
+        caption: "A packed bar stop on the Hongdae crawl"
+      - file: crawl-club
+        caption: "The club at the end of the night"
+      - file: crawl-queue
+        caption: "Crawlers queuing outside a Hongdae bar (June 2023)"
   - type: book_ahead
     steps:
       - days_before: 7

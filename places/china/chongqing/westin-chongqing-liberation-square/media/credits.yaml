@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: yuzhong-night-above
-  title: File:Chongqing Night Yuzhong.jpg
-  author: Jonipoon
-  license: CC BY 3.0
-  license_url: https://creativecommons.org/licenses/by/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Chongqing_Night_Yuzhong.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Spectacual wide-lens nightview over the Yuzhong skyline in Chongqing, China. Taken with Canon EOS 5D.
-  width: 2000
-  height: 1333
-  widths:
-    - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-15
-  origin: commons
 - file: jiefangbei-monument-night
   title: File:Night of Jiefangbei 2.jpg
   author: ForwardXu
@@ -31,3 +15,44 @@
     - 1920
   fetched: 2026-11-15
   origin: commons
+- file: room-view
+  title: 483156426.jpg
+  author: Booking.com
+  license: All rights reserved (personal use)
+  source_url: https://www.booking.com/hotel/cn/zhong-qing-jie-fang-bei-wei-si-ting-jiu-dian.html
+  original_url: https://cf.bstatic.com/xdata/images/hotel/max1920x1080/483156426.jpg?k=da9b2f1bb54a09927dd3a65333b15865d6d200dffc15b5a888fd4c9b2d5139c4&o=
+  width: 1620
+  height: 1080
+  widths:
+    - 640
+    - 1280
+    - 1620
+  fetched: 2026-11-25
+  origin: web
+- file: rooftop-pool-night
+  title: photo0jpg.jpg
+  author: Tripadvisor traveller photo
+  license: All rights reserved (personal use)
+  source_url: https://www.tripadvisor.com/Hotel_Review-g294213-d4457991-Reviews-or10-The_Westin_Chongqing_Liberation_Square-Chongqing.html
+  original_url: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/0f/d7/79/photo0jpg.jpg?w=1600&h=-1&s=1
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: tower-at-night
+  title: a1c0e2fe67ea085b770ee562a0134612b7954df4.jpeg
+  author: ZenHotels
+  license: All rights reserved (personal use)
+  source_url: https://www.zenhotels.com/hotel/china/chongqing/mid6519655/the_westin_chongqing_liberation_square/
+  original_url: https://cdn.ostrovok.ru/t/1200x616/content/a1/c0/a1c0e2fe67ea085b770ee562a0134612b7954df4.jpeg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

@@ -1,35 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: zhong-dumplings
-  title: File:Dumplings in chili oil (20180218142633).jpg
-  author: N509FZ
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Dumplings_in_chili_oil_(20180218142633).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Dumplings_in_chili_oil_%2820180218142633%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Served in a restaurant in Chengdu. This dish is also known as Zhong's Dumplings, named after its founder Zhong Shaobai.
-  width: 4608
-  height: 3072
-  widths:
-    - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-16
-  origin: commons
-- file: zhong-bowl
-  title: File:Chengdu Zhong Dumpling(Zhong Jiaozi).jpg
-  author: 유신예
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Chengdu_Zhong_Dumpling(Zhong_Jiaozi).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c0/Chengdu_Zhong_Dumpling%28Zhong_Jiaozi%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: It is a restaurant that has been open for 40 years.Zhong dumplings are a specialty of the store.With red oil, mashed garlic, and other seasoning, plus cooked dumplings, the taste is sweet and spicy.
-  width: 1280
-  height: 1280
-  widths:
-    - 640
-    - 1280
-  fetched: 2026-11-16
-  origin: commons
 - file: park-bridge
   title: File:People's Park (Chengdu) 20260513-6.jpg
   author: Suicasmo
@@ -46,19 +15,43 @@
     - 1920
   fetched: 2026-11-16
   origin: commons
-- file: shaocheng-gate
-  title: File:People's Park (Chengdu) 20260513-4.jpg
-  author: Suicasmo
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:People%27s_Park_(Chengdu)_20260513-4.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/9/93/People%27s_Park_%28Chengdu%29_20260513-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: People's Park (Chengdu)
-  width: 5184
-  height: 3456
+- file: ziwei-pavilion
+  title: 100i0x000000lfp38DB42.jpg
+  author: Qunar traveller review
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/10157115806
+  original_url: https://youimg1.c-ctrip.com/target/100i0x000000lfp38DB42.jpg
+  width: 1280
+  height: 960
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-16
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: snack-set
+  title: 100h1g000001hgvag2D09.jpg
+  author: Qunar traveller review
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/10163515415
+  original_url: https://youimg1.c-ctrip.com/target/100h1g000001hgvag2D09.jpg
+  width: 1440
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 1440
+  fetched: 2026-11-25
+  origin: web
+- file: zhong-dumplings-here
+  title: 0105h120009e0855nBAF6.jpg
+  author: Ctrip
+  license: All rights reserved (personal use)
+  source_url: https://you.ctrip.com/food/chengdu104/5234159.html
+  original_url: https://dimg04.c-ctrip.com/images/0105h120009e0855nBAF6.jpg
+  width: 1270
+  height: 1620
+  widths:
+    - 640
+    - 1270
+  fetched: 2026-11-25
+  origin: web

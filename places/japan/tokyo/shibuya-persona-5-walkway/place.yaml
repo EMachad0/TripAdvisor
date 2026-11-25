@@ -61,14 +61,13 @@ sources:
     title: "Time Out Tokyo — The iconic train car tourist information centre in Shibuya has moved to Akita (Aug 2020)"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Mappings from the tsunagu fan guide and the P5R game wiki (the wiki lists in-game areas, not real buildings). No source gives the passage's own hours (Walkerplus, LIVE JAPAN, Time Out checked); only Mark City's 10:00–21:00, so the page says before 21:00. No free photo shows the whole mural (only partial views), so the hero shows it from below. Train car's 2020 move: Time Out news."
+confidence_note: "Mappings from the tsunagu fan guide and the P5R game wiki (the wiki lists in-game areas, not real buildings). No source gives the passage's own hours (Walkerplus, LIVE JAPAN, Time Out checked); only Mark City's 10:00–21:00, so the page says before 21:00. Train car's 2020 move: Time Out news."
 last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: mural-from-below
-    caption: Myth of Tomorrow seen from below its plaque; no free photo shows the whole 30 m
-    focus: top
+    image: mural-walkway
+    caption: "Taro Okamoto's Myth of Tomorrow along the Mark City walkway, Shibuya Station"
     hook: In the game it's the Walkway in the Teikyu Building. In real life it's a glass corridor under a huge atomic-bomb mural.
   - type: quick_facts
     time_needed: 1–1.5 h
@@ -95,6 +94,7 @@ blocks:
       Do it in one loop: in from the Ginza or Inokashira Line side, the walkway and mural, down to the Scramble and Hachikō, then into Center Gai. Royal adds a second hangout district, Kichijoji, at the far end of the Inokashira Line.
   - type: gallery
     images:
+      - { file: mural-wide, caption: "The whole 30 m mural above the walkway floor" }
       - { file: walkway-commuters, caption: "Commuters hurrying through the walkway (2016)" }
       - { file: center-gai-rain, caption: "Center Gai on a rainy afternoon, the game's \"Central Street\"" }
       - { file: ginza-line-mark-city, caption: "A Ginza Line train sliding into the station at Mark City" }

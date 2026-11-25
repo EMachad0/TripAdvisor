@@ -52,8 +52,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: tuo-river-december
-    caption: "The Tuo River through the old town in December. No free photo of the hostel itself"
+    image: common-room-dogs
+    caption: "Guests and the house's two golden retrievers in the common room"
     hook: Twin dorms in an old-town lane, a few minutes' walk from the lit river.
   - type: quick_facts
     extra:
@@ -99,6 +99,14 @@ blocks:
       - "Free cancellation with at least 3 days' notice; luggage storage, free wifi, adaptors"
       - "Foreign guests: reviews from a Hungarian (May 2026) and an English guest (Nov 2024); no stated passport policy"
       - "Dorms are 2 beds with an ensuite bathroom, so it is closer to a cheap twin share than a bunk room"
+  - type: gallery
+    images:
+      - file: common-table
+        caption: Travellers planning the next day at the long wooden table
+      - file: guests
+        caption: "A group of guests under the 禾沐之家 (Hemu House) scroll"
+      - file: tuo-river-december
+        caption: "The Tuo River through the old town on a quiet December day, a few minutes' walk away"
   - type: map
     note: "No Chinese address found: show the driver **凤凰古城 虹桥** and walk from there. The pin is approximate."
   - type: tips

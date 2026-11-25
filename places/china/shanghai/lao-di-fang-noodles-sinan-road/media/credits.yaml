@@ -15,3 +15,42 @@
     - 1920
   fetched: 2026-11-23
   origin: commons
+- file: shopfront-107
+  title: IMG28d24461aeca63774143018.jpeg
+  author: Shanghai Online (life.online.sh.cn)
+  license: All rights reserved (personal use)
+  source_url: https://life.online.sh.cn/content/2023-06/26/content_10087274_7.htm
+  original_url: https://life.online.sh.cn/images_quote/attachement/jpeg/site1/20230626/IMG28d24461aeca63774143018.jpeg
+  width: 1080
+  height: 752
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: noodle-soup
+  title: 3f5f15a4bf30465686e9146a9638af36.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/lao-di-fang-mian-guan
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/3f5f15a4bf30465686e9146a9638af36.jpeg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: braised-pork
+  title: e58b55212adc42a891bb2f696ba43878.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/lao-di-fang-mian-guan
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/e58b55212adc42a891bb2f696ba43878.jpeg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

@@ -47,3 +47,35 @@
     - 1920
   fetched: 2026-11-24
   origin: commons
+- file: hanfu-bridge
+  title: File:西交兴庆之汉服樱花节 03.jpg
+  author: Liuxingy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E4%BA%A4%E5%85%B4%E5%BA%86%E4%B9%8B%E6%B1%89%E6%9C%8D%E6%A8%B1%E8%8A%B1%E8%8A%82_03.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/bb/%E8%A5%BF%E4%BA%A4%E5%85%B4%E5%BA%86%E4%B9%8B%E6%B1%89%E6%9C%8D%E6%A8%B1%E8%8A%B1%E8%8A%82_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​西交兴庆之汉服樱花节
+  width: 4000
+  height: 6000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: hanfu-parasol
+  title: File:西交兴庆之汉服樱花节 01.jpg
+  author: Liuxingy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E4%BA%A4%E5%85%B4%E5%BA%86%E4%B9%8B%E6%B1%89%E6%9C%8D%E6%A8%B1%E8%8A%B1%E8%8A%82_01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ec/%E8%A5%BF%E4%BA%A4%E5%85%B4%E5%BA%86%E4%B9%8B%E6%B1%89%E6%9C%8D%E6%A8%B1%E8%8A%B1%E8%8A%82_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​西交兴庆之汉服樱花节
+  width: 4000
+  height: 6000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

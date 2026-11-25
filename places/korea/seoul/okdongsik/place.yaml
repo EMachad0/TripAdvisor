@@ -61,13 +61,13 @@ sources:
     title: "옥동식, 44-10 Yanghwa-ro 7-gil — OpenStreetMap (pin)"
     checked: 2026-11-23
 confidence: medium
-confidence_note: "Bib status from the Michelin Seoul Bib list (rendered 2026-11-23). Prices from two 2026 Korean sources (Jul, Oct); a Nov 2026 blog says ₩10,000/₩6,000, which I think is out of date. No source states payment methods. Michelin gives weekend close as 20:30, Siksin 21:00 with last order 20:30. Naver Place needs a login; not read. Hero is the dish at another restaurant."
+confidence_note: "Bib status from the Michelin Seoul Bib list (rendered 2026-11-23). Prices from two 2026 Korean sources (Jul, Oct); a Nov 2026 blog says ₩10,000/₩6,000, which I think is out of date. No source states payment methods. Michelin gives weekend close as 20:30, Siksin 21:00 with last order 20:30. Naver Place needs a login; not read."
 last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: dwaeji-gomtang-bowl
-    caption: "Dwaeji-gomtang in a brass bowl at another Seoul restaurant (2018); no free photo of Okdongsik"
+    image: gomtang-bowl
+    caption: "Okdongsik's dwaeji-gomtang: sliced pork over rice in clear broth, in a brass bowl"
     hook: Thin pink pork slices, rice soaked in hot broth, and a soup clear enough to read through.
   - type: quick_facts
     time_needed: 30–45 min
@@ -92,6 +92,15 @@ blocks:
       Okdongsik serves one thing: pork gomtang in a brass bowl, with pork cooked about 80% and sliced thin, then finished by the hot broth (Siksin). The broth is clear, not the milky pork soup most people picture. Michelin's inspectors list it as a Bib Gourmand and tag it "worth queueing for."
 
       The original shop sits on the ground floor of a residential villa in Seogyo-dong, between Hapjeong and Hongdae. Reviews put the daily output at about 100 bowls, and the chef's turn on the TV cooking contest 흑백요리사 (season 2) made the queue longer: a 2026 blog cites a December 2025 report of 34 people waiting on CatchTable at lunch.
+  - type: gallery
+    feature: false
+    images:
+      - file: exterior
+        caption: The shopfront in Seogyo-dong, with the 屋同食 sign over the door
+      - file: counter
+        caption: The single long counter, brass bowls set out before service
+      - file: counter-set
+        caption: Gomtang with kimchi mandu and the two kimchis at the counter
   - type: quote
     variant: vibe
     text: Steam off a brass bowl, a seat at the counter, Seoul below freezing outside.

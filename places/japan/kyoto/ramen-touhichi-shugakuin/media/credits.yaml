@@ -1,17 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: shugakuin-station
-  title: File:Eiden Shugakuin Station140524NI1.JPG
-  author: Atelier Verde
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Eiden_Shugakuin_Station140524NI1.JPG
-  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5e/Eiden_Shugakuin_Station140524NI1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: 京都市左京区山端 叡山電鉄叡山本線 修学院駅 駅すぐ北側の北山通から撮影。左側が出町柳駅行きホームで、左端のマンションの2階に叡山電鉄運輸課があり、定期券や各種乗車券が販売されている。駅に進入中の デオ800系 （815-816）が確認できる。
-  width: 5435
-  height: 3523
+- file: tori-shoyu-bowl
+  title: 241024-touhichi-1.jpg
+  author: Leaf KYOTO
+  license: All rights reserved (personal use)
+  source_url: https://www.leafkyoto.net/store/241114-kyoto-hitouchi/
+  original_url: https://www.leafkyoto.net/leaf/wp-content/uploads/2024/10/241024-touhichi-1.jpg
+  width: 1280
+  height: 853
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: counter-room
+  title: 71995d46.jpg
+  author: Ramen Touhichi (TableCheck)
+  license: All rights reserved (personal use)
+  source_url: https://www.tablecheck.com/en/touhichi
+  original_url: https://cdn2.tablecheck.com/images/681302f9fdaace6f5ae80c9c/images/original/71995d46.jpg
+  width: 1920
+  height: 1280
   widths:
     - 640
     - 1280
     - 1920
-  fetched: 2026-11-13
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: 48f9d205.jpg
+  author: めんご (blog)
+  license: All rights reserved (personal use)
+  source_url: http://blog.livedoor.jp/nakatanstudio-ramen/archives/52619720.html
+  original_url: https://livedoor.blogimg.jp/nakatanstudio-ramen/imgs/4/8/48f9d205.jpg
+  width: 1280
+  height: 961
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

@@ -1,0 +1,54 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: hongshao-rou
+  title: HL6TYo0bMAAM9vg.jpg
+  author: X (diner's post)
+  license: All rights reserved (personal use)
+  source_url: https://x.com/zaikabou/status/2071255106432155916
+  original_url: https://pbs.twimg.com/media/HL6TYo0bMAAM9vg.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: f4f8e020f46ce43309712ea14dd78d813.png
+  author: 52hrtt.com
+  license: All rights reserved (personal use)
+  source_url: https://www.52hrtt.com/ar/n/w/info/F1778750650214
+  original_url: https://picture01.52hrttpic.com/image/infoImage/202605/14/f4f8e020f46ce43309712ea14dd78d813.png?1080x810
+  width: 1080
+  height: 810
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: dining-room
+  title: 599.jpg
+  author: The Paper
+  license: All rights reserved (personal use)
+  source_url: https://www.thepaper.cn/newsDetail_forward_10219195
+  original_url: https://imagepphcloud.thepaper.cn/pph/image/101/676/599.jpg
+  width: 1080
+  height: 720
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: caotou-greens
+  title: fa404eddea35c8ad9bb6f8708950eca1.jpg_r_640x462x70_76f05f6a.jpg
+  author: Qunar
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/poi/3165802
+  original_url: https://tr-osdcp.qunarzz.com/tr-osd-tr-space/img/fa404eddea35c8ad9bb6f8708950eca1.jpg_r_640x462x70_76f05f6a.jpg
+  width: 2047
+  height: 1480
+  widths:
+    - 640
+    - 1280
+    - 2047
+  fetched: 2026-11-25
+  origin: web

@@ -63,9 +63,9 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: building
+    image: roman-bath
     focus: center
-    caption: "The Spa World building in Shinsekai. No free photos of the baths themselves exist"
+    caption: "The Ancient Rome bath: a round pool under a lit dome, ringed by columns"
     hook: "A whole building of hot-spring baths in Shinsekai: Roman-themed baths on the 4th floor, a Bali bath on the 6th."
   - type: quick_facts
     time_needed: 2–3 h, or overnight
@@ -101,10 +101,14 @@ blocks:
       The rule that matters most for foreigners: **no tattoos** of any size, *including tattoo seals*, per the official regulations. If you have ink, this one isn't for you.
   - type: gallery
     images:
-      - file: tsutenkaku-view
-        caption: Tsutenkaku at night, seen from the Spa World building
-      - file: from-tsutenkaku
-        caption: The Spa World building from above
+      - file: islamic-bath
+        caption: The Islam bath, with arches and tiled walls
+      - file: finnish-bath
+        caption: The log-cabin bath in the Europe zone
+      - file: open-air-bath
+        caption: A Japanese open-air bath under a wooden roof
+      - file: building
+        caption: The Spa World building in Shinsekai
   - type: cost_breakdown
     items:
       - label: Entry, baths only (any day)

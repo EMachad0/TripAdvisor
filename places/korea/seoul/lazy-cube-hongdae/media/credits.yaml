@@ -1,17 +1,57 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: hongik-exit-7
-  title: File:Korail-K314-Hongik-university-station-entrance-7-20191023-080740.jpg
-  author: LERK
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Korail-K314-Hongik-university-station-entrance-7-20191023-080740.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/6/63/Korail-K314-Hongik-university-station-entrance-7-20191023-080740.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: The no.7 entrance to Hongik University Station on the Gyeongui-Jungang Line, AREX and Seoul Metro Line 2 in Mapo-gu, Seoul, Republic of Korea(South Korea)
-  width: 4000
-  height: 2250
+- file: pod
+  title: iftdbp0azpztzliygbhe.jpg
+  author: Lazy Cube (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Lazy-cube/Seoul/338902
+  original_url: https://a.hwstatic.com/propertyimages/3/338902/iftdbp0azpztzliygbhe.jpg
+  width: 6000
+  height: 4000
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: lounge-view
+  title: dqhfddqbtmxhhsppdn4l.jpg
+  author: Lazy Cube (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Lazy-cube/Seoul/338902
+  original_url: https://a.hwstatic.com/propertyimages/3/338902/dqhfddqbtmxhhsppdn4l.jpg
+  width: 5543
+  height: 3695
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: pod-row
+  title: bvuwl08y0buq0efhcatk.jpg
+  author: Lazy Cube (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Lazy-cube/Seoul/338902
+  original_url: https://a.hwstatic.com/propertyimages/3/338902/bvuwl08y0buq0efhcatk.jpg
+  width: 5834
+  height: 3889
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: showers
+  title: lic4qtwvpyoqvy1k1gex.jpg
+  author: Lazy Cube (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Lazy-cube/Seoul/338902
+  original_url: https://a.hwstatic.com/propertyimages/3/338902/lic4qtwvpyoqvy1k1gex.jpg
+  width: 5003
+  height: 3336
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

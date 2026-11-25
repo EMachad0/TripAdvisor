@@ -88,13 +88,13 @@ sources:
     title: "Tokyo (Wikipedia): climate table, January normals"
     checked: 2026-11-17
 confidence: medium
-confidence_note: "Price, hours and payment icons from the venue's YOASOBI HEAVEN page (CityHeaven's foreigner portal; the official site only links there). The page lists no nomination fee and no foreigner surcharge but doesn't say there are none. Reviews there are the venue's own platform. Pin is the street address (block level). No free photo of the venue."
+confidence_note: "Price, hours and payment icons from the venue's YOASOBI HEAVEN page (CityHeaven's foreigner portal; the official site only links there). The page lists no nomination fee and no foreigner surcharge but doesn't say there are none. Reviews there are the venue's own platform. Pin is the street address (block level). Only tiny exterior shots online, so the hero shows Rokku nearby."
 last_updated: 2026-11-17
 
 blocks:
   - type: hero
     image: asakusa-rokku
-    caption: "Asakusa's Rokku entertainment blocks, around the corner (2009); no free photo of MAX"
+    caption: "Asakusa's Rokku entertainment blocks, around the corner from MAX (2009)"
     hook: "Temple in the morning, bath house in the afternoon: Asakusa's one soapland is a short walk from Senso-ji."
   - type: quick_facts
     time_needed: "60 min session"

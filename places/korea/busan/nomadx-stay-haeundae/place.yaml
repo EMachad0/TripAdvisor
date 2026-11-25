@@ -53,11 +53,13 @@ sources:
     title: Busan (Wikipedia), January climate normals 1991–2020
     checked: 2026-11-10
 confidence: medium
-confidence_note: "Prices for 10–19 Jan read 12 Nov (feed with curl); rating from Hostelworld only (other sites block bots). Hostelworld prices exclude a 10% tax (house rules); the page shows them with tax added. House rules now say reception to 23:00 (22:00 earlier). The 300 m to Jangsan is measured on OpenStreetMap. Whether the events run in January is not stated. No free photo of the hostel exists."
+confidence_note: "Prices for 10–19 Jan read 12 Nov (feed with curl); rating from Hostelworld only (other sites block bots). Hostelworld prices exclude a 10% tax (house rules); the page shows them with tax added. House rules now say reception to 23:00 (22:00 earlier). The 300 m to Jangsan is measured on OpenStreetMap. Whether the events run in January is not stated."
 last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: pingpong-lounge
+    caption: "The lounge: ping-pong table, booth seats and a loft over the windows"
     hook: "A ping-pong table, a 180-inch movie screen and a beach run after dark, at the quiet end of Haeundae."
   - type: quick_facts
     extra:
@@ -121,6 +123,11 @@ blocks:
       The trade-off is location. It sits by **Jangsan**, the last stop at the eastern end of Metro Line 2, and Hostelworld puts it about 9 km from the city centre. Jagalchi and the old town are on the other side of the city. It suits a plan built around Haeundae, Centum City and the east coast; for a Nampo-dong plan, look elsewhere.
 
       A weeknight dorm bed is ₩33,075 on Hostelworld, which adds 10% tax at the hostel: **₩36,383 (R$151.21)**. For the night shifts, the quiet hours (23:00–08:00) make the dorm a bad desk; the single room with a desk costs ₩64,680 with tax.
+  - type: gallery
+    images:
+      - { file: window-beanbags, caption: "Beanbags and a dartboard by the lounge windows" }
+      - { file: dining-tables, caption: "Long shared tables in the common area" }
+      - { file: washroom, caption: "The shared washroom with a row of basins" }
   - type: map
     note: "The hostel is on the 11th floor of the Ultra Tower building, about 300 m from Jangsan station (Line 2)."
   - type: tips

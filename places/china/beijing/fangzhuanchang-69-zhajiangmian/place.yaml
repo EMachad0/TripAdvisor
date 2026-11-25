@@ -68,6 +68,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
+    image: shopfront-night
+    caption: "The Fangzhuanchang Hutong shop at night, with the queue at the door"
     hook: One dish, served since the family sold it at the gate of No. 69, in a hutong off Nanluoguxiang.
   - type: quick_facts
     time_needed: 30–45 min
@@ -91,6 +93,12 @@ blocks:
       The name is an address. Visit Beijing's December 2025 profile says the business started with the family selling noodles at the gate of **No. 69 Fangzhuanchang Hutong**, tables set out in the lane, and now trades from No. 1, the shop Michelin lists. It has grown into a chain of 40-plus branches across Beijing (Winshang counts them, May 2026), from Qianmen to Daxing Airport, but the Bib Gourmand goes to the hutong shop only.
 
       Zhajiangmian is the city's everyday noodle dish: thick wheat noodles, a salty-sweet fried bean paste with pork, and cucumber, radish and beans on the side. Mix everything, add a clove of the green laba garlic, and order a second round of noodles if you're still hungry.
+  - type: gallery
+    feature: false
+    images:
+      - { file: toppings-bowl, caption: "The bowl as served: sauce on top of the noodles and raw vegetables" }
+      - { file: mixed-noodles, caption: "Mixed and ready to eat" }
+      - { file: hutong-door, caption: "The small hutong doorway with its red signboard" }
   - type: quote
     variant: vibe
     text: Grey hutong walls, a queue in puffer jackets, and a bowl you stir until it turns brown all through.

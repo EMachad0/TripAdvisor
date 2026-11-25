@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: taimiao-main-hall
-  title: File:The Main hall of Imperial Ancestral Temple.jpg
-  author: Legolas1024
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:The_Main_hall_of_Imperial_Ancestral_Temple.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/0/00/The_Main_hall_of_Imperial_Ancestral_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: The Hall for Worship of Ancestors of Imperial Ancestral Temple, Beijing
-  width: 4500
-  height: 3000
-  widths:
-    - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-24
-  origin: commons
 - file: taimiao-red-wall
   title: File:Ancestral Shrine at the Imperial Ancestral Temple.JPG
   author: Tojan76
@@ -47,3 +31,28 @@
     - 1920
   fetched: 2026-11-24
   origin: commons
+- file: ming-guard-sample
+  title: cet-guard-crop.jpg
+  author: China Explorer Tour (CET)
+  license: All rights reserved (personal use)
+  source_url: https://chinaexplorertour.com/ming-dynasty-photoshoot-collection/
+  width: 1800
+  height: 1045
+  widths:
+    - 640
+    - 1280
+    - 1800
+  fetched: 2026-11-25
+  origin: web
+- file: red-robe-corner-tower
+  title: cet-01.jpg
+  author: China Explorer Tour (CET)
+  license: All rights reserved (personal use)
+  source_url: https://chinaexplorertour.com/ming-dynasty-photoshoot-collection/
+  width: 1200
+  height: 1800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

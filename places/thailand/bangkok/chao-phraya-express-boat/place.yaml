@@ -84,7 +84,9 @@ blocks:
       For a weekday afternoon, take the Yellow Flag after lunch, hop off for a temple or Wang Lang market, then ride an Orange Flag boat back in the late afternoon. Buy a ticket at the pier desk.
   - type: gallery
     images:
-      - { file: on-board, caption: "Express boats on the Chao Phraya" }
+      - { file: on-board, caption: "An express boat throwing spray past the riverside buildings" }
+      - { file: inside-cabin, caption: "Inside an Orange Flag boat: bench seats, open sides, standing room at rush hour" }
+      - { file: river-bus, caption: "A packed express boat pulling away from a pier" }
   - type: cost_breakdown
     items:
       - { label: "Yellow Flag, Phra Arthit to Sathorn (long route)", local: 24, brl: 3.96 }

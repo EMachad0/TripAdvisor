@@ -611,3 +611,37 @@
   fetched: 2026-11-12
   origin: commons
   area: koh-samet
+- file: doi-suthep-chedi
+  title: File:Wat Phra That Doi Suthep (I).jpg
+  author: This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images, but please mention me as the author…
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Wat_Phra_That_Doi_Suthep_(I).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c1/Wat_Phra_That_Doi_Suthep_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Wat Phra That Doi Suthep is a Theravada Buddhist temple in Mueang Chiang Mai District, Chiang Mai Province, Thailand.
+  width: 4928
+  height: 3519
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+  area: chiang-mai
+- file: koh-nang-yuan
+  title: File:Ko Tao, Koh Nang Yuan.jpg
+  author: ferda
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Ko_Tao,_Koh_Nang_Yuan.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d4/Ko_Tao%2C_Koh_Nang_Yuan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Ko Tao, Koh Nang Yuan
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+  area: koh-phangan-koh-tao

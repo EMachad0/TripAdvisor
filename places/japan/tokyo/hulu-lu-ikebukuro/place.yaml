@@ -51,11 +51,13 @@ sources:
     title: Hulu-Lu — Time Out Tokyo
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Prices, hours and day rules from the official site (© 2026) and Tabelog; Tabelog reviews from Oct 2026 show it open. Saturday hours are Tabelog's (the official site lists only weekdays and Sunday); Time Out's older hours differ. The map pin is the Ikebukuro 2-chome block, not the shop's door. No free photo of the shop or its bowls exists on Commons."
+confidence_note: "Prices, hours and day rules from the official site (© 2026) and Tabelog; Tabelog reviews from Oct 2026 show it open. Saturday hours are Tabelog's (the official site lists only weekdays and Sunday); Time Out's older hours differ. The map pin is the Ikebukuro 2-chome block, not the shop's door."
 last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: shoyu-bowl
+    caption: "A bowl at Hulu-lu: fine noodles, rare chashu, menma and sprouts in a clear broth (2019)"
     hook: A Hawaiian café look, Kibi black chicken in the pot, and noodles made with Hawaiian water.
   - type: quick_facts
     time_needed: 40 min + the queue
@@ -80,6 +82,10 @@ blocks:
       Hulu-lu runs a rota. **Fridays** are tsukemen-only (curry, spicy or miso dips). The **2nd and 4th Mondays** serve only abura soba and TKM, a raw-egg noodle bowl. The **1st of each month** is "Tomato.Hulu-lu", tomato ramen and tomato tsukemen only. **Tuesdays** it's closed.
 
       For the shio, aim for a **Wednesday, Thursday, Saturday or Sunday**. Thursdays and Saturdays also bring a limited chicken paitan, and Sundays and Mondays a light niboshi bowl.
+  - type: gallery
+    images:
+      - { file: cafe-room, caption: "The Hawaiian-café dining room: a palm, beach prints and a wooden counter" }
+      - { file: shopfront, caption: "The brick shopfront with its awning, on an Ikebukuro back street" }
   - type: menu
     items:
       - { name: Shio SOBA, name_local: 塩SOBA, price_local: 970, price_brl: 34.11, note: "Clear chicken shio, the reason to come", tag: must-try }

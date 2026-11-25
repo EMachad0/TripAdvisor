@@ -15,19 +15,59 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
-- file: vj-booth
-  title: File:My VJ Booth @WOMB, Shibuya Tokyo (2013-06-02 14.31.22 by superidoljp).jpg
-  author: superidoljp from Tokyo, Japan
-  license: CC BY-SA 2.0
-  license_url: https://creativecommons.org/licenses/by-sa/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:My_VJ_Booth_@WOMB,_Shibuya_Tokyo_(2013-06-02_14.31.22_by_superidoljp).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b8/My_VJ_Booth_%40WOMB%2C_Shibuya_Tokyo_%282013-06-02_14.31.22_by_superidoljp%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: "My VJ Booth @WOMB, Shibuya Tokyo Flickr Tags: japan tokyo VJ laptop tablet iPad ."
-  width: 5760
-  height: 3840
+- file: laser-floor
+  title: 1_FLOOR_MNP1898-NEF.jpg
+  author: WOMB via Tokyo Cheapo
+  license: All rights reserved (personal use)
+  source_url: https://tokyocheapo.com/entertainment/music-and-nightlife/womb-shibuya-club/
+  original_url: https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2024/12/1_FLOOR_MNP1898-NEF.jpg
+  width: 2500
+  height: 1667
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-11
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: main-floor-confetti
+  title: 4_MAIN-FLOOR3.jpg
+  author: WOMB via Tokyo Cheapo
+  license: All rights reserved (personal use)
+  source_url: https://tokyocheapo.com/entertainment/music-and-nightlife/womb-shibuya-club/
+  original_url: https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2024/12/4_MAIN-FLOOR3.jpg
+  width: 1470
+  height: 980
+  widths:
+    - 640
+    - 1280
+    - 1470
+  fetched: 2026-11-25
+  origin: web
+- file: floor-1f
+  title: 5_1F_240817_0025.jpg
+  author: WOMB via Tokyo Cheapo
+  license: All rights reserved (personal use)
+  source_url: https://tokyocheapo.com/entertainment/music-and-nightlife/womb-shibuya-club/
+  original_url: https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2024/12/5_1F_240817_0025.jpg
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: bar
+  title: 9_BAR.jpg
+  author: WOMB via Tokyo Cheapo
+  license: All rights reserved (personal use)
+  source_url: https://tokyocheapo.com/entertainment/music-and-nightlife/womb-shibuya-club/
+  original_url: https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2024/12/9_BAR.jpg
+  width: 1918
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1918
+  fetched: 2026-11-25
+  origin: web

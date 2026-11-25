@@ -63,8 +63,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: azabudai-hills
-    caption: "Azabudai Hills, home of the restaurant. No free photo of the counter exists"
+    image: counter
+    caption: "The 19-seat hinoki counter under its calligraphy wall"
     hook: Over the R$170 day budget, once. A real omakase counter for the price of two Tsukiji breakfasts.
   - type: quick_facts
     time_needed: 90 min seating
@@ -83,6 +83,11 @@ blocks:
         text: "The sister **AZABU** restaurants in New York and Miami Beach each held a Michelin star. Time Out says the fish comes from **Toyosu**."
       - title: The room
         text: "An L-shaped hinoki counter in front of a wall of calligraphy by **Rintaro Hashiguchi**, three floors up in Azabudai Hills."
+  - type: gallery
+    images:
+      - { file: azabudai-hills, caption: "Azabudai Hills; the restaurant is on Tower Plaza 3F" }
+      - { file: akami, caption: "Akami (lean tuna) nigiri" }
+      - { file: kohada, caption: "Kohada (gizzard shad), a classic Edomae cure" }
   - type: book_ahead
     steps:
       - days_before: 14

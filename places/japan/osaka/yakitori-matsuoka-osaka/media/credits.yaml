@@ -1,0 +1,56 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: skewer
+  title: 634a40_a98b325bcbc947cf932a24832f21a879~mv2.jpg
+  author: Yakitori Matsuoka
+  license: All rights reserved (personal use)
+  source_url: https://www.yakitori-matsuoka.com/
+  original_url: https://static.wixstatic.com/media/634a40_a98b325bcbc947cf932a24832f21a879~mv2.jpg
+  width: 6048
+  height: 4024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: counter-room
+  title: 634a40_9bbc0d668c464b5386df33f446b7ca27~mv2.jpg
+  author: Yakitori Matsuoka
+  license: All rights reserved (personal use)
+  source_url: https://www.yakitori-matsuoka.com/
+  original_url: https://static.wixstatic.com/media/634a40_9bbc0d668c464b5386df33f446b7ca27~mv2.jpg
+  width: 3000
+  height: 2000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: 634a40_3f553d5e7dd147bf99344bab0bff6468~mv2.jpg
+  author: Yakitori Matsuoka
+  license: All rights reserved (personal use)
+  source_url: https://www.yakitori-matsuoka.com/
+  original_url: https://static.wixstatic.com/media/634a40_3f553d5e7dd147bf99344bab0bff6468~mv2.jpg
+  width: 4024
+  height: 6048
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: sushi-course
+  title: 634a40_04a57f2e0dd94b41938d610e2712e37f~mv2.jpg
+  author: Yakitori Matsuoka
+  license: All rights reserved (personal use)
+  source_url: https://www.yakitori-matsuoka.com/
+  original_url: https://static.wixstatic.com/media/634a40_04a57f2e0dd94b41938d610e2712e37f~mv2.jpg
+  width: 1454
+  height: 972
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

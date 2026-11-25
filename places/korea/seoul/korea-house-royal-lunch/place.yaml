@@ -80,9 +80,8 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: main-hall
-    focus: "50% 65%"
-    caption: "Korea House's main hanok hall (an older photo)"
+    image: round-table-room
+    caption: "A Korea House dining room, ringed by lattice windows"
     hook: Nine courses from the Joseon palace kitchen, eaten in a hanok at a quiet midday table, with no stage in sight.
   - type: quick_facts
     time_needed: About 2 h
@@ -107,6 +106,15 @@ blocks:
       Korea House is a government-run hanok complex in central Seoul. Its hanjeongsik follows Joseon **royal court** recipes, mixed with dishes from noble and common households, and is served course by course in a modern way.
 
       The menu changes each season. The PDF menu has **English** names for every dish, so you know what each plate is.
+  - type: gallery
+    images:
+      - file: long-table-room
+        caption: "A long-table dining room inside the hanok"
+      - file: course-plates
+        focus: center
+        caption: "Plated courses as Korea House serves them"
+      - file: main-hall
+        caption: "The main hanok hall from the courtyard"
   - type: book_ahead
     steps:
       - days_before: 14

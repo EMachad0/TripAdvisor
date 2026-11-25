@@ -61,6 +61,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: qinyu-shopfront
+    caption: "Qinyu Roujiamo's flagship on Dongmutoushi"
     hook: A noodle as wide as a belt, slapped on the board until it goes biang, then hit with smoking chili oil.
   - type: quick_facts
     time_needed: 1–1.5 h
@@ -85,6 +87,13 @@ blocks:
       Start at **Qinyu** on Dongmutoushi, a lane south of the Bell Tower. Order a *youzhi roujiamo* (优质肉夹馍, the premium one) and a bowl of liangpi, the cold noodles every roujiamo shop serves alongside. A Ctrip regular says the fat-and-lean version beats pure lean, which can be dry. One 2023 review says you pay for the bun and the liangpi separately.
 
       Then walk up Luomashi to **Lao Li Jia** for biangbiang. China Xian Tour describes the classic as *you po*: wide noodles under chili, garlic and scallion, finished with sizzling oil. Tomato-and-egg is the mild version if your mouth needs a break.
+  - type: gallery
+    images:
+      - file: qinyu-roujiamo
+        caption: "Qinyu's roujiamo: stewed pork in a crisp baked bun"
+        focus: center
+      - file: lao-li-jia-sign
+        caption: "Lao Li Jia's biangbiang sign at one of its Xi'an branches, at night"
   - type: quote
     variant: vibe
     text: A paper bag, a burning-hot bun, and the queue behind you already shouting orders.

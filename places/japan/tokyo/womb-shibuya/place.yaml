@@ -72,9 +72,9 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: entrance
+    image: laser-floor
+    caption: "Lasers over the main floor on a club night"
     hook: A steel door in a Shibuya backstreet. Behind it, lasers, a huge sound system and a crowd that doesn't leave before 4am.
-    focus: center
   - type: quick_facts
     time_needed: "23:00 until the first train"
     best_time: "Fri or Sat, from midnight"
@@ -109,8 +109,14 @@ blocks:
       The last trains run around 1am, before the party peaks, so plan to stay until the end. The night ends at 04:30, and the Yamanote Line's first trains run from around 04:30.
   - type: gallery
     images:
-      - file: vj-booth
-        caption: "A VJ's setup inside WOMB, 2013. No free photos of the dancefloor exist"
+      - file: main-floor-confetti
+        caption: "Confetti over a packed main floor"
+      - file: floor-1f
+        caption: "The smaller 1F room under red light bars"
+      - file: bar
+        caption: "Pouring shots at the bar"
+      - file: entrance
+        caption: "The steel door on the backstreet, by day"
   - type: quote
     variant: vibe
     text: Bass in your chest, lasers cutting the smoke, and a 4:30am walk to the station with people you met on the dancefloor.

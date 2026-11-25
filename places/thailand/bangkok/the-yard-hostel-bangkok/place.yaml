@@ -64,8 +64,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: ari-bts
-    caption: "BTS Ari, the hostel's station. No free photo of The Yard itself exists"
+    image: garden
+    caption: "Guests at the tables in The Yard's tree-shaded garden"
     hook: "A green garden in a quiet street of cafés, where a hostel family breakfast replaces the Khao San hangover."
   - type: quick_facts
     extra:
@@ -119,6 +119,14 @@ blocks:
         text: "A homemade breakfast set with northern Thai coffee, refilled until you are full. One less meal to budget."
       - title: Ari, not Khao San
         text: "A local neighbourhood on the BTS line, a short ride to Chatuchak and the city centre."
+  - type: gallery
+    images:
+      - file: dorm
+        caption: "A dorm with curtained bunks"
+      - file: bar-night
+        caption: "The garden bar in the evening, beanbags and lights out"
+      - file: container-rooms
+        caption: "The two-storey room block behind the garden trees"
   - type: prose
     title: Why this one for the work week
     text: |-

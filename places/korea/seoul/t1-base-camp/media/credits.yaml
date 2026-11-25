@@ -15,3 +15,29 @@
     - 2048
   fetched: 2026-11-10
   origin: commons
+- file: goods-shop
+  title: 20230505000108_0.jpg
+  author: The Korea Herald
+  license: All rights reserved (personal use)
+  source_url: https://www.koreaherald.com/article/3118952
+  original_url: https://wimg.heraldcorp.com/content/default/2023/05/05/20230505000108_0.jpg
+  width: 1280
+  height: 853
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: pc-rows
+  title: 20230505000107_0.jpg
+  author: The Korea Herald
+  license: All rights reserved (personal use)
+  source_url: https://www.koreaherald.com/article/3118952
+  original_url: https://wimg.heraldcorp.com/content/default/2023/05/05/20230505000107_0.jpg
+  width: 1280
+  height: 853
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

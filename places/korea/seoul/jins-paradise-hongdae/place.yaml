@@ -65,8 +65,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: hongdae-street
-    caption: "A Hongdae shopping street by night. No free photo of the hostel exists"
+    image: rooftop-night
+    caption: "Guests at the long table on Jin's Paradise rooftop at night"
     hook: "Rooftop drinks with whoever checked in today, then down the hill into Hongdae's clubs."
   - type: quick_facts
     extra:
@@ -119,6 +119,14 @@ blocks:
         text: "It sits in Seogyo-dong, the Hongdae nightlife district. Club Street and NB2 are a few hundred metres away on the map."
       - title: Cheapest on weeknights
         text: "The same dorm bed is **₩39,999** on weeknights and **₩69,000** on a Saturday (Hostelworld, December nights seen 12 Nov)."
+  - type: gallery
+    images:
+      - file: lounge
+        caption: "The lounge, with sofas, low tables and a projector wall"
+      - file: dorm
+        caption: "A dorm with bunks and single beds"
+      - file: rooftop-day
+        caption: "The rooftop by day, with hammock and grill"
   - type: book_ahead
     steps:
       - days_before: 30

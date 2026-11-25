@@ -69,8 +69,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: shinsen-station
-    caption: "Shinsen station, 8 minutes' walk from the hostel. No free photo of the hostel exists"
+    image: dorm
+    caption: "A dorm: numbered plywood bunk pods with curtains and stairs"
     hook: "Happy hour in the lobby from 15:00, then the walk down into Shibuya's DJ bars with whoever said yes."
   - type: quick_facts
     extra:
@@ -124,6 +124,10 @@ blocks:
         text: "15:00–19:00 in the lobby: the easy moment to find people for the night."
       - title: Three stations on foot
         text: "Shinsen and Ikejiri-Ohashi stations are 8 minutes away each; Shibuya station about 16, says the hostel."
+  - type: gallery
+    images:
+      - { file: entrance, caption: "The entrance at night, the ground-floor bar open to the street" }
+      - { file: bar, caption: "Bottled beers along the lobby bar" }
   - type: book_ahead
     steps:
       - days_before: 7

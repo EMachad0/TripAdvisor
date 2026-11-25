@@ -60,11 +60,13 @@ sources:
     title: "Climate of Seoul (Wikipedia, KMA 1991–2020 normals)"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Table fees from 2022–23 (₩6,000 Gogi Ingneun Maeul, Seoul city; ₩4,000 Majang Hanwoo-chon, Esquire); guides say ₩4,000–5,000. Meat cost is the low end of ZenKimchi's ₩30,000–60,000; iVisitKorea's ₩12,000/100 g implies less. No source confirms a minimum weight. No free photo. KTripTips, Seoul mediahub and iVisitKorea opened with atr render on 2026-11-12; atr links times out or gets 403 on them."
+confidence_note: "Table fees from 2022–23 (₩6,000 Gogi Ingneun Maeul, Seoul city; ₩4,000 Majang Hanwoo-chon, Esquire); guides say ₩4,000–5,000. Meat cost is the low end of ZenKimchi's ₩30,000–60,000; iVisitKorea's ₩12,000/100 g implies less. No source confirms a minimum weight. KTripTips, Seoul mediahub and iVisitKorea opened with atr render on 2026-11-12; atr links times out or gets 403 on them."
 last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: butcher-counter
+    caption: A butcher's counter in the market halls, trays of beef under red light
     hook: Red-lit butcher counters downstairs, charcoal and banchan upstairs, and you choose the steak.
   - type: quick_facts
     time_needed: 2 h
@@ -98,6 +100,12 @@ blocks:
       **Solo:** this is one of the few BBQ formats with no "two servings" rule, because you're not ordering servings at all. You pay one table fee and grill what you bought. The catch: butchers often pre-cut trays for two or three people, so ask for **about 200 g** (*이백 그램만 주세요*). Upstairs, order a **doenjang-jjigae** and ask the staff to drop in some of the fatty trimmings. iVisitKorea recommends it on a cold night.
 
       **Etiquette:** use the tongs and scissors provided, wrap bites in lettuce or perilla with ssamjang, and dip hanwoo in salt or wasabi. Good beef needs little more. Soju and beer are sold upstairs.
+  - type: gallery
+    images:
+      - file: market-lane
+        caption: One of the covered lanes, butcher counters on both sides
+      - file: west-gate
+        caption: The market's West Gate (서문) on Majang-ro
   - type: quote
     variant: vibe
     text: A tray of marbled beef in one hand, a ₩6,000 grill waiting upstairs.

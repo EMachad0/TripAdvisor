@@ -59,14 +59,14 @@ sources:
     title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "So Heng Tai: closed Mondays per Phuket 101 (Jan 2025), Expique and Visit Thailand Today; Thailand Magazine says daily. Entry needs a café purchase; other sites mention a ฿50 drink credit, but no page I opened confirms the amount. The January Talakkia dates follow the first-weekend rule; not announced. No free photo of So Heng Tai on Commons; hero is the Rong Kueak shrine nearby."
+confidence_note: "So Heng Tai: closed Mondays per Phuket 101 (Jan 2025), Expique and Visit Thailand Today; Thailand Magazine says daily. Entry needs a café purchase; other sites mention a ฿50 drink credit, but no page I opened confirms the amount. The January Talakkia dates follow the first-weekend rule; not announced."
 last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: rong-kueak-shrine
+    image: so-heng-tai-courtyard
     hook: "Old Bangkok that never got polished: engine blocks on the pavement, murals overhead, shrines on the river."
-    caption: "The Rong Kueak shrine on the river, Talat Noi"
+    caption: "So Heng Tai's courtyard: the diving pool between the old Chinese-style wings"
   - type: quick_facts
     time_needed: 2–3 h
     best_time: "Tue–Sun, late morning"
@@ -98,6 +98,8 @@ blocks:
     note: "The pin is **So Heng Tai** on Soi Wanit 2. For a taxi, ask for **Soi Charoen Krung 22**, not just 'Talat Noi'."
   - type: gallery
     images:
+      - { file: so-heng-tai-pool, caption: "The pool and the mansion's red-railed wooden galleries" }
+      - { file: rong-kueak-shrine, caption: "The Rong Kueak shrine on the river, Talat Noi" }
       - { file: fish-sauce-mural, caption: "A mural on the wall of a fish-sauce factory in Talat Noi" }
       - { file: lane-mural, caption: "Photographing a lane mural in Talat Noi" }
   - type: tips

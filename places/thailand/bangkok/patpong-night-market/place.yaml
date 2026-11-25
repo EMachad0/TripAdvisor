@@ -71,9 +71,9 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: patpong-daytime
+    image: night-crowd
     hook: "T-shirt stalls down the middle, go-go bar neon on both sides, and a tout with a laminated menu in between."
-    caption: "Patpong by day, before the stalls and neon go up"
+    caption: "Patpong at night: market crowds under the bar neon"
   - type: quick_facts
     time_needed: "1–2 h"
     best_time: "Sat/Sun, 20:00–23:00"
@@ -104,6 +104,8 @@ blocks:
     images:
       - { file: night-bazaar, caption: "The night bazaar under the stall awnings" }
       - { file: safari-sign, caption: "Bar signs on the strip" }
+      - file: bazaar-sign
+        caption: "The Welcome to Patpong Night Bazaar sign on Patpong Road"
   - type: cost_breakdown
     items:
       - { label: "Browse the night market", local: 0, brl: 0 }

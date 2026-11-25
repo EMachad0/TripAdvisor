@@ -1,49 +1,56 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: hongdae-night-crossing
-  title: File:Hongdae 3.jpg
-  author: Sgroey
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Hongdae_3.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Hongdae_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Hongdae
-  width: 4032
-  height: 3024
+- file: crawl-street
+  title: 20190302_214616__KRW2264_4K8PF.jpg
+  author: Korean Wonders
+  license: All rights reserved (personal use)
+  source_url: https://www.koreanwonders.com/blog/2019/03/pub-crawl-hongdae-2019-03-02-sat
+  original_url: https://images.squarespace-cdn.com/content/v1/588c8780e4fcb5a6cdba3b42/1566823245222-CKKB9UIV1DZVOZJXA5Z8/20190302_214616__KRW2264_4K8PF.jpg
+  width: 2500
+  height: 1669
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
-- file: hongdae-night-street
-  title: File:Hongdae 2.jpg
-  author: Sgroey
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Hongdae_2.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/2/23/Hongdae_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Hongdae
-  width: 4032
-  height: 3024
+  fetched: 2026-11-25
+  origin: web
+- file: crawl-bar
+  title: hongdae_button.jpg
+  author: The Seoul Pub Crawl
+  license: All rights reserved (personal use)
+  source_url: https://www.seoulpubcrawl.kr/
+  original_url: https://www.seoulpubcrawl.kr/wp-content/uploads/2023/10/hongdae_button.jpg
+  width: 1440
+  height: 894
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
-- file: hongdae-alley
-  title: File:Hongdae 1.jpg
-  author: Sgroey
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Hongdae_1.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/8/89/Hongdae_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Hongdae
-  width: 3024
-  height: 4032
+  fetched: 2026-11-25
+  origin: web
+- file: crawl-club
+  title: Seoul-Pub-Crawl.jpg
+  author: The Seoul Pub Crawl
+  license: All rights reserved (personal use)
+  source_url: https://www.seoulpubcrawl.kr/
+  original_url: https://www.seoulpubcrawl.kr/wp-content/uploads/2018/12/Seoul-Pub-Crawl.jpg
+  width: 1600
+  height: 1050
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: crawl-queue
+  title: 53209316283_4fb1a218cb_h.jpg
+  author: Korean Wonders (Flickr)
+  license: All rights reserved (personal use)
+  source_url: https://www.flickr.com/photos/koreanwonders/albums/72177720311413636/
+  original_url: https://live.staticflickr.com/65535/53209316283_4fb1a218cb_h.jpg
+  width: 1600
+  height: 1068
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web

@@ -70,6 +70,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
+    image: hongshao-rou
+    caption: "Lanxin's hongshao rou: braised pork belly with green peppers"
     hook: "Soy, rock sugar and pork belly braised until it trembles, in a room the size of a living room."
   - type: quick_facts
     time_needed: "1 h, plus the queue"
@@ -94,6 +96,11 @@ blocks:
       Lanxin is a small, plain room. A 2021 Trip.com reviewer says the walls are covered with food awards and that you can order by following the stars on the menu. The dishes every source names are **红烧肉** (red-braised pork belly), **油爆虾** (river shrimp flash-fried in a sweet glaze), **酱爆猪肝** (pork liver in sweet bean sauce) and **草头** (wine-tossed clover greens), which one regular orders every visit.
 
       Eating alone, order one main plus rice, and the greens if you're still hungry. The pork is the dish to come for.
+  - type: gallery
+    images:
+      - { file: caotou-greens, caption: "Caotou, the wine-tossed clover greens" }
+      - { file: shopfront, caption: "The shopfront at 130 Jinxian Road" }
+      - { file: dining-room, caption: "The small dining room, pink tablecloths and wooden chairs" }
   - type: quote
     variant: vibe
     text: "Steam on the window, a queue in the lane, and a plate of pork the colour of lacquer."

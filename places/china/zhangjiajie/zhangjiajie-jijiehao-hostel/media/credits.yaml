@@ -1,17 +1,57 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: wulingyuan-gate
-  title: File:Wulingyuan entrance 01.jpg
-  author: Codas
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Wulingyuan_entrance_01.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/9/99/Wulingyuan_entrance_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Wulingyuan entrance
+- file: common-room
+  title: syiyldjh6v3kmchjjdg2.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Zhangjiajie-Jijiehao-Hostel/Zhangjiajie/331131
+  original_url: https://a.hwstatic.com/propertyimages/3/331131/syiyldjh6v3kmchjjdg2.jpg
   width: 5712
   height: 4284
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-11
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: koopehxb4wy7ire4wiex.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Zhangjiajie-Jijiehao-Hostel/Zhangjiajie/331131
+  original_url: https://a.hwstatic.com/propertyimages/3/331131/koopehxb4wy7ire4wiex.jpg
+  width: 3961
+  height: 3107
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: pool-room
+  title: sxy8kbesybdkkmrddhky.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Zhangjiajie-Jijiehao-Hostel/Zhangjiajie/331131
+  original_url: https://a.hwstatic.com/propertyimages/3/331131/sxy8kbesybdkkmrddhky.jpg
+  width: 5712
+  height: 4284
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: twin-room
+  title: vxtgbwtkzlaj6z6kiiau.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Zhangjiajie-Jijiehao-Hostel/Zhangjiajie/331131
+  original_url: https://a.hwstatic.com/propertyimages/3/331131/vxtgbwtkzlaj6z6kiiau.jpg
+  width: 5472
+  height: 3648
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
