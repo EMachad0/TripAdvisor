@@ -39,6 +39,7 @@ Changed 2026-11-15: the site's Ask boxes are gone. The traveler asks Claude Code
 - Place and area pages end with **Questions and answers**: one card per answer about that place or area (question, the short answer, the date; the full answer and sources fold out).
 - **Places › Answers** (`#/answers`) lists every answer, newest first, with a country filter and a link to what each is about. Whole-trip and country answers live here. `#/answers/<id>` opens one card.
 - **Today** shows the three newest answers as compact cards.
+- **Book ahead** (top of Today, before and during the trip) lists what is still to book, by its book-by day: stays with no bed (status not Booked or On the day; a week before check-in, a month when a night falls on New Year's Eve or Lunar New Year), flights not bought (three weeks), and Must/Maybe cards that need a ticket (their `lead_days` before the first day in the city, or their `book_ahead.deadline`; a card not called yet shows only when it has a deadline). Rows due within a week show; the rest fold under "Later". A card's tick stores it in the `settings` doc `booked` (`places: [ids]`).
 - Answers never edit place data; only the curator does. The 34 answers the old Ask boxes logged in `feedback/questions.jsonl` were migrated (`game/tools/migrate-questions.js`); that log stays as curator history and nothing on the site writes to it any more.
 
 ## Ending

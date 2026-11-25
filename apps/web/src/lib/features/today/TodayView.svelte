@@ -7,6 +7,7 @@
 	The guest sees everything; the ticks are disabled and the edit buttons hidden.
 -->
 <script lang="ts">
+	import CalendarClockIcon from '@lucide/svelte/icons/calendar-clock';
 	import CalendarDaysIcon from '@lucide/svelte/icons/calendar-days';
 	import CircleDashedIcon from '@lucide/svelte/icons/circle-dashed';
 	import HourglassIcon from '@lucide/svelte/icons/hourglass';
@@ -17,6 +18,7 @@
 	import RouteIcon from '@lucide/svelte/icons/route';
 	import StarIcon from '@lucide/svelte/icons/star';
 	import { offsetOn, stayName, stepsOf, taskDates } from '@atr/shared/trip';
+	import { toast } from 'svelte-sonner';
 	import { goto } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import PlaceRow from '#lib/components/shared/PlaceRow.svelte';
@@ -43,6 +45,8 @@
 	import { write } from '#lib/sync/write.js';
 	import { cn } from '#lib/utils.js';
 	import AnswerRow from './AnswerRow.svelte';
+	import BookAhead from './BookAhead.svelte';
+	import { BOOKED_DOC, bookedPlaces, bookingList } from './booking.ts';
 	import Block from './Block.svelte';
 	import CardLink from './CardLink.svelte';
 	import TodayHero from './TodayHero.svelte';
@@ -104,6 +108,14 @@
 		modelFor({ legs, places, tasks, days: trip.days, visited: trip.col('visited') }, clock),
 	);
 	const h = $derived(head(m, !pinned, countries));
+	const booked = $derived(bookedPlaces(trip.col('settings')));
+	// What is left to book, from the real today (a picked day does not move the deadlines).
+	const toBook = $derived(
+		m.phase === 'before' || m.phase === 'during'
+			? bookingList({ legs, places, today: real.today, visited, booked })
+			: [],
+	);
+	const dueBooks = $derived(toBook.filter((x) => x.tone !== 'later').length);
 	const zones = $derived(clocks(m, ms, countries));
 	const k = $derived(m.today);
 	const moves = $derived(m.moves.filter((l) => l !== m.flight));
@@ -152,6 +164,31 @@
 			data: toggleTaskFields(x.status),
 		});
 		busyTask = null;
+	}
+
+	async function markBooked(id: string): Promise<void> {
+		const next = [...booked, id];
+		const outcome = await write('trip.write', {
+			col: 'settings',
+			op: trip.col('settings').some((d) => d.id === BOOKED_DOC) ? 'update' : 'set',
+			id: BOOKED_DOC,
+			data: { places: next },
+		});
+		if (outcome.ok) {
+			toast('Marked booked', {
+				action: {
+					label: 'Undo',
+					onClick: () => {
+						void write('trip.write', {
+							col: 'settings',
+							op: 'update',
+							id: BOOKED_DOC,
+							data: { places: next.filter((x) => x !== id) },
+						});
+					},
+				},
+			});
+		}
 	}
 
 	function pickDay(value: string): void {
@@ -229,6 +266,26 @@
 			<div
 				class="flex min-w-0 flex-col gap-10 md:col-span-2 xl:col-span-1 xl:col-start-1 xl:row-start-1"
 			>
+				{#if m.phase === 'before' || m.phase === 'during'}
+					<Block
+						title="Book ahead"
+						small={dueBooks > 0 ? `${String(dueBooks)} to book now` : undefined}
+						testid="book-ahead"
+						icon={CalendarClockIcon}
+					>
+						<BookAhead
+							items={toBook}
+							{canEdit}
+							onopenleg={(id: string) => {
+								if (canEdit) form = { col: 'legs', id };
+								else void goto(resolve('/(app)/trip/itinerary'));
+							}}
+							onopenplace={openPlace}
+							onbooked={canEdit ? (id: string) => void markBooked(id) : undefined}
+						/>
+					</Block>
+				{/if}
+
 				{#if m.stay}
 					<Block title="Where you are" testid="where" icon={MapPinnedIcon}>
 						<DayStatus
