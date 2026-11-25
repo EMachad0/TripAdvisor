@@ -2,7 +2,8 @@
 question: No country on the route requires travel insurance. Can I go without one? Should I? If not, which one should I buy?
 asked: 2026-11-25
 about: trip
-tldr: "You can: no country on the route asks for it at the border (as of Nov 2026). You should not: one hospital stay in Japan can cost ¥7,500,000–10,000,000 (≈ R$ 277.000–369.000). Buy a Brazilian 'Mundo exceto EUA' plan with US$100,000+ medical cover before Dec 4, about R$ 700–1.300 for the 69 days."
+tldr: "You can: no country on the route asks for it at the border (as of Nov 2026). You should not: one hospital stay in Japan can cost ¥7,500,000–10,000,000 (≈ R$ 277.000–369.000). Best value found: SafetyWing Nomad Insurance Essential, US$250,000 of medical cover for about US$188 (≈ R$ 1.105) plus IOF. Brazilian plans at that level start near R$ 1.950."
+updated: 2026-11-25
 sources:
   - title: JNTO, guide for when you are feeling ill (costs, insurance sold after arrival)
     url: https://www.jnto.go.jp/emergency/eng/mi_guide.html
@@ -20,6 +21,8 @@ sources:
     url: https://www.segurospromo.com.br/seguro-viagem/asia/
   - title: Mala de Aventuras, seguro viagem Ásia (7-day prices, Apr 2026)
     url: https://www.maladeaventuras.com/seguro-viagem-asia/
+  - title: Affinity Seguro Viagem (direct quote, Nov 25, 2026)
+    url: https://www.affinityseguro.com.br/
   - title: Dicas de Viagem, seguro viagem longa duração (Oct 2026)
     url: https://www.dicasdeviagem.com/seguro-viagem-longa-duracao/
   - title: SafetyWing Nomad Insurance (price and limits)
@@ -40,22 +43,22 @@ sources:
 
 The insurance costs less than 1% of one of those bills.
 
-**What to buy.** A Brazilian plan, type "Mundo exceto EUA", bought on a comparison site (Seguros Promo or similar) before the flight on Dec 4:
+**What to buy: SafetyWing Nomad Insurance Essential.** It is the cheapest cover found at a safe limit (prices as of Nov 25, 2026):
 
-1. **Medical cover (DMH) of US$100,000 or more.** The common US$30,000–60,000 plans (≈ R$ 176.000–352.000) would not cover the JNTO heart attack case.
-2. **"Prática de esportes" included**, for karts, the luge and hiking.
-3. **Dates Dec 4, 2026 to Feb 10, 2027** (69 days), all six countries.
-4. Pay by Pix and use a coupon (the sites advertise 15% plus 5% for Pix).
+- **US$62.72 per 4 weeks** for ages 10–39. Three periods cover 84 days: **US$188.16 (≈ R$ 1.105)**, plus about 3.5% IOF on the card. Cancel the subscription after you land on Feb 10.
+- US$250,000 medical limit, US$100,000 evacuation, no deductible.
+- **Karts and martial arts need the Adventure Sports add-on**, US$10 per 28 days: US$218.16 (≈ R$ 1.281) in total. It exists only on the subscription version and cannot be added after the policy starts, so tick it when buying. The "fixed dates" version (5–364 days, price shown at checkout) has no add-ons.
+- Hiking on marked trails below 4,500 m is covered on the base plan.
+- It can be bought after you have left Brazil, but cover only starts once you are abroad, and claims from the first 72 hours after purchase need extra proof. Buy it before Dec 4 with Dec 4 as the start date.
+- **The catch: you pay first and claim later.** Hospital stays can get a payment guarantee if you call them first; a clinic visit goes on your card and comes back in about 10 days. Support is in English.
 
-Plans that fit, with prices found in Nov 2026:
+**The Brazilian option** pays the clinic directly and answers in Portuguese, but costs about twice as much. Affinity's own site, quoted for Dec 4, 2026 to Feb 10, 2027 (69 days, Asia):
 
-- **Affinity Essential 55, sold as "110k"** (US$110,000, sports included): R$ 68,69 for 7 days in Apr 2026, so roughly R$ 680 for 69 days.
-- **Affinity 145 Essential** (US$145,000): R$ 138,01 for 7 days, roughly R$ 1.360 for 69 days.
-- **MTA 60** (US$60,000, the budget floor): R$ 10–18 per day, R$ 690–1.240 for 69 days.
+- Affinity Europa 55 (US$110,000): **R$ 1.951,30**
+- Affinity 80 (US$160,000): R$ 2.509,42
+- Affinity 100 (US$200,000): R$ 3.241,44
 
-These are published starting prices, not a quote for your dates: the sites ask for name, e-mail and phone before showing one. Long trips usually cost less per day.
-
-**The alternative: SafetyWing Nomad Insurance Essential.** US$62.72 per 4 weeks for ages 10–39, so about US$155 (≈ R$ 907) for 69 days, plus IOF on the card. US$250,000 medical limit, US$100,000 evacuation, no deductible, and it can be bought after you have left. Downsides: you pay first and claim later (a payment guarantee is possible for hospital stays), and karting and martial arts need an add-on (US$10 per 28 days) that only exists on the subscription version, not on fixed dates. Pick it if you forget to buy before Dec 4 or want the higher limit.
+Comparison sites (Seguros Promo and similar) advertise the same insurers from R$ 10–20 per day with a 15% coupon and 5% off for Pix, which would be R$ 690–1.380 for 69 days. Those are starting prices for plans with US$30,000–60,000 of cover; the real price for these dates only appears after you fill in name, e-mail and phone. A comparison-site quote under about R$ 1.300 for US$100,000 or more, with "prática de esportes" included, would beat SafetyWing on convenience. Do not go below US$100,000: US$60,000 (≈ R$ 352.000) would not cover the JNTO heart attack case.
 
 **Card insurance.** Mastercard Black and Platinum cover at most 60 days in a row and only when the tickets were paid with that card; this trip is 69 days, bought on several sites. Do not count on it unless your card's own certificate says otherwise.
 
