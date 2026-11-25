@@ -70,7 +70,18 @@ export async function downloadImage(url, { referer, fetchImpl = fetch, timeoutMs
 }
 
 /** The images a visitor sees on a page (rendered in Chrome): <img> at its largest srcset candidate, og:image, CSS backgrounds. */
-export async function scoutPage(url, { minWidth = 500, waitMs = 2500, timeoutMs = 45_000 } = {}) {
+export async function scoutPage(url, { minWidth = 500, waitMs = 2500, timeoutMs = 45_000, fetchImpl = fetch } = {}) {
+  // Hostelworld pages draw their gallery late and show one photo to a scripted browser; its property API lists them all.
+  const { hostelId: propertyId } = await import('../hostelprices.js');
+  const hw = /hostelworld\.com/.test(String(url)) ? propertyId(url) : null;
+  if (hw) {
+    const res = await fetchImpl(`https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/${hw}/?application=web`, { headers: { 'User-Agent': BROWSER_UA }, signal: AbortSignal.timeout(30_000) });
+    if (res.ok) {
+      const d = await res.json();
+      const images = (d.images || []).map((i) => ({ image_url: `https://${i.prefix}${i.suffix}`, page_url: url, title: d.name || 'Hostelworld', kind: 'hostelworld' }));
+      if (images.length) return { title: `${d.name || 'Hostel'} (Hostelworld, ${images.length} photos)`, finalUrl: url, images };
+    }
+  }
   const { launch } = await import('../shot.js');
   const browser = await launch();
   try {
@@ -105,6 +116,7 @@ export async function scoutPage(url, { minWidth = 500, waitMs = 2500, timeoutMs 
   } finally { await browser.close().catch(() => {}); }
 }
 
+const hash = (s) => { let h = 5381; for (const ch of String(s)) h = ((h * 33) ^ ch.codePointAt(0)) >>> 0; return h.toString(36); };
 const escXml = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 /**
@@ -112,7 +124,7 @@ const escXml = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': 
  * Returns { dir, sheet?, items: [{ n, image_url, page_url, title, width, height, file } | { n, error }] }, biggest usable first is NOT applied: order is kept.
  */
 export async function previewWeb(cands, label, { minWidth = 0, max = 12, outDir, fetchImpl = fetch } = {}) {
-  const base = outDir || path.join(cacheDir(), 'previews', `web-${folderSlug(label)}`);
+  const base = outDir || path.join(cacheDir(), 'previews', `web-${folderSlug(label).slice(0, 40)}-${hash(label)}`);
   fs.rmSync(base, { recursive: true, force: true });
   fs.mkdirSync(base, { recursive: true });
   const items = [];
@@ -146,7 +158,7 @@ export async function previewWeb(cands, label, { minWidth = 0, max = 12, outDir,
     sheet = path.join(base, 'contact-sheet.jpg');
     await sharp({ create: { width: cols * TW, height: rows * (TH + LH), channels: 3, background: '#12100d' } }).composite(comps).jpeg({ quality: 82 }).toFile(sheet);
   }
-  fs.writeFileSync(path.join(base, 'items.json'), JSON.stringify(items, null, 1));
+  fs.writeFileSync(path.join(base, 'items.json'), JSON.stringify(ok, null, 1)); // numbered as on the contact sheet
   return { dir: base, sheet, items };
 }
 
@@ -155,19 +167,20 @@ export async function previewWeb(cands, label, { minWidth = 0, max = 12, outDir,
  * (the venue's site, its booking page, an article): it becomes the credit link.
  */
 export async function grabWeb(imageUrl, mediaDir, { name, pageUrl, credit, description, area, force = false, fetchImpl = fetch } = {}) {
-  if (!/^https?:\/\//.test(String(imageUrl))) throw new Error('give the direct image URL (https://…jpg), as printed by `./atr media web` or `./atr media scout`');
+  const local = !/^https?:\/\//.test(String(imageUrl)) && fs.existsSync(String(imageUrl)); // a file you cropped or converted yourself
+  if (!local && !/^https?:\/\//.test(String(imageUrl))) throw new Error('give the direct image URL (https://…jpg), as printed by `./atr media web` or `./atr media scout`, or a local image file');
   if (!pageUrl || !/^https?:\/\//.test(pageUrl)) throw new Error('give --from <page-url>: the page the photo is shown on (the venue\'s site, its booking page, an article about it)');
-  const buf = await downloadImage(imageUrl, { referer: pageUrl, fetchImpl });
+  const buf = local ? fs.readFileSync(imageUrl) : await downloadImage(imageUrl, { referer: pageUrl, fetchImpl });
   let meta;
   try { meta = await sharp(buf, { failOn: 'none' }).rotate().metadata(); } catch { throw new Error(`${imageUrl} did not decode as an image`); }
   const width = meta.autoOrient?.width ?? meta.width;
   if (width < MIN_WIDTH && !force) throw new Error(`${imageUrl} is only ${width} px wide (minimum ${MIN_WIDTH}; a hero needs 1600). Look for a larger version (many sites take a size in the URL, e.g. w=1920 or =s2048), or pass --force for a gallery photo you really want.`);
-  const base = (() => { try { return decodeURIComponent(path.basename(new URL(imageUrl).pathname)); } catch { return 'photo'; } })();
+  const base = local ? path.basename(imageUrl) : (() => { try { return decodeURIComponent(path.basename(new URL(imageUrl).pathname)); } catch { return 'photo'; } })();
   const file = name ? slugify(name) : safeSlug(base);
   const out = await processImage(buf, mediaDir, file);
   return upsertCredit(mediaDir, {
     file, title: base.slice(0, 300), author: credit || hostOf(pageUrl), license: WEB_LICENSE,
-    source_url: pageUrl, original_url: imageUrl,
+    source_url: pageUrl, ...(local ? {} : { original_url: imageUrl }),
     ...(description ? { description } : {}),
     width: out.width, height: out.height, widths: out.widths, fetched: localDate(), origin: 'web',
     ...(area ? { area } : {}),

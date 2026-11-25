@@ -238,7 +238,7 @@ export async function processImage(buf, mediaDir, name, { widths = WIDTHS, quali
   const oh = meta.autoOrient?.height ?? meta.height;
   let targets = widths.filter((w) => w <= ow);
   if (!targets.length) targets = [ow];
-  else if (ow < widths.at(-1) && !targets.includes(ow) && ow - targets.at(-1) > 200) targets.push(ow);
+  else if (ow < widths.at(-1) && !targets.includes(ow) && ow - targets.at(-1) > 60) targets.push(ow);
   for (const old of fs.readdirSync(mediaDir)) if (old.startsWith(`${name}-`) && /-\d+\.webp$/.test(old)) fs.rmSync(path.join(mediaDir, old));
   for (const w of targets) {
     await sharp(buf, { failOn: 'none' }).rotate().resize({ width: w, withoutEnlargement: true }).webp({ quality: w >= 2000 ? quality - 8 : w >= 1200 ? quality - 4 : quality, effort: 5 }).toFile(path.join(mediaDir, `${name}-${w}.webp`));

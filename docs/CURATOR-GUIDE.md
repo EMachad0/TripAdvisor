@@ -332,6 +332,17 @@ Rules:
 - **Captions say what the photo shows**, never an apology. Don't write "no free photo of…".
 - **Credit** is automatic: `grab` records the page it came from. Pass `--credit "<venue or site name>"` when the host name is not a good credit.
 
+Getting the big version (sites often show a small copy; ask for the original):
+- **Hostelworld**: `media scout <hostelworld url>` lists every photo through its API.
+- **Booking.com** (`bstatic.com`): replace the size part with `max1920x1080`, keeping the `k=` key. Agoda and other listing sites often embed the same Booking images.
+- **Trip.com / Ctrip / Qunar / Klook**: drop the size suffix from the image URL. Klook: `res.klook.com/images/fl_lossy.progressive,q_85/activities/<id>/<name>.jpg` is the clean original without the watermark.
+- **Naver blog**: `https://blogfiles.pstatic.net/<same path>` without `?type=` is the original (up to 4032 px). **Catchtable** `shop/manager/images/<id>`: drop `?detail750`.
+- **WordPress / Wix / Cloudinary / Squarespace**: strip the `-1024x768`, `w_800` or `?format=750w` part.
+- **Tabelog** (660 px) and **Michelin** (800–1000 px) never serve a hero-size image: use them for the gallery only (`--force` under 1000 px).
+- Bot-walled for `scout` (Trip.com, Expedia, Tabelog, Zhihu, Klook pages): use `media web "<name> site:trip.com"` or another source.
+- To crop a photo (cut off a map panel or a banner), crop it with `sharp` into your scratch folder and `grab` the local file: `./atr media grab <id> /path/cropped.jpg --from <page-url>`.
+- Each `media web` run can return a different order: take the image URL from the run you looked at.
+
 Last resorts, only after all three sources came up empty (say which searches you ran in `confidence_note`):
 1. A photo of the **immediate surroundings** (the alley, the building, the market hall), with a caption that says what it is.
 2. No `hero.image`: the page gets a typographic hero. `./atr validate` warns about both, on purpose.
