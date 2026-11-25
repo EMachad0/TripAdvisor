@@ -82,8 +82,9 @@ last_updated: 2026-11-25
 
 blocks:
   - type: hero
-    image: fuzhou-road
-    caption: Fuzhou Road a block from the studio. No free photos of the studio or its shoots exist
+    image: night-shoot
+    caption: "A retouched night shoot from the studio's KKday listing: a women's Tang-style look"
+    focus: "60% 40%"
     hook: Walk in as yourself, walk out in a Ming-style robe with your hair up, and get told exactly how to stand.
   - type: quick_facts
     time_needed: 3.5–4 h
@@ -112,6 +113,10 @@ blocks:
       **The cheaper alternative.** Qiujianyu (秋笺语), inside the Yu Garden department store, sells the same 30 raw + 6 retouched with makeup, hair, outfit and a photographer for ¥613 on [KKday](https://www.kkday.com/en/product/614301) (sale price on 25 Nov 2026; list ¥833), and charges ¥60 per extra retouched photo against Fangfeige's ¥80. Its reviews also praise the posing help, and the same comparison guide says it offers men's hanfu. What it lacks is any men's photo we could find, and none of the KKday reviews we could read mentions a man. At the sale price Fangfeige costs about ¥200 more; what that buys is the one male client we could actually see, plus a ride to the Bund or City God Temple. If Fangfeige can't show you men's outfits, ask Qiujianyu the same question (its listing gives WeChat and WhatsApp contact) before booking there instead.
 
       Why it's worth more than a day's budget: you asked for photos you keep for good, with someone else doing the styling and posing. Either studio's 30 + 6 package covers that whole job.
+  - type: gallery
+    images:
+      - { file: garden-shoot, caption: "A daytime garden shoot from the same listing, hair and makeup by the studio" }
+      - { file: fuzhou-road, caption: "Fuzhou Road, a block from the studio's bookstore building" }
   - type: book_ahead
     steps:
       - days_before: 5

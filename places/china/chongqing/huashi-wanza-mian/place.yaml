@@ -61,8 +61,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: xiaomian-bowl
-    caption: "A bowl of Chongqing xiaomian, not taken at Hua Shi; no free photo of the shop itself"
+    image: wanza-bowl
+    caption: "Hua Shi's dry wanza noodles: soft peas and fried pork mince over chili oil"
     hook: Peas cooked to mush, a spoon of pork mince, and chili oil pooling at the bottom of the bowl.
   - type: quick_facts
     time_needed: 30–45 min
@@ -87,6 +87,12 @@ blocks:
       The noodles are fresh alkaline wheat noodles, but in Chongqing the sauce is the point: Wander in China counts up to fifteen condiments in one bowl, from chili oil and Sichuan pepper to lard, garlic water and pickled mustard greens. Wan za mian adds two toppings: peas boiled until creamy and *za jiang*, a minced-pork sauce.
 
       Order by weight, not by size: **er liang** (two liang of dough) is the standard adult bowl, san liang if you are hungry. Then say how you want it: *gan liu* (dry), *wei la* (mild), *jia wo zi* (add a fried egg). A Ctrip regular mixes for a long time, eats half plain, then adds the aged vinegar from the table for the second half.
+  - type: gallery
+    images:
+      - file: shopfront
+        caption: "The Minsheng Road shopfront and its big yellow sign, 2017"
+      - file: shop-sign
+        caption: "The sign over the door: 'top 5 Chongqing xiaomian'"
   - type: quote
     variant: vibe
     text: A plastic stool, a steaming bowl, and the whole street eating breakfast at once.

@@ -31,35 +31,42 @@
     - 2048
   fetched: 2026-11-10
   origin: commons
-- file: metro-christmas-tree
-  title: File:201512 Christmas tree at People's Square station transfer concourse 1.jpg
-  author: Another Believer
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:201512_Christmas_tree_at_People%27s_Square_station_transfer_concourse_1.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5c/201512_Christmas_tree_at_People%27s_Square_station_transfer_concourse_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Shanghai (December 2015)
-  width: 4000
-  height: 3000
+- file: bund-market-aerial
+  title: christmas-market-shanghai-2.jpg
+  author: Fabio Nodari
+  license: All rights reserved (personal use)
+  source_url: https://www.fabionodariphoto.com/en/shanghai-2/
+  original_url: https://www.fabionodariphoto.com/wp-content/uploads/2023/12/christmas-market-shanghai-2.jpg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: union-church-stalls
+  title: maxresdefault.jpg
+  author: YouTube walk video (2023)
+  license: All rights reserved (personal use)
+  source_url: https://www.youtube.com/watch?v=I75mBVair94
+  original_url: https://i.ytimg.com/vi/I75mBVair94/maxresdefault.jpg
+  width: 1280
+  height: 720
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-10
-  origin: commons
-- file: arcade-christmas-tree
-  title: File:Shanghai, China, December 2015 - 034.JPG
-  author: Another Believer
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Shanghai,_China,_December_2015_-_034.JPG
-  original_url: https://upload.wikimedia.org/wikipedia/commons/0/01/Shanghai%2C_China%2C_December_2015_-_034.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Shanghai, China, December 2015
-  width: 3000
-  height: 4000
+  fetched: 2026-11-25
+  origin: web
+- file: market-tree
+  title: photo2jpg.jpg
+  author: Tripadvisor
+  license: All rights reserved (personal use)
+  source_url: https://www.tripadvisor.co.uk/Attraction_Review-g308272-d23004477-Reviews-Christkindlmarkt-Shanghai.html
+  original_url: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/74/f9/80/photo2jpg.jpg?w=2000&h=2000&s=1
+  width: 1241
+  height: 695
   widths:
     - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-10
-  origin: commons
+    - 1241
+  fetched: 2026-11-25
+  origin: web

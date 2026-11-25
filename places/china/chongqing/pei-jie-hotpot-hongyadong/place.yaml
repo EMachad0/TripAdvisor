@@ -61,8 +61,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: nine-grid-pot
-    caption: "A nine-grid pot in Chongqing (not at Pei Jie; no free photo of the restaurant)"
+    image: hotpot-pot
+    caption: "A split pot at Pei Jie's Hongyadong branch: chili-heavy mala beside a mushroom broth"
     hook: Beef tallow, dried chilies and Sichuan pepper boiling in a grid, eleven floors up a cliffside of lights.
   - type: quick_facts
     time_needed: 1.5–2 h + queue
@@ -87,6 +87,12 @@ blocks:
       Hotpot is built for a table of friends, and the honest problem for a solo diner is the **base fee**: Cities Insider lists it separately at ¥38–68 per pot, so alone you pay all of it. Keep the rest small. One plate of **fresh tripe** (mao du, ¥48–88), a ¥6–12 sauce and an ice jelly to finish comes to about ¥100. Chongqing's default is a single red pot (China for Travelers); a split *yuanyang* pot with a mild half costs no extra there, but China Xian Tour's tip for Pei Jie is half tomato, half red.
 
       The better plan is to bring people: ask around your hostel, since three or four people make Pei Jie's ¥110–120 a head go much further. If you're alone anyway, use the late hours: it stays open until 02:00, so there is no need to queue at peak dinner time.
+  - type: gallery
+    images:
+      - file: entrance
+        caption: "The entrance inside Hongyadong, under the 珮姐老火锅 sign"
+      - file: dining-room
+        caption: "The dining room: wooden benches and lanterns"
   - type: quote
     variant: vibe
     text: Seven dips up, eight down, and a bottle of peanut milk for the burn.

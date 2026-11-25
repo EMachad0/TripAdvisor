@@ -1,0 +1,57 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: treatment-room
+  title: fp-selfg-treatment-room-4-18692.jpg
+  author: Four Points by Sheraton Seoul Gangnam (Marriott)
+  license: All rights reserved (personal use)
+  source_url: https://www.marriott.com/en-us/hotels/selfg-four-points-seoul-gangnam/experiences/in-spa/
+  original_url: https://www.marriott.com/content/dam/marriott-digital/fp/apec/hws/s/selfg/en_us/photo/unlimited/assets/fp-selfg-treatment-room-4-18692.jpg
+  width: 5000
+  height: 3352
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: spa-lounge
+  title: fp-selfg-spa-lounge-1-41145.jpg
+  author: Four Points by Sheraton Seoul Gangnam (Marriott)
+  license: All rights reserved (personal use)
+  source_url: https://www.marriott.com/en-us/hotels/selfg-four-points-seoul-gangnam/experiences/in-spa/
+  original_url: https://www.marriott.com/content/dam/marriott-digital/fp/apec/hws/s/selfg/en_us/photo/unlimited/assets/fp-selfg-spa-lounge-1-41145.jpg
+  width: 5000
+  height: 3333
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: fp-selfg-entrance-35561.jpg
+  author: Four Points by Sheraton Seoul Gangnam (Marriott)
+  license: All rights reserved (personal use)
+  source_url: https://www.marriott.com/en-us/hotels/selfg-four-points-seoul-gangnam/experiences/in-spa/
+  original_url: https://www.marriott.com/content/dam/marriott-digital/fp/apec/hws/s/selfg/en_us/photo/unlimited/assets/fp-selfg-entrance-35561.jpg
+  width: 5000
+  height: 3335
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: welcome-tea
+  title: fp-selfg-welcome-tea-4-31844.jpg
+  author: Four Points by Sheraton Seoul Gangnam (Marriott)
+  license: All rights reserved (personal use)
+  source_url: https://www.marriott.com/en-us/hotels/selfg-four-points-seoul-gangnam/experiences/in-spa/
+  original_url: https://www.marriott.com/content/dam/marriott-digital/fp/apec/hws/s/selfg/en_us/photo/unlimited/assets/fp-selfg-welcome-tea-4-31844.jpg
+  width: 5000
+  height: 3333
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

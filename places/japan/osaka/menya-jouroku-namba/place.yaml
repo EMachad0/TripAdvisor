@@ -49,11 +49,13 @@ sources:
     title: Osaka — Wikipedia (climate table)
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Hours, Wednesday closing, address and the ¥900 regular agree across Noodlers and several Retty reviews (2025–26); one 2026 Retty review lists ¥1,000 for a regular, so the price may have risen. Tabelog and the shop's X account weren't readable here. No free photo of the shop exists."
+confidence_note: "Hours, Wednesday closing, address and the ¥900 regular agree across Noodlers and several Retty reviews (2025–26); one 2026 Retty review lists ¥1,000 for a regular, so the price may have risen. Tabelog and the shop's X account weren't readable here."
 last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: chuka-soba
+    caption: "Chuka soba with a seasoned egg, a leaf-wrapped hayazushi and a beer at the counter"
     hook: Soup as dark as coffee, which tastes rounder than it looks.
   - type: quick_facts
     time_needed: 30–45 min
@@ -77,6 +79,12 @@ blocks:
       Most visitors to Namba eat at the neon places on Dotonbori. Jouroku is on a back street a few minutes away, with signed celebrity boards on the walls and a counter where you order out loud. Its soup is East Osaka's black Takaida style. Few foreign visitors have heard of it, though a 2026 reviewer found the counter mostly full of them, so word is spreading.
 
       It is the cheap classic for Osaka: under ¥1,000 for the bowl, ¥100 for a seasoned egg, ¥150–200 for a piece of sushi. Pair it with the Jinrui Mina Menrui queue on another day.
+  - type: gallery
+    feature: false
+    images:
+      - { file: shopfront, caption: "The black-and-navy shopfront on its Ura-Namba side street" }
+      - { file: interior, caption: "Signed celebrity boards and posters cover the walls" }
+      - { file: hayazushi, caption: "Hayazushi, the Wakayama pressed sushi in its leaf, with a beer" }
   - type: menu
     title: What to order
     items:

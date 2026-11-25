@@ -61,6 +61,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: alley-entrance
+    caption: "The queue under the awning at No. 685 Dingxi Road"
     hook: Spring onions fried slow until they turn to dark gold, then tossed through noodles with two kinds of soy.
   - type: quick_facts
     time_needed: 30–45 min
@@ -85,6 +87,10 @@ blocks:
       Scallion-oil noodles go back to the cold noodle dishes of the Tang and Song dynasties, but the Shanghai bowl dates from 1889. The trick is the oil: small spring onions fried slowly in hot oil until they are dry, golden and fragrant. Then the sauce: **light soy** for salt and **dark soy** for colour, often with *kaiyang*, dried shrimp.
 
       The government guide tells you how to eat it: before the first bite, lift the noodles from the centre with your chopsticks a few times until every strand is coated. At Huxi Laolongtang, add a topping (浇头) and you have a full Shanghainese lunch for very little.
+  - type: gallery
+    images:
+      - { file: topping-noodles, caption: "Noodles under a braised topping at the Dingxi Road shop" }
+      - { file: alley-tables, caption: "Shared tables in the covered alley at lunchtime" }
   - type: quote
     variant: vibe
     text: A dark, glossy tangle of noodles, crisp burnt scallions on top, and a lane-house queue outside.

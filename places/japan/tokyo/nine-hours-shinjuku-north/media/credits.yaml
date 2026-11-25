@@ -1,33 +1,57 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: shin-okubo-station
-  title: File:Entrance of Shin-Ōkubo Station by Ōkubo-dōri in Hyakunincho, Shinjuku, Tokyo, Japan, 2024 May.jpg
-  author: Ximonic (Simo Räsänen)
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Entrance_of_Shin-%C5%8Ckubo_Station_by_%C5%8Ckubo-d%C5%8Dri_in_Hyakunincho,_Shinjuku,_Tokyo,_Japan,_2024_May.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/f/ff/Entrance_of_Shin-%C5%8Ckubo_Station_by_%C5%8Ckubo-d%C5%8Dri_in_Hyakunincho%2C_Shinjuku%2C_Tokyo%2C_Japan%2C_2024_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Entrance of Shin-Ōkubo Station by Ōkubo-dōri Avenue in Hyakunincho, Shinjuku, Tokyo, Japan in 2024 May.
-  width: 4200
-  height: 2735
+- file: pods
+  title: slide007.jpg
+  author: Nine Hours
+  license: All rights reserved (personal use)
+  source_url: https://ninehours.co.jp/en/shinjuku-north
+  original_url: https://assets.ninehours.co.jp/images/photolibrary/41_shinjukunorth/slide007.jpg
+  width: 1556
+  height: 974
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-10
-  origin: commons
-- file: pods-narita
-  title: File:Sovhall i podhotell.jpg
-  author: Viola Parker
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Sovhall_i_podhotell.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e8/Sovhall_i_podhotell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Hallway - pod hotel at Narita International Airport
-  width: 3264
-  height: 2448
+    - 1556
+  fetched: 2026-11-25
+  origin: web
+- file: lounge
+  title: slide002.jpg
+  author: Nine Hours
+  license: All rights reserved (personal use)
+  source_url: https://ninehours.co.jp/en/shinjuku-north
+  original_url: https://assets.ninehours.co.jp/images/photolibrary/41_shinjukunorth/slide002.jpg
+  width: 1556
+  height: 974
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-10
-  origin: commons
+    - 1556
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: slide001.jpg
+  author: Nine Hours
+  license: All rights reserved (personal use)
+  source_url: https://ninehours.co.jp/en/shinjuku-north
+  original_url: https://assets.ninehours.co.jp/images/photolibrary/41_shinjukunorth/slide001.jpg
+  width: 1556
+  height: 974
+  widths:
+    - 640
+    - 1280
+    - 1556
+  fetched: 2026-11-25
+  origin: web
+- file: washroom
+  title: slide005.jpg
+  author: Nine Hours
+  license: All rights reserved (personal use)
+  source_url: https://ninehours.co.jp/en/shinjuku-north
+  original_url: https://assets.ninehours.co.jp/images/photolibrary/41_shinjukunorth/slide005.jpg
+  width: 1556
+  height: 974
+  widths:
+    - 640
+    - 1280
+    - 1556
+  fetched: 2026-11-25
+  origin: web

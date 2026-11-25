@@ -1,0 +1,40 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: pool
+  title: 1764924772597-c9tor9kqe8g.JPG
+  author: 240 Hours in China (Dianping photo)
+  license: All rights reserved (personal use)
+  source_url: https://www.240hoursinchina.com/en-us/chongqing/guide/24hour-spa
+  original_url: https://assets.240hoursinchina.com/hosts/1764924772597-c9tor9kqe8g.JPG
+  width: 1000
+  height: 675
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: recliner-lounge
+  title: 1000.webp
+  author: 240 Hours in China (Dianping photo)
+  license: All rights reserved (personal use)
+  source_url: https://www.240hoursinchina.com/en-us/chongqing/guide/24hour-spa
+  original_url: https://assets.240hoursinchina.com/responsive-images/v1/1f97cf059fbbe2f24fb164e210fa51c6ea09581db0b14d61ee069882defc59b4/1000x750/1000.webp
+  width: 1000
+  height: 750
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: buffet
+  title: 1000.webp
+  author: 240 Hours in China (Dianping photo)
+  license: All rights reserved (personal use)
+  source_url: https://www.240hoursinchina.com/en-us/chongqing/guide/24hour-spa
+  original_url: https://assets.240hoursinchina.com/responsive-images/v1/bf800991aed3b5e32292aabd4bd24060683b101d21387f0a8d8e28f64a5e8b23/1000x807/1000.webp
+  width: 1000
+  height: 807
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

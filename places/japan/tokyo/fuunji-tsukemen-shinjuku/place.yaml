@@ -63,8 +63,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: entrance
-    caption: The entrance with its blue noren (older Commons photo)
+    image: tsukemen-set
+    caption: "Fuunji's tsukemen: thick noodles beside the chicken-and-fish dip with fish powder and nori"
     hook: Dip, slurp, repeat — a bowl of chicken-and-fish sludge so thick it clings to every noodle.
   - type: quick_facts
     time_needed: 30 min + the queue
@@ -91,8 +91,9 @@ blocks:
       Ramen Adventures' blogger called it his new favourite tsukemen, ahead of Tokyo heavyweights TETSU and Rokurinsha, for the "layers upon layers of fish flavors". A large portion of noodles (麺特盛) is ¥200 more on the official menu.
   - type: gallery
     images:
+      - { file: counter-crowd, caption: "The packed counter with the open kitchen behind" }
+      - { file: entrance, caption: "The entrance with its blue noren" }
       - { file: dipping-soup, caption: "The chicken-and-fish dipping soup with egg and nori (older photo)" }
-      - { file: noodles, caption: "The thick noodles, served apart from the soup" }
       - { file: counter, caption: "The counter: water, condiments and the kettles behind" }
   - type: menu
     items:

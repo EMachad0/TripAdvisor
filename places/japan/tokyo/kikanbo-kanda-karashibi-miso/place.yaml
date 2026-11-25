@@ -61,8 +61,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: kanda-east-exit
-    caption: Kanda Station's east side, 3 min from the shop. No free photo of the shop itself
+    image: karashibi-bowl
+    caption: "Karashibi miso ramen at the Kanda shop: chili-red broth, chashu, egg and baby corn"
     hook: Two dials, kara and shibi. Turn both up and your lips go numb before the bowl is half gone.
   - type: quick_facts
     time_needed: 30 min + the queue
@@ -81,6 +81,10 @@ blocks:
         text: "*Kikanbō* is an ogre's iron club, and the room plays along: black walls, **festival devil masks** and taiko drumming on the speakers."
       - title: One stop from Akihabara
         text: Pair it with an Akihabara afternoon; Kanda is the next JR stop south.
+  - type: gallery
+    images:
+      - { file: shopfront-night, caption: "The Kanda shopfront at night, with the queue at the door" }
+      - { file: counter, caption: "The dark counter under the row of devil masks" }
   - type: menu
     items:
       - { name: Karashibi miso ramen, name_local: カラシビ味噌らー麺, price_local: 1080, price_brl: 37.98, note: The signature. Choose kara and shibi levels, tag: spicy }

@@ -60,8 +60,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: led-tool-street
-    caption: "Euljiro's LED and tool street by day. No free photo of the pub alley at night exists"
+    image: manseon-hof-night
+    caption: "The nogari alley on a mild night: plastic stools outside Manseon Hof"
     hook: By day, drill bits and LED strips. By night, beer foam and pollack smoke.
     focus: center
   - type: quick_facts
@@ -100,10 +100,10 @@ blocks:
     images:
       - file: printing-alley
         caption: Euljiro by day. The printing and paper trade still fills the ground floors
+      - file: alley-crowd
+        caption: A packed spring evening in the alley, every table taken
       - file: euljiro-3ga-street
         caption: Euljiro 3-ga crossroads. The pub alley starts just off this street
-      - file: station-sign
-        caption: Line 2's Euljiro 3-ga stop. Use Exit 3 for the alley
   - type: quote
     variant: vibe
     text: Clinking 500 ml mugs and shouted orders, with the shop shutters still down from the day.

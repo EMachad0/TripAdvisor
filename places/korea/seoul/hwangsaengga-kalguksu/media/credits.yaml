@@ -1,49 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: samcheong-dong-street
-  title: File:Samcheong-dong.jpg
-  author: travel oriented
-  license: CC BY-SA 2.0
-  license_url: https://creativecommons.org/licenses/by-sa/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Samcheong-dong.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Samcheong-dong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Samcheong-dong
-  width: 3232
-  height: 2160
+- file: noodle-lift
+  title: photo1jpg.jpg
+  author: Tripadvisor traveller photo
+  license: All rights reserved (personal use)
+  source_url: https://www.tripadvisor.com/Restaurant_Review-g294197-d1918214-Reviews-Hwangsaengga_Kalguksu-Seoul.html
+  original_url: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/0a/78/7b/photo1jpg.jpg?w=2400&h=-1&s=1
+  width: 1536
+  height: 1152
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-23
-  origin: commons
-- file: kalguksu-bowl
-  title: File:Korean.noodle-Kalguksu-01.jpg
-  author: jslander
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Korean.noodle-Kalguksu-01.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b8/Korean.noodle-Kalguksu-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Kalguksu, a korean noodle dish in hot soup.
-  width: 3872
-  height: 2592
+    - 1536
+  fetched: 2026-11-25
+  origin: web
+- file: kalguksu-bowl-frieze
+  title: hwangsaengga.png
+  author: Frieze
+  license: All rights reserved (personal use)
+  source_url: https://www.frieze.com/fairs/frieze-seoul/guide/jongno
+  original_url: https://static.frieze.com/files/inline-images/hwangsaengga.png?VersionId=S6XpCFH7mxmzpVeAaTp20zb10IT.NdYr
+  width: 1280
+  height: 859
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-23
-  origin: commons
-- file: hanok-rooftops
-  title: File:Korea-Seoul-Hanok rooftops.jpg
-  author: hojusaram
-  license: CC BY-SA 2.0
-  license_url: https://creativecommons.org/licenses/by-sa/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Korea-Seoul-Hanok_rooftops.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7e/Korea-Seoul-Hanok_rooftops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Looking down on hanok rooftops, Samcheong-dong.
-  width: 3456
-  height: 2304
+  fetched: 2026-11-25
+  origin: web
+- file: dining-room
+  title: 5a491f9b7aa24fcb92078f21f1eeabee.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurant/hwangsaengga-kalguksu
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/5a491f9b7aa24fcb92078f21f1eeabee.jpeg
+  width: 1000
+  height: 1000
   widths:
     - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-23
-  origin: commons
+    - 1000
+  fetched: 2026-11-25
+  origin: web

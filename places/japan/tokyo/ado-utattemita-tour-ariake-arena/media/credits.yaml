@@ -15,3 +15,44 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
+- file: mars-budokan
+  title: Ado-Live-Tour-2023-2-Budokan-A.jpg
+  author: Ongaku to You
+  license: All rights reserved (personal use)
+  source_url: https://www.ongakutoyou.com/blog/ado-japan-tour-2023-mars-now-available-for-streaming-worldwide-on-beyond-live
+  original_url: https://images.squarespace-cdn.com/content/v1/5ac8997aaa49a16d3b6dfe3a/69654240-9b64-4ce0-b9ba-d6fd80ae36e3/Ado-Live-Tour-2023-2-Budokan-A.jpg
+  width: 2000
+  height: 1334
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: dome-cage
+  title: Viola_20251111_02_Ado_VKED_VW_4055.jpg
+  author: Natalie
+  license: All rights reserved (personal use)
+  source_url: https://natalie.mu/music/news/649473
+  original_url: https://ogre.natalie.mu/media/news/music/2025/1125/Viola_20251111_02_Ado_VKED_VW_4055.jpg?imwidth=1280&imdensity=1
+  width: 1280
+  height: 853
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: hibana-cage
+  title: DSC00862SS.jpg
+  author: USEN
+  license: All rights reserved (personal use)
+  source_url: https://e.usen.com/news/news-event/ado-2hibana-2-accor-arena.html
+  original_url: https://e.usen.com/image/DSC00862SS.jpg
+  width: 1500
+  height: 1000
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web

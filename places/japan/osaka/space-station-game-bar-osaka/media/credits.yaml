@@ -1,0 +1,41 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: bar-counter
+  title: img_4462.jpg
+  author: allmyfriendsarejpegs
+  license: All rights reserved (personal use)
+  source_url: https://allmyfriendsarejpegs.com/2019/03/08/japan-2016-part-11-osaka-part-four/
+  original_url: https://allmyfriendsarejpegs.com/wp-content/uploads/2019/02/img_4462.jpg
+  width: 2400
+  height: 1600
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: consoles
+  title: space-station-video-game-bar-osaka-nishishinsaibashi-1024x768.webp
+  author: Nomad in Japan
+  license: All rights reserved (personal use)
+  source_url: https://nomadinjapan.com/1-day-in-osaka-itinerary/
+  original_url: https://nomadinjapan.com/wp-content/uploads/2025/03/space-station-video-game-bar-osaka-nishishinsaibashi-1024x768.webp
+  width: 1024
+  height: 768
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: green-room
+  title: spacestation-bar-osaka2.jpg
+  author: Your Japan
+  license: All rights reserved (personal use)
+  source_url: https://itsyourjapan.com/themed-bars-osaka/
+  original_url: https://itsyourjapan.com/wp-content/uploads/2021/03/spacestation-bar-osaka2.jpg
+  width: 1080
+  height: 810
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web

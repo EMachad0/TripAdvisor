@@ -82,9 +82,9 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: ariake-arena
+    image: mars-budokan
     focus: center
-    caption: Ariake Arena from outside; no free photo of an Ado show
+    caption: "Ado on her 2023 'Mars' tour at the Budokan: a laser show, a lit stage and a hall of penlights"
     hook: Ado's 10th year as a singer, celebrated with a covers tour that opens in Tokyo on her anniversary day.
   - type: quick_facts
     time_needed: About 5 h
@@ -117,6 +117,11 @@ blocks:
       - { days_before: 60, text: "Check Ado's fan site for any further member lottery, and whether you can join from abroad." }
       - { days_before: 45, text: "Watch the **DISK GARAGE** pages for the general sale date; buy the moment it opens." }
       - { days_before: 0, text: "Doors open 90 min before the show. Bring the ticket in whatever form the seller issues it." }
+  - type: gallery
+    images:
+      - { file: ariake-arena, caption: "Ariake Arena, the venue for both Tokyo nights" }
+      - { file: dome-cage, caption: "Ado sings in silhouette inside a lit cage, as at every show (2025 dome tour)" }
+      - { file: hibana-cage, caption: "The cage stage on her 2025 'Hibana' world tour" }
   - type: quote
     variant: vibe
     text: Twelve thousand penlights in the dark, and that voice.

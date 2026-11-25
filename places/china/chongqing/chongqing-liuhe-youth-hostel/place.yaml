@@ -85,6 +85,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
+    image: roof-terrace
+    caption: "The hostel's roof terrace, with planters and a pergola above the city"
     hook: "A loft at the top of an office tower, with terraces looking down the Yangtze and cats wandering between the bunks."
   - type: quick_facts
     extra:
@@ -154,6 +156,15 @@ blocks:
       LiuHe is the one real alternative to the three stays already on your list. It is the cheapest good bed, and its terraces are a natural place to meet people. But it is small and new to Hostelworld, and no review mentions a big night out. For partying, the social plan is: find people here or at Only Cafe, then go out to ESMI or Cici Park together.
 
       **For the work week:** free wifi, but no desk or coworking listed and no review about working. **The 01:00 call on Tue 29 Dec** has no good spot here: dorms only, limited reception hours, and no source on the terraces at night. Book the Merica Hotel for 28 Dec, as the other hostel cards say.
+  - type: gallery
+    feature: false
+    images:
+      - file: bar-lounge
+        caption: "The bar and lounge, with the stairs up to the terrace"
+      - file: dorm
+        caption: "A dorm: bunks with curtains and reading lights"
+      - file: balcony-night
+        caption: "The balcony at night, the river lights below"
   - type: book_ahead
     steps:
       - { days_before: 14, text: "Book 26 Dec – 2 Jan as one stay: about **¥331 (R$274)** for seven nights in the 8-bed dorm on 11 Nov." }

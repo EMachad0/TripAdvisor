@@ -79,8 +79,8 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: qiantan-taikoo-li
-    caption: "Qiantan Taikoo Li and Qiantan Center; the hotel is next door (no free photo of the restaurant)"
+    image: set-menu-table
+    caption: "A Jiangnan Wok table laid with the set menu, in the hotel's own promo photo"
     hook: Yangtze-delta cooking as a set for one, a short walk from the metro.
   - type: quick_facts
     time_needed: 1.5–2 h
@@ -101,9 +101,10 @@ blocks:
         text: "About **R$329**, roughly **two days of budget**, for one sit-down regional feast. It's under the €100 ceiling, and a weekday lunch keeps the evening free."
   - type: gallery
     images:
+      - { file: dining-room, caption: "The main dining room on Level 7" }
+      - { file: private-room, caption: "A private room with a round table" }
       - { file: lions-head, caption: "Lion's head meatball, a Huaiyang classic (photo from another restaurant)" }
-      - { file: dazhu-gansi, caption: "Simmered tofu shreds, a Yangzhou classic (display dish, not this restaurant)" }
-      - { file: eel, caption: "Eel, a Huaiyang staple; this menu has several eel dishes (other restaurant)" }
+      - { file: qiantan-taikoo-li, caption: "Qiantan Taikoo Li and Qiantan Center, next door to the hotel" }
     feature: false
   - type: quote
     variant: vibe

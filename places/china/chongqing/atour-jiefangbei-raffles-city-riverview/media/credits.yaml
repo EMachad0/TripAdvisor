@@ -1,17 +1,43 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: raffles-city-night
-  title: File:Raffles City Chongqing 20260507-3.jpg
-  author: Suicasmo
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_20260507-3.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cc/Raffles_City_Chongqing_20260507-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Raffles City Chongqing
-  width: 5184
-  height: 3456
+- file: room-city-view
+  title: 28826242_211118112500108665091.jpg
+  author: Agoda
+  license: All rights reserved (personal use)
+  source_url: https://www.agoda.com/atour-hotel-chongqing-jiefangbei-raffles-plaza-riverview/hotel/chongqing-cn.html
+  original_url: https://pix6.agoda.net/hotelImages/288/28826242/28826242_211118112500108665091.jpg
+  width: 2048
+  height: 1365
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-24
-  origin: commons
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: tower-exterior
+  title: 815322736.jpg
+  author: Booking.com
+  license: All rights reserved (personal use)
+  source_url: https://www.booking.com/hotel/cn/atour-chongqing-jiefangbei-raffles-city-riverview.html
+  original_url: https://cf.bstatic.com/xdata/images/hotel/max1920x1080/815322736.jpg?k=837de2ee27a9ca550272057a064dc4c6a489849f828e3107884a8ed235895a47&o=
+  width: 1620
+  height: 1080
+  widths:
+    - 640
+    - 1280
+    - 1620
+  fetched: 2026-11-25
+  origin: web
+- file: lobby
+  title: 2625c2bf5c8eae540dcbb62e6a899add.jpeg
+  author: Agoda
+  license: All rights reserved (personal use)
+  source_url: https://www.agoda.com/atour-hotel-chongqing-jiefangbei-raffles-plaza-riverview/hotel/chongqing-cn.html
+  original_url: https://pix10.agoda.net/hotelImages/28826242/0/2625c2bf5c8eae540dcbb62e6a899add.jpeg?ce=2&s=1600x1200
+  width: 1600
+  height: 1066
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web

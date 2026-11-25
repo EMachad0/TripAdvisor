@@ -66,8 +66,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: market-gate
-    caption: "A gate of Osaka's Central Wholesale Market. No free photo of the restaurant exists"
+    image: jo-maze-plate
+    caption: "A plate of five: grilled conger eel, sea urchin, white fish, tuna and yellowtail"
     hook: Four generations of the Endō family have served market workers here since 1907.
   - type: quick_facts
     time_needed: 1–2 h with queue
@@ -86,6 +86,10 @@ blocks:
         text: "Soy sauce comes with a **brush**, so you paint each piece yourself (2026 Retty review)."
       - title: A real market morning
         text: "The official site says it began in **1907** at Osaka's old Zakoba fish market and moved into the new Central Market when it opened in **November 1931**. Four generations later, it's still there."
+  - type: gallery
+    images:
+      - { file: shopfront, caption: "The shopfront in the market's restaurant row, blue noren over the door" }
+      - { file: second-plate, caption: "Another jō-maze plate: squid, salmon roe, horse mackerel, tuna, salmon" }
   - type: menu
     title: "The order"
     items:

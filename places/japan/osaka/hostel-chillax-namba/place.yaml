@@ -67,8 +67,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: sakuragawa-exit
-    caption: "Sakuragawa station, 5 minutes away. No free photo of the hostel exists"
+    image: lounge-neon
+    caption: "The green lounge with the Chillax neon, DJ decks and jukebox"
     hook: "Laptop in the coworking space by day, the riverside terrace at night, Dotonbori 10 minutes away."
   - type: quick_facts
     extra:
@@ -123,6 +123,11 @@ blocks:
         text: "The hostel runs reggae music events and invites guests on pub crawls; a July 2026 reviewer made friends on the terrace."
       - title: Walk to Dotonbori
         text: "The hostel puts Dotonbori 10 minutes away, Sakuragawa station 5 and JR Namba 8."
+  - type: gallery
+    images:
+      - { file: entrance, caption: "The turquoise clapboard entrance" }
+      - { file: red-lounge, caption: "Guests on the red sofas under the pink neon" }
+      - { file: blue-lounge, caption: "A quieter blue sitting room with rattan chairs" }
   - type: book_ahead
     steps:
       - days_before: 7

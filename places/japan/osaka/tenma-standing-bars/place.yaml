@@ -93,6 +93,12 @@ blocks:
       Expect smoke at some places, noise and very little English. That's the appeal: the guides describe it as working-class and unpretentious, not a tourist street.
   - type: gallery
     images:
+      - file: ginzaya-front
+        caption: "Ginzaya, a standing bar open from the morning, with beer crates out front"
+      - file: ginzaya-counter
+        caption: "The counter at Ginzaya, the menu on paper strips overhead"
+      - file: toraya-drinks
+        caption: "The drinks board at Toraya, a motsu-nikomi standing bar in Tenma"
       - file: arcade
         caption: Tenjinbashi-suji, the 2 km-plus covered shopping arcade beside Tenma
   - type: menu

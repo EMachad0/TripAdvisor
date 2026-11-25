@@ -15,3 +15,31 @@
     - 1920
   fetched: 2026-11-13
   origin: commons
+- file: chukasoba-bowl
+  title: 1815be_4c40d93199654a178e6ed8c058b6e5aa~mv2.jpg
+  author: 5AM Ramen
+  license: All rights reserved (personal use)
+  source_url: https://www.5amramen.com/post/ginza-hachigou-michelin-ramen
+  original_url: https://static.wixstatic.com/media/1815be_4c40d93199654a178e6ed8c058b6e5aa~mv2.jpg
+  width: 4966
+  height: 3312
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: counter-tray
+  title: 1738557679-ginza-hachigou-chuka-soba.jpg
+  author: Kilala
+  license: All rights reserved (personal use)
+  source_url: https://kilala.vn/tin-60s/nhieu-nha-hang-ramen-o-nhat-ap-dung-the-vao-cua-de-han-che-tinh-trang-xep-hang-dai.html
+  original_url: https://kilala.vn/data/uploads/2025/1738557679-ginza-hachigou-chuka-soba.jpg
+  width: 1500
+  height: 1125
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web

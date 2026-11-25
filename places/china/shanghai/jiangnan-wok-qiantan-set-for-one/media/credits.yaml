@@ -31,35 +31,45 @@
     - 1920
   fetched: 2026-11-16
   origin: commons
-- file: dazhu-gansi
-  title: File:Braised Shredded Chicken with Ham and Dried Tofu 2011-04.JPG
-  author: 猫猫的日记本
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Braised_Shredded_Chicken_with_Ham_and_Dried_Tofu_2011-04.JPG
-  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e6/Braised_Shredded_Chicken_with_Ham_and_Dried_Tofu_2011-04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: ​大煮干丝，淮扬菜代表之一，摄于扬州淮扬菜博物馆。
-  width: 4320
-  height: 3240
+- file: set-menu-table
+  title: "{D525C1BE-1B73-42B2-9438-89405F2D644C}SLQT_JNW_Set Menu_192_940.jpg"
+  author: Shangri-La Qiantan
+  license: All rights reserved (personal use)
+  source_url: https://www.shangri-la.com/shanghai/qiantanshangrila/offer-detail/dining/shangri-la-jiangnan-wok-set-menu/
+  original_url: https://sitecore-cd-imgr.shangri-la.com/MediaFiles/D/5/2/%7BD525C1BE-1B73-42B2-9438-89405F2D644C%7DSLQT_JNW_Set%20Menu_192_940.jpg
+  width: 1920
+  height: 940
   widths:
     - 640
     - 1280
     - 1920
-  fetched: 2026-11-16
-  origin: commons
-- file: eel
-  title: File:Ricefield eel tail with grated garlic.jpg
-  author: Zheng Zhou
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Ricefield_eel_tail_with_grated_garlic.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Ricefield_eel_tail_with_grated_garlic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Ricefield eel tail with grated garlic
-  width: 4032
-  height: 3024
+  fetched: 2026-11-25
+  origin: web
+- file: dining-room
+  title: SLQT_Audit2025_JNW_1920_500.jpg
+  author: Shangri-La Qiantan
+  license: All rights reserved (personal use)
+  source_url: https://www.shangri-la.com/shanghai/qiantanshangrila/dining/restaurants/shangri-la-jiangnan-wok/
+  original_url: https://sitecore-cd.shangri-la.com/-/media/Shangri-La/qiantan_shangrila/dining/SLQT_Audit2025_JNW_1920_500.jpg
+  width: 1920
+  height: 500
   widths:
     - 640
     - 1280
     - 1920
-  fetched: 2026-11-16
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: private-room
+  title: SLQT_Audit2025_JNW2_1920_500.jpg
+  author: Shangri-La Qiantan
+  license: All rights reserved (personal use)
+  source_url: https://www.shangri-la.com/shanghai/qiantanshangrila/dining/restaurants/shangri-la-jiangnan-wok/
+  original_url: https://sitecore-cd.shangri-la.com/-/media/Shangri-La/qiantan_shangrila/dining/SLQT_Audit2025_JNW2_1920_500.jpg
+  width: 1920
+  height: 500
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web

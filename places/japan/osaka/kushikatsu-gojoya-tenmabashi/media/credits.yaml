@@ -1,17 +1,56 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: tenmabashi-bridge
-  title: File:Tenmabashi01.jpg
-  author: Kansai explorer
-  license: CC BY 3.0
-  license_url: https://creativecommons.org/licenses/by/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Tenmabashi01.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e0/Tenmabashi01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: 撮影後レタッチ
-  width: 3264
-  height: 2040
+- file: skewers
+  title: topslide2.jpg
+  author: Kushikatsu Gojoya
+  license: All rights reserved (personal use)
+  source_url: https://94katu5jyoya.com/
+  original_url: https://94katu5jyoya.com/images/topslide2.jpg
+  width: 3000
+  height: 2000
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-23
-  origin: commons
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: counter
+  title: topslide5.jpg
+  author: Kushikatsu Gojoya
+  license: All rights reserved (personal use)
+  source_url: https://94katu5jyoya.com/
+  original_url: https://94katu5jyoya.com/images/topslide5.jpg
+  width: 3000
+  height: 2000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: frying
+  title: topslide3.jpg
+  author: Kushikatsu Gojoya
+  license: All rights reserved (personal use)
+  source_url: https://94katu5jyoya.com/
+  original_url: https://94katu5jyoya.com/images/topslide3.jpg
+  width: 3000
+  height: 2000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: CE3685FB-DD2A-4321-9D42-0827F20CA97D.jpeg
+  author: きためし.com
+  license: All rights reserved (personal use)
+  source_url: https://kitameshi.com/kitameshi/gojohya/
+  original_url: https://kitameshi.com/wp-content/uploads/2020/12/CE3685FB-DD2A-4321-9D42-0827F20CA97D.jpeg
+  width: 1410
+  height: 1162
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

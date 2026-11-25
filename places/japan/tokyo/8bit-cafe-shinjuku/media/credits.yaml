@@ -1,17 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: sanchome-night
-  title: File:Shinjuku Sanchome at night 02 (15777192701).jpg
-  author: Joe Mabel on Flickr as Joe Mabel from Seattle, US
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Shinjuku_Sanchome_at_night_02_(15777192701).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Shinjuku_Sanchome_at_night_02_%2815777192701%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Shinjuku 3-chome, Tokyo, Japan, at night.
-  width: 4288
-  height: 2848
+- file: gameboy-corner
+  title: 8-bit-Cafe-4.jpg
+  author: Japan Insider
+  license: All rights reserved (personal use)
+  source_url: https://japaninsider.com/the-best-game-bars-in-shinjuku/
+  original_url: https://japaninsider.com/wp-content/uploads/2020/03/8-bit-Cafe-4.jpg
+  width: 4032
+  height: 3024
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: bar-room
+  title: 8bit-Cafe-GaijinPot.jpg
+  author: Interesting Bars
+  license: All rights reserved (personal use)
+  source_url: https://www.interestingbars.com/bar/8bit-cafe-tokyo
+  original_url: https://arewabxlefttuhzucoxx.supabase.co/storage/v1/object/public/bar_attachments/a26ebba6-3532-488d-8e1a-4c5cc172c5b5/8bit-Cafe-GaijinPot.jpg
+  width: 1000
+  height: 667
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: bar-counter
+  title: a15.jpg
+  author: GIGAZINE
+  license: All rights reserved (personal use)
+  source_url: https://gigazine.net/gsc_news/en/20150315-8bit-cafe
+  original_url: http://i.gzn.jp/img/2015/03/15/8bit-cafe/a15.jpg
+  width: 1200
+  height: 675
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

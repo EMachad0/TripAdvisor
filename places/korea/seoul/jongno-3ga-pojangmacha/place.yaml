@@ -72,10 +72,9 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: tent-night
+    image: exit6-tents
     hook: Ducking under red vinyl into the steam, a burner hissing, the green bottles already on the table.
-    caption: "A Seoul pojangmacha at night (2011): no free photo of the Jongno 3-ga tents exists"
-    focus: center
+    caption: "Street tables by Jongno 3-ga Station Exit 6 on a summer night (2023)"
   - type: quick_facts
     time_needed: 2–3 h
     best_time: Weekend night, before 19:00
@@ -111,8 +110,10 @@ blocks:
   - type: gallery
     feature: false
     images:
-      - file: tents-day
-        caption: "Closed tents by day, Seoul 2011 (not this street): they open up again every evening"
+      - file: tent-crowd
+        caption: "Tents and plastic tables full on the street, June 2023"
+      - file: street-tables
+        caption: "The pojangmacha row at night, taxis squeezing past"
   - type: quote
     variant: vibe
     text: Condensation dripping off the vinyl, soju glasses clinking, and minus five outside the flap.

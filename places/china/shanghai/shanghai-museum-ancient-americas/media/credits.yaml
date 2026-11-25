@@ -47,19 +47,29 @@
     - 2048
   fetched: 2026-11-09
   origin: commons
-- file: olmec-head-4-portrait
-  title: File:Cabeza Colosal 4.jpg
-  author: Mag2017
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Cabeza_Colosal_4.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7e/Cabeza_Colosal_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: This 4th colosal head presents the flat back, you can also notice remains of intentional mutilation. It is possible that the elements that make up the headdress indicate hierarchy, activity or name of the character. This piece is in the Museum of Anthropology of Xalapa, Veracruz.
-  width: 4000
-  height: 6000
+- file: olmec-head-shanghai
+  title: 1783493003173_2KH1xb_1783493084415.jpg
+  author: The Paper
+  license: All rights reserved (personal use)
+  source_url: https://www.thepaper.cn/newsDetail_forward_33540984
+  original_url: https://imgpai.thepaper.cn/newpai/image/1783493003173_2KH1xb_1783493084415.jpg?x-oss-process=image/resize,w_1024
+  width: 1024
+  height: 683
   widths:
     - 640
-    - 1280
-    - 2048
-  fetched: 2026-11-09
-  origin: commons
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: mesoamerica-gallery
+  title: 1783070421762_XFyPN8_1783083713201.jpg
+  author: The Paper
+  license: All rights reserved (personal use)
+  source_url: https://www.thepaper.cn/newsDetail_forward_33511546
+  original_url: https://imgpai.thepaper.cn/newpai/image/1783070421762_XFyPN8_1783083713201.jpg?x-oss-process=image/resize,w_1024
+  width: 1024
+  height: 768
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web

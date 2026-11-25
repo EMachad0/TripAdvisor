@@ -64,11 +64,13 @@ sources:
     title: "JMA — climate normals 1991–2020, Tokyo (January: max 9.8 °C, min 1.2 °C)"
     checked: 2026-11-23
 confidence: medium
-confidence_note: "Bib status from Michelin's Tokyo Bib soba list (2026 guide). Tabelog's menu tab is from 2011, so prices are from Sep–Oct 2026 Tabelog reviews; HOT PEPPER (2020) has older prices and hours, not used. No free photo of the shop or dish exists on Commons; a Kagurazaka street photo is queued behind Commons rate limits. Directions are mine; pin is block-level."
+confidence_note: "Bib status from Michelin's Tokyo Bib soba list (2026 guide). Tabelog's menu tab is from 2011, so prices are from Sep–Oct 2026 Tabelog reviews; HOT PEPPER (2020) has older prices and hours, not used. Directions are mine; pin is block-level."
 last_updated: 2026-11-23
 
 blocks:
   - type: hero
+    image: two-soba
+    caption: "Kyorakutei's two kinds of soba on one tray, with grated daikon, wasabi and dipping sauce"
     hook: "Stone-milled, hand-cut soba, as the shop's full name (石臼挽き手打) says, tucked down a Kagurazaka side alley."
   - type: quick_facts
     time_needed: "45 min (plus the wait)"
@@ -86,6 +88,10 @@ blocks:
         text: "Michelin tags it \"Solo dining\". Tabelog lists 9 counter seats among the 27."
       - title: Kagurazaka
         text: "Tabelog reviewers describe it as tucked away in a narrow side alley of Kagurazaka, off the main street at 3-chōme."
+  - type: gallery
+    images:
+      - { file: shopfront, caption: "The shop's wooden front and bamboo on a quiet Kagurazaka lane (Nov 2025)" }
+      - { file: zaru-tempura, caption: "Zaru soba on its bamboo tray with tempura behind" }
   - type: menu
     items:
       - name: Two-colour soba

@@ -102,8 +102,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: shin-okubo-station
-    caption: "Shin-Okubo station, 2 minutes from the door. No free photo of this branch exists"
+    image: pods
+    caption: "The capsule wall at Nine Hours Shinjuku-North: two tiers of lit pods with blinds"
     hook: "Lock your bag away, change into the loungewear, slide into a pod and pull the blind."
   - type: quick_facts
     extra:
@@ -173,8 +173,12 @@ blocks:
       One night is enough to tick this off. You get more privacy than in a dorm and less company, so sleep here on Sun 17 Jan or a Mon–Tue night (¥5,555 on Booking.com) and keep a social hostel for the weekend.
   - type: gallery
     images:
-      - file: pods-narita
-        caption: "Nine Hours pods at the chain's Narita Airport branch, not this building"
+      - file: lounge
+        caption: "The lounge with a long shared table and city views"
+      - file: entrance
+        caption: "The street entrance with the 9h logo"
+      - file: washroom
+        caption: "The washroom row of basins and shower doors"
   - type: book_ahead
     steps:
       - { days_before: 14, text: "Check your night on the **official site** (best-price promise), Rakuten and Booking.com. Before paying elsewhere, read that rate's cancellation terms. Men and women book separate floors." }

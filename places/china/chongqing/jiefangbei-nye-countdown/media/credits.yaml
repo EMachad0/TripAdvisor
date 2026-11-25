@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: monument-at-night
-  title: File:Jiefangbei night.jpg
-  author: Baycrest
-  license: CC BY-SA 2.5
-  license_url: https://creativecommons.org/licenses/by-sa/2.5
-  source_url: https://commons.wikimedia.org/wiki/File:Jiefangbei_night.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4a/Jiefangbei_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Night scene of Jiefangbei, Chongqing
-  width: 1800
-  height: 1200
-  widths:
-    - 640
-    - 1280
-    - 1800
-  fetched: 2026-11-10
-  origin: commons
 - file: pedestrian-street
   title: File:Jiefangbei CBD 20240721.jpg
   author: HoweyYuan
@@ -63,3 +47,29 @@
     - 1839
   fetched: 2026-11-10
   origin: commons
+- file: nye-2026-crowd
+  title: fb07feb726834fb18a8dae917a38fe89.jpg
+  author: "极目新闻 (photo: Wang Huan, Yuzhong media centre)"
+  license: All rights reserved (personal use)
+  source_url: https://www.ctdsb.net/c1716_202601/2629321.html
+  original_url: https://ctdsb.clouddiffuse.xyz/fb07feb726834fb18a8dae917a38fe89.jpg
+  width: 1280
+  height: 854
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: nye-phones-up
+  title: 5b943bcf8ea846a18fcfa40ef1c7ce1f.jpg
+  author: 极目新闻
+  license: All rights reserved (personal use)
+  source_url: https://www.ctdsb.net/c1716_202601/2629321.html
+  original_url: https://ctdsb.clouddiffuse.xyz/5b943bcf8ea846a18fcfa40ef1c7ce1f.jpg
+  width: 1280
+  height: 852
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

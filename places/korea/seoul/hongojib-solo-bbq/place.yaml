@@ -54,11 +54,13 @@ sources:
     title: "Climate of Seoul (Wikipedia, KMA 1991–2020 normals)"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Hours, break time and two set prices are from Siksin's Feb 2026 article. Other prices are from Polle's undated menu, which lists the neck/galmaegisal/belly set at ₩11,500 against ₩9,800 in 2026, so treat Polle prices as approximate. iVisitKorea (2026) gives 11:30–22:00 without the break. The pin marks Donggyo-ro 30-gil, not the door. No free photo exists."
+confidence_note: "Hours, break time and two set prices are from Siksin's Feb 2026 article. Other prices are from Polle's undated menu, which lists the neck/galmaegisal/belly set at ₩11,500 against ₩9,800 in 2026, so treat Polle prices as approximate. iVisitKorea (2026) gives 11:30–22:00 without the break. The pin marks Donggyo-ro 30-gil, not the door."
 last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: storefront
+    caption: "Hongojib's yellow-lettered front on Donggyo-ro 30-gil"
     hook: Your own little grill and a self-order screen. Nobody here is waiting for a second person to show up.
   - type: quick_facts
     time_needed: 1 h
@@ -89,6 +91,14 @@ blocks:
       Wrap a piece in **lettuce or a perilla leaf** with a dab of *ssamjang* (soybean-chili paste), raw garlic and green chili, and eat it in one bite. This is a *ssam*. Soju or beer goes with it, and your jacket will smell of smoke afterwards, whatever you do.
 
       Usually the catch for a solo traveler is the **two-portion minimum**. Hongojib doesn't have one, which makes it the easiest first BBQ in Seoul when you're alone.
+  - type: gallery
+    feature: false
+    images:
+      - file: solo-booth
+        focus: center
+        caption: "A one-person booth: grill, order screen, meat set, rice and soup"
+      - file: three-cut-set
+        caption: "A three-cut set with rice, soup and kimchi"
   - type: quote
     variant: vibe
     text: A sizzle in front of you, a self-order screen, nobody asking "just one?".

@@ -63,6 +63,8 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
+    image: bar-lounge
+    caption: "The hostel lounge: pool table, darts and the \"Life Is A Journey\" bar wall"
     hook: "Clean, new and cheap, with a bar on the doorstep. You still have to start the conversation yourself."
   - type: quick_facts
     extra:
@@ -127,6 +129,11 @@ blocks:
       Shanghai has no real party hostel. The two places where foreign backpackers actually gather are this one and the much bigger Dayin on East Nanjing Road. I picked Desti because it scores higher on atmosphere (8.9 against 8.4), is far cleaner, costs about ¥50 less a night and has a bar at the door.
 
       Reviews from 2026 are split. Some say "good social life" and "everything is made so that we can easily meet new people"; others say "people keep to themselves". The pattern in them is clear: the dorms and the common room are calm, and the meeting happens at the bar out front and around the pool table. Ask at reception what is on that evening, because one guest never found the event times posted.
+  - type: gallery
+    images:
+      - { file: pod-dorm, caption: "A capsule-bed dorm: curtains, a shelf and a light in every bunk" }
+      - { file: entrance-night, caption: "The entrance at night, with the 2 Dollars Cafe & Bar out front" }
+      - { file: event-room, caption: "The event room with its small stage" }
   - type: book_ahead
     steps:
       - { days_before: 3, text: "Book on Hostelworld with a **15% deposit**. Choose the male or female 8-bed dorm for the lowest price." }

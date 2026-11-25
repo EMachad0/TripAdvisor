@@ -60,10 +60,10 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: cabins-over-river
-    focus: center
+    image: cabin-at-night
+    focus: left
     hook: "A green cabin of 65 commuters and tourists, swinging across the Yangtze on a wire since 1987."
-    caption: "A cabin over the Yangtze with Yuzhong's towers behind; no free night photo found"
+    caption: "A lit cabin crossing the Yangtze at night, Yuzhong's towers in the mist behind"
   - type: quick_facts
     time_needed: 1–2 h incl. queue
     best_time: "Weekday, 18:30–20:30"
@@ -92,6 +92,7 @@ blocks:
       In winter the binding time is **last admission, about 20:30**. Leave work by 18:00 and you can catch the lights coming on at Hongyadong first, then ride across before the cut-off. On the south bank, walk Longmenhao, then take Line 6 back from **Shangxinjie**, or stay for a set at Cici Park.
   - type: gallery
     images:
+      - { file: cabins-over-river, caption: "A cabin over the Yangtze by day, Yuzhong's towers behind" }
       - { file: cableway-cabin, caption: "A cabin mid-river on a hazy day, as most winter days look" }
       - { file: south-station, caption: "The south station at Longmenhao" }
   - type: quote

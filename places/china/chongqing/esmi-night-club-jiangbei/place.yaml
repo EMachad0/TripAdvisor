@@ -60,6 +60,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
+    image: esmi-sign
+    caption: "The ESMI Jiangbei hall: the lit ESMI sign under the light rig"
     hook: "A full stage production every weekend: screens, light rigs and dancers, with EDM and K-pop turned up to arena size."
   - type: quick_facts
     time_needed: 3–5 h
@@ -86,6 +88,12 @@ blocks:
       It is in the **Liyuchi 42 art park** at Guanyinqiao, the centre of 9th Street (Jiujie) across the Jialing River from Yuzhong. Flavor Tiki, an award-winning cocktail bar, is in the same art park (cocktails from about ¥80, open 20:00–02:30), so you can start there and walk over.
 
       The metro stops around 22:30–23:00, so plan a **DiDi** back. Cities Insider puts an average 20-minute night ride at ¥15–45. Copy the Chinese address into the app.
+  - type: gallery
+    images:
+      - file: jellyfish-hall
+        caption: "The main hall dressed with giant jellyfish lanterns"
+      - file: stage-show
+        caption: "A stage show with dancers and MCs"
   - type: cost_breakdown
     items:
       - { label: Entry, local: 0, brl: 0 }

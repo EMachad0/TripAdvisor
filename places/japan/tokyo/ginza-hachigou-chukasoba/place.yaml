@@ -80,8 +80,8 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: entrance
-    caption: "The entrance on a Ginza side street (Dec 2023)"
+    image: chukasoba-bowl
+    caption: "Hachigou's chūka soba: clear gold broth, chashu, egg and fine noodles"
     hook: Ramen made like a French consommé, by a chef who cooked French food for 30 years.
   - type: quick_facts
     time_needed: 30 min seat + queue
@@ -106,6 +106,10 @@ blocks:
       Owner-chef Matsumura spent more than 30 years in French kitchens before opening Hachigou (Time Out). Michelin's 2022 announcement called his bowl a "borderless balance of Japanese and Western elements".
 
       This is the one ex-starred shop on your list. Nothing about it is formal: it's a ramen counter where you queue or book a 30-minute slot.
+  - type: gallery
+    images:
+      - { file: entrance, caption: "The entrance on a Ginza side street (Dec 2023)" }
+      - { file: counter-tray, caption: "A bowl served on its tray at the wooden counter" }
   - type: book_ahead
     steps:
       - days_before: 7

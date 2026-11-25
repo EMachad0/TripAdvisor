@@ -66,8 +66,9 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: wuxi-ribs
-    caption: "Wuxi soy-braised ribs at Lugaojian in Wuxi; no free photo of Jingmei itself"
+    image: noodle-spread
+    caption: "Noodles in dark soy broth with braised ribs and soy eggs, at the Yanping Road shop"
+    focus: "50% 45%"
     hook: Wuxi's sweet, sticky braised ribs on a bowl of scallion-oil noodles, at a stall Michelin calls unstuffy.
   - type: quick_facts
     time_needed: 45 min–1 h
@@ -92,6 +93,11 @@ blocks:
       Jingmei's menu centres on Wuxi-style pork ribs braised in soy paste. Michelin calls this an "unstuffy stall" serving Wuxi dishes and dim sum as well as noodles, and says the ribs are "loaded in flavour".
 
       Rachel Gouk's guide says the Yanping Road room is "small and a little cramped but brimming with character", and that the food runs sweet. Ctrip reviewers in 2024 still found a queue at lunch. They also said tables turn over fast and people share them. Be warned that the few Ctrip and Trip.com ratings are low (2.0–2.3 out of 5), and one reviewer called the take-a-number system chaotic.
+  - type: gallery
+    feature: false
+    images:
+      - { file: wonton-bowl, caption: "Wontons under shredded egg, seaweed and chicken" }
+      - { file: green-rice-dessert, caption: "A green rice dessert with red bean, from the same menu" }
   - type: quote
     variant: vibe
     text: Three ribs, a tangle of scallion-oil noodles, and a stranger's elbow at your table.

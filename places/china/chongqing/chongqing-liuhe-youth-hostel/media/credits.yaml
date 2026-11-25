@@ -1,0 +1,53 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: roof-terrace
+  title: j9xnvlipr2skbshp9tph.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/324401/chongqing-liuhe-youth-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/324401/j9xnvlipr2skbshp9tph.jpg
+  width: 1080
+  height: 719
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: bar-lounge
+  title: g791ysjp3rt7s9tqqm7i.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/324401/chongqing-liuhe-youth-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/324401/g791ysjp3rt7s9tqqm7i.jpg
+  width: 1080
+  height: 725
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: zfo8ux78plklbi2axtya.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/324401/chongqing-liuhe-youth-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/324401/zfo8ux78plklbi2axtya.jpg
+  width: 1080
+  height: 719
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: balcony-night
+  title: d2lz2oof5xdzbqpb54wk.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/324401/chongqing-liuhe-youth-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/324401/d2lz2oof5xdzbqpb54wk.jpg
+  width: 1080
+  height: 720
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web

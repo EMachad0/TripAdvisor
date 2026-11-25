@@ -79,8 +79,8 @@ last_updated: 2026-11-24
 
 blocks:
   - type: hero
-    image: global-harbor-night
-    caption: "Global Harbor at night; no free photo of the Chagee counter inside"
+    image: flagship-counter
+    caption: "The tea bar of Chagee's Shanghai flagships, opened at Global Harbor and MetroCity in June 2023"
     hook: "Jasmine green tea, fresh milk, no pearls: the cup China queues for, in the mall of Chagee's Shanghai flagship."
   - type: quick_facts
     time_needed: 15–30 min
@@ -108,10 +108,12 @@ blocks:
   - type: gallery
     feature: false
     images:
-      - file: chagee-storefront
-        caption: "A typical Chagee storefront (another mall, 2024)"
+      - file: boya-cups
+        caption: "Two Boya Juexian (jasmine green milk tea) bought in Shanghai, 2024"
       - file: global-harbor-atrium
         caption: "Inside Global Harbor, one of Shanghai's biggest malls"
+      - file: global-harbor-night
+        caption: "Global Harbor at night"
   - type: menu
     title: What to order
     items:

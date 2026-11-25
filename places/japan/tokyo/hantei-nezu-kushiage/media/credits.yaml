@@ -63,3 +63,17 @@
     - 1920
   fetched: 2026-11-16
   origin: commons
+- file: skewers
+  title: skewers.jpg
+  author: Exploring Old Tokyo
+  license: All rights reserved (personal use)
+  source_url: https://old-tokyo.info/hantei-nezu-skewers-style-kushiage/
+  original_url: https://old-tokyo.info/wp-content/uploads/2016/11/skewers.jpg
+  width: 4028
+  height: 2020
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

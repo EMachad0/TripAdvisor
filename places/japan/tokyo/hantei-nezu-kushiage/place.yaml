@@ -107,6 +107,7 @@ blocks:
       - { file: iron-lattice, caption: "The street front behind its iron lattice, added when the road was widened" }
       - { file: entrance, caption: "The entrance and its noren curtain" }
       - { file: corner-2024, caption: "The house in 2024", focus: top }
+      - { file: skewers, caption: "A round of fried skewers on the bamboo tray (2016)" }
   - type: book_ahead
     steps:
       - days_before: 3

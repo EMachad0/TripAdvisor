@@ -15,3 +15,31 @@
     - 1920
   fetched: 2026-11-25
   origin: commons
+- file: night-shoot
+  title: png
+  author: Fangfeige on KKday
+  license: All rights reserved (personal use)
+  source_url: https://www.kkday.com/en/product/779409
+  original_url: https://image.kkday.com/v2/image/get/c_fill%2Ch_2400%2Cq_55%2Ct_webp%2Cw_3720/s1.kkday.com/product_scm_31075/20260929150313_ebkFx/png
+  width: 3720
+  height: 2400
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: garden-shoot
+  title: jpg
+  author: Fangfeige on KKday
+  license: All rights reserved (personal use)
+  source_url: https://www.kkday.com/en/product/779409
+  original_url: https://image.kkday.com/v2/image/get/c_fill%2Ch_1200%2Cq_55%2Ct_webp%2Cw_1500/s1.kkday.com/product_scm_31075/20260929153604_JY6kZ/jpg
+  width: 1500
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web

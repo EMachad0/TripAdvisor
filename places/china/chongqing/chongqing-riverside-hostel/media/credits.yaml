@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: dongshuimen-view
-  title: File:View of Dongshuimen bridge from Baixiang Ju Chongqing.jpg
-  author: Marym1718
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:View_of_Dongshuimen_bridge_from_Baixiang_Ju_Chongqing.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4c/View_of_Dongshuimen_bridge_from_Baixiang_Ju_Chongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: View of Dongshuimen bridge from Baixiang Ju Chongqing
-  width: 4096
-  height: 3072
-  widths:
-    - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-24
-  origin: commons
 - file: baixiang-street
   title: File:白象街.jpg
   author: 重庆轨交18
@@ -31,3 +15,45 @@
     - 1920
   fetched: 2026-11-24
   origin: commons
+- file: common-hall
+  title: umggs72exmyb6yshlr7d.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/318745/chongqing-riverside-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/318745/umggs72exmyb6yshlr7d.jpg
+  width: 1918
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1918
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: wqegdf9qph9wm69ufgtg.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/318745/chongqing-riverside-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/318745/wqegdf9qph9wm69ufgtg.jpg
+  width: 1919
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1919
+  fetched: 2026-11-25
+  origin: web
+- file: bar
+  title: mkydtxhylhdsc9su4ims.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/318745/chongqing-riverside-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/318745/mkydtxhylhdsc9su4ims.jpg
+  width: 1918
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1918
+  fetched: 2026-11-25
+  origin: web

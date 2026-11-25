@@ -1,0 +1,55 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: bukkake
+  title: 4a5bf73c.jpg
+  author: 自己中心食日記 (livedoor blog)
+  license: All rights reserved (personal use)
+  source_url: https://naochen.blog.jp/ougimachi_asurou.html
+  original_url: https://livedoor.blogimg.jp/naochen917/imgs/4/a/4a5bf73c.jpg
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: a8a792d5.jpg
+  author: 自己中心食日記 (livedoor blog)
+  license: All rights reserved (personal use)
+  source_url: https://naochen.blog.jp/ougimachi_asurou.html
+  original_url: https://livedoor.blogimg.jp/naochen917/imgs/a/8/a8a792d5.jpg
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: tempura-set
+  title: wMR3iaDHIztNHSbbXkhYwefxEwQ25mQTvqsQ7CyG.jpg
+  author: るるぶ&more.
+  license: All rights reserved (personal use)
+  source_url: https://rurubu.jp/andmore/article/19671
+  original_url: https://img.rurubu.jp/img_srw/andmore/images/0000567254/wMR3iaDHIztNHSbbXkhYwefxEwQ25mQTvqsQ7CyG.jpg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: interior
+  title: 5a0f4df855e9436bbab97fb4e1a41c47.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/osaka-region/osaka/restaurant/ogimachi-udonya-asuro
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/5a0f4df855e9436bbab97fb4e1a41c47.jpeg?w=1000&h=1000&format=jpeg&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

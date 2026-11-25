@@ -93,6 +93,12 @@ blocks:
       Gong De Lin's menu copies the classics of Shanghai cooking without meat. A Trip.com reviewer describes the "fragrant oil eel shreds" as an imitation of the city's stir-fried eel, slightly crisp and a little sweet, and the sweet-and-sour "ribs" as having bones made of lotus root.
 
       It sits on West Nanjing Road a few minutes' walk from People's Square, with a restaurant over two floors and a shop for cakes and snacks. Michelin gives it a Bib Gourmand and a single ¥ for price.
+  - type: gallery
+    feature: false
+    images:
+      - { file: sweet-sour-dish, caption: "Sweet-and-sour mock pork with pineapple and peppers, all vegetarian" }
+      - { file: vegetable-bun, caption: "A steamed bun filled with greens" }
+      - { file: private-room, caption: "A private dining room with a round table" }
   - type: quote
     variant: vibe
     text: The menu reads like a butcher's list, and there's nothing on it but tofu, mushroom and lotus root.

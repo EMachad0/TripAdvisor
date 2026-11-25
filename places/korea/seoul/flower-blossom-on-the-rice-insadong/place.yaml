@@ -80,8 +80,8 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: insadong-gil
-    caption: "Insadong-gil, the main street of the neighbourhood (no free photo of the restaurant)"
+    image: dining-room
+    caption: "The dining room, under the exposed beams of the old hanok"
     hook: "Course after course of organic Korean food, brought one plate at a time, down a quiet Insadong alley."
   - type: quick_facts
     time_needed: About 90 min
@@ -106,6 +106,14 @@ blocks:
       Everything on the basic menu is vegan, but the restaurant says plainly it is **not temple cuisine**: garlic, onion and the other pungent vegetables are in. Think modern home-style Korean cooking with very good produce.
 
       Want meat or fish? The **Pulroman grass-fed beef course** (₩120,000) and the **Heuksando rockfish course** (₩85,000) are the same idea with a protein, but both cost more.
+  - type: gallery
+    images:
+      - file: banchan-set
+        caption: "A table setting: wrapped rice, soups and small side dishes"
+      - file: jeon-plating
+        caption: "A jeon course plated with spring flowers"
+      - file: frontage
+        caption: "The frontage on Insadong 16-gil, with its flower bed"
   - type: book_ahead
     steps:
       - days_before: 14

@@ -58,8 +58,8 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
-    image: monument-at-night
-    caption: The Liberation Monument on a normal night. No free photo of the NYE crowd exists
+    image: nye-2026-crowd
+    caption: "New Year's Eve 2025 at the Liberation Monument: searchlights, a 2026 screen, phones up"
     hook: Midnight at the bottom of a canyon of skyscrapers, with a 1940s clock tower as the countdown clock.
   - type: quick_facts
     time_needed: "19:00–01:00"
@@ -95,6 +95,8 @@ blocks:
       After midnight you have two choices. Hunt for **xiaomian** and skewers at the stalls, or catch the extended metro and taxi on to 9th Street, where the big clubs run late. Either way, decide your exit before the countdown, because everyone leaves at 00:05.
   - type: gallery
     images:
+      - file: nye-phones-up
+        caption: "The packed square waiting for the bell, New Year's Eve 2025"
       - file: pedestrian-street
         caption: The Jiefangbei pedestrian street by day, the same canyon you'll stand in at midnight
       - file: clock-tower

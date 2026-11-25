@@ -1,0 +1,38 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: shopfront
+  title: ol_g11.jpg
+  author: OLの品格 クラブアッシュ (official site)
+  license: All rights reserved (personal use)
+  source_url: https://www.club-h.net/global/?lang=en
+  original_url: https://www.club-h.net/images/global_navi/ol_g11.jpg
+  width: 1300
+  height: 667
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: front-night
+  title: YSa8536Gc0rqz2USXsH_l.JPG
+  author: いちごなび
+  license: All rights reserved (personal use)
+  source_url: https://www.15navi.com/osaka/ma310/aa202/shop16339/
+  original_url: https://img.15navi.com/shop_tk_free/16339/YSa8536Gc0rqz2USXsH_l.JPG
+  width: 640
+  height: 426
+  widths:
+    - 640
+  fetched: 2026-11-25
+  origin: web
+- file: reception
+  title: HiwtKUiM5eOxNKkB38F_l.JPG
+  author: いちごなび
+  license: All rights reserved (personal use)
+  source_url: https://www.15navi.com/osaka/ma310/aa202/shop16339/
+  original_url: https://img.15navi.com/shop_tk_free/16339/HiwtKUiM5eOxNKkB38F_l.JPG
+  width: 640
+  height: 426
+  widths:
+    - 640
+  fetched: 2026-11-25
+  origin: web

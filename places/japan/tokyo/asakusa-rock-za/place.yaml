@@ -76,8 +76,8 @@ last_updated: 2026-11-17
 
 blocks:
   - type: hero
-    image: rokku-broadway-1930
-    caption: "Rokku Broadway around 1930, the show street Rock-za still stands on; no free photo of the theater"
+    image: rockza-facade
+    caption: "Rock-za on the Rokku street (Dec 2023); the theater is behind the arched door at left"
     hook: "Kimono, ballet, hip-hop: each act is a short story set to music, and the costume comes off as the story ends."
   - type: quick_facts
     time_needed: "1 h 50 min show"
@@ -102,7 +102,12 @@ blocks:
     text: |-
       The theater itself compares Japanese strip to the strip club in a foreign movie, then says it grew into its own mix of Japanese dance, ballet, rock, jazz and cosplay. Nobody touches or talks to the dancers. You sit in a 129-seat hall around a circular stage, and the dancers rotate through themed numbers that start fully dressed and finish nude. The cast changes with each program of about 20 days, and a 2026 review says it sometimes includes AV actresses.
 
-      At ¥6,000 (about R$215, over one day of your "everything else" budget) it is one evening or afternoon, not a habit. The case for it: this is the oldest strip theater still open, it is listed in English, and it still sits in Asakusa's old Rokku show district, the street in the photo above.
+      At ¥6,000 (about R$215, over one day of your "everything else" budget) it is one evening or afternoon, not a habit. The case for it: this is the oldest strip theater still open, it is listed in English, and it still sits in Asakusa's old Rokku show district, the street in the 1930 photo below.
+  - type: gallery
+    images:
+      - { file: rokku-broadway-1930, caption: "Rokku Broadway around 1930, Asakusa's old show street, where Rock-za opened in 1947" }
+      - { file: entrance, caption: "The arched ROCKZA entrance; the theater is on the 2nd floor" }
+      - { file: facade-night, caption: "The building lit up at night" }
   - type: cost_breakdown
     items:
       - { label: "General admission (men)", local: 6000, brl: 214.5 }

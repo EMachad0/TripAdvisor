@@ -78,6 +78,9 @@ last_updated: 2026-11-17
 
 blocks:
   - type: hero
+    image: exterior-night
+    caption: "The blue Toyo signboards and the entrance arrow on the corner at night"
+    focus: "40% 50%"
     hook: "Five dancers, four shows a day, a revolving stage under moving lights, and one ticket good until closing."
   - type: quick_facts
     time_needed: "2 h–2 h 20 min a show"
@@ -96,6 +99,12 @@ blocks:
         text: "The standing bar **CHACO** next to the hall serves soft drinks and alcohol at ¥500 each, and its decor changes with the season and events."
       - title: Written for visitors
         text: "The official site has **English and Chinese** pages with prices and show times. The show itself is music and dance, so no Japanese is needed."
+  - type: gallery
+    feature: false
+    images:
+      - { file: exterior-day, caption: "The same corner by day, signs pointing to the entrance" }
+      - { file: hall, caption: "The empty hall: 129 seats around the runway and revolving stage" }
+      - { file: bar-chaco, caption: "CHACO, the standing bar beside the hall" }
   - type: prose
     title: The value pick, with a history
     dropcap: true

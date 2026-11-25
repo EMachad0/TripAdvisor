@@ -1,17 +1,55 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: sakuragawa-exit
-  title: File:Osaka Metro Sakuragawa station exit 4.jpg
-  author: Niiryoku2910
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Osaka_Metro_Sakuragawa_station_exit_4.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Osaka_Metro_Sakuragawa_station_exit_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Osaka Metro Sakuragawa station exit 4
-  width: 4000
-  height: 3000
+- file: lounge-neon
+  title: 912127818.jpg
+  author: Agoda
+  license: All rights reserved (personal use)
+  source_url: https://www.agoda.com/search?selectedproperty=22033624&city=9590
+  original_url: https://q-xx.bstatic.com/xdata/images/hotel/max1920/912127818.jpg?k=0f2abdebc0bdcd1324424d75478a3ddacb2b07511310ec893e6bbf0593817321
+  width: 1920
+  height: 1280
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-11
-  origin: commons
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: 0874fd86401e150c9fb98693abfd32dd.jpeg
+  author: Agoda
+  license: All rights reserved (personal use)
+  source_url: https://www.agoda.com/search?selectedproperty=22033624&city=9590
+  original_url: https://pix8.agoda.net/hotelImages/22033624/0/0874fd86401e150c9fb98693abfd32dd.jpeg?va=1&ce=3&s=2048x
+  width: 1024
+  height: 797
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: blue-lounge
+  title: 910649604.jpg
+  author: Agoda
+  license: All rights reserved (personal use)
+  source_url: https://www.agoda.com/search?selectedproperty=22033624&city=9590
+  original_url: https://q-xx.bstatic.com/xdata/images/hotel/max1920/910649604.jpg?k=efb6ad5e7a74d7fae1fed63828edd7482715cfb94da6bfe2b8b5ebccc97ee2fc
+  width: 1920
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: red-lounge
+  title: 7e337d17f07997b59eaab3e733ce86d7.jpeg
+  author: Agoda
+  license: All rights reserved (personal use)
+  source_url: https://www.agoda.com/search?selectedproperty=22033624&city=9590
+  original_url: https://pix8.agoda.net/hotelImages/22033624/0/7e337d17f07997b59eaab3e733ce86d7.jpeg?va=1&ce=3&s=2048x
+  width: 1280
+  height: 720
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

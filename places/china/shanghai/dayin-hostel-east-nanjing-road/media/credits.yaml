@@ -15,3 +15,56 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
+- file: taproom-lounge
+  title: vwowzxflz69qbesrji4c
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935
+  original_url: https://a.hwstatic.com/image/upload/f_jpg,q_auto/v1/propertyimages/3/312935/vwowzxflz69qbesrji4c
+  width: 5992
+  height: 3987
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: nicp7kkaipehzlmtidri
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935
+  original_url: https://a.hwstatic.com/image/upload/f_jpg,q_auto/v1/propertyimages/3/312935/nicp7kkaipehzlmtidri
+  width: 1448
+  height: 1086
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: common-room
+  title: j59pzh4tdymcqlbx0zm6
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935
+  original_url: https://a.hwstatic.com/image/upload/f_jpg,q_auto/v1/propertyimages/3/312935/j59pzh4tdymcqlbx0zm6
+  width: 1448
+  height: 1024
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: taproom-bar
+  title: e15tefmsameylxv0rj92
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Dayin-Hostel-East-Nanjing-Road-The-Bund/Shanghai/312935
+  original_url: https://a.hwstatic.com/image/upload/f_jpg,q_auto/v1/propertyimages/3/312935/e15tefmsameylxv0rj92
+  width: 1389
+  height: 938
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

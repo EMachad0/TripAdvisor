@@ -1,0 +1,68 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: main-room
+  title: LIONSUPERCLUB_DJMAG (1).jpg.webp
+  author: DJ Mag Top 100 Clubs
+  license: All rights reserved (personal use)
+  source_url: https://djmag.com/top100clubs/2026/57/lion-seoul
+  original_url: https://djmag.com/sites/default/files/styles/djm_23_1920x1080/public/2026-04/LIONSUPERCLUB_DJMAG%20%281%29.jpg.webp
+  width: 1920
+  height: 1080
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: dj-booth-visuals
+  title: lion-seoul-seoul-club.jpg
+  author: Techno Airlines
+  license: All rights reserved (personal use)
+  source_url: https://www.technoairlines.com/club/lion-seoul
+  original_url: https://www.technoairlines.com/wp-content/uploads/2026/09/lion-seoul-seoul-club.jpg
+  width: 1000
+  height: 667
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: entrance-night
+  title: lionseoul_1768995025_3814929235430276504_73658112391.jpg
+  author: Naver blog (ggax2)
+  license: All rights reserved (personal use)
+  source_url: https://blog.naver.com/ggax2/224163869143
+  original_url: https://blogfiles.pstatic.net/MjAyNjAxMjlfMjA5/MDAxNzY5NjUzMjUzMzQ4.OSsnRBxdC6oIt0Eq5B5GJh468IeHJ9oh7D3i4ANQYlUg.VwqiPifYoOXm18LjkzWUwQSNaxeBtmxf8AcGOtZGQUcg.JPEG/lionseoul_1768995025_3814929235430276504_73658112391.jpg
+  width: 1440
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: entry-tunnel
+  title: IMG_0015.jpg
+  author: Naver blog (ggax2)
+  license: All rights reserved (personal use)
+  source_url: https://blog.naver.com/ggax2/224163869143
+  original_url: https://blogfiles.pstatic.net/MjAyNjAxMjlfMTY5/MDAxNzY5NjUzNTM3MDQ1.q-Sb_pv1-QipTmn3NjHUrr-ZSdRGOQmDJy8202qdd4og.UxJjqh0xTw6M4oU3pJ5JoShju-8q_AEOvFjpB2THSQ8g.JPEG/IMG_0015.jpg
+  width: 3000
+  height: 2000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: confetti-drop
+  title: lionseoul_1768995025_3814929235598047929_73658112391.jpg
+  author: Naver blog (ggax2)
+  license: All rights reserved (personal use)
+  source_url: https://blog.naver.com/ggax2/224163869143
+  original_url: https://blogfiles.pstatic.net/MjAyNjAxMjlfMjQ5/MDAxNzY5NjUzMzk1NTU3.NU2GO_ssTSWmoBljyWKTHd1bP5kqnFeDYfxI_vxso00g.LhJC0xxJP5OafkI9ThRjcnv0Mg-6FJP4eon1fNR9w24g.JPEG/lionseoul_1768995025_3814929235598047929_73658112391.jpg
+  width: 1440
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

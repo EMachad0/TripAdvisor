@@ -31,22 +31,6 @@
     - 1920
   fetched: 2026-11-12
   origin: commons
-- file: noodles
-  title: File:Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku (11324269423).jpg
-  author: Guilhem Vellut from Annecy, France
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Chicken_Gyokai_Tsukemen_@_Fuunji_@_Shinjuku_(11324269423).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/7/74/Chicken_Gyokai_Tsukemen_%40_Fuunji_%40_Shinjuku_%2811324269423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku
-  width: 3648
-  height: 2736
-  widths:
-    - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-12
-  origin: commons
 - file: counter
   title: File:Chicken Gyokai Tsukemen @ Fuunji @ Shinjuku (11324117895).jpg
   author: Guilhem Vellut from Annecy, France
@@ -63,3 +47,31 @@
     - 1920
   fetched: 2026-11-12
   origin: commons
+- file: tsukemen-set
+  title: 1815be_bad7f7248db94d41b537ba6d9c1ec233~mv2.jpg
+  author: 5AM Ramen
+  license: All rights reserved (personal use)
+  source_url: https://www.5amramen.com/post/fuunji-ramen-tsukemen-shinjuku
+  original_url: https://static.wixstatic.com/media/1815be_bad7f7248db94d41b537ba6d9c1ec233~mv2.jpg
+  width: 4971
+  height: 3314
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: counter-crowd
+  title: 1815be_5d691d6bb6f24ce78af9f9723f64908c~mv2.jpg
+  author: 5AM Ramen
+  license: All rights reserved (personal use)
+  source_url: https://www.5amramen.com/post/fuunji-ramen-tsukemen-shinjuku
+  original_url: https://static.wixstatic.com/media/1815be_5d691d6bb6f24ce78af9f9723f64908c~mv2.jpg
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

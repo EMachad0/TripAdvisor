@@ -1,17 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: hongdae-night
-  title: File:Hongdae Party District at Night, Seoul.jpg
-  author: Ken Eckert
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Hongdae_Party_District_at_Night,_Seoul.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e9/Hongdae_Party_District_at_Night%2C_Seoul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Hongdae Party District at Night, Seoul
-  width: 2000
-  height: 1126
+- file: nb2-dancefloor
+  title: 53521280828_ed7d9c5881_h.jpg
+  author: Reformatt (Flickr)
+  license: All rights reserved (personal use)
+  source_url: https://www.reformatt.com/seoul-nightlife-guide
+  original_url: https://live.staticflickr.com/65535/53521280828_ed7d9c5881_h.jpg
+  width: 1600
+  height: 900
   widths:
     - 640
     - 1280
-    - 2000
-  fetched: 2026-11-10
-  origin: commons
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: nb2-main-floor
+  title: 12-nightclub01.jpg
+  author: Mushroom Travel
+  license: All rights reserved (personal use)
+  source_url: https://www.mushroomtravel.com/page/hongdae-korea/
+  original_url: https://mushroomtravelpage.b-cdn.net/wp-content/uploads/2024/04/12-nightclub01.jpg
+  width: 1080
+  height: 714
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: nb2-entrance
+  title: 5734255618_d8081dc5c0_b.jpg
+  author: Neil Noland (Flickr)
+  license: All rights reserved (personal use)
+  source_url: https://www.flickr.com/photos/neildnoland/5734255618/
+  original_url: https://live.staticflickr.com/5108/5734255618_d8081dc5c0_b.jpg
+  width: 1023
+  height: 685
+  widths:
+    - 640
+    - 1023
+  fetched: 2026-11-25
+  origin: web

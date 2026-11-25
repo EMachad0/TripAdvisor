@@ -67,6 +67,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
+    image: party-floor
+    caption: "A party night inside Cici Park, under warm red light"
     hook: "A bright little dance room tucked into a cliffside park, where the DJ on the poster decides your night."
   - type: quick_facts
     time_needed: 3–5 h
@@ -93,6 +95,12 @@ blocks:
       Sets start after 22:00 and more dancers arrive after midnight, says chongqing.guide, and Friday nights are busiest. On a quiet night the floor can feel sparse. That makes this a **weekend or holiday** plan: Saturday 26 December (nothing listed yet), New Year's Eve, or New Year's Day if something gets announced. Not the night before the 01:00 call.
 
       The metro has stopped when you leave, so get a DiDi back across the river. Cities Insider puts a 20-minute night ride in the city core at ¥15–45.
+  - type: gallery
+    images:
+      - file: park-at-night
+        caption: "Opening Port Park lit up at night; the club is in its Youth Cultural Space"
+      - file: park-terraces
+        caption: "The park's restored terraces and old buildings at dusk"
   - type: cost_breakdown
     items:
       - { label: "Door ticket, paid night", local: 88, brl: 72.75 }

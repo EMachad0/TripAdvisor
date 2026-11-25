@@ -67,6 +67,8 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
+    image: porcini-shoyu
+    caption: "Iruca's porcini shoyu ramen, with the spoon of mushroom-and-truffle paste on the rim"
     hook: Shoyu ramen that smells of porcini, with a side of truffle paste to stir in halfway.
   - type: quick_facts
     time_needed: 30 min + queue
@@ -85,6 +87,10 @@ blocks:
         text: "No booking, no dress code: queue, then order at a **touch-screen kiosk with English** and pay by card or Suica."
       - title: Under R$80
         text: "The special bowl is **¥2,200 (R$78)**; add the truffle egg rice for ¥400 if you're hungry."
+  - type: gallery
+    images:
+      - { file: shopfront, caption: "The 入鹿TOKYO shopfront with its navy noren in Roppongi" }
+      - { file: special-bowl, caption: "The special bowl: chicken meatballs, egg, duck and chashu" }
   - type: menu
     title: What people order (Nov 2026 reviews)
     items:

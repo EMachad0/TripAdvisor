@@ -69,6 +69,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
+    image: bukkake
+    caption: "Cold bukkake udon with a soft egg, lemon and a chikuwa tempura"
     hook: "Smooth, chewy udon under a cold or hot broth, with sea-bream chikuwa tempura on the side."
   - type: quick_facts
     time_needed: "40 min (plus the line)"
@@ -86,6 +88,12 @@ blocks:
         text: "Besides the cold **hiyakake** and nama-shōyu, reviewers ordered kamatama and curry udon. Hot bowls suit a February day."
       - title: Ordered in the line
         text: "Earlier reviewers say staff take your order while you wait, so the bowl comes soon after you sit."
+  - type: gallery
+    feature: false
+    images:
+      - { file: shopfront, caption: "The pale-wood front and white noren of the Machisu Building" }
+      - { file: interior, caption: "Wood tables and bare concrete inside" }
+      - { file: tempura-set, caption: "Bukkake with a side of vegetable tempura and kake udon" }
   - type: menu
     items:
       - name: Chicken tempura + chikuwa tempura + onsen-egg bukkake

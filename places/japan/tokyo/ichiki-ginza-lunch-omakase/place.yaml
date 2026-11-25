@@ -63,8 +63,8 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: ginza-5-chome
-    caption: "Ginza 5-chōme crossing, a minute from the restaurant (no free photo of the counter)"
+    image: nigiri-slate
+    caption: "A nigiri from Ichiki's lunch omakase, set on the slate at the counter (2023)"
     hook: Ginza sushi at lunch prices, in front of the knife.
   - type: quick_facts
     time_needed: 90 min seat
@@ -83,6 +83,11 @@ blocks:
         text: "A modern Japanese room with a **12–13 seat counter** and private rooms. Tabelog tags it as a *relaxing space* that's popular for business meals."
       - title: Honest ranking
         text: "**3.54 on Tabelog** from 760+ reviews. No Michelin or Tabelog award: pick it for a proper counter lunch in Ginza, not for prestige."
+  - type: gallery
+    images:
+      - { file: akami, caption: "Lean tuna nigiri from the same lunch course" }
+      - { file: hikarimono, caption: "A skin-on white-fish nigiri" }
+      - { file: entrance-sign, caption: "The ICHIKI sign at the entrance" }
   - type: book_ahead
     steps:
       - days_before: 3

@@ -31,3 +31,29 @@
     - 1920
   fetched: 2026-11-13
   origin: commons
+- file: glass-floor-deck
+  title: vbox8111__mgl7015_172949.jpg
+  author: World Architecture
+  license: All rights reserved (personal use)
+  source_url: https://worldarchitecture.org/architecture-news/effpg/public-observatory-on-the-crystal-sky-bridge-opens-at-raffles-city-chongqing-by-safdie-architects.html
+  original_url: https://worldarchitecture.org/cdnimgfiles/extuploadc/vbox8111__mgl7015_172949.jpg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: deck-edge
+  title: 66200_sa_rccq_n101.jpg
+  author: World Architecture
+  license: All rights reserved (personal use)
+  source_url: https://worldarchitecture.org/architecture-news/effpg/public-observatory-on-the-crystal-sky-bridge-opens-at-raffles-city-chongqing-by-safdie-architects.html
+  original_url: https://worldarchitecture.org/cdnimgfiles/extuploadc/66200_sa_rccq_n101.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

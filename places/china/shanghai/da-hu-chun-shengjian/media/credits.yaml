@@ -1,17 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: yunnan-road-shopfront
-  title: File:Dahuchun at South Yunnan Road-20240106.jpg
-  author: Shwangtianyuan
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Dahuchun_at_South_Yunnan_Road-20240106.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/2/22/Dahuchun_at_South_Yunnan_Road-20240106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Shengjian restaurant.
-  width: 7296
-  height: 5472
+- file: sichuan-road-shopfront
+  title: 100j11000000rbs2v872C.jpg
+  author: Trip.com
+  license: All rights reserved (personal use)
+  source_url: https://you.ctrip.com/food/shanghai2/4996389.html
+  original_url: https://youimg1.c-ctrip.com/target/100j11000000rbs2v872C.jpg
+  width: 1920
+  height: 1442
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-10
-  origin: commons
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: shengjian-plate
+  title: 08886667a63f4c7d8b3d67c7efb33bbc.jpg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/da-hu-chun-middle-sichuan-road
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/08886667a63f4c7d8b3d67c7efb33bbc.jpg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: dining-room
+  title: 9f05dc6cb24a45de9c9fe91fc724bc84.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/da-hu-chun-middle-sichuan-road
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/9f05dc6cb24a45de9c9fe91fc724bc84.jpeg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

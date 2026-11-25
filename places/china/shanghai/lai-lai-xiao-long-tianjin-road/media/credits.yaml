@@ -1,0 +1,40 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: xiaolongbao-steamer
+  title: 100f0w000000kcjelB0DA.jpg
+  author: Qunar
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/10156636627
+  original_url: https://youimg1.c-ctrip.com/target/100f0w000000kcjelB0DA.jpg
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: 100d0w000000kb1eaFD3E.jpg
+  author: Qunar
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/10156636627
+  original_url: https://youimg1.c-ctrip.com/target/100d0w000000kb1eaFD3E.jpg
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: crab-roe-dumpling
+  title: c5612793b4e94769824a40095b1b915d.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/shanghai-municipality/shanghai/restaurant/qiao-ai-lai-lai-xiao-long-huangpu
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/c5612793b4e94769824a40095b1b915d.jpeg?w=1000&h=1000&format=webp&org_if_sml=1
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

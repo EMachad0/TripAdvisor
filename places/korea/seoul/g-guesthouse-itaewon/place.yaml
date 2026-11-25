@@ -66,8 +66,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: itaewon-crossing
-    caption: "An Itaewon crossing at night. No free photo of the hostel exists"
+    image: common-room
+    caption: "The ground-floor lounge and reception, with its long shared table"
     hook: "Free breakfast, floor-heated dorms and Itaewon's bars two minutes from the station."
   - type: quick_facts
     extra:
@@ -145,8 +145,12 @@ blocks:
   - type: gallery
     feature: false
     images:
-      - file: itaewon-snow
-        caption: "Snow on an Itaewon hillside street"
+      - file: dorm
+        caption: "A dorm with metal-frame bunks and a desk"
+      - file: rooftop-dinner
+        caption: "Guests eating together on the rooftop on a summer evening"
+      - file: entrance
+        caption: "The lettered facade and the entrance off the alley at night"
   - type: tips
     variant: insider
     items:

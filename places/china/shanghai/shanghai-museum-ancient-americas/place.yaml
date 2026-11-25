@@ -114,12 +114,15 @@ blocks:
       The building is a sight too. Architect Xing Tonghe's 1996 museum is shaped like a *ding*, an ancient bronze cauldron: a round top on a square base, for the old Chinese idea of "round sky, square earth".
   - type: gallery
     images:
+      - file: olmec-head-shanghai
+        caption: "A colossal Olmec head in the show's Ancient Mesoamerica section, Shanghai"
+      - file: mesoamerica-gallery
+        caption: "Carved Olmec stones on display in the Shanghai galleries"
       - file: museum-square
         caption: The ding-shaped museum on People's Square, home of the show until Nov 2027
-      - file: olmec-head-4-portrait
-        caption: Colossal Head 4 at home in Xalapa's anthropology museum. It's on loan to Shanghai now
       - file: calakmul-stela-51
         caption: Calakmul Stela 51 at its home in Mexico City's National Museum of Anthropology
+        focus: center
   - type: quote
     variant: vibe
     text: Three thousand years of the Americas, a short walk from the neon of Nanjing Road.

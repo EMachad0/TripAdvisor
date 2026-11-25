@@ -69,6 +69,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
+    image: xiaolongbao-steamer
+    caption: "A steamer of xiaolongbao at Lai Lai Xiao Long"
     hook: Thirty square metres, three floors, and a queue down Tianjin Road for crab-roe soup dumplings.
   - type: quick_facts
     time_needed: 45–90 min with the queue
@@ -93,6 +95,11 @@ blocks:
       Lai Lai started in 1994 selling ordinary Shanghai snacks and only later went all in on crab roe, Shanghai Daily reports. Michelin describes cooks making xiaolongbao non-stop in a shop "tucked away in a bustling alley", and in crab season putting crab into the wontons, spring rolls and soups too.
 
       It is famous now. The line often runs dozens of metres, and the shop took the unit next door for overflow seating. A Trip.com reviewer in June 2026 waited about 20 minutes. Go early, order at the counter, and share a table.
+  - type: gallery
+    feature: false
+    images:
+      - { file: crab-roe-dumpling, caption: "A crab-roe soup dumpling opened on the spoon" }
+      - { file: shopfront, caption: "The shopfront on Tianjin Road" }
   - type: quote
     variant: vibe
     text: Bite a hole, sip the broth, then the crab, at a table you share with three strangers.

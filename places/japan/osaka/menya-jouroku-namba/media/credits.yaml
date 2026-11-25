@@ -1,0 +1,53 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: chuka-soba
+  title: 608d22d7f6c13214e9b3eecda0583e7b.jpeg
+  author: Noodlers
+  license: All rights reserved (personal use)
+  source_url: https://noodlers.jp/joroku01/
+  original_url: https://noodlers.jp/wp-content/uploads/2024/12/608d22d7f6c13214e9b3eecda0583e7b.jpeg
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: o1080081014901765770.jpg
+  author: 今日の一日一麺、一日一皿 (Ameba blog)
+  license: All rights reserved (personal use)
+  source_url: https://ameblo.jp/shimishino/entry-12658877009.html
+  original_url: https://stat.ameba.jp/user_images/20210225/13/shimishino/63/b9/j/o1080081014901765770.jpg
+  width: 1080
+  height: 810
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: interior
+  title: 23e3a951430861a733d69fcbdff6aa27.jpeg
+  author: Noodlers
+  license: All rights reserved (personal use)
+  source_url: https://noodlers.jp/joroku01/
+  original_url: https://noodlers.jp/wp-content/uploads/2024/12/23e3a951430861a733d69fcbdff6aa27.jpeg
+  width: 1280
+  height: 720
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: hayazushi
+  title: 8e43abbf3b4461c8a7a403465090263e.jpeg
+  author: Noodlers
+  license: All rights reserved (personal use)
+  source_url: https://noodlers.jp/joroku01/
+  original_url: https://noodlers.jp/wp-content/uploads/2024/12/8e43abbf3b4461c8a7a403465090263e.jpeg
+  width: 1280
+  height: 1280
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

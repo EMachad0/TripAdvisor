@@ -73,8 +73,8 @@ last_updated: 2026-11-15
 
 blocks:
   - type: hero
-    image: hongdae-night
-    caption: "Yanghwa-ro by Hongik Univ. station at night. No free photo of the guesthouse exists"
+    image: terrace-night
+    caption: "Bunk's courtyard terrace at night, under fairy lights and a canopy"
     hook: "A spotless curtained bunk in the middle of Hongdae. People chat over breakfast, and it goes quiet at midnight."
   - type: quick_facts
     extra:
@@ -144,8 +144,12 @@ blocks:
   - type: gallery
     feature: false
     images:
-      - file: hongik-entrance
-        caption: "A Hongik Univ. station entrance; the guesthouse is about 500 m from the station"
+      - file: lounge
+        caption: "The lounge, with sofa and dining tables"
+      - file: kitchen-table
+        caption: "The shared kitchen table and TV corner"
+      - file: rooftop
+        caption: "The rooftop deck over Hongdae's low roofs"
   - type: highlights
     items:
       - title: Half the old Seoul budget

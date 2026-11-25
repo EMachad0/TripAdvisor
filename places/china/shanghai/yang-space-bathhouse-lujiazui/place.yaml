@@ -71,6 +71,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: entrance
+    caption: "The Yang·SPACE entrance on Pudian Road, red carpet to the door"
     hook: Soak, sauna, eat mango in pajamas, sleep on a recliner, shower, repeat.
   - type: quick_facts
     time_needed: 6 h to overnight
@@ -102,6 +104,11 @@ blocks:
       **4. Pajamas and upstairs.** Staff hand you pajamas, and the mixed areas upstairs are for fruit, games, films and naps. Meals from the restaurant cost extra.
 
       **5. Sleep, shower, check out.** Claim a recliner or a curtained cubicle early; spots aren't assigned. In the morning, a last soak, then pay the wristband at the desk.
+  - type: gallery
+    images:
+      - { file: drinks-bar, caption: "The self-serve drinks room, fridges along the walls" }
+      - { file: fruit-plate, caption: "Cut fruit from the buffet: kiwi, strawberries, passion fruit" }
+      - { file: shoe-lockers, caption: "Shoe lockers in the lobby, the first stop after the door" }
   - type: quote
     variant: vibe
     text: Pajamas, a plate of golden kiwi, and the whole of Pudong asleep outside.

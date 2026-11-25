@@ -106,6 +106,8 @@ blocks:
   - type: gallery
     images:
       - { file: crystal-day, caption: "The Crystal by day, laid across the tower tops" }
+      - { file: glass-floor-deck, caption: "Visitors on the deck's glass floor, 250 m up" }
+      - { file: deck-edge, caption: "The curved glass rail at the end of the observation deck" }
   - type: quote
     variant: vibe
     text: "Two rivers, one glass bridge, and a city that refuses to be flat."

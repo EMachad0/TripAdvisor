@@ -61,8 +61,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: hongik-exit-7
-    caption: "Hongik Univ. station, Exit 7. No free photo of the hostel exists"
+    image: pod
+    caption: "A Lazy Cube capsule pod, wood-lined, with its own curtain and reading light"
     hook: "Sleep in a pod above Hongdae: a new-build capsule hostel where the staff \"set the vibe\"."
   - type: quick_facts
     extra:
@@ -109,6 +109,14 @@ blocks:
         text: "Clubs, T1 Base Camp and street food are a walk away, and the **airport train** stops at Hongik Univ."
       - title: Brand new and spotless
         text: "Cleanliness scores **9.9/10**; the building is new, with modern fire safety, says the listing."
+  - type: gallery
+    images:
+      - file: lounge-view
+        caption: "The window bar in the lounge, looking over Hongdae"
+      - file: pod-row
+        caption: "A row of curtained bunk pods"
+      - file: showers
+        caption: "The shower room, with private cubicles"
   - type: map
     note: "The hostel is on the **8th floor** of 178 Donggyo-ro; take the lift up to reception."
   - type: tips

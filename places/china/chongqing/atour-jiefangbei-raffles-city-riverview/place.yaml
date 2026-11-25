@@ -77,8 +77,8 @@ last_updated: 2026-11-24
 
 blocks:
   - type: hero
-    image: raffles-city-night
-    caption: "Raffles City from the river. The hotel is in a tower on Xinhua Road nearby"
+    image: room-city-view
+    caption: "A high-floor double at this Atour: queen bed, desk by the TV and a window over the city"
     hook: "Three work nights on the 20th floor: desk, blackout curtains, and no rush on the morning of the 31st."
   - type: quick_facts
     extra:
@@ -127,6 +127,12 @@ blocks:
         text: "The 28–31 Dec rate is **paid at the hotel**, free to cancel until **14:00 (UTC+8) on 28 Dec**."
       - title: Metro at the door
         text: "Xiaoshizi station is **120 m** away (Trip.com), and the hotel says the Liberation Monument street is 800 m away."
+  - type: gallery
+    images:
+      - file: tower-exterior
+        caption: "The hotel tower on Xinhua Road at dusk, the Atour sign at the top"
+      - file: lobby
+        caption: "The lobby and front desk"
   - type: prose
     title: Work nights or the whole week
     text: |-

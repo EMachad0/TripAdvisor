@@ -1,17 +1,42 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: akihabara-night
-  title: File:Sotokanda, Akihabara Electric Town at night 20231114.png
-  author: Phineyes
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Sotokanda,_Akihabara_Electric_Town_at_night_20231114.png
-  original_url: https://upload.wikimedia.org/wikipedia/commons/6/60/Sotokanda%2C_Akihabara_Electric_Town_at_night_20231114.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: This image depicts Sotokanda, Akihabara Electric Town at night
-  width: 4032
-  height: 3024
+- file: shopfront-night
+  title: 20170222_1.jpg
+  author: Ossern.com
+  license: All rights reserved (personal use)
+  source_url: https://ossern.com/ramen_20170222/
+  original_url: https://ossern.com/wp-content/uploads/2018/02/20170222_1.jpg
+  width: 1680
+  height: 1120
+  widths:
+    - 640
+    - 1280
+    - 1680
+  fetched: 2026-11-25
+  origin: web
+- file: tonkotsu-bowl
+  title: _01_20200910174412635.jpg
+  author: Konjo no Umi blog
+  license: All rights reserved (personal use)
+  source_url: https://kon2019.blog.fc2.com/blog-entry-3125.html
+  original_url: https://blog-imgs-135.fc2.com/k/o/n/kon2019/_01_20200910174412635.jpg
+  width: 5472
+  height: 3078
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront-day
+  title: akihabara_jangara.jpg
+  author: Sanpo Nikki
+  license: All rights reserved (personal use)
+  source_url: https://sanpo-nikki.com/ramen/akihabara_jangara/
+  original_url: https://sanpo-nikki.com/adm/wp-content/uploads/2021/10/akihabara_jangara.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

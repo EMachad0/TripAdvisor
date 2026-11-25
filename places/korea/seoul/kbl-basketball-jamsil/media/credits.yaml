@@ -31,3 +31,30 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: jamsil-gym-game
+  title: 5300bc151511dc7eef42.JPG
+  author: MLBPARK
+  license: All rights reserved (personal use)
+  source_url: https://mlbpark.donga.com/mlbpark/b.php?id=3798937&b=bullpen
+  original_url: http://imgpark.donga.com/mbs/fileUpload/201402/5300bc151511dc7eef42.JPG
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: halftime-show
+  title: maxresdefault.jpg
+  author: YouTube (fancam, Dec 2025)
+  license: All rights reserved (personal use)
+  source_url: https://www.youtube.com/watch?v=yCkPO1Cd0WE
+  original_url: https://i.ytimg.com/vi/yCkPO1Cd0WE/maxresdefault.jpg
+  width: 1280
+  height: 720
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

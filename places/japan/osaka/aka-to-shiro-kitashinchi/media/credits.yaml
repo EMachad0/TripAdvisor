@@ -1,0 +1,53 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: counter
+  title: o1104082815211594770.jpg
+  author: 旅のお小遣い帳 (Ameba blog)
+  license: All rights reserved (personal use)
+  source_url: https://ameblo.jp/tabi-iroiro/entry-12777620085.html
+  original_url: https://stat.ameba.jp/user_images/20221203/21/tabi-iroiro/d2/33/j/o1104082815211594770.jpg
+  width: 1104
+  height: 828
+  widths:
+    - 640
+    - 1104
+  fetched: 2026-11-25
+  origin: web
+- file: shrimp-nigiri
+  title: o1080080914539701461.jpg
+  author: グルメとお酒と旅と私 (Ameba blog)
+  license: All rights reserved (personal use)
+  source_url: https://ameblo.jp/beef-2929/entry-12507307994.html
+  original_url: https://stat.ameba.jp/user_images/20190817/07/beef-2929/1f/9e/j/o1080080914539701461.jpg
+  width: 1080
+  height: 809
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: uni
+  title: o1104082815211595077.jpg
+  author: 旅のお小遣い帳 (Ameba blog)
+  license: All rights reserved (personal use)
+  source_url: https://ameblo.jp/tabi-iroiro/entry-12777620085.html
+  original_url: https://stat.ameba.jp/user_images/20221203/21/tabi-iroiro/18/2a/j/o1104082815211595077.jpg
+  width: 1104
+  height: 828
+  widths:
+    - 640
+    - 1104
+  fetched: 2026-11-25
+  origin: web
+- file: starters
+  title: aka-to-shiro_02.jpg
+  author: 関西グルマン
+  license: All rights reserved (personal use)
+  source_url: https://kansai-gourmet.com/michelin-osaka2024-sushi
+  original_url: https://kansai-gourmet.com/wp-content/uploads/2021/11/aka-to-shiro_02.jpg
+  width: 1000
+  height: 750
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

@@ -99,9 +99,9 @@ last_updated: 2026-11-24
 
 blocks:
   - type: hero
-    image: dongshuimen-view
+    image: common-hall
     hook: "An old courtyard hostel above the Yangtze, where the private rooms sit in their own building away from the dorms."
-    caption: "The Yangtze and Dongshuimen Bridge seen from Baixiang Street; no free photo of the hostel itself"
+    caption: "The glass-roofed common hall, with booths and hanging lights"
   - type: quick_facts
     extra:
       - { label: Private double, value: "¥188 (R$166)", detail: "Ensuite, 26–30 Dec on Hostelworld; ¥298 on 31 Dec and 1 Jan" }
@@ -198,6 +198,8 @@ blocks:
     wear: Mid-weight jacket and a rain layer
   - type: gallery
     images:
+      - { file: dorm, caption: "A dorm: wooden pod bunks with curtains and reading lights" }
+      - { file: bar, caption: "The bar counter" }
       - { file: baixiang-street, caption: "Baixiang Street, the restored old street the hostel is on", focus: center }
   - type: pairs_well
     items:

@@ -31,3 +31,35 @@
     - 1920
   fetched: 2026-11-23
   origin: commons
+- file: tron-canopy-night
+  title: File:Tron Lightcycles Power Run (29586661836).jpg
+  author: Jeremy Thompson from Los Angeles, California
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tron_Lightcycles_Power_Run_(29586661836).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/93/Tron_Lightcycles_Power_Run_%2829586661836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tron Lightcycles Power Run
+  width: 2736
+  height: 1824
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: tron-train
+  title: File:Tron Lightcycles Power Run (28995514824).jpg
+  author: Jeremy Thompson from Los Angeles, California
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tron_Lightcycles_Power_Run_(28995514824).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/05/Tron_Lightcycles_Power_Run_%2828995514824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Tron Lightcycles Power Run
+  width: 2736
+  height: 1824
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

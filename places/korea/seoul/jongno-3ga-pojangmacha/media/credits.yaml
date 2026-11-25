@@ -1,33 +1,40 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: tent-night
-  title: File:Seoul street food 2011 march 20.jpg
-  author: LinasD
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Seoul_street_food_2011_march_20.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3c/Seoul_street_food_2011_march_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Pojangmacha - street food stall in Seoul, South Korea
-  width: 3872
-  height: 2592
+- file: exit6-tents
+  title: 20230618000219_0.jpg
+  author: The Korea Herald
+  license: All rights reserved (personal use)
+  source_url: https://www.koreaherald.com/article/3149985
+  original_url: https://wimg.heraldcorp.com/content/default/2023/06/18/20230618000219_0.jpg
+  width: 1280
+  height: 960
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
-- file: tents-day
-  title: File:Seoul street food 2011 march 28.jpg
-  author: LinasD
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Seoul_street_food_2011_march_28.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1b/Seoul_street_food_2011_march_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Pojangmacha - street food stalls in Seoul, South Korea
-  width: 3872
-  height: 2592
+  fetched: 2026-11-25
+  origin: web
+- file: street-tables
+  title: 20230618000220_0.jpg
+  author: The Korea Herald
+  license: All rights reserved (personal use)
+  source_url: https://www.koreaherald.com/article/3149985
+  original_url: https://wimg.heraldcorp.com/content/default/2023/06/18/20230618000220_0.jpg
+  width: 1280
+  height: 960
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: tent-crowd
+  title: 20230618000221_0.jpg
+  author: The Korea Herald
+  license: All rights reserved (personal use)
+  source_url: https://www.koreaherald.com/article/3149985
+  original_url: https://wimg.heraldcorp.com/content/default/2023/06/18/20230618000221_0.jpg
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

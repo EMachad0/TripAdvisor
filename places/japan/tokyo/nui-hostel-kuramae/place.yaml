@@ -66,8 +66,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: kuramae-bridge
-    caption: "Kuramae Bridge over the Sumida, in the hostel's neighbourhood. No free photo of Nui itself"
+    image: bar-lounge
+    caption: "Nui's ground-floor bar lounge: timber tables, a tree-trunk centrepiece and the coffee bar"
     hook: "Coffee downstairs at 8; at 18:00 the same room turns into a bar where Tokyo locals drink too."
   - type: quick_facts
     extra:
@@ -123,6 +123,11 @@ blocks:
         text: "On the Sumida River in Kuramae; the hostel says Senso-ji is about 15 minutes' walk along the river."
       - title: Cheap midweek
         text: "**¥4,750** on Wed 13 Jan against ¥7,410 on Sat 16 for the same 8-bed dorm, in the 11 Nov searches."
+  - type: gallery
+    images:
+      - { file: facade-dusk, caption: "The hostel's tall glass front at dusk" }
+      - { file: dorm, caption: "A dorm room with wooden bunks and curtains" }
+      - { file: lounge-evening, caption: "The lounge full of guests and locals" }
   - type: map
     note: "Kuramae station exit A7 (Oedo Line) is about 2 minutes away; exit A2 (Asakusa Line) about 3."
   - type: tips

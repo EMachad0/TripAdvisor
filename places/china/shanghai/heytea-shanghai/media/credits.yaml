@@ -46,3 +46,17 @@
     - 1920
   fetched: 2026-11-24
   origin: commons
+- file: shanghai-counter
+  title: Heytea.jpeg
+  author: Directive Adventure (blog)
+  license: All rights reserved (personal use)
+  source_url: https://www.directiveadventure.com/blog/when-in-shanghai-drink-more-boba
+  original_url: https://images.squarespace-cdn.com/content/v1/65f4dcd74aae7500fbcd15d2/38d2eafd-090c-49ef-9aeb-b13ef7e8ee88/Heytea.jpeg
+  width: 2500
+  height: 1875
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

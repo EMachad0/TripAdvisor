@@ -1,17 +1,43 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: xiaomian-bowl
-  title: File:Chongqing Xiaomian with fried eggs.jpg
-  author: 王桁霽
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Chongqing_Xiaomian_with_fried_eggs.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4b/Chongqing_Xiaomian_with_fried_eggs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Chongqing Xiaomian with fried eggs
-  width: 4032
-  height: 2688
+- file: wanza-bowl
+  title: 100w15000000ymh3w84BD.jpg
+  author: Ctrip
+  license: All rights reserved (personal use)
+  source_url: https://you.ctrip.com/food/chongqing158/344272.html
+  original_url: https://youimg1.c-ctrip.com/target/100w15000000ymh3w84BD.jpg
+  width: 1846
+  height: 1080
+  widths:
+    - 640
+    - 1280
+    - 1846
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: 7cc6fa77173cb9b5.jpg
+  author: Qunar
+  license: All rights reserved (personal use)
+  source_url: https://touch.go.qunar.com/poi/3394454
+  original_url: https://img1.qunarzz.com/travel/d4/1706/a7/7cc6fa77173cb9b5.jpg
+  width: 2048
+  height: 1070
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: shop-sign
+  title: d100e3017772edb5.jpg
+  author: Qunar
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/4982492
+  original_url: https://img1.qunarzz.com/travel/d3/1609/7e/d100e3017772edb5.jpg
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web

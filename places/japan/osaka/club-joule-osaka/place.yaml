@@ -64,9 +64,9 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: amerikamura
+    image: main-floor
     focus: center
-    caption: "Amerikamura by day, Joule's neighbourhood; no free photo of the club"
+    caption: "The main floor packed for an Oliver Heldens set"
     hook: House and techno in Amerikamura since 1999, with a rooftop to cool off on.
   - type: quick_facts
     time_needed: 4–6 h
@@ -83,6 +83,10 @@ blocks:
         text: "Time Out lists past guests from Steve Aoki and Calvin Harris to Fatboy Slim. The club's 2026 news announced Dixon, and its GOODLIFE techno parties come back several times a year."
       - title: A cheap midweek night
         text: "**MIDWEEK GROOVE** is techno every Wednesday from 23:00. ¥2,000 at the door, and the lineup changes each week."
+  - type: gallery
+    images:
+      - { file: dancefloor-lasers, caption: "Green lasers over the crowd at an INTENTION night, Dec 2025" }
+      - { file: from-above, caption: "The dancefloor and DJ booth seen from the upper level" }
   - type: prose
     title: How a night works
     dropcap: true

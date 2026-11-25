@@ -80,9 +80,9 @@ last_updated: 2026-11-24
 
 blocks:
   - type: hero
-    image: nanjing-road-night
-    focus: center
-    caption: "Nanjing Road looking toward New World City; no free photo of this branch exists"
+    image: shanghai-counter
+    focus: "60% 50%"
+    caption: "Two HeyTea cups at another of the chain's Shanghai mall branches"
     hook: Cheese foam, chewy grape pulp and brown sugar pearls from the shop that set off China's tea-shop boom.
   - type: quick_facts
     time_needed: 20–40 min
@@ -118,6 +118,8 @@ blocks:
       - file: mango-drink
         caption: A HeyTea mango drink with sago
         focus: center
+      - file: nanjing-road-night
+        caption: "Nanjing Road at night, looking toward New World City"
   - type: menu
     title: What to order
     items:

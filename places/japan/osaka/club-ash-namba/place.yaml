@@ -80,11 +80,14 @@ sources:
     title: "Osaka: climate table (Wikipedia)"
     checked: 2026-11-17
 confidence: medium
-confidence_note: "Prices, hours and the foreigner welcome come from the shop's own pages (marketing). The official site says phone bookings pay the regular ¥20,000 for 60 min; it doesn't say whether a foreign caller gets it, and the English page charges ¥30,000. English reviews: a few, latest Oct–Nov 2026. Pin is block level. No free photo (Commons was rate-limited)."
+confidence_note: "Prices, hours and the foreigner welcome come from the shop's own pages (marketing). The official site says phone bookings pay the regular ¥20,000 for 60 min; it doesn't say whether a foreign caller gets it, and the English page charges ¥30,000. English reviews: a few, latest Oct–Nov 2026. Pin is block level."
 last_updated: 2026-11-17
 
 blocks:
   - type: hero
+    image: shopfront
+    caption: "The shopfront on a Nishi-Shinsaibashi side street, from the shop's access guide"
+    focus: "38% 50%"
     hook: "A suit, pantyhose and a pretend office: Osaka's take on the role-play room, one theme done properly."
   - type: quick_facts
     time_needed: "60 min session"
@@ -103,6 +106,10 @@ blocks:
         text: "Osaka bans new store-based health shops across the prefecture; the ones still open were notified before the ban, and one booking listing showed only **about 15** in Oct 2026. Club Ash is a store-based shop still operating: you go to the shop, not a hotel."
       - title: Card OK, no fee
         text: "The official site takes **all major credit cards** and says it charges **no card fee** (0%). It's a 3–5 min walk from Namba Station, Exit 25."
+  - type: gallery
+    images:
+      - { file: front-night, caption: "The building lit up at night" }
+      - { file: reception, caption: "The front desk inside the entrance" }
   - type: prose
     title: What you're paying for
     dropcap: true

@@ -67,6 +67,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: main-room
+    caption: "Lion's main room: a vaulted hall, the DJ booth under a giant sculpted head"
     hook: "Big-room EDM and techno, a Friday guest DJ from abroad, and a 6 AM taxi back across the river."
   - type: quick_facts
     time_needed: 4–6 h
@@ -93,6 +95,16 @@ blocks:
       In 2026, Lion is the Seoul club on DJ Mag's list. It is a Gangnam night: dress up a little, carry your passport, and expect bottle tables (NightFlow lists a ₩1,400,000 minimum spend per group) next to a floor where a ticket and two drinks are enough.
 
       **For your dates:** in your Korea days (10–20 Jan) the club nights are Thu 14, Fri 15 and Sat 16 Jan. Thu 14 and Fri 15 are work nights (your shift runs 21:00–06:00), so **Sat 16 Jan** is the one that works: no shift that night or on Sunday. Check @lionseoul on Instagram for the line-up a week or two before.
+  - type: gallery
+    images:
+      - file: confetti-drop
+        caption: "A confetti drop over the packed main floor"
+      - file: entry-tunnel
+        caption: "The lit tunnel from the door to the main room"
+      - file: entrance-night
+        caption: "The entrance and queue lines on Dosan-daero at night"
+      - file: dj-booth-visuals
+        caption: "A techno night at Lion, with visuals on the wall behind the booth"
   - type: menu
     title: What the night costs
     items:

@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: alley-entrance
+  title: 10011d000001exao8A043.jpg
+  author: Trip.com
+  license: All rights reserved (personal use)
+  source_url: https://you.ctrip.com/food/shanghai2/17597552-dianping-p3.html
+  original_url: https://youimg1.c-ctrip.com/target/10011d000001exao8A043.jpg
+  width: 1920
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: topping-noodles
+  title: 100q1g000001h44hz503F.jpg
+  author: Qunar
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/10163418194
+  original_url: https://youimg1.c-ctrip.com/target/100q1g000001h44hz503F.jpg
+  width: 1824
+  height: 1368
+  widths:
+    - 640
+    - 1280
+    - 1824
+  fetched: 2026-11-25
+  origin: web
+- file: alley-tables
+  title: v2-6834de82c3b28c2f2e389310c4795d22_r.jpg
+  author: Zhihu
+  license: All rights reserved (personal use)
+  source_url: https://zhuanlan.zhihu.com/p/1956828722645673914
+  original_url: https://pica.zhimg.com/v2-6834de82c3b28c2f2e389310c4795d22_r.jpg
+  width: 1080
+  height: 812
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web

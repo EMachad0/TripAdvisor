@@ -86,8 +86,14 @@ blocks:
       Want to eat the crab too? Kani Doraku's 300-seat flagship serves crab set lunches until 16:00. The cheapest, **Hoshi**, costs ¥3,740 with crab tempura, crab sushi and chawanmushi. The full courses on the regular menu start at ¥6,600. Card and QR payment are accepted.
   - type: gallery
     images:
+      - file: crab-street-night
+        caption: The crab lit up over the street at night, January 2020
       - file: crab-sign-2020
         caption: The crab over the flagship's door, October 2020
+      - file: dining-room
+        caption: A table dining room inside the flagship
+      - file: glico-canal
+        caption: The Glico Man and the canal from Ebisubashi, a few steps away
   - type: quote
     variant: vibe
     text: Neon on black water, a crab waving at you, and the smell of takoyaki everywhere.

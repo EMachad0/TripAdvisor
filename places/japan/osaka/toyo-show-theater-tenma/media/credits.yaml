@@ -1,0 +1,55 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: exterior-night
+  title: 4ZSV23GYQNPJZFR6S3WFEYNPWQ.jpg
+  author: 産経ニュース
+  license: All rights reserved (personal use)
+  source_url: https://www.sankei.com/article/20250820-VY2QDCTS5FN2NII3IVNOAFEJTU/
+  original_url: https://www.sankei.com/resizer/v2/4ZSV23GYQNPJZFR6S3WFEYNPWQ.jpg?auth=255a7ff00350b7e3bf44dcf37b900b8bdf92af142098a9b1e4e5cd31471fd9e9&quality=80&focal=1718%2C1363&width=2400
+  width: 2400
+  height: 1800
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: exterior-day
+  title: C4Dmy27UYAE--Ya.jpg
+  author: X (@tomgold127)
+  license: All rights reserved (personal use)
+  source_url: https://x.com/tomgold127/status/828916146812309504
+  original_url: https://pbs.twimg.com/media/C4Dmy27UYAE--Ya.jpg?name=orig
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: hall
+  title: 場内.jpg
+  author: 東洋ショー劇場
+  license: All rights reserved (personal use)
+  source_url: https://www.toyo-show.com/?post_type=facility
+  original_url: https://www.toyo-show.com/wp-content/uploads/2024/01/%E5%A0%B4%E5%86%85.jpg
+  width: 890
+  height: 445
+  widths:
+    - 640
+    - 890
+  fetched: 2026-11-25
+  origin: web
+- file: bar-chaco
+  title: チャコ.jpg
+  author: 東洋ショー劇場
+  license: All rights reserved (personal use)
+  source_url: https://www.toyo-show.com/?post_type=facility
+  original_url: https://www.toyo-show.com/wp-content/uploads/2024/01/%E3%83%81%E3%83%A3%E3%82%B3.jpg
+  width: 890
+  height: 445
+  widths:
+    - 640
+    - 890
+  fetched: 2026-11-25
+  origin: web

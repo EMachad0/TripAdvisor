@@ -72,8 +72,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: jamsil-sports-complex
-    caption: "The Jamsil sports district from above, where the gym stands"
+    image: jamsil-gym-game
+    caption: "An SK Knights home game inside Jamsil Students' Gymnasium (2014)"
     hook: "A cheer captain on the mic, cheerleaders by the court and a whole stand chanting, for ₩15,000 a seat."
   - type: quick_facts
     time_needed: "2.5–3 h"
@@ -106,8 +106,12 @@ blocks:
       **How a foreigner buys:** tickets go on sale on the KBL website or app **5 days before, at 11:00**. If the sign-up won't take your number, go to the box office, which opens 2 hours before tip-off. SK keeps **50 general seats per game** (one each) for people who can't book online, and names foreigners, with a passport check. That allocation stops an hour after the box office opens, so arrive early.
   - type: gallery
     images:
+      - file: halftime-show
+        caption: "A halftime show on the Jamsil court, SK Knights game, Dec 2025"
       - file: kbl-game-db
         caption: "A KBL game in Wonju. DB play at Jamsil on Tue 19 Jan"
+      - file: jamsil-sports-complex
+        caption: "The Jamsil sports complex from above, where the gym stands"
   - type: cost_breakdown
     items:
       - label: General seat, adult (SK home game)
