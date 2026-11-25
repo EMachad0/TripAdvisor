@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: studio-crowd
+  title: Channel-7-Muay-Thai-Stadium-e1658991412883.jpg
+  author: South East Asia Backpacker
+  license: All rights reserved (personal use)
+  source_url: https://southeastasiabackpacker.com/muay-thai-stadiums-bangkok/
+  original_url: https://southeastasiabackpacker.com/wp-content/uploads/2020/07/Channel-7-Muay-Thai-Stadium-e1658991412883.jpg
+  width: 1730
+  height: 1152
+  widths:
+    - 640
+    - 1280
+    - 1730
+  fetched: 2026-11-25
+  origin: web
+- file: fight
+  title: Channel-7-Boxing-Stadium.jpg
+  author: Always Vacation Thai
+  license: All rights reserved (personal use)
+  source_url: https://alwaysvacationthai.com/guides/where-to-catch-the-thrill-of-live-muay-thai-matches/
+  original_url: https://alwaysvacationthai.com/wp-content/uploads/2025/03/Channel-7-Boxing-Stadium.jpg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: corner
+  title: Channel-7-Boxing-Stadium-ringside-seats-2048x1536.jpg
+  author: Muay Thai Stadiums
+  license: All rights reserved (personal use)
+  source_url: https://muaythaistadiums.com/channel-7-boxing-stadium/
+  original_url: https://muaythaistadiums.com/wp-content/uploads/2023/07/Channel-7-Boxing-Stadium-ringside-seats-2048x1536.jpg
+  width: 2048
+  height: 1536
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

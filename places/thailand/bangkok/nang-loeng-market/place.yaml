@@ -55,11 +55,13 @@ sources:
     title: "Bangkok: climate table, 1991–2020 (Wikipedia)"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Dish prices are from one dated source (Thairath, July 2026). Market hours agree across Visit Thailand Today and Love Thailand, but individual shops keep their own (some Mon–Sat only). The curry shop's prices weren't found. Commons has no free photo of the market, so the hero is typographic."
+confidence_note: "Dish prices are from one dated source (Thairath, July 2026). Market hours agree across Visit Thailand Today and Love Thailand, but individual shops keep their own (some Mon–Sat only). The curry shop's prices weren't found."
 last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: market-hall
+    caption: "Under Nang Loeng's tin roof: snacks laid out in trays and fruit stacked along the aisle"
     hook: "Grandmother recipes under a tin roof: curries ladled from trays, sweets steamed in tiny cups, lunch over by three."
   - type: quick_facts
     time_needed: 1–2 h
@@ -130,6 +132,10 @@ blocks:
         name_local: ข้าวแกงรัตนา
         note: "Khao Gaeng Rattana: 20–30 curries to choose from. No current price found."
     note: "Prices from Thairath's July 2026 visit. Cash is safest."
+  - type: gallery
+    images:
+      - { file: entrance-arch, caption: "The old wrought-iron entrance arch on Nakhon Sawan Road" }
+      - { file: street-front, caption: "The shophouse front of the market from across the road" }
   - type: cost_breakdown
     items:
       - { label: Tapioca dumplings with pork (box), local: 50, brl: 8.25 }

@@ -86,7 +86,9 @@ blocks:
   - type: gallery
     images:
       - { file: mosque, caption: "Niujie Mosque: Chinese roofs on a mosque first built in 996" }
-      - { file: hand-cut-lamb, caption: "Hand-cut lamb for hotpot (illustration, not from Niujie)" }
+      - { file: cooked-meat-counter, caption: "Shaobing, flatbreads and cooked meats at a Niujie halal deli counter" }
+      - { file: halal-shop-dusk, caption: "A halal restaurant on Niujie at dusk" }
+      - { file: pastry-case, caption: "Halal pastries and sweets in a Niujie shop window" }
   - type: menu
     title: The crawl
     items:

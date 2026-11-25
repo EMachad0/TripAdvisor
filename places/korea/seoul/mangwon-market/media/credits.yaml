@@ -15,3 +15,44 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: entrance
+  title: image.jpg
+  author: Time Out Seoul
+  license: All rights reserved (personal use)
+  source_url: https://www.timeout.com/seoul/attractions/mangwon-market
+  original_url: https://media.timeout.com/images/102933539/image.jpg
+  width: 2625
+  height: 1969
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: busy-lane
+  title: Mangwon-dong-in-Seoul-4.jpg
+  author: Seoul Metropolitan Government
+  license: All rights reserved (personal use)
+  source_url: https://english.seoul.go.kr/mangwon-dong-in-seoul/mangwon-dong-in-seoul-4/
+  original_url: https://english.seoul.go.kr/wp-content/uploads/2021/04/Mangwon-dong-in-Seoul-4.jpg
+  width: 1000
+  height: 666
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: covered-lane
+  title: caption.jpg
+  author: Tripadvisor
+  license: All rights reserved (personal use)
+  source_url: https://www.tripadvisor.com/Attraction_Review-g294197-d13319724-Reviews-Mangwon_Market-Seoul.html
+  original_url: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/a3/8f/51/caption.jpg?w=2000&h=-1&s=1
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web

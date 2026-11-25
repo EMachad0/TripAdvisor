@@ -71,8 +71,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: pyongyang-naengmyeon
-    caption: "Pyongyang naengmyeon at another Seoul shop; no free photo of Pildong Myeonok"
+    image: mul-naengmyeon
+    caption: "Pildong Myeonok's mul-naengmyeon, with pickled radish and a plate of sliced boiled meat"
     hook: Buckwheat noodles in a cold, delicate beef broth that Seoul's noodle nerds still argue about.
   - type: quick_facts
     time_needed: 30–60 min
@@ -96,6 +96,12 @@ blocks:
       Pyongyang-style naengmyeon means buckwheat noodles in a chilled beef broth. Pildong Myeonok is one of the old Seoul houses for it, and Michelin keeps it in the Bib Gourmand list as a **₩**-band, worth-queueing-for shop.
 
       The taste is the point and the argument. Michelin says the broth's subtlety is loved and disputed in equal measure. Pair the noodles with the house **boiled pork**, which Michelin calls buttery and tender, cut in thick slices with a dipping sauce, if you can find someone to split a plate.
+  - type: gallery
+    images:
+      - file: building
+        caption: The corner building on Seoae-ro, the restaurant on the ground floor
+      - file: entrance
+        caption: The entrance under the 필동면옥 sign
   - type: quote
     variant: vibe
     text: A cold bowl, a hot room, and a row of old regulars slurping alone.

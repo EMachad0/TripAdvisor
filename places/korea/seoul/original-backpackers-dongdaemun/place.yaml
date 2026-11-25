@@ -63,8 +63,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: heunginjimun
-    caption: "Heunginjimun (Dongdaemun Gate), a short walk from the hostel. No free photo of the hostel exists"
+    image: rooftop
+    caption: "The hostel's rooftop terrace, with the hillside neighbourhood behind it"
     hook: "Hotel-clean beds by the old East Gate, a rooftop kitchen, and hosts who plan your day on WhatsApp."
   - type: quick_facts
     extra:
@@ -118,6 +118,14 @@ blocks:
         text: "Arriving after midnight? Ask in advance for late check-in."
   - type: map
     note: "Use **Dongdaemun station Exit 3**; the hostel is on the 3rd floor, right by a 7-Eleven."
+  - type: gallery
+    images:
+      - file: dorm
+        caption: A dorm with lockers and curtained bunks
+      - file: kitchen
+        caption: The shared kitchen and bar, opening onto the roof
+      - file: rooftop-lounge
+        caption: The glassed-in lounge beside the terrace
   - type: tips
     variant: insider
     items:

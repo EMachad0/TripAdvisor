@@ -66,8 +66,8 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: yeouido-skyline
-    caption: Yeouido's towers across the Han; no free photo of the store's interior
+    image: sounds-forest
+    caption: Sounds Forest, the indoor garden on 5F under the glass roof
     hook: Trees, benches and daylight on the fifth floor of a department store.
   - type: quick_facts
     time_needed: 1.5–2.5 h
@@ -96,6 +96,12 @@ blocks:
       The Hyundai Seoul opened in Yeouido in 2021, and over 6,600 m² (2,000+ *pyeong*) of its roughly 80,000 m² is indoor green space. That's the reason to come: you walk in from the cold and find a waterfall, then ride up to a skylit garden with real trees and benches, five floors above the street.
 
       The shops matter less. B2 is the floor of young Korean streetwear brands, and it's the busiest one on weekends. If you came for one thing to buy, the food hall downstairs is where your money goes.
+  - type: gallery
+    images:
+      - file: atrium-voids
+        caption: The curving white atrium, with planted islands between the floors
+      - file: tree-islands
+        caption: Looking down the atrium past the planted islands
   - type: quote
     variant: vibe
     text: The sound of a waterfall, three floors under a glass roof.

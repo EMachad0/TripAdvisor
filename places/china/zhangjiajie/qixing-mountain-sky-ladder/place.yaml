@@ -79,6 +79,8 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
+    image: cliff-climber
+    caption: "A climber clipped to the cliff on the via ferrata, above a sea of cloud"
     hook: An iron ladder bolted to a cliff at about 1,480 metres, and you are clipped to it the whole way up.
   - type: quick_facts
     time_needed: Full day (climb 3–4 h)
@@ -117,6 +119,12 @@ blocks:
       **Is it worth R$645?** That is almost four days of the "everything else" budget. You pay it because nothing else in the region does this: a real via ferrata with nearly 1,000 m of air below, coached, with gear included, open to beginners. If the price hurts, Tianmen's 999 steps give you a stairway to the sky for the price of the Tianmen ticket.
 
       **In December** it is a gamble on the weather. A guide puts the plateau well below freezing in winter and says the climb closes in rain or wind; on the snowy 31 December 2025 it was shut. Pick a dry, clear day, and keep a spare day.
+  - type: gallery
+    images:
+      - file: sky-ladder
+        caption: "Climbers on the Sky Ladder, the steel ladder up the cliff face"
+      - file: ring-platform
+        caption: "Qixing Mountain's ring-shaped viewing platform over the peaks"
   - type: book_ahead
     steps:
       - days_before: 3

@@ -1,17 +1,56 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: central-street-ice
-  title: File:Central Street (Zhongyang Dajie), Harbin 1 Ice sculpture.jpg
-  author: 闫恩铭 / Enming Yan
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Central_Street_(Zhongyang_Dajie),_Harbin_1_Ice_sculpture.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/9/98/Central_Street_%28Zhongyang_Dajie%29%2C_Harbin_1_Ice_sculpture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: To be filledTo be filled
-  width: 4048
-  height: 3036
+- file: common-room
+  title: j9fdgxkmdcbvlbojy3s7.jpg
+  author: Hostelworld (Harbin Xingsu Hostel)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/320426/harbin-xingsu-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/320426/j9fdgxkmdcbvlbojy3s7.jpg
+  width: 4896
+  height: 3264
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-10
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: dorm-pods
+  title: rcl82p548tau8mbbdtfs.jpg
+  author: Hostelworld (Harbin Xingsu Hostel)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/320426/harbin-xingsu-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/320426/rcl82p548tau8mbbdtfs.jpg
+  width: 1800
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1800
+  fetched: 2026-11-25
+  origin: web
+- file: kitchen-table
+  title: epymyppbt4ezvzx3n8zn.jpg
+  author: Hostelworld (Harbin Xingsu Hostel)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/320426/harbin-xingsu-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/320426/epymyppbt4ezvzx3n8zn.jpg
+  width: 4896
+  height: 3264
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: guests-dinner
+  title: tccqyhgt5kje5nf8mbsy.jpg
+  author: Hostelworld (Harbin Xingsu Hostel)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/hostels/p/320426/harbin-xingsu-hostel/
+  original_url: https://a.hwstatic.com/propertyimages/3/320426/tccqyhgt5kje5nf8mbsy.jpg
+  width: 1077
+  height: 808
+  widths:
+    - 640
+    - 1077
+  fetched: 2026-11-25
+  origin: web

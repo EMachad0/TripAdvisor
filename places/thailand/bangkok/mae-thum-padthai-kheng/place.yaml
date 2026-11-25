@@ -67,8 +67,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
-    image: giant-swing
-    caption: "The Giant Swing, a few minutes' walk away; no free photo of the shop itself"
+    image: shrimp-pad-thai
+    caption: "Mae Thum's shrimp pad thai in its bamboo basket, with peanuts, bean sprouts and lime"
     hook: Six pad thais and nothing else, cooked to order in a small fan-cooled room near City Hall.
   - type: quick_facts
     time_needed: 30–45 min
@@ -93,6 +93,11 @@ blocks:
       Mae Thum is a small, calm room with about 20 seats (Wanderlog review, May 2026), and Michelin only added it to the Bib Gourmand list in November 2026, so it is not yet on the usual tourist pad thai lists.
 
       Visit Thailand Today says the room fills at lunch and mid-afternoon is easier. It also says the pad thai runs sweet; you can ask for less. Say *mai pet* for no chilli or *pet nit noi* for a little.
+  - type: gallery
+    feature: false
+    images:
+      - { file: shopfront, caption: "The shopfront on Siriphong Road, with its OPEN sign and round logo" }
+      - { file: basket-plate, caption: "Prawn pad thai served in the kheng, the bamboo basket the shop is named for" }
   - type: quote
     variant: vibe
     text: Wok noise, a fan turning overhead, and a lime wedge on the side.

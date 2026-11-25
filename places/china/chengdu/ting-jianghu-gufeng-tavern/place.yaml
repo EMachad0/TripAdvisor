@@ -62,8 +62,8 @@ last_updated: 2026-11-15
 
 blocks:
   - type: hero
-    image: yulin-east-road-night
-    caption: "Yulin East Road at night, a few streets away. No free photo of the tavern exists"
+    image: dance-show
+    caption: "An ancient-style dance between the tavern's tables"
     hook: Ancient-style dance and Chinese folk music, in a bar themed on the wandering-swordsman world.
   - type: quick_facts
     time_needed: 2–3 h
@@ -91,6 +91,8 @@ blocks:
       **Honest verdict:** worth one of your three free Chengdu evenings only if you want a Chinese costume-drama atmosphere and don't mind not following the lyrics. As a bar for meeting people from the hostel it is a weak pick: the crowd is local, the songs are Mandarin, and no source says anything about foreigners. It's better as a 1–2 hour stop on a Yulin evening than as the whole night.
   - type: gallery
     images:
+      - file: yulin-east-road-night
+        caption: "Yulin East Road at night, a few streets from the tavern"
       - file: yulin-west-north-crossing
         caption: "Yulin West Road meets Yulin North Road, the bar quarter around the tavern"
   - type: cost_breakdown

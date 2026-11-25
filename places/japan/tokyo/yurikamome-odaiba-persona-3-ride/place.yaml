@@ -110,6 +110,10 @@ blocks:
       Be honest with yourself before you go: Atlus has never said Port Island is Odaiba. A fan who mapped the locations says the game deliberately avoids anything you could pin to a real place. Only the anime film's monorail scenes, with the bay and a big bridge outside the window, look like the Yurikamome.
 
       One fan favourite is gone: VenusFort, the indoor "Venetian" mall often matched with Paulownia Mall, **closed for good on 27 March 2022**. What is left is the feeling: a quiet driverless train to an island of glass towers, a long bridge, and the bay at night. Kobe also has a real Port Island, with Japan's first fully automated line (1981). Nobody has tied that one to the game either.
+  - type: gallery
+    images:
+      - { file: shibaura-loop, caption: "The loop up to Rainbow Bridge, seen from the front window" }
+      - { file: train-odaiba, caption: "A driverless Yurikamome train at Odaiba-kaihinkōen" }
   - type: quote
     variant: vibe
     text: Headphones on, front seat, the city tilting as the train climbs the loop. Somewhere it is the Dark Hour.

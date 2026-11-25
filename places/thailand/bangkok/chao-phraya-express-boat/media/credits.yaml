@@ -31,3 +31,35 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: inside-cabin
+  title: File:Chao Phraya Express Boat Orange Flag 1.jpg
+  author: Slleong
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Chao_Phraya_Express_Boat_Orange_Flag_1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/43/Chao_Phraya_Express_Boat_Orange_Flag_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Passengers inside an Orang Flag Chao Phraya Express Boat waiting to depart from Nonthaburi (Phibul 3) Pier.
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: river-bus
+  title: File:River bus, Chao Phraya Express (8285818174).jpg
+  author: Ian Gratton from Sutton-n-Craven, North Yorkshire, England
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:River_bus,_Chao_Phraya_Express_(8285818174).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/34/River_bus%2C_Chao_Phraya_Express_%288285818174%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: you can travel quickly and cheaply up and down the river on these river buses, they are a little crowded though
+  width: 3888
+  height: 2592
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

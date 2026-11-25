@@ -87,8 +87,8 @@ last_updated: 2026-11-18
 
 blocks:
   - type: hero
-    image: myeongdong-theater
-    caption: "Myeongdong Theater on Myeongdong-gil; the shop is a few doors away (no free photo of it)"
+    image: reception
+    caption: "Nanda Aroma's reception on the 2nd floor, after the renovation"
     hook: "A warm foot bath, then an hour of Thai stretching or slow aroma oil, two floors above Myeongdong's street-food crowd."
   - type: quick_facts
     time_needed: "1.5 h with the foot bath"
@@ -122,6 +122,13 @@ blocks:
       - { label: "Aroma Oil Therapy instead (difference)", local: 30000, brl: 129.81, optional: true }
   - type: map
     note: "Search **난다아로마** in Naver Map or Kakao Map. Walk from Myeongdong station Exit 6 toward the **Myeongdong Police Box**; the shop is on the 2nd floor, in the alley near the NANTA theatre (Seoul Travel Pass)."
+  - type: gallery
+    images:
+      - file: massage-room
+        caption: Curtained massage beds in one of the treatment rooms
+      - file: entrance
+        caption: The street door at 25-6 Myeongdong-gil, stairs up to the shop
+        focus: top
   - type: tips
     variant: insider
     items:

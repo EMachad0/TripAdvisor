@@ -54,9 +54,9 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: monitor
+    image: by-swan-boats
     hook: "Tai chi at dawn, skyscrapers on every side, and lizards the size of your leg."
-    caption: "An Asian water monitor in Lumphini Park"
+    caption: "A water monitor on the lawn by Lumphini's swan pedal boats"
   - type: quick_facts
     time_needed: 1–2 h
     best_time: Weekday, 15:00 onwards
@@ -82,7 +82,7 @@ blocks:
       For a work-week traveler it fits the empty hours well. It's free, it's on the MRT, and you can come after lunch, take a pedal boat out before 16:00, watch the lizards along the water, and maybe catch the 17:00 aerobics before heading back to start your shift.
   - type: gallery
     images:
-      - { file: by-swan-boats, caption: "A large monitor resting by the swan boats" }
+      - { file: monitor, caption: "An Asian water monitor climbing a tree trunk in the park" }
       - { file: sculpture, caption: "A monitor-lizard sculpture in the park" }
   - type: cost_breakdown
     items:

@@ -51,9 +51,9 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
-    image: taikoo-li
+    image: lounge-bar
     hook: Step out of the door and you're at Taikoo Li; come back up to a rooftop bar full of other backpackers.
-    caption: "Taikoo Li, a minute's walk away. No free photo of the hostel itself"
+    caption: "The hostel's lounge bar, with craft beer and coffee"
   - type: quick_facts
     extra:
       - { label: Check-in, value: "14:00–23:00", detail: No curfew; check-out by 12:00 }
@@ -108,6 +108,12 @@ blocks:
         text: "Hostelworld's atmosphere score is **9.5**, and its review summary singles out the dumpling parties as the place to meet other travellers."
       - title: One train to the pandas
         text: "Chunxi Road station is on **Line 3**, the Panda Base line, and Line 2 to People's Park and Chengdu East."
+  - type: gallery
+    images:
+      - file: rooftop
+        caption: The rooftop garden with its ping-pong table
+      - file: dumpling-party
+        caption: "Guests wrapping zongzi in bamboo leaves at a hostel cooking party"
   - type: map
     note: "From Chengdu East station take Line 2 straight to Chunxi Road (about 25 min, ¥4), Exit E1."
   - type: tips

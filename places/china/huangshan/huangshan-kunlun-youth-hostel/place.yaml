@@ -67,9 +67,9 @@ last_updated: 2026-11-11
 
 blocks:
   - type: hero
-    image: tangkou-hub
+    image: building
     hook: Wake up at the foot of the mountain, leave the big bag here, and climb with a daypack.
-    caption: "The Tangkou transfer hub, start of the mountain shuttles. No free photo of the hostel"
+    caption: "The hostel building in Tangkou, with the forested mountainside behind"
   - type: quick_facts
     extra:
       - { label: Check-in, value: "14:00–23:00", detail: "No curfew; check-out 11:00 or 12:00 depending on the site" }
@@ -123,6 +123,19 @@ blocks:
         text: "Guests mention a free evening briefing on the mountain, advice on climbing safely, and borrowed hiking poles."
       - title: Half the price of the summit
         text: "A ¥94 bed against roughly ¥200–300 for a summit dorm (Wikivoyage, 2019 prices)."
+  - type: gallery
+    feature: false
+    images:
+      - file: lounge
+        caption: "The lounge, with sofas, bookshelves and a dartboard"
+      - file: entrance-night
+        caption: "The hostel's glass front, lit up at night"
+      - file: bar
+        caption: The bar counter on the ground floor
+      - file: starry-night-room
+        caption: "A twin room with a Starry Night mural"
+      - file: tangkou-hub
+        caption: "The Tangkou transfer hub nearby, where the mountain shuttles start"
   - type: map
     note: "From Huangshan North, take the bus to the mountain's south gate (¥20, about 50 min, 06:30–19:30), which stops in Tangkou. The pin is Hostelworld's map point: check it against the address in a map app."
   - type: tips

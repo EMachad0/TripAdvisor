@@ -1,17 +1,42 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: emsphere
-  title: File:Emsphere, Bangkok, June 2024.jpg
-  author: Leongyy02
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Emsphere,_Bangkok,_June_2024.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Emsphere%2C_Bangkok%2C_June_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Outside view of Emsphere in Bangkok, Thailand, June 2024
-  width: 3701
-  height: 3000
+- file: reception
+  title: d32c9f_10562a7145f5465aa7240618959a9ef8~mv2.jpg
+  author: Hakumi Massage
+  license: All rights reserved (personal use)
+  source_url: https://www.hakumimassage.com/menu
+  original_url: https://static.wixstatic.com/media/d32c9f_10562a7145f5465aa7240618959a9ef8~mv2.jpg
+  width: 1477
+  height: 1108
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-16
-  origin: commons
+    - 1477
+  fetched: 2026-11-25
+  origin: web
+- file: room
+  title: d32c9f_0e7886503a2b49f3a9b61d037fb789c3~mv2.jpg
+  author: Hakumi Massage
+  license: All rights reserved (personal use)
+  source_url: https://www.hakumimassage.com/menu
+  original_url: https://static.wixstatic.com/media/d32c9f_0e7886503a2b49f3a9b61d037fb789c3~mv2.jpg
+  width: 1477
+  height: 1108
+  widths:
+    - 640
+    - 1280
+    - 1477
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: 2777.jpeg
+  author: Gurulist
+  license: All rights reserved (personal use)
+  source_url: https://gurulist.net/en/bangkok/nuru-massage/hakumi-nuru-massage-23872.htm
+  original_url: https://gurulist.net/img/address/2777.jpeg
+  width: 1024
+  height: 640
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web

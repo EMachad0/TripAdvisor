@@ -31,22 +31,6 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
-- file: mural-from-below
-  title: File:Myth of Tomorrow 2.jpg
-  author: Syced
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Myth_of_Tomorrow_2.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1a/Myth_of_Tomorrow_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Myth of Tomorrow (日本の東京都渋谷区にある、岡本太郎の壁画作品) Taken in such a way that the copyrightable painting itself is unusable.
-  width: 4080
-  height: 3072
-  widths:
-    - 640
-    - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
 - file: walkway-commuters
   title: File:Shibuya - Asu no Shinwa - 2016-05-06.jpg
   author: MathieuMD
@@ -63,3 +47,31 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: mural-walkway
+  title: image.jpg
+  author: Time Out Tokyo
+  license: All rights reserved (personal use)
+  source_url: https://www.timeout.com/tokyo/news/taro-okamotos-shibuya-mural-myth-of-tomorrow-to-be-restored-100223
+  original_url: https://media.timeout.com/images/106049097/image.jpg
+  width: 2800
+  height: 1575
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: mural-wide
+  title: PXL_20230806_021044491~6+WEB.jpg
+  author: Danny With Love
+  license: All rights reserved (personal use)
+  source_url: https://www.dannywithlove.com/blog/taro-okamoto-myth-of-tomorrow
+  original_url: https://images.squarespace-cdn.com/content/v1/5cb09473755be259f904d128/f615d176-d208-487c-ba83-72b3f025950d/PXL_20230806_021044491~6+WEB.jpg
+  width: 1600
+  height: 900
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web

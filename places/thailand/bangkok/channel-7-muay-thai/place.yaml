@@ -60,11 +60,13 @@ sources:
     title: "Bangkok: climate table (Wikipedia)"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Free Sunday 14:30 show and the 500-person cap come from Channel 7HD's own weekly programme release (printed by Naewna, Aug 2026), backed by a Nov 2026 guide and a Mar 2026 listing. No source covers 3 Jan 2027 itself. Dress code: both guides require a collared shirt, long trousers and closed shoes. No free photo of the studio, hence the text-only hero."
+confidence_note: "Free Sunday 14:30 show and the 500-person cap come from Channel 7HD's own weekly programme release (printed by Naewna, Aug 2026), backed by a Nov 2026 guide and a Mar 2026 listing. No source covers 3 Jan 2027 itself. Dress code: both guides require a collared shirt, long trousers and closed shoes."
 last_updated: 2026-11-13
 
 blocks:
   - type: hero
+    image: studio-crowd
+    caption: "A Sunday fight at the Channel 7 studio, the stands packed around the ring"
     hook: "No ticket, no tourists' section: just a TV studio packed to the ceiling and a crowd betting on every round."
   - type: quick_facts
     time_needed: 2.5–3 h
@@ -89,6 +91,10 @@ blocks:
       It's more of a studio than a stadium. The show goes out live on Thai TV every Sunday afternoon. Because entry is free, it fills up fast with Thai fans and gamblers, and it feels, as one guide puts it, like it "breaks every fire code".
 
       Only the **first 500** people get in. Arriving **30 minutes early** should get you in; about **an hour early** gets you a ringside seat. Once you're in the standing bleachers you're pinned shoulder to shoulder until the show ends, so use the bathroom first. Bring nothing in a plastic or glass bottle: security holds them until the end.
+  - type: gallery
+    images:
+      - { file: fight, caption: "Two fighters and the referee in the Channel 7 ring, live on 7HD" }
+      - { file: corner, caption: "A corner man working on his fighter between rounds" }
   - type: quote
     variant: vibe
     text: "Two hours of shouting odds, drumming and elbows, and it costs nothing."

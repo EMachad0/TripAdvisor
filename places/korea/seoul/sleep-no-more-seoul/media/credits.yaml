@@ -1,17 +1,57 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: daehan-cinema-entrance
-  title: File:Entrance of Daehan Cinema in Chungmuro.jpg
-  author: Christian Bolz
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Entrance_of_Daehan_Cinema_in_Chungmuro.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/7/72/Entrance_of_Daehan_Cinema_in_Chungmuro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Der Eingang des Daehan Cinema in Chungmuro, Seoul.
-  width: 4160
-  height: 2340
+- file: masked-audience
+  title: 1f507f9d-0ded-432a-9942-0bc5290fb8a2.jpg
+  author: The Korea Times
+  license: All rights reserved (personal use)
+  source_url: https://www.koreatimes.co.kr/lifestyle/arts-theater/20250826/inside-sleep-no-more-seoul-how-livi-vaughan-turned-former-cinema-into-immersive-theater
+  original_url: https://newsimg.koreatimes.co.kr/2025/08/25/1f507f9d-0ded-432a-9942-0bc5290fb8a2.jpg
+  width: 1920
+  height: 1280
   widths:
     - 640
     - 1280
     - 1920
-  fetched: 2026-11-18
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: mirror-duet
+  title: d9ba463b-cd4c-4638-816d-abac19c06a42.jpg
+  author: The Korea Times
+  license: All rights reserved (personal use)
+  source_url: https://www.koreatimes.co.kr/lifestyle/arts-theater/20250826/inside-sleep-no-more-seoul-how-livi-vaughan-turned-former-cinema-into-immersive-theater
+  original_url: https://newsimg.koreatimes.co.kr/2025/08/24/d9ba463b-cd4c-4638-816d-abac19c06a42.jpg
+  width: 1920
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: card-table
+  title: SleepNoMoreSeulBilet.jpg
+  author: Klook
+  license: All rights reserved (personal use)
+  source_url: https://www.klook.com/pl/activity/206566-sleep-no-more-seoul-ticket/
+  original_url: https://res.klook.com/images/fl_lossy.progressive,q_85/activities/ptt6bd9p7yqgzkl4aj00/SleepNoMoreSeulBilet.jpg
+  width: 1400
+  height: 1000
+  widths:
+    - 640
+    - 1280
+    - 1400
+  fetched: 2026-11-25
+  origin: web
+- file: apothecary
+  title: d3b3b6a3-0b01-4e7c-88ae-331a57d1a8ad.jpg
+  author: The Korea Times
+  license: All rights reserved (personal use)
+  source_url: https://www.koreatimes.co.kr/lifestyle/arts-theater/20250826/inside-sleep-no-more-seoul-how-livi-vaughan-turned-former-cinema-into-immersive-theater
+  original_url: https://newsimg.koreatimes.co.kr/2025/08/25/d3b3b6a3-0b01-4e7c-88ae-331a57d1a8ad.jpg
+  width: 1920
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web

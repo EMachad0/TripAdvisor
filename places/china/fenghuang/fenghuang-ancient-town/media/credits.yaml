@@ -15,19 +15,35 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
-- file: hongqiao-night
-  title: File:Fenghuang Hongqiao (Fenghuang Rainbow-Shaped Bridge) 2, 9 November 2010.jpg
-  author: Huangdan2060
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Fenghuang_Hongqiao_(Fenghuang_Rainbow-Shaped_Bridge)_2,_9_November_2010.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f1/Fenghuang_Hongqiao_%28Fenghuang_Rainbow-Shaped_Bridge%29_2%2C_9_November_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: The night scene of Fenghuang Hongqiao (Fenghuang Rainbow-Shaped Bridge), on 9 November 2010.
-  width: 4000
-  height: 3000
+- file: old-town-night
+  title: File:Fenghuang County night view 20190727.jpg
+  author: Sunyiming
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Fenghuang_County_night_view_20190727.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/40/Fenghuang_County_night_view_20190727.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​凤凰古城 夜景
+  width: 4654
+  height: 3494
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-12
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: hongqiao-night-2
+  title: File:Red Bridge at night Fenghuang Hunan.jpg
+  author: Lianguanlun
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Red_Bridge_at_night_Fenghuang_Hunan.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/05/Red_Bridge_at_night_Fenghuang_Hunan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Red Bridge lit at night over the Tuo River in Fenghuang, Hunan, China.
+  width: 4066
+  height: 6099
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
   origin: commons

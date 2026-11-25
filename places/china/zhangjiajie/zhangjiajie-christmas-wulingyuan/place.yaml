@@ -100,8 +100,8 @@ last_updated: 2026-11-14
 
 blocks:
   - type: hero
-    image: suoxi-dusk
-    caption: "Wulingyuan town on the Suoxi River at dusk (not at Christmas)"
+    image: xibu-street-night
+    caption: "Xibu Street lit up at night, Wulingyuan's old-style shopping quarter (not at Christmas)"
     hook: A mountain resort town in a quiet month. Christmas here is whoever is in the hostel bar that night.
   - type: quick_facts
     time_needed: "Christmas Eve + Christmas Day"
@@ -137,6 +137,10 @@ blocks:
       The fallback is **Charming Xiangxi**, a Tujia and Miao folk show in Wulingyuan, listed as year-round at 19:30 from ¥168, then a walk down Xibu Street. Spend the 25th in the park if the cloud lifts, and take the 07:30 train to Chongqing on the 26th.
   - type: gallery
     images:
+      - file: jijiehao-common-room
+        caption: "The Jijiehao hostel's common room, the likeliest Christmas crowd in town"
+      - file: xibu-lane-night
+        caption: "A lantern-lit lane in Xibu Street after dark"
       - file: tianzi-snow
         caption: "Tianzi Mountain under snow in winter 2026: possible, but not usually before New Year"
   - type: quote

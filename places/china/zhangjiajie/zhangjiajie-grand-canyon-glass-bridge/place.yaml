@@ -115,6 +115,8 @@ blocks:
   - type: gallery
     images:
       - { file: bridge-side, caption: "The bridge between the canyon walls (autumn photo)" }
+      - { file: glass-floor, caption: "Looking down through a glass panel to the canyon floor" }
+      - { file: on-the-glass, caption: "Visitors crouching on the glass panels mid-span" }
   - type: book_ahead
     steps:
       - days_before: 2

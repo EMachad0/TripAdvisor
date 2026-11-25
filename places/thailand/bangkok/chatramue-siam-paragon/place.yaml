@@ -75,8 +75,8 @@ last_updated: 2026-11-24
 
 blocks:
   - type: hero
-    image: mega-bangna-counter
-    caption: "A ChaTraMue counter at Mega Bangna; no free photo of the Paragon one, which looks alike"
+    image: paragon-counter
+    caption: "The ChaTraMue counter at Siam Paragon under its red arch (Wongnai reviewer, 2022)"
     hook: "Bangkok's own Thai-tea brand: orange milk tea, rose tea and Thai-tea soft serve, poured since 1945."
   - type: quick_facts
     time_needed: "15–30 min"
@@ -119,6 +119,8 @@ blocks:
   - type: gallery
     feature: false
     images:
+      - { file: thai-tea-pearls, caption: "Iced Thai milk tea with pearls from the Paragon counter, next to the brand's tea tins" }
+      - { file: paragon-queue, caption: "The queue at the Paragon counter on a busy evening (Wongnai reviewer, 2024)" }
       - { file: qr-pay-counter, caption: "Paying by Thai QR at the One Bangkok counter; the menu card has photos and prices", focus: center }
   - type: map
     note: "From BTS Siam, follow the signs into Siam Paragon and go down to the **G-floor food hall**. Wongnai puts the counter next to Potato Corner. Not there? The brand lists a 3rd-floor Paragon branch."

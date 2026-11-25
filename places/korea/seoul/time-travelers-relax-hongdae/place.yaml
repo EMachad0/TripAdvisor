@@ -61,8 +61,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: hongik-exit-6
-    caption: "Hongik Univ. station, Exit 6. No free photo of the guesthouse exists"
+    image: common-room
+    caption: "The common room and kitchen, shelves of books and manga on every wall"
     hook: "A tiny, chilled guesthouse up the hill from Hongdae: tea, guitar and people to go out with."
   - type: quick_facts
     extra:
@@ -126,6 +126,14 @@ blocks:
         text: "Bring cash for the locker and to avoid the card surcharge."
   - type: map
     note: "From Hongik Univ. station walk east towards Sinchon; the last stretch is uphill."
+  - type: gallery
+    images:
+      - file: trick-art-gate
+        caption: The trick-art gate at 90-13, the guesthouse's street entrance
+      - file: dorm
+        caption: A bunk dorm with painted floor art
+      - file: private-room
+        caption: A private room with two floor-level beds
   - type: tips
     variant: insider
     items:

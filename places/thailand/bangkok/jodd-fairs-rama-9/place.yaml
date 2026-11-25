@@ -62,8 +62,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: leng-saap
-    caption: "Leng saap, the market's signature dish (this bowl was shot at another Bangkok restaurant)"
+    image: big-c-dusk
+    caption: "Jodd Fairs Ratchada at dusk: gabled stall houses and shared tables below the Big C Place tower"
     hook: A mountain of pork bones in sour, chilli-green broth, a cold beer, and around 800 stalls.
     focus: "30% 70%"
   - type: quick_facts
@@ -93,8 +93,12 @@ blocks:
   - type: gallery
     feature: false
     images:
-      - file: danneramit-2023
-        caption: "Jodd Fairs' DanNeramit branch in 2023. It closed in 2025, but the stall rows look the same"
+      - file: aerial
+        caption: "The Ratchada site from above: rows of white stall houses around the seating"
+      - file: tables
+        caption: "Shared picnic tables between the stalls in the evening"
+      - file: leng-saap
+        caption: "Leng saap, the market's signature dish (this bowl was shot at another Bangkok restaurant)"
   - type: quote
     variant: vibe
     text: "Smoke from the grills, a bucket of ribs on every table, and the MRT still running when you leave."

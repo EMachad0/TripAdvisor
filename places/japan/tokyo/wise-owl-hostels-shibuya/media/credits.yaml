@@ -1,17 +1,42 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: shinsen-station
-  title: File:Shinsen-STA Premises.jpg
-  author: MaedaAkihiko
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Shinsen-STA_Premises.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c0/Shinsen-STA_Premises.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Keio Electric Railway Inokashira Line, Shinsen Station premises (platforms)
-  width: 5471
-  height: 3647
+- file: dorm
+  title: entefpq60kklie8xbzod.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924
+  original_url: https://a.hwstatic.com/propertyimages/2/275924/entefpq60kklie8xbzod.jpg
+  width: 3648
+  height: 2432
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-11
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: iwjam6oekmhfmp3wgftf.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924
+  original_url: https://a.hwstatic.com/propertyimages/2/275924/iwjam6oekmhfmp3wgftf.jpg
+  width: 1555
+  height: 1037
+  widths:
+    - 640
+    - 1280
+    - 1555
+  fetched: 2026-11-25
+  origin: web
+- file: bar
+  title: cpi3rfkrznijxpojmjhm.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Wise-Owl-Hostels-Shibuya/Tokyo/275924
+  original_url: https://a.hwstatic.com/propertyimages/2/275924/cpi3rfkrznijxpojmjhm.jpg
+  width: 1199
+  height: 800
+  widths:
+    - 640
+    - 1199
+  fetched: 2026-11-25
+  origin: web

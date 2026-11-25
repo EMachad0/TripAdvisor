@@ -63,8 +63,8 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
-    image: central-street-ice
-    caption: "Ice sculpture on Central Street, 2 min away. No free photo of the hostel itself"
+    image: common-room
+    caption: "The hostel's common room: sofa, dining table and a wall of travellers' souvenirs"
     hook: Out the door and down the metro stairs, or two minutes on foot to the cobbles of Central Street.
   - type: quick_facts
     extra:
@@ -123,6 +123,11 @@ blocks:
         text: "A dorm bed was **¥58–68 (R$48–56)** a night for Dec 20–25 when searched, the lowest dorm price on Hostelworld's Harbin list that day."
       - title: Cook your own
         text: "Shared kitchen, and the Hongzhuan morning market (红专早市) is about 300 m away (Ctrip)."
+  - type: gallery
+    images:
+      - { file: dorm-pods, caption: "A dorm with curtained wooden pod bunks" }
+      - { file: kitchen-table, caption: "The shared kitchen and long table" }
+      - { file: guests-dinner, caption: "Guests at a shared dinner in the common room" }
   - type: map
     note: "The hostel asks guests to search **No. 93 Xiaman Street** on Amap or Google."
   - type: tips

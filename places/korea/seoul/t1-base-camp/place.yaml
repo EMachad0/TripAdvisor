@@ -106,6 +106,12 @@ blocks:
       It also covers the gaming café on your list: seats by the hour, and food ordered from the screen and brought to your desk.
 
       T1 now runs three Base Camps. The newest, in **Gangnam**, soft-opened on 3 October 2026 two minutes from Sinnonhyeon Station. It has a Trophy Room with player handprints and jerseys, the T1 Flagship Store and a restaurant open 11:00–24:00. If you want trophies more than a PC seat, go there.
+  - type: gallery
+    images:
+      - file: pc-rows
+        caption: Rows of T1-branded PCs and headsets, before opening in May 2023
+      - file: goods-shop
+        caption: The goods and console shop inside (2023)
   - type: quote
     variant: vibe
     text: A wall of red chairs, a full basement at midnight, and the hope that a T1 academy scout is watching.

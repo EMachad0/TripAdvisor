@@ -67,8 +67,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: national-stadium-bts
-    caption: "National Stadium BTS station, steps from the hostel. No free photo of Lub d itself exists"
+    image: common-area
+    caption: "Lub d Siam's ground-floor common area: long wooden tables, the bar and the lantern-hung atrium"
     hook: "Skytrain at the door, Siam's malls across the road, and a Thai barbecue in the lobby to meet people over."
   - type: quick_facts
     extra:
@@ -153,6 +153,8 @@ blocks:
       - "Breakfast costs about ฿240 a night extra on Hostelworld; street food around Siam is cheaper."
   - type: gallery
     images:
+      - { file: dorm, caption: "A dorm: capsule-style bunks with ladders, curtains and lockers" }
+      - { file: bar-night, caption: "A party game at the hostel bar" }
       - { file: stadium-sunset, caption: "Sunset over the National Stadium from the BTS platform" }
   - type: weather
     temp_low_c: 23

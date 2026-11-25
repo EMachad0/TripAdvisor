@@ -15,3 +15,44 @@
     - 1920
   fetched: 2026-11-13
   origin: commons
+- file: on-track
+  title: Indoor-Things-To-Do-In-Bangkok-EasyKart.png
+  author: TheSmartLocal
+  license: All rights reserved (personal use)
+  source_url: https://thesmartlocal.com/read/indoor-things-to-do-bangkok/
+  original_url: https://thesmartlocal.com/wp-content/uploads/2024/09/Indoor-Things-To-Do-In-Bangkok-EasyKart.png
+  width: 1999
+  height: 1500
+  widths:
+    - 640
+    - 1280
+    - 1999
+  fetched: 2026-11-25
+  origin: web
+- file: kart-line
+  title: d7beff91-b279-4e08-9a63-f8af552d963c.jpg
+  author: Hotels.com
+  license: All rights reserved (personal use)
+  source_url: https://uk.hotels.com/go/thailand/easykart-rca-plaza-bangkok
+  original_url: https://a.cdn-hotels.com/gdcs/production26/d132/d7beff91-b279-4e08-9a63-f8af552d963c.jpg
+  width: 1600
+  height: 1066
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: track-overview
+  title: 1708491601244-773824417.jpg
+  author: Maitria Hotels
+  license: All rights reserved (personal use)
+  source_url: https://www.maitriahotels.com/attractions/EasyKartBANGKOK
+  original_url: https://maitriaapi.maitriahotels.com/public/1708491601244-773824417.jpg
+  width: 1280
+  height: 600
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

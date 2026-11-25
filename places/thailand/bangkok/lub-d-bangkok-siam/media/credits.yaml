@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: national-stadium-bts
-  title: File:202307 Entrance of National Stadium BTS Station.jpg
-  author: Jonashtand
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:202307_Entrance_of_National_Stadium_BTS_Station.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/36/202307_Entrance_of_National_Stadium_BTS_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: An entrance of National Stadium BTS Station, in Bangkok, in July 2023
-  width: 3840
-  height: 2160
-  widths:
-    - 640
-    - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
 - file: stadium-sunset
   title: File:Sunset at National Stadium BTS Skytrain station, Bangkok, Thailand.jpg
   author: Vyacheslav Argenberg
@@ -31,3 +15,45 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: common-area
+  title: uxppbeixt03ohoeyv4h7.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690
+  original_url: https://a.hwstatic.com/propertyimages/4/42690/uxppbeixt03ohoeyv4h7.jpg
+  width: 3200
+  height: 2000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: df5ueqmvmsspkkzvr5m9.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690
+  original_url: https://a.hwstatic.com/propertyimages/4/42690/df5ueqmvmsspkkzvr5m9.jpg
+  width: 3200
+  height: 2000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: bar-night
+  title: e2p5j1qwouoi4hzyxuza.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690
+  original_url: https://a.hwstatic.com/propertyimages/4/42690/e2p5j1qwouoi4hzyxuza.jpg
+  width: 3200
+  height: 2000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

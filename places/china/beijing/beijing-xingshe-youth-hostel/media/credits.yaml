@@ -1,17 +1,56 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: xinjiekou-street
-  title: File:Xinjiekou after summer solstice (20170622164624).jpg
-  author: N509FZ
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Xinjiekou_after_summer_solstice_(20170622164624).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/5/5e/Xinjiekou_after_summer_solstice_%2820170622164624%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Seen from the north. A trolleybus 111 is approaching.
-  width: 3150
-  height: 2238
+- file: front-dusk
+  title: j0fplqizf4hnexzfxb6r.jpg
+  author: Hostelworld (Beijing Xingshe Youth Hostel)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Beijing-Xingshe-Youth-Hostel/Beijing/338101
+  original_url: https://a.hwstatic.com/propertyimages/3/338101/j0fplqizf4hnexzfxb6r.jpg
+  width: 3000
+  height: 2250
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-10
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: rooftop-dinner
+  title: r4cvqpfjslawonbonmql.jpg
+  author: Hostelworld (Beijing Xingshe Youth Hostel)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Beijing-Xingshe-Youth-Hostel/Beijing/338101
+  original_url: https://a.hwstatic.com/propertyimages/3/338101/r4cvqpfjslawonbonmql.jpg
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: rooftop-terrace
+  title: z4ahswfzqsd2ez3c3sgs.jpg
+  author: Hostelworld (Beijing Xingshe Youth Hostel)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Beijing-Xingshe-Youth-Hostel/Beijing/338101
+  original_url: https://a.hwstatic.com/propertyimages/3/338101/z4ahswfzqsd2ez3c3sgs.jpg
+  width: 6048
+  height: 4024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: pod-bed
+  title: hmyhaguocijiul1u9x98.jpg
+  author: Hostelworld (Beijing Xingshe Youth Hostel)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Beijing-Xingshe-Youth-Hostel/Beijing/338101
+  original_url: https://a.hwstatic.com/propertyimages/3/338101/hmyhaguocijiul1u9x98.jpg
+  width: 1024
+  height: 681
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web

@@ -1,17 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: phrom-phong-night
-  title: File:BTS Phrom Phong Station at night.jpg
-  author: NC-MyLifeArm
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:BTS_Phrom_Phong_Station_at_night.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/5/57/BTS_Phrom_Phong_Station_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: BTS Phrom Phong Station at night
-  width: 4032
-  height: 3024
+- file: entrance
+  title: 4caf2938f7b2a70f9e659217f67cc9257f927e0ad5cf_2560.webp
+  author: hot.com
+  license: All rights reserved (personal use)
+  source_url: https://hot.com/th/bangkok/erotic-massage-parlors/bkk-vice-massage/b-nf6
+  original_url: https://c7581068c2.mjedge.net/3/f/b/2/4caf2938f7b2a70f9e659217f67cc9257f927e0ad5cf_2560.webp
+  width: 2560
+  height: 1605
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-16
-  origin: commons
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: lobby
+  title: Bangkok-vice-massage-lobby1.png
+  author: BKK Vice
+  license: All rights reserved (personal use)
+  source_url: https://bkkvice.com/
+  original_url: https://bkkvice.com/wp-content/uploads/2023/11/Bangkok-vice-massage-lobby1.png
+  width: 1024
+  height: 461
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: deluxe-room
+  title: nuru-massage-bangkok-vice-deluxe-room.png
+  author: BKK Vice
+  license: All rights reserved (personal use)
+  source_url: https://bkkvice.com/
+  original_url: https://bkkvice.com/wp-content/uploads/2023/11/nuru-massage-bangkok-vice-deluxe-room.png
+  width: 1024
+  height: 461
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web

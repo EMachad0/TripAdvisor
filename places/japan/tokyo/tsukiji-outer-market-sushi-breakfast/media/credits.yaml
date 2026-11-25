@@ -15,3 +15,33 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: market-lane
+  title: File:Tsukiji Outer Market -02.jpg
+  author: Aimaimyi
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tsukiji_Outer_Market_-02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/5/51/Tsukiji_Outer_Market_-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The Tsukiji Outer Market. This location is Tsukiji in Chūō , Tokyo , Japan .
+  width: 2592
+  height: 1944
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: zanmai-honten
+  title: 153-sushizanmai-honten-1235.jpg
+  author: Tsukiji Outer Market (official)
+  license: All rights reserved (personal use)
+  source_url: https://www.tsukiji.or.jp/shoplist/cat-d/cat-12/364/
+  original_url: https://www.tsukiji.or.jp/_cms/wp-content/uploads/2013/11/153-sushizanmai-honten-1235.jpg
+  width: 2500
+  height: 1667
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

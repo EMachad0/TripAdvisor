@@ -1,17 +1,57 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: bell-tower-day
-  title: File:Xi'an Bell Tower 2024.10.jpg
-  author: xiquinhosilva
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Xi%27an_Bell_Tower_2024.10.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/4/4e/Xi%27an_Bell_Tower_2024.10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Xi'an Bell Tower
-  width: 2560
-  height: 1707
+- file: dorm-bell-tower-view
+  title: gafj855gtvi1kjluxcdj.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Xi-an-Desti-Youth-Park-Hostel-Bell-Drum-Tower/Xi-an/306697
+  original_url: https://a.hwstatic.com/propertyimages/3/306697/gafj855gtvi1kjluxcdj.jpg
+  width: 6720
+  height: 4480
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-10
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: bar
+  title: ko3ivctmva1utudgxzwp.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Xi-an-Desti-Youth-Park-Hostel-Bell-Drum-Tower/Xi-an/306697
+  original_url: https://a.hwstatic.com/propertyimages/3/306697/ko3ivctmva1utudgxzwp.jpg
+  width: 5983
+  height: 3989
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: bar-night
+  title: mxwpauhjzccctb7f2zjp.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Xi-an-Desti-Youth-Park-Hostel-Bell-Drum-Tower/Xi-an/306697
+  original_url: https://a.hwstatic.com/propertyimages/3/306697/mxwpauhjzccctb7f2zjp.jpg
+  width: 1920
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: pod-beds
+  title: oivp1l4t6y5jbdai6upw.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Xi-an-Desti-Youth-Park-Hostel-Bell-Drum-Tower/Xi-an/306697
+  original_url: https://a.hwstatic.com/propertyimages/3/306697/oivp1l4t6y5jbdai6upw.jpg
+  width: 6720
+  height: 4480
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

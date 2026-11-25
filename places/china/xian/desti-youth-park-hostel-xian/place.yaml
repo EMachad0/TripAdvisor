@@ -55,8 +55,8 @@ last_updated: 2026-11-10
 
 blocks:
   - type: hero
-    image: bell-tower-day
-    caption: "The Bell Tower, a stone's throw away. No free photo of the hostel itself"
+    image: dorm-bell-tower-view
+    caption: "A pod dorm with the Bell Tower outside the window"
     hook: Wake up beside the Bell Tower; come back at night to a bar, a pool table and a few hundred other travellers.
   - type: quick_facts
     extra:
@@ -113,6 +113,14 @@ blocks:
         text: "Line 2 runs from **Xi'an North** station straight to the Bell Tower stop, by the hostel's Exit D."
       - title: Cheap for what you get
         text: "Value for money is **9.7** on Hostelworld, and the bar is called cheap in reviews."
+  - type: gallery
+    images:
+      - file: bar
+        caption: The hostel bar, with beer taps and an espresso machine
+      - file: bar-night
+        caption: Guests at the bar on a busy night
+      - file: pod-beds
+        caption: "Wooden pod bunks, each with a curtain, shelf and light"
   - type: map
     note: "Arriving at Xi'an North, take Line 2 to **Bell Tower (Zhonglou)** and use Exit D. Use Baidu Maps to find the building, as the hostel asks."
   - type: tips

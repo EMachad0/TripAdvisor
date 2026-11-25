@@ -117,6 +117,8 @@ blocks:
   - type: gallery
     feature: false
     images:
+      - { file: pit-1-hall, caption: "Pit 1's hangar-size hall, with the front ranks lined up at the far end" }
+      - { file: pit-1-dig, caption: "Warriors still lying in the earth walls of Pit 1, where digging goes on" }
       - { file: bronze-chariot, caption: "One of the two half-size bronze chariots" }
   - type: book_ahead
     steps:

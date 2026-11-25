@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: roast-duck
-  title: File:四季民福的北京烤鸭 01.jpg
-  author: Liuxingy
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%AD%A3%E6%B0%91%E7%A6%8F%E7%9A%84%E5%8C%97%E4%BA%AC%E7%83%A4%E9%B8%AD_01.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/1/18/%E5%9B%9B%E5%AD%A3%E6%B0%91%E7%A6%8F%E7%9A%84%E5%8C%97%E4%BA%AC%E7%83%A4%E9%B8%AD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: ​四季民福的北京烤鸭
-  width: 6016
-  height: 3384
-  widths:
-    - 640
-    - 1280
-    - 2048
-  fetched: 2026-11-11
-  origin: commons
 - file: duck-condiments
   title: File:四季民福的北京烤鸭配料.jpg
   author: Liuxingy
@@ -47,3 +31,45 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
+- file: duck-gugong
+  title: ed63d1bb3272b4b5.jpg
+  author: Qunar (traveller review)
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/5784561
+  original_url: https://img1.qunarzz.com/travel/d2/1803/6a/ed63d1bb3272b4b5.jpg
+  width: 2048
+  height: 1365
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: lantern-dining-room
+  title: c47838307b2479b5.jpg
+  author: Qunar (traveller review)
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/5628899
+  original_url: https://img1.qunarzz.com/travel/d9/1708/fe/c47838307b2479b5.jpg
+  width: 2100
+  height: 1575
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: queue-outside
+  title: 10041900000169ktrDA3C.jpg
+  author: Qunar (traveller review)
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/10161552523
+  original_url: https://youimg1.c-ctrip.com/target/10041900000169ktrDA3C.jpg
+  width: 1440
+  height: 1080
+  widths:
+    - 640
+    - 1280
+    - 1440
+  fetched: 2026-11-25
+  origin: web

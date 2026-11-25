@@ -80,8 +80,8 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: view-60f
-    caption: "Ikebukuro from the Sunshine 60 observatory"
+    image: tenbou-park-lawn
+    caption: "Tenbou-Park, the 60th-floor observatory: artificial lawn under the windows"
     hook: "Sixty floors up there's a lawn to lie on, and Tokyo runs to the horizon in every direction."
   - type: quick_facts
     time_needed: 3–4 h
@@ -108,6 +108,8 @@ blocks:
       On a budget, the observatory at **¥700** on a weekday is a cheap paid view; the Metropolitan Government Building's deck in Shinjuku is free. Skip the aquarium unless penguins are your thing. At ¥2,600 or more it eats most of a day's budget.
   - type: gallery
     images:
+      - file: view-60f
+        caption: "Ikebukuro from the Sunshine 60 observatory"
       - file: sunshine-60
         caption: "The Sunshine 60 tower from street level"
         focus: top

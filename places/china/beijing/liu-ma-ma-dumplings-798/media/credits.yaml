@@ -1,0 +1,39 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: mackerel-dumplings
+  title: lm-dumplings-crop.jpg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/beijing-municipality/beijing/restaurant/liu-ma-ma-dumplings-chaoyang
+  width: 1000
+  height: 660
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: dining-room
+  title: 82c7c0dcfff5459faae5979af5b37002.jpg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/beijing-municipality/beijing/restaurant/liu-ma-ma-dumplings-chaoyang
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/82c7c0dcfff5459faae5979af5b37002.jpg
+  width: 1080
+  height: 1080
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web
+- file: cold-dish
+  title: 132769defd5c426db2e42e0366945810.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/beijing-municipality/beijing/restaurant/liu-ma-ma-dumplings-chaoyang
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/132769defd5c426db2e42e0366945810.jpeg
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

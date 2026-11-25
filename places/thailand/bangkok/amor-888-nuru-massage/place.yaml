@@ -67,13 +67,13 @@ sources:
     title: "Bangkok: climate table (Wikipedia)"
     checked: 2026-11-16
 confidence: medium
-confidence_note: "Prices, hours, payment and the \"menu price is the full price\" promise are from the venue's own site (prices dated 26 Sep 2026). Independent proof: Google Maps only (4.7, 505; read via ./atr render, Maps needs a browser), top reviews 5-star with owner replies; no forum review. The site never says what a session includes, and its \"2S\" packages are explained only at reception. No free photo."
+confidence_note: "Prices, hours, payment and the \"menu price is the full price\" promise are from the venue's own site (prices dated 26 Sep 2026). Independent proof: Google Maps only (4.7, 505; read via ./atr render, Maps needs a browser), top reviews 5-star with owner replies; no forum review. The site never says what a session includes, and its \"2S\" packages are explained only at reception."
 last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: soi-18
-    caption: "Sukhumvit Soi 18 by day; no free photo of the shop"
+    image: reception
+    caption: "Reception at Amor 888: the black marble desk under the lit red 888 sign"
     hook: "Read the price at the hostel, walk in, pick from the lineup, pay by card: nuru with no haggling."
   - type: quick_facts
     time_needed: "40–90 min session"
@@ -101,6 +101,10 @@ blocks:
       What you don't get is a show room: no Jacuzzi room is priced on the menu (the gallery shows one whirlpool bath; ask at reception), and the rooms are plain rather than themed. The site also never says what the session includes beyond the massage, and its **"2S" packages** (90 min, ฿5,100 for nuru) are explained only at reception. Ask before you pay.
 
       One hour is about **six days of your R$100 "everything else" budget**.
+  - type: gallery
+    images:
+      - { file: entrance, caption: "The entrance on Sukhumvit Soi 18 by day: the round red 888 sign above the door" }
+      - { file: massage-room, caption: "A massage room: a bed with red sheets beside a massage table" }
   - type: cost_breakdown
     items:
       - { label: "Nuru, 60 min", local: 3500, brl: 589.05 }

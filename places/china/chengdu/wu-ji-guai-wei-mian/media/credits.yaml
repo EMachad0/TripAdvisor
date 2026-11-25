@@ -1,0 +1,40 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: guai-wei-noodles
+  title: ce5ba2670dbe476582ff155aed728008.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/chengdu-municipality/chengdu/restaurant/wu-ji-guai-wei-mian-jinjiang
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/ce5ba2670dbe476582ff155aed728008.jpeg
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: zajiang-noodles
+  title: 550b0d7c0eda443a9de86bb913cb0c52.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/chengdu-municipality/chengdu/restaurant/wu-ji-guai-wei-mian-jinjiang
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/550b0d7c0eda443a9de86bb913cb0c52.jpeg
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: 51b30b26cbc047668d19b12033a17b5f.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/chengdu-municipality/chengdu/restaurant/wu-ji-guai-wei-mian-jinjiang
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/51b30b26cbc047668d19b12033a17b5f.jpeg
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

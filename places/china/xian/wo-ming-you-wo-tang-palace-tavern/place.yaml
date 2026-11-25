@@ -55,11 +55,13 @@ sources:
     title: "Xi'an — Wikipedia: climate tables (December mean low about −3 to −1 °C, high about 7 °C)"
     checked: 2026-11-15
 confidence: low
-confidence_note: "Open per Ctrip reviews to 2026-10-22. Trip.com pages opened via WebFetch (link checker blocked). No source names live musicians. Dish prices: 2021 Sohu deal. Snippet only, not opened: a 2025 Douyin post on a late-night tavern mode (~¥70) and all 焰隐庐 facts (Douyin). Pin is the mall."
+confidence_note: "Open per Ctrip reviews to 2026-10-22. Trip.com pages opened via WebFetch (link checker blocked). No source names live musicians. Dish prices: 2021 Sohu deal. Snippet only, not opened: a 2025 Douyin post on a late-night tavern mode (~¥70) and all 焰隐庐 facts (Douyin). Pin is the mall. No hall photo found (Ctrip, Trip.com, web search): hero is the mall."
 last_updated: 2026-11-15
 
 blocks:
   - type: hero
+    image: qujiang-creative-valley-dusk
+    caption: "Qujiang Creative Valley at dusk, the mall whose ground floor the tavern is on"
     hook: Red walls, lanterns and a star-canopy stage, with water-sleeve dancers going on about every half hour at peak times.
   - type: quick_facts
     time_needed: 1.5–2 h
@@ -86,6 +88,12 @@ blocks:
       Wo Ming You Wo is the closest open match. It calls itself a 唐宫酒馆 ("Tang palace tavern"), has gufeng decor and costumed shows, costs no ticket, and has reviews from October 2026. **But it is a restaurant with a stage, not a bar.** Reviews mention a light drink with friends (小酌), yet no source gives a drinks list or drink prices. The shows are dance, and no source says whether the music is played live.
 
       **Verdict:** this does not earn an evening of a two-night stop on its own. Book it as **dinner** on the free evening, see the show, then go on to a bar. If one night is spent on the sleeper train, skip it unless the Tang-palace look is the thing you want most.
+  - type: gallery
+    images:
+      - file: prawns
+        caption: "Braised prawns, a dish from the restaurant's Trip.com listing"
+      - file: qujiang-creative-valley-plaza
+        caption: "The mall's central plaza at dusk"
   - type: cost_breakdown
     items:
       - { label: "Dinner, user-reported average", local: 66, brl: 56.03, estimate: true }

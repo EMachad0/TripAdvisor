@@ -72,13 +72,13 @@ sources:
     title: "Bangkok: climate table (Wikipedia)"
     checked: 2026-11-16
 confidence: medium
-confidence_note: "Prices, hours, payment and booking are from the venue's own site (Nov 2026), which is marketing. Reviews: Google Maps (4.8, 181) and a directory, almost all 5-star, with owner replies; no forum thread found. Tip amount is from a 2026 article, not the venue. Coordinates from the Google Maps listing. No free photo of the shop."
+confidence_note: "Prices, hours, payment and booking are from the venue's own site (Nov 2026), which is marketing. Reviews: Google Maps (4.8, 181) and a directory, almost all 5-star, with owner replies; no forum thread found. Tip amount is from a 2026 article, not the venue. Coordinates from the Google Maps listing."
 last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: emsphere
-    caption: "EmSphere mall, across Sukhumvit from Soi 33; no free photo of the shop"
+    image: reception
+    caption: "Hakumi's reception: a wood-slatted desk, orchids and potted plants"
     hook: "A Japanese-style nuru house in a Phrom Phong side alley, where the upgrade is a room with its own Jacuzzi."
   - type: quick_facts
     time_needed: "60–90 min session"
@@ -111,6 +111,11 @@ blocks:
       - { days_before: 1, text: "Add **LINE @hakumi** and check the daily lineup the venue posts each morning." }
       - { days_before: 0, text: "Confirm in the chat: **VIP Jacuzzi, 60 min, ฿4,000**, the start time and the masseuse." }
       - { days_before: 0, text: "Bring **cash in baht** (or a Thai QR app): the venue takes nothing else. Any tip goes to the masseuse at the end." }
+  - type: gallery
+    feature: false
+    images:
+      - { file: entrance, caption: "The glass door and lotus sign in the alley off Sukhumvit Soi 33" }
+      - { file: room, caption: "A room: bed, nuru air mattress and an open shower" }
   - type: cost_breakdown
     items:
       - { label: "VIP Jacuzzi room, 60 min, full service", local: 4000, brl: 673.2 }

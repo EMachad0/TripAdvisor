@@ -82,6 +82,8 @@ blocks:
       It fits a work week well. The gate is open until 19:00 and Khao San is a 20-minute walk away, so you can catch the light at the top and still be at a laptop for a 19:00 start if you leave promptly.
   - type: gallery
     images:
+      - { file: golden-chedi, caption: "The gilded chedi on the summit" }
+      - { file: summit-terrace, caption: "A monk praying on the summit terrace at the foot of the chedi" }
       - { file: mount-street, focus: top, caption: The Golden Mount from the street below }
   - type: cost_breakdown
     items:

@@ -64,9 +64,9 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: roofs
+    image: covered-aisle
     hook: "A tin-roofed city of 27 sections around a clock tower: clothes, antiques, plants, pets and grilled skewers."
-    caption: "Chatuchak's roofs, with the clock tower in the middle"
+    caption: "A covered aisle inside Chatuchak, lined with clothes, lamps and souvenirs"
   - type: quick_facts
     time_needed: 3–4 h
     best_time: Sat or Sun, 09:00 sharp
@@ -93,7 +93,7 @@ blocks:
       It's also tiring. The lanes are covered with corrugated roofs, and by noon the heat under them is draining. Come at opening, do three hours, eat, and go. On Wednesday and Thursday only the plant section opens, and on Friday night only wholesalers trade, a much smaller market than people expect. On a weekday afternoon, go to Or Tor Kor across the road instead.
   - type: gallery
     images:
-      - { file: alley, caption: "The road along the market's edge on a weekend" }
+      - { file: roofs, caption: "Chatuchak's roofs from above, with the clock tower in the middle" }
       - { file: stalls, caption: Stalls packed under the roofs }
       - { file: clock-tower, caption: "The clock tower, the easiest meeting point", focus: top }
   - type: cost_breakdown

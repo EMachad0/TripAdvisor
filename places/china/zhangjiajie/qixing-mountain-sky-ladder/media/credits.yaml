@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: cliff-climber
+  title: 1lo6112000hb850ryD508.jpg
+  author: Trip.com
+  license: All rights reserved (personal use)
+  source_url: https://kr.trip.com/guide/attraction/zhangjiajie-sky-ladder.html
+  original_url: https://ak-d.tripcdn.com/images/1lo6112000hb850ryD508.jpg
+  width: 1920
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: sky-ladder
+  title: 941.png
+  author: The Paper
+  license: All rights reserved (personal use)
+  source_url: https://m.thepaper.cn/newsDetail_forward_24803711
+  original_url: https://imagecloud.thepaper.cn/thepaper/image/272/517/941.png
+  width: 1035
+  height: 582
+  widths:
+    - 640
+    - 1035
+  fetched: 2026-11-25
+  origin: web
+- file: ring-platform
+  title: 1647414912399231.jpg
+  author: cpanet.cn
+  license: All rights reserved (personal use)
+  source_url: http://www.cpanet.cn/detail_news_131206.html
+  original_url: http://www.cpanet.cn/uploads/202203/16/1647414912399231.jpg
+  width: 1500
+  height: 998
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web

@@ -74,13 +74,14 @@ sources:
     title: "Bangkok: climate table (Wikipedia)"
     checked: 2026-11-16
 confidence: medium
-confidence_note: "Prices, hours, booking, tipping and payment are from the venue's own site (Nov 2026) (marketing). Reviews: Google Maps (4.8, 117) and a directory, almost all 5-star; we read the two critical ones the venue itself shows. No forum thread found. Google Maps needs a browser; the rating was read with ./atr render on 16 Nov 2026. The nuru table's \"(2)\" at 90 min isn't explained. No free photo."
+confidence_note: "Prices, hours, booking, tipping and payment are from the venue's own site (Nov 2026) (marketing). Reviews: Google Maps (4.8, 117) and a directory, almost all 5-star; we read the two critical ones the venue itself shows. No forum thread found. Google Maps needs a browser; the rating was read with ./atr render on 16 Nov 2026. The nuru table's \"(2)\" at 90 min isn't explained."
 last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: phrom-phong-night
-    caption: "BTS Phrom Phong, 3 min from the shop; no free photo of the shop"
+    image: entrance
+    focus: "35% 50%"
+    caption: "The BKK Vice entrance on Sukhumvit Soi 39: an arched door between flamingos"
     hook: "฿3,000 for an hour in a deluxe room, where premium sessions can reach ฿4,500 or more."
   - type: quick_facts
     time_needed: "60–90 min session"
@@ -113,6 +114,10 @@ blocks:
       - { days_before: 1, text: "Add **LINE @bkkvice**. Ask who's working; you can also ask them to choose for you." }
       - { days_before: 0, text: "Confirm in the chat: **nuru, 60 min, deluxe room, ฿3,000**, the start time, and what the session includes." }
       - { days_before: 0, text: "Pay at the desk (cash, card or Thai QR). Any tip goes straight to the masseuse at the end." }
+  - type: gallery
+    images:
+      - { file: lobby, caption: "The neon-lit lobby where you choose and pay" }
+      - { file: deluxe-room, caption: "A deluxe room: a wide bed with red cushions, the wet area behind" }
   - type: cost_breakdown
     items:
       - { label: "Nuru, 60 min, deluxe room", local: 3000, brl: 504.9 }

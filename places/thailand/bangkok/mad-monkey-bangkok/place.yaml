@@ -70,8 +70,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: phra-sumen-fort
-    caption: "Phra Sumen Fort, a short walk from the hostel. No free photo of the hostel itself exists"
+    image: pool
+    caption: "Afternoon in Mad Monkey Bangkok's pool, on rubber rings and bean bags"
     hook: "Free-flow spirits at seven, the pub crawl at eleven, the pool to recover in the next afternoon."
   - type: quick_facts
     extra:
@@ -148,6 +148,11 @@ blocks:
         text: "Book the weekend nights (2–3 and 9 Jan) on Hostelworld as soon as dates are fixed; choose free cancellation if they may move."
       - days_before: 0
         text: "Check in from 14:00, then go to The Meet Up at 19:00."
+  - type: gallery
+    feature: false
+    images:
+      - { file: entrance, caption: "The front terrace on the street, under the Mad Monkey sign" }
+      - { file: bar, caption: "The bar: pool table, booths and a wall of sticky notes" }
   - type: weather
     temp_low_c: 23
     temp_high_c: 33

@@ -15,3 +15,35 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: shibaura-loop
+  title: File:Loop of the Yurikamome.jpg
+  author: Christophe95
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Loop_of_the_Yurikamome.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Loop_of_the_Yurikamome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Loop of the Yurikamome near the Rainbow Bridge in Tokyo.
+  width: 3828
+  height: 2869
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: train-odaiba
+  title: File:Odaiba-kaihinkōen Station 2019a.jpg
+  author: 江戸村のとくぞう
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Odaiba-kaihink%C5%8Den_Station_2019a.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e9/Odaiba-kaihink%C5%8Den_Station_2019a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ゆりかもめ お台場海浜公園駅
+  width: 4496
+  height: 3000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

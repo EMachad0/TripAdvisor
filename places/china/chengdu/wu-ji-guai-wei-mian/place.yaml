@@ -68,6 +68,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
+    image: guai-wei-noodles
+    caption: "Weird-taste noodles with pork, mushrooms and peanuts in red-oil broth"
     hook: Salty, sweet, spicy and numbing in one bowl, topped with pork the founder still fries himself.
   - type: quick_facts
     time_needed: 20–30 min
@@ -91,6 +93,12 @@ blocks:
       *Guaiwei* means "weird taste". It is the house signature, and the one to order first.
 
       For a second bowl, Ctrip's dish list has **beef noodles** (牛肉多味面) and zajiang noodles. A reviewer who wanted something gentle liked the **seafood noodles** in a clear broth with dried squid and dried shellfish (仙贝). Others order the dan dan noodles.
+  - type: gallery
+    images:
+      - file: shopfront
+        caption: "The shopfront, signed \"Niuwangmiao since 1989\""
+      - file: zajiang-noodles
+        caption: Noodles under a heap of fried minced pork
   - type: quote
     variant: vibe
     text: A two-minute walk from the metro, a bowl that hits every taste bud at once, and back underground.

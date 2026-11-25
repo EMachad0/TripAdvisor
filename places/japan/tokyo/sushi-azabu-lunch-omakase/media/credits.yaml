@@ -15,3 +15,43 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: counter
+  title: image.jpg
+  author: Time Out Tokyo
+  license: All rights reserved (personal use)
+  source_url: https://www.timeout.com/tokyo/restaurants/sushi-azabu
+  original_url: https://media.timeout.com/images/106066255/image.jpg
+  width: 2100
+  height: 1400
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: akami
+  title: 311cc427.jpg
+  author: Sushi Azabu (TableCheck)
+  license: All rights reserved (personal use)
+  source_url: https://www.tablecheck.com/en/sushi-azabu
+  original_url: https://cdn1.tablecheck.com/images/67691a68aef48c1c9a438bfb/images/original/311cc427.jpg
+  width: 1120
+  height: 630
+  widths:
+    - 640
+    - 1120
+  fetched: 2026-11-25
+  origin: web
+- file: kohada
+  title: d5a79cbc.jpg
+  author: Sushi Azabu (TableCheck)
+  license: All rights reserved (personal use)
+  source_url: https://www.tablecheck.com/en/sushi-azabu
+  original_url: https://cdn2.tablecheck.com/images/67691a874cfc938c3483b6cb/images/original/d5a79cbc.jpg
+  width: 1120
+  height: 630
+  widths:
+    - 640
+    - 1120
+  fetched: 2026-11-25
+  origin: web

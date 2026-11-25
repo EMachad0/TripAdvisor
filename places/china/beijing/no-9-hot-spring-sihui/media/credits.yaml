@@ -1,17 +1,54 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: tonghui-river
-  title: File:Tonghui River (Chaoyang Section) 2.jpg
-  author: EditQ
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Tonghui_River_(Chaoyang_Section)_2.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/2/23/Tonghui_River_%28Chaoyang_Section%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Tonghui River (Chaoyang Section)
-  width: 4000
-  height: 3000
+- file: outdoor-pool
+  title: src_11810370.jpg
+  author: 4travel (Yves d'Arcy's travelogue)
+  license: All rights reserved (personal use)
+  source_url: https://4travel.jp/travelogue/11810370/
+  original_url: https://cdn.4travel.jp/img/tcs/t/album/src/11/81/03/src_11810370.jpg
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: indoor-pools
+  title: src_76379336.jpg
+  author: 4travel (Yves d'Arcy's travelogue)
+  license: All rights reserved (personal use)
+  source_url: https://4travel.jp/travelogue/11810370/
+  original_url: https://cdn.4travel.jp/img/tcs/t/pict/src/76/37/93/src_76379336.jpg
+  width: 1280
+  height: 958
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: buffet-hall
+  title: src_76379352.jpg
+  author: 4travel (Yves d'Arcy's travelogue)
+  license: All rights reserved (personal use)
+  source_url: https://4travel.jp/travelogue/11810370/
+  original_url: https://cdn.4travel.jp/img/tcs/t/pict/src/76/37/93/src_76379352.jpg
+  width: 1280
+  height: 959
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: lobby
+  title: 0100z12000cp4crc8825F.jpg
+  author: Ctrip (traveller photo)
+  license: All rights reserved (personal use)
+  source_url: https://jingdian.juyoufuli.com/app/scenics/73905
+  original_url: https://dimg04.c-ctrip.com/images/0100z12000cp4crc8825F.jpg
+  width: 1920
+  height: 1440
   widths:
     - 640
     - 1280
     - 1920
-  fetched: 2026-11-16
-  origin: commons
+  fetched: 2026-11-25
+  origin: web

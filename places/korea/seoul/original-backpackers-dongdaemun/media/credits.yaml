@@ -1,17 +1,57 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: heunginjimun
-  title: File:Dongdaemun Gate or Heunginjimun gate.jpg
-  author: TealAlligator
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Dongdaemun_Gate_or_Heunginjimun_gate.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fc/Dongdaemun_Gate_or_Heunginjimun_gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Dongdaemun Gate or Heunginjimun gate
-  width: 3976
-  height: 2650
+- file: rooftop
+  title: o63wpuaaqfjtzdhz4w6u.jpg
+  author: Original Backpackers (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Original-Backpackers/Seoul/330544
+  original_url: https://a.hwstatic.com/propertyimages/3/330544/o63wpuaaqfjtzdhz4w6u.jpg
+  width: 4094
+  height: 3071
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: kvpjxhfakdvvxwnfed7c.jpg
+  author: Original Backpackers (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Original-Backpackers/Seoul/330544
+  original_url: https://a.hwstatic.com/propertyimages/3/330544/kvpjxhfakdvvxwnfed7c.jpg
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: kitchen
+  title: cubarhwpoel1qpogjryr.jpg
+  author: Original Backpackers (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Original-Backpackers/Seoul/330544
+  original_url: https://a.hwstatic.com/propertyimages/3/330544/cubarhwpoel1qpogjryr.jpg
+  width: 1707
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1707
+  fetched: 2026-11-25
+  origin: web
+- file: rooftop-lounge
+  title: wz8a8vtsrzb7hye5x3si.jpg
+  author: Original Backpackers (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Original-Backpackers/Seoul/330544
+  original_url: https://a.hwstatic.com/propertyimages/3/330544/wz8a8vtsrzb7hye5x3si.jpg
+  width: 1707
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1707
+  fetched: 2026-11-25
+  origin: web

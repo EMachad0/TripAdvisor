@@ -75,8 +75,8 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: tonghui-river
-    caption: "The Tonghui River in Chaoyang, near Sihui; no free photo of the bathhouse itself"
+    image: outdoor-pool
+    caption: "Steam off No. 9's outdoor spring pool on a freezing day"
     hook: "Soak outdoors in 36–40 °C spring pools, eat crab in pajamas, sleep in a capsule while Beijing freezes."
   - type: quick_facts
     time_needed: "Overnight, 12–18 h"
@@ -106,6 +106,11 @@ blocks:
       **Eat and lounge.** Change into the pajamas and go up to the buffet and the mixed lounges: games, films, billiards (some reviewers paid extra for billiards and PlayStation).
 
       **Sleep.** Pick a capsule on the 3rd floor or a recliner. You pay the ¥59 night fee if you are still inside between 02:00 and 06:00. Breakfast is from 07:00, then a last soak. Beijing is fixed on your route, so any of the nights of **13, 14 or 15 Dec** works; Mon 14 or Tue 15 get the weekday price.
+  - type: gallery
+    images:
+      - { file: lobby, caption: "The lobby, with the self-service check-in kiosks" }
+      - { file: indoor-pools, caption: "The indoor pools in the bathing hall" }
+      - { file: buffet-hall, caption: "The buffet floor, where guests eat in their pajamas" }
   - type: quote
     variant: vibe
     text: "Steam rising off an outdoor pool at midnight, minus five in the air, a plate of crab waiting inside."

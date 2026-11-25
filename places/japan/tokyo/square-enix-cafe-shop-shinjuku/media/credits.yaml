@@ -1,17 +1,57 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: shinjuku-3chome
-  title: File:Shinjuku Sanchome at night 01 (15779061655).jpg
-  author: Joe Mabel on Flickr as Joe Mabel from Seattle, US
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Shinjuku_Sanchome_at_night_01_(15779061655).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/2/22/Shinjuku_Sanchome_at_night_01_%2815779061655%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Shinjuku 3-chome, Tokyo, Japan, at night.
-  width: 4288
-  height: 2848
+- file: facade
+  title: rectangle_large_type_2_70435a71913d1cb11cbe81a5d7fb4e36.jpeg
+  author: SHAR on note
+  license: All rights reserved (personal use)
+  source_url: https://note.com/sharonline/n/n66a818b18b79
+  original_url: https://assets.st-note.com/production/uploads/images/281093399/rectangle_large_type_2_70435a71913d1cb11cbe81a5d7fb4e36.jpeg
+  width: 1920
+  height: 1005
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: stained-glass-room
+  title: 1780199100-NX8u90sOdclSIH4YWgxDGo2z.jpg
+  author: SHAR on note
+  license: All rights reserved (personal use)
+  source_url: https://note.com/sharonline/n/n66a818b18b79
+  original_url: https://assets.st-note.com/img/1780199100-NX8u90sOdclSIH4YWgxDGo2z.jpg
+  width: 4032
+  height: 3024
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: moogle-buns
+  title: 1780196930-JpFwv2OHfqNoa4USG0CxRKZT.jpg
+  author: SHAR on note
+  license: All rights reserved (personal use)
+  source_url: https://note.com/sharonline/n/n66a818b18b79
+  original_url: https://assets.st-note.com/img/1780196930-JpFwv2OHfqNoa4USG0CxRKZT.jpg
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: potion-drink
+  title: 1780196921-aVu2KO6IxSRDyC7rzW30Awl8.jpg
+  author: SHAR on note
+  license: All rights reserved (personal use)
+  source_url: https://note.com/sharonline/n/n66a818b18b79
+  original_url: https://assets.st-note.com/img/1780196921-aVu2KO6IxSRDyC7rzW30Awl8.jpg
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

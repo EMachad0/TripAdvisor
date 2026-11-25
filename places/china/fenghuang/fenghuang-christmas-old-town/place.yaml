@@ -84,8 +84,8 @@ last_updated: 2026-11-14
 
 blocks:
   - type: hero
-    image: hongqiao-night
-    caption: "Hongqiao lit up at night, November 2010 (not at Christmas)"
+    image: old-town-night
+    caption: "The old town and the Tuo River lit up at night (July, not at Christmas)"
     hook: Lanterns on black water, a few bars playing to a half-empty strip, and nobody you know.
   - type: quick_facts
     time_needed: "Christmas Eve + Christmas Day"
@@ -121,6 +121,9 @@ blocks:
       Come for the river and the lit stilt houses, which are lovely and free; go for a beer on the strip and see who is there. If meeting people is the point of Christmas, this is the wrong town. On the 25th, sleep in, walk the town at dawn, and take the 16:38 train to Chongqing on the 26th.
   - type: gallery
     images:
+      - file: hongqiao-night-2
+        caption: "Hongqiao, the covered bridge, lit blue and gold over the river"
+        focus: "50% 62%"
       - file: tuo-river-december
         caption: "The Tuo River through the old town on 21 December 2016, almost empty"
   - type: quote

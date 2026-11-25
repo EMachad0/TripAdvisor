@@ -15,3 +15,45 @@
     - 1920
   fetched: 2026-11-12
   origin: commons
+- file: common-room-dogs
+  title: thaeqwcw3onbo6m201xu.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Fenghuang-Hemu-House-Phoenix-Hong-Bridge/Fenghuang-Phoenix-County/299324
+  original_url: https://a.hwstatic.com/propertyimages/2/299324/thaeqwcw3onbo6m201xu.jpg
+  width: 2880
+  height: 2160
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: common-table
+  title: xzr9efqtsbekdw77nkzt.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Fenghuang-Hemu-House-Phoenix-Hong-Bridge/Fenghuang-Phoenix-County/299324
+  original_url: https://a.hwstatic.com/propertyimages/2/299324/xzr9efqtsbekdw77nkzt.jpg
+  width: 2880
+  height: 2160
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: guests
+  title: i4f2pcm69vkfyfuivj6p.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Fenghuang-Hemu-House-Phoenix-Hong-Bridge/Fenghuang-Phoenix-County/299324
+  original_url: https://a.hwstatic.com/propertyimages/2/299324/i4f2pcm69vkfyfuivj6p.jpg
+  width: 1920
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web

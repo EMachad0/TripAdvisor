@@ -15,3 +15,68 @@
     - 2048
   fetched: 2026-11-11
   origin: commons
+- file: lounge
+  title: z8tl6kpijof0izqswrkl.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633
+  original_url: https://a.hwstatic.com/propertyimages/3/319633/z8tl6kpijof0izqswrkl.jpg
+  width: 1024
+  height: 683
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: entrance-night
+  title: hu6f8u5xeciuygvutatd.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633
+  original_url: https://a.hwstatic.com/propertyimages/3/319633/hu6f8u5xeciuygvutatd.jpg
+  width: 1024
+  height: 681
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: bar
+  title: hioxzavyzqpkedkcgmzv.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633
+  original_url: https://a.hwstatic.com/propertyimages/3/319633/hioxzavyzqpkedkcgmzv.jpg
+  width: 1024
+  height: 683
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: starry-night-room
+  title: dy3eflhyb2au99u7yjzm.jpg
+  author: Hostelworld
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Huangshan-Kunlun-International-Youth-Hostel/Huangshan/319633
+  original_url: https://a.hwstatic.com/propertyimages/3/319633/dy3eflhyb2au99u7yjzm.jpg
+  width: 1024
+  height: 683
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: building
+  title: 220g1d000001edp0vDFD8.jpg
+  author: Ctrip
+  license: All rights reserved (personal use)
+  source_url: https://hotels.ctrip.com/hotels/6352640.html
+  width: 1500
+  height: 999
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web

@@ -1,0 +1,54 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: shopfront-night
+  title: 0104y1200092fy5uzC0B6.jpg
+  author: Ctrip (traveller photo)
+  license: All rights reserved (personal use)
+  source_url: https://you.ctrip.com/food/beijing1/13352507.html
+  original_url: https://dimg04.c-ctrip.com/images/0104y1200092fy5uzC0B6.jpg
+  width: 1920
+  height: 1440
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: toppings-bowl
+  title: 9db0675e28a8492f91ae3a2df929cce5.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/beijing-municipality/beijing/restaurant/no-69-fangzhuanchang-zhajiangmian
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/9db0675e28a8492f91ae3a2df929cce5.jpeg
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: mixed-noodles
+  title: f10e20a830164a2e9ec416ec42b4bcf5.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/beijing-municipality/beijing/restaurant/no-69-fangzhuanchang-zhajiangmian
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/f10e20a830164a2e9ec416ec42b4bcf5.jpeg
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: hutong-door
+  title: 69280710d5de5f38d761e10e.jpg
+  author: Beijing Daily
+  license: All rights reserved (personal use)
+  source_url: https://peking.bjd.com.cn/content/s6928093be4b02424b0c39695.html
+  original_url: https://static.bjd.com.cn/dams-res/mps/image/202511/27/69280710d5de5f38d761e10e.jpg
+  width: 1080
+  height: 810
+  widths:
+    - 640
+    - 1080
+  fetched: 2026-11-25
+  origin: web

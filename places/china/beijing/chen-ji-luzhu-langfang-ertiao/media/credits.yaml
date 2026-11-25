@@ -1,0 +1,40 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: luzhu-bowls
+  title: 100s0y000000lzrze2A61.jpg
+  author: Qunar (traveller review)
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/10157159120
+  original_url: https://youimg1.c-ctrip.com/target/100s0y000000lzrze2A61.jpg
+  width: 1280
+  height: 847
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: 10060y000000ltird744D.jpg
+  author: Qunar (traveller review)
+  license: All rights reserved (personal use)
+  source_url: https://touch.travel.qunar.com/comment/10157159120
+  original_url: https://youimg1.c-ctrip.com/target/10060y000000ltird744D.jpg
+  width: 1280
+  height: 847
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: luzhu-bowl-michelin
+  title: 831bc51dc6524a2aa3853489d2d4a991.jpeg
+  author: MICHELIN Guide
+  license: All rights reserved (personal use)
+  source_url: https://guide.michelin.com/en/beijing-municipality/beijing/restaurant/chen-ji-lu-zhu-xiao-chang
+  original_url: https://prod-pics.guide.michelin.com/api/public/content/831bc51dc6524a2aa3853489d2d4a991.jpeg
+  width: 1000
+  height: 1000
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

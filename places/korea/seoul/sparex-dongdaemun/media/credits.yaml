@@ -1,0 +1,54 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: kiln-saunas
+  title: wydj7vacl5uyn7xdycf0j3ufpve4rjrp.jpeg
+  author: Creatrip
+  license: All rights reserved (personal use)
+  source_url: https://creatrip.com/en/blog/13656
+  original_url: https://cf.creatrip.com/original/blog/13656/wydj7vacl5uyn7xdycf0j3ufpve4rjrp.jpeg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: bath
+  title: prck9nvf67axd6zufddqyuhy6yqt5dlr.jpeg
+  author: Creatrip
+  license: All rights reserved (personal use)
+  source_url: https://creatrip.com/en/blog/13656
+  original_url: https://cf.creatrip.com/original/blog/13656/prck9nvf67axd6zufddqyuhy6yqt5dlr.jpeg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: 564511de-image.png
+  author: Seoul Travel Pass
+  license: All rights reserved (personal use)
+  source_url: https://www.seoultravelpass.com/en/products/1496-seoul-dongdaemun-sparex-jjimjilbang-sauna-admission-ticket
+  original_url: https://dsj1e5gc359pm.cloudfront.net/uploads/products/1496/contents/564511de-image.png
+  width: 2560
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: rest-hall
+  title: bz9mbpvmtyras6kevxznhogx5xh56ol8.jpeg
+  author: Creatrip
+  license: All rights reserved (personal use)
+  source_url: https://creatrip.com/en/blog/13656
+  original_url: https://cf.creatrip.com/original/blog/13656/bz9mbpvmtyras6kevxznhogx5xh56ol8.jpeg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
