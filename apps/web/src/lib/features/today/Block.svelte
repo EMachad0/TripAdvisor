@@ -8,7 +8,7 @@
 	interface Props {
 		title: string;
 		/** "2 open of 3", "4 answers". */
-		small?: string;
+		small?: string | undefined;
 		testid: string;
 		/** A lucide icon shown in a small accent tile before the title. */
 		icon?: Component<{ class?: string }>;

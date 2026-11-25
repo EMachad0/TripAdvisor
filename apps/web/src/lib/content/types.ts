@@ -70,7 +70,16 @@ export interface ContentPlace {
 	brl: number;
 	costLabel: string;
 	budgeted: boolean;
-	booking: { level: BookingLevel; lead_days?: number; badge: string | null; links: BookingLink[] };
+	booking: {
+		level: BookingLevel;
+		lead_days?: number;
+		/** A fixed "book by" day (an early price that ends, a lottery that closes), YYYY-MM-DD. */
+		deadline?: string;
+		/** The curator's one-line booking hint ("¥425 early-bird price ends Fri 27 Nov"). */
+		lead_time?: string;
+		badge: string | null;
+		links: BookingLink[];
+	};
 	/** Has a drone show. */
 	drone: boolean;
 	/** Holiday ids (christmas, nye, lny) this place is tagged for. */

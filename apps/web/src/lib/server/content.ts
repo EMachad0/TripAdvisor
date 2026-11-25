@@ -156,6 +156,15 @@ function placeModel(p: PlaceFile): ContentPlace {
 	const lng = p.location?.lng;
 	const cost = p.cost ?? {};
 	const leadDays = p.book_ahead?.lead_days;
+	// YAML reads an unquoted 2026-11-27 as a Date
+	const rawDeadline: unknown = p.book_ahead?.deadline;
+	const deadline =
+		rawDeadline instanceof Date
+			? rawDeadline.toISOString().slice(0, 10)
+			: typeof rawDeadline === 'string' && rawDeadline !== ''
+				? rawDeadline
+				: undefined;
+	const leadTime = str(p.book_ahead?.lead_time) ?? undefined;
 	return {
 		id: p.id,
 		name: p.name,
@@ -176,6 +185,8 @@ function placeModel(p: PlaceFile): ContentPlace {
 		booking: {
 			level: platform.bookingLevel(p),
 			...(leadDays === undefined ? {} : { lead_days: leadDays }),
+			...(deadline === undefined ? {} : { deadline }),
+			...(leadTime === undefined ? {} : { lead_time: leadTime }),
 			badge: platform.bookBadgeText(p.book_ahead),
 			links: platform.bookingLinks(p),
 		},
