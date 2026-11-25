@@ -1,0 +1,16 @@
+# Independent review of fangfeige-hanfu-studio. Written by `./atr review`; do not edit by hand.
+id: fangfeige-hanfu-studio
+type: place
+reviewed: 2026-11-25
+verdict: pass
+content_hash: 8f1657ff0ea268947b0ab9e52c83b7bd16c36cee8e9027aa20d6bfd4fa939241
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: f9e5a8ac86eb5fc83e4cc8408861e96dc3343cf680aae1fab2c8ac2131e895f6
+summary: The edit adds the KKday list price for the Qiujianyu 30 + 6 package and narrows the review claim. The CNY listing (https://www.kkday.com/zh-cn/product/614301?currency=CNY) shows ¥613 sale (26% off), ¥833 list and ¥60 per extra retouched photo. None of the 25 reviews mentions a male client; the only man named is the photographer. Fangfeige's ¥819 package is ¥206 more, so "about ¥200 more" holds. There were no earlier findings and the unchanged text shows no new blocker, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.477

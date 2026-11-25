@@ -1,0 +1,150 @@
+id: cet-hanfu-portrait-shoot-xian
+name: "China Explorer Tour Hanfu Shoot"
+short_name: Hanfu portrait shoot
+name_local: 西安汉服写真 · 兴庆宫
+country: china
+city: xian
+area: "Beilin · Xingqing Palace"
+category: odd-local
+fame: hidden
+tags: [photo-studio, mens-portrait, hanfu, tang-dynasty, splurge]
+kind: Do
+why: "A fixed-price hanfu portrait for one: robe, hair styling, make-up, a photographer who poses you, and an English companion. All originals the same day."
+
+cost:
+  local: 170
+  currency: USD
+  brl: 997.9
+  note: "US$125 standard package + US$45 English companion and transport (per booking of 1–2). Extra outfits and retouches cost more"
+fx: { rate: 5.87, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: About 5 h, make-up included
+best_time: "Start by 10:00 (UTC+8) to shoot in daylight"
+
+book_ahead:
+  required: true
+  lead_days: 7
+  lead_time: "No lead time published; a week ahead leaves time to agree on the look"
+  method: website
+  links:
+    - label: Book on China Explorer Tour
+      url: "https://chinaexplorertour.com/trip/xian-hanfu-photoshoot-experience-explore-traditional-chinese-culture-in-hanfu/"
+      note: "English enquiry form: give the date, All-Inclusive and the location; CET confirms by email"
+    - label: WhatsApp China Explorer Tour
+      url: "https://wa.me/8618312510689"
+      note: "Linked in the CET site header. Ask for Xi'an men's samples and retouch prices first"
+  notes: "Book the **All-Inclusive** option. The studio staff mainly speak Chinese; without the companion you get only a WeChat group chat, which is thin support for a shy first-timer."
+
+hours:
+  summary: "Daytime sessions; start time is agreed when you book. Allow about 5 h from pickup to photo hand-over"
+  winter: "No winter schedule is published. The shoot is outdoors at Xingqing Palace Park (open 06:30–18:30 (UTC+8) Nov–Feb) or the Giant Wild Goose Pagoda. CET's FAQ says heavy rain means a reschedule or adjusted session, which is hard on a one-day stop. Only daytime outdoor sessions are described; no night shoot."
+
+location:
+  address: "Xingqing Palace Park, north of West Xianning Rd, Beilin District, Xi'an (shoot location; studio address sent on booking)"
+  address_local: 西安市碑林区咸宁西路 兴庆宫公园（拍摄地）
+  lat: 34.25581
+  lng: 108.97903
+  approximate: true
+  nearest_transit: "All-Inclusive: pickup at the metro station nearest the studio"
+
+sources:
+  - url: https://chinaexplorertour.com/trip/xian-hanfu-photoshoot-experience-explore-traditional-chinese-culture-in-hanfu/
+    title: "China Explorer Tour: Hanfu Photoshoot in Xi'an (packages, prices, FAQ, 43 reviews)"
+    checked: 2026-11-24
+  - url: https://chinaexplorertour.com/tang-dynasty-photoshoot-collection/
+    title: "China Explorer Tour: Tang Dynasty Photoshoot Collection (men's Scholar-Official section)"
+    checked: 2026-11-24
+  - url: https://chinaexplorertour.com/other-dynasty-photoshoot-collection/
+    title: "China Explorer Tour: Other Dynasty Photoshoot Collection (Male galleries)"
+    checked: 2026-11-24
+  - url: https://chinaexplorertour.com/hanfu-photoshoot-experience-for-every-traveler/
+    title: "China Explorer Tour: Hanfu Photoshoot for Every Traveler (solo men's portraits)"
+    checked: 2026-11-24
+  - url: https://travelchinaguide.com/attraction/shaanxi/xian/xingqinggong-park.htm
+    title: "Travel China Guide: Xingqinggong Park (free entry, seasonal hours, metro)"
+    checked: 2026-11-24
+  - url: https://www.trip.com/guide/info/hanfu-in-china.html
+    title: "Trip.com: Hanfu in China, photoshoots, make-up and rental prices (3 Sep 2026)"
+    checked: 2026-11-24
+  - url: https://www.chinahighlights.com/xian/weather/december.htm
+    title: "China Highlights: Xi'an weather in December"
+    checked: 2026-11-24
+confidence: low
+confidence_note: "CET pages, FAQ answers and the wa.me link (site header) read via ./atr render (plain fetch is bot-blocked). Men's samples are real male clients, but readable captions say Beijing; gallery images did not load. Page copy partly reused from Beijing. Studio name/address, payment method, retouch delivery time and upsell prices unpublished. Lead time is my advice."
+last_updated: 2026-11-24
+
+blocks:
+  - type: hero
+    image: xingqing-south-gate
+    hook: "You get dressed, made up and posed by people who do this daily, in the park that was a Tang emperor's palace."
+    caption: "Xingqing Palace Park, one of the two shoot spots. Studio sample photos aren't free to show"
+  - type: quick_facts
+    time_needed: About 5 h, make-up included
+    best_time: "Start by 10:00 (UTC+8)"
+    extra:
+      - { label: Language, value: English companion, detail: "Studio staff speak mainly Chinese; the companion translates" }
+      - { label: Photos, value: "≥ 30 originals + ~5 edits", detail: "All originals the same day; retouches later" }
+      - { label: Men's looks, value: "Round-collar robe, armour", detail: "Tang scholar-official robe with futou cap; armour as a prop" }
+  - type: highlights
+    items:
+      - title: Built for people who can't pose
+        text: "A guest who says she \"never\" knew how to pose wrote that she got \"helpful guidance how to pose\", only 2–5 frames per spot, and that 90% of the originals were usable. Other reviewers say the photographer \"really knew how to guide me through the poses\"."
+      - title: Hair, make-up and clothes included
+        text: "One outfit with cloak, shoes and accessories, **make-up and hair styling** with hairpieces, and props: fan, flute, book, umbrella or **armour**. The site's Tang page offers men the red round-collar robe with a futou cap."
+      - title: A fixed package, not per-photo sales
+        text: "At least **30 original photos**, all handed over the same day, plus about **5 retouched**. That is the opposite of the street stalls that shoot hundreds of frames and then sell them one by one."
+      - title: Someone on your side
+        text: "The English companion meets you at the metro, helps you pick the outfit, tells the make-up artist what you want and translates on the shoot. For a shy first-timer this is the part that matters most."
+  - type: prose
+    title: Is it worth R$998?
+    dropcap: true
+    text: |-
+      It is about **six days** of your R$170 China budget for one half-day. You said a high price is fine because the photos last, and this is a fixed price for a guided shoot: US$125 (R$734) for the package plus US$45 (R$264) for the English companion and the taxi to the location. Skip the companion only if you read Chinese: CET's FAQ says the studio staff speak mainly Chinese, and without the companion you get a WeChat group chat.
+
+      **The cheaper route:** Trip.com's hanfu guide (Sep 2026) says a Tang-style shoot in Xi'an "can run around $40 for makeup, hair, a photoshoot, raw photos and eight edits", and that men's choice is smaller than women's. The guide names no studio and lists no English companion. For a shy first-timer, the extra money here pays for someone who translates and checks the look.
+
+      **What you walk out with:** every original (30 or more) on the day, and about five retouched photos later. Retouches beyond those, a second outfit and the "specific, elaborate dynasty sets" sold as upgrades all cost extra, and the site gives no prices. Get those prices in writing on WhatsApp before you pay. A realistic budget for a good set: the R$998 base, plus some room for a few extra retouches if the five are not enough.
+
+      **Men's samples:** see the men's sections of the [Tang collection](https://chinaexplorertour.com/tang-dynasty-photoshoot-collection/) ("The Scholar-Official"), the [other-dynasty collection](https://chinaexplorertour.com/other-dynasty-photoshoot-collection/) ("Male" tabs) and [solo men's portraits](https://chinaexplorertour.com/hanfu-photoshoot-experience-for-every-traveler/). **The honest gap:** these are real male clients, but the captions I could read say Beijing. The studio in Xi'an is not named. Before booking, ask for **three or four Xi'an men's sets** from the last few months. If they can't send them, don't book.
+  - type: gallery
+    images:
+      - { file: xingqing-aerial, caption: "Xingqing Palace Park from above: lakes and Tang-style halls in the middle of the city" }
+      - { file: chenxiang-pavilion, caption: "Chenxiang Pavilion, the kind of backdrop the shoot uses (photo from June 2010)" }
+  - type: book_ahead
+    steps:
+      - days_before: 10
+        text: "WhatsApp or email info@chinaexplorertour.com: ask for **recent Xi'an men's samples**, the studio's metro station, prices per extra retouch and outfit, and email or cloud delivery of the retouches."
+      - days_before: 7
+        text: "Book the **All-Inclusive** package on the site for your full day in Xi'an, not the day you take the night train. Choose Xingqing Palace or the Giant Wild Goose Pagoda."
+      - days_before: 0
+        text: "Meet the companion at the metro around **09:30–10:00 (UTC+8)**. Make-up and dressing take about 2 h, the shoot about 1 h, then back to the studio to get your originals."
+  - type: cost_breakdown
+    items:
+      - { label: "Standard package (styling, shoot, ≥30 originals, ~5 edits)", local: 125, brl: 733.75 }
+      - { label: "English companion + transport (per booking)", local: 45, brl: 264.15 }
+      - { label: "Xingqing Palace Park entry", local: 0, brl: 0 }
+    note: "Extra retouched photos, a second outfit and premium costume sets are charged on top; the site lists no prices."
+  - type: map
+    note: "The pin is the shoot location, Xingqing Palace Park. The studio's address is not published: the All-Inclusive package starts with a pickup at the metro station nearest the studio. Without it, metro Line 3 to Xianning Road, then about 1.2 km on foot to the park."
+  - type: tips
+    variant: insider
+    items:
+      - "Ask for the **Tang round-collar robe with futou cap** or a look with **armour**. The site recommends Tang style in Xi'an, and it reads well on men who don't want heavy make-up."
+      - "Say up front that you are shy and want **natural, not theatrical** expressions. The companion is there to pass that on."
+      - "Mark your favourite frames with the companion **at the shoot**: the companion's service ends once you are back at the studio."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The page is partly copied from the Beijing listing (\"selected Beijing photoshoot location\", Ming-style men's robes). Confirm the Xi'an location, the men's costumes and the price in writing."
+      - "The title mentions the City Wall, but the itinerary offers only Xingqing Palace or the Giant Wild Goose Pagoda. Don't expect a wall shoot."
+      - "Don't book it on a night-train day. With about 5 h plus travel, it needs a free morning and early afternoon."
+  - type: weather
+    temp_low_c: 1
+    temp_high_c: 8
+    conditions: Cold and dry, mostly cloudy
+    note: "The shoot is about an hour outdoors in thin costume layers. Daytime is the warmest part of the day, which is a good reason this is a morning shoot and not a night one."
+    wear: "A thermal base layer under the robe and a down jacket for between shots"
+  - type: pairs_well
+    items:
+      - { id: xian-biangbiang-roujiamo-luomashi, note: "Hot noodles once the make-up comes off" }

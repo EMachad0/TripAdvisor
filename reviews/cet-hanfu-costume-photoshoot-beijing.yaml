@@ -1,0 +1,19 @@
+# Independent review of cet-hanfu-costume-photoshoot-beijing. Written by `./atr review`; do not edit by hand.
+id: cet-hanfu-costume-photoshoot-beijing
+type: place
+reviewed: 2026-11-24
+verdict: pass
+content_hash: 0db14c871063dc844d377f5df064098bcc977477deaadb463eadbd482f6c9073
+facts:
+  supported: 3
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[4].text
+    problem: The new budget paragraph says none of the cheaper listings showed an English companion. The cited WAUG page lists a cheaper shoot with an English guide. 'Styling only' for the US$59.95 option rests only on its title, and no Klook or Trip.com source is listed.
+    evidence: The page now names the US$149.87 WAUG shoot with an English guide and says it shows no men's costumes; the US$59.95 and Klook/Trip.com claims are gone. https://www.waug.com/en/activities/161884 lists that shoot at US$149.87. https://www.waug.com/en/activities/161934 says "English-speaking guide to assist you throughout the experience" and describes costumes only as "Choice of one traditional Chinese costume", with no men's list.
+rereview_of: f3046466a94439969324bb03aa73c273a9ad32b1ee877ee42a252d80b9f91260
+summary: "Earlier finding 1 is resolved. Both WAUG pages support the new budget paragraph: the US$149.87 price, the English guide, and no men's costume list in the text. The claims we could not support are gone. The diff adds no new issues and the unchanged text has no blockers."
+model: claude-opus-5-5
+cost_usd: 0.417

@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: xingqing-south-gate
+  title: File:碑林 兴庆宫南门.jpg
+  author: Liuxingy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E7%A2%91%E6%9E%97_%E5%85%B4%E5%BA%86%E5%AE%AB%E5%8D%97%E9%97%A8.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/75/%E7%A2%91%E6%9E%97_%E5%85%B4%E5%BA%86%E5%AE%AB%E5%8D%97%E9%97%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​西安市碑林区兴庆宫南门
+  width: 6016
+  height: 4512
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
+- file: xingqing-aerial
+  title: File:碑林 航拍兴庆宫公园.jpg
+  author: Liuxingy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E7%A2%91%E6%9E%97_%E8%88%AA%E6%8B%8D%E5%85%B4%E5%BA%86%E5%AE%AB%E5%85%AC%E5%9B%AD.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2f/%E7%A2%91%E6%9E%97_%E8%88%AA%E6%8B%8D%E5%85%B4%E5%BA%86%E5%AE%AB%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​西安市碑林区航拍兴庆宫公园
+  width: 5472
+  height: 3078
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
+- file: chenxiang-pavilion
+  title: File:兴庆宫 沉香亭 Chen Xiang Ting - panoramio.jpg
+  author: wanghongliu
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E5%85%B4%E5%BA%86%E5%AE%AB_%E6%B2%89%E9%A6%99%E4%BA%AD_Chen_Xiang_Ting_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/93/%E5%85%B4%E5%BA%86%E5%AE%AB_%E6%B2%89%E9%A6%99%E4%BA%AD_Chen_Xiang_Ting_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 兴庆宫 沉香亭 Chen Xiang Ting
+  width: 2400
+  height: 1600
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons

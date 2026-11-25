@@ -1,0 +1,166 @@
+id: fangfeige-hanfu-studio
+name: "Fangfeige Hanfu Studio: men's hanfu shoot"
+short_name: Fangfeige Hanfu Studio
+name_local: 芳菲阁汉服馆
+name_romanized: Fāngfēigé
+country: china
+city: shanghai
+area: Huangpu · Fuzhou Road
+category: odd-local
+fame: hidden
+tags: [photo-studio, mens-portrait, hanfu, costume-shoot]
+kind: Do
+why: "Full hanfu makeover for men: robe, hair and makeup, then a photographer who tells you where to put your hands. Bookable in English on KKday or GetYourGuide."
+cost:
+  local: 819
+  currency: CNY
+  brl: 721.29
+  note: "6 retouched + 30 raw photos. ¥619 gets 4 retouched and no raws. Extra photos ¥50 raw, ¥80 retouched"
+fx: { rate: 0.8807, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
+counts_against_budget: true
+
+time_needed: 3.5–4 h
+best_time: Arrive 13:00–14:00 (UTC+8) to shoot at dusk
+
+book_ahead:
+  required: true
+  lead_days: 3
+  lead_time: Appointment only; book 3+ days ahead so you can check the men's outfits first
+  method: platform
+  links:
+    - label: KKday (English, card payment)
+      url: https://www.kkday.com/en/product/779409
+      note: "Pick the ¥819 option (6 retouched + 30 raw). Free cancellation up to 1 day before"
+    - label: GetYourGuide
+      url: https://www.getyourguide.com/shanghai-l178/shanghai-hanfu-dress-up-photoshoot-experience-t1239122/
+      note: Same studio (上海芳菲阁). Reserve now, pay later; cancel up to 24 h before
+    - label: Klook
+      url: https://www.klook.com/en-US/activity/154646-shanghai-fangfeige-photography-hanfu-experience/
+      note: Same studio's Klook listing; not opened from here (Klook blocks this machine)
+  notes: "After booking, the shop asks you to send your order number at least 1 day ahead by WeChat (ID haotianyi8606) or email (haotianyi@shffg.cn). Email works if you have no WeChat. A ¥500 refundable deposit per outfit is taken on the day."
+
+hours:
+  summary: "Daily 09:00–21:00 (UTC+8); last arrival 19:30 (UTC+8). By appointment only"
+  winter: "No December closures listed. Shoots are outdoors: Yu Garden itself is closed on Mondays (Dec 7) and closes 16:30 (UTC+8), so on a Monday or after dark pick City God Temple or the Bund. City God Temple lights go off at 22:00 (UTC+8), the Bund's at 23:00 (UTC+8)."
+
+location:
+  address: 3rd floor, Art Bookstore (Yishu Shufang), 424 Fuzhou Road, Huangpu, Shanghai
+  address_local: 上海市黄浦区福州路424号 艺术书坊3楼
+  lat: 31.2350
+  lng: 121.4778
+  nearest_transit: East Nanjing Road (Line 2 / 10), Exit 4
+  approximate: true
+
+sources:
+  - url: https://www.kkday.com/en/product/779409
+    title: "KKday: Fangfei Pavilion Hanfu/Qipao experience (packages, extras, address, hours)"
+    checked: 2026-11-24
+  - url: https://www.kkday.com/zh-cn/product/779409?currency=CNY
+    title: KKday (Chinese, CNY prices for the same product)
+    checked: 2026-11-24
+  - url: https://www.getyourguide.com/shanghai-l178/shanghai-hanfu-dress-up-photoshoot-experience-t1239122/
+    title: "GetYourGuide: Shanghai Hanfu Dress-up Photoshoot (上海芳菲阁), 34 reviews, 4.9"
+    checked: 2026-11-24
+  - url: https://www.lemon8-app.com/@cyndisxy/7471117814670164498?region=sg
+    title: "Lemon8: a couple's 芳菲阁 shoot, with video of the man styled in hanfu (Feb 2025)"
+    checked: 2026-11-24
+  - url: https://travelwishlists.com/destinations/shanghai/hanfu-photoshoot/
+    title: "Travelwishlists: Shanghai Hanfu & Qipao studios compared (Sep 2026)"
+    checked: 2026-11-24
+  - url: https://en.wikipedia.org/wiki/Shanghai#Climate
+    title: Wikipedia, Shanghai climate table (1991–2020 normals)
+    checked: 2026-11-25
+  - url: https://www.kkday.com/zh-cn/product/614301?currency=CNY
+    title: "KKday: Qiujianyu Yu Garden hanfu packages, CNY prices and reviews (comparison)"
+    checked: 2026-11-25
+  - url: https://sunrise-sunset.org/search?location=Shanghai
+    title: Sunrise-sunset.org, Shanghai (sunset times; matched by ./atr sun)
+    checked: 2026-11-25
+confidence: low
+confidence_note: "Prices, extras, hours and email are from KKday; reviews from GetYourGuide (read with atr render, 24 Nov 2026; link checks are blocked). Klook link is from a search, not opened. Men's work rests on one customer video: no studio men's gallery could be opened, and Travelwishlists (Sep 2026) lists its men's range as not verified. AirDrop hand-over is from one review; retouch delivery time is unstated."
+last_updated: 2026-11-25
+
+blocks:
+  - type: hero
+    image: fuzhou-road
+    caption: Fuzhou Road a block from the studio. No free photos of the studio or its shoots exist
+    hook: Walk in as yourself, walk out in a Ming-style robe with your hair up, and get told exactly how to stand.
+  - type: quick_facts
+    time_needed: 3.5–4 h
+    best_time: Arrive 13:00–14:00 (UTC+8) for dusk shots
+    extra:
+      - { label: Language, value: English + Chinese on site, detail: Contact by email or WeChat before the day }
+      - { label: Photos, value: 6 retouched + 30 raw, detail: "In the ¥819 package; extras ¥80 / ¥50 each" }
+      - { label: Men's samples, value: One customer video, detail: No men's gallery from the studio itself }
+  - type: highlights
+    items:
+      - title: Posing is their job, not yours
+        text: "The listing says photographers tell you **where to put your hands and where to look**. Reviews say the same: \"the photographer told us all the poses to do\", \"patient and gave me a lot of directions\"."
+      - title: Hair, makeup and costume in one price
+        text: "One-on-one makeup designed for your face, hair done by hand, the outfit and all accessories are in every photography package. Makeup and hair take about 1–1.5 h."
+      - title: A man's result you can check
+        text: "A customer posted a video of her partner styled here (a dark embroidered robe, hair up under a small crown). She picked the studio for its **\"excellent male makeup\"**. [See the video on Lemon8](https://www.lemon8-app.com/@cyndisxy/7471117814670164498?region=sg)."
+      - title: Foreigner-proof booking
+        text: "Book and pay by card on KKday or GetYourGuide, then confirm by email. Staff speak English on site; 34 GetYourGuide reviews average 4.9."
+  - type: prose
+    title: Is it the right shoot for you?
+    text: |-
+      This is a **costume shoot**, not a studio headshot. You choose a Tang, Song or Ming-style outfit at the studio, get styled, then a photographer takes you to Yu Garden, City God Temple or the Bund for the outdoor shoot. The studio arranges and pays the ride there.
+
+      The weak spot is the menswear. The studio markets itself almost entirely with women's looks, and an independent comparison of Shanghai studios (Sep 2026) lists its men's range as "not verified". So **before you pay** (or while a pay-later GetYourGuide booking is still free to cancel), email them and ask for photos of their men's robes and of a recent male client. If they can't show you three or four men's outfits, cancel.
+
+      **The cheaper alternative.** Qiujianyu (秋笺语), inside the Yu Garden department store, sells the same 30 raw + 6 retouched with makeup, hair, outfit and a photographer for ¥613 on [KKday](https://www.kkday.com/en/product/614301) (sale price on 25 Nov 2026; list ¥833), and charges ¥60 per extra retouched photo against Fangfeige's ¥80. Its reviews also praise the posing help, and the same comparison guide says it offers men's hanfu. What it lacks is any men's photo we could find, and none of the KKday reviews we could read mentions a man. At the sale price Fangfeige costs about ¥200 more; what that buys is the one male client we could actually see, plus a ride to the Bund or City God Temple. If Fangfeige can't show you men's outfits, ask Qiujianyu the same question (its listing gives WeChat and WhatsApp contact) before booking there instead.
+
+      Why it's worth more than a day's budget: you asked for photos you keep for good, with someone else doing the styling and posing. Either studio's 30 + 6 package covers that whole job.
+  - type: book_ahead
+    steps:
+      - days_before: 5
+        text: "Book the **¥819** package on KKday or GetYourGuide (card payment, English)."
+      - days_before: 4
+        text: "Email **haotianyi@shffg.cn** with the order number. Ask for men's outfit photos and how retouched photos are sent (you need a link, not AirDrop)."
+      - days_before: 1
+        text: Last day to cancel free if the men's options look thin.
+      - days_before: 0
+        text: "Arrive on time at 424 Fuzhou Rd, 3rd floor (spiral stairs on the right). Ask by email how they take the ¥500 deposit."
+  - type: cost_breakdown
+    items:
+      - label: "Outfit, hair, makeup, shoot, 6 retouched + 30 raw"
+        local: 819
+        brl: 721.29
+      - label: 6 more retouched at the ¥80 list price
+        local: 480
+        brl: 422.74
+        optional: true
+      - label: Yu Garden ticket, only if you shoot inside the garden
+        local: 40
+        brl: 35.23
+        optional: true
+      - label: Outfit deposit, refunded when you return it
+        local: 0
+        brl: 0
+    note: "Two recent reviewers bought extras (\"I left with 18 pictures\"). ¥80 is the list price per retouched photo and the shop says bulk buys are discounted, so ¥1,300 (R$1,144) for 12 retouched is a ceiling."
+  - type: map
+    note: "Taxi: ask for 艺术书坊 (合众公寓店) 福州路424号, then the spiral stairs on the right to the 3rd floor. KKday and GetYourGuide (Nov 2026) both give this address; a Feb 2025 customer post and a Sep 2026 guide put the studio at Yu Garden, so confirm it when you email."
+  - type: tips
+    variant: insider
+    items:
+      - "Ask for **all your photos by WeChat file or a download link**. The one review that describes hand-over says AirDrop, which your Android phone can't receive."
+      - "Ask for **light, natural makeup** if you don't want the heavy 'wanghong' look; the listing says looks are designed per face, so say it at the start."
+      - "You choose photos right after the shoot, and that is when extras are sold. Decide your limit before you start looking."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The ¥619 package has **no raw files**, only 4 retouched. You'll end up buying more, so start at ¥819."
+      - "Two studios share the name: the qipao studio is at 215 Beijing East Rd. Men go to the **hanfu studio on Fuzhou Road**."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "Cool and often grey (December averages, Xujiahui station)"
+    note: "You'll be outside in a costume for about an hour, and sunset is about 16:51 (UTC+8) and dark by 17:18 (UTC+8) during your dates. Wear a thin thermal layer under the robe; ask for a covered spot if it rains."
+    wear: Thin thermal top, dark trousers and plain dark shoes that work under a robe
+  - type: pairs_well
+    items:
+      - id: yu-garden
+        note: The usual shooting spot; go back another day to see it properly
+      - id: bund-and-lujiazui-skyline
+        note: The other shooting option, best at dusk

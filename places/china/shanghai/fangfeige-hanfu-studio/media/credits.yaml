@@ -1,0 +1,17 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: fuzhou-road
+  title: File:Xing Hua Lou at 343 Fuzhou Road-20220828.jpg
+  author: Shwangtianyuan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Xing_Hua_Lou_at_343_Fuzhou_Road-20220828.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/a1/Xing_Hua_Lou_at_343_Fuzhou_Road-20220828.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Head office is here.
+  width: 3648
+  height: 2736
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

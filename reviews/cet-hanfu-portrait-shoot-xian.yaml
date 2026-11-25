@@ -1,0 +1,16 @@
+# Independent review of cet-hanfu-portrait-shoot-xian. Written by `./atr review`; do not edit by hand.
+id: cet-hanfu-portrait-shoot-xian
+type: place
+reviewed: 2026-11-25
+verdict: pass
+content_hash: 7be6112dba2a3dceb96fccc0c5067ab8f4e78bdb982e5fefa3ad855deb2e4642
+facts:
+  supported: 0
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: 7be6112dba2a3dceb96fccc0c5067ab8f4e78bdb982e5fefa3ad855deb2e4642
+summary: The earlier review had no blocker or should findings, and the YAML has not changed since then, so there was nothing new to fact-check. ./atr validate passes with one warning about the USD currency, which the page explains in cost.note. I saw no certain blocker in the unchanged content, so the page passes.
+model: claude-opus-5-5
+cost_usd: 0.289
