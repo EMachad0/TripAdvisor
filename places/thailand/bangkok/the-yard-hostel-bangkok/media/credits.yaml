@@ -1,17 +1,57 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: ari-bts
-  title: File:Ari BTS Station.jpg
-  author: Crcolas
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Ari_BTS_Station.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fa/Ari_BTS_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Ari BTS Station in Bangkok, Thailand
-  width: 4032
-  height: 3024
+- file: garden
+  title: vqrpdprwfxge6wyjap8j.jpg
+  author: The Yard Hostel (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020
+  original_url: https://a.hwstatic.com/propertyimages/9/96020/vqrpdprwfxge6wyjap8j.jpg
+  width: 6070
+  height: 4047
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web
+- file: dorm
+  title: pmzing9cc0mpwadmwttp.jpg
+  author: The Yard Hostel (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020
+  original_url: https://a.hwstatic.com/propertyimages/9/96020/pmzing9cc0mpwadmwttp.jpg
+  width: 6720
+  height: 4480
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: bar-night
+  title: mijot5jxbxjytd8twqin.jpg
+  author: The Yard Hostel (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020
+  original_url: https://a.hwstatic.com/propertyimages/9/96020/mijot5jxbxjytd8twqin.jpg
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: container-rooms
+  title: cufoaaetcc7zkot21tf5.jpg
+  author: The Yard Hostel (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/The-Yard-Hostel-Bangkok/Bangkok/96020
+  original_url: https://a.hwstatic.com/propertyimages/9/96020/cufoaaetcc7zkot21tf5.jpg
+  width: 6713
+  height: 4475
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

@@ -1,0 +1,57 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: neon-room
+  title: TZ8_6006.jpg
+  author: Fa Gai
+  license: All rights reserved (personal use)
+  source_url: https://www.fa-gai.com/
+  original_url: https://img1.wsimg.com/isteam/ip/2dd5811a-4aa4-4b37-aed1-1b7b603bb205/TZ8_6006.jpg
+  width: 2560
+  height: 1707
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: entrance
+  title: TZ8_5630_Panorama.jpg
+  author: Fa Gai
+  license: All rights reserved (personal use)
+  source_url: https://www.fa-gai.com/
+  original_url: https://img1.wsimg.com/isteam/ip/2dd5811a-4aa4-4b37-aed1-1b7b603bb205/TZ8_5630_Panorama.jpg
+  width: 2560
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: lounge
+  title: TZ8_5993_Panorama.jpg
+  author: Fa Gai
+  license: All rights reserved (personal use)
+  source_url: https://www.fa-gai.com/
+  original_url: https://img1.wsimg.com/isteam/ip/2dd5811a-4aa4-4b37-aed1-1b7b603bb205/TZ8_5993_Panorama.jpg
+  width: 2560
+  height: 1061
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: bar
+  title: TZ8_5851.jpg
+  author: Fa Gai
+  license: All rights reserved (personal use)
+  source_url: https://www.fa-gai.com/
+  original_url: https://img1.wsimg.com/isteam/ip/2dd5811a-4aa4-4b37-aed1-1b7b603bb205/TZ8_5851.jpg
+  width: 2560
+  height: 1707
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

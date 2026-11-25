@@ -77,10 +77,9 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: ferry
-    caption: "The Gapyeong–Nami ferry, flying the island's own 'Naminara Republic' flags"
+    image: snowy-avenue
+    caption: "A tree-lined avenue on Nami Island after a snowfall"
     hook: "A 5-minute ferry to the island where Winter Sonata set off the Korean Wave."
-    focus: "50% 60%"
   - type: quick_facts
     time_needed: "Full day (half on the island)"
     best_time: "Sun 17 or Sat 16 Jan, 09:00 shuttle"
@@ -106,6 +105,7 @@ blocks:
       **[Hwacheon's ice festival](http://www.narafestival.com/ice_en/)** (9–31 Jan 2027, per the organiser) is a different matter. From Chuncheon bus terminal it's another bus north, and the festival is a full day on the ice by itself. To do both, sleep in Chuncheon: Nami and dakgalbi on day one, Hwacheon on the first bus the next morning. A same-day triple from Seoul is not realistic.
   - type: gallery
     images:
+      - { file: ferry, caption: "The Gapyeong–Nami ferry, flying the island's own 'Naminara Republic' flags", focus: "50% 60%" }
       - { file: metasequoia-snow, caption: "The metasequoia avenue in falling snow", focus: center }
       - { file: peacock, caption: Peacocks roam free on the island, focus: "50% 40%" }
   - type: quote

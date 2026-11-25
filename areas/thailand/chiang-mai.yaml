@@ -16,7 +16,7 @@ lng: 98.9986
 getting_there: "Sleeper No. 9 from Krung Thep Aphiwat, 18:40 → ~07:15, berth ฿941–1,041 (R$155–172). Or fly from DMK/BKK, 1h10–1h20, about ฿700–1,500 (R$115–247) before bags. Laptop trip only (see below)."
 getting_around: "Walk the 1.6 km-a-side old town. Red songthaews: ฿30–40 inside the walls (more in high season), more outside (agree first). Grab around ฿60–80 for a few km; a scooter for Doi Suthep and the hills."
 winter_note: "January is the cool, dry season: about 16 °C at night and 30 °C by day (1991–2020 normals). Northern crop burning runs roughly December–April and peaks in March; in 2025 haze already hid the Doi Suthep view by 11 January, so late January can be smoky. Check the air quality before a view day."
-image: city-view
+image: doi-suthep-chedi
 sources:
   - url: https://en.wikivoyage.org/wiki/Chiang_Mai
     title: "Chiang Mai (Wikivoyage): old city, temples, Doi Suthep, Sunday Walking Street, songthaew and Grab fares, Nimman, cool season"
@@ -43,8 +43,8 @@ last_updated: 2026-11-12
 blocks:
   - type: hero
     hook: "Gold chedis above a moated old town, a mountain temple at the city's edge and cool mornings."
-    caption: "Chiang Mai from Doi Suthep, January 2025"
-    focus: "60% 55%"
+    caption: "The gold chedi of Wat Phrathat Doi Suthep, on the mountain above the city"
+    focus: "50% 45%"
   - type: highlights
     items:
       - title: The temple on the mountain
@@ -72,6 +72,7 @@ blocks:
       - { file: wat-chedi-luang, caption: "The ruined great chedi of Wat Chedi Luang", focus: center }
       - { file: khao-soi, caption: "Khao soi, the city's curry noodle soup" }
       - { file: tha-phae-gate, caption: "Tha Phae Gate, the old town's east gate" }
+      - { file: city-view, caption: "Chiang Mai from Doi Suthep, January 2025" }
   - type: tips
     variant: insider
     items:

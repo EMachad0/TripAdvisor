@@ -31,3 +31,35 @@
     - 1920
   fetched: 2026-11-13
   origin: commons
+- file: canopy-bridge
+  title: File:Canopy Bridge at Jewel Changi Airport, Singapore.jpg
+  author: cattan2011
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Canopy_Bridge_at_Jewel_Changi_Airport,_Singapore.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/61/Canopy_Bridge_at_Jewel_Changi_Airport%2C_Singapore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Canopy Bridge at Jewel Changi Airport, Singapore
+  width: 3024
+  height: 4032
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+- file: discovery-slide
+  title: File:Canopy Park at Jewel Changi Airport, Singapore.jpg
+  author: cattan2011
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Canopy_Park_at_Jewel_Changi_Airport,_Singapore.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/94/Canopy_Park_at_Jewel_Changi_Airport%2C_Singapore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Canopy Park at Jewel Changi Airport, Singapore
+  width: 3024
+  height: 4032
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons

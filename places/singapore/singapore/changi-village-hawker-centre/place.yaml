@@ -100,7 +100,9 @@ blocks:
       For a proper hawker dinner, come here. Leave your bag at Jewel, take a taxi or Grab (about **12 min**), eat between **17:00 and 19:00** when the nasi lemak stall has just opened, and be back at the Rain Vortex for the **20:00** show. If you go by MRT and bus 2, leave by about 16:00.
   - type: gallery
     images:
+      - { file: lny-lanterns, caption: "The courtyard hung with red lanterns for the Lunar New Year" }
       - { file: hawker-sign, caption: "The entrance, steps from the Changi Village bus terminal" }
+      - { file: hawker-meal, caption: "A noodle plate on a tray at the centre's tables (May 2024)" }
   - type: menu
     items:
       - { name: "Nasi lemak, chicken set", price_local: 4, price_brl: 17.59, note: "International Muslim Food Stall #01-03 · Sun 17:00–23:00", tag: must-try }

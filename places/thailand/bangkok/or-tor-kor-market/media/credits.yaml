@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: fruit-aisle
+  title: 95fb1f463717a24e25bae5525467051c3e4e7901-1600x1066.jpg
+  author: Hotels.com Go Guides
+  license: All rights reserved (personal use)
+  source_url: https://www.hotels.com/go/thailand/or-tor-kor-market-bangkok
+  original_url: https://cdn.sanity.io/images/nxpteyfv/goguides/95fb1f463717a24e25bae5525467051c3e4e7901-1600x1066.jpg
+  width: 1600
+  height: 1066
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: mango-stall
+  title: 2-50.jpg
+  author: Worlds Best Markets
+  license: All rights reserved (personal use)
+  source_url: https://worldsbestmarkets.com/market/or-tor-kor-market/
+  original_url: https://worldsbestmarkets.com/wp-content/uploads/2023/09/2-50.jpg
+  width: 1600
+  height: 1067
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: fruit-shop
+  title: maxresdefault.jpg
+  author: YouTube
+  license: All rights reserved (personal use)
+  source_url: https://www.youtube.com/watch?v=2YERllStS7s
+  original_url: https://i.ytimg.com/vi/2YERllStS7s/maxresdefault.jpg
+  width: 1280
+  height: 720
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

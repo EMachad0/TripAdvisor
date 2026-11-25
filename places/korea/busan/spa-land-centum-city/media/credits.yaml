@@ -15,3 +15,42 @@
     - 2048
   fetched: 2026-11-10
   origin: commons
+- file: hot-spring-baths
+  title: spaland_slide3.jpg
+  author: Shinsegae Centum City
+  license: All rights reserved (personal use)
+  source_url: https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008
+  original_url: https://www.shinsegae.com/resources/site/img/store/entertainment/centum/spaland_slide3.jpg
+  width: 1280
+  height: 640
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: foot-spa-terrace
+  title: spaland_slide1.jpg
+  author: Shinsegae Centum City
+  license: All rights reserved (personal use)
+  source_url: https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008
+  original_url: https://www.shinsegae.com/resources/site/img/store/entertainment/centum/spaland_slide1.jpg
+  width: 1280
+  height: 640
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: jjimjilbang-hall
+  title: spaland_slide2.jpg
+  author: Shinsegae Centum City
+  license: All rights reserved (personal use)
+  source_url: https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008
+  original_url: https://www.shinsegae.com/resources/site/img/store/entertainment/centum/spaland_slide2.jpg
+  width: 1280
+  height: 640
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

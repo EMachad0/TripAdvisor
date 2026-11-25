@@ -111,6 +111,8 @@ blocks:
       The catch is the booking, not the trip. Uji is a short train ride from Kyoto, but tickets are only sold on the official site, first by monthly drawing and then, if seats are left, first-come. As of 12 November 2026, **January 2027** tickets are on sale first-come and the **February 2027** drawing is open until 30 November.
   - type: gallery
     images:
+      - { file: atrium-floor, caption: "The atrium with its question-block pillars and interactive floor" }
+      - { file: console-wall, caption: "A display case of Game Boy Advance hardware and games" }
       - { file: signpost, caption: "The museum's signpost on the walk from Ogura Station" }
   - type: book_ahead
     steps:

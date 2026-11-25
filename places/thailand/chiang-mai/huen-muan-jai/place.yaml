@@ -69,6 +69,8 @@ last_updated: 2026-11-23
 
 blocks:
   - type: hero
+    image: entrance-night
+    caption: "The wooden Lanna house lit up for dinner"
     hook: Grilled chilli dips, herb-packed sausage and pork-belly curry, served fast in a wooden Lanna house.
   - type: quick_facts
     time_needed: 45 min–1 h
@@ -93,6 +95,11 @@ blocks:
       Much of this menu is plates to share, which is awkward at a table for one. Keep it to two plates: a **khao soi gai** (฿90) as your main and a **sai ua** (฿115) to pick at, with sticky rice. That is about ฿205.
 
       Groups order the **ออเดิร์ฟเมือง** (northern hors d'oeuvres, ฿305), a platter of dips, sausage, pork crackling and curry. Wongnai reviewers name it the dish to get, but it is a lot for one.
+  - type: gallery
+    images:
+      - { file: gate, caption: "The gate on Soi Ratchaphruek, house number 24" }
+      - { file: garden-terrace, caption: "Garden tables below the upstairs dining room" }
+      - { file: dishes, caption: "A spread of Northern Thai dishes at the house" }
   - type: quote
     variant: vibe
     text: Wood floors, a fan overhead, and a basket of sticky rice to tear by hand.

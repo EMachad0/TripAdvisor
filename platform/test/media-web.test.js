@@ -48,3 +48,12 @@ test('previewWeb numbers the usable images, skips small ones and writes a contac
   assert.ok(fs.existsSync(pv.sheet));
   assert.ok(pv.items.some((x) => x.error));
 });
+
+test('saving a photo keeps another photo whose name starts with the same words', async () => {
+  const dir = tmp();
+  const img = serve(await jpeg(1800, 1200));
+  await grabWeb('https://img.example/a.jpg', dir, { name: 'kinshi-don-open', pageUrl: 'https://x.example/', fetchImpl: img });
+  await grabWeb('https://img.example/b.jpg', dir, { name: 'kinshi-don', pageUrl: 'https://x.example/', fetchImpl: img });
+  assert.ok(fs.existsSync(path.join(dir, 'kinshi-don-open-640.webp')));
+  assert.ok(fs.existsSync(path.join(dir, 'kinshi-don-640.webp')));
+});

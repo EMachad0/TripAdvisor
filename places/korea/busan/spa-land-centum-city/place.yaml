@@ -58,8 +58,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: shinsegae-exterior
-    caption: Shinsegae Centum City from outside. No free photo of the spa itself exists
+    image: hot-spring-baths
+    caption: "Spa Land's bath hall, its pools under round skylights"
     hook: A January evening spent moving between hot pools, a salt room and an ice room, inside a department store.
   - type: quick_facts
     time_needed: 3–4 h
@@ -93,6 +93,11 @@ blocks:
       It is not cheap for a backpacker. **₩26,000 (R$106.50)** is about three quarters of the R$140 daily budget for Korea, and the price is now the same on weekdays and weekends. What it buys is half a day indoors and warm, which matters in January.
 
       One practical use: suitcases are not allowed in the locker room, but the ticket desk has a **suitcase locker** at ₩3,000 for five hours. That makes Spa Land a workable last stop before an evening train or a flight.
+  - type: gallery
+    images:
+      - { file: jjimjilbang-hall, caption: "The jjimjilbang hall, with themed sauna rooms off the sunken lounge" }
+      - { file: foot-spa-terrace, caption: "The outdoor foot-spa terrace at night" }
+      - { file: shinsegae-exterior, caption: "Shinsegae Centum City from outside; Spa Land is inside the store" }
   - type: cost_breakdown
     items:
       - label: Adult entry, 4 hours

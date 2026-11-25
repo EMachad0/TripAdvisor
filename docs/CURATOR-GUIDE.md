@@ -338,6 +338,7 @@ Getting the big version (sites often show a small copy; ask for the original):
 - **Trip.com / Ctrip / Qunar / Klook**: drop the size suffix from the image URL. Klook: `res.klook.com/images/fl_lossy.progressive,q_85/activities/<id>/<name>.jpg` is the clean original without the watermark.
 - **Naver blog**: `https://blogfiles.pstatic.net/<same path>` without `?type=` is the original (up to 4032 px). **Catchtable** `shop/manager/images/<id>`: drop `?detail750`.
 - **WordPress / Wix / Cloudinary / Squarespace**: strip the `-1024x768`, `w_800` or `?format=750w` part.
+- **TableCheck**: `cdnN.tablecheck.com/images/<id>/images/original/<file>` (1280–1920 px). **GoDaddy sites** (`wsimg.com`): drop the `/:/rs=w:…` part. **Ctrip** `dimg04.c-ctrip.com`: drop the `_C_900_504…` / `_W_1280_853…` suffix (Trip.com's `_D_1200_675` copies are upscaled: check the real size).
 - **Tabelog** (660 px) and **Michelin** (800–1000 px) never serve a hero-size image: use them for the gallery only (`--force` under 1000 px).
 - Bot-walled for `scout` (Trip.com, Expedia, Tabelog, Zhihu, Klook pages): use `media web "<name> site:trip.com"` or another source.
 - To crop a photo (cut off a map panel or a banner), crop it with `sharp` into your scratch folder and `grab` the local file: `./atr media grab <id> /path/cropped.jpg --from <page-url>`.

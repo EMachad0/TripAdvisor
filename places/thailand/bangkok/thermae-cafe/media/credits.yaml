@@ -1,17 +1,41 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: sukhumvit-asok-night
-  title: File:Night Scene along Sukhumvit Road.jpg
-  author: Adam Jones
-  license: CC BY-SA 2.0
-  license_url: https://creativecommons.org/licenses/by-sa/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Night_Scene_along_Sukhumvit_Road.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ef/Night_Scene_along_Sukhumvit_Road.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Night Scene along Sukhumvit Road - Bangkok - Thailand.
-  width: 3648
-  height: 2736
+- file: entrance
+  title: gphoto_ChIJ67Qc_-Oe4jARYabmdou-kCE_0.jpg
+  author: Airial (Google Maps photo)
+  license: All rights reserved (personal use)
+  source_url: https://airial.travel/attractions/thailand/thermae-café-sukhumvit-SgAaQ4Ed
+  original_url: https://coinventmediastorage.blob.core.windows.net/media-storage-container/gphoto_ChIJ67Qc_-Oe4jARYabmdou-kCE_0.jpg
+  width: 1600
+  height: 900
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-16
-  origin: commons
+    - 1600
+  fetched: 2026-11-25
+  origin: web
+- file: entrance-night
+  title: maxresdefault.jpg
+  author: YouTube
+  license: All rights reserved (personal use)
+  source_url: https://www.youtube.com/watch?v=RUdy73QYM3I
+  original_url: https://i.ytimg.com/vi/RUdy73QYM3I/maxresdefault.jpg
+  width: 1280
+  height: 720
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web
+- file: ruamchitt-steps
+  title: thermae.jpg
+  author: pattayafans.de
+  license: All rights reserved (personal use)
+  source_url: https://www.pattayafans.de/bangkok/nightlife.htm
+  original_url: https://www.pattayafans.de/bangkok/bilder/thermae.jpg
+  width: 1200
+  height: 800
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

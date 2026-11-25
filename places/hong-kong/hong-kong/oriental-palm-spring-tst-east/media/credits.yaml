@@ -1,0 +1,53 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: hot-pools
+  title: 4.jpg
+  author: Oriental Palm Spring
+  license: All rights reserved (personal use)
+  source_url: http://www.orientalsaunaspa.com.hk/TSTE.php
+  original_url: http://www.orientalsaunaspa.com.hk/images/4.jpg
+  width: 1200
+  height: 798
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: reception
+  title: 1.jpg
+  author: Oriental Palm Spring
+  license: All rights reserved (personal use)
+  source_url: http://www.orientalsaunaspa.com.hk/TSTE.php
+  original_url: http://www.orientalsaunaspa.com.hk/images/1.jpg
+  width: 1200
+  height: 798
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: sauna
+  title: 3.jpg
+  author: Oriental Palm Spring
+  license: All rights reserved (personal use)
+  source_url: http://www.orientalsaunaspa.com.hk/TSTE.php
+  original_url: http://www.orientalsaunaspa.com.hk/images/3.jpg
+  width: 1200
+  height: 798
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web
+- file: locker-lounge
+  title: 2.jpg
+  author: Oriental Palm Spring
+  license: All rights reserved (personal use)
+  source_url: http://www.orientalsaunaspa.com.hk/TSTE.php
+  original_url: http://www.orientalsaunaspa.com.hk/images/2.jpg
+  width: 1200
+  height: 798
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

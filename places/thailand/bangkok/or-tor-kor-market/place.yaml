@@ -61,11 +61,13 @@ sources:
     title: "Your ultimate guide to durian in Thailand (Thaiger): main season April–August"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Hours differ by source (06:00–18:00 per Visit Thailand Today, Oct 2026; 06:00–20:00 per Nomado). The duck-rice price is from May 2024 and the pork and oyster prices are visitor reports quoted by Visit Thailand Today, so add a few baht. Commons has only one free photo of the market (a portrait close-up of a garlic stall), so the hero is typographic."
+confidence_note: "Hours differ by source (06:00–18:00 per Visit Thailand Today, Oct 2026; 06:00–20:00 per Nomado). The duck-rice price is from May 2024 and the pork and oyster prices are visitor reports quoted by Visit Thailand Today, so add a few baht."
 last_updated: 2026-11-12
 
 blocks:
   - type: hero
+    image: fruit-aisle
+    caption: "A fruit aisle in the Or Tor Kor hall: mangoes, durian and other fruit stacked under marked prices"
     hook: "Fruit polished like jewellery, durian sealed in trays, and a food court that locals actually lunch in."
   - type: quick_facts
     time_needed: 1–2 h
@@ -83,6 +85,12 @@ blocks:
         text: "In 2017 CNN listed it among the **world's top 10 fresh markets**. It is a clean, orderly hall, not a muddy wet market."
       - title: One stop on the MRT
         text: "Exit 3 of Kamphaeng Phet station comes up beside the market. Pair it with a Chatuchak weekend morning."
+  - type: gallery
+    images:
+      - file: mango-stall
+        caption: "A mango stall in the fruit hall"
+      - file: fruit-shop
+        caption: "A fruit shop at Or Tor Kor"
   - type: prose
     title: Why a market earns a day
     dropcap: true

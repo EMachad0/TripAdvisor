@@ -31,3 +31,31 @@
     - 1841
   fetched: 2026-11-13
   origin: commons
+- file: race-2024
+  title: Article_1_5_65a0ab32802e6.webp
+  author: XPAX Travel
+  license: All rights reserved (personal use)
+  source_url: https://www.xpaxtravel.com/article/world-formula-hmong-racing-2024
+  original_url: https://d20miawm7utdli.cloudfront.net/LOCATION_ARTICLE_IMG/1/Article_1_5_65a0ab32802e6.webp
+  width: 4418
+  height: 2944
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: race-forest-bend
+  title: Article_1_5_65a0ade2948e0.webp
+  author: XPAX Travel
+  license: All rights reserved (personal use)
+  source_url: https://www.xpaxtravel.com/article/world-formula-hmong-racing-2024
+  original_url: https://d20miawm7utdli.cloudfront.net/LOCATION_ARTICLE_IMG/1/Article_1_5_65a0ade2948e0.webp
+  width: 3108
+  height: 2072
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

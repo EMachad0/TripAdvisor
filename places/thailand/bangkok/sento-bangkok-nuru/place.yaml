@@ -85,8 +85,8 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: ekkamai-corner
-    caption: "Ekkamai Road at Sukhumvit, about 2 km south of the spa; no free photo of the venue"
+    image: entrance
+    caption: "SENTO's entrance on Ekkamai Road: a wooden deck, potted trees and the sign above"
     hook: "Sento is Japanese for public bathhouse; this one is private rooms only, a taxi ride up a quiet Ekkamai Road."
   - type: quick_facts
     time_needed: "80 or 120 min session"
@@ -105,6 +105,14 @@ blocks:
         text: "The FAQ says it keeps only **a few appointments a day** so no two guests overlap, with separate entrances, and claims every masseuse has **regular medical blood tests**."
       - title: Reviewed as a step up
         text: "**4.9 from 148 Google reviews**, the newest weeks old (Nov 2026). Among the reviews the site quotes, a Japanese guest compared it with Tokyo at about a quarter of the price; one guest says it made places he'd tried before feel poor."
+  - type: gallery
+    images:
+      - file: reception
+        caption: "The reception counter (venue photo)"
+      - file: lounge
+        caption: "The relaxation lounge with recliners (venue photo)"
+      - file: vip-room
+        caption: "A VIP jacuzzi room (venue photo)"
   - type: prose
     title: What the premium buys, and what to check
     dropcap: true

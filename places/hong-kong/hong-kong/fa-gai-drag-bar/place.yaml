@@ -74,11 +74,13 @@ sources:
     title: "Monthly climate normals 1991–2020 (Hong Kong Observatory)"
     checked: 2026-11-18
 confidence: medium
-confidence_note: "Hours and the Fri/Sat drag schedule are from its Instagram and The Gay Passport (2025); Google reviews 1–5 months old show it open. Weak: no published cover or drinks menu, cost is a 2025 Soho price estimate; nothing posted for Feb 2027 or Lunar New Year. fa-gai.com lists only the address. Nearest station off the map. Text hero: Commons rate-limited the street photo. No police news found."
+confidence_note: "Hours and the Fri/Sat drag schedule are from its Instagram and The Gay Passport (2025); Google reviews 1–5 months old show it open. Weak: no published cover or drinks menu, cost is a 2025 Soho price estimate; nothing posted for Feb 2027 or Lunar New Year. fa-gai.com lists only the address. Nearest station off the map. No police news found."
 last_updated: 2026-11-18
 
 blocks:
   - type: hero
+    image: neon-room
+    caption: "Inside Fa Gai: neon, velvet booths and the long room on Wyndham Street"
     hook: "Lip-sync, sequins and DJs on Wyndham Street: the Hong Kong counterpart to Seoul's weekend drag night."
   - type: quick_facts
     time_needed: "2–3 h"
@@ -104,6 +106,14 @@ blocks:
       Hong Kong has no legal equivalent of Psyche Dream Spa: anything selling a role-play experience with sex would be an unlicensed or vice operation. What it does have, like Seoul's Rabbithole, is drag: a gay bar in Central with a stage, a DJ and queens on Friday and Saturday nights. It sells drinks and, on some nights, show tickets, nothing more.
 
       Your best chance is **Fri 5 Feb**, the night you land (17:15), which is the eve of Lunar New Year. **Sat 6** is New Year's Day: the bar traded through the 2026 New Year season, but its 2027 holiday hours aren't out. **Mon 8** is its weekly closed day. Check Instagram the week before for a ticketed show.
+  - type: gallery
+    images:
+      - file: lounge
+        caption: "The back lounge under the neon flower"
+      - file: entrance
+        caption: "The flower-covered corner entrance at 32 Wyndham Street"
+      - file: bar
+        caption: "The bar and its stools, with the curtained arch behind"
   - type: cost_breakdown
     items:
       - { label: "Entry on a regular Fri/Sat drag night (no cover published)", local: 0, brl: 0 }

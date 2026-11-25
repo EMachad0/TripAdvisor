@@ -1,20 +1,4 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: parkes-street
-  title: File:HK Jordan Parkes Street Nanking Street April 2023 Px3 05.jpg
-  author: TOAUDBPSUKE Russemal
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:HK_Jordan_Parkes_Street_Nanking_Street_April_2023_Px3_05.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/2/23/HK_Jordan_Parkes_Street_Nanking_Street_April_2023_Px3_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: HK Jordan Parkes Street Nanking Street in April 2023
-  width: 4000
-  height: 3000
-  widths:
-    - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-23
-  origin: commons
 - file: neon-signs
   title: File:澳洲牛奶公司 麥文記麵家 霓虹招牌, 2011.jpg
   author: Kiwi He
@@ -31,3 +15,59 @@
     - 1920
   fetched: 2026-11-23
   origin: commons
+- file: wonton-noodles
+  title: MAI-WUN-JI-45.jpg
+  author: icecreamcat.tw
+  license: All rights reserved (personal use)
+  source_url: https://icecreamcat.tw/mai-wun-ji/
+  original_url: https://icecreamcat.tw/wp-content/uploads/2025/09/MAI-WUN-JI-45.jpg
+  width: 2048
+  height: 1495
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: shopfront
+  title: MAI-WUN-JI-01.jpg
+  author: icecreamcat.tw
+  license: All rights reserved (personal use)
+  source_url: https://icecreamcat.tw/mai-wun-ji/
+  original_url: https://icecreamcat.tw/wp-content/uploads/2025/09/MAI-WUN-JI-01.jpg
+  width: 2048
+  height: 1365
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: wontons-strainer
+  title: MAI-WUN-JI-14.jpg
+  author: icecreamcat.tw
+  license: All rights reserved (personal use)
+  source_url: https://icecreamcat.tw/mai-wun-ji/
+  original_url: https://icecreamcat.tw/wp-content/uploads/2025/09/MAI-WUN-JI-14.jpg
+  width: 2048
+  height: 1513
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: dining-room
+  title: MAI-WUN-JI-19.jpg
+  author: icecreamcat.tw
+  license: All rights reserved (personal use)
+  source_url: https://icecreamcat.tw/mai-wun-ji/
+  original_url: https://icecreamcat.tw/wp-content/uploads/2025/09/MAI-WUN-JI-19.jpg
+  width: 2048
+  height: 1365
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

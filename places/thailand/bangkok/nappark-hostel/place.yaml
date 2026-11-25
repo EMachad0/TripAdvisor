@@ -73,8 +73,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: khaosan-night
-    caption: "Khao San Road at night, two streets from the hostel. No free photo of NapPark exists"
+    image: lobby
+    caption: "NapPark's lobby: a bookshelf lounge and a wall of guest photos behind the bar"
     hook: "A 150-year-old tamarind tree in the garden, Thai cushions in the lounge, and a pub crawl leaving at night."
   - type: quick_facts
     extra:
@@ -138,6 +138,14 @@ blocks:
         text: "**9.5 from 9,773 Hostelworld reviews** and Best Solo Hostel in Asia at the 2024 HOSCARs."
       - title: Walk to the old city
         text: "Two streets from Khao San Road, and in walking distance of the Grand Palace and Wat Pho, says Hostelworld."
+  - type: gallery
+    images:
+      - file: dorm
+        caption: "A white bunk dorm with the wooden partitions"
+      - file: common-room
+        caption: "Guests in the common room on an events night"
+      - file: garden
+        caption: "The shaded garden seating behind the hostel"
   - type: cost_breakdown
     items:
       - { label: "22-bed dorm bed, Tue 5 or Sat 9 Jan", local: 350, brl: 57.72 }

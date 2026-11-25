@@ -1,17 +1,42 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: victory-monument
-  title: File:Victory Monument (35571114866).jpg
-  author: aotaro from Yokohama, Japan
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  source_url: https://commons.wikimedia.org/wiki/File:Victory_Monument_(35571114866).jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Victory_Monument_%2835571114866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: taken near Victory Monument Station, Bangkok, Thailand
-  width: 5275
-  height: 3517
+- file: big-band
+  title: jazz-b2-bangkok-sax-pub-p20-20-col-7fotos-d1a30d7f-26a9-4090-b3e9-2d56449cbebb.jpg
+  author: fotocommunity
+  license: All rights reserved (personal use)
+  source_url: https://www.fotocommunity.de/photo/jazz-b2-bangkok-sax-pub-p20-20-col-7fotos-mtfoto/43498256
+  original_url: https://img.fotocommunity.com/jazz-b2-bangkok-sax-pub-p20-20-col-7fotos-d1a30d7f-26a9-4090-b3e9-2d56449cbebb.jpg?height=1080
+  width: 1440
+  height: 1080
   widths:
     - 640
     - 1280
-    - 2048
-  fetched: 2026-11-12
-  origin: commons
+    - 1440
+  fetched: 2026-11-25
+  origin: web
+- file: room
+  title: saxophone-pub.jpg
+  author: 10bestbangkok
+  license: All rights reserved (personal use)
+  source_url: http://www.10bestbangkok.com/best-bangkok/live-band-bar/
+  original_url: http://www.10bestbangkok.com/best-bangkok/img/live-band-bar/saxophone-pub.jpg
+  width: 1500
+  height: 750
+  widths:
+    - 640
+    - 1280
+    - 1500
+  fetched: 2026-11-25
+  origin: web
+- file: stage-above
+  title: nightlife2.jpg
+  author: Binn Tour
+  license: All rights reserved (personal use)
+  source_url: https://www.binntour.com/nightlife/saxophone-pub-one-of-the-best-music-venues-in-bangkok/
+  original_url: https://www.binntour.com/wp-content/uploads/nightlife2.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

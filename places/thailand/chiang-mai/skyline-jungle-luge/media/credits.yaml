@@ -1,17 +1,43 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: pa-miang-hills
-  title: File:Pa Miang Village View.jpg
-  author: Chatchawat Rodwattanakul
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Pa_Miang_Village_View.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b1/Pa_Miang_Village_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Cafe UpHill
-  width: 1706
-  height: 960
+- file: luge-track
+  title: KART6.jpg
+  author: Skyline Jungle Luge
+  license: All rights reserved (personal use)
+  source_url: https://skylinejungleluge.com/
+  original_url: https://skylinejungleluge.com/wp-content/uploads/sites/8327/2026/01/KART6.jpg
+  width: 5184
+  height: 3456
   widths:
     - 640
     - 1280
-    - 1706
-  fetched: 2026-11-13
-  origin: commons
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: zipline-valley
+  title: ZIPLINE24.webp
+  author: Skyline Jungle Luge
+  license: All rights reserved (personal use)
+  source_url: https://skylinejungleluge.com/
+  original_url: https://skylinejungleluge.com/wp-content/uploads/sites/8327/2026/01/ZIPLINE24.webp
+  width: 3357
+  height: 1890
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: sky-bridge
+  title: SKYBRIDGES4.jpg
+  author: Skyline Jungle Luge
+  license: All rights reserved (personal use)
+  source_url: https://skylinejungleluge.com/
+  original_url: https://skylinejungleluge.com/wp-content/uploads/sites/8327/2026/01/SKYBRIDGES4.jpg
+  width: 2976
+  height: 1984
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

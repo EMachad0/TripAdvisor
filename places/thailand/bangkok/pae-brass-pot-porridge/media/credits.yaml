@@ -1,0 +1,41 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: shopfront
+  title: 1eaf249245db42aa8ea4a822140bb6e3.jpg
+  author: Wongnai
+  license: All rights reserved (personal use)
+  source_url: https://www.wongnai.com/reviews/852d646b17644f0c9ce3e103edad47ce
+  original_url: https://img.wongnai.com/p/1920x0/2023/08/30/1eaf249245db42aa8ea4a822140bb6e3.jpg
+  width: 1479
+  height: 1109
+  widths:
+    - 640
+    - 1280
+    - 1479
+  fetched: 2026-11-25
+  origin: web
+- file: brass-pot
+  title: 562000009424203.JPEG
+  author: MGR Online
+  license: All rights reserved (personal use)
+  source_url: https://mgronline.com/travel/detail/9620000091327
+  original_url: https://mpics.mgronline.com/pics/Images/562000009424203.JPEG
+  width: 1000
+  height: 667
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web
+- file: dishes
+  title: 562000009424201.JPEG
+  author: MGR Online
+  license: All rights reserved (personal use)
+  source_url: https://mgronline.com/travel/detail/9620000091327
+  original_url: https://mpics.mgronline.com/pics/Images/562000009424201.JPEG
+  width: 1000
+  height: 666
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

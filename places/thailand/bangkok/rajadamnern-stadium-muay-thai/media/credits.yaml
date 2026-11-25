@@ -30,18 +30,31 @@
     - 1280
   fetched: 2026-11-12
   origin: commons
-- file: ringside-crowd
-  title: File:Audience at Muay Thai match at Rajadamnern Stadium 2007-05-20.JPG
-  author: BrokenSphere
-  license: CC BY 3.0
-  license_url: https://creativecommons.org/licenses/by/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Audience_at_Muay_Thai_match_at_Rajadamnern_Stadium_2007-05-20.JPG
-  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2d/Audience_at_Muay_Thai_match_at_Rajadamnern_Stadium_2007-05-20.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: The Muay Thai audience at Rajadamnern Stadium in Bangkok, Thailand.
-  width: 1280
-  height: 960
+- file: fight-night
+  title: DSC_6535_0-2-2.jpg
+  author: Rajadamnern Stadium
+  license: All rights reserved (personal use)
+  source_url: https://rajadamnern.com/seats-type/
+  original_url: https://rajadamnern.com/nitropack_static/fAEehLlKdNirzJtPZvrXywIKrXxvkely/assets/images/optimized/rev-dcd3b3a/rajadamnern.com/wp-content/uploads/2025/01/DSC_6535_0-2-2.jpg
+  width: 1920
+  height: 1277
   widths:
     - 640
     - 1280
-  fetched: 2026-11-12
-  origin: commons
+    - 1920
+  fetched: 2026-11-25
+  origin: web
+- file: hall
+  title: DSC_1341.jpg
+  author: Rajadamnern Stadium
+  license: All rights reserved (personal use)
+  source_url: https://rajadamnern.com/seats-type/
+  original_url: https://rajadamnern.com/nitropack_static/fAEehLlKdNirzJtPZvrXywIKrXxvkely/assets/images/optimized/rev-dcd3b3a/rajadamnern.com/wp-content/uploads/2025/01/DSC_1341.jpg
+  width: 1920
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: web

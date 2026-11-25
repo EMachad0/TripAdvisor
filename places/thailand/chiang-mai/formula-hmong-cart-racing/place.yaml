@@ -91,10 +91,10 @@ last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: mon-jam-panorama
-    focus: center
+    image: race-2024
+    focus: "50% 40%"
     hook: "Hmong racers pilot wooden carts down a mountain road. Book your trip north; race entry is unknown."
-    caption: "The Mon Jam hills, venue of the 2024 and 2025 races. No free photo of the carts exists"
+    caption: "A racer at the 2024 World Formula Hmong race at Mon Jam"
   - type: quick_facts
     time_needed: "Half a day at the track"
     best_time: "Race day, from the morning"
@@ -127,6 +127,8 @@ blocks:
       This is a race you **watch** (and maybe try in an amateur class). To ride a gravity kart down a mountain yourself, see Skyline Jungle Luge near Chiang Mai and Thongsomboon Club near Khao Yai.
   - type: gallery
     images:
+      - { file: race-forest-bend, caption: "Carts on the dirt course under the trees, 2024 race" }
+      - { file: mon-jam-panorama, caption: "The Mon Jam hills, venue of the 2024 and 2025 races", focus: center }
       - { file: mon-jam-flowers, caption: "Flower fields at Mon Jam, a Hmong farming village turned viewpoint", focus: center }
   - type: cost_breakdown
     items:

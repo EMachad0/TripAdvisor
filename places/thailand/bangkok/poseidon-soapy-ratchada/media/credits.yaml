@@ -1,17 +1,40 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: ratchada-sutthisan
-  title: File:Ratchadaphisek Road (southbound) at Sutthisan Intersection.jpg
-  author: NC-MyLifeArm
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source_url: https://commons.wikimedia.org/wiki/File:Ratchadaphisek_Road_(southbound)_at_Sutthisan_Intersection.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/c/c8/Ratchadaphisek_Road_%28southbound%29_at_Sutthisan_Intersection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Ratchadaphisek Road at Sutthisan Intersection
-  width: 4032
-  height: 3024
+- file: facade
+  title: 564000000438601.JPEG
+  author: MGR Online
+  license: All rights reserved (personal use)
+  source_url: https://mgronline.com/onlinesection/detail/9640000004270
+  original_url: https://mpics-cdn.mgronline.com/pics/Images/564000000438601.JPEG
+  width: 1024
+  height: 775
   widths:
     - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-16
-  origin: commons
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: palace-suite
+  title: thepalace01.jpg
+  author: Poseidon
+  license: All rights reserved (personal use)
+  source_url: https://www.poseidon2000.com/index_th.php
+  original_url: https://www.poseidon2000.com/img/suitroom/thepalace01.jpg
+  width: 1024
+  height: 683
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-25
+  origin: web
+- file: lobby
+  title: modeling03.jpg
+  author: Poseidon
+  license: All rights reserved (personal use)
+  source_url: https://www.poseidon2000.com/index_jp.php
+  original_url: https://www.poseidon2000.com/assets/images/modeling03.jpg
+  width: 1000
+  height: 788
+  widths:
+    - 640
+    - 1000
+  fetched: 2026-11-25
+  origin: web

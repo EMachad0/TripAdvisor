@@ -107,6 +107,8 @@ blocks:
       Staff ask for your order as soon as you sit, because the rice takes long: 2026 reviews describe 25 minutes to over an hour between ordering and the pot arriving. An Oct 2026 blog puts the stir-fries and steamed dishes at about HK$70–120 each if you want a side.
   - type: gallery
     images:
+      - { file: crispy-crust, caption: "Lifting the crisp rice crust (飯焦) from the bottom of a pot, Oct 2025" }
+      - { file: clay-pot-stove, caption: "The cook working a row of clay pots over the burners" }
       - { file: queue-outside, caption: "The queue outside before opening, Sept 2022" }
       - { file: kwai-heung-street-night, caption: "Kwai Heung Street at night; Kwan Kee's lit sign on the left" }
   - type: quote

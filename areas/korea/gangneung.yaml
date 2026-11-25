@@ -16,7 +16,7 @@ lng: 128.8917
 getting_there: "KTX-Eum from Seoul station about 2 h, ₩27,600 one way; from Cheongnyangni about 1 h 30, ₩26,000. Express bus about 2 h 40, from ~₩20,000."
 getting_around: "City buses ₩1,300 in cash on city routes; taxis start at ₩3,800 (Wikivoyage figures)."
 winter_note: "The coast is mild for Korea: Gangneung's January normals run from −2.7 °C at night to 5.3 °C by day, with about 6 snowy days. Up on the Daegwallyeong pass (832 m) it is −12.2 to −1.8 °C, with snow on about 13 days a month."
-image: jeongdongjin-station
+image: gyeongpo-pines
 sources:
   - url: https://en.wikivoyage.org/wiki/Gangneung
     title: "Gangneung (Wikivoyage): KTX fares and times, buses, taxis, Gyeongpo, Anmok Coffee Street, Jeongdongjin, Jumunjin, Daegwallyeong"
@@ -49,7 +49,7 @@ last_updated: 2026-11-12
 blocks:
   - type: hero
     hook: "Pine-lined beaches, a street of coffee roasters and snowy mountain passes behind them."
-    caption: "Jeongdongjin station, a few steps from the sea south of Gangneung"
+    caption: "The pine-lined boardwalk along Gyeongpo Beach (May)"
   - type: highlights
     items:
       - title: Korea's coffee city
@@ -72,7 +72,7 @@ blocks:
       Pyeongchang's snow country (Daegwallyeong, the sheep ranch, the 2018 Olympic mountains) lies inland between Seoul and the coast. The KTX passes through Pyeongchang on the way.
   - type: gallery
     images:
-      - { file: gyeongpo-pines, caption: "The pine path along Gyeongpo Beach (May)" }
+      - { file: jeongdongjin-station, caption: "Jeongdongjin station, a few steps from the sea south of Gangneung" }
       - { file: anmok-coffee-cup, caption: "A coffee-cup photo frame on Anmok Beach" }
       - { file: daegwallyeong-sheep-farm, caption: "Daegwallyeong sheep ranch in summer; expect snow up here in January" }
   - type: tips

@@ -1,17 +1,57 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: tha-phae-gate
-  title: File:Chiang Mai - East gate of the city wall - 0001.jpg
-  author: Stefan Fussan
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Chiang_Mai_-_East_gate_of_the_city_wall_-_0001.jpg
-  original_url: https://upload.wikimedia.org/wikipedia/commons/6/68/Chiang_Mai_-_East_gate_of_the_city_wall_-_0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: East gate (Tha Phae Gate) of the city wall, Chiang Mai, Thailand
-  width: 5133
-  height: 3106
+- file: pool-courtyard
+  title: uusp3erli2icgzcygsxz.jpg
+  author: Mad Monkey Chiang Mai (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Chiang-Mai/Chiang-Mai/318111
+  original_url: https://a.hwstatic.com/propertyimages/3/318111/uusp3erli2icgzcygsxz.jpg
+  width: 2000
+  height: 1333
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: bar
+  title: de88rhte29iul2sj5ten.jpg
+  author: Mad Monkey Chiang Mai (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Chiang-Mai/Chiang-Mai/318111
+  original_url: https://a.hwstatic.com/propertyimages/3/318111/de88rhte29iul2sj5ten.jpg
+  width: 2000
+  height: 1333
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: lounge
+  title: k8pbsj1rmwguycamfesi.jpg
+  author: Mad Monkey Chiang Mai (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Chiang-Mai/Chiang-Mai/318111
+  original_url: https://a.hwstatic.com/propertyimages/3/318111/k8pbsj1rmwguycamfesi.jpg
+  width: 2000
+  height: 1333
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: pool-table
+  title: aumxbaqwcqizl1cubww5.jpg
+  author: Mad Monkey Chiang Mai (Hostelworld)
+  license: All rights reserved (personal use)
+  source_url: https://www.hostelworld.com/pwa/hosteldetails.php/Mad-Monkey-Chiang-Mai/Chiang-Mai/318111
+  original_url: https://a.hwstatic.com/propertyimages/3/318111/aumxbaqwcqizl1cubww5.jpg
+  width: 6000
+  height: 4000
   widths:
     - 640
     - 1280
     - 2048
-  fetched: 2026-11-12
-  origin: commons
+  fetched: 2026-11-25
+  origin: web

@@ -58,9 +58,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: takabashi-storefronts
-    focus: "45% 60%"
-    caption: The yellow Daiichi Asahi awning, next door to rival Shinpuku Saikan
+    image: ramen-bowl
+    caption: The house ramen at the Takabashi main shop, chashu slices under a heap of green onion
     hook: Two rival ramen shops side by side at the foot of the Takabashi bridge, each with its own queue.
   - type: quick_facts
     time_needed: 30–60 min incl. queue
@@ -83,6 +82,13 @@ blocks:
       Kyoto ramen is not one style, and Daiichi Asahi is the clear, soy-sauce one: thin straight noodles, slices of chashu, a heap of green onion and bean sprouts, in a light pork broth. The fourth-generation owner says the early-morning crowd has grown with Japan's *asa-ra* (morning ramen) habit: night-bus arrivals, shift workers, people catching early trains.
 
       It is the cheap classic on this list. A basic bowl is under ¥1,000; extra onion and sprouts and every seasoning change are free, and extra meat is ¥250.
+  - type: gallery
+    images:
+      - file: counter-bowl
+        caption: A bowl and a beer at the counter of the main shop
+      - file: takabashi-storefronts
+        focus: "45% 60%"
+        caption: Daiichi Asahi (yellow awning, before its refit) next door to rival Shinpuku Saikan
   - type: quote
     variant: vibe
     text: Steam on the window, a queue on the pavement, and green onion piled higher than the noodles.

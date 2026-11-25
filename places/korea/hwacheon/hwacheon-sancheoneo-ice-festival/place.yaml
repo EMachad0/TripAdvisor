@@ -106,6 +106,10 @@ blocks:
         text: "The 2026 programme had bare-hand fishing, snow sleds, an ice bobsleigh, ice soccer, the Haneulgareugi ('fly to the sky') ride and an indoor ice sculpture plaza carved by sculptors from the Harbin ice festival."
       - title: Lantern street after dark
         text: "The town's Seondeung street is hung with trout-shaped paper lanterns and LED lights. In the 2025/26 season it ran from 20 Dec to 8 Feb, longer than the festival itself."
+  - type: gallery
+    images:
+      - { file: barehand-pool, caption: "The bare-hand fishing pool, in festival T-shirts and shorts in January" }
+      - { file: grilled-trout, caption: "Visitors with their trout at the festival grill zone" }
   - type: prose
     title: Which day to go
     dropcap: true

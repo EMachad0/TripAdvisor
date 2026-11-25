@@ -15,3 +15,31 @@
     - 1920
   fetched: 2026-11-13
   origin: commons
+- file: rainbow-luge
+  title: 08.jpg
+  author: Thongsomboon Club
+  license: All rights reserved (personal use)
+  source_url: http://www.thongsomboon-club.com/event06.php
+  original_url: http://www.thongsomboon-club.com/images/events/e05/08.jpg
+  width: 1568
+  height: 1044
+  widths:
+    - 640
+    - 1280
+    - 1568
+  fetched: 2026-11-25
+  origin: web
+- file: chairlift-over-track
+  title: 07.jpg
+  author: Thongsomboon Club
+  license: All rights reserved (personal use)
+  source_url: http://www.thongsomboon-club.com/event08.php
+  original_url: http://www.thongsomboon-club.com/images/events/e07/07.jpg
+  width: 1478
+  height: 1108
+  widths:
+    - 640
+    - 1280
+    - 1478
+  fetched: 2026-11-25
+  origin: web

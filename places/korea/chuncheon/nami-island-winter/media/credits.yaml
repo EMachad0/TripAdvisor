@@ -46,3 +46,17 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: snowy-avenue
+  title: trees-covered-in-snow-nami-island.jpg
+  author: VIP Travel
+  license: All rights reserved (personal use)
+  source_url: https://www.vviptravel.com/tours/nami-island-winter-tour
+  original_url: https://www.vviptravel.com/wp-content/uploads/2019/06/trees-covered-in-snow-nami-island.jpg
+  width: 2048
+  height: 1361
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

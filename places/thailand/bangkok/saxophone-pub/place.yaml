@@ -68,13 +68,13 @@ sources:
     title: "Bangkok: climate table (Wikipedia)"
     checked: 2026-11-12
 confidence: medium
-confidence_note: "Hours, set times, no cover and phone booking from Visit Thailand Today (Oct 2026) and Time Out (Mar 2025); the official schedule page lists the same three sets. No current drink price found: ฿220 is an estimate (range ฿200–250) raised from a ฿170 draft on a 2015 page, as the Oct 2026 guide says drinks cost more than at other music bars. No free photo of the pub: the hero shows the monument nearby."
+confidence_note: "Hours, set times, no cover and phone booking from Visit Thailand Today (Oct 2026) and Time Out (Mar 2025); the official schedule page lists the same three sets. No current drink price found: ฿220 is an estimate (range ฿200–250) raised from a ฿170 draft on a 2015 page, as the Oct 2026 guide says drinks cost more than at other music bars."
 last_updated: 2026-11-13
 
 blocks:
   - type: hero
-    image: victory-monument
-    caption: "Victory Monument, two minutes' walk away; no free photo of the pub"
+    image: big-band
+    caption: "A horn section on Saxophone's stage, under red curtains and walls of old records"
     hook: "A two-storey wooden pub crammed with vintage junk, a sax solo, and strangers dancing between the tables by midnight."
   - type: quick_facts
     time_needed: 2–4 h
@@ -92,6 +92,12 @@ blocks:
         text: "You can still talk across the table, and the room loosens up as the night goes on until people sing along and dance."
       - title: Two floors of character
         text: "A wooden two-storey building packed with vintage collectibles. Upstairs has floor seating and a pool table."
+  - type: gallery
+    images:
+      - file: room
+        caption: "The ground floor during a set, tables right up to the band"
+      - file: stage-above
+        caption: "The stage and bar seen from above"
   - type: menu
     items:
       - { name: "Draft beer (estimate)", price_local: 220, price_brl: 36.28, note: "Budget ฿200–250; it was ฿170 in 2015 and guides now call drinks pricier than other music bars", tag: drink }

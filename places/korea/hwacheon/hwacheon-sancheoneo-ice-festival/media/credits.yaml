@@ -15,3 +15,29 @@
     - 2048
   fetched: 2026-11-10
   origin: commons
+- file: barehand-pool
+  title: 20180113_141524.jpg
+  author: Be Marie Korea
+  license: All rights reserved (personal use)
+  source_url: https://bemariekorea.com/hwacheon-ice-fishing-festival-winter-wonder/
+  original_url: http://bemariekorea.com/wp-content/uploads/2018/01/20180113_141524.jpg
+  width: 1067
+  height: 800
+  widths:
+    - 640
+    - 1067
+  fetched: 2026-11-25
+  origin: web
+- file: grilled-trout
+  title: Hwacheon.jpg
+  author: Adventure Korea
+  license: All rights reserved (personal use)
+  source_url: https://adventurekorea.com/hwacheon-sancheoneo-2024/
+  original_url: https://adventurekorea.com/wp-content/uploads/2024/01/Hwacheon.jpg
+  width: 1132
+  height: 849
+  widths:
+    - 640
+    - 1132
+  fetched: 2026-11-25
+  origin: web

@@ -84,8 +84,8 @@ last_updated: 2026-11-18
 
 blocks:
   - type: hero
-    image: victoria-dockside
-    caption: "Victoria Dockside; the Rosewood is the tall tower. No free photo of the spa"
+    image: treatment-room
+    caption: "An Asaya treatment room: marble basin, massage beds and a soaking tub behind the screen"
     hook: "No legal nuru house exists in Hong Kong. The honest splurge: a sense-led oil ritual six floors above the harbour."
   - type: quick_facts
     time_needed: "60 or 90 min treatment"
@@ -104,6 +104,12 @@ blocks:
         text: "The spa page lists a **Relaxation Sanctuary** with sauna, steam room and vitality pool, and the menu asks you to come **30–45 min early** to use it."
       - title: Clear rules
         text: "Published prices, a 10% service charge, a credit card to hold the slot, and a **100% charge** if you cancel within 24 hours. No surprises in the room."
+  - type: gallery
+    images:
+      - file: level-7-bath
+        caption: "A 7/F Spa Duet Suite: the stone bath and its private terrace"
+      - file: double-treatment
+        caption: "A massage in an Asaya double treatment room (Rosewood's photo)"
   - type: prose
     title: Why a hotel spa is on this list
     dropcap: true

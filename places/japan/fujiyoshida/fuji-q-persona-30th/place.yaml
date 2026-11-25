@@ -83,9 +83,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: park-under-fuji
-    caption: "Fuji-Q and the town of Fujiyoshida under Mt Fuji, at dusk"
-    focus: "25% 75%"
+    image: fujiyama-tower-aerial
+    caption: "Fuji-Q's Fujiyama coaster and its observation tower, with Mt Fuji behind"
     hook: "Thirty years of Persona heroes gather in a theme park that looks up at Mt Fuji and charges nothing to walk in."
   - type: quick_facts
     time_needed: Full day
@@ -111,6 +110,11 @@ blocks:
       Only if you're a fan. It's about two hours each way by bus, and the park and the coasters are the real draw. The Persona part is a themed attraction, food and goods, details still to come. Fuji-Q has a free entry pass, so a fan can go for the collab, eat, buy goods and leave for about ¥4,000 in bus fares.
 
       If you add a ¥6,000 ride pass, the day comes to about ¥10,000 (R$352), twice the daily budget. That is only worth it if you love coasters. Look at the event page in mid-January: if the collab attraction turns out to be a sticker rally and a menu, skip it and spend the day in Tokyo.
+  - type: gallery
+    images:
+      - { file: eejanaika-coaster, caption: "Coaster loops above the park's Food Stadium, snow on Mt Fuji behind" }
+      - { file: persona-key-visual, caption: "The official key visual for the Persona 30th × Fuji-Q collaboration" }
+      - { file: park-under-fuji, focus: "25% 75%", caption: "Fuji-Q and the town of Fujiyoshida under Mt Fuji, at dusk" }
   - type: book_ahead
     steps:
       - days_before: 7

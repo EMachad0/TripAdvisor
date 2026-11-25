@@ -73,8 +73,8 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: sukhumvit-asok-night
-    caption: "Sukhumvit Road at Asok, a few minutes east of Soi 15. No free photo of Thermae itself"
+    image: entrance
+    caption: "The Ruamchitt building entrance on Sukhumvit, with the Thermae board for the basement bar"
     hook: "Down a staircase off Sukhumvit: a dated, music-less basement where the whole room is the negotiation."
   - type: quick_facts
     time_needed: "30 min – 1 h"
@@ -93,6 +93,12 @@ blocks:
         text: "It still has **4.0 from 1,475 Google reviews**, and one reviewer who says he was a regular 30 years ago wrote in 2026 that it \"hasn't changed a bit\"."
       - title: Easy to fold into a Sukhumvit night
         text: "On Sukhumvit Road at Soi 15, about 5 minutes on foot from BTS Asok or Nana, so it sits between **Soi Cowboy** and **Nana Plaza**."
+  - type: gallery
+    images:
+      - file: entrance-night
+        caption: "The entrance at night, from the street"
+      - file: ruamchitt-steps
+        caption: "The Ruamchitt steps by day, with the basement entrance on the right"
   - type: prose
     title: What it actually is
     dropcap: true

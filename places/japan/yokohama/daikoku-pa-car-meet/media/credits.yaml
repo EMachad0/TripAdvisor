@@ -31,19 +31,31 @@
     - 1920
   fetched: 2026-11-12
   origin: commons
-- file: parking-lot
-  title: File:Daikoku-PA.JPG
-  author: Nyao148
-  license: CC BY 3.0
-  license_url: https://creativecommons.org/licenses/by/3.0
-  source_url: https://commons.wikimedia.org/wiki/File:Daikoku-PA.JPG
-  original_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Daikoku-PA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: Parking lot at Daikoku Parking Area
-  width: 2487
-  height: 1797
+- file: meet-night
+  title: daikoku-pa-parking-area-tokyo-night.webp
+  author: JDM Tokyo Tours
+  license: All rights reserved (personal use)
+  source_url: https://jdmtokyo.com/tours/daikoku-pa-night-tour/
+  original_url: https://jdmtokyo.com/images/daikoku-pa-parking-area-tokyo-night.webp
+  width: 1623
+  height: 1080
   widths:
     - 640
     - 1280
-    - 1920
-  fetched: 2026-11-12
-  origin: commons
+    - 1623
+  fetched: 2026-11-25
+  origin: web
+- file: rx7-lineup
+  title: 100.jpg
+  author: SuiteTrails
+  license: All rights reserved (personal use)
+  source_url: https://suitetrails.com/trips/tokyo-daikoku-car-meet-jdm-experience/
+  original_url: https://cdn.getyourguide.com/img/tour/afc57c1ddb999900.jpeg/100.jpg
+  width: 2050
+  height: 1066
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web

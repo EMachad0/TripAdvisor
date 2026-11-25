@@ -15,3 +15,30 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: ramen-bowl
+  title: IMG_6106.jpg
+  author: 東京ラーメンツアーズ
+  license: All rights reserved (personal use)
+  source_url: https://norman.jp/ramen/dcaiichiasahihonten/
+  original_url: https://norman.jp/ramen/wp-content/uploads/2023/06/IMG_6106.jpg
+  width: 2000
+  height: 1500
+  widths:
+    - 640
+    - 1280
+    - 2000
+  fetched: 2026-11-25
+  origin: web
+- file: counter-bowl
+  title: 20190410212410.jpg
+  author: 空へ！！ (blog)
+  license: All rights reserved (personal use)
+  source_url: https://itmbase.hatenablog.jp/entry/2019/04/13/090000
+  original_url: https://cdn-ak.f.st-hatena.com/images/fotolife/I/ITMBASE/20190410/20190410212410.jpg
+  width: 1200
+  height: 900
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-25
+  origin: web

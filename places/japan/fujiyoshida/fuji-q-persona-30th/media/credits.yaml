@@ -15,3 +15,45 @@
     - 2048
   fetched: 2026-11-12
   origin: commons
+- file: fujiyama-tower-aerial
+  title: image.jpg
+  author: Time Out Tokyo
+  license: All rights reserved (personal use)
+  source_url: https://www.timeout.com/tokyo/news/fuji-q-highland-is-getting-a-new-55m-tall-observation-deck-overlooking-mt-fuji-122520
+  original_url: https://media.timeout.com/images/105785591/image.jpg
+  width: 3000
+  height: 1714
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-25
+  origin: web
+- file: eejanaika-coaster
+  title: 1731887314-fuji-q-highland.webp
+  author: Trip To Japan
+  license: All rights reserved (personal use)
+  source_url: https://www.triptojapan.com/blog/the-art-of-the-perfect-shot-the-best-view-of-mount-fuji-from-tokyo-spots
+  original_url: https://www.datocms-assets.com/101439/1731887314-fuji-q-highland.webp?auto=format&h=1000&w=2000
+  width: 1504
+  height: 1000
+  widths:
+    - 640
+    - 1280
+    - 1504
+  fetched: 2026-11-25
+  origin: web
+- file: persona-key-visual
+  title: pe_kv1.jpg
+  author: Fuji-Q Highland
+  license: All rights reserved (personal use)
+  source_url: https://www.fujiq.jp/en/event/p30th.html
+  original_url: https://www.fujiq.jp/special/p30th/assets/images/pe_kv1.jpg
+  width: 1860
+  height: 1316
+  widths:
+    - 640
+    - 1280
+    - 1860
+  fetched: 2026-11-25
+  origin: web

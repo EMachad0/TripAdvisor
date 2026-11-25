@@ -76,8 +76,8 @@ last_updated: 2026-11-16
 
 blocks:
   - type: hero
-    image: takashimaya
-    caption: "Kyoto Takashimaya; the restaurant is on the 7th floor (no free photo inside)"
+    image: lunch-tray
+    caption: "A Tankuma lunch tray at the Takashimaya branch: sashimi, tempura, simmered dishes, rice"
     hook: Course after course of Kyoto kaiseki, above the Shijo crossing.
   - type: quick_facts
     time_needed: 1.5–2 h
@@ -98,7 +98,9 @@ blocks:
         text: "About **R$354**, two days of budget, for the full kaiseki sequence in Kyoto, booked online in English, at a table of your own."
   - type: gallery
     images:
-      - { file: shijo-kawaramachi, caption: "The Shijō-Kawaramachi crossing outside Takashimaya" }
+      - { file: dining-room, caption: "The 7th-floor dining room, screened by glass and gauze panels" }
+      - { file: window-tables, caption: "Tables by the window in the Takashimaya branch" }
+      - { file: takashimaya, caption: "Kyoto Takashimaya at the Shijō-Kawaramachi crossing; the restaurant is on the 7th floor" }
   - type: book_ahead
     steps:
       - days_before: 3

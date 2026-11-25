@@ -1,23 +1,7 @@
 # Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
-- file: honten-lanterns
-  title: File:Tennichi honten2.JPG
-  author: HmanJp
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source_url: https://commons.wikimedia.org/wiki/File:Tennichi_honten2.JPG
-  original_url: https://upload.wikimedia.org/wikipedia/commons/2/27/Tennichi_honten2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  description: 天下一品 総本店その2
-  width: 2048
-  height: 1536
-  widths:
-    - 640
-    - 1280
-    - 1920
-  fetched: 2026-11-12
-  origin: commons
 - file: honten-front
   title: File:Tenka-ippin main shop in Sakyo-ku, Kyoto (天下一品 総本店, 京都市左京区一乗寺築田町) (2012-04-03 by HmanJp).jpg
-  author: "HmanJp; derivative work by Clusternote"
+  author: HmanJp; derivative work by Clusternote
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source_url: https://commons.wikimedia.org/wiki/File:Tenka-ippin_main_shop_in_Sakyo-ku,_Kyoto_(%E5%A4%A9%E4%B8%8B%E4%B8%80%E5%93%81_%E7%B7%8F%E6%9C%AC%E5%BA%97,_%E4%BA%AC%E9%83%BD%E5%B8%82%E5%B7%A6%E4%BA%AC%E5%8C%BA%E4%B8%80%E4%B9%97%E5%AF%BA%E7%AF%89%E7%94%B0%E7%94%BA)_(2012-04-03_by_HmanJp).jpg
@@ -46,3 +30,16 @@
     - 1920
   fetched: 2026-11-12
   origin: commons
+- file: sohonten-facade
+  title: aaefc7ea.jpg
+  author: とある分析屋の日々徒然 (blog)
+  license: All rights reserved (personal use)
+  source_url: https://yamato161127.livedoor.blog/archives/34071148.html
+  original_url: https://livedoor.blogimg.jp/yamato161127/imgs/a/a/aaefc7ea.jpg
+  width: 1280
+  height: 960
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-25
+  origin: web

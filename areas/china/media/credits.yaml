@@ -751,3 +751,37 @@
   fetched: 2026-11-12
   origin: commons
   area: fenghuang
+- file: forbidden-city-snow-close
+  title: File:Forbidden City after snow (20200106114634).jpg
+  author: N509FZ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Forbidden_City_after_snow_(20200106114634).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fc/Forbidden_City_after_snow_%2820200106114634%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Beijing's first snowfall of 2020, the hexacentennial of Forbidden City.
+  width: 7291
+  height: 4861
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+  area: beijing
+- file: pudong-skyline-night
+  title: File:The skyline of Pudong at night.jpg
+  author: Lloyd Tudor
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:The_skyline_of_Pudong_at_night.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/37/The_skyline_of_Pudong_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: The skyline of Pudong at night, with buildings lit up.
+  width: 5703
+  height: 3802
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-25
+  origin: commons
+  area: shanghai

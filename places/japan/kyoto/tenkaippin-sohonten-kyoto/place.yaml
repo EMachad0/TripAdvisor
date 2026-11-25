@@ -70,8 +70,8 @@ last_updated: 2026-11-12
 
 blocks:
   - type: hero
-    image: honten-lanterns
-    caption: "The head shop's lanterns on its Ichijoji street"
+    image: sohonten-facade
+    caption: "The head shop today: paper lanterns, the cart wheel and the 総本店 sign in Ichijoji"
     hook: The original is a street cart's soup, simmered until it sticks to your lips.
   - type: quick_facts
     time_needed: 45 min at the table
