@@ -1,0 +1,158 @@
+id: chagee-global-harbor
+name: "Chagee at Global Harbor"
+short_name: Chagee
+name_local: 霸王茶姬（上海环球港）
+name_romanized: Bàwáng Chájī
+country: china
+city: shanghai
+area: Putuo · Global Harbor mall
+category: food
+fame: popular
+tags: [milk-tea, tea, chain, mall, cheap]
+kind: Eat
+why: "China's most talked-about tea chain: jasmine green tea and fresh milk, ¥18 a cup. No pearls; strong enough to carry a night shift."
+cost:
+  local: 18
+  currency: CNY
+  brl: 15.85
+  note: "One regular Boya Juexian; ¥18 at the Pudong Airport branch in Jul 2026. Mall branches may differ by a yuan or two"
+fx: { rate: 0.8807, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 15–30 min
+best_time: Weekday mid-morning, before the lunch rush
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Follows Global Harbor mall hours; this counter's exact hours not confirmed. Check the Chagee mini-program before a special trip"
+  winter: "No seasonal closures found. Ask for it hot (热); Trip.com notes the Da Hong Pao milk tea works hot or iced. Chagee is a chain open through Christmas and New Year; no holiday notice found for this branch."
+
+location:
+  address: "1F, unit 1054c, Global Harbor mall (by the north entrance, next to Starbucks), 3300 North Zhongshan Rd, Putuo, Shanghai"
+  address_local: 上海市普陀区中山北路3300号 环球港1楼1054c 霸王茶姬
+  lat: 31.23612
+  lng: 121.40843
+  nearest_transit: Jinshajiang Road (Lines 3/4/13), direct underground entrance
+  approximate: true
+
+sources:
+  - url: https://chagee.us/media-center/article/76cc2a57-3e56-4579-9638-d4a88365dec9
+    title: "CHAGEE: Opens New Flagship Stores in Shanghai (Global Harbor and MetroCity, June 2023)"
+    checked: 2026-11-24
+  - url: https://m.winshang.com/news713670.html
+    title: "Winshang (2023-06-07): 霸王茶姬上海环球港、美罗城旗舰店揭幕"
+    checked: 2026-11-24
+  - url: "https://map.baidu.com/search/%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%E7%8E%AF%E7%90%83%E6%B8%AF/?querytype=s&c=289&wd=%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%E7%8E%AF%E7%90%83%E6%B8%AF"
+    title: "Baidu Maps: 霸王茶姬 环球港 (1F and B1 stores listed, avg ¥22 / ¥21)"
+    checked: 2026-11-24
+  - url: "https://map.baidu.com/search/%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%E6%97%97%E8%88%B0%E5%BA%97/?querytype=s&c=289&wd=%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%E6%97%97%E8%88%B0%E5%BA%97"
+    title: "Baidu Maps: 霸王茶姬旗舰店 Shanghai (Metro City flagship marked 暂停营业)"
+    checked: 2026-11-24
+  - url: https://en.wikipedia.org/wiki/Global_Harbor
+    title: Global Harbor — Wikipedia (address, Jinshajiang Road station)
+    checked: 2026-11-24
+  - url: https://www.trip.com/guide/food/chagee.html
+    title: "Trip.com: Chagee Tea: Menu, Merch, Delivery (2026-08-17)"
+    checked: 2026-11-24
+  - url: https://realchinatrip.com/blogs/food-tour/how-to-order-chagee-in-china-a-local-s-pro-guide-2026
+    title: "RealChinaTrip: How to Order CHAGEE in China in 2026 (2026-03-07)"
+    checked: 2026-11-24
+  - url: https://www.trvlogue.com/ja/chagee-pudong-airport-shanghai-review
+    title: "TRVLOGUE: 覇王茶姫 上海・浦東空港店レビュー (2026-07-27, updated 2026-10-07)"
+    checked: 2026-11-24
+  - url: https://m.bjnews.com.cn/detail/1766813794168511.html
+    title: "Beijing News (2025-12-27): Chagee caffeine and 轻因·伯牙绝弦"
+    checked: 2026-11-24
+  - url: https://insideretail.asia/2025/12/09/how-china-turned-milk-tea-into-a-domestic-powerhouse-and-global-export/
+    title: "Inside Retail Asia (2025-12-09): How China turned milk tea into a powerhouse"
+    checked: 2026-11-24
+  - url: https://www.itiger.com/news/1104700075
+    title: "Tiger Brokers (2025-10-24): Chagee opens store at Shanghai Oriental Pearl Tower"
+    checked: 2026-11-24
+  - url: "https://map.baidu.com/search/%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0/?querytype=s&c=289&wd=%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0"
+    title: "Baidu Maps: 霸王茶姬(上海东方明珠店), 丰和路211号"
+    checked: 2026-11-24
+confidence: medium
+confidence_note: "Two Chagee counters in Global Harbor (1F 1054c, B1 B1015); unclear which holds the 2023 flagship fit-out, so the pin is the mall. Store units and the Pearl Tower address come from Baidu Maps and ¥18 from TRVLOGUE, both read with ./atr render (WebFetch gets a bot check / HTTP 429). Hours not found. Trip.com blocks link checks."
+last_updated: 2026-11-24
+
+blocks:
+  - type: hero
+    image: global-harbor-night
+    caption: "Global Harbor at night; no free photo of the Chagee counter inside"
+    hook: "Jasmine green tea, fresh milk, no pearls: the cup China queues for, in the mall of Chagee's Shanghai flagship."
+  - type: quick_facts
+    time_needed: 15–30 min
+    best_time: Weekday mid-morning
+    extra:
+      - { label: Pearls, value: "None", detail: "Brewed-leaf milk tea; no tapioca on the menu" }
+      - { label: Caffeine, value: Strong, detail: "Real tea leaves; one cup early, or before a night shift" }
+      - { label: Branches, value: Everywhere on the route, detail: "Shanghai, Beijing, Chengdu and the rest of the route" }
+  - type: highlights
+    items:
+      - title: The cup that made the brand
+        text: "**伯牙绝弦 Boya Juexian** is jasmine green tea with fresh milk, Chagee's signature cup and the one to try first."
+      - title: A flagship mall, not a random counter
+        text: "Chagee opened two Shanghai **TEA BAR** flagships in June 2023, at Global Harbor and Metro City, with an 8-metre brewing bar you can watch. Metro City is now listed as paused; Global Harbor still has two counters."
+      - title: Easy for a foreigner
+        text: "A July 2026 review found **English names** on the menu board at the Pudong Airport branch, and paid by scanning the QR code with **Alipay**. Elsewhere, the mini-program or phone translation fills the gap."
+      - title: The same cup in every city
+        text: "Chagee is in the malls of every big city on the route, from Beijing to Chengdu. If you like it here, you can have it on any day of the China leg."
+  - type: prose
+    title: Is this bubble tea?
+    text: |-
+      Not quite, and it is worth knowing before you go. Chagee makes **milk tea from freshly brewed whole leaves**: jasmine green, Da Hong Pao oolong, black tea. It does not use tapioca pearls, jelly or a menu of add-ons. If what you want is a chewy straw full of pearls, this is the wrong shop; what it does better than most is a cup that tastes of real tea.
+
+      **Against the other big names:** HeyTea started China's "new tea" wave with cheese-foam tea and is known for playful, inventive drinks, so go there for something new. Chayan Yuese (Sexy Tea) is the cult brand from Changsha, sold mostly in Hunan and a few other cities, Chongqing among them. Chagee is the steady, tea-forward one that is on every corner.
+  - type: gallery
+    feature: false
+    images:
+      - file: chagee-storefront
+        caption: "A typical Chagee storefront (another mall, 2024)"
+      - file: global-harbor-atrium
+        caption: "Inside Global Harbor, one of Shanghai's biggest malls"
+  - type: menu
+    title: What to order
+    items:
+      - name: Boya Juexian (jasmine green milk tea)
+        name_local: 伯牙绝弦
+        price_local: 18
+        price_brl: 15.85
+        note: "Regular cup, Pudong Airport, Jul 2026. The one to try first"
+        tag: signature
+      - name: Da Hong Pao milk tea
+        name_local: 白雾红尘
+        note: "Roasted oolong with fresh milk, bolder than the jasmine. Good hot; price not confirmed"
+        tag: must-try
+      - name: Perfume lemon green tea
+        name_local: 千峰翠
+        note: "Jasmine green tea with fresh lemon, no milk. A crisp iced option; price not confirmed"
+        tag: drink
+    note: "Most classic drinks run **¥15–22**. Say **热 (rè)** for hot, **少冰** for less ice, **三分糖** for 30% sugar or **半糖** for 50%."
+  - type: map
+    note: "Use the **underground entrance from Jinshajiang Road station**. Two Chagee counters are in the mall: 1F 1054c by the north entrance, and B1 B1015–B1016."
+  - type: tips
+    variant: insider
+    items:
+      - "**Order on your phone:** in WeChat or Alipay search **霸王茶姬** or CHAGEE and open the official mini-program, pick the store, pay with your linked Visa/Mastercard. A foreign phone number is often enough."
+      - "**At the counter:** point at the menu board (screen-translate it if there is no English) and scan the shop's QR code with Alipay. *Zhège* (这个, \"this one\") does the rest."
+      - "**Landing at Pudong?** The Terminal 2 branch is open 24 hours and sold a regular Boya Juexian for ¥18 in July 2026."
+      - "**Closer to the sights:** a Chagee opened in Oct 2025 at the foot of the Oriental Pearl Tower (丰和路211号), handy on a Lujiazui day."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**It is strong.** Trip.com warns that a large cup can bring a racing heart or insomnia. Have it before about 15:00 (UTC+8), or right before a night shift (Dec 28–31 in Chongqing), not on an empty stomach."
+      - "A **light-caffeine Boya Juexian** (轻因, about half the caffeine) launched in March 2025; I could not confirm it is still on the menu."
+      - "**An empty shop can still mean a wait:** dozens of app orders may be queued at lunch and after work. Check the queue in the mini-program before you pay."
+      - "The Metro City (美罗城) flagship in Xujiahui is listed as **paused** on Baidu Maps; don't make the trip there."
+  - type: weather
+    temp_low_c: 4
+    temp_high_c: 11
+    conditions: "Cool, damp and grey"
+    note: "Fully indoors, reached underground from the metro. Order it hot."
+    wear: "Whatever you wear for the day; nothing special"
+  - type: pairs_well
+    items:
+      - { id: heytea-shanghai, note: "The other big Shanghai name: the cheese-foam tea pioneer" }
+      - { id: chayan-yuese-jiefangbei, note: "Changsha's cult milk tea, in Chongqing Dec 26 – Jan 2" }

@@ -1,0 +1,49 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: global-harbor-night
+  title: File:Global Harbor at night.JPG
+  author: Jpbowen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Global_Harbor_at_night.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f6/Global_Harbor_at_night.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Global Harbor at night, Shanghai, China.
+  width: 4288
+  height: 3216
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
+- file: global-harbor-atrium
+  title: File:Atrium of Global Harbor, Shanghai.JPG
+  author: Jpbowen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Atrium_of_Global_Harbor,_Shanghai.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/80/Atrium_of_Global_Harbor%2C_Shanghai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Looking down in an atrium of Global Harbor, Shanghai, China.
+  width: 4288
+  height: 3216
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
+- file: chagee-storefront
+  title: File:20240817 Chagee at 360 Shopping Plaza (Greenland Metropolis).jpg
+  author: Windmemories
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:20240817_Chagee_at_360_Shopping_Plaza_(Greenland_Metropolis).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cc/20240817_Chagee_at_360_Shopping_Plaza_%28Greenland_Metropolis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Chagee at 360 Shopping Plaza (Greenland Metropolis)
+  width: 1800
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1800
+  fetched: 2026-11-24
+  origin: commons

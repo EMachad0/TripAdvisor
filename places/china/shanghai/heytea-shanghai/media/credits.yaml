@@ -1,0 +1,48 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: nanjing-road-night
+  title: File:Nanjing Road at night, looking towards Xinshijie.jpg
+  author: Benlisquare
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nanjing_Road_at_night,_looking_towards_Xinshijie.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/ea/Nanjing_Road_at_night%2C_looking_towards_Xinshijie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Nanjing Road in Shanghai at night, in the direction of Xinshijie and Shanghai First Foodhall .
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons
+- file: heytea-drinks
+  title: File:Hey Tea Products.jpg
+  author: Infinitygwen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Hey_Tea_Products.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Hey_Tea_Products.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Hey Tea Products, the photo was taken in Shenzhen's Hey Tea store.
+  width: 1440
+  height: 1080
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-24
+  origin: commons
+- file: mango-drink
+  title: File:Heytea Mango drink.jpg
+  author: CNHowey
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Heytea_Mango_drink.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d5/Heytea_Mango_drink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: ​喜茶的芒果饮品
+  width: 6288
+  height: 8384
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-24
+  origin: commons

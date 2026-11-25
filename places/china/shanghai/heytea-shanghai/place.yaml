@@ -1,0 +1,169 @@
+id: heytea-shanghai
+name: "HeyTea, New World City (People's Square)"
+short_name: HeyTea
+name_local: 喜茶（上海新世界城店）
+name_romanized: Xǐchá
+country: china
+city: shanghai
+area: Huangpu · People's Square
+category: food
+fame: popular
+tags: [bubble-tea, boba, milk-tea, cheese-foam, chain, cheap-eats, nanjing-road]
+kind: Eat
+why: "The chain behind China's new-style tea craze: brown sugar boba milk for ¥19 (R$17), ordered on Alipay at the top of Nanjing Road."
+
+cost:
+  local: 19
+  currency: CNY
+  brl: 16.73
+  note: "One Roasted Brown Sugar Bobo Milk; the fruit signatures are ¥15–18 (China prices, Oct 2026)"
+fx: { rate: 0.8807, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 20–40 min
+best_time: Mid-morning or a weekday afternoon
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 09:00–23:00 (UTC+8), per the store's Amap listing as reported in 2026"
+  winter: "No seasonal hours found for this branch. It sits on the ground floor of an indoor mall, so the cold only matters in the outdoor queue, if there is one. Christmas and New Year hours were not published as of 24 Nov 2026."
+
+location:
+  address: "New World City mall, ground floor, West Nanjing Road at People's Square, Huangpu, Shanghai"
+  address_local: 喜茶(上海新世界城店) 黄浦区南京西路 新世界城1楼
+  lat: 31.2366
+  lng: 121.4692
+  nearest_transit: "People's Square (Lines 1, 2, 8)"
+  approximate: true
+
+sources:
+  - url: https://www.trvlogue.com/en/heytea-shanghai-menu-guide
+    title: "Trvlogue: Heytea Shanghai, Shimao Plaza and New World City branches (updated 6 Oct 2026)"
+    checked: 2026-11-24
+  - url: https://biz.heraldcorp.com/article/10891998
+    title: "Korea Herald: Chagee, Heytea, Cha Bai Dao enter Korea with prices well above home-market levels (3 Oct 2026)"
+    checked: 2026-11-24
+  - url: https://www.heytea.com/stores?categoryId=cat-1776160514749
+    title: "heytea official site: heytea lab stores (Fengshengli Shanghai, centralwOrld Bangkok)"
+    checked: 2026-11-24
+  - url: https://www.digitaling.com/articles/1466422.html
+    title: "Digitaling: heytea lab 2.0 opens at Fengshengli, Shanghai; New World City store refitted (28 Feb 2026)"
+    checked: 2026-11-24
+  - url: https://english.shanghai.gov.cn/en-FirstStores/20260303/8b26181eff6b435ba5dd65db736aa0ab.html
+    title: "Shanghai government: Heytea opens first Lab 2.0 store in Shanghai (3 Mar 2026)"
+    checked: 2026-11-24
+  - url: https://www.sznews.com/news/content/2026-07/06/content_32112920.htm
+    title: "Shenzhen News: Heytea DIY drinks in the mini-program (6 Jul 2026)"
+    checked: 2026-11-24
+  - url: https://www.citynewsservice.cn/service/Explainer-Your-guide-to-WeChat--Alipay-mini-program-translation-tools-7krgxdm5
+    title: "City News Service: WeChat and Alipay mini-program translation tools (4 Jun 2025)"
+    checked: 2026-11-24
+  - url: https://english.shanghai.gov.cn/en-PaymentMethods/20240313/6f4e58272f1a4cea9aec59c518915bdf.html
+    title: "Shanghai government: Payment methods for foreigners"
+    checked: 2026-11-24
+  - url: https://www.heytea.com/stores?categoryId=cat-1776160522978
+    title: "heytea official site: teabar stores (Sanlitun Taikoo Li, Beijing)"
+    checked: 2026-11-24
+  - url: https://en.wikipedia.org/wiki/Shanghai
+    title: "Shanghai — Wikipedia (climate table: December mean 5.3–11.3 °C)"
+    checked: 2026-11-24
+  - url: https://en.wikipedia.org/wiki/HeyTea
+    title: "HeyTea — Wikipedia"
+    checked: 2026-11-24
+  - url: https://www.thestandard.com.hk/finance/article/227174/HeyTea-freezes-expansion-amid-price-war-fierce-competition
+    title: "The Standard: HeyTea freezes expansion amid price war (10 Feb 2025)"
+    checked: 2026-11-24
+confidence: medium
+confidence_note: "Prices are China list prices from the Korea Herald (Oct 2026), not this branch's menu; matching its English names to the Chinese menu names is ours. Hours come from a 2026 blog quoting Amap. Not verified: a counter till, an English menu, hot options per drink, and stores in Xi'an, Chongqing and Zhangjiajie. The pin is the mall, not the shop."
+last_updated: 2026-11-24
+
+blocks:
+  - type: hero
+    image: nanjing-road-night
+    focus: center
+    caption: "Nanjing Road looking toward New World City; no free photo of this branch exists"
+    hook: Cheese foam, chewy grape pulp and brown sugar pearls from the shop that set off China's tea-shop boom.
+  - type: quick_facts
+    time_needed: 20–40 min
+    best_time: Mid-morning or a weekday afternoon
+    extra:
+      - { label: Order, value: Alipay or WeChat QR, detail: Scan the code at the entrance or on the menu }
+      - { label: Boba pick, value: 烤黑糖波波牛乳, detail: "Roasted Brown Sugar Bobo Milk, ¥19" }
+  - type: highlights
+    items:
+      - title: The original new-style tea
+        text: "HeyTea opened in **2012** in Jiangmen, Guangdong, as Royal Tea. Its signature is **cheese-foam tea**: a cap of Anchor cheese, milk, cream and salt."
+      - title: Real boba
+        text: "**Roasted Brown Sugar Bobo Milk** (烤黑糖波波牛乳) is the pearl drink: ¥19 in China, against 7,500 won (about ¥38) in Seoul."
+      - title: Two ground-floor shops, one block apart
+        text: "New World City has the bigger room with more seats and more staff. The **Shimao Plaza** branch, a 3–4 minute walk down Nanjing Road East, is smaller and hard to sit in."
+      - title: Build your own cup
+        text: "A DIY option in the mini-program lets you pick tea base, milk, fruit, toppings, temperature and sweetness (one 500 ml size). It was rolling out store by store in 2026, so it may not be offered here."
+  - type: prose
+    title: Which HeyTea, and how it compares
+    text: |-
+      HeyTea is everywhere: over 4,000 shops, mostly in China. Go to New World City because it is on the way to everything near People's Square and has room to sit.
+
+      If you want the version you can only get here, the **heytea lab** at **Feng Sheng Li** (丰盛里, 259 North Maoming Road, Jing'an) opened on 28 Feb 2026, the first Lab 2.0 in China. It has tea, cake, gelato and bakery counters and Shanghai-only drinks such as the **Yanlan Chongming Rice Brew** (岩兰·崇明米酿). Whether it also pours the standard boba menu is not confirmed.
+
+      Rivals in one line: **Chagee** sells jasmine milk tea at about ¥20, and **Mixue** undercuts everyone (¥7 lemonade in a 2025 report). HeyTea sits in the middle: fruit and cheese-foam teas, plus one proper pearl drink.
+
+      Beyond Shanghai, HeyTea's own site lists a **Sanlitun teabar in Beijing**, and its Chengdu Raffles store was refitted in Feb 2026 (Digitaling), so you can drink it again later in China. In Thailand it has a **heytea lab at centralwOrld**, Bangkok, its first in the country (opened 25 Sep 2026).
+  - type: gallery
+    feature: false
+    images:
+      - file: heytea-drinks
+        caption: Three HeyTea cups in Shenzhen; the middle one has brown sugar pearls
+      - file: mango-drink
+        caption: A HeyTea mango drink with sago
+        focus: center
+  - type: menu
+    title: What to order
+    items:
+      - name: Roasted Brown Sugar Bobo Milk
+        name_local: 烤黑糖波波牛乳
+        price_local: 19
+        price_brl: 16.73
+        note: The tapioca-pearl drink. Milk with roasted brown sugar boba.
+        tag: must-try
+      - name: Juicy Grape / Crisp Grape Boom
+        name_local: 多肉葡萄
+        price_local: 18
+        price_brl: 15.85
+        note: "The grape signature, with real pulp; no pearls. 芝士多肉葡萄 adds the cheese-foam cap."
+        tag: signature
+      - name: Coconut Mango
+        name_local: 芒芒甘露
+        price_local: 15
+        price_brl: 13.21
+        note: "Coconut, mango and milk; a 2026 reviewer's favourite. No tapioca pearls."
+        tag: signature
+    note: "Prices are China list prices reported in Oct 2026; this branch's menu may differ by a yuan or two. Show the Chinese name if the translated menu confuses you."
+  - type: cost_breakdown
+    items:
+      - { label: Roasted Brown Sugar Bobo Milk, local: 19, brl: 16.73 }
+      - { label: A second drink (Coconut Mango), local: 15, brl: 13.21, optional: true }
+  - type: map
+    note: "Ground floor of New World City, at the People's Square end of Nanjing Road. Search **喜茶 新世界城** in Amap."
+  - type: tips
+    variant: insider
+    items:
+      - "**How to order**: open Alipay, scan the QR code at the entrance or on the menu, order in the HeyTea mini-program, then watch the screen for your number and collect at the counter."
+      - "**English**: in Alipay, turn on Me > Settings > General > Translation Tool to get a floating translate button inside the mini-program. In WeChat, use the three-dot menu > Translation."
+      - "**Foreign card**: Alipay and WeChat Pay both accept a linked international bank card (limit US$5,000 per payment); set it up before you leave Brazil."
+      - "**Sugar**: regulars ask for 少少甜 or 少少少甜 (less and even less sweet). Look for the hot (热) option in winter; we could not confirm which drinks offer it."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "At peak times both Nanjing Road branches were slow to hand over drinks, even at New World City with twice the staff. Budget for a wait after you pay, and grab a seat while you watch the number screen."
+  - type: weather
+    temp_low_c: 5
+    temp_high_c: 11
+    conditions: "December averages: cool, damp, often grey"
+    note: "The shop is indoors in a mall. A hot milk tea is the point on a grey Nanjing Road walk."
+    wear: Jacket and layers
+  - type: pairs_well
+    items:
+      - id: peoples-park-marriage-market
+        note: Across the road in People's Park; take your tea with you.

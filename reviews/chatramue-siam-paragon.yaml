@@ -1,0 +1,39 @@
+# Independent review of chatramue-siam-paragon. Written by `./atr review`; do not edit by hand.
+id: chatramue-siam-paragon
+type: place
+reviewed: 2026-11-24
+verdict: fix
+content_hash: 6cd738f57dfef1d8b3095399921d0d1aa93be417f29536937a2cfa9222eb9633
+facts:
+  supported: 17
+  unsupported: 4
+  contradicted: 0
+issues:
+  - severity: should
+    field: location.address
+    problem: The page sends the traveler only to a G-floor counter, but the brand's own branch list names just one Paragon branch, on the 3rd floor. Only Wongnai lists the G-floor counter (as 'สาขา2', latest review 8 May 2026), and its heading gives a different zone ('The Gourmet Garden'). The page body never mentions the 3rd-floor branch; only confidence_note does.
+    evidence: 'https://www.cha-thai.com/content/25141/ (read with ./atr render; WebFetch hit too many redirects): "สยามพารากอน สาขา 1 ชั้น 3", no G-floor Paragon entry. Wongnai 276685CV: "ชาตรามือ สาขา2 ชั้น G โซน ฟู้ดคอร์ด Siam Paragon ร้านอยู่ติดกับ Potato corner"'
+    fix: Name the official 3rd-floor branch as a fallback in the prose and map note, so the traveler isn't stuck if the G-floor counter has closed.
+  - severity: should
+    field: blocks[4].items[6].price_local
+    problem: The ฿45 Thai-tea soft serve price comes from a Terminal 21 review dated April 2017. No current menu shows a price, but the highlights block states 'around ฿45' with no caveat.
+    evidence: 'https://www.wongnai.com/restaurants/197012KD-… — only price is a 28 เม.ย. 2017 review: "ถ้วยกับโคนราคาเดียวกันค่ะ 45 บาท"; https://www.cha-thai.com/recommendedmenu lists ซอฟต์เสิร์ฟชาไทย with no price'
+    fix: Say on the menu note and in the highlight that ฿45 is a 2017 price and may be higher now, or find a current price.
+  - severity: nit
+    field: location.nearest_transit
+    problem: BTS Siam 'Exit 3' is plausible, but no listed source says it.
+    evidence: Not in any listed source
+    fix: Cite a BTS or Siam Paragon page for the exit, or just say 'BTS Siam (skywalk into the mall)'.
+  - severity: nit
+    field: blocks[9].items[2]
+    problem: "'Pay with cash' and 'the QR is Thai QR for Thai banking apps' are not in any source. Wongnai only lists credit cards, and the Commons photo only shows QR payment."
+    evidence: 'Wongnai 276685CV: "รับบัตรเครดิต"; no cash/QR detail'
+    fix: Keep 'cards accepted (Wongnai)' and mark the cash and foreign-QR points as unverified.
+  - severity: nit
+    field: blocks (page render)
+    problem: I couldn't check the page visually. `./atr shot --only phone --theme light` hung for more than 12 minutes behind several other shot jobs running at the same time, so the hero, layout and overflow went unchecked.
+    evidence: ./atr shot chatramue-siam-paragon produced no output before it was stopped
+    fix: Re-run the phone and desktop shots once the shot queue is free.
+summary: Hours (daily 10:00–21:30), drink prices (฿45/฿55), the ฿10 pearl topping, the history, the MBK 7F and Chiang Mai branches, the sweetness tips and the weather all check out against the sources. Before this passes, the page should also point to the brand's official 3rd-floor Paragon branch next to the Wongnai-only G-floor counter, and flag the soft-serve price as a 2017 figure. The screenshot check could not run.
+model: claude-opus-5-5
+cost_usd: 0.899

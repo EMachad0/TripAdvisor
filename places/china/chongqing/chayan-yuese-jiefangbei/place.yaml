@@ -1,0 +1,174 @@
+id: chayan-yuese-jiefangbei
+name: "Chayan Yuese, Bayi Road (Jiefangbei)"
+short_name: Chayan Yuese
+name_local: 茶颜悦色（八一路好吃街店）
+name_romanized: Chá Yán Yuè Sè
+country: china
+city: chongqing
+area: Yuzhong · Jiefangbei
+category: food
+fame: hidden
+tags: [milk-tea, tea, cheap, chain, hunan]
+kind: Eat
+why: "Changsha's cult milk tea: whipped cream and crushed pecans on black tea and milk, about ¥18. Chongqing is one of the few cities outside Hunan that has it."
+cost:
+  local: 18
+  currency: CNY
+  brl: 15.85
+  note: "One Orchid Latte (幽兰拿铁): ¥18 in a 2025 Chongqing review; most cups ¥15–20"
+fx: { rate: 0.8807, date: 2026-11-24, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: 15–30 min
+best_time: An afternoon break between Jiefangbei sights
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily 09:00–24:00 (UTC+8) per Baidu Maps; check the 茶颜悦色 mini-program before you go"
+  winter: "No Dec–Jan closures or holiday hours found for the Chongqing shops. Most drinks come hot or iced; 凤栖绿桂 is iced only."
+
+location:
+  address: "168 Bayi Road food street, street-front shop beside the Yudu Building entrance, Yuzhong, Chongqing"
+  address_local: 重庆市渝中区八一路好吃街168号临街商铺（渝都大厦入口旁）
+  lat: 29.55892
+  lng: 106.57407
+  nearest_transit: "Jiefangbei: Xiaoshizi (Line 1/6) or Jiaochangkou (Line 1/2), 5–10 min walk"
+  approximate: true
+
+sources:
+  - url: "https://map.baidu.com/?qt=s&wd=%E8%8C%B6%E9%A2%9C%E6%82%A6%E8%89%B2%E5%85%AB%E4%B8%80%E8%B7%AF&c=132"
+    title: "Baidu Maps listing: 茶颜悦色(八一路好吃街店), address and hours 09:00–24:00"
+    checked: 2026-11-24
+  - url: "https://map.baidu.com/?qt=s&wd=%E8%8C%B6%E9%A2%9C%E6%82%A6%E8%89%B2%E6%B4%AA%E5%B4%96%E6%B4%9E&c=132"
+    title: "Baidu Maps listing: 茶颜悦色(洪崖洞店), hours, and a Jan 2025 review (¥18 a cup, queues, order verification)"
+    checked: 2026-11-24
+  - url: https://www.36kr.com/p/3791800373664772
+    title: "36Kr (2 May 2026): 茶颜悦色 store count, Wuhan 2020, Chongqing and Jiangsu 2022, Shenzhen 2026"
+    checked: 2026-11-24
+  - url: https://www.nbd.com.cn/articles/2026-04-21/4349713.html
+    title: "National Business Daily (21 Apr 2026): stores mainly in Hunan, Jiangsu, Hubei, Sichuan, Chongqing"
+    checked: 2026-11-24
+  - url: https://m.voc.com.cn/xhn/news/202604/32544790.html
+    title: "Xiaoxiang Morning Herald (Apr 2026): 茶颜悦色 opens at Zhangjiajie's Biaozhimen block"
+    checked: 2026-11-24
+  - url: https://pandaily.com/how-cha-yan-yue-se-made-it
+    title: "Pandaily (23 Jul 2025): how Cha Yan Yue Se made it"
+    checked: 2026-11-24
+  - url: https://m.maigoo.com/top/424828.html
+    title: "Maigoo (2026): 茶颜悦色 drink ranking with ingredients"
+    checked: 2026-11-24
+  - url: https://www.chinatravelplaces.com/chayan-yuese-cha-yan-yue-se-chinas-milk-tea-chain-and-what-to-order/
+    title: "China Travel Places (Nov 2026): Chayan Yuese and what to order"
+    checked: 2026-11-24
+  - url: https://www.chinatravelplaces.com/how-to-order-food-in-china-app/
+    title: "China Travel Places (updated 1 Nov 2026): ordering food and Alipay with a foreign card"
+    checked: 2026-11-24
+  - url: https://news.10jqka.com.cn/20260422/c676182831.shtml
+    title: "Beijing Business Today via 10jqka (22 Apr 2026): Shenzhen opening, 2+ hour queues, 2-cup limit"
+    checked: 2026-11-24
+  - url: https://en.wikipedia.org/wiki/Chongqing#Climate
+    title: Chongqing climate table — Wikipedia
+    checked: 2026-11-24
+confidence: medium
+confidence_note: "The pin is the Bayi Road food street, not the shopfront. The ¥18 price is one Jan 2025 Baidu review plus a ¥15–20 range in a 2026 guide; no menu photo of this shop. No source says outright there are no pearls; none of the 2026 menus we read lists them. English labels in the app: one guide, untested. Pandaily loads only in a browser. The HeyTea/Chagee line is our own view."
+last_updated: 2026-11-24
+
+blocks:
+  - type: hero
+    image: street-kiosk
+    caption: "A Changsha street kiosk in 2024; no free photo of the Chongqing shops exists"
+    hook: Ink-painting cups, a cap of cream and pecans, and a decade of people queueing for it in Changsha.
+  - type: quick_facts
+    time_needed: 15–30 min
+    best_time: Afternoon, between Jiefangbei sights
+    extra:
+      - { label: Pearls?, value: "No tapioca", detail: "Cream and nuts instead; 烟花易冷 has taro balls and red beans" }
+      - { label: How to order, value: Alipay mini-program, detail: "Search 茶颜悦色, order, show the code at the counter" }
+      - { label: Hot drinks, value: Yes, detail: "Most come hot or iced; 凤栖绿桂 is iced only" }
+  - type: highlights
+    items:
+      - title: The Orchid Latte
+        text: "**幽兰拿铁**: black tea and milk under a cap of whipped cream and crushed pecans. The drink everyone orders first."
+      - title: Cream first, then stir
+        text: "Pandaily (2025) says staff suggest the cream and nuts first, then a stir; Maigoo says eat the top with the straw, then mix the rest."
+      - title: Not bubble tea, honestly
+        text: "There are **no tapioca pearls** on the 2026 menus we read. The chewy one is **烟花易冷**, with red beans and taro balls."
+      - title: The queue legend, without the queue
+        text: "Wuhan queued for hours in 2020 and Shenzhen for 2+ hours in April 2026. Chongqing has had shops since 2022; a 2025 review says there are plenty, and that most have a queue."
+  - type: prose
+    title: Why people care
+    dropcap: true
+    text: |-
+      Chayan Yuese started in Changsha in 2013 and for its first seven years stayed mostly inside Hunan. The cups and shops borrow from Song-dynasty painting, and the drinks have poem names. People took the high-speed train to Changsha just to try one, and when the first shop outside Hunan opened in Wuhan in 2020, the lines ran for hours.
+
+      It still does not franchise and grows slowly: 700 to 900+ shops in 2026 depending on who counts, more than half in Hunan. Outside the province it is in only a few places (Wuhan, Chongqing, Jiangsu, Sichuan, and Shenzhen since 2026). On this trip, Chongqing and Zhangjiajie are the confirmed stops that have it.
+
+      Does it live up to it? A Chongqing reviewer in 2025 loved the cream top and found the tea under it "nothing special" for ¥18 in a small cup. Order it once, for the cream-and-pecan top. Next to it, Chagee is plain tea and milk and HeyTea leans on fruit teas: different drinks, not better or worse.
+  - type: gallery
+    images:
+      - file: snow-orange-isle
+        caption: The Orange Isle shop in Changsha after snow, December 2021
+      - file: mall-queue
+        caption: A queue at a Changsha mall branch, 2021
+      - file: counter
+        caption: The wood-lattice counter of a Changsha branch, 2021
+  - type: menu
+    items:
+      - name: Orchid Latte
+        name_local: 幽兰拿铁
+        price_local: 18
+        price_brl: 15.85
+        note: "Black tea, milk, whipped cream, crushed pecans. ¥18 in Chongqing (2025 review)."
+        tag: signature
+      - name: Singing Oolong
+        name_local: 声声乌龙
+        note: "Oolong with peach and milk. Price not confirmed for 2026; most cups are ¥15–20."
+        tag: must-try
+      - name: Guihua Nong (osmanthus)
+        name_local: 桂花弄
+        note: Osmanthus oolong with milk, cream and nuts. Price not found for 2026.
+        tag: drink
+      - name: Zhengzheng Zhiyuan
+        name_local: 筝筝纸鸢
+        note: Oolong-forward milk tea. Price not found for 2026.
+        tag: drink
+      - name: Yanhua Yileng
+        name_local: 烟花易冷
+        note: "Oolong milk tea with red beans and taro balls: the closest thing to a chewy 'bubble' drink."
+        tag: drink
+    note: "Order in the **茶颜悦色 mini-program** inside Alipay or WeChat; ask for less sugar (少糖) if you don't like it very sweet."
+  - type: cost_breakdown
+    items:
+      - { label: Orchid Latte (幽兰拿铁), local: 18, brl: 15.85 }
+      - { label: A second cup to compare, local: 18, brl: 15.85, optional: true }
+  - type: map
+    note: "Show the taxi driver 渝都大厦 on Bayi Road food street. The **洪崖洞店** at 嘉滨路86号 is the backup at Hongyadong: 10:00–24:00 Mon–Thu, 09:00–24:00 Fri–Sun (UTC+8)."
+  - type: tips
+    variant: insider
+    items:
+      - "**Order in Alipay**: switch Alipay to English, link your foreign card, search **茶颜悦色** and open its mini-program. One guide says the app shows English labels; at the counter, pointing at the picture menu works too."
+      - "Orders are checked in person: you show the code, then wait for your drink. Expect to stand in line twice when it is busy."
+      - "In winter say **热的** (hot). Pick **少糖** (less sugar) or **半糖** (half) if you don't like it very sweet."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Looking for tapioca pearls? This is the wrong shop: look for 珍珠 (pearls) on another shop's menu. Come here for the cream-topped teas."
+      - "Don't stir straight away: eat the cream and pecans with the straw first, then stir the rest, as staff and guides suggest."
+      - "Busy openings cap orders (2 drinks per person in Shenzhen, 2026). Don't plan on carrying a tray back for the hostel."
+  - type: faq
+    items:
+      - q: "I want bubble tea. Are there famous ones I should check?"
+        a: "Chayan Yuese is the cult one from Changsha, and on your route it is in **Chongqing** (Bayi Road and Hongyadong shops on Baidu Maps) and **Zhangjiajie** (Biaozhimen at the Wulingyuan gate, opened April 2026). Note that it is cream-topped milk tea, **not tapioca-pearl** bubble tea. Order the Orchid Latte (幽兰拿铁, about ¥18)."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Cool, damp, grey
+    note: "A hot milk tea is the right drink for a damp Chongqing afternoon. This branch is a street-front shop, so expect to wait in the open air."
+    wear: Warm layers and a light waterproof jacket
+  - type: pairs_well
+    items:
+      - id: huashi-wanza-mian
+        note: Jiefangbei area; noodles first, tea after
+      - id: hongyadong-qiansimen-night-walk
+        note: The Hongyadong walk; the 洪崖洞店 branch is on Jiabin Road

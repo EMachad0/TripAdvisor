@@ -1,0 +1,25 @@
+# Independent review of heytea-shanghai. Written by `./atr review`; do not edit by hand.
+id: heytea-shanghai
+type: place
+reviewed: 2026-11-24
+verdict: pass
+content_hash: 23aa42f7a5379e0f937f546c41ccd8b2240f7ba18f0df932bc12385463692612
+facts:
+  supported: 8
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: location.address
+    problem: No listed source gives the street number "2-68 West Nanjing Road". Trvlogue gives only the Amap name 喜茶(上海新世界城店) and "first floor", and the pin is flagged approximate.
+    evidence: 'The street number is gone. address_local now uses the Amap name 喜茶(上海新世界城店) plus 新世界城1楼, which matches Trvlogue (https://www.trvlogue.com/en/heytea-shanghai-menu-guide: "Chinese Name: 喜茶(上海新世界城店)", first floor). The pin is still flagged approximate.'
+  - field: blocks[3].text
+    problem: "Two claims have no source: Mixue's \"¥7 lemonade\" (the Korea Herald article never mentions Mixue) and the \"queues of over 5 hours\" on the Fengshengli lab's opening day (neither Digitaling nor the Shanghai government page mentions a queue)."
+    evidence: 'The 5-hour queue claim and its pitfall tip were removed. The Mixue price is now dated to 2025 and supported by the listed source https://www.thestandard.com.hk/finance/article/227174/HeyTea-freezes-expansion-amid-price-war-fierce-competition: "Mixue Bingcheng, which sells ice cream for 3 yuan and lemonade for 7 yuan".'
+  - field: blocks[3].text
+    problem: "No source supports the Sanlitun teabar in Beijing or the Chengdu Raffles refit. The cited heytea.com page, once rendered, lists only lab stores: Bangkok, Shenzhen, Fengshengli, Toronto and New York."
+    evidence: https://www.heytea.com/stores?categoryId=cat-1776160522978 (rendered) lists "Black Gold Ink Bamboo｜teabar (Sanlitun Taikoo Li Black Store, Beijing, China)". https://www.digitaling.com/articles/1466422.html says "今年2月以来…完成了…成都来福士店、上海新世界城店等…门店的集体焕新", which supports the Chengdu Raffles refit around Feb 2026.
+rereview_of: 2f1bb5341666da586b0de0c7a586959effbf9c0910f23d03db03aa3337c4d0b7
+summary: "All three earlier findings are resolved. The street number is gone in favour of the sourced Amap name, the queue claim was cut, the Mixue ¥7 lemonade price now cites The Standard (2025), and the Sanlitun teabar and the Chengdu Raffles refit are backed by heytea.com and Digitaling. The changed lines also match their sources: the 5/11 °C December weather, the US$5,000 limit for a linked international card, and the DIY option rolling out store by store. ./atr validate passes, but the phone screenshot returned no output within 240 s, so the layout was not inspected."
+model: claude-opus-5-5
+cost_usd: 0.671
