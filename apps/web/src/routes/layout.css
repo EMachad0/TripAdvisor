@@ -397,6 +397,10 @@
 	width: 100%;
 	max-width: 104rem;
 }
+/* A grid of two rows where the second takes the slack: an item spanning both never stretches the first. */
+@utility rows-top {
+	grid-template-rows: auto 1fr;
+}
 @utility page-narrow {
 	margin-inline: auto;
 	width: 100%;

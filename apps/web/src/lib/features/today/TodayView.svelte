@@ -128,6 +128,7 @@
 	const here = $derived(cityCards(places, m.cities));
 	const stayLabel = $derived(stayName(m.stay));
 	const answers = $derived(app.content.answers);
+	const hasBook = $derived(m.phase === 'before' || m.phase === 'during');
 	// The places group (dated cards, Musts) shows during the trip, or before it when something dated is ahead.
 	const hasPlaces = $derived(m.phase === 'during' || m.upcoming.length > 0);
 
@@ -265,8 +266,9 @@
 			the Musts here) and the latest answers. The next flight leads before the trip and from the day before it
 			leaves; on other trip days where you are leads.
 			Phone: one column (now, book ahead, places, to do, answers). Fold: the same, to do and answers side by side.
-			MacBook: now and to do beside book ahead, then places beside answers. Monitor: three columns (now and to do,
-			book ahead, places and answers).
+			MacBook: two columns, now, to do and answers beside book ahead and places. Monitor: three (now and to do,
+			book ahead, places and answers). The second grid row takes the slack (rows-top), so a tall column never
+			pushes a gap into its neighbour.
 		-->
 		{#snippet flight()}
 			<Block title="Next flight" testid="next-flight" icon={PlaneIcon}>
@@ -290,9 +292,11 @@
 		{/snippet}
 
 		<div
-			class="grid gap-x-8 gap-y-10 md:grid-cols-2 md:items-start xl:gap-x-10 3xl:grid-cols-3 3xl:gap-x-12"
+			class="grid gap-x-8 gap-y-10 md:grid-cols-2 md:items-start xl:rows-top xl:gap-x-10 3xl:grid-cols-3 3xl:gap-x-12"
 		>
-			<div class="contents xl:flex xl:min-w-0 xl:flex-col xl:gap-10">
+			<div
+				class="contents xl:col-start-1 xl:row-start-1 xl:flex xl:min-w-0 xl:flex-col xl:gap-10 3xl:row-span-2"
+			>
 				<div class="order-1 flex min-w-0 flex-col gap-10 md:col-span-2 xl:order-none">
 					{#if flightFirst}{@render flight()}{/if}
 					{#if m.stay}
@@ -333,7 +337,7 @@
 				</div>
 
 				{#if m.tasksTotal > 0}
-					<div class="order-4 min-w-0 xl:order-none">
+					<div class={cn('order-4 min-w-0 xl:order-none', answers.length === 0 && 'md:col-span-2')}>
 						<Block
 							title="To do"
 							small={`${String(m.tasks.length)} open of ${String(m.tasksTotal)}`}
@@ -401,33 +405,41 @@
 				{/if}
 			</div>
 
-			{#if m.phase === 'before' || m.phase === 'during'}
-				<div class="order-2 min-w-0 md:col-span-2 xl:order-none xl:col-span-1">
-					<Block
-						title="Book ahead"
-						small={dueBooks > 0 ? `${String(dueBooks)} to book now` : undefined}
-						testid="book-ahead"
-						icon={CalendarClockIcon}
-					>
-						<BookAhead
-							items={toBook}
-							{canEdit}
-							onopenleg={(id: string) => {
-								if (canEdit) form = { col: 'legs', id };
-								else void goto(resolve('/(app)/trip/itinerary'));
-							}}
-							onopenplace={openPlace}
-							onbooked={canEdit ? (id: string) => void markBooked(id) : undefined}
-						/>
-					</Block>
-				</div>
-			{/if}
+			{#if hasBook || hasPlaces}
+				<div
+					class="contents xl:col-start-2 xl:row-span-2 xl:row-start-1 xl:flex xl:min-w-0 xl:flex-col xl:gap-10 3xl:contents"
+				>
+					{#if hasBook}
+						<div
+							class="order-2 min-w-0 md:col-span-2 xl:order-none 3xl:col-span-1 3xl:col-start-2 3xl:row-span-2 3xl:row-start-1"
+						>
+							<Block
+								title="Book ahead"
+								small={dueBooks > 0 ? `${String(dueBooks)} to book now` : undefined}
+								testid="book-ahead"
+								icon={CalendarClockIcon}
+							>
+								<BookAhead
+									items={toBook}
+									{canEdit}
+									onopenleg={(id: string) => {
+										if (canEdit) form = { col: 'legs', id };
+										else void goto(resolve('/(app)/trip/itinerary'));
+									}}
+									onopenplace={openPlace}
+									onbooked={canEdit ? (id: string) => void markBooked(id) : undefined}
+								/>
+							</Block>
+						</div>
+					{/if}
 
-			{#if hasPlaces || answers.length > 0}
-				<div class="contents 3xl:flex 3xl:min-w-0 3xl:flex-col 3xl:gap-10">
 					{#if hasPlaces}
 						<div
-							class="order-3 flex min-w-0 flex-col gap-10 md:col-span-2 xl:order-none xl:col-span-1"
+							class={cn(
+								'order-3 flex min-w-0 flex-col gap-10 md:col-span-2 xl:order-none 3xl:col-span-1 3xl:row-start-1',
+								hasBook ? '3xl:col-start-3' : '3xl:col-start-2',
+								answers.length === 0 && '3xl:row-span-2',
+							)}
 						>
 							{#if m.phase === 'during'}
 								<Block title="Only today, or ending soon" testid="only-today" icon={HourglassIcon}>
@@ -529,36 +541,46 @@
 							{/if}
 						</div>
 					{/if}
+				</div>
+			{/if}
 
-					{#if answers.length > 0}
-						<div class="order-5 min-w-0 xl:order-none">
-							<Block
-								title="Latest answers"
-								small={plural(answers.length, 'answer')}
-								testid="answers"
-								icon={MessageCircleQuestionIcon}
-							>
-								<div class="flex flex-col panel p-1.5">
-									<ul class="flex flex-col divide-y divide-border/70">
-										{#each answers.slice(0, 3) as a (a.id)}
-											<AnswerRow
-												answer={a}
-												href={answerHref(a.id)}
-												onopenabout={(kind: SheetTarget['kind'], id: string) => {
-													sheet = { kind, id };
-												}}
-											/>
-										{/each}
-									</ul>
-									<div class="mt-1 border-t border-border/70 pt-1">
-										<CardLink href={answersHref}
-											><b class="font-semibold text-foreground">All answers</b>, by country</CardLink
-										>
-									</div>
-								</div>
-							</Block>
+			{#if answers.length > 0}
+				<div
+					class={cn(
+						'order-5 min-w-0 xl:order-none xl:col-span-1',
+						m.tasksTotal === 0 && 'md:col-span-2',
+						hasBook || hasPlaces
+							? 'xl:col-start-1 xl:row-start-2'
+							: 'xl:col-start-2 xl:row-start-1',
+						hasBook ? '3xl:col-start-3' : '3xl:col-start-2',
+						hasPlaces ? '3xl:row-start-2' : '3xl:row-span-2 3xl:row-start-1',
+					)}
+				>
+					<Block
+						title="Latest answers"
+						small={plural(answers.length, 'answer')}
+						testid="answers"
+						icon={MessageCircleQuestionIcon}
+					>
+						<div class="flex flex-col panel p-1.5">
+							<ul class="flex flex-col divide-y divide-border/70">
+								{#each answers.slice(0, 3) as a (a.id)}
+									<AnswerRow
+										answer={a}
+										href={answerHref(a.id)}
+										onopenabout={(kind: SheetTarget['kind'], id: string) => {
+											sheet = { kind, id };
+										}}
+									/>
+								{/each}
+							</ul>
+							<div class="mt-1 border-t border-border/70 pt-1">
+								<CardLink href={answersHref}
+									><b class="font-semibold text-foreground">All answers</b>, by country</CardLink
+								>
+							</div>
 						</div>
-					{/if}
+					</Block>
 				</div>
 			{/if}
 		</div>
