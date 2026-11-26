@@ -17,7 +17,7 @@
 	import PlaneIcon from '@lucide/svelte/icons/plane';
 	import RouteIcon from '@lucide/svelte/icons/route';
 	import StarIcon from '@lucide/svelte/icons/star';
-	import { offsetOn, stayName, stepsOf, taskDates } from '@atr/shared/trip';
+	import { addDays, offsetOn, stayName, stepsOf, taskDates } from '@atr/shared/trip';
 	import { toast } from 'svelte-sonner';
 	import { goto } from '$app/navigation';
 	import { resolve } from '$app/paths';
@@ -119,10 +119,16 @@
 	const zones = $derived(clocks(m, ms, countries));
 	const k = $derived(m.today);
 	const moves = $derived(m.moves.filter((l) => l !== m.flight));
+	// The next flight leads the page before the trip, and during it from the day before it leaves.
+	const flightFirst = $derived(
+		m.flight !== null &&
+			(m.phase !== 'during' || (m.flight.start ?? '9999').slice(0, 10) <= addDays(k, 1)),
+	);
 	const happening = $derived([...m.onlyToday, ...m.endingSoon]);
 	const here = $derived(cityCards(places, m.cities));
 	const stayLabel = $derived(stayName(m.stay));
 	const answers = $derived(app.content.answers);
+	const hasBook = $derived(m.phase === 'before' || m.phase === 'during');
 	// The places group (dated cards, Musts) shows during the trip, or before it when something dated is ahead.
 	const hasPlaces = $derived(m.phase === 'during' || m.upcoming.length > 0);
 
@@ -256,196 +262,82 @@
 		{/if}
 
 		<!--
-			Three groups: now (where you are, moves, next flight), places (dated cards and the Musts here) and the
-			rest (tasks, answers). Phone: one column. Fold: now and places full width (the leg cards need the room), tasks and answers side by side.
-			MacBook: two columns, places on the right beside now and the rest. Monitor: the three side by side.
+			Five groups: now (next flight, where you are, today's moves), to do, book ahead, places (dated cards and
+			the Musts here) and the latest answers. The next flight leads before the trip and from the day before it
+			leaves; on other trip days where you are leads.
+			Phone: one column (now, book ahead, places, to do, answers). Fold: the same, to do and answers side by side.
+			MacBook: two columns, now, to do and answers beside book ahead and places. Monitor: three (now and to do,
+			book ahead, places and answers). The second grid row takes the slack (rows-top), so a tall column never
+			pushes a gap into its neighbour.
 		-->
+		{#snippet flight()}
+			<Block title="Next flight" testid="next-flight" icon={PlaneIcon}>
+				{#if m.flight}
+					<LegCard
+						leg={m.flight}
+						{legs}
+						{countries}
+						{places}
+						countdown={countdown(m.flight, legs, clock, pinned, ms)}
+						{onedit}
+						{ondetail}
+					/>
+				{:else}
+					<div class="rounded-2xl border border-dashed border-border px-4 py-4 text-sm">
+						<b class="block font-semibold">No flight ahead</b>
+						<span class="text-ink-3">Every flight in the itinerary has left.</span>
+					</div>
+				{/if}
+			</Block>
+		{/snippet}
+
 		<div
-			class="grid gap-x-8 gap-y-10 md:grid-cols-2 xl:items-start xl:gap-x-10 3xl:grid-cols-3 3xl:gap-x-12"
+			class="grid gap-x-8 gap-y-10 md:grid-cols-2 md:items-start xl:rows-top xl:gap-x-10 3xl:grid-cols-3 3xl:gap-x-12"
 		>
 			<div
-				class="flex min-w-0 flex-col gap-10 md:col-span-2 xl:col-span-1 xl:col-start-1 xl:row-start-1"
+				class="contents xl:col-start-1 xl:row-start-1 xl:flex xl:min-w-0 xl:flex-col xl:gap-10 3xl:row-span-2"
 			>
-				{#if m.phase === 'before' || m.phase === 'during'}
-					<Block
-						title="Book ahead"
-						small={dueBooks > 0 ? `${String(dueBooks)} to book now` : undefined}
-						testid="book-ahead"
-						icon={CalendarClockIcon}
-					>
-						<BookAhead
-							items={toBook}
-							{canEdit}
-							onopenleg={(id: string) => {
-								if (canEdit) form = { col: 'legs', id };
-								else void goto(resolve('/(app)/trip/itinerary'));
-							}}
-							onopenplace={openPlace}
-							onbooked={canEdit ? (id: string) => void markBooked(id) : undefined}
-						/>
-					</Block>
-				{/if}
-
-				{#if m.stay}
-					<Block title="Where you are" testid="where" icon={MapPinnedIcon}>
-						<DayStatus
-							day={m.day}
-							country={m.country ?? undefined}
-							fallbackOffset={offsetOn(legs, k)}
-						/>
-						<LegCard leg={m.stay} {legs} {countries} {places} now {onedit} {ondetail} />
-					</Block>
-				{:else if m.day}
-					<Block title={pinned ? fmtDay(k) : 'Today'} testid="where" icon={MapPinnedIcon}>
-						<div class="panel px-4 py-4">
+				<div class="order-1 flex min-w-0 flex-col gap-10 md:col-span-2 xl:order-none">
+					{#if flightFirst}{@render flight()}{/if}
+					{#if m.stay}
+						<Block title="Where you are" testid="where" icon={MapPinnedIcon}>
 							<DayStatus
 								day={m.day}
 								country={m.country ?? undefined}
 								fallbackOffset={offsetOn(legs, k)}
 							/>
-						</div>
-					</Block>
-				{/if}
-
-				{#if moves.length > 0}
-					<Block title={`${pinned ? 'That day' : 'Today'}: moves`} testid="moves" icon={RouteIcon}>
-						<div class="flex flex-col gap-3">
-							{#each moves as l (l.id)}
-								<LegCard leg={l} {legs} {countries} {places} {onedit} {ondetail} />
-							{/each}
-						</div>
-					</Block>
-				{/if}
-
-				<Block title="Next flight" testid="next-flight" icon={PlaneIcon}>
-					{#if m.flight}
-						<LegCard
-							leg={m.flight}
-							{legs}
-							{countries}
-							{places}
-							countdown={countdown(m.flight, legs, clock, pinned, ms)}
-							{onedit}
-							{ondetail}
-						/>
-					{:else}
-						<div class="rounded-2xl border border-dashed border-border px-4 py-4 text-sm">
-							<b class="block font-semibold">No flight ahead</b>
-							<span class="text-ink-3">Every flight in the itinerary has left.</span>
-						</div>
-					{/if}
-				</Block>
-			</div>
-
-			{#if hasPlaces}
-				<div
-					class="flex min-w-0 flex-col gap-10 md:col-span-2 xl:col-span-1 xl:col-start-2 xl:row-span-2 xl:row-start-1 3xl:row-span-1"
-				>
-					{#if m.phase === 'during'}
-						<Block title="Only today, or ending soon" testid="only-today" icon={HourglassIcon}>
-							{#if happening.length > 0}
-								<ul class="flex flex-col gap-0.5 panel p-1.5">
-									{#each happening as x (x.place.id)}
-										<PlaceRow
-											place={x.place}
-											visited={visited.has(x.place.id)}
-											verdict={x.place.verdict}
-											note={x.place.note}
-											onopen={openPlace}
-											ontogglevisited={toggleVisited}
-										>
-											{#snippet when()}
-												<b class="font-semibold text-seal">{kindLabel(x)}</b>{elsewhere(x)}
-											{/snippet}
-										</PlaceRow>
-									{/each}
-								</ul>
-							{:else}
-								{@render emptyNote(
-									`Nothing with a date falls on ${pinned ? fmtDay(k) : 'today'} in ${or(
-										countryName(m.country, countries),
-										'this stop',
-									)}.`,
-								)}
-							{/if}
+							<LegCard leg={m.stay} {legs} {countries} {places} now {onedit} {ondetail} />
 						</Block>
-					{/if}
-
-					{#if m.upcoming.length > 0}
-						<Block title="Next events you could go to" testid="upcoming" icon={CalendarDaysIcon}>
-							<ul class="flex flex-col gap-0.5 panel p-1.5">
-								{#each m.upcoming as u (u.place.id)}
-									{@const w = upcomingWhen(u, k)}
-									<PlaceRow
-										place={u.place}
-										visited={visited.has(u.place.id)}
-										verdict={u.place.verdict}
-										note={u.place.note}
-										onopen={openPlace}
-									>
-										{#snippet when()}
-											<b class="font-semibold text-seal">{w.date}</b>{w.rest}
-										{/snippet}
-									</PlaceRow>
-								{/each}
-							</ul>
-							<p class="max-w-prose px-1 text-xs leading-relaxed text-ink-3">
-								Dated cards in a city you sleep in, or a day trip from it, on the days you are
-								there. Skipped cards and whole-season dates are left out.
-								<a
-									class="rounded-sm font-medium text-cat underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
-									href={resolve('/(app)/trip/calendar/[[date]]', {})}>Calendar →</a
-								>
-							</p>
-						</Block>
-					{/if}
-
-					{#if m.phase === 'during' && m.cities.length > 0}
-						<Block title={`Still to do in ${stayLabel}`} testid="musts" icon={StarIcon}>
-							<div class="flex flex-col panel p-1.5">
-								{#if m.musts.length > 0}
-									<ul class="flex flex-col gap-0.5">
-										{#each m.musts.slice(0, 6) as p (p.id)}
-											<PlaceRow
-												place={p}
-												visited={visited.has(p.id)}
-												verdict={p.verdict}
-												note={p.note}
-												showCity={m.cities.length > 1}
-												onopen={openPlace}
-												ontogglevisited={toggleVisited}
-											/>
-										{/each}
-									</ul>
-								{:else}
-									<p class="px-3 py-3 text-sm text-ink-3">
-										{here.must > 0 ? 'Every Must here is ticked.' : 'No Must cards in this city.'}
-									</p>
-								{/if}
-								<div class="mt-1 border-t border-border/70 pt-1">
-									<CardLink href={placesHref}
-										><b class="font-semibold text-foreground">All {plural(here.n, 'card')}</b> in {stayLabel}{m
-											.musts.length > 6
-											? ` · ${String(m.musts.length - 6)} more Must`
-											: ''}</CardLink
-									>
-								</div>
+					{:else if m.day}
+						<Block title={pinned ? fmtDay(k) : 'Today'} testid="where" icon={MapPinnedIcon}>
+							<div class="panel px-4 py-4">
+								<DayStatus
+									day={m.day}
+									country={m.country ?? undefined}
+									fallbackOffset={offsetOn(legs, k)}
+								/>
 							</div>
 						</Block>
 					{/if}
-				</div>
-			{/if}
 
-			{#if m.tasksTotal > 0 || answers.length > 0}
-				<div
-					class={cn(
-						'grid min-w-0 gap-10 md:col-span-2 md:grid-cols-2 md:items-start md:gap-8 xl:col-span-1 xl:grid-cols-1 xl:gap-10 3xl:row-start-1',
-						hasPlaces
-							? 'xl:col-start-1 xl:row-start-2 3xl:col-start-3'
-							: 'xl:col-start-2 xl:row-start-1',
-					)}
-				>
-					{#if m.tasksTotal > 0}
+					{#if moves.length > 0}
+						<Block
+							title={`${pinned ? 'That day' : 'Today'}: moves`}
+							testid="moves"
+							icon={RouteIcon}
+						>
+							<div class="flex flex-col gap-3">
+								{#each moves as l (l.id)}
+									<LegCard leg={l} {legs} {countries} {places} {onedit} {ondetail} />
+								{/each}
+							</div>
+						</Block>
+					{/if}
+					{#if !flightFirst}{@render flight()}{/if}
+				</div>
+
+				{#if m.tasksTotal > 0}
+					<div class={cn('order-4 min-w-0 xl:order-none', answers.length === 0 && 'md:col-span-2')}>
 						<Block
 							title="To do"
 							small={`${String(m.tasks.length)} open of ${String(m.tasksTotal)}`}
@@ -509,35 +401,186 @@
 								{@render emptyNote('Everything is ticked.')}
 							{/if}
 						</Block>
+					</div>
+				{/if}
+			</div>
+
+			{#if hasBook || hasPlaces}
+				<div
+					class="contents xl:col-start-2 xl:row-span-2 xl:row-start-1 xl:flex xl:min-w-0 xl:flex-col xl:gap-10 3xl:contents"
+				>
+					{#if hasBook}
+						<div
+							class="order-2 min-w-0 md:col-span-2 xl:order-none 3xl:col-span-1 3xl:col-start-2 3xl:row-span-2 3xl:row-start-1"
+						>
+							<Block
+								title="Book ahead"
+								small={dueBooks > 0 ? `${String(dueBooks)} to book now` : undefined}
+								testid="book-ahead"
+								icon={CalendarClockIcon}
+							>
+								<BookAhead
+									items={toBook}
+									{canEdit}
+									onopenleg={(id: string) => {
+										if (canEdit) form = { col: 'legs', id };
+										else void goto(resolve('/(app)/trip/itinerary'));
+									}}
+									onopenplace={openPlace}
+									onbooked={canEdit ? (id: string) => void markBooked(id) : undefined}
+								/>
+							</Block>
+						</div>
 					{/if}
 
-					{#if answers.length > 0}
-						<Block
-							title="Latest answers"
-							small={plural(answers.length, 'answer')}
-							testid="answers"
-							icon={MessageCircleQuestionIcon}
+					{#if hasPlaces}
+						<div
+							class={cn(
+								'order-3 flex min-w-0 flex-col gap-10 md:col-span-2 xl:order-none 3xl:col-span-1 3xl:row-start-1',
+								hasBook ? '3xl:col-start-3' : '3xl:col-start-2',
+								answers.length === 0 && '3xl:row-span-2',
+							)}
 						>
-							<div class="flex flex-col panel p-1.5">
-								<ul class="flex flex-col divide-y divide-border/70">
-									{#each answers.slice(0, 3) as a (a.id)}
-										<AnswerRow
-											answer={a}
-											href={answerHref(a.id)}
-											onopenabout={(kind: SheetTarget['kind'], id: string) => {
-												sheet = { kind, id };
-											}}
-										/>
-									{/each}
-								</ul>
-								<div class="mt-1 border-t border-border/70 pt-1">
-									<CardLink href={answersHref}
-										><b class="font-semibold text-foreground">All answers</b>, by country</CardLink
-									>
-								</div>
-							</div>
-						</Block>
+							{#if m.phase === 'during'}
+								<Block title="Only today, or ending soon" testid="only-today" icon={HourglassIcon}>
+									{#if happening.length > 0}
+										<ul class="flex flex-col gap-0.5 panel p-1.5">
+											{#each happening as x (x.place.id)}
+												<PlaceRow
+													place={x.place}
+													visited={visited.has(x.place.id)}
+													verdict={x.place.verdict}
+													note={x.place.note}
+													onopen={openPlace}
+													ontogglevisited={toggleVisited}
+												>
+													{#snippet when()}
+														<b class="font-semibold text-seal">{kindLabel(x)}</b>{elsewhere(x)}
+													{/snippet}
+												</PlaceRow>
+											{/each}
+										</ul>
+									{:else}
+										{@render emptyNote(
+											`Nothing with a date falls on ${pinned ? fmtDay(k) : 'today'} in ${or(
+												countryName(m.country, countries),
+												'this stop',
+											)}.`,
+										)}
+									{/if}
+								</Block>
+							{/if}
+
+							{#if m.upcoming.length > 0}
+								<Block
+									title="Next events you could go to"
+									testid="upcoming"
+									icon={CalendarDaysIcon}
+								>
+									<ul class="flex flex-col gap-0.5 panel p-1.5">
+										{#each m.upcoming as u (u.place.id)}
+											{@const w = upcomingWhen(u, k)}
+											<PlaceRow
+												place={u.place}
+												visited={visited.has(u.place.id)}
+												verdict={u.place.verdict}
+												note={u.place.note}
+												onopen={openPlace}
+											>
+												{#snippet when()}
+													<b class="font-semibold text-seal">{w.date}</b>{w.rest}
+												{/snippet}
+											</PlaceRow>
+										{/each}
+									</ul>
+									<p class="max-w-prose px-1 text-xs leading-relaxed text-ink-3">
+										Dated cards in a city you sleep in, or a day trip from it, on the days you are
+										there. Skipped cards and whole-season dates are left out.
+										<a
+											class="rounded-sm font-medium text-cat underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+											href={resolve('/(app)/trip/calendar/[[date]]', {})}>Calendar →</a
+										>
+									</p>
+								</Block>
+							{/if}
+
+							{#if m.phase === 'during' && m.cities.length > 0}
+								<Block title={`Still to do in ${stayLabel}`} testid="musts" icon={StarIcon}>
+									<div class="flex flex-col panel p-1.5">
+										{#if m.musts.length > 0}
+											<ul class="flex flex-col gap-0.5">
+												{#each m.musts.slice(0, 6) as p (p.id)}
+													<PlaceRow
+														place={p}
+														visited={visited.has(p.id)}
+														verdict={p.verdict}
+														note={p.note}
+														showCity={m.cities.length > 1}
+														onopen={openPlace}
+														ontogglevisited={toggleVisited}
+													/>
+												{/each}
+											</ul>
+										{:else}
+											<p class="px-3 py-3 text-sm text-ink-3">
+												{here.must > 0
+													? 'Every Must here is ticked.'
+													: 'No Must cards in this city.'}
+											</p>
+										{/if}
+										<div class="mt-1 border-t border-border/70 pt-1">
+											<CardLink href={placesHref}
+												><b class="font-semibold text-foreground">All {plural(here.n, 'card')}</b>
+												in {stayLabel}{m.musts.length > 6
+													? ` · ${String(m.musts.length - 6)} more Must`
+													: ''}</CardLink
+											>
+										</div>
+									</div>
+								</Block>
+							{/if}
+						</div>
 					{/if}
+				</div>
+			{/if}
+
+			{#if answers.length > 0}
+				<div
+					class={cn(
+						'order-5 min-w-0 xl:order-none xl:col-span-1',
+						m.tasksTotal === 0 && 'md:col-span-2',
+						hasBook || hasPlaces
+							? 'xl:col-start-1 xl:row-start-2'
+							: 'xl:col-start-2 xl:row-start-1',
+						hasBook ? '3xl:col-start-3' : '3xl:col-start-2',
+						hasPlaces ? '3xl:row-start-2' : '3xl:row-span-2 3xl:row-start-1',
+					)}
+				>
+					<Block
+						title="Latest answers"
+						small={plural(answers.length, 'answer')}
+						testid="answers"
+						icon={MessageCircleQuestionIcon}
+					>
+						<div class="flex flex-col panel p-1.5">
+							<ul class="flex flex-col divide-y divide-border/70">
+								{#each answers.slice(0, 3) as a (a.id)}
+									<AnswerRow
+										answer={a}
+										href={answerHref(a.id)}
+										onopenabout={(kind: SheetTarget['kind'], id: string) => {
+											sheet = { kind, id };
+										}}
+									/>
+								{/each}
+							</ul>
+							<div class="mt-1 border-t border-border/70 pt-1">
+								<CardLink href={answersHref}
+									><b class="font-semibold text-foreground">All answers</b>, by country</CardLink
+								>
+							</div>
+						</div>
+					</Block>
 				</div>
 			{/if}
 		</div>

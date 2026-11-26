@@ -8,12 +8,12 @@ and the rules every screen follows. Tokens and recipes live in `apps/web/src/rou
 
 The traveler uses exactly these four. Design for them, in this order of care.
 
-| # | Screen | Used for | Panel | CSS viewport (about) | Tailwind range | Input |
-|---|---|---|---|---|---|---|
-| 1 | Samsung Galaxy Z Fold 8 Ultra, **inner** screen | Showing the trip to other people. Must look the best. | 8.0 in, 2504 × 2256 px, about 422 ppi, 1.11:1, OLED 1 to 120 Hz, up to 3000 nits | 750 to 860 wide × 700 to 830 tall, DPR 2.6 to 3 | `md` to below `xl` | touch |
-| 2 | Samsung Galaxy Z Fold 8 Ultra, **cover** screen | Daily use on the trip, one hand, on the move | 6.5 in, 2520 × 1080 px, 21:9, OLED 1 to 120 Hz | 360 to 412 wide × 760 to 850 tall, DPR 2.6 to 3 | below `md` | touch |
-| 3 | MacBook Pro 14 in (M4) | On the go during the trip | 14.2 in, 3024 × 1964 px, 254 ppi, mini-LED 120 Hz, P3, notch | 1512 × about 860 (default scaling), DPR 2 | `xl` to below `3xl` | trackpad, keyboard |
-| 4 | 27 in 1440p 16:9 IPS monitor | Planning at home | 2560 × 1440 px, 109 ppi, sRGB, 60 Hz or more | 2560 × about 1300, DPR 1 | `3xl` | mouse, keyboard |
+| #   | Screen                                          | Used for                                              | Panel                                                                            | CSS viewport (about)                            | Tailwind range      | Input              |
+| --- | ----------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------- | ------------------- | ------------------ |
+| 1   | Samsung Galaxy Z Fold 8 Ultra, **inner** screen | Showing the trip to other people. Must look the best. | 8.0 in, 2504 × 2256 px, about 422 ppi, 1.11:1, OLED 1 to 120 Hz, up to 3000 nits | 750 to 860 wide × 700 to 830 tall, DPR 2.6 to 3 | `md` to below `xl`  | touch              |
+| 2   | Samsung Galaxy Z Fold 8 Ultra, **cover** screen | Daily use on the trip, one hand, on the move          | 6.5 in, 2520 × 1080 px, 21:9, OLED 1 to 120 Hz                                   | 360 to 412 wide × 760 to 850 tall, DPR 2.6 to 3 | below `md`          | touch              |
+| 3   | MacBook Pro 14 in (M4)                          | On the go during the trip                             | 14.2 in, 3024 × 1964 px, 254 ppi, mini-LED 120 Hz, P3, notch                     | 1512 × about 860 (default scaling), DPR 2       | `xl` to below `3xl` | trackpad, keyboard |
+| 4   | 27 in 1440p 16:9 IPS monitor                    | Planning at home                                      | 2560 × 1440 px, 109 ppi, sRGB, 60 Hz or more                                     | 2560 × about 1300, DPR 1                        | `3xl`               | mouse, keyboard    |
 
 Notes:
 
@@ -33,29 +33,29 @@ Notes:
 
 Set in `layout.css` to match the screens, not Tailwind's defaults:
 
-| Name | Min width | Meaning |
-|---|---|---|
-| (base) | 0 | Fold cover and other phones |
-| `sm` | 640 px | Rare: large phones in landscape. Do not design for it. |
-| `md` | **704 px** (not 768) | Fold inner screen. Lowered so the unfolded phone always gets this layout. |
-| `lg` | 1024 px | Tablets, small windows. Usually the same as `md`. |
-| `xl` | 1280 px | MacBook |
-| `2xl` | 1536 px | Rare. Do not rely on it: the MacBook at 1512 px is just below. |
-| `3xl` | **1920 px** | The monitor |
+| Name   | Min width            | Meaning                                                                   |
+| ------ | -------------------- | ------------------------------------------------------------------------- |
+| (base) | 0                    | Fold cover and other phones                                               |
+| `sm`   | 640 px               | Rare: large phones in landscape. Do not design for it.                    |
+| `md`   | **704 px** (not 768) | Fold inner screen. Lowered so the unfolded phone always gets this layout. |
+| `lg`   | 1024 px              | Tablets, small windows. Usually the same as `md`.                         |
+| `xl`   | 1280 px              | MacBook                                                                   |
+| `2xl`  | 1536 px              | Rare. Do not rely on it: the MacBook at 1512 px is just below.            |
+| `3xl`  | **1920 px**          | The monitor                                                               |
 
 Write classes for base, `md`, `xl` and `3xl`. Use container queries (`@container`, `@md:`) for a component that
 lives in columns of different widths.
 
 ### What each screen gets
 
-| | Cover (base) | Fold inner (`md`) | MacBook (`xl`) | Monitor (`3xl`) |
-|---|---|---|---|---|
-| Navigation | Slim top bar; floating glass tab bar at the bottom, above the safe-area inset | Icon rail on the left, 84 px | Sidebar with labels, 256 px | Same sidebar |
-| Columns | 1 | 2 where it helps; master and detail side by side | 2 or 3 | 3 or 4; no line of text longer than about 75 characters |
-| Page padding | 16 px | 24 px | 40 px | 56 px |
-| Tap targets | 44 px or more | 44 px or more | 32 px or more | 32 px or more |
-| Detail views | Bottom drawer or full page | Side sheet or second column | Second column or sheet | Second column, always visible if there is room |
-| Hover effects | none | none | yes | yes |
+|               | Cover (base)                                                                  | Fold inner (`md`)                                | MacBook (`xl`)              | Monitor (`3xl`)                                         |
+| ------------- | ----------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------- | ------------------------------------------------------- |
+| Navigation    | Slim top bar; floating glass tab bar at the bottom, above the safe-area inset | Icon rail on the left, 84 px                     | Sidebar with labels, 256 px | Same sidebar                                            |
+| Columns       | 1                                                                             | 2 where it helps; master and detail side by side | 2 or 3                      | 3 or 4; no line of text longer than about 75 characters |
+| Page padding  | 16 px                                                                         | 24 px                                            | 40 px                       | 56 px                                                   |
+| Tap targets   | 44 px or more                                                                 | 44 px or more                                    | 32 px or more               | 32 px or more                                           |
+| Detail views  | Bottom drawer or full page                                                    | Side sheet or second column                      | Second column or sheet      | Second column, always visible if there is room          |
+| Hover effects | none                                                                          | none                                             | yes                         | yes                                                     |
 
 The content area is everything right of the rail or sidebar. On the monitor that is about 2300 px: a single centred
 column wastes it. Use `page-wide` (max 104 rem) with a grid for boards, maps, dashboards and lists of cards; use
@@ -108,5 +108,5 @@ on unknown classes, and on restyling a `components/ui` component beyond layout c
 `*.variants.ts` instead, or use a plain element). So anything off the scale becomes a token or a `@utility` in
 `layout.css` first. The ones that exist: `text-2xs`, `text-3xs`, `panel`, `panel-lift`, `glass`, `eyebrow`, `nums`,
 `count`, `count-quiet`, `bg-accent-fill`, `shadow-flat`, `shadow-soft`, `shadow-big`, `shadow-inset`, `page`,
-`page-wide`, `page-narrow`, `pt-safe`, `pb-safe`, `bottom-safe`, `no-scrollbar`, `duel-stack-h`, `duel-pair-h`, `bottom-dock`, `deck-h`, `board-col-h`. Add
+`page-wide`, `page-narrow`, `pt-safe`, `pb-safe`, `bottom-safe`, `no-scrollbar`, `duel-stack-h`, `duel-pair-h`, `bottom-dock`, `deck-h`, `board-col-h`, `rows-top`. Add
 to the list when you add one.
