@@ -1,0 +1,178 @@
+id: tateishi-park-your-name-lake-view
+name: "Tateishi Park: the Your Name lake view"
+short_name: Tateishi Park
+name_local: 立石公園
+name_romanized: Tateishi Kōen
+country: japan
+city: suwa
+area: Kami-Suwa · Nagano
+category: views
+fame: hidden
+tags: [anime, your-name, viewpoint, sunset, night-view, free, day-trip, lake]
+kind: See
+why: "Fans' real-life Itomori Lake: Lake Suwa from the stepped terrace of Tateishi Park. Free, best at dusk, a day trip by bus from Shinjuku."
+
+cost:
+  local: 7000
+  currency: JPY
+  brl: 259.28
+  note: "Park is free. Cost is the Shinjuku–Kami-Suwa highway bus, web fare ¥3,500 each way"
+fx: { rate: 0.03704, date: 2026-11-25, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Full day from Tokyo, 1–1.5 h in park
+best_time: "Sunset to dusk, about 17:00–17:45 (UTC+9)"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Open-air city park with no gate or listed hours; no overnight stays. Toilets across the road from the park"
+  winter: "No winter closure listed by the city. Sunset times are in the quick facts. Suwa averages −5.5 °C at night with about 27 cm of snow in January, so the uphill walk and the terrace steps can be icy. The lake may be partly frozen; a full freeze is now rare."
+
+location:
+  address: "10399 Kamisuwa, Suwa, Nagano 392-0003"
+  address_local: 〒392-0003 長野県諏訪市上諏訪10399 立石公園
+  lat: 36.05338
+  lng: 138.1225
+  nearest_transit: "JR Kami-Suwa Station, about 30 min uphill on foot"
+
+sources:
+  - url: https://www.city.suwa.lg.jp/site/tateishipark/
+    title: "Suwa City official: Tateishi Park (location 1.5 km NE of the centre, sunset and night view, address)"
+    checked: 2026-11-26
+  - url: https://www.city.suwa.lg.jp/site/tateishipark/74822.html
+    title: "Suwa City official: access to Tateishi Park (30 min walk, taxi 15 min, Choisoko on-demand bus, 23-car park, congestion after 16:00)"
+    checked: 2026-11-26
+  - url: https://www.city.suwa.lg.jp/site/tateishipark/74820.html
+    title: "Suwa City official: park overview (viewing terrace, clock-tower lookout, toilets, no overnight stays)"
+    checked: 2026-11-26
+  - url: https://www.suwakanko.jp/tateishipark/
+    title: "Suwa Tourism Association: Tateishi Park (frozen lake in winter, toilets across the road, busiest at sunset)"
+    checked: 2026-11-26
+  - url: https://www.city.suwa.lg.jp/site/bus/66256.html
+    title: "Suwa City official: Choisoko Karin-chan on-demand bus (¥500, 08:00–16:00, registration needed)"
+    checked: 2026-11-26
+  - url: https://www.alpico.co.jp/traffic/express/suwa_shinjuku/
+    title: "Alpico Kotsu: Shinjuku–Suwa–Okaya highway bus timetable (2025-07-01 revision) and fares"
+    checked: 2026-11-26
+  - url: https://www.alpico.co.jp/traffic/datas/files/2023/01/27/cd8b5b71499bdde422a78b916b31d4bc7e1ff9b7.pdf
+    title: "Alpico Kotsu fare table PDF: Busta Shinjuku–Kami-Suwa Station ¥3,500 web, ¥3,800 at the counter"
+    checked: 2026-11-26
+  - url: https://www.suwakanko.jp/en/access
+    title: "Suwa Tourism Association (English): access, Shinjuku–Kamisuwa by Limited Express Azusa about 2.5 h"
+    checked: 2026-11-26
+  - url: https://www.go-nagano.net/en/trip-idea/id16505
+    title: "Go Nagano (official Nagano tourism): Things to do around Lake Suwa (Tateishi Park and Your Name, Katakurakan, Gokura breweries, Suwa Taisha)"
+    checked: 2026-11-26
+  - url: https://ciatr.jp/topics/323228
+    title: "ciatr (Japanese, updated 2023-02-21): Your Name locations, Itomori Lake and Lake Suwa, Ketawakamiya Shrine stairs"
+    checked: 2026-11-26
+  - url: https://en.wikipedia.org/wiki/Your_Name
+    title: "Your Name on Wikipedia: Itomori is fictional, inspired by Hida (Gifu)"
+    checked: 2026-11-26
+  - url: https://en.japaholic.com/a-must-visit-for-your-name-fans-tateishi-park/
+    title: "Japaholic (Nov 2025): Tateishi Park for Your Name fans, amphitheatre-like seating, open 24 hours"
+    checked: 2026-11-26
+  - url: https://www.navitime.co.jp/category/0101002/20206/
+    title: "NAVITIME listing: Tateishi Park, admission free, no closing days"
+    checked: 2026-11-26
+  - url: https://en.wikipedia.org/wiki/Suwa,_Nagano
+    title: "Suwa, Nagano on Wikipedia: JMA climate normals 1991–2020 (January)"
+    checked: 2026-11-26
+  - url: https://en.wikipedia.org/wiki/Lake_Suwa
+    title: "Lake Suwa on Wikipedia: freezing has become rare, last omiwatari 2018"
+    checked: 2026-11-26
+  - url: https://sunrise-sunset.org/search?location=Suwa%2C+Nagano%2C+Japan
+    title: "Sunrise-sunset.org: Suwa sunset and dusk times (times on the page computed with ./atr sun for 21 Jan – 4 Feb 2027)"
+    checked: 2026-11-26
+confidence: medium
+confidence_note: "Itomori is fictional. Shinkai cited Koumi's Matsubara and Otsuki lakes; the Suwa link is a resemblance from fans and Nagano tourism. The bus fare and times are from Alpico's own pages (timetable revised 2025-07-01; check it again in January). JR Azusa fare not confirmed on a JR East page, so left out. Taxi price not published. NAVITIME (free entry) read via WebFetch; blocks the link checker."
+last_updated: 2026-11-26
+
+blocks:
+  - type: hero
+    image: terrace-steps-sunset
+    hook: Stepped terraces on a hillside, the town below and the lake fans compare to Itomori's.
+    caption: The park's stepped terrace above Lake Suwa at sunset
+    focus: center
+  - type: quick_facts
+    time_needed: Full day from Tokyo
+    best_time: "Sunset to dusk (UTC+9)"
+    extra:
+      - label: Itomori is fictional
+        value: Its lake resembles Suwa
+        detail: "Town scenes from Hida, Gifu; Shinkai's own image was Koumi's lakes"
+      - label: Sunset in late Jan
+        value: 17:02–17:17 (UTC+9)
+        detail: Dusk ends 17:30–17:44
+      - label: From Tokyo
+        value: Bus ~3 h, Azusa ~2.5 h
+        detail: Bus ¥3,500 each way online; train fare unconfirmed
+  - type: highlights
+    items:
+      - title: The lake from the film
+        text: "Lake Suwa from up here looks like **Itomori Lake**: a round lake ringed by town and mountains. Nagano's tourism site says the park grew popular for exactly that resemblance."
+      - title: Steps facing the view
+        text: "The park's grassy terrace drops toward the lake in wide **steps**, like an open-air theatre. This is the staircase-with-a-lake photo fans post."
+      - title: Sunset behind the Alps
+        text: "The sun sets across the lake behind the Japanese Alps. Then the town lights come on all around the shore. The city lists it among Japan's **100 best night views** (新日本三大夜景・夜景百選)."
+      - title: Free, and you can walk it
+        text: "No ticket, no gate. From Kami-Suwa Station it's about **30 minutes on foot**, uphill through a residential neighbourhood."
+  - type: prose
+    title: Which place is it, really?
+    dropcap: true
+    text: |-
+      **Itomori doesn't exist.** The comet town in *Your Name* (君の名は。) is a mix of real places. Its town scenes and library draw on the city of **Hida** in Gifu (the Hida-Furukawa area). Its lake has no single twin: director Makoto Shinkai said his image for Itomori Lake was **Matsubara and Otsuki lakes** in Koumi, his Nagano hometown, but the lake people compare it to is **Lake Suwa**, in Nagano too. No real town has both the streets and the lake.
+
+      The view fans match to the film is the one from **Tateishi Park**, on the hill behind Kami-Suwa's hot-spring district. Nagano's own tourism site says the park grew popular for that resemblance. It's the place to go for the film's round lake ringed by a town and mountains.
+
+      If you meant the long **stone stairs up to Mitsuha's shrine**, those are modelled on Ketawakamiya Shrine in Hida-Furukawa, and there's no lake there. The red-railed stairs from the film's last scene are [Suga Shrine](https://sugajinjya.or.jp/access/) in Tokyo.
+  - type: gallery
+    images:
+      - file: winter-sunset-panorama
+        caption: A winter sunset over Lake Suwa from the east side of the park
+      - file: night-view
+        caption: Lake Suwa's shore lights after dark
+      - file: park-overview
+        caption: The terrace and playground above the town, with the lake beyond
+  - type: quote
+    variant: vibe
+    text: A cold hillside at dusk, the lake going from gold to dark blue, and the town lights coming on one by one.
+  - type: cost_breakdown
+    items:
+      - label: Tateishi Park
+        local: 0
+        brl: 0
+      - label: Highway bus Busta Shinjuku → Kami-Suwa (web fare)
+        local: 3500
+        brl: 129.64
+      - label: Highway bus Kami-Suwa → Busta Shinjuku (web fare)
+        local: 3500
+        brl: 129.64
+    note: "Over the daily budget because the whole cost is getting there. At the counter the bus is ¥3,800 each way. The JR Azusa fare is not included; we couldn't confirm it on a JR page."
+  - type: map
+    zoom: 15
+    note: "Walk from Kami-Suwa Station, about 1.5 km north-east and uphill. The city asks visitors to come on foot: the road is narrow and the 23-space car park fills at sunset. Toilets are across the road from the park, with no crossing."
+  - type: tips
+    variant: insider
+    items:
+      - "**Day trip by bus:** the 07:25 bus from Busta Shinjuku reaches Kami-Suwa Station at 10:27, and the last bus back leaves Kami-Suwa at 19:26 and reaches Busta Shinjuku at 22:35 (all UTC+9, Alpico timetable revised 2025-07-01). Book on Highway Bus .com up to a month ahead."
+      - "Arrive by **16:30 (UTC+9)** to watch the sunset from the terrace, then stay for the night view. Walk down by 18:30 to make the last bus."
+      - "Kill the afternoon near the station: **Katakurakan**, a Romanesque-style brick bathhouse with a deep pebble-floored bath; the **foot bath inside Kami-Suwa Station**; and the **Gokura**, five sake breweries on the old Kōshū-kaidō road just south of the station."
+      - "Check the park's **live camera** on the Suwa City site before you climb, to see snow and crowds."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The on-demand **Choisoko Karin-chan** bus stops near the park, but it needs registration in Japanese, runs only 08:00–16:00 (UTC+9) and costs ¥500. It's no use for the trip back after sunset. Walk."
+      - "Taxis take about 15 minutes from the station. The city mentions a fixed-price taxi plan through the tourist office (0266-58-0120), but the price isn't published."
+      - "After snow, the uphill lanes and the terrace steps can be icy in the dark. Wear shoes with grip and bring a phone light for the walk down."
+  - type: weather
+    temp_low_c: -6
+    temp_high_c: 4
+    conditions: Clear, dry and well below freezing after dark; some snow
+    note: "Suwa's January averages 3.8 °C by day and −5.5 °C at night, with about 27 cm of snow over the month. Lake Suwa has failed to freeze in most recent winters, so expect open water or patchy ice, not a white sheet. You'll stand still on an exposed hillside at dusk, so it feels colder than the numbers."
+    wear: Down jacket, hat, gloves and shoes with grip for icy steps
+  - type: pairs_well
+    items:
+      - id: suga-shrine-your-name-stairs
+        note: "The film's final-scene stairs, in Tokyo. Same film, one day apart"

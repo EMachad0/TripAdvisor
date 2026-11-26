@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: terrace-steps-sunset
+  title: File:Tateishi park Suwa.jpg
+  author: Kanesue
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Tateishi_park_Suwa.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/de/Tateishi_park_Suwa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 諏訪市、立石公園
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
+- file: winter-sunset-panorama
+  title: File:Lake Suwa as seen from Tateishi Park (east).jpg
+  author: Irvin
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Lake_Suwa_as_seen_from_Tateishi_Park_(east).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/10/Lake_Suwa_as_seen_from_Tateishi_Park_%28east%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Lake Suwa as seen from Tateishi Park on the east side during winter sunset.
+  width: 3958
+  height: 1632
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
+- file: night-view
+  title: File:諏訪湖 - 49666087928.jpg
+  author: Ann Lee
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:%E8%AB%8F%E8%A8%AA%E6%B9%96_-_49666087928.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b3/%E8%AB%8F%E8%A8%AA%E6%B9%96_-_49666087928.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 立石公園 から望む 諏訪湖 の夜景
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
+- file: park-overview
+  title: File:Suwa-Tateishi-Park-1.jpg
+  author: Evelyn-rose
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source_url: https://commons.wikimedia.org/wiki/File:Suwa-Tateishi-Park-1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/98/Suwa-Tateishi-Park-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 立石公園から諏訪湖を望む。
+  width: 4032
+  height: 3024
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
