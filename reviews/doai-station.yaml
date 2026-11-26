@@ -1,0 +1,28 @@
+# Independent review of doai-station. Written by `./atr review`; do not edit by hand.
+id: doai-station
+type: place
+reviewed: 2026-11-26
+verdict: pass
+content_hash: 71ee58243e12202d3dbe668f2baa0d9d2d3d8d201e52868a2dc7243358d0c2a0
+facts:
+  supported: 11
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[3].items[3].text
+    problem: The page says Yubuki-no-yu opens at 16:00 and builds the 'With an onsen' return (16:00 soak, then the 18:19 train) on that time. The onsen's own page says hours vary by date and you should call ahead. The page also gives no entry price and does not say whether the onsen is open in January.
+    evidence: https://www.doai-yamanoie.com/onsen.php — "16：00～19：00（お日にちにより異なりますのでお問合せ下さい）", tel 0278-72-5522, no price shown. blocks[3].items[3] and the 'With an onsen' line in blocks[5] now say the hours vary and to call 0278-72-5522, and that no price is posted.
+  - field: blocks[9].conditions
+    problem: The page says Minakami 'averages 119 cm on the ground in January'. In the JMA table, 119 cm is the normal deepest snow depth for January (最深積雪), not an average depth.
+    evidence: "The page now says 'January snow depth in Minakami peaks around 119 cm'. That matches the JMA January 最深積雪 normal of 119 cm: https://www.data.jma.go.jp/stats/etrn/view/nml_amd_ym.php?prec_no=42&block_no=1019&year=&month=&day=&view="
+  - field: location.address
+    problem: The postal code 379-1313 does not match English Wikipedia, which gives 379-1728 for the same street address.
+    evidence: "The postal code is gone from location.address. The street address matches JR East's station page (rendered with ./atr render): \"駅住所：群馬県利根郡みなかみ町湯檜曽218-2\"."
+  - field: blocks[7].items[1]
+    problem: Nothing readable supports 'no Suica readers, no ticket machine', and the traveler acts on it when buying the ticket. The cited JR East station-info page returns HTTP 403. Japanese Wikipedia supports only 'unstaffed' and the boarding-certificate machine.
+    evidence: 'https://www.jreast.co.jp/estation/station/info.aspx?StationCd=1035 opens with ./atr render (HTTP 200): "駅員はおりません", "指定席券売機はございません", "多機能券売機はございません", and the Suica rows for chargers and 在来線改札機 show "－". confidence_note now explains how to open the page.'
+rereview_of: b7f5a1f75c7e6608f50020807b04da2b48b3928cbbf64d356534f4b7f4868252
+summary: "All four earlier findings are fixed and backed by sources. The changed facts check out: Yubuki-no-yu's listed hours and phone number (onsen page), the 16:13 and 17:05 buses from the ropeway arriving 3 min later (Kan-etsu Kotsu winter timetable from 16 Nov 2026), the new map pin (it matches the coordinates both Wikipedia articles give), and sunset around 17:00 UTC+9 in late January 2027 (sunrise-sunset.org). Nothing is left to fix."
+model: claude-opus-5-5
+cost_usd: 1.026
