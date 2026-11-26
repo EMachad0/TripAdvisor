@@ -6,6 +6,7 @@
 <script lang="ts">
 	import ArrowDownIcon from '@lucide/svelte/icons/arrow-down';
 	import ArrowUpIcon from '@lucide/svelte/icons/arrow-up';
+	import MapIcon from '@lucide/svelte/icons/map';
 	import MapPinnedIcon from '@lucide/svelte/icons/map-pinned';
 	import PlusIcon from '@lucide/svelte/icons/plus';
 	import XIcon from '@lucide/svelte/icons/x';
@@ -39,10 +40,23 @@
 		onremove: (cid: string, i: number) => void;
 		onadd: (cid: string, area: string) => void;
 		onreset: (cid: string) => void;
+		/** The city map of a stop's key (`country/area`), or null when it has none. */
+		citymap?: (key: string) => string | null;
 	}
 
-	let { leg, on, edit, onzoom, oncity, onnights, onmove, onremove, onadd, onreset }: Props =
-		$props();
+	let {
+		leg,
+		on,
+		edit,
+		onzoom,
+		oncity,
+		onnights,
+		onmove,
+		onremove,
+		onadd,
+		onreset,
+		citymap,
+	}: Props = $props();
 
 	const c = $derived(leg.c);
 	const m = $derived(meter(leg));
@@ -221,6 +235,18 @@
 						>
 					</button>
 					{#if !edit}
+						{@const mapHref = citymap?.(s.key) ?? null}
+						{#if mapHref !== null}
+							<!-- eslint-disable svelte/no-navigation-without-resolve -- built with resolve() by RouteView -->
+							<a
+								href={mapHref}
+								class="grid size-9 shrink-0 place-items-center rounded-full text-muted-foreground transition-colors hover:bg-card hover:text-cat pointer-coarse:size-11"
+								aria-label={`City map of ${s.name}`}
+								title="City map"
+								data-stop-citymap><MapIcon class="size-4" /></a
+							>
+							<!-- eslint-enable svelte/no-navigation-without-resolve -->
+						{/if}
 						<span
 							class={cn(
 								'shrink-0 rounded-full px-2.5 py-1 text-xs font-medium whitespace-nowrap nums',

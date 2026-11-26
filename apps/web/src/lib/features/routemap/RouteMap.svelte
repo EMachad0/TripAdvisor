@@ -36,6 +36,8 @@
 		onadd: (key: string) => void;
 		onremove: (key: string) => void;
 		onopenarea: (area: string) => void;
+		/** The city map of a city key (`country/area`), or null when it has none. */
+		citymap?: (key: string) => string | null;
 	}
 
 	let {
@@ -54,6 +56,7 @@
 		onadd,
 		onremove,
 		onopenarea,
+		citymap,
 	}: Props = $props();
 
 	const ZOOM_MS = 520;
@@ -438,7 +441,16 @@
 		> contributors</span
 	>
 	{#if card}
-		<CityPopup {card} {edit} top={popTop} {onclose} {onadd} {onremove} {onopenarea} />
+		<CityPopup
+			{card}
+			{edit}
+			top={popTop}
+			maphref={citymap?.(card.key) ?? null}
+			{onclose}
+			{onadd}
+			{onremove}
+			{onopenarea}
+		/>
 	{/if}
 </div>
 

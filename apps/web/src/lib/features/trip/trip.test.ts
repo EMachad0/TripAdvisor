@@ -15,7 +15,14 @@ import {
 	safeUrl,
 	uberTo,
 } from './format.ts';
-import { fieldShown, formTitle, initialValues, submitArgs, tripSchema } from './forms.ts';
+import {
+	fieldShown,
+	formTitle,
+	initialValues,
+	optionsForCities,
+	submitArgs,
+	tripSchema,
+} from './forms.ts';
 import { itineraryModel, layoverLabel } from './itinerary.ts';
 import { asDay, asLeg, type TripLeg } from './types.ts';
 
@@ -242,6 +249,44 @@ describe('forms', () => {
 				data: { startDate: '2026-12-06', startTime: '15:00', note: 'hi' },
 			},
 		});
+	});
+
+	it("a stay names its hubs and pin; a train leg's From / To can be a station", () => {
+		const hubs = [
+			{ id: 'pvg', code: 'PVG', name: 'Pudong', city: 'shanghai' },
+			{ id: 'shanghai-hongqiao', code: null, name: 'Hongqiao station', city: 'shanghai' },
+			{ id: 'beijing-south', code: null, name: 'Beijing South', city: 'beijing' },
+		];
+		const s = tripSchema(COUNTRIES, [], hubs).legs;
+		const field = (k: string) => s.fields.find((x) => x.key === k);
+		const arrive = field('arrive');
+		const from = field('from');
+		expect(arrive && fieldShown(arrive, 'stay')).toBe(true);
+		expect(from && fieldShown(from, 'transport')).toBe(true);
+		expect(from && fieldShown(from, 'flight')).toBe(true);
+		expect(from?.suggest?.map((o) => o.value)).toEqual(['PVG', 'shanghai-hongqiao', 'beijing-south']);
+		// the select offers the hubs of the cities typed, and keeps the one chosen
+		const opts = optionsForCities(arrive?.options ?? [], hubs, 'Shanghai', 'beijing-south');
+		expect(opts.map((o) => o.value)).toEqual(['', 'pvg', 'shanghai-hongqiao', 'beijing-south']);
+		expect(optionsForCities(arrive?.options ?? [], hubs, '', '')).toHaveLength(4);
+	});
+
+	it('an empty lat / lng is no pin: never sent as 0, cleared on an edit', () => {
+		const s = tripSchema(COUNTRIES).legs;
+		const init = initialValues('legs', s, null, { today: '2026-11-15' });
+		const add = submitArgs('legs', s, null, false, { ...init, title: 'Dayin' }, init);
+		expect(add?.ok && add.args.data?.['lat']).toBeNull();
+		const pinned = { ...init, title: 'Dayin', lat: '31.2384', lng: '121.4853' };
+		const set = submitArgs('legs', s, null, false, pinned, init);
+		expect(set?.ok && [set.args.data?.['lat'], set.args.data?.['lng']]).toEqual([31.2384, 121.4853]);
+		const doc = { id: 'd', type: 'stay', title: 'Dayin', lat: 31.2384, lng: 121.4853 };
+		const open = initialValues('legs', s, doc, { today: '2026-11-15' });
+		const edit = submitArgs('legs', s, 'd', true, { ...open, lat: '', lng: '' }, open);
+		expect(edit?.ok && edit.args.data).toEqual({ lat: null, lng: null });
+		// A number input bound with bind:value holds a number (null when emptied), not a string.
+		const typed = { ...init, title: 'Dayin', lat: 31.2 as unknown as string, lng: null as unknown as string };
+		const r = submitArgs('legs', s, null, false, typed, init);
+		expect(r?.ok && [r.args.data?.['lat'], r.args.data?.['lng']]).toEqual([31.2, null]);
 	});
 
 	it('days, fixed costs and settings', () => {

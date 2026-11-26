@@ -34,8 +34,12 @@ export interface RequestFacts {
 	range: boolean;
 }
 
-/** Paths never answered from a cache: sign-in, sign-out, health and ops endpoints, the deploy check. */
-const NEVER = ['/api', '/login', '/logout', '/healthz', '/ops', '/_app/version.json'];
+/**
+ * Paths never answered from a cache: sign-in, sign-out, health and ops endpoints, the deploy check, and the city map's
+ * tiles (/tiles: one pan asks for dozens; in the 400-entry runtime cache they would push out the saved media, maps and
+ * content pages. The server keeps every tile and the browser's HTTP cache holds them a week).
+ */
+const NEVER = ['/api', '/login', '/logout', '/healthz', '/ops', '/_app/version.json', '/tiles'];
 
 /** `/login`, `/login/__data.json` and `/api/auth/x` match; `/loginx` does not. */
 const under = (path: string, p: string): boolean => path === p || path.startsWith(`${p}/`);

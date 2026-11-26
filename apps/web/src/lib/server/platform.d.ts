@@ -156,6 +156,8 @@ export declare const ROOT: string;
 export declare function loadPlaces(opts?: DataOptions): PlaceFile[];
 export declare function loadAreas(opts?: DataOptions): AreaFile[];
 export declare function loadTripConfig(opts?: DataOptions): TripConfig | null;
+/** config/hubs.yaml as parsed (unchecked), or null when missing, empty or not YAML. */
+export declare function loadHubsFile(opts?: DataOptions & { hubsFile?: string }): unknown;
 export declare function siteAnswers(
 	opts?: DataOptions & { places?: readonly PlaceFile[]; areas?: readonly AreaFile[] },
 ): SiteAnswer[];

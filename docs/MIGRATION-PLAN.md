@@ -312,6 +312,7 @@ Lint enforcement:
 | `/place/:id`, `/area/:id` (`?embed=1`) | `routes/place/[id]/+server.ts`, `routes/area/[id]/+server.ts` | SvelteKit | Platform HTML plus today's chrome injection, pointed at `/embed/place.css` and `/embed/place.js` |
 | `/media/*`, `/area-media/*`, `/map/*`, `/area-map/*` | `+server.ts` each | SvelteKit | sharp via `src/lib/server/maps.ts`, cache under `ATR_CACHE_DIR`, 6 s map fallback, same Cache-Control values |
 | `/route-map/:key.webp` | `routes/route-map/[key]/+server.ts` | SvelteKit | Reads `route.current` through `createConvexHttpClient` with the user's token; renders with `src/lib/server/maps.ts` |
+| `/tiles/:z/:x/:y.png` (new, city map) | `routes/tiles/[z]/[x]/[y].png/+server.ts` | SvelteKit | One OSM tile from the cache through `osmTile` in `src/lib/server/maps.ts`; z 2 to 18, x and y in the grid, else 404; behind the sign-in guard, `private, max-age=604800` |
 | `/assets/*` | `apps/web/static/assets/` | build | `atr.css` and `fonts/*.woff2` written by `copyAssets` (`platform/lib/render/assets.js`) at build time, for the iframe pages only |
 | `/game/place.css`, `/game/place.js` | `apps/web/embed/place.{css,js}`, served by `routes/embed/[file]` (signed in, `Cache-Control: no-cache` as before) | server route | A no-build port of `game/public/place.js` with `tzSpots` inlined: theme sync, Escape and the brand link close the sheet, `#answer-<id>` opens its card, time labels on answer cards. Slice H |
 | `/game/*`, `/lib/*` (app code) | Vite bundle, fonts from `@fontsource/*` | build | |

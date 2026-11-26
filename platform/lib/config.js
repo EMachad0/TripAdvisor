@@ -20,3 +20,18 @@ export function loadTripConfig(opts = {}) {
   Object.defineProperty(cfg, 'warnings', { value: warnings, enumerable: false, configurable: true, writable: true });
   return cfg;
 }
+
+/**
+ * The raw config/hubs.yaml (airports and stations the trip site draws on the city maps), or null when the file is
+ * missing, empty or not YAML. Never throws: the app keeps only well-formed entries (apps/web content/hubs.ts).
+ * The file sits beside the trip config (`opts.configFile`), else in the data root's config/.
+ */
+export function loadHubsFile(opts = {}) {
+  const file = opts.hubsFile || path.join(path.dirname(opts.configFile || dataRoots(opts).config), 'hubs.yaml');
+  try {
+    if (!fs.existsSync(file)) return null;
+    return parse(fs.readFileSync(file, 'utf8')) ?? null;
+  } catch {
+    return null;
+  }
+}

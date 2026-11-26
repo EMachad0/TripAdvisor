@@ -1,9 +1,10 @@
 <!--
 	The card of the selected city on the map (old #rpop, refreshPop): where it sits in the plan, its dates, how many
-	of its places are Must or Maybe, the area page, and in edit mode Add to / Remove from the route. Escape closes it
+	of its places are Must or Maybe, its city map (pins, stays, airports), the area page, and in edit mode Add to / Remove from the route. Escape closes it
 	(RouteView); so do the close button and a tap on the empty map.
 -->
 <script lang="ts">
+	import MapIcon from '@lucide/svelte/icons/map';
 	import XIcon from '@lucide/svelte/icons/x';
 	import { Button } from '#lib/components/ui/button/index.js';
 	import { cn } from '#lib/utils.js';
@@ -14,13 +15,15 @@
 		edit: boolean;
 		/** Sit at the top of the map (the pin is in the lower half). */
 		top: boolean;
+		/** The city map of this city (a primary button), or null when it has none. */
+		maphref?: string | null;
 		onclose: () => void;
 		onadd: (key: string) => void;
 		onremove: (key: string) => void;
 		onopenarea: (area: string) => void;
 	}
 
-	let { card, edit, top, onclose, onadd, onremove, onopenarea }: Props = $props();
+	let { card, edit, top, maphref = null, onclose, onadd, onremove, onopenarea }: Props = $props();
 	const v = $derived(card.verdict);
 </script>
 
@@ -72,6 +75,11 @@
 		{/if}
 	</p>
 	<div class="mt-3.5 flex flex-wrap items-center gap-2">
+		{#if maphref !== null}
+			<Button href={maphref} size="lg" class="pointer-coarse:h-11" data-pop-citymap
+				><MapIcon />City map</Button
+			>
+		{/if}
 		{#if card.hasPage}
 			<Button
 				variant="outline"

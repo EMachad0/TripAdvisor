@@ -33,6 +33,7 @@ import type {
 	ContentPlace,
 	RouteBase,
 } from '../content/types.ts';
+import { parseHubs } from '../content/hubs.ts';
 
 /** The body of POST /ops/content-index (the contentIndex table document). */
 export type ContentIndexBody = Infer<typeof contentIndex.validator>;
@@ -362,6 +363,7 @@ export function readContent(
 		areas: areas.map(areaModel),
 		answers: answers.map(answerModel),
 		routeBase,
+		hubs: parseHubs(platform.loadHubsFile(opts)),
 	};
 	return { version, payload, index: buildContentIndex(places, areas, cfg) };
 }

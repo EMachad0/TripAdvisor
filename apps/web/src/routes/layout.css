@@ -50,6 +50,9 @@
 	--elev-0: 0 1px 1px rgb(40 30 10 / 0.04), 0 2px 6px -2px rgb(40 30 10 / 0.06);
 	--elev-1: 0 1px 2px rgb(40 30 10 / 0.05), 0 10px 28px -12px rgb(40 30 10 / 0.16);
 	--elev-2: 0 2px 4px rgb(40 30 10 / 0.06), 0 30px 60px -20px rgb(40 30 10 / 0.28);
+	/* A map pin's drop shadow (city map): tight, so a pin reads against busy map tiles; -raised when hovered or on top. */
+	--pin-shadow: 0 1px 3px rgb(30 20 5 / 0.38);
+	--pin-shadow-raised: 0 3px 9px rgb(30 20 5 / 0.42);
 	/* The page backdrop: two soft washes of the accent and a cool note over the paper colour. */
 	--wash-1: rgb(214 126 84 / 0.1);
 	--wash-2: rgb(92 138 170 / 0.08);
@@ -173,6 +176,8 @@
 		--warn: #f5b062;
 		--elev-1: 0 1px 2px rgb(0 0 0 / 0.4), 0 12px 32px -12px rgb(0 0 0 / 0.6);
 		--elev-2: 0 30px 60px -20px rgb(0 0 0 / 0.7);
+		--pin-shadow: 0 1px 3px rgb(0 0 0 / 0.6);
+		--pin-shadow-raised: 0 3px 9px rgb(0 0 0 / 0.7);
 		--must: #7fd3a0;
 		--maybe: #f5c062;
 		--skip: #f08c7e;

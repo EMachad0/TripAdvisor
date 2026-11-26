@@ -1,6 +1,8 @@
 // Static map images for the content pages and the route map (plan section 5: /map, /area-map, /route-map), and the
 // raw content files those pages need. The signatures of placeMap, areaMap, routeMap and embeddedMap are FROZEN.
 //
+// GET /tiles/<z>/<x>/<y>.png (the city map's slippy map) serves single tiles from the same cache (osmTile).
+//
 // Maps are the old platform staticMap (platform/lib/staticmap.js): OpenStreetMap tiles stitched with sharp around a
 // point, rendered at 2x density, cached forever by coordinates. The difference: the cache lives under ATR_CACHE_DIR
 // (the web image mounts a volume at /data/cache), else <content root>/.cache like the old server. Tiles go to
@@ -117,29 +119,98 @@ export interface RenderDeps {
 	/** Pause between tile retries (tests pass 0). */
 	retryMs?: number;
 	offline?: boolean;
+	/** How long one upstream tile request may take before it is aborted (default 10 s). */
+	timeoutMs?: number;
 }
 
-async function tile(z: number, x: number, y: number, deps: Required<RenderDeps>): Promise<Buffer> {
-	const f = path.join(deps.cacheDir, 'tiles', String(z), String(x), `${String(y)}.png`);
-	if (fs.existsSync(f)) return fs.readFileSync(f);
-	if (deps.offline) throw new Error('offline and tile not cached');
-	for (let i = 0; i < 3; i++) {
-		const res = await deps.fetch(
-			`https://tile.openstreetmap.org/${String(z)}/${String(x)}/${String(y)}.png`,
-			{
-				headers: { 'User-Agent': UA },
-			},
-		);
-		if (res.ok) {
-			const buf = Buffer.from(await res.arrayBuffer());
-			fs.mkdirSync(path.dirname(f), { recursive: true });
-			fs.writeFileSync(f, buf);
-			return buf;
-		}
-		if (!RETRY_STATUS.has(res.status)) throw new Error(`tile HTTP ${String(res.status)}`);
-		await new Promise((r) => setTimeout(r, deps.retryMs * (i + 1)));
+const tileInflight = new Map<string, Promise<Buffer>>();
+
+/**
+ * Upstream tile requests in flight at most, across GET /tiles and the stitcher (OpenStreetMap's tile usage policy
+ * asks for few parallel connections; a first city map view asks for 50 to 80 tiles at once).
+ */
+export const TILE_FETCH_LIMIT = 4;
+let tileSlotsUsed = 0;
+const tileQueue: (() => void)[] = [];
+
+/** Runs `job` once one of the TILE_FETCH_LIMIT upstream slots is free. */
+async function withTileSlot<T>(job: () => Promise<T>): Promise<T> {
+	if (tileSlotsUsed >= TILE_FETCH_LIMIT) {
+		await new Promise<void>((resolve) => {
+			tileQueue.push(resolve);
+		});
+	} else {
+		tileSlotsUsed++;
 	}
-	throw new Error('tile server busy');
+	try {
+		return await job();
+	} finally {
+		// Hand the slot straight to the next waiter, else free it.
+		const next = tileQueue.shift();
+		if (next === undefined) tileSlotsUsed--;
+		else next();
+	}
+}
+
+/** The deps with their defaults (cache dir, global fetch, 1.5 s retry pause, ATR_OFFLINE, 10 s timeout). */
+function withDefaults(deps: RenderDeps): Required<RenderDeps> {
+	return {
+		cacheDir: deps.cacheDir ?? mapCacheDir(),
+		fetch: deps.fetch ?? fetch,
+		retryMs: deps.retryMs ?? 1500,
+		offline: deps.offline ?? process.env['ATR_OFFLINE'] === '1',
+		timeoutMs: deps.timeoutMs ?? 10_000,
+	};
+}
+
+/**
+ * One OpenStreetMap tile (PNG bytes): from the cache (<cache>/tiles/<z>/<x>/<y>.png), else fetched with the
+ * identifying User-Agent (retried on 429 / 5xx) and cached. Concurrent requests for the same tile share one fetch;
+ * at most TILE_FETCH_LIMIT upstream requests run at once, each aborted after `timeoutMs`. Throws when offline and
+ * not cached, when the tile server refuses, or on a timeout. Shared by the static maps and GET /tiles.
+ */
+export function osmTile(z: number, x: number, y: number, deps: RenderDeps = {}): Promise<Buffer> {
+	const d = withDefaults(deps);
+	const f = path.join(d.cacheDir, 'tiles', String(z), String(x), `${String(y)}.png`);
+	if (fs.existsSync(f)) return fs.promises.readFile(f);
+	if (d.offline) return Promise.reject(new Error('offline and tile not cached'));
+	const running = tileInflight.get(f);
+	if (running !== undefined) return running;
+	const job = (async (): Promise<Buffer> => {
+		try {
+			for (let i = 0; i < 3; i++) {
+				const got = await withTileSlot(async () => {
+					const res = await d.fetch(
+						`https://tile.openstreetmap.org/${String(z)}/${String(x)}/${String(y)}.png`,
+						{
+							headers: { 'User-Agent': UA },
+							signal: AbortSignal.timeout(d.timeoutMs),
+						},
+					);
+					return {
+						status: res.status,
+						body: res.ok ? Buffer.from(await res.arrayBuffer()) : null,
+					};
+				});
+				if (got.body !== null) {
+					const buf = got.body;
+					fs.mkdirSync(path.dirname(f), { recursive: true });
+					// Write beside, then rename: a concurrent reader never sees half a tile.
+					const tmp = `${f}.${String(process.pid)}.${String(Date.now())}.tmp`;
+					fs.writeFileSync(tmp, buf);
+					fs.renameSync(tmp, f);
+					return buf;
+				}
+				if (!RETRY_STATUS.has(got.status)) throw new Error(`tile HTTP ${String(got.status)}`);
+				await new Promise((r) => setTimeout(r, d.retryMs * (i + 1)));
+			}
+			throw new Error('tile server busy');
+		} finally {
+			tileInflight.delete(f);
+		}
+	})();
+	tileInflight.set(f, job);
+	return job;
 }
 
 /** The cache file name of a map (same key as the old platform cache). */
@@ -175,12 +246,7 @@ export function renderStaticMap(
 	deps: RenderDeps = {},
 ): Promise<MapImage | null> {
 	if (typeof lat !== 'number' || typeof lng !== 'number') return Promise.resolve(null);
-	const d: Required<RenderDeps> = {
-		cacheDir: deps.cacheDir ?? mapCacheDir(),
-		fetch: deps.fetch ?? fetch,
-		retryMs: deps.retryMs ?? 1500,
-		offline: deps.offline ?? process.env['ATR_OFFLINE'] === '1',
-	};
+	const d = withDefaults(deps);
 	const out = path.join(d.cacheDir, 'maps', mapKey(lat, lng, zoom, width, height));
 	if (fs.existsSync(out)) return Promise.resolve({ file: out, width, height });
 	const running = inflight.get(out);
@@ -199,7 +265,7 @@ export function renderStaticMap(
 			const worker = async (): Promise<void> => {
 				for (let spot = spots[next++]; spot !== undefined; spot = spots[next++]) {
 					comps.push({
-						input: await tile(z, spot.x, spot.y, d),
+						input: await osmTile(z, spot.x, spot.y, d),
 						left: (spot.x - w.x0) * TILE,
 						top: (spot.y - w.y0) * TILE,
 					});

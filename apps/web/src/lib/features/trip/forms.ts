@@ -16,6 +16,10 @@ export interface FormField {
 	/** Leg kinds that show the field: f flight, s stay, t transport (absent: always shown). */
 	show?: string;
 	options?: readonly { value: string; label: string }[];
+	/** A text field's suggestions (a datalist): typing anything else is still fine. */
+	suggest?: readonly { value: string; label: string }[];
+	/** A number that may be left empty: empty clears it instead of sending 0 (a stay's lat / lng). */
+	optional?: true;
 }
 
 /** The collections that have a form (visited is a tick, not a form). */
@@ -45,13 +49,38 @@ const f = (
 	key: string,
 	label: string,
 	type: FieldType,
-	extra: { full?: true; show?: string; options?: readonly { value: string; label: string }[] } = {},
+	extra: Pick<FormField, 'full' | 'show' | 'options' | 'suggest' | 'optional'> = {},
 ): FormField => ({ key, label, type, ...extra });
+
+/** A stay card a stay leg can point to (`place`): the booked bed's pin on the city map. */
+export interface StayCardOption {
+	id: string;
+	name: string;
+	city: string;
+	cityName: string;
+}
+
+/** An airport or station (config/hubs.yaml) a leg can name: a stay's Arrive at / Leave from, a leg's From / To. */
+export interface HubOption {
+	id: string;
+	code: string | null;
+	name: string;
+	city: string;
+}
 
 /** The form fields of every collection, in the old order and with the old labels. */
 export function tripSchema(
 	countries: readonly { id: string; name: string }[],
+	stayCards: readonly StayCardOption[] = [],
+	hubs: readonly HubOption[] = [],
 ): Record<FormCollection, FormSchema> {
+	const hubLabel = (h: HubOption): string => (h.code === null ? h.name : `${h.name} (${h.code})`);
+	const hubPick = (none: string) => [
+		{ value: '', label: none },
+		...hubs.map((h) => ({ value: h.id, label: hubLabel(h) })),
+	];
+	// A flight names its airports by code, a train by the station's id: both count on the city map.
+	const hubSuggest = hubs.map((h) => ({ value: h.code ?? h.id, label: hubLabel(h) }));
 	const country = [
 		{ value: '', label: 'Not set' },
 		{ value: 'brazil', label: 'Brazil' },
@@ -86,13 +115,33 @@ export function tripSchema(
 				f('endTime', 'End time, local there (arrival airport for flights)', 'time'),
 				f('country', 'Country', 'select', { show: 's', options: country }),
 				f('city', 'City id, as on the cards (e.g. osaka)', 'text', { show: 's' }),
+				f('place', 'Stay card (the booked bed, pinned on the city map)', 'select', {
+					show: 's',
+					options: [
+						{ value: '', label: 'No card' },
+						...stayCards.map((c) => ({ value: c.id, label: `${c.name} (${c.cityName})` })),
+					],
+				}),
+				f('arrive', 'Arrive at (when no flight or train leg says)', 'select', {
+					show: 's',
+					options: hubPick('Not set'),
+				}),
+				f('leave', 'Leave from (when no flight or train leg says)', 'select', {
+					show: 's',
+					options: hubPick('Not set'),
+				}),
 				f('host', 'Host', 'text', { show: 's' }),
 				f('address', 'Address', 'text', { full: true, show: 's' }),
+				f('lat', 'Latitude (the bed, when it has no card)', 'number', {
+					show: 's',
+					optional: true,
+				}),
+				f('lng', 'Longitude', 'number', { show: 's', optional: true }),
 				f('checkIn', 'Check-in from (local time)', 'time', { show: 's' }),
 				f('checkOut', 'Checkout by (local time)', 'time', { show: 's' }),
 				f('mode', 'Mode (Uber, taxi, train…)', 'text', { show: 't' }),
-				f('from', 'From (airport code)', 'text', { show: 'f' }),
-				f('to', 'To (airport code)', 'text', { show: 'f' }),
+				f('from', 'From (airport code or station)', 'text', { show: 'ft', suggest: hubSuggest }),
+				f('to', 'To (airport code or station)', 'text', { show: 'ft', suggest: hubSuggest }),
 				f('fromName', 'From (short name)', 'text', { show: 'ft' }),
 				f('toName', 'To (short name)', 'text', { show: 'ft' }),
 				f('fromPlace', 'Pickup address', 'text', { full: true, show: 't' }),
@@ -170,6 +219,30 @@ export function tripSchema(
 			],
 		},
 	};
+}
+
+/**
+ * The options a per-city select offers (the Stay card, Arrive at and Leave from of a stay): those of the cities
+ * typed in the form ("kyoto, osaka"), plus the one already chosen. Every option when no city is typed yet.
+ */
+export function optionsForCities(
+	options: readonly { value: string; label: string }[],
+	items: readonly { id: string; city: string }[],
+	cityField: string,
+	chosen: string,
+): { value: string; label: string }[] {
+	const cities = cityField
+		.split(/[,+]/)
+		.map((c) => c.trim().toLowerCase())
+		.filter((c) => c !== '');
+	const cityOf = new Map(items.map((c) => [c.id, c.city]));
+	return options.filter(
+		(o) =>
+			o.value === '' ||
+			o.value === chosen ||
+			cities.length === 0 ||
+			cities.includes(cityOf.get(o.value) ?? ''),
+	);
 }
 
 /** Whether a leg field shows for the chosen kind (the old data-show / applyShow). */
@@ -273,6 +346,13 @@ const LEG_PAIRS = [
 ] as const;
 
 /**
+ * A form value as trimmed text. A number input bound with bind:value holds a number (or null when empty) at run
+ * time, whatever FormValues says, so this never assumes a string.
+ */
+const text = (v: string | number | null | undefined): string =>
+	v === null || v === undefined ? '' : String(v).trim();
+
+/**
  * The trip.write a submit makes (submitEdit). A new document sends every field; an edit sends only the fields
  * that changed (plan section 11: one writer, last write wins, partial updates), keeping each leg date with its time.
  * Returns the old message when the main field is empty. `null` from an unchanged edit: nothing to send.
@@ -287,11 +367,18 @@ export function submitArgs(
 ): SubmitResult | null {
 	const data: Record<string, TripValue> = {};
 	for (const field of schema.fields) {
-		const raw = (values[field.key] ?? '').trim();
-		data[field.key] = field.type === 'number' ? (raw === '' ? 0 : Number(raw)) : raw;
+		const raw = text(values[field.key]);
+		data[field.key] =
+			field.type === 'number'
+				? raw === ''
+					? field.optional
+						? null
+						: 0
+					: Number(raw)
+				: raw;
 	}
 	const numbersOk = schema.fields.every(
-		(fl) => fl.type !== 'number' || Number.isFinite(data[fl.key]),
+		(fl) => fl.type !== 'number' || data[fl.key] === null || Number.isFinite(data[fl.key]),
 	);
 	if (!numbersOk) return { ok: false, message: 'Type a number.' };
 	const isFlight = col === 'legs' && data['type'] === 'flight';
@@ -312,9 +399,11 @@ export function submitArgs(
 	}
 	const changed: Record<string, TripValue> = {};
 	for (const field of schema.fields) {
-		const before = (initial[field.key] ?? '').trim();
-		const after = (values[field.key] ?? '').trim();
-		if (before !== after) changed[field.key] = data[field.key] ?? '';
+		const before = text(initial[field.key]);
+		const after = text(values[field.key]);
+		// null (an optional number emptied) is sent as null: the server drops the field.
+		const v = data[field.key];
+		if (before !== after) changed[field.key] = v === undefined ? '' : v;
 	}
 	if (col === 'legs') {
 		for (const pair of LEG_PAIRS) {
