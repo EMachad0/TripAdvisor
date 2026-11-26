@@ -1,0 +1,220 @@
+id: doai-station
+name: "Doai Station"
+name_local: 土合駅
+name_romanized: Doai-eki
+country: japan
+city: minakami
+area: Mt Tanigawa · Gunma
+category: day-trip
+fame: hidden
+tags: [train, staircase, snow-country, cold-outdoors, onsen]
+kind: Do
+why: "Japan's deepest working train station: step off a train 70 m underground and climb 462 + 24 steps to an unstaffed station in deep snow."
+
+cost:
+  local: 6380
+  currency: JPY
+  brl: 236.32
+  note: "JR fare Tokyo ⇄ Doai on local trains, ¥3,190 each way. The Shinkansen to Takasaki adds ¥2,510 each way."
+fx: { rate: 0.03704, date: 2026-11-25, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: Full day (5–7 h on trains)
+best_time: "Weekday: 09:51 to 15:33 (UTC+9)"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Station always open, unstaffed. Café Kissa Mogura 10:00–15:00 (UTC+9), days off irregular. Only 7–8 trains a day each way."
+  winter: "Open all winter. Extra trains run daily 19 Dec – 28 Feb (down 16:51 and 19:52, up 17:19 and 19:45, UTC+9); the 11:48 down and 10:21 up run only on weekends then. Tanigawadake Joch ropeway runs 5 Dec – 4 Apr, ropeway only until 10 Mar (no lift). In heavy snow, check JR East train info that morning."
+
+location:
+  address: "218-2 Yubiso, Minakami, Tone District, Gunma"
+  address_local: 群馬県利根郡みなかみ町湯檜曽218-2
+  lat: 36.83136
+  lng: 138.96711
+  nearest_transit: "It is the station: JR Jōetsu Line, or bus stop Doai-eki-mae (土合駅前)"
+
+sources:
+  - url: https://timetables.jreast.co.jp/2612/timetable/tt1035/1035010.html
+    title: JR East — Doai timetable, down (Nagaoka) weekdays, Dec 2026 edition
+    checked: 2026-11-26
+  - url: https://timetables.jreast.co.jp/2612/timetable/tt1035/1035011.html
+    title: JR East — Doai timetable, down, Saturdays and holidays
+    checked: 2026-11-26
+  - url: https://timetables.jreast.co.jp/2612/timetable/tt1035/1035020.html
+    title: JR East — Doai timetable, up (Minakami) weekdays
+    checked: 2026-11-26
+  - url: https://timetables.jreast.co.jp/2612/timetable/tt1035/1035021.html
+    title: JR East — Doai timetable, up, Saturdays and holidays
+    checked: 2026-11-26
+  - url: https://timetables.jreast.co.jp/2612/train/045/045852.html
+    title: JR East — train 1745M (Doai 16:51), runs 19 Dec – 28 Feb
+    checked: 2026-11-26
+  - url: https://timetables.jreast.co.jp/2612/train/045/045822.html
+    title: JR East — train 1735M (Doai 11:48), weekend-only days
+    checked: 2026-11-26
+  - url: https://timetables.jreast.co.jp/2612/train/045/045972.html
+    title: JR East — train 1744M (Doai 19:45), runs 19 Dec – 28 Feb
+    checked: 2026-11-26
+  - url: https://www.jreast.co.jp/estation/station/info.aspx?StationCd=1035
+    title: JR East — Doai station info (no staff, no ticket machines, no IC gates)
+    checked: 2026-11-26
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?Sok=%E6%B1%BA+%E5%AE%9A&eki1=%E6%9D%B1%E4%BA%AC&eki2=%E5%9C%9F%E5%90%88&Dyy=2027&Dmm=1&Ddd=21&Dhh=7&Dmn1=0&Dmn2=0&Cway=0"
+    title: Jorudan — Tokyo → Doai, Thu 21 Jan 2027 from 07:00 (connections and fares)
+    checked: 2026-11-26
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?Sok=%E6%B1%BA+%E5%AE%9A&eki1=%E5%9C%9F%E5%90%88&eki2=%E6%9D%B1%E4%BA%AC&Dyy=2027&Dmm=1&Ddd=21&Dhh=15&Dmn1=3&Dmn2=0&Cway=0"
+    title: Jorudan — Doai → Tokyo, Thu 21 Jan 2027 from 15:30
+    checked: 2026-11-26
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?Sok=%E6%B1%BA+%E5%AE%9A&eki1=%E5%9C%9F%E5%90%88&eki2=%E6%9D%B1%E4%BA%AC&Dyy=2027&Dmm=1&Ddd=21&Dhh=18&Dmn1=1&Dmn2=5&Cway=0"
+    title: Jorudan — Doai → Tokyo, Thu 21 Jan 2027 from 18:15
+    checked: 2026-11-26
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?Sok=%E6%B1%BA+%E5%AE%9A&eki1=%E5%9C%9F%E5%90%88&eki2=%E6%9D%B1%E4%BA%AC&Dyy=2027&Dmm=1&Ddd=21&Dhh=19&Dmn1=4&Dmn2=0&Cway=0"
+    title: Jorudan — Doai → Tokyo, Thu 21 Jan 2027 from 19:40
+    checked: 2026-11-26
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?Sok=%E6%B1%BA+%E5%AE%9A&eki1=%E5%9C%9F%E5%90%88&eki2=%E6%9D%B1%E4%BA%AC&Dyy=2027&Dmm=1&Ddd=21&Dhh=21&Dmn1=0&Dmn2=0&Cway=0"
+    title: Jorudan — Doai → Tokyo, Thu 21 Jan 2027 from 21:00 (last way back)
+    checked: 2026-11-26
+  - url: "https://www.jorudan.co.jp/norikae/cgi/nori.cgi?Sok=%E6%B1%BA+%E5%AE%9A&eki1=%E6%9D%B1%E4%BA%AC&eki2=%E9%AB%98%E5%B4%8E&Dyy=2027&Dmm=1&Ddd=21&Dhh=8&Dmn1=2&Dmn2=0&Cway=1"
+    title: Jorudan — Tokyo → Takasaki arriving by 08:20, Thu 21 Jan 2027 (06:20 local)
+    checked: 2026-11-26
+  - url: "https://sunrise-sunset.org/search?location=36.8304%2C138.9647&year=2027&month=1"
+    title: Sunrise-sunset.org — Doai, January 2027 (sunset about 17:00 UTC+9 late Jan)
+    checked: 2026-11-26
+  - url: https://www.jreast.co.jp/2026unchin-kaitei/assets/pdf/ninka.pdf
+    title: JR East — approved 2026 fares (main-line rate ¥16.96/km, 11–300 km)
+    checked: 2026-11-26
+  - url: https://www.eki-net.com/top/e-ticket/pdf/pr_joetsu_normal.pdf
+    title: JR East eki-net — Jōetsu Shinkansen e-ticket prices from 14 Mar 2026
+    checked: 2026-11-26
+  - url: https://ja.wikipedia.org/wiki/土合駅
+    title: 土合駅 — Japanese Wikipedia (462 + 24 steps, 338 m, boarding-certificate machine)
+    checked: 2026-11-26
+  - url: https://en.wikipedia.org/wiki/Doai_Station
+    title: Doai Station — Wikipedia
+    checked: 2026-11-26
+  - url: https://en.wikipedia.org/wiki/Yoshioka-Kaitei_Station
+    title: Yoshioka-Kaitei Station — Wikipedia (149.5 m below sea level, closed)
+    checked: 2026-11-26
+  - url: https://en.wikipedia.org/wiki/Roppongi_Station
+    title: Roppongi Station — Wikipedia (Ōedo Line platform 42 m down)
+    checked: 2026-11-26
+  - url: https://doaivillage.com/
+    title: DOAI VILLAGE — official site (camp and café in the station, year-round)
+    checked: 2026-11-26
+  - url: https://doaimogura.com/
+    title: Kissa Mogura — official site (hours 10:00–15:00, irregular days off)
+    checked: 2026-11-26
+  - url: https://note.com/doai_village/n/nae67d2f2984c
+    title: "Kissa Mogura — how to enjoy the café (Jan 2026 post)"
+    checked: 2026-11-26
+  - url: https://tanigawadake-joch.com/
+    title: Tanigawadake Joch by Hoshino Resorts — ropeway season, hours, fare calendar
+    checked: 2026-11-26
+  - url: https://kan-etsu.net/pages/20/
+    title: Kan-etsu Kotsu — Minakami Line bus (timetables and fares)
+    checked: 2026-11-26
+  - url: https://kan-etsu.net/files/libs/14694/20261124154708383.pdf
+    title: Kan-etsu Kotsu — Minakami Line winter timetable, outbound (from 16 Nov 2026)
+    checked: 2026-11-26
+  - url: https://kan-etsu.net/files/libs/14695/202611241547446402.pdf
+    title: Kan-etsu Kotsu — Minakami Line winter timetable, inbound (from 16 Nov 2026)
+    checked: 2026-11-26
+  - url: https://kan-etsu.net/files/libs/13586/202509160957248456.pdf
+    title: Kan-etsu Kotsu — Minakami Line fare table (Oct 2025)
+    checked: 2026-11-26
+  - url: https://www.doai-yamanoie.com/onsen.php
+    title: Doai Yama-no-ie — Yubuki-no-yu day onsen
+    checked: 2026-11-26
+  - url: "https://www.data.jma.go.jp/stats/etrn/view/nml_amd_ym.php?prec_no=42&block_no=1019&year=&month=&day=&view="
+    title: JMA — Minakami climate normals 1991–2020
+    checked: 2026-11-26
+confidence: medium
+confidence_note: "Times are from JR East's Dec 2026 timetable, which already covers Jan–Feb 2027. ¥3,190 is Jorudan's fare and matches JR East's 2026 rate (¥16.96/km, 161–180 km band, +10%). ¥2,510 Shinkansen surcharge is Jorudan only. No Suica/ticket machine: JR East station page, opens in ./atr render (WebFetch gets 403). Café and onsen post no prices."
+last_updated: 2026-11-26
+
+blocks:
+  - type: hero
+    image: staircase
+    caption: "The 462-step tunnel staircase from the down platform"
+    hook: "A Niigata-bound train drops you in a tunnel 70 m down. The only way out is a 338 m staircase."
+  - type: quick_facts
+    time_needed: Full day (5–7 h on trains)
+    best_time: "Weekday: 09:51 to 15:33 (UTC+9)"
+    extra:
+      - { label: Depth, value: 70 m below the station, detail: "Down platform in the Shin-Shimizu Tunnel" }
+      - { label: The climb, value: 462 + 24 steps, detail: "338 m of stairs, no escalator or lift; about 10 min down" }
+      - { label: Trains, value: 7–8 a day each way, detail: "7 on late-Jan weekdays, 8 on weekends; gaps of 1–4 h" }
+  - type: highlights
+    items:
+      - title: Arrive underground
+        text: "Ride the local from Minakami and you step out onto the **down platform inside the Shin-Shimizu Tunnel**, about 70 m below the station building. That is the way to do it: arriving by bus misses this."
+      - title: "The 462 + 24 steps"
+        text: "A straight, lit, 338 m tunnel staircase with no escalator or lift, then 24 more steps over the river and road to the ticket gate. Going down takes about 10 minutes; Japanese Wikipedia says climbing can take tourists 30 minutes or more."
+      - title: A station with no staff
+        text: "Unstaffed since 1985. The old station office is now **Kissa Mogura**, a café (10:00–15:00 UTC+9, irregular days off) with hand-drip coffee and a Napolitan spaghetti lunch, run by the DOAI VILLAGE camp next door."
+      - title: Snow country add-ons
+        text: "Two bus stops away, the **Tanigawadake Joch** ropeway climbs into the snow (¥3,000 return in late Jan). By the station, **Yubuki-no-yu** day onsen is listed 16:00–19:00 (UTC+9); hours vary, no price posted: call 0278-72-5522."
+  - type: prose
+    title: "Which \"deepest\"?"
+    text: |-
+      Doai is the deepest station **in service** in Japan, measured **below the ground above it**: its down platform sits about 70 m under the station building (station signs: 653.7 m and 583 m above sea level).
+
+      - **Yoshioka-Kaitei** in the Seikan Tunnel was deeper, 149.5 m **below sea level**, but passenger stops ended in 2006 and it closed formally in 2014. Its twin, Tappi-Kaitei, is also closed.
+      - **Roppongi** on the Toei Ōedo Line is the deepest *subway* station in Tokyo, with its lower platform about 42 m down.
+
+      So "Japan's deepest station you can still get off a train at" is Doai, and that is the one locals call the *Nihon-ichi no mogura-eki*, Japan's number-one mole station.
+  - type: gallery
+    images:
+      - { file: platform-sign, caption: "The down platform, deep in the Shin-Shimizu Tunnel" }
+      - { file: stairs-from-platform, caption: "The view up from the platform level" }
+      - { file: station-building, caption: "The A-frame station building, in summer" }
+      - { file: building-in-snow, caption: "The same building after heavy snow" }
+  - type: prose
+    title: "The day, train by train (weekday, all times UTC+9)"
+    text: |-
+      From JR East's timetable for weekdays 20 Jan – 4 Feb 2027; on weekends there are a couple more trains.
+
+      **Going (pick one):**
+
+      - **Fast:** Tokyo 07:24 (UTC+9) *Asama 603* Shinkansen, non-reserved → Takasaki 08:19 · Takasaki 08:27 local → Minakami 09:33 · Minakami 09:42 → **Doai 09:51 (UTC+9)**, underground platform.
+      - **Cheapest:** Tokyo 06:20 (UTC+9) Ueno-Tokyo Line → Takasaki 08:15, then the same 08:27 and 09:42 locals → Doai 09:51 (UTC+9).
+
+      **At Doai:** climb out, coffee when the café opens at 10:00 (UTC+9). For the ropeway, the bus leaves Doai-eki-mae at 10:58 (UTC+9) and reaches Tanigawadake Joch at 11:05 (¥240). Last ropeway up is 16:00 (UTC+9). Buses back to Doai-eki-mae leave the ropeway at 12:00, 13:52, 14:55, 16:13 and 17:05 (UTC+9), arriving 3 min later.
+
+      **Coming back (up trains from the surface platform):**
+
+      - **15:33 (UTC+9)** → Minakami 15:48 · 15:53 local → Takasaki 16:57 · 17:05 *Hakutaka 568* → **Tokyo 17:52 (UTC+9)**. All-local: 16:59 from Takasaki → Tokyo 18:54 (UTC+9).
+      - **With an onsen:** soak at Yubuki-no-yu (listed 16:00–19:00 UTC+9, hours vary by date: call ahead), then 18:19 (UTC+9) → Minakami 18:34 · 18:44 → Takasaki 19:48 · 20:00 *Asama 630* → Tokyo 20:52 (UTC+9).
+      - **Last via Takasaki:** 19:45 (UTC+9) → Minakami 19:59 · 20:16 → Shin-Maebashi 21:09 · 21:14 → Takasaki 21:24 · 21:41 *Toki 344* → Tokyo 22:28 (UTC+9).
+      - **Very last:** 21:01 (UTC+9) *down* train → Echigo-Yuzawa 21:27 · 22:25 *Toki 346* → Tokyo 23:40 (UTC+9). Jorudan prices this at ¥7,360 with a reserved seat.
+
+      Gaps between trains are 1–3 hours, so set the return train before you leave the station.
+  - type: cost_breakdown
+    items:
+      - { label: "JR fare Tokyo → Doai (local trains)", local: 3190, brl: 118.16 }
+      - { label: "JR fare Doai → Tokyo (local trains)", local: 3190, brl: 118.16 }
+      - { label: "Shinkansen Tokyo ⇄ Takasaki, non-reserved surcharge ×2", local: 5020, brl: 185.94, optional: true, note: "Jorudan quote; saves about 1 h each way" }
+      - { label: "Bus Doai-eki-mae ⇄ Tanigawadake Joch", local: 480, brl: 17.78, optional: true, note: "¥240 each way, Kan-etsu Kotsu fare table" }
+      - { label: "Tanigawadake Joch ropeway, return", local: 3000, brl: 111.12, optional: true, note: "Late Jan – early Feb price (C tier), official calendar" }
+    note: "Over the Japan day budget because it is a 175 km trip each way; the station itself is free. The Shinkansen-to-Jōmō-Kōgen + bus route costs more (¥5,930 reserved e-ticket + ¥1,400 bus each way) and lands you at the top of the stairs, not the bottom."
+  - type: map
+    note: "Bus stop Doai-eki-mae (土合駅前) serves the station; Tanigawadake Joch is two stops further up the road."
+  - type: tips
+    variant: insider
+    items:
+      - "Arrive on a **down train** (towards Nagaoka) so you start at the bottom. Up trains to Minakami stop at the surface platform, which is where you leave from."
+      - "Doai has **no Suica readers, no ticket machine and no staff**. Buy a paper ticket to Doai before you set off. For the way back, the station has a boarding-certificate machine (乗車駅証明書): take one and pay at your destination."
+      - "Times on this page come from JR East's December 2026 edition, which already covers 20 Jan – 4 Feb. Re-check [JR East's Doai timetable](https://timetables.jreast.co.jp/2612/timetable/tt1035/1035020.html) the week before."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "On **weekdays** the 11:48 down and 10:21 up trains don't run in late January (weekends only). Don't plan around them."
+      - "Miss the 15:33 (UTC+9) and the next up train is 17:19, then 18:19 (UTC+9). Sunset is about 17:00 (UTC+9) at the end of January."
+      - "The café keeps irregular days off and posts them on Instagram; bring a snack in case it is shut."
+  - type: weather
+    temp_low_c: -4
+    temp_high_c: 3
+    conditions: "Deep snow: January snow depth in Minakami peaks around 119 cm"
+    note: "Minakami (524 m) averages −4.4 °C to 2.6 °C in January; Doai sits higher, at about 650 m. The staircase is inside the lit tunnel and out of the snow, but the plaza and the bridge passage outside can be snowbound. In heavy snow, check JR East train info before you set off."
+    wear: "Snow boots with grip, layers you can open on the climb, gloves, a hat"

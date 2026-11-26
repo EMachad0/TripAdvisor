@@ -1,0 +1,80 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: staircase
+  title: File:Gunma Doai station xl.jpg
+  author: Yasuyuki_Kawano
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Gunma_Doai_station_xl.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/a/ae/Gunma_Doai_station_xl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 群馬県 土合駅
+  width: 5152
+  height: 3435
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
+- file: platform-sign
+  title: File:JR Joetsu Line Doai Station Outbound Underground Platform.jpg
+  author: Mister0124
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:JR_Joetsu_Line_Doai_Station_Outbound_Underground_Platform.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/88/JR_Joetsu_Line_Doai_Station_Outbound_Underground_Platform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Outbound Underground Platform of JR Joetsu Line Doai Station
+  width: 4232
+  height: 2990
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
+- file: stairs-from-platform
+  title: File:Stairs from platform level to ground level at Doai Station.jpg
+  author: Cheng-en Cheng
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Stairs_from_platform_level_to_ground_level_at_Doai_Station.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/43/Stairs_from_platform_level_to_ground_level_at_Doai_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 日本一のモグラ駅：土合駅
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
+- file: station-building
+  title: File:Doai-station 01.jpg
+  author: RSSFSO
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source_url: https://commons.wikimedia.org/wiki/File:Doai-station_01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/1/1b/Doai-station_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: 上越線土合駅（群馬県みなかみ町）入口
+  width: 5758
+  height: 3839
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
+- file: building-in-snow
+  title: File:Doai station with heavy snow.jpg
+  author: takeshi yagi from 船橋
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Doai_station_with_heavy_snow.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/81/Doai_station_with_heavy_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Doai station with heavy snow
+  width: 1024
+  height: 768
+  widths:
+    - 640
+    - 1024
+  fetched: 2026-11-26
+  origin: commons
