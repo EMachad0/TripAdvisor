@@ -1,0 +1,19 @@
+# Independent review of tateishi-park-your-name-lake-view. Written by `./atr review`; do not edit by hand.
+id: tateishi-park-your-name-lake-view
+type: place
+reviewed: 2026-11-26
+verdict: pass
+content_hash: b7aa87b35353600d06c200ed8cc4ff76ccaca7aedba5482ae1ada9de82f6c40b
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: why
+    problem: The page says the Your Name lake is Lake Suwa and that the makers never named a model lake. A listed source says Shinkai named Matsubara Lake and Ōtsuki Lake in Koumi, Nagano, as his image for Itomori Lake, and that Lake Suwa only resembles it more closely.
+    evidence: "`why`, the hook, quick_facts.extra[0] and the prose now say fans compare the view to Itomori Lake and that Shinkai named Koumi's Matsubara and Otsuki lakes. 'Never named it officially' is gone. https://ciatr.jp/topics/323228 says: \"長野県南佐久郡小海町出身である新海誠監督は…「糸守湖のイメージは長野県小海町の松原湖と大月湖」\" and 糸守湖 \"諏訪湖によく似ています\". https://www.go-nagano.net/en/trip-idea/id16505 says: \"It grew even more popular due to its striking resemblance to the scenery found in the animated film 'Your Name'\". The phone render (s01, s04) shows the new text with nothing cut off."
+rereview_of: 00346ca6dfcc07bd84aa012127ef09885af88a06c2147d2c5486e4998579d3c0
+summary: The one earlier finding is fixed. The page now credits Shinkai's own image of Koumi's Matsubara and Otsuki lakes and calls Lake Suwa a lake fans compare to Itomori. Every new claim is backed by ciatr or Go Nagano (Shinkai's lake image, his Koumi origin, the park's popularity from the resemblance, the Hida town scenes). Moving the sunset times from hours.winter into quick facts added no unsupported fact, and no open blocker or should remains.
+model: claude-opus-5-5
+cost_usd: 0.667
