@@ -10,10 +10,12 @@
 	laptop up a sticky side panel (with the cities to jump to) beside a grid of three or four columns.
 -->
 <script lang="ts">
+	import MapIcon from '@lucide/svelte/icons/map';
 	import SearchIcon from '@lucide/svelte/icons/search';
 	import SlidersHorizontal from '@lucide/svelte/icons/sliders-horizontal';
 	import XIcon from '@lucide/svelte/icons/x';
 	import { SvelteSet } from 'svelte/reactivity';
+	import { resolve } from '$app/paths';
 	import { hereOn, localKey, type Show } from '@atr/shared/trip';
 	import PlaceSheet from '#lib/components/shared/PlaceSheet.svelte';
 	import type { SheetTarget } from '#lib/components/shared/PlaceSheet.types.js';
@@ -22,6 +24,7 @@
 	import * as ToggleGroup from '#lib/components/ui/toggle-group/index.js';
 	import { getAppData } from '#lib/content/app-data.svelte.js';
 	import { verdictsOf } from '#lib/features/cards/calls.svelte.js';
+	import { mapCities } from '#lib/features/citymap/model.js';
 	import { setVisited } from '#lib/features/trip/actions.js';
 	import { TripData } from '#lib/features/trip/trip-data.svelte.js';
 	import { cn } from '#lib/utils.js';
@@ -50,6 +53,8 @@
 
 	let { arg }: Props = $props();
 	const app = getAppData();
+	/** `country/city` keys that have a city map (a link beside the group's name). */
+	const mapped = $derived(mapCities(app.content.places, app.content.hubs));
 	const trip = new TripData(app);
 
 	const content = $derived(app.content);
@@ -308,6 +313,18 @@
 									<span class="text-base md:text-lg" aria-hidden="true">{flag(g.country)}</span>
 									<span class="truncate">{g.cityName}</span>
 								</h2>
+								{#if mapped.has(g.key)}
+									{@const [gc = '', gcity = ''] = g.key.split('/')}
+									<a
+										href={resolve('/(app)/trip/map/[country]/[city]', {
+											country: gc,
+											city: gcity,
+										})}
+										class="mr-auto inline-flex min-h-9 shrink-0 items-center gap-1 rounded-full px-2 text-xs font-medium text-muted-foreground transition-colors hover:text-cat pointer-coarse:min-h-11"
+										aria-label={`City map of ${g.cityName}`}
+										data-places-citymap><MapIcon class="size-3.5" />Map</a
+									>
+								{/if}
 								<span class="flex shrink-0 items-center gap-2 text-xs text-muted-foreground nums">
 									<span
 										class="relative hidden h-1.5 w-16 overflow-hidden rounded-full bg-muted shadow-inset md:block"

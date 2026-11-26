@@ -14,12 +14,15 @@
 	import PlaneIcon from '@lucide/svelte/icons/plane';
 	import RouteIcon from '@lucide/svelte/icons/route';
 	import { onDestroy, tick } from 'svelte';
+	import { resolve } from '$app/paths';
 	import { toast } from 'svelte-sonner';
 	import PlaceSheet from '#lib/components/shared/PlaceSheet.svelte';
 	import type { SheetTarget } from '#lib/components/shared/PlaceSheet.types.js';
 	import { Button } from '#lib/components/ui/button/index.js';
 	import * as Empty from '#lib/components/ui/empty/index.js';
 	import { getAppData } from '#lib/content/app-data.svelte.js';
+	import { mapCities, stopCity } from '#lib/features/citymap/model.js';
+	import { TripData } from '#lib/features/trip/trip-data.svelte.js';
 	import { GUEST_MESSAGE } from '#lib/sync/write.js';
 	import { cn } from '#lib/utils.js';
 	import { RouteEditor } from './editor.svelte.ts';
@@ -44,6 +47,7 @@
 	/** A separator that keeps its spaces at the start of an {#if} block (Svelte trims literal ones there). */
 	const SEP = ' · ';
 	const editor = new RouteEditor();
+	const trip = new TripData(app);
 
 	const countries = $derived(editor.apply(app.route.countries));
 	const legs = $derived(routeLegs(countries));
@@ -64,6 +68,22 @@
 	const edit = $derived(editing && !app.isGuest);
 	let sheet = $state<SheetTarget | null>(null);
 	const card = $derived(sel === null ? null : cityCard(legs, sel));
+
+	// The city map of a stop or city (`country/area`): its place city (shanghai-weekend → shanghai), only when that
+	// city has located cards or hubs, so no link leads to an empty map.
+	const mapped = $derived(mapCities(app.content.places, app.content.hubs));
+	function citymap(key: string): string | null {
+		const [cid = '', area = ''] = key.split('/');
+		const stop = legs.find((l) => l.c.id === cid)?.stops.find((s) => s.area === area);
+		const city = stopCity({ area, start: stop?.start ?? null, end: stop?.end ?? null }, cid, {
+			areas: app.content.areas,
+			mapped,
+			legs: trip.legs,
+		});
+		return city === null
+			? null
+			: resolve('/(app)/trip/map/[country]/[city]', { country: cid, city });
+	}
 
 	let chipsEl = $state<HTMLElement | null>(null);
 	let mapColEl = $state<HTMLElement | null>(null);
@@ -355,6 +375,7 @@
 						onopenarea={(area: string) => {
 							sheet = { kind: 'area', id: area };
 						}}
+						{citymap}
 					/>
 				</div>
 
@@ -430,6 +451,7 @@
 								onremove={removeStop}
 								onadd={addStop}
 								onreset={resetLeg}
+								{citymap}
 							/>
 						</div>
 					{/each}

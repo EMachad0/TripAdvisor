@@ -65,6 +65,14 @@ export const tripLegs = defineTable({
 	tz: opt(numberOrString),
 	tzStart: opt(numberOrString),
 	tzEnd: opt(numberOrString),
+	/** A stay: the id of the stay card that was booked (the city map pins it). */
+	place: str(),
+	/** A stay: the booked bed's coordinates when it has no card. */
+	lat: num(),
+	lng: num(),
+	/** A stay: hub ids (config/hubs.yaml) where the traveler enters / leaves the city, when no flight says. */
+	arrive: str(),
+	leave: str(),
 }).index('by_doc_id', ['id']);
 
 export const tripBag = defineTable({

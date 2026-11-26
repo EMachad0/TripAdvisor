@@ -9,7 +9,7 @@ export { bookingLinks, bookingLevel, bookBadgeText, bookAheadList } from './book
 export { gallerySlots, factSpans } from './render/layout.js';
 export { renderPlacePage, renderPlaceCard, renderAreaCard, renderIndexPage, renderAreasPage, styles, copyAssets, md, mdInline, esc } from './render/index.js';
 export { readFeedback, readJsonl, tasteSummary, formatTaste, FEEDBACK_SPECS, FEEDBACK_KINDS, latestNotes, currentNotes } from './feedback/index.js';
-export { loadTripConfig } from './config.js';
+export { loadTripConfig, loadHubsFile } from './config.js';
 export { gapReport, formatGaps, categoryBalance, areasWanted, GAP_DEFAULTS } from './gaps.js';
 export { dataRoots, ROOT } from './paths.js';
 export { COUNTRIES, COUNTRY_IDS, CATEGORIES, CATEGORY_IDS, ATTRACTION_CATEGORY_IDS, KINDS, BOOK_METHODS, BOOK_METHOD_IDS, CONFIDENCE, FAME, FAME_IDS, FAME_CHIP, MUST_DO_CHIP, STAY_STYLES } from './schema/enums.js';

@@ -83,6 +83,37 @@ describe('readContent', () => {
 	});
 });
 
+describe('hubs (config/hubs.yaml)', () => {
+	test('the e2e root: well-formed hubs only, the bad entry dropped', () => {
+		const { hubs } = readContent(source).payload;
+		expect(hubs.map((h) => h.id)).toEqual(['pvg', 'shanghai-hongqiao']);
+		expect(hubs[0]).toMatchObject({ kind: 'airport', code: 'PVG', city: 'shanghai', lat: 31.1443 });
+		expect(hubs[1]?.code).toBeNull();
+	});
+
+	test('a root without the file has no hubs; a broken file is no hubs, not an error', () => {
+		const root = scratchRoot();
+		expect(readContent({ root, includeFixtures: false }).payload.hubs).toEqual([]);
+		fs.writeFileSync(path.join(root, 'config/hubs.yaml'), 'hubs: [ {id: pvg, : :\n');
+		expect(readContent({ root, includeFixtures: false }).payload.hubs).toEqual([]);
+		fs.writeFileSync(path.join(root, 'config/hubs.yaml'), '');
+		expect(readContent({ root, includeFixtures: false }).payload.hubs).toEqual([]);
+	});
+
+	test('adding the file changes the content version', () => {
+		const root = scratchRoot();
+		const before = contentFingerprint({ root, includeFixtures: false });
+		fs.writeFileSync(
+			path.join(root, 'config/hubs.yaml'),
+			'hubs:\n  - { id: pvg, kind: airport, name: Pudong, country: china, city: shanghai, lat: 31.1, lng: 121.8 }\n',
+		);
+		expect(contentFingerprint({ root, includeFixtures: false })).not.toBe(before);
+		expect(readContent({ root, includeFixtures: false }).payload.hubs.map((h) => h.id)).toEqual([
+			'pvg',
+		]);
+	});
+});
+
 describe('ContentCache', () => {
 	test('re-reads only when a content file changed, checked at most every recheckMs', () => {
 		const root = scratchRoot();

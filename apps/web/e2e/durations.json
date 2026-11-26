@@ -6,6 +6,7 @@
 		"board.spec.ts": 18,
 		"calendar.spec.ts": 20,
 		"calls.spec.ts": 18,
+		"citymap.spec.ts": 20,
 		"deck.spec.ts": 26,
 		"duels.spec.ts": 19,
 		"holidays.spec.ts": 23,

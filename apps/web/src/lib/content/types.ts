@@ -153,6 +153,28 @@ export interface Answer {
 	tz: number | null;
 }
 
+/** How a hub is reached: a plane, a train, a coach or a boat. */
+export type HubKind = 'airport' | 'station' | 'bus' | 'ferry';
+
+/** An airport or station of a city (config/hubs.yaml), drawn on the city map. Added by the city-map change. */
+export interface Hub {
+	/** Lowercase slug, unique; an airport's IATA code in lowercase. */
+	id: string;
+	kind: HubKind;
+	/** IATA for airports (upper case); matches a flight's from / to. null when none. */
+	code: string | null;
+	name: string;
+	name_local: string | null;
+	/** Country id as in places/<country>/. */
+	country: string;
+	/** City id as in places/<country>/<city>/. */
+	city: string;
+	lat: number;
+	lng: number;
+	/** One line a traveler needs, or null. */
+	note: string | null;
+}
+
 /** What the Route tab model needs from the config besides route.current (see routeModel in @atr/shared). */
 export interface RouteBase {
 	countries: RouteModelCountry[];
@@ -174,6 +196,8 @@ export interface ContentPayload {
 	areas: ContentArea[];
 	answers: Answer[];
 	routeBase: RouteBase;
+	/** Airports and stations (config/hubs.yaml); [] when the file is missing or empty. */
+	hubs: Hub[];
 }
 
 /** The (app) layout's route model: the old GET /api/route body, from route.current (or the seeds). */

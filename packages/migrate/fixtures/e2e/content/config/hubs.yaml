@@ -1,0 +1,27 @@
+# FIXTURE — e2e airports and stations (packages/migrate/fixtures/e2e/content), the shape of config/hubs.yaml.
+# PVG is where the e2e flight gru-pvg lands (an "Arrive" tag on the Shanghai map); Hongqiao station is unused.
+# The last entry is malformed on purpose: the loader drops it.
+hubs:
+  - id: pvg
+    kind: airport
+    code: PVG
+    name: Shanghai Pudong International Airport
+    name_local: 上海浦东国际机场
+    country: china
+    city: shanghai
+    lat: 31.1443
+    lng: 121.8083
+    note: Maglev or metro line 2 into town.
+  - id: shanghai-hongqiao
+    kind: station
+    name: Shanghai Hongqiao Railway Station
+    name_local: 上海虹桥站
+    country: china
+    city: shanghai
+    lat: 31.1942
+    lng: 121.3203
+  - id: broken
+    kind: spaceport
+    name: Not a hub
+    country: china
+    city: shanghai

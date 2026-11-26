@@ -11,9 +11,11 @@ import {
 	mapBlock,
 	mapCacheDir,
 	mapKey,
+	osmTile,
 	placeMapOf,
 	readContentFiles,
 	renderStaticMap,
+	TILE_FETCH_LIMIT,
 	type ContentFiles,
 } from '#lib/server/maps.js';
 
@@ -55,6 +57,82 @@ function tileServer(statuses: number[] = []): { fetch: typeof fetch; urls: strin
 	});
 	return { fetch: fake, urls };
 }
+
+describe('osmTile (GET /tiles and the stitcher)', () => {
+	test('fetches once with the bot User-Agent, caches, and shares one fetch between concurrent calls', async () => {
+		const cacheDir = tmpDir();
+		const server = tileServer();
+		const opts = { cacheDir, fetch: server.fetch, offline: false };
+		const [a, b] = await Promise.all([
+			osmTile(12, 3425, 1677, opts),
+			osmTile(12, 3425, 1677, opts),
+		]);
+		expect(a.equals(b)).toBe(true);
+		expect(server.urls).toEqual(['https://tile.openstreetmap.org/12/3425/1677.png']);
+		expect(fs.existsSync(path.join(cacheDir, 'tiles', '12', '3425', '1677.png'))).toBe(true);
+		// from the cache afterwards, also offline
+		const again = tileServer();
+		await osmTile(12, 3425, 1677, { cacheDir, fetch: again.fetch, offline: true });
+		expect(again.urls).toEqual([]);
+	});
+
+	test('offline and not cached, or refused by the tile server: rejects', async () => {
+		await expect(osmTile(5, 1, 1, { cacheDir: tmpDir(), offline: true })).rejects.toThrow(
+			/offline/,
+		);
+		const gone = tileServer([404]);
+		await expect(
+			osmTile(5, 1, 1, { cacheDir: tmpDir(), fetch: gone.fetch, offline: false, retryMs: 0 }),
+		).rejects.toThrow(/404/);
+		const busy = tileServer([503, 429]);
+		const buf = await osmTile(5, 1, 1, {
+			cacheDir: tmpDir(),
+			fetch: busy.fetch,
+			offline: false,
+			retryMs: 0,
+		});
+		expect(buf.length).toBeGreaterThan(0);
+		expect(busy.urls).toHaveLength(3);
+	});
+
+	test(`sends at most ${String(TILE_FETCH_LIMIT)} upstream requests at once`, async () => {
+		const cacheDir = tmpDir();
+		let now = 0;
+		let peak = 0;
+		const slow = vi.fn(async () => {
+			now++;
+			peak = Math.max(peak, now);
+			await new Promise((r) => setTimeout(r, 5));
+			now--;
+			return new Response(new Uint8Array(await png()), { status: 200 });
+		});
+		const tiles = Array.from({ length: 12 }, (_, i) =>
+			osmTile(10, i, 7, { cacheDir, fetch: slow, offline: false }),
+		);
+		await Promise.all(tiles);
+		expect(slow).toHaveBeenCalledTimes(12);
+		expect(peak).toBe(TILE_FETCH_LIMIT);
+	});
+
+	test('a stalled tile server is aborted after the timeout, and the slot is freed', async () => {
+		const stalled = vi.fn(
+			(_url: string | URL | Request, init?: RequestInit) =>
+				new Promise<Response>((_resolve, reject) => {
+					init?.signal?.addEventListener('abort', () => {
+						reject(new Error('aborted'));
+					});
+				}),
+		);
+		const opts = { cacheDir: tmpDir(), fetch: stalled, offline: false, timeoutMs: 20 };
+		await expect(osmTile(6, 1, 1, opts)).rejects.toThrow(/aborted/);
+		// every slot is free again: a later tile still loads
+		const ok = tileServer();
+		const many = Array.from({ length: TILE_FETCH_LIMIT + 1 }, (_, i) =>
+			osmTile(6, i, 2, { cacheDir: opts.cacheDir, fetch: ok.fetch, offline: false }),
+		);
+		await expect(Promise.all(many)).resolves.toHaveLength(TILE_FETCH_LIMIT + 1);
+	});
+});
 
 describe('renderStaticMap', () => {
 	test('stitches tiles into a cached webp, keyed like the old platform cache', async () => {

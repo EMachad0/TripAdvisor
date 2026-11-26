@@ -37,6 +37,10 @@ describe('strategyOf', () => {
 		}
 		expect(of('/loginx', { mode: 'navigate' })).toBe('page');
 	});
+	test('leaves the city map tiles to the browser cache (they would flood the runtime cache)', () => {
+		expect(of('/tiles/14/13700/6700.png')).toBe('skip');
+		expect(of('/tilesx/1.png')).toBe('runtime');
+	});
 	test('skips writes, other origins and range requests', () => {
 		expect(of('/trip', { method: 'POST', mode: 'navigate' })).toBe('skip');
 		expect(strategyOf(req('/x'), 'https://other.example', PRECACHED)).toBe('skip');

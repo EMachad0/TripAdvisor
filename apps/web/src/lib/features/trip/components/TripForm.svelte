@@ -15,6 +15,7 @@
 	import * as NativeSelect from '#lib/components/ui/native-select/index.js';
 	import { Spinner } from '#lib/components/ui/spinner/index.js';
 	import { Textarea } from '#lib/components/ui/textarea/index.js';
+	import { getAppData } from '#lib/content/app-data.svelte.js';
 	import type { ContentCountry } from '#lib/content/types.js';
 	import { write } from '#lib/sync/write.js';
 	import { cn } from '#lib/utils.js';
@@ -22,8 +23,10 @@
 		fieldShown,
 		formTitle,
 		initialValues,
+		optionsForCities,
 		submitArgs,
 		tripSchema,
+		type FormField,
 		type FormTarget,
 		type FormValues,
 	} from '../forms.ts';
@@ -42,9 +45,22 @@
 
 	let { target, docs, countries, currentBudget = null, onclose }: Props = $props();
 
+	const app = getAppData();
+	/** Stay cards a stay leg can point to (the "Stay card" select). */
+	const stayCards = untrack(() =>
+		app.content.places
+			.filter((p) => p.category === 'stay')
+			.map((p) => ({ id: p.id, name: p.name, city: p.city, cityName: p.cityName })),
+	);
+
+	/** Airports and stations (config/hubs.yaml): a stay's Arrive at / Leave from, a leg's From / To. */
+	const hubs = untrack(() =>
+		app.content.hubs.map((h) => ({ id: h.id, code: h.code, name: h.name, city: h.city })),
+	);
+
 	// The form opens once with the document as it is; later live updates do not overwrite what is being typed.
 	const opened = untrack(() => {
-		const schema = tripSchema(countries)[target.col];
+		const schema = tripSchema(countries, stayCards, hubs)[target.col];
 		const doc = target.id === null ? null : (docs.find((d) => d.id === target.id) ?? null);
 		const exists = doc !== null;
 		return {
@@ -72,6 +88,17 @@
 	let delArmed = $state(false);
 	let busy = $state(false);
 	const legType = $derived(values['type'] ?? '');
+	/** A select's options; Stay card, Arrive at and Leave from offer those of the cities typed above. */
+	const optionsOf = (field: FormField): readonly { value: string; label: string }[] => {
+		const all = field.options ?? [];
+		const chosen = values[field.key] ?? '';
+		const city = values['city'] ?? '';
+		if (col !== 'legs') return all;
+		if (field.key === 'place') return optionsForCities(all, stayCards, city, chosen);
+		if (field.key === 'arrive' || field.key === 'leave')
+			return optionsForCities(all, hubs, city, chosen);
+		return all;
+	};
 	const canDelete = exists && col !== 'settings';
 
 	/** A new document: focus the first field (the old sheet did); an edit keeps focus on the sheet. */
@@ -137,7 +164,7 @@
 							class="w-full"
 							bind:value={values[field.key]}
 						>
-							{#each field.options ?? [] as o (o.value)}
+							{#each optionsOf(field) as o (o.value)}
 								<NativeSelect.Option value={o.value}>{o.label}</NativeSelect.Option>
 							{/each}
 						</NativeSelect.Root>
@@ -148,7 +175,7 @@
 							id={fid}
 							name={field.key}
 							type="number"
-							min="0"
+							min={field.optional ? undefined : '0'}
 							step="any"
 							inputmode="decimal"
 							bind:value={values[field.key]}
@@ -158,11 +185,18 @@
 							id={fid}
 							name={field.key}
 							type={field.type}
-							list={field.key === 'category' && categories.length > 0
-								? 'trip-form-categories'
-								: undefined}
+							list={field.suggest && field.suggest.length > 0
+								? `${fid}-list`
+								: field.key === 'category' && categories.length > 0
+									? 'trip-form-categories'
+									: undefined}
 							bind:value={values[field.key]}
 						/>
+						{#if field.suggest && field.suggest.length > 0}
+							<datalist id={`${fid}-list`}>
+								{#each field.suggest as o (o.value)}<option value={o.value}>{o.label}</option>{/each}
+							</datalist>
+						{/if}
 					{/if}
 				</Field.Field>
 			{/each}

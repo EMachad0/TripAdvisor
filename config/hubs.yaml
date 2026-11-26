@@ -1,0 +1,545 @@
+# Transport hubs: the airports, railway stations and bus terminals where the traveler enters or leaves a city.
+# Loaded into the content payload as `hubs`; the city map shows them and marks each as arrival / departure from
+# the trip legs (a flight's or transport leg's from / to, or a stay leg's `arrive` / `leave` hub id).
+#
+# Each entry:
+#   id          lowercase slug, unique; for an airport its IATA code in lowercase (pvg)
+#   kind        airport | station | bus | ferry
+#   code        optional; the IATA code for an airport. Matched against legs' from / to, case-insensitive
+#   name        English name
+#   name_local  optional; the name in the local script (what signs and ticket apps show)
+#   country     country id as in places/<country>/
+#   city        city id as in places/<country>/<city>/ (the city the hub serves, e.g. KIX -> osaka)
+#   lat, lng    WGS84 as OpenStreetMap shows them (not GCJ-02 from Chinese map apps), at the terminal building
+#               or station concourse. Sources: OpenStreetMap (Nominatim / Overpass) and Wikidata, checked 2026-11-26.
+#   note        optional; one line the traveler needs
+#
+# Bad entries are dropped when loading, never thrown on.
+hubs:
+  # ---------------------------------------------------------------- China: Shanghai
+  - id: pvg
+    kind: airport
+    code: PVG
+    name: Shanghai Pudong International Airport
+    name_local: 上海浦东国际机场
+    country: china
+    city: shanghai
+    lat: 31.1536
+    lng: 121.80593
+    note: Pin at Terminal 2 (Star Alliance, so Turkish TK280); Terminal 1 is a short walk north.
+  - id: sha
+    kind: airport
+    code: SHA
+    name: Shanghai Hongqiao International Airport
+    name_local: 上海虹桥国际机场
+    country: china
+    city: shanghai
+    lat: 31.1963
+    lng: 121.32448
+    note: Terminal 2 is joined to Hongqiao railway station; Metro Line 2 and 10.
+  - id: shanghai-hongqiao
+    kind: station
+    name: Shanghai Hongqiao railway station
+    name_local: 上海虹桥站
+    country: china
+    city: shanghai
+    lat: 31.19603
+    lng: 121.3161
+    note: Most high-speed trains to Beijing South and Huangshan North; Metro Line 2 from People's Square, about 40 min.
+  - id: shanghai-station
+    kind: station
+    name: Shanghai railway station
+    name_local: 上海站
+    country: china
+    city: shanghai
+    lat: 31.25154
+    lng: 121.45111
+    note: A few fast trains to Beijing (G4, G16) and most overnight sleepers leave from here, not Hongqiao.
+  - id: shanghai-south
+    kind: station
+    name: Shanghai South railway station
+    name_local: 上海南站
+    country: china
+    city: shanghai
+    lat: 31.15512
+    lng: 121.42483
+    note: Some trains to Huangshan North start here.
+
+  # ---------------------------------------------------------------- China: Huangshan
+  - id: txn
+    kind: airport
+    code: TXN
+    name: Huangshan Tunxi International Airport
+    name_local: 黄山屯溪国际机场
+    country: china
+    city: huangshan
+    lat: 29.73065
+    lng: 118.25387
+  - id: huangshan-north
+    kind: station
+    name: Huangshan North railway station
+    name_local: 黄山北站
+    country: china
+    city: huangshan
+    lat: 29.81766
+    lng: 118.26794
+    note: High-speed trains from Shanghai (about 2h20-3h); buses to the mountain's Tangkou gate leave from the square.
+
+  # ---------------------------------------------------------------- China: Beijing
+  - id: pek
+    kind: airport
+    code: PEK
+    name: Beijing Capital International Airport
+    name_local: 北京首都国际机场
+    country: china
+    city: beijing
+    lat: 40.06572
+    lng: 116.60747
+    note: Pin at Terminal 3; Terminal 2 is 3 km west.
+  - id: pkx
+    kind: airport
+    code: PKX
+    name: Beijing Daxing International Airport
+    name_local: 北京大兴国际机场
+    country: china
+    city: beijing
+    lat: 39.50917
+    lng: 116.41074
+  - id: beijing-south
+    kind: station
+    name: Beijing South railway station
+    name_local: 北京南站
+    country: china
+    city: beijing
+    lat: 39.86355
+    lng: 116.37257
+    note: Fuxing high-speed trains from Shanghai Hongqiao end here; Metro Line 4 and 14.
+  - id: beijing-west
+    kind: station
+    name: Beijing West railway station
+    name_local: 北京西站
+    country: china
+    city: beijing
+    lat: 39.89354
+    lng: 116.31511
+    note: Trains to Xi'an, including the overnight sleepers, leave from here.
+  - id: beijing-station
+    kind: station
+    name: Beijing railway station
+    name_local: 北京站
+    country: china
+    city: beijing
+    lat: 39.9023
+    lng: 116.42098
+    note: Central; one G28 from Shanghai ends here instead of Beijing South.
+
+  # ---------------------------------------------------------------- China: Xi'an
+  - id: xiy
+    kind: airport
+    code: XIY
+    name: Xi'an Xianyang International Airport
+    name_local: 西安咸阳国际机场
+    country: china
+    city: xian
+    lat: 34.45393
+    lng: 108.77705
+    note: Pin at the new Terminal 5; T1-T3 are 1-2 km south. About 40 km from the walled city.
+  - id: xian-north
+    kind: station
+    name: Xi'an North railway station
+    name_local: 西安北站
+    country: china
+    city: xian
+    lat: 34.3766
+    lng: 108.934
+    note: High-speed trains; Metro Line 2 to the Bell Tower.
+  - id: xian-station
+    kind: station
+    name: Xi'an railway station
+    name_local: 西安站
+    country: china
+    city: xian
+    lat: 34.27999
+    lng: 108.95818
+    note: The old main station just outside the north city wall; conventional and overnight trains, Metro Line 4.
+  - id: xian-east
+    kind: station
+    name: Xi'an East railway station
+    name_local: 西安东站
+    country: china
+    city: xian
+    lat: 34.21551
+    lng: 109.05893
+    note: New station southeast of the city; the K507 overnight to Chongqing North leaves from here.
+
+  # ---------------------------------------------------------------- China: Fenghuang
+  - id: ten
+    kind: airport
+    code: TEN
+    name: Tongren Fenghuang Airport
+    name_local: 铜仁凤凰机场
+    country: china
+    city: fenghuang
+    lat: 27.88427
+    lng: 109.30484
+    note: In Guizhou, about 35 km west of Fenghuang old town.
+  - id: fenghuang-gucheng
+    kind: station
+    name: Fenghuang Gucheng railway station
+    name_local: 凤凰古城站
+    country: china
+    city: fenghuang
+    lat: 28.02051
+    lng: 109.59919
+    note: High-speed station about 8 km north of the old town; trains to Zhangjiajie West via Furongzhen.
+
+  # ---------------------------------------------------------------- China: Zhangjiajie
+  - id: dyg
+    kind: airport
+    code: DYG
+    name: Zhangjiajie Hehua International Airport
+    name_local: 张家界荷花国际机场
+    country: china
+    city: zhangjiajie
+    lat: 29.10696
+    lng: 110.44
+    note: Close to the city; about 40 km from Wulingyuan.
+  - id: zhangjiajie-west
+    kind: station
+    name: Zhangjiajie West railway station
+    name_local: 张家界西站
+    country: china
+    city: zhangjiajie
+    lat: 29.17137
+    lng: 110.458
+    note: High-speed trains (Fenghuang Gucheng, Chongqing East); Wulingyuan has no station, it's a taxi or DiDi from here.
+  - id: zhangjiajie-station
+    kind: station
+    name: Zhangjiajie railway station
+    name_local: 张家界站
+    country: china
+    city: zhangjiajie
+    lat: 29.10739
+    lng: 110.4816
+    note: The old conventional-line station in the city; slow and overnight trains.
+
+  # ---------------------------------------------------------------- China: Chengdu
+  - id: tfu
+    kind: airport
+    code: TFU
+    name: Chengdu Tianfu International Airport
+    name_local: 成都天府国际机场
+    country: china
+    city: chengdu
+    lat: 30.31501
+    lng: 104.43767
+    note: Pin at Terminal 1; about 50 km southeast of the centre, Metro Line 18.
+  - id: ctu
+    kind: airport
+    code: CTU
+    name: Chengdu Shuangliu International Airport
+    name_local: 成都双流国际机场
+    country: china
+    city: chengdu
+    lat: 30.57265
+    lng: 103.95205
+    note: Pin at Terminal 2; the closer airport, Metro Line 10.
+  - id: chengdu-east
+    kind: station
+    name: Chengdu East railway station
+    name_local: 成都东站
+    country: china
+    city: chengdu
+    lat: 30.63118
+    lng: 104.13889
+    note: Main high-speed station; most trains to Chongqing North (1-2 h). Metro Line 2 and 7.
+  - id: chengdu-south
+    kind: station
+    name: Chengdu South railway station
+    name_local: 成都南站
+    country: china
+    city: chengdu
+    lat: 30.60827
+    lng: 104.06604
+    note: Some fast trains to Chongqing stop here; Metro Line 1 and 7.
+
+  # ---------------------------------------------------------------- China: Chongqing
+  - id: ckg
+    kind: airport
+    code: CKG
+    name: Chongqing Jiangbei International Airport
+    name_local: 重庆江北国际机场
+    country: china
+    city: chongqing
+    lat: 29.71353
+    lng: 106.65197
+    note: Pin at Terminal 3A, where most flights, including international, leave; Metro Line 3 and 10.
+  - id: chongqing-north
+    kind: station
+    name: Chongqing North railway station
+    name_local: 重庆北站
+    country: china
+    city: chongqing
+    lat: 29.61232
+    lng: 106.54727
+    note: Most trains from Chengdu East arrive here; 20-35 min by metro to Jiefangbei.
+  - id: chongqing-west
+    kind: station
+    name: Chongqing West railway station
+    name_local: 重庆西站
+    country: china
+    city: chongqing
+    lat: 29.5027
+    lng: 106.43545
+    note: In Shapingba; fast trains to Guizhou and Guangxi, and some from Chengdu.
+  - id: chongqing-east
+    kind: station
+    name: Chongqing East railway station
+    name_local: 重庆东站
+    country: china
+    city: chongqing
+    lat: 29.48726
+    lng: 106.66876
+    note: New station in Nan'an; trains from Zhangjiajie West and the east arrive here.
+
+  # ---------------------------------------------------------------- Thailand: Chiang Mai
+  - id: cnx
+    kind: airport
+    code: CNX
+    name: Chiang Mai International Airport
+    name_local: ท่าอากาศยานนานาชาติเชียงใหม่
+    country: thailand
+    city: chiang-mai
+    lat: 18.769
+    lng: 98.96811
+    note: About 4 km southwest of the old city.
+  - id: chiang-mai-station
+    kind: station
+    name: Chiang Mai railway station
+    name_local: สถานีรถไฟเชียงใหม่
+    country: thailand
+    city: chiang-mai
+    lat: 18.78365
+    lng: 99.01688
+    note: End of the Northern Line; overnight sleepers to Krung Thep Aphiwat in Bangkok.
+  - id: chiang-mai-arcade
+    kind: bus
+    name: Chiang Mai Arcade Bus Terminal
+    name_local: สถานีขนส่งอาเขต
+    country: thailand
+    city: chiang-mai
+    lat: 18.79959
+    lng: 99.01794
+    note: Long-distance buses, including overnight VIP buses to Bangkok Mo Chit.
+
+  # ---------------------------------------------------------------- Thailand: Bangkok
+  - id: bkk
+    kind: airport
+    code: BKK
+    name: Suvarnabhumi Airport
+    name_local: ท่าอากาศยานสุวรรณภูมิ
+    country: thailand
+    city: bangkok
+    lat: 13.69134
+    lng: 100.75052
+    note: Main passenger terminal; Airport Rail Link to Phaya Thai.
+  - id: dmk
+    kind: airport
+    code: DMK
+    name: Don Mueang International Airport
+    name_local: ท่าอากาศยานดอนเมือง
+    country: thailand
+    city: bangkok
+    lat: 13.9211
+    lng: 100.60371
+    note: Low-cost airlines, including most Chiang Mai flights; SRT Red Line to Krung Thep Aphiwat.
+  - id: krung-thep-aphiwat
+    kind: station
+    name: Krung Thep Aphiwat Central Terminal
+    name_local: สถานีกลางกรุงเทพอภิวัฒน์
+    country: thailand
+    city: bangkok
+    lat: 13.80398
+    lng: 100.54186
+    note: Bangkok's long-distance station (Bang Sue); the Chiang Mai sleepers use it, not Hua Lamphong.
+  - id: mo-chit
+    kind: bus
+    name: Bangkok Bus Terminal (Chatuchak), Mo Chit 2
+    name_local: สถานีขนส่งผู้โดยสารกรุงเทพ (จตุจักร)
+    country: thailand
+    city: bangkok
+    lat: 13.81236
+    lng: 100.54776
+    note: Northern bus terminal; buses to and from Chiang Mai.
+
+  # ---------------------------------------------------------------- Singapore
+  - id: sin
+    kind: airport
+    code: SIN
+    name: Singapore Changi Airport
+    country: singapore
+    city: singapore
+    lat: 1.3602
+    lng: 103.9894
+    note: Pin at Jewel, landside between Terminals 1, 2 and 3.
+
+  # ---------------------------------------------------------------- Korea: Seoul
+  - id: icn
+    kind: airport
+    code: ICN
+    name: Incheon International Airport
+    name_local: 인천국제공항
+    country: korea
+    city: seoul
+    lat: 37.44964
+    lng: 126.45086
+    note: Pin at Terminal 1 (Jeju Air and Peach); AREX trains to Seoul Station.
+  - id: gmp
+    kind: airport
+    code: GMP
+    name: Gimpo International Airport
+    name_local: 김포국제공항
+    country: korea
+    city: seoul
+    lat: 37.56606
+    lng: 126.8007
+    note: Pin at the international terminal; closer to the city, flights to Haneda and Kansai.
+  - id: seoul-station
+    kind: station
+    name: Seoul Station
+    name_local: 서울역
+    country: korea
+    city: seoul
+    lat: 37.55472
+    lng: 126.97083
+    note: KTX trains and the AREX airport railroad's city terminal.
+
+  # ---------------------------------------------------------------- Japan: Tokyo
+  - id: hnd
+    kind: airport
+    code: HND
+    name: Tokyo Haneda Airport
+    name_local: 羽田空港
+    country: japan
+    city: tokyo
+    lat: 35.54577
+    lng: 139.76902
+    note: Pin at Terminal 3 (international, where MM808 lands); the last trains leave before it lands.
+  - id: nrt
+    kind: airport
+    code: NRT
+    name: Narita International Airport
+    name_local: 成田国際空港
+    country: japan
+    city: tokyo
+    lat: 35.76309
+    lng: 140.38641
+    note: Pin at Terminal 1; about 60 km east of central Tokyo.
+  - id: tokyo-station
+    kind: station
+    name: Tokyo Station
+    name_local: 東京駅
+    country: japan
+    city: tokyo
+    lat: 35.68083
+    lng: 139.76694
+    note: Tokaido Shinkansen to Shin-Osaka starts here.
+  - id: shinagawa
+    kind: station
+    name: Shinagawa Station
+    name_local: 品川駅
+    country: japan
+    city: tokyo
+    lat: 35.62861
+    lng: 139.73917
+    note: Every Tokaido Shinkansen stops here too; Keikyu line to Haneda.
+
+  # ---------------------------------------------------------------- Japan: Osaka
+  - id: kix
+    kind: airport
+    code: KIX
+    name: Kansai International Airport
+    name_local: 関西国際空港
+    country: japan
+    city: osaka
+    lat: 34.43436
+    lng: 135.24495
+    note: Pin at Terminal 1; Haruka express from Kyoto Station (about 75 min) and Nankai from Namba.
+  - id: itm
+    kind: airport
+    code: ITM
+    name: Osaka Itami Airport
+    name_local: 大阪国際空港
+    country: japan
+    city: osaka
+    lat: 34.79103
+    lng: 135.44037
+    note: Domestic flights only.
+  - id: shin-osaka
+    kind: station
+    name: Shin-Osaka Station
+    name_local: 新大阪駅
+    country: japan
+    city: osaka
+    lat: 34.73361
+    lng: 135.5
+    note: Shinkansen from Tokyo arrive here; one stop on the JR or Midosuji line to Umeda.
+  - id: osaka-station
+    kind: station
+    name: Osaka Station (Umeda)
+    name_local: 大阪駅
+    country: japan
+    city: osaka
+    lat: 34.7025
+    lng: 135.49611
+    note: JR Special Rapid trains to Kyoto Station in about 30 min; Hankyu to Kyoto leaves from Osaka-Umeda next door.
+
+  # ---------------------------------------------------------------- Japan: Kyoto
+  - id: kyoto-station
+    kind: station
+    name: Kyoto Station
+    name_local: 京都駅
+    country: japan
+    city: kyoto
+    lat: 34.98556
+    lng: 135.75861
+    note: JR from Osaka, Shinkansen, and the Haruka express to Kansai Airport.
+
+  # ---------------------------------------------------------------- Hong Kong
+  - id: hkg
+    kind: airport
+    code: HKG
+    name: Hong Kong International Airport
+    name_local: 香港國際機場
+    country: hong-kong
+    city: hong-kong
+    lat: 22.31272
+    lng: 113.92651
+    note: Pin at Terminal 1; Airport Express to Kowloon and Hong Kong stations in about 24 min.
+  - id: hong-kong-station
+    kind: station
+    name: Hong Kong station (Airport Express)
+    name_local: 香港站
+    country: hong-kong
+    city: hong-kong
+    lat: 22.2841
+    lng: 114.15892
+    note: Airport Express city terminal in Central, with in-town check-in for some airlines.
+  - id: kowloon-station
+    kind: station
+    name: Kowloon station (Airport Express)
+    name_local: 九龍站
+    country: hong-kong
+    city: hong-kong
+    lat: 22.30512
+    lng: 114.16184
+    note: Airport Express stop on the Kowloon side.
+  - id: west-kowloon
+    kind: station
+    name: Hong Kong West Kowloon station
+    name_local: 香港西九龍站
+    country: hong-kong
+    city: hong-kong
+    lat: 22.3036
+    lng: 114.165
+    note: High-speed trains to mainland China (Shenzhen, Guangzhou and beyond).

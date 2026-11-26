@@ -41,6 +41,14 @@ export interface TripLeg {
 	tz?: number | string;
 	tzStart?: number | string;
 	tzEnd?: number | string;
+	/** A stay: the id of the stay card that was booked (its pin on the city map). */
+	place?: string;
+	/** A stay: the booked bed's pin when it has no card. */
+	lat?: number;
+	lng?: number;
+	/** A stay: the hub id (config/hubs.yaml) the traveler arrives at / leaves from when no flight or transfer says. */
+	arrive?: string;
+	leave?: string;
 }
 
 export interface TripDay {
@@ -78,6 +86,9 @@ const LEG_STRINGS = [
 	'plan',
 	'ref',
 	'link',
+	'place',
+	'arrive',
+	'leave',
 ] as const satisfies readonly (keyof TripLeg)[];
 
 type LegStringKey = (typeof LEG_STRINGS)[number];
@@ -99,6 +110,10 @@ export function asLeg(doc: TripDoc): TripLeg {
 	for (const k of ['tz', 'tzStart', 'tzEnd'] as const) {
 		const v = doc[k];
 		if (isNumOrStr(v)) out[k] = v;
+	}
+	for (const k of ['lat', 'lng'] as const) {
+		const v = doc[k];
+		if (typeof v === 'number' && Number.isFinite(v)) out[k] = v;
 	}
 	return out;
 }
