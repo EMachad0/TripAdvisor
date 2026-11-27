@@ -1,8 +1,9 @@
 ---
 question: What type of plug do they use in these countries? I don't have an adapter, should I buy one from Mercado Livre?
 asked: 2026-11-24
+updated: 2026-11-26
 about: trip
-tldr: "Yes, buy one universal adapter before leaving. A Brazilian 2-pin plug already fits in China, Thailand and Korea, but Japan (flat pins), Hong Kong and Singapore (UK 3-pin) need an adapter, and a Brazilian 3-pin plug fits nowhere. No voltage converter needed for phone and laptop chargers."
+tldr: "Sorted: you carry a 70 W universal adapter that covers every stop. A Brazilian 2-pin plug already fits in China, Thailand and Korea, but Japan (flat pins), Hong Kong and Singapore (UK 3-pin) need an adapter, and a Brazilian 3-pin plug fits nowhere. No voltage converter needed for phone and laptop chargers."
 sources:
   - title: "Panasonic: typical electrical conditions in major countries/regions"
     url: https://panasonic.jp/tourist/en/electricity.html
@@ -26,13 +27,12 @@ A Brazilian **3-pin** plug (the usual laptop charger) fits none of them: the mid
 
 **Voltage:** phone, laptop and power bank chargers are marked `INPUT: 100-240V` and work everywhere, including Japan's 100 V, where they charge a bit slower. Check the small print on each charger. Leave anything 127 V-only or 220 V-only (hair dryer, clipper) at home: an adapter changes the shape, not the voltage.
 
-**What to buy:**
+**What you carry (sorted 2026-11-26):** a Decqle 70 W GaN universal travel adapter, bought on Mercado Livre and tested at home. It has slide-out US, EU, UK and AU pins, 3 USB-C and 2 USB-A ports, a universal front socket and a US/Japan side socket.
 
-1. Best: a universal travel adapter with built-in USB-C fast charging (65 W GaN, sliding pins for US/EU/UK/AU). Phone and laptop both charge by USB-C cable straight from it, so the Brazilian plug stops mattering. Roughly R$ 150–300 on Mercado Livre (rough range, not checked against listings).
-2. Cheaper: a plain universal adapter, roughly R$ 30–80. Read the listing: it must say it accepts the Brazilian 3-pin plug (*entrada padrão brasileiro / 3 pinos*). Many universal ones do not.
+- **Which pins where:** US (two flat) in Japan, and it also goes in China and Thailand. EU (two round) in Korea. UK (three rectangular) in Hong Kong and Singapore. AU (angled flat) is a second option in China.
+- **Laptop:** use the port marked `USB-C1` on its own. The 70 W is for that port alone and is shared when other ports are in use.
+- The listing says it does not fit type M sockets. That is South Africa and parts of India, not Korea.
 
-**Buying on Mercado Livre:** fine, as long as the listing is **Full** or shows a delivery date before the flight out in early December. Skip *compra internacional* listings, they ship from abroad and take weeks.
-
-**If it does not arrive:** not an emergency. The 2-pin phone charger works in China from day one, and adapters are sold in airport shops, Miniso and convenience stores there for about ¥20–60 (≈ R$ 18–53, at 1 CNY = R$ 0,8807, ECB rate of 2026-11-24). The first place that truly needs one is Singapore on Jan 10.
+**If it breaks or gets lost:** not an emergency. Adapters are sold in airport shops, Miniso and convenience stores in China for about ¥20–60 (≈ R$ 18–53, at 1 CNY = R$ 0,8807, ECB rate of 2026-11-24), and the Brazilian 2-pin phone charger works without one in China, Thailand and Korea.
 
 Plug facts as of Nov 2026.
