@@ -1,0 +1,16 @@
+# Independent review of nana-hotel-bangkok. Written by `./atr review`; do not edit by hand.
+id: nana-hotel-bangkok
+type: place
+reviewed: 2026-11-26
+verdict: pass
+content_hash: cd063733e899ec4cfb7dd4ffd933d7185a1297a70c6846510ef54ea1d5ded0a0
+facts:
+  supported: 4
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved: []
+rereview_of: a93fac2a27a2adda95940d2938d251ff06ebf4d44e0c0294434121c7cf438e82
+summary: The three nits from the first review are fixed, and the official site and Trip.com back the new text. Breakfast now reads 'from 07:00 (to 10:00 or 10:30)'. The official accommodation page says 07:00–10:00, while the rates page and Trip.com say 10:30. The bathtub claim is gone, and the official site lists the safe, fridge and daily water. The airport transfer now credits Agoda and notes that Trip.com says the hotel offers none. Nothing in the changed text needs another fix.
+model: claude-opus-5-5
+cost_usd: 0.519

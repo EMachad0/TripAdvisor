@@ -1,0 +1,223 @@
+id: nana-hotel-bangkok
+name: "Nana Hotel Bangkok"
+short_name: Nana Hotel
+name_local: โรงแรมนานา
+country: thailand
+city: bangkok
+area: "Nana · Sukhumvit Soi 4"
+category: stay
+tags: [hotel, pool, breakfast-included, bts, nightlife-area, guest-friendly, smoking-rooms, not-social]
+kind: Stay
+why: "A private room with breakfast and a big 3rd-floor pool across Soi 4 from Nana Plaza, 5 min from BTS Nana. From ฿1,538 a night; not social, rooms dated."
+
+cost:
+  local: 1538
+  currency: THB
+  brl: 260.23
+  note: "Cheapest room for Fri 8 Jan 2027 (Klook via Google Hotels, searched 26 Nov). A whole room; 6–9 Jan all ฿1,538–1,614"
+fx: { rate: 0.1692, date: 2026-11-26, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book once your Bangkok nights are fixed; take a free-cancellation rate"
+  method: platform
+  links:
+    - label: "Agoda, night of Wed 6 Jan"
+      url: "https://www.agoda.com/nana-hotel-bangkok/hotel/bangkok-th.html?checkIn=2027-01-06&los=1&adults=1&rooms=1&currency=THB"
+      note: "฿1,713 with breakfast, free cancellation until 3 Jan (Google Hotels, 26 Nov). Change the dates"
+    - label: "Google Hotels, 6–7 Jan (all sites)"
+      url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAYSBwjrDxABGAcyAggAKgcKBToDVEhC"
+      note: "Compares Klook, Agoda, Trip.com and AirAsia MOVE for the same night"
+    - label: "Official site (rack rates, booking form)"
+      url: "https://www.nanahotel.co.th/rooms-rates.php?page=accommodation/3!room-rates/6"
+      note: "Standard ฿1,790 net with breakfast; no dates or validity shown"
+  notes: "The official site says it holds a booking only until 18:00 (19:00 elsewhere on the site) unless you give a flight number or arrival time, and honours only reservations it has confirmed. Its reservations desk works 08:00–16:00, not Sundays."
+
+hours:
+  summary: "24 h front desk · check-in 14:00 · check-out 12:00 on Agoda/Trip.com, 14:00 on the official site · breakfast from 07:00 (to 10:00 or 10:30)"
+  winter: "Your Bangkok nights (Tue 5 or Wed 6 to Sun 10 Jan) are after New Year. Cheapest room per Google Hotels on 26 Nov: Tue 5 Jan ฿1,650, Wed 6 ฿1,540, Thu 7 ฿1,596, Fri 8 ฿1,538, Sat 9 ฿1,614. No seasonal closures listed on the official site."
+
+location:
+  address: "4 Soi Nana Tai (Sukhumvit Soi 4), Sukhumvit Road, Khlong Toei, Bangkok 10110"
+  address_local: "โรงแรมนานา 4 ซอยสุขุมวิท 4 (นานาใต้) ถนนสุขุมวิท แขวงคลองเตย เขตคลองเตย กรุงเทพฯ 10110"
+  lat: 13.74126
+  lng: 100.55262
+  nearest_transit: "BTS Nana, 300 m (about 5 min walk); BTS Phloen Chit 450 m"
+
+sources:
+  - url: https://www.nanahotel.co.th/
+    title: "Nana Hotel official site: address, room types, 126 m² outdoor pool, restaurant 07:00–02:00, pool bar, booking hold rules"
+    checked: 2026-11-26
+  - url: "https://www.nanahotel.co.th/rooms-rates.php?page=accommodation/3!room-rates/6"
+    title: "Official room rates: Standard ฿1,790 to Jacuzzi Suite ฿3,390, net with tax, breakfast for internet bookings, check-in/out 14:00"
+    checked: 2026-11-26
+  - url: "https://www.nanahotel.co.th/content.php?page=accommodation/3!accommodation/6"
+    title: "Official accommodation page: in-room safe, fridge, daily water, satellite TV, Wi-Fi, 24 h room service, laundry"
+    checked: 2026-11-26
+  - url: "https://www.nanahotel.co.th/content.php?page=the-hotel/2!the-hotel/1"
+    title: "Official hotel history: opened 1963 (5-storey), 14-storey wing 1973, 334 or 349 rooms"
+    checked: 2026-11-26
+  - url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAYSBwjrDxABGAcyAggAKgcKBToDVEhC"
+    title: "Google Hotels, Nana Hotel, 6–7 Jan 2027: Klook ฿1,540, AirAsia MOVE ฿1,618, Agoda ฿1,713, Trip.com ฿1,878; Google 4.0 from 496 reviews"
+    checked: 2026-11-26
+  - url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAUSBwjrDxABGAYyAggAKgcKBToDVEhC"
+    title: "Google Hotels, Nana Hotel, 5–6 Jan 2027: from ฿1,650 (hutchgo), Trip.com Standard Double ฿1,878"
+    checked: 2026-11-26
+  - url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAkSBwjrDxABGAoyAggAKgcKBToDVEhC"
+    title: "Google Hotels, Nana Hotel, 9–10 Jan 2027: Klook ฿1,614, Agoda ฿1,730, Trip.com ฿1,938"
+    checked: 2026-11-26
+  - url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAcSBwjrDxABGAgyAggAKgcKBToDVEhC"
+    title: "Google Hotels, Nana Hotel, 7–8 Jan 2027: Klook ฿1,596, Trip.com Standard Double ฿1,811"
+    checked: 2026-11-26
+  - url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAgSBwjrDxABGAkyAggAKgcKBToDVEhC"
+    title: "Google Hotels, Nana Hotel, 8–9 Jan 2027: Klook ฿1,538, Trip.com Standard Double ฿1,878"
+    checked: 2026-11-26
+  - url: "https://www.hostelworld.com/pwa/hosteldetails.php/Lub-d-Bangkok-Siam/Bangkok/42690?from=2027-01-06&to=2027-01-10&guests=1&currency=THB"
+    title: "Lub d Siam on Hostelworld, 6–10 Jan 2027: 4-bed dorm ฿599.03 a night; Sat 9 Jan private 4-bed room, shared bathroom ฿1,571"
+    checked: 2026-11-26
+  - url: "https://www.agoda.com/nana-hotel-bangkok/hotel/bangkok-th.html?checkIn=2027-01-06&los=1&adults=1&rooms=1&currency=THB"
+    title: "Nana Hotel on Agoda (6 Jan search): 7.9 from 16,039 reviews, 25 m² Standard, all rooms smoking, 3rd-floor pool, BTS Nana 300 m, policies"
+    checked: 2026-11-26
+  - url: https://au.trip.com/hotels/bangkok-hotel-detail-2296873/nana-hotel
+    title: "Nana Hotel on Trip.com: 8.3 from 786 reviews, renovated 2024, no deposit, 18+, review summary flags nightlife noise"
+    checked: 2026-11-26
+  - url: "https://www.tripadvisor.com/FAQ_Answers-g293916-d311439-t3255426-Is_this_hotel_guest_friendly_Do_they_charge_a.html"
+    title: "Tripadvisor Q&A: is Nana Hotel guest friendly, any fee? Travellers: no fee, guest leaves ID at the security desk by the lifts"
+    checked: 2026-11-26
+  - url: "https://www.tripadvisor.co.uk/FAQ_Answers-g293916-d311439-t2899043-Is_this_hotel_guest_friendly_or_you_should_pay.html"
+    title: "Tripadvisor UK Q&A: guest friendly, no joiner fee, register the guest at reception with ID"
+    checked: 2026-11-26
+  - url: https://en.wikipedia.org/wiki/Nana_BTS_station
+    title: "Nana BTS station (Wikipedia): Sukhumvit Line, next stops Phloen Chit and Asok"
+    checked: 2026-11-26
+  - url: https://commons.wikimedia.org/wiki/File:Nana_Hotel,_Bangkok_(37571933690).jpg
+    title: "Wikimedia Commons: Nana Hotel 3rd-floor pool, photographed 21 Oct 2017"
+    checked: 2026-11-26
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok (Wikipedia): climate table, January averages"
+    checked: 2026-11-26
+confidence: medium
+confidence_note: "Prices: Google Hotels searches for 5–9 Jan 2027 read 26 Nov; Klook terms not opened. Guest policy: undated (over a year old) traveller answers on Tripadvisor, no hotel statement. Trip.com and Tripadvisor pages read via WebFetch; they block link checks. Check-out is 12:00 on Agoda/Trip.com, 14:00 on the official site. Photos are from 2017. Thai address is my rendering."
+last_updated: 2026-11-26
+
+blocks:
+  - type: hero
+    image: pool
+    caption: "The 3rd-floor pool, photographed in 2017 (renovated since, per Trip.com)"
+    hook: "A Sukhumvit hotel open since 1963, with a sunny pool deck, buffet breakfast and Nana Plaza's neon across the street."
+  - type: quick_facts
+    time_needed: "Your Bangkok nights, 5 or 6 to 10 Jan"
+    best_time: "The work week: a private room to sleep in by day"
+    extra:
+      - { label: Room, value: "Private, 25 m²", detail: "Standard room, double or twin (Agoda, Trip.com)" }
+      - { label: Breakfast, value: "Included on most rates", detail: "Buffet from 07:00, ends 10:00–10:30; ฿250 if not included (Agoda)" }
+      - { label: Social, value: "No", detail: "A 334-room hotel, no hostel events" }
+  - type: stay
+    style: hotel
+    beds:
+      - label: "Cheapest room · Fri 8 Jan"
+        local: 1538
+        brl: 260.23
+        url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAgSBwjrDxABGAkyAggAKgcKBToDVEhC"
+        note: "Klook via Google Hotels, 26 Nov; room type and cancellation terms not shown"
+      - label: "Cheapest room · Wed 6 Jan"
+        local: 1540
+        brl: 260.57
+        url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAYSBwjrDxABGAcyAggAKgcKBToDVEhC"
+        note: "Klook via Google Hotels; Tue 5 Jan from ฿1,650 (hutchgo, free cancellation to 2 Jan)"
+      - label: "Cheapest room · Thu 7 Jan"
+        local: 1596
+        brl: 270.04
+        url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAcSBwjrDxABGAgyAggAKgcKBToDVEhC"
+        note: "Klook via Google Hotels; Trip.com Standard Double with breakfast ฿1,811"
+      - label: "Cheapest room · Sat 9 Jan"
+        local: 1614
+        brl: 273.09
+        url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAkSBwjrDxABGAoyAggAKgcKBToDVEhC"
+        note: "Klook via Google Hotels; Agoda ฿1,730 with breakfast, free cancellation until 6 Jan"
+      - label: "With breakfast, free cancel · Agoda, Wed 6 Jan"
+        local: 1713
+        brl: 289.84
+        url: "https://www.google.com/travel/search?q=NANA%20Hotel%20Bangkok%20Sukhumvit%20Soi%204&hl=en&gl=us&ts=CAAaGhIYEhIKBwjrDxABGAYSBwjrDxABGAcyAggAKgcKBToDVEhC"
+        note: "Free cancellation until 3 Jan, free breakfast (Google Hotels listing)"
+      - label: "Standard room, official rack rate"
+        local: 1790
+        brl: 302.87
+        url: "https://www.nanahotel.co.th/rooms-rates.php?page=accommodation/3!room-rates/6"
+        note: "Net with tax, breakfast included; no dates shown. Superior/Deluxe ฿1,990, Suite ฿2,390"
+    rating:
+      score: 7.9
+      out_of: 10
+      source: Agoda
+      reviews: 16039
+      checked: 2026-11-26
+    social:
+      - "**Not social.** A big old hotel (334 rooms on Agoda) with no hostel bar or events. You meet people at the pool bar or across the street, not through the hotel."
+      - "Agoda's review summary: nightlife around Nana Plaza \"suits guests who want bars and adult entertainment\" (105 mentions, 96% positive)."
+    good_to_know:
+      - "**Guests:** Tripadvisor travellers say no joiner fee; a visitor leaves ID at the security desk by the lifts. Not a hotel statement, and over a year old."
+      - "**Smoking:** Agoda says every room allows smoking and there are no non-smoking floors. A Google reviewer's room smelled of smoke; they changed rooms on request."
+      - "**Noise:** Trip.com's summary counts 42 reviews on nightlife noise; Agoda's says renovated rooms feel quiet. A 2025 guest: it \"stays lively until morning\"."
+      - "**No deposit** required (Trip.com). Main guest 18+. In-room safe, fridge and daily bottled water (official site)."
+      - "**Dated:** Agoda room comfort 6.5/10; a Trip.com review (Jul 2026) calls it \"a little dated\". A 2025 Agoda guest praised a renovated 11th-floor room."
+      - "**Hold rule:** give your arrival time when booking; without it the official site holds the room only until 18:00–19:00."
+  - type: highlights
+    items:
+      - title: A real pool, big for Sukhumvit
+        text: "The official site lists a **126 m² outdoor pool** with a waterfall, a jacuzzi garden and a pool bar. Agoda's review summary praises its size, sunbeds and shade; 92% of 159 pool mentions are positive."
+      - title: Breakfast in the price
+        text: "The official rates include a **buffet breakfast** for internet bookings, and Agoda's and Trip.com's offers for your dates include it. Bought alone it is ฿250 (Agoda)."
+      - title: Five minutes to the BTS
+        text: "**BTS Nana is 300 m** away (Agoda). One stop east is Asok for Terminal 21 and Soi Cowboy; one stop west is Phloen Chit (Wikipedia)."
+      - title: Nana Plaza across the road
+        text: "Agoda puts Nana Plaza **across the street**; Trip.com says 40 m. Your red-light-district walk is a crossing, and the walk home is too."
+  - type: prose
+    title: Why a hotel, and why this one
+    text: |-
+      This is not what the traveler usually wants: no dorms, no family dinner, no pub crawl. It is on the list for one reason, your **work week** (19:00–04:00 shifts, Mon 4 – Fri 8 Jan). After a shift you sleep through the morning, and in a dorm that is when roommates pack up for check-out. Here you get a private room, a pool for the afternoon and breakfast included.
+
+      It costs about **two and a half times a hostel bed**: ฿1,538–1,614 a night for 6–9 Jan against ฿599 for a dorm bed at Lub d Siam (Hostelworld, same dates). Four nights, Wed 6 to Sun 10 Jan, come to ฿6,288 (about R$1,064) at the cheapest offers. Lub d's own private room was ฿1,571 on Sat 9 Jan, about the same price, but with a shared bathroom and no pool. Agoda and Trip.com score it 7.9 and 8.3, both good for location and weak on room comfort. It opened in **1963** (official site) and still looks it in places.
+
+      The hotel's fame comes from its street. The photographer of the Commons photos on this page captions it "maybe the most well-known prostitution hotel in the world", and Tripadvisor answers say a visitor just leaves ID at the lift. If that is not your plan, it is still a pool hotel 5 minutes from the BTS.
+  - type: gallery
+    images:
+      - { file: reception, caption: "Reception and lobby (2017)" }
+      - { file: tour-desk, caption: "The lobby tour desk (2017)" }
+      - { file: hallway, caption: "A guest-floor corridor (2017)" }
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Book once you know your Bangkok nights. Agoda's ฿1,713 rate with breakfast cancels free until 3 Jan; Klook's cheaper offers show no terms." }
+      - { days_before: 1, text: "Add your **arrival time** to the booking so the room isn't released at 18:00." }
+      - { days_before: 0, text: "Check in from 14:00 with your passport. Ask for a **renovated, high-floor room away from Soi 4** and a room that doesn't smell of smoke." }
+  - type: cost_breakdown
+    items:
+      - { label: "Cheapest room, Fri 8 Jan (Klook)", local: 1538, brl: 260.23 }
+      - { label: "Breakfast, if your rate leaves it out", local: 250, brl: 42.3, optional: true }
+      - { label: "Airport transfer (Agoda price; Trip.com says none, confirm)", local: 680, brl: 115.06, optional: true }
+  - type: map
+    note: "From **BTS Nana**, walk west to Soi 4 and turn south: the hotel is on the right, opposite Nana Plaza (Agoda: 300 m, 5 min). For a taxi, show **โรงแรมนานา ซอยสุขุมวิท 4**."
+  - type: tips
+    variant: insider
+    items:
+      - "Compare on Google Hotels before booking: for 6 Jan the same room ran from ฿1,540 (Klook) to ฿1,878 (Trip.com)."
+      - "If the official 14:00 check-out holds (one Agoda guest in Feb 2025 got it), a 04:00 shift finish leaves you a full morning's sleep. Confirm it at check-in; Agoda and Trip.com say 12:00."
+      - "Nana Plaza is opposite the door: see its own page for the walk-through and its scam warnings."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Smoking rooms everywhere.** Agoda lists no non-smoking rooms or floors. Smell the room at check-in and ask to move if needed."
+      - "Nightlife noise is the complaint Trip.com's review summary names first (42 reviews). Ask for a high floor."
+      - "Don't expect hostel company: if you want people to go out with on Sat 9 Jan, a hostel night is the better bet."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: Hot, dry and sunny; the cool season
+    note: "January averages 23 °C at night and 33 °C by day with little rain: pool weather every afternoon."
+    wear: Light clothes and swimwear
+  - type: pairs_well
+    items:
+      - { id: nana-plaza, note: "Across Soi 4, opposite the hotel" }
+      - { id: soi-cowboy, note: "One BTS stop to Asok" }
+      - { id: terminal-21-asok, note: "One BTS stop to Asok: cheap food court" }
+      - { id: lub-d-bangkok-siam, note: "The hostel alternative: ฿599 a dorm bed, ฿1,571 a private room" }
