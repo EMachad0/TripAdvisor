@@ -1,0 +1,211 @@
+id: guangzhi-cloud-view-riverfront-esports-hotel
+name: "Guangzhi Cloud View Riverfront E-sports Hotel"
+name_local: 光致·拾鎏云端江景电竞酒店
+short_name: Guangzhi Cloud View
+country: china
+city: chongqing
+area: Jiangbei · Liujiatai
+category: stay
+tags: [hotel, esports-hotel, gaming, private-hot-tub, river-view, splurge, not-social]
+kind: Stay
+why: "A gamer splurge: a 23rd-floor terrace with a private hot tub over the river plus two RTX 5080 PCs, ¥762 (R$630) on 27 Dec. Not social."
+
+cost:
+  local: 267
+  currency: CNY
+  brl: 220.62
+  note: "Cheapest room (twin with a bunk bed, 2 PCs), night of 28 Dec 2026, 1 adult, Trip.com 27 Nov, total incl. taxes; ¥482 crossed out"
+fx: { rate: 0.8263, date: 2026-11-27, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 7
+  lead_time: "Book a week ahead; free cancellation listed until 18:00 (UTC+8) on arrival day"
+  method: platform
+  links:
+    - label: "Trip.com, hot-tub room, 27 Dec"
+      url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2026-12-27&checkout=2026-12-28&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190,147~50~540~IMPERIAL*147*50~540~IMPERIAL,4~1*4*1"
+      note: "¥762 total on 27 Nov. Open the hotel, pick a 私汤露台 (private hot-tub terrace) room"
+    - label: "Trip.com, hot-tub room, 31 Dec"
+      url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2026-12-31&checkout=2027-01-01&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190,147~50~540~IMPERIAL*147*50~540~IMPERIAL,4~1*4*1"
+      note: "¥933 total on 27 Nov"
+    - label: "Trip.com hotel page and chat"
+      url: "https://us.trip.com/hotels/chongqing-hotel-detail-107280190/guangzhi-cloud-view-riverfront-e-sports-hotel"
+      note: "Room prices need sign-in. Ask about passport check-in and the PCs in the chat"
+  notes: "Trip.com's list page gives the cheapest room that matches the filters, but not the room's full name. Its room page asks you to sign in. Once signed in, check that the room you pick has 私汤露台 (private hot-tub terrace) in its name and is on floor 23."
+
+hours:
+  summary: "Check-in after 16:00, check-out before 12:00 (UTC+8). Front desk open 24 h. ¥200 deposit, refunded at check-out"
+  winter: "27 Nov quotes for the cheapest hot-tub terrace room: ¥808 on 26 Dec, ¥762 on 27 and 28 Dec, ¥933 on 31 Dec, ¥941 on 1 Jan. The tub is outdoors on a covered terrace; no listing says whether it is heated in winter or what water it uses."
+
+location:
+  address: "16F, No. 186 Beibin 1st Road, Wulidian Street, Liangjiang New Area (Jiangbei), Chongqing"
+  address_local: 重庆市两江新区五里店街道北滨一路186号16楼
+  lat: 29.57562
+  lng: 106.56028
+  nearest_transit: "Liujiatai metro, 460 m (about 7 min walk); Liyuchi metro 1.4 km"
+  approximate: true
+
+sources:
+  - url: "https://us.trip.com/hotels/chongqing-hotel-detail-107280190/guangzhi-cloud-view-riverfront-e-sports-hotel"
+    title: "Trip.com hotel page (web fetch): address, 9.5/2,176 reviews, 23F hot-spring rooms, check-in/out, ¥200 deposit, all countries"
+    checked: 2026-11-27
+  - url: "https://m.ctrip.com/html5/hotel/hoteldetail/107280190.html?checkin=2026-12-28&checkout=2026-12-29&atime=20261228&days=1"
+    title: "Ctrip mobile, 28 Dec 2026: 22 room types with PCs, sizes, floors, 漩涡浴缸 tub, 23F 私汤露台 rooms, Steam games, policies"
+    checked: 2026-11-27
+  - url: "https://m.ctrip.com/webapp/hotel/album?hotelid=107280190&tab=0"
+    title: "Ctrip hotel album: 165 photos sorted by room type, incl. the terrace hot tubs and the whirlpool-tub room"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2026-12-28&checkout=2026-12-29&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190"
+    title: "Trip.com list, night of 28 Dec 2026, 1 adult: cheapest room Sky Sports Twin (bunk bed) ¥252 + taxes = ¥267 (¥385 total on 31 Dec)"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2026-12-28&checkout=2026-12-29&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190,147~50~540~IMPERIAL*147*50~540~IMPERIAL,4~1*4*1"
+    title: "Trip.com list, ≥540 ft² + 1 double bed (23F hot-tub rooms): ¥762 28 Dec; ¥808 26, ¥762 27, ¥933 31 Dec, ¥941 1 Jan"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2026-12-28&checkout=2026-12-29&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190,77~91*77*91"
+    title: "Trip.com list, Bathtub filter: River-View queen ¥531 + taxes = ¥563 on 28 Dec; ¥695 total on 31 Dec"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/chongqing-hotel-detail-107280190/guangzhi-cloud-view-riverfront-e-sports-hotel/review.html"
+    title: "Trip.com reviews: sub-scores 9.5–9.6, Sept–Oct 2026 stays (quiet rooms, stable internet, outdoor soaking tubs, solo gamers)"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/chongqing-hotel-detail-101018594/review.html"
+    title: "Sister branch (Guangzhi E-sports Hotel, Guanyinqiao) reviews: an Australian couple on 22 Nov 2026, check-in 'hassle-free'"
+    checked: 2026-11-27
+  - url: "https://en.wikipedia.org/wiki/Steam_(service)#Steam_China"
+    title: "Steam (Wikipedia), Steam China section: 2023 reports of the Steam store usable in China, the Steam Community still blocked"
+    checked: 2026-11-27
+  - url: "https://www.theregister.com/2024/04/10/microsoft_brings_wow_to_china/"
+    title: "The Register, 10 Apr 2024: Blizzard games return to mainland China through NetEase"
+    checked: 2026-11-27
+  - url: "https://www.openstreetmap.org/?mlat=29.57562&mlon=106.56028#map=17/29.57562/106.56028"
+    title: "OpenStreetMap: Liujiatai metro station (the map pin; the hotel is a 460 m walk away)"
+    checked: 2026-11-27
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals"
+    checked: 2026-11-27
+confidence: medium
+confidence_note: "Prices: Trip.com list pages read with atr render on 27 Nov (links check can't open trip.com; room pages need sign-in; not on Booking/Agoda/Google Hotels). The ¥762 room's full name isn't shown; only hot-tub rooms fit the filter. Unverified: tub water/heating/size, terrace images look like renders, passport check-in, PC logins, time to Jiefangbei."
+last_updated: 2026-11-27
+
+blocks:
+  - type: hero
+    image: suite-night-river
+    caption: "A 270° river-view suite at night: gaming PC at the window over the Jialing River"
+    hook: "Gaming rooms over the river; on floor 23, two RTX 5080 rigs and a private hot tub on the terrace."
+  - type: quick_facts
+    extra:
+      - { label: Trip.com, value: "9.5 / 10", detail: "2,176 reviews; service 9.6" }
+      - { label: Hot-tub room, value: "¥762–941 a night", detail: "23F terrace, 59–90 m², RTX 5080 + 9800X" }
+      - { label: Social, value: "No", detail: "A gaming hotel for groups; a one-night treat" }
+  - type: stay
+    style: hotel
+    beds:
+      - label: "Twin with bunk bed, 2 PCs, night of 28 Dec"
+        local: 267
+        brl: 220.62
+        note: "Cheapest room for 1 adult, total incl. taxes (27 Nov). ¥385 on 31 Dec"
+        url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2026-12-28&checkout=2026-12-29&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190"
+      - label: "River-view queen with bathtub, night of 28 Dec"
+        local: 563
+        brl: 465.21
+        note: "Trip.com Bathtub filter, total incl. taxes (27 Nov). Likely the 35 m² 艺术泡坊 room"
+        url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2026-12-28&checkout=2026-12-29&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190,77~91*77*91"
+      - label: "River-view queen with bathtub, New Year's Eve"
+        local: 695
+        brl: 574.28
+        note: "Night of 31 Dec, total incl. taxes (27 Nov)"
+        url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2026-12-31&checkout=2027-01-01&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190,77~91*77*91"
+      - label: "Hot-tub terrace room, 23F, night of 27 Dec"
+        local: 762
+        brl: 629.64
+        note: "Cheapest room ≥540 ft² with one double bed, total incl. taxes (27 Nov). Same on 28 Dec"
+        url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2026-12-27&checkout=2026-12-28&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190,147~50~540~IMPERIAL*147*50~540~IMPERIAL,4~1*4*1"
+      - label: "Hot-tub terrace room, 23F, New Year's Eve"
+        local: 933
+        brl: 770.94
+        note: "Night of 31 Dec, total incl. taxes (27 Nov). ¥1,682 crossed out"
+        url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2026-12-31&checkout=2027-01-01&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190,147~50~540~IMPERIAL*147*50~540~IMPERIAL,4~1*4*1"
+      - label: "Hot-tub terrace room, 23F, night of 1 Jan"
+        local: 941
+        brl: 777.55
+        note: "Total incl. taxes (27 Nov). ¥808 on 26 Dec"
+        url: "https://us.trip.com/hotels/list?cityId=4&provinceId=4&countryId=1&cityName=Chongqing&destName=Guangzhi%20Cloud%20View%20Riverfront%20E-sports%20Hotel&searchType=H&checkin=2027-01-01&checkout=2027-01-02&crn=1&adult=1&curr=CNY&locale=en-US&listFilters=31~107280190*31*107280190,147~50~540~IMPERIAL*147*50~540~IMPERIAL,4~1*4*1"
+    rating:
+      score: 9.5
+      out_of: 10
+      source: Trip.com
+      reviews: 2176
+      checked: 2026-11-27
+    social:
+      - "**Not social.** Rooms are built for 2–5 friends gaming together (twin, triple, four- and five-person rooms). No common room or events are listed."
+      - "Book it for one night of gaming and soaking, and sleep at a hostel on the other free nights."
+    good_to_know:
+      - "**Foreign guests:** Trip.com and Ctrip say all countries are welcome. No foreign review seen here; the Guanyinqiao sister branch had one on 22 Nov 2026."
+      - "**Check-in:** Ctrip lists electronic Chinese ID check-in (电子身份证入住). Bring the passport and expect the desk to register it by hand."
+      - "**PCs:** two per room. 16F rooms: RTX 5070 + Ryzen 7 9700X, Zowie 240–360 Hz or 2K 320 Hz. 23F hot-tub rooms: RTX 5080 + 9800X, ROG 4K/360 Hz or Zowie 600 Hz."
+      - "**Games:** Ctrip promises 100+ Steam games to choose from and a free game accelerator. A guest says the desk will download games for you before you arrive."
+      - "**Smoking** is allowed in every room type, per Ctrip. Ask for a room that doesn't smell of smoke."
+      - "**No breakfast.** Ctrip rates include a self-heating hotpot dinner or a bakery set each day. Free laundry; food deliveries go to the room."
+      - "**Quiet:** Sept–Oct 2026 guests call the rooms quiet with good soundproofing, and the internet stable for online games."
+  - type: highlights
+    items:
+      - title: The hot tub you asked for
+        text: "Seven room types on the **23rd floor** have a 私汤露台, a private hot tub on a covered terrace. The hotel's images show a round outdoor tub with the river and skyline behind it. Rooms are 56–90 m²."
+      - title: Top-end rigs
+        text: "Those rooms have **two PCs with RTX 5080 cards and Ryzen 9800X CPUs** (one 90 m² suite has an RTX 5090 and a PS5). Guests praise the low latency."
+      - title: Hongyadong across the water
+        text: "The listing says the rooms look **270° along the river at the Hongyadong night lights**. A guest in Oct 2026 called the night view stunning."
+      - title: A real bathtub for less
+        text: "On the 16th floor the 35 m² **江景•艺术泡坊** room has a whirlpool tub and two RTX 5070 PCs. Trip.com's cheapest bathtub room was **¥563 (R$465)** on 28 Dec."
+  - type: prose
+    title: Which night to splurge
+    text: |-
+      You are in Chongqing from Saturday 26 December to Saturday 2 January, with night shifts **20:00–05:00 (UTC+8)** on 28, 29 and 30 December. Check-in here is after 16:00 and check-out before 12:00 (UTC+8), so the treat fits a free night best.
+
+      - **Sunday 27 Dec, ¥762 (R$630):** the cheapest hot-tub night. Check out at 12:00 and you still have the afternoon to rest before the first shift at 20:00.
+      - **Thursday 31 Dec, ¥933 (R$771):** your last shift ends at 05:00 that morning. Sleep somewhere else, check in at 16:00, and spend New Year's Eve between the PCs and the tub.
+      - **Friday 1 Jan, ¥941 (R$778)**, or Saturday 26 Dec, ¥808 (R$668), if those suit you better.
+
+      All prices are Trip.com totals with taxes for one adult, read on 27 Nov, and they will change. If you want a bathtub and good PCs but not the terrace, the whirlpool-tub room was ¥563 on 28 Dec and ¥695 on 31 Dec.
+
+      Ask the hotel two things in the Trip.com chat before you pay. Your passport isn't a Chinese ID, and room PCs in China sometimes ask for a local login. Send this: **外国护照可以入住并使用电脑吗？可以登录自己的Steam账号吗？** (Can I check in and use the PCs with a foreign passport? Can I log in to my own Steam account?)
+  - type: gallery
+    images:
+      - file: hot-spring-terrace
+        caption: "Hotel image (looks rendered) of a 270° 私汤露台 terrace: round hot tub, the river behind"
+      - file: tub-room-pcs
+        caption: "The 江景•艺术泡坊 room: two gaming PCs at a full-height river window"
+      - file: tub-room-bathroom
+        caption: "The same room's bathroom with its freestanding tub"
+  - type: book_ahead
+    steps:
+      - { days_before: 10, text: "Message the hotel in the **Trip.com chat**: can you check in on a foreign passport, and do the PCs accept your own Steam login?" }
+      - { days_before: 7, text: "Book one night in a **私汤露台** room on floor 23. Check the room name has 私汤 before paying. Free cancellation is listed until 18:00 (UTC+8) on the day." }
+      - { days_before: 0, text: "Check in after **16:00 (UTC+8)** with your passport and the ¥200 deposit (cash, card or mobile pay). Ask whether the terrace tub is heated." }
+    passport_note: "Ctrip lists electronic Chinese ID check-in. Foreign guests are accepted on paper; bring the passport itself."
+  - type: map
+    note: "The pin is **Liujiatai metro station**. The hotel is on Beibin 1st Road by the Jialing River, a **460 m walk** (about 7 min), in the Liujia Matou (鎏嘉码头) complex. Reception is on the **16th floor**."
+  - type: tips
+    variant: insider
+    items:
+      - "Trip.com's room page wants you signed in. To compare nights without signing in, use the list links here: they filter the hotel down to the hot-tub rooms."
+      - "A Ctrip blogger says Hongyadong and Guanyinqiao are about 10 minutes away. Nobody gives a time to Jiefangbei, so check on a map app before booking."
+      - "Rent a better headset or mouse at the desk: a Sept 2026 guest mentions peripherals for rent."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Expect **Chinese Windows and Chinese launchers**. In 2023 the Steam store worked in China but the Steam Community was blocked (Wikipedia). Blizzard games in China run through NetEase."
+      - "The terrace pictures look like design renders, and no listing gives the tub's size, water or heating. Ask for a real photo in the chat."
+      - "Don't take the bunk-bed twin as the splurge. It is the cheapest room, but it has no tub and no view."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, frequent drizzle
+    note: "Cool for an outdoor tub. The terrace is covered by a pergola, not enclosed, so a hot soak at night will feel good but cold getting out."
+    wear: "Mid-weight jacket; flip-flops for the terrace"
+  - type: pairs_well
+    items:
+      - { id: guangzhi-gletoh-esports-hotel-jiefangbei, note: "The same brand's Jiefangbei branch, closer to the centre" }
+      - { id: yolo-reef-private-onsen-hotel, note: "Another hotel with a private tub" }
+      - { id: hongyadong-qiansimen-night-walk, note: "The lights you see from the room, up close" }
+      - { id: jiefangbei-nye-countdown, note: "If you'd rather spend New Year's Eve in the crowd" }

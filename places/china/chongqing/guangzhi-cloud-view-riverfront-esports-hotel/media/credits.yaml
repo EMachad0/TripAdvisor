@@ -1,0 +1,57 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: suite-night-river
+  title: 1mc0f12000ipnp68a5A50.jpg
+  author: Ctrip hotel album
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/webapp/hotel/album?hotelid=107280190&tab=0
+  original_url: https://dimg04.c-ctrip.com/images/1mc0f12000ipnp68a5A50.jpg
+  width: 1920
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-27
+  origin: web
+- file: tub-room-pcs
+  title: 1mc5u12000s9zo7qiE57F.jpg
+  author: Ctrip hotel album
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/webapp/hotel/album?hotelid=107280190&tab=0
+  original_url: https://dimg04.c-ctrip.com/images/1mc5u12000s9zo7qiE57F.jpg
+  width: 1920
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-27
+  origin: web
+- file: tub-room-bathroom
+  title: 1mc1u12000s9znro61D78.jpg
+  author: Ctrip hotel album
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/webapp/hotel/album?hotelid=107280190&tab=0
+  original_url: https://dimg04.c-ctrip.com/images/1mc1u12000s9znro61D78.jpg
+  width: 1919
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1919
+  fetched: 2026-11-27
+  origin: web
+- file: hot-spring-terrace
+  title: 1mc2i12000s8puror742F.jpg
+  author: Ctrip hotel album
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/webapp/hotel/album?hotelid=107280190&tab=0
+  original_url: https://dimg04.c-ctrip.com/images/1mc2i12000s8puror742F.jpg
+  width: 1920
+  height: 1281
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-27
+  origin: web
