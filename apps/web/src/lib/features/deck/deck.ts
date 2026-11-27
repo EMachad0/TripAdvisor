@@ -91,6 +91,41 @@ export function placeDeck(
 		);
 }
 
+// ---------------------------------------------------------------- Later and Find
+
+/** The traveler's own reordering of a deck: one card picked to the top, and the cards put off for later. */
+export interface DeckOrder {
+	first: string | null;
+	later: readonly string[];
+}
+
+/** A deck with the picked card first and the put-off cards last, in the order they were put off. */
+export function arrangeDeck<T extends { id: string }>(items: readonly T[], order: DeckOrder): T[] {
+	const at = (id: string): number => order.later.indexOf(id);
+	const now = items.filter((x) => at(x.id) < 0);
+	const later = items.filter((x) => at(x.id) >= 0).sort((a, b) => at(a.id) - at(b.id));
+	const out = [...now, ...later];
+	const i = order.first === null ? -1 : out.findIndex((x) => x.id === order.first);
+	const picked = out[i];
+	if (picked !== undefined) {
+		out.splice(i, 1);
+		out.unshift(picked);
+	}
+	return out;
+}
+
+/** The order after the card `id` is put off: it goes behind every other card, the earlier put-offs included. */
+export const putOff = (order: DeckOrder, id: string): DeckOrder => ({
+	first: order.first === id ? null : order.first,
+	later: [...order.later.filter((x) => x !== id), id],
+});
+
+/** The order after the card `id` is picked from the list: it is next, and no longer put off. */
+export const pickFirst = (order: DeckOrder, id: string): DeckOrder => ({
+	first: id,
+	later: order.later.filter((x) => x !== id),
+});
+
 /** Unswiped cards per country (the filter chip counts). */
 export function leftByCountry(
 	items: readonly { id: string; country: string }[],
@@ -152,6 +187,10 @@ export function releaseVerdict(dx: number, dy: number, dt: number): Verdict | nu
 	if (dy < -SWIPE_DISTANCE) return 'maybe';
 	return null;
 }
+
+/** True when a drag points down far enough (`min` px) to mean Later. */
+export const isLaterDrag = (dx: number, dy: number, min = SWIPE_DISTANCE): boolean =>
+	dy > min && dy > Math.abs(dx);
 
 /** Arrow keys of the deck. */
 export const KEY_VERDICT: Readonly<Record<string, Verdict | undefined>> = {
