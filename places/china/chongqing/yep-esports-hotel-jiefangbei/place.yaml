@@ -1,0 +1,193 @@
+id: yep-esports-hotel-jiefangbei
+name: "YEP·Yep E-sports Hotel, Jiefangbei Hongyadong"
+short_name: YEP E-sports Hotel
+name_local: YEP·页谱电竞旅居酒店
+country: china
+city: chongqing
+area: Yuzhong · Jiaochangkou
+category: stay
+tags: [esports-hotel, gaming, private-room, windowless, shared-bathroom, work-nights, jiefangbei, not-social]
+kind: Stay
+why: "Gamer hotel: your own windowless room with an RTX 4060 PC and a 27-inch 2K screen, ¥92 (R$76) a night by Jiaochangkou metro. Shared bathrooms."
+
+cost:
+  local: 92
+  currency: CNY
+  brl: 76.02
+  note: "Yun single room (1 PC), night of 28 Dec, total incl. taxes, Trip.com 27 Nov. 28–31 Dec ¥276; 31 Dec alone ¥329"
+fx: { rate: 0.8263, date: 2026-11-27, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book early; free cancellation until 18:00 (UTC+8) on check-in day"
+  method: platform
+  links:
+    - label: "Trip.com, 3 work nights 28–31 Dec"
+      url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-28&checkout=2026-12-31&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+      note: "¥276 (R$228) for the Yun single room, 27 Nov"
+    - label: "Trip.com, call night only, 28 Dec"
+      url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-28&checkout=2026-12-29&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+      note: "¥92 (R$76) for the Yun single room, 27 Nov"
+    - label: "Trip.com, whole week 26 Dec – 2 Jan"
+      url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-26&checkout=2027-01-02&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+      note: "¥1,047 (R$865) for 7 nights, 27 Nov"
+    - label: "Trip.com hotel page (rooms, chat)"
+      url: "https://us.trip.com/hotels/chongqing-hotel-detail-118990950/"
+      note: "Room prices on this page need a Trip.com sign-in"
+  notes: "Prices are Trip.com's signed-out 'China travel deal' rates of 27 Nov (about 47% off the struck-through price). Before paying, ask the hotel in Trip.com chat whether a foreign passport can check in and use the PC (see the tips)."
+
+hours:
+  summary: "Front desk 24 h · check-in from 16:00, check-out by 12:00 (UTC+8) · arriving after 02:00? call the day before"
+  winter: "27 Nov, Yun single room on Trip.com: ¥92 on 28 Dec, ¥276 for 28–31 Dec, but ¥329 for New Year's Eve alone (31 Dec) and ¥1,047 for 26 Dec – 2 Jan. Ctrip lists whole-building heating (全屋暖气)."
+
+location:
+  address: "No. 102, 5/F, Ruifu Plaza, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区瑞富广场5楼102号
+  lat: 29.55673
+  lng: 106.57084
+  nearest_transit: "Jiaochangkou (Lines 1/2), under 100 m, about 2 min on foot (Ctrip)"
+  approximate: true
+
+sources:
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-28&checkout=2026-12-29&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+    title: "Trip.com search, night of 28 Dec 2026, 1 adult: Yun single room ¥92 total (¥87 + taxes, struck-through ¥167), 9.8 from 578 reviews"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-28&checkout=2026-12-31&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+    title: "Trip.com search, 28–31 Dec 2026: Yun single room ¥276 for 3 nights incl. taxes"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-31&checkout=2027-01-01&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+    title: "Trip.com search, night of 31 Dec 2026: Yun single room ¥329 total (¥310 + taxes, struck-through ¥594)"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-26&checkout=2027-01-02&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+    title: "Trip.com search, 26 Dec 2026 – 2 Jan 2027: Yun single room ¥1,047 for 7 nights incl. taxes"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/chongqing-hotel-detail-118990950/"
+    title: "Trip.com hotel page: rooms (15 m², no window, shared bath, 2K screens), policies, all countries welcome, reviews incl. Germany 4 Oct 2026"
+    checked: 2026-11-27
+  - url: "https://m.ctrip.com/html5/hotel/hoteldetail/118990950.html"
+    title: "Ctrip hotel page: RTX 4060 in every room, 1.2 m bed, smoking allowed, cancellation, heating, 4.9/5, reviews Oct–Nov 2026, photos"
+    checked: 2026-11-27
+  - url: "https://www.openstreetmap.org/?mlat=29.55673&mlon=106.57084#map=17/29.55673/106.57084"
+    title: "OpenStreetMap: Jiaochangkou metro station on Minquan Road (the map pin)"
+    checked: 2026-11-27
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals"
+    checked: 2026-11-27
+confidence: medium
+confidence_note: "Prices: Trip.com signed-out list search of 27 Nov, read with atr render (room page needs sign-in; read with WebFetch). Not confirmed: whether the PCs need a Chinese-ID login (Ctrip lists e-ID check-in), or how a foreign passport checks in beyond 'all countries welcome' and one German review. Ruifu Plaza is not on OSM: pin at the metro. Hero is the hotel's own photo; no guest photos found."
+last_updated: 2026-11-27
+
+blocks:
+  - type: hero
+    image: pc-stations
+    caption: "Gaming PCs at YEP: headsets hung on the screens, the YEP desktop on"
+    hook: "A private room with a gaming PC and a door, two minutes from Jiaochangkou metro."
+  - type: quick_facts
+    extra:
+      - { label: Trip.com, value: "9.8 / 10", detail: "578 reviews (Ctrip 4.9 / 5)" }
+      - { label: In the room, value: "RTX 4060 + 27\" 2K", detail: "Yun room: 165 Hz curved screen, 1 PC, 1.2 m bed, 15 m²" }
+      - { label: Social, value: "No", detail: "Reviews: Chinese friends gaming together" }
+  - type: stay
+    style: hotel
+    beds:
+      - label: "Yun single room, call night only (28 Dec)"
+        local: 92
+        brl: 76.02
+        note: "Total incl. taxes, Trip.com 27 Nov. Free cancellation until 18:00 (UTC+8) that day"
+        url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-28&checkout=2026-12-29&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+      - label: "Yun single room, 3 work nights 28–31 Dec"
+        local: 92
+        brl: 76.02
+        note: "¥276 (R$228) in total, Trip.com 27 Nov"
+        url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-28&checkout=2026-12-31&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+      - label: "Yun single room, whole week 26 Dec – 2 Jan"
+        local: 149.57
+        brl: 123.59
+        note: "¥1,047 (R$865) for 7 nights, Trip.com 27 Nov"
+        url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-26&checkout=2027-01-02&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+      - label: "Yun single room, New Year's Eve only (31 Dec)"
+        local: 329
+        brl: 271.85
+        note: "Total incl. taxes, Trip.com 27 Nov: 3.5 times a normal night"
+        url: "https://us.trip.com/hotels/list?city=4&checkin=2026-12-31&checkout=2027-01-01&adult=1&crn=1&curr=CNY&optionId=118990950&optionType=Hotel&optionName=YEP"
+    rating:
+      score: 9.8
+      out_of: 10
+      source: Trip.com
+      reviews: 578
+      checked: 2026-11-27
+    social:
+      - "**Not social.** A 42-room esports hotel (Ctrip) on the 5th floor of a plaza. Reviews are from Chinese friends gaming together; none mention meeting people."
+      - "For company, sleep at a hostel on the free nights (26–27 Dec, New Year) and keep this for the shift nights."
+    good_to_know:
+      - "**Shared bathrooms:** separate shower and toilet stalls, wet and dry areas apart. Chinese guests in Oct–Nov 2026 found them clean, with hot water fast, 24 h."
+      - "**No window** in any room type, so it stays dark for daytime sleep."
+      - "**Noise:** a guest in Nov 2026 wrote that rooms are small, most guests come to game, some play late, and soundproofing is 'average' (隔音一般)."
+      - "**Smoking** is allowed in the rooms, says Ctrip. Ask for a room that doesn't smell of it."
+      - "**Deposit ¥200** (R$165), cash or third-party payment (Alipay/WeChat), refunded on check-out. No children; the guest checking in must be 18+."
+      - "**Free laundry** with washer and dryer, free luggage storage, a vending machine."
+      - "**Language:** the listing says staff speak Mandarin and use translation tools."
+      - "**Key cards** sometimes failed for a German group in Oct 2026; staff fixed it quickly each time."
+  - type: highlights
+    items:
+      - title: A gaming PC in your own room
+        text: "Every room has an **RTX 4060** PC on a 27-inch 2K screen at 165 or 185 Hz. Chinese guests in Oct–Nov 2026: 'stable internet with no frame drops', 'amazing for FPS games'."
+      - title: The cheapest door in town
+        text: "**¥92 (R$76)** a night for the three shift nights, ¥276 (R$228) in all on 27 Nov. The Yun room is for one person with one PC."
+      - title: Dark for daytime sleep
+        text: "No window and a door: after a shift ending at **05:00 (UTC+8)** you can sleep until the afternoon."
+      - title: On top of the metro
+        text: "Jiaochangkou station is under 100 m away, Jiefangbei pedestrian street 400 m (7 min on foot), Hongyadong 1.2 km (Ctrip)."
+  - type: prose
+    title: Does it work for the shift nights?
+    text: |-
+      You are in Chongqing from Saturday 26 December to Saturday 2 January and work **20:00–05:00 (UTC+8)** on 28, 29 and 30 December. 31 December is free.
+
+      **For sleeping, yes.** The room is windowless and has a door, and the noise complaint is about gamers playing late at night: by the time you go to bed around 06:00 (UTC+8) they are asleep. Check-out is 12:00 (UTC+8), so on the 31st you get about six hours unless they give you a late check-out.
+
+      **For working, maybe.** You get a desk, a chair and fast wired internet, but the desk holds the hotel's PC and a 27-inch screen, so check there is space for your own laptop. Work on your laptop, not on the hotel PC. The walls are thin, so a call at night may be heard by the neighbours and you will hear them.
+
+      **For gaming, probably, but check first.** Expect Chinese Windows and Chinese launchers. The hotel's own photo shows icons for Steam, WeGame and QQ on the desktop. Whether a foreigner can log in to the PC with a passport is not stated anywhere I could read.
+  - type: gallery
+    images:
+      - file: corridor
+        caption: "The 5th-floor corridor with the room doors"
+        focus: center
+      - file: shared-bathroom
+        caption: "The shared bathroom: basins, and toilet and shower stalls along the wall"
+      - file: room-render
+        caption: "The hotel's design render of a room: desk with PC, bed alcove, no window"
+        focus: center
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Send the hotel a message in **Trip.com chat**: 外国护照可以入住并使用电脑吗？可以登录自己的Steam账号吗？ (Can a foreign passport check in and use the PC? Can I log in to my own Steam account?)" }
+      - { days_before: 13, text: "If they say yes, book the **Yun single room** for 28–31 Dec. Nothing is lost if you cancel before 18:00 (UTC+8) on 28 Dec." }
+      - { days_before: 0, text: "Check in from **16:00 (UTC+8)**, well before the 20:00 shift. Pay the ¥200 deposit and test the wifi and a socket for your laptop." }
+    passport_note: "Bring the passport itself. Trip.com says guests from all countries and regions are welcome."
+  - type: map
+    note: "The pin is **Jiaochangkou** metro station. The hotel (YEP·页谱电竞旅居酒店 重庆解放碑洪崖洞店) is on the **5th floor of Ruifu Plaza (瑞富广场)**, room 102; guests on Ctrip say it is across the road from the station, with a bus stop downstairs. Show the taxi driver the Chinese address."
+  - type: tips
+    variant: insider
+    items:
+      - "Pick **Yun (韵)** for the curved 165 Hz screen or **Ji (寂)** for a flat 185 Hz one: both are 15 m² single rooms with one PC and a 1.2 m bed (Ctrip)."
+      - "Bring earplugs and an eye mask anyway: thin walls, and other guests game late."
+      - "The listing includes a free game accelerator (加速器), per Ctrip's review summary."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**Steam and Battle.net in China:** the Steam client usually runs, but expect its store and community pages to be blocked; Battle.net runs through NetEase. Not confirmed for these PCs."
+      - "Don't keep the room for New Year's Eve just to have it: ¥329 that night against ¥92 on the work nights."
+      - "Arriving after **02:00 (UTC+8)** on check-in day? The hotel asks you to call a day ahead."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast
+    note: "Mild for a China winter but grey. Ctrip lists heating in the whole building, which matters in a windowless room."
+    wear: Mid-weight jacket and a rain layer
+  - type: pairs_well
+    items:
+      - { id: only-cafe-and-backpacker, note: "The social hostel for 26–27 Dec and New Year" }
+      - { id: merica-hotel-jiefangbei, note: "Private bathroom instead, ¥525 for 28–31 Dec on 24 Nov" }
+      - { id: guangzhi-gletoh-esports-hotel-jiefangbei, note: "Another esports hotel near Jiefangbei" }
+      - { id: jiefangbei-nye-countdown, note: "New Year's Eve, a short walk away" }

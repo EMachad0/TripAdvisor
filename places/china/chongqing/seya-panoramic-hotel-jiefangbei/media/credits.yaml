@@ -1,0 +1,71 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: window-tub
+  title: 1mc6l12000eza0f8n4DE0.jpg
+  author: SEYA Panoramic Hotel on Trip.com
+  license: All rights reserved (personal use)
+  source_url: https://www.trip.com/hotels/chongqing-hotel-detail-121892117/seya-panoramic-hotel-chongqing-jiefangbei-flagship/
+  original_url: https://ak-d.tripcdn.com/images/1mc6l12000eza0f8n4DE0.jpg
+  width: 1920
+  height: 1431
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-27
+  origin: web
+- file: storm-spa
+  title: 584827428.jpg
+  author: SEYA Panoramic Hotel on Booking.com
+  license: All rights reserved (personal use)
+  source_url: https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html
+  original_url: https://cf.bstatic.com/xdata/images/hotel/max2048x2048/584827428.jpg?k=8c11251c395d23a5e05f14e54a26610cf4dec7703bad4522fcaac735b73b66c2&o=
+  width: 1600
+  height: 1200
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-27
+  origin: web
+- file: sky-lobby
+  title: 584827450.jpg
+  author: SEYA Panoramic Hotel on Booking.com
+  license: All rights reserved (personal use)
+  source_url: https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html
+  original_url: https://cf.bstatic.com/xdata/images/hotel/max2048x2048/584827450.jpg?k=087fb34dbd584de52c3028d36084c27bb203f114060d098a3fdb581e650b6f4a&o=
+  width: 1600
+  height: 1021
+  widths:
+    - 640
+    - 1280
+    - 1600
+  fetched: 2026-11-27
+  origin: web
+- file: reception
+  title: 1mc4j12000ezaexivC59D.jpg
+  author: SEYA Panoramic Hotel on Trip.com
+  license: All rights reserved (personal use)
+  source_url: https://www.trip.com/hotels/chongqing-hotel-detail-121892117/seya-panoramic-hotel-chongqing-jiefangbei-flagship/
+  original_url: https://ak-d.tripcdn.com/images/1mc4j12000ezaexivC59D.jpg
+  width: 1920
+  height: 1257
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-27
+  origin: web
+- file: lift-lobby
+  title: 1mc2l12000ezafxz3FE84.jpg
+  author: SEYA Panoramic Hotel on Trip.com
+  license: All rights reserved (personal use)
+  source_url: https://www.trip.com/hotels/chongqing-hotel-detail-121892117/seya-panoramic-hotel-chongqing-jiefangbei-flagship/
+  original_url: https://ak-d.tripcdn.com/images/1mc2l12000ezafxz3FE84.jpg
+  width: 1920
+  height: 1131
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-27
+  origin: web

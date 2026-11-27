@@ -1,0 +1,197 @@
+id: guangzhi-gletoh-esports-hotel-jiefangbei
+name: "Guangzhi GLETOH E-sports Hotel, Jiefangbei"
+name_romanized: "Guāngzhì · GLETOH Diànjìng Jiǔdiàn"
+short_name: GLETOH E-sports Hotel
+name_local: 光致·GLETOH电竞酒店（重庆解放碑洪崖洞店）
+country: china
+city: chongqing
+area: Yuzhong · Jiaochangkou
+category: stay
+tags: [hotel, esports, gaming, gamer-hotel, private-room, jiefangbei, not-social]
+kind: Stay
+why: "A Chinese esports hotel: your own RTX 4070 gaming PC and 240 Hz screen in the room, by Jiaochangkou metro. One fun night for ¥231 (R$191)."
+
+cost:
+  local: 231
+  currency: CNY
+  brl: 190.88
+  note: "Shuguang twin with PCs, night of 27 Dec, total with taxes; Trip.com search 27 Nov after a 'China travel deal' discount"
+fx: { rate: 0.8263, date: 2026-11-27, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 7
+  lead_time: "Book a week or more ahead; the card showed free cancellation on 27 Nov"
+  method: platform
+  links:
+    - label: "Trip.com, night of 27 Dec"
+      url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/27&checkout=2026/12/28&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+      note: "¥231 with taxes for the Shuguang twin (27 Nov). Open the hotel from this search"
+    - label: "Trip.com, New Year's Eve (31 Dec)"
+      url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/31&checkout=2027/01/01&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+      note: "¥379 with taxes for the same room (27 Nov)"
+    - label: "Trip.com hotel page"
+      url: "https://us.trip.com/hotels/chongqing-hotel-detail-117680434/"
+      note: "Room list, policies and chat with the hotel; room prices show only when signed in"
+  notes: "Before you pay, ask the hotel in Trip.com chat whether a foreign passport can check in and use the PC: 外国护照可以入住并使用电脑吗？可以登录自己的Steam账号吗？ The 'China travel deal' price may need a Trip.com account or a first stay."
+
+hours:
+  summary: "Front desk 24 h · check-in from 16:00, check-out by 12:00 (UTC+8)"
+  winter: "Trip.com, 27 Nov, Shuguang twin with taxes: ¥258 on 26 Dec, ¥231 on 27 and 28 Dec, ¥379 on 31 Dec, ¥419 on 1 Jan. No minimum stay was shown. No source says how rooms are heated."
+
+location:
+  address: "No. 1, 5th Floor (street level), 51 Minquan Road, Jiefangbei Subdistrict, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区解放碑街道民权路51号平街第5层1号
+  lat: 29.55806
+  lng: 106.57191
+  nearest_transit: "Jiaochangkou metro station, about 0.1 km (Trip.com)"
+  approximate: true
+
+sources:
+  - url: "https://us.trip.com/hotels/chongqing-hotel-detail-117680434/"
+    title: "Trip.com hotel page: address, RTX 4070 / 240 Hz room names, policies, ¥200 deposit, check-in 16:00, 9.5 from 2,166 reviews"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/27&checkout=2026/12/28&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+    title: "Trip.com search, night of 27 Dec 2026: Shuguang twin ¥218 (¥417 before 46% off), ¥231 with taxes, free cancellation"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/26&checkout=2026/12/27&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+    title: "Trip.com search, night of 26 Dec 2026: Shuguang twin ¥243, ¥258 with taxes"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/28&checkout=2026/12/29&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+    title: "Trip.com search, night of 28 Dec 2026: Shuguang twin ¥218, ¥231 with taxes"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/31&checkout=2027/01/01&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+    title: "Trip.com search, night of 31 Dec 2026: Shuguang twin ¥358 (¥685 before), ¥379 with taxes"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2027/01/01&checkout=2027/01/02&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+    title: "Trip.com search, night of 1 Jan 2027: Shuguang twin ¥395, ¥419 with taxes"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/chongqing-hotel-detail-117680434/review.html"
+    title: "Trip.com reviews, Nov 2026: PCs, high-refresh screens, quiet rooms, cleanliness 9.6, service 9.6; all reviewers from China"
+    checked: 2026-11-27
+  - url: "https://hotels.ctrip.com/hotels/117680434.html"
+    title: "Ctrip: Chinese name and address, opened 2024, 35 rooms, check-in 16:00, accepts guests from any country or region"
+    checked: 2026-11-27
+  - url: "https://www.pcgamer.com/steam-community-access-has-been-blocked-in-china"
+    title: "PC Gamer: Steam Community blocked in mainland China, the store left open (Dec 2017)"
+    checked: 2026-11-27
+  - url: "https://www.openstreetmap.org/?mlat=29.55806&mlon=106.57191#map=17/29.55806/106.57191"
+    title: "OpenStreetMap: Minquan Road by Jiaochangkou station (the map pin)"
+    checked: 2026-11-27
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals"
+    checked: 2026-11-27
+confidence: medium
+confidence_note: "Prices: Trip.com search cards read by web fetch on 27 Nov (link checks are blocked; room lists need sign-in). Not confirmed: that a foreign passport can use the room PCs (no foreign review), a single room, CPU, Chinese-ID login, English at the desk. A 26 Nov check said nearby WanYoo Jiefangbei takes mainland ID only; I could not find it today."
+last_updated: 2026-11-27
+
+blocks:
+  - type: hero
+    image: blue-gaming-room
+    caption: "A GLETOH double: the gaming desk under the window, the bed opposite"
+    hook: "Chongqing's answer to a PC bang with a bed: a private room built around a gaming rig, 5 minutes from Jiefangbei."
+  - type: quick_facts
+    time_needed: One night
+    best_time: "Sun 27 Dec, before the shifts start"
+    extra:
+      - { label: Trip.com, value: "9.5 / 10", detail: "2,166 reviews; cleanliness and service 9.6" }
+      - { label: In the room, value: "RTX 4070 · 240 Hz", detail: "2K or Zowie 240 Hz monitors, wireless mouse" }
+      - { label: Social, value: "No", detail: "A 35-room hotel; the fun is the PC, not the people" }
+  - type: stay
+    style: hotel
+    beds:
+      - label: "Shuguang twin with gaming PCs, night of 27 Dec"
+        local: 231
+        brl: 190.88
+        note: "Total with taxes, 27 Nov (¥218 + taxes, ¥417 before 46% off). Also ¥231 on 28 Dec"
+        url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/27&checkout=2026/12/28&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+      - label: "Same room, night of 26 Dec"
+        local: 258
+        brl: 213.19
+        note: "Total with taxes, 27 Nov (¥243 + taxes)"
+        url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/26&checkout=2026/12/27&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+      - label: "Same room, New Year's Eve (31 Dec)"
+        local: 379
+        brl: 313.17
+        note: "Total with taxes, 27 Nov (¥358 + taxes, ¥685 before)"
+        url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/31&checkout=2027/01/01&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+      - label: "Same room, night of 1 Jan"
+        local: 419
+        brl: 346.22
+        note: "Total with taxes, 27 Nov (¥395 + taxes, ¥756 before)"
+        url: "https://us.trip.com/hotels/list?city=4&checkin=2027/01/01&checkout=2027/01/02&adult=1&crn=1&curr=CNY&optionId=117680434&optionType=Hotel&display=GLETOH"
+    rating:
+      score: 9.5
+      out_of: 10
+      source: Trip.com
+      reviews: 2166
+      checked: 2026-11-27
+    social:
+      - "**Not social.** It is a 35-room esports hotel (Ctrip). Guests come as couples or groups of friends to play together; there is no bar or hostel-style event."
+      - "Treat it as one night off from the hostel: play late, sleep in, check out by 12:00 (UTC+8)."
+    good_to_know:
+      - "**PC rooms:** doubles, twins, a quadruple and a mahjong suite. The cheapest twin lists '4070 + 2K260Hz'. Trip.com showed no single room."
+      - "**Foreign guests:** Trip.com and Ctrip say guests from all countries are welcome, but every review shown is Chinese. Ask in Trip.com chat first."
+      - "**Deposit ¥200 (R$165)** per room, by cash, card or third-party payment, refunded on check-out day (Trip.com)."
+      - "**Language:** Trip.com lists English with a long list of other languages at the desk, but no review mentions English. Have a translator app ready."
+      - "**Breakfast:** Chinese set menu ¥35 (R$29), 07:00–10:00 (UTC+8). Free luggage storage and a laundry room."
+      - "**Nov 2026 reviews** praise the PCs, low latency and quiet, clean rooms. Trip.com's summary of guest suggestions mentions smoke smell and thin walls."
+  - type: highlights
+    items:
+      - title: A gaming rig in your own room
+        text: "The room names list an **RTX 4070** with a **240 Hz** monitor (2K or Zowie) and a wireless mouse. A November 2026 guest wrote that 'the setup runs very smoothly with low latency'."
+      - title: The PC bang you sleep in
+        text: "Esports hotels (电竞酒店) are a Chinese thing: rooms built around PCs, booked by friends for a night of games. This one opened in **2024** and scores **9.5** from 2,166 Trip.com reviews."
+      - title: Cheap for one night of fun
+        text: "**¥231 (R$191)** with taxes for the night of 27 or 28 Dec, quoted on 27 Nov. New Year's Eve costs ¥379 (R$313)."
+      - title: Next to the metro
+        text: "Trip.com puts **Jiaochangkou** station 0.1 km away and the Liberation Monument about 340 m. Easy to get back to a hostel the next day."
+  - type: prose
+    title: Which night
+    text: |-
+      You are in Chongqing from Saturday 26 December to Saturday 2 January and work **20:00–05:00 (UTC+8)** on 28, 29 and 30 December. Check-in here is from 16:00 and check-out by 12:00 (UTC+8).
+
+      **Sunday 27 December is the night I would book.** It costs ¥231 (R$191), you can play until late, sleep in, and check out at 12:00 (UTC+8) with eight hours to spare before the first shift. Saturday 26 December costs ¥258 (R$213) and is your arrival day.
+
+      New Year's Eve works too, because 31 December is free, but the same room costs ¥379 (R$313) and the countdown crowd is outside. The 28th is cheap (¥231) but you would be at work for most of the night.
+
+      **What the PC will be like** is the part nobody confirms for a foreign guest. Expect Windows and launchers set up in Chinese. Steam's community pages have been blocked in mainland China since 2017 (PC Gamer), while the store was left open. Whether you need a Chinese ID or phone to log in to the room PC, no source says: ask the hotel first.
+  - type: gallery
+    images:
+      - file: red-twin-pc-room
+        caption: "A red-themed room with two gaming PCs behind the bed and a ceiling projector"
+      - file: gletoh-chairs
+        caption: "GLETOH-branded gaming chairs in front of a lit window panel"
+      - file: corridor
+        caption: "The fifth-floor corridor, lit red and blue"
+  - type: book_ahead
+    steps:
+      - { days_before: 14, text: "Send the hotel the question in Trip.com chat (Chinese text under the booking buttons). Book only if they say a foreign passport can check in **and** use the PC." }
+      - { days_before: 7, text: "Book the **Shuguang twin** for one night. Check that the room you pick names an RTX 4070 and that free cancellation is shown." }
+      - { days_before: 0, text: "Check in from **16:00 (UTC+8)** with your passport. Pay the ¥200 deposit; it comes back on check-out day." }
+    passport_note: "Bring the passport itself. Trip.com lists an electronic ID reader at check-in; no source says how the desk registers a foreign passport."
+  - type: map
+    note: "The hotel is on the **5th floor at street level** of 51 Minquan Road. The pin is on Minquan Road by Jiaochangkou station, not the door."
+  - type: tips
+    variant: insider
+    items:
+      - "Bring your **own mouse** only if you are picky: the room names already list a wireless mouse."
+      - "Pick the room by its name on Trip.com: the names spell out the GPU and monitor (for example 'Ruomeng Twin Room (4070 + Zowie 240Hz Monitor …)')."
+      - "The 46% 'China travel deal' price may depend on your Trip.com account; check the total before paying."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't assume your Steam account will just work. Steam Community has been blocked in mainland China since 2017; ask the hotel whether guests log in with their own accounts."
+      - "Trip.com's guest-suggestion summary mentions **smoke smell and poor sound insulation**. Ask for a non-smoking room."
+      - "Don't book it for the work nights: it is a gaming room, and you need a dark, quiet room for daytime sleep."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, rain on about 10 days a month
+    note: "You are indoors at a PC all night. No source says how the rooms are heated: ask, or bring a warm layer."
+    wear: Mid-weight jacket and a rain layer for the walk from the metro
+  - type: pairs_well
+    items:
+      - { id: merica-hotel-jiefangbei, note: "The dark, quiet room for the work nights" }
+      - { id: atour-light-jiefangbei-jiaochangkou, note: "Another hotel by Jiaochangkou station" }
+      - { id: jiefangbei-nye-countdown, note: "If you book the room for New Year's Eve" }

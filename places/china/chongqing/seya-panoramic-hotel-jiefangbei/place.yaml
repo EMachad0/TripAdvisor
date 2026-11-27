@@ -1,0 +1,225 @@
+id: seya-panoramic-hotel-jiefangbei
+name: "SEYA Panoramic Hotel Jiefangbei Flagship"
+name_local: 世野SEYA酒店（解放碑店）
+short_name: SEYA Panoramic Hotel
+country: china
+city: chongqing
+area: Yuzhong · Jiefangbei
+category: stay
+tags: [hotel, splurge, private-room, soaking-tub, storm-spa, river-view, jiefangbei, not-social]
+kind: Stay
+why: "One-night splurge on the 58th floor: a glass soaking tub by the window over the river, and a storm-effect spa room. From ¥1,696 (R$1,401)."
+
+cost:
+  local: 1696
+  currency: CNY
+  brl: 1401.4
+  note: "Twilight Tower river-view king, night of 28 Dec, prepaid partner rate on Booking.com, taxes in (27 Nov)"
+fx: { rate: 0.8263, date: 2026-11-27, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Book soon: 1–7 rooms left per type for late Dec on 27 Nov"
+  method: platform
+  links:
+    - label: "Booking.com, Sun 27 Dec"
+      url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+      note: "My pick: free evening before the shifts. Twilight king ¥1,754 prepaid, ¥2,158 pay hotel (27 Nov)"
+    - label: "Booking.com, Mon 28 Dec"
+      url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+      note: "Cheapest night: ¥1,696 prepaid, but it is the first shift night (27 Nov)"
+    - label: "Booking.com, New Year's Eve"
+      url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-31&checkout=2027-01-01&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+      note: "¥2,632 prepaid, ¥3,238 pay hotel; 1 Twilight king left (27 Nov)"
+    - label: "Trip.com, Sun 27 Dec"
+      url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/27&checkout=2026/12/28&adult=1&crn=1&curr=CNY&optionId=121892117&optionType=Hotel&display=SEYA%20Panoramic%20Hotel"
+      note: "¥1,798 with taxes, free cancellation (deadline not shown before login). 28 Dec ¥1,738, NYE ¥2,698"
+  notes: "Booking.com lists cash as the only payment method at the hotel. The prepaid partner rate is charged by Booking.com, so you pay nothing at the desk; it cannot be changed after booking."
+
+hours:
+  summary: "Check-in 14:00–24:00, check-out by 12:00 (UTC+8) · front desk 24 h · tell the hotel your arrival time"
+  winter: "27 Nov, Booking.com, cheapest king per night: 26 Dec ¥2,158 · 27 Dec ¥1,754 · 28 Dec ¥1,696 · 29 Dec ¥1,696 · 30 Dec ¥2,278 (tub king) · 31 Dec ¥2,632. New Year's Eve costs about 1.5× a normal night. Rooms have air conditioning; no source says how they are heated."
+
+location:
+  address: "58F, Yingli International Financial Center, 28 Minquan Road, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区民权路28号英利国际金融中心58楼
+  lat: 29.55673
+  lng: 106.57084
+  nearest_transit: "Jiaochangkou metro (Lines 1, 2), 130 m"
+  approximate: true
+
+sources:
+  - url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+    title: "Booking.com, 28 Dec 2026: prices, stock, cancellation, 9.7 from 179 reviews, cash-only payment, check-in, reviews"
+    checked: 2026-11-27
+  - url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-29&checkout=2026-12-30&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+    title: "Booking.com, night of 29 Dec 2026: Twilight king ¥1,696 prepaid / ¥2,086, Dawn tub king ¥1,879 / ¥2,158"
+    checked: 2026-11-27
+  - url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+    title: "Booking.com, night of 27 Dec 2026: Twilight king ¥1,754 prepaid / ¥2,158, Dawn tub king ¥2,326"
+    checked: 2026-11-27
+  - url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-26&checkout=2026-12-27&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+    title: "Booking.com, night of 26 Dec 2026: Twilight king ¥2,158, Dawn tub king ¥2,446"
+    checked: 2026-11-27
+  - url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-30&checkout=2026-12-31&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+    title: "Booking.com, night of 30 Dec 2026: Dawn tub king ¥2,278, Twilight king ¥2,518"
+    checked: 2026-11-27
+  - url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-31&checkout=2027-01-01&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+    title: "Booking.com, night of 31 Dec 2026: Twilight king ¥2,632 prepaid / ¥3,238, Dawn tub king ¥3,358"
+    checked: 2026-11-27
+  - url: "https://www.trip.com/hotels/chongqing-hotel-detail-121892117/seya-panoramic-hotel-chongqing-jiefangbei-flagship/"
+    title: "Trip.com: opened 2024, 65 rooms, 9.7 (5,029 reviews), 130 m to Jiaochangkou, storm spa, window tub in every room, all nationalities"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/27&checkout=2026/12/28&adult=1&crn=1&curr=CNY&optionId=121892117&optionType=Hotel&display=SEYA%20Panoramic%20Hotel"
+    title: "Trip.com search pinned to this hotel, 27 Dec 2026: Twilight king ¥1,798 with taxes, free cancellation"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/28&checkout=2026/12/29&adult=1&crn=1&curr=CNY&optionId=121892117&optionType=Hotel&display=SEYA%20Panoramic%20Hotel"
+    title: "Trip.com search pinned to this hotel, 28 Dec 2026: Twilight king ¥1,738 with taxes, free cancellation"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/31&checkout=2027/01/01&adult=1&crn=1&curr=CNY&optionId=121892117&optionType=Hotel&display=SEYA%20Panoramic%20Hotel"
+    title: "Trip.com search pinned to this hotel, 31 Dec 2026: Twilight king ¥2,698 with taxes, free cancellation"
+    checked: 2026-11-27
+  - url: "https://hk.trip.com/hotels/chongqing-hotel-detail-121892117/seya-panoramic-hotel-chongqing-jiefangbei-flagship/"
+    title: "Trip.com (Chinese): 世野SEYA酒店（解放碑店）, Chinese address, 暴风雨SPA description"
+    checked: 2026-11-27
+  - url: "https://www.trip.com/hotels/chongqing-hotel-detail-121892117/seya-panoramic-hotel-chongqing-jiefangbei-flagship/review.html"
+    title: "Trip.com reviews, Nov 2026: storm spa with a complimentary photoshoot, in-room pool"
+    checked: 2026-11-27
+  - url: "https://thesmartlocal.com/read/spas-in-china/"
+    title: "TheSmartLocal, '10 Craziest Spas In China' (Feb 2025): ceiling rain every 30 min, screen, 2 free entries for guests, ¥250 others"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/chongqing-hotel-detail-75465343/iseya-panoramic-hotel/review.html"
+    title: "Trip.com: sister hotel SEYA Raffles Plaza Jiefangbei, 30F Chaotianmen Center, 1 Xinhua Road"
+    checked: 2026-11-27
+  - url: "https://www.openstreetmap.org/?mlat=29.55673&mlon=106.57084#map=17/29.55673/106.57084"
+    title: "OpenStreetMap: Jiaochangkou metro station on Minquan Road (the map pin)"
+    checked: 2026-11-27
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals"
+    checked: 2026-11-27
+confidence: medium
+confidence_note: "Prices: Booking.com searches of 27 Nov; they will move. Trip.com read by WebFetch (bot-blocked for link checks), prices from a list search; its cancellation deadline and any bundled spa pass unchecked. Unconfirmed: spa hours (one 2025 article says 24 h, social posts 10:00–20:00 UTC+8), session length, how many share it, foreign cards at the desk, heating. The pin is the metro station 130 m away."
+last_updated: 2026-11-27
+
+blocks:
+  - type: hero
+    image: window-tub
+    caption: "A glass-sided soaking tub at the window, 58 floors above Yuzhong"
+    hook: "Soak in a glass tub over the river at night, then stand under the storm spa's indoor rain."
+  - type: quick_facts
+    time_needed: One night
+    best_time: "Sun 27 Dec, before the night shifts"
+    extra:
+      - { label: Booking.com, value: "9.7 / 10", detail: "179 reviews; comfort 9.9, value 9.3" }
+      - { label: In every room, value: Window soaking tub, detail: "Trip.com: a pool-style private tub by the window" }
+      - { label: Social, value: "No", detail: "A 65-room hotel; reviewers are mostly couples" }
+  - type: highlights
+    items:
+      - title: The tub is the room
+        text: "Trip.com says **every room** has a pool-style soaking tub by the window. Guests in Oct–Nov 2026 called it a 'private swimming pool' and 'a huge bath'."
+      - title: A storm, indoors
+        text: "The hotel calls it China's first Milan-style **storm spa**: water pours from the ceiling while a screen plays storm scenes. TheSmartLocal says hotel guests get **2 free entries**."
+      - title: Next to Jiefangbei
+        text: "On floor 58 of Yingli IFC, **130 m** from Jiaochangkou metro (Lines 1, 2) and 500 m from the Liberation Monument (Booking.com). Location scores 9.8."
+      - title: Butlers who answer in the night
+        text: "Many reviewers name their personal butler. A UK guest in Nov 2026 said hers replied quickly 'even in the middle of the night'."
+  - type: stay
+    style: hotel
+    beds:
+      - label: "Twilight river-view king, Mon 28 Dec"
+        local: 1696
+        brl: 1401.4
+        note: "45 m². Prepaid partner rate, no changes; free cancellation before 27 Dec (27 Nov)"
+        url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+      - label: "Twilight river-view king, Sun 27 Dec"
+        local: 1754
+        brl: 1449.33
+        note: "Prepaid partner rate; ¥2,158 if paid to the hotel. Free cancellation before 26 Dec"
+        url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+      - label: "Twilight king, Sun 27 Dec, Trip.com"
+        local: 1798
+        brl: 1485.69
+        note: "Total with taxes, 10% off, free cancellation; Trip.com, 27 Nov"
+        url: "https://us.trip.com/hotels/list?city=4&checkin=2026/12/27&checkout=2026/12/28&adult=1&crn=1&curr=CNY&optionId=121892117&optionType=Hotel&display=SEYA%20Panoramic%20Hotel"
+      - label: "Dawn king with oversize tub, Mon 28 Dec"
+        local: 1877
+        brl: 1550.97
+        note: "52 m². Prepaid; ¥2,158 if paid to the hotel (27 Nov)"
+        url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-28&checkout=2026-12-29&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+      - label: "Twilight river-view king, New Year's Eve"
+        local: 2632
+        brl: 2174.82
+        note: "Prepaid partner rate; ¥3,238 paid to the hotel, 1 left. Free cancellation before 29 Dec"
+        url: "https://www.booking.com/hotel/cn/iseya-jiefangbei-chongqing-flagship.html?checkin=2026-12-31&checkout=2027-01-01&group_adults=1&no_rooms=1&group_children=0&selected_currency=CNY&lang=en-us"
+    rating:
+      score: 9.7
+      out_of: 10
+      source: Booking.com
+      reviews: 179
+      checked: 2026-11-27
+    social:
+      - "**Not social.** A 65-room luxury hotel; of 179 Booking.com reviews, 102 are from couples and 36 from solo travelers."
+      - "The storm spa is a hotel facility you reserve; reviewers treat it as a photo stop, not a place to meet people."
+    good_to_know:
+      - "**Storm spa:** a hotel facility, not in your room. Guests get 2 free entries (TheSmartLocal, 2025); non-guests pay ¥250. Slot times are not published."
+      - "**Payment:** Booking.com lists cash only at the hotel. Pay-the-hotel rates are due before arrival; the prepaid rate is charged by Booking.com."
+      - "**Laundry:** a guest in 2026 says housekeeping takes your clothes and brings them back washed."
+      - "**Foreign guests:** Trip.com says all nationalities are welcome; reviews from Australia, the UK, Italy and Singapore in Oct–Nov 2026."
+      - "**Check-in** 14:00–24:00, check-out by 12:00 (UTC+8). Booking.com asks you to send your arrival time."
+  - type: prose
+    title: Which night
+    text: |-
+      This is the "giant storm shower" hotel, but the storm is not in your room. The **storm spa** is a separate room in the hotel. What you get in the room is the window tub.
+
+      You are in Chongqing from Saturday 26 December to Saturday 2 January and work **20:00–05:00 (UTC+8)** on 28, 29 and 30 December. Booking.com prices for the cheapest king on 27 Nov, taxes in:
+
+      - **Sat 26 Dec:** ¥2,158 (R$1,783). Arrival day.
+      - **Sun 27 Dec:** ¥1,754 (R$1,449) prepaid, or ¥2,158 paid to the hotel. ¥1,798 (R$1,486) on Trip.com with free cancellation. Free all evening.
+      - **Mon 28 Dec:** ¥1,696 (R$1,401) prepaid, the cheapest. You would work the first shift from the room.
+      - **Thu 31 Dec:** ¥2,632 (R$2,175) prepaid. New Year's Eve, 500 m from the Jiefangbei countdown.
+
+      **I would book Sunday 27 December.** You check in at 14:00 (UTC+8), book the spa at the desk, fill the tub once it is dark (about 19:00 UTC+8), and sleep in the next morning before the shifts start. Merica takes over from 28 December. New Year's Eve here costs ¥878 more than the Sunday for the same room. The countdown is a short walk either way.
+  - type: gallery
+    images:
+      - file: storm-spa
+        caption: "The storm spa: a dark pool under a ceiling that rains, with a screen of clouds behind"
+      - file: sky-lobby
+        caption: "The sky lobby on the 58th floor"
+      - file: reception
+        caption: "Reception, with the floor-to-ceiling windows of Yingli IFC"
+      - file: lift-lobby
+        caption: "The lift lobby in dark glass and brass"
+  - type: book_ahead
+    steps:
+      - { days_before: 30, text: "Book **27 Dec**: ¥1,798 on Trip.com with free cancellation, or ¥1,754 prepaid on Booking.com, which can't be changed. Booking.com's ¥2,158 rate is paid to the hotel." }
+      - { days_before: 29, text: "Write your arrival time in special requests (Booking.com asks for it). Ask how to pay: the listing names only cash." }
+      - { days_before: 2, text: "Free cancellation ends **before 26 Dec** (prepaid) or **before 25 Dec** (pay-the-hotel rate) for the 27 Dec night." }
+      - { days_before: 0, text: "Check in from **14:00 (UTC+8)** and book your storm-spa slot right away. A Booking.com guest says to book it ahead." }
+    passport_note: "Bring the passport you booked with. Trip.com says guests of all nationalities are welcome; it lists no deposit."
+  - type: map
+    note: "The pin is **Jiaochangkou station**. The hotel is on the **58th floor of Yingli IFC**, 130 m away. A guest in Oct 2026 said the taxi driver did not know the hotel was in the financial tower: show the Chinese address."
+  - type: tips
+    variant: insider
+    items:
+      - "Book the spa at check-in. A Booking.com guest wrote: 'Make sure you make reservation for storm spa in advance'."
+      - "TheSmartLocal's tip for spa photos: waterproof make-up and plain-coloured swimwear. Bring swimwear."
+      - "Breakfast costs ¥88 (Trip.com). On Booking.com the breakfast rate adds ¥189 a night."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "Don't expect English at the bar. A Nov 2026 guest waited 40 min for a drink and found bar staff struggle with English; reception speaks basic English."
+      - "**Payment**: Booking.com shows only cash for the hotel, and its pay-the-hotel rates say 'before arrival'. The prepaid rate avoids this."
+      - "The sister hotel, SEYA Raffles Plaza Jiefangbei (30F Chaotianmen Center), has a similar name. Check you booked 58F Yingli IFC."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, rain on about 10 days a month
+    note: "Grey skies are likely; the tub and the spa are indoors, so the weather only changes the view."
+    wear: Mid-weight jacket, rain layer, swimwear for the spa
+  - type: pairs_well
+    items:
+      - { id: merica-hotel-jiefangbei, note: "The cheap base for the shift nights, 28–31 Dec" }
+      - { id: jiefangbei-nye-countdown, note: "New Year's Eve, a short walk away" }
+      - { id: hongyadong-qiansimen-night-walk, note: "The lit-up riverfront, 1.1 km away" }
+      - { id: only-cafe-and-backpacker, note: "The social hostel for the other free nights" }

@@ -1,0 +1,57 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: pc-stations
+  title: 1mc5a12000f1cmvgkDCF8.jpg
+  author: YEP·页谱电竞 on Ctrip
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/html5/hotel/hoteldetail/118990950.html
+  original_url: https://dimg04.c-ctrip.com/images/1mc5a12000f1cmvgkDCF8.jpg
+  width: 1920
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-27
+  origin: web
+- file: corridor
+  title: 1mc6j12000imytmtv31A3.jpg
+  author: YEP·页谱电竞 on Ctrip
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/html5/hotel/hoteldetail/118990950.html
+  original_url: https://dimg04.c-ctrip.com/images/1mc6j12000imytmtv31A3.jpg
+  width: 1440
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 1440
+  fetched: 2026-11-27
+  origin: web
+- file: shared-bathroom
+  title: 1mc4a12000f1clacg05D7.jpg
+  author: YEP·页谱电竞 on Ctrip
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/html5/hotel/hoteldetail/118990950.html
+  original_url: https://dimg04.c-ctrip.com/images/1mc4a12000f1clacg05D7.jpg
+  width: 1620
+  height: 1080
+  widths:
+    - 640
+    - 1280
+    - 1620
+  fetched: 2026-11-27
+  origin: web
+- file: room-render
+  title: 1mc6j12000f1cmpog5BF3.jpg
+  author: YEP·页谱电竞 on Ctrip (render)
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/html5/hotel/hoteldetail/118990950.html
+  original_url: https://dimg04.c-ctrip.com/images/1mc6j12000f1cmpog5BF3.jpg
+  width: 1538
+  height: 1920
+  widths:
+    - 640
+    - 1280
+    - 1538
+  fetched: 2026-11-27
+  origin: web

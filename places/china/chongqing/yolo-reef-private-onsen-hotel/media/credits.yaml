@@ -1,0 +1,56 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: onsen-room
+  title: 1mc1w12000tc9wl9i1D87.jpg
+  author: Ctrip
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/webapp/hotel/hoteldetail/135397749.html?atime=20261229&days=1
+  original_url: https://dimg04.c-ctrip.com/images/1mc1w12000tc9wl9i1D87.jpg
+  width: 1920
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-27
+  origin: web
+- file: lobby
+  title: 1mc5q12000tca4g7yF9DA.jpg
+  author: Ctrip
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/webapp/hotel/hoteldetail/135397749.html?atime=20261229&days=1
+  original_url: https://dimg04.c-ctrip.com/images/1mc5q12000tca4g7yF9DA.jpg
+  width: 1920
+  height: 1255
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-27
+  origin: web
+- file: reception
+  title: 1mc2d12000tca4d4v7C45.jpg
+  author: Ctrip
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/webapp/hotel/hoteldetail/135397749.html?atime=20261229&days=1
+  original_url: https://dimg04.c-ctrip.com/images/1mc2d12000tca4d4v7C45.jpg
+  width: 1920
+  height: 1280
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-27
+  origin: web
+- file: room-projector
+  title: 1me6912000thf17zm4725.jpg
+  author: Ctrip guest photo
+  license: All rights reserved (personal use)
+  source_url: https://m.ctrip.com/webapp/hotel/hoteldetail/135397749.html?atime=20261229&days=1
+  original_url: https://dimg04.c-ctrip.com/images/1me6912000thf17zm4725.jpg
+  width: 1280
+  height: 1707
+  widths:
+    - 640
+    - 1280
+  fetched: 2026-11-27
+  origin: web

@@ -1,0 +1,169 @@
+id: yolo-reef-private-onsen-hotel
+name: "YOLO REEF Private Onsen Hotel"
+name_local: YOLO礁屿私汤酒店(重庆解放碑步行街店)
+short_name: YOLO REEF
+country: china
+city: chongqing
+area: Yuzhong · Nanjimen
+category: stay
+tags: [hotel, private-room, private-onsen, river-view, splurge, not-social, jiefangbei]
+kind: Stay
+why: "Not social: a one-night splurge with your own hot bath by a high window over the Yangtze. Ctrip sells 2 nights for ¥799 (R$660), up to the night of 29 Dec."
+
+cost:
+  local: 399.5
+  currency: CNY
+  brl: 330.11
+  note: "Half of Ctrip's ¥799 two-night package (river-view onsen king), 27 Nov. Valid to check-out 30 Dec. Single nights hidden behind sign-in"
+fx: { rate: 0.8263, date: 2026-11-27, source: "frankfurter.dev (ECB reference rate)" }
+
+book_ahead:
+  required: recommended
+  lead_days: 14
+  lead_time: "Buy the package, then reserve your nights; some December dates were full"
+  method: platform
+  links:
+    - label: "Ctrip, 2-night onsen package"
+      url: "https://m.ctrip.com/webapp/htlxpkg/packageDetail?seo=0&renderPlatform=ctrip-h5&product-id=118127469&product-type=presale-product&id=118127469&hotelId=135397749&hotelDataType=1&cityId=4&checkInDate=20261227&checkOutDate=20261229&pkgUniqueKey=118127469-0&isSubProduct=F&isMergedProduct=0&cityid=4"
+      note: "¥799 for 2 nights in a row, river-view onsen king, 27 Nov. Last check-out 30 Dec"
+    - label: "Ctrip, room list for 29 Dec"
+      url: "https://m.ctrip.com/webapp/hotel/hoteldetail/135397749.html?atime=20261229&days=1"
+      note: "Single nights and every room type; prices only after you sign in"
+    - label: "Trip.com (English)"
+      url: "https://us.trip.com/hotels/chongqing-hotel-detail-135397749/yolo-reef-private-onsen-hotel/"
+      note: "Same hotel id; also asks you to sign in before it shows prices"
+  notes: "On 27 Nov Ctrip's package calendar showed 27 and 28 Dec open for check-in, 26 Dec at +¥70, and 22–23 Dec full. Once you reserve nights with the package, they cannot be cancelled. If you never reserve, you get a full refund."
+
+hours:
+  summary: "Front desk 24 h · check-in from 14:00, check-out by 12:00 (UTC+8) · no deposit · no breakfast served"
+  winter: "The package covers stays ending by 30 Dec 2026, so it cannot be used for New Year's Eve. On 27 Nov Ctrip showed no package price for 31 Dec ('所选日期不可约'), and single-night prices need a sign-in. Single-night bookings on 29 Dec could be cancelled free until 25 Dec 23:59 (UTC+8)."
+
+location:
+  address: "1/F, Binjiang No.1 (Binjiang Yihao), 229 Jiefang West Road, Nanjimen, Yuzhong District, Chongqing"
+  address_local: 重庆市渝中区南纪门街道解放西路229号滨江壹号1层
+  lat: 29.55205
+  lng: 106.56996
+  nearest_transit: "Jiaochangkou metro 640 m (11 min walk); Shibati 320 m"
+  approximate: true
+
+sources:
+  - url: "https://m.ctrip.com/webapp/hotel/hoteldetail/135397749.html?atime=20261229&days=1"
+    title: "Ctrip mobile, night of 29 Dec 2026: rooms, floors, cancellation, 4.8 from 560 reviews, hotel policies, distances"
+    checked: 2026-11-27
+  - url: "https://m.ctrip.com/webapp/htlxpkg/packageDetail?seo=0&renderPlatform=ctrip-h5&product-id=118127469&product-type=presale-product&id=118127469&hotelId=135397749&hotelDataType=1&cityId=4&checkInDate=20261227&checkOutDate=20261229&pkgUniqueKey=118127469-0&isSubProduct=F&isMergedProduct=0&cityid=4"
+    title: "Ctrip 3-day/2-night presale package: ¥799 (list ¥1,099), validity to 30 Dec check-out, booking calendar for Nov–Dec, refund rules"
+    checked: 2026-11-27
+  - url: "https://m.ctrip.com/webapp/hotel/hoteldetail/135397749.html?atime=20261231&days=1"
+    title: "Ctrip mobile, night of 31 Dec 2026: all three presale packages marked 'not bookable on the selected date'"
+    checked: 2026-11-27
+  - url: "https://us.trip.com/hotels/chongqing-hotel-detail-135397749/yolo-reef-private-onsen-hotel/"
+    title: "Trip.com (English listing, hotel 135397749): a dated search sends you to the sign-in page"
+    checked: 2026-11-27
+  - url: "https://www.openstreetmap.org/?mlat=29.55205&mlon=106.56996#map=17/29.55205/106.56996"
+    title: "OpenStreetMap: West Jiefang Road bus stop, Nanjimen (the map pin)"
+    checked: 2026-11-27
+  - url: https://en.wikipedia.org/wiki/Chongqing
+    title: "Chongqing (Wikipedia): climate table, December and January normals"
+    checked: 2026-11-27
+confidence: medium
+confidence_note: "Prices are Ctrip's package and calendar on 27 Nov, rendered without signing in. Single-night prices: Ctrip, Trip.com (us/www) need sign-in; Booking.com and Agoda searches did not find the hotel; Google Hotels did not load. Unverified: whether a foreign card or Trip.com account can buy the Ctrip package, whether the bath is real spring water, desk in the room, the pin (street, not the door)."
+last_updated: 2026-11-27
+
+blocks:
+  - type: hero
+    image: onsen-room
+    focus: center
+    caption: "A REEF ONSEN room: the soaking pool sits under the window, the river and a bridge outside"
+    hook: "A soaking pool under the window, on floors 22–35 above the Yangtze, for a night off before the shifts."
+  - type: quick_facts
+    time_needed: One night
+    best_time: "Night of 27 Dec, before the shifts"
+    extra:
+      - { label: Ctrip, value: "4.8 / 5", detail: "560 reviews; opened 2026" }
+      - { label: Room, value: River-view onsen king, detail: "30 m², floors 22–35, 1.8 m bed" }
+      - { label: Social, value: "No", detail: "No bar or events listed; hostels for company" }
+  - type: stay
+    style: hotel
+    beds:
+      - label: "River-view onsen king, 2-night package"
+        local: 399.5
+        brl: 330.11
+        note: "Per night of ¥799 (R$660) for 2 nights in a row, 27 Nov. Check-in 27 or 28 Dec"
+        url: "https://m.ctrip.com/webapp/htlxpkg/packageDetail?seo=0&renderPlatform=ctrip-h5&product-id=118127469&product-type=presale-product&id=118127469&hotelId=135397749&hotelDataType=1&cityId=4&checkInDate=20261227&checkOutDate=20261229&pkgUniqueKey=118127469-0&isSubProduct=F&isMergedProduct=0&cityid=4"
+      - label: "Same package, check-in Sat 26 Dec"
+        local: 434.5
+        brl: 359.03
+        note: "¥869 (R$718) for 26–28 Dec: the calendar adds ¥70 for 26 Dec"
+        url: "https://m.ctrip.com/webapp/htlxpkg/packageDetail?seo=0&renderPlatform=ctrip-h5&product-id=118127469&product-type=presale-product&id=118127469&hotelId=135397749&hotelDataType=1&cityId=4&checkInDate=20261227&checkOutDate=20261229&pkgUniqueKey=118127469-0&isSubProduct=F&isMergedProduct=0&cityid=4"
+    rating:
+      score: 4.8
+      out_of: 5
+      source: Ctrip
+      reviews: 560
+      checked: 2026-11-27
+    social:
+      - "**Not social.** The two reviews Ctrip shows first: friends on a soaking weekend, a guest praising the room. No bar, events or meeting people are mentioned."
+      - "Use it for one quiet night; the hostels on the list are for the free nights you want company."
+    good_to_know:
+      - "**Every REEF ONSEN room** has a private pool (Ctrip lists it as a private pool, the name says 私汤, private hot bath). Rooms are 30–60 m² on floors 15–40."
+      - "**Foreign guests:** Ctrip says the hotel takes guests from any country or region. Check-in needs a guest aged 18 or over."
+      - "**No deposit**, a 24-hour front desk, free luggage storage and a lobby café. Breakfast is not served for now, says Ctrip."
+      - "**Smoking is allowed** in all room types listed. Ask for a room that doesn't smell of smoke."
+      - "Ctrip's review summary mentions smart controls, a **projector** and steady hot water. A guest asked if the bathroom glass is see-through; no answer shown."
+  - type: highlights
+    items:
+      - title: The bath is at the window
+        text: "A guest's post on Ctrip describes sitting in the pool at night with the city lit up and the **Nanjimen rail bridge** in the distance."
+      - title: Less than R$400 a night
+        text: "Ctrip's package costs **¥799 (R$660) for two nights** in the river-view onsen king, against a list price of ¥1,099. That is ¥399.50 (R$330) a night."
+      - title: New and well rated
+        text: "Opened in 2026 and scored **4.8 out of 5** from 560 Ctrip reviews; two November 2026 guests praise the design, the river view and the cleaning."
+      - title: Walk to old Chongqing
+        text: "Ctrip puts **Shibati** 320 m away, Shancheng Lane 299 m in a straight line, Jiaochangkou metro 640 m and Jiefangbei 1.5 km on foot."
+  - type: prose
+    title: Which night
+    text: |-
+      You are in Chongqing from Saturday 26 December to Saturday 2 January and work **20:00–05:00 (UTC+8)** on 28, 29 and 30 December. The package must be two nights in a row and must end by 30 December, so New Year's Eve is out.
+
+      - **26–28 Dec, ¥869 (R$718):** your two free nights. You leave at 12:00 (UTC+8) on the 28th, eight hours before the first shift.
+      - **27–29 Dec, ¥799 (R$660):** one free night, then the first shift from the room. You would need a table and good Wi-Fi, which no source confirms.
+      - **28–30 Dec, ¥799:** both nights are work nights, so you would pay for a pool you only use in the morning.
+
+      **I would take 26–28 December** if a stay costs this much; it gives you two evenings in the water before the work week. Only one night? No single-night price showed without signing in, so ask in the app first.
+  - type: gallery
+    images:
+      - file: lobby
+        caption: "The lobby: pale stone, rock-built tables and the YOLO desk"
+      - file: reception
+        caption: "The front desk under a carved rock wall"
+      - file: room-projector
+        caption: "A room with a pool along the window and a projector screen, from a guest"
+        focus: center
+  - type: book_ahead
+    steps:
+      - { days_before: 30, text: "Buy the **¥799 package** in the Ctrip app or site. If no night is ever reserved, it is fully refunded." }
+      - { days_before: 14, text: "Reserve **26–28 Dec** (+¥70) or **27–29 Dec** in the package calendar. On 27 Nov both were open; 22–23 Dec were already full." }
+      - { days_before: 0, text: "Check in from **14:00 (UTC+8)** with your passport. Check-out is 12:00 (UTC+8)." }
+    passport_note: "A reserved night cannot be cancelled or changed, and a no-show is charged in full. Only reserve once your Chongqing dates are fixed."
+  - type: map
+    note: "The pin is the **West Jiefang Road** bus stop near the foot of Shibati; the hotel is in the **Binjiang No.1 (滨江壹号)** building on the same road. Show the taxi driver the Chinese address."
+  - type: tips
+    variant: insider
+    items:
+      - "Ask for a **high floor on the river side**. The river-view king is on floors 22–35; the PLUS room (48 m², floors 29–40) and the 180° room (60 m²) cost more."
+      - "Sister hotels if this one is full: **YOLO Skyline Riverview Designer Hotel** near Hongyadong and **Yolo Private Hot Spring Designer Hotel** on Nanbin Road."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "The package is sold on **Ctrip**, the Chinese site. If your account or foreign card won't go through, try Trip.com, which uses the same hotel id but hides prices until you sign in."
+      - "Don't plan New Year's Eve here on this price: the package ends on 30 December and 31 Dec showed no package rate."
+  - type: weather
+    temp_low_c: 6
+    temp_high_c: 12
+    conditions: Damp and overcast, frequent light rain
+    note: "Grey and chilly outside, which is when a hot bath by the window is best. The page lists a fresh-air system; it does not say how rooms are heated."
+    wear: Mid-weight jacket and a rain layer
+  - type: pairs_well
+    items:
+      - { id: merica-hotel-jiefangbei, note: "The dark room for the shift nights after this" }
+      - { id: only-cafe-and-backpacker, note: "The social hostel for New Year" }
