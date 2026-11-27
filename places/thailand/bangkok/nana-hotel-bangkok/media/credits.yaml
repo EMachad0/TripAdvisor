@@ -1,0 +1,65 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: pool
+  title: File:Nana Hotel, Bangkok (37571933690).jpg
+  author: Blemished Paradise
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nana_Hotel,_Bangkok_(37571933690).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/8/81/Nana_Hotel%2C_Bangkok_%2837571933690%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Swimming pool at 3rd floor level of Nana Hotel, 4 Nana Tai, Sukhumvit Road, Bangkok, Thailand - maybe the most well-known prostitution hotel in the world. Located just opposite Nana Entertainment Plaza.
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
+- file: reception
+  title: File:Nana Hotel, Bangkok (23977883188).jpg
+  author: Blemished Paradise
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nana_Hotel,_Bangkok_(23977883188).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/33/Nana_Hotel%2C_Bangkok_%2823977883188%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Arriving guests by the reception at Nana Hotel, 4 Nana Tai, Sukhumvit Road, Bangkok, Thailand. Located just opposite Nana Entertainment Plaza.
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
+- file: tour-desk
+  title: File:Nana Hotel, Bangkok (37798749622).jpg
+  author: Blemished Paradise
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nana_Hotel,_Bangkok_(37798749622).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/21/Nana_Hotel%2C_Bangkok_%2837798749622%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Seating in the lobby area of Nana Hotel, 4 Nana Tai, Sukhumvit Road, Bangkok, Thailand. Located just opposite Nana Entertainment Plaza.
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
+- file: hallway
+  title: File:Nana Hotel, Bangkok (23977667248).jpg
+  author: Blemished Paradise
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source_url: https://commons.wikimedia.org/wiki/File:Nana_Hotel,_Bangkok_(23977667248).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Nana_Hotel%2C_Bangkok_%2823977667248%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  description: Hallway in Nana Hotel, 4 Nana Tai, Sukhumvit Road, Bangkok, Thailand. Located just opposite Nana Entertainment Plaza.
+  width: 6000
+  height: 4000
+  widths:
+    - 640
+    - 1280
+    - 1920
+  fetched: 2026-11-26
+  origin: commons
