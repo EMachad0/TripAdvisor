@@ -115,6 +115,34 @@ test.describe('owner', () => {
 		await expect(left(page)).toHaveText(`${String(before - 2)} left`);
 	});
 
+	test('Later sends the top card to the back, and Find brings a card to the top', async ({
+		page,
+	}) => {
+		await openDeck(page, '/decide/areas');
+		const n = await leftCount(page);
+		const first = await topCard(page).getAttribute('data-deck-card');
+		await page.keyboard.press('ArrowDown');
+		await expect(topCard(page)).not.toHaveAttribute('data-deck-card', String(first));
+		// No call was made: the card is still left to decide, and it stays at the back after a reload.
+		await expect(left(page)).toHaveText(`${String(n)} left`);
+		await page.reload();
+		await expect(topCard(page)).toBeVisible();
+		await page.waitForLoadState('networkidle');
+		await expect(topCard(page)).not.toHaveAttribute('data-deck-card', String(first));
+
+		await page.getByRole('button', { name: 'Find a card (F)' }).click();
+		const list = page.getByRole('dialog', { name: 'Find a card' });
+		await expect(list.locator('[data-find-card]')).toHaveCount(n);
+		await expect(list.locator('[data-find-card]').last()).toHaveAttribute(
+			'data-find-card',
+			String(first),
+		);
+		await list.locator(`[data-find-card="${String(first)}"]`).click();
+		await expect(list).toHaveCount(0);
+		await expect(topCard(page)).toHaveAttribute('data-deck-card', String(first));
+		await expect(left(page)).toHaveText(`${String(n)} left`);
+	});
+
 	test('a tap or Space opens the sheet; Escape and Back close it', async ({ page }) => {
 		await openDeck(page, '/decide/areas');
 		const id = await topCard(page).getAttribute('data-deck-card');

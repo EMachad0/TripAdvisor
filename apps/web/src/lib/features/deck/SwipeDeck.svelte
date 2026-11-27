@@ -2,17 +2,21 @@
 	The Areas and Swipe rounds (old game.js viewDeck, bindTopCard, swipeTop, undo, the deck note panel and the deck
 	keys). Three cards stacked; drag the top one (110 px or a 0.6 px/ms flick sideways, 110 px up) or use the
 	buttons or keys: ← Skip, ↑ Maybe, → Must; Z or Backspace undo (local only); Space or Enter open; N note;
-	Escape closes the note panel. Haptics: 8 ms on Skip, 14 on Must and Maybe. A tap opens the place or area sheet.
+	Escape closes the note panel. Later (↓, the clock button, or a drag down) sends the top card to the back of the
+	deck without a call; Find (F or /) lists every card left and brings the picked one to the top. Both only reorder
+	the deck in this browser. Haptics: 8 ms on Skip, 14 on Must and Maybe. A tap opens the place or area sheet.
 	The guest sees the deck and opens cards; the calls and the note are disabled.
 	Layout: the deck is one screen tall (deck-h), so the card and the buttons (Undo, Skip, Maybe, Must, Note) fit
 	without scrolling; on a phone the buttons sit just above the floating tab bar. From xl up a side panel shows this
 	round's calls, the cards up next and the keys.
 -->
 <script lang="ts">
+	import Clock from '@lucide/svelte/icons/clock';
 	import Info from '@lucide/svelte/icons/info';
 	import PenLine from '@lucide/svelte/icons/pen-line';
+	import Search from '@lucide/svelte/icons/search';
 	import Undo2 from '@lucide/svelte/icons/undo-2';
-	import { onDestroy, untrack } from 'svelte';
+	import { onDestroy, onMount, untrack } from 'svelte';
 	import { toast } from 'svelte-sonner';
 	import { resolve } from '$app/paths';
 	import PlaceSheet from '#lib/components/shared/PlaceSheet.svelte';
@@ -20,6 +24,7 @@
 	import PageHeader from '#lib/components/shell/PageHeader.svelte';
 	import { holdRefresh } from '#lib/components/shell/refresh.svelte.js';
 	import { Button } from '#lib/components/ui/button/index.js';
+	import * as Command from '#lib/components/ui/command/index.js';
 	import * as Empty from '#lib/components/ui/empty/index.js';
 	import { Kbd } from '#lib/components/ui/kbd/index.js';
 	import { Progress } from '#lib/components/ui/progress/index.js';
@@ -36,17 +41,22 @@
 	import DeckNotePanel from './DeckNotePanel.svelte';
 	import {
 		areaDeck,
+		arrangeDeck,
 		deckFilters,
 		hapticMs,
+		isLaterDrag,
 		KEY_VERDICT,
 		leanAmount,
 		leanOf,
 		leftByCountry,
+		pickFirst,
 		placeDeck,
+		putOff,
 		releaseVerdict,
+		SWIPE_DISTANCE,
 		TAP_SLOP,
 	} from './deck.ts';
-	import { deckFilter } from './local.svelte.ts';
+	import { deckFilter, deckOrder, loadDeckOrder, setDeckOrder } from './local.svelte.ts';
 
 	interface Props {
 		round: Round;
@@ -63,20 +73,20 @@
 		round === 'area' ? app.content.areas : app.content.places,
 	);
 	const filter = $derived(deckFilter[round]);
-	const items: Card[] = $derived(
+	const order = $derived(deckOrder[round]);
+	/** The cards left for a country filter, in deck order with the traveler's Later and Find choices applied. */
+	const deckFor = (f: string): Card[] =>
 		round === 'area'
-			? areaDeck(app.content.areas, app.content.countries, verdicts, filter).map((item) => ({
-					round: 'area' as const,
-					item,
-				}))
-			: placeDeck(
-					app.content.places,
-					app.content.areas,
-					app.content.countries,
-					verdicts,
-					filter,
-				).map((item) => ({ round: 'place' as const, item })),
-	);
+			? arrangeDeck(areaDeck(app.content.areas, app.content.countries, verdicts, f), order).map(
+					(item) => ({ round: 'area' as const, item }),
+				)
+			: arrangeDeck(
+					placeDeck(app.content.places, app.content.areas, app.content.countries, verdicts, f),
+					order,
+				).map((item) => ({ round: 'place' as const, item }));
+	const items: Card[] = $derived(deckFor(filter));
+	/** Every card left, whatever the country filter: the Find list. */
+	const allLeft: Card[] = $derived(filter === 'all' ? items : deckFor('all'));
 	const stack = $derived(items.slice(0, 3));
 	const top = $derived(stack[0]);
 	const done = $derived(all.filter((x) => verdicts[round][x.id] !== undefined).length);
@@ -199,7 +209,7 @@
 			let t0 = 0;
 			let pid = -1;
 			const stamps = (): NodeListOf<HTMLElement> => el.querySelectorAll('[data-stamp]');
-			const setLean = (lean: Verdict | null, amount: number): void => {
+			const setLean = (lean: Verdict | 'later' | null, amount: number): void => {
 				for (const s of stamps())
 					s.style.opacity = s.dataset['stamp'] === lean ? String(amount) : '';
 			};
@@ -225,7 +235,8 @@
 				if (Math.abs(dx) + Math.abs(dy) > TAP_SLOP) moved = true;
 				if (app.isGuest) return;
 				el.style.transform = `translate(${String(dx)}px, ${String(dy)}px) rotate(${String(dx * 0.05)}deg)`;
-				setLean(leanOf(dx, dy), leanAmount(dx, dy));
+				if (isLaterDrag(dx, dy, 30)) setLean('later', Math.min(1, dy / SWIPE_DISTANCE));
+				else setLean(leanOf(dx, dy), leanAmount(dx, dy));
 			};
 			const end = (): void => {
 				if (!dragging) return;
@@ -254,6 +265,13 @@
 					}, 450);
 					return;
 				}
+				if (verdict === null && !app.isGuest && isLaterDrag(dx, dy) && later()) {
+					// The card drops to the back of the stack: no spring back to the top.
+					el.style.transition = '';
+					el.style.transform = '';
+					setLean(null, 0);
+					return;
+				}
 				el.style.transition = 'transform .35s cubic-bezier(.2,1.4,.4,1)';
 				el.style.transform = '';
 				setLean(null, 0);
@@ -279,6 +297,28 @@
 		};
 	}
 
+	// ---- Later and Find: reorder the deck without making a call
+	let findOpen = $state(false);
+	const putOffIds = $derived(new Set(order.later));
+
+	function later(): boolean {
+		const card = top;
+		if (card === undefined || swiping || items.length < 2) return false;
+		noteOpen = false;
+		haptic(8);
+		setDeckOrder(round, putOff(order, card.item.id));
+		return true;
+	}
+
+	function pick(c: Card): void {
+		findOpen = false;
+		noteOpen = false;
+		setDeckOrder(round, pickFirst(order, c.item.id));
+		if (filter !== 'all' && c.item.country !== filter) deckFilter[round] = 'all';
+	}
+
+	onMount(loadDeckOrder);
+
 	function undo(): void {
 		if (undoLast(round) === null) return;
 		noteOpen = false;
@@ -289,13 +329,19 @@
 		const t = e.target;
 		if (t instanceof Element && t.closest('input, textarea, select, [contenteditable]')) return;
 		if (e.metaKey || e.ctrlKey || e.altKey) return;
-		if (sheet !== null) return; // the sheet handles Escape itself
+		if (sheet !== null || findOpen) return; // the sheet and the Find list handle their own keys
 		const k = KEY_VERDICT[e.key];
 		if (k !== undefined && top !== undefined) {
 			e.preventDefault();
 			if (app.isGuest) return;
 			press(k);
 			swipe(k);
+		} else if (e.key === 'ArrowDown' && top !== undefined) {
+			e.preventDefault();
+			later();
+		} else if ((e.key === 'f' || e.key === 'F' || e.key === '/') && allLeft.length > 0) {
+			e.preventDefault();
+			findOpen = true;
 		} else if (e.key === 'z' || e.key === 'Z' || e.key === 'Backspace') {
 			if (!canUndo(round)) return;
 			e.preventDefault();
@@ -354,8 +400,10 @@
 		['←', 'Skip'],
 		['↑', 'Maybe'],
 		['→', 'Must'],
+		['↓', 'Later'],
 		['Z', 'Undo'],
 		['N', 'Note'],
+		['F', 'Find'],
 		['Space', 'Details'],
 	] as const;
 </script>
@@ -383,6 +431,11 @@
 			'pointer-events-none absolute bottom-1/2 left-1/2 z-10 -translate-x-1/2 -rotate-4 rounded-xl border-4 border-current bg-background/90 px-3.5 py-2 text-3xl leading-none font-extrabold tracking-widest text-maybe uppercase opacity-0 shadow-soft',
 			lean === 'maybe' && 'opacity-100',
 		)}>Maybe</span
+	>
+	<span
+		data-stamp="later"
+		class="pointer-events-none absolute top-1/3 left-1/2 z-10 -translate-x-1/2 rotate-3 rounded-xl border-4 border-current bg-background/90 px-3.5 py-2 text-3xl leading-none font-extrabold tracking-widest text-muted-foreground uppercase opacity-0 shadow-soft"
+		>Later</span
 	>
 {/snippet}
 
@@ -466,17 +519,45 @@
 							{/if}
 						</ToggleGroup.Root>
 					</div>
+					{#if allLeft.length > 0}
+						<Button
+							variant="ghost"
+							size="sm"
+							class="shrink-0"
+							aria-label="Find a card (F)"
+							aria-keyshortcuts="F"
+							title="Find a card among the ones left (F)"
+							onclick={() => {
+								findOpen = true;
+							}}
+						>
+							<Search data-icon="inline-start" /><span class="max-md:sr-only">Find</span>
+						</Button>
+					{/if}
 					{#if stack.length > 0}
 						<Button
 							variant="ghost"
 							size="sm"
 							class="shrink-0"
+							disabled={items.length < 2}
+							aria-label="Later (↓)"
+							aria-keyshortcuts="ArrowDown"
+							title="Decide later: send this card to the back of the deck (↓)"
+							onclick={later}
+						>
+							<Clock data-icon="inline-start" /><span class="max-md:sr-only">Later</span>
+						</Button>
+						<Button
+							variant="ghost"
+							size="sm"
+							class="shrink-0"
+							aria-label="Details"
 							aria-keyshortcuts="Space"
 							onclick={() => {
 								if (top !== undefined) openCard(top);
 							}}
 						>
-							<Info data-icon="inline-start" />Details
+							<Info data-icon="inline-start" /><span class="max-md:sr-only">Details</span>
 						</Button>
 					{/if}
 				</div>
@@ -671,7 +752,16 @@
 
 				{#if upNext.length > 0}
 					<div class="flex flex-col gap-2 border-t border-border/70 pt-5">
-						<p class="eyebrow">Up next</p>
+						<div class="flex items-center justify-between gap-2">
+							<p class="eyebrow">Up next</p>
+							<Button
+								variant="link"
+								size="xs"
+								onclick={() => {
+									findOpen = true;
+								}}>All {allLeft.length} left</Button
+							>
+						</div>
 						<ul class="-mx-2 flex flex-col">
 							{#each upNext as c (`${c.round}:${c.item.id}`)}
 								<li>
@@ -713,13 +803,52 @@
 						{/each}
 					</dl>
 					<p class="text-xs text-muted-foreground">
-						Or drag the card: right for Must, left for Skip, up for Maybe. Click it for the details.
+						Or drag the card: right for Must, left for Skip, up for Maybe, down for Later. Click it
+						for the details.
 					</p>
 				</div>
 			</aside>
 		</div>
 	</section>
 {/if}
+
+<Command.Dialog
+	bind:open={findOpen}
+	title="Find a card"
+	description="Every card left to decide. Pick one to bring it to the top of the deck."
+>
+	<Command.Input placeholder={`Search the ${String(allLeft.length)} cards left…`} />
+	<Command.List>
+		<Command.Empty>No card left matches.</Command.Empty>
+		{#each allLeft as c (`${c.round}:${c.item.id}`)}
+			{@const where =
+				c.round === 'area'
+					? (c.item.region ?? countryName(c.item.country))
+					: `${c.item.cityName} · ${c.item.card.categoryLabel}`}
+			<Command.Item
+				value={c.item.id}
+				keywords={[c.item.name, where, countryName(c.item.country)]}
+				data-find-card={c.item.id}
+				onSelect={() => {
+					pick(c);
+				}}
+			>
+				<span aria-hidden="true"
+					>{c.round === 'area' ? c.item.flag || '🗺️' : c.item.card.categoryIcon}</span
+				>
+				<span class="flex min-w-0 flex-1 flex-col">
+					<span class="truncate font-medium">{c.item.name}</span>
+					<span class="truncate text-xs text-muted-foreground">{where}</span>
+				</span>
+				{#if putOffIds.has(c.item.id)}
+					<span class="shrink-0 rounded-full bg-muted px-2 py-0.5 text-xs text-muted-foreground"
+						>Later</span
+					>
+				{/if}
+			</Command.Item>
+		{/each}
+	</Command.List>
+</Command.Dialog>
 
 <PlaceSheet
 	target={sheet}

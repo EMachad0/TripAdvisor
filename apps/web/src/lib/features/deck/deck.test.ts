@@ -3,16 +3,20 @@ import type { ContentArea, ContentPlace } from '#lib/content/types.js';
 import {
 	ALL_CALLS,
 	areaDeck,
+	arrangeDeck,
 	callItems,
 	deckFilters,
 	filterCalls,
 	groupByCountry,
 	hapticMs,
+	isLaterDrag,
 	KEY_VERDICT,
 	leanAmount,
 	leanOf,
 	leftByCountry,
+	pickFirst,
 	placeDeck,
+	putOff,
 	releaseVerdict,
 	toggleCallsFilter,
 	type VerdictMap,
@@ -201,5 +205,40 @@ describe('My calls', () => {
 			['korea', 1],
 			['japan', 1],
 		]);
+	});
+});
+
+describe('Later and Find', () => {
+	const cards = ['a', 'b', 'c', 'd'].map((id) => ({ id }));
+	const ids = (xs: readonly { id: string }[]): string => xs.map((x) => x.id).join('');
+	it('keeps the deck order when nothing was put off or picked', () => {
+		expect(ids(arrangeDeck(cards, { first: null, later: [] }))).toBe('abcd');
+	});
+	it('sends put-off cards to the back in the order they were put off', () => {
+		expect(ids(arrangeDeck(cards, { first: null, later: ['c', 'a'] }))).toBe('bdca');
+	});
+	it('brings the picked card to the top, and ignores ids no longer in the deck', () => {
+		expect(ids(arrangeDeck(cards, { first: 'c', later: ['a', 'gone'] }))).toBe('cbda');
+		expect(ids(arrangeDeck(cards, { first: 'gone', later: [] }))).toBe('abcd');
+	});
+	it('putOff moves a card behind the earlier put-offs and unpicks it', () => {
+		expect(putOff({ first: 'a', later: ['a', 'b'] }, 'a')).toEqual({
+			first: null,
+			later: ['b', 'a'],
+		});
+		expect(putOff({ first: 'c', later: [] }, 'a')).toEqual({ first: 'c', later: ['a'] });
+	});
+	it('pickFirst takes a card out of the put-offs', () => {
+		expect(pickFirst({ first: null, later: ['a', 'b'] }, 'a')).toEqual({
+			first: 'a',
+			later: ['b'],
+		});
+	});
+	it('a drag means Later only when it goes mostly down, past the distance', () => {
+		expect(isLaterDrag(0, 120)).toBe(true);
+		expect(isLaterDrag(0, 100)).toBe(false);
+		expect(isLaterDrag(130, 120)).toBe(false);
+		expect(isLaterDrag(0, -120)).toBe(false);
+		expect(isLaterDrag(10, 40, 30)).toBe(true);
 	});
 });
