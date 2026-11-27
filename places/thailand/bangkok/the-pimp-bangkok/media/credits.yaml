@@ -1,0 +1,42 @@
+# Photo credits — written by `./atr media`. One entry per image; `file` is the name used in place.yaml.
+- file: live-zone
+  title: 695a61a1ac968c6b7384fb92_pimp-161.jpeg
+  author: The PIMP Bangkok
+  license: All rights reserved (personal use)
+  source_url: https://www.pimpbangkok.com/live-music-zone
+  original_url: https://cdn.prod.website-files.com/5f972aac086b5ecfd0538315/695a61a1ac968c6b7384fb92_pimp-161.jpeg
+  width: 3000
+  height: 2000
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-26
+  origin: web
+- file: stage-show
+  title: 69d62283f7c42fe1e30aac14_DSC03282.jpeg
+  author: The PIMP Bangkok
+  license: All rights reserved (personal use)
+  source_url: https://www.pimpbangkok.com/live-music-zone
+  original_url: https://cdn.prod.website-files.com/5f972aac086b5ecfd0538315/69d62283f7c42fe1e30aac14_DSC03282.jpeg
+  width: 2048
+  height: 1365
+  widths:
+    - 640
+    - 1280
+    - 2048
+  fetched: 2026-11-26
+  origin: web
+- file: party-room
+  title: 6018014fd2e3e77f0f309a8c_open-graph-private-room.jpg
+  author: The PIMP Bangkok
+  license: All rights reserved (personal use)
+  source_url: https://www.pimpbangkok.com/private-rooms
+  original_url: https://cdn.prod.website-files.com/5f972aac086b5ecfd0538315/6018014fd2e3e77f0f309a8c_open-graph-private-room.jpg
+  width: 1200
+  height: 630
+  widths:
+    - 640
+    - 1200
+  fetched: 2026-11-26
+  origin: web

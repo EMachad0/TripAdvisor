@@ -1,0 +1,19 @@
+# Independent review of the-pimp-bangkok. Written by `./atr review`; do not edit by hand.
+id: the-pimp-bangkok
+type: place
+reviewed: 2026-11-26
+verdict: pass
+content_hash: 729765ec9b94656d4983ae481bfaf1cc063b4b9c9d0d344a53136a04ee9f82e2
+facts:
+  supported: 5
+  unsupported: 0
+  contradicted: 0
+issues: []
+resolved:
+  - field: blocks[0].image
+    problem: "The hero still has no photo, so the card opens without showing the venue. The curator's reason, that only licensed photos were allowed, is wrong: the guide says photos do not need a free licence."
+    evidence: The hero is now `live-zone`, the venue's own photo taken from https://www.pimpbangkok.com/live-music-zone (695a61a1…_pimp-161.jpeg is served on that page). The desktop render shows the PIMP sign, the stage and the crowd. The licence claim is gone from confidence_note, and ./atr validate passes.
+rereview_of: c1b6457c87db47e07fdb0522160ec29b9fc0b7e52dacea196dfc1c8903ef3d15
+summary: The earlier finding is resolved. The hero and both gallery photos come from pimpbangkok.com (the Live Zone and Private Rooms pages) and show this venue as their captions say. The Thaiger note now matches the article ("at its Sukhumvit venue"), and the new confidence_note is accurate. Nothing new is wrong on the page, and it renders cleanly on phone (light theme) and desktop (dark theme).
+model: claude-opus-5-5
+cost_usd: 0.321

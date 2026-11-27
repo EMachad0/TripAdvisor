@@ -1,0 +1,160 @@
+id: the-pimp-bangkok
+name: "The Pimp Bangkok"
+short_name: The Pimp
+country: thailand
+city: bangkok
+area: "Wang Thonglang"
+category: nightlife
+fame: hidden
+tags: [adult, gentlemens-club, hostess-club, live-music, weekend-night]
+kind: Do
+why: "A gold-and-black gentlemen's club with live bands and 200+ hostesses you pay by the hour, not by the drink. ฿3,000 minimum spend: a splurge."
+
+cost:
+  local: 3000
+  currency: THB
+  brl: 507.6
+  note: "Minimum spend per person at a table or the bar, no door fee (official). A hostess is ฿2,000–3,000 more for the 1st hour"
+fx: { rate: 0.1692, date: 2026-11-26, source: "frankfurter.dev (ECB reference rate)" }
+
+time_needed: "2–3 h"
+best_time: "Sat 9 Jan, after 22:00"
+
+book_ahead:
+  required: false
+
+hours:
+  summary: "Daily from 20:00 \"until late\" (FAQ); live bands 22:00–03:00 nightly, DJs Fri–Sat. A 2026 directory gives 03:00 close"
+  closed: "Buddhist holidays (official FAQ)"
+  winter: "Indoors, so the season doesn't matter. The FAQ says it opens every day including public holidays, except Buddhist holidays; no holiday dates for January 2027 are posted. Still trading in 2026: it held its 15th-anniversary party on 20 March (The Thaiger, which loosely says \"Sukhumvit\") and a directory updated October 2026 lists it open daily."
+
+location:
+  address: "496 Soi Rotchanamin, off Pracha Uthit Rd (opposite the PT gas station), Wang Thonglang, Bangkok 10310"
+  address_local: "496 ซอย โรจนมิน ถนนประชาอุทิศ แขวงวังทองหลาง เขตวังทองหลาง กรุงเทพมหานคร 10310"
+  lat: 13.76776
+  lng: 100.60121
+  nearest_transit: "No station nearby: Grab or taxi. MRT Lat Phrao 71 (Yellow) is ~2.3 km"
+
+sources:
+  - url: https://www.pimpbangkok.com/
+    title: "The PIMP Bangkok official site: gentlemen's club, Live Zone bands 22:00–03:00, DJs Fri–Sat, address, phone"
+    checked: 2026-11-26
+  - url: https://www.pimpbangkok.com/prices
+    title: "Official prices: ฿3,000 minimum spend, bottles from ฿6,000, hostess hourly rates, room fees, worked examples, net incl. VAT"
+    checked: 2026-11-26
+  - url: https://www.pimpbangkok.com/packages
+    title: "Official packages: solo HUSTLER ฿8,250 and TRIGGER ฿12,000; items outside a package are added to the bill"
+    checked: 2026-11-26
+  - url: https://www.pimpbangkok.com/faq
+    title: "Official FAQ: open daily from 20:00 except Buddhist holidays, no door fee, casual dress, 21+, ID, payment, location"
+    checked: 2026-11-26
+  - url: https://www.pimpbangkok.com/party-models
+    title: "Official party-models page: 200+ models, four types, paid by time not drinks, no escort service"
+    checked: 2026-11-26
+  - url: https://www.pimpbangkok.com/about
+    title: "Official about page: founded 2011, moved to Pracha Uthit Rd in 2012, VIP wing 2017, pool zone 2020"
+    checked: 2026-11-26
+  - url: https://www.google.com/maps/search/The+Pimp+Bangkok+Rotchanamin
+    title: "THE PIMP CLUB BANGKOK on Google Maps: 4.4 from 408 reviews, opens 20:00, pin and Thai address (JS page, read via ./atr render 26 Nov)"
+    checked: 2026-11-26
+  - url: https://www.visitthailandtoday.com/nightlife/bangkok/the-pimp-club-bangkok
+    title: "The Pimp Club Bangkok: daily 20:00–03:00, address, premium price level (Visit Thailand Today, updated Oct 2026)"
+    checked: 2026-11-26
+  - url: https://thethaiger.com/hot-news/events/the-pimp-bangkok-15-years-dynasty-xv
+    title: "The Pimp Bangkok marks 15 years with Dynasty XV, 20 March 2026 (The Thaiger, 5 Apr 2026; says \"Sukhumvit venue\", club is in Wang Thonglang)"
+    checked: 2026-11-26
+  - url: https://theo-courant.com/en/bangkok-nana-plaza-red-light-district/
+    title: "Nana Plaza prices: beer and lady drinks ฿150–200, bar fine ฿600–800 (Theo Courant, 8 Mar 2026)"
+    checked: 2026-11-26
+  - url: https://www.openstreetmap.org/?mlat=13.78709&mlon=100.60757#map=17/13.78709/100.60757
+    title: "Lat Phrao 71 station, MRT Yellow Line (OpenStreetMap)"
+    checked: 2026-11-26
+  - url: https://en.wikipedia.org/wiki/Prostitution_in_Thailand
+    title: "Prostitution in Thailand: the 1996 Act and its enforcement (Wikipedia)"
+    checked: 2026-11-26
+  - url: https://en.wikipedia.org/wiki/Bangkok
+    title: "Bangkok: climate table (Wikipedia)"
+    checked: 2026-11-26
+confidence: medium
+confidence_note: "Prices, hours and rules are from the venue's own site; no independent 2025–26 review with prices was found. Its own worked example lists items adding to ฿11,000 but shows ฿10,500. One directory (The Discreet Gentleman) places it on Ratchada with different prices and a smart-casual code; it contradicts the official site, so it is not used. Photos are the venue's own."
+last_updated: 2026-11-26
+
+blocks:
+  - type: hero
+    image: live-zone
+    caption: "The Live Zone on a band night: the PIMP sign over the stage, tables packed below (venue photo)"
+    hook: "Live bands under gold and black, a VIP host who brings the women to your table, and a meter that runs by the hour."
+  - type: quick_facts
+    time_needed: "2–3 h"
+    best_time: "Sat 9 Jan, after 22:00"
+    extra:
+      - { label: Slot, value: "Sat 9 Jan only", detail: "Weeknights are work nights; the bands play 22:00–03:00" }
+      - { label: Entry, value: "No door fee", detail: "฿3,000 food-and-drink minimum per person (official)" }
+      - { label: Bring, value: "Passport, 21+", detail: "A photo of your ID is accepted (official FAQ)" }
+  - type: highlights
+    items:
+      - title: A club, not a bar strip
+        text: "One big venue with a **Live Zone** stage (bands nightly 22:00–03:00, DJs Fri–Sat), VIP sofas, private rooms with karaoke and a pool zone. It has run since **2011** and moved to Pracha Uthit Road in 2012."
+      - title: You pay for time, not lady drinks
+        text: "The official site says hostesses share your bottle instead of ordering lady drinks: you pay for **her time**. A PR girl is ฿2,000 for the 1st hour, a dancer, bikini model or \"PIMP Cat\" ฿3,000, then ฿1,000 per extra hour each."
+      - title: Over 200 women a night
+        text: "The venue claims **200+** party models nightly in four types, assigned by a **VIP host** who asks what you like. Its lingerie-clad \"PIMP Cats\" do the stage shows."
+      - title: Solo packages
+        text: "Solo guests are welcome. The cheapest package, **HUSTLER**, is ฿8,250 for 3 hours with one model and 3 litres of Heineken draft; **TRIGGER** swaps the beer for a bottle at ฿12,000."
+  - type: gallery
+    images:
+      - { file: stage-show, caption: "A singer and costumed dancers on the Live Zone stage (venue photo)" }
+      - { file: party-room, caption: "One of the private party rooms with sofas and a stage (venue photo)" }
+  - type: prose
+    title: How it compares to Nana Plaza and Soi Cowboy
+    dropcap: true
+    text: |-
+      At **Nana Plaza** or **Soi Cowboy** you walk in free, a beer is about ฿150–200 and a lady drink about the same (2026 prices), so an hour of watching costs a few hundred baht. The Pimp works the other way round: there's no door fee, but sitting down at all means a **฿3,000 minimum spend** per person, and the company is billed by the hour. It's a private-party club for groups with a budget, far from Sukhumvit, not a strip you wander through.
+
+      The official site says it is **not a brothel** and doesn't send models out; after closing you can invite one to carry on the party, and whether she comes is up to her. No bar fine or off fee is published. Wikipedia notes that the 1996 Prostitution Act makes soliciting and running sex work illegal, which is why venues word it this way.
+
+      For your budget this is a hard sell. ฿3,000 (about R$508) is five days of your "everything else" money in Thailand, and a realistic night with one hostess is ฿8,000–11,000 (R$1,400–1,900). Go only if a Thai hostess club is the one splurge you want; Nana Plaza and Soi Cowboy show you Bangkok's adult nightlife for a small fraction of that.
+  - type: menu
+    title: Official prices (Nov 2026)
+    items:
+      - { name: "Minimum spend, table or bar", price_local: 3000, price_brl: 507.6, note: "Per person, food and drink; no door fee", tag: cheap }
+      - { name: "PR girl, 1st hour", price_local: 2000, price_brl: 338.4, note: "Then ฿1,000 per extra hour" }
+      - { name: "Dancer, bikini model or PIMP Cat, 1st hour", price_local: 3000, price_brl: 507.6, note: "Then ฿1,000 per extra hour" }
+      - { name: "Bottle of spirits", price_local: 6000, price_brl: 1015.2, note: "\"Bottles start at ฿6,000\"; packages from ฿20,000", tag: drink }
+      - { name: "HUSTLER solo package", price_local: 8250, price_brl: 1395.9, note: "3 h, 1 model, 3 L Heineken draft; +฿1,000/h", tag: signature }
+      - { name: "TRIGGER solo package", price_local: 12000, price_brl: 2030.4, note: "3 h, 1 model, 1 bottle; +฿1,000/h" }
+      - { name: "VIP host service", price_local: 1000, price_brl: 169.2, note: "In all three official worked examples" }
+    note: "All prices net with VAT, no service charge, tips optional (official). Single beer and cocktail prices are not published. Amex adds 5%."
+  - type: cost_breakdown
+    items:
+      - { label: "Minimum spend at a table or the bar", local: 3000, brl: 507.6 }
+      - { label: "A PR girl for 1 hour, if you invite one", local: 2000, brl: 338.4, optional: true }
+      - { label: "VIP host fee (in the official examples)", local: 1000, brl: 169.2, optional: true }
+  - type: map
+    note: "In **Soi Rotchanamin**, opposite the PT gas station on Pracha Uthit Road (official FAQ). No train stops close: take a **Grab** and search \"The Pimp Club Bangkok\". The venue says it can arrange transport; ask on LINE or by phone (+66 87 360 3666)."
+  - type: tips
+    variant: insider
+    items:
+      - "**Slot: Sat 9 Jan**, your only free Bangkok night. The bands start at 22:00."
+      - "From the Nana area it is about 6 km in a straight line (our measurement); the venue says 12 minutes from upper Sukhumvit. Check the fare in the Grab app before you book it."
+      - "Solo, the **HUSTLER** package (฿8,250) is the cheapest way to have company; it fixes the price for 3 hours."
+      - "Dress code is casual per the FAQ, and women are welcome too, so a mixed hostel group can go."
+  - type: tips
+    variant: pitfalls
+    items:
+      - "**The meter runs per woman, per hour.** Every hostess you invite adds ฿2,000–3,000 for the first hour and ฿1,000 each hour after. Agree who sits with you and for how long before they sit down."
+      - "Anything not in your package is **added to the bill** (official). The FAQ even recommends that non-drinkers \"open a bottle for the girls\"."
+      - "Check the bill line by line: the venue's own worked example lists items adding to ฿11,000 but prints ฿10,500. Card charges show as **PBK**."
+      - "No independent recent review was found: Google's 4.4 (408 reviews; Visit Thailand Today shows the same) shows short, glowing posts with owner replies. The site's \"Top Gentlemen's Club in Thailand\" award is its own claim."
+  - type: weather
+    temp_low_c: 23
+    temp_high_c: 33
+    conditions: "Dry season: warm nights"
+    note: "Indoors and door to door by Grab, so the weather barely matters."
+    wear: "Casual is fine (official FAQ); bring your passport"
+  - type: pairs_well
+    items:
+      - { id: nana-hotel-bangkok, note: "Where you may sleep: a Grab ride away, across town on Soi 4" }
+      - { id: nana-plaza, note: "Free entry and ฿160 beers: the cheap way to see adult Bangkok" }
+      - { id: soi-cowboy, note: "The open-street strip one BTS stop from Nana" }
+      - { id: onyx-rca-club, note: "A normal big club on RCA, ฿400 with a drink" }
